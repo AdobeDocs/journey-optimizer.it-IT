@@ -1,0 +1,60 @@
+---
+title: Informazioni sugli eventi
+description: Informazioni sugli eventi
+translation-type: tm+mt
+source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+workflow-type: tm+mt
+source-wordcount: '724'
+ht-degree: 32%
+
+---
+
+# Informazioni sugli eventi{#concept_gfj_fqt_52b}
+
+![](../assets/do-not-localize/badge.png)
+
+>[!CONTEXTUALHELP]
+>id="jo_events"
+>title="Informazioni sugli eventi"
+>abstract="Un evento è collegato a una persona e si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Optimizer] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente."
+
+La configurazione dell’evento consente di definire le informazioni che [!DNL Journey Optimizer] riceverà sotto forma di eventi. È possibile utilizzare più eventi (in diversi passaggi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
+
+>[!CAUTION]
+>
+>La configurazione dell&#39;evento è **obbligatoria** e deve essere eseguita da un **utente tecnico**.
+
+Puoi configurare due tipi di eventi:
+
+* **** Eventi militari: questi eventi sono collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Optimizer] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente. Gli eventi secondari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
+
+* **** Eventi aziendali: un evento aziendale è un evento che, a differenza di un evento unitario, non è collegato a un profilo specifico. Ad esempio, può essere un avviso di news, un aggiornamento sportivo, un cambiamento o cancellazione del volo, un aggiornamento dell&#39;inventario, eventi meteo, ecc. Anche se questi eventi non sono specifici per un profilo, possono interessare un qualsiasi numero di profili: persone abbonate a particolari argomenti d&#39;informazione, passeggeri su un volo, acquirenti interessati a un prodotto esaurito, ecc. Gli eventi aziendali sono sempre basati su regole. Quando rilasci un evento aziendale in un percorso, aggiunge automaticamente un&#39;attività **Read segment** subito dopo. Per informazioni su come creare un evento aziendale, consulta questa [pagina](../event/about-creating-business.md).
+
+
+>[!NOTE]
+>
+>Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live, puoi cambiare solo il nome e la descrizione oppure aggiungere i campi payload. Al fine di evitare l’interruzione dei percorsi, limitiamo rigorosamente la modifica delle bozze di percorso o dei percorsi live.
+
+## Tipo ID evento{#event-id-type}
+
+Per gli eventi aziendali, il tipo di ID evento è sempre basato su regole.
+
+Per gli eventi unitari, sono disponibili due tipi di ID evento:
+
+* **Eventi** basati sulle regole: questo tipo di evento non genera un eventID. Utilizzando l’editor di espressioni semplici, puoi semplicemente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+
+   >[!CAUTION]
+   >
+   >Per gli eventi basati su regole viene definita una regola di limitazione. Limita il numero di eventi qualificati che un percorso può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Optimizer. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+
+* **Sviluppatori** di sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload.
+
+## Ciclo dei dati {#section_r1f_xqt_pgb}
+
+Gli eventi sono chiamate API POST. Gli eventi vengono inviati a Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite le API di messaggistica transazionale è denominata “entrata”. Il payload degli eventi segue la formattazione XDM.
+
+Nell’intestazione del payload sono contenute le informazioni necessarie per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie al funzionamento di [!DNL Journey Optimizer] e alle informazioni da utilizzare nei percorsi (ad esempio, nel corpo, la quantità di un carrello abbandonato). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+
+Una volta arrivati tramite le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano a Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
+
+Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentano un payload contenente [!DNL Journey Optimizer] eventIDs (vedi il processo di creazione dell’evento riportato di seguito) fornito da [!DNL Journey Optimizer] e contenuto nel payload dell’evento. Per gli eventi basati su regole, il sistema identifica l&#39;evento utilizzando la condizione eventID . [!DNL Journey Optimizer] fa da listener agli eventi, il che attiva il percorso corrispondente.
