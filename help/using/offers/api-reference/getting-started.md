@@ -1,0 +1,135 @@
+---
+title: Introduzione
+description: Scopri come iniziare a utilizzare l’API della Libreria offerte per eseguire operazioni chiave utilizzando il motore di gestione delle decisioni.
+translation-type: tm+mt
+source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+workflow-type: tm+mt
+source-wordcount: '608'
+ht-degree: 5%
+
+---
+
+# Guida per gli sviluppatori API per la gestione delle decisioni
+
+Questa guida per gli sviluppatori descrive i passaggi necessari per iniziare a utilizzare l’ API [!DNL Offer Library] . La guida fornisce quindi un esempio di chiamate API per eseguire operazioni chiave utilizzando il modulo di gestione delle decisioni.
+
+![](../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+
+## Prerequisiti
+
+Questa guida richiede una buona comprensione dei seguenti componenti di Adobe Experience Platform:
+
+* [[!DNL Experience Data Model (XDM) System]](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/home.html): Il framework standardizzato in base al quale  [!DNL Experience Platform] vengono organizzati i dati sulla customer experience.
+   * [Nozioni di base sulla composizione](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) dello schema: Scopri i blocchi di base degli schemi XDM.
+* [Gestione](../../../using/offers/get-started/starting-offer-decisioning.md) delle decisioni: Spiega i concetti e i componenti utilizzati per Experience Decisioning in generale e in particolare per l’Offer decisioning. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
+* [[!DNL Profile Query Language (PQL)]](https://docs.adobe.com/content/help/en/experience-platform/segmentation/pql/overview.html): PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole decisionali.
+
+## Lettura di chiamate API di esempio
+
+Questa guida fornisce esempi di chiamate API per dimostrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richiesta formattati correttamente. Viene inoltre fornito un esempio di codice JSON restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione su [come leggere le chiamate API di esempio](https://docs.adobe.com/content/help/en/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) nella guida alla risoluzione dei problemi di [!DNL Experience Platform] .
+
+## Raccogli i valori delle intestazioni richieste
+
+Per effettuare chiamate alle API [!DNL Platform], devi prima completare l’ [esercitazione sull’autenticazione](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html). Il completamento dell’esercitazione di autenticazione fornisce i valori per ciascuna delle intestazioni richieste in tutte le chiamate API [!DNL Experience Platform], come mostrato di seguito:
+
+* `Authorization: Bearer {ACCESS_TOKEN}`
+* `x-api-key: {API_KEY}`
+* `x-gw-ims-org-id: {IMS_ORG}`
+
+Tutte le richieste che contengono un payload (POST, PUT, PATCH) richiedono un’intestazione aggiuntiva:
+
+* `Content-Type: application/json`
+
+## Gestire l’accesso a un contenitore
+
+Un contenitore è un meccanismo di isolamento per tenere separate le diverse preoccupazioni. L’ID contenitore è il primo elemento del percorso per tutte le API dell’archivio. Tutti gli oggetti decisionali risiedono all&#39;interno di un contenitore.
+
+Un amministratore può raggruppare entità, risorse e autorizzazioni di accesso simili in profili. Questo riduce il carico di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Devi essere un amministratore di prodotto per Adobe Experience Platform nella tua organizzazione per creare profili e assegnare loro gli utenti. È sufficiente creare profili di prodotto che corrispondano a determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi a cui sono state concesse autorizzazioni e ogni utente effettivo o tecnico del gruppo eredita tali autorizzazioni.
+
+Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/). Per ulteriori informazioni, vedere la [Panoramica sul controllo di accesso](https://docs.adobe.com/content/help/it-IT/experience-platform/access-control/home.html).
+
+### Elencare contenitori accessibili a utenti e integrazioni
+
+**Formato API**
+
+```http
+GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
+```
+
+| Parametro | Descrizione | Esempio |
+| --------- | ----------- | ------- |
+| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{PRODUCT_CONTEXT}` | Filtra l’elenco dei contenitori in base alla loro associazione ai contesti di prodotto. | `acp` |
+| `{PROPERTY}` | Filtra il tipo di contenitore restituito. | `_instance.containerType==decisioning` |
+
+**Richiesta**
+
+```shell
+curl -X GET \
+  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
+```
+
+**Risposta**
+
+Una risposta corretta restituisce informazioni relative ai contenitori di gestione delle decisioni. Ciò include un attributo `instanceId` il cui valore è l&#39;ID del contenitore.
+
+```json
+{
+    "_embedded": {
+        "https://ns.adobe.com/experience/xcore/container": [
+            {
+                "instanceId": "{INSTANCE_ID}",
+                "schemas": [
+                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
+                ],
+                "productContexts": [
+                    "acp"
+                ],
+                "repo:etag": 2,
+                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
+                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
+                "repo:createdBy": "{CREATED_BY}",
+                "repo:lastModifiedBy": "{MODIFIED_BY}",
+                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
+                "_instance": {
+                    "containerType": "decisioning",
+                    "repo:name": "{REPO_NAME}",
+                    "dataCenter": "{DATA_CENTER}",
+                    "parentName": "{PARENT_NAME}",
+                    "parentId": "{PARENT_ID}"
+                },
+                "_links": {
+                    "self": {
+                        "href": "/containers/{INSTANCE_ID}"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "/?product=acp&property=_instance.containerType==decisioning",
+            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
+        }
+    }
+}
+```
+
+## Passaggi successivi
+
+Questo documento illustra le conoscenze preliminari necessarie per effettuare chiamate all’ API [!DNL Offer Library] , inclusa l’acquisizione dell’ID contenitore. Ora puoi passare alle chiamate di esempio fornite in questa guida per gli sviluppatori e seguire le relative istruzioni.
+
+## Video tutorial {#video}
+
+Il seguente video è pensato per aiutarti a comprendere i componenti di Gestione delle decisioni.
+
+>[!NOTE]
+>
+>Questo video si applica al servizio di applicazione Offer Decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
