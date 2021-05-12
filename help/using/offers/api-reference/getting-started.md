@@ -2,7 +2,7 @@
 title: Introduzione
 description: Scopri come iniziare a utilizzare l’API della Libreria offerte per eseguire operazioni chiave utilizzando il motore di gestione delle decisioni.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 5%
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 Questa guida per gli sviluppatori descrive i passaggi necessari per iniziare a utilizzare l’ API [!DNL Offer Library] . La guida fornisce quindi un esempio di chiamate API per eseguire operazioni chiave utilizzando il modulo di gestione delle decisioni.
 
-![](../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
 ## Prerequisiti
 
