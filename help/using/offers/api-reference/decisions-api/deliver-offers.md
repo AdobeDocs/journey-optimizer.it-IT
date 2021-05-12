@@ -2,7 +2,7 @@
 title: Consegnare offerte
 description: Gestione delle decisioni è una raccolta di servizi e programmi dell’interfaccia utente che consente agli esperti di marketing di creare e fornire esperienze di offerta personalizzate dagli utenti finali su canali e applicazioni utilizzando regole decisionali e logiche di business.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -17,7 +17,7 @@ Puoi creare e distribuire le offerte effettuando una richiesta POST all’ API [
 
 Questa esercitazione richiede una comprensione funzionante delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori dell&#39;API di gestione delle decisioni](../getting-started.md). Questa esercitazione richiede anche che sia disponibile un ID di posizionamento e un valore dell&#39;ID decisione univoci. Se non hai acquisito questi valori, consulta le esercitazioni per [creare un posizionamento](../offers-api/placements/create.md) e [creare una decisione](../activities-api/activities/create.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](../../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
 ## Intestazioni Accept e Content-Type
 
