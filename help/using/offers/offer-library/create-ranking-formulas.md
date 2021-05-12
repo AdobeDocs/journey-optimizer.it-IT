@@ -2,7 +2,7 @@
 title: Creare formule di classificazione
 description: Scopri come creare formule di classificazione in Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -27,16 +27,16 @@ Per creare una formula di classificazione, segui i passaggi seguenti:
 
 * Fare clic su **[!UICONTROL Create formula]** per creare una nuova formula di classificazione.
 
-   ![](../assets/ranking-create-formula.png)
+   ![](../../assets/ranking-create-formula.png)
 
 * Specificare il nome, la descrizione e la formula della formula di classificazione.
 
    In questo esempio, vogliamo aumentare la priorità di tutte le offerte con l’attributo &quot;caldo&quot; se il tempo effettivo è caldo. A questo scopo, il **contextData.weather=hot** è stato passato nella chiamata decisionale.
 
-   ![](../assets/ranking-syntax.png)
+   ![](../../assets/ranking-syntax.png)
 
 * Fai clic su **[!UICONTROL Save]**. La formula di classificazione viene creata, è possibile selezionarla dall&#39;elenco per ottenere i dettagli e modificarla o eliminarla.
 
    È ora pronto per essere utilizzato in una decisione per classificare le offerte idonee per un posizionamento (consulta [Configurare la selezione di offerte nelle decisioni](../offer-activities/configure-offer-selection.md)).
 
-   ![](../assets/ranking-formula-created.png)
+   ![](../../assets/ranking-formula-created.png)
