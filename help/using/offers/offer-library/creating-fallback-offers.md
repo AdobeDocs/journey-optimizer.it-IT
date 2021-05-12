@@ -2,7 +2,7 @@
 title: Creare offerte di fallback
 description: Scopri come creare offerte in Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 L’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte. I passaggi per creare un’offerta di fallback consistono nella creazione di una o più rappresentazioni, ad esempio durante la creazione di un’offerta.
 
-![](../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
 L’elenco delle offerte di fallback è accessibile nel menu **[!UICONTROL Offers]** .
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
@@ -27,27 +27,27 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
 1. Fare clic su **[!UICONTROL Create offer]**, quindi selezionare **[!UICONTROL Fallback offer]**.
 
-   ![](../assets/create_fallback.png)
+   ![](../../assets/create_fallback.png)
 
 1. Specifica il nome dell’offerta di fallback. Puoi anche associare uno o più tag esistenti, per effettuare ricerche e organizzare più facilmente la Libreria offerte.
 
-   ![](../assets/fallback_details.png)
+   ![](../../assets/fallback_details.png)
 
 1. Crea una o più rappresentazioni per l’offerta di fallback. A questo scopo, trascina e rilascia i posizionamenti dal riquadro a sinistra, ad esempio durante la creazione di un’offerta personalizzata. Consulta [Creare offerte personalizzate](../offer-library/creating-personalized-offers.md).
 
-   ![](../assets/fallback_content.png)
+   ![](../../assets/fallback_content.png)
 
 1. Una volta aggiunte le rappresentazioni dell’offerta di fallback, viene visualizzato un riepilogo. Se tutto è configurato correttamente e la tua offerta di fallback è pronta per essere presentata ai clienti, fai clic su **[!UICONTROL Finish]**, quindi seleziona **[!UICONTROL Save and approve]**.
 
    Puoi anche salvare l’offerta di fallback come bozza, per modificarla e approvarla in un secondo momento.
 
-   ![](../assets/fallback_review.png)
+   ![](../../assets/fallback_review.png)
 
 1. L’offerta di fallback viene visualizzata nell’elenco con lo stato **[!UICONTROL Live]** o **[!UICONTROL Draft]** , a seconda che sia stata approvata o meno nel passaggio precedente.
 
    È ora pronto per essere consegnato ai clienti. È possibile selezionarlo per visualizzarne le proprietà e modificarlo. <!-- no suppression? -->
 
-   ![](../assets/fallback_created.png)
+   ![](../../assets/fallback_created.png)
 
 ## Video tutorial {#video}
 
