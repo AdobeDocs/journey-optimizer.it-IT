@@ -2,7 +2,7 @@
 title: Create placements (Creare posizionamenti)
 description: Scopri come creare posizionamenti in Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 14%
@@ -13,21 +13,21 @@ ht-degree: 14%
 
 Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
-![](../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
 
 Nell’esempio seguente sono presenti tre posizioni, corrispondenti a diversi tipi di contenuto (immagine, testo, HTML).
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
 L’elenco dei posizionamenti è accessibile nel menu **[!UICONTROL Components]** . Sono disponibili filtri per recuperare i posizionamenti in base a un canale o contenuto specifico.
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 Per creare un posizionamento, effettua le seguenti operazioni:
 
 1. Fai clic su **[!UICONTROL Create placement]**.
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. Definisci le proprietà del posizionamento:
 
@@ -36,13 +36,13 @@ Per creare un posizionamento, effettua le seguenti operazioni:
    * **[!UICONTROL Content type]**: Il tipo di contenuto che il posizionamento può visualizzare: Collegamento testo, HTML o immagine.
    * **[!UICONTROL Description]**: Una descrizione del posizionamento (facoltativo).
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 
 1. Una volta creato, il posizionamento viene visualizzato nell’elenco dei posizionamenti. È possibile selezionarlo per visualizzarne le proprietà e modificarlo.
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
 ## Video tutorial {#video}
 
