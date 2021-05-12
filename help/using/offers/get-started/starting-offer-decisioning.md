@@ -2,7 +2,7 @@
 title: Guida introduttiva alla gestione delle decisioni
 description: Guida introduttiva alla gestione delle decisioni. Scopri di più sulla sua architettura, le sue offerte e le sue decisioni, nonché i casi d’uso comuni che consente di eseguire.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 38%
@@ -19,7 +19,7 @@ La capacità di gestione delle decisioni è costituita da due componenti princip
 * La **Libreria offerte centralizzata** è l&#39;interfaccia in cui puoi creare e gestire i diversi elementi che compongono le offerte e definirne regole e vincoli.
 * Il **motore decisionale dell&#39;offerta** che sfrutta i dati Adobe Experience Platform e i profili cliente in tempo reale, insieme alla Libreria offerte, al fine di selezionare il momento giusto, i clienti e i canali a cui verranno consegnate le offerte.
 
-![](../assets/architecture.png)
+![](../../assets/architecture.png)
 
 I vantaggi includono:
 
@@ -27,7 +27,7 @@ I vantaggi includono:
 * Flussi di lavoro migliorati: anziché creare più consegne o campagne, i team di marketing possono ottimizzare i flussi di lavoro creando un’unica consegna e variare le offerte in parti differenti del modello.
 * Potrai controllare il numero di volte in cui un’offerta viene visualizzata nelle varie campagne e dai diversi clienti.
 
-![](../assets/do-not-localize/how-to-video.png) [Guarda questi ](#tutorial-videos) video tutorial per saperne di più su Gestione delle decisioni.
+![](../../assets/do-not-localize/how-to-video.png) [Guarda questi ](#tutorial-videos) video tutorial per saperne di più su Gestione delle decisioni.
 
 ## Informazioni su offerte e decisioni {#offers-offer-activities}
 
@@ -35,7 +35,7 @@ Un’**offerta** è costituita da contenuti, regole di idoneità e vincoli che d
 
 Viene creata utilizzando la **Libreria offerte**, che fornisce un catalogo centrale delle offerte in cui è possibile associare regole di idoneità e vincoli a più parti di contenuto per creare e pubblicare le offerte (consulta [Interfaccia utente della Libreria offerte](../get-started/user-interface.md)).
 
-![](../assets/offer_structure.png)
+![](../../assets/offer_structure.png)
 
 Una volta che la Libreria offerte è stata arricchita con le offerte, puoi integrare le offerte in **decisioni** (precedentemente noto come &quot;attività di offerta&quot;).
 
@@ -47,15 +47,15 @@ Le funzionalità di gestione delle decisioni e l&#39;integrazione con Adobe Expe
 
 * Puoi visualizzare sul tuo sito web le offerte che corrispondono al punto di interesse del visitatore, in base ai dati provenienti da Adobe Experience Platform.
 
-   ![](../assets/website.png)
+   ![](../../assets/website.png)
 
 * Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push sulle offerte disponibili in base ai loro attributi (livello di fedeltà, genere, acquisti precedenti...).
 
-   ![](../assets/push_sample.png)
+   ![](../../assets/push_sample.png)
 
 * La gestione delle decisioni consente inoltre di migliorare l’esperienza dei clienti quando si contattano i team di supporto. Le API per la gestione delle decisioni ti consentono di visualizzare nel portale degli agenti del call center informazioni sulle offerte rimborsate e sulle migliori offerte successive del cliente.
 
-   ![](../assets/call-center.png)
+   ![](../../assets/call-center.png)
 
 ## Video tutorial {#tutorial-videos}
 
