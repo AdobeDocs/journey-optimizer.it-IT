@@ -2,7 +2,7 @@
 title: Sintassi di personalizzazione
 description: Scopri come utilizzare la sintassi di personalizzazione
 translation-type: tm+mt
-source-git-commit: 568b37f0bbcb663cf7062f26b90d57d89452e862
+source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 2%
@@ -111,7 +111,7 @@ Questo percorso ha la seguente struttura:
 3 - ID attività
 4 - Attributi specifici dell&#39;offerta. A seconda del tipo di offerta è possibile utilizzare gli attributi supportati. Ad esempio, per le immagini `deliveryUrl`.
 
-Per ulteriori informazioni sull&#39;API di Decisioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api)
+Per ulteriori informazioni sull&#39;API di Decisioni, consulta questa [pagina](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api).
 
 Per ulteriori informazioni sulla rappresentazione delle offerte, consulta questa [pagina](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
 
