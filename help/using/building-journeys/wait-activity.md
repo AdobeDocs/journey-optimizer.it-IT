@@ -2,9 +2,9 @@
 title: Attività attendi
 description: Scopri l’attività attendi
 translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '401'
 ht-degree: 4%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ![](../assets/do-not-localize/badge.png)
 
-Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività **[!UICONTROL Wait]** . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili quattro opzioni:
+Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività **[!UICONTROL Wait]** . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
 * [Data fissa](#fixed_date)
@@ -53,7 +53,7 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 
 >[!NOTE]
 >
->È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: ```toDateTimeOnly(@{Event.offerOpened.activity.endTime})```, il campo nel caso in cui si tratti del modulo 2016-08-12T09:46:06Z.
+>È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento è del modulo 2016-08-12T09:46:06Z.
 >
 >Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di miscelazione e fuso orario ISO-8601 offset come 2016-08-12T09:46:06.982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
