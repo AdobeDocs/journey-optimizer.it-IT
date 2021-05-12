@@ -2,7 +2,7 @@
 title: Informazioni chiave sugli eventi di Gestione decisioni
 description: Ulteriori informazioni sulle informazioni chiave inviate con ogni evento di gestione delle decisioni.
 translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 75%
@@ -13,7 +13,7 @@ ht-degree: 75%
 
 Ogni evento inviato quando viene presa una decisione contiene quattro punti dati chiave che puoi sfruttare a scopo di analisi e reporting.
 
-![](../assets/events-dataset-preview.png)
+![](../../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**: nome e ID dell’offerta di fallback, se non è stata selezionata alcuna offerta personalizzata
 * **[!UICONTROL Placement]**: nome, ID e canale del posizionamento utilizzato per la consegna dell’offerta
