@@ -1,10 +1,9 @@
 ---
 title: Creare un profilo di test
 description: Scopri come creare un profilo di test
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
@@ -21,27 +20,32 @@ La creazione di un profilo di test è simile alla creazione di profili normali i
 
 ## Prerequisiti{#test-profile-prerequisites}
 
-Per poter creare profili, devi innanzitutto creare uno schema e un set di dati in Adobe Experience Platform.
+Per poter creare profili, devi innanzitutto creare uno schema e un set di dati nell’Adobe [!DNL Journey Optimizer].
 
 Innanzitutto, devi **creare uno schema**. Segui questi passaggi:
 
-1. In Adobe Experience Platform, fai clic su **Schemi** nel menu a sinistra.
+1. Nella sezione AMMINISTRAZIONE, fai clic su **[!UICONTROL Schemas]**.
    ![](../assets/test-profiles-0.png)
-1. Fai clic su **Crea schema**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **Profilo individuale XDM**.
+1. Fai clic su **[!UICONTROL Create schema]**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **Profilo individuale XDM**.
    ![](../assets/test-profiles-1.png)
-1. Scegli un nome per lo schema.
-1. Nella sezione **Mixins**, fai clic su **Aggiungi**.
-   ![](../assets/test-profiles-1-bis.png)
-1. Selezionare i mixin appropriati. Assicurati di aggiungere il mixin **Dettagli test profilo** . Fare clic su **Aggiungi mixin**.
+1. Selezionare i gruppi di campi appropriati. Assicurati di aggiungere il gruppo di campi **Dettagli test profilo** .
    ![](../assets/test-profiles-1-ter.png)
-L’elenco dei mixin viene visualizzato nella schermata di panoramica dello schema.
-
+Al termine, fai clic su  **[!UICONTROL Add field groups]**: l’elenco dei gruppi di campi viene visualizzato nella schermata di panoramica dello schema.
    ![](../assets/test-profiles-2.png)
+
+   >[!NOTE]
+   >
+   >* Fai clic sul nome dello schema per modificarlo e aggiornarne le proprietà.
+      >
+      >
+   * Fai clic sul pulsante **[!UICONTROL Add]** nella sezione Gruppi di campi per selezionare altri gruppi di campi da aggiungere nello schema
+
+
 1. Nell’elenco dei campi, fai clic sul campo da definire come identità principale.
    ![](../assets/test-profiles-3.png)
-1. Nel pannello a destra **Proprietà campo**, seleziona le opzioni **Identità** e **Identità principale** e seleziona uno spazio dei nomi. Se desideri che l’identità principale sia un indirizzo e-mail, scegli lo spazio dei nomi **Email** . Fare clic su **Applica**.
+1. Nel pannello a destra **[!UICONTROL Field properties]**, seleziona le opzioni ****[!UICONTROL Identity]** e ****[!UICONTROL Primary Identity]** e seleziona uno spazio dei nomi. Se desideri che l’identità principale sia un indirizzo e-mail, scegli lo spazio dei nomi **Email** . Fare clic su **Applica**.
    ![](../assets/test-profiles-4.png)
-1. Seleziona lo schema e abilita l&#39;opzione **Profilo** nelle proprietà **Schema**.
+1. Seleziona lo schema e abilita l&#39;opzione **[!UICONTROL Profile]** in **[!UICONTROL Schema properties]**.
    ![](../assets/test-profiles-5.png)
 1. Fai clic su **Salva**.
 
@@ -51,34 +55,34 @@ L’elenco dei mixin viene visualizzato nella schermata di panoramica dello sche
 
 Quindi devi **creare il set di dati** in cui i profili verranno importati. Segui questi passaggi:
 
-1. In Adobe Experience Platform, fai clic su **Set di dati**, nel menu a sinistra, quindi fai clic su **Crea set di dati**.
+1. Passa a **[!UICONTROL Datasets]**, quindi fai clic su **[!UICONTROL Create dataset]**.
    ![](../assets/test-profiles-6.png)
-1. Scegli **Crea set di dati da schema**.
+1. Scegli **[!UICONTROL Create dataset from schema]**.
    ![](../assets/test-profiles-7.png)
-1. Seleziona lo schema creato in precedenza e fai clic su **Avanti**.
+1. Seleziona lo schema creato in precedenza e fai clic su **[!UICONTROL Next]**.
    ![](../assets/test-profiles-8.png)
-1. Scegli un nome e fai clic su **Fine**.
+1. Scegli un nome e fai clic su **[!UICONTROL Finish]**.
    ![](../assets/test-profiles-9.png)
-1. Abilita l’opzione **Profilo** .
+1. Abilita l’opzione **[!UICONTROL Profile]** .
    ![](../assets/test-profiles-10.png)
 
 >[!NOTE]
 >
 > Per ulteriori informazioni sulla creazione dei set di dati, consulta la [documentazione Servizio catalogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
 
-## Trasformazione di un profilo in un profilo di test{#turning-profile-into-test}
+## Trasforma un profilo in un profilo di test{#turning-profile-into-test}
 
-Puoi trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform, puoi aggiornare gli attributi dei profili nello stesso modo in cui crei un profilo.
+Puoi trasformare un profilo esistente in un profilo di test: puoi aggiornare gli attributi dei profili nello stesso modo in cui crei un profilo.
 
-Un modo più semplice per farlo è utilizzare un&#39;attività di azione **Aggiorna profilo** in un percorso e cambiare il campo booleano testProfile da false a true.
+Un modo semplice per farlo è utilizzare un&#39;attività di azione **[!UICONTROL Update profile]** in un percorso e cambiare il campo booleano testProfile da false a true.
 
-Il percorso sarà composto da un&#39;attività **Leggi segmento** e da un&#39;attività **Aggiorna profilo**. Devi innanzitutto creare un segmento che esegue il targeting dei profili che desideri trasformare in profili di test.
+Il percorso sarà composto da un’ **[!UICONTROL Read segment]** e da un’ attività **[!UICONTROL Update profile]** . Devi innanzitutto creare un segmento che esegue il targeting dei profili che desideri trasformare in profili di test.
 
 >[!NOTE]
 >
 > Poiché stai aggiornando il campo **testProfile**, i profili selezionati devono includere questo campo. Lo schema correlato deve avere il mixin **Dettagli test profilo** . Vedi [questa sezione](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. In Journey Optimizer, fai clic su **Segmenti** dal menu di sinistra, quindi **Crea segmento**, in alto a destra.
+1. Passa a **Segmenti**, quindi **Crea segmento**, in alto a destra.
    ![](../assets/test-profiles-22.png)
 1. Definisci un nome per il segmento e crea il segmento: scegli i campi e i valori per eseguire il targeting dei profili desiderati.
    ![](../assets/test-profiles-23.png)
@@ -89,22 +93,21 @@ Il percorso sarà composto da un&#39;attività **Leggi segmento** e da un&#39;at
    >
    > Il calcolo del segmento può richiedere del tempo. Ulteriori informazioni sui segmenti in [questa sezione](../segment/about-segments.md).
 
-1. Ora crea un nuovo percorso e inizia con un&#39;attività di orchestrazione **Read segment** .
+1. Ora crea un nuovo percorso e inizia con un’attività di orchestrazione **[!UICONTROL Read segment]** .
 1. Scegli il segmento creato in precedenza e lo spazio dei nomi utilizzato dai profili.
    ![](../assets/test-profiles-25.png)
-1. Aggiungi un&#39;attività di azione **Aggiorna profilo**.
-1. Seleziona lo schema, il campo **testProfiles**, il set di dati e imposta il valore su &quot;true&quot;.
+1. Aggiungi un’attività di azione **[!UICONTROL Update profile]** .
+1. Seleziona lo schema, il campo **testProfiles**, il set di dati e imposta il valore su **True**. Per eseguire questa operazione, nel campo **[!UICONTROL VALUE]** fai clic sull&#39;icona **Penna** a destra, seleziona **[!UICONTROL Advanced mode]** e immetti **true**.
    ![](../assets/test-profiles-26.png)
-1. Aggiungi un&#39;attività **End** e fai clic su **Pubblica**.
-   ![](../assets/test-profiles-27.png)
-1. In Adobe Experience Platform, verifica che i profili siano stati aggiornati correttamente.
+1. Aggiungi un&#39;attività **End** e fai clic su **[!UICONTROL Publish]**.
+1. Nella sezione **[!UICONTROL Segments]** , verifica che i profili siano stati aggiornati correttamente.
    ![](../assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > Per ulteriori informazioni sull&#39;attività **Aggiorna profilo**, consulta [questa sezione](../building-journeys/update-profiles.md).
+   > Per ulteriori informazioni sull&#39;attività **[!UICONTROL Update profile]**, consulta [questa sezione](../building-journeys/update-profiles.md).
 
-## Creazione di un profilo di test tramite un file csv{#create-test-profiles-csv}
+## Creare un profilo di test utilizzando un file csv{#create-test-profiles-csv}
 
 In Adobe Experience Platform, puoi creare profili caricando un file csv contenente i diversi campi di profilo nel set di dati. Questo è il metodo più semplice.
 
@@ -114,7 +117,7 @@ In Adobe Experience Platform, puoi creare profili caricando un file csv contenen
 1. Aggiungi una riga per profilo e compila i valori per ciascun campo.
    ![](../assets/test-profiles-12.png)
 1. Salva il foglio di calcolo come file csv. Assicurati che le virgole siano utilizzate come separatori.
-1. In Adobe Experience Platform, fai clic su **Flussi di lavoro** nel menu a sinistra.
+1. Passa a Adobe Experience Platform **Flussi di lavoro**.
    ![](../assets/test-profiles-14.png)
 1. Scegli **Mappa CSV su schema XDM**, quindi fai clic su **Launch**.
    ![](../assets/test-profiles-16.png)
@@ -134,7 +137,7 @@ I profili di test vengono aggiunti e possono ora essere utilizzati durante il te
 >
 > Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull’ acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
 
-## Creazione di profili di test utilizzando le chiamate API{#create-test-profiles-api}
+## Creare profili di test utilizzando le chiamate API{#create-test-profiles-api}
 
 Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni in questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
