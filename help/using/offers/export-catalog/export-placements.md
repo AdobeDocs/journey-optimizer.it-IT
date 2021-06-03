@@ -1,10 +1,9 @@
 ---
 title: Set di dati sui posizionamenti
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per i posizionamenti.
-translation-type: tm+mt
-source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
+source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -37,26 +36,26 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Campo:** _experience 
 **Type:** object
 
-### decisione
+### _esperienza > decisionale
 
 **Campo:** 
 **tipo di decisione:** oggetto
 
-#### Identificatore del canale del posizionamento
+#### _esperienza > decisionale > Identificatore del canale del posizionamento
 
 **Campo:** canaleID 
 **Titolo:** Identificativo canale del posizionamento 
 **Descrizione:** il canale in cui è stata fatta la proposta. Il valore è un URI canale valido. Vedi https://ns.adobe.com/xdm/channels/channel.
 **Tipo:** stringa
 
-#### Tipo componente contenuto
+#### _esperienza > decisionale > Tipo componente di contenuto
 
 **Campo:** tipo di componente 
 **Titolo:** tipo di componente di contenuto 
 **Descrizione:** un set enumerato di URI in cui ogni valore corrisponde a un tipo dato al componente di contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente di contenuto.
 **Tipo:** stringa
 
-#### contentTypes
+#### _esperienza > decisionale > contentTypes
 
 **Campo:** contentTypes 
 **Tipo:** array
@@ -67,14 +66,14 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
    **Descrizione:** un vincolo per il tipo di supporto dei componenti previsto in tale posizione. Per un componente, ad esempio un formato immagine diverso, potrebbe essere possibile utilizzare più di un tipo di supporto.
    **Tipo:** stringa
 
-#### Descrizione del posizionamento
+#### _esperienza > decisionale > Posizionamento descrizione
 
 **Campo:** descrizione 
 **Titolo:** Posizionamento Descrizione 
 **Descrizione:** viene utilizzato per comunicare all’utente le intenzioni leggibili riguardo al modo in cui il contenuto dinamico viene utilizzato nella consegna complessiva dei messaggi. Che un determinato spazio sia un \&quot;Banner\&quot; in una pagina web viene spesso veicolato tramite la descrizione e non con un metodo formale.
 **Tipo:** stringa
 
-#### Nome posizionamento
+#### _esperienza > decisionale > Nome posizionamento
 
 **Campo:** nome 
 **Titolo:** Nome posizionamento 
@@ -86,7 +85,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Campo:** _repo 
 **Type:** object
 
-### Posizionamento ETag
+### _repo > Posizionamento ETag
 
 **Campo:** 
 **Titolo tag:** Posizionamento ETag 
