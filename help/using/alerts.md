@@ -1,8 +1,7 @@
 ---
 title: Avvisi nei messaggi
 description: Scopri come verificare la convalida del contenuto dei messaggi e risolvere i problemi
-translation-type: tm+mt
-source-git-commit: 03af839084edafbc93188750db1f9f6c8b559d9e
+source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -53,17 +52,17 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
 **Errori**:
 
-* **[!UICONTROL Subject Line Not Present]**: la riga dell’oggetto dell’e-mail è obbligatoria. Scopri come definirlo e personalizzarlo in [questa sezione](configure-email.md).
+* **[!UICONTROL Subject Line Not Present]**: la riga dell’oggetto dell’e-mail è obbligatoria. Scopri come definirlo e personalizzarlo in [questa sezione](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL Push Variant is empty]**: questo errore viene visualizzato quando manca il corpo o il titolo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](configure-push.md).
+* **[!UICONTROL Push Variant is empty]**: questo errore viene visualizzato quando manca il corpo o il titolo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](create-push.md).
 
 * **[!UICONTROL Email Variant is empty]**: questo errore viene visualizzato quando il contenuto dell’e-mail non è stato configurato. Scopri come progettare il contenuto delle e-mail in [questa sezione](design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: non puoi pubblicare il messaggio se il predefinito selezionato viene eliminato dopo la creazione del messaggio. Se si verifica questo errore, seleziona un altro predefinito nel messaggio **[!UICONTROL Properties]**. Ulteriori informazioni sul branding in [questa sezione](administration.md#cjm-branding).
+* **[!UICONTROL Preset doesn’t exist]**: non puoi pubblicare il messaggio se il predefinito selezionato viene eliminato dopo la creazione del messaggio. Se si verifica questo errore, seleziona un altro predefinito nel messaggio **[!UICONTROL Properties]**. Ulteriori informazioni sul branding in [questa sezione](configuration/about-subdomain-delegation.md).
 
-* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoticon. Scopri come gestire il contenuto delle notifiche push in [questa sezione](configure-push.md).
+* **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoticon. Scopri come gestire il contenuto delle notifiche push in [questa sezione](create-push.md).
 
 >[!CAUTION]
 >
