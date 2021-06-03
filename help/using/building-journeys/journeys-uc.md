@@ -1,10 +1,9 @@
 ---
 title: Casi d’uso dei percorsi
 description: Casi d’uso dei percorsi
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '819'
 ht-degree: 2%
 
 ---
@@ -59,7 +58,7 @@ Devi configurare un evento inviato al tuo percorso quando un cliente effettua un
 
 A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazioni sugli eventi, consulta questa [pagina](../event/about-events.md).
 
-1. Dal menu a sinistra, fai clic sull&#39;icona **[!UICONTROL Admin]**, quindi fai clic su **[!UICONTROL Events]**. Per creare un nuovo evento, fai clic su **[!UICONTROL Add]**. 
+1. Nella sezione AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**, quindi fai clic su **[!UICONTROL Events]**. Per creare un nuovo evento, fai clic su **[!UICONTROL Add]**. 
 
 1. Inserisci il nome dell’evento.
 
