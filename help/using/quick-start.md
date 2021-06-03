@@ -1,11 +1,10 @@
 ---
 title: Guida introduttiva
 description: Guida rapida di Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 7%
 
 ![](assets/do-not-localize/badge.png)
 
-## Passaggi chiave da avviare {#cjm-key-steps}
+## Passaggi principali per iniziare {#cjm-key-steps}
 
 Con Journey Optimizer puoi importare contenuti esistenti e progettare nuovi contenuti, personalizzare i messaggi con i dati del profilo del cliente, creare eventi per attivare i messaggi, definire segmenti e perfezionare i tipi di pubblico, inviare messaggi multicanale e accedere a un set completo di strumenti di reporting e monitoraggio per misurare l’impatto dei messaggi e dei percorsi.
 
@@ -23,9 +22,9 @@ In base all’organizzazione, puoi definire diversi tipi di utenti e concedere l
 
 Prima di iniziare a utilizzare Adobe Journey Optimizer, è necessario:
 
-* **Definire le autorizzazioni** utente: accedi a Journey Optimizer e concedi l&#39;accesso ai membri del tuo team. [Ulteriori informazioni](permissions.md)
+* **Definire le autorizzazioni** utente: accedi a Journey Optimizer e concedi l&#39;accesso ai membri del tuo team. [Ulteriori informazioni](../using/administration/permissions.md)
 
-* **Configura i canali e il marchio**: puoi utilizzare Adobe per definire le impostazioni delle notifiche e-mail e push e creare i tuoi predefiniti. [Ulteriori informazioni](administration.md)
+* **Configura i canali e i predefiniti**: puoi utilizzare Adobe per definire le impostazioni delle notifiche e-mail e push e creare i tuoi predefiniti. [Ulteriori informazioni](../using/configuration/message-presets.md)
 
 * **Identifica i dati e crea schema e set di dati**: ottieni i tuoi dati in Adobe Experience Platform, crea uno spazio dei nomi identità e un set di dati abilitati per i profili, crea segmenti e verifica i profili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
