@@ -1,10 +1,9 @@
 ---
 title: Progettazione del percorso
 description: Scopri come progettare il percorso
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1404'
 ht-degree: 1%
 
 ---
@@ -75,7 +74,7 @@ Le altre attività ti consentono di aggiungere condizioni al percorso per defini
 
 **Azioni**
 
-Qui trovi l&#39;attività **Messaggio** che ti consente di includere un messaggio progettato in Journey Optimizer. [Ulteriori informazioni sull’attività Messaggio](journeys-message.md)
+Qui trovi l&#39;attività **Messaggio** che ti consente di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sull’attività Messaggio](journeys-message.md)
 
 Troverai anche le azioni personalizzate configurate per l’invio di messaggi con sistemi di terze parti. Ulteriori informazioni in questa sezione [sezione](about-journey-activities.md#action-activities).
 
