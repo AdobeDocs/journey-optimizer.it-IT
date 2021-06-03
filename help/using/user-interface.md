@@ -1,10 +1,9 @@
 ---
 title: Interfaccia utente
 description: Interfaccia utente Journey Optimizer
-translation-type: tm+mt
-source-git-commit: fb1170c5e16c54ff93411d93020336f8de334ae1
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1446'
 ht-degree: 37%
 
 ---
@@ -31,7 +30,7 @@ Utilizza i collegamenti a sinistra per sfogliare le funzionalità.
 >
 >Le funzionalità disponibili possono variare a seconda delle autorizzazioni e del contratto di licenza.
 
-Di seguito è riportato l’elenco completo delle voci nella barra a sinistra e i collegamenti alla relativa documentazione.
+Di seguito è riportato l’elenco completo dei servizi e delle funzionalità disponibili nella navigazione a sinistra e dei collegamenti alla relativa documentazione.
 
 **Home**
 
@@ -69,7 +68,7 @@ Di seguito è riportato l’elenco completo delle voci nella barra a sinistra e 
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]** - Crea e gestisci le definizioni dei segmenti di Experience Platform e utilizzale nei tuoi percorsi. Ulteriori informazioni in [questa pagina](segment/about-segments.md)
+* **[!UICONTROL Segments]** - Crea e gestisci le definizioni dei segmenti di Experience Platform e utilizzale nei tuoi percorsi. Per ulteriori informazioni, consulta [questa pagina](segment/about-segments.md)
 
 * **[!UICONTROL Profiles]** - Profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei tuoi singoli clienti, combinando dati provenienti da più canali tra cui online, offline, CRM e dati di terze parti. [Ulteriori informazioni in questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html)
 
