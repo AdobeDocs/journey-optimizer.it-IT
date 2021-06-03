@@ -1,11 +1,10 @@
 ---
 title: Libreria funzioni
 description: Libreria funzioni
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 7%
+source-wordcount: '155'
+ht-degree: 8%
 
 ---
 
@@ -13,94 +12,94 @@ ht-degree: 7%
 
 ![](../../assets/do-not-localize/badge.png)
 
-Le funzioni di aggregazione vengono utilizzate per raggruppare più valori all&#39;interno di array [!DNL Profile Query Language] (PQL) per formare un singolo valore di riepilogo.
+Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per formare un singolo valore di riepilogo.
 
-## Conteggio
+## Conteggio{#count}
 
 La funzione `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
 
 **Formato**
 
 ```sql
-count({ARRAY})
+{%= count(array) %}
 ```
 
 **Esempio**
 
-La seguente query PQL restituisce il numero di ordini nell&#39;array.
+L&#39;operazione seguente restituisce il numero di ordini nell&#39;array.
 
 ```sql
-count(orders)
+{%= count(orders) %}
 ```
 
-## Somma
+## Somma{#sum}
 
 La funzione `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
 
 **Formato**
 
 ```sql
-sum({ARRAY})
+{%= sum(array) %}
 ```
 
 **Esempio**
 
-La seguente query PQL restituisce la somma di tutti i prezzi degli ordini.
+L&#39;operazione seguente restituisce la somma di tutti i prezzi degli ordini.
 
 ```sql
-sum(orders.order.price)
+{%=sum(orders.order.price)%}
 ```
 
-## Medio
+## Medio{#average}
 
 La funzione `average` restituisce la media aritmetica di tutti i valori selezionati all&#39;interno della matrice.
 
 **Formato**
 
 ```sql
-average({ARRAY})
+{%= average(array) %}
 ```
 
 **Esempio**
 
-La seguente query PQL restituisce il prezzo medio di tutti gli ordini.
+L&#39;operazione seguente restituisce il prezzo medio di tutti gli ordini.
 
 ```sql
-average(orders.order.price)
+{%=average(orders.order.price)%}
 ```
 
-## Minimo
+## Minimo{#min}
 
 La funzione `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno dell&#39;array.
 
 **Formato**
 
 ```sql
-min({ARRAY})
+{%= min(array) %}
 ```
 
 **Esempio**
 
-La seguente query PQL restituisce il prezzo più basso di tutti gli ordini.
+L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
 
 ```sql
-min(orders.order.price)
+{%=min(orders.order.price)%}
 ```
 
-## Massimo
+## Massimo{#max}
 
 La funzione `max` restituisce il valore più grande tra tutti i valori selezionati all&#39;interno dell&#39;array.
 
 **Formato**
 
 ```sql
-max({ARRAY})
+{%= max(array) %}
 ```
 
 **Esempio**
 
-La seguente query PQL restituisce il prezzo più alto di tutti gli ordini.
+L&#39;operazione seguente restituisce il prezzo più alto di tutti gli ordini.
 
 ```sql
-max(orders.order.price)
+{%=max(orders.order.price)%}
 ```
