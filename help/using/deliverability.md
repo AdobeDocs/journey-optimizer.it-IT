@@ -1,10 +1,9 @@
 ---
 title: Monitoraggio dell’esecuzione dei messaggi
 description: Informazioni sul monitoraggio e sulle linee guida per il recapito messaggi
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -41,7 +40,7 @@ Presta ulteriore attenzione quando richiedi ulteriore conferma: un utente può a
 
 Per proteggere il recapito messaggi, i destinatari i cui indirizzi si trovano nell’elenco di soppressione sono esclusi per impostazione predefinita da tutte le consegne future, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio.
 
-[Ulteriori informazioni sugli elenchi](suppression-lists.md) di soppressione.
+[Ulteriori informazioni sull&#39;elenco](suppression-list.md) di soppressione.
 
 ## Utilizzare gli strumenti di monitoraggio {#monitoring-tools}
 
