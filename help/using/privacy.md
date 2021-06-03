@@ -1,8 +1,7 @@
 ---
 title: Privacy
 description: Scopri come gestire la privacy
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 50%
@@ -35,7 +34,7 @@ I dati personali e sensibili devono essere gestiti con attenzione. Segui i princ
 
 * Astenersi dall&#39;inviare messaggi non richiesti (&quot;spam&quot;). L’Adobe crede fermamente nei principi del permission marketing per promuovere la fedeltà e il valore del ciclo di vita del cliente, e pertanto vieta severamente l’utilizzo di Journey Optimizer per l’invio di messaggi non richiesti.
 
-Journey Optimizer consente di gestire i diritti assegnati agli utenti tramite diversi profili di prodotto predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti in [Gestisci autorizzazioni](permissions.md).
+Journey Optimizer consente di gestire i diritti assegnati agli utenti tramite diversi profili di prodotto predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti in [Gestisci autorizzazioni](../administration/permissions.md).
 
 Journey Optimizer consente inoltre di tenere traccia dei messaggi inviati e del comportamento dei destinatari attraverso aperture e clic sui collegamenti. [Ulteriori informazioni sulla gestione](message-tracking.md) del tracking.
 
@@ -54,7 +53,7 @@ Pertanto, per gestire correttamente la privacy e gestire i dati personali, devi 
 
 Journey Optimizer eredita la maggior parte delle modifiche apportate al set di dati in Adobe Experience Platform.
 
-Di conseguenza, le richieste di privacy (diritto di accesso e diritto all’oblio) sono gestite tramite Experience Platform. Devi inviare le richieste utilizzando [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) e selezionare **Profilo** e **AEP Data Lake** dall&#39;elenco dei prodotti quando [crei la tua richiesta di privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--Learn more in the [Privacy Service documentation](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html).-->
+Di conseguenza, le richieste di privacy (diritto di accesso e diritto all’oblio) sono gestite tramite Experience Platform. Devi inviare le richieste utilizzando [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) e selezionare **Profilo** e **AEP Data Lake** dall&#39;elenco dei prodotti quando [crei la tua richiesta di privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
