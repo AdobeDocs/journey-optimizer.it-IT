@@ -1,11 +1,10 @@
 ---
 title: Risoluzione dei problemi del percorso
 description: Scopri come risolvere gli errori nei percorsi
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 85%
+source-wordcount: '1037'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +79,7 @@ Di seguito sono riportati alcuni elementi da verificare:
 
 Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono i messaggi che dovrebbero ricevere, puoi verificare se:
 
-* Journey Optimizer ha tenuto correttamente conto della richiesta di invio del messaggio. Un utente aziendale può accedere al messaggio che dovrebbe essere inviato e verificare se l’ora dell’esecuzione più recente corrisponde al tempo di esecuzione del percorso. Può anche controllare le ultime chiamate/eventi API ricevuti.
-* Il messaggio è stato inviato da Journey Optimizer. Nei registri di invio del messaggio, puoi visualizzare lo stato di ogni esecuzione. Puoi vedere se è verde, rosso e qual era il problema. Un utente aziendale può accedere a questa schermata e inviare i registri a un amministratore per ulteriori indagini.
+* [!DNL Journey Optimizer] ha tenuto correttamente conto della richiesta di invio del messaggio. Un utente aziendale può accedere al messaggio che dovrebbe essere inviato e verificare se l’ora dell’esecuzione più recente corrisponde al tempo di esecuzione del percorso. Può anche controllare le ultime chiamate/eventi API ricevuti.
+* [!DNL Journey Optimizer] invio del messaggio completato. Nei registri di invio del messaggio, puoi visualizzare lo stato di ogni esecuzione. Puoi vedere se è verde, rosso e qual era il problema. Un utente aziendale può accedere a questa schermata e inviare i registri a un amministratore per ulteriori indagini.
 
 Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test del percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno che è associata all’azione personalizzata non genera un errore ma non provoca l’invio di un messaggio, è necessario effettuare alcune indagini sul lato del sistema esterno.
