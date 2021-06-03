@@ -1,10 +1,9 @@
 ---
 title: Configurare un evento unitario
 description: Scopri come configurare un evento unitario
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1636'
 ht-degree: 14%
 
 ---
@@ -17,7 +16,7 @@ Gli eventi unitari sono collegati a un profilo specifico. Possono essere basati 
 
 Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
-1. Dal menu a sinistra, fai clic sull&#39;icona **[!UICONTROL Admin]**, quindi fai clic su **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi.
+1. Nella sezione AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**, quindi fai clic su **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi.
 
    ![](../assets/jo-event1.png)
 
