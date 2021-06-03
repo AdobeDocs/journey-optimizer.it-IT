@@ -1,70 +1,69 @@
 ---
 title: Libreria funzioni
 description: Libreria funzioni
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 5%
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
-# Funzioni Mappe {#maps}
+# Funzioni Mappe{#maps}
 
 ![](../../assets/do-not-localize/badge.png)
 
 [!DNL Profile Query Language] (PQL) offre funzioni che facilitano l’interazione con le mappe.
 
-## Get
+## Get{#get}
 
 La funzione `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
 
 **Formato**
 
 ```sql
-get({MAP},{STRING})
+{%= get(map, string) %}
 ```
 
 **Esempio**
 
-La seguente query PQL ottiene il valore della mappa di identità per la chiave `example@example.com`.
+L&#39;operazione seguente ottiene il valore della mappa di identità per la chiave `example@example.com`.
 
 ```sql
-get(identityMap,"example@example.com")
+{%= get(identityMap,"example@example.com") %}
 ```
 
-## Chiavi
+## Chiavi{#keys}
 
 La funzione `keys` viene utilizzata per recuperare tutte le chiavi di una determinata mappa.
 
 **Formato**
 
 ```sql
-keys({MAP})
+{%= keys(map) %}
 ```
 
 **Esempio**
 
-La seguente query PQL ottiene tutte le chiavi per la mappa `identityMap`.
+L&#39;operazione seguente ottiene tutte le chiavi per la mappa `identityMap`.
 
 ```sql
-keys(identityMap)
+{%= keys(identityMap) %}
 ```
 
-## Valori
+## Valori{#values}
 
 La funzione `values` viene utilizzata per recuperare tutti i valori di una determinata mappa.
 
 **Formato**
 
 ```sql
-values({MAP})
+{%= values(map) %}
 ```
 
 **Esempio**
 
-La seguente query PQL ottiene tutti i valori per la mappa `identityMap`.
+L&#39;operazione seguente ottiene tutti i valori della mappa `identityMap`.
 
 ```sql
-values(identityMap)
+{%= values(identityMap) %}
 ```
