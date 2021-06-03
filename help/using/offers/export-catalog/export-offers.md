@@ -1,10 +1,9 @@
 ---
 title: Set di dati di offerte personalizzate
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le offerte.
-translation-type: tm+mt
-source-git-commit: 70c172e19d5900c898d4850801468a2e186e682d
+source-git-commit: 57b6ffa4136eda80c41344db15d363d3107d4e32
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -37,12 +36,12 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Campo:** _experience 
 **Type:** object
 
-### decisione
+### _esperienza > decisionale
 
 **Campo:** 
 **tipo di decisione:** oggetto
 
-#### calendarConstraints
+#### _esperienza > decisionale > calendarConstraints
 
 **Campo:** calendarioVincoli 
 **Titolo:** Dettagli vincolo calendario 
@@ -63,247 +62,245 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
    **Descrizione:** la data di inizio della validità delle opzioni di decisione. Le opzioni che non hanno raggiunto la data di inizio non possono ancora essere proposte nel processo decisionale.
    **Tipo:** stringa
 
-#### caratteristiche
+#### _esperienza > decisione > caratteristiche
 
 **Campo:** caratteristiche 
 **Titolo:** Opzione decisione Caratteristiche 
 **Descrizione:** Proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. istanze diverse possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di valori nome utilizzate per distinguere un’opzione di decisione da altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione decisionale e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come uno schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
-#### sommario
+#### _esperienza > decisioni > contenuti
 
 **Campo:** contenuto 
 **Titolo:** Dettagli contenuto 
 **Descrizione:** elementi di contenuto per eseguire il rendering dell’elemento decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione rivolta a un pubblico da utilizzare in un’esperienza (digitale). I contenuti vengono consegnati attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
-* **componenti**
+**_esperienza > decisioni > contenuti > componenti**
 
-   **Campo:** componenti
-   **Descrizione:** i componenti del contenuto che rappresentano l’opzione di decisione, incluse tutte le varianti di lingua. Componenti specifici sono reperibili da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una combinazione di essi. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
-   **Tipo:** array
-   **Obbligatorio:** &quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
+**Campo:** componenti 
+**Descrizione:** i componenti del contenuto che rappresenta l’opzione di decisione, comprese tutte le relative varianti di lingua. Componenti specifici sono reperibili da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una combinazione di essi. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
+**Tipo:** array 
+**obbligatorio:** &quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
 
-   * **Tipo componente contenuto**
+* **_esperienza > decisioni > contenuti > componenti > tipo di componente contenuto**
 
-      **Campo:** _type
-      **Titolo:** tipo di componente di contenuto
-      **Descrizione:** un set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni utenti delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente di contenuto.
-      **Tipo:** stringa
-
-   * **_dc**
-
-      **Campo:** _dc
-      **Tipo:** oggetto
-      **Obbligatorio:** &quot;format&quot;
-
-      * **Formato**
-
-         **Campo:** formato
-         **Titolo:** Formato
-         **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, Format deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) che definisce i formati dei file multimediali per computer).
-         **Tipo:** stringa
-         **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
-
-      * **Lingua**
-         **Campo:** lingua
-         **Titolo:** Lingua
-         **Descrizione:** la lingua o le lingue della risorsa. \nLe lingue sono specificate nel codice della lingua come definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
-         **Tipo:** array
-         **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
-   * **_repo**
-
-      **Campo:** _repo
-      **Tipo:** oggetto
-
-      * **id**
-
-         **Campo:** id
-         **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-         **Tipo:** stringa
-         **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
-
-      * **nome**
-
-         **Campo:** nome
-         **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio che memorizza la risorsa esterna tramite il \&quot;repo:id\&quot;.
-         **Tipo:** stringa
-
-      * **repositoryID**
-
-         **Campo:** repositoryID
-         **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-         **Tipo:** stringa
-         **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
-
-      * **resolveURL**
-
-         **Campo:** resolveURL
-         **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente comprenda dove la risorsa viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma il semantico è più semplice e mirato.
-         **Tipo:** stringa
-         **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
-   * **content**
-
-      **Campo:** contenuto
-      **Descrizione:** un campo facoltativo per contenere direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente contenuti semplici. Questo campo non viene utilizzato per le risorse di contenuto composito, complesso e binario.
-      **Tipo:** stringa
-
-   * **deliveryURL**
-
-      **Campo:** deliveryURL
-      **Descrizione:** un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint del servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente.
-      **Tipo:** stringa
-      **Esempio:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
-
-   * **linkURL**
-
-      **Campo:** linkURL
-      **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere monitorato.
-      **Tipo:** stringa
-      **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
-
-
-
-* **Posizionamento**
-
-   **Campo:** posizionamento
-   **Titolo:** Posizionamento
-   **Descrizione:** Posizionamento a cui conformarsi. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/placement.
+   **Campo:** _type
+   **Titolo:** tipo di componente di contenuto
+   **Descrizione:** un set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni utenti delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente di contenuto.
    **Tipo:** stringa
 
-#### Stato del ciclo di vita
+* **_esperienza > decisioni > contenuti > componenti > _dc**
+
+   **Campo:** _dc
+   **Tipo:** oggetto
+   **Obbligatorio:** &quot;format&quot;
+
+   * **Formato**
+
+      **Campo:** formato
+      **Titolo:** Formato
+      **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, Format deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) che definisce i formati dei file multimediali per computer).
+      **Tipo:** stringa
+      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
+
+   * **Lingua**
+      **Campo:** lingua
+      **Titolo:** Lingua
+      **Descrizione:** la lingua o le lingue della risorsa. \nLe lingue sono specificate nel codice della lingua come definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
+      **Tipo:** array
+      **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+
+* **_esperienza > decisioni > contenuti > componenti > _repo**
+
+   **Campo:** _repo
+   **Tipo:** oggetto
+
+   * **id**
+
+      **Campo:** id
+      **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+      **Tipo:** stringa
+      **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+
+   * **nome**
+
+      **Campo:** nome
+      **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio che memorizza la risorsa esterna tramite il \&quot;repo:id\&quot;.
+      **Tipo:** stringa
+
+   * **repositoryID**
+
+      **Campo:** repositoryID
+      **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+      **Tipo:** stringa
+      **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+
+   * **resolveURL**
+
+      **Campo:** resolveURL
+      **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente comprenda dove la risorsa viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma il semantico è più semplice e mirato.
+      **Tipo:** stringa
+      **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+
+* **_esperienza > decisioni > contenuti > componenti > contenuto**
+
+   **Campo:** contenuto
+   **Descrizione:** un campo facoltativo per contenere direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente contenuti semplici. Questo campo non viene utilizzato per le risorse di contenuto composito, complesso e binario.
+   **Tipo:** stringa
+
+* **_esperienza > decisioni > contenuti > componenti > deliveryURL**
+
+   **Campo:** deliveryURL
+   **Descrizione:** un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint del servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente.
+   **Tipo:** stringa
+   **Esempio:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+
+* **_esperienza > decisioni > contenuti > componenti > linkURL**
+
+   **Campo:** linkURL
+   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere monitorato.
+   **Tipo:** stringa
+   **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+
+**_esperienza > decisionale > contenuto > Posizionamento**
+
+**Campo:** posizionamento 
+**Titolo:** posizionamento 
+**Descrizione:** posizionamento conforme. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/placement.
+**Tipo:** stringa
+
+#### _esperienza > decisioni > Stato del ciclo di vita
 
 **Campo:** lifecycleStatus 
 **Titolo:** Stato del ciclo di vita 
 **Descrizione:**  lo stato del ciclo di vita consente di eseguire i flussi di lavoro con un oggetto. Lo stato può influire sul punto in cui un oggetto è visibile o considerato rilevante. Le modifiche allo stato sono guidate dai client o dai servizi che utilizzano gli oggetti.
 **Tipo:** stringa 
-**Valori possibili:**  &quot;Bozza&quot;, &quot;Approvato&quot;, &quot;Live&quot;, &quot;Completato&quot;, &quot;Archiviato&quot; Valore 
-**predefinito:**  &quot;Bozza&quot;
+**Valori possibili:**  &quot;Bozza&quot; (predefinito), &quot;Approvato&quot;, &quot;Live&quot;, &quot;Completato&quot;, &quot;Archiviato&quot;
 
-#### Nome opzione decisione
+#### _esperienza > decisionale > Nome opzione decisione
 
 **Campo:** nome 
 **Titolo:** Nome opzione decisione 
 **Descrizione:** nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
-#### profileConstraints
+#### _esperienza > decisionale > profileConstraints
 
 **Campo:** profileConstraints 
 **Titolo:** Dettagli vincolo di profilo 
 **Descrizione:** i vincoli di profilo decidono se un’opzione è idonea per questa identità di profilo, in questo momento, in questo contesto. Se il vincolo di profilo non deve considerare i valori di ciascuna opzione, ovvero non è necessariamente una delle opzioni della selezione dell’opzione, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D’altro canto, viene valutata una regola di vincolo di profilo che utilizza un’opzione come parametro per ogni opzione di qualificazione della selezione dell’opzione.
 **Tipo:** oggetto
 
-* **Descrizione**
+**_esperienza > decisionale > profileConstraints > Descrizione**
 
-   **Campo:** descrizione
-   **Titolo:** Descrizione
-   **Descrizione:** descrizione del vincolo di profilo. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché è stato costruito questo vincolo di profilo e/o quale opzione sarà inclusa o esclusa da esso.
+**Campo:** descrizione 
+**Titolo:** Descrizione 
+**Descrizione:** descrizione del vincolo di profilo. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché è stato costruito questo vincolo di profilo e/o quale opzione sarà inclusa o esclusa da esso.
+**Tipo:** stringa
+
+**_esperienza > decisionale > profileConstraints > Regola di idoneità**
+
+**Campo:** idoneità
+**Titolo regola:** 
+**Descrizione regola di idoneità:** un riferimento a una regola decisionale che restituisce true o false per un determinato profilo e/o altri oggetti XDM contestuali specificati. La regola viene utilizzata per decidere se l’opzione è idonea per un determinato profilo. Il valore è l&#39;URI (@id) della regola decisionale a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/rule.
+**Tipo:** stringa
+
+**_esperienza > decisione > profileConstraints > Tipo di vincolo del profilo**
+
+**Campo:** profileConstraintType 
+**Titolo:** Tipo di vincolo del profilo 
+**Descrizione:** determina se sono attualmente impostati dei vincoli e come vengono espressi i contrasti. Potrebbe essere attraverso una regola o attraverso una o più appartenenze al segmento.
+**Tipo:** stringa 
+**Valori possibili:**
+* &quot;none&quot; (predefinito)
+* &quot;criteri di idoneità&quot;: &quot;Il vincolo di profilo è espresso come una singola regola che deve essere valutata come true prima che l&#39;azione vincolata sia consentita.&quot;
+* &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;
+* &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di tutti i segmenti prima che l’azione vincolata sia consentita.&quot;
+* &quot;regole&quot;: &quot;Il vincolo di profilo è espresso come una serie di regole diverse, ad esempio idoneità, applicabilità, idoneità, che tutte devono valutare in true prima che l&#39;azione vincolata sia consentita.&quot;
+
+**_esperienza > decisionale > profileConstraints > Identificatori di segmento**
+
+**Campo:** segmentIdentities 
+**Titolo:** Segment Identifiers 
+**Descrizione:** Identificatori dei segmenti 
+**Tipo:** array
+
+* **Identificatore**
+
+   **Campo:** _id
+   **Titolo:** Identificatore
+   **Descrizione:** identità del segmento nello spazio dei nomi correlato.
    **Tipo:** stringa
 
-* **Regola di idoneità**
+* **Namespace**
 
-   **Campo:** idoneitàRule
-   **Titolo:** Regola di idoneità
-   **Descrizione:** un riferimento a una regola decisionale che restituisce true o false per un determinato profilo e/o altri oggetti contestuali XDM. La regola viene utilizzata per decidere se l’opzione è idonea per un determinato profilo. Il valore è l&#39;URI (@id) della regola decisionale a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/rule.
-   **Tipo:** stringa
+   **Campo:** namespace
+   **Titolo:** Namespace
+   **Descrizione:** lo spazio dei nomi associato all’ `xid` attributo.
+   **Tipo:** oggetto
+   **Obbligatorio:** &quot;code&quot;
 
-* **Tipo di vincolo del profilo**
+   * **Codice**
 
-   **Campo:** profileConstraintType
-   **Titolo:** Tipo di vincolo del profilo
-   **Descrizione:** determina se sono attualmente impostati dei vincoli e come vengono espressi i vincoli. Potrebbe essere attraverso una regola o attraverso una o più appartenenze al segmento.
-   **Tipo:** stringa
-   **Valori possibili:**
-   * &quot;Nessuno&quot;
-   * &quot;criteri di idoneità&quot;: &quot;Il vincolo di profilo è espresso come una singola regola che deve essere valutata come true prima che l&#39;azione vincolata sia consentita.&quot;
-   * &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;
-   * &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di tutti i segmenti prima che l’azione vincolata sia consentita.&quot;
-   * &quot;regole&quot;: &quot;Il vincolo di profilo è espresso come una serie di regole diverse, ad esempio idoneità, applicabilità, idoneità, che tutte devono valutare in true prima che l&#39;azione vincolata sia consentita.&quot;
-      **Valore predefinito:**  &quot;none&quot;
-
-* **Identificatori dei segmenti**
-
-   **Campo:** segmentIdentities
-   **Titolo:** Identificatori di segmento
-   **Descrizione:** identificatori dei segmenti
-   **Tipo:** array
-
-   * **Identificatore**
-
-      **Campo:** _id
-      **Titolo:** Identificatore
-      **Descrizione:** identità del segmento nello spazio dei nomi correlato.
+      **Campo:** codice
+      **Titolo:** Codice
+      **Descrizione:** il codice è un identificatore leggibile dall’utente per lo spazio dei nomi e può essere utilizzato per richiedere l’ID tecnico dello spazio dei nomi utilizzato per l’elaborazione del grafico delle identità.
       **Tipo:** stringa
 
-   * **Namespace**
+* **Identificatore esperienza**
 
-      **Campo:** namespace
-      **Titolo:** Namespace
-      **Descrizione:** lo spazio dei nomi associato all’ `xid` attributo.
-      **Tipo:** oggetto
-      **Obbligatorio:** &quot;code&quot;
+   **Campo:** xid
+   **Titolo:** identificatore esperienza
+   **Descrizione:** se presente, questo valore rappresenta un identificatore cross-namespace univoco per tutti gli identificatori con ambito namespace in tutti i namespace.
+   **Tipo:** stringa
 
-      * **Codice**
-
-         **Campo:** codice
-         **Titolo:** Codice
-         **Descrizione:** il codice è un identificatore leggibile dall’utente per lo spazio dei nomi e può essere utilizzato per richiedere l’ID tecnico dello spazio dei nomi utilizzato per l’elaborazione del grafico delle identità.
-         **Tipo:** stringa
-   * **Identificatore esperienza**
-
-      **Campo:** xid
-      **Titolo:** identificatore esperienza
-      **Descrizione:** se presente, questo valore rappresenta un identificatore cross-namespace univoco per tutti gli identificatori con ambito namespace in tutti i namespace.
-      **Tipo:** stringa
-
-
-#### classificazione
+#### _esperienza > decisionale > classificazione
 
 **Campo:** 
 **Titolo classificazione:** Dettagli classificazione 
 **Descrizione:** Classifica (priorità). Definisce ciò che viene considerato la \&quot;azione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà l’opzione o le opzioni superiori N da proporre.
 **Tipo:** oggetto
 
-* **Valutazione ordine**
+**_esperienza > decisionale > classificazione > Valutazione ordine**
 
-   **Campo:** ordine
-   **Titolo:** Valutazione ordine
-   **Descrizione:** Valutazione di un ordine relativo di una o più opzioni decisionali. Le opzioni con valori ordinali più alti vengono selezionate su qualsiasi opzione con valori ordinali più bassi. I valori determinati con questo metodo possono essere ordinati, ma le distanze tra di essi non possono essere misurate né le somme né i prodotti possono essere calcolati. La mediana e la modalità sono le uniche misure di tendenza centrale che possono essere utilizzate per i dati ordinali.
-   **Tipo:** oggetto
+**Campo:** titolo 
+**ordine:** valutazione ordine 
+**Descrizione:** valutazione di un ordine relativo di una o più opzioni decisionali. Le opzioni con valori ordinali più alti vengono selezionate su qualsiasi opzione con valori ordinali più bassi. I valori determinati con questo metodo possono essere ordinati, ma le distanze tra di essi non possono essere misurate né le somme né i prodotti possono essere calcolati. La mediana e la modalità sono le uniche misure di tendenza centrale che possono essere utilizzate per i dati ordinali.
+**Tipo:** oggetto
 
-   * **Funzione di punteggio**
+* **Funzione di punteggio**
 
-      **Campo:** funzione
-      **Titolo:** Funzione di punteggio
-      **Descrizione:** un riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione saranno quindi ordinate (classificate) in base a quel punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/function.
-      **Tipo:** stringa
+   **Campo:** funzione
+   **Titolo:** Funzione di punteggio
+   **Descrizione:** un riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione saranno quindi ordinate (classificate) in base a quel punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/function.
+   **Tipo:** stringa
 
-   * **Tipo di valutazione ordine**
+* **Tipo di valutazione ordine**
 
-      **Campo:** orderEvaluationType
-      **Titolo:** Tipo di valutazione ordine
-      **Descrizione:** specifica quale meccanismo di valutazione dell’ordine viene utilizzato, priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarlo.
-      **Tipo:** stringa
-      **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+   **Campo:** orderEvaluationType
+   **Titolo:** Tipo di valutazione ordine
+   **Descrizione:** specifica quale meccanismo di valutazione dell’ordine viene utilizzato, priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarlo.
+   **Tipo:** stringa
+   **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
-   * **Strategia di classificazione**
+* **Strategia di classificazione**
 
-      **Campo:** rankingStrategy
-      **Titolo:** Strategia di classificazione
-      **Descrizione:** un riferimento a una strategia che classifica un elenco di opzioni decisionali. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-      **Tipo:** stringa
+   **Campo:** rankingStrategy
+   **Titolo:** Strategia di classificazione
+   **Descrizione:** un riferimento a una strategia che classifica un elenco di opzioni decisionali. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+   **Tipo:** stringa
 
-* **Priorità**
+**_esperienza > decisionale > classificazione > Priorità**
 
-   **Campo:** priorità
-   **Titolo:** Priorità
-   **Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non è specificata alcuna funzione di ordine hanno priorità utilizzando questa proprietà. Le opzioni con valori di priorità più elevati vengono selezionate prima di qualsiasi opzione di priorità più bassa. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale uniforme e utilizzata per la proposta di decisione.
-   **Tipo:** integer
-   **Valore minimo:** 0
-   **Valore predefinito:** 0
+**Campo:** titolo prioritario 
+**Titolo:** Priorità 
+**Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non è specificata alcuna funzione di ordine hanno priorità utilizzando questa proprietà. Le opzioni con valori di priorità più elevati vengono selezionate prima di qualsiasi opzione di priorità più bassa. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale uniforme e utilizzata per la proposta di decisione.
+**Tipo:** integer 
+**Valore minimo:** 0 
+**Valore predefinito:** 0
 
-#### tag
+#### _esperienza > decisionale > tag
 
 **Campo:** tag 
 **Titolo:** Tag 
@@ -317,11 +314,11 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Campo:** _repo 
 **Type:** object
 
-### Opzione di decisione ETag
+### _repo > Opzione decisione ETag
 
 **Campo:** 
 **Titolo tag:** Opzione decisione ETag 
-**Descrizione:** La revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dell&#39;istantanea.
+**Descrizione:** La revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dello snapshot.
 **Tipo:** stringa
 
 
