@@ -1,10 +1,9 @@
 ---
 title: Principio generale
 description: Principio generale
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 5%
 
 ---
@@ -13,7 +12,7 @@ ht-degree: 5%
 
 ![](../assets/do-not-localize/badge.png)
 
-I percorsi ti consentono di generare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati in eventi o origini dati.
+[!DNL Journey Optimizer] consente di generare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati in eventi o origini dati.
 
 Progetta scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
@@ -21,6 +20,6 @@ Progetta scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
 * Sfrutta i dati contestuali **da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.**
 
-* Utilizza l’ **azione incorporata** per inviare messaggi progettati in Journey Optimizer o crea **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
+* Utilizza l’ **azione incorporata** per inviare messaggi progettati in [!DNL Journey Optimizer] o crea **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
 
 * Con **Progettazione percorsi**, crea i tuoi casi d&#39;uso a più passaggi: trascina e rilascia facilmente un evento di partecipazione o un’attività di segmento letto, aggiungi condizioni e invia messaggi personalizzati.
