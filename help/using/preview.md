@@ -1,11 +1,10 @@
 ---
 title: Anteprima dei messaggi e invio delle bozze
 description: Scopri come visualizzare in anteprima e verificare i messaggi
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 2%
+source-wordcount: '781'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +18,7 @@ Per rilevare eventuali errori nel contenuto delle e-mail o nelle impostazioni di
 
 >[!CAUTION]
 >
->Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test. [Ulteriori informazioni](building-journeys/testing-the-journey.md#create-test-profile).
+>Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test. Scopri come creare profili di test in [questa pagina](building-journeys/creating-test-profiles.md).
 
 Per testare il contenuto del messaggio, devi:
 
@@ -32,7 +31,7 @@ Inoltre, sfrutta il tuo account **Litmus** in [!DNL Journey Optimizer] per visua
 
 ## Seleziona profili di test{#select-test-profiles}
 
-I profili di test ti consentono di eseguire il targeting di altri destinatari che non soddisfano i criteri di targeting definiti.
+Utilizza [Profili di test](building-journeys/creating-test-profiles.md) per eseguire il targeting di destinatari aggiuntivi che non soddisfano i criteri di targeting definiti.
 
 Per selezionare i profili di test, segui i passaggi seguenti:
 
