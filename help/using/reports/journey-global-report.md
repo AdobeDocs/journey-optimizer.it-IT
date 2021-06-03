@@ -1,10 +1,9 @@
 ---
 title: Rapporto globale percorso
 description: Scopri come utilizzare i dati del report globale del percorso
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -105,7 +104,7 @@ I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** co
 
 * **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
-Per ulteriori informazioni sui messaggi non recapitati, consulta la pagina [Gestisci elenchi di soppressione](../suppression-lists.md) .
+Per ulteriori informazioni sui messaggi non recapitati, consulta la pagina [Elenco di eliminazione](../suppression-list.md) .
 
 Il grafico e la tabella **[!UICONTROL Email - Top Url]** mostrano gli URL della consegna più visitati.
 
