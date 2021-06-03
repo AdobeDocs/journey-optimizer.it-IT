@@ -1,8 +1,7 @@
 ---
 title: Attività attendi
 description: Scopri l’attività attendi
-translation-type: tm+mt
-source-git-commit: a6aa785030d6fd56c4b5ae80d1bc4c5a119511b4
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 4%
@@ -21,7 +20,7 @@ Se desideri attendere prima di eseguire l’attività successiva nel percorso, p
 
 <!--* [Email send time optimization](#email_send_time_optimization)-->
 
-## Informazioni sull&#39;attività Wait{#about_wait}
+## Informazioni sull’attività Attendi{#about_wait}
 
 Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. La prima attività di attesa avrà una priorità
 
@@ -41,7 +40,7 @@ Seleziona la durata dell’attesa prima dell’esecuzione dell’attività succe
 
 ![](../assets/journey55.png)
 
-## Data fissa attesa{#fixed_date}
+## Attesa data fissa{#fixed_date}
 
 Seleziona la data di esecuzione dell’attività successiva.
 
@@ -60,10 +59,6 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 ![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
-
->[!CAUTION]
->
->The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 This type of wait uses a score calculated in Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
