@@ -1,15 +1,14 @@
 ---
 title: Contesti di personalizzazione in Journey Optimizer
 description: Scopri in quali contesti puoi aggiungere la personalizzazione
-translation-type: tm+mt
-source-git-commit: e73b47ab6243b13f82aa1503bd8c751f976f29ee
+source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 3%
 
 ---
 
-# Aree di personalizzazione {#personalization-areas}
+# Contesto e strumento di personalizzazione {#personalization-areas}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +20,7 @@ Tutti i campi associati all’icona dell’editor possono aprire l’editor di p
 
 ## Personalizzare le e-mail
 
-Durante la creazione dei messaggi del canale e-mail, il campo **Oggetto e-mail** è personalizzabile.
+Quando crei un’e-mail, puoi aggiungere la personalizzazione nel campo **Oggetto e-mail** del messaggio.
 
 ![](assets/perso_subject.png)
 
@@ -37,9 +36,7 @@ Nella finestra di progettazione e-mail puoi personalizzare il contenuto:
 
 ## Personalizzare le notifiche push
 
-Nel **canale push**, la personalizzazione ti consente di ottimizzare la notifica push.
-
-Puoi aggiungere la personalizzazione nei campi seguenti:
+Puoi anche personalizzare le **notifiche push** nei campi seguenti:
 
 * **Titolo**
 * **Corpo**
@@ -49,8 +46,7 @@ Puoi aggiungere la personalizzazione nei campi seguenti:
 
 ![](assets/perso_push.png)
 
-Per una documentazione completa sulla configurazione delle notifiche push, consulta [questa sezione](../configure-push.md).
-
+Ulteriori informazioni sulla configurazione delle notifiche push in [questa sezione](../create-push.md).
 
 ## Utilizzare l’editor di espressioni
 
@@ -65,8 +61,12 @@ Nell’interfaccia dell’editor di espressioni, seleziona, organizza, personali
 Nella parte sinistra della schermata viene visualizzato un selettore di dominio che consente di selezionare l’origine da personalizzare.
 
 * **Profilo** : elenca tutti i riferimenti associati allo schema di profilo descritto nella documentazione di  [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
-* **Iscrizione**  al segmento: elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione sono disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
-* **Offerte** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa su come gestire le offerte, consulta [questa sezione](../../using/offers/get-started/starting-offer-decisioning.md).
+* **Iscrizione**  al segmento: elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione sono disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
+* **Offerte** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa su come gestire le offerte, consulta [questa sezione](../deliver-personalized-offers.md)
+* **Contesto** : quando  **** Messageactivity viene utilizzato in un percorso, i campi percorso contestuale sono disponibili in questo menu. Fai riferimento a [questa sezione](personalization-use-case.md)
+* **Funzioni**  di supporto: elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. [Ulteriori informazioni](functions/functions.md)
+
+
 
 Una volta selezionato, il riferimento viene aggiunto nell’editor.
 
