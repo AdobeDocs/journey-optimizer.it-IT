@@ -2,10 +2,9 @@
 solution: Journey Orchestration
 title: Informazioni sulle azioni
 description: Informazioni su come configurare un’azione
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 73%
 
 ---
@@ -35,6 +34,6 @@ Le azioni sono disponibili nella palette a sinistra del percorso, nella categori
 
 Nell’elenco **Azioni**, puoi premere c per creare un nuovo percorso, azione, origine dati o evento. Per ulteriori informazioni sulle scelte rapide da tastiera, consulta [questa sezione](../user-interface.md#cjm-accessibility).
 
-Per visualizzare l’elenco delle azioni o configurarne una nuova, fai clic su **[!UICONTROL Admin]** / **[!UICONTROL Actions]** nei menu a sinistra. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
+Per visualizzare l’elenco delle azioni o configurare una nuova azione, passa a **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** nel menu di navigazione a sinistra. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
 
 ![](../assets/custom1.png)
