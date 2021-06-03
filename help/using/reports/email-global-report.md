@@ -1,10 +1,9 @@
 ---
 title: Report globale e-mail
 description: Scopri come utilizzare i dati del report globale e-mail
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -57,7 +56,7 @@ I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** co
 
 * **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
-Per ulteriori informazioni sui messaggi non recapitati, consulta la pagina [Gestisci elenchi di soppressione](../suppression-lists.md) .
+Per ulteriori informazioni sui messaggi non recapitati, consulta la pagina [Elenco di eliminazione](../suppression-list.md) .
 
 ![](../assets/global_report_5.png)
 
