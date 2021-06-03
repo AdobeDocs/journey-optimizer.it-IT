@@ -1,10 +1,9 @@
 ---
 title: Guida introduttiva ai percorsi
 description: Guida introduttiva ai percorsi
-translation-type: tm+mt
-source-git-commit: 0b48a0b0793d523021a2e19f86e101bdbab88305
+source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1465'
 ht-degree: 7%
 
 ---
@@ -39,7 +38,7 @@ Questo passaggio viene eseguito dall&#39; **utente aziendale**. Qui è dove si c
 
 Di seguito sono riportati i passaggi principali per l’invio di messaggi attraverso i percorsi:
 
-1. Nel menu a sinistra, fai clic su **[!UICONTROL Journeys]**. Viene visualizzato l’elenco dei percorsi.
+1. Nella sezione GESTIONE PERCORSO fare clic su **[!UICONTROL Journeys]**. Viene visualizzato l’elenco dei percorsi.
 
    ![](../assets/interface-journeys.png)
 
