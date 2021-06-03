@@ -1,8 +1,7 @@
 ---
 title: Versioni del percorso
 description: Informazioni sulle versioni di percorso
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 364861beb52e5663389a254ba145b31431b696ac
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -13,7 +12,9 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-Nell’elenco percorso vengono visualizzate tutte le versioni del percorso con il numero di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md). Quando cerchi un percorso, le versioni più recenti vengono visualizzate nella parte superiore dell’elenco al primo avvio dell’applicazione. Quindi, puoi definire l’ordinamento desiderato e l’applicazione lo manterrà come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del percorso, sopra l&#39;area di lavoro.
+Nell’elenco percorso vengono visualizzate tutte le versioni del percorso con il numero di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
+
+Quando cerchi un percorso, le versioni più recenti vengono visualizzate nella parte superiore dell’elenco al primo avvio dell’applicazione. Quindi, puoi definire l’ordinamento desiderato e l’applicazione lo manterrà come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del percorso, sopra l&#39;area di lavoro.
 
 ![](../assets/journeyversions1.png)
 
