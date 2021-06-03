@@ -2,8 +2,7 @@
 solution: Journey Orchestration
 title: Eventi generali
 description: Scopri come utilizzare gli eventi generali
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -38,11 +37,11 @@ Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
 In questo esempio, il percorso invia un primo messaggio push di benvenuto a un cliente. Invia quindi un push con sconto sul pasto solo se il cliente entra nel ristorante entro il giorno successivo. Abbiamo pertanto configurato l’evento del ristorante con un timeout di 1 giorno:
 
-* Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo il messaggio push di benvenuto, viene inviato il messaggio push con sconto sul pasto.
+* Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo il messaggio push di benvenuto, viene inviata l’attività push con sconto sui pasti.
 * Se non viene ricevuto alcun evento di ristorante entro il giorno successivo, la persona scorre attraverso il percorso di timeout.
 
-Tieni presente che se desideri configurare un timeout per più eventi posizionati dopo un’attività **[!UICONTROL Wait]** , devi configurare il timeout solo per uno di questi eventi.
+Tieni presente che se desideri configurare un timeout su più eventi posizionati dopo un’attività **[!UICONTROL Wait]** , devi configurare il timeout solo per uno di questi eventi.
 
-Il timeout si applica a tutti gli eventi posizionati dopo l’attività **[!UICONTROL Wait]** . Se non viene ricevuto alcun evento dopo il timeout specificato, gli utenti accederanno a un singolo percorso di timeout o termineranno il percorso.
+Il timeout si applica a tutti gli eventi posizionati dopo l’attività **[!UICONTROL Wait]** . Se non viene ricevuto alcun evento prima del timeout specificato, i singoli utenti accederanno a un unico percorso di timeout o termineranno il loro percorso.
 
 ![](../assets/event-timeout-group.png)
