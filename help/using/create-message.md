@@ -1,11 +1,10 @@
 ---
 title: Creare un messaggio
 description: Scopri come creare un messaggio
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 1%
+source-wordcount: '472'
+ht-degree: 2%
 
 ---
 
@@ -13,11 +12,11 @@ ht-degree: 1%
 
 ![](assets/do-not-localize/badge.png)
 
-I messaggi sono disponibili dalla scorciatoia **[!UICONTROL Messages]** nella barra a sinistra. Tutti i messaggi sono elencati, ordinati in base alla data di pubblicazione (per i messaggi pubblicati) o alla data di creazione (per le bozze dei messaggi).
+I messaggi sono disponibili dalla scelta rapida **[!UICONTROL Messages]** nella navigazione a sinistra. Tutti i messaggi sono elencati, ordinati in base alla data di pubblicazione (per i messaggi pubblicati) o alla data di creazione (per le bozze dei messaggi).
 
 >[!NOTE]
 >
->Ogni utente può accedere ai messaggi, crearli, modificarli e pubblicarli. Ulteriori informazioni sulle autorizzazioni per gli utenti [in questa sezione](permissions.md).
+>Ogni utente può accedere ai messaggi, crearli, modificarli e pubblicarli. Ulteriori informazioni sulle autorizzazioni per gli utenti [in questa sezione](../using/administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,7 +42,7 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    * Seleziona il **[!UICONTROL Preset]** da utilizzare per il messaggio.
 
-      I predefiniti includono tutti i parametri necessari per inviare una notifica e-mail e/o push in base al marchio. [Ulteriori informazioni sul branding](administration.md#cjm-branding).
+      I predefiniti includono tutti i parametri necessari per inviare una notifica e-mail e/o push in base al marchio. [Ulteriori informazioni sui predefiniti](../using/configuration/message-presets.md).
 
    * Seleziona i canali da utilizzare per il messaggio: Notifica e-mail e/o push. Per creare il messaggio, devi selezionare almeno un canale.
    Puoi accedere e modificare il titolo, la descrizione e il predefinito del messaggio in qualsiasi momento utilizzando il pulsante **[!UICONTROL Properties]** nell’interfaccia dei messaggi.
@@ -59,8 +58,8 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    Ora puoi creare il contenuto del messaggio e adattare le impostazioni. Informazioni dettagliate sulla configurazione delle notifiche e-mail e push sono disponibili nelle sezioni seguenti:
 
-   * [Configurare le e-mail](configure-email.md)
-   * [Configurare le notifiche push](configure-push.md)
+   * [Creare un messaggio e-mail](create-email.md)
+   * [Creare notifiche push](create-push.md)
 
    >[!NOTE]
    >   
