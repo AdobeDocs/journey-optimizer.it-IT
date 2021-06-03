@@ -1,10 +1,9 @@
 ---
 title: Monitorare l’esecuzione dei messaggi
 description: Scopri le linee guida per il monitoraggio
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 3f02a5debbc870915175d2802eb30ff567a3c159
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,11 +34,15 @@ Se un messaggio viene pubblicato ma non è ancora attivato da un percorso, non v
 * Messaggi attivati, ma non ancora avviati (in sospeso).
 * Messaggi attivati e attualmente in esecuzione (in corso).
 
-Per i messaggi multicanale, viene visualizzata una riga per canale per ogni messaggio.
+<!--For multichannel messages, one row per channel is displayed for each message. STILL VALID? looks like NOT-->
 
-![](assets/message-execution-multichannel.png)
+>[!NOTE]
+>
+>Se un messaggio è stato utilizzato in diversi percorsi, viene visualizzata una riga al percorso per ogni esecuzione.
 
-Se un messaggio è stato utilizzato in diversi percorsi, la colonna **[!UICONTROL Source]** visualizza **[!UICONTROL Multiple]**.
+<!--![](assets/message-execution-multichannel.png)-->
+
+<!--If a message has been used in several journeys, the **[!UICONTROL Source]** column displays **[!UICONTROL Multiple]**.-->
 
 Per impostazione predefinita, i messaggi vengono visualizzati a partire dalla data di esecuzione più recente. Fai clic sull’icona **[!UICONTROL Filters]** per cercare i messaggi in base al canale, alla data di inizio e/o alla data di fine.
 
@@ -51,15 +54,29 @@ La <!--**[!UICONTROL Quick action]**-->seconda colonna consente di aprire il [me
 
 Per ogni esecuzione del messaggio, vengono visualizzati diversi indicatori:
 
-* **[!UICONTROL Message label]**: Titolo del messaggio definito al momento  [della creazione del messaggio](create-message.md).
-* **[!UICONTROL Execution ID]**: Identificatore generato automaticamente.
-* **[!UICONTROL Source]**: Nome del percorso che sfrutta il messaggio.
+* **[!UICONTROL Message label]**: Titolo del messaggio definito al momento  [della creazione del messaggio](create-message.md). L’ID di esecuzione, generato automaticamente, viene visualizzato tra parentesi.
+
+   <!--**[!UICONTROL Execution ID]**: Automatically generated identifier.
+  **[!UICONTROL Source]**: Name of the journey leveraging that message.-->
+
+* **[!UICONTROL Journey - Version - Action]**: Nome del percorso che sfrutta il messaggio, la versione del percorso e l’etichetta dell’azione che sfrutta il messaggio nel percorso.
+
+* **[!UICONTROL Status]**: Stato di esecuzione del messaggio.  <!--List all the possible statuses? For now only Live status? The user cannot stop or cancel the execution. TBC by Fred-->
+
 * **[!UICONTROL Start date]**: Data e ora in cui il messaggio è stato eseguito dal percorso.
+
+   <!--Targeted: Number of targeted profiles for each message execution. To come?-->
+
 * **[!UICONTROL Excluded]**: Numero di profili che sono stati esclusi dal target iniziale a causa di regole di esclusione.
+
 * **[!UICONTROL Sent]**: Numero di messaggi inviati.
+
 * **[!UICONTROL Delivered]**: Numero di messaggi recapitati correttamente nella cassetta postale (e-mail) o nel dispositivo del destinatario (push) senza generare un messaggio non recapitato o nessun altro errore di consegna.
-* **[!UICONTROL Bounces]**: Numero di messaggi che non possono essere recapitati a causa di un errore di consegna. [Ulteriori informazioni sui mancati recapiti](suppression-lists.md#delivery-failures).
+
+* **[!UICONTROL Bounces]**: Numero di messaggi che non possono essere recapitati a causa di un errore di consegna. [Ulteriori informazioni sui rimbalzi](suppression-list.md).
+
 * **[!UICONTROL Opens]**: Numero di messaggi aperti.
+
 * **[!UICONTROL Clicks]**: Numero di clic sui collegamenti in un messaggio e-mail.
 
    >[!NOTE]
@@ -67,5 +84,7 @@ Per ogni esecuzione del messaggio, vengono visualizzati diversi indicatori:
    >I clic non esistono per le notifiche push: quando un utente fa clic su una notifica push, apre l&#39;app, che può essere considerata solo come aperta.
 
 * **[!UICONTROL Errors]**: Numero di messaggi che non possono essere inviati a causa di un errore tecnico.
+
+* **[!UICONTROL Spam complaints]**: Numero di messaggi contrassegnati come spam dai destinatari. [Ulteriori informazioni sui reclami](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
 
 Facendo clic su ogni collegamento ipertestuale si aprirà la visualizzazione di riepilogo del messaggio corrispondente. [Ulteriori informazioni sui messaggi](create-message.md).
