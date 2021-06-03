@@ -1,10 +1,9 @@
 ---
 keywords: Journey Optimizer;home;argomenti popolari
 title: Documentazione del prodotto Journey Optimizer
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '223'
 ht-degree: 5%
 
 ---
@@ -18,14 +17,15 @@ ht-degree: 5%
 
 ## Novità?
 
+* [Controllo ](using/administration/permissions-overview.md) </br> degli accessiScopri come definire e gestire le autorizzazioni assegnate agli  [!DNL Journey Optimizer] utenti
+
+* [Funzioni ](using/personalization/functions/functions.md) </br> di supportoUtilizza le funzioni di supporto nell’editor espressioni per personalizzare il contenuto dei messaggi
 
 * [Gestione ](using/offers/get-started/starting-offer-decisioning.md) </br> delle decisioniCrea offerte e fornisci la migliore offerta ed esperienza ai tuoi clienti
 
 * [Anteprima e test ](using/preview.md) </br> dei messaggiUtilizzare i profili di test per visualizzare in anteprima i messaggi, inviare bozze e controllare il rendering delle e-mail
 
-* [Rapporti ](using/reports/live-report.md) </br> in tempo realeScopri i rapporti in tempo reale per i tuoi percorsi e messaggi
-
-* [Report globali](using/reports/global-report.md) </br> Scopri come tracciare e misurare l’efficacia dei tuoi percorsi e messaggi
+* [Rapporti ](using/reports/live-report.md) live e  [report ](using/reports/global-report.md)</br> globaliScopri le funzionalità di reporting per monitorare e misurare l’efficacia dei tuoi percorsi e messaggi
 
 * [Creare ](using/building-journeys/creating-test-profiles.md) </br> profili di testCreare profili di test e utilizzarli per testare messaggi e percorsi
 
