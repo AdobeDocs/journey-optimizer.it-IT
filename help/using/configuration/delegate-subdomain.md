@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 8%
 
 La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) per delegare una sua suddivisione (tecnicamente: una zona DNS sotto di essa, che può essere chiamata sottozona) a un’altra entità. In sostanza, se un cliente gestisce la zona &quot;example.com&quot;, può delegare ad Adobe la sottozona &quot;marketing.example.com&quot; .
 
-Delegando un sottodominio da utilizzare con Adobe Optimizer, i client possono contare su un Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito dei messaggi standard del settore per i propri domini di invio di e-mail marketing, mantenendo e controllando il DNS per i propri
-domini e-mail interni.
+Delegando un sottodominio da utilizzare con [!DNL Journey Optimizer], i client possono contare su un Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito dei messaggi standard del settore per i propri domini di invio di e-mail marketing, mantenendo e controllando il DNS per i propri domini di posta elettronica interni.
 
-Journey Optimizer ti consente di delegare completamente i sottodomini ad Adobe. In questo modo, Adobe sarà in grado di inviare messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento delle campagne e-mail.
+[!DNL Journey Optimizer] ti consente di delegare completamente i sottodomini ad Adobe direttamente dall’interfaccia del prodotto. In questo modo, Adobe sarà in grado di inviare messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento delle campagne e-mail.
 
 >[!NOTE]
 >
