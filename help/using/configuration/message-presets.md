@@ -1,7 +1,7 @@
 ---
 title: Creare predefiniti per messaggi
 description: Scopri come configurare e monitorare i predefiniti per messaggi
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Con [!DNL Journey Optimizer] puoi impostare i predefiniti per messaggi che defin
 > La configurazione dei predefiniti per messaggi è limitata agli amministratori di Percorso. [Ulteriori informazioni](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dall’elenco **[!UICONTROL Presets]** .
 
 ## Creare un predefinito messaggio {#create-message-preset}
@@ -27,6 +28,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 1. Accedi al menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]**, quindi fai clic su **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
+
 
 1. Immetti un nome e una descrizione (facoltativi) per il predefinito, quindi seleziona i canali da configurare.
 
@@ -80,6 +82,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    Questi controlli includono test di recapito messaggi eseguiti dal team di recapito messaggi di Adobe:
 
+
    * Convalida SPF
    * Convalida DKIM
    * Convalida record MX
@@ -87,6 +90,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    * Controllo host Helo
    * Verifica del pool IP
    * Record A/PTR, verifica del sottodominio t/m/res
+
 
 1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene lo stato **[!UICONTROL Active]** . È pronto per essere utilizzato per inviare messaggi.
 
