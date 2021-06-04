@@ -1,9 +1,9 @@
 ---
 title: Creare predefiniti per messaggi
 description: Scopri come configurare e monitorare i predefiniti per messaggi
-source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
+source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici e caratteri `_` `.` `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
 1. Configura le impostazioni **e-mail** .
 
@@ -53,7 +53,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
       >[!NOTE]
       >
-      > * I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici e caratteri `_`, `.`, `-`.
+      > * I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
          > 
          > 
       * Ad eccezione del dominio **Rispondi a (inoltra e-mail)**, gli indirizzi e-mail devono utilizzare il sottodominio selezionato corrente.
