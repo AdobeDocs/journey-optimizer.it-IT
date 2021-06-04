@@ -1,7 +1,7 @@
 ---
 title: Creare predefiniti per messaggi
 description: Scopri come configurare e monitorare i predefiniti per messaggi
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    * Seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
 
-      Per ulteriori informazioni su come configurare l&#39;ambiente per l&#39;invio di notifiche push, consulta [questa sezione](../push-configuration.md).
+      Per ulteriori informazioni su come configurare l&#39;ambiente per l&#39;invio di notifiche push, consulta [questa sezione](../push-gs.md).
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
