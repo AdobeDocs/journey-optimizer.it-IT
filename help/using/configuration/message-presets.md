@@ -1,7 +1,7 @@
 ---
 title: Creare predefiniti per messaggi
 description: Scopri come configurare e monitorare i predefiniti per messaggi
-source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -35,8 +35,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > * I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici e caratteri `_`, `.`, `-`.
-
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici e caratteri `_` `.` `-`.
 
 1. Configura le impostazioni **e-mail** .
 
@@ -65,7 +64,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    ![](../assets/preset-push.png)
 
-   * Seleziona almeno una piattaforma: iOS e/o Android
+   * Seleziona almeno una piattaforma: **iOS** e/o **Android**
 
    * Seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
 
@@ -77,7 +76,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Una volta creato, il predefinito del messaggio viene visualizzato nell’elenco con lo stato **[!UICONTROL Processing]** .
 
-   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è di circa 48h-72h e può richiedere fino a 7-10 giorni.
+   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è di circa **48h-72h** e può richiedere fino a **7-10 giorni**.
 
    Questi controlli includono test di recapito messaggi eseguiti dal team di recapito messaggi di Adobe:
 
