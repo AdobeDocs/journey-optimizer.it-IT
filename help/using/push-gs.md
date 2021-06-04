@@ -1,14 +1,14 @@
 ---
 title: Guida introduttiva alla configurazione push
 description: Comprendere il flusso di dati e i componenti della notifica push
-source-git-commit: d2f17a273445a92f11eeb8968bd3082295c3aa09
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
-# Guida introduttiva alla configurazione push {#get-started-push}
+# Configurazione della notifica push {#get-started-push}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -68,5 +68,3 @@ L’immagine seguente mostra i vari passaggi, end-to-end, necessari per configur
 
 ![](assets/user-flow.png)
 
-
-I passaggi dettagliati per la configurazione del canale push e l’abilitazione delle notifiche push in [!DNL Journey Optimizer] sono disponibili in [questa pagina](push-configuration.md).
