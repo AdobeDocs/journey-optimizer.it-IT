@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 27%
@@ -47,13 +47,21 @@ Per assegnare le sandbox:
 
 1. Seleziona un **[!UICONTROL Product profile]**.
 
+   ![](../assets/sandbox_1.png)
+
 1. Seleziona la scheda **[!UICONTROL Permissions]**.
 
-1. Seleziona la funzionalità **[!UICONTROL Sandbox access]** .
+1. Seleziona la funzionalità **[!UICONTROL Sandboxes]** .
+
+   ![](../assets/sandbox_2.png)
 
 1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
+   ![](../assets/sandbox_3.png)
+
 1. Se necessario, in **[!UICONTROL Included Permission Items]**, fai clic sull’icona X accanto a per rimuovere l’accesso alle sandbox al tuo **[!UICONTROL Product profile]**.
+
+   ![](../assets/sandbox_4.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
