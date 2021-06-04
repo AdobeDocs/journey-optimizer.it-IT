@@ -1,9 +1,9 @@
 ---
 title: Set di dati sui posizionamenti
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per i posizionamenti.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Campo:** contentTypes 
 **Tipo:** array
 
-* **Tipo di supporto MIME**
+**_esperienza > decisionale > contentTypes > MIME Media Type**
 
-   **Titolo:** tipo di supporto MIME
-   **Descrizione:** un vincolo per il tipo di supporto dei componenti previsto in tale posizione. Per un componente, ad esempio un formato immagine diverso, potrebbe essere possibile utilizzare più di un tipo di supporto.
-   **Tipo:** stringa
+**Titolo:** Tipo di elemento multimediale MIME 
+**Descrizione:** un vincolo per il tipo di supporto dei componenti che si prevede in tale posizionamento. Per un componente, ad esempio un formato immagine diverso, potrebbe essere possibile utilizzare più di un tipo di supporto.
+**Tipo:** stringa
 
 #### _esperienza > decisionale > Posizionamento descrizione
 
