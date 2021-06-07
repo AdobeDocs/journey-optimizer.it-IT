@@ -1,10 +1,9 @@
 ---
 title: Report globale
 description: Scopri come utilizzare i dati del report globale
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -12,6 +11,10 @@ ht-degree: 0%
 # Rapporto globale {#global-report}
 
 ![](../assets/do-not-localize/badge.png)
+
+>[!NOTE]
+>
+> Se le query personalizzate vengono effettuate tramite API quando si utilizza il servizio Query, si prega di attendersi un certo ritardo per i rapporti.
 
 Il **[!UICONTROL Global report]** ti consente di misurare l’efficacia dei percorsi e delle consegne in un periodo di tempo selezionato.
 
