@@ -1,11 +1,10 @@
 ---
 title: Creare formule di classificazione
 description: Scopri come creare formule di classificazione in Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,19 +22,21 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 Per creare una formula di classificazione, segui i passaggi seguenti:
 
-* Accedi al menu **[!UICONTROL Components]**, quindi seleziona la scheda **[!UICONTROL Rankings]** .
+1. Accedi al menu **[!UICONTROL Components]**, quindi seleziona la scheda **[!UICONTROL Rankings]** . Viene visualizzato l’elenco delle classificazioni create in precedenza.
 
-* Fare clic su **[!UICONTROL Create formula]** per creare una nuova formula di classificazione.
+   ![](../../assets/rankings-list.png)
+
+1. Fare clic su **[!UICONTROL Create ranking]** per creare una nuova formula di classificazione.
 
    ![](../../assets/ranking-create-formula.png)
 
-* Specificare il nome, la descrizione e la formula della formula di classificazione.
+1. Specificare il nome, la descrizione e la formula della formula di classificazione.
 
    In questo esempio, vogliamo aumentare la priorità di tutte le offerte con l’attributo &quot;caldo&quot; se il tempo effettivo è caldo. A questo scopo, il **contextData.weather=hot** è stato passato nella chiamata decisionale.
 
    ![](../../assets/ranking-syntax.png)
 
-* Fai clic su **[!UICONTROL Save]**. La formula di classificazione viene creata, è possibile selezionarla dall&#39;elenco per ottenere i dettagli e modificarla o eliminarla.
+1. Fai clic su **[!UICONTROL Save]**. La formula di classificazione viene creata, è possibile selezionarla dall&#39;elenco per ottenere i dettagli e modificarla o eliminarla.
 
    È ora pronto per essere utilizzato in una decisione per classificare le offerte idonee per un posizionamento (consulta [Configurare la selezione di offerte nelle decisioni](../offer-activities/configure-offer-selection.md)).
 
