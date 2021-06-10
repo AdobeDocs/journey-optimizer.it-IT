@@ -1,11 +1,10 @@
 ---
 title: Gestire le autorizzazioni
-description: Scopri come gestire le autorizzazioni
-translation-type: tm+mt
+description: Scopri come gestire le autorizzazioni.
 source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '983'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +12,7 @@ ht-degree: 66%
 
 ![](assets/do-not-localize/badge.png)
 
-## Accesso a Journey Optimizer {#access-CJM}
+## Accedere a Journey Optimizer {#access-CJM}
 
 [!DNL Journey Optimizer] ti consente di assegnare agli utenti un set di autorizzazioni per definire a quale parte dell’interfaccia possono accedere.
 
@@ -23,7 +22,7 @@ Per poter accedere a [!DNL Journey Optimizer], un utente deve essere:
 
 * parte di un **[!UICONTROL product profile]** di [!DNL Journey Optimizer] associato alle autorizzazioni di [!DNL Journey Optimizer].
 
-* parte di un **[!UICONTROL product profile]** di [!DNL Adobe Experience Platform]. Non c’è alcuna autorizzazione obbligatoria da possedere. L’utente deve disporre dell’autorizzazione **[!UICONTROL profile management]** per creare e modificare i segmenti di Platform dall’interfaccia di [!DNL Journey Optimizer]. [Ulteriori informazioni sul controllo](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=en#adobe-admin-console) degli accessi.
+* parte di un **[!UICONTROL product profile]** di [!DNL Adobe Experience Platform]. Non c’è alcuna autorizzazione obbligatoria da possedere. L’utente deve disporre dell’autorizzazione **[!UICONTROL profile management]** per creare e modificare i segmenti di Platform dall’interfaccia di [!DNL Journey Optimizer]. [Ulteriori informazioni sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#adobe-admin-console).
 
 All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti profili di prodotto pronti all’uso:
 
@@ -41,7 +40,7 @@ All’interno di Admin Console, puoi assegnare agli utenti uno dei seguenti prof
    * Gestione dei percorsi
    * Pubblicazione dei percorsi
    * Gestione dei rapporti
-   * Leggi eventi, origini dati e azioni
+   * Lettura di eventi, origini dati e azioni
 
 Puoi anche creare profili di prodotto personalizzati, se i profili forniti non sono sufficienti per la gestione dei tuoi utenti.
 Gli utenti devono essere sempre collegati a un profilo di prodotto che consenta loro di assegnare autorizzazioni incorporate specifiche, ad esempio:
@@ -62,7 +61,7 @@ Gli utenti devono essere sempre collegati a un profilo di prodotto che consenta 
 
 [!DNL Journey Optimizer] consente di creare profili di prodotto personalizzati e di assegnare agli utenti un set di autorizzazioni e sandbox. Con i profili di prodotto, puoi autorizzare o negare l’accesso a determinate funzionalità o oggetti all’interno dell’interfaccia.
 
-Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
 
 Per creare un profilo di prodotto e assegnare un set di autorizzazioni e sandbox:
 
@@ -78,7 +77,7 @@ Per creare un profilo di prodotto e assegnare un set di autorizzazioni e sandbox
 
    ![](assets/do-not-localize/user_management_1.png)
 
-1. Seleziona il nuovo profilo di prodotto per iniziare a gestire le autorizzazioni. Nella scheda **[!UICONTROL Users]**, aggiungi gli utenti al tuo profilo di prodotto. [Scopri come assegnare il profilo](permissions.md#assigning-product-profile) di prodotto.
+1. Seleziona il nuovo profilo di prodotto per iniziare a gestire le autorizzazioni. Nella scheda **[!UICONTROL Users]**, aggiungi gli utenti al tuo profilo di prodotto. [Scopri come assegnare il profilo di prodotto](permissions.md#assigning-product-profile).
 
 1. Effettua gli stessi passaggi descritti in precedenza per aggiungere **[!UICONTROL Admin]** al tuo profilo di prodotto.
 
@@ -86,7 +85,7 @@ Per creare un profilo di prodotto e assegnare un set di autorizzazioni e sandbox
 
    ![](assets/do-not-localize/user_management_7.png)
 
-1. Nella categoria di autorizzazioni **[!UICONTROL Sandboxes]**, seleziona le sandbox da assegnare al tuo profilo di prodotto. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Nella categoria di autorizzazioni **[!UICONTROL Sandboxes]**, seleziona le sandbox da assegnare al tuo profilo di prodotto. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
    ![](assets/do-not-localize/user_management_8.png)
 
@@ -107,7 +106,7 @@ Adesso il tuo profilo di prodotto è stato creato e configurato. Gli utenti coll
 I profili di prodotto sono assegnati a un set di utenti che condividono le medesime autorizzazioni all’interno dell’organizzazione.
 L’elenco di tutti i profili di prodotto forniti con autorizzazioni assegnate è disponibile all’interno di questa sezione.
 
-Per assegnare un profilo di prodotto a un utente per accedere ai percorsi:
+Per assegnare un profilo di prodotto a un utente affinché possa accedere ai percorsi:
 
 1. All’interno di Admin Console, seleziona **[!UICONTROL Journey Orchestration]**.
 
@@ -119,7 +118,7 @@ Per assegnare un profilo di prodotto a un utente per accedere ai percorsi:
 
 1. Fai clic su **[!UICONTROL Add user]**.
 
-   Puoi anche aggiungere il nuovo utente a un gruppo di utenti per ottimizzare il set di autorizzazioni condiviso. [Ulteriori informazioni sui gruppi](https://helpx.adobe.com/it/enterprise/using/user-groups.html) di utenti.
+   Puoi anche aggiungere il nuovo utente a un gruppo di utenti per ottimizzare il set di autorizzazioni condiviso. [Ulteriori informazioni sui gruppi di utenti](https://helpx.adobe.com/it/enterprise/using/user-groups.html).
 
    ![](assets/do-not-localize/user_management_3.png)
 
@@ -127,34 +126,34 @@ Per assegnare un profilo di prodotto a un utente per accedere ai percorsi:
 
    ![](assets/do-not-localize/user_management_4.png)
 
-L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza .
+L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
 ## Utilizzo delle sandbox {#sandboxes}
 
 [!DNL Journey Optimizer] consente di suddividere l’istanza in ambienti virtuali separati, denominati sandbox.
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. [Scopri come assegnare le sandbox](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] riflette le sandbox Adobe Experience Platform create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente della sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+[!DNL Journey Optimizer] presenta le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
 
 ## Accesso al contenuto {#content-access}
 
-Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella condivisa del contenuto a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Storage]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso a [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diverso livello di accesso alle cartelle condivise.
+Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Storage]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
 
 ![](assets/do-not-localize/content_access.png)
 
-Per sincronizzare il contenuto con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox; ad esempio, se la sandbox è denominata sviluppo, la cartella condivisa deve avere lo stesso nome.
+Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox. Ad esempio, se la sandbox è denominata “sviluppo”, la cartella condivisa deve avere lo stesso nome.
 
-[Scopri come gestire le cartelle](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) condivise.
+[Scopri come gestire le cartelle condivise](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
 
-## Autorizzazioni Assets Essentials {#assets-permissions}
+## Autorizzazioni di Assets Essentials {#assets-permissions}
 
 Adobe Experience Manager Assets Essentials fornisce un archivio unico e centralizzato di risorse da utilizzare per compilare i messaggi.
 Ogni risorsa viene salvata in cartelle o sottocartelle. Puoi scegliere di condividere le cartelle e il livello di accesso da assegnare.
 
-1. Dalla scheda **[!UICONTROL Assets]** , naviga tra le cartelle per trovare quella da condividere.
+1. Dalla scheda **[!UICONTROL Assets]**, individua la cartelle da condividere.
 
 1. Seleziona la cartella o la risorsa e fai clic su **[!UICONTROL Share]**.
 
