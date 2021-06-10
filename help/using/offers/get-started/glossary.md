@@ -1,36 +1,35 @@
 ---
 title: Glossario
 description: Glossario delle offerte
-translation-type: tm+mt
 source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Glossario {#glossary}
 
-Di seguito sono riportati i concetti principali con cui lavorare quando si utilizza Gestione decisioni.
+Di seguito sono elencati i concetti principali necessari per l’utilizzo di Gestione delle decisioni.
 
 * **Quota limite** o **Quota limite frequenza**: il limite viene utilizzato come vincolo per definire quante volte viene presentata un’offerta.
 Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come “Limiti totali”; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come “Limite per profilo”.
 
 * **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite impostate da un addetto marketing, ad esempio la categoria dell’offerta.
 
-* **Decisione**  (precedentemente nota come attività di offerta): Una decisione contiene la logica che informa la selezione di un’offerta.
+* **Decisione** (precedentemente nota come “attività di offerta”): una decisione contiene la logica utilizzata per determinare la selezione di un’offerta.
 
 * **Regola di decisione**: le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 
 * **Offerta idonea**: un’offerta idonea soddisfa i vincoli definiti a monte che definiscono l’offerta coerente rispetto a un profilo.
 
-* **Gestione** delle decisioni: Consente di creare e fornire esperienze di offerta personalizzate per l’utente finale tra canali e applicazioni utilizzando la logica di business e le regole decisionali.
+* **Gestione delle decisioni**: consente di creare e fornire esperienze di offerta personalizzate per l’utente finale sui vari canali e applicazioni utilizzando la logica di business e le regole decisionali.
 
 * **Offerte di fallback**: un’offerta di fallback è l’offerta predefinita che viene visualizzata se un utente finale non è idoneo per nessuna delle offerte personalizzate nella raccolta.
 
 * **Offerta**: un’offerta è un messaggio di marketing a cui possono essere associate delle regole che determinano gli utenti idonei per visualizzare l’offerta.
 
-* **Libreria** offerte: La libreria delle offerte è una libreria centrale utilizzata per gestire offerte personalizzate e di fallback, regole decisionali e decisioni.
+* **Libreria di offerte**: la libreria di offerte è una libreria centrale utilizzata per gestire offerte personalizzate e di fallback, regole di decisione e decisioni.
 
 * **Offerte personalizzate**: un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
