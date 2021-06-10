@@ -1,45 +1,44 @@
 ---
 title: Interfaccia utente
-description: Ulteriori informazioni sull’interfaccia utente della Libreria offerte .
-translation-type: tm+mt
+description: Ulteriori informazioni sull’interfaccia utente della Libreria di offerte.
 source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Interfaccia utente {#user-interface}
 
-La Libreria offerte consente di creare e gestire posizionamenti e offerte in un’unica posizione, nonché di accedere a tutte le decisioni create (precedentemente note come attività di offerta).
+La Libreria di offerte consente di creare e gestire posizionamenti e offerte in un unico punto, nonché di accedere a tutte le decisioni create (precedentemente note come “attività di offerta”).
 
 Utilizza il menu **[!UICONTROL Offers]** per gestire le offerte personalizzate e di fallback, organizzarle in raccolte e consegnarle creando le seguenti decisioni:
 
-* **[!UICONTROL Offers]**: Accedi alle tue offerte personalizzate e di fallback o creane di nuove. Consulta [Creazione di un&#39;offerta](../offer-library/creating-personalized-offers.md) e [Creazione di un&#39;offerta di fallback](../offer-library/creating-fallback-offers.md).
+* **[!UICONTROL Offers]**: accedi alle tue offerte personalizzate e di fallback o creane di nuove. Consulta [Creazione di un’offerta](../offer-library/creating-personalized-offers.md) e [Creazione di un’offerta di fallback](../offer-library/creating-fallback-offers.md).
 
-* **[!UICONTROL Collections]**: Crea e gestisci raccolte di offerte statiche e dinamiche. Consulta [Informazioni sulle raccolte di offerte](../offer-library/creating-collections.md).
+* **[!UICONTROL Collections]**: crea e gestisci raccolte di offerte statiche e dinamiche. Consulta [Informazioni sulle raccolte di offerte](../offer-library/creating-collections.md).
 
-* **[!UICONTROL Decisions]**: Crea e gestisci le decisioni per distribuire le tue offerte. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
+* **[!UICONTROL Decisions]**: crea e gestisci le decisioni per distribuire le offerte. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
 ![](../../assets/offers_menu.png)
 
 Utilizza il menu **[!UICONTROL Components]** per gestire i componenti necessari per creare le offerte:
 
-* **[!UICONTROL Placements]**: Crea e gestisci i posizionamenti in cui verranno visualizzate le offerte. Consulta [Creazione di posizionamenti](../offer-library/creating-placements.md).
+* **[!UICONTROL Placements]**: crea e gestisci i posizionamenti in cui verranno visualizzate le offerte. Consulta [Creazione di posizionamenti](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Tags]**: Crea e gestisci i tag per organizzare e filtrare le offerte. Consulta [Creazione di tag](../offer-library/creating-tags.md).
+* **[!UICONTROL Tags]**: crea e gestisci i tag per organizzare e filtrare le offerte. Consulta [Creazione di tag](../offer-library/creating-tags.md).
 
-* **[!UICONTROL Rules]**: Gestisci le condizioni in cui vengono presentate le offerte. Consulta [Creazione di una regola decisionale](../offer-library/creating-decision-rules.md).
+* **[!UICONTROL Rules]**: gestisci le condizioni in cui vengono presentate le offerte. Consulta [Creazione di una regola di decisione](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Crea e gestisci formule di classificazione per determinare quale offerta deve essere presentata per prima per un determinato posizionamento. Consultare [Creare formule di classificazione](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: crea e gestisci formule di classificazione per determinare quale offerta deve essere presentata per prima per un determinato posizionamento. Consulta [Creare formule di classificazione](../offer-library/create-ranking-formulas.md).
 
 ![](../../assets/offer_activities.png)
 
-## Ricerca e filtraggio delle informazioni
+## Ricerca e filtro delle informazioni
 
 Usa la **barra di ricerca** per trovare un elemento specifico.
 
-**** Per accedere ai filtri, fai clic sull’icona del filtro in alto a sinistra nell’elenco. Ti consentono di filtrare gli elementi visualizzati in base a criteri diversi. Ad esempio, puoi filtrare i posizionamenti creati per il canale di comunicazione e-mail e per il contenuto di tipo immagine.
+Per accedere a **Filtri** puoi anche fare clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Ad esempio, puoi filtrare i posizionamenti creati per il canale di comunicazione e-mail e per il contenuto di tipo immagine.
 
 ![](../../assets/filters.png)
 
@@ -55,22 +54,22 @@ La personalizzazione delle colonne viene salvata per ogni utente.
 
 ## Riquadro informazioni
 
-Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informazioni che ti consenta di recuperare informazioni ed eseguire azioni di base sull’elemento.
+Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informazioni che ti consenta di recuperare informazioni ed eseguire azioni di base su quell’elemento.
 
 ![](../../assets/information-pane.png)
 
-Gli elenchi delle offerte e delle decisioni ti consentono inoltre di eseguire azioni in blocco su diversi elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
+Dagli elenchi delle offerte e delle decisioni ora è possibile eseguire azioni in blocco su più elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
 
 ![](../../assets/bulk-actions.png)
 
-Puoi anche duplicare un’offerta o decisioni esistenti per creare una copia con lo stato **[!UICONTROL Draft]** . Questa operazione può essere eseguita dal riquadro delle informazioni o da un&#39;offerta o da una visualizzazione dettagliata di una decisione.
+Puoi anche duplicare un’offerta o decisioni esistenti per creare una copia con lo stato **[!UICONTROL Draft]**. Questa operazione può essere eseguita dal riquadro delle informazioni oppure dalla vista dettagliata di un’offerta o di una decisione.
 
 ![](../../assets/duplicate-offer.png)
 
 ## Registri di modifica di offerte e decisioni {#changes-logs}
 
-La Libreria offerte ti consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione. A questo scopo, apri l’offerta o la decisione facendo clic sul suo nome nell’elenco, quindi seleziona la scheda **[!UICONTROL Change log]** .
+La Libreria di offerte ti consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione. A questo scopo, apri l’offerta o la decisione facendo clic sul nome nell’elenco, quindi seleziona la scheda **[!UICONTROL Change log]**.
 
-Tutte le modifiche apportate vengono visualizzate in questa schermata, nonché il nome dell’utente che ha eseguito le modifiche.
+Tutte le modifiche apportate vengono visualizzate in questa schermata, così come il nome dell’utente che le ha eseguite.
 
 ![](../../assets/change-logs.png)
