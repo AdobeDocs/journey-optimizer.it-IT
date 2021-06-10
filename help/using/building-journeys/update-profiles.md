@@ -1,15 +1,14 @@
 ---
-title: Aggiornare il profilo
+title: Aggiorna il profilo
 description: Scopri come utilizzare l’attività Aggiorna profilo in un percorso
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ce9484905b359900096858e46c05aef09efaa760
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
 
-# Aggiornare il profilo {#update-profile}
+# Aggiorna il profilo {#update-profile}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -46,7 +45,11 @@ Per ulteriori informazioni su come trasformare un profilo esistente in un profil
 
    ![](../assets/profileupdate2.png)
 
-1. Seleziona un set di dati dall’elenco. La selezione del set di dati determinerà dove verrà memorizzato il nuovo valore del campo profilo.
+1. Seleziona un set di dati dall’elenco.
+
+   >[!NOTE]
+   >
+   >L&#39;azione **Aggiorna profilo** aggiorna i dati del profilo in tempo reale, ma non aggiorna i set di dati. La selezione del set di dati è necessaria in quanto il profilo è un record relativo a un set di dati.
 
 1. Fai clic sul campo **Valore** per definire il valore da utilizzare:
 
