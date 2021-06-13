@@ -1,12 +1,12 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 79%
@@ -125,7 +125,7 @@ ht-degree: 79%
       + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
       + [Creare raccolte](using/offers/offer-library/creating-collections.md)
       + [Creare formule di classificazione](using/offers/offer-library/create-ranking-formulas.md)
-   + Creare e gestire le decisioni {#create-manage-activities}
+   + Creare e gestire decisioni {#create-manage-activities}
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
    + Creare rapporti di gestione delle decisioni {create-reports}
@@ -138,36 +138,36 @@ ht-degree: 79%
       + [Set di dati di offerte personalizzate](using/offers/export-catalog/export-offers.md)
       + [Set di dati sulle decisioni](using/offers/export-catalog/export-decisions.md)
       + [Set di dati sui posizionamenti](using/offers/export-catalog/export-placements.md)
-      + [Set di dati di fallback](using/offers/export-catalog/export-fallback.md)
+      + [Set di dati sui fallback](using/offers/export-catalog/export-fallback.md)
    + Documentazione di riferimento API {#api-reference}
       + [Introduzione](using/offers/api-reference/getting-started.md)
       + Creare e gestire offerte tramite API {#offers-api}
          + Posizionamenti {#placements}
-            + [Elencare i posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
+            + [Elencare posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
             + [Ricercare un posizionamento](using/offers/api-reference/offers-api/placements/lookup.md)
             + [Creare un posizionamento](using/offers/api-reference/offers-api/placements/create.md)
             + [Aggiornare un posizionamento](using/offers/api-reference/offers-api/placements/update.md)
             + [Eliminare un posizionamento](using/offers/api-reference/offers-api/placements/delete.md)
          + Regole di decisione {#decision-rules}
-            + [Elencare le regole di decisione](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
+            + [Elencare regole di decisione](using/offers/api-reference/offers-api/decision-rules/rules-list.md)
             + [Ricercare una regola di decisione](using/offers/api-reference/offers-api/decision-rules/lookup.md)
             + [Creare una regola di decisione](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Aggiornare una regola di decisione](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Eliminare una regola di decisione](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Tag {#tags}
-            + [Elencare i tag](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Elencare tag](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Ricercare un tag](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Creare un tag](using/offers/api-reference/offers-api/tags/create.md)
             + [Aggiornare un tag](using/offers/api-reference/offers-api/tags/update.md)
             + [Eliminare un tag](using/offers/api-reference/offers-api/tags/delete.md)
          + Offerte personalizzate {#personalized-offers}
-            + [Elencare le offerte personalizzate](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
+            + [Elencare offerte personalizzate](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Ricercare un’offerta personalizzata](using/offers/api-reference/offers-api/personalized-offers/lookup.md)
             + [Creare un’offerta personalizzata](using/offers/api-reference/offers-api/personalized-offers/create.md)
             + [Aggiornare un’offerta personalizzata](using/offers/api-reference/offers-api/personalized-offers/update.md)
             + [Eliminare un’offerta personalizzata](using/offers/api-reference/offers-api/personalized-offers/delete.md)
          + Raccolte {#collections}
-            + [Elencare le raccolte](using/offers/api-reference/offers-api/collections/collections-list.md)
+            + [Elencare raccolte](using/offers/api-reference/offers-api/collections/collections-list.md)
             + [Ricercare una raccolta](using/offers/api-reference/offers-api/collections/lookup.md)
             + [Creare una raccolta](using/offers/api-reference/offers-api/collections/create.md)
             + [Aggiornare una raccolta](using/offers/api-reference/offers-api/collections/update.md)
