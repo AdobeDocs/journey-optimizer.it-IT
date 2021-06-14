@@ -1,6 +1,6 @@
 ---
 title: Gestione di utenti e profili di prodotto
-description: Scopri come gestire le autorizzazioni
+description: Scopri come gestire le autorizzazioni.
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-source-git-commit: 24e5588fc0d0a32513c0e77ce9082be697ccad3f
+feature: Gruppi di controllo
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 13%
+source-wordcount: '730'
+ht-degree: 16%
 
 ---
 
@@ -61,7 +65,7 @@ Per assegnare un **[!UICONTROL Product profile]**:
 
 1. Esegui gli stessi passaggi indicati sopra per aggiungere altri utenti al tuo **[!UICONTROL Product profile]**. Quindi, fai clic su **[!UICONTROL Save]**.
 
-L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza .
+L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
 Per ulteriori informazioni sulla gestione degli utenti, consulta la [documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
@@ -109,7 +113,7 @@ Se necessario, puoi anche creare un nuovo profilo di prodotto con autorizzazioni
 
 [!DNL Journey Optimizer] consente di creare un set personalizzato  **[!UICONTROL Product profiles]** e di assegnare agli utenti un set di autorizzazioni e sandbox. Con **[!UICONTROL Product profiles]** puoi autorizzare o negare l’accesso a determinate funzionalità o oggetti nell’interfaccia.
 
-Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
 
 In questo esempio, creeremo un profilo di prodotto denominato **Percorsi in sola lettura** in cui concederemo diritti di sola lettura alla funzione Percorso. Gli utenti potranno accedere e visualizzare solo i percorsi e non potranno accedere ad altre funzioni quali **[!UICONTROL Decision management]** o **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
 
@@ -149,7 +153,7 @@ Per creare i nostri **Percorsi di sola lettura** **[!UICONTROL product profiles]
 
    ![](../assets/access_control_13.png)
 
-1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
 1. Al termine, fai clic su **[!UICONTROL Save]**.
 
