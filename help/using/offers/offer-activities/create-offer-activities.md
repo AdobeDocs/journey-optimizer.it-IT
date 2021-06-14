@@ -1,15 +1,18 @@
 ---
 title: Creare decisioni
 description: Scopri come creare le decisioni
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 3%
+source-wordcount: '576'
+ht-degree: 4%
 
 ---
 
-# Crea decisioni {#create-offer-activities}
+# Creare decisioni {#create-offer-activities}
 
 Le decisioni (precedentemente note come attività di offerta) sono contenitori per le offerte che sfrutteranno il modulo di decisione dell’offerta per scegliere l’offerta migliore da consegnare, a seconda del target della consegna.
 
