@@ -1,10 +1,14 @@
 ---
 title: Creare regole di decisione
 description: Scopri come creare regole decisionali in Adobe Experience Platform.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 12%
+source-wordcount: '265'
+ht-degree: 13%
 
 ---
 
