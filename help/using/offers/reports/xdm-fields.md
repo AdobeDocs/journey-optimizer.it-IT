@@ -1,11 +1,14 @@
 ---
 title: Accedere ai campi XDM degli eventi
 description: Ulteriori informazioni sullo schema XDM DecisioningEvents.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 67%
+source-wordcount: '108'
+ht-degree: 68%
 
 ---
 
