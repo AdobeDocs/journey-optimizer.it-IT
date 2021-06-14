@@ -1,14 +1,18 @@
 ---
-title: Rapporto globale percorso
+title: Rapporto globale dei percorsi
 description: Scopri come utilizzare i dati del report globale del percorso
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Reporting
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 0%
+source-wordcount: '936'
+ht-degree: 1%
 
 ---
 
-# Rapporto globale del percorso {#journey-global-report}
+# Rapporto globale dei percorsi {#journey-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
