@@ -1,15 +1,18 @@
 ---
 title: Utilizzare azioni personalizzate
 description: Scopri come utilizzare le azioni personalizzate
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 9%
 
 ---
 
-# Utilizza azioni personalizzate {#section_f2c_hbg_nhb}
+# Utilizzare azioni personalizzate {#section_f2c_hbg_nhb}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -19,4 +22,4 @@ Se utilizzi un’azione personalizzata, vedrai i parametri **[!UICONTROL URL Con
 >
 >Non puoi passare una raccolta in parametri di azione personalizzati. Se l’azione personalizzata prevede raccolte, queste non funzioneranno. Tieni presente che i parametri hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti.
 
-Nella sezione **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variable&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Consulta [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html)
+Nella sezione **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variable&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Consulta [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=it)
