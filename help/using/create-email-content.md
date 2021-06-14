@@ -1,10 +1,13 @@
 ---
 title: Creare e-mail in Journey Optimizer
 description: Scopri come progettare il contenuto delle e-mail
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Panoramica
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -114,7 +117,7 @@ Una linea blu materializza la posizione esatta dei componenti struttura prima di
 
 Una volta definita la struttura, puoi aggiungere frammenti di contenuto e componenti all’e-mail.
 
-## Usa una preintestazione {#preheader}
+## Utilizzare una preintestazione {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
