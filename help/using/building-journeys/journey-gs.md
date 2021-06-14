@@ -1,14 +1,18 @@
 ---
-title: Guida introduttiva ai percorsi
-description: Guida introduttiva ai percorsi
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+title: Introduzione ai percorsi
+description: Introduzione ai percorsi
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 7%
+source-wordcount: '1468'
+ht-degree: 8%
 
 ---
 
-# Guida introduttiva ai percorsi{#jo-quick-start}
+# Introduzione ai percorsi{#jo-quick-start}
 
 ![](../assets/do-not-localize/badge.png)
 
