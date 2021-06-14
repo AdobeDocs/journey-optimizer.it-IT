@@ -1,11 +1,14 @@
 ---
 title: Informazioni sui segmenti Adobe Experience Platform
 description: Scopri come configurare un segmento Adobe Experience Platform
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '227'
+ht-degree: 3%
 
 ---
 
@@ -25,4 +28,4 @@ Puoi sfruttare i segmenti nei percorsi in diversi modi:
 
 * Utilizza l’attività dell’evento **Qualificazione del segmento** per consentire ai singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti argento entrino in un percorso e inviino loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../building-journeys/segment-qualification-events.md).
 
-* Crea **condizioni complesse** nei tuoi percorsi utilizzando l’editor di espressioni semplice o avanzato. Ulteriori informazioni in [questa sezione](../building-journeys/condition-activity.md#using-a-segment).
+* Crea **condizioni complesse** nei tuoi percorsi utilizzando l’editor di espressioni semplice o avanzato. [Ulteriori informazioni](../building-journeys/condition-activity.md#using-a-segment).
