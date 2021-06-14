@@ -1,11 +1,14 @@
 ---
 title: Informazioni sulle attività del percorso
 description: Informazioni sulle attività del percorso
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 25%
+source-wordcount: '265'
+ht-degree: 31%
 
 ---
 
@@ -21,7 +24,7 @@ Gli eventi configurati dall’utente tecnico (consulta [questa pagina](../event/
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
-* [Qualificazione di un segmento](../building-journeys/segment-qualification-events.md)
+* [Qualificazione del segmento](../building-journeys/segment-qualification-events.md)
 
 ![](../assets/journey43.png)
 
@@ -40,13 +43,13 @@ Nella palette a sinistra dello schermo sono disponibili le seguenti attività di
 
 ![](../assets/journey49.png)
 
-## Attività azione {#action-activities}
+## Attività di azione {#action-activities}
 
 Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai la categoria **[!UICONTROL Actions]**. Sono disponibili le seguenti attività di azione:
 
 * [Messaggio](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
-* [Salto](../building-journeys/jump.md)
+* [Salta](../building-journeys/jump.md)
 
 ![](../assets/journey58.png)
 
