@@ -1,10 +1,14 @@
 ---
 title: Creare un profilo di test
 description: Scopri come creare un profilo di test
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 2%
 
 ---
 
