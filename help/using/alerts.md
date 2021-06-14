@@ -1,10 +1,14 @@
 ---
 title: Avvisi nei messaggi
 description: Scopri come verificare la convalida del contenuto dei messaggi e risolvere i problemi
-source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 1%
 
 ---
 
