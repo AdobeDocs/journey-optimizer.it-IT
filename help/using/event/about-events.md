@@ -1,11 +1,14 @@
 ---
 title: Informazioni sugli eventi
 description: Informazioni sugli eventi
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: Eventi
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 32%
+source-wordcount: '726'
+ht-degree: 33%
 
 ---
 
@@ -53,7 +56,7 @@ Per gli eventi unitari, sono disponibili due tipi di ID evento:
 
 Gli eventi sono chiamate API POST. Gli eventi vengono inviati a Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite le API di messaggistica transazionale è denominata “entrata”. Il payload degli eventi segue la formattazione XDM.
 
-Nell’intestazione del payload sono contenute le informazioni necessarie per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie al funzionamento di [!DNL Journey Optimizer] e alle informazioni da utilizzare nei percorsi (ad esempio, nel corpo, la quantità di un carrello abbandonato). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Nell’intestazione del payload sono contenute le informazioni necessarie per il funzionamento delle API Streaming Ingestion, oltre alle informazioni necessarie al funzionamento di [!DNL Journey Optimizer] e alle informazioni da utilizzare nei percorsi (ad esempio, nel corpo, la quantità di un carrello abbandonato). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
 
 Una volta arrivati tramite le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano a Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
 
