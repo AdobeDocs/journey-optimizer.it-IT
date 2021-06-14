@@ -12,10 +12,14 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
+feature: Gruppi di controllo
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 27%
+source-wordcount: '327'
+ht-degree: 75%
 
 ---
 
@@ -28,8 +32,8 @@ ht-degree: 27%
 [!DNL Journey Optimizer] consente di suddividere l’istanza in ambienti virtuali separati, denominati sandbox.
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. [Scopri come assegnare le sandbox](permissions.md#create-product-profile).
 
-[!DNL Journey Optimizer] riflette le sandbox Adobe Experience Platform create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente della sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html).
+[!DNL Journey Optimizer] presenta le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
 
@@ -55,7 +59,7 @@ Per assegnare le sandbox:
 
    ![](../assets/sandbox_2.png)
 
-1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
    ![](../assets/sandbox_3.png)
 
@@ -67,10 +71,10 @@ Per assegnare le sandbox:
 
 ## Accesso al contenuto {#content-access}
 
-Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella condivisa del contenuto a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Storage]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso a [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diverso livello di accesso alle cartelle condivise.
+Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Storage]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
 
 ![](../assets/do-not-localize/content_access.png)
 
-Per sincronizzare il contenuto con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox; ad esempio, se la sandbox è denominata sviluppo, la cartella condivisa deve avere lo stesso nome.
+Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox. Ad esempio, se la sandbox è denominata “sviluppo”, la cartella condivisa deve avere lo stesso nome.
 
-[Scopri come gestire le cartelle](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) condivise.
+[Scopri come gestire le cartelle condivise](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html).
