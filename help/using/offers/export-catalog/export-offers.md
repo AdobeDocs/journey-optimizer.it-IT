@@ -1,9 +1,13 @@
 ---
 title: Set di dati di offerte personalizzate
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le offerte.
-source-git-commit: 57b6ffa4136eda80c41344db15d363d3107d4e32
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -318,7 +322,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** 
 **Titolo tag:** Opzione decisione ETag 
-**Descrizione:** La revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dello snapshot.
+**Descrizione:** La revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dell&#39;istantanea.
 **Tipo:** stringa
 
 
