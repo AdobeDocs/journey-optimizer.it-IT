@@ -1,10 +1,14 @@
 ---
-title: Libreria funzioni
-description: Libreria funzioni
-source-git-commit: 8c58dd667ea59a17833bbe3482b1a233ac2e28fe
+title: Mappa la libreria delle funzioni
+description: Mappa la libreria delle funzioni
+feature: Personalizzazione
+topic: Personalizzazione
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 6%
+source-wordcount: '102'
+ht-degree: 7%
 
 ---
 
