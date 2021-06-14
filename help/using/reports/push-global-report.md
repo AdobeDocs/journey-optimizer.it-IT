@@ -1,15 +1,18 @@
 ---
 title: Report globale notifiche push
 description: Scopri come utilizzare i dati del rapporto globale delle notifiche push
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Reporting
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 0%
+source-wordcount: '77'
+ht-degree: 7%
 
 ---
 
-# Rapporto globale push {#push-global-report}
+# Rapporto globale delle notifiche push {#push-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
