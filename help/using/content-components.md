@@ -1,11 +1,14 @@
 ---
 title: Utilizzare i componenti di contenuto di e-mail designer
 description: Scopri come utilizzare i componenti di contenuto nelle e-mail
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Panoramica
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 1%
+source-wordcount: '980'
+ht-degree: 2%
 
 ---
 
@@ -78,7 +81,7 @@ Utilizza il componente **[!UICONTROL Text]** per inserire testo nel messaggio e-
 
    ![](assets/email_designer_12.png)
 
-## Divisore {#divider}
+## Divider {#divider}
 
 Utilizza il componente **[!UICONTROL Divider]** per inserire una linea di divisione per organizzare il layout e il contenuto dell’e-mail.
 È possibile selezionare il colore, lo stile e le dimensioni della linea di interruzione in **[!UICONTROL Component Settings]**.
@@ -182,6 +185,6 @@ Utilizza il componente **[!UICONTROL Offer decision]** per inserire nei messaggi
 
 Argomenti correlati:
 
-* [Guida introduttiva alla gestione delle decisioni](offers/get-started/starting-offer-decisioning.md).
+* [Introduzione alla gestione delle decisioni](offers/get-started/starting-offer-decisioning.md).
 * [Aggiungi offerte personalizzate ai messaggi](deliver-personalized-offers.md).
 
