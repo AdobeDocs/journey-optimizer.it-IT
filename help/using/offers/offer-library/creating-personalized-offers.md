@@ -1,10 +1,13 @@
 ---
 title: Creare offerte personalizzate
 description: Scopri come creare offerte personalizzate in Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
@@ -39,7 +42,7 @@ Per creare un’ **offerta**, effettua le seguenti operazioni:
    >
    >La sezione **[!UICONTROL Offer attributes]** ti consente di associare coppie di valori chiave all’offerta a scopo di reporting e analisi.
 
-## Configura le rappresentazioni dell&#39;offerta {#representations}
+## Configurare le rappresentazioni dell’offerta {#representations}
 
 1. Aggiungi una o più rappresentazioni per la tua offerta utilizzando il pulsante **[!UICONTROL Add representation]** .
 
@@ -79,7 +82,7 @@ Per creare un’ **offerta**, effettua le seguenti operazioni:
 
       ![](../../assets/offer_text_content.png)
 
-## Aggiungi regole e vincoli di idoneità {#eligibility}
+## Aggiungere regole e vincoli di idoneità {#eligibility}
 
 Le regole e i vincoli di idoneità ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
