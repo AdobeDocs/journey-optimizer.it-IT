@@ -11,10 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 4b515b497de3721794f22c6833ed1f5269110171
+feature: Impostazioni applicazione
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '608'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +32,7 @@ Con [!DNL Journey Optimizer] puoi monitorare tutti gli indirizzi e-mail che veng
 
 <!--Profiles who unsubscribe from your sendings. Learn more on [opting-out](../consent.md). NOT TRUE as confirmed by eng.: "Subscribe and Unsubscribe are handled by the Consent/Subscription service. A user that opts out will not make it to the suppression list – we won’t send them emails."-->
 
-Tali indirizzi e-mail vengono raccolti automaticamente nell&#39;elenco di eliminazione di Journey Optimizer ****. Ulteriori informazioni in [questa sezione](../suppression-list.md).
+Tali indirizzi e-mail vengono raccolti automaticamente nell&#39;elenco di eliminazione di Journey Optimizer ****. [Ulteriori informazioni](../suppression-list.md).
 
 ## Accedere all&#39;elenco di soppressione {#access-suppression-list}
 
