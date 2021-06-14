@@ -2,10 +2,14 @@
 solution: Journey Orchestration
 title: Eventi generali
 description: Scopri come utilizzare gli eventi generali
-source-git-commit: dafa417ef163fcc3859b01ac6f090f32c5501199
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
