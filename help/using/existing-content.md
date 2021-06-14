@@ -1,15 +1,18 @@
 ---
 title: Importare o codificare le e-mail
 description: Scopri come importare contenuti e-mail o codificare le e-mail
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Panoramica
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 5%
+source-wordcount: '340'
+ht-degree: 10%
 
 ---
 
-# Importa o codifica il contenuto delle e-mail {#existing-content}
+# Importare o codificare il contenuto delle e-mail {#existing-content}
 
 ![](assets/do-not-localize/badge.png)
 
@@ -17,7 +20,7 @@ Journey Optimizer consente di importare contenuti HTML esistenti per progettare 
 
 Per codificare il contenuto HTML o importare il contenuto esistente, effettua le seguenti operazioni:
 
-1. [Creare un messaggio](create-message.md)
+1. [Creare un messaggio ](create-message.md)
 
 1. Apri **[!UICONTROL Email Designer]** dalla sezione **[!UICONTROL Edit Content]** .
 
@@ -75,6 +78,6 @@ Per importare un file contenente contenuto HTML, effettua le seguenti operazioni
 
 1. Trascina e rilascia il file HTML o .zip contenente il contenuto HTML.
 
-1. Una volta caricato il contenuto HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni in questa sezione](create-email-content.md).
+1. Una volta caricato il contenuto HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni](create-email-content.md).
 
    ![](assets/html-imported.png)
