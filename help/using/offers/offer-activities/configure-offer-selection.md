@@ -1,15 +1,18 @@
 ---
-title: Configurare la selezione delle offerte nelle decisioni
+title: Configurare la selezione di offerte nelle decisioni
 description: Scopri come gestire la selezione delle offerte nelle decisioni.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
-# Configura la selezione delle offerte nelle decisioni {#offers-selection-in-activities}
+# Configurare la selezione di offerte nelle decisioni {#offers-selection-in-activities}
 
 ## Informazioni sulla priorità delle offerte {#about-offers-priority}
 
