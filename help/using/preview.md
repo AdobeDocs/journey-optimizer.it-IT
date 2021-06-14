@@ -1,9 +1,13 @@
 ---
 title: Anteprima dei messaggi e invio delle bozze
 description: Scopri come visualizzare in anteprima e verificare i messaggi
-source-git-commit: 2ac0ae0044824beb6e455f5377bc2da4694779be
+feature: Journeys
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
