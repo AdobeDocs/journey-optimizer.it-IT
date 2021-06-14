@@ -1,9 +1,13 @@
 ---
 title: Monitoraggio dell’esecuzione dei messaggi
 description: Informazioni sul monitoraggio e sulle linee guida per il recapito messaggi
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Consegna
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
