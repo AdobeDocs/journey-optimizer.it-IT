@@ -1,10 +1,14 @@
 ---
 title: Introduzione
 description: Scopri come iniziare a utilizzare l’API della Libreria offerte per eseguire operazioni chiave utilizzando il motore di gestione delle decisioni.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 3%
+source-wordcount: '601'
+ht-degree: 4%
 
 ---
 
@@ -45,7 +49,7 @@ Un contenitore è un meccanismo di isolamento per tenere separate le diverse pre
 
 Un amministratore può raggruppare entità, risorse e autorizzazioni di accesso simili in profili. Questo riduce il carico di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Devi essere un amministratore di prodotto per Adobe Experience Platform nella tua organizzazione per creare profili e assegnare loro gli utenti. È sufficiente creare profili di prodotto che corrispondano a determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi a cui sono state concesse autorizzazioni e ogni utente effettivo o tecnico del gruppo eredita tali autorizzazioni.
 
-Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/). Per ulteriori informazioni, vedere la [Panoramica sul controllo di accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html).
+Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/). Per ulteriori informazioni, vedere la [Panoramica sul controllo di accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
 
 ### Elencare contenitori accessibili a utenti e integrazioni
 
