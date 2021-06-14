@@ -1,15 +1,18 @@
 ---
-title: Informazioni chiave sugli eventi di Gestione decisioni
+title: Informazioni chiave sugli eventi di Gestione delle decisioni
 description: Ulteriori informazioni sulle informazioni chiave inviate con ogni evento di gestione delle decisioni.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 75%
+source-wordcount: '135'
+ht-degree: 91%
 
 ---
 
-# Informazioni chiave sugli eventi di Gestione decisioni {#events-key-information}
+# Informazioni chiave sugli eventi di Gestione delle decisioni {#events-key-information}
 
 Ogni evento inviato quando viene presa una decisione contiene quattro punti dati chiave che puoi sfruttare a scopo di analisi e reporting.
 
@@ -18,7 +21,7 @@ Ogni evento inviato quando viene presa una decisione contiene quattro punti dati
 * **[!UICONTROL Fallback]**: nome e ID dell’offerta di fallback, se non è stata selezionata alcuna offerta personalizzata
 * **[!UICONTROL Placement]**: nome, ID e canale del posizionamento utilizzato per la consegna dell’offerta
 * **[!UICONTROL Selections]**: nome e ID dell’offerta selezionata per il profilo
-* **[!UICONTROL Activity]**: Nome e ID della decisione (precedentemente nota come attività di offerta).
+* **[!UICONTROL Activity]**: nome e ID della decisione (precedentemente nota come “attività di offerta”).
 
 Inoltre, puoi sfruttare i campi **[!UICONTROL identityMap]** e **[!UICONTROL Timestamp]** per recuperare informazioni sul profilo e sull’ora in cui è stata consegnata l’offerta.
 
