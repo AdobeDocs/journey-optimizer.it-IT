@@ -1,11 +1,14 @@
 ---
 title: 'Origini dati esterne '
 description: Informazioni su come configurare le origini dati esterne
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: 'Origini dati '
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 98%
+source-wordcount: '1285'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +72,7 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
 * **[!UICONTROL Cache duration]**: nel nostro caso, vogliamo che il meteo sia memorizzato nella cache per 10 minuti.
 * **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
-* **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. Consulta [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+* **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. Consulta [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=it).
 * **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
 In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo **[!UICONTROL Dynamic Values]** e verranno aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
