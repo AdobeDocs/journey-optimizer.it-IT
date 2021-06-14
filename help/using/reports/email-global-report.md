@@ -1,14 +1,18 @@
 ---
-title: Report globale e-mail
+title: Rapporto globale delle e-mail
 description: Scopri come utilizzare i dati del report globale e-mail
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Reporting
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
-# Rapporto globale e-mail {#email-global-report}
+# Rapporto globale delle e-mail {#email-global-report}
 
 ![](../assets/do-not-localize/badge.png)
 
