@@ -1,14 +1,18 @@
 ---
 title: Introduzione all’esportazione del catalogo delle offerte
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le decisioni.
-source-git-commit: 95be47fbf6944f7e6a743056b6cc29b45ae291fe
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 0%
+source-wordcount: '1552'
+ht-degree: 1%
 
 ---
 
-# Set di dati delle decisioni {#decisions-dataset}
+# Set di dati sulle decisioni {#decisions-dataset}
 
 Ogni volta che un’offerta viene modificata, viene aggiornato il set di dati generato automaticamente per le decisioni (precedentemente noto come attività).
 
