@@ -1,14 +1,18 @@
 ---
 title: Set di dati sui posizionamenti
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per i posizionamenti.
-source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 2%
 
 ---
 
-# Set di dati dei posizionamenti {#placements-dataset}
+# Set di dati sui posizionamenti {#placements-dataset}
 
 Ogni volta che un’offerta viene modificata, il set di dati generato automaticamente per i posizionamenti viene aggiornato.
 
