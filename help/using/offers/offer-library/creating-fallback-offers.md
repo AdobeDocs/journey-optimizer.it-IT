@@ -1,11 +1,14 @@
 ---
 title: Creare offerte di fallback
 description: Scopri come creare offerte in Adobe Experience Platform.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 3%
+source-wordcount: '283'
+ht-degree: 4%
 
 ---
 
