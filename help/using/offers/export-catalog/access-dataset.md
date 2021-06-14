@@ -1,11 +1,14 @@
 ---
 title: Accedere al catalogo delle offerte esportato
 description: Scopri come accedere al catalogo delle offerte su Adobe Experience Platform una volta esportato.
-translation-type: tm+mt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 9%
+source-wordcount: '112'
+ht-degree: 10%
 
 ---
 
