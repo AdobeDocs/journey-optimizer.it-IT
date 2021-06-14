@@ -1,9 +1,13 @@
 ---
 title: Introduzione a Gestione delle decisioni
 description: Introduzione a Gestione delle decisioni. Scopri l’architettura, le offerte e le decisioni, nonché alcuni casi d’uso comuni.
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
-workflow-type: ht
-source-wordcount: '494'
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+workflow-type: tm+mt
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
