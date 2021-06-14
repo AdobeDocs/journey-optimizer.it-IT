@@ -1,10 +1,14 @@
 ---
-title: Creare un messaggio
+title: 'Creare un messaggio '
 description: Scopri come creare un messaggio
-source-git-commit: d2928efec66cd42f86868449d0289a23c78dd7c1
+feature: Panoramica
+topic: Gestione dei contenuti
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 2%
+source-wordcount: '475'
+ht-degree: 5%
 
 ---
 
@@ -70,7 +74,7 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    ![](assets/messages-simple-preview.png)
 
-1. Controlla gli avvisi nella sezione superiore dell&#39;editor.  Alcuni sono semplici avvisi, altri possono impedire la pubblicazione del messaggio. Ulteriori informazioni in [questa sezione](alerts.md).
+1. Controlla gli avvisi nella sezione superiore dell&#39;editor.  Alcuni sono semplici avvisi, altri possono impedire la pubblicazione del messaggio. [Ulteriori informazioni](alerts.md).
 
 1. Ora puoi pubblicare il messaggio facendo clic sul pulsante **[!UICONTROL Publish]** , oppure conservarlo come bozza e pubblicarlo successivamente. Per ulteriori informazioni su come pubblicare i messaggi, consulta [questa sezione](publish-manage-message.md).
 
