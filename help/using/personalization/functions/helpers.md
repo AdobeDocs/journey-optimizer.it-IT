@@ -1,10 +1,14 @@
 ---
 title: Helper
-description: Libreria funzioni
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+description: Helper
+feature: Personalizzazione
+topic: Personalizzazione
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '327'
+ht-degree: 4%
 
 ---
 
