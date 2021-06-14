@@ -1,11 +1,14 @@
 ---
 title: Campi comuni degli eventi di journeyStep
 description: Campi comuni degli eventi di journeyStep
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Reporting
+topic: Gestione dei contenuti
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 0%
+source-wordcount: '584'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +78,7 @@ Valori possibili:
 
 * Condizione
 * Azione
-* Scheduler
+* Attività Scheduler
 * Timer
 
 ## stepStatus
