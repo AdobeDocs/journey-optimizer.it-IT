@@ -1,11 +1,14 @@
 ---
 title: Creare un posizionamento
 description: I posizionamenti sono contenitori utilizzati per mostrare le offerte.
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Offerte
+topic: Integrazioni
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
