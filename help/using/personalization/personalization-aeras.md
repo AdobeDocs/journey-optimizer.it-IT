@@ -1,9 +1,13 @@
 ---
 title: Contesti di personalizzazione in Journey Optimizer
 description: Scopri in quali contesti puoi aggiungere la personalizzazione
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Personalizzazione
+topic: Personalizzazione
+role: Data Engineer
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
