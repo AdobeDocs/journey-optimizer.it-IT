@@ -1,10 +1,13 @@
 ---
 title: Informazioni sulle origini dati
 description: Informazioni su come configurare un’origine dati
-translation-type: tm+mt
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: 'Origini dati '
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 86%
 
 ---
@@ -22,7 +25,7 @@ La configurazione dell’origine dati consente di definire una connessione a un 
 
 * [Definizione della condizione.](../building-journeys/condition-activity.md)
 * Dati dei parametri e di personalizzazione nelle [azioni](../action/action.md).
-* [Impostazione di attesa personalizzata](../building-journeys/wait-activity.md#custom).
+* [Impostazione di attesa personalizzata.](../building-journeys/wait-activity.md#custom)
 * [Impostazione del fuso orario](../building-journeys/timezone-management.md)
 
 Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività messaggio che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
