@@ -1,9 +1,13 @@
 ---
 title: Set di dati di offerte di fallback
 description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le offerte di fallback.
-source-git-commit: b6364879b2a64ba17f52020f7d27d02459a022b0
+feature: Offerte
+topic: Integrazioni
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
