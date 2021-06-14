@@ -1,22 +1,25 @@
 ---
 title: Passaggi aggiuntivi per l’invio di eventi a un percorso
 description: Scopri ulteriori passaggi per inviare eventi a un percorso
-translation-type: tm+mt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Eventi
+topic: Amministrazione
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 1%
+source-wordcount: '289'
+ht-degree: 4%
 
 ---
 
-# Passaggi aggiuntivi per l&#39;invio di eventi {#concept_xrz_n1q_y2b}
+# Passaggi aggiuntivi per l’invio di eventi {#concept_xrz_n1q_y2b}
 
 ![](../assets/do-not-localize/badge.png)
 
 Per configurare gli eventi da inviare a **[!UICONTROL Streaming Ingestion APIs]** e da utilizzare in [!DNL Journey Optimizer], segui questi passaggi:
 
 1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni sono disponibili in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
-1. Copia il payload dall’anteprima del payload nel menu **[!UICONTROL Event]** . Ulteriori informazioni in [questa pagina](../event/about-creating.md#define-the-payload-fields).
+1. Copia il payload dall’anteprima del payload nel menu **[!UICONTROL Event]** . Per ulteriori informazioni, consulta [questa pagina](../event/about-creating.md#define-the-payload-fields).
 
 Devi quindi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
 
