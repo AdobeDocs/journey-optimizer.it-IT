@@ -1,10 +1,14 @@
 ---
-title: Libreria funzioni
-description: Libreria funzioni
-source-git-commit: cd1b07bbb4b247d1d8c0cc87be9e4bdad22377ed
+title: Libreria funzioni aritmetiche
+description: Libreria funzioni aritmetiche
+feature: Personalizzazione
+topic: Personalizzazione
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '182'
+ht-degree: 7%
 
 ---
 
