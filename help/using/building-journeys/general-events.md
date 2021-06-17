@@ -6,7 +6,7 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,13 +15,11 @@ ht-degree: 2%
 
 # Eventi generali {#section_ofg_jss_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall’utente tecnico. Consulta [questa pagina](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
-Quando rilasci un evento aziendale, aggiunge automaticamente un&#39;attività **Leggi segmento**. Per ulteriori informazioni sugli eventi aziendali, consulta [questa sezione](../event/about-events.md)
+Quando rilasci un evento aziendale, aggiunge automaticamente un&#39;attività **Read Segment** . Per ulteriori informazioni sugli eventi aziendali, consulta [questa sezione](../event/about-events.md)
 
 ## Ascolto di eventi durante un tempo specifico {#events-specific-time}
 
@@ -31,11 +29,11 @@ Il percorso ascolterà quindi l&#39;evento durante il tempo specificato nel time
 
 Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
-1. Attiva l&#39;opzione **[!UICONTROL Enable the event timeout]** dalle proprietà dell&#39;evento.
+1. Attiva l&#39;opzione **[!UICONTROL Define the event timeout]** dalle proprietà dell&#39;evento.
 
 1. Specifica il tempo di attesa dell’evento da parte del percorso.
 
-1. Se desideri inviare gli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita l’opzione **[!UICONTROL Set the timeout path]** . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
+1. Se desideri inviare gli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita l’opzione **[!UICONTROL Set a timeout path]** . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
 
    ![](../assets/event-timeout.png)
 
