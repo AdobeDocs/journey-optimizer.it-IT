@@ -5,16 +5,14 @@ feature: Eventi
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 33%
+source-wordcount: '775'
+ht-degree: 31%
 
 ---
 
 # Informazioni sugli eventi{#concept_gfj_fqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -51,6 +49,8 @@ Per gli eventi unitari, sono disponibili due tipi di ID evento:
    >Per gli eventi basati su regole viene definita una regola di limitazione. Limita il numero di eventi qualificati che un percorso può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Optimizer. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
 * **Sviluppatori** di sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload.
+
+Journey Optimizer richiede che gli eventi vengano inviati in streaming o inseriti in batch in Adobe Experience Platform. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso separato, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Ciclo dei dati {#section_r1f_xqt_pgb}
 
