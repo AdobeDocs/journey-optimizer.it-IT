@@ -6,7 +6,7 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
@@ -56,4 +56,4 @@ Per aggiornare un messaggio pubblicato:
 
 Non appena viene pubblicata la nuova versione, alla successiva chiamata API verrà generata una nuova esecuzione del messaggio. La nuova versione verrà ricevuta dal profilo successivo in arrivo.
 
-<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version.-->
+<!--For batch messages, the audience/segment being processed in the previous execution will not be affected by the new version. Only the next incoming API call with an audience/segment will generate a new message execution with the new version. -->
