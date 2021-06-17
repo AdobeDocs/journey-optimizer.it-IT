@@ -5,16 +5,14 @@ feature: Schemi
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
 
 # Informazioni sugli schemi ExperienceEvent per gli eventi [!DNL Journey Optimizer]
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] Gli eventi sono eventi esperienza XDM che vengono inviati a Adobe Experience Platform tramite Streaming Ingestion.
 
@@ -32,7 +30,7 @@ Qualsiasi schema XDM che verrà utilizzato per eventi [!DNL Journey Optimizer] d
 
    ![](../assets/schema2.png)
 
-* Per gli eventi generati dal sistema, lo schema deve includere il mixin eventID di Orchestration. [!DNL Journey Optimizer] utilizza questo campo per identificare gli eventi utilizzati nei percorsi.
+* Per gli eventi generati dal sistema, lo schema deve includere il gruppo di campi ID evento Orchestration. [!DNL Journey Optimizer] utilizza questo campo per identificare gli eventi utilizzati nei percorsi.
 
    ![](../assets/schema3.png)
 
