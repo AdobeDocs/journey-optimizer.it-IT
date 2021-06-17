@@ -5,16 +5,14 @@ feature: 'Origini dati '
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 8%
 
 ---
 
 # Configurare un’origine dati {#configure-data-source}
-
-![](../assets/do-not-localize/badge.png)
 
 Di seguito sono riportati i passaggi principali per la configurazione dell’origine dati:
 
@@ -22,9 +20,7 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Selezionare il menu **[!UICONTROL Admin]** / **[!UICONTROL Data Sources]**.
-
-   Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
+1. Nella sezione del menu AMMINISTRAZIONE, selezionare **[!UICONTROL Configurations]**. Nella sezione **[!UICONTROL Data Sources]**, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
 
    ![](../assets/journey18.png)
 
