@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
 
 # Aggiungere un messaggio in un percorso
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] le funzionalità per i messaggi sono integrate e ti basta progettare il contenuto e pubblicare il messaggio. Vedi [questa sezione](../get-started-content.md). Quindi devi semplicemente aggiungere, nel tuo percorso, un messaggio push o e-mail progettato utilizzando Journey Optimizer.
 
@@ -22,7 +20,7 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
 ## Aggiunta di un’attività Messaggio
 
-1. Come sempre, inizia il percorso con un evento o un&#39;attività **Leggi segmento**.
+1. Come sempre, inizia il percorso con un evento o un&#39;attività **Leggi segmento** .
 
    ![](../assets/jo-message0.png)
 
@@ -38,7 +36,7 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
    ![](../assets/jo-message3.png)
 
-1. Scegli un messaggio e fai clic su **Seleziona**. Puoi anche creare un nuovo messaggio direttamente da questa schermata facendo clic su **Crea nuovo**.
+1. Scegli un messaggio e fai clic su **Seleziona**. Puoi anche creare un nuovo messaggio direttamente da questa schermata facendo clic su **Crea messaggio**.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
 1. Aggiungi i passaggi successivi al percorso.
 
-## Parametri del canale
+## Parametri e-mail e parametri push
 
-Vengono visualizzati i parametri **Canale** . Questi campi sono di sola lettura. Questa configurazione viene eseguita durante la creazione del messaggio. Vedi [questa sezione](../get-started-content.md).
+Le sezioni **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** mostrano campi di sola lettura. Questa configurazione viene in genere eseguita al momento della creazione del messaggio. Vedi [questa sezione](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Puoi utilizzare l&#39;icona **Abilita campo di modifica** a destra del campo per forzare un valore specifico. Può essere utile a scopo di test. Ad esempio, per un’e-mail, puoi aggiungere il tuo indirizzo e-mail. Quando pubblichi il percorso, l’e-mail ti verrà inviata.
+Per forzare un valore specifico, puoi utilizzare l&#39;icona **Abilita sostituzione parametro** a destra del campo. Questa opzione può essere utile a scopo di test. Ad esempio, per un’e-mail, puoi aggiungere il tuo indirizzo e-mail. Dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
