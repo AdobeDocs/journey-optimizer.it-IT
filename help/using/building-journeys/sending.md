@@ -1,18 +1,15 @@
 ---
 title: Avvia l'esecuzione del percorso
 description: Scopri come avviare il percorso e inviare messaggi
-translation-type: tm+mt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
 # Esecuzione del percorso {#message-execution}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Test del percorso
 
@@ -47,11 +44,11 @@ Una volta inviato un messaggio, puoi monitorarne l’esecuzione tramite più ind
 
 ## Pianifica messaggi {#schedule-messages}
 
-I messaggi possono essere pianificati tramite l&#39;attività **[!UICONTROL Read segment]** in un [percorso](journey.md). Puoi specificare quando il segmento entrerà nel percorso. [Ulteriori informazioni sull’attività](read-segment.md) Leggi segmento .
+I messaggi possono essere pianificati tramite l&#39;attività **[!UICONTROL Read Segment]** in un [percorso](journey.md). Puoi specificare quando il segmento entrerà nel percorso. [Ulteriori informazioni sull’attività](read-segment.md) Leggi segmento .
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. Modifica un percorso, trascina e rilascia un’attività **[!UICONTROL Read segment]** e inizia a configurarla. [Ulteriori informazioni sulla configurazione dell’attività](read-segment.md#configuring-segment-trigger-activity) Leggi segmento .
+1. Modifica un percorso, trascina e rilascia un’attività **[!UICONTROL Read Segment]** e inizia a configurarla. [Ulteriori informazioni sulla configurazione dell’attività](read-segment.md#configuring-segment-trigger-activity) Read Segment .
 
 1. Fai clic sul collegamento **[!UICONTROL Edit journey schedule]** per accedere alle proprietà del percorso.
 
