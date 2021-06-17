@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '930'
 ht-degree: 10%
 
 ---
 
 # Attività condizione{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Sono disponibili quattro tipi di condizioni:
 
@@ -76,6 +74,8 @@ Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al g
 ## Divisione percentuale {#percentage_split}
 
 Questa opzione ti consente di suddividere il pubblico in modo casuale per definire un’azione diversa per ciascun gruppo. Definire il numero di suddivisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico, in quanto il sistema non è in grado di prevedere quante persone fluiranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione è basata su un meccanismo casuale Java (consulta questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Potete riorganizzare la posizione dei rami divisi se desiderate che il test scelga un percorso diverso. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
