@@ -6,10 +6,10 @@ user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperi
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
+source-git-commit: ae2d9b0abf35b1e340c9dbd58a448061b1a07219
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 79%
+source-wordcount: '668'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 79%
    + [Cos’è Journey Optimizer](using/get-started.md)
    + [Guida introduttiva](using/quick-start.md)
    + [Interfaccia utente](using/user-interface.md)
-   + [Problemi noti](using/known-issues.md)
 + Messaggi {#create-messages}
    + [Introduzione ai messaggi](using/get-started-content.md)
    + Creare messaggi {#create-message}
@@ -35,8 +34,7 @@ ht-degree: 79%
       + [Importare o codificare il contenuto delle e-mail](using/existing-content.md)
       + [Utilizzare i componenti di contenuto di e-mail designer](using/content-components.md)
    + Personalizzazione{#personalization}
-      + [Introduzione](using/personalization/personalize.md)
-      + [Aree di personalizzazione](using/personalization/personalization-aeras.md)
+      + [Introduzione con personalizzazione](using/personalization/personalize.md)
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
       + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
       + [Caso di utilizzo della personalizzazione](using/personalization/personalization-use-case.md)
@@ -84,23 +82,25 @@ ht-degree: 79%
       + [Leggi segmento](using/building-journeys/read-segment.md)
       + [Messaggio](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
+      + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Salta](using/building-journeys/jump.md)
       + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
    + Casi d’uso {#journey-use-cases}
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
+      + [Inviare un messaggio utilizzando Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Tracciare e monitorare {#reporting}
    + [Tracciamento dei messaggi](using/message-tracking.md)
    + [Monitoraggio dei messaggi](using/message-monitoring.md)
    + Report live {#live-report}
-      + [Panoramica](using/reports/live-report.md)
-      + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
-      + [Rapporto live delle e-mail](using/reports/email-live-report.md)
-      + [Rapporto live delle notifiche push](using/reports/push-live-report.md)
+      + [Accedere al dashboard dei rapporti live](using/reports/live-report.md)
+      + [Rapporto Percorsi Live](using/reports/journey-live-report.md)
+      + [Report dal vivo e-mail](using/reports/email-live-report.md)
+      + [Report push live](using/reports/push-live-report.md)
    + Rapporto globale {#global-report}
-      + [Panoramica](using/reports/global-report.md)
-      + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
-      + [Rapporto globale delle e-mail](using/reports/email-global-report.md)
-      + [Rapporto globale delle notifiche push](using/reports/push-global-report.md)
+      + [Accedere al dashboard dei report globali](using/reports/global-report.md)
+      + [Rapporto globale percorso](using/reports/journey-global-report.md)
+      + [Report globale e-mail](using/reports/email-global-report.md)
+      + [Report globale push](using/reports/push-global-report.md)
    + Rapporti sul percorso {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Campi del percorso](using/reports/sharing-journey-fields.md)
@@ -112,19 +112,20 @@ ht-degree: 79%
       + [Introduzione alla consegna](using/deliverability.md)
       + [Elenco di eliminazione](using/suppression-list.md)
 + Gestione delle decisioni {#offer-decisioniong}
-   + Introduzione alla gestione delle decisioni {#get-started}
+   + Guida introduttiva alla gestione delle decisioni {#get-started}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaccia utente](using/offers/get-started/user-interface.md)
-      + [Glossario](using/offers/get-started/glossary.md)
-   + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
-      + [Passaggi chiave per creare un’offerta](using/offers/offer-library/key-steps.md)
+      + [Passaggi chiave per creare e gestire le offerte](using/offers/offer-library/key-steps.md)
+      + [Caso di utilizzo: inserire offerte in un messaggio e-mail](using/offers/offers-e2e.md)
+   + Creare componenti {#create-components}
       + [Creare posizionamenti](using/offers/offer-library/creating-placements.md)
       + [Creare regole di decisione](using/offers/offer-library/creating-decision-rules.md)
       + [Creare tag](using/offers/offer-library/creating-tags.md)
+      + [Creare formule di classificazione](using/offers/offer-library/create-ranking-formulas.md)
+   + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
       + [Creare offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
       + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
       + [Creare raccolte](using/offers/offer-library/creating-collections.md)
-      + [Creare formule di classificazione](using/offers/offer-library/create-ranking-formulas.md)
    + Creare e gestire decisioni {#create-manage-activities}
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
@@ -190,10 +191,9 @@ ht-degree: 79%
 + Configurazione {#get-started}
    + [Guida introduttiva alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configurare i messaggi {#configuration}
-      + [Impostazioni tecniche](using/administration/administration.md)
-      + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
-      + [Configurare il canale push](using/push-configuration.md)
-      + [Configurazione della notifica push](using/push-gs.md)
+      + Configurazione della notifica push{#push-config}
+         + [Guida introduttiva alla configurazione push](using/push-gs.md)
+         + [Configurare il canale di notifica push](using/push-configuration.md)
       + Configurazione e-mail {#email-config}
          + Delega sottodomini {#delegate-subdomains}
             + [Guida introduttiva alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
@@ -206,6 +206,7 @@ ht-degree: 79%
             + [Gestisci elenco di soppressione](using/configuration/manage-suppression-list.md)
             + [Nuovi tentativi](using/configuration/retries.md)
          + [Cambia indirizzo principale e-mail](using/configuration/primary-email-addresses.md)
+      + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
    + Configura percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + [Integrazione con sistemi esterni](using/configuration/external-systems.md)
@@ -225,6 +226,7 @@ ht-degree: 79%
       + Configurazione delle azioni {#action-journeys}
          + [Informazioni sulle azioni](using/action/action.md)
          + [Configurare un’azione](using/action/about-custom-action-configuration.md)
+         + [Integrazione con Adobe Campaign v7/v8](using/action/acc-action.md)
 + Controllo degli accessi {#administration}
    + [Panoramica sul controllo degli accessi](using/administration/permissions-overview.md)
    + [Profili di prodotto incorporati](using/administration/ootb-product-profiles.md)
