@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 3%
+source-wordcount: '967'
+ht-degree: 4%
 
 ---
 
 # Utilizzare un segmento in un percorso {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Informazioni sull’attività Leggi segmento {#about-segment-trigger-actvitiy}
 
@@ -25,6 +23,8 @@ Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot
 >[!NOTE]
 >
 >Non è possibile attivare un percorso basato su segmenti in un arco temporale più breve di 1 ora.
+>
+>Il componente aggiuntivo Burst paid consente l’invio molto rapido di messaggi push in grandi volumi per percorsi semplici che includono un segmento di lettura e un semplice messaggio push. Per ulteriori informazioni, consulta [questa sezione](../building-journeys/journey-gs.md#burst)
 
 ### Configura l&#39;attività {#configuring-segment-trigger-activity}
 
@@ -101,7 +101,7 @@ Una volta completati i test, puoi pubblicare il percorso (consulta [Pubblicazion
 
 ## Targeting del pubblico in percorsi basati su segmenti
 
-I percorsi basati su segmenti iniziano sempre con un&#39;attività **Read segment** per recuperare i singoli utenti appartenenti a un segmento Adobe Experience Platform.
+I percorsi basati su segmenti iniziano sempre con un&#39;attività **Read Segment** per recuperare i singoli utenti appartenenti a un segmento Adobe Experience Platform.
 
 Il pubblico appartenente al segmento viene recuperato una volta o su base regolare.
 
