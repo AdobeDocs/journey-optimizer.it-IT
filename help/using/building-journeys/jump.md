@@ -5,7 +5,7 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # Passaggio da un percorso a un altro {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 L’attività di azione **[!UICONTROL Jump]** ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
 
