@@ -5,9 +5,9 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ Con [!DNL Journey Optimizer] puoi impostare i predefiniti per messaggi che defin
 
 >[!CAUTION]
 >
-> La configurazione dei predefiniti per messaggi è limitata agli amministratori di Percorso. [Ulteriori informazioni](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * La configurazione dei predefiniti per messaggi è limitata agli amministratori di Percorso. [Ulteriori informazioni](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* Devi eseguire i passaggi di configurazione e-mail e push prima di creare i predefiniti per i messaggi.
 
 
 Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dall’elenco **[!UICONTROL Presets]** .
@@ -33,11 +35,9 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    ![](../assets/preset-create.png)
 
-
 1. Immetti un nome e una descrizione (facoltativi) per il predefinito, quindi seleziona i canali da configurare.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    * Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
    * Immetti i parametri di intestazione per le e-mail inviate utilizzando il predefinito .
 
+      >[!CAUTION]
+      >
+      >Ad eccezione del campo **Risposta a (inoltra e-mail)**, il dominio degli indirizzi e-mail deve utilizzare il sottodominio delegato [selezionato corrente](about-subdomain-delegation.md).
+
+      * **[!UICONTROL Sender name]**: Nome del mittente, ad esempio il nome del brand.
+
+      * **[!UICONTROL Sender email]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com*.
+
+      * **[!UICONTROL Reply to (name)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante  **** Risposta nel proprio software client e-mail.
+
+      * **[!UICONTROL Reply to (email)]**: Indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante  **** Risposta nel proprio software client e-mail. Le e-mail inviate a questo indirizzo verranno inoltrate all&#39; **[!UICONTROL Reply to (forward email)]** indirizzo indicato di seguito. Devi utilizzare un indirizzo definito nel sottodominio delegato (ad esempio, *reply@marketing.luma.com*), altrimenti le e-mail verranno eliminate.
+
+      * **[!UICONTROL Reply to (forward email)]**: Tutte le e-mail ricevute da  [!DNL Journey Optimizer] per il sottodominio delegato verranno inoltrate a questo indirizzo e-mail. Puoi specificare qualsiasi indirizzo, tranne un indirizzo e-mail definito nel sottodominio delegato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+
+      * **[!UICONTROL Error email]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
-         > 
-         > 
-      * Ad eccezione del dominio **Rispondi a (inoltra e-mail)**, gli indirizzi e-mail devono utilizzare il sottodominio selezionato corrente.
-
+      >I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
 
 1. Configura le impostazioni **notifica push** .
@@ -86,7 +100,6 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    Questi controlli includono test di recapito messaggi eseguiti dal team di recapito messaggi di Adobe:
 
-
    * Convalida SPF
    * Convalida DKIM
    * Convalida record MX
@@ -94,7 +107,6 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    * Controllo host Helo
    * Verifica del pool IP
    * Record A/PTR, verifica del sottodominio t/m/res
-
 
 1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene lo stato **[!UICONTROL Active]** . È pronto per essere utilizzato per inviare messaggi.
 
