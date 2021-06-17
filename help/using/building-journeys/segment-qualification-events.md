@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '791'
+ht-degree: 1%
 
 ---
 
 # Eventi di qualificazione dei segmenti {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Informazioni sugli eventi di qualificazione dei segmenti{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
 >Se il segmento selezionato viene trasmesso in streaming, i singoli utenti appartenenti a questo segmento potrebbero accedere al percorso in tempo reale. Se il segmento è batch, le persone appena qualificate per questo segmento potranno potenzialmente entrare nel percorso quando il calcolo del segmento viene eseguito su Adobe Experience Platform.
 
 
-1. Apri la categoria **[!UICONTROL Events]** e rilascia un’attività **[!UICONTROL Segment qualification]** nell’area di lavoro.
+1. Apri la categoria **[!UICONTROL Events]** e rilascia un’attività **[!UICONTROL Segment Qualification]** nell’area di lavoro.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ Il payload contiene le seguenti informazioni contestuali, utilizzabili in condiz
 * la marca temporale della qualifica
 * id del segmento
 
-Quando utilizzi l’editor espressioni in una condizione o azione che segue un’attività **[!UICONTROL Segment qualification]**, puoi accedere al nodo **[!UICONTROL SegmentQualification]** . Puoi scegliere tra **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (enter o exit).
+Quando utilizzi l’editor espressioni in una condizione o azione che segue un’attività **[!UICONTROL Segment Qualification]**, puoi accedere al nodo **[!UICONTROL SegmentQualification]** . Puoi scegliere tra **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (enter o exit).
 
 Consulta [Attività condizione](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Un nuovo percorso che include un evento di qualificazione dei segmenti è operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all’intervallo di aggiornamento della cache del servizio dedicato. Pertanto, è necessario attendere dieci minuti prima di utilizzare questo percorso.
 
 ## Best practice {#best-practices-segments}
 
