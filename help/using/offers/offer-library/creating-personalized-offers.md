@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 4%
@@ -98,7 +98,7 @@ Le regole e i vincoli di idoneità ti consentono di definire le condizioni in cu
 
    ![](../../assets/offer_rule.png)
 
-1. Definisci la **[!UICONTROL Priority]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. La priorità più alta di un&#39;offerta sarà, la priorità più alta sarà rispetto ad altre offerte
+1. Definisci la **[!UICONTROL Priority]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. La priorità più alta di un&#39;offerta sarà, la priorità più alta sarà rispetto ad altre offerte.
 
 1. Specifica l’ **[!UICONTROL Capping]** dell’offerta, ovvero il numero di volte in cui l’offerta verrà presentata in totale per tutti gli utenti. Se l’offerta è stata consegnata a tutti gli utenti per il numero di volte specificato in questo campo, la relativa consegna verrà interrotta.
 
