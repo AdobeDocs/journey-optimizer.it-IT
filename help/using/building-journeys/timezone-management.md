@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
 
 # Gestione del fuso orario {#timezone_management}
-
-![](../assets/do-not-localize/badge.png)
 
 Puoi definire un fuso orario nelle [proprietà](../building-journeys/journey-gs.md#change-properties) del percorso.
 
@@ -29,11 +27,15 @@ Questo fuso orario verrà utilizzato per ogni attività del percorso contenente 
 
 Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
+>[!NOTE]
+>
+>Il fuso orario del profilo funziona con il campo **timeZone** esistente nel gruppo di campi **Dettagli preferenza**.
+
 ## Definizione di un fuso orario fisso {#fixed-timezone}
 
 È inoltre possibile correggere il fuso orario. Deseleziona il fuso orario predefinito e selezionane uno dall’elenco a discesa. Se utilizzi un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al percorso.
 
-A questo scopo, in **[!UICONTROL Properties]**, seleziona un fuso orario.
+A questo scopo, nel riquadro **[!UICONTROL Journey Properties]**, selezionare un fuso orario.
 
 ![](../assets/journey72.png)
 
@@ -45,7 +47,7 @@ Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere
 
 Se il profilo della persona non contiene un fuso orario, il fuso orario recuperato sarà quello definito nel campo relativo al fuso orario.
 
-A tale scopo, in **[!UICONTROL Properties]**, selezionare **[!UICONTROL Use Profile timezone in timers and conditions]**.
+A tale scopo, in **[!UICONTROL Properties]**, selezionare **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
 ![](../assets/journey73.png)
 
