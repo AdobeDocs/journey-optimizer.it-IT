@@ -5,17 +5,15 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
 
 
 # Sintassi di personalizzazione {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 La personalizzazione in [!DNL Journey Optimizer] si basa sulla sintassi del modello denominata Handlebars.
 Per una descrizione completa della sintassi Handlebars, consulta la [Documentazione HandlebarsJS](https://handlebarsjs.com/).
@@ -24,14 +22,12 @@ Utilizza un modello e un oggetto di input per generare HTML o altri formati di t
 
 Esempio di espressione semplice:
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 dove:
 
-* **** profilo è uno spazio dei nomi.
-* **person.** name è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
+* `profile` è uno spazio dei nomi.
+* `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
 ## Regole generali sulla sintassi
 
@@ -59,15 +55,19 @@ Gli attributi devono essere definiti nello schema prima di essere referenziati i
 
 **Riferimenti di esempio:**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## Segmenti{#perso-segments}
 
@@ -84,20 +84,18 @@ Per fare riferimento a un’offerta è necessario dichiarare un percorso con le 
 
 Questo percorso ha la seguente struttura:
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 dove:
 
 * `offers` identifica l&#39;espressione del percorso appartenente allo spazio dei nomi dell&#39;offerta
 * `Type`  determina il tipo di rappresentazione dell’offerta. I valori possibili sono: `image`, `html` e `text`
 * `Placement Id` e  `Activity Id` sono identificatori di posizionamento e di attività
-* `Attributes` sono attributi specifici dell’offerta che dipendono dal tipo di offerta. Esempio: `deliveryUrl` per le immagini.
+* `Attributes` sono attributi specifici dell’offerta che dipendono dal tipo di offerta. Esempio: `deliveryUrl` per le immagini
 
 Per ulteriori informazioni sull&#39;API Decisioni e sulla rappresentazione delle Offerte, consulta [questa pagina](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-Tutti i riferimenti vengono convalidati rispetto a Schema offerte con un meccanismo di convalida descritto in [questa pagina](personalization-validation.md).
+Tutti i riferimenti vengono convalidati rispetto allo schema delle offerte con un meccanismo di convalida descritto in [questa pagina](personalization-validation.md)
 
 **Riferimenti di esempio:**
 
