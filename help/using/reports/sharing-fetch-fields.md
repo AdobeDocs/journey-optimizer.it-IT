@@ -5,18 +5,16 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 4%
 
 ---
 
 # Campi di recupero dati di journeyStep {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Questo mixin sarà condiviso da journeyStepEvent e journeyStepProfileEvent.
+Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
 Durante un&#39;elaborazione a gradini, è possibile ottenere N dati sui gruppi di campi.
 
