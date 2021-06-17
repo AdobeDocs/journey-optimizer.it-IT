@@ -5,16 +5,14 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 0%
 
 ---
 
-# Rapporto globale dei percorsi {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Rapporto globale del percorso {#journey-global-report}
 
 Puoi accedere al report globale di percorso direttamente dal tuo percorso con il pulsante **[!UICONTROL Global report]** .
 
@@ -44,23 +42,27 @@ Il widget **[!UICONTROL Journey`s statistics]** visualizza i KPI seguenti:
 
 * **[!UICONTROL Failed individual journey]**: Numero totale di singoli percorsi che non sono stati eseguiti correttamente.
 
-I widget **[!UICONTROL Event Performance]** e **[!UICONTROL Top events]** consentono di vedere quale dei **[!UICONTROL Events]** è stato eseguito correttamente tramite grafici e tabelle.
+![](../assets/global_report_12.png)
 
-**[!UICONTROL Action Performance]** e  **[!UICONTROL Top Actions]** i widget rappresentano l&#39;azione e gli errori più riusciti che si verificavano quando  **[!UICONTROL Actions]** venivano attivati. La tabella **[!UICONTROL Top Actions]** contiene i dati disponibili per **[!UICONTROL Actions]**, ad esempio:
+I widget **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** e **[!UICONTROL Top events]** consentono di vedere quale dei **[!UICONTROL Events]** è stato eseguito correttamente tramite grafici e tabelle.
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Action Performance]**,  **[!UICONTROL Action Error Reasons]** e  **[!UICONTROL Top Actions]** i widget rappresentano l’azione e gli errori più riusciti che si verificavano all’ **[!UICONTROL Actions]** attivazione dell’utente.
+
+La tabella **[!UICONTROL Top Actions]** contiene i dati disponibili per **[!UICONTROL Actions]**, ad esempio:
 
 * **[!UICONTROL Actions successfully executed]**: Numero totale di esecuzioni  **[!UICONTROL Actions]** completate per un percorso.
 
 * **[!UICONTROL Error in action]**: Numero totale di errori verificatisi per  **[!UICONTROL Actions]**.
-
-Il grafico **[!UICONTROL Error Reasons]** descrive il tipo di errori che si sono verificati per **[!UICONTROL Actions]**.
-
-<!--Events by origin-->
 
 ## Scheda E-mail {#email-global}
 
 Dal percorso **[!UICONTROL Global report]**, la scheda **[!UICONTROL Email]** descrive le informazioni principali relative alle consegne e-mail inviate nel percorso.
 
 Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Rapporto globale e-mail](#email-global-report) .
+
+![](../assets/global_report_14.png)
 
 Il grafico **[!UICONTROL Email Sending Statistics]** descrive il successo della consegna:
 
@@ -92,6 +94,10 @@ Il **[!UICONTROL Email - Tracking statistics]** contiene i dati disponibili per 
 
 * **[!UICONTROL Click through rate]**: Percentuale di utenti che hanno interagito con il percorso.
 
+* **[!UICONTROL Unsubscribe]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
+
+* **[!UICONTROL Spam complaints]**: Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.
+
 Il grafico **[!UICONTROL Sending Statistics]** contiene i dati disponibili per le e-mail inviate, ad esempio:
 
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
@@ -99,6 +105,8 @@ Il grafico **[!UICONTROL Sending Statistics]** contiene i dati disponibili per l
 * **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+![](../assets/global_report_15.png)
 
 I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
@@ -110,15 +118,19 @@ I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** co
 
 Per ulteriori informazioni sui messaggi non recapitati, consulta la pagina [Elenco di eliminazione](../suppression-list.md) .
 
+![](../assets/global_report_16.png)
+
 Il grafico e la tabella **[!UICONTROL Email - Top Url]** mostrano gli URL della consegna più visitati.
 
-Il grafico **[!UICONTROL Email - Best recipient domain]** e la tabella mostrano i dettagli dei domini più utilizzati dai destinatari per aprire l’e-mail.
+Il grafico **[!UICONTROL Email - Top recipient domain]** e la tabella mostrano i dettagli dei domini più utilizzati dai destinatari per aprire l’e-mail.
 
 ## Scheda push {#push-global}
 
 Dal percorso **[!UICONTROL Global report]**, la scheda **[!UICONTROL Push]** descrive le informazioni principali relative alle consegne push inviate nel percorso.
 
 Per un rapporto dettagliato su una consegna push specifica, consulta il [Rapporto globale push](#push-global-report).
+
+![](../assets/global_report_17.png)
 
 La tabella **[!UICONTROL Push notification - Sending statistics]** descrive le informazioni principali relative alle notifiche push con grafici e KPI:
 
@@ -160,6 +172,10 @@ Il grafico **[!UICONTROL Push notification summary]** contiene i dati disponibil
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
+![](../assets/global_report_18.png)
+
 Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
+
+![](../assets/global_report_19.png)
 
 I grafici e le tabelle **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** descrivono in dettaglio il successo della notifica push in base al sistema operativo del destinatario.
