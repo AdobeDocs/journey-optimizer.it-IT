@@ -5,18 +5,16 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '225'
 ht-degree: 3%
 
 ---
 
 # Informazioni sui segmenti Adobe Experience Platform {#about-segments}
 
-![](../assets/do-not-localize/badge.png)
-
-Journey Optimizer ti consente di creare segmenti Adobe Experience Platform utilizzando i dati Profilo cliente in tempo reale direttamente dal menu **[!UICONTROL Segments]** e di sfruttarli nei tuoi percorsi.
+[!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati Profilo cliente in tempo reale direttamente dal  **[!UICONTROL Segments]** menu e di sfruttarli nei percorsi.
 
 I segmenti possono essere creati anche dal servizio Segmentazione stesso. Ulteriori informazioni sono disponibili nella [documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
