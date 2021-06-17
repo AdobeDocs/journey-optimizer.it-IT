@@ -1,28 +1,26 @@
 ---
-title: Aggiorna il profilo
+title: Aggiorna profilo
 description: Scopri come utilizzare l’attività Aggiorna profilo in un percorso
 feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
-# Aggiorna il profilo {#update-profile}
+# Aggiorna profilo {#update-profile}
 
-![](../assets/do-not-localize/badge.png)
-
-L’attività di azione **[!UICONTROL Update profile]** ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
+L’attività di azione **[!UICONTROL Update Profile]** ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico.
 
 ## Note importanti
 
 * L&#39;azione **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi.
 * L’azione aggiorna solo i campi esistenti e non crea nuovi campi di profilo.
-* Non è possibile utilizzare l&#39;azione **Aggiorna profilo** per generare eventi di esperienza, ad esempio un acquisto.
+* Non puoi utilizzare l&#39;azione **Aggiorna profilo** per generare eventi di esperienza, ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Platform sarà rapida ma non immediata/entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un’azione utilizza &quot;campo 1&quot; aggiornato da un’azione Aggiorna profilo posizionata in precedenza, non devi aspettarti che il &quot;campo 1&quot; venga aggiornato nell’azione .
 * Le origini dati hanno una nozione di durata della cache, a livello di gruppo di campi. Se ti aspetti di sfruttare, in un percorso, un campo di profilo aggiornato di recente, fai attenzione a definire una durata della cache molto breve.
@@ -45,7 +43,7 @@ Per ulteriori informazioni su come trasformare un profilo esistente in un profil
 
 1. Selezionare uno schema dall&#39;elenco.
 
-1. Fai clic su **Campi** per selezionare il campo da aggiornare. È possibile selezionare un solo campo.
+1. Fai clic su **Campo** per selezionare il campo da aggiornare. È possibile selezionare un solo campo.
 
    ![](../assets/profileupdate2.png)
 
