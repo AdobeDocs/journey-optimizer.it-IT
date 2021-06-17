@@ -15,21 +15,21 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 7%
 
 ---
 
 
-# Determinare gli indirizzi primari dei profili
+# Modificare gli indirizzi e-mail principali
 
 Quando esegui il targeting di un profilo, diversi indirizzi e-mail possono essere disponibili nel database (personale, indirizzo e-mail professionale, ecc.).
 
 Con Journey Optimizer, puoi determinare quale indirizzo e-mail utilizzare dal servizio di profilo e assegnare una priorità quando sono disponibili più indirizzi. Per farlo, esegui questi passaggi:
 
-1. Accedi al menu **[!UICONTROL Channels]** / **[!UICONTROL General]** .
+1. Accedi al menu **[!UICONTROL Channels]** `>` **[!UICONTROL General]** .
 1. Il campo attualmente utilizzato per impostazione predefinita per determinare gli indirizzi e-mail dei profili viene visualizzato in questa schermata. Fare clic su **[!UICONTROL Edit]** per modificarlo.
 
    ![](../assets/primary-address.png)
