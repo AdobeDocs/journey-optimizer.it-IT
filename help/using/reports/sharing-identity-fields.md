@@ -5,18 +5,16 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 23%
 
 ---
 
 # Campi di identità dell’evento di journeyStep {#sharing-identity-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Questo mixin è specifico per journeyStepEvent: questo evento è in relazione al percorso e non ha identityMap che descrive l&#39;eventuale identità del profilo.
+Questo gruppo di campi è specifico per journeyStepEvent: questo evento è in relazione al percorso e non ha identityMap che descrive l&#39;eventuale identità del profilo.
 
 Per journeyStepEvent, è inoltre necessario aggiungere campi relativi all’identità:
 
