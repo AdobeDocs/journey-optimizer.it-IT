@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1620'
 ht-degree: 2%
 
 ---
 
 # Verifica del percorso{#testing_the_journey}
-
-![](../assets/do-not-localize/badge.png)
 
 Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
 
@@ -61,6 +59,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Quando disattivi la modalità di test, svuota i percorsi da tutte le persone che sono entrate nel passato o che vi si trovano attualmente. Inoltre, cancella la segnalazione.
 * Puoi attivare/disattivare la modalità di test il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di test. In modalità di test, è possibile pubblicare direttamente il percorso, senza dover disattivare la modalità di test in precedenza.
+* Quando si raggiunge una divisione, viene sempre scelto il ramo superiore. Potete riorganizzare la posizione dei rami divisi se desiderate che il test scelga un percorso diverso.
 
 ## Attivazione degli eventi {#firing_events}
 
