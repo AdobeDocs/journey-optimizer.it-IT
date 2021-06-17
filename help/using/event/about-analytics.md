@@ -5,22 +5,20 @@ feature: Eventi
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
 # Utilizzo dei dati di Adobe Analytics{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Platform per attivare percorsi e automatizzare le esperienze per i tuoi clienti.
 
 >[!NOTE]
 >
 >Questa sezione si applica solo agli eventi basati su regole e ai clienti che devono utilizzare i dati di Adobe Analytics.
-
-Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Platform per attivare percorsi e automatizzare le esperienze per i tuoi clienti.
 
 Affinché questo funzioni, devi attivare, in Adobe Experience Platform, la suite di rapporti che desideri sfruttare:
 
@@ -34,4 +32,4 @@ Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni
 
 ![](../assets/jo-event9.png)
 
-Per ulteriori informazioni sul connettore di origine Adobe Analytics, consulta la [documentazione]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+Ulteriori informazioni sul connettore sorgente Adobe Analytics nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
