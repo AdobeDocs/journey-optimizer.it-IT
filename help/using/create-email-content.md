@@ -5,26 +5,24 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1456'
 ht-degree: 1%
 
 ---
 
 # Progetta il contenuto delle e-mail nell’interfaccia utente {#create-email-content}
 
-![](assets/do-not-localize/badge.png)
-
 Dopo aver [creato il messaggio](create-message.md), puoi iniziare a creare il contenuto dell&#39;e-mail.
 
-1. Dal messaggio appena creato, seleziona **[!UICONTROL Email designer]** nella sezione **[!UICONTROL Edit content]** .
+1. Dal messaggio appena creato, seleziona **[!UICONTROL Email designer]** nella sezione **[!UICONTROL Body]** .
 
    ![](assets/import-html_1.png)
 
 1. Nella home page di E-mail Designer, scegli come desideri progettare l’e-mail tra le seguenti opzioni:
 
-   * Seleziona **[!UICONTROL Design from scratch]** per utilizzare le funzionalità di e-mail designer per creare il contenuto delle e-mail.
+   * Seleziona **[!UICONTROL Design from scratch]** per utilizzare le funzionalità di e-mail designer per creare il contenuto delle e-mail. [Ulteriori informazioni](#design-scratch)
 
    * Seleziona **[!UICONTROL Start from template]** per creare il messaggio e-mail da un elenco di modelli incorporato. Non è possibile creare altri modelli.
 
@@ -34,13 +32,39 @@ Dopo aver [creato il messaggio](create-message.md), puoi iniziare a creare il co
 
    ![](assets/email_designer_25.png)
 
-## Progettazione da zero
+## Progettazione da zero {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Informazioni sui componenti Struttura"
+>abstract="I componenti struttura definiscono il layout del messaggio e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="Definizione delle colonne e-mail"
+>abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail definendo la struttura delle colonne."
+
+E-mail Designer consente di definire facilmente la struttura dell’e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del messaggio e-mail in pochi secondi.
 
 Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i passaggi seguenti:
 
 1. Dopo aver selezionato l’opzione **[!UICONTROL Design from scratch]** , inizia a progettare il contenuto dell’e-mail trascinando **[!UICONTROL Structure components]** per definire il layout dell’e-mail.
 
+   >[!NOTE]
+   >
+   >Tieni presente che una pila di colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non verranno sovrapposte.
+   >
+   >Una volta inseriti nell’e-mail, non puoi spostare né rimuovere i componenti a meno che non sia già presente un componente di contenuto o un frammento all’interno.
+
    ![](assets/email_designer_2.png)
+
+1. Aggiungi tutti i **[!UICONTROL Structure components]** necessari.
+
+   Seleziona il componente **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). È inoltre possibile definire la larghezza di ogni colonna spostando le frecce nella parte inferiore di ciascuna colonna.
+
+   >[!NOTE]
+   >
+   >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
 
 1. Dal menu a discesa **[!UICONTROL Content components]** puoi aggiungere tutti i **[!UICONTROL Content components]** necessari nel componente struttura. [Ulteriori informazioni sui componenti](content-components.md) contenuto.
 
@@ -64,6 +88,10 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi in [questa pagina](message-tracking.md).
+
 1. Se necessario, puoi passare all’editor di codice per personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Switch to code editor]** nel menu avanzato. Per ulteriori informazioni sull&#39;editor di codice, consulta questa [pagina](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
@@ -72,7 +100,9 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 
    ![](assets/email_designer_26.png)
 
-1. Fai clic su **[!UICONTROL Preview]** per controllare il rendering delle e-mail. È possibile scegliere la visualizzazione desktop o mobile.
+1. Fai clic su **[!UICONTROL Show preview]** per controllare il rendering delle e-mail. È possibile scegliere la visualizzazione desktop o mobile.
+
+   Per ulteriori informazioni su come visualizzare in anteprima il messaggio e-mail, consulta [Anteprima e verifica i messaggi](preview.md).
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 
 Il contenuto dell’e-mail può ora essere utilizzato in un messaggio. [Scopri come inviare un messaggio](publish-manage-message.md).
 
-## Definire la struttura delle e-mail {#defining-the-email-structure}
+## Crea la versione testuale di un&#39;e-mail {#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="Informazioni sui componenti Struttura"
->abstract="I componenti struttura definiscono il layout del messaggio e-mail."
+Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando il contenuto HTML non può essere visualizzato.
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="Definizione delle colonne e-mail"
->abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail definendo la struttura delle colonne."
+Per impostazione predefinita, E-mail Designer crea una versione **[!UICONTROL Plain text]** del messaggio e-mail, inclusi i campi di personalizzazione. Questa versione viene generata automaticamente e sincronizzata con la versione HTML del contenuto.
 
-E-mail Designer consente di definire facilmente la struttura dell’e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del messaggio e-mail in pochi secondi.
+Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
 
-Per modificare la struttura di un messaggio e-mail:
+1. Dal messaggio e-mail, seleziona la scheda **[!UICONTROL Plain text]** .
 
-1. Apri un contenuto esistente o crea un nuovo contenuto e-mail.
-1. Accedi a **[!UICONTROL Structure components]** selezionando l&#39;icona **+** a sinistra.
-1. Trascina e rilascia i componenti struttura necessari per modellare il messaggio e-mail.
-Una linea blu materializza la posizione esatta dei componenti struttura prima di rilasciarla. Puoi rilasciarlo sopra, tra o sotto qualsiasi altro componente, ma non all’interno.
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. Utilizza l&#39;interruttore **[!UICONTROL Sync with HTML]** per disabilitare la sincronizzazione.
+
+   ![](assets/text_version_1.png)
+
+1. Fai clic sul segno di spunta per confermare la scelta.
+
+   ![](assets/text_version_2.png)
+
+1. Puoi quindi modificare la versione di testo normale come desiderato.
+
+>[!CAUTION]
+>
+>* Le modifiche apportate nella visualizzazione **[!UICONTROL Plain text]** non vengono riportate nella visualizzazione HTML.
    >
-   >Tieni presente che una pila di colonne non è compatibile con tutti i programmi e-mail. Se non è supportato, le colonne non verranno sovrapposte.
    >
-   >Una volta inseriti nell’e-mail, non puoi spostare né rimuovere i componenti a meno che non sia già presente un componente di contenuto o un frammento all’interno.
+* Se riattivi l’opzione **[!UICONTROL Sync with HTML]** dopo l’aggiornamento del contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione HTML.
 
-1. Sono disponibili diversi componenti struttura composti da una o più colonne.
-
-   Seleziona il componente **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). È inoltre possibile definire la larghezza di ogni colonna spostando le frecce nella parte inferiore di ciascuna colonna.
-
-   >[!NOTE]
-   >
-   >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
-
-Una volta definita la struttura, puoi aggiungere frammenti di contenuto e componenti all’e-mail.
 
 ## Utilizzare una preintestazione {#preheader}
 
@@ -124,15 +147,33 @@ Una volta definita la struttura, puoi aggiungere frammenti di contenuto e compon
 >title="Utilizzo di una preintestazione"
 >abstract="La preintestazione consente di configurare un breve testo di riepilogo che consente di tenere traccia e personalizzare meglio le e-mail."
 
-Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail. La preintestazione può aiutarti a tenere traccia e personalizzare meglio le e-mail.
-
-Seleziona la casella di modifica **[!UICONTROL Preheader]** e aggiungi contenuto.
-
-Puoi aggiungere un **[!UICONTROL Content block]**, un **[!UICONTROL Dynamic content]** o un **[!UICONTROL Personalization fields]** nel contenuto della preintestazione.
-
 >[!NOTE]
 >
 >I preintestazioni non sono compatibili con tutti i client e-mail. Se non supportato, la preintestazione non viene visualizzata.
+
+Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando visualizzi un’e-mail dal client e-mail. La preintestazione può aiutarti a tenere traccia e personalizzare meglio le e-mail.
+
+1. Dalla finestra di progettazione e-mail, aggiungi un **[!UICONTROL Structure components]** per iniziare a progettare l’e-mail.
+
+   ![](assets/preheader_1.png)
+
+1. Dal riquadro a destra **[!UICONTROL Body settings]**, fai clic su **Modifica** accanto al campo **[!UICONTROL Preheader]** per aggiungere contenuto.
+
+   ![](assets/preheader_2.png)
+
+1. Aggiungi la tua preintestazione. Per personalizzare ulteriormente la pagina, fai clic sull’icona **[!UICONTROL Add personalization]** .
+
+   ![](assets/preheader_3.png)
+
+1. Dalla finestra **[!UICONTROL Edit Personalization]** è possibile aggiungere **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** o **[!UICONTROL Personalization fields]**.
+
+1. Fai clic su **[!UICONTROL Validate]** per controllare la sintassi di personalizzazione.
+
+   ![](assets/preheader_4.png)
+
+1. Fai clic su **[!UICONTROL Save]**.
+
+La preintestazione è ora configurata per l’e-mail.
 
 ## Impostazioni di sfondo {#about-backgrounds}
 
@@ -172,7 +213,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
    Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
 
-### Esempio: regolare l&#39;allineamento verticale e la spaziatura {#example--adjusting-vertical-alignment-and-padding}
+## Regolare l&#39;allineamento verticale e la spaziatura verticale {#adjusting-vertical-alignment-and-padding}
 
 È necessario regolare la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne. Per farlo, segui la procedura indicata di seguito:
 
@@ -220,34 +261,5 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 
 Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento padre.
 
-
-## Crea la versione testuale di un&#39;e-mail {#generate-text-version}
-
-Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando il contenuto HTML non può essere visualizzato.
-
-Per impostazione predefinita, E-mail Designer crea una versione **[!UICONTROL Plain text]** del messaggio e-mail, inclusi i campi di personalizzazione. Questa versione viene generata automaticamente e sincronizzata con la versione HTML del contenuto.
-
-Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
-
-1. Dal messaggio e-mail, seleziona la scheda **[!UICONTROL Plain text]** .
-
-1. Utilizza l&#39;interruttore **[!UICONTROL Sync with HTML]** per disabilitare la sincronizzazione.
-
-   ![](assets/text_version_1.png)
-
-1. Fai clic sul segno di spunta per confermare la scelta.
-
-   ![](assets/text_version_2.png)
-
-1. Puoi quindi modificare la versione di testo normale come desiderato.
-
->[!CAUTION]
->
->* Le modifiche apportate nella visualizzazione **[!UICONTROL Plain text]** non vengono riportate nella visualizzazione HTML.
-   >
-   >
-* Se riattivi l’opzione **[!UICONTROL Sync with HTML]** dopo l’aggiornamento del contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione HTML.
-
->
 
 
