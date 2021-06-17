@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 87%
 
 ---
 
 # Gestire l’opt-out {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 Utilizza [!DNL Journey Optimizer] per tenere traccia del consenso dei destinatari alla comunicazione e capire in che modo desiderano interagire con il tuo marchio gestendo le preferenze e gli abbonamenti. <!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,18 @@ Corpo della richiesta:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Annulla sottoscrizione link nell&#39;intestazione {#unsubscribe-email}
+
+Se il software client e-mail dei destinatari supporta la visualizzazione di un collegamento di annullamento all’abbonamento nell’intestazione e-mail, le e-mail inviate con [!DNL Journey Optimizer] includono automaticamente questo collegamento.
+
+Ad esempio, il collegamento per l’annullamento dell’abbonamento verrà visualizzato in Gmail in questo modo:
+
+![](assets/unsubscribe-email.png)
+
+Se un destinatario fa clic su questo collegamento, il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform.
+
+Facendo clic sul collegamento di annullamento dell’abbonamento dall’intestazione si ha lo stesso effetto di quando si fa clic sul collegamento di annullamento dell’abbonamento nel contenuto dell’e-mail. Ulteriori informazioni sulla gestione delle rinunce in [questa sezione](#opt-out-management).
 
 ## Gestione degli opt-out push {#push-opt-out-management}
 
