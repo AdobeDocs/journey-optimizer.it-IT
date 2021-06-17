@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Anteprima e verifica i messaggi{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuto personalizzato](personalization/personalize.md), potrai controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
 
@@ -22,7 +20,10 @@ Per rilevare eventuali errori nel contenuto delle e-mail o nelle impostazioni di
 
 >[!CAUTION]
 >
->Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test. Scopri come creare profili di test in [questa pagina](building-journeys/creating-test-profiles.md).
+>Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test.
+>
+>Scopri come creare profili di test in [questa pagina](building-journeys/creating-test-profiles.md).
+
 
 Per testare il contenuto del messaggio, devi:
 
@@ -33,13 +34,18 @@ Potrai quindi [inviare bozze](#send-proofs) ai profili di test.
 
 Inoltre, sfrutta il tuo account **Litmus** in [!DNL Journey Optimizer] per visualizzare immediatamente l&#39;anteprima del **rendering delle e-mail** nei popolari client e-mail. Puoi quindi verificare che il contenuto dell’e-mail sia eccellente e funzioni correttamente in ogni casella in entrata. Scopri come sbloccare le anteprime e-mail di Litmus in [questa sezione](#email-rendering)
 
+>[!CAUTION]
+>
+>Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata sui dati contestuali, ad esempio le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d’uso](personalization/personalization-use-case.md).
+
+
 ## Seleziona profili di test{#select-test-profiles}
 
 Utilizza [Profili di test](building-journeys/creating-test-profiles.md) per eseguire il targeting di destinatari aggiuntivi che non soddisfano i criteri di targeting definiti.
 
 Per selezionare i profili di test, segui i passaggi seguenti:
 
-1. Nell’interfaccia dei messaggi o nella finestra di progettazione e-mail, fai clic sul pulsante **[!UICONTROL Preview]** per accedere alla selezione del profilo di test.
+1. Nell’interfaccia dei messaggi o nella finestra di progettazione e-mail, fai clic sul pulsante **[!UICONTROL Show preview]** per accedere alla selezione del profilo di test.
 
    ![](assets/email-preview-button.png)
 
@@ -105,7 +111,7 @@ Per un&#39;anteprima di notifica push:
 
    ![](assets/preview-android.png)
 
-## Invia bozze{#send-proofs}
+## Inviare bozze{#send-proofs}
 
 Una bozza è un messaggio specifico che ti consente di testare un messaggio prima di inviarlo al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
@@ -124,6 +130,10 @@ Una volta selezionati i [profili di test](#select-test-profiles), puoi inviare l
    ![](assets/send-proof-view.png)
 
 Devi inviare bozze dopo qualsiasi modifica al contenuto del messaggio.
+
+>[!NOTE]
+>
+> Nella bozza inviata ai profili di test, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
 
 ## Rendering di e-mail{#email-rendering}
 
