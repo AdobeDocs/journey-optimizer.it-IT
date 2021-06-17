@@ -5,18 +5,16 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 5%
 
 ---
 
 # Campi di esecuzione azione degli eventi journeyStep {#sharing-execution-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Questo mixin sarà condiviso da journeyStepEvent e journeyStepProfileEvent.
+Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
 Se il passaggio dispone di un’azione da elaborare, tali campi verranno aggiunti al payload dell’evento.
 
