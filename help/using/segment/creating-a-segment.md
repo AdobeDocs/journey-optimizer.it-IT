@@ -5,7 +5,7 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -13,8 +13,6 @@ ht-degree: 6%
 ---
 
 # Generare segmenti {#build-segments}
-
-![](../assets/do-not-localize/badge.png)
 
 In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlanta, San Francisco, o Seattle e sono nati dopo il 1980. Tutti questi clienti avrebbero dovuto aprire l’applicazione Luma entro gli ultimi 7 giorni, quindi effettuare un acquisto entro 2 ore dall’apertura dell’applicazione.
 
@@ -40,10 +38,11 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
    In questo esempio, per creare il segmento è necessario basarsi sui campi **Attributi** e **Eventi** :
 
-   * **Attributi**: profili che vivono ad Atlanta, San Francisco o Seattle nati dopo il 1980,
-   * **Eventi**: i profili che hanno aperto l’applicazione Luma negli ultimi 7 giorni, quindi hanno effettuato un acquisto entro 2 ore dall’apertura dell’applicazione.
+   * **Attributi**: profili che vivono ad Atlanta, San Francisco o Seattle nati dopo il 1980
 
       ![](../assets/add-attributes.png)
+
+   * **Eventi**: i profili che hanno aperto l’applicazione Luma negli ultimi 7 giorni, quindi hanno effettuato un acquisto entro 2 ore dall’apertura dell’applicazione.
 
       ![](../assets/add-events.png)
 
