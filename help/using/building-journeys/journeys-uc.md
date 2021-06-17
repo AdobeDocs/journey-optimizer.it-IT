@@ -5,18 +5,16 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# Caso di utilizzo percorso
+# Inviare messaggi multicanale
 
-![](../assets/do-not-localize/badge.png)
-
-Questa sezione presenta un caso d’uso che combina un segmento Read , un evento, eventi di reazione e messaggi e-mail/push.
+Questa sezione presenta un caso d’uso che combina un segmento di lettura, un evento, eventi di reazione e messaggi e-mail/push.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ Nel nostro percorso, vogliamo sfruttare un segmento specifico di clienti. Tutti 
 
 Per ulteriori informazioni sui segmenti, consulta questa [pagina](../segment/about-segments.md).
 
-1. Dal menu **[!UICONTROL Segments]**, fai clic su **[!UICONTROL Create segment]**.
+1. Nella sezione del menu CLIENTE, selezionare **[!UICONTROL Segments]**.
+
+1. Fai clic sul pulsante **[!UICONTROL Create segment]** in alto a destra nell’elenco dei segmenti.
 
 1. Nel riquadro **[!UICONTROL Segment properties]**, immetti un nome per il segmento.
 
@@ -62,7 +62,7 @@ Devi configurare un evento inviato al tuo percorso quando un cliente effettua un
 
 A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazioni sugli eventi, consulta questa [pagina](../event/about-events.md).
 
-1. Nella sezione AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**, quindi fai clic su **[!UICONTROL Events]**. Per creare un nuovo evento, fai clic su **[!UICONTROL Add]**. 
+1. Nella sezione del menu AMMINISTRAZIONE, selezionare **[!UICONTROL Configurations]**, quindi fare clic su **[!UICONTROL Events]**. Per creare un nuovo evento, fai clic su **[!UICONTROL Create event]**. 
 
 1. Inserisci il nome dell’evento.
 
@@ -72,7 +72,7 @@ A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazio
 
 1. Nel campo **[!UICONTROL Event ID condition]** , definisci la condizione utilizzata dal sistema per identificare gli eventi che attivano il percorso. Ad esempio, puoi aggiungere un campo `purchaseMessage` e definire la regola seguente: `purchaseMessage="thank you"`
 
-1. Definisci i valori **[!UICONTROL Namespace]** e **[!UICONTROL Key]**.
+1. Definisci i valori **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
 
 1. Fai clic su **[!UICONTROL Save]**.
 
