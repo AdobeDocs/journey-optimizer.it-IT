@@ -5,18 +5,16 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '71'
 ht-degree: 15%
 
 ---
 
 # Campi del percorso {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Questo mixin viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
+Questo gruppo di campi viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
 
 ## journeyID
 
