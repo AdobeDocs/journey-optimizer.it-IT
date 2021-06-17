@@ -5,9 +5,9 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '604'
 ht-degree: 2%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 2%
 
 # Caso di utilizzo della personalizzazione {#personalization-use-case}
 
-![](../assets/do-not-localize/badge.png)
-
 In questo caso d’uso, vedrai come utilizzare più tipi di personalizzazione in un singolo messaggio di notifica push. Verranno utilizzati tre tipi di personalizzazione:
 
 * **Profilo**: personalizzazione dei messaggi in base a un campo del profilo
 * **Decisione** di offerta: personalizzazione basata sulle variabili decisionali dell’offerta
 * **Contesto**: personalizzazione basata sui dati contestuali del percorso
 
-L&#39;obiettivo di questo esempio è quello di inviare un evento a Journey Optimizer ogni volta che un ordine del cliente viene aggiornato. Viene quindi inviata al cliente una notifica push con informazioni sull’ordine e un’offerta personalizzata.
+L&#39;obiettivo di questo esempio è quello di inviare un evento a [!DNL Journey Optimizer] ogni volta che un ordine del cliente viene aggiornato. Viene quindi inviata al cliente una notifica push con informazioni sull’ordine e un’offerta personalizzata.
 
 Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
