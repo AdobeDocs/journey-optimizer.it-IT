@@ -15,7 +15,7 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Con i record PTR, i server di posta riceventi possono controllare l&#39;autentic
 
 ## Accedere ai record PTR dei tuoi sottodomini
 
-Una volta delegato un sottodominio in Customer Journey Management, viene creato e associato automaticamente un record PTR a questo sottodominio. Puoi accedervi dal menu **[!UICONTROL Channels]** / **[!UICONTROL PTR records]** .
+Una volta delegato un sottodominio in Customer Journey Management, viene creato e associato automaticamente un record PTR a questo sottodominio. Puoi accedervi dal menu **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** .
 
 ![](../assets/ptr-records.png)
 
