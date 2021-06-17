@@ -6,16 +6,14 @@ feature: Azioni
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 10d8cb2002279a7ea679e2be6e9f632d0edcfbb8
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 73%
+source-wordcount: '237'
+ht-degree: 68%
 
 ---
 
 # Informazioni sulle azioni {#about_actions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_actions"
@@ -25,6 +23,8 @@ ht-degree: 73%
 Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail, SMS o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda.
 
 [!DNL Journey Optimizer] viene fornito con funzionalità di messaggistica integrata. Fai riferimento a [questa sezione](../get-started-content.md).
+
+Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, Adobe.io, Firebase e così via, devi aggiungere e configurare un’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
@@ -36,6 +36,6 @@ Le azioni personalizzate ti consentono di configurare la connessione di un siste
 
 Le azioni sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Action]** . Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Per visualizzare l’elenco delle azioni o configurare una nuova azione, passa a **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** nel menu di navigazione a sinistra. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
+Per visualizzare l’elenco delle azioni o configurare una nuova azione, seleziona **[!UICONTROL Configurations]** nella sezione del menu AMMINISTRAZIONE . Nella sezione **[!UICONTROL Actions]**, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
 
 ![](../assets/custom1.png)
