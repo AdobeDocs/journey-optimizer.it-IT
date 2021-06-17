@@ -5,7 +5,7 @@ feature: 'Origini dati '
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 99%
@@ -13,8 +13,6 @@ ht-degree: 99%
 ---
 
 # Origini dati esterne {#concept_t2s_kqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
@@ -31,7 +29,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 Di seguito sono riportati i passaggi principali per la creazione e la configurazione di una nuova origine dati esterna:
 
-1. Dall’elenco delle origini dati, fare clic su **[!UICONTROL Add]** per creare una nuova origine dati esterna.
+1. Dall’elenco delle origini dati, fare clic su **[!UICONTROL Create Data Source]** per creare una nuova origine dati esterna.
 
    ![](../assets/journey25.png)
 
@@ -58,8 +56,8 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
 
    * **[!UICONTROL Type]**: &quot;API key&quot;
-   * **[!UICONTROL Value]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
    * **[!UICONTROL Name]**: &quot;appid&quot; (nome del parametro della chiave API)
+   * **[!UICONTROL Value]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
    * **[!UICONTROL Location]**: &quot;Query parameter&quot; (la chiave API si trova nell’URL)
 
    ![](../assets/journey28.png)
@@ -71,8 +69,8 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 * **[!UICONTROL Used in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic sull’icona **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
 * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
 * **[!UICONTROL Cache duration]**: nel nostro caso, vogliamo che il meteo sia memorizzato nella cache per 10 minuti.
-* **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
 * **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. Consulta [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=it).
+* **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
 * **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
 In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo **[!UICONTROL Dynamic Values]** e verranno aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
