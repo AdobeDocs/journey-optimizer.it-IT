@@ -5,16 +5,14 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # Informazioni sulle attività del percorso {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
