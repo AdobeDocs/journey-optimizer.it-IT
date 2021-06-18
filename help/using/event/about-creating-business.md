@@ -5,16 +5,14 @@ feature: Eventi
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 15%
 
 ---
 
 # Configurare un evento di business {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 A differenza degli eventi unitari, gli eventi aziendali non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole. Per ulteriori informazioni sugli eventi aziendali, consulta [questa sezione](../event/about-events.md).
 
@@ -37,11 +35,11 @@ Gli eventi di business possono essere &quot;un prodotto è di nuovo in magazzino
 
 Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
 
-1. Nella sezione AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**, quindi fai clic su **[!UICONTROL Events]**. Viene visualizzato l’elenco degli eventi.
+1. Nella sezione del menu AMMINISTRAZIONE, selezionare **[!UICONTROL Configurations]**. Nella sezione **[!UICONTROL Events]**, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco degli eventi.
 
    ![](../assets/jo-event1.png)
 
-1. Per creare un nuovo evento, fai clic su **[!UICONTROL Add]**. Il riquadro di configurazione dell’evento si apre sul lato destro dello schermo.
+1. Per creare un nuovo evento, fai clic su **[!UICONTROL Create Event]**. Il riquadro di configurazione dell’evento si apre sul lato destro dello schermo.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
 
 La definizione del payload ti consente di scegliere le informazioni che il sistema prevede di ricevere dall’evento nel tuo percorso e la chiave per identificare quale persona è associata all’evento. Il payload si basa sulla definizione del campo XDM di Experience Cloud. Per ulteriori informazioni su XDM, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
-1. Seleziona uno schema XDM dall’elenco e fai clic sul campo **[!UICONTROL Payload]** o sull’icona **[!UICONTROL Edit]**.
+1. Seleziona uno schema XDM dall’elenco e fai clic sul campo **[!UICONTROL Fields]** o sull’icona **[!UICONTROL Edit]**.
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ La definizione del payload ti consente di scegliere le informazioni che il siste
 
 1. Seleziona i campi che si prevede di ricevere dall’evento. Questi sono i campi che l&#39;utente aziendale sfrutterà nel percorso.
 
-   ![](../assets/journey10-business.png)
-
 1. Dopo aver selezionato i campi necessari, fai clic su **[!UICONTROL Save]** o premi **[!UICONTROL Enter]**.
 
-   Il numero di campi selezionati viene visualizzato nel campo **[!UICONTROL Payload]** .
+   Il numero di campi selezionati viene visualizzato nel campo **[!UICONTROL Fields]** .
 
    ![](../assets/journey12-business.png)
 
