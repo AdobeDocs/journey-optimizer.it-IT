@@ -1,20 +1,18 @@
 ---
-title: Percorso
+title: Rapporto live dei percorsi
 description: Scopri come utilizzare i dati del report live del percorso
 feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
 
 # Rapporto live dei percorsi {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 È possibile accedere al rapporto percorso live direttamente dal percorso mediante il pulsante **[!UICONTROL Live report]** .
 
@@ -64,7 +62,7 @@ Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezion
 
 ![](../assets/report_email_1.png)
 
-I widget **[!UICONTROL Sending Statistics]** e **[!UICONTROL Sending metrics by Email]** descrivono nel dettaglio il successo della consegna:
+Il widget **[!UICONTROL Email Sending Statistics]** descrive le informazioni principali relative al messaggio:
 
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
@@ -72,9 +70,7 @@ I widget **[!UICONTROL Sending Statistics]** e **[!UICONTROL Sending metrics by 
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-<!--Hard and bounce - by Email-->
-
-Il grafico **[!UICONTROL Email summary]** descrive le informazioni principali relative al messaggio:
+La tabella **[!UICONTROL Sending metrics by Email]** e il grafico **[!UICONTROL Email Summary]** descrivono nel dettaglio il successo della consegna:
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -88,9 +84,13 @@ Il grafico **[!UICONTROL Email summary]** descrive le informazioni principali re
 
 * **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in una consegna.
 
+* **[!UICONTROL Unsubscribe]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
+
+* **[!UICONTROL Spam complaints]**: Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.
+
 ![](../assets/report_email_2.png)
 
-I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
+I widget **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e **[!UICONTROL Hard and bounce - by Email]** contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
 * **[!UICONTROL Hard bounce]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
 
