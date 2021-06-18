@@ -5,7 +5,7 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 9%
@@ -13,8 +13,6 @@ ht-degree: 9%
 ---
 
 # Funzioni di aggregazione {#aggregation}
-
-![](../../assets/do-not-localize/badge.png)
 
 Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per formare un singolo valore di riepilogo.
 
