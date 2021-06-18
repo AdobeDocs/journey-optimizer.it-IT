@@ -5,7 +5,7 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # Attività attendi{#section_rlm_nft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività **[!UICONTROL Wait]** . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
