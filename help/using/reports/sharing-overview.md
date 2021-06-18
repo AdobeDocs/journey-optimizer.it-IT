@@ -5,22 +5,20 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 8%
+source-wordcount: '447'
+ht-degree: 7%
 
 ---
 
 # Creare rapporti sul percorso{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 Oltre ai [rapporti in tempo reale](live-report.md) e alle funzionalità di reporting globale [integrate](global-report.md), [!DNL Journey Optimizer] può inviare automaticamente i dati sulle prestazioni del percorso a Adobe Experience Platform in modo che possano essere combinati con altri dati a scopo di analisi.
 
 >[!NOTE]
 >
->Questa funzione non viene attivata per impostazione predefinita su tutte le nuove istanze distribuite. L&#39;attivazione è su richiesta.
+>Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi dei passaggi del profilo di percorso, l&#39;attivazione avviene su richiesta. Gli schemi e i set di dati creati durante il provisioning per questa funzione non devono essere modificati.
 
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità ti consente di combinare i dati [!DNL Journey Optimizer] con i dati evento a valle, come il numero di conversioni avvenute, il livello di coinvolgimento sul sito web o quante transazioni sono avvenute nello store. Le informazioni sul percorso possono essere combinate con i dati su Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline per fornire una visione più completa delle prestazioni.
 
