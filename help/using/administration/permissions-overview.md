@@ -16,7 +16,7 @@ feature: Gruppi di controllo
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 21%
@@ -24,8 +24,6 @@ ht-degree: 21%
 ---
 
 # Panoramica della gestione utente {#permissions-overview}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer]Con puoi definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzionalità e funzionalità dei prodotti.
 
