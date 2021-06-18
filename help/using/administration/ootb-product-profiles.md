@@ -16,30 +16,28 @@ feature: Gruppi di controllo
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '952'
 ht-degree: 6%
 
 ---
 
 # Profili di prodotto incorporati {#ootb-product-profiles}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Amministratore del percorso {#journey-administrator}
 
-Il profilo di prodotto **[!UICONTROL Journey Administrator]** consente di accedere ai menu di amministrazione con la possibilità di gestire e pubblicare Percorsi, messaggi e gestione delle decisioni.
+Il profilo di prodotto **[!UICONTROL Journey Administrator]** consente ai menu di amministrazione di gestire e pubblicare Percorsi, messaggi e gestione delle decisioni.
 
 Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Percorsi| <ul><li> **Gestire i percorsi**: accesso ai percorsi di lettura, creazione, modifica ed eliminazione.</li><li>**Percorsi** di pubblicazione: accesso ai percorsi di pubblicazione.</li><li>**Gestisci eventi, origini dati e azioni** percorsi: accesso per leggere, creare, modificare ed eliminare eventi, origini e azioni.</li><li>**Visualizza rapporto** percorsi: accesso al rapporto percorsi di lettura, modifica.</li></ul>|
-|Messaggi|<ul><li> **Gestire i messaggi**: accesso per leggere, creare e modificare l’anteprima dei messaggi e inviare test/proof.</li><li>**Gestione dell’anteprima e del test** dei messaggi: accesso ai messaggi di pubblicazione.</li><li>**Pubblicare messaggi**: accesso per leggere, creare e modificare l’anteprima dei messaggi e inviare test/proof.</li><li>**Visualizza rapporto** messaggi: accesso al report di lettura, modifica, messaggi.</li></ul>|
-|Amministrazione|<ul><li>**Gestisci delega** sottodomini: accesso per leggere, creare, modificare ed eliminare la delega dei sottodomini.</li><li>**Gestire i pool** IP: accesso per leggere, creare, modificare ed eliminare i pool ip.</li><li>**Visualizza record** PTR: accesso in sola lettura ai record PTR.</li><li> **Gestisci le impostazioni** generali dei messaggi: accedere alle impostazioni generali del messaggio per leggere, creare, modificare ed eliminare i messaggi.</li><li>**Gestire i predefiniti** per i messaggi: accesso per leggere, creare, modificare ed eliminare il branding dei contenuti.</li><li>**Gestisci regole** di eliminazione: accedere alle regole di soppressione lette, create, modificate ed eliminate.</li><li>**Visualizza elenco** di eliminazione: accesso alla lettura e all&#39;esportazione dell&#39;elenco di soppressione locale.</li><li>**Gestire gli avvisi**: accesso per attivare/disattivare avvisi per percorsi, messaggi e adesioni.</li></ul>|
-|Gestione delle decisioni|<ul><li>**Gestisci le decisioni**: accesso alle decisioni di lettura, creazione, modifica ed eliminazione.</li><li>**Gestire le strategie** di classificazione: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
-|Adobe Experience Platform|<ul><li>**Sandbox**: accesso per fornire accesso alle sandbox.</li><li>**Gestire i segmenti**: accesso per leggere, creare, modificare ed eliminare segmenti.</li><li>**Gestisci profili**: accesso per leggere, creare, modificare ed eliminare i profili.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li><li>**Spazio dei nomi** di identità di lettura: accesso in sola lettura allo spazio dei nomi identità.</li></ul>|
+|Percorsi| <ul><li> **Gestire i percorsi**: leggere, creare, modificare ed eliminare percorsi.</li><li>**Percorsi** di pubblicazione: pubblica percorsi.</li><li>**Gestisci eventi, origini dati e azioni** percorsi: leggere, creare, modificare ed eliminare eventi, origini o azioni.</li><li>**Visualizza rapporto** percorsi: leggere e modificare il rapporto percorsi.</li></ul>|
+|Messaggi|<ul><li> **Gestire i messaggi**: leggi, crea, modifica anteprima messaggio e invia test/bozza.</li><li>**Gestione dell’anteprima e del test** dei messaggi: pubblicare messaggi.</li><li>**Pubblicare messaggi**: leggi, crea e modifica l’anteprima dei messaggi e invia test/bozza.</li><li>**Visualizza rapporto** messaggi: leggere e modificare il rapporto sui messaggi.</li></ul>|
+|Amministrazione|<ul><li>**Gestisci delega** sottodomini: leggere, creare, modificare ed eliminare la delega dei sottodomini.</li><li>**Gestire i pool** IP: leggi, crea, modifica ed elimina il pool ip.</li><li>**Visualizza record** PTR: accesso in sola lettura ai record PTR.</li><li> **Gestisci le impostazioni** generali dei messaggi: leggere, creare, modificare ed eliminare le impostazioni generali del messaggio.</li><li>**Gestire i predefiniti** per i messaggi: leggere, creare, modificare ed eliminare il branding dei contenuti.</li><li>**Gestisci regole** di eliminazione: accedere alle regole di soppressione lette, create, modificate ed eliminate.</li><li>**Visualizza elenco** di eliminazione: leggere ed esportare l&#39;elenco di soppressione locale.</li><li>**Gestire gli avvisi**: abilitare/disabilitare gli avvisi per percorsi, messaggi e adesioni.</li></ul>|
+|Gestione delle decisioni|<ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le decisioni.</li><li>**Gestire le strategie** di classificazione: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
+|Adobe Experience Platform|<ul><li>**Sandbox**: concedere l’accesso alle sandbox.</li><li>**Gestire i segmenti**: leggere, creare, modificare ed eliminare i segmenti.</li><li>**Gestisci profili**: leggere, creare, modificare ed eliminare i profili.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li><li>**Spazio dei nomi** di identità di lettura: accesso in sola lettura allo spazio dei nomi identità.</li><li>**Gestisci criteri** di unione: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
 
 ## Approvatore percorso {#journey-approver}
 
@@ -49,10 +47,10 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Percorsi| <ul><li>**Gestire i percorsi**: accesso ai percorsi di lettura, creazione, modifica ed eliminazione.</li><li>**Percorso** di pubblicazione: accesso ai percorsi di pubblicazione.</li><li>**Visualizzare eventi, origini dati e azioni** di percorsi: accesso in sola lettura all&#39;evento percorsi, alle azioni personalizzate del percorso e alle origini dati del percorso.</li><li>**Visualizza rapporto** percorsi: accedere a leggere, modificare i rapporti dei percorsi e utilizzare funzioni d&#39;azione come la condivisione dei rapporti.</li></ul>|
-|Messaggi| <ul><li>**Gestire i messaggi**: accesso per leggere, creare, modificare ed eliminare i messaggi.</li><li>**Pubblica** messaggi: accedere ai messaggi di pubblicazione.</li><li>**Gestione dell’anteprima e del test** dei messaggi: accesso per leggere, creare e modificare l’anteprima dei messaggi e inviare test/proof.</li><li>**Visualizza rapporto** messaggi: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi.</li></ul>|
-|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: accesso alle entità decisionali in lettura, creazione, modifica ed eliminazione.</li><li>**Gestire le strategie** di classificazione: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Gestire i segmenti**: accesso per leggere, creare, modificare ed eliminare segmenti.</li><li>**Gestisci profili**: accesso per leggere, creare, modificare ed eliminare i profili.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li></ul>|
+|Percorsi| <ul><li>**Gestire i percorsi**: leggere, creare, modificare ed eliminare percorsi.</li><li>**Percorso** di pubblicazione: pubblica percorsi.</li><li>**Visualizzare eventi, origini dati e azioni** di percorsi: accesso in sola lettura agli eventi di percorso, alle azioni personalizzate del percorso e alle origini dati di percorso.</li><li>**Visualizza rapporto** percorsi: leggere, modificare i rapporti sui percorsi.</li></ul>|
+|Messaggi| <ul><li>**Gestire i messaggi**: leggere, creare, modificare ed eliminare i messaggi.</li><li>**Pubblica** messaggi, pubblica messaggi.</li><li>**Gestione dell’anteprima e del test** dei messaggi: leggi, crea e modifica l’anteprima dei messaggi e invia test/bozza.</li><li>**Visualizza rapporto** messaggi: leggere, creare, modificare ed eliminare i rapporti sui messaggi.</li></ul>|
+|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**Gestire le strategie** di classificazione: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Gestire i segmenti**: leggere, creare, modificare ed eliminare i segmenti.</li><li>**Gestisci profili**: leggere, creare, modificare ed eliminare i profili.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li><li>**Gestisci criteri** di unione: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
 |Amministrazione| <ul><li>**Visualizzare i predefiniti** per i messaggi: accesso in sola lettura ai predefiniti per messaggi.</li></ul>|
 
 ## Percorsi Manager {#journey-manager}
@@ -63,10 +61,10 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Percorsi| <ul><li>**Gestire i percorsi**: accesso ai percorsi di lettura, creazione, modifica ed eliminazione.</li><li>**Visualizzare eventi**, origini dati e azioni di percorsi: accesso in sola lettura all&#39;evento percorsi, alle azioni personalizzate del percorso e alle origini dati del percorso.</li><li>**Visualizza rapporto** percorsi: accedere a leggere, modificare i rapporti dei percorsi e utilizzare funzioni d&#39;azione come la condivisione dei rapporti.</li></ul>|
-|Messaggi| <ul><li>**Gestire i messaggi**: accesso per leggere, creare, modificare ed eliminare i messaggi.</li><li> **Gestione dell’anteprima e del test** dei messaggi: accesso per leggere, creare e modificare l’anteprima dei messaggi e inviare test/proof.</li><li>**Visualizza rapporto** messaggi: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi.</li></ul>|
-|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: accesso alle entità decisionali in lettura, creazione, modifica ed eliminazione.</li><li>**Gestire le strategie** di classificazione: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
-|Adobe Experience Platform| <ul><li> **Gestire i segmenti**: accesso per leggere, creare, modificare ed eliminare segmenti.</li><li>**Gestisci profili**: accesso per leggere, creare, modificare ed eliminare i profili.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li></ul>|
+|Percorsi| <ul><li>**Gestire i percorsi**: leggere, creare, modificare ed eliminare percorsi.</li><li>**Visualizzare eventi** percorsi: accesso in sola lettura agli eventi di percorso, alle azioni personalizzate del percorso e alle origini dati di percorso.</li><li>**Visualizza rapporto** percorsi: leggere, modificare il rapporto percorso.</li></ul>|
+|Messaggi| <ul><li>**Gestire i messaggi**: leggere, creare, modificare ed eliminare i messaggi.</li><li> **Gestione dell’anteprima e del test** dei messaggi: leggi, crea e modifica l’anteprima dei messaggi e invia test/bozza.</li><li>**Visualizza rapporto** messaggi: leggere, creare, modificare ed eliminare i rapporti sui messaggi.</li></ul>|
+|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**Gestire le strategie** di classificazione: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
+|Adobe Experience Platform| <ul><li> **Gestire i segmenti**: leggere, creare, modificare ed eliminare i segmenti.</li><li>**Gestisci profili**: leggere, creare, modificare ed eliminare i profili.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li><li>**Gestisci criteri** di unione: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
 |Amministrazione| <ul><li>**Visualizzare i predefiniti** per i messaggi: accesso in sola lettura ai predefiniti per messaggi.</li></ul>|
 
 ## Visualizzatore di percorsi {#journey-viewer}
@@ -79,8 +77,8 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Percorsi| <ul><li>**Visualizza percorsi**: accesso in sola lettura ai percorsi.</li><li>**Visualizza evento percorso, origini dati, azioni**: accesso in sola lettura all&#39;evento percorso e alle origini dati.</li><li>**Visualizza rapporto** percorsi: accesso in sola lettura al rapporto percorsi.</li></ul>|
-|Messaggi| <ul><li>**Visualizza messaggi**: accesso in sola lettura al messaggio.</li><li>**Visualizza rapporto** messaggi: accesso in sola lettura al report dei messaggi.</li></ul>|
+|Percorsi| <ul><li>**Visualizza percorsi**: accesso in sola lettura ai percorsi.</li><li>**Visualizza evento percorso, origini dati, azioni**: accesso in sola lettura agli eventi di percorso e alle origini dati.</li><li>**Visualizza rapporto** percorsi: accesso in sola lettura ai rapporti sui percorsi.</li></ul>|
+|Messaggi| <ul><li>**Visualizza messaggi**: accesso in sola lettura ai messaggi.</li><li>**Visualizza rapporto** messaggi: accesso in sola lettura ai rapporti sui messaggi.</li></ul>|
 |Gestione delle decisioni| <ul><li>**Visualizza decisioni**: accesso in sola lettura alle entità decisionali.</li></ul>|
 
 ## Gestione messaggi {#message-manager}
@@ -91,18 +89,18 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Percorsi| <ul><li>**Visualizza percorsi**: accesso in sola lettura ai percorsi.</li></ul>|
-|Messaggi| <ul><li>**Gestire i messaggi**: accesso per leggere, creare, modificare ed eliminare i messaggi.</li><li>**Gestione dell’anteprima e del test** dei messaggi: accesso per leggere, creare e modificare l’anteprima dei messaggi e inviare test/proof.</li><li> **Visualizza rapporto** messaggi: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi.</li></ul>|
-|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: accesso alle entità decisionali in lettura, creazione, modifica ed eliminazione.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Profili** di lettura: accesso in sola lettura al profilo per l’anteprima e il test.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li></ul>|
-|Amministrazione| <ul><li>**Visualizzare i predefiniti** per i messaggi: accesso in sola lettura ai predefiniti per messaggi di lettura.</li></ul>|
+|Percorsi| <ul><li>**Visualizza percorsi**: accesso in sola lettura ai percorsi.</li><li>**Visualizzare eventi, origini dati e azioni** di Percorsi: accesso in sola lettura agli eventi di percorso, alle azioni personalizzate del percorso e alle origini dati di percorso.</li></ul>|
+|Messaggi| <ul><li>**Gestire i messaggi**: leggere, creare, modificare ed eliminare i messaggi.</li><li>**Gestione dell’anteprima e del test** dei messaggi: leggi, crea e modifica l’anteprima dei messaggi e invia test/bozza.</li><li> **Visualizza rapporto** messaggi: leggere, creare, modificare ed eliminare i rapporti sui messaggi.</li></ul>|
+|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le entità decisionali.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Profili** di lettura: accesso in sola lettura al profilo per l’anteprima e il test.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li><li>**Gestisci criteri** di unione: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
+|Amministrazione| <ul><li>**Visualizzare i predefiniti** per i messaggi: accesso in sola lettura ai predefiniti per messaggi.</li></ul>|
 
 ## Decisioning manager {#decisioning-manager}
 
-Il profilo di prodotto **[!UICONTROL Decisioning manager]** consente solo l&#39;accesso al menu **[!UICONTROL Decision management]**. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
+Il profilo di prodotto **[!UICONTROL Decisioning manager]** consente solo il menu **[!UICONTROL Decision management]**. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
 
 Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: accesso alle entità decisionali in lettura, creazione, modifica ed eliminazione.</li><li>**Visualizza decisioni**: accesso in sola lettura alle entità decisionali.</li><li>**Gestire le strategie** di classificazione: accesso per leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li><li>**Decisioni** di pubblicazione: accesso alle attività di approvazione/annullamento dell’approvazione delle decisioni.</li></ul>|
+|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**Visualizza decisioni**: accesso in sola lettura alle entità decisionali.</li><li>**Gestire le strategie** di classificazione: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li><li>**Decisioni** di pubblicazione: approvare o annullare l&#39;approvazione delle attività decisionali.</li></ul>|
