@@ -5,21 +5,19 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
 
-# Rapporto live {#live-report}
+# Guida introduttiva al rapporto live {#live-report}
 
-![](../assets/do-not-localize/badge.png)
+Utilizza **[!UICONTROL Live report]** per misurare e visualizzare in tempo reale l’impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in un dashboard integrato.
+I dati sono disponibili in **[!UICONTROL Live report]** non appena la consegna viene inviata o il percorso viene eseguito.
 
-Il **[!UICONTROL Live report]** consente di misurare e visualizzare in tempo reale l’efficacia dei percorsi e le prestazioni dei messaggi con un dashboard integrato.
-I dati delle tue consegne saranno disponibili in **[!UICONTROL Live report]** non appena la consegna o il percorso viene eseguito.
-
-* Per eseguire il targeting di uno o più percorsi di consegne in un percorso, dal menu **[!UICONTROL Journeys]** accedi al percorso e fai clic sull’icona **[!UICONTROL Live report]** . Puoi quindi trovare i rapporti dal vivo Percorso, E-mail e push.
+* Per eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal menu **[!UICONTROL Journeys]** accedi al percorso e fai clic sull’icona **[!UICONTROL Live report]** . Puoi quindi trovare i rapporti dal vivo Percorso, E-mail e push.
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ I dati delle tue consegne saranno disponibili in **[!UICONTROL Live report]** no
 
    ![](../assets/report_2.png)
 
-## Modifica dashboard {#modify-dashboard}
+## Personalizza dashboard {#modify-dashboard}
 
 Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget. La modifica dei widget influisce solo sul dashboard dell&#39;utente corrente. Altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
-1. Dal rapporto live, fai clic su **[!UICONTROL Modify dashboard]**.
+1. Dal rapporto live, fai clic su **[!UICONTROL Modify]**.
 
    ![](../assets/report_modify_1.png)
 
