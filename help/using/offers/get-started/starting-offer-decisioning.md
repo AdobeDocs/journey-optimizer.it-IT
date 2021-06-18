@@ -5,10 +5,10 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 97%
 
 ---
 
@@ -59,6 +59,39 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 * La funzione di gestione delle decisioni consente inoltre di migliorare l’esperienza dei clienti che contattano il team di assistenza. Con le API di Gestione delle decisioni puoi visualizzare nel portale degli agenti del call center informazioni sulle offerte di cui il cliente ha già usufruito e sulle migliori offerte successive.
 
    ![](../../assets/call-center.png)
+
+
+## Glossario {#glossary}
+
+Di seguito è riportato l&#39;elenco dei concetti principali con cui lavorare quando si utilizza Gestione decisioni.
+
+* **Quota limite** o **Quota limite frequenza**: il limite viene utilizzato come vincolo per definire quante volte viene presentata un’offerta.
+Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come “Limiti totali”; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come “Limite per profilo”.
+
+* **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite impostate da un addetto marketing, ad esempio la categoria dell’offerta.
+
+* **Decisione** (precedentemente nota come “attività di offerta”): una decisione contiene la logica utilizzata per determinare la selezione di un’offerta.
+
+* **Regola di decisione**: le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
+
+* **Offerta idonea**: un’offerta idonea soddisfa i vincoli definiti a monte che definiscono l’offerta coerente rispetto a un profilo.
+
+* **Gestione delle decisioni**: consente di creare e fornire esperienze di offerta personalizzate per l’utente finale sui vari canali e applicazioni utilizzando la logica di business e le regole decisionali.
+
+* **Offerte di fallback**: un’offerta di fallback è l’offerta predefinita che viene visualizzata se un utente finale non è idoneo per nessuna delle offerte personalizzate nella raccolta.
+
+* **Offerta**: un’offerta è un messaggio di marketing a cui possono essere associate delle regole che determinano gli utenti idonei per visualizzare l’offerta.
+
+* **Libreria di offerte**: la libreria di offerte è una libreria centrale utilizzata per gestire offerte personalizzate e di fallback, regole di decisione e decisioni.
+
+* **Offerte personalizzate**: un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
+
+* **Posizionamenti**: il posizionamento corrisponde a posizione e contesto in cui un’offerta viene mostrata a un utente finale.
+
+* **Priorità**: la priorità viene utilizzata per classificare le offerte che soddisfano tutti i vincoli, come idoneità, calendario e limiti.
+
+* **Rappresentazioni**: per rappresentazione si intendono le informazioni utilizzate da un canale, ad esempio posizione o lingua, per mostrare un’offerta.
+
 
 ## Video tutorial {#tutorial-videos}
 
