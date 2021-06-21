@@ -6,13 +6,13 @@ topic: Gestione dei contenuti
 role: User
 level: Beginner
 source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# Documentazione Adobe Journey Optimizer {#cjm-documentation}
+# Documentazion di Adobe Journey Optimizer {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -27,11 +27,11 @@ ht-degree: 81%
 
 * [Creare il primo percorso](using/building-journeys/journeys-uc.md) </br>Scopri come creare ed eseguire un percorso.
 
-* [ [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>ConfigurareScopri i passaggi chiave per configurare Journey Optimizer
+* [Configurare [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>Scopri i passaggi chiave per configurare Journey Optimizer
 
-* [Concedere l’accesso  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> aScopri come definire e gestire le autorizzazioni assegnate agli  [!DNL Journey Optimizer] utenti
+* [Concedere l’accesso a [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> Scopri come definire e gestire le autorizzazioni assegnate agli utenti di [!DNL Journey Optimizer]
 
-* [Gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md) </br> Crea offerte e fornisci la migliore offerta ed esperienza ai tuoi clienti.
+* [Gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md) </br> Crea offerte e fornisci la migliore offerta ed esperienza ai tuoi clienti
 
 ## Risorse aggiuntive
 
