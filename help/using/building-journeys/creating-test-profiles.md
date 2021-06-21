@@ -5,9 +5,9 @@ feature: Journeys
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 26cecf08f2032c58458f69ff1f2779e3c2603d18
+source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1320'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Sono necessarie le seguenti informazioni:
 2. **File** CSV: Un file separato da virgole contenente l’elenco dei profili di test da creare. Il caso d’uso richiede un formato predefinito per il file CSV che contiene l’elenco dei profili di test da creare. Ciascuna riga del file deve includere i campi seguenti nell’ordine corretto, come segue:
 
    1. **ID** persona: Identificatore univoco del profilo di test. I valori di questo campo devono riflettere lo spazio dei nomi identità selezionato. Ad esempio, se per lo spazio dei nomi identità è selezionato **Telefono** , i valori di questo campo devono essere numeri di telefono. Analogamente, se è selezionato **E-mail**, i valori di questo campo devono essere e-mail)
-   1. **E-mail**: Verifica l’indirizzo e-mail del profilo. (Il campo **ID persona** e il campo **Indirizzo e-mail** potrebbero contenere gli stessi valori se **E-mail** è selezionato come spazio dei nomi di identità)
+   1. **Indirizzo** e-mail: Verifica l’indirizzo e-mail del profilo. (Il campo **ID persona** e il campo **Indirizzo e-mail** potrebbero contenere gli stessi valori se **E-mail** è selezionato come spazio dei nomi di identità)
    1. **Nome**: Nome del profilo di test.
    1. **Cognome**: Cognome profilo di test.
    1. **Città**: Profilo di prova città di residenza
