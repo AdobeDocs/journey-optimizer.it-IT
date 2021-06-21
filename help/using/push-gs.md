@@ -1,18 +1,18 @@
 ---
-title: Guida introduttiva alla configurazione push
+title: Introduzione alla configurazione push
 description: Comprendere il flusso di dati e i componenti della notifica push
 feature: Impostazioni applicazione
-topic: Amministrazione
+topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Guida introduttiva alla configurazione push {#get-started-push}
+# Introduzione alla configurazione push {#get-started-push}
 
 Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in qualsiasi momento, specialmente quando non stanno utilizzando attivamente l’app. Le notifiche push possono aiutarti a raggiungere una varietà di casi d’uso, come fornire aggiornamenti sul tuo servizio, chiedere a un utente di agire, avvisare l’utente di una nuova offerta, ecc. Le piattaforme di dispositivi richiedono l’opt-in prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere l’opt-in dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione o in una sessione o un flusso di lavoro successivi, a seconda dei casi. [!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti a velocità di throughput leader di settore. Le notifiche push possono includere la personalizzazione e il contesto basato su Percorsi per sfruttare le informazioni sui dati del tuo marchio con Adobe Experience Cloud.
 
