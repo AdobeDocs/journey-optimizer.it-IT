@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Utilizza i collegamenti a sinistra per sfogliare le funzionalità.
 >
 >Le funzionalità disponibili possono variare a seconda delle autorizzazioni e del contratto di licenza.
 
-Di seguito è riportato l’elenco completo dei servizi e delle funzionalità disponibili nella navigazione a sinistra e dei collegamenti alla relativa documentazione.
+Di seguito è riportato l’elenco completo dei servizi e delle funzionalità disponibili nella barra a sinistra, con i collegamenti alla relativa documentazione.
 
 **Home**
 
@@ -131,10 +131,10 @@ La lingua predefinita dell’interfaccia è determinata dalla lingua preferita s
 
 Per cambiare lingua:
 
-* Fai clic su **Preferenze** dall&#39;avatar, in alto a destra.
+* Fai clic su **Preferenze** dal tuo avatar, in alto a destra.
    ![](assets/preferences.png)
 * Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail
-* Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente che si utilizza non sia localizzato nella lingua di forst.
+* Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
    ![](assets/select-language.png)
 
 ## Cerca
@@ -143,18 +143,18 @@ In qualsiasi punto dell’interfaccia di Adobe Journey Optimizer, utilizza la ri
 
 ![](assets/unified-search.png)
 
-Premere **Invio** per accedere a tutti i risultati e al filtro.
+Premi **Invio** per accedere a tutti i risultati e filtrarli.
 
 ![](assets/search-and-filter.png)
 
 
-## Elenchi di filtri{#section_lgm_hpz_pgb}
+## Filtrare gli elenchi{#section_lgm_hpz_pgb}
 
 Nella maggior parte degli elenchi, una barra di ricerca consente di cercare un elemento specifico e selezionare i criteri di filtro.
 
-Per accedere ai filtri, fai clic sull’icona del filtro in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli che hai creato oppure quelli modificati negli ultimi 30 giorni. Le opzioni variano a seconda del contesto.
+Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli che hai creato oppure quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
 
-Nell’elenco dei percorsi, è possibile filtrare i percorsi in base al loro stato e alla loro versione dal **[!UICONTROL Status and version filters]**. È possibile scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifici tra **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md).
+Nell’elenco, puoi filtrare i percorsi in base al loro stato e alla loro versione mediante l’opzione **[!UICONTROL Status and version filters]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un dato evento, un gruppo di campi o un’azione particolare con le opzioni **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
