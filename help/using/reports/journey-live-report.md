@@ -5,7 +5,7 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 1%
@@ -26,15 +26,15 @@ La pagina percorso **[!UICONTROL Live report]** verrà visualizzata con le segue
 
 Il percorso **[!UICONTROL Live report]** è suddiviso in diversi widget che descrivono il successo e gli errori del percorso. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
 
-## Scheda percorso {#journey-live}
+## scheda percorso {#journey-live}
 
 Dal percorso **[!UICONTROL Live report]**, la scheda **[!UICONTROL Journey]** ti offre una visualizzazione chiara dei dati di tracciamento più importanti sul percorso.
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Journey`s performance]** ti consente di visualizzare il percorso dei profili di destinazione passo dopo passo nel percorso.
+**[!UICONTROL Journey Performance]** ti consente di visualizzare il percorso dei profili di destinazione passo dopo passo nel percorso.
 
-Il widget **[!UICONTROL Journey`s statistics]** visualizza i KPI seguenti:
+Il widget **[!UICONTROL Journey Statistics]** visualizza i KPI seguenti:
 
 * **[!UICONTROL Entered profiles]**: Numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
 
