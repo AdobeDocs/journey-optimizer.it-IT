@@ -12,7 +12,7 @@ ht-degree: 52%
 
 ---
 
-# Guida rapida {#cjm-quick-start}
+# Guida introduttiva {#cjm-quick-start}
 
 ## Passaggi chiave per iniziare {#cjm-key-steps}
 
