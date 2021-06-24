@@ -5,14 +5,14 @@ feature: Reporting
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Rapporto globale del percorso {#journey-global-report}
+# Rapporto globale dei percorsi {#journey-global-report}
 
 Puoi accedere al report globale di percorso direttamente dal tuo percorso con il pulsante **[!UICONTROL Global report]** .
 
@@ -26,15 +26,15 @@ La pagina percorso **[!UICONTROL Global report]** verrà visualizzata con le seg
 
 Il percorso **[!UICONTROL Global report]** è suddiviso in diversi widget che descrivono il successo e gli errori del percorso. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](global-report.md#modify-dashboard).
 
-## Scheda percorso {#journey-global}
+## scheda percorso {#journey-global}
 
 Dal percorso **[!UICONTROL Global report]**, la scheda **[!UICONTROL Journey]** ti offre una visualizzazione chiara dei dati di tracciamento più importanti sul percorso.
 
 ![](../assets/global_report_2.png)
 
-Il widget **[!UICONTROL Journey`s performance]** ti consente di visualizzare il percorso dei profili di destinazione passo per passo nel percorso.
+Il widget **[!UICONTROL Journey Performance]** ti consente di visualizzare il percorso dei profili di destinazione passo per passo nel percorso.
 
-Il widget **[!UICONTROL Journey`s statistics]** visualizza i KPI seguenti:
+Il widget **[!UICONTROL Journey Statistics]** visualizza i KPI seguenti:
 
 * **[!UICONTROL Entered profiles]**: Numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
 
