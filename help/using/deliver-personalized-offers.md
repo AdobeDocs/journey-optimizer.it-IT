@@ -1,22 +1,20 @@
 ---
 title: Aggiungere offerte personalizzate
 description: Scopri come aggiungere offerte personalizzate ai messaggi
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
 
 # Aggiungere offerte personalizzate {#deliver-personalized-offers}
 
-## Informazioni su Gestione delle decisioni {#about-offer-decisioning}
-
-Con [!DNL Journey Optimizer], puoi inserire nei messaggi e-mail decisioni (precedentemente note come attività di offerta) che sfruttano il modulo di gestione delle decisioni per l’offerta al fine di scegliere l’offerta migliore da consegnare ai tuoi clienti.
+Nei messaggi e-mail [!DNL Journey Optimizer] puoi inserire le decisioni (precedentemente note come &quot;attività di offerta&quot;) che sfruttano il motore decisionale per l’offerta al fine di scegliere l’offerta migliore da consegnare ai tuoi clienti.
 
 Ad esempio, puoi aggiungere una decisione che visualizzerà nell’e-mail un’offerta di sconto speciale che varia a seconda del livello di fedeltà del destinatario.
 
@@ -29,7 +27,7 @@ Per un **esempio completo** che mostra come configurare le offerte, utilizzale i
 
 >[!CAUTION]
 >
->Devi innanzitutto definire una decisione di offerta. Scopri come creare decisioni in [questa sezione](offers/offer-activities/create-offer-activities.md).
+>Prima di iniziare, devi [definire una decisione di offerta](offers/offer-activities/create-offer-activities.md).
 
 Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 
@@ -60,7 +58,7 @@ Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 L’attività di offerta viene ora aggiunta al componente .
 
 
-## Anteprima di offerte in un messaggio e-mail {#preview-offers-in-email}
+## Anteprima delle offerte in un messaggio e-mail {#preview-offers-in-email}
 
 Puoi visualizzare in anteprima le diverse offerte che fanno parte della decisione aggiunta all’e-mail utilizzando la sezione **[!UICONTROL Offers]** o le frecce dei componenti di contenuto.
 
