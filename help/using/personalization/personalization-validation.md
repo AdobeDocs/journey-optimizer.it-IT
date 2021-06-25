@@ -5,9 +5,9 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 2%
 
 ## Meccanismi di convalida
 
-Nella schermata dell’editor espressioni, il pulsante **Convalida** ti consente di convalidare la sintassi di personalizzazione.
+Nella schermata **Editor espressioni**, utilizza il pulsante **Convalida** per controllare la sintassi di personalizzazione.
 
 >[!NOTE]
-> La convalida viene eseguita automaticamente quando si fa clic su **Aggiungi** per chiudere la finestra dell&#39;editor.
+> La convalida viene eseguita automaticamente quando si fa clic sul pulsante **Aggiungi** per chiudere la finestra dell&#39;editor.
 
 
 ![](assets/perso_validation1.png)
@@ -69,7 +69,7 @@ Le espressioni Handlebars sono circondate da **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### Errori specifici relativi alle offerte
+## Errori specifici relativi alle offerte
 
 Gli errori relativi all’integrazione delle offerte in un messaggio e-mail o push hanno il seguente pattern:
 
