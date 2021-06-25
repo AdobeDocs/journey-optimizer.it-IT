@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
-workflow-type: ht
-source-wordcount: '668'
-ht-degree: 100%
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,32 @@ ht-degree: 100%
       + [Creare un messaggio e-mail](using/create-email.md)
       + [Creare una notifica push](using/create-push.md)
    + [Aggiungere e gestire le risorse](using/assets-essentials.md)
-   + E-mail designer {#email-designer}
+   + Progettare le e-mail {#email-designer}
       + [Introduzione alla progettazione delle e-mail](using/design-emails.md)
       + [Creare contenuti e-mail nell’interfaccia utente](using/create-email-content.md)
       + [Importare o codificare il contenuto delle e-mail](using/existing-content.md)
       + [Utilizzare i componenti di contenuto di e-mail designer](using/content-components.md)
-   + Personalizzazione{#personalization}
-      + [Introduzione con personalizzazione](using/personalization/personalize.md)
-      + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
-      + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
-      + [Caso di utilizzo della personalizzazione](using/personalization/personalization-use-case.md)
-      + Funzioni assistenza{#functions}
-         + [Elenco delle funzioni assistenza](using/personalization/functions/functions.md)
-         + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
-         + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
-         + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
-         + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
-         + [Assistenza](using/personalization/functions/helpers.md)
-         + [Mappare le funzioni](using/personalization/functions/maps.md)
-         + [Funzioni oggetto](using/personalization/functions/objects.md)
-         + [Funzioni stringa](using/personalization/functions/string.md)
-   + [Aggiungere offerte personalizzate](using/deliver-personalized-offers.md)
    + Convalida e pubblicazione {#create-message}
       + [Anteprima e bozze](using/preview.md)
       + [Controllare gli avvisi](using/alerts.md)
       + [Pubblicare i messaggi](using/publish-manage-message.md)
    + [Gestire l’opt-out](using/consent.md)
++ Personalizzazione{#personalization}
+   + [Introduzione con personalizzazione](using/personalization/personalize.md)
+   + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
+   + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
+   + [Caso di utilizzo: aggiungere la personalizzazione in una notifica push](using/personalization/personalization-use-case.md)
+   + Funzioni assistenza{#functions}
+      + [Elenco delle funzioni assistenza](using/personalization/functions/functions.md)
+      + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
+      + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
+      + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
+      + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
+      + [Assistenza](using/personalization/functions/helpers.md)
+      + [Mappare le funzioni](using/personalization/functions/maps.md)
+      + [Funzioni oggetto](using/personalization/functions/objects.md)
+      + [Funzioni stringa](using/personalization/functions/string.md)
+   + [Aggiungere offerte personalizzate](using/deliver-personalized-offers.md)
 + Segmenti{#segment}
    + [Informazioni sui segmenti](using/segment/about-segments.md)
    + [Generare segmenti](using/segment/creating-a-segment.md)
