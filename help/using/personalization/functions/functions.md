@@ -5,21 +5,25 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 2%
 
 ---
 
 
-# Funzioni di supporto e linguaggio applicativo {#functionsL}
+# Libreria funzioni helper{#functionsL}
 
 Utilizza il linguaggio dei modelli [!DNL Journey Optimizer] per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
+
+[!DNL :arrow_forward:] [Scopri come utilizzare le funzioni helper nel video](#video)
 
 Il linguaggio modello viene sfruttato nelle funzioni di supporto disponibili nell’elenco a discesa di personalizzazione dell’editor espressioni, come segue:
 
 ![](../assets/access-helper-functions.png)
+
+
 
 Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helpers](#helper-helper) e [Operatori](#operators-helper).
 
@@ -189,7 +193,7 @@ Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono rag
 </table>
 
 
-## Helpers{#helper-helper}
+## Assistenza{#helper-helper}
 
 Gli helper sono descritti in [questa pagina](helpers.md).
 
@@ -279,3 +283,8 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
     </tr>
 </table>
 
+## Video introduttivo{#video}
+
+Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di supporto della personalizzazione e comprendere diversi casi d’uso per le funzioni di supporto.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
