@@ -5,14 +5,14 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
 
-# Progetta il contenuto delle e-mail nell’interfaccia utente {#create-email-content}
+# Progettazione del contenuto delle e-mail nell’interfaccia utente {#create-email-content}
 
 Dopo aver [creato il messaggio](create-message.md), puoi iniziare a creare il contenuto dell&#39;e-mail.
 
@@ -110,7 +110,7 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 
 Il contenuto dell’e-mail può ora essere utilizzato in un messaggio. [Scopri come inviare un messaggio](publish-manage-message.md).
 
-## Crea la versione testuale di un&#39;e-mail {#generate-text-version}
+## Creare la versione testuale di un messaggio e-mail {#generate-text-version}
 
 Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando il contenuto HTML non può essere visualizzato.
 
@@ -213,22 +213,31 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
    Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
 
-## Regolare l&#39;allineamento verticale e la spaziatura verticale {#adjusting-vertical-alignment-and-padding}
+## Regolare l’allineamento verticale e la spaziatura {#adjusting-vertical-alignment-and-padding}
 
-È necessario regolare la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne. Per farlo, segui la procedura indicata di seguito:
+In questo esempio, regoleremo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 
-1. Seleziona il componente struttura direttamente nel messaggio e-mail o utilizza la struttura ad albero disponibile dalla **Palette** a sinistra.
-1. Dalla **barra degli strumenti contestuale**, fai clic su **[!UICONTROL Select a column]** e scegli quello da modificare. È inoltre possibile selezionarlo dalla struttura ad albero.
+1. Seleziona il componente struttura direttamente nel messaggio e-mail o utilizza il **[!UICONTROL Navigation tree]** disponibile nel menu a sinistra.
 
-   I parametri modificabili di quella colonna vengono visualizzati nel riquadro **[!UICONTROL Settings]** a destra.
+   ![](assets/alignment_1.png)
 
-1. In **[!UICONTROL Vertical alignment]**, selezionare **[!UICONTROL Up]**.
+1. Dalla barra degli strumenti, fai clic su **[!UICONTROL Select a column]** e scegli quello da modificare. È inoltre possibile selezionarlo dalla struttura ad albero.
 
-   Il componente contenuto viene visualizzato sopra la colonna .
+   I parametri modificabili per quella colonna vengono visualizzati nel menu **[!UICONTROL Column settings]** .
+
+   ![](assets/alignment_2.png)
+
+1. In **[!UICONTROL Vertical alignment]**, selezionare **[!UICONTROL Bottom]**.
+
+   Il componente contenuto si sposta nella parte inferiore della colonna.
+
+   ![](assets/alignment_3.png)
 
 1. Alla voce **[!UICONTROL Padding]**, definisci la spaziatura superiore all’interno della colonna. Fai clic sull’icona Blocca per interrompere la sincronizzazione con la spaziatura inferiore.
 
    Definisci la spaziatura sinistra e destra per la colonna.
+
+   ![](assets/alignment_4.png)
 
 1. Procedi in modo simile per regolare l’allineamento e la spaziatura delle altre colonne.
 
@@ -238,13 +247,25 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
 È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in E-mail Designer.
 
-1. In un componente in cui viene inserito un collegamento, seleziona il testo dell’etichetta del collegamento.
+1. In un testo **[!UICONTROL Content component]** in cui viene inserito un collegamento, seleziona il collegamento.
 
-1. Nelle impostazioni del componente, seleziona **[!UICONTROL Underline link]** per sottolineare il testo dell’etichetta del collegamento.
+1. Nel menu **[!UICONTROL Component settings]** , seleziona **[!UICONTROL Underline link]** per sottolineare il testo dell’etichetta del collegamento.
 
-1. Per selezionare il contesto di navigazione in cui verrà aperto il collegamento, seleziona un **[!UICONTROL Target]**.
+   ![](assets/link_1.png)
+
+1. Scegli come verrà reindirizzato il pubblico con il menu a discesa **[!UICONTROL Target]** :
+
+   * **[!UICONTROL None]**: apre il collegamento nello stesso frame in cui è stato fatto clic (impostazione predefinita).
+   * **[!UICONTROL Blank]**: apre il collegamento in una nuova finestra o scheda.
+   * **[!UICONTROL Self]**: apre il collegamento nello stesso frame in cui è stato fatto clic.
+   * **[!UICONTROL Parent]**: apre il collegamento nel frame principale.
+   * **[!UICONTROL Top]**: apre il collegamento nel corpo completo della finestra.
+
+   ![](assets/link_2.png)
 
 1. Per modificare il colore del collegamento, fai clic su **[!UICONTROL Link color]**.
+
+   ![](assets/link_3.png)
 
 1. Scegli il colore di cui hai bisogno.
 
