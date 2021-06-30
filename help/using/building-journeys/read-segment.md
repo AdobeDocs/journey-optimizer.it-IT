@@ -1,13 +1,13 @@
 ---
 title: Utilizzare un segmento in un percorso
 description: Scopri come utilizzare un segmento in un percorso
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,9 @@ Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot
 
 >[!NOTE]
 >
->Non è possibile attivare un percorso basato su segmenti in un arco temporale più breve di 1 ora.
->
 >Il componente aggiuntivo Burst paid consente l’invio molto rapido di messaggi push in grandi volumi per percorsi semplici che includono un segmento di lettura e un semplice messaggio push. Per ulteriori informazioni, consulta [questa sezione](../building-journeys/journey-gs.md#burst)
 
-### Configura l&#39;attività {#configuring-segment-trigger-activity}
+### Configurare l’attività {#configuring-segment-trigger-activity}
 
 I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
@@ -62,7 +60,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](../assets/read-segment-schedule.png)
 
-   Per impostazione predefinita, i segmenti immettono il percorso **[!UICONTROL As soon as possible]**, ovvero 1 ora dopo la pubblicazione del percorso. Se desideri che il segmento immetta il percorso in una data/ora specifica o su base ricorrente, seleziona il valore desiderato dall’elenco.
+   Per impostazione predefinita, i segmenti immettono il percorso **[!UICONTROL As soon as possible]**. Se desideri che il segmento immetta il percorso in una data/ora specifica o su base ricorrente, seleziona il valore desiderato dall’elenco.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ Una volta eseguito il test, il pulsante **[!UICONTROL Show logs]** ti consente d
 Una volta completati i test, puoi pubblicare il percorso (consulta [Pubblicazione del percorso](publishing-the-journey.md)). Gli individui appartenenti al segmento entreranno nel percorso alla data/ora specificata nella sezione delle proprietà del percorso **[!UICONTROL Scheduler]** .
 
 >[!NOTE]
->
->Quando viene eseguito un percorso basato su segmenti che non è ricorrente (&quot;a partire dal più presto possibile&quot; o &quot;una volta&quot;), il suo stato viene automaticamente modificato in &quot;chiuso&quot;.
 >
 >Per i percorsi ricorrenti basati su segmenti, il percorso si chiude automaticamente una volta eseguita l’ultima occorrenza. Se non è stata specificata alcuna data/ora di fine, è necessario chiudere manualmente il percorso alle nuove entrate per terminarlo.
 
