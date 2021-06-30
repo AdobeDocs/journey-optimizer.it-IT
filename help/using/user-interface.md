@@ -5,10 +5,10 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 76%
+source-wordcount: '1193'
+ht-degree: 74%
 
 ---
 
@@ -154,7 +154,7 @@ Nella maggior parte degli elenchi, una barra di ricerca consente di cercare un e
 
 Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli che hai creato oppure quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
 
-Nell’elenco, puoi filtrare i percorsi in base al loro stato e alla loro versione mediante l’opzione **[!UICONTROL Status and version filters]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un dato evento, un gruppo di campi o un’azione particolare con le opzioni **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md).
+Nell’elenco dei percorsi, è possibile filtrare i percorsi in base al loro stato, tipo e versione da **[!UICONTROL Status and version filters]**. Il tipo può essere: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un dato evento, un gruppo di campi o un’azione particolare con le opzioni **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
