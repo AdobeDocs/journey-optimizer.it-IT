@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
+source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,11 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, le protezioni t
 
 ## Limitazione{#capping}
 
-L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno. In precedenza, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una regola di limitazione in modo che il sistema non saturi.
+L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno.
+
+Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per inserire in una whitelist l’endpoint. Ciò non è possibile per le fonti di dati esterne pubbliche.
+
+Per le azioni personalizzate, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una regola di limitazione in modo che il sistema non saturi.
 
 Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ). In fase di runtime, Journey Optimizer verifica se è definita una regola di limitazione e applica la velocità definita durante le chiamate a tale endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e sono conteggiate come errori nel reporting.
 
@@ -64,7 +68,7 @@ Prendiamo ad esempio un timeout di 5 secondi.
    * Se uno dei tre tentativi ha esito positivo prima della fine dei 5 secondi, la chiamata viene eseguita e non si verifica alcun errore.
    * Se durante i nuovi tentativi viene raggiunta la fine della durata del timeout, la chiamata viene annullata e conteggiata come errore di timeout nel reporting.
 
-## Domande frequenti {#faq}
+## Domande frequenti{#faq}
 
 **Come posso configurare una regola di limitazione? Esiste una regola di limitazione predefinita?**
 
