@@ -5,10 +5,10 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 52%
+source-wordcount: '391'
+ht-degree: 47%
 
 ---
 
@@ -20,11 +20,13 @@ Con [!DNL Adobe Journey Optimizer] puoi importare contenuti di messaggi esistent
 
 In base all’organizzazione, puoi definire diversi tipi di utenti e concedere loro l’accesso a determinate funzionalità in base alle loro autorizzazioni.
 
-### Prerequisiti  {#cjm-prerequisites}
+### Prerequisiti {#cjm-prerequisites}
 
 Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], è necessario:
 
 * **Impostare le autorizzazioni** utente: accedi a  [!DNL Adobe Journey Optimizer] e concedi l&#39;accesso ai membri del tuo team. [Ulteriori informazioni](../using/administration/permissions.md)
+
+* **Distribuzione[!DNL Adobe Experience Manager Assets Essentials]**: per gestire le risorse e le immagini nei messaggi, devi distribuire  [!DNL Assets Essentials] per la tua organizzazione e assicurati di far parte dei profili di prodotto  **Assets Essentials Consumer** User/e  **Assets Essentials** UsersProduct . [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **Configura i canali**: definisci le impostazioni delle notifiche e-mail e push. [Ulteriori informazioni](../using/configuration/get-started-configuration.md)
 
