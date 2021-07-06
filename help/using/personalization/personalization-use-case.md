@@ -5,9 +5,9 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 1. Seleziona la categoria **Contesto** . Questo elemento è disponibile solo se un percorso ha trasmesso dati contestuali al messaggio. Fare clic su **Journey Orchestration**. Vengono visualizzate le seguenti informazioni contestuali:
 
    * **Eventi**: questa categoria raggruppa tutti i campi degli eventi posizionati prima dell’attività  **** Messaggio nel percorso.
-   * **Proprietà** percorso: i campi tecnici relativi al percorso per un determinato profilo, ad esempio l’ID percorso o gli errori specifici rilevati. Consulta la [documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys).
+   * **Proprietà** percorso: i campi tecnici relativi al percorso per un determinato profilo, ad esempio l’ID percorso o gli errori specifici rilevati. Ulteriori informazioni sono disponibili nella documentazione [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
 
    ![](assets/perso-uc10.png)
 
