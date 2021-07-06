@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Questa guida per gli sviluppatori descrive i passaggi necessari per iniziare a utilizzare l’ API [!DNL Offer Library] . La guida fornisce quindi un esempio di chiamate API per eseguire operazioni chiave utilizzando il modulo di gestione delle decisioni.
 
-![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Prerequisiti
 
