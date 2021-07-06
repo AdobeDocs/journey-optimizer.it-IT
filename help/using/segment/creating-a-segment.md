@@ -1,13 +1,13 @@
 ---
 title: Creare un segmento
 description: Scopri come creare segmenti
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 6%
 
 ---
@@ -53,3 +53,7 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 1. Quando il segmento è pronto, fai clic su **[!UICONTROL Save]**. Viene visualizzato nell’elenco dei segmenti di Adobe Experience Platform. È disponibile una barra di ricerca per facilitare la ricerca di un segmento specifico nell’elenco.
 
 Il segmento può ora essere utilizzato nei percorsi. Per ulteriori informazioni al riguardo, consulta [questa sezione](../segment/about-segments.md).
+
+## Video tutorial{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
