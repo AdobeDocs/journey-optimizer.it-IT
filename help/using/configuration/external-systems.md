@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Prendiamo ad esempio un timeout di 5 secondi.
 
 Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fare riferimento a [questa sezione](../configuration/external-systems.md#capping) e [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
 
-**Quanti tentativi vengono eseguiti? Posso cambiare il numero di nuovi tentativi o definire un periodo di attesa minimo tra i tentativi?**
+**Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra i tentativi?**
 
 Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi dopo la prima chiamata, fino a quando la durata di timeout non viene raggiunta. Impossibile modificare il numero di tentativi e l&#39;intervallo di tempo tra ogni nuovo tentativo. Fai riferimento a [questa sezione](../configuration/external-systems.md#timeout).
 
