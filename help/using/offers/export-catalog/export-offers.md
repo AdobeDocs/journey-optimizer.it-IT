@@ -5,9 +5,9 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
       **Campo:** id
       **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
       **Tipo:** stringa
-      **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Esempio:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **nome**
 
@@ -193,7 +193,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** profileConstraints 
 **Titolo:** Dettagli vincolo di profilo 
-**Descrizione:** i vincoli di profilo decidono se un’opzione è idonea per questa identità di profilo, in questo momento, in questo contesto. Se il vincolo di profilo non deve considerare i valori di ciascuna opzione, ovvero non è necessariamente una delle opzioni della selezione dell’opzione, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D’altro canto, viene valutata una regola di vincolo di profilo che utilizza un’opzione come parametro per ogni opzione di qualificazione della selezione dell’opzione.
+**Descrizione:** i vincoli di profilo decidono se un’opzione è idonea per questa identità di profilo, in questo momento, in questo contesto. Se il vincolo di profilo non deve considerare i valori di ciascuna opzione, ovvero non è necessariamente una delle opzioni della selezione dell’opzione, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D&#39;altra parte, viene valutata una regola di vincolo di profilo che utilizza un&#39;opzione come parametro per ogni opzione di qualificazione della selezione di opzione.
 **Tipo:** oggetto
 
 **_esperienza > decisionale > profileConstraints > Descrizione**
@@ -214,7 +214,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** profileConstraintType 
 **Titolo:** Tipo di vincolo del profilo 
-**Descrizione:** determina se sono attualmente impostati dei vincoli e come vengono espressi i contrasti. Potrebbe essere attraverso una regola o attraverso una o più appartenenze al segmento.
+**Descrizione:** determina se sono attualmente impostati dei vincoli e come vengono espressi i vincoli. Potrebbe essere attraverso una regola o attraverso una o più appartenenze al segmento.
 **Tipo:** stringa 
 **Valori possibili:**
 * &quot;none&quot; (predefinito)
@@ -299,7 +299,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** titolo prioritario 
 **Titolo:** Priorità 
-**Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non è specificata alcuna funzione di ordine hanno priorità utilizzando questa proprietà. Le opzioni con valori di priorità più elevati vengono selezionate prima di qualsiasi opzione di priorità più bassa. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale uniforme e utilizzata per la proposta di decisione.
+**Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non viene specificata alcuna funzione di ordine vengono definite come priorità utilizzando questa proprietà. Le opzioni con valori di priorità più elevati vengono selezionate prima di qualsiasi opzione di priorità più bassa. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale uniforme e utilizzata per la proposta di decisione.
 **Tipo:** integer 
 **Valore minimo:** 0 
 **Valore predefinito:** 0
