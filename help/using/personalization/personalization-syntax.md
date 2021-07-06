@@ -5,10 +5,10 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Esempio di espressione semplice:
 dove:
 
 * `profile` è uno spazio dei nomi.
-* `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
+* `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Regole generali sulla sintassi
 
@@ -45,7 +45,7 @@ In Handlebars, i valori restituiti da {{expression}} sono **HTML-escape**. Se l&
 
 ## Profilo
 
-Questo spazio dei nomi ti consente di fare riferimento a tutti gli attributi definiti nello schema del profilo descritto nella documentazione [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Questo spazio dei nomi ti consente di fare riferimento a tutti gli attributi definiti nello schema del profilo descritto nella documentazione [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 Gli attributi devono essere definiti nello schema prima di essere referenziati in un blocco di personalizzazione [!DNL Journey Optimizer].
 
