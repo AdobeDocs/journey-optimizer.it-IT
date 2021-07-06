@@ -5,9 +5,9 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ Con [!DNL Journey Optimizer] puoi impostare i predefiniti per messaggi che defin
 
 Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dall’elenco **[!UICONTROL Presets]** .
 
-## Creare un predefinito messaggio {#create-message-preset}
+![](../assets/do-not-localize/how-to-video.png) [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
+
+## Creare un predefinito per messaggi {#create-message-preset}
 
 Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
@@ -148,3 +150,8 @@ Per modificare un predefinito per messaggi, devi prima disattivarlo per renderlo
    >
    >I predefiniti per messaggi disattivati non possono essere eliminati per evitare problemi nei percorsi che utilizzano questi predefiniti per inviare messaggi.
 
+## Video introduttivo{#video-presets}
+
+Scopri come creare i predefiniti per messaggi, come utilizzarli e come delegare un sottodominio e creare un pool IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
