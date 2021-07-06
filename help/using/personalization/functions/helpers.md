@@ -1,19 +1,19 @@
 ---
-title: Helper
-description: Helper
+title: Assistenza
+description: Assistenza
 feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
-# Helper {#gs-helpers}
+# Assistenza {#gs-helpers}
 
 ## Condizioni{#if-function}
 
@@ -70,7 +70,7 @@ L’istruzione `elseif` specifica una nuova condizione per eseguire il test se l
 
 1. **Aggiungere un collegamento condizionale**
 
-   La seguente operazione aggiunge un collegamento al sito web &quot;www.adobe.com/academia&#39;&quot; per i profili con indirizzi e-mail solo &#39;.edu&#39;, al sito web &quot;www.adobe.com/org&#39; per i profili con indirizzi e-mail &#39;.org&quot; e all’URL predefinito &quot;www.adobe.com/users&#39;&quot; per tutti gli altri profili:
+   La seguente operazione aggiunge un collegamento al sito web &quot;www.adobe.com/academia&#39;&quot; per i profili con solo indirizzi e-mail &quot;.edu&quot;, al sito web &quot;www.adobe.com/org&#39; per profili con indirizzi e-mail &quot;.org&quot; e all’URL predefinito &quot;www.adobe.com/users&#39;&quot; per tutti gli altri profili:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
