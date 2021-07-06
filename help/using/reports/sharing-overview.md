@@ -1,11 +1,11 @@
 ---
 title: Panoramica sulla condivisione delle fasi del percorso
 description: Panoramica sulla condivisione delle fasi del percorso
-feature: Reporting
+feature: Generazione rapporti
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 7%
@@ -18,7 +18,7 @@ Oltre ai [rapporti in tempo reale](live-report.md) e alle funzionalità di repor
 
 >[!NOTE]
 >
->Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi dei passaggi del profilo di percorso, l&#39;attivazione avviene su richiesta. Gli schemi e i set di dati creati durante il provisioning per questa funzione non devono essere modificati.
+>Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi delle fasi del profilo di percorso, l’attivazione avviene su richiesta. Gli schemi e i set di dati creati durante il provisioning per questa funzione non devono essere modificati.
 
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità ti consente di combinare i dati [!DNL Journey Optimizer] con i dati evento a valle, come il numero di conversioni avvenute, il livello di coinvolgimento sul sito web o quante transazioni sono avvenute nello store. Le informazioni sul percorso possono essere combinate con i dati su Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline per fornire una visione più completa delle prestazioni.
 
@@ -46,16 +46,16 @@ Vengono passati i seguenti set di dati:
 
 * Schema evento del profilo del passaggio del percorso per [!DNL Journey Orchestration]
 * Eventi percorso
-* Journeys
+* Percorsi
 
 ![](../assets/sharing3.png)
 
 Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti in dettaglio qui:
 
 * [Campi comuni degli eventi journeySteps](../reports/sharing-common-fields.md)
-* [Campi di esecuzione azione degli eventi journeyStep](../reports/sharing-execution-fields.md)
-* [Campi di recupero dati di journeyStep](../reports/sharing-fetch-fields.md)
-* [Campi di identità dell’evento di journeyStep](../reports/sharing-identity-fields.md)
-* [Campi del percorso](../reports/sharing-journey-fields.md)
+* [Campi di esecuzione dell’azione eventi journeyStep](../reports/sharing-execution-fields.md)
+* [Campi di recupero dati di eventi journeyStep](../reports/sharing-fetch-fields.md)
+* [Campi di identità dell’evento journeyStep](../reports/sharing-identity-fields.md)
+* [campi del percorso](../reports/sharing-journey-fields.md)
 
 Per ulteriori informazioni sugli eventi dei passaggi che inviano rapporti a Adobe Experience Platform, guarda questo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
