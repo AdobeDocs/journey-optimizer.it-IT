@@ -5,7 +5,7 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Una volta eseguito il test, il pulsante **[!UICONTROL Show logs]** ti consente d
 
    ![](../assets/read-segment-log.png)
 
-Una volta completati i test, puoi pubblicare il percorso (consulta [Pubblicazione del percorso](publishing-the-journey.md)). Gli individui appartenenti al segmento entreranno nel percorso alla data/ora specificata nella sezione delle proprietà del percorso **[!UICONTROL Scheduler]** .
+Una volta eseguiti i test, puoi pubblicare il percorso (consulta [Pubblicazione del percorso](publishing-the-journey.md)). Gli individui appartenenti al segmento entreranno nel percorso alla data/ora specificata nella sezione delle proprietà del percorso **[!UICONTROL Scheduler]** .
 
 >[!NOTE]
 >
