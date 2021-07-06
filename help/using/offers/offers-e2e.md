@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 4%
@@ -131,7 +131,7 @@ Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro off
 
    ![](../assets/offers-e2e-representations.png)
 
-1. Nella sezione **[!UICONTROL Offer eligiblity]** , seleziona **[!UICONTROL By defined decision rule]** e trascina e rilascia la regola desiderata.
+1. Nella sezione **[!UICONTROL Offer eligibility]** , seleziona **[!UICONTROL By defined decision rule]** e trascina e rilascia la regola desiderata.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -186,7 +186,7 @@ Quando configuri la decisione, dovrai aggiungere le offerte personalizzate come 
 
 I passaggi dettagliati per la creazione di una raccolta sono descritti in [questa sezione](../../using/offers/offer-library/creating-collections.md).
 
-## Configura la decisione {#configure-decision}
+## Configurare la decisione {#configure-decision}
 
 Ora devi creare una decisione che combini i posizionamenti con le offerte personalizzate e l’offerta di fallback appena creata.
 
@@ -220,7 +220,7 @@ La tua decisione è ora pronta per essere utilizzata per fornire offerte ottimiz
 
 I passaggi dettagliati per la creazione e la configurazione di una decisione sono descritti in [questa sezione](../../using/offers/offer-activities/create-offer-activities.md).
 
-## Inserisci la decisione in un messaggio e-mail {#insert-decision-in-email}
+## Inserire la decisione in un messaggio e-mail {#insert-decision-in-email}
 
 Ora che la tua decisione è attiva, puoi inserirla in un messaggio e-mail. A questo scopo, segui i passaggi riportati qui sotto:
 
