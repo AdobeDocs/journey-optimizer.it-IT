@@ -5,10 +5,10 @@ feature: Monitoraggio
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 1%
+source-wordcount: '507'
+ht-degree: 0%
 
 ---
 
@@ -87,6 +87,6 @@ Per ogni esecuzione del messaggio, vengono visualizzati diversi indicatori:
 
 * **[!UICONTROL Errors]**: Numero di messaggi che non possono essere inviati a causa di un errore tecnico.
 
-* **[!UICONTROL Spam complaints]**: Numero di messaggi contrassegnati come spam dai destinatari. [Ulteriori informazioni sui reclami](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam complaints]**: Numero di messaggi contrassegnati come spam dai destinatari. Per ulteriori informazioni sui reclami, consulta la [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Facendo clic su ogni collegamento ipertestuale si aprirà la visualizzazione di riepilogo del messaggio corrispondente. [Ulteriori informazioni sui messaggi](create-message.md).
