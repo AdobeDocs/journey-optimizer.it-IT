@@ -5,7 +5,7 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 12%
