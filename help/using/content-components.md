@@ -5,9 +5,9 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
@@ -115,7 +115,7 @@ Utilizza il componente **[!UICONTROL Image]** per inserire un file immagine dal 
 
 1. Fai clic su **[!UICONTROL Browse]** per scegliere un file di immagine dalle risorse.
 
-   Per ulteriori informazioni su [!DNL Assets Essentials], consulta la [documentazione Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+   Per ulteriori informazioni su [!DNL Assets Essentials], consulta la [documentazione Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 1. Fai clic sul componente appena aggiunto per iniziare a configurare il **[!UICONTROL Content Components]** e per accedere al **[!UICONTROL Components Settings]** nel riquadro a destra di e-mail designer.
 
@@ -176,7 +176,7 @@ Utilizza il componente **[!UICONTROL Social]** per inserire collegamenti alle pa
 
 1. Ora puoi personalizzare ulteriormente le icone dei social media modificando i valori **[!UICONTROL Style]**, **[!UICONTROL Margin]** e **[!UICONTROL Border]**.
 
-## Decisione offerta {#offer-decision}
+## Decisione di offerta {#offer-decision}
 
 Utilizza il componente **[!UICONTROL Offer decision]** per inserire nei messaggi le decisioni (precedentemente note come attività di offerta). Decisioni sfrutterà la Gestione delle decisioni per scegliere l&#39;offerta migliore da consegnare ai tuoi clienti.
 
