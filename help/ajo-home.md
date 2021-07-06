@@ -5,14 +5,14 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 23120835969006b3c8004b8cd89c4a9ab976760a
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 37%
 
 ---
 
-# Adobe [!DNL Journey Optimizer]Documentazione {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer] Documentazione {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -67,16 +67,24 @@ ht-degree: 37%
     <p>
     <p>
     <div>
+    <li>
       <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Descrizione del prodotto Adobe Journey Optimizer</a>
+    </li>
     </div>
     <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it">Documentazione di Adobe Experience Platform</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it">Panoramica sull’accesso ad Adobe Experience Platform</a>
+    </li>
     </div>
       <div>
+      <li>
       <a href="https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html">Risorse per sviluppatori di Adobe Experience Platform</a>
+    </li>
     </div>
   </td>
    <td>
