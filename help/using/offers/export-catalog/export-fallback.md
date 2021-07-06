@@ -5,14 +5,14 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
 
-# Il fallback offre il set di dati {#fallback-dataset}
+# Set di dati di offerte di fallback {#fallback-dataset}
 
 Ogni volta che un’offerta viene modificata, viene aggiornato il set di dati generato automaticamente per le offerte di fallback.
 
@@ -105,7 +105,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
       **Campo:** id
       **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
       **Tipo:** stringa
-      **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Esempio:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **nome**
 
