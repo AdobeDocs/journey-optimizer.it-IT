@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Per selezionare i profili di test, segui i passaggi seguenti:
 
    ![](assets/previewselect-namespace.png)
 
-   Ulteriori informazioni sui namespace di identità Adobe Experience Platform [in questa sezione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+   Ulteriori informazioni sugli spazi dei nomi delle identità Adobe Experience Platform [in questa sezione](get-started-identity.md){target=&quot;_blank&quot;}.
 
    Nell’esempio seguente, utilizzeremo lo spazio dei nomi **Email** .
 
