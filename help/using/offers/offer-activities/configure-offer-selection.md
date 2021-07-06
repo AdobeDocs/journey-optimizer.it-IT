@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -44,4 +44,4 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 La formula di classificazione è ora associata al posizionamento.
 
-Se più offerte possono essere presentate in questo posizionamento, la decisione utilizzerà la formula della classificazione per calcolare quale offerta distribuire per prima.
+Se più offerte sono idonee per essere presentate in questo posizionamento, la decisione utilizzerà la formula della classificazione per calcolare quale offerta distribuire per prima.
