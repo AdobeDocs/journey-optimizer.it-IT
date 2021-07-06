@@ -5,7 +5,7 @@ feature: Eventi
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 14%
@@ -99,7 +99,7 @@ La definizione del payload ti consente di scegliere le informazioni che il siste
 
    ![](../assets/journey12.png)
 
-## Seleziona lo spazio dei nomi {#select-the-namespace}
+## Selezionare lo spazio dei nomi {#select-the-namespace}
 
 Lo spazio dei nomi ti consente di definire il tipo di chiave utilizzata per identificare la persona associata all’evento. La configurazione è facoltativa. È richiesto se desideri recuperare, nei tuoi percorsi, informazioni aggiuntive provenienti dal [Profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html). La definizione dello spazio dei nomi non è necessaria se utilizzi solo dati provenienti da un sistema di terze parti tramite un’origine dati personalizzata.
 
