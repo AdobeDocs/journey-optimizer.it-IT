@@ -1,13 +1,13 @@
 ---
 title: Creare un profilo di test
 description: Scopri come creare un profilo di test
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,11 @@ I metodi disponibili per creare i profili di test sono descritti di seguito:
 
 * Puoi creare un profilo di test caricando un [file csv](#create-test-profiles-csv) o utilizzando [chiamate API](#create-test-profiles-api). Oltre a questi due metodi, Adobe Journey Optimizer viene fornito con un [caso d’uso interno al prodotto](#use-case-1) specifico per facilitare la creazione del profilo di test.
 
-* Puoi anche caricare un file json in un set di dati. Per ulteriori informazioni, consulta la [documentazione sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+* Puoi anche caricare un file json in un set di dati. Per ulteriori informazioni, consulta la [documentazione sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
-La creazione di un profilo di test è simile alla creazione di profili normali in Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+La creazione di un profilo di test è simile alla creazione di profili normali in Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
-## Prerequisiti  {#test-profile-prerequisites}
+## Prerequisiti {#test-profile-prerequisites}
 
 Per poter creare profili, devi innanzitutto creare uno schema e un set di dati nell’Adobe [!DNL Journey Optimizer].
 
@@ -59,7 +59,7 @@ Al termine, fai clic su  **[!UICONTROL Add field groups]**: l’elenco dei grupp
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla creazione dello schema, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
+>Per ulteriori informazioni sulla creazione dello schema, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}.
 
 Quindi devi **creare il set di dati** in cui i profili verranno importati. Segui questi passaggi:
 
@@ -76,9 +76,9 @@ Quindi devi **creare il set di dati** in cui i profili verranno importati. Segui
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione dei set di dati, consulta la [documentazione Servizio catalogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started).
+> Per ulteriori informazioni sulla creazione dei set di dati, consulta la [documentazione del servizio catalogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-## Caso d&#39;uso interno al prodotto{#use-case-1}
+## Caso di utilizzo interno al prodotto{#use-case-1}
 
 Dalla home page di Adobe Journey Optimizer, puoi sfruttare il caso d’uso dei profili di test nel prodotto. Questo caso d’uso facilita la creazione di profili di test utilizzati per i percorsi di test prima della pubblicazione.
 
@@ -88,7 +88,7 @@ Fai clic sul pulsante **[!UICONTROL Begin]** per avviare il caso d’uso.
 
 Sono necessarie le seguenti informazioni:
 
-1. **Spazio dei nomi** identità: Lo spazio dei  [nomi ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) di identità utilizzato per identificare in modo univoco i profili di test. Ad esempio, se utilizzi l’e-mail per identificare i profili di test, devi selezionare lo spazio dei nomi identità **E-mail**. Se l&#39;identificatore univoco è il numero di telefono, deve essere selezionato lo spazio dei nomi identità **Telefono**.
+1. **Spazio dei nomi** identità: Lo spazio dei  [nomi ](../get-started-identity.md) di identità utilizzato per identificare in modo univoco i profili di test. Ad esempio, se utilizzi l’e-mail per identificare i profili di test, devi selezionare lo spazio dei nomi identità **E-mail**. Se l&#39;identificatore univoco è il numero di telefono, deve essere selezionato lo spazio dei nomi identità **Telefono**.
 
 2. **File** CSV: Un file separato da virgole contenente l’elenco dei profili di test da creare. Il caso d’uso richiede un formato predefinito per il file CSV che contiene l’elenco dei profili di test da creare. Ciascuna riga del file deve includere i campi seguenti nell’ordine corretto, come segue:
 
@@ -106,7 +106,7 @@ Dopo aver selezionato lo spazio dei nomi dell&#39;identità e aver fornito il fi
 >
 >I profili di test possono sostituire i profili esistenti. Prima di eseguire il caso d’uso, accertati che il CSV contenga solo profili di test e che venga eseguito rispetto alla sandbox corretta.
 
-## Trasforma un profilo in un profilo di test{#turning-profile-into-test}
+## Trasformare un profilo in un profilo di test{#turning-profile-into-test}
 
 Puoi trasformare un profilo esistente in un profilo di test: puoi aggiornare gli attributi dei profili nello stesso modo in cui crei un profilo.
 
@@ -171,11 +171,11 @@ In Adobe Experience Platform, puoi creare profili caricando un file csv contenen
 I profili di test vengono aggiunti e possono ora essere utilizzati durante il test di un percorso. Fai riferimento a [questa sezione](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull’ acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials).
+> Per ulteriori informazioni sulle importazioni CSV, consulta la [documentazione sull’ acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}.
 
 ## Creare profili di test utilizzando le chiamate API{#create-test-profiles-api}
 
-Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni in questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni sono disponibili nella documentazione di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 Devi utilizzare uno schema di profilo che contenga il gruppo di campi &quot;Dettagli del test di profilo&quot;. Il flag testProfile fa parte di questo gruppo di campi.
 Quando crei un profilo, accertati di trasmettere il valore: testProfile = true.
