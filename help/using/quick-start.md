@@ -5,10 +5,10 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 42%
+source-wordcount: '403'
+ht-degree: 41%
 
 ---
 
@@ -26,7 +26,7 @@ Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], è necessario:
 
 * **Impostare le autorizzazioni** utente: accedi a  [!DNL Adobe Journey Optimizer] e concedi l&#39;accesso ai membri del tuo team. [Ulteriori informazioni](../using/administration/permissions.md)
 
-* **Distribuzione[!DNL Adobe Experience Manager Assets Essentials]**: per gestire le risorse e le immagini nei messaggi, devi distribuire  [!DNL Assets Essentials] per la tua organizzazione e accertarti che gli utenti, che necessitano dell’accesso a  [!DNL Assets Essentials], facciano parte dei profili di prodotto  **Assets Essentials Consumer** User/e  **Assets Essentials** UsersProduct . [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Distribuzione[!DNL Adobe Experience Manager Assets Essentials]**: per gestire le risorse e le immagini nei messaggi, devi distribuire  [!DNL Assets Essentials] per la tua organizzazione e accertarti che gli utenti, che necessitano dell’accesso a  [!DNL Assets Essentials], facciano parte dei profili di prodotto  **Assets Essentials Consumer** User/e  **Assets Essentials** UsersProduct . [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **Configura i canali**: definisci le impostazioni delle notifiche e-mail e push. [Ulteriori informazioni](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], è necessario:
 
 * **Identificare i dati e creare schemi e set di dati**: inserisci i dati in Adobe Experience Platform, crea uno spazio dei nomi identità e un set di dati abilitati per i profili, crea segmenti e verifica i profili.
 
-   * Scopri come visualizzare in anteprima e creare un set di dati nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it)
+   * Scopri come visualizzare in anteprima e creare un set di dati nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it){target=&quot;_blank&quot;}
 
-   * Scopri come creare uno spazio dei nomi delle identità nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it#manage-namespaces)
+   * Scopri come creare uno spazio dei nomi di identità nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it#manage-namespaces){target=&quot;_blank&quot;}
 
    * Scopri come creare profili di test in [questa pagina](../using/building-journeys/creating-test-profiles.md)
 
-   * Ulteriori informazioni sull&#39;acquisizione dei dati nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it)
+   * Ulteriori informazioni sull&#39;acquisizione dei dati nella documentazione di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}
 
 
 ### Flusso di utilizzo
