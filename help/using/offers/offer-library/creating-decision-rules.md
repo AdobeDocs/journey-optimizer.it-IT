@@ -5,10 +5,10 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
 1. Denomina la regola e fornisci una descrizione, quindi configura la regola in base alle tue esigenze.
 
-   A questo scopo, è disponibile il **Generatore di segmenti** di Adobe Experience Platform per aiutarti a creare le condizioni della regola. Per ulteriori informazioni su come utilizzarlo, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   A questo scopo, le schede **Generatore di segmenti** sono disponibili per aiutarti a creare le condizioni della regola. [Ulteriori informazioni](../../segment/about-segments.md)
 
    In questo esempio, la regola eseguirà il targeting dei clienti con il livello di fedeltà &quot;Gold&quot;.
 
