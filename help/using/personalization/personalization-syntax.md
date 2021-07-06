@@ -5,7 +5,7 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 5%
@@ -107,7 +107,7 @@ Tutti i riferimenti vengono convalidati rispetto allo schema delle offerte con u
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Contenuto testuale dell’offerta proveniente dal motore decisionale:
+* Contenuto testo dell’offerta proveniente dal motore decisionale:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -116,7 +116,7 @@ Tutti i riferimenti vengono convalidati rispetto allo schema delle offerte con u
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Helpers{#helpers-all}
+## Assistenza{#helpers-all}
 
 Un helper Handlebars è un identificatore semplice che può essere seguito da parametri.
 Ogni parametro è un&#39;espressione Handlebars. È possibile accedere a questi helper da qualsiasi contesto in un modello.
