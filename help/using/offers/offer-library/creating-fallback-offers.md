@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 L’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte. I passaggi per creare un’offerta di fallback consistono nella creazione di una o più rappresentazioni, ad esempio durante la creazione di un’offerta.
 
-![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 L’elenco delle offerte di fallback è accessibile nel menu **[!UICONTROL Offers]** .
 
