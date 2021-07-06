@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 1%
@@ -114,7 +114,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** profileConstraints 
 **Titolo:** 
-**Descrizione vincolo profilo:** il vincolo di profilo decide se una selezione di opzione è idonea per questa identità di profilo in questo momento, in questo contesto. Se il vincolo di profilo non deve considerare i valori di ciascuna opzione, ovvero non è necessariamente una delle opzioni della selezione dell’opzione, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D’altro canto, viene valutata una regola di vincolo di profilo che utilizza un’opzione come parametro per ogni opzione di qualificazione della selezione dell’opzione.
+**Descrizione vincolo profilo:** il vincolo di profilo decide se una selezione di opzione è idonea per questa identità di profilo in questo momento, in questo contesto. Se il vincolo di profilo non deve considerare i valori di ciascuna opzione, ovvero non è necessariamente una delle opzioni della selezione dell’opzione, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D&#39;altra parte, viene valutata una regola di vincolo di profilo che utilizza un&#39;opzione come parametro per ogni opzione di qualificazione della selezione di opzione.
 **Tipo:** oggetto
 
 * **_esperienza > decisioni > criteri > profileConstraints > Descrizione**
@@ -220,7 +220,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
    **Campo:** priorità
    **Titolo:** Priorità
-   **Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non è specificata alcuna funzione di ordine hanno priorità utilizzando questa proprietà. Le opzioni con valori di priorità più elevati vengono selezionate prima di qualsiasi opzione di priorità più bassa. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale uniforme e utilizzata per la proposta di decisione.
+   **Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non viene specificata alcuna funzione di ordine vengono definite come priorità utilizzando questa proprietà. Le opzioni con valori di priorità più elevati vengono selezionate prima di qualsiasi opzione di priorità più bassa. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale uniforme e utilizzata per la proposta di decisione.
    **Tipo:** integer
    **Valore minimo:** 0
    **Valore predefinito:** 0
