@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 98%
       + [Creare contenuti e-mail nell’interfaccia utente](using/create-email-content.md)
       + [Importare o codificare il contenuto delle e-mail](using/existing-content.md)
       + [Utilizzare i componenti di contenuto di e-mail designer](using/content-components.md)
+   + [Aggiungere collegamenti e tenere traccia dei messaggi](using/message-tracking.md)
    + Convalida e pubblicazione {#create-message}
       + [Anteprima e bozze](using/preview.md)
       + [Controllare gli avvisi](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 98%
    + [Introduzione con personalizzazione](using/personalization/personalize.md)
    + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
    + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
-   + [Caso di utilizzo: aggiungere la personalizzazione in una notifica push](using/personalization/personalization-use-case.md)
+   + Casi d’uso{#personalization-use-cases}
+      + [Notifica dello stato dell&#39;ordine](using/personalization/personalization-use-case.md)
+      + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Funzioni assistenza{#functions}
       + [Elenco delle funzioni assistenza](using/personalization/functions/functions.md)
       + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 98%
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Tracciare e monitorare {#reporting}
-   + [Tracciamento dei messaggi](using/message-tracking.md)
    + [Monitoraggio dei messaggi](using/message-monitoring.md)
    + Report live {#live-report}
       + [Accedere al dashboard dei rapporti live](using/reports/live-report.md)
