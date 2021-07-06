@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 13%
@@ -18,7 +18,7 @@ Puoi creare regole decisionali per le offerte in base ai dati disponibili in Ado
 
 Ad esempio, puoi specificare che desideri che venga visualizzata solo “Offerta di abbigliamento invernale per le donne” quando (Genere = ‘Femmina’) e (Area geografica = ‘Nord Est’). 
 
-![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 L&#39;elenco delle regole decisionali create è accessibile nel menu **[!UICONTROL Components]**.
 
