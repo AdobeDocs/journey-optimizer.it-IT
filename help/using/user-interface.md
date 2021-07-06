@@ -5,9 +5,9 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1211'
 ht-degree: 74%
 
 ---
@@ -18,7 +18,7 @@ Una volta connesso a [Adobe Experience Cloud](http://experience.adobe.com), pass
 
 >[!NOTE]
 >
->* I concetti chiave durante la navigazione nell’interfaccia utente sono comuni a Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide) .
+>* I concetti chiave durante la navigazione nell’interfaccia utente sono comuni a Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
    >
    >
 * Questa documentazione viene spesso aggiornata per riflettere le ultime modifiche nell’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
@@ -61,31 +61,31 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]**: utilizza Adobe Experience Platform per creare e gestire gli schemi Experience Data Model (XDM) in un’area di lavoro visiva e interattiva, denominata Editor di schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it)
+* **[!UICONTROL Schemas]**: utilizza Adobe Experience Platform per creare e gestire gli schemi Experience Data Model (XDM) in un’area di lavoro visiva e interattiva, denominata Editor di schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Datasets]**: tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe). [Come visualizzare in anteprima e creare un set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it)
+* **[!UICONTROL Datasets]**: tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe). [Come visualizzare in anteprima e creare un set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Queries]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=it)
+* **[!UICONTROL Queries]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html?lang=it){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Monitoring]**: usa questo menu per monitorare l’inserimento dei dati nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it)
+* **[!UICONTROL Monitoring]**: usa questo menu per monitorare l’inserimento dei dati nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]**: utilizza questo menu per acquisire i dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e altro ancora, nonché per strutturare, etichettare e ottimizzare i dati in arrivo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it)
+* **[!UICONTROL Sources]**: utilizza questo menu per acquisire i dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e altro ancora, nonché per strutturare, etichettare e ottimizzare i dati in arrivo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target=&quot;_blank&quot;}
 
 **[!UICONTROL CUSTOMER]**
 
 * **[!UICONTROL Segments]**: crea e gestisci le definizioni dei segmenti di Experience Platform per utilizzarle nei tuoi percorsi. Per ulteriori informazioni, consulta [questa pagina](segment/about-segments.md).
 
-* **[!UICONTROL Profiles]**: la funzione Profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei singoli clienti, combinando dati provenienti da più canali tra cui dati online, offline, del sistema CRM e di terze parti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it)
+* **[!UICONTROL Profiles]**: la funzione Profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei singoli clienti, combinando dati provenienti da più canali tra cui dati online, offline, del sistema CRM e di terze parti. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Identities]**: il servizio Adobe Experience Platform Identity gestisce l’identificazione dei clienti in tempo reale, tra dispositivi e canali diversi, in quello che viene definito un grafico di identità in Adobe Experience Platform. [Scopri come creare uno spazio dei nomi delle identità](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it#manage-namespaces)
+* **[!UICONTROL Identities]**: il servizio Adobe Experience Platform Identity gestisce l’identificazione dei clienti in tempo reale, tra dispositivi e canali diversi, in quello che viene definito un grafico di identità in Adobe Experience Platform. [Scopri come creare uno spazio dei nomi delle identità](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it#manage-namespaces){target=&quot;_blank&quot;}
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey Administration]**: utilizza questo menu per configurare [eventi](event/about-events.md), [origini dati](datasource/about-data-sources.md) e [azioni](action/action.md) da utilizzare nei tuoi percorsi.
 
-* **[!UICONTROL Sandboxes]**: Adobe Experience Platform fornisce ambienti sandbox che permettono di suddividere una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. [Ulteriori informazioni sugli ambienti sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it)
+* **[!UICONTROL Sandboxes]**: Adobe Experience Platform fornisce ambienti sandbox che permettono di suddividere una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. [Ulteriori informazioni sugli ambienti sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}
 
 
 ## Casi di utilizzo all’interno del prodotto
