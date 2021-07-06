@@ -15,15 +15,15 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 9%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
 
-# Delega un sottodominio
+# Delegare un sottodominio
 
 La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) per delegare una sua suddivisione (tecnicamente: una zona DNS sotto di essa, che può essere chiamata sottozona) a un’altra entità. In sostanza, se un cliente gestisce la zona &quot;example.com&quot;, può delegare ad Adobe la sottozona &quot;marketing.example.com&quot; .
 
@@ -46,6 +46,10 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 1. Specifica il nome del sottodominio da delegare.
 
    ![](../assets/subdomain-name.png)
+
+   >[!CAUTION]
+   >
+   >Assicurati di aver inserito un sottodominio valido, ad esempio marketing.company.com. Delega di un sottodominio non valido ad Adobe non consentita.
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
@@ -73,7 +77,7 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 
    ![](../assets/subdomain-processing.png)
 
-1. Una volta completati i controlli, il sottodominio ottiene lo stato **[!UICONTROL Success]** . È pronto per essere utilizzato per inviare messaggi.
+1. Una volta eseguiti i controlli, il sottodominio ottiene lo stato **[!UICONTROL Success]** . È pronto per essere utilizzato per inviare messaggi.
 
    <!-- later on, users will be notified in Pulse -->
 
