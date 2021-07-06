@@ -1,14 +1,14 @@
 ---
 title: Risoluzione dei problemi del percorso
 description: Scopri come risolvere gli errori nei percorsi
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 86%
+source-wordcount: '1044'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +46,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 ## Verifica dell’accesso al percorso da parte delle persone{#section_x4v_zzs_dgb}
 
