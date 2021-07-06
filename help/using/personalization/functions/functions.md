@@ -5,7 +5,7 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 2%
@@ -75,7 +75,7 @@ Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono rag
         <td><a href="aggregation.md#max">Massimo</a></td><td>Questa funzione restituisce il valore più alto tra tutti i valori selezionati all'interno di una matrice</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset di</a></td><td>Questa funzione termina se un array specifico (array A) è un superset di un altro array (array B), ovvero se l'array A contiene tutti gli elementi dell'array B</td>
+    <td><a href="arrays-list.md#superset">Superset di</a></td><td>Questa funzione determina se un array specifico (array A) è un superset di un altro array (array B), ovvero se l'array A contiene tutti gli elementi dell'array B</td>
     </tr>
 </table>
 
