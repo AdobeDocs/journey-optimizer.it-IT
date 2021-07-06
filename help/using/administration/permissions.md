@@ -6,10 +6,10 @@ feature: Gruppi di controllo
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 18%
+source-wordcount: '726'
+ht-degree: 15%
 
 ---
 
@@ -101,7 +101,7 @@ Se necessario, puoi anche creare un nuovo profilo di prodotto con autorizzazioni
 
 [!DNL Journey Optimizer] consente di creare un set personalizzato  **[!UICONTROL Product profiles]** e di assegnare agli utenti un set di autorizzazioni e sandbox. Con **[!UICONTROL Product profiles]** puoi autorizzare o negare l’accesso a determinate funzionalità o oggetti nell’interfaccia.
 
-Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it).
+Per ulteriori informazioni su come creare e gestire le sandbox, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
 
 In questo esempio, creeremo un profilo di prodotto denominato **Percorsi in sola lettura** in cui concederemo diritti di sola lettura alla funzione Percorso. Gli utenti potranno accedere e visualizzare solo i percorsi e non potranno accedere ad altre funzioni quali **[!UICONTROL Decision management]** o **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
 
@@ -141,7 +141,7 @@ Per creare i nostri **Percorsi di sola lettura** **[!UICONTROL product profiles]
 
    ![](../assets/access_control_13.png)
 
-1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
+1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](sandboxes.md).
 
 1. Al termine, fai clic su **[!UICONTROL Save]**.
 
