@@ -5,9 +5,9 @@ feature: Offerte
 topic: Integrazioni
 role: Data Engineer
 level: Experienced
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | Identificatore decisionale univoco. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Il numero di offerte da restituire. Il numero massimo è 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Questo oggetto contiene informazioni sul profilo per il quale viene richiesta la decisione. Per una richiesta API, questo conterrà un profilo. |
-| `xdm:profiles.xdm:identityMap` | Questo oggetto contiene un set di identità utente finale basate sul codice di integrazione dello spazio dei nomi dell&#39;identità. La mappa di identità può contenere più di un’identità per ogni namespace. Per ulteriori informazioni sugli spazi dei nomi, consulta la [Panoramica sullo spazio dei nomi identità](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Questo oggetto contiene un set di identità utente finale basate sul codice di integrazione dello spazio dei nomi dell&#39;identità. La mappa di identità può contenere più di un’identità per ogni namespace. Per ulteriori informazioni sugli spazi dei nomi, consulta [questa pagina](../../../get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | ID generato dal cliente che può essere utilizzato per identificare in modo univoco una richiesta di decisione del profilo. Questo ID viene riportato nella risposta e non influenza il risultato della decisione. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Questo oggetto rappresenta la struttura di controllo delle regole di deduplicazione. È costituita da una serie di flag che indicano se la stessa opzione può essere proposta in una determinata dimensione. Un flag impostato su true indica che i duplicati sono consentiti e non devono essere rimossi tra le categorie indicate dal flag . Un flag impostato su false indica che il motore di decisione non deve effettuare la stessa proposta in tutta la dimensione e sceglie invece l’opzione migliore successiva per una delle decisioni secondarie. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se è impostato su true, a più decisioni può essere assegnata la stessa opzione. | `"xdm:acrossActivities": true` |
