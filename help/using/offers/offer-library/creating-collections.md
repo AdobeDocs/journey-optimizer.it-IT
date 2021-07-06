@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una collezione &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
-![](../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 L’elenco delle raccolte di offerte è accessibile nel menu **[!UICONTROL Offers]** .
 
