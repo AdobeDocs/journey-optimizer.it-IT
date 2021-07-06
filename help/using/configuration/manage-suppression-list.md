@@ -15,7 +15,7 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 ---
 
 
-# Gestire l&#39;elenco di soppressione {#manage-suppression-list}
+# Gestire l’elenco di soppressione {#manage-suppression-list}
 
 Con [!DNL Journey Optimizer] puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall’invio in un percorso, ad esempio:
 
@@ -48,7 +48,7 @@ Sono disponibili filtri che consentono di sfogliare l’elenco.
 
 <!--You can also download the list as a CSV file for analysis and reporting purpose. Won't be available.-->
 
-## Categorie e motivi di eliminazione {#suppression-categories-and-reasons}
+## Categorie e motivi di soppressione {#suppression-categories-and-reasons}
 
 Quando un messaggio non viene recapitato a un indirizzo e-mail, Journey Optimizer determina il motivo per cui la consegna non è riuscita e lo associa a una categoria di eliminazione.
 
@@ -77,7 +77,7 @@ I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria di soppressione |
 ---------|----------|--------- |
-| **[!UICONTROL Undetermined]** | Impossibile identificare il motivo di mancato recapito ricevuto dall&#39;agente di trasferimento messaggi (MTA) del dominio destinatario. | Ignorato |
+| **[!UICONTROL Undetermined]** | Impossibile identificare il motivo di mancato recapito ricevuto dall&#39;agente di trasferimento messaggi del dominio destinatario. | Ignorato |
 | **[!UICONTROL Invalid Recipient]** | Il destinatario non è valido o non esiste. | Duro |
 | **[!UICONTROL Soft Bounce]** | Il messaggio è stato rimbalzato per un motivo diverso dagli errori soft elencati in questa tabella, ad esempio quando si invia la velocità consentita consigliata da un ISP. | Morbido |
 | **[!UICONTROL DNS Failure]** | Messaggio rimbalzato a causa di un errore DNS. | Morbido |
