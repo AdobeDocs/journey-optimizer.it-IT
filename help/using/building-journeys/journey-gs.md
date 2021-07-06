@@ -5,7 +5,7 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 7%
