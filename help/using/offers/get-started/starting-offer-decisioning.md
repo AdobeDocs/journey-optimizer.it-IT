@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 97%
@@ -13,7 +13,7 @@ ht-degree: 97%
 ---
 
 
-# Informazioni su Gestione delle decisioni {#about-offer-decision}
+# Informazioni sulla gestione delle decisioni {#about-offer-decision}
 
 Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate.
 
@@ -30,7 +30,7 @@ I vantaggi includono:
 * Flussi di lavoro migliorati: anziché creare più consegne o campagne, i team di marketing possono ottimizzare i flussi di lavoro creando un’unica consegna e variare le offerte in parti differenti del modello.
 * Potrai controllare il numero di volte in cui un’offerta viene visualizzata nelle varie campagne e dai diversi clienti.
 
-![](../../assets/do-not-localize/how-to-video.png) [Guarda questi video tutorial](#tutorial-videos) per saperne di più sulla gestione delle decisioni.
+➡️ [Guarda questi video tutorial](#tutorial-videos) per saperne di più sulla gestione delle decisioni.
 
 ## Informazioni su offerte e decisioni {#offers-offer-activities}
 
