@@ -5,9 +5,9 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '903'
 ht-degree: 4%
 
 ---
@@ -90,7 +90,7 @@ Le regole e i vincoli di idoneità ti consentono di definire le condizioni in cu
 
    Puoi limitare la presentazione dell’offerta ai membri di uno o più segmenti di Adobe Experience Platform. A questo scopo, attiva l’opzione **[!UICONTROL Visitors who fall into one or multiple segments]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
-   Per ulteriori informazioni su come lavorare con i segmenti, consulta la [documentazione Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   Per ulteriori informazioni su come lavorare con i segmenti, consulta [questa pagina](../../segment/about-segments.md).
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ L’offerta viene visualizzata nell’elenco con lo stato **[!UICONTROL Live]** 
 
 ![](../../assets/offer_created.png)
 
-Una volta creata un’offerta, puoi fare clic sul suo nome nell’elenco per accedere alle informazioni dettagliate e monitorare tutte le modifiche apportate utilizzando la scheda **[!UICONTROL Change log]** (consulta [Monitoraggio delle modifiche alle offerte e alle decisioni](../get-started/user-interface.md#monitoring-changes)).
+Una volta creata un’offerta, puoi fare clic sul suo nome nell’elenco per accedere alle informazioni dettagliate e monitorare tutte le modifiche apportate utilizzando la scheda **[!UICONTROL Change log]** . [Ulteriori informazioni](../get-started/user-interface.md#monitoring-changes).
 
 ## Video tutorial {#video}
 
