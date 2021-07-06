@@ -2,11 +2,11 @@
 title: Pubblicare e modificare un messaggio
 description: Scopri come pubblicare e aggiornare i messaggi
 snippet: y
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 7eceb7292c127c1b16a564fc19d0fc091808ee35
+source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 4%
@@ -21,7 +21,7 @@ Una volta creato il messaggio, puoi pubblicarlo per renderlo disponibile per lâ€
 
 >[!CAUTION]
 >
->Prima della pubblicazione, controlla e risolvi gli avvisi. [Ulteriori informazioni](alerts.md).
+>Prima della pubblicazione, controlla e risolvi gli avvisi. [Ulteriori informazioni](alerts.md)
 
 ![](assets/publish-message.png)
 
