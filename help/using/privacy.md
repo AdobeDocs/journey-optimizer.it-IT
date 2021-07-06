@@ -4,7 +4,7 @@ description: Scopri come gestire la privacy
 topic: Privacy
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 92%
@@ -35,7 +35,7 @@ I dati personali e sensibili devono essere gestiti con attenzione. Segui i princ
 
 * Astieniti dall’inviare messaggi non richiesti (“spam”). Adobe crede fermamente nei principi del permission marketing per promuovere la fedeltà e il valore del ciclo di vita del cliente, e pertanto vieta severamente l’utilizzo di Journey Optimizer per l’invio di messaggi non richiesti.
 
-Journey Optimizer consente di gestire i diritti assegnati agli utenti tramite diversi profili di prodotto predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni sulla gestione dei diritti di accesso degli utenti, consulta [Gestire le autorizzazioni](../administration/permissions.md).
+Journey Optimizer consente di gestire i diritti assegnati agli utenti tramite diversi profili di prodotto predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni sulla gestione dei diritti di accesso degli utenti, consulta [Gestire le autorizzazioni](administration/permissions.md).
 
 Journey Optimizer consente inoltre di tenere traccia dei messaggi inviati e del comportamento dei destinatari attraverso aperture e clic sui collegamenti. [Ulteriori informazioni sulla gestione del tracciamento](message-tracking.md).
 
