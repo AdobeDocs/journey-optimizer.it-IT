@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
 
    >[!NOTE]
    >
-   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realized** e **Exited** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realized** e **Exited** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
 
@@ -89,7 +89,7 @@ Inoltre, se il segmento batch viene creato di recente e utilizzato immediatament
 
 Quando si utilizza la qualifica del segmento per i segmenti in streaming, si corre il rischio di ottenere picchi di entrate/uscite di grandi dimensioni a causa della valutazione continua del segmento. Tuttavia, se la definizione del segmento porta a rendere un grande volume di clienti qualificati allo stesso tempo, potrebbe esserci anche un picco.
 
-Per ulteriori informazioni sulla segmentazione in streaming, consulta questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Per ulteriori informazioni sulla segmentazione in streaming, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
 ### Come evitare gli overload{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ Non utilizzare, in un&#39;attività **[!UICONTROL Segment Qualification]**, un s
 
 ![](../assets/segment-error.png)
 
-Inserisci una regola di limitazione per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle (consulta questa [sezione](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). La regola di tappatura non ha alcun nuovo tentativo. Per riprovare, è necessario utilizzare un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** in condizioni o azioni.
+Inserisci una regola di limitazione per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella documentazione [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. La regola di tappatura non ha alcun nuovo tentativo. Per riprovare, è necessario utilizzare un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** in condizioni o azioni.
 
 Prima di utilizzare il segmento in un percorso di produzione, valuta sempre prima il volume di individui che si qualificano per questo segmento ogni giorno. A tal fine, puoi selezionare il menu **[!UICONTROL Segments]**, aprire il segmento e guardare il grafico **[!UICONTROL Profiles over time]**.
 
