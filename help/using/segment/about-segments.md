@@ -5,18 +5,18 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 2%
 
 ---
 
-# Informazioni sui segmenti Adobe Experience Platform {#about-segments}
+# Introduzione ai segmenti {#about-segments}
 
-[!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati Profilo cliente in tempo reale direttamente dal  **[!UICONTROL Segments]** menu e di sfruttarli nei percorsi.
+[!DNL Journey Optimizer] consente di creare segmenti Adobe Experience Platform utilizzando i dati Profilo cliente in tempo reale direttamente dal  **[!UICONTROL Segments]** menu e di sfruttarli nei percorsi.
 
-I segmenti possono essere creati anche dal servizio Segmentazione stesso. Ulteriori informazioni sono disponibili nella [documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+I segmenti possono essere creati anche dal servizio Segmentazione stesso. Ulteriori informazioni sono disponibili nella [documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
 
 Puoi sfruttare i segmenti nei percorsi in diversi modi:
 
