@@ -1,18 +1,18 @@
 ---
 title: Anteprima dei messaggi e invio delle bozze
 description: Scopri come visualizzare in anteprima e verificare i messaggi
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
 
-# Anteprima e verifica i messaggi{#preview-and-proof}
+# Anteprima e verifica dei messaggi{#preview-and-proof}
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuto personalizzato](personalization/personalize.md), potrai controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
 
@@ -23,7 +23,6 @@ Per rilevare eventuali errori nel contenuto delle e-mail o nelle impostazioni di
 >Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test.
 >
 >Scopri come creare profili di test in [questa pagina](building-journeys/creating-test-profiles.md).
-
 
 Per testare il contenuto del messaggio, devi:
 
@@ -38,8 +37,9 @@ Inoltre, sfrutta il tuo account **Litmus** in [!DNL Journey Optimizer] per visua
 >
 >Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata sui dati contestuali, ad esempio le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d’uso](personalization/personalization-use-case.md).
 
+![](assets/do-not-localize/how-to-video.png) [Scopri come visualizzare in anteprima, verificare e pubblicare il tuo messaggio e-mail in questo video](#video-preview)
 
-## Seleziona profili di test{#select-test-profiles}
+## Selezionare i profili di test{#select-test-profiles}
 
 Utilizza [Profili di test](building-journeys/creating-test-profiles.md) per eseguire il targeting di destinatari aggiuntivi che non soddisfano i criteri di targeting definiti.
 
@@ -71,7 +71,7 @@ Per selezionare i profili di test, segui i passaggi seguenti:
 
    In base agli elementi di personalizzazione dei messaggi, questo elenco visualizza i dati per ciascun profilo di test nelle colonne correlate.
 
-## Anteprima messaggi{#preview-your-messages}
+## Anteprima dei messaggi{#preview-your-messages}
 
 Una volta selezionati i [profili di test](#select-test-profiles), puoi visualizzare in anteprima i messaggi e controllarne il contenuto.
 
@@ -111,7 +111,7 @@ Per un&#39;anteprima di notifica push:
 
    ![](assets/preview-android.png)
 
-## Inviare bozze{#send-proofs}
+## Invia bozze{#send-proofs}
 
 Una bozza è un messaggio specifico che ti consente di testare un messaggio prima di inviarlo al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 
@@ -166,3 +166,8 @@ Quindi, segui i passaggi seguenti:
 >
 >Quando connetti l&#39;account **Litmus** con [!DNL Journey Optimizer], accetti l&#39;invio di messaggi di prova a Litmus: una volta inviate, queste e-mail non vengono più gestite da Adobe. Di conseguenza, i criteri di conservazione dei dati Litmus si applicano a queste e-mail, compresi i dati di personalizzazione che possono essere inclusi in questi messaggi di test.
 
+## Video introduttivo{#video-preview}
+
+Scopri come verificare il rendering delle e-mail tra le caselle in entrata, come visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test, inviare bozze e pubblicare le e-mail.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
