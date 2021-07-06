@@ -5,10 +5,10 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 10%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
@@ -26,4 +26,4 @@ Il pulsante **[!UICONTROL Preview dataset]** ti consente di visualizzare il batc
 
 ![](../../assets/dataset-preview.png)
 
-Per ulteriori informazioni su come sfogliare e utilizzare i set di dati, consulta la [documentazione sui set di dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#getting-started).
+Per ulteriori informazioni su come sfogliare e utilizzare i set di dati, consulta [questa pagina](../../get-started-datasets.md).
