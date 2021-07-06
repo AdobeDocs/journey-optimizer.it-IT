@@ -5,7 +5,7 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Beginner
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 13%
@@ -90,10 +90,10 @@ Nell’interfaccia dell’editor di espressioni, seleziona, organizza, personali
 Nella parte sinistra della schermata viene visualizzato un selettore di dominio che consente di selezionare l’origine da personalizzare. Le origini disponibili sono:
 
 * **Profilo** : elenca tutti i riferimenti associati allo schema di profilo descritto nella documentazione di  [Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
-* **Iscrizione**  al segmento: elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione sono disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en)
-* **Offerte** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa su come gestire le offerte, consulta [questa sezione](../deliver-personalized-offers.md)
-* **Contesto** : quando  **** Messageactivity viene utilizzato in un percorso, i campi percorso contestuale sono disponibili in questo menu. [Ulteriori informazioni](personalization-use-case.md)
-* **Funzioni**  di supporto: elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. [Ulteriori informazioni](functions/functions.md)
+* **Iscrizione**  al segmento: elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione sono disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
+* **Offerte** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa su come gestire le offerte, consulta [questa sezione](../deliver-personalized-offers.md).
+* **Contesto** : quando  **** Messageactivity viene utilizzato in un percorso, i campi percorso contestuale sono disponibili in questo menu. [Ulteriori informazioni](personalization-use-case.md).
+* **Funzioni**  di supporto: elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. [Ulteriori informazioni](functions/functions.md).
 
 Una volta selezionato, il riferimento viene aggiunto nell’editor.
 
