@@ -5,9 +5,9 @@ feature: Generazione rapporti
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 7%
 
 ---
@@ -58,4 +58,4 @@ Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti in 
 * [Campi di identità dell’evento journeyStep](../reports/sharing-identity-fields.md)
 * [campi del percorso](../reports/sharing-journey-fields.md)
 
-Per ulteriori informazioni sugli eventi dei passaggi che inviano rapporti a Adobe Experience Platform, guarda questo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+Per ulteriori informazioni sugli eventi dei passaggi che inviano rapporti a Adobe Experience Platform, guarda questo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
