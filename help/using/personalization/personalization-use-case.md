@@ -1,24 +1,24 @@
 ---
-title: Caso di utilizzo della personalizzazione
-description: Caso di utilizzo della personalizzazione
+title: Case&amp per uso personalizzazione;due punti; notifica dello stato dell'ordine
+description: Scopri come personalizzare un messaggio con le informazioni sul profilo, la decisione dell’offerta e il contesto
 feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 2%
+source-wordcount: '622'
+ht-degree: 0%
 
 ---
 
 
-# Caso di utilizzo della personalizzazione {#personalization-use-case}
+# Caso di utilizzo della personalizzazione: notifica dello stato dell&#39;ordine {#personalization-use-case}
 
 In questo caso d’uso, vedrai come utilizzare più tipi di personalizzazione in un singolo messaggio di notifica push. Verranno utilizzati tre tipi di personalizzazione:
 
 * **Profilo**: personalizzazione dei messaggi in base a un campo del profilo
-* **Decisione** di offerta: personalizzazione basata sulle variabili decisionali dell’offerta
+* **Decisione** di offerta: personalizzazione basata su variabili di offer decisioning
 * **Contesto**: personalizzazione basata sui dati contestuali del percorso
 
 L&#39;obiettivo di questo esempio è quello di inviare un evento a [!DNL Journey Optimizer] ogni volta che un ordine del cliente viene aggiornato. Viene quindi inviata al cliente una notifica push con informazioni sull’ordine e un’offerta personalizzata.
