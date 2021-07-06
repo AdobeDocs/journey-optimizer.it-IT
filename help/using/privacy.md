@@ -4,10 +4,10 @@ description: Scopri come gestire la privacy
 topic: Privacy
 role: User
 level: Intermediate
-source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 92%
+source-wordcount: '771'
+ht-degree: 82%
 
 ---
 
@@ -33,11 +33,11 @@ I dati personali e sensibili devono essere gestiti con attenzione. Segui i princ
 
 * Fai sempre uso delle informazioni personali in modo responsabile ed etico.
 
-* Astieniti dall’inviare messaggi non richiesti (“spam”). Adobe crede fermamente nei principi del permission marketing per promuovere la fedeltà e il valore del ciclo di vita del cliente, e pertanto vieta severamente l’utilizzo di Journey Optimizer per l’invio di messaggi non richiesti.
+* Astieniti dall’inviare messaggi non richiesti (“spam”). L&#39;Adobe crede fermamente nei principi del permission marketing per promuovere il valore e la fedeltà della vita del cliente, e pertanto vieta severamente l&#39;uso di [!DNL Adobe Journey Optimizer] per l&#39;invio di messaggi non richiesti.
 
-Journey Optimizer consente di gestire i diritti assegnati agli utenti tramite diversi profili di prodotto predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Per ulteriori informazioni sulla gestione dei diritti di accesso degli utenti, consulta [Gestire le autorizzazioni](administration/permissions.md).
+[!DNL Journey Optimizer] consente di gestire i diritti assegnati agli utenti tramite diversi profili di prodotto predefiniti o personalizzati. Questo consente di gestire chi può modificare, esportare o accedere a diversi tipi di dati all’interno dell’azienda. Scopri come gestire le autorizzazioni utente in [questa pagina](administration/permissions.md).
 
-Journey Optimizer consente inoltre di tenere traccia dei messaggi inviati e del comportamento dei destinatari attraverso aperture e clic sui collegamenti. [Ulteriori informazioni sulla gestione del tracciamento](message-tracking.md).
+[!DNL Journey Optimizer] consente inoltre di tenere traccia dei messaggi inviati e del comportamento dei destinatari attraverso aperture e clic sui collegamenti. Ulteriori informazioni sulla gestione del tracking in [questa pagina](message-tracking.md).
 
 ## Gestione della privacy {#privacy-management}
 
@@ -52,7 +52,7 @@ Per gestire correttamente la privacy e i dati personali, attieniti quindi alle n
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (legge sulla protezione dei dati personali in Thailandia)
 
-Journey Optimizer eredita la maggior parte delle modifiche apportate in Adobe Experience Platform.
+[!DNL Journey Optimizer] eredita la maggior parte delle modifiche apportate in Adobe Experience Platform.
 
 Di conseguenza, le richieste di privacy (diritto di accesso e diritto all’oblio) sono gestite tramite Experience Platform. Invia le richieste utilizzando [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it) e seleziona **Profilo** e **AEP Data Lake** dall’elenco dei prodotti quando [crei la richiesta di privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
@@ -62,7 +62,7 @@ Di conseguenza, le richieste di privacy (diritto di accesso e diritto all’obli
 
 ## Privacy di Adobe Experience Cloud {#experience-cloud-privacy}
 
-Journey Optimizer fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui viene gestita la privacy è conforme ai principi generali di Adobe Experience Cloud. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/marketing-cloud.html).
+[!DNL Journey Optimizer] fa parte delle soluzioni Adobe Experience Cloud. Il modo in cui viene gestita la privacy è conforme ai principi generali di Adobe Experience Cloud. Ulteriori informazioni sulla privacy Adobe Experience Cloud in [questa pagina](https://www.adobe.com/it/privacy/marketing-cloud.html).
 
 In qualità di azienda che utilizza le soluzioni di Adobe Experience Cloud, puoi scegliere quali informazioni raccogliere e inviare all’account Adobe Experience Cloud. Alcuni esempi dei tipi di informazioni che possono essere raccolti includono l’attività di navigazione web, gli indirizzi IP, le informazioni sulla posizione inviate dai dispositivi mobili, i tassi di successo delle campagne, gli articoli acquistati o inseriti nel carrello, ecc. Per ulteriori informazioni, consulta l’[Informativa sulla privacy di Adobe](https://www.adobe.com/it/privacy/policy.html).
 
@@ -73,6 +73,6 @@ In qualità di azienda che utilizza le soluzioni di Adobe Experience Cloud, puoi
 
 >[!NOTE]
 >
->Come per tutti i prodotti di Adobe, gli utenti di Journey Optimizer possono scegliere di rinunciare alla condivisione di informazioni raccolte su di loro tramite app e siti web. Ulteriori informazioni sono disponibili nelle [Domande frequenti sull’utilizzo di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud-usage-info-faq.html).
+>Per quanto riguarda tutti i prodotti di Adobe, gli utenti [!DNL Adobe Journey Optimizer] possono rinunciare alla condivisione di informazioni raccolte tramite app e siti web. Ulteriori informazioni sono disponibili nelle [Domande frequenti sull’utilizzo di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
