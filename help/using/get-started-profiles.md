@@ -4,10 +4,10 @@ description: Scopri come creare e gestire i profili in Adobe Journey Optimizer
 feature: Profili
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -29,5 +29,5 @@ Ulteriori informazioni su **Criteri di unione** in questa [documentazione](https
 
 **Consulta anche**
 
-* [Documentazione del profilo del cliente in tempo reale](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html){target=&quot;_blank&quot;}
-* [Video introduttivo sul profilo del cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}
+* [Documentazione](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) del profilo cliente in tempo reale{target=&quot;_blank&quot;}
+* [Video introduttivo sul profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}
