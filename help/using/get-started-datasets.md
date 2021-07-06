@@ -4,7 +4,7 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 feature: Set di dati
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 12%
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe).
 
-Scopri come creare i set di dati in [questa documentazione](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Scopri come creare i set di dati in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 L’aggiunta di dati a Adobe Experience Platform è la base per la creazione di un profilo. Potrai quindi sfruttare i profili in [!DNL Adobe Journey Optimizer]. Definisci innanzitutto gli schemi, utilizza gli strumenti ETL per preparare e standardizzare i dati, quindi crea i set di dati in base agli schemi.
 
