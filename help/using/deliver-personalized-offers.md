@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Per ulteriori informazioni su come creare e gestire le offerte, consulta [questa
 
 Per un **esempio completo** che mostra come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un&#39;e-mail, controlla [questa sezione](offers/offers-e2e.md#insert-decision-in-email).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come aggiungere le offerte come personalizzazione in questo video](#video-offers)
+➡️ [Scopri come aggiungere offerte come personalizzazione](#video-offers) (video)
 
 ## Inserire una decisione in un messaggio e-mail {#insert-offers}
 
