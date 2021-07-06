@@ -5,10 +5,10 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '613'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,18 @@ Questa guida per gli sviluppatori descrive i passaggi necessari per iniziare a u
 
 Questa guida richiede una buona comprensione dei seguenti componenti di Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en): Il framework standardizzato in base al quale  [!DNL Experience Platform] vengono organizzati i dati sulla customer experience.
-   * [Nozioni di base sulla composizione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) dello schema: Scopri i blocchi di base degli schemi XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}: Il framework standardizzato in base al quale  [!DNL Experience Platform] vengono organizzati i dati sulla customer experience.
+   * [Nozioni di base sulla composizione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html) dello schema {target=&quot;_blank&quot;}: Scopri i blocchi di base degli schemi XDM.
 * [Gestione](../../../using/offers/get-started/starting-offer-decisioning.md) delle decisioni: Spiega i concetti e i componenti utilizzati per Experience Decisioning in generale e in particolare per l’Offer decisioning. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html): PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole decisionali.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole decisionali.
 
 ## Lettura di chiamate API di esempio
 
-Questa guida fornisce esempi di chiamate API per dimostrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richiesta formattati correttamente. Viene inoltre fornito un esempio di codice JSON restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione su [come leggere le chiamate API di esempio](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request) nella guida alla risoluzione dei problemi di [!DNL Experience Platform] .
+Questa guida fornisce esempi di chiamate API per dimostrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richiesta formattati correttamente. Viene inoltre fornito un esempio di codice JSON restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione su [come leggere le chiamate API di esempio](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;} nella guida alla risoluzione dei problemi di [!DNL Experience Platform].
 
 ## Raccogli i valori delle intestazioni richieste
 
-Per effettuare chiamate alle API [!DNL Platform], devi prima completare l’ [esercitazione sull’autenticazione](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html). Il completamento dell’esercitazione di autenticazione fornisce i valori per ciascuna delle intestazioni richieste in tutte le chiamate API [!DNL Experience Platform], come mostrato di seguito:
+Per effettuare chiamate alle API [!DNL Platform], devi prima completare l&#39;esercitazione [autenticazione](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. Il completamento dell’esercitazione di autenticazione fornisce i valori per ciascuna delle intestazioni richieste in tutte le chiamate API [!DNL Experience Platform], come mostrato di seguito:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -49,7 +49,7 @@ Un contenitore è un meccanismo di isolamento per tenere separate le diverse pre
 
 Un amministratore può raggruppare entità, risorse e autorizzazioni di accesso simili in profili. Questo riduce il carico di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Devi essere un amministratore di prodotto per Adobe Experience Platform nella tua organizzazione per creare profili e assegnare loro gli utenti. È sufficiente creare profili di prodotto che corrispondano a determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi a cui sono state concesse autorizzazioni e ogni utente effettivo o tecnico del gruppo eredita tali autorizzazioni.
 
-Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/). Per ulteriori informazioni, vedere la [Panoramica sul controllo di accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
+Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Per ulteriori informazioni, vedere [Panoramica sul controllo di accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target=&quot;_blank&quot;}.
 
 ### Elencare contenitori accessibili a utenti e integrazioni
 
