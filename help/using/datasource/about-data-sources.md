@@ -5,10 +5,10 @@ feature: 'Origini dati '
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 86%
+source-wordcount: '283'
+ht-degree: 74%
 
 ---
 
@@ -35,4 +35,4 @@ Esistono due tipi di origini dati:
 
 Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. Consulta [questa pagina](../datasource/configure-data-sources.md#define-field-groups).
 
-Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Per ulteriori informazioni su come configurare un’origine dati Adobe Experience Platform e un’origine dati esterna, nonché su come trovare e utilizzare i dati in un percorso, guarda questo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
