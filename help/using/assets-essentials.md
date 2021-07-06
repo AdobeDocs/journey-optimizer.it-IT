@@ -5,10 +5,10 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 3%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> Per lavorare con [!DNL Adobe Experience Manager Assets Essentials], è necessario distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarsi che gli utenti che necessitano dell&#39;accesso a [!DNL Assets Essentials] facciano parte dei profili di prodotto **Utenti consumer Assets Essentials** o/e **Utenti Assets Essentials**. <br> Per ulteriori informazioni, consulta questa  [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html).
+> Per lavorare con [!DNL Adobe Experience Manager Assets Essentials], è necessario distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarsi che gli utenti che necessitano dell&#39;accesso a [!DNL Assets Essentials] facciano parte dei profili di prodotto **Utenti consumer Assets Essentials** o/e **Utenti Assets Essentials**. <br> Per ulteriori informazioni, consulta questa  [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 [!DNL Adobe Experience Manager Assets Essentials] fornisce un archivio unico e centralizzato delle risorse che puoi utilizzare per compilare i messaggi. È possibile accedervi direttamente da [!DNL Adobe Journey Optimizer] attraverso la sezione **[!UICONTROL Assets]** . È inoltre possibile accedere a risorse e cartelle durante la progettazione di un contenuto e-mail. [Ulteriori informazioni sulla progettazione](design-emails.md) delle e-mail.
 
-Per procedure più dettagliate su [!DNL Assets Essentials], consulta la [documentazione Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html).
+Per procedure più dettagliate su [!DNL Assets Essentials], consulta la [documentazione Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 ## Caricare e inserire le risorse{#add-asset}
 
 Per caricare i file in [!DNL Assets Essentials], devi prima cercare o creare la cartella in cui verranno memorizzati. Potrai quindi inserirli nel contenuto dell’e-mail.
 
-Per ulteriori informazioni su come caricare le risorse, consulta la [documentazione Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+Per ulteriori informazioni su come caricare le risorse, consulta la [documentazione Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
 1. Dalla home page di [!DNL Adobe Journey Optimizer], seleziona la scheda **[!UICONTROL Assets]** nel menu **[!UICONTROL Content management]** per accedere a [!DNL Assets Essentials].
 
@@ -54,7 +54,7 @@ Per ulteriori informazioni su come caricare le risorse, consulta la [documentazi
 
 1. Una volta caricata la risorsa, puoi inserire le risorse in uno dei messaggi tramite E-mail designer.
 
-   La risorsa può anche essere ulteriormente modificata con la modalità **Modifica** di [!DNL Assets Essentials]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html).
+   La risorsa può anche essere ulteriormente modificata con la modalità **Modifica** di [!DNL Assets Essentials]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
