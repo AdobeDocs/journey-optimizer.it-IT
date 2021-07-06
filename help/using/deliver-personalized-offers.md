@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
    >[!NOTE]
    >
-   >In questo esempio, utilizzeremo lo spazio dei nomi **Email** . Ulteriori informazioni sui namespace di identità Adobe Experience Platform [in questa sezione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+   >In questo esempio, utilizzeremo lo spazio dei nomi **Email** . Ulteriori informazioni sui namespace di identità Adobe Experience Platform [in questa sezione](get-started-identity.md).
 
 1. Nell’elenco dei namespace di identità, selezionare **[!UICONTROL Email]** e fare clic su **[!UICONTROL Select]**.
 
