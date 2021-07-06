@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Una regola di limitazione è specifica per un endpoint ma globale per tutti i pe
 
 Ad esempio, supponiamo che tu abbia definito una regola di limitazione di 100 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un&#39;azione personalizzata in 10 percorsi diversi. Se un percorso riceve 200 chiamate al secondo, utilizzerà i 100 slot disponibili e scarterà i 100 slot rimanenti. Poiché la tariffa massima è stata superata, gli altri 9 percorsi non avranno più alcuna slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e crash.
 
-Per ulteriori informazioni sull&#39;API di limitazione e su come configurare le regole di limitazione dei tag, consulta [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+Per ulteriori informazioni sull&#39;API di limitazione e su come configurare le regole di limitazione, consulta la [documentazione sul Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 ## Timeout e nuovi tentativi{#timeout}
 
@@ -72,7 +72,7 @@ Prendiamo ad esempio un timeout di 5 secondi.
 
 **Come posso configurare una regola di limitazione? Esiste una regola di limitazione predefinita?**
 
-Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fare riferimento a [questa sezione](../configuration/external-systems.md#capping) e [questa pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fare riferimento a [questa sezione](../configuration/external-systems.md#capping) e [documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 **Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra i tentativi?**
 
