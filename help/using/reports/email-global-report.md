@@ -1,18 +1,18 @@
 ---
 title: Rapporto globale delle e-mail
 description: Scopri come utilizzare i dati del report globale e-mail
-feature: Reporting
+feature: Generazione rapporti
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
-# Rapporto globale e-mail {#email-global-report}
+# Rapporto globale delle e-mail {#email-global-report}
 
 L’e-mail **[!UICONTROL Global report]** esegue il targeting solo di una consegna e-mail specifica.
 
@@ -38,7 +38,7 @@ L’e-mail **[!UICONTROL Global report]** è divisa in diversi widget che ne des
 
 * **[!UICONTROL Click Rate]**: Percentuale di clic in una consegna.
 
-* **[!UICONTROL Spam Complaint Rate]**: Percentuale di e-mail contrassegnate come spam dai destinatari rispetto ai messaggi consegnati. Per ulteriori informazioni sui reclami, consulta questa [pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+* **[!UICONTROL Spam Complaint Rate]**: Percentuale di e-mail contrassegnate come spam dai destinatari rispetto ai messaggi consegnati. Per ulteriori informazioni sui reclami, consulta la [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 * **[!UICONTROL Unsubscribe Rate]**: Percentuale di annullamenti univoci delle sottoscrizioni rispetto al numero di messaggi inviati. Questo indicatore non si basa sul numero di clic sul collegamento di annullamento dell’abbonamento, ma si basa sul numero di annullamenti di abbonamenti avviati dai destinatari. Ulteriori informazioni sugli annullamenti di abbonamenti in questa [pagina](../consent.md).
 
