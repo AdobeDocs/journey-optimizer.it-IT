@@ -5,7 +5,7 @@ feature: Offerte
 topic: Integrazioni
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 2%
@@ -20,7 +20,7 @@ Puoi creare e distribuire le offerte effettuando una richiesta POST all’ API [
 
 Questa esercitazione richiede una comprensione funzionante delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, consulta la [Guida per gli sviluppatori dell&#39;API di gestione delle decisioni](../getting-started.md). Questa esercitazione richiede anche che sia disponibile un ID di posizionamento e un valore dell&#39;ID decisione univoci. Se non hai acquisito questi valori, consulta le esercitazioni per [creare un posizionamento](../offers-api/placements/create.md) e [creare una decisione](../activities-api/activities/create.md).
 
-![](../../../assets/do-not-localize/how-to-video.png) [Scopri questa funzione nel video](#video)
+➡️  [Scopri questa funzione nel video](#video)
 
 ## Intestazioni Accept e Content-Type
 
