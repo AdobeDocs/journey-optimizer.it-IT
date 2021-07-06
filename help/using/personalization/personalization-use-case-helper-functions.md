@@ -5,9 +5,9 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 3%
 
 ---
@@ -84,7 +84,7 @@ Segui questi passaggi:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Ulteriori informazioni sul [tipo di dati del nome della persona](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html).
+      Ulteriori informazioni sul tipo di dati del nome della persona nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 6. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
 
@@ -98,7 +98,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Crea un evento il cui schema include la matrice `productListItems`.
 2. Definisci tutti i campi di questa matrice come campi di payload per questo evento.
 
-   Ulteriori informazioni sul [tipo di dati della voce dell&#39;elenco di prodotti](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
+   Ulteriori informazioni sul tipo di dati dell&#39;elemento dell&#39;elenco prodotti [Documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
 3. Crea un percorso che inizia con questo evento.
 4. Aggiungi il messaggio al percorso.
@@ -328,15 +328,15 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 ### Funzioni del manubrio
 
-[Assistenza](functions/helpers.md)
+* [Assistenza](functions/helpers.md)
 
-[Funzioni stringa](functions/string.md)
+* [Funzioni stringa](functions/string.md)
 
 ### Casi di utilizzo
 
-[Personalizzazione con informazioni sul profilo, contesto e offerta](personalization-use-case.md)
+* [Personalizzazione con informazioni sul profilo, contesto e offerta](personalization-use-case.md)
 
-[Personalizzazione con offerta basata su decisione](../offers/offers-e2e.md)
+* [Personalizzazione con offerta basata su decisione](../offers/offers-e2e.md)
 
 ## Video tutorial{#helper-functions-video}
 
