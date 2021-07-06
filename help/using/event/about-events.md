@@ -1,14 +1,14 @@
 ---
 title: Informazioni sugli eventi
-description: Informazioni sugli eventi
+description: Scopri gli eventi
 feature: Eventi
 topic: Amministrazione
 role: Administrator
 level: Intermediate
-source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 31%
+ht-degree: 49%
 
 ---
 
@@ -27,7 +27,7 @@ La configurazione dell’evento consente di definire le informazioni che [!DNL J
 
 Puoi configurare due tipi di eventi:
 
-* **** Eventi militari: questi eventi sono collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Optimizer] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente. Gli eventi secondari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
+* **** Eventi militari: questi eventi sono collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Optimizer] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente. Gli eventi unitari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
 
 * **** Eventi aziendali: un evento aziendale è un evento che, a differenza di un evento unitario, non è collegato a un profilo specifico. Ad esempio, può essere un avviso di news, un aggiornamento sportivo, un cambiamento o cancellazione del volo, un aggiornamento dell&#39;inventario, eventi meteo, ecc. Anche se questi eventi non sono specifici per un profilo, possono interessare un qualsiasi numero di profili: persone abbonate a particolari argomenti d&#39;informazione, passeggeri su un volo, acquirenti interessati a un prodotto esaurito, ecc. Gli eventi aziendali sono sempre basati su regole. Quando rilasci un evento aziendale in un percorso, aggiunge automaticamente un&#39;attività **Read segment** subito dopo. Per informazioni su come creare un evento aziendale, consulta questa [pagina](../event/about-creating-business.md).
 
@@ -42,13 +42,13 @@ Per gli eventi aziendali, il tipo di ID evento è sempre basato su regole.
 
 Per gli eventi unitari, sono disponibili due tipi di ID evento:
 
-* **Eventi** basati sulle regole: questo tipo di evento non genera un eventID. Utilizzando l’editor di espressioni semplici, puoi semplicemente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i tuoi percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
+* **Eventi basati sulle regole**: questo tipo di evento non genera un eventID. Utilizzando l’editor di espressioni semplici, puoi semplicemente definire una regola che verrà utilizzata dal sistema per identificare gli eventi rilevanti che attiveranno i percorsi. Questa regola può essere basata su qualsiasi campo disponibile nel payload dell’evento, ad esempio la posizione del profilo o il numero di elementi aggiunti al carrello del profilo.
 
    >[!CAUTION]
    >
-   >Per gli eventi basati su regole viene definita una regola di limitazione. Limita il numero di eventi qualificati che un percorso può elaborare a 5000 al secondo per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Optimizer. Vedere questa [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Per gli eventi basati su regole viene definita una regola di quota limite. Questa limita a 5000 al secondo il numero di eventi qualificati che un percorso può elaborare per una determinata organizzazione (ORG). Corrisponde agli SLA di Journey Optimizer. Consulta questa [pagina](https://helpx.adobe.com/it/legal/product-descriptions/journey-orchestration.html).
 
-* **Sviluppatori** di sistema: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che preme l’evento non deve generare un ID, deve passare quello disponibile nell’anteprima del payload.
+* Eventi **generati dal sistema**: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload.
 
 Journey Optimizer richiede che gli eventi vengano inviati in streaming o inseriti in batch in Adobe Experience Platform. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso separato, ti consigliamo di abilitare il set di dati per il profilo.
 
