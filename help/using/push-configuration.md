@@ -5,16 +5,16 @@ feature: Impostazioni applicazione
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 4%
 
 ---
 
 # Configurare il canale di notifica push {#push-notification-configuration}
 
-[!DNL Journey Optimizer] consente di creare i percorsi e inviare messaggi a un pubblico di destinazione. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], assicurati che le configurazioni e le integrazioni siano presenti nell’app mobile e in [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Per comprendere il flusso di dati delle notifiche push in Adobe Percorsi Optimizer, consulta [questa pagina](push-gs.md).
+[!DNL Journey Optimizer] consente di creare i percorsi e inviare messaggi a un pubblico di destinazione. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], assicurati che le configurazioni e le integrazioni siano presenti nell’app mobile e in [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Per comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer], fai riferimento a [questa pagina](push-gs.md).
 
 ## Prima di iniziare
 
@@ -54,7 +54,7 @@ Per assegnare i diritti **Property** e **Company**, segui i passaggi seguenti:
 
 1. Seleziona un **[!UICONTROL Product Profile]** esistente o creane uno nuovo con il pulsante **[!UICONTROL New profile]** . Scopri come creare un nuovo **[!UICONTROL New profile]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui).
 
-1. Dalla scheda **[!UICONTROL Permissions]** , seleziona **[!UICONTROL Property rights]**.
+1. Dalla sezione **[!UICONTROL Permissions]**, seleziona **[!UICONTROL Property rights]**.
 
    ![](assets/push_product_2.png)
 
@@ -88,7 +88,7 @@ Per assegnare questo **[!UICONTROL Product profile]** agli utenti, segui i passa
 
 1. Dalla scheda **[!UICONTROL Products]** , seleziona la scheda **[!UICONTROL Adobe Experience Platform Launch]** .
 
-1. Seleziona il **[!UICONTROL Product profile]** configurato in precedenza.
+1. Seleziona la **[!UICONTROL Product profile]** configurata in precedenza.
 
 1. Dalla scheda **[!UICONTROL Users]**, fai clic su **[!UICONTROL Add user]**.
 
@@ -118,7 +118,7 @@ L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato cl
 Alla fine di questo, avresti dovuto anche creare e configurare una proprietà mobile in Adobe Experience Platform Launch. In genere creerai una proprietà mobile per ogni app mobile che desideri gestire. Scopri come creare e configurare una proprietà mobile nella [documentazione di Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
 
-## Passaggio 1: Aggiungi le credenziali push dell&#39;app in Adobe Experience Platform Launch {#push-credentials-launch}
+## Passaggio 1: Aggiungi le credenziali push dell’app in Adobe Experience Platform Launch {#push-credentials-launch}
 
 Dopo aver concesso le autorizzazioni utente corrette, ora devi aggiungere le credenziali push dell’app mobile in [!DNL Adobe Experience Platform Launch].
 
@@ -245,7 +245,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Passaggio 3: Testa l’app mobile con un evento {#mobile-app-test}
+## Passaggio 3: Testare l’app mobile con un evento {#mobile-app-test}
 
 Dopo aver configurato la tua app mobile sia in Adobe Experience Platform che in Adobe Launch, ora puoi testarla prima di inviare notifiche push ai profili. In questo caso d’uso, creeremo un percorso per eseguire il targeting della nostra app mobile e imposteremo un evento che attiverà la notifica push.
 
@@ -263,7 +263,7 @@ Affinché questo percorso funzioni, è necessario creare uno schema XDM. Per ult
 
 1. Seleziona **[!UICONTROL Create a new field group]**.
 
-1. Immetti un **[!UICONTROL Display Name]** e un **[!UICONTROL Description]**. Al termine, fai clic su **[!UICONTROL Add field groups]** . Per ulteriori informazioni su come creare gruppi di campi, consulta la [documentazione di sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it).
+1. Immetti un **[!UICONTROL Display Name]** e un **[!UICONTROL Description]**. Al termine della configurazione, fai clic su **[!UICONTROL Add field groups]**. Per ulteriori informazioni su come creare gruppi di campi, consulta la [documentazione di sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it).
 
 
    ![](assets/test_push_4.png)
@@ -343,7 +343,7 @@ L’evento viene ora creato e può essere utilizzato in un percorso.
 
 L’evento verrà attivato e riceverai la notifica push all’app mobile.
 
-## Passaggio 4: Crea un messaggio predefinito per push{#message-preset}
+## Passaggio 4: Creare un messaggio predefinito per il push{#message-preset}
 
 Una volta che l’app mobile è stata configurata in [!DNL Adobe Experience Platform Launch], devi creare un predefinito per messaggi per poter inviare notifiche push da **[!DNL Journey Optimizer]**.
 
