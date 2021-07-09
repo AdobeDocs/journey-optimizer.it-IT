@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 36%
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 36%
     <p>Scopri come aggiungere messaggi push ed e-mail nei percorsi dei clienti
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Crea il primo percorso</a>
+    <a href="using/building-journeys/journeys-uc.md">Creare il primo percorso</a>
     </div>
     <p>Scopri come creare ed eseguire un percorso
     <p>
