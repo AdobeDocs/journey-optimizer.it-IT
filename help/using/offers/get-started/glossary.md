@@ -1,14 +1,14 @@
 ---
-title: Offerte Glossario
+title: Glossario offerte
 description: Glossario delle offerte
 feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
