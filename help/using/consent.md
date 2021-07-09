@@ -8,7 +8,7 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 79%
+ht-degree: 93%
 
 ---
 
@@ -129,21 +129,21 @@ Corpo della richiesta:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Annulla sottoscrizione link nell&#39;intestazione {#unsubscribe-email}
+## Collegamento per annullare l’abbonamento nell’intestazione {#unsubscribe-email}
 
 Se il client e-mail dei destinatari supporta la visualizzazione di un collegamento di annullamento all’abbonamento nell’intestazione e-mail, le e-mail inviate con [!DNL Journey Optimizer] includono automaticamente questo collegamento.
 
-Ad esempio, il collegamento per l’annullamento dell’abbonamento verrà visualizzato in Gmail in questo modo:
+Ad esempio, il collegamento per annullare l’abbonamento verrà visualizzato in Gmail in questo modo:
 
 ![](assets/unsubscribe-email.png)
 
 A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione si verifica uno dei seguenti impatti:
 
-* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata nell’Experience Platform. Ulteriori informazioni sono disponibili nella documentazione [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
+* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Ulteriori informazioni sono disponibili nella documentazione [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
-* Ha lo stesso effetto di fare clic sul collegamento di annullamento dell’abbonamento dal contenuto dell’e-mail: il destinatario viene reindirizzato a una pagina di destinazione con un pulsante per confermare la rinuncia. Ulteriori informazioni sulla gestione delle rinunce in [questa sezione](#opt-out-management).
+* Ha lo stesso effetto di fare clic sul collegamento per annullare l’abbonamento dal contenuto dell’e-mail: il destinatario viene reindirizzato a una pagina di destinazione con un pulsante per confermare la rinuncia. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](#opt-out-management).
 
-## Gestione degli opt-out push {#push-opt-out-management}
+## Gestione degli opt-out per notifiche push {#push-opt-out-management}
 
 I destinatari delle notifiche push possono annullare l’iscrizione dai propri dispositivi.
 
