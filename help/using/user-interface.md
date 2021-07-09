@@ -8,26 +8,26 @@ level: Intermediate
 source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 74%
+ht-degree: 93%
 
 ---
 
 # Interfaccia utente {#cjm-user-interface}
 
-Una volta connesso a [Adobe Experience Cloud](http://experience.adobe.com), passa a [!DNL Journey Optimizer].
+Una volta connesso ad [Adobe Experience Cloud](http://experience.adobe.com), passa a [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->* I concetti chiave durante la navigazione nell’interfaccia utente sono comuni a Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
+>* I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
    >
    >
-* Questa documentazione viene spesso aggiornata per riflettere le ultime modifiche nell’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
+* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
    >
    > 
 * I componenti e le funzionalità disponibili nell’interfaccia utente dipendono dalle autorizzazioni e dal pacchetto di licenze. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
 
 
-## Navigazione a sinistra
+## Pannello di navigazione a sinistra
 
 Utilizza i collegamenti a sinistra per sfogliare le funzionalità.
 
@@ -88,30 +88,30 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 * **[!UICONTROL Sandboxes]**: Adobe Experience Platform fornisce ambienti sandbox che permettono di suddividere una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. [Ulteriori informazioni sugli ambienti sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}
 
 
-## Casi di utilizzo all’interno del prodotto
+## Casi d’uso accessibili dal prodotto
 
-Sfrutta i casi d’uso [!DNL Adobe Journey Optimizer] dalla home page e fornisci alcuni input rapidi per creare un percorso di clienti.
+Sfrutta i casi d’uso di [!DNL Adobe Journey Optimizer] accessibili dalla pagina Home e fornisci alcuni dati per creare un percorso del cliente.
 
 ![](assets/use-cases-home.png)
 
 I casi di utilizzo disponibili sono:
 
-* **Crea profili** di test per creare profili di test utilizzando il nostro modello CSV per testare messaggi e percorsi personalizzati. Scopri come implementare questo caso d’uso [in questa pagina](building-journeys/creating-test-profiles.md#use-case-1).
-* **Invia un messaggio di compleanno ai clienti**, per inviare automaticamente un&#39;e-mail ai tuoi clienti in occasione del loro compleanno. (disponibile a breve)
+* **Creare profili di test**, per creare profili di test utilizzando il modello CSV per sperimentare messaggi e percorsi personalizzati. Scopri come implementare il caso d’uso [in questa pagina](building-journeys/creating-test-profiles.md#use-case-1).
+* **Inviare un messaggio di compleanno ai clienti**, per inviare automaticamente un’e-mail ai clienti in occasione del loro compleanno. (disponibile a breve)
 * **Inviare e-mail a bordo di nuovi clienti**, per inviare facilmente fino a due e-mail per dare il benvenuto ai clienti appena registrati. (disponibile a breve)
-* **Invia messaggi push all’elenco dei clienti** importati per inviare rapidamente una notifica push a un elenco di clienti importati da un file CSV. (disponibile a breve)
+* **Inviare messaggi push a un elenco importato dei clienti**, per inviare rapidamente una notifica push a un elenco di clienti importati da un file CSV. (disponibile a breve)
 
-Fai clic su **[!UICONTROL View details]** per ulteriori informazioni su ogni caso d’uso.
+Per ulteriori informazioni su ogni caso d’uso, fai clic su **[!UICONTROL View details]**.
 
-Fai clic sul pulsante **[!UICONTROL Begin]** per avviare il caso d’uso.
+Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Begin]**.
 
-Puoi accedere ai casi di utilizzo eseguiti dal pulsante **[!UICONTROL View use case library]** .
+Puoi accedere ai casi di utilizzo eseguiti dal pulsante **[!UICONTROL View use case library]**.
 
-## Trova assistenza e supporto
+## Assistenza e supporto
 
-Accedi alle pagine della guida chiave Adobe Journey Optimizer dalla sezione inferiore della home page.
+Dalla sezione inferiore della pagina Home puoi accedere alle pagine importanti della guida di Adobe Journey Optimizer.
 
-Utilizza l&#39;icona **Aiuto** per accedere alle pagine dell&#39;Aiuto, contattare il supporto e condividere i commenti. Puoi cercare articoli e video della guida dal campo di ricerca.
+Utilizza l’icona **Aiuto** per accedere alle pagine della guida, contattare il supporto e condividere i tuoi commenti. Puoi cercare articoli e video di supporto dal campo di ricerca.
 
 ![](assets/ajo-help.png)
 
@@ -119,7 +119,7 @@ Utilizza l&#39;icona **Aiuto** per accedere alle pagine dell&#39;Aiuto, contatta
 
 L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare in modo ottimale nell’ultima versione di Google Chrome. L’utilizzo di versioni precedenti o di altri browser potrebbe comportare problemi durante l’utilizzo di alcune funzioni.
 
-## Preferenze della lingua
+## Preferenze di lingua
 
 L’interfaccia utente è attualmente disponibile nelle seguenti lingue:
 
