@@ -1,18 +1,18 @@
 ---
 title: Limitazioni del percorso
 description: Ulteriori informazioni sui limiti del Percorso
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Limitazioni {#journey-limitations}
+# Limitazioni  {#journey-limitations}
 
 Di seguito sono riportate le limitazioni relative all’utilizzo di percorsi.
 
@@ -68,5 +68,4 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ## Limiti di lettura dei segmenti
 
-* Non è possibile attivare un percorso basato su segmenti in un arco temporale più breve di 1 ora.
 * I segmenti in streaming sono sempre aggiornati, ma i segmenti batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del lotto.
