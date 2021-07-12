@@ -5,10 +5,10 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 4%
+source-wordcount: '952'
+ht-degree: 5%
 
 ---
 
@@ -55,6 +55,8 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
    >[!NOTE]
    >
    >Gli individui appartenenti a un segmento che non hanno l’identità selezionata (namespace) tra le loro diverse identità non possono accedere al percorso.
+
+1. Nel campo **[!UICONTROL Throttling rate]** , definisci il throughput dell’attività Leggi segmento . Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 17.000 e deve essere compreso tra 500 e 17000.
 
 1. L’attività **[!UICONTROL Read Segment]** ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic sul collegamento **[!UICONTROL Edit journey schedule]** per accedere alle proprietà del percorso, quindi configura il campo **[!UICONTROL Scheduler type]** .
 
