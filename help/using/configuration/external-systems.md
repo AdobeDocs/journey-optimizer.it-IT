@@ -1,20 +1,20 @@
 ---
 product: adobe campaign
 solution: Journey Optimizer
-title: Integrazione con sistemi esterni
-description: Scopri le best practice per l’integrazione di sistemi esterni
+title: Integrare Journey Optimizer con i sistemi esterni
+description: Scopri le best practice per l’integrazione di Journey Optimizer con sistemi esterni
 feature: Journey Optimizer
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
 
-# Integrazione con sistemi esterni {#external-systems}
+# Integrare con sistemi esterni {#external-systems}
 
 Questa pagina presenta le diverse protezioni fornite da Journey Optimizer durante l’integrazione di un sistema esterno, nonché le best practice: come ottimizzare la protezione del sistema esterno utilizzando l’API di limitazione dei tag, come configurare il timeout del percorso e come funzionano i nuovi tentativi.
 
