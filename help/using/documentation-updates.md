@@ -1,10 +1,10 @@
 ---
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 18%
+source-wordcount: '207'
+ht-degree: 17%
 
 ---
 
@@ -16,8 +16,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Luglio 2021
 
 * Sono stati aggiunti collegamenti diretti alla documentazione dei servizi Experience Platform nella home page e nel sommario di [!DNL Journey Optimizer]
+* Nuove pagine di destinazione per i servizi di Experience Platform disponibili in [!DNL Journey Optimizer]
 * Link aggiunti alla descrizione del prodotto [!DNL Journey Optimizer] nella home page
-* Sono stati aggiunti video di esercitazione nelle pagine della documentazione
+* Sono stati aggiunti video di esercitazione in più pagine
 * Immagini ottimizzate della home page
 * La sezione &quot;Tracciamento messaggi&quot; è stata spostata, migliorata e rinominata in &quot;Aggiungi collegamenti e tracciamento messaggi&quot;. [Ulteriori informazioni](message-tracking.md)
 * È stata aggiunta una sottosezione sulle pagine mirror. [Ulteriori informazioni](message-tracking.md#mirror-page)
