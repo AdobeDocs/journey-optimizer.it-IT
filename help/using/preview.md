@@ -5,10 +5,10 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Inoltre, sfrutta il tuo account **Litmus** in [!DNL Journey Optimizer] per visua
 >
 >Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata sui dati contestuali, ad esempio le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d’uso](personalization/personalization-use-case.md).
 
-![](assets/do-not-localize/how-to-video.png) [Scopri come visualizzare in anteprima, verificare e pubblicare il tuo messaggio e-mail in questo video](#video-preview)
+➡️ [Scopri come visualizzare in anteprima, provare e pubblicare il tuo messaggio e-mail in questo video](#video-preview)
 
 ## Selezionare i profili di test{#select-test-profiles}
 
@@ -168,6 +168,6 @@ Quindi, segui i passaggi seguenti:
 
 ## Video introduttivo{#video-preview}
 
-Scopri come verificare il rendering delle e-mail tra le caselle in entrata, come visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test, inviare bozze e pubblicare le e-mail.
+Scopri come verificare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test, inviare bozze e pubblicare le e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
