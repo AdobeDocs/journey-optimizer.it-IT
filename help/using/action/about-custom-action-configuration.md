@@ -4,9 +4,9 @@ title: Informazioni sulla configurazione delle azioni personalizzata
 description: Scopri come configurare un’azione personalizzata
 feature: Azioni
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Quando configuri un’azione personalizzata, devi definire i seguenti parametri 
    >
    >Le intestazioni vengono convalidate in base alle seguenti [regole di analisi](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## Definisci i parametri delle azioni {#define-the-message-parameters}
+## Definire i parametri dell’azione {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
