@@ -14,12 +14,12 @@ snippet: y
 exl-id: null
 feature: Gruppi di controllo
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -95,7 +95,7 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 |Adobe Experience Platform| <ul><li>**Profili** di lettura: accesso in sola lettura al profilo per l’anteprima e il test.</li><li>**Set di dati** di lettura: accesso in sola lettura ai set di dati.</li><li>**Leggi gli schemi**: accesso in sola lettura agli schemi.</li><li>**Gestisci criteri** di unione: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
 |Amministrazione| <ul><li>**Visualizzare i predefiniti** per i messaggi: accesso in sola lettura ai predefiniti per messaggi.</li></ul>|
 
-## Decisioning manager {#decisioning-manager}
+## Decisioning Manager {#decisioning-manager}
 
 Il profilo di prodotto **[!UICONTROL Decisioning manager]** consente solo il menu **[!UICONTROL Decision management]**. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
 
