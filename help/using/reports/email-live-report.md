@@ -1,11 +1,11 @@
 ---
 title: Rapporto live delle e-mail
 description: Scopri come utilizzare i dati del rapporto live e-mail
-feature: Reporting
+feature: Generazione rapporti
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 2%
@@ -21,6 +21,8 @@ Dalla scheda **[!UICONTROL Executions]** del menu **[!UICONTROL Messages]** , se
 ![](../assets/live_report.png)
 
 L’e-mail **[!UICONTROL Live report]** è divisa in diversi widget che ne descrivono il successo e gli errori. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** e  **[!UICONTROL Email summary]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio con un grafico e KPI:
 
@@ -43,6 +45,8 @@ Il grafico **[!UICONTROL Sending Statistics]** descrive il successo della conseg
 * **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+![](../assets/live_report_6.png)
 
 Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
 
