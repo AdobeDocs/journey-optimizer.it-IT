@@ -5,7 +5,7 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Con [!DNL Journey Optimizer] puoi impostare i predefiniti per messaggi che defin
 
 Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dall’elenco **[!UICONTROL Presets]** .
 
-![](../assets/do-not-localize/how-to-video.png) [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
+➡️ [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
 
 ## Creare un predefinito per messaggi {#create-message-preset}
 
