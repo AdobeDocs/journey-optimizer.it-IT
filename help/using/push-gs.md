@@ -3,9 +3,9 @@ title: Introduzione alla configurazione push
 description: Comprendere il flusso di dati e i componenti della notifica push
 feature: Impostazioni applicazione
 topic: Push
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 2%
