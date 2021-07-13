@@ -5,9 +5,9 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1478'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 
    ![](assets/email_designer_3.png)
 
-1. Ogni componente può essere ulteriormente personalizzato con la sezione **[!UICONTROL Component settings]** . Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine del componente. Ulteriori informazioni sugli stili nell&#39;editor e-mail nella [documentazione Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}.
+1. Ogni componente può essere ulteriormente personalizzato con la sezione **[!UICONTROL Component settings]** . Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine del componente. [Ulteriori informazioni sull’allineamento e la spaziatura](#adjusting-vertical-alignment-and-padding).
 
    ![](assets/email_designer_4.png)
 
