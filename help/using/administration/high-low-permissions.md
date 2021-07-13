@@ -14,9 +14,9 @@ snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Gruppi di controllo
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Possono essere suddivisi in due tipi:
 
 Ad esempio, al profilo di prodotto **[!UICONTROL Journey administrator]** viene assegnata l&#39;autorizzazione **[!UICONTROL Manage journeys]**. Da questa autorizzazione risultano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
 
-## Funzionalità di percorso {#journey-capability}
+## Capacità percorso {#journey-capability}
 
 ### Autorizzazione per la gestione dei percorsi {#manage-journeys}
 
@@ -58,7 +58,7 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * schemas.read
 
-### Autorizzazione per pubblicare percorsi {#publish-journeys}
+### Autorizzazione per la pubblicazione di percorsi {#publish-journeys}
 
 L’ autorizzazione di alto livello **[!UICONTROL Publish journeys]** consente agli utenti di pubblicare percorsi.
 
@@ -81,7 +81,7 @@ Include le seguenti autorizzazioni di basso livello:
    * segments.read
    * profiles.read
 
-### Autorizzazione per gestire eventi, origini dati e azioni di percorsi {#manage-journeys-events}
+### Gestisci autorizzazioni eventi, origini dati e azioni percorsi {#manage-journeys-events}
 
 L’ autorizzazione di alto livello **[!UICONTROL Manage journeys events, data sources and actions]** consente agli utenti di configurare configurazioni di eventi e dati.
 
@@ -102,7 +102,7 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * identity_namespace.read
 
-### Visualizza autorizzazione eventi, origini dati e azioni di percorso {#view-journeys-event}
+### Visualizza autorizzazione eventi, origini dati e azioni percorsi {#view-journeys-event}
 
 L’ autorizzazione di alto livello **[!UICONTROL View journeys events, data sources and actions]** consente agli utenti di utilizzare eventi e dati nel flusso di percorso.
 
@@ -118,7 +118,7 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * identity_namespace.read
 
-### Visualizza autorizzazione report percorsi {#view-journeys-report}
+### Visualizza autorizzazione rapporto percorsi {#view-journeys-report}
 
 L’ autorizzazione di alto livello **[!UICONTROL View journeys report]** consente agli utenti di visualizzare rapporti di percorso di sola lettura.
 
@@ -134,9 +134,9 @@ Include le seguenti autorizzazioni di basso livello:
    * queries.write
    * queries.delete
 
-## Funzionalità del messaggio {#message-capability}
+## Capacità del messaggio {#message-capability}
 
-### Autorizzazione per gestire i messaggi {#manage-messages}
+### Autorizzazione per la gestione dei messaggi {#manage-messages}
 
 L’ **[!UICONTROL Manage messages]** autorizzazione di alto livello consente agli utenti di creare e modificare/eliminare messaggi.
 
@@ -152,7 +152,7 @@ Include le seguenti autorizzazioni di basso livello:
    * segments.read
    * schemas.read
 
-### Gestione dell&#39;anteprima e del test dei messaggi {#mange-messages-preview}
+### Gestione dell’anteprima e del test dei messaggi {#mange-messages-preview}
 
 L’ **[!UICONTROL Manage messages preview and test]** autorizzazione di alto livello consente agli utenti di visualizzare in anteprima i messaggi personalizzati.
 
@@ -174,7 +174,7 @@ Include le seguenti autorizzazioni di basso livello:
    * queries.write
    * merge_Policies.read
 
-### Autorizzazione per pubblicare messaggi {#publish-messages}
+### Autorizzazione per la pubblicazione dei messaggi {#publish-messages}
 
 L’ **[!UICONTROL Publish messages]** autorizzazione di alto livello consente agli utenti di pubblicare messaggi.
 
@@ -202,7 +202,7 @@ Include le seguenti autorizzazioni di basso livello:
    * schemas.read
    * segments.read
 
-### Visualizza autorizzazione report messaggi {#view-message-reports}
+### Visualizza autorizzazione rapporti messaggi {#view-message-reports}
 
 L’ **[!UICONTROL View messages report]** autorizzazione di alto livello consente agli utenti di inviare e-mail e rapporti push di sola lettura.
 
@@ -299,7 +299,7 @@ Include le seguenti autorizzazioni di basso livello:
    * offers.read
    * placements.read
 
-## Funzionalità di amministrazione {#administration-permissions}
+## Capacità di amministrazione {#administration-permissions}
 
 ### Gestisci autorizzazioni di delega dei sottodomini {#manage-subdomain}
 
@@ -353,7 +353,7 @@ Include le seguenti autorizzazioni di basso livello:
 * Adobe Experience Platform specifico:
    * schemas.read
 
-### Gestisci autorizzazioni predefiniti per messaggi {#manage-message-presets}
+### Autorizzazioni per la gestione dei predefiniti per i messaggi {#manage-message-presets}
 
 L’ **[!UICONTROL Manage messages presets]** autorizzazione di alto livello consente agli utenti di creare, modificare ed eliminare i predefiniti per messaggi tra i diversi canali a livello di sandbox.
 
