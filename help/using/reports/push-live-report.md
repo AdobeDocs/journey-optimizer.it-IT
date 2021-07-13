@@ -1,11 +1,11 @@
 ---
 title: Report live notifiche push
 description: Scopri come utilizzare i dati del rapporto live delle notifiche push
-feature: Reporting
+feature: Generazione rapporti
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -22,6 +22,8 @@ Dalla scheda **[!UICONTROL Executions]** del menu **[!UICONTROL Messages]** , se
 
 Il push **[!UICONTROL Live report]** è suddiviso in diversi widget che ne descrivono il successo e gli errori. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
 
+![](../assets/live_report_3.png)
+
 **[!UICONTROL Push notification performance]** e  **[!UICONTROL Push notification summary]** widget descrivono nel dettaglio le informazioni principali relative al messaggio con grafici e KPI:
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
@@ -37,6 +39,8 @@ Il push **[!UICONTROL Live report]** è suddiviso in diversi widget che ne descr
 * **[!UICONTROL Actions]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
 
 * **[!UICONTROL Engagements]**: Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
+
+![](../assets/live_report_4.png)
 
 I grafici e le tabelle **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** descrivono in dettaglio il successo della notifica push a seconda del sistema operativo.
 
