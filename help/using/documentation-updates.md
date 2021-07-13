@@ -1,15 +1,33 @@
 ---
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
-workflow-type: ht
-source-wordcount: '24'
-ht-degree: 100%
+source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 18%
 
 ---
 
 
-# Aggiornamenti alla documentazione
+# Ultimi aggiornamenti in questa documentazione
 
-Questa pagina elenca tutti gli aggiornamenti alla documentazione per [!DNL Journey Optimizer].
-È inoltre possibile consultare le [Note sulla versione](release-notes.md).
+Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Luglio 2021
+
+* Sono stati aggiunti collegamenti diretti alla documentazione dei servizi Experience Platform nella home page e nel sommario di [!DNL Journey Optimizer]
+* Link aggiunti alla descrizione del prodotto [!DNL Journey Optimizer] nella home page
+* Sono stati aggiunti video di esercitazione nelle pagine della documentazione
+* Immagini ottimizzate della home page
+* La sezione &quot;Tracciamento messaggi&quot; è stata spostata, migliorata e rinominata in &quot;Aggiungi collegamenti e tracciamento messaggi&quot;. [Ulteriori informazioni](message-tracking.md)
+* È stata aggiunta una sottosezione sulle pagine mirror. [Ulteriori informazioni](message-tracking.md#mirror-page)
+* Le &quot;attività di offerta&quot; sono state rinominate &quot;decisioni&quot; e &quot;decisioni&quot; come &quot;ambiti decisionali&quot; nella documentazione e nelle schermate. [Ulteriori informazioni](offers/get-started/starting-offer-decisioning.md)
+* Nuovo caso d’uso: [personalizzare un messaggio con funzioni helper](personalization/personalization-use-case-helper-functions.md)
+* Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](configuration/external-systems.md#capping)
+* La documentazione Leggi segmento è stata aggiornata per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](building-journeys/read-segment.md)
+* Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](building-journeys/journey-gs.md#change-properties)
+* Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso . [Ulteriori informazioni](user-interface.md#section_lgm_hpz_pgb)
+* Sono state aggiornate le limitazioni del Percorso. [Ulteriori informazioni](building-journeys/limitations.md)
+* Il parametro [!UICONTROL Throttling rate] si trova nell’attività Leggi segmento . [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* È stata aggiornata la selezione delle offerte nella sezione Decisioni . [Ulteriori informazioni](offers/offer-activities/configure-offer-selection.md)
+ 
