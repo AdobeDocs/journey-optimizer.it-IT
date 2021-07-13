@@ -13,9 +13,9 @@ internal: n
 snippet: y
 feature: Impostazioni applicazione
 topic: Amministrazione
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 2%
@@ -39,7 +39,7 @@ Puoi modificare la soglia limite utilizzando il pulsante **[!UICONTROL Edit]** d
 
 ![](../assets/retries-edition.png)
 
-## Durata del nuovo tentativo del messaggio {#retry-duration}
+## Durata dell&#39;esecuzione di un nuovo tentativo messaggio {#retry-duration}
 
 I tentativi verranno eseguiti per **3,5 giorni** dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
 
