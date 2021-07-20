@@ -5,9 +5,9 @@ feature: Eventi
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '832'
 ht-degree: 15%
 
 ---
@@ -26,7 +26,7 @@ Gli eventi di business possono essere &quot;un prodotto è di nuovo in magazzino
 * Gli eventi aziendali possono essere eliminati solo come primo passo di un percorso.
 * Quando si rilascia un evento business come primo passaggio di un percorso, il tipo di pianificazione del percorso sarà &quot;evento business&quot;.
 * Solo un’attività di segmento di lettura può essere rilasciata dopo un evento aziendale. Viene aggiunto automaticamente come passaggio successivo.
-* Gli eventi aziendali non possono essere attivati più di un&#39;ora.
+* Per consentire l&#39;esecuzione di più eventi aziendali, attiva l&#39;opzione corrispondente nella sezione **[!UICONTROL Execution]** delle proprietà del percorso.
 * Dopo l’attivazione di un evento aziendale, si verifica un ritardo nell’esportazione del segmento da 15 minuti a un’ora.
 * Quando si esegue il test di un evento aziendale, è necessario trasmettere i parametri dell&#39;evento e l&#39;identificatore del profilo di test che immetterà il percorso nel test. Inoltre, quando esegui il test di un percorso basato su eventi aziendali, puoi attivare solo l’ingresso a un singolo profilo. Vedi [questa sezione](../building-journeys/testing-the-journey.md#test-business). In modalità di test non è disponibile la modalità &quot;Vista codice&quot;.
 * Cosa succede agli individui che si trovano attualmente nel percorso se arriva un nuovo evento di business? Si comporta come quando gli individui si trovano ancora in un percorso ricorrente quando si verifica una nuova ricorrenza. Il loro percorso è finito. Di conseguenza, gli esperti di marketing devono prestare attenzione a evitare di generare percorsi troppo lunghi se si aspettano eventi di business frequenti.
