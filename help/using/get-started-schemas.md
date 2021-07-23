@@ -4,10 +4,10 @@ description: Scopri come utilizzare gli schemi Adobe Experience Platform in Adob
 feature: Schemi
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 4%
+source-wordcount: '319'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ L’area di lavoro **Schemi** nell’interfaccia utente [!DNL Adobe Journey Opti
 
 ![](assets/schemas-home.png)
 
-Scopri come utilizzare l’interfaccia utente di Schemas in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot;}
+Scopri come utilizzare l’interfaccia utente di Schemas in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 
 La documentazione dettagliata per creare uno schema utilizzando l&#39;Editor di schema è disponibile in [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target=&quot;_blank&quot;}
 
