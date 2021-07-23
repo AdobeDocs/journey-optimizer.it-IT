@@ -5,7 +5,7 @@ feature: Personalizzazione
 topic: Personalizzazione
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 7fb159eb495b2ac2c1eded0921b63dbc4bae9cac
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 3%
@@ -33,34 +33,34 @@ Prima di iniziare, assicurati di sapere come configurare questi elementi:
 
 Segui questi passaggi:
 1. [Crea un messaggio e-mail](#configure-email).
-2. [Inserire il nome del cliente in lettere](#uppercase-function) maiuscole.
-3. [Crea l’evento iniziale e il percorso](#create-context).
-4. [Aggiungi il contenuto del carrello all’e-mail](#each-helper).
-5. [Inserisci una nota](#if-helper) specifica per il prodotto.
-6. [Test e pubblicazione del percorso](#test-and-publish).
+1. [Inserire il nome del cliente in lettere](#uppercase-function) maiuscole.
+1. [Crea l’evento iniziale e il percorso](#create-context).
+1. [Aggiungi il contenuto del carrello all’e-mail](#each-helper).
+1. [Inserisci una nota](#if-helper) specifica per il prodotto.
+1. [Test e pubblicazione del percorso](#test-and-publish).
 
 ## Passaggio 1: Creare l’e-mail{#configure-email}
 
 1. Crea o modifica un messaggio e-mail, quindi fai clic su **[!UICONTROL Email Designer]**.
    ![](../assets/personalization-uc-helpers-1.png)
 
-2. Dalla palette a sinistra della home page di E-mail Designer, trascina e rilascia tre componenti struttura nel corpo del messaggio.
+1. Dalla palette a sinistra della home page di E-mail Designer, trascina e rilascia tre componenti struttura nel corpo del messaggio.
 
-3. Trascina un componente di contenuto HTML in ogni nuovo componente struttura.
+1. Trascina un componente di contenuto HTML in ogni nuovo componente struttura.
 
    ![](../assets/personalization-uc-helpers-2.png)
 
 ## Passaggio 2: Inserire il nome del cliente in lettere maiuscole {#uppercase-function}
 
 1. Nella home page di E-mail Designer, fai clic sul componente HTML in cui desideri aggiungere il nome del cliente.
-2. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
+1. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-3. Nella finestra **[!UICONTROL Edit HTML]**, aggiungi la funzione stringa `upperCase` :
+1. Nella finestra **[!UICONTROL Edit HTML]**, aggiungi la funzione stringa `upperCase` :
    1. Nell’elenco, seleziona **[!UICONTROL Helper functions]**.
-   2. Usa il campo di ricerca per trovare &quot;maiuscolo&quot;.
-   3. Dai risultati della ricerca, aggiungi la funzione `upperCase` . A questo scopo, fai clic sul segno più (+) accanto a `{%= upperCase(string) %}: string`.
+   1. Usa il campo di ricerca per trovare &quot;maiuscolo&quot;.
+   1. Dai risultati della ricerca, aggiungi la funzione `upperCase` . A questo scopo, fai clic sul segno più (+) accanto a `{%= upperCase(string) %}: string`.
 
       L’editor espressioni mostra questa espressione:
 
@@ -70,11 +70,11 @@ Segui questi passaggi:
 
       ![](../assets/personalization-uc-helpers-4.png)
 
-4. Rimuovere il segnaposto &quot;string&quot; dall&#39;espressione.
-5. Aggiungi il token del nome:
+1. Rimuovere il segnaposto &quot;string&quot; dall&#39;espressione.
+1. Aggiungi il token del nome:
    1. Nell’elenco, seleziona **[!UICONTROL Profile]**.
-   2. Seleziona **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
-   3. Aggiungi il token **[!UICONTROL First name]** all’espressione.
+   1. Seleziona **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. Aggiungi il token **[!UICONTROL First name]** all’espressione.
 
       L’editor espressioni mostra questa espressione:
 
@@ -86,29 +86,29 @@ Segui questi passaggi:
 
       Ulteriori informazioni sul tipo di dati del nome della persona nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
-6. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
 
    ![](../assets/personalization-uc-helpers-6.png)
-7. Salva il messaggio.
+1. Salva il messaggio.
 
 ## Passaggio 3: Creare l’evento iniziale e il percorso correlato {#create-context}
 
 Il contenuto del carrello è un’informazione contestuale proveniente dal percorso. Pertanto, devi aggiungere un evento iniziale e l’e-mail a un percorso prima di poter aggiungere informazioni specifiche sul carrello all’e-mail.
 
 1. Crea un evento il cui schema include la matrice `productListItems`.
-2. Definisci tutti i campi di questa matrice come campi di payload per questo evento.
+1. Definisci tutti i campi di questa matrice come campi di payload per questo evento.
 
    Ulteriori informazioni sul tipo di dati dell&#39;elemento dell&#39;elenco prodotti [Documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
-3. Crea un percorso che inizia con questo evento.
-4. Aggiungi il messaggio al percorso.
-5. Termina il percorso con un’attività finale.
+1. Crea un percorso che inizia con questo evento.
+1. Aggiungi il messaggio al percorso.
+1. Termina il percorso con un’attività finale.
 
    Poiché il messaggio non è ancora stato pubblicato, non puoi né testare né pubblicare il percorso.
 
    ![](../assets/personalization-uc-helpers-7.png)
 
-6. Fai clic su **[!UICONTROL OK]**.
+1. Fai clic su **[!UICONTROL OK]**.
 
    Un messaggio ti informa che il contesto del percorso è stato trasmesso al messaggio.
 
@@ -120,15 +120,15 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
    ![](../assets/personalization-uc-helpers-18.png)
 
-2. Nella home page di E-mail Designer, fai clic sul componente HTML in cui desideri elencare il contenuto del carrello.
-3. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
+1. Nella home page di E-mail Designer, fai clic sul componente HTML in cui desideri elencare il contenuto del carrello.
+1. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-4. Nella finestra **[!UICONTROL Edit HTML]**, aggiungi l’ `each` helper:
+1. Nella finestra **[!UICONTROL Edit HTML]**, aggiungi l’ `each` helper:
    1. Nell’elenco, seleziona **[!UICONTROL Helper functions]**.
-   2. Usa il campo di ricerca per trovare &quot;ogni&quot;.
-   3. Dai risultati della ricerca, aggiungi l’ `each` helper .
+   1. Usa il campo di ricerca per trovare &quot;ogni&quot;.
+   1. Dai risultati della ricerca, aggiungi l’ `each` helper .
 
       L’editor espressioni mostra questa espressione:
 
@@ -138,18 +138,18 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
       ![](../assets/personalization-uc-helpers-9.png)
 
-5. Aggiungi la matrice `productListItems` all&#39;espressione:
+1. Aggiungi la matrice `productListItems` all&#39;espressione:
 
    1. Rimuovere il segnaposto &quot;someArray&quot; dall’espressione.
-   2. Nell’elenco, seleziona **[!UICONTROL Context]**.
+   1. Nell’elenco, seleziona **[!UICONTROL Context]**.
 
       L’opzione **[!UICONTROL Context]** è disponibile solo dopo che il contesto del percorso è stato trasmesso al messaggio.
 
-   3. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > **[!UICONTROL event_name]**, quindi espandi il nodo **[!UICONTROL productListItems]**.
+   1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > **[!UICONTROL event_name]**, quindi espandi il nodo **[!UICONTROL productListItems]**.
 
       In questo esempio, *nome_evento* rappresenta il nome dell&#39;evento.
 
-   4. Aggiungi il token **[!UICONTROL Product]** all’espressione.
+   1. Aggiungi il token **[!UICONTROL Product]** all’espressione.
 
       L’editor espressioni mostra questa espressione:
 
@@ -160,16 +160,16 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
       ![](../assets/personalization-uc-helpers-10.png)
 
-   5. Modificare l’espressione:
+   1. Modificare l’espressione:
       1. Rimuovi la stringa &quot;.product&quot;.
-      2. Sostituisci il segnaposto &quot;variabile&quot; con &quot;prodotto&quot;.
+      1. Sostituisci il segnaposto &quot;variabile&quot; con &quot;prodotto&quot;.
 
       Questo esempio mostra l&#39;espressione modificata:
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-6. Incolla questo codice tra il tag di apertura `{{#each}}` e il tag di chiusura `{/each}}` :
+1. Incolla questo codice tra il tag di apertura `{{#each}}` e il tag di chiusura `{/each}}` :
 
    ```html
    <table>
@@ -183,10 +183,10 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
    </table>
    ```
 
-7. Aggiungi i token di personalizzazione per il nome dell’articolo, la quantità e il prezzo:
+1. Aggiungi i token di personalizzazione per il nome dell’articolo, la quantità e il prezzo:
 
    1. Rimuovere il segnaposto &quot;#name&quot; dalla tabella HTML.
-   2. Dai risultati della ricerca precedenti, aggiungi il token **[!UICONTROL Name]** all’espressione.
+   1. Dai risultati della ricerca precedenti, aggiungi il token **[!UICONTROL Name]** all’espressione.
 
    Ripeti due volte questi passaggi:
    * Sostituisci il segnaposto &quot;#Quantity&quot; con il token **[!UICONTROL Quantity]**.
@@ -207,20 +207,20 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       </table>
    {{/each}}
    ```
-8. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
    ![](../assets/personalization-uc-helpers-11.png)
 
 ## Passaggio 5: Inserire una nota specifica per il prodotto {#if-helper}
 
 1. Nella home page di E-mail Designer, fai clic sul componente HTML in cui desideri inserire la nota.
-2. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
+1. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-3. Nella finestra **[!UICONTROL Edit HTML]**, aggiungi l’ `if` helper:
+1. Nella finestra **[!UICONTROL Edit HTML]**, aggiungi l’ `if` helper:
    1. Nell’elenco, seleziona **[!UICONTROL Helper functions]**.
-   2. Usa il campo di ricerca per trovare &quot;if&quot;.
-   3. Dai risultati della ricerca, aggiungi l’ `if` helper .
+   1. Usa il campo di ricerca per trovare &quot;if&quot;.
+   1. Dai risultati della ricerca, aggiungi l’ `if` helper .
 
       L’editor espressioni mostra questa espressione:
 
@@ -232,7 +232,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       ```
       ![](../assets/personalization-uc-helpers-12.png)
 
-4. Rimuovi questa condizione dall&#39;espressione:
+1. Rimuovi questa condizione dall&#39;espressione:
 
    ```handlebars
    {%else if condition2%} render_2
@@ -246,14 +246,14 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
    {%/if%}
    ```
 
-5. Aggiungi il token del nome del prodotto alla condizione:
+1. Aggiungi il token del nome del prodotto alla condizione:
    1. Rimuovere il segnaposto &quot;condizione1&quot; dall&#39;espressione.
-   2. Nell’elenco, seleziona **[!UICONTROL Context]**.
-   3. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > **[!UICONTROL event_name]**, quindi espandi il nodo **[!UICONTROL productListItems]**.
+   1. Nell’elenco, seleziona **[!UICONTROL Context]**.
+   1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > **[!UICONTROL event_name]**, quindi espandi il nodo **[!UICONTROL productListItems]**.
 
       In questo esempio, *nome_evento* rappresenta il nome dell&#39;evento.
 
-   4. Aggiungi il token **[!UICONTROL Name]** all’espressione.
+   1. Aggiungi il token **[!UICONTROL Name]** all’espressione.
 
       L’editor espressioni mostra questa espressione:
 
@@ -265,7 +265,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       ```
       ![](../assets/personalization-uc-helpers-13.png)
 
-6. Modificare l’espressione:
+1. Modificare l’espressione:
    1. Nell’editor espressioni, specifica il nome del prodotto dopo il token `name` .
 
       Utilizza questa sintassi, in cui *product_name* rappresenta il nome del tuo prodotto:
@@ -283,7 +283,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       {%/if%}
       ```
 
-   2. Sostituire il segnaposto &quot;render_1&quot; con il testo della nota.
+   1. Sostituire il segnaposto &quot;render_1&quot; con il testo della nota.
 
       Esempio:
 
@@ -293,23 +293,23 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
          {%else%} default_render
       {%/if%}
       ```
-   3. Rimuovere il segnaposto &quot;default_render&quot; dall&#39;espressione.
-7. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
+   1. Rimuovere il segnaposto &quot;default_render&quot; dall&#39;espressione.
+1. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
 
    ![](../assets/personalization-uc-helpers-14.png)
 
-8. Salva e pubblica il messaggio.
+1. Salva e pubblica il messaggio.
 
 ## Passaggio 6: Test e pubblicazione del percorso {#test-and-publish}
 
 1. Apri il percorso. Se il percorso è già aperto, aggiorna la pagina.
-2. Attiva l&#39;interruttore **[!UICONTROL Test]**, quindi fai clic su **[!UICONTROL Trigger an event]**.
+1. Attiva l&#39;interruttore **[!UICONTROL Test]**, quindi fai clic su **[!UICONTROL Trigger an event]**.
 
    Puoi attivare la modalità di test solo dopo aver pubblicato il messaggio.
 
    ![](../assets/personalization-uc-helpers-15.png)
 
-3. Nella finestra **[!UICONTROL Event configuration]**, immetti i valori immessi, quindi fai clic su **[!UICONTROL Send]**.
+1. Nella finestra **[!UICONTROL Event configuration]**, immetti i valori immessi, quindi fai clic su **[!UICONTROL Send]**.
 
    La modalità di test funziona solo con i profili di test.
 
@@ -321,7 +321,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
    ![](../assets/personalization-uc-helpers-17.png)
 
-4. Verifica che non ci sia alcun errore, quindi pubblica il percorso.
+1. Verifica che non ci sia alcun errore, quindi pubblica il percorso.
 
 
 ## Argomenti correlati
