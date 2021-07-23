@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '950'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    >[!NOTE]
    >
-   >Verranno inclusi nel percorso solo i singoli utenti con gli stati di partecipazione al segmento **Realized** e **Existing**. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Verranno inclusi nel percorso solo i singoli utenti con gli stati di partecipazione al segmento **Realized** e **Existing**. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
