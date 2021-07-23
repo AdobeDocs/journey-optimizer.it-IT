@@ -5,9 +5,9 @@ feature: Impostazioni applicazione
 topic: Push
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1450'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Prima di creare un&#39;app mobile, è necessario assicurarsi di disporre o asseg
 
 >[!CAUTION]
 >
->La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti in questa implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore dell&#39;app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Adobe Experience Platform Launch** in [questa documentazione](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}.
+>La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti in questa implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore dell&#39;app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Adobe Experience Platform Launch** in [questa documentazione](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -253,7 +253,7 @@ Dopo aver configurato la tua app mobile sia in Adobe Experience Platform che in 
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Affinché questo percorso funzioni, è necessario creare uno schema XDM. Per ulteriori informazioni, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
+Affinché questo percorso funzioni, è necessario creare uno schema XDM. Per ulteriori informazioni, consulta la [documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target=&quot;_blank&quot;}.
 
 1. Nel menu a sinistra, seleziona **[!UICONTROL Schemas]**.
 
