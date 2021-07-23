@@ -5,20 +5,20 @@ feature: Offerte
 topic: Integrazioni
 role: Data Engineer
 level: Experienced
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '173'
 ht-degree: 6%
 
 ---
 
 # Adobe Experience Platform Web SDK
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en#video-overview){target=&quot;_blank&quot;} è una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi dell’Experience Cloud tramite Adobe Experience Platform Edge Network.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target=&quot;_blank&quot;} è una libreria JavaScript lato client che consente ai clienti di Adobe Experience Cloud di interagire con i vari servizi dell’Experience Cloud tramite Adobe Experience Platform Edge Network.
 
 Adobe Experience Platform Web SDK supporta la query delle soluzioni di personalizzazione in Adobe, inclusa la gestione delle decisioni, per consentire il recupero e il rendering delle offerte personalizzate create tramite API o Libreria offerte.
 
-Per ulteriori informazioni su come distribuire offerte personalizzate utilizzando Adobe Experience Platform Web SDK, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning){target=&quot;_blank&quot;}.
+Per ulteriori informazioni su come distribuire offerte personalizzate utilizzando Adobe Experience Platform Web SDK, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
