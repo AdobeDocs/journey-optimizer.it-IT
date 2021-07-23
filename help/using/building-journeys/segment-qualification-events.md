@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
 
    >[!NOTE]
    >
-   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realized** e **Exited** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono agli stati di partecipazione al segmento **Realized** e **Exited** da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
 
