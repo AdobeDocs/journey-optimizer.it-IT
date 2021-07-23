@@ -5,10 +5,10 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 15%
+source-wordcount: '284'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
 1. Denomina la regola e fornisci una descrizione, quindi configura la regola in base alle tue esigenze.
 
-   A questo scopo, le schede **Generatore di segmenti** sono disponibili per aiutarti a creare le condizioni della regola. [Ulteriori informazioni](../../segment/about-segments.md)
+   A questo scopo, è disponibile il **Generatore di segmenti** per aiutarti a creare le condizioni della regola. [Ulteriori informazioni](../../segment/about-segments.md)
 
    In questo esempio, la regola eseguirà il targeting dei clienti con il livello di fedeltà &quot;Gold&quot;.
 
@@ -47,6 +47,10 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 1. Una volta creata, la regola viene visualizzata nell’elenco delle regole. È possibile selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
 
    ![](../../assets/rule_created.png)
+
+>[!CAUTION]
+>
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarla in un&#39;offerta.
 
 ## Video tutorial {#video}
 
