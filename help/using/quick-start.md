@@ -5,10 +5,10 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 79%
+source-wordcount: '401'
+ht-degree: 78%
 
 ---
 
@@ -36,7 +36,7 @@ Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], è necessario:
 
    * Scopri come visualizzare in anteprima e creare un set di dati con la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it).{target=&quot;_blank&quot;}
 
-   * Scopri come creare uno spazio dei nomi di identità nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it#manage-namespaces){target=&quot;_blank&quot;}
+   * Scopri come creare uno spazio dei nomi di identità nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}
 
    * Scopri come creare profili di test in [questa pagina](../using/building-journeys/creating-test-profiles.md).
 
