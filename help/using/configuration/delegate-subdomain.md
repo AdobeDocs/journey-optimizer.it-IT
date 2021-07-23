@@ -15,10 +15,10 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 10%
+source-wordcount: '472'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,9 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 
    >[!CAUTION]
    >
-   >Assicurati di aver inserito un sottodominio valido, ad esempio marketing.company.com. Delega di un sottodominio non valido ad Adobe non consentita.
+   >Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   >
+   >I sottodomini di più livelli come e-mail.marketing.yourcompany.com non sono attualmente supportati.
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
