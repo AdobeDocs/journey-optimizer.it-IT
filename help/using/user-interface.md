@@ -5,10 +5,10 @@ feature: Panoramica
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1093'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Una volta connesso ad [Adobe Experience Cloud](http://experience.adobe.com), pas
 
 >[!NOTE]
 >
->* I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
+>* I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
    >
    >
 * Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
