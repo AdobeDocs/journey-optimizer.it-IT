@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -56,7 +56,13 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
    >
    >Gli individui appartenenti a un segmento che non hanno l’identità selezionata (namespace) tra le loro diverse identità non possono accedere al percorso.
 
-1. Nel campo **[!UICONTROL Throttling rate]** , definisci il throughput dell’attività Leggi segmento . Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 17.000 e deve essere compreso tra 500 e 17000.
+1. Imposta il campo **[!UICONTROL Throttling rate]** sul limite di throughput dell’attività del segmento letto.
+
+   Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 17.000 messaggi al secondo. Puoi modificare questo valore da 500 a 17.000 messaggi al secondo.
+
+   >[!NOTE]
+   >
+   >Il tasso di limitazione complessivo per sandbox è impostato su 17.000 messaggi al secondo. Pertanto, la velocità di limitazione di tutti i segmenti letti che vengono eseguiti contemporaneamente nella stessa sandbox corrisponde al massimo a 17.000 messaggi al secondo. Non è possibile modificare questo cappuccio.
 
 1. L’attività **[!UICONTROL Read Segment]** ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic sul collegamento **[!UICONTROL Edit journey schedule]** per accedere alle proprietà del percorso, quindi configura il campo **[!UICONTROL Scheduler type]** .
 
