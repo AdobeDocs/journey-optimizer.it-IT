@@ -5,9 +5,9 @@ feature: 'Origini dati '
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1276'
 ht-degree: 98%
 
 ---
@@ -54,7 +54,6 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
 1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
 
-
    * **[!UICONTROL Type]**: &quot;API key&quot;
    * **[!UICONTROL Name]**: &quot;appid&quot; (nome del parametro della chiave API)
    * **[!UICONTROL Value]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
@@ -68,7 +67,6 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 
 * **[!UICONTROL Used in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic sull’icona **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
 * **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-* **[!UICONTROL Cache duration]**: nel nostro caso, vogliamo che il meteo sia memorizzato nella cache per 10 minuti.
 * **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. Consulta la [documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=it){target=&quot;_blank&quot;}.
 * **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
 * **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
