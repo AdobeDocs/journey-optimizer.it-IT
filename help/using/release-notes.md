@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '233'
 ht-degree: 24%
 
 ---
@@ -26,8 +26,25 @@ Puoi anche consultare gli [Aggiornamenti alla documentazione](documentation-upda
 <tr>
 <td>
 <p>Adobe Experience Platform ti consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro. Journey Optimizer ora può sfruttare i dati provenienti da uno schema collegato.</p>
-<p>Questi campi sono disponibili nella configurazione unitaria degli eventi, nelle condizioni di percorso, nella personalizzazione dei messaggi e nella personalizzazione delle azioni personalizzate.
+<p>Questi campi sono disponibili nella configurazione unitaria degli eventi, nelle condizioni di percorso, nella personalizzazione dei messaggi e nella personalizzazione delle azioni personalizzate.</p>
 <p>Per ulteriori informazioni, consulta la <a href="event/experience-event-schema.md#leverage_schema_relationships">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Elenco Consentiti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile definire un elenco specifico di invio sicuro a livello di sandbox per evitare, ad esempio, di inviare e-mail indesiderate ai destinatari in un ambiente di test.
+</p>
+<p>Per ulteriori informazioni, consulta la <a href="allow-list.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
