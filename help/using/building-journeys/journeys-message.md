@@ -1,14 +1,14 @@
 ---
 title: Aggiungere un messaggio in un percorso
 description: Aggiungere un messaggio in un percorso
-feature: Journeys
+feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni in questa sezione [sezione](../action/action.md).
 
-## Aggiunta di un’attività Messaggio
+## Aggiungere un’attività Messaggio
 
 1. Come sempre, inizia il percorso con un evento o un&#39;attività **Leggi segmento** .
 
