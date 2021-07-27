@@ -6,9 +6,9 @@ feature: Azioni
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 9%
 
 ---
@@ -74,7 +74,7 @@ Nella sezione **[!UICONTROL Action parameters]** , incolla un esempio del payloa
 
 >[!NOTE]
 >
->I nomi di campo nel payload non possono contenere un &quot;.&quot; aggiuntivo.
+>I nomi di campo nel payload non possono contenere un &quot;.&quot; aggiuntivo. Non possono iniziare con un carattere &quot;$&quot;.
 
 Puoi definire il tipo di parametro (ad esempio: (stringa, numero intero, ecc.).
 
