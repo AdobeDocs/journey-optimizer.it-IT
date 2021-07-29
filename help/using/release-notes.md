@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 16%
 
 ---
@@ -50,21 +50,22 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 ### Miglioramenti
 
-* **Percorsi**
-   * Il tasso di limitazione complessivo di tutti i segmenti letti eseguiti contemporaneamente nella stessa sandbox è limitato a 17.000 messaggi al secondo. [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * Il campo **Durata cache** è stato rimosso dal riquadro di configurazione dell&#39;origine dati. [Ulteriori informazioni](datasource/about-data-sources.md)
-   * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](configuration/external-systems.md#capping)
-   * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](building-journeys/journey-gs.md#change-properties)
-   * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso . [Ulteriori informazioni](user-interface.md#section_lgm_hpz_pgb)
-   * Il parametro **[!UICONTROL Throttling rate]** è stato aggiunto nell’attività Leggi segmento . [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**Percorsi**
 
-* **Anteprima e test**
-   * Identità e spazio dei nomi ora sono visibili nella schermata **[!UICONTROL Preview]** . [Ulteriori informazioni](preview.md#preview-your-messages)
-   * Il numero di e-mail di test per le bozze è ora limitato a 10.
-   * I caratteri consentiti per il **prefisso della riga oggetto** nelle bozze sono ora limitati. [Ulteriori informazioni](preview.md#send-proofs)
+* Il tasso di limitazione complessivo di tutti i segmenti letti eseguiti contemporaneamente nella stessa sandbox è limitato a 17.000 messaggi al secondo. [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il campo **Durata cache** è stato rimosso dal riquadro di configurazione dell&#39;origine dati. [Ulteriori informazioni](datasource/about-data-sources.md)
+* Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](configuration/external-systems.md#capping)
+* Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](building-journeys/journey-gs.md#change-properties)
+* Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso . [Ulteriori informazioni](user-interface.md#section_lgm_hpz_pgb)
+* Il parametro **[!UICONTROL Throttling rate]** è stato aggiunto nell’attività Leggi segmento . [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **Editor di espressioni di personalizzazione**
-   * L’elenco a discesa helper è stato rinominato e riordinato.
+**Anteprima e verifica dei messaggi**
+* Identità e spazio dei nomi ora sono visibili nella schermata **[!UICONTROL Preview]** . [Ulteriori informazioni](preview.md#preview-your-messages)
+* Il numero di e-mail di test per le bozze è ora limitato a 10.
+* I caratteri consentiti per il **prefisso della riga oggetto** nelle bozze sono ora limitati. [Ulteriori informazioni](preview.md#send-proofs)
+
+**Editor di espressioni di personalizzazione**
+* L’elenco a discesa helper è stato rinominato e riordinato.
 
 ### Correzioni
 
