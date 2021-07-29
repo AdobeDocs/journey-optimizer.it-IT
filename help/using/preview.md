@@ -5,9 +5,9 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,13 @@ Una volta selezionati i [profili di test](#select-test-profiles), puoi inviare l
 
    ![](assets/send-proof-button.png)
 
-1. Seleziona i profili di test che riceveranno la bozza e fai clic su **[!UICONTROL Send proof]**. Se necessario, puoi aggiungere un prefisso alla riga dell’oggetto della bozza.
+1. Dalla finestra **[!UICONTROL Send proof]**, oltre ai profili di test, digita l’e-mail del destinatario e fai clic su **[!UICONTROL Add]** per inviare la bozza a te stesso o ai membri delle organizzazioni.
+
+   Puoi aggiungere fino a 10 destinatari per la consegna delle prove.
+
+   ![](assets/send-proof-button_2.png)
+
+1. Quindi, seleziona i profili di test che riceveranno la bozza e fai clic su **[!UICONTROL Send proof]**. Se necessario, puoi aggiungere un prefisso alla riga dell’oggetto della bozza. Solo caratteri alfanumerici e caratteri speciali, ad esempio . - _ ( ) [ ], sono consentiti come prefisso alla riga dell’oggetto.
 
    ![](assets/send-proof-select.png)
 
