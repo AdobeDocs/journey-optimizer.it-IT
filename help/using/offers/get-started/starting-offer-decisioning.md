@@ -5,10 +5,10 @@ feature: Offerte
 topic: Integrazioni
 role: User
 level: Beginner
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,12 +58,12 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 * La funzione di gestione delle decisioni consente inoltre di migliorare l’esperienza dei clienti che contattano il team di assistenza. Con le API di Gestione delle decisioni puoi visualizzare nel portale degli agenti del call center informazioni sulle offerte di cui il cliente ha già usufruito e sulle migliori offerte successive.
 
-   ![](../../assets/call-center.png)
+   ![](../../assets/do-not-localize/call-center.png)
 
 
 ## Glossario {#glossary}
 
-Di seguito è riportato l&#39;elenco dei concetti principali con cui lavorare quando si utilizza Gestione decisioni.
+Di seguito è riportato l’elenco dei concetti principali con cui lavorare quando si utilizza Gestione decisioni.
 
 * **Quota limite** o **Quota limite frequenza**: il limite viene utilizzato come vincolo per definire quante volte viene presentata un’offerta.
 Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come “Limiti totali”; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come “Limite per profilo”.
