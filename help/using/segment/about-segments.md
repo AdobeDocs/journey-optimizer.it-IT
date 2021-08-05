@@ -5,10 +5,10 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 2d882b8d10cc642b04705dd924fd2b129f4f78ac
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 2%
+source-wordcount: '226'
+ht-degree: 3%
 
 ---
 
@@ -27,18 +27,3 @@ Puoi sfruttare i segmenti nei percorsi in diversi modi:
 * Utilizza l’attività dell’evento **Qualificazione del segmento** per consentire ai singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti argento entrino in un percorso e inviino loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../building-journeys/segment-qualification-events.md).
 
 * Crea **condizioni complesse** nei tuoi percorsi utilizzando l’editor di espressioni semplice o avanzato. [Ulteriori informazioni](../building-journeys/condition-activity.md#using-a-segment).
-
-## Metodo di valutazione in Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
-
-In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei seguenti metodi di valutazione:
-
-* Segmentazione in streaming: l’elenco dei tipi di pubblico per il segmento viene tenuto aggiornato in tempo reale mentre i nuovi dati arrivano nel sistema.
-* Segmentazione in batch: l’elenco del pubblico per il segmento viene aggiornato ogni ora, in base ai dati arrivati nell’ora precedente.
-
-La determinazione tra segmentazione batch e segmentazione in streaming viene effettuata dal sistema per ogni definizione di segmento, in base alla complessità e al costo della valutazione della regola del segmento.
-
-Puoi visualizzare il metodo di valutazione per ciascun segmento nella colonna **[!UICONTROL Evaluation method]** dell’elenco dei segmenti.
-
-Dopo aver definito per la prima volta un segmento, i profili vengono aggiunti al pubblico quando si qualificano.
-
-Il backfill del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo che il pubblico è stato riempito di nuovo, il pubblico viene costantemente aggiornato ed è sempre pronto per il targeting.
