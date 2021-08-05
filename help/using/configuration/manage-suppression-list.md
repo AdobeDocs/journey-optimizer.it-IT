@@ -15,7 +15,7 @@ feature: Impostazioni applicazione
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 2%
@@ -76,7 +76,7 @@ Per ogni indirizzo e-mail elencato, puoi anche controllare la **[!UICONTROL Reas
 I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria di soppressione |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | Impossibile identificare il motivo di mancato recapito ricevuto dall&#39;agente di trasferimento messaggi del dominio destinatario. | Ignorato |
 | **[!UICONTROL Invalid Recipient]** | Il destinatario non è valido o non esiste. | Duro |
 | **[!UICONTROL Soft Bounce]** | Il messaggio è stato rimbalzato per un motivo diverso dagli errori soft elencati in questa tabella, ad esempio quando si invia la velocità consentita consigliata da un ISP. | Morbido |
