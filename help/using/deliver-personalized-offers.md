@@ -5,10 +5,10 @@ feature: Percorsi
 topic: Gestione dei contenuti
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Per ulteriori informazioni su come creare e gestire le offerte, consulta [questa
 
 Per un **esempio completo** che mostra come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un&#39;e-mail, controlla [questa sezione](offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [Scopri come aggiungere offerte come personalizzazione](#video-offers) (video)
+➡️ [Scopri come aggiungere offerte come personalizzazione in questo video](#video-offers)
 
 ## Inserire una decisione in un messaggio e-mail {#insert-offers}
 
@@ -105,6 +105,6 @@ Ulteriori informazioni sui passaggi dettagliati per controllare l&#39;anteprima 
 
 ## Video introduttivo{#video-offers}
 
-Scopri come aggiungere un componente offer decisioning ai messaggi in [!DNL Journey Optimizer].
+Scopri come aggiungere un componente Offer Decisioning ai messaggi in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
