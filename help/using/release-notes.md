@@ -1,10 +1,10 @@
 ---
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
-source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
+source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 15%
 
 ---
 
@@ -60,11 +60,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * Il parametro **[!UICONTROL Throttling rate]** è stato aggiunto nell’attività Leggi segmento . [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Anteprima e verifica dei messaggi**
+
 * Identità e spazio dei nomi ora sono visibili nella schermata **[!UICONTROL Preview]** . [Ulteriori informazioni](preview.md#preview-your-messages)
 * Il numero di e-mail di test per le bozze è ora limitato a 10.
 * I caratteri consentiti per il **prefisso della riga oggetto** nelle bozze sono ora limitati. [Ulteriori informazioni](preview.md#send-proofs)
 
 **Editor di espressioni di personalizzazione**
+
 * L’elenco a discesa helper è stato rinominato e riordinato.
 
 ### Correzioni
@@ -74,3 +76,5 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * È stato risolto un problema a causa del quale le informazioni IP mancavano nella schermata Record PTR.
 * È ora implementata la localizzazione nella barra delle offerte nell’editor espressioni.
 * È stata corretta la spaziatura errata nei popup delle informazioni.
+* È stato risolto un problema in E-mail designer durante il caricamento di un file HTML in cui il foglio di stile interno con proprietà `background-image` non era supportato.
+
