@@ -16,7 +16,7 @@ feature: Gruppi di controllo
 topic: Amministrazione
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 8%
@@ -103,4 +103,4 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni|
 |-|-|
-|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**Visualizza decisioni**: accesso in sola lettura alle entità decisionali.</li><li>**Gestire le strategie** di classificazione: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li><li>**Decisioni** di pubblicazione: approvare o annullare l&#39;approvazione delle attività decisionali.</li></ul>|
+|Gestione delle decisioni| <ul><li>**Gestisci le decisioni**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**Visualizza decisioni**: accesso in sola lettura alle entità decisionali.</li><li>**Gestire le strategie** di classificazione: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li><li>**Decisioni** di pubblicazione: attiva o disattiva le attività decisionali.</li></ul>|
