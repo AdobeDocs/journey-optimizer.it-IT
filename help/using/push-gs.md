@@ -1,11 +1,10 @@
 ---
 title: Introduzione alla configurazione push
 description: Comprendere il flusso di dati e i componenti della notifica push
-feature: Impostazioni applicazione
-topic: Push
+feature: Impostazioni applicazione, push
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 2%
@@ -55,7 +54,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
    * Creazione di proprietà mobili lato client e aggiunta di estensioni. L’SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
    * Registrazione dell&#39;identificatore del bundle dell&#39;app mobile e delle credenziali dell&#39;app
 
-* **Adobe Experience Platform Real-time Customer**  Profils (Profili cliente in tempo reale) offre una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, tra cui web, dispositivi mobili, CRM e terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente. Il token push per un determinato utente dell’app viene memorizzato nel profilo dell’utente come dati di record, mentre le interazioni che l’utente esegue con le notifiche push vengono tracciate come dati di eventi della serie temporale. [Ulteriori informazioni sul profilo cliente in tempo reale di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+* **Adobe Experience Platform Real-time Customer**  Profils (Profili cliente in tempo reale) offre una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, tra cui web, dispositivi mobili, CRM e terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente. Il token push per un determinato utente dell’app viene memorizzato nel profilo dell’utente come dati di record, mentre le interazioni che l’utente esegue con le notifiche push vengono tracciate come dati di eventi della serie temporale. [Ulteriori informazioni sul profilo cliente in tempo reale di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}.
 
 * **[!DNL Adobe Journey Optimizer]** : una volta che le integrazioni delle app mobili con i componenti di cui sopra sono state implementate e i profili dei clienti in Adobe Experience Platform, puoi creare e orchestrare notifiche push in  [!DNL Adobe Journey Optimizer] per interagire con i tuoi utenti.
 
