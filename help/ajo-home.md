@@ -2,14 +2,14 @@
 keywords: Journey Optimizer;home;argomenti popolari
 title: 'Journey Oprimizer: documentazione del prodotto'
 description: Centro assistenza prodotti Adobe Journey Optimizer
-feature: Panoramica
-topic: Gestione dei contenuti
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 39%
+source-wordcount: '208'
+ht-degree: 37%
 
 ---
 
@@ -30,6 +30,11 @@ ht-degree: 39%
       <a href="using/get-started.md">Cos’è [!DNL Journey Optimizer]?</a>
     </div>
     <p>  Scopri le funzioni chiave e come iniziare.
+    <p>
+    <div>
+      <a href="using/release-notes.md">Note sulla versione</a>
+    </div>
+    <p>Scopri nuove funzionalità, miglioramenti e correzioni più recenti
     <p>
     <div>
       <a href="using/design-emails.md">Progettazione di contenuti e-mail</a>
