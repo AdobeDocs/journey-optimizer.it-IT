@@ -5,7 +5,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 1%
@@ -146,11 +146,9 @@ Se la creazione di un predefinito di messaggio non riesce, di seguito sono descr
 
 Se si verifica uno di questi errori, contatta il [team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} per ottenere assistenza.
 
-* **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare gli IP autorizzati che possono inviare e-mail da un determinato sottodominio.
-Un errore di convalida SPF indica che gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider di cassette postali.
+* **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare gli IP autorizzati che possono inviare e-mail da un determinato sottodominio. Un errore di convalida SPF indica che gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider di cassette postali.
 
-* **Convalida DKIM non riuscita**: DKIM consente al server destinatario di verificare che il messaggio ricevuto sia stato inviato dal mittente originale del dominio associato e che il contenuto del messaggio originale non sia stato modificato durante il suo percorso.
-Un errore di convalida DKIM indica che i server di posta riceventi non sono in grado di verificare l’autenticità del contenuto del messaggio e la sua associazione al dominio di invio.
+* **Convalida DKIM non riuscita**: DKIM consente al server destinatario di verificare che il messaggio ricevuto sia stato inviato dal mittente originale del dominio associato e che il contenuto del messaggio originale non sia stato modificato durante il suo percorso. Un errore di convalida DKIM indica che i server di posta riceventi non sono in grado di verificare l’autenticità del contenuto del messaggio e la sua associazione al dominio di invio.
 
 * **Convalida record MX non riuscita**: Un errore di convalida del record MX indica che i server di posta elettronica responsabili dell’accettazione di e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
 
