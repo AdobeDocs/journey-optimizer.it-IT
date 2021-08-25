@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
-source-git-commit: 77d392cc09bd0923faf3d27e951a17cd702d257c
+source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 11%
 
 ---
@@ -79,7 +79,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tr>
 <td>
 <p>È ora possibile definire il periodo di esecuzione dei nuovi tentativi in base al predefinito, in modo da evitare che i tentativi vengano più eseguiti quando non più necessario. Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un messaggio transazionale di reimpostazione della password contenente un collegamento valido solo per un giorno. Le impostazioni dei nuovi tentativi si applicano solo al canale e-mail.</p>
-<p>Per ulteriori informazioni, consulta la <a href="configuration/retries.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="configuration/retries.md#retry-duration">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -122,9 +122,9 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * **Sfondo** : le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](preview.md)
 * **Collegamento**  di rinuncia con un clic: puoi inserire un nuovo tipo di collegamento nel contenuto dell’e-mail: il collegamento  **Opt-** outlink consente agli utenti di annullare l&#39;iscrizione alla ricezione delle tue comunicazioni con un solo clic, senza essere reindirizzati a una pagina di destinazione per confermare la rinuncia. [Ulteriori informazioni](message-tracking.md#one-click-opt-out-link)
 
-**Personalizzazione**
+<!--**Personalization**
 
-<!--* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
 
 **Configurazione e-mail**
 
