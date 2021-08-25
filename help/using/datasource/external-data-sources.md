@@ -1,14 +1,14 @@
 ---
 title: 'Origini dati esterne '
 description: Informazioni su come configurare le origini dati esterne
-feature: 'Origini dati '
-topic: Amministrazione
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 98%
+source-wordcount: '1269'
+ht-degree: 92%
 
 ---
 
@@ -114,10 +114,10 @@ Definizione dell’endpoint da chiamare per la generazione del token di accesso:
 
 * endpoint: URL da utilizzare per generare l’endpoint
 * metodo della richiesta HTTP sull’endpoint (GET o POST)
-* intestazioni: coppie chiave/valore da inserire come intestazioni in questa chiamata, se necessario
-* corpo: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave/valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
-   * &#39;form&#39;: significa che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave/valore saranno serializzate come segue: key1=value1&amp;key2=value2&amp;...
-   * &#39;json&#39;: indica che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie di valori chiave saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* intestazioni: coppie chiave-valore da inserire come intestazioni in questa chiamata, se necessario
+* corpo: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave-valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
+   * &#39;form&#39;: significa che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono: key1=value1&amp;key2=value2&amp;..
+   * &#39;json&#39;: significa che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie chiave-valore saranno serializzate come oggetto json così come sono: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 La definizione della modalità di inserimento del token di accesso nella richiesta HTTP dell’azione:
 
