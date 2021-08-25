@@ -1,14 +1,14 @@
 ---
 title: Elenco di eliminazione
 description: Scopri cosa è l’elenco di soppressione, il suo scopo e ciò che è incluso in esso.
-feature: Consegna
-topic: Gestione dei contenuti
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 4%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -36,9 +36,11 @@ Gli indirizzi e-mail vengono aggiunti all’elenco di eliminazione come segue:
 
 * Tutti i **messaggi non recapitati** e **messaggi spam** inviano automaticamente gli indirizzi e-mail corrispondenti all&#39;elenco di soppressione dopo una singola occorrenza.
 
-* **Gli errori temporanei e** non  **** ignorati non inviano immediatamente un indirizzo e-mail all’elenco di soppressione, ma incrementano un contatore di errori. Vengono quindi eseguiti diversi tentativi e, quando il contatore di errori raggiunge la soglia, l’indirizzo viene aggiunto all’elenco di soppressione. Ulteriori informazioni su [nuovi tentativi](configuration/retries.md).
+* **I** <!--and temporary **ignored** errors--> messaggi non recapitati morbidi non inviano immediatamente un indirizzo e-mail all’elenco di soppressione, ma incrementano un contatore di errori. Vengono quindi eseguiti diversi [tentativi](configuration/retries.md) e, quando il contatore di errori raggiunge la soglia, l&#39;indirizzo viene aggiunto all&#39;elenco di soppressione.
 
-<!--You can also manually add an address to the suppression list. Manual category will be available when ability to manually add an address to the suppression list (via API) is released.-->
+* È inoltre possibile [**aggiungere manualmente** un indirizzo o un dominio](configuration/manage-suppression-list.md#add-addresses-and-domains) all&#39;elenco di soppressione.
+
+Ulteriori informazioni sui rimbalzi rigidi e sui mancati recapiti morbidi in [questa sezione](#delivery-failures).
 
 >[!NOTE]
 >
@@ -49,21 +51,27 @@ Per ogni indirizzo, il motivo di base della soppressione e la categoria di soppr
 
 <!--Once a message is sent, the message logs allow you to view the delivery status for each recipient and the associated failure type and reason. [Learn more about monitoring message execution](monitoring.md). NO ACCESS TO LOGS YET-->
 
+>[!NOTE]
+>
+>I profili con stato **[!UICONTROL Suppressed]** sono esclusi durante il processo di invio del messaggio. Pertanto, mentre i **rapporti sul Percorso** mostreranno questi profili come spostati attraverso il percorso ([Leggi segmento](building-journeys/read-segment.md) e [Messaggio](building-journeys/journeys-message.md)), i **Rapporti e-mail** non li includeranno nelle metriche **[!UICONTROL Sent]** in quanto vengono filtrati prima dell’invio dell’e-mail.
+>
+>Ulteriori informazioni sul [Live Report](reports/live-report.md) e sul [Report globale](reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
+
 ### Errori di consegna {#delivery-failures}
 
-Se una consegna non riesce, possono verificarsi tre tipi di errori:
+Esistono due tipi di errori quando una consegna non riesce:
 
-* **Rimbalzo** duro. Un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail inesistente). Questo comporta un messaggio non recapitato dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido, ad esempio &quot;utente sconosciuto&quot;.
+* **Rimbalzo** duro. Un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail inesistente). Questo comporta un messaggio non recapitato dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido.
 * **Rimbalzo morbido**. Si tratta di un messaggio non recapitato temporaneo per un indirizzo e-mail valido.
-* **Ignorato**. Si tratta di un messaggio non recapitato per un indirizzo e-mail valido ma noto come temporaneo, ad esempio un tentativo di connessione non riuscito, un problema temporaneo relativo allo Spam (reputazione e-mail) o un problema tecnico temporaneo.<!--does it exist in CJM?-->
+<!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
 Un **rimbalzo rigido** aggiunge automaticamente l&#39;indirizzo e-mail all&#39;elenco di soppressione.
 
-Un errore **soft bounce** o un errore **ignorato** che si verifica troppe volte invia anche l&#39;indirizzo e-mail all&#39;elenco di soppressione dopo diversi tentativi. [Ulteriori informazioni sui nuovi tentativi](configuration/retries.md)
+Un **messaggio non recapitato** <!--or an **ignored** error--> che si verifica troppo spesso invia anche l&#39;indirizzo e-mail all&#39;elenco di eliminazione dopo diversi tentativi. [Ulteriori informazioni sui nuovi tentativi](configuration/retries.md)
 
 Se continui a inviare a questi indirizzi, potrebbe influenzare i tassi di consegna, perché comunica agli ISP che potresti non seguire le best practice di manutenzione dell’elenco indirizzi e-mail e quindi potrebbe non essere un mittente affidabile.
 
-### Disturbi dovuti a spam {#spam-complaints}
+### Disturbi dello spam {#spam-complaints}
 
 L’elenco di soppressione raccoglie gli indirizzi e-mail che contrassegnano il messaggio come spam. Ad esempio, se qualcuno scrive a un servizio clienti richiedendo di non ricevere mai più e-mail da te, l’indirizzo e-mail di tale persona verrà soppresso nell’istanza e non potrai più recapitare a tale indirizzo.
 
