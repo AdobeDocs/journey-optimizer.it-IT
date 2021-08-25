@@ -1,14 +1,14 @@
 ---
 title: Rapporto live delle e-mail
 description: Scopri come utilizzare i dati del rapporto live e-mail
-feature: Generazione rapporti
-topic: Gestione dei contenuti
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+source-git-commit: c54e4443c0a8b6c2e427fa007adf5d800b2ba3b5
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 2%
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
@@ -57,3 +57,9 @@ I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** co
 * **[!UICONTROL Soft bounce]**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
 * **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
+
+>[!NOTE]
+>
+>I profili con stato **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** sono esclusi durante il processo di invio del messaggio. Pertanto, mentre i **rapporti sul Percorso** mostreranno questi profili come spostati attraverso il percorso ([Leggi segmento](../building-journeys/read-segment.md) e [Messaggio](../building-journeys/journeys-message.md)), i **Rapporti e-mail** non li includeranno nelle metriche **[!UICONTROL Sent]** in quanto vengono filtrati prima dell’invio dell’e-mail.
+>
+>Ulteriori informazioni sull&#39; [Elenco di soppressione](../suppression-list.md) e sull&#39; [Elenco Consentiti](../allow-list.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html).
