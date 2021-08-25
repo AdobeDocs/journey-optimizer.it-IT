@@ -1,13 +1,13 @@
 ---
 title: Configurare una notifica push
 description: Scopri come creare una notifica push in Journey Optimizer
-feature: Panoramica
-topic: Gestione dei contenuti
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1192'
 ht-degree: 12%
 
 ---
@@ -82,7 +82,7 @@ Una notifica push silenziosa (o notifica in background) è un&#39;istruzione nas
 
 Seleziona l’opzione **[!UICONTROL Silent Notification]** per inviare una notifica silenziosa all’applicazione: in questo caso, la notifica viene trasferita direttamente all&#39;applicazione. Sullo schermo del dispositivo non viene visualizzato alcun avviso.
 
-Utilizza la sezione **[!UICONTROL Custom data]** per aggiungere coppie chiave/valore.
+Utilizza la sezione **[!UICONTROL Custom data]** per aggiungere coppie chiave-valore.
 
 ## Dati personalizzati
 
