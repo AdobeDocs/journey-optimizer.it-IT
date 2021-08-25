@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Quando l&#39;elenco Consentiti è **non vuoto**, viene applicata la logica di el
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando questa funzione è abilitata su una sandbox non di produzione, puoi recuperare indirizzi e-mail o domini che sono stati esclusi da un invio perché non erano nell’elenco Consentiti. A questo scopo, puoi utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) per effettuare le chiamate API riportate di seguito.
+Quando questa funzione è abilitata su una sandbox non di produzione, puoi recuperare indirizzi e-mail o domini che sono stati esclusi da un invio perché non erano nell’elenco Consentiti. A questo scopo, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} per effettuare le chiamate API riportate di seguito.
 
 Per ottenere il **numero di e-mail** che non sono state inviate perché i destinatari non erano nell&#39;elenco Consentiti, utilizza la seguente query:
 
