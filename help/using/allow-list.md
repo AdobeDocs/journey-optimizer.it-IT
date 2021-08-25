@@ -1,13 +1,13 @@
 ---
 title: Elenco consentiti
 description: Scopri come utilizzare l’elenco Consentiti.
-feature: Consegna
-topic: Gestione dei contenuti
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e2743c8fa624a7a95b12c3adb5dc17a1b632c25d
+source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
@@ -24,18 +24,17 @@ L’elenco Consentiti ti consente di specificare singoli indirizzi e-mail o domi
 
 ## Abilitare l’elenco Consentiti {#enable-allow-list}
 
-Per abilitare questa funzione in una sandbox non di produzione, aggiorna l’elenco Consentiti in modo che non sia più vuoto. Per disattivarlo, svuotare l&#39;elenco Consentiti in modo che sia nuovamente vuoto.
+Per abilitare l’elenco Consentiti su una sandbox non di produzione, devi aggiornare le impostazioni generali utilizzando il corrispondente punto finale API nel servizio Messaggi predefiniti.
 
-Ulteriori informazioni sulla logica di elenco Consentiti in [questa sezione](#logic).
+* Utilizzando questa API, puoi anche disabilitare la funzione in qualsiasi momento.
 
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+* È possibile aggiornare l’elenco Consentiti prima o dopo l’abilitazione della funzione.
 
-* Using this API, you can also disable the feature at any time.
+* La logica di elenco Consentiti si applica quando la funzione è abilitata **e** se l&#39;elenco Consentiti è **non** vuoto. [Ulteriori informazioni](#logic).
 
-* You can update the allowed list before or after enabling the feature.
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -54,7 +53,9 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 >
 >L&#39;elenco Consentiti può contenere fino a 1.000 voci.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Logica Elenco Consentiti {#logic}
 
@@ -68,6 +69,31 @@ Quando l&#39;elenco Consentiti è **non vuoto**, viene applicata la logica di el
 
 * Se un&#39;entità è **sull&#39;elenco Consentiti** e non sull&#39;elenco di eliminazione, l&#39;e-mail può essere inviata al destinatario corrispondente. Tuttavia, se l’entità si trova anche nell’ [elenco di soppressione](suppression-list.md), il destinatario corrispondente non riceverà l’e-mail, perché è **[!UICONTROL Suppressed]**.
 
+>[!NOTE]
+>
+>I profili con stato **[!UICONTROL Not allowed]** sono esclusi durante il processo di invio del messaggio. Pertanto, mentre i **rapporti sul Percorso** mostreranno questi profili come spostati attraverso il percorso ([Leggi segmento](building-journeys/read-segment.md) e [Messaggio](building-journeys/journeys-message.md)), i **Rapporti e-mail** non li includeranno nelle metriche **[!UICONTROL Sent]** in quanto vengono filtrati prima dell’invio dell’e-mail.
+>
+>Ulteriori informazioni sul [Live Report](reports/live-report.md) e sul [Report globale](reports/global-report.md).
 
+## Generazione di rapporti di esclusione {#reporting}
 
+Quando questa funzione è abilitata su una sandbox non di produzione, puoi recuperare indirizzi e-mail o domini che sono stati esclusi da un invio perché non erano nell’elenco Consentiti. A questo scopo, puoi utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) per effettuare le chiamate API riportate di seguito.
+
+Per ottenere il **numero di e-mail** che non sono state inviate perché i destinatari non erano nell&#39;elenco Consentiti, utilizza la seguente query:
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+Per ottenere l’ **elenco di indirizzi e-mail** che non sono stati inviati perché i destinatari non erano nell’elenco Consentiti, utilizza la seguente query:
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
