@@ -1,12 +1,13 @@
 ---
 title: Introduzione alla configurazione push
 description: Comprendere il flusso di dati e i componenti della notifica push
-feature: Impostazioni applicazione, push
+topic: Mobile
+feature: Push
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -48,13 +49,13 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 
 * **Adobe Experience Platform Mobile** SDK che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. L&#39;SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone una varietà di API specifiche per i messaggi push e abilita il flusso di dati, come la registrazione del token push o l&#39;invio di eventi di tracciamento push o qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. L’SDK fornisce anche una varietà di altre estensioni che abilitano altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
 
-   L&#39;integrazione SDK richiede anche la configurazione dei servizi Adobe Experience Platform [Data Collection](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=it){target=&quot;_blank&quot;} come:
+   L&#39;integrazione SDK richiede anche la configurazione dei servizi Adobe Experience Platform [Data Collection](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html){target=&quot;_blank&quot;} come:
 
    * Creazione di un datastream per configurare i set di dati evento di profilo ed esperienza in base ai quali i dati scorrono in Adobe Experience Platform
    * Creazione di proprietà mobili lato client e aggiunta di estensioni. L’SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
    * Registrazione dell&#39;identificatore del bundle dell&#39;app mobile e delle credenziali dell&#39;app
 
-* **Adobe Experience Platform Real-time Customer**  Profils (Profili cliente in tempo reale) offre una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, tra cui web, dispositivi mobili, CRM e terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente. Il token push per un determinato utente dell’app viene memorizzato nel profilo dell’utente come dati di record, mentre le interazioni che l’utente esegue con le notifiche push vengono tracciate come dati di eventi della serie temporale. [Ulteriori informazioni sul profilo cliente in tempo reale di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}.
+* **Adobe Experience Platform Real-time Customer**  Profils (Profili cliente in tempo reale) offre una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, tra cui web, dispositivi mobili, CRM e terze parti. Il profilo ti consente di consolidare i dati dei clienti in una visualizzazione unificata che offre un account utilizzabile e con marca temporale per ogni interazione con il cliente. Il token push per un determinato utente dell’app viene memorizzato nel profilo dell’utente come dati di record, mentre le interazioni che l’utente esegue con le notifiche push vengono tracciate come dati di eventi della serie temporale. [Ulteriori informazioni sul profilo cliente in tempo reale di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 * **[!DNL Adobe Journey Optimizer]** : una volta che le integrazioni delle app mobili con i componenti di cui sopra sono state implementate e i profili dei clienti in Adobe Experience Platform, puoi creare e orchestrare notifiche push in  [!DNL Adobe Journey Optimizer] per interagire con i tuoi utenti.
 
