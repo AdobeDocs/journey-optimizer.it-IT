@@ -1,14 +1,14 @@
 ---
 title: Utilizzare un segmento in un percorso
 description: Scopri come utilizzare un segmento in un percorso
-feature: Percorsi
-topic: Gestione dei contenuti
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '997'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    >[!NOTE]
    >
-   >Il tasso di limitazione complessivo per sandbox è impostato su 17.000 messaggi al secondo. Pertanto, la velocità di limitazione di tutti i segmenti letti che vengono eseguiti contemporaneamente nella stessa sandbox corrisponde al massimo a 17.000 messaggi al secondo. Non è possibile modificare questo cappuccio.
+   >Il tasso di limitazione complessivo per sandbox è impostato su 20.000 messaggi al secondo. Pertanto, il tasso di limitazione di tutti i segmenti letti che vengono eseguiti contemporaneamente nella stessa sandbox corrisponde al massimo a 20.000 messaggi al secondo. Non è possibile modificare questo cappuccio.
 
 1. L’attività **[!UICONTROL Read Segment]** ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic sul collegamento **[!UICONTROL Edit journey schedule]** per accedere alle proprietà del percorso, quindi configura il campo **[!UICONTROL Scheduler type]** .
 
