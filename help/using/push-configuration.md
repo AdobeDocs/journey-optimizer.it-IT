@@ -1,12 +1,11 @@
 ---
 title: Configurazione della notifica push
 description: Scopri come configurare il tuo ambiente per l’invio di notifiche push con Journey Optimizer
-feature: Impostazioni applicazione, push
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1447'
 ht-degree: 4%
 
 ---
@@ -30,11 +29,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Impostare le autorizzazioni
 
-Prima di creare un&#39;app mobile, è necessario assicurarsi di disporre o assegnare le autorizzazioni utente corrette in **Adobe Experience Platform Launch**. Ulteriori informazioni sono disponibili nella documentazione di [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}.
+Prima di creare un&#39;app mobile, è necessario assicurarsi di disporre o assegnare le autorizzazioni utente corrette in **Adobe Experience Platform Launch**. Ulteriori informazioni sono disponibili nella documentazione di [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
->La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti in questa implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore dell&#39;app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Adobe Experience Platform Launch** in [questa documentazione](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
+>La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti in questa implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore dell&#39;app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Adobe Experience Platform Launch** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
