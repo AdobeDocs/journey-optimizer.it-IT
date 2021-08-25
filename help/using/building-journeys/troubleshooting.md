@@ -1,14 +1,14 @@
 ---
 title: Risoluzione dei problemi del percorso
 description: Scopri come risolvere gli errori nei percorsi
-feature: Percorsi
-topic: Gestione dei contenuti
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ Di seguito sono riportati alcuni elementi che l’amministratore deve controllar
 * Il payload dell’evento contiene un ID evento?
 * Hai raggiunto l’URL giusto?
 * Hai seguito la struttura del payload delle API di Streaming Ingestion utilizzando l’anteprima della struttura del payload nel riquadro di configurazione dell’evento? Consulta [questa pagina](../event/about-creating.md#preview-the-payload).
-* Hai usato le coppie chiave/valore corrette nell’intestazione dell’evento?
+* Hai usato le coppie chiave-valore corrette nell&#39;intestazione dell&#39;evento?
 
    ```
    X-gw-ims-org-id - your ORGID
