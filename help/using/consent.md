@@ -1,14 +1,14 @@
 ---
 title: Gestire l’opt-out
 description: Scopri come gestire l’opt-out e la privacy
-feature: Percorsi
-topic: Gestione dei contenuti
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 90%
+source-wordcount: '814'
+ht-degree: 80%
 
 ---
 
@@ -36,6 +36,8 @@ Come requisito legale, è necessario dare ai destinatari la possibilità di annu
 Pertanto, devi sempre includere un **collegamento per l’annullamento dell’iscrizione** in ogni e-mail inviata ai destinatari:
 * Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare l’opt-out.
 * Facendo clic sul pulsante di opt-out, viene effettuata una chiamata Adobe I/O per aggiornare i dati del profilo con queste informazioni. [Ulteriori informazioni](#consent-service-api).
+
+### Aggiungi un collegamento per annullare l’abbonamento {#add-unsubscribe-link}
 
 Per aggiungere un collegamento per l’annullamento dell’iscrizione, effettua le seguenti operazioni:
 
@@ -87,7 +89,7 @@ Nella scheda **[!UICONTROL Attributes]**, puoi vedere che il valore di **[!UICON
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## Chiamata API per opt-out {#opt-out-api}
+### Chiamata API per opt-out {#opt-out-api}
 
 Una volta che il destinatario ha rinunciato facendo clic sul collegamento di annullamento dell’iscrizione, viene effettuata una chiamata API di Adobe I/O <!--Consent service API to capture the encrypted data and--> per aggiornare le preferenze del profilo corrispondente.
 
@@ -129,6 +131,14 @@ Corpo della richiesta:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## Rinuncia con un clic {#one-click-opt-out}
+
+Poiché molti clienti cercano un processo più semplice per annullare l’iscrizione, puoi anche aggiungere un collegamento di rinuncia con un solo clic al contenuto dell’e-mail. Questo collegamento consentirà ai destinatari di annullare rapidamente l’iscrizione alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui devono confermare la rinuncia.
+
+Scopri come aggiungere un collegamento di rinuncia al contenuto del messaggio in [questa sezione](message-tracking.md#one-click-opt-out-link).
+
+Una volta inviato il messaggio tramite un [percorso](building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, viene immediatamente escluso.
 
 ## Collegamento per annullare l’abbonamento nell’intestazione {#unsubscribe-email}
 
