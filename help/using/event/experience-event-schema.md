@@ -1,13 +1,13 @@
 ---
 title: Informazioni sugli schemi ExperienceEvent per eventi di percorso
 description: Scopri gli schemi ExperienceEvent per eventi di percorso
-feature: Schemi
-topic: Amministrazione
+feature: Schemas
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Ecco lo schema di acquisto con la relazione definita nel campo ID prodotto .
 
 In Journey Optimizer puoi quindi sfruttare tutti i campi delle tabelle collegate:
 
-* durante la configurazione di un evento unitario, [Ulteriori informazioni](../event/experience-event-schema.md#unitary_event_configuration)
+* durante la configurazione di un evento aziendale o unitario, [Ulteriori informazioni](../event/experience-event-schema.md#unitary_event_configuration)
 * quando utilizzi le condizioni in un percorso, [Ulteriori informazioni](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * nella personalizzazione dei messaggi, [Ulteriori informazioni](../event/experience-event-schema.md#message_personalization)
 * in personalizzazione azioni personalizzata, [Ulteriori informazioni](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configurazione di un evento unitario{#unitary_event_configuration}
+### Configurazione evento{#unitary_event_configuration}
 
-I campi dello schema collegati sono disponibili nella configurazione di un evento unitario:
+I campi dello schema collegati sono disponibili nella configurazione di un evento unitario e aziendale:
 
 * quando esplori i campi dello schema evento nella schermata di configurazione dell’evento.
 * quando si definisce una condizione per gli eventi generati dal sistema.
@@ -90,7 +90,6 @@ I campi collegati non sono disponibili:
 
 * nella formula della chiave evento
 * in condizione id evento (eventi basati su regole)
-* in eventi aziendali (in arrivo successivamente)
 
 Per scoprire come configurare un evento unitario, consulta questa [pagina](../event/about-creating.md).
 
