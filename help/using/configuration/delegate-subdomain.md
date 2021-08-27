@@ -11,14 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Impostazioni applicazione
-topic: Amministrazione
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
+source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 9%
+source-wordcount: '758'
+ht-degree: 6%
 
 ---
 
@@ -55,7 +55,7 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
-   Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo..&quot;, quindi fai clic su **[!UICONTROL Submit]**.
+1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo..&quot;, quindi fai clic su **[!UICONTROL Submit]**.
 
    ![](../assets/subdomain-submit.png)
 
@@ -65,19 +65,9 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 
 1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell’elenco con lo stato **[!UICONTROL Processing]** . Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
 
-   I controlli e le azioni seguenti vengono eseguiti fino a quando il sottodominio non viene verificato e possono essere utilizzati per inviare messaggi.
-
-   Questo passaggio viene eseguito per Adobe e può richiedere fino a 3 ore.
-
-   1. Controllare se il sottodominio è stato delegato ad Adobe DNS (record NS, record SOA, configurazione zona, record di proprietà),
-   1. Configura il DNS per il dominio,
-   1. Creare URL di tracciamento e mirror,
-   1. Provisioning di CDN Cloud Front,
-   1. Creare, convalidare e allegare il certificato SSL CDN,
-   1. Crea DNS avanti,
-   1. Crea record PTR.
-
    ![](../assets/subdomain-processing.png)
+
+   Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 3 ore. [Ulteriori informazioni](#subdomain-validation).
 
 1. Una volta eseguiti i controlli, il sottodominio ottiene lo stato **[!UICONTROL Success]** . È pronto per essere utilizzato per inviare messaggi.
 
@@ -85,4 +75,31 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 
    ![](../assets/subdomain-notification.png)
 
+## Convalida del sottodominio {#subdomain-validation}
 
+I controlli e le azioni seguenti vengono eseguiti fino a quando il sottodominio non viene verificato e possono essere utilizzati per inviare messaggi.
+
+>[!NOTE]
+>
+>Questi passaggi vengono eseguiti per Adobe e possono richiedere fino a 3 ore.
+
+1. **Pre-convalida**: Adobe controlla se il sottodominio è stato delegato a DNS Adobi (record NS, record SOA, configurazione zona, record di proprietà). Se il passaggio di pre-convalida non riesce, viene restituito un errore insieme al motivo corrispondente, altrimenti l’Adobe passa al passaggio successivo.
+
+1. **Configura il DNS per il dominio**:
+
+   * **Record** MX: Record eXchange di posta - Record server di posta che elabora le e-mail in entrata inviate al sottodominio.
+   * **Record** SPF: Record del framework dei criteri del mittente: elenca gli IP dei server di posta che possono inviare e-mail dal sottodominio.
+   * **Record** DKIM: Record standard DomainKeys Identified Mail - Utilizza la crittografia a chiave pubblica-privata per autenticare il messaggio per evitare lo spoofing.
+   * **A**: Mappatura IP predefinita.
+
+1. **Creare URL** di tracciamento e mirroring: se il dominio è email.example.com, il dominio di tracking/mirror sarà data.email.example.com. È protetto installando il certificato SSL.
+
+1. **Provisioning di CDN CloudFront**: se CDN non è già configurato, Adobe lo prevede per l’imsorg.
+
+1. **Crea dominio** CDN: se il dominio è email.example.com, il dominio CDN sarà cdn.email.example.com.
+
+1. **Crea e allega il certificato** SSL CDN: Adobe crea il certificato CDN per il dominio CDN e allega il certificato al dominio CDN.
+
+1. **Crea DNS** avanti: se si tratta del primo sottodominio che stai delegando, Adobe creerà il DNS in anticipo richiesto per creare record PTR, uno per ciascuno dei tuoi IP.
+
+1. **Crea record** PTR: Il record PTR, noto anche come record DNS inversi, è richiesto dagli ISP in modo che non contrassegnino le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. Adobe crea record PTR solo quando deleghi il primo sottodominio, uno per ogni IP, tutti gli IP che puntano al primo sottodominio. Ad esempio, se l’IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1 PTR r1.email.example.com*. È possibile aggiornare successivamente il record PTR in modo da puntare al nuovo dominio delegato.
