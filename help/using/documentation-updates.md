@@ -1,10 +1,10 @@
 ---
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
-source-git-commit: a80f9675741aeefa51857cf9fd47c5e7441229cd
+source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 14%
+source-wordcount: '425'
+ht-degree: 13%
 
 ---
 
@@ -27,6 +27,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e con i dettagli relativi a tali errori. [Ulteriori informazioni](configuration/message-presets.md#monitor-message-presets)
 * È stata aggiornata e rinominata la sezione Periodo di tempo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti messaggio. [Ulteriori informazioni](configuration/retries.md#retry-duration)
 * È stata aggiunta una nuova sezione per descrivere come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](message-tracking.md#one-click-opt-out-link)
+* È stata aggiornata la sezione Delega un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](configuration/delegate-subdomain.md#subdomain-validation)
+
 <!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
 
 
