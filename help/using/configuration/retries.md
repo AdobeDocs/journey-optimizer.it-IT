@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
 
 # Nuovi tentativi {#retries}
 
-Quando un messaggio e-mail non riesce a causa di un errore temporaneo **Soft bounce** o **Ignored** , vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo viene aggiunto all’elenco di soppressione.
+Quando un messaggio e-mail non riesce a causa di un errore temporaneo **Soft bounce** , vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo viene aggiunto all’elenco di soppressione.
 
 >[!NOTE]
 >
 >Ulteriori informazioni sui tipi di errori nella sezione [Tipi di errori di consegna](../suppression-list.md#delivery-failures) .
 
-Nella configurazione predefinita, la soglia è impostata su tre errori:
+Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
-* Per la stessa consegna, alla terza si è verificato un errore, l’indirizzo viene soppresso.
+* Per la stessa consegna, alla quinta si è verificato un errore entro il [periodo di tempo di esecuzione dei tentativi](#retry-duration), l&#39;indirizzo viene eliminato.
 
-* Se ci sono consegne diverse e due errori si verificano almeno a 24 ore di distanza, il contatore degli errori viene incrementato a ogni errore e l’indirizzo viene eliminato anche al terzo tentativo.
+* Se ci sono consegne diverse e due errori si verificano almeno a 24 ore di distanza, il contatore degli errori viene incrementato a ogni errore e l’indirizzo viene eliminato anche al quinto tentativo.
 
 Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di errori dell’indirizzo viene reinizializzato.
 
-Puoi modificare la soglia limite utilizzando il pulsante **[!UICONTROL Edit]** dal menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** .
+Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura seguente.
 
-![](../assets/retries-edition.png)
+1. Vai a **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+
+1. Fai clic sul pulsante **[!UICONTROL Edit suppression rules]**.
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. Modifica il numero consentito di mancati recapiti consecutivi in base alle tue esigenze.
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   È necessario immettere un valore intero compreso tra 1 e 20, il che significa che il numero minimo di tentativi è 1 e il numero massimo è 20.
+
+   >[!CAUTION]
+   >
+   >Qualsiasi valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché limitazione o inserire nell&#39;elenco Bloccati IP da parte degli ISP. [Ulteriori informazioni sul recapito messaggi](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 or
 Scopri come regolare i parametri dei tentativi e-mail durante la creazione di un predefinito messaggio in [questa sezione](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

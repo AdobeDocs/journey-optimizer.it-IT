@@ -1,9 +1,9 @@
 ---
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '455'
 ht-degree: 13%
 
 ---
@@ -28,8 +28,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata e rinominata la sezione Periodo di tempo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti messaggio. [Ulteriori informazioni](configuration/retries.md#retry-duration)
 * È stata aggiunta una nuova sezione per descrivere come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](message-tracking.md#one-click-opt-out-link)
 * È stata aggiornata la sezione Delega un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* È stata aggiunta una sezione per descrivere come aggiungere manualmente indirizzi e-mail e domini all’elenco di eliminazione. [Ulteriori informazioni](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* Aggiornamento delle sezioni [Accedi alla sezione dell&#39;elenco di soppressione](configuration/manage-suppression-list.md#access-suppression-list) e [Nuovi tentativi](configuration/retries.md) per riflettere la nuova interfaccia utente.
 
 
 ## Luglio 2021
@@ -44,9 +44,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una sottosezione sulle pagine mirror. [Ulteriori informazioni](message-tracking.md#mirror-page)
 * Le &quot;attività di offerta&quot; sono state rinominate &quot;decisioni&quot; e &quot;decisioni&quot; come &quot;ambiti decisionali&quot; nella documentazione e nelle schermate. [Ulteriori informazioni](offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con funzioni helper](personalization/personalization-use-case-helper-functions.md)
-* La documentazione Leggi segmento è stata aggiornata per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](building-journeys/read-segment.md)
+* È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](building-journeys/read-segment.md)
 * Sono state aggiornate le limitazioni del Percorso. [Ulteriori informazioni](building-journeys/limitations.md)
-* È stata aggiornata la sezione &quot;Configurare la selezione delle offerte nelle decisioni&quot;. [Ulteriori informazioni](offers/offer-activities/configure-offer-selection.md)
+* È stata aggiornata la selezione delle offerte nella sezione relativa alle decisioni . [Ulteriori informazioni](offers/offer-activities/configure-offer-selection.md)
 * È stato aggiunto un avviso per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#eligibility)
-* La nuova scheda Gestione decisioni [!UICONTROL Overview] è stata documentata. [Ulteriori informazioni](offers/get-started/user-interface.md#overview)
+* Documentazione della nuova scheda **[!UICONTROL Overview]** di Gestione decisioni. [Ulteriori informazioni](offers/get-started/user-interface.md#overview)
 * Sono state aggiunte nuove sezioni per descrivere le azioni disponibili negli elenchi delle offerte e delle decisioni: [Elenco offerte](offers/offer-library/creating-personalized-offers.md#offer-list) e [Elenco decisioni](offers/offer-activities/create-offer-activities.md#decision-list).

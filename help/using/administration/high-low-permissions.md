@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: Gruppi di controllo
-topic: Amministrazione
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestisci autorizzazioni di delega dei sottodomini {#manage-subdomain}
 
-L’ **[!UICONTROL Manage subdomains delegation]** autorizzazione di alto livello consente agli utenti di creare, modificare ed eliminare la delega del sottodominio (incluso il pool IP).
+L’ **[!UICONTROL Manage subdomains delegation]** autorizzazione di alto livello consente agli utenti di creare, modificare ed eliminare delegazioni di sottodominio (incluso il pool IP).
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -313,7 +313,9 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione record PTR {#view-ptr}
 
-L’ **[!UICONTROL View PTR records]** autorizzazione di alto livello consente agli utenti di visualizzare i record PTR configurati in base al sottodominio e include le seguenti autorizzazioni di basso livello:
+L’ autorizzazione di alto livello **[!UICONTROL View PTR records]** consente agli utenti di visualizzare i record PTR configurati in base al sottodominio.
+
+Include le seguenti autorizzazioni di basso livello:
 
 * PTR_records.read
 * sottodomini_delegate.read
@@ -338,13 +340,12 @@ Include le seguenti autorizzazioni di basso livello:
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-
 * Adobe Experience Platform specifico:
    * schemas.read
 
 ### Visualizza messaggi autorizzazione impostazioni generali {#view-message-settings}
 
-L’ **[!UICONTROL View messages general settings]** autorizzazione di alto livello consente agli utenti di visualizzare i messaggi e le impostazioni generali, ad esempio le regole di soppressione o l’indirizzo di esecuzione.
+L’ **[!UICONTROL View messages general settings]** autorizzazione di alto livello consente agli utenti di visualizzare i messaggi e le impostazioni generali, ad esempio l’indirizzo di esecuzione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -378,19 +379,21 @@ Include le seguenti autorizzazioni di basso livello:
 * IP_pool.read
 * mobile_setting.read (da Adobe Experience Platform Launch)
 
-### Gestisci autorizzazione regole di eliminazione {#manage-suppression-rules}
+### Gestisci autorizzazione di soppressione {#manage-suppression}
 
-L’ autorizzazione di alto livello **[!UICONTROL Manage suppression rules]** consente agli utenti di definire il numero di messaggi non recapitati prima che l’indirizzo e-mail dell’utente venga aggiunto all’elenco di eliminazione.
+L’ **[!UICONTROL Manage suppression]** autorizzazione di alto livello consente agli utenti di definire il numero di messaggi non recapitati prima che un indirizzo e-mail venga aggiunto all’elenco di eliminazione, nonché di aggiungere ed eliminare voci da/verso l’elenco di eliminazione.
 
 Include le seguenti autorizzazioni di basso livello:
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### Visualizza autorizzazione elenco di soppressione {#view-suppresion-list}
 
-L’ **[!UICONTROL View suppression list]** autorizzazione di alto livello consente agli utenti di visualizzare le configurazioni dei messaggi, compresi i predefiniti per messaggi e le impostazioni generali dei messaggi.
+L’ autorizzazione di alto livello **[!UICONTROL View suppression list]** consente agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -402,10 +405,12 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per l&#39;esportazione dell&#39;elenco di soppressione {#export-suppression-list}
 
-L’ **[!UICONTROL Export suppression list]** autorizzazione di alto livello consente agli utenti di configurare le configurazioni dei messaggi, compresi i predefiniti per messaggi e le impostazioni generali dei messaggi.
+L’ autorizzazione di alto livello **[!UICONTROL Export suppression list]** consente agli utenti di scaricare l’elenco di soppressione come file CSV.
 
 Include le seguenti autorizzazioni di basso livello:
 
+* Journey Optimizer specifico:
+   * suppression_list.export
 * Adobe Experience Platform specifico:
    * profiles.read
    * datasets.read

@@ -15,10 +15,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
+source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 3%
+source-wordcount: '911'
+ht-degree: 2%
 
 ---
 
@@ -31,30 +31,51 @@ Con [!DNL Journey Optimizer] puoi monitorare tutti gli indirizzi e-mail che veng
 * Gli indirizzi non recapitati in modo coerente e possono influenzare negativamente la reputazione delle e-mail se continui a includerli nelle consegne.
 * Destinatari che emettono una denuncia di spam di qualche tipo contro uno dei tuoi messaggi e-mail.
 
-Tali indirizzi e-mail vengono raccolti automaticamente nell&#39;elenco di eliminazione di Journey Optimizer ****. [Ulteriori informazioni](../suppression-list.md).
+Tali indirizzi e-mail vengono raccolti automaticamente nell&#39;elenco di eliminazione di Journey Optimizer ****. Ulteriori informazioni sul concetto e sull&#39;utilizzo dell&#39;elenco di soppressione in [questa sezione](../suppression-list.md).
 
 ## Accedere all&#39;elenco di soppressione {#access-suppression-list}
 
-Per accedere all’elenco dettagliato degli indirizzi e-mail esclusi, apri il menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**, quindi fai clic sul collegamento **[!UICONTROL View suppression lists]** .
+Per accedere all’elenco dettagliato degli indirizzi e-mail esclusi, vai su **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** e seleziona **[!UICONTROL Suppression list]**.
 
-![](../assets/suppression-list-link.png)
+>[!CAUTION]
+>
+>Le autorizzazioni per visualizzare, esportare e gestire l&#39;elenco di soppressione sono limitate a [Amministratori di Percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
 
-<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+<!--![](../assets/suppression-list-link.png)
 
-![](../assets/suppression-list-access-temp.png)-->
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+
+![](../assets/suppression-list-access.png)
 
 Sono disponibili filtri che consentono di sfogliare l’elenco.
 
-![](../assets/suppression-list-filters-temp.png)
+<!--![](../assets/suppression-list-filters-temp.png)-->
 
-<!--![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
+Puoi filtrare i valori **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** o **[!UICONTROL Reason]**. Seleziona le opzioni desiderate per ciascun criterio. Una volta selezionato, puoi cancellare ogni filtro o tutti i filtri visualizzati in cima all’elenco.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.-->
+Se aggiungi manualmente un indirizzo e-mail o un dominio per errore, il pulsante **[!UICONTROL Delete]** ti consente di rimuovere tale voce.
+
+>[!CAUTION]
+>
+>Non utilizzare mai il pulsante **[!UICONTROL Delete]** per rimuovere gli indirizzi e-mail o i domini soppressi.
+
+![](../assets/suppression-list-delete.png)
+
+Se elimini un indirizzo e-mail o un dominio dall&#39;elenco di soppressione significa che inizierai di nuovo a consegnare a questo indirizzo o dominio. Di conseguenza, questo può avere gravi ripercussioni sulla consegna e sulla reputazione dell’IP, il che potrebbe comportare il blocco dell’indirizzo IP o del dominio di invio. Ulteriori informazioni sull&#39;importanza di mantenere un elenco di soppressione in [questa sezione](../suppression-list.md).
+
+>[!NOTE]
+>
+>Procedi con molta attenzione quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbio, contatta un esperto di recapito.
+
+Dalla vista **[!UICONTROL Suppression list]** è inoltre possibile modificare le regole di soppressione. [Ulteriori informazioni](retries.md)
+
+Per esportare l’elenco di soppressione come file CSV, seleziona il pulsante **[!UICONTROL Download CSV]** .
+
+![](../assets/suppression-list-download-csv.png)
 
 ## Categorie e motivi di soppressione {#suppression-categories-and-reasons}
 
@@ -84,7 +105,7 @@ Le categorie di soppressione sono le seguenti:
 
 Per ogni indirizzo e-mail elencato, puoi anche controllare **[!UICONTROL Type]** (e-mail o dominio), **[!UICONTROL Reason]** per escluderlo, chi l’ha aggiunto e la data/ora in cui è stato aggiunto all’elenco di eliminazione.
 
-<!--![](../assets/suppression-list.png)-->
+![](../assets/suppression-list.png)
 
 I possibili motivi di un errore di consegna sono:
 
@@ -96,10 +117,11 @@ I possibili motivi di un errore di consegna sono:
 | **[!UICONTROL Mailbox Full]** | Il messaggio è stato rimbalzato perché la casella di posta del destinatario era piena e non poteva accettare altri messaggi. | Morbido |
 | **[!UICONTROL Relaying Denied]** | Il messaggio è stato bloccato dal destinatario perché l&#39;invio non è consentito. | Morbido |
 | **[!UICONTROL Challenge-Response]** | Il messaggio è una sonda di risposta alla sfida. | Morbido |
+| **[!UICONTROL Spam Complaint]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Duro |
 
 >[!NOTE]
 >
->Gli utenti non abbonati non ricevono e-mail da [!DNL Journey Optimizer], pertanto i loro indirizzi e-mail non possono essere inviati all’elenco di soppressione. La loro scelta viene gestita a livello di Experience Platform. Ulteriori informazioni su [rinuncia](../consent.md).
+>Gli utenti non abbonati non ricevono e-mail da [!DNL Journey Optimizer], pertanto i loro indirizzi e-mail non possono essere inviati all’elenco di soppressione. La loro scelta viene gestita a livello di Experience Platform. [Ulteriori informazioni sulla rinuncia](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -119,82 +141,82 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
 
-<!--## Manually add addresses and domains {#add-addresses-and-domains}
+## Aggiungere manualmente indirizzi e domini {#add-addresses-and-domains}
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
+Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di soppressione o al conteggio dei messaggi non recapitati definiti.
 
-However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+Tuttavia, puoi anche compilare manualmente l’ [!DNL Journey Optimizer] elenco di soppressione per escludere specifici indirizzi e-mail e/o domini dall’invio.
 
-You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
+Puoi aggiungere indirizzi e-mail o domini [uno alla volta](#add-one-address-or-domain), o [in modalità collettiva](#upload-csv-file) tramite un caricamento di file CSV.
 
-To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
+A questo scopo, seleziona il pulsante **[!UICONTROL Add email or domain]** , quindi segui uno dei metodi seguenti.
 
 ![](../assets/suppression-list-add-email.png)
 
-### Add one address or domain {#add-one-address-or-domain}
+### Aggiungi un indirizzo o un dominio {#add-one-address-or-domain}
 
-1. Select the **[!UICONTROL One by one]** option.
+1. Seleziona l&#39;opzione **[!UICONTROL One by one]**.
 
-    ![](../assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. Scegli il tipo di indirizzo: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
 
-1. Enter the email address or domain you want to exclude from your sending.
+1. Immetti l’indirizzo e-mail o il dominio da escludere dall’invio.
 
-    >[!NOTE]
-    >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+   >[!NOTE]
+   >
+   >Assicurati di inserire un indirizzo e-mail valido (ad esempio abc@company) o un dominio (ad esempio abc.company.com).
 
-1. Specify a reason if needed.
+1. Se necessario, specifica un motivo.
 
-1. Click **[!UICONTROL Submit]**.
+1. Fai clic su **[!UICONTROL Submit]**.
 
-### Upload a CSV file {#upload-csv-file}
+### Caricare un file CSV {#upload-csv-file}
 
-1. Select the **[!UICONTROL Upload CSV]** option.
+1. Seleziona l&#39;opzione **[!UICONTROL Upload CSV]**.
 
-    ![](../assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
-1. Download the CSV template to use, which includes the columns and format below:
+1. Scarica il modello CSV da utilizzare, che include le colonne e il formato seguenti:
 
-    ```
-    TYPE,VALUE,COMMENT
-    EMAIL,abc@somedomain.com,Comment
-    DOMAIN,somedomain.com,Comment
-    ```
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
+   ```
+   TYPE,VALUE,COMMENT
+   EMAIL,abc@somedomain.com,Comment
+   DOMAIN,somedomain.com,Comment
+   ```
+   Puoi anche scaricare questo modello dalla vista principale **[!UICONTROL Suppression list]**.
 
-    >[!CAUTION]
-    >
-    >Do not change the names of the columns in the CSV template.
-    >
-    >The file size should not exceed 50 MB.
+   >[!CAUTION]
+   >
+   >Non modificare i nomi delle colonne nel modello CSV.
+   >
+   >La dimensione del file non deve superare 1 MB.
 
-1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+1. Compila il modello CSV con gli indirizzi e-mail e/o i domini che desideri aggiungere all’elenco di soppressione.
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+1. Al termine, trascina e rilascia il file CSV, quindi fai clic su **[!UICONTROL Upload file]**.
 
-    ![](../assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
-1. Click **[!UICONTROL Submit]**.
+1. Fai clic su **[!UICONTROL Submit]**.
 
-### Check recent uploads status {#recent-uploads}
+### Controlla lo stato dei caricamenti recenti {#recent-uploads}
 
-You can check the list of the latest CSV files you uploaded.
+Puoi controllare l’elenco dei file CSV più recenti caricati.
 
-To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+A questo scopo, nella visualizzazione **[!UICONTROL Suppression list]** fai clic sul pulsante **[!UICONTROL Recent uploads]** .
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed.
+Vengono visualizzati gli ultimi caricamenti inviati e i relativi stati corrispondenti.
 
-If an error report is associated with a file, you can download it to check the errors encountered.
+Se un report di errore è associato a un file, puoi scaricarlo per verificare gli errori rilevati.
 
 ![](../assets/suppression-list-recent-uploads-error.png)
 
-Below is an example of the type of entries you can find in the error report:
+Di seguito è riportato un esempio del tipo di voci che si possono trovare nel rapporto di errore:
 
 ```
 type,value,comments,failureReason
@@ -206,6 +228,5 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
--->
 
 
