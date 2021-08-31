@@ -1,9 +1,9 @@
 ---
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
-source-git-commit: cd077b6f1fd5c81955aec2475dfd8b52aeb23422
+source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '1042'
 ht-degree: 11%
 
 ---
@@ -51,6 +51,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 </tr>
 </tbody>
 </table>
+
 <!--
 <table>
 <thead>
@@ -84,6 +85,23 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Definire gli indirizzi da escludere dall’invio - Elenco di eliminazione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’aggiunta di indirizzi e-mail e domini all’elenco di soppressione è ora disponibile dall’interfaccia utente, una per una, in modalità collettiva tramite un caricamento di file CSV.</p>
+<p>Per ulteriori informazioni, consulta la <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 <!--
 <table>
 <thead>
@@ -129,10 +147,8 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 **Configurazione e-mail**
 
 * **Elenco Consentiti** : l’elenco Consentiti ora può essere abilitato e disabilitato su una sandbox non di produzione tramite una chiamata API. [Ulteriori informazioni](allow-list.md#enable-allow-list)
-
+* **Navigazione**  - L’elenco di soppressione, accessibile in  **Amministrazione > Canali > Configurazione e-mail >** Menu generale, è stato spostato nel nuovo menu secondario  **** Elenco di soppressione, che raccoglie tutte le funzionalità correlate per un accesso più semplice. [Ulteriori informazioni](configuration/manage-suppression-list.md#access-suppression-list)
 <!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
-<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
-
 
 ### Correzioni
 
