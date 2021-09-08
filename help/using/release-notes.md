@@ -1,13 +1,13 @@
 ---
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 11%
 
 ---
-
 
 # Note sulla versione {#release-notes}
 
@@ -140,9 +140,9 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * **Sfondo** : le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](preview.md)
 * **Collegamento**  di rinuncia con un clic: puoi inserire un nuovo tipo di collegamento nel contenuto dell’e-mail: il collegamento  **Opt-** outlink consente agli utenti di annullare l&#39;iscrizione alla ricezione delle tue comunicazioni con un solo clic, senza essere reindirizzati a una pagina di destinazione per confermare la rinuncia. [Ulteriori informazioni](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**Personalizzazione**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **Editor espressioni** : puoi aggiungere facilmente un valore di fallback quando definisci la personalizzazione: quando il campo di personalizzazione è vuoto per un profilo, viene visualizzato il valore di fallback. [Ulteriori informazioni](personalization/functions/helper.md)
 
 **Configurazione e-mail**
 
@@ -225,4 +225,3 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * È ora implementata la localizzazione nella barra delle offerte nell’editor espressioni.
 * È stata corretta la spaziatura errata nei popup delle informazioni.
 * È stato risolto un problema in E-mail designer durante il caricamento di un file HTML in cui il foglio di stile interno con proprietà `background-image` non era supportato.
-
