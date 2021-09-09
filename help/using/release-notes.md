@@ -142,7 +142,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Personalizzazione**
 
-* **Editor espressioni** : puoi aggiungere facilmente un valore di fallback quando definisci la personalizzazione: quando il campo di personalizzazione è vuoto per un profilo, viene visualizzato il valore di fallback. [Ulteriori informazioni](personalization/functions/helper.md)
+* **Editor espressioni** : puoi aggiungere facilmente un valore di fallback quando definisci la personalizzazione: quando il campo di personalizzazione è vuoto per un profilo, viene visualizzato il valore di fallback. [Ulteriori informazioni](personalization/functions/helpers.md)
 
 **Configurazione e-mail**
 
