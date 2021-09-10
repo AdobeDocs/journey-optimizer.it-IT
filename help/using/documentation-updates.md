@@ -1,13 +1,13 @@
 ---
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 17%
 
 ---
-
 
 # Ultimi aggiornamenti in questa documentazione
 
@@ -30,6 +30,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata la sezione Delega un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](configuration/delegate-subdomain.md#subdomain-validation)
 * È stata aggiunta una sezione per descrivere come aggiungere manualmente indirizzi e-mail e domini all’elenco di eliminazione. [Ulteriori informazioni](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Aggiornamento delle sezioni [Accedi alla sezione dell&#39;elenco di soppressione](configuration/manage-suppression-list.md#access-suppression-list) e [Nuovi tentativi](configuration/retries.md) per riflettere la nuova interfaccia utente.
+* È stato documentato il nuovo flusso per aggiungere e configurare le rappresentazioni durante la creazione di un’offerta. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Luglio 2021

@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1110'
 ht-degree: 11%
 
 ---
@@ -148,7 +148,10 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * **Elenco Consentiti** : l’elenco Consentiti ora può essere abilitato e disabilitato su una sandbox non di produzione tramite una chiamata API. [Ulteriori informazioni](allow-list.md#enable-allow-list)
 * **Navigazione**  - L’elenco di soppressione, accessibile in  **Amministrazione > Canali > Configurazione e-mail >** Menu generale, è stato spostato nel nuovo menu secondario  **** Elenco di soppressione, che raccoglie tutte le funzionalità correlate per un accesso più semplice. [Ulteriori informazioni](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Gestione delle decisioni**
+
+* La modalità di aggiunta e configurazione delle rappresentazioni durante la creazione di un’offerta è stata aggiornata per migliorare l’esperienza utente. In particolare, la libreria Risorse viene ora visualizzata solo quando si definisce il contenuto di tipo immagine per una rappresentazione. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Correzioni
 
