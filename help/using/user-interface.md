@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 68%
+source-wordcount: '1459'
+ht-degree: 66%
 
 ---
 
@@ -22,7 +23,7 @@ Una volta connesso ad [Adobe Experience Cloud](http://experience.adobe.com), pas
 >
 >* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 >
-> * I componenti e le funzionalità disponibili nell’interfaccia utente dipendono dalle autorizzazioni e dal pacchetto di licenze. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
+>* I componenti e le funzionalità disponibili nell&#39;interfaccia utente dipendono dalle [autorizzazioni](administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
 
 
 ## Pannello di navigazione a sinistra
@@ -110,7 +111,7 @@ Puoi accedere ai casi di utilizzo eseguiti dal pulsante **[!UICONTROL View use c
 
 ## Accessibilità{#accessibility}
 
-Le funzioni di accessibilità di Adobe Journey Optimizer sono fornite da Adobe Experience Platform:
+Le funzioni di accessibilità di [!DNL Adobe Journey Optimizer] sono ereditate da Adobe Experience Platform:
 
 * Accessibilità da tastiera
 * Contrasto colore
@@ -118,7 +119,7 @@ Le funzioni di accessibilità di Adobe Journey Optimizer sono fornite da Adobe E
 
 [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
-In Adobe Journey Optimizer è possibile utilizzare le seguenti scelte rapide da tastiera più comuni:
+È possibile utilizzare le seguenti scelte rapide da tastiera comuni in [!DNL Journey Optimizer]:
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |

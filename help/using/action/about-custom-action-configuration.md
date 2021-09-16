@@ -6,7 +6,8 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: c62048e0fb7e5de2e7cdf8bc6ae17d62ef04d35c
+exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 6%
@@ -16,7 +17,7 @@ ht-degree: 6%
 # Configurare un’azione {#configure-an-action}
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, puoi configurare la relativa connessione ai percorsi in questo punto. L’azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella categoria **[!UICONTROL Action]** (consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Facebook, Adobe.io, Firebase, ecc.
-Le limitazioni sono elencate in [questa pagina](../building-journeys/limitations.md).
+Le limitazioni sono elencate in [questa pagina](../limitations.md).
 
 Di seguito sono riportati i passaggi principali necessari per configurare un’azione personalizzata:
 

@@ -2,13 +2,14 @@
 title: Versioni del percorso
 description: Informazioni sulle versioni di percorso
 feature: Journeys
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle limitazioni delle versioni di percorso, consulta [questa pagina](../building-journeys/limitations.md#journey-versions-limitations)
+>Per ulteriori informazioni sulle limitazioni delle versioni di percorso, consulta [questa pagina](../limitations.md#journey-versions-limitations)
 
 1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Create a new version]** e conferma.
 

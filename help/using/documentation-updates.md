@@ -2,7 +2,7 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 17%
@@ -46,7 +46,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Le &quot;attività di offerta&quot; sono state rinominate &quot;decisioni&quot; e &quot;decisioni&quot; come &quot;ambiti decisionali&quot; nella documentazione e nelle schermate. [Ulteriori informazioni](offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con funzioni helper](personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](building-journeys/read-segment.md)
-* Sono state aggiornate le limitazioni del Percorso. [Ulteriori informazioni](building-journeys/limitations.md)
+* Sono state aggiornate le limitazioni del Percorso. [Ulteriori informazioni](limitations.md)
 * È stata aggiornata la selezione delle offerte nella sezione relativa alle decisioni . [Ulteriori informazioni](offers/offer-activities/configure-offer-selection.md)
 * È stato aggiunto un avviso per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documentazione della nuova scheda **[!UICONTROL Overview]** di Gestione decisioni. [Ulteriori informazioni](offers/get-started/user-interface.md#overview)

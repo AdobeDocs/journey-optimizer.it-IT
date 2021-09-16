@@ -11,15 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-feature: Impostazioni applicazione
-topic: Amministrazione
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 50%
+source-wordcount: '319'
+ht-degree: 49%
 
 ---
 
@@ -29,7 +28,7 @@ Per inviare messaggi con percorsi, devi configurare **[!UICONTROL Data Sources]*
 
 ![](../assets/admin-menu.png)
 
-## Origini dati 
+## Origini dati
 
 La configurazione Origine dati ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. [Ulteriori informazioni](../../using/datasource/about-data-sources.md)
 
