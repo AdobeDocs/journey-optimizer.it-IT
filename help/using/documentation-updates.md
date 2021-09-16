@@ -2,16 +2,21 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 17%
+source-wordcount: '492'
+ht-degree: 18%
 
 ---
 
 # Ultimi aggiornamenti in questa documentazione
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Settembre 2021
+
+* È stata aggiunta una nuova pagina **Limitazioni** . [Ulteriori informazioni](limitations.md)
+* È stata migliorata la pagina **Avvio rapido** con passaggi per diversi utenti tipo. [Ulteriori informazioni](quick-start.md)
 
 ## Agosto 2021
 

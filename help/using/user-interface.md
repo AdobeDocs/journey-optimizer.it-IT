@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 66%
@@ -17,13 +17,13 @@ ht-degree: 66%
 
 Una volta connesso ad [Adobe Experience Cloud](http://experience.adobe.com), passa a [!DNL Journey Optimizer].
 
+I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
+
+I componenti e le funzionalità disponibili nell&#39;interfaccia utente dipendono dalle [autorizzazioni](administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
+
 >[!NOTE]
 >
->* I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} .
->
->* Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
->
->* I componenti e le funzionalità disponibili nell&#39;interfaccia utente dipendono dalle [autorizzazioni](administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
+>Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
 
 
 ## Pannello di navigazione a sinistra
