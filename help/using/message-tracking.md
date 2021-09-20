@@ -5,7 +5,8 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 2%
@@ -56,7 +57,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    ![](assets/message-tracking-links.png)
 
-1. Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati in [questa sezione](personalization/personalization-syntax.md).
+1. Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati in [questa sezione](personalization/personalization-syntax.md#perso-urls).
 
 1. Salva le modifiche.
 
@@ -142,5 +143,3 @@ Il [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
 Il numero di messaggi aperti e il numero di collegamenti su cui è stato fatto clic sono elencati nella scheda [Esecuzioni](message-monitoring.md).
 
 Il reporting su aperture e clic è disponibile nel [rapporto Email Live](reports/email-live-report.md) e nel [rapporto globale e-mail](reports/email-global-report.md).
-
-

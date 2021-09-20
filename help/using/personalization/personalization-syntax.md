@@ -1,17 +1,17 @@
 ---
 title: Sintassi di personalizzazione
 description: Scopri come utilizzare la sintassi di personalizzazione
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
-
 
 # Sintassi di personalizzazione {#personalization-syntax}
 
@@ -24,7 +24,7 @@ Esempio di espressione semplice:
 
 `{{profile.person.name}}`
 
-dove:
+Dove:
 
 * `profile` è uno spazio dei nomi.
 * `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
@@ -76,7 +76,6 @@ Scopri come sfruttare gli attributi del profilo nelle condizioni in [questa sezi
 >[!NOTE]
 >Per ulteriori informazioni sul servizio di segmentazione e segmentazione, consulta [questa sezione](../segment/about-segments.md).
 
-
 ## Offerte
 
 Questo spazio dei nomi ti consente di fare riferimento a decisioni esistenti sulle offerte.
@@ -86,7 +85,7 @@ Questo percorso ha la seguente struttura:
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-dove:
+Dove:
 
 * `offers` identifica l&#39;espressione del percorso appartenente allo spazio dei nomi dell&#39;offerta
 * `Type`  determina il tipo di rappresentazione dell’offerta. I valori possibili sono: `image`, `html` e `text`
@@ -129,7 +128,6 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({/}}).
 >
 >Le funzioni helper sono descritte in [questa sezione](functions/helpers.md).
 
-
 ## Tipi letterali
 
 [!DNL Adobe Journey Optimizer] supporta i seguenti tipi letterali:
@@ -144,3 +142,24 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({/}}).
 >[!CAUTION]
 >
 >L’utilizzo della variabile **xEvent** non è disponibile nelle espressioni di personalizzazione. Qualsiasi riferimento a xEvent genererà errori di convalida.
+
+## Personalizzazione URL{#perso-urls}
+
+Il Journey Orchestration ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per eseguire questa operazione:
+
+* Crea un collegamento nel contenuto e-mail o push. Per ulteriori informazioni sulla creazione di collegamenti, consulta [questa pagina](../message-tracking#insert-links)).
+* Fai clic sull’icona della personalizzazione. Questa icona è disponibile per questi tipi specifici di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell&#39;abbonamento** e **Rinuncia**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>`
+>Nell’editor espressioni, quando modifichi un URL personalizzato, le funzioni helper e l’appartenenza ai segmenti sono disabilitate per motivi di sicurezza.
+
+** URL personalizzati di esempio **
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+

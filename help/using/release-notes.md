@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 11%
+source-wordcount: '1171'
+ht-degree: 19%
 
 ---
 
@@ -27,7 +27,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>Invia automaticamente il tuo messaggio push o e-mail al momento migliore per ogni cliente con cui hai a che fare con Adobe Journey Optimizer. L’ottimizzazione del tempo di invio, basata sui servizi AI di Adobe, prevede il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali di apertura e clic storiche preconfigurate.</p>
+<p>Invia automaticamente il messaggio push o e-mail al momento migliore per ogni cliente con cui hai a che fare con Adobe Journey Optimizer. L’ottimizzazione del tempo di invio, basata sui servizi AI di Adobe, prevede il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali di apertura e clic storiche preconfigurate.</p>
 <p>Al momento questa funzione è disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="building-journeys/journeys-message.md#send-time-optimization">documentazione dettagliata</a>.</p>
 </td>
@@ -52,23 +52,23 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>URL personalizzati</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>Gli URL personalizzati indirizzano i destinatari a pagine specifiche di un sito web o a un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer, ora puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.</p>
+<p>Per ulteriori informazioni, consulta la <a href="personalization/personalization-syntax.md#perso-urls">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
@@ -79,7 +79,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>È ora possibile definire il periodo di esecuzione dei nuovi tentativi in base al predefinito, in modo da evitare che i tentativi vengano più eseguiti quando non più necessario. Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un messaggio transazionale di reimpostazione della password contenente un collegamento valido solo per un giorno. Le impostazioni dei nuovi tentativi si applicano solo al canale e-mail.</p>
+<p>È ora possibile definire il periodo di tempo di un nuovo tentativo su base predefinita, in modo da evitare che i nuovi tentativi vengano eseguiti quando non è più necessario. Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un messaggio transazionale di reimpostazione della password contenente un collegamento valido solo per un giorno. Le impostazioni dei nuovi tentativi si applicano solo al canale e-mail.</p>
 <p>Per ulteriori informazioni, consulta la <a href="configuration/retries.md#retry-duration">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -95,7 +95,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>L’aggiunta di indirizzi e-mail e domini all’elenco di soppressione è ora disponibile dall’interfaccia utente, una per una, in modalità collettiva tramite un caricamento di file CSV.</p>
+<p>L’aggiunta di indirizzi e-mail e domini all’elenco di eliminazione è ora disponibile dall’interfaccia utente, uno alla volta o in modalità collettiva tramite un caricamento di file CSV.</p>
 <p>Per ulteriori informazioni, consulta la <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -126,7 +126,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Percorsi**
 
-* **Intestazioni dinamiche** : è ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate HTTP dell’azione percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](action/about-custom-action-configuration.md#url-configuration)
+* **Intestazioni dinamiche** : è ora possibile trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](action/about-custom-action-configuration.md#url-configuration)
 * **Percorsi URL dinamici** : ora puoi impostare percorsi URL dinamici per le azioni personalizzate. [Ulteriori informazioni](action/about-custom-action-configuration.md#url-configuration)
 * Il tasso di limitazione complessivo per i segmenti letti è stato modificato da 17.000 a 20.000 messaggi al secondo. [Ulteriori informazioni](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
