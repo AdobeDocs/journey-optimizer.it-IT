@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -153,7 +153,7 @@ Il Journey Orchestration ti consente di personalizzare uno o più URL nel messag
 ![](assets/perso-url.png)
 
 >[!NOTE]
->
+>`
 >Nell’editor espressioni, quando modifichi un URL personalizzato, le funzioni helper e l’appartenenza ai segmenti sono disabilitate per motivi di sicurezza.
 
 ** URL personalizzati di esempio **
