@@ -1,14 +1,15 @@
 ---
 title: Panoramica sulla condivisione delle fasi del percorso
 description: Panoramica sulla condivisione delle fasi del percorso
-feature: Generazione rapporti
-topic: Gestione dei contenuti
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
+source-git-commit: 7e4b5342fc57029517ae4d6a6c1e8e03e0dc0c3b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ Oltre ai [rapporti in tempo reale](live-report.md) e alle funzionalità di repor
 
 >[!NOTE]
 >
->Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi delle fasi del profilo di percorso, l’attivazione avviene su richiesta. Gli schemi e i set di dati creati durante il provisioning per questa funzione non devono essere modificati.
+>Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi delle fasi del profilo di percorso, l’attivazione avviene su richiesta. Non è possibile modificare o aggiornare gli schemi e i set di dati creati durante il provisioning per gli eventi delle fasi. Per impostazione predefinita, questi schemi e set di dati sono in modalità di sola lettura.
 
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità ti consente di combinare i dati [!DNL Journey Optimizer] con i dati evento a valle, come il numero di conversioni avvenute, il livello di coinvolgimento sul sito web o quante transazioni sono avvenute nello store. Le informazioni sul percorso possono essere combinate con i dati su Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline per fornire una visione più completa delle prestazioni.
 

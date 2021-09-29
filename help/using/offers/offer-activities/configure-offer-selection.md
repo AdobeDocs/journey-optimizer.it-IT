@@ -1,14 +1,15 @@
 ---
 title: Configurare la selezione di offerte nelle decisioni
 description: Scopri come gestire la selezione delle offerte nelle decisioni.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
+exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
+source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 7%
+source-wordcount: '453'
+ht-degree: 9%
 
 ---
 
@@ -17,6 +18,9 @@ ht-degree: 7%
 Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il metodo che sceglierà l’offerta migliore per ciascun profilo al momento della configurazione di una decisione (precedentemente nota come attività di offerta). Puoi classificare le offerte in base a:
 * Priorità offerta
 * Formula di classificazione
+* [Classificazione dell’intelligenza artificiale](#use-ranking-strategy)  (in accesso anticipato solo per determinati utenti)
+
+![](../../assets/offer-rank-by.png)
 
 ## Priorità offerta {#about-offers-priority}
 
@@ -53,3 +57,41 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 La formula di classificazione è ora associata al posizionamento.
 
 Se più offerte sono idonee per essere presentate in questo posizionamento, la decisione utilizzerà la formula della classificazione per calcolare quale offerta distribuire per prima.
+
+## Classificazione basata su IA {#use-ranking-strategy}
+
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+
+>[!CAUTION]
+>
+>L’utilizzo della classificazione basata su IA è attualmente disponibile in accesso anticipato solo per determinati utenti.
+
+Una volta creata una strategia di classificazione, puoi assegnarla a un posizionamento in una decisione (precedentemente nota come attività di offerta). A questo scopo, segui i passaggi seguenti:
+
+1. Crea una decisione o modifica una decisione esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
+
+1. Aggiungi i posizionamenti che conterranno le offerte. Consulta [Creare posizionamenti](../offer-library/creating-placements.md).
+
+1. Per ogni posizionamento, aggiungi una raccolta. Consulta [Creare raccolte](../offer-library/creating-collections.md).
+
+1. Scegli di classificare le offerte per **[!UICONTROL AI ranking]** dall’elenco a discesa.
+
+   ![](../../assets/ranking-selection-ai-ranking.png)
+
+1. Fai clic su **[!UICONTROL Add ranking]**.
+
+   ![](../../assets/ranking-selection-ai-ranking-add.png)
+
+1. Seleziona la strategia di classificazione creata. Vengono visualizzati tutti i dettagli della strategia di classificazione.
+
+   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+
+1. Fai clic su **[!UICONTROL Select]**.
+
+La strategia di classificazione è ora associata al posizionamento.
+
+Se sono ammissibili più offerte, il sistema di modelli addestrati determinerà quale offerta presentare prima per un determinato posizionamento.
+
+<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
+
+<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

@@ -1,14 +1,15 @@
 ---
 title: Anteprima dei messaggi e invio delle bozze
 description: Scopri come visualizzare in anteprima e verificare i messaggi
-feature: Percorsi
-topic: Gestione dei contenuti
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
+exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
+source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 3%
+source-wordcount: '932'
+ht-degree: 2%
 
 ---
 
@@ -97,7 +98,7 @@ Una volta selezionati i [profili di test](#select-test-profiles), puoi visualizz
 
 Per un&#39;anteprima di notifica push:
 
-1. Passa al canale **[!UICONTROL Push]** dall&#39;elenco a discesa **[!UICONTROL Channels]** in alto a sinistra della schermata **[!UICONTROL Preview]**.
+1. Passa al canale **[!UICONTROL Push]** dall&#39;elenco a discesa **[!UICONTROL Channels]** in alto a destra nella schermata **[!UICONTROL Preview]**.
 
    ![](assets/preview-select-channel.png)
 

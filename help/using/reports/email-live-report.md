@@ -5,9 +5,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -26,19 +27,27 @@ L’e-mail **[!UICONTROL Live report]** è divisa in diversi widget che ne descr
 
 **[!UICONTROL Email performance]** e  **[!UICONTROL Email summary]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio con un grafico e KPI:
 
+* **[!UICONTROL Targeted]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
+
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
-
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
-
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
 * **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
 
 * **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in una consegna.
 
-Il grafico **[!UICONTROL Sending Statistics]** descrive il successo della consegna:
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+* **[!UICONTROL Spam complaints]**: Numero di messaggi classificati come spam.
+
+* **[!UICONTROL Unsubscriptions]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
+
+* **[!UICONTROL Excluded]**: Numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
+
+Il widget **[!UICONTROL Sending Statistics]** descrive il successo della consegna:
 
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 

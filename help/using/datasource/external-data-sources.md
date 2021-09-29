@@ -1,14 +1,15 @@
 ---
-title: 'Origini dati esterne '
+title: Origini dati esterne
 description: Informazioni su come configurare le origini dati esterne
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 92%
+source-wordcount: '1324'
+ht-degree: 88%
 
 ---
 
@@ -181,3 +182,7 @@ Adesso puoi modificare la durata della cache del token per un’origine dati di 
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>La durata della cache aiuta a evitare troppe chiamate agli endpoint di autenticazione. Il mantenimento del token di autenticazione è memorizzato nella cache dei servizi. Non esiste persistenza. Se un servizio viene riavviato, inizia con una cache pulita. La durata predefinita della cache è di 1 ora. Nel payload di azioni personalizzato, può essere adattato specificando un’altra durata di conservazione.

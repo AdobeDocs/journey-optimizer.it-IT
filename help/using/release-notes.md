@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1490'
 ht-degree: 19%
 
 ---
@@ -13,6 +13,78 @@ ht-degree: 19%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in [!DNL Journey Optimizer]. Puoi anche consultare gli [Aggiornamenti alla documentazione](documentation-updates.md) più recenti.
 
+
+
+## Versione di settembre 2021 {#september-2021-release}
+
+### Nuove funzionalità
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Reporting - Approfondimenti migliorati per tipi di pubblico mirati</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una nuova metrica è disponibile nel reporting: il pubblico mirato per i messaggi e-mail e push è visibile sia nei rapporti live che globali.</p>
+<p>Una nuova colonna nell’elenco di esecuzione dei messaggi visualizza il numero di profili target per ogni esecuzione dei messaggi. </p>
+<p>Per ulteriori informazioni, consulta la <a href="message-monitoring.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Trasmettere dinamicamente elenchi di dati utilizzando azioni personalizzate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi passare raccolte o un elenco di dati nei parametri delle azioni personalizzate che verranno compilati in modo dinamico in fase di esecuzione. Sono supportati due tipi di raccolte: raccolte semplici e raccolte di oggetti. Le azioni personalizzate create in precedenza continueranno a funzionare. </p>
+<p>Per ulteriori informazioni sulle raccolte, consulta la <a href="building-journeys/collections.md">documentazione dettagliata</a>. </p>
+<p>Le funzioni filtro e intersezione sono state aggiunte all’elenco delle funzioni disponibili nell’editor di espressioni avanzate. Questo offre più possibilità per il filtraggio della raccolta e il confronto.</p>
+<p>Consulta la documentazione sulle funzioni <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> e <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">interseca</a> .</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Miglioramenti
+
+**Percorsi**
+
+* Gli schemi e i set di dati generati dal sistema che sono stati creati durante il provisioning per gli eventi delle fasi ora sono in modalità di sola lettura, evitando eventuali modifiche involontarie agli schemi critici. [Ulteriori informazioni](reports/sharing-overview.md)
+* Etichettare in modo chiaro l&#39;attività **Wait** con un&#39;etichetta che verrà visualizzata nell&#39;area di lavoro. L’etichetta viene utilizzata anche nei registri della modalità di reporting e test per identificare chiaramente ciò che si sta facendo. [Ulteriori informazioni](building-journeys/about-journey-activities.md#best-practices)
+* Trova più rapidamente i tuoi eventi e le tue azioni filtrando gli elementi nelle categorie **Eventi** e **Azione** utilizzando la ricerca. Le attività di orchestrazione non vengono più filtrate. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md)
+* Quando definisci una condizione ID evento in un evento aziendale o basato su regole, l&#39;operatore &quot;contiene&quot; è ora disponibile per i tipi di campi stringa. [Ulteriori informazioni](event/about-creating.md)
+
+**Configurazione e-mail**
+
+* Quando un pool IP è stato associato a un predefinito per messaggi, ora puoi modificarlo in modo asincrono. Puoi anche controllare lo stato di aggiornamento di ogni pool IP. [Ulteriori informazioni](configuration/ip-pools.md#edit-ip-pool)
 
 ## Versione di agosto 2021 {#august-2021-release}
 
@@ -151,7 +223,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Gestione delle decisioni**
 
-* La modalità di aggiunta e configurazione delle rappresentazioni durante la creazione di un’offerta è stata aggiornata per migliorare l’esperienza utente. In particolare, la libreria Risorse viene ora visualizzata solo quando si definisce il contenuto di tipo immagine per una rappresentazione. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#representations)
+* La modalità di aggiunta e configurazione delle rappresentazioni durante la creazione di un’offerta è stata aggiornata per migliorare l’esperienza di utilizzo. In particolare, la libreria Risorse ora viene visualizzata solo quando, per una rappresentazione, si definiscono contenuti di tipo immagine. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Correzioni
 

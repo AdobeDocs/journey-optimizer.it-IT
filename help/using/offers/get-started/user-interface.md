@@ -1,20 +1,25 @@
 ---
 title: Interfaccia utente
 description: Ulteriori informazioni sull’interfaccia utente della Libreria di offerte.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 71%
+source-wordcount: '635'
+ht-degree: 68%
 
 ---
 
 # Interfaccia utente {#user-interface}
 
 La Libreria di offerte consente di creare e gestire posizionamenti e offerte in un unico punto, nonché di accedere a tutte le decisioni create (precedentemente note come “attività di offerta”).
+
+>[!NOTE]
+>
+>Se riscontri dei problemi nell’accesso alla Libreria offerte o ad alcune delle sue funzioni, verifica con un utente amministratore che ti siano stati concessi i diritti richiesti. Consulta [Concedere l&#39;accesso a Gestione decisioni](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 Utilizza il menu **[!UICONTROL Offers]** per gestire le offerte personalizzate e di fallback, organizzarle in raccolte e consegnarle creando le seguenti decisioni:
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
+source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1319'
 ht-degree: 3%
 
 ---
@@ -53,9 +53,14 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 
    ![](../../assets/channel-placement.png)
 
-   Nell’elenco a discesa **[!UICONTROL Placement]** vengono visualizzati solo i posizionamenti disponibili per il canale selezionato.
+   >[!NOTE]
+   >
+   >Nell’elenco a discesa **[!UICONTROL Placement]** vengono visualizzati solo i posizionamenti disponibili per il canale selezionato.
 
-1. Seleziona un posizionamento dall’elenco oppure utilizza il pulsante accanto all’elenco a discesa **[!UICONTROL Placement]** per sfogliare tutti i posizionamenti.
+
+1. Seleziona un posizionamento dall’elenco.
+
+   Puoi inoltre utilizzare il pulsante accanto all’elenco a discesa **[!UICONTROL Placement]** per sfogliare tutti i posizionamenti.
 
    ![](../../assets/browse-button-placements.png)
 
@@ -63,37 +68,7 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 
    ![](../../assets/browse-placements.png)
 
-1. Aggiungi contenuto alla tua rappresentazione.
-
-   >[!NOTE]
-   >
-   >È disponibile per l’uso solo il contenuto corrispondente al tipo di contenuto del posizionamento.
-
-   * Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto proveniente dalla libreria delle risorse di Adobe Experience Cloud, un archivio centralizzato di risorse fornito da [!DNL Adobe Experience Manager Assets Essentials].
-
-      >[!NOTE]
-      >
-      > Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei profili di prodotto **Assets Essentials Consumer Users** o/and **Assets Essentials Users**. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
-
-      Scegli l&#39;opzione **[!UICONTROL Asset library]** e seleziona **[!UICONTROL Browse]**.
-
-      ![](../../assets/offer-browse-asset-library.png)
-
-      Sfoglia le risorse per selezionare l’immagine desiderata e fai clic su **[!UICONTROL Select]**.
-
-      ![](../../assets/offer-select-asset.png)
-
-   * Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi immetti l’indirizzo URL del contenuto da aggiungere.
-
-      ![](../../assets/offer-content-url.png)
-
-   * È inoltre possibile inserire contenuto di tipo testo quando si seleziona una posizione compatibile. Seleziona l’opzione **[!UICONTROL Custom]** e digita il testo che verrà visualizzato nell’offerta.
-
-      ![](../../assets/offer-text-content.png)
-
-      >[!NOTE]
-      >
-      >Questa opzione non è disponibile per i posizionamenti di tipo immagine.
+1. Aggiungi contenuto alla tua rappresentazione. Scopri come in [questa sezione](#content).
 
 1. Quando aggiungi contenuto, ad esempio un&#39;immagine o un URL, puoi specificare un **[!UICONTROL Destination link]**: gli utenti che fanno clic sull’offerta verranno indirizzati alla pagina corrispondente.
 
@@ -107,25 +82,76 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 
 1. Dopo aver aggiunto tutte le rappresentazioni, seleziona **[!UICONTROL Next]**.
 
+## Definire il contenuto per le rappresentazioni {#content}
+
+È possibile aggiungere diversi tipi di contenuto a una rappresentazione.
+
+>[!NOTE]
+>
+>È disponibile per l’uso solo il contenuto corrispondente al tipo di contenuto del posizionamento.
+
+### Aggiungere immagini
+
+Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto proveniente dalla libreria **Adobe Experience Cloud Asset**, un archivio centralizzato di risorse fornito da [!DNL Adobe Experience Manager Assets Essentials].
+
+>[!NOTE]
+>
+> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei profili di prodotto **Assets Essentials Consumer Users** o/and **Assets Essentials Users**. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+
+1. Scegli l’opzione **[!UICONTROL Asset library]**.
+
+1. Seleziona **[!UICONTROL Browse]**.
+
+   ![](../../assets/offer-browse-asset-library.png)
+
+1. Sfoglia le risorse per selezionare l&#39;immagine desiderata
+
+1. Fai clic su **[!UICONTROL Select]**.
+
+   ![](../../assets/offer-select-asset.png)
+
+### Aggiungi URL
+
+Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi immetti l’indirizzo URL del contenuto da aggiungere.
+
+![](../../assets/offer-content-url.png)
+
+### Aggiungi testo personalizzato {#custom-text}
+
+È inoltre possibile inserire contenuto di tipo testo quando si seleziona una posizione compatibile.
+
+1. Seleziona l&#39;opzione **[!UICONTROL Custom]**.
+
+   >[!NOTE]
+   >
+   >Questa opzione non è disponibile per i posizionamenti di tipo immagine.
+
+1. Digita il testo che verrà visualizzato nell’offerta nell’area dedicata.
+
+   ![](../../assets/offer-text-content2.png)
+
 ## Aggiungere regole e vincoli di idoneità {#eligibility}
 
-Le regole e i vincoli di idoneità ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
+Le regole di idoneità e i vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
-1. Configura il **[!UICONTROL Offer eligibility]**. Per impostazione predefinita, è selezionata l’opzione **[!UICONTROL All visitors]** regola decisionale , il che significa che qualsiasi profilo sarà idoneo per la presentazione dell’offerta.
+1. Configura il **[!UICONTROL Offer eligibility]**.
 
-   Puoi limitare la presentazione dell’offerta ai membri di uno o più segmenti di Adobe Experience Platform. A questo scopo, attiva l’opzione **[!UICONTROL Visitors who fall into one or multiple segments]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**.
+   * Per impostazione predefinita, è selezionata l’opzione **[!UICONTROL All visitors]** regola decisionale , il che significa che qualsiasi profilo sarà idoneo per la presentazione dell’offerta.
 
-   Per ulteriori informazioni su come lavorare con i segmenti, consulta [questa pagina](../../segment/about-segments.md).
+   * Puoi limitare la presentazione dell’offerta ai membri di uno o più segmenti di Adobe Experience Platform. A questo scopo, attiva l’opzione **[!UICONTROL Visitors who fall into one or multiple segments]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
-   ![](../../assets/offer-eligibility-segment.png)
+      Per ulteriori informazioni su come lavorare con i segmenti, consulta [questa pagina](../../segment/about-segments.md).
 
-   Se desideri associare una regola decisionale specifica all&#39;offerta, seleziona **[!UICONTROL By defined decision rule]**, quindi trascina la regola desiderata dal riquadro di sinistra nell&#39;area **[!UICONTROL Decision rule]**. Per ulteriori informazioni su come creare una regola decisionale, consulta [questa sezione](../offer-library/creating-decision-rules.md).
+      ![](../../assets/offer-eligibility-segment.png)
 
-   ![](../../assets/offer_rule.png)
+   * Se desideri associare una regola decisionale specifica all&#39;offerta, seleziona **[!UICONTROL By defined decision rule]**, quindi trascina la regola desiderata dal riquadro di sinistra nell&#39;area **[!UICONTROL Decision rule]**. Per ulteriori informazioni su come creare una regola decisionale, consulta [questa sezione](../offer-library/creating-decision-rules.md).
 
-   >[!CAUTION]
-   >
-   >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarla in un&#39;offerta.
+      ![](../../assets/offer_rule.png)
+
+      >[!CAUTION]
+      >
+      >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarla in un&#39;offerta.
+   Ulteriori informazioni sull&#39;utilizzo dei segmenti rispetto alle regole decisionali in [questa sezione](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
 1. Definisci la **[!UICONTROL Priority]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
 
@@ -165,7 +191,7 @@ L’offerta viene visualizzata nell’elenco con lo stato **[!UICONTROL Approved
 
 ![](../../assets/offer_created.png)
 
-## Elenco offerte {#offer-list}
+## Elenco delle offerte {#offer-list}
 
 Dall’elenco delle offerte, puoi selezionare l’offerta per visualizzarne le proprietà. Puoi anche modificarlo, modificarne lo stato (**Bozza**, **Approvato**, **Archiviato**), duplicare l’offerta o eliminarla.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 2%
+source-wordcount: '792'
+ht-degree: 3%
 
 ---
 
@@ -112,7 +112,9 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+   Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati in [questa sezione](personalization/personalization-syntax.md).
+
+1. Salva le modifiche.
 
 Una volta inviato il messaggio, se un destinatario fa clic sul collegamento di rinuncia, viene immediatamente escluso.
 

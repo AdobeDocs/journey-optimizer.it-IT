@@ -1,14 +1,15 @@
 ---
 title: Creare decisioni
 description: Scopri come creare le decisioni
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ Le decisioni (precedentemente note come attività di offerta) sono contenitori p
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle decisioni è accessibile nel menu **[!UICONTROL Offers]** / **[!UICONTROL Decisions]** scheda . Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
+L’elenco delle decisioni è accessibile dal menu **[!UICONTROL Offers]** > scheda **[!UICONTROL Decisions]** . Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
 
 ![](../../assets/activities-list.png)
 
@@ -33,7 +34,9 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
 1. Accedi all&#39;elenco delle decisioni, quindi fai clic su **[!UICONTROL Create decision]**.
 
-1. Specifica il nome della decisione, la data e l&#39;ora di inizio e fine, quindi fai clic su **[!UICONTROL Next]**.
+1. Specifica il nome della decisione.
+
+1. Definisci una data e un’ora di inizio e di fine, quindi fai clic su **[!UICONTROL Next]**.
 
    ![](../../assets/activities-name.png)
 
@@ -51,29 +54,53 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
    ![](../../assets/activities-collection.png)
 
-1. Le offerte selezionate vengono aggiunte al posizionamento. In questo esempio, abbiamo selezionato due offerte che verranno visualizzate in un posizionamento di tipo JSON per presentare le offerte in una soluzione di call center.
+1. Le offerte selezionate vengono aggiunte al posizionamento.
+
+   In questo esempio, abbiamo selezionato due offerte che verranno visualizzate in un posizionamento di tipo JSON per presentare le offerte in una soluzione di call center.
 
    ![](../../assets/offers-added.png)
 
 1. Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, verranno consegnate al cliente le offerte con il punteggio di priorità più alto.
 
-   Se desideri utilizzare una formula specifica per scegliere l&#39;offerta idonea da consegnare, seleziona una formula di classificazione dall&#39;elenco a discesa **[!UICONTROL Rank offers by]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../offer-activities/configure-offer-selection.md).
+   Se desideri utilizzare una formula specifica o una strategia di classificazione per scegliere l’offerta idonea da consegnare, seleziona una formula di classificazione dall’elenco a discesa **[!UICONTROL Rank offers by]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../offer-activities/configure-offer-selection.md).
 
-1. Il campo **[!UICONTROL Constraint]** limita la selezione delle offerte per questo posizionamento. Questo vincolo può essere applicato utilizzando una regola decisionale o uno o più segmenti di Adobe Experience Platform.
+1. Il campo **[!UICONTROL Constraint]** limita la selezione delle offerte per questo posizionamento. Questo vincolo può essere applicato utilizzando una **regola decisionale** o uno o più segmenti **Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](#segments-vs-decision-rules).
 
-   Per limitare la selezione delle offerte ai membri di un segmento Adobe Experience Platform, seleziona **[!UICONTROL Segments]**, quindi fai clic su **[!UICONTROL Add segments]**.
+   * Per limitare la selezione delle offerte ai membri di un segmento Adobe Experience Platform, seleziona **[!UICONTROL Segments]**, quindi fai clic su **[!UICONTROL Add segments]**.
 
-   ![](../../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
-   Aggiungi uno o più segmenti dal riquadro a sinistra, combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**, quindi fai clic su **[!UICONTROL Select]** per confermare.
+      Aggiungi uno o più segmenti dal riquadro a sinistra, combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**, quindi fai clic su **[!UICONTROL Select]** per confermare.
 
-   Per ulteriori informazioni su come lavorare con i segmenti, consulta [questa pagina](../../segment/about-segments.md).
+      ![](../../assets/activity_constraint_segment2.png)
 
-   ![](../../assets/activity_constraint_segment2.png)
+      Ulteriori informazioni su come lavorare con i segmenti in [questa sezione](../../segment/about-segments.md).
 
-   Se desideri aggiungere un vincolo di selezione per questo posizionamento utilizzando una regola di decisione, seleziona l’opzione **[!UICONTROL Decision rule]** , quindi trascina la regola desiderata dal riquadro di sinistra nell’area **[!UICONTROL Decision rule]**. Per ulteriori informazioni su come creare una regola decisionale, consulta [questa sezione](../offer-library/creating-decision-rules.md).
+   * Se desideri aggiungere un vincolo di selezione per questo posizionamento utilizzando una regola di decisione, seleziona l’opzione **[!UICONTROL Decision rule]** , quindi trascina la regola desiderata dal riquadro di sinistra nell’area **[!UICONTROL Decision rule]**.
 
-   ![](../../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
+
+      Ulteriori informazioni su come creare una regola decisionale in [questa sezione](../offer-library/creating-decision-rules.md).
+
+### Utilizzo di segmenti e regole decisionali {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+Per applicare un vincolo, puoi limitare la selezione delle offerte ai membri di uno o più segmenti di Adobe Experience Platform **oppure utilizzare una** regola decisionale **, entrambe le soluzioni corrispondenti a utilizzi diversi.**
+
+In sostanza, l’output di un segmento è un elenco di profili, mentre una regola decisionale è una funzione eseguita su richiesta rispetto a un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è illustrata di seguito.
+
+* **Segmenti**
+
+   Da un lato, i segmenti sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica in base agli attributi di profilo e agli eventi di esperienza. Tuttavia, Gestione delle offerte non esegue il calcolo del segmento, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
+
+   Ulteriori informazioni sui segmenti in [questa sezione](../../segment/about-segments.md).
+
+* **Regole di decisione**
+
+   D’altra parte, una regola decisionale si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’ultima e l’offerta migliore.
+
+   Ulteriori informazioni sulle regole decisionali in [questa sezione](../offer-library/creating-decision-rules.md).
 
 ## Aggiungere un’offerta di fallback {#add-fallback}
 

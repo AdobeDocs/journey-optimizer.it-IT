@@ -2,12 +2,13 @@
 title: Progettazione del percorso
 description: Scopri come progettare il percorso
 feature: Journeys
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ L’icona **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consent
 
 * **Mostra solo gli elementi** recenti: questo filtro consente di visualizzare solo gli ultimi cinque eventi e azioni utilizzati, oltre a quelli predefiniti. Questo è specifico per ogni utente. Per impostazione predefinita, vengono visualizzati tutti gli elementi.
 
-Puoi inoltre utilizzare il campo **[!UICONTROL Search]** .
+Puoi inoltre utilizzare il campo **[!UICONTROL Search]** . Solo gli eventi e le azioni vengono filtrati.
 
 La **area di lavoro** è la zona centrale nella finestra di progettazione del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro.
 

@@ -1,14 +1,15 @@
 ---
 title: Configurare un evento di business
 description: Scopri come creare un evento aziendale
-feature: Eventi
-topic: Amministrazione
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
+exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 15%
+source-wordcount: '974'
+ht-degree: 12%
 
 ---
 
@@ -30,6 +31,18 @@ Gli eventi di business possono essere &quot;un prodotto è di nuovo in magazzino
 * Dopo l’attivazione di un evento aziendale, si verifica un ritardo nell’esportazione del segmento da 15 minuti a un’ora.
 * Quando si esegue il test di un evento aziendale, è necessario trasmettere i parametri dell&#39;evento e l&#39;identificatore del profilo di test che immetterà il percorso nel test. Inoltre, quando esegui il test di un percorso basato su eventi aziendali, puoi attivare solo l’ingresso a un singolo profilo. Vedi [questa sezione](../building-journeys/testing-the-journey.md#test-business). In modalità di test non è disponibile la modalità &quot;Vista codice&quot;.
 * Cosa succede agli individui che si trovano attualmente nel percorso se arriva un nuovo evento di business? Si comporta come quando gli individui si trovano ancora in un percorso ricorrente quando si verifica una nuova ricorrenza. Il loro percorso è finito. Di conseguenza, gli esperti di marketing devono prestare attenzione a evitare di generare percorsi troppo lunghi se si aspettano eventi di business frequenti.
+
+## Eventi aziendali multipli
+
+Di seguito sono riportate alcune note importanti che si applicano quando più eventi di business vengono ricevuti in una riga.
+
+**Qual è il comportamento durante la ricezione di un evento aziendale durante l&#39;elaborazione da parte del percorso?**
+
+Gli eventi commerciali seguono le regole di rientro come per gli eventi unitari. Se un percorso consente il rientro, verrà elaborato l&#39;evento business successivo.
+
+**Quali sono le protezioni per evitare il sovraccarico dei segmenti materializzati?**
+
+Per gli eventi aziendali, la riutilizzabilità dell’argomento è impostata su un’ora. Ciò significa che per un dato percorso, in una finestra temporale di 1 ora, non viene creato alcun nuovo processo di esportazione. I dati inviati dal primo processo evento vengono riutilizzati. Per i percorsi programmati, non c&#39;è un guardrail.
 
 ## Guida introduttiva agli eventi aziendali
 
@@ -69,6 +82,10 @@ Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
    ![](../assets/jo-event6-business.png)
 
    Nel nostro esempio, abbiamo scritto una condizione basata sull’ID del prodotto. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione, lo trasmette ai percorsi.
+
+   >[!NOTE]
+   >
+   >Nell’editor di espressioni semplici, non tutti gli operatori sono disponibili, dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, è possibile utilizzare &quot;contiene&quot; o &quot;uguale a&quot;.
 
 1. Fai clic su **[!UICONTROL Save]**.
 

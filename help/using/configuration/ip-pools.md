@@ -11,21 +11,21 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Impostazioni applicazione
-topic: Amministrazione
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
+source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 3%
+source-wordcount: '471'
+ht-degree: 1%
 
 ---
 
-
 # Creare pool IP
 
-## Informazioni sui pool IP
+## Informazioni sui pool IP {#about-ip-pools}
 
 Con Journey Optimizer puoi creare pool IP per raggruppare gli indirizzi IP dei sottodomini.
 
@@ -33,7 +33,7 @@ La creazione di pool IP è vivamente consigliata per il recapito messaggi e-mail
 
 Ad esempio, una best practice consiste nell’avere un pool IP per i messaggi di marketing e un altro per i messaggi transazionali. In questo modo, se uno dei tuoi messaggi di marketing funziona correttamente e viene dichiarato come spam da un cliente, questo non influenzerà i messaggi transazionali inviati allo stesso cliente, che riceverà comunque messaggi transazionali (conferme di acquisto, messaggi di recupero password, ecc.).
 
-## Creare un pool IP
+## Creare un pool IP {#create-ip-pool}
 
 Per creare un pool IP, effettua le seguenti operazioni:
 
@@ -59,8 +59,45 @@ Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per 
 
 ![](../assets/ip-pool-created.png)
 
-Per modificare un pool IP, aprilo, quindi modificane le proprietà come desiderato.
+## Modificare un pool IP {#edit-ip-pool}
+
+Per modificare un pool IP:
+
+1. Dall’elenco, fai clic sul nome del pool IP per aprirlo.
+
+   ![](../assets/ip-pool-list.png)
+
+1. Modifica le proprietà desiderate. Puoi modificare la descrizione e aggiungere o rimuovere indirizzi IP.
+
+   ![](../assets/ip-pool-edit.png)
+
+   >[!CAUTION]
+   >
+   >Procedi con maggiore attenzione quando consideri l’eliminazione di un IP, in quanto questo causerà un ulteriore carico sugli altri IP e potrebbe avere gravi ripercussioni sul recapito messaggi. In caso di dubbio, contatta un esperto di recapito.
+
+1. Salva le modifiche.
 
 >[!NOTE]
 >
->Se al pool IP è stato associato un predefinito per messaggi, devi prima rimuoverlo prima di modificare il pool IP. Una volta apportate le modifiche, puoi associare nuovamente il predefinito del messaggio.
+>Il nome del pool IP non è modificabile. Se desideri modificarlo, devi eliminare il pool IP e crearne un altro con il nome desiderato.
+
+L&#39;aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia associato a un [messaggio preselezionato](message-presets.md) o no:
+
+* Se il pool IP è **not** selezionato in un predefinito per messaggi, l&#39;aggiornamento è istantaneo (**[!UICONTROL Success]** stato).
+* Se il pool IP **è** selezionato in un predefinito per messaggi, l&#39;aggiornamento può richiedere fino a 7-10 giorni lavorativi (**[!UICONTROL Processing]** stato).
+
+<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
+
+Per controllare lo stato di aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL More actions]** e seleziona **[!UICONTROL Recent updates]**.
+
+![](../assets/ip-pool-recent-update.png)
+
+>[!NOTE]
+>
+>Una volta aggiornato correttamente un pool IP, potresti dover attendere:
+>* alcuni minuti prima che sia consumata dai messaggi unitari,
+>* fino al batch successivo per l&#39;efficacia del pool IP nei messaggi batch.
+
+
+Puoi inoltre utilizzare il pulsante **[!UICONTROL Delete]** per eliminare un pool IP. Non puoi eliminare un pool IP associato a un predefinito per messaggi.
+
