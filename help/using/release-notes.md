@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 19%
+source-wordcount: '1526'
+ht-degree: 18%
 
 ---
 
@@ -28,7 +28,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>Una nuova metrica è disponibile nel reporting: il pubblico mirato per i messaggi e-mail e push è visibile sia nei rapporti live che globali.</p>
+<p>Sono disponibili nuove metriche nel reporting: Le opzioni Destinate ed Escluse per e-mail e messaggi push sono visibili sia nei rapporti live che globali. </br> Per poter accedere alle metriche più recenti, è necessario reimpostare le diverse dashboard di reporting per ogni canale e tipo di reporting. Per ulteriori informazioni sulla personalizzazione del dashboard, consulta la <a href="reports/live-report.md">documentazione dettagliata.</a></p>
 <p>Una nuova colonna nell’elenco di esecuzione dei messaggi visualizza il numero di profili target per ogni esecuzione dei messaggi. </p>
 <p>Per ulteriori informazioni, consulta la <a href="message-monitoring.md">documentazione dettagliata</a>.</p>
 </td>
