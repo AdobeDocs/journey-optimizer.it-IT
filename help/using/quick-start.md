@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 35%
 
 ---
@@ -30,11 +30,9 @@ Potrai quindi assegnare i membri del team ai profili di prodotto e alla **config
 
 Ulteriori informazioni sono disponibili nelle pagine seguenti:
 
-* **Guida introduttiva ai profili di prodotto e alle autorizzazioni**
-
 * **Imposta** le autorizzazioni utente e concedi l&#39;accesso ai membri del team. [Ulteriori informazioni](../using/administration/permissions.md)
 
-* **Distribuisci[!DNL Adobe Experience Manager Assets Essentials]** per gestire risorse e immagini nei messaggi: gli utenti che necessitano dell’accesso a  [!DNL Assets Essentials] devono far parte dei profili di prodotto  **Assets Essentials Consumer** User/e  **Assets Essentials** UsersProduct. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
+* **Distribuisci[!DNL Adobe Experience Manager Assets Essentials]** per gestire risorse e immagini nei messaggi: gli utenti che necessitano dell’accesso a  [!DNL Assets Essentials] devono far parte dei profili di prodotto  **Assets Essentials Consumer** User/e  **Assets Essentials** UsersProduct. [Ulteriori informazioni nella documentazione](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) di Assets Essentials{target=&quot;_blank&quot;}
 
 * **Configura i** canali e definisci le impostazioni di notifica e-mail e push. [Ulteriori informazioni](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ Ulteriori informazioni sono disponibili nelle pagine seguenti:
 
 In qualità di amministratore dei dati, devi **identificare i dati e creare schema e set di dati** per inserire i dati in Adobe Experience Platform.
 
-I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitati per i profili e per creare segmenti e profili di test sono descritti in dettaglio nelle sezioni seguenti:
+I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitati per i profili, creare segmenti e profili di test sono descritti in dettaglio nelle sezioni seguenti:
 
 * Scopri come visualizzare in anteprima e creare un **set di dati** nella [documentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it){target=&quot;_blank&quot;}
 
@@ -63,7 +61,7 @@ Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL 
 
 ## Creare messaggi, offerte e percorsi
 
-In qualità di Percorsi Practicioner, consulta le sezioni seguenti per configurare il primo percorso, aggiungere offerte, risorse e inviare messaggi:
+In qualità di Percorsi Practicioner, consulta le sezioni seguenti per configurare il primo percorso, aggiungere offerte e risorse e inviare messaggi:
 
 * **Creare messaggi**: accedi ai messaggi, progetta o carica i contenuti per le e-mail e le notifiche push, aggiungi personalizzazioni e visualizza in anteprima i messaggi. [Ulteriori informazioni](create-message.md)
 
