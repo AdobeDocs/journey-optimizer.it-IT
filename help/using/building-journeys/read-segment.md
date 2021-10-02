@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 4%
 
 ---
@@ -118,7 +119,7 @@ Puoi utilizzare le condizioni per eseguire la segmentazione utilizzando l’atti
 La segmentazione può essere basata su:
 
 * dati di origine dati
-* il contesto degli eventi fa parte dei dati del percorso, ad esempio: una persona ha cliccato sul messaggio ricevuto un&#39;ora fa?
+* il contesto degli eventi fa parte dei dati del percorso, ad esempio: una persona ha fatto clic sul messaggio ricevuto un&#39;ora fa?
 * una data, ad esempio: siamo a giugno quando una persona passa attraverso il percorso?
 * un’ora, ad esempio: è mattina nel fuso orario della persona?
 * un algoritmo che suddivide il pubblico che scorre nel percorso in base a una percentuale, ad esempio: 90% - 10% per escludere un gruppo di controllo
