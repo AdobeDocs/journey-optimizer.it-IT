@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 80%
 
 ---
@@ -138,7 +139,7 @@ Poiché molti clienti cercano un processo più semplice per annullare l’iscriz
 
 Scopri come aggiungere un collegamento di rinuncia al contenuto del messaggio in [questa sezione](message-tracking.md#one-click-opt-out-link).
 
-Una volta inviato il messaggio tramite un [percorso](building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, viene immediatamente escluso.
+Una volta inviato il messaggio tramite un [percorso](building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, il suo profilo viene immediatamente escluso.
 
 ## Collegamento per annullare l’abbonamento nell’intestazione {#unsubscribe-email}
 

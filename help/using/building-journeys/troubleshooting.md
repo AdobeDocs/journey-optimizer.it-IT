@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1039'
 ht-degree: 84%
 
 ---
@@ -81,7 +82,7 @@ Di seguito sono riportati alcuni elementi da verificare:
 
 Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono i messaggi che dovrebbero ricevere, puoi verificare se:
 
-* [!DNL Journey Optimizer] ha tenuto correttamente conto della richiesta di invio del messaggio. Un utente aziendale può accedere al messaggio che dovrebbe essere inviato e verificare se l’ora dell’esecuzione più recente corrisponde al tempo di esecuzione del percorso. Può anche controllare le ultime chiamate/eventi API ricevuti.
+* [!DNL Journey Optimizer] ha tenuto correttamente conto della richiesta di invio del messaggio. Gli utenti aziendali possono accedere al messaggio che si suppone venga inviato e verificare se l’ora dell’esecuzione più recente corrisponde al tempo di esecuzione del percorso. Inoltre, possono controllare le chiamate/eventi API più recenti ricevuti.
 * [!DNL Journey Optimizer] invio del messaggio completato. Nei registri di invio del messaggio, puoi visualizzare lo stato di ogni esecuzione. Puoi vedere se è verde, rosso e qual era il problema. Un utente aziendale può accedere a questa schermata e inviare i registri a un amministratore per ulteriori indagini.
 
 Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test del percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno che è associata all’azione personalizzata non genera un errore ma non provoca l’invio di un messaggio, è necessario effettuare alcune indagini sul lato del sistema esterno.
