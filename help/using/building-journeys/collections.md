@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Trasmettere dinamicamente le raccolte utilizzando azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 76b260de3f27d09d6676b18ca262b74be3d32d2c
+source-git-commit: 61ec1d33ab500837bc0a58961f1abf5fc436e487
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 4%
@@ -148,7 +148,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
    ![](../assets/uc-collection-4.png)
 
-Per il campo array, è inoltre possibile utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente, utilizziamo le funzioni [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) e [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html) :
+Per il campo array, è inoltre possibile utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente, utilizziamo le funzioni [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html) e [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionintersect.html) :
 
 ![](../assets/uc-collection-5.png)
 
