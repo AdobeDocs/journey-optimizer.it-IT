@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 3%
 Prima di creare un’offerta, accertati di aver creato:
 
 * Un **posizionamento** in cui verrà visualizzata l&#39;offerta. Consulta [Creare posizionamenti](../offer-library/creating-placements.md)
-* Una **regola decisionale** che definirà la condizione in cui verrà presentata l&#39;offerta. Consulta [Creare regole decisionali](../offer-library/creating-decision-rules.md).
-* Uno o più **tag** da associare all&#39;offerta. Consulta [Creare tag](../offer-library/creating-tags.md).
+* Per aggiungere una condizione di idoneità: una **regola decisionale** che definirà la condizione in cui verrà presentata l&#39;offerta. Consulta [Creare regole decisionali](../offer-library/creating-decision-rules.md).
+* Uno o più **tag** che è possibile associare all&#39;offerta. Consulta [Creare tag](../offer-library/creating-tags.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -45,7 +45,7 @@ Per creare un’ **offerta**, effettua le seguenti operazioni:
 
 ## Configurare le rappresentazioni dell’offerta {#representations}
 
-Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco HTML, ecc. Più rappresentazioni sono disponibili, più opportunità esistono per utilizzare l’offerta in contesti di posizionamento diversi.
+Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML, ecc. Più rappresentazioni sono disponibili, più opportunità esistono per utilizzare l’offerta in contesti di posizionamento diversi.
 
 Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettua le seguenti operazioni.
 
