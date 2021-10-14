@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -122,13 +122,19 @@ Una volta selezionati i [profili di test](#select-test-profiles), puoi inviare l
 
    ![](assets/send-proof-button.png)
 
-1. Dalla finestra **[!UICONTROL Send proof]**, oltre ai profili di test, digita l’e-mail del destinatario e fai clic su **[!UICONTROL Add]** per inviare la bozza a te stesso o ai membri delle organizzazioni.
+1. Dalla finestra **[!UICONTROL Send proof]**, digita l’e-mail del destinatario e fai clic su **[!UICONTROL Add]** per inviare la bozza all’utente o ai membri delle organizzazioni.
 
-   Puoi aggiungere fino a 10 destinatari per la consegna delle prove.
+   Puoi aggiungere fino a dieci destinatari per la consegna delle prove.
 
    ![](assets/send-proof-button_2.png)
 
-1. Quindi, seleziona i profili di test che riceveranno la bozza e fai clic su **[!UICONTROL Send proof]**. Se necessario, puoi aggiungere un prefisso alla riga dell’oggetto della bozza. Solo caratteri alfanumerici e caratteri speciali, ad esempio . - _ ( ) [ ], sono consentiti come prefisso alla riga dell’oggetto.
+1. Quindi seleziona i **Profili di test** che verranno utilizzati per personalizzare il contenuto del messaggio.
+
+   Ogni destinatario della bozza riceverà altrettanti messaggi del numero di profili di test selezionati. Ad esempio, se hai aggiunto cinque e-mail del destinatario e hai selezionato dieci profili di test, invierai cinquanta messaggi a prova di errore e ogni destinatario ne riceverà dieci.
+
+1. Se necessario, puoi aggiungere un prefisso alla riga dell’oggetto della bozza. Solo caratteri alfanumerici e caratteri speciali, ad esempio . - _ ( ) [ ], sono consentiti come prefisso alla riga dell’oggetto.
+
+1. Fai clic su **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ Una volta selezionati i [profili di test](#select-test-profiles), puoi inviare l
 
    ![](assets/send-proof-view.png)
 
-Devi inviare bozze dopo qualsiasi modifica al contenuto del messaggio.
+È consigliabile inviare bozze dopo ogni modifica al contenuto del messaggio.
 
 >[!NOTE]
 >
-> Nella bozza inviata ai profili di test, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
+>Nella bozza inviata ai profili di test, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
 
 ## Rendering di e-mail{#email-rendering}
 
