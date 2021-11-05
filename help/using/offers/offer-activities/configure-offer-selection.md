@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '450'
 ht-degree: 9%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 9%
 Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il metodo che sceglierà l’offerta migliore per ciascun profilo al momento della configurazione di una decisione (precedentemente nota come attività di offerta). Puoi classificare le offerte in base a:
 * Priorità offerta
 * Formula di classificazione
-* [Classificazione dell’intelligenza artificiale](#use-ranking-strategy)  (in accesso anticipato solo per determinati utenti)
+* [Classificazione dell’intelligenza artificiale](#use-ranking-strategy) (solo per utenti selezionati)
 
 ![](../../assets/offer-rank-by.png)
 
 ## Priorità offerta {#about-offers-priority}
 
-Per impostazione predefinita, quando più offerte sono idonee per un determinato posizionamento in una decisione (precedentemente nota come attività di offerta), le offerte con la **priorità** più alta verranno consegnate prima ai clienti.
+Per impostazione predefinita, quando più offerte sono idonee per un determinato posizionamento in una decisione (precedentemente nota come attività di offerta), le offerte con il valore più alto **priorità** verranno consegnati prima ai clienti.
 
 ![](../../assets/offer-priority.png)
 
@@ -32,7 +32,7 @@ I punteggi di priorità delle offerte vengono assegnati durante la creazione di 
 
 ## Formula di classificazione {#assign-ranking-formula}
 
-Oltre alla priorità delle offerte, Journey Optimizer consente di creare **formule di classificazione**. Si tratta di formule che determinano quale offerta deve essere presentata prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte.
+Oltre alla priorità delle offerte, Journey Optimizer consente di creare **classificazione delle formule**. Si tratta di formule che determinano quale offerta deve essere presentata prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte.
 
 Ad esempio, puoi aumentare la priorità di tutte le offerte in cui la data di fine è inferiore a 24 ore da ora, oppure incrementare le offerte dalla categoria &quot;in esecuzione&quot; se il punto di interesse del profilo è &quot;in esecuzione&quot;.
 
@@ -42,11 +42,11 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 1. Crea una decisione o modifica una decisione esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
-1. Aggiungi i posizionamenti che conterranno le offerte. Consulta [Creare posizionamenti](../offer-library/creating-placements.md).
+1. Aggiungi i posizionamenti che conterranno le offerte. Vedi [Creare posizionamenti](../offer-library/creating-placements.md).
 
-1. Per ogni posizionamento, aggiungi una raccolta. Consulta [Creare raccolte](../offer-library/creating-collections.md).
+1. Per ogni posizionamento, aggiungi una raccolta. Vedi [Creare raccolte](../offer-library/creating-collections.md).
 
-1. Scegli di classificare le offerte per **[!UICONTROL Ranking]** dall’elenco a discesa, quindi fai clic su **[!UICONTROL Add ranking]**.
+1. Seleziona **[!UICONTROL Ranking formula]** come metodo di classificazione, quindi fare clic su **[!UICONTROL Add ranking]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
@@ -70,25 +70,19 @@ Una volta creata una strategia di classificazione, puoi assegnarla a un posizion
 
 1. Crea una decisione o modifica una decisione esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
-1. Aggiungi i posizionamenti che conterranno le offerte. Consulta [Creare posizionamenti](../offer-library/creating-placements.md).
+1. Aggiungi i posizionamenti che conterranno le offerte. Vedi [Creare posizionamenti](../offer-library/creating-placements.md).
 
-1. Per ogni posizionamento, aggiungi una raccolta. Consulta [Creare raccolte](../offer-library/creating-collections.md).
+1. Per ogni posizionamento, aggiungi una raccolta. Vedi [Creare raccolte](../offer-library/creating-collections.md).
 
-1. Scegli di classificare le offerte per **[!UICONTROL AI ranking]** dall’elenco a discesa.
+1. Scegli di classificare le offerte per **[!UICONTROL AI ranking]** dall’elenco a discesa e fai clic su **[!UICONTROL Add ranking]**.
 
    ![](../../assets/ranking-selection-ai-ranking.png)
-
-1. Fai clic su **[!UICONTROL Add ranking]**.
-
-   ![](../../assets/ranking-selection-ai-ranking-add.png)
 
 1. Seleziona la strategia di classificazione creata. Vengono visualizzati tutti i dettagli della strategia di classificazione.
 
    ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Fai clic su **[!UICONTROL Select]**.
-
-La strategia di classificazione è ora associata al posizionamento.
+1. Fai clic su **[!UICONTROL Select]**. La strategia di classificazione è ora associata al posizionamento.
 
 Se sono ammissibili più offerte, il sistema di modelli addestrati determinerà quale offerta presentare prima per un determinato posizionamento.
 

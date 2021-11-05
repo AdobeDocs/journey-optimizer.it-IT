@@ -5,26 +5,26 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b2eedebb42f878cec0e7747e015693fad4667cff
+exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
+source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
 
-
 # Creare predefiniti per messaggi
 
-Con [!DNL Journey Optimizer] puoi impostare i predefiniti per messaggi che definiscono tutti i parametri tecnici necessari per i messaggi e-mail e di notifica push: tipo di e-mail, indirizzo e-mail e nome del mittente, app mobile e altro ancora.
+Con [!DNL Journey Optimizer], puoi impostare i predefiniti per i messaggi che definiscono tutti i parametri tecnici necessari per i messaggi e-mail e di notifica push: tipo di e-mail, indirizzo e-mail e nome del mittente, app mobile e altro ancora.
 
 >[!CAUTION]
 >
 > * La configurazione dei predefiniti per messaggi è limitata agli amministratori di Percorso. [Ulteriori informazioni](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * Devi eseguire i passaggi di configurazione e-mail e push prima di creare i predefiniti per i messaggi.
+> * È necessario eseguire la configurazione e-mail e [Configurazione push](../push-configuration.md) prima di creare i predefiniti per messaggi.
 
 
-Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dall’elenco **[!UICONTROL Presets]** .
+Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dal **[!UICONTROL Presets]** elenco.
 
 ➡️ [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
 
@@ -32,7 +32,7 @@ Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento
 
 Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
-1. Accedi al menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]**, quindi fai clic su **[!UICONTROL Create Message preset]**.
+1. Accedere al **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, quindi fai clic su **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
 
@@ -42,9 +42,9 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-1. Configura le impostazioni **email** .
+1. Configura le **email** impostazioni.
 
    ![](../assets/preset-email.png)
 
@@ -52,7 +52,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
       >[!CAUTION]
       >
-      > **** I messaggi transazionali possono essere inviati a profili che hanno annullato l’abbonamento a comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici, ad esempio la reimpostazione della password, lo stato dell’ordine e la notifica della consegna.
+      > **Transazionale** I messaggi possono essere inviati a profili che hanno annullato l’abbonamento a comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici, ad esempio la reimpostazione della password, lo stato dell’ordine e la notifica della consegna.
 
    * Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
    * Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
@@ -60,27 +60,33 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
       >[!CAUTION]
       >
-      >Ad eccezione del campo **Risposta a (inoltra e-mail)**, il dominio degli indirizzi e-mail deve utilizzare il sottodominio delegato [selezionato corrente](about-subdomain-delegation.md).
+      >Gli indirizzi e-mail devono utilizzare il [sottodominio delegato](about-subdomain-delegation.md).
+
+      <!--CAUTION: Except for the **Reply to (forward email)** field-->
 
       * **[!UICONTROL Sender name]**: Nome del mittente, ad esempio il nome del brand.
 
       * **[!UICONTROL Sender email]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com*.
 
-      * **[!UICONTROL Reply to (name)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante  **** Risposta nel proprio software client e-mail.
+      * **[!UICONTROL Reply to (name)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail.
 
-      * **[!UICONTROL Reply to (email)]**: Indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante  **** Risposta nel proprio software client e-mail. Le e-mail inviate a questo indirizzo verranno inoltrate all&#39; **[!UICONTROL Reply to (forward email)]** indirizzo indicato di seguito. Devi utilizzare un indirizzo definito nel sottodominio delegato (ad esempio, *reply@marketing.luma.com*), altrimenti le e-mail verranno eliminate.
-
-      * **[!UICONTROL Reply to (forward email)]**: Tutte le e-mail ricevute da  [!DNL Journey Optimizer] per il sottodominio delegato verranno inoltrate a questo indirizzo e-mail. Puoi specificare qualsiasi indirizzo, tranne un indirizzo e-mail definito nel sottodominio delegato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+      * **[!UICONTROL Reply to (email)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->È necessario utilizzare un indirizzo definito nel sottodominio delegato (ad esempio, *reply@marketing.luma.com*), altrimenti le e-mail verranno eliminate.
 
       * **[!UICONTROL Error email]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
+
+      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
+
+      >[!NOTE]
+      >
+      >Dalla versione di ottobre 2021, non è più possibile definire un indirizzo e-mail inoltrato dal [!DNL Journey Optimizer] interfaccia utente. Se desideri che tutte le e-mail ricevute da [!DNL Journey Optimizer] per inoltrare il sottodominio delegato a un indirizzo e-mail specifico, contatta il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
 
       ![](../assets/preset-header.png)
 
       >[!NOTE]
       >
-      >I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+      >I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-   * Configura i parametri **esecuzione di un nuovo tentativo e-mail**. Per impostazione predefinita, il [periodo di esecuzione dei nuovi tentativi](retries.md#retry-duration) è impostato su 84 ore, ma è possibile regolare questa impostazione in base alle proprie esigenze.
+   * Configura le **parametri di esecuzione di un nuovo tentativo e-mail**. Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-duration) è impostato su 84 ore, ma è possibile regolare questa impostazione in base alle proprie esigenze.
 
       ![](../assets/preset-retry-paramaters.png)
 
@@ -90,7 +96,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
       * Per entrambi i tipi di e-mail, il periodo massimo di esecuzione dei nuovi tentativi è di 84 ore (o 5040 minuti).
 
 
-1. Configura le impostazioni **notifica push** .
+1. Configura le **notifica push** impostazioni.
 
    ![](../assets/preset-push.png)
 
@@ -98,15 +104,15 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    * Seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
 
-      Per ulteriori informazioni su come configurare l&#39;ambiente per l&#39;invio di notifiche push, consulta [questa sezione](../push-gs.md).
+      Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](../push-gs.md).
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
    ![](../assets/preset-submit.png)
 
-1. Una volta creato, il predefinito del messaggio viene visualizzato nell’elenco con lo stato **[!UICONTROL Processing]** .
+1. Una volta creato il predefinito del messaggio, questo viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato.
 
-   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è di circa **48h-72h** e può richiedere fino a **7-10 giorni**.
+   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**.
 
    Questi controlli includono test di recapito messaggi eseguiti dal team di recapito messaggi di Adobe:
 
@@ -120,9 +126,9 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi dell&#39;errore in [questa sezione](#monitor-message-presets).
+   >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-message-presets).
 
-1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene lo stato **[!UICONTROL Active]** . È pronto per essere utilizzato per inviare messaggi.
+1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -130,7 +136,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 ## Monitorare i predefiniti per messaggi {#monitor-message-presets}
 
-Tutti i predefiniti per messaggi vengono visualizzati nel menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** . Sono disponibili filtri per aiutarti a sfogliare l’elenco (tipo di canale, utente, stato).
+Tutti i predefiniti per messaggi vengono visualizzati nella **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu. Sono disponibili filtri per aiutarti a sfogliare l’elenco (tipo di canale, utente, stato).
 
 ![](../assets/preset-filters.png)
 
@@ -140,11 +146,11 @@ I predefiniti per messaggi possono avere i seguenti stati:
 * **[!UICONTROL Processing]**: Il predefinito del messaggio è stato inviato e sta attraversando diverse fasi di verifica.
 * **[!UICONTROL Active]**: Il predefinito del messaggio è stato verificato e può essere selezionato per creare i messaggi.
 * **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica del predefinito del messaggio.
-* **[!UICONTROL De-activated]**: Il predefinito del messaggio viene disattivato. Non può essere utilizzato per creare nuovi messaggi.
+* **[!UICONTROL Deactivated]**: Il predefinito del messaggio è disattivato. Non può essere utilizzato per creare nuovi messaggi.
 
 Se la creazione di un predefinito di messaggio non riesce, di seguito sono descritti i dettagli di ciascun possibile motivo di errore.
 
-Se si verifica uno di questi errori, contatta il [team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} per ottenere assistenza.
+Se si verifica uno di questi errori, contatta il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} per ottenere assistenza.
 
 * **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare gli IP autorizzati che possono inviare e-mail da un determinato sottodominio. Un errore di convalida SPF indica che gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider di cassette postali.
 
@@ -154,29 +160,132 @@ Se si verifica uno di questi errori, contatta il [team di assistenza clienti Ado
 
 * **Configurazioni del recapito messaggi non riuscite**: Un errore di configurazione del recapito messaggi può verificarsi a causa di uno dei motivi seguenti:
    * Inserire nell&#39;elenco Bloccati degli IP allocati
-   * Nome `helo` non valido
+   * Non valido `helo` name
    * E-mail inviate da IP diversi da quelli specificati nel pool IP del predefinito corrispondente
    * Impossibile inviare e-mail alle caselle in entrata dei principali ISP come Gmail e Yahoo
 
-## Modificare i predefiniti per i messaggi
+## Modificare un predefinito di messaggio {#edit-message-preset}
 
-Per modificare un predefinito per messaggi, devi prima disattivarlo per renderlo non disponibile per la creazione di nuovi messaggi (i messaggi pubblicati con questo predefinito non saranno interessati e continueranno a funzionare). Devi quindi duplicare il predefinito per messaggi per creare una nuova versione da usare per creare nuovi messaggi:
+Per modificare un predefinito per messaggi, segui i passaggi riportati di seguito.
 
-1. Accedi all’elenco dei predefiniti per messaggi e disattiva il predefinito per messaggi da modificare.
+>[!NOTE]
+>
+>Non è possibile modificare il **[!UICONTROL Push notification settings]**. Se un predefinito per messaggi è configurato solo per il canale di notifica push, non è modificabile.
 
-   ![](../assets/preset-deactivate.png)
+1. Nell’elenco, fai clic sul nome di un predefinito per messaggi per aprirlo.
 
-1. Duplica il predefinito di messaggio disattivato. All’elenco viene automaticamente aggiunta una copia con lo stato **[!UICONTROL Draft]** .
+   ![](../assets/preset-name.png)
 
-   ![](../assets/preset-duplicated.png)
-
-1. Apri il predefinito di messaggio duplicato, modificalo in base alle tue esigenze, quindi invia le modifiche. Il predefinito per messaggi eseguirà lo stesso ciclo di convalida del passaggio di [creazione](#create-message-preset).
-
-1. Una volta convalidato, ottiene lo stato **[!UICONTROL Active]** ed è pronto per essere utilizzato per creare nuovi messaggi.
+1. Modifica le proprietà desiderate.
 
    >[!NOTE]
    >
-   >I predefiniti per messaggi disattivati non possono essere eliminati per evitare problemi nei percorsi che utilizzano questi predefiniti per inviare messaggi.
+   >Se un predefinito di messaggio ha **[!UICONTROL Active]** lo stato **[!UICONTROL Name]**, **[!UICONTROL Select channel]** e **[!UICONTROL Subdomain]** i campi sono disattivati e non possono essere modificati.
+
+1. Fai clic su **[!UICONTROL Submit]** per confermare le modifiche.
+
+   ![](../assets/preset-confirm-update.png)
+
+   >[!NOTE]
+   >
+   >Puoi anche salvare il predefinito del messaggio come bozza e riprendere l’aggiornamento in un secondo momento.
+
+Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo di convalida simile a quello in atto quando [creazione di un predefinito](#create-message-preset).
+
+Per i predefiniti per messaggi con **[!UICONTROL Active]** puoi controllare i dettagli dell’aggiornamento. Per eseguire questa operazione:
+
+* Fai clic sul pulsante **[!UICONTROL Recent update]** accanto al nome del predefinito attivo.
+
+   ![](../assets/preset-recent-update-icon.png)
+
+* Durante l’aggiornamento è inoltre possibile accedere ai dettagli dell’aggiornamento da un predefinito di messaggio attivo.
+
+   ![](../assets/preset-view-update-details.png)
+
+Sulla **[!UICONTROL Recent update]** è possibile visualizzare informazioni quali lo stato dell’aggiornamento,<!--the approximate remaining time before completion (if validation is in progress)--> e l&#39;elenco delle modifiche richieste.
+
+![](../assets/preset-recent-update-screen.png)
+
+### Aggiorna stati {#update-statuses}
+
+Un aggiornamento predefinito per messaggi può presentare i seguenti stati:
+
+* **[!UICONTROL Processing]**: L&#39;aggiornamento del predefinito del messaggio è stato inviato ed è in corso una serie di verifiche.
+* **[!UICONTROL Success]**: Il predefinito del messaggio aggiornato è stato verificato e può essere selezionato per creare i messaggi.
+* **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del predefinito del messaggio.
+
+**Elaborazione**
+
+Verranno eseguiti diversi controlli di recapito per verificare che il predefinito sia stato aggiornato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**. Ulteriori informazioni sui controlli eseguiti durante il ciclo di convalida in [questa sezione](#create-message-preset).
+
+>[!NOTE]
+>
+>Non puoi modificare un predefinito di messaggio mentre è in corso l’aggiornamento. È comunque possibile fare clic sul suo nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
+
+Se modifichi un predefinito già attivo:
+
+* Il suo status rimane invariato **[!UICONTROL Active]** mentre il processo di convalida è in corso.
+
+* La **[!UICONTROL Recent update]** accanto al nome del predefinito viene visualizzata nell’elenco dei predefiniti per messaggi .
+
+* Durante il processo di convalida, i messaggi configurati utilizzando questo predefinito utilizzano ancora la versione precedente del predefinito.
+
+**Operazione riuscita**
+
+Quando il processo di convalida ha esito positivo, la nuova versione del predefinito viene utilizzata automaticamente in tutti i messaggi che utilizzano questo predefinito. Tuttavia, potrebbe essere necessario attendere:
+* alcuni minuti prima che sia consumata dai messaggi unitari,
+* fino al batch successivo per l&#39;efficacia della preimpostazione nei messaggi batch.
+
+<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
+
+**Non riuscito**
+
+Se il processo di convalida non riesce, verrà comunque utilizzata la versione precedente del predefinito.
+
+I possibili tipi di errore di aggiornamento sono i seguenti:
+* **Errore di autorizzazione**: token portatore non valido o non autorizzato.
+* **Modifica illegale**: è stata eseguita una modifica su uno o più campi non consentiti.
+* **Precondizione non riuscita**: alcuni campi possono avere solo valori specifici e questo non è stato rispettato.
+
+<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+
+Quando l&#39;aggiornamento non riesce, il predefinito diventa nuovamente modificabile. È possibile fare clic sul suo nome e aggiornare le impostazioni che devono essere corrette.
+
+## Disattiva un predefinito messaggio {#deactivate-preset}
+
+Per creare un **[!UICONTROL Active]** predefinito messaggio non disponibile per creare nuovi messaggi, puoi disattivarlo. Tuttavia, i messaggi pubblicati che utilizzano questo predefinito non saranno interessati e continueranno a funzionare.
+
+>[!NOTE]
+>
+>Non puoi disattivare un predefinito di messaggio durante l’elaborazione di un aggiornamento. Attendere il completamento dell&#39;aggiornamento oppure l&#39;operazione non è riuscita. Ulteriori informazioni su [modifica dei predefiniti per messaggi](#edit-message-preset) e [aggiorna stati](#update-statuses).
+
+1. Accedi all’elenco dei predefiniti per i messaggi .
+
+1. Per il predefinito attivo desiderato, fai clic sul pulsante **[!UICONTROL More actions]** pulsante .
+
+1. Seleziona **[!UICONTROL Deactivate]**.
+
+   ![](../assets/preset-deactivate.png)
+
+>[!NOTE]
+>
+>I predefiniti per messaggi disattivati non possono essere eliminati per evitare problemi nei percorsi che utilizzano questi predefiniti per inviare messaggi.
+
+Non puoi modificare direttamente un predefinito per messaggi disattivati. Tuttavia, puoi duplicarla e modificare la copia per creare una nuova versione da utilizzare per creare nuovi messaggi. È inoltre possibile attivarlo nuovamente e attendere che l&#39;aggiornamento abbia esito positivo per modificarlo.
+
+![](../assets/preset-activate.png)
+
+<!--1. Access the message presets list.
+
+1. Deactivate the message preset that you want to edit.
+
+1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
+
+    ![](../assets/preset-duplicated.png)
+
+1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
+
+1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## Video introduttivo{#video-presets}
 

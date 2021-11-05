@@ -6,26 +6,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
 
 # Rapporto live delle e-mail {#email-live-report}
 
-L’e-mail **[!UICONTROL Live report]** esegue il targeting solo di una consegna e-mail specifica.
+L’e-mail **[!UICONTROL Live report]** esegue solo il targeting di una consegna e-mail specifica.
 
-Dalla scheda **[!UICONTROL Executions]** del menu **[!UICONTROL Messages]** , seleziona **[!UICONTROL Live view]** , quindi dal menu avanzato della consegna selezionata seleziona **[!UICONTROL Live report]**.
+Da **[!UICONTROL Executions]** della scheda **[!UICONTROL Messages]** menu, seleziona **[!UICONTROL Live view]** dal menu avanzato della consegna selezionata, seleziona **[!UICONTROL Live report]**.
 
 ![](../assets/live_report.png)
 
-L’e-mail **[!UICONTROL Live report]** è divisa in diversi widget che ne descrivono il successo e gli errori. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
+L’e-mail **[!UICONTROL Live report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della consegna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](live-report.md#modify-dashboard).
 
 ![](../assets/live_report_5.png)
 
-**[!UICONTROL Email performance]** e  **[!UICONTROL Email summary]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio con un grafico e KPI:
+**[!UICONTROL Email performance]** e **[!UICONTROL Email summary]** I widget descrivono nel dettaglio le informazioni principali relative al messaggio con un grafico e KPI:
 
 * **[!UICONTROL Targeted]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
 
@@ -47,7 +47,7 @@ L’e-mail **[!UICONTROL Live report]** è divisa in diversi widget che ne descr
 
 * **[!UICONTROL Excluded]**: Numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
-Il widget **[!UICONTROL Sending Statistics]** descrive il successo della consegna:
+La **[!UICONTROL Sending Statistics]** widget descrive il successo della consegna:
 
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
@@ -57,9 +57,9 @@ Il widget **[!UICONTROL Sending Statistics]** descrive il successo della consegn
 
 ![](../assets/live_report_6.png)
 
-Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
-I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
+La **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
 * **[!UICONTROL Hard bounce]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
 
@@ -67,8 +67,22 @@ I widget **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** co
 
 * **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
+![](../assets/live_report_8.png)
+
 >[!NOTE]
 >
->I profili con stato **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** sono esclusi durante il processo di invio del messaggio. Pertanto, mentre i **rapporti sul Percorso** mostreranno questi profili come spostati attraverso il percorso ([Leggi segmento](../building-journeys/read-segment.md) e [Messaggio](../building-journeys/journeys-message.md)), i **Rapporti e-mail** non li includeranno nelle metriche **[!UICONTROL Sent]** in quanto vengono filtrati prima dell’invio dell’e-mail.
+>I widget e le metriche Offerte sono disponibili solo se una decisione è stata inserita in un’e-mail. Per ulteriori informazioni sulla gestione delle decisioni, consulta questo [page](../offers/get-started/starting-offer-decisioning.md).
+
+La **[!UICONTROL Offers statistic]** e **[!UICONTROL Offers statistics]** i widget nel tempo misurano il successo e l’impatto dell’offerta sul pubblico di destinazione. Vengono descritte in dettaglio le informazioni principali relative al messaggio con i KPI:
+
+* **[!UICONTROL Offer sent]**: Numero totale di invii per l’offerta.
+
+* **[!UICONTROL Offer impression]**: Numero di volte in cui l’offerta è stata aperta in una consegna.
+
+* **[!UICONTROL Offer clicks]**: Numero di volte in cui un’offerta è stata selezionata in una consegna.
+
+>[!NOTE]
 >
->Ulteriori informazioni sull&#39; [Elenco di soppressione](../suppression-list.md) e sull&#39; [Elenco Consentiti](../allow-list.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>I profili con **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [Messaggio](../building-journeys/journeys-message.md) attività), **Rapporti e-mail** non li includerà nella **[!UICONTROL Sent]** le metriche vengono filtrate prima dell’invio dell’e-mail.
+>
+>Per saperne di più sul [Elenco di eliminazione](../suppression-list.md) e [Elenco Consentiti](../allow-list.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.

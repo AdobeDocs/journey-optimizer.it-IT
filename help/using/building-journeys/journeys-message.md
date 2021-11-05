@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
+exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
+source-git-commit: dc05d88773dc148dc0e5387953f49c4d03b1888f
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '793'
 ht-degree: 3%
 
 ---
@@ -16,15 +17,15 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] le funzionalità per i messaggi sono integrate e ti basta progettare il contenuto e pubblicare il messaggio. Vedi [questa sezione](../get-started-content.md). Quindi devi semplicemente aggiungere, nel tuo percorso, un messaggio push o e-mail progettato utilizzando Journey Optimizer.
 
-Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni in questa sezione [sezione](../action/action.md).
+Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md).
 
 ## Aggiungere un’attività Messaggio
 
-1. Come sempre, inizia il percorso con un evento o un&#39;attività **Leggi segmento** .
+1. Come sempre, inizia il tuo percorso con un evento o un **Leggi segmento** attività.
 
    ![](../assets/jo-message0.png)
 
-1. Dalla sezione **Azioni** della palette, trascina e rilascia un’attività **Messaggio** nell’area di lavoro.
+1. Da **Azioni** sezione della palette, trascinare un **Messaggio** nell’area di lavoro.
 
    ![](../assets/jo-message1.png)
 
@@ -32,15 +33,15 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
    ![](../assets/jo-message2.png)
 
-1. Fare clic all&#39;interno del campo **Messaggio**. Viene visualizzato l’elenco dei messaggi disponibili progettati in Journey Optimizer. È possibile filtrare l’elenco in base allo stato.
+1. Fai clic all’interno del **Messaggio** campo . Viene visualizzato l’elenco dei messaggi disponibili progettati in Journey Optimizer. È possibile filtrare l’elenco in base allo stato.
 
    ![](../assets/jo-message3.png)
 
-1. Scegli un messaggio e fai clic su **Seleziona**. Puoi anche creare un nuovo messaggio direttamente da questa schermata facendo clic su **Crea messaggio**.
+1. Scegli un messaggio e fai clic su **Seleziona**. Puoi anche creare un nuovo messaggio direttamente da questa schermata facendo clic su **Creare un messaggio**.
 
    ![](../assets/jo-message4-ter.png)
 
-   Per controllare il messaggio, fai clic sull&#39;icona **Apri il messaggio** nel campo **Messaggio** . Il messaggio verrà aperto in una nuova scheda.
+   Per controllare il messaggio, puoi fare clic sul pulsante **Apri il messaggio** nella **Messaggio** campo . Il messaggio verrà aperto in una nuova scheda.
 
    ![](../assets/jo-message4-bis.png)
 
@@ -48,11 +49,14 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
 ## Parametri e-mail e parametri push
 
-Le sezioni **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** mostrano campi di sola lettura. Questa configurazione viene in genere eseguita al momento della creazione del messaggio. Vedi [questa sezione](../get-started-content.md).
+La **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** le sezioni mostrano campi di sola lettura. Questa configurazione viene in genere eseguita al momento della creazione del messaggio. Vedi [questa sezione](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Per forzare un valore specifico, puoi utilizzare l&#39;icona **Abilita sostituzione parametro** a destra del campo. Questa opzione può essere utile a scopo di test. Ad esempio, per un’e-mail, puoi aggiungere il tuo indirizzo e-mail. Dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
+Per forzare un valore specifico, puoi utilizzare la funzione **Abilita sostituzione parametro** a destra del campo. Questa opzione può essere utile per vari scopi:
+
+* Ad esempio, per testare un’e-mail, puoi aggiungere il tuo indirizzo e-mail. Dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
+* Puoi fare riferimento all’indirizzo e-mail degli abbonati a un elenco. Vedi questo [caso d&#39;uso](message-to-subscribers-uc.md).
 
 ## Ottimizzazione dei tempi di invio{#send-time-optimization}
 
@@ -99,10 +103,10 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si 
 >title="Attivare l’ottimizzazione del tempo di invio"
 >abstract="I messaggi push vengono impostati per impostazione predefinita sull’opzione di apertura, in quanto i clic non sono applicabili ai messaggi push. Puoi anche scegliere di mettere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per l’opzione Invia all’interno dell’opzione successiva."
 
-Abilita l’ottimizzazione del tempo di invio su un messaggio e-mail o push selezionando l’opzione **Ottimizzazione del tempo di invio** dai parametri dell’attività Messaggio .
+Abilita l’ottimizzazione in fase di invio su un messaggio e-mail o push selezionando la **Ottimizzazione dei tempi di invio** dai parametri dell’attività Messaggio .
 
 ![](../assets/jo-message5.png)
 
 Per i messaggi e-mail, scegli se ottimizzare le aperture dei messaggi e-mail o i click-through di e-mail selezionando il pulsante di scelta appropriato. I messaggi push vengono impostati per impostazione predefinita sull’opzione di apertura, in quanto i clic non sono applicabili ai messaggi push.
 
-Puoi anche scegliere di mettere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per l’ **Invia all’interno dell’opzione successiva**. Se selezioni &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ogni profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
+Puoi anche scegliere di applicare una parentesi ai tempi di invio utilizzati dal sistema immettendo un valore per la **Invia all&#39;interno del successivo** opzione . Se si sceglie &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ogni profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.

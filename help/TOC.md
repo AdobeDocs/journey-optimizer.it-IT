@@ -5,15 +5,14 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '756'
+ht-degree: 89%
 
 ---
 
-
-# Guida di [!DNL Journey Optimizer]  {#using}
+# Guida di Adobe Journey Optimizer {#using}
 
 + [Documentazione di Journey Optimizer](ajo-home.md)
 + Novità {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 94%
    + [Ultimi aggiornamenti](using/documentation-updates.md)
 + Introduzione{#get-started}
    + [Cos’è Journey Optimizer](using/get-started.md)
-   + [Guida introduttiva](using/quick-start.md)
+   + Guida introduttiva{#quick-start}
+      + [Panoramica](using/quick-start.md)
+      + [Introduzione come addetto al marketing](using/path/marketer.md)
+      + [Guida introduttiva a Data Engineer](using/path/data-engineer.md)
+      + [Introduzione come amministratore](using/path/administrator.md)
+      + [Guida introduttiva per sviluppatori](using/path/developer.md)
    + [Interfaccia utente](using/user-interface.md)
    + [Limitazioni ](using/limitations.md)
 + Messaggi {#create-messages}
@@ -36,7 +40,7 @@ ht-degree: 94%
       + [Creare contenuti e-mail nell’interfaccia utente](using/create-email-content.md)
       + [Importare o codificare il contenuto delle e-mail](using/existing-content.md)
       + [Utilizzare i componenti di contenuto di e-mail designer](using/content-components.md)
-   + [Aggiungere collegamenti e tenere traccia dei messaggi](using/message-tracking.md)
+   + [Aggiungere link e tenere traccia dei messaggi](using/message-tracking.md)
    + Convalida e pubblicazione {#create-message}
       + [Anteprima e bozze](using/preview.md)
       + [Controllare gli avvisi](using/alerts.md)
@@ -50,10 +54,11 @@ ht-degree: 94%
       + [Notifica dello stato dell&#39;ordine](using/personalization/personalization-use-case.md)
       + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Funzioni assistenza{#functions}
-      + [Elenco delle funzioni assistenza](using/personalization/functions/functions.md)
+      + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
       + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
       + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
       + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
+      + [Funzioni data](using/personalization/functions/dates.md)
       + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
       + [Assistenza](using/personalization/functions/helpers.md)
       + [Mappare le funzioni](using/personalization/functions/maps.md)
@@ -97,6 +102,7 @@ ht-degree: 94%
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Trasmettere dinamicamente le raccolte utilizzando azioni personalizzate](using/building-journeys/collections.md)
+      + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
 + Tracciare e monitorare {#reporting}
    + [Monitoraggio dei messaggi](using/message-monitoring.md)
    + Report live {#live-report}
@@ -111,11 +117,14 @@ ht-degree: 94%
       + [Rapporto globale delle notifiche push](using/reports/push-global-report.md)
    + Rapporti sul percorso {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
-      + [Campi del percorso](using/reports/sharing-journey-fields.md)
-      + [Campi comuni](using/reports/sharing-common-fields.md)
-      + [Campi di esecuzione azione](using/reports/sharing-execution-fields.md)
-      + [Campi di recupero dati](using/reports/sharing-fetch-fields.md)
-      + [Campi di identità](using/reports/sharing-identity-fields.md)
+      + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
+      + Campi evento del passaggio precedente {#legacy-step-event-fields}
+         + [Informazioni sui campi legacy](using/reports/sharing-legacy-fields.md)
+         + [Campi del percorso](using/reports/sharing-journey-fields.md)
+         + [Campi comuni](using/reports/sharing-common-fields.md)
+         + [Campi di esecuzione azione](using/reports/sharing-execution-fields.md)
+         + [Campi di recupero dati](using/reports/sharing-fetch-fields.md)
+         + [Campi di identità](using/reports/sharing-identity-fields.md)
       + [Esempi di query](using/reports/query-examples.md)
    + Consegna {#deliverability}
       + [Introduzione alla consegna](using/deliverability.md)
@@ -140,6 +149,7 @@ ht-degree: 94%
    + Creare e gestire decisioni {#create-manage-activities}
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
+      + [Creare simulazioni](using/offers/offer-activities/simulation.md)
    + Creare rapporti di gestione delle decisioni {#create-reports}
       + [Introduzione agli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
       + [Informazioni chiave sugli eventi di Gestione delle decisioni](using/offers/reports/key-information.md)
@@ -242,7 +252,7 @@ ht-degree: 94%
          + [Informazioni sulle azioni](using/action/action.md)
          + [Configurare un’azione](using/action/about-custom-action-configuration.md)
          + [Integrare con Adobe Campaign v7/v8](using/action/acc-action.md)
-   + [Fonti](using/get-started-sources.md)
+   + [Origini](using/get-started-sources.md)
 + Controllo degli accessi {#administration}
    + [Panoramica sul controllo degli accessi](using/administration/permissions-overview.md)
    + [Profili di prodotto incorporati](using/administration/ootb-product-profiles.md)

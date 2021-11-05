@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
+source-git-commit: 7f8871fdaf5bb543ce8dc894f3a7dc7304eccf36
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 2%
+source-wordcount: '1234'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ Le decisioni (precedentemente note come attività di offerta) sono contenitori p
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle decisioni è accessibile dal menu **[!UICONTROL Offers]** > scheda **[!UICONTROL Decisions]** . Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
+L&#39;elenco delle decisioni è accessibile nella **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** scheda . Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
 
 ![](../../assets/activities-list.png)
 
@@ -36,57 +36,93 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
 1. Specifica il nome della decisione.
 
-1. Definisci una data e un’ora di inizio e di fine, quindi fai clic su **[!UICONTROL Next]**.
+1. Se necessario, definisci una data e un’ora di inizio e di fine, quindi fai clic su **[!UICONTROL Next]**.
 
    ![](../../assets/activities-name.png)
 
-## Aggiungi ambiti decisionali {#add-decision-scopes}
+## Definire gli ambiti decisionali {#add-decision-scopes}
 
-1. Trascina e rilascia un posizionamento dall’elenco per aggiungerlo alla decisione, quindi fai clic su **[!UICONTROL Add collection]**.
+1. Seleziona un posizionamento dall’elenco a discesa. Sarà aggiunto al primo ambito decisionale della vostra decisione.
 
    ![](../../assets/activities-placement.png)
 
+1. Fai clic su **[!UICONTROL Add]** per selezionare i criteri di valutazione per questo posizionamento.
+
+   ![](../../assets/activities-evaluation-criteria.png)
+
+   Ogni criterio consiste in una raccolta di offerte associata a un vincolo di idoneità e in un metodo di classificazione per determinare le offerte da visualizzare nel posizionamento.
+
    >[!NOTE]
    >
-   >Lo stesso posizionamento può essere selezionato più volte nella decisione.
+   >È necessario almeno un criterio di valutazione.
 
-1. Seleziona la raccolta contenente le offerte da considerare, quindi fai clic su **[!UICONTROL Add]**.
+1. Seleziona la raccolta di offerte che contiene le offerte da considerare, quindi fai clic su **[!UICONTROL Add]**.
 
    ![](../../assets/activities-collection.png)
 
-1. Le offerte selezionate vengono aggiunte al posizionamento.
+   >[!NOTE]
+   >
+   >Puoi fare clic su **[!UICONTROL Open offer collections]** per visualizzare l’elenco delle raccolte in una nuova scheda, che consente di sfogliare le raccolte e le offerte che contengono.
 
-   In questo esempio, abbiamo selezionato due offerte che verranno visualizzate in un posizionamento di tipo JSON per presentare le offerte in una soluzione di call center.
+   La raccolta selezionata viene aggiunta ai criteri.
 
-   ![](../../assets/offers-added.png)
+   ![](../../assets/activities-collection-added.png)
 
-1. Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, verranno consegnate al cliente le offerte con il punteggio di priorità più alto.
+1. Utilizza la **[!UICONTROL Eligibility]** per limitare la selezione delle offerte per questo posizionamento.
 
-   Se desideri utilizzare una formula specifica o una strategia di classificazione per scegliere l’offerta idonea da consegnare, seleziona una formula di classificazione dall’elenco a discesa **[!UICONTROL Rank offers by]**. Per ulteriori informazioni al riguardo, consulta [questa sezione](../offer-activities/configure-offer-selection.md).
+   Questo vincolo può essere applicato utilizzando un **norma decisionale** o uno o più **Segmenti Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](#segments-vs-decision-rules).
 
-1. Il campo **[!UICONTROL Constraint]** limita la selezione delle offerte per questo posizionamento. Questo vincolo può essere applicato utilizzando una **regola decisionale** o uno o più segmenti **Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](#segments-vs-decision-rules).
-
-   * Per limitare la selezione delle offerte ai membri di un segmento Adobe Experience Platform, seleziona **[!UICONTROL Segments]**, quindi fai clic su **[!UICONTROL Add segments]**.
+   * Per limitare la selezione delle offerte ai membri di un segmento di Experience Platform, seleziona **[!UICONTROL Segments]**, quindi fai clic su **[!UICONTROL Add segments]**.
 
       ![](../../assets/activity_constraint_segment.png)
 
-      Aggiungi uno o più segmenti dal riquadro a sinistra, combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**, quindi fai clic su **[!UICONTROL Select]** per confermare.
+      Aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando il **[!UICONTROL And]** / **[!UICONTROL Or]** operatori logici.
 
       ![](../../assets/activity_constraint_segment2.png)
 
-      Ulteriori informazioni su come lavorare con i segmenti in [questa sezione](../../segment/about-segments.md).
+      Scopri come lavorare con i segmenti in [questa sezione](../../segment/about-segments.md).
 
-   * Se desideri aggiungere un vincolo di selezione per questo posizionamento utilizzando una regola di decisione, seleziona l’opzione **[!UICONTROL Decision rule]** , quindi trascina la regola desiderata dal riquadro di sinistra nell’area **[!UICONTROL Decision rule]**.
+   * Se desideri aggiungere un vincolo di selezione con una regola di decisione, utilizza la **[!UICONTROL Decision rule]** e seleziona la regola scelta.
 
       ![](../../assets/activity_constraint_rule.png)
 
-      Ulteriori informazioni su come creare una regola decisionale in [questa sezione](../offer-library/creating-decision-rules.md).
+      Scopri come creare una regola decisionale in [questa sezione](../offer-library/creating-decision-rules.md).
+
+1. Definisci il metodo di classificazione da utilizzare per selezionare l’offerta migliore per ciascun profilo.
+
+   ![](../../assets/activity_ranking-method.png)
+
+   * Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, l’offerta con il punteggio di priorità più alto verrà consegnata al cliente.
+
+   * Se desideri utilizzare una formula specifica per scegliere l&#39;offerta idonea da consegnare, seleziona **[!UICONTROL Ranking formula]**. Scopri come classificare le offerte in [questa sezione](../offer-activities/configure-offer-selection.md).
+
+1. Fai clic su **[!UICONTROL Add]** per definire più criteri per lo stesso posizionamento.
+
+   ![](../../assets/activity_add-collection.png)
+
+1. Quando aggiungi più criteri, questi verranno valutati in un ordine specifico. La prima raccolta aggiunta alla sequenza verrà valutata per prima e così via.
+
+   Per modificare la sequenza predefinita, puoi trascinare e rilasciare le raccolte per riordinarle come desiderato.
+
+   ![](../../assets/activity_reorder-collections.png)
+
+1. Puoi anche valutare più criteri contemporaneamente. A questo scopo, trascina e rilascia la raccolta sopra un’altra.
+
+   ![](../../assets/activity_move-collection.png)
+
+   Ora hanno lo stesso rango e quindi saranno valutati contemporaneamente.
+
+   ![](../../assets/activity_same-rank-collections.png)
+
+1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL New scope]** pulsante . Ripeti i passaggi indicati sopra per ogni ambito di decisione.
+
+   ![](../../assets/activity_new-scope.png)
 
 ### Utilizzo di segmenti e regole decisionali {#segments-vs-decision-rules}
 
 <!--to move to create-offers?-->
 
-Per applicare un vincolo, puoi limitare la selezione delle offerte ai membri di uno o più segmenti di Adobe Experience Platform **oppure utilizzare una** regola decisionale **, entrambe le soluzioni corrispondenti a utilizzi diversi.**
+Per applicare un vincolo, è possibile limitare la selezione delle offerte ai membri di uno o più **Segmenti Adobe Experience Platform** oppure puoi utilizzare un **norma decisionale**, entrambe le soluzioni corrispondenti a diversi utilizzi.
 
 In sostanza, l’output di un segmento è un elenco di profili, mentre una regola decisionale è una funzione eseguita su richiesta rispetto a un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è illustrata di seguito.
 
@@ -104,47 +140,60 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 
 ## Aggiungere un’offerta di fallback {#add-fallback}
 
-Seleziona l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non soddisfano le regole e i vincoli di idoneità delle offerte, quindi fai clic su **[!UICONTROL Next]**.
+Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non soddisfano le regole e i vincoli di idoneità delle offerte.
+
+A questo scopo, selezionala dall’elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione, quindi fai clic su **[!UICONTROL Next]**.
 
 ![](../../assets/add-fallback-offer.png)
+
+>[!NOTE]
+>
+>Puoi fare clic su **[!UICONTROL Open offer library]** per visualizzare l’elenco delle offerte in una nuova scheda.
 
 ## Rivedi e salva la decisione {#review}
 
 Se tutto è configurato correttamente, viene visualizzato un riepilogo delle proprietà della decisione.
 
-1. Assicurati che la decisione sia pronta per essere utilizzata per presentare offerte ai clienti.
+1. Assicurati che la decisione sia pronta per essere utilizzata per presentare offerte ai clienti. Vengono visualizzati tutti gli ambiti decisionali e l’offerta di fallback in essa contenuta.
+
+   ![](../../assets/review-decision.png)
+
+   È possibile espandere o comprimere ogni posizionamento. Puoi anche visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ogni posizionamento.
+
+   ![](../../assets/review-decision-details.png)
+
 1. Fai clic su **[!UICONTROL Finish]**.
-1. Quindi seleziona **[!UICONTROL Save and activate]**.
+1. Seleziona **[!UICONTROL Save and activate]**.
 
    ![](../../assets/save-activities.png)
 
    Puoi anche salvare la decisione come bozza, per modificarla e attivarla in un secondo momento.
 
-La decisione viene visualizzata nell’elenco con lo stato **[!UICONTROL Live]** o **[!UICONTROL Draft]** , a seconda che sia stata attivata o meno nel passaggio precedente.
+La decisione viene visualizzata nell’elenco con la **[!UICONTROL Live]** o **[!UICONTROL Draft]** a seconda che sia stato attivato o meno nel passaggio precedente.
 
 È ora pronto per essere utilizzato per fornire offerte ai clienti.
 
 ## Elenco delle decisioni {#decision-list}
 
-Dall’elenco delle decisioni, puoi selezionare la decisione di visualizzarne le proprietà. Da qui puoi anche modificarlo, modificarne lo stato (**Bozza**, **Live**, **Completa**, **Archiviato**), duplicare la decisione o eliminarla.
+Dall’elenco delle decisioni, puoi selezionare la decisione di visualizzarne le proprietà. È inoltre possibile modificarlo, modificarne lo stato (**Bozza**, **Live**, **Completa**, **Archiviato**), duplica la decisione o la elimina.
 
 ![](../../assets/decision_created.png)
 
-Seleziona il pulsante **[!UICONTROL Edit]** per tornare alla modalità di modifica delle decisioni, dove puoi modificare i [dettagli](#create-activity), [ambiti decisionali](#add-decision-scopes) e [offerte di fallback](#add-fallback) della decisione.
+Seleziona la **[!UICONTROL Edit]** pulsante per tornare alla modalità di modifica della decisione, in cui è possibile modificare la [dettagli](#create-activity), [ambiti decisionali](#add-decision-scopes) e [offerta di fallback](#add-fallback).
 
-Seleziona una decisione dal vivo e fai clic su **[!UICONTROL Deactivate]** per impostare nuovamente lo stato della decisione su **[!UICONTROL Draft]**.
+Seleziona una decisione dal vivo e fai clic su **[!UICONTROL Deactivate]** per ripristinare lo stato della decisione su **[!UICONTROL Draft]**.
 
-Per impostare nuovamente lo stato su **[!UICONTROL Live]**, selezionare il pulsante **[!UICONTROL Activate]** visualizzato.
+Per impostare nuovamente lo stato su **[!UICONTROL Live]**, seleziona **[!UICONTROL Activate]** pulsante visualizzato.
 
 ![](../../assets/decision_activate.png)
 
-Il pulsante **[!UICONTROL More actions]** abilita le azioni descritte di seguito.
+La **[!UICONTROL More actions]** attiva le azioni descritte di seguito.
 
 ![](../../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: imposta lo stato della decisione su  **[!UICONTROL Complete]**, il che significa che la decisione non può più essere chiamata. Questa azione è disponibile solo per le decisioni attivate. La decisione è ancora disponibile dall’elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla, eliminarla o archiviarla.
+* **[!UICONTROL Complete]**: imposta lo stato della decisione su **[!UICONTROL Complete]** Ciò significa che la decisione non può più essere chiamata. Questa azione è disponibile solo per le decisioni attivate. La decisione è ancora disponibile dall&#39;elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla, eliminarla o archiviarla.
 
-* **[!UICONTROL Duplicate]**: crea una decisione con le stesse proprietà, ambito decisionale e offerta di fallback. Per impostazione predefinita, la nuova decisione ha lo stato **[!UICONTROL Draft]** .
+* **[!UICONTROL Duplicate]**: crea una decisione con le stesse proprietà, ambito decisionale e offerta di fallback. Per impostazione predefinita, la nuova decisione ha **[!UICONTROL Draft]** stato.
 
 * **[!UICONTROL Delete]**: rimuove la decisione dall&#39;elenco.
 
@@ -154,7 +203,7 @@ Il pulsante **[!UICONTROL More actions]** abilita le azioni descritte di seguito
    >
    >Se la decisione viene utilizzata in un altro oggetto, non può essere eliminata.
 
-* **[!UICONTROL Archive]**: imposta lo stato della decisione su  **[!UICONTROL Archived]**. La decisione è ancora disponibile dall’elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla o eliminarla.
+* **[!UICONTROL Archive]**: imposta lo stato della decisione su **[!UICONTROL Archived]**. La decisione è ancora disponibile dall&#39;elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla o eliminarla.
 
 È inoltre possibile eliminare o modificare lo stato di più decisioni contemporaneamente selezionando le caselle di controllo corrispondenti.
 
@@ -168,7 +217,7 @@ Una volta creata una decisione, puoi fare clic sul suo nome dall’elenco.
 
 ![](../../assets/decision_click-name.png)
 
-Questo consente di accedere a informazioni dettagliate su tale decisione. Seleziona la scheda **[!UICONTROL Change log]** per [monitorare tutte le modifiche](../get-started/user-interface.md#changes-log) apportate alla decisione.
+Questo consente di accedere a informazioni dettagliate su tale decisione. Seleziona la **[!UICONTROL Change log]** scheda a [controlla tutte le modifiche](../get-started/user-interface.md#changes-log) che sono stati presi alla decisione.
 
 ![](../../assets/decision_information.png)
 

@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
+source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 17%
+source-wordcount: '838'
+ht-degree: 24%
 
 ---
 
@@ -13,27 +13,40 @@ ht-degree: 17%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+
+## Ottobre 2021
+
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 21 ottobre è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Aggiunto **funzione Data e ora** elenco. [Ulteriori informazioni](personalization/functions/dates.md)
+* Nuovo **Ottieni sezioni introduttive per utente tipo**. Prendi il tuo percorso per raggiungere i tuoi obiettivi più velocemente! [Ulteriori informazioni](quick-start.md)
+* Nuovo **Modificare un predefinito di messaggio** sezione . [Ulteriori informazioni](configuration/message-presets.md#edit-message-preset)
+* Nuovo **Modificare un record PTR** sezione . [Ulteriori informazioni](configuration/ptr-records.md#edit-ptr-record)
+* Nuovo **Disattiva un predefinito messaggio** sezione . [Ulteriori informazioni](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Nuove limitazioni aggiunte a **Guida per gli sviluppatori API per la gestione delle decisioni** sui vincoli di offerta non supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro. [Ulteriori informazioni](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Nuovo **Creare simulazioni** sezione . [Ulteriori informazioni](offers/offer-activities/simulation.md)
+* Aggiornato **Aggiungi ambiti decisionali** sezione . [Ulteriori informazioni](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Aggiornato **Definire il contenuto per le rappresentazioni** sezione . [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#content)
+* È stata aggiunta una nuova sezione su come definire e personalizzare il contenuto per le rappresentazioni delle offerte. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#content)
+
 ## Settembre 2021
 
-* Sono state aggiornate le seguenti pagine di funzioni: [sette](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+* Sono state aggiornate le pagine delle seguenti funzioni: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
 
-* Sono state aggiunte le seguenti funzioni: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [interseca](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+* Sono state aggiunte le seguenti funzioni: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
 
-* Il tipo di data dateOnly è stato aggiunto nella documentazione dell’editor di espressioni. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* Nella documentazione dell’editor di espressioni è stato aggiunto il tipo di data dateOnly. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
 
-* Sono stati aggiunti dettagli sulla durata della cache delle azioni personalizzata. [Ulteriori informazioni](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Sono stati aggiunti dettagli sulla durata della cache delle azioni personalizzate. [Ulteriori informazioni](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Sono state aggiunte informazioni sulle porte predefinite delle azioni personalizzate. [Ulteriori informazioni](action/about-custom-action-configuration.md#url-configuration)
+* Sono state aggiunte informazioni sulle porte predefinite per le azioni personalizzate. [Ulteriori informazioni](action/about-custom-action-configuration.md#url-configuration)
 
 * Sono state aggiunte informazioni su più casi di utilizzo di eventi aziendali. [Ulteriori informazioni](event/about-creating-business.md#multiple-business-events)
 
-* Sono stati aggiunti esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso in Data Lake. [Ulteriori informazioni](reports/query-examples.md)
+* Sono stati aggiunti alcuni esempi di uso comune per eseguire query sugli eventi dei passaggi del percorso in Data Lake. [Ulteriori informazioni](reports/query-examples.md)
 
-* È stata aggiunta una nuova pagina **Limitazioni** . [Ulteriori informazioni](limitations.md)
+* È stato aggiunto un nuovo **Limitazioni** pagina. [Ulteriori informazioni](limitations.md)
 
-* È stata migliorata la pagina **Avvio rapido** con passaggi per diversi utenti tipo. [Ulteriori informazioni](quick-start.md)
-
-   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+* Miglioramento della **Avvio rapido** con passaggi per utenti tipo diversi. [Ulteriori informazioni](quick-start.md)
 
 * Ora tutte le funzioni di gestione delle decisioni descritte nella sezione dedicata si applicano anche agli utenti Adobe Experience Platform che sfruttano il servizio di applicazione Offer Decisioning. [Ulteriori informazioni](offers/get-started/starting-offer-decisioning.md)
 
@@ -45,7 +58,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Agosto 2021
 
-* Tutte le nuove funzioni e i miglioramenti introdotti con la versione del [!DNL Journey Optimizer] 21 agosto sono stati descritti in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 21 agosto è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
 * Autorizzazioni di gestione delle decisioni aggiornate. [Ulteriori informazioni](administration/ootb-product-profiles.md)
 * Sono state aggiornate le schermate di E-mail designer con l’interfaccia utente più recente.
 * È stata aggiornata la procedura di configurazione per le azioni personalizzate con percorsi URL dinamici e intestazioni dinamiche. [Ulteriori informazioni](action/about-custom-action-configuration.md#url-configuration)
@@ -59,25 +72,25 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una nuova sezione per descrivere come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](message-tracking.md#one-click-opt-out-link)
 * È stata aggiornata la sezione Delega un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](configuration/delegate-subdomain.md#subdomain-validation)
 * È stata aggiunta una sezione per descrivere come aggiungere manualmente indirizzi e-mail e domini all’elenco di eliminazione. [Ulteriori informazioni](configuration/manage-suppression-list.md#add-addresses-and-domains)
-* Aggiornamento delle sezioni [Accedi alla sezione dell&#39;elenco di soppressione](configuration/manage-suppression-list.md#access-suppression-list) e [Nuovi tentativi](configuration/retries.md) per riflettere la nuova interfaccia utente.
+* È stato aggiornato il [Accedere all&#39;elenco di soppressione](configuration/manage-suppression-list.md#access-suppression-list) sezione e [Nuovi tentativi](configuration/retries.md) per riflettere la nuova interfaccia utente.
 * È stato documentato il nuovo flusso per aggiungere e configurare le rappresentazioni durante la creazione di un’offerta. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Luglio 2021
 
-* Tutte le nuove funzioni e i miglioramenti introdotti con la versione del [!DNL Journey Optimizer] 21 luglio sono stati descritti in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
-* Sono stati aggiunti collegamenti diretti alla documentazione dei servizi Experience Platform nella home page e nel sommario di [!DNL Journey Optimizer]
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 21 luglio è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Sono stati aggiunti collegamenti diretti alla documentazione dei servizi Experience Platform in [!DNL Journey Optimizer] home page e sommario
 * Nuove pagine di destinazione per i servizi di Experience Platform disponibili in [!DNL Journey Optimizer]
-* Link aggiunti alla descrizione del prodotto [!DNL Journey Optimizer] nella home page
+* Aggiunti collegamenti a [!DNL Journey Optimizer] descrizione del prodotto nella home page
 * Sono stati aggiunti video di esercitazione in più pagine
 * Immagini ottimizzate della home page
 * La sezione &quot;Tracciamento messaggi&quot; è stata spostata, migliorata e rinominata in &quot;Aggiungi collegamenti e tracciamento messaggi&quot;. [Ulteriori informazioni](message-tracking.md)
 * È stata aggiunta una sottosezione sulle pagine mirror. [Ulteriori informazioni](message-tracking.md#mirror-page)
 * Le &quot;attività di offerta&quot; sono state rinominate &quot;decisioni&quot; e &quot;decisioni&quot; come &quot;ambiti decisionali&quot; nella documentazione e nelle schermate. [Ulteriori informazioni](offers/get-started/starting-offer-decisioning.md)
-* Nuovo caso d’uso: [personalizzare un messaggio con funzioni helper](personalization/personalization-use-case-helper-functions.md)
+* Nuovo caso d’uso: [personalizzare un messaggio con le funzioni di supporto](personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](building-journeys/read-segment.md)
 * Sono state aggiornate le limitazioni del Percorso. [Ulteriori informazioni](limitations.md)
 * È stata aggiornata la selezione delle offerte nella sezione relativa alle decisioni . [Ulteriori informazioni](offers/offer-activities/configure-offer-selection.md)
 * È stato aggiunto un avviso per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Documentazione della nuova scheda **[!UICONTROL Overview]** di Gestione decisioni. [Ulteriori informazioni](offers/get-started/user-interface.md#overview)
-* Sono state aggiunte nuove sezioni per descrivere le azioni disponibili negli elenchi delle offerte e delle decisioni: [Elenco offerte](offers/offer-library/creating-personalized-offers.md#offer-list) e [Elenco decisioni](offers/offer-activities/create-offer-activities.md#decision-list).
+* Documentazione della nuova gestione delle decisioni **[!UICONTROL Overview]** scheda . [Ulteriori informazioni](offers/get-started/user-interface.md#overview)
+* Sono state aggiunte nuove sezioni per descrivere le azioni disponibili negli elenchi delle offerte e delle decisioni: [Elenco offerte](offers/offer-library/creating-personalized-offers.md#offer-list) e [Elenco delle decisioni](offers/offer-activities/create-offer-activities.md#decision-list).

@@ -2,67 +2,84 @@
 title: Rapporto live dei percorsi
 description: Scopri come utilizzare i dati del report live del percorso
 feature: Reporting
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
+exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
 
 # Rapporto live dei percorsi {#journey-live-report}
 
-È possibile accedere al rapporto percorso live direttamente dal percorso mediante il pulsante **[!UICONTROL Live report]** .
+È possibile accedere al rapporto percorso live direttamente dal percorso con **[!UICONTROL Live report]** pulsante .
 
 ![](../assets/report_1.png)
 
-La pagina percorso **[!UICONTROL Live report]** verrà visualizzata con le seguenti schede:
+Il percorso **[!UICONTROL Live report]** La pagina verrà visualizzata con le seguenti schede:
 
 * [Percorso](#journey-live)
 * [E-mail](#email-live)
 * [Push](#push-live)
 
-Il percorso **[!UICONTROL Live report]** è suddiviso in diversi widget che descrivono il successo e gli errori del percorso. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
+Il percorso **[!UICONTROL Live report]** è diviso in diversi widget che descrivono il successo e gli errori del tuo percorso. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](live-report.md#modify-dashboard).
 
 ## scheda percorso {#journey-live}
 
-Dal percorso **[!UICONTROL Live report]**, la scheda **[!UICONTROL Journey]** ti offre una visualizzazione chiara dei dati di tracciamento più importanti sul percorso.
+Dal tuo percorso **[!UICONTROL Live report]**, **[!UICONTROL Journey]** tab ti offre una visualizzazione chiara dei dati di tracciamento più importanti sul tuo percorso.
 
 ![](../assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** ti consente di visualizzare il percorso dei profili di destinazione passo dopo passo nel percorso.
 
-Il widget **[!UICONTROL Journey Statistics]** visualizza i KPI seguenti:
+La **[!UICONTROL Journey Statistics]** widget visualizza i KPI seguenti:
 
 * **[!UICONTROL Entered profiles]**: Numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
 
 * **[!UICONTROL Exited profiles]**: Numero totale di persone uscite dal percorso.
 
-* **[!UICONTROL Failed individual journey]**: Numero totale di singoli percorsi che non sono stati eseguiti correttamente.
+* **[!UICONTROL Failed individual journeys]**: Numero totale di singoli percorsi che non sono stati eseguiti correttamente.
 
 ![](../assets/report_journey_3.png)
 
-I widget **[!UICONTROL Event executed over the last 24 hours]**, **[!UICONTROL Events executed]** e **[!UICONTROL Events]** consentono di vedere quale degli eventi è stato eseguito correttamente tramite numero di riepilogo, grafico e tabella.
+La **[!UICONTROL Event executed over the last 24 hours]** e **[!UICONTROL Events]** I widget consentono di vedere quale degli eventi è stato eseguito correttamente tramite numero di riepilogo, grafico e tabella.
 
 ![](../assets/report_journey_4.png)
 
-**[!UICONTROL Action executed over the last 24 hours]** e  **[!UICONTROL Actions executed and errors]** i widget rappresentano l&#39;azione e gli errori più riusciti che si verificavano quando le azioni venivano attivate. I numeri di grafico, tabella e riepilogo delle azioni contengono i dati disponibili per le azioni, ad esempio:
+La **[!UICONTROL Action executed over the last 24 hours]** e **[!UICONTROL Actions executed and errors]** I widget rappresentano l&#39;azione e gli errori più riusciti che si sono verificati quando le azioni sono state attivate. I numeri di grafico, tabella e riepilogo delle azioni contengono i dati disponibili per le azioni, ad esempio:
 
-* **[!UICONTROL Actions successfully executed]**: Numero totale di azioni eseguite correttamente per un percorso.
+* **[!UICONTROL Actions executed]**: Numero totale di azioni eseguite correttamente per un percorso.
 
-* **[!UICONTROL Error in action]**: Numero totale di errori che si sono verificati per le azioni.
+* **[!UICONTROL Error in actions]**: Numero totale di errori che si sono verificati per le azioni.
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Scheda E-mail {#email-live}
 
-Dal percorso **[!UICONTROL Live report]**, la scheda **[!UICONTROL Email]** descrive le informazioni principali relative alle consegne e-mail inviate nel percorso.
+Dal tuo percorso **[!UICONTROL Live report]**, **[!UICONTROL Email]** scheda descrive le informazioni principali relative alle consegne e-mail inviate nel percorso.
 
-Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Email live report](email-live-report.md) .
+Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Report live e-mail](email-live-report.md) sezione .
 
 ![](../assets/report_email_1.png)
 
-Il widget **[!UICONTROL Email Sending Statistics]** descrive le informazioni principali relative al messaggio:
+La **[!UICONTROL Email Sending Statistics]** widget fornisce informazioni principali relative al messaggio:
 
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
@@ -70,7 +87,7 @@ Il widget **[!UICONTROL Email Sending Statistics]** descrive le informazioni pri
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-La tabella **[!UICONTROL Sending metrics by Email]** e il grafico **[!UICONTROL Email Summary]** descrivono nel dettaglio il successo della consegna:
+La **[!UICONTROL Sending metrics by Email]** tabella e **[!UICONTROL Email Summary]** il grafico descrive il successo della consegna:
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -90,7 +107,7 @@ La tabella **[!UICONTROL Sending metrics by Email]** e il grafico **[!UICONTROL 
 
 ![](../assets/report_email_2.png)
 
-I widget **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e **[!UICONTROL Hard and bounce - by Email]** contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
+La **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e **[!UICONTROL Hard and bounce - by Email]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
 * **[!UICONTROL Hard bounce]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
 
@@ -98,17 +115,17 @@ I widget **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e *
 
 * **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
-Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
 ## Scheda push {#push-live}
 
-Dal percorso **[!UICONTROL Live report]**, la scheda **[!UICONTROL Push]** descrive le informazioni principali relative alle consegne push inviate nel percorso.
+Dal tuo percorso **[!UICONTROL Live report]**, **[!UICONTROL Push]** la scheda descrive le informazioni principali relative alle consegne push inviate nel percorso.
 
-Per un rapporto dettagliato su una consegna push specifica, consulta la sezione [Push live report](push-live-report.md) .
+Per un rapporto dettagliato su una consegna push specifica, consulta la sezione [Report live push](push-live-report.md) sezione .
 
 ![](../assets/report_push_1.png)
 
-**[!UICONTROL Push notification sending performance]**,  **[!UICONTROL Push notification summary]** e  **[!UICONTROL Sending metrics - by Push]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio:
+**[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** e **[!UICONTROL Sending metrics - by Push]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio:
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -124,10 +141,10 @@ Per un rapporto dettagliato su una consegna push specifica, consulta la sezione 
 
 * **[!UICONTROL Engagements]**: Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
 
-Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
 ![](../assets/report_push_2.png)
 
-I grafici e le tabelle **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** descrivono in dettaglio il successo della notifica push a seconda del sistema operativo.
+La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono in dettaglio il successo della notifica push in base al sistema operativo.
 
-Il widget **[!UICONTROL Sending statistics - Failed]** ti permette di vedere quanti errori e rimbalzi si sono verificati.
+La **[!UICONTROL Sending statistics - Failed]** widget consente di vedere quanti errori e rimbalzi si sono verificati.

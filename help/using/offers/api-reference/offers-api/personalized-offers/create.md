@@ -1,14 +1,15 @@
 ---
-title: Creare offerte personalizzate
+title: Creare le offerte personalizzate
 description: Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
+source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 10%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 12%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Puoi creare un’offerta personalizzata effettuando una richiesta di POST all’ API [!DNL Offer Library] e fornendo al contempo il tuo ID contenitore.
+Puoi creare un’offerta personalizzata effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
 
 ## Intestazioni Accept e Content-Type
 
-La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
+Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -100,3 +101,7 @@ Una risposta corretta restituisce informazioni sull’offerta personalizzata app
     "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
+
+## Limitazioni  {#limitations}
+
+Al momento alcuni vincoli di offerta non sono supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. La `Capping` il valore campo specifica il numero di volte in cui un’offerta può essere presentata in tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione sulle regole di idoneità e sui vincoli delle offerte](../../../offer-library/creating-personalized-offers.md).

@@ -6,10 +6,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 37%
+source-wordcount: '202'
+ht-degree: 40%
 
 ---
 
@@ -27,14 +28,21 @@ ht-degree: 37%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Cos’è [!DNL Journey Optimizer]?</a>
+      <a href="using/get-started.md">Che cosa è [!DNL Journey Optimizer]?</a>
     </div>
-    <p>  Scopri le funzioni chiave e come iniziare.
+    <p>Scopri le funzioni chiave e i casi d’uso
     <p>
     <div>
       <a href="using/release-notes.md">Note sulla versione</a>
     </div>
-    <p>Scopri nuove funzionalità, miglioramenti e correzioni più recenti
+    <p>Nuove funzionalità, miglioramenti e correzioni più recenti
+   <p>
+    <div>
+      <a href="using/quick-start.md">Guida rapida</a>
+    </div>
+    <p>
+    Scopri come iniziare come amministratore, ingegnere dati o praticante di Percorso
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">Progettazione di contenuti e-mail</a>
@@ -53,14 +61,14 @@ ht-degree: 37%
     <p>Scopri come creare ed eseguire un percorso
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">Configurare [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">Configurare gli [!DNL Journey Optimizer]</a>
     </div>
-    <p>Scopri i passaggi chiave per configurare [!DNL Journey Optimizer]
+    <p>Scopri i passaggi chiave da configurare [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Concedere l’accesso a [!DNL Journey Optimizer]</a>
     </div>
-    <p>Scopri come definire e gestire le autorizzazioni assegnate agli utenti di [!DNL Journey Optimizer]
+    <p>Definire e gestire le autorizzazioni assegnate a [!DNL Journey Optimizer] utenti
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestione delle decisioni</a>
@@ -79,7 +87,7 @@ ht-degree: 37%
     </div>
     <div>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it" target="_blank">Documentazione di Adobe Experience Platform</a>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it" target="_blank">Documentazione di Adobe Experience Platform </a>
     </li>
     </div>
       <div>

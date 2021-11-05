@@ -1,21 +1,21 @@
 ---
-title: Libreria funzioni helper
+title: Guida introduttiva alle funzioni Helper
 description: Libreria funzioni Journey Optimizer Helper
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 2%
+source-wordcount: '1344'
+ht-degree: 4%
 
 ---
 
+# Guida introduttiva alle funzioni Helper{#functionsL}
 
-# Libreria funzioni helper{#functionsL}
-
-Utilizza il linguaggio dei modelli [!DNL Journey Optimizer] per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
+Utilizzo [!DNL Journey Optimizer] modello del linguaggio per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida per la sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
 
 ➡️ [Scopri come utilizzare le funzioni helper](#video) (video)
 
@@ -23,13 +23,17 @@ Il linguaggio modello viene sfruttato nelle funzioni di supporto disponibili nel
 
 ![](../assets/access-helper-functions.png)
 
+In [!DNL Journey Optimizer] Editor espressioni, le funzioni helper sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
 
+Seleziona una categoria per accedere a sottocategorie e funzioni.
 
-Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helpers](#helper-helper) e [Operatori](#operators-helper).
+Accedere alle sottocategorie facendo clic sul pulsante `>` icona. Seleziona una funzione facendo clic sul pulsante `+` icona: la funzione viene aggiunta automaticamente alla schermata di personalizzazione.
+
+Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e aggiungerla ai preferiti. [Ulteriori informazioni](../personalize.md#fav)
 
 ## Funzioni{#functions-helper}
 
-**Funzioni array**
+### Funzioni array
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono rag
     </tr>
 </table>
 
+### Funzioni di data e ora{#date-functions}
 
-**Funzioni mappa**
+<table>
+    <tr>
+        <td><a href="dates.md#age">Età</a></td><td>Questa funzione recupera l'età da una data specificata</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Tempo corrente in millisecondi</a></td><td>Questa funzione recupera l'ora corrente in millisecondi epoch</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Differenza tra date</a></td><td>Questa funzione recupera la differenza tra due date in numero di giorni</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Giorno della settimana</a></td><td>Questa funzione recupera il giorno della settimana</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Giorno dell’anno</a></td><td>Questa funzione recupera il giorno dell'anno</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Data del formato</a></td><td>Questa funzione formatta un valore di ora della data</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Imposta giorni</a></td><td>Questa funzione imposta il giorno del mese per la data-ora specificata</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Imposta giorni</a></td><td>Questa funzione imposta l'ora della data-ora</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">A UTC</a></td><td>Questa funzione converte un datetime in UTC</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">Settimana dell’anno</a></td><td>Questa funzione restituisce la settimana dell'anno</td>
+    </tr>
+</table>
+</table>
+
+### Funzioni mappa
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono rag
     </tr>
 </table>
 
-**Funzioni stringa**
+### Funzioni stringa
 
 <table>
     <tr>
@@ -167,7 +206,7 @@ Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono rag
         <td><a href="string.md#regexGroup">Gruppo di espressioni regolari</a></td><td>Questa funzione viene utilizzata per estrarre informazioni specifiche, in base all'espressione regolare fornita</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>Questa funzione sostituisce una stringa secondaria specificata in una stringa con un'altra sottostringa</td>
+        <td><a href="string.md#replace">Sostituisci</a></td><td>Questa funzione sostituisce una stringa secondaria specificata in una stringa con un'altra sottostringa</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">Sostituisci tutto</a></td><td>Questa funzione sostituisce tutte le sottostringhe di un testo che corrisponde alla stringa "target" con la stringa letterale di "sostituzione" specificata</td>
@@ -195,7 +234,7 @@ Nell’ [!DNL Journey Optimizer] editor espressioni, le funzioni helper sono rag
 
 ## Assistenza{#helper-helper}
 
-Gli helper sono descritti in [questa pagina](helpers.md).
+Gli aiutanti sono descritti in [questa pagina](helpers.md).
 
 
 <table>
@@ -285,6 +324,6 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 ## Video introduttivo{#video}
 
-Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di supporto della personalizzazione e comprendere diversi casi d’uso per le funzioni di supporto.
+Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

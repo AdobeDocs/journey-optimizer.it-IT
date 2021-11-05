@@ -1,14 +1,15 @@
 ---
 title: Gestione delle sandbox
 description: Scopri come gestire le sandbox
-feature: Gruppi di controllo
-topic: Amministrazione
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 69%
+source-wordcount: '360'
+ht-degree: 71%
 
 ---
 
@@ -20,21 +21,23 @@ ht-degree: 69%
 Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. [Scopri come assegnare le sandbox](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] presenta le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
-Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente della sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
+Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni nella guida utente della sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
 
 Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Assegnare le sandbox {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> La gestione delle sandbox può essere eseguita solo da un amministratore **[!UICONTROL Product]** o **[!UICONTROL System]**. Per ulteriori informazioni, consulta la [documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
+> La gestione delle sandbox può essere eseguita solo da un **[!UICONTROL Product]** o **[!UICONTROL System]** amministratore. Per ulteriori informazioni, consulta la [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
 
 Puoi scegliere di assegnare diverse sandbox a preconfigurate o personalizzate **[!UICONTROL Product profiles]**.
 
 Per assegnare le sandbox:
 
-1. Nella scheda [!DNL Admin Console] , seleziona il prodotto **[!UICONTROL Adobe Experience Platform Apps]** dalla scheda **[!UICONTROL Products]** .
+1. In [!DNL Admin Console], dal **[!UICONTROL Products]** seleziona la scheda **[!UICONTROL Adobe Experience Platform Apps]** prodotto.
 
 1. Seleziona un **[!UICONTROL Product profile]**.
 
@@ -42,7 +45,7 @@ Per assegnare le sandbox:
 
 1. Seleziona la scheda **[!UICONTROL Permissions]**.
 
-1. Seleziona la funzionalità **[!UICONTROL Sandboxes]** .
+1. Seleziona la **[!UICONTROL Sandboxes]** funzionalità.
 
    ![](../assets/sandbox_2.png)
 
@@ -64,4 +67,10 @@ Per configurare l’accessibilità dei contenuti, è necessario assegnare una ca
 
 Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox. Ad esempio, se la sandbox è denominata “sviluppo”, la cartella condivisa deve avere lo stesso nome.
 
-[Scopri come gestire le cartelle](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html) condivise {target=&quot;_blank&quot;}.
+[Scopri come gestire le cartelle condivise](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
+
+## Video introduttivo{#video}
+
+Scopri cosa sono le sandbox e come distinguere le sandbox di sviluppo da quelle di produzione. Scopri come creare, reimpostare ed eliminare le sandbox.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
