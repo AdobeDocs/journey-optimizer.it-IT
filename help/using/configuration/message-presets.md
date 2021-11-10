@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,10 @@ Per modificare un predefinito per messaggi, segui i passaggi riportati di seguit
 
 Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo di convalida simile a quello in atto quando [creazione di un predefinito](#create-message-preset).
 
+>[!NOTE]
+>
+>Se si modifica solo il **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/o **[!UICONTROL Email retry parameters]** campi, l&#39;aggiornamento è istantaneo.
+
 Per i predefiniti per messaggi con **[!UICONTROL Active]** puoi controllare i dettagli dell’aggiornamento. Per eseguire questa operazione:
 
 * Fai clic sul pulsante **[!UICONTROL Recent update]** accanto al nome del predefinito attivo.
@@ -214,13 +218,17 @@ Un aggiornamento predefinito per messaggi può presentare i seguenti stati:
 * **[!UICONTROL Success]**: Il predefinito del messaggio aggiornato è stato verificato e può essere selezionato per creare i messaggi.
 * **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del predefinito del messaggio.
 
-**Elaborazione**
+Ogni stato è descritto di seguito.
 
-Verranno eseguiti diversi controlli di recapito per verificare che il predefinito sia stato aggiornato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**. Ulteriori informazioni sui controlli eseguiti durante il ciclo di convalida in [questa sezione](#create-message-preset).
+### Elaborazione
+
+Verranno eseguiti diversi controlli di recapito per verificare che il predefinito sia stato aggiornato correttamente.
 
 >[!NOTE]
 >
->Non puoi modificare un predefinito di messaggio mentre è in corso l’aggiornamento. È comunque possibile fare clic sul suo nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
+>Se si modifica solo il **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/o **[!UICONTROL Email retry parameters]** campi, l&#39;aggiornamento è istantaneo.
+
+Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**. Ulteriori informazioni sui controlli eseguiti durante il ciclo di convalida in [questa sezione](#create-message-preset).
 
 Se modifichi un predefinito già attivo:
 
@@ -230,7 +238,11 @@ Se modifichi un predefinito già attivo:
 
 * Durante il processo di convalida, i messaggi configurati utilizzando questo predefinito utilizzano ancora la versione precedente del predefinito.
 
-**Operazione riuscita**
+>[!NOTE]
+>
+>Non puoi modificare un predefinito di messaggio mentre è in corso l’aggiornamento. È comunque possibile fare clic sul suo nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
+
+### Operazione riuscita
 
 Quando il processo di convalida ha esito positivo, la nuova versione del predefinito viene utilizzata automaticamente in tutti i messaggi che utilizzano questo predefinito. Tuttavia, potrebbe essere necessario attendere:
 * alcuni minuti prima che sia consumata dai messaggi unitari,
@@ -238,16 +250,16 @@ Quando il processo di convalida ha esito positivo, la nuova versione del predefi
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Non riuscito**
+### Non riuscito
 
 Se il processo di convalida non riesce, verrà comunque utilizzata la versione precedente del predefinito.
 
-I possibili tipi di errore di aggiornamento sono i seguenti:
-* **Errore di autorizzazione**: token portatore non valido o non autorizzato.
-* **Modifica illegale**: è stata eseguita una modifica su uno o più campi non consentiti.
-* **Precondizione non riuscita**: alcuni campi possono avere solo valori specifici e questo non è stato rispettato.
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+Ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-message-presets).
 
 Quando l&#39;aggiornamento non riesce, il predefinito diventa nuovamente modificabile. È possibile fare clic sul suo nome e aggiornare le impostazioni che devono essere corrette.
 

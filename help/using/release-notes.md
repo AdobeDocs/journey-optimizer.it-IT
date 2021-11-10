@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
 source-wordcount: '1996'
 ht-degree: 16%
@@ -74,7 +74,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tr>
 <td>
 <p>Ora puoi personalizzare il contenuto delle offerte utilizzando gli attributi e i segmenti del profilo Adobe Experience Platform, utilizzando lo stesso componente editor di espressioni presente nell’interfaccia utente di Journey Optimizer. </p>
-<p>Per ulteriori informazioni, consulta la <a href="offers/offer-library/creating-personalized-offers.md#content">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="offers/offer-library/creating-personalized-offers.md#custom-text">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

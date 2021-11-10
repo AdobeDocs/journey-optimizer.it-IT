@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Puoi modificare un record PTR per modificare il sottodominio associato a un indi
    >
    >Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campi.
 
-1. Fai clic su **[!UICONTROL SAve]** per confermare le modifiche.
+1. Fai clic su **[!UICONTROL Save]** per confermare le modifiche.
 
 Un **[!UICONTROL Updating]** accanto al nome del record PTR nell’elenco viene visualizzata l’icona .
 
