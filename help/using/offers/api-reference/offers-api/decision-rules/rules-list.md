@@ -1,20 +1,21 @@
 ---
 title: Elencare regole di decisione
 description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '268'
 ht-degree: 5%
 
 ---
 
 # Elencare regole di decisione
 
-Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità. Puoi visualizzare un elenco delle regole decisionali esistenti all&#39;interno di un contenitore eseguendo una singola richiesta di GET all&#39; [!DNL Offer Library] API.
+Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità. È possibile visualizzare un elenco delle regole decisionali esistenti all&#39;interno di un contenitore eseguendo una singola richiesta di GET al [!DNL Offer Library] API.
 
 **Formato API**
 
@@ -39,10 +40,10 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `q` | Una stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere circondata da virgolette doppie per evitare che venga token ed evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra rovesciata quando compaiono nella stringa di interrogazione. | `default` |
+| `q` | Una stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere circondata da virgolette doppie per evitare che venga token ed evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra inversa quando vengono visualizzati nella stringa di interrogazione. | `default` |
 | `qop` | Applica l’operatore AND o OR ai valori nel parametro della stringa di query q. | `AND` / `OR` |
 | `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto così: field=field1[,field=field2,...] e (le espressioni del percorso sono sotto forma di percorsi separati da punti come _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un `-` prima del titolo (`orderby=-title`), gli elementi vengono ordinati per titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordina gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limita il numero di regole decisionali restituite. | `limit=5` |
 
 **Richiesta**

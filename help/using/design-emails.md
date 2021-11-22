@@ -1,28 +1,29 @@
 ---
 title: Progettare le e-mail
 description: Scopri come progettare le e-mail
-feature: Panoramica
-topic: Gestione dei contenuti
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '135'
+ht-degree: 5%
 
 ---
 
 # Introduzione alla progettazione delle e-mail {#get-started-content-design}
 
-Quando crei contenuto e-mail con [!DNL Journey Optimizer], puoi:
+Durante la creazione di contenuti e-mail con [!DNL Journey Optimizer], puoi:
 
-* **Progetta la tua e-mail da** graffi attraverso l’interfaccia di e-mail designer e sfrutta le immagini di  [Adobe Experience Manager Assets Essentials](assets-essentials.md). Scopri come progettare il contenuto delle e-mail o utilizzare modelli incorporati [in questa sezione](create-email-content.md).
+* **Progettazione dell&#39;e-mail da zero** tramite l’interfaccia di e-mail designer e sfrutta le immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md). Scopri come progettare il contenuto delle e-mail o utilizzare modelli incorporati [in questa sezione](create-email-content.md).
 
-* **Codice o incolla** HTML non elaborato direttamente nella finestra di progettazione e-mail. Scopri come codificare il tuo contenuto [in questa sezione](existing-content.md#import-raw-html-code).
+* **Codice o incolla di HTML raw** direttamente nella finestra di progettazione e-mail. Scopri come codificare i contenuti personalizzati [in questa sezione](existing-content.md#import-raw-html-code).
 
-* **Importa** contenuto HTML esistente da un file o da una cartella .zip. Scopri come importare un contenuto e-mail [in questa sezione](existing-content.md#import-html-content-from-file).
+* **Importare contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare un contenuto e-mail [in questa sezione](existing-content.md#import-html-content-from-file).
 
-Queste funzioni sono tutte disponibili quando si accede a E-mail Designer dalla schermata di creazione dei messaggi. [Ulteriori informazioni sulla creazione](create-message.md) dei messaggi.
+Queste funzioni sono tutte disponibili quando si accede a E-mail Designer dalla schermata di creazione dei messaggi. [Ulteriori informazioni sulla creazione dei messaggi](create-message.md).
 
 ![](assets/content-editors.png)
 

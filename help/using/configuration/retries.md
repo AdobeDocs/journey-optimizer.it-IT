@@ -15,25 +15,25 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-
 # Nuovi tentativi {#retries}
 
-Quando un messaggio e-mail non riesce a causa di un errore temporaneo **Soft bounce** , vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo viene aggiunto all’elenco di soppressione.
+Quando un messaggio e-mail non riesce a causa di un messaggio temporaneo **Rimbalzo morbido** errore, vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo viene aggiunto all’elenco di soppressione.
 
 >[!NOTE]
 >
->Ulteriori informazioni sui tipi di errori nella sezione [Tipi di errori di consegna](../suppression-list.md#delivery-failures) .
+>Ulteriori informazioni sui tipi di errori nel [Tipi di errori di consegna](../suppression-list.md#delivery-failures) sezione .
 
 Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
-* Per la stessa consegna, alla quinta si è verificato un errore entro il [periodo di tempo di esecuzione dei tentativi](#retry-duration), l&#39;indirizzo viene eliminato.
+* Per la stessa consegna, alla quinta si è verificato un errore all’interno del [periodo di tempo di nuovo](#retry-duration), l’indirizzo viene soppresso.
 
 * Se ci sono consegne diverse e due errori si verificano almeno a 24 ore di distanza, il contatore degli errori viene incrementato a ogni errore e l’indirizzo viene eliminato anche al quinto tentativo.
 
@@ -63,11 +63,11 @@ Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi mo
 
 ## Periodo di tempo di un nuovo tentativo {#retry-duration}
 
-Il **periodo di tempo per l&#39;esecuzione di un nuovo tentativo** è l&#39;intervallo di tempo in cui verrà ritentato qualsiasi messaggio e-mail della consegna che ha rilevato un errore temporaneo o un messaggio non recapitato.
+La **periodo di tempo di nuovo** è l’intervallo di tempo entro il quale verrà ritentato qualsiasi messaggio e-mail della consegna che abbia rilevato un errore temporaneo o un messaggio non recapitato.
 
-Per impostazione predefinita, i nuovi tentativi vengono eseguiti per **3,5 giorni** (o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
+Per impostazione predefinita, vengono eseguiti nuovi tentativi per **3,5 giorni** o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
 
-Tuttavia, per evitare che i tentativi non vengano più eseguiti quando non sono più necessari, puoi modificare questa impostazione in base alle tue esigenze quando crei o modifichi un [messaggio preimpostato](message-presets.md) applicabile al canale e-mail.
+Tuttavia, per evitare che i tentativi non vengano più eseguiti quando non sono più necessari, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di un [predefinito messaggio](message-presets.md) applicazione al canale e-mail.
 
 Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un’e-mail transazionale relativa alla reimpostazione della password e contenente un collegamento valido solo per un giorno. Allo stesso modo, per una vendita a mezzanotte, è possibile definire un periodo di esecuzione di un nuovo tentativo di 6 ore.
 
@@ -75,7 +75,7 @@ Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 or
 >
 >Il periodo di esecuzione dei nuovi tentativi non può superare le 84 ore. Il periodo minimo di esecuzione dei nuovi tentativi è di 6 ore per le e-mail di marketing e 10 minuti per le e-mail transazionali.
 
-Scopri come regolare i parametri dei tentativi e-mail durante la creazione di un predefinito messaggio in [questa sezione](message-presets.md#create-message-preset).
+Scopri come regolare i parametri di esecuzione di un nuovo tentativo e-mail durante la creazione di un predefinito per messaggi in [questa sezione](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
 

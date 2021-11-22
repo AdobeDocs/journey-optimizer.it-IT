@@ -1,13 +1,14 @@
 ---
 title: Libreria funzioni aritmetiche
 description: Libreria funzioni aritmetiche
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ Le funzioni aritmetiche vengono utilizzate per eseguire calcoli di base sui valo
 
 ## Add{#add}
 
-La funzione `+` (addizione) viene utilizzata per trovare la somma di due espressioni di argomento.
+La `+` (aggiunta) viene utilizzata per trovare la somma di due espressioni di argomento.
 
 **Formato**
 
@@ -36,7 +37,7 @@ L&#39;operazione seguente è pari al prezzo di due prodotti diversi.
 
 ## Moltiplica{#multiply}
 
-La funzione `*` (moltiplicazione) viene utilizzata per trovare il prodotto di due espressioni di argomento.
+La `*` (moltiplicazione) viene utilizzata per trovare il prodotto di due espressioni di argomento.
 
 **Formato**
 
@@ -54,7 +55,7 @@ L&#39;operazione seguente individua il prodotto dell&#39;inventario e il prezzo 
 
 ## Sottrai{#substract}
 
-La funzione `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressioni di argomento.
+La `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressioni di argomento.
 
 **Formato**
 
@@ -72,7 +73,7 @@ L&#39;operazione seguente individua la differenza di prezzo tra due prodotti div
 
 ## Dividi{#divide}
 
-La funzione `/` (divisione) viene utilizzata per trovare il quoziente di due espressioni di argomento.
+La `/` (divisione) viene utilizzato per trovare il quoziente di due espressioni di argomento.
 
 **Formato**
 
@@ -90,7 +91,7 @@ L&#39;operazione seguente trova il quoziente tra il totale dei prodotti venduti 
 
 ## Resto{#remainder}
 
-La funzione `%` (modulo/rest) viene utilizzata per trovare il resto dopo aver diviso le due espressioni di argomento.
+La `%` (modulo/rest) viene utilizzato per trovare il resto dopo aver diviso le due espressioni di argomento.
 
 **Formato**
 

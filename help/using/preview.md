@@ -36,7 +36,7 @@ Inoltre, sfrutta i **Litmo** tenere conto [!DNL Journey Optimizer] per visualizz
 
 >[!CAUTION]
 >
->Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. Personalization based on context data, such as event information, can only be tested in the context of a journey. Scopri come verificare la personalizzazione in [questo caso d&#39;uso](personalization/personalization-use-case.md).
+>Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata sui dati contestuali, ad esempio le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d&#39;uso](personalization/personalization-use-case.md).
 
 ➡️ [Scopri come visualizzare in anteprima, verificare e pubblicare il tuo messaggio e-mail in questo video](#video-preview)
 
@@ -174,7 +174,7 @@ Quindi, segui i passaggi seguenti:
 
    ![](assets/email-rendering-litmus.png)
 
-1. Enter your credentials and sign in.
+1. Immetti le tue credenziali e accedi.
 
    ![](assets/email-rendering-credentials.png)
 

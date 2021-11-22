@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valore di fallback predefinito{#default-value}
 
-L’ `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi di profilo e gli eventi di Percorso.
+La `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi di profilo e gli eventi di Percorso.
 
 **Sintassi**
 
@@ -25,11 +25,11 @@ L’ `Default Fallback Value` helper viene utilizzato per restituire un valore d
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-In questo esempio, il valore `there` viene visualizzato se l&#39;attributo `firstName` di questo profilo è vuoto o nullo.
+In questo esempio, il valore `there` viene visualizzato se `firstName` l&#39;attributo di questo profilo è vuoto o nullo.
 
 ## Condizioni{#if-function}
 
-L’ `if` helper viene utilizzato per definire un blocco condizionale.
+La `if` helper viene utilizzato per definire un blocco condizionale.
 Se la valutazione dell’espressione restituisce true, il blocco viene sottoposto a rendering in caso contrario viene ignorato.
 
 **Sintassi**
@@ -39,8 +39,8 @@ Se la valutazione dell’espressione restituisce true, il blocco viene sottopost
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-In seguito all&#39;helper `if`, è possibile immettere un&#39;istruzione `else` per specificare un blocco di codice da eseguire, se la stessa condizione è falsa.
-L’istruzione `elseif` specifica una nuova condizione per eseguire il test se la prima istruzione restituisce false.
+Seguendo `if` helper, puoi inserire un `else` istruzione per specificare un blocco di codice da eseguire, se la stessa condizione è falsa.
+La `elseif` specifica una nuova condizione per eseguire il test se la prima istruzione restituisce false.
 
 
 **Formato**
@@ -116,12 +116,12 @@ L’istruzione `elseif` specifica una nuova condizione per eseguire il test se l
 
 >[!NOTE]
 >
->Per ulteriori informazioni sul servizio di segmentazione e segmentazione, consulta questa [sezione](../../segment/about-segments.md).
+>Per ulteriori informazioni sul servizio di segmentazione e segmentazione, consulta questo [sezione](../../segment/about-segments.md).
 
 
 ## A meno che{#unless}
 
-L’ `unless` helper viene utilizzato per definire un blocco condizionale. In opposizione all&#39;helper `if`, se la valutazione dell&#39;espressione restituisce false, viene eseguito il rendering del blocco.
+La `unless` helper viene utilizzato per definire un blocco condizionale. In opposizione al `if`  helper, se la valutazione dell&#39;espressione restituisce false, viene eseguito il rendering del blocco.
 
 **Sintassi**
 
@@ -143,9 +143,8 @@ Some edu specific content Content
 
 ## Ogni{#each}
 
-L&#39;helper `each` viene utilizzato per eseguire iterazioni su un array.
-La sintassi dell&#39;helper è ```{{#each ArrayName}}``` YourContent {{/each}}
-Possiamo fare riferimento ai singoli elementi dell&#39;array utilizzando la parola chiave **this** all&#39;interno del blocco. È possibile eseguire il rendering dell&#39;indice dell&#39;elemento dell&#39;array utilizzando {{@index}}.
+La `each` helper viene utilizzato per eseguire iterazioni su un array.
+La sintassi dell&#39;helper è ```{{#each ArrayName}}``` YourContent {{/each}} Possiamo fare riferimento ai singoli elementi della matrice utilizzando la parola chiave **questo** all&#39;interno del blocco. È possibile eseguire il rendering dell&#39;indice dell&#39;elemento dell&#39;array utilizzando {{@index}}.
 
 **Sintassi**
 
@@ -177,7 +176,7 @@ Esegui il rendering di un elenco di prodotti di cui dispone questo utente nel ca
 
 ## Con{#with}
 
-L’ `with` helper viene utilizzato per modificare il token di valutazione della parte modello.
+La `with` helper viene utilizzato per modificare il token di valutazione della parte modello.
 
 **Sintassi**
 
@@ -187,7 +186,7 @@ L’ `with` helper viene utilizzato per modificare il token di valutazione della
 {{/with}}
 ```
 
-L’ `with` helper è utile per definire anche una variabile di scelta rapida.
+La `with` helper è utile per definire anche una variabile di scelta rapida.
 
 **Esempio**
 
@@ -202,7 +201,7 @@ Utilizzare con per assegnare i nomi di variabili lunghe a nomi più brevi:
 
 ## Lasciare{#let}
 
-La funzione `let` consente di memorizzare un’espressione come variabile da utilizzare successivamente in una query.
+La `let` consente di memorizzare un&#39;espressione come variabile da utilizzare successivamente in una query.
 
 **Sintassi**
 

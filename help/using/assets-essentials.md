@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -16,7 +16,6 @@ ht-degree: 1%
 # Utilizzo di [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Introduzione a [!DNL Assets Essentials] {#get-started-assets-essentials}
-
 
 [!DNL Adobe Experience Manager Assets Essentials] fornisce un archivio unico e centralizzato delle risorse che puoi utilizzare per compilare i messaggi. È accessibile direttamente da [!DNL Adobe Journey Optimizer] attraverso **[!UICONTROL Assets]** sezione . È inoltre possibile accedere a risorse e cartelle durante la progettazione di un contenuto e-mail. [Ulteriori informazioni sulla progettazione delle e-mail](design-emails.md).
 

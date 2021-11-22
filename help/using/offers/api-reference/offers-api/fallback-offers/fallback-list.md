@@ -1,13 +1,14 @@
 ---
 title: Elencare offerte di fallback
 description: Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '283'
 ht-degree: 5%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte. I passaggi per creare un’offerta di fallback consistono nella creazione di una o più rappresentazioni, ad esempio durante la creazione di un’offerta.
 
-Puoi visualizzare un elenco di tutte le offerte di fallback all’interno di un contenitore eseguendo una singola richiesta di GET all’ API [!DNL Offer Library] .
+Puoi visualizzare un elenco di tutte le offerte di fallback all’interno di un contenitore effettuando una singola richiesta di GET al [!DNL Offer Library] API.
 
 **Formato API**
 
@@ -53,10 +54,10 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `q` | Una stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere circondata da virgolette doppie per evitare che venga token ed evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra rovesciata quando compaiono nella stringa di interrogazione. | `default` |
+| `q` | Una stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere circondata da virgolette doppie per evitare che venga token ed evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra inversa quando vengono visualizzati nella stringa di interrogazione. | `default` |
 | `qop` | Applica l’operatore AND o OR ai valori nel parametro della stringa di query q. | `AND` / `OR` |
 | `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto così: field=field1[,field=field2,...] e (le espressioni del percorso sono sotto forma di percorsi separati da punti come _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un `-` prima del titolo (`orderby=-title`), gli elementi vengono ordinati per titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordina gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limita il numero di offerte di fallback restituite. | `limit=5` |
 
 **Risposta**

@@ -3,7 +3,8 @@ title: Guida introduttiva ai set di dati
 description: Scopri come utilizzare i set di dati Adobe Experience Platform in Adobe Journey Optimizer
 role: User
 level: Beginner
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 24%
@@ -20,11 +21,11 @@ L’aggiunta di dati a Adobe Experience Platform è la base per la creazione di 
 
 ➡️ [Scopri come creare e configurare un set di dati](#video-dataset) (video)
 
-L&#39;area di lavoro **Set di dati** nell&#39;interfaccia utente [!DNL Adobe Journey Optimizer] ti consente di esplorare i dati e creare set di dati.
+La **Set di dati** nell&#39;area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente ti consente di esplorare i dati e creare set di dati.
 
 ![](assets/datasets-home.png)
 
-Scopri come utilizzare l’interfaccia utente dei set di dati nella [documentazione panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
+Scopri come utilizzare l’interfaccia utente dei set di dati in [Panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
 
 La documentazione dettagliata per mappare un file CSV su uno schema XDM è disponibile in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
 
@@ -40,4 +41,3 @@ Scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e co
 * [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](building-journeys/creating-test-profiles.md)
 * [Panoramica sull’acquisizione in streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target=&quot;_blank&quot;}
 * [Inserire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
-

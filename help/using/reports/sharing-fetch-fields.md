@@ -1,18 +1,19 @@
 ---
-title: Campi di recupero dati di journeyStep
-description: Campi di recupero dati di journeyStep
+title: Campi di recupero dati di eventi journeyStep
+description: Campi di recupero dati di eventi journeyStep
 feature: Reporting
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 4%
 
 ---
 
-# Campi di recupero dati di journeyStep {#sharing-fetch-fields}
+# Campi di recupero dati di eventi journeyStep {#sharing-fetch-fields}
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
@@ -44,7 +45,7 @@ Valori:
 * http
 * tappatura
 * timeout
-* errore
+* error
 
 ## fetchErrorCode
 
@@ -74,7 +75,7 @@ Tipo: string
 
 ## fetchOriginErrorCode
 
-Il codice di errore fornito dal sistema [!DNL Journey Orchestration] sta eseguendo una query. Ad esempio può essere un 404, 500, ecc.
+Codice di errore fornito dal sistema [!DNL Journey Orchestration] sta eseguendo una query. Ad esempio può essere un 404, 500, ecc.
 
 Tipo: string
 

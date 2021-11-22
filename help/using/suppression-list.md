@@ -5,7 +5,8 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 2%
@@ -16,7 +17,7 @@ ht-degree: 2%
 
 Un elenco di soppressione è costituito da indirizzi e-mail che si desidera escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio e i tassi di consegna.
 
-L’elenco di soppressione [!DNL Journey Optimizer] viene gestito a livello di ambiente.
+La [!DNL Journey Optimizer] l&#39;elenco di soppressione viene gestito a livello di ambiente.
 
 Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico ambiente client, il che significa specifico per un ID organizzazione IMS associato a un ID sandbox.
 
@@ -34,13 +35,13 @@ I destinatari i cui indirizzi e-mail sono soppressi vengono automaticamente escl
 
 Gli indirizzi e-mail vengono aggiunti all’elenco di eliminazione come segue:
 
-* Tutti i **messaggi non recapitati** e **messaggi spam** inviano automaticamente gli indirizzi e-mail corrispondenti all&#39;elenco di soppressione dopo una singola occorrenza.
+* Tutto **rimbalzi duri** e **disturbi da spam** invia automaticamente gli indirizzi e-mail corrispondenti all’elenco di soppressione dopo una singola occorrenza.
 
-* **I** <!--and temporary **ignored** errors--> messaggi non recapitati morbidi non inviano immediatamente un indirizzo e-mail all’elenco di soppressione, ma incrementano un contatore di errori. Vengono quindi eseguiti diversi [tentativi](configuration/retries.md) e, quando il contatore di errori raggiunge la soglia, l&#39;indirizzo viene aggiunto all&#39;elenco di soppressione.
+* **Rimbalzi morbidi** <!--and temporary **ignored** errors--> non inviare immediatamente un indirizzo e-mail all’elenco di soppressione, ma incrementa un contatore di errori. Diversi [tentativi](configuration/retries.md) vengono quindi eseguiti e quando il contatore degli errori raggiunge la soglia, l’indirizzo viene aggiunto all’elenco di soppressione.
 
-* È inoltre possibile [**aggiungere manualmente** un indirizzo o un dominio](configuration/manage-suppression-list.md#add-addresses-and-domains) all&#39;elenco di soppressione.
+* È inoltre possibile [**manuale** aggiungere un indirizzo o un dominio](configuration/manage-suppression-list.md#add-addresses-and-domains) all&#39;elenco di soppressione.
 
-Ulteriori informazioni sui rimbalzi rigidi e sui mancati recapiti morbidi in [questa sezione](#delivery-failures).
+Per saperne di più su rimbalzi rigidi e rimbalzi morbidi in [questa sezione](#delivery-failures).
 
 >[!NOTE]
 >
@@ -53,21 +54,21 @@ Per ogni indirizzo, il motivo di base della soppressione e la categoria di soppr
 
 >[!NOTE]
 >
->I profili con stato **[!UICONTROL Suppressed]** sono esclusi durante il processo di invio del messaggio. Pertanto, mentre i **rapporti sul Percorso** mostreranno questi profili come spostati attraverso il percorso ([Leggi segmento](building-journeys/read-segment.md) e [Messaggio](building-journeys/journeys-message.md)), i **Rapporti e-mail** non li includeranno nelle metriche **[!UICONTROL Sent]** in quanto vengono filtrati prima dell’invio dell’e-mail.
+>I profili con **[!UICONTROL Suppressed]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](building-journeys/read-segment.md) e [Messaggio](building-journeys/journeys-message.md) attività), **Rapporti e-mail** non li includerà nella **[!UICONTROL Sent]** le metriche vengono filtrate prima dell’invio dell’e-mail.
 >
->Ulteriori informazioni sul [Live Report](reports/live-report.md) e sul [Report globale](reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Per saperne di più sul [Report live](reports/live-report.md) e [Report globale](reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
 ### Errori di consegna {#delivery-failures}
 
 Esistono due tipi di errori quando una consegna non riesce:
 
-* **Rimbalzo** duro. Un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail inesistente). Questo comporta un messaggio non recapitato dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido.
+* **Rimbalzo duro**. Un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail inesistente). Questo comporta un messaggio non recapitato dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido.
 * **Rimbalzo morbido**. Si tratta di un messaggio non recapitato temporaneo per un indirizzo e-mail valido.
 <!--* **Ignored**. This is an email bounce that occurred for a valid email address but is known to be temporary, such as a failed connection attempt, a temporary Spam-related issue (email reputation), or a temporary technical issue.-->
 
-Un **rimbalzo rigido** aggiunge automaticamente l&#39;indirizzo e-mail all&#39;elenco di soppressione.
+A **rimbalzo duro** aggiunge automaticamente l&#39;indirizzo e-mail all&#39;elenco di soppressione.
 
-Un **messaggio non recapitato** <!--or an **ignored** error--> che si verifica troppo spesso invia anche l&#39;indirizzo e-mail all&#39;elenco di eliminazione dopo diversi tentativi. [Ulteriori informazioni sui nuovi tentativi](configuration/retries.md)
+A **rimbalzo morbido** <!--or an **ignored** error--> che si verifica troppe volte invia anche l’indirizzo e-mail all’elenco di soppressione dopo diversi tentativi. [Ulteriori informazioni sui nuovi tentativi](configuration/retries.md)
 
 Se continui a inviare a questi indirizzi, potrebbe influenzare i tassi di consegna, perché comunica agli ISP che potresti non seguire le best practice di manutenzione dell’elenco indirizzi e-mail e quindi potrebbe non essere un mittente affidabile.
 

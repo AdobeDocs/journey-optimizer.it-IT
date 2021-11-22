@@ -27,7 +27,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 >
 >Per ulteriori informazioni sulle limitazioni delle versioni di percorso, consulta [questa pagina](../limitations.md#journey-versions-limitations)
 
-1. Apri la versione più recente del percorso live, fai clic su **[!UICONTROL Create a new version]** e conferma.
+1. Apri la versione più recente del percorso live e fai clic su **[!UICONTROL Create a new version]** e confermare.
 
    ![](../assets/journeyversions2.png)
 
@@ -35,7 +35,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
    >
    >Puoi creare una nuova versione solo dall’ultima versione di un percorso.
 
-1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e conferma.
+1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e confermare.
 
    ![](../assets/journeyversions3.png)
 
@@ -45,4 +45,4 @@ Le versioni di percorso possono essere arrestate singolarmente. Tutte le version
 
 >[!NOTE]
 >
->Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa allo stato **Chiuso** . Non ci sarà alcuna entrata nel percorso. Anche se si interrompe l&#39;ultima versione, la versione precedente rimarrà chiusa.
+>Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa alla **Chiuso** stato. Non ci sarà alcuna entrata nel percorso. Anche se si interrompe l&#39;ultima versione, la versione precedente rimarrà chiusa.

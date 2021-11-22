@@ -2,7 +2,8 @@
 title: Guida introduttiva di Journey Optimizer per l'amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 3%
@@ -62,9 +63,7 @@ Segui i passaggi elencati di seguito:
 1. **Gestire la soppressione e l’elenco Consentiti**: migliorare il recapito messaggi con soppressione ed elenchi Consentiti
 
    * A [elenco a discesa](../suppression-list.md) è costituito da indirizzi e-mail che desideri escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio e i tassi di consegna. Puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall’invio in un percorso, ad esempio indirizzi non validi, indirizzi costantemente non recapitati e che potrebbero influenzare negativamente la reputazione dell’e-mail e destinatari che inviano un reclamo di qualche tipo relativo a uno dei tuoi messaggi e-mail. Scopri come gestire il [elenco a discesa](../configuration/manage-suppression-list.md) e [tentativi](../configuration/retries.md).
-
    ![](../assets/suppression-list-filtering-example.png)
 
    * La [elenco Consentiti](../allow-list.md) consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica. Questo può impedire l’invio accidentale di e-mail a veri indirizzi dei clienti in un ambiente di test. Scopri come [abilita l&#39;elenco Consentiti](../allow-list.md).
    Ulteriori informazioni sulla gestione del recapito messaggi in [!DNL Adobe Journey Optimizer] [in questa pagina](../deliverability.md).
-

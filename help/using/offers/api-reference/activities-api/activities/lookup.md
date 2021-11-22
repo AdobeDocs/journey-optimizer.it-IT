@@ -1,20 +1,21 @@
 ---
 title: Elencare le decisioni
 description: Una decisione contiene la logica che informa la selezione di un’offerta.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 5%
 
 ---
 
 # Cerca una decisione
 
-Puoi cercare decisioni specifiche (precedentemente note come attività di offerta) effettuando una richiesta di GET all’ [!DNL Offer Library] API che include le decisioni `@id` o il nome della decisione nel percorso della richiesta.
+Puoi cercare decisioni specifiche (precedentemente note come attività di offerta) effettuando una richiesta di GET al [!DNL Offer Library] API che include le decisioni `@id` o il nome della decisione nel percorso della richiesta.
 
 **Formato API**
 
@@ -27,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Definisce lo schema associato alle decisioni. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Una stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. Il parametro &quot;id&quot; e &quot;name&quot; non può essere utilizzato insieme | `LBAR` |
 
 **Richiesta**

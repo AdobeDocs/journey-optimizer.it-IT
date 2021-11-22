@@ -1,24 +1,25 @@
 ---
 title: Libreria di funzioni di array
 description: Libreria di funzioni di array
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
 
-# Array e funzioni elenco {#arrays}
+# Funzioni array ed elenco {#arrays}
 
 Utilizza queste funzioni per semplificare l’interazione con array, elenchi e stringhe.
 
 ## Distinto{#distinct}
 
-La funzione `distinct` viene utilizzata per ottenere valori da una matrice o da un elenco con valori duplicati rimossi.
+La `distinct` viene utilizzata per ottenere i valori da una matrice o da un elenco con i valori duplicati rimossi.
 
 **Formato**
 
@@ -36,7 +37,7 @@ L&#39;operazione seguente specifica le persone che hanno effettuato ordini in pi
 
 ## Primo elemento{#head}
 
-La funzione `head` viene utilizzata per restituire il primo elemento della matrice o dell&#39;elenco.
+La `head` viene utilizzata per restituire il primo elemento dell&#39;array o dell&#39;elenco.
 
 **Formato**
 
@@ -46,15 +47,15 @@ La funzione `head` viene utilizzata per restituire il primo elemento della matri
 
 **Esempio**
 
-L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il prezzo più alto. Ulteriori informazioni sulla funzione `topN` sono disponibili nella sezione [first `n` in array](#first-n) .
+L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il prezzo più alto. Ulteriori informazioni sulle `topN` si trova nella [first `n` in matrice](#first-n) sezione .
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primo `n` nella matrice {#first-n}
+## Primo `n` in matrice {#first-n}
 
-La funzione `topN` viene utilizzata per restituire i primi `N` elementi di un array, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
+La `topN` viene utilizzata per restituire il primo `N` elementi in una matrice, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
 
 **Formato**
 
@@ -78,7 +79,7 @@ L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più a
 
 ## In{#in}
 
-La funzione `in` viene utilizzata per determinare se un elemento è membro di una matrice o di un elenco.
+La `in` viene utilizzata per determinare se un elemento è membro di una matrice o di un elenco.
 
 **Formato**
 
@@ -96,7 +97,7 @@ L&#39;operazione seguente definisce le persone con compleanni a marzo, giugno o 
 
 ## Include{#includes}
 
-La funzione `includes` viene utilizzata per determinare se una matrice o un elenco contiene un elemento specificato.
+La `includes` viene utilizzata per determinare se una matrice o un elenco contiene un elemento specificato.
 
 **Formato**
 
@@ -114,7 +115,7 @@ L’operazione seguente definisce le persone il cui colore preferito include il 
 
 ## Intersecazioni{#intersects}
 
-La funzione `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
+La `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
 
 **Formato**
 
@@ -150,9 +151,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Ultimo `n` nell&#39;array{#last-n}
+## Ultimo `n` in matrice{#last-n}
 
-La funzione `bottomN` viene utilizzata per restituire gli ultimi `N` elementi di un array, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
+La `bottomN` viene utilizzata per restituire l&#39;ultima `N` elementi in una matrice, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
 
 **Formato**
 
@@ -177,11 +178,11 @@ L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più b
 
 ## Non in{#notin}
 
-La funzione `notIn` viene utilizzata per determinare se un elemento non è membro di una matrice o di un elenco.
+La `notIn` viene utilizzata per determinare se un elemento non è membro di una matrice o di un elenco.
 
 >[!NOTE]
 >
->La funzione `notIn` *anche* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta della funzione `in`.
+>La `notIn` Funzione *anche* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta del `in` funzione .
 
 **Formato**
 
@@ -200,7 +201,7 @@ L&#39;operazione seguente definisce le persone con compleanni che non sono in ma
 
 ## Sottoinsieme di{#subset}
 
-La funzione `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, tutti gli elementi dell&#39;array A sono elementi dell&#39;array B.
+La `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, tutti gli elementi dell&#39;array A sono elementi dell&#39;array B.
 
 **Formato**
 
@@ -218,7 +219,7 @@ L’operazione seguente definisce le persone che hanno visitato tutte le loro ci
 
 ## Superset di{#superset}
 
-La funzione `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l&#39;array A contiene tutti gli elementi dell&#39;array B.
+La `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l&#39;array A contiene tutti gli elementi dell&#39;array B.
 
 **Formato**
 
@@ -233,10 +234,3 @@ L&#39;operazione seguente definisce le persone che hanno mangiato sushi e pizza 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

@@ -2,14 +2,15 @@
 title: Pubblicare e modificare un messaggio
 description: Scopri come pubblicare e aggiornare i messaggi
 snippet: y
-feature: Percorsi
-topic: Gestione dei contenuti
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +26,7 @@ Una volta creato il messaggio, puoi pubblicarlo per renderlo disponibile per l�
 
 ![](assets/publish-message.png)
 
-Dopo la pubblicazione, il messaggio viene aggiunto all’elenco dei messaggi con lo stato **[!UICONTROL Published]** .
+Dopo la pubblicazione, il messaggio viene aggiunto all’elenco dei messaggi con la **[!UICONTROL Published]** stato.
 
 È ora pronto per essere attivato da uno o più [percorsi](building-journeys/journey.md).
 

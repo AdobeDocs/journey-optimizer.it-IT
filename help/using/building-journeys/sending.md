@@ -9,13 +9,13 @@ ht-degree: 3%
 ---
 
 
-# Esecuzione del percorso {#message-execution}
+# esecuzione del percorso {#message-execution}
 
 ## Test del percorso
 
 Puoi testare il percorso utilizzando i profili di test. Questo passaggio è consigliato per convalidare le impostazioni e i messaggi.
 
-Ulteriori informazioni in questa sezione [sezione](testing-the-journey.md).
+Ulteriori informazioni [sezione](testing-the-journey.md).
 
 ## Attiva il tuo percorso
 
@@ -23,7 +23,7 @@ Devi pubblicare il percorso per attivarlo.
 
 ![](../assets/jo-journeyuc2_32bis.png)
 
-Ulteriori informazioni in questa sezione [sezione](publishing-the-journey.md).
+Ulteriori informazioni [sezione](publishing-the-journey.md).
 
 
 Una volta pubblicato, puoi monitorare il percorso utilizzando gli strumenti di reporting dedicati per misurare l’efficacia del percorso.
@@ -40,29 +40,29 @@ Quando il messaggio presenta un contenuto definito e pubblicato, è pronto per e
 >
 >Puoi aggiungere a un percorso un messaggio ancora in modalità bozza, ma accertati che il messaggio sia pubblicato prima di pubblicare il percorso.
 
-Una volta inviato un messaggio, puoi monitorarne l’esecuzione tramite più indicatori. [Ulteriori informazioni sul monitoraggio dell’esecuzione](../message-monitoring.md) dei messaggi.
+Una volta inviato un messaggio, puoi monitorarne l’esecuzione tramite più indicatori. [Ulteriori informazioni sul monitoraggio dell’esecuzione dei messaggi](../message-monitoring.md).
 
-## Pianifica messaggi {#schedule-messages}
+## Pianificare messaggi {#schedule-messages}
 
-I messaggi possono essere pianificati tramite l&#39;attività **[!UICONTROL Read Segment]** in un [percorso](journey.md). Puoi specificare quando il segmento entrerà nel percorso. [Ulteriori informazioni sull’attività](read-segment.md) Leggi segmento .
+I messaggi possono essere pianificati tramite **[!UICONTROL Read Segment]** attività in un [percorso](journey.md). Puoi specificare quando il segmento entrerà nel percorso. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. Modifica un percorso, trascina e rilascia un’attività **[!UICONTROL Read Segment]** e inizia a configurarla. [Ulteriori informazioni sulla configurazione dell’attività](read-segment.md#configuring-segment-trigger-activity) Read Segment .
+1. Modificare un percorso, trascinarlo e rilasciarlo **[!UICONTROL Read Segment]** e inizia a configurarlo. [Ulteriori informazioni sulla configurazione dell’attività Leggi segmento](read-segment.md#configuring-segment-trigger-activity).
 
-1. Fai clic sul collegamento **[!UICONTROL Edit journey schedule]** per accedere alle proprietà del percorso.
+1. Fai clic sul pulsante **[!UICONTROL Edit journey schedule]** collegamento per accedere alle proprietà del percorso.
 
    ![](../assets/message-read-segment-schedule.png)
 
-1. Configura il campo **[!UICONTROL Scheduler type]** : seleziona il valore desiderato dall’elenco per far sì che il segmento immetta il percorso in una data/ora specifica o su base ricorrente.
+1. Configura le **[!UICONTROL Scheduler type]** campo: seleziona il valore desiderato dall’elenco per far sì che il segmento immetta il percorso in una data/ora specifica o su base ricorrente.
 
    >[!NOTE]
    >
-   >La sezione **[!UICONTROL Schedule]** è disponibile solo quando un’attività **[!UICONTROL Read Segment]** è stata rilasciata nell’area di lavoro.
+   >La **[!UICONTROL Schedule]** è disponibile solo quando una **[!UICONTROL Read Segment]** l’attività è stata rilasciata nell’area di lavoro.
 
    ![](../assets/message-read-segment-scheduler.png)
 
-1. Se selezioni **[!UICONTROL Once]**, definisci una data e un’ora specifiche in cui il segmento entrerà nel percorso.
+1. Se si seleziona **[!UICONTROL Once]**, definisci una data e un’ora specifiche in cui il segmento entrerà nel percorso.
 
    ![](../assets/message-read-segment-scheduler-once.png)
 
@@ -72,7 +72,7 @@ Per farlo, segui la procedura indicata di seguito:
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, i segmenti immettono il percorso **[!UICONTROL As soon as possible]**, ovvero 1 ora dopo la pubblicazione del percorso.
+   >Per impostazione predefinita, i segmenti entrano nel percorso **[!UICONTROL As soon as possible]**, ovvero 1 ora dopo la pubblicazione del percorso.
 
 1. Fai clic su **[!UICONTROL OK]** per salvare le modifiche.
 

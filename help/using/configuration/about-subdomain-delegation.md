@@ -3,17 +3,17 @@ title: Delega sottodomini
 description: Scopri come delegare i sottodomini
 internal: n
 snippet: y
-feature: Impostazioni applicazione
-topic: Amministrazione
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 27%
 
 ---
-
 
 # Delega dei sottodomini in [!DNL Journey Optimizer]
 
@@ -34,6 +34,6 @@ Questi requisiti vengono gestiti tramite componenti ospitati sia da Adobe che da
 
 **Ulteriori informazioni**
 
-* Scopri come [delegare i tuoi sottodomini](delegate-subdomain.md) direttamente dall’interfaccia
-* Scopri come [aggiungere record TXT di Google](google-txt.md) ai tuoi sottodomini per garantire la corretta consegna delle e-mail agli indirizzi Gmail
-* Scopri come [accedere ai record PTR](ptr-records.md) generati per i tuoi sottodomini, per verificarli inviando server di posta elettronica
+* Scopri come [delegare i sottodomini](delegate-subdomain.md) direttamente dall&#39;interfaccia
+* Scopri come [aggiungere record TXT di Google](google-txt.md) ai sottodomini per garantire la corretta consegna delle e-mail agli indirizzi Gmail
+* Scopri come [accedere ai record PTR](ptr-records.md) generato per i sottodomini, per verificarli inviando server di posta elettronica

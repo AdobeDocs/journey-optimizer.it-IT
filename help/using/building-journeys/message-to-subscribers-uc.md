@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 4%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ Per configurare questo percorso, effettua le seguenti operazioni:
 
       Per poter modificare l’indirizzo e-mail, devi aver pubblicato il messaggio in precedenza.
 
-   1. Nell’editor espressioni, immetti l’espressione per recuperare gli indirizzi e-mail degli abbonati. [Leggi tutto](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=it){target=&quot;_blank&quot;}.
+   1. Nell’editor espressioni, immetti l’espressione per recuperare gli indirizzi e-mail degli abbonati. [Ulteriori informazioni](expression/expressionadvanced.md).
 
       Questo esempio mostra un&#39;espressione che include riferimenti ai campi di mappatura:
 
@@ -49,7 +50,7 @@ Per configurare questo percorso, effettua le seguenti operazioni:
 
       In questo esempio, l’elenco di sottoscrizioni è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nel `subscribers` map, collegata alla mappa dell’elenco di abbonamenti.
 
-      Ulteriori informazioni [riferimenti ai campi](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) nelle espressioni.
+      Ulteriori informazioni [riferimenti ai campi](expression/field-references.md) nelle espressioni.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ Per configurare questo percorso, effettua le seguenti operazioni:
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Termina il percorso con un **[!UICONTROL End]** attività.
-
-
-
-

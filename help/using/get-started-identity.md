@@ -1,13 +1,14 @@
 ---
 title: Guida introduttiva alle identità in Journey Optimizer
 description: Scopri come gestire le identità in Adobe Journey Optimizer
-feature: Profili
+feature: Profiles
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -21,19 +22,18 @@ In [!DNL Adobe Journey Optimizer], **Identità** collega i consumatori tra dispo
 
 ![](assets/identities-home.png)
 
-Ulteriori informazioni su **Servizio identità** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
+Ulteriori informazioni **Servizio identità** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Namespace Identity
 
-**Gli** spazi dei nomi di identità sono un componente del servizio Identity che funge da indicatori del contesto a cui si riferisce un’identità. Ad esempio, distinguono un valore di `name@email.com` come indirizzo e-mail o `443522` come ID CRM numerico. Per utilizzare i namespace di identità è necessario comprendere i vari servizi Adobe Experience Platform interessati. Prima di iniziare a utilizzare i namespace, controlla la documentazione relativa ai seguenti servizi:
+**Namespace Identity** sono un componente del servizio Identity che funge da indicatore del contesto a cui si riferisce un’identità. Ad esempio, distinguono un valore di `name@email.com` come indirizzo e-mail o `443522` come ID CRM numerico. Per utilizzare i namespace di identità è necessario comprendere i vari servizi Adobe Experience Platform interessati. Prima di iniziare a utilizzare i namespace, controlla la documentazione relativa ai seguenti servizi:
 
-Ulteriori informazioni su **Namespace** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+Ulteriori informazioni **Namespace Identity** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
 
 ## Grafico di identità{#id-graph}
 
-Il **grafico identità** è una mappa delle relazioni tra identità diverse per un particolare cliente, che fornisce una rappresentazione visiva delle interazioni del cliente con il tuo marchio tra diversi canali. Tutti i grafici dell’identità del cliente vengono gestiti e aggiornati collettivamente da Adobe Experience Platform Identity Service in tempo quasi reale, in risposta all’attività del cliente.
+La **Grafico di identità** è una mappa delle relazioni tra identità diverse per un particolare cliente, che fornisce una rappresentazione visiva di come il cliente interagisce con il tuo marchio su diversi canali. Tutti i grafici dell’identità del cliente vengono gestiti e aggiornati collettivamente da Adobe Experience Platform Identity Service in tempo quasi reale, in risposta all’attività del cliente.
 
-Il visualizzatore del grafico delle identità nell’ interfaccia utente di [!DNL Adobe Journey Optimizer] ti consente di visualizzare e comprendere meglio quali sono le identità dei clienti unite e in che modo. Il visualizzatore consente di trascinare e interagire con diverse parti del grafico, consentendoti di esaminare relazioni di identità complesse, eseguire il debug in modo più efficiente e beneficiare di una maggiore trasparenza nell’utilizzo delle informazioni.
+Il visualizzatore del grafico di identità in [!DNL Adobe Journey Optimizer] l’interfaccia utente ti consente di visualizzare e comprendere meglio le identità dei clienti unite e in che modo. Il visualizzatore consente di trascinare e interagire con diverse parti del grafico, consentendoti di esaminare relazioni di identità complesse, eseguire il debug in modo più efficiente e beneficiare di una maggiore trasparenza nell’utilizzo delle informazioni.
 
-Ulteriori informazioni su **Identity Graph** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target=&quot;_blank&quot;}.
-
+Ulteriori informazioni **Grafico di identità** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/ui/identity-graph-viewer.html){target=&quot;_blank&quot;}.

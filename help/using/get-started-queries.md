@@ -1,21 +1,22 @@
 ---
 title: Guida introduttiva alle query in Journey Optimizer
 description: Scopri come creare query in Adobe Journey Optimizer
-feature: Schemi
+feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+exl-id: 6f32f068-429a-4039-bb76-d190069e7402
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 13%
+source-wordcount: '122'
+ht-degree: 12%
 
 ---
 
 # Guida introduttiva alle query {#queries-gs}
 
-Query Editor è uno strumento interattivo fornito da Adobe Experience Platform Query Service che consente di scrivere, convalidare ed eseguire query per i dati sulla customer experience all’interno dell’interfaccia utente [!DNL Adobe Journey Optimizer].
+Query Editor è uno strumento interattivo fornito da Adobe Experience Platform Query Service che consente di scrivere, convalidare ed eseguire query per i dati sulla customer experience in [!DNL Adobe Journey Optimizer] interfaccia utente.
 
-L’editor delle query supporta lo sviluppo di query per l’analisi e l’esplorazione dei dati e consente di eseguire query interattive a scopo di sviluppo, nonché query non interattive per compilare [set di dati](get-started-datasets.md).
+L’editor delle query supporta lo sviluppo di query per l’analisi e l’esplorazione dei dati e consente di eseguire query interattive a scopo di sviluppo e query non interattive per la compilazione [set di dati](get-started-datasets.md).
 
 
 ![](assets/queries-home.png)

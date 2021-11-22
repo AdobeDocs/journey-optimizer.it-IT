@@ -1,14 +1,15 @@
 ---
 title: Creare regole di decisione
 description: Scopri come creare regole decisionali in Adobe Experience Platform.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 13%
+source-wordcount: '282'
+ht-degree: 12%
 
 ---
 
@@ -20,19 +21,19 @@ Ad esempio, puoi specificare che desideri che venga visualizzata solo “Offerta
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L&#39;elenco delle regole decisionali create è accessibile nel menu **[!UICONTROL Components]**.
+L&#39;elenco delle regole decisionali create è accessibile nella **[!UICONTROL Components]** menu.
 
 ![](../../assets/decision_rules_list.png)
 
 Per creare una regola decisionale, effettua le seguenti operazioni:
 
-1. Vai alla scheda **[!UICONTROL Rules]**, quindi fai clic su **[!UICONTROL Create rule]**.
+1. Vai a **[!UICONTROL Rules]** scheda , quindi fai clic su **[!UICONTROL Create rule]**.
 
    ![](../../assets/offers_decision_rule_creation.png)
 
 1. Denomina la regola e fornisci una descrizione, quindi configura la regola in base alle tue esigenze.
 
-   A questo scopo, è disponibile il **Generatore di segmenti** per aiutarti a creare le condizioni della regola. [Ulteriori informazioni](../../segment/about-segments.md)
+   Per eseguire questa operazione, **Generatore di segmenti** è disponibile per creare le condizioni della regola. [Ulteriori informazioni](../../segment/about-segments.md)
 
    In questo esempio, la regola eseguirà il targeting dei clienti con il livello di fedeltà &quot;Gold&quot;.
 
@@ -40,7 +41,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il servizio **[!UICONTROL Audience Destinations]**. Ad esempio, la scheda **[!UICONTROL Segments]** non è disponibile per l’uso. Tuttavia, il processo globale descritto nella documentazione di Segment Builder è ancora valido per creare regole decisionali per le offerte.
+   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Audience Destinations]** servizio. Ad esempio, il **[!UICONTROL Segments]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nella documentazione di Segment Builder è ancora valido per creare regole decisionali per le offerte.
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 
@@ -50,7 +51,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarla in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarlo in un&#39;offerta.
 
 ## Video tutorial {#video}
 

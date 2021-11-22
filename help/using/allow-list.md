@@ -52,7 +52,7 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 
 >[!NOTE]
 >
->L&#39;elenco Consentiti può contenere fino a 1.000 voci.
+>L’elenco Consentiti può contenere fino a 1.000 voci.
 
 <!--
 Learn more on making these API calls in the API reference documentation.

@@ -2,13 +2,14 @@
 title: Informazioni sulle attività del percorso
 description: Informazioni sulle attività del percorso
 feature: Journeys
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 30%
+source-wordcount: '262'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +19,7 @@ Combina le diverse attività relative a un evento, un percorso e un’azione in 
 
 ## Attività eventi {#event-activities}
 
-Gli eventi configurati dall’utente tecnico (consulta [questa pagina](../event/about-events.md)) vengono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività eventi:
+Gli eventi configurati dall’utente tecnico (consulta [questa pagina](../event/about-events.md)) sono visualizzate nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività eventi:
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
@@ -43,7 +44,7 @@ Nella palette a sinistra dello schermo sono disponibili le seguenti attività di
 
 ## Attività di azione {#action-activities}
 
-Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai la categoria **[!UICONTROL Actions]**. Sono disponibili le seguenti attività di azione:
+Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai la **[!UICONTROL Actions]** categoria. Sono disponibili le seguenti attività di azione:
 
 * [Messaggio](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
@@ -53,11 +54,11 @@ Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e 
 
 Queste attività rappresentano i diversi canali di comunicazione disponibili. Puoi combinarle per creare uno scenario cross-channel.
 
-Se hai configurato azioni personalizzate, queste verranno visualizzate qui (consulta [questa pagina](../building-journeys/using-custom-actions.md)).
+Se hai configurato azioni personalizzate, queste verranno visualizzate qui (vedi [questa pagina](../building-journeys/using-custom-actions.md)).
 
 ## Best practice {#best-practices}
 
-La maggior parte delle attività ti consente di definire un **[!UICONTROL Label]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Description]** facoltativo.
+La maggior parte delle attività ti consente di definire un **[!UICONTROL Label]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
 

@@ -1,20 +1,21 @@
 ---
 title: eliminare i posizionamenti
 description: I posizionamenti sono contenitori utilizzati per mostrare le offerte.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 6%
 
 ---
 
 # Eliminare un posizionamento
 
-A volte può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. A tal fine, esegui una richiesta DELETE all’ API [!DNL Offer Library] utilizzando l’ID istanza del posizionamento da eliminare.
+A volte può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID istanza del posizionamento da eliminare.
 
 **Formato API**
 
@@ -44,4 +45,4 @@ curl -X DELETE \
 
 Una risposta corretta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) al posizionamento. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché il posizionamento è stato rimosso dal contenitore.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) al posizionamento. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere lo stato HTTP 404 (Non trovato) perché il posizionamento è stato rimosso dal contenitore.

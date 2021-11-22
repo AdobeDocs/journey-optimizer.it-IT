@@ -15,7 +15,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
+source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -29,17 +30,17 @@ ht-degree: 0%
 Ogni profilo di prodotto è composto da autorizzazioni che consentono agli utenti di accedere alle diverse funzioni.
 Possono essere suddivisi in due tipi:
 
-* **Autorizzazione** di alto livello: rappresenta le diverse autorizzazioni che possono essere assegnate a  **[!UICONTROL Product profile]** in  [!DNL Admin console], ad esempio  **[!UICONTROL Publish journeys]** e  **[!UICONTROL Manage subdomains delegation]**. Le autorizzazioni di alto livello includono le autorizzazioni di basso livello.
+* **Autorizzazione di alto livello**: rappresenta le diverse autorizzazioni a cui è possibile assegnare **[!UICONTROL Product profile]** in [!DNL Admin console], quali **[!UICONTROL Publish journeys]** e **[!UICONTROL Manage subdomains delegation]**. Le autorizzazioni di alto livello includono le autorizzazioni di basso livello.
 
-* **Autorizzazione** di basso livello: rappresenta le diverse autorizzazioni provenienti dall&#39;autorizzazione di alto livello.
+* **Autorizzazione di basso livello**: rappresenta le diverse autorizzazioni provenienti dall&#39;autorizzazione di alto livello.
 
-Ad esempio, al profilo di prodotto **[!UICONTROL Journey administrator]** viene assegnata l&#39;autorizzazione **[!UICONTROL Manage journeys]**. Da questa autorizzazione risultano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
+Ad esempio, il **[!UICONTROL Journey administrator]** al profilo di prodotto viene assegnato il **[!UICONTROL Manage journeys]** autorizzazione. Da questa autorizzazione risultano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
 
 ## Capacità percorso {#journey-capability}
 
 ### Autorizzazione per la gestione dei percorsi {#manage-journeys}
 
-L’ **[!UICONTROL Manage journeys]** autorizzazione di alto livello consente agli utenti di creare nuovi Percorsi e di modificarli o eliminarli, nonché di accedere agli oggetti utilizzati nell’area di lavoro del percorso per creare il flusso di percorso.
+La **[!UICONTROL Manage journeys]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi Percorsi e di modificarli o eliminarli, nonché di accedere agli oggetti utilizzati nell’area di lavoro del percorso per generare il flusso di percorso.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -59,7 +60,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per la pubblicazione di percorsi {#publish-journeys}
 
-L’ autorizzazione di alto livello **[!UICONTROL Publish journeys]** consente agli utenti di pubblicare percorsi.
+La **[!UICONTROL Publish journeys]** le autorizzazioni di alto livello consentono agli utenti di pubblicare percorsi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -69,7 +70,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione percorsi {#view-journeys}
 
-L’ autorizzazione di alto livello **[!UICONTROL View journeys]** consente agli utenti di sfogliare e visualizzare percorsi.
+La **[!UICONTROL View journeys]** le autorizzazioni di alto livello consentono agli utenti di sfogliare e visualizzare percorsi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -82,7 +83,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestisci autorizzazioni eventi, origini dati e azioni percorsi {#manage-journeys-events}
 
-L’ autorizzazione di alto livello **[!UICONTROL Manage journeys events, data sources and actions]** consente agli utenti di configurare configurazioni di eventi e dati.
+La **[!UICONTROL Manage journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di configurare configurazioni di eventi e dati.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -103,7 +104,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione eventi, origini dati e azioni percorsi {#view-journeys-event}
 
-L’ autorizzazione di alto livello **[!UICONTROL View journeys events, data sources and actions]** consente agli utenti di utilizzare eventi e dati nel flusso di percorso.
+La **[!UICONTROL View journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare eventi e dati nel flusso di percorso.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -119,7 +120,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione rapporto percorsi {#view-journeys-report}
 
-L’ autorizzazione di alto livello **[!UICONTROL View journeys report]** consente agli utenti di visualizzare rapporti di percorso di sola lettura.
+La **[!UICONTROL View journeys report]** le autorizzazioni di alto livello consentono agli utenti di visualizzare rapporti di percorso di sola lettura.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -137,7 +138,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per la gestione dei messaggi {#manage-messages}
 
-L’ **[!UICONTROL Manage messages]** autorizzazione di alto livello consente agli utenti di creare e modificare/eliminare messaggi.
+La **[!UICONTROL Manage messages]** le autorizzazioni di alto livello consentono agli utenti di creare e modificare/eliminare messaggi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -153,7 +154,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestione dell’anteprima e del test dei messaggi {#mange-messages-preview}
 
-L’ **[!UICONTROL Manage messages preview and test]** autorizzazione di alto livello consente agli utenti di visualizzare in anteprima i messaggi personalizzati.
+La **[!UICONTROL Manage messages preview and test]** le autorizzazioni di alto livello consentono agli utenti di visualizzare in anteprima i messaggi personalizzati.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -175,7 +176,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per la pubblicazione dei messaggi {#publish-messages}
 
-L’ **[!UICONTROL Publish messages]** autorizzazione di alto livello consente agli utenti di pubblicare messaggi.
+La **[!UICONTROL Publish messages]** le autorizzazioni di alto livello consentono agli utenti di pubblicare messaggi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -189,7 +190,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione messaggi {#view-messages}
 
-L’ autorizzazione di alto livello **[!UICONTROL View messages]** consente agli utenti di leggere solo i messaggi.
+La **[!UICONTROL View messages]** le autorizzazioni di alto livello consentono agli utenti di leggere solo i messaggi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -203,7 +204,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione rapporti messaggi {#view-message-reports}
 
-L’ **[!UICONTROL View messages report]** autorizzazione di alto livello consente agli utenti di inviare e-mail e rapporti push di sola lettura.
+La **[!UICONTROL View messages report]** le autorizzazioni di alto livello consentono agli utenti di inviare e-mail e rapporti push di sola lettura.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -219,7 +220,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per la gestione delle decisioni {#manage-decisioning}
 
-L’ **[!UICONTROL Manage decisions]** autorizzazione di alto livello consente agli utenti di creare nuovi e modificare/eliminare **[!UICONTROL Activity entities]** esistenti, nonché di gestire gli oggetti utilizzati in tali attività per prendere le decisioni necessarie.
+La **[!UICONTROL Manage decisions]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi e modificare/eliminare quelli esistenti **[!UICONTROL Activity entities]**, nonché gestire gli oggetti utilizzati in tali attività per prendere le decisioni.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -245,7 +246,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione decisioni {#view-decisions}
 
-L’ autorizzazione di alto livello **[!UICONTROL View decisions]** consente agli utenti di utilizzare un’attività esistente e gli oggetti aziendali correlati per prendere le decisioni necessarie.
+La **[!UICONTROL View decisions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare un&#39;attività esistente e gli oggetti aziendali correlati per prendere le decisioni necessarie.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -264,7 +265,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per pubblicare offerte decisionali {#publish-decisions}
 
-L’ **[!UICONTROL Publish offers decisioning]** autorizzazione di alto livello consente agli utenti di accedere alle attività di approvazione/annullamento dell’approvazione dell’offerta.
+La **[!UICONTROL Publish offers decisioning]** le autorizzazioni di alto livello consentono agli utenti di accedere per approvare/annullare l’approvazione delle attività Offerta.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -286,7 +287,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per gestire le strategie di classificazione {#manage-decisions}
 
-L’ **[!UICONTROL Manage ranking strategies]** autorizzazione di alto livello consente agli utenti di leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e di utilizzare le funzioni di azione.
+La **[!UICONTROL Manage ranking strategies]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e di utilizzare le funzioni di azione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -302,7 +303,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestisci autorizzazioni di delega dei sottodomini {#manage-subdomain}
 
-L’ **[!UICONTROL Manage subdomains delegation]** autorizzazione di alto livello consente agli utenti di creare, modificare ed eliminare delegazioni di sottodominio (incluso il pool IP).
+La **[!UICONTROL Manage subdomains delegation]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare deleghe di sottodominio (incluso il pool IP).
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -312,7 +313,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione record PTR {#view-ptr}
 
-L’ autorizzazione di alto livello **[!UICONTROL View PTR records]** consente agli utenti di visualizzare i record PTR configurati in base al sottodominio.
+La **[!UICONTROL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -321,7 +322,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestisci autorizzazioni pool IP {#manage-ip-pools}
 
-L’ autorizzazione **[!UICONTROL Manage IP pools]** di alto livello consente agli utenti di creare, modificare ed eliminare la definizione di affinità.
+La **[!UICONTROL Manage IP pools]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare la definizione di affinità.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -331,7 +332,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestisci autorizzazioni impostazioni generali dei messaggi {#manage-message-settings}
 
-L’ **[!UICONTROL Manage messages general settings]** autorizzazione di alto livello consente agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
+La **[!UICONTROL Manage messages general settings]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -344,7 +345,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza messaggi autorizzazione impostazioni generali {#view-message-settings}
 
-L’ **[!UICONTROL View messages general settings]** autorizzazione di alto livello consente agli utenti di visualizzare i messaggi e le impostazioni generali, ad esempio l’indirizzo di esecuzione.
+La **[!UICONTROL View messages general settings]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l’indirizzo di esecuzione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -355,7 +356,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazioni per la gestione dei predefiniti per i messaggi {#manage-message-presets}
 
-L’ **[!UICONTROL Manage messages presets]** autorizzazione di alto livello consente agli utenti di creare, modificare ed eliminare i predefiniti per messaggi tra i diversi canali a livello di sandbox.
+La **[!UICONTROL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare i predefiniti per messaggi tra i diversi canali a livello di sandbox.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -369,7 +370,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione predefiniti per messaggi {#view-message-presets}
 
-L’ **[!UICONTROL View messages presets]** autorizzazione di alto livello consente agli utenti di visualizzare i predefiniti per i messaggi, al fine di sapere quali predefiniti per i messaggi devono essere utilizzati durante la creazione di un messaggio.
+La **[!UICONTROL View messages presets]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i predefiniti per messaggi al fine di sapere quali predefiniti per messaggi utilizzare durante la creazione di un messaggio.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -380,7 +381,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Gestisci autorizzazione di soppressione {#manage-suppression}
 
-L’ **[!UICONTROL Manage suppression]** autorizzazione di alto livello consente agli utenti di definire il numero di messaggi non recapitati prima che un indirizzo e-mail venga aggiunto all’elenco di eliminazione, nonché di aggiungere ed eliminare voci da/verso l’elenco di eliminazione.
+La **[!UICONTROL Manage suppression]** l’autorizzazione di alto livello consente agli utenti di definire il numero di mancati recapiti prima che un indirizzo e-mail venga aggiunto all’elenco di soppressione, nonché di aggiungere ed eliminare voci da/verso l’elenco di soppressione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -392,7 +393,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Visualizza autorizzazione elenco di soppressione {#view-suppresion-list}
 
-L’ autorizzazione di alto livello **[!UICONTROL View suppression list]** consente agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
+La **[!UICONTROL View suppression list]** le autorizzazioni di alto livello consentono agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -404,7 +405,7 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### Autorizzazione per l&#39;esportazione dell&#39;elenco di soppressione {#export-suppression-list}
 
-L’ autorizzazione di alto livello **[!UICONTROL Export suppression list]** consente agli utenti di scaricare l’elenco di soppressione come file CSV.
+La **[!UICONTROL Export suppression list]** le autorizzazioni di alto livello consentono agli utenti di scaricare l’elenco di soppressione come file CSV.
 
 Include le seguenti autorizzazioni di basso livello:
 

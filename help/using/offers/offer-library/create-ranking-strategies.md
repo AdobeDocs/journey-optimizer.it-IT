@@ -24,19 +24,19 @@ ht-degree: 7%
 >
 >L’utilizzo della classificazione basata su IA è attualmente disponibile in accesso anticipato solo per determinati utenti.
 
-Questa funzione ti consente di creare diverse **strategie di classificazione** in base ai tuoi obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione (precedentemente nota come attività di offerta), il sistema di modelli addestrati ti aiuterà a capire come le diverse strategie di classificazione influiscono sui tuoi obiettivi.
+Questa funzione consente di creare **strategie di classificazione** in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione (precedentemente nota come attività di offerta), il sistema di modelli addestrati ti aiuterà a capire come le diverse strategie di classificazione influiscono sui tuoi obiettivi.
 
-Ad esempio, puoi selezionare una strategia di classificazione per il canale e-mail e un’altra per il canale push. Per ogni canale, il sistema di modelli addestrati sfrutterà più punti di dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, invece di prendere in considerazione i punteggi di priorità delle offerte o una formula di classificazione [](create-ranking-formulas.md).
+Ad esempio, puoi selezionare una strategia di classificazione per il canale e-mail e un’altra per il canale push. Per ogni canale, il sistema di modelli addestrati sfrutterà più punti di dati per determinare quale offerta deve essere presentata prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di un [formula di classificazione](create-ranking-formulas.md).
 
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
-Una volta creata una strategia di classificazione, assegnala a un posizionamento in una decisione. Ulteriori informazioni in [Configura la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
+Una volta creata una strategia di classificazione, assegnala a un posizionamento in una decisione. Ulteriori informazioni in [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
 
 ## Creare una strategia di classificazione {#create-ranking-strategy}
 
 Per creare una strategia di classificazione, segui i passaggi seguenti:
 
-1. Accedi al menu **[!UICONTROL Components]**, quindi seleziona la scheda **[!UICONTROL AI rankings]** .
+1. Accedere al **[!UICONTROL Components]** quindi seleziona il **[!UICONTROL AI rankings]** scheda .
 
    ![](../../assets/ai-ranking-list.png)
 
@@ -50,7 +50,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
    * **[!UICONTROL Name]**: Nome univoco da specificare.
 
-   * **[!UICONTROL Model type]**: Attualmente l&#39;unico tipo di modello supportato è  **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: Attualmente l&#39;unico tipo di modello supportato è **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
 
    * **[!UICONTROL Optimization metric]**
 
@@ -64,7 +64,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
       * **[!UICONTROL Impression]**: Al momento gli eventi di impression corrispondono a tutte le offerte visualizzate.
       * **[!UICONTROL Conversion]**: Gli eventi di conversione corrispondono a tutte le offerte che generano clic tramite e-mail o web.
 
-      Tutti gli eventi di impression e/o conversione selezionati verranno acquisiti automaticamente utilizzando l’SDK per web o l’SDK mobile fornito. Per ulteriori informazioni, consulta [Panoramica dell&#39;SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+      Tutti gli eventi di impression e/o conversione selezionati verranno acquisiti automaticamente utilizzando l’SDK per web o l’SDK mobile fornito. Ulteriori informazioni su questo in [Panoramica di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
    * **[!UICONTROL Dataset ID]**: Per le conversioni, devi fornire un set di dati in cui vengono raccolti gli eventi selezionandolo dall’elenco a discesa. Scopri come creare tale set di dati in [questa sezione](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -72,7 +72,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
    >[!CAUTION]
    >
-   >Nell’elenco a discesa vengono visualizzati solo i set di dati creati dagli schemi associati al gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** (precedentemente denominato mixin).
+   >Solo i set di dati creati dagli schemi associati alla **[!UICONTROL Experience Event - Proposition Interactions]** i gruppi di campi (precedentemente noti come mixin) vengono visualizzati nell’elenco a discesa.
 
 1. Salva e attiva la strategia di classificazione.
 
@@ -84,7 +84,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
 Devi creare un set di dati in cui verranno raccolti gli eventi di conversione. Inizia creando lo schema che verrà utilizzato nel set di dati:
 
-1. Dal menu **[!UICONTROL Data Management]**, seleziona **[!UICONTROL Schema]**, vai alla scheda **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create schema]**.
+1. Da **[!UICONTROL Data Management]** menu, seleziona **[!UICONTROL Schema]**, vai al **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create schema]**.
 
    ![](../../assets/ai-ranking-create-schema.png)
 
@@ -94,16 +94,16 @@ Devi creare un set di dati in cui verranno raccolti gli eventi di conversione. I
 
    >[!NOTE]
    >
-   >    Ulteriori informazioni sugli schemi XDM e sui gruppi di campi nella [documentazione panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
+   >    Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella sezione [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
 
-1. Nel campo **[!UICONTROL Search]**, digita &quot;interazione di proposizione&quot; e seleziona il gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]**.
+1. In **[!UICONTROL Search]** digitare &quot;proposition Interposition&quot; e selezionare il campo **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi.
 
    ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >    Allo schema che verrà utilizzato nel set di dati deve essere associato il gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** . In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
+   >    Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi associato. In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
 
 1. Fai clic su **[!UICONTROL Add field groups]**.
 
@@ -117,11 +117,11 @@ Devi creare un set di dati in cui verranno raccolti gli eventi di conversione. I
 
 >[!NOTE]
 >
->    Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>    Ulteriori informazioni sulla creazione degli schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
 
 Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 
-1. Dal menu **[!UICONTROL Data Management]**, seleziona **[!UICONTROL Datasets]**, vai alla scheda **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create dataset]**.
+1. Da **[!UICONTROL Data Management]** menu, seleziona **[!UICONTROL Datasets]**, vai al **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create dataset]**.
 
    ![](../../assets/ai-ranking-create-dataset.png)
 
@@ -135,11 +135,11 @@ Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la pr
 
 1. Fai clic su **[!UICONTROL Next]**.
 
-1. Immetti un nome univoco per il set di dati nel campo **[!UICONTROL Name]** e fai clic su **[!UICONTROL Finish]**.
+1. Immetti un nome univoco per il set di dati nel **[!UICONTROL Name]** campo e fai clic su **[!UICONTROL Finish]**.
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-Il set di dati è ora pronto per essere selezionato per raccogliere eventi di conversione quando [crei una strategia di classificazione](#create-ranking-strategy).
+Il set di dati è ora pronto per essere selezionato per raccogliere eventi di conversione quando [creazione di una strategia di classificazione](#create-ranking-strategy).
 
 <!--## Using a ranking strategy {#using-ranking}
 

@@ -17,9 +17,9 @@ ht-degree: 1%
 
 ## Informazioni sulla classificazione delle formule {#about-ranking-formulas}
 
-**Le** formule di classificazione consentono di definire regole che determinano quale offerta deve essere presentata prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte.
+**Classificazione delle formule** ti consente di definire regole che determinano quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte.
 
-Le formule di classificazione sono espresse in **sintassi PQL** e possono sfruttare gli attributi di profilo, i dati contestuali e gli attributi di offerta. Per ulteriori informazioni su come utilizzare la sintassi PQL, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
+Le formule di classificazione sono espresse in **Sintassi PQL** e può sfruttare gli attributi del profilo, i dati contestuali e gli attributi dell’offerta. Per ulteriori informazioni su come utilizzare la sintassi PQL, consulta [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
 Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione (precedentemente nota come attività di offerta). Per ulteriori informazioni, consulta [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
 
@@ -27,23 +27,23 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 Per creare una formula di classificazione, segui i passaggi seguenti:
 
-1. Accedi al menu **[!UICONTROL Components]**, quindi seleziona la scheda **[!UICONTROL Rankings]** . Viene visualizzato l’elenco delle classificazioni create in precedenza.
+1. Accedere al **[!UICONTROL Components]** quindi seleziona il **[!UICONTROL Rankings]** scheda . Viene visualizzato l’elenco delle classificazioni create in precedenza.
 
    ![](../../assets/rankings-list.png)
 
-1. Fare clic su **[!UICONTROL Create ranking]** per creare una nuova formula di classificazione.
+1. Fai clic su **[!UICONTROL Create ranking]** per creare una nuova formula di classificazione.
 
    ![](../../assets/ranking-create-formula.png)
 
 1. Specificare il nome, la descrizione e la formula della formula di classificazione.
 
-   In questo esempio, vogliamo aumentare la priorità di tutte le offerte con l’attributo &quot;caldo&quot; se il tempo effettivo è caldo. A questo scopo, il **contextData.weather=hot** è stato passato nella chiamata decisionale.
+   In questo esempio, vogliamo aumentare la priorità di tutte le offerte con l’attributo &quot;caldo&quot; se il tempo effettivo è caldo. Per eseguire questa operazione, **contextData.weather=hot** è stato passato nella chiamata decisionale.
 
    ![](../../assets/ranking-syntax.png)
 
 1. Fai clic su **[!UICONTROL Save]**. La formula di classificazione viene creata, è possibile selezionarla dall&#39;elenco per ottenere i dettagli e modificarla o eliminarla.
 
-   È ora pronto per essere utilizzato in una decisione per classificare le offerte idonee per un posizionamento (consulta [Configurare la selezione di offerte nelle decisioni](../offer-activities/configure-offer-selection.md)).
+   È ora pronto per essere utilizzato in una decisione per classificare le offerte idonee per un posizionamento (vedi [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md)).
 
    ![](../../assets/ranking-formula-created.png)
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### Incrementa le offerte con alcuni attributi di offerta in base ai dati contestuali
 
-Incrementa alcune offerte in base ai dati contestuali passati nella chiamata decisionale. Ad esempio, se il `contextData.weather=hot` viene passato nella chiamata decisionale, è necessario aumentare la priorità di tutte le offerte con `attribute=hot`.
+Incrementa alcune offerte in base ai dati contestuali passati nella chiamata decisionale. Ad esempio, se `contextData.weather=hot` viene passato nella chiamata decisionale, la priorità di tutte le offerte con `attribute=hot` devono essere potenziati.
 
 **Formula di classificazione:**
 
@@ -139,9 +139,9 @@ Tieni presente che quando utilizzi l’API decisionale, i dati contestuali vengo
 
 ### Migliora le offerte in base alla propensione dei clienti ad acquistare il prodotto offerto
 
-Se disponiamo di 2 istanze di *CustomerAI* calcolando la propensione all&#39;acquisto di *travelInsurance* e *extraBaggage* per una compagnia aerea, la seguente formula di classificazione aumenterà la priorità (di 50 punti) dell&#39;offerta specifica all&#39;assicurazione o al bagaglio se il punteggio di propensione del cliente per l&#39;acquisto di quel prodotto è superiore a 9 0.
+Se abbiamo 2 istanze di *CustomerAI* calcolo della propensione all&#39;acquisto *travelInsurance* e *extraBaggage* per una compagnia aerea, la seguente formula di classificazione aumenterà la priorità (di 50 punti) dell&#39;offerta specifica per l&#39;assicurazione o il bagaglio se il punteggio di propensione del cliente per l&#39;acquisto di quel prodotto è superiore a 90.
 
-Tuttavia, poiché ogni istanza *CustomerAI* crea un proprio oggetto all&#39;interno dello schema di profilo unificato, non è possibile selezionare in modo dinamico il punteggio in base al tipo di propensione dell&#39;offerta. Pertanto, devi catena le istruzioni `if` per controllare prima il tipo di propensione dell’offerta, quindi estrarre il punteggio dal campo del profilo appropriato.
+Tuttavia, perché *CustomerAI* l’istanza crea un proprio oggetto all’interno dello schema di profilo unificato; non è possibile selezionare in modo dinamico il punteggio in base al tipo di propensione dell’offerta. Così devi catena il `if` istruzioni per controllare innanzitutto il tipo di propensione dell’offerta, quindi estrarre il punteggio dal campo di profilo appropriato.
 
 **Formula di classificazione:**
 
@@ -153,7 +153,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-Una soluzione migliore è quella di memorizzare i punteggi in un array del profilo. L’esempio seguente funziona su una varietà di diversi punteggi di propensione utilizzando solo una semplice formula di classificazione. Ci si aspetta che tu disponga di uno schema di profilo con un array di punteggi. In questo esempio, il tenant dell’istanza è *_salesvelocity* e lo schema del profilo contiene quanto segue:
+Una soluzione migliore è quella di memorizzare i punteggi in un array del profilo. L’esempio seguente funziona su una varietà di diversi punteggi di propensione utilizzando solo una semplice formula di classificazione. Ci si aspetta che tu disponga di uno schema di profilo con un array di punteggi. In questo esempio, il tenant dell’istanza è *_velocità di vendita* e lo schema del profilo contiene quanto segue:
 
 ![](../../assets/ranking-example-schema.png)
 
@@ -181,7 +181,7 @@ Le offerte conterrebbero un attributo per *propensityType* che corrisponde alla 
 
 ![](../../assets/ranking-example-propensityType.png)
 
-La formula di classificazione può quindi impostare la priorità di ogni offerta in modo che sia uguale ai clienti *propensityScore* per quel *propensityType*. Se non viene trovato alcun punteggio, utilizza la priorità statica impostata nell’offerta:
+La formula di classificazione può quindi impostare la priorità di ogni offerta in modo che sia uguale ai clienti *propensityScore* per *propensityType*. Se non viene trovato alcun punteggio, utilizza la priorità statica impostata nell’offerta:
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

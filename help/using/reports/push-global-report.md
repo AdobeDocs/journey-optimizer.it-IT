@@ -2,29 +2,30 @@
 title: Report globale notifiche push
 description: Scopri come utilizzare i dati del rapporto globale delle notifiche push
 feature: Reporting
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
 
-# Report globale push {#push-global-report}
+# Rapporto globale delle notifiche push {#push-global-report}
 
-Il push **[!UICONTROL Global report]** esegue il targeting di una sola consegna push specifica.
+La spinta **[!UICONTROL Global report]** esegue solo il targeting di una consegna push specifica.
 
-Dalla scheda **[!UICONTROL Executions]** del menu **[!UICONTROL Messages]** , seleziona **[!UICONTROL Global view]** , quindi dal menu avanzato della consegna selezionata seleziona **[!UICONTROL Global report]**.
+Da **[!UICONTROL Executions]** della scheda **[!UICONTROL Messages]** menu, seleziona **[!UICONTROL Global view]** dal menu avanzato della consegna selezionata, seleziona **[!UICONTROL Global report]**.
 
 ![](../assets/global_report_11.png)
 
-Il push **[!UICONTROL Global report]** è suddiviso in diversi widget che ne descrivono il successo e gli errori. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](global-report.md#modify-dashboard).
+La spinta **[!UICONTROL Global report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della consegna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](global-report.md#modify-dashboard).
 
 ![](../assets/push_global_report.png)
 
-Il widget **[!UICONTROL Push notification performance]** descrive le informazioni principali relative alle notifiche push con KPI:
+La **[!UICONTROL Push notification performance]** widget fornisce informazioni principali relative alle notifiche push con KPI:
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -36,7 +37,7 @@ Il widget **[!UICONTROL Push notification performance]** descrive le informazion
 
 * **[!UICONTROL Engagement Rate]**: Percentuale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
 
-Il grafico **[!UICONTROL Push notification summary]** contiene i dati disponibili per le notifiche push inviate, ad esempio:
+La **[!UICONTROL Push notification summary]** Il grafico contiene i dati disponibili per le notifiche push inviate, ad esempio:
 
 * **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
 
@@ -48,8 +49,8 @@ Il grafico **[!UICONTROL Push notification summary]** contiene i dati disponibil
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
 ![](../assets/push_global_report_2.png)
 
-I grafici e le tabelle **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** descrivono in dettaglio il successo della notifica push in base al sistema operativo del destinatario.
+La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono il successo della notifica push in base al sistema operativo del destinatario.

@@ -1,5 +1,5 @@
 ---
-title: Track your messages
+title: Tracciare i messaggi
 description: Scopri come aggiungere collegamenti e tenere traccia dei messaggi inviati
 feature: Monitoring
 topic: Content Management
@@ -19,7 +19,7 @@ Utilizzo [!DNL Journey Optimizer] aggiungere collegamenti al contenuto e tenere 
 
 ## Abilita tracciamento {#enable-tracking}
 
-You can enable tracking at the email message level by checking the **[!UICONTROL Open Tracking for email]** and/or **[!UICONTROL Click Tracking for email]** options when [creating your message](create-message.md).
+Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Open Tracking for email]** e/o **[!UICONTROL Click Tracking for email]** opzioni quando [creazione del messaggio](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -106,10 +106,10 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
    ![](assets/message-tracking-opt-out-level.png)
 
    * **[!UICONTROL Channel]**: La rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se più destinazioni sono associate a un profilo, la rinuncia si applica a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
-   * **[!UICONTROL Identity]**: The opt-out applies to future messages sent to the specific target (i.e. email address) being used for the current message.
+   * **[!UICONTROL Identity]**: La rinuncia si applica ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
    * **[!UICONTROL Subscription]**: La rinuncia si applica ai messaggi futuri associati a un elenco di sottoscrizione specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di sottoscrizioni.
 
-1. Enter the URL of the landing page where the user will be redirected once unsubscribed. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
+1. Immetti l’URL della pagina di destinazione in cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -140,9 +140,9 @@ La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
 
    * **[!UICONTROL Tracked]**: Attiva il tracciamento su questo URL.
    * **[!UICONTROL Opt out]**: Considera questo URL come un URL di rinuncia o di annullamento dell’abbonamento.
-   * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
+   * **[!UICONTROL Mirror page]**: Considera questo URL come un URL della pagina speculare.
    * **[!UICONTROL Never]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-The number of messages that have been opened and the number of links that have been clicked are listed in the [Executions tab](message-monitoring.md).
+Il numero di messaggi aperti e il numero di collegamenti su cui è stato fatto clic sono elencati nella [Scheda Esecuzioni](message-monitoring.md).
 
-Reporting on openings and clicks is available in the [Email Live report](reports/email-live-report.md) and in the [Email Global report](reports/email-global-report.md).
+Il reporting su aperture e clic è disponibile nella [Report dal vivo e-mail](reports/email-live-report.md) e [Report globale e-mail](reports/email-global-report.md).

@@ -1,20 +1,21 @@
 ---
 title: Eliminare un’offerta di fallback
 description: Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '153'
 ht-degree: 9%
 
 ---
 
 # Eliminare un’offerta di fallback
 
-A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. È possibile eliminare solo le offerte di fallback create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE all’ API [!DNL Offer Library] utilizzando l’ID $ dell’offerta di fallback che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. È possibile eliminare solo le offerte di fallback create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
 
 **Formato API**
 
@@ -44,4 +45,4 @@ curl -X DELETE \
 
 Una risposta corretta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) all’offerta di fallback. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché l’offerta di fallback è stata rimossa dal contenitore.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) all’offerta di fallback. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere lo stato HTTP 404 (Non trovato) perché l’offerta di fallback è stata rimossa dal contenitore.

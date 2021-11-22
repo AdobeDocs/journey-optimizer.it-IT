@@ -2,13 +2,14 @@
 solution: Journey Orchestration
 title: Informazioni sulle azioni
 description: Informazioni su come configurare un’azione
-feature: Azioni
-topic: Amministrazione
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 68%
 
 ---
@@ -34,8 +35,8 @@ Le azioni personalizzate ti consentono di configurare la connessione di un siste
 >
 >La configurazione delle azioni personalizzate deve essere eseguita da un **utente tecnico**.
 
-Le azioni sono disponibili nella palette a sinistra del percorso, nella categoria **[!UICONTROL Action]** . Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le azioni sono disponibili nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Per visualizzare l’elenco delle azioni o configurare una nuova azione, seleziona **[!UICONTROL Configurations]** nella sezione del menu AMMINISTRAZIONE . Nella sezione **[!UICONTROL Actions]**, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Per ulteriori informazioni sull&#39;interfaccia, consulta [questa pagina](../user-interface.md) .
+Per visualizzare l’elenco delle azioni o configurarne una nuova, seleziona **[!UICONTROL Configurations]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../user-interface.md) per ulteriori informazioni sull’interfaccia.
 
 ![](../assets/custom1.png)

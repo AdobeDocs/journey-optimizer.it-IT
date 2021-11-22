@@ -2,26 +2,27 @@
 title: Report live
 description: Scopri come utilizzare i dati dal rapporto live
 feature: Reporting
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '224'
+ht-degree: 0%
 
 ---
 
-# Guida introduttiva al rapporto live {#live-report}
+# Guida introduttiva a Live Report {#live-report}
 
-Utilizza **[!UICONTROL Live report]** per misurare e visualizzare in tempo reale l’impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in un dashboard integrato.
-I dati sono disponibili in **[!UICONTROL Live report]** non appena la consegna viene inviata o il percorso viene eseguito.
+Utilizza la **[!UICONTROL Live report]** per misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi e dei messaggi in un dashboard integrato.
+I dati sono disponibili nella **[!UICONTROL Live report]** non appena la consegna viene inviata o il percorso viene eseguito.
 
-* Per eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal menu **[!UICONTROL Journeys]** accedi al percorso e fai clic sull’icona **[!UICONTROL Live report]** . Puoi quindi trovare i rapporti dal vivo Percorso, E-mail e push.
+* Se desideri eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal **[!UICONTROL Journeys]** accedere al percorso e fare clic su **[!UICONTROL Live report]** icona. Puoi quindi trovare i rapporti dal vivo Percorso, E-mail e push.
 
    ![](../assets/report_journey.png)
 
-* Se desideri eseguire il targeting di una consegna specifica, dalla scheda **[!UICONTROL Live view]** della sezione **[!UICONTROL Executions]** dei messaggi, seleziona **[!UICONTROL Live Report]** dal menu avanzato della consegna selezionata.
+* Se desideri eseguire il targeting di una consegna specifica, dalla **[!UICONTROL Live view]** del **[!UICONTROL Executions]** scheda dei messaggi, seleziona **[!UICONTROL Live Report]** dal menu avanzato della consegna selezionata.
 
    ![](../assets/report_2.png)
 
@@ -37,10 +38,10 @@ Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo 
 
    ![](../assets/report_modify_2.png)
 
-1. Fai clic su **[!UICONTROL Remove]** per rimuovere altri widget che non è necessario tracciare i rimbalzi.
+1. Fai clic su **[!UICONTROL Remove]** per rimuovere altri widget che non è necessario tenere traccia dei rimbalzi.
 
    ![](../assets/report_modify_3.png)
 
-1. Una volta soddisfatti l&#39;ordine di visualizzazione e le dimensioni dei widget, fai clic su **[!UICONTROL Save]**.
+1. Una volta soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Save]**.
 
-Il dashboard viene ora salvato. Le diverse modifiche verranno applicate nuovamente per un utilizzo successivo dei rapporti live. Se necessario, utilizza l’opzione **[!UICONTROL Reset]** per ripristinare l’ordine predefinito dei widget e dei widget.
+Il dashboard viene ora salvato. Le diverse modifiche verranno applicate nuovamente per un utilizzo successivo dei rapporti live. Se necessario, utilizza le **[!UICONTROL Reset]** per ripristinare l&#39;ordine predefinito dei widget e dei widget.

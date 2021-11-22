@@ -1,14 +1,15 @@
 ---
 title: Importare o codificare le e-mail
 description: Scopri come importare contenuti e-mail o codificare le e-mail
-feature: Panoramica
-topic: Gestione dei contenuti
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 10%
+source-wordcount: '337'
+ht-degree: 9%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 10%
 
 Journey Optimizer consente di importare contenuti HTML esistenti per progettare le e-mail. Questo contenuto può essere un codice HTML o contenuto non elaborato proveniente da un file HTML esistente o da una cartella zip.
 
-Per codificare il contenuto HTML o importare il contenuto esistente, effettua le seguenti operazioni:
+Per codificare il contenuto di HTML o importarlo, effettua le seguenti operazioni:
 
 1. [Creare un messaggio ](create-message.md)
 
-1. Apri **[!UICONTROL Email Designer]** dalla sezione **[!UICONTROL Edit Content]** .
+1. Apri **[!UICONTROL Email Designer]** dal **[!UICONTROL Edit Content]** sezione .
 
    ![](assets/import-html_1.png)
 
@@ -28,19 +29,19 @@ Per codificare il contenuto HTML o importare il contenuto esistente, effettua le
 
 ## Codice personalizzato {#import-raw-html-code}
 
-Utilizza la modalità **[!UICONTROL Code your own]** per importare codice HTML non elaborato e/o il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+Utilizza la **[!UICONTROL Code your own]** per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
 
 >[!CAUTION]
 >
-> Non è possibile fare riferimento alle immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md) quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
+> Immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md) impossibile fare riferimento quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
 
-1. Nella home page di E-mail Designer, selezionare **[!UICONTROL Code your own]**.
+1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Code your own]**.
 
    ![](assets/code-your-own.png)
 
-1. Immetti o incolla il tuo codice HTML non elaborato.
+1. Immetti o incolla il codice HTML non elaborato.
 
-1. Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione [!DNL Journey Optimizer]. Per ulteriori informazioni al riguardo, consulta [questa sezione](personalization/personalize.md).
+1. Utilizza il riquadro a sinistra per sfruttare [!DNL Journey Optimizer] funzionalità di personalizzazione. Per ulteriori informazioni al riguardo, consulta [questa sezione](personalization/personalize.md).
 
    ![](assets/code-editor.png)
 
@@ -52,16 +53,16 @@ Utilizza la modalità **[!UICONTROL Code your own]** per importare codice HTML n
 
    ![](assets/code-editor-preview.png)
 
-1. Quando il codice è pronto, fai clic su **[!UICONTROL Save]**, quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
+1. Quando il codice è pronto, fai clic su **[!UICONTROL Save]** quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
 
    ![](assets/code-editor-save.png)
 
 ## Importa HTML {#import-html-content-from-file}
 
-È possibile importare contenuti HTML nella finestra di progettazione e-mail. Questo contenuto può essere:
+È possibile importare contenuto HTML nella finestra di progettazione e-mail. Questo contenuto può essere:
 
 * Un **file HTML** con un foglio di stile incorporato,
-* Una cartella **.zip** con il file HTML, il foglio di stile (.css) e le immagini.
+* A **Cartella .zip** con il file HTML, il foglio di stile (.css) e le immagini.
 
    >[!NOTE]
    >
@@ -69,12 +70,12 @@ Utilizza la modalità **[!UICONTROL Code your own]** per importare codice HTML n
 
 Per importare un file contenente contenuto HTML, effettua le seguenti operazioni:
 
-1. Nella home page di E-mail Designer, selezionare **[!UICONTROL Import HTML]**.
+1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Import HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Trascina e rilascia il file HTML o .zip contenente il contenuto HTML.
+1. Trascina e rilascia il file HTML o .zip contenente il contenuto di HTML.
 
-1. Una volta caricato il contenuto HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni](create-email-content.md).
+1. Una volta caricato il contenuto di HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni](create-email-content.md).
 
    ![](assets/html-imported.png)

@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b18f009a3c907649fd1e0261ffc7cfcc5acaef4
+exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 10%
+source-wordcount: '300'
+ht-degree: 6%
 
 ---
 
@@ -24,13 +25,13 @@ Il riquadro di configurazione dell’attività mostra i parametri di configurazi
 
 ### Percorso dinamico
 
-Se l’URL include un percorso dinamico, specifica il percorso nel campo **[!UICONTROL Path]** .
+Se l’URL include un percorso dinamico, specifica il percorso nel **[!UICONTROL Path]** campo .
 
 >[!NOTE]
 >
 >Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
-Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html?lang=it){target=&quot;_blank&quot;}.
+Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Ulteriori informazioni](expression/expressionadvanced.md).
 
 Questa tabella mostra un esempio di configurazione:
 
@@ -41,18 +42,18 @@ Questa tabella mostra un esempio di configurazione:
 
 L’URL concatenato ha questo modulo:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Intestazioni
 
-La sezione **[!UICONTROL URL Configuration]** mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+La **[!UICONTROL URL Configuration]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
 Se necessario, specifica il valore dei campi di intestazione dinamici:
 
 1. Seleziona l’azione personalizzata nel percorso.
-1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo intestazione nella sezione **[!UICONTROL URL Configuration]** .
+1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL URL Configuration]** sezione .
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -60,7 +61,7 @@ Se necessario, specifica il valore dei campi di intestazione dinamici:
 
 ## Parametri azione
 
-Nella sezione **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variable&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Consulta la [documentazione del Journey Orchestration di Adobe](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}.
+In **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Vedi [Documentazione di Adobe Journey Orchestration](expression/expressionadvanced.md).
 
 **Argomenti correlati**
 

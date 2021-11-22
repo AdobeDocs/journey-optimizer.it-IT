@@ -18,7 +18,7 @@ ht-degree: 7%
 
 Le autorizzazioni per accedere e utilizzare le funzionalità di offer decisioning vengono gestite utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Per concedere l&#39;accesso alla funzionalità Gestione delle decisioni , devi creare un **[!UICONTROL Product profile]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Ulteriori informazioni sulla gestione di [!DNL Journey Optimizer] utenti e autorizzazioni in [questa sezione](../../administration/permissions.md).
+Per concedere l&#39;accesso alla funzionalità Gestione delle decisioni, devi creare un **[!UICONTROL Product profile]** e assegna le autorizzazioni corrispondenti ai tuoi utenti. Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] utenti e autorizzazioni in [questa sezione](../../administration/permissions.md).
 
 Le autorizzazioni specifiche di Gestione delle decisioni sono elencate in [questa sezione](../../administration/high-low-permissions.md#manage-decisioning).
 
@@ -34,7 +34,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    <!--![](../../assets/offers_admin_console.png)-->
 
-1. Vengono visualizzati i profili di prodotto del servizio. Per creare un nuovo profilo di prodotto, fai clic sul pulsante **[!UICONTROL New Profile]** .
+1. Vengono visualizzati i profili di prodotto del servizio. Per creare un nuovo profilo di prodotto, fai clic sul pulsante **[!UICONTROL New Profile]** pulsante .
 
    ![](../../assets/offers_rights_productprofile.png)
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. Nella sezione **[!UICONTROL Decision Management]**, fai clic sul pulsante **+** per assegnare le autorizzazioni al profilo di prodotto, quindi fai clic su **[!UICONTROL Save]**.
+1. In **[!UICONTROL Decision Management]** fai clic sulla sezione **+** per assegnare le autorizzazioni al profilo di prodotto, quindi fai clic su **[!UICONTROL Save]**.
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->Per ulteriori dettagli su come gestire le autorizzazioni degli utenti, consulta la [documentazione di Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+>Per ulteriori dettagli su come gestire le autorizzazioni degli utenti, consulta la [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 

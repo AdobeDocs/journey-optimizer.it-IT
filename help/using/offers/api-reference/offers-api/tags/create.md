@@ -1,24 +1,25 @@
 ---
-title: Creare tag
+title: Creare i tag
 description: I tag consentono di organizzare e ordinare meglio le offerte.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 11%
 
 ---
 
 # Creare un tag
 
-Puoi creare un tag effettuando una richiesta POST all’ API [!DNL Offer Library] e fornendo al contempo l’ID del contenitore.
+Puoi creare un tag effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
 
 ## Intestazioni Accept e Content-Type
 
-La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
+Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -54,7 +55,7 @@ curl -X POST \
 
 **Risposta**
 
-Una risposta corretta restituisce informazioni sul tag appena creato, compreso l’ID univoco dell’istanza e il posizionamento `@id`. Puoi utilizzare l’ID istanza in passaggi successivi per aggiornare o eliminare il tag. Puoi utilizzare il tag univoco `@id` nelle esercitazioni successive per creare raccolte e offerte personalizzate.
+Una risposta corretta restituisce informazioni sul tag appena creato, compreso l’ID univoco dell’istanza e il posizionamento `@id`. Puoi utilizzare l’ID istanza in passaggi successivi per aggiornare o eliminare il tag. Puoi usare il tag univoco `@id` in esercitazioni successive per creare raccolte e offerte personalizzate.
 
 ```json
 {

@@ -1,18 +1,19 @@
 ---
-title: Creare posizionamenti
+title: Creare i posizionamenti
 description: Scopri come creare posizionamenti in Adobe Experience Platform.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 15%
+source-wordcount: '215'
+ht-degree: 14%
 
 ---
 
-# Creare posizionamenti {#creating-placements}
+# Creare i posizionamenti {#creating-placements}
 
 Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
@@ -22,7 +23,7 @@ Nell’esempio seguente sono presenti tre posizioni, corrispondenti a diversi ti
 
 ![](../../assets/offers_placement_schema.png)
 
-L’elenco dei posizionamenti è accessibile nel menu **[!UICONTROL Components]** . Sono disponibili filtri per recuperare i posizionamenti in base a un canale o contenuto specifico.
+L’elenco dei posizionamenti è accessibile nella **[!UICONTROL Components]** menu. Sono disponibili filtri per recuperare i posizionamenti in base a un canale o contenuto specifico.
 
 ![](../../assets/placements_filter.png)
 
@@ -36,7 +37,7 @@ Per creare un posizionamento, effettua le seguenti operazioni:
 
    * **[!UICONTROL Name]**: Nome del posizionamento. Assicurati di definire un nome significativo per recuperarlo più facilmente.
    * **[!UICONTROL Channel type]**: Canale per il quale verrà utilizzato il posizionamento.
-   * **[!UICONTROL Content type]**: Il tipo di contenuto che il posizionamento può visualizzare: Collegamento testo, HTML o immagine.
+   * **[!UICONTROL Content type]**: Il tipo di contenuto che il posizionamento può visualizzare: Collegamento a testo, HTML o immagine.
    * **[!UICONTROL Description]**: Una descrizione del posizionamento (facoltativo).
 
    ![](../../assets/offers_placement_creation_properties.png)

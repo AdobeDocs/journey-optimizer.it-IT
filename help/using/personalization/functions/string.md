@@ -1,13 +1,14 @@
 ---
 title: Libreria di funzioni stringa
 description: Libreria di funzioni stringa
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 7%
 
 ---
@@ -18,7 +19,7 @@ Scopri come utilizzare le funzioni String nell’editor espressioni.
 
 ## Cammello {#camelCase}
 
-La funzione `camelCase` maiuscola la prima lettera di ogni parola di una stringa.
+La `camelCase` la funzione maiuscola la prima lettera di ogni parola di una stringa.
 
 **Formato**
 
@@ -36,7 +37,7 @@ La funzione seguente capitalizza la prima lettera di parola nell&#39;indirizzo d
 
 ## Concat {#concate}
 
-La funzione `concat` combina due stringhe in una.
+La `concat` la funzione combina due stringhe in una.
 
 **Formato**
 
@@ -54,7 +55,7 @@ La funzione seguente combina la città del profilo e il paese in un’unica stri
 
 ## Contains {#contains}
 
-La funzione `contains` viene utilizzata per determinare se una stringa contiene una sottostringa specificata.
+La `contains` viene utilizzata per determinare se una stringa contiene una sottostringa specificata.
 
 **Formato**
 
@@ -84,7 +85,7 @@ La funzione `contains` viene utilizzata per determinare se una stringa contiene 
 
 ## Non contiene{#doesNotContain}
 
-La funzione `doesNotContain` viene utilizzata per determinare se una stringa non contiene una sottostringa specificata.
+La `doesNotContain` viene utilizzata per determinare se una stringa non contiene una sottostringa specificata.
 
 **Formato**
 
@@ -109,7 +110,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se l’i
 
 ## Non termina con{#doesNotEndWith}
 
-La funzione `doesNotEndWith` viene utilizzata per determinare se una stringa non termina con una sottostringa specificata.
+La `doesNotEndWith` viene utilizzata per determinare se una stringa non termina con una sottostringa specificata.
 
 **Formato**
 
@@ -133,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Non inizia con{#doesNotStartWith}
 
-La funzione `doesNotStartWith` viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata.
+La `doesNotStartWith` viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata.
 
 **Formato**
 
@@ -157,7 +158,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Codifica 64{#encode64}
 
-La funzione `encode64` viene utilizzata per codificare una stringa per conservare le informazioni personali (PI) se devono essere incluse, ad esempio, in un URL.
+La `encode64` viene utilizzata per codificare una stringa per conservare le informazioni personali (PI) se devono essere incluse, ad esempio, in un URL.
 
 **Formato**
 
@@ -167,7 +168,7 @@ La funzione `encode64` viene utilizzata per codificare una stringa per conservar
 
 ## Termina con{#endsWith}
 
-La funzione `endsWith` viene utilizzata per determinare se una stringa termina con una sottostringa specificata.
+La `endsWith` viene utilizzata per determinare se una stringa termina con una sottostringa specificata.
 
 **Formato**
 
@@ -192,7 +193,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se l’i
 
 ## È uguale a{#equals}
 
-La funzione `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
+La `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
 
 **Formato**
 
@@ -215,7 +216,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Uguale a Ignore Case{#equalsIgnoreCase}
 
-La funzione `equalsIgnoreCase` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, senza distinzione tra maiuscole e minuscole.
+La `equalsIgnoreCase` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, senza distinzione tra maiuscole e minuscole.
 
 **Formato**
 
@@ -238,7 +239,7 @@ La seguente query determina, senza distinzione tra maiuscole e minuscole, se il 
 
 ## Estrai dominio e-mail {#extractEmailDomain}
 
-La funzione `extractEmailDomain` viene utilizzata per estrarre il dominio di un indirizzo e-mail.
+La `extractEmailDomain` viene utilizzata per estrarre il dominio di un indirizzo e-mail.
 
 **Formato**
 
@@ -256,7 +257,7 @@ La seguente query estrae il dominio e-mail dell’indirizzo e-mail personale.
 
 ## È vuoto {#isEmpty}
 
-La funzione `isEmpty` viene utilizzata per determinare se una stringa è vuota.
+La `isEmpty` viene utilizzata per determinare se una stringa è vuota.
 
 **Formato**
 
@@ -274,7 +275,7 @@ La funzione seguente restituisce &quot;true&quot; se il numero di telefono cellu
 
 ## Taglio a sinistra {#leftTrim}
 
-La funzione `leftTrim` viene utilizzata per rimuovere gli spazi bianchi dall&#39;inizio di una stringa.
+La `leftTrim` viene utilizzata per rimuovere gli spazi vuoti dall&#39;inizio di una stringa.
 
 **Formato**
 
@@ -284,7 +285,7 @@ La funzione `leftTrim` viene utilizzata per rimuovere gli spazi bianchi dall&#39
 
 ## Length {#length}
 
-La funzione `length` viene utilizzata per ottenere il numero di caratteri in una stringa o un&#39;espressione.
+La `length` viene utilizzato per ottenere il numero di caratteri in una stringa o un&#39;espressione.
 
 **Formato**
 
@@ -302,7 +303,7 @@ La funzione seguente restituisce la lunghezza del nome della città del profilo.
 
 ## Simile{#like}
 
-La funzione `like` viene utilizzata per determinare se una stringa corrisponde a un pattern specificato.
+La `like` viene utilizzata per determinare se una stringa corrisponde a un pattern specificato.
 
 **Formato**
 
@@ -317,7 +318,7 @@ La funzione `like` viene utilizzata per determinare se una stringa corrisponde a
 
 **Esempio**
 
-La seguente query recupera tutte le città in cui i profili risiedono contenenti il pattern &quot;es&quot;.
+La seguente query recupera tutte le città in cui i profili vivono contenenti il pattern &quot;es&quot;.
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
@@ -325,7 +326,7 @@ La seguente query recupera tutte le città in cui i profili risiedono contenenti
 
 ## Custodia minuscola{#lower}
 
-La funzione `lowerCase` converte una stringa in lettere minuscole.
+La `lowerCase` converte una stringa in lettere minuscole.
 
 **Sintassi**
 
@@ -343,7 +344,7 @@ Questa funzione converte il nome del profilo in lettere minuscole.
 
 ## Corrisponde{#matches}
 
-La funzione `matches` viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare. Fare riferimento a [questo documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) per ulteriori informazioni sui pattern corrispondenti nelle espressioni regolari.
+La `matches` viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare. Fai riferimento a [presente documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) per ulteriori informazioni sui pattern di corrispondenza nelle espressioni regolari.
 
 **Formato**
 
@@ -361,7 +362,7 @@ La seguente query determina, senza distinzione tra maiuscole e minuscole, se il 
 
 ## Non uguale a{#notEqualTo}
 
-La funzione `notEqualTo` viene utilizzata per determinare se una stringa non è uguale alla stringa specificata.
+La `notEqualTo` viene utilizzata per determinare se una stringa non è uguale alla stringa specificata.
 
 **Formato**
 
@@ -384,7 +385,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Gruppo di espressioni regolari{#regexGroup}
 
-La funzione `Group` viene utilizzata per estrarre informazioni specifiche, in base all&#39;espressione regolare fornita.
+La `Group` viene utilizzata per estrarre informazioni specifiche, in base all&#39;espressione regolare fornita.
 
 **Formato**
 
@@ -406,9 +407,9 @@ La seguente query viene utilizzata per estrarre il nome di dominio da un indiriz
 {%= regexGroup(emailAddress,"@(\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## Sostituisci {#replace}
 
-La funzione `replace` viene utilizzata per sostituire una stringa secondaria specificata in una stringa con un&#39;altra sottostringa.
+La `replace` viene utilizzata per sostituire una stringa secondaria specificata in una stringa con un&#39;altra sottostringa.
 
 **Formato**
 
@@ -427,7 +428,7 @@ La seguente funzione .
 
 ## Sostituisci tutto{#replaceAll}
 
-La funzione `replaceAll` viene utilizzata per sostituire tutte le sottostringhe di un testo che corrisponde a &quot;target&quot; con la stringa letterale di &quot;sostituzione&quot; specificata. La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
+La `replaceAll` viene utilizzata per sostituire tutte le sottostringhe di un testo che corrisponde alla stringa &quot;target&quot; con la stringa letterale di &quot;sostituzione&quot; specificata. La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 **Formato**
 
@@ -438,7 +439,7 @@ La funzione `replaceAll` viene utilizzata per sostituire tutte le sottostringhe 
 
 ## Taglio a destra {#rightTrim}
 
-La funzione `rightTrim` viene utilizzata per rimuovere gli spazi bianchi dall&#39;estremità di una stringa.
+La `rightTrim` viene utilizzata per rimuovere gli spazi bianchi dall&#39;estremità di una stringa.
 
 
 **Formato**
@@ -449,7 +450,7 @@ La funzione `rightTrim` viene utilizzata per rimuovere gli spazi bianchi dall&#3
 
 ## Dividere {#split}
 
-La funzione `split` viene utilizzata per dividere una stringa per un carattere specificato.
+La `split` viene utilizzata per dividere una stringa in base a un carattere specificato.
 
 **Formato**
 
@@ -470,7 +471,7 @@ The following function .
 
 ## Inizia con{#startsWith}
 
-La funzione `startsWith` viene utilizzata per determinare se una stringa inizia con una sottostringa specificata.
+La `startsWith` viene utilizzata per determinare se una stringa inizia con una sottostringa specificata.
 
 **Formato**
 
@@ -494,7 +495,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Caso del titolo{#titleCase}
 
-La funzione **titleCase** viene utilizzata per utilizzare le lettere iniziali di ciascuna parola di una stringa come maiuscole.
+La **titleCase** viene utilizzata per utilizzare le lettere iniziali di ogni parola di una stringa.
 
 **Sintassi**
 
@@ -512,7 +513,7 @@ Se la persona vive a Washington High Street, questa funzione restituirà Washing
 
 ## Rifila{#trim}
 
-La funzione **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e dalla fine di una stringa.
+La **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e alla fine di una stringa.
 
 **Sintassi**
 
@@ -522,7 +523,7 @@ La funzione **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e dalla fin
 
 ## Caso superiore{#upper}
 
-La funzione **upperCase** converte una stringa in lettere maiuscole.
+La **UpCase** converte una stringa in lettere maiuscole.
 
 **Sintassi**
 

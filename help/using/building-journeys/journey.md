@@ -2,13 +2,14 @@
 title: Principio generale
 description: Principio generale
 feature: Journeys
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 7%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 
@@ -18,10 +19,10 @@ ht-degree: 7%
 
 Progetta scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
-* Invia messaggi in tempo reale **unitari** attivati quando viene ricevuto un evento, o **in batch** utilizzando i segmenti Adobe Experience Platform.
+* Invia in tempo reale **messaggi unitari** attivato quando viene ricevuto un evento, oppure **in batch** utilizzo di segmenti Adobe Experience Platform.
 
-* Sfrutta i dati contestuali **da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.**
+* Sfruttamento **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
 
-* Utilizza l’ **azione incorporata** per inviare messaggi progettati in [!DNL Journey Optimizer] o crea **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
+* Utilizza la **azione integrata** per l’invio di messaggi progettati in [!DNL Journey Optimizer] o creare **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
 
-* Con **Progettazione percorsi**, crea i tuoi casi d&#39;uso a più passaggi: trascina e rilascia facilmente un evento di partecipazione o un’attività di segmento letto, aggiungi condizioni e invia messaggi personalizzati.
+* Con la **Progettazione percorsi**, genera i casi di utilizzo con più passaggi: trascina e rilascia facilmente un evento di partecipazione o un’attività di segmento letto, aggiungi condizioni e invia messaggi personalizzati.

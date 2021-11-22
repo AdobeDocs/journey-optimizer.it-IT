@@ -2,13 +2,13 @@
 title: Guida introduttiva di Journey Optimizer per gli addetti al marketing
 description: In qualità di Percorso professionista, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 8%
 
 ---
-
 
 # Introduzione per gli addetti al marketing
 
@@ -51,4 +51,3 @@ Consulta le sezioni seguenti per configurare il primo percorso, aggiungere offer
    Scopri come progettare ed eseguire percorsi [in questa sezione](../building-journeys/journey-gs.md)
 
 1. **Monitorare messaggi e percorsi**. Per verificare che i messaggi siano correttamente eseguiti, inviati e consegnati, [!DNL Journey Optimizer] offre funzionalità per monitorare i messaggi attualmente pubblicati e attivati. Scopri come monitorare le prestazioni [in questa sezione](../message-monitoring.md).
-

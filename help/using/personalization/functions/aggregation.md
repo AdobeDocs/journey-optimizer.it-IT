@@ -1,14 +1,15 @@
 ---
 title: Libreria di funzioni di aggregazione
 description: Libreria di funzioni di aggregazione
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 9%
+source-wordcount: '157'
+ht-degree: 8%
 
 ---
 
@@ -18,7 +19,7 @@ Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per f
 
 ## Conteggio{#count}
 
-La funzione `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
+La `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
 
 **Formato**
 
@@ -36,7 +37,7 @@ L&#39;operazione seguente restituisce il numero di ordini nell&#39;array.
 
 ## Somma{#sum}
 
-La funzione `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
+La `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
 
 **Formato**
 
@@ -54,7 +55,7 @@ L&#39;operazione seguente restituisce la somma di tutti i prezzi degli ordini.
 
 ## Medio{#average}
 
-La funzione `average` restituisce la media aritmetica di tutti i valori selezionati all&#39;interno della matrice.
+La `average` restituisce la media aritmetica di tutti i valori selezionati all&#39;interno dell&#39;array.
 
 **Formato**
 
@@ -72,7 +73,7 @@ L&#39;operazione seguente restituisce il prezzo medio di tutti gli ordini.
 
 ## Minimo{#min}
 
-La funzione `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno dell&#39;array.
+La `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno della matrice.
 
 **Formato**
 
@@ -90,7 +91,7 @@ L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
 
 ## Massimo{#max}
 
-La funzione `max` restituisce il valore più grande tra tutti i valori selezionati all&#39;interno dell&#39;array.
+La `max` restituisce il valore più grande tra tutti i valori selezionati all&#39;interno dell&#39;array.
 
 **Formato**
 

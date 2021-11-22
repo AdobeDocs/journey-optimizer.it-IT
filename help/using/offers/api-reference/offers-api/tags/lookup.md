@@ -1,20 +1,21 @@
 ---
 title: Cercare un tag
 description: I tag consentono di organizzare e ordinare meglio le offerte.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '149'
 ht-degree: 4%
 
 ---
 
 # Cercare un tag
 
-Puoi cercare tag specifici effettuando una richiesta di GET all’ [!DNL Offer Library] API che include il tag `@id` o il nome del tag nel percorso della richiesta.
+Puoi cercare tag specifici effettuando una richiesta di GET al [!DNL Offer Library] API che include il tag `@id` o il nome del tag nel percorso della richiesta.
 
 **Formato API**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano i tag. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | Definisce lo schema associato ai tag. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Una stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:tag:124e147572cd7866` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non possono essere utilizzati insieme | `Holiday sales and promotions` |
+| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:tag:124e147572cd7866` |
+| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Holiday sales and promotions` |
 
 **Richiesta**
 
@@ -44,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del tag, incluse informazioni sull’ID contenitore, l’ID istanza e il tag univoco `@id`.
+Una risposta corretta restituisce i dettagli del tag, comprese informazioni sull’ID contenitore, l’ID istanza e il tag univoco `@id`.
 
 ```json
 {

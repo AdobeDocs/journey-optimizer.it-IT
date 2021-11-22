@@ -5,26 +5,27 @@ feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
+exl-id: f19749c4-d683-4db6-bede-9360b9610eef
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Informazioni sugli schemi ExperienceEvent per gli eventi [!DNL Journey Optimizer]
+# Informazioni sugli schemi ExperienceEvent per [!DNL Journey Optimizer] Eventi
 
 [!DNL Journey Optimizer] Gli eventi sono eventi esperienza XDM che vengono inviati a Adobe Experience Platform tramite Streaming Ingestion.
 
-Di conseguenza, un prerequisito importante per la configurazione degli eventi per [!DNL Journey Optimizer] è che tu abbia familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con la composizione degli schemi XDM Experience Event, nonché con la modalità di streaming dei dati in formato XDM in Adobe Experience Platform.
+Pertanto, un importante prerequisito per la configurazione di eventi per [!DNL Journey Optimizer] L’utente ha familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con le modalità di composizione degli schemi XDM Experience Event, nonché con le modalità di streaming dei dati in formato XDM in Adobe Experience Platform.
 
-## Requisiti dello schema per gli eventi [!DNL Journey Optimizer]
+## Requisiti dello schema per [!DNL Journey Optimizer] Eventi
 
-Il primo passaggio nella configurazione di un evento per [!DNL Journey Optimizer] consiste nell&#39;assicurarsi di disporre di uno schema XDM definito per rappresentare l&#39;evento e di un set di dati creato per registrare le istanze dell&#39;evento in Adobe Experience Platform. Disporre di un set di dati per i tuoi eventi non è strettamente necessario, ma l’invio degli eventi a un set di dati specifico ti consentirà di mantenere la cronologia degli eventi degli utenti per riferimenti e analisi futuri, quindi è sempre una buona idea. Se non disponi già di uno schema e di un set di dati appropriati per l’evento, entrambe le attività possono essere eseguite nell’interfaccia Web di Adobe Experience Platform.
+Il primo passaggio nella configurazione di un evento per [!DNL Journey Optimizer] assicurati di disporre di uno schema XDM definito per rappresentare l’evento e di un set di dati creato per registrare le istanze dell’evento in Adobe Experience Platform. Disporre di un set di dati per i tuoi eventi non è strettamente necessario, ma l’invio degli eventi a un set di dati specifico ti consentirà di mantenere la cronologia degli eventi degli utenti per riferimenti e analisi futuri, quindi è sempre una buona idea. Se non disponi già di uno schema e di un set di dati appropriati per l’evento, entrambe le attività possono essere eseguite nell’interfaccia Web di Adobe Experience Platform.
 
 ![](../assets/schema1.png)
 
-Qualsiasi schema XDM che verrà utilizzato per eventi [!DNL Journey Optimizer] deve soddisfare i seguenti requisiti:
+Qualsiasi schema XDM utilizzato per [!DNL Journey Optimizer] gli eventi devono soddisfare i seguenti requisiti:
 
 * Lo schema deve essere della classe ExperienceEvent XDM.
 
@@ -50,7 +51,7 @@ Qualsiasi schema XDM che verrà utilizzato per eventi [!DNL Journey Optimizer] d
 
    ![](../assets/schema8.png)
 
-## Utilizzo delle relazioni tra schemi{#leverage_schema_relationships}
+## Sfruttamento delle relazioni tra schemi{#leverage_schema_relationships}
 
 Adobe Experience Platform ti consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro.
 
@@ -68,14 +69,14 @@ Ecco lo schema di acquisto con la relazione definita nel campo ID prodotto .
 
 >[!NOTE]
 >
->Ulteriori informazioni sulle relazioni dello schema nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
+>Ulteriori informazioni sulle relazioni dello schema nel [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
 In Journey Optimizer puoi quindi sfruttare tutti i campi delle tabelle collegate:
 
-* durante la configurazione di un evento aziendale o unitario, [Ulteriori informazioni](../event/experience-event-schema.md#unitary_event_configuration)
-* quando utilizzi le condizioni in un percorso, [Ulteriori informazioni](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* nella personalizzazione dei messaggi, [Ulteriori informazioni](../event/experience-event-schema.md#message_personalization)
-* in personalizzazione azioni personalizzata, [Ulteriori informazioni](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* durante la configurazione di un evento aziendale o unitario, [Leggi tutto](../event/experience-event-schema.md#unitary_event_configuration)
+* quando si utilizzano condizioni in un percorso, [Leggi tutto](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* nella personalizzazione dei messaggi, [Leggi tutto](../event/experience-event-schema.md#message_personalization)
+* nella personalizzazione personalizzata delle azioni, [Leggi tutto](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Configurazione evento{#unitary_event_configuration}
 
@@ -91,7 +92,7 @@ I campi collegati non sono disponibili:
 * nella formula della chiave evento
 * in condizione id evento (eventi basati su regole)
 
-Per scoprire come configurare un evento unitario, consulta questa [pagina](../event/about-creating.md).
+Per scoprire come configurare un evento unitario, consulta questo [page](../event/about-creating.md).
 
 ### Condizioni di percorso che utilizzano il contesto dell’evento{#journey_conditions_using_event_context}
 
@@ -101,7 +102,7 @@ Aggiungi una condizione in un percorso, modifica l’espressione e apri il nodo 
 
 ![](../assets/schema12.png)
 
-Per informazioni su come definire le condizioni di percorso, consulta questa [pagina](../building-journeys/condition-activity.md).
+Per scoprire come definire le condizioni di percorso, consulta questo [page](../building-journeys/condition-activity.md).
 
 ### Personalizzazione dei messaggi{#message_personalization}
 
@@ -109,7 +110,7 @@ I campi collegati sono disponibili quando si personalizza un messaggio. I campi 
 
 ![](../assets/schema14.png)
 
-Per scoprire come personalizzare un messaggio con informazioni contestuali sul percorso, consulta questa [pagina](../personalization/personalization-use-case.md).
+Per scoprire come personalizzare un messaggio con informazioni sul percorso contestuale, consulta questo [page](../personalization/personalization-use-case.md).
 
 ### Personalizzazione di azioni personalizzata con contesto evento percorso{#custom_action_personalization_with_journey_event_context}
 
@@ -117,4 +118,4 @@ I campi collegati sono disponibili durante la configurazione dei parametri delle
 
 ![](../assets/schema13.png)
 
-Per informazioni su come utilizzare le azioni personalizzate, consulta questa [pagina](../building-journeys/using-custom-actions.md).
+Per informazioni sull’utilizzo delle azioni personalizzate, consulta [page](../building-journeys/using-custom-actions.md).

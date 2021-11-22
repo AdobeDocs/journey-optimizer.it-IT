@@ -2,17 +2,18 @@
 title: Campi comuni degli eventi di journeyStep
 description: Campi comuni degli eventi di journeyStep
 feature: Reporting
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 1%
+source-wordcount: '582'
+ht-degree: 0%
 
 ---
 
-# campi comuni degli eventi journeyStep {#sharing-common-fields}
+# Campi comuni degli eventi di journeyStep {#sharing-common-fields}
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
@@ -81,7 +82,7 @@ Valori possibili:
 
 ## stepStatus
 
-Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell’elaborazione (e all’avvio dell’evento del passaggio).
+Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell’elaborazione (e all’avvio dell’evento step).
 
 Tipo: string
 

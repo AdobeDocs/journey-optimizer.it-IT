@@ -1,20 +1,21 @@
 ---
 title: Cerca una regola decisionale
 description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '170'
 ht-degree: 4%
 
 ---
 
 # Cercare regole decisionali
 
-Puoi cercare una regola decisionale specifica effettuando una richiesta di GET all’ [!DNL Offer Library] API che include la regola decisionale `@id` o il nome della regola decisionale nel percorso della richiesta.
+Puoi cercare una regola decisionale specifica effettuando una richiesta di GET al [!DNL Offer Library] API che include la regola decisionale `@id` o il nome della regola decisionale nel percorso della richiesta.
 
 **Formato API**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le regole di decisione. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Definisce lo schema associato alle regole decisionali. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Una stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. Il parametro s `id` e `name` non può essere utilizzato insieme. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non possono essere utilizzati insieme | `Sales rule` |
+| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. Il parametro s `id` e `name` non possono essere utilizzati insieme. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Sales rule` |
 
 **Richiesta**
 
@@ -44,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli della regola decisionale specifica cercata, incluse informazioni sull&#39;ID contenitore, l&#39;ID istanza e la regola decisionale univoca `@id`.
+Una risposta corretta restituisce i dettagli della regola decisionale specifica cercata, comprese informazioni sull’ID contenitore, l’ID istanza e la regola decisionale univoca `@id`.
 
 ```json
 {

@@ -1,36 +1,37 @@
 ---
-title: Creare raccolte
+title: Creare le raccolte
 description: Scopri come organizzare le offerte utilizzando le raccolte.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
 
-# Creare raccolte {#creating-collections}
+# Creare le raccolte {#creating-collections}
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una collezione &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle raccolte di offerte è accessibile nel menu **[!UICONTROL Offers]** .
+L’elenco delle raccolte di offerte è accessibile nella **[!UICONTROL Offers]** menu.
 
 ![](../../assets/collections_list.png)
 
 Puoi creare due tipi di raccolte:
 
-* **Le** raccolte dinamiche sono raccolte di offerte basate sui tag. Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il tag selezionato, questa verrà aggiunta automaticamente alla raccolta.
+* **Raccolte dinamiche** sono raccolte di offerte basate su tag. Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il tag selezionato, questa verrà aggiunta automaticamente alla raccolta.
 
-* **Le** raccolte statiche sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. È possibile aggiornare la raccolta solo aggiungendo manualmente ulteriori offerte.
+* **Raccolte statiche** sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. È possibile aggiornare la raccolta solo aggiungendo manualmente ulteriori offerte.
 
 Per creare una raccolta, effettua le seguenti operazioni:
 
-1. Vai alla scheda **[!UICONTROL Collections]**, quindi fai clic su **[!UICONTROL Create collection]**.
+1. Vai a **[!UICONTROL Collections]** scheda , quindi fai clic su **[!UICONTROL Create collection]**.
 
 1. Specifica il nome e il tipo di raccolta da creare.
 

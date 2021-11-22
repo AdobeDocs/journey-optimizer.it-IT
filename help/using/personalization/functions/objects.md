@@ -1,14 +1,15 @@
 ---
 title: Libreria di funzioni per oggetti
 description: Libreria di funzioni per oggetti
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 10%
 
 ## È nullo{#isNull}
 
-La funzione `isNull` determina se un riferimento a un oggetto non esiste.
+La `isNull` determina se un riferimento a un oggetto non esiste.
 
 **Formato**
 
@@ -34,7 +35,7 @@ L&#39;operazione seguente verifica se l&#39;indirizzo di origine della persona n
 
 ## Non è Null{#isNotNull}
 
-La funzione `isNotNull` determina se esiste un riferimento a un oggetto.
+La `isNotNull` determina se esiste un riferimento a un oggetto.
 
 **Formato**
 

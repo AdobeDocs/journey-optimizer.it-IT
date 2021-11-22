@@ -1,14 +1,15 @@
 ---
 title: Creare un segmento
 description: Scopri come creare segmenti
-feature: Percorsi
-topic: Gestione dei contenuti
+feature: Journeys
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 6%
+source-wordcount: '301'
+ht-degree: 5%
 
 ---
 
@@ -16,15 +17,15 @@ ht-degree: 6%
 
 In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlanta, San Francisco, o Seattle e sono nati dopo il 1980. Tutti questi clienti avrebbero dovuto aprire l’applicazione Luma entro gli ultimi 7 giorni, quindi effettuare un acquisto entro 2 ore dall’apertura dell’applicazione.
 
-1. Accedi al menu **[!UICONTROL Segments]**, quindi fai clic sul pulsante **[!UICONTROL Create segment]** .
+1. Accedere al **[!UICONTROL Segments]** quindi fai clic sul **[!UICONTROL Create segment]** pulsante .
 
    ![](../assets/create-segment.png)
 
-   La schermata di definizione del segmento ti consente di configurare tutti i campi richiesti per definire il segmento. Scopri come configurare i segmenti nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
+   La schermata di definizione del segmento ti consente di configurare tutti i campi richiesti per definire il segmento. Scopri come configurare i segmenti nel [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
-1. Nel riquadro **[!UICONTROL Segment properties]**, fornisci un nome e una descrizione (facoltativi) per il segmento.
+1. In **[!UICONTROL Segment properties]** Specifica un nome e una descrizione (facoltativi) per il segmento.
 
    ![](../assets/segment-properties.png)
 
@@ -32,11 +33,11 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
    >[!NOTE]
    >
-   >I campi disponibili nel riquadro a sinistra variano a seconda della configurazione degli schemi **XDM Singolo profilo** e **XDM ExperienceEvent** per la tua organizzazione.  Ulteriori informazioni sono disponibili nella documentazione [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
+   >I campi disponibili nel riquadro a sinistra variano a seconda del modo in cui **Profilo individuale XDM** e **ExperienceEvent XDM** Gli schemi sono stati configurati per la tua organizzazione.  Ulteriori informazioni nel [Documentazione di Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
-   In questo esempio, per creare il segmento è necessario basarsi sui campi **Attributi** e **Eventi** :
+   In questo esempio dobbiamo fare affidamento su **Attributi** e **Eventi** campi per creare il segmento:
 
    * **Attributi**: profili che vivono ad Atlanta, San Francisco o Seattle nati dopo il 1980
 
@@ -46,11 +47,11 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
       ![](../assets/add-events.png)
 
-1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il riquadro **[!UICONTROL Segment Properties]** viene aggiornato automaticamente con le informazioni sui profili stimati appartenenti al segmento.
+1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Segment Properties]** viene aggiornato automaticamente con le informazioni sui profili stimati appartenenti al segmento.
 
    ![](../assets/segment-estimate.png)
 
-1. Quando il segmento è pronto, fai clic su **[!UICONTROL Save]**. Viene visualizzato nell’elenco dei segmenti di Adobe Experience Platform. È disponibile una barra di ricerca per facilitare la ricerca di un segmento specifico nell’elenco.
+1. Una volta pronto il segmento, fai clic su **[!UICONTROL Save]**. Viene visualizzato nell’elenco dei segmenti di Adobe Experience Platform. È disponibile una barra di ricerca per facilitare la ricerca di un segmento specifico nell’elenco.
 
 Il segmento può ora essere utilizzato nei percorsi. Per ulteriori informazioni al riguardo, consulta [questa sezione](../segment/about-segments.md).
 

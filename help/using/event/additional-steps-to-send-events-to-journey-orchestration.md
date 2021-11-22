@@ -1,29 +1,30 @@
 ---
 title: Passaggi aggiuntivi per l’invio di eventi a un percorso
 description: Scopri ulteriori passaggi per inviare eventi a un percorso
-feature: Eventi
-topic: Amministrazione
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e0144151-6c54-4656-9650-b544d8e7be16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 4%
+source-wordcount: '294'
+ht-degree: 5%
 
 ---
 
 # Passaggi aggiuntivi per l’invio di eventi {#concept_xrz_n1q_y2b}
 
-Per configurare gli eventi da inviare a **[!UICONTROL Streaming Ingestion APIs]** e da utilizzare in [!DNL Journey Optimizer], segui questi passaggi:
+Per configurare gli eventi a cui inviare **[!UICONTROL Streaming Ingestion APIs]** e da utilizzare in [!DNL Journey Optimizer], segui questi passaggi:
 
-1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni sono disponibili in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
-1. Copia il payload dall’anteprima del payload nel menu **[!UICONTROL Event]** . Per ulteriori informazioni, consulta [questa pagina](../event/about-creating.md#define-the-payload-fields).
+1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target=&quot;_blank&quot;}.
+1. Copia il payload dall’anteprima del payload nel **[!UICONTROL Event]** menu. Per ulteriori informazioni, consulta [questa pagina](../event/about-creating.md#define-the-payload-fields).
 
 Devi quindi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
 
 1. Imposta una chiamata API di POST all’URL delle API Streaming Ingestion (chiamata ingresso).
-1. Utilizza il payload copiato da [!DNL Journey Optimizer] nel corpo (&quot;sezione dati&quot;) della chiamata API alle API Streaming Ingestion. Vedi sotto per un esempio
-1. Stabilisci dove ottenere tutte le variabili presenti nel payload. Esempio: se l’evento deve trasmettere l’indirizzo , il payload incollato mostrerà &quot;indirizzo&quot;: &quot;string&quot;. La &quot;stringa&quot; deve essere sostituita dalla variabile che popolerà automaticamente il valore corretto, l’e-mail della persona a cui inviare un messaggio. Nell’anteprima del payload, nella sezione **[!UICONTROL Header]** verranno compilati automaticamente molti valori che dovrebbero facilitare il lavoro dell’utente.
+1. Utilizzare il payload copiato da [!DNL Journey Optimizer] nel corpo (&quot;sezione dati&quot;) della chiamata API alle API Streaming Ingestion. Vedi sotto per un esempio
+1. Stabilisci dove ottenere tutte le variabili presenti nel payload. Esempio: se l’evento deve trasmettere l’indirizzo , il payload incollato mostrerà &quot;indirizzo&quot;: &quot;string&quot;. La &quot;stringa&quot; deve essere sostituita dalla variabile che popolerà automaticamente il valore corretto, l’e-mail della persona a cui inviare un messaggio. Nell’anteprima del payload, nella sezione **[!UICONTROL Header]** Questa sezione contiene la compilazione automatica di molti valori per facilitare il lavoro.
 1. Seleziona &quot;application/json&quot; come tipo di corpo.
 1. Passa il tuo ID organizzazione IMS nell’intestazione utilizzando la chiave &quot;x-gw-ims-org-id&quot;. Per il valore , utilizza il tuo ID organizzazione IMS (&quot;XXX@AdobeOrg&quot;).
 
@@ -84,6 +85,6 @@ Ecco un esempio di evento API Streaming Ingestion:
 }
 ```
 
-Per facilitare l’identificazione del punto in cui incollare la parte &quot;dati&quot;, puoi utilizzare uno strumento di visualizzazione JSON come [formattatore JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Per facilitare l’identificazione del punto in cui incollare la parte &quot;dati&quot;, puoi utilizzare uno strumento di visualizzazione JSON, ad esempio [Formattatore JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
 
-Per risolvere i problemi relativi alle API Streaming Ingestion, fare riferimento alla [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Per risolvere i problemi relativi alle API Streaming Ingestion, fai riferimento a [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.

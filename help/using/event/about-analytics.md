@@ -1,14 +1,15 @@
 ---
 title: Informazioni sui dati di Adobe Analytics
 description: Scopri come sfruttare i dati di Adobe Analytics
-feature: Eventi
-topic: Amministrazione
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 4%
 
 ---
 
@@ -22,9 +23,9 @@ Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che
 
 Affinché questo funzioni, devi attivare, in Adobe Experience Platform, la suite di rapporti che desideri sfruttare:
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Sources]** , quindi **[!UICONTROL Add data]** nella sezione Adobe Analytics . Viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
+1. In Adobe Experience Platform, seleziona **[!UICONTROL Sources]** then **[!UICONTROL Add data]** nella sezione Adobe Analytics . Viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
 
-1. Scegli la suite di rapporti che desideri abilitare, fai clic su **[!UICONTROL Next]** e fai clic su **[!UICONTROL Finish]**.
+1. Scegli la suite di rapporti che desideri abilitare e fai clic su **[!UICONTROL Next]** e fai clic su **[!UICONTROL Finish]**.
 
 1. Condividi l&#39;ID dati sorgente con il tuo punto di contatto del programma Beta.
 
@@ -32,4 +33,4 @@ Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni
 
 ![](../assets/jo-event9.png)
 
-Ulteriori informazioni sul connettore di origine Adobe Analytics nella documentazione [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;} e [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}.
+Ulteriori informazioni sul connettore sorgente Adobe Analytics in  [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it){target=&quot;_blank&quot;} e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}.

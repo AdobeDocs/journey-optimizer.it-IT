@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Rapporto live delle notifiche push {#push-live-report}
 
-Il push **[!UICONTROL Live report]** esegue il targeting di una sola consegna push specifica.
+La spinta **[!UICONTROL Live report]** esegue solo il targeting di una consegna push specifica.
 
-Dalla scheda **[!UICONTROL Executions]** del menu **[!UICONTROL Messages]** , seleziona **[!UICONTROL Live view]** , quindi dal menu avanzato della consegna selezionata seleziona **[!UICONTROL Live report]**.
+Da **[!UICONTROL Executions]** della scheda **[!UICONTROL Messages]** menu, seleziona **[!UICONTROL Live view]** dal menu avanzato della consegna selezionata, seleziona **[!UICONTROL Live report]**.
 
 ![](../assets/live_report_2.png)
 
-Il push **[!UICONTROL Live report]** è suddiviso in diversi widget che ne descrivono il successo e gli errori. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
+La spinta **[!UICONTROL Live report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della consegna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](live-report.md#modify-dashboard).
 
 ![](../assets/live_report_3.png)
 
-**[!UICONTROL Push notification performance]** e  **[!UICONTROL Push notification summary]** widget descrivono nel dettaglio le informazioni principali relative al messaggio con grafici e KPI:
+**[!UICONTROL Push notification performance]** e **[!UICONTROL Push notification summary]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio con grafici e KPI:
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -41,7 +41,7 @@ Il push **[!UICONTROL Live report]** è suddiviso in diversi widget che ne descr
 
 * **[!UICONTROL Engagements]**: Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
 
-La tabella **[!UICONTROL Sending metrics - by push]** descrive il successo della consegna:
+La **[!UICONTROL Sending metrics - by push]** la tabella descrive il successo della consegna:
 
 * **[!UICONTROL Targeted]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
 
@@ -59,8 +59,8 @@ La tabella **[!UICONTROL Sending metrics - by push]** descrive il successo della
 
 ![](../assets/live_report_4.png)
 
-I grafici e le tabelle **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** descrivono in dettaglio il successo della notifica push a seconda del sistema operativo.
+La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono in dettaglio il successo della notifica push in base al sistema operativo.
 
-Il widget **[!UICONTROL Sending statistics - Failed]** ti permette di vedere quanti errori e rimbalzi si sono verificati.
+La **[!UICONTROL Sending statistics - Failed]** widget consente di vedere quanti errori e rimbalzi si sono verificati.
 
-Il grafico e la tabella **[!UICONTROL Error Reasons]** ti consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.

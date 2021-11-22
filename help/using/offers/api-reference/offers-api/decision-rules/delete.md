@@ -1,20 +1,21 @@
 ---
 title: Elimina regole decisionali
 description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 6%
 
 ---
 
 # Eliminare una regola di decisione
 
-A volte può essere necessario rimuovere (DELETE) una regola decisionale. È possibile eliminare solo le regole decisionali create nel contenitore tenant. A tal fine, esegui una richiesta DELETE all’ API [!DNL Offer Library] utilizzando l’ID di istanza della regola decisionale che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) una regola decisionale. È possibile eliminare solo le regole decisionali create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID di istanza della regola decisionale che desideri eliminare.
 
 **Formato API**
 

@@ -37,7 +37,7 @@ Ad esempio, una best practice consiste nell’avere un pool IP per i messaggi di
 
 Per creare un pool IP, effettua le seguenti operazioni:
 
-1. Accedi al menu **[!UICONTROL Channels]** / **[!UICONTROL IP pools]**, quindi fai clic su **[!UICONTROL Create IP Pool]**.
+1. Accedere al **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** menu, quindi fai clic su **[!UICONTROL Create IP Pool]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -81,14 +81,14 @@ Per modificare un pool IP:
 >
 >Il nome del pool IP non è modificabile. Se desideri modificarlo, devi eliminare il pool IP e crearne un altro con il nome desiderato.
 
-L&#39;aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia associato a un [messaggio preselezionato](message-presets.md) o no:
+L’aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia associato a un [predefinito messaggio](message-presets.md) o no:
 
-* Se il pool IP è **not** selezionato in un predefinito per messaggi, l&#39;aggiornamento è istantaneo (**[!UICONTROL Success]** stato).
-* Se il pool IP **è** selezionato in un predefinito per messaggi, l&#39;aggiornamento può richiedere fino a 7-10 giorni lavorativi (**[!UICONTROL Processing]** stato).
+* Se il pool IP è **not** selezionato in un predefinito per messaggi, l’aggiornamento è istantaneo (**[!UICONTROL Success]** status).
+* Se il pool IP **è** selezionato in un predefinito per messaggi, l’aggiornamento può richiedere fino a 7-10 giorni lavorativi (**[!UICONTROL Processing]** status).
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
-Per controllare lo stato di aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL More actions]** e seleziona **[!UICONTROL Recent updates]**.
+Per controllare lo stato dell’aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL More actions]** e seleziona **[!UICONTROL Recent updates]**.
 
 ![](../assets/ip-pool-recent-update.png)
 
@@ -99,5 +99,5 @@ Per controllare lo stato di aggiornamento del pool IP, fai clic sul pulsante **[
 >* fino al batch successivo per l&#39;efficacia del pool IP nei messaggi batch.
 
 
-Puoi inoltre utilizzare il pulsante **[!UICONTROL Delete]** per eliminare un pool IP. Non puoi eliminare un pool IP associato a un predefinito per messaggi.
+È inoltre possibile utilizzare **[!UICONTROL Delete]** per eliminare un pool IP. Non puoi eliminare un pool IP associato a un predefinito per messaggi.
 

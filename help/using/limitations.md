@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Limitazioni  {#limitations}
 
-Le autorizzazioni, le limitazioni del prodotto e le protezioni delle prestazioni sono elencate nella pagina di descrizione del prodotto di Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.[
+Le autorizzazioni, le limitazioni dei prodotti e le protezioni delle prestazioni sono elencate in[ Pagina di descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
 Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Adobe Journey Optimizer].
 
@@ -30,7 +30,7 @@ Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Ad
 
 * Non esiste alcuna limitazione di invio. 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
-* L&#39;evento **Reaction** integrato consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
+* Incorporato **Reazione** ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 * Non è possibile inserire due azioni in parallelo, ma è necessario aggiungerle una dopo l’altra.
 
 ### Azione messaggio
@@ -39,11 +39,11 @@ Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Ad
 
 ### Versioni del percorso {#journey-versions-limitations}
 
-* Un percorso che inizia con un’attività evento nella versione 1 non può iniziare con un elemento diverso da un evento in ulteriori versioni. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
-* Un percorso che inizia con un&#39;attività **Qualifica segmento** nella versione 1 deve sempre iniziare con una **Qualificazione segmento** in ulteriori versioni.
-* Il segmento e lo spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
+* Un percorso che inizia con un’attività evento nella versione 1 non può iniziare con un elemento diverso da un evento in ulteriori versioni. Non è possibile avviare un percorso con un **Qualificazione del segmento** evento.
+* Un percorso che inizia con un **Qualificazione del segmento** l’attività nella versione v1 deve sempre iniziare con un **Qualificazione del segmento** in ulteriori versioni.
+* Segmento e spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
-* Un percorso che inizia con un **Leggi segmento** non può iniziare con un altro evento nelle versioni successive.
+* Un percorso che inizia con un **Leggi segmento** impossibile iniziare con un altro evento nelle versioni successive.
  
 
 ### Azioni personalizzate

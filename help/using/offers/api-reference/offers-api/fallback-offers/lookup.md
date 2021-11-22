@@ -1,20 +1,21 @@
 ---
 title: offerte di fallback di ricerca
 description: Un’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '158'
 ht-degree: 4%
 
 ---
 
 # Cercare offerte di fallback
 
-Puoi cercare offerte di fallback specifiche effettuando una richiesta GET all’ [!DNL Offer Library] API che include l’ offerta di fallback `@id` o il nome dell’offerta di fallback nel percorso della richiesta.
+Puoi cercare offerte di fallback specifiche effettuando una richiesta di GET al [!DNL Offer Library] API che include l’offerta di fallback `@id` o il nome dell’offerta di fallback nel percorso della richiesta.
 
 **Formato API**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le offerte di fallback. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Definisce lo schema associato alle offerte di fallback. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Una stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non possono essere utilizzati insieme | `F1: Web fallback` |
+| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `F1: Web fallback` |
 
 **Richiesta**
 

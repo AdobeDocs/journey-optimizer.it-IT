@@ -2,13 +2,14 @@
 title: Avvisi nei messaggi
 description: Scopri come verificare la convalida del contenuto dei messaggi e risolvere i problemi
 feature: Journeys
-topic: Gestione dei contenuti
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 1%
+source-wordcount: '400'
+ht-degree: 0%
 
 ---
 
@@ -28,17 +29,17 @@ Gli avvisi vengono visualizzati in alto a destra dello schermo, come illustrato 
 
 Possono verificarsi due tipi di avvisi:
 
-* **** Gli avvisi fanno riferimento a consigli e best practice. Ad esempio, se manca il collegamento di rinuncia, viene visualizzato un messaggio.
+* **Avvisi** consulta consigli e best practice. Ad esempio, se manca il collegamento di rinuncia, viene visualizzato un messaggio.
 
-* **** Gli errori impediscono la pubblicazione del messaggio fintanto che non sono stati risolti. Ad esempio, un messaggio ti avviserà che manca l’oggetto.
+* **Errori** impedisce la pubblicazione del messaggio fintanto che non sono stati risolti. Ad esempio, un messaggio ti avviserà che manca l’oggetto.
 
-Tutti gli avvisi e gli errori possibili sono descritti in dettaglio [sotto](#alerts-and-warnings).
+Tutti i possibili avvisi ed errori sono descritti in dettaglio [di seguito](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> È necessario risolvere tutti gli avvisi **error** prima della pubblicazione.
+> È necessario risolvere tutti **errore** avvisi prima della pubblicazione.
 
-## Elenco di avvisi ed errori {#alerts-and-warnings}
+## Elenco degli avvisi e degli errori {#alerts-and-warnings}
 
 Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito. Troverai anche informazioni su come adattare la configurazione per risolvere i problemi corrispondenti.
 
@@ -46,7 +47,7 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
 * **[!UICONTROL Opt out link not present in the email body]**: è consigliabile aggiungere un collegamento per l’annullamento dell’abbonamento al corpo dell’e-mail. Scopri come configurarlo in [questa sezione](consent.md).
 
-* **[!UICONTROL Text version of html is empty]**: non dimenticare di definire una versione testuale del corpo dell’e-mail, in quanto verrà utilizzata quando il contenuto HTML non può essere visualizzato. Scopri come creare la versione di testo in [questa sezione](create-email-content.md#generate-text-version).
+* **[!UICONTROL Text version of html is empty]**: non dimenticare di definire una versione testuale del corpo dell’e-mail, in quanto verrà utilizzata quando non è possibile visualizzare il contenuto di HTML. Scopri come creare la versione di testo in [questa sezione](create-email-content.md#generate-text-version).
 
 * **[!UICONTROL Empty link is present in email body]**: controlla che tutti i collegamenti presenti nell’e-mail siano corretti. Scopri come gestire contenuti e collegamenti in [questa sezione](create-email-content.md).
 
@@ -68,7 +69,7 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
 >[!CAUTION]
 >
-> Per pubblicare il messaggio, devi risolvere tutti gli avvisi **error** .
+> Per pubblicare il messaggio, devi risolvere tutti i problemi **errore** avvisi
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

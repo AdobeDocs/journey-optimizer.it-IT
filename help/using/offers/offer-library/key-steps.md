@@ -1,14 +1,15 @@
 ---
 title: Passaggi chiave per creare un’offerta
 description: Scopri i passaggi chiave necessari per creare un’offerta.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
+exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 11%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
@@ -18,19 +19,19 @@ Di seguito sono descritti i passaggi principali per creare, configurare e gestir
 
 ![](../../assets/offer-create-manage-process.png)
 
-Per un esempio completo e completo che mostri come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un’e-mail, controlla [questa pagina](../offers-e2e.md).
+Per un esempio completo, completo e completo, che mostra come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un’e-mail, consulta [questa pagina](../offers-e2e.md).
 
 ## Creare componenti
 
 Prima di iniziare a creare le offerte, devi definire diversi componenti da utilizzare nelle offerte.
 
-1. **Crea posizionamenti**, ovvero contenitori che verranno utilizzati per mostrare le offerte. Ad esempio, puoi creare un posizionamento che sarà dedicato solo alle offerte in formato immagine e situato nella parte superiore dei messaggi.
+1. **Creare posizionamenti**, contenitori che verranno utilizzati per mostrare le offerte. Ad esempio, puoi creare un posizionamento che sarà dedicato solo alle offerte in formato immagine e situato nella parte superiore dei messaggi.
 
-1. **Creare** regole decisionali che specifichino le condizioni in cui verranno presentate le offerte.
+1. **Creare regole decisionali** che specifichi le condizioni alle quali verranno presentate le offerte.
 
-1. **Crea** tag da associare alle offerte, consentendoti di organizzarli ed effettuare ricerche facilmente nella libreria.
+1. **Creare tag** che verranno associate alle offerte, consentendoti di organizzarle facilmente e cercarle nella libreria.
 
-1. Se desideri definire regole che determinino quale offerta presentare per prima per un determinato posizionamento (anziché tenere conto dei punteggi di priorità delle offerte), puoi **creare una formula di classificazione**.
+1. Se desideri definire regole che determinino quale offerta deve essere presentata per prima per un determinato posizionamento (anziché tenere conto dei punteggi di priorità delle offerte), puoi **creare una formula di classificazione**.
 
 <table>
 <tr>
@@ -42,11 +43,11 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 
 ## Creare e gestire le offerte
 
-1. **Crea offerte** e configurane contenuto e proprietà.
+1. **Creare offerte** e configurane il contenuto e le proprietà.
 
-1. **Crea offerte** di fallback, che sono le offerte di ultima risorsa da visualizzare se i clienti non sono idonei per nessuna delle offerte selezionate.
+1. **Creare offerte di fallback**, che è l’ultima risorsa da visualizzare se i clienti non sono idonei per nessuna delle offerte selezionate.
 
-1. **Crea una** raccolta per includere le offerte personalizzate create e utilizzale in una decisione.
+1. **Creare una raccolta** per includere le offerte personalizzate create e utilizzarle in una decisione.
 
 <table>
 <tr>
@@ -57,11 +58,11 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 
 ## Creare e configurare le decisioni
 
-1. **Crea una** decisione che combini posizionamenti con offerte personalizzate e offerte di fallback. Questa combinazione verrà utilizzata dal motore di Offer decisioning per trovare l’offerta migliore per un profilo specifico.
+1. **Creare una decisione** che combinerà posizionamenti con offerte personalizzate e offerte di fallback. Questa combinazione verrà utilizzata dal motore di Offer decisioning per trovare l’offerta migliore per un profilo specifico.
 
-1. **Configura la decisione**. A questo scopo, seleziona i posizionamenti e, per ogni posizionamento, seleziona una raccolta e un fallback.
+1. **Configurare la decisione**. A questo scopo, seleziona i posizionamenti e, per ogni posizionamento, seleziona una raccolta e un fallback.
 
-1. Se necessario, è possibile **assegnare una formula di classificazione** a un posizionamento durante la configurazione della decisione.
+1. Se necessario, puoi **assegnare una formula di classificazione** a un posizionamento durante la configurazione della decisione.
 
 <table>
 <tr>

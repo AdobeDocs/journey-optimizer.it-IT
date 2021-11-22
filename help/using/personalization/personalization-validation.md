@@ -1,33 +1,31 @@
 ---
 title: Convalida della personalizzazione
 description: Ulteriori informazioni sulla convalida della personalizzazione e su come risolvere i problemi
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
-
 
 # Convalida della personalizzazione {#personalization-validation}
 
 ## Meccanismi di convalida
 
-Nella schermata **Editor espressioni**, utilizza il pulsante **Convalida** per controllare la sintassi di personalizzazione.
+In **Editor espressioni** , utilizza **Convalida** per controllare la sintassi di personalizzazione.
 
 >[!NOTE]
-> La convalida viene eseguita automaticamente quando si fa clic sul pulsante **Aggiungi** per chiudere la finestra dell&#39;editor.
-
+> La convalida viene eseguita automaticamente quando si fa clic sul pulsante **Aggiungi** per chiudere la finestra dell’editor.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Se la sintassi di personalizzazione non è valida, non è possibile chiudere la finestra dell’editor espressioni.
-
 
 ## Errori comuni
 
@@ -45,7 +43,7 @@ In questo caso **firstName1** non è definito come attributo nello schema del pr
 
 Quando si tenta di eseguire iterazioni su una stringa invece che su una matrice:
 
-In questo caso **product** non è un array:
+In questo caso **prodotto** non è una matrice:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -82,8 +80,8 @@ La convalida viene eseguita durante la pubblicazione del messaggio o durante la 
 <table> 
  <thead> 
   <tr> 
-   <th> Titolo errore<br /> </th> 
-   <th> Convalida/risoluzione <br /> </th> 
+   <th> Titolo dell’errore<br /> </th> 
+   <th> Convalida/Risoluzione <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -117,4 +115,3 @@ HTML: content<br/></td>
   </tr> 
  </tbody> 
 </table>
-

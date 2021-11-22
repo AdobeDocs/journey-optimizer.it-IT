@@ -1,13 +1,14 @@
 ---
 title: Creare regole di decisione
 description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 12%
 
 ---
@@ -18,7 +19,7 @@ Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e appl
 
 ## Intestazioni Accept e Content-Type
 
-La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
+Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -71,7 +72,7 @@ curl -X POST \
 
 **Risposta**
 
-Una risposta corretta restituisce informazioni sulla regola decisionale appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la regola decisionale. Puoi utilizzare la regola decisionale univoca `@id` in un tutorial successivo per creare offerte personalizzate.
+Una risposta corretta restituisce informazioni sulla regola decisionale appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la regola decisionale. Puoi utilizzare la tua regola decisionale univoca `@id` in un’esercitazione successiva per creare offerte personalizzate.
 
 ```json
 {

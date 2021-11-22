@@ -1,24 +1,25 @@
 ---
 title: Mappa la libreria delle funzioni
 description: Mappa la libreria delle funzioni
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
+exl-id: de6a8da2-55cf-4105-ba93-40c556732626
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 5%
 
 ---
 
 # Funzioni Mappe{#maps}
 
-Utilizza le funzioni Mappa nella personalizzazione per facilitare l’interazione con le mappe.
+Utilizza le funzioni Mappa nella personalizzazione per semplificare l’interazione con le mappe.
 
 ## Get{#get}
 
-La funzione `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
+La `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
 
 **Formato**
 
@@ -36,7 +37,7 @@ L&#39;operazione seguente ottiene il valore della mappa di identità per la chia
 
 ## Chiavi{#keys}
 
-La funzione `keys` viene utilizzata per recuperare tutte le chiavi di una determinata mappa.
+La `keys` viene utilizzata per recuperare tutte le chiavi di una determinata mappa.
 
 **Formato**
 
@@ -54,7 +55,7 @@ L&#39;operazione seguente ottiene tutte le chiavi per la mappa `identityMap`.
 
 ## Valori{#values}
 
-La funzione `values` viene utilizzata per recuperare tutti i valori di una determinata mappa.
+La `values` viene utilizzata per recuperare tutti i valori di una data mappa.
 
 **Formato**
 
@@ -64,7 +65,7 @@ La funzione `values` viene utilizzata per recuperare tutti i valori di una deter
 
 **Esempio**
 
-L&#39;operazione seguente ottiene tutti i valori della mappa `identityMap`.
+L&#39;operazione seguente ottiene tutti i valori per la mappa `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

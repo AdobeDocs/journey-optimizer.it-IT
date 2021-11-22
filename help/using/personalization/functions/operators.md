@@ -1,14 +1,15 @@
 ---
 title: Libreria di funzioni per gli operatori
 description: Libreria di funzioni per gli operatori
-feature: Personalizzazione
-topic: Personalizzazione
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 12%
+source-wordcount: '302'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +21,7 @@ Le funzioni booleane vengono utilizzate per eseguire la logica booleana su eleme
 
 ### E{#and}
 
-La funzione `and` viene utilizzata per creare una congiunzione logica.
+La `and` viene utilizzata per creare una congiunzione logica.
 
 **Formato**
 
@@ -38,7 +39,7 @@ L&#39;operazione successiva prevede il rimpatrio di tutte le persone con il paes
 
 ### Oppure{#or}
 
-La funzione `or` viene utilizzata per creare una disgiunzione logica.
+La `or` viene utilizzata per creare una disgiunzione logica.
 
 **Formato**
 
@@ -85,7 +86,7 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 ### È uguale a{#equals}
 
-La funzione `=` (equals) controlla se un valore o un&#39;espressione è uguale a un altro valore o espressione.
+La `=` (equals) controlla se un valore o un&#39;espressione è uguale a un altro valore o espressione.
 
 **Formato**
 
@@ -103,7 +104,7 @@ L&#39;operazione seguente controlla se il paese di origine è la Francia.
 
 ### Non uguale{#notequal}
 
-La funzione `!=` (non uguale) controlla se un valore o un&#39;espressione è **non** uguale a un altro valore o espressione.
+La `!=` (diverso da uguale) controlla se un valore o un&#39;espressione è **not** uguale a un altro valore o espressione.
 
 **Formato**
 
@@ -121,7 +122,7 @@ L&#39;operazione seguente controlla se il paese di origine non è la Francia.
 
 ### Maggiore di{#greaterthan}
 
-La funzione `>` (maggiore di) viene utilizzata per verificare se il primo valore è maggiore del secondo valore.
+La `>` (maggiore di) viene utilizzato per verificare se il primo valore è maggiore del secondo valore.
 
 **Formato**
 
@@ -139,7 +140,7 @@ La seguente operazione definisce le persone nate rigorosamente dopo il 1970.
 
 ### Maggiore o uguale a{#greaterthanorequal}
 
-La funzione `>=` (maggiore o uguale a) viene utilizzata per verificare se il primo valore è maggiore o uguale al secondo valore.
+La `>=` (maggiore o uguale a) viene utilizzato per verificare se il primo valore è maggiore o uguale al secondo valore.
 
 **Formato**
 
@@ -157,7 +158,7 @@ L&#39;operazione seguente definisce le persone nate nel 1970 o dopo tale data.
 
 ### Minore di{#lessthan}
 
-La funzione di confronto `<` (minore di) viene utilizzata per verificare se il primo valore è minore del secondo valore.
+La `<` (minore di) la funzione di confronto viene utilizzata per verificare se il primo valore è minore del secondo valore.
 
 **Formato**
 
@@ -175,7 +176,7 @@ L&#39;operazione seguente definisce le persone nate prima del 2000.
 
 ### Minore o uguale a{#lessthanorequal}
 
-La funzione di confronto `<=` (minore o uguale a) viene utilizzata per verificare se il primo valore è minore o uguale al secondo valore.
+La `<=` (minore o uguale a) la funzione di confronto viene utilizzata per verificare se il primo valore è minore o uguale al secondo valore.
 
 **Formato**
 
@@ -192,4 +193,3 @@ L&#39;operazione seguente definisce le persone nate nel 2000 o prima.
 ```
 
 **Operazioni con numeri**
-

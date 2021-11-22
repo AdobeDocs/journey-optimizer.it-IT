@@ -1,20 +1,21 @@
 ---
 title: Elimina decisioni
 description: Una decisione contiene la logica che informa la selezione di un’offerta.
-feature: Offerte
-topic: Integrazioni
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '146'
 ht-degree: 6%
 
 ---
 
 # Eliminare una decisione
 
-A volte può essere necessario rimuovere (DELETE) una decisione (precedentemente nota come attività di offerta). È possibile eliminare solo le decisioni create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE all’ API [!DNL Offer Library] utilizzando l’ID $ dell’offerta di fallback che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) una decisione (precedentemente nota come attività di offerta). È possibile eliminare solo le decisioni create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
 
 **Formato API**
 
