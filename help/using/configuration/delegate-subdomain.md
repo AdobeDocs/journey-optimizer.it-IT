@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 1d8eabfee83d80f74c54ec8dee5ec924bc165ee7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 6%
+source-wordcount: '1336'
+ht-degree: 7%
 
 ---
 
@@ -29,19 +29,23 @@ La delega del nome di dominio è un metodo che consente al proprietario di un no
 
 Delega di un sottodominio per l’utilizzo con [!DNL Journey Optimizer], i client possono fare affidamento sull’Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito dei messaggi standard del settore per i propri domini di invio di e-mail marketing, continuando a mantenere e controllare il DNS per i propri domini e-mail interni.
 
+## Delega di sottodomini completa {#full-subdomain-delegation}
+
 [!DNL Journey Optimizer] ti consente di delegare completamente i sottodomini ad Adobe direttamente dall’interfaccia del prodotto. In questo modo, Adobe sarà in grado di inviare messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento delle campagne e-mail.
 
 >[!NOTE]
 >
 >Per impostazione predefinita, [!DNL Journey Optimizer] il contratto di licenza ti consente di delegare fino a 10 sottodomini. Contatta il tuo contatto Adobe se desideri aumentare questa limitazione.
->
->L’utilizzo di CNAME per la delega dei sottodomini non è attualmente supportato da Journey Optimizer.
 
 Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
 
-1. Accedere al **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Delegate subdomain]**.
+1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
 
    ![](../assets/subdomain-delegate.png)
+
+1. Seleziona **[!UICONTROL Fully delegated]** dal **[!UICONTROL Set up method]** sezione .
+
+   ![](../assets/subdomain-method-full.png)
 
 1. Specifica il nome del sottodominio da delegare.
 
@@ -63,17 +67,103 @@ Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
    >
    >Puoi creare i record e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Save as draft]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
-1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
+1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
 
    ![](../assets/subdomain-processing.png)
 
    Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 3 ore. [Ulteriori informazioni](#subdomain-validation).
 
+   >[!NOTE]
+   >
+   >Vengono elencati tutti i record mancanti, ovvero quelli non ancora creati nella soluzione di hosting.
+
 1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Success]** stato. È pronto per essere utilizzato per inviare messaggi.
+
+   >[!NOTE]
+   >
+   >Il sottodominio verrà contrassegnato come **[!UICONTROL Failed]** se non riesci a creare il record di convalida nella soluzione di hosting.
 
    <!-- later on, users will be notified in Pulse -->
 
-   ![](../assets/subdomain-notification.png)
+Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene creato automaticamente un record PTR associato a questo sottodominio. [Ulteriori informazioni](ptr-records.md)
+
+## Delega dei sottodomini CNAME {#cname-subdomain-delegation}
+
+Se si dispone di criteri di restrizione specifici per il dominio e si desidera che l&#39;Adobe abbia solo un controllo parziale sul DNS, è possibile scegliere di eseguire tutte le attività relative al DNS sul proprio lato.
+
+La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utilizzare i CNAME per puntare a record specifici per Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.
+
+>[!CAUTION]
+>
+>Questo metodo è consigliato se i criteri dell&#39;organizzazione limitano il metodo di delega del sottodominio completo. Questo approccio richiede la gestione e la gestione autonoma dei record DNS. Adobe non sarà in grado di fornire assistenza per modificare, mantenere o gestire il DNS per un sottodominio configurato tramite il metodo CNAME.
+
+Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
+
+1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
+
+1. Seleziona la **[!UICONTROL CNAME set up]** metodo .
+
+   ![](../assets/subdomain-method-cname.png)
+
+   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
+
+1. Specifica il nome del sottodominio da delegare.
+
+   >[!CAUTION]
+   >
+   >Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
+   >
+   >I sottodomini di più livelli come e-mail.marketing.yourcompany.com non sono attualmente supportati.
+
+1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
+
+1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;.
+
+   ![](../assets/subdomain-create-dns-confirm.png)
+
+   >[!NOTE]
+   >
+   >Puoi creare i record in un secondo momento utilizzando il **[!UICONTROL Save as draft]** pulsante . A questo punto potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+
+1. Attendi che l&#39;Adobe verifichi che questi record vengano generati senza errori nella tua soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
+
+   >[!NOTE]
+   >
+   >Vengono elencati tutti i record mancanti, ovvero quelli non ancora creati nella soluzione di hosting.
+
+1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma host. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Conferma...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
+
+   ![](../assets/subdomain-cdn-url-validation.png)
+
+   >[!NOTE]
+   >
+   >Puoi anche creare il record di convalida e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Save as draft]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+
+1. Una volta inviata la delega del sottodominio CNAME, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
+
+   Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che in genere richiedono da 2 a 3 ore. [Ulteriori informazioni](#subdomain-validation).
+
+1. Una volta eseguiti i controlli<!--i.e Adobe validates the record you created and installs it-->, il sottodominio ottiene **[!UICONTROL Success]** stato. È pronto per essere utilizzato per inviare messaggi.
+
+   >[!NOTE]
+   >
+   >Il sottodominio verrà contrassegnato come **[!UICONTROL Failed]** se non riesci a creare il record di convalida nella soluzione di hosting.
+
+Dopo aver convalidato il record e aver installato il certificato, in Adobe viene creato automaticamente il record PTR per il sottodominio CNAME. [Ulteriori informazioni](ptr-records.md)
+
+<!--
+
+**Questions**
+
+* Upon generating DNS records (i.e. copying them into your hosting solution), Adobe verifies that these records are generated without errors on your hosting solution, but I can see in the mocks that generating the record can take up to 2 minutes only vs 3 hours to validate record when using full delegation method, such as described here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html?lang=en. Do you confirm?
+
+* One you submit the CNAME subdomain delegation, do you go through the same validation steps as for full delegation (see here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation)? In that case, can it take up to 72 hours as seen in mocks vs up to 3 hours when using full delegation method?
+
+* Is a PTR record created for each CNAME subdomain? Is it different when fully delegating subdomain?
+
+* Question on existing documentation: I can read here https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/configuration/email-config/delegate-subdomains/delegate-subdomain.html#subdomain-validation that "Adobe creates PTR records only when you delegate the first subdomain, one for each IP, all IPs pointing to the first subdomain.": Does it mean "Adobe creates PTR records only when you delegate a subdomain for the first time"? If so, I'll change this sentence as I find it a bit confusing. Otherwise please advise.
+
+-->
 
 ## Convalida del sottodominio {#subdomain-validation}
 
@@ -91,6 +181,7 @@ I controlli e le azioni seguenti vengono eseguiti fino a quando il sottodominio 
    * **Record SPF**: Record del framework dei criteri del mittente: elenca gli IP dei server di posta che possono inviare e-mail dal sottodominio.
    * **Record DKIM**: Record standard DomainKeys Identified Mail - Utilizza la crittografia a chiave pubblica-privata per autenticare il messaggio per evitare lo spoofing.
    * **A**: Mappatura IP predefinita.
+   * **CNAME**: Un record Canonical Name o CNAME è un tipo di record DNS che mappa un nome di alias a un nome di dominio vero o canonico.
 
 1. **Creare URL di tracciamento e mirroring**: se il dominio è email.example.com, il dominio di tracking/mirror sarà data.email.example.com. È protetto installando il certificato SSL.
 
@@ -102,4 +193,4 @@ I controlli e le azioni seguenti vengono eseguiti fino a quando il sottodominio 
 
 1. **Crea DNS in avanti**: se si tratta del primo sottodominio che stai delegando, Adobe creerà il DNS in anticipo richiesto per creare record PTR, uno per ciascuno dei tuoi IP.
 
-1. **Crea record PTR**: Il record PTR, noto anche come record DNS inversi, è richiesto dagli ISP in modo che non contrassegnino le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. Adobe crea record PTR solo quando deleghi il primo sottodominio, uno per ogni IP, tutti gli IP che puntano al primo sottodominio. Ad esempio, se l’IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1 PTR r1.email.example.com*. È possibile aggiornare successivamente il record PTR in modo da puntare al nuovo dominio delegato.
+1. **Crea record PTR**: Il record PTR, noto anche come record DNS inversi, è richiesto dagli ISP in modo che non contrassegnino le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. Adobe crea record PTR solo quando deleghi un sottodominio per la prima volta, uno per ogni IP, tutti gli IP che puntano a quel sottodominio. Ad esempio, se l’IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1 PTR r1.email.example.com*. È possibile aggiornare successivamente il record PTR in modo da puntare al nuovo dominio delegato. [Ulteriori informazioni sui record PTR](ptr-records.md)

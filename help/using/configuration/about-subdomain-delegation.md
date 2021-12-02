@@ -8,16 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 27%
+source-wordcount: '637'
+ht-degree: 36%
 
 ---
 
 # Delega dei sottodomini in [!DNL Journey Optimizer]
 
 La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (marketing e aziende, ad esempio) in pool IP specifici e con domini specifici, velocizzando il processo di riscaldamento dell’IP e migliorando il recapito messaggi in generale. Se condividi un dominio e questo viene bloccato o aggiunto all&#39;elenco Bloccati, potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le tue comunicazioni di marketing e-mail avranno un impatto solo su quel flusso di e-mail. L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe anche interrompere l’autenticazione delle e-mail, bloccando o inserendo i messaggi nella cartella spam.
+
+## Perché impostare i sottodomini? {#why-setting-up-subdomains}
 
 Un sottodominio è una divisione del dominio che può essere utilizzata per isolare i brand o vari tipi di traffico, ad esempio messaggi transazionali e comunicazioni di marketing.
 
@@ -37,3 +39,22 @@ Questi requisiti vengono gestiti tramite componenti ospitati sia da Adobe che da
 * Scopri come [delegare i sottodomini](delegate-subdomain.md) direttamente dall&#39;interfaccia
 * Scopri come [aggiungere record TXT di Google](google-txt.md) ai sottodomini per garantire la corretta consegna delle e-mail agli indirizzi Gmail
 * Scopri come [accedere ai record PTR](ptr-records.md) generato per i sottodomini, per verificarli inviando server di posta elettronica
+
+## Metodi di configurazione dei sottodomini {#subdomain-delegation-methods}
+
+La configurazione dei sottodomini ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) da utilizzare con Adobe Campaign. I metodi di configurazione disponibili sono:
+
+* **Delega completa del sottodominio ad Adobe** (consigliato): il sottodominio viene delegato completamente ad Adobe. Adobe è in grado di controllare e mantenere tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi. [Ulteriori informazioni sulla delega completa dei sottodomini](delegate-subdomain.md#full-subdomain-delegation)
+
+* **Utilizzo dei CNAME**: Crea un sottodominio e utilizza i CNAME per puntare a record specifici per l’Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. [Ulteriori informazioni sulla delega dei sottodomini CNAME](delegate-subdomain.md#cname-subdomain-delegation)
+
+La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, oltre al livello di impegno che comportano:
+
+| Metodo di configurazione | Come funziona | Livello di impegno |
+|---|---|---|
+| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Basso |
+| **CNAME, metodo personalizzato** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alto |
+
+Ulteriori informazioni sulla configurazione del dominio sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+
+Se hai domande sui metodi di configurazione dei sottodomini, contatta l’Adobe o contatta l’Assistenza clienti per richiedere consulenza sul recapito messaggi.

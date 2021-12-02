@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
    Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**.
 
-   Questi controlli includono test di recapito messaggi eseguiti dal team di recapito messaggi di Adobe:
+   Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobe:
 
    * Convalida SPF
    * Convalida DKIM

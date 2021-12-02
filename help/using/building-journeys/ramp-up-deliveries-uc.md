@@ -5,48 +5,46 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0184614fb3203a1b5fee7603acd173042f223578
+source-git-commit: 980aedcd0fb4dba161dc0041a77e0f8d06d6fe68
 workflow-type: tm+mt
-source-wordcount: '11'
-ht-degree: 0%
+source-wordcount: '257'
+ht-degree: 3%
 
 ---
 
 
-<!--
-# Use case: ramp up your deliveries
+# Caso di utilizzo: incrementare le consegne
 
-If you recently moved to another email service provider, IP address, or email domain or subdomain, you need to establish your reputation as a sender. Otherwise, your deliveries might be blocked or moved to the spam folder of the recipients' mailbox. Learn how to increase your email reputation with IP warming in the [Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target="_blank"}.
+Se ti sei recentemente trasferito in un altro provider di servizi e-mail, indirizzo IP o dominio e-mail o sottodominio, devi stabilire la tua reputazione come mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nella cartella spam della cassetta postale dei destinatari. Scopri come aumentare la reputazione delle e-mail con il riscaldamento dell’IP nel [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html){target=&quot;_blank&quot;}.
 
-To warm up your IP, you can gradually ramp up the number of your deliveries. Read more about [optimizing deliverability in Journey Optimizer](../deliverability.md).
+Per scaldare l’IP, puoi gradualmente aumentare il numero delle consegne. Ulteriori informazioni [ottimizzazione del recapito messaggi in Journey Optimizer](../deliverability.md).
 
-The purpose of this use case is to create a journey to ramp up your email deliveries. To configure this journey, follow these steps:
+Lo scopo di questo caso d’uso è quello di creare un percorso per incrementare le consegne delle e-mail. Per configurare questo percorso, effettua le seguenti operazioni:
 
-1. Create a journey. [Read more](journey-gs.md).
+1. Creare un percorso. [Ulteriori informazioni](journey-gs.md).
 
-1. Add a **[!UICONTROL Condition]** activity to the journey. [Read more](condition-activity.md).
+1. Aggiungi un **[!UICONTROL Condition]** attività al percorso. [Ulteriori informazioni](condition-activity.md).
 
-1. In the **[!UICONTROL Condition]** activity settings, set the maximum number of recipients for your delivery:
+1. In **[!UICONTROL Condition]** impostazioni dell’attività, imposta il numero massimo di destinatari per la consegna:
 
-   1. In the **[!UICONTROL Condition]** activity settings, set the **[!UICONTROL Type]** field to **[!UICONTROL Profile cap]**. [Read more](condition-activity.md#profile_cap).
+   1. In **[!UICONTROL Condition]** impostazioni attività, imposta **[!UICONTROL Type]** campo a **[!UICONTROL Profile cap]**. [Ulteriori informazioni](condition-activity.md#profile_cap).
 
-   1. Set the **[!UICONTROL Limit]** field to the maximum number of recipients for this delivery.
+   1. Imposta la **[!UICONTROL Limit]** al numero massimo di destinatari per la consegna.
 
-    ![](../assets/profile-cap-condition.png)
+   ![](../assets/profile-cap-condition.png)
 
-      You can gradually increase this limit up to the total number of your subscribers.
+   Puoi aumentare gradualmente questo limite fino al numero totale di abbonati.
 
-1. Add a **[!UICONTROL Message]** activity to the first path after the **[!UICONTROL Condition]** activity.
+1. Aggiungi un **[!UICONTROL Message]** l&#39;attività sul percorso nominale dopo il **[!UICONTROL Condition]** attività.
 
-    ![](../assets/ramp-up-deliveries-message.png)
+   ![](../assets/ramp-up-deliveries-message.png)
 
-    When the journey runs, the message is sent the selected recipients, up to the maximum number of recipients that you have specified. When this limit is reached, the selected recipients take the second path.
+   Quando il percorso viene eseguito, al messaggio vengono inviati i profili in entrata, fino al numero massimo di profili specificati. Una volta raggiunto questo limite, i profili che entrano prendono il percorso alternativo.
 
-1. Complete the journey with the activities of your choice.
+1. Completa il percorso con le attività che preferisci.
 
-After your IP has warmed up, you can remove this condition.
+Una volta che l’IP si è riscaldato, puoi rimuovere questa condizione.
 
--->
 
 
 

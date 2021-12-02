@@ -2,16 +2,36 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
-source-wordcount: '1978'
-ht-degree: 16%
+source-wordcount: '2074'
+ht-degree: 15%
 
 ---
 
 # Note sulla versione {#release-notes}
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in [!DNL Journey Optimizer]. È inoltre possibile consultare [ultimi aggiornamenti della documentazione](documentation-updates.md).
+
+## Versione di novembre 2021
+
+<table>
+<thead>
+<tr>
+<th><strong>Delega dei sottodomini CNAME</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ora supporta i CNAME. Un record CNAME, o Canonical Name, è un record che punta a un altro indirizzo di dominio anziché a un indirizzo IP. La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utilizzare i CNAME per puntare a record specifici per Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.</p>
+<p>Questo metodo è consigliato se i criteri dell'organizzazione limitano il metodo di delega del sottodominio completo.</p>
+<p>Ulteriori informazioni sulla delega del sottodominio CNAME nel <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Versione di ottobre 2021 {#oct-2021-release}
 
@@ -81,7 +101,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 </table>
 
 
-Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target=&quot;_blank&quot;} per ulteriori modifiche.
+Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} per ulteriori modifiche.
 
 ### Miglioramenti
 

@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
+source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Con i record PTR, i server di posta riceventi possono controllare l&#39;autentic
 
 ## Accedere ai record PTR dei tuoi sottodomini
 
-Una volta delegato un sottodominio in Adobe Journey Optimizer, un record PTR viene creato automaticamente e associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Una volta [viene delegato un sottodominio](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](../assets/ptr-records.png)
 
@@ -39,6 +39,10 @@ Puoi aprire un record PTR dall’elenco per visualizzare il nome del sottodomini
 ## Modificare un record PTR {#edit-ptr-record}
 
 Puoi modificare un record PTR per modificare il sottodominio associato a un indirizzo IP.
+
+>[!CAUTION]
+>
+>Non puoi modificare un record PTR associato a un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation).
 
 1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
 
