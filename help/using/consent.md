@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 78%
+source-wordcount: '814'
+ht-degree: 77%
 
 ---
 
@@ -44,7 +44,9 @@ Pertanto, devi sempre includere un **collegamento per l’annullamento dell’is
 Per aggiungere un collegamento per l’annullamento dell’iscrizione, effettua le seguenti operazioni:
 
 1. Crea la pagina di destinazione per l’annullamento dell’iscrizione.
-1. Ospita la pagina di destinazione nel sistema di terze parti desiderato.
+
+1. Ospitalo sul sistema di terze parti a tua scelta.
+
 1. [Crea un messaggio ](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->

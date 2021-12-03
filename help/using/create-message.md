@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ I messaggi sono disponibili dal **[!UICONTROL Messages]** scorciatoia nella navi
 
 >[!NOTE]
 >
->Gli utenti possono accedere, creare, modificare e/o pubblicare i messaggi in base al loro profilo di prodotto. Ulteriori informazioni sulle autorizzazioni per gli utenti [in questa sezione](../using/administration/permissions.md).
+>Gli utenti possono accedere, creare, modificare e/o pubblicare i messaggi in base al loro profilo di prodotto. Ulteriori informazioni sulle autorizzazioni per gli utenti [in questa sezione](administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,15 +43,14 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    * Inserisci un **[!UICONTROL Title]** (obbligatorio) e **[!UICONTROL Description]**.
 
+   * Seleziona la **[!UICONTROL Message category]**: Marketing o transazionale.
+
    * Seleziona la **[!UICONTROL Preset]** da utilizzare per il messaggio.
 
-      I predefiniti includono tutti i parametri necessari per inviare una notifica e-mail e/o push in base al marchio. [Ulteriori informazioni sui predefiniti](../using/configuration/message-presets.md).
+      I predefiniti includono tutti i parametri necessari per inviare una notifica e-mail e/o push in base al marchio. [Ulteriori informazioni sui predefiniti](configuration/message-presets.md).
 
    * Seleziona i canali da utilizzare per il messaggio: Notifica e-mail e/o push. Per creare il messaggio, devi selezionare almeno un canale.
    Puoi accedere e modificare il titolo, la descrizione e il predefinito del messaggio in qualsiasi momento utilizzando la **[!UICONTROL Properties]** nell’interfaccia dei messaggi.
-
-   ![](assets/message-properties.png)
-
 
 1. Fai clic su **[!UICONTROL Create]** per confermare la creazione dei messaggi. Il messaggio viene aggiunto nell’elenco dei messaggi nella **[!UICONTROL Draft]** stato.
 

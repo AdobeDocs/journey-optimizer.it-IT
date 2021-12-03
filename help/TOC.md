@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 89%
+source-wordcount: '883'
+ht-degree: 87%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 89%
       + [Creare un messaggio ](using/create-message.md)
       + [Creare un messaggio e-mail](using/create-email.md)
       + [Creare una notifica push](using/create-push.md)
+      + [Creare un messaggio SMS](using/create-sms.md)
    + [Aggiungere e gestire le risorse](using/assets-essentials.md)
    + Progettare le e-mail {#email-designer}
       + [Introduzione alla progettazione delle e-mail](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 89%
       + [Introduzione alla consegna](using/deliverability.md)
       + [Elenco di eliminazione](using/suppression-list.md)
       + [Elenco Consentiti](using/allow-list.md)
++ Pagine di destinazione {#landing-pages}
+   + [Guida introduttiva alle pagine di destinazione](using/landing-pages/get-started-lp.md)
+   + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
+   + [Progettazione di una pagina di destinazione](using/landing-pages/design-lp.md)
+   + [Creare un elenco di iscrizioni](using/landing-pages/subscription-list.md)
+   + [Casi di utilizzo](using/landing-pages/lp-use-cases.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 89%
             + [Gestire elenco di soppressione](using/configuration/manage-suppression-list.md)
             + [Nuovi tentativi](using/configuration/retries.md)
          + [Cambiare indirizzo e-mail principale](using/configuration/primary-email-addresses.md)
+      + [Configurare il canale SMS](using/configuration/sms-configuration.md)
       + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)

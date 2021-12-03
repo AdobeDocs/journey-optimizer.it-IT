@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 3%
+source-wordcount: '803'
+ht-degree: 4%
 
 ---
 
@@ -49,6 +49,8 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 1. Scegli il tipo di collegamento che desideri creare:
 
    * **[!UICONTROL External link]**: Inserisci un collegamento a un URL esterno.
+
+   * **[!UICONTROL Landing page]**: Inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Unsubscription link]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](consent.md#opt-out-management).
 
