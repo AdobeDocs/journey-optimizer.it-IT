@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
+source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 87%
 
 ---
@@ -227,6 +227,9 @@ ht-degree: 87%
    + [Progettazione di una pagina di destinazione](using/landing-pages/design-lp.md)
    + [Creare un elenco di iscrizioni](using/landing-pages/subscription-list.md)
    + [Casi di utilizzo](using/landing-pages/lp-use-cases.md)
+   + Reporting {#lp-reporting}
+      + [Generazione di rapporti sulle pagine di destinazione](using/landing-pages/lp-report.md)
+      + [Generazione di rapporti sugli elenchi di abbonamenti](using/landing-pages/subscription-report.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)

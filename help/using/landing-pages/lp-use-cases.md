@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 21%
+source-wordcount: '772'
+ht-degree: 19%
 
 ---
 
 # Casi di utilizzo della pagina di destinazione
 
-Di seguito sono riportati alcuni esempi di utilizzo [!DNL Journey Optimizer] pagine di destinazione per consentire ai clienti di scegliere se accettare o meno alcune o tutte le tue comunicazioni.
+Di seguito sono riportati alcuni esempi di come è possibile utilizzare [!DNL Journey Optimizer] pagine di destinazione per consentire ai clienti di scegliere se accettare o meno alcune o tutte le tue comunicazioni.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ Di seguito sono riportati alcuni esempi di utilizzo [!DNL Journey Optimizer] pag
 
 ## Iscrizione a un servizio {#subscription-to-a-service}
 
-I passaggi principali per l’abbonamento dei destinatari a un servizio sono descritti di seguito.
+Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonamento a un servizio](subscription-list.md) (ad esempio una newsletter o un evento) tramite una pagina di destinazione. Le fasi principali sono presentate sul grafico seguente:
 
 ![](../assets/lp_subscription-uc.png)
 
-Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri lanciare una campagna di registrazione dell’evento per aggiornare i clienti interessati a tale evento.
+Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avviare una campagna di registrazione degli eventi<!--to keep your customers that are interested updated on that event-->. A questo scopo, invierai un’e-mail con un collegamento a una pagina di destinazione che consentirà ai destinatari di registrarsi a questo evento. Gli utenti che si registrano verranno aggiunti all’elenco di sottoscrizioni creato a questo scopo.
 
-1. Crea l&#39;elenco di iscrizione dell&#39;evento. Ulteriori informazioni su [elenchi di abbonamenti](subscription-list.md)
+### Configurare la pagina di destinazione
 
-1. [Creare una pagina di destinazione](create-lp.md), che consentirà ai destinatari di registrarsi all’evento.
+1. Crea l&#39;elenco di iscrizione dell&#39;evento, che memorizzerà gli utenti registrati. Scopri come creare un elenco di abbonamenti [qui](subscription-list.md#define-subscription-list).
 
-1. Configura e progetta la pagina di destinazione della registrazione, compreso il collegamento all’elenco di sottoscrizione. Ulteriori informazioni sulla creazione di [pagina di destinazione principale](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. Crea una pagina di ringraziamento che verrà visualizzata ai destinatari dopo l’invio del modulo di registrazione. Ulteriori informazioni su [pagine secondarie di destinazione](create-lp.md#configure-subpages)
+1. [Creare una pagina di destinazione](create-lp.md) per consentire ai destinatari di registrarsi all’evento.
 
-1. Crea un messaggio e-mail. Ulteriori informazioni su [creazione di messaggi](../create-message.md)
+1. Configurare la registrazione [pagina di destinazione principale](create-lp.md#configure-primary-page).
 
-1. [Inserire un collegamento](../message-tracking.md#insert-links) nel messaggio. Seleziona **[!UICONTROL Landing page]** come **[!UICONTROL Link type]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
+1. Durante la progettazione della [contenuto della pagina di destinazione](design-lp.md), seleziona l’elenco di sottoscrizioni creato per aggiornarlo con i profili che selezionano la casella di controllo della registrazione.
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. Crea una pagina di ringraziamento che verrà visualizzata ai destinatari dopo l’invio del modulo di registrazione. Scopri come configurare le pagine secondarie di destinazione [qui](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [Pubblica](create-lp.md#publish) la pagina di destinazione.
+
+1. [Creare un messaggio e-mail](../create-message.md) per annunciare che la registrazione è ora aperta per il tuo evento.
+
+1. [Inserire un collegamento](../message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Landing page]** come **[!UICONTROL Link type]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. Salva il contenuto e [pubblica il messaggio](../publish-manage-message.md).
 
-1. Invia il messaggio tramite un [percorso](../building-journeys/journey.md) per annunciare che la registrazione è ora aperta per il tuo evento e per indirizzare il traffico verso la pagina di destinazione della registrazione.
+1. Invia il messaggio tramite un [percorso](../building-journeys/journey.md) per indirizzare il traffico verso la pagina di destinazione della registrazione.
 
-   Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco degli abbonamenti.
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. Puoi inviare un’e-mail di conferma ai destinatari che si sono registrati per l’evento. Per farlo, invialo tramite un altro percorso utilizzando la **[!UICONTROL Segment qualification]** e seleziona l’elenco di sottoscrizioni creato come segmento.
+   Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco di iscrizione.
+
+### Invia un messaggio e-mail di conferma {#send-confirmation-email}
+
+Inoltre, puoi inviare un’e-mail di conferma ai destinatari che si sono registrati per l’evento. A questo scopo, segui i passaggi riportati qui sotto.
+
+1. Crea un altro [percorso](../building-journeys/journey.md). Puoi eseguire questa operazione direttamente dalla pagina di destinazione facendo clic sul pulsante **[!UICONTROL Create journey]** pulsante . Puoi trovare ulteriori informazioni [qui](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. Apri **[!UICONTROL Events]** categoria e rilascia a **[!UICONTROL Segment Qualification]** nell’area di lavoro. Puoi trovare ulteriori informazioni [qui](../building-journeys/segment-qualification-events.md)
+
+1. Fai clic in **[!UICONTROL Segment]** e selezionare l&#39;elenco di sottoscrizioni creato.
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. Seleziona l’e-mail di conferma desiderata e inviala attraverso il percorso.
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+Tutti gli utenti che si sono registrati al tuo evento riceveranno l’e-mail di conferma.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 

@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
@@ -42,39 +43,45 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
    ![](../assets/lp_create-lp-details.png)
 
+1. Seleziona un predefinito.
+
+   ![](../assets/lp_create-lp-presets.png)
+
+   >[!NOTE]
+   >
+   >Per definire i predefiniti per le pagine di destinazione, contatta il rappresentante del tuo account di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
 1. Fai clic su **[!UICONTROL Create]**.
 
-1. Viene visualizzata la pagina principale e le relative proprietà. Scopri come configurare le impostazioni della pagina [qui](#configure-primary-page).
+1. Viene visualizzata la pagina principale e le relative proprietà. Scopri come configurare le impostazioni della pagina principale [qui](#configure-primary-page).
 
    ![](../assets/lp_primary-page.png)
 
-1. Fai clic sull’icona + per aggiungere una pagina secondaria. Scopri come configurare le impostazioni [qui](#configure-subpages).
+1. Fai clic sull’icona + per aggiungere una pagina secondaria. Scopri come configurare le impostazioni della pagina secondaria [qui](#configure-subpages).
 
    ![](../assets/lp_add-subpage.png)
 
-Una volta configurati e progettati i [pagina principale](#configure-primary-page) e [sottopagine](#configure-subpages) se presente, puoi [test](#test) e [pubblicare](#publish) la pagina di destinazione.
+Una volta configurati e progettati i [pagina principale](#configure-primary-page)e [sottopagine](#configure-subpages) se presente, puoi [test](#test) e [pubblicare](#publish) la pagina di destinazione.
 
 ## Configurare la pagina principale {#configure-primary-page}
 
-La pagina principale è quella immediatamente visualizzata dagli utenti che fanno clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web.
+La pagina principale è quella immediatamente visualizzata dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web.
 
 Per definire le impostazioni della pagina principale, segui la procedura seguente.
 
 1. È possibile modificare il nome della pagina, ovvero **[!UICONTROL Primary page]** per impostazione predefinita.
 
-1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come progettare il contenuto della pagina di destinazione [qui](design-lp.md).
+1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
    ![](../assets/lp_open-designer.png)
 
-1. Definisci l’URL della pagina di destinazione.
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
    >L’URL della pagina di destinazione deve essere univoco.
 
    ![](../assets/lp_access-url.png)
-
-   La prima parte dell’URL è precompilata e non può essere modificata tramite l’interfaccia utente. Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Puoi definire una data di scadenza per la pagina. In tal caso, è necessario selezionare un’azione alla scadenza della pagina:
 
@@ -86,29 +93,27 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
-1. Se hai selezionato uno o più elenchi di sottoscrizioni per la pagina principale, vengono visualizzati nella **[!UICONTROL Subscription list]** sezione .
+1. Se hai selezionato uno o più elenchi di sottoscrizioni quando [progettazione della pagina principale](design-lp.md), vengono visualizzati nella **[!UICONTROL Subscription list]** sezione .
 
    ![](../assets/lp_subscription-list.png)
 
-1. Dalla pagina di destinazione, puoi creare direttamente un percorso che invia agli utenti un messaggio di conferma al momento dell’invio del modulo.
+1. Dalla pagina di destinazione, puoi [creare un percorso](../building-journeys/journey-gs.md#jo-build) che invierà un messaggio di conferma agli utenti al momento dell’invio del modulo. Scopri come creare un tale percorso alla fine di questo [caso d&#39;uso](lp-use-cases.md#subscription-to-a-service).
 
    ![](../assets/lp_create-journey.png)
 
-   Fai clic su **[!UICONTROL Create journey]** per iniziare [configurazione del percorso](../building-journeys/journey-gs.md#jo-build). Verrà eseguito il reindirizzamento al **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** elenco.
+   Fai clic su **[!UICONTROL Create journey]** da reindirizzare al **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** elenco.
 
 ## Configurare le pagine secondarie {#configure-subpages}
 
-Puoi aggiungere tutte le pagine secondarie necessarie. Ad esempio, è possibile creare una pagina di ringraziamento che verrà visualizzata dopo l’invio del modulo da parte degli utenti. Puoi anche definire una pagina di errore che verrà chiamata quando si verifica un errore con la pagina di destinazione.
+È possibile aggiungere fino a 2 sottopagine. Ad esempio, è possibile creare una pagina di ringraziamento che verrà visualizzata dopo l’invio del modulo da parte degli utenti, nonché definire una pagina di errore da chiamare in caso di problemi relativi alla pagina di destinazione.
 
-Per definire le impostazioni di una pagina secondaria, effettua le seguenti operazioni.
+Per definire le impostazioni della pagina secondaria, segui la procedura seguente.
 
 1. È possibile modificare il nome della pagina, ovvero **[!UICONTROL Subpage 1]** per impostazione predefinita.
 
-1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come progettare il contenuto della pagina di destinazione [qui](design-lp.md).
+1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
-1. Definisci l’URL della pagina di destinazione.
-
-   La prima parte dell’URL è precompilata e non può essere modificata tramite l’interfaccia utente. Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >
@@ -122,23 +127,31 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!CAUTION]
 >
->Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test. Scopri come creare profili di test in [questa pagina](../building-journeys/creating-test-profiles.md).
+>Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test. Scopri come [creare profili di test](../building-journeys/creating-test-profiles.md).
 
-1. Nell’interfaccia della pagina di destinazione o nel designer del contenuto, fai clic sul pulsante **[!UICONTROL Preview & test]** per accedere alla selezione del profilo di test.
+1. Nell’interfaccia della pagina di destinazione, fai clic sul pulsante **[!UICONTROL Preview & test]** per accedere alla selezione del profilo di test.
 
    ![](../assets/lp_preview-button.png)
 
-1. Seleziona uno o più profili di test.
+   >[!NOTE]
+   >
+   >La **[!UICONTROL Preview]** accessibile anche dal designer del contenuto.
+
+1. Da **[!UICONTROL Preview & test]** seleziona uno o più profili di test.
 
    ![](../assets/lp_test-profiles.png)
 
    I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../preview.md#select-test-profiles).
 
-1. Fai clic sul pulsante **[!UICONTROL Preview]** per verificare la pagina di destinazione.
+1. Seleziona la **[!UICONTROL Preview]** e fai clic su **[!UICONTROL Open preview]** per verificare la pagina di destinazione.
 
-   <!--![](../assets/lp_preview.png)-->
+   ![](../assets/lp_open-preview.png)
 
-1. Gli elementi personalizzati vengono sostituiti dai dati del profilo di test selezionati. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
+1. L’anteprima della pagina di destinazione viene visualizzata in una nuova scheda. Gli elementi personalizzati vengono sostituiti dai dati del profilo di test selezionati.
+
+   ![](../assets/lp_preview.png)
+
+1. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
 
 ## Controllare gli avvisi {#alerts}
 
@@ -156,7 +169,7 @@ Possono verificarsi due tipi di avvisi:
 
 * **Avvisi** consulta consigli e best practice. <!--For example, a message will display if -->
 
-* **Errori** impedisce la pubblicazione del messaggio fintanto che non sono stati risolti. Ad esempio, un messaggio ti avviserà che manca l’URL della pagina principale.
+* **Errori** impedisce la pubblicazione del messaggio fintanto che non sono stati risolti. Ad esempio, se manca l’URL della pagina principale riceverai un avviso.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
@@ -181,7 +194,7 @@ Possono verificarsi due tipi di avvisi:
 
 ## Pubblicare la pagina di destinazione {#publish}
 
-Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’uso in un messaggio o su un sito web.
+Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
 
 ![](../assets/lp_publish.png)
 
@@ -191,4 +204,9 @@ Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla dispon
 
 Una volta pubblicata, la pagina di destinazione viene aggiunta all’elenco della pagina di destinazione con la **[!UICONTROL Published]** stato.
 
-Ora è attivo e il collegamento a esso è pronto per essere utilizzato in un [message](../create-message.md) e inviato attraverso un [percorso](../building-journeys/journey.md).
+È ora attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] [message](../create-message.md) che verranno inviati attraverso un [percorso](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Puoi monitorare l’impatto della pagina di destinazione tramite report specifici. [Ulteriori informazioni](lp-report.md)
+
