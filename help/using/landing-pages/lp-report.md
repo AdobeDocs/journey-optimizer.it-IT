@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
 # Rapporto sulla pagina di destinazione {#lp-report}
 
-Il rapporto di abbonamento mostra i dettagli sull’impatto delle pagine di destinazione. Sono disponibili due tipi di report:
+Il rapporto sulla pagina di destinazione presenta dettagli sull’impatto delle pagine di destinazione. Sono disponibili due tipi di report:
 
 * La **[!UICONTROL Live report]** per misurare e visualizzare il successo delle pagine di destinazione solo nelle ultime 24 ore.
 
