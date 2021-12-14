@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 15%
 
 ---
@@ -123,7 +123,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
    >[!NOTE]
    >
-   >Assicurati di fare riferimento alla pagina secondaria nella **[!UICONTROL Form]** del componente **[!UICONTROL Call to action]** della pagina principale. [Ulteriori informazioni](design-lp.md)
+   >Assicurati di fare riferimento alla pagina secondaria nella pagina principale **[!UICONTROL Call to action]** della sezione **[!UICONTROL Form]** componente. [Ulteriori informazioni](design-lp.md)
 
 1. Dopo aver configurato e definito il contenuto delle pagine, [pubblicare](create-lp.md#publish) la pagina di destinazione.
 
@@ -147,7 +147,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. Nella pagina di destinazione, se il destinatario seleziona la casella e invia il modulo:
+   Se il destinatario seleziona la casella e invia il modulo:
 
    * Il destinatario con rinuncia viene reindirizzato alla schermata del messaggio di conferma.
 
