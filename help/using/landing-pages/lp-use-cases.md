@@ -8,10 +8,10 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 19%
+source-wordcount: '847'
+ht-degree: 15%
 
 ---
 
@@ -105,39 +105,53 @@ Pertanto, devi sempre includere un **collegamento per l’annullamento dell’is
 
 ### Configurare la rinuncia {#configure-opt-out}
 
-Per consentire ai destinatari di un messaggio di annullare l’iscrizione alle comunicazioni tramite una pagina di destinazione, effettua le seguenti operazioni.
+Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle comunicazioni tramite una pagina di destinazione, segui i passaggi riportati di seguito.
 
-1. Crea [pagina di destinazione](create-lp.md). Utilizza le specifiche della pagina di destinazione **[!UICONTROL Form]** componente, definire un **[!UICONTROL Opt-out]** seleziona e scegli di aggiornare **[!UICONTROL Channel (email)]**: il profilo che controlla la casella di rinuncia nella pagina di destinazione verrà escluso da tutte le comunicazioni. [Ulteriori informazioni](design-lp.md)
+1. Crea la pagina di destinazione. [Ulteriori informazioni](create-lp.md)
+
+1. Definisci la pagina principale. [Ulteriori informazioni](create-lp.md#configure-primary-page)
+
+1. [Progettazione](design-lp.md) il contenuto della pagina principale: utilizza la pagina di destinazione specifica **[!UICONTROL Form]** componente, definire un **[!UICONTROL Opt-out]** seleziona e scegli di aggiornare **[!UICONTROL Channel (email)]**: il profilo che controlla la casella di rinuncia nella pagina di destinazione verrà escluso da tutte le comunicazioni.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Crea un messaggio ](../create-message.md) in [!DNL Journey Optimizer].
+1. Aggiungi una conferma [sottopagine](create-lp.md#configure-subpages) che verranno visualizzati agli utenti che inviano il modulo.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >Assicurati di fare riferimento alla pagina secondaria nella **[!UICONTROL Form]** del componente **[!UICONTROL Call to action]** della pagina principale. [Ulteriori informazioni](design-lp.md)
+
+1. Dopo aver configurato e definito il contenuto delle pagine, [pubblicare](create-lp.md#publish) la pagina di destinazione.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [Creare un messaggio e-mail](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Selezionare il testo nel contenuto e [inserire un collegamento](../message-tracking.md#insert-links) mediante la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Seleziona **[!UICONTROL Landing page]** dall’elenco a discesa **[!UICONTROL Link type]**.
-
-1. Seleziona la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la rinuncia.
+1. Seleziona **[!UICONTROL Landing page]** dal **[!UICONTROL Link type]** elenco a discesa e seleziona il [pagina di destinazione](create-lp.md#configure-primary-page) creato per la rinuncia.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
-
 1. Salva il contenuto e [pubblica il messaggio](../publish-manage-message.md).
 
-1. Invia il messaggio tramite un [percorso](../building-journeys/journey.md).
+1. Invia il tuo messaggio attraverso un percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
-1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento di annullamento dell’iscrizione, viene visualizzata la pagina di destinazione.
+1. Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento di annullamento all’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. Se il destinatario fa clic sul collegamento di rinuncia nella pagina di destinazione, i dati del profilo vengono aggiornati e non riceveranno comunicazioni dal brand se non si è effettuato nuovamente l’abbonamento.
+1. Nella pagina di destinazione, se il destinatario seleziona la casella e invia il modulo:
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * Il destinatario con rinuncia viene reindirizzato alla schermata del messaggio di conferma.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * I dati del profilo vengono aggiornati e non riceveranno comunicazioni dal tuo marchio a meno che non siano nuovamente abbonati.
 
 Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi di identità e un valore di identità corrispondente. Ulteriori informazioni nel [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
