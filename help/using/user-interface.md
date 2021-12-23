@@ -7,19 +7,19 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 1eb7e547019446ea946f7475730b01368f6a15eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1459'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 # Interfaccia utente {#cjm-user-interface}
 
-Connetti a [Adobe Experience Cloud](http://experience.adobe.com) e sfogliare per [!DNL Journey Optimizer].
+Connettiti a [Adobe Experience Cloud](http://experience.adobe.com) e vai a [!DNL Journey Optimizer].
 
-I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Fai riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} per ulteriori dettagli.
+I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
 
-I componenti e le funzionalità disponibili nell’interfaccia utente dipendono dal [permissions](administration/permissions.md) e [pacchetto di licenze](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
+I componenti e le funzionalità disponibili nell’interfaccia utente dipendono dalle [autorizzazioni](administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 * **[!UICONTROL Profiles]**: la funzione Profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei singoli clienti, combinando dati provenienti da più canali tra cui dati online, offline, del sistema CRM e di terze parti. [Ulteriori informazioni](get-started-profiles.md)
 
-* **[!UICONTROL Identities]**: il servizio Adobe Experience Platform Identity gestisce l’identificazione dei clienti in tempo reale, tra dispositivi e canali diversi, in quello che viene definito un grafico di identità in Adobe Experience Platform. [Ulteriori informazioni](get-started-identity.md)
+* **[!UICONTROL Identities]**: Adobe Experience Platform Identity Service gestisce l’identificazione dei clienti in tempo reale, tra dispositivi e canali diversi, in quello che viene definito un grafico di identità in Adobe Experience Platform. [Ulteriori informazioni](get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -100,7 +100,7 @@ I casi di utilizzo disponibili sono:
 
 * **Creare profili di test**, per creare profili di test utilizzando il modello CSV per sperimentare messaggi e percorsi personalizzati. Scopri come implementare questo caso d’uso [in questa pagina](building-journeys/creating-test-profiles.md#use-case-1).
 * **Inviare un messaggio di compleanno ai clienti**, per inviare automaticamente un’e-mail ai clienti in occasione del loro compleanno. (disponibile a breve)
-* **Inviare e-mail a nuovi clienti onboard**, per inviare facilmente fino a due e-mail di benvenuto ai clienti appena registrati. (disponibile a breve)
+* **Invia e-mail per accogliere i nuovi clienti**, per inviare facilmente fino a due e-mail per dare il benvenuto ai clienti appena registrati. (disponibile a breve)
 * **Inviare messaggi push a un elenco importato dei clienti**, per inviare rapidamente una notifica push a un elenco di clienti importati da un file CSV. (disponibile a breve)
 
 Per ulteriori informazioni su ogni caso d’uso, fai clic su **[!UICONTROL View details]**.
@@ -111,13 +111,13 @@ Puoi accedere ai casi di utilizzo eseguiti dal pulsante **[!UICONTROL View use c
 
 ## Accessibilità{#accessibility}
 
-Funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate da Adobe Experience Platform:
+Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate da Adobe Experience Platform:
 
 * Accessibilità da tastiera
 * Contrasto colore
 * Convalida dei campi obbligatori
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
 È possibile utilizzare le seguenti scelte rapide da tastiera comuni in [!DNL Journey Optimizer]:
 
@@ -125,11 +125,11 @@ Funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate da A
 | --- | --- |
 | Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
-| Sposta all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
+| Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
 | Annullare una selezione, comprimere un pannello o chiudere una finestra di dialogo | Esc |
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
 È possibile utilizzare queste scelte rapide in parti specifiche di Journey Optimizer:
 
@@ -142,22 +142,22 @@ Funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate da A
     </tr>
   </thead>
   <tr>
-    <td>Elenco di percorsi, azioni, origini dati o eventi</td>
+    <td>Elenco percorsi, azioni, origini dati o eventi</td>
     <td>Creare un percorso, un’azione, un’origine dati o un evento</td>
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Area di lavoro di percorso in stato bozza</td>
+    <td rowspan="3">Area di lavoro del percorso in stato bozza</td>
     <td>Aggiungi un’attività dalla palette a sinistra nella prima posizione disponibile, dall’alto verso il basso</td>
     <td>Fai doppio clic sull’attività</td>
   </tr>
   <tr>
     <td>Seleziona tutte le attività</td>
-    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td>Elimina le attività selezionate</td>
-    <td>Elimina o Backspace, quindi Inserisci per confermare l’eliminazione</td>
+    <td>Elimina o backspace, quindi premi Invio per confermare l’eliminazione</td>
   </tr>
   <tr>
   <td rowspan="3">
@@ -184,24 +184,24 @@ Riquadro di configurazione dei seguenti elementi:
     <td>Esc</td>
   </tr>
   <tr>
-    <td rowspan="4">Percorso in modalità di prova</td>
+    <td rowspan="4">Percorso in modalità di test</td>
     <td>Attivare o disattivare la modalità di test</td>
     <td>T</td>
   </tr>
   <tr>
-    <td>Attiva un evento in un percorso basato su eventi</td>
+    <td>Attivare un evento in un percorso basato su eventi</td>
     <td>E</td>
   </tr>
   <tr>
     <td>
 
-Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL Single profile at a time]** opzione attivata
+Attivare un evento in un percorso basato su segmenti per il quale è attivata l’opzione **[!UICONTROL Single profile at a time]**
 
 </td>
     <td>P</td>
   </tr>
   <tr>
-    <td>Visualizza i registri di test</td>
+    <td>Visualizzare i registri di test</td>
     <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
@@ -214,7 +214,7 @@ Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL
   <tr>
     <td>Campo di testo</td>
     <td>Seleziona tutto il testo nel campo selezionato</td>
-    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td rowspan="2">Finestra a comparsa</td>
@@ -228,17 +228,17 @@ Attiva un evento in un percorso basato su segmenti per il quale il **[!UICONTROL
   <tr>
     <td>Editor di espressioni semplici</td>
     <td>Selezionare e aggiungere un campo</td>
-    <td>Fare doppio clic su un campo</td>
+    <td>Fai doppio clic su un campo</td>
   </tr>
   <tr>
-    <td>Esplorazione dei campi XDM</td>
+    <td>Navigazione nei campi XDM</td>
     <td>Seleziona tutti i campi di un nodo</td>
-    <td>Selezionare il nodo principale</td>
+    <td>Seleziona il nodo principale</td>
   </tr>
   <tr>
     <td>Anteprima payload</td>
-    <td>Selezionare il payload</td>
-    <td>Ctrl+A (Windows)<br/>Comando + A (Mac)</td>
+    <td>Seleziona il payload</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
 </table>
 
@@ -274,13 +274,13 @@ Per cambiare lingua:
 
 ## Cerca{#unified-search}
 
-In qualsiasi punto dell’interfaccia di Adobe Journey Optimizer, utilizza la funzionalità di ricerca Unified Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati, messaggi e altro ancora nelle sandbox.
+In qualsiasi area dell’interfaccia Adobe Journey Optimizer, utilizza la funzione di ricerca di Unified Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, dataset, messaggi e altro nelle tue sandbox.
 
 Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
 
 ![](assets/unified-search.png)
 
-Press **Invio** per accedere a tutti i risultati e filtrare per oggetto aziendale.
+Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto aziendale.
 
 ![](assets/search-and-filter.png)
 
@@ -290,7 +290,7 @@ Nella maggior parte degli elenchi, una barra di ricerca consente di cercare un e
 
 Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli che hai creato oppure quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
 
-Nell’elenco dei percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione dal **[!UICONTROL Status and version filters]**. Il tipo può essere: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un dato evento, un gruppo di campi o un’azione particolare con le opzioni **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md).
+Nell’elenco, puoi filtrare i percorsi in base al loro stato, versione e tipo mediante l’opzione **[!UICONTROL Status and version filters]**. Il tipo può essere: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un dato evento, un gruppo di campi o un’azione particolare con le opzioni **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
