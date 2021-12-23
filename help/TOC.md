@@ -6,15 +6,15 @@ user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperi
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '890'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Note sulla versione](using/release-notes.md)
    + [Ultimi aggiornamenti](using/documentation-updates.md)
@@ -22,10 +22,10 @@ ht-degree: 87%
    + [Cos’è Journey Optimizer](using/get-started.md)
    + Guida introduttiva{#quick-start}
       + [Panoramica](using/quick-start.md)
-      + [Introduzione come addetto al marketing](using/path/marketer.md)
-      + [Guida introduttiva a Data Engineer](using/path/data-engineer.md)
-      + [Introduzione come amministratore](using/path/administrator.md)
-      + [Guida introduttiva per sviluppatori](using/path/developer.md)
+      + [Introduzione al ruolo di addetto marketing](using/path/marketer.md)
+      + [Introduzione al ruolo di Data Engineer](using/path/data-engineer.md)
+      + [Introduzione al ruolo di amministratore](using/path/administrator.md)
+      + [Introduzione al ruolo di sviluppatore](using/path/developer.md)
    + [Interfaccia utente](using/user-interface.md)
    + [Limitazioni ](using/limitations.md)
 + Messaggi {#create-messages}
@@ -52,7 +52,7 @@ ht-degree: 87%
    + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
    + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
    + Casi d’uso{#personalization-use-cases}
-      + [Notifica dello stato dell&#39;ordine](using/personalization/personalization-use-case.md)
+      + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
       + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Funzioni assistenza{#functions}
       + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
@@ -175,7 +175,7 @@ ht-degree: 87%
             + [lunghezza](using/building-journeys/functions/functionlength.md)
             + [lower](using/building-journeys/functions/functionlower.md)
             + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
-            + [quadqualIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
+            + [notequalIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
             + [replace](using/building-journeys/functions/functionreplace.md)
             + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
             + [split](using/building-journeys/functions/functionsplit.md)
@@ -188,11 +188,12 @@ ht-degree: 87%
    + Casi d’uso {#journey-use-cases}
       + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Trasmettere dinamicamente le raccolte utilizzando azioni personalizzate](using/building-journeys/collections.md)
+      + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
       + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
+
       <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+    -->
 + Tracciare e monitorare {#reporting}
    + [Monitoraggio dei messaggi](using/message-monitoring.md)
    + Report live {#live-report}
@@ -221,11 +222,11 @@ ht-degree: 87%
       + [Elenco di eliminazione](using/suppression-list.md)
       + [Elenco Consentiti](using/allow-list.md)
 + Pagine di destinazione {#landing-pages}
-   + [Guida introduttiva alle pagine di destinazione](using/landing-pages/get-started-lp.md)
+   + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
    + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
-   + [Progettazione di una pagina di destinazione](using/landing-pages/design-lp.md)
-   + [Creare un elenco di iscrizioni](using/landing-pages/subscription-list.md)
-   + [Casi di utilizzo](using/landing-pages/lp-use-cases.md)
+   + [Progettare una pagina di destinazione](using/landing-pages/design-lp.md)
+   + [Creare un elenco di abbonamenti](using/landing-pages/subscription-list.md)
+   + [Casi d’uso](using/landing-pages/lp-use-cases.md)
    + Reporting {#lp-reporting}
       + [Generazione di rapporti sulle pagine di destinazione](using/landing-pages/lp-report.md)
       + [Generazione di rapporti sugli elenchi di abbonamenti](using/landing-pages/subscription-report.md)
