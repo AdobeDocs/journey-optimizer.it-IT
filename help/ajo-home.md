@@ -8,13 +8,13 @@ role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '202'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] Documentazione {#cjm-documentation}
+# Documentazione di Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
 
@@ -28,7 +28,7 @@ ht-degree: 40%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Che cosa è [!DNL Journey Optimizer]?</a>
+      <a href="using/get-started.md">Che cosa è[!DNL Journey Optimizer]?</a>
     </div>
     <p>Scopri le funzioni chiave e i casi d’uso
     <p>
@@ -41,14 +41,14 @@ ht-degree: 40%
       <a href="using/quick-start.md">Guida rapida</a>
     </div>
     <p>
-    Scopri come iniziare come amministratore, ingegnere dati o praticante di Percorso
+    Scopri come iniziare come amministratore, ingegnere dati o professionista di Journey
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">Progettazione di contenuti e-mail</a>
+      <a href="using/design-emails.md">Progettare un contenuto e-mail</a>
     </div>
     <p>
-    Progettazione di una nuova e-mail o importazione di un contenuto HTML esistente
+    Progettare una nuova e-mail o importare un contenuto HTML esistente
     <p>
     <div>
       <a href="using/building-journeys/journeys-message.md">Inviare messaggi</a>
@@ -61,19 +61,19 @@ ht-degree: 40%
     <p>Scopri come creare ed eseguire un percorso
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">Configurare gli [!DNL Journey Optimizer]</a>
+    <a href="using/configuration/get-started-configuration.md">Configurare [!DNL Journey Optimizer]</a>
     </div>
-    <p>Scopri i passaggi chiave da configurare [!DNL Journey Optimizer]
+    <p>Scopri i passaggi chiave per configurare [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Concedere l’accesso a [!DNL Journey Optimizer]</a>
     </div>
-    <p>Definire e gestire le autorizzazioni assegnate a [!DNL Journey Optimizer] utenti
+    <p>Definire e gestire le autorizzazioni assegnate agli utenti [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Gestione delle decisioni</a>
     </div>
-    <p>Crea offerte e fornisci ai tuoi clienti la migliore offerta ed esperienza possibile
+    <p>Crea offerte e fornisci la migliore offerta ed esperienza ai tuoi clienti
     <p>
     <p>
     <div><strong>Risorse aggiuntive</strong>
@@ -82,7 +82,7 @@ ht-degree: 40%
     <p>
     <div>
     <li>
-      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto Adobe Journey Optimizer</a>
+      <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto Adobe Journey Optimizer</a>
     </li>
     </div>
     <div>
@@ -107,7 +107,7 @@ ht-degree: 40%
     <p>
     <em></em>
     <p>
-    <p>GESTIONE DEI percorsi</p>
+    <p>GESTIONE PERCORSO</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Percorsi</a>
     </li>
