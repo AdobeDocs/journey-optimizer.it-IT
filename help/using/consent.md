@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Regolamenti come il GDPR stabiliscono che si devono soddisfare requisiti specifi
 * Il mancato rispetto di queste normative introduce rischi legali normativi per il tuo marchio.
 * Ti aiuta a evitare l’invio di comunicazioni non richieste ai destinatari, in modo che queste non vengano contrassegnate come spam danneggiando la tua reputazione.
 
-Ulteriori informazioni sulla gestione della privacy e sulle normative applicabili in [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target=&quot;_blank&quot;}.
+Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target=&quot;_blank&quot;}.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
@@ -32,7 +32,7 @@ Ulteriori informazioni sulla gestione della privacy e sulle normative applicabil
 
 ## Gestione degli opt-out {#opt-out-management}
 
-Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da un marchio. Ulteriori informazioni sulla legislazione applicabile nel [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target=&quot;_blank&quot;}.
+Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio. Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target=&quot;_blank&quot;}.
 
 Pertanto, devi sempre includere un **collegamento per l’annullamento dell’iscrizione** in ogni e-mail inviata ai destinatari:
 
@@ -45,7 +45,7 @@ Per aggiungere un collegamento per l’annullamento dell’iscrizione, effettua 
 
 1. Crea la pagina di destinazione per l’annullamento dell’iscrizione.
 
-1. Ospitalo sul sistema di terze parti a tua scelta.
+1. Inseriscilo sul sistema di terze parti a tua scelta.
 
 1. [Crea un messaggio ](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
@@ -59,7 +59,7 @@ Per aggiungere un collegamento per l’annullamento dell’iscrizione, effettua 
 
    ![](assets/opt-out-link-type.png)
 
-1. In **[!UICONTROL Link]** incolla il collegamento alla pagina di destinazione.
+1. Nel campo **[!UICONTROL Link]**, copia il collegamento alla pagina di destinazione.
 
    ![](assets/opt-out-link-url.png)
 
@@ -85,7 +85,7 @@ Per aggiungere un collegamento per l’annullamento dell’iscrizione, effettua 
 
    L’utente non riceverà più comunicazioni dal tuo marchio, a meno che non acconsenta nuovamente.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi di identità e un valore di identità corrispondente. Ulteriori informazioni nel [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi di identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -141,9 +141,9 @@ Corpo della richiesta:
 
 ## Rinuncia con un clic {#one-click-opt-out}
 
-Poiché molti clienti cercano un processo più semplice per annullare l’iscrizione, puoi anche aggiungere un collegamento di rinuncia con un solo clic al contenuto dell’e-mail. Questo collegamento consentirà ai destinatari di annullare rapidamente l’iscrizione alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui devono confermare la rinuncia.
+Poiché molti clienti cercano un processo più semplice per annullare l’abbonamento, puoi anche aggiungere al contenuto dell’e-mail un collegamento di rinuncia con un solo clic. Questo collegamento consentirà ai destinatari di annullare rapidamente l’abbonamento alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui devono confermare la rinuncia.
 
-Scopri come aggiungere un collegamento di rinuncia al contenuto del messaggio in [questa sezione](message-tracking.md#one-click-opt-out-link).
+Scopri come aggiungere al contenuto del messaggio un collegamento di rinuncia in [questa sezione](message-tracking.md#one-click-opt-out-link).
 
 Una volta inviato il messaggio tramite un [percorso](building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, il suo profilo viene immediatamente escluso.
 
@@ -157,7 +157,7 @@ Ad esempio, il collegamento per annullare l’abbonamento verrà visualizzato in
 
 A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione si verifica uno dei seguenti impatti:
 
-* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Ulteriori informazioni nel [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
 
 * Ha lo stesso effetto di fare clic sul collegamento per annullare l’abbonamento dal contenuto dell’e-mail: il destinatario viene reindirizzato a una pagina di destinazione con un pulsante per confermare la rinuncia. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](#opt-out-management).
 
