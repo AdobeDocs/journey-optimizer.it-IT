@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] fornisce un archivio unico e centralizzato delle risorse che puoi utilizzare per compilare i messaggi. È accessibile direttamente da [!DNL Adobe Journey Optimizer] attraverso **[!UICONTROL Assets]** sezione . È inoltre possibile accedere a risorse e cartelle durante la progettazione di un contenuto e-mail. [Ulteriori informazioni sulla progettazione delle e-mail](design-emails.md).
 
->[!NOTE]
->
-> Per lavorare con [!DNL Adobe Experience Manager Assets Essentials], devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurati che gli utenti, che devono accedere a [!DNL Assets Essentials], fanno parte del **Utenti consumer Assets Essentials** o **Utenti Assets Essentials** Profili di prodotto. <br> Per ulteriori informazioni, consulta questo [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Prima di utilizzare [!DNL Adobe Experience Manager Assets Essentials], devi aggiungere gli utenti al **Utenti consumer Assets Essentials** o **Utenti Assets Essentials** Profili di prodotto. [Ulteriori informazioni nella documentazione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-Procedure più dettagliate [!DNL Assets Essentials], fare riferimento a [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>Per i prodotti Journey Optimizer ottenuti prima del 6 gennaio 2022, devi distribuire [!DNL Adobe Experience Manager Assets Essentials] per la tua organizzazione. Ulteriori informazioni nel [Distribuzione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)Sezione {target=&quot;_blank&quot;}.
 
 ## Caricare e inserire le risorse{#add-asset}
 

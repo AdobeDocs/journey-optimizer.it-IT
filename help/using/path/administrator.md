@@ -3,10 +3,10 @@ title: Guida introduttiva di Journey Optimizer per l'amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 3%
+source-wordcount: '705'
+ht-degree: 2%
 
 ---
 
@@ -32,8 +32,10 @@ Scopri la gestione degli accessi nelle pagine seguenti:
 
 1. **Impostare le autorizzazioni** per i profili di prodotto, tra cui **Sandbox** e dai accesso ai membri del tuo team assegnandoli a profili di prodotto diversi. Questo passaggio viene eseguito nella [Admin Console](https://adminconsole.adobe.com/){_blank}. Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Product profile]**. Ogni autorizzazione viene raccolta in funzionalità, ad esempio Percorso, Messaggi o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Ulteriori informazioni nel [Livelli di autorizzazione](../administration/high-low-permissions.md) sezione .
 
+Inoltre, devi aggiungere gli utenti che devono accedere ad Assets Essentials al **Utenti consumer Assets Essentials** o **Utenti Assets Essentials** Profili di prodotto. [Ulteriori informazioni nella documentazione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-Inoltre, devi **Distribuzione[!DNL Adobe Experience Manager Assets Essentials]** per gestire risorse e immagini nei messaggi: utenti che hanno bisogno di accedere a [!DNL Assets Essentials] deve essere parte del **Utenti consumer Assets Essentials** o **Utenti Assets Essentials** Profili di prodotto. [Ulteriori informazioni nella documentazione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>Per i prodotti Journey Optimizer ottenuti prima del 6 gennaio 2022, devi distribuire [!DNL Adobe Experience Manager Assets Essentials] per la tua organizzazione. Ulteriori informazioni nel [Distribuzione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)Sezione {target=&quot;_blank&quot;}.
 
 Quando accedi [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un certo numero di IP a seconda del contratto.
 
