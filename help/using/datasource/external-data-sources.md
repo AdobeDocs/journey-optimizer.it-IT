@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -185,4 +185,4 @@ Adesso puoi modificare la durata della cache del token per un’origine dati di 
 
 >[!NOTE]
 >
->La durata della cache aiuta a evitare troppe chiamate agli endpoint di autenticazione. Il mantenimento del token di autenticazione è memorizzato nella cache dei servizi. Non esiste persistenza. Se un servizio viene riavviato, inizia con una cache pulita. La durata predefinita della cache è di 1 ora. Nel payload di azioni personalizzato, può essere adattato specificando un’altra durata di conservazione.
+>La durata della cache aiuta a evitare troppe chiamate agli endpoint di autenticazione. Il mantenimento del token di autenticazione è memorizzato nella cache dei servizi. Non esiste persistenza. Se un servizio viene riavviato, inizia con una cache pulita. La durata predefinita della cache è di 1 ora. Nel payload di autenticazione personalizzato, può essere adattato specificando un’altra durata di conservazione.
