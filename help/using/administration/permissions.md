@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 14%
@@ -103,7 +103,7 @@ Se necessario, puoi anche creare un nuovo profilo di prodotto con autorizzazioni
 
 Per ulteriori informazioni su come creare e gestire le sandbox, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
 
-In questo esempio, creeremo un profilo di prodotto denominato **Percorsi in sola lettura** in cui concederemo diritti di sola lettura alla funzione Percorso. Gli utenti potranno accedere e visualizzare solo i percorsi e non potranno accedere ad altre funzioni quali **[!UICONTROL Decision management]** o **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+In questo esempio, creeremo un profilo di prodotto denominato **Percorsi in sola lettura** in cui concederemo diritti di sola lettura alla funzione Percorso. Gli utenti potranno accedere e visualizzare solo i percorsi e non potranno accedere ad altre funzioni quali **[!DNL  Decision management]** o **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 Per creare la nostra **Percorsi in sola lettura** **[!UICONTROL product profiles]**:
 
@@ -125,7 +125,7 @@ Per creare la nostra **Percorsi in sola lettura** **[!UICONTROL product profiles
 
 1. Per aggiungere le autorizzazioni per gli utenti per accedere a funzioni diverse, seleziona la **[!UICONTROL Permissions]** scheda .
 
-1. Selezionare tra le diverse funzionalità, ad esempio **[!UICONTROL Messages]**, **[!UICONTROL Segments]** o **[!UICONTROL Decision management]** disponibile in [!DNL Journey Optimizer] elencati nel menu a sinistra.
+1. Selezionare tra le diverse funzionalità, ad esempio **[!DNL Messages]**, **[!DNL Segments]** o **[!DNL Decision management]** disponibile in [!DNL Journey Optimizer] elencati nel menu a sinistra.
 
    Qui selezioniamo il **[!UICONTROL Journeys]** funzionalità.
 
@@ -133,7 +133,7 @@ Per creare la nostra **Percorsi in sola lettura** **[!UICONTROL product profiles
 
 1. Da **[!UICONTROL Available Permission Items]** selezionare le autorizzazioni da assegnare al **[!UICONTROL Product profile]** facendo clic sull’icona più (+).
 
-   Qui selezioniamo **[!UICONTROL View journeys]** e **[!UICONTROL View journeys event, data sources, actions]**.
+   Qui selezioniamo **[!DNL View journeys]** e **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

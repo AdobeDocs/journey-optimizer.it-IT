@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1ba8d8cd6b95d7a0dfa50096f1a1f64909fe8d17
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,6 @@ La preintestazione è ora configurata per l’e-mail.
 >id="ac_edition_backgroundimage"
 >title="Impostazioni di sfondo"
 >abstract="La finestra di progettazione e-mail ti consente di personalizzare il colore di sfondo o l’immagine di sfondo per il contenuto.Nota che l’immagine di sfondo non è supportata da tutti i client e-mail."
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Informazioni aggiuntive"
 
 Quando si tratta di impostare gli sfondi con E-mail Designer, l’Adobe consiglia quanto segue:
 

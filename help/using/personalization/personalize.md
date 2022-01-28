@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 14%
+source-wordcount: '757'
+ht-degree: 13%
 
 ---
 
@@ -114,6 +114,24 @@ Una volta selezionato, il riferimento viene aggiunto nell’editor.
 Nell’esempio seguente, l’editor di espressioni ti consente di selezionare i profili che compiono il loro compleanno oggi e quindi di completare la personalizzazione inserendo un’offerta specifica corrispondente a questo giorno.
 
 ![](assets/perso_ee2.png)
+
+### Aggiungi ai preferiti{#fav}
+
+L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati con maggiore frequenza. Per aggiungere un attributo ai preferiti, fai clic sul menu ellisse e scegli **[!UICONTROL Add to favorites]**.
+
+![](assets/favorite-option.png)
+
+Per accedere agli elementi preferiti, utilizza la **[!UICONTROL Favorites]** nel menu a discesa.
+
+![](assets/favorite-menu.png)
+
+Da questo elenco puoi aggiungere rapidamente l’oggetto di personalizzazione all’espressione corrente.
+
+![](assets/favorite-list.png)
+
+Se non desideri più visualizzare un elemento nell&#39;elenco dei preferiti, puoi rimuoverlo dai preferiti.
+
+![](assets/favorite-remove.png)
 
 ## Video sulle procedure{#video-perso}
 

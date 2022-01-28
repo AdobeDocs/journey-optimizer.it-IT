@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 8%
+source-wordcount: '1167'
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,7 @@ Sono disponibili i seguenti tipi di condizioni:
 * [Condizione di tempo](#time_condition)
 * [Divisione percentuale](#percentage_split)
 * [Condizione data](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [Limite del profilo](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ Questo ti consente di definire un flusso diverso in base alla data. Ad esempio, 
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## Limite del profilo {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+Utilizza questo tipo di condizione per impostare un numero massimo di profili per un percorso percorso. Una volta raggiunto questo limite, i profili che entrano hanno un percorso alternativo. In questo modo i percorsi non supereranno mai il limite definito.
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+Puoi utilizzare questo tipo di condizione per aumentare il volume delle consegne. Vedi questo [caso d&#39;uso](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+Il limite predefinito è 1000.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+Il contatore si applica solo alla versione del percorso selezionata. Il contatore viene reimpostato su zero dopo un mese. Dopo una reimpostazione, i profili in entrata riprendono il percorso nominale fino a raggiungere il limite del contatore.
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+Il percorso nominale ha sempre la priorità sul percorso alternativo, anche se si sposta il percorso alternativo sopra il percorso nominale sull&#39;area di lavoro del percorso.
+
+Per i percorsi vivi, le soglie da considerare per garantire il raggiungimento del limite sono le seguenti:
+
+* Per un massimale superiore a 10000, il numero di profili distinti da inserire deve essere almeno 1,3 volte superiore al massimale.
+* Per un massimale inferiore a 10000, il numero di profili distinti da inserire deve essere 1000 più il massimale.
+
+Il limite del profilo non viene preso in considerazione in modalità di test.
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## Utilizzo di segmenti nelle condizioni {#using-a-segment}
 

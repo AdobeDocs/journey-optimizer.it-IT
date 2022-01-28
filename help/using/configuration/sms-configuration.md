@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 2%
+source-wordcount: '360'
+ht-degree: 4%
 
 ---
 
@@ -87,8 +88,6 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    ![](../assets/preset-active.png)
-
-Per scoprire come configurare un predefinito di messaggio per le notifiche push e le e-mail, consulta [questa sezione](message-presets.md).
 
 Ora puoi inviare messaggi SMS con Journey Optimizer.
 

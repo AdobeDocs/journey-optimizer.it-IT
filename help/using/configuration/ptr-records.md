@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
+source-git-commit: cbb9aa1df7efd60407f4538edf519d96780c4961
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -40,25 +40,52 @@ Puoi aprire un record PTR dall’elenco per visualizzare il nome del sottodomini
 
 Puoi modificare un record PTR per modificare il sottodominio associato a un indirizzo IP.
 
->[!CAUTION]
+>[!NOTE]
 >
->Non puoi modificare un record PTR associato a un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation).
+>Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campi.
+
+### Sottodomini completamente delegati
+
+Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, segui i passaggi seguenti.
 
 1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
 
    ![](../assets/ptr-record-select.png)
 
-1. Modifica il sottodominio come desiderato.
+1. Selezionare un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) all&#39;Adobe dall&#39;elenco.
 
    ![](../assets/ptr-record-subdomain.png)
 
+1. Fai clic su **[!UICONTROL Save]** per confermare le modifiche.
+
+### Sottodomini delegati che utilizzano il metodo CNAME {#edit-ptr-subdomains-cname}
+
+Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation), segui i passaggi seguenti.
+
+1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
+
+   ![](../assets/ptr-record-select-cname.png)
+
+1. Seleziona un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
+
+   ![](../assets/ptr-record-subdomain-cname.png)
+
+1. È necessario creare un nuovo record DNS inoltrato sulla piattaforma di hosting. A questo scopo, copia il record generato da Adobe. Una volta fatto, seleziona la casella &quot;Confermo..&quot;.
+
+   ![](../assets/ptr-record-subdomain-confirm.png)
+
    >[!NOTE]
    >
-   >Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campi.
+   >Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
+   >   * Controlla il provider DNS se il record DNS in inoltro è stato creato correttamente.
+   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere qualche minuto e riprovare.
+
 
 1. Fai clic su **[!UICONTROL Save]** per confermare le modifiche.
 
-Un **[!UICONTROL Updating]** accanto al nome del record PTR nell’elenco viene visualizzata l’icona .
+## Controlla i dettagli dell&#39;aggiornamento del record PTR
+
+A **[!UICONTROL Processing]** accanto al nome del record PTR nell’elenco viene visualizzata l’icona .
 
 ![](../assets/ptr-record-updating.png)
 
@@ -70,13 +97,13 @@ Puoi visualizzare informazioni quali lo stato dell’aggiornamento e le modifich
 
 ![](../assets/ptr-record-updates.png)
 
-## Aggiorna stati
+## Stato dell’aggiornamento del record PTR
 
 Un aggiornamento del record PTR può avere i seguenti stati:
 
-* **[!UICONTROL Processing]**: L&#39;aggiornamento del record PTR è stato inviato ed è in corso un processo di verifica.
-* **[!UICONTROL Success]**: Il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
-* **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: L&#39;aggiornamento del record PTR è stato inviato ed è in corso un processo di verifica.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
 
 ### Elaborazione
 

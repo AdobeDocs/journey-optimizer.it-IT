@@ -5,7 +5,8 @@ description: Informazioni sui tipi di dati nelle funzioni di gestione della racc
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0c4940472be7c157f319ceefc5e7eed7287d39c3
+exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
+source-git-commit: ffd92f3e4ddaa3d31ea0f39e876958262a058a85
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 2%
@@ -194,7 +195,7 @@ Il risultato è &quot;token_1&quot;.
 Questa espressione restituisce l’ultimo token di notifica push associato alle applicazioni mobili la cui versione è 1.0.
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last(currentEventField.application.version == "1.0").token}
 ```
 
 Il risultato è &quot;token_2&quot;.

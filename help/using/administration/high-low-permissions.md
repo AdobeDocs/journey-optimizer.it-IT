@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 Ogni profilo di prodotto è composto da autorizzazioni che consentono agli utenti di accedere alle diverse funzioni.
 Possono essere suddivisi in due tipi:
 
-* **Autorizzazione di alto livello**: rappresenta le diverse autorizzazioni a cui è possibile assegnare **[!UICONTROL Product profile]** in [!DNL Admin console], quali **[!UICONTROL Publish journeys]** e **[!UICONTROL Manage subdomains delegation]**. Le autorizzazioni di alto livello includono le autorizzazioni di basso livello.
+* **Autorizzazione di alto livello**: rappresenta le diverse autorizzazioni a cui è possibile assegnare **[!UICONTROL Product profile]** in [!DNL Admin console], quali **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. Le autorizzazioni di alto livello includono le autorizzazioni di basso livello.
 
 * **Autorizzazione di basso livello**: rappresenta le diverse autorizzazioni provenienti dall&#39;autorizzazione di alto livello.
 
-Ad esempio, il **[!UICONTROL Journey administrator]** al profilo di prodotto viene assegnato il **[!UICONTROL Manage journeys]** autorizzazione. Da questa autorizzazione risultano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
+Ad esempio, il **[!DNL Journey administrator]** al profilo di prodotto viene assegnato il **[!DNL Manage journeys]** autorizzazione. Da questa autorizzazione risultano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
 
 ## Capacità percorso {#journey-capability}
 
-### Autorizzazione per la gestione dei percorsi {#manage-journeys}
+### [!DNL Manage journeys] autorizzazione {#manage-journeys}
 
-La **[!UICONTROL Manage journeys]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi Percorsi e di modificarli o eliminarli, nonché di accedere agli oggetti utilizzati nell’area di lavoro del percorso per generare il flusso di percorso.
+La **[!DNL Manage journeys]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi Percorsi e di modificarli o eliminarli, nonché di accedere agli oggetti utilizzati nell’area di lavoro del percorso per generare il flusso di percorso.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -58,9 +58,9 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * schemas.read
 
-### Autorizzazione per la pubblicazione di percorsi {#publish-journeys}
+### [!DNL Publish journeys] autorizzazione {#publish-journeys}
 
-La **[!UICONTROL Publish journeys]** le autorizzazioni di alto livello consentono agli utenti di pubblicare percorsi.
+La **[!DNL Publish journeys]** le autorizzazioni di alto livello consentono agli utenti di pubblicare percorsi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -68,9 +68,9 @@ Include le seguenti autorizzazioni di basso livello:
    * journeys.publish
    * journeys.read
 
-### Visualizza autorizzazione percorsi {#view-journeys}
+### [!DNL View journeys] autorizzazione {#view-journeys}
 
-La **[!UICONTROL View journeys]** le autorizzazioni di alto livello consentono agli utenti di sfogliare e visualizzare percorsi.
+La **[!DNL View journeys]** le autorizzazioni di alto livello consentono agli utenti di sfogliare e visualizzare percorsi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -81,9 +81,9 @@ Include le seguenti autorizzazioni di basso livello:
    * segments.read
    * profiles.read
 
-### Gestisci autorizzazioni eventi, origini dati e azioni percorsi {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] autorizzazione {#manage-journeys-events}
 
-La **[!UICONTROL Manage journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di configurare configurazioni di eventi e dati.
+La **[!DNL Manage journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di configurare configurazioni di eventi e dati.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -97,14 +97,15 @@ Include le seguenti autorizzazioni di basso livello:
    * percorsi_actions.read
    * percorsi_actions.write
    * percorsi_actions.delete
+
 * Adobe Experience Platform specifico:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Visualizza autorizzazione eventi, origini dati e azioni percorsi {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] autorizzazione {#view-journeys-event}
 
-La **[!UICONTROL View journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare eventi e dati nel flusso di percorso.
+La **[!DNL View journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare eventi e dati nel flusso di percorso.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -118,9 +119,9 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * identity_namespace.read
 
-### Visualizza autorizzazione rapporto percorsi {#view-journeys-report}
+### [!DNL View journeys report] autorizzazione {#view-journeys-report}
 
-La **[!UICONTROL View journeys report]** le autorizzazioni di alto livello consentono agli utenti di visualizzare rapporti di percorso di sola lettura.
+La **[!DNL View journeys report]** le autorizzazioni di alto livello consentono agli utenti di visualizzare rapporti di percorso di sola lettura.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -136,9 +137,9 @@ Include le seguenti autorizzazioni di basso livello:
 
 ## Capacità del messaggio {#message-capability}
 
-### Autorizzazione per la gestione dei messaggi {#manage-messages}
+### [!DNL Manage messages] autorizzazione {#manage-messages}
 
-La **[!UICONTROL Manage messages]** le autorizzazioni di alto livello consentono agli utenti di creare e modificare/eliminare messaggi.
+La **[!DNL Manage messages]** le autorizzazioni di alto livello consentono agli utenti di creare e modificare/eliminare messaggi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -152,9 +153,9 @@ Include le seguenti autorizzazioni di basso livello:
    * segments.read
    * schemas.read
 
-### Gestione dell’anteprima e del test dei messaggi {#mange-messages-preview}
+### [!DNL Manage messages preview and test] autorizzazione {#mange-messages-preview}
 
-La **[!UICONTROL Manage messages preview and test]** le autorizzazioni di alto livello consentono agli utenti di visualizzare in anteprima i messaggi personalizzati.
+La **[!DNL Manage messages preview and test]** le autorizzazioni di alto livello consentono agli utenti di visualizzare in anteprima i messaggi personalizzati.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -174,9 +175,9 @@ Include le seguenti autorizzazioni di basso livello:
    * queries.write
    * merge_Policies.read
 
-### Autorizzazione per la pubblicazione dei messaggi {#publish-messages}
+### [!DNL Publish messages] autorizzazione {#publish-messages}
 
-La **[!UICONTROL Publish messages]** le autorizzazioni di alto livello consentono agli utenti di pubblicare messaggi.
+La **[!DNL Publish messages]** le autorizzazioni di alto livello consentono agli utenti di pubblicare messaggi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -188,9 +189,9 @@ Include le seguenti autorizzazioni di basso livello:
    * schemas.read
    * datasets.read
 
-### Visualizza autorizzazione messaggi {#view-messages}
+### [!DNL View messages] autorizzazione {#view-messages}
 
-La **[!UICONTROL View messages]** le autorizzazioni di alto livello consentono agli utenti di leggere solo i messaggi.
+La **[!DNL View messages]** le autorizzazioni di alto livello consentono agli utenti di leggere solo i messaggi.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -202,9 +203,9 @@ Include le seguenti autorizzazioni di basso livello:
    * schemas.read
    * segments.read
 
-### Visualizza autorizzazione rapporti messaggi {#view-message-reports}
+### [!DNL View messages report] autorizzazione {#view-message-reports}
 
-La **[!UICONTROL View messages report]** le autorizzazioni di alto livello consentono agli utenti di inviare e-mail e rapporti push di sola lettura.
+La **[!DNL View messages report]** le autorizzazioni di alto livello consentono agli utenti di inviare e-mail e rapporti push di sola lettura.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -218,9 +219,9 @@ Include le seguenti autorizzazioni di basso livello:
 
 ## Capacità di gestione delle decisioni {#decisions-permissions}
 
-### Autorizzazione per la gestione delle decisioni {#manage-decisioning}
+### [!DNL Manage decisions] autorizzazione {#manage-decisioning}
 
-La **[!UICONTROL Manage decisions]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi e modificare/eliminare quelli esistenti **[!UICONTROL Activity entities]**, nonché gestire gli oggetti utilizzati in tali attività per prendere le decisioni.
+La **[!DNL Manage decisions]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi e modificare/eliminare quelli esistenti **[!DNL Activity entities]**, nonché gestire gli oggetti utilizzati in tali attività per prendere le decisioni.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -244,9 +245,9 @@ Include le seguenti autorizzazioni di basso livello:
    * profile.read
    * segments.read
 
-### Visualizza autorizzazione decisioni {#view-decisions}
+### [!DNL View decisions] autorizzazione {#view-decisions}
 
-La **[!UICONTROL View decisions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare un&#39;attività esistente e gli oggetti aziendali correlati per prendere le decisioni necessarie.
+La **[!DNL View decisions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare un&#39;attività esistente e gli oggetti aziendali correlati per prendere le decisioni necessarie.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -263,9 +264,9 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.write
    * datasets.delete
 
-### Autorizzazione per pubblicare offerte decisionali {#publish-decisions}
+### [!DNL Publish offers decisioning] autorizzazione {#publish-decisions}
 
-La **[!UICONTROL Publish offers decisioning]** le autorizzazioni di alto livello consentono agli utenti di accedere per approvare/annullare l’approvazione delle attività Offerta.
+La **[!DNL Publish offers decisioning]** le autorizzazioni di alto livello consentono agli utenti di accedere per approvare/annullare l’approvazione delle attività Offerta.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -285,9 +286,9 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * profiles.read
 
-### Autorizzazione per gestire le strategie di classificazione {#manage-decisions}
+### [!DNL Manage ranking strategies] autorizzazione {#manage-decisions}
 
-La **[!UICONTROL Manage ranking strategies]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e di utilizzare le funzioni di azione.
+La **[!DNL Manage ranking strategies]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e di utilizzare le funzioni di azione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -301,9 +302,9 @@ Include le seguenti autorizzazioni di basso livello:
 
 ## Capacità di amministrazione {#administration-permissions}
 
-### Gestisci autorizzazioni di delega dei sottodomini {#manage-subdomain}
+### [!DNL Manage subdomains delegation] autorizzazione {#manage-subdomain}
 
-La **[!UICONTROL Manage subdomains delegation]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare deleghe di sottodominio (incluso il pool IP).
+La **[!DNL Manage subdomains delegation]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare deleghe di sottodominio (incluso il pool IP).
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -311,18 +312,28 @@ Include le seguenti autorizzazioni di basso livello:
 * sottodomini_delegate.write
 * sottodomini_delegate.delete
 
-### Visualizza autorizzazione record PTR {#view-ptr}
+### [!DNL Manage PTR records] autorizzazione {#manage-ptr}
 
-La **[!UICONTROL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
+La **[!DNL Manage PTR records]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare i record PTR configurati in base al sottodominio.
+
+Include le seguenti autorizzazioni di basso livello:
+
+* PTR_records.read
+* PTR_records.write
+* sottodomini_delegate.read
+
+### [!DNL View PTR records] autorizzazione {#view-ptr}
+
+La **[!DNL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
 
 Include le seguenti autorizzazioni di basso livello:
 
 * PTR_records.read
 * sottodomini_delegate.read
 
-### Gestisci autorizzazioni pool IP {#manage-ip-pools}
+### [!DNL Manage IP pools] autorizzazione {#manage-ip-pools}
 
-La **[!UICONTROL Manage IP pools]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare la definizione di affinità.
+La **[!DNL Manage IP pools]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare la definizione di affinità.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -330,9 +341,9 @@ Include le seguenti autorizzazioni di basso livello:
 * IP_pool.write
 * IP_pool.delete
 
-### Gestisci autorizzazioni impostazioni generali dei messaggi {#manage-message-settings}
+### [!DNL Manage messages general settings] autorizzazione {#manage-message-settings}
 
-La **[!UICONTROL Manage messages general settings]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
+La **[!DNL Manage messages general settings]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -343,9 +354,9 @@ Include le seguenti autorizzazioni di basso livello:
 * Adobe Experience Platform specifico:
    * schemas.read
 
-### Visualizza messaggi autorizzazione impostazioni generali {#view-message-settings}
+### [!DNL View messages general settings] autorizzazione {#view-message-settings}
 
-La **[!UICONTROL View messages general settings]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l’indirizzo di esecuzione.
+La **[!DNL View messages general settings]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l’indirizzo di esecuzione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -354,9 +365,9 @@ Include le seguenti autorizzazioni di basso livello:
 * Adobe Experience Platform specifico:
    * schemas.read
 
-### Autorizzazioni per la gestione dei predefiniti per i messaggi {#manage-message-presets}
+### [!DNL Manage messages presets] autorizzazione {#manage-message-presets}
 
-La **[!UICONTROL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare i predefiniti per messaggi tra i diversi canali a livello di sandbox.
+La **[!DNL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare i predefiniti per messaggi tra i diversi canali a livello di sandbox.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -368,20 +379,20 @@ Include le seguenti autorizzazioni di basso livello:
    * IP_pool.read
    * mobile_setting.read (da Adobe Experience Platform Launch)
 
-### Visualizza autorizzazione predefiniti per messaggi {#view-message-presets}
+### [!DNL View messages presets] autorizzazione {#view-message-presets}
 
-La **[!UICONTROL View messages presets]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i predefiniti per messaggi al fine di sapere quali predefiniti per messaggi utilizzare durante la creazione di un messaggio.
+La **[!DNL View messages presets]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i predefiniti per messaggi al fine di sapere quali predefiniti per messaggi utilizzare durante la creazione di un messaggio.
 
 Include le seguenti autorizzazioni di basso livello:
 
 * messages_presets.read
 * sottodomini_delegate.read
 * IP_pool.read
-* mobile_setting.read (da Adobe Experience Platform Launch)
+* mobile_setting.read (da raccolta dati Adobe Experience Platform)
 
-### Gestisci autorizzazione di soppressione {#manage-suppression}
+### [!DNL Manage suppression] autorizzazione {#manage-suppression}
 
-La **[!UICONTROL Manage suppression]** l’autorizzazione di alto livello consente agli utenti di definire il numero di mancati recapiti prima che un indirizzo e-mail venga aggiunto all’elenco di soppressione, nonché di aggiungere ed eliminare voci da/verso l’elenco di soppressione.
+La **[!DNL Manage suppression]** l’autorizzazione di alto livello consente agli utenti di definire il numero di mancati recapiti prima che un indirizzo e-mail venga aggiunto all’elenco di soppressione, nonché di aggiungere ed eliminare voci da/verso l’elenco di soppressione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -391,26 +402,28 @@ Include le seguenti autorizzazioni di basso livello:
 * suppression_list.write
 * suppression_list.delete
 
-### Visualizza autorizzazione elenco di soppressione {#view-suppresion-list}
+### [!DNL View suppression list] autorizzazione {#view-suppression-list}
 
-La **[!UICONTROL View suppression list]** le autorizzazioni di alto livello consentono agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
+La **[!DNL View suppression list]** le autorizzazioni di alto livello consentono agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
 
 Include le seguenti autorizzazioni di basso livello:
 
 * Journey Optimizer specifico:
    * suppression_list.view
+
 * Adobe Experience Platform specifico:
    * profiles.read
    * datasets.read
 
-### Autorizzazione per l&#39;esportazione dell&#39;elenco di soppressione {#export-suppression-list}
+### [!DNL Export suppression list] autorizzazione {#export-suppression-list}
 
-La **[!UICONTROL Export suppression list]** le autorizzazioni di alto livello consentono agli utenti di scaricare l’elenco di soppressione come file CSV.
+La **[!DNL Export suppression list]** le autorizzazioni di alto livello consentono agli utenti di scaricare l’elenco di soppressione come file CSV.
 
 Include le seguenti autorizzazioni di basso livello:
 
 * Journey Optimizer specifico:
    * suppression_list.export
+
 * Adobe Experience Platform specifico:
    * profiles.read
    * datasets.read

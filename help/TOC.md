@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperienze connesse, contestuali e personalizzate.
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
-workflow-type: ht
-source-wordcount: '890'
-ht-degree: 100%
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
       + [Funzioni oggetto](using/personalization/functions/objects.md)
       + [Funzioni stringa](using/personalization/functions/string.md)
    + [Aggiungere offerte personalizzate](using/deliver-personalized-offers.md)
-+ Segmenti, profili e identità{#segment}
++ Segmenti, profili ed identità{#segment}
    + Segmenti {#segments}
       + [Introduzione ai segmenti](using/segment/about-segments.md)
       + [Generare segmenti](using/segment/creating-a-segment.md)
@@ -190,9 +190,7 @@ ht-degree: 100%
       + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
       + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [Incremento delle consegne](using/building-journeys/ramp-up-deliveries-uc.md)
 + Tracciare e monitorare {#reporting}
    + [Monitoraggio dei messaggi](using/message-monitoring.md)
    + Report live {#live-report}

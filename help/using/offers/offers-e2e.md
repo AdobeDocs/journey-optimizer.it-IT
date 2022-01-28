@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 5%
+source-wordcount: '1343'
+ht-degree: 4%
 
 ---
 
@@ -258,6 +258,10 @@ Ora puoi visualizzare tutte le offerte personalizzate e l’offerta di fallback 
 Utilizza la **[!UICONTROL Offers]** per sfogliare i dati, utilizza le frecce destra e sinistra dei componenti di contenuto. Puoi anche visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente. [Ulteriori informazioni](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 Dopo aver salvato le modifiche e dopo la pubblicazione del messaggio, le offerte sono pronte per essere visualizzate nei profili pertinenti al momento dell’invio del messaggio come parte di un percorso.
+
+>[!NOTE]
+>
+>Quando aggiorni un&#39;offerta, un&#39;offerta di fallback, una raccolta di offerte o una decisione di offerta a cui si fa riferimento direttamente o indirettamente in un [pubblicato](../../using/publish-manage-message.md) Gli aggiornamenti ora vengono automaticamente rispecchiati nel messaggio corrispondente, senza che sia necessario ripubblicarlo.
 
 **Argomenti correlati:**
 

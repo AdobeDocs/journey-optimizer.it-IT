@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ Una volta creato il messaggio, puoi pubblicarlo per renderlo disponibile per l�
 Dopo la pubblicazione, il messaggio viene aggiunto all’elenco dei messaggi con la **[!UICONTROL Published]** stato.
 
 È ora pronto per essere attivato da uno o più [percorsi](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente in un messaggio pubblicato, gli aggiornamenti vengono ora rispecchiati automaticamente nel messaggio corrispondente, senza dover ripubblicarlo. [Ulteriori informazioni sulle offerte](offers/get-started/starting-offer-decisioning.md)
 
 ## Aggiornare un messaggio di sola lettura {#modify-message}
 
