@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
+source-git-commit: 01a18d6a54775eb2cd0bfda5080e4007b80727de
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La sezione Classificazioni di Offer decisioning AI è stata aggiornata con una descrizione più dettagliata del modello di ottimizzazione automatica. [Ulteriori informazioni](offers/offer-library/create-ranking-strategies.md#auto-optimization)
 
 * È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
+* La sezione relativa a [!DNL Journey Optimizer] le funzionalità di personalizzazione sono state riorganizzate per una migliore leggibilità. [Ulteriori informazioni](personalization/personalize.md)
 
 ## Novembre 2021
 

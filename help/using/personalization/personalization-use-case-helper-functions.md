@@ -1,12 +1,12 @@
 ---
 title: Casi &di utilizzo della personalizzazione; e-mail di abbandono carrello
-description: Scopri come personalizzare un messaggio utilizzando le funzioni di supporto
+description: Scopri come personalizzare un messaggio utilizzando le funzioni di supporto.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 3%
@@ -332,7 +332,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 * [Funzioni stringa](functions/string.md)
 
-### Casi di utilizzo
+### Casi d’uso
 
 * [Personalizzazione con informazioni sul profilo, contesto e offerta](personalization-use-case.md)
 

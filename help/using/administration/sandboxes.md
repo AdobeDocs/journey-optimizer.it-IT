@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
+source-git-commit: 7d466d87c337053b32489df6dedbfd4c350230bb
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 71%
+source-wordcount: '365'
+ht-degree: 66%
 
 ---
 
@@ -23,7 +23,9 @@ Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. 
 [!DNL Journey Optimizer] presenta le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
 Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni nella guida utente della sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
 
-Il controllo del commutatore sandbox è disponibile in alto a sinistra sullo schermo. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
+Puoi trovare il controllo del commutatore sandbox in alto a destra nella schermata accanto al nome della tua organizzazione. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
+
+![](../assets/sandbox_5.png)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
