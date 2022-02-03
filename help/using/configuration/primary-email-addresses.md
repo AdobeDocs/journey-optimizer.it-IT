@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 5%
 
 ---
 
-# Modificare gli indirizzi e-mail principali
+# Modificare gli indirizzi e-mail principali {#change-primary-email}
 
 Quando esegui il targeting di un profilo, diversi indirizzi e-mail possono essere disponibili nel database (personale, indirizzo e-mail professionale, ecc.).
 

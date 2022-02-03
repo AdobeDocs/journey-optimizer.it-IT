@@ -16,14 +16,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 4%
 
 ---
 
-# Accedere ai sottodomini delegati
+# Accedere ai sottodomini delegati {#access-delegated-subdomains}
 
 Tutti i sottodomini delegati vengono visualizzati nella sezione **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** menu. Sono disponibili filtri per facilitare la definizione dell’elenco (data di delega, utente o stato).
 
