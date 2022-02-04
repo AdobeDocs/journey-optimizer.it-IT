@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5866a5ad181b9b745cedc4fa740d131cf7c88863
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,11 @@ Per comporre il messaggio, fai clic sul pulsante **[!UICONTROL Title]** e **[!UI
 Utilizza la sezione di anteprima del dispositivo per visualizzare il modo in cui la notifica push viene visualizzata sui dispositivi iOS e Android.
 
 ## Comportamento del clic {#on-click-behavior}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-onclick"
+>title="Informazioni sul comportamento del clic"
+>abstract="Seleziona il comportamento quando un destinatario fa clic sul corpo della notifica push."
 
 Seleziona il comportamento quando un destinatario fa clic sul corpo della notifica push.
 
