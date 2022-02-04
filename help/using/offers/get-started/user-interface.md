@@ -1,12 +1,12 @@
 ---
 title: Interfaccia utente
-description: Ulteriori informazioni sull’interfaccia utente della Libreria di offerte.
+description: Ulteriori informazioni sull’interfaccia utente della Libreria di offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -69,7 +69,7 @@ Fai clic sul pulsante **[!UICONTROL View all]** per accedere agli elenchi di off
 
 ![](../../assets/overview_view-all.png)
 
-## Ricerca e filtro delle informazioni
+## Ricerca e filtro delle informazioni {#search-and-filter-information}
 
 Usa la **barra di ricerca** per trovare un elemento specifico.
 
@@ -77,7 +77,7 @@ Per accedere a **Filtri** puoi anche fare clic sull’icona del filtro posta in 
 
 ![](../../assets/filters.png)
 
-## Personalizzare le informazioni visualizzate
+## Personalizzare le informazioni visualizzate {#customize-displayed-information}
 
 Gli elenchi dei menu di Gestione delle decisioni possono essere personalizzati utilizzando il pulsante di configurazione in alto a destra degli elenchi.
 
@@ -87,7 +87,7 @@ La personalizzazione delle colonne viene salvata per ogni utente.
 
 ![](../../assets/columns.png)
 
-## Riquadro informazioni
+## Riquadro informazioni {#information-pane}
 
 Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informazioni che ti consenta di recuperare informazioni ed eseguire azioni di base su quell’elemento.
 

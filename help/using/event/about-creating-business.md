@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 12%
@@ -25,7 +25,7 @@ Gli eventi di business possono essere &quot;un prodotto è di nuovo in magazzino
 >
 >È inoltre possibile osservare il caso d’uso dell’evento aziendale [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
-## Note importanti
+## Note importanti {#important-notes}
 
 * Sono disponibili solo gli schemi di serie temporali. Gli schemi Eventi esperienza, Eventi decisionali e Eventi di Percorso non sono disponibili. Lo schema dell&#39;evento deve contenere un&#39;identità primaria. I campi seguenti devono essere impostati come richiesto: `_id` e `timestamp`
 * Gli eventi aziendali possono essere eliminati solo come primo passo di un percorso.
@@ -36,7 +36,7 @@ Gli eventi di business possono essere &quot;un prodotto è di nuovo in magazzino
 * Quando si esegue il test di un evento aziendale, è necessario trasmettere i parametri dell&#39;evento e l&#39;identificatore del profilo di test che immetterà il percorso nel test. Inoltre, quando esegui il test di un percorso basato su eventi aziendali, puoi attivare solo l’ingresso a un singolo profilo. Vedi [questa sezione](../building-journeys/testing-the-journey.md#test-business). In modalità di test non è disponibile la modalità &quot;Vista codice&quot;.
 * Cosa succede agli individui che si trovano attualmente nel percorso se arriva un nuovo evento di business? Si comporta come quando gli individui si trovano ancora in un percorso ricorrente quando si verifica una nuova ricorrenza. Il loro percorso è finito. Di conseguenza, gli esperti di marketing devono prestare attenzione a evitare di generare percorsi troppo lunghi se si aspettano eventi di business frequenti.
 
-## Eventi aziendali multipli
+## Eventi aziendali multipli {#multiple-business-events}
 
 Di seguito sono riportate alcune note importanti che si applicano quando più eventi di business vengono ricevuti in una riga.
 
@@ -48,7 +48,7 @@ Gli eventi commerciali seguono le regole di rientro come per gli eventi unitari.
 
 Nel caso di eventi aziendali on-shot, per un dato percorso, i dati inviati dal primo lavoro evento vengono riutilizzati durante un intervallo di tempo di 1 ora. Per i percorsi programmati, non c&#39;è un guardrail. Ulteriori informazioni sui segmenti nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Guida introduttiva agli eventi aziendali
+## Guida introduttiva agli eventi aziendali {#gs-business-events}
 
 Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
 

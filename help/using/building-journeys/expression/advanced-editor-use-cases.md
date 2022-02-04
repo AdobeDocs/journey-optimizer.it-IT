@@ -5,14 +5,15 @@ description: Scopri come creare espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
 
 ---
 
-# Esempi di espressione avanzati
+# Esempi di espressione avanzati{#advanced-expression-examples}
 
 L’editor di espressioni avanzate può essere utilizzato per creare condizioni che consentono di filtrare gli utenti nei percorsi. Queste condizioni ti consentono di eseguire il targeting degli utenti in base a ora, data, posizione, durata o azioni quali l’acquisto o l’abbandono dei carrelli in modo che possano essere reindirizzati nel percorso.
 

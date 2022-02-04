@@ -1,12 +1,12 @@
 ---
 title: Casi &di utilizzo della personalizzazione; notifica dello stato dell'ordine
-description: Scopri come personalizzare un messaggio con le informazioni sul profilo, la decisione dell’offerta e il contesto
+description: Scopri come personalizzare un messaggio con le informazioni sul profilo, la decisione dell’offerta e il contesto.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -25,11 +25,11 @@ L&#39;obiettivo di questo esempio è quello di inviare un evento a [!DNL Journey
 
 Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
-* crea e progetta un messaggio di notifica push, senza pubblicarlo. Fai riferimento a questo [sezione](../create-message.md).
+* crea e progetta un messaggio di notifica push, senza pubblicarlo. Fai riferimento a questo [sezione](../messages/create-message.md).
 * configura un evento ordine, che include il numero dell&#39;ordine, lo stato e il nome dell&#39;articolo. Fai riferimento a questo [sezione](../event/about-events.md).
 * crea una decisione (precedentemente nota come &quot;attività di offerta&quot;), fai riferimento a questa [sezione](../offers/offer-activities/create-offer-activities.md).
 
-## Passaggio 1: aggiungere la personalizzazione sul profilo
+## Passaggio 1: aggiungere la personalizzazione sul profilo {#add-perso}
 
 1. Fai clic sul pulsante **[!UICONTROL Message]** e seleziona il messaggio.
 
@@ -47,7 +47,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
    >
    >Lascia il messaggio in bozza. Non pubblicarlo ancora.
 
-## Passaggio 2: creare il percorso
+## Passaggio 2: creare il percorso {#create-journey}
 
 1. Fai clic sul pulsante **[!UICONTROL Journeys]** e creare un nuovo percorso.
 
@@ -69,7 +69,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
    >
    >Il messaggio viene visualizzato con un’icona di avviso. Questo perché il messaggio non è ancora stato pubblicato.
 
-## Passaggio 3: aggiungere la personalizzazione sui dati contestuali
+## Passaggio 3: aggiungere la personalizzazione sui dati contestuali {#add-perso-contextual-data}
 
 1. Da **Messaggio** fai clic su **Apri il messaggio** icona. Il messaggio viene visualizzato in una nuova scheda.
 
@@ -110,7 +110,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc16.png)
 
-## Passaggio 4: testare e pubblicare il percorso
+## Passaggio 4: testare e pubblicare il percorso {#test-publish}
 
 1. Apri di nuovo il percorso. Se il percorso è già aperto, assicurati di aggiornare la pagina. Ora che il messaggio è pubblicato, puoi vedere che non vi è alcun errore nel percorso. Fai clic sul pulsante **Test** quindi fai clic su **Attiva un evento**.
 

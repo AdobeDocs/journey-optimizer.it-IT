@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Si tratta dei campi XDM comuni che [!DNL Journey Optimizer] invia a Adobe Experi
 
 Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione azione, recupero dati, ecc.) per limitare le dimensioni degli eventi.
 
-## ingresso
+## ingresso {#entrance-field}
 
 Indica se l’utente è entrato nel percorso. Se non è presente, si presuppone che il valore sia falso.
 
@@ -29,7 +29,7 @@ Tipo: booleano
 
 Valori: true/false
 
-## rientro
+## rientro {#reentrance-field}
 
 Indica se l’utente è rientrato nel percorso con la stessa istanza. Se non è presente, si presuppone che il valore sia falso.
 
@@ -37,37 +37,37 @@ Tipo: booleano
 
 Valori: true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Indica se l&#39;istanza è terminata (con successo o meno).
 
 Tipo: booleano
 
-## eventID
+## eventID {#eventid-field}
 
 ID evento in elaborazione, per l’elaborazione dei passaggi. Se l’evento è esterno, il valore è il relativo eventId. Se l’evento è interno, il valore è l’ID evento interno (ad esempio, scheduledNotificationReceived, executeAction, ecc.).
 
 Tipo: string
 
-## nodeID
+## nodeID {#nodeid-field}
 
 ID nodo client (dall’area di lavoro).
 
 Tipo: string
 
-## stepID
+## stepID {#stepdid-field}
 
 ID univoco del passaggio in fase di elaborazione.
 
 Tipo: string
 
-## stepName
+## stepName {#stepname-field}
 
 Nome del passaggio attualmente in fase di elaborazione.
 
 Tipo: string
 
-## stepType
+## stepType {#steptype-field}
 
 Tipo del passaggio.
 
@@ -80,7 +80,7 @@ Valori possibili:
 * Attività Scheduler
 * Timer
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell’elaborazione (e all’avvio dell’evento step).
 
@@ -95,79 +95,79 @@ Lo stato può essere:
 * timeout: il passaggio non è riuscito per un errore di timeout, generato durante un&#39;azione o un arricchimento.
 * instanceTimedout: il passaggio ha interrotto l’elaborazione perché l’istanza ha raggiunto il timeout.
 
-## journeyID
+## journeyID {#journeyid-field}
 
 ID del percorso.
 
 Tipo: string
 
-## journeyVersionID
+## journeyVersionID {#journeyversionid-field}
 
 ID della versione del percorso. Questo id rappresenta il riferimento di identità al percorso, nel caso di journeyStepEvent.
 
 Tipo: string
 
-## journeyVersionName
+## journeyVersionName {#journeyversionname-field}
 
 Nome della versione del percorso.
 
 Tipo: string
 
-## journeyVersion
+## journeyVersion {#journeyversion-field}
 
 Versione del percorso.
 
 Tipo: string
 
-## instanceID
+## instanceID {#instanceid-field}
 
 ID interno dell&#39;istanza del percorso.
 
 Tipo: string
 
-## externalKey
+## externalKey {#externalkey-field}
 
 Chiave esterna estratta dall’evento per elaborarla.
 
 Tipo: string
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 ID del passo padre del passaggio elaborato corrente nell&#39;istanza.
 
 Tipo: string
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 Nome del passo dell&#39;elemento padre del passaggio corrente.
 
 Tipo: string
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 ID della transizione che ha portato l’istanza al passaggio elaborato.
 
 Tipo: string
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Nome della transizione che ha portato l&#39;istanza al passaggio elaborato.
 
 Tipo: string
 
-## inTest
+## inTest {#intest-field}
 
 Indica se il percorso è in modalità di prova o meno.
 
 Tipo: booleano
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Quantità totale di tempo in millisecondi dall’entrata del passaggio dell’istanza alla fine dell’elaborazione.
 
 Tipo: long
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Indica il tipo di istanza, se è batch o unitario.
 
@@ -175,31 +175,31 @@ Tipo: string
 
 Valori: batch/unitario
 
-## recidivaIndex
+## recidivaIndex {#recurrenceindex-field}
 
 Indice della ricorrenza se il percorso è in batch e ricorrente (la prima esecuzione ha ricorrenzaIndex = 1).
 
 Tipo: long
 
-## isBatchToUnitaria
+## isBatchToUnitaria {#isbatchtounitary-field}
 
 Indica se questa istanza unitaria è stata attivata da un&#39;istanza batch.
 
 Tipo: booleano
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 Chiave esterna per evento batch.
 
 Tipo: string
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 questo è l&#39;ID dell&#39;istanza batch.
 
 Tipo: string
 
-## batchUnitarioBranchID
+## batchUnitarioBranchID {#batchunitarybranchid-field}
 
 se l&#39;istanza è stata attivata da un&#39;istanza batch, ID ramo unitario.
 

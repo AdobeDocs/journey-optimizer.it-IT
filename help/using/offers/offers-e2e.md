@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 Questa sezione presenta un esempio end-to-end per mostrare come configurare le offerte e utilizzarle in un’e-mail, in base a una decisione creata in precedenza.
 
-## Passaggi principali
+## Passaggi principali {#main-steps}
 
 I passaggi chiave per configurare le offerte, includerle in una decisione e sfruttare questa decisione in un’e-mail sono elencati di seguito:
 
@@ -225,11 +225,11 @@ I passaggi dettagliati per la creazione e la configurazione di una decisione son
 
 Ora che la tua decisione è attiva, puoi inserirla in un messaggio e-mail. A questo scopo, segui i passaggi riportati qui sotto:
 
-1. Crea il tuo messaggio e-mail, quindi apri il [E-mail Designer](../../using/design-emails.md) per configurarne il contenuto.
+1. Crea il tuo messaggio e-mail, quindi apri il [E-mail Designer](../../using/messages/design-emails.md) per configurarne il contenuto.
 
 1. Aggiungi un componente struttura dalla palette a sinistra.
 
-1. Aggiungi un **[!UICONTROL Offer decision]** componente di contenuto. Scopri come utilizzare i componenti di contenuto in [questa sezione](../../using/content-components.md).
+1. Aggiungi un **[!UICONTROL Offer decision]** componente di contenuto. Scopri come utilizzare i componenti di contenuto in [questa sezione](../../using/messages/content-components.md).
 
    ![](../assets/offers-e2e-decision-component.png)
 
@@ -255,19 +255,19 @@ Ora puoi visualizzare tutte le offerte personalizzate e l’offerta di fallback 
 
 ![](../assets/offers-e2e-offers-displayed.png)
 
-Utilizza la **[!UICONTROL Offers]** per sfogliare i dati, utilizza le frecce destra e sinistra dei componenti di contenuto. Puoi anche visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente. [Ulteriori informazioni](../../using/deliver-personalized-offers.md#preview-offers-in-email).
+Utilizza la **[!UICONTROL Offers]** per sfogliare i dati, utilizza le frecce destra e sinistra dei componenti di contenuto. Puoi anche visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente. [Ulteriori informazioni](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 
 Dopo aver salvato le modifiche e dopo la pubblicazione del messaggio, le offerte sono pronte per essere visualizzate nei profili pertinenti al momento dell’invio del messaggio come parte di un percorso.
 
 >[!NOTE]
 >
->Quando aggiorni un&#39;offerta, un&#39;offerta di fallback, una raccolta di offerte o una decisione di offerta a cui si fa riferimento direttamente o indirettamente in un [pubblicato](../../using/publish-manage-message.md) Gli aggiornamenti ora vengono automaticamente rispecchiati nel messaggio corrispondente, senza che sia necessario ripubblicarlo.
+>Quando aggiorni un&#39;offerta, un&#39;offerta di fallback, una raccolta di offerte o una decisione di offerta a cui si fa riferimento direttamente o indirettamente in un [pubblicato](../../using/messages/publish-manage-message.md) Gli aggiornamenti ora vengono automaticamente rispecchiati nel messaggio corrispondente, senza che sia necessario ripubblicarlo.
 
 **Argomenti correlati:**
 
-* Scopri come controllare l’anteprima del messaggio in [questa sezione](../../using/preview.md#preview-your-messages).
+* Scopri come controllare l’anteprima del messaggio in [questa sezione](../../using/messages/preview.md#preview-your-messages).
 
-* Scopri come pubblicare i messaggi in [questa sezione](../../using/publish-manage-message.md).
+* Scopri come pubblicare i messaggi in [questa sezione](../../using/messages/publish-manage-message.md).
 
 * Scopri in che modo i messaggi vengono attivati da uno o più percorsi in [questa sezione](../building-journeys/journey.md).
 

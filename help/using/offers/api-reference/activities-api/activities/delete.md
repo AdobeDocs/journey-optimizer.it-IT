@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 6%
 
 ---
 
-# Eliminare una decisione
+# Eliminare una decisione {#delete-decision}
 
 A volte può essere necessario rimuovere (DELETE) una decisione (precedentemente nota come attività di offerta). È possibile eliminare solo le decisioni create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
 

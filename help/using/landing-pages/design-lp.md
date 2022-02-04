@@ -1,5 +1,5 @@
 ---
-title: Progettazione di una pagina di destinazione
+title: Progettare una pagina di destinazione
 description: Scopri come progettare il contenuto di una pagina di destinazione in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -23,15 +23,15 @@ Per iniziare a creare contenuti per la destinazione [pagina principale](create-l
 
 Da qui puoi:
 
-* **Progettare da zero la pagina di destinazione** tramite l’interfaccia di content designer e sfruttando le immagini di [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Scopri come progettare i contenuti o utilizzare modelli incorporati [in questa sezione](../create-email-content.md).
+* **Progettare da zero la pagina di destinazione** tramite l’interfaccia di content designer e sfruttando le immagini di [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Scopri come progettare i contenuti o utilizzare modelli incorporati [in questa sezione](../messages/create-email-content.md).
 
-* **Codice o incolla di HTML raw** direttamente nella finestra di progettazione dei contenuti. Scopri come codificare i contenuti personalizzati [in questa sezione](../existing-content.md#import-raw-html-code).
+* **Codice o incolla di HTML raw** direttamente nella finestra di progettazione dei contenuti. Scopri come codificare i contenuti personalizzati [in questa sezione](../messages/existing-content.md#import-raw-html-code).
 
-* **Importare contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare il contenuto [in questa sezione](../existing-content.md#import-html-content-from-file).
+* **Importare contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare il contenuto [in questa sezione](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->La finestra di progettazione del contenuto della pagina di destinazione è simile per lo più alla finestra di progettazione e-mail. Ulteriori informazioni su [progettazione di contenuti con [!DNL Journey Optimizer]](../design-emails.md).
+>La finestra di progettazione del contenuto della pagina di destinazione è simile per lo più alla finestra di progettazione e-mail. Ulteriori informazioni su [progettazione di contenuti con [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## Definire il contenuto specifico per la pagina di destinazione {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   Puoi visualizzare in anteprima alcune delle impostazioni, ad esempio il colore dell’etichetta del pulsante al passaggio del mouse utilizzando **[!UICONTROL Preview]** pulsante . Ulteriori informazioni sul test delle pagine di destinazione [qui](create-lp.md#test).
+   Puoi visualizzare in anteprima alcune delle impostazioni, ad esempio il colore dell’etichetta del pulsante al passaggio del mouse utilizzando **[!UICONTROL Preview]** pulsante . Ulteriori informazioni sul test delle pagine di destinazione [qui](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Creare profili di test {#create-test-profiles}
 
-I profili di test sono necessari quando si utilizza la modalità di test Per scoprire come utilizzare il [modalità di prova](../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e verificare i messaggi](../preview.md).
+I profili di test sono necessari quando si utilizza la modalità di test Per scoprire come utilizzare il [modalità di prova](../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e verificare i messaggi](../messages/preview.md).
 
 I metodi disponibili per creare i profili di test sono descritti di seguito:
 
@@ -88,7 +88,7 @@ Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Begin]**.
 
 Sono necessarie le seguenti informazioni:
 
-1. **Spazio dei nomi identità**: La [spazio dei nomi identità](../get-started-identity.md) utilizzato per identificare in modo univoco i profili di test. Ad esempio, se l’e-mail viene utilizzata per identificare i profili di test, lo spazio dei nomi dell’identità **E-mail** deve essere selezionato. Se l&#39;identificatore univoco è il numero di telefono, lo spazio dei nomi dell&#39;identità **Telefono** deve essere selezionato.
+1. **Spazio dei nomi identità**: La [spazio dei nomi identità](../start/get-started-identity.md) utilizzato per identificare in modo univoco i profili di test. Ad esempio, se l’e-mail viene utilizzata per identificare i profili di test, lo spazio dei nomi dell’identità **E-mail** deve essere selezionato. Se l&#39;identificatore univoco è il numero di telefono, lo spazio dei nomi dell&#39;identità **Telefono** deve essere selezionato.
 
 2. **File CSV**: Un file separato da virgole contenente l’elenco dei profili di test da creare. Il caso d’uso richiede un formato predefinito per il file CSV che contiene l’elenco dei profili di test da creare. Ciascuna riga del file deve includere i campi seguenti nell’ordine corretto, come segue:
 

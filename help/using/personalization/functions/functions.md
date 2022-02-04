@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 4%
@@ -119,7 +119,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 </table>
 </table>
 
-### Funzioni mappa
+### Funzioni mappa {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
     </tr>
 </table>
 
-### Funzioni stringa
+### Funzioni stringa {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ Le funzioni aritmetiche vengono utilizzate per eseguire calcoli di base sui valo
 </table>
 
 
-### Funzioni booleane
+### Funzioni booleane {#boolean-functions}
 
 Le funzioni booleane vengono utilizzate per eseguire la logica booleana su elementi diversi.
 
@@ -300,7 +300,7 @@ Le funzioni booleane vengono utilizzate per eseguire la logica booleana su eleme
 </table>
 
 
-### Funzioni di confronto
+### Funzioni di confronto {#comparison-functions}
 
 Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori diversi e restituiscono true o false di conseguenza.
 

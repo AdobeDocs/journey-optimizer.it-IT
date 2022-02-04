@@ -1,19 +1,19 @@
 ---
 title: Creare i tag
-description: Scopri come creare offerte in Adobe Experience Platform.
+description: Scopri come creare tag per le offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# Creare i tag {#creating-tags}
+# Creare i tag {#create-tags}
 
 L’associazione dei tag alle offerte semplifica l’organizzazione. Ad esempio, puoi assegnare alle offerte Black Friday il tag &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel tag.
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%
 
 ---
 
-# Elencare offerte personalizzate
+# Elencare offerte personalizzate {#list-personalized-offers}
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Utilizzo dei parametri di query
+## Utilizzo dei parametri di query {#using-query-parameters}
 
 Puoi utilizzare i parametri di query per sfogliare le pagine e filtrare i risultati durante l’elenco delle risorse.
 
-### Paging
+### Paging {#paging}
 
 I parametri di query più comuni per il paging includono:
 

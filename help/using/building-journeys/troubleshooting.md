@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 84%
+source-wordcount: '1041'
+ht-degree: 81%
 
 ---
 
-# Risoluzione dei problemi{#concept_nlv_bcv_2fb}
+# Risolvere i problemi del percorso{#troubleshooting}
 
 In questa sezione viene descritto come risolvere i problemi dei percorsi prima di eseguire i test o di pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
-## Verifica degli errori prima del test{#section_h3q_kqk_fhb}
+## Verifica gli errori prima del test{#checking-for-errors-before-testing}
 
 Prima di testare e pubblicare il percorso, controlla che tutte le attività siano state configurate correttamente. Non è possibile eseguire test o pubblicazioni se il sistema rileva ancora degli errori.
 
@@ -41,7 +41,7 @@ Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per pr
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-## Controllo dell’invio corretto degli eventi{#section_rqz_11t_dgb}
+## Controlla che gli eventi siano inviati correttamente{#checking-that-events-are-properly-sent}
 
 Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test utilizzando strumenti come Postman.
 
@@ -49,7 +49,7 @@ Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviat
 
 Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
-## Verifica dell’accesso al percorso da parte delle persone{#section_x4v_zzs_dgb}
+## Controlla se le persone entrano nel percorso{#checking-if-people-enter-the-journey}
 
 Il reporting di percorso misura le entrate delle persone in un percorso in tempo reale.
 
@@ -69,7 +69,7 @@ Di seguito sono riportati alcuni elementi che l’amministratore deve controllar
    Content-type - application/json
    ```
 
-## Controllo della modalità di navigazione delle persone nel percorso{#section_l5y_yzs_dgb}
+## Controllare come le persone navigano nel percorso{#checking-how-people-navigate-through-the-journey}
 
 La segnalazione dei percorsi misura i progressi delle persone all&#39;interno di un percorso. È facile identificare in che punto una persona si è fermata e per quale motivo.
 
@@ -78,7 +78,7 @@ Di seguito sono riportati alcuni elementi da verificare:
 * È dovuto a una condizione che esclude la persona? Ad esempio, la condizione è “gender = male” e la persona in oggetto è una donna. Questo controllo può essere eseguito da un utente aziendale, se la condizione non è troppo complessa.
 * È dovuto a una chiamata a un’origine dati che non risponde? Quando il percorso è in modalità di test, queste informazioni possono essere visualizzate nei registri in modalità di test. Quando il percorso è live, un amministratore può testare le chiamate dirette all’origine dati e verificare la risposta ricevuta. Un amministratore può anche duplicare il percorso e testarlo.
 
-## Controllo dell’invio dei messaggi{#section_qb1_yzs_dgb}
+## Verificare che i messaggi siano stati inviati correttamente{#checking-that-messages-are-sent-successfully}
 
 Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono i messaggi che dovrebbero ricevere, puoi verificare se:
 

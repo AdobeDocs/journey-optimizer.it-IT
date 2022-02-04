@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -22,13 +22,13 @@ I campi evento del passaggio sono organizzati per categoria.
 * Campi del profilo
 * Campi evento del servizio
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | Nome campo | Tipo | Descrizione |
 |---|---|------------|
 | requestId | Stringa | L&#39;ID della richiesta utilizzato dal Journey Orchestration per tenere traccia del flusso di una richiesta. |
 
-## percorso
+## percorso {#journey-field}
 
 Questo gruppo di campi viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
 
@@ -40,7 +40,7 @@ Questo gruppo di campi viene utilizzato nello schema di percorso (in relazione a
 | descrizione | Stringa | Descrizione del percorso |
 | version | Stringa | versione, rappresentata come `major`.`minor` |
 
-## profilo
+## profilo {#profile-field}
 
 Questo gruppo di campi è specifico per journeyStepEvent: questo evento è in relazione al percorso e non dispone di identityMap che descrive l’eventuale identità del profilo.
 
@@ -51,7 +51,7 @@ Per journeyStepEvent, è inoltre necessario aggiungere campi relativi all’iden
 | ID | Stringa | L’identificatore del profilo identifica il profilo inviato/utilizzato in un percorso. Ad esempio: foo@adobe.com. |
 | namespace | Stringa | Questo campo descrive lo spazio dei nomi a cui fa riferimento il profilo utilizzato nel Percorso. Ad esempio: E-mail, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione del profilo.
 
@@ -66,6 +66,6 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore di un evento di informazioni: Informazioni, errore |
 | eventCode | Stringa | Codice di errore che indica il motivo per il corrispondente eventType |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 Questa categoria contiene i campi evento del passaggio originale. Fai riferimento a questo [sezione](../reports/sharing-legacy-fields.md).

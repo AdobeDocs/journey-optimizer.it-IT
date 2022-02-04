@@ -1,12 +1,12 @@
 ---
 title: Set di dati di offerte personalizzate
-description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le offerte.
+description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 0%
@@ -29,14 +29,14 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identificatore
+## Identificatore {#identifier}
 
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
 **Tipo:** string
 
-## _esperienza
+## _esperienza {#experience}
 
 **Campo:** _esperienza
 **Tipo:** oggetto
@@ -314,7 +314,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** oggetto

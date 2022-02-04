@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 2%
 
 ---
 
-# Verifica del percorso{#testing_the_journey}
+# Test del percorso{#testing_the_journey}
 
-Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Prima di poter testare il percorso, è necessario risolvere tutti gli eventuali errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 Puoi verificare il percorso prima della pubblicazione utilizzando i profili di test. Questo consente di analizzare il flusso di singoli utenti nel percorso e risolvere i problemi prima della pubblicazione.
 
@@ -23,7 +23,7 @@ Solo i profili di test possono accedere a un percorso in modalità di test. Puoi
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
-1. Prima di testare il percorso, verifica che sia valido e che non vi sia alcun errore. Non potrai avviare un test di un percorso con errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). In caso di errori, viene visualizzato un simbolo di avviso.
+1. Prima di testare il percorso, verifica che sia valido e che non vi sia alcun errore. Non potrai avviare un test di un percorso con errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). In caso di errori, viene visualizzato un simbolo di avviso.
 
 1. Per attivare la modalità di test, fai clic sul pulsante **[!UICONTROL Test]** nell&#39;angolo in alto a destra.
 

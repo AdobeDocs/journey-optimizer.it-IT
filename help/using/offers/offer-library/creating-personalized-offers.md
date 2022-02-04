@@ -1,19 +1,19 @@
 ---
 title: Creare le offerte personalizzate
-description: Scopri come creare offerte personalizzate in Adobe Experience Platform.
+description: Scopri come creare, configurare e gestire le offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1347'
 ht-degree: 3%
 
 ---
 
-# Creare le offerte personalizzate {#creating-personalized-offers}
+# Creare le offerte personalizzate {#create-personalized-offers}
 
 Prima di creare un’offerta, accertati di aver creato:
 
@@ -90,7 +90,7 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 >
 >È disponibile per l’uso solo il contenuto corrispondente al tipo di contenuto del posizionamento.
 
-### Aggiungere immagini
+### Aggiungere immagini {#images}
 
 Se la posizione selezionata è di tipo immagine, puoi aggiungere contenuto proveniente da **Risorsa Adobe Experience Cloud** libreria, un archivio centralizzato di risorse fornito da [!DNL Adobe Experience Manager Assets Essentials].
 
@@ -110,7 +110,7 @@ Se la posizione selezionata è di tipo immagine, puoi aggiungere contenuto prove
 
    ![](../../assets/offer-select-asset.png)
 
-### Aggiungi URL
+### Aggiungi URL {#urls}
 
 Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi immetti l’indirizzo URL del contenuto da aggiungere.
 

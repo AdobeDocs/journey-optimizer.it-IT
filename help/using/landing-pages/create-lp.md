@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >L’utilizzo delle pagine di destinazione è attualmente disponibile in modalità di accesso anticipato solo per determinati utenti. Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
 
-## Accedere alle pagine di destinazione
+## Accedere alle pagine di destinazione {#access-landing-pages}
 
 Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** dal menu a sinistra.
 
@@ -31,7 +31,7 @@ La **[!UICONTROL Landing Pages]** visualizza tutti gli elementi creati. Puoi fil
 
 ![](../assets/lp_access-list-filter.png)
 
-## Creare una pagina di destinazione
+## Creare una pagina di destinazione {#create-landing-page}
 
 I passaggi per creare una pagina di destinazione sono i seguenti:
 
@@ -61,7 +61,7 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
    ![](../assets/lp_add-subpage.png)
 
-Una volta configurati e progettati i [pagina principale](#configure-primary-page)e [sottopagine](#configure-subpages) se presente, puoi [test](#test) e [pubblicare](#publish) la pagina di destinazione.
+Una volta configurati e progettati i [pagina principale](#configure-primary-page)e [sottopagine](#configure-subpages) se presente, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
 
 ## Configurare la pagina principale {#configure-primary-page}
 
@@ -121,7 +121,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
 ![](../assets/lp_subpage-settings.png)
 
-## Verificare la pagina di destinazione {#test}
+## Verificare la pagina di destinazione {#test-landing-page}
 
 Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare in che modo questo contenuto viene visualizzato nella pagina di destinazione, sfruttando i dati del profilo di test.
 
@@ -141,7 +141,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
    ![](../assets/lp_test-profiles.png)
 
-   I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../preview.md#select-test-profiles).
+   I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../messages/preview.md#select-test-profiles).
 
 1. Seleziona la **[!UICONTROL Preview]** e fai clic su **[!UICONTROL Open preview]** per verificare la pagina di destinazione.
 
@@ -153,7 +153,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
 
-## Controllare gli avvisi {#alerts}
+## Controllare gli avvisi {#check-alerts}
 
 Durante la creazione della pagina di destinazione, gli avvisi ti avvisano quando è necessario eseguire azioni importanti prima della pubblicazione.
 
@@ -192,7 +192,7 @@ Possono verificarsi due tipi di avvisi:
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## Pubblicare la pagina di destinazione {#publish}
+## Pubblicare la pagina di destinazione {#publish-landing-page}
 
 Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
 
@@ -200,11 +200,11 @@ Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla dispon
 
 >[!CAUTION]
 >
->Prima della pubblicazione, controlla e risolvi gli avvisi. [Ulteriori informazioni](#alerts)
+>Prima della pubblicazione, controlla e risolvi gli avvisi. [Ulteriori informazioni](#check-alerts)
 
 Una volta pubblicata, la pagina di destinazione viene aggiunta all’elenco della pagina di destinazione con la **[!UICONTROL Published]** stato.
 
-È ora attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] [message](../create-message.md) che verranno inviati attraverso un [percorso](../building-journeys/journey.md).
+È ora attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] [message](../messages/create-message.md) che verranno inviati attraverso un [percorso](../building-journeys/journey.md).
 
 >[!NOTE]
 >

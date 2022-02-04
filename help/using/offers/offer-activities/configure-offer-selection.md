@@ -1,19 +1,19 @@
 ---
 title: Configurare la selezione di offerte nelle decisioni
-description: Scopri come gestire la selezione delle offerte nelle decisioni.
+description: Scopri come gestire la selezione delle offerte nelle decisioni
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: caaf3942853adb4e5eb16a3dd303ca1f088ce23b
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 9%
 
 ---
 
-# Configurare la selezione di offerte nelle decisioni {#offers-selection-in-activities}
+# Configurare la selezione di offerte nelle decisioni {#offers-selection-in-decisions}
 
 Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il metodo che sceglierà l’offerta migliore per ciascun profilo al momento della configurazione di una decisione (precedentemente nota come attività di offerta). Puoi classificare le offerte in base a:
 * Priorità offerta
@@ -22,7 +22,7 @@ Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il
 
 ![](../../assets/offer-rank-by.png)
 
-## Priorità offerta {#about-offers-priority}
+## Priorità offerta {#offer-priority}
 
 Per impostazione predefinita, quando più offerte sono idonee per un determinato posizionamento in una decisione (precedentemente nota come attività di offerta), le offerte con il valore più alto **priorità** verranno consegnati prima ai clienti.
 
@@ -86,6 +86,3 @@ Una volta creata una strategia di classificazione, puoi assegnarla a un posizion
 
 Se sono ammissibili più offerte, il sistema di modelli addestrati determinerà quale offerta presentare prima per un determinato posizionamento.
 
-<!--Result? Describe the impact for the user, i.e. what's the effect of selecting this ranking strategy for this collection/placement.-->
-
-<!--Click **[!UICONTROL Next]** to confirm and save your decision.-->

@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 9%
 
 ---
 
-# Aggiornare una regola di decisione
+# Aggiornare una regola di decisione {#update-decision-rule}
 
 Puoi modificare o aggiornare le regole decisionali in nel contenitore effettuando una richiesta di PATCH al [!DNL Offer Library] API.
 
 Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta il [Documentazione sulle patch JSON](http://jsonpatch.com/).
 
-## Intestazioni Accept e Content-Type
+## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
 Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 

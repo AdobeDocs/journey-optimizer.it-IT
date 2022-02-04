@@ -1,14 +1,14 @@
 ---
 title: Creare formule di classificazione
-description: Scopri come creare formule di classificazione in Adobe Experience Platform.
+description: Scopri come creare formule per classificare le offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 58dffe64b1ca8a81728ae7043ec276917d3b9616
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---

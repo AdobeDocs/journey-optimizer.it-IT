@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 7%
 
 ---
 
-# Eliminare un’offerta personalizzata
+# Eliminare un’offerta personalizzata {#delete-personalized-offer}
 
 A volte può essere necessario rimuovere (DELETE) un’offerta personalizzata. È possibile eliminare solo le offerte personalizzate create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $ dell’offerta personalizzata che desideri eliminare.
 

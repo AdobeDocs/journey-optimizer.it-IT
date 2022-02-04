@@ -1,14 +1,14 @@
 ---
 title: Casi &di utilizzo della personalizzazione; e-mail di abbandono carrello
-description: Scopri come personalizzare un messaggio utilizzando le funzioni di supporto.
+description: Scopri come personalizzare il corpo di un messaggio e-mail tramite un caso d’uso.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 3%
 
 ---
@@ -26,8 +26,8 @@ Verranno utilizzati i seguenti tipi di funzioni di supporto:
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Prima di iniziare, assicurati di sapere come configurare questi elementi:
-* Un messaggio e-mail. [Ulteriori informazioni](../create-message.md)
-* Il corpo di un’e-mail. [Ulteriori informazioni](../create-email-content.md).
+* Un messaggio e-mail. [Ulteriori informazioni](../messages/create-message.md)
+* Il corpo di un’e-mail. [Ulteriori informazioni](../messages/create-email-content.md).
 * Un evento unitario. [Ulteriori informazioni](../event/about-events.md).
 * Percorso che inizia con un evento. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Verifica che non ci sia alcun errore, quindi pubblica il percorso.
 
 
-## Argomenti correlati
+## Argomenti correlati {#related-topics}
 
-### Funzioni del manubrio
+### Funzioni del manubrio {#handlebars}
 
 * [Assistenza](functions/helpers.md)
 
 * [Funzioni stringa](functions/string.md)
 
-### Casi d’uso
+### Casi d’uso {#use-case}
 
 * [Personalizzazione con informazioni sul profilo, contesto e offerta](personalization-use-case.md)
 

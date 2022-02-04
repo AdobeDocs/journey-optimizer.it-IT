@@ -1,19 +1,19 @@
 ---
 title: Creare regole di decisione
-description: Scopri come creare regole decisionali in Adobe Experience Platform.
+description: Scopri come creare regole decisionali per definire a chi visualizzare le offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '286'
 ht-degree: 12%
 
 ---
 
-# Creare regole di decisione {#creating-decision-rules}
+# Creare regole di decisione {#create-decision-rules}
 
 Puoi creare regole decisionali per le offerte in base ai dati disponibili in Adobe Experience Platform. Le regole decisionali determinano a chi visualizzare un’offerta.
 

@@ -1,19 +1,19 @@
 ---
 title: Introduzione a Gestione delle decisioni
-description: Introduzione a Gestione delle decisioni. Scopri l’architettura, le offerte e le decisioni, nonché alcuni casi d’uso comuni.
+description: Introduzione a Gestione delle decisioni. Scopri l’architettura, le offerte e le decisioni, nonché alcuni casi d’uso comuni
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 88%
 
 ---
 
-# Informazioni sulla gestione delle decisioni {#about-offer-decision}
+# Informazioni sulla gestione delle decisioni {#about-decision-management}
 
 Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate.
 
@@ -36,7 +36,7 @@ I vantaggi includono:
 
 ➡️ [Guarda questi video tutorial](#tutorial-videos) per saperne di più sulla gestione delle decisioni.
 
-## Informazioni su offerte e decisioni {#offers-offer-activities}
+## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
 Un’**offerta** è costituita da contenuti, regole di idoneità e vincoli che definiscono le condizioni in cui viene presentata ai clienti.
 
@@ -48,7 +48,7 @@ Una volta arricchita la libreria delle offerte con le offerte, puoi integrarle i
 
 Le decisioni sono contenitori per le offerte che sfrutteranno il motore delle decisioni per le offerte per scegliere l’offerta migliore da consegnare in base al target.
 
-## Casi d’uso comuni
+## Casi d’uso comuni {#common-use-cases}
 
 Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Experience Platform consentono di coprire numerosi casi d’uso per aumentare il coinvolgimento e la conversione dei clienti.
 

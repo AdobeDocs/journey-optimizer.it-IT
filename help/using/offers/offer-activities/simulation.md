@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
 
 ---
 
-# Creare simulazioni
+# Creare simulazioni {#create-simulations}
 
 ## Informazioni sulla simulazione
 
@@ -47,7 +47,7 @@ Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazio
 
    >[!NOTE]
    >
-   >Uno spazio dei nomi di identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID CRM. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Uno spazio dei nomi di identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID CRM. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Immetti il valore dell&#39;identità e fai clic su **[!UICONTROL View]** per elencare i profili disponibili.
 
@@ -63,7 +63,7 @@ Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazio
 
 1. Puoi fare clic su **[!UICONTROL Profile details]** per visualizzare i dati di profilo selezionati.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Aggiungi ambiti decisionali
 

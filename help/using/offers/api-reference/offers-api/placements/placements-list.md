@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 12%
 
 ---
 
-# Elencare posizionamenti
+# Elencare posizionamenti {#list-placements}
 
 I posizionamenti sono contenitori utilizzati per mostrare le offerte. Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
@@ -32,11 +32,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `SCHEMA_PLACEMENT}` | Definisce lo schema associato ai posizionamenti. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `{QUERY_PARAMS}` | Parametri di query opzionali per filtrare i risultati in base a. | `limit=2` |
 
-## Utilizzo dei parametri di query
+## Utilizzo dei parametri di query {#using-query-parameters}
 
 Puoi utilizzare i parametri di query per sfogliare le pagine e filtrare i risultati durante l’elenco delle risorse.
 
-### Paging
+### Paging {#paging}
 
 I parametri di query più comuni per il paging includono:
 

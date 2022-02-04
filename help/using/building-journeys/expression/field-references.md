@@ -5,14 +5,15 @@ description: Informazioni sui riferimenti di campo nelle espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 39d94497a3481424bbca840e3ab42dab7b3545f6
+exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 3%
 
 ---
 
-# Riferimenti campo {#concept_fkj_ll5_dgb}
+# Riferimenti campo {#field-references}
 
 Un riferimento di campo può essere associato a un evento o a un gruppo di campi. L’unica informazione significativa è il nome del campo e il relativo percorso.
 

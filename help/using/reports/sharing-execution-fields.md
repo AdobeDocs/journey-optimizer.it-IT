@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 5%
@@ -19,37 +19,37 @@ Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfile
 
 Se il passaggio dispone di un’azione da elaborare, tali campi verranno aggiunti al payload dell’evento.
 
-## actionID
+## actionID {#actionid-field}
 
 ID dell&#39;azione in corso di esecuzione.
 
 Tipo: string
 
-## actionName
+## actionName {#actionname-field}
 
 Nome dell’azione. Se non è stato impostato alcun nome, viene eseguito stepName.
 
 Tipo: string
 
-## actionType
+## actionType {#actionType-field}
 
 Tipo di azione.
 
 Tipo: string
 
-## actionParameter
+## actionParameter {#actionparameterized-field}
 
 Indica se l’azione è parametrizzata o meno.
 
 Tipo: booleano
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 Il tempo (in millisecondi) impiegato per eseguire un&#39;azione corrente.
 
 Tipo: long
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 Tipo di errore che si verifica quando viene chiamata l&#39;azione.
 
@@ -61,13 +61,13 @@ Valori:
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Errore di esecuzione del codice per l&#39;azione. Presente se l&#39;errore ha un codice, ad esempio uno HTTP.
 
 Tipo: string
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Può verificarsi un timeout, in due casi:
 
@@ -89,13 +89,13 @@ Ad esempio, viene inviata un’e-mail e al primo tentativo viene restituito un e
 
 Tipo: string
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Codice di errore dell&#39;actionExecOrigError.
 
 Tipo: string
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 Indica il tipo di azione.
 
@@ -111,25 +111,25 @@ Valori:
 
 Tipo: string
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 Questo descrive l’ID del processo di consegna per il Percorso batch.
 
 Tipo: string
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 Questo descrive l’ID di consegna per il Percorso batch.
 
 Tipo: string
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 Questo descrive se il Percorso batch viene attivato dal segmento di pubblico.
 
 Tipo: booleano
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 Numero di richieste di notifica del programmatore inviate al servizio di pianificazione durante l&#39;elaborazione dei passaggi.
 

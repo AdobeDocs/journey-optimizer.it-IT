@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e36b81fd3cdfa0cc6efe1a85316fcb4f5a9c9764
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
@@ -27,24 +27,24 @@ ht-degree: 100%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Che cosa è[!DNL Journey Optimizer]?</a>
+      <a href="using/start/get-started.md">Che cosa è[!DNL Journey Optimizer]?</a>
     </div>
     <p>Scopri le funzioni chiave e i casi d’uso
     <p>
     <div>
-      <a href="using/release-notes.md">Note sulla versione</a>
+      <a href="using/rn/release-notes.md">Note sulla versione</a>
     </div>
     <p>Nuove funzionalità, miglioramenti e correzioni più recenti
    <p>
     <div>
-      <a href="using/quick-start.md">Guida rapida</a>
+      <a href="using/start/quick-start.md">Guida rapida</a>
     </div>
     <p>
     Scopri come iniziare come amministratore, ingegnere dati o professionista di Journey
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">Progettare un contenuto e-mail</a>
+      <a href="using/messages/design-emails.md">Progettare un contenuto e-mail</a>
     </div>
     <p>
     Progettare una nuova e-mail o importare un contenuto HTML esistente
@@ -111,7 +111,7 @@ ht-degree: 100%
       <a href="using/building-journeys/journey-gs.md">Percorsi</a>
     </li>
     <li>
-      <a href="using/create-message.md">Messaggi</a>
+      <a href="using/messages/create-message.md">Messaggi</a>
     </li>
     <p>
     <p>GESTIONE DELLE DECISIONI</p>
@@ -124,18 +124,18 @@ ht-degree: 100%
     <p>
     <p>GESTIONE DEI CONTENUTI</p>
     <li>
-      <a href="using/assets-essentials.md">Risorse</a>
+      <a href="using/messages/assets-essentials.md">Risorse</a>
     </li>
     <p>
     <p>GESTIONE DATI</p>
     <li>
-      <a href="using/get-started-schemas.md">Schemi</a>
+      <a href="using/start/get-started-schemas.md">Schemi</a>
     </li>
      <li>
-      <a href="using/get-started-datasets.md">Set di dati</a>
+      <a href="using/start/get-started-datasets.md">Set di dati</a>
     </li>
         <li>
-      <a href="using/get-started-queries.md">Query</a>
+      <a href="using/start/get-started-queries.md">Query</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it" target="_blank">Monitoraggio</a>
@@ -143,7 +143,7 @@ ht-degree: 100%
     <p>
     <p>CONNESSIONI</p>
     <li>
-      <a href="using/get-started-sources.md">Origini</a>
+      <a href="using/start/get-started-sources.md">Origini</a>
     </li>
     <p>
     <p>CLIENTE</p>
@@ -151,10 +151,10 @@ ht-degree: 100%
       <a href="using/segment/about-segments.md">Segmenti</a>
     </li>
      <li>
-      <a href="using/get-started-profiles.md">Profili</a>
+      <a href="using/start/get-started-profiles.md">Profili</a>
     </li>
     <li>
-      <a href="using/get-started-identity.md">Identità</a>
+      <a href="using/start/get-started-identity.md">Identità</a>
     </li>
     <p>
     <p>AMMINISTRAZIONE</p>

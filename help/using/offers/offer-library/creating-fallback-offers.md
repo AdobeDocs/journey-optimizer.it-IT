@@ -1,19 +1,18 @@
 ---
 title: Creare le offerte di fallback
-description: Scopri come creare offerte in Adobe Experience Platform.
-feature: Offers
+description: Scopri come creare offerte di fallback da visualizzare per i clienti che non sono idonei per alcuna offerta
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
 
-# Creare le offerte di fallback {#creating-fallback-offers}
+# Creare le offerte di fallback {#create-fallback-offers}
 
 L’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte. I passaggi per creare un’offerta di fallback consistono nella creazione di una o più rappresentazioni, ad esempio durante la creazione di un’offerta.
 

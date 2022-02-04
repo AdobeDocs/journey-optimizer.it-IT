@@ -1,13 +1,12 @@
 ---
 title: Record PTR
 description: Scopri come gestire i record PTR
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,13 +15,13 @@ ht-degree: 0%
 
 # Record PTR {#ptr-records}
 
-## Informazioni sui record PTR
+## Informazioni sui record PTR {#about-ptr-records}
 
 Un record puntatore (PTR) è un tipo di record DNS (Domain Name System) che fornisce il nome di dominio collegato a un indirizzo IP.
 
 Con i record PTR, i server di posta riceventi possono controllare l&#39;autenticità dei server di posta inviati identificando se i loro indirizzi IP corrispondono ai nomi con cui i server si connettono.
 
-## Accedere ai record PTR dei tuoi sottodomini
+## Accedere ai record PTR dei tuoi sottodomini {#access-ptr-records}
 
 Una volta [viene delegato un sottodominio](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
@@ -44,7 +43,7 @@ Puoi modificare un record PTR per modificare il sottodominio associato a un indi
 >
 >Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL PTR record]** campi.
 
-### Sottodomini completamente delegati
+### Sottodomini completamente delegati {#fully-delegated-subdomains}
 
 Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, segui i passaggi seguenti.
 
@@ -83,7 +82,7 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [
 
 1. Fai clic su **[!UICONTROL Save]** per confermare le modifiche.
 
-## Controlla i dettagli dell&#39;aggiornamento del record PTR
+## Controlla i dettagli dell&#39;aggiornamento del record PTR {#check-ptr-record-update}
 
 A **[!UICONTROL Processing]** accanto al nome del record PTR nell’elenco viene visualizzata l’icona .
 
@@ -97,7 +96,7 @@ Puoi visualizzare informazioni quali lo stato dell’aggiornamento e le modifich
 
 ![](../assets/ptr-record-updates.png)
 
-## Stato dell’aggiornamento del record PTR
+## Stato dell’aggiornamento del record PTR {#ptr-record-update-statuses}
 
 Un aggiornamento del record PTR può avere i seguenti stati:
 
@@ -105,9 +104,9 @@ Un aggiornamento del record PTR può avere i seguenti stati:
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
 
-### Elaborazione
+### Elaborazione {#processing}
 
-Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sottodominio da associare all’indirizzo IP sia valido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sottodominio da associare all’indirizzo IP sia valido. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sott
 
 Durante il processo di convalida, il vecchio sottodominio viene ancora associato all’indirizzo IP.
 
-### Operazione riuscita
+### Operazione riuscita {#success}
 
 Una volta completato il processo di convalida, il nuovo sottodominio viene associato automaticamente all’indirizzo IP.
 
-### Non riuscito
+### Non riuscito {#failes}
 
 Se il processo di convalida non riesce, viene visualizzato il record PTR precedente. Il sottodominio valido precedentemente associato all’indirizzo IP rimane invariato.
 

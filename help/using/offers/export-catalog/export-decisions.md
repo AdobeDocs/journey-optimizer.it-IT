@@ -1,12 +1,12 @@
 ---
 title: Introduzione all’esportazione del catalogo delle offerte
-description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le decisioni.
+description: In questa sezione sono elencati tutti i campi utilizzati nel set di dati esportato per le decisioni
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -29,14 +29,14 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## Identificatore
+## Identificatore {#identifier}
 
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
 **Tipo:** string
 
-## _esperienza
+## _esperienza {#experience}
 
 **Campo:** _esperienza
 **Tipo:** oggetto
@@ -254,7 +254,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Descrizione:** Data e ora di inizio e di fine della decisione (precedentemente nota come attività). La proprietà ha la semantica della proprietà &#39;startTime&#39; di schema.org definita su http://schema.org/Action.
 **Tipo:** string
 
-## _repo
+## _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** oggetto

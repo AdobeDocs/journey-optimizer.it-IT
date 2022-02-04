@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 4%
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 In questa sezione sono elencati diversi esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso in Data Lake.
 
-## Errori messaggio/azione
+## Errori messaggio/azione {#message-action-errors}
 
-### Elenco di ogni errore rilevato nei percorsi
+### Elenco di ogni errore rilevato nei percorsi {#error-list-journey}
 
 Questa query ti consente di elencare ogni errore rilevato nei percorsi durante l’esecuzione di un messaggio/azione.
 
@@ -45,9 +45,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 Questa query restituisce tutti i diversi errori che si sono verificati durante l&#39;esecuzione di un&#39;azione in un percorso insieme al conteggio del numero di errori che si sono verificati.
 
-## Query basate su profili
+## Query basate su profili {#profile-based-queries}
 
-### Trova se un profilo è entrato in un Percorso specifico
+### Trova se un profilo è entrato in un Percorso specifico {#profile-entered-journey}
 
 _Query Data Lake_
 
@@ -69,7 +69,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Il risultato deve essere maggiore di 0. Questa query restituisce il numero esatto di volte in cui un profilo ha inserito un percorso.
 
-### Trova se un profilo è stato inviato un messaggio specifico
+### Trova se un profilo è stato inviato un messaggio specifico {#profile-specific-message}
 
 **Metodo 1:** se il nome del messaggio non è univoco nel percorso (viene utilizzato in più posizioni).
 
@@ -119,7 +119,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 La query restituisce l’elenco di tutti i messaggi insieme al relativo conteggio richiamato per il profilo selezionato.
 
-## Trova tutti i messaggi ricevuti da un profilo negli ultimi 30 giorni
+## Trova tutti i messaggi ricevuti da un profilo negli ultimi 30 giorni {#message-received-30-days}
 
 _Query Data Lake_
 
@@ -145,7 +145,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 La query restituisce l’elenco di tutti i messaggi insieme al relativo conteggio richiamato per il profilo selezionato.
 
-### Trova tutti i percorsi immessi da un profilo negli ultimi 30 giorni
+### Trova tutti i percorsi immessi da un profilo negli ultimi 30 giorni {#profile-entered-30-days}
 
 _Query Data Lake_
 
@@ -169,7 +169,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 La query restituisce l’elenco di tutti i nomi di percorso insieme al numero di volte in cui il profilo interrogato è entrato nel percorso.
 
-### Numero di profili qualificati per un percorso al giorno
+### Numero di profili qualificati per un percorso al giorno {#profile-qualified}
 
 _Query Data Lake_
 
@@ -193,9 +193,9 @@ ORDER BY DATE(timestamp) desc
 
 La query restituisce, per il periodo definito, il numero di profili immessi ogni giorno nel percorso. Se un profilo è stato inserito tramite più identità, verrà conteggiato due volte. Se è abilitata la reintroduzione, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è stato reinserito nel percorso in un giorno diverso.
 
-## Query basate su percorsi
+## Query basate su percorsi {#journey-based-queries}
 
-### Numero di percorsi attivi giornalieri
+### Numero di percorsi attivi giornalieri {#daily-active-journeys}
 
 _Query Data Lake_
 

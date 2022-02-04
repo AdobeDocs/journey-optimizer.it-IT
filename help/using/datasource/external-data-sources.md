@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
 
 ---
 
-# Origini dati esterne {#concept_t2s_kqt_52b}
+# Origini dati esterne {#external-data-sources}
 
 Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
@@ -53,7 +53,7 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](../assets/journey27.png)
 
-1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedi [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb). Le scelte del nostro esempio:
+1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Le scelte del nostro esempio:
 
    * **[!UICONTROL Type]**: &quot;API key&quot;
    * **[!UICONTROL Name]**: &quot;appid&quot; (nome del parametro della chiave API)
@@ -87,7 +87,7 @@ Fai clic su **[!UICONTROL Save]**.
 
 L’origine dati è ora configurata ed è pronta per essere utilizzata nei percorsi, ad esempio nelle tue condizioni o per personalizzare un’e-mail. Se la temperatura è superiore a 30°C, puoi decidere di inviare una comunicazione specifica.
 
-## Modalità di autenticazione personalizzata{#section_wjp_nl5_nhb}
+## Modalità di autenticazione personalizzata{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 68%
@@ -23,7 +23,7 @@ ht-degree: 68%
 
 Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail, SMS o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda.
 
-[!DNL Journey Optimizer] viene fornito con funzionalità di messaggistica integrata. Fai riferimento a [questa sezione](../get-started-content.md).
+[!DNL Journey Optimizer] viene fornito con funzionalità di messaggistica integrata. Fai riferimento a [questa sezione](../messages/get-started-content.md).
 
 Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
 
@@ -37,6 +37,6 @@ Le azioni personalizzate ti consentono di configurare la connessione di un siste
 
 Le azioni sono disponibili nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Per visualizzare l’elenco delle azioni o configurarne una nuova, seleziona **[!UICONTROL Configurations]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../user-interface.md) per ulteriori informazioni sull’interfaccia.
+Per visualizzare l’elenco delle azioni o configurarne una nuova, seleziona **[!UICONTROL Configurations]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
 ![](../assets/custom1.png)

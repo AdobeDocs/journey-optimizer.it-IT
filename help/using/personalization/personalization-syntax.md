@@ -1,11 +1,12 @@
 ---
 title: Sintassi di personalizzazione
-description: Scopri come utilizzare la sintassi di personalizzazione
+description: Scopri come utilizzare la sintassi di personalizzazione.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 5%
@@ -28,7 +29,7 @@ Dove:
 * `profile` è uno spazio dei nomi.
 * `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
 
-## Regole generali sulla sintassi
+## Regole generali sulla sintassi {#general-rules}
 
 Gli identificatori possono essere caratteri unicode, ad eccezione dei seguenti elementi:
 
@@ -75,7 +76,7 @@ Scopri come sfruttare gli attributi del profilo nelle condizioni in [questa sezi
 >[!NOTE]
 >Per ulteriori informazioni sul servizio di segmentazione e segmentazione, consulta [questa sezione](../segment/about-segments.md).
 
-## Offerte
+## Offerte {#offers-syntax}
 
 Questo spazio dei nomi ti consente di fare riferimento a decisioni esistenti sulle offerte.
 Per fare riferimento a un’offerta è necessario dichiarare un percorso con le diverse informazioni che definiscono un’offerta.
@@ -127,7 +128,7 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({{/}})
 >
 >Le funzioni helper sono descritte in [questa sezione](functions/helpers.md).
 
-## Tipi letterali
+## Tipi letterali {#literal-types}
 
 [!DNL Adobe Journey Optimizer] supporta i seguenti tipi letterali:
 
@@ -146,7 +147,7 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({{/}})
 
 Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per effettuare questo collegamento:
 
-* Crea un collegamento nel contenuto e-mail o push. Per ulteriori informazioni sulla creazione dei collegamenti, consulta [questa pagina](../message-tracking.md#insert-links).
+* Crea un collegamento nel contenuto e-mail o push. Per ulteriori informazioni sulla creazione dei collegamenti, consulta [questa pagina](../messages/message-tracking.md#insert-links).
 * Fai clic sull’icona della personalizzazione. Questa icona è disponibile per questi tipi specifici di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
 
 ![](assets/perso-url.png)

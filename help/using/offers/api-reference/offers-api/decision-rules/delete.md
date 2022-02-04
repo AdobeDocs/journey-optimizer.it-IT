@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
 
 ---
 
-# Eliminare una regola di decisione
+# Eliminare una regola di decisione {#delete-decision-rule}
 
 A volte può essere necessario rimuovere (DELETE) una regola decisionale. È possibile eliminare solo le regole decisionali create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID di istanza della regola decisionale che desideri eliminare.
 

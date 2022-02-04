@@ -1,12 +1,12 @@
 ---
 title: Convalida della personalizzazione
-description: Ulteriori informazioni sulla convalida della personalizzazione e su come risolvere i problemi
+description: Ulteriori informazioni sulla convalida della personalizzazione e su come risolvere i problemi.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Convalida della personalizzazione {#personalization-validation}
 
-## Meccanismi di convalida
+## Meccanismi di convalida {#validation-mechanisms}
 
 In **Editor espressioni** , utilizza **Convalida** per controllare la sintassi di personalizzazione.
 
@@ -27,7 +27,7 @@ In **Editor espressioni** , utilizza **Convalida** per controllare la sintassi d
 >[!IMPORTANT]
 > Se la sintassi di personalizzazione non è valida, non è possibile chiudere la finestra dell’editor espressioni.
 
-## Errori comuni
+## Errori comuni {#common-errors}
 
 * **Percorso &quot;XYZ&quot; non trovato**
 
@@ -67,7 +67,7 @@ Le espressioni Handlebars sono circondate da **{{expression}}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Errori specifici relativi alle offerte
+## Errori specifici relativi alle offerte {#specific-errors}
 
 Gli errori relativi all’integrazione delle offerte in un messaggio e-mail o push hanno il seguente pattern:
 

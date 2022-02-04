@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 3%
 
 ---
 
-# Creare rapporti sul percorso{#design-jo-reports}
+# Creare rapporti sul percorso {#design-jo-reports}
 
 Oltre a [rapporti in tempo reale](live-report.md) e incorporati [funzionalità di reporting globale](global-report.md), [!DNL Journey Optimizer] può inviare automaticamente i dati sulle prestazioni del percorso a Adobe Experience Platform in modo che possano essere combinati con altri dati a scopo di analisi.
 
@@ -58,9 +58,9 @@ Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti in 
 
 Per ulteriori informazioni sugli eventi dei passaggi che trasmettono a Adobe Experience Platform, consulta questo articolo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
-## Integrazione con Customer Percorsi Analytics{#integration-cja}
+## Integrazione con Customer Percorsi Analytics {#integration-cja}
 
-Gli eventi dei passaggi Journey Optimizer possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Il flusso di lavoro generale è il seguente:
+Gli eventi dei passaggi Journey Optimizer possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il flusso di lavoro generale è il seguente:
 
 * Il Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * La **profileID** il campo nello &quot;schema evento del passaggio del Percorso per il Journey Orchestration&quot; associato è definito come campo Identity. Al Customer Journey Analytics, puoi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.

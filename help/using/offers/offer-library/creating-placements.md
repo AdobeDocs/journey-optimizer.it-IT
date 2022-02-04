@@ -1,19 +1,19 @@
 ---
 title: Creare i posizionamenti
-description: Scopri come creare posizionamenti in Adobe Experience Platform.
+description: Scopri come creare posizionamenti per le offerte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 14%
 
 ---
 
-# Creare i posizionamenti {#creating-placements}
+# Creare i posizionamenti {#create-placements}
 
 Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 

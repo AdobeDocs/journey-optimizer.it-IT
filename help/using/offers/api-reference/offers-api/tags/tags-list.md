@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 4%
 
 ---
 
-# Elencare tag
+# Elencare tag {#list-tags}
 
 I tag consentono di organizzare e ordinare meglio le offerte. Ad esempio, puoi assegnare alle offerte Black Friday il tag &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel tag.
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Utilizzo dei parametri di query
+## Utilizzo dei parametri di query {#using-query-parameters}
 
 Puoi utilizzare i parametri di query per sfogliare le pagine e filtrare i risultati durante l’elenco delle risorse.
 
-### Paging
+### Paging {#paging}
 
 I parametri di query più comuni per il paging includono:
 

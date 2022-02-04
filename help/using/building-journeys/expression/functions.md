@@ -5,14 +5,15 @@ description: Informazioni sulle funzioni
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
+source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
-# Funzioni {#concept_p1r_qj5_dgb}
+# Funzioni {#functions}
 
 Una funzione può avere firme diverse (un diverso insieme di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
 

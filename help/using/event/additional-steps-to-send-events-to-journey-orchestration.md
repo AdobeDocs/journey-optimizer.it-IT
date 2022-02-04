@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 5%
 
 ---
 
-# Passaggi aggiuntivi per l’invio di eventi {#concept_xrz_n1q_y2b}
+# Passaggi aggiuntivi per l’invio di eventi {#additional-steps-to-send-events}
 
 Per configurare gli eventi a cui inviare **[!UICONTROL Streaming Ingestion APIs]** e da utilizzare in [!DNL Journey Optimizer], segui questi passaggi:
 

@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # Sintassi dell’editor di espressioni avanzate {#syntax}
 
-## Parentesi e priorità delle espressioni{#section_edf_fks_bgb}
+## Parentesi e priorità delle espressioni{#parentheses-and-expression-priority}
 
 Le parentesi possono essere utilizzate per rendere più leggibile un’espressione complessa. _(&lt;expression>)_ è l&#39;equivalente di _&lt;expression>_. È inoltre possibile utilizzare le parentesi per definire l’ordine di valutazione e l’associatività.
 
@@ -28,7 +28,7 @@ Le espressioni verranno valutate da sinistra a destra. L&#39;associatività sugl
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; ha la priorità rispetto a &#39;+&#39;: 2 * 10 è valutato → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>Le parentesi cambiano la priorità: (4 + 2) è valutato → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Sensibilità delle maiuscole{#section_lrb_xh5_dgb}
+## Sensibilità delle maiuscole{#case-sensitivity}
 
 Di seguito sono riportate le diverse regole di distinzione tra maiuscole e minuscole:
 
@@ -36,7 +36,7 @@ Di seguito sono riportate le diverse regole di distinzione tra maiuscole e minus
 * Tutti i nomi delle funzioni fanno distinzione tra maiuscole e minuscole. Ad esempio, _inSegment()_ è valido mentre la funzione _INSEGMENT()_ non lo è.
 * I riferimenti ai campi e i valori costanti fanno distinzione tra maiuscole e minuscole: non sono elementi incorporati della lingua (a differenza degli operatori e delle funzioni), sono creati dall&#39;utente finale.
 
-## Tipo di espressione restituito{#section_gyc_435_53b}
+## Tipo di espressione restituito{#returned-expression-type}
 
 A seconda del contesto di utilizzo, l’editor di espressioni può restituire valori diversi.
 

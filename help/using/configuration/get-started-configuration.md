@@ -1,17 +1,14 @@
 ---
-title: Linee guida sulle impostazioni e sulla configurazione di Journey Optimizer
-description: Scopri le linee guida per la configurazione dei messaggi e dei percorsi
-audience: administrators
-content-type: reference
+title: Introduzione a [!DNL Journey Optimizer] configurazione
+description: Ulteriori informazioni [!DNL Journey Optimizer] configurazione
 role: Admin
 level: Intermediate
-solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '328'
 ht-degree: 9%
 
 ---
@@ -25,7 +22,7 @@ Per poter creare i tuoi percorsi e inviare messaggi, devi seguire questi passagg
 
 1. **Configurare messaggi e canali**: definire predefiniti, adattare e personalizzare e-mail e messaggi push
 
-   * Definire le impostazioni delle notifiche push in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../push-gs.md)
+   * Definire le impostazioni delle notifiche push in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../messages/push-gs.md)
 
    * Crea i predefiniti per i messaggi per configurare tutti i parametri tecnici necessari per i messaggi e-mail e per i messaggi di notifica push. [Ulteriori informazioni](message-presets.md)
 
@@ -34,7 +31,7 @@ Per poter creare i tuoi percorsi e inviare messaggi, devi seguire questi passagg
    * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di eliminazione. [Ulteriori informazioni](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../push-gs.md)
+    * Understand push notification flow. [Learn more](../messages/push-gs.md)
     -->
 
 1. **Delega sottodomini**: per utilizzare un nuovo sottodominio in Journey Optimizer, il primo passaggio consiste nel delegarlo. [Ulteriori informazioni](about-subdomain-delegation.md)

@@ -5,14 +5,15 @@ description: Informazioni sui tipi di dati nelle espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 23f4e8224ea5b00e8132b6a3f3e32f73b0cc993f
+exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 5%
 
 ---
 
-# Tipi di dati {#concept_gp3_rj5_dgb}
+# Tipi di dati {#data-types}
 
 Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione letterale viene specificato solo il valore . Il tipo di dati può essere dedotto dal valore (ad esempio stringa, numero intero, decimale e così via). Per casi specifici, come l’ora della data, utilizziamo funzioni dedicate per la rappresentazione.
 

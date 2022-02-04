@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 6%
 
 ---
 
-# Attività condizione{#section_e2n_pft_dgb}
+# Attività condizione{#condition-activity}
 
 Sono disponibili i seguenti tipi di condizioni:
 
@@ -99,7 +99,7 @@ Questo ti consente di definire un flusso diverso in base alla data. Ad esempio, 
 
 ## Limite del profilo {#profile_cap}
 
-Utilizza questo tipo di condizione per impostare un numero massimo di profili per un percorso percorso. Una volta raggiunto questo limite, i profili che entrano hanno un percorso alternativo. In questo modo i percorsi non supereranno mai il limite definito.
+Utilizza questo tipo di condizione per impostare un numero massimo di profili per un percorso percorso. Una volta raggiunto tale limite, i profili partecipanti seguono un percorso alternativo. In questo modo i percorsi non supereranno mai il limite definito.
 
 Puoi utilizzare questo tipo di condizione per aumentare il volume delle consegne. Vedi questo [caso d&#39;uso](ramp-up-deliveries-uc.md).
 

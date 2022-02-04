@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9e6e4f30e2f0301157901ea211f984ebcfb99bc4
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, puoi configurare la relativa connessione ai percorsi in questo punto. L’azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella sezione **[!UICONTROL Action]** categoria (vedere [questa pagina](../building-journeys/about-journey-activities.md#action-activities). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Slack, Adobe.io, Firebase, ecc.
 
-Le limitazioni sono elencate in [questa pagina](../limitations.md).
+Le limitazioni sono elencate in [questa pagina](../start/limitations.md).
 
 Puoi passare le raccolte in modo dinamico utilizzando azioni personalizzate. Fai riferimento a questo [caso d&#39;uso](../building-journeys/collections.md).
 
@@ -37,7 +37,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nella **[!UICONTROL Used in]** campo . Puoi fare clic su **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questa azione.
 1. Definire i diversi **[!UICONTROL URL Configuration]** Parametri. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
-1. Configura le **[!UICONTROL Authentication]** sezione . Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Configura le **[!UICONTROL Authentication]** sezione . Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definisci la **[!UICONTROL Action parameters]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Fai clic su **[!UICONTROL Save]**.
 

@@ -5,14 +5,15 @@ description: Scopri come creare espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 4695c88b4372a0f2a804bef268ae6f2d39eb2f0b
+exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
 
 ---
 
-# Informazioni sull’editor di espressioni avanzate {#concept_uyj_trt_52b}
+# Informazioni sull’editor di espressioni avanzate {#about-the-advanced-expression-editor}
 
 Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati.
 È inoltre disponibile ogni volta che hai bisogno di definire parametri di azione che richiedono specifiche manipolazioni dei dati. Puoi sfruttare i dati provenienti dagli eventi o le informazioni aggiuntive recuperate dall’origine dati. In un percorso, l’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso.
@@ -37,7 +38,7 @@ Ove possibile, puoi passare tra le due modalità utilizzando il pulsante **[!UIC
 >
 >I parametri delle azioni possono essere definiti selezionando i campi o tramite l’editor di espressioni avanzate. I parametri restituiscono un tipo di dati specifico in base alla relativa espressione.
 
-## Accesso all’editor di espressioni avanzate {#section_fdz_4nj_cjb}
+## Accesso all’editor di espressioni avanzate {#accessing-the-advanced-expression-editor}
 
 Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
@@ -48,7 +49,7 @@ Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 * Quando crei un timer personalizzato, l’editor avanzato viene visualizzato direttamente.
 * Quando mappi il parametro dell’azione, fai clic su **[!UICONTROL Advanced mode]**.
 
-## Descrizione dell’interfaccia{#section_otq_tnj_cjb}
+## Descrizione dell’interfaccia{#discovering-the-interface}
 
 Questa schermata ti consente di scrivere manualmente l’espressione.
 

@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 5%
 
 ---
 
-# Elencare regole di decisione
+# Elencare regole di decisione {#list-decision-rules}
 
 Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità. È possibile visualizzare un elenco delle regole decisionali esistenti all&#39;interno di un contenitore eseguendo una singola richiesta di GET al [!DNL Offer Library] API.
 
@@ -30,11 +30,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | Definisce lo schema associato alle regole decisionali. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | Parametri di query opzionali per filtrare i risultati in base a. | `limit=1` |
 
-## Utilizzo dei parametri di query
+## Utilizzo dei parametri di query {#using-query-parameters}
 
 Puoi utilizzare i parametri di query per sfogliare le pagine e filtrare i risultati durante l’elenco delle risorse.
 
-### Paging
+### Paging {#paging}
 
 I parametri di query più comuni per il paging includono:
 

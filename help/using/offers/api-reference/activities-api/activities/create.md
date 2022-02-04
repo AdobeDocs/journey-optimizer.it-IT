@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 12%
 
 ---
 
-# Creare una decisione
+# Creare una decisione {#create-decision}
 
 Puoi creare una decisione (precedentemente nota come attività di offerta) effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
 
-## Intestazioni Accept e Content-Type
+## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
 Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 

@@ -1,19 +1,19 @@
 ---
 title: Passaggi chiave per creare un’offerta
-description: Scopri i passaggi chiave necessari per creare un’offerta.
+description: Scopri i passaggi chiave necessari per creare un’offerta
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
 
 ---
 
-# Passaggi chiave per creare e gestire le offerte {#key-steps}
+# Passaggi chiave per creare e gestire le offerte {#key-steps-to-manage-offers}
 
 Di seguito sono descritti i passaggi principali per creare, configurare e gestire le offerte e per utilizzarle in una decisione.
 
@@ -21,7 +21,7 @@ Di seguito sono descritti i passaggi principali per creare, configurare e gestir
 
 Per un esempio completo, completo e completo, che mostra come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un’e-mail, consulta [questa pagina](../offers-e2e.md).
 
-## Creare componenti
+## Creare componenti {#create-components}
 
 Prima di iniziare a creare le offerte, devi definire diversi componenti da utilizzare nelle offerte.
 
@@ -41,7 +41,7 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Creare formule di classificazione</a></p></td>
 </table>
 
-## Creare e gestire le offerte
+## Creare e gestire le offerte {#create-and-manage-offers}
 
 1. **Creare offerte** e configurane il contenuto e le proprietà.
 
@@ -56,7 +56,7 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Creare raccolte</a></p></td></tr>
 </table>
 
-## Creare e configurare le decisioni
+## Creare e configurare le decisioni {#create-and-configure-decisions}
 
 1. **Creare una decisione** che combinerà posizionamenti con offerte personalizzate e offerte di fallback. Questa combinazione verrà utilizzata dal motore di Offer decisioning per trovare l’offerta migliore per un profilo specifico.
 

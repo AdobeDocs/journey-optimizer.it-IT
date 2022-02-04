@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
 
 ---
 
-# Versioni del percorso{#concept_ldc_k55_zgb}
+# Versioni del percorso{#journey-versions}
 
 Nell’elenco percorso vengono visualizzate tutte le versioni del percorso con il numero di versione. Consulta [questa pagina](../building-journeys/using-the-journey-designer.md).
 
@@ -25,7 +25,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulle limitazioni delle versioni di percorso, consulta [questa pagina](../limitations.md#journey-versions-limitations)
+>Per ulteriori informazioni sulle limitazioni delle versioni di percorso, consulta [questa pagina](../start/limitations.md#journey-versions-limitations)
 
 1. Apri la versione più recente del percorso live e fai clic su **[!UICONTROL Create a new version]** e confermare.
 

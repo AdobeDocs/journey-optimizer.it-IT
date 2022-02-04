@@ -1,5 +1,5 @@
 ---
-title: Creare un elenco di iscrizioni
+title: Creare un elenco di abbonamenti
 description: Scopri come impostare un elenco di abbonamenti in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,16 +8,16 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # Elenchi di iscrizione {#create-subscription-list}
 
-## Che cos’è un elenco di abbonamenti?
+## Che cos’è un elenco di abbonamenti? {#subscription-list-definition}
 
 Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti ai clienti che hanno acconsentito a ricevere comunicazioni su un soggetto/evento/interesse/ecc specifico. su base continuativa. In [!DNL Journey Optimizer], questi clienti con consenso vengono raccolti in un elenco di sottoscrizioni.
 

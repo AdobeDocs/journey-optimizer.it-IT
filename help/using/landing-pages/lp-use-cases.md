@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 19%
@@ -32,7 +32,7 @@ Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonamen
 
 Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avviare una campagna di registrazione degli eventi<!--to keep your customers that are interested updated on that event-->. A questo scopo, invierai un’e-mail con un collegamento a una pagina di destinazione che consentirà ai destinatari di registrarsi a questo evento. Gli utenti che si registrano verranno aggiunti all’elenco di sottoscrizioni creato a questo scopo.
 
-### Configurare la pagina di destinazione
+### Configurare la pagina di destinazione {#set-up-lp}
 
 1. Crea l&#39;elenco di iscrizione dell&#39;evento, che memorizzerà gli utenti registrati. Scopri come creare un elenco di abbonamenti [qui](subscription-list.md#define-subscription-list).
 
@@ -52,13 +52,13 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 
 1. [Pubblica](create-lp.md#publish) la pagina di destinazione.
 
-1. [Creare un messaggio e-mail](../create-message.md) per annunciare che la registrazione è ora aperta per il tuo evento.
+1. [Creare un messaggio e-mail](../messages/create-message.md) per annunciare che la registrazione è ora aperta per il tuo evento.
 
-1. [Inserire un collegamento](../message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Landing page]** come **[!UICONTROL Link type]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
+1. [Inserire un collegamento](../messages/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Landing page]** come **[!UICONTROL Link type]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. Salva il contenuto e [pubblica il messaggio](../publish-manage-message.md).
+1. Salva il contenuto e [pubblica il messaggio](../messages/publish-manage-message.md).
 
 1. Invia il messaggio tramite un [percorso](../building-journeys/journey.md) per indirizzare il traffico verso la pagina di destinazione della registrazione.
 
@@ -92,7 +92,7 @@ Tutti gli utenti che si sono registrati al tuo evento riceveranno l’e-mail di 
 
 Per consentire ai destinatari di annullare l’iscrizione alle comunicazioni, puoi includere un collegamento a una pagina di destinazione di rinuncia nelle e-mail.
 
-Ulteriori informazioni sulla gestione del consenso dei destinatari e sull’importanza di questo in [questa sezione](../consent.md).
+Ulteriori informazioni sulla gestione del consenso dei destinatari e sull’importanza di questo in [questa sezione](../messages/consent.md).
 
 ### Gestione degli opt-out {#opt-out-management}
 
@@ -129,9 +129,9 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [Creare un messaggio e-mail](../create-message.md) in [!DNL Journey Optimizer].
+1. [Creare un messaggio e-mail](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. Selezionare il testo nel contenuto e [inserire un collegamento](../message-tracking.md#insert-links) mediante la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
+1. Selezionare il testo nel contenuto e [inserire un collegamento](../messages/message-tracking.md#insert-links) mediante la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Salva il contenuto e [pubblica il messaggio](../publish-manage-message.md).
+1. Salva il contenuto e [pubblica il messaggio](../messages/publish-manage-message.md).
 
 1. Invia il tuo messaggio attraverso un percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

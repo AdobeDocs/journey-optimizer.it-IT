@@ -5,14 +5,15 @@ description: Scopri le istruzioni condizionali
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: d786f3d42515d65a6574f51b6cff4b85063a0126
+exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
-# Istruzione condizionale (if, then, else) {#section_cdz_lsk_w3b}
+# Istruzione condizionale (if, then, else) {#conditional-instruction}
 
 L’istruzione condizionale (se, then, else) è supportata nell’editor avanzato. Consente di definire espressioni più complesse. È composto dai seguenti elementi:
 
