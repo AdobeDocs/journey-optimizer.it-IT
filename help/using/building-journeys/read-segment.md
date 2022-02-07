@@ -9,7 +9,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
 workflow-type: tm+mt
 source-wordcount: '1036'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -77,7 +77,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](../assets/read-segment-schedule-list.png)
 
-   La **Lettura incrementale** consente di eseguire il targeting solo per gli utenti che sono entrati nel segmento dall’ultima esecuzione del percorso. La prima esecuzione esegue sempre il targeting di tutti i membri del segmento. Questa opzione è disponibile solo per **Leggi segmento** attività.
+   La **Lettura incrementale** consente di eseguire il targeting solo per gli utenti che sono entrati nel segmento dall’ultima esecuzione del percorso. La prima esecuzione indirizza sempre tutti i membri del segmento. Questa opzione è disponibile solo per **Leggi segmento** attività.
 
 <!--
 
