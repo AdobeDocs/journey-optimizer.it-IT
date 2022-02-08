@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1433'
 ht-degree: 10%
 
 ---
@@ -24,15 +24,15 @@ La delega del nome di dominio è un metodo che consente al proprietario di un no
 
 Delega di un sottodominio per l’utilizzo con [!DNL Journey Optimizer], i client possono fare affidamento sull’Adobe per mantenere l’infrastruttura DNS necessaria per soddisfare i requisiti di recapito dei messaggi standard del settore per i propri domini di invio di e-mail marketing, continuando a mantenere e controllare il DNS per i propri domini e-mail interni.
 
-## Delega di sottodomini completa {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] ti consente di delegare completamente i sottodomini ad Adobe direttamente dall’interfaccia del prodotto. In questo modo, Adobe sarà in grado di inviare messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento delle campagne e-mail.
-
 >[!NOTE]
 >
 >Per impostazione predefinita, [!DNL Journey Optimizer] il contratto di licenza ti consente di delegare fino a 10 sottodomini. Contatta il tuo contatto Adobe se desideri aumentare questa limitazione.
 
-Per delegare un nuovo sottodominio, effettua le seguenti operazioni:
+## Delega di sottodomini completa {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] ti consente di delegare completamente i sottodomini ad Adobe direttamente dall’interfaccia del prodotto. In questo modo, Adobe sarà in grado di inviare messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento delle campagne e-mail.
+
+Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti operazioni:
 
 1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
 

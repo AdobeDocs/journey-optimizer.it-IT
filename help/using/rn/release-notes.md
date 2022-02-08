@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 100%
+source-wordcount: '2416'
+ht-degree: 98%
 
 ---
 
@@ -56,10 +56,11 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * Ora è possibile collegare gli eventi dei passaggi di Journey Optimizer ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il campo **profileID** nello schema integrato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../reports/sharing-overview.md#integration-cja)
 
-
 **Offer Decisioning**
 
 * Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente in un messaggio pubblicato, gli aggiornamenti vengono ora rispecchiati automaticamente nel messaggio corrispondente, senza doverlo ripubblicare. [Ulteriori informazioni](../offers/offers-e2e.md#insert-decision-in-email)
+
+* Quando si simulano le offerte che verranno consegnate per un determinato profilo di test, ora è possibile modificare le impostazioni di simulazione predefinite e visualizzare il codice corrispondente alle simulazioni che possono essere utilizzate per la risoluzione dei problemi. [Ulteriori informazioni](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **Amministrazione**
 
