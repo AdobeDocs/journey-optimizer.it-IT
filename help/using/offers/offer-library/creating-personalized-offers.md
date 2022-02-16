@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 3%
+source-wordcount: '1491'
+ht-degree: 5%
 
 ---
 
@@ -28,6 +28,12 @@ L’elenco delle offerte personalizzate è accessibile nella sezione **[!UICONTR
 ![](../../assets/offers_list.png)
 
 ## Creare l’offerta {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="Informazioni sugli attributi delle offerte"
+>abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Guarda il video dimostrativo"
 
 Per creare un **offerta**, segui questi passaggi:
 
@@ -141,6 +147,30 @@ Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONT
    >Solo il **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** e **[!UICONTROL Helper functions]** le fonti sono disponibili per la gestione delle decisioni.
 
 ## Aggiungere regole e vincoli di idoneità {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="Informazioni sui vincoli delle offerte"
+>abstract="Con i vincoli, puoi specificare in che modo l’offerta viene prioritaria e presentata all’utente rispetto ad altre offerte."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Guarda il video dimostrativo"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="Informazioni sull’idoneità delle offerte"
+>abstract="In questa sezione puoi utilizzare le regole decisionali per determinare quali utenti sono idonei per l’offerta."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Guarda il video dimostrativo"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="Informazioni sulla priorità delle offerte"
+>abstract="In questo campo, puoi specificare le impostazioni di priorità per l’offerta. La priorità è un numero utilizzato per classificare le offerte che soddisfano tutti i vincoli quali idoneità, date e limiti."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Guarda il video dimostrativo"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="Informazioni sul limite delle offerte"
+>abstract="In questo campo, puoi specificare quante volte l’offerta può essere presentata a tutti gli utenti."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Guarda il video dimostrativo"
 
 Le regole di idoneità e i vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
