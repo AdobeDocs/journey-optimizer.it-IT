@@ -4,8 +4,8 @@ description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '919'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
-* La sezione relativa a [!DNL Journey Optimizer] le funzionalità di personalizzazione sono state riorganizzate per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
+* La sezione relativa alle funzionalità di personalizzazione di [!DNL Journey Optimizer] è stata riorganizzata per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
 
 * La sezione Crea predefiniti per messaggi è stata suddivisa in diverse sezioni per migliorare la chiarezza. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
 
@@ -109,7 +109,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Immagini ottimizzate della pagina principale
 * La sezione “Tracciamento messaggi” è stata spostata, migliorata e rinominata in “Aggiungere collegamenti e tenere traccia dei messaggi”. [Ulteriori informazioni](../messages/message-tracking.md)
 * È stata aggiunta una sottosezione sulle pagine speculari. [Ulteriori informazioni](../messages/message-tracking.md#mirror-page)
-* Le &quot;attività di offerta&quot; sono state rinominate &quot;decisioni&quot; e &quot;decisioni&quot; come &quot;ambiti decisionali&quot; nella documentazione e nelle schermate. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
+* Nella documentazione e nelle schermate le “attività di offerta” sono state rinominate “decisioni” e le “decisioni” sono state rinominate “ambiti decisionali”. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con le funzioni di assistenza](../personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](../building-journeys/read-segment.md)
 * Sono state aggiornate le limitazioni di Journey. [Ulteriori informazioni](../start/limitations.md)

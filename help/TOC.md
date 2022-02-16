@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '911'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 0%
    + [Contesti di personalizzazione](using/personalization/personalization-contexts.md)
    + Creare espressioni {#build-expressions}
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
-      + Utilizzare l’editor espressioni {#expression-editor}
-         + [Informazioni sull’editor espressioni](using/personalization/personalization-build-expressions.md)
-         + [Aggiungi attributi ai preferiti](using/personalization/personalization-favorites.md)
+      + Utilizzare l’editor di espressioni {#expression-editor}
+         + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
+         + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
          + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
       + Funzioni assistenza{#functions}
          + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
