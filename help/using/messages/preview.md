@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 3e22c572ba05f1d084c87e550c80f521e39d7520
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,8 +46,8 @@ Inoltre, sfrutta i **Litmo** tenere conto [!DNL Journey Optimizer] per visualizz
 >id="ac_preview_testprofiles"
 >title="Anteprima e verifica dei messaggi"
 >abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="Rendering di e-mail"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Anteprima"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#email-rendering" text="Rendering di e-mail"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#preview-your-messages" text="Anteprima"
 
 Utilizzo [Profili di test](../building-journeys/creating-test-profiles.md) per eseguire il targeting di altri destinatari che non soddisfano i criteri di targeting definiti.
 

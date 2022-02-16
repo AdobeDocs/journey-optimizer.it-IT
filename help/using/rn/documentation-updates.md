@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,11 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * La sezione relativa a [!DNL Journey Optimizer] le funzionalità di personalizzazione sono state riorganizzate per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
 
+* La sezione Crea predefiniti per messaggi è stata suddivisa in diverse sezioni per migliorare la chiarezza. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
+
+* La sezione Gestione delle rinunce è stata chiarita e leggermente riorganizzata. [Ulteriori informazioni](../messages/consent.md#opt-out-management)
+
+* La sezione Inserisci collegamenti è stata aggiornata per riflettere le recenti modifiche all’interfaccia utente. [Ulteriori informazioni](../messages/message-tracking.md#insert-links)
 
 ## Novembre 2021 {#november-2021}
 
@@ -87,7 +92,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../messages/allow-list.md#enable-allow-list)
 * È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/message-presets.md#monitor-message-presets)
 * È stata aggiornata e rinominata la sezione Intervallo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti per i messaggi. [Ulteriori informazioni](../configuration/retries.md#retry-duration)
-* È stata aggiunta una nuova sezione che descrive come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](../messages/message-tracking.md#one-click-opt-out-link)
+* È stata aggiunta una nuova sezione che descrive come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](../messages/consent.md#one-click-opt-out-link)
 * È stata aggiornata la sezione Delegare un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](../configuration/delegate-subdomain.md#subdomain-validation)
 * È stata aggiunta una sezione che descrive come aggiungere manualmente indirizzi e-mail e domini all’elenco di eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Sono state aggiornate le sezioni [Accedere all’elenco di soppressione](../configuration/manage-suppression-list.md#access-suppression-list) e [Nuovi tentativi](../configuration/retries.md) per riflettere la nuova interfaccia utente.

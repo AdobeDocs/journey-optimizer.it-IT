@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Configurare la selezione di offerte nelle decisioni {#offers-selection-in-decisions}
 
-Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il metodo che sceglierà l’offerta migliore per ciascun profilo al momento della configurazione di una decisione (precedentemente nota come attività di offerta). Puoi classificare le offerte in base a:
+Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il metodo che sceglierà l’offerta migliore per ciascun profilo al momento della configurazione di una decisione. Puoi classificare le offerte in base a:
 * Priorità offerta
 * Formula di classificazione
 * [Classificazione dell’intelligenza artificiale](#use-ranking-strategy) (solo per utenti selezionati)
@@ -24,7 +24,7 @@ Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il
 
 ## Priorità offerta {#offer-priority}
 
-Per impostazione predefinita, quando più offerte sono idonee per un determinato posizionamento in una decisione (precedentemente nota come attività di offerta), le offerte con il valore più alto **priorità** verranno consegnati prima ai clienti.
+Per impostazione predefinita, quando più offerte sono idonee per un determinato posizionamento in una decisione, le offerte con il più alto **priorità** verranno consegnati prima ai clienti.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ Ad esempio, puoi aumentare la priorità di tutte le offerte in cui la data di fi
 
 Scopri come creare una formula di classificazione in [questa sezione](../offer-library/create-ranking-formulas.md).
 
-Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione (precedentemente nota come attività di offerta). Per farlo, segui la procedura indicata di seguito:
+Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione. Per farlo, segui la procedura indicata di seguito:
 
 1. Crea una decisione o modifica una decisione esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
@@ -60,13 +60,15 @@ Se più offerte sono idonee per essere presentate in questo posizionamento, la d
 
 ## Classificazione basata su IA {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte per un determinato profilo selezionando una strategia di classificazione. Scopri come creare una strategia di classificazione in [questa sezione](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >L’utilizzo della classificazione basata su IA è attualmente disponibile in accesso anticipato solo per determinati utenti.
 
-Una volta creata una strategia di classificazione, puoi assegnarla a un posizionamento in una decisione (precedentemente nota come attività di offerta). A questo scopo, segui i passaggi seguenti:
+Una volta creata una strategia di classificazione, puoi assegnarla a un posizionamento in una decisione. A questo scopo, segui i passaggi seguenti:
 
 1. Crea una decisione o modifica una decisione esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 

@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 1bca78723ec8ff93f48b9afa360868c2b9bac670
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 ## Guida introduttiva alle classificazioni AI {#get-started-with-ai-rankings}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use an trained model system that ranks offers to display for a given profile.
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
 
 >[!CAUTION]
 >
@@ -168,10 +168,11 @@ Ora ogni volta che un’offerta viene visualizzata e/o fai clic su di essa, desi
 
 Per poter inviare tipi di evento (offerta visualizzata o offerta su cui è stato fatto clic), devi impostare il valore corretto per ciascun tipo di evento in un evento di esperienza inviato in Adobe Experience Platform. Di seguito sono riportati i requisiti dello schema da implementare nel codice JavaScript:
 
-**Scenario:** Offerta visualizzata
+### Scenario visualizzato dell’offerta
+
 **Tipo evento:** `decisioning.propositionDisplay`
 **Origine:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
-**Payload di esempio:**
++++**Payload di esempio:**
 
 ```
 {
@@ -197,10 +198,13 @@ Per poter inviare tipi di evento (offerta visualizzata o offerta su cui è stato
 }
 ```
 
-**Scenario:** Offerta su cui è stato fatto clic
++++
+
+### Scenario con clic sull’offerta
+
 **Tipo evento:** `decisioning.propositionInteract`
 **Origine:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
-**Payload di esempio:**
++++**Payload di esempio:**
 
 ```
 {
@@ -226,12 +230,14 @@ Per poter inviare tipi di evento (offerta visualizzata o offerta su cui è stato
 }
 ```
 
++++
+
 <!--
 ## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
-Once a ranking strategy has been created, you can assign it to a placement in a decision (previously known as offer activity). For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
+Once a ranking strategy has been created, you can assign it to a placement in a decision. For more on this, see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md).
 
 1. Create a decision.
 1. Add a placement.

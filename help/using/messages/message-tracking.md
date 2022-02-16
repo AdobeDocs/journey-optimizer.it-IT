@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,11 +52,13 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * **[!UICONTROL Landing page]**: Inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Unsubscription link]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](consent.md#opt-out-management).
+   * **[!UICONTROL One click Opt-out]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. [Ulteriori informazioni](consent.md#one-click-opt-out).
+
+   * **[!UICONTROL External Opt-in/Subscription]**: Inserisci un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
+
+   * **[!UICONTROL External Opt-out/Unsubscription]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](consent.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. [Ulteriori informazioni](#mirror-page).
-
-   * **[!UICONTROL Opt-out]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. [Ulteriori informazioni](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +68,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Una volta creato il collegamento, puoi comunque modificarlo dal **[!UICONTROL Component settings]** a destra.
 
-   * Fai clic sull’icona a forma di matita per modificare il collegamento.
+   * Puoi modificare il collegamento e modificarne il tipo.
    * Puoi scegliere di sottolineare il collegamento o meno selezionando l’opzione corrispondente.
 
    ![](assets/message-tracking-link-settings.png)
@@ -93,34 +95,6 @@ Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento d
 
 Il periodo di conservazione per una pagina speculare è di 60 giorni. Dopo tale ritardo, la pagina speculare non sarà più disponibile.
 
-## Collegamento di rinuncia con un clic {#one-click-opt-out-link}
-
-Per consentire ai destinatari di annullare rapidamente l’iscrizione alla ricezione di comunicazioni dal brand, puoi inserire un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail. Questa capacità impedisce agli utenti di essere reindirizzati a una pagina di destinazione in cui devono confermare la propria scelta, il che velocizza il processo di annullamento dell’abbonamento.
-
-Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura seguente.
-
-1. [Inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Opt-out]** come tipo di collegamento.
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. Seleziona la modalità di applicazione della rinuncia: a livello di canale, identità o abbonamento.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**: La rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se più destinazioni sono associate a un profilo, la rinuncia si applica a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
-   * **[!UICONTROL Identity]**: La rinuncia si applica ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
-   * **[!UICONTROL Subscription]**: La rinuncia si applica ai messaggi futuri associati a un elenco di sottoscrizione specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di sottoscrizioni.
-
-1. Immetti l’URL della pagina di destinazione in cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati in [questa sezione](../personalization/personalization-syntax.md).
-
-1. Salva le modifiche.
-
-Una volta inviato il messaggio, se i destinatari fanno clic sul collegamento di rinuncia, vengono immediatamente esclusi.
-
 ## Gestire il tracciamento {#manage-tracking}
 
 La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracciati, ad esempio modificando il tipo di tracciamento per ogni collegamento.
@@ -134,7 +108,6 @@ La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
    ![](assets/message-tracking-edit-links.png)
 
 1. Puoi modificare la **[!UICONTROL Tracking Type]** se necessario:
-
 
    ![](assets/message-tracking-edit-a-link.png)
 

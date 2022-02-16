@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,76 +44,11 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    >
    > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-1. Configura le **email** impostazioni.
+1. Configura le **email** impostazioni. [Ulteriori informazioni](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. Configura le **notifica push** impostazioni. [Ulteriori informazioni](#configure-push-settings)
 
-   * Seleziona il tipo di messaggio da inviare con il predefinito: **Transazionale** o **Marketing**
-
-      >[!CAUTION]
-      >
-      > **Transazionale** I messaggi possono essere inviati a profili che hanno annullato l’abbonamento a comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici, ad esempio la reimpostazione della password, lo stato dell’ordine e la notifica della consegna.
-
-   * Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
-   * Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
-   * Immetti i parametri di intestazione per le e-mail inviate utilizzando tale predefinito.
-
-      >[!CAUTION]
-      >
-      >Gli indirizzi e-mail devono utilizzare il [sottodominio delegato](about-subdomain-delegation.md).
-
-      * **[!UICONTROL Sender name]**: Nome del mittente, ad esempio il nome del brand.
-
-      * **[!UICONTROL Sender email]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com*.
-
-      * **[!UICONTROL Reply to (name)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail.
-
-      * **[!UICONTROL Reply to (email)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. È necessario utilizzare un indirizzo definito nel sottodominio delegato (ad esempio, *reply@marketing.luma.com*), altrimenti le e-mail verranno eliminate.
-
-      * **[!UICONTROL Error email]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
-      >[!NOTE]
-      >
-      >Dalla versione di ottobre 2021, non è più possibile definire un indirizzo e-mail inoltrato dal [!DNL Journey Optimizer] interfaccia utente. Se desideri che tutte le e-mail ricevute da [!DNL Journey Optimizer] per inoltrare il sottodominio delegato a un indirizzo e-mail specifico, contatta il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
-
-   * Configura le **parametri di esecuzione di un nuovo tentativo e-mail**. Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-duration) è impostato su 84 ore, ma è possibile regolare questa impostazione in base alle proprie esigenze.
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      È necessario immettere un valore intero (in ore o minuti) entro il seguente intervallo:
-      * Per il tipo di e-mail di marketing, il periodo minimo di esecuzione dei tentativi è di 6 ore.
-      * Per il tipo di e-mail transazionale, il periodo minimo di esecuzione dei tentativi è di 10 minuti.
-      * Per entrambi i tipi di e-mail, il periodo massimo di esecuzione dei nuovi tentativi è di 84 ore (o 5040 minuti).
-
-
-1. Configura le **notifica push** impostazioni.
-
-   ![](../assets/preset-push.png)
-
-   * Seleziona almeno una piattaforma: **iOS** e/o **Android**
-
-   * Seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
-
-      Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](../messages/push-gs.md).
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
@@ -140,6 +75,78 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    ![](../assets/preset-active.png)
+
+## Configurare le impostazioni e-mail {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. Seleziona il tipo di messaggio da inviare con il predefinito: **Transazionale** o **Marketing**.
+
+   >[!CAUTION]
+   >
+   > **Transazionale** I messaggi possono essere inviati a profili che hanno annullato l’abbonamento a comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici, ad esempio la reimpostazione della password, lo stato dell’ordine e la notifica della consegna.
+
+1. Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
+
+1. Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
+
+1. Immetti i parametri di intestazione per le e-mail inviate utilizzando tale predefinito.
+
+   >[!CAUTION]
+   >
+   >Gli indirizzi e-mail devono utilizzare il [sottodominio delegato](about-subdomain-delegation.md).
+
+   * **[!UICONTROL Sender name]**: Nome del mittente, ad esempio il nome del brand.
+
+   * **[!UICONTROL Sender email]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com*.
+
+   * **[!UICONTROL Reply to (name)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail.
+
+   * **[!UICONTROL Reply to (email)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. È necessario utilizzare un indirizzo definito nel sottodominio delegato (ad esempio, *reply@marketing.luma.com*), altrimenti le e-mail verranno eliminate.
+
+   * **[!UICONTROL Error email]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
+   >[!NOTE]
+   >
+   >Dalla versione di ottobre 2021, non è più possibile definire un indirizzo e-mail inoltrato dal [!DNL Journey Optimizer] interfaccia utente. Se desideri che tutte le e-mail ricevute da [!DNL Journey Optimizer] per inoltrare il sottodominio delegato a un indirizzo e-mail specifico, contatta il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
+
+1. Configura le **parametri di esecuzione di un nuovo tentativo e-mail**. Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-duration) è impostato su 84 ore, ma è possibile regolare questa impostazione in base alle proprie esigenze.
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   È necessario immettere un valore intero (in ore o minuti) entro il seguente intervallo:
+   * Per il tipo di e-mail di marketing, il periodo minimo di esecuzione dei tentativi è di 6 ore.
+   * Per il tipo di e-mail transazionale, il periodo minimo di esecuzione dei tentativi è di 10 minuti.
+   * Per entrambi i tipi di e-mail, il periodo massimo di esecuzione dei nuovi tentativi è di 84 ore (o 5040 minuti).
+
+## Configurare le impostazioni push {#configure-push-settings}
+
+1. Seleziona almeno una piattaforma: **iOS** e/o **Android**.
+
+1. Seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
+
+![](../assets/preset-push.png)
+
+Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](../messages/push-gs.md).
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## Monitorare i predefiniti per messaggi {#monitor-message-presets}
 

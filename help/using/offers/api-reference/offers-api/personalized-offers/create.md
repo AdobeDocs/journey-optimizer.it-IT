@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -104,4 +104,4 @@ Una risposta corretta restituisce informazioni sull’offerta personalizzata app
 
 ## Limitazioni  {#limitations}
 
-Al momento alcuni vincoli di offerta non sono supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. La `Capping` il valore campo specifica il numero di volte in cui un’offerta può essere presentata in tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione sulle regole di idoneità e sui vincoli delle offerte](../../../offer-library/creating-personalized-offers.md).
+Le rappresentazioni delle offerte e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. La `Capping` il valore campo specifica il numero di volte in cui un’offerta può essere presentata in tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione sulle regole di idoneità e sui vincoli delle offerte](../../../offer-library/creating-personalized-offers.md).

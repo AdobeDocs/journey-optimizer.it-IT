@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,7 +81,7 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 * **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite impostate da un addetto marketing, ad esempio la categoria dell’offerta.
 
-* **Decisione** (precedentemente nota come “attività di offerta”): una decisione contiene la logica utilizzata per determinare la selezione di un’offerta.
+* **Decisione**: Una decisione contiene la logica che informa la selezione di un’offerta.
 
 * **Regola di decisione**: le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 
