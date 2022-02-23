@@ -1,35 +1,29 @@
 ---
 title: Utilizzare azioni personalizzate
 description: Scopri come utilizzare le azioni personalizzate
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 6%
+ht-degree: 19%
 
 ---
 
 # Utilizzare azioni personalizzate {#use-custom-actions}
 
-Il riquadro di configurazione dell’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->Non puoi passare una raccolta semplice nei parametri delle azioni personalizzate. Campi di raccolta più complessi (array di oggetti) non supportati.  Tieni presente che i parametri hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti.
+Le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti in modo da consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
 ## Configurazione URL
+
+Il riquadro di configurazione del **Azione personalizzata** attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
 ### Percorso dinamico
 
 Se l’URL include un percorso dinamico, specifica il percorso nel **[!UICONTROL Path]** campo .
-
->[!NOTE]
->
->Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
 Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Ulteriori informazioni](expression/expressionadvanced.md).
 

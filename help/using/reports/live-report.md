@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,21 @@ I dati sono disponibili nella **[!UICONTROL Live report]** non appena la consegn
 
 Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget. La modifica dei widget influisce solo sul dashboard dell&#39;utente corrente. Altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
-1. Dal rapporto live, fai clic su **[!UICONTROL Modify]**.
+1. Scegli se escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_1.png)
+   ![](../assets/report_modify_6.png)
+
+1. Per ridimensionare o rimuovere i widget, fai clic su **[!UICONTROL Modify]**.
+
+   ![](../assets/report_modify_7.png)
 
 1. Regolare le dimensioni dei widget trascinandone l&#39;angolo in basso a destra.
 
-   ![](../assets/report_modify_2.png)
+   ![](../assets/report_modify_8.png)
 
-1. Fai clic su **[!UICONTROL Remove]** per rimuovere altri widget che non è necessario tenere traccia dei rimbalzi.
+1. Fai clic su **[!UICONTROL Remove]** per rimuovere qualsiasi widget non è necessario.
 
-   ![](../assets/report_modify_3.png)
+   ![](../assets/report_modify_9.png)
 
 1. Una volta soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Save]**.
 

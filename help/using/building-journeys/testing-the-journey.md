@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1625'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Puoi attivare/disattivare la modalità di test il numero di volte necessario.
 * Non è possibile modificare il percorso quando viene attivata la modalità di test. In modalità di test, è possibile pubblicare direttamente il percorso, senza dover disattivare la modalità di test in precedenza.
 * Quando si raggiunge una divisione, viene sempre scelto il ramo superiore. Potete riorganizzare la posizione dei rami divisi se desiderate che il test scelga un percorso diverso.
+* Per ottimizzare le prestazioni e impedire l’utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato Bozza.
 
 ## Attivazione degli eventi {#firing_events}
 

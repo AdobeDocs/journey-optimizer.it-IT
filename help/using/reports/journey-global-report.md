@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 59272469ef0ea5cc43c553bab72236b89a76c643
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -119,11 +119,34 @@ La **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** I widget
 
 Per ulteriori informazioni sui messaggi non recapitati, consulta [Elenco di eliminazione](../messages/suppression-list.md) pagina.
 
+![](../assets/global_report_22.png)
+
+La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
+
+La **[!UICONTROL Excluded reasons]** grafico e tabella mostrano i diversi motivi che impedivano ai profili utente, esclusi dai profili di destinazione, di ricevere il messaggio.
+
 ![](../assets/global_report_16.png)
 
 La **[!UICONTROL Email - Top Url]** grafico e tabelle che specificano gli URL della consegna più visitati.
 
 La **[!UICONTROL Email - Top recipient domain]** visualizza i dettagli del grafico e della tabella relativi ai domini più utilizzati dai destinatari per aprire l’e-mail.
+
+![](../assets/global_report_23.png)
+
+>[!NOTE]
+>
+>La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta questo [page](../building-journeys/journeys-message.md#send-time-optimization).
+
+La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
+
+* **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Opens]**: Numero di volte in cui la consegna è stata aperta in una consegna.
+* **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
+
+La **[!UICONTROL Send time optimization]** specifica il successo della consegna in base al metodo di invio: ottimizzato o normale.
+
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
 <!--
 ![](../assets/global_report_21.png)
@@ -200,6 +223,21 @@ La **[!UICONTROL Push notification summary]** Il grafico contiene i dati disponi
 * **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+>[!NOTE]
+>
+>La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta questo [page](../building-journeys/journeys-message.md#send-time-optimization).
+
+La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
+
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Opens]**: Numero di volte in cui la consegna è stata aperta in una consegna.
+* **[!UICONTROL Actions]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
+
+La **[!UICONTROL Send time optimization]** specifica il successo della consegna in base al metodo di invio: ottimizzato o normale.
+
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
 ![](../assets/global_report_18.png)
 

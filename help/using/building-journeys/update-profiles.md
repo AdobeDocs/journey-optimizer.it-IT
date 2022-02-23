@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ La **[!UICONTROL Update Profile]** l’attività action ti consente di aggiornar
 * Non è possibile utilizzare il **Aggiorna profilo** azione per generare eventi di esperienza, ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Platform sarà rapida ma non immediata/entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un’azione utilizza &quot;campo 1&quot; aggiornato da un’azione Aggiorna profilo posizionata in precedenza, non devi aspettarti che il &quot;campo 1&quot; venga aggiornato nell’azione .
+* La **Aggiorna profilo** l&#39;attività non supporta campi XDM definiti come enumerazione.
 
 ## Utilizzo della modalità di prova {#using-the-test-mode}
 

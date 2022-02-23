@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Per ogni azione configurata, nella palette Progettazione percorsi è disponibile
 
 ## Note importanti {#important-notes}
 
-* I messaggi non sono soggetti a limitazione. Il numero massimo di messaggi che possono essere inviati oltre 50.000/ora in base al nostro attuale SLA Campaign. Per questo motivo, Journey Optimizer deve essere utilizzato solo in casi d’uso unitari (singoli eventi, non segmenti).
+* I messaggi non sono soggetti a limitazione. Il sistema limita il numero di messaggi che possono essere inviati a 4000 per 5 minuti, in base allo SLA di Campaign corrente. Per questo motivo, Journey Optimizer deve essere utilizzato solo in casi d’uso unitari (singoli eventi, non segmenti).
 
 * È necessario configurare un’azione sull’area di lavoro per modello da utilizzare. Devi configurare un’azione in Journey Optimizer per ogni modello che desideri utilizzare da Adobe Campaign.
 

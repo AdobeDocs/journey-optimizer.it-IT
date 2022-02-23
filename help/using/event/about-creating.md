@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: a51b19413d2b4894adfaa8249ee4f5d404ac7123
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1443'
 ht-degree: 14%
 
 ---
@@ -67,7 +67,6 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
    ![](../assets/jo-event7.png)
 
-1. Per gli eventi generati dal sistema, puoi aggiungere una condizione . Questo passaggio è facoltativo. In tal modo, consenti al sistema di elaborare solo gli eventi che soddisfano la condizione specifica. Tale condizione può essere basata solo sulle informazioni contenute nell’evento. Vedi [questa sezione](../event/about-creating.md#add-a-condition).
 1. Fai clic su **[!UICONTROL Save]**.
 
    L’evento è ora configurato e pronto per essere rilasciato in un percorso. Per poter ricevere gli eventi sono necessari ulteriori passaggi di configurazione. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
@@ -137,7 +136,7 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 
    ![](../assets/journey16.png)
 
-1. Select the field chosen as the key in the list of payload fields. Puoi anche passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi). Vedi sotto, in questa sezione.
+1. Seleziona il campo scelto come chiave nell’elenco dei campi payload. Puoi anche passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi). Vedi sotto, in questa sezione.
 
    ![](../assets/journey20.png)
 
@@ -145,18 +144,6 @@ Quando l’evento viene ricevuto, il valore della chiave consentirà al sistema 
 La chiave viene utilizzata anche per verificare che una persona si trovi in un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
 Puoi anche accedere alle funzioni di espressione avanzate (**[!UICONTROL Advanced mode]**) se desideri eseguire ulteriori manipolazioni. Queste funzioni consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio la modifica dei formati, l’esecuzione di concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i 10 primi caratteri). Vedi [Documentazione del Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-## Aggiungi una condizione {#add-a-condition}
-
-La condizione è disponibile solo per gli eventi generati dal sistema. Puoi definire una condizione di evento che consente al sistema di filtrare l’elaborazione degli eventi. Se la condizione è true, l’evento viene elaborato. Se la condizione non è vera, l’evento viene ignorato.
-
-La condizione relativa agli eventi può essere basata solo sui dati passati nel payload dell’evento. La condizione definita a livello di evento non può essere modificata nell’area di lavoro da un addetto al marketing. Lo scopo è quello di indurire questa condizione quando viene utilizzato questo evento. Ad esempio, se non vuoi che gli esperti di marketing utilizzino eventi di abbandono carrello se il valore del carrello è troppo piccolo, puoi creare una condizione sul campo evento &quot;valore del carrello&quot; e imporre un valore superiore a 100 dollari.
-
-Puoi utilizzare l’editor di espressioni semplici o l’editor di espressioni avanzate per impostare le condizioni sugli eventi. Vedi [Documentazione del Journey Orchestration](../building-journeys/expression/expressionadvanced.md).
-
-Ad esempio, puoi definire una condizione per elaborare solo gli eventi di un tipo di evento specifico e ignorare gli altri tipi. Oppure, se l’evento è un abbandono del carrello e il payload include il campo del valore del carrello, puoi definire una condizione di evento per elaborare gli eventi solo se il valore del carrello è maggiore di 100 dollari.
-
-![](../assets/journey78.png)
 
 ## Anteprima del payload {#preview-the-payload}
 

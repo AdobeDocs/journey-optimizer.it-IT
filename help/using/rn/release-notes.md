@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
+source-git-commit: 6c4b79ad4291d6206fbbbe831ea10b76b431389f
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 100%
+source-wordcount: '2611'
+ht-degree: 93%
 
 ---
 
@@ -13,6 +13,100 @@ ht-degree: 100%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in [!DNL Journey Optimizer]. Per ulteriori modifiche, puoi consultare anche la pagina dedicata agli [ultimi aggiornamenti della documentazione](documentation-updates.md).
 
+
+
+## Versione di febbraio 2022 {#feb-2022-release}
+
+### Nuove funzionalità
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Subscription Landing Pages</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
+<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Expression Personalization Library</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer now provides a library where you can access predefined personalization expressions. These expressions are configured by Admin users.</p>
+<!--p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-case.md">sample use case</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>API Developer Site and Suppression API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
+Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
+<p>With this API, you can control your outgoing messages using suppression and allow lists.
+The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Trasmettere le informazioni per tenere traccia dei messaggi con i parametri di tracciamento UTM</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nel contenuto del messaggio di Journey Optimizer, è ora possibile aggiungere parametri UTM ai collegamenti: possono fornire dati aggiuntivi su quel collegamento e aiutarti a identificare dove e perché una persona ha fatto clic sul collegamento.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/message-presets.md">documentazione dettagliata</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti
+
+**Percorsi**
+
+* Per ottimizzare le prestazioni, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato Bozza. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#important_notes)
+* L’integrazione tra Journey Optimizer e Adobe Campaign Classic è stata ottimizzata per migliorare le prestazioni. La configurazione predefinita del limite è stata modificata in 4000 chiamate/5 minuti.	[Ulteriori informazioni](../action/acc-action.md#important-notes)
+
+**Generazione rapporti**
+
+* È ora possibile filtrare le consegne in base al loro stato:
+   * Dall’elenco Esecuzione messaggi, ora puoi escludere le bozze dall’elenco delle consegne.
+   * Dai rapporti Live/Global puoi scegliere di escludere gli eventi di test.
+
+* È ora possibile accedere ai rapporti relativi ai dati di ottimizzazione del tempo di invio: il numero di persone che hanno inviato messaggi immediatamente e il numero di persone che sono state inviate con un&#39;ottimizzazione di 1 ora, 2 ore di ottimizzazione, ecc.
+
+<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+
+**Gestione delle decisioni**
+
+* Le classificazioni e la classificazione AI sono ora raggruppate in un’unica scheda.
 
 ## Versione di gennaio 2022 {#january-2022-release}
 

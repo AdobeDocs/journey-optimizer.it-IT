@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 5%
@@ -59,7 +59,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
 1. Imposta la **[!UICONTROL Throttling rate]** al limite di velocità effettiva dell’attività del segmento letto.
 
-   Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 17.000 messaggi al secondo. Puoi modificare questo valore da 500 a 17.000 messaggi al secondo.
+   Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 20.000 messaggi al secondo. Puoi modificare questo valore da 500 a 20.000 messaggi al secondo.
 
    >[!NOTE]
    >

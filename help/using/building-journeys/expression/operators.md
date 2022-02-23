@@ -6,10 +6,10 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a7899319145aa8b8dafc8d120836507e34f85e30
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 6%
+source-wordcount: '457'
+ht-degree: 7%
 
 ---
 
@@ -32,7 +32,11 @@ Esistono due tipi di operatori: operatori unari e operatori binari. Ci sono oper
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```
 
-Elenco degli operatori supportati:
+## Note importanti{#important-notes}
+
+* Quando si utilizza una moltiplicazione (`*`), entrambi i campi operazione devono avere lo stesso tipo, intero o decimale. Esempio :
+   * l&#39;esempio seguente è corretto: `3.0 * 4.0`
+   * `3 * 4.0` porterà a un errore
 
 ## Logica  {#logical}
 
