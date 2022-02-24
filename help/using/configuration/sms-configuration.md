@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 4%
@@ -53,11 +53,11 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Accedere al **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, quindi fai clic su **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Immetti un nome e una descrizione (facoltativi) per il predefinito, quindi seleziona il canale SMS.
 
-   ![](../assets/sms_preset.png)
+   ![](assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Configura le **SMS** impostazioni.
 
-   ![](../assets/preset-sms.png)
+   ![](assets/preset-sms.png)
 
    * Seleziona la **[!UICONTROL SMS Type]** che verrà inviato con il predefinito: **[!UICONTROL Transactional]** o **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
-   ![](../assets/sms_preset_2.png)
+   ![](assets/sms_preset_2.png)
 
 1. Una volta creato il predefinito del messaggio, questo viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato.
 
@@ -87,7 +87,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 Ora puoi inviare messaggi SMS con Journey Optimizer.
 
