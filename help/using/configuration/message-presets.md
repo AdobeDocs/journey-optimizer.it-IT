@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1868'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,11 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 ## Configurare le impostazioni e-mail {#configure-email-settings}
 
+Le impostazioni e-mail sono definite in una sezione dedicata della configurazione del predefinito del messaggio.
+
 ![](../assets/preset-email.png)
+
+Per definire le impostazioni e-mail associate al predefinito messaggio, segui la procedura seguente:
 
 1. Seleziona il tipo di messaggio da inviare con il predefinito: **Transazionale** o **Marketing**.
 
@@ -90,7 +94,31 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
 
-1. Immetti i parametri di intestazione per le e-mail inviate utilizzando tale predefinito.
+1. Per identificare dove e perché una persona ha fatto clic sul collegamento, puoi aggiungere parametri UTM per il tracciamento degli URL nel  **[!UICONTROL URL tracking configuration (web analytics)]** sezione .
+
+   In base ai parametri definiti, verrà applicato un codice UTM alla fine dell’URL incluso nel contenuto del messaggio. Potrai quindi confrontare i risultati in uno strumento di analisi web, come Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >Puoi aggiungere fino a 10 parametri di tracciamento.
+
+   È possibile digitare direttamente il testo desiderato nel **[!UICONTROL Name]** e **[!UICONTROL Value]** campi.
+
+   È inoltre possibile scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
+
+   * Attributi del percorso: ID sorgente, nome sorgente, ID versione sorgente
+   * Attributi del messaggio: ID azione, nome azione
+   * Attributi di Offer decisioning: ID offerta, nome offerta
+
+   >[!CAUTION]
+   >
+   >Individua la cartella necessaria e seleziona un attributo di profilo da utilizzare come valore UTM.
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. Inserisci il **[!UICONTROL Header parameters]** per le e-mail inviate utilizzando tale predefinito.
 
    >[!CAUTION]
    >
@@ -107,15 +135,15 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    * **[!UICONTROL Error email]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
    >[!NOTE]
    >
-   >Dalla versione di ottobre 2021, non è più possibile definire un indirizzo e-mail inoltrato dal [!DNL Journey Optimizer] interfaccia utente. Se desideri che tutte le e-mail ricevute da [!DNL Journey Optimizer] per inoltrare il sottodominio delegato a un indirizzo e-mail specifico, contatta il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   >Non puoi definire un indirizzo e-mail inoltrato dal [!DNL Journey Optimizer] interfaccia utente. Se desideri che tutte le e-mail ricevute da [!DNL Journey Optimizer] per inoltrare il sottodominio delegato a un indirizzo e-mail specifico, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
+   >I nomi devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-1. Configura le **parametri di esecuzione di un nuovo tentativo e-mail**. Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-duration) è impostato su 84 ore, ma è possibile regolare questa impostazione in base alle proprie esigenze.
+1. Configura le **Parametri di esecuzione di un nuovo tentativo e-mail**. Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-duration) è impostato su 84 ore, ma è possibile regolare questa impostazione in base alle proprie esigenze.
 
    ![](../assets/preset-retry-paramaters.png)
 
@@ -125,6 +153,10 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    * Per entrambi i tipi di e-mail, il periodo massimo di esecuzione dei nuovi tentativi è di 84 ore (o 5040 minuti).
 
 ## Configurare le impostazioni push {#configure-push-settings}
+
+Le impostazioni push sono definite in una sezione dedicata della configurazione del predefinito per messaggi.
+
+Per definire le impostazioni push associate al predefinito per messaggi, segui la procedura seguente:
 
 1. Seleziona almeno una piattaforma: **iOS** e/o **Android**.
 
@@ -154,7 +186,7 @@ Tutti i predefiniti per messaggi vengono visualizzati nella **[!UICONTROL Channe
 
 ![](../assets/preset-filters.png)
 
-I predefiniti per messaggi possono avere i seguenti stati:
+Una volta creati, i predefiniti per messaggi possono avere i seguenti stati:
 
 * **[!UICONTROL Draft]**: Il predefinito del messaggio è stato salvato come bozza e non è ancora stato inviato. Apri per riprendere la configurazione.
 * **[!UICONTROL Processing]**: Il predefinito del messaggio è stato inviato e sta attraversando diverse fasi di verifica.
@@ -164,7 +196,7 @@ I predefiniti per messaggi possono avere i seguenti stati:
 
 Se la creazione di un predefinito di messaggio non riesce, di seguito sono descritti i dettagli di ciascun possibile motivo di errore.
 
-Se si verifica uno di questi errori, contatta il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} per ottenere assistenza.
+Se si verifica uno di questi errori, contatta [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} per ottenere assistenza.
 
 * **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare gli IP autorizzati che possono inviare e-mail da un determinato sottodominio. Un errore di convalida SPF indica che gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider di cassette postali.
 
