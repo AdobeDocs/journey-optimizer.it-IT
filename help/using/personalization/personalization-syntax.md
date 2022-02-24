@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '656'
 ht-degree: 5%
 
 ---
@@ -147,8 +147,8 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({{/}})
 
 Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per effettuare questo collegamento:
 
-* Crea un collegamento nel contenuto e-mail o push. Per ulteriori informazioni sulla creazione dei collegamenti, consulta [questa pagina](../messages/message-tracking.md#insert-links).
-* Fai clic sull’icona della personalizzazione. Questa icona è disponibile per questi tipi specifici di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
+* Crea un collegamento nel contenuto del messaggio. Per ulteriori informazioni sulla creazione dei collegamenti, consulta [questa pagina](../messages/message-tracking.md#insert-links).
+* Seleziona l’icona di personalizzazione. Questa icona è disponibile per questi tipi specifici di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
 
 ![](assets/perso-url.png)
 
