@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
+source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
 ht-degree: 92%
@@ -81,7 +81,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>Nel contenuto del messaggio di Journey Optimizer, è ora possibile aggiungere parametri UTM ai collegamenti: possono fornire dati aggiuntivi su quel collegamento e aiutarti a identificare dove e perché una persona ha fatto clic sul collegamento.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/message-presets.md">documentazione dettagliata</a>.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/message-presets.md#configure-email-settings">documentazione dettagliata</a>.</p-->
 </td>
 </tr>
 </tbody>
