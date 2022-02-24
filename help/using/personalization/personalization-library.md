@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,22 @@ Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 
    ![](assets/library-save.png)
 
-1. Nel riquadro a destra, assegna un titolo e una descrizione all’espressione per facilitarne la ricerca da parte degli utenti, quindi fai clic su **[!UICONTROL Add]**.
+1. Nel riquadro a destra, immetti un titolo e una descrizione per l’espressione per facilitarne la ricerca da parte degli utenti, quindi fai clic su **[!UICONTROL Add]**.
 
    ![](assets/add-expression.png)
 
 1. L&#39;espressione viene aggiunta alla libreria. Gli utenti potranno ora utilizzarlo per creare i propri contenuti di personalizzazione.
+
+
+>[!NOTE]
+>
+>* Puoi salvare fino a 40 espressioni nella libreria.
+>
+>* Le espressioni non possono superare i 200 KB.
+>
+>* Le espressioni salvate vengono ordinate per data di creazione: l’espressione aggiunta di recente verrà visualizzata per prima nell’elenco.
+
+
 
 Per modificare un’espressione esistente, aggiungilo all’editor, quindi modificala in base alle tue esigenze. Fai clic su **[!UICONTROL Add to library]** per convalidare la sintassi e salvare l’espressione.
 
