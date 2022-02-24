@@ -1,21 +1,26 @@
 ---
-title: Informazioni sull’editor espressioni
+title: Informazioni sull’editor di espressioni
 description: Scopri come utilizzare l’editor espressioni.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 8%
+source-wordcount: '336'
+ht-degree: 9%
 
 ---
 
-# Informazioni sull’editor espressioni {#build-personalization-expressions}
+# Informazioni sull’editor di espressioni {#build-personalization-expressions}
 
-L’editor di espressioni è il fulcro della personalizzazione in [!DNL Journey Optimizer]. È disponibile in ogni contesto in cui devi definire la personalizzazione come e-mail, push e offerte.
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor"
+>title="Informazioni sull’editor di espressioni"
+>abstract="L’editor espressioni consente di selezionare, disporre, personalizzare e convalidare tutti i dati per creare una personalizzazione personalizzata per il contenuto."
+
+L’editor espressioni è il fulcro della personalizzazione in [!DNL Journey Optimizer]. È disponibile in ogni contesto in cui devi definire la personalizzazione come e-mail, push e offerte.
 
 Nell’interfaccia dell’editor di espressioni, seleziona, organizza, personalizza e convalida tutti i dati per creare una personalizzazione personalizzata per il contenuto.
 
@@ -33,13 +38,13 @@ Le origini disponibili sono:
 * **[!UICONTROL Contextual attributes]** : quando **Messaggio** in un percorso, i campi percorso contestuale sono disponibili tramite questo menu. [Ulteriori informazioni](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. [Ulteriori informazioni](functions/functions.md).
 
-Una volta selezionato, il riferimento viene aggiunto nell’editor.
+Fai clic sul pulsante + per aggiungere un attributo all’editor.
 
 >[!NOTE]
 >
->L’icona Info accanto all’icona &quot;+&quot; apre una descrizione comandi che fornisce ulteriori dettagli per ogni variabile.
->
->Puoi aggiungere gli attributi utilizzati più di frequenza ai preferiti. [Ulteriori informazioni](personalization-favorites.md).
+>Il menu dell&#39;ellisse accanto all&#39;icona &quot;+&quot; consente di ottenere ulteriori dettagli per ogni variabile e di aggiungere gli attributi utilizzati più di frequenza a [preferiti](personalization-favorites.md).
+
+![](assets/attribute-details.png)
 
 Nell’esempio seguente, l’editor di espressioni ti consente di selezionare i profili che compiono il loro compleanno oggi e quindi di completare la personalizzazione inserendo un’offerta specifica corrispondente a questo giorno.
 

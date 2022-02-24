@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
+source-git-commit: b1c4fb836d34cc6263f804c7a0f700571281b31a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '741'
 ht-degree: 10%
 
 ---
@@ -25,7 +25,7 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 |Messaggi|<ul><li> **[!DNL Manage messages]**: leggi, crea, modifica anteprima messaggio e invia test/bozza.</li><li>**[!DNL Manage messages preview and test]**: pubblicare messaggi.</li><li>**[!DNL Publish messages]**: leggi, crea e modifica l’anteprima dei messaggi e invia test/bozza.</li><li>**[!DNL View messages report]**: leggere e modificare il rapporto sui messaggi.</li></ul>|
 |Amministrazione|<ul><li>**[!DNL Manage subdomains delegation]**: leggere, creare, modificare ed eliminare la delega dei sottodomini.</li><li>**[!DNL Manage IP pools]**: leggi, crea, modifica ed elimina il pool ip.</li><li>**[!DNL Manage PTR records]**: leggere e modificare i record PTR.</li><li>**[!DNL View PTR records]**: accesso in sola lettura ai record PTR.</li><li> **[!DNL Manage messages general settings]**: leggere, creare, modificare ed eliminare le impostazioni generali del messaggio.</li><li>**[!DNL Manage messages presets]**: leggere, creare, modificare ed eliminare il branding dei contenuti.</li><li>**[!DNL Manage suppression rules]**: accedere alle regole di soppressione lette, create, modificate ed eliminate.</li><li>**[!DNL View suppression list]**: leggere ed esportare l&#39;elenco di soppressione locale.</li><li>**[!DNL Manage alerts]**: abilitare/disabilitare gli avvisi per percorsi, messaggi e adesioni.</li></ul>|
 |Gestione delle decisioni|<ul><li>**[!DNL Manage decisions]**: leggere, creare, modificare ed eliminare le decisioni.</li><li>**[!DNL Manage ranking strategies]**: leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e utilizzare le funzionalità di azione.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: concedere l’accesso alle sandbox.</li><li>**[!DNL Manage segments]**: leggere, creare, modificare ed eliminare i segmenti.</li><li>**[!DNL Manage profiles]**: leggere, creare, modificare ed eliminare i profili.</li><li>**[!DNL Read datasets]**: accesso in sola lettura ai set di dati.</li><li>**[!DNL Read schemas]**: accesso in sola lettura agli schemi.</li><li>**[!DNL Read Identity namespace]**: accesso in sola lettura allo spazio dei nomi identità.</li><li>**[!DNL Manage merge policies]**: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: concedere l’accesso alle sandbox.</li><li>**[!DNL Manage segments]**: leggere, creare, modificare ed eliminare i segmenti.</li><li>**[!DNL Manage profiles]**: leggere, creare, modificare ed eliminare i profili.</li><li>**[!DNL Read datasets]**: accesso in sola lettura ai set di dati.</li><li>**[!DNL Read schemas]**: accesso in sola lettura agli schemi.</li><li>**[!DNL Read Identity namespace]**: accesso in sola lettura allo spazio dei nomi identità.</li><li>**[!DNL Manage merge policies]**: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>| |Libreria Journey Optimizer|<ul><li>**[!DNL Manage Library Items]**: aggiungere ed eliminare espressioni salvate nel [!DNL Journey Optimizer] Libreria.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

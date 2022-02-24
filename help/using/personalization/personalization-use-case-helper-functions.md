@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Segui questi passaggi:
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In **[!UICONTROL Edit HTML]** aggiungi `upperCase` funzione stringa:
-   1. Nell’elenco, seleziona **[!UICONTROL Helper functions]**.
+   1. Nel menu a sinistra, seleziona **[!UICONTROL Helper functions]**.
    1. Usa il campo di ricerca per trovare &quot;maiuscolo&quot;.
    1. Dai risultati della ricerca, aggiungi la `upperCase` funzione . A questo scopo, fai clic sul segno più (+) accanto a `{%= upperCase(string) %}: string`.
 
@@ -72,8 +72,8 @@ Segui questi passaggi:
 
 1. Rimuovere il segnaposto &quot;string&quot; dall&#39;espressione.
 1. Aggiungi il token del nome:
-   1. Nell’elenco, seleziona **[!UICONTROL Profile]**.
-   1. Seleziona **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. Nel menu a sinistra, seleziona **[!UICONTROL Profile attributes]**.
+   1. Seleziona **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. Aggiungi il **[!UICONTROL First name]** token dell&#39;espressione.
 
       L’editor espressioni mostra questa espressione:
@@ -84,7 +84,7 @@ Segui questi passaggi:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Ulteriori informazioni sul tipo di dati del nome della persona [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Ulteriori informazioni sul tipo di dati del nome della persona in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. Fai clic su **[!UICONTROL Validate]**, quindi su **[!UICONTROL Save]**.
 
@@ -126,7 +126,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In **[!UICONTROL Edit HTML]** aggiungi `each` helper:
-   1. Nell’elenco, seleziona **[!UICONTROL Helper functions]**.
+   1. Nel menu a sinistra, seleziona **[!UICONTROL Helper functions]**.
    1. Usa il campo di ricerca per trovare &quot;ogni&quot;.
    1. Dai risultati della ricerca, aggiungi la `each` aiutante.
 
@@ -141,9 +141,9 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Aggiungi il `productListItems` all&#39;espressione:
 
    1. Rimuovere il segnaposto &quot;someArray&quot; dall’espressione.
-   1. Nell’elenco, seleziona **[!UICONTROL Context]**.
+   1. Nel menu a sinistra, seleziona **[!UICONTROL Contextual attributes]**.
 
-      La **[!UICONTROL Context]** è disponibile solo dopo che il contesto del percorso è stato passato al messaggio.
+      **[!UICONTROL Contextual attributes]** sono disponibili solo dopo che il contesto del percorso è stato trasmesso al messaggio.
 
    1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, quindi espandi il **[!UICONTROL productListItems]** nodo.
 
@@ -218,7 +218,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In **[!UICONTROL Edit HTML]** aggiungi `if` helper:
-   1. Nell’elenco, seleziona **[!UICONTROL Helper functions]**.
+   1. Nel menu a sinistra, seleziona **[!UICONTROL Helper functions]**.
    1. Usa il campo di ricerca per trovare &quot;if&quot;.
    1. Dai risultati della ricerca, aggiungi la `if` aiutante.
 
@@ -248,7 +248,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 1. Aggiungi il token del nome del prodotto alla condizione:
    1. Rimuovere il segnaposto &quot;condizione1&quot; dall&#39;espressione.
-   1. Nell’elenco, seleziona **[!UICONTROL Context]**.
+   1. Nel menu a sinistra, seleziona **[!UICONTROL Contextual attributes]**.
    1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, quindi espandi il **[!UICONTROL productListItems]** nodo.
 
       In questo esempio, *nome_evento* rappresenta il nome dell&#39;evento.
