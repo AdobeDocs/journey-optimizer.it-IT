@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 97d5a5c3432d531fc11a212b9067323b93fc93bb
+source-git-commit: 916868ad4a426bee7b6f6822e2a4e701dcb79e74
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2643'
 ht-degree: 92%
 
 ---
@@ -38,7 +38,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Libreria di personalizzazione delle espressioni</strong><br/></th>
+<th><strong>Nuova libreria di espressioni di personalizzazione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
