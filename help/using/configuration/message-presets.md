@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
+source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 1%
@@ -100,7 +100,7 @@ Scegli **Transazionale** per messaggi non commerciali, ad esempio conferma dellâ
 
 ### Sottodominio e pool IP {#subdomains-and-ip-pools}
 
-In **DETTAGLI DEL SOTTODOMINIO E DEL POL IP** sezione , devi:
+In **DETTAGLI DEL SOTTODOMINIO E DEL POOL IP** sezione , devi:
 
 1. Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
 
