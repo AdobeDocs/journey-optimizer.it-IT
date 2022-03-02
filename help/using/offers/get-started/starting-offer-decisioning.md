@@ -1,15 +1,15 @@
 ---
 title: Introduzione a Gestione delle decisioni
-description: Introduzione a Gestione delle decisioni. Scopri l’architettura, le offerte e le decisioni, nonché alcuni casi d’uso comuni
+description: Introduzione a Gestione delle decisioni. Scopri l’architettura, le offerte e le decisioni, nonché alcuni casi d’uso comuni che possono esserti utili
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esper
 
 >[!NOTE]
 >
->Se sei un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it)Utente {target=&quot;_blank&quot;} che sfrutta **offer decisioning** il servizio applicativo, tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche all&#39;utente.
+>Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target=&quot;_blank&quot;} che sfruttano il servizio applicativo **Offer Decisioning**.
 
 La capacità di Gestione delle decisioni è costituita da due componenti principali:
 
@@ -66,11 +66,11 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 ## Concedere l’accesso alla gestione delle decisioni {#granting-acess-to-decision-management}
 
-Le autorizzazioni per accedere e utilizzare le funzionalità di offer decisioning vengono gestite utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Le autorizzazioni per accedere e utilizzare le funzionalità di Offer Decisioning vengono gestite mediante [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Per concedere l&#39;accesso alla funzionalità Gestione delle decisioni, devi creare un **[!UICONTROL Product profile]** e assegna le autorizzazioni corrispondenti ai tuoi utenti. Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] utenti e autorizzazioni in [questa sezione](../../administration/permissions.md).
+Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Product profile]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Per saperne di più sulla gestione di utenti e autorizzazioni per [!DNL Journey Optimizer], consulta [questa sezione](../../administration/permissions.md).
 
-Le autorizzazioni specifiche di Gestione delle decisioni sono elencate in [questa sezione](../../administration/high-low-permissions.md#decisions-permissions).
+Le autorizzazioni specificheper la gestione delle decisioni sono elencate in [questa sezione](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Glossario {#glossary}
 
@@ -81,7 +81,7 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 * **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite impostate da un addetto marketing, ad esempio la categoria dell’offerta.
 
-* **Decisione**: Una decisione contiene la logica che informa la selezione di un’offerta.
+* **Decisione**: una decisione contiene la logica su cui si basa la selezione di un’offerta.
 
 * **Regola di decisione**: le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 
@@ -108,7 +108,7 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 >[!NOTE]
 >
->Questi video fanno riferimento al servizio applicativo Offer Decisioning integrato in Adobe Experience Platform e non sono specifici per [!DNL Adobe Journey Optimizer]. Essi forniscono tuttavia indicazioni generiche per utilizzare la gestione delle decisioni nel contesto [!DNL Journey Optimizer].
+>Questi video fanno riferimento al servizio applicativo Offer Decisioning integrato in Adobe Experience Platform e non sono specifici di [!DNL Adobe Journey Optimizer]. Tuttavia, forniscono indicazioni generiche per utilizzare la gestione delle decisioni nel contesto di [!DNL Journey Optimizer].
 
 ### Che cos&#39;è la gestione delle decisioni? {#what-is-offer-decisioning}
 
