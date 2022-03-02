@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
 workflow-type: tm+mt
 source-wordcount: '2643'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tbody>
 <tr>
 <td>
-<p>Nel contenuto del messaggio di Journey Optimizer, è ora possibile aggiungere parametri UTM ai collegamenti: possono fornire dati aggiuntivi su quel collegamento e aiutarti a identificare dove e perché una persona ha fatto clic sul collegamento.</p>
+<p>Nel contenuto del messaggio di Journey Optimizer, ora puoi aggiungere parametri UTM ai collegamenti: possono fornire dati aggiuntivi su quel collegamento e aiutarti a identificare dove e perché una persona ha fatto clic sul collegamento.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/message-presets.md#configure-email-settings">documentazione dettagliata</a>.</p-->
 </td>
 </tr>
@@ -92,7 +92,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **Percorsi**
 
 * Per ottimizzare le prestazioni, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato Bozza. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#important_notes)
-* L’integrazione tra Journey Optimizer e Adobe Campaign Classic è stata ottimizzata per migliorare le prestazioni. La configurazione predefinita del limite è stata modificata in 4000 chiamate/5 minuti.	[Ulteriori informazioni](../action/acc-action.md#important-notes)
+* L’integrazione tra Journey Optimizer e Adobe Campaign Classic è stata ottimizzata per migliorarne le prestazioni. La configurazione predefinita del limite è stata modificata in 4000 chiamate/5 minuti.	[Ulteriori informazioni](../action/acc-action.md#important-notes)
 
 **Generazione rapporti**
 
@@ -100,13 +100,13 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
    * Dall’elenco Esecuzione messaggi, ora puoi escludere le bozze dall’elenco delle consegne.
    * Dai rapporti Live/Global puoi scegliere di escludere gli eventi di test.
 
-* È ora possibile accedere ai rapporti relativi ai dati di ottimizzazione del tempo di invio: il numero di persone che hanno inviato messaggi immediatamente e il numero di persone che sono state inviate con un&#39;ottimizzazione di 1 ora, 2 ore di ottimizzazione, ecc.
+* Ora puoi accedere ai rapporti relativi ai dati di ottimizzazione del tempo di invio: il numero di persone che hanno ricevuto messaggi immediatamente e il numero di persone a cui il messaggio è stato inviato con un&#39;ottimizzazione di 1 ora, 2 ore ecc.
 
 <!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Gestione delle decisioni**
 
-* Le classificazioni e la classificazione AI sono ora raggruppate in un’unica scheda.
+* Le classificazioni e la classificazione IA sono ora raggruppate in un’unica scheda.
 
 ## Versione di gennaio 2022 {#january-2022-release}
 
