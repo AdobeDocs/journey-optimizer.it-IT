@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 5d1dc2d1711ba43b8270423acb1a5ca0ab862230
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1082'
+ht-degree: 100%
 
 ---
 
 # Gestire il consenso {#consent}
 
-Utilizza [!DNL Journey Optimizer] per tenere traccia del consenso dei destinatari alla comunicazione e capire in che modo desiderano interagire con il tuo marchio gestendo le preferenze e gli abbonamenti.
+Utilizza [!DNL Journey Optimizer] per tenere traccia del consenso dei destinatari alle comunicazioni e capire in che modo desiderano interagire con il tuo marchio gestendo le preferenze e gli abbonamenti.
 
 Regolamenti come il GDPR stabiliscono che si devono soddisfare requisiti specifici prima di poter utilizzare le informazioni degli interessati. Inoltre, gli interessati dovrebbero poter modificare il loro consenso in qualsiasi momento.
 
@@ -28,32 +28,32 @@ Per ulteriori informazioni sulla gestione della privacy e sulle normative applic
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], il consenso è gestito dall&#39;Experience Platform [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target=&quot;_blank&quot;}. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target=&quot;_blank&quot;}.
+>In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target=&quot;_blank&quot;} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target=&quot;_blank&quot;}.
 
 ## Gestione della rinuncia e-mail {#opt-out-management}
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio. Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target=&quot;_blank&quot;}.
 
-Pertanto, devi sempre includere un **collegamento per l’annullamento dell’iscrizione** in ogni e-mail inviata ai destinatari:
+Pertanto, devi sempre includere un **collegamento che consenta di annullare l’abbonamento** in ogni e-mail inviata ai destinatari:
 
-* Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione per confermare la rinuncia.
+* Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 * Dopo aver confermato la scelta, i dati dei profili verranno aggiornati con queste informazioni.
 
 ### Rinuncia esterna {#opt-out-external-lp}
 
-A questo scopo, puoi inserire un collegamento a una pagina di destinazione esterna in un’e-mail per consentire agli utenti di annullare l’iscrizione alla ricezione di comunicazioni dal tuo marchio.
+In questo caso, puoi inserire in un’e-mail un collegamento a una pagina di destinazione esterna per consentire agli utenti di annullare l’abbonamento alla ricezione di comunicazioni dal tuo marchio.
 
-#### Aggiungi un collegamento per annullare l’abbonamento {#add-unsubscribe-link}
+#### Aggiungere un collegamento per annullare l’abbonamento {#add-unsubscribe-link}
 
-Devi innanzitutto aggiungere un collegamento per l’annullamento dell’abbonamento a un messaggio. Per farlo, segui la procedura indicata di seguito:
+Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annullare l’abbonamento. Per farlo, segui la procedura indicata di seguito:
 
-1. Crea la tua pagina di destinazione di annullamento dell’abbonamento.
+1. Crea la pagina di destinazione per l’annullamento dell’abbonamento.
 
 1. Inseriscilo sul sistema di terze parti a tua scelta.
 
-1. [Crea un messaggio ](create-message.md) in [!DNL Journey Optimizer].
+1. [Crea un messaggio](create-message.md) in [!DNL Journey Optimizer].
 
-1. Selezionare il testo nel contenuto e [inserire un collegamento](message-tracking.md#insert-links) mediante la barra degli strumenti contestuale.
+1. Seleziona il testo nel contenuto e [inserisci un collegamento](message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale.
 
    ![](assets/opt-out-insert-link.png)
 
@@ -61,7 +61,7 @@ Devi innanzitutto aggiungere un collegamento per l’annullamento dell’abbonam
 
    ![](assets/opt-out-link-type.png)
 
-1. In **[!UICONTROL Link]** incolla il collegamento alla pagina di destinazione di terze parti.
+1. Nel campo **[!UICONTROL Link]**, incolla il collegamento alla pagina di destinazione della terza parte.
 
    ![](assets/opt-out-link-url.png)
 
@@ -71,9 +71,9 @@ Devi innanzitutto aggiungere un collegamento per l’annullamento dell’abbonam
 
 #### Implementare una chiamata API per la rinuncia {#opt-out-api}
 
-Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** tramite Adobe I/O per aggiornare le preferenze dei profili corrispondenti.
+Per consentire ai destinatari di rinunciare selezionando la preferenza dalla pagina di destinazione, devi implementare una **chiamata API per abbonamento** tramite Adobe I/O per aggiornare le preferenze dei profili corrispondenti.
 
-La chiamata Adobe I/O POST è la seguente:
+La chiamata POST di Adobe I/O è la seguente:
 
 Endpoint: platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,19 +109,19 @@ Corpo della richiesta:
 }
 ```
 
-[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata di Adobe I/O.
+[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata Adobe I/O.
 
-#### Invia il messaggio con il collegamento di annullamento dell’abbonamento {#send-message-unsubscribe-link}
+#### Inviare il messaggio con il collegamento per annullare l’abbonamento {#send-message-unsubscribe-link}
 
-Una volta configurato il collegamento di annullamento all’abbonamento alla pagina di destinazione e implementato la chiamata API , il messaggio è pronto per essere inviato.
+Una volta configurato il collegamento che apre la pagina di destinazione in cui sarà possibile per annullare l’abbonamento, e implementata la chiamata API, il messaggio è pronto per essere inviato.
 
-1. Invia il messaggio incluso il collegamento tramite un [percorso](../building-journeys/journey.md).
+1. Invia il messaggio contenente il collegamento tramite un [percorso](../building-journeys/journey.md).
 
-1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento di annullamento dell’iscrizione, viene visualizzata la pagina di destinazione.
+1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento per annullare l’abbonamento, viene visualizzata la pagina di destinazione.
 
    ![](assets/opt-out-lp-example.png)
 
-1. Se il destinatario invia il modulo (qui, premendo il pulsante **Annulla sottoscrizione** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite [Adobe I/O di chiamata](#opt-out-api).
+1. Se il destinatario invia il modulo (in questo esempio, premendo il pulsante **Unsubscribe** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite [chiamata Adobe I/O](#opt-out-api).
 
 1. Il destinatario che ha scelto l’opt-out viene quindi reindirizzato a una schermata con un messaggio di conferma che indica che la rinuncia è avvenuta con successo.
 
@@ -137,11 +137,11 @@ Una volta configurato il collegamento di annullamento all’abbonamento alla pag
 
 ### Rinuncia con un clic {#one-click-opt-out}
 
-Poiché molti clienti cercano un processo più semplice per annullare l’abbonamento, puoi anche aggiungere al contenuto dell’e-mail un collegamento di rinuncia con un solo clic. Questo collegamento consente ai destinatari di annullare rapidamente l’iscrizione alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui devono confermare la scelta, il che velocizza il processo di annullamento dell’abbonamento.
+Poiché molti clienti cercano un processo più semplice per annullare l’abbonamento, puoi anche aggiungere al contenuto dell’e-mail un collegamento di rinuncia con un solo clic. Questo collegamento consentirà ai destinatari di annullare rapidamente l’abbonamento alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui confermare la rinuncia, per una procedura più snella.
 
 Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura seguente.
 
-1. [Inserire un collegamento](message-tracking.md#insert-links) e seleziona **[!UICONTROL One click Opt-out]** come tipo di collegamento.
+1. [Inserisci un collegamento](message-tracking.md#insert-links) e seleziona **[!UICONTROL One click Opt-out]** come tipo di collegamento.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -149,21 +149,21 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**: La rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se più destinazioni sono associate a un profilo, la rinuncia si applica a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
-   * **[!UICONTROL Identity]**: La rinuncia si applica ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
-   * **[!UICONTROL Subscription]**: La rinuncia si applica ai messaggi futuri associati a un elenco di sottoscrizione specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di sottoscrizioni.
+   * **[!UICONTROL Channel]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia si applica a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
+   * **[!UICONTROL Identity]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
+   * **[!UICONTROL Subscription]**: la rinuncia si applica ai messaggi futuri associati a un elenco di abbonamento specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
 
-1. Immetti l’URL della pagina di destinazione in cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
+1. Immetti l’URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
-   Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati in [questa sezione](../personalization/personalization-syntax.md).
+   Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md).
 
 1. Salva le modifiche.
 
-Una volta inviato il messaggio tramite un [percorso](../building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, il suo profilo viene immediatamente escluso.
+Quando il messaggio viene inviato tramite un [percorso](../building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, il suo profilo viene immediatamente escluso.
 
-### Annulla sottoscrizione collegamento nell’intestazione del messaggio {#unsubscribe-email}
+### Collegamento per annullare l’abbonamento nell’intestazione del messaggio {#unsubscribe-email}
 
 Se il client e-mail dei destinatari supporta la visualizzazione di un collegamento di annullamento all’abbonamento nell’intestazione e-mail, le e-mail inviate con [!DNL Journey Optimizer] includono automaticamente questo collegamento.
 
@@ -173,7 +173,7 @@ Ad esempio, il collegamento per annullare l’abbonamento verrà visualizzato in
 
 A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione si verifica uno dei seguenti impatti:
 
-* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
 
 * Ha lo stesso effetto di fare clic sul collegamento per annullare l’abbonamento dal contenuto dell’e-mail: il destinatario viene reindirizzato a una pagina di destinazione con un pulsante per confermare la rinuncia. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](#opt-out-management).
 
