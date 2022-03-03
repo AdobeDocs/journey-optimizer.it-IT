@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 12%
@@ -19,7 +19,7 @@ Query Editor è uno strumento interattivo fornito da Adobe Experience Platform Q
 L’editor delle query supporta lo sviluppo di query per l’analisi e l’esplorazione dei dati e consente di eseguire query interattive a scopo di sviluppo e query non interattive per la compilazione [set di dati](get-started-datasets.md).
 
 
-![](../assets/queries-home.png)
+![](assets/queries-home.png)
 
 Scopri come utilizzare l’editor delle query in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '463'
+ht-degree: 8%
 
 ---
 
@@ -20,13 +20,13 @@ Se più offerte sono idonee per un determinato posizionamento, puoi scegliere il
 * Formula di classificazione
 * [Classificazione dell’intelligenza artificiale](#use-ranking-strategy) (solo per utenti selezionati)
 
-![](../../assets/offer-rank-by.png)
+![](../assets/offer-rank-by.png)
 
 ## Priorità offerta {#offer-priority}
 
 Per impostazione predefinita, quando più offerte sono idonee per un determinato posizionamento in una decisione, le offerte con il più alto **priorità** verranno consegnati prima ai clienti.
 
-![](../../assets/offer-priority.png)
+![](../assets/offer-priority.png)
 
 I punteggi di priorità delle offerte vengono assegnati durante la creazione di un’offerta. Scopri come creare un’offerta personalizzata in [questa sezione](../offer-library/creating-personalized-offers.md).
 
@@ -48,11 +48,11 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 1. Seleziona **[!UICONTROL Ranking formula]** come metodo di classificazione, quindi fare clic su **[!UICONTROL Add ranking]**.
 
-   ![](../../assets/offer-activity-ranking.png)
+   ![](../assets/offer-activity-ranking.png)
 
 1. Seleziona la formula di classificazione desiderata, quindi fai clic su **[!UICONTROL Select]**.
 
-   ![](../../assets/ranking-selection.png)
+   ![](../assets/ranking-selection.png)
 
 La formula di classificazione è ora associata al posizionamento.
 
@@ -78,11 +78,11 @@ Una volta creata una strategia di classificazione, puoi assegnarla a un posizion
 
 1. Scegli di classificare le offerte per **[!UICONTROL AI ranking]** dall’elenco a discesa e fai clic su **[!UICONTROL Add ranking]**.
 
-   ![](../../assets/ranking-selection-ai-ranking.png)
+   ![](../assets/ranking-selection-ai-ranking.png)
 
 1. Seleziona la strategia di classificazione creata. Vengono visualizzati tutti i dettagli della strategia di classificazione.
 
-   ![](../../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../assets/ranking-selection-ai-ranking-selected.png)
 
 1. Fai clic su **[!UICONTROL Select]**. La strategia di classificazione è ora associata al posizionamento.
 

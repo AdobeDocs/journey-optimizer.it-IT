@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 7de0088c07c644c42f5def3657d2629ce5e7754e
+source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 66%
@@ -25,7 +25,7 @@ Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall
 
 Puoi trovare il controllo del commutatore sandbox in alto a destra nella schermata accanto al nome della tua organizzazione. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
 
-![](../assets/sandbox_5.png)
+![](assets/sandbox_5.png)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -43,21 +43,21 @@ Per assegnare le sandbox:
 
 1. Seleziona un **[!UICONTROL Product profile]**.
 
-   ![](../assets/sandbox_1.png)
+   ![](assets/sandbox_1.png)
 
 1. Seleziona la scheda **[!UICONTROL Permissions]**.
 
 1. Seleziona la **[!UICONTROL Sandboxes]** funzionalità.
 
-   ![](../assets/sandbox_2.png)
+   ![](assets/sandbox_2.png)
 
 1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target=&quot;_blank&quot;}.
 
-   ![](../assets/sandbox_3.png)
+   ![](assets/sandbox_3.png)
 
 1. Se necessario, in **[!UICONTROL Included Permission Items]**, fai clic sull’icona X accanto a per rimuovere l’accesso alle sandbox al tuo **[!UICONTROL Product profile]**.
 
-   ![](../assets/sandbox_4.png)
+   ![](assets/sandbox_4.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -65,7 +65,7 @@ Per assegnare le sandbox:
 
 Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Storage]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
 
-![](../assets/do-not-localize/content_access.png)
+![](assets/do-not-localize/content_access.png)
 
 Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la stessa sintassi della sandbox. Ad esempio, se la sandbox è denominata “sviluppo”, la cartella condivisa deve avere lo stesso nome.
 

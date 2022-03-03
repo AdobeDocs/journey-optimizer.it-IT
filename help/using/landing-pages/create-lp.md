@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 3%
@@ -25,11 +25,11 @@ ht-degree: 3%
 
 Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** dal menu a sinistra.
 
-![](../assets/lp_access-list.png)
+![](assets/lp_access-list.png)
 
 La **[!UICONTROL Landing Pages]** visualizza tutti gli elementi creati. Puoi filtrarli in base al loro stato o alla data di modifica.
 
-![](../assets/lp_access-list-filter.png)
+![](assets/lp_access-list-filter.png)
 
 ## Creare una pagina di destinazione {#create-landing-page}
 
@@ -37,15 +37,15 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
 1. Dall’elenco della pagina di destinazione, fai clic su **[!UICONTROL Create landing page]**.
 
-   ![](../assets/lp_create-lp.png)
+   ![](assets/lp_create-lp.png)
 
 1. Aggiungi un titolo. Se necessario, puoi aggiungere una descrizione.
 
-   ![](../assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png)
 
 1. Seleziona un predefinito.
 
-   ![](../assets/lp_create-lp-presets.png)
+   ![](assets/lp_create-lp-presets.png)
 
    >[!NOTE]
    >
@@ -55,11 +55,11 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
 1. Viene visualizzata la pagina principale e le relative proprietà. Scopri come configurare le impostazioni della pagina principale [qui](#configure-primary-page).
 
-   ![](../assets/lp_primary-page.png)
+   ![](assets/lp_primary-page.png)
 
 1. Fai clic sull’icona + per aggiungere una pagina secondaria. Scopri come configurare le impostazioni della pagina secondaria [qui](#configure-subpages).
 
-   ![](../assets/lp_add-subpage.png)
+   ![](assets/lp_add-subpage.png)
 
 Una volta configurati e progettati i [pagina principale](#configure-primary-page)e [sottopagine](#configure-subpages) se presente, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
 
@@ -73,7 +73,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
 1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
-   ![](../assets/lp_open-designer.png)
+   ![](assets/lp_open-designer.png)
 
 1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
@@ -81,7 +81,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
    >
    >L’URL della pagina di destinazione deve essere univoco.
 
-   ![](../assets/lp_access-url.png)
+   ![](assets/lp_access-url.png)
 
 1. Puoi definire una data di scadenza per la pagina. In tal caso, è necessario selezionare un’azione alla scadenza della pagina:
 
@@ -89,17 +89,17 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
    * **[!UICONTROL Custom page]**: [Configurare una pagina secondaria](#configure-subpages) e selezionalo dall’elenco a discesa visualizzato.
    * **[!UICONTROL Browser error]**: Digita il testo di errore che verrà visualizzato al posto della pagina.
 
-   ![](../assets/lp_expiry-date.png)
+   ![](assets/lp_expiry-date.png)
 
    <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
 
 1. Se hai selezionato uno o più elenchi di sottoscrizioni quando [progettazione della pagina principale](design-lp.md), vengono visualizzati nella **[!UICONTROL Subscription list]** sezione .
 
-   ![](../assets/lp_subscription-list.png)
+   ![](assets/lp_subscription-list.png)
 
 1. Dalla pagina di destinazione, puoi [creare un percorso](../building-journeys/journey-gs.md#jo-build) che invierà un messaggio di conferma agli utenti al momento dell’invio del modulo. Scopri come creare un tale percorso alla fine di questo [caso d&#39;uso](lp-use-cases.md#subscription-to-a-service).
 
-   ![](../assets/lp_create-journey.png)
+   ![](assets/lp_create-journey.png)
 
    Fai clic su **[!UICONTROL Create journey]** da reindirizzare al **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** elenco.
 
@@ -119,7 +119,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
    >
    >L’URL della pagina di destinazione deve essere univoco.
 
-![](../assets/lp_subpage-settings.png)
+![](assets/lp_subpage-settings.png)
 
 ## Verificare la pagina di destinazione {#test-landing-page}
 
@@ -131,7 +131,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 1. Nell’interfaccia della pagina di destinazione, fai clic sul pulsante **[!UICONTROL Preview & test]** per accedere alla selezione del profilo di test.
 
-   ![](../assets/lp_preview-button.png)
+   ![](assets/lp_preview-button.png)
 
    >[!NOTE]
    >
@@ -139,17 +139,17 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 1. Da **[!UICONTROL Preview & test]** seleziona uno o più profili di test.
 
-   ![](../assets/lp_test-profiles.png)
+   ![](assets/lp_test-profiles.png)
 
    I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../messages/preview.md#select-test-profiles).
 
 1. Seleziona la **[!UICONTROL Preview]** e fai clic su **[!UICONTROL Open preview]** per verificare la pagina di destinazione.
 
-   ![](../assets/lp_open-preview.png)
+   ![](assets/lp_open-preview.png)
 
 1. L’anteprima della pagina di destinazione viene visualizzata in una nuova scheda. Gli elementi personalizzati vengono sostituiti dai dati del profilo di test selezionati.
 
-   ![](../assets/lp_preview.png)
+   ![](assets/lp_preview.png)
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering per ogni variante della pagina di destinazione.
 
@@ -159,7 +159,7 @@ Durante la creazione della pagina di destinazione, gli avvisi ti avvisano quando
 
 Gli avvisi vengono visualizzati in alto a destra dello schermo, come illustrato di seguito:
 
-![](../assets/lp_alerts.png)
+![](assets/lp_alerts.png)
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Possono verificarsi due tipi di avvisi:
 
 Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
 
-![](../assets/lp_publish.png)
+![](assets/lp_publish.png)
 
 >[!CAUTION]
 >

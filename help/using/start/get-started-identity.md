@@ -5,10 +5,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -20,15 +20,15 @@ Informazioni personali (PII, Personally Identifiable Information) come indirizzo
 
 In [!DNL Adobe Journey Optimizer], **Identità** collega i consumatori tra dispositivi e canali, il risultato è un [grafico delle identità](#id-graph). Il grafico dell’identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.
 
-![](../assets/identities-home.png)
+![](assets/identities-home.png)
 
 Ulteriori informazioni **Servizio identità** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Namespace Identity {#identity-namespaces}
 
-**Namespace Identity** sono un componente del servizio Identity che funge da indicatore del contesto a cui si riferisce un’identità. Ad esempio, distinguono un valore di `name@email.com` come indirizzo e-mail o `443522` come ID CRM numerico. Per utilizzare i namespace di identità è necessario comprendere i vari servizi Adobe Experience Platform interessati. Prima di iniziare a utilizzare i namespace, controlla la documentazione relativa ai seguenti servizi:
+**** Gli spazi dei nomi di identità sono un componente di Identity Service che fungono da indicatori del contesto a cui si riferisce un’identità. Ad esempio, distinguono un valore di `name@email.com` come indirizzo e-mail o `443522` come ID CRM numerico. Per utilizzare i namespace di identità è necessario comprendere i vari servizi Adobe Experience Platform interessati. Prima di iniziare a utilizzare i namespace, controlla la documentazione relativa ai seguenti servizi:
 
-Ulteriori informazioni **Namespace Identity** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+Ulteriori informazioni **Namespace Identity** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Grafico di identità{#id-graph}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 7%
@@ -17,197 +17,197 @@ ht-degree: 7%
 
 ## Prerequisiti
 
-Per inviare messaggi con percorsi, è necessaria la seguente configurazione:
+In order to send messages with journeys, the following configuration is required:
 
-1. **Configurare un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. Puoi definire le informazioni previste e come elaborarle. e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
+1. **** You define the expected information and how to process it. e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
 
-   ![](../assets/jo-event7bis.png)
+   ![](assets/jo-event7bis.png)
 
-1. **Creare un segmento**: il tuo percorso può anche ascoltare i segmenti Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. A questo scopo, devi creare dei segmenti. [Ulteriori informazioni](../segment/about-segments.md).
+1. **** For this, you need to create segments. [Ulteriori informazioni](../segment/about-segments.md).
 
-   ![](../assets/segment2.png)
+   ![](assets/segment2.png)
 
-1. **Configurare l’origine dati**: puoi definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi, ad esempio nelle tue condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
+1. **** Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
-   ![](../assets/jo-datasource.png)
+   ![](assets/jo-datasource.png)
 
-1. **Configurare un’azione**: Le funzionalità dei messaggi di Journey Optimizer sono integrate e ti basta progettare il contenuto e pubblicare il messaggio. Vedi [questa sezione](../messages/get-started-content.md). Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md). e viene eseguita da un **utente tecnico**.
+1. **** Vedi [questa sezione](../messages/get-started-content.md). If you&#39;re using a third-party system to send your messages, you can create a custom action. [](../action/action.md) e viene eseguita da un **utente tecnico**.
 
-   ![](../assets/create-content-push.png)
+   ![](assets/create-content-push.png)
 
-## Creazione del percorso{#jo-build}
+## Building your journey{#jo-build}
 
-Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
+**** This is where you create your journeys. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
-Di seguito sono riportati i passaggi principali per l’invio di messaggi attraverso i percorsi:
+Here are the main steps to send messages through journeys:
 
-1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Journeys]**. Viene visualizzato l’elenco dei percorsi.
+1. **[!UICONTROL Journeys]** The list of journeys is displayed.
 
-   ![](../assets/interface-journeys.png)
+   ![](assets/interface-journeys.png)
 
-1. Fai clic su **[!UICONTROL Create Journey]** per creare un nuovo percorso.
+1. **[!UICONTROL Create Journey]**
 
-1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Ulteriori informazioni [sezione](journey-gs.md#change-properties).
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. [](journey-gs.md#change-properties)
 
-   ![](../assets/jo-properties.png)
+   ![](assets/jo-properties.png)
 
-1. Inizia trascinando un evento o un **Leggi segmento** attività dalla palette all’area di lavoro. Per ulteriori informazioni sulla progettazione dei percorsi, consulta [questa sezione](using-the-journey-designer.md).
+1. **** [](using-the-journey-designer.md)
 
-   ![](../assets/read-segment.png)
+   ![](assets/read-segment.png)
 
-1. Trascina e rilascia i passaggi successivi che verranno seguiti dall’utente. Ad esempio, puoi aggiungere una condizione seguita da un messaggio. Per ulteriori informazioni sulle attività, consulta [questa sezione](using-the-journey-designer.md).
+1. Drag and drop the next steps that the individual will follow. For example, you can add a condition followed by a message. [](using-the-journey-designer.md)
 
-1. Testa il percorso utilizzando i profili di test. Ulteriori informazioni [sezione](testing-the-journey.md)
+1. Test your journey using test profiles. [](testing-the-journey.md)
 
-1. Pubblica il percorso per attivarlo. Ulteriori informazioni [sezione](publishing-the-journey.md).
+1. Publish your journey to activate it. [](publishing-the-journey.md)
 
-   ![](../assets/jo-journeyuc2_32bis.png)
+   ![](assets/jo-journeyuc2_32bis.png)
 
-1. Monitora il percorso utilizzando gli strumenti di reporting dedicati per misurare l&#39;efficacia del percorso. Ulteriori informazioni [sezione](../reports/live-report.md).
+1. Monitor your journey using the dedicated reporting tools to measure your journey&#39;s effectiveness. [](../reports/live-report.md)
 
-   ![](../assets/jo-dynamic_report_journey_12.png)
+   ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Modifica delle proprietà {#change-properties}
 
-Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
+Click on the pencil icon, in the top right to access the journey&#39;s properties.
 
-Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire un **[!UICONTROL Timeout and error]** se sei un amministratore.
+**[!UICONTROL Timeout and error]**
 
-Per i percorsi live, questa schermata mostra la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
+For live journeys, this screen displays the publication date and the name of the user who published the journey.
 
-La **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Vengono copiate le seguenti informazioni: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
+**** The following information is copied: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
-![](../assets/journey32.png)
+![](assets/journey32.png)
 
-### Ingresso{#entrance}
+### Entrance{#entrance}
 
-Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione per percorsi &quot;una ripresa&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente sia in grado di reinserire il percorso e ricevere nuovamente l&#39;offerta.
+By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don&#39;t want the customer to be able to re-enter the journey and receive the offer again.
 
-Quando un percorso &quot;termina&quot;, avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso.
+**[!UICONTROL Closed]** The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
 
-Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/journey-gs.md#global_timeout).
+**** [](../building-journeys/journey-gs.md#global_timeout)
 
-### Timeout ed errore nelle attività del percorso {#timeout_and_error}
+### Timeout and error in journey activities {#timeout_and_error}
 
-Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che esegue l’interrogazione a un sistema di terze parti supera la durata di timeout definita nelle proprietà del percorso (**[!UICONTROL Timeout and  error]** (campo ), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
+When editing an action or condition activity, you can define an alternative path in case of error or timeout. **[!UICONTROL Timeout and  error]**
 
-I valori autorizzati sono compresi tra 1 e 30 secondi.
+Authorized values are between 1 and 30 seconds.
 
-È consigliabile definire un valore molto breve **[!UICONTROL Timeout and error]** se il percorso è sensibile all&#39;ora (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l&#39;azione per più di pochi secondi. Se il percorso è meno sensibile al tempo, puoi utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
+**[!UICONTROL Timeout and error]** If your journey is less time sensitive, you can use a longer value to give more time to the system called to send a valid response.
 
-I percorsi utilizzano anche un timeout globale. Consulta la sezione [sezione successiva](#global_timeout).
+Journeys also uses a global timeout. [](#global_timeout)
 
-### Timeout percorso globale {#global_timeout}
+### Global journey timeout {#global_timeout}
 
-Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout interrompe il progresso dei singoli utenti nel percorso 30 giorni dopo l’accesso. Ciò significa che il percorso di un individuo non può durare più di 30 giorni. Dopo il periodo di timeout di 30 giorni, i dati del singolo utente vengono eliminati. Gli utenti che continuano a scorrere nel percorso alla fine del periodo di timeout verranno arrestati e verranno presi in considerazione come errori nel reporting.
+[](#timeout_and_error) This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual&#39;s journey cannot last longer than 30 days. After the 30 day timeout period, the individual&#39;s data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
 
 >[!NOTE]
 >
->I percorsi non reagiscono direttamente alle richieste di rinuncia, accesso o cancellazione della privacy. Tuttavia, il timeout globale assicura che gli individui non rimangano mai più di 30 giorni in un percorso.
+>Journeys do not directly react to privacy opt-out, access or delete requests. However, the global timeout ensures that individuals never stay more than 30 days in any journey.
 
-A causa del timeout di 30 percorsi, quando non è consentito l’accesso al percorso, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché rimuoviamo tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non possiamo sapere che la persona è entrata in precedenza, più di 30 giorni fa.
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.
 
-### Fuso orario e fuso orario del profilo {#timezone}
+### Timezone and profile timezone {#timezone}
 
-Il fuso orario è definito a livello di percorso.
+Timezone are defined at journey level.
 
-Puoi immettere un fuso orario fisso oppure utilizzare i profili Adobe Experience Platform per definire il fuso orario percorso.
+You can enter a fixed time zone or use Adobe Experience Platform profiles to define the journey time zone.
 
-Per ulteriori informazioni sulla gestione del fuso orario, vedi [questa pagina](../building-journeys/timezone-management.md).
+[](../building-journeys/timezone-management.md)
 
-### Modalità Burst {#burst}
+### Burst mode {#burst}
 
-La modalità Burst è un componente aggiuntivo a pagamento che consente l&#39;invio rapido di messaggi push in grandi volumi. Viene utilizzato per percorsi semplici che includono un segmento di lettura e un messaggio push semplice. Burst viene utilizzato quando il ritardo nella consegna dei messaggi è di importanza business, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia di interruzione per gli utenti che hanno installato la tua app del canale di notizie.
+Burst mode is a paid add-on that allows very fast push message sending in large volumes. It is used for simple journeys that include a read segment and a simple push message. Burst is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
 
 Limitazioni:
 
-* Il percorso deve iniziare con un segmento di lettura. Eventi non consentiti.
-* Il passaggio successivo deve essere un messaggio push. Non sono consentiti altri passaggi o attività (eccetto l’attività finale facoltativa):
-   * Solo canale push
-   * Nel messaggio non è consentita alcuna personalizzazione
-   * Il messaggio deve essere piccolo (&lt;2 KB)
+* The journey must start with a read segment. Events are not allowed.
+* The next step must be a push message. No other activity or step is allowed (except the optional end activity):
+   * Push channel only
+   * No personalization is allowed in the message
+   * The message must be small (&lt;2KB)
 
-Nota importante:
+Important note:
 
-Se uno dei requisiti non è soddisfatto, la modalità burst non sarà disponibile nel percorso.
+If any of the requirements is not fulfilled, burst mode will not be available in the journey.
 
-Per attivare la modalità Burst, apri il percorso e fai clic sull’icona a forma di matita, in alto a destra, per accedere alle proprietà del percorso. Quindi, attiva il **Attiva modalità burst** alternare.
+To activate Burst mode, open your journey and click the pencil icon, in the top right to access the journey&#39;s properties. ****
 
-![](../assets/burst.png)
+![](assets/burst.png)
 
-La modalità Burst verrà disattivata se modifichi un percorso burst e aggiungi un&#39;attività non conforme a burst (messaggio, qualsiasi altra azione, un evento, ecc.). Verrà visualizzato un messaggio.
+Burst mode will be deactivated if you modify a burst journey and add an activity that is not compliant with burst (message, any other action, an event etc.). A message will be displayed.
 
-![](../assets/burst2.png)
+![](assets/burst2.png)
 
-Quindi testa e pubblica normalmente il tuo percorso. I messaggi in modalità di test non vengono inviati tramite la modalità burst.
+Then test and publish your journey normally. Test mode messages are not sent via the burst mode.
 
-## Terminazione di un percorso
+## Ending a journey
 
-Un percorso può terminare per un individuo per due motivi:
+A journey can end for an individual because of two reasons:
 
-* La persona arriva all&#39;ultima attività di un percorso. Quest’ultima attività può essere un’attività finale o un’altra. Non vi è alcun obbligo di terminare un percorso con un’attività finale. Consulta [questa pagina](../building-journeys/end-activity.md).
-* La persona arriva a un’attività condizione (o un’attività di attesa con una condizione) e non corrisponde a nessuna delle condizioni.
+* The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. Consulta [questa pagina](../building-journeys/end-activity.md).
+* The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
-La persona può quindi rientrare nel percorso se è consentito il rientro. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
+The person can then re-enter the journey if re-entrance is allowed. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
 
-Un percorso può chiudersi per i motivi seguenti:
+A journey can close because of the following reasons:
 
-* Il percorso viene chiuso manualmente tramite il **[!UICONTROL Close to new entrances]** pulsante .
-* Un percorso basato su segmenti una tantum che ha completato l’esecuzione.
-* Dopo l’ultima occorrenza di un percorso basato su segmenti ricorrente.
+* **[!UICONTROL Close to new entrances]**
+* A one-shot segment based journey that has finished executing.
+* After the last occurrence of a recurring segment based journey.
 
-Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/journey-gs.md#global_timeout).
+**[!UICONTROL Closed]** The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally. **** [](../building-journeys/journey-gs.md#global_timeout)
 
-Nel caso tu debba interrompere il progresso di tutti gli individui nel percorso, puoi fermarlo. Arrestare il percorso causerà il timeout di tutti gli individui nel percorso.
+In case you need to stop the progress of all individuals in the journey, you can stop it. Stopping the journey will timeout all individuals in the journey.
 
-Ecco come si chiude o si interrompe manualmente un percorso:
+Here is how you close or stop a journey manually:
 
-La **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** le opzioni consentono di terminare **live** percorsi. La chiusura di un percorso comporta **che l&#39;arrivo di nuovi clienti nel percorso è bloccato** e che i clienti che sono già entrati nel percorso sono in grado di sperimentarlo fino alla fine. Questo è il modo più consigliato per mettere fine a un percorso in quanto offre la migliore esperienza per i clienti. Arrestare un percorso implica che le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Il percorso è fondamentalmente spento.
+**[!UICONTROL Stop]****[!UICONTROL Close to new entrances]****** **** This is the most recommended way to put an end to a journey as it offers the best experience for customers. Stopping a journey involves that people who already entered a journey are all stopped in their progress. The journey is basically switched off.
 
 >[!NOTE]
 >
->Non è possibile riprendere un percorso chiuso o interrotto.
+>Note that you cannot resume a closed or stopped journey.
 
-### Chiusura di un percorso
+### Closing a journey
 
-È possibile chiudere manualmente un percorso per garantire che i clienti che sono già entrati nel percorso possano completare il loro percorso ma i nuovi utenti non siano in grado di accedere al percorso.
+You can close a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
-Una volta chiuso, un percorso avrà lo stato **[!UICONTROL Closed]**. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/journey-gs.md#global_timeout).
+**[!UICONTROL Closed]** **** [](../building-journeys/journey-gs.md#global_timeout)
 
-Impossibile riavviare o eliminare una versione di un percorso chiuso. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
+A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it. Only finished journeys can be deleted.
 
-Per chiudere un percorso dall’elenco dei percorsi, fai clic sul pulsante **[!UICONTROL Ellipsis]** a destra del nome del percorso e seleziona **[!UICONTROL Close to new entrances]**.
+**[!UICONTROL Ellipsis]****[!UICONTROL Close to new entrances]**
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
-1. In **[!UICONTROL Journeys]** fare clic sul percorso che si desidera chiudere.
-1. In alto a destra, fai clic sulla freccia giù.
+1. **[!UICONTROL Journeys]**
+1. On the top-right, click the down arrow.
 
-   ![](../assets/finish_drop_down_list.png)
+   ![](assets/finish_drop_down_list.png)
 
 1. Fai clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
-1. Fai clic su **[!UICONTROL Close to new entrances]** per confermare.
+1. **[!UICONTROL Close to new entrances]**
 
-### Arresto di un percorso
+### Stopping a journey
 
-È possibile interrompere un percorso quando si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente su un percorso.
+You can stop a journey when an emergency occurred and all processing needs to be ended immediately on a journey.
 
-Impossibile riavviare una versione di percorso interrotta.
+A stopped journey version cannot be restarted.
 
-Quando viene arrestato, lo stato di un percorso è **[!UICONTROL Stopped]**.
+**[!UICONTROL Stopped]**
 
-È possibile interrompere un percorso, ad esempio, se un addetto al marketing si rende conto che il percorso esegue il targeting del pubblico errato o che un&#39;azione personalizzata che dovrebbe inviare i messaggi non funziona correttamente. Per interrompere un percorso dall’elenco dei percorsi, fai clic sul pulsante **[!UICONTROL Ellipsis]** a destra del nome del percorso e seleziona **[!UICONTROL Stop]**.
+You can stop a journey, for example, if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly. **[!UICONTROL Ellipsis]****[!UICONTROL Stop]**
 
-![](../assets/journey-finish-quick-action.png)
+![](assets/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
-1. In **[!UICONTROL Journeys]** fare clic sul percorso che si desidera interrompere.
-1. In alto a destra, fai clic sulla freccia giù.
+1. **[!UICONTROL Journeys]**
+1. On the top-right, click on the down arrow.
 
-![](../assets/finish_drop_down_list.png)
+![](assets/finish_drop_down_list.png)
 
 1. Fai clic su **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
-1. Fai clic su **[!UICONTROL Stop]** per confermare.
+1. **[!UICONTROL Stop]**

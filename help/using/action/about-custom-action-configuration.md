@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
+source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 6%
@@ -35,7 +35,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
 1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**. In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Fai clic su **[!UICONTROL Create Action]** per creare una nuova azione. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
 
-   ![](../assets/custom2.png)
+   ![](assets/custom2.png)
 
 1. Immetti un nome per l’azione.
 
@@ -60,7 +60,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
 Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICONTROL URL Configuration]** parametri:
 
-![](../assets/journeyurlconfiguration.png)
+![](assets/journeyurlconfiguration.png)
 
 1. In **[!UICONTROL URL]** specifica l’URL del servizio esterno:
 
@@ -89,7 +89,7 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
       Se hai selezionato **[!UICONTROL Variable]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
 
-      ![](../assets/journeyurlconfiguration2.png)
+      ![](assets/journeyurlconfiguration2.png)
 
    1. Per eliminare un campo intestazione, posizionare il puntatore sul campo intestazione e fare clic sul pulsante **[!UICONTROL Delete]** icona.
    La **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi di intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
@@ -102,11 +102,11 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
 ## Definire i parametri dell’azione {#define-the-message-parameters}
 
-![](../assets/messageparameterssection.png)
+![](assets/messageparameterssection.png)
 
 In **[!UICONTROL Action parameters]** incolla un esempio del payload JSON da inviare al servizio esterno.
 
-![](../assets/customactionpayloadmessage.png)
+![](assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +119,5 @@ Puoi anche scegliere se specificare se un parametro è una costante o una variab
 * Costante significa che il valore del parametro è definito nel riquadro di configurazione dell&#39;azione da un utente tecnico. Il valore sarà sempre lo stesso in tutti i percorsi. Non varia e l’addetto al marketing non lo vedrà quando utilizza l’azione personalizzata nel percorso. Potrebbe trattarsi, ad esempio, di un ID previsto dal sistema di terze parti. In tal caso, il valore passato è rappresentato dal campo a destra della costante/variabile di attivazione/disattivazione.
 * Variabile indica che il valore del parametro varia. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso potranno passare il valore desiderato o specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
 
-![](../assets/customactionpayloadmessage2.png)
+![](assets/customactionpayloadmessage2.png)
 

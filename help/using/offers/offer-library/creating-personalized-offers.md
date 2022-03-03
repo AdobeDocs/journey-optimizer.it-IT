@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 5%
@@ -25,7 +25,7 @@ Prima di creare un’offerta, accertati di aver creato:
 
 L’elenco delle offerte personalizzate è accessibile nella sezione **[!UICONTROL Offers]** menu.
 
-![](../../assets/offers_list.png)
+![](../assets/offers_list.png)
 
 ## Creare l’offerta {#create-offer}
 
@@ -39,11 +39,11 @@ Per creare un **offerta**, segui questi passaggi:
 
 1. Fai clic su **[!UICONTROL Create offer]**, quindi seleziona **[!UICONTROL Personalized offer]**.
 
-   ![](../../assets/create_offer.png)
+   ![](../assets/create_offer.png)
 
 1. Specifica il nome dell’offerta, la data e l’ora di inizio e fine dell’offerta. Puoi anche associare uno o più tag esistenti all’offerta, per facilitarne la ricerca e l’organizzazione.
 
-   ![](../../assets/offer_details.png)
+   ![](../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 
 1. Per la prima rappresentazione, inizia selezionando la **[!UICONTROL Channel]** verrà utilizzato.
 
-   ![](../../assets/channel-placement.png)
+   ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 
    Puoi inoltre utilizzare il pulsante accanto al **[!UICONTROL Placement]** elenco a discesa per sfogliare tutti i posizionamenti.
 
-   ![](../../assets/browse-button-placements.png)
+   ![](../assets/browse-button-placements.png)
 
    È comunque possibile filtrare i posizionamenti in base al relativo canale e/o tipo di contenuto. Scegli un posizionamento e fai clic su **[!UICONTROL Select]**.
 
-   ![](../../assets/browse-placements.png)
+   ![](../assets/browse-placements.png)
 
 1. Aggiungi contenuto alla tua rappresentazione. Scopri come in [questa sezione](#content).
 
 1. Quando aggiungi contenuto, ad esempio un’immagine o un URL, puoi specificare un **[!UICONTROL Destination link]**: gli utenti che fanno clic sull’offerta verranno indirizzati alla pagina corrispondente.
 
-   ![](../../assets/offer-destination-link.png)
+   ![](../assets/offer-destination-link.png)
 
 1. Infine, seleziona la lingua scelta per identificare e gestire gli elementi da visualizzare agli utenti.
 
 1. Per aggiungere un&#39;altra rappresentazione, utilizza la **[!UICONTROL Add representation]** e aggiungi tutte le rappresentazioni necessarie.
 
-   ![](../../assets/offer-add-representation.png)
+   ![](../assets/offer-add-representation.png)
 
 1. Dopo aver aggiunto tutte le rappresentazioni, seleziona **[!UICONTROL Next]**.
 
@@ -108,19 +108,19 @@ Se la posizione selezionata è di tipo immagine, puoi aggiungere contenuto prove
 
 1. Seleziona **[!UICONTROL Browse]**.
 
-   ![](../../assets/offer-browse-asset-library.png)
+   ![](../assets/offer-browse-asset-library.png)
 
 1. Sfoglia le risorse per selezionare l&#39;immagine desiderata
 
 1. Fai clic su **[!UICONTROL Select]**.
 
-   ![](../../assets/offer-select-asset.png)
+   ![](../assets/offer-select-asset.png)
 
 ### Aggiungi URL {#urls}
 
 Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi immetti l’indirizzo URL del contenuto da aggiungere.
 
-![](../../assets/offer-content-url.png)
+![](../assets/offer-content-url.png)
 
 ### Aggiungi testo personalizzato {#custom-text}
 
@@ -128,7 +128,7 @@ Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONT
 
 1. Seleziona la **[!UICONTROL Custom]** e fai clic su **[!UICONTROL Add content]**.
 
-   ![](../../assets/offer-add-content.png)
+   ![](../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONT
 
 1. Digita il testo che verrà visualizzato nell’offerta.
 
-   ![](../../assets/offer-text-content.png)
+   ![](../assets/offer-text-content.png)
 
    Puoi personalizzare il contenuto utilizzando l’editor espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
 
-   ![](../../assets/offer-personalization.png)
+   ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ Le regole di idoneità e i vincoli ti consentono di definire le condizioni in cu
 
       Per ulteriori informazioni su come lavorare con i segmenti, consulta [questa pagina](../../segment/about-segments.md).
 
-      ![](../../assets/offer-eligibility-segment.png)
+      ![](../assets/offer-eligibility-segment.png)
 
    * Se desideri associare una regola decisionale specifica all&#39;offerta, seleziona **[!UICONTROL By defined decision rule]**, quindi trascina la regola desiderata dal riquadro di sinistra nel **[!UICONTROL Decision rule]** area. Per ulteriori informazioni su come creare una regola decisionale, consulta [questa sezione](../offer-library/creating-decision-rules.md).
 
-      ![](../../assets/offer_rule.png)
+      ![](../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ Le regole di idoneità e i vincoli ti consentono di definire le condizioni in cu
    >
    >Se una consegna e-mail viene eliminata o se la preparazione viene eseguita nuovamente prima dell’invio, il valore di limite per l’offerta viene aggiornato automaticamente.
 
-   ![](../../assets/offer_capping.png)
+   ![](../assets/offer_capping.png)
 
    Nell’esempio precedente:
 
@@ -221,7 +221,7 @@ Una volta definite le regole di idoneità e i vincoli, viene visualizzato un rie
 
 1. Seleziona **[!UICONTROL Save and approve]**.
 
-   ![](../../assets/offer_review.png)
+   ![](../assets/offer_review.png)
 
    Puoi anche salvare l’offerta come bozza, per modificarla e approvarla in un secondo momento.
 
@@ -229,13 +229,13 @@ L’offerta viene visualizzata nell’elenco con la **[!UICONTROL Approved]** o 
 
 È ora pronto per essere consegnato agli utenti.
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 ## Elenco delle offerte {#offer-list}
 
 Dall’elenco delle offerte, puoi selezionare l’offerta per visualizzarne le proprietà. Puoi anche modificarlo, modificarne lo stato (**Bozza**, **Approvato**, **Archiviato**), duplica l’offerta o eliminala.
 
-![](../../assets/offer_created.png)
+![](../assets/offer_created.png)
 
 Seleziona la **[!UICONTROL Edit]** per tornare alla modalità di modifica dell’offerta, dove puoi modificare l’offerta [dettagli](#create-offer), [rappresentazioni](#representations), nonché modificare il [regole di idoneità e vincoli](#eligibility).
 
@@ -243,11 +243,11 @@ Seleziona un’offerta approvata e fai clic su **[!UICONTROL Undo approve]** per
 
 Per impostare nuovamente lo stato su **[!UICONTROL Approved]**, seleziona il pulsante corrispondente visualizzato.
 
-![](../../assets/offer_approve.png)
+![](../assets/offer_approve.png)
 
 La **[!UICONTROL More actions]** attiva le azioni descritte di seguito.
 
-![](../../assets/offer_more-actions.png)
+![](../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplicate]**: crea un’offerta con le stesse proprietà, rappresentazioni, regole di idoneità e vincoli. Per impostazione predefinita, la nuova offerta ha il **[!UICONTROL Draft]** stato.
 * **[!UICONTROL Delete]**: rimuove l’offerta dall’elenco.
@@ -262,19 +262,19 @@ La **[!UICONTROL More actions]** attiva le azioni descritte di seguito.
 
 Puoi anche eliminare o modificare lo stato di più offerte contemporaneamente selezionando le caselle di controllo corrispondenti.
 
-![](../../assets/offer_multiple-selection.png)
+![](../assets/offer_multiple-selection.png)
 
 Se desideri modificare lo stato di diverse offerte con stati diversi, verranno modificati solo gli stati pertinenti.
 
-![](../../assets/offer_change-status.png)
+![](../assets/offer_change-status.png)
 
 Una volta creata un’offerta, puoi fare clic sul suo nome dall’elenco.
 
-![](../../assets/offer_click-name.png)
+![](../assets/offer_click-name.png)
 
 Ciò ti consente di accedere a informazioni dettagliate per quell’offerta. Seleziona la **[!UICONTROL Change log]** scheda a [controlla tutte le modifiche](../get-started/user-interface.md#monitoring-changes) che sono stati fatti all&#39;offerta.
 
-![](../../assets/offer_information.png)
+![](../assets/offer_information.png)
 
 ## Video tutorial {#video}
 

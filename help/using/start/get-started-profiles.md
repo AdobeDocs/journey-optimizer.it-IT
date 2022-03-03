@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 8%
@@ -20,7 +20,7 @@ Utilizzo del profilo cliente in tempo reale in [!DNL Adobe Journey Optimizer] pe
 >
 >Se la tua organizzazione è nuova a [!DNL Adobe Journey Optimizer] e non dispone ancora di set di dati di profilo attivi o di criteri di unione creati, il **Profili** dashboard non è visibile. Invece, **Panoramica** Visualizza i collegamenti alla documentazione di Adobe Experience Platform per aiutarti a iniziare con Profilo cliente in tempo reale.
 
-![](../assets/profiles-home.png)
+![](assets/profiles-home.png)
 
 Per scoprire come accedere e lavorare con **Dashboard dei profili** e informazioni dettagliate sulle metriche visualizzate nel dashboard, consulta [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
 

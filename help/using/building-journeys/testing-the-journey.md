@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 2%
@@ -27,11 +27,11 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 1. Per attivare la modalità di test, fai clic sul pulsante **[!UICONTROL Test]** nell&#39;angolo in alto a destra.
 
-   ![](../assets/journeytest1.png)
+   ![](assets/journeytest1.png)
 
 1. Utilizza la **[!UICONTROL Wait time]** , nell’angolo in basso a sinistra, per definire l’ora in cui ogni attività di attesa e il timeout dell’evento dureranno in modalità di test. Il tempo predefinito è di 10 secondi per attese e timeout dell’evento. In questo modo sarà possibile ottenere rapidamente i risultati del test. Questo parametro viene visualizzato solo se nel percorso sono state eliminate una o più attività di attesa.
 
-   ![](../assets/journeytest_wait.png)
+   ![](assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -39,15 +39,15 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 1. Fai clic su **[!UICONTROL Trigger an event]** per configurare e inviare eventi al percorso.
 
-   ![](../assets/journeyuctest1.png)
+   ![](assets/journeyuctest1.png)
 
 1. Configura i diversi campi previsti. In **Identificatore profilo** immettere il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Vedi [Attivazione degli eventi](#firing_events).
 
-   ![](../assets/journeyuctest1-bis.png)
+   ![](assets/journeyuctest1-bis.png)
 
 1. Dopo aver ricevuto gli eventi, fai clic sul pulsante **[!UICONTROL Show log]** per visualizzare il risultato del test e verificarlo. Vedi [Visualizzazione dei registri](#viewing_logs).
 
-   ![](../assets/journeyuctest2.png)
+   ![](assets/journeyuctest2.png)
 
 1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Quando il test è conclusivo, puoi pubblicare il percorso. Consulta [questa pagina](../building-journeys/publishing-the-journey.md).
 
@@ -75,17 +75,17 @@ Come prerequisito, devi sapere quali profili vengono contrassegnati come profili
 
 Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e ad assicurarti che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
 
-![](../assets/journeytest4.png)
+![](assets/journeytest4.png)
 
 L’interfaccia ti consente di trasmettere parametri di eventi semplici. Se desideri passare raccolte o altri oggetti avanzati nell’evento, puoi fare clic su **[!UICONTROL Code View]** per visualizzare l’intero codice del payload e modificarlo. Ad esempio, puoi copiare e incollare le informazioni sull’evento preparate da un utente tecnico.
 
-![](../assets/journeytest5.png)
+![](assets/journeytest5.png)
 
 Un utente tecnico può inoltre utilizzare questa interfaccia per comporre payload di eventi e attivare eventi senza dover utilizzare uno strumento di terze parti.
 
 Quando fai clic sul pulsante **[!UICONTROL Send]** il test inizia. La progressione dell&#39;individuo nel percorso è rappresentata da un flusso visivo. Il percorso diventa progressivamente verde mentre l&#39;individuo si muove attraverso il percorso. Se si verifica un errore, nel passaggio corrispondente viene visualizzato un simbolo di avviso. È possibile posizionare il cursore su di esso per visualizzare ulteriori informazioni sull&#39;errore e accedere a tutti i dettagli (se disponibili).
 
-![](../assets/journeytest6.png)
+![](assets/journeytest6.png)
 
 Quando selezioni un profilo di test diverso nella schermata di configurazione dell’evento ed esegui nuovamente il test, il flusso visivo viene cancellato e mostra il percorso del nuovo individuo.
 
@@ -99,7 +99,7 @@ La modalità di test è disponibile anche per i percorsi che utilizzano un event
 
 Quando si attiva un evento, la **Configurazione dell’evento** consente di definire i parametri dell’evento da trasmettere nel test. Per visualizzare la condizione dell’ID evento, fai clic sull’icona della descrizione comando nell’angolo in alto a destra. È disponibile anche una descrizione comandi accanto a ciascun campo che fa parte della valutazione delle regole.
 
-![](../assets/jo-event8.png)
+![](assets/jo-event8.png)
 
 Per ulteriori informazioni su come utilizzare la modalità di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
@@ -113,7 +113,7 @@ Tieni presente che la prima volta che si attiva un evento aziendale non è possi
 
 La **[!UICONTROL Show log]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Devi aggiornare manualmente la pagina per aggiornare i risultati dei test del percorso.
 
-![](../assets/journeytest3.png)
+![](assets/journeytest3.png)
 
 >[!NOTE]
 >

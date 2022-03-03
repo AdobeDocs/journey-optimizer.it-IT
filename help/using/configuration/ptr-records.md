@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Con i record PTR, i server di posta riceventi possono controllare l&#39;autentic
 
 Una volta [viene delegato un sottodominio](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
-![](../assets/ptr-records.png)
+![](assets/ptr-records.png)
 
 L’elenco mostra i record PTR generati per ciascun sottodominio delegato, utilizzando la sintassi seguente:
 
@@ -49,11 +49,11 @@ Per modificare un record PTR con un sottodominio [completamente delegato](delega
 
 1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
 
-   ![](../assets/ptr-record-select.png)
+   ![](assets/ptr-record-select.png)
 
 1. Selezionare un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) all&#39;Adobe dall&#39;elenco.
 
-   ![](../assets/ptr-record-subdomain.png)
+   ![](assets/ptr-record-subdomain.png)
 
 1. Fai clic su **[!UICONTROL Save]** per confermare le modifiche.
 
@@ -63,15 +63,15 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [
 
 1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
 
-   ![](../assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select-cname.png)
 
 1. Seleziona un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
 
-   ![](../assets/ptr-record-subdomain-cname.png)
+   ![](assets/ptr-record-subdomain-cname.png)
 
 1. È necessario creare un nuovo record DNS inoltrato sulla piattaforma di hosting. A questo scopo, copia il record generato da Adobe. Una volta fatto, seleziona la casella &quot;Confermo..&quot;.
 
-   ![](../assets/ptr-record-subdomain-confirm.png)
+   ![](assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [
 
 A **[!UICONTROL Processing]** accanto al nome del record PTR nell’elenco viene visualizzata l’icona .
 
-![](../assets/ptr-record-updating.png)
+![](assets/ptr-record-updating.png)
 
 Per controllare i dettagli dell&#39;aggiornamento del record PTR, fai clic sul pulsante **[!UICONTROL Updating]** o **[!UICONTROL Recent updates]** icona.
 
-![](../assets/ptr-record-recent-update.png)
+![](assets/ptr-record-recent-update.png)
 
 Puoi visualizzare informazioni quali lo stato dell’aggiornamento e le modifiche richieste.
 
-![](../assets/ptr-record-updates.png)
+![](assets/ptr-record-updates.png)
 
 ## Stato dell’aggiornamento del record PTR {#ptr-record-update-statuses}
 
 Un aggiornamento del record PTR può avere i seguenti stati:
 
-* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: L&#39;aggiornamento del record PTR è stato inviato ed è in corso un processo di verifica.
-* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
-* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: L&#39;aggiornamento del record PTR è stato inviato ed è in corso un processo di verifica.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
 
 ### Elaborazione {#processing}
 

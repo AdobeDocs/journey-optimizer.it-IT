@@ -5,10 +5,10 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -20,11 +20,11 @@ Gli schemi sono il modo standard per descrivere i dati in Experience Platform, c
 
 Uno schema è un insieme di regole che rappresentano e convalidano la struttura e il formato dei dati. Ad alto livello, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza dell’oggetto (ad esempio nome, cognome, compleanno e così via).
 
-Scopri come creare schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}
+Scopri come creare schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target=&quot;_blank&quot;}
 
 La **Schemi** nell&#39;area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente consente di gestire le risorse Experience Data Model (XDM), inclusi schemi, classi, gruppi di campi dello schema e tipi di dati. Puoi visualizzare ed esplorare le risorse di base fornite da Adobe e creare risorse e schemi personalizzati per la tua organizzazione.
 
-![](../assets/schemas-home.png)
+![](assets/schemas-home.png)
 
 Scopri come utilizzare l’interfaccia utente di Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 

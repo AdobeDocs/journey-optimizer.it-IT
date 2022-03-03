@@ -6,111 +6,111 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 3%
 
 ---
 
-# Passa da un percorso all&#39;altro {#jump}
+# Jump from one journey to another {#jump}
 
-La **[!UICONTROL Jump]** l’attività azione ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
+**[!UICONTROL Jump]** This feature allows you to:
 
-* semplificare la progettazione di percorsi molto complessi suddividendoli in più
-* creare percorsi basati su modelli di percorso comuni e riutilizzabili
+* simplify the design of very complex journeys by splitting them into several ones
+* build journeys based on common and reusable journey patterns
 
-Nel percorso di origine, aggiungi semplicemente un **[!UICONTROL Jump]** e seleziona un percorso di destinazione. Quando l’utente accede alla **[!UICONTROL Jump]** un evento interno viene inviato al primo evento del percorso di destinazione. Se la **[!UICONTROL Jump]** l&#39;azione ha successo, l&#39;individuo continua a progredire nel percorso. Il comportamento è simile ad altre azioni.
+**[!UICONTROL Jump]** **[!UICONTROL Jump]** **[!UICONTROL Jump]** The behavior is similar to other actions.
 
-Nel percorso di destinazione, il primo evento attivato internamente dal **[!UICONTROL Jump]** farà il singolo flusso nel percorso.
+**[!UICONTROL Jump]**
 
 >[!NOTE]
 >
->Consulta anche il video tutorial sul Journey Orchestration [qui](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=it){target=&quot;_blank&quot;}
+>[](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=it)
 
 ## Ciclo di vita
 
-Supponiamo che tu abbia aggiunto un **[!UICONTROL Jump]** attività in un percorso A a un percorso B. Il Percorso A è il **percorso d&#39;origine** e il percorso B, **percorso target**.
-Di seguito sono riportati i diversi passaggi del processo di esecuzione:
+**[!UICONTROL Jump]**********
+Here are the different steps of the execution process:
 
-**Percorso A** viene attivato da un evento esterno:
+****
 
-1. Il percorso A riceve un evento esterno relativo a un individuo.
-1. L&#39;individuo raggiunge il **[!UICONTROL Jump]** passo.
-1. L&#39;individuo viene inviato al Percorso B e passa ai passaggi successivi nel Percorso A, dopo il **[!UICONTROL Jump]** passo.
+1. Journey A receives an external event related to an individual.
+1. **[!UICONTROL Jump]**
+1. **[!UICONTROL Jump]**
 
-Nel percorso B, il primo evento viene attivato internamente tramite il **[!UICONTROL Jump]** attività del percorso A:
+**[!UICONTROL Jump]**
 
-1. Il percorso B ha ricevuto un evento interno dal Percorso A.
-1. L&#39;individuo inizia a fluire nel Percorso B.
+1. Journey B received an internal event from Journey A.
+1. The individual starts flowing in Journey B.
 
 >[!NOTE]
 >
->Il percorso B può essere attivato anche tramite un evento esterno.
+>Journey B can also be triggered via an external event.
 
 ## Best practice e limitazioni
 
 ### Authoring
 
-* La **[!UICONTROL Jump]** l’attività è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
-* Puoi passare solo a un percorso che utilizza lo stesso namespace del percorso di origine.
-* Non puoi saltare a un percorso che inizia con un **Qualificazione del segmento** evento o **Leggi segmento**.
-* Non puoi avere un **[!UICONTROL Jump]** attività e **Qualificazione del segmento** evento o **Leggi segmento** nello stesso percorso.
-* Puoi includere più **[!UICONTROL Jump]** attività necessarie in un percorso. Dopo un **[!UICONTROL Jump]**, puoi aggiungere qualsiasi attività necessaria.
-* Puoi avere tutti i livelli di salto necessari. Ad esempio, il Percorso A passa al percorso B, che passa al percorso C e così via.
-* Il percorso di destinazione può anche includere un numero illimitato di **[!UICONTROL Jump]** le attività necessarie.
-* I pattern di loop non sono supportati. Non c&#39;è modo di collegare due o più percorsi che creerebbero un ciclo infinito. La **[!UICONTROL Jump]** la schermata di configurazione dell’attività non consente di eseguire questa operazione.
+* **[!UICONTROL Jump]**
+* You can only jump to a journey that uses the same namespace as the origin journey.
+* ********
+* **[!UICONTROL Jump]**********
+* **[!UICONTROL Jump]** **[!UICONTROL Jump]**
+* You can have as many jump levels as needed. For example, Journey A jumps to journey B, which jumps to journey C, and so on.
+* **[!UICONTROL Jump]**
+* Loop patterns are not supported. There is no way to link two or more journeys together which would create an infinite loop. **[!UICONTROL Jump]**
 
 ### Esecuzione
 
-* Quando il **[!UICONTROL Jump]** l’attività viene eseguita, viene attivata la versione più recente del percorso di destinazione.
-* Come al solito, un individuo unico può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso di destinazione, l’utente non entrerà nel percorso di destinazione. Non verrà segnalato alcun errore nel **[!UICONTROL Jump]** perché si tratta di un comportamento normale.
+* **[!UICONTROL Jump]**
+* As usual, a unique individual can only be present once in a same journey. As a result, if the individual pushed from the origin journey is already in the target journey, then the individual will not enter the target journey. **[!UICONTROL Jump]**
 
-## Configurazione dell’attività Jump
+## Configuring the Jump activity
 
-1. Progettazione di **percorso d&#39;origine**.
+1. ****
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
-1. In qualsiasi fase del percorso, aggiungi un **[!UICONTROL Jump]** dall&#39;attività **[!UICONTROL ACTIONS]** categoria. Aggiungi un’etichetta e una descrizione.
+1. **[!UICONTROL Jump]****[!UICONTROL ACTIONS]** Add a label and description.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
-1. Fai clic all’interno del **Percorso Target** campo .
-Nell’elenco sono visualizzate tutte le versioni di percorso 2D, live o in modalità di test. Percorsi che utilizzano un namespace diverso o che iniziano con un **Qualificazione del segmento** l&#39;evento non è disponibile. Vengono inoltre filtrati i percorsi di destinazione che creerebbero un pattern di ciclo.
+1. ****
+The list displays all journey versions that are draft, live or in test mode. **** Target journeys that would create a loop pattern are also filtered out.
 
-   ![](../assets/jump3.png)
-
-   >[!NOTE]
-   >
-   >Puoi fare clic su **Apri percorso di destinazione** a destra per aprire il percorso di destinazione in una nuova scheda.
-
-1. Seleziona il percorso di destinazione a cui desideri passare.
-La **Primo evento** Il campo è precompilato con il nome del primo evento del percorso di destinazione. Se il percorso di destinazione include più eventi, la **[!UICONTROL Jump]** è consentito solo nel primo evento.
-
-   ![](../assets/jump4.png)
-
-1. La **Parametri azione** visualizza tutti i campi dell&#39;evento target. Allo stesso modo degli altri tipi di azioni, mappa ogni campo con campi dell’evento di origine o dell’origine dati. Queste informazioni verranno trasmesse al percorso di destinazione in fase di esecuzione.
-1. Aggiungi le attività successive per completare il percorso di origine.
-
-   ![](../assets/jump5.png)
-
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
-   >L&#39;identità dell&#39;individuo viene mappata automaticamente. Queste informazioni non sono visibili nell’interfaccia.
+   >****
 
-Le **[!UICONTROL Jump]** l’attività è configurata. Non appena il tuo percorso è attivo o in modalità di test, gli individui che raggiungono **[!UICONTROL Jump]** Il passaggio verrà inviato dal al percorso di destinazione.
+1. Select the target journey that you want to jump to.
+**** **[!UICONTROL Jump]**
 
-Quando un **[!UICONTROL Jump]** l’attività è configurata in un percorso, un **[!UICONTROL Jump]** l’icona di ingresso viene aggiunta automaticamente all’inizio del percorso di destinazione. Questo ti aiuta a identificare che il percorso può essere attivato esternamente ma anche internamente da un **[!UICONTROL Jump]** attività.
+   ![](assets/jump4.png)
 
-![](../assets/jump7.png)
+1. **** In the same way as for other types of actions, map each field with fields from the origin event or data source. This information will be passed to the target journey at runtime.
+1. Add the next activities to finish your origin journey.
+
+   ![](assets/jump5.png)
+
+
+   >[!NOTE]
+   >
+   >The individual&#39;s identity is automatically mapped. This information is not visible in the interface.
+
+**[!UICONTROL Jump]** **[!UICONTROL Jump]**
+
+**[!UICONTROL Jump]****[!UICONTROL Jump]** **[!UICONTROL Jump]**
+
+![](assets/jump7.png)
 
 ## Risoluzione dei problemi
 
-Quando il percorso viene pubblicato o in modalità di test, si verificano degli errori se:
-* il percorso di destinazione non esiste più
-* il percorso di destinazione è bozza, chiuso o interrotto
-* se il primo evento del percorso di destinazione è cambiato e la mappatura è interrotta
+When the journey is published or in test mode, errors will happen if:
+* the target journey no longer exists
+* the target journey is draft, closed or stopped
+* if the first event of the target journey has changed and the mapping is broken
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

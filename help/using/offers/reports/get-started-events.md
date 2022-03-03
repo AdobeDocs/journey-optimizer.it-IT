@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 57%
@@ -21,7 +21,7 @@ Puoi quindi esportare questi dati per analizzarli nel tuo sistema di reporting. 
 
 I set di dati contenenti eventi di Gestione decisioni sono accessibili da Adobe Experience Platform **[!UICONTROL Datasets]** menu. Al momento del provisioning di ciascuna istanza viene creato automaticamente un set di dati.
 
-![](../../assets/events-datasets-list.png)
+![](../assets/events-datasets-list.png)
 
 Questi set di dati sono basati su **[!UICONTROL ODE DecisionEvents]** schema, che contiene tutti i campi XDM necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
 

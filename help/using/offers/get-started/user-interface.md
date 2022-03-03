@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 68%
@@ -31,7 +31,7 @@ Utilizza il menu **[!UICONTROL Offers]** per gestire le offerte personalizzate e
 
 * **[!UICONTROL Decisions]**: crea e gestisci le decisioni per distribuire le offerte. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
-![](../../assets/offers_menu.png)
+![](../assets/offers_menu.png)
 
 Utilizza il menu **[!UICONTROL Components]** per gestire i componenti necessari per creare le offerte:
 
@@ -43,19 +43,19 @@ Utilizza il menu **[!UICONTROL Components]** per gestire i componenti necessari 
 
 * **[!UICONTROL Rankings]**: crea e gestisci formule di classificazione per determinare quale offerta deve essere presentata per prima per un determinato posizionamento. Consulta [Creare formule di classificazione](../offer-library/create-ranking-formulas.md).
 
-![](../../assets/offer_activities.png)
+![](../assets/offer_activities.png)
 
 ## Panoramica {#overview}
 
 Quando hai effettuato una nuova operazione con [!DNL Offer Decisioning], **[!UICONTROL Overview]** La scheda ti guida attraverso i passaggi principali necessari per iniziare a creare la tua prima decisione di offerta.
 
-![](../../assets/overview_onboarding.png)
+![](../assets/overview_onboarding.png)
 
 Segui i passaggi sullo schermo per iniziare a creare posizionamenti, offerte e raccolte.
 
 Dopo aver completato questi primi passaggi, viene richiesto di creare decisioni sulle offerte (precedentemente note come attività di offerta).
 
-![](../../assets/overview_collection-created.png)
+![](../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Fai clic su un’offerta o su una decisione per accedere direttamente ai dettagl
 
 Fai clic sul pulsante **[!UICONTROL View all]** per accedere agli elenchi di offerte, raccolte o decisioni.
 
-![](../../assets/overview_view-all.png)
+![](../assets/overview_view-all.png)
 
 ## Ricerca e filtro delle informazioni {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ Usa la **barra di ricerca** per trovare un elemento specifico.
 
 Per accedere a **Filtri** puoi anche fare clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Ad esempio, puoi filtrare i posizionamenti creati per il canale di comunicazione e-mail e per il contenuto di tipo immagine.
 
-![](../../assets/filters.png)
+![](../assets/filters.png)
 
 ## Personalizzare le informazioni visualizzate {#customize-displayed-information}
 
@@ -85,21 +85,21 @@ Questo ti consente di scegliere le informazioni da visualizzare in base alle tue
 
 La personalizzazione delle colonne viene salvata per ogni utente.
 
-![](../../assets/columns.png)
+![](../assets/columns.png)
 
 ## Riquadro informazioni {#information-pane}
 
 Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informazioni che ti consenta di recuperare informazioni ed eseguire azioni di base su quell’elemento.
 
-![](../../assets/information-pane.png)
+![](../assets/information-pane.png)
 
 Dagli elenchi delle offerte e delle decisioni ora è possibile eseguire azioni in blocco su più elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
 
-![](../../assets/bulk-actions.png)
+![](../assets/bulk-actions.png)
 
 Puoi anche duplicare un’offerta o decisioni esistenti per creare una copia con lo stato **[!UICONTROL Draft]**. Questa operazione può essere eseguita dal riquadro delle informazioni oppure dalla vista dettagliata di un’offerta o di una decisione.
 
-![](../../assets/duplicate-offer.png)
+![](../assets/duplicate-offer.png)
 
 ## Registri di modifica di offerte e decisioni {#changes-logs}
 
@@ -107,4 +107,4 @@ La Libreria offerte ti consente di visualizzare tutte le modifiche apportate a u
 
 Tutte le modifiche apportate vengono visualizzate in questa schermata, così come il nome dell’utente che le ha eseguite.
 
-![](../../assets/change-logs.png)
+![](../assets/change-logs.png)

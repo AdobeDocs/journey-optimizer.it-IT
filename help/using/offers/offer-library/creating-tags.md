@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -23,7 +23,7 @@ I tag possono essere utilizzati anche per raggruppare le offerte in raccolte di 
 
 L’elenco dei tag creati è accessibile nella **[!UICONTROL Components]** menu.
 
-![](../../assets/tags_list.png)
+![](../assets/tags_list.png)
 
 Per creare un tag, effettua le seguenti operazioni:
 
@@ -31,11 +31,11 @@ Per creare un tag, effettua le seguenti operazioni:
 
 1. Specifica il nome del tag, quindi fai clic su **[!UICONTROL Save]**.
 
-   ![](../../assets/tags_create.png)
+   ![](../assets/tags_create.png)
 
 1. Una volta creato, il tag viene visualizzato nell’elenco. È possibile selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
 
-   ![](../../assets/tags_created.png)
+   ![](../assets/tags_created.png)
 
 ## Video tutorial {#video}
 

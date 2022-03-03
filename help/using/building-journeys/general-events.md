@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall’utente tecnico. Consulta [questa pagina](../event/about-events.md).
 
-![](../assets/general-events.png)
+![](assets/general-events.png)
 
 Quando rilasci un evento aziendale, aggiunge automaticamente una **Leggi segmento** attività. Per ulteriori informazioni sugli eventi aziendali, consulta [questa sezione](../event/about-events.md)
 
@@ -36,7 +36,7 @@ Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
 1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Set a timeout path]** opzione . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
 
-   ![](../assets/event-timeout.png)
+   ![](assets/event-timeout.png)
 
 In questo esempio, il percorso invia un primo messaggio push di benvenuto a un cliente. Invia quindi un push con sconto sul pasto solo se il cliente entra nel ristorante entro il giorno successivo. Abbiamo pertanto configurato l’evento del ristorante con un timeout di 1 giorno:
 
@@ -47,4 +47,4 @@ Tieni presente che se desideri configurare un timeout su più eventi posizionati
 
 Il timeout si applica a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività. Se non viene ricevuto alcun evento prima del timeout specificato, i singoli utenti accederanno a un unico percorso di timeout o termineranno il loro percorso.
 
-![](../assets/event-timeout-group.png)
+![](assets/event-timeout-group.png)

@@ -1,12 +1,12 @@
 ---
 title: Rapporto live delle e-mail
-description: Scopri come utilizzare i dati del rapporto live e-mail
+description: Learn how to use data from the email live report
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 1%
@@ -15,60 +15,60 @@ ht-degree: 1%
 
 # Rapporto live delle e-mail {#email-live-report}
 
-L’e-mail **[!UICONTROL Live report]** esegue solo il targeting di una consegna e-mail specifica.
+**[!UICONTROL Live report]**
 
-Da **[!UICONTROL Executions]** della scheda **[!UICONTROL Messages]** menu, seleziona **[!UICONTROL Live view]** dal menu avanzato della consegna selezionata, seleziona **[!UICONTROL Live report]**.
+**[!UICONTROL Executions]****[!UICONTROL Messages]****[!UICONTROL Live view]****[!UICONTROL Live report]**
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
-L’e-mail **[!UICONTROL Live report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della consegna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](live-report.md#modify-dashboard).
+**[!UICONTROL Live report]** Each widget can be resized and deleted if needed. [](live-report.md#modify-dashboard)
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
-**[!UICONTROL Email performance]** e **[!UICONTROL Email summary]** I widget descrivono nel dettaglio le informazioni principali relative al messaggio con un grafico e KPI:
+**[!UICONTROL Email performance]****[!UICONTROL Email summary]**
 
-* **[!UICONTROL Targeted]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
+* **[!UICONTROL Targeted]**
 
-* **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Sent]**
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**
 
-* **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Opens]**
 
-* **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in una consegna.
+* **[!UICONTROL Clicks]**
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errors]**
 
-* **[!UICONTROL Spam complaints]**: Numero di messaggi classificati come spam.
+* **[!UICONTROL Spam complaints]**
 
-* **[!UICONTROL Unsubscriptions]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Unsubscriptions]**
 
-* **[!UICONTROL Excluded]**: Numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
+* **[!UICONTROL Excluded]**
 
-La **[!UICONTROL Sending Statistics]** widget descrive il successo della consegna:
+**[!UICONTROL Sending Statistics]**
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errors]**
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
-La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
+**[!UICONTROL Error Reasons]**
 
-La **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
+**[!UICONTROL Bounce Reasons]****[!UICONTROL Bounce categories]**
 
-* **[!UICONTROL Hard bounce]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
+* **[!UICONTROL Hard bounce]** This involves an error message that explicitly states that the address is invalid, such as Unknown user.
 
-* **[!UICONTROL Soft bounce]**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **[!UICONTROL Soft bounce]**
 
-* **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
+* **[!UICONTROL Ignored]**
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >
@@ -84,6 +84,6 @@ The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** ove
 -->
 >[!NOTE]
 >
->I profili con **[!UICONTROL Suppressed]** o **[!UICONTROL Not allowed]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [Messaggio](../building-journeys/journeys-message.md) attività), **Rapporti e-mail** non li includerà nella **[!UICONTROL Sent]** le metriche vengono filtrate prima dell’invio dell’e-mail.
+>**[!UICONTROL Suppressed]****[!UICONTROL Not allowed]** ****[](../building-journeys/read-segment.md)[](../building-journeys/journeys-message.md)******[!UICONTROL Sent]**
 >
->Per saperne di più sul [Elenco di eliminazione](../messages/suppression-list.md) e [Elenco Consentiti](../messages/allow-list.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>[](../messages/suppression-list.md)[](../messages/allow-list.md) [](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html)

@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
-workflow-type: ht
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ La capacità di Gestione delle decisioni è costituita da due componenti princip
 * La **Libreria di offerte centralizzata** è l’interfaccia in cui puoi creare e gestire i diversi elementi che compongono le offerte e definirne regole e vincoli.
 * Il **motore delle decisioni per le offerte** sfrutta i dati di Adobe Experience Platform e i profili cliente in tempo reale, insieme alla Libreria di offerte, per selezionare i clienti, i canali e il momento più appropriati per l’invio delle offerte.
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 I vantaggi includono:
 
@@ -42,7 +42,7 @@ Un’**offerta** è costituita da contenuti, regole di idoneità e vincoli che d
 
 Viene creata utilizzando la **Libreria offerte**, che fornisce un catalogo centrale delle offerte in cui è possibile associare regole di idoneità e vincoli a più parti di contenuto per creare e pubblicare le offerte (consulta [Interfaccia utente della Libreria offerte](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 Una volta arricchita la libreria delle offerte con le offerte, puoi integrarle in **decisioni** (precedentemente note come “attività di offerta”).
 
@@ -54,11 +54,11 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 * Puoi visualizzare sul tuo sito web le offerte che corrispondono al punto di interesse del visitatore, in base ai dati provenienti da Adobe Experience Platform.
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push sulle offerte disponibili in base ai loro attributi (livello di fedeltà, genere, acquisti precedenti...).
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * La funzione di gestione delle decisioni consente inoltre di migliorare l’esperienza dei clienti che contattano il team di assistenza. Con le API di Gestione delle decisioni puoi visualizzare nel portale degli agenti del call center informazioni sulle offerte di cui il cliente ha già usufruito e sulle migliori offerte successive.
 

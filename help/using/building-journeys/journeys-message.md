@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 6%
@@ -23,27 +23,27 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
 1. Come sempre, inizia il tuo percorso con un evento o un **Leggi segmento** attività.
 
-   ![](../assets/jo-message0.png)
+   ![](assets/jo-message0.png)
 
 1. Da **Azioni** sezione della palette, trascinare un **Messaggio** nell’area di lavoro.
 
-   ![](../assets/jo-message1.png)
+   ![](assets/jo-message1.png)
 
 1. Aggiungi un’etichetta e una descrizione.
 
-   ![](../assets/jo-message2.png)
+   ![](assets/jo-message2.png)
 
 1. Fai clic all’interno del **Messaggio** campo . Viene visualizzato l’elenco dei messaggi disponibili progettati in Journey Optimizer. È possibile filtrare l’elenco in base allo stato.
 
-   ![](../assets/jo-message3.png)
+   ![](assets/jo-message3.png)
 
 1. Scegli un messaggio e fai clic su **Seleziona**. Puoi anche creare un nuovo messaggio direttamente da questa schermata facendo clic su **Creare un messaggio**.
 
-   ![](../assets/jo-message4-ter.png)
+   ![](assets/jo-message4-ter.png)
 
    Per controllare il messaggio, puoi fare clic sul pulsante **Apri il messaggio** nella **Messaggio** campo . Il messaggio verrà aperto in una nuova scheda.
 
-   ![](../assets/jo-message4-bis.png)
+   ![](assets/jo-message4-bis.png)
 
 1. Aggiungi i passaggi successivi al percorso.
 
@@ -51,7 +51,7 @@ Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un
 
 La **[!UICONTROL Email parameters]** e **[!UICONTROL Push parameters]** le sezioni mostrano campi di sola lettura. Questa configurazione viene in genere eseguita al momento della creazione del messaggio. Vedi [questa sezione](../messages/get-started-content.md).
 
-![](../assets/jo-message4.png)
+![](assets/jo-message4.png)
 
 Per forzare un valore specifico, puoi utilizzare la funzione **Abilita sostituzione parametro** a destra del campo. Questa opzione può essere utile per vari scopi:
 
@@ -105,7 +105,7 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si 
 
 Abilita l’ottimizzazione in fase di invio su un messaggio e-mail o push selezionando la **Ottimizzazione dei tempi di invio** dai parametri dell’attività Messaggio .
 
-![](../assets/jo-message5.png)
+![](assets/jo-message5.png)
 
 Per i messaggi e-mail, scegli se ottimizzare le aperture dei messaggi e-mail o i click-through di e-mail selezionando il pulsante di scelta appropriato. I messaggi push vengono impostati per impostazione predefinita sull’opzione di apertura, in quanto i clic non sono applicabili ai messaggi push.
 

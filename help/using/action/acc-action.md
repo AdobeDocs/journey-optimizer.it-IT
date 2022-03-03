@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
+source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 4%
@@ -21,25 +21,25 @@ La connessione tra le istanze Journey Optimizer e Campaign viene impostata per A
 
 In questo viene presentato un caso d’uso end-to-end [sezione](../building-journeys/campaign-classic-use-case.md).
 
-Per ogni azione configurata, nella palette Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questo [sezione](../building-journeys/using-adobe-campaign-classic.md).
+For each action configured, an action activity is available in the journey designer palette. Refer to this [section](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Note importanti {#important-notes}
 
 * I messaggi non sono soggetti a limitazione. Il sistema limita il numero di messaggi che possono essere inviati a 4000 per 5 minuti, in base allo SLA di Campaign corrente. Per questo motivo, Journey Optimizer deve essere utilizzato solo in casi d’uso unitari (singoli eventi, non segmenti).
 
-* È necessario configurare un’azione sull’area di lavoro per modello da utilizzare. Devi configurare un’azione in Journey Optimizer per ogni modello che desideri utilizzare da Adobe Campaign.
+* È necessario configurare un’azione sull’area di lavoro per modello da utilizzare. You need to configure one action in Journey Optimizer for each template you wish to use from Adobe Campaign.
 
-* È consigliabile utilizzare un’istanza del Centro messaggi dedicata ospitata per questa integrazione per evitare di influenzare altre operazioni di Campaign che potrebbero essere in corso. Il server di marketing può essere ospitato o on-premise. La build richiesta è 21.1 Release Candidate o successiva.
+* È consigliabile utilizzare un’istanza del Centro messaggi dedicata ospitata per questa integrazione per evitare di influenzare altre operazioni di Campaign che potrebbero essere in corso. The marketing server can be hosted or on-premise. The build required is 21.1 Release Candidate or greater.
 
-* Non esiste una convalida relativa alla correttezza del payload o del messaggio Campaign.
+* There is no validation that the payload or Campaign message is correct.
 
 * Non puoi utilizzare un’azione Campaign con un evento di qualificazione dei segmenti.
 
 ## Prerequisiti {#prerequisites}
 
-In Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Fai riferimento a [Documentazione di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
+In Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Refer to the [Adobe Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
-Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern seguente. Quindi incolla questo payload durante la configurazione dell’azione in Journey Orchestration (vedi sotto)
+Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern seguente. You will then paste this payload when configuring the action in Journey Orchestration (see below)
 
 Ecco un esempio:
 
@@ -62,11 +62,11 @@ Ecco un esempio:
 
 In Journey Optimizer, devi configurare un’azione per messaggio transazionale. Segui questi passaggi:
 
-1. Crea una nuova azione. Fai riferimento a questo [sezione](../action/action.md).
-1. Immetti un nome e una descrizione.
+1. Create a new action. Fai riferimento a questo [sezione](../action/action.md).
+1. Enter a name and description.
 1. In **Tipo di azione** campo , seleziona **Adobe Campaign Classic**.
-1. Fai clic in **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Per ottenere questo payload, contatta l’Adobe .
+1. Click in the **Payload** field and paste an example of the JSON payload corresponding to the Campaign message. Per ottenere questo payload, contatta l’Adobe .
 1. Regola i diversi campi in modo che siano statici o variabili a seconda di se desideri mapparli sull’area di lavoro del Percorso. Alcuni campi, come i parametri del canale per l’indirizzo e-mail e i campi di personalizzazione (ctx), probabilmente dovranno essere definiti come variabili da mappare nel contesto del percorso.
 1. Fai clic su **Salva**.
 
-![](../assets/accintegration1.png)
+![](assets/accintegration1.png)

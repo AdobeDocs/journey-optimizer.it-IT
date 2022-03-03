@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Il rapporto sulla pagina di destinazione presenta dettagli sull’impatto delle 
 
 Per accedere ai rapporti, seleziona **Live** o **[!UICONTROL Global report]** dal menu avanzato della pagina di destinazione selezionata.
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## Rapporto live sulla pagina di destinazione {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 La **[!UICONTROL Landing page performance]** widget descrive le informazioni principali relative al messaggio nelle ultime 24 ore tramite KPI:
 
@@ -53,7 +53,7 @@ La **[!UICONTROL Journey(s)]** widget rappresenta il numero di visite alla pagin
 
 La **[!UICONTROL Other sources]** widget rappresenta il numero di visite alla pagina di destinazione da un’origine esterna anziché da un percorso.
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 La **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** i grafici rappresentano il numero totale di visite e di persone che hanno interagito con successo con la pagina di destinazione nelle ultime 24 ore, a seconda dei messaggi inviati.
 
@@ -61,7 +61,7 @@ La **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]*
 
 ## Rapporto globale sulla pagina di destinazione {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 La **[!UICONTROL Number of visits]** e **[!UICONTROL Number of visits over time]** I widget consentono di vedere l’impatto della pagina di destinazione nel periodo di tempo selezionato tramite un grafico e KPI con le metriche seguenti:
 
@@ -75,7 +75,7 @@ La **[!UICONTROL Landing page performance]** widget descrive le informazioni pri
 
 * **[!UICONTROL Bounce rate]**: Numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l’azione di iscrizione, in relazione al numero totale di visite.
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 La **[!UICONTROL Visit sources]** widget rappresenta il modo in cui i visitatori accedono alla pagina di destinazione:
 
@@ -95,7 +95,7 @@ La **[!UICONTROL Journey(s)]** widget rappresenta il numero di visite alla pagin
 
 La **[!UICONTROL Other sources]** widget rappresenta il numero di visite alla pagina di destinazione da un’origine esterna anziché da un percorso.
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 La **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** i grafici rappresentano il numero totale di visite e di persone che hanno interagito con successo con la pagina di destinazione per il periodo in questione, a seconda dei messaggi inviati.
 

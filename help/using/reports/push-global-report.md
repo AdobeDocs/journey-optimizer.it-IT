@@ -1,12 +1,12 @@
 ---
-title: Report globale notifiche push
-description: Scopri come utilizzare i dati del rapporto globale delle notifiche push
+title: Push notifications global report
+description: Learn how to use data from the push notifications global report
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -15,42 +15,42 @@ ht-degree: 1%
 
 # Rapporto globale delle notifiche push {#push-global-report}
 
-La spinta **[!UICONTROL Global report]** esegue solo il targeting di una consegna push specifica.
+**[!UICONTROL Global report]**
 
-Da **[!UICONTROL Executions]** della scheda **[!UICONTROL Messages]** menu, seleziona **[!UICONTROL Global view]** dal menu avanzato della consegna selezionata, seleziona **[!UICONTROL Global report]**.
+**[!UICONTROL Executions]****[!UICONTROL Messages]****[!UICONTROL Global view]****[!UICONTROL Global report]**
 
-![](../assets/global_report_11.png)
+![](assets/global_report_11.png)
 
-La spinta **[!UICONTROL Global report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della consegna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](global-report.md#modify-dashboard).
+**[!UICONTROL Global report]** Each widget can be resized and deleted if needed. [](global-report.md#modify-dashboard)
 
-![](../assets/push_global_report.png)
+![](assets/push_global_report.png)
 
-La **[!UICONTROL Push notification performance]** widget fornisce informazioni principali relative alle notifiche push con KPI:
+**[!UICONTROL Push notification performance]**
 
-* **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Sent]**
 
-* **[!UICONTROL Bounce Rate]**: Percentuale di notifiche push rimbalzate rispetto alle notifiche push inviate.
+* **[!UICONTROL Bounce Rate]**
 
-* **[!UICONTROL Error Rate]**: Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle notifiche push inviate.
+* **[!UICONTROL Error Rate]**
 
-* **[!UICONTROL Actions Rate]**: Percentuale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o eliminazione.
+* **[!UICONTROL Actions Rate]**
 
-* **[!UICONTROL Engagement Rate]**: Percentuale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
+* **[!UICONTROL Engagement Rate]**
 
-La **[!UICONTROL Push notification summary]** Il grafico contiene i dati disponibili per le notifiche push inviate, ad esempio:
+**[!UICONTROL Push notification summary]**
 
-* **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Opens]**
 
-* **[!UICONTROL Actions]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
+* **[!UICONTROL Actions]**
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errors]**
 
-La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
+**[!UICONTROL Error Reasons]**
 
-![](../assets/push_global_report_2.png)
+![](assets/push_global_report_2.png)
 
-La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono il successo della notifica push in base al sistema operativo del destinatario.
+**[!UICONTROL Tracking by platform]****[!UICONTROL Sending by platform]****[!UICONTROL Breakdown by platform]**

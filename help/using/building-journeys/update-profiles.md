@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Per ulteriori informazioni su come trasformare un profilo esistente in un profil
 
 1. In **Azione** della palette, rilascia la **Aggiorna profilo** nell’area di lavoro.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. Selezionare uno schema dall&#39;elenco.
 
 1. Fai clic su **Campo** per selezionare il campo da aggiornare. È possibile selezionare un solo campo.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. Seleziona un set di dati dall’elenco.
 
@@ -58,12 +58,12 @@ Per ulteriori informazioni su come trasformare un profilo esistente in un profil
 
    * Utilizzando l’editor di espressioni semplici, puoi selezionare un campo da un’origine dati o dall’evento in arrivo.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * Se desideri definire un valore specifico o sfruttare funzioni avanzate, fai clic su **Modalità avanzata**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 La **Aggiorna profilo** è ora configurato.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

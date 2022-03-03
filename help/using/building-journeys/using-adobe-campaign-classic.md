@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -27,4 +27,4 @@ In questo viene presentato un caso d’uso end-to-end [sezione](../building-jour
 1. In **Azione** nella sezione della palette, seleziona un’azione Campaign e aggiungilo al percorso.
 1. In **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Fai riferimento a questo [sezione](../building-journeys/using-custom-actions.md).
 
-![](../assets/accintegration2.png)
+![](assets/accintegration2.png)

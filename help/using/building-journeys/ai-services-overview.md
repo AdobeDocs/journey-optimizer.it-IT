@@ -5,7 +5,7 @@ description: Panoramica del servizio AI
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 1%
@@ -26,5 +26,5 @@ Customer AI consente ai marchi di creare punteggi basati sull’apprendimento di
 
 Di conseguenza, possono essere utilizzati come qualsiasi altro attributo di profilo nelle condizioni di Journey Optimizer (per prendere le decisioni migliori), nelle azioni o nella creazione di segmenti.
 
-![](../assets/customer-ai.png)
+![](assets/customer-ai.png)
 

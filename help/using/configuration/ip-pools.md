@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Per creare un pool IP, effettua le seguenti operazioni:
 
 1. Accedere al **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** menu, quindi fai clic su **[!UICONTROL Create IP Pool]**.
 
-   ![](../assets/ip-pool-create.png)
+   ![](assets/ip-pool-create.png)
 
 1. Immetti un nome e una descrizione (facoltativi) per il pool IP.
 
@@ -39,7 +39,7 @@ Per creare un pool IP, effettua le seguenti operazioni:
 
 1. Seleziona gli indirizzi IP da includere nel pool dall’elenco a discesa, quindi fai clic su **[!UICONTROL Submit]**.
 
-   ![](../assets/ip-pool-config.png)
+   ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Per creare un pool IP, effettua le seguenti operazioni:
 
 Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare il predefinito di messaggio associato. Per ulteriori informazioni su come associare un predefinito di messaggio a un pool IP, consulta [questa sezione](message-presets.md)).
 
-![](../assets/ip-pool-created.png)
+![](assets/ip-pool-created.png)
 
 ## Modificare un pool IP {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ Per modificare un pool IP:
 
 1. Dall’elenco, fai clic sul nome del pool IP per aprirlo.
 
-   ![](../assets/ip-pool-list.png)
+   ![](assets/ip-pool-list.png)
 
 1. Modifica le proprietà desiderate. Puoi modificare la descrizione e aggiungere o rimuovere indirizzi IP.
 
-   ![](../assets/ip-pool-edit.png)
+   ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ L’aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia
 
 Per controllare lo stato dell’aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL More actions]** e seleziona **[!UICONTROL Recent updates]**.
 
-![](../assets/ip-pool-recent-update.png)
+![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

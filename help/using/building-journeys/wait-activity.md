@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b4a356583b555451c8d42d1043691b5ff841851b
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 4%
@@ -39,13 +39,13 @@ Inoltre, se due attese diverse sono in parallelo, quella che si verifica per pri
 
 Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva.
 
-![](../assets/journey55.png)
+![](assets/journey55.png)
 
 ## Attesa data fissa{#fixed_date}
 
 Seleziona la data di esecuzione dell’attività successiva.
 
-![](../assets/journey56.png)
+![](assets/journey56.png)
 
 ## Attesa personalizzata{#custom}
 
@@ -57,7 +57,7 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 >
 >La **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di mixaggio e fuso orario ISO-8601 come 2016-08-12T09:46:06,982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
-![](../assets/journey57.png)
+![](assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +77,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)-->
+![](assets/journey57bis.png)-->

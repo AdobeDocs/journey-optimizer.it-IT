@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: c2052a2c4468239d22d8a8d57b4ceac0329773d1
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Adobe Journey Optimizer consente di acquisire dati da sorgenti esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse sorgenti, come applicazioni di Adobe, archivi basati su cloud, database e molti altri.
 
-![](../assets/sources-home.png)
+![](assets/sources-home.png)
 
 Scopri i connettori sorgente e come configurarli in Journey Optimizer in questo video:
 

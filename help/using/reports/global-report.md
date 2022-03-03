@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -31,23 +31,23 @@ Ogni dashboard di reporting può essere modificato modificando il periodo di tem
 
 1. Dal rapporto Globale, seleziona un&#39;ora di inizio e di fine per eseguire il targeting di dati specifici.
 
-   ![](../assets/report_modify_1.png)
+   ![](assets/report_modify_1.png)
 
 1. Scegli se escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_2.png)
+   ![](assets/report_modify_2.png)
 
 1. Fai clic su **[!UICONTROL Modify]** per iniziare a personalizzare il dashboard.
 
-   ![](../assets/report_modify_3.png)
+   ![](assets/report_modify_3.png)
 
 1. Regolare le dimensioni dei widget trascinandone l&#39;angolo in basso a destra.
 
-   ![](../assets/report_modify_4.png)
+   ![](assets/report_modify_4.png)
 
 1. Fai clic su **[!UICONTROL Remove]** per rimuovere qualsiasi widget non è necessario.
 
-   ![](../assets/report_modify_5.png)
+   ![](assets/report_modify_5.png)
 
 1. Una volta soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Save]**.
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Ogni volta che un’offerta viene modificata, viene aggiornato il set di dati generato automaticamente per le offerte di fallback.
 
-![](../../assets/dataset-fallback.png)
+![](../assets/dataset-fallback.png)
 
 Il batch di successo più recente nel set di dati viene visualizzato a destra. La visualizzazione gerarchica dello schema per il set di dati viene visualizzata nel riquadro a sinistra.
 

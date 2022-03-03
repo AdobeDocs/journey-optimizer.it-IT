@@ -4,7 +4,7 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: e7db3204754b07b29f488c987c01d2a2378e70d9
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 24%
@@ -23,7 +23,7 @@ L’aggiunta di dati a Adobe Experience Platform è la base per la creazione di 
 
 La **Set di dati** nell&#39;area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente ti consente di esplorare i dati e creare set di dati.
 
-![](../assets/datasets-home.png)
+![](assets/datasets-home.png)
 
 Scopri come utilizzare l’interfaccia utente dei set di dati in [Panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
 
