@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 32113acec8df619efc024e555766cbf532720529
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '615'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,14 @@ Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Ad
 * Non è possibile aggiungere allegati a un messaggio e-mail con [!DNL Journey Optimizer].
 * Ccn e-mail non supportato in [!DNL Journey Optimizer].
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, quali [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
+
+## Limitazioni nelle pagine di destinazione {#limitations-lp}
+
+* Solo uno **Modulo** può essere utilizzato in una singola pagina primaria.
+* La **Modulo** non può essere utilizzato nelle pagine secondarie.
+* Non puoi aggiungere una preintestazione a una pagina di destinazione.
+
+<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## Limitazioni nei percorsi {#limitations-journeys}
 
