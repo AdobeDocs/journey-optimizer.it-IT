@@ -1,0 +1,177 @@
+---
+keywords: Journey Optimizer;home;argomenti popolari
+title: 'Journey Oprimizer: documentazione del prodotto'
+description: Centro assistenza prodotti Adobe Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
+
+---
+
+# Documentazione di Adobe [!DNL Journey Optimizer] {#cjm-documentation}
+
+![](using/assets/do-not-localize/banner-cjm.jpg)
+
+<table style="table-layout:fixed">
+<tr>
+  <td>
+    <div><strong>Introduzione</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <div>
+      <a href="using/start/get-started.md">Che cosa è[!DNL Journey Optimizer]?</a>
+    </div>
+    <p>Scopri le funzioni chiave e i casi d’uso
+    <p>
+    <div>
+      <a href="using/rn/release-notes.md">Note sulla versione</a>
+    </div>
+    <p>Nuove funzionalità, miglioramenti e correzioni più recenti
+   <p>
+    <div>
+      <a href="using/start/quick-start.md">Guida rapida</a>
+    </div>
+    <p>
+    Scopri come iniziare come amministratore, ingegnere dati o professionista di Journey
+    <p>
+    <p>
+    <div>
+      <a href="using/messages/design-emails.md">Progettare un contenuto e-mail</a>
+    </div>
+    <p>
+    Progettare una nuova e-mail o importare un contenuto HTML esistente
+    <p>
+    <div>
+      <a href="using/building-journeys/journeys-message.md">Inviare messaggi</a>
+    </div>
+    <p>Scopri come aggiungere messaggi push ed e-mail nei percorsi dei clienti
+    <p>
+    <div>
+    <a href="using/building-journeys/journeys-uc.md">Creare il primo percorso</a>
+    </div>
+    <p>Scopri come creare ed eseguire un percorso
+    <p>
+    <div>
+    <a href="using/configuration/get-started-configuration.md">Configurare [!DNL Journey Optimizer]</a>
+    </div>
+    <p>Scopri i passaggi chiave per configurare [!DNL Journey Optimizer]
+    <p>
+    <div>
+    <a href="using/administration/permissions-overview.md">Concedere l’accesso a [!DNL Journey Optimizer]</a>
+    </div>
+    <p>Definire e gestire le autorizzazioni assegnate agli utenti [!DNL Journey Optimizer]
+    <p>
+    <div>
+    <a href="using/offers/get-started/starting-offer-decisioning.md">Gestione delle decisioni</a>
+    </div>
+    <p>Crea offerte e fornisci la migliore offerta ed esperienza ai tuoi clienti
+    <p>
+    <p>
+    <div><strong>Risorse aggiuntive</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+    <li>
+      <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto Adobe Journey Optimizer</a>
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza di Adobe Journey Optimizer</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Domande frequenti su Adobe Journey Optimizer</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it" target="_blank">Documentazione di Adobe Experience Platform </a>
+    </li>
+    </div>
+    <div>
+      <li>
+      <a href="https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori di Adobe Experience Platform</a>
+    </li>
+    </div>
+  </td>
+   <td>
+   <div><strong>Collegamenti diretti alle risorse chiave</strong>
+    </div>
+    <p>
+    <em></em>
+    <p>
+    <p>GESTIONE PERCORSO</p>
+    <li>
+      <a href="using/building-journeys/journey-gs.md">Percorsi</a>
+    </li>
+    <li>
+      <a href="using/messages/create-message.md">Messaggi</a>
+    </li>
+    <p>
+    <p>GESTIONE DELLE DECISIONI</p>
+    <li>
+      <a href="using/offers/get-started/starting-offer-decisioning.md">Offerte</a>
+    </li>
+     <li>
+      <a href="using/offers/offer-library/key-steps.md">Componenti</a>
+    </li>
+    <p>
+    <p>GESTIONE DEI CONTENUTI</p>
+    <li>
+      <a href="using/messages/assets-essentials.md">Risorse</a>
+    </li>
+    <p>
+    <p>GESTIONE DATI</p>
+    <li>
+      <a href="using/start/get-started-schemas.md">Schemi</a>
+    </li>
+     <li>
+      <a href="using/start/get-started-datasets.md">Set di dati</a>
+    </li>
+        <li>
+      <a href="using/start/get-started-queries.md">Query</a>
+    </li>
+     <li>
+      <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it" target="_blank">Monitoraggio</a>
+    </li>
+    <p>
+    <p>CONNESSIONI</p>
+    <li>
+      <a href="using/start/get-started-sources.md">Origini</a>
+    </li>
+    <p>
+    <p>CLIENTE</p>
+    <li>
+      <a href="using/segment/about-segments.md">Segmenti</a>
+    </li>
+     <li>
+      <a href="using/start/get-started-profiles.md">Profili</a>
+    </li>
+    <li>
+      <a href="using/start/get-started-identity.md">Identità</a>
+    </li>
+    <p>
+    <p>AMMINISTRAZIONE</p>
+    <li>
+      <a href="using/configuration/about-data-sources-events-actions.md">Configurazioni </a>
+    </li>
+    <li>
+      <a href="using/configuration/get-started-configuration.md">Canali</a>
+    </li>
+     <li>
+      <a href="using/administration/sandboxes.md">Sandbox</a>
+    </li>
+  </td>
+</tr>
+</table>
