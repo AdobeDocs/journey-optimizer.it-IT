@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Sono disponibili i seguenti tipi di condizioni:
 * [Condizione data](#date_condition)
 * [Limite del profilo](#profile_cap)
 
-![](assets/journey49.png)
+![](../assets/journey49.png)
 
 ## Informazioni sull’attività Condizione {#about_condition}
 
@@ -31,13 +31,13 @@ Quando utilizzi più condizioni in un percorso, puoi definire etichette per ognu
 
 Fai clic su **[!UICONTROL Add a path]** per definire più condizioni. Per ogni condizione, dopo l’attività viene aggiunto un nuovo percorso nell’area di lavoro.
 
-![](assets/journey47.png)
+![](../assets/journey47.png)
 
 La progettazione dei percorsi ha effetti funzionali. Quando più percorsi sono definiti dopo una condizione, viene eseguito solo il primo percorso idoneo. Significa che puoi variare la definizione delle priorità dei percorsi posizionandoli uno sopra l’altro o sotto l’altro.
 
 Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un VIP&quot; e la condizione di un secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) passa questo passaggio, il primo percorso sarà scelto anche se questa persona è anche idoneo al secondo, perché il primo percorso è &quot;sopra&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
 
-![](assets/journey48.png)
+![](../assets/journey48.png)
 
 Puoi creare un altro percorso per tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni di suddivisione. Vedi [Divisione percentuale](#percentage_split).
 
@@ -46,7 +46,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 * E: un’intersezione di due criteri. Vengono presi in considerazione solo gli elementi che corrispondono a tutti i criteri.
 * OPPURE: un&#39;unione di due criteri. Vengono considerati gli elementi che corrispondono ad almeno uno dei due criteri.
 
-![](assets/journey64.png)
+![](../assets/journey64.png)
 
 Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo di segmenti nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le 
 
 Ciò ti consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Per informazioni sull’utilizzo dell’editor di espressioni, consulta [Documentazione di Adobe Journey Orchestration](expression/expressionadvanced.md). Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate che manipolano le raccolte o utilizzano origini dati che richiedono il passaggio di parametri. Consulta [questa pagina](../datasource/external-data-sources.md).
 
-![](assets/journey50.png)
+![](../assets/journey50.png)
 
 ## Condizione di tempo{#time_condition}
 
@@ -73,7 +73,7 @@ Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al g
 >
 >Il fuso orario non è più specifico per una condizione e ora è definito a livello di percorso nelle proprietà del percorso. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
-![](assets/journey51.png)
+![](../assets/journey51.png)
 
 ## Divisione percentuale {#percentage_split}
 
@@ -85,7 +85,7 @@ In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto 
 >
 >Tieni presente che non esiste un pulsante per aggiungere un percorso nella condizione di suddivisione in percentuale. Il numero di percorsi dipenderà dal numero di suddivisioni. In condizioni di suddivisione, non è possibile aggiungere un percorso per altri casi in quanto non può accadere. Le persone entreranno sempre in uno dei percorsi divisi.
 
-![](assets/journey52.png)
+![](../assets/journey52.png)
 
 ## Condizione data {#date_condition}
 
@@ -95,7 +95,7 @@ Questo ti consente di definire un flusso diverso in base alla data. Ad esempio, 
 >
 >Il fuso orario non è più specifico per una condizione e ora è definito a livello di percorso nelle proprietà del percorso. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
-![](assets/journey53.png)
+![](../assets/journey53.png)
 
 ## Limite del profilo {#profile_cap}
 
@@ -116,7 +116,7 @@ Per i percorsi vivi, le soglie da considerare per garantire il raggiungimento de
 
 Il limite del profilo non viene preso in considerazione in modalità di test.
 
-![](assets/profile-cap-condition.png)
+![](../assets/profile-cap-condition.png)
 
 ## Utilizzo di segmenti nelle condizioni {#using-a-segment}
 
@@ -125,15 +125,15 @@ Questa sezione spiega come utilizzare un segmento in una condizione di percorso.
 Per utilizzare un segmento in una condizione di percorso, effettua le seguenti operazioni:
 
 1. Apri un percorso, rilascia una **[!UICONTROL Condition]** e scegli la **Condizione origine dati**.
-   ![](assets/journey47.png)
+   ![](../assets/journey47.png)
 
 1. Fai clic su **[!UICONTROL Add a path]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic sul pulsante **[!UICONTROL Expression]** campo .
 
-   ![](assets/segment3.png)
+   ![](../assets/segment3.png)
 
 1. Sul lato sinistro, svolgersi **[!UICONTROL Segments]** nodo. Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione sul segmento è vera.
 
-   ![](assets/segment4.png)
+   ![](../assets/segment4.png)
 
    >[!NOTE]
    >

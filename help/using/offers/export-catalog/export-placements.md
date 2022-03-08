@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Ogni volta che un’offerta viene modificata, il set di dati generato automaticamente per i posizionamenti viene aggiornato.
 
-![](../assets/dataset-placements.png)
+![](../../assets/dataset-placements.png)
 
 Il batch di successo più recente nel set di dati viene visualizzato a destra. La visualizzazione gerarchica dello schema per il set di dati viene visualizzata nel riquadro a sinistra.
 

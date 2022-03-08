@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 5%
@@ -19,7 +19,7 @@ Lo scopo di questo caso d’uso è quello di creare un percorso per inviare un m
 
 In questo esempio, la **[!UICONTROL Consent and Preference Details]** gruppo di campi da [!DNL Adobe Experience Platform] viene utilizzato. Per trovare questo gruppo di campi, dal **[!UICONTROL Data Management]** menu, scegli **[!UICONTROL Schemas]**. Sulla **[!UICONTROL Field groups]** immettere il nome del gruppo di campi nel campo di ricerca.
 
-![Questo gruppo di campi include l&#39;elemento subscriptions](assets/consent-and-preference-details-field-group.png)
+![Questo gruppo di campi include l&#39;elemento subscriptions](../assets/consent-and-preference-details-field-group.png)
 
 Per configurare questo percorso, effettua le seguenti operazioni:
 
@@ -29,7 +29,7 @@ Per configurare questo percorso, effettua le seguenti operazioni:
 
    1. Fai clic sul pulsante **[!UICONTROL Enable parameter override]** a destra del **[!UICONTROL Address]** quindi fai clic sul campo **[!UICONTROL Edit]** icona.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![](../assets/message-to-subscribers-uc-1.png)
 
       Per poter modificare l’indirizzo e-mail, devi aver pubblicato il messaggio in precedenza.
 
@@ -52,10 +52,10 @@ Per configurare questo percorso, effettua le seguenti operazioni:
 
       Ulteriori informazioni [riferimenti ai campi](expression/field-references.md) nelle espressioni.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![](../assets/message-to-subscribers-uc-2.png)
 
    1. In **[!UICONTROL Add an expression]** finestra di dialogo, fai clic su **[!UICONTROL Ok]**.
 
-   ![](assets/message-to-subscribers-uc-3.png)
+   ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Termina il percorso con un **[!UICONTROL End]** attività.

@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto
 >
 >Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Vedi questo [sezione](../condition-activity.md#about_condition)
 
-![](../assets/journey-properties.png)
+![](../../assets/journey-properties.png)
 
 Troverete informazioni, ad esempio:
 

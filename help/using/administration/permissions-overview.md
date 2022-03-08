@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 7da910df3eda84884c7cda56af6ce5dcabc3a3db
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 19%
@@ -27,4 +27,4 @@ Gestione utente in [!DNL Journey Optimizer] si basa su tre concetti:
 
 Ogni concetto può essere gestito da **[!UICONTROL Product administrators]** che hanno accesso ad Admin Console. [Ulteriori informazioni su Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html).
 
-![](assets/do-not-localize/permissions_2.png)
+![](../assets/do-not-localize/permissions_2.png)

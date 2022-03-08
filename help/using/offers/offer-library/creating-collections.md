@@ -1,12 +1,12 @@
 ---
 title: Creare le raccolte
-description: Learn how to organize offers using collections
+description: Scopri come organizzare le offerte utilizzando le raccolte
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -15,50 +15,50 @@ ht-degree: 3%
 
 # Creare le raccolte {#create-collections}
 
-Collections allows you to organize your offers by regrouping them into categories of your choice. You can, for example, create a &quot;sport&quot; collection that will contain sport-related offers only.
+Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una collezione &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-**[!UICONTROL Offers]**
+L’elenco delle raccolte di offerte è accessibile nella **[!UICONTROL Offers]** menu.
 
-![](../assets/collections_list.png)
+![](../../assets/collections_list.png)
 
-You can create two types of collections:
+Puoi creare due tipi di raccolte:
 
-* **** These collections are updated automatically. For example, if a new offer is created with the selected tag, it will automatically be added to the collection.
+* **Raccolte dinamiche** sono raccolte di offerte basate su tag. Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il tag selezionato, questa verrà aggiunta automaticamente alla raccolta.
 
-* **** The collection can only be updated by manually adding more offers to it.
+* **Raccolte statiche** sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. È possibile aggiornare la raccolta solo aggiungendo manualmente ulteriori offerte.
 
-To create a collection, follow these steps:
+Per creare una raccolta, effettua le seguenti operazioni:
 
-1. **[!UICONTROL Collections]****[!UICONTROL Create collection]**
+1. Vai a **[!UICONTROL Collections]** scheda , quindi fai clic su **[!UICONTROL Create collection]**.
 
-1. Specify the name and type of collection to create.
+1. Specifica il nome e il tipo di raccolta da creare.
 
-   ![](../assets/collection_create.png)
+   ![](../../assets/collection_create.png)
 
-1. **[!UICONTROL Save]** All the offers with the selected tag will be saved in the collection.
+1. Per creare una raccolta dinamica, utilizza il riquadro a sinistra per selezionare il tag delle offerte da aggiungere alla raccolta, quindi fai clic su **[!UICONTROL Save]**. Tutte le offerte con il tag selezionato verranno salvate nella raccolta.
 
-   [](../offer-library/creating-tags.md)
+   Per ulteriori informazioni sulla creazione dei tag, consulta [Creare tag](../offer-library/creating-tags.md).
 
-   ![](../assets/dynamic_collection.png)
+   ![](../../assets/dynamic_collection.png)
 
-1. To create a static collection, use the left pane to filter the list of offers (status, tag, date, channel, content type), then select the offers to add to the collection.
+1. Per creare una raccolta statica, utilizza il riquadro a sinistra per filtrare l’elenco delle offerte (stato, tag, data, canale, tipo di contenuto), quindi seleziona le offerte da aggiungere alla raccolta.
 
-   ![](../assets/static_collection.png)
+   ![](../../assets/static_collection.png)
 
    >[!NOTE]
    >
-   >Static collections are not updated automatically. To add offers to a static collection, you need to edit it and add them manually.
+   >Le raccolte statiche non vengono aggiornate automaticamente. Per aggiungere offerte a una raccolta statica, devi modificarla e aggiungerla manualmente.
 
-1. Once the collection is created, it displays in the list. You can select it to edit or delete it.
+1. Una volta creata la raccolta, questa viene visualizzata nell’elenco. È possibile selezionarlo per modificarlo o eliminarlo.
 
-   ![](../assets/collection_created.png)
+   ![](../../assets/collection_created.png)
 
-## Tutorial video {#video}
+## Video tutorial {#video}
 
 >[!NOTE]
 >
->This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
+>Questo video si applica al servizio di applicazione Offer Decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)

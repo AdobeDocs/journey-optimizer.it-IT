@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se un messaggio viene pubblicato ma non è ancora attivato da un percorso, non v
 >
 >Se un messaggio è stato utilizzato in diversi percorsi, viene visualizzata una riga al percorso per ogni esecuzione.
 
-Per impostazione predefinita, i messaggi vengono visualizzati a partire dalla data di esecuzione più recente. Fai clic sul pulsante **[!UICONTROL Filters]** per cercare i messaggi in base al canale, alla data di inizio e/o alla data di fine. Puoi anche scegliere di escludere gli eventi di test dal tuo **Elenco esecuzioni**.
+Per impostazione predefinita, i messaggi vengono visualizzati a partire dalla data di esecuzione più recente. Fai clic sul pulsante **[!UICONTROL Filters]** per cercare i messaggi in base al canale, alla data di inizio e/o alla data di fine.
 
 ![](assets/message-execution-tab-filters.png)
 

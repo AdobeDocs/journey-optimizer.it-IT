@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -31,6 +31,6 @@ Affinché questo funzioni, devi attivare, in Adobe Experience Platform, la suite
 
 Questo abilita il connettore di origine Analytics per la suite di rapporti. Ogni volta che i dati entrano, vengono trasformati in un evento Experience e inviati ad Adobe Experience Platform.
 
-![](assets/jo-event9.png)
+![](../assets/jo-event9.png)
 
 Ulteriori informazioni sul connettore sorgente Adobe Analytics in  [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it){target=&quot;_blank&quot;} e [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it){target=&quot;_blank&quot;}.

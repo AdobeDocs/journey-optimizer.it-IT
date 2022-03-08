@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -38,7 +38,7 @@ Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
 Per farlo, nella **[!UICONTROL Journey Properties]** selezionare un fuso orario.
 
-![](assets/journey72.png)
+![](../assets/journey72.png)
 
 ## Utilizzo dei profili per definire il fuso orario percorso {#timezone-from-profiles}
 
@@ -50,7 +50,7 @@ Se il profilo della persona non contiene un fuso orario, il fuso orario recupera
 
 Per farlo, in **[!UICONTROL Properties]**, controlla **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
-![](assets/journey73.png)
+![](../assets/journey73.png)
 
 ## Uso dei fusi orari nelle espressioni {#timezone-in-expressions}
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -23,7 +23,7 @@ La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disp
 
 Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l&#39;attività della condizione, l&#39;attesa e la reazione.
 
-![](assets/journey38.png)
+![](../assets/journey38.png)
 
 La **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consente di visualizzare i seguenti filtri:
 
@@ -35,17 +35,17 @@ La **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consente di vi
 
 La **tela** è la zona centrale del designer del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro.
 
-![](assets/journey39.png)
+![](../assets/journey39.png)
 
 La **riquadro di configurazione delle attività** viene visualizzato quando si fa clic su un’attività nella palette. Compila i campi richiesti. Fai clic sul pulsante **[!UICONTROL Delete]** per eliminare l’attività. Fai clic su **[!UICONTROL Cancel]** annullare le modifiche o **[!UICONTROL Ok]** per confermare. Per eliminare le attività, puoi anche selezionare una (o più) attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
 
 Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visualizzare campi di sola lettura, fai clic sul pulsante **Mostra campi di sola lettura** in alto a sinistra nel riquadro di configurazione dell’attività. Questa impostazione si applica a tutte le attività in tutti i percorsi.
 
-![](assets/journey59bis.png)
+![](../assets/journey59bis.png)
 
 A seconda dello stato del percorso, è possibile eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante del registro della modalità di prova viene visualizzato quando viene attivata la modalità di prova.
 
-![](assets/journey41.png)
+![](../assets/journey41.png)
 
 ## Avvio del percorso
 
@@ -85,7 +85,7 @@ Troverai anche le azioni personalizzate configurate per l’invio di messaggi co
 
 Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) ti consentono di definire un’azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell’attività, seleziona la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l’attività . La durata del timeout è definita nelle proprietà del percorso (vedi [questa pagina](../building-journeys/journey-gs.md#change-properties) da un utente amministratore. Ad esempio, se l’invio di un’e-mail richiede troppo tempo o si verifica un errore, puoi decidere di inviare un SMS.
 
-![](assets/journey42.png)
+![](../assets/journey42.png)
 
 Varie attività (evento, azione, attesa) ti consentono di aggiungere diversi percorsi dopo di essi. A questo scopo, posiziona il cursore sull’attività e fai clic sul simbolo &quot;+&quot;. Solo le attività evento e attesa possono essere impostate in parallelo. Se più eventi sono impostati in parallelo, il percorso scelto sarà quello del primo evento che si verifica.
 
@@ -93,11 +93,11 @@ Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo ind
 
 Per eliminare il percorso, posiziona il cursore su di esso e fai clic sul pulsante **[!UICONTROL Delete path]** icona.
 
-![](assets/journey42ter.png)
+![](../assets/journey42ter.png)
 
 Nell’area di lavoro, quando due attività vengono disconnesse, viene visualizzato un avviso. Posiziona il cursore sull’icona di avviso per visualizzare il messaggio di errore. Per risolvere il problema, sposta semplicemente l’attività disconnessa e collegala all’attività precedente.
 
-![](assets/canvas-disconnected.png)
+![](../assets/canvas-disconnected.png)
 
 ## Copia e incolla delle attività {#copy-paste}
 
@@ -116,9 +116,9 @@ Di seguito sono riportati i passaggi per copiare/incollare le attività:
 
 1. Apri un percorso.
 1. Seleziona le attività da copiare spostando il mouse mentre fai clic. È inoltre possibile fare clic su ogni attività premendo il pulsante **Ctrl/Comando** chiave. Utilizzo **Ctrl/Comando + A** se desideri selezionare tutte le attività.
-   ![](assets/copy-paste1.png)
+   ![](../assets/copy-paste1.png)
 1. Press **Ctrl/Comando + C**.
 Se desideri copiare una sola attività, puoi fare clic su di essa e utilizzare la **Copia** in alto a sinistra nel riquadro di configurazione dell’attività.
-   ![](assets/copy-paste2.png)
+   ![](../assets/copy-paste2.png)
 1. In qualsiasi percorso, premere **Ctrl/Comando + V** per incollare le attività senza collegarle a un nodo esistente. Le attività inviate vengono collocate nello stesso ordine. Dopo essere state incollate, le attività rimangono selezionate in modo da poterle spostare facilmente. È inoltre possibile posizionare il cursore su un segnaposto vuoto e premere **Ctrl/Comando + V**. Le attività inviate saranno collegate al nodo .
-   ![](assets/copy-paste3.png)
+   ![](../assets/copy-paste3.png)

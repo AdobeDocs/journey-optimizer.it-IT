@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 32113acec8df619efc024e555766cbf532720529
+source-git-commit: cf4bd9f8e76d5b1f43c45f68f2a08403c5b9c304
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -29,9 +29,8 @@ Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Ad
 
 * Solo uno **Modulo** può essere utilizzato in una singola pagina primaria.
 * La **Modulo** non può essere utilizzato nelle pagine secondarie.
+* Non è possibile selezionare la **Codice personalizzato** durante la progettazione di una pagina principale di destinazione.
 * Non puoi aggiungere una preintestazione a una pagina di destinazione.
-
-<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## Limitazioni nei percorsi {#limitations-journeys}
 

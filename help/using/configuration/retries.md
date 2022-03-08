@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -35,11 +35,11 @@ Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi mo
 
 1. Fai clic sul pulsante **[!UICONTROL Edit suppression rules]**.
 
-   ![](assets/suppression-list-edit-retries.png)
+   ![](../assets/suppression-list-edit-retries.png)
 
 1. Modifica il numero consentito di mancati recapiti consecutivi in base alle tue esigenze.
 
-   ![](assets/suppression-list-edit-soft-bounces.png)
+   ![](../assets/suppression-list-edit-soft-bounces.png)
 
    È necessario immettere un valore intero compreso tra 1 e 20, il che significa che il numero minimo di tentativi è 1 e il numero massimo è 20.
 

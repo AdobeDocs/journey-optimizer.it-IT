@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -20,7 +20,7 @@ L’offerta di fallback viene inviata ai clienti se non sono idonei per altre of
 
 L’elenco delle offerte di fallback è accessibile nella **[!UICONTROL Offers]** menu.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
@@ -30,27 +30,27 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
 1. Fai clic su **[!UICONTROL Create offer]**, quindi seleziona **[!UICONTROL Fallback offer]**.
 
-   ![](../assets/create_fallback.png)
+   ![](../../assets/create_fallback.png)
 
 1. Specifica il nome dell’offerta di fallback. Puoi anche associare uno o più tag esistenti, per effettuare ricerche e organizzare più facilmente la Libreria offerte.
 
-   ![](../assets/fallback_details.png)
+   ![](../../assets/fallback_details.png)
 
 1. Crea una o più rappresentazioni per l’offerta di fallback. A questo scopo, trascina e rilascia i posizionamenti dal riquadro a sinistra, ad esempio durante la creazione di un’offerta personalizzata. Vedi [Creare offerte personalizzate](../offer-library/creating-personalized-offers.md).
 
-   ![](../assets/fallback_content.png)
+   ![](../../assets/fallback_content.png)
 
 1. Una volta aggiunte le rappresentazioni dell’offerta di fallback, viene visualizzato un riepilogo. Se tutto è configurato correttamente e la tua offerta di fallback è pronta per essere presentata ai clienti, fai clic su **[!UICONTROL Finish]**, quindi seleziona **[!UICONTROL Save and approve]**.
 
    Puoi anche salvare l’offerta di fallback come bozza, per modificarla e approvarla in un secondo momento.
 
-   ![](../assets/fallback_review.png)
+   ![](../../assets/fallback_review.png)
 
 1. L’offerta di fallback viene visualizzata nell’elenco con la **[!UICONTROL Live]** o **[!UICONTROL Draft]** a seconda che sia stato approvato o meno nel passaggio precedente.
 
    È ora pronto per essere consegnato ai clienti. È possibile selezionarlo per visualizzarne le proprietà e modificarlo. <!-- no suppression? -->
 
-   ![](../assets/fallback_created.png)
+   ![](../../assets/fallback_created.png)
 
 ## Video tutorial {#video}
 

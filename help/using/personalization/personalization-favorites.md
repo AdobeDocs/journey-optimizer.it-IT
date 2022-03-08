@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '90'
 ht-degree: 26%
 
 ---
@@ -19,7 +19,9 @@ L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rap
 
 ![](assets/favorite-option.png)
 
-Per accedere agli elementi preferiti, utilizza **[!UICONTROL Favorites]** nel riquadro a sinistra.
+Per accedere agli elementi preferiti, utilizza la **[!UICONTROL Favorites]** nel menu a discesa.
+
+![](assets/favorite-menu.png)
 
 Da questo elenco puoi aggiungere rapidamente l’oggetto di personalizzazione all’espressione corrente.
 

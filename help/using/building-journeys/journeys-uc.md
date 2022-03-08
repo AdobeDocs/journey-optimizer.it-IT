@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Questa sezione presenta un caso d’uso che combina un segmento di lettura, un evento, eventi di reazione e messaggi e-mail/push.
 
-![](assets/jo-uc1.png)
+![](../assets/jo-uc1.png)
 
 ## Descrizione del caso d’uso
 
@@ -53,7 +53,7 @@ Per ulteriori informazioni sui segmenti, consulta questo [page](../segment/about
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-   ![](assets/add-attributes.png)
+   ![](../assets/add-attributes.png)
 
 Il segmento viene ora creato e pronto per essere utilizzato nel percorso. Utilizzo di un **Leggi segmento** attività , puoi fare in modo che tutti gli individui appartenenti al segmento entrino nel percorso .
 
@@ -77,7 +77,7 @@ A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazio
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-   ![](assets/jo-uc2.png)
+   ![](../assets/jo-uc2.png)
 
 L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utilizzando l’attività evento corrispondente, puoi attivare un’azione ogni volta che un cliente effettua un acquisto.
 
@@ -89,7 +89,7 @@ Per questo caso d’uso, è necessario creare tre messaggi:
 * un messaggio push di ringraziamento
 * un messaggio di follow-up e-mail
 
-![](assets/jo-uc3.png)
+![](../assets/jo-uc3.png)
 
 Fai riferimento a questo [sezione](../segment/about-segments.md) per scoprire come progettare e pubblicare questi messaggi.
 
@@ -97,11 +97,11 @@ Fai riferimento a questo [sezione](../segment/about-segments.md) per scoprire co
 
 1. Avvia il percorso con un **Leggi segmento** attività. Seleziona il segmento creato in precedenza. Tutti i singoli utenti appartenenti al segmento entrano nel percorso.
 
-   ![](assets/jo-uc4.png)
+   ![](../assets/jo-uc4.png)
 
 1. Rilascia un **Messaggio** e seleziona il primo messaggio push ed e-mail. Questo messaggio viene inviato a tutti gli individui del percorso.
 
-   ![](assets/jo-uc5.png)
+   ![](../assets/jo-uc5.png)
 
 1. Posiziona il cursore sull’attività del messaggio e fai clic sul simbolo &quot;+&quot; per creare un nuovo percorso.
 

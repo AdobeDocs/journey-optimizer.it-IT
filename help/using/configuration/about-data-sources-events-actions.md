@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 56%
@@ -17,7 +17,7 @@ ht-degree: 56%
 
 Per inviare messaggi con percorsi, devi configurare **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**.
 
-![](assets/admin-menu.png)
+![](../assets/admin-menu.png)
 
 ## Origini dati {#data-sources}
 
@@ -39,7 +39,7 @@ Quando si definisce il [payload dell’evento](../event/about-creating.md#define
 
 Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con “eVar” e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, consulta la sezione [Guida per gli sviluppatori del Registro di sistema dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target=&quot;_blank&quot;}.
 
-![](assets/xdm-from-descriptors.png)
+![](../assets/xdm-from-descriptors.png)
 
 Se è disponibile un nome descrittivo, il campo verrà visualizzato come `<friendly-name>(<name>)`. Se non è disponibile alcun nome descrittivo, verrà mostrato il nome visualizzato, ad esempio `<display-name>(<name>)`. Se non è definito nessuno dei due, verrà visualizzato solo il nome tecnico del campo `<name>`.
 

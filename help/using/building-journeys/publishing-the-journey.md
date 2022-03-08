@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
@@ -24,6 +24,6 @@ Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le
 1. Prima di pubblicare il percorso, verifica che sia valido e che non vi siano errori. Non potrai pubblicare un percorso con errori. Vedi [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). È inoltre consigliabile testare il percorso prima della pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
 1. Per pubblicare il percorso, fai clic sul pulsante **[!UICONTROL Publish]** disponibile nel menu a discesa in alto a destra.
 
-   ![](assets/journeyuc1_18.png)
+   ![](../assets/journeyuc1_18.png)
 
 Quando il percorso viene pubblicato, è in modalità di sola lettura.

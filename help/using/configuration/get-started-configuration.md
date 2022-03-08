@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -36,15 +36,15 @@ Per poter creare i tuoi percorsi e inviare messaggi, devi seguire questi passagg
 
 1. **Delega sottodomini**: per utilizzare un nuovo sottodominio in Journey Optimizer, il primo passaggio consiste nel delegarlo. [Ulteriori informazioni](about-subdomain-delegation.md)
 
-   ![](assets/subdomain.png)
+   ![](../assets/subdomain.png)
 
 1. **Creare pool IP**: migliora il recapito e la reputazione delle e-mail raggruppando gli indirizzi IP forniti con la tua istanza. [Ulteriori informazioni](ip-pools.md)
 
-   ![](assets/ip-pool.png)
+   ![](../assets/ip-pool.png)
 
 1. **Configura percorsi**: per generare percorsi, devi configurare **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. [Ulteriori informazioni](about-data-sources-events-actions.md)
 
-   ![](assets/admin-menu.png)
+   ![](../assets/admin-menu.png)
 
    * La **Origine dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. Ulteriori informazioni su Origini dati in questo [sezione](../datasource/about-data-sources.md)
 

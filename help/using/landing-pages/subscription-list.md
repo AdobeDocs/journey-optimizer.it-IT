@@ -1,80 +1,68 @@
 ---
 title: Creare un elenco di abbonamenti
-description: Learn how to set up a subscription list in Journey Optimizer
+description: Scopri come impostare un elenco di abbonamenti in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 3%
 
 ---
 
-# Subscription lists {#create-subscription-list}
+# Elenchi di iscrizione {#create-subscription-list}
 
-## What is a subscription list? {#subscription-list-definition}
+## Che cos’è un elenco di abbonamenti? {#subscription-list-definition}
 
-A subscription service refers to marketing goods and services provided to customers who have opted in to receive communications on a specific subject/event/interest/etc. on an ongoing basis. [!DNL Journey Optimizer]
+Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti ai clienti che hanno acconsentito a ricevere comunicazioni su un soggetto/evento/interesse/ecc specifico. su base continuativa. In [!DNL Journey Optimizer], questi clienti con consenso vengono raccolti in un elenco di sottoscrizioni.
 
-A subscription service can be:
+Un servizio di abbonamento può essere:
 
-* a newsletter, for example: &quot;Running series&quot;
-* an event, for example: &quot;Summit 2021&quot;
-* a webinar, for example: &quot;Learn more about crypto&quot;
-* an interest on a particular product/sport/service/etc., for example: &quot;Interested to buy a house in the next 12 months&quot;
-* a preference on how to be notified, for example: &quot;Receive new song notifications on email&quot;
+* una newsletter, ad esempio: &quot;Serie in esecuzione&quot;
+* un evento, ad esempio: &quot;Vertice 2021&quot;
+* un webinar, ad esempio: &quot;Ulteriori informazioni su crypto&quot;
+* un interesse per un particolare prodotto/sport/servizio/ecc., ad esempio: &quot;Interessato a comprare una casa nei prossimi 12 mesi&quot;
+* una preferenza sulle modalità di notifica, ad esempio: &quot;Ricevi nuove notifiche sulle canzoni via e-mail&quot;
 
-[](create-lp.md) [](lp-use-cases.md#subscription-to-a-service)
+I profili possono essere aggiunti a un elenco di abbonamenti tramite un [pagina di destinazione](create-lp.md). Un esempio è presentato in [questa sezione](lp-use-cases.md#subscription-to-a-service).
 
-## Define a subscription list {#define-subscription-list}
+## Definire un elenco di sottoscrizione {#define-subscription-list}
 
-To create a subscription list, follow the steps below.
+Per creare un elenco di iscrizioni, segui i passaggi riportati di seguito.
 
-1. **[!UICONTROL Customer]****[!UICONTROL Subscription list]**
+1. Per accedere agli elenchi di sottoscrizione, selezionare **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
-   ![](assets/lp_subscription-lists.png)
+   ![](../assets/lp_subscription-lists.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Create subscription list]**.
 
-   ![](assets/lp_create-subscription-list.png)
+   ![](../assets/lp_create-subscription-list.png)
 
-1. Add a name and a description. These fields are mandatory.
+1. Aggiungi un nome e una descrizione. Questi campi sono obbligatori.
 
-1. You can define a start date and end date.
+1. Puoi definire una data di inizio e una data di fine.
 
-   ![](assets/lp_subscription-list-dates.png)
+   ![](../assets/lp_subscription-list-dates.png)
 
 1. Fai clic su **[!UICONTROL Save]**.
 
-The list displays all the subscription lists created. You can filter them based on the creation date or modification date, and their status.
+Nell’elenco vengono visualizzati tutti gli elenchi di sottoscrizioni creati. Puoi filtrarli in base alla data di creazione o di modifica e al relativo stato.
 
-![](assets/lp_subscription-filters.png)
+![](../assets/lp_subscription-filters.png)
 
-The possible statuses are as follows:
+Gli stati possibili sono i seguenti:
 
-* **[!UICONTROL Not started]** The susbscribed profiles will not receive yet communications relating to this subscription list.
-* **[!UICONTROL Live]**
-* **[!UICONTROL Expired]** Any subscribed profile will not receive any more communications relating to this subscription list.
+* **[!UICONTROL Not started]**: Hai definito una data di inizio successiva al giorno corrente. I profili abbonati non riceveranno ancora comunicazioni relative a questo elenco di abbonamenti.
+* **[!UICONTROL Live]**: Il giorno corrente è compreso tra la data di inizio e la data di fine dell’elenco degli abbonamenti oppure non hai definito le date di fine/inizio, il che significa che l’elenco degli abbonamenti è sempre attivo.
+* **[!UICONTROL Expired]**: La data di fine viene passata, pertanto l’elenco di sottoscrizione non è più valido. Qualsiasi profilo sottoscritto non riceverà altre comunicazioni relative a questo elenco di abbonamenti.
 
-Once the subscription list is created, you can use it in a landing page. The profiles who opt in through the landing page form will be added to the list. [Ulteriori informazioni](design-lp.md)
+Una volta creato l’elenco di sottoscrizioni, puoi utilizzarlo in una pagina di destinazione. I profili che effettuano il consenso tramite il modulo della pagina di destinazione verranno aggiunti all’elenco. [Ulteriori informazioni](design-lp.md)
 
-[](../building-journeys/journey-gs.md#jo-build)
+È inoltre possibile utilizzare gli elenchi di sottoscrizioni come segmenti quando [percorsi edilizi](../building-journeys/journey-gs.md#jo-build) e aggiunta di personalizzazione.
 
 >[!NOTE]
 >
->You can monitor your subscription list impacts through specific reports. [Ulteriori informazioni](subscription-report.md)
-
-<!--
-
-**Questions**
-
-* Can't see the newly created subscription list in UI because their name included spacing > bug - to follow up (should be fixed for Dec. release)
-
-* Can you update the subscription list in a way other than through a LP? Not in UI but with APIs > to follow up with Fred
-
--->
+>Puoi monitorare l’impatto dell’elenco di abbonamenti tramite report specifici. [Ulteriori informazioni](subscription-report.md)

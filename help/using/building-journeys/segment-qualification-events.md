@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Informazioni sugli eventi di qualificazione dei segmenti{#about-segment-qualification}
 
-Questa attività consente al tuo percorso di ascoltare le entrate e le uscite dei profili nei segmenti Adobe Experience Platform per consentire ai singoli utenti di entrare o proseguire in un percorso. For more information on segment creation, refer to this [section](../segment/about-segments.md).
+Questa attività consente al tuo percorso di ascoltare le entrate e le uscite dei profili nei segmenti Adobe Experience Platform per consentire ai singoli utenti di entrare o proseguire in un percorso. Per ulteriori informazioni sulla creazione di segmenti, consulta questo [sezione](../segment/about-segments.md).
 
 Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi fare entrare tutti i nuovi clienti in argento in un percorso e inviare loro una serie di messaggi personalizzati.
 
@@ -27,28 +27,28 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
 >
 >Tieni presente che i segmenti Adobe Experience Platform vengono calcolati una volta al giorno (**batch** segmenti) o in tempo reale (**trasmesso** segmenti, utilizzando l’opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
 >
->If the selected segment is streamed, the individuals belonging to this segment will potentially enter the journey in real-time. Se il segmento è batch, le persone appena qualificate per questo segmento potranno potenzialmente entrare nel percorso quando il calcolo del segmento viene eseguito su Adobe Experience Platform.
+>Se il segmento selezionato viene trasmesso in streaming, i singoli utenti appartenenti a questo segmento potrebbero accedere al percorso in tempo reale. Se il segmento è batch, le persone appena qualificate per questo segmento potranno potenzialmente entrare nel percorso quando il calcolo del segmento viene eseguito su Adobe Experience Platform.
 
 
 1. Apri **[!UICONTROL Events]** categoria e rilascia a **[!UICONTROL Segment Qualification]** nell’area di lavoro.
 
-   ![](assets/segment5.png)
+   ![](../assets/segment5.png)
 
-1. Add a **[!UICONTROL Label]** to the activity. Questo passaggio è facoltativo.
+1. Aggiungi un **[!UICONTROL Label]** all’attività . Questo passaggio è facoltativo.
 
 1. Fai clic in **[!UICONTROL Segment]** e seleziona i segmenti che desideri sfruttare.
 
    >[!NOTE]
    >
-   >Note that you can customize the columns displayed in the list and sort them.
+   >È possibile personalizzare e ordinare le colonne visualizzate nell’elenco.
 
-   ![](assets/segment6.png)
+   ![](../assets/segment6.png)
 
    Una volta aggiunto il segmento, il **[!UICONTROL Copy]** consente di copiarne il nome e l’ID:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![](../assets/segment-copy.png)
 
 1. In **[!UICONTROL Behaviour]** scegli se desideri ascoltare le entrate, le uscite o entrambi dei segmenti.
 
@@ -56,39 +56,39 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
    >
    >Tieni presente che **[!UICONTROL Enter]** e **[!UICONTROL Exit]** corrispondono **Realizzato** e **Uscita** stati di partecipazione al segmento da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
-1. Seleziona uno spazio dei nomi. This is only needed if the event is positioned as the first step of the journey.
+1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
 
-   ![](assets/segment7.png)
+   ![](../assets/segment7.png)
 
 Il payload contiene le seguenti informazioni contestuali, utilizzabili in condizioni e azioni:
 
-* the behavior (entrance, exit)
-* the timestamp of qualification
-* the segment id
+* il comportamento (entrata, uscita)
+* la marca temporale della qualifica
+* id del segmento
 
 Quando si utilizza l’editor di espressioni in una condizione o azione che segue un **[!UICONTROL Segment Qualification]** , puoi accedere al **[!UICONTROL SegmentQualification]** nodo. Puoi scegliere tra le **[!UICONTROL Last qualification time]** e **[!UICONTROL status]** (entrare o uscire).
 
 Vedi [Attività condizione](../building-journeys/condition-activity.md#about_condition).
 
-![](assets/segment8.png)
+![](../assets/segment8.png)
 
-Un nuovo percorso che include un evento di qualificazione dei segmenti è operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all’intervallo di aggiornamento della cache del servizio dedicato. Therefore, you must wait ten minutes before using this journey.
+Un nuovo percorso che include un evento di qualificazione dei segmenti è operativo dieci minuti dopo la pubblicazione. Questo intervallo di tempo corrisponde all’intervallo di aggiornamento della cache del servizio dedicato. Pertanto, è necessario attendere dieci minuti prima di utilizzare questo percorso.
 
 ## Best practice {#best-practices-segments}
 
 La **[!UICONTROL Segment Qualification]** l’attività consente l’ingresso immediato in percorsi di persone qualificate o squalificate da un segmento Adobe Experience Platform.
 
-The reception speed of this information is high. Measurements made show a speed of 10 000 events received per seconds. Di conseguenza, è necessario assicurarsi di comprendere come possono accadere picchi di ingresso, come evitarli e come rendere il percorso pronto per loro.
+La velocità di ricezione di queste informazioni è elevata. Le misurazioni effettuate mostrano una velocità di 10 000 eventi ricevuti al secondo. Di conseguenza, è necessario assicurarsi di comprendere come possono accadere picchi di ingresso, come evitarli e come rendere il percorso pronto per loro.
 
 ### Segmenti in batch{#batch-speed-segment-qualification}
 
 Quando si utilizza la qualificazione dei segmenti per un segmento batch, si noti che al momento del calcolo giornaliero si verifica un picco di entrata. La dimensione del picco dipenderà dal numero di persone che entrano (o escono) quotidianamente nel segmento.
 
-Moreover, if the batch segment is newly created and immediately used in a journey, the first batch of calculation might make a very large number of individuals enter the journey.
+Inoltre, se il segmento batch viene creato di recente e utilizzato immediatamente in un percorso, il primo batch di calcoli potrebbe fare entrare un numero molto elevato di persone nel percorso.
 
 ### Segmenti in streaming{#streamed-speed-segment-qualification}
 
-When using segment qualification for streamed segments, there is less risk of getting large peaks of entrances/exits due to the continuous evaluation of the segment. Tuttavia, se la definizione del segmento porta a rendere un grande volume di clienti qualificati allo stesso tempo, potrebbe esserci anche un picco.
+Quando si utilizza la qualifica del segmento per i segmenti in streaming, si corre il rischio di ottenere picchi di entrate/uscite di grandi dimensioni a causa della valutazione continua del segmento. Tuttavia, se la definizione del segmento porta a rendere un grande volume di clienti qualificati allo stesso tempo, potrebbe esserci anche un picco.
 
 Per ulteriori informazioni sulla segmentazione in streaming, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
 
@@ -96,12 +96,12 @@ Per ulteriori informazioni sulla segmentazione in streaming, consulta [Documenta
 
 Di seguito sono riportate alcune best practice che aiuteranno a evitare il sovraccarico dei sistemi utilizzati nei percorsi (origini dati, azioni personalizzate, **Messaggio** attività).
 
-Non utilizzare in un **[!UICONTROL Segment Qualification]** attività , un segmento batch subito dopo la creazione. It will avoid the first calculation peak. Se stai per utilizzare un segmento che non è mai stato calcolato, nell’area di lavoro del percorso verrà visualizzato un avviso giallo.
+Non utilizzare in un **[!UICONTROL Segment Qualification]** attività , un segmento batch subito dopo la creazione. Evita il primo picco di calcolo. Se stai per utilizzare un segmento che non è mai stato calcolato, nell’area di lavoro del percorso verrà visualizzato un avviso giallo.
 
-![](assets/segment-error.png)
+![](../assets/segment-error.png)
 
-Inserisci una regola di limitazione per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Learn more in [Journey Orchestration documentation](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. Note that the capping rule has no retry. Se devi riprovare, devi utilizzare un percorso alternativo nel percorso selezionando la casella . **[!UICONTROL Add an alternative path in case of a timeout or an error]** in condizioni o azioni.
+Inserisci una regola di limitazione per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni in [Documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. La regola di tappatura non ha alcun nuovo tentativo. Se devi riprovare, devi utilizzare un percorso alternativo nel percorso selezionando la casella . **[!UICONTROL Add an alternative path in case of a timeout or an error]** in condizioni o azioni.
 
 Prima di utilizzare il segmento in un percorso di produzione, valuta sempre prima il volume di individui che si qualificano per questo segmento ogni giorno. Per farlo, puoi controllare la **[!UICONTROL Segments]** , apri il segmento e osserva il **[!UICONTROL Profiles over time]** grafico.
 
-![](assets/segment-overload.png)
+![](../assets/segment-overload.png)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,11 @@ Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso,
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. Viene data priorità alla prima attività di attesa .
+Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. La prima attività di attesa avrà una priorità
 
 Inoltre, se due attese diverse sono in parallelo, quella che si verifica per prima verrà definita come priorità, indipendentemente dalla sua posizione verticale. Ad esempio, se un’attesa di 1 ora è superiore e un’attesa di 30 minuti è inferiore, dopo 30 minuti viene elaborata l’attesa di 30 minuti.
+
+Puoi definire una condizione se desideri limitare l’attesa a una determinata popolazione.
 
 >[!NOTE]
 >
@@ -39,13 +41,13 @@ Inoltre, se due attese diverse sono in parallelo, quella che si verifica per pri
 
 Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva.
 
-![](assets/journey55.png)
+![](../assets/journey55.png)
 
 ## Attesa data fissa{#fixed_date}
 
 Seleziona la data di esecuzione dell’attività successiva.
 
-![](assets/journey56.png)
+![](../assets/journey56.png)
 
 ## Attesa personalizzata{#custom}
 
@@ -57,7 +59,7 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 >
 >La **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di mixaggio e fuso orario ISO-8601 come 2016-08-12T09:46:06,982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
-![](assets/journey57.png)
+![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +79,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](assets/journey57bis.png)-->
+![](../assets/journey57bis.png)-->

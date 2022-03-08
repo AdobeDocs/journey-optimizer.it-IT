@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 11%
@@ -17,4 +17,4 @@ ht-degree: 11%
 
 La **[!UICONTROL End]** l’attività ti consente di contrassegnare la fine di ogni percorso del percorso. Non è obbligatorio ma consigliato per la chiarezza visiva. In effetti, se il percorso dispone di diverse attività finali, ti consigliamo di aggiungere un’etichetta a ogni fine per facilitare la lettura dei rapporti. Consulta [questa pagina](../reports/live-report.md).
 
-![](assets/journey54.png)
+![](../assets/journey54.png)

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Nell’elenco percorso vengono visualizzate tutte le versioni del percorso con i
 
 Quando cerchi un percorso, le versioni più recenti vengono visualizzate nella parte superiore dell’elenco al primo avvio dell’applicazione. Quindi, puoi definire l’ordinamento desiderato e l’applicazione lo manterrà come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell&#39;interfaccia dell&#39;edizione del percorso, sopra l&#39;area di lavoro.
 
-![](assets/journeyversions1.png)
+![](../assets/journeyversions1.png)
 
 Se devi modificare un percorso live, devi creare una nuova versione del percorso.
 
@@ -29,7 +29,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 
 1. Apri la versione più recente del percorso live e fai clic su **[!UICONTROL Create a new version]** e confermare.
 
-   ![](assets/journeyversions2.png)
+   ![](../assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 
 1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e confermare.
 
-   ![](assets/journeyversions3.png)
+   ![](../assets/journeyversions3.png)
 
 Dal momento in cui il percorso verrà pubblicato, i singoli inizieranno a scorrere nell&#39;ultima versione del percorso. Le persone che hanno già inserito una versione precedente vi rimangono fino a quando non finiscono il percorso. Se in seguito vengono reinseriti nello stesso percorso, passeranno alla versione più recente.
 

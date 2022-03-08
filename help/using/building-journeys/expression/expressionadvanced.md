@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
@@ -20,7 +20,7 @@ Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in v
 
 L’editor di espressioni avanzate offre un set di funzioni e operatori incorporati che ti consente di manipolare i valori e definire un’espressione adatta alle tue esigenze. L’editor di espressioni avanzate ti consente inoltre di definire i valori del parametro dell’origine dati esterna, di manipolare i campi e le raccolte delle mappe, ad esempio gli eventi di esperienza.
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 _Interfaccia dell’editor di espressioni avanzate_
 
@@ -44,7 +44,7 @@ Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
 * Quando crei una condizione di origine dati, puoi accedere all’editor avanzato facendo clic su **[!UICONTROL Advanced mode]**.
 
-   ![](../assets/journeyuc2_33.png)
+   ![](../../assets/journeyuc2_33.png)
 
 * Quando crei un timer personalizzato, l’editor avanzato viene visualizzato direttamente.
 * Quando mappi il parametro dell’azione, fai clic su **[!UICONTROL Advanced mode]**.
@@ -53,7 +53,7 @@ Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
 Questa schermata ti consente di scrivere manualmente l’espressione.
 
-![](../assets/journey70.png)
+![](../../assets/journey70.png)
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
@@ -63,20 +63,20 @@ Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni dispo
 * **[!UICONTROL Journey properties]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
 * **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 Un meccanismo di completamento automatico visualizza i suggerimenti contestuali.
 
-![](../assets/journey68.png)
+![](../../assets/journey68.png)
 
 Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice. Gli errori vengono visualizzati sopra l’editor.
 
-![](../assets/journey69.png)
+![](../../assets/journey69.png)
 
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
 Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro (vedi [questa pagina](../../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
-![](../assets/journeyuc2_19.png)
+![](../../assets/journeyuc2_19.png)
 
 Per casi di utilizzo più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave “params”. Consulta [questa pagina](../expression/field-references.md).

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 26%
@@ -29,6 +29,6 @@ Per aggiungere un record TXT di Google al sottodominio, effettua le seguenti ope
 
 1. In **[!UICONTROL Google txt record]** immettere il codice di verifica generato da [Area di lavoro Google](https://support.google.com/a/answer/183895?hl=it){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, quindi fai clic su **[!UICONTROL Save]**.
 
-   ![](assets/subdomain-google-txt.png)
+   ![](../assets/subdomain-google-txt.png)
 
 1. Una volta aggiunto il record TXT, è necessario che sia verificato da Google. Per eseguire questa operazione, passa a [Area di lavoro Google](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->, quindi avvia il passaggio di verifica.

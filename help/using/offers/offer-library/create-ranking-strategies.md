@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 6%
@@ -22,7 +22,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
 1. Accedere al **[!UICONTROL Components]** quindi seleziona il **[!UICONTROL AI rankings]** scheda .
 
-   ![](../assets/ai-ranking-list.png)
+   ![](../../assets/ai-ranking-list.png)
 
    Vengono elencate tutte le strategie di classificazione create finora.
 
@@ -30,7 +30,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
 1. Compila i campi seguenti:
 
-   ![](../assets/ai-ranking-fields.png)
+   ![](../../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Name]**: Nome univoco da specificare.
 
@@ -52,7 +52,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
    * **[!UICONTROL Dataset ID]**: Per le conversioni, devi fornire un set di dati in cui vengono raccolti gli eventi selezionandolo dall’elenco a discesa. Scopri come creare tale set di dati in [questa sezione](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../assets/ai-ranking-dataset-id.png)
+   ![](../../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -60,7 +60,7 @@ Per creare una strategia di classificazione, segui i passaggi seguenti:
 
 1. Salva e attiva la strategia di classificazione.
 
-   ![](../assets/ai-ranking-save-activate.png)
+   ![](../../assets/ai-ranking-save-activate.png)
 
 È ora pronto per essere utilizzato in una decisione per classificare le offerte ammissibili per un posizionamento. [Ulteriori informazioni](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
@@ -70,11 +70,11 @@ Devi creare un set di dati in cui verranno raccolti gli eventi di conversione. I
 
 1. Da **[!UICONTROL Data Management]** menu, seleziona **[!UICONTROL Schema]**, vai al **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create schema]**.
 
-   ![](../assets/ai-ranking-create-schema.png)
+   ![](../../assets/ai-ranking-create-schema.png)
 
 1. Scegli **[!UICONTROL XDM ExperienceEvent]**.
 
-   ![](../assets/ai-ranking-xdm-event.png)
+   ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Devi creare un set di dati in cui verranno raccolti gli eventi di conversione. I
 
 1. In **[!UICONTROL Search]** digitare &quot;proposition Interposition&quot; e selezionare il campo **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+   ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ Devi creare un set di dati in cui verranno raccolti gli eventi di conversione. I
 
 1. Fai clic su **[!UICONTROL Add field groups]**.
 
-   ![](../assets/ai-ranking-add-field-group.png)
+   ![](../../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >Il gruppo di campi era precedentemente noto come mixin.
@@ -106,21 +106,21 @@ Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la pr
 
 1. Da **[!UICONTROL Data Management]** menu, seleziona **[!UICONTROL Datasets]**, vai al **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create dataset]**.
 
-   ![](../assets/ai-ranking-create-dataset.png)
+   ![](../../assets/ai-ranking-create-dataset.png)
 
 1. Seleziona **[!UICONTROL Create dataset from schema]**.
 
-   ![](../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. Seleziona dall’elenco lo schema appena creato.
 
-   ![](../assets/ai-ranking-dataset-select-schema.png)
+   ![](../../assets/ai-ranking-dataset-select-schema.png)
 
 1. Fai clic su **[!UICONTROL Next]**.
 
 1. Immetti un nome univoco per il set di dati nel **[!UICONTROL Name]** campo e fai clic su **[!UICONTROL Finish]**.
 
-   ![](../assets/ai-ranking-dataset-name.png)
+   ![](../../assets/ai-ranking-dataset-name.png)
 
 Il set di dati è ora pronto per essere selezionato per raccogliere i dati dell’evento quando [creazione di una strategia di classificazione](#create-ranking-strategy).
 

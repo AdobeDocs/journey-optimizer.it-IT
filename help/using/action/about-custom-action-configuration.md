@@ -1,41 +1,32 @@
 ---
 solution: Journey Orchestration
-title: Configurare un’azione personalizzata
+title: Informazioni sulla configurazione delle azioni personalizzata
 description: Scopri come configurare un’azione personalizzata
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '804'
 ht-degree: 6%
 
 ---
 
-# Configurare un’azione personalizzata {#configure-an-action}
+# Configurare un’azione {#configure-an-action}
 
-Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza le azioni personalizzate per configurare la connessione al percorso. Ad esempio, è possibile connettersi ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, Adobe.io, Firebase, ecc.
+Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, puoi configurare la relativa connessione ai percorsi in questo punto. L’azione personalizzata definita dagli utenti tecnici sarà quindi disponibile nella palette a sinistra del percorso, nella sezione **[!UICONTROL Action]** categoria (vedere [questa pagina](../building-journeys/about-journey-activities.md#action-activities). Di seguito sono riportati alcuni esempi di sistemi a cui è possibile connettersi con azioni personalizzate: Epsilon, Slack, Adobe.io, Firebase, ecc.
 
-Le azioni personalizzate sono azioni aggiuntive definite dagli utenti tecnici e rese disponibili agli addetti al marketing. Una volta configurati, vengono visualizzati nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le limitazioni sono elencate in [questa pagina](../start/limitations.md).
 
-## Limitazioni {#custom-actions-limitations}
-
-Le azioni personalizzate presentano alcune limitazioni elencate in [questa pagina](../start/limitations.md).
-
-Nei parametri di azione personalizzati è possibile passare una raccolta semplice e una raccolta di oggetti. Ulteriori informazioni sulle limitazioni della raccolta in [questa pagina](../building-journeys/collections.md#limitations).
-
-Tieni presente che i parametri delle azioni personalizzate hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Ulteriori informazioni [caso d&#39;uso](../building-journeys/collections.md).
-
-
-## Passaggi di configurazione {#configuration-steps}
+Puoi passare le raccolte in modo dinamico utilizzando azioni personalizzate. Fai riferimento a questo [caso d&#39;uso](../building-journeys/collections.md).
 
 Di seguito sono riportati i passaggi principali necessari per configurare un’azione personalizzata:
 
 1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**. In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Fai clic su **[!UICONTROL Create Action]** per creare una nuova azione. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
 
-   ![](assets/custom2.png)
+   ![](../assets/custom2.png)
 
 1. Immetti un nome per l’azione.
 
@@ -60,7 +51,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
 Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICONTROL URL Configuration]** parametri:
 
-![](assets/journeyurlconfiguration.png)
+![](../assets/journeyurlconfiguration.png)
 
 1. In **[!UICONTROL URL]** specifica l’URL del servizio esterno:
 
@@ -89,7 +80,7 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
       Se hai selezionato **[!UICONTROL Variable]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
 
-      ![](assets/journeyurlconfiguration2.png)
+      ![](../assets/journeyurlconfiguration2.png)
 
    1. Per eliminare un campo intestazione, posizionare il puntatore sul campo intestazione e fare clic sul pulsante **[!UICONTROL Delete]** icona.
    La **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi di intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
@@ -102,11 +93,11 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
 ## Definire i parametri dell’azione {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
+![](../assets/messageparameterssection.png)
 
 In **[!UICONTROL Action parameters]** incolla un esempio del payload JSON da inviare al servizio esterno.
 
-![](assets/customactionpayloadmessage.png)
+![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +110,5 @@ Puoi anche scegliere se specificare se un parametro è una costante o una variab
 * Costante significa che il valore del parametro è definito nel riquadro di configurazione dell&#39;azione da un utente tecnico. Il valore sarà sempre lo stesso in tutti i percorsi. Non varia e l’addetto al marketing non lo vedrà quando utilizza l’azione personalizzata nel percorso. Potrebbe trattarsi, ad esempio, di un ID previsto dal sistema di terze parti. In tal caso, il valore passato è rappresentato dal campo a destra della costante/variabile di attivazione/disattivazione.
 * Variabile indica che il valore del parametro varia. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso potranno passare il valore desiderato o specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
 
-![](assets/customactionpayloadmessage2.png)
+![](../assets/customactionpayloadmessage2.png)
 

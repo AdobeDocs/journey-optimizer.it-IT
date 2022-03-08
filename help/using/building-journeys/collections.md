@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Passaggio dinamico delle raccolte tramite azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 5%
@@ -103,7 +103,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 1. In **[!UICONTROL Action parameters]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
-   ![](assets/uc-collection-1.png)
+   ![](../assets/uc-collection-1.png)
 
 1. Se necessario, regola i tipi di campo. I seguenti tipi di campi sono supportati per le raccolte: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -119,27 +119,27 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 1. Per ciascun campo, definisci l’etichetta che verrà visualizzata nell’area di lavoro del percorso.
 
-   ![](assets/uc-collection-2.png)
+   ![](../assets/uc-collection-2.png)
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Consulta [questa pagina](../building-journeys/using-custom-actions.md).
 
 1. In **[!UICONTROL Action parameters]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
 
-   ![](assets/uc-collection-3.png)
+   ![](../assets/uc-collection-3.png)
 
 1. Per ciascuno dei campi oggetto seguenti, digitare il nome di campo corrispondente dallo schema XDM di origine. Se i nomi sono identici, ciò non è necessario. Nel nostro esempio, dobbiamo solo definire &quot;product id&quot; e &quot;color&quot;.
 
-   ![](assets/uc-collection-4.png)
+   ![](../assets/uc-collection-4.png)
 
 Per il campo array, è inoltre possibile utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell’esempio seguente, utilizziamo il [filter](functions/functionfilter.md) e [intersecare](functions/functionintersect.md) funzioni:
 
-![](assets/uc-collection-5.png)
+![](../assets/uc-collection-5.png)
 
 ## Casi particolari{#examples}
 
 Per tipi e array eterogenei di array, l&#39;array viene definito con il tipo listAny. È possibile mappare solo singoli elementi, ma non è possibile modificare la matrice in variabili.
 
-![](assets/uc-collection-heterogeneous.png)
+![](../assets/uc-collection-heterogeneous.png)
 
 Esempio di tipo eterogeneo:
 

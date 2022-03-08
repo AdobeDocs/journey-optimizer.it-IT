@@ -1,121 +1,121 @@
 ---
-title: About ExperienceEvent Schemas for journey events
-description: Learn about ExperienceEvent Schemas for journey events
+title: Informazioni sugli schemi ExperienceEvent per eventi di percorso
+description: Scopri gli schemi ExperienceEvent per eventi di percorso
 feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
 
 ---
 
-# [!DNL Journey Optimizer] {#about-experienceevent-schemas}
+# Informazioni sugli schemi ExperienceEvent per [!DNL Journey Optimizer] Eventi {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer]
+[!DNL Journey Optimizer] Gli eventi sono eventi esperienza XDM che vengono inviati a Adobe Experience Platform tramite Streaming Ingestion.
 
-[!DNL Journey Optimizer]
+Pertanto, un importante prerequisito per la configurazione di eventi per [!DNL Journey Optimizer] L’utente ha familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con le modalità di composizione degli schemi XDM Experience Event, nonché con le modalità di streaming dei dati in formato XDM in Adobe Experience Platform.
 
-## [!DNL Journey Optimizer]  {#schema-requirements}
+## Requisiti dello schema per [!DNL Journey Optimizer] Eventi  {#schema-requirements}
 
-[!DNL Journey Optimizer] Having a dataset for your events is not strictly necessary, but sending the events to a specific dataset will allow you to maintain users’ event history for future reference and analysis, so it is always a good idea. If you do not already have a suitable schema and dataset for your event, both of those tasks can be done in Adobe Experience Platform web interface.
+Il primo passaggio nella configurazione di un evento per [!DNL Journey Optimizer] assicurati di disporre di uno schema XDM definito per rappresentare l’evento e di un set di dati creato per registrare le istanze dell’evento in Adobe Experience Platform. Disporre di un set di dati per i tuoi eventi non è strettamente necessario, ma l’invio degli eventi a un set di dati specifico ti consentirà di mantenere la cronologia degli eventi degli utenti per riferimenti e analisi futuri, quindi è sempre una buona idea. Se non disponi già di uno schema e di un set di dati appropriati per l’evento, entrambe le attività possono essere eseguite nell’interfaccia Web di Adobe Experience Platform.
 
-![](assets/schema1.png)
+![](../assets/schema1.png)
 
-[!DNL Journey Optimizer]
+Qualsiasi schema XDM utilizzato per [!DNL Journey Optimizer] gli eventi devono soddisfare i seguenti requisiti:
 
-* The schema must be of the XDM ExperienceEvent class.
+* Lo schema deve essere della classe ExperienceEvent XDM.
 
-   ![](assets/schema2.png)
+   ![](../assets/schema2.png)
 
-* For system-generated events, the schema must include the Orchestration eventID field group. [!DNL Journey Optimizer]
+* Per gli eventi generati dal sistema, lo schema deve includere il gruppo di campi ID evento Orchestration. [!DNL Journey Optimizer] utilizza questo campo per identificare gli eventi utilizzati nei percorsi.
 
-   ![](assets/schema3.png)
+   ![](../assets/schema3.png)
 
-* Declare an identity field for identifying the subject of the event. If no identity is specified, an identity map can be used. Queste operazioni non sono consigliate.
+* Dichiara un campo di identità per identificare l’oggetto dell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Queste operazioni non sono consigliate.
 
-   ![](assets/schema4.png)
+   ![](../assets/schema4.png)
 
-* If you would like this data to be available for lookup later in a Journey, mark the schema and dataset for profile.
+* Se desideri che questi dati siano disponibili per la ricerca in un secondo momento in un Percorso, contrassegna lo schema e il set di dati per il profilo.
 
-   ![](assets/schema5.png)
+   ![](../assets/schema5.png)
 
-   ![](assets/schema6.png)
+   ![](../assets/schema6.png)
 
-* Feel free to include data fields to capture any other context data you want to include with the event, such as information about the user, the device from which the event was generated, location, or any other meaningful circumstances related to the event.
+* Puoi includere campi di dati per acquisire altri dati contestuali da includere con l’evento, ad esempio informazioni sull’utente, il dispositivo da cui è stato generato l’evento, la posizione o qualsiasi altra circostanza significativa correlata all’evento.
 
-   ![](assets/schema7.png)
+   ![](../assets/schema7.png)
 
-   ![](assets/schema8.png)
+   ![](../assets/schema8.png)
 
 ## Sfruttamento delle relazioni tra schemi{#leverage_schema_relationships}
 
-Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another.
+Adobe Experience Platform ti consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro.
 
-Let&#39;s say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create a segment for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
+Supponiamo che il modello dati del brand abbia uno schema che cattura gli acquisti. Inoltre è disponibile uno schema per il catalogo dei prodotti. Puoi acquisire l’ID prodotto nello schema di acquisto e utilizzare una relazione per cercare dettagli di prodotto più completi dal catalogo prodotti. Ciò ti consente di creare un segmento per tutti i clienti che hanno acquistato un laptop, ad esempio, senza dover elencare esplicitamente tutti gli ID dei laptop o acquisire ogni singolo dettaglio di prodotto nei sistemi transazionali.
 
-To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity.
+Per definire una relazione, è necessario disporre di un campo dedicato nello schema di origine, in questo caso il campo ID prodotto nello schema di acquisto. Questo campo deve fare riferimento al campo ID prodotto nello schema di destinazione. Le tabelle di origine e di destinazione devono essere abilitate per i profili e lo schema di destinazione deve avere tale campo comune definito come identità principale.
 
-Here is the product catalog schema enabled for profile with the product ID defined as the primary identity.
+Ecco lo schema del catalogo prodotti abilitato per il profilo con l’ID prodotto definito come identità principale.
 
-![](assets/schema9.png)
+![](../assets/schema9.png)
 
-Here is the purchase schema with the relationship defined on the product ID field.
+Ecco lo schema di acquisto con la relazione definita nel campo ID prodotto .
 
-![](assets/schema10.png)
+![](../assets/schema10.png)
 
 >[!NOTE]
 >
->[](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en)
+>Ulteriori informazioni sulle relazioni dello schema nel [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=en).
 
-In Journey Optimizer, you can then leverage all the fields from the linked tables:
+In Journey Optimizer puoi quindi sfruttare tutti i campi delle tabelle collegate:
 
-* [](../event/experience-event-schema.md#unitary_event_configuration)
-* [](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* [](../event/experience-event-schema.md#message_personalization)
-* [](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* durante la configurazione di un evento aziendale o unitario, [Leggi tutto](../event/experience-event-schema.md#unitary_event_configuration)
+* quando si utilizzano condizioni in un percorso, [Leggi tutto](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* nella personalizzazione dei messaggi, [Leggi tutto](../event/experience-event-schema.md#message_personalization)
+* nella personalizzazione personalizzata delle azioni, [Leggi tutto](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
 ### Configurazione evento{#unitary_event_configuration}
 
-The linked schema fields are available in unitary and business event configuration:
+I campi dello schema collegati sono disponibili nella configurazione di un evento unitario e aziendale:
 
-* when browsing through the event schema fields in the event configuration screen.
-* when defining a condition for system-generated events.
+* quando esplori i campi dello schema evento nella schermata di configurazione dell’evento.
+* quando si definisce una condizione per gli eventi generati dal sistema.
 
-![](assets/schema11.png)
+![](../assets/schema11.png)
 
-The linked fields are not available:
+I campi collegati non sono disponibili:
 
-* in the event key formula
-* in event id condition (rule-based events)
+* nella formula della chiave evento
+* in condizione id evento (eventi basati su regole)
 
-[](../event/about-creating.md)
+Per scoprire come configurare un evento unitario, consulta questo [page](../event/about-creating.md).
 
-### Journey conditions using event context{#journey_conditions_using_event_context}
+### Condizioni di percorso che utilizzano il contesto dell’evento{#journey_conditions_using_event_context}
 
-You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
+Puoi utilizzare i dati di una tabella di ricerca collegata a un evento utilizzato in un percorso per la creazione di condizioni (editor di espressioni).
 
-Add a condition in a journey, edit the expression and unfold the event node in the expression editor.
+Aggiungi una condizione in un percorso, modifica l’espressione e apri il nodo dell’evento nell’editor espressioni.
 
-![](assets/schema12.png)
+![](../assets/schema12.png)
 
-[](../building-journeys/condition-activity.md)
+Per scoprire come definire le condizioni di percorso, consulta questo [page](../building-journeys/condition-activity.md).
 
-### Message personalization{#message_personalization}
+### Personalizzazione dei messaggi{#message_personalization}
 
-The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
+I campi collegati sono disponibili quando si personalizza un messaggio. I campi correlati vengono visualizzati nel contesto passato dal percorso al messaggio.
 
-![](assets/schema14.png)
+![](../assets/schema14.png)
 
-[](../personalization/personalization-use-case.md)
+Per scoprire come personalizzare un messaggio con informazioni sul percorso contestuale, consulta questo [page](../personalization/personalization-use-case.md).
 
-### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
+### Personalizzazione di azioni personalizzata con contesto evento percorso{#custom_action_personalization_with_journey_event_context}
 
-The linked fields are available when configuring the action parameters of a journey custom action activity.
+I campi collegati sono disponibili durante la configurazione dei parametri delle azioni di un’attività azione personalizzata del percorso.
 
-![](assets/schema13.png)
+![](../assets/schema13.png)
 
-[](../building-journeys/using-custom-actions.md)
+Per informazioni sull’utilizzo delle azioni personalizzate, consulta [page](../building-journeys/using-custom-actions.md).

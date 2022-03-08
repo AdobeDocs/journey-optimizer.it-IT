@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -31,13 +31,13 @@ Lo scopo di questo caso d’uso è quello di creare un percorso per incrementare
 
    1. Imposta la **[!UICONTROL Limit]** al numero massimo di destinatari per la consegna.
 
-   ![](assets/profile-cap-condition.png)
+   ![](../assets/profile-cap-condition.png)
 
    Puoi aumentare gradualmente questo limite fino al numero totale di abbonati.
 
 1. Aggiungi un **[!UICONTROL Message]** l&#39;attività sul percorso nominale dopo il **[!UICONTROL Condition]** attività.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![](../assets/ramp-up-deliveries-message.png)
 
    Quando il percorso viene eseguito, al messaggio vengono inviati i profili in entrata, fino al numero massimo di profili specificati. Una volta raggiunto questo limite, i profili che entrano prendono il percorso alternativo.
 

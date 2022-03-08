@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 10%
+source-wordcount: '659'
+ht-degree: 5%
 
 ---
 
@@ -145,12 +145,10 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({{/}})
 
 ## Personalizzazione URL{#perso-urls}
 
-Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un sito web o verso un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.
+Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per effettuare questo collegamento:
 
-Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per personalizzare un URL, effettua le seguenti operazioni:
-
-1. Crea un collegamento nel contenuto del messaggio. [Ulteriori informazioni](../messages/message-tracking.md#insert-links)
-1. Seleziona gli attributi dall’icona di personalizzazione. L’icona di personalizzazione è disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
+* Crea un collegamento nel contenuto e-mail o push. Per ulteriori informazioni sulla creazione dei collegamenti, consulta [questa pagina](../messages/message-tracking.md#insert-links).
+* Fai clic sull’icona della personalizzazione. Questa icona è disponibile per questi tipi specifici di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
 
 ![](assets/perso-url.png)
 

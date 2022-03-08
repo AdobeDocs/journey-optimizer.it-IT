@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 85%
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 Ogni evento inviato quando viene presa una decisione contiene quattro punti dati chiave che puoi sfruttare a scopo di analisi e reporting.
 
-![](../assets/events-dataset-preview.png)
+![](../../assets/events-dataset-preview.png)
 
 * **[!UICONTROL Fallback]**: nome e ID dell’offerta di fallback, se non è stata selezionata alcuna offerta personalizzata
 * **[!UICONTROL Placement]**: nome, ID e canale del posizionamento utilizzato per la consegna dell’offerta

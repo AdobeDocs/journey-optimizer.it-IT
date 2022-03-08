@@ -5,34 +5,19 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 9%
+source-wordcount: '149'
+ht-degree: 11%
 
 ---
 
 # Introduzione alle pagine di destinazione {#get-sarted-lp}
 
->[!CAUTION]
->
->L’utilizzo delle pagine di destinazione è attualmente disponibile in modalità di accesso anticipato solo per determinati utenti. Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
-
 Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un utente dopo aver fatto clic da un’e-mail, un sito web, un annuncio pubblicitario o qualsiasi altra posizione digitale.
 
-<!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
-
 [!DNL Journey Optimizer] consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni, o iscriversi a un servizio specifico, ad esempio una newsletter.
-
-<!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
-
-<!--[!DNL Journey Optimizer] now allows you to:
-* Easily build landing pages to make users subscribe to your communications.
-* Enable your customers to opt-in or opt-out from your communications.
-To move to RN-->
 
 * Sfruttamento [!DNL Journey Optimizer] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
 * Configurazione **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.

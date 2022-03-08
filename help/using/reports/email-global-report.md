@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 1%
@@ -19,11 +19,11 @@ L’e-mail **[!UICONTROL Global report]** esegue solo il targeting di una conseg
 
 Da **[!UICONTROL Executions]** della scheda **[!UICONTROL Messages]** menu, seleziona **[!UICONTROL Global view]** dal menu avanzato della consegna selezionata, seleziona **[!UICONTROL Global report]**.
 
-![](assets/global_report_3.png)
+![](../assets/global_report_3.png)
 
 L’e-mail **[!UICONTROL Global report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della consegna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](global-report.md#modify-dashboard).
 
-![](assets/global_report_4.png)
+![](../assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** fornisce dettagli sulle informazioni principali relative al messaggio con KPI:
 
@@ -65,7 +65,7 @@ La **[!UICONTROL Sending Statistics]** il grafico descrive il successo della con
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-![](assets/global_report_5.png)
+![](../assets/global_report_5.png)
 
 La **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
@@ -79,7 +79,7 @@ Per ulteriori informazioni sui messaggi non recapitati, consulta [Elenco di elim
 
 La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
-![](assets/global_report_6.png)
+![](../assets/global_report_6.png)
 
 La **[!UICONTROL Email - Top recipient domain]** visualizza i dettagli del grafico e della tabella relativi ai domini più utilizzati dai destinatari per aprire l’e-mail.
 
@@ -92,7 +92,7 @@ La **[!UICONTROL Open vs Click]** identifica l’interazione dei destinatari con
 * **[!UICONTROL Unique Opens]**: Numero di destinatari che hanno aperto la consegna.
 
 <!--
-![](assets/global_report_20.png)
+![](../assets/global_report_20.png)
 
 >[!NOTE]
 >

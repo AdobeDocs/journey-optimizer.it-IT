@@ -1,7 +1,7 @@
 ---
-title: Start journey execution
-description: Learn how to start your journey and send messages
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+title: Avvia l'esecuzione del percorso
+description: Scopri come avviare il percorso e inviare messaggi
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 3%
@@ -9,71 +9,71 @@ ht-degree: 3%
 ---
 
 
-# Journey execution {#message-execution}
+# esecuzione del percorso {#message-execution}
 
 ## Test del percorso
 
-You can test your journey using test profiles. This step is recommended to validate your settings and messages.
+Puoi testare il percorso utilizzando i profili di test. Questo passaggio è consigliato per convalidare le impostazioni e i messaggi.
 
-[](testing-the-journey.md)
+Ulteriori informazioni [sezione](testing-the-journey.md).
 
-## Activate your journey
+## Attiva il tuo percorso
 
-You must publish your journey to activate it.
+Devi pubblicare il percorso per attivarlo.
 
-![](assets/jo-journeyuc2_32bis.png)
+![](../assets/jo-journeyuc2_32bis.png)
 
-[](publishing-the-journey.md)
+Ulteriori informazioni [sezione](publishing-the-journey.md).
 
 
-Once published, you can monitor your journey using the dedicated reporting tools to measure your journey&#39;s effectiveness.
+Una volta pubblicato, puoi monitorare il percorso utilizzando gli strumenti di reporting dedicati per misurare l’efficacia del percorso.
 
-![](assets/jo-dynamic_report_journey_12.png)
+![](../assets/jo-dynamic_report_journey_12.png)
 
-[](../reports/live-report.md)
+[Ulteriori informazioni sui report](../reports/live-report.md)
 
 ## Inviare messaggi {#send-messages}
 
-[](journey.md)
+Quando il messaggio presenta un contenuto definito e pubblicato, è pronto per essere inviato tramite un [percorso](journey.md).
 
 >[!NOTE]
 >
->You can add a message that is still in draft mode to a journey, but make sure the message is published before publishing the journey.
+>Puoi aggiungere a un percorso un messaggio ancora in modalità bozza, ma accertati che il messaggio sia pubblicato prima di pubblicare il percorso.
 
-Once a message is sent, you can monitor its execution through multiple indicators. [](../message-monitoring.md)
+Una volta inviato un messaggio, puoi monitorarne l’esecuzione tramite più indicatori. [Ulteriori informazioni sul monitoraggio dell’esecuzione dei messaggi](../message-monitoring.md).
 
-## Schedule messages {#schedule-messages}
+## Pianificare messaggi {#schedule-messages}
 
-**[!UICONTROL Read Segment]**[](journey.md) You can specify when the segment will enter the journey. [](read-segment.md)
+I messaggi possono essere pianificati tramite **[!UICONTROL Read Segment]** attività in un [percorso](journey.md). Puoi specificare quando il segmento entrerà nel percorso. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. **[!UICONTROL Read Segment]** [](read-segment.md#configuring-segment-trigger-activity)
+1. Modificare un percorso, trascinarlo e rilasciarlo **[!UICONTROL Read Segment]** e inizia a configurarlo. [Ulteriori informazioni sulla configurazione dell’attività Leggi segmento](read-segment.md#configuring-segment-trigger-activity).
 
-1. **[!UICONTROL Edit journey schedule]**
+1. Fai clic sul pulsante **[!UICONTROL Edit journey schedule]** collegamento per accedere alle proprietà del percorso.
 
-   ![](assets/message-read-segment-schedule.png)
+   ![](../assets/message-read-segment-schedule.png)
 
-1. **[!UICONTROL Scheduler type]**
-
-   >[!NOTE]
-   >
-   >**[!UICONTROL Schedule]****[!UICONTROL Read Segment]**
-
-   ![](assets/message-read-segment-scheduler.png)
-
-1. **[!UICONTROL Once]**
-
-   ![](assets/message-read-segment-scheduler-once.png)
-
-1. If you select a recurring method, edit the start date and time. You can also define an optional end date and time.
-
-   ![](assets/message-read-segment-scheduler-daily.png)
+1. Configura le **[!UICONTROL Scheduler type]** campo: seleziona il valore desiderato dall’elenco per far sì che il segmento immetta il percorso in una data/ora specifica o su base ricorrente.
 
    >[!NOTE]
    >
-   >**[!UICONTROL As soon as possible]**
+   >La **[!UICONTROL Schedule]** è disponibile solo quando una **[!UICONTROL Read Segment]** l’attività è stata rilasciata nell’area di lavoro.
 
-1. **[!UICONTROL OK]**
+   ![](../assets/message-read-segment-scheduler.png)
+
+1. Se si seleziona **[!UICONTROL Once]**, definisci una data e un’ora specifiche in cui il segmento entrerà nel percorso.
+
+   ![](../assets/message-read-segment-scheduler-once.png)
+
+1. Se selezioni un metodo ricorrente, modifica la data e l&#39;ora di inizio. Puoi anche definire una data e un’ora di fine facoltative.
+
+   ![](../assets/message-read-segment-scheduler-daily.png)
+
+   >[!NOTE]
+   >
+   >Per impostazione predefinita, i segmenti entrano nel percorso **[!UICONTROL As soon as possible]**, ovvero 1 ora dopo la pubblicazione del percorso.
+
+1. Fai clic su **[!UICONTROL OK]** per salvare le modifiche.
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

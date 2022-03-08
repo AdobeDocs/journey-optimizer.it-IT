@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 10%
@@ -36,15 +36,15 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
 
 1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
 
-   ![](assets/subdomain-delegate.png)
+   ![](../assets/subdomain-delegate.png)
 
 1. Seleziona **[!UICONTROL Fully delegated]** dal **[!UICONTROL Set up method]** sezione .
 
-   ![](assets/subdomain-method-full.png)
+   ![](../assets/subdomain-method-full.png)
 
 1. Specifica il nome del sottodominio da delegare.
 
-   ![](assets/subdomain-name.png)
+   ![](../assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
 
 1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
 
-   ![](assets/subdomain-submit.png)
+   ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
 
 1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
 
-   ![](assets/subdomain-processing.png)
+   ![](../assets/subdomain-processing.png)
 
    Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 3 ore. [Ulteriori informazioni](#subdomain-validation).
 
@@ -96,13 +96,13 @@ La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utili
 >
 >Questo metodo è consigliato se i criteri dell&#39;organizzazione limitano il metodo di delega del sottodominio completo. Questo approccio richiede la gestione e la gestione autonoma dei record DNS. Adobe non sarà in grado di fornire assistenza per modificare, mantenere o gestire il DNS per un sottodominio configurato tramite il metodo CNAME.
 
-Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
+Per delegare un sottodominio utilizzando CNAME, segui i passaggi seguenti:
 
 1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
 
 1. Seleziona la **[!UICONTROL CNAME set up]** metodo .
 
-   ![](assets/subdomain-method-cname.png)
+   ![](../assets/subdomain-method-cname.png)
 
 1. Specifica il nome del sottodominio da delegare.
 
@@ -116,7 +116,7 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;.
 
-   ![](assets/subdomain-create-dns-confirm.png)
+   ![](../assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma host. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Conferma...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   ![](../assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >

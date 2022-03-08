@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
@@ -27,28 +27,26 @@ Utilizza la **[!UICONTROL Global report]** per misurare l’impatto dei percorsi
 
 ## Personalizza dashboard {#modify-dashboard}
 
-Ogni dashboard di reporting può essere modificato modificando il periodo di tempo e ridimensionando o rimuovendo i widget. La modifica dei widget influisce solo sul dashboard dell&#39;utente corrente. Altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
+Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo widget o modificando l&#39;intervallo di tempo di destinazione. La modifica dei widget influisce solo sul dashboard dell&#39;utente corrente. Altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
-1. Dal rapporto Globale, seleziona un&#39;ora di inizio e di fine per eseguire il targeting di dati specifici.
+1. Dal tuo **[!UICONTROL Global report]** dashboard, fare clic sul pulsante scheduler.
 
-   ![](assets/report_modify_1.png)
+1. Seleziona le date di inizio e di fine. Puoi ottimizzare ulteriormente i rapporti selezionando una **[!UICONTROL Start time]** e **[!UICONTROL End time]**.
 
-1. Scegli se escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+   ![](../assets/global_report_6.png)
 
-   ![](assets/report_modify_2.png)
+1. click **[!UICONTROL Modify]**.
 
-1. Fai clic su **[!UICONTROL Modify]** per iniziare a personalizzare il dashboard.
-
-   ![](assets/report_modify_3.png)
+   ![](../assets/global_report_8.png)
 
 1. Regolare le dimensioni dei widget trascinandone l&#39;angolo in basso a destra.
 
-   ![](assets/report_modify_4.png)
+   ![](../assets/global_report_9.png)
 
-1. Fai clic su **[!UICONTROL Remove]** per rimuovere qualsiasi widget non è necessario.
+1. Fai clic su **[!UICONTROL Remove]** per rimuovere altri widget che non è necessario tenere traccia dei rimbalzi.
 
-   ![](assets/report_modify_5.png)
+   ![](../assets/global_report_10.png)
 
 1. Una volta soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Save]**.
 
-Il dashboard viene ora salvato. Le diverse modifiche verranno applicate nuovamente per un utilizzo successivo dei rapporti live. Se necessario, utilizza le **[!UICONTROL Reset]** per ripristinare l&#39;ordine predefinito dei widget e dei widget.
+Il dashboard viene ora salvato. Le diverse modifiche verranno applicate di nuovo per un uso successivo dei rapporti globali. Se necessario, utilizza le **[!UICONTROL Reset]** per ripristinare l&#39;ordine predefinito dei widget e dei widget.

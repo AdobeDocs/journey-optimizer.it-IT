@@ -3,7 +3,7 @@ title: Guida introduttiva di Journey Optimizer per data engineer
 description: In qualità di data engineer, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -38,7 +38,7 @@ I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitat
 
 Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. [Ulteriori informazioni](../../configuration/about-data-sources-events-actions.md).
 
-![](../assets/admin-menu.png)
+![](../../assets/admin-menu.png)
 
 * La **Origine dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. Ulteriori informazioni su Origini dati [in questa sezione](../../datasource/about-data-sources.md).
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 100%
@@ -30,7 +30,7 @@ I componenti e le funzionalità disponibili nell’interfaccia utente dipendono 
 
 Utilizza i collegamenti a sinistra per sfogliare le funzionalità.
 
-![](assets/ajo-home.png)
+![](../assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 Sfrutta i casi d’uso di [!DNL Adobe Journey Optimizer] accessibili dalla pagina Home e fornisci alcuni dati per creare un percorso del cliente.
 
-![](assets/use-cases-home.png)
+![](../assets/use-cases-home.png)
 
 I casi di utilizzo disponibili sono:
 
@@ -248,7 +248,7 @@ Dalla sezione inferiore della pagina Home puoi accedere alle pagine importanti d
 
 Utilizza l’icona **Aiuto** per accedere alle pagine della guida, contattare il supporto e condividere i tuoi commenti. Puoi cercare articoli e video di supporto dal campo di ricerca.
 
-![](assets/ajo-help.png)
+![](../assets/ajo-help.png)
 
 ## Browser supportati {#browsers}
 
@@ -267,10 +267,10 @@ La lingua predefinita dell’interfaccia è determinata dalla lingua preferita s
 Per cambiare lingua:
 
 * Fai clic su **Preferenze** dal tuo avatar, in alto a destra.
-   ![](assets/preferences.png)
+   ![](../assets/preferences.png)
 * Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail
 * Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
-   ![](assets/select-language.png)
+   ![](../assets/select-language.png)
 
 ## Cerca{#unified-search}
 
@@ -278,11 +278,11 @@ In qualsiasi area dell’interfaccia Adobe Journey Optimizer, utilizza la funzio
 
 Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
 
-![](assets/unified-search.png)
+![](../assets/unified-search.png)
 
 Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto aziendale.
 
-![](assets/search-and-filter.png)
+![](../assets/search-and-filter.png)
 
 ## Filtrare gli elenchi{#filter-lists}
 
@@ -298,12 +298,12 @@ Nell’elenco, puoi filtrare i percorsi in base al loro stato, versione e tipo m
 
 Utilizza le colonne **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** per verificare quando è avvenuto l’ultimo aggiornamento dei percorsi e chi l’ha salvato.
 
-![](assets/filter-journeys.png)
+![](../assets/filter-journeys.png)
 
 Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Used in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL View journeys]**.
 
-![](assets/journey3bis.png)
+![](../assets/journey3bis.png)
 
 All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
 
-![](assets/journey4.png)
+![](../assets/journey4.png)
