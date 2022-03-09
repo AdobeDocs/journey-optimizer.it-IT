@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
 workflow-type: tm+mt
-source-wordcount: '2643'
-ht-degree: 99%
+source-wordcount: '2697'
+ht-degree: 97%
 
 ---
 
@@ -19,21 +19,21 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 ### Nuove funzionalità
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
+<th><strong>Pagine di destinazione dell’abbonamento</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+<p>È ora possibile creare e progettare pagine di destinazione in Journey Optimizer e indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o abbonarsi a un servizio specifico, ad esempio una newsletter.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../landing-pages/create-lp.md">documentazione dettagliata</a> e alcuni <a href="../landing-pages/lp-use-cases.md">esempi di casi d’uso</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
