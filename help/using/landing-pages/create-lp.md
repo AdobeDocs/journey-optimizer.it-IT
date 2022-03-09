@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '955'
+ht-degree: 2%
 
 ---
 
 # Creare e pubblicare pagine di destinazione {#create-lp}
-
->[!CAUTION]
->
->L’utilizzo delle pagine di destinazione è attualmente disponibile in modalità di accesso anticipato solo per determinati utenti. Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -30,6 +24,22 @@ Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL 
 La **[!UICONTROL Landing Pages]** visualizza tutti gli elementi creati. Puoi filtrarli in base al loro stato o alla data di modifica.
 
 ![](assets/lp_access-list-filter.png)
+
+Da questo elenco è possibile accedere al [rapporti sulla pagina di destinazione](lp-report.md) per gli elementi pubblicati.
+
+Puoi anche eliminare, duplicare e annullare la pubblicazione di una pagina di destinazione.
+
+>[!CAUTION]
+>
+>Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio non pubblicato, non potrai più pubblicare il messaggio finché la pagina di destinazione non viene pubblicata nuovamente. Se il messaggio è già stato pubblicato, il collegamento alla pagina di destinazione non funzionerà e verrà visualizzata una pagina di errore.
+
+Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata.
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>Non è possibile eliminare una pagina di destinazione pubblicata. Per eliminarlo, devi prima annullarne la pubblicazione.
 
 ## Creare una pagina di destinazione {#create-landing-page}
 
@@ -43,13 +53,9 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Seleziona un predefinito.
+1. Seleziona un predefinito. Scopri come creare i predefiniti per le pagine di destinazione in [questa sezione](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >Per definire i predefiniti per le pagine di destinazione, contatta il rappresentante del tuo account di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Fai clic su **[!UICONTROL Create]**.
 
@@ -75,7 +81,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    ![](assets/lp_open-designer.png)
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
 1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    >[!CAUTION]
    >

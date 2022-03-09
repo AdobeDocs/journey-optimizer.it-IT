@@ -5,24 +5,17 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 21%
+source-wordcount: '900'
+ht-degree: 20%
 
 ---
 
 # Casi di utilizzo della pagina di destinazione {#lp-use-cases}
 
 Di seguito sono riportati alcuni esempi di come è possibile utilizzare [!DNL Journey Optimizer] pagine di destinazione per consentire ai clienti di scegliere se accettare o meno alcune o tutte le tue comunicazioni.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Iscrizione a un servizio {#subscription-to-a-service}
 
@@ -32,13 +25,15 @@ Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonamen
 
 Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avviare una campagna di registrazione degli eventi<!--to keep your customers that are interested updated on that event-->. A questo scopo, invierai un’e-mail con un collegamento a una pagina di destinazione che consentirà ai destinatari di registrarsi a questo evento. Gli utenti che si registrano verranno aggiunti all’elenco di sottoscrizioni creato a questo scopo.
 
-### Configurare la pagina di destinazione {#set-up-lp}
+### Configurare una pagina di destinazione {#set-up-lp}
 
 1. Crea l&#39;elenco di iscrizione dell&#39;evento, che memorizzerà gli utenti registrati. Scopri come creare un elenco di abbonamenti [qui](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
 1. [Creare una pagina di destinazione](create-lp.md) per consentire ai destinatari di registrarsi all’evento.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. Configurare la registrazione [pagina di destinazione principale](create-lp.md#configure-primary-page).
 
@@ -57,6 +52,10 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 1. [Inserire un collegamento](../messages/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Landing page]** come **[!UICONTROL Link type]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Per pubblicare il messaggio, accertati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
 
 1. Salva il contenuto e [pubblica il messaggio](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Aggiungi una conferma [sottopagine](create-lp.md#configure-subpages) che verranno visualizzati agli utenti che inviano il modulo.
 
@@ -138,6 +137,10 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 1. Seleziona **[!UICONTROL Landing page]** dal **[!UICONTROL Link type]** elenco a discesa e seleziona il [pagina di destinazione](create-lp.md#configure-primary-page) creato per la rinuncia.
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >Per pubblicare il messaggio, accertati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
 
 1. Salva il contenuto e [pubblica il messaggio](../messages/publish-manage-message.md).
 
