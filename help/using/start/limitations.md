@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -30,8 +30,7 @@ Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Ad
 * Solo uno **Modulo** può essere utilizzato in una singola pagina primaria.
 * La **Modulo** non può essere utilizzato nelle pagine secondarie.
 * Non puoi aggiungere una preintestazione a una pagina di destinazione.
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* Non è possibile selezionare la **Codice personalizzato** durante la progettazione di una pagina principale di destinazione.
 
 ## Limitazioni nei percorsi {#limitations-journeys}
 
@@ -68,7 +67,7 @@ Di seguito sono riportate ulteriori limitazioni durante l’utilizzo di [!DNL Ad
 
 ### Origini dati {#data-sources}
 
-* Le origini dati esterne possono essere utilizzate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
+* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
 
 ### Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 

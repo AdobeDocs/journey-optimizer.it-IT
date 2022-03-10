@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1431'
 ht-degree: 10%
 
 ---
@@ -138,7 +138,7 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Una volta inviata la delega del sottodominio CNAME, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
 
-   Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che in genere richiedono da 2 a 3 ore. [Ulteriori informazioni](#subdomain-validation).
+   Prima di poter utilizzare tale sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che in genere richiedono da 2 a 3 ore. [Ulteriori informazioni](#subdomain-validation).
 
 1. Una volta eseguiti i controlli<!--i.e Adobe validates the record you created and installs it-->, il sottodominio ottiene **[!UICONTROL Success]** stato. È pronto per essere utilizzato per inviare messaggi.
 

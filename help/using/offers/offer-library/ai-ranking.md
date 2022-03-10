@@ -6,7 +6,8 @@ description: Scopri i modelli AI che consentono di classificare le offerte
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
+source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
@@ -116,4 +117,3 @@ Il problema &quot;Avvio a freddo&quot; si verifica quando una nuova offerta vien
 Ad esempio, se siamo interessati a misurare le prestazioni di una strategia di campionamento di Thompson (TS) utilizzata nel servizio di classificazione e il KPI è il tasso di conversione (CVR), l’&quot;incremento&quot; della strategia TS rispetto alla strategia di base è definito come:
 
 ![](../assets/ai-ranking-lift.png)
-

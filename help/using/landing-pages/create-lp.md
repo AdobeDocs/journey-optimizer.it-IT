@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '920'
 ht-degree: 2%
 
 ---
@@ -119,7 +119,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
 1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede l’esecuzione della delega del dominio. È precompilato e non può essere modificato tramite l’interfaccia utente di . Per configurarlo, contatta il tuo rappresentante commerciale di Adobe o il [Team di assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!CAUTION]
 >
->Per visualizzare l’anteprima dei messaggi e inviare delle bozze, devi disporre dei profili di test. Scopri come [creare profili di test](../building-journeys/creating-test-profiles.md).
+>Per visualizzare l’anteprima dei messaggi e inviare le bozze, devi disporre dei profili di test. Scopri come [creare profili di test](../building-journeys/creating-test-profiles.md).
 
 1. Nell’interfaccia della pagina di destinazione, fai clic sul pulsante **[!UICONTROL Preview & test]** per accedere alla selezione del profilo di test.
 
@@ -161,7 +161,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 ## Controllare gli avvisi {#check-alerts}
 
-Durante la creazione della pagina di destinazione, gli avvisi ti avvisano quando è necessario eseguire azioni importanti prima della pubblicazione.
+Durante la creazione della pagina di destinazione, gli avvisi ti avvisano quando devi eseguire azioni importanti prima di pubblicare.
 
 Gli avvisi vengono visualizzati in alto a destra dello schermo, come illustrato di seguito:
 
@@ -181,7 +181,7 @@ Possono verificarsi due tipi di avvisi:
 
 >[!CAUTION]
 >
-> È necessario risolvere tutti **errore** avvisi prima della pubblicazione.
+> Risolvere tutti i problemi **errore** avvisi prima della pubblicazione.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -195,7 +195,7 @@ Possono verificarsi due tipi di avvisi:
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## Pubblicare la pagina di destinazione {#publish-landing-page}

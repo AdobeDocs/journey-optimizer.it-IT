@@ -3,9 +3,10 @@ title: Configurazione della pagina di destinazione
 description: Scopri come configurare l’ambiente per creare e utilizzare pagine di destinazione con Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 2%
 >title="Configurare i sottodomini della pagina di destinazione"
 >abstract="Per selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione."
 
-Essere in grado di [creare predefiniti pagina di destinazione](#lp-create-preset), devi configurare i sottodomini che userai per le pagine di destinazione.
+Essere in grado di [creare predefiniti pagina di destinazione](#lp-create-preset), devi impostare i sottodomini che userai per le pagine di destinazione.
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe in [questa sezione](delegate-subdomain.md).
 
@@ -91,7 +92,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
    I sottodomini a più livelli come &#39;email.marketing.yourcompany.com&#39; al momento non sono supportati.
 
-1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla soluzione di hosting del dominio per generare il record DNS corrispondente.
+1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla tua soluzione di hosting del dominio per generare il record DNS corrispondente.
 
 1. Assicurati che il record DNS sia stato generato nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
 
@@ -113,7 +114,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
 ## Definire i predefiniti per le pagine di destinazione {#lp-define-preset}
 
-Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare e sfruttare la pagina di destinazione **[!DNL Journey Optimizer]**.
+Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
 
 ### Accedere ai predefiniti della pagina di destinazione {#lp-presets}
 
