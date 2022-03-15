@@ -4,9 +4,9 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
+source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Configurare i sottodomini della pagina di destinazione"
->abstract="Per selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione."
+>title="Creare un predefinito per pagina di destinazione"
+>abstract="Per poter creare un predefinito per la pagina di destinazione, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione da scegliere tra **Nome sottodominio** elenco."
 
 Essere in grado di [creare predefiniti pagina di destinazione](#lp-create-preset), devi impostare i sottodomini che userai per le pagine di destinazione.
 
