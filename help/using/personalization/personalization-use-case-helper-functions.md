@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1040'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,8 @@ Verranno utilizzati i seguenti tipi di funzioni di supporto:
 * La `if` helper, per inserire una nota specifica del prodotto se il prodotto correlato è nel carrello. [Ulteriori informazioni](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
+
+➡️ [Scopri come utilizzare le funzioni helper in questo video](#video)
 
 Prima di iniziare, assicurati di sapere come configurare questi elementi:
 * Un messaggio e-mail. [Ulteriori informazioni](../messages/create-message.md)
@@ -338,6 +340,8 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 * [Personalizzazione con offerta basata su decisione](../offers/offers-e2e.md)
 
-## Video tutorial{#helper-functions-video}
+## Video introduttivo{#video}
+
+Scopri come utilizzare le funzioni di supporto.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

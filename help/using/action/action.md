@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 68%
+source-wordcount: '248'
+ht-degree: 66%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 68%
 >abstract="In questa sezione è possibile definire la connessione al sistema che invierà i messaggi. Le azioni qui configurate saranno quindi disponibili nella palette a sinistra del percorso, nella categoria Azione. "
 
 Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail, SMS o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 [!DNL Journey Optimizer] viene fornito con funzionalità di messaggistica integrata. Fai riferimento a [questa sezione](../messages/get-started-content.md).
 
@@ -40,3 +42,9 @@ Le azioni sono disponibili nella palette a sinistra del percorso, nella **[!UICO
 Per visualizzare l’elenco delle azioni o configurarne una nuova, seleziona **[!UICONTROL Configurations]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
 ![](assets/custom1.png)
+
+## Video introduttivo {#video}
+
+Scopri come configurare azioni personalizzate.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)

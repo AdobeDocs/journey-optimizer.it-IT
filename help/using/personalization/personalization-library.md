@@ -5,9 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -21,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] fornisce una libreria in cui puoi accedere alle espressioni di personalizzazione salvate in precedenza che sono state aggiunte dagli utenti Admin.
 
-1. Per accedere alle espressioni salvate, fai clic sul pulsante **[!UICONTROL Library]** nel riquadro a sinistra. Nell’elenco sono visualizzate tutte le espressioni salvate dagli utenti Admin (vedi [Salvare le espressioni nella libreria](#save-expressions)).
+➡️ [Scopri come utilizzare le espressioni salvate in questo video](#video-preview)
 
-   >[!NOTE]
-   >
-   >Puoi utilizzare il pulsante info per ottenere ulteriori informazioni sul contenuto di un’espressione salvata. Se disponi delle autorizzazioni appropriate per gestire gli elementi della libreria, il pulsante informazioni verrà visualizzato nel menu ellisse.
+Per accedere alle espressioni salvate, fai clic sul pulsante **[!UICONTROL Library]** nel riquadro a sinistra. Nell’elenco sono visualizzate tutte le espressioni salvate dagli utenti Admin (vedi [Salvare le espressioni nella libreria](#save-expressions)).
 
-   ![](assets/library-list.png)
+    >[!NOTE]
+    >
+    >Puoi utilizzare il pulsante info per ottenere ulteriori informazioni sul contenuto di un’espressione salvata. Se disponi delle autorizzazioni appropriate per gestire gli elementi della libreria, il pulsante informazioni verrà visualizzato nel menu ellisse.
+    
+    ![](assets/library-list.png)
 
-1. Fai clic sul segno + per inserire l’espressione nell’editor. Puoi quindi personalizzare e convalidare il contenuto di personalizzazione come di consueto. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+Fai clic sul segno + per inserire l’espressione nell’editor. Puoi quindi personalizzare e convalidare il contenuto di personalizzazione come di consueto. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## Salvare un’espressione nella libreria {#save-expressions}
 
@@ -67,3 +70,10 @@ Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 Per modificare un’espressione esistente, aggiungilo all’editor, quindi modificala in base alle tue esigenze. Fai clic su **[!UICONTROL Add to library]** per convalidare la sintassi e salvare l’espressione.
 
 Per eliminare un’espressione, fai clic sul pulsante ellisse , quindi fai clic su **[!UICONTROL Delete]**.
+
+## Video introduttivo{#video}
+
+Scopri come utilizzare gli elementi libreria di personalizzazione salvati in un messaggio e come creare e gestire gli elementi libreria di personalizzazione.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+

@@ -4,10 +4,10 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 24%
+source-wordcount: '261'
+ht-degree: 23%
 
 ---
 
@@ -19,7 +19,7 @@ Scopri come creare i set di dati in [questa documentazione](https://experiencele
 
 L’aggiunta di dati a Adobe Experience Platform è la base per la creazione di un profilo. Potrai quindi sfruttare i profili in [!DNL Adobe Journey Optimizer]. Definisci innanzitutto gli schemi, utilizza gli strumenti ETL per preparare e standardizzare i dati, quindi crea i set di dati in base agli schemi.
 
-➡️ [Scopri come creare e configurare un set di dati](#video-dataset) (video)
+➡️ [Scopri come creare e configurare un set di dati in questo video](#video-dataset)
 
 La **Set di dati** nell&#39;area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente ti consente di esplorare i dati e creare set di dati.
 

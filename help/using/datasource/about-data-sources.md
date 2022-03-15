@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 72%
+source-wordcount: '312'
+ht-degree: 74%
 
 ---
 
@@ -27,6 +27,8 @@ La configurazione dell’origine dati consente di definire una connessione a un 
 * [Impostazione di attesa personalizzata.](../building-journeys/wait-activity.md#custom)
 * [Impostazione del fuso orario](../building-journeys/timezone-management.md)
 
+➡️ [Scopri questa funzione nel video](#video)
+
 Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività messaggio che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
 
 Esistono due tipi di origini dati:
@@ -41,3 +43,10 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 >Le relazioni tra schemi sono ora supportate per le origini dati.
 
 Per ulteriori informazioni su come configurare un’origine dati Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati in un percorso, consulta questo articolo [video tutorial](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.
+
+## Video introduttivo {#video}
+
+Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
+

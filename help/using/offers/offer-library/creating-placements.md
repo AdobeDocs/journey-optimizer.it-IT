@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Scopri come creare posizionamenti in questo video](#video)
 
 Nell’esempio seguente sono presenti tre posizioni, corrispondenti a diversi tipi di contenuto (immagine, testo, HTML).
 
@@ -48,10 +48,12 @@ Per creare un posizionamento, effettua le seguenti operazioni:
 
    ![](../assets/placement_created.png)
 
-## Video tutorial {#video}
+## Video introduttivo{#video}
+
+Scopri come creare i posizionamenti in Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 
 >[!NOTE]
 >
 >Questo video si applica al servizio di applicazione Offer Decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)

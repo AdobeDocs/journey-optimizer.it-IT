@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Le decisioni (precedentemente note come attività di offerta) sono contenitori per le offerte che sfrutteranno il modulo di decisione dell’offerta per scegliere l’offerta migliore da consegnare, a seconda del target della consegna.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Scopri come creare attività di offerta in questo video](#video)
 
 L&#39;elenco delle decisioni è accessibile nella **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** scheda . Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
 
@@ -221,10 +221,12 @@ Questo consente di accedere a informazioni dettagliate su tale decisione. Selezi
 
 ![](../assets/decision_information.png)
 
-## Video tutorial {#video}
+## Video introduttivo{#video}
+
+Scopri come creare attività di offerta in Offer Decisioning.
+
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 >[!NOTE]
 >
 >Questo video si applica al servizio di applicazione Offer Decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)

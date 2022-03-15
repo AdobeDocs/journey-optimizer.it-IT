@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '322'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Gli schemi sono il modo standard per descrivere i dati in Experience Platform, consentendo il riutilizzo di tutti i dati conformi agli schemi in un’organizzazione senza conflitti o anche condivisi tra più organizzazioni.
 
-➡️ [Scopri come creare e configurare uno schema](#video-schema) (video)
+➡️ [Scopri come creare e configurare uno schema in questo video](#video-schema) (video)
 
 Uno schema è un insieme di regole che rappresentano e convalidano la struttura e il formato dei dati. Ad alto livello, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza dell’oggetto (ad esempio nome, cognome, compleanno e così via).
 

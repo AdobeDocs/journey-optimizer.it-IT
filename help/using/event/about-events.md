@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 52%
+source-wordcount: '820'
+ht-degree: 56%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 52%
 >abstract="Un evento è collegato a una persona e si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Optimizer] farà da listener a questi dati, in modo da orchestrare le migliori azioni da eseguire successivamente."
 
 La configurazione dell’evento consente di definire le informazioni che [!DNL Journey Optimizer] riceverà sotto forma di eventi. È possibile utilizzare più eventi (in diversi passaggi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
-
->[!NOTE]
->
->Per ulteriori informazioni su come configurare un evento, consulta [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >
@@ -40,6 +36,8 @@ Puoi configurare due tipi di eventi:
 >[!NOTE]
 >
 >Se modifichi un evento utilizzato in una bozza di percorso o in un percorso live, puoi cambiare solo il nome e la descrizione oppure aggiungere i campi payload. Al fine di evitare l’interruzione dei percorsi, limitiamo rigorosamente la modifica delle bozze di percorso o dei percorsi live.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Tipo ID evento{#event-id-type}
 
@@ -66,3 +64,13 @@ Nell’intestazione del payload sono contenute le informazioni richieste per il 
 Una volta arrivati tramite le API Streaming Ingestion, gli eventi si propagano in un servizio interno denominato Pipeline e infine passano a Adobe Experience Platform. Se nello schema dell’evento è abilitato il flag Profilo del cliente in tempo reale ed è presente un ID set di dati con il medesimo flag, tale schema si propaga nel Profilo del cliente in tempo reale.
 
 Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentano un payload contenente [!DNL Journey Optimizer] eventIDs (vedi il processo di creazione dell’evento di seguito) fornito da [!DNL Journey Optimizer] e contenuti nel payload dell’evento. Per gli eventi basati su regole, il sistema identifica l&#39;evento utilizzando la condizione eventID . [!DNL Journey Optimizer] fa da listener agli eventi, il che attiva il percorso corrispondente.
+
+## Video sulle procedure {#video}
+
+Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

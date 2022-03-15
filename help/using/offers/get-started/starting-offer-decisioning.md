@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '908'
-ht-degree: 100%
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+workflow-type: tm+mt
+source-wordcount: '907'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ I vantaggi includono:
 * Flussi di lavoro migliorati: anziché creare più consegne o campagne, i team di marketing possono ottimizzare i flussi di lavoro creando un’unica consegna e variare le offerte in parti differenti del modello.
 * Potrai controllare il numero di volte in cui un’offerta viene visualizzata nelle varie campagne e dai diversi clienti.
 
-➡️ [Guarda questi video tutorial](#tutorial-videos) per saperne di più sulla gestione delle decisioni.
+➡️ [Ulteriori informazioni su Gestione delle decisioni in questi video](#video)
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
@@ -103,8 +103,7 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 * **Rappresentazioni**: per rappresentazione si intendono le informazioni utilizzate da un canale, ad esempio posizione o lingua, per mostrare un’offerta.
 
-
-## Video tutorial {#tutorial-videos}
+## Video sulle procedure{#video}
 
 >[!NOTE]
 >
@@ -121,3 +120,5 @@ Il video seguente fornisce un’introduzione alle funzionalità chiave di gestio
 Il video seguente mostra come utilizzare la funzione di gestione delle decisioni per definire e gestire le offerte e sfruttare i dati sui clienti in tempo reale.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

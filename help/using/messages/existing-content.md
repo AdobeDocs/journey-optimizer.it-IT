@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 9%
+source-wordcount: '366'
+ht-degree: 16%
 
 ---
 
 # Importare o codificare il contenuto delle e-mail {#existing-content}
 
 Journey Optimizer consente di importare contenuti HTML esistenti per progettare le e-mail. Questo contenuto può essere un codice HTML o contenuto non elaborato proveniente da un file HTML esistente o da una cartella zip.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 Per codificare il contenuto di HTML o importarlo, effettua le seguenti operazioni:
 
@@ -79,3 +81,9 @@ Per importare un file contenente contenuto HTML, effettua le seguenti operazioni
 1. Una volta caricato il contenuto di HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni](create-email-content.md).
 
    ![](assets/html-imported.png)
+
+## Video introduttivo {#video}
+
+Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina speculare e collegamenti per annullare l’abbonamento, e come programmare i contenuti.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

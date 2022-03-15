@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 # Generare segmenti {#build-segments}
 
 In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlanta, San Francisco, o Seattle e sono nati dopo il 1980. Tutti questi clienti avrebbero dovuto aprire l’applicazione Luma entro gli ultimi 7 giorni, quindi effettuare un acquisto entro 2 ore dall’apertura dell’applicazione.
+
+➡️ [Scopri come creare segmenti in questo video](#video-segment)
 
 1. Accedere al **[!UICONTROL Segments]** quindi fai clic sul **[!UICONTROL Create segment]** pulsante .
 
@@ -55,6 +57,8 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
 Il segmento può ora essere utilizzato nei percorsi. Per ulteriori informazioni al riguardo, consulta [questa sezione](../segment/about-segments.md).
 
-## Video tutorial{#create-segment-video}
+## Video introduttivo{#video-segment}
+
+Scopri come creare segmenti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

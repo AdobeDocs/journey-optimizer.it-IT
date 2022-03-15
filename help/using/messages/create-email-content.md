@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 0%
+source-wordcount: '1505'
+ht-degree: 1%
 
 ---
 
 # Progettazione del contenuto delle e-mail nell’interfaccia utente {#create-email-content}
 
 Una volta che [creato il messaggio](create-message.md), puoi iniziare a creare il contenuto dell’e-mail.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 1. Dal messaggio appena creato, seleziona **[!UICONTROL Email designer]** in **[!UICONTROL Body]** sezione .
 
@@ -282,3 +284,9 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 1. Modificare i valori degli attributi esistenti o aggiungerne di nuovi utilizzando il **+** pulsante . Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
 
 Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento padre.
+
+## Video introduttivo {#video}
+
+Scopri come creare contenuti e-mail con l’editor dei messaggi.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

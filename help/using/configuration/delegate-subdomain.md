@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 10%
+source-wordcount: '1462'
+ht-degree: 11%
 
 ---
 
@@ -96,6 +96,8 @@ La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utili
 >
 >Questo metodo è consigliato se i criteri dell&#39;organizzazione limitano il metodo di delega del sottodominio completo. Questo approccio richiede la gestione e la gestione autonoma dei record DNS. Adobe non sarà in grado di fornire assistenza per modificare, mantenere o gestire il DNS per un sottodominio configurato tramite il metodo CNAME.
 
+➡️ [Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici per Adobi in questo video](#video)
+
 Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
@@ -181,3 +183,9 @@ I controlli e le azioni seguenti vengono eseguiti fino a quando il sottodominio 
 1. **Crea DNS in avanti**: se si tratta del primo sottodominio che stai delegando, Adobe creerà il DNS in anticipo richiesto per creare record PTR, uno per ciascuno dei tuoi IP.
 
 1. **Crea record PTR**: Il record PTR, noto anche come record DNS inversi, è richiesto dagli ISP in modo che non contrassegnino le e-mail come spam. Gmail consiglia inoltre di disporre di record PTR per ogni IP. Adobe crea record PTR solo quando deleghi un sottodominio per la prima volta, uno per ogni IP, tutti gli IP che puntano a quel sottodominio. Ad esempio, se l’IP è *192.1.2.1* e il sottodominio è *email.example.com*, il record PTR sarà: *192.1.2.1 PTR r1.email.example.com*. È possibile aggiornare successivamente il record PTR in modo da puntare al nuovo dominio delegato. [Ulteriori informazioni sui record PTR](ptr-records.md)
+
+## Video introduttivo{#video}
+
+Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
+
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
