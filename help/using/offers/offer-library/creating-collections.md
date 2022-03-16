@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 95c6b69aa881a691b96a073dd89bb448c9a25283
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
 # Creare le raccolte {#create-collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_collection"
+>title="Informazioni sulle raccolte di offerte"
+>abstract="Con le raccolte di offerte, puoi organizzare le offerte raggruppandole in categorie a tua scelta.
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una collezione &quot;sport&quot; che conterrà solo offerte relative allo sport.
 
