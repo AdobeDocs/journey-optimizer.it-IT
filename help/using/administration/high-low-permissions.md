@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a27c19766c84d8c65e8b21ba381754758d60cae
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,10 @@ Include le seguenti autorizzazioni di basso livello:
    * percorsi_events.delete
    * percorsi_data_Sources.read
    * percorsi_data_Sources.write
-   * journeys_data_sources.delete
+   * percorsi_data_Sources.delete
    * percorsi_actions.read
-   * journeys_actions.write
-   * journeys_actions.delete
+   * percorsi_actions.write
+   * percorsi_actions.delete
 
 * Adobe Experience Platform specifico:
    * schemas.read
@@ -173,12 +173,12 @@ Include le seguenti autorizzazioni di basso livello:
 * Journey Optimizer specifico:
    * messages.publish
 
-* Adobe Experience Platform specific:
+* Adobe Experience Platform specifico:
    * profiles.read
    * schemas.read
    * datasets.read
 
-### [!DNL View messages] permission {#view-messages}
+### [!DNL View messages] autorizzazione {#view-messages}
 
 La **[!DNL View messages]** le autorizzazioni di alto livello consentono agli utenti di leggere solo i messaggi.
 
@@ -188,7 +188,7 @@ Include le seguenti autorizzazioni di basso livello:
    * messages.read
    * messages_presets.read
 
-* Adobe Experience Platform specific:
+* Adobe Experience Platform specifico:
    * schemas.read
    * segments.read
 
@@ -255,11 +255,11 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### [!DNL Publish offers decisioning] autorizzazione {#publish-decisions}
 
-The **[!DNL Publish offers decisioning]** high-level permission allows users to access to approve/un-approve Offer activities.
+La **[!DNL Publish offers decisioning]** le autorizzazioni di alto livello consentono agli utenti di accedere per approvare/annullare l’approvazione delle attività Offerta.
 
 Include le seguenti autorizzazioni di basso livello:
 
-* Decision management specific:
+* Gestione delle decisioni:
    * offers_activity.read
    * offers.read
    * offers.write
@@ -275,9 +275,9 @@ Include le seguenti autorizzazioni di basso livello:
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] autorizzazione {#manage-decisions}
+### [!DNL Manage ranking strategies] autorizzazione {#manage-ranking-strategies}
 
-La **[!DNL Manage ranking strategies]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare i rapporti sui messaggi personalizzati e di utilizzare le funzioni di azione.
+La **[!DNL Manage ranking strategies]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare le strategie di classificazione.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -297,9 +297,9 @@ La **[!DNL Manage subdomains delegation]** le autorizzazioni di alto livello con
 
 Include le seguenti autorizzazioni di basso livello:
 
-* subdomains_delegation.read
+* sottodomini_delegate.read
 * sottodomini_delegate.write
-* subdomains_delegation.delete
+* sottodomini_delegate.delete
 
 ### [!DNL Manage PTR records] autorizzazione {#manage-ptr}
 
@@ -311,7 +311,7 @@ Include le seguenti autorizzazioni di basso livello:
 * PTR_records.write
 * sottodomini_delegate.read
 
-### [!DNL View PTR records] permission {#view-ptr}
+### [!DNL View PTR records] autorizzazione {#view-ptr}
 
 La **[!DNL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
 
@@ -347,11 +347,11 @@ Include le seguenti autorizzazioni di basso livello:
 
 La **[!DNL View messages general settings]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l’indirizzo di esecuzione.
 
-It includes the following low-level permissions:
+Include le seguenti autorizzazioni di basso livello:
 
 * Journey Optimizer specifico:
    * messages_general_settings.read
-* Adobe Experience Platform specific:
+* Adobe Experience Platform specifico:
    * schemas.read
 
 ### [!DNL Manage messages presets] autorizzazione {#manage-message-presets}
@@ -393,18 +393,18 @@ Include le seguenti autorizzazioni di basso livello:
 
 ### [!DNL View suppression list] autorizzazione {#view-suppression-list}
 
-The **[!DNL View suppression list]** high-level permission allows users to view the suppression list content and settings.
+La **[!DNL View suppression list]** le autorizzazioni di alto livello consentono agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
 
-It includes the following low-level permissions:
+Include le seguenti autorizzazioni di basso livello:
 
 * Journey Optimizer specifico:
    * suppression_list.view
 
-* Adobe Experience Platform specific:
+* Adobe Experience Platform specifico:
    * profiles.read
    * datasets.read
 
-### [!DNL Export suppression list] permission {#export-suppression-list}
+### [!DNL Export suppression list] autorizzazione {#export-suppression-list}
 
 La **[!DNL Export suppression list]** le autorizzazioni di alto livello consentono agli utenti di scaricare l’elenco di soppressione come file CSV.
 

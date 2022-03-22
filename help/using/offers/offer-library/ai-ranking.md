@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Guida introduttiva ai modelli AI {#get-started-with-ai-rankings}
 
-Puoi utilizzare un sistema di modelli addestrato che classifica le offerte da visualizzare per un determinato profilo.
+[!DNL Journey Optimizer] consente di utilizzare un sistema di modelli addestrati che classifica le offerte da visualizzare per un determinato profilo.
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ Puoi utilizzare un sistema di modelli addestrato che classifica le offerte da vi
 Questa funzione consente di creare **Modelli AI** in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrati ti aiuterà a comprendere in che modo i diversi modelli AI influenzano i tuoi obiettivi.
 
 Ad esempio, puoi selezionare un modello AI per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrati sfrutterà più punti di dati per determinare quale offerta deve essere presentata prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di un [formula di classificazione](create-ranking-formulas.md).
-
-Una volta creato un modello AI, assegnalo a un posizionamento in una decisione. Ulteriori informazioni in [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >
