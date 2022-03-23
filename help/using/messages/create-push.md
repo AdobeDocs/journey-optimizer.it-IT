@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 11%
+source-wordcount: '1403'
+ht-degree: 10%
 
 ---
 
 # Creare una notifica push {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push"
+>title="Creazione di messaggi push"
+>abstract="Aggiungi il messaggio push e inizia a personalizzarlo con l’editor espressioni."
+
 
 Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in qualsiasi momento, specialmente quando non stanno utilizzando attivamente l’app. Le notifiche push possono aiutarti a raggiungere una varietà di casi d’uso, come fornire aggiornamenti sul tuo servizio, chiedere a un utente di agire, avvisare l’utente di una nuova offerta, ecc. Le piattaforme di dispositivi richiedono l’opt-in prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere l’opt-in dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione oppure in una sessione o in un flusso di lavoro successivi, a seconda dei casi.
 
