@@ -3,9 +3,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2697'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Pagine di destinazione dell’abbonamento</strong><br/></th>
+<th><strong>Pagine di destinazione di iscrizione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare e progettare pagine di destinazione in Journey Optimizer e indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o abbonarsi a un servizio specifico, ad esempio una newsletter.</p>
+<p>È ora possibile creare e progettare pagine di destinazione in Journey Optimizer e indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o iscriversi a un servizio specifico, ad esempio una newsletter.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../landing-pages/create-lp.md">documentazione dettagliata</a> e alcuni <a href="../landing-pages/lp-use-cases.md">esempi di casi d’uso</a>.</p>
 </td>
 </tr>
