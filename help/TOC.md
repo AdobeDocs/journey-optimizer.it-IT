@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per fornire ai clienti esperi
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 98%
       + Utilizzare l’editor di espressioni {#expression-editor}
          + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
          + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
-         + [Utilizzare espressioni salvate](using/personalization/personalization-library.md)
+         + [Utilizza espressioni salvate](using/personalization/personalization-library.md)
          + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
       + Funzioni assistenza{#functions}
          + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
@@ -244,9 +244,9 @@ ht-degree: 98%
       + [Creare regole di decisione](using/offers/offer-library/creating-decision-rules.md)
       + [Creare tag](using/offers/offer-library/creating-tags.md)
       + [Creare formule di classificazione](using/offers/offer-library/create-ranking-formulas.md)
-      + Creare modelli di classificazione AI {#create-ai-ranking-models}
+      + Crea modelli di classificazione AI {#create-ai-ranking-models}
          + [Informazioni sui modelli AI](using/offers/offer-library/ai-ranking.md)
-         + [Creare modelli AI](using/offers/offer-library/create-ranking-strategies.md)
+         + [Crea modelli AI](using/offers/offer-library/create-ranking-strategies.md)
    + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
       + [Creare offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
       + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
@@ -337,8 +337,8 @@ ht-degree: 98%
             + [Nuovi tentativi](using/configuration/retries.md)
          + [Cambiare indirizzo e-mail principale](using/configuration/primary-email-addresses.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
-      + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
-   + [Configurare le pagine di destinazione](using/configuration/lp-configuration.md)
+      + [Crea predefiniti per messaggi](using/configuration/message-presets.md)
+   + [Configura le pagine di destinazione](using/configuration/lp-configuration.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + [Integrare con sistemi esterni](using/configuration/external-systems.md)
