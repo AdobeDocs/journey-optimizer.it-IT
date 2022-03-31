@@ -4,14 +4,14 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: e9878246c2af5c7ee0f961aaaad64e186431d96e
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
 
 ---
 
-# Configurare le pagine di destinazione {#lp-configuration}
+# Configura le pagine di destinazione {#lp-configuration}
 
 ## Configurare i sottodomini della pagina di destinazione {#lp-subdomains}
 
@@ -160,7 +160,7 @@ Per creare un predefinito per una pagina di destinazione, segui i passaggi ripor
 
    Vengono visualizzate le impostazioni corrispondenti al sottodominio selezionato.
 
-1. Se desideri selezionare il sottodominio della pagina di destinazione come URL di tracciamento, controlla la **[!UICONTROL Same as landing page subdomain]** opzione . [Ulteriori informazioni sul tracciamento](../messages/message-tracking.md)
+1. Se desideri selezionare il sottodominio della pagina di destinazione come URL di tracciamento, controlla la **[!UICONTROL Same as landing page subdomain]** opzione . [Ulteriori informazioni sul tracciamento](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

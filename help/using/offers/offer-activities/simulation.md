@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 61d716fcc1394a32ca7cb9b4c13d28b073135592
+source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Per accedere a questa funzione, seleziona la **[!UICONTROL Simulation]** dalla s
 
 ## Selezionare i profili di test {#select-test-profiles}
 
-Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazione. Ulteriori informazioni sui profili di test in [questa pagina](../../building-journeys/creating-test-profiles.md).
+Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazione. Ulteriori informazioni sui profili di test in [questa pagina](../../segment/creating-test-profiles.md).
 
 1. Fai clic su **[!UICONTROL Manage profile]**.
 
@@ -47,7 +47,7 @@ Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazio
 
    >[!NOTE]
    >
-   >Uno spazio dei nomi di identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID CRM. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Uno spazio dei nomi di identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID CRM. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Immetti il valore dell&#39;identità e fai clic su **[!UICONTROL View]** per elencare i profili disponibili.
 

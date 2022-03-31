@@ -1,19 +1,19 @@
 ---
-title: Utilizzare espressioni salvate
+title: Utilizza espressioni salvate
 description: Scopri come utilizzare le espressioni salvate dal [!DNL Journey Optimizer] libreria.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
-# Utilizzare espressioni salvate {#expression-library}
+# Utilizza espressioni salvate {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -58,8 +58,6 @@ Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 
 
 >[!NOTE]
->
->* Puoi salvare fino a 40 espressioni nella libreria.
 >
 >* Le espressioni non possono superare i 200 KB.
 >

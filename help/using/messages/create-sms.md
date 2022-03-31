@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 >
 > L’utilizzo del canale SMS è attualmente disponibile in accesso anticipato solo per determinati utenti. Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
 
-Una volta [creato un messaggio](create-message.md), utilizza **[!UICONTROL SMS]** per definire le impostazioni e il contenuto per il canale SMS.
+Una volta [creato un messaggio](get-started-content.md), utilizza **[!UICONTROL SMS]** per definire le impostazioni e il contenuto per il canale SMS.
 
 ![](assets/sms_1.png)
 
@@ -47,7 +47,7 @@ Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 
 1. Fai clic su **[!UICONTROL Save]** quando il messaggio personalizzato è pronto.
 
-1. Fai clic su **[!UICONTROL Preview]** per visualizzare come verrà visualizzato il messaggio SMS sui dispositivi mobili. Per ulteriori informazioni al riguardo, consulta [questa sezione](preview.md).
+1. Fai clic su **[!UICONTROL Preview]** per visualizzare come verrà visualizzato il messaggio SMS sui dispositivi mobili. Per ulteriori informazioni al riguardo, consulta [questa sezione](../design/preview.md).
 
 1. Quando il messaggio è pronto, puoi pubblicarlo per renderlo disponibile per l’esecuzione con il **[!UICONTROL Publish]** pulsante . Questa azione pubblica la nuova versione del messaggio che verrà utilizzata per le successive esecuzioni nei tuoi percorsi.
 
@@ -56,5 +56,5 @@ Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 **Argomenti correlati**
 
 * [Configurare il canale SMS](../configuration/sms-configuration.md)
-* [Creare un nuovo messaggio](create-message.md)
+* [Creare un nuovo messaggio](get-started-content.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)

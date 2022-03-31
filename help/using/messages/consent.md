@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 82%
 
 ---
 
@@ -51,9 +51,9 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 
 1. Inseriscilo sul sistema di terze parti a tua scelta.
 
-1. [Crea un messaggio](create-message.md) in [!DNL Journey Optimizer].
+1. [Crea un messaggio](get-started-content.md) in [!DNL Journey Optimizer].
 
-1. Seleziona il testo nel contenuto e [inserisci un collegamento](message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale.
+1. Seleziona il testo nel contenuto e [inserisci un collegamento](../design/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale.
 
    ![](assets/opt-out-insert-link.png)
 
@@ -141,7 +141,7 @@ Poiché molti clienti cercano un processo più semplice per annullare l’abbona
 
 Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura seguente.
 
-1. [Inserisci un collegamento](message-tracking.md#insert-links) e seleziona **[!UICONTROL One click Opt-out]** come tipo di collegamento.
+1. [Inserisci un collegamento](../design/message-tracking.md#insert-links) e seleziona **[!UICONTROL One click Opt-out]** come tipo di collegamento.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -155,6 +155,10 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
 
 1. Immetti l’URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
 
+   >[!NOTE]
+   >
+   >Se hai attivato la **Annulla sottoscrizione elenco** a livello del predefinito del messaggio, questo URL verrà utilizzato anche quando gli utenti fanno clic sul collegamento di annullamento dell’abbonamento nell’intestazione dell’e-mail. [Ulteriori informazioni](#unsubscribe-header)
+
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md).
@@ -163,19 +167,41 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
 
 Quando il messaggio viene inviato tramite un [percorso](../building-journeys/journey.md), se un destinatario fa clic sul collegamento di rinuncia, il suo profilo viene immediatamente escluso.
 
-### Collegamento per annullare l’abbonamento nell’intestazione del messaggio {#unsubscribe-email}
+### Collegamento per annullare l’abbonamento nell’intestazione del messaggio {#unsubscribe-header}
 
-Se il client e-mail dei destinatari supporta la visualizzazione di un collegamento di annullamento all’abbonamento nell’intestazione e-mail, le e-mail inviate con [!DNL Journey Optimizer] includono automaticamente questo collegamento.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Aggiungi un collegamento per annullare l’abbonamento all’intestazione dell’e-mail"
+>abstract="Abilita Annulla sottoscrizione a elenco per aggiungere un collegamento di annullamento all’abbonamento all’intestazione dell’e-mail. Per impostare un URL per l’annullamento della sottoscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Rinuncia con un clic"
+
+Se la [Opzione Annulla sottoscrizione elenco](../configuration/message-presets.md#list-unsubscribe) è attivato a livello di predefinito del messaggio, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includerà un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail.
 
 Ad esempio, il collegamento per annullare l’abbonamento verrà visualizzato in Gmail in questo modo:
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
 
-A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione si verifica uno dei seguenti impatti:
+>[!NOTE]
+>
+>Per visualizzare il collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
+
+L’indirizzo predefinito per l’annullamento della sottoscrizione è **[!UICONTROL Mailto (unsubscribe)]** indirizzo visualizzato nel predefinito messaggio corrispondente. [Ulteriori informazioni](../configuration/message-presets.md#list-unsubscribe).
+
+Per impostare un URL personalizzato per l’annullamento della sottoscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato. [Ulteriori informazioni](#one-click-opt-out)
+
+A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione possono avere i seguenti impatti:
+
+* La richiesta di annullamento dell’abbonamento viene inviata all’indirizzo di annullamento dell’abbonamento.
+
+* Il destinatario viene indirizzato all’URL della pagina di destinazione specificato al momento dell’aggiunta del collegamento di rinuncia al messaggio.
+
+   >[!NOTE]
+   >
+   >Se non aggiungi un collegamento di rinuncia con un solo clic al contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
 * Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-* Ha lo stesso effetto di fare clic sul collegamento per annullare l’abbonamento dal contenuto dell’e-mail: il destinatario viene reindirizzato a una pagina di destinazione con un pulsante per confermare la rinuncia. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](#opt-out-management).
+<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Gestione degli opt-out per notifiche push {#push-opt-out-management}
 

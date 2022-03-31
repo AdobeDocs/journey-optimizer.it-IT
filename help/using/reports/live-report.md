@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ I dati sono disponibili nella **[!UICONTROL Live report]** non appena la consegn
 
    ![](assets/report_2.png)
 
+* Se desideri passare dalla **[!UICONTROL Live report]** al **[!UICONTROL Global report]** per la consegna, fai clic su **[!UICONTROL Global view]** dal commutatore di tabulazione.
+
+   ![](assets/report_3.png)
+
 ## Personalizza dashboard {#modify-dashboard}
 
 Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget. La modifica dei widget influisce solo sul dashboard dell&#39;utente corrente. Altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
 1. Scegli se escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+
+   Tieni presente che **[!UICONTROL Exclude test events]** è disponibile solo per i rapporti di Percorso.
 
    ![](assets/report_modify_6.png)
 

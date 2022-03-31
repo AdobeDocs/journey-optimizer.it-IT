@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 3%
@@ -28,8 +28,8 @@ Verranno utilizzati i seguenti tipi di funzioni di supporto:
 ➡️ [Scopri come utilizzare le funzioni helper in questo video](#video)
 
 Prima di iniziare, assicurati di sapere come configurare questi elementi:
-* Un messaggio e-mail. [Ulteriori informazioni](../messages/create-message.md)
-* Il corpo di un’e-mail. [Ulteriori informazioni](../messages/create-email-content.md).
+* Un messaggio e-mail. [Ulteriori informazioni](../messages/get-started-content.md)
+* Il corpo di un’e-mail. [Ulteriori informazioni](../design/create-email-content.md).
 * Un evento unitario. [Ulteriori informazioni](../event/about-events.md).
 * Percorso che inizia con un evento. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
       **[!UICONTROL Contextual attributes]** sono disponibili solo dopo che il contesto del percorso è stato trasmesso al messaggio.
 
-   1. Seleziona **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, quindi espandi il **[!UICONTROL productListItems]** nodo.
+   1. Seleziona **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, quindi espandi il **[!UICONTROL productListItems]** nodo.
 
       In questo esempio, *nome_evento* rappresenta il nome dell&#39;evento.
 

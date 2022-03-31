@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '839'
 ht-degree: 3%
 
 ---
 
 # Passa da un percorso all&#39;altro {#jump}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_jump"
+>title="Attività Jump"
+>abstract="L’attività di azione Jump (Passa a) consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di semplificare la progettazione di percorsi e percorsi molto complessi basati su modelli di percorso comuni e riutilizzabili."
 
 La **[!UICONTROL Jump]** l’attività azione ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
 

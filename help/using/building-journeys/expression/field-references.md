@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 408e224eeac09baafb0d91a15c44eadf885a62c3
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '553'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Nell&#39;espressione, ai campi evento viene fatto riferimento con &quot;@&quot; 
 
 Il colore della sintassi viene utilizzato per distinguere visivamente i campi evento (verde) dai gruppi di campi (blu).
 
-## Valori predefiniti per i riferimenti di campo
+## Valori predefiniti per i riferimenti di campo {#default-value}
 
 Un valore predefinito può essere associato a un nome di campo. La sintassi è la seguente:
 
@@ -86,6 +86,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+È possibile aggiungere qualsiasi tipo di espressione come valore predefinito. L’unico vincolo consiste nel fatto che l’espressione deve restituire il tipo di dati previsto. Quando si utilizza una funzione, è necessario incapsulare la funzione con ().
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Riferimento a un campo nelle raccolte

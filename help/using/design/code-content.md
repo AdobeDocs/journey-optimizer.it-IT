@@ -1,0 +1,45 @@
+---
+title: Creare un codice per il proprio contenuto e-mail
+description: Scopri come codificare il tuo contenuto e-mail
+feature: Overview
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 13%
+
+---
+
+# Creare un codice per il proprio contenuto {#code-content}
+
+Utilizza la **[!UICONTROL Code your own]** per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+
+➡️ [Scopri questa funzione nel video](#video)
+
+>[!CAUTION]
+>
+> Immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md) impossibile fare riferimento quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
+
+1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Code your own]**.
+
+   ![](assets/code-your-own.png)
+
+1. Immetti o incolla il codice HTML non elaborato.
+
+1. Utilizza il riquadro a sinistra per sfruttare [!DNL Journey Optimizer] funzionalità di personalizzazione. Per ulteriori informazioni al riguardo, consulta [questa sezione](../personalization/personalize.md).
+
+   ![](assets/code-editor.png)
+
+1. Se desideri aprire E-mail Designer per avviare l’e-mail da una nuova progettazione, seleziona **[!UICONTROL Change your design]** dal menu delle opzioni.
+
+   ![](assets/code-editor-change-design.png)
+
+1. Fai clic sul pulsante **[!UICONTROL Preview]** per controllare la progettazione e la personalizzazione dei messaggi utilizzando i profili di test. Per ulteriori informazioni al riguardo, consulta [questa sezione](preview.md).
+
+   ![](assets/code-editor-preview.png)
+
+1. Quando il codice è pronto, fai clic su **[!UICONTROL Save]** quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
+
+   ![](assets/code-editor-save.png)

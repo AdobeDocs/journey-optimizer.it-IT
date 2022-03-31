@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1752'
 ht-degree: 7%
 
 ---
@@ -68,6 +68,11 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi attrav
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Modifica delle proprietà {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Proprietà del percorso"
+>abstract="Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire un Timeout e una durata dell’errore se sei un amministratore."
 
 Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
 

@@ -3,7 +3,7 @@ title: Guida introduttiva di Journey Optimizer per data engineer
 description: In qualità di data engineer, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 9%
@@ -25,7 +25,7 @@ Scopri come **identificare dati e creare schema e set di dati** per inserire i d
 
 I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitati per i profili e i profili di test sono descritti nelle sezioni seguenti:
 
-1. **Creare uno spazio dei nomi di identità**. In Adobe [!DNL Journey Optimizer], **Identità** collega i consumatori tra dispositivi e canali, il risultato è un grafico dell&#39;identità. Il grafico dell’identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Ulteriori informazioni su identità e namespace di identità [in questa pagina](../get-started-identity.md).
+1. **Creare uno spazio dei nomi di identità**. In Adobe [!DNL Journey Optimizer], **Identità** collega i consumatori tra dispositivi e canali, il risultato è un grafico dell&#39;identità. Il grafico dell’identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Ulteriori informazioni su identità e namespace di identità [in questa pagina](../../segment/get-started-identity.md).
 
 1. **Creare uno schema** e abilitalo per i profili. Uno schema è un insieme di regole che rappresentano e convalidano la struttura e il formato dei dati. Ad alto livello, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza dell’oggetto (ad esempio nome, cognome, compleanno e così via).  Ulteriori informazioni sugli schemi [in questa pagina](../get-started-schemas.md).
 
@@ -33,7 +33,7 @@ I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitat
 
 1. **Configurare i connettori di origine**. Adobe Percorsi Optimizer consente di acquisire dati da sorgenti esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse sorgenti, come applicazioni di Adobe, archivi basati su cloud, database e molti altri. Ulteriori informazioni sui connettori sorgente [in questa pagina](../get-started-sources.md).
 
-1. **Creare profili di test**. I profili di test sono necessari quando si utilizza il [modalità di prova](../../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e verificare i messaggi](../../messages/preview.md) prima dell’invio. Scopri i passaggi per creare profili di test [in questa pagina](../../building-journeys/creating-test-profiles.md).
+1. **Creare profili di test**. I profili di test sono necessari quando si utilizza il [modalità di prova](../../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e verificare i messaggi](../../design/preview.md) prima dell’invio. Scopri i passaggi per creare profili di test [in questa pagina](../../segment/creating-test-profiles.md).
 
 
 Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. [Ulteriori informazioni](../../configuration/about-data-sources-events-actions.md).

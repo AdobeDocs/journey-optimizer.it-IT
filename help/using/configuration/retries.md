@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Quando un messaggio e-mail non riesce a causa di un messaggio temporaneo **Rimba
 
 >[!NOTE]
 >
->Ulteriori informazioni sui tipi di errori nel [Tipi di errori di consegna](../messages/suppression-list.md#delivery-failures) sezione .
+>Ulteriori informazioni sui tipi di errori nel [Tipi di errori di consegna](../reports/suppression-list.md#delivery-failures) sezione .
 
 Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
@@ -45,7 +45,7 @@ Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi mo
 
    >[!CAUTION]
    >
-   >Qualsiasi valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché limitazione o inserire nell&#39;elenco Bloccati IP da parte degli ISP. [Ulteriori informazioni sul recapito messaggi](../messages/deliverability.md)
+   >Qualsiasi valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché limitazione o inserire nell&#39;elenco Bloccati IP da parte degli ISP. [Ulteriori informazioni sul recapito messaggi](../reports/deliverability.md)
 
 ## Periodo di tempo di un nuovo tentativo {#retry-duration}
 

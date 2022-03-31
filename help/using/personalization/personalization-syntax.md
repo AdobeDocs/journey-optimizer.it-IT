@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 10%
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 # Sintassi di personalizzazione {#personalization-syntax}
 
-Personalizzazione in [!DNL Journey Optimizer] si basa sulla sintassi del modello denominata Handlebars.
+Personalization in [!DNL Journey Optimizer] si basa sulla sintassi del modello denominata Handlebars.
 Per una descrizione completa della sintassi Handlebars, fai riferimento a [Documentazione di HandlebarsJS](https://handlebarsjs.com/).
 
 Utilizza un modello e un oggetto di input per generare HTML o altri formati di testo. I modelli Handlebars hanno un aspetto simile al testo normale con espressioni Handlebars incorporate.
@@ -149,7 +149,7 @@ Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un s
 
 Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per personalizzare un URL, effettua le seguenti operazioni:
 
-1. Crea un collegamento nel contenuto del messaggio. [Ulteriori informazioni](../messages/message-tracking.md#insert-links)
+1. Crea un collegamento nel contenuto del messaggio. [Ulteriori informazioni](../design/message-tracking.md#insert-links)
 1. Seleziona gli attributi dall’icona di personalizzazione. L’icona di personalizzazione è disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
 
 ![](assets/perso-url.png)

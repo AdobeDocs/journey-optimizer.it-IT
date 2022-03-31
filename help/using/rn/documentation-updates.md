@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 100%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
-
 ## Marzo 2022 {#march-2022}
 
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 marzo è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stata aggiunta una nuova pagina nella guida introduttiva ai modelli AI alla sezione **Offer decisioning**, compresa una descrizione dettagliata del [modello di ottimizzazione automatica](../offers/offer-library/ai-ranking.md#auto-optimization), l’algoritmo utilizzato e ulteriori dettagli tecnici. [Ulteriori informazioni](../offers/offer-library/ai-ranking.md)
+* La pagina di creazione del profilo di test è stata spostata nella  **Segmento, profili e identità** sezione . [Ulteriori informazioni](../segment/creating-test-profiles.md)
+* Nell’editor espressioni è stato aggiunto un esempio su come aggiungere un’espressione come valore predefinito. [Ulteriori informazioni](../building-journeys/expression/field-references.md#default-value)
+* La **Modificare gli indirizzi e-mail principali** la sezione è stata aggiornata per riflettere le modifiche all’interfaccia utente. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
 ## Febbraio 2022 {#feb-2022}
 
@@ -32,7 +35,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La sezione relativa alle funzionalità di personalizzazione di [!DNL Journey Optimizer] è stata riorganizzata per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
 * La sezione **Creare predefiniti messaggi** è stata suddivisa in diverse sezioni per migliorarne la chiarezza. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
 * La sezione sulla **gestione delle rinunce** è stata chiarita e leggermente riorganizzata. [Ulteriori informazioni](../messages/consent.md#opt-out-management)
-* La sezione su come **inserire i collegamenti** è stata aggiornata per riflettere le recenti modifiche apportate all’interfaccia utente. [Ulteriori informazioni](../messages/message-tracking.md#insert-links)
+* La sezione su come **inserire i collegamenti** è stata aggiornata per riflettere le recenti modifiche apportate all’interfaccia utente. [Ulteriori informazioni](../design/message-tracking.md#insert-links)
 
 ## Novembre 2021 {#november-2021}
 
@@ -92,8 +95,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una sezione sulle funzioni e sui collegamenti di accesso facilitato. [Ulteriori informazioni](../start/user-interface.md#accessibility)
 * È stata aggiunta una sezione sui metodi di valutazione dei segmenti. [Ulteriori informazioni](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/email-global-report.md)
-* È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../messages/allow-list.md#reporting)
-* È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../messages/allow-list.md#enable-allow-list)
+* È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../reports/allow-list.md#reporting)
+* È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../reports/allow-list.md#enable-allow-list)
 * È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/message-presets.md#monitor-message-presets)
 * È stata aggiornata e rinominata la sezione Intervallo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti per i messaggi. [Ulteriori informazioni](../configuration/retries.md#retry-duration)
 * È stata aggiunta una nuova sezione che descrive come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono stati aggiunti collegamenti alla descrizione del prodotto [!DNL Journey Optimizer] nella pagina principale
 * In diverse pagine sono stati aggiunti tutorial video
 * Immagini ottimizzate della pagina principale
-* La sezione “Tracciamento messaggi” è stata spostata, migliorata e rinominata in “Aggiungere collegamenti e tenere traccia dei messaggi”. [Ulteriori informazioni](../messages/message-tracking.md)
-* È stata aggiunta una sottosezione sulle pagine speculari. [Ulteriori informazioni](../messages/message-tracking.md#mirror-page)
+* La sezione “Tracciamento messaggi” è stata spostata, migliorata e rinominata in “Aggiungere collegamenti e tenere traccia dei messaggi”. [Ulteriori informazioni](../design/message-tracking.md)
+* È stata aggiunta una sottosezione sulle pagine speculari. [Ulteriori informazioni](../design/message-tracking.md#mirror-page)
 * Nella documentazione e nelle schermate le “attività di offerta” sono state rinominate “decisioni” e le “decisioni” sono state rinominate “ambiti decisionali”. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con le funzioni di assistenza](../personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](../building-journeys/read-segment.md)

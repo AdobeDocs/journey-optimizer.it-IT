@@ -4,7 +4,7 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 23%
@@ -38,6 +38,6 @@ Scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e co
 
 **Consulta anche**
 
-* [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../building-journeys/creating-test-profiles.md)
+* [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../segment/creating-test-profiles.md)
 * [Panoramica sull’acquisizione in streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target=&quot;_blank&quot;}
 * [Inserire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}

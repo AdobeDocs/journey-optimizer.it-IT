@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 12%
+source-wordcount: '1116'
+ht-degree: 11%
 
 ---
 
 # Configurare un evento di business {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="Eventi aziendali"
+>abstract="La configurazione dell’evento ti consente di definire le informazioni che Journey Optimizer riceverà sotto forma di eventi. È possibile utilizzare più eventi (in diversi passaggi di un percorso) e diversi percorsi possono utilizzare lo stesso evento. A differenza degli eventi unitari, gli eventi aziendali non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole."
 
 A differenza degli eventi unitari, gli eventi aziendali non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole. Ulteriori informazioni sugli eventi aziendali in [questa sezione](../event/about-events.md).
 
@@ -23,11 +28,12 @@ Gli eventi di business possono essere &quot;un prodotto è di nuovo in magazzino
 
 >[!NOTE]
 >
->È inoltre possibile osservare il caso d’uso dell’evento aziendale [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>È inoltre possibile osservare il caso d’uso dell’evento aziendale [tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 
-* Sono disponibili solo gli schemi di serie temporali. Gli schemi Eventi esperienza, Eventi decisionali e Eventi di Percorso non sono disponibili. Lo schema dell&#39;evento deve contenere un&#39;identità primaria. I campi seguenti devono essere impostati come richiesto: `_id` e `timestamp`
+* Sono disponibili solo gli schemi di serie temporali. Gli schemi Eventi esperienza, Eventi decisionali e Eventi di Percorso non sono disponibili.
+* Lo schema dell&#39;evento deve contenere un&#39;identità primaria non basata su persone. Quando definisci l’evento, è necessario selezionare i campi seguenti: `_id` e `timestamp`
 * Gli eventi aziendali possono essere eliminati solo come primo passo di un percorso.
 * Quando si rilascia un evento business come primo passaggio di un percorso, il tipo di pianificazione del percorso sarà &quot;evento business&quot;.
 * Solo un’attività di segmento di lettura può essere rilasciata dopo un evento aziendale. Viene aggiunto automaticamente come passaggio successivo.
@@ -78,7 +84,7 @@ Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
 
    ![](assets/jo-event5-business.png)
 
-   Sono disponibili solo gli schemi di serie temporali. Gli schemi Eventi esperienza, Eventi decisionali e Eventi di Percorso non sono disponibili. Lo schema dell&#39;evento deve contenere un&#39;identità primaria. I campi seguenti devono essere impostati come richiesto: `_id` e `timestamp`
+   Sono disponibili solo gli schemi di serie temporali. Gli schemi Eventi esperienza, Eventi decisionali e Eventi di Percorso non sono disponibili. Lo schema dell&#39;evento deve contenere un&#39;identità primaria non basata su persone. Quando definisci l’evento, è necessario selezionare i campi seguenti: `_id` e `timestamp`
 
    ![](assets/test-profiles-4.png)
 

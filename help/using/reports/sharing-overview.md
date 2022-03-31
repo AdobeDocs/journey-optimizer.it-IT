@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 4%
+source-wordcount: '502'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ Oltre a [rapporti in tempo reale](live-report.md) e incorporati [funzionalità d
 
 >[!NOTE]
 >
->Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Per gli eventi delle fasi del profilo di percorso, l’attivazione avviene su richiesta. Non è possibile modificare o aggiornare gli schemi e i set di dati creati durante il provisioning per gli eventi delle fasi. Per impostazione predefinita, questi schemi e set di dati sono in modalità di sola lettura.
+>Questa funzione è attivata per impostazione predefinita su tutte le istanze per gli eventi dei passaggi percorso. Non è possibile modificare o aggiornare gli schemi e i set di dati creati durante il provisioning per gli eventi delle fasi. Per impostazione predefinita, questi schemi e set di dati sono in modalità di sola lettura.
 
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Optimizer] dati con dati evento a valle come quante conversioni si sono verificate, quanto coinvolgimento è avvenuto sul sito web o quante transazioni sono avvenute nel negozio. Le informazioni sul percorso possono essere combinate con i dati su Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline per fornire una visione più completa delle prestazioni.
 
@@ -31,11 +31,10 @@ L’elenco dei campi XDM passati è completo. Alcuni contengono codici generati 
 >
 >Impossibile attivare i set di dati per il servizio di profilo in tempo reale. Assicurati che la **[!UICONTROL Profile]** l&#39;interruttore è disattivato.
 
-I percorsi inviano i dati mentre si verificano, in modo streaming. È possibile eseguire query su questi dati utilizzando il servizio query. È possibile connettersi a strumenti di Customer Journey Analytics o altri strumenti BI per visualizzare i dati relativi a questi passaggi.
+[!DNL Journey Optimizer] invia i dati mentre si verificano, in modo streaming. È possibile eseguire query su questi dati utilizzando il servizio query. È possibile connettersi a strumenti di Customer Journey Analytics o altri strumenti BI per visualizzare i dati relativi a questi passaggi.
 
 Vengono creati i seguenti schemi:
 
-* Schema evento del profilo del passaggio del percorso per [!DNL Journey Orchestration] - Eventi di esperienza per i passaggi effettuati in un Percorso insieme a una mappa di identità da utilizzare per la mappatura a un singolo partecipante a un Percorso.
 * Schema evento del passaggio del percorso per [!DNL Journey Orchestration] - Evento Percorso associato a un Percorso di metadati.
 * Schema percorso con campi Percorso per [!DNL Journey Orchestration] - Metadati Percorso per descrivere i Percorsi.
 
@@ -45,7 +44,6 @@ Vengono creati i seguenti schemi:
 
 Vengono passati i seguenti set di dati:
 
-* Schema evento del profilo del passaggio del percorso per [!DNL Journey Orchestration]
 * Eventi percorso
 * Percorsi
 
@@ -60,9 +58,11 @@ Per ulteriori informazioni sugli eventi dei passaggi che trasmettono a Adobe Exp
 
 ## Integrazione con il Customer Journey Analytics {#integration-cja}
 
-Gli eventi dei passaggi Journey Optimizer possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il flusso di lavoro generale è il seguente:
+[!DNL Journey Optimizer] gli eventi di passaggio possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target=&quot;_blank&quot;}.
 
-* Il Customer Journey Analytics acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
-* La **profileID** il campo nello &quot;schema evento del passaggio del Percorso per il Journey Orchestration&quot; associato è definito come campo Identity. Al Customer Journey Analytics, puoi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
-* Se desideri utilizzare questo set di dati in Customer Journey Analytics, per l’analisi dei percorsi cross-channel, consulta questo [documentazione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+Il flusso di lavoro generale è:
+
+* [!DNL Customer Journey Analytics] acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
+* La **profileID** il campo nello &quot;schema evento del passaggio del Percorso per il Journey Orchestration&quot; associato è definito come campo Identity. In [!DNL Customer Journey Analytics], puoi quindi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
+* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi dei percorsi cross-channel, fai riferimento a [Documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
 

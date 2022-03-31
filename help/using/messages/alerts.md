@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: f5b629d5e413a3ffc037af959c5e16b9a47e8a0e
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -47,11 +47,11 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
 * **[!UICONTROL The opt-out link is not present in the email body.]**: è consigliabile aggiungere un collegamento per l’annullamento dell’abbonamento al corpo dell’e-mail. Scopri come configurarlo in [questa sezione](consent.md).
 
-* **[!UICONTROL Text version of HTML is empty.]**: non dimenticare di definire una versione testuale del corpo dell’e-mail, in quanto verrà utilizzata quando non è possibile visualizzare il contenuto di HTML. Scopri come creare la versione di testo in [questa sezione](create-email-content.md#generate-text-version).
+* **[!UICONTROL Text version of HTML is empty.]**: non dimenticare di definire una versione testuale del corpo dell’e-mail, in quanto verrà utilizzata quando non è possibile visualizzare il contenuto di HTML. Scopri come creare la versione di testo in [questa sezione](../design/text-version-email.md).
 
-* **[!UICONTROL Empty link is present in email body.]**: controlla che tutti i collegamenti presenti nell’e-mail siano corretti. Scopri come gestire contenuti e collegamenti in [questa sezione](create-email-content.md).
+* **[!UICONTROL Empty link is present in email body.]**: controlla che tutti i collegamenti presenti nell’e-mail siano corretti. Scopri come gestire contenuti e collegamenti in [questa sezione](../design/create-email-content.md).
 
-* **[!UICONTROL Email size has exceeded the limit of 100KB.]**: per una consegna ottimale, assicurati che la dimensione dell’e-mail non superi i 100 KB. Scopri come modificare il contenuto delle e-mail in [questa sezione](create-email-content.md).
+* **[!UICONTROL Email size has exceeded the limit of 100KB.]**: per una consegna ottimale, assicurati che la dimensione dell’e-mail non superi i 100 KB. Scopri come modificare il contenuto delle e-mail in [questa sezione](../design/create-email-content.md).
 
 **Errori**:
 
@@ -61,7 +61,7 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
 * **[!UICONTROL The push version of the message is empty.]**: questo errore viene visualizzato quando manca il corpo o il titolo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](create-push.md).
 
-* **[!UICONTROL The email version of the message is empty.]**: questo errore viene visualizzato quando il contenuto dell’e-mail non è stato configurato. Scopri come progettare il contenuto delle e-mail in [questa sezione](design-emails.md).
+* **[!UICONTROL The email version of the message is empty.]**: questo errore viene visualizzato quando il contenuto dell’e-mail non è stato configurato. Scopri come progettare il contenuto delle e-mail in [questa sezione](../design/design-emails.md).
 
 * **[!UICONTROL Preset doesn’t exist.]**: non puoi pubblicare il messaggio se il predefinito selezionato viene eliminato dopo la creazione del messaggio. Se si verifica questo errore, seleziona un altro predefinito nel messaggio **[!UICONTROL Properties]**. Ulteriori informazioni sul branding in [questa sezione](../configuration/about-subdomain-delegation.md).
 

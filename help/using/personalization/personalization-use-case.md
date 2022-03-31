@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -25,7 +25,7 @@ L&#39;obiettivo di questo esempio è quello di inviare un evento a [!DNL Journey
 
 Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
-* crea e progetta un messaggio di notifica push, senza pubblicarlo. Fai riferimento a questo [sezione](../messages/create-message.md).
+* crea e progetta un messaggio di notifica push, senza pubblicarlo. Fai riferimento a questo [sezione](../messages/get-started-content.md).
 * configura un evento ordine, che include il numero dell&#39;ordine, lo stato e il nome dell&#39;articolo. Fai riferimento a questo [sezione](../event/about-events.md).
 * crea una decisione (precedentemente nota come &quot;attività di offerta&quot;), fai riferimento a questa [sezione](../offers/offer-activities/create-offer-activities.md).
 

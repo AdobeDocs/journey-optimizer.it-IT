@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: Configurare un’azione personalizzata
 description: Scopri come configurare un’azione personalizzata
 feature: Actions
@@ -7,14 +7,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '915'
 ht-degree: 6%
 
 ---
 
 # Configurare un’azione personalizzata {#configure-an-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_configuration"
+>title="Azioni personalizzate"
+>abstract="Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza le azioni personalizzate per configurare la connessione al percorso. Ad esempio, è possibile connettersi ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, Adobe.io, Firebase, ecc."
 
 Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza le azioni personalizzate per configurare la connessione al percorso. Ad esempio, è possibile connettersi ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, Adobe.io, Firebase, ecc.
 
@@ -22,11 +27,11 @@ Le azioni personalizzate sono azioni aggiuntive definite dagli utenti tecnici e 
 
 ## Limitazioni {#custom-actions-limitations}
 
-Le azioni personalizzate presentano alcune limitazioni elencate in [questa pagina](../start/limitations.md).
+Custom actions come with a few limitations listed in [this page](../start/limitations.md).
 
 Nei parametri di azione personalizzati è possibile passare una raccolta semplice e una raccolta di oggetti. Ulteriori informazioni sulle limitazioni della raccolta in [questa pagina](../building-journeys/collections.md#limitations).
 
-Tieni presente che i parametri delle azioni personalizzate hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Ulteriori informazioni [caso d&#39;uso](../building-journeys/collections.md).
+Tieni presente che i parametri delle azioni personalizzate hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Learn more in this [use case](../building-journeys/collections.md).
 
 
 ## Passaggi di configurazione {#configuration-steps}
@@ -37,14 +42,14 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
    ![](assets/custom2.png)
 
-1. Immetti un nome per l’azione.
+1. Enter a name for your action.
 
    >[!NOTE]
    >
    >Non utilizzare spazi o caratteri speciali. Non usare più di 30 caratteri.
 
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
-1. Il numero di percorsi che utilizzano questa azione viene visualizzato nella **[!UICONTROL Used in]** campo . Puoi fare clic su **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questa azione.
+1. The number of journeys that use this action is displayed in the **[!UICONTROL Used in]** field. Puoi fare clic su **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questa azione.
 1. Definire i diversi **[!UICONTROL URL Configuration]** Parametri. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
 1. Configura le **[!UICONTROL Authentication]** sezione . Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definisci la **[!UICONTROL Action parameters]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
@@ -54,7 +59,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
    >[!NOTE]
    >
-   >Quando un&#39;azione personalizzata viene utilizzata in un percorso, la maggior parte dei parametri è di sola lettura. È possibile modificare solo il **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** e **[!UICONTROL Authentication]** sezione .
+   >When a custom action is used in a journey, most parameters are read-only. È possibile modificare solo il **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** e **[!UICONTROL Authentication]** sezione .
 
 ## Configurazione URL {#url-configuration}
 
@@ -81,9 +86,9 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 1. In **[!UICONTROL Headers]** definisci le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno:
    1. Per aggiungere un campo di intestazione, fai clic su **[!UICONTROL Add a header field]**.
    1. Immetti la chiave del campo intestazione.
-   1. Per impostare un valore dinamico per la coppia chiave-valore, selezionare **[!UICONTROL Variable]**. In caso contrario, seleziona **[!UICONTROL Constant]**.
+   1. Per impostare un valore dinamico per la coppia chiave-valore, selezionare **[!UICONTROL Variable]**. Otherwise, select **[!UICONTROL Constant]**.
 
-      Ad esempio, per una marca temporale, è possibile impostare un valore dinamico.
+      For example, for a timestamp, you can set a dynamic value.
 
    1. Se hai selezionato **[!UICONTROL Constant]**, quindi immetti il valore costante.
 
@@ -91,7 +96,7 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
       ![](assets/journeyurlconfiguration2.png)
 
-   1. Per eliminare un campo intestazione, posizionare il puntatore sul campo intestazione e fare clic sul pulsante **[!UICONTROL Delete]** icona.
+   1. To delete a header field, point to the header field and click the **[!UICONTROL Delete]** icon.
    La **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi di intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
 
    Dopo aver aggiunto l’azione personalizzata a un percorso, puoi comunque aggiungergli dei campi di intestazione se il percorso è in stato di bozza. Se non desideri che le modifiche alla configurazione interessino il percorso, duplica l’azione personalizzata e aggiungi i campi di intestazione alla nuova azione personalizzata.
@@ -112,7 +117,7 @@ In **[!UICONTROL Action parameters]** incolla un esempio del payload JSON da inv
 >
 >I nomi di campo nel payload non possono contenere un &quot;.&quot; aggiuntivo. Non possono iniziare con un carattere &quot;$&quot;.
 
-Puoi definire il tipo di parametro (ad esempio: (stringa, numero intero, ecc.).
+You will be able to define the parameter type (e.g.: string, integer, etc.).
 
 Puoi anche scegliere se specificare se un parametro è una costante o una variabile:
 

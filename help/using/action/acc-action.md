@@ -6,16 +6,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 4%
+source-wordcount: '498'
+ht-degree: 5%
 
 ---
 
 # Integrare con Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 21.1 e Adobe Campaign v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_acc"
+>title="Azioni Adobe Campaign v7/v8"
+>abstract="Questa integrazione è disponibile per Adobe Campaign Classic v7 e v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign. La connessione tra le istanze Journey Optimizer e Campaign viene impostata per Adobe al momento del provisioning."
+
+Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 7.1 e Adobe Campaign v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
 La connessione tra le istanze Journey Optimizer e Campaign viene impostata per Adobe al momento del provisioning.
 
@@ -39,7 +44,7 @@ Per ogni azione configurata, nella palette Progettazione percorsi è disponibile
 
 In Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Fai riferimento a [Documentazione di Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
-Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern seguente. Quindi incolla questo payload durante la configurazione dell’azione in Journey Orchestration (vedi sotto)
+Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern seguente. Quindi incolla questo payload durante la configurazione dell’azione in Journey Optimizer (vedi di seguito).
 
 Ecco un esempio:
 
