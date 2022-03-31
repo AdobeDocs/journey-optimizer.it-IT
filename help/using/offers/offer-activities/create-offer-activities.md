@@ -1,6 +1,6 @@
 ---
 title: Creare decisioni
-description: Scopri come creare le decisioni
+description: Learn how to create decisions
 feature: Offers
 topic: Integrations
 role: User
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Le decisioni (precedentemente note come attività di offerta) sono contenitori per le offerte che sfrutteranno il modulo di decisione dell’offerta per scegliere l’offerta migliore da consegnare, a seconda del target della consegna.
 
-➡️ [Scopri come creare attività di offerta in questo video](#video)
+➡️ [Learn how to create offer activities in this video](#video)
 
 L&#39;elenco delle decisioni è accessibile nella **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** scheda . Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
 
@@ -30,13 +30,13 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 * [Offerte personalizzate](../offer-library/creating-personalized-offers.md)
 * [Offerte di fallback](../offer-library/creating-fallback-offers.md)
 
-## Crea la decisione {#create-activity}
+## Create the decision {#create-activity}
 
-1. Accedi all&#39;elenco delle decisioni, quindi fai clic su **[!UICONTROL Create decision]**.
+1. Access the decision list, then click **[!UICONTROL Create decision]**.
 
 1. Specifica il nome della decisione.
 
-1. Se necessario, definisci una data e un’ora di inizio e di fine, quindi fai clic su **[!UICONTROL Next]**.
+1. Define a start and end date and time if needed, then click **[!UICONTROL Next]**.
 
    ![](../assets/activities-name.png)
 
@@ -62,7 +62,7 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
    >[!NOTE]
    >
-   >Puoi fare clic su **[!UICONTROL Open offer collections]** per visualizzare l’elenco delle raccolte in una nuova scheda, che consente di sfogliare le raccolte e le offerte che contengono.
+   >You can click the **[!UICONTROL Open offer collections]** link to display the list of collections in a new tab, which enables you to browse the collections and the offers they contain.
 
    La raccolta selezionata viene aggiunta ai criteri.
 
@@ -94,13 +94,13 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
    * Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, l’offerta con il punteggio di priorità più alto verrà consegnata al cliente.
 
-   * Se desideri utilizzare una formula specifica per scegliere l&#39;offerta idonea da consegnare, seleziona **[!UICONTROL Ranking formula]**. Scopri come classificare le offerte in [questa sezione](../offer-activities/configure-offer-selection.md).
+   * If you want to use a specific formula to choose which eligible offer to deliver, select **[!UICONTROL Ranking formula]**. Scopri come classificare le offerte in [questa sezione](../offer-activities/configure-offer-selection.md).
 
 1. Fai clic su **[!UICONTROL Add]** per definire più criteri per lo stesso posizionamento.
 
    ![](../assets/activity_add-collection.png)
 
-1. Quando aggiungi più criteri, questi verranno valutati in un ordine specifico. La prima raccolta aggiunta alla sequenza verrà valutata per prima e così via.
+1. Quando aggiungi più criteri, questi verranno valutati in un ordine specifico. The first collection that was added to the sequence will be evaluated first, and so on.
 
    Per modificare la sequenza predefinita, puoi trascinare e rilasciare le raccolte per riordinarle come desiderato.
 
@@ -110,11 +110,11 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
    ![](../assets/activity_move-collection.png)
 
-   Ora hanno lo stesso rango e quindi saranno valutati contemporaneamente.
+   They now have the same rank and thus will be evaluated at the same time.
 
    ![](../assets/activity_same-rank-collections.png)
 
-1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL New scope]** pulsante . Ripeti i passaggi indicati sopra per ogni ambito di decisione.
+1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL New scope]** pulsante . Repeat the steps above for each decision scope.
 
    ![](../assets/activity_new-scope.png)
 
@@ -134,7 +134,7 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 
 * **Regole di decisione**
 
-   D’altra parte, una regola decisionale si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’ultima e l’offerta migliore.
+   D’altra parte, una regola decisionale si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Once selected in an offer or a decision for a given placement, the rule is executed every single time a decision is made, which ensures that each profile gets the latest and the best offer.
 
    Ulteriori informazioni sulle regole decisionali in [questa sezione](../offer-library/creating-decision-rules.md).
 
@@ -152,13 +152,13 @@ A questo scopo, selezionala dall’elenco delle offerte di fallback disponibili 
 
 ## Rivedi e salva la decisione {#review}
 
-Se tutto è configurato correttamente, viene visualizzato un riepilogo delle proprietà della decisione.
+If everything is configured properly, a summary of the decision properties displays.
 
 1. Assicurati che la decisione sia pronta per essere utilizzata per presentare offerte ai clienti. Vengono visualizzati tutti gli ambiti decisionali e l’offerta di fallback in essa contenuta.
 
    ![](../assets/review-decision.png)
 
-   È possibile espandere o comprimere ogni posizionamento. Puoi anche visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ogni posizionamento.
+   You can expand or collapse each placement. Puoi anche visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ogni posizionamento.
 
    ![](../assets/review-decision-details.png)
 
@@ -191,19 +191,19 @@ La **[!UICONTROL More actions]** attiva le azioni descritte di seguito.
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: imposta lo stato della decisione su **[!UICONTROL Complete]** Ciò significa che la decisione non può più essere chiamata. Questa azione è disponibile solo per le decisioni attivate. La decisione è ancora disponibile dall&#39;elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla, eliminarla o archiviarla.
+* **[!UICONTROL Complete]**: imposta lo stato della decisione su **[!UICONTROL Complete]** Ciò significa che la decisione non può più essere chiamata. Questa azione è disponibile solo per le decisioni attivate. The decision is still available from the list, but you cannot set its status back to **[!UICONTROL Draft]** or **[!UICONTROL Approved]**. È possibile duplicarla, eliminarla o archiviarla.
 
-* **[!UICONTROL Duplicate]**: crea una decisione con le stesse proprietà, ambito decisionale e offerta di fallback. Per impostazione predefinita, la nuova decisione ha **[!UICONTROL Draft]** stato.
+* **[!UICONTROL Duplicate]**: creates a decision with the same properties, decision scopes and fallback offer. Per impostazione predefinita, la nuova decisione ha **[!UICONTROL Draft]** stato.
 
 * **[!UICONTROL Delete]**: rimuove la decisione dall&#39;elenco.
 
    >[!CAUTION]
    >
-   >La decisione e il suo contenuto non saranno più accessibili. Questa azione non può essere annullata.
+   >The decision and its content will not be accessible anymore. Questa azione non può essere annullata.
    >
-   >Se la decisione viene utilizzata in un altro oggetto, non può essere eliminata.
+   >If the decision is used in another object, it cannot be deleted.
 
-* **[!UICONTROL Archive]**: imposta lo stato della decisione su **[!UICONTROL Archived]**. La decisione è ancora disponibile dall&#39;elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla o eliminarla.
+* **[!UICONTROL Archive]**: sets the decision status to **[!UICONTROL Archived]**. La decisione è ancora disponibile dall&#39;elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Draft]** o **[!UICONTROL Approved]**. È possibile duplicarla o eliminarla.
 
 È inoltre possibile eliminare o modificare lo stato di più decisioni contemporaneamente selezionando le caselle di controllo corrispondenti.
 
@@ -213,7 +213,7 @@ Se desideri modificare lo stato di diverse decisioni con stati diversi, verranno
 
 ![](../assets/decision_change-status.png)
 
-Una volta creata una decisione, puoi fare clic sul suo nome dall’elenco.
+Once a decision has been created, you can click its name from the list.
 
 ![](../assets/decision_click-name.png)
 

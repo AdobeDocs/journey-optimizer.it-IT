@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ---
 
-# Creare modelli AI {#ai-rankings}
+# Crea modelli AI {#ai-rankings}
 
 [!DNL Journey Optimizer] consente di creare **Modelli AI** per classificare le offerte in base ai tuoi obiettivi aziendali.
 
