@@ -36,7 +36,7 @@ Inoltre, sfrutta i **Litmo** tenere conto [!DNL Journey Optimizer] per visualizz
 
 >[!CAUTION]
 >
->Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. Personalization basato su dati contestuali, come le informazioni sull’evento, può essere testato solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d&#39;uso](../personalization/personalization-use-case.md).
+>Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata sui dati contestuali, ad esempio le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d&#39;uso](../personalization/personalization-use-case.md).
 
 ➡️ [Scopri come visualizzare in anteprima, verificare e pubblicare il tuo messaggio e-mail in questo video](#video-preview)
 

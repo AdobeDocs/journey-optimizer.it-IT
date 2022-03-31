@@ -64,7 +64,7 @@ Per assegnare **Proprietà** e **Azienda** diritti, segui i passaggi seguenti:
    * **[!UICONTROL Manage Extensions]**
    * **[!UICONTROL Publish]**
 
-   Queste autorizzazioni sono necessarie per installare e pubblicare l&#39;estensione Adobe Journey Optimizer e pubblicare la proprietà dell&#39;app nell&#39;SDK di Adobe Experience Platform Mobile.
+   Queste autorizzazioni sono necessarie per installare e pubblicare l&#39;estensione Adobe Journey Optimizer e pubblicare la proprietà dell&#39;app in Adobe Experience Platform Mobile SDK.
 
 1. Quindi, seleziona **[!UICONTROL Company rights]** nel menu a sinistra.
 
@@ -180,7 +180,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## Passaggio 2: Configura estensione Adobe Journey Optimizer nella tua proprietà mobile {#configure-journey-optimizer-extension}
 
-La **Estensione Adobe Journey Optimizer** per gli SDK di Adobe Experience Platform Mobile puoi abilitare le notifiche push per le tue app mobili e aiutarti a raccogliere i token push degli utenti e a gestire la misurazione delle interazioni con Adobe Experience Platform Services.
+La **Estensione Adobe Journey Optimizer** per Adobe Experience Platform Mobile SDK potenzia le notifiche push per le tue app mobili e ti aiuta a raccogliere i token push degli utenti e gestisce la misurazione delle interazioni con i servizi Adobe Experience Platform.
 
 Scopri come impostare l’estensione Journey Optimizer in [Documentazione di Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
