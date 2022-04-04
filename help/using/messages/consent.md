@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 82%
+source-wordcount: '1220'
+ht-degree: 76%
 
 ---
 
@@ -71,9 +71,9 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 
 #### Implementare una chiamata API per la rinuncia {#opt-out-api}
 
-Per consentire ai destinatari di rinunciare selezionando la preferenza dalla pagina di destinazione, devi implementare una **chiamata API per abbonamento** tramite Adobe I/O per aggiornare le preferenze dei profili corrispondenti.
+Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** attraverso [Sviluppatore Adobe](developer.adobe.com) per aggiornare le preferenze dei profili corrispondenti.
 
-La chiamata POST di Adobe I/O è la seguente:
+Questa chiamata POST è la seguente:
 
 Endpoint: platform.adobe.io/journey/imp/consent/preferences
 
@@ -109,7 +109,7 @@ Corpo della richiesta:
 }
 ```
 
-[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata Adobe I/O.
+[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite [Sviluppatore Adobe](developer.adobe.com) Chiamata API.
 
 #### Inviare il messaggio con il collegamento per annullare l’abbonamento {#send-message-unsubscribe-link}
 
@@ -121,7 +121,7 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
 
    ![](assets/opt-out-lp-example.png)
 
-1. Se il destinatario invia il modulo (in questo esempio, premendo il pulsante **Unsubscribe** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite [chiamata Adobe I/O](#opt-out-api).
+1. Se il destinatario invia il modulo (qui, premendo il pulsante **Annulla sottoscrizione** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite [Chiamata API](#opt-out-api).
 
 1. Il destinatario che ha scelto l’opt-out viene quindi reindirizzato a una schermata con un messaggio di conferma che indica che la rinuncia è avvenuta con successo.
 
