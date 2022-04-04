@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 8%
 
 Per accedere alle espressioni salvate, fai clic sul pulsante **[!UICONTROL Library]** nel riquadro a sinistra. Nell’elenco sono visualizzate tutte le espressioni salvate dagli utenti Admin (vedi [Salvare le espressioni nella libreria](#save-expressions)).
 
-    >[!NOTE]
-    >
-    >Puoi utilizzare il pulsante info per ottenere ulteriori informazioni sul contenuto di un’espressione salvata. Se disponi delle autorizzazioni appropriate per gestire gli elementi della libreria, il pulsante informazioni verrà visualizzato nel menu ellisse.
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>Puoi utilizzare il pulsante info per ottenere ulteriori informazioni sul contenuto di un’espressione salvata. Se disponi delle autorizzazioni appropriate per gestire gli elementi della libreria, il pulsante informazioni verrà visualizzato nel menu ellisse.
+
+![](assets/library-list.png)
 
 Fai clic sul segno + per inserire l’espressione nell’editor. Puoi quindi personalizzare e convalidare il contenuto di personalizzazione come di consueto. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## Salvare un’espressione nella libreria {#save-expressions}
 
