@@ -6,30 +6,36 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 7%
+source-wordcount: '556'
+ht-degree: 2%
 
 ---
 
 # Elenco Consentiti {#allow-list}
 
-È possibile definire un elenco di invio sicuro specifico nella [sandbox](../administration/sandboxes.md) per disporre di un ambiente sicuro a scopo di test. In un’istanza non di produzione, in cui possono verificarsi errori, l’elenco Consentiti ti assicura di non correre il rischio di inviare messaggi indesiderati ai clienti.
+È possibile definire un elenco di invio sicuro specifico nella [sandbox](../administration/sandboxes.md) per disporre di un ambiente sicuro a scopo di test.
+
+Ad esempio, in un’istanza non di produzione, in cui possono verificarsi errori, l’elenco Consentiti assicura di non rischiare di inviare messaggi indesiderati ai clienti.
+
+>[!NOTE]
+>
+>Questa funzione è ora disponibile nelle sandbox di produzione e non di produzione.
 
 L’elenco Consentiti ti consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica. Questo può impedire l’invio accidentale di e-mail a veri indirizzi dei clienti in un ambiente di test.
 
 >[!CAUTION]
 >
->Questa funzione è **not** disponibile nelle sandbox di produzione. Si applica solo al canale e-mail.
+>Questa funzione si applica solo al canale e-mail.
 
 ## Abilitare l’elenco Consentiti {#enable-allow-list}
 
-<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.-->
+<!--To enable the allowed list on a non-production sandbox, you need to update the general settings using the corresponding API end point in the Message Presets Service. Using this API, you can also disable the feature at any time.
 
-<!--You can update the allowed list before or after enabling the feature. To do so, you need to update the general settings using the corresponding API end point in the Message Presets Service.?-->
+You can update the allowed list before or after enabling the feature.-->
 
-Per abilitare l’elenco Consentiti su una sandbox non di produzione, segui la procedura seguente.
+Per abilitare l’elenco Consentiti, segui i passaggi seguenti.
 
 1. Accedi al menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
 

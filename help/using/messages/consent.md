@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 82%
 
 ---
@@ -191,7 +191,7 @@ Per impostare un URL personalizzato per l’annullamento della sottoscrizione, i
 
 A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione possono avere i seguenti impatti:
 
-* La richiesta di annullamento dell’abbonamento viene inviata all’indirizzo di annullamento dell’abbonamento.
+* La richiesta di annullamento dell’abbonamento viene inviata all’indirizzo predefinito di annullamento dell’abbonamento.
 
 * Il destinatario viene indirizzato all’URL della pagina di destinazione specificato al momento dell’aggiunta del collegamento di rinuncia al messaggio.
 
@@ -200,8 +200,6 @@ A seconda del client e-mail, facendo clic sul collegamento per annullare l’abb
    >Se non aggiungi un collegamento di rinuncia con un solo clic al contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
 * Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
-
-<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Gestione degli opt-out per notifiche push {#push-opt-out-management}
 
