@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 56%
+source-wordcount: '253'
+ht-degree: 55%
 
 ---
 
@@ -29,7 +29,7 @@ Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperien
 
 Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
 
-Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, [Sviluppatore Adobe](developer.adobe.com), Firebase e così via, devi aggiungere e configurare un’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
+Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, [Sviluppatore Adobe](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase e così via, devi aggiungere e configurare un&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
 Le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti in modo da consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 

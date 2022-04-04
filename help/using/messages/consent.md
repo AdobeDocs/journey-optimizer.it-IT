@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 76%
+source-wordcount: '1228'
+ht-degree: 75%
 
 ---
 
@@ -71,7 +71,7 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 
 #### Implementare una chiamata API per la rinuncia {#opt-out-api}
 
-Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** attraverso [Sviluppatore Adobe](developer.adobe.com) per aggiornare le preferenze dei profili corrispondenti.
+Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** attraverso [Sviluppatore Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} per aggiornare le preferenze dei profili corrispondenti.
 
 Questa chiamata POST è la seguente:
 
@@ -109,7 +109,7 @@ Corpo della richiesta:
 }
 ```
 
-[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite [Sviluppatore Adobe](developer.adobe.com) Chiamata API.
+[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite [Sviluppatore Adobe](https://developer.adobe.com)Chiamata API {target=&quot;_blank&quot;}.
 
 #### Inviare il messaggio con il collegamento per annullare l’abbonamento {#send-message-unsubscribe-link}
 
