@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ Seleziona la data di esecuzione dell’attività successiva.
 
 ## Attesa personalizzata{#custom}
 
-Questa opzione ti consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da un’origine dati. Non ti consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Vedi [Documentazione del Journey Orchestration](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, consulta [Documentazione del Journey Orchestration](expression/data-types.md).
+Questa opzione ti consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da un’origine dati. Non ti consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Fai riferimento a questo [page](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, consulta questo [page](expression/data-types.md).
 
 >[!NOTE]
 >
