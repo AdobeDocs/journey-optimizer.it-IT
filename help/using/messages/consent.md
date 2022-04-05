@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 75%
+source-wordcount: '1259'
+ht-degree: 74%
 
 ---
 
@@ -38,6 +38,10 @@ Pertanto, devi sempre includere un **collegamento che consenta di annullare l’
 
 * Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 * Dopo aver confermato la scelta, i dati dei profili verranno aggiornati con queste informazioni.
+
+>[!NOTE]
+>
+>I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [livello predefinito del messaggio](../configuration/message-presets.md#email-type) e quando [creazione del messaggio](get-started-content.md#create-new-message).
 
 ### Rinuncia esterna {#opt-out-external-lp}
 
@@ -71,7 +75,7 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 
 #### Implementare una chiamata API per la rinuncia {#opt-out-api}
 
-Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** attraverso [Sviluppatore Adobe](https://developer.adobe.com){target=&quot;_blank&quot;} per aggiornare le preferenze dei profili corrispondenti.
+Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** attraverso [Sviluppatore Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;} per aggiornare le preferenze dei profili corrispondenti.
 
 Questa chiamata POST è la seguente:
 

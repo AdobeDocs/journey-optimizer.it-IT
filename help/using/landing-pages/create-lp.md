@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
@@ -88,6 +88,10 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
    >L’URL della pagina di destinazione deve essere univoco.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando questo URL in un browser web, anche se pubblicato. Puoi invece testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
 
 1. Puoi definire una data di scadenza per la pagina. In tal caso, è necessario selezionare un’azione alla scadenza della pagina:
 
@@ -175,7 +179,7 @@ Possono verificarsi due tipi di avvisi:
 
 * **Avvisi** consulta consigli e best practice. <!--For example, a message will display if -->
 
-* **Errori** impedisce la pubblicazione del messaggio fintanto che non sono stati risolti. Ad esempio, se manca l’URL della pagina principale riceverai un avviso.
+* **Errori** impedisce la pubblicazione della pagina di destinazione purché non siano state risolte. Ad esempio, se manca l’URL della pagina principale riceverai un avviso.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 

@@ -3,16 +3,14 @@ title: Guida introduttiva di Journey Optimizer per gli addetti al marketing
 description: In qualità di Percorso professionista, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 8%
 
 ---
 
 # Introduzione per gli addetti al marketing {#get-started-marketers}
-
-![esperto marketing](assets/do-not-localize/user-3.png)
 
 Come **Addetto marketing** o **Praticatore percorso**, l’utente è responsabile della creazione di messaggi, offerte e percorsi. Puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer] una volta che [Amministratore di sistema](administrator.md) e [Ingegnere dati](data-engineer.md) ti ha concesso l&#39;accesso e preparato il tuo ambiente.
 

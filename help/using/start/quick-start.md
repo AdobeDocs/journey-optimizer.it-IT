@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -23,50 +23,14 @@ Hai appena iniziato a utilizzare [!DNL Journey Optimizer]? Sei un utente esperto
 
 Per scoprire e apprendere la potenza di Adobe Journey Optimizer con istruzioni dettagliate, seleziona il tuo profilo.
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Amministratore" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">Sono un amministratore</a>
-     <p>Preparare l’ambiente, concedere gli accessi e configurare le impostazioni
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="Ingegnere dati" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">Sono un ingegnere dati</a>
-     <p>Importare profili, creare tipi di pubblico, schemi e set di dati
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="Addetto marketing" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">Sono un addetto marketing</a>
-     <p>Progettare messaggi, aggiungere offerte, risorse e creare percorsi cliente
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* Sono un **Amministratore**
+
+   Preparare l’ambiente, concedere gli accessi e configurare le impostazioni. [Ulteriori informazioni](path/administrator.md)
+
+* Sono un **Ingegnere dati**
+
+   Importare profili, creare tipi di pubblico, schemi e set di dati. [Ulteriori informazioni](path/data-engineer.md)
+
+* Sono un **Addetto marketing**
+
+   Progettare messaggi, aggiungere offerte, risorse e creare percorsi cliente. [Ulteriori informazioni](path/marketer.md)

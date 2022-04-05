@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 7%
 
 ---
@@ -72,6 +72,10 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
    * Puoi scegliere di sottolineare il collegamento o meno selezionando l’opzione corrispondente.
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../messages/consent.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [livello predefinito del messaggio](../configuration/message-presets.md#email-type) e quando [creazione del messaggio](../messages/get-started-content.md#create-new-message).
 
 ## Collegamento a una pagina speculare {#mirror-page}
 

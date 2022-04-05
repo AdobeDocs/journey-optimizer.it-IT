@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '185'
 ht-degree: 6%
 
 ---
@@ -36,4 +36,11 @@ Queste funzioni sono tutte disponibili quando si accede a E-mail Designer dalla 
 >[!NOTE]
 >
 >I modelli nell’area inferiore sono statici e non possono essere modificati. Sono disponibili solo a scopo illustrativo.
-Una volta che [creato il messaggio](../messages/get-started-content.md), puoi iniziare a creare il contenuto dell’e-mail.
+>
+>Una volta che [creato il messaggio](../messages/get-started-content.md), puoi iniziare a creare il contenuto dell’e-mail.
+
+## Video introduttivo {#video}
+
+Scopri come creare contenuti e-mail con l’editor dei messaggi.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

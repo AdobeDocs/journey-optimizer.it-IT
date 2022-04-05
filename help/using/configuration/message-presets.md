@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ Con [!DNL Journey Optimizer], puoi impostare i predefiniti per i messaggi che de
 
 >[!CAUTION]
 >
-> * La configurazione dei predefiniti per messaggi è limitata agli amministratori di Percorso. [Ulteriori informazioni](../administration/ootb-product-profiles.md#journey-administrator)
+> * La configurazione dei predefiniti per messaggi è limitata a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Per creare, modificare ed eliminare i predefiniti per i messaggi, è necessario disporre dei [Gestire i predefiniti per i messaggi](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * È necessario eseguire la configurazione e-mail e [Configurazione push](../configuration/push-configuration.md) prima di creare i predefiniti per messaggi.
+> * Devi eseguire [Configurazione e-mail](#configure-email-settings) e [Configurazione push](../configuration/push-configuration.md) prima di creare i predefiniti per messaggi.
 
 
-Una volta configurati i predefiniti per i messaggi, puoi selezionarli al momento della creazione dei messaggi dal **[!UICONTROL Presets]** elenco.
+Una volta configurati i predefiniti per i messaggi, potrai selezionarli al momento della creazione dei messaggi dal **[!UICONTROL Presets]** elenco.
 
 ➡️ [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
 
@@ -84,14 +84,15 @@ Le impostazioni e-mail sono definite in una sezione dedicata della configurazion
 
 Configura le impostazioni come descritto di seguito.
 
-
 ### Tipo di e-mail{#email-type}
 
 In **TIPO E-MAIL** seleziona il tipo di messaggio da inviare con il predefinito: **Marketing** o **Transazionale**.
 
-Scegli **Marketing** per messaggi promozionali: questi messaggi richiedono il consenso dell’utente.
+* Scegli **Marketing** per messaggi promozionali: questi messaggi richiedono il consenso dell’utente.
 
-Scegli **Transazionale** per messaggi non commerciali, ad esempio conferma dell’ordine, notifiche di reimpostazione della password o informazioni di consegna.
+* Scegli **Transazionale** per messaggi non commerciali, ad esempio conferma dell’ordine, notifiche di reimpostazione della password o informazioni di consegna.
+
+Quando [creazione di un messaggio](../messages/get-started-content.md#create-new-message), devi scegliere un predefinito di messaggio valido per la categoria e i canali selezionati.
 
 >[!CAUTION]
 >

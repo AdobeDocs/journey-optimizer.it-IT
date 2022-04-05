@@ -3,16 +3,14 @@ title: Guida introduttiva di Journey Optimizer per data engineer
 description: In qualità di data engineer, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 9%
 
 ---
 
 # Introduzione per Data Engineer {#data-engineer}
-
-![ingegnere informatico](assets/do-not-localize/user-1.png)
 
 Come **Adobe Journey Optimizer Data Engineer**, preparare e gestire i dati del profilo cliente per potenziare le esperienze orchestrate da [!DNL Journey Optimizer], modella i dati di clienti e aziende negli schemi e configura i connettori sorgente per l’acquisizione dei dati. Puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer] una volta che [Amministratore di sistema](administrator.md) ti ha concesso l&#39;accesso e preparato il tuo ambiente.
 

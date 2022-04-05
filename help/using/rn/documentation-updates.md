@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 92%
+source-wordcount: '1113'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Nell’editor espressioni è stato aggiunto un esempio su come aggiungere un’espressione come valore predefinito. [Ulteriori informazioni](../building-journeys/expression/field-references.md#default-value)
 * La **Creare offerte personalizzate** Questa sezione è stata riorganizzata per migliorarne la leggibilità. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md)
 * È stata aggiunta una nuova sezione per descrivere gli impatti che la modifica delle date di inizio e/o fine di un’offerta può avere sul limite di frequenza di questa offerta. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* La **Modificare gli indirizzi e-mail principali** la sezione è stata aggiornata per riflettere le modifiche all’interfaccia utente. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
 ## Febbraio 2022 {#feb-2022}
 

@@ -3,16 +3,14 @@ title: Guida introduttiva di Journey Optimizer per l'amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
 
 # Guida introduttiva per gli amministratori di sistema {#get-started-sys-admins}
-
-![administrator](assets/do-not-localize/user-2.png)
 
 Prima di iniziare a utilizzare [!DNL Adobe Journey Optimizer], sono necessari diversi passaggi per preparare l’ambiente.  È necessario eseguire questi passaggi in modo che il [Ingegnere dati](data-engineer.md) e [Praticatore percorso](marketer.md) può iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
