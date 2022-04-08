@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
+source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2187'
 ht-degree: 1%
 
 ---
@@ -84,12 +84,12 @@ Le impostazioni e-mail sono definite in una sezione dedicata della configurazion
 
 Configura le impostazioni come descritto di seguito.
 
-### Tipo di e-mail{#email-type}
+### Tipo di e-mail {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Tipo e-mail"
->abstract="Da completare"
+>title="Definire la categoria e-mail"
+>abstract="Seleziona il tipo di messaggi che verranno inviati quando utilizzi questo predefinito: Marketing per i messaggi promozionali, che richiedono il consenso dell’utente, o transazionali per i messaggi non commerciali, che possono anche essere inviati a profili non abbonati in contesti specifici."
 
 In **TIPO E-MAIL** seleziona il tipo di messaggio da inviare con il predefinito: **Marketing** o **Transazionale**.
 
@@ -193,12 +193,13 @@ In **[!UICONTROL HEADER PARAMETERS]** , inserisci i nomi del mittente e gli indi
 >
 >Gli indirizzi devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-### Parametri di esecuzione di un nuovo tentativo e-mail{#email-retry}
+### Parametri di esecuzione di un nuovo tentativo e-mail {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Periodo di tempo per un nuovo tentativo e-mail"
->abstract="Da completare"
+>title="Regolare il periodo di tempo per l’esecuzione dei nuovi tentativi"
+>abstract="I tentativi vengono eseguiti per 3,5 giorni (84 ore) quando un messaggio e-mail non riesce a causa di un errore temporaneo di messaggio non recapitato. È possibile regolare questo periodo di tempo predefinito per l&#39;esecuzione di un nuovo tentativo in base alle proprie esigenze."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Informazioni sui nuovi tentativi"
 
 Puoi configurare le **Parametri di esecuzione di un nuovo tentativo e-mail**.
 
