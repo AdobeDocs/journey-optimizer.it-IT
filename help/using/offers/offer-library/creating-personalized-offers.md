@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 4%
+source-wordcount: '643'
+ht-degree: 3%
 
 ---
 
@@ -32,6 +32,11 @@ L’elenco delle offerte personalizzate è accessibile nella sezione **[!UICONTR
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
 >title="Informazioni sugli attributi delle offerte"
+>abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_attributes"
+>title="Attributi di offerta"
 >abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 Per creare un **offerta**, segui questi passaggi:

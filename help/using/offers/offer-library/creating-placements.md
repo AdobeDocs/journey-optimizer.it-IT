@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 15%
+source-wordcount: '261'
+ht-degree: 13%
 
 ---
 
 # Creare i posizionamenti {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="Posizionamento"
+>abstract="Un posizionamento è un contenitore utilizzato per mostrare le offerte. Assicurati che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. I posizionamenti vengono creati dal menu &quot;Componenti&quot;."
 
 Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 

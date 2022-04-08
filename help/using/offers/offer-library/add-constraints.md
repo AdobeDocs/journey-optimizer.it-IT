@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1552'
 ht-degree: 3%
 
 ---
@@ -23,6 +24,11 @@ ht-degree: 3%
 >id="od_offer_priority"
 >title="Informazioni sulla priorità delle offerte"
 >abstract="In questo campo, puoi specificare le impostazioni di priorità per l’offerta. La priorità è un numero utilizzato per classificare le offerte che soddisfano tutti i vincoli quali idoneità, date e limiti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Priorità"
+>abstract="La priorità consente di definire la priorità dell’offerta rispetto alle altre se l’utente si qualifica per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte."
 
 I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
@@ -49,6 +55,11 @@ Ad esempio, se imposti i vincoli seguenti:
 * L’offerta verrà presentata una sola volta per utente in tutti i posizionamenti.
 
 ## Ammissibilità {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Ammissibilità"
+>abstract="L’idoneità delle offerte consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Informazioni sul limite delle offerte"
->abstract="In questo campo, puoi specificare quante volte può essere presentata l’offerta."
+>title="Limitazione"
+>abstract="La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta."
 
 La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
