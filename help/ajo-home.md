@@ -10,7 +10,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -178,13 +178,13 @@ ht-degree: 68%
 
 
 
-![Newsletter](using/assets/do-not-localize/nl-icon.png) Iscriviti a [Newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} oggi!
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Iscriviti alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} oggi.
 
 Ricevi gli ultimi aggiornamenti dei prodotti, storie entusiasmanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
 In ogni newsletter trovi:
 * Novità e aggiornamenti dei prodotti, incluse le funzionalità recentemente rilasciate
-* Inviti a eventi e webinar e registrazioni per webinar recenti
+* Inviti a eventi e webinar e registrazioni di webinar recenti
 * Discussioni principali nella community Adobe Journey Optimizer Experience League
-* Case study e casi d’uso di altri clienti Adobe Journey Optimizer
-* Suggerimenti e trucchi per fornire ai clienti esperienze eccezionali in grado di favorire il successo aziendale
+* Casi di studio e casi d’uso di altri clienti Adobe Journey Optimizer
+* Suggerimenti e trucchi per fornire ai clienti esperienze eccezionali che guidano il successo aziendale

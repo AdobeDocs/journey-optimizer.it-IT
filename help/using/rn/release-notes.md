@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
 workflow-type: tm+mt
 source-wordcount: '2938'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti in [!DNL Journey Optimizer]. Per ulteriori modifiche, puoi consultare anche la pagina dedicata agli [ultimi aggiornamenti della documentazione](documentation-updates.md).
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti a [Newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} e ricevere gli ultimi aggiornamenti dei prodotti, storie entusiasmanti, casi d&#39;uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} e ricevi gli ultimi aggiornamenti dei prodotti, storie entusiasmanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
 
 ## Versione di marzo 2022 {#march-2022-release}
@@ -22,22 +22,22 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Percorsi**
 
-* Per evitare di includere campi non necessari nello schema di profilo unificato, lo schema Evento passaggio Percorso non è più abilitato per impostazione predefinita per i profili. Se necessario, puoi attivarlo. [Ulteriori informazioni](../reports/sharing-overview.md)
-* I nuovi eventi dei passaggi relativi ai processi di esportazione vengono ora inviati da Journey Optimizer a Adobe Experience Platform. Nella documentazione sono stati aggiunti esempi di query. [Ulteriori informazioni](../reports/query-examples.md)
+* Per evitare di includere campi non necessari nello schema di profilo unificato, lo schema Evento delle fasi del percorso non è più abilitato per i profili per impostazione predefinita. Se necessario, puoi attivarlo. [Ulteriori informazioni](../reports/sharing-overview.md)
+* I nuovi eventi delle fasi relativi ai processi di esportazione vengono ora inviati da Journey Optimizer a Adobe Experience Platform. Nella documentazione sono stati aggiunti esempi di query. [Ulteriori informazioni](../reports/query-examples.md)
 
 **Gestione delle decisioni**
 
 * Ora puoi specificare se il limite di offerta viene applicato a tutti gli utenti o a un profilo specifico e a tutti i posizionamenti o per posizionamento. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
-* L’API Decisioning in batch consente alle organizzazioni di utilizzare la funzionalità offer decisioning per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati AEP dove è disponibile per flussi di lavoro batch personalizzati. [Ulteriori informazioni](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* L’API Batch Decisioning consente alle organizzazioni di utilizzare la funzionalità Offer Decisioning decisioning per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati AEP dove è disponibile per flussi di lavoro batch personalizzati. [Ulteriori informazioni](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
 **Amministrazione**
 
-* Ora puoi abilitare/disabilitare il collegamento di annullamento all’abbonamento in/dall’intestazione dell’e-mail a livello di predefinito del messaggio e impostare un URL di annullamento dell’abbonamento personalizzato a livello di messaggio. [Ulteriori informazioni](../configuration/message-presets.md#list-unsubscribe)
-* L’elenco Consentiti ora può essere abilitato e disabilitato tramite la [!DNL Journey Optimizer] interfaccia sulle sandbox di produzione e non di produzione. [Ulteriori informazioni](../reports/allow-list.md#enable-allow-list)
+* Ora puoi abilitare/disabilitare il collegamento di annullamento dell’iscrizione nella/dalla intestazione delle e-mail a livello di predefinito del messaggio e impostare un URL di annullamento dell’iscrizione personalizzato a livello di messaggio. [Ulteriori informazioni](../configuration/message-presets.md#list-unsubscribe)
+* L’elenco Consentiti ora può essere abilitato e disabilitato tramite l’interfaccia [!DNL Journey Optimizer] sulle sandbox di produzione e di non produzione. [Ulteriori informazioni](../reports/allow-list.md#enable-allow-list)
 
 **Personalizzazione**
 
-* Ora puoi salvare più di 40 espressioni di personalizzazione nella libreria . [Ulteriori informazioni](../personalization/personalization-library.md)
+* Ora puoi salvare più di 40 espressioni di personalizzazione nella libreria. [Ulteriori informazioni](../personalization/personalization-library.md)
 
 ## Versione di febbraio 2022 {#feb-2022-release}
 

@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1113'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Marzo 2022 {#march-2022}
 
-* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 marzo è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati nella versione di marzo 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stata aggiunta una nuova pagina nella guida introduttiva ai modelli AI alla sezione **Offer decisioning**, compresa una descrizione dettagliata del [modello di ottimizzazione automatica](../offers/offer-library/ai-ranking.md#auto-optimization), l’algoritmo utilizzato e ulteriori dettagli tecnici. [Ulteriori informazioni](../offers/offer-library/ai-ranking.md)
-* La pagina di creazione del profilo di test è stata spostata nella  **Segmento, profili e identità** sezione . [Ulteriori informazioni](../segment/creating-test-profiles.md)
+* La pagina di creazione del profilo di test è stata spostata nella sezione **Segmento, profili e identità**. [Ulteriori informazioni](../segment/creating-test-profiles.md)
 * Nell’editor espressioni è stato aggiunto un esempio su come aggiungere un’espressione come valore predefinito. [Ulteriori informazioni](../building-journeys/expression/field-references.md#default-value)
 * La **Creare offerte personalizzate** Questa sezione è stata riorganizzata per migliorarne la leggibilità. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md)
 * È stata aggiunta una nuova sezione per descrivere gli impatti che la modifica delle date di inizio e/o fine di un’offerta può avere sul limite di frequenza di questa offerta. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping-change-date)

@@ -9,7 +9,7 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -161,7 +161,7 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
 
    >[!NOTE]
    >
-   >Se hai attivato la **Annulla sottoscrizione elenco** a livello del predefinito del messaggio, questo URL verrà utilizzato anche quando gli utenti fanno clic sul collegamento di annullamento dell’abbonamento nell’intestazione dell’e-mail. [Ulteriori informazioni](#unsubscribe-header)
+   >Se hai attivato l’opzione **Annulla sottoscrizione elenco** a livello del predefinito del messaggio, questo URL verrà utilizzato anche quando gli utenti fanno clic sul collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail. [Ulteriori informazioni](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -175,33 +175,33 @@ Quando il messaggio viene inviato tramite un [percorso](../building-journeys/jou
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Aggiungi un collegamento per annullare l’abbonamento all’intestazione dell’e-mail"
->abstract="Abilita Annulla sottoscrizione a elenco per aggiungere un collegamento di annullamento all’abbonamento all’intestazione dell’e-mail. Per impostare un URL per l’annullamento della sottoscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Rinuncia con un clic"
+>title="Aggiungi un collegamento per annullare l’iscrizione all’intestazione dell’e-mail"
+>abstract="Abilita Annulla sottoscrizione elenco per aggiungere un collegamento di annullamento dell’iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=it#one-click-opt-out" text="Rinuncia con un clic"
 
-Se la [Opzione Annulla sottoscrizione elenco](../configuration/message-presets.md#list-unsubscribe) è attivato a livello di predefinito del messaggio, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includerà un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail.
+Se l’opzione [Annulla sottoscrizione elenco](../configuration/message-presets.md#list-unsubscribe) è attiva a livello di predefinito del messaggio, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includeranno un collegamento di annullamento all’iscrizione nell’intestazione dell’e-mail.
 
-Ad esempio, il collegamento per annullare l’abbonamento verrà visualizzato in Gmail in questo modo:
+Ad esempio, il collegamento per annullare l’iscrizione verrà visualizzato in Gmail in questo modo:
 
 ![](assets/unsubscribe-header.png)
 
 >[!NOTE]
 >
->Per visualizzare il collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
+>Per visualizzare il collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
 
-L’indirizzo predefinito per l’annullamento della sottoscrizione è **[!UICONTROL Mailto (unsubscribe)]** indirizzo visualizzato nel predefinito messaggio corrispondente. [Ulteriori informazioni](../configuration/message-presets.md#list-unsubscribe).
+L’indirizzo predefinito per l’annullamento dell’iscrizione è l’indirizzo **[!UICONTROL Mailto (unsubscribe)]** visualizzato nel predefinito di messaggio corrispondente. [Ulteriori informazioni](../configuration/message-presets.md#list-unsubscribe).
 
-Per impostare un URL personalizzato per l’annullamento della sottoscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato. [Ulteriori informazioni](#one-click-opt-out)
+Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato. [Ulteriori informazioni](#one-click-opt-out)
 
-A seconda del client e-mail, facendo clic sul collegamento per annullare l’abbonamento dall’intestazione possono avere i seguenti impatti:
+A seconda del client e-mail, clicca sul collegamento per annullare l’iscrizione dall’intestazione può avere uno degli effetti seguenti:
 
-* La richiesta di annullamento dell’abbonamento viene inviata all’indirizzo predefinito di annullamento dell’abbonamento.
+* La richiesta di annullamento dell’iscrizione viene inviata all’indirizzo predefinito di annullamento dell’iscrizione.
 
 * Il destinatario viene indirizzato all’URL della pagina di destinazione specificato al momento dell’aggiunta del collegamento di rinuncia al messaggio.
 
    >[!NOTE]
    >
-   >Se non aggiungi un collegamento di rinuncia con un solo clic al contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
+   >Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
 * Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 

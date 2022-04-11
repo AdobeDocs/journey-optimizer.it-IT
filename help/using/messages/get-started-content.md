@@ -9,7 +9,7 @@ exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 16%
+ht-degree: 97%
 
 ---
 
@@ -25,17 +25,17 @@ Utilizza [!DNL Journey Optimizer] per sfruttare più elementi come risorse e con
 
 * **Crea messaggi push ed e-mail** in base a questi contenuti, quindi pubblicali.
 
-## Accedere ai messaggi {#access-messages}
+## Accedi ai messaggi {#access-messages}
 
-I messaggi sono disponibili dal **[!UICONTROL Messages]** scorciatoia nella navigazione a sinistra. Tutti i messaggi sono elencati, ordinati in base alla data di pubblicazione (per i messaggi pubblicati) o alla data di creazione (per le bozze dei messaggi).
+I messaggi sono disponibili dalla **[!UICONTROL Messages]** scelta rapida nella navigazione a sinistra. Tutti i messaggi sono elencati, ordinati in base alla data di pubblicazione (per i messaggi pubblicati) o alla data di creazione (per le bozze dei messaggi).
 
 >[!NOTE]
 >
->Gli utenti possono accedere, creare, modificare e/o pubblicare i messaggi in base al loro profilo di prodotto. Ulteriori informazioni sulle autorizzazioni per gli utenti [in questa sezione](../administration/permissions.md).
+>Gli utenti possono accedere a, creare, modificare e/o pubblicare i messaggi in base al loro profilo di prodotto. Ulteriori informazioni sulle autorizzazioni per gli utenti [in questa sezione](../administration/permissions.md).
 
 ![](assets/messages-list.png)
 
-* Utilizza la **[!UICONTROL Show recents]** per aggiungere collegamenti diretti ai messaggi a cui hai effettuato l’accesso negli ultimi 5 giorni.
+* Utilizza l’interruttore **[!UICONTROL Show recents]** per aggiungere collegamenti diretti ai messaggi a cui hai effettuato l’accesso negli ultimi 5 giorni.
 
    ![](assets/show-recent-messages.png)
 
@@ -47,17 +47,17 @@ I messaggi sono disponibili dal **[!UICONTROL Messages]** scorciatoia nella navi
 
    ![](assets/archive-message.png)
 
-   Utilizza l’icona del filtro per visualizzare tutti i messaggi archiviati e fai clic sul pulsante **[!UICONTROL Unarchive]** per rimuovere un elemento dall’elenco dei messaggi archiviati.
+   Utilizza l’icona del filtro per visualizzare tutti i messaggi archiviati e fai clic sull’icona **[!UICONTROL Unarchive]** per rimuovere un elemento dall’elenco dei messaggi archiviati.
 
    >[!NOTE]
    >
-   >Impossibile aprire un messaggio archiviato. Devi prima annullare l&#39;archiviazione.
+   >Impossibile aprire un messaggio archiviato. Devi prima annullare l’archiviazione.
 
 ## Creare un nuovo messaggio {#create-new-message}
 
 Per creare un nuovo messaggio, segui i passaggi seguenti:
 
-1. Accedi all&#39;elenco dei messaggi, quindi fai clic su **[!UICONTROL Create Message]**.
+1. Accedi all’elenco dei messaggi, quindi fai clic su **[!UICONTROL Create Message]**.
 
 1. Definisci le proprietà del messaggio.
 
@@ -65,49 +65,49 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    * Inserisci un **[!UICONTROL Title]** (obbligatorio) e **[!UICONTROL Description]**.
 
-   * Seleziona la **[!UICONTROL Message category]**: Marketing o transazionale.
+   * Seleziona la **[!UICONTROL Message category]**: Marketing o Transazionale.
 
-   * Seleziona i canali da utilizzare per il messaggio: Notifica e-mail e/o push. Per creare il messaggio, devi selezionare almeno un canale.
+   * Seleziona i canali da utilizzare per il messaggio: E-mail e/o notifica push. Per creare il messaggio, devi selezionare almeno un canale.
 
    * Seleziona la **[!UICONTROL Preset]** da utilizzare per il messaggio.
 
-      I predefiniti includono tutti i parametri necessari per inviare una notifica e-mail e/o push in base al marchio. [Ulteriori informazioni sui predefiniti](../configuration/message-presets.md).
+      I predefiniti includono tutti i parametri necessari per inviare una e-mail e/o una notifica push in base al marchio. [Ulteriori informazioni sui predefiniti](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Devi scegliere un predefinito di messaggio valido per la categoria e i canali selezionati.
 
-   Puoi accedere e modificare il titolo, la descrizione e il predefinito del messaggio in qualsiasi momento utilizzando la **[!UICONTROL Properties]** nell’interfaccia dei messaggi.
+   Puoi accedere e modificare il titolo, la descrizione e il predefinito del messaggio in qualsiasi momento utilizzando il pulsante **[!UICONTROL Properties]** nell’interfaccia dei messaggi.
 
-1. Fai clic su **[!UICONTROL Create]** per confermare la creazione dei messaggi. Il messaggio viene aggiunto nell’elenco dei messaggi nella **[!UICONTROL Draft]** stato.
+1. Fai clic **[!UICONTROL Create]** per confermare la creazione del messaggio. Il messaggio viene aggiunto nell’elenco dei messaggi nello **[!UICONTROL Draft]** stato.
 
    È disponibile una scheda per ogni canale selezionato. Utilizza queste schede per configurare il contenuto per ogni canale. Per rimuovere una scheda, selezionala e fai clic sul pulsante **[!UICONTROL Delete channel]** a destra.
 
    ![](assets/create-messages-content.png)
 
-   Ora puoi creare il contenuto del messaggio e adattare le impostazioni. Informazioni dettagliate sulla configurazione delle notifiche e-mail e push sono disponibili nelle sezioni seguenti:
+   Ora puoi creare il contenuto del messaggio e adattare le impostazioni. Informazioni dettagliate sulla configurazione delle e-mail e delle notifiche push sono disponibili nelle sezioni seguenti:
 
    * [Creare un messaggio e-mail](create-email.md)
-   * [Creare notifiche push](create-push.md)
+   * [Creare una notifica push](create-push.md)
 
    >[!NOTE]
    >   
-   >Puoi personalizzare i messaggi utilizzando i dati dei profili utilizzando l’editor espressioni. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md).
+   >Puoi personalizzare i messaggi utilizzando i dati dei profili utilizzando l’editor di espressioni. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md).
 
 1. Controlla il rendering dei messaggi e controlla le impostazioni di personalizzazione con i profili di test, utilizzando la sezione di anteprima sul lato sinistro. Per ulteriori informazioni al riguardo, consulta [questa sezione](../design/preview.md).
 
    ![](assets/messages-simple-preview.png)
 
-1. Controlla gli avvisi nella sezione superiore dell&#39;editor.  Alcuni sono semplici avvisi, altri possono impedire la pubblicazione del messaggio. [Ulteriori informazioni](alerts.md).
+1. Controlla gli avvisi nella sezione superiore dell’editor.  Alcuni sono semplici avvisi, altri possono impedire la pubblicazione del messaggio. Ulteriori informazioni in [questa sezione](alerts.md).
 
-1. Per pubblicare il messaggio, fai clic sul pulsante **[!UICONTROL Publish]** oppure puoi mantenerlo come bozza e pubblicarlo in un secondo momento. Per ulteriori informazioni su come pubblicare i messaggi, consulta [questa sezione](publish-manage-message.md).
+1. Per pubblicare il messaggio, fai clic sul pulsante **[!UICONTROL Publish]** oppure mantienilo come bozza e pubblicalo in un secondo momento. Per ulteriori informazioni su come pubblicare i messaggi, consulta [questa sezione](publish-manage-message.md).
 
-## Duplicare un messaggio {#duplicate-message}
+## Duplica un messaggio {#duplicate-message}
 
-Per creare un messaggio da uno esistente, segui i passaggi riportati di seguito.
+Per creare un messaggio da uno esistente, segui i passaggi seguenti.
 
 1. Apri il messaggio da copiare.
 
-1. Utilizza la **[!UICONTROL Duplicate]** dall’interfaccia dei messaggi.
+1. Utilizza il pulsante **[!UICONTROL Duplicate]** dall’interfaccia dei messaggi.
 
    ![](assets/message-duplicate.png)
 

@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -33,28 +33,28 @@ ht-degree: 92%
    + [Creare un messaggio e-mail](using/messages/create-email.md)
    + [Creare una notifica push](using/messages/create-push.md)
    + [Creare un messaggio SMS](using/messages/create-sms.md)
-   + Convalida e pubblicazione {#validate}
+   + Convalida e pubblica {#validate}
       + [Controllare gli avvisi](using/messages/alerts.md)
       + [Pubblicare i messaggi](using/messages/publish-manage-message.md)
    + [Gestire il consenso](using/messages/consent.md)
 + Progettazione di contenuti {#design}
    + [Introduzione alla progettazione delle e-mail](using/design/design-emails.md)
    + [Inizia da zero ](using/design/create-email-content.md)
-   + [Importare il contenuto dell’e-mail](using/design/existing-content.md)
-   + [Creare un codice per il proprio contenuto](using/design/code-content.md)
+   + [Importa il contenuto delle e-mail](using/design/existing-content.md)
+   + [Crea un codice per il tuo contenuto](using/design/code-content.md)
    + Progettazione dei contenuti {#design-content}
-      + [Utilizzare i componenti contenuto](using/design/content-components.md)
-      + [Impostazioni di sfondo](using/design/backgrounds.md)
-      + [Regolare l’allineamento verticale e la spaziatura](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Definire uno stile per i collegamenti](using/design/styling-links.md)
+      + [Utilizza i componenti contenuto](using/design/content-components.md)
+      + [Impostazioni dello sfondo](using/design/backgrounds.md)
+      + [Regola l’allineamento verticale e la spaziatura](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Definisci uno stile per i collegamenti](using/design/styling-links.md)
       + [Aggiungi attributi di stile in linea](using/design/adding-inline-styling-attributes.md)
    + Impostazioni e-mail {#design-email}
       + [Genera la versione del testo](using/design/text-version-email.md)
       + [Aggiungi una preintestazione](using/design/preheader.md)
-   + Aggiungere e gestire le risorse {#manage-asset}
-      + [Utilizzare Assets Essentials](using/design/assets-essentials.md)
-   + [Aggiungere offerte personalizzate](using/design/deliver-personalized-offers.md)
-   + [Aggiungere link e tenere traccia dei messaggi](using/design/message-tracking.md)
+   + Aggiungi e gestisci le risorse {#manage-asset}
+      + [Utilizza Assets Essentials](using/design/assets-essentials.md)
+   + [Aggiungi offerte personalizzate](using/design/deliver-personalized-offers.md)
+   + [Aggiungi collegamenti e traccia i messaggi](using/design/message-tracking.md)
    + [Anteprima e bozze](using/design/preview.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
@@ -92,7 +92,7 @@ ht-degree: 92%
       + [Generare segmenti](using/segment/creating-a-segment.md)
    + Profili{#profiles}
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
-      + [Creare profili di test](using/segment/creating-test-profiles.md)
+      + [Crea profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
 + Percorsi {#orchestrate-journeys}
    + Informazioni sui percorsi{#about-journeys}
@@ -219,15 +219,15 @@ ht-degree: 92%
       + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
       + [Rapporto live delle e-mail](using/reports/email-live-report.md)
       + [Rapporto live delle notifiche push](using/reports/push-live-report.md)
-      + [Rapporto Live sulla pagina di destinazione](using/reports/lp-report-live.md)
-      + [Lista sottoscrizioni Live report](using/reports/subscription-report-live.md)
+      + [Pagina di destinazione Live report](using/reports/lp-report-live.md)
+      + [Lista abbonamenti Live report](using/reports/subscription-report-live.md)
    + Rapporto globale {#global-report}
       + [Accedere al dashboard dei report globali](using/reports/global-report.md)
       + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
       + [Rapporto globale delle e-mail](using/reports/email-global-report.md)
       + [Rapporto globale delle notifiche push](using/reports/push-global-report.md)
-      + [Rapporto globale sulla pagina di destinazione](using/reports/lp-report-global.md)
-      + [Lista di abbonamenti Rapporto globale](using/reports/subscription-report-global.md)
+      + [Pagina di destinazione Global report](using/reports/lp-report-global.md)
+      + [Lista abbonamenti Global report](using/reports/subscription-report-global.md)
    + Rapporti sul percorso {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
@@ -352,7 +352,7 @@ ht-degree: 92%
          + [Cambiare indirizzo e-mail principale](using/configuration/primary-email-addresses.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
       + [Crea predefiniti per messaggi](using/configuration/message-presets.md)
-      + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
+      + [Configura le regole di frequenza](using/configuration/frequency-rules.md)
    + [Configura le pagine di destinazione](using/configuration/lp-configuration.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
