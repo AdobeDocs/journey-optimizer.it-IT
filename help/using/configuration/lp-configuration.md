@@ -4,9 +4,9 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '879'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 2%
 >id="ajo_admin_config_lp_subdomain"
 >title="Creare un predefinito per pagina di destinazione"
 >abstract="Per creare un predefinito per pagina di destinazione, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione da selezionare dall’elenco dei nomi del sottodominio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="Delega di un sottodominio della pagina di destinazione"
+>abstract="Devi configurare un sottodominio da utilizzare per le pagine di destinazione, in quanto dovrai usare questo sottodominio per creare un predefinito per la pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un nuovo sottodominio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 Essere in grado di [creare predefiniti pagina di destinazione](#lp-create-preset), devi impostare i sottodomini che userai per le pagine di destinazione.
 
