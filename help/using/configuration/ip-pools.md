@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '492'
 ht-degree: 1%
 
 ---
 
 # Creare pool IP {#create-ip-pools}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool"
+>title="Configurare un pool IP"
+>abstract="Puoi creare pool IP per raggruppare gli indirizzi IP dei tuoi sottodomini per migliorare il recapito dei messaggi e-mail."
+
 ## Informazioni sui pool IP {#about-ip-pools}
 
-Con Journey Optimizer puoi creare pool IP per raggruppare gli indirizzi IP dei sottodomini.
+Con [!DNL Journey Optimizer], puoi creare pool IP per raggruppare gli indirizzi IP dei sottodomini.
 
 La creazione di pool IP è vivamente consigliata per il recapito messaggi e-mail. In questo modo puoi evitare che la reputazione di un sottodominio influisca sugli altri sottodomini.
 

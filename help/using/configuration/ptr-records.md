@@ -6,20 +6,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
 
 # Record PTR {#ptr-records}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record"
+>title="Record PTR dei sottodomini"
+>abstract="Un record puntatore (PTR) è un tipo di record DNS che fornisce il nome di dominio collegato a un indirizzo IP, in modo che i server di posta riceventi possano verificare gli indirizzi IP dei mittenti."
+
 ## Informazioni sui record PTR {#about-ptr-records}
 
 Un record puntatore (PTR) è un tipo di record DNS (Domain Name System) che fornisce il nome di dominio collegato a un indirizzo IP.
 
-Con i record PTR, i server di posta riceventi possono controllare l&#39;autenticità dei server di posta inviati identificando se i loro indirizzi IP corrispondono ai nomi con cui i server si connettono.
+Con i record PTR, i server di posta riceventi possono controllare l&#39;autenticità dei server di posta inviati identificando se i loro indirizzi IP corrispondono ai nomi a cui i server si connettono.
 
 ## Accedere ai record PTR dei tuoi sottodomini {#access-ptr-records}
 
@@ -38,6 +43,10 @@ Puoi aprire un record PTR dall’elenco per visualizzare il nome del sottodomini
 ## Modificare un record PTR {#edit-ptr-record}
 
 Puoi modificare un record PTR per modificare il sottodominio associato a un indirizzo IP.
+
+>[!CAUTION]
+>
+>Procedi con molta attenzione durante la modifica dei record PTR. In caso di dubbio, contatta un esperto di recapito.<!--why?-->
 
 >[!NOTE]
 >

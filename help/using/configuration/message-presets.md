@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Con [!DNL Journey Optimizer], puoi impostare i predefiniti per i messaggi che de
 
 >[!CAUTION]
 >
-> * La configurazione dei predefiniti per messaggi è limitata a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Per creare, modificare ed eliminare i predefiniti per i messaggi, è necessario disporre dei [Gestire i predefiniti per i messaggi](../administration/high-low-permissions.md#manage-message-presets).
+> * Per creare, modificare ed eliminare i predefiniti per i messaggi, è necessario disporre dei [Gestire i predefiniti per i messaggi](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * Devi eseguire [Configurazione e-mail](#configure-email-settings) e [Configurazione push](../configuration/push-configuration.md) prima di creare i predefiniti per messaggi.
 
@@ -29,6 +29,11 @@ Una volta configurati i predefiniti per i messaggi, potrai selezionarli al momen
 ➡️ [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
 
 ## Creare un predefinito per messaggi {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Dettagli e impostazioni del predefinito del messaggio"
+>abstract="Impostando un predefinito per messaggi puoi selezionare il canale a cui si applica e definire tutti i parametri tecnici necessari per i messaggi, ad esempio il tipo di e-mail, il sottodominio da utilizzare, il nome del mittente, le app mobile e così via."
 
 Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
@@ -97,11 +102,11 @@ In **TIPO E-MAIL** seleziona il tipo di messaggio da inviare con il predefinito:
 
 * Scegli **Transazionale** per messaggi non commerciali, ad esempio conferma dell’ordine, notifiche di reimpostazione della password o informazioni di consegna.
 
-Quando [creazione di un messaggio](../messages/get-started-content.md#create-new-message), devi scegliere un predefinito di messaggio valido per la categoria e i canali selezionati.
-
 >[!CAUTION]
 >
 >**Transazionale** I messaggi possono essere inviati a profili che hanno annullato l’abbonamento a comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
+
+Quando [creazione di un messaggio](../messages/get-started-content.md#create-new-message), devi scegliere un predefinito di messaggio valido corrispondente alla categoria selezionata per il messaggio.
 
 ### Sottodominio e pool IP {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ In **DETTAGLI DEL SOTTODOMINIO E DEL POOL IP** sezione , devi:
 1. Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
 
 1. Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
+
+>[!NOTE]
+>
+>Per gli ambienti non di produzione, Adobe non crea sottodomini di test preconfigurati né concede l’accesso a un pool IP di invio condiviso. Devi [delegare i tuoi sottodomini](delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
 
 ### Annulla sottoscrizione elenco {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-du
 * Per le e-mail di marketing, il periodo minimo di esecuzione dei nuovi tentativi è di 6 ore.
 * Per le e-mail transazionali, il periodo minimo di esecuzione dei tentativi è di 10 minuti.
 * Per entrambi i tipi di e-mail, il periodo massimo di esecuzione dei nuovi tentativi è di 84 ore (o 5040 minuti).
+
+Ulteriori informazioni sui nuovi tentativi in [questa sezione](retries.md).
 
 ## Configurare le impostazioni push {#configure-push-settings}
 

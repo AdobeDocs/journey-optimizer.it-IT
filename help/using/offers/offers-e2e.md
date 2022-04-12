@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1342'
 ht-degree: 6%
 
 ---
@@ -114,7 +114,7 @@ Li troverai sotto il **[!UICONTROL Decision Management]** > **[!UICONTROL Compon
 
 Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro offerte da visualizzare in base a ciascun profilo specifico.
 
-1. Creare un’offerta. [Ulteriori informazioni](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Creare un’offerta. Ulteriori informazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. In questa offerta, crea tre rappresentazioni. Ogni rappresentazione deve essere una combinazione di un posizionamento creato in precedenza e di una risorsa:
 
@@ -195,7 +195,7 @@ Questa combinazione verrà utilizzata dal motore di Offer decisioning per trovar
 
 Per creare e configurare una decisione di offerta, segui i passaggi principali seguenti:
 
-1. Creare una decisione. [Ulteriori informazioni](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Creare una decisione. Ulteriori informazioni in [questa sezione](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Seleziona la *Web - Immagine*, *E-mail - Immagine* e *Non digitale - Testo* posizionamenti.
 
@@ -255,7 +255,7 @@ Ora puoi visualizzare tutte le offerte personalizzate e l’offerta di fallback 
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-Utilizza la **[!UICONTROL Offers]** per sfogliare i dati, utilizza le frecce destra e sinistra dei componenti di contenuto. Puoi anche visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente. [Ulteriori informazioni](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
+Utilizza la **[!UICONTROL Offers]** per sfogliare i dati, utilizza le frecce destra e sinistra dei componenti di contenuto. Puoi anche visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente. Ulteriori informazioni in [questa sezione](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 Dopo aver salvato le modifiche e dopo la pubblicazione del messaggio, le offerte sono pronte per essere visualizzate nei profili pertinenti al momento dell’invio del messaggio come parte di un percorso.
 

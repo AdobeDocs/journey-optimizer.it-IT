@@ -4,9 +4,9 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 23%
 
 ---
@@ -21,7 +21,7 @@ L’aggiunta di dati a Adobe Experience Platform è la base per la creazione di 
 
 ➡️ [Scopri come creare e configurare un set di dati in questo video](#video-dataset)
 
-La **Set di dati** nell&#39;area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente ti consente di esplorare i dati e creare set di dati.
+La **Set di dati** area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente ti consente di esplorare i dati e creare set di dati.
 
 ![](assets/datasets-home.png)
 

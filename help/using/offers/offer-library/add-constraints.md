@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1553'
 ht-degree: 3%
 
 ---
@@ -133,7 +133,7 @@ Per impostare il limite, effettua le seguenti operazioni.
 
    >[!NOTE]
    >
-   >Il numero deve essere maggiore di 0.
+   >Il numero deve essere un numero intero maggiore di 0.
 
 1. Specifica se desideri che il limite sia applicato a tutti gli utenti o a un profilo specifico:
 
@@ -147,15 +147,15 @@ Per impostare il limite, effettua le seguenti operazioni.
 
       Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platinum&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito su di essa, ha una maggiore possibilità di agire sulla prossima offerta migliore.
 
-1. Se ne hai definiti diversi [rappresentazioni](#representations) per l’offerta, specifica se applicare il limite **[!UICONTROL All placements]** o **[!UICONTROL Per placement]**.
+1. Se ne hai definiti diversi [rappresentazioni](#representations) per l’offerta, specifica se applicare il limite **[!UICONTROL Across all placements]** o **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL All placements]**: i conteggi dei massimali totalizzeranno tutte le decisioni nei posizionamenti associati all’offerta.
+   * **[!UICONTROL Across all placements]**: i conteggi dei massimali totalizzeranno tutte le decisioni nei posizionamenti associati all’offerta.
 
       Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo in tutti i posizionamenti**, ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
 
-   * **[!UICONTROL Per placement]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ogni posizionamento.
+   * **[!UICONTROL For each placement]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ogni posizionamento.
 
       Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo per ogni posizionamento**, allora ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e un ulteriore 2 volte per il posizionamento web.
 

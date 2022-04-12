@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '992'
 ht-degree: 2%
 
 ---
@@ -103,6 +103,11 @@ I possibili motivi di un errore di consegna sono:
 
 ## Aggiungere manualmente indirizzi e domini {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="Aggiungi e-mail/domini all’elenco di soppressione"
+>abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer per escludere specifici indirizzi e-mail e/o domini dall’invio."
+
 Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di soppressione o al conteggio dei messaggi non recapitati definiti.
 
 Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di soppressione per escludere specifici indirizzi e-mail e/o domini dall’invio.
@@ -114,6 +119,11 @@ A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire
 ![](assets/suppression-list-add-email.png)
 
 ### Aggiungi un indirizzo o un dominio {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="Aggiungi un elemento all&#39;elenco di soppressione"
+>abstract="Puoi compilare l’elenco di soppressione aggiungendo indirizzi e/o domini e-mail uno per uno."
 
 1. Seleziona l&#39;opzione **[!UICONTROL One by one]**.
 
@@ -132,6 +142,11 @@ A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire
 1. Fai clic su **[!UICONTROL Submit]**.
 
 ### Caricare un file CSV {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="Carica CSV per aggiungere elementi all&#39;elenco di soppressione"
+>abstract="Puoi compilare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail/domini da escludere."
 
 1. Seleziona l&#39;opzione **[!UICONTROL Upload CSV]**.
 

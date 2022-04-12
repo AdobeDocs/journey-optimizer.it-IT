@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,11 @@ A questo scopo, puoi utilizzare una regola di frequenza che limiti il numero di 
 
 Le regole sono disponibili dal **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. Vengono elencate tutte le regole, ordinate per data di modifica.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, devi disporre della [Gestire le regole di frequenza](../administration/high-low-permissions.md#manage-frequency-rules) autorizzazione.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche effettuare ricerche nell’etichetta del messaggio.
 
@@ -134,6 +136,10 @@ Tutte le regole di frequenza che corrispondono alla categoria e al canale selezi
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 Puoi visualizzare il numero di profili esclusi dalla consegna nel [Visualizzazioni live e globali](../reports/message-monitoring.md)e nella [rapporto e-mail Live](../reports/email-live-report.md), dove le regole di frequenza saranno elencate come possibile motivo per cui gli utenti sono esclusi dalla consegna.
+
+>[!NOTE]
+>
+>Puoi applicare diverse regole allo stesso canale, ma una volta raggiunto il limite inferiore, il profilo verrà escluso dalle consegne successive.
 
 ## Esempio: combinare diverse regole {#frequency-rule-example}
 

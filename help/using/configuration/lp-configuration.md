@@ -4,9 +4,9 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 2%
 
 ---
@@ -78,6 +78,11 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Success]** stato. È pronto per essere utilizzato per creare i predefiniti per le pagine di destinazione.
 
 ### Configurare un nuovo sottodominio {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="Genera il record DNS corrispondente"
+>abstract="Per configurare un nuovo sottodominio della pagina di destinazione, è necessario copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per creare i predefiniti della pagina di destinazione."
 
 Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
