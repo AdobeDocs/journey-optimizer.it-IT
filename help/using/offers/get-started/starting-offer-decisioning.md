@@ -1,15 +1,15 @@
 ---
 title: Introduzione a Gestione delle decisioni
-description: Introduzione a Gestione delle decisioni. Scopri l’architettura, le offerte e le decisioni, nonché alcuni casi d’uso comuni che possono esserti utili
+description: Scopri come Adobe Journey Optimizer può aiutarti a inviare ai tuoi clienti l’offerta giusta al momento giusto
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
-workflow-type: ht
-source-wordcount: '907'
-ht-degree: 100%
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 100%
 
 Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate.
 
->[!NOTE]
->
->Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target=&quot;_blank&quot;} che sfruttano il servizio applicativo **Offer Decisioning**.
+Ad Offer decisioning, semplifica la personalizzazione con una libreria centrale di offerte di marketing e un motore decisionale che applica regole e vincoli ai profili avanzati e in tempo reale creati da Adobe Experience Platform per aiutarti a inviare ai clienti l’offerta giusta al momento giusto.
 
 La capacità di Gestione delle decisioni è costituita da due componenti principali:
 
@@ -35,6 +33,11 @@ I vantaggi includono:
 * Potrai controllare il numero di volte in cui un’offerta viene visualizzata nelle varie campagne e dai diversi clienti.
 
 ➡️ [Ulteriori informazioni su Gestione delle decisioni in questi video](#video)
+
+
+>[!NOTE]
+>
+>Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target=&quot;_blank&quot;} che sfruttano il servizio applicativo **Offer Decisioning**.
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
