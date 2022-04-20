@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 7%
+source-wordcount: '1793'
+ht-degree: 6%
 
 ---
 
@@ -36,6 +36,11 @@ Per inviare messaggi con percorsi, è necessaria la seguente configurazione:
    ![](assets/create-content-push.png)
 
 ## Creazione del percorso{#jo-build}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Crea il tuo percorso"
+>abstract="In questa schermata viene visualizzato l’elenco dei percorsi creati in precedenza. Apri un percorso o fai clic su &quot;Crea percorso&quot; e combina le diverse attività di evento, orchestrazione e azione per creare scenari multicanale con più passaggi."
 
 Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
