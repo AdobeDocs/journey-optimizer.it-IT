@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '668'
 ht-degree: 5%
 
 ---
@@ -127,6 +127,10 @@ Una risposta corretta restituisce informazioni relative ai contenitori di gestio
 ## Passaggi successivi {#next-steps}
 
 Il presente documento tratta le conoscenze necessarie per effettuare chiamate [!DNL Offer Library] API, inclusa l’acquisizione dell’ID contenitore. Ora puoi passare alle chiamate di esempio fornite in questa guida per gli sviluppatori e seguire le relative istruzioni.
+
+>[!NOTE]
+>
+> Il canale di messaggistica in-app in Adobe Journey Optimizer utilizza oggetti di offer decisioning. Se l’organizzazione utilizza il canale di messaggistica in-app, le richieste di elenco API per gli oggetti includeranno gli oggetti creati dal servizio di messaggistica in-app e possono essere ignorate per offer decisioning casi d’uso. Gli oggetti creati per i messaggi in-app avranno `createdBy = “Mobile_Sheliak”`.
 
 ## Video introduttivo {#video}
 

@@ -1,0 +1,57 @@
+---
+title: API di Decisioning e Edge Decisioning
+description: Gestione delle decisioni è una raccolta di servizi e programmi dell’interfaccia utente che consente agli esperti di marketing di creare e fornire esperienze di offerta personalizzate dagli utenti finali su canali e applicazioni utilizzando regole decisionali e logiche di business.
+feature: Offers
+topic: Integrations
+role: Data Engineer
+level: Experienced
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 1%
+
+---
+
+# API di Decisioning e Edge Decisioning {#about-decisioning-apis}
+
+Puoi fornire offerte utilizzando **Decisioni** o **Edge Decisioning** API.
+
+In questa pagina trovi informazioni su funzionalità specifiche disponibili con ciascuna API. Sebbene entrambi consentano di fornire offerte ai clienti, si consiglia di utilizzare **Edge Decisioning** API ogni volta che è possibile per i casi di utilizzo in entrata e per garantire una maggiore latenza e velocità effettiva sulla piattaforma.
+
+|  | Richieste/sec | Latenza |
+|---|---|---|
+| Decisioning API | 2000 | &lt;500 ms |
+| API di Edge Decisioning | 5000 | &lt;250 ms |
+
+Per ulteriori informazioni su come utilizzare le API, consulta queste sezioni:
+* [Decisioning API](decisioning-api.md)
+* [API di Edge Decisioning](edge-decisioning-api.md)
+
+## Funzionalità API di Edge Decisioning {#edge}
+
+**Richiesta univoca per eventi di esperienza e richieste di decisione**
+
+Con l’API Edge Decisioning, puoi inviare una sola richiesta all’evento esperienza stesso insieme alla richiesta decisionale, anziché due richieste diverse.
+
+Ad esempio, se un cliente visita il tuo sito web, la richiesta includerà l’evento esperienza (la visita del cliente alla pagina) e riceverà un’offerta per compilare nuovamente la pagina visitata.
+
+**Archiviazione dei dati contestuali in Adobe Experience Platform**
+
+I dati contestuali si riferiscono ai dati che conosci solo al momento in cui vuoi recuperare un’offerta. Ad esempio, il colore dell’articolo acquistato, il tempo al momento dell’acquisto, ecc.
+
+Quando si trasmettono dati contestuali con una richiesta API di Edge Decisioning, questi vengono memorizzati nel profilo Adobe Experience Platform, consentendo un riutilizzo futuro.
+
+>[!NOTE]
+>
+>Per memorizzare i dati contestuali, devi disporre di uno schema XDM dedicato. (+ link a documento XDM)
+
+## Decisioni delle funzionalità API {#decisioning}
+
+Le funzionalità elencate di seguito sono disponibili solo con l’API Decisioning. Se devi sfruttare uno di questi per soddisfare i tuoi requisiti, utilizza l’API Decisioning. In caso contrario, si consiglia di utilizzare le API di Edge Decisioning.
+
+* **Eventi di esperienza**: sfrutta gli eventi di esperienza per creare le regole decisionali.
+* **Contenuto e caratteristiche dell’offerta**: puoi scegliere di non restituire il contenuto e le caratteristiche di un’offerta utilizzando un’opzione dedicata.
+* **Metadati delle offerte**: abilita un’opzione per restituire i metadati di un’offerta.
+* **Criteri di unione**: utilizza nella richiesta un criterio di unione diverso da quello associato alla sandbox.
+* **Decisioni degli eventi e limiti di frequenza**: impedire che gli eventi decisionali vengano conteggiati da qualsiasi limite di frequenza che si verifica.
+* **Proposte duplicate**: abilitare un&#39;opzione per non deduplicare le proposizioni.

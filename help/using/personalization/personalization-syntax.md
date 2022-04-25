@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 10%
 
 ---
@@ -92,7 +92,7 @@ Dove:
 * `Placement Id` e `Activity Id` sono identificatori di posizionamento e di attività
 * `Attributes` sono attributi specifici dell’offerta che dipendono dal tipo di offerta. Esempio: `deliveryUrl` per immagini
 
-Per ulteriori informazioni sull’API delle decisioni e sulla rappresentazione delle offerte, consulta [questa pagina](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+Per ulteriori informazioni sull’API delle decisioni e sulla rappresentazione delle offerte, consulta [questa pagina](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 Tutti i riferimenti vengono convalidati rispetto allo schema delle offerte con un meccanismo di convalida descritto in [questa pagina](personalization-validation.md)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Questo ti consente di testare e perfezionare diverse versioni delle offerte senz
 
 >[!NOTE]
 >
->Questa funzionalità simula una singola richiesta al [!DNL Decisions] API. Ulteriori informazioni su [Consegnare offerte tramite l’API Decisioni](../api-reference/decisions-api/deliver-offers.md).
+>Questa funzionalità simula una singola richiesta al [!DNL Decisioning] API. Ulteriori informazioni su [Consegnare offerte tramite l’API Decisioning](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Per accedere a questa funzione, seleziona la **[!UICONTROL Simulation]** dalla scheda **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** menu.
 
@@ -130,7 +130,7 @@ Per modificare le impostazioni predefinite per le simulazioni, segui i passaggi 
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, tutti i flag Deduplication sono abilitati per la simulazione, il che significa che il motore decisionale consente i duplicati e può quindi fare la stessa proposta in più decisioni/posizionamenti. Per saperne di più sul [!DNL Decisions] Proprietà di richiesta API in [questa sezione](../api-reference/decisions-api/deliver-offers.md).
+   >Per impostazione predefinita, tutti i flag Deduplication sono abilitati per la simulazione, il che significa che il motore decisionale consente i duplicati e può quindi fare la stessa proposta in più decisioni/posizionamenti. Per saperne di più sul [!DNL Decisioning] Proprietà di richiesta API in [questa sezione](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. In **[!UICONTROL Response format]** è possibile scegliere di includere i metadati nella vista Codice. Seleziona l’opzione corrispondente e seleziona i metadati desiderati. Verranno visualizzati nei payload di richiesta e risposta al momento della selezione **[!UICONTROL View code]**. Ulteriori informazioni nel [Visualizza risultati di simulazione](#simulation-results) sezione .
 

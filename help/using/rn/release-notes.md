@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0e4572c855d8842215d2f9d42e47aac53b82d1
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '2969'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 **Gestione delle decisioni**
 
 * Ora puoi specificare se il limite di offerta viene applicato a tutti gli utenti o a un profilo specifico e a tutti i posizionamenti o per posizionamento. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
-* L’API Batch Decisioning consente alle organizzazioni di utilizzare la funzionalità Offer Decisioning decisioning per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati AEP dove è disponibile per flussi di lavoro batch personalizzati. [Ulteriori informazioni](../offers/api-reference/batch-api/deliver-offers-batch.md)
+* L’API Batch Decisioning consente alle organizzazioni di utilizzare la funzionalità Offer Decisioning decisioning per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati AEP dove è disponibile per flussi di lavoro batch personalizzati. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Amministrazione**
 
