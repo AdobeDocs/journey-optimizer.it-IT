@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Guida di Journey Optimizer
-user-guide-description: Utilizza Journey Optimizer per creare e distribuire esperienze personalizzate, contestuali e connesse ai tuoi clienti
+user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -260,8 +260,8 @@ ht-degree: 96%
    + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
       + Configurare le offerte {#configure-offers}
          + [Creare le offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
-         + [Aggiungi rappresentazioni](using/offers/offer-library/add-representations.md)
-         + [Aggiungi vincoli](using/offers/offer-library/add-constraints.md)
+         + [Aggiungere rappresentazioni](using/offers/offer-library/add-representations.md)
+         + [Aggiungere vincoli](using/offers/offer-library/add-constraints.md)
       + [Creare offerte di fallback](using/offers/offer-library/creating-fallback-offers.md)
       + [Creare raccolte](using/offers/offer-library/creating-collections.md)
    + Creare e gestire decisioni {#create-manage-activities}
