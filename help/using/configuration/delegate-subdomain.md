@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1636'
 ht-degree: 10%
 
 ---
@@ -27,7 +27,11 @@ La delega del nome di dominio è un metodo che consente al proprietario di un no
 >
 >Per impostazione predefinita, [!DNL Journey Optimizer] il contratto di licenza ti consente di delegare fino a 10 sottodomini. Contatta il tuo contatto Adobe se desideri aumentare questa limitazione.
 
-Puoi delegare completamente un sottodominio o creare un sottodominio utilizzando CNAME per puntare a record specifici per Adobi. Ulteriori informazioni sulle differenze tra i due [metodi di configurazione del sottodominio](about-subdomain-delegation.md#subdomain-delegation-methods).
+Puoi delegare completamente un sottodominio o creare un sottodominio utilizzando CNAME per puntare a record specifici per Adobi.
+
+>[!CAUTION]
+>
+>La delega del sottodominio completo è il metodo consigliato. Ulteriori informazioni sulle differenze tra i due [metodi di configurazione del sottodominio](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Delega di sottodomini completa {#full-subdomain-delegation}
 
