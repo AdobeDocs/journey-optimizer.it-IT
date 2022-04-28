@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '528'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ Per creare un pool IP, effettua le seguenti operazioni:
    >
    >Nell’elenco sono disponibili tutti gli indirizzi IP forniti con la tua istanza.
 
-Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare il predefinito di messaggio associato. Per ulteriori informazioni su come associare un predefinito di messaggio a un pool IP, consulta [questa sezione](message-presets.md)).
+Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare il predefinito di messaggio associato. Per ulteriori informazioni su come associare un predefinito di messaggio a un pool IP, consulta [questa sezione](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ L’aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia
 
 * Se il pool IP è **not** selezionato in un predefinito per messaggi, l’aggiornamento è istantaneo (**[!UICONTROL Success]** status).
 * Se il pool IP **è** selezionato in un predefinito per messaggi, l’aggiornamento può richiedere fino a 7-10 giorni lavorativi (**[!UICONTROL Processing]** status).
+
+>[!NOTE]
+>
+>Quando [creazione di un predefinito messaggio](message-presets.md#create-message-preset), se selezioni un pool IP in edizione (**[!UICONTROL Processing]** status) e non è mai stato associato al sottodominio selezionato per quel predefinito, non puoi procedere con la creazione del predefinito. [Ulteriori informazioni](message-presets.md#subdomains-and-ip-pools)
 
 Per controllare lo stato dell’aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL More actions]** e seleziona **[!UICONTROL Recent updates]**.
 

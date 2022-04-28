@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -67,7 +67,7 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi in tempo reale, ad esempio l’ID percorso o gli errori specifici rilevati. [Ulteriori informazioni](expression/journey-properties.md)
+Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
 ## Condizione Origine dati {#data_source_condition}
 
@@ -79,7 +79,7 @@ Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più a
 
 ## Condizione di tempo{#time_condition}
 
-Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al giorno della settimana. Ad esempio, puoi decidere di inviare messaggi SMS durante il giorno e e-mail di notte nei giorni feriali.
+Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al giorno della settimana. Ad esempio, puoi decidere di inviare notifiche push durante il giorno e e-mail di notte nei giorni feriali.
 
 >[!NOTE]
 >

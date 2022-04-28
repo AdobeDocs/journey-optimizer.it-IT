@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    ![](assets/lp_open-designer.png)
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-configuration.md#lp-subdomains)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../configuration/lp-configuration.md#lp-create-preset) selezionato. [Ulteriori informazioni](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
    >[!NOTE]
    >
    >Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando questo URL in un browser web, anche se pubblicato. Puoi invece testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
+
+1. Se si desidera che la pagina di destinazione precarichi i dati del modulo già disponibili, selezionare la **[!UICONTROL Pre-fill form fields with profile information]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   Quando questa opzione è abilitata, se un profilo ha già rinunciato o è già stato aggiunto a un elenco di sottoscrizioni, le relative scelte verranno applicate alla visualizzazione della pagina di destinazione.
+
+   Ad esempio, se un profilo ha acconsentito alla ricezione di comunicazioni su eventi futuri, la casella di controllo corrispondente verrà già selezionata al successivo accesso alla pagina di destinazione a tale profilo.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. Puoi definire una data di scadenza per la pagina. In tal caso, è necessario selezionare un’azione alla scadenza della pagina:
 

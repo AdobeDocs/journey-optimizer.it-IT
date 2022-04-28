@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,12 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 1. Definisci se questa casella di controllo è per consentire agli utenti di accedere o uscire: acconsentono a ricevere comunicazioni o chiedono di non essere più contattati?
 
    ![](assets/lp_designer-form-update.png)
+
+   Seleziona una delle tre opzioni seguenti:
+
+   * **[!UICONTROL Opt in if checked]**: gli utenti devono selezionare la casella di controllo per il consenso (opt-in).
+   * **[!UICONTROL Opt out if checked]**: gli utenti devono selezionare la casella per rimuovere il proprio consenso (opt-out).
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: questa opzione consente di inserire una singola casella di controllo per l’opt-in/opt-out. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per rimuovere il loro consenso (opt-out).
 
 1. Scegli cosa verrà aggiornato tra le tre opzioni seguenti:
 

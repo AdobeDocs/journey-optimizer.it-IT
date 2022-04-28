@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1628'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Delega dei sottodomini"
->abstract="Journey Optimizer ti consente di delegare ad Adobe i sottodomini. Puoi delegare completamente un sottodominio ad Adobe oppure creare un sottodominio utilizzando CNAME per puntare a record specifici per Adobi."
+>abstract="Journey Optimizer ti consente di delegare ad Adobe i sottodomini. Puoi delegare completamente un sottodominio ad Adobe, che è il metodo consigliato. Puoi anche creare un sottodominio utilizzando i CNAME per puntare a record specifici per gli Adobi, ma questo approccio richiede di mantenere e gestire i record DNS da solo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Metodi di configurazione dei sottodomini"
 
 La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) per delegare una sua suddivisione (tecnicamente: una zona DNS sotto di essa, che può essere chiamata sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare ad Adobe la sottozona &quot;marketing.example.com&quot; . Ulteriori informazioni su [delega dei sottodomini](about-subdomain-delegation.md)

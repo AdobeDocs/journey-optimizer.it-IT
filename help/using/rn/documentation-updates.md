@@ -2,16 +2,26 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1113'
-ht-degree: 100%
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+workflow-type: tm+mt
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Aprile 2022 {#april-2022}
+
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 aprile è stata descritta nella documentazione. [Ulteriori informazioni](release-notes.md)
+* La **reazioni** la pagina della documentazione dell’evento è stata aggiornata. [Ulteriori informazioni](../building-journeys/reaction-events.md)
+* I video sulle funzionalità di gestione delle decisioni sono stati aggiornati per riflettere l’interfaccia utente di Journey Optimizer. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
+* La **Guida introduttiva ai set di dati** è stata migliorata la sezione per specificare come accedere ai set di dati e crearli. [Ulteriori informazioni](../start/get-started-datasets.md)
+* Sono stati aggiunti collegamenti alle guide dell’Aiuto e alle note sulla versione del prodotto **Documentazione di Adobe Journey Optimizer** home page. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* La **Creare predefiniti per messaggi** ora specifica che non è possibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in edizione (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](../configuration/message-presets.md#subdomains-and-ip-pools)
+* Predefiniti messaggio **Tracciamento URL** la sezione è stata aggiornata per riflettere modifiche minori nell’interfaccia utente. [Ulteriori informazioni](../configuration/message-presets.md#url-tracking)
 
 ## Marzo 2022 {#march-2022}
 

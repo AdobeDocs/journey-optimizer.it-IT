@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Eventi di reazione"
->abstract="Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform. Per le notifiche push, puoi reagire ai messaggi con clic, inviati o non riusciti. Per i messaggi SMS, puoi reagire ai messaggi inviati o non riusciti. Per le e-mail puoi reagire a messaggi con un clic, con un clic, un invio, un messaggio aperto o con errore."
+>abstract="Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform."
 
-Tra le diverse attività dell’evento disponibili nella palette, troverai la **[!UICONTROL Reactions]** evento. Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform. Per le notifiche push, puoi reagire ai messaggi con clic, inviati o non riusciti. Per i messaggi SMS, puoi reagire ai messaggi inviati o non riusciti. Per le e-mail puoi reagire a messaggi con un clic, con un clic, un invio, un messaggio aperto o con errore.
+Tra le diverse attività dell’evento disponibili nella palette, troverai la **[!UICONTROL Reactions]** evento. Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform.
+
+Puoi reagire ai messaggi selezionati o aperti.
 
 Puoi inoltre utilizzare questo meccanismo per eseguire un’azione quando non vi sono reazioni ai messaggi. A questo scopo, crea un secondo percorso parallelo all’attività di reazione e aggiungi un’attività di attesa. Se non vi è alcuna reazione durante il periodo definito nell’attività di attesa, verrà scelto il secondo percorso. Puoi scegliere di inviare, ad esempio, un messaggio di follow-up.
 

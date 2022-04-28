@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,12 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >Impossibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
+   >
+   >Salva il predefinito come bozza e attendi che il pool IP disponga del **[!UICONTROL Success]** stato per riprendere la creazione dei predefiniti.
 
 1. Una volta creato il predefinito del messaggio, questo viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato.
 
@@ -116,6 +122,10 @@ In **DETTAGLI DEL SOTTODOMINIO E DEL POOL IP** sezione , devi:
 
 1. Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+Impossibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione più vecchia dell’associazione pool/sottodominio IP. In questo caso, salva il predefinito come bozza e riprova una volta che il pool IP dispone del **[!UICONTROL Success]** stato.
+
 >[!NOTE]
 >
 >Per gli ambienti non di produzione, Adobe non crea sottodomini di test preconfigurati né concede l’accesso a un pool IP di invio condiviso. Devi [delegare i tuoi sottodomini](delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
@@ -155,28 +165,6 @@ Il collegamento per l’annullamento dell’abbonamento è costituito da due ele
 Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell’abbonamento dell’intestazione ai messaggi in [questa sezione](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### Tracciamento URL{#url-tracking}
-
-Per identificare dove e perché una persona ha fatto clic sul collegamento, puoi aggiungere parametri UTM per il tracciamento degli URL nel  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** sezione .
-
-In base ai parametri definiti, verrà applicato un codice UTM alla fine dell’URL incluso nel contenuto del messaggio. Potrai quindi confrontare i risultati in uno strumento di analisi web, ad esempio Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Per impostazione predefinita sono disponibili tre parametri UTM. Puoi aggiungere fino a 10 parametri di tracciamento. Per aggiungere un parametro UTM, seleziona la **[!UICONTROL Add new UTM param]** pulsante .
-
-Per configurare un parametro UTM, è possibile immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** oppure scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
-
-* Attributi del percorso: ID sorgente, nome sorgente, ID versione sorgente
-* Attributi del messaggio: ID azione, nome azione
-* Attributi di Offer decisioning: ID offerta, nome offerta
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Non selezionare una cartella: assicurati di passare alla cartella necessaria e seleziona un attributo di profilo da utilizzare come valore UTM.
 
 ### Parametri di intestazione{#email-header}
 
@@ -223,6 +211,35 @@ Per impostazione predefinita, la [periodo di tempo di nuovo](retries.md#retry-du
 * Per entrambi i tipi di e-mail, il periodo massimo di esecuzione dei nuovi tentativi è di 84 ore (o 5040 minuti).
 
 Ulteriori informazioni sui nuovi tentativi in [questa sezione](retries.md).
+
+### Tracciamento URL{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="Parametri UTM"
+>abstract="Usa questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL della campagna presenti nel contenuto dell’e-mail."
+
+Per identificare dove e perché una persona ha fatto clic sul collegamento, puoi facoltativamente aggiungere parametri UTM per il tracciamento degli URL nel  **[!UICONTROL URL Tracking Parameters]** sezione .
+
+In base ai parametri definiti, verrà applicato un codice UTM alla fine dell’URL incluso nel contenuto del messaggio. Potrai quindi confrontare i risultati in uno strumento di analisi web, ad esempio Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Per impostazione predefinita sono disponibili tre parametri UTM. Puoi aggiungere fino a 10 parametri di tracciamento. Per aggiungere un parametro UTM, seleziona la **[!UICONTROL Add new parameter]** pulsante .
+
+Per configurare un parametro UTM, è possibile immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** oppure scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
+
+* Attributi del percorso: **ID sorgente**, **Nome origine**, **ID versione sorgente**
+* Attributi del messaggio: **ID azione**, **Nome azione**
+* Attributi di Offer decisioning: **ID offerta**, **Nome offerta**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Non selezionare una cartella: assicurati di passare alla cartella necessaria e seleziona un attributo di profilo da utilizzare come valore UTM.
+
+È possibile combinare la digitazione di valori di testo e la selezione di valori predefiniti. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
 
 ## Configurare le impostazioni push {#configure-push-settings}
 
