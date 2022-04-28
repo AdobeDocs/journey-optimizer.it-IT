@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
+source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 93%
@@ -38,7 +38,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Progettazione e-mail**
 
-* **Nuovi modelli e-mail** sono ora disponibili per progettare il contenuto delle e-mail in Journey Optimizer.
+* **20 nuovi modelli e-mail** sono ora disponibili per progettare il contenuto delle e-mail in Journey Optimizer.
 
 **Interfaccia utente**
 
