@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 >
 >Il fuso orario del profilo funziona con **timeZone** campo esistente nel **Dettagli sulle preferenze** gruppo di campi.
 
-## Definizione di un fuso orario fisso {#fixed-timezone}
+## Definire un fuso orario fisso {#fixed-timezone}
 
 È inoltre possibile correggere il fuso orario. Deseleziona il fuso orario predefinito e selezionane uno dall’elenco a discesa. Se utilizzi un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al percorso.
 
@@ -40,7 +40,7 @@ Per farlo, nella **[!UICONTROL Journey Properties]** selezionare un fuso orario.
 
 ![](assets/journey72.png)
 
-## Utilizzo dei profili per definire il fuso orario percorso {#timezone-from-profiles}
+## Utilizzare i profili per definire il fuso orario percorso {#timezone-from-profiles}
 
 Se l’evento di ingresso del percorso ha uno spazio dei nomi, ovvero il percorso può raggiungere il servizio Profilo cliente in tempo reale di Adobe Experience Platform, il fuso orario è predefinito con quello specificato nel profilo del singolo utente che scorre nel percorso.
 
@@ -52,6 +52,6 @@ Per farlo, in **[!UICONTROL Properties]**, controlla **[!UICONTROL Use Profile t
 
 ![](assets/journey73.png)
 
-## Uso dei fusi orari nelle espressioni {#timezone-in-expressions}
+## Usa fusi orari nelle espressioni {#timezone-in-expressions}
 
 Le date di inizio e di fine di un percorso non possono essere collegate a un fuso orario specifico. Vengono automaticamente associati al fuso orario dell’istanza.

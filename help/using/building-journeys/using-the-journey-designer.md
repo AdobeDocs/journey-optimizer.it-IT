@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 L’interfaccia di percorso ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro al passaggio successivo disponibile. Ciascuna attività ha un ruolo specifico e un ruolo specifico nel processo. Le attività vengono sequenziate. Al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
 
-## Guida introduttiva alla progettazione di percorsi
+## Guida introduttiva alla progettazione di percorsi {#gs-journey-design}
 
 La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disponibili sono suddivise in diverse categorie: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. È possibile espandere o comprimere le diverse categorie facendo clic sul loro nome. Per utilizzare un’attività nel percorso, trascinala dalla palette nell’area di lavoro.
 
@@ -52,7 +52,7 @@ A seconda dello stato del percorso, è possibile eseguire diverse azioni sul per
 
 ![](assets/journey41.png)
 
-## Avvio del percorso
+## Avvia il percorso {#start-your-journey}
 
 Quando si progetta un percorso, la prima domanda che si desidera porre è come i profili entreranno nel percorso. Esistono due possibilità:
 
@@ -60,7 +60,7 @@ Quando si progetta un percorso, la prima domanda che si desidera porre è come i
 
 **Inizia con un segmento di lettura**: puoi impostare il tuo percorso per ascoltare i segmenti Adobe Experience Platform. In questo caso, tutti gli individui appartenenti al segmento specificato entrano nel percorso. I messaggi inclusi nel percorso vengono inviati agli utenti appartenenti al segmento. [Ulteriori informazioni sulla lettura dei segmenti](read-segment.md).
 
-## Definire i passaggi successivi
+## Definire i passaggi successivi{#define-next-steps}
 
 Dopo il primo evento o Leggi segmento, puoi combinare le diverse attività per creare scenari multicanale con più passaggi. Dalla palette, scegli i passaggi necessari.
 
@@ -86,9 +86,11 @@ Troverete qui il **Messaggio** attività che ti consente di includere un messagg
 
 Troverai anche le azioni personalizzate configurate per l’invio di messaggi con sistemi di terze parti. Ulteriori informazioni [sezione](about-journey-activities.md#action-activities).
 
-## Utilizzo dei percorsi nell’area di lavoro {#paths}
+## Aggiungi percorsi alternativi{#paths}
 
-Diverse attività (**[!UICONTROL Condition]**, **[!UICONTROL Action]** attività) ti consentono di definire un’azione di fallback in caso di errore o timeout. Nel riquadro di configurazione dell’attività, seleziona la casella: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Un altro percorso viene aggiunto dopo l’attività . La durata del timeout è definita nelle proprietà del percorso (vedi [questa pagina](../building-journeys/journey-gs.md#change-properties) da un utente amministratore. Ad esempio, se l’invio di un’e-mail richiede troppo tempo o si verifica un errore, puoi decidere di inviare una notifica push.
+Puoi definire un’azione di fallback in caso di errore o timeout per le seguenti attività del percorso: **[!UICONTROL Condition]** e **[!UICONTROL Action]**.
+
+Per aggiungere un’azione di fallback a un’attività, seleziona la **[!UICONTROL Add an alternative path in case of a timeout or an error]** nelle proprietà dell’attività: dopo l’attività viene aggiunto un altro percorso. La durata del timeout è definita dagli utenti amministratori nel [Proprietà percorso](../building-journeys/journey-gs.md#change-properties). Ad esempio, se l’invio di un’e-mail richiede troppo tempo o si verifica un errore, puoi decidere di inviare una notifica push.
 
 ![](assets/journey42.png)
 
@@ -104,7 +106,7 @@ Nell’area di lavoro, quando due attività vengono disconnesse, viene visualizz
 
 ![](assets/canvas-disconnected.png)
 
-## Copia e incolla delle attività {#copy-paste}
+## Copiare e incollare le attività {#copy-paste}
 
 Puoi copiare una o più attività di un percorso e incollarle nello stesso percorso o in un&#39;altra. Ciò ti consente di risparmiare tempo se desideri riutilizzare numerose attività già configurate in un percorso precedente.
 
