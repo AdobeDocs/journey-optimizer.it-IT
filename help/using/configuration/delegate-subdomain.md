@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 10%
+source-wordcount: '1637'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Puoi delegare completamente un sottodominio o creare un sottodominio utilizzando
 
 >[!CAUTION]
 >
->La delega del sottodominio completo è il metodo consigliato. Ulteriori informazioni sulle differenze tra i due [metodi di configurazione del sottodominio](about-subdomain-delegation.md#subdomain-delegation-methods).
+>La delega completa del sottodominio è il metodo consigliato. Ulteriori informazioni sulle differenze tra i due [metodi di configurazione del sottodominio](about-subdomain-delegation.md#subdomain-delegation-methods).
 
 ## Delega di sottodomini completa {#full-subdomain-delegation}
 
@@ -111,7 +111,7 @@ La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utili
 
 >[!CAUTION]
 >
->Questo metodo è consigliato se i criteri dell&#39;organizzazione limitano il metodo di delega del sottodominio completo. Questo approccio richiede la gestione e la gestione autonoma dei record DNS. Adobe non sarà in grado di fornire assistenza per modificare, mantenere o gestire il DNS per un sottodominio configurato tramite il metodo CNAME.
+>Il metodo CNAME è consigliato se i criteri aziendali limitano il metodo di delega del sottodominio completo. Questo approccio richiede la gestione e la gestione autonoma dei record DNS. Adobe non sarà in grado di fornire assistenza per modificare, mantenere o gestire il DNS per un sottodominio configurato tramite il metodo CNAME.
 
 ➡️ [Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici per Adobi in questo video](#video)
 
