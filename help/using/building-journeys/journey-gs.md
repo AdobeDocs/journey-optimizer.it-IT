@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a68cfae875b18266417e115d17c73cda7061475d
+source-git-commit: c5ddc1a5a3dc133819ba2f887dae73fc48690fe9
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1846'
 ht-degree: 6%
 
 ---
 
 # Introduzione ai percorsi{#jo-quick-start}
 
-## Prerequisiti
+## Prerequisiti{#start-prerequisites}
 
-Per inviare messaggi con percorsi, è necessaria la seguente configurazione:
+Per inviare messaggi con percorsi, sono necessarie le seguenti configurazioni:
 
 1. **Configurare un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. Puoi definire le informazioni previste e come elaborarle. e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
 
@@ -35,12 +35,12 @@ Per inviare messaggi con percorsi, è necessaria la seguente configurazione:
 
    ![](assets/create-content-push.png)
 
-## Creazione del percorso{#jo-build}
+## Crea il tuo percorso{#jo-build}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Crea il tuo percorso"
->abstract="In questa schermata viene visualizzato l’elenco dei percorsi creati in precedenza. Apri un percorso o fai clic su &quot;Crea percorso&quot; e combina le diverse attività di evento, orchestrazione e azione per creare scenari multicanale con più passaggi."
+>abstract="In questa schermata viene visualizzato l’elenco dei percorsi esistenti. Apri un percorso o fai clic su &quot;Crea percorso&quot; e combina le diverse attività di evento, orchestrazione e azione per creare scenari multicanale con più passaggi."
 
 Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
@@ -72,16 +72,16 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi attrav
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## Modifica delle proprietà {#change-properties}
+## Definire le proprietà del percorso {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Proprietà del percorso"
->abstract="Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire un Timeout e una durata dell’errore se sei un amministratore."
+>abstract="Questa sezione mostra le proprietà del percorso. Per impostazione predefinita, i parametri di sola lettura sono nascosti. Le impostazioni disponibili dipendono dallo stato del percorso, dalle autorizzazioni e dalla configurazione del prodotto."
 
 Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
 
-Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e definire un **[!UICONTROL Timeout and error]** se sei un amministratore.
+Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e, come utente amministratore, definire una **[!UICONTROL Timeout and error]** durata. Se abilitato per la tua organizzazione, puoi anche attivare [messaggio burst](#burst).
 
 Per i percorsi live, questa schermata mostra la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 
@@ -123,40 +123,46 @@ Il fuso orario è definito a livello di percorso.
 
 Puoi immettere un fuso orario fisso oppure utilizzare i profili Adobe Experience Platform per definire il fuso orario percorso.
 
+Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere recuperato nel percorso.
+
 Per ulteriori informazioni sulla gestione del fuso orario, vedi [questa pagina](../building-journeys/timezone-management.md).
 
 ### Modalità Burst {#burst}
 
-La modalità Burst è un componente aggiuntivo a pagamento che consente l&#39;invio rapido di messaggi push in grandi volumi. Viene utilizzato per percorsi semplici che includono un segmento di lettura e un messaggio push semplice. Burst viene utilizzato quando il ritardo nella consegna dei messaggi è di importanza business, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia di interruzione per gli utenti che hanno installato la tua app del canale di notizie.
+La modalità Burst è un componente aggiuntivo di Journey Optimizer che consente l&#39;invio rapido di messaggi push in grandi volumi. Viene utilizzato per percorsi semplici che includono **Leggi segmento** e un semplice messaggio push. Burst viene utilizzato quando il ritardo nella consegna dei messaggi è di importanza business, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia di interruzione per gli utenti che hanno installato la tua app del canale di notizie.
 
-Limitazioni:
+La messaggistica Burst prevede i seguenti requisiti:
 
-* Il percorso deve iniziare con un segmento di lettura. Eventi non consentiti.
-* Il passaggio successivo deve essere un messaggio push. Non sono consentiti altri passaggi o attività (eccetto l’attività finale facoltativa):
-   * Solo canale push
-   * Nel messaggio non è consentita alcuna personalizzazione
-   * Il messaggio deve essere piccolo (&lt;2 KB)
+* Il percorso deve iniziare con un **Leggi segmento** attività. Eventi non consentiti.
+* Il passaggio successivo deve essere un messaggio push. Non sono consentiti altri canali, attività o passaggi (tranne l’facoltativo) **Fine** attività).
+* Nel messaggio push non è consentita alcuna personalizzazione.
+* Il messaggio deve essere piccolo (&lt;2 KB).
 
-Nota importante:
+>[!CAUTION]
+>
+>Se uno dei requisiti non è soddisfatto, la modalità burst non sarà disponibile nel percorso.
 
-Se uno dei requisiti non è soddisfatto, la modalità burst non sarà disponibile nel percorso.
-
-Per attivare la modalità Burst, apri il percorso e fai clic sull’icona a forma di matita, in alto a destra, per accedere alle proprietà del percorso. Quindi, attiva il **Attiva modalità burst** alternare.
+Per attivare **Modalità Burst**, apri il percorso e fai clic sull’icona a forma di matita, in alto a destra, per accedere alle proprietà del percorso. Quindi, attiva il **Attiva modalità burst** alternare.
 
 ![](assets/burst.png)
 
-La modalità Burst verrà disattivata se modifichi un percorso burst e aggiungi un&#39;attività non conforme a burst (messaggio, qualsiasi altra azione, un evento, ecc.). Verrà visualizzato un messaggio.
+La modalità Burst viene disattivata automaticamente se modifichi un percorso burst e aggiungi un’attività non conforme ai messaggi burst, come un messaggio e-mail, qualsiasi altra azione, un evento e così via.
 
 ![](assets/burst2.png)
 
-Quindi testa e pubblica normalmente il tuo percorso. I messaggi in modalità di test non vengono inviati tramite la modalità burst.
+Quindi testa e pubblica il tuo percorso come di consueto. In modalità di test i messaggi non vengono inviati tramite la modalità burst.
 
-## Terminazione di un percorso
+In questo video puoi comprendere i casi d’uso applicabili ai messaggi burst e come configurare un percorso per i messaggi burst:
 
-Un percorso può terminare per un individuo per due motivi:
+>[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
 
-* La persona arriva all&#39;ultima attività di un percorso. Quest’ultima attività può essere un’attività finale o un’altra. Non vi è alcun obbligo di terminare un percorso con un’attività finale. Consulta [questa pagina](../building-journeys/end-activity.md).
-* La persona arriva a un’attività condizione (o un’attività di attesa con una condizione) e non corrisponde a nessuna delle condizioni.
+
+## Terminare, interrompere o chiudere un percorso{#end-journey}
+
+Un percorso può terminare per un individuo in due contesti specifici:
+
+* La persona arriva all&#39;ultima attività di un percorso. Quest’ultima attività può essere **Fine** attività o un’altra attività. Utilizzo di un **Fine** l’attività non è obbligatoria. Consulta [questa pagina](../building-journeys/end-activity.md).
+* La persona arriva ad un **Condizione** (o **Wait** attività con una condizione) e non corrisponde a nessuna delle condizioni.
 
 La persona può quindi rientrare nel percorso se è consentito il rientro. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
 
@@ -166,7 +172,7 @@ Un percorso può chiudersi per i motivi seguenti:
 * Un percorso basato su segmenti una tantum che ha completato l’esecuzione.
 * Dopo l’ultima occorrenza di un percorso basato su segmenti ricorrente.
 
-Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/journey-gs.md#global_timeout).
+Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Closed]**. Il percorso smette di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/journey-gs.md#global_timeout).
 
 Nel caso tu debba interrompere il progresso di tutti gli individui nel percorso, puoi fermarlo. Arrestare il percorso causerà il timeout di tutti gli individui nel percorso.
 
@@ -178,7 +184,7 @@ La **[!UICONTROL Stop]** e **[!UICONTROL Close to new entrances]** le opzioni co
 >
 >Non è possibile riprendere un percorso chiuso o interrotto.
 
-### Chiusura di un percorso
+### Chiudi un percorso
 
 È possibile chiudere manualmente un percorso per garantire che i clienti che sono già entrati nel percorso possano completare il loro percorso ma i nuovi utenti non siano in grado di accedere al percorso.
 
@@ -197,16 +203,15 @@ Per chiudere un percorso dall’elenco dei percorsi, fai clic sul pulsante **[!U
 
    ![](assets/finish_drop_down_list.png)
 
-1. Fai clic su **[!UICONTROL Close to new entrances]**. Viene visualizzata una finestra di dialogo.
-1. Fai clic su **[!UICONTROL Close to new entrances]** per confermare.
+1. Fai clic su **[!UICONTROL Close to new entrances]** e conferma nella finestra di dialogo.
 
-### Arresto di un percorso
+### Interrompi un percorso
 
 È possibile interrompere un percorso quando si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente su un percorso.
 
 Impossibile riavviare una versione di percorso interrotta.
 
-Quando viene arrestato, lo stato di un percorso è **[!UICONTROL Stopped]**.
+Quando viene arrestato, lo stato del percorso viene impostato su **[!UICONTROL Stopped]**.
 
 È possibile interrompere un percorso, ad esempio, se un addetto al marketing si rende conto che il percorso esegue il targeting del pubblico errato o che un&#39;azione personalizzata che dovrebbe inviare i messaggi non funziona correttamente. Per interrompere un percorso dall’elenco dei percorsi, fai clic sul pulsante **[!UICONTROL Ellipsis]** a destra del nome del percorso e seleziona **[!UICONTROL Stop]**.
 
@@ -219,5 +224,4 @@ Quando viene arrestato, lo stato di un percorso è **[!UICONTROL Stopped]**.
 
 ![](assets/finish_drop_down_list.png)
 
-1. Fai clic su **[!UICONTROL Stop]**. Viene visualizzata una finestra di dialogo.
-1. Fai clic su **[!UICONTROL Stop]** per confermare.
+1. Fai clic su **[!UICONTROL Stop]** e conferma nella finestra di dialogo.
