@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -19,6 +20,10 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 1. Seleziona un elemento nel contenuto.
 1. Nel pannello laterale, cerca il **[!UICONTROL Styles Inline]** impostazioni.
 
+   ![](assets/styles_1.png)
+
 1. Modificare i valori degli attributi esistenti o aggiungerne di nuovi utilizzando il **+** pulsante . Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
+
+   ![](assets/styles_2.png)
 
 Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento padre.
