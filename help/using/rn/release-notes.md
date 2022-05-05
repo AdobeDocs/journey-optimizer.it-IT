@@ -3,9 +3,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3192'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Scopri di più su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target=&quot;_blank&quot;}.
 
-![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} e ricevi gli ultimi aggiornamenti dei prodotti, storie entusiasmanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
+![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti alla [newsletter trimestrale di Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
 
 ## Versione di aprile 2022 {#april-2022-release}
@@ -24,25 +24,25 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Pagine di destinazione**
 
-* **Nuova opzione per le caselle di controllo di consenso/rinuncia** - È ora possibile inserire una singola casella di controllo per l’opt-in/opt-out nelle pagine di destinazione dell’abbonamento. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per rimuovere il loro consenso (opt-out). [Ulteriori informazioni](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nuova opzione per le caselle di controllo di consenso/rinuncia** - È ora possibile inserire una singola casella di controllo di consenso/rinuncia nelle pagine di destinazione di iscrizione. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out). [Ulteriori informazioni](../landing-pages/design-lp.md#define-lp-specific-content)
 
-* **Campi delle pagine di destinazione precompilati** - È ora possibile consentire agli utenti di precompilare i campi della pagina di destinazione con le informazioni sul profilo. [Ulteriori informazioni](../landing-pages/create-lp.md#configure-primary-page)
+* **Campi delle pagine di destinazione precompilati** - È ora possibile consentire agli utenti di precompilare i campi della pagina di destinazione con le informazioni del profilo. [Ulteriori informazioni](../landing-pages/create-lp.md#configure-primary-page)
 
 **Gestione delle decisioni**
 
-* **Decisioning API in Edge** - L’API Edge Decisioning può distribuire ed eseguire il rendering di offerte personalizzate gestite in Offer Decisioning. Puoi creare le offerte e altri oggetti correlati utilizzando l’interfaccia utente (UI) o le API di Offer Decisioning. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API Decisioning in Edge** - L’API Edge Decisioning può distribuire ed eseguire il rendering di offerte personalizzate gestite in Offer Decisioning. Puoi creare le offerte e altri oggetti correlati utilizzando l’interfaccia utente (UI) o le API di Offer Decisioning. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Amministrazione**
 
-* **Durata invio PTR** - La durata di validità dell&#39;editing PTR è ora di alcune ore. [Ulteriori informazioni](../configuration/ptr-records.md#processing)
+* **Durata invio PTR** - Le modifiche PTR ora diventano effettive dopo alcune ore. [Ulteriori informazioni](../configuration/ptr-records.md#processing)
 
 **Progettazione e-mail**
 
-* **20 nuovi modelli e-mail** sono ora disponibili per progettare il contenuto delle e-mail in Journey Optimizer.
+* Per progettare il contenuto delle e-mail in Journey Optimizer sono ora disponibili **20 nuovi modelli e-mail**.
 
 **Interfaccia utente**
 
-* **Aiuto contestuale nell’interfaccia utente di Journey Optimizer** - Sono stati aggiunti collegamenti di aiuto contestuali a più pagine in Journey Optimizer. Quando disponibile, fai clic sull’icona &quot;i&quot; per visualizzare una descrizione rapida della funzionalità corrente e accedere agli articoli correlati.
+* **Aiuto contestuale nell’interfaccia utente di Journey Optimizer** - Sono stati aggiunti collegamenti di aiuto contestuali verso diverse pagine della documentazione di Journey Optimizer. Quando disponibile, fai clic sull’icona “i” per visualizzare una breve descrizione della funzionalità corrente e accedere ai relativi articoli.
 
 **Integrazione con Adobe Campaign Standard**
 
