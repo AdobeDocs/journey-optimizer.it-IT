@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 97%
       + [Leggi segmento](using/building-journeys/read-segment.md)
       + [Messaggio](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
-      + [Azioni Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
+      + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Salta](using/building-journeys/jump.md)
       + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
@@ -328,8 +328,8 @@ ht-degree: 97%
          + [Eliminare una decisione](using/offers/api-reference/activities-api/activities/delete.md)
       + Consegna delle offerte tramite API {#offer-delivery-api}
          + [Informazioni sulle API Decisioning e Edge Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
-         + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
-         + [API di Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gestione dati {#data-management}
    + [Schemi](using/start/get-started-schemas.md)
