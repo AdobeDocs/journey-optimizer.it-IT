@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 2%
+source-wordcount: '698'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ Un elenco di soppressione è costituito da indirizzi e-mail che si desidera escl
 
 La [!DNL Journey Optimizer] l&#39;elenco di soppressione viene gestito a livello di ambiente.
 
-Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico ambiente client, il che significa specifico per un ID organizzazione IMS associato a un ID sandbox.
+Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico ambiente client, il che significa specifici per un ID organizzazione associato a un ID sandbox.
 
 ## Perché una lista di soppressione? {#why-suppression-list}
 

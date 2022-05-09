@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1639'
 ht-degree: 9%
 
 ---
@@ -191,7 +191,7 @@ I controlli e le azioni seguenti vengono eseguiti fino a quando il sottodominio 
 
 1. **Creare URL di tracciamento e mirroring**: se il dominio è email.example.com, il dominio di tracking/mirror sarà data.email.example.com. È protetto installando il certificato SSL.
 
-1. **Provisioning di CDN CloudFront**: se CDN non è già configurato, Adobe lo prevede per l’imsorg.
+1. **Provisioning di CDN CloudFront**: se CDN non è già configurato, Adobe lo fornisce per l’ID della tua organizzazione.
 
 1. **Crea dominio CDN**: se il dominio è email.example.com, il dominio CDN sarà cdn.email.example.com.
 
