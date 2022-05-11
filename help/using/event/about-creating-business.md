@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 11%
+source-wordcount: '1103'
+ht-degree: 10%
 
 ---
 
@@ -80,15 +80,16 @@ Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
 
 1. Il numero di percorsi che utilizzano questo evento viene visualizzato nel campo **[!UICONTROL Used in]**. Puoi fare clic sull’icona **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo evento.
 
-1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento (solitamente denominato payload) che i percorsi prevedono di ricevere. Potrai quindi utilizzare queste informazioni nel tuo percorso. Vedi [questa sezione](../event/about-creating-business.md#define-the-payload-fields).
+1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento (o payload) che i percorsi prevedono di ricevere. Utilizzerai queste informazioni più avanti nel tuo percorso. Vedi [questa sezione](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Sono disponibili solo gli schemi di serie temporali. Gli schemi Eventi esperienza, Eventi decisionali e Eventi di Percorso non sono disponibili. Lo schema dell&#39;evento deve contenere un&#39;identità primaria non basata su persone. Quando definisci l’evento, è necessario selezionare i campi seguenti: `_id` e `timestamp`
+   Sono disponibili solo gli schemi di serie temporali. `Experience Events`, `Decision Events` e `Journey Step Events` Gli schemi non sono disponibili. Lo schema dell&#39;evento deve contenere un&#39;identità primaria non basata su persone. Quando definisci l’evento, è necessario selezionare i campi seguenti: `_id` e `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Fai clic all’interno del **[!UICONTROL Event ID condition]** campo . Utilizzando l’editor di espressioni semplici, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
+1. Fai clic all’interno del **[!UICONTROL Event ID condition]** campo . Utilizza l’editor di espressioni semplici per definire la condizione utilizzata dal sistema per identificare gli eventi che attivano il percorso.
+
    ![](assets/jo-event6-business.png)
 
    Nel nostro esempio, abbiamo scritto una condizione basata sull’ID del prodotto. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione, lo trasmette ai percorsi.
@@ -101,7 +102,7 @@ Di seguito sono riportati i primi passaggi per configurare un evento aziendale:
 
    ![](assets/journey7-business.png)
 
-   L’evento è ora configurato e pronto per essere rilasciato in un percorso. Per poter ricevere gli eventi sono necessari ulteriori passaggi di configurazione. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   L’evento è ora configurato e pronto per essere rilasciato in un percorso. Per poter ricevere gli eventi sono necessari ulteriori passaggi di configurazione. Per ulteriori informazioni, consulta [questa pagina](../event/additional-steps-to-send-events-to-journey.md).
 
 ## Definire i campi payload {#define-the-payload-fields}
 
@@ -119,17 +120,17 @@ La definizione del payload ti consente di scegliere le informazioni che il siste
    >
    > Assicurati che siano selezionati i campi seguenti: `_id` e `timestamp`
 
-1. Seleziona i campi che si prevede di ricevere dall’evento. Questi sono i campi che l&#39;utente aziendale sfrutterà nel percorso.
+1. Selezionare i campi che si prevede di ricevere dall’evento. Questi sono i campi che l&#39;utente aziendale sfrutterà nel percorso.
 
 1. Dopo aver selezionato i campi necessari, fai clic su **[!UICONTROL Save]** o premere **[!UICONTROL Enter]**.
 
-   Il numero di campi selezionati viene visualizzato nella sezione **[!UICONTROL Fields]** campo .
+   Il numero di campi selezionati viene visualizzato in **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
 ## Anteprima del payload {#preview-the-payload}
 
-L’anteprima del payload ti consente di convalidare la definizione del payload.
+Utilizza l’anteprima del payload per convalidare la definizione del payload.
 
 1. Fai clic sul pulsante **[!UICONTROL View Payload]** per visualizzare in anteprima il payload previsto dal sistema.
 
@@ -141,4 +142,4 @@ L’anteprima del payload ti consente di convalidare la definizione del payload.
 
 1. Seleziona l’anteprima per convalidare la definizione del payload.
 
-1. Quindi, puoi condividere l’anteprima del payload con la persona responsabile dell’invio dell’evento. Questo payload può aiutarli a progettare la configurazione di un evento che invia a [!DNL Journey Optimizer]. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Quindi, puoi condividere l’anteprima del payload con la persona responsabile dell’invio dell’evento. Questo payload può aiutarli a progettare la configurazione di un evento che invia a [!DNL Journey Optimizer]. Consulta [questa pagina](../event/additional-steps-to-send-events-to-journey.md).

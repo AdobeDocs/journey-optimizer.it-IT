@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -83,6 +83,11 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
    >Quando definisci un’azione personalizzata sono consentite solo le porte predefinite: 80 per http e 443 per https.
 
 1. Seleziona la chiamata **[!UICONTROL Method]**: può essere **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > La **DELETE** metodo non supportato. Se devi aggiornare una risorsa esistente, seleziona la **PUT** metodo .
+
 1. In **[!UICONTROL Headers]** definisci le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno:
    1. Per aggiungere un campo di intestazione, fai clic su **[!UICONTROL Add a header field]**.
    1. Immetti la chiave del campo intestazione.
@@ -103,7 +108,7 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
 
    >[!NOTE]
    >
-   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. [Ulteriori informazioni](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. Ulteriori informazioni in [questa documentazione](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definire i parametri dell’azione {#define-the-message-parameters}
 

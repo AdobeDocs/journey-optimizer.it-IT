@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 3%
+source-wordcount: '821'
+ht-degree: 5%
 
 ---
 
@@ -22,16 +22,12 @@ ht-degree: 3%
 
 La **[!UICONTROL Jump]** l’attività azione ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
 
-* semplificare la progettazione di percorsi molto complessi suddividendoli in più
-* creare percorsi basati su modelli di percorso comuni e riutilizzabili
+* semplificare la progettazione di percorsi molto complessi suddividendoli in diversi percorsi più semplici;
+* creare percorsi basati su pattern di percorso comuni e riutilizzabili.
 
 Nel percorso di origine, aggiungi semplicemente un **[!UICONTROL Jump]** e seleziona un percorso di destinazione. Quando l’utente accede alla **[!UICONTROL Jump]** un evento interno viene inviato al primo evento del percorso di destinazione. Se la **[!UICONTROL Jump]** l&#39;azione ha successo, l&#39;individuo continua a progredire nel percorso. Il comportamento è simile ad altre azioni.
 
 Nel percorso di destinazione, il primo evento attivato internamente dal **[!UICONTROL Jump]** farà il singolo flusso nel percorso.
-
->[!NOTE]
->
->Consulta anche il video tutorial [qui](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=it){target=&quot;_blank&quot;}
 
 ## Ciclo di vita
 
