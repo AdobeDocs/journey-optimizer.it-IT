@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
+source-git-commit: bb582374f69e5c4113e22c7caed1a23d2c9ac231
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '1496'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,6 @@ Nei parametri di azione personalizzati è possibile passare una raccolta semplic
 
 Tieni presente che i parametri delle azioni personalizzate hanno un formato previsto (ad esempio: (stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Ulteriori informazioni [caso d&#39;uso](../building-journeys/collections.md).
 
-
 ## Passaggi di configurazione {#configuration-steps}
 
 Di seguito sono riportati i passaggi principali necessari per configurare un’azione personalizzata:
@@ -50,9 +49,12 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nella **[!UICONTROL Used in]** campo . Puoi fare clic su **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questa azione.
-1. Definire i diversi **[!UICONTROL URL Configuration]** Parametri. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
+1. Seleziona il canale correlato a questa azione personalizzata: **E-mail**, **SMS** oppure **Notifica push**. Precompila il campo di azione marketing richiesto con l’azione di marketing predefinita per il canale selezionato. Se si seleziona **altro**, non verrà definita alcuna azione di marketing.
+1. Se desideri applicare una regola di consenso a questa azione personalizzata, seleziona la **Azione di marketing necessaria**. Vedi [questa sezione](../action/about-custom-action-configuration.md#consent-management).
+1. Definire i diversi **[!UICONTROL URL Configuration]** Parametri. Vedi [questa sezione](../action/about-custom-action-configuration.md#url-configuration).
 1. Configura le **[!UICONTROL Authentication]** sezione . Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
-1. Definisci la **[!UICONTROL Action parameters]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Definisci la **[!UICONTROL Action parameters]**. Vedi [questa sezione](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. 
 1. Fai clic su **[!UICONTROL Save]**.
 
    L’azione personalizzata è ora configurata ed è pronta per essere utilizzata nei percorsi. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
@@ -130,3 +132,37 @@ Puoi anche scegliere se specificare se un parametro è una costante o una variab
 * Variabile indica che il valore del parametro varia. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso possono passare liberamente il valore desiderato o specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
 
 ![](assets/customactionpayloadmessage2.png)
+
+## Gestione del consenso {#consent-management}
+
+I clienti possono ora definire i criteri di consenso, relativi alla privacy, per controllare i dati in uscita durante l’esecuzione dell’azione. Un criterio di consenso funziona come espressione sugli attributi del profilo, impostando regole per definire se un’azione può essere eseguita o meno per il profilo specificato.
+
+Consenso sur azione personalizzata, pas message encore Conxent a tel type de communication ou use de tel type de donnée champs dans profile qui vont sticker ce consenso coté AEP nuvelles regles de type Policies auj gouvernance policy. Par esenta dal targeting basato su e-mail Restric. Etichetta associata (C4/C5) a des marketing actions. Quand tu definie una destinazione, tipo di azione di marketing. Ex SFTP crée une dest qui va esportatore des données vers ce sftp, tu flague ce sftp avec une azione di marketing. Egelement nozione di azione di marketing rajoutée dans azione personalizzata, e-mail/SMS/azione di marketing push. Personalizzato.
+
+Etichette: quand tu def data set (où stocker tes données), onglet data gouvernance, pr chaque attribut tu peux definir le type de label assé a cet attribut. Codice del paese, etichettatura C3/C4. Etichette ootb, tu peux en def d&#39;autres en fonction besoin.
+
+
+
+— Commenti di Jira —
+
+descrive l’&quot;azione di marketing aggiuntiva&quot; come modo per un professionista di spiegare l’&quot;intento&quot; di un&#39;azione personalizzata, ad esempio: la mia azione personalizzata riguarda la comunicazione su allenamento, newsletter, fitness comunicazione, ecc.
+
+Descrivi l’ambito del consenso per la prima versione :
+
+- Vengono prese in considerazione le azioni di marketing e gli attributi utilizzati nella personalizzazione nell’azione personalizzata
+- Per i percorsi con attivazione segmento (iniziati con un segmento letto), vengono presi in considerazione gli attributi utilizzati come criteri in quel segmento
+- Non vengono prese in considerazione tutte le attività utilizzate in un percorso, diverse da un segmento di lettura o un’azione personalizzata
+- La qualificazione del segmento non viene presa in considerazione, anche se viene utilizzata per avviare un percorso
+
+Descrivi che un profilo escluso da un criterio di consenso in un’azione personalizzata continuerà a scorrere il percorso (iso con elenco di messaggi e di soppressione)
+
+Promemoria per descrivere la latenza prevista: https://wiki.corp.adobe.com/display/DMSArchitecture/Consent+Latency
++ corretta latenza AJO da 1h a 6h
+
+due tipi di latenza da documentare:
+
+- La latenza dell&#39;utente, su quello di Carolina Infante, non sono sicuro di quello che possiamo dire, guardando questo:
+
+È possibile confermare se è necessario o meno che si verifichi la &quot;proiezione/esportazione UPS&quot;, per aggiornare il campo &quot;contentTo&quot; a livello di profilo (sapendo che questo è ciò che utilizziamo in fase di runtime)? Perché se questo è il caso, credo che dovremmo dire che ci vorranno fino a 48 ore, ma se non lo è, stiamo solo parlando di &quot;latenza di acquisizione + latenza di raccolta&quot; (quindi da qualche secondo a poche ore nel peggiore dei casi se ci sono picchi o interruzioni nell&#39;acquisizione e/o se ci vuole molto tempo perché il cliente raccolga un aggiornamento dall&#39;utente).
+
+- La latenza delle politiche di consenso, direi &quot;fino a 6 ore&quot;, in quanto i percorsi in diretta richiederanno le politiche di consenso ogni 6 ore. Carolina Infante, sapete se siamo influenzati dalla latenza del filtro?
