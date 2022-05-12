@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: d826ad21e821235d61db499d25abf1a96ab0bec9
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Definire un’azione di marketing richiesta"
->abstract="L’&quot;azione di marketing richiesta&quot; ti consente di definire l’azione di marketing relativa all’azione personalizzata. Ad esempio, se utilizzi tale azione personalizzata per inviare e-mail, puoi selezionare &quot;Targeting e-mail&quot;. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. Impossibile modificare l&#39;elemento nell&#39;area di lavoro."
+>abstract="L’azione di marketing necessaria ti consente di definire l’azione di marketing relativa all’azione personalizzata. Ad esempio, se utilizzi tale azione personalizzata per inviare e-mail, puoi selezionare Targeting e-mail. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. Impossibile modificare l&#39;elemento nell&#39;area di lavoro."
 
 Durante la configurazione di un’azione personalizzata, è possibile utilizzare due campi per la gestione del consenso.
 
