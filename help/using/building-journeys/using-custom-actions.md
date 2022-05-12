@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 94c2e889b38608aa173b62edb498eba7756e68e6
+source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 28%
+source-wordcount: '341'
+ht-degree: 29%
 
 ---
 
@@ -61,3 +61,7 @@ Se necessario, specifica il valore dei campi di intestazione dinamici:
 ## Parametri azione
 
 In **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Fai riferimento a questo [page](expression/expressionadvanced.md).
+
+**Argomenti correlati**
+
+[Configurare un’azione](../action/about-custom-action-configuration.md)
