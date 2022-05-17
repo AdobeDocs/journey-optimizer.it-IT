@@ -4,7 +4,7 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
 
-## Accedere ai predefiniti della pagina di destinazione {#lp-presets}
+## Accedere ai predefiniti della pagina di destinazione {#access-lp-presets}
 
 Per accedere ai predefiniti della pagina di destinazione, effettua le seguenti operazioni.
 
