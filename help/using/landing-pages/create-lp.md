@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
@@ -53,7 +53,7 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Seleziona un predefinito. Scopri come creare i predefiniti per le pagine di destinazione in [questa sezione](../configuration/lp-configuration.md#lp-create-preset).
+1. Seleziona un predefinito. Scopri come creare i predefiniti per le pagine di destinazione in [questa sezione](../configuration/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -81,7 +81,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    ![](assets/lp_open-designer.png)
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../configuration/lp-configuration.md#lp-create-preset) selezionato. [Ulteriori informazioni](../configuration/lp-configuration.md#lp-subdomains)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../configuration/lp-presets.md#lp-create-preset) selezionato. [Ulteriori informazioni](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -133,7 +133,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
 1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-configuration.md#lp-subdomains)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
 
    >[!CAUTION]
    >

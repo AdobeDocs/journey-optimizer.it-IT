@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 95%
+source-wordcount: '1355'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiornate le schermate per la pagina di destinazione e i rapporti sugli abbonamenti. [Ulteriori informazioni](../reports/live-report.md)
 * È stata aggiunta una nota che indica che il metodo Delete non è supportato nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 * I collegamenti ai video dimostrativi sono stati aggiornati.
-
+* La [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti messaggi](../configuration/message-presets.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) le sezioni sono state riorganizzate per migliorarne la leggibilità.
+* La **Tracciamento URL** questa sezione è stata aggiornata e migliorata con gli esempi. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 
 ## Aprile 2022 {#april-2022}
 
