@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 3%
+source-wordcount: '769'
+ht-degree: 2%
 
 ---
 
@@ -20,6 +20,10 @@ Un elenco di soppressione è costituito da indirizzi e-mail che si desidera escl
 La [!DNL Journey Optimizer] l&#39;elenco di soppressione viene gestito a livello di ambiente.
 
 Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico ambiente client, il che significa specifici per un ID organizzazione associato a un ID sandbox.
+
+>[!NOTE]
+>
+>In Adobe viene conservato un elenco aggiornato di indirizzi e-mail non validi noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e si assicura che le e-mail non vengano recapitate a tali indirizzi. Questo elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti di consegna è indicato solo il numero di destinatari esclusi.
 
 ## Perché una lista di soppressione? {#why-suppression-list}
 

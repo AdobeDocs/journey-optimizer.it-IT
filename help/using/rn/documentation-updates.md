@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 93%
+source-wordcount: '1412'
+ht-degree: 89%
 
 ---
 
@@ -13,9 +13,13 @@ ht-degree: 93%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+## Giugno 2022 {#june-2022}
+
+* Nuovi esempi di query relativi a [qualificazione dei segmenti](../reports/query-examples.md#segment-qualification-queries) e [events](../reports/query-examples.md#event-based-queries) sono stati aggiunti a
 
 ## Maggio 2022 {#may-2022}
 
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 maggio è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione progettazione e-mail ora cita i nuovi modelli incorporati disponibili per avviare il contenuto con . Le schermate correlate sono state aggiornate. [Ulteriori informazioni](../design/design-emails.md)
 * I collegamenti alle risorse chiave sono stati aggiornati nella home page della documentazione di Journey Optimizer.
 * Sono state aggiornate le schermate per la pagina di destinazione e i rapporti sugli abbonamenti. [Ulteriori informazioni](../reports/live-report.md)
@@ -23,6 +27,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * I collegamenti ai video dimostrativi sono stati aggiornati.
 * La [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti messaggi](../configuration/message-presets.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) le sezioni sono state riorganizzate per migliorarne la leggibilità.
 * La **Tracciamento URL** questa sezione è stata aggiornata e migliorata con gli esempi. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* È stata aggiunta una nuova sottosezione sulla configurazione di un indirizzo e-mail inoltrato. Non è possibile farlo tramite l’interfaccia utente. [Ulteriori informazioni](../configuration/email-settings.md#forward-email)
 
 ## Aprile 2022 {#april-2022}
 

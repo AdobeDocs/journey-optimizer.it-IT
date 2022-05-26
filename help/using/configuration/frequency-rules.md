@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 1%
 
 ---
@@ -31,15 +31,19 @@ A questo scopo, puoi utilizzare una regola di frequenza che limiti il numero di 
 
 Le regole sono disponibili dal **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. Vengono elencate tutte le regole, ordinate per data di modifica.
 
->[!NOTE]
->
->Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, devi disporre della [Gestire le regole di frequenza](../administration/high-low-permissions.md#manage-frequency-rules) autorizzazione.
-
-![](assets/message-rules-access.png)
-
 Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche effettuare ricerche nell’etichetta del messaggio.
 
 ![](assets/message-rules-filter.png)
+
+### Autorizzazioni{#permissions-frequency-rules}
+
+Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, devi disporre della **[!UICONTROL Manage frequency rules]** autorizzazione.
+
+Utenti con **[!UICONTROL View frequency rules]** Le autorizzazioni sono in grado di visualizzare le regole, ma non di modificarle o eliminarle.
+
+![](assets/message-rules-access.png)
+
+Ulteriori informazioni sulle autorizzazioni in [questa sezione](../administration/high-low-permissions.md).
 
 ## Creare una regola {#create-new-rule}
 
@@ -79,7 +83,7 @@ Per creare una nuova regola, segui i passaggi seguenti.
 
    Ad esempio, imposta il limite a 15 e seleziona sia i canali e-mail che i canali push. Se un profilo ha già ricevuto 10 e-mail di marketing e 5 notifiche push di marketing, verrà escluso dalla consegna immediatamente successiva di qualsiasi e-mail di marketing o notifica push.
 
-1. Fai clic su **[!UICONTROL Save as draft]** per confermare la creazione della regola. Il messaggio viene aggiunto nell’elenco delle regole, con **[!UICONTROL Draft]** stato.
+1. Fai clic su **[!UICONTROL Save as draft]** per confermare la creazione della regola. Il messaggio viene aggiunto all’elenco delle regole con **[!UICONTROL Draft]** stato.
 
    ![](assets/message-rules-created.png)
 
@@ -93,7 +97,7 @@ L&#39;attivazione di una regola avrà un impatto sui messaggi a cui si applica a
 
 >[!NOTE]
 >
->Non è necessario modificare o ripubblicare messaggi o percorsi affinché una regola abbia effetto.
+>Per attivare completamente una regola possono essere necessari fino a 10 minuti. Non è necessario modificare o ripubblicare messaggi o percorsi affinché una regola abbia effetto.
 
 Per disattivare una regola di frequenza dei messaggi, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Deactivate]**.
 
@@ -132,6 +136,10 @@ Per applicare una regola di frequenza a un messaggio, segui la procedura seguent
 1. [Progettazione](../design/design-emails.md) e [pubblicare](../messages/publish-manage-message.md) il tuo messaggio.
 
 Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
+
+>[!NOTE]
+>
+>Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transactional]** non verranno valutati in base alle regole di frequenza.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’e
 In questo scenario, un singolo profilo:
 * può ricevere fino a 12 messaggi di marketing al mese;
 * ma saranno escluse dalle notifiche push di marketing dopo aver ricevuto 4 notifiche push.
+
+>[!NOTE]
+>
+>Quando si sottopongono a test le regole di frequenza, può essere utile iniziare con un nuovo [profilo di prova](../segment/creating-test-profiles.md), poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consentirà ai profili con limite massimo di ricevere i messaggi, ma non rimuoverà né eliminerà eventuali incrementi di contatore.

@@ -29,7 +29,7 @@ Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperien
 
 Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
 
-Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, [Sviluppatore Adobe](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase e così via, devi aggiungere e configurare un&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
+Se utilizzi un sistema di terze parti per l’invio di messaggi come Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}, Firebase e così via, devi aggiungere e configurare un&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
 Le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti in modo da consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 

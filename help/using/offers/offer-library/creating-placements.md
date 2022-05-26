@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 15%
 
 ---
@@ -42,7 +42,7 @@ Per creare un posizionamento, effettua le seguenti operazioni:
 
    * **[!UICONTROL Name]**: Nome del posizionamento. Assicurati di definire un nome significativo per recuperarlo più facilmente.
    * **[!UICONTROL Channel type]**: Canale per il quale verrà utilizzato il posizionamento.
-   * **[!UICONTROL Content type]**: Il tipo di contenuto che il posizionamento può visualizzare: Collegamento a testo, HTML o immagine.
+   * **[!UICONTROL Content type]**: Il tipo di contenuto che il posizionamento può visualizzare: Testo, HTML, collegamento immagine o JSON.
    * **[!UICONTROL Description]**: Una descrizione del posizionamento (facoltativo).
 
    ![](../assets/offers_placement_creation_properties.png)

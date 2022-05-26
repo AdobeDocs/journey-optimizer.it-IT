@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
-workflow-type: ht
-source-wordcount: '651'
-ht-degree: 100%
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,15 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    * Seleziona i canali da utilizzare per il messaggio: E-mail e/o notifica push. Per creare il messaggio, devi selezionare almeno un canale.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * Seleziona la **[!UICONTROL Preset]** da utilizzare per il messaggio.
 
-      I predefiniti includono tutti i parametri necessari per inviare una e-mail e/o una notifica push in base al marchio. [Ulteriori informazioni sui predefiniti](../configuration/message-presets.md).
+      I predefiniti includono tutti i parametri necessari per inviare una e-mail e/o una notifica push in base al marchio. Ulteriori informazioni su [predefiniti](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >Devi scegliere un predefinito di messaggio valido per la categoria e i canali selezionati.
@@ -83,6 +89,10 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
    È disponibile una scheda per ogni canale selezionato. Utilizza queste schede per configurare il contenuto per ogni canale. Per rimuovere una scheda, selezionala e fai clic sul pulsante **[!UICONTROL Delete channel]** a destra.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >Se hai attivato la **[!UICONTROL BCC email]** nel predefinito, l’indirizzo e-mail CCN verrà visualizzato sotto l’e-mail del mittente. [Ulteriori informazioni](../configuration/email-settings.md#bcc-email)
 
    Ora puoi creare il contenuto del messaggio e adattare le impostazioni. Informazioni dettagliate sulla configurazione delle e-mail e delle notifiche push sono disponibili nelle sezioni seguenti:
 

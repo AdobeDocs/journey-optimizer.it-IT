@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1527'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,6 @@ Solo i profili di test possono accedere a un percorso in modalità di test. Puoi
 >
 >Prima di testare il percorso, è necessario risolvere tutti gli eventuali errori. Scopri come verificare gli errori prima di eseguire il test in [questa sezione](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 1. Per attivare la modalità di prova, attiva la **[!UICONTROL Test]** nell&#39;angolo in alto a destra.
@@ -41,7 +40,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando un evento di reazione viene utilizzato in un percorso, il tempo di attesa predefinito e il valore minimo è 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
+   >Quando in un percorso viene utilizzato un evento di reazione con un timeout, l’impostazione predefinita del tempo di attesa e il valore minimo sono 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
 
 1. Utilizza la **[!UICONTROL Trigger an event]** per configurare e inviare gli eventi al percorso.
 

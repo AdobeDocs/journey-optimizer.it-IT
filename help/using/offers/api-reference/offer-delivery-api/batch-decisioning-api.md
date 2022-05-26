@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '867'
 ht-degree: 3%
 
 ---
@@ -193,7 +193,7 @@ Il tempo end-to-end per ogni decisione batch è la durata dal momento in cui il 
 
 Quando utilizzi [!DNL Batch Decisioning] Tieni presente le seguenti limitazioni:
 
-* **Processo batch singolo per set di dati**: Attualmente, è possibile eseguire un solo processo batch alla volta per ogni set di dati. Qualsiasi altra richiesta con lo stesso set di dati di output risponderebbe con HTTP 429 (Troppe richieste) prima del termine della richiesta precedente.
+* **Numero di processi batch in esecuzione per set di dati**: È possibile eseguire fino a cinque processi batch alla volta, per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene raccolto per l&#39;elaborazione una volta che il processo precedente è stato completato.
 * **Limite di frequenza**: Un batch esegue lo snapshot del profilo che si verifica una volta al giorno. La [!DNL Batch Decisioning] L’API limita la frequenza e carica sempre i profili dallo snapshot più recente.
 
 ## Passaggi successivi {#next-steps}

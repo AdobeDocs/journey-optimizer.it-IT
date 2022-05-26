@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 15%
+source-wordcount: '167'
+ht-degree: 5%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
-Restituisce i valori distinti dell’elenco. Se l’elenco contiene almeno un valore nullo, nell’elenco restituito sarà presente un valore nullo.
+Restituisce i valori o gli oggetti distinti di un elenco specificato. Se l’elenco ha almeno una voce null, sarà presente una voce null nell’elenco restituito.
 
 ## Categoria
 
@@ -23,20 +23,14 @@ Elenco
 
 ## Sintassi della funzione
 
-`distinctWithNull(<parameter>)`
+`distinctWithNull(<parameters>)`
 
 ## Parametri
 
-| Parametro | Tipo |
-|-----------|------------------|
-| Elenco | listString |
-| Elenco | listBoolean |
-| Elenco | listInteger |
-| Elenco | listDecimal |
-| Elenco | listDuration |
-| Elenco | listDateTime |
-| Elenco | listDateTimeOnly |
-| Elenco | listDateOnly |
+| Parametro | Tipo | Descrizione |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. |
+| keyAttributeName | stringa | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
 
 ## Firme e tipi restituiti
 
@@ -71,6 +65,12 @@ Restituisce un elenco di booleani.
 `distinctWithNull(<listDuration>)`
 
 Restituisce un elenco di durate.
+
+`distinctWithNull(<listObject>)`
+
+`distinctWithNull(<listObject>,<string>)`
+
+Restituisce un elenco di oggetti.
 
 ## Esempi
 

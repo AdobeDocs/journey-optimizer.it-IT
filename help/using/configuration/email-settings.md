@@ -5,10 +5,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
+source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 1%
+source-wordcount: '2152'
+ht-degree: 2%
 
 ---
 
@@ -113,6 +114,215 @@ In **[!UICONTROL HEADER PARAMETERS]** , inserisci i nomi del mittente e gli indi
 >
 >Gli indirizzi devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
+### Invia e-mail {#forward-email}
+
+Se desideri inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l’Assistenza clienti Adobe. Dovrai fornire:
+
+* Indirizzo e-mail di tua scelta. Il dominio dell’indirizzo e-mail di inoltro non può corrispondere ad alcun sottodominio delegato ad Adobe.
+* Il nome della sandbox.
+* Nome predefinito per il quale verrà utilizzato l’indirizzo e-mail successivo (o &quot;risposta a&quot;).
+* La corrente **[!UICONTROL Reply to (email)]** indirizzo impostato a livello di predefinito.
+
+>[!NOTE]
+>
+>Può essere presente un solo indirizzo e-mail per sottodominio. Di conseguenza, se più predefiniti utilizzano lo stesso sottodominio, lo stesso indirizzo e-mail deve essere utilizzato per tutti.
+
+L’indirizzo e-mail successivo verrà impostato per Adobe. Questo può richiedere da 3 a 4 giorni.
+
+## E-mail CCN {#bcc-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_bcc"
+>title="Definire un indirizzo e-mail CCN"
+>abstract="Puoi conservare una copia delle e-mail inviate inviandole a una casella in entrata CCN. Inserisci l’indirizzo e-mail desiderato in modo che ogni e-mail inviata venga copiata in modalità cieca in questo indirizzo CCN. Questa funzione è facoltativa."
+
+Puoi inviare una copia identica (o copia cieca in carbonio) di un’e-mail inviata da [!DNL Journey Optimizer] a una casella in entrata CCN. Questa funzione opzionale ti consente di conservare copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. Questo sarà invisibile ai destinatari della consegna.
+
+### Abilita e-mail CCN {#enable-bcc}
+
+Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato. Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito nel sottodominio delegato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+
+>[!NOTE]
+>
+>Puoi definire un solo indirizzo e-mail CCN. Assicurati che l’indirizzo CCN abbia una capacità di ricezione sufficiente per memorizzare tutte le e-mail inviate utilizzando il predefinito corrente.
+
+![](assets/preset-bcc.png)
+
+Tutti i messaggi e-mail che utilizzano questo predefinito verranno copiati in modalità cieca nell’indirizzo e-mail CCN inserito. Da lì, possono essere elaborati e archiviati utilizzando un sistema esterno.
+
+>[!CAUTION]
+>
+>L’utilizzo delle funzioni CCN verrà conteggiato in base al numero di messaggi per i quali si dispone della licenza. Quindi, abilitalo solo nei predefiniti utilizzati per le comunicazioni critiche che desideri archiviare. Controlla il tuo contratto per i volumi con licenza.
+
+L’impostazione dell’indirizzo e-mail CCN viene immediatamente salvata ed elaborata a livello di predefinito. Quando [creare un nuovo messaggio](../messages/get-started-content.md#create-new-message) utilizzando questo predefinito, l’indirizzo e-mail CCN viene visualizzato automaticamente.
+
+![](assets/preset-bcc-in-msg.png)
+
+Tuttavia, l’indirizzo CCN viene selezionato per l’invio di comunicazioni secondo la logica seguente:
+
+* Per i percorsi batch e burst, non si applica all&#39;esecuzione batch o burst che era già iniziato prima dell&#39;impostazione CCN. La modifica verrà rilevata alla ricorrenza successiva o alla nuova esecuzione.
+
+* Per i messaggi transazionali, la modifica viene selezionata immediatamente per la comunicazione successiva (fino a un minuto di ritardo).
+
+>[!NOTE]
+>
+>Non è necessario ripubblicare un messaggio o un percorso per selezionare l’impostazione CCN.
+
+### Recommendations e limitazioni {#recommendations-limitations}
+
+* Assicurati che l’indirizzo e-mail CCN sia impostato correttamente. In caso contrario, le informazioni personali identificabili dei clienti (PII) possono essere inviate a un indirizzo indesiderato.
+
+* Per motivi di privacy, le e-mail CCN devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) sicure.
+
+* Questa funzione può inviare all’indirizzo e-mail CCN prima della consegna ai destinatari, il che può comportare l’invio di messaggi CCN anche se le consegne originali possono avere [rimbalzato](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Se le e-mail inviate all’indirizzo CCN vengono aperte e cliccate, questo verrà preso in considerazione nelle aperture totali e nei clic dall’analisi dell’invio, il che potrebbe causare alcuni calcoli errati in [rapporti](../reports/message-monitoring.md). Allo stesso modo, contrassegnando le e-mail Ccn che arrivano nella tua casella in entrata come spam potrebbe causare l’arrivo delle e-mail nella cartella spam della tua casella in entrata.
+
+* La casella in entrata utilizzata per CCN deve essere gestita correttamente per lo spazio e la consegna. Se la casella in entrata restituisce messaggi non recapitati, è possibile che alcune e-mail non vengano ricevute e quindi che non vengano archiviate.
+
+>[!CAUTION]
+>
+>Evita di fare clic sul collegamento di annullamento dell’abbonamento nelle e-mail inviate all’indirizzo CCN, in quanto cancellerai immediatamente l’abbonamento ai destinatari corrispondenti.
+
+### Conformità ai requisiti RGPD {#gdpr-compliance}
+
+Regolamenti come il RGPD stabiliscono che gli interessati devono poter modificare il loro consenso in qualsiasi momento. Poiché le e-mail CCN che invii con Journey Optimizer includono informazioni personali (PII, Security Personally Identifiable Information), devi modificare il **[!UICONTROL CJM Email BCC Feedback Event Schema]** essere in grado di gestire questi PII in conformità con il RGPD e con normative simili.
+
+Per farlo, segui la procedura indicata di seguito.
+
+1. Vai a **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** e seleziona **[!UICONTROL CJM Email BCC Feedback Event Schema]**.
+
+   ![](assets/preset-bcc-schema.png)
+
+1. Fare clic per espandere **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** then **[!UICONTROL secondaryRecipientDetail]**.
+
+1. Seleziona **[!UICONTROL originalRecipientAddress]**.
+
+1. In **[!UICONTROL Field properties]** a destra, scorri verso il basso fino al **[!UICONTROL Identity]** casella di controllo.
+
+1. Selezionalo e seleziona anche **[!UICONTROL Primary identity]**.
+
+1. Seleziona uno spazio dei nomi dall’elenco a discesa.
+
+   ![](assets/preset-bcc-schema-identity.png)
+
+1. Fai clic su **[!UICONTROL Apply]**.
+
+>[!NOTE]
+>
+>Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target=&quot;_blank&quot;}.
+
+### Dati di reporting per CCN {#bcc-reporting}
+
+La generazione di rapporti in quanto tale su CCN non è disponibile nei rapporti sul percorso e sui messaggi. Tuttavia, le informazioni vengono memorizzate in un set di dati di sistema denominato **[!UICONTROL AJO BCC Feedback Event Dataset]**. È possibile eseguire query su questo set di dati per trovare informazioni utili, ad esempio, a scopo di debug.
+
+Puoi accedere a questo set di dati tramite l’interfaccia utente di . Seleziona **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** e **[!UICONTROL Show system datasets]** attiva/disattiva il filtro per visualizzare i set di dati generati dal sistema. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../start/get-started-datasets.md#access-datasets).
+
+![](assets/preset-bcc-dataset.png)
+
+Per eseguire query su questo set di dati, puoi utilizzare l’Editor query fornito da [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Per accedervi, seleziona **[!UICONTROL Data management]** > **[!UICONTROL Queries]** e fai clic su **[!UICONTROL Create query]**. [Ulteriori informazioni](../start/get-started-queries.md)
+
+![](assets/preset-bcc-queries.png)
+
+A seconda delle informazioni che stai cercando, puoi eseguire le seguenti query.
+
+1. Per tutte le altre query riportate di seguito, è necessario l’ID azione percorso. Esegui questa query per recuperare tutti gli ID azione associati a un particolare ID di versione del percorso negli ultimi 2 giorni:
+
+       &quot;
+       SELEZIONA
+       DISTINTO
+       CAST(TIMESTAMP AS DATE) AS EventTime,
+       _experience.journeyOrchestration.stepEvents.journeyVersionID,
+       _experience.journeyOrchestration.stepEvents.actionName,
+       _experience.journeyOrchestration.stepEvents.actionID
+       FROM percorso_step_events
+       DOVE
+       _experience.journeyOrchestration.stepEvents.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; E
+       _experience.journeyOrchestration.stepEvents.actionID non è NULL AND
+       TIMESTAMP > NOW() - INTERVALLO &#39;2&#39; GIORNO
+       ORDER BY EventTime DESC;
+       &quot;
+   
+   >[!NOTE]
+   >
+   >Per ottenere `<journey version id>`, seleziona il corrispondente [Versione percorso](../building-journeys/journey-versions.md) dal **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** menu. L’ID della versione del percorso viene visualizzato alla fine dell’URL visualizzato nel browser web.
+   >
+   >![](assets/preset-bcc-action-id.png)
+
+1. Esegui questa query per recuperare tutti gli eventi di feedback dei messaggi (in particolare lo stato di feedback) generati per un particolare messaggio destinato a un utente specifico negli ultimi 2 giorni:
+
+       &quot;
+       SELEZIONA
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+       _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID,
+       timestamp AS EventTime,
+       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+       _experience.customervarineymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+       CASE _experience.customervarineymanagement.messagedeliveryfeedback.feedbackStatus
+       QUANDO &#39;inviato&#39; ALLORA &#39;Inviato&#39;
+       QUANDO &#39;delay&#39; ALLORA &#39;Retry&#39;
+       QUANDO &#39;out_of_band&#39; THEN &#39;Bounce&#39;
+       QUANDO &#39;rimbalzo&#39; ALLORA &#39;rimbalzo&#39;
+       END AS FeedbackStatusCategory
+       FROM cjm_message_feedback_event_dataset
+       DOVE
+       timestamp > now() - INTERVAL &#39;2&#39; day AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&#39; E
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&#39; E
+       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39;
+       ORDER BY EventTime DESC;
+       &quot;
+   
+   >[!NOTE]
+   >
+   >Per ottenere `<journey action id>` , esegui la prima query descritta sopra utilizzando l&#39;ID versione percorso. La `<recipient email address>` è l&#39;indirizzo e-mail del destinatario di destinazione o effettivo.
+
+1. Esegui questa query per recuperare tutti gli eventi di feedback dei messaggi CCN generati per un particolare messaggio destinato a un utente specifico negli ultimi 2 giorni:
+
+   ```
+   SELECT   
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS BccEmailAddress,
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+               WHEN 'sent' THEN 'Sent'
+               WHEN 'delay' THEN 'Retry'
+               WHEN 'out_of_band' THEN 'Bounce' 
+               WHEN 'bounce' THEN 'Bounce'
+           END AS FeedbackStatusCategory 
+   FROM ajo_bcc_feedback_event_dataset  
+   WHERE  
+   timestamp > now() - INTERVAL '2' day  AND
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journeyaction id>' AND 
+   _experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = '<recipient email address>'
+   ORDER BY EventTime DESC;
+   ```
+
+1. Esegui questa query per recuperare tutti gli indirizzi dei destinatari che non hanno ricevuto il messaggio, mentre la relativa voce CCN esiste negli ultimi 30 giorni:
+
+   ```
+   SELECT
+       DISTINCT 
+   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress AS RecipientAddressesNotRecievedMessage
+   FROM ajo_bcc_feedback_event_dataset bcc
+   LEFT JOIN cjm_message_feedback_event_dataset mfe
+   ON 
+   bcc._experience.customerJourneyManagement.messageExecution.journeyVersionID =
+           mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AND    bcc._experience.customerJourneyManagement.messageExecution.journeyActionID = mfe._experience.customerJourneyManagement.messageExecution.journeyActionID AND 
+   bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress = mfe._experience.customerJourneyManagement.emailChannelContext.address AND
+   mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+   mfe._experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND
+   mfe.timestamp > now() - INTERVAL '30' DAY AND
+   mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
+   WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
+   ```
+
 ## Parametri di esecuzione di un nuovo tentativo e-mail {#email-retry}
 
 >[!CONTEXTUALHELP]
@@ -153,7 +363,7 @@ Tre parametri di tracciamento URL vengono compilati automaticamente come esempio
 Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** oppure scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
 
 * Attributi del percorso: **ID sorgente**, **Nome origine**, **ID versione sorgente**
-* Attributi del messaggio: **ID azione**, **Nome azione**
+* Attributi azione: **ID azione**, **Nome azione**
 * Attributi di Offer decisioning: **ID offerta**, **Nome offerta**
 
 ![](assets/preset-url-tracking-source.png)

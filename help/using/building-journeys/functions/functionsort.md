@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 18%
+source-wordcount: '131'
+ht-degree: 9%
 
 ---
 
 # sort {#sort}
 
-Ordina un elenco di valori nell’ordine naturale. Il primo argomento è l’elenco dei valori, il secondo è un valore booleano che indica se l’ordinamento è crescente (true) o decrescente (false).
+Ordina un elenco di valori o oggetti nell’ordine naturale.
 
 ## Categoria
 
@@ -27,17 +27,11 @@ Elenco
 
 ## Parametri
 
-| Parametro | Tipo |
-|-----------|------------------|
-| Elenco | listString |
-| Elenco | listBoolean |
-| Elenco | listInteger |
-| Elenco | listDecimal |
-| Elenco | listDuration |
-| Elenco | listDateTime |
-| Elenco | listDateTimeOnly |
-| Elenco | listDateOnly |
-| Booleano | Booleano |
+| Parametro | Tipo | Descrizione |
+|-----------|------------------|------------------|
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
+| keyAttributeName | stringa | Questo parametro è solo per listObject. Il nome dell’attributo negli oggetti dell’elenco specificato viene utilizzato come chiave per l’ordinamento. |
+| sortOrder | booleano | Crescente (true) o decrescente (false) |
 
 ## Firma e tipo restituito
 
@@ -69,6 +63,10 @@ Restituisce un elenco di date.
 
 Restituisce un elenco di booleani.
 
+`sort(<listObject>,<string>,<boolean>)`
+
+Restituisce un elenco di oggetti.
+
 ## Esempio
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ Restituisce `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Restituisce `[3, 2, 1]`.
+

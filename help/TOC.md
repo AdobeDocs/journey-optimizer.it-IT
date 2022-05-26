@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 97%
+source-wordcount: '1040'
+ht-degree: 92%
 
 ---
 
@@ -16,16 +16,19 @@ ht-degree: 97%
 
 + [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
-   + [Note sulla versione](using/rn/release-notes.md)
-   + [Ultimi aggiornamenti](using/rn/documentation-updates.md)
+   + [Note sulla versione più recente](using/rn/release-notes.md)
+   + Note sulle versioni precedenti {#previous-rn-new}
+      + [Note sulla versione 2022](using/rn/release-notes-2022.md)
+      + [Note sulla versione 2021](using/rn/release-notes-2021.md)
+   + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
 + Introduzione{#get-started}
    + [Cos’è Journey Optimizer](using/start/get-started.md)
    + Guida introduttiva{#quick-start}
       + [Panoramica](using/start/quick-start.md)
-      + [Introduzione al ruolo di addetto marketing](using/start/path/marketer.md)
-      + [Introduzione al ruolo di Data Engineer](using/start/path/data-engineer.md)
-      + [Introduzione al ruolo di amministratore](using/start/path/administrator.md)
-      + [Introduzione al ruolo di sviluppatore](using/start/path/developer.md)
+      + [Introduzione come addetto al marketing](using/start/path/marketer.md)
+      + [Guida introduttiva a Data Engineer](using/start/path/data-engineer.md)
+      + [Introduzione come amministratore](using/start/path/administrator.md)
+      + [Guida introduttiva come sviluppatore](using/start/path/developer.md)
    + [Interfaccia utente](using/start/user-interface.md)
    + [Limitazioni ](using/start/limitations.md)
 + Messaggi {#messages}
@@ -60,7 +63,11 @@ ht-degree: 97%
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
    + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
-   + [Progettare una pagina di destinazione](using/landing-pages/design-lp.md)
+   + Progettazione di contenuti {#landing-pages-design}
+      + [Informazioni sulla progettazione di pagine di destinazione](using/landing-pages/design-lp.md)
+      + [Creare il contenuto della pagina di destinazione](using/landing-pages/lp-content.md)
+      + [Creare modelli](using/landing-pages/lp-templates.md)
+      + [Aggiungi JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
    + [Creare un elenco di abbonamenti](using/landing-pages/subscription-list.md)
    + [Casi d’uso](using/landing-pages/lp-use-cases.md)
 + Personalizzazione{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 97%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [limite](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Matematica {#math}
@@ -245,6 +253,7 @@ ht-degree: 97%
       + [Introduzione alla consegna](using/reports/deliverability.md)
       + [Elenco di eliminazione](using/reports/suppression-list.md)
       + [Elenco Consentiti](using/reports/allow-list.md)
+   + [Azioni di controllo sulle risorse Journey Optimizer](using/reports/audit-logs.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -391,3 +400,5 @@ ht-degree: 97%
    + [Gestione di utenti e profili di prodotto](using/administration/permissions.md)
    + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
    + [Gestione delle sandbox](using/administration/sandboxes.md)
+   + [Controllo dell&#39;accesso basato su attributi](using/administration/attribute-based-access.md)
+

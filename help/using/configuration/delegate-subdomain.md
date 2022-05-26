@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '1639'
+source-wordcount: '1667'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,8 @@ Puoi delegare completamente un sottodominio o creare un sottodominio utilizzando
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Genera i record DNS corrispondenti"
->abstract="Per delegare completamente un nuovo sottodominio ad Adobe, devi copiare le informazioni del server dei nomi Adobi visualizzate nell’interfaccia Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare i record DNS corrispondenti. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per inviare i messaggi."
+>abstract="Per delegare completamente un nuovo sottodominio ad Adobe, è necessario copiare e incollare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia Journey Optimizer nella soluzione di hosting del dominio per generare i record DNS corrispondenti. Per delegare un sottodominio utilizzando i CNAME, devi anche copiare e incollare il record di convalida dell’URL CDN SSL. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per inviare i messaggi."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="Delega dei sottodomini CNAME"
 
 [!DNL Journey Optimizer] ti consente di delegare completamente i sottodomini ad Adobe direttamente dall’interfaccia del prodotto. In questo modo, Adobe sarà in grado di inviare messaggi come servizio gestito controllando e mantenendo tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento delle campagne e-mail.
 

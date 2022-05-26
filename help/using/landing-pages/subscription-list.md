@@ -1,14 +1,14 @@
 ---
-title: Creare un elenco di abbonamenti
+title: Creare un elenco di iscrizione
 description: Scopri come impostare un elenco di abbonamenti in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '371'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## Che cos’è un elenco di abbonamenti? {#subscription-list-definition}
 
-Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti ai clienti che hanno acconsentito a ricevere comunicazioni su un soggetto/evento/interesse/ecc specifico. su base continuativa. In [!DNL Journey Optimizer], questi clienti con consenso vengono raccolti in un elenco di sottoscrizioni.
+Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti ai clienti che hanno acconsentito a ricevere comunicazioni su un soggetto/evento/interesse/ecc. specifico. su base continuativa. In [!DNL Journey Optimizer], questi clienti con consenso vengono raccolti in un elenco di sottoscrizioni.
 
 Un servizio di abbonamento può essere:
 
@@ -41,7 +41,13 @@ Per creare un elenco di iscrizioni, segui i passaggi riportati di seguito.
 
    ![](assets/lp_create-subscription-list.png)
 
-1. Aggiungi un nome e una descrizione. Questi campi sono obbligatori.
+1. Aggiungi un titolo e una descrizione. Questi campi sono obbligatori.
+
+   ![](assets/lp_subscription-list-name.png)
+
+   >[!CAUTION]
+   >
+   >Attualmente non è possibile utilizzare la spaziatura o immettere un nome già esistente per un altro elenco di sottoscrizioni nel **[!UICONTROL Title]** campo .
 
 1. Puoi definire una data di inizio e una data di fine.
 

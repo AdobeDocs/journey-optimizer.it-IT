@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1237'
 ht-degree: 7%
 
 ---
@@ -359,6 +359,26 @@ La seguente query determina, senza distinzione tra maiuscole e minuscole, se il 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
 ```
+
+## Maschera (#mask)
+
+La `Mask` viene utilizzata per sostituire una parte di una stringa con caratteri &quot;X&quot;.
+
+**Formato**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**Esempio**
+
+La seguente query sostituisce la stringa &quot;123456789&quot; con caratteri &quot;X&quot;, ad eccezione dei primi e degli ultimi 2 caratteri.
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+La query restituisce `1XXXXXX89`.
 
 ## Non uguale a{#notEqualTo}
 
