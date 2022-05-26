@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
 source-wordcount: '1409'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -17,11 +17,11 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 maggio è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
 * Nuovi esempi di query relativi a [qualificazione dei segmenti](../reports/query-examples.md#segment-qualification-queries) e [events](../reports/query-examples.md#event-based-queries) sono stati aggiunti.
-* La sezione progettazione e-mail ora cita i nuovi modelli incorporati disponibili per avviare il contenuto con . Le schermate correlate sono state aggiornate. [Ulteriori informazioni](../design/design-emails.md)
-* I collegamenti alle risorse chiave sono stati aggiornati nella home page della documentazione di Journey Optimizer.
-* Sono state aggiornate le schermate per la pagina di destinazione e i rapporti sugli abbonamenti. [Ulteriori informazioni](../reports/live-report.md)
-* È stata aggiunta una nota che indica che il metodo Delete non è supportato nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
-* I collegamenti ai video dimostrativi sono stati aggiornati.
+* Nella sezione per la progettazione delle e-mail ora vengono riportati eventuali nuovi modelli incorporati, disponibili come punto di partenza per il contenuto. Sono state aggiornate le relative schermate. [Ulteriori informazioni](../design/design-emails.md)
+* Nella pagina Home della documentazione di Journey Optimizer sono stati aggiornati i collegamenti alle risorse chiave.
+* Sono state aggiornate le schermate per la pagina di destinazione e i rapporti sulle iscrizioni. [Ulteriori informazioni](../reports/live-report.md)
+* È stata aggiunta una nota che indica che il metodo DELETE non è supportato nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
+* Sono stati aggiornati i collegamenti ai video dimostrativi.
 * La [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti messaggi](../configuration/message-presets.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) le sezioni sono state riorganizzate per migliorarne la leggibilità.
 * La **Tracciamento URL** questa sezione è stata aggiornata e migliorata con gli esempi. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 * È stata aggiunta una nuova sottosezione sulla configurazione di un indirizzo e-mail inoltrato. Non è possibile farlo tramite l’interfaccia utente. [Ulteriori informazioni](../configuration/email-settings.md#forward-email)
