@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -138,6 +138,10 @@ L’indirizzo e-mail successivo verrà impostato per Adobe. Questo può richiede
 
 Puoi inviare una copia identica (o copia cieca in carbonio) di un’e-mail inviata da [!DNL Journey Optimizer] a una casella in entrata CCN. Questa funzione opzionale ti consente di conservare copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. Questo sarà invisibile ai destinatari della consegna.
 
+>[!CAUTION]
+>
+>Questa funzionalità sarà disponibile a partire da **31 maggio**.
+
 ### Abilita e-mail CCN {#enable-bcc}
 
 Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato. Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito nel sottodominio delegato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
@@ -145,6 +149,8 @@ Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desidera
 >[!NOTE]
 >
 >Puoi definire un solo indirizzo e-mail CCN. Assicurati che l’indirizzo CCN abbia una capacità di ricezione sufficiente per memorizzare tutte le e-mail inviate utilizzando il predefinito corrente.
+>
+>Ulteriori raccomandazioni sono elencate in [questa sezione](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ Tuttavia, l’indirizzo CCN viene selezionato per l’invio di comunicazioni sec
 >
 >Non è necessario ripubblicare un messaggio o un percorso per selezionare l’impostazione CCN.
 
-### Recommendations e limitazioni {#recommendations-limitations}
+### Recommendations e limitazioni {#bcc-recommendations-limitations}
 
-* Assicurati che l’indirizzo e-mail CCN sia impostato correttamente. In caso contrario, le informazioni personali identificabili dei clienti (PII) possono essere inviate a un indirizzo indesiderato.
+* Per garantire la conformità ai requisiti di privacy, le e-mail CCN devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) sicure.
 
-* Per motivi di privacy, le e-mail CCN devono essere elaborate da un sistema di archiviazione in grado di memorizzare informazioni personali (PII) sicure.
-
-* Questa funzione può inviare all’indirizzo e-mail CCN prima della consegna ai destinatari, il che può comportare l’invio di messaggi CCN anche se le consegne originali possono avere [rimbalzato](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* Se le e-mail inviate all’indirizzo CCN vengono aperte e cliccate, questo verrà preso in considerazione nelle aperture totali e nei clic dall’analisi dell’invio, il che potrebbe causare alcuni calcoli errati in [rapporti](../reports/message-monitoring.md). Allo stesso modo, contrassegnando le e-mail Ccn che arrivano nella tua casella in entrata come spam potrebbe causare l’arrivo delle e-mail nella cartella spam della tua casella in entrata.
+* Poiché i messaggi possono contenere dati riservati o privati, ad esempio informazioni personali identificabili (PII), assicurati che l’indirizzo CCN sia corretto e proteggi l’accesso ai messaggi.
 
 * La casella in entrata utilizzata per CCN deve essere gestita correttamente per lo spazio e la consegna. Se la casella in entrata restituisce messaggi non recapitati, è possibile che alcune e-mail non vengano ricevute e quindi che non vengano archiviate.
 
+* I messaggi possono essere inviati all’indirizzo e-mail CCN prima dei destinatari. I messaggi CCN possono anche essere inviati anche se i messaggi originali possono avere [rimbalzato](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Non aprire o fare clic sulle e-mail inviate all’indirizzo CCN in quanto vengono prese in considerazione nelle aperture totali e nei clic dall’analisi di invio, il che potrebbe causare alcuni calcoli errati in [rapporti](../reports/message-monitoring.md).
+
+* Non contrassegnare i messaggi come spam nella casella in entrata CCN, in quanto avranno effetto su tutte le altre e-mail inviate a questo indirizzo.
+
+
 >[!CAUTION]
 >
->Evita di fare clic sul collegamento di annullamento dell’abbonamento nelle e-mail inviate all’indirizzo CCN, in quanto cancellerai immediatamente l’abbonamento ai destinatari corrispondenti.
+>Non fare clic sul collegamento di annullamento dell’abbonamento nelle e-mail inviate all’indirizzo CCN, in quanto cancellerai immediatamente l’abbonamento ai destinatari corrispondenti.
 
 ### Conformità ai requisiti RGPD {#gdpr-compliance}
 

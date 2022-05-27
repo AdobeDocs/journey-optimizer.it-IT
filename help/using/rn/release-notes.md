@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 34%
 
 ---
@@ -48,6 +48,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
+<p>Data di disponibilità: <strong>31 maggio</strong></p>
 <p>È ora possibile utilizzare la funzionalità CCN e-mail (copia non vedente in carbonio) per memorizzare le e-mail inviate da Adobe Journey Optimizer. Abilita questa opzione nei tuoi predefiniti e-mail in modo che ogni e-mail inviata venga copiata in modalità cieca nell’indirizzo CCN.</p>
 <img src="assets/bcc-rn.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/email-settings.md#bcc-email">documentazione dettagliata</a>.</p>
