@@ -2,7 +2,7 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -39,7 +39,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Marzo 2022 {#march-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati nella versione di marzo 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
-* È stata aggiunta una nuova pagina nella guida introduttiva ai modelli AI alla sezione **Offer decisioning**, compresa una descrizione dettagliata del [modello di ottimizzazione automatica](../offers/offer-library/ai-ranking.md#auto-optimization), l’algoritmo utilizzato e ulteriori dettagli tecnici. [Ulteriori informazioni](../offers/offer-library/ai-ranking.md)
+* È stata aggiunta una nuova pagina nella guida introduttiva ai modelli AI alla sezione **Offer decisioning**, compresa una descrizione dettagliata del [modello di ottimizzazione automatica](../offers/ranking/auto-optimization-model.md), l’algoritmo utilizzato e ulteriori dettagli tecnici. [Ulteriori informazioni](../offers/ranking/ai-models.md)
 * La pagina di creazione del profilo di test è stata spostata nella sezione **Segmento, profili e identità**. [Ulteriori informazioni](../segment/creating-test-profiles.md)
 * Nell’editor espressioni è stato aggiunto un esempio su come aggiungere un’espressione come valore predefinito. [Ulteriori informazioni](../building-journeys/expression/field-references.md#default-value)
 * La sezione **Creare offerte personalizzate** è stata riorganizzata per migliorarne la leggibilità. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Gennaio 2022 {#january-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di gennaio 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
-* La sezione sulle **classificazioni basate su IA di Offer Decisioning** è stata aggiornata con una descrizione più dettagliata del modello di ottimizzazione automatica. [Ulteriori informazioni](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* La sezione sulle **classificazioni basate su IA di Offer Decisioning** è stata aggiornata con una descrizione più dettagliata del modello di ottimizzazione automatica. [Ulteriori informazioni](../offers/ranking/auto-optimization-model.md)
+* È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](../offers/ranking/schema-requirement.md)
 * La sezione relativa alle funzionalità di personalizzazione di [!DNL Journey Optimizer] è stata riorganizzata per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
 * La sezione **Creare predefiniti messaggi** è stata suddivisa in diverse sezioni per migliorarne la chiarezza. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
 * La sezione sulla **gestione delle rinunce** è stata chiarita e leggermente riorganizzata. [Ulteriori informazioni](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * È stata aggiunta una sottosezione per chiarire le differenze tra l’utilizzo dei segmenti e delle regole decisionali nell’applicazione di un vincolo per limitare la selezione delle offerte per un determinato posizionamento. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* Sono stati aggiunti esempi di formule di classificazione specifici per illustrare alcuni casi d’uso reali. [Ulteriori informazioni](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* Sono stati aggiunti esempi di formule di classificazione specifici per illustrare alcuni casi d’uso reali. [Ulteriori informazioni](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * È stata aggiunta una sottosezione sulla modalità di modifica dei pool IP. [Ulteriori informazioni](../configuration/ip-pools.md#edit-ip-pool)
 

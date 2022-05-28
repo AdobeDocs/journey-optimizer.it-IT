@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 6%
@@ -104,7 +104,7 @@ Li troverai sotto il **[!UICONTROL Decision Management]** > **[!UICONTROL Compon
 
 1. Se desideri definire regole che determinino quale offerta deve essere presentata per prima per un determinato posizionamento (anziché tenere conto dei punteggi di priorità delle offerte), puoi creare un **formula di classificazione**.
 
-   I passaggi dettagliati per la creazione di formule di classificazione sono descritti in [questa sezione](../../using/offers/offer-library/create-ranking-formulas.md#create-ranking-formula).
+   I passaggi dettagliati per la creazione di formule di classificazione sono descritti in [questa sezione](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
