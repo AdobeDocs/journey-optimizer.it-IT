@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -139,21 +139,9 @@ Tieni presente che quando utilizzi l’API decisionale, i dati contestuali vengo
 
 ### Migliora le offerte in base alla propensione dei clienti ad acquistare il prodotto offerto
 
-Se abbiamo 2 istanze di *CustomerAI* calcolo della propensione all&#39;acquisto *travelInsurance* e *extraBaggage* per una compagnia aerea, la seguente formula di classificazione aumenterà la priorità (di 50 punti) dell&#39;offerta specifica per l&#39;assicurazione o il bagaglio se il punteggio di propensione del cliente per l&#39;acquisto di quel prodotto è superiore a 90.
+Puoi incrementare il punteggio per un&#39;offerta in base a un punteggio di propensione del cliente.
 
-Tuttavia, perché *CustomerAI* l’istanza crea un proprio oggetto all’interno dello schema di profilo unificato; non è possibile selezionare in modo dinamico il punteggio in base al tipo di propensione dell’offerta. Così devi catena il `if` istruzioni per controllare innanzitutto il tipo di propensione dell’offerta, quindi estrarre il punteggio dal campo di profilo appropriato.
-
-**Formula di classificazione:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Una soluzione migliore è quella di memorizzare i punteggi in un array del profilo. L’esempio seguente funziona su una varietà di diversi punteggi di propensione utilizzando solo una semplice formula di classificazione. Ci si aspetta che tu disponga di uno schema di profilo con un array di punteggi. In questo esempio, il tenant dell’istanza è *_velocità di vendita* e lo schema del profilo contiene quanto segue:
+In questo esempio, il tenant dell’istanza è *_velocità di vendita* e lo schema del profilo contiene un intervallo di punteggi memorizzati in un array:
 
 ![](../assets/ranking-example-schema.png)
 
