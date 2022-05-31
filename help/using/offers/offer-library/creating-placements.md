@@ -36,7 +36,7 @@ Per creare un posizionamento, effettua le seguenti operazioni:
 
 1. Fai clic su **[!UICONTROL Create placement]**.
 
-   !![](../assets/offers_placement_Creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. Definisci le proprietà del posizionamento:
 
