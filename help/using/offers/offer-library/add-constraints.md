@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1575'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
+>title="Informazioni sui vincoli delle offerte"
+>abstract="Con i vincoli, puoi specificare in che modo l’offerta viene prioritaria e presentata all’utente rispetto ad altre offerte."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_constraints"
 >title="Informazioni sui vincoli delle offerte"
 >abstract="Con i vincoli, puoi specificare in che modo l’offerta viene prioritaria e presentata all’utente rispetto ad altre offerte."
 
