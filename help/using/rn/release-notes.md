@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 35%
+source-wordcount: '465'
+ht-degree: 31%
 
 ---
 
@@ -122,11 +122,11 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 * **Torna alla pagina principale** - È ora possibile aggiungere un collegamento alla pagina principale da qualsiasi pagina secondaria all’interno della stessa pagina di destinazione.
 * **Supporto JavaScript personalizzato** - È ora possibile aggiungere JavaScript personalizzati al contenuto della pagina di destinazione per eseguire uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.	[Ulteriori informazioni](../landing-pages/lp-custom-js.md)
 
-<!--**Decision management**
-
-* **HTML and JSON files support** - You can now drag and drop external HTML and JSON files from the AEM repository into the offer representation content.-->
-
 **Percorsi**
 
 * **Leggi segmento** - I percorsi di segmenti di sola lettura ora passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i segmenti di lettura pianificati, trascorrono 30 giorni dall’esecuzione dell’ultima occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md)
 * **Editor espressioni** - [limite](../building-journeys/functions/functionlimit.md) è stata aggiunta la funzione per consentire di limitare il numero di elementi di un elenco. La [sort](../building-journeys/functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject al [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funzioni.
+
+**Amministrazione**
+
+**Aggiornamento del dashboard di utilizzo della licenza** - Il dashboard di utilizzo della licenza disponibile nell’interfaccia utente di Adobe Experience Platform ora riflette il valore esatto per **Concesso in licenza** Ricchezza media del profilo. In qualità di cliente Journey Optimizer, visualizzerai un calo di questa rappresentazione metrica, il che significa che l’utilizzo per il quale hai concesso la licenza è ora correttamente segnalato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}

@@ -4,7 +4,8 @@ description: Scopri come tenere traccia delle azioni eseguite sulle risorse Jour
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 336a2a4d28ce1738cc664861291fdc1f39b3ab29
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
@@ -33,23 +34,23 @@ La tabella seguente illustra le azioni sulle quali le risorse Journey Optimizer 
 
 | Risorsa | Azione |
 |-----------|------------------|
-| Gruppo di campi | Crea/Elimina/Aggiorna |
-| Sottodominio AJO | Crea/Elimina/Aggiorna |
-| Elenco di soppressione di CJM | Creare/eliminare/scaricare CSV |
+| Impostazione generale del canale AJO | Crea/Elimina/Aggiorna |
+| Pool IP AJO | Crea/Elimina/Aggiorna |
+| Pagina di destinazione AJO | Crea/Elimina/Aggiorna/Pubblica/Annulla pubblicazione |
+| Modello HTML della pagina di destinazione AJO | Crea/Elimina/Aggiorna |
+| Predefinito pagina di destinazione AJO | Crea/Elimina/Aggiorna |
+| Sottodominio della pagina di destinazione AJO | Crea/Elimina/Aggiorna |
+| Messaggio AJO | Crea/Elimina/Aggiorna/Pubblica |
 | Predefinito messaggio AJO | Crea/Elimina/Aggiorna |
 | Record PTR AJO | Crea/Elimina/Aggiorna |
-| Strategia di classificazione | Crea/Elimina/Aggiorna |
-| Azione personalizzata percorso | Crea/Elimina/Aggiorna |
-| Modello HTML della pagina di destinazione AJO | Crea/Elimina/Aggiorna |
-| Pool IP AJO | Crea/Elimina/Aggiorna |
-| Sottodominio della pagina di destinazione AJO | Crea/Elimina/Aggiorna |
+| Modello di espressione salvata AJO | Crea/Elimina/Aggiorna |
 | Credenziali API SMS AJO | Crea/Elimina/Aggiorna |
-| Predefinito pagina di destinazione AJO | Crea/Elimina/Aggiorna |
+| Sottodominio AJO | Crea/Elimina/Aggiorna |
+| Elenco di soppressione di AJO | Creare/eliminare/scaricare CSV |
+| Gruppo di campi | Crea/Elimina/Aggiorna |
+| Percorso | Crea/Elimina/Aggiorna/Arresta/Pubblica |
+| Azione personalizzata percorso | Crea/Elimina/Aggiorna |
 | Origine dati percorso | Crea/Elimina/Aggiorna |
 | Evento percorso | Crea/Elimina/Aggiorna |
-| Modello di espressione salvata AJO | Crea/Elimina/Aggiorna |
 | Regola di frequenza dei messaggi | Crea/Elimina/Aggiorna |
-| Pagina di destinazione AJO | Crea/Elimina/Aggiorna/Pubblica/Annulla pubblicazione |
-| Percorso | Crea/Elimina/Aggiorna/Arresta/Pubblica |
-| Messaggio AJO | Crea/Elimina/Aggiorna/Pubblica |
-| Impostazione generale del canale AJO | Crea/Elimina/Aggiorna |
+| Strategia di classificazione | Crea/Elimina/Aggiorna |

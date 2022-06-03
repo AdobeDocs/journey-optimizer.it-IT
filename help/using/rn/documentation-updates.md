@@ -2,7 +2,7 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 94%
@@ -98,7 +98,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * Sono stati aggiunti alcuni esempi di uso comune per eseguire query sugli eventi dei passaggi del percorso in Data Lake. [Ulteriori informazioni](../reports/query-examples.md)
 
-* È stata aggiunta una nuova pagina **Limitazioni**. [Ulteriori informazioni](../start/limitations.md)
+* È stata aggiunta una nuova pagina **Limitazioni**. [Ulteriori informazioni](../start/guardrails.md)
 
 * È stata migliorata la pagina **Avvio rapido**, con passaggi per utenti tipo diversi. [Ulteriori informazioni](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Nella documentazione e nelle schermate le “attività di offerta” sono state rinominate “decisioni” e le “decisioni” sono state rinominate “ambiti decisionali”. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con le funzioni di assistenza](../personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](../building-journeys/read-segment.md)
-* Sono state aggiornate le limitazioni di Journey. [Ulteriori informazioni](../start/limitations.md)
+* Sono state aggiornate le limitazioni di Journey. [Ulteriori informazioni](../start/guardrails.md)
 * È stata aggiornata la sezione Configurare la selezione delle offerte nella sezione relativa alle decisioni. [Ulteriori informazioni](../offers/offer-activities/configure-offer-selection.md)
 * È stata aggiunta un’avvertenza per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * È stata documentata la nuova scheda **[!UICONTROL Overview]** di Gestione delle decisioni. [Ulteriori informazioni](../offers/get-started/user-interface.md#overview)

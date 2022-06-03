@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 4%
 
 ---
@@ -123,7 +123,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Get</a></td><td>Questa funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave</td>
+        <td><a href="maps.md#get">Ottenere</a></td><td>Questa funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Chiavi</a></td><td>Questa funzione viene utilizzata per recuperare tutte le chiavi di una determinata mappa</td>
@@ -198,6 +198,9 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
     </tr>
     <tr>
         <td><a href="string.md#matches">Corrisponde</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">Maschera</a></td><td>Questa funzione viene utilizzata per sostituire una parte di una stringa con caratteri "X".</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">Non è uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non è uguale alla stringa specificata</td>

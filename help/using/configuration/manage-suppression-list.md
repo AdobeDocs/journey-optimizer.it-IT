@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 2%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,12 @@ Con [!DNL Journey Optimizer], puoi monitorare tutti gli indirizzi e-mail che ven
 * Destinatari che emettono una denuncia di spam di qualche tipo contro uno dei tuoi messaggi e-mail.
 
 Tali indirizzi e-mail vengono raccolti automaticamente in Journey Optimizer **elenco a discesa**. Ulteriori informazioni sul concetto e sull&#39;utilizzo dell&#39;elenco di soppressione in [questa sezione](../reports/suppression-list.md).
+
+È inoltre possibile [**manuale** aggiungere un indirizzo o un dominio](#add-addresses-and-domains) all&#39;elenco di soppressione.
+
+>[!NOTE]
+>
+>Ci vorranno da 0 a 60 minuti [!DNL Journey Optimizer] tenere conto degli indirizzi soppressi nelle e-mail in uscita.
 
 ## Accedere all&#39;elenco di soppressione {#access-suppression-list}
 
@@ -105,7 +111,7 @@ I possibili motivi di un errore di consegna sono:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Aggiungi e-mail/domini all’elenco di soppressione"
+>title="Aggiungi e-mail o domini all’elenco di soppressione"
 >abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer per escludere specifici indirizzi e-mail e/o domini dall’invio."
 
 Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di soppressione o al conteggio dei messaggi non recapitati definiti.
@@ -139,6 +145,10 @@ A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire
 
 1. Se necessario, specifica un motivo.
 
+   >[!NOTE]
+   >
+   >Sono consentiti solo caratteri ASCII compresi tra 32 e 126. L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
+
 1. Fai clic su **[!UICONTROL Submit]**.
 
 ### Caricare un file CSV {#upload-csv-file}
@@ -159,6 +169,9 @@ A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >Per la colonna Commento sono consentiti solo caratteri ASCII compresi tra 32 e 126. L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
 
    Puoi anche scaricare questo modello dal **[!UICONTROL Suppression list]** vista principale.
 
@@ -175,6 +188,10 @@ A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire
    ![](assets/suppression-list-upload-file-button.png)
 
 1. Fai clic su **[!UICONTROL Submit]**.
+
+>[!NOTE]
+>
+>Al termine del caricamento, accertati che sia stato eseguito correttamente controllandone lo stato dall’interfaccia. [Scopri come](#recent-uploads)
 
 ### Controlla lo stato dei caricamenti recenti {#recent-uploads}
 
