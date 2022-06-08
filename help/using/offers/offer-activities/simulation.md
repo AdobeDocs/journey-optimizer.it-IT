@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
@@ -41,11 +41,17 @@ Per accedere a questa funzione, seleziona la **[!UICONTROL Simulation]** dalla s
 
 ## Selezionare i profili di test {#select-test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="Aggiungere profili di test"
+>abstract="Puoi aggiungere un profilo di test selezionando uno spazio dei nomi di identità e un valore di identità corrispondente. È necessario che i profili di test siano già disponibili per poterli utilizzare per la simulazione."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Crea profili di test"
+
 Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazione.
 
 >[!CAUTION]
 >
->Per visualizzare l’anteprima dei messaggi e inviare le bozze, devi disporre dei profili di test. Scopri come [creare profili di test](../../segment/creating-test-profiles.md).
+>Devi disporre di profili di test per simulare quali offerte verranno consegnate loro. Scopri come [creare profili di test](../../segment/creating-test-profiles.md).
 
 1. Fai clic su **[!UICONTROL Manage profile]**.
 
