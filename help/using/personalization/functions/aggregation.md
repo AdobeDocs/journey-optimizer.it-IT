@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 8%
@@ -16,42 +16,6 @@ ht-degree: 8%
 # Funzioni di aggregazione {#aggregation}
 
 Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per formare un singolo valore di riepilogo.
-
-## Conteggio{#count}
-
-La `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
-
-**Formato**
-
-```sql
-{%= count(array) %}
-```
-
-**Esempio**
-
-L&#39;operazione seguente restituisce il numero di ordini nell&#39;array.
-
-```sql
-{%= count(orders) %}
-```
-
-## Somma{#sum}
-
-La `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
-
-**Formato**
-
-```sql
-{%= sum(array) %}
-```
-
-**Esempio**
-
-L&#39;operazione seguente restituisce la somma di tutti i prezzi degli ordini.
-
-```sql
-{%=sum(orders.order.price)%}
-```
 
 ## Medio{#average}
 
@@ -71,22 +35,22 @@ L&#39;operazione seguente restituisce il prezzo medio di tutti gli ordini.
 {%=average(orders.order.price)%}
 ```
 
-## Minimo{#min}
+## Conteggio{#count}
 
-La `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno della matrice.
+La `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
 
 **Formato**
 
 ```sql
-{%= min(array) %}
+{%= count(array) %}
 ```
 
 **Esempio**
 
-L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
+L&#39;operazione seguente restituisce il numero di ordini nell&#39;array.
 
 ```sql
-{%=min(orders.order.price)%}
+{%= count(orders) %}
 ```
 
 ## Massimo{#max}
@@ -105,4 +69,40 @@ L&#39;operazione seguente restituisce il prezzo più alto di tutti gli ordini.
 
 ```sql
 {%=max(orders.order.price)%}
+```
+
+## Minimo{#min}
+
+La `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno della matrice.
+
+**Formato**
+
+```sql
+{%= min(array) %}
+```
+
+**Esempio**
+
+L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
+
+```sql
+{%=min(orders.order.price) %}
+```
+
+## Somma{#sum}
+
+La `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
+
+**Formato**
+
+```sql
+{%= sum(array) %}
+```
+
+**Esempio**
+
+L&#39;operazione seguente restituisce la somma di tutti i prezzi degli ordini.
+
+```sql
+{%=sum(orders.order.price)%}
 ```

@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 31%
+source-wordcount: '445'
+ht-degree: 32%
 
 ---
 
@@ -129,4 +129,4 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Amministrazione**
 
-**Aggiornamento del dashboard di utilizzo della licenza** - Il dashboard di utilizzo della licenza disponibile nell’interfaccia utente di Adobe Experience Platform ora riflette il valore esatto per **Concesso in licenza** Ricchezza media del profilo. In qualità di cliente Journey Optimizer, visualizzerai un calo di questa rappresentazione metrica, il che significa che l’utilizzo per il quale hai concesso la licenza è ora correttamente segnalato. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **Aggiornamento del dashboard di utilizzo della licenza** - Il dashboard di utilizzo della licenza disponibile in [!DNL Adobe Journey Optimizer] l&#39;interfaccia utente ora riflette il valore esatto per **Concesso in licenza** Ricchezza media del profilo. Vedrai un calo di questa rappresentazione metrica, il che significa che il limite di licenza è ora correttamente segnalato. [Ulteriori informazioni](../start/licence-usage.md)
