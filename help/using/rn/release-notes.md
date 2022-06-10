@@ -4,8 +4,8 @@ description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '445'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Regole di frequenza dei messaggi</strong><br/></th>
+<th><strong>Regole di frequenza dei messaggi </strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,13 +61,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Gestione delle decisioni - Modello di ottimizzazione automatica di AI Ranking</strong><br/></th>
+<th><strong>Gestione delle decisioni: modello di ottimizzazione automatica basato su classificazione IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare sistemi basati su modelli in Gestione delle decisioni. Questa nuova funzionalità classifica le offerte da visualizzare per un determinato profilo.</p>
+<p>Nella gestione delle decisioni, ora è possibile utilizzare sistemi formati su modelli. Questa nuova funzionalità classifica le offerte da visualizzare per un determinato profilo.</p>
 <img src="assets/optimization.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentazione dettagliata</a>.</p>
 </td>
@@ -95,13 +95,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Registri di controllo Journey Optimizer</strong><br/></th>
+<th><strong>Registri di audit di Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile monitorare le azioni eseguite dagli utenti sulle risorse di Adobe Journey Optimizer.</p>
+<p>Ora è possibile monitorare le azioni eseguite dagli utenti sulle risorse di Adobe Journey Optimizer.</p>
 <img src="assets/audit-rn.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/audit-logs.md">documentazione dettagliata</a>.</p>
 </td>
@@ -113,19 +113,19 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Personalizzazione**
 
-* **Nuova funzione helper per per nascondere i caratteri** - `mask` la funzione helper ti consente di sostituire una parte di una stringa con caratteri &quot;X&quot;. [Ulteriori informazioni](../personalization/functions/string.md#mask)
+* **Nuova funzione helper per nascondere i caratteri**: la funzione helper `mask` consente di sostituire una parte di stringa con caratteri “X”. [Ulteriori informazioni](../personalization/functions/string.md#mask)
 
 **Pagine di destinazione**
 
-* **Pagine di destinazione senza modulo** - È ora possibile creare e pubblicare una pagina di destinazione che non contiene un modulo e che non richiede alcuna azione da parte dei visitatori.
-* **Modelli di pagina di destinazione** - È ora possibile salvare una pagina di destinazione come modello e riutilizzarla durante la creazione di altre pagine di destinazione. [Ulteriori informazioni](../landing-pages/lp-templates.md)
-* **Torna alla pagina principale** - È ora possibile aggiungere un collegamento alla pagina principale da qualsiasi pagina secondaria all’interno della stessa pagina di destinazione.
-* **Supporto JavaScript personalizzato** - È ora possibile aggiungere JavaScript personalizzati al contenuto della pagina di destinazione per eseguire uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.	[Ulteriori informazioni](../landing-pages/lp-custom-js.md)
+* **Pagine di destinazione senza modulo**: ora è possibile creare e pubblicare una pagina di destinazione che non contiene un modulo e che non richiede alcuna azione da parte dei visitatori.
+* **Modelli di pagina di destinazione**: ora è possibile salvare una pagina di destinazione come modello e riutilizzarla durante la creazione di altre pagine di destinazione. [Ulteriori informazioni](../landing-pages/lp-templates.md)
+* **Torna alla pagina principale**: ora è possibile aggiungere un collegamento alla pagina principale da qualsiasi pagina secondaria all’interno della stessa pagina di destinazione.
+* **Supporto JavaScript personalizzato**: ora è possibile aggiungere JavaScript personalizzato al contenuto della pagina di destinazione per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.	[Ulteriori informazioni](../landing-pages/lp-custom-js.md)
 
 **Percorsi**
 
-* **Leggi segmento** - I percorsi di segmenti di sola lettura ora passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i segmenti di lettura pianificati, trascorrono 30 giorni dall’esecuzione dell’ultima occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md)
-* **Editor espressioni** - [limite](../building-journeys/functions/functionlimit.md) è stata aggiunta la funzione per consentire di limitare il numero di elementi di un elenco. La [sort](../building-journeys/functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject al [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) funzioni.
+* **Leggi segmento**: i percorsi Leggi segmento una tantum ora passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i segmenti con Leggi segmento pianificati, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md)
+* **Editor espressioni**: è stata aggiunta la funzione [limit](../building-journeys/functions/functionlimit.md) per consentire di limitare il numero di elementi di un elenco. La funzione [sort](../building-journeys/functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject alle funzioni [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Amministrazione**
 

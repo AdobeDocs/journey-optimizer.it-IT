@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 89%
 + Novità {#whats-new}
    + [Note sulla versione più recente](using/rn/release-notes.md)
    + Note sulle versioni precedenti {#previous-rn-new}
-      + [Note sulla versione 2022](using/rn/release-notes-2022.md)
-      + [Note sulla versione 2021](using/rn/release-notes-2021.md)
+      + [Note sulle versioni 2022](using/rn/release-notes-2022.md)
+      + [Note sulle versioni 2021](using/rn/release-notes-2021.md)
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
    + [Migrazione dei messaggi](using/rn/inline-messages.md)
 + Introduzione{#get-started}
    + [Cos’è Journey Optimizer](using/start/get-started.md)
    + Guida introduttiva{#quick-start}
       + [Panoramica](using/start/quick-start.md)
-      + [Introduzione come addetto al marketing](using/start/path/marketer.md)
-      + [Guida introduttiva a Data Engineer](using/start/path/data-engineer.md)
-      + [Introduzione come amministratore](using/start/path/administrator.md)
-      + [Guida introduttiva come sviluppatore](using/start/path/developer.md)
+      + [Introduzione per addetti marketing](using/start/path/marketer.md)
+      + [Introduzione per Data Engineer](using/start/path/data-engineer.md)
+      + [Introduzione per amministratori](using/start/path/administrator.md)
+      + [Introduzione per sviluppatori](using/start/path/developer.md)
    + [Interfaccia utente](using/start/user-interface.md)
    + [Guardrail](using/start/guardrails.md)
 + Messaggi {#messages}
@@ -64,11 +64,11 @@ ht-degree: 89%
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
    + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
-   + Progettazione di contenuti {#landing-pages-design}
-      + [Informazioni sulla progettazione di pagine di destinazione](using/landing-pages/design-lp.md)
+   + Creare i contenuti {#landing-pages-design}
+      + [Informazioni sulla creazione di pagine di destinazione](using/landing-pages/design-lp.md)
       + [Creare il contenuto della pagina di destinazione](using/landing-pages/lp-content.md)
       + [Creare modelli](using/landing-pages/lp-templates.md)
-      + [Aggiungi JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
+      + [Aggiungere JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
    + [Creare un elenco di abbonamenti](using/landing-pages/subscription-list.md)
    + [Casi d’uso](using/landing-pages/lp-use-cases.md)
 + Personalizzazione{#personalization}
@@ -187,7 +187,7 @@ ht-degree: 89%
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [limite](using/building-journeys/functions/functionlimit.md)
+            + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
@@ -255,7 +255,7 @@ ht-degree: 89%
       + [Introduzione alla consegna](using/reports/deliverability.md)
       + [Elenco di eliminazione](using/reports/suppression-list.md)
       + [Elenco Consentiti](using/reports/allow-list.md)
-   + [Azioni di controllo sulle risorse Journey Optimizer](using/reports/audit-logs.md)
+   + [Azioni di audit sulle risorse di Journey Optimizer](using/reports/audit-logs.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -267,14 +267,14 @@ ht-degree: 89%
       + [Creare regole di decisione](using/offers/offer-library/creating-decision-rules.md)
       + [Creare tag](using/offers/offer-library/creating-tags.md)
    + Creare classificazioni {#rankings}
-      + [Guida introduttiva alle classificazioni](using/offers/ranking/get-started-rankings.md)
-      + [Classificazione delle formule](using/offers/ranking/create-ranking-formulas.md)
-      + Modelli AI {#ai-models}
+      + [Introduzione alle classificazioni](using/offers/ranking/get-started-rankings.md)
+      + [Formule di classificazione](using/offers/ranking/create-ranking-formulas.md)
+      + Modelli IA {#ai-models}
          + [Informazioni sui modelli AI](using/offers/ranking/ai-models.md)
          + [Modello di ottimizzazione automatica](using/offers/ranking/auto-optimization-model.md)
-         + Crea modelli AI {#configure-ai-model}
+         + Creare modelli AI {#configure-ai-model}
             + [Creare un set di dati per raccogliere gli eventi](using/offers/ranking/create-dataset.md)
-            + [Creare un modello AI](using/offers/ranking/create-ranking-strategies.md)
+            + [Creare un modello IA](using/offers/ranking/create-ranking-strategies.md)
             + [Configurare l’acquisizione di eventi](using/offers/ranking/schema-requirement.md)
    + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
       + Configurare le offerte {#configure-offers}
@@ -363,7 +363,7 @@ ht-degree: 89%
             + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
             + [Delegare un sottodominio](using/configuration/delegate-subdomain.md)
             + [Accedere ai sottodomini delegati](using/configuration/access-subdomains.md)
-         + Gestione delle azioni relative al sottodominio {#subdomain-related-actions}
+         + Gestire le azioni relative al sottodominio {#subdomain-related-actions}
             + [Aggiungere un record TXT di Google](using/configuration/google-txt.md)
             + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
             + [Creare pool IP](using/configuration/ip-pools.md)
@@ -371,14 +371,14 @@ ht-degree: 89%
             + [Gestire elenco di soppressione](using/configuration/manage-suppression-list.md)
             + [Nuovi tentativi](using/configuration/retries.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
-      + Configurare i predefiniti per i messaggi {#set-up-message-presets}
-         + [Crea predefiniti per messaggi](using/configuration/message-presets.md)
+      + Impostare i predefiniti per i messaggi {#set-up-message-presets}
+         + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
          + [Configurare le impostazioni e-mail](using/configuration/email-settings.md)
       + [Gestire gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
       + [Configura le regole di frequenza](using/configuration/frequency-rules.md)
-   + Configura le pagine di destinazione {#lp-configuration}
+   + Configurare le pagine di destinazione {#lp-configuration}
       + [Configurare i sottodomini della pagina di destinazione](using/configuration/lp-subdomains.md)
-      + [Definire i predefiniti per le pagine di destinazione](using/configuration/lp-presets.md)
+      + [Definire i predefiniti per la pagina di destinazione](using/configuration/lp-presets.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + [Integrare con sistemi esterni](using/configuration/external-systems.md)
@@ -408,5 +408,5 @@ ht-degree: 89%
    + [Gestione di utenti e profili di prodotto](using/administration/permissions.md)
    + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
    + [Gestione delle sandbox](using/administration/sandboxes.md)
-   + [Controllo dell&#39;accesso basato su attributi](using/administration/attribute-based-access.md)
+   + [Controllo dell’accesso basato su attributi](using/administration/attribute-based-access.md)
 
