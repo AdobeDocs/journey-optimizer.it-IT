@@ -2,9 +2,9 @@
 title: Note sulle versioni precedenti (2021)
 description: Note sulle versioni 2021 di Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '2070'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -278,7 +278,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 
 **Configurazione e-mail**
 
-* **Elenco Consentiti** - L’elenco Consentiti può ora essere abilitato e disabilitato in una sandbox non di produzione tramite una chiamata API. [Ulteriori informazioni](../reports/allow-list.md#enable-allow-list)
+* **Elenco Consentiti** - L’elenco Consentiti può ora essere abilitato e disabilitato in una sandbox non di produzione tramite una chiamata API. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * **Navigazione** - Elenco di soppressione, accessibile dal menu **Amministrazione > Canali > Configurazione e-mail > Generale** è stato spostato nel nuovo sottomenu **Elenco di eliminazione**, che raccoglie tutte le funzionalità correlate per un accesso più semplice. [Ulteriori informazioni](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Gestione delle decisioni**
@@ -325,7 +325,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 <tr>
 <td>
 <p>Ora puoi definire un elenco di sicurezza per l’invio specifico a livello di sandbox, in modo da disporre di un ambiente sicuro a scopo di test. In un’istanza non di produzione, in cui possono verificarsi errori, l’elenco Consentiti ti assicura di non correre il rischio di inviare messaggi indesiderati ai clienti. Questa funzione è abilitata sfruttando le API di eliminazione.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../reports/allow-list.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/allow-list.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
