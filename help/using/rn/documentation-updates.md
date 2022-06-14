@@ -2,9 +2,9 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: ht
-source-wordcount: '1409'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -120,8 +120,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una sezione sulle funzioni e sui collegamenti di accesso facilitato. [Ulteriori informazioni](../start/user-interface.md#accessibility)
 * È stata aggiunta una sezione sui metodi di valutazione dei segmenti. [Ulteriori informazioni](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/email-global-report.md)
-* È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../reports/allow-list.md#reporting)
-* È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../reports/allow-list.md#enable-allow-list)
+* È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#reporting)
+* È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/message-presets.md#monitor-message-presets)
 * È stata aggiornata e rinominata la sezione Intervallo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti per i messaggi. [Ulteriori informazioni](../configuration/retries.md#retry-duration)
 * È stata aggiunta una nuova sezione che descrive come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](../messages/consent.md#one-click-opt-out-link)
