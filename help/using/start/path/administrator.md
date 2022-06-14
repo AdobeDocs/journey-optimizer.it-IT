@@ -3,7 +3,7 @@ title: Guida introduttiva di Journey Optimizer per l'amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
@@ -65,5 +65,5 @@ Segui i passaggi elencati di seguito:
    * A [elenco a discesa](../../reports/suppression-list.md) è costituito da indirizzi e-mail che desideri escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio e i tassi di consegna. Puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall’invio in un percorso, ad esempio indirizzi non validi, indirizzi costantemente non recapitati e che potrebbero influenzare negativamente la reputazione dell’e-mail e destinatari che inviano un reclamo di qualche tipo relativo a uno dei tuoi messaggi e-mail. Scopri come gestire il [elenco a discesa](../../configuration/manage-suppression-list.md) e [tentativi](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * La [elenco Consentiti](../../reports/allow-list.md) consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica. Questo può impedire l’invio accidentale di e-mail a veri indirizzi dei clienti in un ambiente di test. Scopri come [abilita l&#39;elenco Consentiti](../../reports/allow-list.md).
+   * La [elenco Consentiti](../../configuration/allow-list.md) consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica. Questo può impedire l’invio accidentale di e-mail a veri indirizzi dei clienti in un ambiente di test. Scopri come [abilita l&#39;elenco Consentiti](../../configuration/allow-list.md).
    Ulteriori informazioni sulla gestione del recapito messaggi in [!DNL Adobe Journey Optimizer] [in questa pagina](../../reports/deliverability.md).

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '972'
 ht-degree: 2%
 
 ---
@@ -179,7 +179,7 @@ Utilizza la **[!UICONTROL Social]** per inserire collegamenti alle pagine dei so
 
 ## Decisione di offerta {#offer-decision}
 
-Utilizza la **[!UICONTROL Offer decision]** per inserire nei messaggi le decisioni (precedentemente note come attività di offerta). Decisioni sfrutterà la Gestione delle decisioni per scegliere l&#39;offerta migliore da consegnare ai tuoi clienti.
+Utilizza la **[!UICONTROL Offer decision]** per inserire decisioni nei messaggi. Decisioni sfrutterà la Gestione delle decisioni per scegliere l&#39;offerta migliore da consegnare ai tuoi clienti.
 
 Argomenti correlati:
 

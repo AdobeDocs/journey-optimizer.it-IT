@@ -1,21 +1,21 @@
 ---
-title: Aggiungere offerte personalizzate
+title: Aggiungi offerte personalizzate
 description: Scopri come aggiungere offerte personalizzate ai messaggi
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '585'
 ht-degree: 3%
 
 ---
 
-# Aggiungere offerte personalizzate {#deliver-personalized-offers}
+# Aggiungi offerte personalizzate {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] Nei messaggi e-mail puoi inserire le decisioni (precedentemente note come &quot;attività di offerta&quot;) che sfruttano il motore di decisione dell’offerta per scegliere l’offerta migliore da consegnare ai tuoi clienti.
+In [!DNL Journey Optimizer] e-mail, puoi inserire decisioni che sfruttano il modulo di gestione per le decisioni sull’offerta al fine di scegliere l’offerta migliore da consegnare ai tuoi clienti.
 
 Ad esempio, puoi aggiungere una decisione che visualizzerà nell’e-mail un’offerta di sconto speciale che varia a seconda del livello di fedeltà del destinatario.
 
@@ -49,7 +49,7 @@ Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 
    [Posizionamenti](../offers/offer-library/creating-placements.md) sono contenitori utilizzati per mostrare le offerte. In questo esempio, utilizzeremo il posizionamento &quot;immagine principale dell’e-mail&quot;. Questo posizionamento è stato creato nella Libreria offerte per visualizzare le offerte di tipo immagine situate nella parte superiore dei messaggi.
 
-1. Seleziona l’attività di offerta da utilizzare nel componente contenuto, quindi fai clic su **[!UICONTROL Add]**.
+1. Decisioni corrispondenti alla visualizzazione del posizionamento selezionato. Seleziona la decisione da utilizzare nel componente contenuto, quindi fai clic su **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 
 L’attività di offerta viene ora aggiunta al componente .
 
+Dopo aver salvato le modifiche e dopo la pubblicazione del messaggio, le offerte sono pronte per essere visualizzate nei profili pertinenti al momento dell’invio del messaggio come parte di un percorso.
+
+>[!NOTE]
+>
+>Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente in un messaggio pubblicato, gli aggiornamenti vengono automaticamente rispecchiati nel messaggio corrispondente, senza dover ripubblicarlo.
 
 ## Anteprima delle offerte in un messaggio e-mail {#preview-offers-in-email}
 

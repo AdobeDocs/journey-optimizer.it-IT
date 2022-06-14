@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1214'
 ht-degree: 2%
 
 ---
 
 # Creare decisioni {#create-offer-activities}
 
-Le decisioni (precedentemente note come attività di offerta) sono contenitori per le offerte che sfrutteranno il modulo di decisione dell’offerta per scegliere l’offerta migliore da consegnare, a seconda del target della consegna.
+Le decisioni sono contenitori per le offerte che sfrutteranno il modulo di gestione delle decisioni per l’offerta al fine di scegliere l’offerta migliore da consegnare, a seconda del target della consegna.
 
 ➡️ [Scopri come creare attività di offerta in questo video](#video)
 

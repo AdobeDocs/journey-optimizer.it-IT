@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 68%
+source-wordcount: '625'
+ht-degree: 64%
 
 ---
 
 # Interfaccia utente {#user-interface}
 
-La Libreria di offerte consente di creare e gestire posizionamenti e offerte in un unico punto, nonché di accedere a tutte le decisioni create (precedentemente note come “attività di offerta”).
+La Libreria offerte consente di creare e gestire posizionamenti e offerte in un’unica posizione, nonché di accedere a tutte le decisioni create.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Quando hai effettuato una nuova operazione con [!DNL Offer Decisioning], **[!UIC
 
 Segui i passaggi sullo schermo per iniziare a creare posizionamenti, offerte e raccolte.
 
-Dopo aver completato questi primi passaggi, viene richiesto di creare decisioni sulle offerte (precedentemente note come attività di offerta).
+Una volta completati questi primi passaggi, viene richiesto di creare le decisioni relative alle offerte.
 
 ![](../assets/overview_collection-created.png)
 

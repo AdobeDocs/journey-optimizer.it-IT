@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 99%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 99%
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
       + [Crea profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
-   + [Utilizzo della licenza](using/segment/licence-usage.md)
+   + [Utilizzo della licenza](using/segment/license-usage.md)
 + Percorsi {#orchestrate-journeys}
    + Informazioni sui percorsi{#about-journeys}
       + [Principio generale](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 99%
       + [Esempi di query](using/reports/query-examples.md)
    + Consegna {#deliverability}
       + [Introduzione alla consegna](using/reports/deliverability.md)
-      + [Elenco di eliminazione](using/reports/suppression-list.md)
-      + [Elenco Consentiti](using/reports/allow-list.md)
+      + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
    + [Azioni di audit sulle risorse di Journey Optimizer](using/reports/audit-logs.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
@@ -368,8 +367,9 @@ ht-degree: 99%
             + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
             + [Creare pool IP](using/configuration/ip-pools.md)
          + Monitorare gli indirizzi e-mail {#monitor-reputation}
-            + [Gestire elenco di soppressione](using/configuration/manage-suppression-list.md)
+            + [Elenco di eliminazione](using/configuration/manage-suppression-list.md)
             + [Nuovi tentativi](using/configuration/retries.md)
+            + [Elenco Consentiti](using/configuration/allow-list.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
       + Impostare i predefiniti per i messaggi {#set-up-message-presets}
          + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
