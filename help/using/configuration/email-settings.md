@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 1%
+source-wordcount: '1192'
+ht-degree: 2%
 
 ---
 
@@ -163,10 +163,15 @@ Ulteriori informazioni sui nuovi tentativi in [questa sezione](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Parametri di tracciamento URL"
->abstract="Usa questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL della campagna presenti nel contenuto dell’e-mail."
+>title="Definire i parametri di tracciamento URL"
+>abstract="Usa questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL presenti nel contenuto dell’e-mail. Questa funzione è facoltativa."
 
-È possibile utilizzare **[!UICONTROL URL Tracking Parameters]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="Anteprima parametri di tracciamento URL"
+>abstract="Controlla in che modo i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
+
+È possibile utilizzare **[!UICONTROL URL tracking parameters]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
 
 I parametri definiti in questa sezione verranno aggiunti alla fine degli URL inclusi nel contenuto del messaggio e-mail. Puoi quindi acquisire questi parametri in strumenti di analisi web come Adobe Analytics o Google Analytics e creare vari rapporti sulle prestazioni.
 
@@ -174,8 +179,9 @@ I parametri definiti in questa sezione verranno aggiunti alla fine degli URL inc
 
 Tre parametri di tracciamento URL vengono compilati automaticamente come esempio quando crei un predefinito per messaggi. Puoi modificarli e aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Add new parameter]** pulsante .
 
-Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** oppure scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
+Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** campi.
 
+È inoltre possibile scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
 * Attributi del percorso: **ID sorgente**, **Nome origine**, **ID versione sorgente**
 * Attributi azione: **ID azione**, **Nome azione**
 * Attributi di Offer decisioning: **ID offerta**, **Nome offerta**
@@ -186,6 +192,10 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 >
 >Non selezionare una cartella: assicurati di passare alla cartella necessaria e seleziona un attributo di profilo da utilizzare come valore del parametro di tracciamento.
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 Di seguito sono riportati alcuni esempi di URL compatibili con Adobe Analytics e Google Analytics.
 
 * URL compatibile con Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ Di seguito sono riportati alcuni esempi di URL compatibili con Adobe Analytics e
 >[!NOTE]
 >
 >È possibile combinare la digitazione di valori di testo e la selezione di valori predefiniti. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
+
+Puoi visualizzare in anteprima dinamica l’URL di tracciamento risultante. Ogni volta che aggiungi, modifichi o rimuovi un parametro, l’anteprima viene aggiornata automaticamente.
+
+![](assets/preset-url-tracking-preview.png)

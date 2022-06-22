@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 98%
+source-wordcount: '1104'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +32,13 @@ ht-degree: 98%
       + [Introduzione per sviluppatori](using/start/path/developer.md)
    + [Interfaccia utente](using/start/user-interface.md)
    + [Guardrail](using/start/guardrails.md)
++ Campagne {#campaigns}
+   + [Guida introduttiva alle campagne](using/campaigns/get-started-with-campaigns.md)
+   + [Creare una campagna](using/campaigns/create-campaign.md)
+   + [Modificare o interrompere una campagna](using/campaigns/modify-stop-campaign.md)
+   + Rapporti {#reports}
+      + [Report live della campagna](using/campaigns/campaign-live-report.md)
+      + [Report globale di Campaign](using/campaigns/campaign-global-report.md)
 + Messaggi {#messages}
    + [Introduzione ai messaggi](using/messages/get-started-content.md)
    + [Creare un messaggio e-mail](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 98%
 + Percorsi {#orchestrate-journeys}
    + Informazioni sui percorsi{#about-journeys}
       + [Principio generale](using/building-journeys/journey.md)
+      + [Ciclo di vita percorso](using/building-journeys/journey-end.md)
       + [Versioni del percorso](using/building-journeys/journey-versions.md)
       + [Integrare con Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Creare un percorso{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 98%
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
+      + [Copiare un percorso](using/building-journeys/copy-to-sandbox.md)
       + [Risolvere i problemi del percorso](using/building-journeys/troubleshooting.md)
    + Attività {#about-journey-building}
       + [Informazioni sulle attività del percorso](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 98%
    + Consegna {#deliverability}
       + [Introduzione alla consegna](using/reports/deliverability.md)
       + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
-   + [Azioni di audit sulle risorse di Journey Optimizer](using/reports/audit-logs.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 98%
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gestione dati {#data-management}
    + [Schemi](using/start/get-started-schemas.md)
-   + [Set di dati](using/start/get-started-datasets.md)
+   + Set di dati {#datasets}
+      + [Guida introduttiva ai set di dati](using/start/get-started-datasets.md)
+      + [Esempi di query](using/start/datasets-query-examples.md)
    + [Query](using/start/get-started-queries.md)
 + Configurazione{#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 98%
    + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
    + [Gestione delle sandbox](using/administration/sandboxes.md)
    + [Controllo dell’accesso basato su attributi](using/administration/attribute-based-access.md)
-
++ Privacy {#privacy}
+   + [Criteri di utilizzo dei dati](using/privacy/policies.md)
+   + [Richieste di accesso a dati personali](using/privacy/requests.md)
+   + [Azioni di audit sulle risorse di Journey Optimizer](using/privacy/audit-logs.md)

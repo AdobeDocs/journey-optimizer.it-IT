@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ La spinta **[!UICONTROL Live report]** è suddiviso in diversi widget che descri
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
@@ -49,9 +49,9 @@ La **[!UICONTROL Sending metrics - by push]** la tabella descrive il successo de
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 

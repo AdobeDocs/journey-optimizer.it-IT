@@ -8,9 +8,10 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 7a5f7ea85075821f0788bd9a58d9994afd058c61
+exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Con la gestione del consenso vengono analizzate due attività percorsi:
 
 * Segmento di lettura: viene preso in considerazione il segmento recuperato.
 * Azione personalizzata: la gestione del consenso tiene conto degli attributi utilizzati ([parametri azione](../action/about-custom-action-configuration.md#define-the-message-parameters)) e le azioni di marketing definite (azioni di marketing richieste e azioni di marketing aggiuntive).
+
+Il consenso si applica solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
 
 Non vengono prese in considerazione tutte le altre attività utilizzate in un percorso. Se avvii il percorso con una qualifica Segmento, il segmento non viene preso in considerazione.
 

@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '447'
 ht-degree: 4%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 4%
 # Gestisci [!DNL Adobe Stock] immagini {#stock}
 
 ## Introduzione a [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> L&#39;uso del [!DNL Adobe Stock] l&#39;integrazione è attualmente disponibile in modalità accesso anticipato solo per determinati utenti. Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
 
 [!DNL Adobe Stock] consente di accedere a milioni di foto, video, illustrazioni e immagini vettoriali di alta qualità, curate e prive di royalty. È possibile scegliere di acquistare un pacchetto di crediti per la licenza delle risorse o acquistare solo una licenza Standard o Extended per la risorsa necessaria. Adobe Stock fornisce anche una raccolta gratuita di risorse.
 
@@ -30,6 +25,10 @@ Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail diret
 [Ulteriori informazioni sulla progettazione delle e-mail](design-emails.md).
 
 ## Inserisci ed importa [!DNL Adobe Stock] immagini {#add-stock-image}
+
+>[!NOTE]
+>
+> La **[!UICONTROL Find Adobe Stock photos]** Sarà disponibile solo per gli utenti con accesso a un profilo di prodotto AEM Assets Essentials. Per ulteriori informazioni, consulta [Documentazione essenziale delle risorse](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 Dopo aver modificato e personalizzato il messaggio e-mail, puoi aggiungere immagini da [!DNL Adobe Stock] nel modello:
 
@@ -54,7 +53,8 @@ Dopo aver modificato e personalizzato il messaggio e-mail, puoi aggiungere immag
 
 1. Da [!DNL Adobe Stock] sito web, dovrai acquistare la risorsa per poter scaricare l’immagine e rimuovere la filigrana.
 
-   Questo acquisto dipenderà dal tuo piano o abbonamento Adobe Stock. Per ulteriori informazioni, consulta questa [pagina](https://stock.adobe.com/plans).
+   Questo acquisto dipenderà dal tuo piano o abbonamento Adobe Stock. Se disponi di più account Adobe Stock, verrai reindirizzato all’ultimo ID Stock utilizzato. In questo caso, accertati di aver effettuato l’accesso all’account corretto prima di concedere in licenza la risorsa.
+Per ulteriori informazioni, consulta questa [pagina](https://stock.adobe.com/plans).
 
    >[!WARNING]
    > Se viene inviata un&#39;e-mail con un&#39;immagine senza licenza, l&#39;immagine manterrà il proprio modulo senza licenza con la filigrana.

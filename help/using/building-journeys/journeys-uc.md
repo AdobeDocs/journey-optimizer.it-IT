@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -120,8 +120,6 @@ Fai riferimento a questo [sezione](../segment/about-segments.md) per scoprire co
 1. Collega i tre percorsi all’evento di acquisto creato in precedenza. L’evento viene attivato quando un singolo utente effettua un acquisto.
 
 1. Dopo l’evento, rilascia una **Messaggio** e seleziona il messaggio di e-mail &quot;grazie&quot;.
-
-1. Aggiungi un **Fine** attività.
 
 ## Test e pubblicazione del percorso
 

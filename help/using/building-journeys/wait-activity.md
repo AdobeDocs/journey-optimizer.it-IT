@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 4%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -30,15 +30,9 @@ Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso,
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-Di seguito viene illustrata la priorità delle attese quando si utilizzano più attese in parallelo. Se hanno la stessa configurazione temporale e una condizione diversa ma sovrapposta, l’attesa posizionata sopra sarà quella prioritaria. Ad esempio, la condizione della prima attesa è &quot;essere una donna&quot; e la condizione della seconda attesa in parallelo è &quot;essere una VIP&quot;. Viene data priorità alla prima attività di attesa .
+La durata massima di attesa è di 30 giorni. In modalità di prova, il **[!UICONTROL Wait time in test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
-Inoltre, se due attese diverse sono in parallelo, quella che si verifica per prima verrà definita come priorità, indipendentemente dalla sua posizione verticale. Ad esempio, se un’attesa di 1 ora è superiore e un’attesa di 30 minuti è inferiore, dopo 30 minuti viene elaborata l’attesa di 30 minuti.
-
->[!NOTE]
->
->La durata massima di attesa è di 30 giorni.
->
->In modalità di prova, il **[!UICONTROL Wait time in test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+Presta attenzione quando utilizzi più attività Attendi in un percorso, in quanto il timeout del percorso globale è di 30 giorni, il che significa che un profilo abbandonerà sempre il percorso al massimo 30 giorni dopo l’inserimento.
 
 ## Durata attesa{#duration}
 

@@ -4,9 +4,9 @@ description: Scopri come configurare il tuo ambiente per l’invio di notifiche 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 4%
 
 ---
@@ -64,7 +64,7 @@ Per assegnare **Proprietà** e **Azienda** diritti, segui i passaggi seguenti:
    * **[!UICONTROL Manage Extensions]**
    * **[!UICONTROL Publish]**
 
-   Queste autorizzazioni sono necessarie per installare e pubblicare l&#39;estensione Adobe Journey Optimizer e pubblicare la proprietà dell&#39;app in Adobe Experience Platform Mobile SDK.
+   Queste autorizzazioni sono necessarie per installare e pubblicare l&#39;estensione Adobe Journey Optimizer e pubblicare la proprietà dell&#39;app nell&#39;SDK di Adobe Experience Platform Mobile.
 
 1. Quindi, seleziona **[!UICONTROL Company rights]** nel menu a sinistra.
 
@@ -112,7 +112,7 @@ Segui i passaggi di implementazione descritti nei collegamenti seguenti:
 
 ### Integrare la tua app mobile con l’SDK di Adobe Experience Platform {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. Segui [Documentazione di Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;} per ottenere la configurazione con gli SDK Adobe Experience Platform Mobile nella tua app.
+L’SDK di Adobe Experience Platform Mobile fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. Segui [Documentazione di Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/overview){target=&quot;_blank&quot;} per ottenere la configurazione con gli SDK Adobe Experience Platform Mobile nella tua app.
 
 Alla fine di questo, avresti dovuto anche creare e configurare una proprietà mobile in [!DNL Adobe Experience Platform Data Collection]. In genere creerai una proprietà mobile per ogni app mobile che desideri gestire. Scopri come creare e configurare una proprietà mobile in [Documentazione di Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property){target=&quot;_blank&quot;}.
 
@@ -334,8 +334,6 @@ L’evento viene ora creato e può essere utilizzato in un percorso.
 1. Da **[!UICONTROL Actions]** a discesa, trascina e rilascia una **[!UICONTROL Message]** attività nel tuo percorso.
 
 1. Seleziona un messaggio creato in precedenza. Per ulteriori informazioni su come creare le notifiche push, consulta questo [page](../messages/get-started-content.md).
-
-1. Trascina e rilascia una **[!UICONTROL End]** attività nel tuo percorso.
 
 1. Fai clic sul pulsante **[!UICONTROL Test]** per iniziare a testare le notifiche push e fai clic su **[!UICONTROL Trigger an event]**.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ L’e-mail **[!UICONTROL Live report]** è suddiviso in diversi widget che descr
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente.
 
 * **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
 
 * **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in una consegna.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
@@ -49,9 +49,9 @@ L’e-mail **[!UICONTROL Live report]** è suddiviso in diversi widget che descr
 
 La **[!UICONTROL Sending Statistics]** widget descrive il successo della consegna:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
 
 * **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 

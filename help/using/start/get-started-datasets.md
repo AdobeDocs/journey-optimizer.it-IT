@@ -4,10 +4,10 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 7%
+source-wordcount: '622'
+ht-degree: 6%
 
 ---
 
@@ -70,6 +70,8 @@ Scopri come creare uno schema, un set di dati e acquisire dati per aggiungere pr
 Ulteriori informazioni sulla creazione di set di dati in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 Scopri come utilizzare l’interfaccia utente dei set di dati in [Panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
+
+È disponibile un elenco di casi d’uso con esempi di query [qui](../start/datasets-query-examples.md).
 
 **Consulta anche**
 

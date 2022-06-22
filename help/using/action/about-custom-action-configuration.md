@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 6%
+source-wordcount: '951'
+ht-degree: 5%
 
 ---
 
@@ -120,7 +120,7 @@ In **[!UICONTROL Action parameters]** incolla un esempio del payload JSON da inv
 
 >[!NOTE]
 >
->I nomi di campo nel payload non possono contenere un &quot;.&quot; aggiuntivo. Non possono iniziare con un carattere &quot;$&quot;.
+>L&#39;esempio di payload non può contenere valori null. I nomi di campo nel payload non possono contenere un &quot;.&quot; aggiuntivo. Non possono iniziare con un carattere &quot;$&quot;.
 
 Puoi definire il tipo di parametro (ad esempio: (stringa, numero intero, ecc.).
 

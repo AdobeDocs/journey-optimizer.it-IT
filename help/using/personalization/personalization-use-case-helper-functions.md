@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,6 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 1. Crea un percorso che inizia con questo evento.
 1. Aggiungi il messaggio al percorso.
-1. Termina il percorso con un’attività finale.
 
    Poiché il messaggio non è ancora stato pubblicato, non puoi né testare né pubblicare il percorso.
 

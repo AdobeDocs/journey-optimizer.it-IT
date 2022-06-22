@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1329'
 ht-degree: 3%
 
 ---
 
-# Creare profili di test {#create-test-profiles}
+# Crea profili di test {#create-test-profiles}
 
 I profili di test sono necessari quando si utilizza il [modalità di prova](../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e testare il contenuto](../design/preview.md).
 
@@ -139,7 +139,7 @@ Il tuo percorso sarà composto da un **[!UICONTROL Read Segment]** e **[!UICONTR
 1. Aggiungi un **[!UICONTROL Update Profile]** attività di azione.
 1. Seleziona lo schema, la **testProfiles** , il set di dati e imposta il valore su **True**. Per eseguire questa operazione, nella **[!UICONTROL VALUE]** fai clic sul campo **Penna** a destra, seleziona **[!UICONTROL Advanced mode]** e immetti **true**.
    ![](assets/test-profiles-26.png)
-1. Aggiungi un **Fine** e fai clic su **[!UICONTROL Publish]**.
+1. Fai clic su **[!UICONTROL Publish]**.
 1. In **[!UICONTROL Segments]** controlla che i profili siano stati aggiornati correttamente.
    ![](assets/test-profiles-28.png)
 

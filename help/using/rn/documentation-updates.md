@@ -2,16 +2,30 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 100%
+source-wordcount: '1553'
+ht-degree: 92%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+
+## Giugno 2022 {#june-2022}
+
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 giugno è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Alla documentazione è stata aggiunta una nuova sezione sui criteri di utilizzo dei dati. [Ulteriori informazioni](../privacy/policies.md)
+* Alla documentazione è stata aggiunta una nuova sezione sulle richieste di accesso a dati personali. [Ulteriori informazioni](../privacy/requests.md)
+* Nella documentazione è stata aggiunta una nuova sezione sui registri di controllo sulle risorse. [Ulteriori informazioni](../privacy/audit-logs.md)
+* È stata aggiunta alla documentazione una nuova sezione su come aggiungere contenuto HTML o JSON proveniente dalla libreria Adobe Experience Cloud Asset a una rappresentazione dell’offerta. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
+* È stata aggiunta una nuova pagina sullo stile di vita del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
+* È stata aggiornata la pagina dell’attività Attendi . [Ulteriori informazioni](../building-journeys/wait-activity.md)
+* È stato aggiunto l’elenco dei set di dati Adobe Journey Optimizer con esempi di query. [Ulteriori informazioni](../start/datasets-query-examples.md)
+* La pagina di Elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
+* La pagina Elenco di eliminazione è stata aggiornata. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 
 ## Maggio 2022 {#may-2022}
 

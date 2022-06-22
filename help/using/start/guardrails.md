@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -39,6 +39,8 @@ Di seguito sono riportate ulteriori protezioni e limitazioni durante l’utilizz
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
 * Incorporato **Reazione** ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, ma è necessario aggiungerle una dopo l’altra.
+* Oggi c&#39;è una limitazione tecnica nei percorsi che impedisce la presenza di un profilo più volte nello stesso percorso, allo stesso tempo. Un profilo può ancora rientrare in un percorso (in base a un’impostazione), ma non può farlo finché non esce completamente dall’istanza precedente del percorso.
+* Nella maggior parte dei casi, un profilo non può essere presente più volte nello stesso percorso e allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
 
 ### Azione messaggio {#message-action}
 
