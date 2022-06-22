@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
+source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -181,13 +181,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Livelli di servizio {#service-levels}
 
-Il tempo end-to-end per ogni decisione batch è la durata dal momento in cui il carico di lavoro viene creato al momento in cui il risultato della decisione è disponibile nel set di dati di output. La dimensione del segmento nel payload della richiesta POST è il fattore principale che influisce sul tempo di decisione del batch end-to-end.  Di seguito sono riportate alcune osservazioni per diverse dimensioni di segmento:
+Il tempo end-to-end per ogni decisione batch è la durata dal momento in cui il carico di lavoro viene creato al momento in cui il risultato della decisione è disponibile nel set di dati di output. La dimensione del segmento nel payload della richiesta POST è il fattore principale che influisce sul tempo di decisione del batch end-to-end. Se l’offerta idonea ha un limite di frequenza globale abilitato, il processo decisionale batch richiede un tempo aggiuntivo per essere completato. Di seguito sono riportate alcune approssimazioni del tempo di elaborazione end-to-end per le rispettive dimensioni di segmento, sia con che senza limiti di frequenza per le offerte ammissibili:
+
+Con il limite di frequenza abilitato per le offerte ammissibili:
+
+| Dimensione del segmento | Tempo di elaborazione end-to-end |
+|--------------|----------------------------|
+| 10 mila profili o meno | 7 minuti |
+| 1 milione di profili o meno | 30 minuti |
+| 15 milioni di profili o meno | 50 minuti |
+
+Senza limiti di frequenza per le offerte ammissibili:
 
 | Dimensione del segmento | Tempo di elaborazione end-to-end |
 |--------------|----------------------------|
 | 10 mila profili o meno | 6 minuti |
-| 1 milione di profili o meno | 10 minuti |
-| 15 milioni di profili o meno | 75 minuti |
+| 1 milione di profili o meno | 8 minuti |
+| 15 milioni di profili o meno | 16 minuti |
 
 ## Limitazioni  {#limitations}
 
