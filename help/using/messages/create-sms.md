@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 9%
@@ -57,7 +57,6 @@ Per visualizzare la modalità di visualizzazione del messaggio SMS sui dispositi
 
 Per ulteriori informazioni al riguardo, consulta [questa sezione](../design/preview.md).
 
-
 ## Pubblicare l’SMS {#sms-publish}
 
 Quando il messaggio è pronto, puoi pubblicarlo per renderlo disponibile per l’esecuzione con il **[!UICONTROL Publish]** pulsante . Questa azione pubblica la nuova versione del messaggio che verrà utilizzata per le successive esecuzioni nei tuoi percorsi.
@@ -69,7 +68,6 @@ Quando il messaggio è pronto, puoi pubblicarlo per renderlo disponibile per l�
 Per tutti i messaggi di marketing, l’SMS deve contenere un modo per consentire ai destinatari di annullare facilmente l’iscrizione. Una volta annullato l’abbonamento, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri. L’aggiunta di un collegamento di annullamento all’abbonamento non è obbligatoria per i messaggi transazionali.
 
 I destinatari degli SMS possono rispondere con parole chiave di consenso e rinuncia. In conformità agli standard e alle normative del settore, Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: INIZIA, ARRESTA e DISARSI. Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
-
 
 **Argomenti correlati**
 

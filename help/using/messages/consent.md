@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
-workflow-type: ht
-source-wordcount: '1259'
-ht-degree: 100%
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+workflow-type: tm+mt
+source-wordcount: '1314'
+ht-degree: 95%
 
 ---
 
@@ -113,7 +113,7 @@ Corpo della richiesta:
 }
 ```
 
-[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata API di [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata API di [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
 
 #### Inviare il messaggio con il collegamento per annullare l’abbonamento {#send-message-unsubscribe-link}
 
@@ -203,10 +203,17 @@ A seconda del client e-mail, clicca sul collegamento per annullare l’iscrizion
    >
    >Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
-* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
+* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ## Gestione degli opt-out per notifiche push {#push-opt-out-management}
 
 I destinatari delle notifiche push possono annullare l’iscrizione dai propri dispositivi.
 
 Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegliere di interrompere le notifiche. Analogamente, possono modificare le impostazioni di notifica tramite il sistema operativo mobile.
+
+## Gestione della rinuncia agli SMS {#sms-opt-out-management}
+
+In conformità agli standard e alle normative del settore, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia.
+Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: INIZIA, ARRESTA e DISARSI. Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
+
+Per ulteriori informazioni sulla rinuncia agli SMS, consulta questo [page](../messages/create-sms.md#opt-in-and-opt-out).
