@@ -1,19 +1,19 @@
 ---
-title: Configurare i predefiniti per i messaggi
+title: Impostare i predefiniti per i messaggi
 description: Scopri come configurare e monitorare i predefiniti per messaggi
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 1%
+source-wordcount: '1495'
+ht-degree: 2%
 
 ---
 
-# Configurare i predefiniti per i messaggi {#message-presets-creation}
+# Impostare i predefiniti per i messaggi {#message-presets-creation}
 
 Con [!DNL Journey Optimizer], puoi impostare i predefiniti per i messaggi che definiscono tutti i parametri tecnici necessari per i messaggi e-mail e di notifica push: tipo di e-mail, indirizzo e-mail e nome del mittente, app mobile e altro ancora.
 
@@ -53,7 +53,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Configura le **notifica push** impostazioni. [Ulteriori informazioni](#configure-push-settings)
 
-   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
+1. Configura **SMS** impostazioni. [Ulteriori informazioni](sms-configuration.md)
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
