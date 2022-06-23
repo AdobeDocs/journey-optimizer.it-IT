@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52cc27108ed4d99511ef612c0bd81d3435d1f45b
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 42%
+source-wordcount: '352'
+ht-degree: 36%
 
 ---
 
@@ -24,7 +24,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Invia SMS ai tuoi utenti</strong><br/></th>
+<th><strong>Inviare SMS agli utenti (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -34,7 +34,8 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <p></p>
 <p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Singola</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
+<p>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
+<p>Scopri come creare e inviare un SMS in questo <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

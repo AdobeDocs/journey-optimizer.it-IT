@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 15%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->Le normative richiedono che i destinatari SMS possano rispondere con parole chiave di consenso e rinuncia. Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave: Start, Stop e Unstop.
+>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Una volta [creato un messaggio](get-started-content.md), utilizza **[!UICONTROL SMS]** per definire le impostazioni e il contenuto per il canale SMS.
 
@@ -49,6 +49,10 @@ Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 1. Quando il messaggio è pronto, puoi pubblicarlo per renderlo disponibile per l’esecuzione con il **[!UICONTROL Publish]** pulsante . Questa azione pubblica la nuova versione del messaggio che verrà utilizzata per le successive esecuzioni nei tuoi percorsi.
 
 È ora possibile utilizzare il messaggio SMS in un percorso. [Scopri come creare percorsi](../building-journeys/journey-gs.md).
+
+## Consenso e rinuncia{#sms-opt-in-out}
+
+I destinatari degli SMS possono rispondere con parole chiave di consenso e rinuncia. In conformità agli standard e alle normative del settore, Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: INIZIA, ARRESTA e DISARSI. Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
 
 **Argomenti correlati**
 

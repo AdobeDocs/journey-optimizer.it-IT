@@ -4,9 +4,9 @@ description: Scopri come configurare il tuo ambiente per l’invio di messaggi S
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '371'
 ht-degree: 4%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 4%
 # Configurare il canale SMS {#sms-configuration}
 
 [!DNL Journey Optimizer] consente di creare i percorsi e inviare messaggi a un pubblico di destinazione.
+
+>[!NOTE]
+>
+>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ## Creare nuove credenziali API {#create-api}
 
