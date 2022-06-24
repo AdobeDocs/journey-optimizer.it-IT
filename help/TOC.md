@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 96%
          + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
          + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
          + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
-         + [Funzioni di Data Time](using/personalization/functions/dates.md)
+         + [Funzioni Data/Ora](using/personalization/functions/dates.md)
          + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
          + [Assistenza](using/personalization/functions/helpers.md)
          + [Mappare le funzioni](using/personalization/functions/maps.md)
@@ -110,7 +110,7 @@ ht-degree: 96%
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
       + [Crea profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
-   + [Utilizzo della licenza](using/segment/license-usage.md)
+   + [Utilizzo delle licenze](using/segment/license-usage.md)
 + Percorsi {#orchestrate-journeys}
    + Informazioni sui percorsi{#about-journeys}
       + [Principio generale](using/building-journeys/journey.md)
@@ -262,7 +262,7 @@ ht-degree: 96%
       + [Esempi di query](using/reports/query-examples.md)
    + Consegna {#deliverability}
       + [Introduzione alla consegna](using/reports/deliverability.md)
-      + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
+      + [Informazioni sull’elenco di eliminazione](using/reports/suppression-list.md)
 + Gestione delle decisioni {#offer-decisioniong}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -384,9 +384,9 @@ ht-degree: 96%
       + Impostare i predefiniti per i messaggi {#set-up-message-presets}
          + [Creare predefiniti per messaggi](using/configuration/message-presets.md)
          + [Configurare le impostazioni e-mail](using/configuration/email-settings.md)
-         + [Usa e-mail CCN](using/configuration/bcc-email.md)
+         + [Utilizzare la funzione E-mail Ccn](using/configuration/bcc-email.md)
       + [Gestire gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
-      + [Configura le regole di frequenza](using/configuration/frequency-rules.md)
+      + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
    + Configurare le pagine di destinazione {#lp-configuration}
       + [Configurare i sottodomini della pagina di destinazione](using/configuration/lp-subdomains.md)
       + [Definire i predefiniti per la pagina di destinazione](using/configuration/lp-presets.md)
