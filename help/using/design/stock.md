@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -99,7 +99,7 @@ Per concedere la licenza e scaricare l&#39;immagine, segui i passaggi seguenti:
 
 1. Seleziona la cartella in cui memorizzare la risorsa. Per ulteriori informazioni su [!DNL Assets Essentials], fai riferimento a [page](assets-essentials.md#get-started-assets-essentials).
 
-### Argomenti correlati{#stock-related-topics}
+## Argomenti correlati{#stock-related-topics}
 
 * [Progettazione di e-mail in Journey Optimizer](design-emails.md)
 * [Impostazioni dei componenti per la progettazione delle e-mail](content-components.md)
