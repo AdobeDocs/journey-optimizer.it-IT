@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 36%
@@ -51,7 +51,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>Data di disponibilità: <b>23 giugno</b></p>
+<p>Data di disponibilità: <b>27 giugno</b></p>
 <p></p>
 <p>Il plug-in per l’integrazione di Adobe Stock e Adobe Journey Optimizer Email Designer offre ai clienti un modo semplice di navigare, concedere in licenza e salvare le immagini da utilizzare nella creazione dei messaggi. </br> Il nuovo <b>Trova foto simili</b> consente inoltre di individuare le foto Stock che corrispondono al contenuto, al colore e alla composizione delle immagini. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '743'
 ht-degree: 2%
 
 ---
@@ -19,21 +19,27 @@ Le autorizzazioni, le limitazioni dei prodotti e le protezioni delle prestazioni
 
 Di seguito sono riportate ulteriori protezioni e limitazioni durante l’utilizzo [!DNL Adobe Journey Optimizer].
 
-## Limitazioni nei messaggi {#limitations-messages}
+## Garanzie messaggi {#message-guardrails}
 
 * Non è possibile aggiungere allegati a un messaggio e-mail con [!DNL Journey Optimizer].
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, quali [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
-## Limitazioni nelle pagine di destinazione {#limitations-lp}
+
+## Garanzie di gestione delle decisioni {#offer-guardrails}
+
+Le protezioni delle prestazioni e i limiti statici per la gestione delle decisioni sono elencati nella [Adobe pagina di descrizione del prodotto Servizio app di Offer Decisioning](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+
+
+## Guardrail delle pagine di destinazione {#lp-guardrails}
 
 * Solo uno **Modulo** può essere utilizzato in una singola pagina primaria.
 * La **Modulo** non può essere utilizzato nelle pagine secondarie.
 * Non puoi aggiungere una preintestazione a una pagina di destinazione.
 * Non è possibile selezionare la **Codice personalizzato** durante la progettazione di una pagina principale di destinazione.
 
-## Limitazioni nei percorsi {#limitations-journeys}
+## guardrail di percorso {#journeys-guardrails}
 
-### Azioni generali {#general-actions}
+### Azioni generali {#general-actions-g}
 
 * Non esiste alcuna limitazione di invio.
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
@@ -42,11 +48,11 @@ Di seguito sono riportate ulteriori protezioni e limitazioni durante l’utilizz
 * Oggi c&#39;è una limitazione tecnica nei percorsi che impedisce la presenza di un profilo più volte nello stesso percorso, allo stesso tempo. Un profilo può ancora rientrare in un percorso (in base a un’impostazione), ma non può farlo finché non esce completamente dall’istanza precedente del percorso.
 * Nella maggior parte dei casi, un profilo non può essere presente più volte nello stesso percorso e allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
 
-### Azione messaggio {#message-action}
+### Azione messaggio {#message-action-g}
 
 * Quando aggiungi un messaggio multicanale, vengono inviati due messaggi.
 
-### Versioni del percorso {#journey-versions-limitations}
+### Versioni del percorso {#journey-versions-g}
 
 * Un percorso che inizia con un’attività evento nella versione 1 non può iniziare con un elemento diverso da un evento in ulteriori versioni. Non è possibile avviare un percorso con un **Qualificazione del segmento** evento.
 * Un percorso che inizia con un **Qualificazione del segmento** l’attività nella versione v1 deve sempre iniziare con un **Qualificazione del segmento** in ulteriori versioni.
@@ -54,7 +60,7 @@ Di seguito sono riportate ulteriori protezioni e limitazioni durante l’utilizz
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con un **Leggi segmento** impossibile iniziare con un altro evento nelle versioni successive.
 
-### Azioni personalizzate {#custom-actions}
+### Azioni personalizzate {#custom-actions-g}
 
 * L&#39;URL dell&#39;azione personalizzata non supporta i parametri dinamici.
 * Sono supportati solo i metodi di chiamata POST e PUT
@@ -62,15 +68,15 @@ Di seguito sono riportate ulteriori protezioni e limitazioni durante l’utilizz
 * Gli indirizzi IP non sono consentiti
 * Indirizzi di Adobe interni (.adobe.) non sono consentiti.
 
-### Eventi {#events}
+### Eventi {#events-g}
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 
-### Origini dati {#data-sources}
+### Origini dati {#data-sources-g}
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
 
-### Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
+### Creazione di percorsi e profili {#journeys-limitation-profile-creation}
 
 In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. L’obiettivo a livello di servizio (SLT) in termini di latenza è &lt; 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
@@ -82,6 +88,6 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Imposta un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 
-### Leggi segmento {#read-segment}
+### Leggi segmento {#read-segment-g}
 
 * I segmenti in streaming sono sempre aggiornati, ma i segmenti batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del lotto.

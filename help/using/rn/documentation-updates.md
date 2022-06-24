@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
+source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 92%
+source-wordcount: '1568'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stato aggiunto l’elenco dei set di dati Adobe Journey Optimizer con esempi di query. [Ulteriori informazioni](../start/datasets-query-examples.md)
 * La pagina di Elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
 * La pagina Elenco di eliminazione è stata aggiornata. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
+* È stato aggiunto il collegamento alle protezioni e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
+
 
 ## Maggio 2022 {#may-2022}
 
