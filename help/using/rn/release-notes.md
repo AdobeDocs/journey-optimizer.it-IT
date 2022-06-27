@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 36%
+source-wordcount: '375'
+ht-degree: 35%
 
 ---
 
@@ -136,11 +136,12 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * **Supporto di file HTML e JSON** - È ora possibile trascinare file HTML e JSON esterni dalla libreria Adobe Experience Cloud Asset nel contenuto della rappresentazione dell’offerta. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
 
+
+**E-mail**
+
+* **Salva come modello** - È ora possibile salvare un contenuto e-mail come modello e riutilizzarlo durante la creazione di altri messaggi. [Ulteriori informazioni](../design/email-templates.md)
+
 <!--
-**Email**
-
-* **Save as template** - You can now save an email content as a template and reuse it when creating other messages.
-
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.

@@ -5,16 +5,17 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 13%
+source-wordcount: '158'
+ht-degree: 15%
 
 ---
 
-# Creare un codice per il proprio contenuto {#code-content}
+# Crea un codice per il tuo contenuto {#code-content}
 
-Utilizza la **[!UICONTROL Code your own]** per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+Utilizza la **[!UICONTROL Code your own]** modalità per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
