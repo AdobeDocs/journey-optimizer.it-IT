@@ -4,7 +4,7 @@ description: Scopri come configurare i sottodomini della pagina di destinazione 
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se marketing1.yourcompany.com è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare marketing2.yourcompany.com. Tuttavia, i sottodomini di più livelli sono supportati per le pagine di destinazione, quindi puoi utilizzare &#39;email.marketing1.yourcompany.com&#39;.
+   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se &#39;marketing1.yourcompany.com&#39; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &#39;marketing2.yourcompany.com&#39;. Tuttavia, i sottodomini di più livelli sono supportati per le pagine di destinazione, quindi puoi utilizzare &#39;email.marketing1.yourcompany.com&#39;.
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
