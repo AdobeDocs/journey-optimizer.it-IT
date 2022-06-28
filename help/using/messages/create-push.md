@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 10%
+source-wordcount: '1423'
+ht-degree: 11%
 
 ---
 
@@ -93,6 +93,11 @@ Nella versione iOS è possibile aggiungere fino a quattro pulsanti. Nella versio
 ![](assets/push_buttons.png)
 
 ## Invia una notifica silenziosa {#silent-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push_silent_notification"
+>title="Informazioni sulla notifica silenziosa"
+>abstract="Invia notifiche senza disturbare l&#39;utente, le notifiche non vengono visualizzate nel centro notifiche o nella barra delle notifiche."
 
 Una notifica push silenziosa (o notifica in background) è un&#39;istruzione nascosta inviata all&#39;applicazione. Viene utilizzato, ad esempio, per notificare all’applicazione la disponibilità di nuovi contenuti o per avviare un download in background.
 

@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '369'
 ht-degree: 35%
 
 ---
@@ -30,8 +30,6 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>Data di disponibilità: <b>27 giugno</b></p>
-<p></p>
 <p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Singola</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
@@ -51,8 +49,6 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>Data di disponibilità: <b>27 giugno</b></p>
-<p></p>
 <p>Il plug-in per l’integrazione di Adobe Stock e Adobe Journey Optimizer Email Designer offre ai clienti un modo semplice di navigare, concedere in licenza e salvare le immagini da utilizzare nella creazione dei messaggi. </br> Il nuovo <b>Trova foto simili</b> consente inoltre di individuare le foto Stock che corrispondono al contenuto, al colore e alla composizione delle immagini. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../design/stock.md">documentazione dettagliata</a>.</p>
