@@ -1,13 +1,14 @@
 ---
-title: Usa e-mail CCN
+title: Utilizzare la funzione E-mail Ccn
 description: Scopri come configurare le e-mail CCN a livello di predefinito dei messaggi
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1088'
 ht-degree: 3%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definire un indirizzo e-mail CCN"
->abstract="Puoi conservare una copia delle e-mail inviate inviandole a una casella in entrata CCN. Inserisci l’indirizzo e-mail desiderato in modo che ogni e-mail inviata venga copiata in modalità cieca in questo indirizzo CCN. Questa funzione è facoltativa."
+>abstract="Puoi conservare una copia delle e-mail inviate inviandole a una casella in entrata CCN. Inserisci l’indirizzo e-mail desiderato in modo che ogni e-mail inviata venga copiata in modalità cieca in questo indirizzo CCN. Il dominio dell’indirizzo CCN non deve essere lo stesso di qualsiasi sottodominio delegato ad Adobe. Questa funzione è facoltativa."
 
 Puoi inviare una copia identica (o copia cieca in carbonio) di un’e-mail inviata da [!DNL Journey Optimizer] a una casella in entrata CCN. Questa funzione opzionale ti consente di conservare copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. Questo sarà invisibile ai destinatari della consegna.
 
 ## Abilita e-mail CCN {#enable-bcc}
 
-Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato. Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito nel sottodominio delegato. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato. Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato il *marketing.luma.com* sottodominio ad Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
 
 >[!NOTE]
 >

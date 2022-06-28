@@ -3,10 +3,11 @@ title: Configurare i sottodomini della pagina di destinazione
 description: Scopri come configurare i sottodomini della pagina di destinazione con Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 0%
+source-wordcount: '687'
+ht-degree: 1%
 
 ---
 
@@ -58,6 +59,10 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se marketing1.yourcompany.com è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare marketing2.yourcompany.com. Tuttavia, i sottodomini di più livelli sono supportati per le pagine di destinazione, quindi puoi utilizzare &#39;email.marketing1.yourcompany.com&#39;.
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >Se selezioni un dominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation), devi creare il record DNS sulla piattaforma di hosting. Per generare il record DNS, il processo è lo stesso di quando configuri un nuovo sottodominio della pagina di destinazione. Scopri come in [questa sezione](#lp-configure-new-subdomain).
@@ -99,7 +104,11 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
    Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
-   I sottodomini a più livelli come &#39;email.marketing.yourcompany.com&#39; al momento non sono supportati.
+   >[!NOTE]
+   >
+   >Per le pagine di destinazione, sono supportati i sottodomini di più livelli. Ad esempio, puoi utilizzare &#39;email.marketing.yourcompany.com&#39;.
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla tua soluzione di hosting del dominio per generare il record DNS corrispondente.
 
