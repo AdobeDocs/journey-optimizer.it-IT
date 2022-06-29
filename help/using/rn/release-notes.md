@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 35%
+source-wordcount: '447'
+ht-degree: 31%
 
 ---
 
@@ -92,22 +92,21 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 </tbody>
 </table>-->
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Copy objects between sandboxes</strong><br/></th>
+<th><strong>Copiare oggetti tra le sandbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now re-create the experiences from a Journey Optimizer sandbox to another, for example from a non-production sandbox to a production sandbox. This new capability copies an entire Journey, including any objects the Journey depends on to run correctly, from one environment to another. In addition to Journeys, you can also copy other components, such as Offers, Messages, Schemas, Datasets, Data Sources, Events, and Actions.</p>
-<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>Ora puoi ricreare le esperienze da una sandbox Journey Optimizer a un’altra, ad esempio da una sandbox non di produzione a una sandbox di produzione. Questa nuova funzionalità consente di copiare un intero Percorso, compresi tutti gli oggetti da cui dipende l’esecuzione corretta del Percorso, da un ambiente all’altro. Oltre ai Percorsi, puoi anche copiare altri componenti quali Offerte, Messaggi, Schemi, Set di dati, Origini dati, Eventi e Azioni.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/copy-to-sandbox.md">documentazione dettagliata</a>.
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <!--table>
 <thead>
