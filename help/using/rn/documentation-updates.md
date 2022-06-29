@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 90%
+source-wordcount: '1606'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La pagina di Elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
 * La pagina Elenco di soppressione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo della soppressione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 * È stato aggiunto il collegamento alle protezioni e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
+* L’ottimizzazione del momento di invio è ora disponibile per tutti i clienti. La menzione beta è stata rimossa. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## Maggio 2022 {#may-2022}
