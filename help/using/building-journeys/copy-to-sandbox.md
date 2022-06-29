@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Vengono copiati i seguenti oggetti:
 
 * Segmento
 
-   Un segmento può essere copiato solo una volta da una sandbox all’altra. Le richieste successive per copiare il segmento non riusciranno. Una volta copiato, un segmento non è modificabile nella sandbox di destinazione.
+   Un segmento può essere copiato solo una volta da una sandbox all’altra. Una volta copiato, un segmento non è modificabile nella sandbox di destinazione.
 
 * Schema
 
@@ -103,4 +101,8 @@ Vengono copiati i seguenti oggetti:
    Le azioni e i dettagli delle azioni utilizzati nel percorso vengono copiati.
 
 I predefiniti non vengono copiati. Il sistema seleziona automaticamente la corrispondenza più vicina possibile sulla sandbox di destinazione, in base al tipo di messaggio e al nome del predefinito. Se non sono presenti predefiniti nella sandbox di destinazione, la copia preimpostata non riuscirà. Questo significa che anche la copia del messaggio avrà esito negativo, perché un messaggio richiede che sia disponibile un predefinito per la configurazione. In questo caso è necessario creare almeno un predefinito, affinché il canale giusto del messaggio funzioni correttamente.
+
+Per gli schemi, i criteri di unione e i segmenti, la seconda volta che questi oggetti tentano di essere copiati, viene fatto riferimento solo a essi. Saranno trattati come oggetti già esistenti e verranno copiati di nuovo. Ciò significa che questi oggetti possono essere copiati una sola volta.
+
+Si verifica un ritardo di cinque minuti prima che Adobe Journey Optimizer possa fare riferimento a Schemi, Criteri di unione e Segmenti senza che venga visualizzato un errore nell’area di lavoro. Attendi cinque minuti e questi riferimenti saranno disponibili.
 
