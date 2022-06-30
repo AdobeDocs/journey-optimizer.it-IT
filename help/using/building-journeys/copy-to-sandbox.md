@@ -5,7 +5,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
+source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 >title="Oggetti dipendenti"
 >abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno."
 
-Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: messaggi, segmenti, predefiniti, schemi, eventi e azioni. Fai riferimento a [limitazioni](../event/about-events.md)
+Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: messaggi, segmenti, predefiniti, schemi, eventi e azioni. Fai riferimento a [limitazioni](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
