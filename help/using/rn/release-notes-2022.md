@@ -3,9 +3,9 @@ title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ alla tua casella in entrata ogni trimestre.
 
 **Amministrazione**
 
-* **Aggiornamento del dashboard di utilizzo della licenza** - Il dashboard di utilizzo della licenza disponibile in [!DNL Adobe Journey Optimizer] l&#39;interfaccia utente ora riflette il valore esatto per **Concesso in licenza** Ricchezza media del profilo. Vedrai un calo di questa rappresentazione metrica, il che significa che il limite di licenza è ora correttamente segnalato. [Ulteriori informazioni](../segment/license-usage.md)
+* **Aggiornamento della dashboard di utilizzo della licenza**: la dashboard Utilizzo licenze disponibile nell’interfaccia utente di [!DNL Adobe Journey Optimizer] ora riflette il valore preciso per la media **Concessa in licenza** del profilo. Osserverai un calo nella rappresentazione di questa metrica, che indica che il limite di licenza è ora correttamente segnalato. [Ulteriori informazioni](../segment/license-usage.md)
 
 
 ## Versione di aprile 2022 {#april-2022-release}
