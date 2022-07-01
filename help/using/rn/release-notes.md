@@ -5,7 +5,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 31%
+ht-degree: 84%
 
 ---
 
@@ -30,10 +30,10 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Singola</b> o <b>Twilio</b>.</p>
+<p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Sinch</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
 <p>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-<p>Scopri come creare e inviare un SMS in questo <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
+<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -43,13 +43,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>L'integrazione di Adobe Stock consente di trovare più rapidamente immagini di forte impatto</strong><br/></th>
+<th><strong>L’integrazione con Adobe Stock consente di trovare più rapidamente immagini di forte impatto</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il plug-in per l’integrazione di Adobe Stock e Adobe Journey Optimizer Email Designer offre ai clienti un modo semplice di navigare, concedere in licenza e salvare le immagini da utilizzare nella creazione dei messaggi. </br> Il nuovo <b>Trova foto simili</b> consente inoltre di individuare le foto Stock che corrispondono al contenuto, al colore e alla composizione delle immagini. </p>
+<p>Il plug-in per l’integrazione di Adobe Stock e Adobe Journey Optimizer Email Designer offre ai clienti un modo semplice di cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle. </br> La nuova opzione <b>Trova foto Stock simili</b> consente inoltre di individuare foto Stock simili alle tue immagini per contenuto, colore e composizione. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../design/stock.md">documentazione dettagliata</a>.</p>
 </td>
@@ -60,13 +60,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Utilizza indirizzi Ccn e-mail in tutte le e-mail</strong><br/></th>
+<th><strong>Utilizza E-mail Ccn in tutte le e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare la funzionalità CCN e-mail (copia non vedente in carbonio) per memorizzare le e-mail inviate da Adobe Journey Optimizer. Abilita questa opzione nei tuoi predefiniti e-mail in modo che ogni e-mail inviata venga copiata in modalità cieca nell’indirizzo CCN.</p>
+<p>Ora è possibile utilizzare la funzionalità E-mail Ccn (copia carbone nascosta) per memorizzare le e-mail inviate da Adobe Journey Optimizer. Se abiliti questa opzione nei tuoi predefiniti e-mail, ogni e-mail verrà inviata anche come copiata nascosta all’indirizzo in Ccn.</p>
 <img src="assets/do-not-localize/bcc-rn.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/bcc-email.md">documentazione dettagliata</a>.</p>
 </td>
@@ -129,12 +129,12 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Gestione delle decisioni**
 
-* **Supporto di file HTML e JSON** - È ora possibile trascinare file HTML e JSON esterni dalla libreria Adobe Experience Cloud Asset nel contenuto della rappresentazione dell’offerta. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
+* **Supporto di file HTML e JSON**: ora è possibile trascinare file HTML e JSON esterni dalla libreria di risorse Adobe Experience Cloud nel contenuto della rappresentazione dell’offerta. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
 
 
 **E-mail**
 
-* **Salva come modello** - È ora possibile salvare un contenuto e-mail come modello e riutilizzarlo durante la creazione di altri messaggi. [Ulteriori informazioni](../design/email-templates.md)
+* **Salva come modello**: ora è possibile salvare un contenuto e-mail come modello e riutilizzarlo per creare altri messaggi. [Ulteriori informazioni](../design/email-templates.md)
 
 <!--
 **Journeys**
@@ -147,7 +147,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
-* **Parametri URL di tracciamento anteprima** - Quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL, ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* **Parametri URL di tracciamento anteprima**: quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 

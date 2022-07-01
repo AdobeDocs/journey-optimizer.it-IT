@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
 source-wordcount: '1606'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -16,17 +16,17 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Giugno 2022 {#june-2022}
 
-* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 giugno è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di giugno 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * Alla documentazione è stata aggiunta una nuova sezione sui criteri di utilizzo dei dati. [Ulteriori informazioni](../privacy/policies.md)
-* Alla documentazione è stata aggiunta una nuova sezione sulle richieste di accesso a dati personali. [Ulteriori informazioni](../privacy/requests.md)
-* Nella documentazione è stata aggiunta una nuova sezione sui registri di controllo sulle risorse. [Ulteriori informazioni](../privacy/audit-logs.md)
-* È stata aggiunta alla documentazione una nuova sezione su come aggiungere contenuto HTML o JSON proveniente dalla libreria Adobe Experience Cloud Asset a una rappresentazione dell’offerta. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
-* È stata aggiunta una nuova pagina sullo stile di vita del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
-* È stata aggiornata la pagina dell’attività Attendi . [Ulteriori informazioni](../building-journeys/wait-activity.md)
+* Alla documentazione è stata aggiunta una nuova sezione sulle richieste di accesso ai dati personali. [Ulteriori informazioni](../privacy/requests.md)
+* Alla documentazione è stata aggiunta una nuova sezione sui registri di audit sulle risorse. [Ulteriori informazioni](../privacy/audit-logs.md)
+* Alla documentazione è stata aggiunta una nuova sezione su come aggiungere a una rappresentazione dell’offerta dei contenuti HTML o JSON provenienti dalla libreria di risorse di Adobe Experience Cloud. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
+* È stata aggiunta una nuova pagina sul ciclo di vita del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
+* È stata aggiornata la pagina dell’attività Attendi. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 * È stato aggiunto l’elenco dei set di dati Adobe Journey Optimizer con esempi di query. [Ulteriori informazioni](../start/datasets-query-examples.md)
-* La pagina di Elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
-* La pagina Elenco di soppressione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo della soppressione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
-* È stato aggiunto il collegamento alle protezioni e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
+* La pagina sull’elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
+* La pagina Elenco di eliminazione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo dell’eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
+* È stato aggiunto il collegamento ai guardrail e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
 * L’ottimizzazione del momento di invio è ora disponibile per tutti i clienti. La menzione beta è stata rimossa. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
 
 
