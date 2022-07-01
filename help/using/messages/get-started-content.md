@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ Per creare un nuovo messaggio, segui i passaggi seguenti:
 
    * Seleziona la **[!UICONTROL Message category]**: Marketing o Transazionale.
 
-   * Seleziona i canali da utilizzare per il messaggio: E-mail, notifica push e/o SMS. Per creare il messaggio, devi selezionare almeno un canale.
+   * Seleziona i canali da utilizzare per il messaggio: E-mail, Notifica push e/o SMS. Per creare il messaggio, devi selezionare almeno un canale.
    >[!NOTE]
    >
    >Puoi fare clic sul collegamento **[!UICONTROL Frequency rule]** per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati. Ulteriori informazioni sulle [regole di frequenza](../configuration/frequency-rules.md).
