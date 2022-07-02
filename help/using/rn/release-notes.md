@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 108a7aab025aa92fab59c26d0bf5bf5339b81bb3
+source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 84%
+source-wordcount: '486'
+ht-degree: 78%
 
 ---
 
@@ -148,6 +148,10 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
 
 * **Parametri URL di tracciamento anteprima**: quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+
+* **Creazione di un predefinito messaggio** - Ora il tempo di elaborazione per la creazione di un predefinito per messaggi può richiedere solo 3 ore. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
+
+* **edizione pool IP** - Ora il tempo di elaborazione per l’aggiornamento del pool IP può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
