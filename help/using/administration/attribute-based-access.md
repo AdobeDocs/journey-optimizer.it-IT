@@ -1,5 +1,5 @@
 ---
-title: Controllo dell'accesso basato su attributi
+title: Controllo dell’accesso basato su attributi
 description: Informazioni sul controllo degli accessi basato su attributi
 feature: Access Management
 topic: Administration
@@ -7,18 +7,19 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
-# Controllo dell&#39;accesso basato su attributi {#attribute-based-access}
+# Controllo dell’accesso basato su attributi {#attribute-based-access}
 
 >[!IMPORTANT]
 >
->L&#39;utilizzo del controllo di accesso basato su attributi è attualmente disponibile in accesso anticipato solo per determinati utenti. Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
+>L&#39;utilizzo del controllo di accesso basato su attributi è attualmente disponibile solo per un insieme di organizzazioni (disponibilità limitata). Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
 
 Il controllo dell’accesso basato su attributi (ABAC) consente di definire autorizzazioni per gestire l’accesso ai dati per team o gruppi di utenti specifici. Il suo scopo è proteggere i beni digitali sensibili da utenti non autorizzati che consentono un&#39;ulteriore protezione dei dati personali.
 
@@ -45,7 +46,7 @@ In questo esempio, vogliamo limitare l’accesso al **Cittadinanza** campo . Que
 
 Puoi anche aggiungere  **[!UICONTROL Label]** a  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** e  **[!UICONTROL Segments]**.
 
-1. Crea il tuo **[!UICONTROL Schema]**. Per ulteriori informazioni, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. Crea il tuo **[!UICONTROL Schema]**. Per ulteriori informazioni, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it).
 
    ![](assets/label_1.png)
 
@@ -159,4 +160,3 @@ Se l’utente Y senza accesso all’etichetta C2 oggetti deve accedere a questo 
 * L&#39;utente Y non sarà in grado di testare il Percorso o il messaggio.
 
 * L’utente Y non sarà in grado di pubblicare il Percorso o il messaggio.
-

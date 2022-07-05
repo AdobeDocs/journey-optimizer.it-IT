@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 1%
+source-wordcount: '883'
+ht-degree: 6%
 
 ---
 
@@ -24,6 +24,8 @@ A questo scopo, puoi utilizzare una regola di frequenza che limiti il numero di 
 >[!NOTE]
 >
 >Le regole di frequenza dei messaggi sono diverse dalla gestione della rinuncia, che consente agli utenti di annullare l’iscrizione alla ricezione di comunicazioni da un marchio. [Ulteriori informazioni](../messages/consent.md#opt-out-management)
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Regole di accesso {#access-rules}
 
@@ -125,7 +127,7 @@ Per applicare una regola di frequenza a un messaggio, segui la procedura seguent
 
    ![](assets/message-rules-msg-channels.png)
 
-1. Puoi fare clic su **[!UICONTROL Frequency rule]** collegamento per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati.
+1. Puoi fare clic sul collegamento **[!UICONTROL Frequency rule]** per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati. 
 
    ![](assets/message-rules-msg-link.png)
 
@@ -177,7 +179,7 @@ Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’e
 
    ![](assets/message-rules-ex-channels.png)
 
-1. Puoi fare clic su **[!UICONTROL Frequency rule]** collegamento per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati.
+1. Puoi fare clic sul collegamento **[!UICONTROL Frequency rule]** per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati. 
 
 1. [Progettazione](../design/design-emails.md) e [pubblicare](../messages/publish-manage-message.md) il tuo messaggio.
 
@@ -188,3 +190,9 @@ In questo scenario, un singolo profilo:
 >[!NOTE]
 >
 >Quando si sottopongono a test le regole di frequenza, può essere utile iniziare con un nuovo [profilo di prova](../segment/creating-test-profiles.md), poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consentirà ai profili con limite massimo di ricevere i messaggi, ma non rimuoverà né eliminerà eventuali incrementi di contatore.
+
+## Video introduttivo {#video}
+
+Scopri come creare, attivare, testare e creare rapporti sulle regole di frequenza.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

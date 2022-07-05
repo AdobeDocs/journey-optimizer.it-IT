@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 9%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -68,6 +68,16 @@ Quando il messaggio è pronto, puoi pubblicarlo per renderlo disponibile per l�
 Per tutti i messaggi di marketing, l’SMS deve contenere un modo per consentire ai destinatari di annullare facilmente l’iscrizione. Una volta annullato l’abbonamento, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri. L’aggiunta di un collegamento di annullamento all’abbonamento non è obbligatoria per i messaggi transazionali.
 
 I destinatari degli SMS possono rispondere con parole chiave di consenso e rinuncia. In conformità agli standard e alle normative del settore, Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: INIZIA, ARRESTA e DISARSI. Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
+
+Per ulteriori informazioni sul funzionamento del supporto nativo per parole chiave in entrata (start, stop e unstop) per SMS, consulta il seguente video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## Video introduttivo
+
+Scopri come configurare, creare e includere i messaggi SMS nei percorsi di clienti.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **Argomenti correlati**
 

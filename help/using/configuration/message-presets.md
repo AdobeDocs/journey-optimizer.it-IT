@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 2%
+source-wordcount: '1476'
+ht-degree: 1%
 
 ---
 
@@ -49,11 +49,25 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    >
    > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-1. Configura le **email** impostazioni. [Ulteriori informazioni](#configure-email-settings)
+1. Se hai selezionato la **[!UICONTROL Email]** canale, configura le impostazioni come descritto in [questa sezione](email-settings.md).
 
-1. Configura le **notifica push** impostazioni. [Ulteriori informazioni](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. Configura **SMS** impostazioni. [Ulteriori informazioni](sms-configuration.md)
+1. Se hai selezionato la **[!UICONTROL Push Notification]** canale, seleziona almeno una piattaforma (**iOS** e/o **Android**) e seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](push-gs.md).
+
+1. Se hai selezionato la **[!UICONTROL SMS]** canale, configura le impostazioni come descritto in [questa sezione](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](sms-configuration.md).
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
 
@@ -86,42 +100,6 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    ![](assets/preset-active.png)
-
-## Configurare le impostazioni e-mail {#configure-email-settings}
-
-Le impostazioni e-mail sono definite in una sezione dedicata della configurazione del predefinito del messaggio.
-
-![](assets/preset-email.png)
-
-Configura le impostazioni come descritto in [questa sezione](email-settings.md).
-
-## Configurare le impostazioni push {#configure-push-settings}
-
-Le impostazioni push sono definite in una sezione dedicata della configurazione del predefinito per messaggi.
-
-Per definire le impostazioni push associate al predefinito per messaggi, segui la procedura seguente:
-
-1. Seleziona almeno una piattaforma: **iOS** e/o **Android**.
-
-1. Seleziona le applicazioni mobili da utilizzare per ogni piattaforma.
-
-![](assets/preset-push.png)
-
-Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Monitorare i predefiniti per messaggi {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo 
 >
 >Se si modifica solo il **[!UICONTROL Description]**, **[!UICONTROL Email type]** e/o **[!UICONTROL Email retry parameters]** campi, l&#39;aggiornamento è istantaneo.
 
+### Dettagli di aggiornamento {#update-details}
+
 Per i predefiniti per messaggi con **[!UICONTROL Active]** puoi controllare i dettagli dell’aggiornamento. Per eseguire questa operazione:
 
 * Fai clic sul pulsante **[!UICONTROL Recent update]** accanto al nome del predefinito attivo.
@@ -209,7 +189,7 @@ Un aggiornamento predefinito per messaggi può presentare i seguenti stati:
 
 Ogni stato è descritto di seguito.
 
-### Elaborazione
+#### Elaborazione
 
 Verranno eseguiti diversi controlli di recapito per verificare che il predefinito sia stato aggiornato correttamente.
 
@@ -231,13 +211,13 @@ Se modifichi un predefinito già attivo:
 >
 >Non puoi modificare un predefinito di messaggio mentre è in corso l’aggiornamento. È comunque possibile fare clic sul suo nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
 
-### Operazione riuscita {#success}
+#### Operazione riuscita {#success}
 
 Quando il processo di convalida ha esito positivo, la nuova versione del predefinito viene utilizzata automaticamente in tutti i messaggi che utilizzano questo predefinito. Tuttavia, potrebbe essere necessario attendere:
 * alcuni minuti prima che sia consumata dai messaggi unitari,
 * fino al batch successivo per l&#39;efficacia della preimpostazione nei messaggi batch.
 
-### Non riuscito {#failed}
+#### Non riuscito {#failed}
 
 Se il processo di convalida non riesce, verrà comunque utilizzata la versione precedente del predefinito.
 

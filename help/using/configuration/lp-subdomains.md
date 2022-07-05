@@ -4,9 +4,9 @@ description: Scopri come configurare i sottodomini della pagina di destinazione 
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '699'
 ht-degree: 1%
 
 ---
@@ -59,9 +59,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se &#39;marketing1.yourcompany.com&#39; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &#39;marketing2.yourcompany.com&#39;. Tuttavia, i sottodomini di più livelli sono supportati per le pagine di destinazione, quindi puoi utilizzare &#39;email.marketing1.yourcompany.com&#39;.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se &#39;marketing1.yourcompany.com&#39; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &#39;marketing2.yourcompany.com&#39;. Tuttavia, i sottodomini di più livelli supportati per le pagine di destinazione, puoi procedere utilizzando un sottodominio di &quot;marketing1.yourcompany.com&quot; (ad esempio &quot;email.marketing1.yourcompany.com&quot;) o un dominio padre diverso.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
    >[!NOTE]
    >
    >Per le pagine di destinazione, sono supportati i sottodomini di più livelli. Ad esempio, puoi utilizzare &#39;email.marketing.yourcompany.com&#39;.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla tua soluzione di hosting del dominio per generare il record DNS corrispondente.
 

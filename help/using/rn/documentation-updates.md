@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 99%
+source-wordcount: '1632'
+ht-degree: 97%
 
 ---
 
@@ -13,6 +13,9 @@ ht-degree: 99%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+## Luglio 2022 {#july-2022}
+
+* La **Creare un predefinito per messaggi** è stata chiarita e aggiornata con i collegamenti alla pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
 
 ## Giugno 2022 {#june-2022}
 
@@ -30,7 +33,6 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * L’ottimizzazione del momento di invio è ora disponibile per tutti i clienti. La menzione beta è stata rimossa. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
 
 
-
 ## Maggio 2022 {#may-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di maggio 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
@@ -41,7 +43,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una nota che indica che il metodo DELETE non è supportato nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 * Sono stati aggiornati i collegamenti ai video dimostrativi.
 * Le sezioni [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti per messaggi](../configuration/message-presets.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) sono state riorganizzate per migliorarne la leggibilità.
-* La sezione **Tracciamento URL** è stata aggiornata e migliorata con alcuni esempi. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* La sezione Tracciamento URL è stata aggiornata e migliorata con alcuni esempi. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 * È stata aggiunta una nuova sottosezione sulla configurazione di un indirizzo e-mail di inoltro. Tieni presente che non è possibile farlo tramite l’interfaccia utente. [Ulteriori informazioni](../configuration/email-settings.md#forward-email)
 
 ## Aprile 2022 {#april-2022}
