@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1498'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
 
 1. Una volta creato il predefinito del messaggio, questo viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato.
 
-   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione può richiedere fino a **3 ore**.
+   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**.
 
    Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobe:
 
@@ -179,7 +179,7 @@ Per modificare un predefinito per messaggi, segui i passaggi riportati di seguit
    >
    >Puoi anche salvare il predefinito del messaggio come bozza e riprendere l’aggiornamento in un secondo momento.
 
-Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo di convalida simile a quello in atto quando [creazione di un predefinito](#create-message-preset).
+Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo di convalida simile a quello in atto quando [creazione di un predefinito](#create-message-preset). Il tempo di elaborazione dell&#39;edizione può richiedere fino a **3 ore**.
 
 >[!NOTE]
 >
