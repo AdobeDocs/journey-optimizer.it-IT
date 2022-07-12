@@ -4,9 +4,9 @@ description: Scopri come eseguire la migrazione dei messaggi
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 696855bad3638a83c865b3d1d47fb4b05924155a
+source-git-commit: cf6cdd7c555bd3480e0defce450883bbd4e660dd
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="Scopri come eseguire la migrazione dei messaggi"
->abstract="A partire dal 25 luglio 2022, il menu Messaggi scompare e i messaggi verranno creati direttamente da un Percorso. Per riutilizzare i messaggi legacy nei percorsi, è necessario salvarli come modelli."
+>abstract="A partire dal 25 luglio 2022, il menu Messaggi scompare e i messaggi vengono creati direttamente da un Percorso. Per riutilizzare i messaggi legacy nei percorsi, è necessario salvarli come modelli."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Salvare i messaggi come modelli"
 
 Adobe Journey Optimizer sta rilasciando una nuova funzione che migliora il modo in cui i professionisti creano esperienze per canali Journey Optimizer consegnati come e-mail, push, SMS. Questa funzione richiede una migrazione dei Percorsi esistenti che utilizzano i messaggi.
 
