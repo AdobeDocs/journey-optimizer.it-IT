@@ -2,7 +2,7 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ In GA (25 luglio), questo nuovo flusso utente si applica a tutti i nuovi percors
 
 La migrazione avverrà per ogni regione di notte, attraverso diverse iterazioni. Ecco la timeline della migrazione:
 
-* 25 luglio 2002: GA - 1a iterazione
-* 1 agosto 2002: 2a iterazione
+* 25 luglio 2022: GA - 1a iterazione
+* 1 agosto 2022: 2a iterazione
 * 5 settembre 2022: 3a iterazione
 * 6 settembre 2022: deprecazione
 
