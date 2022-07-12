@@ -4,7 +4,7 @@ description: Scopri come eseguire la migrazione dei messaggi
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d30795051ed71e568d6529f8fb97b9f0688878b0
+source-git-commit: ebc96f7dfd3f3e4b49e0379904dd2244dda04bc3
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 0%
