@@ -1,5 +1,5 @@
 ---
-title: Report globale di Campaign
+title: Rapporto globale della campagna
 description: Scopri come utilizzare i dati del report globale della campagna
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 2%
 
 ---
 
-# Report globale di Campaign {#campaign-global-report}
+# Rapporto globale della campagna {#campaign-global-report}
 
 Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Global view]** pulsante .
 
@@ -205,3 +205,11 @@ La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale e
 La **[!UICONTROL Excluded reasons]** grafico e tabella mostrano i diversi motivi che impedivano ai profili utente, esclusi dai profili di destinazione, di ricevere il messaggio.
 
 La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono il successo della notifica push in base al sistema operativo del destinatario.
+
+## Risorse aggiuntive
+
+* [Introduzione alle campagne](get-started-with-campaigns.md)
+* [Creare una campagna](create-campaign.md)
+* [Creare campagne con attivazione API](api-triggered-campaigns.md)
+* [Modificare o interrompere una campagna](modify-stop-campaign.md)
+* [Rapporto live della campagna](campaign-live-report.md)

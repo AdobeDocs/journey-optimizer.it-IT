@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva alle campagne
+title: Introduzione alle campagne
 description: Ulteriori informazioni sulle campagne in [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -7,15 +7,15 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 2%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
 
-# Guida introduttiva alle campagne {#get-started-campaigns}
+# Introduzione alle campagne {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
@@ -24,15 +24,19 @@ ht-degree: 2%
 
 ## Informazioni sulle campagne {#about}
 
-Le campagne consentono di inviare contenuti una tantum a un segmento specifico utilizzando più canali.
+Le campagne consentono di inviare contenuti una tantum a un segmento specifico utilizzando più canali. A differenza dei percorsi, in cui le azioni sono progettate per essere eseguite in sequenza, le campagne vengono eseguite simultaneamente, immediatamente o su una pianificazione specifica.
 
-A differenza dei percorsi, in cui le azioni sono progettate per essere eseguite in sequenza, le campagne vengono eseguite simultaneamente, immediatamente o su una pianificazione specifica. Puoi utilizzarli, ad esempio, per fornire offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
+Puoi creare due tipi di campagne:
+
+* **Campagne pianificate** consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
+* **Campagne attivate dall’API** consenti messaggi operativi/transazionali semplici con API REST (reimpostazione della password, abbandono della scheda, ecc.), dove la necessità di personalizzare utilizzando gli attributi del profilo e i dati contestuali dal payload.
 
 Scopri come utilizzare le campagne:
 * [Creare una campagna](create-campaign.md)
+* [Creare campagne con attivazione API](api-triggered-campaigns.md)
 * [Modificare o interrompere una campagna](modify-stop-campaign.md)
-* [Report live della campagna](campaign-live-report.md)
-* [Report globale di Campaign](campaign-global-report.md)
+* [Rapporto live della campagna](campaign-live-report.md)
+* [Rapporto globale della campagna](campaign-global-report.md)
 
 ## Accedere alle campagne {#access}
 

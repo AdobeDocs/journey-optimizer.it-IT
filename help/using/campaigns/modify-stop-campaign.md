@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b1210a562f809d368e251a6652aed9a920436804
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 3%
+source-wordcount: '204'
+ht-degree: 15%
 
 ---
 
@@ -24,8 +24,6 @@ Una volta attivata una campagna, puoi modificarla o interromperla in qualsiasi m
 Per modificare e creare una nuova versione di una campagna, effettua le seguenti operazioni:
 
 1. Apri la campagna e fai clic su **[!UICONTROL Modify campaign]** pulsante .
-
-   ![](assets/create-campaign-edit.png)
 
 1. Viene creata una nuova versione della campagna. Per controllare la versione attiva, fai clic su **[!UICONTROL Open live version]**.
 
@@ -41,8 +39,6 @@ Per modificare e creare una nuova versione di una campagna, effettua le seguenti
    >
    >L’attivazione della bozza sostituirà la versione live della campagna.
 
-   ![](assets/create-campaign-activate-draft.png)
-
 ## Interrompere una campagna {#stop}
 
 Per interrompere una campagna, aprilo e fai clic sul pulsante **[!UICONTROL Stop campaign]** pulsante .
@@ -52,3 +48,11 @@ Per interrompere una campagna, aprilo e fai clic sul pulsante **[!UICONTROL Stop
 >[!IMPORTANT]
 >
 >Dopo aver interrotto una campagna, questa sarà disponibile solo in modalità di sola lettura. Non potrai riattivarlo o utilizzarlo per creare una nuova campagna.
+
+## Risorse aggiuntive
+
+* [Introduzione alle campagne](get-started-with-campaigns.md)
+* [Creare una campagna](create-campaign.md)
+* [Creare campagne con attivazione API](api-triggered-campaigns.md)
+* [Rapporto live della campagna](campaign-live-report.md)
+* [Rapporto globale della campagna](campaign-global-report.md)

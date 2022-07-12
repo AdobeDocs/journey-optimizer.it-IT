@@ -1,5 +1,5 @@
 ---
-title: Report live della campagna
+title: Rapporto live della campagna
 description: Scopri come utilizzare i dati dal rapporto live di Campaign
 feature: Reporting
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 4%
 
 ---
 
-# Report live della campagna {#campaign-live-report}
+# Rapporto live della campagna {#campaign-live-report}
 
 Puoi accedere al rapporto live della campagna direttamente dalla tua campagna con **[!UICONTROL Live view]** pulsante .
 
@@ -110,3 +110,11 @@ La **[!UICONTROL Error Reasons]** e **[!UICONTROL Exclude Reasons]** grafici e t
 La **[!UICONTROL Sending statistics - Failed]** widget consente di vedere quanti errori e mancati riscontri si sono verificati.
 
 La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono in dettaglio il successo della notifica push in base al sistema operativo.
+
+## Risorse aggiuntive
+
+* [Introduzione alle campagne](get-started-with-campaigns.md)
+* [Creare una campagna](create-campaign.md)
+* [Creare campagne con attivazione API](api-triggered-campaigns.md)
+* [Modificare o interrompere una campagna](modify-stop-campaign.md)
+* [Rapporto globale della campagna](campaign-global-report.md)
