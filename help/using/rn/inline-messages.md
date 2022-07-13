@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
+source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Scopri cosa sta succedendo"
->abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. Migrazione dell&#39;ambiente in corso. Dopo la migrazione saranno necessarie ulteriori azioni."
+>abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. Migrazione dell&#39;ambiente in corso. Dopo la migrazione saranno necessarie ulteriori azioni, se al momento utilizzi i messaggi all’interno dei tuoi percorsi."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Passaggi di migrazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Scopri come eseguire la migrazione dei messaggi"
->abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. I messaggi esistenti sono stati ora migrati al nuovo modello. In qualità di professionista del percorso, ora sono necessarie ulteriori azioni."
+>abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. I messaggi esistenti sono stati ora migrati al nuovo modello. In qualità di percorso professionista, sono ora necessarie ulteriori azioni per i percorsi che utilizzano i messaggi."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Passaggi di migrazione"
 
 >[!CONTEXTUALHELP]
