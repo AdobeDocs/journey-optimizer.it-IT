@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
+source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 >id="ajo_messages_migration_before"
 >title="Ulteriori informazioni sulla nuova funzione di authoring in linea"
 >abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. I messaggi esistenti vengono automaticamente migrati al nuovo modello. Dopo la migrazione saranno necessarie ulteriori azioni, se al momento utilizzi i messaggi all’interno dei tuoi percorsi."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Passaggi di migrazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Passaggi di migrazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Scopri cosa sta succedendo"
 >abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. Migrazione dell&#39;ambiente in corso. Dopo la migrazione saranno necessarie ulteriori azioni."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Passaggi di migrazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Passaggi di migrazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Scopri come eseguire la migrazione dei messaggi"
 >abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. I messaggi esistenti sono stati ora migrati al nuovo modello. In qualità di professionista del percorso, ora sono necessarie ulteriori azioni."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Passaggi di migrazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Passaggi di migrazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
 >title="Scopri come eseguire la migrazione dei messaggi"
 >abstract="A partire dal 25 luglio 2022, il menu Messaggi scompare e i messaggi vengono creati direttamente da un Percorso. Per riutilizzare i messaggi legacy nei percorsi, è necessario salvarli come modelli."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template?lang=en" text="Salvare i messaggi come modelli"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Salvare i messaggi come modelli"
 
 Adobe Journey Optimizer sta rilasciando una nuova funzione che migliora il modo in cui crei contenuti per i canali Journey Optimizer (e-mail, push, SMS). In qualità di professionista di Journey Optimizer, ora puoi creare e creare i messaggi direttamente da un percorso.
 
