@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="Ulteriori informazioni sul nuovo messaggio di authoring in linea"
->abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. I messaggi esistenti vengono automaticamente migrati al nuovo modello. Dopo la migrazione saranno necessarie ulteriori azioni."
+>title="Ulteriori informazioni sulla nuova funzione di authoring in linea"
+>abstract="A partire dal 25 luglio 2022, i messaggi vengono creati direttamente da un Percorso. I messaggi esistenti vengono automaticamente migrati al nuovo modello. Dopo la migrazione saranno necessarie ulteriori azioni, se al momento utilizzi i messaggi all’interno dei tuoi percorsi."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Passaggi di migrazione"
 
 >[!CONTEXTUALHELP]
