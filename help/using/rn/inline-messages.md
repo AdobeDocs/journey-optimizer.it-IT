@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer sta rilasciando una nuova funzione che migliora il modo in cui crei contenuti per i canali Journey Optimizer (e-mail, push, SMS). In qualità di professionista di Journey Optimizer, ora puoi creare e creare i messaggi direttamente da un percorso.
 
-Questa funzione richiede una migrazione dei percorsi esistenti che utilizzano i messaggi.
-
-In questa pagina trovi le informazioni necessarie su questa modifica e i passaggi che ti sono necessari.
+Questa funzione richiede una migrazione dei percorsi esistenti che utilizzano i messaggi. In questa pagina trovi le informazioni necessarie su questa modifica e i passaggi che ti sono necessari.
 
 Per ulteriori informazioni su ruoli e responsabilità in qualità di professionista di Journey Optimizer, consulta questo [page](../start/path/marketer.md).
 
@@ -61,23 +59,23 @@ Here are the main changes in the interface:
 
 * **Sono interessato?**: sei interessato se crei messaggi dal **Messaggi** nel menu di navigazione a sinistra e utilizzali nei tuoi percorsi. Se utilizzi un sistema di terze parti (come Adobe Campaign), questa migrazione non ti interessa.
 
-* **Modifiche al prodotto**: in GA (25 luglio), il contenuto del canale verrà creato e gestito all’interno di ogni percorso. La **Messaggi** nel menu di navigazione a sinistra non sarà più disponibile ([Ulteriori informazioni](../rn/inline-messages.md#change)). Verrà eseguita la migrazione per i percorsi esistenti.
+* **Modifiche al prodotto**: in GA (25 luglio), il contenuto del canale viene creato e gestito all’interno di ogni percorso. La **Messaggi** nel menu di navigazione a sinistra non è più disponibile ([ulteriori informazioni](../rn/inline-messages.md#change)). Verrà eseguita la migrazione per i percorsi esistenti.
 
-* **Timeline**: la migrazione avverrà per ogni regione di notte, attraverso [iterazioni](../rn/inline-messages.md#iterations).
+* **Timeline**: la migrazione avviene per ogni regione di notte, attraverso [iterazioni](../rn/inline-messages.md#iterations).
 
    ![](assets/inline-migration-timeline.png)
 
-* **Azioni necessarie**: per te verrà eseguita una conversione automatica dei percorsi. Detto questo, avremo bisogno del vostro aiuto con alcuni passi. Ulteriori informazioni sui passaggi richiesti in questo [page](../rn/inline-messages-steps.md).
+* **Azioni necessarie**: viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi. Ulteriori informazioni sui passaggi richiesti in questo [page](../rn/inline-messages-steps.md).
 
-* **Obsolescenza**: dopo il 6 settembre, tutti i percorsi che utilizzano ancora i messaggi legacy verranno arrestati ed eliminati in seguito.
+* **Obsolescenza**: dopo il 6 settembre, tutti i percorsi che utilizzano ancora messaggi legacy vengono interrotti e verranno eliminati in seguito.
 
 ## Vantaggi e modifiche ai prodotti{#change}
 
-La visione di Adobe è quella di semplificare continuamente il prodotto per fornire flussi di utenti efficienti e ottimizzati. Questo nuovo modo di creare i messaggi semplificherà il processo utente.
+La visione di Adobe è quella di semplificare continuamente il prodotto per fornire flussi di utenti efficienti e ottimizzati. Questo nuovo modo di creare i messaggi semplifica il processo degli utenti.
 
-Abbiamo progettato questo nuovo flusso di lavoro per inserire i contenuti in un’unica posizione, direttamente dove vengono utilizzati.
+Abbiamo progettato questo nuovo flusso di lavoro per centralizzare i contenuti in un’unica posizione, direttamente dove vengono utilizzati.
 
-La creazione di contenuti viene ora eseguita direttamente all’interno del percorso. L&#39;immediato **vantaggi** otterrai:
+La creazione di contenuti viene ora eseguita direttamente all’interno del percorso. L&#39;immediato **vantaggi** ottieni:
 
 * Creazione di percorsi più rapida utilizzando i canali Journey Optimizer in un unico flusso.
 * Visualizzazione rapida dei contenuti passando ininterrottamente tra tutti i contenuti e-mail, push e SMS in un percorso.
@@ -110,9 +108,9 @@ In GA (25 luglio), questo nuovo flusso utente si applica a tutti i nuovi percors
 
 ## Timeline di migrazione{#iterations}
 
-È necessaria una migrazione per trasformare i percorsi esistenti utilizzando **Messaggi** in percorsi con azioni di authoring in linea. Verrà eseguita automaticamente una conversione automatica dei percorsi. Detto questo, avremo bisogno del vostro aiuto con alcuni passi.
+È necessaria una migrazione per trasformare i percorsi esistenti utilizzando **Messaggi** in percorsi con azioni di authoring in linea. Viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi.
 
-La migrazione avverrà per ogni regione di notte, attraverso diverse iterazioni. Ecco la timeline della migrazione:
+La migrazione si verifica per ogni regione di notte, attraverso diverse iterazioni. Ecco la timeline della migrazione:
 
 * 25 luglio 2022: GA - 1a iterazione
 * 1 agosto 2022: 2a iterazione
@@ -129,7 +127,7 @@ Durante un&#39;iterazione, passiamo attraverso ogni percorso e li migriamo quand
 
 Adobe comunica con te prima della prima iterazione.
 
-Il cambiamento verrà implementato in un giorno, attraverso diverse iterazioni. Ulteriori informazioni su [iterazioni](../rn/inline-messages.md#inline-authoring).
+Il cambiamento viene distribuito durante la notte, attraverso diverse iterazioni. Ulteriori informazioni su [iterazioni](../rn/inline-messages.md#inline-authoring).
 
 Inoltre, le notifiche interne al prodotto vengono visualizzate sugli schermi dei Percorsi:
 
@@ -151,17 +149,17 @@ Inoltre, le notifiche interne al prodotto vengono visualizzate sugli schermi dei
 
 ### Qual è il processo di migrazione?{#process}
 
-La migrazione è completamente automatica per i percorsi che non sono live o chiusi. Non vogliamo avere un impatto sui percorsi live o chiusi per evitare qualsiasi impatto sulla produzione. Ti verrà richiesto di pubblicare la nuova versione creata per te.
+La migrazione è completamente automatica per i percorsi che non sono live o chiusi. Non vogliamo avere un impatto sui percorsi live o chiusi per evitare qualsiasi impatto sulla produzione. Ti chiediamo di pubblicare la nuova versione creata per te.
 
-Tutte le sandbox di un ORG cliente verranno elaborate simultaneamente. Durante la distribuzione delle modifiche, verranno eseguite le azioni seguenti:
+Tutte le sandbox di un ORG cliente vengono elaborate simultaneamente. Durante la distribuzione delle modifiche, vengono eseguite le azioni seguenti:
 
-**QUALSIASI Percorso che non utilizza i messaggi**
+**QUALSIASI percorso che non utilizza i messaggi**
 
 Questi non sono influenzati dal cambiamento. La migrazione ha come target solo i percorsi che utilizzano i messaggi. Tuttavia, potrai comunque accedere ai messaggi non utilizzati in un percorso tramite il seguente URL: https://experience.adobe.com/#/@[ORO]/sname:[SANDBOX]/percorsi-optimizer/messages/
 
-**BOZZA Percorsi utilizzando almeno un messaggio**
+**BOZZA percorsi utilizzando almeno un messaggio**
 
-Le versioni bozze dei messaggi vengono modificate durante la migrazione. Non faranno più riferimento a un messaggio. La **Messaggio** le attività verranno sostituite con le attività di azione appropriate per il canale. Ognuno di essi includerà i parametri e il contenuto del canale.
+Le versioni bozze dei messaggi vengono modificate durante la migrazione. Non fanno più riferimento a un messaggio. La **Messaggio** le attività vengono sostituite con le attività di azione del canale appropriate. Ognuno di essi include i parametri e il contenuto del canale.
 
 Come al solito, testa il percorso di bozza prima di pubblicarlo.
 
@@ -169,15 +167,15 @@ Come al solito, testa il percorso di bozza prima di pubblicarlo.
 
 La versione live di un percorso continua a funzionare per evitare qualsiasi impatto sulla produzione.
 
-Durante la migrazione verrà creata una nuova versione bozza di questo percorso. Questa nuova versione bozza sarà una copia della tua versione live, ma i messaggi verranno sostituiti con azioni del canale in linea create. Ogni attività di azione del canale includerà i parametri e il contenuto del canale. Il contenuto non viene perso. Il reporting non viene perso
+Durante la migrazione viene creata una nuova versione bozza di questo percorso. Questa nuova versione bozza è una copia della tua versione live ma i messaggi vengono sostituiti con azioni del canale in linea create. Ciascuna attività di azione del canale include i parametri e il contenuto del canale. Il contenuto non viene perso. Il reporting non viene perso.
 
 Prevediamo che rivedi questa versione bozza, la sottoponga a test e la pubblichi in modo che diventi la versione live.
 
-**PERCORSI completati o ARRESTATI utilizzando almeno un messaggio**
+**PERCORSI completati o ARRESTATI che utilizzano almeno un messaggio**
 
-Anche questi percorsi verranno migrati.
+Anche questi percorsi vengono migrati.
 
-Nel rapporto sul percorso, i rapporti saranno più ricchi in modo da includere il livello di informazioni precedentemente disponibili nel rapporto sui messaggi.
+Nel rapporto sul percorso, i rapporti sono ora più ricchi e includono il livello di informazioni precedentemente disponibili nel rapporto sui messaggi.
 
 **Percorsi chiusi che utilizzano almeno un messaggio**
 
@@ -191,7 +189,7 @@ Queste non vengono migrate. Devi ricrearli.
 
 ### Quali sono gli elementi delle mie azioni come cliente?{#actions}
 
-Verrà eseguita automaticamente una conversione automatica dei percorsi, ma sono necessari alcuni passaggi. Ulteriori informazioni sui passaggi richiesti in questo [page](../rn/inline-messages-steps.md).
+Viene eseguita una conversione automatica dei percorsi, ma sono necessari alcuni passaggi. Ulteriori informazioni sui passaggi richiesti in questo [page](../rn/inline-messages-steps.md).
 
 <!--
 
@@ -293,7 +291,7 @@ La modalità di creazione dei messaggi verrà modificata. Non si verificherà al
 
 ### Sarà possibile accedere all’ambiente durante il processo di migrazione?
 
-La migrazione avverrà di notte. Potrai utilizzare il prodotto. Ma non creare, modificare o eliminare percorsi.
+La migrazione avviene di notte. Potrai utilizzare il prodotto. Ma non creare, modificare o eliminare percorsi.
 
 ### I messaggi continueranno a essere inviati?
 
