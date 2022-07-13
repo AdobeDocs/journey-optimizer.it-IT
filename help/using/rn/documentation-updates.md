@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 97%
+source-wordcount: '1651'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La pagina Elenco di eliminazione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo dell’eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 * È stato aggiunto il collegamento ai guardrail e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
 * L’ottimizzazione del momento di invio è ora disponibile per tutti i clienti. La menzione beta è stata rimossa. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
-
+* L’API Batch Decisioning è stata aggiunta all’elenco delle API disponibili per la distribuzione di offerte personalizzate. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maggio 2022 {#may-2022}
 
@@ -169,3 +169,4 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta un’avvertenza per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * È stata documentata la nuova scheda **[!UICONTROL Overview]** di Gestione delle decisioni. [Ulteriori informazioni](../offers/get-started/user-interface.md#overview)
 * Sono state aggiunte nuove sezioni che descrivono le azioni disponibili negli elenchi delle offerte e delle decisioni: [Elenco offerte](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Elenco delle decisioni](../offers/offer-activities/create-offer-activities.md#decision-list).
+
