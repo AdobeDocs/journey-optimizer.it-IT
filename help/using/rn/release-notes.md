@@ -3,9 +3,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -95,13 +95,13 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Copiare oggetti tra le sandbox</strong><br/></th>
+<th><strong>Copiare oggetti da una sandbox a un’altra</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi ricreare le esperienze da una sandbox Journey Optimizer a un’altra, ad esempio da una sandbox non di produzione a una sandbox di produzione. Questa nuova funzionalità consente di copiare un intero Percorso, compresi tutti gli oggetti da cui dipende l’esecuzione corretta del Percorso, da un ambiente all’altro. Oltre ai Percorsi, puoi anche copiare altri componenti quali Offerte, Messaggi, Schemi, Set di dati, Origini dati, Eventi e Azioni.</p>
+<p>Ora puoi ricreare le esperienze da una sandbox Journey Optimizer a un’altra, ad esempio da una sandbox non di produzione a una di produzione. Questa nuova funzionalità consente di copiare da un ambiente all’altro un intero percorso, compresi tutti gli oggetti da cui dipende la sua esecuzione corretta. Oltre ai percorsi, puoi anche copiare altri componenti quali offerte, messaggi, schemi, set di dati, origini dati, eventi e azioni.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/copy-to-sandbox.md">documentazione dettagliata</a>.
 </td>
 </tr>
@@ -149,9 +149,9 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * **Parametri URL di tracciamento anteprima**: quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 
-* **Modifica del predefinito del messaggio** - Al momento dell’aggiornamento di un predefinito per messaggi, il tempo di elaborazione può richiedere solo 3 ore. [Ulteriori informazioni](../configuration/message-presets.md#edit-message-preset)
+* **Modifica del predefinito per messaggi**: ora al momento dell’aggiornamento di un predefinito per messaggi, il tempo di elaborazione può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/message-presets.md#edit-message-preset)
 
-* **edizione pool IP** - Ora, quando si aggiorna un pool IP, il tempo di elaborazione può richiedere solo 3 ore. [Ulteriori informazioni](../configuration/ip-pools.md#edit-ip-pool)
+* **Modifica del pool IP**: ora quando si aggiorna un pool IP il tempo di elaborazione può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
