@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 97%
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
-      + [Copiare un percorso a un altro sandbox](using/building-journeys/copy-to-sandbox.md)
+      + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Risolvere i problemi del percorso](using/building-journeys/troubleshooting.md)
    + Attività {#about-journey-building}
       + [Informazioni sulle attività del percorso](using/building-journeys/about-journey-activities.md)
