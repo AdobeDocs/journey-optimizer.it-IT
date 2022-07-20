@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -287,7 +287,10 @@ Non ci saranno perdite di dati e nessun impatto sui percorsi live. Potrai pubbli
 
 ### Si verificherà una perdita di funzionalità?{#functionality}
 
-La modalità di creazione dei messaggi verrà modificata. Non si verificherà alcuna perdita di funzionalità.
+La modalità di creazione dei messaggi verrà modificata. Non si verificherà alcuna perdita di funzionalità. Dopo il 25 luglio (rilascio della funzione di authoring in linea), saranno applicate limitazioni alle azioni che possono essere eseguite nei percorsi che utilizzano **Messaggio** attività:
+
+* Non potrai copiare/incollare alcun **Messaggio** attività. Tuttavia, potrai copiare/incollare le nuove attività di azione del canale.
+* Per questi percorsi, non potrai eseguire le seguenti operazioni: testare, pubblicare, duplicare, creare una nuova versione, chiudere o copiare un’altra sandbox. Tali limitazioni si applicano a condizione che **Messaggi** le attività sono presenti in tali percorsi. Puoi attendere l’esecuzione e l’aggiornamento del processo di migrazione **Messaggi** attività per incanalare le attività di azione o è possibile rimuoverle **Messaggi** manualmente.
 
 ### Sarà possibile accedere all’ambiente durante il processo di migrazione?
 
