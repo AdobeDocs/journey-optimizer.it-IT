@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 2%
@@ -183,5 +183,5 @@ Utilizza la **[!UICONTROL Offer decision]** per inserire decisioni nei messaggi.
 
 Argomenti correlati:
 
-* [Introduzione alla gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md).
-* [Aggiungere offerte personalizzate nei messaggi](deliver-personalized-offers.md).
+* [Introduzione alla gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md)
+* [Aggiungere offerte personalizzate nelle e-mail](deliver-personalized-offers.md)

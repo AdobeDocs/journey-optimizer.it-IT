@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -123,88 +123,6 @@ Include le seguenti autorizzazioni di basso livello:
    * queries.read
    * queries.write
    * queries.delete
-
-## Capacità del messaggio {#message-capability}
-
-### [!DNL Manage messages] autorizzazione {#manage-messages}
-
-La **[!DNL Manage messages]** le autorizzazioni di alto livello consentono agli utenti di creare e modificare/eliminare messaggi.
-
-Include le seguenti autorizzazioni di basso livello:
-
-* Journey Optimizer specifico:
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* Adobe Experience Platform specifico:
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] autorizzazione {#mange-messages-preview}
-
-La **[!DNL Manage messages preview and test]** le autorizzazioni di alto livello consentono agli utenti di visualizzare in anteprima i messaggi personalizzati.
-
-Include le seguenti autorizzazioni di basso livello:
-
-* Journey Optimizer specifico:
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* Adobe Experience Platform specifico:
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_Policies.read
-
-### [!DNL Publish messages] autorizzazione {#publish-messages}
-
-La **[!DNL Publish messages]** le autorizzazioni di alto livello consentono agli utenti di pubblicare messaggi.
-
-Include le seguenti autorizzazioni di basso livello:
-
-* Journey Optimizer specifico:
-   * messages.publish
-
-* Adobe Experience Platform specifico:
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] autorizzazione {#view-messages}
-
-La **[!DNL View messages]** le autorizzazioni di alto livello consentono agli utenti di leggere solo i messaggi.
-
-Include le seguenti autorizzazioni di basso livello:
-
-* Journey Optimizer specifico:
-   * messages.read
-   * messages_presets.read
-
-* Adobe Experience Platform specifico:
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] autorizzazione {#view-message-reports}
-
-La **[!DNL View messages report]** le autorizzazioni di alto livello consentono agli utenti di inviare e-mail e rapporti push di sola lettura.
-
-Include le seguenti autorizzazioni di basso livello:
-
-* Journey Optimizer specifico:
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## Capacità di gestione delle decisioni {#decisions-permissions}
 
@@ -330,33 +248,34 @@ Include le seguenti autorizzazioni di basso livello:
 * IP_pool.write
 * IP_pool.delete
 
-### [!DNL Manage messages general settings] autorizzazione {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-La **[!DNL Manage messages general settings]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-Include le seguenti autorizzazioni di basso livello:
+It includes the following low-level permissions: 
 
-* Journey Optimizer specifico:
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* Adobe Experience Platform specifico:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] autorizzazione {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-La **[!DNL View messages general settings]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l’indirizzo di esecuzione.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-Include le seguenti autorizzazioni di basso livello:
+It includes the following low-level permissions:
 
-* Journey Optimizer specifico:
-   * messages_general_settings.read
-* Adobe Experience Platform specifico:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] autorizzazione {#manage-channel-surface}
 
-### [!DNL Manage messages presets] autorizzazione {#manage-message-presets}
-
-La **[!DNL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare i predefiniti per messaggi tra i diversi canali a livello di sandbox.
+La **[!DNL Manage channel surface]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare le superfici dei canali attraverso i canali a livello di sandbox.
 
 Include le seguenti autorizzazioni di basso livello:
 
@@ -368,9 +287,9 @@ Include le seguenti autorizzazioni di basso livello:
    * IP_pool.read
    * mobile_setting.read (da Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] autorizzazione {#view-message-presets}
+### [!DNL View channel surface] autorizzazione {#view-channel-surface}
 
-La **[!DNL View messages presets]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i predefiniti per messaggi al fine di sapere quali predefiniti per messaggi utilizzare durante la creazione di un messaggio.
+La **[!DNL View channel surface]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le superfici dei canali per sapere quali superfici dei canali utilizzare.
 
 Include le seguenti autorizzazioni di basso livello:
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,6 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di percorsi.
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
 * Incorporato **Reazione** ti consente di reagire alle azioni predefinite (consulta questo [page](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 * Non è possibile inserire due azioni in parallelo, ma è necessario aggiungerle una dopo l’altra.
-
-## Limiti per le azioni dei messaggi
-
-* Quando aggiungi un messaggio multicanale, vengono inviati due messaggi.
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 

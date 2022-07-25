@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 >title="Oggetti dipendenti"
 >abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno."
 
-Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: messaggi, segmenti, predefiniti, schemi, eventi e azioni. Fai riferimento a [limitazioni](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Fai riferimento a [limitazioni](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ Vengono copiati i seguenti oggetti:
 
 * Messaggio
 
-   I messaggi fisici utilizzati nel percorso (e-mail o messaggi push). I campi utilizzati per la personalizzazione nel messaggio non vengono controllati per verificarne la completezza. I blocchi di contenuto non vengono copiati.
+   Le attività di azione del canale utilizzate nel percorso. I campi utilizzati per la personalizzazione nel messaggio non vengono controllati per verificarne la completezza. I blocchi di contenuto non vengono copiati.
 
 * Percorso - dettagli area di lavoro
 
@@ -100,9 +101,8 @@ Vengono copiati i seguenti oggetti:
 
    Le azioni e i dettagli delle azioni utilizzati nel percorso vengono copiati.
 
-I predefiniti non vengono copiati. Il sistema seleziona automaticamente la corrispondenza più vicina possibile sulla sandbox di destinazione, in base al tipo di messaggio e al nome del predefinito. Se non sono presenti predefiniti nella sandbox di destinazione, la copia preimpostata non riuscirà. Questo significa che anche la copia del messaggio avrà esito negativo, perché un messaggio richiede che sia disponibile un predefinito per la configurazione. In questo caso è necessario creare almeno un predefinito, affinché il canale giusto del messaggio funzioni correttamente.
+Le superfici (ovvero i predefiniti) non vengono copiate. Il sistema seleziona automaticamente la corrispondenza più vicina possibile sulla sandbox di destinazione, in base al tipo di messaggio e al nome della superficie. Se nella sandbox di destinazione non sono presenti superfici, la copia della superficie non riuscirà. Ciò significa che la copia del messaggio avrà esito negativo anche perché un messaggio richiede che una superficie sia disponibile per la configurazione. In questo caso è necessario creare almeno una superficie per il canale giusto del messaggio, affinché la copia funzioni.
 
 Per gli schemi, i criteri di unione e i segmenti, la seconda volta che questi oggetti tentano di essere copiati, viene fatto riferimento solo a essi. Saranno trattati come oggetti già esistenti e verranno copiati di nuovo. Ciò significa che questi oggetti possono essere copiati una sola volta.
 
 Si verifica un ritardo di cinque minuti prima che Adobe Journey Optimizer possa fare riferimento a Schemi, Criteri di unione e Segmenti senza che venga visualizzato un errore nell’area di lavoro. Attendi cinque minuti e questi riferimenti saranno disponibili.
-

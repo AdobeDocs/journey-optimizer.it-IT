@@ -3,9 +3,9 @@ title: Guida introduttiva di Journey Optimizer per data engineer
 description: In qualità di data engineer, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 9%
 
 ---
@@ -42,4 +42,4 @@ Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL 
 
 * **Eventi** ti consente di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Ulteriori informazioni sugli eventi [in questa sezione](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] include funzionalità integrate per messaggi: puoi progettare il contenuto e pubblicare il messaggio. Se utilizzi un sistema di terze parti per l’invio dei messaggi, ad esempio Adobe Campaign, crea un **azione personalizzata**. Ulteriori informazioni sulle azioni in questo [in questa sezione](../../action/action.md).
+* [!DNL Journey Optimizer] include funzionalità integrate per messaggi: puoi creare i messaggi all’interno di un percorso e progettare il contenuto. Se utilizzi un sistema di terze parti per l’invio dei messaggi, ad esempio Adobe Campaign, crea un **azione personalizzata**. Ulteriori informazioni sulle azioni in questo [in questa sezione](../../action/action.md).

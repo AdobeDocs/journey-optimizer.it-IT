@@ -2,10 +2,10 @@
 title: Note sulle versioni precedenti (2021)
 description: Note sulle versioni 2021 di Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '2070'
-ht-degree: 100%
+source-wordcount: '2067'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 
 **Generazione rapporti**
 
-* **Formato dati nella visualizzazione globale** - È ora possibile alternare tra numeri e percentuali nella **Visualizzazione globale** della scheda **Esecuzione**. [Ulteriori informazioni](../reports/message-monitoring.md)
+* **Formato dati nella visualizzazione globale** - È ora possibile alternare tra numeri e percentuali nella **Visualizzazione globale** della scheda **Esecuzione.**
 
 
 **Amministrazione**
@@ -126,7 +126,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 <td>
 <p>Sono disponibili nuove metriche nel reporting: le opzioni Destinati ed Esclusi per e-mail e messaggi push sono visibili sia nei rapporti live che globali. </br> Per poter accedere alle metriche più recenti, è necessario reimpostare le diverse dashboard di generazione rapporti per ogni canale e tipo di reporting. Per ulteriori informazioni sulla personalizzazione della dashboard, consulta la <a href="../reports/live-report.md">documentazione dettagliata.</a></p>
 <p>Una nuova colonna nell’elenco di esecuzione dei messaggi mostra il numero di profili target per ogni esecuzione di messaggio. </p>
-<p>Per ulteriori informazioni, consulta la <a href="../reports/message-monitoring.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../reports/global-report.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 <td>
 <p>Invia automaticamente il messaggio push o e-mail nel momento migliore per ogni cliente con cui hai a che fare, grazie ad Adobe Journey Optimizer. L’ottimizzazione dell’ora di invio, basata sui servizi AI di Adobe, prevede il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic preconfigurate.</p>
 <p>Al momento questa funzione è disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../messages/send-time-optimization.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -289,7 +289,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 
 * È stato risolto un problema di accessibilità nella navigazione della scheda dei messaggi.
 * È stato risolto un problema di localizzazione nelle etichette di e-mail designer.
-* È stato risolto un problema che si verificava selezionando più nodi in un percorso e facendo clic su “Elimina” nel pannello delle proprietà.
+* È stato risolto un problema che si verificava selezionando più nodi in un percorso e facendo clic su &#39;Elimina&#39; nel riquadro delle proprietà.
 * È stato risolto un problema che impediva l’aggiunta di una nuova intestazione a un’azione utilizzata in un percorso.
 * Ora puoi scoprire il motivo per cui una creazione di un predefinito di messaggio non è riuscita tramite un avviso più esplicito nell’interfaccia utente.
 
@@ -342,7 +342,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso. [Ulteriori informazioni](../start/user-interface.md#filter-lists)
 * Il parametro **[!UICONTROL Throttling rate]** è stato aggiunto il parametro nell’attività Leggi segmento. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Anteprima e verifica dei messaggi**
+**Anteprima e test**
 
 * L’identità e lo spazio dei nomi sono ora visibili nella **[!UICONTROL Preview]** schermata. [Ulteriori informazioni](../design/preview.md#preview-your-messages)
 * Il numero di e-mail di prova per le bozze è ora limitato a 10.
@@ -357,6 +357,6 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 * È stato risolto un problema che causava la consegna di messaggi duplicati per la consegna di e-mail in batch.
 * Gli eventi vengono ora generati di conseguenza quando l’invio e-mail non viene eseguito una volta terminato il periodo di esecuzione dei nuovi tentativi.
 * È stato risolto un problema a causa del quale le informazioni IP mancavano nella schermata Record PTR.
-* È ora implementata la localizzazione nella barra delle offerte nell’editor espressioni.
+* La localizzazione nella barra delle offerte nell’editor espressioni è ora implementata.
 * È stata corretta la spaziatura errata nei popup delle informazioni.
 * È stato risolto un problema in E-mail designer durante il caricamento di un file HTML in cui il foglio di stile interno con proprietà `background-image` non era supportato.

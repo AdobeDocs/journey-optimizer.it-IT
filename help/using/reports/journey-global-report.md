@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,11 @@ La **[!UICONTROL Top Actions]** la tabella contiene i dati disponibili per **[!U
 
 Dal tuo percorso **[!UICONTROL Global report]**, **[!UICONTROL Email]** scheda descrive le informazioni principali relative alle consegne e-mail inviate nel percorso.
 
-Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Report globale e-mail](#email-global-report) sezione .
-
 ![](assets/global_report_14.png)
 
 La **[!UICONTROL Email Sending Statistics]** il grafico descrive il successo della consegna:
+
+* **[!UICONTROL Targeted]**: Numero di profili interessati dal Journey Orchestration di Adobi per qualsiasi azione, ad esempio invia e-mail o SMS.
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -88,7 +88,7 @@ La **[!UICONTROL Email - Tracking statistics]** contiene i dati disponibili per 
 
 * **[!UICONTROL Unique Opens]**: Percentuale di consegne aperte.
 
-* **[!UICONTROL Open Rate]**: Numero totale di e-mail aperte rispetto al numero di e-mail consegnate.
+* **[!UICONTROL Unique Open Rate]**: Numero totale di e-mail aperte rispetto al numero di e-mail consegnate.
 
 * **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
 
@@ -136,7 +136,7 @@ La **[!UICONTROL Email - Top recipient domain]** visualizza i dettagli del grafi
 
 >[!NOTE]
 >
->La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta questo [page](../building-journeys/journeys-message.md#send-time-optimization).
+>La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
 
 La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 
@@ -179,11 +179,11 @@ La **[!UICONTROL Offers detailed statistic]** La tabella contiene i dati disponi
 
 Dal tuo percorso **[!UICONTROL Global report]**, **[!UICONTROL Push]** la scheda descrive le informazioni principali relative alle consegne push inviate nel percorso.
 
-Per un rapporto dettagliato su una consegna push specifica, consulta la sezione [Report globale push](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 La **[!UICONTROL Push notification - Sending statistics]** la tabella descrive le informazioni principali relative alle notifiche push con grafici e KPI:
+
+* **[!UICONTROL Targeted]**: Numero di profili interessati dal Journey Orchestration di Adobi per qualsiasi azione, ad esempio invia e-mail o SMS.
 
 * **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
 
@@ -227,7 +227,7 @@ La **[!UICONTROL Push notification summary]** Il grafico contiene i dati disponi
 
 >[!NOTE]
 >
->La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta questo [page](../building-journeys/journeys-message.md#send-time-optimization).
+>La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
 
 La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 

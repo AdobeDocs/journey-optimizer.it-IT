@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '314'
 ht-degree: 73%
 
 ---
@@ -29,7 +29,7 @@ La configurazione dell’origine dati consente di definire una connessione a un 
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività messaggio che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
+Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività azione canale che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
 
 Esistono due tipi di origini dati:
 

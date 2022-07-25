@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1213'
 ht-degree: 2%
 
 ---
@@ -49,8 +50,6 @@ From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimenta
 ## Scheda E-mail {#email-global}
 
 Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Email]** la scheda descrive le informazioni principali relative alle consegne e-mail inviate nella campagna.
-
-Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Report globale e-mail](../reports/email-global-report.md) sezione .
 
 La **[!UICONTROL Email Sending Statistics]** il grafico descrive il successo della consegna:
 
@@ -122,7 +121,7 @@ La **[!UICONTROL Email - Top recipient domain]** visualizza i dettagli del grafi
 
 >[!NOTE]
 >
->La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta questo [page](../building-journeys/journeys-message.md#send-time-optimization).
+>La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
 
 La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 
@@ -138,8 +137,6 @@ La **[!UICONTROL Send time optimization]** specifica il successo della consegna 
 ## Scheda push {#push-global}
 
 Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Push]** la scheda descrive le informazioni principali relative alle consegne push inviate nella campagna.
-
-Per un rapporto dettagliato su una consegna push specifica, consulta la sezione [Report globale push](../reports/push-global-report.md).
 
 La **[!UICONTROL Push notification - Sending statistics]** la tabella descrive le informazioni principali relative alle notifiche push con grafici e KPI:
 
@@ -187,7 +184,7 @@ La **[!UICONTROL Push notification summary]** Il grafico contiene i dati disponi
 
 >[!NOTE]
 >
->La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta questo [page](../building-journeys/journeys-message.md#send-time-optimization).
+>La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
 
 La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 

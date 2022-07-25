@@ -6,10 +6,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 9%
+source-wordcount: '326'
+ht-degree: 11%
 
 ---
 
@@ -20,19 +20,20 @@ Quando accedi [!DNL Journey Optimizer] per la prima volta, viene effettuato il p
 
 Per poter creare i tuoi percorsi e inviare messaggi, devi seguire questi passaggi di configurazione:
 
-1. **Configurare messaggi e canali**: definire predefiniti, adattare e personalizzare e-mail e messaggi push
+1. **Configurare messaggi e canali**: definire le superfici dei canali, adattare e personalizzare i messaggi.
 
-   * Definire le impostazioni delle notifiche push in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../configuration/push-gs.md)
-
-   * Crea i predefiniti per i messaggi per configurare tutti i parametri tecnici necessari per i messaggi e-mail e per i messaggi di notifica push. [Ulteriori informazioni](message-presets.md)
+   * Crea superfici di canale per configurare tutti i parametri tecnici necessari per la consegna dei messaggi. [Ulteriori informazioni](message-presets.md)
 
    * Determina l’indirizzo e-mail da utilizzare in priorità per i destinatari quando sono disponibili più indirizzi in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
 
    * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di eliminazione. [Ulteriori informazioni](manage-suppression-list.md)
 
-   <!--
-    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
-    -->
+   * Definire le impostazioni delle notifiche push in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../configuration/push-gs.md)
+
+   <!--* Understand the push notification flow. [Learn more](../configuration/push-gs.md)-->
+
+   * Configura l’istanza per inviare SMS (attualmente disponibile solo per un set di organizzazioni - Disponibilità limitata). [Ulteriori informazioni](sms-configuration.md)
+
 
 1. **Delega sottodomini**: per utilizzare un nuovo sottodominio in Journey Optimizer, il primo passaggio consiste nel delegarlo. [Ulteriori informazioni](about-subdomain-delegation.md)
 
@@ -46,8 +47,8 @@ Per poter creare i tuoi percorsi e inviare messaggi, devi seguire questi passagg
 
    ![](assets/admin-menu.png)
 
-   * La **Origine dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. Ulteriori informazioni su Origini dati in questo [sezione](../datasource/about-data-sources.md)
+   * La **sorgente dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
-   * **Eventi** ti consente di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Ulteriori informazioni sugli eventi in questo [sezione](../event/about-events.md)
+   * **Eventi** ti consente di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. [Ulteriori informazioni](../event/about-events.md)
 
-   * [!DNL Journey Optimizer] include funzionalità integrate per messaggi: puoi progettare il contenuto e pubblicare il messaggio. Se utilizzi un sistema di terze parti per l’invio dei messaggi, crea un **azione personalizzata**. Ulteriori informazioni sulle azioni in questo [sezione](../action/action.md)
+   * [!DNL Journey Optimizer] viene fornito con funzionalità integrate per la progettazione e l’invio di contenuti. Se utilizzi un sistema di terze parti per l’invio dei messaggi, crea un **azione personalizzata**. [Ulteriori informazioni](../action/action.md)

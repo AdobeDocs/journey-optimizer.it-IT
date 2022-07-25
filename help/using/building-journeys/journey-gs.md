@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 8%
 
 ---
@@ -31,9 +31,9 @@ Per inviare messaggi con percorsi, sono necessarie le seguenti configurazioni:
 
    ![](assets/jo-datasource.png)
 
-1. **Configurare un’azione**: Le funzionalità dei messaggi di Journey Optimizer sono integrate e ti basta progettare il contenuto e pubblicare il messaggio. Vedi [questa sezione](../messages/get-started-content.md). Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md). e viene eseguita da un **utente tecnico**.
+1. **Configurare un’azione**: Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md). e viene eseguita da un **utente tecnico**. Se utilizzi funzionalità di messaggistica integrate di Journey Optimizer, devi solo aggiungere un’azione canale al percorso e progettare i contenuti. Vedi [questa sezione](../messages/get-started-content.md).
 
-   ![](assets/create-content-push.png)
+   ![](assets/custom2.png)
 
 ## Crea il tuo percorso{#jo-build}
 
@@ -60,7 +60,7 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi attrav
 
    ![](assets/read-segment.png)
 
-1. Trascina e rilascia i passaggi successivi che verranno seguiti dall’utente. Ad esempio, puoi aggiungere una condizione seguita da un messaggio. Per ulteriori informazioni sulle attività, consulta [questa sezione](using-the-journey-designer.md).
+1. Trascina e rilascia i passaggi successivi che verranno seguiti dall’utente. Ad esempio, puoi aggiungere una condizione seguita da un’azione canale. Per ulteriori informazioni sulle attività, consulta [questa sezione](using-the-journey-designer.md).
 
 1. Testa il percorso utilizzando i profili di test. Ulteriori informazioni [sezione](testing-the-journey.md)
 

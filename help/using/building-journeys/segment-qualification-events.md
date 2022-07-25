@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Per ulteriori informazioni sulla segmentazione in streaming, consulta [Documenta
 
 ### Come evitare gli overload{#overloads-speed-segment-qualification}
 
-Di seguito sono riportate alcune best practice che aiuteranno a evitare il sovraccarico dei sistemi utilizzati nei percorsi (origini dati, azioni personalizzate, **Messaggio** attività).
+Di seguito sono riportate alcune best practice che aiuteranno a evitare il sovraccarico dei sistemi sfruttati nei percorsi (origini dati, azioni personalizzate, attività di azione dei canali).
 
 Non utilizzare in un **[!UICONTROL Segment Qualification]** attività , un segmento batch subito dopo la creazione. Evita il primo picco di calcolo. Se stai per utilizzare un segmento che non è mai stato calcolato, nell’area di lavoro del percorso verrà visualizzato un avviso giallo.
 

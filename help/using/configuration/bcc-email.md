@@ -1,14 +1,14 @@
 ---
 title: Utilizzare la funzione E-mail Ccn
-description: Scopri come configurare le e-mail CCN a livello di predefinito dei messaggi
+description: Scopri come configurare le e-mail CCN a livello di superficie del canale
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 3%
 
 ---
@@ -24,23 +24,23 @@ Puoi inviare una copia identica (o copia cieca in carbonio) di un’e-mail invia
 
 ## Abilita e-mail CCN {#enable-bcc}
 
-Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato. Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato il *marketing.luma.com* sottodominio ad Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato della [superficie del canale](message-presets.md) (ovvero predefinito per i messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato il *marketing.luma.com* sottodominio ad Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
 
 >[!NOTE]
 >
->Puoi definire un solo indirizzo e-mail CCN. Assicurati che l’indirizzo CCN abbia una capacità di ricezione sufficiente per memorizzare tutte le e-mail inviate utilizzando il predefinito corrente.
+>Puoi definire un solo indirizzo e-mail CCN. Assicurati che l’indirizzo CCN abbia una capacità di ricezione sufficiente per memorizzare tutte le e-mail inviate utilizzando la superficie del canale corrente.
 >
 >Ulteriori raccomandazioni sono elencate in [questa sezione](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Tutti i messaggi e-mail che utilizzano questo predefinito verranno copiati in modalità cieca nell’indirizzo e-mail CCN inserito. Da lì, possono essere elaborati e archiviati utilizzando un sistema esterno.
+Tutti i messaggi e-mail che utilizzano questa superficie verranno copiati in modalità cieca nell’indirizzo e-mail CCN inserito. Da lì, possono essere elaborati e archiviati utilizzando un sistema esterno.
 
 >[!CAUTION]
 >
->L’utilizzo delle funzioni CCN verrà conteggiato in base al numero di messaggi per i quali si dispone della licenza. Quindi, abilitalo solo nei predefiniti utilizzati per le comunicazioni critiche che desideri archiviare. Controlla il tuo contratto per i volumi con licenza.
+>L’utilizzo delle funzioni CCN verrà conteggiato in base al numero di messaggi per i quali si dispone della licenza. Quindi, abilitalo solo nelle superfici utilizzate per le comunicazioni critiche che desideri archiviare. Controlla il tuo contratto per i volumi con licenza.
 
-L’impostazione dell’indirizzo e-mail CCN viene immediatamente salvata ed elaborata a livello di predefinito. Quando [creare un nuovo messaggio](../messages/get-started-content.md#create-new-message) utilizzando questo predefinito, l’indirizzo e-mail CCN viene visualizzato automaticamente.
+L’impostazione dell’indirizzo e-mail CCN viene immediatamente salvata ed elaborata a livello di superficie. Quando [creare un nuovo messaggio](../messages/get-started-content.md#create-new-message) utilizzando questa superficie, l’indirizzo e-mail CCN viene visualizzato automaticamente.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ Tuttavia, l’indirizzo CCN viene selezionato per l’invio di comunicazioni sec
 
 >[!NOTE]
 >
->Non è necessario ripubblicare un messaggio o un percorso per selezionare l’impostazione CCN.
+>Non è necessario ripubblicare il percorso per selezionare l’impostazione CCN.
 
 ## Recommendations e limitazioni {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ Tuttavia, l’indirizzo CCN viene selezionato per l’invio di comunicazioni sec
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Non aprire o fare clic sulle e-mail inviate all’indirizzo CCN in quanto vengono prese in considerazione nelle aperture totali e nei clic dall’analisi di invio, il che potrebbe causare alcuni calcoli errati in [rapporti](../reports/message-monitoring.md).
+* Non aprire o fare clic sulle e-mail inviate all’indirizzo CCN in quanto vengono prese in considerazione nelle aperture totali e nei clic dall’analisi di invio, il che potrebbe causare alcuni calcoli errati in [rapporti](../reports/global-report.md).
 
 * Non contrassegnare i messaggi come spam nella casella in entrata CCN, in quanto avranno effetto su tutte le altre e-mail inviate a questo indirizzo.
 

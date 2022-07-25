@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 3%
@@ -19,11 +19,11 @@ Utilizzo [!DNL Journey Optimizer] modello del linguaggio per eseguire operazioni
 
 ➡️ [Scopri come utilizzare le funzioni helper in questo video](#video)
 
-Il linguaggio modello viene sfruttato nelle funzioni di supporto disponibili nell’elenco a discesa di personalizzazione dell’editor espressioni, come segue:
+Il linguaggio modello viene sfruttato nelle funzioni helper disponibili nell’elenco a discesa di personalizzazione dell’editor espressioni, come segue:
 
 ![](../assets/access-helper-functions.png)
 
-In [!DNL Journey Optimizer] Editor espressioni, le funzioni helper sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
+In [!DNL Journey Optimizer] Editor espressioni, funzioni helper sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
 
 Seleziona una categoria per accedere a sottocategorie e funzioni.
 
@@ -304,7 +304,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#to-date-time-only">Solo per data</a></td><td>Questa funzione converte un valore di argomento in un valore solo di data e ora. Restituisce la data epoch come output per input non valido.</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Rifila</a></td><td>Questa funzione rimuove gli spazi bianchi dall'inizio e dalla fine di una stringa</td>
+        <td><a href="string.md#trim">Trim (Taglia)</a></td><td>Questa funzione rimuove gli spazi bianchi dall'inizio e dalla fine di una stringa</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Custodia superiore</a></td><td>Questa funzione converte una stringa in lettere maiuscole</td>

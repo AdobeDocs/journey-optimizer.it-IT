@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '977'
 ht-degree: 3%
 
 ---
@@ -28,22 +28,38 @@ Verranno utilizzati i seguenti tipi di funzioni di supporto:
 ➡️ [Scopri come utilizzare le funzioni helper in questo video](#video)
 
 Prima di iniziare, assicurati di sapere come configurare questi elementi:
-* Un messaggio e-mail. [Ulteriori informazioni](../messages/get-started-content.md)
-* Il corpo di un’e-mail. [Ulteriori informazioni](../design/create-email-content.md).
+
 * Un evento unitario. [Ulteriori informazioni](../event/about-events.md).
 * Percorso che inizia con un evento. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
+* Un messaggio e-mail nel tuo percorso. [Ulteriori informazioni](../messages/get-started-content.md)
+* Il corpo di un’e-mail. [Ulteriori informazioni](../design/create-email-content.md).
 
 Segui questi passaggi:
+
+1. [Creare l’evento iniziale e il percorso](#create-context).
 1. [Creare un messaggio e-mail](#configure-email).
 1. [Inserire il nome del cliente in lettere maiuscole](#uppercase-function).
-1. [Creare l’evento iniziale e il percorso](#create-context).
 1. [Aggiungi il contenuto del carrello all’e-mail](#each-helper).
 1. [Inserire una nota specifica per il prodotto](#if-helper).
 1. [Test e pubblicazione del percorso](#test-and-publish).
 
-## Passaggio 1: Creare l’e-mail{#configure-email}
+## Passaggio 1: Creare l’evento iniziale e il percorso correlato {#create-context}
 
-1. Crea o modifica un messaggio e-mail, quindi fai clic su **[!UICONTROL Email Designer]**.
+Il contenuto del carrello è un’informazione contestuale proveniente dal percorso. Pertanto, devi aggiungere un evento iniziale e l’e-mail a un percorso prima di poter aggiungere informazioni specifiche sul carrello all’e-mail.
+
+1. Crea un evento il cui schema include `productListItems` array.
+1. Definisci tutti i campi di questa matrice come campi di payload per questo evento.
+
+   Ulteriori informazioni sul tipo di dati dell’elemento dell’elenco prodotti [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+
+1. Crea un percorso che inizia con questo evento.
+1. Aggiungi un **E-mail** attività al percorso.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Passaggio 2: Creare l’e-mail{#configure-email}
+
+1. In **E-mail** attività, fai clic su **[!UICONTROL Edit content]**, quindi fai clic su **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Dalla palette a sinistra della home page di E-mail Designer, trascina e rilascia tre componenti struttura nel corpo del messaggio.
@@ -52,7 +68,7 @@ Segui questi passaggi:
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Passaggio 2: Inserire il nome del cliente in lettere maiuscole {#uppercase-function}
+## Passaggio 3: Inserire il nome del cliente in lettere maiuscole {#uppercase-function}
 
 1. Nella home page di E-mail Designer, fare clic sul componente HTML in cui si desidera aggiungere il nome del cliente.
 1. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
@@ -93,33 +109,9 @@ Segui questi passaggi:
    ![](assets/personalization-uc-helpers-6.png)
 1. Salva il messaggio.
 
-## Passaggio 3: Creare l’evento iniziale e il percorso correlato {#create-context}
-
-Il contenuto del carrello è un’informazione contestuale proveniente dal percorso. Pertanto, devi aggiungere un evento iniziale e l’e-mail a un percorso prima di poter aggiungere informazioni specifiche sul carrello all’e-mail.
-
-1. Crea un evento il cui schema include `productListItems` array.
-1. Definisci tutti i campi di questa matrice come campi di payload per questo evento.
-
-   Ulteriori informazioni sul tipo di dati dell’elemento dell’elenco prodotti [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
-
-1. Crea un percorso che inizia con questo evento.
-1. Aggiungi il messaggio al percorso.
-
-   Poiché il messaggio non è ancora stato pubblicato, non puoi né testare né pubblicare il percorso.
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Fai clic su **[!UICONTROL OK]**.
-
-   Un messaggio ti informa che il contesto del percorso è stato trasmesso al messaggio.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Passaggio 4: Inserisci l&#39;elenco degli elementi dal carrello {#each-helper}
 
-1. Riapri il messaggio.
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. Riapri il contenuto del messaggio.
 
 1. Nella home page di E-mail Designer, fare clic sul componente HTML in cui si desidera elencare il contenuto del carrello.
 1. Sulla barra degli strumenti contestuale, fai clic su **[!UICONTROL Show the source code]**.
@@ -299,14 +291,11 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. Salva e pubblica il messaggio.
+1. Salva il messaggio.
 
 ## Passaggio 6: Test e pubblicazione del percorso {#test-and-publish}
 
-1. Apri il percorso. Se il percorso è già aperto, aggiorna la pagina.
 1. Accendere **[!UICONTROL Test]** attiva/disattiva, quindi fai clic su **[!UICONTROL Trigger an event]**.
-
-   Puoi attivare la modalità di test solo dopo aver pubblicato il messaggio.
 
    ![](assets/personalization-uc-helpers-15.png)
 

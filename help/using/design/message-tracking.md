@@ -6,20 +6,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '586'
 ht-degree: 7%
 
 ---
 
-# Aggiungere link e tenere traccia dei messaggi {#tracking}
+# Aggiungi collegamenti e traccia i messaggi {#tracking}
 
 Utilizzo [!DNL Journey Optimizer] aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
 
 ## Abilita tracciamento {#enable-tracking}
 
-Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Open Tracking for email]** e/o **[!UICONTROL Click Tracking for email]** opzioni quando [creazione del messaggio](../messages/get-started-content.md).
+Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Email opens]** e/o **[!UICONTROL Click on email]** opzioni quando [creazione del messaggio](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[
 
 In questo modo puoi tenere traccia del comportamento dei destinatari attraverso:
 
-* **[!UICONTROL Open Tracking for email]**: Messaggi aperti.
-* **[!UICONTROL Click Tracking for email]**: Fai clic sui collegamenti in un’e-mail.
+* **[!UICONTROL Email opens]**: Messaggi aperti.
+* **[!UICONTROL Click on email]**: Fai clic sui collegamenti in un’e-mail.
 
 ## Inserire collegamenti {#insert-links}
 
@@ -52,13 +52,13 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * **[!UICONTROL Landing page]**: Inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL One click Opt-out]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. [Ulteriori informazioni](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL One click Opt-out]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. Ulteriori informazioni in [questa sezione](../messages/consent.md#one-click-opt-out).
 
    * **[!UICONTROL External Opt-in/Subscription]**: Inserisci un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
 
    * **[!UICONTROL External Opt-out/Unsubscription]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](../messages/consent.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. [Ulteriori informazioni](#mirror-page).
+   * **[!UICONTROL Mirror page]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -75,7 +75,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../messages/consent.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [livello predefinito del messaggio](../configuration/message-presets.md#email-type) e quando [creazione del messaggio](../messages/get-started-content.md#create-new-message).
+>I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../messages/consent.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [superficie del canale](../configuration/message-presets.md#email-type) (ad es. predefinito messaggio) e quando [creazione del messaggio](../messages/get-started-content.md#create-new-message).
 
 ## Collegamento a una pagina speculare {#mirror-page}
 
@@ -122,6 +122,4 @@ La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
    * **[!UICONTROL Mirror page]**: Considera questo URL come un URL della pagina speculare.
    * **[!UICONTROL Never]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Il numero di messaggi aperti e il numero di collegamenti su cui è stato fatto clic sono elencati nella [Scheda Esecuzioni](../reports/message-monitoring.md).
-
-Il reporting su aperture e clic è disponibile nella [Report dal vivo e-mail](../reports/email-live-report.md) e [Report globale e-mail](../reports/email-global-report.md).
+Il reporting su aperture e clic è disponibile nella [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).

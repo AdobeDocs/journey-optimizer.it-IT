@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
 # Rapporto live dei percorsi {#journey-live-report}
 
-È possibile accedere al rapporto percorso live direttamente dal percorso con **[!UICONTROL Live report]** pulsante .
+È possibile accedere al rapporto percorso live direttamente dal percorso con **[!UICONTROL View report]** pulsante .
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 Il percorso **[!UICONTROL Live report]** La pagina verrà visualizzata con le seguenti schede:
 
@@ -44,8 +44,6 @@ La **[!UICONTROL Journey Statistics]** widget visualizza i KPI seguenti:
 
 * **[!UICONTROL Failed individual journeys]**: Numero totale di singoli percorsi che non sono stati eseguiti correttamente.
 
-![](assets/report_journey_3.png)
-
 La **[!UICONTROL Event executed over the last 24 hours]** e **[!UICONTROL Events]** I widget consentono di vedere quale degli eventi è stato eseguito correttamente tramite numero di riepilogo, grafico e tabella.
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ La **[!UICONTROL Action executed over the last 24 hours]** e **[!UICONTROL Actio
 ## Scheda E-mail {#email-live}
 
 Dal tuo percorso **[!UICONTROL Live report]**, **[!UICONTROL Email]** scheda descrive le informazioni principali relative alle consegne e-mail inviate nel percorso.
-
-Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Report live e-mail](email-live-report.md) sezione .
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ La **[!UICONTROL Offers statistic]** e **[!UICONTROL Offers statistics]** i widg
 ## Scheda push {#push-live}
 
 Dal tuo percorso **[!UICONTROL Live report]**, **[!UICONTROL Push]** la scheda descrive le informazioni principali relative alle consegne push inviate nel percorso.
-
-Per un rapporto dettagliato su una consegna push specifica, consulta la sezione [Report live push](push-live-report.md) sezione .
 
 ![](assets/report_push_1.png)
 

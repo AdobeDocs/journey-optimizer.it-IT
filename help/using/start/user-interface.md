@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 99%
+source-wordcount: '1456'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ I componenti e le funzionalità disponibili nell’interfaccia utente dipendono 
 
 ## Pannello di navigazione a sinistra {#left-nav}
 
-Utilizza i collegamenti a sinistra per sfogliare le funzionalità.
+Sfoglia i collegamenti a sinistra per accedere [!DNL Journey Optimizer] funzionalità.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Utilizza i collegamenti a sinistra per sfogliare le funzionalità.
 >
 >Le funzionalità disponibili possono variare a seconda delle autorizzazioni e del contratto di licenza.
 
-Di seguito è riportato l’elenco completo dei servizi e delle funzionalità disponibili nella barra a sinistra, con i collegamenti alla relativa documentazione.
+Di seguito è riportato l’elenco completo dei servizi e delle funzionalità disponibili nella navigazione a sinistra e dei collegamenti alle relative pagine di aiuto.
 
 **Home**
 
-La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiave per iniziare. L’elenco **[!UICONTROL Recents]** fornisce collegamenti ai messaggi, agli eventi e ai percorsi creati o aggiornati di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
+La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiave per iniziare. La **[!UICONTROL Recents]** fornisce collegamenti agli eventi e ai percorsi creati di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]**: crea, configura e gestisci i percorsi dei clienti. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]**: crea, progetta, testa e pubblica e-mail e messaggi push. [Ulteriori informazioni](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - Creazione, progettazione, test e pubblicazione di pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -127,7 +127,7 @@ Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate d
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
 | Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
-| Annullare una selezione, comprimere un pannello o chiudere una finestra di dialogo | Esc |
+| Annullare una selezione, comprimere un riquadro o chiudere una finestra di dialogo | Esc |
 
 [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
 
@@ -274,7 +274,7 @@ Per cambiare lingua:
 
 ## Cerca{#unified-search}
 
-In qualsiasi area dell’interfaccia Adobe Journey Optimizer, utilizza la funzione di ricerca di Unified Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, dataset, messaggi e altro nelle tue sandbox.
+In qualsiasi punto dell’interfaccia di Adobe Journey Optimizer, utilizza la funzionalità di ricerca Unified Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati e altro ancora nelle sandbox.
 
 Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
 
@@ -304,6 +304,6 @@ Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azion
 
 ![](assets/journey3bis.png)
 
-All’interno dei vari elenchi, puoi eseguire le azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
+Negli elenchi, puoi eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
 
 ![](assets/journey4.png)

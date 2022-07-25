@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 88%
 
 ---
 
@@ -16,6 +16,10 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Scopri di più su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target=&quot;_blank&quot;}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti alla [newsletter trimestrale di Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
+
+>[!CAUTION]
+>
+>Il 25 luglio Adobe Journey Optimizer rilascia una [nuova funzionalità](../rn/inline-messages.md) che migliora il modo in cui crei contenuti per i canali Journey Optimizer (e-mail, push, SMS). In qualità di professionista di Journey Optimizer, ora [creare e creare](../messages/get-started-content.md) i tuoi messaggi direttamente da un percorso. Viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi. Per saperne di più sul [passaggi richiesti](../rn/inline-messages-steps.md).
 
 ## Versione di giugno 2022 {#june-2022-release}
 
@@ -117,7 +121,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <tbody>
 <tr>
 <td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
 <p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
@@ -153,7 +157,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * **Modifica del pool IP**: ora quando si aggiorna un pool IP il tempo di elaborazione può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/ip-pools.md#edit-ip-pool)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
 <!--
 **Reporting**

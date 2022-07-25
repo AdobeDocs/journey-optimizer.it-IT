@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Puoi anche eliminare, duplicare e annullare la pubblicazione di una pagina di de
 
 >[!CAUTION]
 >
->Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio non pubblicato, non potrai più pubblicare il messaggio finché la pagina di destinazione non viene pubblicata nuovamente. Se il messaggio è già stato pubblicato, il collegamento alla pagina di destinazione non funzionerà e verrà visualizzata una pagina di errore.
+>Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio non pubblicato, il collegamento alla pagina di destinazione verrà interrotto e verrà visualizzata una pagina di errore.
 
 Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata.
 

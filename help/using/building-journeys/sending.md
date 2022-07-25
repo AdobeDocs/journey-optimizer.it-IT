@@ -1,10 +1,10 @@
 ---
 title: Avvia l'esecuzione del percorso
 description: Scopri come avviare il percorso e inviare messaggi
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
@@ -34,13 +34,9 @@ Una volta pubblicato, puoi monitorare il percorso utilizzando gli strumenti di r
 
 ## Inviare messaggi {#send-messages}
 
-Quando il messaggio presenta un contenuto definito e pubblicato, è pronto per essere inviato tramite un [percorso](journey.md).
+Quando il messaggio ha un contenuto definito, è pronto per essere inviato tramite un [percorso](journey.md).
 
->[!NOTE]
->
->Puoi aggiungere a un percorso un messaggio ancora in modalità bozza, ma accertati che il messaggio sia pubblicato prima di pubblicare il percorso.
-
-Una volta inviato un messaggio, puoi monitorarne l’esecuzione tramite più indicatori. [Ulteriori informazioni sul monitoraggio dell’esecuzione dei messaggi](../message-monitoring.md).
+Una volta inviato un messaggio, puoi monitorarne l’esecuzione tramite più indicatori. [Ulteriori informazioni sul reporting](../global-report.md).
 
 ## Pianificare messaggi {#schedule-messages}
 

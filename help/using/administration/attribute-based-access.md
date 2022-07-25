@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ Applicando un **[!UICONTROL Label]** al tuo **[!UICONTROL Field name]**, tieni p
 **[!UICONTROL Roles]** sono un set di utenti che condividono le stesse autorizzazioni, etichette e sandbox all’interno della tua organizzazione. Ogni utente appartenente a un **[!UICONTROL Role]** ha diritto alle app e ai servizi di Adobe contenuti nel prodotto.
 Puoi anche creare un tuo **[!UICONTROL Roles]** per ottimizzare l’accesso degli utenti a determinate funzionalità o oggetti dell’interfaccia.
 
-Ora vogliamo concedere agli utenti selezionati l’accesso al **Cittadinanza** campo, con etichetta C2. Per farlo, dobbiamo creare una nuova **[!UICONTROL Role]** con un insieme specifico di utenti e concedere loro l&#39;etichetta C2 che consente loro di utilizzare il **Cittadinanza** dettagli in **[!UICONTROL Message]** o **[!UICONTROL Journey]**.
+Ora vogliamo concedere agli utenti selezionati l’accesso al **Cittadinanza** campo, con etichetta C2. Per farlo, dobbiamo creare una nuova **[!UICONTROL Role]** con un insieme specifico di utenti e concedere loro l&#39;etichetta C2 che consente loro di utilizzare il **Cittadinanza** dettagli in **[!UICONTROL Journey]**.
 
 1. Da [!DNL Permissions] prodotto, seleziona **[!UICONTROL Role]** dal menu del riquadro a sinistra e fai clic su **[!UICONTROL Create role]**. Puoi anche aggiungere **[!UICONTROL Label]** ai ruoli incorporati.
 

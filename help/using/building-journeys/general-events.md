@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="Eventi generali"
->abstract="Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall’utente tecnico."
+>abstract="Gli eventi ti consentono di attivare i tuoi percorsi singolarmente per inviare messaggi, in tempo reale, al singolo che scorre nel percorso. Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. La configurazione dell’evento viene eseguita da un tecnico dei dati e non può essere modificata."
+
+Gli eventi ti consentono di attivare i tuoi percorsi singolarmente per inviare messaggi, in tempo reale, al singolo che scorre nel percorso.
 
 Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall’utente tecnico. Consulta [questa pagina](../event/about-events.md).
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 6%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -97,7 +97,7 @@ L&#39;attivazione di una regola avrà un impatto sui messaggi a cui si applica a
 
 >[!NOTE]
 >
->Per attivare completamente una regola possono essere necessari fino a 10 minuti. Non è necessario modificare o ripubblicare messaggi o percorsi affinché una regola abbia effetto.
+>Per attivare completamente una regola possono essere necessari fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi affinché una regola abbia effetto.
 
 Per disattivare una regola di frequenza dei messaggi, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Deactivate]**.
 
@@ -113,37 +113,26 @@ Lo stato della regola cambierà in **[!UICONTROL Inactive]** e la regola non ver
 
 Per applicare una regola di frequenza a un messaggio, segui la procedura seguente.
 
-1. Crea un messaggio. [Ulteriori informazioni](../messages/get-started-content.md#create-new-message)
+1. [Creare un messaggio](../messages/get-started-content.md#create-new-message) selezionando uno dei canali definiti per la regola.
 
 1. Seleziona la categoria definita per la [regola creata](#create-new-rule).
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >Attualmente solo il **[!UICONTROL Marketing]** categoria disponibile per le regole di frequenza dei messaggi.
 
-1. Seleziona i canali desiderati per il messaggio.
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
 
-1. Puoi fare clic sul collegamento **[!UICONTROL Frequency rule]** per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati. 
+   >[!NOTE]
+   >
+   >Messaggi in cui è selezionata la categoria **[!UICONTROL Transactional]** non verranno valutati in base alle regole di frequenza.
 
-   ![](assets/message-rules-msg-link.png)
-
-   Viene aperta una nuova scheda per visualizzare le regole di frequenza dei messaggi corrispondenti.
-
-1. [Progettazione](../design/design-emails.md) e [pubblicare](../messages/publish-manage-message.md) il tuo messaggio.
-
-Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
-
->[!NOTE]
->
->Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transactional]** non verranno valutati in base alle regole di frequenza.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-Puoi visualizzare il numero di profili esclusi dalla consegna nel [Visualizzazioni live e globali](../reports/message-monitoring.md)e nella [rapporto e-mail Live](../reports/email-live-report.md), dove le regole di frequenza saranno elencate come possibile motivo per cui gli utenti sono esclusi dalla consegna.
+1. Puoi visualizzare il numero di profili esclusi dalla consegna nel [Report globale](../reports/global-report.md)e nella [Report live](../reports/live-report.md), dove le regole di frequenza saranno elencate come possibile motivo per cui gli utenti sono esclusi dalla consegna.
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’e
 
 1. [Creare una regola](#create-new-rule) chiamato *Limitazione totale di marketing*:
 
-   * Seleziona tutti i canali (e-mail, push).
+   * Seleziona Canali e-mail e push.
    * Impostare il limite a 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’e
 
 1. Salva e [attivare](#activate-rule) la regola.
 
-1. Crea un messaggio. [Ulteriori informazioni](../messages/get-started-content.md#create-new-message)
+1. Crea un messaggio e-mail e seleziona la **[!UICONTROL Marketing]** categoria del messaggio. [Ulteriori informazioni](../messages/get-started-content.md#create-new-message)
 
-1. Seleziona la **[!UICONTROL Marketing]** categoria.
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. Seleziona la **[!UICONTROL Email]** e **[!UICONTROL Push Notification]** canali.
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. Puoi fare clic sul collegamento **[!UICONTROL Frequency rule]** per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati. 
-
-1. [Progettazione](../design/design-emails.md) e [pubblicare](../messages/publish-manage-message.md) il tuo messaggio.
+1. Crea una notifica push e seleziona la **[!UICONTROL Marketing]** categoria del messaggio. [Ulteriori informazioni](../messages/get-started-content.md#create-new-message)
 
 In questo scenario, un singolo profilo:
 * può ricevere fino a 12 messaggi di marketing al mese;
@@ -189,7 +168,7 @@ In questo scenario, un singolo profilo:
 
 >[!NOTE]
 >
->Quando si sottopongono a test le regole di frequenza, può essere utile iniziare con un nuovo [profilo di prova](../segment/creating-test-profiles.md), poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consentirà ai profili con limite massimo di ricevere i messaggi, ma non rimuoverà né eliminerà eventuali incrementi di contatore.
+>Quando si sottopongono a test le regole di frequenza, si consiglia di utilizzare una nuova [profilo di prova](../segment/creating-test-profiles.md), poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consentirà ai profili con limite massimo di ricevere i messaggi, ma non rimuoverà né eliminerà eventuali incrementi di contatore.
 
 ## Video introduttivo {#video}
 

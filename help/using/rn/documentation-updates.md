@@ -2,7 +2,7 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1651'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La pagina sull’elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
 * La pagina Elenco di eliminazione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo dell’eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 * È stato aggiunto il collegamento ai guardrail e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
-* L’ottimizzazione dell’ora di invio è ora disponibile per tutti i clienti. Il riferimento a “beta” è stato rimosso. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
+* L’ottimizzazione dell’ora di invio è ora disponibile per tutti i clienti. Il riferimento a “beta” è stato rimosso. [Ulteriori informazioni](../messages/send-time-optimization.md)
 * L’API Batch Decisioning è stata aggiunta all’elenco delle API disponibili per la distribuzione di offerte personalizzate. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maggio 2022 {#may-2022}
@@ -139,7 +139,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata la procedura di configurazione per le azioni personalizzate con percorsi URL dinamici e intestazioni dinamiche. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 * È stata aggiunta una sezione sulle funzioni e sui collegamenti di accesso facilitato. [Ulteriori informazioni](../start/user-interface.md#accessibility)
 * È stata aggiunta una sezione sui metodi di valutazione dei segmenti. [Ulteriori informazioni](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
-* Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/email-global-report.md)
+* Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/global-report.md)
 * È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#reporting)
 * È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/message-presets.md#monitor-message-presets)

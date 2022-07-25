@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ La **periodo di tempo di nuovo** è l’intervallo di tempo entro il quale verr�
 
 Per impostazione predefinita, vengono eseguiti nuovi tentativi per **3,5 giorni** o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
 
-Tuttavia, per evitare che i tentativi non vengano più eseguiti quando non sono più necessari, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di un [predefinito messaggio](message-presets.md) applicazione al canale e-mail.
+Tuttavia, per evitare che i tentativi non vengano più eseguiti quando non sono più necessari, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di un [superficie del canale](message-presets.md) (ad es. predefinito messaggio) applicabile al canale e-mail.
 
 Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un’e-mail transazionale relativa alla reimpostazione della password e contenente un collegamento valido solo per un giorno. Allo stesso modo, per una vendita a mezzanotte, è possibile definire un periodo di esecuzione di un nuovo tentativo di 6 ore.
 
@@ -61,5 +61,5 @@ Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 or
 >
 >Il periodo di esecuzione dei nuovi tentativi non può superare le 84 ore. Il periodo minimo di esecuzione dei nuovi tentativi è di 6 ore per le e-mail di marketing e 10 minuti per le e-mail transazionali.
 
-Scopri come regolare i parametri di esecuzione di un nuovo tentativo e-mail durante la creazione di un predefinito per messaggi in [questa sezione](message-presets.md#create-message-preset).
+Scopri come regolare i parametri di esecuzione di un nuovo tentativo e-mail durante la creazione di una superficie del canale in [questa sezione](message-presets.md#create-message-preset).
 

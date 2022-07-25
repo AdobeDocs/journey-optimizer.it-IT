@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Inoltre, sfrutta i **Litmo** tenere conto [!DNL Journey Optimizer] per visualizz
 >
 >Quando visualizzi in anteprima un messaggio o invii bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata sui dati contestuali, ad esempio le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d&#39;uso](../personalization/personalization-use-case.md).
 
-➡️ [Scopri come visualizzare in anteprima, verificare e pubblicare il tuo messaggio e-mail in questo video](#video-preview)
+➡️ [Scopri come visualizzare in anteprima e verificare il tuo messaggio e-mail in questo video](#video-preview)
 
 ## Selezionare i profili di test{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Utilizzo [Profili di test](../segment/creating-test-profiles.md) per eseguire il
 
 Per selezionare i profili di test, segui i passaggi seguenti:
 
-1. Nell’interfaccia dei messaggi o nella finestra di progettazione e-mail, fai clic sul pulsante **[!UICONTROL Show preview]** per accedere alla selezione del profilo di test.
+1. Nell’interfaccia dei messaggi o nella finestra di progettazione e-mail, fai clic sul pulsante **[!UICONTROL Simulate Content]** per accedere alla selezione del profilo di test.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ Per selezionare i profili di test, segui i passaggi seguenti:
 
    ![](assets/preview-email-namespace.png)
 
-1. Immetti il valore per identificare il profilo di test e fai clic su **[!UICONTROL Find test profile]**.
+1. Immetti il valore per identificare il profilo di test e fai clic su **[!UICONTROL Add profile]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ Per selezionare i profili di test, segui i passaggi seguenti:
 
 Una volta [profili di test](#select-test-profiles) sono selezionati, è possibile visualizzare in anteprima i messaggi e controllare il contenuto.
 
-1. Fai clic sul pulsante **[!UICONTROL Preview]** per testare il messaggio.
+### Anteprima e-mail{#preview-email}
+
+Per visualizzare l’anteprima di un contenuto e-mail, segui i passaggi seguenti:
+
+1. Fai clic sul pulsante **[!UICONTROL Simulate content]** al di sopra del contenuto dell’e-mail.
 
 1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
 
@@ -103,11 +107,15 @@ Una volta [profili di test](#select-test-profiles) sono selezionati, è possibil
 
 1. Seleziona altri profili di test per visualizzare in anteprima il rendering delle e-mail per ogni variante del messaggio.
 
-Per un&#39;anteprima di notifica push:
+### Anteprima push{#preview-push}
 
-1. Passa alla **[!UICONTROL Push]** dal canale **[!UICONTROL Channels]** elenco a discesa in alto a destra **[!UICONTROL Preview]** schermo.
+Per visualizzare in anteprima un contenuto di notifiche push, segui i passaggi seguenti:
 
-   ![](assets/preview-select-channel.png)
+1. Fai clic sul pulsante **[!UICONTROL Simulate content]** al di sopra del contenuto push.
+
+1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
+
+1. Passa alla **[!UICONTROL Push]** messaggio.
 
 1. Applica gli stessi passaggi descritti in precedenza per selezionare un profilo di test e seleziona il tipo di dispositivo per visualizzare in anteprima il contenuto: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
 
@@ -188,6 +196,6 @@ Quindi, segui i passaggi seguenti:
 
 ## Video introduttivo{#video-preview}
 
-Scopri come verificare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test, inviare bozze e pubblicare le e-mail.
+Scopri come verificare il rendering delle e-mail tra le caselle in entrata, come visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

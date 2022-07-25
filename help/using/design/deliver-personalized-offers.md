@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '570'
 ht-degree: 3%
 
 ---
 
 # Aggiungi offerte personalizzate {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] e-mail, puoi inserire decisioni che sfruttano il modulo di gestione per le decisioni sull’offerta al fine di scegliere l’offerta migliore da consegnare ai tuoi clienti.
+In [!DNL Journey Optimizer] e-mail, puoi inserire decisioni che sfruttano il motore decisionale dell’offerta per scegliere l’offerta migliore da consegnare ai tuoi clienti.
 
 Ad esempio, puoi aggiungere una decisione che visualizzerà nell’e-mail un’offerta di sconto speciale che varia a seconda del livello di fedeltà del destinatario.
 
@@ -59,11 +59,11 @@ Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 
 L’attività di offerta viene ora aggiunta al componente .
 
-Dopo aver salvato le modifiche e dopo la pubblicazione del messaggio, le offerte sono pronte per essere visualizzate nei profili pertinenti al momento dell’invio del messaggio come parte di un percorso.
+Dopo aver salvato le modifiche, le offerte sono pronte per essere visualizzate nei profili rilevanti al momento dell’invio del messaggio come parte di un percorso.
 
 >[!NOTE]
 >
->Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente in un messaggio pubblicato, gli aggiornamenti vengono automaticamente rispecchiati nel messaggio corrispondente, senza dover ripubblicarlo.
+>Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente nel messaggio, gli aggiornamenti vengono automaticamente rispecchiati nel messaggio corrispondente.
 
 ## Anteprima delle offerte in un messaggio e-mail {#preview-offers-in-email}
 

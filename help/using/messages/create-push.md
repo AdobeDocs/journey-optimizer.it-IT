@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 11%
+source-wordcount: '1543'
+ht-degree: 10%
 
 ---
 
@@ -25,11 +25,16 @@ Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in quals
 
 [!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti a velocità di throughput leader di settore. Le notifiche push possono includere la personalizzazione e il contesto basato su Percorsi per sfruttare le informazioni sui dati del tuo marchio con Adobe Experience Cloud.
 
-Una volta [creato un messaggio](get-started-content.md), fai clic su **[!UICONTROL Push Notification]** per definire le impostazioni e il contenuto della notifica push.
+Una volta [aggiunto un push](get-started-content.md) attività al percorso e impostazioni di base definite, utilizza le **[!UICONTROL Actions: Push]** riquadro a destra per creare il contenuto per la notifica push.
+
+![](assets/add-a-push.png)
+
+
+Utilizza le schede dedicate per definire le impostazioni di notifica push per **iOS** e **Android** sistemi operativi.
 
 ![](assets/create-content-push.png)
 
-Utilizza le schede dedicate per definire le impostazioni di notifica push per **iOS** e **Android** sistemi operativi.
+Se è la prima volta che crei una notifica push, assicurati che il canale push sia stato configurato. [Ulteriori informazioni](../configuration/push-gs.md).
 
 >[!NOTE]
 >
@@ -52,7 +57,7 @@ Puoi selezionare il comportamento quando un utente fa clic sul corpo della notif
 
 ![](assets/title-body-push.png)
 
-* Per aprire l’app, seleziona la **[!UICONTROL Open app]** opzione . L’app associata alla notifica è definita nel messaggio **[!UICONTROL Preset]**. [Ulteriori informazioni](../configuration/message-presets.md) informazioni sui predefiniti per messaggi.
+* Per aprire l’app, seleziona la **[!UICONTROL Open app]** opzione . L’app associata alla notifica è definita nella [superficie del canale](../configuration/message-presets.md) (ovvero predefinito per i messaggi).
 * Per reindirizzare l’utente a uno specifico contenuto di un’app, seleziona la **[!UICONTROL Deeplink]** opzione .  Il contenuto specifico può essere una visualizzazione specifica, una particolare sezione di una pagina o una determinata scheda. Una volta selezionata l’opzione , immetti il collegamento diretto nel campo associato.
 * Per reindirizzare l’utente a un URL esterno, utilizza il **[!UICONTROL Web URL]** opzione . Una volta selezionata l’opzione , immetti l’URL nel campo associato.
 
@@ -125,6 +130,17 @@ Puoi configurare **[!UICONTROL Advanced options]** per la notifica push. I param
 | **[!UICONTROL Notification visibility]** (Solo Android) | Definisce la visibilità della notifica push. <br/><b>Privato</b> mostrerà la notifica su tutti gli schermi, ma nasconderà informazioni sensibili o private su serrature sicure. <br/><b>Pubblico</b> mostrerà la notifica nella sua interezza su tutti gli schermi di blocco. <br/><b>Segreto</b> non rivelerà alcuna parte della notifica su un blocco di sicurezza. <br/>Per ulteriori informazioni, consulta la [Documentazione per gli sviluppatori Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (Solo Android) | Definisce l’importanza della notifica push da Bassa a Max. Questo determina quanto sarà &quot;intrusiva&quot; la notifica push quando viene consegnata. Per ulteriori informazioni, consulta la sezione [Documentazione per gli sviluppatori Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (Solo Android) | Imposta una priorità alta o normale per le notifiche push. Per ulteriori informazioni sulla priorità dei messaggi, consulta la [documentazione per gli sviluppatori di Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
+
+
+## Convalida la notifica push{#push-preview}
+
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
+
+Per visualizzare la visualizzazione della notifica push sui dispositivi mobili, fai clic sul pulsante **[!UICONTROL Simulate content]** scheda . Ulteriori informazioni sulla simulazione dei contenuti in [questa sezione](../design/preview.md).
+
+È inoltre necessario controllare gli avvisi nella sezione superiore dell’editor.  Alcuni sono semplici avvisi, altri possono impedire l’utilizzo del messaggio. Ulteriori informazioni in [questa sezione](alerts.md).
+
+![](assets/push-alert-button.png)
 
 **Argomenti correlati**
 

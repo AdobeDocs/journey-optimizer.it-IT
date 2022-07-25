@@ -6,9 +6,9 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '722'
 ht-degree: 14%
 
 ---
@@ -57,15 +57,15 @@ L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all�
 
 Per ulteriori informazioni sulla gestione degli utenti, consulta [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-Quando si accede all’istanza, l’utente visualizza una visualizzazione specifica a seconda delle autorizzazioni assegnate nel **[!UICONTROL Product profile]**. Se l’utente non ha il diritto di accesso a una funzione, verrà visualizzata la seguente schermata.
+Quando si accede all’istanza, l’utente visualizza una visualizzazione specifica a seconda delle autorizzazioni assegnate nel **[!UICONTROL Product profile]**. Se l’utente non ha il diritto di accesso a una funzione, verrà visualizzato il seguente messaggio:
 
-![](assets/do-not-localize/access_control_1.png)
+`You don't have permission to access this feature. Permission needed: XX.`
 
 ## Modifica di un profilo di prodotto esistente {#edit-product-profile}
 
 Per predefiniti o personalizzati **[!UICONTROL Product profiles]**, puoi decidere in qualsiasi momento di aggiungere o eliminare autorizzazioni.
 
-In questo esempio, vogliamo aggiungere **[!UICONTROL Permissions]** relativa al **[!UICONTROL Message]** funzionalità per gli utenti assegnati al visualizzatore di Percorsi **[!UICONTROL Product profile]**. Gli utenti potranno quindi pubblicare i messaggi.
+In questo esempio, vogliamo aggiungere **[!UICONTROL Permissions]** relativa al **[!UICONTROL Journeys]** funzionalità per gli utenti assegnati al visualizzatore di Percorsi **[!UICONTROL Product profile]**. Gli utenti potranno quindi pubblicare percorsi.
 
 Tieni presente che se modifichi un predefinito o personalizzato **[!UICONTROL Product profile]**, interesserà ogni utente assegnato a questo **[!UICONTROL Product profile]**.
 
@@ -79,21 +79,17 @@ Tieni presente che se modifichi un predefinito o personalizzato **[!UICONTROL Pr
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. Seleziona la **[!UICONTROL Messages]** funzionalità.
+1. Seleziona la **[!UICONTROL Journeys]** funzionalità.
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. Da **[!UICONTROL Available Permission Items]** selezionare le autorizzazioni da assegnare al **[!UICONTROL Product profile]** facendo clic sull’icona più (+).
 
-   Qui, aggiungiamo la **[!UICONTROL Publish messages]** autorizzazione.
-
-   ![](assets/do-not-localize/access_control_7.png)
+   Qui, aggiungiamo la **[!UICONTROL Publish Journeys]** autorizzazione.
 
 1. Se necessario, in **[!UICONTROL Included Permission Items]**, fai clic sull’icona X adiacente alla rimozione delle autorizzazioni dal tuo profilo di prodotto.
 
 1. Al termine, fai clic su **[!UICONTROL Save]**.
-
-   ![](assets/do-not-localize/access_control_8.png)
 
 Se necessario, puoi anche creare un nuovo profilo di prodotto con autorizzazioni specifiche. Per ulteriori informazioni, consulta [Creazione di un profilo di prodotto](#create-product-profile).
 
@@ -103,7 +99,7 @@ Se necessario, puoi anche creare un nuovo profilo di prodotto con autorizzazioni
 
 Per ulteriori informazioni su come creare e gestire le sandbox, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
 
-In questo esempio, creeremo un profilo di prodotto denominato **Percorsi in sola lettura** in cui concederemo diritti di sola lettura alla funzione Percorso. Gli utenti potranno accedere e visualizzare solo i percorsi e non potranno accedere ad altre funzioni quali **[!DNL  Decision management]** o **[!DNL Messages]** in [!DNL Journey Optimizer].
+In questo esempio, creeremo un profilo di prodotto denominato **Percorsi in sola lettura** in cui concederemo diritti di sola lettura alla funzione Percorso. Gli utenti potranno accedere e visualizzare solo i percorsi e non potranno accedere ad altre funzioni quali **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
 Per creare la nostra **Percorsi in sola lettura** **[!UICONTROL product profiles]**:
 
@@ -125,7 +121,7 @@ Per creare la nostra **Percorsi in sola lettura** **[!UICONTROL product profiles
 
 1. Per aggiungere le autorizzazioni per gli utenti per accedere a funzioni diverse, seleziona la **[!UICONTROL Permissions]** scheda .
 
-1. Selezionare tra le diverse funzionalità, ad esempio **[!DNL Messages]**, **[!DNL Segments]** o **[!DNL Decision management]** disponibile in [!DNL Journey Optimizer] elencati nel menu a sinistra.
+1. Selezionare tra le diverse funzionalità, ad esempio **[!DNL Journeys]**, **[!DNL Segments]** o **[!DNL Decision management]** disponibile in [!DNL Journey Optimizer] elencati nel menu a sinistra.
 
    Qui selezioniamo il **[!UICONTROL Journeys]** funzionalità.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,11 @@ ht-degree: 0%
 Utilizza la **[!UICONTROL Live report]** per misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi e dei messaggi in un dashboard integrato.
 I dati sono disponibili nella **[!UICONTROL Live report]** non appena la consegna viene inviata o il percorso viene eseguito.
 
-* Se desideri eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal **[!UICONTROL Journeys]** accedere al percorso e fare clic su **[!UICONTROL Live report]** icona. Puoi quindi trovare i rapporti dal vivo Percorso, E-mail e push.
+* Se desideri eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal **[!UICONTROL Journeys]** accedere al percorso e fare clic su **[!UICONTROL View report]** pulsante . Puoi quindi trovare i rapporti dal vivo Percorso, E-mail, SMS e push.
 
    ![](assets/report_journey.png)
 
-* Se desideri eseguire il targeting di una consegna specifica, dalla **[!UICONTROL Live view]** del **[!UICONTROL Executions]** scheda dei messaggi, seleziona **[!UICONTROL Live Report]** dal menu avanzato della consegna selezionata.
-
-   ![](assets/report_2.png)
-
-* Se desideri passare dalla **[!UICONTROL Live report]** al **[!UICONTROL Global report]** per la consegna, fai clic su **[!UICONTROL Global view]** dal commutatore di tabulazione.
+* Se desideri passare dalla **[!UICONTROL Live report]** al **[!UICONTROL Live report]** per la consegna, fai clic su **[!UICONTROL Live view]** dal commutatore di tabulazione.
 
    ![](assets/report_3.png)
 

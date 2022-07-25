@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 6%
+source-wordcount: '1096'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 >title="Attività Leggi segmento"
 >abstract="L’attività Leggi segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare."
 
-L’attività Leggi segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare.
+Utilizza la **Leggi segmento** per fare entrare nel percorso tutti gli individui di un segmento. L’entrata in un percorso può essere eseguita una volta o su base regolare.
 
 Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot; creato in [Creare segmenti](../segment/about-segments.md) caso d’uso. Con l’attività Read Segment (Leggi segmento), puoi fare in modo che tutti gli individui appartenenti a questo segmento entrino in un percorso e li facciano fluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, orari, eventi, azioni.
 
@@ -105,7 +105,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->I percorsi di segmenti di sola lettura passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i segmenti di lettura pianificati, trascorrono 30 giorni dall’esecuzione dell’ultima occorrenza.
+>I percorsi di segmenti di sola lettura passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i segmenti con Leggi segmento pianificati, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
 
 ### Test e pubblicazione del percorso {#testing-publishing}
 

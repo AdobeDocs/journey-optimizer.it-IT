@@ -1,47 +1,47 @@
 ---
-title: Impostare i predefiniti per i messaggi
-description: Scopri come configurare e monitorare i predefiniti per messaggi
+title: Impostare le superfici del canale
+description: Scopri come configurare e monitorare le superfici dei canali
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1462'
 ht-degree: 1%
 
 ---
 
-# Impostare i predefiniti per i messaggi {#message-presets-creation}
+# Impostare le superfici del canale {#message-presets-creation}
 
-Con [!DNL Journey Optimizer], puoi impostare i predefiniti per i messaggi che definiscono tutti i parametri tecnici necessari per i messaggi e-mail e di notifica push: tipo di e-mail, indirizzo e-mail e nome del mittente, app mobile e altro ancora.
+Con [!DNL Journey Optimizer], puoi impostare le superfici del canale (ad esempio i predefiniti per messaggi) che definiscono tutti i parametri tecnici necessari per i messaggi: tipo di e-mail, indirizzo e-mail e nome del mittente, app mobile e altro ancora.
 
 >[!CAUTION]
 >
-> * Per creare, modificare ed eliminare i predefiniti per i messaggi, è necessario disporre dei [Gestire i predefiniti per i messaggi](../administration/high-low-permissions.md#manage-message-presets).
+> * Per creare, modificare ed eliminare le superfici dei canali, è necessario disporre della [Gestisci superficie canale](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * Devi eseguire [Configurazione e-mail](#configure-email-settings) e [Configurazione push](../configuration/push-configuration.md) prima di creare i predefiniti per messaggi.
+> * È necessario eseguire le [Configurazione e-mail](#configure-email-settings), [Configurazione push](../configuration/push-configuration.md) e [Configurazione SMS](../configuration/sms-configuration.md) prima di creare superfici del canale.
 
 
-Una volta configurati i predefiniti per i messaggi, potrai selezionarli al momento della creazione dei messaggi dal **[!UICONTROL Presets]** elenco.
+Una volta configurate le superfici del canale, potrai selezionarle quando crei messaggi da un percorso.
 
-➡️ [Scopri come creare e utilizzare i predefiniti e-mail in questo video](#video-presets)
+➡️ [Scopri come creare e utilizzare le superfici delle e-mail in questo video](#video-presets)
 
-## Creare un predefinito per messaggi {#create-message-preset}
+## Creare una superficie del canale {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Dettagli e impostazioni del predefinito del messaggio"
->abstract="Impostando un predefinito per messaggi puoi selezionare il canale a cui si applica e definire tutti i parametri tecnici necessari per i messaggi, ad esempio il tipo di e-mail, il sottodominio da utilizzare, il nome del mittente, le app mobile e così via."
+>title="Dettagli e impostazioni della superficie del canale"
+>abstract="Impostando una superficie del canale, puoi selezionare il canale a cui si applica e definire tutti i parametri tecnici necessari per le consegne, come il tipo di e-mail, il sottodominio da utilizzare, il nome del mittente, le app mobili, ecc."
 
-Per creare un predefinito per messaggi, effettua le seguenti operazioni:
+Per creare una superficie del canale, effettuate le seguenti operazioni:
 
-1. Accedere al **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** menu, quindi fai clic su **[!UICONTROL Create Message preset]**.
+1. Accedere al **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, quindi fai clic su **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. Immetti un nome e una descrizione (facoltativi) per il predefinito, quindi seleziona i canali da configurare.
+1. Immetti un nome e una descrizione (facoltativi) per la superficie, quindi seleziona i canali da configurare.
 
    ![](assets/preset-general.png)
 
@@ -69,17 +69,17 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    >
    >Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](sms-configuration.md).
 
-1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. Puoi anche salvare il predefinito del messaggio come bozza e ripristinarne la configurazione in un secondo momento.
+1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Submit]** per confermare. È inoltre possibile salvare la superficie del canale come bozza e riprendere la configurazione in un secondo momento.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Impossibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
+   >Impossibile procedere con la creazione della superficie mentre il pool IP selezionato è in uso [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
    >
-   >Salva il predefinito come bozza e attendi che il pool IP disponga del **[!UICONTROL Success]** stato per riprendere la creazione dei predefiniti.
+   >Salva la superficie come sformo e attendi che il pool IP disponga della **[!UICONTROL Success]** stato per riprendere la creazione della superficie.
 
-1. Una volta creato il predefinito del messaggio, questo viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato.
+1. Una volta creata la superficie del canale, questa viene visualizzata nell’elenco con la **[!UICONTROL Processing]** stato.
 
    Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**.
 
@@ -97,25 +97,25 @@ Per creare un predefinito per messaggi, effettua le seguenti operazioni:
    >
    >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-message-presets).
 
-1. Una volta eseguiti i controlli, il predefinito del messaggio ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
+1. Una volta eseguiti i controlli, la superficie del canale ottiene il **[!UICONTROL Active]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    ![](assets/preset-active.png)
 
-## Monitorare i predefiniti per messaggi {#monitor-message-presets}
+## Superfici dei canali di monitoraggio {#monitor-message-presets}
 
-Tutti i predefiniti per messaggi vengono visualizzati nella **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** menu. Sono disponibili filtri per aiutarti a sfogliare l’elenco (tipo di canale, utente, stato).
+Tutte le superfici del canale vengono visualizzate nel **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Sono disponibili filtri per aiutarti a sfogliare l’elenco (canale, utente, stato).
 
 ![](assets/preset-filters.png)
 
-Una volta creati, i predefiniti per messaggi possono avere i seguenti stati:
+Una volta create, le superfici del canale possono avere i seguenti stati:
 
-* **[!UICONTROL Draft]**: Il predefinito del messaggio è stato salvato come bozza e non è ancora stato inviato. Apri per riprendere la configurazione.
-* **[!UICONTROL Processing]**: Il predefinito del messaggio è stato inviato e sta attraversando diverse fasi di verifica.
-* **[!UICONTROL Active]**: Il predefinito del messaggio è stato verificato e può essere selezionato per creare i messaggi.
-* **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica del predefinito del messaggio.
-* **[!UICONTROL Deactivated]**: Il predefinito del messaggio è disattivato. Non può essere utilizzato per creare nuovi messaggi.
+* **[!UICONTROL Draft]**: La superficie del canale è stata salvata come bozza e non è ancora stata inviata. Apri per riprendere la configurazione.
+* **[!UICONTROL Processing]**: La superficie del canale è stata inviata e sta attraversando diverse fasi di verifica.
+* **[!UICONTROL Active]**: La superficie del canale è stata verificata e può essere selezionata per creare messaggi.
+* **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica della superficie del canale.
+* **[!UICONTROL Deactivated]**: La superficie del canale è disattivata. Non può essere utilizzato per creare nuovi messaggi.
 
-Se la creazione di un predefinito di messaggio non riesce, di seguito sono descritti i dettagli di ciascun possibile motivo di errore.
+In caso di errore nella creazione di una superficie del canale, di seguito sono descritti i dettagli relativi a ogni possibile motivo di errore.
 
 Se si verifica uno di questi errori, contatta [Adobe Customer Care](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} per ottenere assistenza.
 
@@ -128,18 +128,18 @@ Se si verifica uno di questi errori, contatta [Adobe Customer Care](https://help
 * **Configurazioni del recapito messaggi non riuscite**: Un errore di configurazione del recapito messaggi può verificarsi a causa di uno dei motivi seguenti:
    * Inserire nell&#39;elenco Bloccati degli IP allocati
    * Non valido `helo` name
-   * E-mail inviate da IP diversi da quelli specificati nel pool IP del predefinito corrispondente
+   * E-mail inviate da IP diversi da quelli specificati nel pool IP della superficie corrispondente
    * Impossibile inviare e-mail alle caselle in entrata dei principali ISP come Gmail e Yahoo
 
-## Modificare un predefinito di messaggio {#edit-message-preset}
+## Modificare una superficie del canale {#edit-message-preset}
 
-Per modificare un predefinito per messaggi, segui i passaggi riportati di seguito.
+Per modificare una superficie di un canale, segui i passaggi riportati di seguito.
 
 >[!NOTE]
 >
->Non è possibile modificare il **[!UICONTROL Push notification settings]**. Se un predefinito per messaggi è configurato solo per il canale di notifica push, non è modificabile.
+>Non è possibile modificare il **[!UICONTROL Push notification settings]**. Se una superficie del canale è configurata solo per il canale di notifica push, non è modificabile.
 
-1. Nell’elenco, fai clic sul nome di un predefinito per messaggi per aprirlo.
+1. Dall’elenco, fare clic sul nome di una superficie del canale per aprirla.
 
    ![](assets/preset-name.png)
 
@@ -147,7 +147,7 @@ Per modificare un predefinito per messaggi, segui i passaggi riportati di seguit
 
    >[!NOTE]
    >
-   >Se un predefinito di messaggio ha **[!UICONTROL Active]** lo stato **[!UICONTROL Name]**, **[!UICONTROL Select channel]** e **[!UICONTROL Subdomain]** i campi sono disattivati e non possono essere modificati.
+   >Se una superficie del canale ha **[!UICONTROL Active]** lo stato **[!UICONTROL Name]**, **[!UICONTROL Select channel]** e **[!UICONTROL Subdomain]** i campi sono disattivati e non possono essere modificati.
 
 1. Fai clic su **[!UICONTROL Submit]** per confermare le modifiche.
 
@@ -155,9 +155,9 @@ Per modificare un predefinito per messaggi, segui i passaggi riportati di seguit
 
    >[!NOTE]
    >
-   >Puoi anche salvare il predefinito del messaggio come bozza e riprendere l’aggiornamento in un secondo momento.
+   >È inoltre possibile salvare la superficie del canale come bozza e riprendere l&#39;aggiornamento in un secondo momento.
 
-Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo di convalida simile a quello in atto quando [creazione di un predefinito](#create-message-preset). Il tempo di elaborazione dell&#39;edizione può richiedere fino a **3 ore**.
+Una volta inviate le modifiche, la superficie del canale attraverserà un ciclo di convalida simile a quello esistente quando [creazione di una superficie del canale](#create-message-preset). Il tempo di elaborazione dell&#39;edizione può richiedere fino a **3 ore**.
 
 >[!NOTE]
 >
@@ -165,15 +165,13 @@ Una volta inviate le modifiche, il predefinito del messaggio eseguirà un ciclo 
 
 ### Dettagli di aggiornamento {#update-details}
 
-Per i predefiniti per messaggi con **[!UICONTROL Active]** puoi controllare i dettagli dell’aggiornamento. Per eseguire questa operazione:
+Per le superfici del canale che hanno **[!UICONTROL Active]** puoi controllare i dettagli dell’aggiornamento. Per eseguire questa operazione:
 
-* Fai clic sul pulsante **[!UICONTROL Recent update]** accanto al nome del predefinito attivo.
+Fai clic sul pulsante **[!UICONTROL Recent update]** icona visualizzata accanto al nome della superficie attiva.
 
-   ![](assets/preset-recent-update-icon.png)
+![](assets/preset-recent-update-icon.png)
 
-* Durante l’aggiornamento è inoltre possibile accedere ai dettagli dell’aggiornamento da un predefinito di messaggio attivo.
-
-   ![](assets/preset-view-update-details.png)
+<!--You can also access the update details from an active channel surface while update is in progress.-->
 
 Sulla **[!UICONTROL Recent update]** è possibile visualizzare informazioni quali lo stato dell’aggiornamento e l’elenco delle modifiche richieste.
 
@@ -181,17 +179,17 @@ Sulla **[!UICONTROL Recent update]** è possibile visualizzare informazioni qual
 
 ### Aggiorna stati {#update-statuses}
 
-Un aggiornamento predefinito per messaggi può presentare i seguenti stati:
+Un aggiornamento della superficie del canale può presentare i seguenti stati:
 
-* **[!UICONTROL Processing]**: L&#39;aggiornamento del predefinito del messaggio è stato inviato ed è in corso una serie di verifiche.
-* **[!UICONTROL Success]**: Il predefinito del messaggio aggiornato è stato verificato e può essere selezionato per creare i messaggi.
-* **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del predefinito del messaggio.
+* **[!UICONTROL Processing]**: L&#39;aggiornamento della superficie del canale è stato inviato e sta attraversando diverse fasi di verifica.
+* **[!UICONTROL Success]**: La superficie del canale aggiornata è stata verificata e può essere selezionata per creare messaggi.
+* **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento della superficie del canale.
 
 Ogni stato è descritto di seguito.
 
 #### Elaborazione
 
-Verranno eseguiti diversi controlli di recapito per verificare che il predefinito sia stato aggiornato correttamente.
+Verranno eseguiti diversi controlli di recapito per verificare che la superficie sia stata aggiornata correttamente.
 
 >[!NOTE]
 >
@@ -199,43 +197,43 @@ Verranno eseguiti diversi controlli di recapito per verificare che il predefinit
 
 Il tempo di elaborazione può richiedere fino a **3 ore**. Ulteriori informazioni sui controlli eseguiti durante il ciclo di convalida in [questa sezione](#create-message-preset).
 
-Se modifichi un predefinito già attivo:
+Se modificate una superficie già attiva:
 
 * Il suo status rimane invariato **[!UICONTROL Active]** mentre il processo di convalida è in corso.
 
-* La **[!UICONTROL Recent update]** accanto al nome del predefinito viene visualizzata nell’elenco dei predefiniti per messaggi .
+* La **[!UICONTROL Recent update]** accanto al nome della superficie nell&#39;elenco delle superfici del canale viene visualizzata l&#39;icona.
 
-* Durante il processo di convalida, i messaggi configurati utilizzando questo predefinito utilizzano ancora la versione precedente del predefinito.
+* Durante il processo di convalida, i messaggi configurati utilizzando questa superficie utilizzano ancora la versione precedente della superficie.
 
 >[!NOTE]
 >
->Non puoi modificare un predefinito di messaggio mentre è in corso l’aggiornamento. È comunque possibile fare clic sul suo nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
+>Non è possibile modificare una superficie del canale mentre è in corso l&#39;aggiornamento. È comunque possibile fare clic sul suo nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
 
 #### Operazione riuscita {#success}
 
-Quando il processo di convalida ha esito positivo, la nuova versione del predefinito viene utilizzata automaticamente in tutti i messaggi che utilizzano questo predefinito. Tuttavia, potrebbe essere necessario attendere:
+Una volta che il processo di convalida ha esito positivo, la nuova versione della superficie viene utilizzata automaticamente in tutti i messaggi che utilizzano questa superficie. Tuttavia, potrebbe essere necessario attendere:
 * alcuni minuti prima che sia consumata dai messaggi unitari,
-* fino al batch successivo per l&#39;efficacia della preimpostazione nei messaggi batch.
+* fino al batch successivo affinché la superficie sia efficace nei messaggi batch.
 
 #### Non riuscito {#failed}
 
-Se il processo di convalida non riesce, verrà comunque utilizzata la versione precedente del predefinito.
+Se il processo di convalida non riesce, verrà comunque utilizzata la versione precedente della superficie.
 
 Ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-message-presets).
 
-Quando l&#39;aggiornamento non riesce, il predefinito diventa nuovamente modificabile. È possibile fare clic sul suo nome e aggiornare le impostazioni che devono essere corrette.
+Quando l&#39;aggiornamento non riesce, la superficie diventa nuovamente modificabile. È possibile fare clic sul suo nome e aggiornare le impostazioni che devono essere corrette.
 
-## Disattiva un predefinito messaggio {#deactivate-preset}
+## Disattivare una superficie del canale {#deactivate-preset}
 
-Per creare un **[!UICONTROL Active]** predefinito messaggio non disponibile per creare nuovi messaggi, puoi disattivarlo. Tuttavia, i messaggi pubblicati che utilizzano questo predefinito non saranno interessati e continueranno a funzionare.
+Per creare un **[!UICONTROL Active]** la superficie del canale non disponibile per creare nuovi messaggi, è possibile disattivarla. Tuttavia, i messaggi dei percorsi che utilizzano attualmente questa superficie non saranno interessati e continueranno a funzionare.
 
 >[!NOTE]
 >
->Non puoi disattivare un predefinito di messaggio durante l’elaborazione di un aggiornamento. Attendere il completamento dell&#39;aggiornamento oppure l&#39;operazione non è riuscita. Ulteriori informazioni su [modifica dei predefiniti per messaggi](#edit-message-preset) e [aggiorna stati](#update-statuses).
+>Non è possibile disattivare una superficie del canale durante l&#39;elaborazione di un aggiornamento. Attendere il completamento dell&#39;aggiornamento oppure l&#39;operazione non è riuscita. Ulteriori informazioni su [modifica delle superfici dei canali](#edit-message-preset) e [aggiorna stati](#update-statuses).
 
-1. Accedi all’elenco dei predefiniti per i messaggi .
+1. Accedi all&#39;elenco delle superfici del canale.
 
-1. Per il predefinito attivo desiderato, fai clic sul pulsante **[!UICONTROL More actions]** pulsante .
+1. Per la superficie attiva selezionata, fai clic sul pulsante **[!UICONTROL More actions]** pulsante .
 
 1. Seleziona **[!UICONTROL Deactivate]**.
 
@@ -243,14 +241,14 @@ Per creare un **[!UICONTROL Active]** predefinito messaggio non disponibile per 
 
 >[!NOTE]
 >
->I predefiniti per messaggi disattivati non possono essere eliminati per evitare problemi nei percorsi che utilizzano questi predefiniti per inviare messaggi.
+>Le superfici del canale disattivate non possono essere eliminate per evitare problemi nei percorsi che utilizzano queste superfici per inviare messaggi.
 
-Non puoi modificare direttamente un predefinito per messaggi disattivati. Tuttavia, puoi duplicarla e modificare la copia per creare una nuova versione da utilizzare per creare nuovi messaggi. È inoltre possibile attivarlo nuovamente e attendere che l&#39;aggiornamento abbia esito positivo per modificarlo.
+Non è possibile modificare direttamente una superficie del canale disattivata. Tuttavia, puoi duplicarla e modificare la copia per creare una nuova versione da utilizzare per creare nuovi messaggi. È inoltre possibile attivarlo nuovamente e attendere che l&#39;aggiornamento abbia esito positivo per modificarlo.
 
 ![](assets/preset-activate.png)
 
 ## Video introduttivo{#video-presets}
 
-Scopri come creare i predefiniti per messaggi, come utilizzarli e come delegare un sottodominio e creare un pool IP.
+Scopri come creare superfici dei canali, come utilizzarle e come delegare un sottodominio e creare un pool IP.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

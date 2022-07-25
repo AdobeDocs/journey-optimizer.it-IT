@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,11 @@ ht-degree: 0%
 
 Utilizza la **[!UICONTROL Global report]** per misurare l’impatto dei percorsi e delle consegne su un periodo di tempo selezionato.
 
-* Se desideri eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal **[!UICONTROL Journeys]** accedere al percorso e fare clic su **[!UICONTROL Global report]** icona. Puoi quindi trovare il Percorso, l’e-mail e il push **[!UICONTROL Global report]**.
+* Se desideri eseguire il targeting di uno o più percorsi di consegne nel contesto di un percorso, dal **[!UICONTROL Journeys]** accedere al percorso e fare clic su **[!UICONTROL View report]** pulsante . Puoi quindi trovare i rapporti globali Percorso, E-mail, SMS e push.
 
-   ![](assets/report_6.png)
+   ![](assets/report_journey.png)
 
-* Se desideri eseguire il targeting di una consegna specifica, dalla **[!UICONTROL Global view]** del **[!UICONTROL Executions]** scheda dei messaggi, seleziona **[!UICONTROL Global Report]** dal menu avanzato della consegna selezionata.
-
-   ![](assets/report_4.png)
-
-* Se desideri passare dalla **[!UICONTROL Global report]** al **[!UICONTROL Live report]** per la consegna, fai clic su **[!UICONTROL Live view]** dal commutatore di tabulazione.
+* Se desideri passare dalla **[!UICONTROL Live report]** al **[!UICONTROL Global report]** per la consegna, fai clic su **[!UICONTROL Global view]** dal commutatore di tabulazione.
 
    ![](assets/report_5.png)
 

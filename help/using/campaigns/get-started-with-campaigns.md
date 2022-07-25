@@ -7,20 +7,20 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '303'
 ht-degree: 8%
 
 ---
-
 
 # Introduzione alle campagne {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagne"
->abstract="Con Campagne è possibile distribuire contenuti una tantum a un segmento specifico su più canali. Prima di creare una nuova campagna, accertati di disporre di un predefinito per messaggi e di un segmento Adobe Experience Platform pronto per l’uso."
+>abstract="Con Campagne è possibile distribuire contenuti una tantum a un segmento specifico su più canali. Prima di creare una nuova campagna, accertati di disporre di una superficie del canale (ad es. un messaggio preimpostato) e di un segmento Adobe Experience Platform pronto per l’uso."
 
 ## Informazioni sulle campagne {#about}
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1686'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Funzioni stringa {#string}
 
-Scopri come utilizzare le funzioni String nell’editor espressioni.
+Scopri come utilizzare le funzioni stringa nell’editor espressioni.
 
 ## Cammello {#camelCase}
 
@@ -741,7 +741,7 @@ La `toDateTimeOnly` viene utilizzata per convertire un valore di argomento in un
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Rifila{#trim}
+## Trim (Taglia){#trim}
 
 La **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e alla fine di una stringa.
 

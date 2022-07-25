@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -287,10 +287,7 @@ Non ci saranno perdite di dati e nessun impatto sui percorsi live. Potrai pubbli
 
 ### Si verificherà una perdita di funzionalità?{#functionality}
 
-La modalità di creazione dei messaggi verrà modificata. Non si verificherà alcuna perdita di funzionalità. Dopo il 25 luglio (rilascio della funzione di authoring in linea), saranno applicate limitazioni alle azioni che possono essere eseguite nei percorsi che utilizzano **Messaggio** attività:
-
-* Non potrai copiare/incollare alcun **Messaggio** attività. Tuttavia, potrai copiare/incollare le nuove attività di azione del canale.
-* Per questi percorsi, non potrai eseguire le seguenti operazioni: testare, pubblicare, duplicare, creare una nuova versione, chiudere o copiare un’altra sandbox. Tali limitazioni si applicano a condizione che **Messaggi** le attività sono presenti in tali percorsi. Puoi attendere l’esecuzione e l’aggiornamento del processo di migrazione **Messaggi** attività per incanalare le attività di azione o è possibile rimuoverle **Messaggi** manualmente.
+La modalità di creazione dei messaggi verrà modificata. Non si verificherà alcuna perdita di funzionalità.
 
 ### Sarà possibile accedere all’ambiente durante il processo di migrazione?
 
@@ -303,6 +300,12 @@ Sì, i percorsi in diretta continuano a correre.
 ### Come posso sapere che la migrazione è completa?
 
 La migrazione è completa quando il banner scompare. Vedi questo [sezione](../rn/inline-messages.md#inform).
+
+### In che modo saranno interessate le autorizzazioni relative ai messaggi?
+
+La funzione di authoring in linea influisce sulle autorizzazioni. Ogni autorizzazione relativa al messaggio, ad esempio [!DNL View Messages] o [!DNL Manage Messages], verrà incluso automaticamente nelle autorizzazioni collegate alla funzionalità Percorsi.
+
+Ulteriori informazioni [page](../administration/ootb-product-profiles.md).
 
 <!--
 * Improved authoring flow and navigation

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 70%
 
 ---
 
 # Guida rapida {#cjm-quick-start}
 
-Con [!DNL Adobe Journey Optimizer] puoi importare contenuti di messaggi esistenti o progettare nuovi contenuti, personalizzare i messaggi con i dati del profilo del cliente, creare eventi per attivare i messaggi, definire segmenti e perfezionare i tipi di pubblico, inviare messaggi multicanale, creare e aggiungere offerte e accedere a un set completo di strumenti di reporting e monitoraggio per misurare l’impatto dei messaggi e dei percorsi.
+Con [!DNL Adobe Journey Optimizer], puoi importare contenuti di messaggi esistenti o progettare un nuovo contenuto, personalizzare i messaggi con i dati del profilo del cliente, creare eventi per attivare i messaggi, definire segmenti e perfezionare i tipi di pubblico, creare e aggiungere offerte e accedere a un set completo di strumenti di reporting e monitoraggio per misurare l’impatto dei messaggi e dei percorsi di clienti.
 
 In base all’organizzazione, puoi definire diversi tipi di utenti e concedere loro l’accesso a determinate funzionalità in base alle loro autorizzazioni.
 

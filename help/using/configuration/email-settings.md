@@ -1,21 +1,21 @@
 ---
 title: Configurare le impostazioni e-mail
-description: Scopri come configurare le impostazioni e-mail a livello di predefinito messaggio
+description: Scopri come configurare le impostazioni e-mail a livello di superficie del canale
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1198'
 ht-degree: 2%
 
 ---
 
 # Configurare le impostazioni e-mail {#email-settings}
 
-Definisci le impostazioni e-mail nella sezione dedicata della configurazione del predefinito del messaggio. Scopri come creare i predefiniti per i messaggi in [questa sezione](message-presets.md).
+Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie del canale (ad esempio, messaggio preimpostato). Scopri come creare superfici in [questa sezione](message-presets.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,19 +24,19 @@ Definisci le impostazioni e-mail nella sezione dedicata della configurazione del
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definire la categoria e-mail"
->abstract="Seleziona il tipo di messaggi che verranno inviati quando utilizzi questo predefinito: Marketing per i messaggi promozionali, che richiedono il consenso dell’utente, o transazionali per i messaggi non commerciali, che possono anche essere inviati a profili non abbonati in contesti specifici."
+>abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie del canale: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, o transazionali per e-mail non commerciali, che possono anche essere inviate a profili non abbonati in contesti specifici."
 
-In **TIPO E-MAIL** seleziona il tipo di messaggio da inviare con il predefinito: **Marketing** o **Transazionale**.
+In **TIPO E-MAIL** seleziona il tipo di messaggio da inviare con la superficie del canale: **Marketing** o **Transazionale**.
 
-* Scegli **Marketing** per messaggi promozionali: questi messaggi richiedono il consenso dell’utente.
+* Scegli **Marketing** per e-mail promozionale: questi messaggi richiedono il consenso dell’utente.
 
-* Scegli **Transazionale** per messaggi non commerciali, ad esempio conferma dell’ordine, notifiche di reimpostazione della password o informazioni di consegna.
+* Scegli **Transazionale** per le e-mail non commerciali, ad esempio la conferma dell’ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
 
 >[!CAUTION]
 >
->**Transazionale** I messaggi possono essere inviati a profili che hanno annullato l’abbonamento a comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
+>**Transazionale** Le e-mail possono essere inviate ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
 
-Quando [creazione di un messaggio](../messages/get-started-content.md#create-new-message), devi scegliere un predefinito di messaggio valido corrispondente alla categoria selezionata per il messaggio.
+Quando [creazione di un messaggio](../messages/get-started-content.md#create-new-message), devi scegliere una superficie del canale valida corrispondente alla categoria selezionata per l’e-mail.
 
 ## Sottodominio e pool IP {#subdomains-and-ip-pools}
 
@@ -44,11 +44,11 @@ In **DETTAGLI DEL SOTTODOMINIO E DEL POOL IP** sezione , devi:
 
 1. Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
 
-1. Seleziona il pool IP da associare al predefinito. [Ulteriori informazioni](ip-pools.md)
+1. Selezionare il pool IP da associare alla superficie. [Ulteriori informazioni](ip-pools.md)
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Impossibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione più vecchia dell’associazione pool/sottodominio IP. In questo caso, salva il predefinito come bozza e riprova una volta che il pool IP dispone del **[!UICONTROL Success]** stato.
+Impossibile procedere con la creazione della superficie mentre il pool IP selezionato è in uso [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione più vecchia dell’associazione pool/sottodominio IP. In questo caso, salva la superficie come bozza e riprova una volta che il pool IP dispone del **[!UICONTROL Success]** stato.
 
 >[!NOTE]
 >
@@ -72,13 +72,13 @@ Il collegamento per l’annullamento dell’abbonamento è costituito da due ele
 
 * Un **cancella indirizzo e-mail**, a cui vengono inviate tutte le richieste di annullamento dell’abbonamento.
 
-   In [!DNL Journey Optimizer], l’indirizzo e-mail per l’annullamento dell’abbonamento è quello predefinito **[!UICONTROL Mailto (unsubscribe)]** l&#39;indirizzo visualizzato nel predefinito del messaggio, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
+   In [!DNL Journey Optimizer], l’indirizzo e-mail per l’annullamento dell’abbonamento è quello predefinito **[!UICONTROL Mailto (unsubscribe)]** indirizzo visualizzato nella superficie del canale, in base alla [sottodominio selezionato](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
 * La **annulla sottoscrizione URL**, URL della pagina di destinazione in cui l’utente verrà reindirizzato una volta annullato l’abbonamento.
 
-   Se aggiungi una [collegamento di rinuncia con un clic](../messages/consent.md#one-click-opt-out) per un messaggio creato utilizzando questo predefinito, l’URL di annullamento della sottoscrizione sarà l’URL definito per il collegamento di rinuncia con un solo clic.
+   Se aggiungi una [collegamento di rinuncia con un clic](../messages/consent.md#one-click-opt-out) per un messaggio creato con questa superficie, l’URL di annullamento della sottoscrizione sarà l’URL definito per il collegamento di rinuncia con un solo clic.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -92,7 +92,7 @@ Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell�
 
 ## Parametri di intestazione{#email-header}
 
-In **[!UICONTROL HEADER PARAMETERS]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di messaggi inviati utilizzando tale predefinito.
+In **[!UICONTROL HEADER PARAMETERS]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale superficie.
 
 >[!CAUTION]
 >
@@ -120,12 +120,12 @@ Se desideri inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute d
 
 * Indirizzo e-mail di tua scelta. Il dominio dell’indirizzo e-mail di inoltro non può corrispondere ad alcun sottodominio delegato ad Adobe.
 * Il nome della sandbox.
-* Nome predefinito per il quale verrà utilizzato l’indirizzo e-mail successivo.
-* La corrente **[!UICONTROL Reply to (email)]** indirizzo impostato a livello di predefinito.
+* Nome della superficie per la quale verrà utilizzato l’indirizzo e-mail di inoltro.
+* La corrente **[!UICONTROL Reply to (email)]** indirizzo impostato a livello della superficie del canale.
 
 >[!NOTE]
 >
->Può essere presente un solo indirizzo e-mail per sottodominio. Di conseguenza, se più predefiniti utilizzano lo stesso sottodominio, lo stesso indirizzo e-mail deve essere utilizzato per tutti.
+>Può essere presente un solo indirizzo e-mail per sottodominio. Di conseguenza, se più superfici utilizzano lo stesso sottodominio, lo stesso indirizzo e-mail deve essere utilizzato per tutte.
 
 L’indirizzo e-mail successivo verrà impostato per Adobe. Questo può richiedere da 3 a 4 giorni.
 
@@ -133,7 +133,7 @@ L’indirizzo e-mail successivo verrà impostato per Adobe. Questo può richiede
 
 Puoi inviare una copia identica (o copia cieca in carbonio) delle e-mail inviate da [!DNL Journey Optimizer] in una casella in entrata CCN in cui verranno archiviate a fini di conformità o archiviazione.
 
-A questo scopo, abilita la **[!UICONTROL BCC email]** funzione opzionale a livello di preimpostazione. [Ulteriori informazioni](bcc-email.md)
+A questo scopo, abilita la **[!UICONTROL BCC EMAIL]** funzione opzionale a livello della superficie del canale. [Ulteriori informazioni](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -142,10 +142,10 @@ A questo scopo, abilita la **[!UICONTROL BCC email]** funzione opzionale a livel
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
 >title="Regolare il periodo di tempo per l’esecuzione dei nuovi tentativi"
->abstract="I tentativi vengono eseguiti per 3,5 giorni (84 ore) quando un messaggio e-mail non riesce a causa di un errore temporaneo di messaggio non recapitato. È possibile regolare questo periodo di tempo predefinito per l&#39;esecuzione di un nuovo tentativo in base alle proprie esigenze."
+>abstract="I tentativi vengono eseguiti per 3,5 giorni (84 ore) quando una consegna e-mail non riesce a causa di un errore temporaneo di mancato recapito messaggi. È possibile regolare questo periodo di tempo predefinito per l&#39;esecuzione di un nuovo tentativo in base alle proprie esigenze."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Informazioni sui nuovi tentativi"
 
-Puoi configurare le **Parametri di esecuzione di un nuovo tentativo e-mail**.
+Puoi configurare le **PARAMETRI DI RIPROVA E-MAIL**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,13 @@ Ulteriori informazioni sui nuovi tentativi in [questa sezione](retries.md).
 >title="Anteprima parametri di tracciamento URL"
 >abstract="Controlla in che modo i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
-È possibile utilizzare **[!UICONTROL URL tracking parameters]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
+È possibile utilizzare **[!UICONTROL URL TRACKING PARAMETERS]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
 
 I parametri definiti in questa sezione verranno aggiunti alla fine degli URL inclusi nel contenuto del messaggio e-mail. Puoi quindi acquisire questi parametri in strumenti di analisi web come Adobe Analytics o Google Analytics e creare vari rapporti sulle prestazioni.
 
 ![](assets/preset-url-tracking.png)
 
-Tre parametri di tracciamento URL vengono compilati automaticamente come esempio quando crei un predefinito per messaggi. Puoi modificarli e aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Add new parameter]** pulsante .
+Tre parametri di tracciamento URL vengono compilati automaticamente come esempio quando crei una superficie del canale. Puoi modificarli e aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Add new parameter]** pulsante .
 
 Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** campi.
 
@@ -192,7 +192,7 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 >
 >Non selezionare una cartella: assicurati di passare alla cartella necessaria e seleziona un attributo di profilo da utilizzare come valore del parametro di tracciamento.
 
-<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
 
 You can drag and drop the parameters to reorder them.-->
 

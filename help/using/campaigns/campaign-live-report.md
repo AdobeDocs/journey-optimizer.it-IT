@@ -7,9 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '586'
 ht-degree: 4%
 
 ---
@@ -42,8 +43,6 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 ## Scheda E-mail {#email-live}
 
 Dalla tua campagna **[!UICONTROL Live report]**, **[!UICONTROL Email]** la scheda descrive le informazioni principali relative alle consegne e-mail inviate nella campagna.
-
-Per un rapporto dettagliato su una consegna e-mail specifica, consulta la sezione [Report live e-mail](../reports/email-live-report.md) sezione .
 
 La **[!UICONTROL Email Sending Statistics]** widget fornisce informazioni principali relative al messaggio:
 
@@ -86,8 +85,6 @@ La **[!UICONTROL Email - Top recipient domain]** visualizza i dettagli del grafi
 ## Scheda push {#push-live}
 
 Dalla tua campagna **[!UICONTROL Live report]**, **[!UICONTROL Push]** la scheda descrive le informazioni principali relative alle consegne push inviate nella campagna.
-
-Per un rapporto dettagliato su una consegna push specifica, consulta la sezione [Report live push](../reports/push-live-report.md) sezione .
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** e **[!UICONTROL Sending metrics - by Push]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio:
 

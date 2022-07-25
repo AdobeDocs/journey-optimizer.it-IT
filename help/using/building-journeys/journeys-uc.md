@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,6 @@ Affinché questo caso d’uso funzioni, devi configurare quanto segue:
 
 * un segmento per tutti i clienti che vivono ad Atlanta, San Francisco o Seattle e sono nati dopo il 1980.
 * un evento di acquisto
-* tre messaggi
 
 ### Creare il segmento
 
@@ -81,29 +80,17 @@ A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazio
 
 L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utilizzando l’attività evento corrispondente, puoi attivare un’azione ogni volta che un cliente effettua un acquisto.
 
-### Creare i messaggi
-
-Per questo caso d’uso, è necessario creare tre messaggi:
-
-* un primo messaggio push ed e-mail
-* un messaggio push di ringraziamento
-* un messaggio di follow-up e-mail
-
-![](assets/jo-uc3.png)
-
-Fai riferimento a questo [sezione](../segment/about-segments.md) per scoprire come progettare e pubblicare questi messaggi.
-
 ## Progettare il percorso
 
 1. Avvia il percorso con un **Leggi segmento** attività. Seleziona il segmento creato in precedenza. Tutti i singoli utenti appartenenti al segmento entrano nel percorso.
 
    ![](assets/jo-uc4.png)
 
-1. Rilascia un **Messaggio** e seleziona il primo messaggio push ed e-mail. Questo messaggio viene inviato a tutti gli individui del percorso.
+1. Rilascia un **E-mail** e definisci il contenuto del &quot;primo messaggio&quot;. Questo messaggio viene inviato a tutti gli individui del percorso. Fai riferimento a questo [sezione](../messages/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
 
    ![](assets/jo-uc5.png)
 
-1. Posiziona il cursore sull’attività del messaggio e fai clic sul simbolo &quot;+&quot; per creare un nuovo percorso.
+1. Posiziona il cursore sull’attività e-mail e fai clic sul simbolo &quot;+&quot; per creare un nuovo percorso.
 
 1. Nel primo percorso, aggiungi un **Reazione** evento e seleziona **Push aperto**. L’evento viene attivato quando una persona appartenente al segmento apre la versione push del primo messaggio.
 
@@ -115,11 +102,11 @@ Fai riferimento a questo [sezione](../segment/about-segments.md) per scoprire co
    >
    >Quando configuri un timeout su più eventi (le due reazioni in questo caso), devi configurare il timeout solo su uno di questi eventi.
 
-1. Nel percorso di timeout, rilascia una **Messaggio** e seleziona il messaggio di follow-up e-mail. Questo messaggio viene inviato agli utenti che non aprono l’e-mail o non inviano il primo messaggio push il giorno successivo.
+1. Nel percorso di timeout, rilascia una **E-mail** e definisci il contenuto del messaggio &quot;follow-up&quot;. Questo messaggio viene inviato agli utenti che non aprono l’e-mail o non inviano il primo messaggio push il giorno successivo. Fai riferimento a questo [sezione](../messages/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
 
 1. Collega i tre percorsi all’evento di acquisto creato in precedenza. L’evento viene attivato quando un singolo utente effettua un acquisto.
 
-1. Dopo l’evento, rilascia una **Messaggio** e seleziona il messaggio di e-mail &quot;grazie&quot;.
+1. Dopo l’evento, rilascia una **Push** attività di azione e definisci il contenuto del messaggio di ringraziamento. Fai riferimento a questo [sezione](../messages/create-push.md) per scoprire come configurare e progettare un push.
 
 ## Test e pubblicazione del percorso
 

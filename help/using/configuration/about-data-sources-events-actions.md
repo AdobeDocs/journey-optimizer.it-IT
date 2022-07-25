@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 44%
 
 ---
@@ -36,7 +36,7 @@ Nella configurazione dell’evento, puoi configurare gli eventi previsti nei per
 
 ## Azioni {#actions}
 
-Le funzionalità dei messaggi Journey Optimizer sono integrate: devi solo progettare il contenuto e pubblicare il messaggio. Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../../using/action/action.md)
+Le funzionalità dei messaggi Journey Optimizer sono integrate: devi solo aggiungere un’attività azione canale al tuo percorso. Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../../using/action/action.md)
 
 ## Sfogliare i campi di Adobe Experience Platform {#friendly-names-display}
 

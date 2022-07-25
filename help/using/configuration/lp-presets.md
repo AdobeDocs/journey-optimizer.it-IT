@@ -1,17 +1,17 @@
 ---
-title: Definire i predefiniti per le pagine di destinazione
+title: Definire i predefiniti per la pagina di destinazione
 description: Scopri come configurare l’ambiente per creare e utilizzare pagine di destinazione con Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 7%
 
 ---
 
-# Definire i predefiniti per le pagine di destinazione {#lp-presets}
+# Definire i predefiniti per la pagina di destinazione {#lp-presets}
 
 Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
 
@@ -74,10 +74,10 @@ Per creare un predefinito per una pagina di destinazione, segui i passaggi ripor
    ![](assets/lp-preset-active-temp.png)
 
 Ora è pronto per [creare pagine di destinazione](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->Scopri come creare i predefiniti per i messaggi per le notifiche push e le e-mail in [questa sezione](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Argomenti correlati**:
 

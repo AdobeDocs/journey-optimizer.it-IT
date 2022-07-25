@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ Utilizzare le funzioni offerte da [!DNL Journey Optimizer] per monitorare il rec
 La **[!UICONTROL Executions]** la scheda dell’elenco dei messaggi ti consente di controllare le prestazioni delle consegne attraverso un set di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
 * Numero di messaggi eseguiti, inviati e consegnati correttamente.
 * Il numero di messaggi aperti e il numero di messaggi o collegamenti su cui è stato fatto clic.
-
-[Ulteriori informazioni sul monitoraggio dell’esecuzione dei messaggi](message-monitoring.md).
 
 ## Adattare il contenuto dei messaggi {#adapt-message-content}
 

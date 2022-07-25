@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 5%
 
 ---
@@ -24,14 +24,12 @@ In questo esempio, la **[!UICONTROL Consent and Preference Details]** gruppo di 
 Per configurare questo percorso, effettua le seguenti operazioni:
 
 1. Crea un percorso che inizia con un **[!UICONTROL Read]** attività. [Ulteriori informazioni](journey-gs.md).
-1. Aggiungi un **[!UICONTROL Message]** attività , con un messaggio e-mail, al percorso. [Ulteriori informazioni](journeys-message.md).
-1. In **[!UICONTROL Email parameters]** della sezione **[!UICONTROL Message]** impostazioni dell’attività, sostituisci l’indirizzo e-mail predefinito (`PersonalEmail.adress`) con l&#39;indirizzo e-mail degli abbonati all&#39;elenco:
+1. Aggiungi un **[!UICONTROL Email]** attività di azione al percorso. [Ulteriori informazioni](journeys-message.md).
+1. In **[!UICONTROL Email parameters]** della sezione **[!UICONTROL Email]** impostazioni dell’attività, sostituisci l’indirizzo e-mail predefinito (`PersonalEmail.adress`) con l&#39;indirizzo e-mail degli abbonati all&#39;elenco:
 
    1. Fai clic sul pulsante **[!UICONTROL Enable parameter override]** a destra del **[!UICONTROL Address]** quindi fai clic sul campo **[!UICONTROL Edit]** icona.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      Per poter modificare l’indirizzo e-mail, devi aver pubblicato il messaggio in precedenza.
 
    1. Nell’editor espressioni, immetti l’espressione per recuperare gli indirizzi e-mail degli abbonati. [Ulteriori informazioni](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ Per configurare questo percorso, effettua le seguenti operazioni:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. In **[!UICONTROL Add an expression]** finestra di dialogo, fai clic su **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

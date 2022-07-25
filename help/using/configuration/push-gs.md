@@ -6,18 +6,18 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 5%
+source-wordcount: '680'
+ht-degree: 8%
 
 ---
 
 # Introduzione alla configurazione push {#get-started-push}
 
-Questa pagina ti aiuterà a configurare e comprendere i servizi e i flussi di lavoro chiave coinvolti nelle notifiche push in [!DNL Journey Optimizer]. Scopri come creare le notifiche push in [questa pagina](../messages/create-push.md).
+Questa pagina ti aiuterà a configurare e comprendere i servizi e i flussi di lavoro chiave coinvolti nelle notifiche push in [!DNL Journey Optimizer]. Scopri come creare notifiche push su [questa pagina](../messages/create-push.md).
 
-Passaggi per configurare il canale push in [!DNL Adobe Journey Optimizer] sono descritti in dettaglio in [questa pagina](push-configuration.md).
+Passaggi per configurare il canale push in [!DNL Adobe Journey Optimizer] sono descritte in dettaglio in [questa pagina](push-configuration.md).
 
 ## Notifiche push e [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 1. Registrazione della tua app mobile di marca (Android o iOS) con APN di Apple e i servizi di messaggistica push FCM di Google
 1. I servizi di messaggistica generano un token push, che è un identificatore che [!DNL Adobe Journey Optimizer] utilizzerà per eseguire il targeting del dispositivo specifico con una notifica push.
 1. Il token push generato in precedenza viene passato a Adobe Experience Platform e sincronizzato con il profilo cliente in tempo reale; questo viene fatto OOTB con un SDK client facile da integrare
-1. I messaggi push vengono creati in [!DNL Adobe Journey Optimizer], i messaggi push vengono creati rispetto a un predefinito messaggio
+1. I messaggi push vengono creati in [!DNL Adobe Journey Optimizer], i messaggi push vengono creati rispetto a una superficie del canale (ad es. un messaggio preimpostato)
 1. I messaggi push possono essere inclusi nell’area di lavoro orchestrazione nei Percorsi
 1. Alla pubblicazione del Percorso, i profili cliente basati sulle condizioni del Percorso sono qualificati per ricevere notifiche push, in questo passaggio i payload di messaggi push vengono personalizzati
 1. I payload push personalizzati vengono inoltrati a un servizio di consegna messaggi push interno

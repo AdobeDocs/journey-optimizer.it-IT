@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Con i record PTR, i server di posta riceventi possono controllare l&#39;autentic
 
 ## Accedere ai record PTR dei tuoi sottodomini {#access-ptr-records}
 
-Una volta [viene delegato un sottodominio](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
+Una volta [viene delegato un sottodominio](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** menu.
 
 ![](assets/ptr-records.png)
 

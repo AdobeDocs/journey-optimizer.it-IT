@@ -5,14 +5,15 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: d0d914156eaa7fe54a513ee7b4e870edbc76c846
+exl-id: 57bdeadc-5801-4036-a272-c622634d5281
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Ciclo di vita percorso{#journey-lifecyle}
+# Ciclo di vita del percorso{#journey-lifecyle}
 
 ## Profili in percorsi{#profile-journey}
 
@@ -107,7 +108,5 @@ Quando viene arrestato, lo stato del percorso viene impostato su **[!UICONTROL S
 
 1. In **[!UICONTROL Journeys]** fare clic sul percorso che si desidera interrompere.
 1. In alto a destra, fai clic sulla freccia giù.
-
-![](assets/finish_drop_down_list.png)
-
+   ![](assets/finish_drop_down_list.png)
 1. Fai clic su **[!UICONTROL Stop]** e conferma nella finestra di dialogo.

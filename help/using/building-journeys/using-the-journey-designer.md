@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 3%
 
 ---
@@ -82,7 +82,7 @@ Le altre attività ti consentono di aggiungere condizioni al percorso per defini
 
 **Azioni**
 
-Troverete qui il **Messaggio** attività che ti consente di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sull’attività Messaggio](journeys-message.md)
+Qui trovi l’attività di azione del canale che ti consente di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività di azione del canale](journeys-message.md)
 
 Troverai anche le azioni personalizzate configurate per l’invio di messaggi con sistemi di terze parti. Ulteriori informazioni [sezione](about-journey-activities.md#action-activities).
 
