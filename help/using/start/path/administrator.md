@@ -3,9 +3,9 @@ title: Guida introduttiva di Journey Optimizer per l'amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -37,18 +37,18 @@ Inoltre, devi aggiungere gli utenti che devono accedere ad Assets Essentials al 
 
 Quando accedi [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un certo numero di IP a seconda del contratto.
 
-Per creare i tuoi percorsi e inviare messaggi, accedi al **AMMINISTRAZIONE** menu. Sfoglia il **[!UICONTROL Channels]** per configurare i messaggi e le superfici (ad es. predefiniti).
+Per creare i tuoi percorsi e inviare messaggi, accedi al **AMMINISTRAZIONE** menu. Sfoglia il **[!UICONTROL Channels]** per configurare i messaggi e le superfici del canale (ad es. predefiniti messaggio).
 
 >[!NOTE]
 >Come **Amministratore di sistema**, se non riesci a visualizzare il **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Admin Console](https://adminconsole.adobe.com/){_blank}. Scopri come aggiornare il profilo di prodotto in [questa pagina](../../administration/permissions.md#edit-product-profile).
 
 Segui i passaggi elencati di seguito:
 
-1. **Configurare messaggi e canali**: definire superfici, adattare e personalizzare le impostazioni e-mail e dei messaggi push
+1. **Configurare messaggi e canali**: definire superfici, adattare e personalizzare le impostazioni e-mail, sms e messaggi push
 
    * Definisci **impostazioni delle notifiche push** in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../../configuration/push-gs.md)
 
-   * Crea **superfici del canale** (ad esempio, predefiniti per messaggi) per configurare tutti i parametri tecnici necessari per i messaggi e-mail e per i messaggi di notifica push. [Ulteriori informazioni](../../configuration/message-presets.md)
+   * Crea **superfici del canale** (ad esempio, predefiniti per messaggi) per configurare tutti i parametri tecnici richiesti per e-mail, sms e notifiche push. [Ulteriori informazioni](../../configuration/message-presets.md)
 
    * Configura le **Canale SMS** per configurare tutti i parametri tecnici richiesti per SMS. [Ulteriori informazioni](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ Segui i passaggi elencati di seguito:
 
    ![](../assets/ip-pool.png)
 
-1. **Gestire la soppressione e l’elenco Consentiti**: migliorare il recapito messaggi con soppressione ed elenchi Consentiti
+1. **Gestire la soppressione e gli elenchi Consentiti**: migliorare il recapito messaggi con soppressione ed elenchi Consentiti
 
    * A [elenco a discesa](../../reports/suppression-list.md) è costituito da indirizzi e-mail che desideri escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio e i tassi di consegna. Puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall’invio in un percorso, ad esempio indirizzi non validi, indirizzi costantemente non recapitati e che potrebbero influenzare negativamente la reputazione dell’e-mail e destinatari che inviano un reclamo di qualche tipo relativo a uno dei tuoi messaggi e-mail. Scopri come gestire il [elenco a discesa](../../configuration/manage-suppression-list.md) e [tentativi](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
