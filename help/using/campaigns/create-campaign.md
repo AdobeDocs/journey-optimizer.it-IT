@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 5%
@@ -21,7 +21,7 @@ ht-degree: 5%
 >
 >Prima di creare una nuova campagna, assicurati di disporre di un canale di superficie (ad es. un messaggio preimpostato) e di un segmento Adobe Experience Platform pronto per l’uso. Ulteriori informazioni in queste sezioni:
 >
->* [Creare superfici di canale](../configuration/message-presets.md)
+>* [Creare superfici di canale](../configuration/channel-surfaces.md)
 >* [Introduzione ai segmenti](../segment/about-segments.md)
 
 

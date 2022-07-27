@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1173'
 ht-degree: 2%
 
 ---
 
 # Configurare le impostazioni e-mail {#email-settings}
 
-Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie del canale (ad esempio, messaggio preimpostato). Scopri come creare superfici in [questa sezione](message-presets.md).
+Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie del canale (ad esempio, messaggio preimpostato). Scopri come creare superfici in [questa sezione](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ Definisci le impostazioni e-mail nella sezione dedicata della configurazione del
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definire la categoria e-mail"
->abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie del canale: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, o transazionali per e-mail non commerciali, che possono anche essere inviate a profili non abbonati in contesti specifici."
+>abstract="Seleziona il tipo di messaggi da inviare quando utilizzi questa superficie: Marketing per i messaggi promozionali, che richiedono il consenso dell’utente, o transazionali per i messaggi non commerciali, che possono anche essere inviati a profili non abbonati in contesti specifici."
 
-In **TIPO E-MAIL** seleziona il tipo di messaggio da inviare con la superficie del canale: **Marketing** o **Transazionale**.
+In **TIPO E-MAIL** selezionate il tipo di messaggio da inviare con la superficie: **Marketing** o **Transazionale**.
 
 * Scegli **Marketing** per e-mail promozionale: questi messaggi richiedono il consenso dell’utente.
 
@@ -181,20 +181,22 @@ Tre parametri di tracciamento URL vengono compilati automaticamente come esempio
 
 Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** campi.
 
-È inoltre possibile scegliere da un elenco di valori predefiniti passando ai seguenti oggetti:
-* Attributi del percorso: **ID sorgente**, **Nome origine**, **ID versione sorgente**
-* Attributi azione: **ID azione**, **Nome azione**
-* Attributi di Offer decisioning: **ID offerta**, **Nome offerta**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->Non selezionare una cartella: assicurati di passare alla cartella necessaria e seleziona un attributo di profilo da utilizzare come valore del parametro di tracciamento.
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+È inoltre possibile modificare **[!UICONTROL Value]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor espressioni. Da qui puoi selezionare gli attributi contestuali desiderati e/o modificare direttamente il testo.
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 Di seguito sono riportati alcuni esempi di URL compatibili con Adobe Analytics e Google Analytics.
 
@@ -204,7 +206,7 @@ Di seguito sono riportati alcuni esempi di URL compatibili con Adobe Analytics e
 
 >[!NOTE]
 >
->È possibile combinare la digitazione di valori di testo e la selezione di valori predefiniti. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
+>È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
 
 Puoi visualizzare in anteprima dinamica l’URL di tracciamento risultante. Ogni volta che aggiungi, modifichi o rimuovi un parametro, l’anteprima viene aggiornata automaticamente.
 

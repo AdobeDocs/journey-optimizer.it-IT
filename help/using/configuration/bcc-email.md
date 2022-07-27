@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%
@@ -24,7 +24,7 @@ Puoi inviare una copia identica (o copia cieca in carbonio) di un’e-mail invia
 
 ## Abilita e-mail CCN {#enable-bcc}
 
-Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato della [superficie del canale](message-presets.md) (ovvero predefinito per i messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato il *marketing.luma.com* sottodominio ad Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+Per abilitare **[!UICONTROL BCC email]** inserisci l’indirizzo e-mail desiderato nel campo dedicato della [superficie del canale](channel-surfaces.md) (ovvero predefinito per i messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato il *marketing.luma.com* sottodominio ad Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
 
 >[!NOTE]
 >

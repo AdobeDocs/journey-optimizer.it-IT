@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '322'
 ht-degree: 5%
 
 ---
@@ -18,15 +18,17 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Attività attendi"
->abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni: durata, data fissa e personalizzata."
+>abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzazione."
 
 Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso, puoi utilizzare un **[!UICONTROL Wait]** attività. Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
-* [Data fissa](#fixed_date)
 * [Personalizzato](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
@@ -40,11 +42,14 @@ Seleziona la durata dell’attesa prima dell’esecuzione dell’attività succe
 
 ![](assets/journey55.png)
 
-## Attesa data fissa{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-Seleziona la data di esecuzione dell’attività successiva.
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Attesa personalizzata{#custom}
 

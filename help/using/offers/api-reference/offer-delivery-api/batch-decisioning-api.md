@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '751'
 ht-degree: 3%
 
 ---
@@ -32,19 +32,20 @@ A tal fine, l&#39;organizzazione:
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>Le decisioni in batch possono essere eseguite anche utilizzando l&#39;interfaccia Journey Optimizer. Per ulteriori informazioni, consulta [questa sezione](../../batch-delivery.md), che fornisce informazioni su prerequisiti e limitazioni globali da tenere in considerazione quando si utilizzano le decisioni in batch.
+
+* **Numero di processi batch in esecuzione per set di dati**: È possibile eseguire fino a cinque processi batch alla volta, per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene raccolto per l&#39;elaborazione una volta che il processo precedente è stato completato.
+* **Limite di frequenza**: Un batch esegue lo snapshot del profilo che si verifica una volta al giorno. La [!DNL Batch Decisioning] L’API limita la frequenza e carica sempre i profili dallo snapshot più recente.
+
 ## Introduzione {#getting-started}
 
 Prima di utilizzare questa API, assicurati di completare i seguenti passaggi prerequisiti.
 
 ### Preparare la decisione {#prepare-decision}
 
-Segui i passaggi seguenti per preparare una o più decisioni:
-
-* Per esportare il risultato della decisione, crea un set di dati utilizzando lo schema &quot;ODE DecisionEvents&quot;.
-
-* Crea un segmento di Platform da valutare e quindi aggiornare. Fai riferimento a [documentazione sulla segmentazione](http://www.adobe.com/go/segmentation-overview-en) per ulteriori informazioni su come aggiornare la valutazione dell’appartenenza al segmento.
-
-* Crea una decisione (che ha un ambito decisionale costituito da un ID decisione e un ID posizionamento) in Adobe Journey Optimizer. Fai riferimento a [sezione sulla definizione degli ambiti decisionali](../../offer-activities/create-offer-activities.md) della guida sulla creazione di decisioni per saperne di più.
+Per preparare una o più decisioni, accertati di aver creato un set di dati, un segmento e una decisione. Tali prerequisiti sono descritti in [questa sezione](../../batch-delivery.md).
 
 ### Requisiti API {#api-requirements}
 
@@ -58,6 +59,10 @@ Tutto [!DNL Batch Decisioning] le richieste richiedono le seguenti intestazioni 
 ## Avviare un processo batch {#start-a-batch-process}
 
 Per avviare un carico di lavoro per l&#39;elaborazione in batch delle decisioni, inviare una richiesta POST `/workloads/decisions` punto finale.
+
+>[!NOTE]
+>
+>Informazioni dettagliate sul tempo di elaborazione dei processi batch sono disponibili in [questa sezione](../../batch-delivery.md).
 
 **Formato API**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | Data e ora di creazione della richiesta di carico di lavoro della decisione. | `1648076994405` |
 | `ode:status` | Lo stato del carico di lavoro inizia con &quot;QUEUED&quot; e cambia in &quot;PROCESSING&quot;, &quot;INGESTING&quot;, &quot;COMPLETED&quot; o &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Questo mostra ulteriori dettagli come sparkJobId e batchID se lo stato è &quot;PROCESSING&quot; o &quot;INGESTING&quot;. Mostra i dettagli dell&#39;errore se lo stato è &quot;ERROR&quot;. |  |
-
-## Livelli di servizio {#service-levels}
-
-Il tempo end-to-end per ogni decisione batch è la durata dal momento in cui il carico di lavoro viene creato al momento in cui il risultato della decisione è disponibile nel set di dati di output. La dimensione del segmento nel payload della richiesta POST è il fattore principale che influisce sul tempo di decisione del batch end-to-end. Se l’offerta idonea ha un limite di frequenza globale abilitato, il processo decisionale batch richiede un tempo aggiuntivo per essere completato. Di seguito sono riportate alcune approssimazioni del tempo di elaborazione end-to-end per le rispettive dimensioni di segmento, sia con che senza limiti di frequenza per le offerte ammissibili:
-
-Con il limite di frequenza abilitato per le offerte ammissibili:
-
-| Dimensione del segmento | Tempo di elaborazione end-to-end |
-|--------------|----------------------------|
-| 10 mila profili o meno | 7 minuti |
-| 1 milione di profili o meno | 30 minuti |
-| 15 milioni di profili o meno | 50 minuti |
-
-Senza limiti di frequenza per le offerte ammissibili:
-
-| Dimensione del segmento | Tempo di elaborazione end-to-end |
-|--------------|----------------------------|
-| 10 mila profili o meno | 6 minuti |
-| 1 milione di profili o meno | 8 minuti |
-| 15 milioni di profili o meno | 16 minuti |
-
-## Limitazioni  {#limitations}
-
-Quando utilizzi [!DNL Batch Decisioning] Tieni presente le seguenti limitazioni:
-
-* **Numero di processi batch in esecuzione per set di dati**: È possibile eseguire fino a cinque processi batch alla volta, per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene raccolto per l&#39;elaborazione una volta che il processo precedente è stato completato.
-* **Limite di frequenza**: Un batch esegue lo snapshot del profilo che si verifica una volta al giorno. La [!DNL Batch Decisioning] L’API limita la frequenza e carica sempre i profili dallo snapshot più recente.
 
 ## Passaggi successivi {#next-steps}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 8%
+source-wordcount: '1140'
+ht-degree: 7%
 
 ---
 
@@ -82,7 +82,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](assets/read-segment-schedule-list.png)
 
-   La **Lettura incrementale** consente di eseguire il targeting solo per gli utenti che sono entrati nel segmento dall’ultima esecuzione del percorso. La prima esecuzione indirizza sempre tutti i membri del segmento. Questa opzione è disponibile solo per **Leggi segmento** attività.
+   **Lettura incrementale** opzione: quando un percorso con un **Leggi segmento** viene eseguito per la prima volta, tutti i profili nel segmento immettono il percorso. All’occorrenza successiva, tutti i profili accedono nuovamente al percorso, anche se erano già all’interno. La vecchia istanza del profilo nel percorso viene arrestata e viene creata una nuova istanza. La **Lettura incrementale** consente di eseguire il targeting, dopo la prima occorrenza, dei singoli utenti che sono entrati nel segmento dall’ultima esecuzione del percorso.
 
 <!--
 

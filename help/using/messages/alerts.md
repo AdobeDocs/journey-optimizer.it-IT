@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -49,7 +49,7 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
    >[!NOTE]
    >
-   >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [superficie del canale](../configuration/message-presets.md#email-type) (ad es. predefinito messaggio) e quando [creazione del messaggio](get-started-content.md#create-new-message).
+   >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [superficie del canale](../configuration/channel-surfaces.md#email-type) (ad es. predefinito messaggio) e quando [creazione del messaggio](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Text version of HTML is empty]**: non dimenticare di definire una versione testuale del corpo dell’e-mail, in quanto verrà utilizzata quando non è possibile visualizzare il contenuto di HTML. Scopri come creare la versione di testo in [questa sezione](../design/text-version-email.md).
 
@@ -67,7 +67,7 @@ Le impostazioni e gli elementi controllati dal sistema sono elencati di seguito.
 
 * **[!UICONTROL The email version of the message is empty]**: questo errore viene visualizzato quando il contenuto dell’e-mail non è stato configurato. Scopri come progettare il contenuto delle e-mail in [questa sezione](../design/design-emails.md).
 
-* **[!UICONTROL Surface doesn’t exist]**: non puoi utilizzare il messaggio se la superficie selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, seleziona un’altra superficie nel messaggio **[!UICONTROL Properties]**. Ulteriori informazioni sulle superfici dei canali in [questa sezione](../configuration/message-presets.md).
+* **[!UICONTROL Surface doesn’t exist]**: non puoi utilizzare il messaggio se la superficie selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, seleziona un’altra superficie nel messaggio **[!UICONTROL Properties]**. Ulteriori informazioni sulle superfici dei canali in [questa sezione](../configuration/channel-surfaces.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoticon. Scopri come gestire il contenuto delle notifiche push in [questa sezione](create-push.md).
 

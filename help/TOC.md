@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 96%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 96%
    + Consegna {#deliverability}
       + [Introduzione alla consegna](using/reports/deliverability.md)
       + [Informazioni sull’elenco di eliminazione](using/reports/suppression-list.md)
-+ Gestione delle decisioni {#offer-decisioniong}
++ Gestione delle decisioni {#offer-decisioning}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
       + [Interfaccia utente](using/offers/get-started/user-interface.md)
@@ -292,6 +292,7 @@ ht-degree: 96%
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
       + [Creare simulazioni](using/offers/offer-activities/simulation.md)
+   + [Decisioni in batch](using/offers/batch-delivery.md)
    + Creare rapporti di gestione delle decisioni {#create-reports}
       + [Introduzione agli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
       + [Informazioni chiave sugli eventi di Gestione delle decisioni](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 96%
             + [Nuovi tentativi](using/configuration/retries.md)
             + [Elenco Consentiti](using/configuration/allow-list.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
-      + Impostare le superfici del canale {#set-up-message-presets}
-         + [Creare superfici di canale](using/configuration/message-presets.md)
+      + Impostare le superfici del canale {#set-up-channels}
+         + [Creare superfici di canale](using/configuration/channel-surfaces.md)
          + [Configurare le impostazioni e-mail](using/configuration/email-settings.md)
          + [Utilizzare la funzione E-mail Ccn](using/configuration/bcc-email.md)
       + [Gestire gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)

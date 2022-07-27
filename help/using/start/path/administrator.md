@@ -3,7 +3,7 @@ title: Guida introduttiva di Journey Optimizer per l'amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 3%
@@ -48,7 +48,7 @@ Segui i passaggi elencati di seguito:
 
    * Definisci **impostazioni delle notifiche push** in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../../configuration/push-gs.md)
 
-   * Crea **superfici del canale** (ad esempio, predefiniti per messaggi) per configurare tutti i parametri tecnici richiesti per e-mail, sms e notifiche push. [Ulteriori informazioni](../../configuration/message-presets.md)
+   * Crea **superfici del canale** (ad esempio, predefiniti per messaggi) per configurare tutti i parametri tecnici richiesti per e-mail, sms e notifiche push. [Ulteriori informazioni](../../configuration/channel-surfaces.md)
 
    * Configura le **Canale SMS** per configurare tutti i parametri tecnici richiesti per SMS. [Ulteriori informazioni](../../configuration/sms-configuration.md)
 

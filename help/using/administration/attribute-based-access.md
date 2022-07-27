@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '991'
 ht-degree: 2%
 
 ---
@@ -25,15 +23,64 @@ Il controllo dell’accesso basato su attributi (ABAC) consente di definire auto
 
 In Adobe Journey Optimizer, ABAC ti consente di proteggere i dati e di concedere un accesso specifico a specifici elementi di campo, inclusi schemi Experience Data Model (XDM), attributi di profilo e segmenti.
 
-<!--For a more detailed list of the terminology used with ABAC, refer to Adobe Experience Platform documentation.-->
+Per un elenco più dettagliato della terminologia utilizzata con ABAC, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
 In questo esempio, desideri aggiungere un’etichetta al **Cittadinanza** campo schema per impedire agli utenti non autorizzati di utilizzarlo. Affinché questo funzioni, devi eseguire le seguenti operazioni:
 
+1. Crea un nuovo  **[!UICONTROL Role]** e assegnarlo con il corrispondente  **[!UICONTROL Label]** per consentire agli utenti di accedere e utilizzare il campo schema.
+
 1. Assegnare un  **[!UICONTROL Label]** al **Cittadinanza** campo schema in Adobe Experience Platform.
 
-2. Crea un nuovo  **[!UICONTROL Role]** e assegnarlo con il corrispondente  **[!UICONTROL Label]** per consentire agli utenti di accedere e utilizzare il campo schema.
+1. Utilizza la  **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
 
-3. Utilizza la  **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
+Tieni presente che **[!UICONTROL Roles]**, **[!UICONTROL Policies]** e **[!UICONTROL Products]** è inoltre possibile accedervi con l&#39;API di controllo accessi basata su attributi. Per ulteriori informazioni, consulta questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+
+## Creare un ruolo e assegnare etichette {#assign-role}
+
+>[!IMPORTANT]
+>
+>Prima di gestire le autorizzazioni per un ruolo, è necessario creare un criterio. Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+
+**[!UICONTROL Roles]** sono un set di utenti che condividono le stesse autorizzazioni, etichette e sandbox all’interno della tua organizzazione. Ogni utente appartenente a un **[!UICONTROL Role]** ha diritto alle app e ai servizi di Adobe contenuti nel prodotto.
+Puoi anche creare un tuo **[!UICONTROL Roles]** per ottimizzare l’accesso degli utenti a determinate funzionalità o oggetti dell’interfaccia.
+
+Ora vogliamo concedere agli utenti selezionati l’accesso al **Cittadinanza** campo, con etichetta C2. Per farlo, dobbiamo creare una nuova **[!UICONTROL Role]** con un insieme specifico di utenti e concedere loro l&#39;etichetta C2 che consente loro di utilizzare il **Cittadinanza** dettagli in **[!UICONTROL Journey]**.
+
+1. Da [!DNL Permissions] prodotto, seleziona **[!UICONTROL Role]** dal menu del riquadro a sinistra e fai clic su **[!UICONTROL Create role]**. Puoi anche aggiungere **[!UICONTROL Label]** ai ruoli incorporati.
+
+   ![](assets/role_1.png)
+
+1. Aggiungi un **[!UICONTROL Name]** e **[!UICONTROL Description]** al nuovo **[!UICONTROL Role]** qui: Ruolo demografico limitato.
+
+1. Dall’elenco a discesa, seleziona la **[!UICONTROL Sandbox]**.
+
+   ![](assets/role_2.png)
+
+1. Da **[!UICONTROL Resources]** menu, fai clic su **[!UICONTROL Adobe Experience Platform]** per aprire le diverse funzionalità. Qui selezioniamo **[!UICONTROL Journeys]**.
+
+   ![](assets/role_3.png)
+
+1. Dall’elenco a discesa, seleziona la **[!UICONTROL Permissions]** collegata alla feature selezionata, ad esempio **[!UICONTROL View journeys]** o **[!UICONTROL Publish journeys]**.
+
+   ![](assets/role_6.png)
+
+1. Dopo aver salvato la nuova **[!UICONTROL Role]**, fai clic su **[!UICONTROL Properties]** per configurare ulteriormente l’accesso al tuo ruolo.
+
+   ![](assets/role_7.png)
+
+1. Dalla scheda **[!UICONTROL Users]**, fai clic su **[!UICONTROL Add users]**.
+
+   ![](assets/role_8.png)
+
+1. Dalla sezione **[!UICONTROL Labels]**, seleziona **[!UICONTROL Add label]**.
+
+   ![](assets/role_9.png)
+
+1. Seleziona la **[!UICONTROL Labels]** desideri aggiungere al tuo ruolo e fai clic su **[!UICONTROL Save]**. Per questo esempio, concediamo all’etichetta C2 agli utenti l’accesso al campo dello schema precedentemente limitato.
+
+   ![](assets/role_4.png)
+
+Gli utenti nel **Ruolo limitato demografico** Il ruolo ora ha accesso agli oggetti con etichetta C2.
 
 ## Assegnare etichette a un oggetto in Adobe Experience Platform {#assign-label}
 
@@ -69,49 +116,6 @@ Applicando un **[!UICONTROL Label]** al tuo **[!UICONTROL Field name]**, tieni p
 
 ![](assets/label_5.png)
 
-## Creare un ruolo e assegnare etichette {#assign-role}
-
-**[!UICONTROL Roles]** sono un set di utenti che condividono le stesse autorizzazioni, etichette e sandbox all’interno della tua organizzazione. Ogni utente appartenente a un **[!UICONTROL Role]** ha diritto alle app e ai servizi di Adobe contenuti nel prodotto.
-Puoi anche creare un tuo **[!UICONTROL Roles]** per ottimizzare l’accesso degli utenti a determinate funzionalità o oggetti dell’interfaccia.
-
-Ora vogliamo concedere agli utenti selezionati l’accesso al **Cittadinanza** campo, con etichetta C2. Per farlo, dobbiamo creare una nuova **[!UICONTROL Role]** con un insieme specifico di utenti e concedere loro l&#39;etichetta C2 che consente loro di utilizzare il **Cittadinanza** dettagli in **[!UICONTROL Journey]**.
-
-1. Da [!DNL Permissions] prodotto, seleziona **[!UICONTROL Role]** dal menu del riquadro a sinistra e fai clic su **[!UICONTROL Create role]**. Puoi anche aggiungere **[!UICONTROL Label]** ai ruoli incorporati.
-
-   ![](assets/role_1.png)
-
-1. Aggiungi un **[!UICONTROL Name]** e **[!UICONTROL Description]** al nuovo **[!UICONTROL Role]** qui: Ruolo demografico limitato.
-
-1. Dall’elenco a discesa, seleziona la **[!UICONTROL Sandbox]**.
-
-   ![](assets/role_2.png)
-
-1. Da **[!UICONTROL Resources]** menu, fai clic su **[!UICONTROL Adobe Experience Platform]** per aprire le diverse funzionalità. Qui selezioniamo **[!UICONTROL Messages]**.
-
-   ![](assets/role_3.png)
-
-1. Dall’elenco a discesa, seleziona la **[!UICONTROL Permissions]** collegata alla feature selezionata, ad esempio **[!UICONTROL View messages]** o **[!UICONTROL Publish journeys]**.
-
-   ![](assets/role_6.png)
-
-1. Dopo aver salvato la nuova **[!UICONTROL Role]**, fai clic su **[!UICONTROL Properties]** per configurare ulteriormente l’accesso al tuo ruolo.
-
-   ![](assets/role_7.png)
-
-1. Dalla scheda **[!UICONTROL Users]**, fai clic su **[!UICONTROL Add users]**.
-
-   ![](assets/role_8.png)
-
-1. Dalla sezione **[!UICONTROL Labels]**, seleziona **[!UICONTROL Add label]**.
-
-   ![](assets/role_9.png)
-
-1. Seleziona la **[!UICONTROL Labels]** desideri aggiungere al tuo ruolo e fai clic su **[!UICONTROL Save]**. Per questo esempio, concediamo all’etichetta C2 agli utenti l’accesso al campo dello schema precedentemente limitato.
-
-   ![](assets/role_4.png)
-
-Gli utenti nel **Ruolo limitato demografico** Il ruolo ora ha accesso agli oggetti con etichetta C2.
-
 ## Accedere agli oggetti etichettati in Adobe Journey Optimizer {#attribute-access-ajo}
 
 Dopo aver etichettato il nostro **Cittadinanza** nome del campo in un nuovo schema e nuovo ruolo, ora possiamo vedere l&#39;impatto di questa restrizione in Adobe Journey Optimizer.
@@ -133,7 +137,7 @@ Per il nostro esempio, un primo utente X con accesso agli oggetti con etichetta 
 
    ![](assets/journey_4.png)
 
-1. Quindi, crea un Percorso che invierà un messaggio agli utenti con una nazionalità specifica. Aggiungi un **[!UICONTROL Event]** quindi un **[!UICONTROL Condition]**.
+1. Quindi, crea un Percorso che invierà un’e-mail agli utenti con una nazionalità specifica. Aggiungi un **[!UICONTROL Event]** quindi un **[!UICONTROL Condition]**.
 
    ![](assets/journey_5.png)
 
@@ -145,11 +149,11 @@ Per il nostro esempio, un primo utente X con accesso agli oggetti con etichetta 
 
    ![](assets/journey_7.png)
 
-1. Personalizza il tuo percorso in base alle esigenze, qui aggiungiamo un **[!UICONTROL Message]** azione.
+1. Personalizza il tuo percorso in base alle esigenze, qui aggiungiamo un **[!UICONTROL Email]** azione.
 
    ![](assets/journey_8.png)
 
-Se l’utente Y senza accesso all’etichetta C2 oggetti deve accedere a questo percorso o a qualsiasi messaggio con questo campo limitato:
+Se l’utente Y senza accesso all’etichetta C2 oggetti deve accedere a questo percorso con questo campo limitato:
 
 * L’utente Y non sarà in grado di utilizzare il nome del campo con restrizioni, in quanto non sarà visibile.
 
@@ -157,6 +161,6 @@ Se l’utente Y senza accesso all’etichetta C2 oggetti deve accedere a questo 
 
 * L’utente Y può eliminare l’espressione.
 
-* L&#39;utente Y non sarà in grado di testare il Percorso o il messaggio.
+* L&#39;utente Y non sarà in grado di testare il Percorso.
 
-* L’utente Y non sarà in grado di pubblicare il Percorso o il messaggio.
+* L&#39;utente Y non sarà in grado di pubblicare il Percorso.

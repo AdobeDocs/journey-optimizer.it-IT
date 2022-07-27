@@ -4,7 +4,7 @@ description: Scopri come configurare il tuo ambiente per l’invio di notifiche 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 4%
@@ -351,7 +351,7 @@ L’evento verrà attivato e riceverai la notifica push all’app mobile.
 
 Una volta che l’app mobile è stata configurata in [!DNL Adobe Experience Platform Data Collection], devi creare una superficie per poter inviare notifiche push da **[!DNL Journey Optimizer]**.
 
-Scopri come creare e configurare una superficie del canale in [questa sezione](../configuration/message-presets.md).
+Scopri come creare e configurare una superficie del canale in [questa sezione](../configuration/channel-surfaces.md).
 
 Ora puoi inviare notifiche push con Journey Optimizer.
 

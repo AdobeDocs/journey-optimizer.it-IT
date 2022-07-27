@@ -4,9 +4,9 @@ description: Scopri come attivare le campagne utilizzando [!DNL Journey Optimize
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '696'
 ht-degree: 3%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 3%
 
 ## Informazioni sulle campagne attivate dall’API {#about}
 
+>[!NOTE]
+>
+>L’API di esecuzione dei messaggi interattivi è attualmente in versione beta e potrebbe essere soggetta a frequenti aggiornamenti senza preavviso.
+
+
 Con [!DNL Journey Optimizer], puoi creare campagne e richiamarle da un sistema esterno basato sul trigger dell’utente utilizzando [API REST di esecuzione dei messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Questo ti consente di soddisfare varie esigenze operative e di messaggistica transazionale, come reimpostazioni di password, token OTP e altri.
 
 A questo scopo, devi prima creare una campagna con attivazione API in Journey Optimizer e quindi avviarne l’esecuzione tramite una chiamata API.
 
 I canali disponibili per le campagne con attivazione API sono messaggi e-mail, SMS e push.
-
->[!NOTE]
->
->L’API di esecuzione dei messaggi interattivi è attualmente in versione beta e potrebbe essere soggetta a frequenti aggiornamenti senza preavviso.
 
 ## Creare una campagna con attivazione API {#create}
 
@@ -86,9 +87,11 @@ Per eseguire una campagna con attivazione API, devi innanzitutto recuperare il r
 
 Puoi quindi utilizzare questo ID nel payload API per attivare la campagna. Fai riferimento a [Documentazione API di esecuzione dei messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) per ulteriori informazioni.
 
+Nota che, se hai configurato una data di inizio e/o di fine specifica durante la creazione della campagna, questa non verrà eseguita al di fuori di queste date e le chiamate API non riusciranno.
+
 >[!NOTE]
 >
->Se hai configurato una data di inizio e/o di fine specifica al momento della creazione della campagna, questa non verrà eseguita al di fuori di queste date e le chiamate API non riusciranno.
+>In alcuni casi, potrebbe essere necessario inviare messaggi transazionali a profili non esistenti nel sistema. Ad esempio, se un utente sconosciuto tenta di accedere al sito web. In tal caso, il profilo corrispondente viene creato automaticamente in Adobe Experience Platform, nel **Set di dati del profilo di messaggistica interattiva AJO** set di dati.
 
 ## Risorse aggiuntive
 

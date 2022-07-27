@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -33,7 +33,7 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
 
    ![](assets/content_experiment_1.png)
 
-1. Seleziona **[!UICONTROL Email]** quindi il **[!UICONTROL Surface]** desideri utilizzare per questa consegna. Per ulteriori informazioni, consulta la sezione [Superfici dei canali](../configuration/message-presets.md) pagina.
+1. Seleziona **[!UICONTROL Email]** quindi il **[!UICONTROL Surface]** desideri utilizzare per questa consegna. Per ulteriori informazioni, consulta la sezione [Superfici dei canali](../configuration/channel-surfaces.md) pagina.
 
    ![](assets/content_experiment_2.png)
 

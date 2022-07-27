@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 2%
@@ -50,7 +50,7 @@ Per creare un pool IP, effettua le seguenti operazioni:
    >
    >Nell’elenco sono disponibili tutti gli indirizzi IP forniti con la tua istanza.
 
-Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare la superficie del canale associata (ad esempio, un messaggio preimpostato). Per ulteriori informazioni su come associare una superficie di canale a un pool IP, consulta [questa sezione](message-presets.md).
+Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare la superficie del canale associata (ad esempio, un messaggio preimpostato). Per ulteriori informazioni su come associare una superficie di canale a un pool IP, consulta [questa sezione](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ Per modificare un pool IP:
 
 1. Salva le modifiche.
 
-L’aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia associato a un [superficie del canale](message-presets.md) o no:
+L’aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia associato a un [superficie del canale](channel-surfaces.md) o no:
 
 * Se il pool IP è **not** associato a qualsiasi superficie del canale, l&#39;aggiornamento è istantaneo (**[!UICONTROL Success]** status).
 * Se il pool IP **è** associato a una superficie del canale, l’aggiornamento può richiedere fino a 3 ore (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >
->Quando [creazione di una superficie del canale](message-presets.md#create-message-preset), se selezioni un pool IP in edizione (**[!UICONTROL Processing]** status) e non è mai stato associato al sottodominio selezionato per quella superficie, non è possibile procedere con la creazione della superficie. [Ulteriori informazioni](message-presets.md#subdomains-and-ip-pools)
+>Quando [creazione di una superficie del canale](channel-surfaces.md#create-channel-surface), se selezioni un pool IP in edizione (**[!UICONTROL Processing]** status) e non è mai stato associato al sottodominio selezionato per quella superficie, non è possibile procedere con la creazione della superficie. [Ulteriori informazioni](channel-surfaces.md#subdomains-and-ip-pools)
 
 Per controllare lo stato dell’aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL More actions]** e seleziona **[!UICONTROL Recent updates]**.
 

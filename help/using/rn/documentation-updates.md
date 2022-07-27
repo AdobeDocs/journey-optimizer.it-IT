@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 98%
+source-wordcount: '1731'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Luglio 2022 {#july-2022}
 
-* La sezione **Creare un predefinito per messaggi** è stata chiarita e aggiornata con collegamenti verso la pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione del 22 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* La **Impostare le superfici del canale** è stata chiarita e aggiornata con i collegamenti alla pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
+* Nelle proprietà del percorso, il **Fuso orario del profilo** per impostazione predefinita, l’opzione è disabilitata. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In **Wait** l&#39;attività **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
+* Sono state aggiunte ulteriori informazioni sulla **Lettura incrementale** in **Leggi segmento** attività. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Sono state aggiunte raccomandazioni sul **Limite del profilo** tipo di condizione. [Ulteriori informazioni](../building-journeys/condition-activity.md#profile_cap)
+* È stata aggiunta una limitazione agli eventi aziendali. [Ulteriori informazioni](../start/guardrails.md#events-g)
 
 ## Giugno 2022 {#june-2022}
 
@@ -42,7 +48,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiornate le schermate per la pagina di destinazione e i rapporti sulle iscrizioni. [Ulteriori informazioni](../reports/live-report.md)
 * È stata aggiunta una nota che indica che il metodo DELETE non è supportato nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 * Sono stati aggiornati i collegamenti ai video dimostrativi.
-* Le sezioni [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti per messaggi](../configuration/message-presets.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) sono state riorganizzate per migliorarne la leggibilità.
+* Le sezioni [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti per messaggi](../configuration/channel-surfaces.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) sono state riorganizzate per migliorarne la leggibilità.
 * La sezione Tracciamento URL è stata aggiornata e migliorata con alcuni esempi. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 * È stata aggiunta una nuova sottosezione sulla configurazione di un indirizzo e-mail di inoltro. Tieni presente che non è possibile farlo tramite l’interfaccia utente. [Ulteriori informazioni](../configuration/email-settings.md#forward-email)
 
@@ -53,8 +59,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * I video sulle funzionalità di gestione delle decisioni sono stati aggiornati per riflettere l’interfaccia utente di Journey Optimizer. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * La sezione **Introduzione ai set di dati** è stata migliorata con informazioni su come creare e accedere ai set di dati. [Ulteriori informazioni](../start/get-started-datasets.md)
 * Sono stati aggiunti i collegamenti alle guide e alle note sulla versione del prodotto nella pagina Home della **Documentazione di Adobe Journey Optimizer**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
-* La sezione **Creare predefiniti per messaggi** ora specifica che non è possibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in corso di modifica (stato **[!UICONTROL Processing]**) e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](../configuration/message-presets.md#subdomains-and-ip-pools)
-* La sezione **Tracciamento URL** relativa ai predefiniti per messaggi è stata aggiornata per riflettere modifiche minori nell’interfaccia utente. [Ulteriori informazioni](../configuration/message-presets.md#url-tracking)
+* La sezione **Creare predefiniti per messaggi** ora specifica che non è possibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in corso di modifica (stato **[!UICONTROL Processing]**) e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* La sezione **Tracciamento URL** relativa ai predefiniti per messaggi è stata aggiornata per riflettere modifiche minori nell’interfaccia utente. [Ulteriori informazioni](../configuration/channel-surfaces.md#url-tracking)
 
 ## Marzo 2022 {#march-2022}
 
@@ -78,7 +84,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La sezione sulle **classificazioni basate su IA di Offer Decisioning** è stata aggiornata con una descrizione più dettagliata del modello di ottimizzazione automatica. [Ulteriori informazioni](../offers/ranking/auto-optimization-model.md)
 * È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](../offers/ranking/schema-requirement.md)
 * La sezione relativa alle funzionalità di personalizzazione di [!DNL Journey Optimizer] è stata riorganizzata per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
-* La sezione **Creare predefiniti messaggi** è stata suddivisa in diverse sezioni per migliorarne la chiarezza. [Ulteriori informazioni](../configuration/message-presets.md#create-message-preset)
+* La sezione **Creare predefiniti messaggi** è stata suddivisa in diverse sezioni per migliorarne la chiarezza. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * La sezione sulla **gestione delle rinunce** è stata chiarita e leggermente riorganizzata. [Ulteriori informazioni](../messages/consent.md#opt-out-management)
 * La sezione su come **inserire i collegamenti** è stata aggiornata per riflettere le recenti modifiche apportate all’interfaccia utente. [Ulteriori informazioni](../design/message-tracking.md#insert-links)
 
@@ -93,14 +99,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Tutte le nuove funzioni e i miglioramenti apportati nella versione di ottobre 2021 di [!DNL Journey Optimizer] sono elencati in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stato aggiunto un elenco **funzione Data e ora**. [Ulteriori informazioni](../personalization/functions/dates.md)
 * Nuove **Sezioni introduttive per utente tipo**. Segui il tuo percorso per raggiungere gli obiettivi più velocemente. [Ulteriori informazioni](../start/quick-start.md)
-* Nuova sezione **Modificare un predefinito per messaggi**. [Ulteriori informazioni](../configuration/message-presets.md#edit-message-preset)
+* Nuova sezione **Modificare un predefinito per messaggi**. [Ulteriori informazioni](../configuration/channel-surfaces.md#edit-channel-surface)
 * Nuova sezione **Modificare un record PTR**. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-record)
-* Nuova sezione **Disattivare un predefinito per messaggi**. [Ulteriori informazioni](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Nuova sezione **Disattivare un predefinito per messaggi**. [Ulteriori informazioni](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * Nella **Guida per gli sviluppatori API per la gestione delle decisioni** sono state aggiunte nuove limitazioni sui vincoli di offerta non supportati con i flussi di lavoro di [!DNL Experience Edge] per dispositivi mobili. [Ulteriori informazioni](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nuova sezione **Creare simulazioni**. [Ulteriori informazioni](../offers/offer-activities/simulation.md)
 * È stata aggiornata la sezione **Aggiungere ambiti decisionali**. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * È stata aggiornata la sezione **Definire il contenuto per le rappresentazioni**, che ora comprende una nuova [sottosezione](../offers/offer-library/creating-personalized-offers.md#custom-text) su come definire e personalizzare il testo personalizzato. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## Settembre 2021 {#september-2021}
 
@@ -142,7 +147,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/global-report.md)
 * È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#reporting)
 * È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
-* È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/message-presets.md#monitor-message-presets)
+* È stata aggiornata la sezione dei predefiniti per i messaggi del monitor con i possibili motivi di errore nella creazione dei predefiniti e i dettagli relativi a tali errori. [Ulteriori informazioni](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * È stata aggiornata e rinominata la sezione Intervallo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti per i messaggi. [Ulteriori informazioni](../configuration/retries.md#retry-duration)
 * È stata aggiunta una nuova sezione che descrive come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](../messages/consent.md#one-click-opt-out-link)
 * È stata aggiornata la sezione Delegare un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](../configuration/delegate-subdomain.md#subdomain-validation)

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Una volta confermata la modifica del record PTR, la **[!UICONTROL Processing]** 
 
 >[!NOTE]
 >
->La [aggiornamento elaborazione](#processing) può richiedere fino a qualche ora.
+>La [aggiornamento elaborazione](#processing) può richiedere fino a 3 ore.
 
 Per controllare i dettagli dell&#39;aggiornamento del record PTR, fai clic sull&#39;icona accanto ad esso. Ulteriori informazioni sugli stati associati alle diverse icone in [questa sezione](#ptr-record-update-statuses).
 
@@ -119,7 +119,7 @@ Un aggiornamento del record PTR può avere i seguenti stati:
 
 ### Elaborazione {#processing}
 
-Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sottodominio da associare all’indirizzo IP sia valido. Questo può richiedere fino a qualche ora.
+Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sottodominio da associare all’indirizzo IP sia valido. Questo può richiedere fino a 3 ore.
 
 >[!NOTE]
 >

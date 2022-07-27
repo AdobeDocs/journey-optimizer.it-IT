@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 88%
+source-wordcount: '497'
+ht-degree: 28%
 
 ---
 
@@ -17,27 +17,22 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti alla [newsletter trimestrale di Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
->[!CAUTION]
->
->Il 25 luglio Adobe Journey Optimizer rilascia una [nuova funzionalità](../rn/inline-messages.md) che migliora il modo in cui crei contenuti per i canali Journey Optimizer (e-mail, push, SMS). In qualità di professionista di Journey Optimizer, ora [creare e creare](../messages/get-started-content.md) i tuoi messaggi direttamente da un percorso. Viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi. Per saperne di più sul [passaggi richiesti](../rn/inline-messages-steps.md).
-
-## Versione di giugno 2022 {#june-2022-release}
+## Versione di luglio 2022 {#july-2022-release}
 
 ### Nuove funzionalità
 
 <table>
 <thead>
 <tr>
-<th><strong>Inviare SMS agli utenti (disponibilità limitata)</strong><br/></th>
+<th><strong>Nuovo flusso di messaggi in-line</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Sinch</b> o <b>Twilio</b>.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
-<p>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
+<p>Journey Optimizer fornisce un nuovo flusso per la creazione dei messaggi nei Percorsi. La messaggistica in-line consentirà agli utenti di risparmiare tempo significativo e semplificherà il processo del flusso di lavoro per creare e inviare un’e-mail, una notifica push o un SMS in Journey Optimizer. Rimuovendo i messaggi come passaggio separato e rendendoli modificabili in linea come parte di un’azione nell’area di lavoro del Percorso, gli utenti dovranno fare clic su un numero inferiore di pulsanti e navigare in un numero inferiore di schermate per progettare e modificare il contenuto.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>Per ulteriori informazioni, consulta la <a href="../messages/get-started-content.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -47,15 +42,15 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>L’integrazione con Adobe Stock consente di trovare più rapidamente immagini di forte impatto</strong><br/></th>
+<th><strong>Controllo degli accessi basato su attributi (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il plug-in per l’integrazione di Adobe Stock e Adobe Journey Optimizer Email Designer offre ai clienti un modo semplice di cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle. </br> La nuova opzione <b>Trova foto Stock simili</b> consente inoltre di individuare foto Stock simili alle tue immagini per contenuto, colore e composizione. </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../design/stock.md">documentazione dettagliata</a>.</p>
+<p>È ora possibile identificare i campi dello schema con le etichette che definiscono gli ambiti di utilizzo organizzativi o dei dati. Gli amministratori possono utilizzare l’interfaccia Autorizzazioni per definire i criteri di accesso che coprono i campi dello schema XDM e gestire meglio l’accesso dato a utenti o gruppi di utenti (utenti interni, esterni o di terze parti) e gestire l’accesso a tipi specifici di dati (ad esempio Dati personali sensibili/SPD).</p>
+<p>L'utilizzo del controllo di accesso basato su attributi è attualmente limitato agli utenti selezionati e verrà distribuito a tutti gli ambienti in una versione futura.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../administration/attribute-based-access.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -64,24 +59,25 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Utilizza E-mail Ccn in tutte le e-mail</strong><br/></th>
+<th><strong>Processi decisionali in batch</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile utilizzare la funzionalità E-mail Ccn (copia carbone nascosta) per memorizzare le e-mail inviate da Adobe Journey Optimizer. Se abiliti questa opzione nei tuoi predefiniti e-mail, ogni e-mail verrà inviata anche come copiata nascosta all’indirizzo in Ccn.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/bcc-email.md">documentazione dettagliata</a>.</p>
+<p>È ora possibile eseguire processi di decisione batch dall'interfaccia utente, in modo che non sia necessario uno sviluppatore per eseguire processi api batch e posso ridurre il tempo necessario per il marketing. Questa nuova interfaccia ti consente di creare lavori e gestire i lavori correnti/passati.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>Per ulteriori informazioni, consulta la <a href="../offers/batch-delivery.md">documentazione dettagliata.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,77 +86,35 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Copiare oggetti da una sandbox a un’altra</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi ricreare le esperienze da una sandbox Journey Optimizer a un’altra, ad esempio da una sandbox non di produzione a una di produzione. Questa nuova funzionalità consente di copiare da un ambiente all’altro un intero percorso, compresi tutti gli oggetti da cui dipende la sua esecuzione corretta. Oltre ai percorsi, puoi anche copiare altri componenti quali offerte, messaggi, schemi, set di dati, origini dati, eventi e azioni.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/copy-to-sandbox.md">documentazione dettagliata</a>.
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
-
+-->
 
 ### Miglioramenti
-
-**Gestione delle decisioni**
-
-* **Supporto di file HTML e JSON**: ora è possibile trascinare file HTML e JSON esterni dalla libreria di risorse Adobe Experience Cloud nel contenuto della rappresentazione dell’offerta. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
-
-
-**E-mail**
-
-* **Salva come modello**: ora è possibile salvare un contenuto e-mail come modello e riutilizzarlo per creare altri messaggi. [Ulteriori informazioni](../design/email-templates.md)
 
 <!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
-
 -->
+
+**Messaggi**
+
+* I predefiniti per messaggi sono ora **superfici del canale**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 **Amministrazione**
 
-<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+* **Edizione record PTR** - Ora, quando si aggiorna un record PTR, il tempo di elaborazione richiederà solo 3 ore. [Ulteriori informazioni](../configuration/ptr-records.md#processing)
 
-* **Parametri URL di tracciamento anteprima**: quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* **Interfaccia utente Elenco Consentiti** - È ora possibile utilizzare l’interfaccia utente di Journey Optimizer per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti. [Ulteriori informazioni](../configuration/allow-list.md)
 
-* **Modifica del predefinito per messaggi**: ora al momento dell’aggiornamento di un predefinito per messaggi, il tempo di elaborazione può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/message-presets.md#edit-message-preset)
+* **Aggiornamento della logica di Elenco Consentiti** - Ora la logica di elenco Consentiti si applica non appena la funzione è abilitata, anche se l’elenco è vuoto. [Ulteriori informazioni](../configuration/allow-list.md#logic)
 
-* **Modifica del pool IP**: ora quando si aggiorna un pool IP il tempo di elaborazione può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/ip-pools.md#edit-ip-pool)
+* **Parametri di tracciamento URL** - Ora puoi utilizzare l’editor espressioni per configurare i parametri di tracciamento URL nelle superfici dell’e-mail (ad esempio i predefiniti per messaggi). [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+**Offer Decisioning**
 
-<!--
-**Reporting**
-
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
--->
+* **Dimensione del pubblico** - Ora nell’interfaccia utente viene visualizzato un nuovo componente per la stima delle dimensioni del pubblico durante la creazione di una regola decisionale, durante la selezione di un segmento o di una regola per impostare un’idoneità per l’offerta o quando si aggiunge un segmento o una regola a un ambito decisionale.

@@ -2,9 +2,9 @@
 title: Migrazione all’authoring in linea di percorso
 description: Scopri come eseguire la migrazione dei messaggi
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ La migrazione si verifica per ogni regione di notte, attraverso diverse iterazio
 
 Perché abbiamo bisogno di più iterazioni?
 
-Durante un&#39;iterazione, passiamo attraverso ogni percorso e li migriamo quando possibile. Ci sono casi in cui non vogliamo eseguire la migrazione automatica: quando il percorso è live o chiuso (ovvero può ancora essere presente un profilo). In questi casi, ti chiediamo di eseguire un’azione e quindi l’iterazione successiva eseguirà la migrazione di questi percorsi che non è stato possibile migrare nell’iterazione precedente.
+Durante un&#39;iterazione, passiamo attraverso ogni percorso e li migriamo quando possibile. Ci sono casi in cui non vogliamo eseguire la migrazione automatica: quando il percorso è attivo (ovvero può ancora essere presente un profilo). In questi casi, ti chiediamo di eseguire un’azione e quindi l’iterazione successiva eseguirà la migrazione di questi percorsi che non è stato possibile migrare nell’iterazione precedente.
 
 ## Domande frequenti {#faq}
 

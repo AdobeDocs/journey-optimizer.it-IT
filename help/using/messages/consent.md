@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 91%
@@ -41,7 +41,7 @@ Pertanto, devi sempre includere un **collegamento che consenta di annullare l’
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [superficie del canale](../configuration/message-presets.md#email-type) (ad es. predefinito messaggio) e quando [creazione del messaggio](get-started-content.md#create-new-message).
+>I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita nella [superficie del canale](../configuration/channel-surfaces.md#email-type) (ad es. predefinito messaggio) e quando [creazione del messaggio](get-started-content.md#create-new-message).
 
 ### Rinuncia esterna {#opt-out-external-lp}
 
@@ -177,7 +177,7 @@ Quando il messaggio viene inviato tramite un [percorso](../building-journeys/jou
 >abstract="Abilita Annulla sottoscrizione elenco per aggiungere un collegamento di annullamento dell’iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento della sottoscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto dell’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=it#one-click-opt-out" text="Rinuncia con un clic"
 
-Se la [Opzione Annulla sottoscrizione elenco](../configuration/message-presets.md#list-unsubscribe) è abilitato a livello di superficie del canale, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includerà un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail.
+Se la [Opzione Annulla sottoscrizione elenco](../configuration/channel-surfaces.md#list-unsubscribe) è abilitato a livello di superficie del canale, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includerà un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail.
 
 Ad esempio, il collegamento per annullare l’iscrizione verrà visualizzato in Gmail in questo modo:
 
@@ -187,7 +187,7 @@ Ad esempio, il collegamento per annullare l’iscrizione verrà visualizzato in 
 >
 >Per visualizzare il collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
 
-L’indirizzo predefinito per l’annullamento della sottoscrizione è **[!UICONTROL Mailto (unsubscribe)]** indirizzo visualizzato nella superficie del canale corrispondente. [Ulteriori informazioni](../configuration/message-presets.md#list-unsubscribe).
+L’indirizzo predefinito per l’annullamento della sottoscrizione è **[!UICONTROL Mailto (unsubscribe)]** indirizzo visualizzato nella superficie del canale corrispondente. [Ulteriori informazioni](../configuration/channel-surfaces.md#list-unsubscribe).
 
 Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato. [Ulteriori informazioni](#one-click-opt-out)
 

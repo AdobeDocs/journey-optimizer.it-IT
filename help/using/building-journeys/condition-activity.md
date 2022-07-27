@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1329'
 ht-degree: 10%
 
 ---
@@ -112,6 +112,10 @@ Questo ti consente di definire un flusso diverso in base alla data. Ad esempio, 
 ## Limite del profilo {#profile_cap}
 
 Utilizza questo tipo di condizione per impostare un numero massimo di profili per un percorso percorso. Una volta raggiunto tale limite, i profili partecipanti seguono un percorso alternativo. In questo modo i percorsi non supereranno mai il limite definito.
+
+    >[!NOTE]
+    >
+    >È consigliabile definire un limite massimo del profilo di alto valore. La precisione e la probabilità che una popolazione raggiunga l&#39;esatto numero di cap aumenta solo con l&#39;aumento della cap. Per i numeri di piccole dimensioni (ad esempio un limite massimo di 50), i numeri non corrispondono sempre, in quanto il limite potrebbe non essere raggiunto prima che i profili seguano un percorso alternativo.
 
 Puoi utilizzare questo tipo di condizione per aumentare il volume delle consegne. Vedi questo [caso d&#39;uso](ramp-up-deliveries-uc.md).
 

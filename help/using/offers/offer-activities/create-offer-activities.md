@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -70,7 +70,7 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
 1. Utilizza la **[!UICONTROL Eligibility]** per limitare la selezione delle offerte per questo posizionamento.
 
-   Questo vincolo può essere applicato utilizzando un **norma decisionale** o uno o più **Segmenti Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](#segments-vs-decision-rules).
+   Questo vincolo può essere applicato utilizzando un **norma decisionale** o uno o più **Segmenti Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * Per limitare la selezione delle offerte ai membri di un segmento di Experience Platform, seleziona **[!UICONTROL Segments]**, quindi fai clic su **[!UICONTROL Add segments]**.
 
@@ -87,6 +87,10 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
       ![](../assets/activity_constraint_rule.png)
 
       Scopri come creare una regola decisionale in [questa sezione](../offer-library/creating-decision-rules.md).
+
+      >[!NOTE]
+      >
+      >Quando selezioni segmenti o regole decisionali, vengono visualizzate informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
 
 1. Definisci il metodo di classificazione da utilizzare per selezionare l’offerta migliore per ciascun profilo.
 
@@ -117,26 +121,6 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL New scope]** pulsante . Ripeti i passaggi indicati sopra per ogni ambito di decisione.
 
    ![](../assets/activity_new-scope.png)
-
-### Utilizzo di segmenti e regole decisionali {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-Per applicare un vincolo, è possibile limitare la selezione delle offerte ai membri di uno o più **Segmenti Adobe Experience Platform** oppure puoi utilizzare un **norma decisionale**, entrambe le soluzioni corrispondenti a diversi utilizzi.
-
-In sostanza, l’output di un segmento è un elenco di profili, mentre una regola decisionale è una funzione eseguita su richiesta rispetto a un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è illustrata di seguito.
-
-* **Segmenti**
-
-   Da un lato, i segmenti sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica in base agli attributi di profilo e agli eventi di esperienza. Tuttavia, Gestione delle offerte non esegue il calcolo del segmento, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
-
-   Ulteriori informazioni sui segmenti in [questa sezione](../../segment/about-segments.md).
-
-* **Regole di decisione**
-
-   D’altra parte, una regola decisionale si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’ultima e l’offerta migliore.
-
-   Ulteriori informazioni sulle regole decisionali in [questa sezione](../offer-library/creating-decision-rules.md).
 
 ## Aggiungere un’offerta di fallback {#add-fallback}
 

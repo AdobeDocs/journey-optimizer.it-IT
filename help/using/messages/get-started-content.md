@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 6%
@@ -61,7 +61,7 @@ Per aggiungere messaggi nei percorsi, è sufficiente aggiungere un’attività p
 
 1. Seleziona il messaggio **[!UICONTROL Category]**: scegli **Marketing** per i messaggi commerciali, o **Transazionale** per messaggi non commerciali quali conferma dell’ordine, notifiche di reimpostazione della password o informazioni di consegna.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Se hai definito [regole di frequenza](../configuration/frequency-rules.md) per un canale e una categoria specifici, vengono applicati automaticamente al messaggio selezionando tale canale e categoria. Attualmente solo il **[!UICONTROL Marketing]** categoria disponibile per le regole di frequenza.
 
@@ -73,7 +73,7 @@ Per aggiungere messaggi nei percorsi, è sufficiente aggiungere un’attività p
 
 1. Seleziona il canale **[!UICONTROL Surface]** (ad es. predefinito messaggio) da utilizzare per inviare il messaggio.
 
-   Una superficie è una configurazione definita da un [Amministratore di sistema](../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni](../configuration/message-presets.md).
+   Una superficie è una configurazione definita da un [Amministratore di sistema](../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Per accedere ai parametri avanzati, fai clic sul pulsante **[!UICONTROL Show rea
 
 ![](assets/show-read-only.png)
 
-I parametri avanzati vengono visualizzati nella parte inferiore del riquadro dei messaggi. Questi parametri sono definiti dalla [amministratore di sistema](../start/path/administrator.md) in [superficie del canale](../configuration/message-presets.md) (ad es. predefinito messaggio) associato al messaggio.
+I parametri avanzati vengono visualizzati nella parte inferiore del riquadro dei messaggi. Questi parametri sono definiti dalla [amministratore di sistema](../start/path/administrator.md) in [superficie del canale](../configuration/channel-surfaces.md) (ad es. predefinito messaggio) associato al messaggio.
 
 Per le notifiche push, puoi visualizzare i seguenti parametri: Token, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ Per eseguire questa operazione, effettua le seguenti operazioni:
 >
 >Per le e-mail, puoi anche trasformare un messaggio esistente in un modello. [Ulteriori informazioni](../design/email-templates.md).
 
-## Eliminare un messaggio
+## Eliminare un messaggio{#delete-message}
 
 Per eliminare un messaggio, utilizza l’icona del cestino nella parte superiore del riquadro attività del canale.
 

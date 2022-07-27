@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 3%
+source-wordcount: '1600'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Priorità"
+>title="Imposta priorità"
 >abstract="La priorità consente di definire la priorità dell’offerta rispetto alle altre se l’utente si qualifica per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte."
 
 I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
@@ -40,6 +40,10 @@ I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un�
 1. Configura le **[!UICONTROL Offer eligibility]**. [Ulteriori informazioni](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >Quando selezioni segmenti o regole decisionali, vengono visualizzate informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
 
 1. Definisci la **[!UICONTROL Priority]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
 
@@ -63,8 +67,8 @@ Ad esempio, se imposti i vincoli seguenti:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Ammissibilità"
->abstract="L’idoneità delle offerte consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali."
+>title="Definire l&#39;idoneità"
+>abstract="Per impostazione predefinita, qualsiasi profilo può essere presentato all’offerta, ma puoi utilizzare segmenti o regole decisionali per limitare l’offerta a profili specifici."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 
    Ulteriori informazioni sulle regole decisionali in [questa sezione](creating-decision-rules.md).
 
-## Limite di frequenza {#capping}
+## Limitazione {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Limitazione"
->abstract="La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta."
+>title="Utilizzare i limiti"
+>abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza i limiti per definire il numero massimo di volte in cui può essere presentata un’offerta."
 
 La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
@@ -178,8 +182,8 @@ Il numero di volte in cui viene proposta un’offerta viene calcolato al momento
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="La modifica della data può influire sui limiti"
->abstract="Se il limite viene applicato a questa offerta, potrebbe essere interessato quando si modifica la data di inizio o di fine."
+>title="La modifica delle date può influire sui limiti"
+>abstract="Se il limite viene applicato a questa offerta, può essere influenzato dalla modifica della data di inizio o di fine."
 
 È necessario prestare attenzione quando si modifica la data di un’offerta, perché questo può avere un impatto sui limiti se vengono soddisfatte le seguenti condizioni:
 
@@ -191,7 +195,7 @@ Il numero di volte in cui viene proposta un’offerta viene calcolato al momento
 >
 >Scopri come definire la data di un’offerta in [questa sezione](creating-personalized-offers.md#create-offer).
 
-Il limite di frequenza per profilo memorizza i conteggi dei limiti su ciascun profilo. Quando modifichi la data di inizio e di fine di un’offerta approvata, il conteggio dei limiti per alcuni profili potrebbe essere interessato in base ai diversi scenari descritti di seguito.
+L’applicazione a capo per profilo memorizza i conteggi dei limiti su ciascun profilo. Quando modifichi la data di inizio e di fine di un’offerta approvata, il conteggio dei limiti per alcuni profili potrebbe essere interessato in base ai diversi scenari descritti di seguito.
 
 ![](../assets/offer-capping-change-date.png)
 
