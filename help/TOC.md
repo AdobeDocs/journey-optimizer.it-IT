@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1113'
 ht-degree: 95%
 
 ---
@@ -134,7 +134,6 @@ ht-degree: 95%
       + [Reazione](using/building-journeys/reaction-events.md)
       + [Qualificazione del segmento](using/building-journeys/segment-qualification-events.md)
       + [Condizione](using/building-journeys/condition-activity.md)
-      + [Fine](using/building-journeys/end-activity.md)
       + [Attendi](using/building-journeys/wait-activity.md)
       + [Leggi segmento](using/building-journeys/read-segment.md)
       + [E-mail, SMS, push](using/building-journeys/journeys-message.md)
