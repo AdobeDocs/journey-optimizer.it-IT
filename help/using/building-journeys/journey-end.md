@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 3%
+source-wordcount: '765'
+ht-degree: 2%
 
 ---
 
@@ -51,21 +51,21 @@ Per terminare un percorso live, ti consigliamo di chiuderlo. L&#39;arrivo di nuo
 >
 >Non è possibile riprendere un percorso chiuso o interrotto.
 
-<!--
+### Tag di fine percorso{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+Durante la creazione di un percorso, alla fine di ogni percorso viene visualizzato un &quot;nodo finale&quot;. Impossibile aggiungere questo nodo da un utente, non può essere rimosso e può essere modificata solo la relativa etichetta. Segna la fine di ogni percorso del percorso. Se il percorso dispone di diversi percorsi, ti consigliamo di aggiungere un’etichetta a ogni estremità per facilitare la lettura dei rapporti. Consulta [questa pagina](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### Attività fine{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-La **[!UICONTROL End]** l’attività ti consente di contrassegnare la fine di ogni percorso del percorso. Non è obbligatorio ma consigliato per la chiarezza visiva. Consulta [questa pagina](../building-journeys/end-activity.md)
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### Chiudi un percorso{#close-journey}
 
