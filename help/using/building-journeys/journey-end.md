@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
+source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 2%
@@ -53,7 +53,7 @@ Per terminare un percorso live, ti consigliamo di chiuderlo. L&#39;arrivo di nuo
 
 ### Tag di fine percorso{#end-tag}
 
-Durante la creazione di un percorso, alla fine di ogni percorso viene visualizzato un &quot;nodo finale&quot;. Impossibile aggiungere questo nodo da un utente, non può essere rimosso e può essere modificata solo la relativa etichetta. Segna la fine di ogni percorso del percorso. Se il percorso dispone di diversi percorsi, ti consigliamo di aggiungere un’etichetta a ogni estremità per facilitare la lettura dei rapporti. Consulta [questa pagina](../reports/live-report.md).
+Durante la creazione di un percorso, alla fine di ciascun percorso viene visualizzato un tag di fine. Impossibile aggiungere questo nodo da un utente, non può essere rimosso e può essere modificata solo la relativa etichetta. Segna la fine di ogni percorso del percorso. Se il percorso dispone di diversi percorsi, ti consigliamo di aggiungere un’etichetta a ogni estremità per facilitare la lettura dei rapporti. Consulta [questa pagina](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
