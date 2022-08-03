@@ -1,6 +1,6 @@
 ---
 title: Introduzione ai messaggi
-description: Scopri come creare e distribuire messaggi personalizzati in Journey Optimizer
+description: Scopri come creare e inviare messaggi personalizzati in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
