@@ -1,6 +1,6 @@
 ---
-title: Rapporto globale della campagna
-description: Scopri come utilizzare i dati del report globale della campagna
+title: Report globale della campagna
+description: Scopri come utilizzare i dati dal rapporto globale di Campaign
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,14 +8,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1542'
 ht-degree: 2%
 
 ---
 
-# Rapporto globale della campagna {#campaign-global-report}
+# Report globale della campagna {#campaign-global-report}
 
 Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Global view]** pulsante .
 
@@ -41,11 +41,53 @@ La **[!UICONTROL Campaign's Statistics]** i dettagli del widget forniscono le in
 
 * **[!UICONTROL Actions failed in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
 
-<!--
-### Experimentation tab (#experimentation-global)
+### Obiettivi (#obiettivi-globali)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+![](assets/performance_report.gif)
+
+La **[!UICONTROL Objectives]** la scheda del rapporto Campaign ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
+
+La **[!UICONTROL Objectives]** sono collegati a **[!UICONTROL Datasets]** che definiscono una connessione a un sistema per recuperare informazioni aggiuntive. Un elenco di elementi incorporati **[!UICONTROL Objectives]** è disponibile ma puoi aggiungerne una nuova **[!UICONTROL Dataset]**. Per la procedura dettagliata, consulta questa documentazione.
+
+Dopo aver selezionato gli obiettivi su cui eseguire il targeting, i due **[!UICONTROL Performance overview]** e **[!UICONTROL Campaign objective]** I widget forniscono un riepilogo dettagliato delle prestazioni di consegna.
+
+Con la **[!UICONTROL Campaign objective]** widget, puoi anche scegliere di confrontare il tuo obiettivo principale con un&#39;altra metrica.
+
+Tieni presente che ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
+
+### Sperimentazione (#esperimento-globale)
+
+>[!AVAILABILITY]
+>
+>La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+![](assets/experimentation_report_3.png)
+
+Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** scheda descrive le informazioni principali relative alle prestazioni di ogni variante e se è presente un performer migliore.
+
+Tieni presente che la definizione dell’esecutore migliore potrebbe richiedere un po’ di tempo, sarà rappresentata da questa icona ![](assets/experimentation_report_1.png).
+
+La **[!UICONTROL Experiment result]** Il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti dal **[!UICONTROL Baseline]** il menu a discesa. Il miglior trattamento sarà rappresentato da un&#39;icona a forma di stella.
+
+La tabella presenta le metriche seguenti:
+
+* **[!UICONTROL Profiles]**: Numero di profili interessati da questo trattamento.
+
+* **[!UICONTROL Unique outbound clicks]**: Numero totale di clic tra canali in uscita.
+
+* **[!UICONTROL Count per profile]**: Valore totale della metrica obiettivo Esperimento diviso per il numero di profili.
+
+* **[!UICONTROL Confidence interval]**: Differenza percentuale di prestazioni tra la linea di base e il trattamento più performante. [Ulteriori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: Miglioramento percentuale del tasso di conversione di un dato trattamento rispetto alla linea di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: Prova che un dato trattamento è lo stesso del trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
+
+Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Scheda E-mail {#email-global}
 
@@ -73,7 +115,7 @@ La **[!UICONTROL Email Sending Statistics]** il grafico descrive il successo del
 
 * **[!UICONTROL Excluded]**: Numero di profili esclusi da Adobe Journey Optimizer.
 
-La **[!UICONTROL Email - Tracking statistics]** contiene i dati disponibili per l’attività del destinatario per la consegna:
+La **[!UICONTROL Email - Tracking statistics]** widget contiene i dati disponibili per l’attività del destinatario per la consegna:
 
 * **[!UICONTROL Opens]**: Numero di volte in cui la consegna è stata aperta in una consegna.
 
