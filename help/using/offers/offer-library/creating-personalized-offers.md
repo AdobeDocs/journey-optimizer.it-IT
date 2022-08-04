@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '648'
+ht-degree: 3%
 
 ---
 
@@ -63,6 +63,10 @@ Per creare un **offerta**, segui questi passaggi:
 
 1. Aggiungi dei vincoli per impostare le condizioni per la visualizzazione dell’offerta. [Ulteriori informazioni](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
+
    ![](../assets/offer-constraints-example.png)
 
 1. Rivedi e salva l’offerta. [Ulteriori informazioni](#review)
@@ -72,6 +76,10 @@ Per creare un **offerta**, segui questi passaggi:
 Una volta definite le regole di idoneità e i vincoli, viene visualizzato un riepilogo delle proprietà dell’offerta.
 
 1. Assicurati che tutto sia configurato correttamente.
+
+1. Puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. Quando l’offerta è pronta per essere presentata agli utenti, fai clic su **[!UICONTROL Finish]**.
 

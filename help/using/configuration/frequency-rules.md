@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '827'
+ht-degree: 3%
 
 ---
 
@@ -128,19 +128,11 @@ Per applicare una regola di frequenza a un messaggio, segui la procedura seguent
 
 1. Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
 
-1. Puoi fare clic sul collegamento **[!UICONTROL Frequency rule]** per visualizzare le regole di frequenza che verranno applicate per la categoria e i canali selezionati. 
+   >[!NOTE]
+   >
+   >Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transactional]** non verranno valutati in base alle regole di frequenza.
 
-   ![](assets/message-rules-msg-link.png)
-
-   Viene aperta una nuova scheda per visualizzare le regole di frequenza dei messaggi corrispondenti.
-
-Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
-
->[!NOTE]
->
->Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transactional]** non verranno valutati in base alle regole di frequenza.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. Puoi visualizzare il numero di profili esclusi dalla consegna nel [Report globale](../reports/global-report.md)e nella [Report live](../reports/live-report.md), dove le regole di frequenza saranno elencate come possibile motivo per cui gli utenti sono esclusi dalla consegna.
 

@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 94%
+source-wordcount: '1772'
+ht-degree: 92%
 
 ---
 
@@ -13,11 +13,17 @@ ht-degree: 94%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+## Agosto 2022 {#august-2022}
+
+* La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
+* Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
+
 ## Luglio 2022 {#july-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione del 22 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La **Impostare le superfici del canale** è stata chiarita e aggiornata con i collegamenti alla pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * Nelle proprietà del percorso, il **Fuso orario del profilo** per impostazione predefinita, l’opzione è disabilitata. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * In **Wait** l&#39;attività **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 * Sono state aggiunte ulteriori informazioni sulla **Lettura incrementale** in **Leggi segmento** attività. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Sono state aggiunte raccomandazioni sul **Limite del profilo** tipo di condizione. [Ulteriori informazioni](../building-journeys/condition-activity.md#profile_cap)

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1601'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,6 @@ I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un�
 1. Configura le **[!UICONTROL Offer eligibility]**. [Ulteriori informazioni](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >Quando selezioni segmenti o regole decisionali, vengono visualizzate informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
 
 1. Definisci la **[!UICONTROL Priority]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
 
@@ -99,6 +95,10 @@ La **[!UICONTROL Offer eligibility]** La sezione ti consente di limitare l’off
    >[!CAUTION]
    >
    >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarlo in un&#39;offerta.
+
+Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### Utilizzo di segmenti e regole decisionali {#segments-vs-decision-rules}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 11%
+source-wordcount: '198'
+ht-degree: 8%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 11%
 Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un utente dopo aver fatto clic da un’e-mail, un sito web, un annuncio pubblicitario o qualsiasi altra posizione digitale.
 
 [!DNL Journey Optimizer] consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni, o iscriversi a un servizio specifico, ad esempio una newsletter.
+
+➡️ [Questo video offre ulteriori informazioni sulla configurazione degli abbonamenti e sulla creazione di pagine di destinazione](#video)
 
 * Sfruttamento [!DNL Journey Optimizer] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
 * Configurazione **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.
@@ -34,8 +36,8 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 </tr>
 </table>
 
-<!--
+## Video introduttivo{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento (un)a un messaggio e configurare percorsi rilevanti.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

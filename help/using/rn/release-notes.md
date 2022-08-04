@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 24%
 
 ---
 
@@ -109,7 +109,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * **Aggiornamento della logica di Elenco Consentiti** - Ora la logica di elenco Consentiti si applica non appena la funzione è abilitata, anche se l’elenco è vuoto. [Ulteriori informazioni](../configuration/allow-list.md#logic)
 
-* **Parametri di tracciamento URL** - Ora puoi utilizzare l’editor espressioni per configurare i parametri di tracciamento URL nelle superfici dell’e-mail (ad esempio i predefiniti per messaggi). [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* **Parametri di tracciamento URL** - È ora possibile utilizzare l’editor espressioni per configurare i parametri di tracciamento URL nelle superfici dell’e-mail (ad es. predefiniti). [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 
 **Offer Decisioning**
 

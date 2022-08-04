@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 13%
 
 ---
@@ -49,7 +49,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 
-1. Una volta creata, la regola viene visualizzata nell’elenco delle regole. È possibile selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
+1. Una volta creata la regola, questa viene visualizzata nella **[!UICONTROL Rules]** elenco. È possibile selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
 
    ![](../assets/rule_created.png)
 

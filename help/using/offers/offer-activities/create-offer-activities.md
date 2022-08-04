@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -88,9 +88,9 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
       Scopri come creare una regola decisionale in [questa sezione](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >Quando selezioni segmenti o regole decisionali, vengono visualizzate informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
+1. Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. Definisci il metodo di classificazione da utilizzare per selezionare l’offerta migliore per ciascun profilo.
 
@@ -142,7 +142,7 @@ Se tutto è configurato correttamente, viene visualizzato un riepilogo delle pro
 
    ![](../assets/review-decision.png)
 
-   È possibile espandere o comprimere ogni posizionamento. Puoi anche visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ogni posizionamento.
+1. È possibile espandere o comprimere ogni posizionamento. Puoi visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ogni posizionamento. Puoi anche visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
 
    ![](../assets/review-decision-details.png)
 

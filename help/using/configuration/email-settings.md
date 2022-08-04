@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -192,9 +192,13 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-È inoltre possibile modificare **[!UICONTROL Value]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor espressioni. Da qui puoi selezionare gli attributi contestuali desiderati e/o modificare direttamente il testo.
+È inoltre possibile modificare **[!UICONTROL Value]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui puoi selezionare gli attributi contestuali desiderati e/o modificare direttamente il testo.
 
 ![](assets/preset-url-tracking-editor.png)
+
+>[!NOTE]
+>
+>È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -203,10 +207,6 @@ Di seguito sono riportati alcuni esempi di URL compatibili con Adobe Analytics e
 * URL compatibile con Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Google Analytics URL compatibile: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
-
->[!NOTE]
->
->È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
 
 Puoi visualizzare in anteprima dinamica l’URL di tracciamento risultante. Ogni volta che aggiungi, modifichi o rimuovi un parametro, l’anteprima viene aggiornata automaticamente.
 
