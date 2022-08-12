@@ -44,7 +44,7 @@ Dalla schermata Attività del set di dati, seleziona **Anteprima set di dati** n
 
 Per creare un nuovo set di dati, inizia selezionando **Creare un set di dati** nel dashboard Set di dati.
 
-È possibile:
+Puoi eseguire le seguenti operazioni:
 
 * Crea set di dati dallo schema. [Ulteriori informazioni in questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
 * Crea set di dati da file CSV. [Ulteriori informazioni in questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}

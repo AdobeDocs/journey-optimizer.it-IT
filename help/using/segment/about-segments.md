@@ -27,7 +27,7 @@ Puoi sfruttare i segmenti nei percorsi in diversi modi:
 
 * Utilizza la **Qualificazione di un segmento** attività dell’evento per consentire a singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti argento entrino in un percorso e inviino loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../building-journeys/segment-qualification-events.md).
 
-* Crea **condizioni complesse** nei percorsi utilizzando l’editor di espressioni semplice o avanzato. [Ulteriori informazioni](../building-journeys/condition-activity.md#using-a-segment).
+* Crea **condizioni complesse** nei percorsi utilizzando l’editor di espressioni semplice o avanzato. Ulteriori informazioni in [questa sezione](../building-journeys/condition-activity.md#using-a-segment).
 
 ## Metodo di valutazione in Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
 

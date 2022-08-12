@@ -9,11 +9,11 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 3%
+ht-degree: 24%
 
 ---
 
-# E-mail, SMS, push{#add-a-message-in-a-journey}
+# Messaggi e-mail, SMS e push{#add-a-message-in-a-journey}
 
 [!DNL Journey Optimizer] include funzionalità integrate per messaggi. Puoi semplicemente aggiungere, nel tuo percorso, un’attività push, un SMS o un messaggio e-mail e [definire impostazioni e contenuto](../messages/get-started-content.md). Viene quindi eseguito e inviato nel contesto del percorso
 
@@ -28,9 +28,9 @@ Puoi anche impostare azioni specifiche per l’invio dei messaggi:
 
 Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
 
-1. Inizia il tuo percorso con un [Evento](general-events.md) o [Leggi segmento](read-segment.md) attività.
+1. Inizia il tuo percorso con un [Evento](general-events.md) o un’attività [Leggi segmento](read-segment.md).
 
-1. Da **Azioni** sezione della palette, trascinare e rilasciare un **email**, un **SMS** o **Push** nell’area di lavoro.
+1. Dalla sezione **Azioni** della palette, trascina un’attività **E-mail**, **SMS** o **Push** nell’area di lavoro.
 
    ![](../messages/assets/add-a-message.png)
 

@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 7%
@@ -63,4 +64,3 @@ La prossima volta che crei un’e-mail, puoi utilizzare questo modello per crear
 1. Fai clic su **[!UICONTROL Use this email]** in alto a destra sullo schermo.
 
 1. Modifica il contenuto nel modo desiderato utilizzando la finestra di progettazione e-mail.
-

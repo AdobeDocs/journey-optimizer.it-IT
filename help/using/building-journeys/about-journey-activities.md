@@ -9,7 +9,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ Nella palette a sinistra dello schermo sono disponibili le seguenti attività di
 
 Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai la **[!UICONTROL Actions]** categoria. Sono disponibili le seguenti attività di azione:
 
-* [E-mail, SMS, push](../building-journeys/journeys-message.md)
+* [Messaggi e-mail, SMS e push](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
 * [Salta](../building-journeys/jump.md)
 

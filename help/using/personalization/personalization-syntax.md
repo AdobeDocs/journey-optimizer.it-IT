@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '704'
 ht-degree: 10%
 
 ---
 
 # Sintassi di personalizzazione {#personalization-syntax}
 
-Personalization in [!DNL Journey Optimizer] si basa sulla sintassi del modello denominata Handlebars.
+Personalizzazione in [!DNL Journey Optimizer] si basa sulla sintassi del modello denominata Handlebars.
 Per una descrizione completa della sintassi Handlebars, fai riferimento a [Documentazione di HandlebarsJS](https://handlebarsjs.com/).
 
 Utilizza un modello e un oggetto di input per generare HTML o altri formati di testo. I modelli Handlebars hanno un aspetto simile al testo normale con espressioni Handlebars incorporate.
@@ -121,7 +121,7 @@ Un helper Handlebars è un identificatore semplice che può essere seguito da pa
 Ogni parametro è un&#39;espressione Handlebars. È possibile accedere a questi helper da qualsiasi contesto in un modello.
 
 Questi collaboratori di blocco sono identificati da un # che precede il nome dell&#39;helper e richiedono una chiusura / corrispondente, con lo stesso nome.
-I blocchi sono espressioni con un blocco di apertura ({{# }}) e chiusura ({{/}}).
+I blocchi sono espressioni con un blocco di apertura ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]

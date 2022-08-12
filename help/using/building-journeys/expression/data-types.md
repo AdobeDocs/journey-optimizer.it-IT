@@ -49,7 +49,7 @@ Formato di serializzazione: UTF-8
 'hello world'
 ```
 
-## integer {#integer}
+## numero intero {#integer}
 
 **Descrizione**
 

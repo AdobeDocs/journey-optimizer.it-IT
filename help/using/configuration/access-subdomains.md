@@ -26,7 +26,7 @@ La **[!UICONTROL Status]** La colonna fornisce informazioni sul processo di dele
 * **[!UICONTROL Success]**: Il sottodominio ha superato i controlli con successo e può essere utilizzato per inviare messaggi,
 * **[!UICONTROL Failed]**: Uno o più controlli non sono riusciti dopo l’invio della delega del sottodominio.
 
-Per accedere a informazioni dettagliate su un sottodominio, aprilo dall’elenco. È possibile:
+Per accedere a informazioni dettagliate su un sottodominio, aprilo dall’elenco. Puoi eseguire le seguenti operazioni:
 
 * Recupera il nome del sottodominio (sola lettura) configurato durante il processo di delega, nonché gli URL generati (risorse, pagine mirror, URL di tracciamento),
 

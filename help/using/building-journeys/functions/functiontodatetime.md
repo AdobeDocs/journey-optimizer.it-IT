@@ -9,7 +9,7 @@ exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -32,7 +32,7 @@ Conversione
 | ora in formato ISO-8601 | stringa |
 | id fuso orario | stringa |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un&#39;epoch in millisecondi | integer |
+| valore intero di un&#39;epoch in millisecondi | numero intero |
 
 >[!NOTE]
 >

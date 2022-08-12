@@ -56,7 +56,7 @@ Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti in 
 
 ## Integrazione con il Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] gli eventi di passaggio possono essere collegati ad altri set di dati in [Customer Journey Analytics Adobe](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] gli eventi di passaggio possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target=&quot;_blank&quot;}.
 
 Il flusso di lavoro generale è:
 

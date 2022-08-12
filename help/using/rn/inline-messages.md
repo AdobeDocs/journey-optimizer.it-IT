@@ -5,7 +5,7 @@ exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1732'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >abstract="A partire dal 25 luglio 2022, il menu Messaggi scompare e i messaggi vengono creati direttamente da un Percorso. Per riutilizzare i messaggi legacy nei percorsi, è necessario salvarli come modelli."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Salvare i messaggi come modelli"
 
-Adobe Journey Optimizer sta rilasciando una nuova funzione che migliora il modo in cui crei contenuti per i canali Journey Optimizer (e-mail, push, SMS). In qualità di professionista di Journey Optimizer, ora puoi creare e creare i messaggi direttamente da un percorso.
+Adobe Journey Optimizer sta rilasciando una nuova funzione che migliora il modo in cui crei contenuti per i canali Journey Optimizer (e-mail, push, SMS). In qualità di utente business di Journey Optimizer, adesso puoi creare i messaggi direttamente da un percorso.
 
 Questa funzione richiede una migrazione dei percorsi esistenti che utilizzano i messaggi. In questa pagina trovi le informazioni necessarie su questa modifica e i passaggi che ti sono necessari.
 
@@ -65,7 +65,7 @@ Here are the main changes in the interface:
 
    ![](assets/inline-migration-timeline.png)
 
-* **Azioni necessarie**: viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi. Ulteriori informazioni sui passaggi richiesti in questo [page](../rn/inline-messages-steps.md).
+* **Azioni necessarie**: viene eseguita una conversione automatica dei percorsi. Ma abbiamo bisogno del tuo aiuto in alcuni passaggi. Ulteriori informazioni sui passaggi richiesti in questo [page](../rn/inline-messages-steps.md).
 
 * **Obsolescenza**: dopo il 6 settembre, tutti i percorsi che utilizzano ancora messaggi legacy vengono interrotti e verranno eliminati in seguito.
 
@@ -108,7 +108,7 @@ In GA (25 luglio), questo nuovo flusso utente si applica a tutti i nuovi percors
 
 ## Timeline di migrazione{#iterations}
 
-È necessaria una migrazione per trasformare i percorsi esistenti utilizzando **Messaggi** in percorsi con azioni di authoring in linea. Viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi.
+È necessaria una migrazione per trasformare i percorsi esistenti utilizzando **Messaggi** in percorsi con azioni di authoring in linea. Varrà eseguita la conversione automatica dei percorsi. Ma abbiamo bisogno del tuo aiuto in alcuni passaggi.
 
 La migrazione si verifica per ogni regione di notte, attraverso diverse iterazioni. Ecco la timeline della migrazione:
 

@@ -1,17 +1,17 @@
 ---
 title: Passaggi per migrare all’authoring in linea di percorso
 description: Passaggi per migrare all’authoring in linea di percorso
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-
 # Passaggi per la migrazione dell’authoring in linea{#migration-steps}
 
-Il nuovo processo di authoring dei contenuti in Adobe Journey Optimizer è descritto in questo [page](../rn/inline-messages.md). Viene eseguita una conversione automatica dei percorsi. Detto questo, abbiamo bisogno del vostro aiuto con alcuni passi.
+Il nuovo processo di authoring dei contenuti in Adobe Journey Optimizer è descritto in questo [page](../rn/inline-messages.md). Varrà eseguita la conversione automatica dei percorsi. Ma abbiamo bisogno del tuo aiuto in alcuni passaggi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344699)
 
@@ -190,4 +190,3 @@ Se non hai pubblicato versioni di percorso più recenti (consulta questo [sezion
 ## Prima della terza e ultima iterazione (5 settembre){#migration-step-4}
 
 Tra il 1° agosto e il 5 settembre, dovrai verificare che sia stata effettuata la migrazione di tutto e che non siano rimasti percorsi che utilizzano ancora i messaggi, altrimenti saranno dichiarati obsoleti il 5 settembre.
-

@@ -1,5 +1,5 @@
 ---
-title: Impostare le superfici del canale
+title: Impostare le superfici di canale
 description: Scopri come configurare e monitorare le superfici dei canali
 feature: Application Settings
 topic: Administration
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# Impostare le superfici del canale {#set-up-channel-surfaces}
+# Impostare le superfici di canale {#set-up-channel-surfaces}
 
 Con [!DNL Journey Optimizer], puoi impostare le superfici del canale (ad esempio i predefiniti per messaggi) che definiscono tutti i parametri tecnici necessari per i messaggi: tipo di e-mail, indirizzo e-mail e nome del mittente, app mobile e altro ancora.
 

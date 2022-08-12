@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 1%
@@ -135,4 +136,3 @@ Una volta personalizzati i trattamenti, puoi iniziare a configurare l’esperime
 Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** scheda descrive le informazioni principali relative alle prestazioni di ogni variante e se durante il test è stato ottenuto un risultato migliore.
 
 Per ulteriori dettagli su questo rapporto, consulta [Report globale della campagna](../campaigns/content-experiment.md#experimentation-report) pagina.
-

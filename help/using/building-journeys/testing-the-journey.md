@@ -136,7 +136,7 @@ Viene visualizzato il numero di persone (tecnicamente si chiamano istanze) attua
 
 * _Id_: l’ID interno della persona nel percorso. Può essere utilizzato a scopo di debug.
 * _currentstep_: il passo in cui si trova l&#39;individuo nel percorso. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
-* _currentstep_ > fase: lo stato del percorso dell’utente (in esecuzione, finito, errore o timeout). Per ulteriori informazioni, consulta di seguito.
+* _currentstep_ > fase: lo stato del percorso dell’utente (in esecuzione, finito, errore o timeout). Per ulteriori informazioni, vedi di seguito.
 * _currentstep_ > _extraInfo_: descrizione dell’errore e di altre informazioni contestuali.
 * _currentstep_ > _fetchErrors_: informazioni sugli errori di recupero dati che si sono verificati durante questo passaggio.
 * _externalKeys_: il valore della formula chiave definita nell&#39;evento.

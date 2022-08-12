@@ -1,5 +1,5 @@
 ---
-title: Classificazione delle formule
+title: Formule di classificazione
 description: Scopri come creare formule per classificare le offerte
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Classificazione delle formule {#create-ranking-formulas}
+# Formule di classificazione {#create-ranking-formulas}
 
 ## Informazioni sulla classificazione delle formule {#about-ranking-formulas}
 

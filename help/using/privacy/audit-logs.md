@@ -8,7 +8,7 @@ exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,14 +41,14 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di aud
 | Predefinito pagina di destinazione AJO | Crea/Elimina/Aggiorna |
 | Sottodominio della pagina di destinazione AJO | Crea/Elimina/Aggiorna |
 | Messaggio AJO | Crea/Elimina/Aggiorna/Pubblica |
-| Superficie del canale AJO | Crea/Elimina/Aggiorna |
+| Superficie di canale AJO | Crea/Elimina/Aggiorna |
 | Record PTR AJO | Crea/Elimina/Aggiorna |
 | Modello di espressione salvata AJO | Crea/Elimina/Aggiorna |
 | Credenziali API SMS AJO | Crea/Elimina/Aggiorna |
 | Sottodominio AJO | Crea/Elimina/Aggiorna |
 | Elenco di eliminazione AJO | Crea/Elimina/Scarica CSV |
 | Gruppo di campi | Crea/Elimina/Aggiorna |
-| Percorso | Crea/Elimina/Arresta/Pubblica |
+| Percorso | Crea/Elimina/Interrompi/Pubblica |
 | Azione personalizzata percorso | Crea/Elimina/Aggiorna |
 | Origine dati percorso | Crea/Elimina/Aggiorna |
 | Evento percorso | Crea/Elimina/Aggiorna |

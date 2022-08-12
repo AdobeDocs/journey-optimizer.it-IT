@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 94%
       + [Introduzione all’esperimento sui contenuti](using/campaigns/get-started-experiment.md)
       + [Creazione di un esperimento sul contenuto](using/campaigns/content-experiment.md)
       + [Comprendere i calcoli statistici](using/campaigns/experiment-calculations.md)
-   + [Campagne di trigger tramite API](using/campaigns/api-triggered-campaigns.md)
+   + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
    + Rapporti {#reports}
       + [Rapporto live della campagna](using/campaigns/campaign-live-report.md)
       + [Rapporto globale della campagna](using/campaigns/campaign-global-report.md)
@@ -53,7 +53,7 @@ ht-degree: 94%
    + [Creare un messaggio SMS](using/messages/create-sms.md)
    + [Controllare gli avvisi](using/messages/alerts.md)
    + [Gestire il consenso](using/messages/consent.md)
-   + [Ottimizzazione del tempo di invio](using/messages/send-time-optimization.md)
+   + [Ottimizzazione dell’ora di invio](using/messages/send-time-optimization.md)
 + Progettazione di contenuti {#design}
    + [Introduzione alla progettazione delle e-mail](using/design/design-emails.md)
    + [Inizia da zero ](using/design/create-email-content.md)
@@ -90,8 +90,8 @@ ht-degree: 94%
    + [Contesti di personalizzazione](using/personalization/personalization-contexts.md)
    + Creare espressioni {#build-expressions}
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
-      + Utilizzare l’editor espressioni {#expression-editor}
-         + [Informazioni sull’editor espressioni](using/personalization/personalization-build-expressions.md)
+      + Utilizzare l’editor di espressioni {#expression-editor}
+         + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
          + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
          + [Utilizza espressioni salvate](using/personalization/personalization-library.md)
          + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
@@ -140,7 +140,7 @@ ht-degree: 94%
       + [Condizione](using/building-journeys/condition-activity.md)
       + [Attendi](using/building-journeys/wait-activity.md)
       + [Leggi segmento](using/building-journeys/read-segment.md)
-      + [E-mail, SMS, push](using/building-journeys/journeys-message.md)
+      + [Messaggi e-mail, SMS e push](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -279,7 +279,7 @@ ht-degree: 94%
       + [Formule di classificazione](using/offers/ranking/create-ranking-formulas.md)
       + Modelli IA {#ai-models}
          + [Informazioni sui modelli AI](using/offers/ranking/ai-models.md)
-         + Tipi di modelli AI {#ai-model-types}
+         + Tipi di modelli basati su IA {#ai-model-types}
             + [Modello di ottimizzazione automatica](using/offers/ranking/auto-optimization-model.md)
             + [Modello di ottimizzazione personalizzata](using/offers/ranking/personalized-optimization-model.md)
          + Creare modelli AI {#configure-ai-model}
@@ -297,7 +297,7 @@ ht-degree: 94%
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
       + [Creare simulazioni](using/offers/offer-activities/simulation.md)
-   + [Decisioni in batch](using/offers/batch-delivery.md)
+   + [Batch Decisioning](using/offers/batch-delivery.md)
    + Creare rapporti di gestione delle decisioni {#create-reports}
       + [Introduzione agli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
       + [Informazioni chiave sugli eventi di Gestione delle decisioni](using/offers/reports/key-information.md)
@@ -355,7 +355,7 @@ ht-degree: 94%
          + [Aggiornare una decisione](using/offers/api-reference/activities-api/activities/update.md)
          + [Eliminare una decisione](using/offers/api-reference/activities-api/activities/delete.md)
       + Consegnare offerte tramite API {#offer-delivery-api}
-         + [Guida introduttiva alle API di consegna delle offerte](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + [Introduzione alla consegna delle offerte tramite API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
@@ -385,7 +385,7 @@ ht-degree: 94%
             + [Nuovi tentativi](using/configuration/retries.md)
             + [Elenco Consentiti](using/configuration/allow-list.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
-      + Impostare le superfici del canale {#set-up-channels}
+      + Impostare le superfici di canale {#set-up-channels}
          + [Creare superfici di canale](using/configuration/channel-surfaces.md)
          + [Configurare le impostazioni e-mail](using/configuration/email-settings.md)
          + [Utilizzare la funzione E-mail Ccn](using/configuration/bcc-email.md)

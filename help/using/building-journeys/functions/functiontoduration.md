@@ -30,7 +30,7 @@ Conversione
 | Parametro | Descrizione |
 |--- |--- |
 | stringa | formati basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore |
-| integer | numero di millisecondi |
+| numero intero | numero di millisecondi |
 
 Espressione stringa If: I formati accettati si basano sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore.
 

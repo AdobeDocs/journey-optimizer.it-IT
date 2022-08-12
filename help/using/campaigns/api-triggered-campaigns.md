@@ -1,5 +1,5 @@
 ---
-title: Campagne di trigger tramite API
+title: Attivare campagne tramite API
 description: Scopri come attivare le campagne utilizzando [!DNL Journey Optimizer] API
 hide: true
 hidefromtoc: true
@@ -7,11 +7,11 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Campagne di trigger tramite API {#trigger-campaigns}
+# Attivare campagne tramite API {#trigger-campaigns}
 
 ## Informazioni sulle campagne attivate dall’API {#about}
 

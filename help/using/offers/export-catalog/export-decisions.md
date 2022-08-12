@@ -9,7 +9,7 @@ exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '1546'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -34,7 +34,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
-**Tipo:** string
+**Tipo:** stringa
 
 ## _esperienza {#experience}
 
@@ -58,7 +58,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** descrizione
 **Titolo:** Descrizione
 **Descrizione:** Descrizione del criterio. Viene utilizzato per comunicare le intenzioni comprensibili all&#39;uomo su come o perché questo criterio è stato elaborato e come influisce sulla decisione.
-**Tipo:** string
+**Tipo:** stringa
 
 **_esperienza > decisione > criteri > opzioneSelezione**
 
@@ -72,21 +72,21 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
    **Campo:** descrizione
    **Titolo:** Descrizione
    **Descrizione:** Descrizione selezione opzione. Viene utilizzato per comunicare le intenzioni di lettura umana su come o perché è stata costruita questa selezione di opzioni e/o quale opzione corrisponderà.
-   **Tipo:** string
+   **Tipo:** stringa
 
 * **Filtro opzione**
 
    **Campo:** filter
    **Titolo:** Filtro opzione
    **Descrizione:** Il riferimento a un filtro basato su tag che corrisponde alle opzioni di un inventario utilizzando i relativi tag allegati. Il valore è l&#39;URI (@id) della regola decisionale a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/filter.
-   **Tipo:** string
+   **Tipo:** stringa
 
 * **Tipo di vincolo del profilo**
 
    **Campo:** optionSelectionType
    **Titolo:** Tipo di vincolo del profilo
    **Descrizione:** Determina se sono attualmente impostati vincoli e come vengono espressi i vincoli. Potrebbe essere attraverso una query di filtro o attraverso una o più appartenenze al segmento.
-   **Tipo:** string
+   **Tipo:** stringa
    **Valori possibili:** &quot;none&quot; (predefinito), &quot;directList&quot;, &quot;filter&quot;
 
 * **Elenco opzioni**
@@ -109,7 +109,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 
    **Titolo:** Identificatore di posizionamento
    **Descrizione:** Un riferimento a un’entità di posizionamento. Il valore è l’URI (@id) del posizionamento a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/placement.
-   **Tipo:** string
+   **Tipo:** stringa
 
 **_esperienza > decisioni > criteri > profileConstraints**
 
@@ -123,21 +123,21 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
    **Campo:** descrizione
    **Titolo:** Descrizione
    **Descrizione:** Descrizione del vincolo di profilo. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché è stato costruito questo vincolo di profilo e/o quale opzione sarà inclusa o esclusa da esso.
-   **Tipo:** string
+   **Tipo:** stringa
 
 * **_esperienza > decisione > criteri > profileConstraints > Regola di idoneità**
 
    **Campo:** adaptRule
    **Titolo:** Regola di idoneità
    **Descrizione:** Un riferimento a una regola decisionale che restituisce true o false per un determinato profilo e/o altri oggetti XDM contestuali specificati. La regola viene utilizzata per decidere se l’opzione è idonea per un determinato profilo. Il valore è l&#39;URI (@id) della regola decisionale a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/rule.
-   **Tipo:** string
+   **Tipo:** stringa
 
 * **_esperienza > decisione > criteri > profileConstraints > Tipo di vincolo del profilo**
 
    **Campo:** profileConstraintType
    **Titolo:** Tipo di vincolo del profilo
    **Descrizione:** Determina se sono attualmente impostati vincoli e come vengono espressi i vincoli. Potrebbe essere attraverso una regola o attraverso una o più appartenenze al segmento.
-   **Tipo:** string
+   **Tipo:** stringa
    **Valori possibili:**
    * &quot;none&quot; (predefinito)
    * &quot;criteri di idoneità&quot;: &quot;Il vincolo di profilo è espresso come una singola regola che deve essere valutata come true prima che l&#39;azione vincolata sia consentita.&quot;
@@ -157,7 +157,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
       **Campo:** _id
       **Titolo:** Identificatore
       **Descrizione:** Identità del segmento nello spazio dei nomi correlato.
-      **Tipo:** string
+      **Tipo:** stringa
 
    * **namespace**
 
@@ -172,13 +172,13 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
          **Campo:** codice
          **Titolo:** Codice
          **Descrizione:** Il codice è un identificatore leggibile dall’utente per lo spazio dei nomi e può essere utilizzato per richiedere l’ID tecnico dello spazio dei nomi utilizzato per l’elaborazione del grafico delle identità.
-         **Tipo:** string
+         **Tipo:** stringa
    * **Identificatore esperienza**
 
       **Campo:** xid
       **Titolo:** Identificatore esperienza
       **Descrizione:** Se presente, questo valore rappresenta un identificatore dello spazio dei nomi incrociato univoco per tutti gli identificatori con ambito dello spazio dei nomi in tutti i namespace.
-      **Tipo:** string
+      **Tipo:** stringa
 
 
 **_esperienza > decisionale > criteri > classificazione**
@@ -200,14 +200,14 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
       **Campo:** Funzione
       **Titolo:** Funzione di punteggio
       **Descrizione:** Riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione saranno quindi ordinate (classificate) in base a quel punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/function.
-      **Tipo:** string
+      **Tipo:** stringa
 
    * **Tipo di valutazione ordine**
 
       **Campo:** orderEvaluationType
       **Titolo:** Tipo di valutazione ordine
       **Descrizione:** Specifica quale meccanismo di valutazione dell&#39;ordine viene utilizzato, priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarlo.
-      **Tipo:** string
+      **Tipo:** stringa
       **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
    * **Strategia di classificazione**
@@ -215,7 +215,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
       **Campo:** rankingStrategy
       **Titolo:** Strategia di classificazione
       **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni decisionali. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-      **Tipo:** string
+      **Tipo:** stringa
 
 * **_esperienza > decisionale > criteri > classificazione > Priorità**
 
@@ -231,28 +231,28 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** endTime
 **Titolo:** Data e ora di fine attività
 **Descrizione:** Data e ora di fine della decisione (precedentemente nota come attività). La proprietà ha la semantica della proprietà &#39;endTime&#39; di schema.org definita su http://schema.org/Action.
-**Tipo:** string
+**Tipo:** stringa
 
 #### _esperienza > decisionale > Opzione di fallback
 
 **Campo:** fallback
 **Titolo:** Opzione di fallback
 **Descrizione:** Il riferimento a un&#39;opzione di fallback utilizzata quando si prende una decisione nel contesto di questa decisione non qualifica nessuna delle opzioni regolari (questo accade in genere quando si applicano vincoli rigidi). Il valore è l’URI (@id) dell’opzione di fallback a cui si fa riferimento.
-**Tipo:** string
+**Tipo:** stringa
 
 #### _esperienza > decisionale > Nome attività
 
 **Campo:** name
 **Titolo:** Nome attività
 **Descrizione:** Nome della decisione (precedentemente noto come attività) visualizzato in diverse interfacce utente.
-**Tipo:** string
+**Tipo:** stringa
 
 #### _esperienza > decisionale > Data e ora di inizio attività
 
 **Campo:** startTime
 **Titolo:** Data e ora di inizio attività
 **Descrizione:** Data e ora di inizio e di fine della decisione (precedentemente nota come attività). La proprietà ha la semantica della proprietà &#39;startTime&#39; di schema.org definita su http://schema.org/Action.
-**Tipo:** string
+**Tipo:** stringa
 
 ## _repo {#repo}
 
@@ -264,4 +264,4 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** etag
 **Titolo:** Attività ETag
 **Descrizione:** Revisione in cui si trovava l&#39;oggetto decisione (precedentemente noto come attività) al momento dell&#39;esecuzione dello snapshot.
-**Tipo:** string
+**Tipo:** stringa

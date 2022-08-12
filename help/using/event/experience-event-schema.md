@@ -9,7 +9,7 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -51,9 +51,9 @@ Qualsiasi schema XDM utilizzato per [!DNL Journey Optimizer] gli eventi devono s
 
    ![](assets/schema8.png)
 
-## Sfruttamento delle relazioni tra schemi{#leverage_schema_relationships}
+## Sfruttare le relazioni tra schemi{#leverage_schema_relationships}
 
-Adobe Experience Platform ti consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro.
+Adobe Experience Platform consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro.
 
 Supponiamo che il modello dati del brand abbia uno schema che cattura gli acquisti. Inoltre è disponibile uno schema per il catalogo dei prodotti. Puoi acquisire l’ID prodotto nello schema di acquisto e utilizzare una relazione per cercare dettagli di prodotto più completi dal catalogo prodotti. Ciò ti consente di creare un segmento per tutti i clienti che hanno acquistato un laptop, ad esempio, senza dover elencare esplicitamente tutti gli ID dei laptop o acquisire ogni singolo dettaglio di prodotto nei sistemi transazionali.
 

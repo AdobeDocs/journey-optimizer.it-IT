@@ -5,14 +5,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
+source-git-commit: a288c218cc90838e4961d098691c36dbee1c4af1
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Regolare l’allineamento verticale e la spaziatura {#adjusting-vertical-alignment-and-padding}
+# Regola l’allineamento verticale e la spaziatura {#adjusting-vertical-alignment-and-padding}
 
 In questo esempio, regoleremo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 

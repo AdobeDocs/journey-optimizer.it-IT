@@ -9,7 +9,7 @@ exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -37,7 +37,7 @@ Elenco
 | elenco | listDateTime |
 | elenco | listDateTimeOnly |
 | elenco | listDateOnly |
-| index | integer |
+| index | numero intero |
 
 ## Firme e tipo restituito
 

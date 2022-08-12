@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
 source-wordcount: '1772'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -21,13 +21,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Luglio 2022 {#july-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione del 22 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
-* La **Impostare le superfici del canale** è stata chiarita e aggiornata con i collegamenti alla pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
-* Nelle proprietà del percorso, il **Fuso orario del profilo** per impostazione predefinita, l’opzione è disabilitata. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
+* La sezione **Impostare le superfici di canale** è stata resa più chiara e aggiornata con collegamenti verso la pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
+* Nelle proprietà del percorso, l’opzione **Fuso orario del profilo** è disabilitata per impostazione predefinita. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
 
-* In **Wait** l&#39;attività **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
-* Sono state aggiunte ulteriori informazioni sulla **Lettura incrementale** in **Leggi segmento** attività. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Sono state aggiunte raccomandazioni sul **Limite del profilo** tipo di condizione. [Ulteriori informazioni](../building-journeys/condition-activity.md#profile_cap)
-* È stata aggiunta una limitazione agli eventi aziendali. [Ulteriori informazioni](../start/guardrails.md#events-g)
+* Nell’attività **Attendi** l’opzione **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
+* Sono state aggiunte ulteriori informazioni sull’opzione **Lettura incrementale** nell’attività **Leggi segmento**. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Sono state aggiunte raccomandazioni sul tipo di condizione **Limite del profilo**. [Ulteriori informazioni](../building-journeys/condition-activity.md#profile_cap)
+* È stata aggiunta una limitazione agli eventi di business. [Ulteriori informazioni](../start/guardrails.md#events-g)
 
 ## Giugno 2022 {#june-2022}
 
@@ -43,7 +43,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La pagina Elenco di eliminazione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo dell’eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 * È stato aggiunto il collegamento ai guardrail e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
 * L’ottimizzazione dell’ora di invio è ora disponibile per tutti i clienti. Il riferimento a “beta” è stato rimosso. [Ulteriori informazioni](../messages/send-time-optimization.md)
-* L’API Batch Decisioning è stata aggiunta all’elenco delle API disponibili per la distribuzione di offerte personalizzate. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* L’API Batch Decisioning è stata aggiunta all’elenco delle API disponibili per la consegna di offerte personalizzate. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Maggio 2022 {#may-2022}
 

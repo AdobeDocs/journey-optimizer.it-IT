@@ -9,7 +9,7 @@ exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -28,7 +28,7 @@ Operazioni matematiche
 ## Parametri
 
 * decimale
-* integer
+* numero intero
 
 ## Firme e tipo restituito
 

@@ -9,7 +9,7 @@ exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 11%
+ht-degree: 26%
 
 ---
 
@@ -21,28 +21,28 @@ Questo gruppo di campi viene utilizzato nello schema di percorso (in relazione a
 
 ID del percorso principale.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersionID {#journeyversionid-field}
 
 ID della versione del percorso. Questo ID rappresenta l&#39;identità di un percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## name {#name-field}
 
 Nome del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## descrizione {#description-field}
 
 Descrizione del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## version {#version-field}
 
 Versione, rappresentata come `major`.`minor`
 
-Tipo: string
+Tipo: stringa

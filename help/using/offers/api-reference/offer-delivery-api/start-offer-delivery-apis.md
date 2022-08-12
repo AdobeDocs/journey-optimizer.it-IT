@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva alle API di consegna delle offerte
+title: Introduzione alla consegna delle offerte tramite API
 description: Ulteriori informazioni sulle API disponibili per distribuire offerte personalizzate.
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Guida introduttiva alle API di consegna delle offerte {#about-decisioning-apis}
+# Introduzione alla consegna delle offerte tramite API {#about-decisioning-apis}
 
 Puoi fornire offerte utilizzando **Decisioni** o **Edge Decisioning** API. Inoltre, la **Decisioni in batch** L’API ti consente di offrire a tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
 
