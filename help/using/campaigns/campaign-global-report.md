@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
+source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 2%
@@ -51,7 +51,7 @@ La **[!UICONTROL Campaign's Statistics]** i dettagli del widget forniscono le in
 
 La **[!UICONTROL Objectives]** la scheda del rapporto Campaign ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
 
-La **[!UICONTROL Objectives]** sono collegati a **[!UICONTROL Datasets]** che definiscono una connessione a un sistema per recuperare informazioni aggiuntive. Un elenco di elementi incorporati **[!UICONTROL Objectives]** è disponibile ma puoi aggiungerne una nuova **[!UICONTROL Dataset]**. Per la procedura dettagliata, consulta questa documentazione.
+La **[!UICONTROL Objectives]** sono collegati a **[!UICONTROL Datasets]** che definiscono una connessione a un sistema per recuperare informazioni aggiuntive. Un elenco di elementi incorporati **[!UICONTROL Objectives]** è disponibile ma puoi aggiungerne una nuova **[!UICONTROL Dataset]**. Per la procedura dettagliata, consulta [sezione](reporting-configuration.md).
 
 Dopo aver selezionato gli obiettivi su cui eseguire il targeting, i due **[!UICONTROL Performance overview]** e **[!UICONTROL Campaign objective]** I widget forniscono un riepilogo dettagliato delle prestazioni di consegna.
 
