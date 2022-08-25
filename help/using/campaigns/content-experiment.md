@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 3%
 
 ---
 
@@ -129,10 +129,52 @@ Una volta personalizzati i trattamenti, puoi iniziare a configurare l’esperime
 
    ![](assets/content_experiment_14.png)
 
-## Rapporto di sperimentazione {#experimentation-report}
+Dopo aver configurato la sperimentazione e la campagna, puoi seguire il successo della consegna con il rapporto Campaign.
+
+## Relazione sugli obiettivi {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+![](assets/performance_report.gif)
+
+La **[!UICONTROL Objectives]** la scheda del rapporto Campaign ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
+
+La **[!UICONTROL Objectives]** sono collegati a **[!UICONTROL Datasets]** che definiscono una connessione a un sistema per recuperare informazioni aggiuntive. Un elenco di elementi incorporati **[!UICONTROL Objectives]** è disponibile ma puoi aggiungerne una nuova **[!UICONTROL Dataset]**. Per la procedura dettagliata, consulta [sezione](reporting-configuration.md).
+
+Dopo aver selezionato gli obiettivi su cui eseguire il targeting, i due **[!UICONTROL Performance overview]** e **[!UICONTROL Campaign objective]** I widget forniscono un riepilogo dettagliato delle prestazioni di consegna.
+
+Con la **[!UICONTROL Campaign objective]** widget, puoi anche scegliere di confrontare il tuo obiettivo principale con un&#39;altra metrica.
+
+Tieni presente che ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
+
+## Rapporto di sperimentazione {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ![](assets/experimentation_report_3.png)
 
-Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** scheda descrive le informazioni principali relative alle prestazioni di ogni variante e se durante il test è stato ottenuto un risultato migliore.
+Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Experimentation]** scheda descrive le informazioni principali relative alle prestazioni di ogni variante e se è presente un performer migliore.
 
-Per ulteriori dettagli su questo rapporto, consulta [Report globale della campagna](../campaigns/content-experiment.md#experimentation-report) pagina.
+Tieni presente che la definizione dell’esecutore migliore potrebbe richiedere un po’ di tempo, sarà rappresentata da questa icona ![](assets/experimentation_report_1.png).
+
+La **[!UICONTROL Experiment result]** Il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti dal **[!UICONTROL Baseline]** il menu a discesa. Il miglior trattamento sarà rappresentato da un&#39;icona a forma di stella.
+
+La tabella presenta le metriche seguenti:
+
+* **[!UICONTROL Profiles]**: Numero di profili interessati da questo trattamento.
+
+* **[!UICONTROL Unique outbound clicks]**: Numero totale di clic tra canali in uscita.
+
+* **[!UICONTROL Count per profile]**: Valore totale della metrica obiettivo Esperimento diviso per il numero di profili.
+
+* **[!UICONTROL Confidence interval]**: Differenza percentuale di prestazioni tra la linea di base e il trattamento più performante. [Ulteriori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: Miglioramento percentuale del tasso di conversione di un dato trattamento rispetto alla linea di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: Prova che un dato trattamento è lo stesso del trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
+
+Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).

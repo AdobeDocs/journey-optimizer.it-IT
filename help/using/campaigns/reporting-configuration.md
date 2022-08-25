@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 5%
@@ -94,7 +95,7 @@ Ad esempio, se desideri conoscere l’impatto di una campagna e-mail sui dati di
    >
    >Se hai selezionato un set di dati che non è di tipo evento, non potrai procedere.
 
-Durante la creazione dei rapporti delle consegne, ora puoi utilizzare i dati di questo set di dati per recuperare informazioni personalizzate aggiuntive e perfezionare meglio i rapporti. [Ulteriori informazioni](campaign-global-report.md#objectives-global)
+Durante la creazione dei rapporti delle consegne, ora puoi utilizzare i dati di questo set di dati per recuperare informazioni personalizzate aggiuntive e perfezionare meglio i rapporti. [Ulteriori informazioni](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 8%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +22,18 @@ ht-degree: 8%
 
 ## Informazioni sulle campagne {#about}
 
+>[!IMPORTANT]
+>
+>Questa funzione è disponibile solo per gli utenti con accesso a un profilo di prodotto relativo a Campaign, come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign. Per ulteriori informazioni su come assegnare i profili di prodotto, consulta [questa pagina](../administration/permissions.md).
+
 Le campagne consentono di inviare contenuti una tantum a un segmento specifico utilizzando più canali. A differenza dei percorsi, in cui le azioni sono progettate per essere eseguite in sequenza, le campagne vengono eseguite simultaneamente, immediatamente o su una pianificazione specifica.
 
-Puoi creare due tipi di campagne:
+Questo consente di inviare semplici comunicazioni batch ad hoc per casi di utilizzo del marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
 
-* **Campagne pianificate** consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
-* **Campagne attivate dall’API** consenti messaggi operativi/transazionali semplici con API REST (reimpostazione della password, abbandono della scheda, ecc.), dove la necessità di personalizzare utilizzando gli attributi del profilo e i dati contestuali dal payload.
+<!--You can create two types of campaigns:
 
-Scopri come utilizzare le campagne:
-* [Creare una campagna](create-campaign.md)
-* [Creare campagne con attivazione API](api-triggered-campaigns.md)
-* [Modificare o interrompere una campagna](modify-stop-campaign.md)
-* [Rapporto live della campagna](campaign-live-report.md)
-* [Rapporto globale della campagna](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Accedere alle campagne {#access}
 
@@ -55,7 +52,7 @@ Le campagne possono avere più stati:
 * **[!UICONTROL Live]**: La campagna è stata attivata.
 * **[!UICONTROL Scheduled]**: La campagna è stata configurata per essere attivata in una data di inizio specifica.
 * **[!UICONTROL Stopped]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo (vedi [Interrompere una campagna](modify-stop-campaign.md#stop))
-* **[!UICONTROL Completed]**: La campagna è completa.
+* **[!UICONTROL Completed]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
 * **[!UICONTROL Archived]**: La campagna è stata archiviata.
 
 >[!NOTE]

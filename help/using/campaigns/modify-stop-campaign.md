@@ -1,27 +1,27 @@
 ---
 title: Modificare o interrompere una campagna
-description: Scopri come creare o interrompere una campagna attivata in [!DNL Journey Optimizer]
+description: Scopri come modificare, interrompere o duplicare le campagne live in [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 15%
+source-wordcount: '227'
+ht-degree: 2%
 
 ---
 
-# Modificare o interrompere una campagna {#modify-stop-campaign}
+# Gestire le campagne live {#modify-stop-campaign}
 
-Una volta attivata una campagna, puoi modificarla o interromperla in qualsiasi momento. Per farlo, segui la procedura indicata di seguito.
+Una volta attivata una campagna, puoi modificarla o interromperla in qualsiasi momento. Queste operazioni sono disponibili solo per le campagne con esecuzione ricorrente .
 
-## Modificare una campagna attivata {#modify}
+Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzione ricorrente) per crearne di nuove.
 
-Per modificare e creare una nuova versione di una campagna, effettua le seguenti operazioni:
+## Modificare una campagna ricorrente {#modify}
+
+Per modificare e creare una nuova versione di una campagna ricorrente, effettua le seguenti operazioni:
 
 1. Apri la campagna e fai clic su **[!UICONTROL Modify campaign]** pulsante .
 
@@ -39,20 +39,20 @@ Per modificare e creare una nuova versione di una campagna, effettua le seguenti
    >
    >L’attivazione della bozza sostituirà la versione live della campagna.
 
-## Interrompere una campagna {#stop}
+## Interrompere una campagna ricorrente {#stop}
 
-Per interrompere una campagna, aprilo e fai clic sul pulsante **[!UICONTROL Stop campaign]** pulsante .
+Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UICONTROL Stop campaign]** pulsante .
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Dopo aver interrotto una campagna, questa sarà disponibile solo in modalità di sola lettura. Non potrai riattivarlo o utilizzarlo per creare una nuova campagna.
+>L’arresto di una campagna non interrompe l’invio in corso, ma interrompe l’invio pianificato o le occorrenze successive, se l’invio è già in corso.
 
-## Risorse aggiuntive
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [Introduzione alle campagne](get-started-with-campaigns.md)
-* [Creare una campagna](create-campaign.md)
-* [Creare campagne con attivazione API](api-triggered-campaigns.md)
-* [Rapporto live della campagna](campaign-live-report.md)
-* [Rapporto globale della campagna](campaign-global-report.md)
+## Duplicare una campagna {#duplicate}
+
+Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplicate]**.
+
+![](assets/create-campaign-duplicate.png)

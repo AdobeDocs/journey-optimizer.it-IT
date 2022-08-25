@@ -4,10 +4,10 @@ description: Scopri come attivare le campagne utilizzando [!DNL Journey Optimize
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 4%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 4%
 >
 >L’API di esecuzione dei messaggi interattivi è attualmente in versione beta e potrebbe essere soggetta a frequenti aggiornamenti senza preavviso.
 
-
 Con [!DNL Journey Optimizer], puoi creare campagne e richiamarle da un sistema esterno basato sul trigger dell’utente utilizzando [API REST di esecuzione dei messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Questo ti consente di soddisfare varie esigenze operative e di messaggistica transazionale, come reimpostazioni di password, token OTP e altri.
 
 A questo scopo, devi prima creare una campagna con attivazione API in Journey Optimizer e quindi avviarne l’esecuzione tramite una chiamata API.
@@ -28,7 +27,7 @@ I canali disponibili per le campagne con attivazione API sono messaggi e-mail, S
 
 ## Creare una campagna con attivazione API {#create}
 
-Il processo di creazione di campagne con attivazione API rimane lo stesso delle campagne pianificate, fatta eccezione per la selezione del pubblico che viene eseguita nel payload API. Informazioni dettagliate su come creare una campagna sono disponibili in [questa sezione](create-campaign.md).
+Il processo di creazione di campagne con attivazione API rimane lo stesso delle campagne pianificate, ad eccezione della selezione del pubblico che viene eseguita nel payload API. Informazioni dettagliate su come creare una campagna sono disponibili in [questa sezione](create-campaign.md).
 
 Per creare una campagna con attivazione API, segui questi passaggi:
 
@@ -92,11 +91,3 @@ Nota che, se hai configurato una data di inizio e/o di fine specifica durante la
 >[!NOTE]
 >
 >In alcuni casi, potrebbe essere necessario inviare messaggi transazionali a profili non esistenti nel sistema. Ad esempio, se un utente sconosciuto tenta di accedere al sito web. In tal caso, il profilo corrispondente viene creato automaticamente in Adobe Experience Platform, nel **Set di dati del profilo di messaggistica interattiva AJO** set di dati.
-
-## Risorse aggiuntive
-
-* [Introduzione alle campagne](get-started-with-campaigns.md)
-* [Creare una campagna](create-campaign.md)
-* [Modificare o interrompere una campagna](modify-stop-campaign.md)
-* [Rapporto live della campagna](campaign-live-report.md)
-* [Rapporto globale della campagna](campaign-global-report.md)
