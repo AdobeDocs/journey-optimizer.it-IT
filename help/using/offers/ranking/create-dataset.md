@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +28,11 @@ Prima di creare un modello AI, devi creare un set di dati in cui verranno raccol
 
    >[!NOTE]
    >
-   >    Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella sezione [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
+   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella sezione [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
 
+1. Da **[!UICONTROL Field groups]** a sinistra, seleziona **[!UICONTROL Add]**.
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. In **[!UICONTROL Search]** digitare &quot;proposition Interposition&quot; e selezionare il campo **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi.
 
@@ -37,7 +40,7 @@ Prima di creare un modello AI, devi creare un set di dati in cui verranno raccol
 
    >[!CAUTION]
    >
-   >    Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi associato. In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
+   >Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi associato. In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
 
 1. Fai clic su **[!UICONTROL Add field groups]**.
 
@@ -46,11 +49,11 @@ Prima di creare un modello AI, devi creare un set di dati in cui verranno raccol
    >[!NOTE]
    >Il gruppo di campi era precedentemente noto come mixin.
 
-1. Digitare un nome e salvare lo schema.<!--How do you edit the fields in this new schema? Examples?-->
+1. Digitare un nome e salvare lo schema.
 
 >[!NOTE]
 >
->    Ulteriori informazioni sulla creazione degli schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>Ulteriori informazioni sulla creazione degli schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}.
 
 Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 

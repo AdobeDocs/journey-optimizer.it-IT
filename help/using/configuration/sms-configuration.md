@@ -4,10 +4,10 @@ description: Scopri come configurare il tuo ambiente per l’invio di messaggi S
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 7%
 
 Prima di inviare SMS, configura l’istanza. Devi [integrare le impostazioni del provider](#create-api) con Journey Optimizer e [creare una superficie SMS](#message-preset-sms) (ovvero predefinito SMS). Questi passaggi devono essere eseguiti da un [Amministratore di sistema Adobe Journey Optimizer](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Adobe Journey Optimizer attualmente si integra con fornitori di terze parti come Sinch e Twilio, che offrono servizi SMS indipendenti da Adobe Journey Optimizer.  Prima della configurazione di SMS, devi creare un account con uno di questi provider SMS per ricevere il token API e l’ID servizio che ti consenta di stabilire la connessione tra Adobe Journey Optimizer e il provider SMS applicabile. L’utilizzo dei servizi SMS sarà soggetto a termini e condizioni aggiuntivi da parte del provider di SMS applicabile. Dato che Sinch e Twilio sono prodotti di terze parti disponibili per gli utenti Adobe Journey Optimizer tramite un’integrazione, per qualsiasi problema o richiesta relativa ai servizi SMS, gli utenti di Sinch o Twilio dovranno contattare il provider SMS applicabile per assistenza. L&#39;Adobe non controlla e non è responsabile dei prodotti di terze parti.
 
 ## Creare nuove credenziali API {#create-api}
 
@@ -27,6 +27,11 @@ Prima di inviare SMS, configura l’istanza. Devi [integrare le impostazioni del
 >id="ajo_admin_sms_api"
 >title="Configurare il fornitore di SMS"
 >abstract="Seleziona il fornitore e compila le credenziali API SMS."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="Configurare il fornitore di SMS"
+>abstract="Seleziona le credenziali API configurate per il fornitore SMS."
 
 Per configurare il fornitore di SMS con Journey Optimizer, procedi come segue:
 

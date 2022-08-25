@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Definisci le impostazioni e-mail nella sezione dedicata della configurazione del
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Definire la categoria e-mail"
->abstract="Seleziona il tipo di messaggi da inviare quando utilizzi questa superficie: Marketing per i messaggi promozionali, che richiedono il consenso dell’utente, o transazionali per i messaggi non commerciali, che possono anche essere inviati a profili non abbonati in contesti specifici."
+>abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, o transazionali per e-mail non commerciali, che possono anche essere inviate a profili non abbonati in contesti specifici."
 
 In **TIPO E-MAIL** selezionate il tipo di messaggio da inviare con la superficie: **Marketing** o **Transazionale**.
 

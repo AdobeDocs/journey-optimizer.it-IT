@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,15 +15,17 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Agosto 2022 {#august-2022}
 
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 agosto è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
+* È stata aggiunta una limitazione per i percorsi che utilizzano attività Leggi segmento . [Ulteriori informazioni](../building-journeys/read-segment.md)
+* È stata migliorata la pagina degli operatori del gestore di espressioni. [Ulteriori informazioni](../building-journeys/expression/operators.md)
 
 ## Luglio 2022 {#july-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione del 22 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione **Impostare le superfici di canale** è stata resa più chiara e aggiornata con collegamenti verso la pagina che descrive come configurare il canale SMS. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * Nelle proprietà del percorso, l’opzione **Fuso orario del profilo** è disabilitata per impostazione predefinita. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * Nell’attività **Attendi** l’opzione **Data fissa** non è più disponibile. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 * Sono state aggiunte ulteriori informazioni sull’opzione **Lettura incrementale** nell’attività **Leggi segmento**. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Sono state aggiunte raccomandazioni sul tipo di condizione **Limite del profilo**. [Ulteriori informazioni](../building-journeys/condition-activity.md#profile_cap)

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,6 +46,10 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Segment properties]** visualizza informazioni sui profili stimati appartenenti al segmento. Fai clic su **[!UICONTROL Refresh estimate]** per aggiornare i dati.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
+
+   >[!NOTE]
+   >
+   >Le stime del profilo non sono disponibili quando i parametri delle regole includono dati non presenti nel profilo, ad esempio dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia ≥ 80 gradi.
 
 1. Fai clic su **[!UICONTROL Save]** per confermare.
 

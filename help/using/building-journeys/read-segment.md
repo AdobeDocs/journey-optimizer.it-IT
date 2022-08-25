@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,6 +27,8 @@ Utilizza la **Leggi segmento** per fare entrare nel percorso tutti gli individui
 Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot; creato in [Creare segmenti](../segment/about-segments.md) caso d’uso. Con l’attività Read Segment (Leggi segmento), puoi fare in modo che tutti gli individui appartenenti a questo segmento entrino in un percorso e li facciano fluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, orari, eventi, azioni.
 
 >[!NOTE]
+>
+>Per i percorsi che utilizzano un’attività Read Segment , esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma si prega di evitare di avere più di cinque percorsi (con Leggi segmento, programmato o partendo &quot;il più presto possibile&quot;) a partire allo stesso tempo distribuendoli nel tempo, ad esempio 5 a 10 minuti di distanza.
 >
 >Il componente aggiuntivo Burst paid consente l’invio molto rapido di messaggi push in grandi volumi per percorsi semplici che includono un segmento di lettura e un semplice messaggio push. Per ulteriori informazioni, consulta [questa sezione](../building-journeys/journey-gs.md#burst)
 

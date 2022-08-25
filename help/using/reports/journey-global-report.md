@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: d431673dd55b41b8d2de21ec82fa4b15baa13a0f
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,13 @@ La **[!UICONTROL Top Actions]** la tabella contiene i dati disponibili per **[!U
 * **[!UICONTROL Actions successfully executed]**: Numero totale di **[!UICONTROL Actions]** esecuzione corretta per un percorso.
 
 * **[!UICONTROL Error in action]**: Numero totale di errori verificatisi per **[!UICONTROL Actions]**.
+
+![](assets/global_report_25.png)
+
+La **[!UICONTROL Consent policies]** tabella e grafico mostrano il numero di profili esclusi da ogni criterio nelle azioni personalizzate.
+Per ulteriori informazioni sulle azioni personalizzate, consulta [la documentazione dettagliata](../action/about-custom-action-configuration.md).
+
+Tieni presente che per visualizzare questi widget nei rapporti dei Percorsi, dovrai reimpostare le dashboard. A tale scopo, fai clic su **[!UICONTROL Modify]** then **[!UICONTROL Reset]** in cima al tuo report.
 
 ## Scheda E-mail {#email-global}
 

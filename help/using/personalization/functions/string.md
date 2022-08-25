@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b0f8d97feb7a7f650395d3b91e26d2f837a274a9
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -478,7 +478,7 @@ La seguente query determina, senza distinzione tra maiuscole e minuscole, se il 
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Maschera (#mask)
+## Maschera {#mask}
 
 La `Mask` viene utilizzata per sostituire una parte di una stringa con caratteri &quot;X&quot;.
 
