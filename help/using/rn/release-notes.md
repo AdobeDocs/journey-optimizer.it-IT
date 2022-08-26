@@ -2,9 +2,9 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '283'
 ht-degree: 50%
 
 ---
@@ -32,7 +32,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <td>
 <p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Scopri come creare una campagna in questo <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a>.
+<p>Scopri come creare una campagna nel <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e <a href="https://video.tv.adobe.com/v/345376">video sulle funzioni</a>.
 </td>
 </tr>
 </tbody>

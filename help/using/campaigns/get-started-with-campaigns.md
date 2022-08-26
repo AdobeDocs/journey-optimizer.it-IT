@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 3%
+source-wordcount: '321'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 3%
 Le campagne consentono di inviare contenuti una tantum a un segmento specifico utilizzando più canali. A differenza dei percorsi, in cui le azioni sono progettate per essere eseguite in sequenza, le campagne vengono eseguite simultaneamente, immediatamente o su una pianificazione specifica.
 
 Questo consente di inviare semplici comunicazioni batch ad hoc per casi di utilizzo del marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ Le campagne possono avere più stati:
 >[!NOTE]
 >
 >Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata (vedi [Modificare una campagna](modify-stop-campaign.md#modify)).
+
+## Video introduttivo {#video}
+
+Scopri come creare la tua prima campagna.
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
