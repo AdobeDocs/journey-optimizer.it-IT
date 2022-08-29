@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
+source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '488'
 ht-degree: 4%
 
 ---
@@ -18,13 +18,11 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagne"
->abstract="Con Campagne è possibile distribuire contenuti una tantum a un segmento specifico su più canali. Prima di creare una nuova campagna, accertati di disporre di una superficie del canale (ad es. un messaggio preimpostato) e di un segmento Adobe Experience Platform pronto per l’uso."
+>abstract="Crea campagne per distribuire contenuti una tantum a un segmento specifico su vari canali. Prima di creare la campagna, accertati di avere una superficie del canale (ad es. un messaggio preimpostato) e un segmento Adobe Experience Platform pronto per l’uso."
 
-## Informazioni sulle campagne {#about}
+Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
-Le campagne consentono di inviare contenuti una tantum a un segmento specifico utilizzando più canali. A differenza dei percorsi, in cui le azioni sono progettate per essere eseguite in sequenza, le campagne vengono eseguite simultaneamente, immediatamente o su una pianificazione specifica.
-
-Questo consente di inviare semplici comunicazioni batch ad hoc per casi di utilizzo del marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
+Crea campagne per inviare semplici comunicazioni batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti di policy.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -33,9 +31,13 @@ Questo consente di inviare semplici comunicazioni batch ad hoc per casi di utili
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## Prerequisiti {#campaign-prerequisites}
+## Prima di iniziare {#campaign-prerequisites}
 
-Campaign è disponibile solo per gli utenti con accesso a una campagna correlata **[!UICONTROL Product profile]** come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign.
+Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i seguenti prerequisiti:
+
+1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a una campagna correlata **[!UICONTROL Product profile]** come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign. Se non riesci ad accedere alle campagne, devi estendere le tue autorizzazioni. Se hai accesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} per la tua organizzazione, segui i passaggi seguenti. In caso contrario, contattare l&#39;amministratore Journey Optimizer.
+
++++Scopri come assegnare le autorizzazioni della campagna
 
 Per assegnare il corrispondente **[!UICONTROL Product profile]** agli utenti:
 
@@ -43,7 +45,7 @@ Per assegnare il corrispondente **[!UICONTROL Product profile]** agli utenti:
 
 1. Da **[!UICONTROL Product profile]** seleziona una delle schede integrate relative a Campaign **[!UICONTROL Product profile]**: Amministratore di Campaign, approvatore di Campaign, manager di Campaign o visualizzatore di Campaign.
 
-   Per ulteriori informazioni su Campaign **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, fai riferimento a [page](../administration/ootb-product-profiles.md).
+   Per ulteriori informazioni sulla campagna Journey Optimizer **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, [fai riferimento a questa pagina](../administration/ootb-product-profiles.md).
 
    ![](assets/do-not-localize/admin_1.png)
 
@@ -54,6 +56,11 @@ Per assegnare il corrispondente **[!UICONTROL Product profile]** agli utenti:
 1. Digita il nome utente, il gruppo o l’indirizzo e-mail e fai clic su **[!UICONTROL Save]**.
 
 L’utente potrà ora accedere a **[!UICONTROL Campaigns]**.
+
++++
+
+1. **Hai bisogno di un pubblico**. I segmenti di pubblico devono essere disponibili prima di creare la campagna. Ulteriori informazioni sulla creazione di un pubblico [in questa pagina](../segment/about-segments.md).
+1. **È necessaria una superficie del canale**. Per poter selezionare un canale, è necessario che la superficie del canale corrispondente sia creata e disponibile. Ulteriori informazioni sulle superfici dei canali (ad esempio i predefiniti) [in questa pagina](../configuration/channel-surfaces.md)
 
 ## Accedere alle campagne {#access}
 
