@@ -4,8 +4,8 @@ description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1812'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * Sono state aggiunte informazioni sulle porte predefinite per le azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 
-* Sono state aggiunte informazioni su diversi casi di utilizzo di eventi aziendali. [Ulteriori informazioni](../event/about-creating-business.md#multiple-business-events)
+* Sono state aggiunte informazioni su diversi casi d&#39;uso di eventi business. [Ulteriori informazioni](../event/about-creating-business.md#multiple-business-events)
 
 * Sono stati aggiunti alcuni esempi di uso comune per eseguire query sugli eventi dei passaggi del percorso in Data Lake. [Ulteriori informazioni](../reports/query-examples.md)
 

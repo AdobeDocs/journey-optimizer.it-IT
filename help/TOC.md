@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
 workflow-type: tm+mt
 source-wordcount: '1130'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -34,17 +34,17 @@ ht-degree: 97%
       + [Introduzione per sviluppatori](using/start/path/developer.md)
    + [Interfaccia utente](using/start/user-interface.md)
    + [Guardrail](using/start/guardrails.md)
-+ Campagne {#campaigns}
++ Campagne{#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
    + [Gestire le campagne live](using/campaigns/modify-stop-campaign.md)
-   + Esperimento dei contenuti {#content-experiment}
+   + Esperimento sui contenuti {#content-experiment}
       + [Introduzione all’esperimento sui contenuti](using/campaigns/get-started-experiment.md)
-      + [Creazione di un esperimento sul contenuto](using/campaigns/content-experiment.md)
+      + [Creare un esperimento sui contenuti](using/campaigns/content-experiment.md)
       + [Comprendere i calcoli statistici](using/campaigns/experiment-calculations.md)
       + [Configurazione del reporting](using/campaigns/reporting-configuration.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
-+ Percorsi {#orchestrate-journeys}
++ Percorsi{#orchestrate-journeys}
    + Informazioni sui percorsi{#about-journeys}
       + [Principio generale](using/building-journeys/journey.md)
       + [Ciclo di vita del percorso](using/building-journeys/journey-end.md)
