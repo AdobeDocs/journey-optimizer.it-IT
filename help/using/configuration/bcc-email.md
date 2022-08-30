@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Tutti i messaggi e-mail che utilizzano questa superficie verranno copiati in mod
 >
 >L’utilizzo delle funzioni CCN verrà conteggiato in base al numero di messaggi per i quali si dispone della licenza. Quindi, abilitalo solo nelle superfici utilizzate per le comunicazioni critiche che desideri archiviare. Controlla il tuo contratto per i volumi con licenza.
 
-L’impostazione dell’indirizzo e-mail CCN viene immediatamente salvata ed elaborata a livello di superficie. Quando [creare un nuovo messaggio](../messages/get-started-content.md#create-new-message) utilizzando questa superficie, l’indirizzo e-mail CCN viene visualizzato automaticamente.
+L’impostazione dell’indirizzo e-mail CCN viene immediatamente salvata ed elaborata a livello di superficie. Quando [creare un nuovo messaggio](../messages/get-started-content.md) utilizzando questa superficie, l’indirizzo e-mail CCN viene visualizzato automaticamente.
 
 ![](assets/preset-bcc-in-msg.png)
 

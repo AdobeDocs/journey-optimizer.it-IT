@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 6%
+source-wordcount: '246'
+ht-degree: 20%
 
 ---
 
 # Introduzione alla progettazione delle e-mail {#get-started-content-design}
 
+Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfrutta le funzionalità di progettazione dei contenuti:
+
+* Utilizzo [!DNL Journey Optimizer] **funzionalità di progettazione e-mail** per progettare o importare e-mail reattive. [Ulteriori informazioni](../design/create-email-content.md)
+
+* Sfrutta **Adobe Experience Manager Assets Essentials** per arricchire le e-mail e creare e gestire un tuo database di risorse. [Ulteriori informazioni](../design/assets-essentials.md)
+
+* Trova **foto Adobe Stock** per creare i contenuti e migliorare la progettazione delle e-mail. [Ulteriori informazioni](../design/stock.md)
+
+* Migliora l’esperienza dei clienti creando messaggi personalizzati in base agli attributi del loro profilo. [Ulteriori informazioni](../personalization/personalize.md)
+
 ➡️ [Scopri questa funzione nel video](#video)
+
+Una volta che [creato il messaggio](../messages/get-started-content.md), puoi iniziare a creare il contenuto dell’e-mail.
 
 1. Dal messaggio appena creato, seleziona **[!UICONTROL Email designer]** in **[!UICONTROL Body]** sezione .
 
@@ -35,11 +47,6 @@ ht-degree: 6%
 
 Queste funzioni sono tutte disponibili quando si accede a E-mail Designer dalla schermata di creazione dei messaggi. [Ulteriori informazioni sulla creazione dei messaggi](../messages/get-started-content.md).
 
->[!NOTE]
->
->I modelli nell’area inferiore sono statici e non possono essere modificati. Sono disponibili solo a scopo illustrativo.
->
->Una volta che [creato il messaggio](../messages/get-started-content.md), puoi iniziare a creare il contenuto dell’e-mail.
 
 ## Video introduttivo {#video}
 

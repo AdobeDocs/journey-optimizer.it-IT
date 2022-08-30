@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 56%
@@ -25,7 +25,7 @@ Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperien
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-[!DNL Journey Optimizer] viene fornito con funzionalità di messaggistica integrata. Fai riferimento a [questa sezione](../messages/get-started-content.md).
+[!DNL Journey Optimizer] viene fornito con funzionalità di messaggistica integrata. Fai riferimento a [questa sezione](../messages/messages-in-journeys.md).
 
 Se disponi di Adobe Campaign v7 o v8, è disponibile un’integrazione su richiesta. Consulta [questa pagina](../action/acc-action.md).
 

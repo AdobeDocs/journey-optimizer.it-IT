@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1172'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ In **TIPO E-MAIL** selezionate il tipo di messaggio da inviare con la superficie
 >
 >**Transazionale** Le e-mail possono essere inviate ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
 
-Quando [creazione di un messaggio](../messages/get-started-content.md#create-new-message), devi scegliere una superficie del canale valida corrispondente alla categoria selezionata per l’e-mail.
+Quando [creazione di un messaggio](../messages/get-started-content.md), devi scegliere una superficie del canale valida corrispondente alla categoria selezionata per l’e-mail.
 
 ## Sottodominio e pool IP {#subdomains-and-ip-pools}
 
