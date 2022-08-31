@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '496'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 5%
 Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
 Crea campagne per inviare semplici comunicazioni batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti di policy.
+
+I passaggi principali per creare una campagna sono i seguenti:
+
+![](assets/create-campaign-process.png)
 
 ➡️ [Scopri questa funzione nel video](#video)
 

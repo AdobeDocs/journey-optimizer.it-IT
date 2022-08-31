@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 98%
+source-wordcount: '1825'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
 * È stata aggiunta una limitazione per i percorsi che utilizzano attività Leggi segmento . [Ulteriori informazioni](../building-journeys/read-segment.md)
 * È stata migliorata la pagina degli operatori del gestore di espressioni. [Ulteriori informazioni](../building-journeys/expression/operators.md)
+* È stata aggiunta una sezione su come pianificare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
 ## Luglio 2022 {#july-2022}
 

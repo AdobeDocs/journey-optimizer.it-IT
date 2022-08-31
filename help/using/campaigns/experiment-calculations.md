@@ -8,10 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 0%
+source-wordcount: '892'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Questo articolo descrive i calcoli statistici utilizzati durante l’esecuzione 
 
 Questo articolo descrive come funziona la Sperimentazione e fornisce un’introduzione intuitiva al Adobe **Qualsiasi Sequenza Di Affidabilità Valida**.
 
-Per gli utenti esperti, i dettagli tecnici e i riferimenti sono descritti in [questa pagina](https://experienceleague.adobe.com/docs/journey-optimizer/assets/confidence_sequence_technical_details.pdf?lang=en).
+Per gli utenti esperti, i dettagli tecnici e i riferimenti sono descritti in [questa pagina](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
 ## Test statistici e controllo degli errori {#statistical-testing}
 
@@ -34,11 +34,11 @@ Per gli utenti esperti, i dettagli tecnici e i riferimenti sono descritti in [qu
 Come illustrato nella tabella precedente, molte metodologie di deduzione statistica sono progettate per controllare due tipi di errori:
 
 * **Falso positivo (errori di tipo I)**: è un rifiuto scorretto dell&#39;ipotesi null, quando in realtà è vera. Nel contesto delle Sperimentazioni online, ciò significa che falsa conclusione che la metrica dei risultati è diversa tra ogni trattamento, anche se era la stessa.
-   </br>Prima di eseguire l&#39;esperimento, tipicamente scegliamo una soglia `$\alpha$`. Dopo l&#39;esecuzione dell&#39;esperimento, la `$p$-value` viene calcolato e rifiutiamo il `null if $p < \alpha$`. Una soglia comunemente utilizzata è `$\alpha = 0.05$`Il che significa che a lungo termine, ci aspettiamo 5 esperimenti su 100 siano falsi positivi.
+   </br>Prima di eseguire l&#39;esperimento, tipicamente scegliamo una soglia `\alpha`. Dopo l&#39;esecuzione dell&#39;esperimento, la `p-value` viene calcolato e rifiutiamo il `null if p < \alpha`. Una soglia comunemente utilizzata è `\alpha = 0.05`Il che significa che a lungo termine, ci aspettiamo 5 esperimenti su 100 siano falsi positivi.
 
-* **Falso negativo (errori di tipo II)**: significa che non respingiamo l&#39;ipotesi null anche se è falsa. Per le sperimentazioni, ciò significa che non respingiamo l&#39;ipotesi null, quando in realtà è diversa. Per controllare questo tipo di errore, generalmente abbiamo bisogno di abbastanza utenti nel nostro esperimento per garantire una certa potenza, definita come `$1 - \beta$`(cioè uno meno la probabilità di un errore di tipo II).
+* **Falso negativo (errori di tipo II)**: significa che non respingiamo l&#39;ipotesi null anche se è falsa. Per le sperimentazioni, ciò significa che non respingiamo l&#39;ipotesi null, quando in realtà è diversa. Per controllare questo tipo di errore, generalmente abbiamo bisogno di abbastanza utenti nel nostro esperimento per garantire una certa potenza, definita come `1 - \beta`(cioè uno meno la probabilità di un errore di tipo II).
 
-La maggior parte delle tecniche di deduzione statistica richiederà di correggere anticipatamente la dimensione del campione in base alla dimensione dell’effetto che si desidera determinare, nonché alla tolleranza di errore (`$\alpha$` e `$\beta$`) in anticipo. Tuttavia, la metodologia Adobe Journey Optimizer è progettata per consentire di esaminare continuamente i risultati, per qualsiasi dimensione del campione.
+La maggior parte delle tecniche di deduzione statistica richiederà di correggere anticipatamente la dimensione del campione in base alla dimensione dell’effetto che si desidera determinare, nonché alla tolleranza di errore (`\alpha` e `\beta`) in anticipo. Tuttavia, la metodologia Adobe Journey Optimizer è progettata per consentire di esaminare continuamente i risultati, per qualsiasi dimensione del campione.
 
 ## Metodologia statistica del Adobe: Qualsiasi Sequenza Di Affidabilità Valida
 
@@ -50,11 +50,13 @@ La differenza tra le sequenze di affidabilità e gli intervalli di affidabilità
 
 **Sequenze di affidabilità** spostare l&#39;attenzione delle Sperimentazioni verso la stima piuttosto che il test di ipotesi, cioè concentrandosi su una stima accurata della differenza di mezzi tra i trattamenti, piuttosto che sul rifiuto o meno di un&#39;ipotesi nulla basata su una soglia di significatività statistica.
 
-Tuttavia, in modo analogo al rapporto tra `$p$-values`oppure **Affidabilità** e **Intervalli di affidabilità**, esiste anche una relazione tra **Sequenze di affidabilità** e in qualsiasi momento valido `$p$-values`o in qualsiasi momento Confidence valida. Data la familiarità delle quantità come la Confidenza, l&#39;Adobe fornisce sia **Sequenze di affidabilità** e ogni volta che la Confidence nei suoi rapporti è valida.
+Tuttavia, in modo analogo al rapporto tra `p-values`oppure **Affidabilità** e **Intervalli di affidabilità**, esiste anche una relazione tra **Sequenze di affidabilità** e in qualsiasi momento valido `p-values`o in qualsiasi momento Confidence valida. Data la familiarità delle quantità come la Confidenza, l&#39;Adobe fornisce sia **Sequenze di affidabilità** e ogni volta che la Confidence nei suoi rapporti è valida.
 
 Le basi teoriche **Sequenze di affidabilità** provengono dallo studio di sequenze di variabili casuali note come martingales. Alcuni risultati principali sono inclusi per i lettori esperti qui sotto, ma le prese di posizione dei professionisti sono chiare:
 
-    Le sequenze di affidabilità possono essere interpretate come analoghi sequenziali sicuri degli intervalli di affidabilità.È possibile esaminare e interpretare i dati negli esperimenti in qualsiasi momento e interrompere o continuare gli esperimenti in modo sicuro. Anche la corrispondente Confidenza valida in qualsiasi momento, o `$p$-value`, è sicura da interpretare.
+>[!NOTE]
+>
+>Le sequenze di affidabilità possono essere interpretate come analoghi sequenziali sicuri degli intervalli di affidabilità.È possibile esaminare e interpretare i dati negli esperimenti in qualsiasi momento e interrompere o continuare gli esperimenti in modo sicuro. La Confidenza Valida In Qualsiasi Momento, `p-value`, è anche sicuro da interpretare.
 
 È importante notare che, poiché le sequenze di affidabilità sono &quot;valide in qualsiasi momento&quot;, saranno più conservative rispetto a una metodologia a orizzonte fisso utilizzata con le stesse dimensioni del campione. I limiti della sequenza di affidabilità sono generalmente più ampi di un calcolo dell’intervallo di affidabilità, mentre l’eventuale affidabilità valida sarà inferiore a un calcolo dell’affidabilità dell’orizzonte fisso. Il vantaggio di questo conservatorismo è che si può tranquillamente interpretare i risultati in ogni momento.
 

@@ -5,13 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 3%
+source-wordcount: '589'
+ht-degree: 2%
 
 ---
 
@@ -35,19 +32,9 @@ L’elenco Consentiti ti consente di specificare singoli indirizzi e-mail o domi
 
 Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini consentiti, vai a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, quindi seleziona **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >Le autorizzazioni per visualizzare, esportare e gestire l’elenco Consentiti sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
-
-Per esportare l’elenco Consentiti come file CSV, seleziona il **[!UICONTROL Download CSV]** pulsante .
-
-Utilizza la **[!UICONTROL Delete]** per rimuovere definitivamente una voce.
-
-Puoi cercare gli indirizzi e-mail o i domini e filtrare i **[!UICONTROL Address type]**. Una volta selezionato, puoi cancellare il filtro visualizzato in alto nell’elenco.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## Abilitare l’elenco Consentiti {#enable-allow-list}
 
@@ -55,13 +42,9 @@ Per abilitare l’elenco Consentiti, segui i passaggi seguenti.
 
 1. Accedi al menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
 
-1. Fai clic su **[!UICONTROL Enable/Disable allowed list]**.
-
-   ![](assets/allow-list-edit.png)
+1. Fai clic su **[!UICONTROL Edit]**.
 
 1. Seleziona **[!UICONTROL Enable allowed list]**.
-
-   ![](assets/allow-list-enable.png)
 
 1. Fai clic su **[!UICONTROL Save]**. L’elenco Consentiti è abilitato.
 
@@ -73,48 +56,11 @@ La logica di elenco Consentiti si applica quando la funzione è abilitata. Ulter
 
 ## Aggiungi entità all’elenco Consentiti {#add-entities}
 
-Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una sandbox specifica, puoi effettuare le seguenti operazioni: [compilare manualmente l’elenco](#manually-populate-list)o utilizzare un [Chiamata API](#api-call-allowed-list).
+Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una sandbox specifica, puoi utilizzare un’ [Chiamata API](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >L’elenco Consentiti può contenere fino a 1.000 voci.
-
-### Compilare manualmente l’elenco Consentiti {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Aggiungi indirizzi o domini all’elenco Consentiti"
->abstract="Puoi aggiungere manualmente nuovi indirizzi e-mail o domini all’elenco Consentiti selezionandoli uno per uno."
-
-È possibile compilare manualmente i [!DNL Journey Optimizer] elenco Consentiti aggiungendo un indirizzo e-mail o un dominio tramite l’interfaccia utente.
-
->[!NOTE]
->
->Puoi aggiungere un solo indirizzo e-mail o dominio alla volta.
-
-Per farlo, segui la procedura indicata di seguito.
-
-1. Fai clic sul pulsante **[!UICONTROL Add email or domain]**.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. Scegli il tipo di indirizzo: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
-
-1. Immetti l’indirizzo e-mail o il dominio a cui desideri inviare le e-mail.
-
-   >[!NOTE]
-   >
-   >Assicurati di inserire un indirizzo e-mail valido (ad esempio abc@company.com) o un dominio (ad esempio abc.company.com).
-
-1. Se necessario, specifica un motivo.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Reason]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
-
-1. Fai clic su **[!UICONTROL Submit]**.
 
 ### Aggiungere entità utilizzando una chiamata API {#api-call-allowed-list}
 

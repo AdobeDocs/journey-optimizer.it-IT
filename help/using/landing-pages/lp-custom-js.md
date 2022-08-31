@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: f5e3b7cee816be420a09abd8aa9404faaccfec87
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -66,7 +66,7 @@ Ecco gli hook che puoi utilizzare:
 | Nome | Descrizione |
 |--- |--- |
 | addBeforeSubmitHook | Gancio personalizzato da chiamare prima dell’invio del modulo. Restituisce true per continuare l&#39;invio, else restituisce false per bloccare l&#39;invio. |
-| addBeforeSubmitHook | Gancio personalizzato da chiamare per l&#39;invio del modulo non riuscito. |
+| addOnFailureHook | Gancio personalizzato da chiamare per l&#39;invio del modulo non riuscito. |
 | addOnSuccessHook | Gancio personalizzato da chiamare in caso di invio corretto del modulo. |
 
 **Esempio:**

@@ -1,5 +1,5 @@
 ---
-title: Creazione di un esperimento sul contenuto
+title: Creare un esperimento sui contenuti
 description: Scopri come creare un esperimento sui contenuti nelle campagne
 feature: Overview
 topic: Content Management
@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '899'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 3%
 >
 >La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-La funzione di esperimento dei contenuti ti consente di definire più trattamenti di consegna. Il pubblico di interesse viene assegnato in modo casuale a ciascun trattamento al fine di determinare quale funziona meglio rispetto alla metrica di interesse. Puoi scegliere di variare il contenuto, l’oggetto o il mittente dell’e-mail.
+>[!NOTE]
+>
+>Prima di utilizzare la sperimentazione sul contenuto, assicurati che la configurazione di reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
+
+La funzione di esperimento del contenuto ti consente di definire più trattamenti di consegna. Il pubblico di interesse viene assegnato in modo casuale a ciascun trattamento al fine di determinare quale funziona meglio rispetto alla metrica di interesse. Puoi scegliere di variare il contenuto, l’oggetto o il mittente dell’e-mail.
 
 Nell’esempio seguente, il target di consegna è stato suddiviso in due gruppi, ognuno dei quali rappresenta il 45% della popolazione target e un gruppo di blocchi del 10%, che non riceverà la consegna.
 

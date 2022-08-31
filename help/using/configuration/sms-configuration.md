@@ -4,10 +4,10 @@ description: Scopri come configurare il tuo ambiente per l’invio di messaggi S
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 2%
 
 ---
 
@@ -25,12 +25,12 @@ Prima di inviare SMS, configura l’istanza. Devi [integrare le impostazioni del
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configurare il fornitore di SMS"
+>title="Seleziona la configurazione del fornitore SMS"
 >abstract="Seleziona il fornitore e compila le credenziali API SMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Configurare il fornitore di SMS"
+>title="Seleziona la configurazione del fornitore SMS"
 >abstract="Seleziona le credenziali API configurate per il fornitore SMS."
 
 Per configurare il fornitore di SMS con Journey Optimizer, procedi come segue:
