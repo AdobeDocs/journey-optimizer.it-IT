@@ -174,7 +174,7 @@ Quando il messaggio viene inviato tramite un [percorso](../building-journeys/jou
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Aggiungi un collegamento per annullare l’iscrizione all’intestazione dell’e-mail"
->abstract="Abilita Annulla sottoscrizione elenco per aggiungere un collegamento di annullamento dell’iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto dell’e-mail."
+>abstract="Abilita Annulla iscrizione mailing list  per aggiungere un collegamento di annullamento iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=it#one-click-opt-out" text="Rinuncia con un clic"
 
 Se l’opzione [Annullamento iscrizione a mailing list](../configuration/channel-surfaces.md#list-unsubscribe) è attiva a livello di superficie di canale, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includeranno un collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail.
