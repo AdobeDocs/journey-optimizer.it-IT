@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -43,7 +43,7 @@ Le parole **true**, **false**, **null** e **indefinito** sono consentiti solo ne
 
 In Handlebars, i valori restituiti da {{expression}} sono **scampato a HTML**. Se l&#39;espressione contiene `&`, quindi l’output restituito in sequenza HTML viene generato come `&amp;`. Se non desideri che Handlebar eviti un valore, utilizza il &quot;triple-stash&quot;.
 
-Per quanto riguarda gli argomenti relativi alle funzioni letterali, il parser del linguaggio di template non supporta un singolo simbolo di barra rovesciata (\\) senza escape. Questo carattere deve essere annullato con un simbolo di barra rovesciata (\) aggiuntivo. Esempio :
+Per quanto riguarda gli argomenti relativi alle funzioni letterali, il parser del linguaggio di template non supporta la barra rovesciata singola non preceduta da escape (`\`). Questo carattere deve essere annullato con una barra rovesciata aggiuntiva (`\`). Esempio :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
