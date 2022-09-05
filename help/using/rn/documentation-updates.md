@@ -2,10 +2,10 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 97%
+source-wordcount: '1871'
+ht-degree: 95%
 
 ---
 
@@ -19,8 +19,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
 * È stata aggiunta una limitazione per i percorsi che utilizzano attività Leggi segmento . [Ulteriori informazioni](../building-journeys/read-segment.md)
-* È stata migliorata la pagina degli operatori del gestore di espressioni. [Ulteriori informazioni](../building-journeys/expression/operators.md)
+* La pagina degli operatori dell’editor di espressioni è stata migliorata. [Ulteriori informazioni](../building-journeys/expression/operators.md)
 * È stata aggiunta una sezione su come pianificare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
+* La sezione Regole di sintassi generale per l’editor di espressioni è stata aggiornata per tenere conto della nuova regola relativa all’escape del simbolo di barra rovesciata nelle funzioni letterali. I messaggi pubblicati esistenti non sono interessati da questa modifica. Solo i messaggi nuovi o bozza devono essere aggiornati. [Ulteriori informazioni](../personalization/personalization-syntax.md#general-rules)
 
 ## Luglio 2022 {#july-2022}
 

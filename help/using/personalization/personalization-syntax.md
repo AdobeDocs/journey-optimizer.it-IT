@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '730'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,10 @@ La sintassi distingue tra maiuscole e minuscole.
 Le parole **true**, **false**, **null** e **indefinito** sono consentiti solo nella prima parte di un&#39;espressione di percorso.
 
 In Handlebars, i valori restituiti da {{expression}} sono **scampato a HTML**. Se l&#39;espressione contiene `&`, quindi l’output restituito in sequenza HTML viene generato come `&amp;`. Se non desideri che Handlebar eviti un valore, utilizza il &quot;triple-stash&quot;.
+
+Per quanto riguarda gli argomenti relativi alle funzioni letterali, il parser del linguaggio di template non supporta un singolo simbolo di barra rovesciata (\\) senza escape. Questo carattere deve essere annullato con un simbolo di barra rovesciata (\) aggiuntivo. Esempio :
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Profilo
 
