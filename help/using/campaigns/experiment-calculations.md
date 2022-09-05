@@ -1,17 +1,17 @@
 ---
-title: Calcoli statistici utilizzati dalla sperimentazione
+title: Calcoli statistici utilizzati dalla sperimentazione Adobe Journey Optimizer
 description: Ulteriori informazioni sui calcoli statistici utilizzati durante l'esecuzione di esperimenti
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 1%
+source-wordcount: '897'
+ht-degree: 0%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La **Esperimento dei contenuti** al momento è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Questo articolo descrive i calcoli statistici utilizzati durante l’esecuzione di esperimenti in Adobe Journey Optimizer. La sperimentazione utilizza metodi statistici avanzati per calcolare **Sequenze di affidabilità** e **Affidabilità**, che consente di eseguire gli esperimenti per il tempo necessario e di monitorare continuamente i risultati.
+Questo articolo descrive i calcoli statistici utilizzati durante l’esecuzione di esperimenti in Adobe Journey Optimizer.
+
+La sperimentazione utilizza metodi statistici avanzati per calcolare **Sequenze di affidabilità** e **Affidabilità**, che consente di eseguire gli esperimenti per il tempo necessario e di monitorare continuamente i risultati.
 
 Questo articolo descrive come funziona la Sperimentazione e fornisce un’introduzione intuitiva al Adobe **Qualsiasi Sequenza Di Affidabilità Valida**.
 
@@ -68,4 +70,4 @@ Ogni volta che visualizzi il rapporto sulla sperimentazione, l&#39;Adobe analizz
 
 A questo punto, il trattamento che offre le prestazioni migliori (in base al tasso di conversione o al valore di metrica normalizzata in base al profilo) verrà evidenziato nella parte superiore della schermata del rapporto e indicato con una stella nel rapporto tabulare. In questa determinazione sono considerati solo i trattamenti con una confidenza superiore al 95%, insieme alla linea di base.
 
-Quando ci sono più di due trattamenti, il link di correzione Bonferroni viene utilizzato per correggere problemi di confronto multipli e controlla il tasso di errore familiare. In questo scenario, è anche possibile che ci siano più trattamenti la cui fiducia è superiore al 95% e i cui intervalli di affidabilità si sovrappongono. In questo caso, l’Adobe dichiarerà quello con il più alto tasso di conversione (o il valore di metrica normalizzata del profilo) come il più performante.
+Quando ci sono più di due trattamenti, il link di correzione Bonferroni viene utilizzato per correggere problemi di confronto multipli e controlla il tasso di errore familiare. In questo scenario, è anche possibile che ci siano più trattamenti la cui fiducia è superiore al 95% e i cui intervalli di affidabilità si sovrappongono. In questo caso, Adobe Journey Optimizer dichiarerà quello con il più alto tasso di conversione (o valore di metrica normalizzata del profilo) come il più performante.

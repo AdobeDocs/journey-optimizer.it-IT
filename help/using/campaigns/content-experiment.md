@@ -8,24 +8,24 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 4%
 
 ---
 
-# Creazione di un esperimento sul contenuto {#content-experiment}
+# Creare un esperimento sui contenuti {#content-experiment}
 
 >[!AVAILABILITY]
 >
->La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La **Esperimento dei contenuti** al momento è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+
+Utilizza Journey Optimizer Content Experiment per definire più trattamenti di consegna. Il pubblico di interesse viene assegnato in modo casuale a ciascun trattamento al fine di determinare quale funziona meglio rispetto alla metrica di interesse. Puoi scegliere di variare il contenuto, l’oggetto o il mittente dell’e-mail.
 
 >[!NOTE]
 >
->Prima di utilizzare la sperimentazione sul contenuto, assicurati che la configurazione di reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
-
-La funzione di esperimento del contenuto ti consente di definire più trattamenti di consegna. Il pubblico di interesse viene assegnato in modo casuale a ciascun trattamento al fine di determinare quale funziona meglio rispetto alla metrica di interesse. Puoi scegliere di variare il contenuto, l’oggetto o il mittente dell’e-mail.
+>Prima di iniziare con Esperienza di contenuto, assicurati che la configurazione di reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
 
 Nell’esempio seguente, il target di consegna è stato suddiviso in due gruppi, ognuno dei quali rappresenta il 45% della popolazione target e un gruppo di blocchi del 10%, che non riceverà la consegna.
 
@@ -38,9 +38,9 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
 
 ![](assets/content_experiment.png)
 
-## Creare una campagna {#campaign-experiment}
+## Creare la campagna {#campaign-experiment}
 
-1. Da **[!UICONTROL Campaigns]** pagina, fai clic su **[!UICONTROL Create Campaign]**.
+1. Da **[!UICONTROL Campaigns]** pagina, fai clic su **[!UICONTROL Create campaign]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -55,7 +55,7 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
    * **[!UICONTROL Description]**
    * **[!UICONTROL Category]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transactional]**
 
-1. Per avviare l’esperimento sui contenuti, attiva/disattiva la **[!UICONTROL Content experiment]** opzione . La **[!UICONTROL Content experiment]** apparirà il menu .
+1. Per avviare l’esperimento sui contenuti, attiva/disattiva la **[!UICONTROL Content experiment]** opzione . La **[!UICONTROL Content experiment]** viene visualizzato il menu .
 
    ![](assets/content_experiment_3.png)
 
@@ -99,9 +99,9 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
 
 1. Fai clic su **[!UICONTROL Email designer]** personalizzare ulteriormente il Trattamento B consegna, se necessario.
 
-Una volta personalizzati i trattamenti, puoi iniziare a configurare l’esperimento sui contenuti.
+Una volta personalizzati i trattamenti, puoi iniziare a configurare il tuo esperimento sui contenuti.
 
-## Configurare l’esperimento sul contenuto {#configure-experiment}
+## Configurare l’esperimento sui contenuti {#configure-experiment}
 
 1. Quando entrambe le consegne sono personalizzate, dalla **[!UICONTROL Edit content]** finestra, seleziona **[!UICONTROL Configure content experiment]**.
 

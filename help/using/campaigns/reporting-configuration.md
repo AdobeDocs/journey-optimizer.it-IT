@@ -1,5 +1,5 @@
 ---
-title: Configurazione del reporting
+title: Configurare i rapporti di Journey Optimizer per la sperimentazione
 description: Scopri come impostare l’origine dati per la generazione di rapporti
 feature: Data Sources
 topic: Administration
@@ -8,14 +8,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 43%
+source-wordcount: '704'
+ht-degree: 42%
 
 ---
 
-# Configurazione del reporting {#reporting-configuration}
+# Configurare i rapporti per la sperimentazione {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

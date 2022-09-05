@@ -2,24 +2,24 @@
 title: Introduzione all’esperimento sui contenuti
 description: Ulteriori informazioni sull’esperimento sui contenuti in [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0fb54571ea7620c981e746f8ac240b675e2f0d64
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 0%
+source-wordcount: '1494'
+ht-degree: 1%
 
 ---
 
-# Guida introduttiva agli esperimenti sul contenuto {#get-started-experiment}
+# Guida introduttiva agli esperimenti sui contenuti {#get-started-experiment}
 
 >[!AVAILABILITY]
 >
->La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La funzione Esperimento di contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ## Cos’è un esperimento sui contenuti?
 
@@ -61,7 +61,7 @@ Ad esempio, è improbabile che la modifica del contenuto del corpo del messaggio
 +++Esegui il test sulla dimensione corretta del pubblico, o per abbastanza tempo
 
 Se esegui i test per più tempo, sarai in grado di rilevare differenze minori nella metrica di obiettivo tra i trattamenti. Tuttavia, se il valore di base della metrica obiettivo è piccolo, avrai bisogno di dimensioni di campione più grandi.
-Il numero di utenti da includere nell’esperimento dipende dalle dimensioni dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica di obiettivo, nonché dalla tolleranza per errori falsi positivi e falsi negativi. Negli esperimenti classici, puoi utilizzare un [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) per determinare per quanto tempo è necessario eseguire il test.
+Il numero di utenti da includere nell’esperimento dipende dalle dimensioni dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica di obiettivo, nonché dalla tolleranza per errori falsi positivi e falsi negativi. Negli esperimenti classici, puoi utilizzare un [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare per quanto tempo è necessario eseguire il test.
 +++
 
 +++Comprendere l’incertezza statistica
@@ -75,7 +75,7 @@ I metodi statistici ci danno un modo per formalizzare questa incertezza. Uno dei
 Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento. Al contrario, segui gli esperimenti formulando nuove ipotesi ed eseguendo nuovi test con modifiche diverse, su segmenti diversi ed esaminando l’impatto sulle diverse metriche.
 +++
 
-## Interpretazione dei risultati degli esperimenti {#interpret-results}
+## Interpretare i risultati degli esperimenti {#interpret-results}
 
 ![](assets/experimentation_report_3.png)
 
@@ -105,7 +105,7 @@ Se gli intervalli di affidabilità per due trattamenti si sovrappongono appena, 
 
 L’Adobe utilizza il 95% in ogni momento Intervalli di affidabilità validi o Sequenze di affidabilità, il che significa che i risultati possono essere visualizzati in modo sicuro in qualsiasi momento durante l’esperimento.
 
-### 3. Comprensione dell’incremento {#understand-lift}
+### 3. Comprendere l&#39;incremento {#understand-lift}
 
 Il riepilogo del rapporto Esperimento mostra la variabile **[!UICONTROL Lift over Baseline]**, che è una misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto alla linea di base. Definito con precisione, è la differenza di prestazioni tra un dato trattamento e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
