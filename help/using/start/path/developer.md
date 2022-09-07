@@ -5,9 +5,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ I passaggi per configurare il canale di notifica push e verificare l’integrazi
 
 È inoltre possibile eseguire più azioni con **[!DNL Adobe Journey Optimizer]API**.
 
-Passaggi per iniziare a utilizzare [!DNL Offer Library] Le API sono dettagliate [in questa sezione](../../offers/api-reference/getting-started.md). Questa guida fornisce esempi di chiamate API per eseguire operazioni chiave utilizzando il modulo di gestione delle decisioni.
+Passaggi per iniziare a utilizzare [!DNL Offer Library] Le API sono dettagliate [in questa sezione](../../offers/api-reference/getting-started.md). Questa guida fornisce esempi di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1060'
 ht-degree: 6%
 
 ---
@@ -191,7 +191,7 @@ I passaggi dettagliati per la creazione di una raccolta sono descritti in [quest
 
 Ora devi creare una decisione che combini i posizionamenti con le offerte personalizzate e l’offerta di fallback appena creata.
 
-Questa combinazione verrà utilizzata dal motore di Offer decisioning per trovare l’offerta migliore per un profilo specifico: in questo esempio, si baserà sulla priorità e sulla regola decisionale che hai assegnato a ogni offerta.
+Questa combinazione verrà utilizzata dal motore decisionale per trovare l’offerta migliore per un profilo specifico: in questo esempio, si baserà sulla priorità e sulla regola decisionale che hai assegnato a ogni offerta.
 
 Per creare e configurare una decisione di offerta, segui i passaggi principali seguenti:
 

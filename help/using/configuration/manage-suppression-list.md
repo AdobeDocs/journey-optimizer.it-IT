@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1107'
 ht-degree: 1%
 
 ---
@@ -183,11 +183,9 @@ A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire
 
 1. Compila il modello CSV con gli indirizzi e-mail e/o i domini che desideri aggiungere all’elenco di soppressione.
 
-1. Al termine, trascina e rilascia il file CSV, quindi fai clic su **[!UICONTROL Upload file]**.
+1. Al termine, trascina e rilascia il file CSV, quindi fai clic su **[!UICONTROL Submit]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
-
-1. Fai clic su **[!UICONTROL Submit]**.
+   ![](assets/suppression-list-upload-csv-submit.png)
 
 >[!NOTE]
 >

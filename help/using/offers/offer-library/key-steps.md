@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '341'
 ht-degree: 13%
 
 ---
@@ -58,7 +58,7 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 
 ## Creare e configurare le decisioni {#create-and-configure-decisions}
 
-1. **Creare una decisione** che combinerà posizionamenti con offerte personalizzate e offerte di fallback. Questa combinazione verrà utilizzata dal motore di Offer decisioning per trovare l’offerta migliore per un profilo specifico.
+1. **Creare una decisione** che combinerà posizionamenti con offerte personalizzate e offerte di fallback. Questa combinazione verrà utilizzata dal motore decisionale per trovare l’offerta migliore per un profilo specifico.
 
 1. **Configurare la decisione**. A questo scopo, seleziona i posizionamenti e, per ogni posizionamento, seleziona una raccolta e un fallback.
 

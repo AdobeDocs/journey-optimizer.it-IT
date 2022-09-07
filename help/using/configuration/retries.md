@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
 Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di errori dell’indirizzo viene reinizializzato.
 
-## Modifica la soglia dei tentativi {#edit-retry-threshold}
+## Modifica della soglia dei tentativi {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="Aggiorna la soglia del numero di errori"
+>title="Aggiornare la soglia dei tentativi"
 >abstract="Se il valore predefinito non soddisfa le tue esigenze, puoi modificare il numero consentito di mancati recapiti software consecutivi. Quando il contatore dei tentativi raggiunge la soglia di errore per un indirizzo e-mail specifico, questo indirizzo viene aggiunto all’elenco di eliminazione."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Comprendere l’elenco di soppressione"
 

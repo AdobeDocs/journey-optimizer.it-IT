@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Quando [creazione di un messaggio](../messages/get-started-content.md), devi sce
 
 ## Sottodominio e pool IP {#subdomains-and-ip-pools}
 
-In **DETTAGLI DEL SOTTODOMINIO E DEL POOL IP** sezione , devi:
+In **Sottodominio e pool IP** sezione , devi:
 
 1. Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell�
 
 ## Parametri di intestazione{#email-header}
 
-In **[!UICONTROL HEADER PARAMETERS]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale superficie.
+In **[!UICONTROL Header parameters]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale superficie.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ L’indirizzo e-mail successivo verrà impostato per Adobe. Questo può richiede
 
 Puoi inviare una copia identica (o copia cieca in carbonio) delle e-mail inviate da [!DNL Journey Optimizer] in una casella in entrata CCN in cui verranno archiviate a fini di conformità o archiviazione.
 
-A questo scopo, abilita la **[!UICONTROL BCC EMAIL]** funzione opzionale a livello della superficie del canale. [Ulteriori informazioni](bcc-email.md)
+A questo scopo, abilita la **[!UICONTROL BCC email]** funzione opzionale a livello della superficie del canale. [Ulteriori informazioni](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -145,7 +145,7 @@ A questo scopo, abilita la **[!UICONTROL BCC EMAIL]** funzione opzionale a livel
 >abstract="I tentativi vengono eseguiti per 3,5 giorni (84 ore) quando una consegna e-mail non riesce a causa di un errore temporaneo di mancato recapito messaggi. È possibile regolare questo periodo di tempo predefinito per l&#39;esecuzione di un nuovo tentativo in base alle proprie esigenze."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Informazioni sui nuovi tentativi"
 
-Puoi configurare le **PARAMETRI DI RIPROVA E-MAIL**.
+Puoi configurare le **Parametri di esecuzione di un nuovo tentativo e-mail**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,15 @@ Ulteriori informazioni sui nuovi tentativi in [questa sezione](retries.md).
 >title="Anteprima parametri di tracciamento URL"
 >abstract="Controlla in che modo i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
-È possibile utilizzare **[!UICONTROL URL TRACKING PARAMETERS]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
+È possibile utilizzare **[!UICONTROL URL tracking parameters]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
 
 I parametri definiti in questa sezione verranno aggiunti alla fine degli URL inclusi nel contenuto del messaggio e-mail. Puoi quindi acquisire questi parametri in strumenti di analisi web come Adobe Analytics o Google Analytics e creare vari rapporti sulle prestazioni.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Tre parametri di tracciamento URL vengono compilati automaticamente come esempio quando crei una superficie del canale. Puoi modificarli e aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Add new parameter]** pulsante .
+Puoi aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Add new parameter]** pulsante .
+
+![](assets/preset-url-tracking.png)
 
 Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** campi.
 

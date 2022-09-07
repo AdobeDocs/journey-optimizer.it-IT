@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '937'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate.
 
-Offer Decisioning semplifica la personalizzazione con una libreria centrale di offerte di marketing e un motore decisionale che applica regole e vincoli ai profili avanzati e in tempo reale creati da Adobe Experience Platform, per aiutarti a inviare ai clienti l’offerta giusta al momento giusto.
+La gestione delle decisioni semplifica la personalizzazione grazie a una libreria centrale di offerte di marketing e a un motore decisionale che applica regole e vincoli ai profili avanzati e in tempo reale creati da Adobe Experience Platform per aiutarti a inviare ai tuoi clienti l’offerta giusta al momento giusto.
 
 La capacità di Gestione delle decisioni è costituita da due componenti principali:
 
@@ -69,7 +69,7 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 ## Concedere l’accesso alla gestione delle decisioni {#granting-acess-to-decision-management}
 
-Le autorizzazioni per accedere e utilizzare le funzionalità di Offer Decisioning vengono gestite mediante [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Le autorizzazioni di accesso e utilizzo delle funzionalità decisionali vengono gestite utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
 Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Product profile]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Per saperne di più sulla gestione di utenti e autorizzazioni per [!DNL Journey Optimizer], consulta [questa sezione](../../administration/permissions.md).
 

@@ -6,17 +6,17 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 3%
+source-wordcount: '750'
+ht-degree: 4%
 
 ---
 
 
 # Consegnare offerte utilizzando [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-La [!DNL Batch Decisioning] L’API consente alle organizzazioni di utilizzare la funzionalità di offer decisioning per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
+La [!DNL Batch Decisioning] L’API consente alle organizzazioni di utilizzare la funzionalità decisionale per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
 
 Con la [!DNL Batch Decisioning] API, puoi compilare un set di dati con le migliori offerte per tutti i profili in un segmento Adobe Experience Platform per gli ambiti decisionali. Ad esempio, un&#39;organizzazione può voler eseguire [!DNL Batch Decisioning] in modo da poter inviare offerte a un fornitore di consegna messaggi. Tali offerte vengono quindi utilizzate come contenuto inviato per la consegna di messaggi batch allo stesso segmento di utenti.
 
@@ -128,7 +128,7 @@ Fai riferimento a [Documentazione di Gestione delle decisioni](../../get-started
 
 | Proprietà | Descrizione | Esempio |
 | -------- | ----------- | ------- |
-| `@id` | UUID generato dall&#39;Offer decisioning che identifica un singolo carico di lavoro. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | UUID generato dalla gestione delle decisioni che identifica un singolo carico di lavoro. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | ID organizzazione. | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | ID del contenitore. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Data di creazione della richiesta del carico di lavoro della decisione. | `1648078924834` |
@@ -148,7 +148,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{WORKLOAD_ID}` | UUID generato dall&#39;Offer decisioning che identifica un singolo carico di lavoro. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+| `{WORKLOAD_ID}` | UUID generato dalla gestione delle decisioni che identifica un singolo carico di lavoro. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **Richiesta**
 
@@ -177,7 +177,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 | Proprietà | Descrizione | Esempio |
 | -------- | ----------- | ------- |
-| `@id` | UUID generato dall&#39;Offer decisioning che identifica un singolo carico di lavoro. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | UUID generato dalla gestione delle decisioni che identifica un singolo carico di lavoro. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | ID organizzazione | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | ID contenitore | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | Data e ora di creazione della richiesta di carico di lavoro della decisione. | `1648076994405` |

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei 
 [Set di dati evento del feedback del messaggio](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Set di dati evento esperienza tracciamento push](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Evento passaggio percorso](../start/datasets-query-examples.md#journey-step-event)
-[Set di dati evento di Offer Decisioning](../start/datasets-query-examples.md#ode-decisionevents)
+[Decisioning del set di dati evento](../start/datasets-query-examples.md#ode-decisionevents)
 [Set di dati del servizio di consenso](../start/datasets-query-examples.md#consent-service-dataset)
 [Set di dati evento feedback CCN](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -199,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Set di dati evento di Offer Decisioning{#ode-decisionevents}
+## Decisioning del set di dati evento{#ode-decisionevents}
 
 _Nome nell’interfaccia: ODE DecisionEvents (set di dati di sistema)_
 

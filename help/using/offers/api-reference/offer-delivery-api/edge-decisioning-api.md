@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 1%
@@ -21,9 +21,9 @@ La [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/e
 
 L’SDK per web di Experience Platform supporta l’esecuzione di query sulle soluzioni di personalizzazione all’Adobe, inclusa la gestione delle decisioni, e consente di recuperare ed eseguire il rendering delle offerte personalizzate create utilizzando le API o la Libreria offerte. Per istruzioni più dettagliate, consulta la documentazione su [creazione di un’offerta](../../get-started/starting-offer-decisioning.md).
 
-Esistono due modi per implementare l’Offer decisioning con il [SDK per web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Un modo è rivolto agli sviluppatori e richiede la conoscenza dei siti web e la programmazione. L’altro modo consiste nell’utilizzare l’interfaccia utente di Adobe Experience Platform per configurare offerte che richiedono solo un riferimento a un piccolo script nell’intestazione della pagina HTML.
+Esistono due modi per implementare la gestione delle decisioni con [SDK per web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Un modo è rivolto agli sviluppatori e richiede la conoscenza dei siti web e la programmazione. L’altro modo consiste nell’utilizzare l’interfaccia utente di Adobe Experience Platform per configurare offerte che richiedono solo un riferimento a un piccolo script nell’intestazione della pagina HTML.
 
-Consulta la documentazione su [offer decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando l’SDK per web di Platform.
+Consulta la documentazione su [gestione delle decisioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando l’SDK per web di Platform.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Per personalizzare le offerte, devi configurare separatamente la personalizzazio
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-Per configurare l&#39;SDK, ad Offer decisioning, segui uno dei due passaggi seguenti:
+Per configurare l&#39;SDK per la gestione delle decisioni, effettua una delle due operazioni seguenti:
 
 ## Opzione 1 - Installare l’estensione e l’implementazione del tag utilizzando Launch
 
@@ -90,7 +90,7 @@ Questa opzione è più semplice da usare per le persone che hanno meno esperienz
 
 ## Opzione 2 - Implementazione manuale utilizzando la versione standalone predefinita
 
-Di seguito sono riportati i passaggi necessari per utilizzare Offer Decisioning utilizzando l’installazione autonoma predefinita dell’SDK web. Questa guida presuppone che questa sia la prima volta che implementi l&#39;SDK, pertanto tutti i passaggi potrebbero non essere applicabili al tuo caso. Questa guida presuppone anche un’esperienza di sviluppo.
+Di seguito sono riportati i passaggi necessari per utilizzare la gestione delle decisioni utilizzando l’installazione autonoma predefinita dell’SDK per web. Questa guida presuppone che questa sia la prima volta che implementi l&#39;SDK, pertanto tutti i passaggi potrebbero non essere applicabili al tuo caso. Questa guida presuppone anche un’esperienza di sviluppo.
 
 Includere il seguente frammento JavaScript dall&#39;opzione 2: Versione standalone integrata su [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in `<head>` della pagina HTML.
 

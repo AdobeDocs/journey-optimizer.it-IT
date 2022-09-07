@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: bfed2a150c1c1568e666d16753b032b203749033
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Sono disponibili 3 tipi di funzioni:
 
 | Tipi di funzioni | Come aggiungere funzionalità ai modelli |
 |--------------|----------------------------|
-| Oggetti di Offer decisioning (placementID, activityID, DecisionScopeID) | Parte dell’Offer decisioning feedback Eventi di esperienza inviati ad AEP |
+| Decisioning di oggetti (placementID, activityID, DecisionScopeID) | Parte del feedback sulla gestione delle decisioni Eventi di esperienza inviati ad AEP |
 | Segmenti | Da 0 a 50 segmenti possono essere aggiunti come feature durante la creazione del modello Ranking AI |
-| Dati contestuali | Parte dell’Offer decisioning feedback Eventi esperienza inviati ad AEP. Dati contestuali disponibili da aggiungere allo schema: Dettagli commerciali, dettagli canale, dettagli applicazione, dettagli web, dettagli ambiente, dettagli dispositivo, placeContext |
+| Dati contestuali | Parte degli eventi di esperienza sul feedback delle decisioni inviati ad AEP. Dati contestuali disponibili da aggiungere allo schema: Dettagli commerciali, dettagli canale, dettagli applicazione, dettagli web, dettagli ambiente, dettagli dispositivo, placeContext |
 
 Il modello prevede due fasi:
 
