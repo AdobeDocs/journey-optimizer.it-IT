@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '952'
 ht-degree: 3%
 
 ---
@@ -149,6 +149,11 @@ Per compilare l’elenco Consentiti, puoi anche chiamare l’API di soppressione
 Ulteriori informazioni sull’esecuzione di chiamate API in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Documentazione di riferimento di {target=&quot;_blank&quot;}.
 
 ## Logica Elenco Consentiti {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="Gestire l’elenco Consentiti"
+>abstract="Quando l’elenco Consentiti viene attivato, solo i destinatari inclusi nell’elenco Consentiti riceveranno messaggi e-mail da questa sandbox."
 
 Quando l’elenco Consentiti è [attivo](#enable-allow-list), si applica la logica seguente:
 
