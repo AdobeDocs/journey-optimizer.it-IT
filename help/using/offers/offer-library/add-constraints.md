@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1772'
+ht-degree: 2%
 
 ---
 
@@ -71,6 +71,11 @@ Ad esempio, se imposti i vincoli seguenti:
 >title="Informazioni sull’idoneità delle offerte"
 >abstract="In questa sezione puoi utilizzare le regole decisionali per determinare quali utenti sono idonei per l’offerta."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Guarda il video dimostrativo"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="Stima del profilo totale"
+>abstract="Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati."
 
 La **[!UICONTROL Offer eligibility]** La sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali.
 
@@ -134,6 +139,11 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 >title="Utilizzare i limiti"
 >abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza i limiti per definire il numero massimo di volte in cui può essere presentata un’offerta."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Impostare la frequenza di tappatura"
+>abstract="Puoi scegliere di reimpostare il contatore di limiti offerta su base giornaliera, settimanale o mensile."
+
 La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
 Limitare il numero di volte in cui gli utenti ricevono offerte specifiche ti consente di evitare di sollecitare eccessivamente i clienti e, quindi, di ottimizzare ogni punto di contatto con l’offerta migliore.
@@ -160,6 +170,16 @@ Per impostare il limite, effettua le seguenti operazioni.
 
       Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platinum&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito su di essa, ha una maggiore possibilità di agire sulla prossima offerta migliore.
 
+1. Imposta la **[!UICONTROL Frequency]** per definire la frequenza con cui viene reimpostato il conteggio dei limiti. A questo scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >La reimpostazione avviene alle 12:00 UTC, nel giorno definito o il primo giorno della settimana/mese, se applicabile. Il giorno di inizio della settimana è domenica.
+
+   Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Weekly]** dal **[!UICONTROL Repeat]** elenco a discesa e tipo **2** nel secondo campo. Il reset avverrà ogni due domenica alle 12 UTC.
+
 1. Se ne hai definiti diversi [rappresentazioni](#representations) per l’offerta, specifica se applicare il limite **[!UICONTROL Across all placements]** o **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ Per impostare il limite, effettua le seguenti operazioni.
 
       Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo per ogni posizionamento**, allora ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e un ulteriore 2 volte per il posizionamento web.
 
-1. Una volta salvata e approvata, se all’offerta è stato presentato il numero di volte specificato in questo campo in base ai criteri definiti, la consegna verrà interrotta.
+1. Una volta salvata e approvata, se all’offerta è stato presentato il numero di volte specificato in questo campo in base ai criteri e al periodo di tempo definito, la consegna verrà interrotta.
 
 Il numero di volte in cui viene proposta un’offerta viene calcolato al momento della preparazione dell’e-mail. Ad esempio, se prepari un’e-mail contenente una serie di offerte, questi numeri vengono conteggiati in base al tetto massimo, indipendentemente dal fatto che l’e-mail venga inviata o meno.
 
