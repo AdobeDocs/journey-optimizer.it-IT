@@ -6,21 +6,21 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: bd27e094ae437e6e0bffdb128f70d1e9f2d7de40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
 # Aggiungere messaggi nelle campagne{#messages-in- campaigns}
 
-Nelle campagne, seleziona il canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un’e-mail, un SMS o un push alla campagna, puoi inviarlo immediatamente o pianificare il messaggio.
+Nelle campagne, seleziona il canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un messaggio e-mail, SMS o push alla campagna, puoi inviarlo immediatamente o pianificarrlo.
 
 >[!NOTE]
->Puoi anche creare percorsi per l’invio dei messaggi attivati. [Ulteriori informazioni](messages-in-journeys.md).
+>Puoi anche creare percorsi per l’invio di messaggi attivati. [Ulteriori informazioni](messages-in-journeys.md).
 
-Scopri come aggiungere e configurare messaggi in una campagna [in questa sezione](../campaigns/create-campaign.md).
+Per scoprire come aggiungere e configurare messaggi in una campagna, consulta [questa sezione](../campaigns/create-campaign.md).
 
 Scopri i passaggi dettagliati per creare il contenuto del messaggio nella pagina seguente:
 
