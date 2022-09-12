@@ -3,9 +3,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 4576fbc4f75951e0576787b7631e164a87fdb83d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <td>
 <p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>Scopri come creare una campagna nel <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
+<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
 </td>
 </tr>
 </tbody>
@@ -78,9 +78,9 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Generazione rapporti**
 
-* La tabella e il grafico dei criteri di consenso sono ora disponibili nei rapporti globali del Percorso. Questi widget ti consentono di tenere traccia dei profili esclusi dai criteri nelle azioni personalizzate. [Ulteriori informazioni](../reports/journey-global-report.md#journey-global)
+* La tabella e il grafico dei criteri di consenso sono ora disponibili nei rapporti globali del Percorso. Questi widget consentono di tenere traccia dei profili esclusi dai criteri nelle azioni personalizzate. [Ulteriori informazioni](../reports/journey-global-report.md#journey-global)
 
-   Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione del dashboard, consulta [la documentazione dettagliata](../reports/global-report.md).
+   Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/global-report.md).
 
 **Amministrazione**
 
