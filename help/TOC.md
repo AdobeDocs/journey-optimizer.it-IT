@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 97%
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
 + Messaggi {#messages}
    + [Introduzione ai messaggi](using/messages/get-started-content.md)
-   + [Aggiungi percorsi di messaggi](using/messages/messages-in-journeys.md)
-   + [Aggiungere campagne messaggi](using/messages/messages-in-campaigns.md)
+   + [Aggiungere percorsi di messaggi](using/messages/messages-in-journeys.md)
+   + [Aggiungere campagne di messaggi](using/messages/messages-in-campaigns.md)
    + [Creare un messaggio e-mail](using/messages/create-email.md)
    + [Creare una notifica push](using/messages/create-push.md)
    + [Creare un messaggio SMS](using/messages/create-sms.md)
@@ -244,13 +244,13 @@ ht-degree: 97%
    + Report live {#live-report}
       + [Accedere al dashboard dei rapporti live](using/reports/live-report.md)
       + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
-      + [Rapporto Campaign Live](using/reports/campaign-live-report.md)
+      + [Rapporto live della campagna](using/reports/campaign-live-report.md)
       + [Pagina di destinazione Live report](using/reports/lp-report-live.md)
       + [Lista abbonamenti Live report](using/reports/subscription-report-live.md)
    + Rapporto globale {#global-report}
       + [Accedere al dashboard dei report globali](using/reports/global-report.md)
       + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
-      + [Report globale della campagna](using/reports/campaign-global-report.md)
+      + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
       + [Pagina di destinazione Global report](using/reports/lp-report-global.md)
       + [Lista abbonamenti Global report](using/reports/subscription-report-global.md)
    + Rapporti sul percorso {#reports}
@@ -266,7 +266,7 @@ ht-degree: 97%
       + [Esempi di query](using/reports/query-examples.md)
    + Consegna {#deliverability}
       + [Introduzione alla consegna](using/reports/deliverability.md)
-      + [Comprendere l&#39;elenco di soppressione](using/reports/suppression-list.md)
+      + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
 + Gestione delle decisioni {#offer-decisioning}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)

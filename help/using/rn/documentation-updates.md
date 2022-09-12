@@ -5,7 +5,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
 source-wordcount: '1871'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -15,10 +15,10 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Agosto 2022 {#august-2022}
 
-* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 agosto è stata dettagliata nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzionalità e i miglioramenti apportati nella versione di agosto 2022 di [!DNL Journey Optimizer] sono elencati in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
-* È stata aggiunta una limitazione per i percorsi che utilizzano attività Leggi segmento . [Ulteriori informazioni](../building-journeys/read-segment.md)
+* È stata aggiunta una limitazione per i percorsi che utilizzano attività Leggi segmento. [Ulteriori informazioni](../building-journeys/read-segment.md)
 * La pagina degli operatori dell’editor di espressioni è stata migliorata. [Ulteriori informazioni](../building-journeys/expression/operators.md)
 * È stata aggiunta una sezione su come pianificare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 * La sezione Regole di sintassi generale per l’editor di espressioni è stata aggiornata per tenere conto della nuova regola relativa all’escape del simbolo di barra rovesciata nelle funzioni letterali. I messaggi pubblicati esistenti non sono interessati da questa modifica. Solo i messaggi nuovi o bozza devono essere aggiornati. [Ulteriori informazioni](../personalization/personalization-syntax.md#general-rules)
