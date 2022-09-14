@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -112,12 +112,15 @@ I possibili motivi di un errore di consegna sono:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Aggiungi e-mail o domini all’elenco di soppressione"
->abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer per escludere specifici indirizzi e-mail e/o domini dall’invio."
+>abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer al fine di escludere specifici indirizzi e-mail e/o domini dall’invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="Aggiungi e-mail o domini all’elenco di soppressione"
->abstract="Per compilare l’elenco di soppressione di Journey Optimizer, puoi aggiungere manualmente indirizzi e-mail o domini - uno alla volta o in modalità collettiva tramite un caricamento di file CSV. Questi indirizzi e/o domini e-mail specifici saranno esclusi dall’invio."
+>abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer per escludere specifici indirizzi e-mail e/o domini dall’invio."
+
+<!--New contextual help content for September release:
+To populate the Journey Optimizer suppression list, you can manually add email addresses or domains - one at a time, or in bulk mode through a CSV file upload. These specific email addresses and/or domains will be excluded from your sending.-->
 
 Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di soppressione o al conteggio dei messaggi non recapitati definiti.
 

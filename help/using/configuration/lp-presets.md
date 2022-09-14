@@ -4,14 +4,19 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 7%
+source-wordcount: '356'
+ht-degree: 5%
 
 ---
 
 # Definire i predefiniti per la pagina di destinazione {#lp-presets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain_header"
+>title="Creare un predefinito per pagina di destinazione"
+>abstract="Per poter creare una pagina di destinazione e sfruttarla tramite Journey Optimizer, devi creare un predefinito per la pagina di destinazione che includa il sottodominio da utilizzare."
 
 Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
 
@@ -19,9 +24,9 @@ Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#c
 
 Per accedere ai predefiniti della pagina di destinazione, effettua le seguenti operazioni.
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** menu.
 
-1. Seleziona **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+1. Seleziona **[!UICONTROL Branding]** > **[!UICONTROL Predefiniti per le pagine di destinazione]**.
 
    ![](assets/lp_presets-access.png)
 
@@ -37,9 +42,9 @@ Per creare un predefinito per una pagina di destinazione, segui i passaggi ripor
 >
 >Per creare un predefinito, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](lp-subdomains.md)
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** quindi seleziona **[!UICONTROL Branding]** > **[!UICONTROL Landing page presets]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** quindi seleziona **[!UICONTROL Branding]** > **[!UICONTROL Predefiniti per le pagine di destinazione]**.
 
-1. Seleziona **[!UICONTROL Create landing page preset]**.
+1. Seleziona **[!UICONTROL Crea predefinito pagina di destinazione]**.
 
    ![](assets/lp_create-preset-temp.png)
 
@@ -59,17 +64,17 @@ Per creare un predefinito per una pagina di destinazione, segui i passaggi ripor
 
    Vengono visualizzate le impostazioni corrispondenti al sottodominio selezionato.
 
-1. Se desideri selezionare il sottodominio della pagina di destinazione come URL di tracciamento, controlla la **[!UICONTROL Same as landing page subdomain]** opzione . [Ulteriori informazioni sul tracciamento](../design/message-tracking.md)
+1. Se desideri selezionare il sottodominio della pagina di destinazione come URL di tracciamento, controlla la **[!UICONTROL Uguale al sottodominio della pagina di destinazione]** opzione . [Ulteriori informazioni sul tracciamento](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Ad esempio, se l’URL della pagina di destinazione è &quot;pages.mail.luma.com&quot; e l’URL di tracciamento è &quot;data.mail.luma.com&quot;, puoi scegliere &quot;pages.mail.luma.com&quot; da utilizzare come sottodominio di tracciamento.
 
-1. Fai clic su **[!UICONTROL Submit]** per confermare la creazione del predefinito della pagina di destinazione. Puoi anche salvare il predefinito come bozza e ripristinarne la configurazione in un secondo momento.
+1. Fai clic su **[!UICONTROL Invia]** per confermare la creazione del predefinito della pagina di destinazione. Puoi anche salvare il predefinito come bozza e ripristinarne la configurazione in un secondo momento.
 
    ![](assets/lp_preset-subdomain-settings-submit.png)
 
-1. Una volta creato il predefinito della pagina di destinazione, questo viene visualizzato nell’elenco con **[!UICONTROL Active]** stato. È pronto per essere utilizzato per le pagine di destinazione.
+1. Una volta creato il predefinito della pagina di destinazione, questo viene visualizzato nell’elenco con **[!UICONTROL Attivo]** stato. È pronto per essere utilizzato per le pagine di destinazione.
 
    ![](assets/lp-preset-active-temp.png)
 
