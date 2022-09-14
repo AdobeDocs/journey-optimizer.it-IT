@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1943'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >La funzione Esperimento di contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-## Cos’è un esperimento sui contenuti?
+## Cos&#39;è un esperimento sui contenuti?
 
 Gli esperimenti di contenuto consentono di ottimizzare il contenuto per le azioni nelle campagne.
 
@@ -31,7 +31,7 @@ Gli esperimenti sono un insieme di test randomizzati, che nel contesto dei test 
 
 ![](assets/content_experiment_schema.png)
 
-Gli esperimenti consentono di isolare le modifiche che portano a miglioramenti delle metriche. Come illustrato nell&#39;immagine precedente: alcuni utenti selezionati in modo casuale sono esposti a ciascun gruppo di trattamento, il che significa che in media i gruppi condivideranno le stesse caratteristiche. Così, qualsiasi differenza di risultati può essere interpretata come dovuto alle differenze nei trattamenti ricevuti, cioè si è in grado di stabilire un nesso causale tra i cambiamenti che hai fatto, e i risultati a cui sei interessato.
+Gli esperimenti consentono di isolare le modifiche che portano a miglioramenti delle metriche. Come illustrato nell&#39;immagine precedente: alcuni utenti selezionati in modo casuale sono esposti a ciascun gruppo di trattamento, il che significa che in media i gruppi condivideranno le stesse caratteristiche. Così, qualsiasi differenza di risultati può essere interpretata come dovuto alle differenze nei trattamenti ricevuti, cioè, si è in grado di stabilire un nesso causale tra i cambiamenti che hai fatto, e i risultati a cui sei interessato.
 
 Questo consente di prendere decisioni basate sui dati per ottimizzare gli obiettivi aziendali.
 
@@ -39,6 +39,38 @@ Per gli esperimenti sui contenuti in Adobe Journey Optimizer, puoi sottoporre a 
 
 * **Linea oggetto**: Quale potrebbe essere l&#39;impatto di un cambiamento nel tono o nel grado di personalizzazione di una linea del soggetto?
 * **Contenuto del messaggio**: La modifica del layout visivo di un’e-mail comporterà un maggior numero di clic sull’e-mail?
+
+## Come funziona l&#39;esperimento sui contenuti? {#content-experiment-work}
+
+### Assegnazione casuale
+
+La sperimentazione dei contenuti in Adobe Journey Optimizer utilizza un hash pseudo-casuale dell’identità del visitatore per eseguire l’assegnazione casuale degli utenti nel pubblico di destinazione a uno dei trattamenti definiti. Il meccanismo di hashing assicura che, negli scenari in cui il visitatore accede a una campagna più volte, riceva in modo deterministico lo stesso trattamento.
+
+In dettaglio, l’algoritmo a 32 bit MumurHash3 viene utilizzato per eseguire l’hash della stringa di identità dell’utente in uno dei 10.000 bucket. In un esperimento con il 50% del traffico assegnato a ogni trattamento, gli utenti che cadono in secchi 1- 5.000 riceveranno il primo trattamento, mentre gli utenti nei secchi 5.001 - 10.000 riceveranno il secondo trattamento. Poiché viene utilizzato un hashing pseudo-casuale, le suddivisioni del visitatore che si osservano potrebbero non essere esattamente 50-50; tuttavia, la suddivisione sarà statisticamente equivalente alla percentuale di suddivisione target.
+
+Tieni presente che, come parte della configurazione di ogni campagna con un esperimento di contenuto, devi scegliere uno spazio dei nomi di identità da cui selezionare l’ID utente per l’algoritmo di randomizzazione. Questo è indipendente dal [indirizzi di esecuzione](../configuration/primary-email-addresses.md).
+
+### Raccolta e analisi dei dati
+
+Al momento dell’assegnazione, ovvero quando il messaggio viene inviato nei canali in uscita o quando l’utente accede alla campagna nei canali in entrata, viene registrato un &quot;record di assegnazione&quot; nel set di dati di sistema appropriato. In questo modo verrà registrato a quale trattamento l’utente è stato assegnato, insieme agli identificatori di esperimento e campagna.
+
+Le metriche obiettivo possono essere raggruppate in due classi principali:
+
+* Metriche dirette, in cui l’utente reagisce direttamente al trattamento, ad esempio, aprendo un’e-mail o facendo clic su un collegamento.
+* Metriche indirette o &quot;bottom of funnel&quot; che si verificano dopo che l’utente è stato esposto al trattamento.
+
+Per le metriche degli obiettivi diretti in cui Adobe Journey Optimizer tiene traccia dei messaggi, gli eventi di risposta degli utenti finali vengono automaticamente taggati con gli identificatori della campagna e del trattamento, consentendo l’associazione diretta della metrica di risposta con un trattamento. [Ulteriori informazioni sul tracciamento](../design/message-tracking.md).
+
+![](assets/technote_2.png)
+
+Per gli obiettivi indiretti o &quot;fondo dell&#39;imbuto&quot;, come gli acquisti, gli eventi di risposta degli utenti finali non sono contrassegnati con gli identificatori della campagna e del trattamento, ovvero, un evento di acquisto si verifica dopo l&#39;esposizione a un trattamento, non c&#39;è associazione diretta di quell&#39;acquisto con un&#39;assegnazione di trattamento precedente. Per queste metriche, l&#39;Adobe associa il trattamento con la parte inferiore dell&#39;evento di conversione funnel se:
+
+* L&#39;identità dell&#39;utente è la stessa al momento dell&#39;assegnazione e dell&#39;evento di conversione.
+* La conversione avviene entro sette giorni dall&#39;assegnazione del trattamento.
+
+![](assets/technote_3.png)
+
+Adobe Journey Optimizer utilizza quindi metodi statistici &quot;sempre validi&quot; avanzati per interpretare questi dati di reporting non elaborati, che consentono di interpretare i rapporti sulla sperimentazione. Per ulteriori informazioni, consulta [questa pagina](../campaigns/experiment-calculations.md).
 
 ## Suggerimenti per l’esecuzione di esperimenti
 
@@ -91,13 +123,13 @@ Per comprendere i calcoli statistici, fare riferimento a questo [page](../campai
 
 Quando confronti le prestazioni di due trattamenti, confronta sempre le metriche normalizzate per tenere conto di eventuali differenze nel numero di profili esposti a ciascun trattamento.
 
-Ad esempio, se l’obiettivo dell’esperimento è impostato su **[!UICONTROL Unique Opens]** e un dato trattamento è stato mostrato a 10.000 Profili con 200 Aperture Uniche registrate, quindi questo rappresenta un **[!UICONTROL Conversion Rate]** del 2%. Per le metriche non univoche, ad esempio la metrica Apertura, la metrica normalizzata viene visualizzata come **[!UICONTROL Count per Profile]**, mentre per le metriche continue come Totale prezzo, la metrica normalizzata viene visualizzata come **[!UICONTROL Total per Profile]**.
+Ad esempio, se l’obiettivo dell’esperimento è impostato su **[!UICONTROL Aperture univoche]** e un dato trattamento è stato mostrato a 10.000 Profili con 200 Aperture Uniche registrate, quindi questo rappresenta un **[!UICONTROL Tasso di conversione]** del 2%. Per le metriche non univoche, ad esempio la metrica Apertura, la metrica normalizzata viene visualizzata come **[!UICONTROL Conteggio per profilo]**, mentre per le metriche continue come Totale prezzo, la metrica normalizzata viene visualizzata come **[!UICONTROL Totale per profilo]**.
 
 ### 2. Concentrati sugli intervalli di affidabilità {#confidence-intervals}
 
 Quando esegui esperimenti su campioni dei profili, il tasso di conversione osservato per un dato trattamento rappresenta una stima del tasso di conversione reale sottostante.
 
-Ad esempio, se il Trattamento A ha una **[!UICONTROL Conversion Rate]** del 3%, mentre il trattamento B ha un **[!UICONTROL Conversion Rate]** del 2%, il trattamento A è un più performante del trattamento B? Per rispondere a questa domanda, dobbiamo innanzitutto quantificare l&#39;incertezza dei tassi di conversione osservati.
+Ad esempio, se il Trattamento A ha una **[!UICONTROL Tasso di conversione]** del 3%, mentre il trattamento B ha un **[!UICONTROL Tasso di conversione]** del 2%, il trattamento A è un più performante del trattamento B? Per rispondere a questa domanda, dobbiamo innanzitutto quantificare l&#39;incertezza dei tassi di conversione osservati.
 
 Gli intervalli di affidabilità contribuiscono a quantificare l’ammontare di incertezza nei tassi di conversione stimati, ma intervalli di confidenza più ampi implicano maggiore incertezza. Man mano che vengono aggiunti più profili all’esperimento, gli intervalli diventeranno più piccoli, rappresentando una stima più precisa. L’intervallo di affidabilità rappresenta un intervallo di tassi di conversione compatibili con i dati osservati.
 
@@ -107,11 +139,11 @@ L’Adobe utilizza il 95% in ogni momento Intervalli di affidabilità validi o S
 
 ### 3. Comprendere l&#39;incremento {#understand-lift}
 
-Il riepilogo del rapporto Esperimento mostra la variabile **[!UICONTROL Lift over Baseline]**, che è una misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto alla linea di base. Definito con precisione, è la differenza di prestazioni tra un dato trattamento e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
+Il riepilogo del rapporto Esperimento mostra la variabile **[!UICONTROL Incremento rispetto alla linea di base]**, che è una misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto alla linea di base. Definito con precisione, è la differenza di prestazioni tra un dato trattamento e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
 ### 3. Comprendere la fiducia {#understand-confidence}
 
-Mentre dovresti concentrarti principalmente sul **[!UICONTROL Confidence interval]** per l&#39;esecuzione di ciascun trattamento, l&#39;Adobe mostra anche la Confidence, che è una misura probabilistica di quanta prova ci sia che un dato trattamento è lo stesso del trattamento di base. Una maggiore affidabilità indica meno prove dell&#39;ipotesi che i trattamenti di base e quelli non di base abbiano prestazioni uguali. Più precisamente, l&#39;affidabilità mostrata è una probabilità (espressa in percentuale) che avremmo osservato una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non c&#39;è alcuna differenza nei tassi di conversione reali sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
+Mentre dovresti concentrarti principalmente sul **[!UICONTROL Intervallo di affidabilità]** per l&#39;esecuzione di ciascun trattamento, l&#39;Adobe mostra anche la Confidence, che è una misura probabilistica di quanta prova ci sia che un dato trattamento è lo stesso del trattamento di base. Una maggiore affidabilità indica meno prove dell&#39;ipotesi che i trattamenti di base e quelli non di base abbiano prestazioni uguali. Più precisamente, l&#39;affidabilità mostrata è una probabilità (espressa in percentuale) che avremmo osservato una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non c&#39;è alcuna differenza nei tassi di conversione reali sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
 
 In Adobe vengono utilizzati valori p-value &quot;Valido ogni volta&quot; e &quot;Valido ogni volta&quot; coerenti con le sequenze di affidabilità descritte in precedenza.
 

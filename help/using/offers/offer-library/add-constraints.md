@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1715'
 ht-degree: 2%
 
 ---
@@ -37,19 +37,19 @@ ht-degree: 2%
 
 I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
-1. Configura le **[!UICONTROL Offer eligibility]**. [Ulteriori informazioni](#eligibility)
+1. Configura le **[!UICONTROL Idoneità offerta]**. [Ulteriori informazioni](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. Definisci la **[!UICONTROL Priority]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
+1. Definisci la **[!UICONTROL Priorità]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore sarà la priorità di un&#39;offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
 
    ![](../assets/offer-priority.png)
 
-1. Specifica le offerte **[!UICONTROL Capping]**, ovvero il numero di volte in cui verrà presentata l’offerta. [Ulteriori informazioni](#capping)
+1. Specifica le offerte **[!UICONTROL Limitazione]**, ovvero il numero di volte in cui verrà presentata l’offerta. [Ulteriori informazioni](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. Fai clic su **[!UICONTROL Next]** per confermare tutti i vincoli definiti.
+1. Fai clic su **[!UICONTROL Successivo]** per confermare tutti i vincoli definiti.
 
 Ad esempio, se imposti i vincoli seguenti:
 
@@ -77,23 +77,23 @@ Ad esempio, se imposti i vincoli seguenti:
 >title="Stima del profilo totale"
 >abstract="Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati."
 
-La **[!UICONTROL Offer eligibility]** La sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali.
+La **[!UICONTROL Idoneità offerta]** La sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali.
 
 >[!NOTE]
 >
 >Ulteriori informazioni sull&#39;utilizzo di **segmenti** contro **norme decisionali** in [questa sezione](#segments-vs-decision-rules).
 
-* Per impostazione predefinita, la **[!UICONTROL All visitors]** viene selezionata, il che significa che qualsiasi profilo sarà idoneo per la presentazione dell’offerta.
+* Per impostazione predefinita, la **[!UICONTROL Tutti i visitatori]** viene selezionata, il che significa che qualsiasi profilo sarà idoneo per la presentazione dell’offerta.
 
    ![](../assets/offer-eligibility-default.png)
 
 * Puoi anche limitare la presentazione dell’offerta ai membri di uno o più [Segmenti Adobe Experience Platform](../../segment/about-segments.md).
 
-   Per eseguire questa operazione, attiva il **[!UICONTROL Visitors who fall into one or multiple segments]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando la **[!UICONTROL And]** / **[!UICONTROL Or]** operatori logici.
+   Per eseguire questa operazione, attiva il **[!UICONTROL Visitatori che rientrano in uno o più segmenti]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando la **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
 
    ![](../assets/offer-eligibility-segment.png)
 
-* Per associare uno specifico [norma decisionale](../offer-library/creating-decision-rules.md) all’offerta, seleziona **[!UICONTROL By defined decision rule]**, quindi trascina la regola desiderata dal riquadro di sinistra nel **[!UICONTROL Decision rule]** area.
+* Per associare uno specifico [norma decisionale](../offer-library/creating-decision-rules.md) all’offerta, seleziona **[!UICONTROL Per regola decisionale definita]**, quindi trascina la regola desiderata dal riquadro di sinistra nel **[!UICONTROL Regola decisionale]** area.
 
    ![](../assets/offer_rule.png)
 
@@ -101,7 +101,7 @@ La **[!UICONTROL Offer eligibility]** La sezione ti consente di limitare l’off
    >
    >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarlo in un&#39;offerta.
 
-Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Refresh]** per aggiornare i dati.
+Quando selezioni segmenti o regole decisionali, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -162,33 +162,32 @@ Per impostare il limite, effettua le seguenti operazioni.
 
    ![](../assets/offer-capping-total.png)
 
-   * Seleziona **[!UICONTROL In total]** per definire quante volte un’offerta può essere proposta tra il pubblico di destinazione combinato, ovvero tra tutti gli utenti.
+   * Seleziona **[!UICONTROL Totale]** per definire quante volte un’offerta può essere proposta tra il pubblico di destinazione combinato, ovvero tra tutti gli utenti.
 
       Ad esempio, se sei un rivenditore di elettronica con un&#39;offerta di porta TV, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
 
-   * Seleziona **[!UICONTROL Per profile]** per definire quante volte può essere proposta un’offerta allo stesso utente.
+   * Seleziona **[!UICONTROL Per profilo]** per definire quante volte può essere proposta un’offerta allo stesso utente.
 
       Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platinum&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito su di essa, ha una maggiore possibilità di agire sulla prossima offerta migliore.
+   <!--
+    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
+    ![](../assets/offer-capping-frequency.png)
+    >[!NOTE]
+    >
+    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
+    
+    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
+    -->
 
-1. Imposta la **[!UICONTROL Frequency]** per definire la frequenza con cui viene reimpostato il conteggio dei limiti. A questo scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
-
-   ![](../assets/offer-capping-frequency.png)
-
-   >[!NOTE]
-   >
-   >La reimpostazione avviene alle 12:00 UTC, nel giorno definito o il primo giorno della settimana/mese, se applicabile. Il giorno di inizio della settimana è domenica.
-
-   Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Weekly]** dal **[!UICONTROL Repeat]** elenco a discesa e tipo **2** nel secondo campo. Il reset avverrà ogni due domenica alle 12 UTC.
-
-1. Se ne hai definiti diversi [rappresentazioni](#representations) per l’offerta, specifica se applicare il limite **[!UICONTROL Across all placements]** o **[!UICONTROL For each placement]**.
+1. Se ne hai definiti diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL Across all placements]**: i conteggi dei massimali totalizzeranno tutte le decisioni nei posizionamenti associati all’offerta.
+   * **[!UICONTROL In tutti i posizionamenti]**: i conteggi dei massimali totalizzeranno tutte le decisioni nei posizionamenti associati all’offerta.
 
       Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo in tutti i posizionamenti**, ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
 
-   * **[!UICONTROL For each placement]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ogni posizionamento.
+   * **[!UICONTROL Per ogni posizionamento]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ogni posizionamento.
 
       Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo per ogni posizionamento**, allora ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e un ulteriore 2 volte per il posizionamento web.
 

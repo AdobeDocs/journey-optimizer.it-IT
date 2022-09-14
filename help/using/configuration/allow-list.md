@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Inoltre, quando l’elenco Consentiti è attivo ma vuoto, non verrà inviata alc
 
 ## Accedere all’elenco Consentiti {#access-allowed-list}
 
-Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini consentiti, vai a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, quindi seleziona **[!UICONTROL Allowed list]**.
+Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini consentiti, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, quindi seleziona **[!UICONTROL Elenco Consentiti]**.
 
 ![](assets/allow-list-access.png)
 
@@ -41,11 +41,11 @@ Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini consen
 >
 >Le autorizzazioni per visualizzare, esportare e gestire l’elenco Consentiti sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
 
-Per esportare l’elenco Consentiti come file CSV, seleziona il **[!UICONTROL Download CSV]** pulsante .
+Per esportare l’elenco Consentiti come file CSV, seleziona il **[!UICONTROL Scarica CSV]** pulsante .
 
-Utilizza la **[!UICONTROL Delete]** per rimuovere definitivamente una voce.
+Utilizza la **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 
-Puoi cercare gli indirizzi e-mail o i domini e filtrare i **[!UICONTROL Address type]**. Una volta selezionato, puoi cancellare il filtro visualizzato in alto nell’elenco.
+Puoi cercare gli indirizzi e-mail o i domini e filtrare i **[!UICONTROL Tipo di indirizzo]**. Una volta selezionato, puoi cancellare il filtro visualizzato in alto nell’elenco.
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -53,13 +53,13 @@ Puoi cercare gli indirizzi e-mail o i domini e filtrare i **[!UICONTROL Address 
 
 Per attivare l’elenco Consentiti, segui i passaggi riportati di seguito.
 
-1. Accedi al menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Accedere al  **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]** menu.
 
-1. Fai clic su **[!UICONTROL Deactivated]**.
+1. Fai clic su **[!UICONTROL Disattivato]**.
 
    ![](assets/allow-list-edit.png)
 
-1. Seleziona **[!UICONTROL Activate allowed list]**. L&#39;elenco Consentiti è ora attivo.
+1. Seleziona **[!UICONTROL Attiva elenco Consentiti]**. L&#39;elenco Consentiti è ora attivo.
 
    ![](assets/allow-list-enable.png)
 
@@ -77,13 +77,13 @@ La logica di elenco Consentiti si applica quando la funzione è attiva. Ulterior
 
 Per disattivare l’elenco Consentiti, segui i passaggi riportati di seguito.
 
-1. Accedi al menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Accedere al  **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]** menu.
 
-1. Fai clic su **[!UICONTROL Active]**.
+1. Fai clic su **[!UICONTROL Attivo]**.
 
    ![](assets/allow-list-edit-active.png)
 
-1. Seleziona **[!UICONTROL Deactivate allowed list]**. L&#39;elenco Consentiti non è più attivo.
+1. Seleziona **[!UICONTROL Disattiva elenco Consentiti]**. L&#39;elenco Consentiti non è più attivo.
 
    ![](assets/allow-list-deactivate.png)
 
@@ -104,6 +104,11 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 ### Compilare manualmente l’elenco Consentiti {#manually-populate-list}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="Aggiungi indirizzi o domini all’elenco Consentiti"
+>abstract="Puoi aggiungere manualmente nuovi indirizzi e-mail o domini all’elenco Consentiti selezionandoli uno per uno."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
 >title="Aggiungi indirizzi o domini all’elenco Consentiti"
 >abstract="Puoi aggiungere manualmente nuovi indirizzi e-mail o domini all’elenco Consentiti selezionandoli uno per uno."
@@ -116,11 +121,11 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 
 Per farlo, segui la procedura indicata di seguito.
 
-1. Fai clic sul pulsante **[!UICONTROL Add email or domain]**.
+1. Seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** pulsante .
 
    ![](assets/allowed-list-add-email.png)
 
-1. Scegli il tipo di indirizzo: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
+1. Scegli il tipo di indirizzo: **[!UICONTROL Indirizzo e-mail]** o **[!UICONTROL Indirizzo di dominio]**.
 
 1. Immetti l’indirizzo e-mail o il dominio a cui desideri inviare le e-mail.
 
@@ -134,9 +139,9 @@ Per farlo, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Reason]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
 
-1. Fai clic su **[!UICONTROL Submit]**.
+1. Fai clic su **[!UICONTROL Invia]**.
 
 ### Aggiungere entità utilizzando una chiamata API {#api-call-allowed-list}
 
@@ -159,13 +164,13 @@ Quando l’elenco Consentiti è [attivo](#enable-allow-list), si applica la logi
 
 * Se l’elenco Consentiti è **vuoto**, non verrà inviata alcuna e-mail.
 
-* Se un’entità è **sull&#39;elenco Consentiti** e non nell’elenco di soppressione, l’e-mail viene inviata ai destinatari corrispondenti. Tuttavia, se l’entità fa parte anche della [elenco a discesa](../reports/suppression-list.md), i destinatari corrispondenti non riceveranno l’e-mail, poiché **[!UICONTROL Suppressed]**.
+* Se un’entità è **sull&#39;elenco Consentiti** e non nell’elenco di soppressione, l’e-mail viene inviata ai destinatari corrispondenti. Tuttavia, se l’entità fa parte anche della [elenco a discesa](../reports/suppression-list.md), i destinatari corrispondenti non riceveranno l’e-mail, poiché **[!UICONTROL Soppresso]**.
 
-* Se un’entità è **non sull&#39;elenco Consentiti** (e non nell’elenco di soppressione), i destinatari corrispondenti non riceveranno l’e-mail, poiché **[!UICONTROL Not allowed]**.
+* Se un’entità è **non sull&#39;elenco Consentiti** (e non nell’elenco di soppressione), i destinatari corrispondenti non riceveranno l’e-mail, poiché **[!UICONTROL Non consentito]**.
 
 >[!NOTE]
 >
->I profili con **[!UICONTROL Not allowed]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Sent]** le metriche vengono filtrate prima dell’invio dell’e-mail.
+>I profili con **[!UICONTROL Non consentito]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Inviato]** le metriche vengono filtrate prima dell’invio dell’e-mail.
 >
 >Per saperne di più sul [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).
 
