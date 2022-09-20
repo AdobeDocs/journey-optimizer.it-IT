@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 42%
+source-wordcount: '727'
+ht-degree: 29%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Selezionare un set di dati"
->abstract="Puoi selezionare solo un set di dati di tipo evento che deve contenere almeno uno dei gruppi di campi supportati: Dettagli applicazione, Dettagli commercio, Dettagli Web."
+>abstract="Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei gruppi di campi supportati: Dettagli applicazione, Dettagli commercio, Dettagli Web."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-La configurazione dell’origine dati per la generazione di rapporti ti consente di recuperare metriche aggiuntive che verranno utilizzate nella **[!UICONTROL Objectives]** dei rapporti della campagna. [Ulteriori informazioni](content-experiment.md#objectives-global)
+La configurazione dell’origine dati per la generazione di rapporti ti consente di recuperare metriche aggiuntive che verranno utilizzate nella **[!UICONTROL Obiettivi]** dei rapporti della campagna. [Ulteriori informazioni](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Prima di poter aggiungere un set di dati alla configurazione di reporting, devi 
 
 ## Obiettivi corrispondenti a ciascun gruppo di campi {#objective-list}
 
-La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Objectives]** scheda dei rapporti della campagna per ciascun gruppo di campi.
+La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obiettivi]** scheda dei rapporti della campagna per ciascun gruppo di campi.
 
 | Gruppo di campi | Obiettivi |
 |--- |--- |
@@ -78,21 +78,21 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obj
 
 ## Aggiungi set di dati {#add-datasets}
 
-1. Dal menu **[!UICONTROL ADMINISTRATION]**, seleziona **[!UICONTROL Configurations]**. Dalla sezione **[!UICONTROL Reporting]**, fai clic su **[!UICONTROL Manage]**.
+1. Da **[!UICONTROL AMMINISTRAZIONE]** menu, seleziona **[!UICONTROL Configurazioni]**. In  **[!UICONTROL Reporting]** sezione, fai clic su **[!UICONTROL Gestisci]**.
 
    ![](assets/reporting-config-menu.png)
 
    Viene visualizzato l’elenco dei set di dati già aggiunti.
 
-1. Dalla scheda **[!UICONTROL Dataset]**, fai clic su **[!UICONTROL Add dataset]**.
+1. Da **[!UICONTROL Set di dati]** scheda , fai clic su **[!UICONTROL Aggiungi set di dati]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Se selezioni la scheda **[!UICONTROL System dataset]**, vengono visualizzati solo i set di dati creati dal sistema. Non potrai aggiungere altri set di dati.
+   >Se selezioni la **[!UICONTROL Set di dati di sistema]** vengono visualizzati solo i set di dati creati dal sistema. Non potrai aggiungere altri set di dati.
 
-1. Dall’elenco a discesa **[!UICONTROL Dataset]**, seleziona il set di dati da utilizzare per i rapporti.
+1. Da **[!UICONTROL Set di dati]** dall’elenco a discesa, seleziona il set di dati da utilizzare per i rapporti.
 
    >[!CAUTION]
    >
@@ -102,7 +102,7 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obj
 
    Per ulteriori informazioni sui set di dati, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target=&quot;_blank&quot;}.
 
-1. Dall’elenco a discesa **[!UICONTROL Profile ID]**, seleziona l’attributo del campo set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
+1. Da **[!UICONTROL ID profilo]** elenco a discesa, seleziona l’attributo del campo set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -110,7 +110,7 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obj
    >
    >Vengono visualizzati solo gli ID disponibili per i rapporti.
 
-1. L’opzione **[!UICONTROL Use Primary ID namespace]** è attivata per impostazione predefinita. Se il **[!UICONTROL Profile ID]** selezionato è **[!UICONTROL Identity Map]**, puoi disattivare questa opzione e scegliere un altro spazio dei nomi dall’elenco a discesa visualizzato.
+1. La **[!UICONTROL Usa spazio dei nomi ID primario]** è attivata per impostazione predefinita. Se selezionato **[!UICONTROL ID profilo]** è **[!UICONTROL Mappa identità]**, puoi disattivare questa opzione e scegliere un altro namespace dall’elenco a discesa visualizzato.
 
    ![](assets/reporting-config-namespace.png)
 
@@ -122,7 +122,7 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obj
    >
    >Se hai selezionato un set di dati che non è di tipo evento, non potrai procedere.
 
-Quando crei i rapporti della campagna, ora puoi vedere le metriche corrispondenti ai gruppi di campi utilizzati nei set di dati aggiunti. Vai a **[!UICONTROL Objectives]** seleziona le metriche desiderate per ottimizzare i rapporti. [Ulteriori informazioni](content-experiment.md#objectives-global)
+Quando crei i rapporti della campagna, ora puoi vedere le metriche corrispondenti ai gruppi di campi utilizzati nei set di dati aggiunti. Vai a **[!UICONTROL Obiettivi]** seleziona le metriche desiderate per ottimizzare i rapporti. [Ulteriori informazioni](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
