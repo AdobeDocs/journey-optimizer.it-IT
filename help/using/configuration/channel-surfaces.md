@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ Se si verifica uno di questi errori, contatta [Adobe Customer Care](https://help
    * Inserire nell&#39;elenco Bloccati degli IP allocati
    * Non valido `helo` name
    * E-mail inviate da IP diversi da quelli specificati nel pool IP della superficie corrispondente
-   * Impossibile inviare e-mail alle caselle in entrata dei principali ISP come Gmail e Yahoo
+   * Impossibile inviare e-mail alle caselle in entrata dei principali ISP
 
 ## Modificare una superficie del canale {#edit-channel-surface}
 
