@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 97%
    + [Creare un messaggio e-mail](using/messages/create-email.md)
    + [Creare una notifica push](using/messages/create-push.md)
    + [Creare un messaggio SMS](using/messages/create-sms.md)
-   + [Creare una direct mailing](using/messages/create-direct-mail.md)
+   + [Creare una direct mail](using/messages/create-direct-mail.md)
    + [Controllare gli avvisi](using/messages/alerts.md)
    + [Gestire il consenso](using/messages/consent.md)
    + [Ottimizzazione dell’ora di invio](using/messages/send-time-optimization.md)
