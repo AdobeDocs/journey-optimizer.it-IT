@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '939'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate.
 
-La gestione delle decisioni semplifica la personalizzazione grazie a una libreria centrale di offerte di marketing e a un motore decisionale che applica regole e vincoli ai profili avanzati e in tempo reale creati da Adobe Experience Platform per aiutarti a inviare ai tuoi clienti l’offerta giusta al momento giusto.
+La funzione Gestione delle decisioni semplifica la personalizzazione con una libreria centrale di offerte di marketing e un motore decisionale che applica regole e vincoli ai profili avanzati e in tempo reale creati da Adobe Experience Platform, per aiutarti a inviare ai tuoi clienti l’offerta giusta al momento giusto.
 
 La capacità di Gestione delle decisioni è costituita da due componenti principali:
 
@@ -43,7 +43,7 @@ I vantaggi includono:
 
 Un’**offerta** è costituita da contenuti, regole di idoneità e vincoli che definiscono le condizioni in cui viene presentata ai clienti.
 
-Viene creata utilizzando la **Libreria offerte**, che fornisce un catalogo centrale delle offerte in cui è possibile associare regole di idoneità e vincoli a più parti di contenuto per creare e pubblicare le offerte (consulta [Interfaccia utente della Libreria offerte](../get-started/user-interface.md)).
+Viene creata utilizzando la **Libreria di offerte**, che fornisce un catalogo centrale delle offerte in cui è possibile associare regole di idoneità e vincoli a più parti di contenuto per creare e pubblicare le offerte (consulta [Interfaccia utente della Libreria di offerte](../get-started/user-interface.md)).
 
 ![](../assets/offer_structure.png)
 
@@ -69,9 +69,9 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 ## Concedere l’accesso alla gestione delle decisioni {#granting-acess-to-decision-management}
 
-Le autorizzazioni di accesso e utilizzo delle funzionalità decisionali vengono gestite utilizzando [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Le autorizzazioni per accedere e utilizzare le funzionalità di decisioning vengono gestite mediante [Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Product profile]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Per saperne di più sulla gestione di utenti e autorizzazioni per [!DNL Journey Optimizer], consulta [questa sezione](../../administration/permissions.md).
+Per concedere l’accesso alla funzionalità di gestione delle decisioni, devi creare un **[!UICONTROL Profilo di prodotto]** e assegnare le autorizzazioni corrispondenti ai tuoi utenti. Per saperne di più sulla gestione di utenti e autorizzazioni per [!DNL Journey Optimizer], consulta [questa sezione](../../administration/permissions.md).
 
 Le autorizzazioni specificheper la gestione delle decisioni sono elencate in [questa sezione](../../administration/high-low-permissions.md#decisions-permissions).
 
