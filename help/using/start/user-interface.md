@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d21ab858913844d655a2b23d22b562b62eb7743c
-workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1572'
+ht-degree: 100%
 
 ---
 
@@ -40,53 +40,53 @@ Di seguito è riportato l’elenco completo dei servizi e delle funzionalità di
 
 **Home**
 
-La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiave per iniziare. L’elenco **[!UICONTROL Recents]** fornisce collegamenti agli eventi e ai percorsi creati di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
+La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiave per iniziare. L’elenco **[!UICONTROL Recenti]** fornisce collegamenti agli eventi e ai percorsi creati di recente. Questo elenco mostra le relative date e lo stato di creazione e modifica.
 
-**[!UICONTROL JOURNEY MANAGEMENT]**
+**[!UICONTROL GESTIONE PERCORSI]**
 
-* **[!UICONTROL Journeys]**: crea, configura e gestisci i percorsi dei clienti. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Percorsi]**: crea, configura e gestisci i percorsi dei clienti. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]**: crea, progetta, verifica e pubblica le pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Pagine di destinazione]**: crea, progetta, testa e pubblica le pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
-**[!UICONTROL DECISION MANAGEMENT]**
+**[!UICONTROL GESTIONE DECISIONI]**
 
-* **[!UICONTROL Offers]**: accedi alle origini e ai set di dati recenti da questo menu. Usa questa sezione per creare nuove offerte. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offerte]**: accedi alle origini e ai set di dati recenti da questo menu. Usa questa sezione per creare nuove offerte. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md)
 
-* **[!UICONTROL Components]**: crea posizionamenti, regole e tag. [Ulteriori informazioni](../offers/offer-library/key-steps.md)
+* **[!UICONTROL Componenti]**: crea posizionamenti, regole e tag. [Ulteriori informazioni](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL CONTENT MANAGEMENT]**
+**[!UICONTROL GESTIONE CONTENUTI]**
 
-* **[!UICONTROL Assets]**: [!DNL Adobe Experience Manager Assets Essentials] è un archivio centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../design/assets-essentials.md)
+* **[!UICONTROL Risorse]**: [!DNL Adobe Experience Manager Assets Essentials] è un archivio centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../design/assets-essentials.md)
 
-**[!UICONTROL DATA MANAGEMENT]**
+**[!UICONTROL GESTIONE DATI]**
 
-* **[!UICONTROL Schemas]**: utilizza Adobe Experience Platform per creare e gestire gli schemi Experience Data Model (XDM) in un’area di lavoro visiva e interattiva, denominata Editor di schema. [Ulteriori informazioni](get-started-schemas.md)
+* **[!UICONTROL Schemi]**: utilizza Adobe Experience Platform per creare e gestire gli schemi Experience Data Model (XDM) in un’area di lavoro visiva e interattiva, denominata Editor di schema. [Ulteriori informazioni](get-started-schemas.md)
 
-* **[!UICONTROL Datasets]**: tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe). [Ulteriori informazioni](get-started-datasets.md)
+* **[!UICONTROL Set di dati]**: tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). [Ulteriori informazioni](get-started-datasets.md)
 
-* **[!UICONTROL Queries]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](get-started-queries.md)
+* **[!UICONTROL Query]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](get-started-queries.md)
 
-* **[!UICONTROL Monitoring]**: usa questo menu per monitorare l’inserimento dei dati nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoraggio]**: usa questo menu per monitorare l’acquisizione dei dati nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target=&quot;_blank&quot;}
 
-**[!UICONTROL CONNECTIONS]**
+**[!UICONTROL CONNESSIONI]**
 
-* **[!UICONTROL Sources]**: utilizza questo menu per acquisire i dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e altro ancora, nonché per strutturare, etichettare e ottimizzare i dati in arrivo. [Ulteriori informazioni](get-started-sources.md)
+* **[!UICONTROL Origini]**: utilizza questo menu per acquisire i dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e altro ancora, nonché per strutturare, etichettare e ottimizzare i dati in arrivo. [Ulteriori informazioni](get-started-sources.md)
 
-**[!UICONTROL CUSTOMER]**
+**[!UICONTROL CLIENTE]**
 
-* **[!UICONTROL Segments]**: crea e gestisci le definizioni dei segmenti di Experience Platform per utilizzarle nei tuoi percorsi. [Ulteriori informazioni](../segment/about-segments.md)
+* **[!UICONTROL Segmenti]**: crea e gestisci le definizioni dei segmenti di Experience Platform per sfruttarle nei percorsi. [Ulteriori informazioni](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]**: la funzione Profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei singoli clienti, combinando dati provenienti da più canali tra cui dati online, offline, del sistema CRM e di terze parti. [Ulteriori informazioni](../segment/get-started-profiles.md)
+* **[!UICONTROL Profili]**: Il profilo cliente in tempo reale crea una visualizzazione olistica di ciascuno dei singoli clienti, combinando dati provenienti da più canali tra cui dati online, offline, del sistema CRM e di terze parti. [Ulteriori informazioni](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]**: Adobe Experience Platform Identity Service gestisce l’identificazione dei clienti in tempo reale, tra dispositivi e canali diversi, in quello che viene definito un grafico di identità in Adobe Experience Platform. [Ulteriori informazioni](../segment/get-started-identity.md)
+* **[!UICONTROL Identità]**: Adobe Experience Platform Identity Service gestisce l’identificazione dei clienti in tempo quasi reale tra dispositivi e canali diversi, in quello che viene definito un grafo di identità in Adobe Experience Platform. [Ulteriori informazioni](../segment/get-started-identity.md)
 
-**[!UICONTROL ADMINISTRATION]**
+**[!UICONTROL AMMINISTRAZIONE]**
 
-* **[!UICONTROL Journey Administration]**: utilizza questo menu per configurare [eventi](../event/about-events.md), [origini dati](../datasource/about-data-sources.md) e [azioni](../action/action.md) da utilizzare nei tuoi percorsi.
+* **[!UICONTROL Amministrazione percorsi]**: utilizza questo menu per configurare [eventi](../event/about-events.md), [origini dati](../datasource/about-data-sources.md) e [azioni](../action/action.md) da utilizzare nei percorsi.
 
-* **[!UICONTROL Sandboxes]**: Adobe Experience Platform fornisce ambienti sandbox che permettono di suddividere una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. [Ulteriori informazioni](../administration/sandboxes.md)
+* **[!UICONTROL Sandbox]**: Adobe Experience Platform fornisce sandbox che suddividono una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. [Ulteriori informazioni](../administration/sandboxes.md)
 
-* **[!UICONTROL Alerts]** - L’interfaccia utente ti consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+* **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target=&quot;_blank&quot;}
 
 
 ## Casi d’uso accessibili dal prodotto {#in-product-uc}
@@ -102,11 +102,11 @@ I casi di utilizzo disponibili sono:
 * **Invia e-mail per accogliere i nuovi clienti**, per inviare facilmente fino a due e-mail per dare il benvenuto ai clienti appena registrati. (disponibile a breve)
 * **Inviare messaggi push a un elenco importato dei clienti**, per inviare rapidamente una notifica push a un elenco di clienti importati da un file CSV. (disponibile a breve)
 
-Per ulteriori informazioni su ogni caso d’uso, fai clic su **[!UICONTROL View details]**.
+Per ulteriori informazioni su ogni caso d’uso, fai clic su **[!UICONTROL Visualizza i dettagli]**.
 
-Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Begin]**.
+Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Inizia]**.
 
-Puoi accedere ai casi di utilizzo eseguiti dal pulsante **[!UICONTROL View use case library]**.
+Puoi accedere ai casi d’uso eseguiti dal pulsante **[!UICONTROL Visualizza libreria dei casi d’uso]**.
 
 ## Accessibilità{#accessibility}
 
@@ -194,7 +194,7 @@ Riquadro di configurazione dei seguenti elementi:
   <tr>
     <td>
 
-Attivare un evento in un percorso basato su segmenti per il quale è attivata l’opzione **[!UICONTROL Single profile at a time]**
+Attiva un evento in un percorso basato su segmenti per il quale è attivata l’opzione **[!UICONTROL Singolo profilo alla volta]**
 
 </td>
     <td>P</td>
@@ -289,17 +289,17 @@ Nella maggior parte degli elenchi, una barra di ricerca consente di cercare un e
 
 Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli che hai creato oppure quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
 
-Nell’elenco, puoi filtrare i percorsi in base al loro stato, versione e tipo mediante l’opzione **[!UICONTROL Status and version filters]**. Il tipo può essere: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** o **[!UICONTROL Burst]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un dato evento, un gruppo di campi o un’azione particolare con le opzioni **[!UICONTROL Activity filters]** e **[!UICONTROL Data filters]**. La sezione **[!UICONTROL Publication filters]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
+Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del segmento]**, **[!UICONTROL Leggi segmento]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare con **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**. In **[!UICONTROL Filtri di pubblicazione]** puoi selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Le colonne visualizzate possono essere personalizzate utilizzando il pulsante di configurazione, posto in alto a destra degli elenchi. La personalizzazione viene salvata per ogni utente.
 
-Utilizza le colonne **[!UICONTROL Last update]** e **[!UICONTROL Last update by]** per verificare quando è avvenuto l’ultimo aggiornamento dei percorsi e chi l’ha salvato.
+Utilizza le colonne **[!UICONTROL Ultimo aggiornamento]** e **[!UICONTROL Ultimo aggiornamento di]** per verificare quando è avvenuto l’ultimo aggiornamento dei percorsi e chi l’ha salvato.
 
 ![](assets/filter-journeys.png)
 
-Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Used in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL View journeys]**.
+Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Usato in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 
 ![](assets/journey3bis.png)
 
