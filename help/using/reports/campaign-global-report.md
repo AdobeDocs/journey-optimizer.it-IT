@@ -1,31 +1,34 @@
 ---
-title: Report globale della campagna
+title: Rapporto globale della campagna
 description: Scopri come utilizzare i dati dal rapporto globale di Campaign
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 0%
+source-wordcount: '1660'
+ht-degree: 1%
 
 ---
 
-# Report globale della campagna {#campaign-global-report}
+# Rapporto globale della campagna {#campaign-global-report}
 
-Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Reports]** pulsante .
+Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Tutto il tempo]** pulsante .
 
-![](assets/campaign_report_1.png)
+![](assets/campaign_report_global_5.png)
 
-Dopo aver selezionato la **[!UICONTROL All time]** scheda , la campagna **[!UICONTROL Global report]** La pagina verrà visualizzata con le seguenti schede:
+La campagna **[!UICONTROL Report globale]** La pagina verrà visualizzata con le seguenti schede:
 
 * [Campaign](#campaign-global)
 * [E-mail](#email-global)
 * [Push](#push-global)
+* [SMS](#sms-global)
 
-La campagna **[!UICONTROL Global report]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
+La campagna **[!UICONTROL Report globale]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
+
+Per un elenco dettagliato di ciascuna metrica disponibile in Adobe Journey Optimizer, consulta [questa pagina](global-report.md#list-of-components-global.md)
 
 ## Scheda Campaign {#campaign-global}
 
@@ -33,166 +36,219 @@ La campagna **[!UICONTROL Global report]** è suddiviso in diversi widget che de
 
 ![](assets/campaign_report_global_1.png)
 
-La **[!UICONTROL Campaign's Statistics]** i dettagli del widget forniscono le informazioni principali relative alla campagna:
+La **[!UICONTROL Statistiche di Campaign]** i dettagli del widget forniscono le informazioni principali relative alla campagna:
 
-* **[!UICONTROL Entered profiles]**: Numero di profili che hanno avviato il percorso.
+* **[!UICONTROL Profili inseriti]**: Numero di profili che hanno avviato il percorso.
 
-* **[!UICONTROL Actions delivered]**: Numero totale di volte in cui un’azione nel percorso è stata consegnata.
+* **[!UICONTROL Azioni consegnate]**: Numero totale di volte in cui un’azione nel percorso è stata consegnata.
 
-* **[!UICONTROL Actions failed in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
+* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
 
 ## Scheda E-mail {#email-global}
 
-Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Email]** la scheda descrive le informazioni principali relative alle consegne e-mail inviate nella campagna.
+![](assets/campaign_report_global_2.png)
 
-La **[!UICONTROL Email Sending Statistics]** il grafico descrive il successo della consegna:
+Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL E-mail]** la scheda descrive le informazioni principali relative alle consegne e-mail inviate nella campagna.
 
-* **[!UICONTROL Targeted]**: Numero totale di messaggi elaborati durante l’analisi della consegna.
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto E-mail.
 
-* **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
+La **[!UICONTROL Invio di statistiche per e-mail]** il grafico descrive il successo della consegna:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Target]**: Numero totale di messaggi elaborati durante l’analisi della consegna.
 
-* **[!UICONTROL Delivery Rate]**: Percentuale di messaggi inviati correttamente.
+* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Bounce Rate]**: Percentuale di e-mail rimbalzate rispetto alle e-mail inviate.
+* **[!UICONTROL Tasso di consegna]**: Percentuale di messaggi inviati correttamente.
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Error Rate]**: Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle e-mail inviate.
+* **[!UICONTROL Frequenza di rimbalzo]**: Percentuale di e-mail rimbalzate rispetto alle e-mail inviate.
 
-* **[!UICONTROL Retries]**: Numero di e-mail in coda per i nuovi tentativi.
+* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-* **[!UICONTROL Excluded]**: Numero di profili esclusi da Adobe Journey Optimizer.
+* **[!UICONTROL Frequenza errori]**: Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle e-mail inviate.
 
-La **[!UICONTROL Email - Tracking statistics]** widget contiene i dati disponibili per l’attività del destinatario per la consegna:
+* **[!UICONTROL Nuovi tentativi]**: Numero di e-mail in coda per i nuovi tentativi.
 
-* **[!UICONTROL Opens]**: Numero di volte in cui la consegna è stata aperta in una consegna.
+* **[!UICONTROL Escluso]**: Numero di profili esclusi da Adobe Journey Optimizer.
 
-* **[!UICONTROL Unique Opens]**: Percentuale di consegne aperte.
+La **[!UICONTROL E-mail - Statistiche di tracciamento]** widget contiene i dati disponibili per l’attività del destinatario per la consegna:
+
+* **[!UICONTROL Aperture]**: Numero di volte in cui la consegna è stata aperta in una consegna.
+
+* **[!UICONTROL Aperture univoche]**: Percentuale di consegne aperte.
 
 * **[!UICONTROL Open Rate]**: Numero totale di e-mail aperte rispetto al numero di e-mail consegnate.
 
-* **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
+* **[!UICONTROL Clic]**: Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
 
-* **[!UICONTROL Unique Clicks]**:numero di destinatari che hanno fatto clic su un contenuto in un’e-mail.
+* **[!UICONTROL Clic univoci]**:numero di destinatari che hanno fatto clic su un contenuto in un’e-mail.
 
-* **[!UICONTROL Unique Click Rate]**: Percentuale di utenti che hanno interagito con la consegna.
+* **[!UICONTROL Frequenza di clic univoca]**: Percentuale di utenti che hanno interagito con la consegna.
 
-* **[!UICONTROL Unsubscriptions]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Annulla abbonamenti]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
 
-* **[!UICONTROL Spam complaints]**: Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.
+* **[!UICONTROL Disturbi dello spam]**: Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.
 
-La **[!UICONTROL Sending Statistics]** Il grafico contiene i dati disponibili per le e-mail inviate, ad esempio:
+La **[!UICONTROL Invio di statistiche]** Il grafico contiene i dati disponibili per le e-mail inviate, ad esempio:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Retries]**: Numero di e-mail in coda per i nuovi tentativi.
+* **[!UICONTROL Nuovi tentativi]**: Numero di e-mail in coda per i nuovi tentativi.
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-La **[!UICONTROL Bounce Reasons]** e **[!UICONTROL Bounce categories]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
+La **[!UICONTROL Ragioni di mancato recapito]** e **[!UICONTROL Categorie di rimbalzi]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
-* **[!UICONTROL Hard bounce]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
+* **[!UICONTROL Rimbalzo duro]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
 
-* **[!UICONTROL Soft bounce]**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **[!UICONTROL Rimbalzo morbido]**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
-* **[!UICONTROL Ignored]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
+* **[!UICONTROL Ignorato]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
 Per ulteriori informazioni sui messaggi non recapitati, consulta [Elenco di eliminazione](../reports/suppression-list.md) pagina.
 
-La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Motivi dell’errore]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
-La **[!UICONTROL Excluded reasons]** grafico e tabella mostrano i diversi motivi che impedivano ai profili utente, esclusi dai profili di destinazione, di ricevere il messaggio.
+La **[!UICONTROL Motivi esclusi]** grafico e tabella mostrano i diversi motivi che impedivano ai profili utente, esclusi dai profili di destinazione, di ricevere il messaggio.
 
-La **[!UICONTROL Email - Top Url]** grafico e tabelle che specificano gli URL della consegna più visitati.
+La **[!UICONTROL E-Mail - Url Principale]** grafico e tabelle che specificano gli URL della consegna più visitati.
 
-La **[!UICONTROL Email - Top recipient domain]** visualizza i dettagli del grafico e della tabella relativi ai domini più utilizzati dai destinatari per aprire l’e-mail.
+La **[!UICONTROL E-mail - Dominio principale destinatario]** visualizza i dettagli del grafico e della tabella relativi ai domini più utilizzati dai destinatari per aprire l’e-mail.
 
 >[!NOTE]
 >
->La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
+>La **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
 
-La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
+La **[!UICONTROL Ottimizzato e non ottimizzato]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 
-* **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
-* **[!UICONTROL Opens]**: Numero di volte in cui la consegna è stata aperta in una consegna.
-* **[!UICONTROL Clicks]**: Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
+* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Aperture]**: Numero di volte in cui la consegna è stata aperta in una consegna.
+* **[!UICONTROL Clic]**: Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
 
-La **[!UICONTROL Send time optimization]** specifica il successo della consegna in base al metodo di invio: ottimizzato o normale.
+La **[!UICONTROL Ottimizzazione del tempo di invio]** specifica il successo della consegna in base al metodo di invio: ottimizzato o normale.
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
++++
 
-## Scheda push {#push-global}
+## Scheda notifica push {#push-global}
 
-Dalla tua campagna **[!UICONTROL Global report]**, **[!UICONTROL Push]** la scheda descrive le informazioni principali relative alle consegne push inviate nella campagna.
+Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL Notifica push]** la scheda descrive le informazioni principali relative alle consegne push inviate nella campagna.
 
-La **[!UICONTROL Push notification - Sending statistics]** la tabella descrive le informazioni principali relative alle notifiche push con grafici e KPI:
+![](assets/campaign_report_global_3.png)
 
-* **[!UICONTROL Targeted]**: Numero totale di messaggi elaborati durante l’analisi della consegna.
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto push.
 
-* **[!UICONTROL Sent]**: Numero totale di invii per la consegna.
+La **[!UICONTROL Notifica push - Invio di statistiche]** la tabella descrive le informazioni principali relative alle notifiche push con grafici e KPI:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Target]**: Numero totale di messaggi elaborati durante l’analisi della consegna.
 
-* **[!UICONTROL Delivery Rate]**: Percentuale di messaggi inviati correttamente.
+* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Bounce Rate]**: Percentuale di notifiche push rimbalzate rispetto alle notifiche push inviate.
+* **[!UICONTROL Tasso di consegna]**: Percentuale di messaggi inviati correttamente.
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Error Rate]**: Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle notifiche push inviate.
+* **[!UICONTROL Frequenza di rimbalzo]**: Percentuale di notifiche push rimbalzate rispetto alle notifiche push inviate.
 
-* **[!UICONTROL Excluded]**: Numero di profili esclusi da Adobe Journey Optimizer.
+* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
-La **[!UICONTROL Push - Tracking statistics]** contiene i dati disponibili per l’attività del destinatario per la consegna:
+* **[!UICONTROL Frequenza errori]**: Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle notifiche push inviate.
 
-* **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Escluso]**: Numero di profili esclusi da Adobe Journey Optimizer.
+
+La **[!UICONTROL Statistiche di tracciamento push]** contiene i dati disponibili per l’attività del destinatario per la consegna:
+
+* **[!UICONTROL Aperture]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
 
 * **[!UICONTROL Open Rate]**: Percentuale di notifiche push aperte.
 
-* **[!UICONTROL Actions]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
+* **[!UICONTROL Azioni]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
 
-* **[!UICONTROL Engagements]**: Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
+* **[!UICONTROL Coinvolgimento]**: Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
 
-* **[!UICONTROL Engagement Rate]**: Percentuale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
+* **[!UICONTROL Tasso di coinvolgimento]**: Percentuale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
 
-La **[!UICONTROL Push notification summary]** Il grafico contiene i dati disponibili per le notifiche push inviate, ad esempio:
+La **[!UICONTROL Riepilogo delle notifiche push]** Il grafico contiene i dati disponibili per le notifiche push inviate, ad esempio:
 
-* **[!UICONTROL Opens]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Aperture]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
 
-* **[!UICONTROL Actions]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
+* **[!UICONTROL Azioni]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
 
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Errors]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
 >[!NOTE]
 >
->La **[!UICONTROL Optimized vs non optimized]** e **[!UICONTROL Send time optimization]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
+>La **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
 
-La **[!UICONTROL Optimized vs non optimized]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
+La **[!UICONTROL Ottimizzato e non ottimizzato]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
-* **[!UICONTROL Opens]**: Numero di volte in cui la consegna è stata aperta in una consegna.
-* **[!UICONTROL Actions]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Aperture]**: Numero di volte in cui la consegna è stata aperta in una consegna.
+* **[!UICONTROL Azioni]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
 
-La **[!UICONTROL Send time optimization]** specifica il successo della consegna in base al metodo di invio: ottimizzato o normale.
+La **[!UICONTROL Ottimizzazione del tempo di invio]** specifica il successo della consegna in base al metodo di invio: ottimizzato o normale.
 
-* **[!UICONTROL Delivered]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
-* **[!UICONTROL Bounces]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
-La **[!UICONTROL Error Reasons]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
+La **[!UICONTROL Motivi dell’errore]** grafico e tabella consentono di vedere quale errore si è verificato durante la consegna.
 
-La **[!UICONTROL Excluded reasons]** grafico e tabella mostrano i diversi motivi che impedivano ai profili utente, esclusi dai profili di destinazione, di ricevere il messaggio.
+La **[!UICONTROL Motivi esclusi]** grafico e tabella mostrano i diversi motivi che impedivano ai profili utente, esclusi dai profili di destinazione, di ricevere il messaggio.
 
-La **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** e **[!UICONTROL Breakdown by platform]** grafici e tabelle descrivono il successo della notifica push in base al sistema operativo del destinatario.
+La **[!UICONTROL Tracciamento per piattaforma]**, **[!UICONTROL Invio per piattaforma]** e **[!UICONTROL Suddivisione per piattaforma]** grafici e tabelle descrivono il successo della notifica push in base al sistema operativo del destinatario.
++++
+
+## Scheda SMS {#sms-global}
+
+Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL SMS]** la scheda descrive le informazioni principali relative alle consegne SMS inviate nella campagna.
+
+![](assets/campaign_report_global_4.png)
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto SMS.
+
+La **[!UICONTROL SMS - Invio di statistiche]** la tabella descrive il successo della consegna:
+
+* **[!UICONTROL Target]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
+
+* **[!UICONTROL Escluso]**: Numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
+
+* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
+
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+La **[!UICONTROL Prestazioni SMS per data]** il widget descrive le informazioni principali relative al messaggio con un grafico:
+
+* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
+
+* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+La **[!UICONTROL Escludi motivi]**, **[!UICONTROL Motivi dei rimbalzi]** e **[!UICONTROL Motivi dell’errore]** grafici e tabelle ti consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
++++
+
+## Risorse aggiuntive
+
+* [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
+* [Creare una campagna](../campaigns/create-campaign.md)
+* [Creare campagne con attivazione API](../campaigns/api-triggered-campaigns.md)
+* [Modificare o interrompere una campagna](../campaigns/modify-stop-campaign.md)
+* [Rapporto live della campagna](campaign-live-report.md)

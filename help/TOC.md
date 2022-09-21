@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 98%
+source-wordcount: '1151'
+ht-degree: 97%
 
 ---
 
@@ -246,13 +246,13 @@ ht-degree: 98%
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
 + Tracciare e monitorare {#reporting}
    + Report live {#live-report}
-      + [Accedere al dashboard dei rapporti live](using/reports/live-report.md)
+      + [Guida introduttiva a Live Report](using/reports/live-report.md)
       + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
       + [Rapporto live della campagna](using/reports/campaign-live-report.md)
       + [Pagina di destinazione Live report](using/reports/lp-report-live.md)
       + [Lista abbonamenti Live report](using/reports/subscription-report-live.md)
    + Rapporto globale {#global-report}
-      + [Accedere al dashboard dei report globali](using/reports/global-report.md)
+      + [Guida introduttiva al report globale](using/reports/global-report.md)
       + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
       + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
       + [Pagina di destinazione Global report](using/reports/lp-report-global.md)
