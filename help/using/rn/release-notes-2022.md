@@ -3,9 +3,9 @@ title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2337'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -340,7 +340,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Gestione delle decisioni**
 
-* **Decisioning API in Edge** - L’API Edge Decisioning può distribuire ed eseguire il rendering di offerte personalizzate gestite nella gestione delle decisioni. Puoi creare le offerte e altri oggetti correlati utilizzando l’interfaccia utente o le API per la gestione delle decisioni. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API Decisioning in Edge** - L’API Decisioning di Edge può consegnare ed eseguire il rendering di offerte personalizzate gestite mediante la funzionalità di gestione delle decisioni. Puoi creare le offerte e altri oggetti correlati utilizzando l’interfaccia utente o le API di gestione delle decisioni. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Amministrazione**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Ora è possibile collegare gli eventi dei passaggi di Journey Optimizer ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il campo **profileID** nello schema integrato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../reports/sharing-overview.md#integration-cja)
 
-**gestione delle decisioni**
+**gestione decisioni**
 
 * Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente in un messaggio pubblicato, gli aggiornamenti vengono ora rispecchiati automaticamente nel messaggio corrispondente, senza doverlo ripubblicare. [Ulteriori informazioni](../offers/offers-e2e.md#insert-decision-in-email)
 
