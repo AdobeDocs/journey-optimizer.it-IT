@@ -3,9 +3,9 @@ title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: tm+mt
-source-wordcount: '1871'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1873'
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
 * È stata aggiunta una limitazione per i percorsi che utilizzano attività Leggi segmento. [Ulteriori informazioni](../building-journeys/read-segment.md)
-* La pagina degli operatori dell’editor di espressioni è stata migliorata. [Ulteriori informazioni](../building-journeys/expression/operators.md)
+* È stata migliorata la pagina degli operatori dell’Editor espressioni. [Ulteriori informazioni](../building-journeys/expression/operators.md)
 * È stata aggiunta una sezione su come pianificare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
-* La sezione Regole di sintassi generale per l’editor di espressioni è stata aggiornata per tenere conto della nuova regola relativa all’escape del simbolo di barra rovesciata nelle funzioni letterali. I messaggi pubblicati esistenti non sono interessati da questa modifica. Solo i messaggi nuovi o bozza devono essere aggiornati. [Ulteriori informazioni](../personalization/personalization-syntax.md#general-rules)
+* La sezione delle regole di sintassi generale per l’editor di espressioni è stata aggiornata per tenere conto della nuova regola relativa all’escape mediante il simbolo della barra rovesciata nelle funzioni letterali. I messaggi pubblicati esistenti non sono interessati da questa modifica. Solo i messaggi nuovi o bozza devono essere aggiornati. [Ulteriori informazioni](../personalization/personalization-syntax.md#general-rules)
 
 ## Luglio 2022 {#july-2022}
 
@@ -69,7 +69,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * I video sulle funzionalità di gestione delle decisioni sono stati aggiornati per riflettere l’interfaccia utente di Journey Optimizer. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * La sezione **Introduzione ai set di dati** è stata migliorata con informazioni su come creare e accedere ai set di dati. [Ulteriori informazioni](../start/get-started-datasets.md)
 * Sono stati aggiunti i collegamenti alle guide e alle note sulla versione del prodotto nella pagina Home della **Documentazione di Adobe Journey Optimizer**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
-* La sezione **Creare predefiniti per messaggi** ora specifica che non è possibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in corso di modifica (stato **[!UICONTROL Processing]**) e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* La sezione **Creare predefiniti per messaggi** ora specifica che non è possibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in corso di modifica (stato **[!UICONTROL Elaborazione]**) e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * La sezione **Tracciamento URL** relativa ai predefiniti per messaggi è stata aggiornata per riflettere modifiche minori nell’interfaccia utente. [Ulteriori informazioni](../configuration/channel-surfaces.md#url-tracking)
 
 ## Marzo 2022 {#march-2022}
@@ -182,6 +182,6 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiornate le limitazioni di Journey. [Ulteriori informazioni](../start/guardrails.md)
 * È stata aggiornata la sezione Configurare la selezione delle offerte nella sezione relativa alle decisioni. [Ulteriori informazioni](../offers/offer-activities/configure-offer-selection.md)
 * È stata aggiunta un’avvertenza per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#eligibility)
-* È stata documentata la nuova scheda **[!UICONTROL Overview]** di Gestione delle decisioni. [Ulteriori informazioni](../offers/get-started/user-interface.md#overview)
+* È stata documentata la nuova scheda **[!UICONTROL Panoramica]** di Gestione delle decisioni. [Ulteriori informazioni](../offers/get-started/user-interface.md#overview)
 * Sono state aggiunte nuove sezioni che descrivono le azioni disponibili negli elenchi delle offerte e delle decisioni: [Elenco offerte](../offers/offer-library/creating-personalized-offers.md#offer-list) e [Elenco delle decisioni](../offers/offer-activities/create-offer-activities.md#decision-list).
 
