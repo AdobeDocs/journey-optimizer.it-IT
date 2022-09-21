@@ -6,8 +6,8 @@ role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
-workflow-type: tm+mt
-source-wordcount: '115'
+workflow-type: ht
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service puoi inviare richieste di accesso e cancellazione dei dati personali dei clienti dalle applicazioni Adobe Experience Cloud, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
 
-Le richieste di accesso ai dati personali possono essere create e gestite dal menu **[!UICONTROL Requests]**.
+Le richieste di accesso ai dati personali possono essere create e gestite dal menu **[!UICONTROL Richieste]**.
 
 ![](assets/requests.png)
 
