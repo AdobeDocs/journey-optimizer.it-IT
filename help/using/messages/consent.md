@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
-workflow-type: tm+mt
-source-wordcount: '1311'
+workflow-type: ht
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Pertanto, devi sempre includere un **collegamento che consenta di annullare l’
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita per la [superficie di canale](../configuration/channel-surfaces.md#email-type) (ossia per il predefinito del messaggio) e durante la [creazione del messaggio](get-started-content.md#create-new-message).
+>I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita per la [superficie di canale](../configuration/channel-surfaces.md#email-type) (ossia per il predefinito del messaggio) e durante la [creazione del messaggio](get-started-content.md#create-new-message).
 
 ### Rinuncia esterna {#opt-out-external-lp}
 
@@ -61,15 +61,15 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 
    ![](assets/opt-out-insert-link.png)
 
-1. Seleziona **[!UICONTROL External Opt-out/Unsubscription]** dall’elenco a discesa **[!UICONTROL Link type]**.
+1. Seleziona **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]** dall’elenco a discesa **[!UICONTROL Tipo di collegamento]**.
 
    ![](assets/opt-out-link-type.png)
 
-1. Nel campo **[!UICONTROL Link]**, incolla il collegamento alla pagina di destinazione della terza parte.
+1. Nel campo **[!UICONTROL Collegamento]**, incolla il collegamento alla pagina di destinazione delle terze parti.
 
    ![](assets/opt-out-link-url.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 #### Implementare una chiamata API per la rinuncia {#opt-out-api}
 
@@ -111,7 +111,7 @@ Corpo della richiesta:
 }
 ```
 
-[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata API di [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata API di [Adobe Developer](https://developer.adobe.com/){target=&quot;_blank&quot;}.
 
 #### Inviare il messaggio con il collegamento per annullare l’abbonamento {#send-message-unsubscribe-link}
 
@@ -131,11 +131,11 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
 
    L’utente non riceverà più comunicazioni dal tuo marchio, a meno che non acconsenta nuovamente.
 
-1. Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi di identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
+1. Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
 
    ![](assets/opt-out-profile-choice.png)
 
-   Nella scheda **[!UICONTROL Attributes]**, puoi vedere che il valore di **[!UICONTROL choice]** è stato modificato in **[!UICONTROL no]**.
+   Nella scheda **[!UICONTROL Attributi]**, puoi vedere che il valore di **[!UICONTROL scelta]** è diventato **[!UICONTROL no]**.
 
 ### Rinuncia con un clic {#one-click-opt-out}
 
@@ -143,17 +143,17 @@ Poiché molti clienti cercano un processo più semplice per annullare l’abbona
 
 Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura seguente.
 
-1. [Inserisci un collegamento](../design/message-tracking.md#insert-links) e seleziona **[!UICONTROL One click Opt-out]** come tipo di collegamento.
+1. [Inserisci un collegamento](../design/message-tracking.md#insert-links) e seleziona il tipo di collegamento **[!UICONTROL Rinuncia con un clic]**.
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Seleziona la modalità di applicazione della rinuncia: a livello di canale, identità o abbonamento.
+1. Seleziona la modalità di applicazione della rinuncia: a livello di canale, identità o iscrizione.
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia si applica a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
-   * **[!UICONTROL Identity]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
-   * **[!UICONTROL Subscription]**: la rinuncia si applica ai messaggi futuri associati a un elenco di abbonamento specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
+   * **[!UICONTROL Canale]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia viene applicata a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
+   * **[!UICONTROL Identità]**: la rinuncia viene applicata ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
+   * **[!UICONTROL Iscrizione]**: la rinuncia viene applicata ai messaggi futuri associati a un elenco iscrizioni specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
 
 1. Immetti l’URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
 
@@ -187,7 +187,7 @@ Ad esempio, il collegamento per annullare l’iscrizione verrà visualizzato in 
 >
 >Per visualizzare il collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
 
-L’indirizzo predefinito per l’annullamento dell’iscrizione è l’indirizzo **[!UICONTROL Mailto (unsubscribe)]** visualizzato nella superficie di canale corrispondente. [Ulteriori informazioni](../configuration/channel-surfaces.md#list-unsubscribe).
+L’indirizzo predefinito per l’annullamento dell’iscrizione è l’indirizzo **[!UICONTROL Invia a (annulla iscrizione)]** visualizzato nella superficie di canale corrispondente. [Ulteriori informazioni](../configuration/channel-surfaces.md#list-unsubscribe).
 
 Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato. [Ulteriori informazioni](#one-click-opt-out)
 
@@ -201,7 +201,7 @@ A seconda del client e-mail, clicca sul collegamento per annullare l’iscrizion
    >
    >Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
-* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target=&quot;_blank&quot;}.
 
 ## Gestione degli opt-out per notifiche push {#push-opt-out-management}
 
