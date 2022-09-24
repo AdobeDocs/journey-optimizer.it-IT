@@ -5,7 +5,7 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: 8b9f2a51b758583cc23f3d21c79235825b26ca0c
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
@@ -13,6 +13,7 @@ ht-degree: 100%
 ---
 
 # Criteri di utilizzo dei dati {#Policies}
+
 
 Con il **Servizio di governance dei dati** di Adobe Experience Platform, puoi applicare restrizioni all’utilizzo dei dati tramite etichette, azioni di marketing e criteri.
 
