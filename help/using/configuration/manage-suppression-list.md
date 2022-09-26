@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1213'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,11 @@ Tali indirizzi e-mail vengono raccolti automaticamente in Journey Optimizer **el
 >Ci vorranno da 0 a 60 minuti [!DNL Journey Optimizer] tenere conto degli indirizzi soppressi nelle e-mail in uscita.
 
 ## Accedere all&#39;elenco di soppressione {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="Esporta l’elenco come file CSV"
+>abstract="Per scaricare l’elenco di soppressione, è possibile esportare l’elenco corrente generando un nuovo file o scaricare il file generato in precedenza."
 
 Per accedere all’elenco dettagliato degli indirizzi e-mail esclusi, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, quindi seleziona **[!UICONTROL Elenco di eliminazione]**.
 
