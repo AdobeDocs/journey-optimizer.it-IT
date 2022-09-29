@@ -5,10 +5,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 97%
 
 ---
 
@@ -34,6 +34,7 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di aud
 
 | Risorsa | Azione |
 |-----------|------------------|
+| Campagna AJO | Crea/Elimina/Aggiorna/Attiva/Disattiva |
 | Impostazione generale del canale AJO | Crea/Elimina/Aggiorna |
 | Pool IP AJO | Crea/Elimina/Aggiorna |
 | Pagina di destinazione AJO | Crea/Elimina/Aggiorna/Pubblica/Annulla pubblicazione |
@@ -41,7 +42,7 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di aud
 | Predefinito pagina di destinazione AJO | Crea/Elimina/Aggiorna |
 | Sottodominio della pagina di destinazione AJO | Crea/Elimina/Aggiorna |
 | Messaggio AJO | Crea/Elimina/Aggiorna/Pubblica |
-| Superficie di canale AJO | Crea/Elimina/Aggiorna |
+| Predefinito messaggio AJO | Crea/Elimina/Aggiorna |
 | Record PTR AJO | Crea/Elimina/Aggiorna |
 | Modello di espressione salvata AJO | Crea/Elimina/Aggiorna |
 | Credenziali API SMS AJO | Crea/Elimina/Aggiorna |

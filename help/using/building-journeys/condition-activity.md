@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1440'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Sono disponibili i seguenti tipi di condizioni:
 
 Quando utilizzi più condizioni in un percorso, puoi definire etichette per ognuna di esse per identificarle più facilmente.
 
-Fai clic su **[!UICONTROL Add a path]** per definire più condizioni. Per ogni condizione, dopo l’attività viene aggiunto un nuovo percorso nell’area di lavoro.
+Fai clic su **[!UICONTROL Aggiungere un percorso]** per definire più condizioni. Per ogni condizione, dopo l’attività viene aggiunto un nuovo percorso nell’area di lavoro.
 
 ![](assets/journey47.png)
 
@@ -49,7 +49,7 @@ Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un V
 
 ![](assets/journey48.png)
 
-Puoi creare un altro percorso per tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Show path for other cases than the one(s) above]**. Questa opzione non è disponibile in condizioni di suddivisione. Vedi [Divisione percentuale](#percentage_split).
+Puoi creare un altro percorso per tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Mostra percorso per casi diversi da quelli sopra indicati]**. Questa opzione non è disponibile in condizioni di suddivisione. Vedi [Divisione percentuale](#percentage_split).
 
 La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili vengono visualizzati sul lato sinistro dello schermo. Trascina i campi nella zona principale. Per combinare i diversi elementi, collegali tra loro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
@@ -65,7 +65,7 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 >
 >Non è possibile eseguire query su serie temporali (ad esempio un elenco di acquisti, clic passati sui messaggi) con il semplice editor. A questo scopo, devi utilizzare l’editor avanzato. Consulta [questa pagina](expression/expressionadvanced.md).
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
@@ -83,9 +83,15 @@ Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al g
 
 >[!NOTE]
 >
->Il fuso orario non è più specifico per una condizione e ora è definito a livello di percorso nelle proprietà del percorso. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il fuso orario non è specifico per una condizione e viene definito a livello di percorso nelle proprietà del percorso. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
+
+Sono disponibili tre opzioni di filtro:
+
+* Ora: consente di impostare una condizione in base all’ora del giorno. Poi definisci gli orari di inizio e di fine. Gli individui immetteranno il percorso solo durante l’intervallo di ore definito.
+* Giorno della settimana: consente di impostare una condizione in base al giorno della settimana. Quindi selezionate i giorni in cui gli utenti dovranno accedere al percorso.
+* Giorno della settimana e ora: questa opzione combina le prime due opzioni.
 
 ## Divisione percentuale {#percentage_split}
 
@@ -140,14 +146,14 @@ Questa sezione spiega come utilizzare un segmento in una condizione di percorso.
 
 Per utilizzare un segmento in una condizione di percorso, effettua le seguenti operazioni:
 
-1. Apri un percorso, rilascia una **[!UICONTROL Condition]** e scegli la **Condizione origine dati**.
+1. Apri un percorso, rilascia una **[!UICONTROL Condizione]** e scegli la **Condizione origine dati**.
    ![](assets/journey47.png)
 
-1. Fai clic su **[!UICONTROL Add a path]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic sul pulsante **[!UICONTROL Expression]** campo .
+1. Fai clic su **[!UICONTROL Aggiungere un percorso]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic sul pulsante **[!UICONTROL Espressione]** campo .
 
    ![](assets/segment3.png)
 
-1. Sul lato sinistro, svolgersi **[!UICONTROL Segments]** nodo. Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione sul segmento è vera.
+1. Sul lato sinistro, svolgersi **[!UICONTROL Segmenti]** nodo. Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione sul segmento è vera.
 
    ![](assets/segment4.png)
 

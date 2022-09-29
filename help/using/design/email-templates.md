@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 7%
+source-wordcount: '242'
+ht-degree: 4%
 
 ---
 
 # Utilizzare i modelli e-mail {#email-templates}
 
-Utilizza la **[!UICONTROL Select design template]** per iniziare a creare il contenuto da un modello.
+Utilizza la **[!UICONTROL Seleziona modello di progettazione]** per iniziare a creare il contenuto da un modello.
 
 ![](assets/email_designer-templates.png)
 
@@ -25,11 +25,16 @@ Puoi scegliere tra:
 
 ## Salva come modello {#save-as-template}
 
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Scopri come eseguire la migrazione dei messaggi"
+>abstract="Il 25 luglio 2022 il menu Messaggi è scomparso e i messaggi vengono ora creati direttamente da un Percorso. Per riutilizzare i messaggi legacy nei percorsi, è necessario salvarli come modelli."
+
 Una volta progettato il tuo [contenuto e-mail](design-emails.md), puoi salvarlo per un riutilizzo futuro. Per farlo, segui la procedura indicata di seguito.
 
 1. Fai clic sui puntini di sospensione in alto a destra dello schermo.
 
-1. Seleziona **[!UICONTROL Save design template]** dal menu a discesa.
+1. Seleziona **[!UICONTROL Salva modello di progettazione]** dal menu a discesa.
 
    ![](assets/email_designer-save-template.png)
 
@@ -37,7 +42,7 @@ Una volta progettato il tuo [contenuto e-mail](design-emails.md), puoi salvarlo 
 
    ![](assets/email_designer-template-name.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 La prossima volta che crei un’e-mail, puoi utilizzare questo modello per creare il contenuto. [Scopri come](#use-saved-template)
 
@@ -47,11 +52,11 @@ La prossima volta che crei un’e-mail, puoi utilizzare questo modello per crear
 
 1. Apri [progettista di posta elettronica](create-email-content.md).
 
-1. Sulla **[!UICONTROL Create your email screen]**, **[!UICONTROL Sample templates]** è selezionata per impostazione predefinita. Seleziona la scheda **[!UICONTROL Saved templates]**.
+1. Sulla **[!UICONTROL Crea la schermata e-mail]**, **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita. Seleziona la **[!UICONTROL Modelli salvati]** scheda .
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. Elenco di tutti [modelli salvati](#save-as-template) viene visualizzato. Puoi ordinarli **[!UICONTROL By name]**, **[!UICONTROL Last modified]** e **[!UICONTROL Last created]**.
+1. Elenco di tutti [modelli salvati](#save-as-template) viene visualizzato. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
    ![](assets/email_designer-saved-templates.png)
 
@@ -61,6 +66,6 @@ La prossima volta che crei un’e-mail, puoi utilizzare questo modello per crear
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Fai clic su **[!UICONTROL Use this email]** in alto a destra sullo schermo.
+1. Fai clic su **[!UICONTROL Utilizza questa e-mail]** in alto a destra sullo schermo.
 
 1. Modifica il contenuto nel modo desiderato utilizzando la finestra di progettazione e-mail.

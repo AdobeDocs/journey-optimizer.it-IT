@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1323'
+ht-degree: 5%
 
 ---
 
@@ -30,19 +30,19 @@ Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot
 >
 >Per i percorsi che utilizzano un’attività Read Segment , esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma si prega di evitare di avere più di cinque percorsi (con Leggi segmento, programmato o partendo &quot;il più presto possibile&quot;) a partire allo stesso tempo distribuendoli nel tempo, ad esempio 5 a 10 minuti di distanza.
 >
->Il componente aggiuntivo Burst paid consente l’invio molto rapido di messaggi push in grandi volumi per percorsi semplici che includono un segmento di lettura e un semplice messaggio push. Per ulteriori informazioni, consulta [questa sezione](../building-journeys/journey-gs.md#burst)
+>I gruppi di campi evento esperienza non possono essere utilizzati nei percorsi che iniziano con un segmento Read , una qualifica Segment o un’attività dell’evento aziendale.
 
 ### Configurare l’attività {#configuring-segment-trigger-activity}
 
 I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
-1. Apri **[!UICONTROL Orchestration]** categoria e rilascia a **[!UICONTROL Read Segment]** nell’area di lavoro.
+1. Apri **[!UICONTROL Orchestrazione]** categoria e rilascia a **[!UICONTROL Leggi segmento]** nell’area di lavoro.
 
    L’attività deve essere posizionata come primo passaggio di un percorso.
 
-1. Aggiungi un **[!UICONTROL Label]** all’attività (facoltativo).
+1. Aggiungi un **[!UICONTROL Etichetta]** all’attività (facoltativo).
 
-1. In **[!UICONTROL Segment]** , scegli il segmento Adobe Experience Platform che verrà inserito nel percorso, quindi fai clic su **[!UICONTROL Save]**.
+1. In **[!UICONTROL Segmento]** , scegli il segmento Adobe Experience Platform che verrà inserito nel percorso, quindi fai clic su **[!UICONTROL Salva]**.
 
    È possibile personalizzare e ordinare le colonne visualizzate nell’elenco.
 
@@ -52,7 +52,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](assets/read-segment-selection.png)
 
-   Una volta aggiunto il segmento, il **[!UICONTROL Copy]** consente di copiarne il nome e l’ID:
+   Una volta aggiunto il segmento, il **[!UICONTROL Copia]** consente di copiarne il nome e l’ID:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
@@ -64,7 +64,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
    >
    >Gli individui appartenenti a un segmento che non hanno l’identità selezionata (namespace) tra le loro diverse identità non possono accedere al percorso.
 
-1. Imposta la **[!UICONTROL Throttling rate]** al limite di velocità effettiva dell’attività del segmento letto.
+1. Imposta la **[!UICONTROL Velocità di limitazione]** al limite di velocità effettiva dell’attività del segmento letto.
 
    Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 20.000 messaggi al secondo. Puoi modificare questo valore da 500 a 20.000 messaggi al secondo.
 
@@ -72,15 +72,15 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
    >
    >Il tasso di limitazione complessivo per sandbox è impostato su 20.000 messaggi al secondo. Pertanto, il tasso di limitazione di tutti i segmenti letti che vengono eseguiti contemporaneamente nella stessa sandbox corrisponde al massimo a 20.000 messaggi al secondo. Non è possibile modificare questo cappuccio.
 
-1. La **[!UICONTROL Read Segment]** l’attività ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic sul pulsante **[!UICONTROL Edit journey schedule]** collegamento per accedere alle proprietà del percorso, quindi configurare il **[!UICONTROL Scheduler type]** campo .
+1. La **[!UICONTROL Leggi segmento]** l’attività ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic sul pulsante **[!UICONTROL Modifica pianificazione percorso]** collegamento per accedere alle proprietà del percorso, quindi configurare il **[!UICONTROL Tipo di pianificazione]** campo .
 
    ![](assets/read-segment-schedule.png)
 
-   Per impostazione predefinita, i segmenti entrano nel percorso **[!UICONTROL As soon as possible]**. Se desideri che il segmento immetta il percorso in una data/ora specifica o su base ricorrente, seleziona il valore desiderato dall’elenco.
+   Per impostazione predefinita, i segmenti entrano nel percorso **[!UICONTROL Non appena possibile]**. Se desideri che il segmento immetta il percorso in una data/ora specifica o su base ricorrente, seleziona il valore desiderato dall’elenco.
 
    >[!NOTE]
    >
-   >Tieni presente che **[!UICONTROL Schedule]** è disponibile solo quando una **[!UICONTROL Read Segment]** l’attività è stata eliminata nell’area di lavoro.
+   >Tieni presente che **[!UICONTROL Pianificazione]** è disponibile solo quando una **[!UICONTROL Leggi segmento]** l’attività è stata eliminata nell’area di lavoro.
 
    ![](assets/read-segment-schedule-list.png)
 
@@ -108,10 +108,12 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >I percorsi di segmenti di sola lettura passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i segmenti con Leggi segmento pianificati, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
+>
+>È necessario prestare attenzione quando si utilizzano attività di attesa in percorsi di segmenti di lettura ricorrenti, in quanto la durata di tali percorsi termina con l’esecuzione successiva. Ciò significa che se un percorso viene eseguito quotidianamente, l&#39;istanza di percorso iniziata oggi durerà fino all&#39;esecuzione di domani. Ad esempio, se hai aggiunto un’attesa di 2 giorni in quel percorso, i profili verranno sempre spostati nell’esecuzione del percorso successivo (quindi il giorno successivo), che si trovino nel pubblico di esecuzione successivo o meno. I profili non potranno mai rimanere in quel percorso per 2 giorni.
 
 ### Test e pubblicazione del percorso {#testing-publishing}
 
-La **[!UICONTROL Read Segment]** l’attività ti consente di testare il percorso su un profilo unitario o su 100 profili di test casuali selezionati tra i profili qualificati per il segmento.
+La **[!UICONTROL Leggi segmento]** l’attività ti consente di testare il percorso su un profilo unitario o su 100 profili di test casuali selezionati tra i profili qualificati per il segmento.
 
 A questo scopo, attiva la modalità di test, quindi seleziona l’opzione desiderata dal riquadro a sinistra.
 
@@ -119,11 +121,11 @@ A questo scopo, attiva la modalità di test, quindi seleziona l’opzione deside
 
 Puoi quindi configurare ed eseguire la modalità di test come di consueto. [Scopri come testare un percorso](testing-the-journey.md).
 
-Una volta eseguito il test, il **[!UICONTROL Show logs]** consente di visualizzare i risultati del test in base all’opzione di test selezionata:
+Una volta eseguito il test, il **[!UICONTROL Mostra registri]** consente di visualizzare i risultati del test in base all’opzione di test selezionata:
 
-* **[!UICONTROL Single profile at a time]**: i registri di test visualizzano le stesse informazioni di quando si utilizza la modalità di test unitario. Per ulteriori informazioni al riguardo, consulta [questa sezione](testing-the-journey.md#viewing_logs)
+* **[!UICONTROL Singolo profilo alla volta]**: i registri di test visualizzano le stesse informazioni di quando si utilizza la modalità di test unitario. Per ulteriori informazioni al riguardo, consulta [questa sezione](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Up to 100 profiles at once]**: i registri di test ti consentono di monitorare l’avanzamento dell’esportazione del segmento da Adobe Experience Platform, nonché l’avanzamento individuale di tutte le persone entrate nel percorso.
+* **[!UICONTROL Fino a 100 profili alla volta]**: i registri di test ti consentono di monitorare l’avanzamento dell’esportazione del segmento da Adobe Experience Platform, nonché l’avanzamento individuale di tutte le persone entrate nel percorso.
 
    Tieni presente che il test del percorso utilizzando fino a 100 profili contemporaneamente non consente di monitorare l’avanzamento dei singoli utenti nel percorso utilizzando il flusso visivo.
 

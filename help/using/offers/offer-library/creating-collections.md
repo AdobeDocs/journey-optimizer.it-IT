@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie 
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle raccolte di offerte è accessibile nella **[!UICONTROL Offers]** menu.
+L’elenco delle raccolte di offerte è accessibile nella **[!UICONTROL Offerte]** menu.
 
 ![](../assets/collections_list.png)
 
@@ -36,13 +36,13 @@ Puoi creare due tipi di raccolte:
 
 Per creare una raccolta, effettua le seguenti operazioni:
 
-1. Vai a **[!UICONTROL Collections]** scheda , quindi fai clic su **[!UICONTROL Create collection]**.
+1. Vai a **[!UICONTROL Raccolte]** scheda , quindi fai clic su **[!UICONTROL Crea raccolta]**.
 
 1. Specifica il nome e il tipo di raccolta da creare.
 
    ![](../assets/collection_create.png)
 
-1. Per creare una raccolta dinamica, utilizza il riquadro a sinistra per selezionare il tag delle offerte da aggiungere alla raccolta, quindi fai clic su **[!UICONTROL Save]**. Tutte le offerte con il tag selezionato verranno salvate nella raccolta.
+1. Per creare una raccolta dinamica, utilizza il riquadro a sinistra per selezionare il tag delle offerte da aggiungere alla raccolta, quindi fai clic su **[!UICONTROL Salva]**. Tutte le offerte con il tag selezionato verranno salvate nella raccolta.
 
    Per ulteriori informazioni sulla creazione dei tag, consulta [Creare tag](../offer-library/creating-tags.md).
 
@@ -55,6 +55,8 @@ Per creare una raccolta, effettua le seguenti operazioni:
    >[!NOTE]
    >
    >Le raccolte statiche non vengono aggiornate automaticamente. Per aggiungere offerte a una raccolta statica, devi modificarla e aggiungerla manualmente.
+
+1. Per assegnare etichette di utilizzo dati personalizzate o principali a una raccolta statica, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su Object Level Access Control (OLAC)](../../administration/object-based-access.md)
 
 1. Una volta creata la raccolta, questa viene visualizzata nell’elenco. È possibile selezionarlo per modificarlo o eliminarlo.
 

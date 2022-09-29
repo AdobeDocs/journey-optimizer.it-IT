@@ -2,16 +2,84 @@
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
-workflow-type: ht
-source-wordcount: '2337'
-ht-degree: 100%
+source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+workflow-type: tm+mt
+source-wordcount: '2519'
+ht-degree: 98%
 
 ---
 
 # Note sulle versioni 2022 {#release-notes-2022}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2022.
+
+## Versione di agosto 2022 {#aug-2022-release}
+
+### Nuove funzionalità
+
+<table>
+<thead>
+<tr>
+<th><strong>Creare e gestire campagne in Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inviare SMS agli utenti (disponibilità generale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Sinch</b> o <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>New Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
+<p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Miglioramenti
+
+**Generazione rapporti**
+
+* La tabella e il grafico dei criteri di consenso sono ora disponibili nei rapporti globali del Percorso. Questi widget consentono di tenere traccia dei profili esclusi dai criteri nelle azioni personalizzate. [Ulteriori informazioni](../reports/journey-global-report.md#journey-global)
+
+   Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/global-report.md).
+
+**Amministrazione**
+
+* È ora possibile aggiornare il numero di telefono principale da utilizzare per il canale SMS. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
 
 ## Versione di luglio 2022 {#july-2022-release}
@@ -79,7 +147,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Nella gestione delle decisioni, ora puoi utilizzare sistemi di modelli di ottimizzazione personalizzati. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
+<p>È ora possibile utilizzare sistemi di modelli di ottimizzazione personalizzati nella gestione delle decisioni. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
 <p>L’utilizzo di modelli di ottimizzazione personalizzati basati su IA è attualmente limitato ad alcuni utenti e verrà esteso a tutti gli ambienti con una versione futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/ranking/personalized-optimization-model.md">documentazione dettagliata</a>.</p>
@@ -111,7 +179,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 * **Parametri di tracciamento URL** - Ora puoi utilizzare l’editor espressioni per configurare i parametri di tracciamento URL nelle superfici e-mail (ossia i predefiniti per messaggi). [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
 
-**gestione delle decisioni**
+**Gestione delle decisioni**
 
 * **Dimensione del pubblico**: ora durante la creazione di una regola di decisione, durante la selezione di un segmento o di una regola per impostare un’idoneità per l’offerta o quando aggiungi un segmento o una regola a un ambito di decisione, nell’interfaccia utente viene visualizzato un nuovo componente per la stima delle dimensioni del pubblico.
 
@@ -167,7 +235,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Ora è possibile utilizzare la funzionalità E-mail Ccn (copia carbone nascosta) per memorizzare le e-mail inviate da Adobe Journey Optimizer. Se abiliti questa opzione nei tuoi predefiniti e-mail, ogni e-mail verrà inviata anche come copiata nascosta all’indirizzo in Ccn.</p>
 <!--img src="assets/do-not-localize/bcc-rn.gif"/-->
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/bcc-email.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/archiving-support.md#bcc-email">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -316,7 +384,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 * **Pagine di destinazione senza modulo**: ora è possibile creare e pubblicare una pagina di destinazione che non contiene un modulo e che non richiede alcuna azione da parte dei visitatori.
 * **Modelli di pagina di destinazione**: ora è possibile salvare una pagina di destinazione come modello e riutilizzarla durante la creazione di altre pagine di destinazione. [Ulteriori informazioni](../landing-pages/lp-templates.md)
 * **Torna alla pagina principale**: ora è possibile aggiungere un collegamento alla pagina principale da qualsiasi pagina secondaria all’interno della stessa pagina di destinazione.
-* **Supporto JavaScript personalizzato**: ora è possibile aggiungere JavaScript personalizzato al contenuto della pagina di destinazione per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.	[Ulteriori informazioni](../landing-pages/lp-custom-js.md)
+* **Supporto JavaScript personalizzato**: ora è possibile aggiungere JavaScript personalizzato al contenuto della pagina di destinazione per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.    [Ulteriori informazioni](../landing-pages/lp-custom-js.md)
 
 **Percorsi**
 
@@ -438,7 +506,7 @@ In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notific
 <p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
+The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
 <p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
@@ -466,7 +534,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 **Percorsi**
 
 * Per ottimizzare le prestazioni, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno allo stato Bozza. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#important_notes)
-* L’integrazione tra Journey Optimizer e Adobe Campaign Classic è stata ottimizzata per migliorarne le prestazioni. La configurazione predefinita del limite è stata modificata in 4000 chiamate/5 minuti.	[Ulteriori informazioni](../action/acc-action.md#important-notes)
+* L’integrazione tra Journey Optimizer e Adobe Campaign Classic è stata ottimizzata per migliorarne le prestazioni. La configurazione predefinita del limite è stata modificata in 4000 chiamate/5 minuti.    [Ulteriori informazioni](../action/acc-action.md#important-notes)
 
 **Generazione rapporti**
 
@@ -524,7 +592,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Ora è possibile collegare gli eventi dei passaggi di Journey Optimizer ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it). Il campo **profileID** nello schema integrato Evento passaggio percorso è ora definito come campo di identità. [Ulteriori informazioni](../reports/sharing-overview.md#integration-cja)
 
-**gestione decisioni**
+**Gestione delle decisioni**
 
 * Quando aggiorni un’offerta, un’offerta di fallback, una raccolta di offerte o una decisione di offerta a cui viene fatto riferimento direttamente o indirettamente in un messaggio pubblicato, gli aggiornamenti vengono ora rispecchiati automaticamente nel messaggio corrispondente, senza doverlo ripubblicare. [Ulteriori informazioni](../offers/offers-e2e.md#insert-decision-in-email)
 
@@ -536,4 +604,4 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalizzazione**
 
-* **Aggiungi ai preferiti**: per rendere più efficienti le attività di personalizzazione, è stato introdotto il concetto di salvataggio dei preferiti. L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati con maggiore frequenza. [Ulteriori informazioni](../personalization/personalize.md#fav)
+* **Aggiungi ai preferiti** - Per migliorare l’efficienza quando si lavora con la personalizzazione, abbiamo introdotto il concetto di risparmio dei preferiti. L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati con maggiore frequenza. [Ulteriori informazioni](../personalization/personalize.md#fav)

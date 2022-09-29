@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 5a33508759d527a76dd7119102358ae345107652
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 5%
+source-wordcount: '564'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,10 @@ ht-degree: 5%
 
 Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
-Crea campagne per inviare semplici comunicazioni batch ad hoc per casi di utilizzo di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti di policy.
+Puoi creare due tipi di campagne:
+
+* **Campagne pianificate** consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
+* **Campagne attivate dall’API** consenti messaggi operativi/transazionali semplici con API REST (reimpostazione della password, abbandono della scheda, ecc.), dove la necessità di personalizzare utilizzando gli attributi del profilo e i dati contestuali dal payload.
 
 I passaggi principali per creare una campagna sono i seguenti:
 
@@ -30,37 +33,32 @@ I passaggi principali per creare una campagna sono i seguenti:
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-<!--You can create two types of campaigns:
-
-* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
-* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
-
 ## Prima di iniziare {#campaign-prerequisites}
 
 Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i seguenti prerequisiti:
 
-1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a una campagna correlata **[!UICONTROL Product profile]** come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign.
+1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a una campagna correlata **[!UICONTROL Profilo di prodotto]** come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign.
 
    Se non riesci ad accedere alle campagne, devi estendere le tue autorizzazioni. Se hai accesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} per la tua organizzazione, segui i passaggi seguenti. In caso contrario, contattare l&#39;amministratore Journey Optimizer.
 
    +++Scopri come assegnare le autorizzazioni della campagna
 
-   Per assegnare il corrispondente **[!UICONTROL Product profile]** agli utenti:
+   Per assegnare il corrispondente **[!UICONTROL Profilo di prodotto]** agli utenti:
 
    1. Da [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, seleziona il [!DNL Adobe Experience Platform] prodotto.
 
-   1. Sfoglia il **[!UICONTROL Product profile]** , seleziona una delle campagne integrate correlate **[!UICONTROL Product profile]**: Amministratore di Campaign, approvatore di Campaign, manager di Campaign o visualizzatore di Campaign.
+   1. Sfoglia il **[!UICONTROL Profilo di prodotto]** , seleziona una delle campagne integrate correlate **[!UICONTROL Profilo di prodotto]**: Amministratore di Campaign, approvatore di Campaign, manager di Campaign o visualizzatore di Campaign.
 
-      Per ulteriori informazioni sulla campagna Journey Optimizer **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, [fai riferimento a questa pagina](../administration/ootb-product-profiles.md).
+      Per ulteriori informazioni sulla campagna Journey Optimizer **[!UICONTROL Profili di prodotto]** e **[!UICONTROL Autorizzazioni]**, [fai riferimento a questa pagina](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. Fai clic su **[!UICONTROL Add user]** per assegnare all&#39;utente il **[!UICONTROL Product profile]**.
+   1. Fai clic su **[!UICONTROL Aggiungi utente]** per assegnare all&#39;utente il **[!UICONTROL Profilo di prodotto]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. Digita il nome utente, il gruppo o l’indirizzo e-mail e fai clic su **[!UICONTROL Save]**.
-   L&#39;utente è ora in grado di accedere a **[!UICONTROL Campaigns]**.
+   1. Digita il nome utente, il gruppo o l’indirizzo e-mail e fai clic su **[!UICONTROL Salva]**.
+   L&#39;utente è ora in grado di accedere a **[!UICONTROL Campagne]**.
 
 +++
 
@@ -69,9 +67,9 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 
 ## Accedere alle campagne {#access}
 
-Le campagne sono accessibili dal **[!UICONTROL Campaigns]** menu.
+Le campagne sono accessibili dal **[!UICONTROL Campagne]** menu.
 
-Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]** e **[!UICONTROL Live]** stati. Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
+Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati. Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
 
 ![](assets/create-campaign-list.png)
 
@@ -79,17 +77,17 @@ Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONT
 
 Le campagne possono avere più stati:
 
-* **[!UICONTROL Draft]**: La campagna è in corso di modifica e non è stata attivata.
-* **[!UICONTROL Activating]**: È in corso l’attivazione della campagna.
+* **[!UICONTROL Bozza]**: La campagna è in corso di modifica e non è stata attivata.
+* **[!UICONTROL Attivazione]**: È in corso l’attivazione della campagna.
 * **[!UICONTROL Live]**: La campagna è stata attivata.
-* **[!UICONTROL Scheduled]**: La campagna è configurata per essere attivata in una data di inizio specifica.
-* **[!UICONTROL Stopped]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Ulteriori informazioni](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completed]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
-* **[!UICONTROL Archived]**: La campagna è stata archiviata.
+* **[!UICONTROL Pianificato]**: La campagna è configurata per essere attivata in una data di inizio specifica.
+* **[!UICONTROL Arrestato]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Ulteriori informazioni](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completato]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
+* **[!UICONTROL Archiviato]**: La campagna è stata archiviata.
 
 >[!NOTE]
 >
->Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
+>Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
 
 ## Video introduttivo {#video}
 

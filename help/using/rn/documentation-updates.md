@@ -2,16 +2,29 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
+workflow-type: tm+mt
+source-wordcount: '2002'
+ht-degree: 94%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Settembre 2022 {#september-2022}
+
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 settembre è stata descritta nella documentazione. [Ulteriori informazioni](release-notes.md)
+* È stata aggiunta una best practice relativa all’utilizzo delle attività Attendi nei percorsi di segmenti di lettura ricorrenti. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Sono stati aggiunti nuovi esempi di query dell’evento del passaggio e informazioni sulla differenza tra id, instanceid e profileid. [Ulteriori informazioni](../reports/query-examples.md).
+* Sono state aggiornate le pagine relative al [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md) funzioni.
+* Sono stati aggiunti dettagli sui parametri della condizione temporale. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
+* Sono state aggiunte informazioni sui set di dati incorporati. [Ulteriori informazioni](../start/get-started-datasets.md#access-datasets)
+* Le sezioni Rapporto globale e Rapporto in tempo reale sono state riorganizzate per migliorare la leggibilità. [Ulteriori informazioni](../reports/global-report.md)
+* È stato aggiunto un elenco di tutte le metriche di reporting disponibili in Adobe Journey Optimizer.
+   [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
+* La sezione e-mail CCN è stata spostata nella nuova pagina Supporto per l’archiviazione. [Ulteriori informazioni](../configuration/archiving-support.md)
 
 ## Agosto 2022 {#august-2022}
 

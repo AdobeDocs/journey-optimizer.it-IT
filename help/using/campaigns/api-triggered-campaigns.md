@@ -1,12 +1,10 @@
 ---
 title: Attivare campagne tramite API
 description: Scopri come attivare le campagne utilizzando [!DNL Journey Optimizer] API
-hide: true
-hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -14,10 +12,6 @@ ht-degree: 1%
 # Attivare campagne tramite API {#trigger-campaigns}
 
 ## Informazioni sulle campagne attivate dall’API {#about}
-
->[!NOTE]
->
->L’API di esecuzione dei messaggi interattivi è attualmente in versione beta e potrebbe essere soggetta a frequenti aggiornamenti senza preavviso.
 
 Con [!DNL Journey Optimizer], puoi creare campagne e richiamarle da un sistema esterno basato sul trigger dell’utente utilizzando [API REST di esecuzione dei messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Questo ti consente di soddisfare varie esigenze operative e di messaggistica transazionale, come reimpostazioni di password, token OTP e altri.
 
@@ -31,9 +25,9 @@ Il processo di creazione di campagne con attivazione API rimane lo stesso delle 
 
 Per creare una campagna con attivazione API, segui questi passaggi:
 
-1. Crea una nuova campagna con **[!UICONTROL API-triggered]** digitare.
+1. Crea una nuova campagna con **[!UICONTROL Attivazione dall’API]** digitare.
 
-1. Scegli il canale e la superficie del canale da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Create]**.
+1. Scegli il canale e la superficie del canale da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Crea]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -44,18 +38,22 @@ Per creare una campagna con attivazione API, segui questi passaggi:
    >[!NOTE]
    >
    >Puoi trasmettere al payload API dati aggiuntivi che puoi sfruttare per personalizzare il messaggio. [Ulteriori informazioni](#contextual)
+   >
+   >L’utilizzo di un numero elevato di dati contestuali pesanti nel contenuto potrebbe influire sulle prestazioni.
 
-1. Specifica lo spazio dei nomi da utilizzare per identificare i singoli utenti del segmento.
+1. In **[!UICONTROL Pubblico]** Specifica lo spazio dei nomi da utilizzare per identificare gli individui del segmento.
+
+   La **[!UICONTROL Creare nuovi profili]** consente di creare automaticamente profili che non esistono nel database. [Ulteriori informazioni sulla creazione di profili all’esecuzione della campagna](#profile-creation)
 
 1. Configura le date di inizio e di fine della campagna.
 
    Se configuri una data di inizio e/o di fine specifica per una campagna, questa non verrà eseguita al di fuori di tali date e le chiamate API non riusciranno se la campagna viene attivata dalle API.
 
-1. In **[!UICONTROL cURL request]** della sezione , recupera **[!UICONTROL Campaign ID]** da utilizzare nel payload API.
+1. In **[!UICONTROL richiesta cURL]** della sezione , recupera **[!UICONTROL ID campagna]** da utilizzare nel payload API.
 
    ![](assets/api-triggered-curl.png)
 
-1. Fai clic su **[!UICONTROL Review to activate]** per verificare che la campagna sia configurata correttamente, attivala.
+1. Fai clic su **[!UICONTROL Rivedi per attivare]** per verificare che la campagna sia configurata correttamente, attivala.
 
 ## Utilizzare attributi contestuali nelle campagne con attivazione API {#contextual}
 
@@ -80,7 +78,7 @@ Per il momento, non è disponibile alcun attributo contestuale da utilizzare nel
 
 ## Eseguire la campagna {#execute}
 
-Per eseguire una campagna con attivazione API, devi innanzitutto recuperare il relativo ID e passarlo al payload API. A questo scopo, apri la campagna, quindi copia e incolla l’ID dal **[!UICONTROL cURL request]** sezione .
+Per eseguire una campagna con attivazione API, devi innanzitutto recuperare il relativo ID e passarlo al payload API. A questo scopo, apri la campagna, quindi copia e incolla l’ID dal **[!UICONTROL richiesta cURL]** sezione .
 
 ![](assets/api-triggered-id.png)
 
@@ -88,6 +86,16 @@ Puoi quindi utilizzare questo ID nel payload API per attivare la campagna. Fai r
 
 Nota che, se hai configurato una data di inizio e/o di fine specifica durante la creazione della campagna, questa non verrà eseguita al di fuori di queste date e le chiamate API non riusciranno.
 
+## Creazione di profili all’esecuzione della campagna {#profile-creation}
+
+In alcuni casi, potrebbe essere necessario inviare messaggi transazionali a profili non esistenti nel sistema. Ad esempio, se un utente sconosciuto tenta di accedere al sito web.
+
+Quando un profilo non esiste nel database, Journey Optimizer ti consente di crearlo automaticamente durante l’esecuzione della campagna per consentire l’invio del messaggio a questo profilo.
+
+A questo scopo, attiva/disattiva la **[!UCONTROL Creare nuovi profili]** in **[!UICONTROL Pubblico]** sezione .
+
+![](assets/api-triggered-create-profile.png)
+
 >[!NOTE]
 >
->In alcuni casi, potrebbe essere necessario inviare messaggi transazionali a profili non esistenti nel sistema. Ad esempio, se un utente sconosciuto tenta di accedere al sito web. In tal caso, il profilo corrispondente viene creato automaticamente in Adobe Experience Platform, nel **Set di dati del profilo di messaggistica interattiva AJO** set di dati.
+>I profili sconosciuti vengono creati nel **Set di dati del profilo di messaggistica interattiva AJO** set di dati, rispettivamente in tre namespace predefiniti (e-mail, telefono ed ECID) per ogni canale in uscita (E-mail, SMS e push).

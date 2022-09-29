@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1115'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## Informazioni sulle autorizzazioni relative ai messaggi{#message-permissions}
 
-Adobe Journey Optimizer ha rilasciato nuove funzionalità di authoring in linea che consentono di creare e creare messaggi direttamente da un percorso o da una campagna. Per ulteriori informazioni su questa nuova funzione, consulta [fai riferimento a questa pagina](../rn/inline-messages.md).
+Adobe Journey Optimizer ha rilasciato nuove funzionalità di authoring in linea che consentono di creare e creare messaggi direttamente da un percorso o da una campagna.
 
 Questa funzione influisce sulle autorizzazioni come segue:
 
@@ -60,7 +60,7 @@ La **[!DNL Campaign Approver]** il profilo di prodotto consente agli utenti di a
 
 ## [!DNL Campaign Manager] {#campaign-manager}
 
-La **[!DNL Campaign Manager]** il profilo di prodotto consente agli utenti di creare e modificare **[!UICONTROL Campaigns]** e ogni funzionalità collegata **[!UICONTROL Campaigns]** ma non sarà in grado di pubblicarli.
+La **[!DNL Campaign Manager]** il profilo di prodotto consente agli utenti di creare e modificare **[!UICONTROL Campagne]** e ogni funzionalità collegata **[!UICONTROL Campagne]** ma non sarà in grado di pubblicarli.
 
 Questo profilo di prodotto include le seguenti autorizzazioni:
 
@@ -70,7 +70,7 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 ## [!DNL Campaign Viewer] {#campaign-viewer}
 
-La **[!DNL Campaign Viewer]** il profilo di prodotto consente l’accesso in sola lettura al **[!UICONTROL Campaigns]** e **[!UICONTROL Decision management]** funzionalità.
+La **[!DNL Campaign Viewer]** il profilo di prodotto consente l’accesso in sola lettura al **[!UICONTROL Campagne]** e **[!UICONTROL Gestione delle decisioni]** funzionalità.
 
 Gli utenti assegnati a questo profilo di prodotto non potranno modificare o pubblicare.
 
@@ -101,7 +101,7 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 ## [!DNL Journey Manager] {#journey-manager}
 
-La **[!DNL Journey Manager]** il profilo di prodotto consente agli utenti di creare e modificare **[!UICONTROL Journeys]** e ogni funzionalità collegata **[!UICONTROL Journeys]** ma non sarà in grado di pubblicarli.
+La **[!DNL Journey Manager]** il profilo di prodotto consente agli utenti di creare e modificare **[!UICONTROL Percorsi]** e ogni funzionalità collegata **[!UICONTROL Percorsi]** ma non sarà in grado di pubblicarli.
 
 Questo profilo di prodotto include le seguenti autorizzazioni:
 
@@ -111,7 +111,7 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 
-La **[!DNL Journey viewer]** il profilo di prodotto consente l’accesso in sola lettura al **[!UICONTROL Journeys]** e **[!UICONTROL Decision management]** funzionalità.
+La **[!DNL Journey viewer]** il profilo di prodotto consente l’accesso in sola lettura al **[!UICONTROL Percorsi]** e **[!UICONTROL Gestione delle decisioni]** funzionalità.
 
 Gli utenti assegnati a questo profilo di prodotto non potranno modificare o pubblicare.
 
@@ -122,7 +122,7 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-La **[!DNL Decisioning manager]** il profilo di prodotto consente solo **[!UICONTROL Decision management]** menu. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
+La **[!DNL Decisioning manager]** il profilo di prodotto consente solo **[!UICONTROL Gestione delle decisioni]** menu. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
 
 Questo profilo di prodotto include le seguenti autorizzazioni:
 

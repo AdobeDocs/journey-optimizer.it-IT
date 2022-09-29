@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei 
 [Decisioning del set di dati evento](../start/datasets-query-examples.md#ode-decisionevents)
 [Set di dati del servizio di consenso](../start/datasets-query-examples.md#consent-service-dataset)
 [Set di dati evento feedback CCN](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
+[Set di dati di entità](../start/datasets-query-examples.md#entity-dataset)
 
 ## Set di dati evento esperienza tracciamento e-mail{#email-tracking-experience-event-dataset}
 
@@ -300,4 +301,63 @@ WHERE
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND 
             mfe._experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.category = 'async' AND 
             mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus
+```
+
+## Set di dati di entità{#entity-dataset}
+
+_Nome nell’interfaccia: ajo_entity_dataset (set di dati di sistema)_
+
+Set di dati per memorizzare i metadati delle entità per i messaggi inviati all’utente finale.
+
+Lo schema correlato è lo schema di entità AJO.
+
+Questo set di dati ti consente di arricchire vari set di dati con metadati semplici per gli addetti al marketing. L’attributo messageID consente di unire vari set di dati come set di dati di feedback dei messaggi e set di dati di tracciamento degli eventi di esperienza per ottenere i dettagli di una consegna dei messaggi dall’invio al tracciamento a livello di profilo.
+
+La seguente query ti aiuta a ottenere il modello di messaggio associato per una determinata campagna:
+
+```sql
+SELECT
+  AE._experience.customerJourneyManagement.entities.channelDetails.template
+from
+  ajo_entity_dataset AE
+    WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
+```
+
+La seguente query aiuta a ottenere i dettagli del Percorso e l’oggetto e-mail associati a tutti gli eventi di feedback:
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject 
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
+```
+
+Puoi unire gli eventi dei passaggi di percorso, il feedback dei messaggi e i set di dati di tracciamento per ottenere gli stati di un particolare profilo:
+
+```sql
+SELECT 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionName, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyActionID, 
+  AE._experience.customerJourneyManagement.entities.journey.journeyVersionID, 
+  AE._experience.customerJourneyManagement.entities.channelDetails.email.subject,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.PROFILEID,
+    JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.NODENAME
+from 
+  ajo_entity_dataset AE 
+  INNER JOIN cjm_message_feedback_event_dataset MF 
+    ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+    INNER JOIN journey_step_events JE
+    ON AE._experience.customerJourneyManagement.entities.journey.journeyActionID = JE._experience.journeyOrchestration.stepEvents.actionID
+WHERE 
+  AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
+  AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
+  AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```

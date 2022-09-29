@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1571'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Con [!DNL Journey Optimizer], puoi impostare le superfici del canale (ad esempio
 > * È necessario eseguire le [Configurazione e-mail](#configure-email-settings), [Configurazione push](../configuration/push-configuration.md) e [Configurazione SMS](../configuration/sms-configuration.md) prima di creare superfici del canale.
 
 
-Una volta configurate le superfici del canale, potrai selezionarle quando crei messaggi da un percorso.
+Una volta configurate le superfici del canale, potrai selezionarle quando crei messaggi da un percorso o da una campagna.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ Una volta configurate le superfici del canale, potrai selezionarle quando crei m
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Impostazioni della superficie del canale"
->abstract="Quando imposti una superficie del canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per i messaggi, ad esempio il tipo di e-mail, il sottodominio, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
+>abstract="Quando imposti una superficie del canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Impostazioni della superficie del canale"
->abstract="Quando imposti una superficie del canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per i messaggi, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione degli SMS e altro ancora."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una superficie del canale che definisca tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare le superfici del canale, è necessario disporre dell&#39;autorizzazione Gestisci superficie canale."
 
 Per creare una superficie del canale, effettuate le seguenti operazioni:
 
@@ -90,7 +88,10 @@ Per creare una superficie del canale, effettuate le seguenti operazioni:
 
 1. Una volta creata la superficie del canale, questa viene visualizzata nell’elenco con la **[!UICONTROL Elaborazione]** stato.
 
-   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. Il tempo di elaborazione è intorno **48 ore - 72 ore** e può richiedere **7-10 giorni lavorativi**.
+   Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >Quando si crea la superficie del primo canale per un determinato sottodominio, il tempo di elaborazione può richiedere **da 10 a 10 giorni**. Se il sottodominio selezionato è già utilizzato in un’altra superficie, saranno necessarie solo fino a 3 ore.
 
    Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobe:
 
@@ -101,6 +102,7 @@ Per creare una superficie del canale, effettuate le seguenti operazioni:
    * Controllo host Helo
    * Verifica del pool IP
    * Record A/PTR, verifica del sottodominio t/m/res
+   * Registrazione FBL (questo controllo verrà eseguito solo la prima volta che viene creata una superficie e-mail per un determinato sottodominio)
 
    >[!NOTE]
    >

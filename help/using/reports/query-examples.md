@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
+source-git-commit: e75f26d7112627d63977cafa8a7fbf602c5a3eb1
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 2%
 In questa sezione sono elencati diversi esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso in Data Lake.
 
 Assicurati che i campi utilizzati nelle query abbiano valori associati nello schema corrispondente.
+
+**Qual è la differenza tra id, instanceid e profileid?**
+
+* id: univoco per tutte le voci dell&#39;evento step. Due eventi di passaggio diversi non possono avere lo stesso ID.
+* instanceId: instanceID è lo stesso per tutti gli eventi step associati a un profilo all&#39;interno di un&#39;esecuzione di percorso. Se un profilo accede nuovamente al percorso, verrà utilizzato un ID istanza diverso. Questo nuovo instanceId sarà lo stesso per tutti gli eventi di passaggio dell&#39;istanza reinserita (dall&#39;inizio alla fine).
+* profileID: l’identità del profilo corrispondente allo spazio dei nomi del percorso.
+
+## Casi d’uso di base/query comuni {#common-queries}
+
+**Quanti profili sono entrati in un percorso in un determinato intervallo di tempo**
+
+Questa query fornisce il numero di profili distinti immessi nel percorso specificato nell’intervallo di tempo specificato.
+
+_Query Data Lake_
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND _experience.journeyOrchestration.stepEvents.nodeType='start'
+AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**Quanti errori si sono verificati su ciascun nodo di un percorso specifico per un certo periodo di tempo**
+
+_Query Data Lake_
+
+```sql
+SELECT
+_experience.journeyOrchestration.stepEvents.nodeName,
+count(distinct _experience.journeyOrchestration.stepEvents.profileID)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (_experience.journeyOrchestration.stepEvents.actionExecutionError not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionErrorCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginCode not NULL
+    OR _experience.journeyOrchestration.stepEvents.actionExecutionOriginError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchError not NULL
+    OR _experience.journeyOrchestration.stepEvents.fetchErrorCode  not NULL
+  )
+GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
+```
+
+**Quanti eventi sono stati scartati da un percorso specifico in un determinato intervallo di tempo**
+
+_Query Data Lake_
+
+```sql
+SELECT
+count(_id) AS NUMBER_OF_EVENTS_DISCARDED
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
+```
+
+**Cosa succede a un profilo specifico in un percorso specifico in un intervallo di tempo specifico**
+
+_Query Data Lake_
+
+Questa query restituisce in ordine cronologico tutti gli eventi di passaggio e di servizio per il profilo e il percorso specificati per l&#39;ora specificata.
+
+```sql
+SELECT
+timestamp,
+_experience.journeyOrchestration.stepEvents.journeyVersionID,
+_experience.journeyOrchestration.stepEvents.profileID,
+_experience.journeyOrchestration.stepEvents.nodeName,
+_experience.journeyOrchestration.stepEvents.journeyNodeProcessed,
+_experience.journeyOrchestration.serviceType,
+to_json(_experience.journeyOrchestration.profile),
+to_json(_experience.journeyOrchestration.serviceEvents)
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
+AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
+AND
+  (
+    _experience.journeyOrchestration.stepEvents.profileID='<profileID>'
+    OR _experience.journeyOrchestration.profile.ID='<profileID>'
+  );
+ORDER BY timestamp;
+```
+
 
 ## Errori messaggio/azione {#message-action-errors}
 

@@ -6,16 +6,22 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 61dac9f39ed0fc8f4403071049f14d34a43acbb4
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 3%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 # Elenchi di iscrizione {#create-subscription-list}
 
 ## Che cos’è un elenco di abbonamenti? {#subscription-list-definition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_list"
+>title="Configurare un elenco di iscrizioni"
+>abstract="Crea un elenco di sottoscrizioni per raccogliere i profili che hanno acconsentito alla ricezione di comunicazioni su un oggetto o un evento specifico. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Creare un elenco di iscrizione"
 
 Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti ai clienti che hanno acconsentito a ricevere comunicazioni su un soggetto/evento/interesse/ecc specifico. su base continuativa. In [!DNL Journey Optimizer], questi clienti con consenso vengono raccolti in un elenco di sottoscrizioni.
 
@@ -29,15 +35,15 @@ Un servizio di abbonamento può essere:
 
 I profili possono essere aggiunti a un elenco di abbonamenti tramite un [pagina di destinazione](create-lp.md). Un esempio è presentato in [questa sezione](lp-use-cases.md#subscription-to-a-service).
 
-## Definire un elenco di sottoscrizione {#define-subscription-list}
+## Creare un elenco di iscrizione {#define-subscription-list}
 
 Per creare un elenco di iscrizioni, segui i passaggi riportati di seguito.
 
-1. Per accedere agli elenchi di sottoscrizione, selezionare **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+1. Per accedere agli elenchi di sottoscrizione, selezionare **[!UICONTROL Cliente]** > **[!UICONTROL Lista di sottoscrizione]**.
 
    ![](assets/lp_subscription-lists.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Create subscription list]**.
+1. Seleziona la **[!UICONTROL Crea elenco di sottoscrizione]** pulsante .
 
    ![](assets/lp_create-subscription-list.png)
 
@@ -47,13 +53,13 @@ Per creare un elenco di iscrizioni, segui i passaggi riportati di seguito.
 
    >[!CAUTION]
    >
-   >Attualmente non è possibile utilizzare la spaziatura o immettere un nome già esistente per un altro elenco di sottoscrizioni nel **[!UICONTROL Title]** campo .
+   >Attualmente non è possibile utilizzare la spaziatura o immettere un nome già esistente per un altro elenco di sottoscrizioni nel **[!UICONTROL Titolo]** campo .
 
 1. Puoi definire una data di inizio e una data di fine.
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 Nell’elenco vengono visualizzati tutti gli elenchi di sottoscrizioni creati. Puoi filtrarli in base alla data di creazione o di modifica e al relativo stato.
 
@@ -61,9 +67,9 @@ Nell’elenco vengono visualizzati tutti gli elenchi di sottoscrizioni creati. P
 
 Gli stati possibili sono i seguenti:
 
-* **[!UICONTROL Not started]**: Hai definito una data di inizio successiva al giorno corrente. I profili abbonati non riceveranno ancora comunicazioni relative a questo elenco di abbonamenti.
+* **[!UICONTROL Non avviato]**: Hai definito una data di inizio successiva al giorno corrente. I profili abbonati non riceveranno ancora comunicazioni relative a questo elenco di abbonamenti.
 * **[!UICONTROL Live]**: Il giorno corrente è compreso tra la data di inizio e la data di fine dell’elenco degli abbonamenti oppure non hai definito le date di fine/inizio, il che significa che l’elenco degli abbonamenti è sempre attivo.
-* **[!UICONTROL Expired]**: La data di fine viene passata, pertanto l’elenco di sottoscrizione non è più valido. Qualsiasi profilo sottoscritto non riceverà altre comunicazioni relative a questo elenco di abbonamenti.
+* **[!UICONTROL Scaduto]**: La data di fine viene passata, pertanto l’elenco di sottoscrizione non è più valido. Qualsiasi profilo sottoscritto non riceverà altre comunicazioni relative a questo elenco di abbonamenti.
 
 Una volta creato l’elenco di sottoscrizioni, puoi utilizzarlo in una pagina di destinazione. I profili che effettuano il consenso tramite il modulo della pagina di destinazione verranno aggiunti all’elenco. [Ulteriori informazioni](design-lp.md)
 

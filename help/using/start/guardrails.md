@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 4%
+source-wordcount: '858'
+ht-degree: 3%
 
 ---
 
@@ -45,7 +45,6 @@ Le protezioni delle prestazioni e i limiti statici per il processo decisionale s
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
 * Incorporato **Reazione** ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, ma è necessario aggiungerle una dopo l’altra.
-* Oggi c&#39;è una limitazione tecnica nei percorsi che impedisce la presenza di un profilo più volte nello stesso percorso, allo stesso tempo. Un profilo può ancora rientrare in un percorso (in base a un’impostazione), ma non può farlo finché non esce completamente dall’istanza precedente del percorso.
 * Nella maggior parte dei casi, un profilo non può essere presente più volte nello stesso percorso e allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
 
 ### Versioni del percorso {#journey-versions-g}
@@ -68,6 +67,7 @@ Le protezioni delle prestazioni e i limiti statici per il processo decisionale s
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi aziendali non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione dei segmenti.
+* I percorsi unitari (a partire da un evento o da una qualifica di segmento) includono una guardrail che impedisce l’attivazione errata dei percorsi più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 
 ### Origini dati {#data-sources-g}
 
@@ -89,3 +89,8 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * I segmenti in streaming sono sempre aggiornati, ma i segmenti batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del lotto.
 * Per i percorsi che utilizzano un’attività Read Segment , esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma si prega di evitare di avere più di cinque percorsi (con Leggi segmento, programmato o partendo &quot;il più presto possibile&quot;) a partire allo stesso tempo distribuendoli nel tempo, ad esempio 5 a 10 minuti di distanza.
+
+### Editor espressioni {#expression-editor}
+
+* I gruppi di campi evento esperienza non possono essere utilizzati nei percorsi che iniziano con un segmento Read , una qualifica Segment o un’attività dell’evento aziendale.
+

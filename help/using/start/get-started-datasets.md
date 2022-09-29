@@ -4,16 +4,16 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '820'
 ht-degree: 6%
 
 ---
 
 # Guida introduttiva ai set di dati {#datasets-gs}
 
-Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe).
+Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
 
 ## Accedere ai set di dati{#access-datasets}
 
@@ -33,12 +33,30 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati in cui son
 
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività Set di dati e vedi i dettagli del set di dati selezionato. La scheda Attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 
+Sono disponibili diversi set di dati:
+
+**Generazione rapporti**
+
+* _Reporting - Set di dati evento del feedback dei messaggi_: Log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di reporting e creazione di segmenti. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati.
+* _Reporting - Set di dati evento esperienza di tracciamento e-mail_: Registri di interazione per il canale e-mail utilizzato a scopo di reporting e creazione di segmenti. Informazioni memorizzate informazioni sulle azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc.).
+* _Reporting - Dataset evento esperienza di tracciamento push_: Registri di interazione per il canale push, utilizzato a scopo di reporting e creazione di segmenti. Informazioni memorizzate informazioni sulle azioni eseguite dall&#39;utente finale sulle notifiche push.
+* _Reporting - Evento passaggio Percorso_: Acquisisce tutti gli eventi di esperienza Percorso generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati Percorsi.
+* _Reporting - Percorsi_: Set di dati di metadati che raccoglie informazioni di ogni passaggio in un percorso.
+* _Generazione rapporti - CCN_: Set di dati evento di feedback che memorizza i registri di consegna per le e-mail CCN. Da utilizzare a scopo di reporting.
+
+**Consenso**
+
+* _Set di dati del servizio di consenso_: memorizza le informazioni sul consenso di un profilo.
+
+**Intelligent Services**
+
+* _Punteggi di ottimizzazione dei tempi di invio/Punteggi di coinvolgimento_: Punteggi di output del Percorso AI.
+
 ## Anteprima dei set di dati{#preview-datasets}
 
 Dalla schermata Attività del set di dati, seleziona **Anteprima set di dati** nell’angolo in alto a destra dello schermo per visualizzare in anteprima il batch di successo più recente in questo set di dati. Quando un set di dati è vuoto, il collegamento di anteprima viene disattivato.
 
 ![](assets/dataset-preview.png)
-
 
 ## Creare set di dati{#create-datasets}
 
@@ -67,7 +85,7 @@ Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utili
 
 Scopri come creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Adobe Journey Optimizer in [questo campione end-to-end](../segment/creating-test-profiles.md)
 
-Ulteriori informazioni sulla creazione di set di dati in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Ulteriori informazioni sulla creazione di set di dati in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target=&quot;_blank&quot;}.
 
 Scopri come utilizzare l’interfaccia utente dei set di dati in [Panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
 

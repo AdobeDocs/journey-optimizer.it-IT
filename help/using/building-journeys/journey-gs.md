@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 8%
+source-wordcount: '1147'
+ht-degree: 9%
 
 ---
 
@@ -46,11 +46,11 @@ Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i
 
 Di seguito sono riportati i passaggi principali per l’invio di messaggi attraverso i percorsi:
 
-1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Journeys]**. Viene visualizzato l’elenco dei percorsi.
+1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Viene visualizzato l’elenco dei percorsi.
 
    ![](assets/interface-journeys.png)
 
-1. Fai clic su **[!UICONTROL Create Journey]** per creare un nuovo percorso.
+1. Fai clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
 
 1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Ulteriori informazioni [sezione](journey-gs.md#change-properties).
 
@@ -81,7 +81,7 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi attrav
 
 Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
 
-Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e, come utente amministratore, definire una **[!UICONTROL Timeout and error]** durata. Se abilitato per la tua organizzazione, puoi anche attivare [messaggio burst](#burst).
+Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e, come utente amministratore, definire una **[!UICONTROL Timeout ed errore]** durata.
 
 Per i percorsi live, questa schermata mostra la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 
@@ -93,17 +93,21 @@ La **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione per percorsi &quot;una ripresa&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente sia in grado di reinserire il percorso e ricevere nuovamente l&#39;offerta.
 
-Quando un percorso &quot;termina&quot;, avrà lo stato **[!UICONTROL Closed]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso.
+Quando un percorso &quot;termina&quot;, avrà lo stato **[!UICONTROL Chiuso]**. Il percorso smetterà di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso finiranno normalmente il percorso.
 
 Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Vedi questo [sezione](../building-journeys/journey-gs.md#global_timeout).
 
+>[!NOTE]
+>
+>I percorsi unitari (a partire da un evento o da una qualifica di segmento) includono una guardrail che impedisce l’attivazione errata dei percorsi più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
+
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
-Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che esegue l’interrogazione a un sistema di terze parti supera la durata di timeout definita nelle proprietà del percorso (**[!UICONTROL Timeout and  error]** (campo ), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
+Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che esegue l’interrogazione a un sistema di terze parti supera la durata di timeout definita nelle proprietà del percorso (**[!UICONTROL Timeout ed errore]** (campo ), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
 I valori autorizzati sono compresi tra 1 e 30 secondi.
 
-È consigliabile definire un valore molto breve **[!UICONTROL Timeout and error]** se il percorso è sensibile all&#39;ora (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l&#39;azione per più di pochi secondi. Se il percorso è meno sensibile al tempo, puoi utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
+È consigliabile definire un valore molto breve **[!UICONTROL Timeout ed errore]** se il percorso è sensibile all&#39;ora (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l&#39;azione per più di pochi secondi. Se il percorso è meno sensibile al tempo, puoi utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
 
 I percorsi utilizzano anche un timeout globale. Consulta la sezione [sezione successiva](#global_timeout).
 
@@ -127,31 +131,8 @@ Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere
 
 Per ulteriori informazioni sulla gestione del fuso orario, vedi [questa pagina](../building-journeys/timezone-management.md).
 
-### Modalità Burst {#burst}
+### Gestisci accesso {#access}
 
-La modalità Burst è un componente aggiuntivo di Journey Optimizer che consente l&#39;invio rapido di messaggi push in grandi volumi. Viene utilizzato per percorsi semplici che includono **Leggi segmento** e un semplice messaggio push. Burst viene utilizzato quando il ritardo nella consegna dei messaggi è di importanza business, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia di interruzione per gli utenti che hanno installato la tua app del canale di notizie.
+Per assegnare etichette di utilizzo dati personalizzate o di base al percorso, fai clic sul pulsante **[!UICONTROL Gestisci accesso]** pulsante . [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
 
-La messaggistica Burst prevede i seguenti requisiti:
-
-* Il percorso deve iniziare con un **Leggi segmento** attività. Eventi non consentiti.
-* Il passaggio successivo deve essere un messaggio push. Nessun altro canale, attività o passaggio è consentito.
-* Nel messaggio push non è consentita alcuna personalizzazione.
-* Il messaggio deve essere piccolo (&lt;2 KB).
-
->[!CAUTION]
->
->Se uno dei requisiti non è soddisfatto, la modalità burst non sarà disponibile nel percorso.
-
-Per attivare **Modalità Burst**, apri il percorso e fai clic sull’icona a forma di matita, in alto a destra, per accedere alle proprietà del percorso. Quindi, attiva il **Attiva modalità burst** alternare.
-
-![](assets/burst.png)
-
-La modalità Burst viene disattivata automaticamente se modifichi un percorso burst e aggiungi un’attività non conforme ai messaggi burst, come un messaggio e-mail, qualsiasi altra azione, un evento e così via.
-
-![](assets/burst2.png)
-
-Quindi testa e pubblica il tuo percorso come di consueto. In modalità di test i messaggi non vengono inviati tramite la modalità burst.
-
-In questo video puoi comprendere i casi d’uso applicabili ai messaggi burst e come configurare un percorso per i messaggi burst:
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

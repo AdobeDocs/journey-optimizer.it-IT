@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '899'
+ht-degree: 1%
 
 ---
 
-# Gestione del consenso (versione beta) {#consent-management}
+# Gestione del consenso {#consent-management}
 
 Adobe Experience Platform consente di adottare e applicare facilmente le politiche di marketing per rispettare le preferenze di consenso dei clienti. I criteri di consenso sono definiti in Adobe Experience Platform. Fai riferimento a [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -24,7 +22,7 @@ In Journey Optimizer puoi applicare questi criteri di consenso alle azioni perso
 
 >[!NOTE]
 >
->Questa funzione viene rilasciata come versione beta privata. Non è disponibile per tutti i clienti Journey Optimizer.
+>Le politiche di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato l&#39;offerta aggiuntiva Healthcare Shield.
 
 In Journey Optimizer, il consenso è definito a diversi livelli:
 
@@ -39,8 +37,8 @@ Con la gestione del consenso vengono analizzate due attività percorsi:
 
 * Segmento di lettura: viene preso in considerazione il segmento recuperato.
 * Azione personalizzata: la gestione del consenso tiene conto degli attributi utilizzati ([parametri azione](../action/about-custom-action-configuration.md#define-the-message-parameters)) e le azioni di marketing definite (azioni di marketing richieste e azioni di marketing aggiuntive).
-
-Il consenso si applica solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
+* Gli attributi che fanno parte di un gruppo di campi che utilizzano lo schema unionale predefinito non sono supportati. Questi attributi verranno nascosti dall’interfaccia. È necessario creare un altro gruppo di campi utilizzando uno schema diverso.
+* I criteri di consenso si applicano solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
 
 Non vengono prese in considerazione tutte le altre attività utilizzate in un percorso. Se avvii il percorso con una qualifica Segmento, il segmento non viene preso in considerazione.
 

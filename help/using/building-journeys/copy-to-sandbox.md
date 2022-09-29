@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 >title="Oggetti dipendenti"
 >abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno."
 
-Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Fai riferimento a [limitazioni](../building-journeys/copy-to-sandbox.md#limitations)
+Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questo [sezione](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Gli oggetti copiati nella sandbox di destinazione sono univoci e non sussiste il
 
 Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
 
-1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Journeys]**. Viene visualizzato l’elenco dei percorsi.
+1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Viene visualizzato l’elenco dei percorsi.
 
 2. Cerca il percorso da copiare, fai clic sul pulsante **Altre azioni** (i tre punti accanto al nome del percorso) e fai clic su **Copia in sandbox**.
 
