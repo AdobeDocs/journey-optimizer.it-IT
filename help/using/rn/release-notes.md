@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
+source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 19%
@@ -198,7 +198,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 ### Altre modifiche{#sept-2022-other}
 
-* La modalità Burst di percorso è stata sostituita dalla modalità di consegna rapida di Campaign. Per saperne di più
+* La modalità Burst di percorso è stata sostituita dalla modalità di consegna rapida di Campaign. [Ulteriori informazioni](../campaigns/create-campaign.md#rapid-delivery})
 * Per migliorare le prestazioni, i gruppi di campi evento Experience non possono più essere utilizzati nei percorsi che iniziano con un segmento Read , una qualifica Segment o un’attività dell’evento aziendale. Questa modifica si applica solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. [Ulteriori informazioni](../start/guardrails.md#expression-editor)
 * È stato rimosso il limite di 1 ora per i percorsi di segmenti di lettura pianificati. Questi percorsi ora possono essere eseguiti senza ritardi.
 
