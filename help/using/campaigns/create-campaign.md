@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
+source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -114,7 +114,7 @@ La modalità di consegna rapida, precedentemente nota come modalità Burst nei p
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia di emergenza per gli utenti che hanno installato la tua app di canale di notizie.
 
-Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità di consegna rapida, consulta [Descrizione del prodotto Adobe Journye Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html).
+Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità di consegna rapida, consulta [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html).
 
 
 ### Prerequisiti {#prerequisites}
