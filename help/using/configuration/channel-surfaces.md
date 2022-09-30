@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Per creare una superficie del canale, effettuate le seguenti operazioni:
    Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >Quando si crea la superficie del primo canale per un determinato sottodominio, il tempo di elaborazione può richiedere **da 10 a 10 giorni**. Se il sottodominio selezionato è già utilizzato in un’altra superficie, saranno necessarie solo fino a 3 ore.
+   >Durante la creazione della prima superficie e-mail per un determinato sottodominio, il tempo di elaborazione può richiedere **da 10 a 10 giorni**. Se il sottodominio selezionato è già utilizzato in un’altra superficie e-mail, saranno necessarie solo fino a 3 ore.
 
    Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobe:
 

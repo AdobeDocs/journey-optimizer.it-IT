@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 18%
@@ -174,7 +174,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Amministrazione**
 
-* Quando si abilita o disabilita l’elenco Consentiti, ora viene visualizzato un nuovo avviso per descrivere in dettaglio gli impatti di ogni azione. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
+* Quando si attiva o si disattiva l’elenco Consentiti, ora viene visualizzato un nuovo avviso per specificare gli impatti di ogni azione. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * È stata aggiornata l’interfaccia utente per la creazione di superfici dei canali, la creazione di pool IP, la gestione dell’elenco di soppressione e dell’elenco Consentiti e la configurazione del canale SMS.
 * Ora, quando si crea la superficie del primo canale per un determinato sottodominio, il tempo di elaborazione richiederà da 10 a 10 giorni e solo fino a 3 ore per le superfici successive che utilizzano quel sottodominio. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 
