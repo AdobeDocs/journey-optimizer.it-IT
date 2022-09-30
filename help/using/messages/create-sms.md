@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 9%
+source-wordcount: '468'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui l
 
 È possibile creare le consegne SMS:
 
-* In una **Percorso**: Dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Actions: SMS]** riquadro a destra per creare il contenuto per il messaggio SMS.
+* In una **Percorso**: Dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Azioni: SMS]** riquadro a destra per creare il contenuto per il messaggio SMS.
 
    Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
 
@@ -38,13 +38,13 @@ Se è la prima volta che crei un messaggio SMS, assicurati che il canale SMS sia
 
 Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 
-1. Fai clic sul pulsante **[!UICONTROL Message]** per aprire l’editor espressioni.
+1. Fai clic sul pulsante **[!UICONTROL Messaggio]** per aprire l’editor espressioni.
 
    ![](assets/sms-content.png)
 
-1. Utilizza l’editor espressioni per definire il contenuto. Puoi utilizzare qualsiasi attributo per personalizzare il contenuto, ad esempio il nome del profilo o la città. Ulteriori informazioni sulla personalizzazione nell’editor espressioni in [questa sezione](../personalization/personalize.md).
+1. Utilizza l’editor espressioni per definire il contenuto e aggiungere contenuto dinamico. Puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo o la città. Ulteriori informazioni [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor espressioni.
 
-1. Fai clic su **[!UICONTROL Save]** e controlla il messaggio nell’anteprima.
+1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell’anteprima.
 
    ![](assets/sms-content-preview.png)
 
@@ -56,7 +56,7 @@ Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
 
-Per visualizzare la modalità di visualizzazione del messaggio SMS sui dispositivi mobili, fai clic sul pulsante **[!UICONTROL Simulate content]** scheda . Ulteriori informazioni sulla simulazione dei contenuti in [questa sezione](../design/preview.md).
+Per visualizzare la modalità di visualizzazione del messaggio SMS sui dispositivi mobili, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** scheda . Ulteriori informazioni sulla simulazione dei contenuti in [questa sezione](../design/preview.md).
 
 È inoltre necessario controllare gli avvisi nella sezione superiore dell’editor.  Alcuni sono semplici avvisi, altri possono impedire l’utilizzo del messaggio. Ulteriori informazioni in [questa sezione](alerts.md).
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 1. Aggiungi campi di personalizzazione per personalizzare il contenuto dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. Aggiungi il contenuto dinamico per adattare il contenuto ai profili di destinazione in base a regole condizionali. [Introduzione al contenuto dinamico](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. In **[!UICONTROL Collegamenti]** nel riquadro a sinistra, controlla l’elenco di tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]**, **[!UICONTROL Etichetta]** e **[!UICONTROL Tag]** se necessario.
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 2%
+source-wordcount: '1246'
+ht-degree: 1%
 
 ---
 
@@ -89,8 +89,7 @@ Utilizza la **[!UICONTROL Testo]** per inserire testo nell’e-mail. È possibil
    * **[!UICONTROL Duplica]**: aggiungi una copia del componente testo.
    * **[!UICONTROL Elimina]**: elimina il componente di testo selezionato dal messaggio e-mail.
    * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md).
-
-1. Per una migliore esperienza utente, puoi aggiungere campi di personalizzazione per rivolgerti al pubblico. Per ulteriori informazioni, consulta questa [sezione](../personalization/personalize.md).
+   * **[!UICONTROL Abilitare il contenuto condizionale]**: aggiungi contenuto condizionale per adattare il contenuto del componente ai profili target. [Ulteriori informazioni sul contenuto dinamico](../personalization/get-started-dynamic-content.md).
 
 1. Regolare la **[!UICONTROL Colore testo]**, **[!UICONTROL Famiglia di font]** e **[!UICONTROL Dimensione]** in **[!UICONTROL Impostazioni dei componenti]**.
 
@@ -208,7 +207,7 @@ Utilizza la **[!UICONTROL Social]** per inserire collegamenti alle pagine dei so
 
 ## Decisione di offerta {#offer-decision}
 
-Utilizza la **[!UICONTROL Decisione di offerta]** per inserire decisioni nei messaggi. Decisioni sfrutterà la Gestione delle decisioni per scegliere l&#39;offerta migliore da consegnare ai tuoi clienti.
+Utilizza la **[!UICONTROL Decisione di offerta]** per inserire nei messaggi le decisioni (precedentemente note come attività di offerta). Decisioni sfrutterà la Gestione delle decisioni per scegliere l&#39;offerta migliore da consegnare ai tuoi clienti.
 
 Argomenti correlati:
 

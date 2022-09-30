@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 96%
+source-wordcount: '1161'
+ht-degree: 95%
 
 ---
 
@@ -84,34 +84,35 @@ ht-degree: 96%
       + [Aggiungere JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
    + [Creare un elenco di abbonamenti](using/landing-pages/subscription-list.md)
    + [Casi d’uso](using/landing-pages/lp-use-cases.md)
-+ Personalizzazione{#personalization}
-   + [Introduzione con personalizzazione](using/personalization/personalize.md)
-   + [Contesti di personalizzazione](using/personalization/personalization-contexts.md)
-   + Creare espressioni {#build-expressions}
-      + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
-      + Utilizzare l’editor di espressioni {#expression-editor}
-         + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
-         + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
-         + [Utilizza espressioni salvate](using/personalization/personalization-library.md)
-         + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
-      + Funzioni assistenza{#functions}
-         + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
-         + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
-         + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
-         + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
-         + [Funzioni Data/Ora](using/personalization/functions/dates.md)
-         + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
-         + [Assistenza](using/personalization/functions/helpers.md)
-         + [Mappare le funzioni](using/personalization/functions/maps.md)
-         + [Funzioni oggetto](using/personalization/functions/objects.md)
-         + [Funzioni stringa](using/personalization/functions/string.md)
-   + Casi d’uso{#personalization-use-cases}
-      + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
-      + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
++ Personalizzazione e contenuto dinamico {#personalized-dynamic-content}
+   + Personalizzazione {#personalization}
+      + [Guida introduttiva alla personalizzazione](using/personalization/personalize.md)
+      + [Contesti di personalizzazione](using/personalization/personalization-contexts.md)
+      + Creare espressioni {#build-expressions}
+         + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
+         + Utilizzare l’editor di espressioni {#expression-editor}
+            + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
+            + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
+            + [Utilizza espressioni salvate](using/personalization/personalization-library.md)
+            + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
+         + Funzioni assistenza{#functions}
+            + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
+            + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
+            + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
+            + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
+            + [Funzioni data](using/personalization/functions/dates.md)
+            + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
+            + [Assistenza](using/personalization/functions/helpers.md)
+            + [Mappare le funzioni](using/personalization/functions/maps.md)
+            + [Funzioni oggetto](using/personalization/functions/objects.md)
+            + [Funzioni stringa](using/personalization/functions/string.md)
+      + Casi d’uso{#personalization-use-cases}
+         + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
+         + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Contenuto dinamico {#dynamic}
       + [Introduzione al contenuto dinamico](using/personalization/get-started-dynamic-content.md)
-      + [Creare condizioni](using/personalization/create-conditions.md)
-      + [Creare contenuto condizionale](using/personalization/dynamic-content.md)
+      + [Creare regole condizionali](using/personalization/create-conditions.md)
+      + [Creare contenuto dinamico](using/personalization/dynamic-content.md)
 + Segmenti, profili e identità{#segment}
    + Segmenti {#segments}
       + [Introduzione ai segmenti](using/segment/about-segments.md)

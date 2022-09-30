@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 9%
+source-wordcount: '314'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 Le e-mail possono essere create:
 
-* In una **Percorso**: Dopo aver aggiunto un’attività E-mail nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Actions: Email]** riquadro a destra per creare il contenuto per le notifiche push.
+* In una **Percorso**: Dopo aver aggiunto un’attività E-mail nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Azioni: E-mail]** riquadro a destra per creare il contenuto per le notifiche push.
 
    Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
 
@@ -42,9 +42,11 @@ Utilizzo [!DNL Journey Optimizer] Invia a E-mail Designer [progettare l&#39;e-ma
 
 Utilizzo [!DNL Journey Optimizer] Editor espressioni per personalizzare i messaggi con i dati dei profili. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md).
 
+Adatta il contenuto dei messaggi ai profili target sfruttando [!DNL Journey Optimizer] funzionalità di contenuto dinamico. [Introduzione al contenuto dinamico](../personalization/get-started-dynamic-content.md)
+
 ## Tracciamento e-mail{#email-tracking}
 
-Se desideri tenere traccia del comportamento dei destinatari attraverso le aperture e/o i clic sui collegamenti, abilita le seguenti opzioni: **[!UICONTROL Email opens]** e **[!UICONTROL Click on email]**.
+Se desideri tenere traccia del comportamento dei destinatari attraverso le aperture e/o i clic sui collegamenti, abilita le seguenti opzioni: **[!UICONTROL Aperture e-mail]** e **[!UICONTROL Fai clic su e-mail]**.
 
 Ulteriori informazioni sul tracciamento in [questa sezione](../design/message-tracking.md).
 
@@ -60,5 +62,5 @@ Controlla il rendering del tuo messaggio e-mail e controlla le impostazioni di p
 
 >[!NOTE]
 >
->La **[!UICONTROL From email]** e **[!UICONTROL From name]** sono determinati **[!UICONTROL Surface]** che è stato selezionato quando [creazione del messaggio](get-started-content.md).
+>La **[!UICONTROL Da e-mail]** e **[!UICONTROL Nome mittente]** sono determinati **[!UICONTROL Superficie]** che è stato selezionato quando [creazione del messaggio](get-started-content.md).
 

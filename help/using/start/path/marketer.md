@@ -3,10 +3,10 @@ title: Guida introduttiva di Journey Optimizer per gli addetti al marketing
 description: In qualità di Percorso professionista, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 8%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Consulta le sezioni seguenti per configurare il primo percorso, aggiungere offer
 
 1. **Creare segmenti**. Journey Optimizer consente di creare segmenti di pubblico direttamente dal **Segmenti** e sfruttali nei tuoi percorsi.  Ulteriori informazioni sui segmenti [in questa pagina](../../segment/about-segments.md). Scopri come creare segmenti [in questo campione](../../segment/creating-a-segment.md).
 
-1. **Aggiungere personalizzazione**. Sfrutta le funzionalità di personalizzazione Journey Optimizer per adattare il messaggio al pubblico. Ulteriori informazioni sulla personalizzazione [in questa sezione](../../personalization/personalize.md).
+1. **Aggiungere personalizzazione e contenuto dinamico**. Sfrutta la personalizzazione Journey Optimizer e le funzionalità di contenuti dinamici per adattare il messaggio al pubblico. Ulteriori informazioni [personalizzazione](../../personalization/personalize.md) e [contenuto dinamico](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
