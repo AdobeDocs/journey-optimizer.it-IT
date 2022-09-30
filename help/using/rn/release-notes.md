@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 19%
+source-wordcount: '986'
+ht-degree: 18%
 
 ---
 
@@ -176,9 +176,10 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * Quando si abilita o disabilita l’elenco Consentiti, ora viene visualizzato un nuovo avviso per descrivere in dettaglio gli impatti di ogni azione. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * È stata aggiornata l’interfaccia utente per la creazione di superfici dei canali, la creazione di pool IP, la gestione dell’elenco di soppressione e dell’elenco Consentiti e la configurazione del canale SMS.
-<!--* Now when creating the first channel surface for a given subdomain, the processing time will take 10 minutes to 10 days, and only up to 3 hours for subsequent surfaces using that subdomain. Learn more
-* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.
-* The user interface for creating landing page presets and landing page subdomains has been improved. Learn more -->
+* Ora, quando si crea la superficie del primo canale per un determinato sottodominio, il tempo di elaborazione richiederà da 10 a 10 giorni e solo fino a 3 ore per le superfici successive che utilizzano quel sottodominio. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
+
+<!--* Now when downloading the suppression list as a CSV file, you can choose the file that was previously generated, or generate a new file.-->
+* È stata aggiornata l’interfaccia utente per la creazione dei predefiniti pagina di destinazione e dei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
 
 **Controlli di audit**
 
@@ -192,7 +193,7 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 * Ora puoi utilizzare dati contestuali provenienti da un’altra pagina all’interno della stessa pagina di destinazione. Ad esempio, se colleghi una casella di controllo a un elenco di sottoscrizioni nella pagina di destinazione principale, puoi utilizzare tale elenco nella pagina secondaria &quot;grazie&quot;. [Ulteriori informazioni](../landing-pages/lp-content.md#use-primary-page-context)
 
-* Durante la configurazione della pagina principale, è ora possibile creare dati aggiuntivi per abilitare la memorizzazione delle informazioni durante l’invio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-content.md#use-additional-data)
+<!--* When configuring the primary page, you can now create additional data to enable storing information when the landing page is being submitted. [Learn more](../landing-pages/lp-content.md#use-additional-data)-->
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
