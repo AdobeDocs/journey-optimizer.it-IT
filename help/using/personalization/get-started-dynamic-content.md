@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 0%
 >title="Condizioni"
 >abstract="Le regole condizionali consentono di visualizzare più varianti di contenuto nei messaggi in base agli attributi del profilo, agli eventi contestuali o ai segmenti di pubblico."
 
-Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base a regole condizionali che possono essere composte da attributi di profilo, eventi contestuali o segmenti di pubblico.
+Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base a **regole condizionali** che può essere composta da attributi di profilo, eventi contestuali o segmenti di pubblico. Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.
 
-Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.
+È possibile sfruttare le regole condizionali in E-mail Designer e nell’editor di espressioni per **creare contenuto dinamico** che si adatta ai profili target nei messaggi.
 
 ![](assets/conditions-overview.png)
 
