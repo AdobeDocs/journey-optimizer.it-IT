@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '344'
 ht-degree: 5%
 
 ---
 
 # Generare segmenti {#build-segments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="Creare una regola"
+>abstract="Il metodo di creazione della regola di compilazione consente di creare una nuova definizione del segmento utilizzando il servizio di segmentazione di Adobe Experience Platform."
+
 In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlanta, San Francisco, o Seattle e sono nati dopo il 1980. Tutti questi clienti avrebbero dovuto aprire l’applicazione Luma entro gli ultimi 7 giorni, quindi effettuare un acquisto entro 2 ore dall’apertura dell’applicazione.
 
 ➡️ [Scopri come creare segmenti in questo video](#video-segment)
 
-1. Accedere al **[!UICONTROL Segments]** quindi fai clic sul **[!UICONTROL Create segment]** pulsante .
+1. Accedere al **[!UICONTROL Segmenti]** quindi fai clic sul **[!UICONTROL Creare un segmento]** pulsante .
 
    ![](assets/create-segment.png)
 
@@ -27,7 +32,7 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
    ![](assets/segment-builder.png)
 
-1. In **[!UICONTROL Segment properties]** Specifica un nome e una descrizione (facoltativi) per il segmento.
+1. In **[!UICONTROL Proprietà del segmento]** Specifica un nome e una descrizione (facoltativi) per il segmento.
 
    ![](assets/segment-properties.png)
 
@@ -49,11 +54,11 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
       ![](assets/add-events.png)
 
-1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Segment Properties]** viene aggiornato automaticamente con le informazioni sui profili stimati appartenenti al segmento.
+1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Proprietà segmento]** viene aggiornato automaticamente con le informazioni sui profili stimati appartenenti al segmento.
 
    ![](assets/segment-estimate.png)
 
-1. Una volta pronto il segmento, fai clic su **[!UICONTROL Save]**. Viene visualizzato nell’elenco dei segmenti di Adobe Experience Platform. È disponibile una barra di ricerca per facilitare la ricerca di un segmento specifico nell’elenco.
+1. Una volta pronto il segmento, fai clic su **[!UICONTROL Salva]**. Viene visualizzato nell’elenco dei segmenti di Adobe Experience Platform. È disponibile una barra di ricerca per facilitare la ricerca di un segmento specifico nell’elenco.
 
 Il segmento può ora essere utilizzato nei percorsi. Per ulteriori informazioni al riguardo, consulta [questa sezione](../segment/about-segments.md).
 
