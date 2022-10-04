@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 3205b992a1dd6774d3ef89533d9ae6af9ff50ba3
+source-git-commit: e98bde090129ad1c32662719911ec6a3e68f69d6
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,9 @@ Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base 
 
 * [Scopri come utilizzare le regole condizionali](create-conditions.md)
 * [Scopri come creare contenuti dinamici](dynamic-content.md)
+
+## Video introduttivo {#video}
+
+Scopri come creare contenuto dinamico con il generatore di regole di condizione.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
