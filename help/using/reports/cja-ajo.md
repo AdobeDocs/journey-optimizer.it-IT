@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 9%
+source-wordcount: '337'
+ht-degree: 7%
 
 ---
 
 # Utilizzare [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] integrazione con [!DNL Customer Journey Analytics] fornisce una visualizzazione olistica di tutti i tuoi percorsi con distribuzione automatizzata dei rapporti e visualizzazioni personalizzate dei dati.
 
 Dopo aver creato il percorso in [!DNL Journey Optimizer], puoi importare i dati dei clienti in [!DNL Customer Journey Analytics] per avviare i rapporti e comprendere l&#39;impatto di ogni interazione che un cliente ha con i tuoi percorsi.
 
@@ -23,6 +24,11 @@ Dopo aver creato il percorso in [!DNL Journey Optimizer], puoi importare i dati 
 Prima di utilizzare [!DNL Customer Journey Analytics] per i percorsi, devi prima configurare questa integrazione:
 
 1. [Creare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) in [!DNL Customer Journey Analytics] con **[!UICONTROL Set di dati]** desideri inviare a Platform.
+
+   I seguenti [!DNL Journey Optimizer] può essere configurato:
+   * [Evento passaggio percorso](../start/datasets-query-examples.md#journey-step-event): ti consente di vedere chi entra nei tuoi percorsi e quanto lontano arrivano.
+   * [Feed di dati di feedback/tracciamento dei messaggi](../start/datasets-query-examples.md#message-feedback-event-dataset): consente di visualizzare le informazioni sulla consegna dei messaggi inviati tramite [!DNL Journey Optimizer].
+   * [Set di dati di entità e Percorso](../start/datasets-query-examples.md#entity-dataset): consente di cercare i nomi descrittivi e di utilizzarli nei rapporti.
 
 1. [Creare una visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) per configurare le dimensioni e le metriche che desideri utilizzare per il rapporto.
 
