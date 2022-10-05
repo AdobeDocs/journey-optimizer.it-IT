@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 0%
@@ -113,7 +113,7 @@ La **[!UICONTROL Escludi]** l’attività ti consente di escludere i profili dal
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="Aggiungi limite profilo"
->abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione.
+>abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione."
 
 La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà.
 
