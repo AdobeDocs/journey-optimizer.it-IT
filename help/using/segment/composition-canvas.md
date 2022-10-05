@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ La **[!UICONTROL Escludi]** l’attività ti consente di escludere i profili dal
 >title="Attività di classificazione"
 >abstract="L’attività Classifica ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, includi i 50 profili con la maggiore quantità di punti fedeltà."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Aggiungi limite profilo"
+>abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione.
+
 La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà.
 
 1. Seleziona l’attributo da cercare e specifica un ordine di classificazione (crescente o decrescente).
@@ -138,6 +143,11 @@ La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i 
 >id="ajo_ao_split_type"
 >title="Tipo di divisione"
 >abstract="Utilizza il tipo di suddivisione percentuale per dividere in modo casuale i profili in più percorsi. Il tipo di suddivisione dell’attributo consente di suddividere i profili in base a un attributo specifico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Altri profili"
+>abstract="Attiva questa opzione per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi."
 
 La **[!UICONTROL Divisione]** l’attività ti consente di dividere la composizione in più percorsi.
 
