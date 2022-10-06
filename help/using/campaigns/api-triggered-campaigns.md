@@ -2,7 +2,7 @@
 title: Attivare campagne tramite API
 description: Scopri come attivare le campagne utilizzando [!DNL Journey Optimizer] API
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 1%
@@ -96,7 +96,7 @@ Quando un profilo non esiste nel database, Journey Optimizer ti consente di crea
 >
 >Questa funzione è disponibile per **creazione di profili di volume molto piccoli** in un caso di utilizzo per l’invio transazionale a volume elevato, con una massa di profili già esistenti in platform.
 
-Per attivare la creazione del profilo durante l’esecuzione della campagna, attiva/disattiva la **[!UCONTROL Creare nuovi profili]** in **[!UICONTROL Pubblico]** sezione .
+Per attivare la creazione del profilo durante l’esecuzione della campagna, attiva/disattiva la **[!UICONTROL Creare nuovi profili]** in **[!UICONTROL Pubblico]** sezione .
 
 ![](assets/api-triggered-create-profile.png)
 
