@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
-workflow-type: ht
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 100%
 >title="Superficie di canale"
 >abstract="Una superficie di canale è un’istanza di quel canale che dispone di tutte le impostazioni per consegnare correttamente un’azione tramite una campagna o un percorso. Viene definita da un amministratore di sistema."
 
-Nei percorsi, utilizza le azioni del canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un’azione E-mail, SMS o Push all’area di lavoro del percorso, di fatto crei un invio attivato. Quando i contatti arrivano a tale azione del canale, Adobe Journey Optimizer invia automaticamente il messaggio.
+Nei percorsi, utilizza le azioni del canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un’e-mail, un SMS o un’azione push all’area di lavoro del percorso, stai creando un invio attivato. Quando i contatti arrivano a tale azione del canale, Adobe Journey Optimizer invia automaticamente il messaggio.
 
 
 >[!NOTE]
 >Puoi anche creare campagne per l’invio di messaggi pianificati. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md).
 
 
-Per aggiungere messaggi in un percorso, è sufficiente aggiungere un’attività Push, SMS o E-mail nell’area di lavoro del percorso.
+Per aggiungere messaggi in un percorso, aggiungi un’attività push, SMS o e-mail nell’area di lavoro del percorso.
 
 1. Inizia il tuo percorso con un [Evento](../building-journeys/general-events.md) o un’attività [Leggi segmento](../building-journeys/read-segment.md).
 
