@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d9183a8114aff2d17fc65eddaf2a7a8424e3f95
+source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,11 +121,12 @@ ht-degree: 94%
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
       + [Crea profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
+   + Componi tipi di pubblico {#audience-orchestration}
+      + [Introduzione alla composizione dell’audience](using/segment/get-started-audience-orchestration.md)
+      + [Creazione di flussi di lavoro di composizione](using/segment/create-compositions.md)
+      + [Lavorare con il quadro di composizione](using/segment/composition-canvas.md)
+      + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
    + [Utilizzo delle licenze](using/segment/license-usage.md)
-   + [Introduzione alla composizione dell’audience](using/segment/get-started-audience-orchestration.md)
-   + [Creazione di flussi di lavoro di composizione](using/segment/create-compositions.md)
-   + [Lavorare con il quadro di composizione](using/segment/composition-canvas.md)
-   + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
 + Percorsi {#orchestrate-journeys}
    + Informazioni sui percorsi{#about-journeys}
       + [Principio generale](using/building-journeys/journey.md)
