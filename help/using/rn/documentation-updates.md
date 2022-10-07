@@ -3,9 +3,9 @@ title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2002'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,16 +15,16 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Settembre 2022 {#september-2022}
 
-* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 22 settembre è stata descritta nella documentazione. [Ulteriori informazioni](release-notes.md)
-* È stata aggiunta una best practice relativa all’utilizzo delle attività Attendi nei percorsi di segmenti di lettura ricorrenti. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Sono stati aggiunti nuovi esempi di query dell’evento del passaggio e informazioni sulla differenza tra id, instanceid e profileid. [Ulteriori informazioni](../reports/query-examples.md).
-* Sono state aggiornate le pagine relative al [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md) funzioni.
-* Sono stati aggiunti dettagli sui parametri della condizione temporale. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
-* Sono state aggiunte informazioni sui set di dati incorporati. [Ulteriori informazioni](../start/get-started-datasets.md#access-datasets)
-* Le sezioni Rapporto globale e Rapporto in tempo reale sono state riorganizzate per migliorare la leggibilità. [Ulteriori informazioni](../reports/global-report.md)
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di settembre 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* È stata aggiunta una best practice relativa all’utilizzo delle attività di attesa nei percorsi ricorrenti di lettura segmento. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Sono stati aggiunti nuovi esempi di query di evento del passaggio e informazioni sulla differenza tra id, instanceid e profileid. [Ulteriori informazioni](../reports/query-examples.md).
+* Sono state aggiornate le pagine relative alle funzioni [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
+* Sono stati aggiunti dettagli ai parametri della condizione temporale. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
+* Sono state aggiunte informazioni ai set di dati incorporati. [Ulteriori informazioni](../start/get-started-datasets.md#access-datasets)
+* Le sezioni Rapporto globale e Rapporto live sono state riorganizzate per migliorarne la leggibilità. [Ulteriori informazioni](../reports/global-report.md)
 * È stato aggiunto un elenco di tutte le metriche di reporting disponibili in Adobe Journey Optimizer.
    [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
-* La sezione e-mail CCN è stata spostata nella nuova pagina Supporto per l’archiviazione. [Ulteriori informazioni](../configuration/archiving-support.md)
+* La sezione E-mail Ccn è stata spostata nella nuova pagina Supporto per l’archiviazione. [Ulteriori informazioni](../configuration/archiving-support.md)
 
 ## Agosto 2022 {#august-2022}
 
@@ -57,7 +57,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata la pagina dell’attività Attendi. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 * È stato aggiunto l’elenco dei set di dati Adobe Journey Optimizer con esempi di query. [Ulteriori informazioni](../start/datasets-query-examples.md)
 * La pagina sull’elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
-* La pagina Elenco di eliminazione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo dell’eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
+* La pagina Elenco di soppressione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo della soppressione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 * È stato aggiunto il collegamento ai guardrail e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
 * L’ottimizzazione dell’ora di invio è ora disponibile per tutti i clienti. Il riferimento a “beta” è stato rimosso. [Ulteriori informazioni](../messages/send-time-optimization.md)
 * L’API Batch Decisioning è stata aggiunta all’elenco delle API disponibili per la consegna di offerte personalizzate. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
@@ -174,7 +174,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiornata e rinominata la sezione Intervallo tentativi per riflettere la possibilità di regolare l’impostazione dei tentativi e-mail nei predefiniti per i messaggi. [Ulteriori informazioni](../configuration/retries.md#retry-duration)
 * È stata aggiunta una nuova sezione che descrive come inserire un collegamento di rinuncia con un solo clic nel contenuto delle e-mail. [Ulteriori informazioni](../messages/consent.md#one-click-opt-out-link)
 * È stata aggiornata la sezione Delegare un sottodominio con informazioni più dettagliate sul processo di convalida eseguito da Adobe. [Ulteriori informazioni](../configuration/delegate-subdomain.md#subdomain-validation)
-* È stata aggiunta una sezione che descrive come aggiungere manualmente indirizzi e-mail e domini all’elenco di eliminazione. [Ulteriori informazioni](../configuration/manage-suppression-list.md#add-addresses-and-domains)
+* È stata aggiunta una sezione che descrive come aggiungere manualmente indirizzi e-mail e domini all’elenco di soppressione. [Ulteriori informazioni](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * Sono state aggiornate le sezioni [Accedere all’elenco di soppressione](../configuration/manage-suppression-list.md#access-suppression-list) e [Nuovi tentativi](../configuration/retries.md) per riflettere la nuova interfaccia utente.
 * È stato documentato il nuovo flusso per aggiungere e configurare le rappresentazioni durante la creazione di un’offerta. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#representations)
 
