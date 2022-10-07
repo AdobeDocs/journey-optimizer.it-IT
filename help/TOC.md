@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: d8537d27fab4472c64bd46b056cf221825051bfe
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 94%
          + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Contenuto dinamico {#dynamic}
-      + [Introduzione al contenuto dinamico](using/personalization/get-started-dynamic-content.md)
+      + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)
       + [Creare contenuto dinamico](using/personalization/dynamic-content.md)
 + Segmenti, profili e identità{#segment}
@@ -250,13 +250,13 @@ ht-degree: 94%
       + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
 + Tracciare e monitorare {#reporting}
    + Report live {#live-report}
-      + [Guida introduttiva a Live Report](using/reports/live-report.md)
+      + [Introduzione ai rapporti live](using/reports/live-report.md)
       + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
       + [Rapporto live della campagna](using/reports/campaign-live-report.md)
       + [Pagina di destinazione Live report](using/reports/lp-report-live.md)
       + [Lista abbonamenti Live report](using/reports/subscription-report-live.md)
    + Rapporto globale {#global-report}
-      + [Guida introduttiva al report globale](using/reports/global-report.md)
+      + [Introduzione ai rapporti globali](using/reports/global-report.md)
       + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
       + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
       + [Pagina di destinazione Global report](using/reports/lp-report-global.md)
@@ -276,7 +276,7 @@ ht-degree: 94%
       + [Introduzione alla consegna](using/reports/deliverability.md)
       + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
    + [Avvisi](using/reports/alerts.md)
-   + [Utilizzare il Customer Journey Analytics](using/reports/cja-ajo.md)
+   + [Utilizzare Customer Journey Analytics](using/reports/cja-ajo.md)
 + Gestione delle decisioni {#offer-decisioning}
    + Introduzione alla gestione delle decisioni {#get-started-decision}
       + [Informazioni sulla gestione delle decisioni](using/offers/get-started/starting-offer-decisioning.md)
@@ -394,14 +394,14 @@ ht-degree: 94%
             + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
             + [Creare pool IP](using/configuration/ip-pools.md)
          + Monitorare gli indirizzi e-mail {#monitor-reputation}
-            + [Elenco di eliminazione](using/configuration/manage-suppression-list.md)
+            + [Elenco di soppressione](using/configuration/manage-suppression-list.md)
             + [Nuovi tentativi](using/configuration/retries.md)
             + [Elenco Consentiti](using/configuration/allow-list.md)
       + [Configurare il canale SMS](using/configuration/sms-configuration.md)
       + Impostare le superfici di canale {#set-up-channels}
          + [Creare superfici di canale](using/configuration/channel-surfaces.md)
          + [Configurare le impostazioni e-mail](using/configuration/email-settings.md)
-      + [Supporto per l&#39;archiviazione](using/configuration/archiving-support.md)
+      + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
       + [Gestire gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
       + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
    + Configurare le pagine di destinazione {#lp-configuration}
@@ -436,7 +436,7 @@ ht-degree: 94%
    + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
    + [Gestione delle sandbox](using/administration/sandboxes.md)
    + [Controllo dell’accesso basato su attributi](using/administration/attribute-based-access.md)
-   + [Controllo dell&#39;accesso a livello di oggetto](using/administration/object-based-access.md)
+   + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
 + Privacy {#privacy}
    + [Criteri di utilizzo dei dati](using/privacy/policies.md)
    + [Richieste di accesso a dati personali](using/privacy/requests.md)
