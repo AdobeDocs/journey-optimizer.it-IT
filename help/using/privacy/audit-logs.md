@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
 source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di aud
 
 | Risorsa | Azione |
 |-----------|------------------|
-| Campagna AJO | Crea/Elimina/Aggiorna/Attiva/Disattiva |
+| Campagna AJO | Crea / Elimina / Aggiorna / Attiva / Interrompi |
 | Impostazione generale del canale AJO | Crea/Elimina/Aggiorna |
 | Pool IP AJO | Crea/Elimina/Aggiorna |
 | Pagina di destinazione AJO | Crea/Elimina/Aggiorna/Pubblica/Annulla pubblicazione |
@@ -47,7 +47,7 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di aud
 | Modello di espressione salvata AJO | Crea/Elimina/Aggiorna |
 | Credenziali API SMS AJO | Crea/Elimina/Aggiorna |
 | Sottodominio AJO | Crea/Elimina/Aggiorna |
-| Elenco di eliminazione AJO | Crea/Elimina/Scarica CSV |
+| Elenco di soppressione AJO | Crea/Elimina/Scarica CSV |
 | Gruppo di campi | Crea/Elimina/Aggiorna |
 | Percorso | Crea/Elimina/Aggiorna/Arresta/Pubblica |
 | Azione personalizzata percorso | Crea/Elimina/Aggiorna |
