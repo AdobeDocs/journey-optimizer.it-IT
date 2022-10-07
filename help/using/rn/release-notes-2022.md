@@ -3,9 +3,9 @@ title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: cdaa6def25adcb63318c272efbfc6d7c4212a9dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2519'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare sistemi di modelli di ottimizzazione personalizzati nella gestione delle decisioni. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
+<p>Nella gestione delle decisioni, ora puoi utilizzare sistemi di modelli di ottimizzazione personalizzati. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
 <p>L’utilizzo di modelli di ottimizzazione personalizzati basati su IA è attualmente limitato ad alcuni utenti e verrà esteso a tutti gli ambienti con una versione futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/ranking/personalized-optimization-model.md">documentazione dettagliata</a>.</p>
@@ -384,7 +384,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 * **Pagine di destinazione senza modulo**: ora è possibile creare e pubblicare una pagina di destinazione che non contiene un modulo e che non richiede alcuna azione da parte dei visitatori.
 * **Modelli di pagina di destinazione**: ora è possibile salvare una pagina di destinazione come modello e riutilizzarla durante la creazione di altre pagine di destinazione. [Ulteriori informazioni](../landing-pages/lp-templates.md)
 * **Torna alla pagina principale**: ora è possibile aggiungere un collegamento alla pagina principale da qualsiasi pagina secondaria all’interno della stessa pagina di destinazione.
-* **Supporto JavaScript personalizzato**: ora è possibile aggiungere JavaScript personalizzato al contenuto della pagina di destinazione per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.    [Ulteriori informazioni](../landing-pages/lp-custom-js.md)
+* **Supporto di JavaScript personalizzato**: ora è possibile aggiungere codice JavaScript personalizzato al contenuto della pagina di destinazione per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione.    [Ulteriori informazioni](../landing-pages/lp-custom-js.md)
 
 **Percorsi**
 
@@ -450,7 +450,7 @@ In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notific
 
 **Amministrazione**
 
-* Ora puoi abilitare/disabilitare il collegamento di annullamento dell’iscrizione nella/dalla intestazione delle e-mail a livello di predefinito del messaggio e impostare un URL di annullamento dell’iscrizione personalizzato a livello di messaggio. [Ulteriori informazioni](../configuration/channel-surfaces.md#list-unsubscribe)
+* Ora puoi abilitare o disabilitare il collegamento di annullamento dell’iscrizione nell’intestazione delle e-mail a livello di predefinito del messaggio e impostare un URL di annullamento dell’iscrizione personalizzato a livello di messaggio. [Ulteriori informazioni](../configuration/channel-surfaces.md#list-unsubscribe)
 * L’elenco Consentiti ora può essere abilitato e disabilitato tramite l’interfaccia [!DNL Journey Optimizer] sulle sandbox di produzione e di non produzione. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 
 **Personalizzazione**
@@ -604,4 +604,4 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Personalizzazione**
 
-* **Aggiungi ai preferiti** - Per migliorare l’efficienza quando si lavora con la personalizzazione, abbiamo introdotto il concetto di risparmio dei preferiti. L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati con maggiore frequenza. [Ulteriori informazioni](../personalization/personalize.md#fav)
+* **Aggiungi ai preferiti**: per rendere più efficienti le attività di personalizzazione, è stato introdotto il concetto di salvataggio dei preferiti. L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati con maggiore frequenza. [Ulteriori informazioni](../personalization/personalize.md#fav)
