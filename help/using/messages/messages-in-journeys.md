@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
+source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -44,15 +44,14 @@ Per aggiungere messaggi in un percorso, aggiungi un’attività push, SMS o e-ma
 
 1. Seleziona la **[!UICONTROL Categoria]** del messaggio: scegli **Marketing** per i messaggi commerciali, o **Transazionale** per i messaggi non commerciali quali conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna.
 
-   >[!CAUTION]
-   >
-   >Se hai definito delle [regole di frequenza](../configuration/frequency-rules.md) per un canale e una categoria specifici, queste vengono applicate automaticamente al messaggio selezionando tale canale e categoria. Attualmente, per le regole di frequenza è disponibile solo la categoria **[!UICONTROL Marketing]**.
-
    ![](assets/inline-message-category.png)
 
    >[!CAUTION]
    >
-   >I messaggi di tipo Marketing devono includere un [collegamento di rinuncia](../messages/consent.md#opt-out-management). Questo non è necessario per i messaggi transazionali, in quanto possono essere inviati a profili che hanno annullato l’iscrizione a comunicazioni di marketing.
+   >* Se hai definito delle [regole di frequenza](../configuration/frequency-rules.md) per un canale e una categoria specifici, queste vengono applicate automaticamente al messaggio selezionando tale canale e categoria. Attualmente, per le regole di frequenza è disponibile solo la categoria **[!UICONTROL Marketing]**.
+   >
+   >* I messaggi di marketing devono includere [collegamento di rinuncia](../messages/consent.md#opt-out-management). Questo non è necessario per i messaggi transazionali, in quanto possono essere inviati a profili che hanno annullato l’iscrizione a comunicazioni di marketing.
+
 
 1. Seleziona la **[!UICONTROL Superficie]** di canale (ossia il predefinito per messaggi) da utilizzare per inviare il messaggio.
 
