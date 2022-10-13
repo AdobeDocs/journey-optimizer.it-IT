@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '853'
 ht-degree: 9%
 
 ---
@@ -108,7 +108,7 @@ Se non desideri eseguire la campagna subito dopo l’attivazione, puoi specifica
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modalità di consegna rapida"
->abstract="La modalità di consegna rapida è un componente aggiuntivo di Journey Optimizer che consente di eseguire una spesa ad alta velocità di messaggi non personalizzati per il pubblico sotto i profili 30M."
+>abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a una dimensione di pubblico inferiore a 30M."
 
 La modalità di consegna rapida, precedentemente nota come modalità Burst nei percorsi, è una [!DNL Journey Optimizer] add-on che consente l&#39;invio rapido di messaggi push in grandi volumi attraverso le campagne.
 
