@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 92%
@@ -50,7 +50,7 @@ Per aggiungere messaggi in un percorso, aggiungi un’attività push, SMS o e-ma
    >
    >* Se hai definito delle [regole di frequenza](../configuration/frequency-rules.md) per un canale e una categoria specifici, queste vengono applicate automaticamente al messaggio selezionando tale canale e categoria. Attualmente, per le regole di frequenza è disponibile solo la categoria **[!UICONTROL Marketing]**.
    >
-   >* I messaggi di marketing devono includere [collegamento di rinuncia](../messages/consent.md#opt-out-management). Questo non è necessario per i messaggi transazionali, in quanto possono essere inviati a profili che hanno annullato l’iscrizione a comunicazioni di marketing.
+   >* I messaggi di marketing devono includere [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management). Questo non è necessario per i messaggi transazionali, in quanto possono essere inviati a profili che hanno annullato l’iscrizione a comunicazioni di marketing.
 
 
 1. Seleziona la **[!UICONTROL Superficie]** di canale (ossia il predefinito per messaggi) da utilizzare per inviare il messaggio.

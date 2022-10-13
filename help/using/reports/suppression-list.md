@@ -1,19 +1,19 @@
 ---
-title: Elenco di eliminazione
+title: Elenco di soppressione
 description: Scopri cosa è l’elenco di soppressione, il suo scopo e ciò che è incluso in esso.
 feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 2%
+source-wordcount: '771'
+ht-degree: 3%
 
 ---
 
-# Elenco di eliminazione {#suppression-list}
+# Elenco di soppressione {#suppression-list}
 
 Un elenco di soppressione è costituito da indirizzi e-mail che si desidera escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio e i tassi di consegna.
 
@@ -47,13 +47,13 @@ Per saperne di più su rimbalzi rigidi e rimbalzi morbidi in [questa sezione](#d
 
 >[!NOTE]
 >
->Gli indirizzi degli utenti non abbonati non possono essere inviati all’elenco di soppressione in quanto non ricevono e-mail da [!DNL Journey Optimizer]. La loro scelta viene gestita a livello di Experience Platform. Ulteriori informazioni su [rinuncia](../messages/consent.md).
+>Gli indirizzi degli utenti non abbonati non possono essere inviati all’elenco di soppressione in quanto non ricevono e-mail da [!DNL Journey Optimizer]. La loro scelta viene gestita a livello di Experience Platform. Ulteriori informazioni su [rinuncia](../privacy/opt-out.md).
 
 Per ogni indirizzo, il motivo di base della soppressione e la categoria di soppressione (morbido, duro, ecc.) sono visualizzate nell&#39;elenco di soppressione. Ulteriori informazioni sull&#39;accesso e la gestione dell&#39;elenco di soppressione in [questa sezione](../configuration/manage-suppression-list.md).
 
 >[!NOTE]
 >
->I profili con **[!UICONTROL Suppressed]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Sent]** le metriche vengono filtrate prima dell’invio dell’e-mail.
+>I profili con **[!UICONTROL Soppresso]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Inviato]** le metriche vengono filtrate prima dell’invio dell’e-mail.
 >
 >Per saperne di più sul [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
@@ -70,7 +70,7 @@ A **rimbalzo morbido** <!--or an **ignored** error--> che si verifica troppe vol
 
 Se continui a inviare a questi indirizzi, potrebbe influenzare i tassi di consegna, perché comunica agli ISP che potresti non seguire le best practice di manutenzione dell’elenco indirizzi e-mail e quindi potrebbe non essere un mittente affidabile.
 
-### Disturbi dello spam {#spam-complaints}
+### Segnalazioni di spam {#spam-complaints}
 
 L’elenco di soppressione raccoglie gli indirizzi e-mail che contrassegnano il messaggio come spam. Ad esempio, se qualcuno scrive a un servizio clienti richiedendo di non ricevere mai più e-mail da te, l’indirizzo e-mail di tale persona verrà soppresso nell’istanza e non potrai più recapitare a tale indirizzo.
 

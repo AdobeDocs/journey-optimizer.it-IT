@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '628'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ Utilizzo [!DNL Journey Optimizer] aggiungere collegamenti al contenuto e tenere 
 
 ## Abilita tracciamento {#enable-tracking}
 
-Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Email opens]** e/o **[!UICONTROL Click on email]** opzioni quando [creazione del messaggio](../messages/get-started-content.md).
+Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Aperture e-mail]** e/o **[!UICONTROL Fai clic su e-mail]** opzioni quando [creazione del messaggio](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[
 
 In questo modo puoi tenere traccia del comportamento dei destinatari attraverso:
 
-* **[!UICONTROL Email opens]**: Messaggi aperti.
-* **[!UICONTROL Click on email]**: Fai clic sui collegamenti in un’e-mail.
+* **[!UICONTROL Aperture e-mail]**: Messaggi aperti.
+* **[!UICONTROL Fai clic su e-mail]**: Fai clic sui collegamenti in un’e-mail.
 
 ## Inserire collegamenti {#insert-links}
 
@@ -42,23 +42,23 @@ Durante la progettazione di un messaggio, puoi aggiungere collegamenti al conten
 
 Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguente:
 
-1. Seleziona un elemento e fai clic su **[!UICONTROL Insert link]** dalla barra degli strumenti contestuale.
+1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
 
    ![](assets/message-tracking-insert-link.png)
 
 1. Scegli il tipo di collegamento che desideri creare:
 
-   * **[!UICONTROL External link]**: Inserisci un collegamento a un URL esterno.
+   * **[!UICONTROL Collegamento esterno]**: Inserisci un collegamento a un URL esterno.
 
-   * **[!UICONTROL Landing page]**: Inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Pagina di destinazione]**: Inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL One click Opt-out]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. Ulteriori informazioni in [questa sezione](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL Rinuncia con un clic]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. Ulteriori informazioni in [questa sezione](../privacy/opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL External Opt-in/Subscription]**: Inserisci un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
+   * **[!UICONTROL Opt-in/abbonamento esterno]**: Inserisci un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL Rinuncia/annullamento esterno dell’abbonamento]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](../privacy/opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
+   * **[!UICONTROL Pagina speculare]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +66,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Salva le modifiche.
 
-1. Una volta creato il collegamento, puoi comunque modificarlo dal **[!UICONTROL Component settings]** a destra.
+1. Una volta creato il collegamento, puoi comunque modificarlo dal **[!UICONTROL Impostazioni dei componenti]** a destra.
 
    * Puoi modificare il collegamento e modificarne il tipo.
    * Puoi scegliere di sottolineare il collegamento o meno selezionando l’opzione corrispondente.
@@ -75,13 +75,13 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../messages/consent.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transactional]**) è definita per la [superficie di canale](../configuration/channel-surfaces.md#email-type) (ossia per il predefinito del messaggio) e durante la [creazione del messaggio](../messages/get-started-content.md#create-new-message).
+>I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita per la [superficie di canale](../configuration/channel-surfaces.md#email-type) (ossia per il predefinito del messaggio) e durante la [creazione del messaggio](../messages/get-started-content.md#create-new-message).
 
 ## Collegamento a una pagina speculare {#mirror-page}
 
 La pagina speculare è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
 
-Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Mirror page]** come tipo di collegamento.
+Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Pagina speculare]** come tipo di collegamento.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -103,7 +103,7 @@ Il periodo di conservazione per una pagina speculare è di 60 giorni. Dopo tale 
 
 La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracciati, ad esempio modificando il tipo di tracciamento per ogni collegamento.
 
-1. Fai clic sul pulsante **[!UICONTROL Links]** per visualizzare l’elenco di tutti gli URL del contenuto che verranno tracciati.
+1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** per visualizzare l’elenco di tutti gli URL del contenuto che verranno tracciati.
 
    Questo elenco consente di avere una visualizzazione centralizzata e di individuare ogni URL nel contenuto dell’e-mail.
 
@@ -111,15 +111,15 @@ La [E-mail Designer](create-email-content.md) consente di gestire gli URL tracci
 
    ![](assets/message-tracking-edit-links.png)
 
-1. Puoi modificare la **[!UICONTROL Tracking Type]** se necessario:
+1. Puoi modificare la **[!UICONTROL Tipo di tracciamento]** se necessario:
 
    ![](assets/message-tracking-edit-a-link.png)
 
    Per ogni URL tracciato, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
-   * **[!UICONTROL Tracked]**: Attiva il tracciamento su questo URL.
-   * **[!UICONTROL Opt out]**: Considera questo URL come un URL di rinuncia o di annullamento dell’abbonamento.
-   * **[!UICONTROL Mirror page]**: Considera questo URL come un URL della pagina speculare.
-   * **[!UICONTROL Never]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Tracciato]**: Attiva il tracciamento su questo URL.
+   * **[!UICONTROL Rinuncia]**: Considera questo URL come un URL di rinuncia o di annullamento dell’abbonamento.
+   * **[!UICONTROL Pagina speculare]**: Considera questo URL come un URL della pagina speculare.
+   * **[!UICONTROL Mai]**: Non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Il reporting su aperture e clic è disponibile nella [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).

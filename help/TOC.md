@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 97%
+source-wordcount: '1188'
+ht-degree: 96%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 97%
    + [Creare un messaggio SMS](using/messages/create-sms.md)
    + [Creare una direct mail](using/messages/create-direct-mail.md)
    + [Controllare gli avvisi](using/messages/alerts.md)
-   + [Gestire il consenso](using/messages/consent.md)
    + [Ottimizzazione dell’ora di invio](using/messages/send-time-optimization.md)
 + Progettazione di contenuti {#design}
    + [Introduzione alla progettazione delle e-mail](using/design/design-emails.md)
@@ -442,5 +441,7 @@ ht-degree: 97%
    + [Criteri di utilizzo dei dati](using/privacy/policies.md)
    + [Richieste di accesso a dati personali](using/privacy/requests.md)
    + [Azioni di audit sulle risorse](using/privacy/audit-logs.md)
-   + [Consenso](using/action/consent.md)
+   + Gestire il consenso {#consent}
+      + [Gestire l’opt-out](using/privacy/opt-out.md)
+      + [Utilizzare i criteri di consenso](using/action/consent.md)
    + [Governance dei dati](using/action/action-privacy.md)

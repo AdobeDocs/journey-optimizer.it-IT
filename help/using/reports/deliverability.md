@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Per informazioni più approfondite su cosa sia il recapito messaggi e per ulteri
 
 ## Riduzione del tasso di reclamo {#reduce-complaint-rate}
 
-Gli ISP di solito hanno un modo prominente di segnalare un messaggio ricevuto come spam. Questo permette di identificare fonti inaffidabili. Rispettando rapidamente le richieste di rinuncia e mostrando quindi che sei un mittente affidabile, puoi ridurre i tassi di reclamo. [Ulteriori informazioni sulla gestione delle rinunce](../messages/consent.md#opt-out-management).
+Gli ISP di solito hanno un modo prominente di segnalare un messaggio ricevuto come spam. Questo permette di identificare fonti inaffidabili. Rispettando rapidamente le richieste di rinuncia e mostrando quindi che sei un mittente affidabile, puoi ridurre i tassi di reclamo. [Ulteriori informazioni sulla gestione delle rinunce](../privacy/opt-out.md#opt-out-management).
 
 Come regola generale, non cercare di ostacolare i destinatari che desiderano rinunciare richiedendo loro di compilare campi come ad esempio il loro indirizzo e-mail o nome. La pagina di destinazione per l’annullamento dell’abbonamento deve avere un solo pulsante di convalida.
 
@@ -51,7 +51,7 @@ Per proteggere il recapito messaggi, i destinatari i cui indirizzi si trovano ne
 
 Utilizzare le funzioni offerte da [!DNL Journey Optimizer] per monitorare il recapito messaggi.
 
-La **[!UICONTROL Executions]** la scheda dell’elenco dei messaggi ti consente di controllare le prestazioni delle consegne attraverso un set di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
+La **[!UICONTROL Esecuzioni]** la scheda dell’elenco dei messaggi ti consente di controllare le prestazioni delle consegne attraverso un set di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
 * Numero di messaggi eseguiti, inviati e consegnati correttamente.
 * Il numero di messaggi aperti e il numero di messaggi o collegamenti su cui è stato fatto clic.
 

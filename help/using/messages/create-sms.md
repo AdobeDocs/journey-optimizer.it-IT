@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 8%
+source-wordcount: '401'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 8%
 >abstract="Aggiungi il messaggio di testo e inizia a personalizzarlo con l’editor espressioni."
 
 Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
+
+>[!NOTE]
+>
+>In conformità agli standard e alle normative del settore, tutti i messaggi di marketing SMS devono contenere un modo per consentire ai destinatari di annullare facilmente l’iscrizione. A tal fine, i destinatari SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 È possibile creare le consegne SMS:
 
@@ -61,17 +65,6 @@ Per visualizzare la modalità di visualizzazione del messaggio SMS sui dispositi
 È inoltre necessario controllare gli avvisi nella sezione superiore dell’editor.  Alcuni sono semplici avvisi, altri possono impedire l’utilizzo del messaggio. Ulteriori informazioni in [questa sezione](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Consenso e rinuncia{#sms-opt-in-out}
-
-Per tutti i messaggi di marketing, l’SMS deve contenere un modo per consentire ai destinatari di annullare facilmente l’iscrizione. Una volta annullato l’abbonamento, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri. L’aggiunta di un collegamento di annullamento all’abbonamento non è obbligatoria per i messaggi transazionali.
-
-I destinatari degli SMS possono rispondere con parole chiave di consenso e rinuncia. In conformità agli standard e alle normative del settore, Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: INIZIA, ARRESTA e DISARSI. Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
-
-Per ulteriori informazioni sul funzionamento del supporto nativo per parole chiave in entrata (start, stop e unstop) per SMS, consulta il seguente video.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video
