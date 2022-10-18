@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 96%
 
 ---
@@ -438,7 +438,6 @@ ht-degree: 96%
    + [Controllo dell’accesso basato su attributi](using/administration/attribute-based-access.md)
    + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
 + Privacy {#privacy}
-   + [Criteri di utilizzo dei dati](using/privacy/policies.md)
    + [Richieste di accesso a dati personali](using/privacy/requests.md)
    + [Azioni di audit sulle risorse](using/privacy/audit-logs.md)
    + Gestire il consenso {#consent}

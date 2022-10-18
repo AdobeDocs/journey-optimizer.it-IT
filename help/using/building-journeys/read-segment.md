@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1292'
 ht-degree: 5%
 
 ---
@@ -84,7 +84,9 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Lettura incrementale** opzione: quando un percorso con un **Leggi segmento** viene eseguito per la prima volta, tutti i profili nel segmento immettono il percorso. All’occorrenza successiva, tutti i profili accedono nuovamente al percorso, anche se erano già all’interno. La vecchia istanza del profilo nel percorso viene arrestata e viene creata una nuova istanza. La **Lettura incrementale** consente di eseguire il targeting, dopo la prima occorrenza, dei singoli utenti che sono entrati nel segmento dall’ultima esecuzione del percorso.
+   **Lettura incrementale** opzione: quando un percorso con un **Leggi segmento** viene eseguito per la prima volta, tutti i profili nel segmento immettono il percorso. Questa opzione ti consente di eseguire il targeting, dopo la prima occorrenza, solo dei singoli utenti che sono entrati nel segmento dall’ultima esecuzione del percorso.
+
+   **Forza il rientro sulla ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Ad esempio, se in un percorso ricorrente giornaliero attendi 2 giorni, attivando questa opzione i profili verranno sempre spostati nell’esecuzione del percorso successivo (quindi il giorno successivo), indipendentemente dal fatto che si trovino nel pubblico di esecuzione successivo o meno. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza, non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
 
 <!--
 
@@ -108,8 +110,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >I percorsi di segmenti di sola lettura passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i segmenti con Leggi segmento pianificati, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
->
->È necessario prestare attenzione quando si utilizzano attività di attesa in percorsi di segmenti di lettura ricorrenti, in quanto la durata di tali percorsi termina con l’esecuzione successiva. Ciò significa che se un percorso viene eseguito quotidianamente, l&#39;istanza di percorso iniziata oggi durerà fino all&#39;esecuzione di domani. Ad esempio, se hai aggiunto un’attesa di 2 giorni in quel percorso, i profili verranno sempre spostati nell’esecuzione del percorso successivo (quindi il giorno successivo), che si trovino nel pubblico di esecuzione successivo o meno. I profili non potranno mai rimanere in quel percorso per 2 giorni.
 
 ### Test e pubblicazione del percorso {#testing-publishing}
 

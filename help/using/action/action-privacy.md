@@ -6,10 +6,10 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: f2f55f42739509c50223d01e25fb1f16bf19a0de
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: '922'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->L’utilizzo di DULE (Data Usage Labeling and Enforcement, etichettatura e applicazione dell’uso dei dati) è attualmente limitato a clienti selezionati e verrà implementato in tutti gli ambienti in una versione futura.
+>L’utilizzo dell’etichettatura e l’applicazione dell’utilizzo dati (DULE) è attualmente limitato a clienti selezionati e verrà implementato in tutti gli ambienti in una versione futura.
 
-Con il framework di governance DULE (Data Usage Labeling and Enforcement, etichettatura e applicazione dell’uso dei dati), Journey Optimizer ora può sfruttare i criteri di governance di Adobe Experience Platform per impedire che campi sensibili vengano esportati in sistemi di terze parti tramite azioni personalizzate. Se il sistema identifica un campo con restrizioni nei parametri delle azioni personalizzate, viene visualizzato un errore che impedisce la pubblicazione del percorso.
+Con il framework di governance per l’etichettatura e l’applicazione dell’utilizzo dati (DULE), Journey Optimizer ora può sfruttare i criteri di governance di Adobe Experience Platform per impedire che campi sensibili vengano esportati in sistemi di terze parti tramite azioni personalizzate. Se il sistema identifica un campo con restrizioni nei parametri delle azioni personalizzate, viene visualizzato un errore che impedisce la pubblicazione del percorso.
 
 Adobe Experience Platform ti consente di etichettare i campi e creare azioni di marketing per ogni canale. Puoi quindi definire un criterio di governance collegato a un’etichetta e a un’azione di marketing.
 
 In Journey Optimizer, puoi applicare questi criteri alle azioni personalizzate per impedire l’esportazione di campi specifici in sistemi di terze parti.
+
+Per ulteriori informazioni sul framework per la governance dei dati e su come utilizzare etichette e criteri, consulta la documentazione di Adobe Experience Platform:
+
+* [Panoramica del servizio di governance dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it)
+* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it)
+* [Criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it)
 
 ## Note importanti {#important-notes}
 
