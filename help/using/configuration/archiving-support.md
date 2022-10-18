@@ -1,19 +1,21 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Supporto per l'archiviazione in Journey Optimizer
-description: Scopri come configurare le e-mail CCN a livello di superficie del canale
+description: Scopri come archiviare i messaggi
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 38b8b0634ac0b1e59d848a5a661e3905abaec358
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1305'
+ht-degree: 3%
 
 ---
 
-# Supporto per l&#39;archiviazione {#archiving-support}
+# Supporto per l’archiviazione {#archiving-support}
 
 ## Come archiviare i messaggi {#about-archiving}
 

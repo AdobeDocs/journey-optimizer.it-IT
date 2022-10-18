@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Utilizza espressioni salvate
 description: Scopri come utilizzare le espressioni salvate dal [!DNL Journey Optimizer] libreria.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '354'
 ht-degree: 8%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 8%
 
 ➡️ [Scopri come utilizzare le espressioni salvate in questo video](#video-preview)
 
-Per accedere alle espressioni salvate, fai clic sul pulsante **[!UICONTROL Library]** nel riquadro a sinistra. Nell’elenco sono visualizzate tutte le espressioni salvate dagli utenti Admin (vedi [Salvare le espressioni nella libreria](#save-expressions)).
+Per accedere alle espressioni salvate, fai clic sul pulsante **[!UICONTROL Libreria]** nel riquadro a sinistra. Nell’elenco sono visualizzate tutte le espressioni salvate dagli utenti Admin (vedi [Salvare le espressioni nella libreria](#save-expressions)).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Fai clic sul segno + per inserire l’espressione nell’editor. Puoi quindi per
 
 Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 
-1. Nell’interfaccia dell’editor, genera l’espressione e fai clic su **[!UICONTROL Add to library]**.
+1. Nell’interfaccia dell’editor, genera l’espressione e fai clic su **[!UICONTROL Aggiungi alla libreria]**.
 
    >[!NOTE]
    >
@@ -50,7 +52,7 @@ Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 
    ![](assets/library-save.png)
 
-1. Nel riquadro a destra, immetti un titolo e una descrizione per l’espressione per facilitarne la ricerca da parte degli utenti, quindi fai clic su **[!UICONTROL Add]**.
+1. Nel riquadro a destra, immetti un titolo e una descrizione per l’espressione per facilitarne la ricerca da parte degli utenti, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
    ![](assets/add-expression.png)
 
@@ -65,9 +67,9 @@ Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 
 
 
-Per modificare un’espressione esistente, aggiungilo all’editor, quindi modificala in base alle tue esigenze. Fai clic su **[!UICONTROL Add to library]** per convalidare la sintassi e salvare l’espressione.
+Per modificare un’espressione esistente, aggiungilo all’editor, quindi modificala in base alle tue esigenze. Fai clic su **[!UICONTROL Aggiungi alla libreria]** per convalidare la sintassi e salvare l’espressione.
 
-Per eliminare un’espressione, fai clic sul pulsante ellisse , quindi fai clic su **[!UICONTROL Delete]**.
+Per eliminare un’espressione, fai clic sul pulsante ellisse , quindi fai clic su **[!UICONTROL Elimina]**.
 
 ## Video introduttivo{#video}
 

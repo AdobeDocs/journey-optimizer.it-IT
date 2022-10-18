@@ -1,11 +1,12 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Passaggio dinamico delle raccolte tramite azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '430'
 ht-degree: 5%
 
 ---
@@ -100,7 +101,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 1. Crea l&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-1. In **[!UICONTROL Action parameters]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
+1. In **[!UICONTROL Parametri azione]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
    ![](assets/uc-collection-1.png)
 
@@ -122,7 +123,7 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Consulta [questa pagina](../building-journeys/using-custom-actions.md).
 
-1. In **[!UICONTROL Action parameters]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
+1. In **[!UICONTROL Parametri azione]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
 
    ![](assets/uc-collection-3.png)
 

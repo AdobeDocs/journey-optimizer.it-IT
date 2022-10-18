@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Informazioni sulle azioni
 description: Informazioni su come configurare un’azione
 feature: Actions
@@ -7,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 56%
+source-wordcount: '256'
+ht-degree: 55%
 
 ---
 
@@ -37,9 +38,9 @@ Le azioni personalizzate ti consentono di configurare la connessione di un siste
 >
 >La configurazione delle azioni personalizzate deve essere eseguita da un **utente tecnico**.
 
-Le azioni sono disponibili nella palette a sinistra del percorso, nella **[!UICONTROL Action]** categoria. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
+Le azioni sono disponibili nella palette a sinistra del percorso, nella **[!UICONTROL Azione]** categoria. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Per visualizzare l’elenco delle azioni o configurarne una nuova, seleziona **[!UICONTROL Configurations]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
+Per visualizzare l’elenco delle azioni o configurarne una nuova, seleziona **[!UICONTROL Configurazioni]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Azioni]** sezione, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
 ![](assets/custom1.png)
 

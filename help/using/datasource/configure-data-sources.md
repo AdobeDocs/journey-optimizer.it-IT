@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configurare un’origine dati
 description: Informazioni su come configurare un’origine dati
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '565'
 ht-degree: 10%
 
 ---
@@ -21,7 +23,7 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
 
-1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**. In  **[!UICONTROL Data Sources]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle origini dati. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
+1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurazioni]**. In  **[!UICONTROL Origini dati]** sezione, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle origini dati. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
    ![](assets/journey18.png)
 
@@ -29,7 +31,7 @@ Di seguito sono riportati i passaggi principali per la configurazione dell’ori
 
    ![](assets/journey23.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    Adesso l’origine dati è configurata ed è pronta per essere utilizzata nei percorsi.
 
@@ -45,7 +47,7 @@ Anche se viene aggiunto automaticamente un nome predefinito, ti consigliamo di a
 
 Quando un campo origine dati viene utilizzato in un percorso, il sistema recupererà tutti i campi definiti per quel gruppo di campi. Pertanto, è consigliabile selezionare solo i campi necessari per i percorsi. Questo ridurrà la latenza della richiesta nei percorsi aumentando così le prestazioni. È possibile aggiungere facilmente più campi nei gruppi di campi in un secondo momento.
 
-Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nella **[!UICONTROL Used in]** campo . Puoi fare clic su **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
+Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nella **[!UICONTROL Utilizzato in]** campo . Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
 
 >[!NOTE]
 >
@@ -61,9 +63,9 @@ Puoi aggiungere ma non rimuovere un campo da un gruppo di campi utilizzato in un
 
 Per eliminare un campo da un gruppo di campi utilizzato in uno o più percorsi, procedere come segue. Utilizziamo un esempio di gruppo di campi denominato &quot;Gruppo di campi A&quot;.
 
-1. Nell’elenco dei gruppi di campi, posiziona il cursore su &quot;Gruppo di campi A&quot; e fai clic sul pulsante **[!UICONTROL Duplicate]** a destra. Ad esempio, denominare il gruppo di campi duplicato &quot;Gruppo di campi B&quot;.
+1. Nell’elenco dei gruppi di campi, posiziona il cursore su &quot;Gruppo di campi A&quot; e fai clic sul pulsante **[!UICONTROL Duplica]** a destra. Ad esempio, denominare il gruppo di campi duplicato &quot;Gruppo di campi B&quot;.
 1. In &quot;Gruppo di campi B&quot;, rimuovere i campi che non si desidera più.
-1. In &quot;Gruppo di campi A&quot;, controlla dove viene utilizzato questo gruppo di campi. Queste informazioni vengono visualizzate nel **[!UICONTROL Used in]** campo .
+1. In &quot;Gruppo di campi A&quot;, controlla dove viene utilizzato questo gruppo di campi. Queste informazioni vengono visualizzate nel **[!UICONTROL Utilizzato in]** campo .
 1. Aprire tutti i percorsi che utilizzano &quot;Gruppo di campi A&quot;.
 1. Crea nuove versioni di ciascuno di questi percorsi. Modifica tutte le attività utilizzando &quot;Gruppo di campi A&quot; e seleziona &quot;Gruppo di campi B&quot;.
 1. Arrestare le vecchie versioni di percorsi che utilizzano &quot;Gruppo di campi A&quot;. Non dovrebbe quindi essere presente alcun percorso che utilizzi &quot;Gruppo di campi A&quot;.

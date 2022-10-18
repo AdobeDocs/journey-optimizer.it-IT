@@ -1,15 +1,16 @@
 ---
-title: Informazioni sulle attività del percorso
+solution: Journey Optimizer
+product: journey optimizer
 description: Informazioni sulle attività del percorso
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 29%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
@@ -43,7 +44,7 @@ Nella palette a sinistra dello schermo sono disponibili le seguenti attività di
 
 ## Attività di azione {#action-activities}
 
-Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, troverai la **[!UICONTROL Actions]** categoria. Sono disponibili le seguenti attività di azione:
+Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, troverai la **[!UICONTROL Azioni]** categoria. Sono disponibili le seguenti attività di azione:
 
 * [Messaggi e-mail, SMS e push](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
@@ -57,10 +58,10 @@ Se hai configurato azioni personalizzate, queste verranno visualizzate qui (vedi
 
 ## Best practice {#best-practices}
 
-La maggior parte delle attività ti consente di definire un **[!UICONTROL Label]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Description]**.
+La maggior parte delle attività ti consente di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Descrizione]**.
 
 ![](assets/journey59bis.png)
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

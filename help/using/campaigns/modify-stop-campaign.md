@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Modificare o interrompere una campagna
 description: Scopri come modificare, interrompere o duplicare le campagne live in [!DNL Journey Optimizer]
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 2%
+source-wordcount: '236'
+ht-degree: 3%
 
 ---
 
@@ -23,13 +25,13 @@ Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzio
 
 Per modificare e creare una nuova versione di una campagna ricorrente, effettua le seguenti operazioni:
 
-1. Apri la campagna e fai clic su **[!UICONTROL Modify campaign]** pulsante .
+1. Apri la campagna e fai clic su **[!UICONTROL Modifica campagna]** pulsante .
 
 1. Viene creata una nuova versione della campagna. Per controllare la versione attiva, fai clic su **[!UICONTROL Open live version]**.
 
    ![](assets/create-campaign-draft.png)
 
-   Nell’elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un’icona specifica nel **[!UICONTROL Status]** colonna. Fai clic su questa icona per aprire la versione bozza della campagna.
+   Nell’elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un’icona specifica nel **[!UICONTROL Stato]** colonna. Fai clic su questa icona per aprire la versione bozza della campagna.
 
    ![](assets/create-campaign-edit-list.png)
 
@@ -41,7 +43,7 @@ Per modificare e creare una nuova versione di una campagna ricorrente, effettua 
 
 ## Interrompere una campagna ricorrente {#stop}
 
-Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UICONTROL Stop campaign]** pulsante .
+Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UICONTROL Interrompi campagna]** pulsante .
 
 ![](assets/create-campaign-stop.png)
 
@@ -53,6 +55,6 @@ Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UIC
 
 ## Duplicare una campagna {#duplicate}
 
-Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplicate]**.
+Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplica]**.
 
 ![](assets/create-campaign-duplicate.png)

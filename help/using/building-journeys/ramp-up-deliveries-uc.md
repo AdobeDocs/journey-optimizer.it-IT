@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Incremento delle consegne
 description: Scopri come incrementare le consegne
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '267'
 ht-degree: 3%
 
 ---
@@ -23,19 +25,19 @@ Lo scopo di questo caso d’uso è quello di creare un percorso per incrementare
 
 1. Creare un percorso. [Ulteriori informazioni](journey-gs.md).
 
-1. Aggiungi un **[!UICONTROL Condition]** attività al percorso. [Ulteriori informazioni](condition-activity.md).
+1. Aggiungi un **[!UICONTROL Condizione]** attività al percorso. [Ulteriori informazioni](condition-activity.md).
 
-1. In **[!UICONTROL Condition]** impostazioni dell’attività, imposta il numero massimo di destinatari per la consegna:
+1. In **[!UICONTROL Condizione]** impostazioni dell’attività, imposta il numero massimo di destinatari per la consegna:
 
-   1. In **[!UICONTROL Condition]** impostazioni attività, imposta **[!UICONTROL Type]** campo a **[!UICONTROL Profile cap]**. [Ulteriori informazioni](condition-activity.md#profile_cap).
+   1. In **[!UICONTROL Condizione]** impostazioni attività, imposta **[!UICONTROL Tipo]** campo a **[!UICONTROL Limite del profilo]**. [Ulteriori informazioni](condition-activity.md#profile_cap).
 
-   1. Imposta la **[!UICONTROL Limit]** al numero massimo di destinatari per la consegna.
+   1. Imposta la **[!UICONTROL Limite]** al numero massimo di destinatari per la consegna.
 
    ![](assets/profile-cap-condition.png)
 
    Puoi aumentare gradualmente questo limite fino al numero totale di abbonati.
 
-1. Aggiungi un **[!UICONTROL Email]** attività di azione sul percorso nominale dopo il **[!UICONTROL Condition]** attività.
+1. Aggiungi un **[!UICONTROL E-mail]** attività di azione sul percorso nominale dopo il **[!UICONTROL Condizione]** attività.
 
    ![](assets/ramp-up-deliveries-message.png)
 

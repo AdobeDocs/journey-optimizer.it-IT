@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Controllo dell’accesso basato su attributi
 description: Informazioni sul controllo degli accessi basato su attributi
 feature: Access Management
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->L’utilizzo del controllo degli accessi basato su attributi è attualmente limitato a clienti selezionati e verrà distribuito a tutti gli ambienti in una versione futura.
+>Il controllo degli accessi basato su attributi è attualmente limitato ad alcuni utenti e verrà esteso a tutti gli ambienti con una versione futura.
 
 Il controllo dell’accesso basato su attributi (ABAC) consente di definire autorizzazioni per gestire l’accesso ai dati per team o gruppi di utenti specifici. Il suo scopo è proteggere i beni digitali sensibili da utenti non autorizzati che consentono un&#39;ulteriore protezione dei dati personali.
 

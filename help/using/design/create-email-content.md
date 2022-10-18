@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Creare e-mail in Journey Optimizer
 description: Scopri come progettare contenuti e-mail da zero
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -101,7 +103,7 @@ Per iniziare a creare il contenuto delle e-mail con e-mail designer, segui i pas
 
    ![](assets/email_designer_6.png)
 
-1. Aggiungi il contenuto dinamico per adattare il contenuto ai profili di destinazione in base a regole condizionali. [Introduzione al contenuto dinamico](../personalization/get-started-dynamic-content.md).
+1. Aggiungi il contenuto dinamico per adattare il contenuto ai profili di destinazione in base a regole condizionali. [Introduzione ai contenuti dinamici](../personalization/get-started-dynamic-content.md).
 
    ![](assets/email_designer_dynamic-content.png)
 

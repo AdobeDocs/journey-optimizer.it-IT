@@ -1,15 +1,17 @@
 ---
-title: 'Modificare gli indirizzi e-mail principali '
+solution: Journey Optimizer
+product: journey optimizer
+title: Modificare gli indirizzi e-mail principali
 description: Scopri come determinare quale indirizzo e-mail utilizzare dal servizio di profilo.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +26,11 @@ Quando esegui il targeting di un profilo, diversi indirizzi e-mail o numeri di t
 
 Con [!DNL Journey Optimizer], puoi determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio di profilo e assegnare la priorità quando sono disponibili più indirizzi. Per farlo, segui la procedura indicata di seguito.
 
-1. Accedi al menu **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]**.
+1. Accedere al  **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi esecuzioni]** menu.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. I campi attualmente utilizzati per impostazione predefinita per determinare l’indirizzo e-mail e il numero di telefono del profilo vengono visualizzati in questa schermata. Fai clic su **[!UICONTROL Edit]** per cambiarli.
+1. I campi attualmente utilizzati per impostazione predefinita per determinare l’indirizzo e-mail e il numero di telefono del profilo vengono visualizzati in questa schermata. Fai clic su **[!UICONTROL Modifica]** per cambiarli.
 
    ![](assets/primary-address.png)
 
@@ -40,7 +42,7 @@ Con [!DNL Journey Optimizer], puoi determinare quale indirizzo e-mail o numero d
 
    ![](assets/primary-address-select-field.png)
 
-1. Fai clic su **[!UICONTROL Save]** per confermare la scelta.
+1. Fai clic su **[!UICONTROL Salva]** per confermare la scelta.
 
 Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo principale.
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Gestione del fuso orario
 description: Informazioni sulla gestione del fuso orario
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -39,7 +41,7 @@ Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
 È inoltre possibile correggere il fuso orario. Deseleziona il fuso orario predefinito e selezionane uno dall’elenco a discesa. Se utilizzi un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al percorso.
 
-Per farlo, nella **[!UICONTROL Journey Properties]** selezionare un fuso orario.
+Per farlo, nella **[!UICONTROL Proprietà percorso]** selezionare un fuso orario.
 
 ![](assets/journey72.png)
 

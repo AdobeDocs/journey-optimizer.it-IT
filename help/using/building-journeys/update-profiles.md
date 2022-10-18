@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Aggiorna profilo
 description: Scopri come utilizzare l’attività Aggiorna profilo in un percorso
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 >title="Aggiorna attività profilo"
 >abstract="L’attività di azione Aggiorna profilo ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico."
 
-Utilizza la **[!UICONTROL Update Profile]** attività di azione per aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti da un evento, un’origine dati o con un valore specifico.
+Utilizza la **[!UICONTROL Aggiorna profilo]** attività di azione per aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti da un evento, un’origine dati o con un valore specifico.
 
 ## Raccomandazioni
 

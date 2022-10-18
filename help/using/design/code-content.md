@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Creare un codice per il proprio contenuto e-mail
 description: Scopri come codificare il tuo contenuto e-mail
 feature: Overview
@@ -6,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 15%
+source-wordcount: '169'
+ht-degree: 14%
 
 ---
 
 # Crea un codice per il tuo contenuto {#code-content}
 
-Utilizza la **[!UICONTROL Code your own]** modalità per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+Utilizza la **[!UICONTROL Codice personalizzato]** modalità per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -23,7 +25,7 @@ Utilizza la **[!UICONTROL Code your own]** modalità per importare HTML non elab
 >
 > Immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md) impossibile fare riferimento quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
 
-1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Code your own]**.
+1. Nella home page di E-mail Designer, seleziona **[!UICONTROL Codice personalizzato]**.
 
    ![](assets/code-your-own.png)
 
@@ -33,14 +35,14 @@ Utilizza la **[!UICONTROL Code your own]** modalità per importare HTML non elab
 
    ![](assets/code-editor.png)
 
-1. Se desideri aprire E-mail Designer per avviare l’e-mail da una nuova progettazione, seleziona **[!UICONTROL Change your design]** dal menu delle opzioni.
+1. Se desideri aprire E-mail Designer per avviare l’e-mail da una nuova progettazione, seleziona **[!UICONTROL Modificare la progettazione]** dal menu delle opzioni.
 
    ![](assets/code-editor-change-design.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Preview]** per controllare la progettazione e la personalizzazione dei messaggi utilizzando i profili di test. Per ulteriori informazioni al riguardo, consulta [questa sezione](preview.md).
+1. Fai clic sul pulsante **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione dei messaggi utilizzando i profili di test. Per ulteriori informazioni al riguardo, consulta [questa sezione](preview.md).
 
    ![](assets/code-editor-preview.png)
 
-1. Quando il codice è pronto, fai clic su **[!UICONTROL Save]** quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
+1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva]** quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
 
    ![](assets/code-editor-save.png)

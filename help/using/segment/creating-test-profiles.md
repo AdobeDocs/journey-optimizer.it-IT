@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Creare un profilo di test
 description: Scopri come creare un profilo di test
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1375'
 ht-degree: 3%
 
 ---
@@ -37,27 +39,27 @@ Per poter creare profili, devi innanzitutto creare uno schema e un set di dati i
 
 A **creare uno schema**, segui questi passaggi:
 
-1. Nella sezione del menu GESTIONE DATI fare clic su **[!UICONTROL Schemas]**.
+1. Nella sezione del menu GESTIONE DATI fare clic su **[!UICONTROL Schemi]**.
    ![](assets/test-profiles-0.png)
-1. Fai clic su **[!UICONTROL Create schema]**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **Profilo individuale XDM**.
+1. Fai clic su **[!UICONTROL Creare uno schema]**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **Profilo individuale XDM**.
    ![](assets/test-profiles-1.png)
 1. Selezionare i gruppi di campi appropriati. Assicurati di aggiungere la **Dettagli del test del profilo** gruppo di campi.
    ![](assets/test-profiles-1-ter.png)
-Al termine, fai clic su **[!UICONTROL Add field groups]**: l’elenco dei gruppi di campi viene visualizzato nella schermata di panoramica dello schema.
+Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l’elenco dei gruppi di campi viene visualizzato nella schermata di panoramica dello schema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
    >* Fai clic sul nome dello schema per modificarlo e aggiornarne le proprietà.
    >
-   >* Fai clic sul pulsante **[!UICONTROL Add]** nella sezione Gruppi di campi per selezionare altri gruppi di campi da aggiungere nello schema
+   >* Fai clic sul pulsante **[!UICONTROL Aggiungi]** nella sezione Gruppi di campi per selezionare altri gruppi di campi da aggiungere nello schema
 
 
 1. Nell’elenco dei campi, fai clic sul campo da definire come identità principale.
    ![](assets/test-profiles-3.png)
-1. In **[!UICONTROL Field properties]** riquadro a destra, controlla **[!UICONTROL Identity]** e **[!UICONTROL Primary Identity]** e seleziona uno spazio dei nomi. Se desideri che l’identità principale sia un indirizzo e-mail, scegli la **[!UICONTROL Email]** spazio dei nomi. Fai clic su **[!UICONTROL Apply]**.
+1. In **[!UICONTROL Proprietà campo]** riquadro a destra, controlla **[!UICONTROL Identità]** e **[!UICONTROL Identità principale]** e seleziona uno spazio dei nomi. Se desideri che l’identità principale sia un indirizzo e-mail, scegli la **[!UICONTROL E-mail]** spazio dei nomi. Fai clic su **[!UICONTROL Applica]**.
    ![](assets/test-profiles-4bis.png)
-1. Seleziona lo schema e abilita **[!UICONTROL Profile]** in **[!UICONTROL Schema properties]** riquadro.
+1. Seleziona lo schema e abilita **[!UICONTROL Profilo]** in **[!UICONTROL Proprietà dello schema]** riquadro.
    ![](assets/test-profiles-5.png)
 1. Fai clic su **Salva**.
 
@@ -67,15 +69,15 @@ Al termine, fai clic su **[!UICONTROL Add field groups]**: l’elenco dei gruppi
 
 Poi devi **creare il set di dati** in cui verranno importati i profili. Segui questi passaggi:
 
-1. Sfoglia per **[!UICONTROL Datasets]**, quindi fai clic su **[!UICONTROL Create dataset]**.
+1. Sfoglia per **[!UICONTROL Set di dati]**, quindi fai clic su **[!UICONTROL Creare un set di dati]**.
    ![](assets/test-profiles-6.png)
-1. Scegli **[!UICONTROL Create dataset from schema]**.
+1. Scegli **[!UICONTROL Creare un set di dati dallo schema]**.
    ![](assets/test-profiles-7.png)
-1. Seleziona lo schema creato in precedenza e fai clic su **[!UICONTROL Next]**.
+1. Seleziona lo schema creato in precedenza e fai clic su **[!UICONTROL Successivo]**.
    ![](assets/test-profiles-8.png)
-1. Scegli un nome e fai clic su **[!UICONTROL Finish]**.
+1. Scegli un nome e fai clic su **[!UICONTROL Fine]**.
    ![](assets/test-profiles-9.png)
-1. Abilita la **[!UICONTROL Profile]** opzione .
+1. Abilita la **[!UICONTROL Profilo]** opzione .
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
@@ -88,7 +90,7 @@ Dalla home page di Adobe Journey Optimizer, puoi sfruttare il caso d’uso dei p
 
 ![](assets/use-cases-home.png)
 
-Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Begin]**.
+Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Inizia]**.
 
 Sono necessarie le seguenti informazioni:
 
@@ -104,7 +106,7 @@ Sono necessarie le seguenti informazioni:
    1. **Paese**: Profilo di prova paese di residenza
    1. **Genere**: Genere del profilo di test. I valori disponibili sono **maschio**, **femmina** e **non_specificato**
 
-Dopo aver selezionato lo spazio dei nomi dell’identità e aver fornito il file CSV in base al formato di cui sopra, fai clic su **[!UICONTROL Run]** in alto a destra. Il completamento del caso d’uso potrebbe richiedere alcuni minuti. Al termine dell’elaborazione e della creazione dei profili di test, viene inviata una notifica per informare l’utente.
+Dopo aver selezionato lo spazio dei nomi dell’identità e aver fornito il file CSV in base al formato di cui sopra, fai clic su **[!UICONTROL Esegui]** in alto a destra. Il completamento del caso d’uso potrebbe richiedere alcuni minuti. Al termine dell’elaborazione e della creazione dei profili di test, viene inviata una notifica per informare l’utente.
 
 >[!NOTE]
 >
@@ -114,9 +116,9 @@ Dopo aver selezionato lo spazio dei nomi dell’identità e aver fornito il file
 
 Puoi trasformare un profilo esistente in un profilo di test: puoi aggiornare gli attributi dei profili nello stesso modo in cui crei un profilo.
 
-Un modo semplice per farlo è utilizzare un **[!UICONTROL Update Profile]** attività di azione in un percorso e modifica **testProfile** campo booleano da false a true.
+Un modo semplice per farlo è utilizzare un **[!UICONTROL Aggiorna profilo]** attività di azione in un percorso e modifica **testProfile** campo booleano da false a true.
 
-Il tuo percorso sarà composto da un **[!UICONTROL Read Segment]** e **[!UICONTROL Update Profile]** attività. Devi innanzitutto creare un segmento che esegue il targeting dei profili che desideri trasformare in profili di test.
+Il tuo percorso sarà composto da un **[!UICONTROL Leggi segmento]** e **[!UICONTROL Aggiorna profilo]** attività. Devi innanzitutto creare un segmento che esegue il targeting dei profili che desideri trasformare in profili di test.
 
 >[!NOTE]
 >
@@ -133,19 +135,19 @@ Il tuo percorso sarà composto da un **[!UICONTROL Read Segment]** e **[!UICONTR
    >
    > Il calcolo del segmento può richiedere del tempo. Ulteriori informazioni sui segmenti in [questa sezione](../segment/about-segments.md).
 
-1. Ora crea un nuovo percorso e inizia con un **[!UICONTROL Read Segment]** attività di orchestrazione.
+1. Ora crea un nuovo percorso e inizia con un **[!UICONTROL Leggi segmento]** attività di orchestrazione.
 1. Scegli il segmento creato in precedenza e lo spazio dei nomi utilizzato dai profili.
    ![](assets/test-profiles-25.png)
-1. Aggiungi un **[!UICONTROL Update Profile]** attività di azione.
-1. Seleziona lo schema, la **testProfiles** , il set di dati e imposta il valore su **True**. Per eseguire questa operazione, nella **[!UICONTROL VALUE]** fai clic sul campo **Penna** a destra, seleziona **[!UICONTROL Advanced mode]** e immetti **true**.
+1. Aggiungi un **[!UICONTROL Aggiorna profilo]** attività di azione.
+1. Seleziona lo schema, la **testProfiles** , il set di dati e imposta il valore su **True**. Per eseguire questa operazione, nella **[!UICONTROL VALORE]** fai clic sul campo **Penna** a destra, seleziona **[!UICONTROL Modalità avanzata]** e immetti **true**.
    ![](assets/test-profiles-26.png)
-1. Fai clic su **[!UICONTROL Publish]**.
-1. In **[!UICONTROL Segments]** controlla che i profili siano stati aggiornati correttamente.
+1. Fai clic su **[!UICONTROL Pubblica]**.
+1. In **[!UICONTROL Segmenti]** controlla che i profili siano stati aggiornati correttamente.
    ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
-   > Per ulteriori informazioni sulla **[!UICONTROL Update Profile]** attività, fai riferimento a [questa sezione](../building-journeys/update-profiles.md).
+   > Per ulteriori informazioni sulla **[!UICONTROL Aggiorna profilo]** attività, fai riferimento a [questa sezione](../building-journeys/update-profiles.md).
 
 ## Creare un profilo di test utilizzando un file csv{#create-test-profiles-csv}
 

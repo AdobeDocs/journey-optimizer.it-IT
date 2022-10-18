@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Report live
 description: Scopri come utilizzare i dati dal rapporto live
 feature: Reporting
@@ -6,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Guida introduttiva a Live Report {#live-report}
+# Introduzione ai rapporti live {#live-report}
 
 Utilizza la **[!UICONTROL Report live]** per misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi e dei messaggi in un dashboard integrato.
 I dati sono disponibili nella **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito da **[!UICONTROL Ultime 24 ore]** scheda .
@@ -186,7 +188,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero totale di errori temporanei, ad esempio una casella in entrata completa.<br/> </td> 
 </tr>
   <tr> 
-   <td> Disturbi dello spam<br/> </td> 
+   <td> Segnalazioni di spam<br/> </td> 
    <td> Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.<br/> </td> 
 </tr>
   <tr> 

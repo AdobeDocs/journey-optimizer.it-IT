@@ -1,15 +1,16 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Informazioni sull’editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 80%
+source-wordcount: '605'
+ht-degree: 66%
 
 ---
 
@@ -35,7 +36,7 @@ L’editor di espressioni avanzate può essere utilizzato per:
 * definire le [attività di attesa](../wait-activity.md#custom) personalizzate
 * definire la mappatura dei parametri di azione
 
-Ove possibile, puoi passare tra le due modalità utilizzando il pulsante **[!UICONTROL Advanced mode]**/**[!UICONTROL Simple mode]**. La modalità semplice è descritta [qui](../condition-activity.md#about_condition).
+Quando possibile, puoi passare tra le due modalità utilizzando **[!UICONTROL Modalità avanzata]** / **[!UICONTROL Modalità semplice]** pulsante . La modalità semplice è descritta [qui](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -47,12 +48,12 @@ Ove possibile, puoi passare tra le due modalità utilizzando il pulsante **[!UIC
 
 Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
-* Quando crei una condizione di origine dati, puoi accedere all’editor avanzato facendo clic su **[!UICONTROL Advanced mode]**.
+* Quando crei una condizione di origine dati, puoi accedere all’editor avanzato facendo clic su **[!UICONTROL Modalità avanzata]**.
 
    ![](../assets/journeyuc2_33.png)
 
 * Quando crei un timer personalizzato, l’editor avanzato viene visualizzato direttamente.
-* Quando mappi il parametro dell’azione, fai clic su **[!UICONTROL Advanced mode]**.
+* Quando mappi il parametro dell&#39;azione, fai clic su **[!UICONTROL Modalità avanzata]**.
 
 ## Descrizione dell’interfaccia{#discovering-the-interface}
 
@@ -62,11 +63,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
-* **[!UICONTROL Events]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
-* **[!UICONTROL Segments]**: se hai abbandonato un **[!UICONTROL Segment qualification]** , scegli il segmento da utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Data Sources]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
-* **[!UICONTROL Functions]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
+* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
+* **[!UICONTROL Segmenti]**: se hai abbandonato un **[!UICONTROL Qualificazione di un segmento]** , scegli il segmento da utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Origini dati]**: scegli dall’elenco dei campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
+* **[!UICONTROL Proprietà percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
+* **[!UICONTROL Funzioni]**: scegli dall’elenco a di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
 
 ![](../assets/journey65.png)
 

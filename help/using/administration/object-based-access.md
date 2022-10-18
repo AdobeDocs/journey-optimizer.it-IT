@@ -1,22 +1,24 @@
 ---
-title: Controllo dell'accesso a livello di oggetto
+solution: Journey Optimizer
+product: journey optimizer
+title: Controllo dell’accesso a livello di oggetto
 description: Informazioni sul controllo degli accessi a livello di oggetto
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 61293a2ad45d30d24e1b38d8a5df81534dc19b40
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Controllo dell&#39;accesso a livello di oggetto {#object-level-access}
+# Controllo dell’accesso a livello di oggetto {#object-level-access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
->title="Controllo dell&#39;accesso a livello di oggetto"
+>title="Controllo dell’accesso a livello di oggetto"
 >abstract="Se si applicano etichette a cui non si dispone dell&#39;accesso, l&#39;accesso a questo oggetto verrà revocato."
 
 >[!IMPORTANT]

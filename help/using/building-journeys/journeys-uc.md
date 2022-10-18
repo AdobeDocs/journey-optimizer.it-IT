@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Casi d’uso dei percorsi
 description: Casi d’uso dei percorsi
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 2%
+source-wordcount: '860'
+ht-degree: 1%
 
 ---
 
@@ -42,15 +44,15 @@ Nel nostro percorso, vogliamo sfruttare un segmento specifico di clienti. Tutti 
 
 Per ulteriori informazioni sui segmenti, consulta questo [page](../segment/about-segments.md).
 
-1. Nella sezione del menu CLIENTE, selezionare **[!UICONTROL Segments]**.
+1. Nella sezione del menu CLIENTE, selezionare **[!UICONTROL Segmenti]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Create segment]** in alto a destra nell’elenco dei segmenti.
+1. Fai clic sul pulsante **[!UICONTROL Creare un segmento]** in alto a destra nell’elenco dei segmenti.
 
-1. In **[!UICONTROL Segment properties]** immettere un nome per il segmento.
+1. In **[!UICONTROL Proprietà del segmento]** immettere un nome per il segmento.
 
 1. Trascina e rilascia i campi desiderati dal riquadro di sinistra all’area di lavoro centrale, quindi configurali in base alle tue esigenze. In questo esempio, utilizziamo il **Città** e **Anno di nascita** campi degli attributi.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/add-attributes.png)
 
@@ -62,19 +64,19 @@ Devi configurare un evento inviato al tuo percorso quando un cliente effettua un
 
 A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazioni sugli eventi, consulta questo [page](../event/about-events.md).
 
-1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**, quindi fai clic su **[!UICONTROL Events]**. Per creare un nuovo evento, fai clic su **[!UICONTROL Create event]**. 
+1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurazioni]**, quindi fai clic su **[!UICONTROL Eventi]**. Fai clic su **[!UICONTROL Crea evento]** per creare un nuovo evento.
 
 1. Inserisci il nome dell’evento.
 
-1. Nel campo **[!UICONTROL Event ID type]** seleziona **[!UICONTROL Rule Based]**.
+1. In **[!UICONTROL Tipo ID evento]** campo , seleziona **[!UICONTROL Basato su regole]**.
 
-1. Definisci la **[!UICONTROL Schema]** e payload **[!UICONTROL Fields]**. Puoi utilizzare diversi campi, ad esempio il prodotto acquistato, la data di acquisto e l’ID acquisto.
+1. Definisci la **[!UICONTROL Schema]** e payload **[!UICONTROL Campi]**. Puoi utilizzare diversi campi, ad esempio il prodotto acquistato, la data di acquisto e l’ID acquisto.
 
-1. In **[!UICONTROL Event ID condition]** definire la condizione utilizzata dal sistema per identificare gli eventi che attivano il percorso. Ad esempio, puoi aggiungere una `purchaseMessage` e definisci la seguente regola: `purchaseMessage="thank you"`
+1. In **[!UICONTROL Condizione ID evento]** definire la condizione utilizzata dal sistema per identificare gli eventi che attivano il percorso. Ad esempio, puoi aggiungere una `purchaseMessage` e definisci la seguente regola: `purchaseMessage="thank you"`
 
-1. Definisci la **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
+1. Definisci la **[!UICONTROL Namespace]** e **[!UICONTROL Identificatore profilo]**.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/jo-uc2.png)
 

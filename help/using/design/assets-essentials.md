@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Utilizzare Assets Essentials in Journey Optimizer
 description: Guida introduttiva ad Assets Essentials
 feature: Overview
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +25,7 @@ Riunisci flussi di lavoro creativi e di marketing utilizzando [!DNL Adobe Experi
 
 Ulteriori informazioni in [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite il menu a sinistra **[!UICONTROL Assets]** sezione . Puoi anche accedere a risorse e cartelle quando [progettazione di contenuto e-mail](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite il menu a sinistra **[!UICONTROL Risorse]** sezione . Puoi anche accedere a risorse e cartelle quando [progettazione di contenuto e-mail](design-emails.md).
 
 ## Prerequisiti{#assets-prerequisites}
 
@@ -38,25 +40,25 @@ Importazione di file in [!DNL Assets Essentials], per prima cosa devi sfogliare 
 
 Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. Da [!DNL Adobe Journey Optimizer] home page, seleziona **[!UICONTROL Assets]** sotto la scheda **[!UICONTROL Content management]** menu per accedere [!DNL Assets Essentials].
+1. Da [!DNL Adobe Journey Optimizer] home page, seleziona **[!UICONTROL Risorse]** sotto la scheda **[!UICONTROL Gestione dei contenuti]** menu per accedere [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Fate doppio clic su una cartella dalla sezione centrale o dalla vista struttura per aprirla.
 
-   Puoi anche fare clic su **[!UICONTROL Create folder]** per creare una nuova cartella.
+   Puoi anche fare clic su **[!UICONTROL Crea cartella]** per creare una nuova cartella.
 
    ![](assets/media_library_8.png)
 
-1. Una volta nella cartella selezionata o creata, fai clic su **[!UICONTROL Add Assets]** per caricare una nuova risorsa nella cartella.
+1. Una volta nella cartella selezionata o creata, fai clic su **[!UICONTROL Aggiungere risorse]** per caricare una nuova risorsa nella cartella.
 
    ![](assets/media_library_2.png)
 
-1. Da **[!UICONTROL Upload files]**, fai clic su **[!UICONTROL Browse]** e scegliere se si desidera **[!UICONTROL Browse files]** o **[!UICONTROL Browse folders]**.
+1. Da **[!UICONTROL Caricare file]**, fai clic su **[!UICONTROL Sfoglia]** e scegliere se si desidera **[!UICONTROL Sfoglia file]** o **[!UICONTROL Sfoglia cartelle]**.
 
    ![](assets/media_library_3.png)
 
-1. Seleziona il file da caricare. Al termine, fai clic su **[!UICONTROL Upload]**.
+1. Seleziona il file da caricare. Al termine, fai clic su **[!UICONTROL Carica]**.
 
    Per ulteriori informazioni su come gestire le risorse, consulta questo articolo [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
@@ -66,7 +68,7 @@ Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione
 
    ![](assets/media_library_12.png)
 
-1. Da [!DNL Adobe Journey Optimizer], seleziona **[!UICONTROL Asset picker]** nel riquadro a sinistra della finestra di progettazione e-mail.
+1. Da [!DNL Adobe Journey Optimizer], seleziona **[!UICONTROL Selettore risorse]** nel riquadro a sinistra della finestra di progettazione e-mail.
 
    ![](assets/media_library_5.png)
 
@@ -83,7 +85,7 @@ Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione
     ![](assets/media_library_14.png)
 -->
 
-1. Puoi personalizzare ulteriormente le risorse, ad esempio aggiungendo un collegamento esterno o un testo con **[!UICONTROL Components settings]**. [Ulteriori informazioni sulle impostazioni dei componenti](content-components.md)
+1. Puoi personalizzare ulteriormente le risorse, ad esempio aggiungendo un collegamento esterno o un testo con **[!UICONTROL Impostazioni dei componenti]**. [Ulteriori informazioni sulle impostazioni dei componenti](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -1,11 +1,13 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Guida introduttiva di Journey Optimizer per data engineer
 description: In qualità di data engineer, scopri di più su come lavorare con Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '580'
 ht-degree: 9%
 
 ---
@@ -27,14 +29,14 @@ I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitat
 
 1. **Creare uno schema** e abilitalo per i profili. Uno schema è un insieme di regole che rappresentano e convalidano la struttura e il formato dei dati. Ad alto livello, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza dell’oggetto (ad esempio nome, cognome, compleanno e così via).  Ulteriori informazioni sugli schemi [in questa pagina](../get-started-schemas.md).
 
-1. **Creare set di dati** e abilitalo per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungerlo. Ulteriori informazioni sui set di dati [in questa pagina](../get-started-datasets.md).
+1. **Creare set di dati** e abilitalo per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungerlo. Ulteriori informazioni sui set di dati [in questa pagina](../get-started-datasets.md).
 
 1. **Configurare i connettori di origine**. Adobe Percorsi Optimizer consente di acquisire dati da sorgenti esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse sorgenti, come applicazioni di Adobe, archivi basati su cloud, database e molti altri. Ulteriori informazioni sui connettori sorgente [in questa pagina](../get-started-sources.md).
 
 1. **Creare profili di test**. I profili di test sono necessari quando si utilizza il [modalità di prova](../../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e verificare i messaggi](../../design/preview.md) prima dell’invio. I passaggi per creare i profili di test sono descritti in dettaglio [in questa pagina](../../segment/creating-test-profiles.md).
 
 
-Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. [Ulteriori informazioni](../../configuration/about-data-sources-events-actions.md).
+Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. [Ulteriori informazioni](../../configuration/about-data-sources-events-actions.md).
 
 ![](../assets/admin-menu.png)
 

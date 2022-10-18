@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Informazioni sui dati di Adobe Analytics
 description: Scopri come sfruttare i dati di Adobe Analytics
 feature: Events
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 8%
 
 ---
@@ -23,9 +25,9 @@ Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che
 
 Affinché questo funzioni, devi attivare, in Adobe Experience Platform, la suite di rapporti che desideri sfruttare:
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Sources]** then **[!UICONTROL Add data]** nella sezione Adobe Analytics . Viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
+1. In Adobe Experience Platform, seleziona **[!UICONTROL Origini]** then **[!UICONTROL Aggiungi dati]** nella sezione Adobe Analytics . Viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
 
-1. Scegli la suite di rapporti che desideri abilitare e fai clic su **[!UICONTROL Next]** e fai clic su **[!UICONTROL Finish]**.
+1. Scegli la suite di rapporti che desideri abilitare e fai clic su **[!UICONTROL Successivo]** e fai clic su **[!UICONTROL Fine]**.
 
 1. Condividi l&#39;ID dati sorgente con il tuo punto di contatto del programma Beta.
 

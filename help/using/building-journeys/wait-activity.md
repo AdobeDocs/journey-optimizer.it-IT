@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Attività attendi
 description: Scopri l’attività attendi
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '327'
 ht-degree: 5%
 
 ---
@@ -32,7 +34,7 @@ Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso,
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-La durata massima di attesa è di 30 giorni. In modalità di prova, il **[!UICONTROL Wait time in test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+La durata massima di attesa è di 30 giorni. In modalità di prova, il **[!UICONTROL Tempo di attesa nel test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
 Presta attenzione quando utilizzi più attività Attendi in un percorso, in quanto il timeout del percorso globale è di 30 giorni, il che significa che un profilo abbandonerà sempre il percorso al massimo 30 giorni dopo l’inserimento.
 

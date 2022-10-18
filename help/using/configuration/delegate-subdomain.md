@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Delegare un sottodominio
 description: Scopri come delegare i sottodomini.
 feature: Application Settings
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1706'
 ht-degree: 9%
 
 ---
@@ -33,7 +35,7 @@ Puoi delegare completamente un sottodominio o creare un sottodominio utilizzando
 >
 >La delega completa del sottodominio è il metodo consigliato. Ulteriori informazioni sulle differenze tra i due [metodi di configurazione del sottodominio](about-subdomain-delegation.md#subdomain-delegation-methods).
 
-## Delega di sottodomini completa {#full-subdomain-delegation}
+## Delega completa di sottodominio {#full-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -47,11 +49,11 @@ Puoi contare sull’Adobe per mantenere l’infrastruttura DNS necessaria per so
 
 Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti operazioni:
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]** menu, quindi fai clic su **[!UICONTROL Imposta sottodominio]**.
 
    ![](assets/subdomain-delegate.png)
 
-1. Seleziona **[!UICONTROL Fully delegated]** dal **[!UICONTROL Set up method]** sezione .
+1. Seleziona **[!UICONTROL Completamente delegato]** dal **[!UICONTROL Metodo di configurazione]** sezione .
 
    ![](assets/subdomain-method-full.png)
 
@@ -67,15 +69,15 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
-1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
+1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/subdomain-submit.png)
 
    >[!NOTE]
    >
-   >Puoi creare i record e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Save as draft]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+   >Puoi creare i record e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Salva come bozza]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
-1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
+1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
 
    ![](assets/subdomain-processing.png)
 
@@ -85,11 +87,11 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
    >
    >Vengono elencati tutti i record mancanti, ovvero quelli non ancora creati nella soluzione di hosting.
 
-1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Success]** stato. È pronto per essere utilizzato per inviare messaggi.
+1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Completato]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    >[!NOTE]
    >
-   >Il sottodominio verrà contrassegnato come **[!UICONTROL Failed]** se non riesci a creare il record di convalida nella soluzione di hosting.
+   >Il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]** se non riesci a creare il record di convalida nella soluzione di hosting.
 
    <!-- later on, users will be notified in Pulse -->
 
@@ -97,7 +99,7 @@ Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene c
 
 >[!CAUTION]
 >
->L’esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha **[!UICONTROL Processing]** stato, riceverai un messaggio di errore.
+>L’esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha **[!UICONTROL Elaborazione]** stato, riceverai un messaggio di errore.
 
 ## Delega dei sottodomini CNAME {#cname-subdomain-delegation}
 
@@ -118,9 +120,9 @@ La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utili
 
 Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, quindi fai clic su **[!UICONTROL Set up subdomain]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]** menu, quindi fai clic su **[!UICONTROL Imposta sottodominio]**.
 
-1. Seleziona la **[!UICONTROL CNAME set up]** metodo .
+1. Seleziona la **[!UICONTROL Configurazione CNAME]** metodo .
 
    ![](assets/subdomain-method-cname.png)
 
@@ -140,7 +142,7 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Puoi creare i record in un secondo momento utilizzando il **[!UICONTROL Save as draft]** pulsante . A questo punto potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+   >Puoi creare i record in un secondo momento utilizzando il **[!UICONTROL Salva come bozza]** pulsante . A questo punto potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
 1. Attendi che l&#39;Adobe verifichi che questi record vengano generati senza errori nella tua soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
 
@@ -148,29 +150,29 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
    >
    >Vengono elencati tutti i record mancanti, ovvero quelli non ancora creati nella soluzione di hosting.
 
-1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma host. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Conferma...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
+1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma host. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Conferma...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >
-   >Puoi anche creare il record di convalida e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Save as draft]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+   >Puoi anche creare il record di convalida e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Salva come bozza]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
-1. Una volta inviata la delega del sottodominio CNAME, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
+1. Una volta inviata la delega del sottodominio CNAME, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
 
    Prima di poter utilizzare tale sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che in genere richiedono da 2 a 3 ore. Ulteriori informazioni in [questa sezione](#subdomain-validation).
 
-1. Una volta eseguiti i controlli<!--i.e Adobe validates the record you created and installs it-->, il sottodominio ottiene **[!UICONTROL Success]** stato. È pronto per essere utilizzato per inviare messaggi.
+1. Una volta eseguiti i controlli<!--i.e Adobe validates the record you created and installs it-->, il sottodominio ottiene **[!UICONTROL Completato]** stato. È pronto per essere utilizzato per inviare messaggi.
 
    >[!NOTE]
    >
-   >Il sottodominio verrà contrassegnato come **[!UICONTROL Failed]** se non riesci a creare il record di convalida nella soluzione di hosting.
+   >Il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]** se non riesci a creare il record di convalida nella soluzione di hosting.
 
 Dopo aver convalidato il record e aver installato il certificato, in Adobe viene creato automaticamente il record PTR per il sottodominio CNAME. [Ulteriori informazioni](ptr-records.md)
 
 >[!CAUTION]
 >
->L’esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha **[!UICONTROL Processing]** stato, riceverai un messaggio di errore.
+>L’esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha **[!UICONTROL Elaborazione]** stato, riceverai un messaggio di errore.
 
 ## Convalida del sottodominio {#subdomain-validation}
 

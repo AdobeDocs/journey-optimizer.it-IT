@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Gestione delle sandbox
 description: Scopri come gestire le sandbox
 feature: Sandboxes
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 64%
+source-wordcount: '390'
+ht-degree: 54%
 
 ---
 
@@ -33,37 +35,37 @@ Puoi trovare il controllo del commutatore sandbox in alto a destra nella scherma
 
 >[!IMPORTANT]
 >
-> La gestione delle sandbox può essere eseguita solo da un **[!UICONTROL Product]** o **[!UICONTROL System]** amministratore. Per ulteriori informazioni, consulta la [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
+> La gestione delle sandbox può essere eseguita solo da un **[!UICONTROL Prodotto]** o **[!UICONTROL Sistema]** amministratore. Per ulteriori informazioni, consulta la [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
 
-Puoi scegliere di assegnare diverse sandbox a preconfigurate o personalizzate **[!UICONTROL Product profiles]**.
+Puoi scegliere di assegnare diverse sandbox a preconfigurate o personalizzate **[!UICONTROL Profili di prodotto]**.
 
 Per assegnare le sandbox:
 
-1. In [!DNL Admin Console], dal **[!UICONTROL Products]** seleziona la scheda **[!UICONTROL Adobe Experience Platform Apps]** prodotto.
+1. In [!DNL Admin Console], dal **[!UICONTROL Prodotti]** seleziona la scheda **[!UICONTROL App Adobe Experience Platform]** prodotto.
 
-1. Seleziona un **[!UICONTROL Product profile]**.
+1. Seleziona una **[!UICONTROL Profilo di prodotto]**.
 
    ![](assets/sandbox_1.png)
 
-1. Seleziona la scheda **[!UICONTROL Permissions]**.
+1. Fai clic sulla scheda **[!UICONTROL Autorizzazioni.]**
 
-1. Seleziona la **[!UICONTROL Sandboxes]** funzionalità.
+1. Seleziona la **[!UICONTROL Sandbox]** funzionalità.
 
    ![](assets/sandbox_2.png)
 
-1. Nella sezione **[!UICONTROL Available Permissions Items]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target=&quot;_blank&quot;}.
+1. Sotto **[!UICONTROL Elementi delle autorizzazioni disponibili]**, fai clic sull’icona più (+) per assegnare le sandbox al tuo profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target=&quot;_blank&quot;}.
 
    ![](assets/sandbox_3.png)
 
-1. Se necessario, in **[!UICONTROL Included Permission Items]**, fai clic sull’icona X accanto a per rimuovere l’accesso alle sandbox al tuo **[!UICONTROL Product profile]**.
+1. Se necessario, in **[!UICONTROL Elementi delle autorizzazioni inclusi]**, fai clic sull’icona X accanto a per rimuovere l’accesso alle sandbox al tuo **[!UICONTROL Profilo di prodotto]**.
 
    ![](assets/sandbox_4.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Accesso al contenuto {#content-access}
 
-Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Storage]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
+Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa in **[!UICONTROL Storage]** nella scheda [!DNL Admin Console] per amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
 
 ![](assets/do-not-localize/content_access.png)
 

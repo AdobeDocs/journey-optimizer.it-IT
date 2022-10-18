@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Nuovi tentativi
 description: Scopri come vengono eseguiti i nuovi tentativi prima di inviare un indirizzo all’elenco di soppressione
 feature: Application Settings
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '454'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +41,9 @@ Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di error
 
 Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura seguente.
 
-1. Vai a **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+1. Vai a **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco di eliminazione]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Edit suppression rules]**.
+1. Seleziona la **[!UICONTROL Modificare le regole di eliminazione]** pulsante .
 
    ![](assets/suppression-list-edit-retries.png)
 

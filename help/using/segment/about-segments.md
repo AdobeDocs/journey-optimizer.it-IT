@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Informazioni sui segmenti di Adobe Experience Platform
 description: Scopri come configurare un segmento Adobe Experience Platform
 feature: Journeys
@@ -6,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
 
 # Guida introduttiva ai segmenti Adobe Experience Platform {#about-segments}
 
-[!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal **[!UICONTROL Segments]** e sfruttali nei tuoi percorsi.
+[!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal **[!UICONTROL Segmenti]** e sfruttali nei tuoi percorsi.
 
 I segmenti possono essere creati anche dal servizio Segmentazione stesso. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
@@ -23,7 +25,7 @@ Puoi sfruttare i segmenti nei percorsi in diversi modi:
 
 * Utilizza un **Leggi segmento** attività di orchestrazione per fare entrare nel percorso tutti gli individui appartenenti al segmento specificato. I messaggi inclusi nel percorso vengono inviati agli utenti appartenenti al segmento. Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi fare in modo che tutti i clienti argento entrino in un percorso e inviino loro una serie di messaggi personalizzati.
 
-   Per ulteriori informazioni su come utilizzare il **[!UICONTROL Read segment]** attività, fai riferimento a [questa sezione](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+   Per ulteriori informazioni su come utilizzare il **[!UICONTROL Leggi segmento]** attività, fai riferimento a [questa sezione](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
 
 * Utilizza la **Qualificazione di un segmento** attività dell’evento per consentire a singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti argento entrino in un percorso e inviino loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../building-journeys/segment-qualification-events.md).
 
@@ -38,7 +40,7 @@ In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizion
 
 La determinazione tra segmentazione batch e segmentazione in streaming viene effettuata dal sistema per ogni definizione di segmento, in base alla complessità e al costo della valutazione della regola del segmento.
 
-Puoi visualizzare il metodo di valutazione per ogni segmento nel **[!UICONTROL Evaluation method]** della colonna dell’elenco dei segmenti.
+Puoi visualizzare il metodo di valutazione per ogni segmento nel **[!UICONTROL Metodo di valutazione]** della colonna dell’elenco dei segmenti.
 
 Dopo aver definito per la prima volta un segmento, i profili vengono aggiunti al pubblico quando si qualificano.
 

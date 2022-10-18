@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Origini dati esterne
 description: Informazioni su come configurare le origini dati esterne
 feature: Data Sources
@@ -6,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 89%
+source-wordcount: '1406'
+ht-degree: 73%
 
 ---
 
@@ -35,7 +37,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 Di seguito sono riportati i passaggi principali per la creazione e la configurazione di una nuova origine dati esterna:
 
-1. Dall’elenco delle origini dati, fare clic su **[!UICONTROL Create Data Source]** per creare una nuova origine dati esterna.
+1. Dall’elenco delle origini dati, fai clic su **[!UICONTROL Crea origine dati]** per creare una nuova origine dati esterna.
 
    ![](assets/journey25.png)
 
@@ -58,28 +60,28 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](assets/journey27.png)
 
-1. Imposta l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** o **[!UICONTROL API key]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Le scelte del nostro esempio:
+1. Configura l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzato]** o **[!UICONTROL Chiave API]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Le scelte del nostro esempio:
 
-   * **[!UICONTROL Type]**: &quot;API key&quot;
-   * **[!UICONTROL Name]**: &quot;appid&quot; (nome del parametro della chiave API)
-   * **[!UICONTROL Value]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
-   * **[!UICONTROL Location]**: &quot;Query parameter&quot; (la chiave API si trova nell’URL)
+   * **[!UICONTROL Tipo]**: &quot;Chiave API&quot;
+   * **[!UICONTROL Nome]**: &quot;appid&quot; (nome del parametro della chiave API)
+   * **[!UICONTROL Valore]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
+   * **[!UICONTROL Posizione]**: &quot;Query parameter&quot; (la chiave API si trova nell’URL)
 
    ![](assets/journey28.png)
 
-1. Per aggiungere un nuovo gruppo di campi per ciascun set di parametri API, fai clic su **[!UICONTROL Add a New Field Group]**. Non utilizzare spazi o caratteri speciali nel nome del gruppo di campi. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
+1. Aggiungi un nuovo gruppo di campi per ciascun set di parametri API facendo clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]**. Non utilizzare spazi o caratteri speciali nel nome del gruppo di campi. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
 
 Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi con le seguenti informazioni:
 
-* **[!UICONTROL Used in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic sull’icona **[!UICONTROL View journeys]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
-* **[!UICONTROL Method]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-* **[!UICONTROL Dynamic Values]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Response Payload]**: fai clic all’interno del campo **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Se vuoi modificare il payload attualmente trasmesso, è possibile fare clic su **[!UICONTROL Paste a new payload]**.
-* **[!UICONTROL Sent Payload]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
+* **[!UICONTROL Utilizzato in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
+* **[!UICONTROL Metodo]**: selezionare il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
+* **[!UICONTROL Valori dinamici]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Payload di risposta]**: fai clic all’interno del **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata . Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **[!UICONTROL Incolla un nuovo payload]** per modificare il payload attualmente trasmesso.
+* **[!UICONTROL Payload inviato]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
-In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo **[!UICONTROL Dynamic Values]** e verranno aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
+Nel caso di una chiamata di GET che richieda i parametri, immetti i parametri nel **[!UICONTROL Valori dinamici]** e vengono aggiunti automaticamente alla fine della chiamata . Nel caso di una chiamata POST, è necessario:
 
-* Elencare i parametri da trasmettere al momento della chiamata nel campo **[!UICONTROL Dynamic Values]**, nell’esempio seguente: &quot;identifier&quot;.
+* elencare i parametri da trasmettere al momento della chiamata nel **[!UICONTROL Valori dinamici]** (nell’esempio seguente: &quot;identifier&quot;).
 * Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A tale scopo, è necessario aggiungere: &quot;param&quot;: “nome del tuo parametro”, nell’esempio seguente è &quot;identifier&quot;. Attieniti alla sintassi seguente:
 
    ```
@@ -88,7 +90,7 @@ In presenza di una chiamata GET che richieda i parametri, inseriscili nel campo 
 
 ![](assets/journey29.png)
 
-Fai clic su **[!UICONTROL Save]**.
+Fai clic su **[!UICONTROL Salva]**.
 
 L’origine dati è ora configurata ed è pronta per essere utilizzata nei percorsi, ad esempio nelle tue condizioni o per personalizzare un’e-mail. Se la temperatura è superiore a 30°C, puoi decidere di inviare una comunicazione specifica.
 

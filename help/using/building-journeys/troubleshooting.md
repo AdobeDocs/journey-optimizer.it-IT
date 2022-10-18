@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Risoluzione dei problemi del percorso
 description: Scopri come risolvere gli errori nei percorsi
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1027'
+ht-degree: 74%
 
 ---
 
@@ -29,17 +31,17 @@ Ad esempio, nell’area di lavoro, quando due attività sono disconnesse, viene 
 
 ![](assets/canvas-disconnected.png)
 
-Accanto all’interruttore **[!UICONTROL Test]** e al pulsante **[!UICONTROL Publish]**, è possibile visualizzare un segnale di avviso. Questo segnale di avviso riporta gli errori rilevati dal sistema e impedisce l’attivazione della modalità di test o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, puoi visualizzare gli errori e cercare di identificare il problema utilizzando la relativa descrizione. Se non riesci a identificare il problema, puoi copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e quelli che impediscono la pubblicazione sono simili.
+Accanto al **[!UICONTROL Test]** e **[!UICONTROL Pubblica]** è possibile visualizzare un segnale di avviso. Questo segnale di avviso riporta gli errori rilevati dal sistema e impedisce l’attivazione della modalità di test o la pubblicazione del percorso. Nella maggior parte dei casi, gli errori rilevati dal sistema sono collegati a errori visibili sulle attività, ma a volte sono collegati ad altri problemi. In questo caso, puoi visualizzare gli errori e cercare di identificare il problema utilizzando la relativa descrizione. Se non riesci a identificare il problema, puoi copiare i dettagli e inviarli all’amministratore o al supporto tecnico. Gli errori che bloccano il test e quelli che impediscono la pubblicazione sono simili.
 
 Il sistema rileva due tipi di problemi: errori e avvisi. Gli errori bloccano la pubblicazione e l’attivazione di test. Gli avvisi indicano i potenziali problemi che non impediscono l’attivazione del test o la pubblicazione. Vedrai una descrizione del problema e un ID di registro del problema del tipo ERR_XXX_XXX. Questo aiuterà il supporto tecnico a identificare il problema.
 
-Sul segno accanto all’interruttore **[!UICONTROL Test]** e al pulsante **[!UICONTROL Publish]** possono essere visualizzati due colori diversi. In caso di errori, il segno viene visualizzato in rosso. In caso di avvisi, viene visualizzato in arancione.
+Sul segno accanto al **[!UICONTROL Test]** e **[!UICONTROL Pubblica]** pulsante . In caso di errori, il segno viene visualizzato in rosso. In caso di avvisi, viene visualizzato in arancione.
 
 ![](assets/journey75.png)
 
-Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per primi nell’elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati successivamente per ordine di attività o per visualizzazione nel percorso da sinistra a destra. Il pulsante **[!UICONTROL Copy details]** consente di copiare le informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi.
+Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per primi nell’elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati successivamente per ordine di attività o per visualizzazione nel percorso da sinistra a destra. La **[!UICONTROL Copia dettagli]** consente di copiare le informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi.
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Add an alternative path in case of a timeout or an error]** (Aggiungi percorso alternativo in caso di errore o timeout). Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Controlla che gli eventi siano inviati correttamente{#checking-that-events-are-properly-sent}
 

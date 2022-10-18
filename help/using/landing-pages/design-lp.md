@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Progettare una pagina di destinazione
 description: Scopri come progettare il contenuto di una pagina di destinazione in Journey Optimizer
 feature: Landing Pages
@@ -6,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 61fcf519ca2ce241e292a86707e5ce987835a07c
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '155'
 ht-degree: 3%
 
 ---
 
 # Progettazione del contenuto della pagina di destinazione {#design-lp}
 
-Per iniziare a creare contenuti per la destinazione [pagina principale](create-lp.md#configure-primary-page) o [sottopagine](create-lp.md#configure-subpages), passa il mouse sul contenuto della pagina e fai clic su **[!UICONTROL Open Designer]**. Puoi anche fare clic sul pulsante corrispondente nella palette a destra.
+Per iniziare a creare contenuti per la destinazione [pagina principale](create-lp.md#configure-primary-page) o [sottopagine](create-lp.md#configure-subpages), passa il mouse sul contenuto della pagina e fai clic su **[!UICONTROL Apri Designer]**. Puoi anche fare clic sul pulsante corrispondente nella palette a destra.
 
 ![](assets/lp_open-designer.png)
 

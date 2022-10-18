@@ -1,5 +1,6 @@
 ---
 solution: Journey Optimizer
+product: journey optimizer
 title: Eventi generali
 description: Scopri come utilizzare gli eventi generali
 feature: Journeys
@@ -7,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -37,11 +38,11 @@ Il percorso ascolterà quindi l&#39;evento durante il tempo specificato nel time
 
 Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
-1. Attiva la **[!UICONTROL Define the event timeout]** dalle proprietà dell’evento.
+1. Attiva la **[!UICONTROL Definire il timeout dell’evento]** dalle proprietà dell’evento.
 
 1. Specifica il tempo di attesa dell’evento da parte del percorso.
 
-1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Set a timeout path]** opzione . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
+1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Imposta un percorso di timeout]** opzione . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
 
    ![](assets/event-timeout.png)
 

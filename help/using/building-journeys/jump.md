@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Passaggio da un percorso a un altro
 description: Passaggio da un percorso a un altro
 feature: Journeys
@@ -6,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 5%
+source-wordcount: '846'
+ht-degree: 4%
 
 ---
 
@@ -20,27 +22,27 @@ ht-degree: 5%
 >title="Attività Jump"
 >abstract="L’attività di azione Jump (Passa a) consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di semplificare la progettazione di percorsi e percorsi molto complessi basati su modelli di percorso comuni e riutilizzabili."
 
-La **[!UICONTROL Jump]** l’attività azione ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
+La **[!UICONTROL Salto]** l’attività azione ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
 
 * semplificare la progettazione di percorsi molto complessi suddividendoli in diversi percorsi più semplici;
 * creare percorsi basati su pattern di percorso comuni e riutilizzabili.
 
-Nel percorso di origine, aggiungi semplicemente un **[!UICONTROL Jump]** e seleziona un percorso di destinazione. Quando l’utente accede alla **[!UICONTROL Jump]** un evento interno viene inviato al primo evento del percorso di destinazione. Se la **[!UICONTROL Jump]** l&#39;azione ha successo, l&#39;individuo continua a progredire nel percorso. Il comportamento è simile ad altre azioni.
+Nel percorso di origine, aggiungi semplicemente un **[!UICONTROL Salto]** e seleziona un percorso di destinazione. Quando l’utente accede alla **[!UICONTROL Salto]** un evento interno viene inviato al primo evento del percorso di destinazione. Se la **[!UICONTROL Salto]** l&#39;azione ha successo, l&#39;individuo continua a progredire nel percorso. Il comportamento è simile ad altre azioni.
 
-Nel percorso di destinazione, il primo evento attivato internamente dal **[!UICONTROL Jump]** farà il singolo flusso nel percorso.
+Nel percorso di destinazione, il primo evento attivato internamente dal **[!UICONTROL Salto]** farà il singolo flusso nel percorso.
 
 ## Ciclo di vita
 
-Supponiamo che tu abbia aggiunto un **[!UICONTROL Jump]** attività in un percorso A a un percorso B. Il Percorso A è il **percorso d&#39;origine** e il percorso B, **percorso target**.
+Supponiamo che tu abbia aggiunto un **[!UICONTROL Salto]** attività in un percorso A a un percorso B. Il Percorso A è il **percorso d&#39;origine** e il percorso B, **percorso target**.
 Di seguito sono riportati i diversi passaggi del processo di esecuzione:
 
 **Percorso A** viene attivato da un evento esterno:
 
 1. Il percorso A riceve un evento esterno relativo a un individuo.
-1. L&#39;individuo raggiunge il **[!UICONTROL Jump]** passo.
-1. L&#39;individuo viene inviato al Percorso B e passa ai passaggi successivi nel Percorso A, dopo il **[!UICONTROL Jump]** passo.
+1. L&#39;individuo raggiunge il **[!UICONTROL Salto]** passo.
+1. L&#39;individuo viene inviato al Percorso B e passa ai passaggi successivi nel Percorso A, dopo il **[!UICONTROL Salto]** passo.
 
-Nel percorso B, il primo evento viene attivato internamente tramite il **[!UICONTROL Jump]** attività del percorso A:
+Nel percorso B, il primo evento viene attivato internamente tramite il **[!UICONTROL Salto]** attività del percorso A:
 
 1. Il percorso B ha ricevuto un evento interno dal Percorso A.
 1. L&#39;individuo inizia a fluire nel Percorso B.
@@ -53,19 +55,19 @@ Nel percorso B, il primo evento viene attivato internamente tramite il **[!UICON
 
 ### Authoring
 
-* La **[!UICONTROL Jump]** l’attività è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
+* La **[!UICONTROL Salto]** l’attività è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
 * Puoi passare solo a un percorso che utilizza lo stesso namespace del percorso di origine.
 * Non puoi saltare a un percorso che inizia con un **Qualificazione del segmento** evento o **Leggi segmento**.
-* Non puoi avere un **[!UICONTROL Jump]** attività e **Qualificazione del segmento** evento o **Leggi segmento** nello stesso percorso.
-* Puoi includere più **[!UICONTROL Jump]** attività necessarie in un percorso. Dopo un **[!UICONTROL Jump]**, puoi aggiungere qualsiasi attività necessaria.
+* Non puoi avere un **[!UICONTROL Salto]** attività e **Qualificazione del segmento** evento o **Leggi segmento** nello stesso percorso.
+* Puoi includere più **[!UICONTROL Salto]** attività necessarie in un percorso. Dopo un **[!UICONTROL Salto]**, puoi aggiungere qualsiasi attività necessaria.
 * Puoi avere tutti i livelli di salto necessari. Ad esempio, il Percorso A passa al percorso B, che passa al percorso C e così via.
-* Il percorso di destinazione può anche includere un numero illimitato di **[!UICONTROL Jump]** le attività necessarie.
-* I pattern di loop non sono supportati. Non c&#39;è modo di collegare due o più percorsi che creerebbero un ciclo infinito. La **[!UICONTROL Jump]** la schermata di configurazione dell’attività non consente di eseguire questa operazione.
+* Il percorso di destinazione può anche includere un numero illimitato di **[!UICONTROL Salto]** le attività necessarie.
+* I pattern di loop non sono supportati. Non c&#39;è modo di collegare due o più percorsi che creerebbero un ciclo infinito. La **[!UICONTROL Salto]** la schermata di configurazione dell’attività non consente di eseguire questa operazione.
 
 ### Esecuzione
 
-* Quando il **[!UICONTROL Jump]** l’attività viene eseguita, viene attivata la versione più recente del percorso di destinazione.
-* Come al solito, un individuo unico può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso di destinazione, l’utente non entrerà nel percorso di destinazione. Non verrà segnalato alcun errore nel **[!UICONTROL Jump]** perché si tratta di un comportamento normale.
+* Quando il **[!UICONTROL Salto]** l’attività viene eseguita, viene attivata la versione più recente del percorso di destinazione.
+* Come al solito, un individuo unico può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso di destinazione, l’utente non entrerà nel percorso di destinazione. Non verrà segnalato alcun errore nel **[!UICONTROL Salto]** perché si tratta di un comportamento normale.
 
 ## Configurazione dell’attività Jump
 
@@ -73,7 +75,7 @@ Nel percorso B, il primo evento viene attivato internamente tramite il **[!UICON
 
    ![](assets/jump1.png)
 
-1. In qualsiasi fase del percorso, aggiungi un **[!UICONTROL Jump]** dall&#39;attività **[!UICONTROL ACTIONS]** categoria. Aggiungi un’etichetta e una descrizione.
+1. In qualsiasi fase del percorso, aggiungi un **[!UICONTROL Salto]** dall&#39;attività **[!UICONTROL AZIONI]** categoria. Aggiungi un’etichetta e una descrizione.
 
    ![](assets/jump2.png)
 
@@ -87,7 +89,7 @@ Nell’elenco sono visualizzate tutte le versioni di percorso 2D, live o in moda
    >Puoi fare clic su **Apri percorso di destinazione** a destra per aprire il percorso di destinazione in una nuova scheda.
 
 1. Seleziona il percorso di destinazione a cui desideri passare.
-La **Primo evento** Il campo è precompilato con il nome del primo evento del percorso di destinazione. Se il percorso di destinazione include più eventi, la **[!UICONTROL Jump]** è consentito solo nel primo evento.
+La **Primo evento** Il campo è precompilato con il nome del primo evento del percorso di destinazione. Se il percorso di destinazione include più eventi, la **[!UICONTROL Salto]** è consentito solo nel primo evento.
 
    ![](assets/jump4.png)
 
@@ -101,9 +103,9 @@ La **Primo evento** Il campo è precompilato con il nome del primo evento del pe
    >
    >L&#39;identità dell&#39;individuo viene mappata automaticamente. Queste informazioni non sono visibili nell’interfaccia.
 
-Le **[!UICONTROL Jump]** l’attività è configurata. Non appena il tuo percorso è attivo o in modalità di test, gli individui che raggiungono **[!UICONTROL Jump]** Il passaggio verrà inviato dal al percorso di destinazione.
+Le **[!UICONTROL Salto]** l’attività è configurata. Non appena il tuo percorso è attivo o in modalità di test, gli individui che raggiungono **[!UICONTROL Salto]** Il passaggio verrà inviato dal al percorso di destinazione.
 
-Quando un **[!UICONTROL Jump]** l’attività è configurata in un percorso, un **[!UICONTROL Jump]** l’icona di ingresso viene aggiunta automaticamente all’inizio del percorso di destinazione. Questo ti aiuta a identificare che il percorso può essere attivato esternamente ma anche internamente da un **[!UICONTROL Jump]** attività.
+Quando un **[!UICONTROL Salto]** l’attività è configurata in un percorso, un **[!UICONTROL Salto]** l’icona di ingresso viene aggiunta automaticamente all’inizio del percorso di destinazione. Questo ti aiuta a identificare che il percorso può essere attivato esternamente ma anche internamente da un **[!UICONTROL Salto]** attività.
 
 ![](assets/jump7.png)
 

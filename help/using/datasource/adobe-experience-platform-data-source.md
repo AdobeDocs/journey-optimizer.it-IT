@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Origine dati Adobe Experience Platform
 description: Scopri come configurare l’origine dati Adobe Experience Platform
 feature: Data Sources
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '430'
 ht-degree: 10%
 
 ---
@@ -38,12 +40,12 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
 
    ![](assets/journey23.png)
 
-1. Fai clic su **[!UICONTROL Add a New Field Group]** definire una nuova serie di campi da recuperare. Consulta [questa pagina](../datasource/configure-data-sources.md#define-field-groups).
+1. Fai clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]** definire una nuova serie di campi da recuperare. Consulta [questa pagina](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](assets/journey24.png)
 
 1. Seleziona uno schema dal **[!UICONTROL Schema]** a discesa. In questo campo sono elencati gli schemi di profili ed eventi di esperienza disponibili in Adobe Experience Platform. La creazione dello schema non viene eseguita in [!DNL Journey Optimizer]. Viene eseguito in Adobe Experience Platform.
 1. Selezionare i campi da utilizzare.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
-Quando si posiziona il cursore sul nome di un gruppo di campi, vengono visualizzate due icone a destra. Consentono di eliminare e duplicare il gruppo di campi. Tieni presente che **[!UICONTROL Delete]** l’icona è disponibile solo se il gruppo di campi non è utilizzato in alcun percorso live o di bozza (informazioni visualizzate nel **[!UICONTROL Used in]** (campo).
+Quando si posiziona il cursore sul nome di un gruppo di campi, vengono visualizzate due icone a destra. Consentono di eliminare e duplicare il gruppo di campi. Tieni presente che **[!UICONTROL Elimina]** l’icona è disponibile solo se il gruppo di campi non è utilizzato in alcun percorso live o di bozza (informazioni visualizzate nel **[!UICONTROL Utilizzato in]** (campo).

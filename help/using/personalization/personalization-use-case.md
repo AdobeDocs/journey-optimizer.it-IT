@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Casi &di utilizzo della personalizzazione; notifica dello stato dell'ordine
 description: Scopri come personalizzare un messaggio con le informazioni sul profilo, la decisione dell’offerta e il contesto.
 feature: Personalization
@@ -6,9 +8,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -30,7 +32,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
 ## Passaggio 1: creare il percorso {#create-journey}
 
-1. Fai clic sul pulsante **[!UICONTROL Journeys]** e creare un nuovo percorso.
+1. Fai clic sul pulsante **[!UICONTROL Percorsi]** e creare un nuovo percorso.
 
    ![](assets/perso-uc4.png)
 
@@ -73,7 +75,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc12.png)
 
-1. Digita il messaggio e inserisci dal **[!UICONTROL Contextual attributes]** menu, il nome dell&#39;elemento dell&#39;ordine e l&#39;avanzamento dell&#39;ordine.
+1. Digita il messaggio e inserisci dal **[!UICONTROL Attributi contestuali]** menu, il nome dell&#39;elemento dell&#39;ordine e l&#39;avanzamento dell&#39;ordine.
 
    ![](assets/perso-uc13.png)
 

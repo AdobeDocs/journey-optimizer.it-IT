@@ -1,14 +1,15 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Funzioni di gestione delle raccolte
 description: Informazioni sui tipi di dati nelle funzioni di gestione della raccolta
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
@@ -61,7 +62,7 @@ Queste funzioni sono spiegate di seguito. Negli esempi seguenti, utilizziamo il 
 
 **La funzione &quot;all(`<condition>`)&quot;**
 
-La **[!UICONTROL all]** attiva la definizione di un filtro per una determinata raccolta utilizzando un&#39;espressione booleana.
+La **[!UICONTROL tutto]** attiva la definizione di un filtro per una determinata raccolta utilizzando un&#39;espressione booleana.
 
 ```json
 <listExpression>.all(<condition>)
@@ -69,7 +70,7 @@ La **[!UICONTROL all]** attiva la definizione di un filtro per una determinata r
 
 Ad esempio, tra tutti gli utenti dell’app, puoi ottenere quelli che utilizzano IOS 13 (espressione booleana &quot;app used == IOS 13&quot;). Il risultato di questa funzione è l’elenco filtrato contenente elementi che corrispondono all’espressione booleana (esempio: utente app 1, utente app 34, utente app 432).
 
-In un’attività Condizione origine dati puoi verificare se il risultato di **[!UICONTROL all]** la funzione è null o meno. Puoi anche combinarlo **[!UICONTROL all]** funzioni con altre funzioni quali **[!UICONTROL count]**. Per ulteriori informazioni, consulta [Attività condizione origine dati](../condition-activity.md#data_source_condition).
+In un’attività Condizione origine dati puoi verificare se il risultato di **[!UICONTROL tutto]** la funzione è null o meno. Puoi anche combinarlo **[!UICONTROL tutto]** funzioni con altre funzioni quali **[!UICONTROL count]**. Per ulteriori informazioni, consulta [Attività condizione origine dati](../condition-activity.md#data_source_condition).
 
 **Esempio 1:**
 
@@ -168,7 +169,7 @@ The result will be:
 >[!NOTE]
 >
 >**[!UICONTROL currentEventField]** è disponibile solo durante la manipolazione delle raccolte di eventi e **currentDataPackField**
->durante la manipolazione delle raccolte di origini dati. Durante l’elaborazione delle raccolte con **[!UICONTROL all]**, **[!UICONTROL first]** e **[!UICONTROL last]**,
+>durante la manipolazione delle raccolte di origini dati. Durante l’elaborazione delle raccolte con **[!UICONTROL tutto]**, **[!UICONTROL first]** e **[!UICONTROL last]**,
 >su ogni elemento della raccolta, uno per uno. **[!UICONTROL currentEventField]** e **currentDataPackField**
 >corrispondono all’elemento a cui si sta ripetendo il ciclo.
 
@@ -219,7 +220,7 @@ currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 
 **La funzione &quot;at(`<index>`)&quot;**
 
-La **[!UICONTROL at]** consente di fare riferimento a un elemento specifico in una raccolta in base a un indice.
+La **[!UICONTROL a]** consente di fare riferimento a un elemento specifico in una raccolta in base a un indice.
 L&#39;indice 0 è il primo indice della raccolta.
 
 _`<listExpression>`.at(`<index>`)_

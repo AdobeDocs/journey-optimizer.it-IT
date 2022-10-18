@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Anteprima dei messaggi e invio delle bozze
 description: Scopri come visualizzare in anteprima e verificare i messaggi
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -53,11 +55,11 @@ Utilizzo [Profili di test](../segment/creating-test-profiles.md) per eseguire il
 
 Per selezionare i profili di test, segui i passaggi seguenti:
 
-1. Nell’interfaccia dei messaggi o nella finestra di progettazione e-mail, fai clic sul pulsante **[!UICONTROL Simulate Content]** per accedere alla selezione del profilo di test.
+1. Nell’interfaccia dei messaggi o nella finestra di progettazione e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per accedere alla selezione del profilo di test.
 
    ![](assets/email-preview-button.png)
 
-1. Seleziona lo spazio dei nomi da utilizzare per identificare i profili di test facendo clic sul pulsante **[!UICONTROL Identity namespace]** icona di selezione.
+1. Seleziona lo spazio dei nomi da utilizzare per identificare i profili di test facendo clic sul pulsante **[!UICONTROL Spazio dei nomi identità]** icona di selezione.
 
    ![](assets/previewselect-namespace.png)
 
@@ -65,11 +67,11 @@ Per selezionare i profili di test, segui i passaggi seguenti:
 
    Nell’esempio seguente, utilizzeremo il **E-mail** spazio dei nomi.
 
-1. Utilizza il campo di ricerca per trovare lo spazio dei nomi, selezionalo e fai clic su **[!UICONTROL Select]**
+1. Utilizza il campo di ricerca per trovare lo spazio dei nomi, selezionalo e fai clic su **[!UICONTROL Seleziona]**
 
    ![](assets/preview-email-namespace.png)
 
-1. Immetti il valore per identificare il profilo di test e fai clic su **[!UICONTROL Add profile]**.
+1. Immetti il valore per identificare il profilo di test e fai clic su **[!UICONTROL Aggiungi profilo]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -87,13 +89,13 @@ Una volta [profili di test](#select-test-profiles) sono selezionati, è possibil
 
 Per visualizzare l’anteprima di un contenuto e-mail, segui i passaggi seguenti:
 
-1. Fai clic sul pulsante **[!UICONTROL Simulate content]** al di sopra del contenuto dell’e-mail.
+1. Fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** al di sopra del contenuto dell’e-mail.
 
 1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
 
    ![](assets/preview-tab-select-profile.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Select data]** , sopra l’elenco per aggiungere o rimuovere colonne.
+1. Fai clic sul pulsante **[!UICONTROL Seleziona dati]** , sopra l’elenco per aggiungere o rimuovere colonne.
 
    ![](assets/preview-select-data.png)
 
@@ -111,7 +113,7 @@ Per visualizzare l’anteprima di un contenuto e-mail, segui i passaggi seguenti
 
 Per visualizzare in anteprima un contenuto di notifiche push, segui i passaggi seguenti:
 
-1. Fai clic sul pulsante **[!UICONTROL Simulate content]** al di sopra del contenuto push.
+1. Fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** al di sopra del contenuto push.
 
 1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
 
@@ -133,11 +135,11 @@ Una bozza è un messaggio specifico che ti consente di testare un messaggio prim
 
 Una volta [profili di test](#select-test-profiles) sono selezionati, è possibile inviare bozze.
 
-1. In **[!UICONTROL Preview]** fai clic su **[!UICONTROL Send proof]** pulsante .
+1. In **[!UICONTROL Anteprima]** fai clic su **[!UICONTROL Invia bozza]** pulsante .
 
    ![](assets/send-proof-button.png)
 
-1. Da **[!UICONTROL Send proof]** finestra, digita l’e-mail del destinatario e fai clic su **[!UICONTROL Add]** per inviare la bozza a te stesso o ai membri delle tue organizzazioni.
+1. Da **[!UICONTROL Invia bozza]** finestra, digita l’e-mail del destinatario e fai clic su **[!UICONTROL Aggiungi]** per inviare la bozza a te stesso o ai membri delle tue organizzazioni.
 
    Puoi aggiungere fino a dieci destinatari per la consegna delle prove.
 
@@ -149,11 +151,11 @@ Una volta [profili di test](#select-test-profiles) sono selezionati, è possibil
 
 1. Se necessario, puoi aggiungere un prefisso alla riga dell’oggetto della bozza. Solo caratteri alfanumerici e caratteri speciali, ad esempio . - _ ( ) [ ], sono consentiti come prefisso alla riga dell’oggetto.
 
-1. Fai clic su **[!UICONTROL Send proof]**.
+1. Fai clic su **[!UICONTROL Invia bozza]**.
 
    ![](assets/send-proof-select.png)
 
-1. Indietro nel  **[!UICONTROL Preview]** fai clic su  **[!UICONTROL View proofs]** per controllare lo stato.
+1. Indietro nel  **[!UICONTROL Anteprima]** fai clic su  **[!UICONTROL Visualizza bozze]** per controllare lo stato.
 
    ![](assets/send-proof-view.png)
 
@@ -174,7 +176,7 @@ Per accedere alle funzionalità di rendering di e-mail, devi:
 
 Quindi, segui i passaggi seguenti:
 
-1. In E-mail Designer, fai clic sul pulsante **[!UICONTROL Preview]** e seleziona il pulsante **[!UICONTROL Email rendering]** scheda .
+1. In E-mail Designer, fai clic sul pulsante **[!UICONTROL Anteprima]** e seleziona il pulsante **[!UICONTROL Rendering di e-mail]** scheda .
 
 1. Fai clic su **Collegare l&#39;account Litmus** nella parte superiore destra.
 

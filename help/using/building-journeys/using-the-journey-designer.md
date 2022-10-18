@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Progettazione del percorso
 description: Scopri come progettare il percorso
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 3%
 
 ---
@@ -24,31 +26,31 @@ L’interfaccia di percorso ti consente di trascinare facilmente le attività da
 
 ## Guida introduttiva alla progettazione di percorsi {#gs-journey-design}
 
-La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disponibili sono suddivise in diverse categorie: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** e **[!UICONTROL Actions]**. È possibile espandere o comprimere le diverse categorie facendo clic sul loro nome. Per utilizzare un’attività nel percorso, trascinala dalla palette nell’area di lavoro.
+La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disponibili sono suddivise in diverse categorie: **[!UICONTROL Eventi]**, **[!UICONTROL Orchestrazione]** e **[!UICONTROL Azioni]**. È possibile espandere o comprimere le diverse categorie facendo clic sul loro nome. Per utilizzare un’attività nel percorso, trascinala dalla palette nell’area di lavoro.
 
 Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l’attività della condizione, l’attesa e la reazione.
 
 ![](assets/journey38.png)
 
-La **[!UICONTROL Filter items]** nell’angolo in alto a sinistra consente di visualizzare i seguenti filtri:
+La **[!UICONTROL Filtrare gli elementi]** nell’angolo in alto a sinistra consente di visualizzare i seguenti filtri:
 
 * **Mostra solo gli elementi disponibili**: nascondere o visualizzare gli elementi non disponibili nella palette, ad esempio gli eventi che utilizzano uno spazio dei nomi diverso da quelli utilizzati nel percorso. Per impostazione predefinita, gli elementi non disponibili sono nascosti. Se scegli di visualizzarli, verranno visualizzati in grigio.
 
 * **Mostra solo elementi recenti**: questo filtro consente di visualizzare solo gli ultimi cinque eventi e azioni utilizzati, oltre a quelli predefiniti. Questo è specifico per ogni utente. Per impostazione predefinita, vengono visualizzati tutti gli elementi.
 
-È inoltre possibile utilizzare **[!UICONTROL Search]** campo . Solo gli eventi e le azioni vengono filtrati.
+È inoltre possibile utilizzare **[!UICONTROL Ricerca]** campo . Solo gli eventi e le azioni vengono filtrati.
 
 La **tela** è la zona centrale del designer del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro.
 
 ![](assets/journey39.png)
 
-La **riquadro di configurazione delle attività** viene visualizzato quando si fa clic su un’attività nella palette. Compila i campi richiesti. Fai clic sul pulsante **[!UICONTROL Delete]** per eliminare l’attività. Fai clic su **[!UICONTROL Cancel]** annullare le modifiche o **[!UICONTROL Ok]** per confermare. Per eliminare le attività, puoi anche selezionare una (o più) attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
+La **riquadro di configurazione delle attività** viene visualizzato quando si fa clic su un’attività nella palette. Compila i campi richiesti. Fai clic sul pulsante **[!UICONTROL Elimina]** per eliminare l’attività. Fai clic su **[!UICONTROL Annulla]** annullare le modifiche o **[!UICONTROL Ok]** per confermare. Per eliminare le attività, puoi anche selezionare una (o più) attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
 
 Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visualizzare campi di sola lettura, fai clic sul pulsante **Mostra campi di sola lettura** in alto a sinistra nel riquadro di configurazione dell’attività. Questa impostazione si applica a tutte le attività in tutti i percorsi.
 
 ![](assets/journey59bis.png)
 
-A seconda dello stato del percorso, è possibile eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante del registro della modalità di prova viene visualizzato quando viene attivata la modalità di prova.
+A seconda dello stato del percorso, è possibile eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell’angolo in alto a destra: **[!UICONTROL Pubblica]**, **[!UICONTROL Duplica]**, **[!UICONTROL Elimina]**, **[!UICONTROL Proprietà percorso]**, **[!UICONTROL Test]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante del registro della modalità di prova viene visualizzato quando viene attivata la modalità di prova.
 
 ![](assets/journey41.png)
 
@@ -88,9 +90,9 @@ Troverai anche le azioni personalizzate configurate per l’invio di messaggi co
 
 ## Aggiungi percorsi alternativi{#paths}
 
-Puoi definire un’azione di fallback in caso di errore o timeout per le seguenti attività del percorso: **[!UICONTROL Condition]** e **[!UICONTROL Action]**.
+Puoi definire un’azione di fallback in caso di errore o timeout per le seguenti attività del percorso: **[!UICONTROL Condizione]** e **[!UICONTROL Azione]**.
 
-Per aggiungere un’azione di fallback a un’attività, seleziona la **[!UICONTROL Add an alternative path in case of a timeout or an error]** nelle proprietà dell’attività: dopo l’attività viene aggiunto un altro percorso. La durata del timeout è definita dagli utenti amministratori nel [Proprietà percorso](../building-journeys/journey-gs.md#change-properties). Ad esempio, se l’invio di un’e-mail richiede troppo tempo o si verifica un errore, puoi decidere di inviare una notifica push.
+Per aggiungere un’azione di fallback a un’attività, seleziona la **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]** nelle proprietà dell’attività: dopo l’attività viene aggiunto un altro percorso. La durata del timeout è definita dagli utenti amministratori nel [Proprietà percorso](../building-journeys/journey-gs.md#change-properties). Ad esempio, se l’invio di un’e-mail richiede troppo tempo o si verifica un errore, puoi decidere di inviare una notifica push.
 
 ![](assets/journey42.png)
 
@@ -98,7 +100,7 @@ Varie attività (evento, azione, attesa) ti consentono di aggiungere diversi per
 
 Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una buona pratica. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività di attesa in parallelo. Vedi [questa sezione](../building-journeys/general-events.md#events-specific-time).
 
-Per eliminare il percorso, posiziona il cursore su di esso e fai clic sul pulsante **[!UICONTROL Delete path]** icona.
+Per eliminare il percorso, posiziona il cursore su di esso e fai clic sul pulsante **[!UICONTROL Elimina percorso]** icona.
 
 ![](assets/journey42ter.png)
 

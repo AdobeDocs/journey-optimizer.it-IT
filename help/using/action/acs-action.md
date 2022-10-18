@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Integrare con Adobe Campaign Standard
 description: Scopri come integrare con Adobe Campaign Standard
 feature: Actions
@@ -6,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d1902ac35d78ba73051b41b4fc82dc284382d1a4
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '426'
 ht-degree: 5%
 
 ---
@@ -35,7 +37,7 @@ Per poter essere utilizzato in Journey Optimizer, è necessario pubblicare il me
 
 Di seguito sono riportati i passaggi per configurarlo:
 
-1. Seleziona **[!UICONTROL Configurations]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Actions]** sezione, fai clic su **[!UICONTROL Manage]**. Viene visualizzato l’elenco delle azioni.
+1. Seleziona **[!UICONTROL Configurazioni]** nella sezione menu AMMINISTRAZIONE . In  **[!UICONTROL Azioni]** sezione, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni.
 
 1. Seleziona il predefinito **[!UICONTROL AdobeCampaignStandard]** azione. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
 
@@ -43,7 +45,7 @@ Di seguito sono riportati i passaggi per configurarlo:
 
 1. Copia l’URL dell’istanza di Adobe Campaign Standard e incollalo nel **[!UICONTROL URL]** campo .
 
-1. Fai clic sul pulsante **[!UICONTROL Test the instance URL]** per verificare la validità dell’istanza.
+1. Fai clic sul pulsante **[!UICONTROL Verifica l’URL dell’istanza]** per verificare la validità dell’istanza.
 
    >[!NOTE]
    >
@@ -55,7 +57,7 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >L&#39;ORG associato a questa istanza di Adobe Campaign Standard è uguale all&#39;ORG di Journey Optimizer.
 
-Durante la progettazione del percorso, saranno disponibili tre azioni nella sezione **[!UICONTROL Action]** categoria: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (vedi [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Durante la progettazione del percorso, saranno disponibili tre azioni nella sezione **[!UICONTROL Azione]** categoria: **[!UICONTROL E-mail]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (vedi [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
 
 ![](assets/journey58.png)
 

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Panoramica sulla condivisione delle fasi del percorso
 description: Panoramica sulla condivisione delle fasi del percorso
 feature: Reporting
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ L’elenco dei campi XDM passati è completo. Alcuni contengono codici generati 
 
 >[!CAUTION]
 >
->Impossibile attivare i set di dati per il servizio di profilo in tempo reale. Assicurati che la **[!UICONTROL Profile]** l&#39;interruttore è disattivato.
+>Impossibile attivare i set di dati per il servizio di profilo in tempo reale. Assicurati che la **[!UICONTROL Profilo]** l&#39;interruttore è disattivato.
 
 [!DNL Journey Optimizer] invia i dati mentre si verificano, in modo streaming. È possibile eseguire query su questi dati utilizzando il servizio query. È possibile connettersi a strumenti di Customer Journey Analytics o altri strumenti BI per visualizzare i dati relativi a questi passaggi.
 

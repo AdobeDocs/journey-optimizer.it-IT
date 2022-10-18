@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Versioni del percorso
 description: Informazioni sulle versioni di percorso
 feature: Journeys
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -31,7 +33,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
 >
 >Per ulteriori informazioni sulle versioni di percorso protezioni e limitazioni, consulta [questa pagina](../start/guardrails.md#journey-versions-limitations)
 
-1. Apri la versione più recente del percorso live e fai clic su **[!UICONTROL Create a new version]** e confermare.
+1. Apri la versione più recente del percorso live e fai clic su **[!UICONTROL Creare una nuova versione]** e confermare.
 
    ![](assets/journeyversions2.png)
 
@@ -39,7 +41,7 @@ Se devi modificare un percorso live, devi creare una nuova versione del percorso
    >
    >Puoi creare una nuova versione solo dall’ultima versione di un percorso.
 
-1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Publish]** e confermare.
+1. Apporta le modifiche desiderate, fai clic su **[!UICONTROL Pubblica]** e confermare.
 
    ![](assets/journeyversions3.png)
 

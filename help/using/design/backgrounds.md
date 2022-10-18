@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Personalizza lo sfondo dell’e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
 feature: Overview
@@ -6,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -28,11 +30,11 @@ Quando si tratta di impostare gli sfondi con E-mail Designer, l’Adobe consigli
 
 Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile utilizzare.
 
-* Imposta un **[!UICONTROL Background color]** per l&#39;intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
+* Imposta un **[!UICONTROL Colore di sfondo]** per l&#39;intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
 
    ![](assets/background_1.png)
 
-* Per impostare lo stesso colore di sfondo per tutti i componenti struttura, seleziona **[!UICONTROL Viewport background color]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
+* Per impostare lo stesso colore di sfondo per tutti i componenti struttura, seleziona **[!UICONTROL Colore di sfondo del riquadro di visualizzazione]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
 
    ![](assets/background_2.png)
 
@@ -42,7 +44,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile
 
    ![](assets/background_3.png)
 
-* Imposta un **[!UICONTROL Background image]** per il contenuto di un componente struttura.
+* Imposta un **[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
 
    >[!NOTE]
    >

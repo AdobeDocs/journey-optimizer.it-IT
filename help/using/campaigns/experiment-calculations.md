@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Calcoli statistici utilizzati dalla sperimentazione Adobe Journey Optimizer
 description: Ulteriori informazioni sui calcoli statistici utilizzati durante l'esecuzione di esperimenti
 feature: A/B Testing
@@ -8,10 +10,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
