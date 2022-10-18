@@ -2,9 +2,9 @@
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2005'
 ht-degree: 99%
 
 ---
@@ -53,7 +53,6 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Giugno 2022 {#june-2022}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di giugno 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
-* Alla documentazione è stata aggiunta una nuova sezione sui criteri di utilizzo dei dati. [Ulteriori informazioni](../privacy/policies.md)
 * Alla documentazione è stata aggiunta una nuova sezione sulle richieste di accesso ai dati personali. [Ulteriori informazioni](../privacy/requests.md)
 * Alla documentazione è stata aggiunta una nuova sezione sui registri di audit sulle risorse. [Ulteriori informazioni](../privacy/audit-logs.md)
 * Alla documentazione è stata aggiunta una nuova sezione su come aggiungere a una rappresentazione dell’offerta dei contenuti HTML o JSON provenienti dalla libreria di risorse di Adobe Experience Cloud. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,17 @@ Set di dati per memorizzare i metadati delle entità per i messaggi inviati all�
 
 Lo schema correlato è lo schema di entità AJO.
 
-Questo set di dati ti consente di arricchire vari set di dati con metadati semplici per gli addetti al marketing. L’attributo messageID consente di unire vari set di dati come set di dati di feedback dei messaggi e set di dati di tracciamento degli eventi di esperienza per ottenere i dettagli di una consegna dei messaggi dall’invio al tracciamento a livello di profilo.
+Questo set di dati consente di accedere ai metadati definiti dall’addetto al marketing, che consentono di ottenere migliori informazioni sui rapporti quando i set di dati Journey Optimizer vengono esportati per la visualizzazione dei rapporti in strumenti esterni. Questo si ottiene utilizzando l’attributo messageID che consente di unire vari set di dati come set di dati di feedback dei messaggi e set di dati di tracciamento degli eventi di esperienza per ottenere i dettagli di una consegna dei messaggi dall’invio al tracciamento a livello di profilo.
+
+**Note importanti**
+
+* Una voce per un messaggio viene creata solo dopo la pubblicazione del percorso o della campagna.
+
+* È possibile visualizzare la voce 30 minuti dopo la pubblicazione della campagna/percorso.
+
+>[!NOTE]
+>
+>Al momento, per motivi di compatibilità futuri, nel set di dati di entità sono presenti due voci per ogni pubblicazione di messaggi. Questo non influisce sulla capacità di utilizzare le query di join in base alle esigenze tra i set di dati per recuperare le informazioni desiderate.
 
 La seguente query ti aiuta a ottenere il modello di messaggio associato per una determinata campagna:
 
