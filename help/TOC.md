@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 96%
+source-wordcount: '1203'
+ht-degree: 95%
 
 ---
 
@@ -243,11 +243,14 @@ ht-degree: 96%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casi d’uso {#journey-use-cases}
-      + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
-      + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
-      + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
-      + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
+      + Casi d&#39;uso aziendali {#business-use-cases}
+         + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
+         + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
+      + Casi d&#39;uso tecnico {#technical-use-cases}
+         + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
+         + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Limitare il throughput con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
 + Tracciare e monitorare {#reporting}
    + Report live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
