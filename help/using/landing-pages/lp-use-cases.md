@@ -97,7 +97,7 @@ Ulteriori informazioni sulla gestione del consenso dei destinatari e sull’impo
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio. Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target=&quot;_blank&quot;}.
 
-Pertanto, devi sempre includere un **collegamento che consenta di annullare l’abbonamento** in ogni e-mail inviata ai destinatari:
+Pertanto, devi sempre includere un **collegamento che consenta di annullare l’iscrizione** in ogni e-mail inviata ai destinatari:
 
 * Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare l’opt-out.
 * Facendo clic sul pulsante di rinuncia, i dati del profilo vengono aggiornati con queste informazioni.

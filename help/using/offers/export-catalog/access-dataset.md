@@ -8,14 +8,14 @@ level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '100'
 ht-degree: 10%
 
 ---
 
 # Accedere al catalogo delle offerte esportato {#access-exported-catalog}
 
-Il catalogo delle offerte esportato è accessibile in Adobe Experience Platform **[!UICONTROL Datasets]** menu. Viene creato un set di dati per ogni oggetto della Libreria offerte.
+Il catalogo delle offerte esportato è accessibile in Adobe Experience Platform **[!UICONTROL Set di dati]** menu. Viene creato un set di dati per ogni oggetto della Libreria offerte.
 
 ![](../assets/datasets-list.png)
 
@@ -23,7 +23,7 @@ Fai clic su un set di dati per accedere ai relativi dettagli.
 
 ![](../assets/dataset-activity.png)
 
-La **[!UICONTROL Preview dataset]** consente di visualizzare il batch di successo più recente nel set di dati. Il riquadro a sinistra fornisce informazioni sui tipi di dati esportati.
+La **[!UICONTROL Anteprima set di dati]** consente di visualizzare il batch di successo più recente nel set di dati. Il riquadro a sinistra fornisce informazioni sui tipi di dati esportati.
 
 ![](../assets/dataset-preview.png)
 

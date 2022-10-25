@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui l
 
 >[!NOTE]
 >
->In conformità agli standard e alle normative del settore, tutti i messaggi di marketing SMS devono contenere un modo per consentire ai destinatari di annullare facilmente l’iscrizione. A tal fine, i destinatari SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A tal fine, i destinatari SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 È possibile creare le consegne SMS:
 

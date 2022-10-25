@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestire l’opt-out
+title: Gestire la rinuncia
 description: Scopri come gestire l’opt-out e la privacy
 feature: Journeys
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
-# Gestire l’opt-out {#consent}
+# Gestire la rinuncia {#consent}
 
 Utilizza [!DNL Journey Optimizer] per tenere traccia del consenso dei destinatari alle comunicazioni e capire in che modo desiderano interagire con il tuo marchio gestendo le preferenze e gli abbonamenti.
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni sulla gestione della privacy e sulle normative applic
 
 Come requisito legale, è necessario dare ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio. Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target=&quot;_blank&quot;}.
 
-Pertanto, devi sempre includere un **collegamento che consenta di annullare l’abbonamento** in ogni e-mail inviata ai destinatari:
+Pertanto, devi sempre includere un **collegamento che consenta di annullare l’iscrizione** in ogni e-mail inviata ai destinatari:
 
 * Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare la rinuncia.
 * Dopo aver confermato la scelta, i dati dei profili verranno aggiornati con queste informazioni.
@@ -47,11 +47,11 @@ Pertanto, devi sempre includere un **collegamento che consenta di annullare l’
 
 ### Rinuncia esterna {#opt-out-external-lp}
 
-In questo caso, puoi inserire in un’e-mail un collegamento a una pagina di destinazione esterna per consentire agli utenti di annullare l’abbonamento alla ricezione di comunicazioni dal tuo marchio.
+In questo caso, puoi inserire in un’e-mail un collegamento a una pagina di destinazione esterna per consentire agli utenti di annullare l’iscrizione alla ricezione di comunicazioni dal tuo marchio.
 
-#### Aggiungere un collegamento per annullare l’abbonamento {#add-unsubscribe-link}
+#### Aggiungere un collegamento per annullare l’iscrizione {#add-unsubscribe-link}
 
-Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annullare l’abbonamento. Per farlo, segui la procedura indicata di seguito:
+Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annullare l’iscrizione. Per farlo, segui la procedura indicata di seguito:
 
 1. Crea la pagina di destinazione per l’annullamento dell’abbonamento.
 
@@ -115,13 +115,13 @@ Corpo della richiesta:
 
 [!DNL Journey Optimizer] utilizzerà questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata API di [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}.
 
-#### Inviare il messaggio con il collegamento per annullare l’abbonamento {#send-message-unsubscribe-link}
+#### Inviare il messaggio con il collegamento per annullare l’iscrizione {#send-message-unsubscribe-link}
 
-Una volta configurato il collegamento che apre la pagina di destinazione in cui sarà possibile per annullare l’abbonamento, e implementata la chiamata API, il messaggio è pronto per essere inviato.
+Una volta configurato il collegamento che apre la pagina di destinazione in cui sarà possibile per annullare l’iscrizione, e implementata la chiamata API, il messaggio è pronto per essere inviato.
 
 1. Invia il messaggio contenente il collegamento tramite un [percorso](../building-journeys/journey.md).
 
-1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento per annullare l’abbonamento, viene visualizzata la pagina di destinazione.
+1. Una volta ricevuto il messaggio, se il destinatario fa clic sul collegamento per annullare l’iscrizione, viene visualizzata la pagina di destinazione.
 
    ![](assets/opt-out-lp-example.png)
 
@@ -141,7 +141,7 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
 
 ### Rinuncia con un clic {#one-click-opt-out}
 
-Poiché molti clienti cercano un processo più semplice per annullare l’abbonamento, puoi anche aggiungere al contenuto dell’e-mail un collegamento di rinuncia con un solo clic. Questo collegamento consentirà ai destinatari di annullare rapidamente l’abbonamento alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui confermare la rinuncia, per una procedura più snella.
+Poiché molti clienti cercano un processo più semplice per annullare l’iscrizione, puoi anche aggiungere al contenuto dell’e-mail un collegamento di rinuncia con un solo clic. Questo collegamento consentirà ai destinatari di annullare rapidamente l’iscrizione alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui confermare la rinuncia, per una procedura più snella.
 
 Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura seguente.
 
@@ -157,7 +157,7 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
    * **[!UICONTROL Identità]**: la rinuncia viene applicata ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
    * **[!UICONTROL Iscrizione]**: la rinuncia viene applicata ai messaggi futuri associati a un elenco iscrizioni specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
 
-1. Immetti l’URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullato l’abbonamento. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
+1. Immetti l’URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullata l’iscrizione. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
 
    >[!NOTE]
    >
@@ -175,8 +175,8 @@ Quando il messaggio viene inviato tramite un [percorso](../building-journeys/jou
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
->title="Aggiungi un collegamento per annullare l’iscrizione all’intestazione dell’e-mail"
->abstract="Abilita Annulla iscrizione mailing list  per aggiungere un collegamento di annullamento iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
+>title="Aggiungi un collegamento per annullare l’iscrizione nell’intestazione dell’e-mail"
+>abstract="Abilita Annulla iscrizione mailing list per aggiungere un collegamento di annullamento iscrizione nell’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Rinuncia con un clic"
 
 Se l’opzione [Annullamento iscrizione a mailing list](../configuration/channel-surfaces.md#list-unsubscribe) è attiva a livello di superficie di canale, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includeranno un collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail.
@@ -213,14 +213,14 @@ Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegli
 
 ## Gestione della rinuncia agli SMS {#sms-opt-out-management}
 
-In conformità agli standard e alle normative del settore, tutti i messaggi di marketing SMS devono contenere un modo per consentire ai destinatari di annullare facilmente l’iscrizione. Una volta annullato l’abbonamento, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri.
+In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. Una volta annullata l’iscrizione, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri.
 
 >[!NOTE]
 >
->L’aggiunta di un collegamento di annullamento all’abbonamento non è obbligatoria per i messaggi transazionali.
+>L’aggiunta di un collegamento di annullamento dell’iscrizione non è obbligatoria per i messaggi transazionali.
 
-Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: **INIZIO**, **FERMARE** e **DISARRESTO**. Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
+Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: **START**, (AVVIA), **STOP** (INTERROMPI) e **UNSTOP** (RIPRENDI). Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
 
-Per ulteriori informazioni sul funzionamento del supporto nativo per parole chiave in entrata (start, stop e unstop) per SMS, consulta il seguente video:
+Per ulteriori informazioni sul funzionamento del supporto nativo per parole chiave in entrata (start, stop e unstop) per SMS, guarda il seguente video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Lavorare con il quadro di composizione
+title: Lavorare nell’area di lavoro per la composizione
 description: Scopri come lavorare con l’area di lavoro della composizione
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Lavorare con il quadro di composizione {#composition-canvas}
+# Lavorare nell’area di lavoro per la composizione {#composition-canvas}
 
 L’area di lavoro della composizione è un’area di lavoro visiva che consente di creare composizioni sfruttando il pubblico e le attività (divise, escluse..).
 
@@ -181,6 +181,6 @@ Una volta pronta la composizione, puoi pubblicarla. [Scopri come creare le compo
 
 Per saperne di più:
 
-* [Introduzione alla composizione dell’audience](get-started-audience-orchestration.md)
-* [Creazione di flussi di lavoro di composizione](create-compositions.md)
+* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
+* [Creare flussi di lavoro di composizione](create-compositions.md)
 * [Accesso e gestione dei tipi di pubblico](access-audiences.md)

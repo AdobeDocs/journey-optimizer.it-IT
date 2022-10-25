@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 6%
+source-wordcount: '451'
+ht-degree: 5%
 
 ---
 
@@ -46,11 +46,11 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 1. Per ogni posizionamento, aggiungi una raccolta. Vedi [Creare raccolte](../offer-library/creating-collections.md).
 
-1. Seleziona **[!UICONTROL Ranking formula]** come metodo di classificazione, quindi fare clic su **[!UICONTROL Add ranking]**.
+1. Seleziona **[!UICONTROL Formula di classificazione]** come metodo di classificazione, quindi fare clic su **[!UICONTROL Aggiungi classificazione]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Seleziona la formula di classificazione desiderata, quindi fai clic su **[!UICONTROL Select]**.
+1. Seleziona la formula di classificazione desiderata, quindi fai clic su **[!UICONTROL Seleziona]**.
 
    ![](../assets/ranking-selection.png)
 
@@ -72,7 +72,7 @@ Una volta creata una strategia di classificazione, puoi assegnarla a un posizion
 
 1. Per ogni posizionamento, aggiungi una raccolta. Vedi [Creare raccolte](../offer-library/creating-collections.md).
 
-1. Scegli di classificare le offerte per **[!UICONTROL AI ranking]** dall’elenco a discesa e fai clic su **[!UICONTROL Add ranking]**.
+1. Scegli di classificare le offerte per **[!UICONTROL Classificazione dell’intelligenza artificiale]** dall’elenco a discesa e fai clic su **[!UICONTROL Aggiungi classificazione]**.
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
@@ -80,7 +80,7 @@ Una volta creata una strategia di classificazione, puoi assegnarla a un posizion
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Fai clic su **[!UICONTROL Select]**. La strategia di classificazione è ora associata al posizionamento.
+1. Fai clic su **[!UICONTROL Seleziona]**. La strategia di classificazione è ora associata al posizionamento.
 
 Se sono ammissibili più offerte, il sistema di modelli addestrati determinerà quale offerta presentare prima per un determinato posizionamento.
 

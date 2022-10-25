@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1738'
+ht-degree: 3%
 
 ---
 
@@ -238,7 +238,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#leftTrim">Taglio a sinistra</a></td><td>Questa funzione rimuove gli spazi bianchi dall'inizio di una stringa</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o un'espressione</td>
+        <td><a href="string.md#length">Lunghezza</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o un'espressione</td>
     </tr>
     <tr>
         <td><a href="string.md#like">Simile</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>

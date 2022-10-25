@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
-source-wordcount: '1546'
+source-wordcount: '1550'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Il batch di successo più recente nel set di dati viene visualizzato a destra. L
 >
 >Scopri come accedere ai set di dati esportati per ciascun oggetto della Libreria offerte in [questa sezione](../export-catalog/access-dataset.md).
 
-Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decision Object Repository - Decisions]** set di dati (precedentemente noto come archivio oggetti decisionali - Attività).
+Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archivio oggetti decisionali - Decisioni]** set di dati (precedentemente noto come archivio oggetti decisionali - Attività).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 

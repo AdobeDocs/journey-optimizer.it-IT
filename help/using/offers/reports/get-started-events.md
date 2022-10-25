@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 57%
+source-wordcount: '175'
+ht-degree: 56%
 
 ---
 
@@ -19,11 +19,11 @@ Ogni volta che la Gestione delle decisioni decide per un determinato profilo, le
 
 Puoi quindi esportare questi dati per analizzarli nel tuo sistema di reporting. Puoi anche sfruttare Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) in combinazione con altri strumenti per migliorare le funzioni di analisi e reporting.
 
-I set di dati contenenti eventi di Gestione decisioni sono accessibili da Adobe Experience Platform **[!UICONTROL Datasets]** menu. Al momento del provisioning di ciascuna istanza viene creato automaticamente un set di dati.
+I set di dati contenenti eventi di Gestione decisioni sono accessibili da Adobe Experience Platform **[!UICONTROL Set di dati]** menu. Al momento del provisioning di ciascuna istanza viene creato automaticamente un set di dati.
 
 ![](../assets/events-datasets-list.png)
 
-Questi set di dati sono basati su **[!UICONTROL ODE DecisionEvents]** schema, che contiene tutti i campi XDM necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
+Questi set di dati sono basati su **[!UICONTROL Decisioni ODE]** schema, che contiene tutti i campi XDM necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
 
 >[!NOTE]
 >

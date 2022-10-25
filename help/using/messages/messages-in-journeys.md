@@ -10,7 +10,7 @@ level: Beginner
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 92%
 >title="Superficie di canale"
 >abstract="Una superficie di canale è un’istanza di quel canale che dispone di tutte le impostazioni per consegnare correttamente un’azione tramite una campagna o un percorso. Viene definita da un amministratore di sistema."
 
-Nei percorsi, utilizza le azioni del canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un’e-mail, un SMS o un’azione push all’area di lavoro del percorso, stai creando un invio attivato. Quando i contatti arrivano a tale azione del canale, Adobe Journey Optimizer invia automaticamente il messaggio.
+Nei percorsi, utilizza le azioni del canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un’azione e-mail, SMS o push all’area di lavoro del percorso, di fatto crei un invio attivato. Quando i contatti arrivano a tale azione del canale, Adobe Journey Optimizer invia automaticamente il messaggio.
 
 
 >[!NOTE]
 >Puoi anche creare campagne per l’invio di messaggi pianificati. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md).
 
 
-Per aggiungere messaggi in un percorso, aggiungi un’attività push, SMS o e-mail nell’area di lavoro del percorso.
+Per aggiungere messaggi in un percorso, è sufficiente aggiungere un’attività push, SMS o e-mail nell’area di lavoro del percorso.
 
 1. Inizia il tuo percorso con un [Evento](../building-journeys/general-events.md) o un’attività [Leggi segmento](../building-journeys/read-segment.md).
 
@@ -52,7 +52,7 @@ Per aggiungere messaggi in un percorso, aggiungi un’attività push, SMS o e-ma
    >
    >* Se hai definito delle [regole di frequenza](../configuration/frequency-rules.md) per un canale e una categoria specifici, queste vengono applicate automaticamente al messaggio selezionando tale canale e categoria. Attualmente, per le regole di frequenza è disponibile solo la categoria **[!UICONTROL Marketing]**.
    >
-   >* I messaggi di marketing devono includere [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management). Questo non è necessario per i messaggi transazionali, in quanto possono essere inviati a profili che hanno annullato l’iscrizione a comunicazioni di marketing.
+   >* I messaggi di tipo Marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management). Questo non è necessario per i messaggi transazionali, in quanto possono essere inviati a profili che hanno annullato l’iscrizione a comunicazioni di marketing.
 
 
 1. Seleziona la **[!UICONTROL Superficie]** di canale (ossia il predefinito per messaggi) da utilizzare per inviare il messaggio.

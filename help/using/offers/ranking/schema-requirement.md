@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '174'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ A questo punto, devi disporre di:
 * definito il tipo di evento da acquisire - offerta visualizzata (impression) e/o offerta su cui si è fatto clic (conversione),
 * e in cui desideri raccogliere i dati dell’evento.
 
-Ora ogni volta che un’offerta viene visualizzata e/o fai clic su di essa, desideri che l’evento corrispondente venga catturato automaticamente da **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} o Mobile SDK.
+Ora ogni volta che un’offerta viene visualizzata e/o fai clic su di essa, desideri che l’evento corrispondente venga catturato automaticamente da **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} o Mobile SDK.
 
 Per poter inviare tipi di evento (offerta visualizzata o offerta su cui è stato fatto clic), devi impostare il valore corretto per ciascun tipo di evento in un evento di esperienza inviato in Adobe Experience Platform. Di seguito sono riportati i requisiti dello schema da implementare nel codice JavaScript:
 

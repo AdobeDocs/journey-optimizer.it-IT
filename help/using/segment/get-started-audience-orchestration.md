@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alla composizione dell’audience
+title: Introduzione alla composizione dei tipi di pubblico
 description: Ulteriori informazioni sulla composizione del pubblico
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Introduzione alla composizione dell’audience {#get-start-audience-composition}
+# Introduzione alla composizione dei tipi di pubblico {#get-start-audience-composition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -55,6 +55,6 @@ La composizione del pubblico è accessibile dal **[!UICONTROL Segmenti]** menu:
 
 Per saperne di più:
 
-* [Creazione di flussi di lavoro di composizione](create-compositions.md)
-* [Lavorare con il quadro di composizione](composition-canvas.md)
+* [Creare flussi di lavoro di composizione](create-compositions.md)
+* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
 * [Accesso e gestione dei tipi di pubblico](access-audiences.md)

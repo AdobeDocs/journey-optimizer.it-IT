@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -35,14 +35,14 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 <table>
 <thead>
 <tr>
-<th><strong>Contenuto dinamico e nuovo generatore di regole condizionali</strong><br/></th>
+<th><strong>Contenuti dinamici e nuovo generatore di regole condizionali</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare contenuti dinamici per adattare il contenuto dei messaggi in base a regole condizionali.</p> 
-<p>Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.</p>
+<p>Ora puoi creare contenuti dinamici per adattare il contenuto dei messaggi in base alle regole condizionali.</p> 
+<p>Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor di espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/get-started-dynamic-content.md">documentazione dettagliata</a>.
 </td>

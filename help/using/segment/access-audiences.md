@@ -12,7 +12,7 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 1%
+ht-degree: 14%
 
 ---
 
@@ -43,6 +43,6 @@ Per assegnare etichette di utilizzo dati personalizzate o di base a un pubblico,
 
 Per saperne di più:
 
-* [Introduzione alla composizione dell’audience](get-started-audience-orchestration.md)
-* [Creazione di flussi di lavoro di composizione](create-compositions.md)
-* [Lavorare con il quadro di composizione](composition-canvas.md)
+* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
+* [Creare flussi di lavoro di composizione](create-compositions.md)
+* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '330'
+ht-degree: 10%
 
 ---
 
@@ -21,13 +21,13 @@ Ad esempio, puoi specificare che desideri che venga visualizzata solo “Offerta
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L&#39;elenco delle regole decisionali create è accessibile nella **[!UICONTROL Components]** menu.
+L&#39;elenco delle regole decisionali create è accessibile nella **[!UICONTROL Componenti]** menu.
 
 ![](../assets/decision_rules_list.png)
 
 Per creare una regola decisionale, effettua le seguenti operazioni:
 
-1. Vai a **[!UICONTROL Rules]** scheda , quindi fai clic su **[!UICONTROL Create rule]**.
+1. Vai a **[!UICONTROL Regole]** scheda , quindi fai clic su **[!UICONTROL Crea regola]**.
 
    ![](../assets/offers_decision_rule_creation.png)
 
@@ -41,9 +41,9 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Audience Destinations]** servizio. Ad esempio, il **[!UICONTROL Segments]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) la documentazione è ancora valida per generare le regole decisionali delle offerte. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Destinazioni pubblico]** servizio. Ad esempio, il **[!UICONTROL Segmenti]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) la documentazione è ancora valida per generare le regole decisionali delle offerte. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Segment properties]** visualizza informazioni sui profili stimati appartenenti al segmento. Fai clic su **[!UICONTROL Refresh estimate]** per aggiornare i dati.
+1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Proprietà del segmento]** visualizza informazioni sui profili stimati appartenenti al segmento. Fai clic su **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
@@ -51,9 +51,9 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
    >
    >Le stime del profilo non sono disponibili quando i parametri delle regole includono dati non presenti nel profilo, ad esempio dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia ≥ 80 gradi.
 
-1. Fai clic su **[!UICONTROL Save]** per confermare.
+1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
-1. Una volta creata la regola, questa viene visualizzata nella **[!UICONTROL Rules]** elenco. È possibile selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
+1. Una volta creata la regola, questa viene visualizzata nella **[!UICONTROL Regole]** elenco. È possibile selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
 
    ![](../assets/rule_created.png)
 

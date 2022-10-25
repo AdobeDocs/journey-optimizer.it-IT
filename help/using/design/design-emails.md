@@ -11,7 +11,7 @@ exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfrutta
 
 * Trova **foto Adobe Stock** per creare i contenuti e migliorare la progettazione delle e-mail. [Ulteriori informazioni](../design/stock.md)
 
-* Migliora l’esperienza dei clienti creando messaggi personalizzati e dinamici basati sugli attributi del loro profilo. Ulteriori informazioni [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md).
+* Migliora l’esperienza dei clienti creando messaggi personalizzati e dinamici basati sugli attributi del loro profilo. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuti dinamici](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 

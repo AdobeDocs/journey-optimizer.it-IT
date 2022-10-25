@@ -11,7 +11,7 @@ exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 ➡️ [Scopri Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=it){target=&quot;_blank&quot;} (video)
 
 
-## Casi di utilizzo {#use-cases}
+## Casi d’uso {#use-cases}
 
 * Gli addetti al marketing possono utilizzare [!DNL Adobe Journey Optimizer] per inviare comunicazioni personalizzate e comunicazioni batch basate sul pubblico. Ad esempio, un negozio di abbigliamento invia in genere sondaggi post-acquisto a tutti i clienti che hanno acquistato prodotti nell’ultima settimana. A causa delle condizioni climatiche avverse, alcune spedizioni hanno avuto ritardi. Potendo sapere quali clienti non hanno ancora ricevuto le loro spedizioni, il negozio di abbigliamento può escluderli dall’invio del questionario pianificato sulla soddisfazione, inviando loro invece un’e-mail personalizzata di scuse per il ritardo e offrendo un codice sconto con prodotti consigliati in base agli acquisti precedenti.
 
@@ -55,7 +55,7 @@ Le funzionalità principali includono:
 
 ## Architettura {#architecture}
 
-Comprendere l’architettura di base di [!DNL Adobe Journey Optimizer], i punti di integrazione e il rapporto tra [!DNL Journey Optimizer] e [!DNL Experience Platform], nel diagramma seguente.
+Scopri l’architettura di base di [!DNL Adobe Journey Optimizer], i punti di integrazione e la relazione tra [!DNL Journey Optimizer] ed [!DNL Experience Platform], nel diagramma seguente.
 
 ![](assets/ajo-architecture.png)
 

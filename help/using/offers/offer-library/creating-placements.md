@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 13%
+source-wordcount: '244'
+ht-degree: 11%
 
 ---
 
@@ -28,26 +28,26 @@ Nell’esempio seguente sono presenti tre posizioni, corrispondenti a diversi ti
 
 ![](../assets/offers_placement_schema.png)
 
-L’elenco dei posizionamenti è accessibile nella **[!UICONTROL Components]** menu. Sono disponibili filtri per recuperare i posizionamenti in base a un canale o contenuto specifico.
+L’elenco dei posizionamenti è accessibile nella **[!UICONTROL Componenti]** menu. Sono disponibili filtri per recuperare i posizionamenti in base a un canale o contenuto specifico.
 
 ![](../assets/placements_filter.png)
 
 Per creare un posizionamento, effettua le seguenti operazioni:
 
-1. Fai clic su **[!UICONTROL Create placement]**.
+1. Fai clic su **[!UICONTROL Creare un posizionamento]**.
 
    ![](../assets/offers_placement_creation.png)
 
 1. Definisci le proprietà del posizionamento:
 
-   * **[!UICONTROL Name]**: Nome del posizionamento. Assicurati di definire un nome significativo per recuperarlo più facilmente.
-   * **[!UICONTROL Channel type]**: Canale per il quale verrà utilizzato il posizionamento.
-   * **[!UICONTROL Content type]**: Il tipo di contenuto che il posizionamento può visualizzare: Testo, HTML, collegamento immagine o JSON.
-   * **[!UICONTROL Description]**: Una descrizione del posizionamento (facoltativo).
+   * **[!UICONTROL Nome]**: Nome del posizionamento. Assicurati di definire un nome significativo per recuperarlo più facilmente.
+   * **[!UICONTROL Tipo di canale]**: Canale per il quale verrà utilizzato il posizionamento.
+   * **[!UICONTROL Tipo di contenuto]**: Il tipo di contenuto che il posizionamento può visualizzare: Testo, HTML, collegamento immagine o JSON.
+   * **[!UICONTROL Descrizione]**: Una descrizione del posizionamento (facoltativo).
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. Fai clic su **[!UICONTROL Save]** per confermare.
+1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
 1. Una volta creato, il posizionamento viene visualizzato nell’elenco dei posizionamenti. È possibile selezionarlo per visualizzarne le proprietà e modificarlo.
 

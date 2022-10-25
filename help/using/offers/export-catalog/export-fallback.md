@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Il batch di successo più recente nel set di dati viene visualizzato a destra. L
 >
 >Scopri come accedere ai set di dati esportati per ciascun oggetto della Libreria offerte in [questa sezione](../export-catalog/access-dataset.md).
 
-Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decision Object Repository - Fallback Offers]** set di dati.
+Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archivio oggetti decisionali - Offerte di fallback]** set di dati.
 
 ## Identificatore {#identifier}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creazione di flussi di lavoro di composizione
+title: Creare flussi di lavoro di composizione
 description: Scopri come creare flussi di lavoro per la composizione per combinare e disporre tipi di pubblico esistenti.
 feature: Journeys
 topic: Content Management
@@ -12,11 +12,11 @@ hidefromtoc: true
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Creazione di flussi di lavoro di composizione {#create-compositions}
+# Creare flussi di lavoro di composizione {#create-compositions}
 
 I flussi di lavoro di composizione consentono di combinare e disporre i tipi di pubblico esistenti per creare nuovi tipi di pubblico.
 
@@ -80,6 +80,6 @@ Tutte le composizioni create sono accessibili dal **[!UICONTROL Composizioni]** 
 
 Per saperne di più:
 
-* [Introduzione alla composizione dell’audience](get-started-audience-orchestration.md)
-* [Lavorare con il quadro di composizione](composition-canvas.md)
+* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
+* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
 * [Accesso e gestione dei tipi di pubblico](access-audiences.md)

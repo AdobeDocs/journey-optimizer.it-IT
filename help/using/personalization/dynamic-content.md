@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare contenuto dinamico
+title: Creare contenuti dinamici
 description: Scopri come aggiungere elementi dinamici ai messaggi.
 feature: Personalization
 topic: Personalization
@@ -10,12 +10,12 @@ level: Intermediate
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Creare contenuto dinamico {#dynamic-content}
+# Creare contenuti dinamici {#dynamic-content}
 
 Adobe Journey Optimizer consente di sfruttare le regole condizionali create nella libreria per aggiungere contenuto dinamico ai messaggi.
 

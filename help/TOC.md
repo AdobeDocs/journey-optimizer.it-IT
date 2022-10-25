@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -90,9 +90,9 @@ ht-degree: 94%
       + [Aggiungere JavaScript personalizzato](using/landing-pages/lp-custom-js.md)
    + [Creare un elenco di abbonamenti](using/landing-pages/subscription-list.md)
    + [Casi d’uso](using/landing-pages/lp-use-cases.md)
-+ Personalizzazione e contenuto dinamico {#personalized-dynamic-content}
++ Personalizzazione e contenuti dinamici {#personalized-dynamic-content}
    + Personalizzazione {#personalization}
-      + [Guida introduttiva alla personalizzazione](using/personalization/personalize.md)
+      + [Introduzione alla personalizzazione](using/personalization/personalize.md)
       + [Contesti di personalizzazione](using/personalization/personalization-contexts.md)
       + Creare espressioni {#build-expressions}
          + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
@@ -118,7 +118,7 @@ ht-degree: 94%
    + Contenuto dinamico {#dynamic}
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)
-      + [Creare contenuto dinamico](using/personalization/dynamic-content.md)
+      + [Creare contenuti dinamici](using/personalization/dynamic-content.md)
 + Segmenti, profili e identità{#segment}
    + Segmenti {#segments}
       + [Introduzione ai segmenti](using/segment/about-segments.md)
@@ -127,10 +127,10 @@ ht-degree: 94%
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
       + [Crea profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
-   + Componi tipi di pubblico {#audience-orchestration}
-      + [Introduzione alla composizione dell’audience](using/segment/get-started-audience-orchestration.md)
-      + [Creazione di flussi di lavoro di composizione](using/segment/create-compositions.md)
-      + [Lavorare con il quadro di composizione](using/segment/composition-canvas.md)
+   + Comporre i tipi di pubblico {#audience-orchestration}
+      + [Introduzione alla composizione dei tipi di pubblico](using/segment/get-started-audience-orchestration.md)
+      + [Creare flussi di lavoro di composizione](using/segment/create-compositions.md)
+      + [Lavorare nell’area di lavoro per la composizione](using/segment/composition-canvas.md)
       + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
    + [Utilizzo delle licenze](using/segment/license-usage.md)
 + Percorsi {#orchestrate-journeys}
@@ -451,6 +451,6 @@ ht-degree: 94%
    + [Richieste di accesso a dati personali](using/privacy/requests.md)
    + [Azioni di audit sulle risorse](using/privacy/audit-logs.md)
    + Gestire il consenso {#consent}
-      + [Gestire l’opt-out](using/privacy/opt-out.md)
+      + [Gestire la rinuncia](using/privacy/opt-out.md)
       + [Utilizzare i criteri di consenso](using/action/consent.md)
    + [Governance dei dati](using/action/action-privacy.md)
