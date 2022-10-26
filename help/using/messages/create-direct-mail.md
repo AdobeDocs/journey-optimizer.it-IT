@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 8%
@@ -30,6 +30,7 @@ I messaggi di direct mailing possono essere creati solo nel contesto di campagne
 >[!IMPORTANT]
 >
 >Prima di inviare un messaggio di direct mail, accertati di aver configurato:
+>
 >* A [configurazione del routing dei file](../configuration/direct-mail-configuration.md#file-routing-configuration) specifica il server in cui deve essere caricato e memorizzato il file di estrazione,
 >* A [superficie messaggio direct mail](../configuration/direct-mail-configuration.md#direct-mail-surface) che fa riferimento alla configurazione del routing dei file.
 

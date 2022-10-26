@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -32,6 +32,7 @@ La `countOnlyNull` viene utilizzato per contare il numero di valori nulli in un 
 ```sql
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
+
 Restituisce 3.
 
 ## Conteggio con Null {#count-with-null}
@@ -69,6 +70,7 @@ L&#39;operazione seguente specifica le persone che hanno effettuato ordini in pi
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+
 ## Conteggio Distinto Con Null {#distinct-count-with-null}
 
 La `distinctCountWithNull` viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori nulli.

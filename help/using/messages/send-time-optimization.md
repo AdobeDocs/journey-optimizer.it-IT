@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
 
 ---
 
-## Ottimizzazione dei tempi di invio{#send-time-optimization}
+# Ottimizzazione dei tempi di invio{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
@@ -41,7 +41,7 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si 
 >
 >Questa funzione non è compatibile con la modalità burst.
 
-### Attivare l’ottimizzazione del tempo di invio{#activate-send-time-optimization}
+## Attivare l’ottimizzazione del tempo di invio{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

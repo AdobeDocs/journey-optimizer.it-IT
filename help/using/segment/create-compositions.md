@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '352'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ I flussi di lavoro di composizione consentono di combinare e disporre i tipi di 
 
    ![](assets/audiences-publish.png)
 
-1. Una volta che la composizione è pronta, fai clic sul pulsante [**!UICONTROL Pubblica]** per pubblicare la composizione e salvare i tipi di pubblico risultanti in Adobe Experience Platform.
+1. Una volta che la composizione è pronta, fai clic sul pulsante **[!UICONTROL Pubblica]** per pubblicare la composizione e salvare i tipi di pubblico risultanti in Adobe Experience Platform.
 
    Se si verifica un errore durante la pubblicazione, gli avvisi contengono informazioni su come risolvere il problema.
 

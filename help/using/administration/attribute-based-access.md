@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 3%
@@ -127,7 +127,7 @@ Per il nostro esempio, un primo utente X con accesso agli oggetti con etichetta 
 
    ![](assets/journey_1.png)
 
-1. Aggiungi un nuovo **[!UICONTROL Gruppo di campi]** della nuova **[!UICONTROL Schema]** a **[!UICONTROL Origine dati]**. Puoi anche creare una nuova **[!UICONTROLDsorgente dati]** e associati **[!UICONTROL Gruppi di campi]**.
+1. Aggiungi un nuovo **[!UICONTROL Gruppo di campi]** della nuova **[!UICONTROL Schema]** a **[!UICONTROL Origine dati]**. Puoi anche creare una nuova **[!UICONTROL sorgente dati]** e associati **[!UICONTROL Gruppi di campi]**.
 
    ![](assets/journey_2.png)
 

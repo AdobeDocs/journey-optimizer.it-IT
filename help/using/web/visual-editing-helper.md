@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 13%
+source-wordcount: '400'
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ Per creare e visualizzare in anteprima rapidamente le esperienze web, l’estens
 
 Per ottenere e installare l’estensione del browser Visual Editing Helper, segui i passaggi riportati di seguito.
 
-1. Dal Web Store Google Chrome, passa al [Helper per l&#39;editing video di Adobe Experience Cloud ]((https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}) estensione del browser.
+1. Dal Web Store Google Chrome, passa al [Helper per l&#39;editing video di Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Estensione del browser {target=&quot;_blank&quot;}.
 
 1. Fai clic su **[!UICONTROL Aggiungi a Chrome]** > **[!UICONTROL Aggiungi estensione]**.
 
