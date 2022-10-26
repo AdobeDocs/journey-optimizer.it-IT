@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,9 @@ Per accedere e creare pagine web nel [!DNL Journey Optimizer] interfaccia utente
 
 Affinché l&#39;esperienza web possa essere consegnata correttamente, è necessario definire le seguenti impostazioni:
 
-* In [Raccolta dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target=&quot;_blank&quot;}, assicurati che sia definito un datastream come sotto **[!UICONTROL Adobe Experience Platform]** il servizio **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]** opzioni abilitate. In questo modo gli eventi in entrata Journey Optimizer vengono gestiti correttamente da Adobe Experience Platform Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* In [Raccolta dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target=&quot;_blank&quot;}, assicurati che sia definito un datastream come sotto **[!UICONTROL Adobe Experience Platform]** il servizio **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]** opzioni abilitate.
+
+   In questo modo gli eventi in entrata Journey Optimizer vengono gestiti correttamente da Adobe Experience Platform Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -49,6 +51,8 @@ Affinché l&#39;esperienza web possa essere consegnata correttamente, è necessa
    >La **[!UICONTROL Adobe Journey Optimizer]** può essere attivata solo quando **[!UICONTROL Segmentazione Edge]** opzione già abilitata.
 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}, assicurati di disporre di un criterio di unione con **[!UICONTROL Criterio di unione attiva sul bordo]** opzione abilitata. A questo scopo, seleziona un criterio nella sezione **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Unisci criteri]** Menu Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+
+   Questo criterio di unione è utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul bordo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 
