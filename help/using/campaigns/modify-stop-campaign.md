@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 2%
 
 ---
 
-# Gestire le campagne live {#modify-stop-campaign}
+# Gestire le campagne {#modify-stop-campaign}
 
 Una volta attivata una campagna, puoi modificarla o interromperla in qualsiasi momento. Queste operazioni sono disponibili solo per le campagne con esecuzione ricorrente .
 
-Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzione ricorrente) per crearne di nuove.
+Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzione ricorrente) per crearne di nuove e archiviare quelle completate o interrotte.
 
 ## Modificare una campagna ricorrente {#modify}
 
@@ -58,3 +58,13 @@ Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UIC
 Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplica]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## Archiviare una campagna {#archive}
+
+Con il tempo, l&#39;elenco delle campagne continua a crescere e alla fine rende più difficile sfogliare le campagne completate e interrotte.
+
+Per evitare questo problema, puoi archiviare le campagne completate e interrotte di cui non hai più bisogno. A questo scopo, fai clic sul pulsante dell&#39;ellisse e seleziona **[!UICONTROL Archivia]**.
+
+![](assets/create-campaign-archive.png)
+
+Le campagne archiviate possono quindi essere recuperate utilizzando il filtro dedicato presente nell’elenco. [Scopri come accedere alle campagne](get-started-with-campaigns.md#access)

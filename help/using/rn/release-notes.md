@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -27,6 +27,10 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 **Percorsi**
 
 * La **Forza il rientro sulla ricorrenza** è stata aggiunta un’opzione nei parametri ricorrenti di pianificazione dei segmenti di lettura. Questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando l’opzione è disattivata, i profili devono terminare il percorso prima di poter reimmettere in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Campagne**
+
+* Ora puoi archiviare le campagne completate e interrotte. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#archive)
 
 ## Versione di settembre 2022{#sept-2022-release}
 

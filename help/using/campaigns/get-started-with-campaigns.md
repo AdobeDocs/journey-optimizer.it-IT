@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '573'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,9 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 
 Le campagne sono accessibili dal **[!UICONTROL Campagne]** menu.
 
-Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati. Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
+Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati.
+
+Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
 
 ![](assets/create-campaign-list.png)
 
@@ -83,9 +85,9 @@ Le campagne possono avere più stati:
 * **[!UICONTROL Attivazione]**: È in corso l’attivazione della campagna.
 * **[!UICONTROL Live]**: La campagna è stata attivata.
 * **[!UICONTROL Pianificato]**: La campagna è configurata per essere attivata in una data di inizio specifica.
-* **[!UICONTROL Arrestato]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Ulteriori informazioni](modify-stop-campaign.md#stop)
+* **[!UICONTROL Arrestato]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completato]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
-* **[!UICONTROL Archiviato]**: La campagna è stata archiviata.
+* **[!UICONTROL Archiviato]**: La campagna è stata archiviata. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: f64a6571609c69262670ac45a88cda0112aea5fa
+source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -27,12 +27,12 @@ Per inviare un messaggio di direct mailing, devi creare un file e caricarlo su u
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="Definire le impostazioni della configurazione del routing dei file"
->abstract="È necessario definire dove verrà esportato e caricato il file per consentire al provider di direct mailing di utilizzare."
+>abstract="Durante la creazione del messaggio di direct mailing, verrà generato il file contenente tutte le informazioni di profilo richieste. Questo file deve essere esportato e caricato su un server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della direct mailing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="Definire le impostazioni della configurazione del routing dei file"
->abstract="Durante la creazione del messaggio di direct mailing, verrà generato il file contenente tutte le informazioni di profilo richieste. Questo file deve essere esportato e caricato su un server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della direct mailing."
+>abstract="È necessario definire dove verrà esportato e caricato il file per consentire al provider di direct mailing di utilizzare."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
@@ -42,12 +42,12 @@ Per inviare un messaggio di direct mailing, devi creare un file e caricarlo su u
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selezionare il tipo di server per il routing dei file"
->abstract="Seleziona il server da utilizzare per caricare e memorizzare i file di direct mailing."
+>abstract="Scegli il server da utilizzare per caricare e memorizzare i file di direct mailing. Attualmente sono supportati solo Amazon S3 e SFTP."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Scegli l’area geografica di AWS"
->abstract="Seleziona il server da utilizzare per caricare e memorizzare i file di direct mailing. Attualmente sono supportati solo Amazon S3 e SFTP."
+>abstract="Seleziona l’area geografica in cui desideri esportare e caricare i file di direct mailing. Per un utilizzo ottimale, si consiglia di scegliere l’area più vicina per ospitare l’infrastruttura cloud."
 
 1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione dell’indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** menu, quindi fai clic su **[!UICONTROL Creare la configurazione di indirizzamento]**.
 
@@ -55,7 +55,7 @@ Per inviare un messaggio di direct mailing, devi creare un file e caricarlo su u
 
 1. Imposta un nome per la configurazione.
 
-1. Seleziona la configurazione **[!UICONTROL Tipo]**, ovvero il server che desideri utilizzare per caricare e memorizzare i file di direct mailing.<!--why is it Type and not Server or Server type? asked to PM-->
+1. Seleziona la configurazione **[!UICONTROL Tipo di server]**, ovvero il server che desideri utilizzare per caricare e memorizzare i file di direct mailing.
 
    ![](assets/file-routing-config-type.png)
 
@@ -65,9 +65,7 @@ Per inviare un messaggio di direct mailing, devi creare un file e caricarlo su u
 
    Durante la creazione del messaggio di direct mailing, verrà generato il file contenente tutte le informazioni di profilo richieste. Questo file deve essere esportato e caricato su un server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della direct mailing.
 
-1. Compila i dettagli e le credenziali specifici del tipo di configurazione selezionato, ad esempio l’indirizzo del server, la chiave di accesso, ecc. <!--need to detail more?-->
-
-   <!--![](assets/file-routing-config-aws-details.png)-->
+1. Compila i dettagli e le credenziali specifici del tipo di configurazione selezionato, ad esempio l’indirizzo del server, la chiave di accesso, ecc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
@@ -90,12 +88,13 @@ Per inviare un messaggio di direct mailing, devi creare un file e caricarlo su u
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni della direct mailing"
->abstract="Una superficie direct mailing contiene le impostazioni relative alla formattazione del file contenente i dati di profilo per la direct mailing. È possibile (definire la configurazione di ordinamento), rimuovere le righe duplicate, suddividere i record in più file e selezionare la configurazione di routing dei file."
+>abstract="Una superficie direct mailing contiene le impostazioni relative alla formattazione del file contenente i dati di profilo per la direct mailing. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di routing del file."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
->title="Definire l’ordinamento"
->abstract="Se selezioni questa opzione, l’ordinamento viene effettuato in base all’ID profilo, crescente o decrescente. Se la deselezioni, la configurazione di ordinamento definita durante la creazione del messaggio di direct mailing all’interno di un percorso o di una campagna."
+>title="Define the sort order"
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -128,7 +127,7 @@ Una volta configurato il routing dei file, è necessario creare una superficie d
    >
    >È possibile impostare un numero qualsiasi compreso tra 1 e 200.000 record, il che significa che ogni file deve contenere almeno 1 riga e non più di 200.000 righe.
 
-1. Infine, seleziona la [configurazione del routing dei file](#file-routing-configuration) tra quelli creati. Questo definisce dove verrà esportato e caricato il file da utilizzare per il provider di direct mailing.
+1. Infine, seleziona la **[!UICONTROL Configurazione dell’indirizzamento dei file]** tra quelli creati. Questo definisce dove verrà esportato e caricato il file da utilizzare per il provider di direct mailing.
 
    >[!CAUTION]
    >
