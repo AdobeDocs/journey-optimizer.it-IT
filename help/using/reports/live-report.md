@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
@@ -228,25 +228,13 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   <td>E-mail non consegnate<br/> </td> 
    <td>Numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l’azione di iscrizione.<br/> </td> 
 </tr>
- <tr> 
-   <td>Percentuale non recapitate<br/> </td> 
-   <td>Numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l’azione di iscrizione.<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>Clic<br/> </td> 
    <td>Numero di volte in cui è stato fatto clic su un contenuto nella pagina di destinazione.<br/> </td> 
 </tr>
- <tr> 
-   <td>Frequenza di clic<br/> </td> 
-   <td>Percentuale di clic nella pagina di destinazione.<br/> </td>
-</tr>
 <tr>
 <td>Conversione<br/> </td> 
-   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio abbonati a un modulo.<br/> </td> 
-</tr>
-<tr>
-   <td>Tasso di conversione<br/> </td> 
    <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio abbonati a un modulo.<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </tbody> 
 </table>
 
+### Metriche di notifica push {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrica<br/> </th> 
+   <th> Definizione<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Azioni<br/> </td> 
+   <td> Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.<br/> </td> 
+</tr>
+  <tr> 
+   <td>E-mail non consegnate<br/> </td> 
+   <td> Totale degli errori cumulati durante la consegna e l'elaborazione automatica della restituzione.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Consegnate<br/> </td> 
+   <td> Numero di messaggi inviati correttamente.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Coinvolgimento<br/> </td> 
+   <td> Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Errori<br/> </td> 
+   <td> Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Escluso<br/> </td> 
+   <td> Numero di profili esclusi da Adobe Journey Optimizer.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Messaggi aperti<br/> </td> 
+   <td> Numero totale di notifiche push inviate al dispositivo e su cui gli utenti hanno fatto clic per aprire l’app. È simile al clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica è stata ignorata.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Inviate<br/> </td> 
+   <td> Numero totale di invii per la consegna.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Target<br/> </td> 
+   <td> Numero totale di messaggi push elaborati durante l’analisi della consegna.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

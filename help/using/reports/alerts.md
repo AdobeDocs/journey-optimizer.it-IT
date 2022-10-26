@@ -7,9 +7,9 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**. È dispo
 
 ![](assets/alerts1.png)
 
-Se si verifica un comportamento imprevisto, una notifica di avviso viene inviata agli abbonati all’avviso tramite e-mail e notifica in-app, nell’angolo in alto a destra dell’interfaccia.
+Se si verifica un comportamento imprevisto, una notifica di avviso viene inviata agli abbonati all’avviso tramite e-mail, nell’angolo in alto a destra dell’interfaccia.
 
 ![](assets/alerts2.png)
 
