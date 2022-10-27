@@ -7,15 +7,15 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 0b91aa647b2f12bf6864af008406fff845488b94
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Aggiungere messaggi nelle campagne{#messages-in-campaigns}
+# Aggiungere messaggi nelle campagne
 
 Nelle campagne, seleziona il canale per progettare e personalizzare il messaggio da inviare al pubblico. Quando aggiungi un messaggio e-mail, SMS o push alla campagna, puoi inviarlo immediatamente o pianificarrlo.
 
