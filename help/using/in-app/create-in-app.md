@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Per creare un messaggio in-app, segui i passaggi seguenti:
    1. Dall’elenco a discesa a sinistra, seleziona l’evento necessario per attivare il messaggio.
    1. Dall’elenco a discesa a destra, seleziona la convalida richiesta per l’evento selezionato.
    1. Fai clic sul pulsante **[!UICONTROL Aggiungi]** se desideri che il trigger consideri più eventi o criteri. Quindi, ripeti i passaggi precedenti.
-   1. Seleziona il collegamento degli eventi, ad esempio **[!UICONTROL E]** se vuoi **entrambi** attiva l&#39;impostazione true per mostrare un messaggio e **[!UICONTROL Oppure]** se desideri che il messaggio venga visualizzato se **o** dei trigger sono true.
+   1. Seleziona il collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** trigger impostati su true per mostrare o scegliere un messaggio **[!UICONTROL Oppure]** se desideri che il messaggio venga visualizzato se **o** dei trigger sono true.
 
    ![](assets/in_app_create_3.png)
 
