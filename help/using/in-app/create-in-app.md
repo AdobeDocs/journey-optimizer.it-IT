@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 3%
 
 ---
 
@@ -43,9 +43,18 @@ Per creare un messaggio in-app, segui i passaggi seguenti:
 
 1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
 
-   * **[!UICONTROL Mostra ogni volta]**
-   * **[!UICONTROL Mostra una volta]**
-   * **[!UICONTROL Mostra fino a click-through]**
+   * **[!UICONTROL Mostra ogni volta]**: Mostra sempre il messaggio quando gli eventi selezionati nella **[!UICONTROL Attivazione app mobile]** si verificano a discesa.
+   * **[!UICONTROL Mostra una volta]**: Mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivazione app mobile]** si verificano a discesa.
+   * **[!UICONTROL Mostra fino a click-through]**: Mostra questo messaggio quando gli eventi selezionati nella **[!UICONTROL Attivazione app mobile]** si verifica fino a quando un evento interattivo non viene inviato dall&#39;SDK con un&#39;azione di &quot;clic&quot;.
+
+1. Da **[!UICONTROL Attivazione app mobile]** a discesa, scegli gli eventi e i criteri che attiveranno il messaggio:
+
+   1. Dall’elenco a discesa a sinistra, seleziona l’evento necessario per attivare il messaggio.
+   1. Dall’elenco a discesa a destra, seleziona la convalida richiesta per l’evento selezionato.
+   1. Fai clic sul pulsante **[!UICONTROL Aggiungi]** se desideri che il trigger consideri più eventi o criteri. Quindi, ripeti i passaggi precedenti.
+   1. Seleziona il collegamento degli eventi, ad esempio **[!UICONTROL E]** se vuoi **entrambi** attiva l&#39;impostazione true per mostrare un messaggio e **[!UICONTROL Oppure]** se desideri che il messaggio venga visualizzato se **o** dei trigger sono true.
+
+   ![](assets/in_app_create_3.png)
 
 1. Scegli l’evento che attiva il messaggio dalla **[!UICONTROL Attivazione app mobile]**
 a discesa.
