@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '478'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 8%
 
 La direct mailing è un canale offline che ti consente di personalizzare e generare i file di estrazione richiesti dai provider di direct mailing per inviare la posta ai tuoi clienti.
 
-Quando crei una direct mailing, Journey Optimizer genera un file contenente tutti i profili target e i dati selezionati (ad esempio l’indirizzo postale, gli attributi del profilo). Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.
+Quando crei una direct mailing, Journey Optimizer genera un file contenente tutti i profili target e i dati selezionati (ad esempio l’indirizzo postale, gli attributi del profilo). Il provider di direct mailing sarà quindi in grado di recuperare tale file e si occuperà dell’invio effettivo.
 
 I messaggi di direct mailing possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo in campagne con attivazione API o in percorsi.
 
@@ -31,15 +31,15 @@ I messaggi di direct mailing possono essere creati solo nel contesto di campagne
 >
 >Prima di inviare un messaggio di direct mail, accertati di aver configurato:
 >
->* A [configurazione del routing dei file](../configuration/direct-mail-configuration.md#file-routing-configuration) specifica il server in cui deve essere caricato e memorizzato il file di estrazione,
->* A [superficie messaggio direct mail](../configuration/direct-mail-configuration.md#direct-mail-surface) che fa riferimento alla configurazione del routing dei file.
+>1. A [configurazione del routing dei file](../configuration/direct-mail-configuration.md#file-routing-configuration) specifica il server in cui deve essere caricato e memorizzato il file di estrazione,
+>1. A [superficie messaggio direct mail](../configuration/direct-mail-configuration.md#direct-mail-surface) che fa riferimento alla configurazione del routing dei file.
 
 
 ## Creare il messaggio di direct mailing {#create}
 
 I passaggi per creare e inviare un messaggio di direct mailing sono i seguenti:
 
-1. Crea una nuova campagna pianificata, seleziona **[!UICONTROL Direct mail]** come azione e scegli la superficie del messaggio da utilizzare.
+1. Crea una nuova campagna pianificata, seleziona **[!UICONTROL Direct mail]** come azione e scegliere la superficie del canale da utilizzare. [Scopri come creare un’area direct mailing](../configuration/direct-mail-configuration.md#direct-mail-surface)
 
    ![](assets/direct-mail-campaign.png)
 
@@ -75,4 +75,4 @@ I passaggi per creare e inviare un messaggio di direct mailing sono i seguenti:
 
 1. Una volta definito il contenuto della direct mailing, completa la configurazione della campagna.
 
-   All’avvio della campagna, il file di estrazione viene generato e caricato automaticamente sul server specificato nel [configurazione del routing dei file](../configuration/direct-mail-configuration.md).
+   All’avvio della campagna, il file di estrazione viene generato automaticamente ed esportato sul server specificato nel [configurazione del routing dei file](../configuration/direct-mail-configuration.md).
