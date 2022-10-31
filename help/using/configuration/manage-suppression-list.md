@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Per esportare l’elenco di soppressione come file CSV, segui la procedura segue
 
    >[!NOTE]
    >
-   >Il tempo di download dipende dalla dimensione del file, ovvero dal numero di indirizzi e-mail presenti nell’elenco di eliminazione.
+   >Il tempo di download dipende dalla dimensione del file, ovvero dal numero di indirizzi nell’elenco di eliminazione.
    >
    >È possibile elaborare una richiesta di download alla volta per una data sandbox.
 
