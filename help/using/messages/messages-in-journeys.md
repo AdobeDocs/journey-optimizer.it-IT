@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ Utilizza **[!UICONTROL Ottimizzazione del tempo di invio]** per pianificare un�
 
 I parametri avanzati sono di sola lettura e nascosti per impostazione predefinita.
 
-Per accedere ai parametri avanzati, fai clic sull’icona **[!UICONTROL Mostra i campi di sola lettura]** nella parte superiore del riquadro dei messaggi.
+Per accedere ai parametri avanzati, fai clic sull’icona **[!UICONTROL Mostra i campi di sola lettura]** nella parte superiore del riquadro dei messaggi. Fai clic sulla stessa icona per nascondere le impostazioni avanzate.
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ Per le notifiche push, puoi visualizzare i seguenti parametri: Token, AppID, App
 
 ![](assets/push-adv-parameters.png)
 
-Per l’e-mail, puoi visualizzare l’indirizzo e-mail principale.
+Per le e-mail, puoi visualizzare il [indirizzo e-mail principale](../configuration/primary-email-addresses.md).
 
-Per un uso particolare, è possibile ignorare questi valori in contesti specifici. Per forzare un valore, fai clic sul pulsante **Abilita sovrascrittura del parametro** a destra del campo. Questa opzione può essere utile ad esempio nelle seguenti situazioni:
+In contesti specifici, è possibile ignorare questi valori per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo.
 
-* Per il test di un’e-mail, puoi utilizzare il tuo indirizzo e-mail. Dopo aver pubblicato il percorso, l’e-mail viene inviata al tuo indirizzo.
+![](assets/email-adv-parameters.png)
+
+Questa opzione può essere utile ad esempio nelle seguenti situazioni:
+
+* Testa un’e-mail. Puoi aggiungere il tuo indirizzo e-mail; dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
 * Fai riferimento all’indirizzo e-mail degli iscritti a un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
 
-Fai clic sulla stessa icona per nascondere le impostazioni avanzate.
+>[!NOTE]
+>
+>L’override dell’indirizzo e-mail deve essere utilizzato solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l’indirizzo e-mail perché il valore definito come indirizzo principale nel **[!UICONTROL Campi di esecuzione]** è quello che deve essere utilizzato. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
 ## Sfogliare i messaggi{#browse-message}
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ Puoi modificare un record PTR per modificare il sottodominio associato a un indi
 
 >[!CAUTION]
 >
->Procedi con molta attenzione durante la modifica dei record PTR. In caso di dubbio, contatta un esperto di recapito.<!--why?-->
-
->[!NOTE]
+>I record PTR sono comuni a tutti gli ambienti. Pertanto, qualsiasi modifica apportata a un record PTR influisce anche sulle sandbox di produzione.
 >
->Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
+>Procedi con molta attenzione durante la modifica dei record PTR. In caso di dubbio, contatta un esperto di recapito.
 
 ### Sottodomini completamente delegati {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ Per modificare un record PTR con un sottodominio [completamente delegato](delega
    ![](assets/ptr-record-subdomain.png)
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche.
+
+>[!NOTE]
+>
+>Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
 
 ### Sottodomini delegati che utilizzano il metodo CNAME {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [
 
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche.
+
+>[!NOTE]
+>
+>Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
 
 ## Controlla i dettagli dell&#39;aggiornamento del record PTR {#check-ptr-record-update}
 

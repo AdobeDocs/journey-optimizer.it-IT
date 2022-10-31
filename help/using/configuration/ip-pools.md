@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Configurare un pool IP"
->abstract="Puoi creare pool IP per raggruppare gli indirizzi IP dei tuoi sottodomini per migliorare il recapito dei messaggi e-mail."
+>abstract="I pool IP raccolgono gli indirizzi IP dei sottodomini per migliorare il recapito dei messaggi e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ Con [!DNL Journey Optimizer], puoi creare pool IP per raggruppare gli indirizzi 
 La creazione di pool IP è vivamente consigliata per il recapito messaggi e-mail. In questo modo puoi evitare che la reputazione di un sottodominio influisca sugli altri sottodomini.
 
 Ad esempio, una best practice consiste nell’avere un pool IP per i messaggi di marketing e un altro per i messaggi transazionali. In questo modo, se uno dei tuoi messaggi di marketing funziona correttamente e viene dichiarato come spam da un cliente, questo non influenzerà i messaggi transazionali inviati allo stesso cliente, che riceverà comunque messaggi transazionali (conferme di acquisto, messaggi di recupero password, ecc.).
+
+>[!CAUTION]
+>
+>La configurazione del pool IP è comune a tutti gli ambienti. Pertanto, qualsiasi creazione o edizione di pool IP influirà anche sulle sandbox di produzione.
 
 ## Creare un pool IP {#create-ip-pool}
 
@@ -63,7 +67,7 @@ Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per 
 
 ## Modificare un pool IP {#edit-ip-pool}
 
-Per modificare un pool IP:
+Per modificare un pool IP, segui i passaggi seguenti.
 
 1. Dall’elenco, fai clic sul nome del pool IP per aprirlo.
 

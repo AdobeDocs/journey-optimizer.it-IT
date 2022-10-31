@@ -6,9 +6,9 @@ description: Scopri come configurare l’ambiente per creare e utilizzare pagine
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
 >title="Creare un predefinito per pagina di destinazione"
->abstract="Per poter creare una pagina di destinazione e sfruttarla tramite Journey Optimizer, devi creare un predefinito per la pagina di destinazione che includa il sottodominio da utilizzare."
+>abstract="Per creare una pagina di destinazione e sfruttarla tramite Journey Optimizer, devi creare un predefinito per pagina di destinazione che includa il sottodominio da utilizzare."
 
 Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
 

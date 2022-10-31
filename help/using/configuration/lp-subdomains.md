@@ -6,9 +6,9 @@ description: Scopri come configurare i sottodomini della pagina di destinazione 
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 1%
 Essere in grado di [creare predefiniti pagina di destinazione](lp-presets.md), devi impostare i sottodomini che userai per le pagine di destinazione.
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe in [questa sezione](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>La configurazione del sottodominio della pagina di destinazione è comune a tutti gli ambienti. Pertanto, qualsiasi modifica apportata a un sottodominio di una pagina di destinazione avrà un impatto anche sulle sandbox di produzione.
+
+Le lettere maiuscole non devono essere consentite in un sottodominio
 
 ## Utilizzare un sottodominio esistente {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
    >[!NOTE]
    >
    >Non puoi selezionare un sottodominio già utilizzato come sottodominio della pagina di destinazione.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
    >[!CAUTION]
    >
    >Non puoi utilizzare un sottodominio della pagina di destinazione esistente.
+   >
+   >Le lettere maiuscole non sono consentite nei sottodomini.
 
    Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 

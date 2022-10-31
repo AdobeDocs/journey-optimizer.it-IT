@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1725'
 ht-degree: 9%
 
 ---
@@ -34,6 +34,8 @@ Puoi delegare completamente un sottodominio o creare un sottodominio utilizzando
 >[!CAUTION]
 >
 >La delega completa del sottodominio è il metodo consigliato. Ulteriori informazioni sulle differenze tra i due [metodi di configurazione del sottodominio](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>La configurazione del sottodominio è comune a tutti gli ambienti. Pertanto, qualsiasi modifica apportata a un sottodominio influirà anche sulle sandbox di produzione.
 
 ## Delega completa di sottodominio {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
    >
    >I sottodomini di più livelli come e-mail.marketing.yourcompany.com non sono attualmente supportati.
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
 1. Assicurati che tutti i record DNS siano stati generati nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
@@ -92,8 +96,6 @@ Per delegare completamente un nuovo sottodominio ad Adobe, effettua le seguenti 
    >[!NOTE]
    >
    >Il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]** se non riesci a creare il record di convalida nella soluzione di hosting.
-
-   <!-- later on, users will be notified in Pulse -->
 
 Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene creato automaticamente un record PTR associato a questo sottodominio. [Ulteriori informazioni](ptr-records.md)
 
@@ -133,6 +135,8 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
    >Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
    >
    >I sottodomini di più livelli come e-mail.marketing.yourcompany.com non sono attualmente supportati.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
