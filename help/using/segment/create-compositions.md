@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 7%
+source-wordcount: '367'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ I flussi di lavoro di composizione consentono di combinare e disporre i tipi di 
 
    ![](assets/audiences-alerts.png)
 
-1. La composizione viene pubblicata. I tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e sono pronti per il targeting nelle campagne Journey Optimizer. [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
+1. La composizione viene pubblicata. I tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e sono pronti per il targeting nelle campagne Journey Optimizer. [Scopri come utilizzare le campagne](../campaigns/get-started-with-campaigns.md)
 
 ## Accedere a composizioni {#access}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '256'
 ht-degree: 9%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 La composizione del pubblico consente di creare **flussi di lavoro per composizione**, dove puoi combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare varie attività (divise, escluse...) per creare nuovi tipi di pubblico.
 
-Una volta fatto, il **pubblico risultante** vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **sfruttato nelle campagne** ai clienti.
+Una volta fatto, il **pubblico risultante** vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **sfruttato nelle campagne** ai clienti. [Scopri come utilizzare le campagne](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
