@@ -1,22 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Principio generale
-description: Principio generale
+title: Introduzione ai percorsi
+description: Introduzione ai percorsi
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 18%
+source-wordcount: '579'
+ht-degree: 19%
 
 ---
 
 
-# Principio generale{#jo-general-principle}
+# Introduzione ai percorsi{#jo-general-principle}
 
 Utilizzo [!DNL Journey Optimizer] per generare casi di utilizzo di orchestrazione in tempo reale, sfruttando i dati contestuali archiviati negli eventi o nelle origini dati.
 
