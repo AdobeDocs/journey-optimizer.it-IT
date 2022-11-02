@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1507'
 ht-degree: 3%
 
 ---
@@ -22,11 +22,13 @@ ht-degree: 3%
 >title="Progettazione del percorso"
 >abstract="L’interfaccia di percorso ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro al passaggio successivo disponibile."
 
-L’interfaccia di percorso ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro al passaggio successivo disponibile. Ciascuna attività ha un ruolo specifico e un ruolo specifico nel processo. Le attività vengono sequenziate. Al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
+Adobe Journey Optimizer include un’area di lavoro di orchestrazione omnicanale che consente agli esperti di marketing di armonizzare il pubblico marketing con il coinvolgimento di un singolo cliente. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla nell’area di lavoro, al passaggio successivo disponibile.
+
+Gli eventi, le attività di orchestrazione e azione hanno un ruolo e un ruolo specifici nel processo. Le attività vengono sequenziate: al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
 
 ## Guida introduttiva alla progettazione di percorsi {#gs-journey-design}
 
-La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disponibili sono suddivise in diverse categorie: **[!UICONTROL Eventi]**, **[!UICONTROL Orchestrazione]** e **[!UICONTROL Azioni]**. È possibile espandere o comprimere le diverse categorie facendo clic sul loro nome. Per utilizzare un’attività nel percorso, trascinala dalla palette nell’area di lavoro.
+La **palette** si trova sul lato sinistro dello schermo. Tutte le attività disponibili sono suddivise in diverse categorie: [Eventi](#jo-event), [Orchestrazione](#jo-orch) e [Azioni](#jo-actions). È possibile espandere o comprimere le diverse categorie facendo clic sul loro nome. Per utilizzare un’attività nel percorso, trascinala dalla palette nell’area di lavoro.
 
 Quando si avvia un nuovo percorso, gli elementi che non possono essere eliminati nell’area di lavoro come primo passaggio vengono nascosti. Questo riguarda tutte le azioni, l’attività della condizione, l’attesa e la reazione.
 
@@ -66,27 +68,27 @@ Quando si progetta un percorso, la prima domanda che si desidera porre è come i
 
 Dopo il primo evento o Leggi segmento, puoi combinare le diverse attività per creare scenari multicanale con più passaggi. Dalla palette, scegli i passaggi necessari.
 
-**Eventi**
+### Eventi{#jo-event}
 
-Quando avvii il percorso con un evento, il percorso viene attivato quando l’evento viene ricevuto. La persona seguirà, singolarmente, i passaggi successivi definiti nel tuo percorso.
+Quando avvii il percorso con un evento, il percorso viene attivato quando l’evento viene ricevuto. Ogni persona nel percorso segue, singolarmente, i passaggi successivi definiti nel percorso.
 
-Puoi aggiungere **vari eventi** nel tuo percorso, purché utilizzino lo stesso namespace. Gli eventi sono configurati in precedenza. [Ulteriori informazioni sugli eventi](about-journey-activities.md#event-activities)
+Puoi aggiungere **vari eventi** nel tuo percorso, purché utilizzino lo stesso namespace. Gli eventi sono configurati in precedenza. [Ulteriori informazioni sugli eventi di percorso](about-journey-activities.md#event-activities)
 
-Puoi anche aggiungere una **Reazione** dopo un messaggio per reagire ai dati di tracciamento relativi al messaggio. Questo consente, ad esempio, di inviare un altro messaggio se l’utente ha aperto il messaggio precedente o ha fatto clic al suo interno. Ulteriori informazioni [sezione](reaction-events.md).
+Puoi anche aggiungere una **Reazione** dopo un messaggio per reagire ai dati di tracciamento relativi al messaggio. Questo consente, ad esempio, di inviare un altro messaggio se l’utente ha aperto il messaggio precedente o ha fatto clic al suo interno. [Ulteriori informazioni sugli eventi di reazione](reaction-events.md).
 
-La **Qualificazione del segmento** l’attività evento ti consente di far entrare o proseguire singoli utenti in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Puoi far entrare tutti i nuovi clienti in argento in un percorso e inviare messaggi personalizzati. Ulteriori informazioni [sezione](segment-qualification-events.md).
+Utilizzo **Qualificazione del segmento** attività dell’evento per consentire a singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Puoi far entrare tutti i nuovi clienti in argento in un percorso e inviare messaggi personalizzati. Ulteriori informazioni [sezione](segment-qualification-events.md).
 
-**Orchestrazione**
+### Orchestrazione{#jo-orch}
 
-Nelle attività di orchestrazione, troverai il **Leggi segmento** attività che ti consente di impostare il percorso in modo che ascolti un segmento Adobe Experience Platform. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
+Dalle attività di orchestrazione, utilizza il **Leggi segmento** attività che consente di impostare il percorso in modo che ascolti un segmento Adobe Experience Platform. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
 
-Le altre attività ti consentono di aggiungere condizioni al percorso per definire diversi percorsi, impostare un tempo di attesa prima di eseguire l’attività successiva o terminare il percorso. Ulteriori informazioni [sezione](about-journey-activities.md#orchestration-activities).
+Le altre attività ti consentono di aggiungere condizioni al percorso per definire diversi percorsi, impostare un tempo di attesa prima di eseguire l’attività successiva o terminare il percorso. [Ulteriori informazioni sulle attività di orchestrazione](about-journey-activities.md#orchestration-activities).
 
-**Azioni**
+### Azioni{#jo-actions}
 
-Qui trovi l’attività di azione del canale che ti consente di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività di azione del canale](journeys-message.md)
+Le attività di azione del canale ti consentono di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività di azione del canale](journeys-message.md)
 
-Troverai anche le azioni personalizzate configurate per l’invio di messaggi con sistemi di terze parti. Ulteriori informazioni [sezione](about-journey-activities.md#action-activities).
+Dalle attività di azione, utilizza le azioni personalizzate per inviare messaggi con sistemi di terze parti. [Ulteriori informazioni sulle azioni personalizzate](about-journey-activities.md#action-activities).
 
 ## Aggiungi percorsi alternativi{#paths}
 
