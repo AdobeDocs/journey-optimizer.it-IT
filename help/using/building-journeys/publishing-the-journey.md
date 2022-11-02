@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -21,7 +21,7 @@ Puoi pubblicare un percorso dopo averne verificato la validità.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-Se devi apportare modifiche a un percorso pubblicato, devi creare una nuova versione del percorso. Consulta [questa pagina](../building-journeys/journey-versions.md). Quando un percorso è di sola lettura, puoi modificare solo le etichette e le descrizioni dell’attività, il nome del percorso e la descrizione del percorso.
+Se devi apportare modifiche a un percorso pubblicato, devi creare una nuova versione del percorso. Consulta [questa pagina](../building-journeys/journey.md). Quando un percorso è di sola lettura, puoi modificare solo le etichette e le descrizioni dell’attività, il nome del percorso e la descrizione del percorso.
 
 Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le persone che confluiscono nel percorso saranno fermate in modo permanente e il percorso smetterà di permettere nuove entrate. Se devi utilizzare nuovamente il percorso, devi duplicarlo e pubblicarlo.
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 3%
@@ -156,7 +156,7 @@ A seconda delle informazioni che stai cercando, puoi eseguire le seguenti query.
    
    >[!NOTE]
    >
-   >Per ottenere `<journey version id>`, seleziona il corrispondente [Versione percorso](../building-journeys/journey-versions.md) dal **[!UICONTROL Gestione dei percorsi]** > **[!UICONTROL Percorsi]** menu. L’ID della versione del percorso viene visualizzato alla fine dell’URL visualizzato nel browser web.
+   >Per ottenere `<journey version id>`, seleziona il corrispondente [Versione percorso](../building-journeys/journey.md#journey-versions) dal **[!UICONTROL Gestione dei percorsi]** > **[!UICONTROL Percorsi]** menu. L’ID della versione del percorso viene visualizzato alla fine dell’URL visualizzato nel browser web.
    >
    >![](assets/preset-bcc-action-id.png)
 

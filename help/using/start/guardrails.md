@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 3%
@@ -47,7 +47,7 @@ Le protezioni delle prestazioni e i limiti statici per il processo decisionale s
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
 * Incorporato **Reazione** ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, ma è necessario aggiungerle una dopo l’altra.
-* Nella maggior parte dei casi, un profilo non può essere presente più volte nello stesso percorso e allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/journey-end.md)
+* Nella maggior parte dei casi, un profilo non può essere presente più volte nello stesso percorso e allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/journey.md#journey-ending)
 
 ### Versioni del percorso {#journey-versions-g}
 

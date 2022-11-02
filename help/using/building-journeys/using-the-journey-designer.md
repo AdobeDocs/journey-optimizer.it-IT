@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 3%
+source-wordcount: '1605'
+ht-degree: 2%
 
 ---
 
@@ -60,15 +60,17 @@ A seconda dello stato del percorso, è possibile eseguire diverse azioni sul per
 
 Quando si progetta un percorso, la prima domanda che si desidera porre è come i profili entreranno nel percorso. Esistono due possibilità:
 
-**Inizia con un evento**: quando un percorso è impostato per ascoltare gli eventi, le persone entrano nel percorso **unitariamente** in tempo reale. I messaggi inclusi nel tuo percorso vengono inviati alla persona che si trova attualmente nel percorso. [Ulteriori informazioni sugli eventi](../event/about-events.md)
+1. **Inizia con un evento**: quando un percorso è impostato per ascoltare gli eventi, le persone entrano nel percorso **unitariamente** in tempo reale. I messaggi inclusi nel tuo percorso vengono inviati alla persona che si trova attualmente nel percorso. [Ulteriori informazioni sugli eventi](../event/about-events.md)
 
-**Inizia con un segmento di lettura**: puoi impostare il tuo percorso per ascoltare i segmenti Adobe Experience Platform. In questo caso, tutti gli individui appartenenti al segmento specificato entrano nel percorso. I messaggi inclusi nel percorso vengono inviati agli utenti appartenenti al segmento. [Ulteriori informazioni sulla lettura dei segmenti](read-segment.md).
+1. **Inizia con un segmento di lettura**: puoi impostare il tuo percorso per ascoltare i segmenti Adobe Experience Platform. In questo caso, tutti gli individui appartenenti al segmento specificato entrano nel percorso. I messaggi inclusi nel percorso vengono inviati agli utenti appartenenti al segmento. [Ulteriori informazioni sulla lettura dei segmenti](read-segment.md).
 
 ## Definire i passaggi successivi{#define-next-steps}
 
 Dopo il primo evento o Leggi segmento, puoi combinare le diverse attività per creare scenari multicanale con più passaggi. Dalla palette, scegli i passaggi necessari.
 
 ### Eventi{#jo-event}
+
+Gli eventi attivano un percorso personalizzato, ad esempio un acquisto online. Una volta che qualcuno entra in un percorso, si muove come un individuo, e non due individui si muovono allo stesso ritmo o lungo lo stesso percorso.
 
 Quando avvii il percorso con un evento, il percorso viene attivato quando l’evento viene ricevuto. Ogni persona nel percorso segue, singolarmente, i passaggi successivi definiti nel percorso.
 
@@ -80,11 +82,15 @@ Utilizzo **Qualificazione del segmento** attività dell’evento per consentire 
 
 ### Orchestrazione{#jo-orch}
 
-Dalle attività di orchestrazione, utilizza il **Leggi segmento** attività che consente di impostare il percorso in modo che ascolti un segmento Adobe Experience Platform. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
+Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso.
+
+Dalle attività di orchestrazione, utilizza il **Leggi segmento** per impostare il percorso in modo che ascolti un segmento Adobe Experience Platform. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
 
 Le altre attività ti consentono di aggiungere condizioni al percorso per definire diversi percorsi, impostare un tempo di attesa prima di eseguire l’attività successiva o terminare il percorso. [Ulteriori informazioni sulle attività di orchestrazione](about-journey-activities.md#orchestration-activities).
 
 ### Azioni{#jo-actions}
+
+Le azioni sono ciò che desideri che accada in seguito a un certo tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta. Potrebbe trattarsi di un messaggio e-mail, SMS o push o di un’azione di terze parti, ad esempio un messaggio di Slack.
 
 Le attività di azione del canale ti consentono di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività di azione del canale](journeys-message.md)
 
