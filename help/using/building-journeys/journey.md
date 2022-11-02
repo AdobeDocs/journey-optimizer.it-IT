@@ -7,17 +7,17 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d8fb8759fcd688deec56cb7247ddf082e6d6766d
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Introduzione ai percorsi{#jo-general-principle}
 
-Utilizzo [!DNL Journey Optimizer] per generare casi di utilizzo di orchestrazione in tempo reale, sfruttando i dati contestuali archiviati negli eventi o nelle origini dati.
+Utilizzo [!DNL Journey Optimizer] per creare casi d’uso di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati.
 
 Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
@@ -74,7 +74,7 @@ Quando cerchi un percorso, le versioni più recenti vengono visualizzate nella p
 
 >[!NOTE]
 >
->Nella maggior parte dei casi, un profilo non può essere presente più volte nello stesso percorso e allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
+>Di solito, un profilo non può essere presente più volte nello stesso percorso, allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
 
 Per modificare un percorso live, crea una nuova versione del percorso.
 
