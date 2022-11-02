@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 2%
@@ -188,7 +188,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
 ## Verificare la pagina di destinazione {#test-landing-page}
 
-Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare in che modo questo contenuto viene visualizzato nella pagina di destinazione, sfruttando i dati del profilo di test.
+Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare la modalità di visualizzazione del contenuto nella pagina di destinazione utilizzando i dati del profilo di test.
 
 >[!CAUTION]
 >

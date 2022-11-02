@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 Quando si tratta di impostare gli sfondi con E-mail Designer, l’Adobe consiglia quanto segue:
 
 1. Se richiesto dalla progettazione, applica un colore di sfondo al corpo dell’e-mail.
-1. Nella maggior parte dei casi, imposta i colori di sfondo a livello di colonna.
+1. In genere, impostare i colori di sfondo a livello di colonna.
 1. Prova a non utilizzare i colori di sfondo su componenti immagine o testo in quanto sono difficili da gestire.
 
 Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile utilizzare.

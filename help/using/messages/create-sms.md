@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 13%
@@ -60,7 +60,7 @@ Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 >
 > Per una migliore consegna, è sempre necessario utilizzare i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), puoi controllare come questo contenuto viene visualizzato nel messaggio, utilizzando i dati del profilo di test.
 
 Per visualizzare la modalità di visualizzazione del messaggio SMS sui dispositivi mobili, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** scheda . Ulteriori informazioni sulla simulazione dei contenuti in [questa sezione](../design/preview.md).
 
