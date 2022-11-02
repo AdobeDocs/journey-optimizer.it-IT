@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '365'
+ht-degree: 7%
 
 ---
 
@@ -39,13 +39,11 @@ I flussi di lavoro di composizione consentono di combinare e disporre i tipi di 
    * **[!UICONTROL Salva]**: l&#39;ultimo passo della composizione. Questa attività ti consente di salvare il risultato del flusso di lavoro in un nuovo pubblico.
    Per ulteriori informazioni su come configurare le attività nell’area di lavoro della composizione, consulta [Lavorare con il quadro di composizione](composition-canvas.md).
 
-1. Seleziona la **[!UICONTROL Pubblico]** attività , quindi specifica un’etichetta per la composizione.
+1. Apri le proprietà di composizione per specificare un titolo e una descrizione.
 
-   >[!IMPORTANT]
-   >
-   >La **[!UICONTROL Pubblico]** etichetta di attività è l’etichetta della tua composizione. Assicurati di fornire un nome significativo per recuperare la composizione più facilmente nell&#39;elenco.
+   Se nelle proprietà non è definito alcun titolo, l’etichetta della composizione sarà quella di partenza **[!UICONTROL Pubblico]** attività.
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. Configura la composizione aggiungendo tutte le attività necessarie tra le **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]** attività. [Scopri come lavorare con l’area di lavoro della composizione](composition-canvas.md)
 
@@ -57,7 +55,7 @@ I flussi di lavoro di composizione consentono di combinare e disporre i tipi di 
 
    ![](assets/audiences-alerts.png)
 
-1. La composizione viene pubblicata. I tipi di pubblico risultanti vengono salvati in Adobe Experience Platform. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. La composizione viene pubblicata. I tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e sono pronti per il targeting nelle campagne Journey Optimizer. [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 
 ## Accedere a composizioni {#access}
 
@@ -69,7 +67,7 @@ I flussi di lavoro di composizione consentono di combinare e disporre i tipi di 
 Tutte le composizioni create sono accessibili dal **[!UICONTROL Composizioni]** scheda . Possono avere più stati:
 
 * **[!UICONTROL Bozza]**: la composizione è in corso e non è stata pubblicata.
-* **[!UICONTROL Pubblicato]**: la composizione è stata pubblicata e i tipi di pubblico risultanti sono stati salvati. <!-- and are available for use.-->
+* **[!UICONTROL Pubblicato]**: la composizione è stata pubblicata, i tipi di pubblico risultanti sono stati salvati e sono disponibili per l’uso.
 * **[!UICONTROL Archiviato]**: la composizione è stata archiviata.
 
 ![](assets/audiences-compositions.png)
@@ -78,7 +76,7 @@ Tutte le composizioni create sono accessibili dal **[!UICONTROL Composizioni]** 
 >
 >Puoi duplicare o eliminare una composizione esistente in qualsiasi momento utilizzando il pulsante di ellisse nell’elenco.
 
-Per saperne di più:
+Scopri di più:
 
 * [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
 * [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)

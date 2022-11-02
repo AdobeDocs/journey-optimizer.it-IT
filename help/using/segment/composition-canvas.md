@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -28,24 +28,28 @@ I passaggi per configurare una composizione nell&#39;area di lavoro della compos
 
 ## Selezionare il pubblico iniziale {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Tipi di unione"
->abstract="Specifica come devono essere uniti i profili dei tipi di pubblico selezionati."
-
 Il primo passaggio per creare una composizione consiste nel selezionare uno o più tipi di pubblico esistenti come base della composizione.
 
-Seleziona la **[!UICONTROL Pubblico]** quindi fai clic su **[!UICONTROL Aggiungi pubblico]** quindi seleziona uno o più tipi di pubblico.
+1. Seleziona la **[!UICONTROL Pubblico]** quindi fornisci un’etichetta per l’attività.
+
+1. Scegli il pubblico di cui eseguire il targeting:
+
+   * Fai clic sul pulsante **[!UICONTROL Aggiungi pubblico]** per selezionare uno o più tipi di pubblico esistenti,
+   * Fai clic sul pulsante **[!UICONTROL Crea regola]** per creare una nuova definizione di segmento utilizzando il pulsante [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. Se sono selezionati più tipi di pubblico, specifica in che modo unire i profili di questi tipi di pubblico:
+
+* **[!UICONTROL Union]**: includere tutti i profili dal pubblico selezionato,
+* **[!UICONTROL Intersection]**: includere profili comuni a tutti i tipi di pubblico selezionati,
+* **[!UICONTROL Escludi sovrapposizione]**: includere profili che appartengono solo a uno dei tipi di pubblico. I profili appartenenti a più di un pubblico non verranno inclusi.
 
 In questo esempio, vogliamo eseguire il targeting di tutti i profili appartenenti al pubblico gold e silver.
 
 ![](assets/audiences-starting-audience.png)
 
-Se selezioni più tipi di pubblico, specifica in che modo i profili di questi tipi di pubblico devono essere uniti:
-
-* **[!UICONTROL Union]**: includere tutti i profili dal pubblico selezionato,
-* **[!UICONTROL Intersection]**: includere profili comuni a tutti i tipi di pubblico selezionati,
-* **[!UICONTROL Escludi sovrapposizione]**: includere profili che appartengono solo a uno dei tipi di pubblico. I profili appartenenti a più di un pubblico non verranno inclusi.
+Una volta selezionati i tipi di pubblico, il numero stimato di profili viene visualizzato nella parte inferiore dell’attività.
 
 ## Aggiungi attività {#action-activities}
 
@@ -74,6 +78,11 @@ Le attività disponibili sono:
 >id="ajo_ao_audience"
 >title="Attività pubblico"
 >abstract="L’attività Pubblico ti consente di includere nella composizione profili aggiuntivi appartenenti a un pubblico esistente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Tipi di unione"
+>abstract="Specifica come devono essere uniti i profili dei tipi di pubblico selezionati."
 
 La **[!UICONTROL Pubblico]** l’attività ti consente di includere nella composizione profili aggiuntivi appartenenti a un pubblico esistente.
 
@@ -179,7 +188,7 @@ A questo scopo, seleziona la **[!UICONTROL Save audience]** alla fine di ogni pe
 
 Una volta pronta la composizione, puoi pubblicarla. [Scopri come creare le composizioni](create-compositions.md)
 
-Per saperne di più:
+Scopri di più:
 
 * [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
 * [Creare flussi di lavoro di composizione](create-compositions.md)

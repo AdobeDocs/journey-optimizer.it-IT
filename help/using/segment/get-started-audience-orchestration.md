@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 9%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 9%
 
 La composizione del pubblico consente di creare **flussi di lavoro per composizione**, dove puoi combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare varie attività (divise, escluse...) per creare nuovi tipi di pubblico.
 
-Una volta fatto, il **pubblico risultante** vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti.<!--, and can be **leveraged in campaigns** to target customers.-->
+Una volta fatto, il **pubblico risultante** vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **sfruttato nelle campagne** ai clienti.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Per il momento, i tipi di pubblico risultanti da flussi di lavoro di composizione non possono essere indirizzati a Journey Optimizer. Non possono essere indirizzati nelle destinazioni Adobe Experience Platform.
+>I tipi di pubblico risultanti dai flussi di lavoro di composizione possono essere indirizzati solo alle campagne Journey Optimizer. Non sono disponibili per l’uso nei percorsi.
 
 ## Accedere alla composizione del pubblico {#access}
 
@@ -53,7 +53,7 @@ La composizione del pubblico è accessibile dal **[!UICONTROL Segmenti]** menu:
 >
 >Questa documentazione si applica solo alla composizione del pubblico. La **[!UICONTROL Panoramica]** e **[!UICONTROL Segmenti]** vengono utilizzate nel contesto della creazione delle definizioni dei segmenti. Per ulteriori informazioni, consulta la sezione [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-Per saperne di più:
+Scopri di più:
 
 * [Creare flussi di lavoro di composizione](create-compositions.md)
 * [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)

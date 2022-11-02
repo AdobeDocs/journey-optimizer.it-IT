@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 14%
+source-wordcount: '146'
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,6 @@ ht-degree: 14%
 # Accesso e gestione dei tipi di pubblico {#access-manage-audiences}
 
 I tipi di pubblico sono accessibili dal **[!UICONTROL Tipi di pubblico]** nella scheda **[!UICONTROL Segmenti]** menu.
-
->[!IMPORTANT]
->
->Per il momento, i tipi di pubblico risultanti da flussi di lavoro di composizione non possono essere indirizzati a Journey Optimizer.
 
 In questa scheda vengono elencati tutti i tipi di pubblico archiviati in Adobe Experience Platform. I tipi di pubblico creati utilizzando le composizioni dei tipi di pubblico sono identificabili dalla **[!UICONTROL Composizione del pubblico]** origine.
 
@@ -41,7 +37,7 @@ Per assegnare etichette di utilizzo dati personalizzate o di base a un pubblico,
 -edit an audience?
 -->
 
-Per saperne di più:
+Scopri di più:
 
 * [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
 * [Creare flussi di lavoro di composizione](create-compositions.md)
