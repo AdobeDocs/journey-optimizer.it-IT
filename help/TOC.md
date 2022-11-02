@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 95%
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
+   + Gestire i percorsi{#mannage-journey}
+      + [Termina il percorso](using/building-journeys/end-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
+      + [Gestione delle voci di profilo](using/building-journeys/entry-management.md)
       + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Risolvere i problemi del percorso](using/building-journeys/troubleshooting.md)
       + [Integrare con Intelligent Services](using/building-journeys/ai-services-overview.md)
@@ -144,6 +147,14 @@ ht-degree: 95%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casi d’uso {#journey-use-cases}
+      + Casi d&#39;uso aziendali {#business-use-cases}
+         + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
+         + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
+      + Casi d&#39;uso tecnico {#technical-use-cases}
+         + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
+         + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Limitare il throughput con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
 + Campagne{#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -252,14 +263,6 @@ ht-degree: 95%
       + [Creare flussi di lavoro di composizione](using/segment/create-compositions.md)
       + [Lavorare nell’area di lavoro per la composizione](using/segment/composition-canvas.md)
       + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
-      + Casi d&#39;uso aziendali {#business-use-cases}
-         + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
-         + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
-         + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
-      + Casi d&#39;uso tecnico {#technical-use-cases}
-         + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
-         + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitare il throughput con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
 + Tracciare e monitorare {#reporting}
    + Report live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)

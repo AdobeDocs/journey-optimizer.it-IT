@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare percorsi
-description: Scopri come configurare Origini dati, Eventi e Azioni.
+title: Configurare i percorsi
+description: Scopri come configurare origini dati, eventi e azioni
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 43%
 
 ---
 
-# Configurare percorsi {#configure-journeys}
+# Configurare i percorsi {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
