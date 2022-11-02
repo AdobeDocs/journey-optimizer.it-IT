@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 992f1ee215cc7f14d7f29a0bd592838fead2568c
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 9%
@@ -62,7 +62,7 @@ Un percorso può terminare per un individuo in due contesti specifici:
 
 La persona può quindi rientrare nel percorso se è consentito il rientro. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
 
-Per terminare un percorso live, ti consigliamo di chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà poi bloccato. I clienti che sono già entrati nel percorso possono sperimentarlo fino alla fine. Vedi [questa sezione](../building-journeys/.md#close-journey)
+Per terminare un percorso live, ti consigliamo di chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà poi bloccato. I clienti che sono già entrati nel percorso possono sperimentarlo fino alla fine. Vedi [questa sezione](../building-journeys/journey.md#close-journey)
 
 È possibile interrompere un percorso solo se si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente su un percorso. Le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Vedi [questa sezione](../building-journeys/journey.md#stop-journey)
 
