@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 1a2a5ed846319e7387589284e954d4c759b6b25e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Puoi sfruttare i segmenti nei percorsi in diversi modi:
 In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei seguenti metodi di valutazione:
 
 * Segmentazione in streaming : l’elenco del pubblico per il segmento viene mantenuto aggiornato in tempo reale, mentre i nuovi dati scorrono nel sistema.
-* Segmentazione in batch: l’elenco del pubblico per il segmento viene aggiornato ogni ora, in base ai dati arrivati nell’ora precedente.
+* Segmentazione in batch: l’elenco del pubblico per il segmento viene valutato ogni 24 ore. Tuttavia, per i segmenti esistenti, la segmentazione incrementale mantiene i segmenti aggiornati fino a un’ora.
 
 La determinazione tra segmentazione batch e segmentazione in streaming viene effettuata dal sistema per ogni definizione di segmento, in base alla complessità e al costo della valutazione della regola del segmento.
 
