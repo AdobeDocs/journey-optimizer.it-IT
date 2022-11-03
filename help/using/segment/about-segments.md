@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: adfd47f23188935f6382a18d0de4a6101f022d78
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Puoi sfruttare i segmenti nei percorsi in diversi modi:
 
 * Crea **condizioni complesse** nei percorsi utilizzando l’editor di espressioni semplice o avanzato. Ulteriori informazioni in [questa sezione](../building-journeys/condition-activity.md#using-a-segment).
 
-## Metodo di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
+## Metodi di valutazione del pubblico{#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei seguenti metodi di valutazione:
 
