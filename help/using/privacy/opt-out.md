@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: b35ae530ec23da1ecb0ae99c4d9659481d296f09
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 77%
 
 ---
 
@@ -215,12 +215,28 @@ Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegli
 
 In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. Una volta annullata l’iscrizione, i profili vengono rimossi automaticamente dal pubblico dei messaggi di marketing futuri.
 
->[!NOTE]
+Per impostazione predefinita, Adobe Journey Optimizer gestisce i messaggi di risposta in lingua inglese standard come STOP, UNSTOP e START per i messaggi Toll-Free e Long Code, in conformità agli standard di settore per l&#39;integrazione nativa come Sinch e Twilio. Queste parole chiave solitamente attivano una risposta standard automatica dal tuo provider di terze parti (ad esempio Twilio, Sinch, ecc.). Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
+
+Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS funzionino in Adobe Journey Optimizer in quanto le risposte alle parole chiave STOP, UNSTOP e START verranno riconosciute automaticamente.
+
+Oltre a interrompere l’invio in base allo stato di rinuncia (per le integrazioni dirette con Twilio o Sinch), la maggior parte dei provider di gateway SMS mantiene anche un elenco Bloccati che ti assicura che non venga inviato un messaggio SMS a una persona che ha scelto di rinunciare. Se utilizzi un provider diverso da Sinch o Twilio e invii un SMS tramite [canale personalizzato](../building-journeys/using-custom-actions.md), devi confermarlo con il tuo provider.
+
+>[!IMPORTANT]
 >
->L’aggiunta di un collegamento di annullamento dell’iscrizione non è obbligatoria per i messaggi transazionali.
+>Le campagne di messaggi di testo possono essere soggette a vari requisiti di conformità legali a seconda della natura della campagna di messaggistica di testo, della posizione da cui stai inviando i messaggi di testo e della posizione dei destinatari. <br>Anche se Adobe Journey Optimizer gestirà i messaggi relativi ai codici lunghi e ai numeri verdi come descritto in precedenza, è necessario consultare il proprio consulente legale per assicurarsi che la campagna di messaggistica testuale sia conforme a tutti i requisiti di conformità legale applicabili.
 
-Adobe Journey Optimizer elabora automaticamente le seguenti parole chiave nei messaggi in arrivo: **START**, (AVVIA), **STOP** (INTERROMPI) e **UNSTOP** (RIPRENDI). Queste parole chiave attivano le risposte standard automatiche dal provider SMS.
+### Codici brevi {#short-codes}
 
-Per ulteriori informazioni sul funzionamento del supporto nativo per parole chiave in entrata (start, stop e unstop) per SMS, guarda il seguente video:
+Per impostazione predefinita, Adobe Journey Optimizer non gestirà le parole chiave di rinuncia, consenso o aiuto per i numeri di codice brevi.
+
+Devi accertarti che il tuo codice breve sia conforme a tutte le regole e le normative del settore per la gestione delle rinunce.
+
+### ID mittente alfanumerico {#alphanumeric}
+
+Gli ID di mittente alfanumerici sono solo per la messaggistica unidirezionale e non sono in grado di ricevere messaggi in entrata. Di conseguenza, le parole chiave SMS STOP, START e HELP di Adobe Journey Optimizer non sono applicabili per gli ID del mittente Alpha. È necessario fornire altre istruzioni, come scrivere al team di supporto, chiamare una linea telefonica di supporto o inviare un messaggio con un altro numero di telefono o codice per consentire agli utenti di rinunciare ai messaggi inviati tramite ID mittente alfanumerico.
+
+#### Video {#video-sms}
+
+Per ulteriori informazioni sul funzionamento del supporto nativo per parole chiave in entrata (START, STOP e UNSTOP) per SMS, consulta il seguente video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
