@@ -5,9 +5,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ Questa pagina elenca tutte le nuove funzionalità e i miglioramenti introdotti i
 
 **Percorsi**
 
-* La **Forza il rientro sulla ricorrenza** è stata aggiunta un’opzione nei parametri ricorrenti di pianificazione dei segmenti di lettura. Questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando l’opzione è disattivata, i profili devono terminare il percorso prima di poter reimmettere in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* L’opzione **Forza il rientro in caso di ricorrenza** è stata aggiunta nei parametri ricorrenti di pianificazione dei segmenti di lettura. Questa opzione ti consente di far passare automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando questa opzione è disattivata, i profili devono terminare il percorso prima di poter entrare nuovamente in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Amministrazione**
 
-* È stato aggiunto un messaggio all’interfaccia utente per informare che le configurazioni di sottodominio, sottodominio della pagina di destinazione, record PTR e pool IP sono comuni a tutte le sandbox e quindi qualsiasi modifica a una di queste configurazioni avrà un impatto anche sulle sandbox di produzione.
+* È stato aggiunto un messaggio all’interfaccia utente per avvisare che le configurazioni di sottodominio, sottodominio della pagina di destinazione, record PTR e pool IP sono comuni a tutte le sandbox e quindi qualsiasi modifica a una di queste configurazioni influirà anche sulle sandbox di produzione.
 * I passaggi per caricare l’elenco di soppressione come file CSV dall’interfaccia utente sono stati modificati. [Ulteriori informazioni](../configuration/manage-suppression-list.md#download-suppression-list)
 
 **Campagne**
