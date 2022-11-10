@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 2%
+source-wordcount: '1418'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,16 @@ ht-degree: 2%
 Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie del canale (ad esempio, messaggio preimpostato). Scopri come creare superfici in [questa sezione](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
+
+La configurazione dell’area e-mail viene selezionata per l’invio di comunicazioni secondo la logica seguente:
+
+* Per i percorsi batch e burst, non si applica all&#39;esecuzione in batch o burst che era già iniziata prima della configurazione della superficie dell&#39;e-mail. Le modifiche verranno rilevate alla ricorrenza successiva o alla nuova esecuzione.
+
+* Per i messaggi transazionali, la modifica viene selezionata immediatamente per la comunicazione successiva (fino a un ritardo di cinque minuti).
+
+>[!NOTE]
+>
+>Le impostazioni aggiornate della superficie dell’e-mail vengono automaticamente raccolte nei percorsi o nelle campagne in cui viene utilizzata la superficie.
 
 ## Tipo di e-mail {#email-type}
 
@@ -96,25 +106,39 @@ Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell�
 
 In **[!UICONTROL Parametri di intestazione]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale superficie.
 
->[!CAUTION]
->
->Gli indirizzi e-mail devono utilizzare il [sottodominio delegato](about-subdomain-delegation.md).
-
 * **[!UICONTROL Nome mittente]**: Nome del mittente, ad esempio il nome del brand.
 
-* **[!UICONTROL Invia e-mail]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni. Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com*.
+* **[!UICONTROL Invia e-mail]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni.
 
 * **[!UICONTROL Risposta a (nome)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail.
 
-* **[!UICONTROL Rispondi a (e-mail)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. È necessario utilizzare un indirizzo definito nel sottodominio delegato (ad esempio, *reply@marketing.luma.com*), altrimenti le e-mail verranno eliminate.
+* **[!UICONTROL Rispondi a (e-mail)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. [Ulteriori informazioni](#reply-to-email)
 
 * **[!UICONTROL E-mail di errore]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
+
+>[!CAUTION]
+>
+>La **[!UICONTROL Invia e-mail]** e **[!UICONTROL E-mail di errore]** Gli indirizzi devono utilizzare gli indirizzi selezionati correnti [sottodominio delegato](about-subdomain-delegation.md). Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >Gli indirizzi devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
+
+### Risposta all’e-mail {#reply-to-email}
+
+Quando definisci **[!UICONTROL Rispondi a (e-mail)]** indirizzo, è possibile specificare qualsiasi indirizzo e-mail purché si tratti di un indirizzo valido, nel formato corretto e senza errori di battitura.
+
+Per garantire una corretta gestione delle risposte, segui le raccomandazioni riportate di seguito:
+
+* La casella in entrata utilizzata per le risposte riceverà tutte le e-mail di risposta, incluse le notifiche fuori sede e le risposte di sfida, quindi assicurati di disporre di un processo manuale o automatico per elaborare le e-mail di destinazione in questa casella in entrata.
+
+* Assicurati che la casella in entrata dedicata disponga di una capacità di ricezione sufficiente per ricevere tutte le e-mail di risposta inviate utilizzando l’area e-mail. Se la casella in entrata restituisce messaggi non recapitati, alcune risposte dei clienti potrebbero non essere ricevute.
+
+* Le risposte devono essere elaborate tenendo conto degli obblighi in materia di privacy e conformità, in quanto possono contenere informazioni personali identificabili (PII).
+
+* Non contrassegnare i messaggi come spam nella casella in entrata risposte, in quanto avranno effetto su tutte le altre risposte inviate a questo indirizzo.
 
 ### Invia e-mail {#forward-email}
 

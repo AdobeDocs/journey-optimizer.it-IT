@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1235'
 ht-degree: 3%
 
 ---
@@ -64,15 +64,7 @@ L’impostazione dell’indirizzo e-mail CCN viene immediatamente salvata ed ela
 
 ![](assets/preset-bcc-in-msg.png)
 
-Tuttavia, l’indirizzo CCN viene selezionato per l’invio di comunicazioni secondo la logica seguente:
-
-* Per i percorsi batch e burst, non si applica all&#39;esecuzione batch o burst che era già iniziato prima dell&#39;impostazione CCN. La modifica verrà rilevata alla ricorrenza successiva o alla nuova esecuzione.
-
-* Per i messaggi transazionali, la modifica viene selezionata immediatamente per la comunicazione successiva (fino a un minuto di ritardo).
-
->[!NOTE]
->
->Non è necessario ripubblicare il percorso per selezionare l’impostazione CCN.
+Tuttavia, l’indirizzo CCN viene selezionato per l’invio di comunicazioni secondo la logica descritta [qui](email-settings.md).
 
 ### Recommendations e limitazioni {#bcc-recommendations-limitations}
 

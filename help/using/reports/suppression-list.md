@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '767'
 ht-degree: 3%
 
 ---
 
 # Elenco di soppressione {#suppression-list}
 
-Un elenco di soppressione è costituito da indirizzi e-mail che si desidera escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione dell’invio e i tassi di consegna.
+Un elenco di soppressione è costituito da indirizzi e domini che desideri escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione e i tassi di consegna dell’invio.
 
 La [!DNL Journey Optimizer] l’elenco di soppressione viene gestito a livello di ambiente, ovvero per una data sandbox.
 
@@ -25,7 +25,7 @@ Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico amb
 
 >[!NOTE]
 >
->In Adobe viene conservato un elenco aggiornato di indirizzi e-mail non validi noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e si assicura che le e-mail non vengano recapitate a tali indirizzi. Questo elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti di consegna è indicato solo il numero di destinatari esclusi.
+>In Adobe viene conservato un elenco aggiornato degli indirizzi danneggiati noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Questo elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti di consegna è indicato solo il numero di destinatari esclusi.
 
 ## Perché una lista di soppressione? {#why-suppression-list}
 
@@ -37,11 +37,11 @@ I destinatari i cui indirizzi e-mail sono soppressi vengono automaticamente escl
 
 ## Cosa c&#39;è nella lista di soppressione? {#what-s-on-suppression-list}
 
-Gli indirizzi e-mail vengono aggiunti all’elenco di eliminazione come segue:
+Gli indirizzi vengono aggiunti all’elenco di soppressione come segue:
 
-* Tutto **rimbalzi duri** e **disturbi da spam** invia automaticamente gli indirizzi e-mail corrispondenti all’elenco di soppressione dopo una singola occorrenza.
+* Tutto **rimbalzi duri** e **disturbi da spam** invia automaticamente gli indirizzi corrispondenti all’elenco di soppressione dopo una singola occorrenza.
 
-* **Rimbalzi morbidi** non inviare immediatamente un indirizzo e-mail all’elenco di soppressione, ma incrementa un contatore di errori. Diversi [tentativi](../configuration/retries.md) vengono quindi eseguiti e quando il contatore degli errori raggiunge la soglia, l’indirizzo viene aggiunto all’elenco di soppressione.
+* **Rimbalzi morbidi** non inviano immediatamente un indirizzo all&#39;elenco di soppressione, ma incrementano un contatore di errori. Diversi [tentativi](../configuration/retries.md) vengono quindi eseguiti e quando il contatore degli errori raggiunge la soglia, l’indirizzo viene aggiunto all’elenco di soppressione.
 
 * È inoltre possibile [**manuale** aggiungere un indirizzo o un dominio](../configuration/manage-suppression-list.md#add-addresses-and-domains) all&#39;elenco di soppressione.
 
