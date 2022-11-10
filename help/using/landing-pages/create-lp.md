@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1505'
 ht-degree: 2%
 
 ---
@@ -51,6 +51,12 @@ Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’
 >abstract="Per creare una pagina di destinazione, devi selezionare un predefinito, quindi configurare la pagina principale e le sottopagine e infine verificare la pagina prima di pubblicarla."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Pubblicare la pagina di destinazione"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_management_labels"
+>title="Assegnare etichette alla pagina di destinazione"
+>abstract="Per proteggere le risorse digitali sensibili, puoi definire autorizzazioni per gestire l’accesso ai dati alla pagina di destinazione utilizzando le etichette."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Creare predefiniti per pagine di destinazione"
 
 I passaggi per creare una pagina di destinazione sono i seguenti:
 
