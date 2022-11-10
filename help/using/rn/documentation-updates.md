@@ -5,9 +5,9 @@ title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2128'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Ottobre 2022 {#october-2022}
 
-* È stato aggiunto un caso d’uso percorso su come limitare il throughput utilizzando Origini dati esterne e Azioni personalizzate. [Ulteriori informazioni](../building-journeys/limit-throughput.md)
-* La sezione relativa al caso d’uso percorso è stata riorganizzata in due categorie: [Casi d&#39;uso aziendali](../building-journeys/journeys-uc.md) e [Casi d&#39;uso tecnico](../building-journeys/collections.md).
-* La **Set di dati di entità** la sezione è stata aggiornata con ulteriori dettagli. [Ulteriori informazioni](../start/datasets-query-examples.md#entity-dataset)
+* È stato aggiunto un caso d’uso del percorso su come limitare la velocità effettiva utilizzando Origini dati esterne e Azioni personalizzate. [Ulteriori informazioni](../building-journeys/limit-throughput.md)
+* La sezione relativa ai casi d’uso del percorso è stata riorganizzata in due categorie: [Casi d’uso aziendali](../building-journeys/journeys-uc.md) e [Casi d’uso tecnici](../building-journeys/collections.md).
+* La sezione **Set di dati di entità** è stata aggiornata con ulteriori dettagli. [Ulteriori informazioni](../start/datasets-query-examples.md#entity-dataset)
 * Le informazioni relative alla gestione delle rinunce e ai criteri di consenso sono state riorganizzate in una nuova sezione. [Ulteriori informazioni](../privacy/opt-out.md)
-* La sezione sui parametri avanzati nei messaggi di percorso è stata chiarita e ora specifica che la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nel **Campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../messages/messages-in-journeys.md#adv-settings)
-* È stata aggiunta una nota al **Configurare i sottodomini della pagina di destinazione** per specificare che le lettere maiuscole non sono consentite nei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
+* La sezione sui parametri avanzati nei messaggi di percorso è stata chiarita e ora specifica che la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../messages/messages-in-journeys.md#adv-settings)
+* È stata aggiunta una nota alla sezione **Configurare i sottodomini della pagina di destinazione** per specificare che l‘utilizzo delle lettere maiuscole non è consentito nei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
 
 ## Settembre 2022 {#september-2022}
 
