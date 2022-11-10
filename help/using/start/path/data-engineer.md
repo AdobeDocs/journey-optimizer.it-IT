@@ -1,47 +1,47 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guida introduttiva di Journey Optimizer per data engineer
-description: In qualità di data engineer, scopri di più su come lavorare con Journey Optimizer
+title: Guida introduttiva di Journey Optimizer per l’ingegnere dati
+description: In qualità di ingegnere dati, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Introduzione per Data Engineer {#data-engineer}
+# Guida introduttiva per l’ingegnere dati {#data-engineer}
 
-Come **Adobe Journey Optimizer Data Engineer**, preparare e gestire i dati del profilo cliente per potenziare le esperienze orchestrate da [!DNL Journey Optimizer], modella i dati di clienti e aziende negli schemi e configura i connettori sorgente per l’acquisizione dei dati. Puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer] una volta che [Amministratore di sistema](administrator.md) ti ha concesso l&#39;accesso e preparato il tuo ambiente.
+Come **ingegnere dati di Adobe Journey Optimizer**, devi preparare e gestire i dati del profilo cliente per potenziare le esperienze orchestrate da [!DNL Journey Optimizer], modellare i dati di clienti e aziende negli schemi e configurare i connettori origine per l’acquisizione dei dati. Una volta che l’[amministratore di sistema](administrator.md) ti avrà concesso l’accesso e avrà preparato il tuo ambiente, puoi iniziare a lavorare con [!DNL Adobe Journey Optimizer].
 
 
-Scopri come **identificare dati e creare schema e set di dati** per inserire i dati in Adobe Experience Platform in questa pagina.
+Scopri come **identificare dati e creare schemi e set di dati** per inserire i dati in Adobe Experience Platform in questa pagina.
 
 >[!NOTE]
 >
->Ulteriori informazioni **inserimento dati** in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
+>Ulteriori informazioni sull’**acquisizione dei dati** nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
 
-I passaggi per creare uno spazio dei nomi di identità e un set di dati abilitati per i profili e i profili di test sono descritti nelle sezioni seguenti:
+I passaggi per creare uno spazio dei nomi delle identità, un set di dati abilitati per i profili e i profili di test sono descritti nelle sezioni seguenti:
 
-1. **Creare uno spazio dei nomi di identità**. In Adobe [!DNL Journey Optimizer], **Identità** collega i consumatori tra dispositivi e canali, il risultato è un grafico dell&#39;identità. Il grafico dell’identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Ulteriori informazioni su identità e namespace di identità [in questa pagina](../../segment/get-started-identity.md).
+1. **Creare uno spazio dei nomi di identità**. In Adobe [!DNL Journey Optimizer], le **Identità** collegano i consumatori tra dispositivi e canali creando un grafico delle identità. Il grafico delle identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Per ulteriori informazioni su identità e spazio dei nomi delle identità, consulta [questa pagina](../../segment/get-started-identity.md).
 
-1. **Creare uno schema** e abilitalo per i profili. Uno schema è un insieme di regole che rappresentano e convalidano la struttura e il formato dei dati. Ad alto livello, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza dell’oggetto (ad esempio nome, cognome, compleanno e così via).  Ulteriori informazioni sugli schemi [in questa pagina](../get-started-schemas.md).
+1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Per ulteriori informazioni sugli schemi, consulta [questa pagina](../get-started-schemas.md).
 
-1. **Creare set di dati** e abilitalo per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungerlo. Ulteriori informazioni sui set di dati [in questa pagina](../get-started-datasets.md).
+1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Per ulteriori informazioni sui set di dati, consulta [questa pagina](../get-started-datasets.md).
 
-1. **Configurare i connettori di origine**. Adobe Percorsi Optimizer consente di acquisire dati da sorgenti esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse sorgenti, come applicazioni di Adobe, archivi basati su cloud, database e molti altri. Ulteriori informazioni sui connettori sorgente [in questa pagina](../get-started-sources.md).
+1. **Configurare i connettori di origine**. Adobe Journey Optimizer consente di acquisire dati da origini esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e molte altre. Per ulteriori informazioni sui connettori di origine, consulta [questa pagina](../get-started-sources.md).
 
-1. **Creare profili di test**. I profili di test sono necessari quando si utilizza il [modalità di prova](../../building-journeys/testing-the-journey.md) in un percorso e [visualizzare in anteprima e verificare i messaggi](../../design/preview.md) prima dell’invio. I passaggi per creare i profili di test sono descritti in dettaglio [in questa pagina](../../segment/creating-test-profiles.md).
+1. **Creare profili di test**. I profili di test sono necessari quando si utilizza la [modalità di test](../../building-journeys/testing-the-journey.md) in un percorso e per [visualizzare in anteprima e verificare i messaggi](../../design/preview.md) prima di inviarli. I passaggi per creare i profili di test sono descritti in dettaglio [in questa pagina](../../segment/creating-test-profiles.md).
 
 
-Inoltre, per poter inviare messaggi in percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. [Ulteriori informazioni](../../configuration/about-data-sources-events-actions.md).
+Inoltre, per poter inviare messaggi nei percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. Per ulteriori informazioni, consulta [questa sezione](../../configuration/about-data-sources-events-actions.md).
 
 ![](../assets/admin-menu.png)
 
-* La **Origine dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. Ulteriori informazioni su Origini dati [in questa sezione](../../datasource/about-data-sources.md).
+* La configurazione dell‘**origine dati** consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive le quali verranno utilizzate nei percorsi. Per ulteriori informazioni sulle origini dati, consulta [questa sezione](../../datasource/about-data-sources.md).
 
-* **Eventi** ti consente di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Ulteriori informazioni sugli eventi [in questa sezione](../../event/about-events.md).
+* **Eventi** ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion (acquisizione dati in streaming) per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Per ulteriori informazioni sugli eventi, consulta [questa sezione](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] viene fornito con [funzionalità integrate dei messaggi](../../messages/get-started-content.md): puoi creare i messaggi all’interno di un percorso e progettare il contenuto. Se utilizzi un sistema di terze parti per l’invio dei messaggi, ad esempio Adobe Campaign, crea un **azione personalizzata**. Ulteriori informazioni sulle azioni in questo [in questa sezione](../../action/action.md).
+* [!DNL Journey Optimizer] viene fornito con [funzionalità per i messaggi incorporate](../../messages/get-started-content.md): puoi creare i messaggi all’interno di un percorso e progettare il contenuto. Se per l’invio di messaggi utilizzi un sistema di terze parti, ad esempio Adobe Campaign, è possibile creare un‘**azione personalizzata**. Per ulteriori informazioni sulle azioni, consulta [questa sezione](../../action/action.md).
