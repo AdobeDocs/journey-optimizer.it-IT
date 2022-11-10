@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -93,20 +93,20 @@ Per le notifiche push, puoi visualizzare i seguenti parametri: Token, AppID, App
 
 ![](assets/push-adv-parameters.png)
 
-Per le e-mail, puoi visualizzare il [indirizzo e-mail principale](../configuration/primary-email-addresses.md).
+Per l’e-mail, puoi visualizzare l’[indirizzo e-mail principale](../configuration/primary-email-addresses.md).
 
-In contesti specifici, è possibile ignorare questi valori per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo.
+In contesti specifici, è possibile ignorare questi valori per un uso particolare. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo.
 
 ![](assets/email-adv-parameters.png)
 
 Questa opzione può essere utile ad esempio nelle seguenti situazioni:
 
-* Testa un’e-mail. Puoi aggiungere il tuo indirizzo e-mail; dopo aver pubblicato il percorso, l’e-mail ti viene inviata.
+* Test di un’e-mail. Puoi aggiungere il tuo indirizzo e-mail; dopo aver pubblicato il percorso, l’e-mail viene inviata al tuo indirizzo.
 * Fai riferimento all’indirizzo e-mail degli iscritti a un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
 
 >[!NOTE]
 >
->L’override dell’indirizzo e-mail deve essere utilizzato solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l’indirizzo e-mail perché il valore definito come indirizzo principale nel **[!UICONTROL Campi di esecuzione]** è quello che deve essere utilizzato. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
+>La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l’indirizzo e-mail perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** è quello che deve essere utilizzato. [Ulteriori informazioni](../configuration/primary-email-addresses.md)
 
 ## Sfogliare i messaggi{#browse-message}
 
