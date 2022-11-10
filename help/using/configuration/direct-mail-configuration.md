@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -129,21 +130,11 @@ Una superficie direct mailing deve includere anche la configurazione di indirizz
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
 
-1. In **[!UICONTROL Inserimento]** è possibile scegliere di rimuovere automaticamente le righe duplicate.
-
-1. Definisci il numero massimo di record (righe) per ciascun file contenente i dati del profilo. Una volta raggiunta la soglia specificata, verrà creato un altro file per i record rimanenti.
-
-   ![](assets/surface-direct-mail-split.png)
-
-   Ad esempio, se nel file sono presenti 100.000 record e il limite di soglia è impostato su 60.000, i record verranno suddivisi in due file. Il primo file conterrà 60.000 righe e il secondo file conterrà le restanti 40.000 righe.
-
-   >[!NOTE]
-   >
-   >È possibile impostare un numero qualsiasi compreso tra 1 e 200.000 record, il che significa che ogni file deve contenere almeno 1 riga e non più di 200.000 righe.
-
-1. Infine, seleziona la **[!UICONTROL Configurazione dell’indirizzamento dei file]** tra quelli creati. Questo definisce dove verrà esportato il file da utilizzare per il provider di direct mailing.
+1. Seleziona la **[!UICONTROL Configurazione dell’indirizzamento dei file]** tra quelli creati. Questo definisce dove verrà esportato il file da utilizzare per il provider di direct mailing.
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ Una superficie direct mailing deve includere anche la configurazione di indirizz
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. Invia l&#39;area direct mailing.
 
 Ora puoi [creare un messaggio di direct mailing](../messages/create-direct-mail.md) all’interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene automaticamente esportato sul server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna direct mailing.
+
+>[!NOTE]
+>
+>Le righe duplicate verranno rimosse automaticamente.
+>
+>Se il numero massimo di record (ovvero righe) per ogni file contenente dati di profilo è troppo alto, verrà creato automaticamente un altro file per i record rimanenti.
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->
