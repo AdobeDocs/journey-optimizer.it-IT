@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei relativi casi di utilizzo:
 
-[Set di dati evento esperienza tracciamento e-mail](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Set di dati evento del feedback del messaggio](../data/datasets-query-examples.md#message-feedback-event-dataset)
-[Set di dati evento esperienza tracciamento push](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Evento passaggio percorso](../data/datasets-query-examples.md#journey-step-event)
-[Decisioning del set di dati evento](../data/datasets-query-examples.md#ode-decisionevents)
-[Set di dati del servizio di consenso](../data/datasets-query-examples.md#consent-service-dataset)
-[Set di dati evento feedback CCN](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Set di dati di entità](../data/datasets-query-examples.md#entity-dataset)
+[Set di dati evento esperienza tracciamento e-mail](#email-tracking-experience-event-dataset)
+[Set di dati evento del feedback del messaggio](#message-feedback-event-dataset)
+[Set di dati evento esperienza tracciamento push](#push-tracking-experience-event-dataset)
+[Evento passaggio percorso](#journey-step-event)
+[Decisioning del set di dati evento](#ode-decisionevents)
+[Set di dati del servizio di consenso](#consent-service-dataset)
+[Set di dati evento feedback CCN](#bcc-feedback-event-dataset)
+[Set di dati di entità](#entity-dataset)
 
 ## Set di dati evento esperienza tracciamento e-mail{#email-tracking-experience-event-dataset}
 

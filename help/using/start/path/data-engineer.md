@@ -5,7 +5,7 @@ title: Guida introduttiva di Journey Optimizer per l’ingegnere dati
 description: In qualità di ingegnere dati, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
@@ -29,7 +29,7 @@ I passaggi per creare uno spazio dei nomi delle identità, un set di dati abilit
 
 1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Per ulteriori informazioni sugli schemi, consulta [questa pagina](../../data/get-started-schemas.md).
 
-1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Per ulteriori informazioni sui set di dati, consulta [questa pagina](../get-started-datasets.md).
+1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Per ulteriori informazioni sui set di dati, consulta [questa pagina](../../data/get-started-datasets.md).
 
 1. **Configurare i connettori di origine**. Adobe Journey Optimizer consente di acquisire dati da origini esterne e allo stesso tempo di strutturare, etichettare e migliorare i dati in arrivo tramite i servizi Platform. È possibile acquisire dati da diverse origini, ad esempio applicazioni Adobe, archivi basati su cloud, database e molte altre. Per ulteriori informazioni sui connettori di origine, consulta [questa pagina](../get-started-sources.md).
 
