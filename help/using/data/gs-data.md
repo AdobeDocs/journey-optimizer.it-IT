@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -34,7 +34,10 @@ In generale, la flessibilità desiderata dai dati è triplicata:
     <br>
   </td>
   <td>
-    <div>Disponibile in altre destinazioni - Journey Optimizer sinergizza e integra i dati per un’esperienza cliente iper-personalizzata, ma desideri che questi dati siano disponibili in altri sistemi nel tuo panorama tecnologico complessivo, cercando altri modi per sfruttare questi dati. <a href="../start/ajo-integrations.md">Ulteriori informazioni</a>&lt;</div>
+    <div>Disponibile in altre destinazioni - Journey Optimizer sinergizza e integra i dati per un’esperienza cliente iper-personalizzata, ma desideri che questi dati siano disponibili in altri sistemi nel tuo panorama tecnologico complessivo, cercando altri modi per sfruttare questi dati.
+    <div>
+     <a href="../start/ajo-integrations.md">Ulteriori informazioni</a></div>
+    </div>
     <br>
   </td>
 </tr>
@@ -76,6 +79,6 @@ Puoi utilizzare la flessibilità dei dati di Journey Optimizer per soddisfare i 
    * per 7 giorni per facilitare l’onboarding dei dati dei clienti nei servizi profilo, dopo di che potrebbe essere definitivamente cancellato, o
    * fino a quando scelto per essere cancellato da te
 
-* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono completamente rimossi dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
+* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono rimossi completamente dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
 
 I metodi di cui sopra sono definiti contrattualmente e descritti in dettaglio nell’accordo di elaborazione dei dati (DPA) che l’Adobe concorda con te all’inizio di un impegno. Le applicazioni di Adobe, incluso Journey Optimizer, sono progettate in base al principio che i dati di ciascun cliente devono essere trattati come risorsa di dati proprietaria del cliente.
