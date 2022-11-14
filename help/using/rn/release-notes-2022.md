@@ -4,8 +4,8 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
-workflow-type: ht
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 100%
 
@@ -165,7 +165,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Percorsi**
 
-* Il **Set di dati di entità** è ora disponibile come set di dati predefinito in Adobe Journey Optimizer. Questo set di dati di ricerca include metadati per arricchire le informazioni di tracciamento e feedback sui set di dati. Questo ti aiuterà a migliorare i rapporti e le query con dati più comprensibili. [Ulteriori informazioni](../start/datasets-query-examples.md#entity-dataset)
+* Il **Set di dati di entità** è ora disponibile come set di dati predefinito in Adobe Journey Optimizer. Questo set di dati di ricerca include metadati per arricchire le informazioni di tracciamento e feedback sui set di dati. Questo ti aiuterà a migliorare i rapporti e le query con dati più comprensibili. [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
 * È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione di segmento) per evitare che i percorsi vengano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il rientro nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
 
 **Amministrazione**

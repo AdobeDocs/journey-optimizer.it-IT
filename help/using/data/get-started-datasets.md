@@ -6,7 +6,7 @@ description: Scopri come utilizzare i set di dati Adobe Experience Platform in A
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 6%
@@ -91,7 +91,7 @@ Ulteriori informazioni sulla creazione di set di dati in [Documentazione di Adob
 
 Scopri come utilizzare l’interfaccia utente dei set di dati in [Panoramica sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target=&quot;_blank&quot;}.
 
-È disponibile un elenco di casi d’uso con esempi di query [qui](../start/datasets-query-examples.md).
+È disponibile un elenco di casi d’uso con esempi di query [qui](../data/datasets-query-examples.md).
 
 **Consulta anche**
 

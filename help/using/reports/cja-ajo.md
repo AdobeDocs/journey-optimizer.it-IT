@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 8%
@@ -29,9 +29,9 @@ Prima di utilizzare [!DNL Customer Journey Analytics] per i percorsi, devi prima
 1. [Creare una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) in [!DNL Customer Journey Analytics] con **[!UICONTROL Set di dati]** vuoi inviare a Adobe Experience Platform.
 
    I seguenti [!DNL Journey Optimizer] può essere configurato:
-   * [Evento passaggio percorso](../start/datasets-query-examples.md#journey-step-event): ti consente di vedere chi entra nei tuoi percorsi e quanto lontano arrivano.
-   * [Feed di dati di feedback/tracciamento dei messaggi](../start/datasets-query-examples.md#message-feedback-event-dataset): consente di visualizzare le informazioni sulla consegna dei messaggi inviati tramite [!DNL Journey Optimizer].
-   * [Set di dati di entità e Percorso](../start/datasets-query-examples.md#entity-dataset): consente di cercare i nomi descrittivi e di utilizzarli nei rapporti.
+   * [Evento passaggio percorso](../data/datasets-query-examples.md#journey-step-event): ti consente di vedere chi entra nei tuoi percorsi e quanto lontano arrivano.
+   * [Feed di dati di feedback/tracciamento dei messaggi](../data/datasets-query-examples.md#message-feedback-event-dataset): consente di visualizzare le informazioni sulla consegna dei messaggi inviati tramite [!DNL Journey Optimizer].
+   * [Set di dati di entità e Percorso](../data/datasets-query-examples.md#entity-dataset): consente di cercare i nomi descrittivi e di utilizzarli nei rapporti.
 
 1. [Creare una visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) per configurare le dimensioni e le metriche che desideri utilizzare per il rapporto.
 

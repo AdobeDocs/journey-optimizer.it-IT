@@ -4,8 +4,8 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
-workflow-type: ht
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+workflow-type: tm+mt
 source-wordcount: '2128'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * È stato aggiunto un caso d’uso del percorso su come limitare la velocità effettiva utilizzando Origini dati esterne e Azioni personalizzate. [Ulteriori informazioni](../building-journeys/limit-throughput.md)
 * La sezione relativa ai casi d’uso del percorso è stata riorganizzata in due categorie: [Casi d’uso aziendali](../building-journeys/journeys-uc.md) e [Casi d’uso tecnici](../building-journeys/collections.md).
-* La sezione **Set di dati di entità** è stata aggiornata con ulteriori dettagli. [Ulteriori informazioni](../start/datasets-query-examples.md#entity-dataset)
+* La sezione **Set di dati di entità** è stata aggiornata con ulteriori dettagli. [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
 * Le informazioni relative alla gestione delle rinunce e ai criteri di consenso sono state riorganizzate in una nuova sezione. [Ulteriori informazioni](../privacy/opt-out.md)
 * La sezione sui parametri avanzati nei messaggi di percorso è stata chiarita e ora specifica che la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../messages/messages-in-journeys.md#adv-settings)
 * È stata aggiunta una nota alla sezione **Configurare i sottodomini della pagina di destinazione** per specificare che l‘utilizzo delle lettere maiuscole non è consentito nei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono stati aggiunti nuovi esempi di query di evento del passaggio e informazioni sulla differenza tra id, instanceid e profileid. [Ulteriori informazioni](../reports/query-examples.md).
 * Sono state aggiornate le pagine relative alle funzioni [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Sono stati aggiunti dettagli ai parametri della condizione temporale. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
-* Sono state aggiunte informazioni ai set di dati incorporati. [Ulteriori informazioni](../start/get-started-datasets.md#access-datasets)
+* Sono state aggiunte informazioni ai set di dati incorporati. [Ulteriori informazioni](../data/get-started-datasets.md#access-datasets)
 * Le sezioni Rapporto globale e Rapporto live sono state riorganizzate per migliorarne la leggibilità. [Ulteriori informazioni](../reports/global-report.md)
 * È stato aggiunto un elenco di tutte le metriche di reporting disponibili in Adobe Journey Optimizer.
    [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Alla documentazione è stata aggiunta una nuova sezione su come aggiungere a una rappresentazione dell’offerta dei contenuti HTML o JSON provenienti dalla libreria di risorse di Adobe Experience Cloud. [Ulteriori informazioni](../offers/offer-library/add-representations.md#html-json)
 * È stata aggiunta una nuova pagina sul ciclo di vita del percorso. [Ulteriori informazioni](../building-journeys/journey.md#journey-versions)
 * È stata aggiornata la pagina dell’attività Attendi. [Ulteriori informazioni](../building-journeys/wait-activity.md)
-* È stato aggiunto l’elenco dei set di dati Adobe Journey Optimizer con esempi di query. [Ulteriori informazioni](../start/datasets-query-examples.md)
+* È stato aggiunto l’elenco dei set di dati Adobe Journey Optimizer con esempi di query. [Ulteriori informazioni](../data/datasets-query-examples.md)
 * La pagina sull’elenco Consentiti è stata spostata nella sezione Configurazione. [Ulteriori informazioni](../configuration/allow-list.md)
 * La pagina Elenco di soppressione è stata aggiornata per chiarire alcune informazioni, tra cui il fatto che tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo del motivo della soppressione. [Ulteriori informazioni](../configuration/manage-suppression-list.md)
 * È stato aggiunto il collegamento ai guardrail e ai limiti statici per la gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md)
@@ -90,7 +90,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di aprile 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La pagina di documentazione dell’evento **reazioni** è stata aggiornata. [Ulteriori informazioni](../building-journeys/reaction-events.md)
 * I video sulle funzionalità di gestione delle decisioni sono stati aggiornati per riflettere l’interfaccia utente di Journey Optimizer. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
-* La sezione **Introduzione ai set di dati** è stata migliorata con informazioni su come creare e accedere ai set di dati. [Ulteriori informazioni](../start/get-started-datasets.md)
+* La sezione **Introduzione ai set di dati** è stata migliorata con informazioni su come creare e accedere ai set di dati. [Ulteriori informazioni](../data/get-started-datasets.md)
 * Sono stati aggiunti i collegamenti alle guide e alle note sulla versione del prodotto nella pagina Home della **Documentazione di Adobe Journey Optimizer**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
 * La sezione **Creare predefiniti per messaggi** ora specifica che non è possibile procedere con la creazione dei predefiniti mentre il pool IP selezionato è in corso di modifica (stato **[!UICONTROL Elaborazione]**) e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * La sezione **Tracciamento URL** relativa ai predefiniti per messaggi è stata aggiornata per riflettere modifiche minori nell’interfaccia utente. [Ulteriori informazioni](../configuration/channel-surfaces.md#url-tracking)

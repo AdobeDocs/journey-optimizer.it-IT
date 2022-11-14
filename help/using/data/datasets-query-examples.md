@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei relativi casi di utilizzo:
 
 [Set di dati evento esperienza tracciamento e-mail](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Set di dati evento del feedback del messaggio](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[Set di dati evento esperienza tracciamento push](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Evento passaggio percorso](../start/datasets-query-examples.md#journey-step-event)
-[Decisioning del set di dati evento](../start/datasets-query-examples.md#ode-decisionevents)
-[Set di dati del servizio di consenso](../start/datasets-query-examples.md#consent-service-dataset)
-[Set di dati evento feedback CCN](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Set di dati di entità](../start/datasets-query-examples.md#entity-dataset)
+[Set di dati evento del feedback del messaggio](../data/datasets-query-examples.md#message-feedback-event-dataset)
+[Set di dati evento esperienza tracciamento push](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[Evento passaggio percorso](../data/datasets-query-examples.md#journey-step-event)
+[Decisioning del set di dati evento](../data/datasets-query-examples.md#ode-decisionevents)
+[Set di dati del servizio di consenso](../data/datasets-query-examples.md#consent-service-dataset)
+[Set di dati evento feedback CCN](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
+[Set di dati di entità](../data/datasets-query-examples.md#entity-dataset)
 
 ## Set di dati evento esperienza tracciamento e-mail{#email-tracking-experience-event-dataset}
 

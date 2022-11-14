@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Regolamenti come l&#39;HIPAA richiedono che [!DNL Journey Optimizer] dovrebbe fo
 
 * Per il canale e-mail, [!DNL Journey Optimizer] fornisce una funzionalità e-mail CCN integrata. [Ulteriori informazioni](#bcc-email)
 
-* Inoltre, per tutti i canali, puoi utilizzare il campo &quot;Modello&quot; nella sezione **Set di dati di entità**, che contiene i dettagli dei modelli di messaggio non personalizzati. Esporta il set di dati con questo campo per salvare metadati quali: che ha inviato il messaggio, a chi e quando. I dati personalizzati non vengono esportati, viene preso in considerazione solo il modello (formato e struttura del messaggio). [Ulteriori informazioni](../start/datasets-query-examples.md#entity-dataset)
+* Inoltre, per tutti i canali, puoi utilizzare il campo &quot;Modello&quot; nella sezione **Set di dati di entità**, che contiene i dettagli dei modelli di messaggio non personalizzati. Esporta il set di dati con questo campo per salvare metadati quali: che ha inviato il messaggio, a chi e quando. I dati personalizzati non vengono esportati, viene preso in considerazione solo il modello (formato e struttura del messaggio). [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -119,11 +119,11 @@ Per farlo, segui la procedura indicata di seguito.
 
 La generazione di rapporti in quanto tale su CCN non è disponibile nei rapporti sul percorso e sui messaggi. Tuttavia, le informazioni vengono memorizzate in un set di dati di sistema denominato **[!UICONTROL Set di dati evento feedback CCN AJO]**. È possibile eseguire query su questo set di dati per trovare informazioni utili, ad esempio, a scopo di debug.
 
-Puoi accedere a questo set di dati tramite l’interfaccia utente di . Seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]** e **[!UICONTROL Mostra set di dati di sistema]** attiva/disattiva il filtro per visualizzare i set di dati generati dal sistema. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../start/get-started-datasets.md#access-datasets).
+Puoi accedere a questo set di dati tramite l’interfaccia utente di . Seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]** e **[!UICONTROL Mostra set di dati di sistema]** attiva/disattiva il filtro per visualizzare i set di dati generati dal sistema. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Per eseguire query su questo set di dati, puoi utilizzare l’Editor query fornito da [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../start/get-started-queries.md)
+Per eseguire query su questo set di dati, puoi utilizzare l’Editor query fornito da [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
