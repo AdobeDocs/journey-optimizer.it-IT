@@ -5,8 +5,8 @@ title: Guida introduttiva di Journey Optimizer per l’ingegnere dati
 description: In qualità di ingegnere dati, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
-workflow-type: ht
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ I passaggi per creare uno spazio dei nomi delle identità, un set di dati abilit
 
 1. **Creare uno spazio dei nomi di identità**. In Adobe [!DNL Journey Optimizer], le **Identità** collegano i consumatori tra dispositivi e canali creando un grafico delle identità. Il grafico delle identità collegato viene utilizzato per personalizzare le esperienze in base alle interazioni tra tutti i punti di contatto aziendali.  Per ulteriori informazioni su identità e spazio dei nomi delle identità, consulta [questa pagina](../../segment/get-started-identity.md).
 
-1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Per ulteriori informazioni sugli schemi, consulta [questa pagina](../get-started-schemas.md).
+1. **Creare uno schema** e abilitarlo per i profili. Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).  Per ulteriori informazioni sugli schemi, consulta [questa pagina](../../data/get-started-schemas.md).
 
 1. **Creare set di dati** e abilitarli per i profili. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I set di dati contengono anche metadati che descrivono vari aspetti dei dati memorizzati. Una volta creato un set di dati, puoi mapparlo su uno schema esistente e aggiungervi dati. Per ulteriori informazioni sui set di dati, consulta [questa pagina](../get-started-datasets.md).
 
