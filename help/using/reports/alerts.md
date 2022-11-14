@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
@@ -29,7 +30,7 @@ Se si verifica un comportamento imprevisto, una notifica di avviso viene inviata
 
 ![](assets/alerts2.png)
 
-Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Durante l’abbonamento agli avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in diversi pacchetti di abbonamento. Il nome della sottoscrizione dell’evento I/O corrispondente all’avviso Leggi segmento è: &quot;Ritardi, errori ed errori del segmento letti dal Percorso&quot;.
+Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Durante l’abbonamento agli avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in diversi pacchetti di abbonamento. Il nome della sottoscrizione dell’evento I/O corrispondente all’avviso Leggi segmento è: &quot;Ritardi, errori ed errori del segmento letti dal Percorso&quot;.
 
 >[!WARNING]
 >

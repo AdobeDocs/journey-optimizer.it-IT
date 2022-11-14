@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 8%
 
 ---
 
 # Utilizzo dei dati di Adobe Analytics{#analytics-data}
 
-Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Platform per attivare percorsi e automatizzare le esperienze per i tuoi clienti.
+Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che già acquisisci e trasferisci in Adobe Experience Platform per attivare percorsi e automatizzare le esperienze per i tuoi clienti.
 
 >[!NOTE]
 >

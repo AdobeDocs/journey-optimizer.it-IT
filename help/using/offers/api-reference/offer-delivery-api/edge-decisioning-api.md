@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1056'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ L’SDK per web di Experience Platform supporta l’esecuzione di query sulle so
 
 Esistono due modi per implementare la gestione delle decisioni con [SDK per web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Un modo è rivolto agli sviluppatori e richiede la conoscenza dei siti web e la programmazione. L’altro modo consiste nell’utilizzare l’interfaccia utente di Adobe Experience Platform per configurare offerte che richiedono solo un riferimento a un piccolo script nell’intestazione della pagina HTML.
 
-Consulta la documentazione su [gestione delle decisioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando l’SDK per web di Platform.
+Consulta la documentazione su [gestione delle decisioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando Adobe Experience Platform Web SDK.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Questa opzione è più semplice da usare per le persone che hanno meno esperienz
 
 1. [Aggiungere il codice di incorporamento ](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. Installa e configura l’estensione Platform Web SDK con il Datastream creato selezionando la configurazione dal menu a discesa &quot;Datastream&quot;. Consulta la documentazione su [estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Installa e configura l&#39;estensione Adobe Experience Platform Web SDK con il Datastream creato selezionando la configurazione dal menu a discesa &quot;Datastream&quot;. Consulta la documentazione su [estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 

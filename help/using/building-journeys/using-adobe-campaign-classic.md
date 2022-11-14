@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 6%
@@ -23,7 +23,7 @@ La connessione tra le istanze Journey Optimizer e Campaign viene impostata per A
 
 Affinché questo funzioni, devi configurare un’azione dedicata. Fai riferimento a questo [sezione](../action/acc-action.md).
 
-In questo viene presentato un caso d’uso end-to-end [sezione](../building-journeys/campaign-classic-use-case.md).
+In questo viene presentato un caso d’uso end-to-end [sezione](../building-journeys/ajo-ac.md).
 
 1. Progetta il tuo percorso, a partire da un evento. Vedi questo [sezione](../building-journeys/journey.md).
 1. In **Azione** nella sezione della palette, seleziona un’azione Campaign e aggiungilo al percorso.

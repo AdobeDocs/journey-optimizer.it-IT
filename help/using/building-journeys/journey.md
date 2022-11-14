@@ -7,10 +7,10 @@ feature: Journeys
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
@@ -52,17 +52,17 @@ In qualità di ingegnere dei dati, i passaggi per configurare i percorsi, inclus
 
 Scopri come generare percorsi nei seguenti casi d’uso end-to-end.
 
-Casi di utilizzo aziendale:
+Casi d’uso aziendali:
 
 * [Inviare messaggi multicanale](journeys-uc.md)
-* [Inviare un messaggio con Campaign v7/v8](campaign-classic-use-case.md)
+* [Inviare un messaggio con Campaign v7/v8](ajo-ac.md)
 * [Inviare un messaggio agli abbonati](message-to-subscribers-uc.md)
 
 Casi d’uso tecnico:
 
 * [Passaggio dinamico delle raccolte tramite azioni personalizzate](collections.md)
 * [Incrementare gradualmente le consegne](ramp-up-deliveries-uc.md)
-* [Limitare il throughput con origini dati esterne e azioni personalizzate](limit-throughput.md)
+* [Limite di trasmissione con origini dati esterne e azioni personalizzate](limit-throughput.md)
 
 ## Versioni del percorso{#journey-versions}
 
@@ -74,7 +74,7 @@ Quando cerchi un percorso, le versioni più recenti vengono visualizzate nella p
 
 >[!NOTE]
 >
->Di solito, un profilo non può essere presente più volte nello stesso percorso, allo stesso tempo. Se la reintroduzione è abilitata, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
+>Di solito, un profilo non può essere presente più volte nello stesso percorso, allo stesso tempo. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
 
 Per modificare un percorso live, crea una nuova versione del percorso.
 

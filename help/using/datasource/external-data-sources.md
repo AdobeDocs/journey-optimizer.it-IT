@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 73%
+source-wordcount: '1417'
+ht-degree: 72%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 73%
 >abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne."
 
 Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
+
+>[!NOTE]
+>
+>I guardrail quando si lavora con sistemi esterni sono elencati in [questa pagina](../configuration/external-systems.md).
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 

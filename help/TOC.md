@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 98%
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 98%
    + Casi d’uso {#journey-use-cases}
       + Casi d’uso aziendali {#business-use-cases}
          + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
-         + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/ajo-ac.md)
          + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
       + Casi d’uso tecnico {#technical-use-cases}
          + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
@@ -389,11 +389,12 @@ ht-degree: 98%
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Gestione dati {#data-management}
-   + [Schemi](using/start/get-started-schemas.md)
-   + Set di dati {#datasets}
-      + [Introduzione ai set di dati](using/start/get-started-datasets.md)
-      + [Esempi di query](using/start/datasets-query-examples.md)
-   + [Query](using/start/get-started-queries.md)
+   + [Guida introduttiva alla gestione dei dati](using/data/gs-data.md)
+   + [Utilizzare gli schemi](using/data/get-started-schemas.md)
+   + Set di dati Journey Optimizer {#datasets}
+      + [Introduzione ai set di dati](using/data/get-started-datasets.md)
+      + [Esempi di query](using/data/datasets-query-examples.md)
+   + [Query](using/data/get-started-queries.md)
 + Configurazione{#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
    + Configurare i messaggi {#configuration-message}

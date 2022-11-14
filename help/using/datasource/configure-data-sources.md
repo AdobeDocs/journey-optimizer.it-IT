@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 10%
+source-wordcount: '566'
+ht-degree: 8%
 
 ---
 
 # Configurare un’origine dati {#configure-data-source}
 
-Di seguito sono riportati i passaggi principali per la configurazione dell’origine dati:
 
 >[!NOTE]
 >
 >La configurazione dell’origine dati viene sempre eseguita da un **utente tecnico**.
+
+Per configurare un’origine dati, effettua le seguenti operazioni:
 
 1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurazioni]**. In  **[!UICONTROL Origini dati]** sezione, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle origini dati. Vedi [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
 
@@ -51,7 +52,7 @@ Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nella
 
 >[!NOTE]
 >
->Tieni presente che se un gruppo di campi non ha un campo, non verrà visualizzato nell’editor espressioni.
+>Tieni presente che se un gruppo di campi non ha un campo, non viene visualizzato nell’editor espressioni.
 
 ![](assets/journey3bis.png)
 
