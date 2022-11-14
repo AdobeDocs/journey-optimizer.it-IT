@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -147,14 +147,14 @@ ht-degree: 94%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Casi d’uso {#journey-use-cases}
-      + Casi d&#39;uso aziendali {#business-use-cases}
+      + Casi d’uso aziendali {#business-use-cases}
          + [Inviare messaggi multicanale](using/building-journeys/journeys-uc.md)
          + [Inviare un messaggio con Campaign v7/v8](using/building-journeys/campaign-classic-use-case.md)
          + [Inviare un messaggio agli abbonati](using/building-journeys/message-to-subscribers-uc.md)
-      + Casi d&#39;uso tecnico {#technical-use-cases}
+      + Casi d’uso tecnico {#technical-use-cases}
          + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
          + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Limitare il throughput con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
+         + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
 + Campagne{#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -177,17 +177,17 @@ ht-degree: 94%
    + [Creare una direct mail](using/messages/create-direct-mail.md)
    + [Controllare gli avvisi](using/messages/alerts.md)
    + [Ottimizzazione dell’ora di invio](using/messages/send-time-optimization.md)
-+ Canale web{#web}
-   + [Guida introduttiva al canale web](using/web/get-started-web.md)
++ Canale Web{#web}
+   + [Introduzione al canale Web](using/web/get-started-web.md)
    + [Creare esperienze web](using/web/create-web.md)
    + [Creare pagine web](using/web/author-web.md)
    + [Estensione Helper per editing video](using/web/visual-editing-helper.md)
    + [Generazione rapporti Web](using/web/web-report.md)
 + Canale in-app{#in-app}
-   + [Guida introduttiva al canale in-app](using/in-app/get-started-in-app.md)
-   + [Configurare il canale in-app](using/in-app/inapp-configuration.md)
+   + [Introduzione al canale in-app](using/in-app/get-started-in-app.md)
+   + [Configurare un canale in-app](using/in-app/inapp-configuration.md)
    + [Creare un messaggio in-app](using/in-app/create-in-app.md)
-   + [Progettazione di contenuti in-app](using/in-app/design-in-app.md)
+   + [Creare contenuto in-app](using/in-app/design-in-app.md)
    + [Rapporto in-app](using/in-app/inapp-report.md)
 + Progettazione di contenuti {#design}
    + [Introduzione alla progettazione delle e-mail](using/design/design-emails.md)
@@ -257,12 +257,12 @@ ht-degree: 94%
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
       + [Crea profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
-   + [Utilizzo delle licenze](using/segment/license-usage.md)
    + Comporre i tipi di pubblico {#audience-orchestration}
       + [Introduzione alla composizione dei tipi di pubblico](using/segment/get-started-audience-orchestration.md)
       + [Creare flussi di lavoro di composizione](using/segment/create-compositions.md)
       + [Lavorare nell’area di lavoro per la composizione](using/segment/composition-canvas.md)
       + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
+   + [Utilizzo delle licenze](using/segment/license-usage.md)
 + Tracciare e monitorare {#reporting}
    + Report live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
