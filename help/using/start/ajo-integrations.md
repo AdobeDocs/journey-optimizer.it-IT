@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 6c322a979ec4918228162799453b144765d69b28
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '517'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che
 
 Ulteriori informazioni [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## Apprendimento automatico{#integration-intelligent-service}
+## Adobe Intelligent Services{#integration-intelligent-service}
 
 L’integrazione con Adobe Intelligent Services ti consente di sfruttare la potenza dell’intelligenza artificiale e dell’apprendimento automatico nei casi d’uso della customer experience. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un’azienda utilizzando configurazioni a livello di business senza la necessità di competenze scientifiche in materia di dati. [Ulteriori informazioni](../building-journeys/ai-services-overview.md).
 
