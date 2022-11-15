@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 10%
+source-wordcount: '677'
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire u
 
 La pagina speculare viene creata automaticamente.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Non puoi modificare il collegamento generato automaticamente.
+>I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori di grandi dimensioni può generare URL per pagine mirror lunghe, il che può impedire il funzionamento del collegamento nei browser web con una lunghezza massima di URL.
 
 Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina speculare, il contenuto dell’e-mail viene visualizzato nel browser Web predefinito.
 
