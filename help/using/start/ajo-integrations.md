@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 34d768502bfb2ce792beae8b1257fdddefc55ed7
+source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '525'
 ht-degree: 5%
 
 ---
@@ -71,6 +71,6 @@ Ulteriori informazioni [azioni personalizzate](../action/about-custom-action-con
 
 ## Sistemi esterni{#integration-external-systems}
 
-Journey Optimizer consente di configurare connessioni a sistemi esterni tramite origini dati personalizzate e azioni personalizzate. Questo ti consente, ad esempio, di arricchire i tuoi percorsi con i dati provenienti da un sistema di prenotazione esterno, o di inviare messaggi utilizzando un sistema di terze parti come Epsilon o Facebook.
+Journey Optimizer consente di configurare connessioni a sistemi esterni tramite origini dati personalizzate e azioni personalizzate. Questo ti consente, ad esempio, di arricchire i tuoi percorsi con i dati provenienti da un sistema di prenotazione esterno.
 
 Scopri come utilizzare le origini dati esterne per definire una connessione a un sistema di terze parti in [questa sezione](../datasource/external-data-sources.md).
