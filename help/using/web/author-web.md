@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 3%
+source-wordcount: '916'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +29,11 @@ Per accedere e creare pagine web nel [!DNL Journey Optimizer] interfaccia utente
 
 Una volta creata un’azione web dalla campagna, è possibile modificarne il contenuto utilizzando il web designer. A questo scopo, segui i passaggi riportati qui sotto.
 
-1. Da **[!UICONTROL Azione]** scheda della campagna, seleziona **[!UICONTROL Modifica contenuto]** per iniziare a creare la campagna web. [Ulteriori informazioni](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>Per accedere a [!DNL Journey Optimizer], la pagina web deve essere implementata utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target=&quot;_blank&quot;}.
+
+1. Da **[!UICONTROL Azione]** scheda della campagna, seleziona **[!UICONTROL Modifica contenuto]** per iniziare a creare la campagna web.
 
 1. Se hai creato una regola di corrispondenza per le pagine, devi immettere qualsiasi URL che corrisponda a questa regola. Le modifiche verranno applicate a tutte le pagine che corrispondono alla regola.
 
@@ -42,7 +47,7 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 
    >[!CAUTION]
    >
-   >Per accedere, la pagina web deve essere implementata utilizzando il [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target=&quot;_blank&quot;}.
+   >La pagina web deve includere [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Fai clic su **[!UICONTROL Apri web designer]** per modificarlo. [Ulteriori informazioni](author-web.md)
 
