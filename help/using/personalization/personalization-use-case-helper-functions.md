@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -62,6 +62,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 ## Passaggio 2: Creare l’e-mail{#configure-email}
 
 1. In **E-mail** attività, fai clic su **[!UICONTROL Modifica contenuto]**, quindi fai clic su **[!UICONTROL E-mail Designer]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Dalla palette a sinistra della home page di E-mail Designer, trascina e rilascia tre componenti struttura nel corpo del messaggio.
@@ -109,6 +110,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Fai clic su **[!UICONTROL Convalida]**, quindi fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. Salva il messaggio.
 
 ## Passaggio 4: Inserisci l&#39;elenco degli elementi dal carrello {#each-helper}
@@ -164,6 +166,8 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. Incolla questo codice tra l&#39;apertura `{{#each}}` e la chiusura `{/each}}` tag:
 
    ```html
@@ -184,6 +188,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
    1. Dai risultati della ricerca precedenti, aggiungi la **[!UICONTROL Nome]** token dell&#39;espressione.
 
    Ripeti due volte questi passaggi:
+
    * Sostituisci il segnaposto &quot;#quantità&quot; con il **[!UICONTROL Quantità]** token.
    * Sostituisci il segnaposto &quot;#priceTotal&quot; con il **[!UICONTROL Prezzo totale]** token.
 
@@ -202,7 +207,9 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       </table>
    {{/each}}
    ```
+
 1. Fai clic su **[!UICONTROL Convalida]**, quindi fai clic su **[!UICONTROL Salva]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Passaggio 5: Inserire una nota specifica per il prodotto {#if-helper}
@@ -225,6 +232,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. Rimuovi questa condizione dall&#39;espressione:
@@ -258,6 +266,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. Modificare l’espressione:
@@ -288,6 +297,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
          {%else%} default_render
       {%/if%}
       ```
+
    1. Rimuovere il segnaposto &quot;default_render&quot; dall&#39;espressione.
 1. Fai clic su **[!UICONTROL Convalida]**, quindi fai clic su **[!UICONTROL Salva]**.
 

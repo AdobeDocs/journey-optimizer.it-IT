@@ -4,7 +4,7 @@ product: journey optimizer
 title: Passaggio dinamico delle raccolte tramite azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 5%
@@ -53,7 +53,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
 
 ## Limitazioni  {#limitations}
 
-* Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Esempio:
+* Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Ad esempio:
 
    ```
    {
@@ -67,6 +67,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
     ]
    }
    ```
+
 * Per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione del codice non è attualmente supportata per gli eventi aziendali. Puoi inviare una raccolta solo con un singolo elemento.
 
 ## Procedura generale {#general-procedure}
