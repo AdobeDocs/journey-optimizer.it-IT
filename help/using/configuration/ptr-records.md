@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 0%
 >id="ajo_admin_ptr_record"
 >title="Record PTR dei sottodomini"
 >abstract="Un record puntatore (PTR) è un tipo di record DNS che fornisce il nome di dominio collegato a un indirizzo IP, in modo che i server di posta riceventi possano verificare gli indirizzi IP dei mittenti. Modifica un record PTR solo dopo le dovute considerazioni e discuti con il tuo esperto di recapito messaggi."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ptr_record_header"
+>title="Record PTR dei sottodomini"
+>abstract="Una volta delegato ad Adobe un sottodominio in Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio."
 
 ## Informazioni sui record PTR {#about-ptr-records}
 

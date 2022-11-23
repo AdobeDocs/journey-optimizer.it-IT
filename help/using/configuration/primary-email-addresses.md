@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '210'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,12 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Definire l’indirizzo da utilizzare"
->abstract="Quando nel database sono disponibili più indirizzi (personali, professionali, ecc.), puoi scegliere quale indirizzo dare la priorità all’invio."
+>abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere quale assegnare la priorità per l’invio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address_header"
+>title="Definire l’indirizzo da utilizzare"
+>abstract="Modifica i campi utilizzati per determinare l’indirizzo e-mail o il numero di telefono del profilo in modo da assegnare la priorità all’invio."
 
 Quando esegui il targeting di un profilo, diversi indirizzi e-mail o numeri di telefono possono essere disponibili nel database (indirizzo e-mail professionale, numero di telefono personale, ecc.).
 

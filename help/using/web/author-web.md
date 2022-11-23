@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '1051'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,14 @@ In [!DNL Journey Optimizer] l&#39;authoring web è basato sull&#39;estensione de
 Per accedere e creare pagine web nel [!DNL Journey Optimizer] interfaccia utente, segui i prerequisiti elencati in [questa sezione](create-web.md#prerequesites).
 
 ## Modifica del contenuto della pagina web {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Immettere l&#39;URL da modificare"
+>abstract="Inserisci l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sulla superficie web definita sopra. La pagina deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Per saperne di più"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 Una volta creata un’azione web dalla campagna, è possibile modificarne il contenuto utilizzando il web designer. A questo scopo, segui i passaggi riportati qui sotto.
 
@@ -73,6 +81,11 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 
 ## Utilizza i componenti contenuto {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Aggiungere componenti di contenuto alla pagina web"
+>abstract="Puoi aggiungere diversi componenti alla pagina web e modificarli in base alle tue esigenze."
+
 1. Da **[!UICONTROL Componenti]** a sinistra, puoi aggiungere i seguenti componenti alla pagina web e modificarli in base alle tue esigenze:
 
    * [Divider](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 
 ### Scambio in modalità Sfoglia {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="Utilizzare la modalità Sfoglia"
+>abstract="Da questa modalità è possibile passare alla pagina esatta dalla superficie selezionata che si desidera personalizzare."
+
 È possibile eseguire lo scambio dal valore predefinito **[!UICONTROL Progettazione]** alla modalità **[!UICONTROL Sfoglia]** utilizzando il pulsante dedicato.
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ Da **[!UICONTROL Sfoglia]** In questa modalità, puoi passare alla pagina esatta
 ![](assets/web-designer-device.png)
 
 ## Gestione delle modifiche {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Gestione semplice di tutte le modifiche"
+>abstract="Utilizzando questo riquadro, puoi navigare tra e gestire tutte le regolazioni e gli stili aggiunti alla pagina web."
 
 Puoi gestire facilmente tutti i componenti, le regolazioni e gli stili aggiunti alla pagina web.
 
@@ -164,6 +187,11 @@ Utilizza la **[!UICONTROL Decisione di offerta]** componente da inserire [offert
 ![](assets/web-designer-offer.png)
 
 ## Test della campagna web {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Visualizzare in anteprima l&#39;esperienza web"
+>abstract="Ottieni una simulazione dell’aspetto della tua esperienza web."
 
 Per visualizzare un’anteprima dell’esperienza web modificata, segui i passaggi riportati di seguito.
 

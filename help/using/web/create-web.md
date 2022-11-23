@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 6%
+source-wordcount: '1073'
+ht-degree: 7%
 
 ---
 
@@ -57,6 +58,11 @@ Affinché l&#39;esperienza web possa essere consegnata correttamente, è necessa
    ![](assets/web-aep-merge-policy.png)
 
 ## Creare una campagna web {#create-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_surface"
+>title="Definire una superficie web"
+>abstract="Una superficie web può corrispondere a uno o più URL di pagina, consentendoti di apportare modifiche al contenuto in una o più pagine web."
 
 Per iniziare a creare l’esperienza web tramite una campagna, segui i passaggi riportati di seguito.
 
