@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a6735063ec68b40b1441b379a20cba8953b59447
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 11%
 
 ---
 
@@ -23,11 +23,12 @@ Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che
 >
 >Questa sezione si applica solo agli eventi basati su regole e ai clienti che devono utilizzare i dati di Adobe Analytics.
 
-Affinché questo funzioni, devi attivare, in Adobe Experience Platform, la suite di rapporti che desideri sfruttare:
+Affinché ciò funzioni, devi attivare in Adobe Experience Platform la suite di rapporti che desideri utilizzare. Per farlo, segui la procedura indicata di seguito:
 
-1. In Adobe Experience Platform, seleziona **[!UICONTROL Origini]** then **[!UICONTROL Aggiungi dati]** nella sezione Adobe Analytics . Viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
+1. Collegati a Adobe Experience Platform e cerca **[!UICONTROL Origini]**.
+1. Nella sezione Adobe Analytics, seleziona **[!UICONTROL Aggiungi dati]**: viene visualizzato l’elenco delle suite di rapporti Adobe Analytics disponibili.
 
-1. Scegli la suite di rapporti che desideri abilitare e fai clic su **[!UICONTROL Successivo]** e fai clic su **[!UICONTROL Fine]**.
+1. Seleziona la suite di rapporti da abilitare, fai clic su **[!UICONTROL Successivo]** e **[!UICONTROL Fine]**.
 
 1. Condividi l&#39;ID dati sorgente con il tuo punto di contatto del programma Beta.
 
