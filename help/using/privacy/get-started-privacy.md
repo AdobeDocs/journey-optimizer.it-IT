@@ -6,13 +6,13 @@ description: Ulteriori informazioni sulla privacy in Adobe Journey Optimizer e A
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
+exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
+source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '205'
+ht-degree: 10%
 
 ---
-
 
 # Introduzione alla privacy {#privacy}
 
@@ -30,12 +30,48 @@ Adobe Experience Platform e Journey Optimizer forniscono vari strumenti per gara
 
 * **Applicare criteri di governance**: Utilizza i criteri di governance di Adobe Experience Platform per impedire l’esportazione di campi sensibili in sistemi di terze parti tramite azioni personalizzate. [Ulteriori informazioni](../action/action-privacy.md)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Gestire le richieste di dati</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Controlla le azioni degli utenti</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Tracciare e gestire il consenso</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Applica criteri di consenso</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Applicare criteri di governance</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="requests.md">
+<img alt="Lead" src="../assets/do-not-localize/privacy-request.jpeg">
+</a>
+<div><a href="requests.md"><strong>Gestire le richieste di dati</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="audit-logs.md">
+<img alt="Infrequente" src="../assets/do-not-localize/privacy-audit.jpeg">
+</a>
+<div>
+<a href="audit-logs.md"><strong>Controlla le azioni degli utenti</strong></a>
+</div>
+<p></td>
+<td>
+<a href="opt-out.md">
+<img alt="Convalida" src="../assets/do-not-localize/privacy-track-consent.jpeg">
+</a>
+<div>
+<a href="opt-out.md"><strong>Tracciare e gestire il consenso</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/consent.md">
+<img alt="Convalida" src="../assets/do-not-localize/privacy-consent-policies.jpeg">
+</a>
+<div>
+<a href="../action/consent.md"><strong>Applica criteri di consenso</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../action/action-privacy.md">
+<img alt="Convalida" src="../assets/do-not-localize/privacy-governance.jpeg">
+</a>
+<div>
+<a href="../action/action-privacy.md"><strong>Applicare criteri di governance</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
