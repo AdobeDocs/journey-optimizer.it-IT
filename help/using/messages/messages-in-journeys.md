@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
-workflow-type: ht
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
-
 
 # Aggiungere messaggi nei percorsi{#messages-in-journeys}
 
@@ -134,7 +134,7 @@ Per farlo, segui la procedura indicata di seguito:
 
    ![](assets/message-duplicated.png)
 
-1. Rinomina il messaggio per essere in grado di distinguere quello iniziale dalla copia, ad esempio durante la modifica dei messaggi, come segue:
+1. Rinomina il messaggio per differenziare il messaggio iniziale dalla copia, ad esempio durante la modifica dei messaggi, come illustrato di seguito:
 
    ![](assets/multi-message.png)
 
