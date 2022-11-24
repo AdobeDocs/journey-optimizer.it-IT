@@ -8,10 +8,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
-source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
+source-git-commit: 3f43cfac56e4665dc16ce24e9736bcfcd3c544bf
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 4%
+source-wordcount: '944'
+ht-degree: 3%
 
 ---
 
@@ -102,14 +102,14 @@ Prova 2:
 
 >[!BEGINTABS]
 
->[!TAB Aggiungere un push a un Percorso]
-
+    >[!TAB Aggiungi un push a un Percorso]
+    
     1. Apri il percorso, quindi trascina e rilascia un’attività Push dalla sezione Azioni della palette.
     
     1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli l’area del messaggio da utilizzare.
-
->[!TAB Aggiungere un push a una campagna]
-
+    
+    >[!TAB Aggiungi un push a una campagna]
+    
     1. Crea una nuova campagna pianificata o attivata dall’API, seleziona **[!UICONTROL Notifica push]** come tua azione e scegli il **[!UICONTROL Superficie dell&#39;app]** da utilizzare.
     
     1. Fai clic su **[!UICONTROL Crea]**
@@ -128,6 +128,79 @@ Prova 2:
     * Giornaliero
     * Settimanale
     * Mensile
+
+>[!ENDTABS]
+
+1. Questa è parte del test
+
+Prova 3:
+
+1. Questo è un test
+
+   >[!BEGINTABS]
+
+   >[!TAB Aggiungere un push a un Percorso]
+
+   1. Apri il percorso, quindi trascina e rilascia un’attività Push dalla sezione Azioni della palette.
+
+   1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli l’area del messaggio da utilizzare.
+   >[!TAB Aggiungere un push a una campagna]
+
+   1. Crea una nuova campagna pianificata o attivata dall’API, seleziona **[!UICONTROL Notifica push]** come azione e scegli la **[!UICONTROL Superficie dell&#39;app]** da utilizzare.
+
+   1. Fai clic su **[!UICONTROL Crea]**.
+
+   1. Da **[!UICONTROL Proprietà]** , modifica la **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]**.
+
+   1. Fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** per definire il pubblico di cui eseguire il targeting dall’elenco dei segmenti Adobe Experience Platform disponibili.
+
+   1. In **[!UICONTROL Spazio dei nomi identità]** scegli lo spazio dei nomi da utilizzare per identificare gli individui del segmento selezionato.
+
+   1. Le campagne sono progettate per essere eseguite in una data specifica o su una frequenza ricorrente. Scopri come configurare il **[!UICONTROL Pianificazione]** della campagna.
+
+   1. Da **[!UICONTROL Trigger delle azioni]** scegliere il menu **[!UICONTROL Frequenza]** della notifica push:
+
+      * Una volta
+      * Giornaliero
+      * Settimanale
+      * Mensile
+
+   >[!ENDTABS]
+
+1. Questa è parte del test
+
+Prova 3:
+
+1. Questo è un test
+
+>[!BEGINTABS]
+
+>[!TAB Aggiungere un push a un Percorso]
+
+1. Apri il percorso, quindi trascina e rilascia un’attività Push dalla sezione Azioni della palette.
+
+1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli l’area del messaggio da utilizzare.
+
+>[!TAB Aggiungere un push a una campagna]
+
+1. Crea una nuova campagna pianificata o attivata dall’API, seleziona **[!UICONTROL Notifica push]** come azione e scegli la **[!UICONTROL Superficie dell&#39;app]** da utilizzare.
+
+1. Fai clic su **[!UICONTROL Crea]**.
+
+1. Da **[!UICONTROL Proprietà]** , modifica la **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]**.
+
+1. Fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** per definire il pubblico di cui eseguire il targeting dall’elenco dei segmenti Adobe Experience Platform disponibili.
+
+1. In **[!UICONTROL Spazio dei nomi identità]** scegli lo spazio dei nomi da utilizzare per identificare gli individui del segmento selezionato.
+
+1. Le campagne sono progettate per essere eseguite in una data specifica o su una frequenza ricorrente. Scopri come configurare il **[!UICONTROL Pianificazione]** della campagna.
+
+1. Da **[!UICONTROL Trigger delle azioni]** scegliere il menu **[!UICONTROL Frequenza]** della notifica push:
+
+   * Una volta
+   * Giornaliero
+   * Settimanale
+   * Mensile
 
 >[!ENDTABS]
 
