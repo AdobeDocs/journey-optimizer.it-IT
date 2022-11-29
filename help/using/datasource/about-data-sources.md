@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 73%
@@ -42,7 +42,7 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 
 >[!NOTE]
 >
->Le relazioni tra schemi sono ora supportate per le origini dati.
+>Le relazioni di schema non sono supportate per le origini dati.
 
 Per ulteriori informazioni su come configurare un’origine dati Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati in un percorso, consulta questo articolo [video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}.
 

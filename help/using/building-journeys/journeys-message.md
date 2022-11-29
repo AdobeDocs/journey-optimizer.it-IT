@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 24%
+source-wordcount: '223'
+ht-degree: 18%
 
 ---
 
@@ -39,4 +39,12 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
 
    Tutti i passaggi per configurare il messaggio e definirne il contenuto sono descritti in [questa sezione](../messages/get-started-content.md).
 
+## Aggiornare il contenuto live{#update-live-content}
 
+Puoi aggiornare il contenuto di un messaggio (e-mail, sms, push) in un percorso live.
+
+A questo scopo, apri il percorso live, seleziona l’attività messaggio e fai clic su **Modifica contenuto**.
+
+![](assets/add-a-message2.png)
+
+Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o percorso).

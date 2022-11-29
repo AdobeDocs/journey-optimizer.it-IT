@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 7%
+source-wordcount: '168'
+ht-degree: 6%
 
 ---
 
 # distinto {#distinct}
 
 Restituisce i valori o gli oggetti distinti di un elenco specificato. Le voci Null vengono ignorate.
+
+>[!NOTE]
+>
+>Se l’elenco di destinazione è un listObject, è possibile utilizzare questa funzione solo nelle espressioni di azione personalizzate.
 
 ## Categoria
 

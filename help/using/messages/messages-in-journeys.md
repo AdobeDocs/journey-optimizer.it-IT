@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: acb5b65b-8787-4428-9924-36aa0a115926
-source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '800'
+ht-degree: 95%
 
 ---
 
@@ -92,6 +92,10 @@ I parametri avanzati vengono visualizzati nella parte inferiore del riquadro dei
 Per le notifiche push, puoi visualizzare i seguenti parametri: Token, AppID, AppPlatform.
 
 ![](assets/push-adv-parameters.png)
+
+>[!NOTE]
+>
+>Se sovrascrivi uno di questi attributi, è necessario sovrascrivere anche tutti e tre.
 
 Per l’e-mail, puoi visualizzare l’[indirizzo e-mail principale](../configuration/primary-email-addresses.md).
 

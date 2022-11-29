@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ Questo set di dati consente di accedere ai metadati definiti dall’addetto al m
 >[!NOTE]
 >
 >Al momento, per motivi di compatibilità futuri, nel set di dati di entità sono presenti due voci per ogni pubblicazione di messaggi. Questo non influisce sulla capacità di utilizzare le query di join in base alle esigenze tra i set di dati per recuperare le informazioni desiderate.
+
+Se desideri ordinare nei rapporti le e-mail inviate da un percorso specifico in base all’azione che le ha inviate. puoi unire il set di dati Feedback per i messaggi con il set di dati di entità. I campi da utilizzare sono: `_experience.decisioning.propositions.scopeDetails.correlationID` e `_id field in entity dataset`.
 
 La seguente query ti aiuta a ottenere il modello di messaggio associato per una determinata campagna:
 
