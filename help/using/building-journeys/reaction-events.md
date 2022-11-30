@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Puoi reagire ai messaggi selezionati o aperti.
 
 Puoi inoltre utilizzare questo meccanismo per eseguire un’azione quando non vi sono reazioni ai messaggi. A questo scopo, crea un secondo percorso parallelo all’attività di reazione e aggiungi un’attività di attesa. Se non vi è alcuna reazione durante il periodo definito nell’attività di attesa, verrà scelto il secondo percorso. Puoi scegliere di inviare, ad esempio, un messaggio di follow-up.
 
-Tieni presente che puoi utilizzare un’attività di reazione nell’area di lavoro solo se è presente un’attività di azione canale precedente (E-mail, push, SMS).
+Tieni presente che puoi utilizzare un’attività di reazione nell’area di lavoro solo se è presente un’attività di azione del canale prima di (E-mail e push).
 
 Vedi [Informazioni sulle attività azione](../building-journeys/about-journey-activities.md#action-activities).
 
