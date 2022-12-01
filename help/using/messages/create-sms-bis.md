@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 7%
@@ -22,7 +22,7 @@ ht-degree: 7%
 >
 >In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A tal fine, i destinatari SMS possono rispondere con parole chiave di consenso e rinuncia.
 
-## Creare un messaggio SMS in un percorso o in una campagna {#sms-content}
+## Creare un messaggio SMS in un percorso o in una campagna
 
 Per iniziare a personalizzare il messaggio SMS, segui questi passaggi:
 
@@ -65,7 +65,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL 
 
 >[!ENDTABS]
 
-## Definire il contenuto SMS{#sms-content}
+## Definire il contenuto SMS
 
 1. Dalla schermata di configurazione del percorso o della campagna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto SMS.
 
@@ -77,7 +77,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL 
 
 1. Quando il messaggio SMS è pronto, completa la configurazione del tuo per inviarlo.
 
-## Convalidare l’SMS{#sms-preview}
+## Convalidare l’SMS
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Creare una notifica push {#create-push-notification-bis}
 
-## Creare la notifica push in un percorso o in una campagna {#create}
+## Creare la notifica push in un percorso o in una campagna
 
 Per creare una notifica push, segui i passaggi seguenti:
 
@@ -71,7 +71,7 @@ Per creare una notifica push, segui i passaggi seguenti:
 
 >[!ENDTABS]
 
-## Modalità di consegna rapida {#rapid-delivery}
+## Modalità di consegna rapida
 
 La modalità di consegna rapida, precedentemente nota come modalità Burst nei percorsi, è una [!DNL Journey Optimizer] add-on che consente l&#39;invio rapido di messaggi push in grandi volumi attraverso le campagne.
 
@@ -79,7 +79,7 @@ La consegna rapida viene utilizzata quando il ritardo nella consegna dei messagg
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità di consegna rapida, consulta.
 
-### Prerequisiti {#prerequisites}
+### Prerequisiti
 
 I messaggi di consegna rapida sono forniti con i seguenti requisiti:
 
