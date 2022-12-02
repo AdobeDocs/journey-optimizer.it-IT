@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
 workflow-type: tm+mt
 source-wordcount: '1264'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,14 +40,14 @@ ht-degree: 97%
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
    + Gestire i percorsi{#mannage-journey}
-      + [Termina il percorso](using/building-journeys/end-journey.md)
+      + [Terminare il percorso](using/building-journeys/end-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
-      + [Gestione dell’ingresso del profilo](using/building-journeys/entry-management.md)
+      + [Gestione dell’entrata nel profilo](using/building-journeys/entry-management.md)
       + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
-      + [Risolvere i problemi del percorso](using/building-journeys/troubleshooting.md)
+      + [Risolvere i problemi di un percorso](using/building-journeys/troubleshooting.md)
       + [Integrare con Intelligent Services](using/building-journeys/ai-services-overview.md)
    + Attività {#about-journey-building}
-      + [Guida introduttiva alle attività di percorso](using/building-journeys/about-journey-activities.md)
+      + [Introduzione alle attività dei percorsi](using/building-journeys/about-journey-activities.md)
       + [Eventi generali](using/building-journeys/general-events.md)
       + [Reazione](using/building-journeys/reaction-events.md)
       + [Qualificazione del segmento](using/building-journeys/segment-qualification-events.md)
@@ -388,10 +388,10 @@ ht-degree: 97%
          + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Gestione dati {#data-management}
-   + [Guida introduttiva alla gestione dei dati](using/data/gs-data.md)
++ Gestione dei dati {#data-management}
+   + [Introduzione alla gestione dei dati](using/data/gs-data.md)
    + [Utilizzare gli schemi](using/data/get-started-schemas.md)
-   + Set di dati Journey Optimizer {#datasets}
+   + Set di dati di Journey Optimizer {#datasets}
       + [Introduzione ai set di dati](using/data/get-started-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
    + [Query](using/data/get-started-queries.md)

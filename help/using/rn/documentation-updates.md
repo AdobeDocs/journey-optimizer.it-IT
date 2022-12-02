@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '2189'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -17,17 +17,17 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Novembre 2022 {#november-2022}
 
-* È stata aggiunta una nuova pagina sulle integrazioni Journey Optimizer. [Ulteriori informazioni](../start/ajo-integrations.md)
-* È stata aggiunta una raccomandazione sulla lunghezza degli URL delle pagine mirror. [Ulteriori informazioni](../design/message-tracking.md)
-* Nella risposta all’indirizzo e-mail è stata aggiunta una nuova sottosezione nella configurazione delle impostazioni e-mail, che include raccomandazioni per garantire la corretta gestione delle risposte. [Ulteriori informazioni](../configuration/email-settings.md#reply-to-email)
-* È stata aggiunta una sezione su come modificare il contenuto di un messaggio in un percorso live. [Ulteriori informazioni](../building-journeys/journeys-message.md#update-live-content)
+* È stata aggiunta una nuova pagina sulle integrazioni con Journey Optimizer. [Maggiori informazioni](../start/ajo-integrations.md)
+* È stata aggiunta una raccomandazione relativa alla lunghezza degli URL delle pagine mirror. [Maggiori informazioni](../design/message-tracking.md)
+* Nella risposta all’indirizzo e-mail è stata aggiunta una nuova sottosezione nella configurazione delle impostazioni e-mail che include consigli per garantire la corretta gestione delle risposte. [Maggiori nformazioni](../configuration/email-settings.md#reply-to-email)
+* È stata aggiunta una sezione su come modificare il contenuto di un messaggio in un percorso live. [Maggiori nformazioni](../building-journeys/journeys-message.md#update-live-content)
 
 ## Ottobre 2022 {#october-2022}
 
 * È stato aggiunto un caso d’uso del percorso su come limitare la velocità effettiva utilizzando Origini dati esterne e Azioni personalizzate. [Ulteriori informazioni](../building-journeys/limit-throughput.md)
 * La sezione relativa ai casi d’uso del percorso è stata riorganizzata in due categorie: [Casi d’uso aziendali](../building-journeys/journeys-uc.md) e [Casi d’uso tecnici](../building-journeys/collections.md).
-* La sezione **Set di dati di entità** è stata aggiornata con ulteriori dettagli. [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
-* Le sezioni relative alla gestione delle rinunce e ai criteri di consenso sono state riorganizzate. [Ulteriori informazioni](../privacy/opt-out.md)
+* La sezione **Set di dati di entità** è stata aggiornata con ulteriori dettagli. [Maggiori informazioni](../data/datasets-query-examples.md#entity-dataset)
+* Le sezioni relative alla gestione delle rinunce e ai criteri di consenso sono state riorganizzate. [Maggiori informazioni](../privacy/opt-out.md)
 * La sezione sui parametri avanzati nei messaggi di percorso è stata chiarita e ora specifica che la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../messages/messages-in-journeys.md#adv-settings)
 * È stata aggiunta una nota alla sezione **Configurare i sottodomini della pagina di destinazione** per specificare che l‘utilizzo delle lettere maiuscole non è consentito nei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
 
@@ -39,7 +39,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiornate le pagine relative alle funzioni [toDateOnly](../building-journeys/functions/functiontodateonly.md) e [toString](../building-journeys/functions/functiontostring.md).
 * Sono stati aggiunti dettagli ai parametri della condizione temporale. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
 * Sono state aggiunte informazioni ai set di dati incorporati. [Ulteriori informazioni](../data/get-started-datasets.md#access-datasets)
-* Le sezioni Rapporto globale e Rapporto live sono state migliorate e riorganizzate. [Ulteriori informazioni](../reports/global-report.md)
+* Le sezioni Global report e Live report sono state migliorate e riorganizzate. [Ulteriori informazioni](../reports/global-report.md)
 * È stato aggiunto un elenco di tutte le metriche di reporting disponibili in Adobe Journey Optimizer.
    [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
 * La sezione E-mail Ccn è stata spostata nella nuova pagina Supporto per l’archiviazione. [Ulteriori informazioni](../configuration/archiving-support.md)
