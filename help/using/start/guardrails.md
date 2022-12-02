@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
 * L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
-* Di solito, un profilo non può essere presente più volte nello stesso percorso, allo stesso tempo. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
+* In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
 ### Versioni del percorso {#journey-versions-g}
 
