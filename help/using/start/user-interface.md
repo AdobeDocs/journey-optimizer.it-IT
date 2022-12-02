@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 **[!UICONTROL GESTIONE PERCORSI]**
 
-* **[!UICONTROL Percorsi]** - Crea, configura e gestisci i percorsi dei clienti. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Percorsi]**: crea, configura e gestisci i percorsi dei clienti. [Ulteriori informazioni](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Pagine di destinazione]** Creazione, progettazione, test e pubblicazione di pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Pagine di destinazione]**: crea, progetta, verifica e pubblica le pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL GESTIONE DECISIONI]**
 
@@ -275,7 +275,7 @@ Per cambiare lingua:
 * Fai clic su **Preferenze** dal tuo avatar, in alto a destra.
    ![](assets/preferences.png)
 * Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail
-* Seleziona la lingua preferita e fai clic su **Salva**. È possibile selezionare una seconda lingua nel caso in cui il componente utilizzato non sia localizzato nella prima lingua.
+* Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
    ![](assets/select-language.png)
 
 ## Cerca{#unified-search}
