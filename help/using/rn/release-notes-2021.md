@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulle versioni precedenti (2021)
 description: Note sulle versioni 2021 di Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 95%
@@ -182,7 +182,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 <td>
 <p>Invia automaticamente il messaggio push o e-mail nel momento migliore per ogni cliente con cui hai a che fare, grazie ad Adobe Journey Optimizer. L’ottimizzazione dell’ora di invio, basata sui servizi AI di Adobe, prevede il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic preconfigurate.</p>
 <p>Al momento questa funzione è disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../messages/send-time-optimization.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -271,7 +271,7 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 
 **Progettazione dei contenuti**
 
-* **Sfondo** - Le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](../design/preview.md)
+* **Sfondo** - Le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](../email/preview.md)
 * **Collegamento rinuncia con un clic** - Puoi inserire un nuovo tipo di collegamento nel contenuto dell’e-mail: il collegamento **Rinuncia** consente agli utenti di annullare l’iscrizione alla ricezione delle comunicazioni con un solo clic, senza essere reindirizzati a una pagina di destinazione per confermare la rinuncia. [Ulteriori informazioni](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalizzazione**
@@ -342,13 +342,13 @@ Consulta anche [Note sulla versione di ottobre di Adobe Experience Platform](htt
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](../configuration/external-systems.md#capping)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
 * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso. [Ulteriori informazioni](../start/user-interface.md#filter-lists)
-* La **[!UICONTROL Velocità di limitazione]** È stato aggiunto il parametro nell’attività Leggi segmento . [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* La **[!UICONTROL Velocità di limitazione]** È stato aggiunto il parametro nell’attività Leggi segmento . [Maggiori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Anteprima e test**
 
-* L’identità e lo spazio dei nomi sono ora visibili nella **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../design/preview.md#preview-your-messages)
+* L’identità e lo spazio dei nomi sono ora visibili nella **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../email/preview.md#preview-your-messages)
 * Il numero di e-mail di prova per le bozze è ora limitato a 10.
-* I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../design/preview.md#send-proofs)
+* I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../email/preview.md#send-proofs)
 
 **Editor di espressioni di personalizzazione**
 

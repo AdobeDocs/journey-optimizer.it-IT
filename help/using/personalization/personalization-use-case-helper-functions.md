@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 2%
@@ -21,9 +21,9 @@ In questo esempio, personalizzerai il corpo di un messaggio e-mail. Questo messa
 
 Verranno utilizzati i seguenti tipi di funzioni di supporto:
 
-* La `upperCase` funzione stringa, per inserire il nome del cliente in lettere maiuscole. [Ulteriori informazioni](functions/string.md#upper).
-* La `each` helper, per elencare gli elementi presenti nel carrello. [Ulteriori informazioni](functions/helpers.md#each).
-* La `if` helper, per inserire una nota specifica del prodotto se il prodotto correlato è nel carrello. [Ulteriori informazioni](functions/helpers.md#if-function).
+* La `upperCase` funzione stringa, per inserire il nome del cliente in lettere maiuscole. [Maggiori informazioni](functions/string.md#upper).
+* La `each` helper, per elencare gli elementi presenti nel carrello. [Maggiori informazioni](functions/helpers.md#each).
+* La `if` helper, per inserire una nota specifica del prodotto se il prodotto correlato è nel carrello. [Maggiori informazioni](functions/helpers.md#if-function).
 
 <!-- **Context**: personalization based on contextual data from the journey -->
 
@@ -31,10 +31,10 @@ Verranno utilizzati i seguenti tipi di funzioni di supporto:
 
 Prima di iniziare, assicurati di sapere come configurare questi elementi:
 
-* Un evento unitario. [Ulteriori informazioni](../event/about-events.md).
-* Percorso che inizia con un evento. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
-* Un messaggio e-mail nel tuo percorso. [Ulteriori informazioni](../messages/get-started-content.md)
-* Il corpo di un’e-mail. [Ulteriori informazioni](../design/create-email-content.md).
+* Un evento unitario. [Maggiori informazioni](../event/about-events.md).
+* Percorso che inizia con un evento. [Maggiori informazioni](../building-journeys/using-the-journey-designer.md).
+* Un messaggio e-mail nel tuo percorso. [Ulteriori informazioni](../email/create-email.md)
+* Il corpo di un’e-mail. [Maggiori informazioni](../email/content-from-scratch.md).
 
 Segui questi passaggi:
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1605'
 ht-degree: 3%
@@ -22,14 +22,13 @@ ht-degree: 3%
 >title="Superficie dell&#39;app"
 >abstract="Una “superficie” è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
 
-
 Con [!DNL Journey Optimizer], puoi impostare le superfici del canale (ad esempio i predefiniti per messaggi) che definiscono tutti i parametri tecnici necessari per i messaggi: tipo di e-mail, e-mail e nome del mittente, app mobili, configurazione SMS e altro ancora.
 
 >[!CAUTION]
 >
 > * Per creare, modificare ed eliminare le superfici dei canali, è necessario disporre della [Gestisci superficie canale](../administration/high-low-permissions.md#manage-channel-surface) autorizzazione.
 >
-> * È necessario eseguire le [Configurazione e-mail](email-settings.md), [Configurazione push](../configuration/push-configuration.md) e [Configurazione SMS](../configuration/sms-configuration.md) prima di creare superfici del canale.
+> * È necessario eseguire le [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md) e [Configurazione SMS](../sms/sms-configuration.md) prima di creare superfici del canale.
 
 
 Una volta configurate le superfici del canale, potrai selezionarle quando crei messaggi da un percorso o da una campagna.
@@ -64,7 +63,7 @@ Per creare una superficie del canale, effettuate le seguenti operazioni:
    >
    > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
 
-1. Se hai selezionato la **[!UICONTROL E-mail]** canale, configura le impostazioni come descritto in [questa sezione](email-settings.md).
+1. Se hai selezionato la **[!UICONTROL E-mail]** canale, configura le impostazioni come descritto in [questa sezione](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ Per creare una superficie del canale, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](push-gs.md).
+   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](../push/push-gs.md).
 
-1. Per **[!UICONTROL SMS]** definire le impostazioni come descritto in [questa sezione](sms-configuration.md#message-preset-sms).
+1. Per **[!UICONTROL SMS]** definire le impostazioni come descritto in [questa sezione](../sms/sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](sms-configuration.md).
+   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](../sms/sms-configuration.md).
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. È inoltre possibile salvare la superficie del canale come bozza e riprendere la configurazione in un secondo momento.
 

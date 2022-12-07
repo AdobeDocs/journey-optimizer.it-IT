@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1977'
 ht-degree: 0%
@@ -138,7 +138,7 @@ La **[!UICONTROL E-mail - Dominio principale destinatario]** visualizza i dettag
 
 >[!NOTE]
 >
->La **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
+>La **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 La **[!UICONTROL Ottimizzato e non ottimizzato]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 
@@ -228,7 +228,7 @@ La **[!UICONTROL Riepilogo delle notifiche push]** Il grafico contiene i dati di
 
 >[!NOTE]
 >
->La **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../messages/send-time-optimization.md).
+>La **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la consegna è attivata l’opzione Ottimizzazione del momento di invio . Per ulteriori informazioni sull’ottimizzazione del momento di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 La **[!UICONTROL Ottimizzato e non ottimizzato]** Il grafico descrive le informazioni principali relative al messaggio, siano esse ottimizzate o meno:
 

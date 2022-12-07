@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 9%
+source-wordcount: '403'
+ht-degree: 12%
 
 ---
 
@@ -66,32 +66,6 @@ Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i se
 
 1. **Hai bisogno di un pubblico**. I segmenti di pubblico devono essere disponibili prima di creare la campagna. Ulteriori informazioni sulla creazione di un pubblico [in questa pagina](../segment/about-segments.md).
 1. **È necessaria una superficie del canale**. Per poter selezionare un canale, è necessario che la superficie del canale corrispondente (preimpostata) sia creata e disponibile. Ulteriori informazioni sulle superfici dei canali [in questa pagina](../configuration/channel-surfaces.md).
-
-## Accedere alle campagne {#access}
-
-Le campagne sono accessibili dal **[!UICONTROL Campagne]** menu.
-
-Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati.
-
-Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
-
-![](assets/create-campaign-list.png)
-
-## Stati di Campaign {#statuses}
-
-Le campagne possono avere più stati:
-
-* **[!UICONTROL Bozza]**: La campagna è in corso di modifica e non è stata attivata.
-* **[!UICONTROL Attivazione]**: È in corso l’attivazione della campagna.
-* **[!UICONTROL Live]**: La campagna è stata attivata.
-* **[!UICONTROL Pianificato]**: La campagna è configurata per essere attivata in una data di inizio specifica.
-* **[!UICONTROL Arrestato]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completato]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
-* **[!UICONTROL Archiviato]**: La campagna è stata archiviata. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
-
->[!NOTE]
->
->Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
 
 ## Video introduttivo {#video}
 

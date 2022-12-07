@@ -1,5 +1,5 @@
 ---
-title: Progettazione di contenuti in-app
+title: Creare contenuto in-app
 description: Scopri come progettare il contenuto in-app in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -7,14 +7,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Progettazione di contenuti in-app {#design-content}
+# Creare contenuto in-app {#design-content}
 
 Puoi modificare il contenuto in-app per configurare le opzioni relative all’esperienza, tra cui layout e visualizzazione dei messaggi, testo e pulsanti.
 
@@ -80,7 +81,7 @@ La **[!UICONTROL Media]** consente di aggiungere contenuti multimediali al messa
 
 ![](assets/in_app_content_3.png)
 
-Digita l’URL del contenuto multimediale o fai clic sul pulsante **[!UICONTROL Seleziona risorse]** per aggiungere direttamente al messaggio in-app le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../design/assets-essentials.md).
+Digita l’URL del contenuto multimediale o fai clic sul pulsante **[!UICONTROL Seleziona risorse]** per aggiungere direttamente al messaggio in-app le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../email/assets-essentials.md).
 Puoi anche aggiungere un **[!UICONTROL Testo alternativo]** per applicazioni di lettura dello schermo.
 
 +++Altre opzioni con formattazione avanzata
@@ -192,4 +193,3 @@ Se la **[!UICONTROL Modalità di formattazione avanzata]** è attivato, puoi per
 * [Creare un messaggio in-app](create-in-app.md)
 * [Rapporto in-app](inapp-report.md)
 * [Configurazione in-app](inapp-configuration.md)
-

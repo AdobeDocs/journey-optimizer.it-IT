@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 15%
@@ -31,7 +31,7 @@ Quando crei un messaggio e-mail, puoi aggiungere la personalizzazione nel **[!UI
 
 Nella finestra di progettazione e-mail puoi personalizzare il contenuto:
 
-* In **message**: fai clic all’interno di un blocco di testo, fai clic sul pulsante **Personalizza** dalla barra degli strumenti contestuale e seleziona **Inserisci personalizzazione** campo . Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta la sezione [sezione](../design/design-emails.md).
+* In **message**: fai clic all’interno di un blocco di testo, fai clic sul pulsante **Personalizza** dalla barra degli strumenti contestuale e seleziona **Inserisci personalizzazione** campo . Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta la sezione [sezione](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
@@ -55,7 +55,7 @@ Puoi anche personalizzare il tuo **Notifiche push** nei campi seguenti:
 
 ![](assets/perso_push.png)
 
-Ulteriori informazioni sulla configurazione delle notifiche push in [questa sezione](../configuration/push-gs.md).
+Ulteriori informazioni sulla configurazione delle notifiche push in [questa sezione](../push/push-gs.md).
 
 ## Personalizzare le offerte {#personalize-offers}
 

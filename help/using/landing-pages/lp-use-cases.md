@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 16%
@@ -53,9 +53,9 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Progettazione dell’e-mail](../messages/get-started-content.md) per annunciare che la registrazione è ora aperta per il tuo evento.
+1. [Progettazione dell’e-mail](../email/get-started-email-design.md) per annunciare che la registrazione è ora aperta per il tuo evento.
 
-1. [Inserire un collegamento](../design/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Pagina di destinazione]** come **[!UICONTROL Tipo di collegamento]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
+1. [Inserire un collegamento](../email/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Pagina di destinazione]** come **[!UICONTROL Tipo di collegamento]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Creare un messaggio e-mail](../messages/get-started-content.md) in un percorso.
+1. [Creare un messaggio e-mail](../email/get-started-email-design.md) in un percorso.
 
-1. Seleziona il testo nel contenuto e [inserisci un collegamento](../design/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
+1. Seleziona il testo nel contenuto e [inserisci un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
 
    ![](assets/lp_opt-out-insert-link.png)
 
@@ -142,7 +142,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
    >
    >Per poter inviare il messaggio, accertati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
 
-1. Pubblica ed esegui il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
+1. Pubblica ed esegui il percorso. [Maggiori informazioni](../building-journeys/journey.md).
 
 1. Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento di annullamento all’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
 

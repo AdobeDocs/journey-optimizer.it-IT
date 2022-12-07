@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 3%
@@ -23,14 +23,14 @@ Per iniziare a creare contenuti per la destinazione [pagina principale](create-l
 
 Da qui puoi:
 
-* **Progettare da zero la pagina di destinazione** tramite l’interfaccia di content designer e sfruttando le immagini di [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../design/create-email-content.md).
+* **Progettare da zero la pagina di destinazione** tramite l’interfaccia di content designer e sfruttando le immagini di [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
-* **Codice o incolla di HTML raw** direttamente nella finestra di progettazione dei contenuti. Scopri come codificare i contenuti personalizzati [in questa sezione](../design/code-content.md).
+* **Codice o incolla di HTML raw** direttamente nella finestra di progettazione dei contenuti. Scopri come codificare i contenuti personalizzati [in questa sezione](../email/code-content.md).
 
-* **Importare contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare il contenuto [in questa sezione](../design/existing-content.md).
+* **Importare contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
 
 * **Utilizzare un modello di pagina di destinazione salvato** creato in [!DNL Journey Optimizer]. [Ulteriori informazioni](lp-templates.md)
 
 >[!NOTE]
 >
->La finestra di progettazione del contenuto della pagina di destinazione è simile per lo più alla finestra di progettazione e-mail. Ulteriori informazioni su [progettazione di contenuti con [!DNL Journey Optimizer]](../design/design-emails.md).
+>La finestra di progettazione del contenuto della pagina di destinazione è simile per lo più alla finestra di progettazione e-mail. Ulteriori informazioni su [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).

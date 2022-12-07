@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -88,7 +88,7 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
 
    ![](assets/jo-uc4.png)
 
-1. Rilascia un **E-mail** e definisci il contenuto del &quot;primo messaggio&quot;. Questo messaggio viene inviato a tutti gli individui del percorso. Fai riferimento a questo [sezione](../messages/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
+1. Rilascia un **E-mail** e definisci il contenuto del &quot;primo messaggio&quot;. Questo messaggio viene inviato a tutti gli individui del percorso. Fai riferimento a questo [sezione](../email/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
 
    ![](assets/jo-uc5.png)
 
@@ -104,11 +104,11 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
    >
    >Quando configuri un timeout su più eventi (le due reazioni in questo caso), devi configurare il timeout solo su uno di questi eventi.
 
-1. Nel percorso di timeout, rilascia una **E-mail** e definisci il contenuto del messaggio &quot;follow-up&quot;. Questo messaggio viene inviato agli utenti che non aprono l’e-mail o non inviano il primo messaggio push il giorno successivo. Fai riferimento a questo [sezione](../messages/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
+1. Nel percorso di timeout, rilascia una **E-mail** e definisci il contenuto del messaggio &quot;follow-up&quot;. Questo messaggio viene inviato agli utenti che non aprono l’e-mail o non inviano il primo messaggio push il giorno successivo. Fai riferimento a questo [sezione](../email/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
 
 1. Collega i tre percorsi all’evento di acquisto creato in precedenza. L’evento viene attivato quando un singolo utente effettua un acquisto.
 
-1. Dopo l’evento, rilascia una **Push** attività di azione e definisci il contenuto del messaggio di ringraziamento. Fai riferimento a questo [sezione](../messages/create-push.md) per scoprire come configurare e progettare un push.
+1. Dopo l’evento, rilascia una **Push** attività di azione e definisci il contenuto del messaggio di ringraziamento. Fai riferimento a questo [sezione](../push/create-push.md) per scoprire come configurare e progettare un push.
 
 ## Test e pubblicazione del percorso
 

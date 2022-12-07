@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 2%
@@ -73,7 +73,7 @@ La logica di elenco Consentiti si applica quando la funzione è attiva. Ulterior
 
 >[!NOTE]
 >
->Quando è attivata, la funzione di elenco Consentiti viene rispettata durante l’esecuzione dei percorsi, ma anche durante il test dei messaggi con [bozze](../design/preview.md#send-proofs) e i percorsi di test che utilizzano [modalità di prova](../building-journeys/testing-the-journey.md).
+>Quando è attivata, la funzione di elenco Consentiti viene rispettata durante l’esecuzione dei percorsi, ma anche durante il test dei messaggi con [bozze](../email/preview.md#send-proofs) e i percorsi di test che utilizzano [modalità di prova](../building-journeys/testing-the-journey.md).
 
 ## Disattiva l’elenco Consentiti {#deactivate-allow-list}
 
@@ -147,7 +147,7 @@ Per farlo, segui la procedura indicata di seguito.
 
 ### Aggiungere entità utilizzando una chiamata API {#api-call-allowed-list}
 
-Per compilare l’elenco Consentiti, puoi anche chiamare l’API di soppressione con `ALLOWED` valore per `listType` attributo. Esempio:
+Per compilare l’elenco Consentiti, puoi anche chiamare l’API di soppressione con `ALLOWED` valore per `listType` attributo. Ad esempio:
 
 ![](assets/allow-list-api.png)
 

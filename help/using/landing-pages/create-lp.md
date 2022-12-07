@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -182,7 +182,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
    >[!NOTE]
    >
-   >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare di nuovo l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../design/message-tracking.md#insert-links).
+   >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare di nuovo l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../email/message-tracking.md#insert-links).
 
 1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
    ![](assets/lp_test-profiles.png)
 
-   I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../design/preview.md#select-test-profiles).
+   I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../email/preview.md#select-test-profiles).
 
 1. Seleziona la **[!UICONTROL Anteprima]** e fai clic su **[!UICONTROL Apri anteprima]** per verificare la pagina di destinazione.
 
@@ -275,7 +275,7 @@ Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla dispon
 
 Una volta pubblicata, la pagina di destinazione viene aggiunta all’elenco della pagina di destinazione con la **[!UICONTROL Pubblicato]** stato.
 
-È ora attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] [message](../messages/get-started-content.md) che verranno inviati attraverso un [percorso](../building-journeys/journey.md).
+È ora attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] messaggio che verrà inviato tramite un [percorso](../building-journeys/journey.md).
 
 >[!NOTE]
 >

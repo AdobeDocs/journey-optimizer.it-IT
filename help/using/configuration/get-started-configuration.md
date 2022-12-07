@@ -8,49 +8,46 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 11%
+source-wordcount: '319'
+ht-degree: 40%
 
 ---
 
 
 # Introduzione a [!DNL Journey Optimizer] configurazione {#start-optimizer-configuration}
 
-Quando accedi [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un certo numero di IP a seconda del contratto.
+Quando accedi a [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un determinato numero di IP a seconda del contratto.
 
-Per poter creare i tuoi percorsi e inviare messaggi, devi seguire questi passaggi di configurazione:
+Per creare i tuoi percorsi e inviare messaggi, devi seguire i passaggi di configurazione riportati di seguito.
 
-1. **Configurare messaggi e canali**: definire le superfici dei canali, adattare e personalizzare i messaggi.
+## Configurare messaggi e canali
 
-   * Crea superfici di canale per configurare tutti i parametri tecnici necessari per la consegna dei messaggi. [Ulteriori informazioni](channel-surfaces.md)
+Definisci le superfici dei canali, adatta e personalizza i messaggi.
 
-   * Determina l’indirizzo e-mail da utilizzare in priorità per i destinatari quando sono disponibili più indirizzi in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
+* [Delega ad Adobe dei sottodomini](about-subdomain-delegation.md) desideri utilizzare per inviare e-mail e [creare pool IP](ip-pools.md) per raggruppare gli indirizzi IP forniti con la tua istanza.
 
-   * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di eliminazione. [Ulteriori informazioni](manage-suppression-list.md)
+* Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](manage-suppression-list.md)
 
-   * Definire le impostazioni delle notifiche push in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../configuration/push-gs.md)
+* Definisci le impostazioni delle notifiche push sia in [!DNL Adobe Experience Platform] e in [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../push/push-gs.md)
 
-   <!--* Understand the push notification flow. [Learn more](../configuration/push-gs.md)-->
+   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
-   * Configura l’istanza per inviare SMS (attualmente disponibile solo per un set di organizzazioni - Disponibilità limitata). [Ulteriori informazioni](sms-configuration.md)
+* Configura l’istanza per inviare SMS (attualmente disponibile solo per un set di organizzazioni - Disponibilità limitata). [Ulteriori informazioni](../sms/sms-configuration.md)
 
+* Crea superfici di canale per configurare tutti i parametri tecnici necessari per la consegna dei messaggi. [Ulteriori informazioni](channel-surfaces.md)
 
-1. **Delega sottodomini**: per utilizzare un nuovo sottodominio in Journey Optimizer, il primo passaggio consiste nel delegarlo. [Ulteriori informazioni](about-subdomain-delegation.md)
+* Determina l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
 
-   ![](assets/subdomain.png)
+## Configurare i percorsi
 
-1. **Creare pool IP**: migliora il recapito e la reputazione delle e-mail raggruppando gli indirizzi IP forniti con la tua istanza. [Ulteriori informazioni](ip-pools.md)
+Per generare percorsi, è necessario configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. [Ulteriori informazioni](about-data-sources-events-actions.md)
 
-   ![](assets/ip-pool.png)
+![](assets/admin-menu.png)
 
-1. **Configura percorsi**: per generare percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. [Ulteriori informazioni](about-data-sources-events-actions.md)
+* La **sorgente dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
-   ![](assets/admin-menu.png)
+* **Eventi** ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion (acquisizione dati in streaming) per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. [Ulteriori informazioni](../event/about-events.md)
 
-   * La **sorgente dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. [Ulteriori informazioni](../datasource/about-data-sources.md)
-
-   * **Eventi** ti consente di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. [Ulteriori informazioni](../event/about-events.md)
-
-   * [!DNL Journey Optimizer] viene fornito con funzionalità integrate per la progettazione e l’invio di contenuti. Se utilizzi un sistema di terze parti per l’invio dei messaggi, crea un **azione personalizzata**. [Ulteriori informazioni](../action/action.md)
+* [!DNL Journey Optimizer] viene fornito con funzionalità integrate per la progettazione e l’invio di contenuti. Se utilizzi un sistema di terze parti per l’invio dei messaggi, crea un **azione personalizzata**. [Ulteriori informazioni](../action/action.md)

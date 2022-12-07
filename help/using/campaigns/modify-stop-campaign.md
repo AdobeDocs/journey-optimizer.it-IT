@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,32 @@ ht-degree: 2%
 Una volta attivata una campagna, puoi modificarla o interromperla in qualsiasi momento. Queste operazioni sono disponibili solo per le campagne con esecuzione ricorrente .
 
 Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzione ricorrente) per crearne di nuove e archiviare quelle completate o interrotte.
+
+## Accedere alle campagne {#access}
+
+Le campagne sono accessibili dal **[!UICONTROL Campagne]** menu.
+
+Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati.
+
+Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
+
+![](assets/create-campaign-list.png)
+
+## Stati di Campaign {#statuses}
+
+Le campagne possono avere più stati:
+
+* **[!UICONTROL Bozza]**: La campagna è in corso di modifica e non è stata attivata.
+* **[!UICONTROL Attivazione]**: È in corso l’attivazione della campagna.
+* **[!UICONTROL Live]**: La campagna è stata attivata.
+* **[!UICONTROL Pianificato]**: La campagna è configurata per essere attivata in una data di inizio specifica.
+* **[!UICONTROL Arrestato]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completato]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
+* **[!UICONTROL Archiviato]**: La campagna è stata archiviata. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
+
+>[!NOTE]
+>
+>Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Maggiori informazioni](modify-stop-campaign.md#modify).
 
 ## Modificare una campagna ricorrente {#modify}
 
