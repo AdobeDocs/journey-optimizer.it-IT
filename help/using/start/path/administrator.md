@@ -5,7 +5,7 @@ title: Guida introduttiva di Journey Optimizer per l’amministratore di sistema
 description: In qualità di amministratore di sistema, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: ht
 source-wordcount: '732'
 ht-degree: 100%
@@ -48,11 +48,11 @@ Segui i passaggi seguenti:
 
 1. **Configura i messaggi e i canali**: definisci le superfici, adatta e personalizza le impostazioni per e-mail, sms e messaggi push
 
-   * Definisci le **impostazioni delle notifiche push** sia in [!DNL Adobe Experience Platform] e in [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../../configuration/push-gs.md)
+   * Definisci le **impostazioni delle notifiche push** sia in [!DNL Adobe Experience Platform] e in [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../../push/push-gs.md)
 
    * Crea **superfici di canale** (ad esempio, predefiniti per messaggi) per configurare tutti i parametri tecnici richiesti per e-mail, sms e notifiche push. [Ulteriori informazioni](../../configuration/channel-surfaces.md)
 
-   * Configura il **Canale SMS** per configurare tutti i parametri tecnici richiesti per gli SMS. [Ulteriori informazioni](../../configuration/sms-configuration.md)
+   * Configura il **Canale SMS** per configurare tutti i parametri tecnici richiesti per gli SMS. [Ulteriori informazioni](../../sms/sms-configuration.md)
 
    * Gestisci il numero di giorni durante i quali vengono eseguiti **nuovi tentativi** prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](../../configuration/manage-suppression-list.md)
 
