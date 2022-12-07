@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: ht
-source-wordcount: '3461'
+source-wordcount: '3453'
 ht-degree: 100%
 
 ---
@@ -232,7 +232,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Sinch</b> o <b>Twilio</b>.</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
+<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../sms/create-sms.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -284,7 +284,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Journey Optimizer fornisce un nuovo flusso per la creazione dei messaggi nei Percorsi. La messaggistica in linea consente agli utenti di risparmiare tempo e semplifica il processo del flusso di lavoro per creare e inviare un’e-mail, una notifica push o un SMS in Journey Optimizer. Rimuovendo i messaggi come passaggio separato e rendendoli modificabili in linea nell’ambito di un’azione nell’area di lavoro del Percorso, si riducono i clic e le schermate necessari per progettare e modificare i contenuti.</p>
 <img src="assets/do-not-localize/inline.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../messages/get-started-content.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -364,7 +363,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 * **Aggiornamento della logica per l’elenco Consentiti**: ora la logica dell’elenco Consentiti si applica non appena la funzione è abilitata, anche se l’elenco è vuoto. [Ulteriori informazioni](../configuration/allow-list.md#logic)
 
-* **Parametri di tracciamento URL** - Ora puoi utilizzare l’editor espressioni per configurare i parametri di tracciamento URL nelle superfici e-mail (ossia i predefiniti per messaggi). [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* **Parametri di tracciamento URL** - Ora puoi utilizzare l’editor espressioni per configurare i parametri di tracciamento URL nelle superfici e-mail (ossia i predefiniti per messaggi). [Ulteriori informazioni](../email/email-settings.md#url-tracking)
 
 **Gestione delle decisioni**
 
@@ -387,7 +386,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Ora puoi creare, personalizzare e inviare SMS in Journey Optimizer tramite un’integrazione con <b>Sinch</b> o <b>Twilio</b>.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>Il canale SMS è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../messages/create-sms.md">documentazione dettagliata</a>.</p>
+<p>Per informazioni su come creare e inviare un SMS, consulta la <a href="../sms/create-sms.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -405,7 +404,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>Il plug-in per l’integrazione di Adobe Stock e Adobe Journey Optimizer Email Designer offre ai clienti un modo semplice di cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle. </br> La nuova opzione <b>Trova foto Stock simili</b> consente inoltre di individuare foto Stock simili alle tue immagini per contenuto, colore e composizione. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>Per ulteriori informazioni, consulta la <a href="../design/stock.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/stock.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -474,12 +473,12 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **E-mail**
 
-* **Salva come modello**: ora è possibile salvare un contenuto e-mail come modello e riutilizzarlo per creare altri messaggi. [Ulteriori informazioni](../design/email-templates.md)
+* **Salva come modello**: ora è possibile salvare un contenuto e-mail come modello e riutilizzarlo per creare altri messaggi. [Ulteriori informazioni](../email/email-templates.md)
 
 
 **Amministrazione**
 
-* **Parametri URL di tracciamento anteprima**: quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../configuration/email-settings.md#url-tracking)
+* **Parametri URL di tracciamento anteprima**: quando configuri un predefinito di messaggio, se definisci i parametri di tracciamento URL ora viene visualizzata un’anteprima dinamica dell’URL di tracciamento risultante. [Ulteriori informazioni](../email/email-settings.md#url-tracking)
 
 * **Modifica del predefinito per messaggi**: ora al momento dell’aggiornamento di un predefinito per messaggi, il tempo di elaborazione può richiedere solo fino a 3 ore. [Ulteriori informazioni](../configuration/channel-surfaces.md#edit-channel-surface)
 
