@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
+source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,9 @@ Prima di poter generare questo file, devi creare:
 >id="ajo_dm_file_routing_details"
 >title="Definire la configurazione del routing dei file"
 >abstract="Dopo aver creato un messaggio di direct mailing, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della direct mailing."
-<!-->
->add-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;Creare un messaggio di direct mailing&quot;—>
+
+<!--
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
