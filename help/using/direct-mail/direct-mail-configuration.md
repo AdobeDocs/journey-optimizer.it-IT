@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 64e53e250504f5fd42f84d51809fd38c8e0d99a9
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Per configurare il routing dei file, segui i passaggi seguenti.
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni della direct mailing"
 >abstract="Una superficie direct mailing contiene le impostazioni per la formattazione del file che contiene i dati di pubblico con targeting e viene utilizzata dal provider di posta. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di routing del file."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/direct-mail-configuration.html#file-routing-configuration" text="Configurare il routing dei file"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurare il routing dei file"
 
 <!--
 >[!CONTEXTUALHELP]
