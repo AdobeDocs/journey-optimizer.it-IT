@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '3453'
 ht-degree: 100%
@@ -173,7 +173,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 * Quando si attiva o si disattiva l’elenco Consentiti, ora viene visualizzato una nuova avvertenza per specificare gli effetti di ogni azione. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)
 * È stata aggiornata l’interfaccia utente per creare superfici di canale e pool IP, gestire gli elenchi di soppressione e Consentiti e configurare il canale SMS.
 * Ora, quando si crea la prima superficie di canale per un determinato sottodominio, il tempo di elaborazione richiederà 10 minuti anziché 10 giorni e solo fino a 3 ore per le superfici successive che utilizzano quello stesso sottodominio. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
-* È stata aggiornata l’interfaccia utente per la creazione dei predefiniti per pagina di destinazione e dei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
+* È stata aggiornata l’interfaccia utente per la creazione dei predefiniti per pagina di destinazione e dei sottodomini della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
 **Controlli di audit**
 

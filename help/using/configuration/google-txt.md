@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 21%
@@ -28,7 +28,7 @@ Al fine di garantire un recapito messaggi ottimale e la corretta consegna delle 
 
 >[!CAUTION]
 >
-> Questa operazione può essere eseguita solo una volta che un sottodominio ha **[!UICONTROL Completato]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](access-subdomains.md).
+> Questa operazione può essere eseguita solo una volta che un sottodominio ha **[!UICONTROL Completato]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
 
 Per aggiungere un record TXT di Google al sottodominio, effettua le seguenti operazioni:
 

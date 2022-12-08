@@ -8,10 +8,10 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 40%
+source-wordcount: '381'
+ht-degree: 34%
 
 ---
 
@@ -24,21 +24,31 @@ Per creare i tuoi percorsi e inviare messaggi, devi seguire i passaggi di config
 
 ## Configurare messaggi e canali
 
-Definisci le superfici dei canali, adatta e personalizza i messaggi.
+1. Per poter creare e inviare messaggi, devi eseguire configurazioni specifiche a seconda del canale.
 
-* [Delega ad Adobe dei sottodomini](about-subdomain-delegation.md) desideri utilizzare per inviare e-mail e [creare pool IP](ip-pools.md) per raggruppare gli indirizzi IP forniti con la tua istanza.
+   * Per **E-mail** canale, devi delegare i sottodomini ad Adobe e creare pool IP per raggruppare gli indirizzi IP. [Ulteriori informazioni](../email/get-started-email-config.md)
 
-* Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](manage-suppression-list.md)
+   * Per **Push** canale, devi definire le impostazioni delle notifiche push in entrambi [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../push/push-configuration.md)
 
-* Definisci le impostazioni delle notifiche push sia in [!DNL Adobe Experience Platform] e in [!DNL Adobe Experience Platform Launch]. [Ulteriori informazioni](../push/push-gs.md)
+   * Per **SMS** canale, devi configurare la tua istanza per inviare SMS, inclusa l’integrazione delle impostazioni del provider con [!DNL Journey Optimizer]. [Ulteriori informazioni](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. Al termine, devi creare **superfici del canale** per configurare tutti i parametri tecnici necessari per la consegna dei messaggi. [Ulteriori informazioni](channel-surfaces.md)
 
-* Configura l’istanza per inviare SMS (attualmente disponibile solo per un set di organizzazioni - Disponibilità limitata). [Ulteriori informazioni](../sms/sms-configuration.md)
+1. È inoltre possibile:
 
-* Crea superfici di canale per configurare tutti i parametri tecnici necessari per la consegna dei messaggi. [Ulteriori informazioni](channel-surfaces.md)
+   * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](manage-suppression-list.md)
 
-* Determina l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
+   * Abilita la **Opzione e-mail BBC** per conservare una copia dei messaggi inviati a singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
+
+   * Configura **regole di frequenza** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](frequency-rules.md)
+
+   * Determina l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>Questi passaggi devono essere eseguiti da un [Amministratore di sistema Adobe Journey Optimizer](../start/path/administrator.md).
 
 ## Configurare i percorsi
 

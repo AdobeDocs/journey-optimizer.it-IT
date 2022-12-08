@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1505'
 ht-degree: 2%
@@ -72,7 +72,7 @@ I passaggi per creare una pagina di destinazione sono i seguenti:
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. Seleziona un predefinito. Scopri come creare i predefiniti per le pagine di destinazione in [questa sezione](../configuration/lp-presets.md#lp-create-preset).
+1. Seleziona un predefinito. Scopri come creare i predefiniti per le pagine di destinazione in [questa sezione](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    ![](assets/lp_open-designer.png)
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../configuration/lp-presets.md#lp-create-preset) selezionato. [Ulteriori informazioni](../configuration/lp-subdomains.md)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
    >
    >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare di nuovo l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../email/message-tracking.md#insert-links).
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

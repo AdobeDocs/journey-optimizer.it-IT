@@ -4,16 +4,24 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 99%
+source-wordcount: '2209'
+ht-degree: 98%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Dicembre 2022 {#december-2022}
+
+* La guida Messaggi è stata riorganizzata e divisa in guide dedicate per ogni canale:
+
+   * [Canale e-mail](../email/get-started-email.md)
+   * [Canale di notifica push](../push/get-started-push.md)
+   * [Canale SMS](../sms/get-started-sms.md)
 
 ## Novembre 2022 {#november-2022}
 
@@ -29,7 +37,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La sezione **Set di dati di entità** è stata aggiornata con ulteriori dettagli. [Maggiori informazioni](../data/datasets-query-examples.md#entity-dataset)
 * Le sezioni relative alla gestione delle rinunce e ai criteri di consenso sono state riorganizzate. [Maggiori informazioni](../privacy/opt-out.md)
 * La sezione sui parametri avanzati nei messaggi di percorso è stata chiarita e ora specifica che la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato.
-* È stata aggiunta una nota alla sezione **Configurare i sottodomini della pagina di destinazione** per specificare che l‘utilizzo delle lettere maiuscole non è consentito nei sottodomini della pagina di destinazione. [Ulteriori informazioni](../configuration/lp-subdomains.md)
+* È stata aggiunta una nota alla sezione **Configurare i sottodomini della pagina di destinazione** per specificare che l‘utilizzo delle lettere maiuscole non è consentito nei sottodomini della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
 ## Settembre 2022 {#september-2022}
 
@@ -88,7 +96,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiornate le schermate per la pagina di destinazione e i rapporti sulle iscrizioni. [Ulteriori informazioni](../reports/live-report.md)
 * È stata aggiunta una nota che indica che il metodo DELETE non è supportato nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 * Sono stati aggiornati i collegamenti ai video dimostrativi.
-* Le sezioni [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti per messaggi](../configuration/channel-surfaces.md) e [Configurare le pagine di destinazione](../configuration/lp-subdomains.md) sono state riorganizzate per migliorarne la leggibilità.
+* Le sezioni [Configurazione e-mail](../configuration/about-subdomain-delegation.md), [Predefiniti per messaggi](../configuration/channel-surfaces.md) e [Configurare le pagine di destinazione](../landing-pages/lp-subdomains.md) sono state riorganizzate per migliorarne la leggibilità.
 * La sezione Tracciamento URL è stata aggiornata e migliorata con alcuni esempi. [Ulteriori informazioni](../email/email-settings.md#url-tracking)
 * È stata aggiunta una nuova sottosezione sulla configurazione di un indirizzo e-mail di inoltro. Tieni presente che non è possibile farlo tramite l’interfaccia utente. [Ulteriori informazioni](../email/email-settings.md#forward-email)
 
