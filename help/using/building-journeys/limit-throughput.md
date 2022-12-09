@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 title: Limitare il throughput con origini dati esterne e azioni personalizzate
 description: Limitare il throughput con origini dati esterne e azioni personalizzate
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
-
 
 # Caso di utilizzo: limitare il throughput con origini dati esterne e azioni personalizzate{#limit-throughput}
 
@@ -18,17 +18,17 @@ Adobe Journey Optimizer consente ai professionisti di inviare chiamate API a sis
 
 Questa operazione può essere eseguita con :
 
-* **Origini dati**: per raccogliere informazioni da sistemi esterni e utilizzarle nel contesto del percorso, ad esempio per ottenere informazioni meteo sulla città del profilo e disporre di un flusso percorso dedicato basato su questo.
+* **Origini dati**: per raccogliere informazioni da sistemi esterni e utilizzarle nel contesto del percorso, ad esempio per ottenere informazioni meteo sulla città del profilo e disporre di un flusso di viaggio dedicato basato su di esso.
 
 * **Azioni personalizzate**: per inviare informazioni a sistemi esterni, ad esempio per inviare e-mail tramite una soluzione esterna utilizzando le funzionalità di orchestrazione di Journey Optimizer insieme alle informazioni sul profilo, ai dati sul pubblico e al contesto del percorso.
 
-Se lavori con origini dati esterne o azioni personalizzate, puoi proteggere i sistemi esterni limitando il throughput di percorso: fino a 5000 istanze/secondo per percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dai segmenti. È possibile definire un limite di limitazione a livello di endpoint per evitare di sovrapporre tali sistemi esterni tramite le API di Journey Optimizer Capping. Tuttavia, tutte le richieste rimanenti dopo il raggiungimento del limite verranno eliminate.
+Se utilizzi origini dati esterne o azioni personalizzate, puoi proteggere i sistemi esterni limitando il throughput del percorso: fino a 5000 istanze/secondo per i percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dai segmenti. È possibile definire un limite di limitazione a livello di endpoint per evitare di sovrapporre tali sistemi esterni tramite le API di limitazione di utilizzo di Journey Optimizer. Tuttavia, tutte le richieste rimanenti dopo il raggiungimento del limite verranno eliminate.
 
 In questa sezione sono disponibili soluzioni alternative che consentono di ottimizzare il throughput. Per ulteriori informazioni su come integrare con i sistemi esterni, consulta questo [page](../configuration/external-systems.md).
 
 ## Implementazione
 
-Per **percorsi con attivazione segmento**, puoi definire la velocità di limitazione dell’attività Leggi segmento che influirà sul throughput del percorso.  [Ulteriori informazioni](../building-journeys/read-segment.md)
+Per **percorsi con attivazione segmento**, puoi definire la velocità di limitazione dell’attività Leggi segmento che influirà sul throughput del percorso.  [Leggi tutto](../building-journeys/read-segment.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -42,7 +42,7 @@ Prendiamo un esempio di **percorsi con attivazione segmento** con una popolazion
 
 1. Puoi quindi aggiungere un’attività Condizione con suddivisione in percentuale con una suddivisione del 20% per avere a ogni secondo 100 profili in ciascun ramo.
 
-1. In seguito, aggiungi le attività Attendi con un timer specifico in ogni ramo. Qui abbiamo impostato un&#39;attesa di 30 secondi per ognuna di esse. Al secondo, 100 profili fluiranno in ciascun ramo.
+1. In seguito, aggiungi le attività Attendi con un timer specifico in ogni ramo. Qui abbiamo impostato un&#39;attesa di 30 secondi per ognuna di esse. Al secondo, 100 profili scorrono in ciascun ramo.
 
    * Al ramo 1, attenderanno 30 secondi, il che significa che:
       * al secondo 1, 100 profili attendono il secondo 31
@@ -64,5 +64,4 @@ Come ulteriore guardrail, è anche possibile utilizzare le funzionalità di masc
 
 >[!NOTE]
 >
->A differenza delle funzionalità di maschiatura, che proteggono un endpoint essendo globale per tutti i percorsi di una sandbox, questa soluzione funziona solo a livello di percorso. Ciò significa che se più percorsi sono in esecuzione in parallelo e hanno lo stesso endpoint, sarà necessario tenerne conto durante la progettazione del percorso. Questa soluzione non è quindi adatta per ogni caso d’uso.
-
+>A differenza delle funzionalità di maschiatura, che proteggono un endpoint essendo globale per tutti i percorsi di una sandbox, questa soluzione funziona solo a livello di percorso. Ciò significa che se più percorsi vengono eseguiti in parallelo e hanno lo stesso endpoint, è necessario tenerne conto durante la progettazione del percorso. Questa soluzione non è quindi adatta per ogni caso d’uso.

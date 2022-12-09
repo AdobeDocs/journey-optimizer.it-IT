@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 6%
+source-wordcount: '263'
+ht-degree: 0%
 
 ---
 
@@ -20,15 +21,15 @@ ht-degree: 6%
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito contenuto personalizzato, puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
 
-1. Fai clic su **[!UICONTROL Simulazione del contenuto]**.
+1. Fai clic su **[!UICONTROL Simulate content]**.
 
-1. Fai clic su **[!UICONTROL Gestire i profili di test]** per aggiungere un profilo di test.
+1. Fai clic su **[!UICONTROL Manage test profiles]** per aggiungere un profilo di test.
 
-1. Trova il tuo profilo di test con **[!UICONTROL Spazio dei nomi identità]** e **[!UICONTROL Valore identità]** campi. Quindi, fai clic su **[!UICONTROL Aggiungi profilo]**.
+1. Trova il tuo profilo di test con **[!UICONTROL Identity namespace]** e **[!UICONTROL Identity value]** campi. Quindi, fai clic su **[!UICONTROL Add profile]**.
 
    ![](assets/sms_preview_3.png)
 
-1. Dopo aver selezionato il profilo di test, puoi chiudere la **[!UICONTROL Aggiungi profilo di test]** finestra.
+1. Dopo aver selezionato il profilo di test, puoi chiudere la **[!UICONTROL Add test profile]** finestra.
 
    ![](assets/sms_preview_1.png)
 
@@ -48,15 +49,15 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 * **Avvisi** consulta consigli e best practice. Ad esempio, se il messaggio SMS è vuoto, viene visualizzato un messaggio.
 
-* **Errori** impedisce di testare o attivare il percorso purché non siano risolti. Ad esempio, un messaggio ti avviserà che manca l’oggetto.
+* **Errori** impedisce il test o l’attivazione del percorso purché non siano risolti. Ad esempio, un messaggio ti avviserà che manca l’oggetto.
 
 ![](assets/sms-alert-button.png)
 
-Quando il messaggio SMS è pronto, completa la configurazione della [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
+Quando il messaggio SMS è pronto, completa la configurazione della [viaggio](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
 
 **Argomenti correlati**
 
 * [Configurare il canale SMS](sms-configuration.md)
-* [Rapporto SMS](../reports/journey-global-report.md#sms-global)
+* [Report SMS](../reports/journey-global-report.md#sms-global)
 * [Creare un messaggio SMS](create-sms.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)

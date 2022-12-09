@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: aad4e08a-3369-454d-9e32-974347a3b393
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -20,11 +21,11 @@ ht-degree: 0%
 
 Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito contenuto personalizzato, puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
 
-1. Fai clic su **[!UICONTROL Simulazione del contenuto]**.
+1. Fai clic su **[!UICONTROL Simulate content]**.
 
-1. Fai clic su **[!UICONTROL Gestire i profili di test]** per aggiungere un profilo di test.
+1. Fai clic su **[!UICONTROL Manage test profiles]** per aggiungere un profilo di test.
 
-1. Trova il tuo profilo di test con **[!UICONTROL Spazio dei nomi identità]** e **[!UICONTROL Valore identità]** campi. Quindi, fai clic su **[!UICONTROL Aggiungi profilo]**.
+1. Trova il tuo profilo di test con **[!UICONTROL Identity namespace]** e **[!UICONTROL Identity value]** campi. Quindi, fai clic su **[!UICONTROL Add profile]**.
 
    ![](assets/push_preview_1.png)
 
@@ -48,15 +49,14 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 * **Avvisi** consulta consigli e best practice.
 
-* **Errori** impedisce il test o l’attivazione del percorso finché non vengono risolti, ad esempio:
+* **Errori** impedisce il test o l’attivazione del percorso purché non siano risolti, ad esempio:
 
-   * **[!UICONTROL La versione push del messaggio è vuota]**: questo errore viene visualizzato quando manca il corpo o il titolo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](create-push.md).
+   * **[!UICONTROL The push version of the message is empty]**: questo errore viene visualizzato quando manca il corpo o il titolo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](create-push.md).
 
-   * **[!UICONTROL La superficie non esiste]**: non puoi utilizzare il messaggio se la superficie selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, seleziona un’altra superficie nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle superfici dei canali in [questa sezione](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**: non puoi utilizzare il messaggio se la superficie selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, seleziona un’altra superficie nel messaggio **[!UICONTROL Properties]**. Ulteriori informazioni sulle superfici dei canali in [questa sezione](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Il payload push iOS/Android ha superato il limite di 4 KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoticon. Scopri come gestire il contenuto delle notifiche push in [questa sezione](../push/create-push.md).
+   * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoticon. Scopri come gestire il contenuto delle notifiche push in [questa sezione](../push/create-push.md).
 
 ![](assets/push_alert.png)
 
-Quando la notifica push è pronta, completa la configurazione della [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
-
+Quando la notifica push è pronta, completa la configurazione della [viaggio](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.

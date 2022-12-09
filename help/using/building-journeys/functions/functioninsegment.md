@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 0%
 
 ---
 
@@ -63,4 +63,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se la persona all’interno dell’istanza di percorso fa parte del segmento Adobe Experience Platform denominato &quot;uomini oltre 50&quot;, **[!UICONTROL false]** altrimenti.
+La funzione restituirà **[!UICONTROL true]** se la persona all’interno dell’istanza di percorso fa parte del segmento di Adobe Experience Platform denominato &quot;uomini oltre 50&quot;, **[!UICONTROL false]** altrimenti.

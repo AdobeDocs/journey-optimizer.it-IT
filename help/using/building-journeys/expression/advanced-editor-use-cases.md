@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '489'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ L’editor di espressioni avanzate può essere utilizzato per creare condizioni 
 
 L’editor di espressioni avanzate è obbligatorio per eseguire query su serie temporali come un elenco di acquisti o clic passati sui messaggi. Tali query non possono essere eseguite utilizzando il semplice editor.
 
-Gli eventi di esperienza vengono recuperati da Adobe Experience Platform come raccolta in ordine cronologico inverso, di conseguenza:
+Gli eventi di esperienza vengono recuperati da Adobe Experience Platform come raccolta in ordine cronologico inverso, quindi:
 
 * la prima funzione restituirà l’evento più recente
 * l&#39;ultima funzione restituirà quella più vecchia.
@@ -95,7 +95,7 @@ Questa espressione restituisce un valore booleano.
                        .SKU}
    ```
 
-Da qui puoi aggiungere un altro percorso nel tuo percorso per quando il prodotto non è in negozio e inviare una notifica con un’offerta di coinvolgimento. Configura i messaggi di conseguenza e utilizza i dati di personalizzazione per migliorare la destinazione del messaggio.
+Da qui puoi aggiungere un altro percorso nel percorso per quando il prodotto non è in negozio e inviare una notifica con un’offerta di coinvolgimento. Configura i messaggi di conseguenza e utilizza i dati di personalizzazione per migliorare la destinazione del messaggio.
 
 ## Esempi di manipolazioni delle stringhe con l’editor di espressioni avanzate
 
@@ -146,4 +146,4 @@ substr(
 
 Spiegazione: Questo esempio utilizza `substr` e `lastIndexOf` funzioni per rimuovere le parentesi graffe che racchiudono l’ID CRM passato con un evento di avvio dell’app mobile.
 
-Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, consulta [questo video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=it).
+Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, consulta [questo video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

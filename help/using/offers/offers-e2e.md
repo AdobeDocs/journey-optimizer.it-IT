@@ -1,6 +1,6 @@
 ---
 title: Utilizzare offerte personalizzate in un messaggio e-mail
-description: Un esempio end-to-end illustra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
+description: Scopri un esempio end-to-end che mostra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
 feature: Offers
 topic: Integrations
 role: User
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 6%
+source-wordcount: '1065'
+ht-degree: 0%
 
 ---
 
-# Caso d’uso: configurare offerte personalizzate da utilizzare in un messaggio e-mail {#configure-add-personalized-offers-email}
+# Caso di utilizzo: Configurare offerte personalizzate per utilizzarle in un messaggio e-mail {#configure-add-personalized-offers-email}
 
 Questa sezione presenta un esempio end-to-end per mostrare come configurare le offerte e utilizzarle in un’e-mail, in base a una decisione creata in precedenza.
 
@@ -24,7 +24,7 @@ I passaggi chiave per configurare le offerte, includerle in una decisione e sfru
 1. Prima di creare offerte, [definire i componenti](#define-components)
 
    * Creare posizionamenti
-   * Creare regole di decisione
+   * Creare regole decisionali
    * Creare tag
    * Creare classificazioni (facoltativo)
 
@@ -63,7 +63,7 @@ Il processo decisionale complessivo per l’utilizzo delle offerte in un messagg
 
 Prima di iniziare a creare le offerte, devi definire diversi componenti da utilizzare nelle offerte.
 
-Li troverai sotto il **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL Menu Componenti]**.
+Li troverai sotto il **[!UICONTROL Decision Management]** > **[!UICONTROL Components menu]**.
 
 1. Inizia creando **posizionamenti** per le offerte.
 
@@ -83,7 +83,7 @@ Li troverai sotto il **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL M
 
    Le regole decisionali forniscono l’offerta migliore a un profilo in Adobe Experience Platform.
 
-   Configura due semplici regole utilizzando la **[!UICONTROL Profilo individuale XDM > Persona > Genere]** attributo:
+   Configura due semplici regole utilizzando la **[!UICONTROL XDM Individual Profile > Person > Gender]** attributo:
 
    * *Clienti Femminili*
    * *Clienti maschili*
@@ -114,7 +114,7 @@ Li troverai sotto il **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL M
 
 Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro offerte da visualizzare in base a ciascun profilo specifico.
 
-1. Creare un’offerta. Ulteriori informazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Crea un’offerta. Ulteriori informazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. In questa offerta, crea tre rappresentazioni. Ogni rappresentazione deve essere una combinazione di un posizionamento creato in precedenza e di una risorsa:
 
@@ -132,13 +132,13 @@ Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro off
 
    ![](assets/offers-e2e-representations.png)
 
-1. In **[!UICONTROL Idoneità offerta]** sezione , seleziona **[!UICONTROL Per regola decisionale definita]** e trascina e rilascia la regola scelta.
+1. In **[!UICONTROL Offer eligibility]** sezione , seleziona **[!UICONTROL By defined decision rule]** e trascina e rilascia la regola scelta.
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. Compila il **[!UICONTROL Priorità]**. In questo esempio, aggiungi *25*.
+1. Compila il **[!UICONTROL Priority]**. In questo esempio, aggiungi *25*.
 
-1. Rivedi l’offerta, quindi fai clic su **[!UICONTROL Salva e approva]**.
+1. Rivedi l’offerta, quindi fai clic su **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review.png)
 
@@ -155,7 +155,7 @@ I passaggi dettagliati per la creazione e la configurazione delle offerte sono d
 
 ## Creare un’offerta di fallback {#create-fallback}
 
-1. Creare un’offerta di fallback.
+1. Crea un’offerta di fallback.
 
 1. Definisci le stesse rappresentazioni delle offerte, con le risorse appropriate (devono essere diverse da quelle utilizzate nelle offerte).
 
@@ -167,7 +167,7 @@ I passaggi dettagliati per la creazione e la configurazione delle offerte sono d
 
    ![](assets/offers-e2e-fallback-representations.png)
 
-1. Rivedi l’offerta di fallback, quindi fai clic su **[!UICONTROL Salva e approva]**.
+1. Rivedi l’offerta di fallback, quindi fai clic su **[!UICONTROL Save and approve]**.
 
 ![](assets/offers-e2e-fallback.png)
 
@@ -195,7 +195,7 @@ Questa combinazione verrà utilizzata dal motore decisionale per trovare l’off
 
 Per creare e configurare una decisione di offerta, segui i passaggi principali seguenti:
 
-1. Creare una decisione. Ulteriori informazioni in [questa sezione](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
+1. Crea una decisione. Ulteriori informazioni in [questa sezione](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
 1. Seleziona la *Web - Immagine*, *E-mail - Immagine* e *Non digitale - Testo* posizionamenti.
 
@@ -213,7 +213,7 @@ Per creare e configurare una decisione di offerta, segui i passaggi principali s
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. Rivedi la tua decisione, quindi fai clic su **[!UICONTROL Salva e approva]**.
+1. Rivedi la tua decisione, quindi fai clic su **[!UICONTROL Save and approve]**.
 
    ![](assets/offers-e2e-review-decision.png)
 

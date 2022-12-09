@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 9%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 # Eliminare un’offerta di fallback {#delete-fallback-offer}
 
-A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. È possibile eliminare solo le offerte di fallback create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
+A volte può essere necessario rimuovere (ELIMINA) un’offerta di fallback. È possibile eliminare solo le offerte di fallback create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
 
 **Formato API**
 

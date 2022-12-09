@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Limitazioni del percorso
-description: Ulteriori informazioni sui limiti del Percorso
+description: Ulteriori informazioni sulle limitazioni del percorso
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
-# Limitazioni  {#journey-limitations}
+# Limitazioni {#journey-limitations}
 
-Di seguito sono riportate le limitazioni relative all’utilizzo di percorsi.
+Di seguito sono riportate alcune limitazioni relative all’utilizzo dei percorsi.
 
 ## Limiti generali delle azioni
 
@@ -26,9 +26,9 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di percorsi.
 * Incorporato **Reazione** ti consente di reagire alle azioni predefinite (consulta questo [page](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 * Non è possibile inserire due azioni in parallelo, ma è necessario aggiungerle una dopo l’altra.
 
-## Limitazioni delle versioni di percorso {#journey-versions-limitations}
+## Limitazioni delle versioni del percorso {#journey-versions-limitations}
 
-* Un percorso che inizia con un’attività evento nella versione 1 non può iniziare con un elemento diverso da un evento in ulteriori versioni. Non è possibile avviare un percorso con un **Qualificazione del segmento** evento.
+* Un percorso che inizia con un’attività evento nella versione v1 non può iniziare con un elemento diverso da un evento in altre versioni. Non puoi iniziare un percorso con un **Qualificazione del segmento** evento.
 * Un percorso che inizia con un **Qualificazione del segmento** l’attività nella versione v1 deve sempre iniziare con un **Qualificazione del segmento** in ulteriori versioni.
 * Segmento e spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
@@ -38,30 +38,30 @@ Di seguito sono riportate le limitazioni relative all’utilizzo di percorsi.
 ## Limitazioni delle azioni personalizzate
 
 * L&#39;URL dell&#39;azione personalizzata non supporta i parametri dinamici. 
-* Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; oppure &quot;$&quot;. 
+* Sono supportati solo i metodi di chiamata POST e PUT . 
+* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; o &quot;$&quot;. 
 * Gli indirizzi IP non sono consentiti. 
-* Indirizzi di Adobe interni (.adobe.) non sono consentiti.
+* Indirizzi Adobe interni (.adobe). non sono consentiti.
  
 
 ## Limiti degli eventi
 
-* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono prima essere configurati in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
 
 ## Limiti delle origini dati
 
-* Le origini dati esterne possono essere utilizzate all’interno di un percorso di clienti per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
+* Le origini dati esterne possono essere utilizzate all’interno del percorso del cliente per cercare dati esterni in tempo reale. Queste sorgenti devono essere utilizzabili tramite API REST, supportare JSON e poter gestire il volume di richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. L’obiettivo a livello di servizio (SLT) in termini di latenza è &lt; 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
+In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento di profili basati su API. L’obiettivo a livello di servizio (SLT) in termini di latenza è &lt; 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
-Se un Percorso viene attivato simultaneamente per la creazione di un profilo e controlla/recupera immediatamente le informazioni dal Servizio profili, potrebbe non funzionare correttamente.
+Se un percorso viene attivato simultaneamente per la creazione di un profilo e controlla/recupera immediatamente le informazioni dal servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 
-* Aggiungi un’attività di attesa dopo il primo evento, per dare a Adobe Experience Platform il tempo necessario per eseguire l’acquisizione in Profile Service.
+* Aggiungi un’attività di attesa dopo il primo evento, per dare ad Adobe Experience Platform il tempo necessario per eseguire l’acquisizione nel servizio profili.
 
 * Imposta un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 

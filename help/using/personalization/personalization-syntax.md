@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 9%
+source-wordcount: '719'
+ht-degree: 0%
 
 ---
 
@@ -26,10 +26,10 @@ Esempio di espressione semplice:
 
 `{{profile.person.name}}`
 
-Dove:
+dove:
 
 * `profile` è uno spazio dei nomi.
-* `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
+* `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
 ## Regole generali sulla sintassi {#general-rules}
 
@@ -43,7 +43,7 @@ La sintassi distingue tra maiuscole e minuscole.
 
 Le parole **true**, **false**, **null** e **indefinito** sono consentiti solo nella prima parte di un&#39;espressione di percorso.
 
-In Handlebars, i valori restituiti da {{expression}} sono **scampato a HTML**. Se l&#39;espressione contiene `&`, quindi l’output restituito in sequenza HTML viene generato come `&amp;`. Se non desideri che Handlebar eviti un valore, utilizza il &quot;triple-stash&quot;.
+In Handlebars, i valori restituiti da {{expression}} sono **HTML-escape**. Se l&#39;espressione contiene `&`, quindi l&#39;output HTML restituito viene generato come `&amp;`. Se non desideri che Handlebar eviti un valore, utilizza il &quot;triple-stash&quot;.
 
 Per quanto riguarda gli argomenti relativi alle funzioni letterali, il parser del linguaggio di template non supporta la barra rovesciata singola non preceduta da escape (`\`). Questo carattere deve essere annullato con una barra rovesciata aggiuntiva (`\`). Esempio :
 
@@ -91,7 +91,7 @@ Questo percorso ha la seguente struttura:
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-Dove:
+dove:
 
 * `offers` identifica l&#39;espressione del percorso appartenente allo spazio dei nomi dell&#39;offerta
 * `Type`  determina il tipo di rappresentazione dell’offerta. I valori possibili sono: `image`, `html` e `text`
@@ -121,7 +121,7 @@ Tutti i riferimenti vengono convalidati rispetto allo schema delle offerte con u
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Assistenza{#helpers-all}
+## Helper{#helpers-all}
 
 Un helper Handlebars è un identificatore semplice che può essere seguito da parametri.
 Ogni parametro è un&#39;espressione Handlebars. È possibile accedere a questi helper da qualsiasi contesto in un modello.
@@ -151,7 +151,7 @@ I blocchi sono espressioni con un blocco di apertura ({{# }}) and closing ({{/}}
 
 ## Personalizzazione URL{#perso-urls}
 
-Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un sito web o verso un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.
+Gli URL personalizzati indirizzano i destinatari a pagine specifiche di un sito web o a un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.
 
 Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo loro campi di personalizzazione. Per personalizzare un URL, effettua le seguenti operazioni:
 

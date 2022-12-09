@@ -9,7 +9,7 @@ exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Puoi visualizzare un elenco di tutte le offerte personalizzate all’interno di un contenitore effettuando una singola richiesta di GET al [!DNL Offer Library] API.
+Puoi visualizzare un elenco di tutte le offerte personalizzate all’interno di un contenitore eseguendo una singola richiesta GET al [!DNL Offer Library] API.
 
 **Formato API**
 

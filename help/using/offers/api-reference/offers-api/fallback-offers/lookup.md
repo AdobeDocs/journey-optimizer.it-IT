@@ -9,13 +9,13 @@ exl-id: 8f1fa116-30d2-4732-8973-bbce0dc66dec
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # Cercare offerte di fallback {#look-up-fallback-offers}
 
-Puoi cercare offerte di fallback specifiche effettuando una richiesta di GET al [!DNL Offer Library] API che include l’offerta di fallback `@id` o il nome dell’offerta di fallback nel percorso della richiesta.
+Puoi cercare offerte di fallback specifiche effettuando una richiesta GET al [!DNL Offer Library] API che include l’offerta di fallback `@id` o il nome dell’offerta di fallback nel percorso della richiesta.
 
 **Formato API**
 

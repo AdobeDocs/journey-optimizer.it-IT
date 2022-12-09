@@ -22,20 +22,20 @@ ht-degree: 0%
 >title="Aggiorna attività profilo"
 >abstract="L’attività di azione Aggiorna profilo ti consente di aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti dall’evento, da un’origine dati o utilizzando un valore specifico."
 
-Utilizza la **[!UICONTROL Aggiorna profilo]** attività di azione per aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti da un evento, un’origine dati o con un valore specifico.
+Utilizza la **[!UICONTROL Update Profile]** attività di azione per aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti da un evento, un’origine dati o con un valore specifico.
 
-## Raccomandazioni
+## Consigli
 
-* La **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi.
+* La **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento con uno spazio dei nomi .
 * L’azione aggiorna solo i campi esistenti e non crea nuovi campi di profilo.
 * Non è possibile utilizzare il **Aggiorna profilo** azione per generare eventi di esperienza, ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi eseguire due azioni in parallelo.
-* La richiesta di aggiornamento inviata a Adobe Experience Platform è immediata/entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un&#39;azione utilizza &quot;campo 1&quot; aggiornato da un **Aggiorna profilo** azione già posizionata, non aspettarti che &quot;campo 1&quot; venga aggiornato nell’azione .
+* La richiesta di aggiornamento inviata ad Adobe Experience Platform è immediata o entro un secondo. Normalmente ci vorranno alcuni secondi, ma a volte di più senza garanzia. Di conseguenza, ad esempio, se un&#39;azione utilizza &quot;campo 1&quot; aggiornato da un **Aggiorna profilo** azione già posizionata, non aspettarti che &quot;campo 1&quot; venga aggiornato nell’azione .
 * La **Aggiorna profilo** l&#39;attività non supporta campi XDM definiti come enumerazione.
 
 ## Utilizzo dell’aggiornamento del profilo
 
-1. Progetta il tuo percorso iniziando con un evento. Vedi questo [sezione](../building-journeys/journey.md).
+1. Progetta il tuo percorso iniziando con un evento . Vedi questo [sezione](../building-journeys/journey.md).
 
 1. In **Azione** della palette, rilascia la **Aggiorna profilo** nell’area di lavoro.
 

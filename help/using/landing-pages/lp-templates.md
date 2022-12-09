@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '178'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 ## Salvare una pagina come modello {#save-as-template}
 
-Una volta progettato il tuo [contenuto della pagina di destinazione](lp-content.md), puoi salvarlo per un riutilizzo futuro. Per farlo, segui la procedura indicata di seguito.
+Una volta progettato il tuo [contenuto della pagina di destinazione](lp-content.md), puoi salvarlo per un riutilizzo futuro. A questo scopo, segui i passaggi seguenti.
 
 1. Fai clic sui puntini di sospensione in alto a destra dello schermo.
 
-1. Seleziona **[!UICONTROL Salva modello di progettazione]** dal menu a discesa.
+1. Seleziona **[!UICONTROL Save design template]** dal menu a discesa.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -31,7 +31,7 @@ Una volta progettato il tuo [contenuto della pagina di destinazione](lp-content.
 
    ![](assets/lp_designer-template-name.png)
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
 La prossima volta che crei una pagina di destinazione, puoi utilizzare questo modello per creare il contenuto. Scopri come in [sezione](#use-saved-template) sotto.
 
@@ -41,7 +41,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 1. Apri [designer del contenuto della pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati in precedenza.
 
-1. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
+1. Puoi ordinarli **[!UICONTROL By name]**, **[!UICONTROL Last modified]** e **[!UICONTROL Last created]**.
 
    ![](assets/lp_designer-saved-templates.png)
 
@@ -51,7 +51,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Fai clic su **[!UICONTROL Utilizza questa pagina di destinazione]**.
+1. Fai clic su **[!UICONTROL Use this landing page]**.
 
 1. Modifica il contenuto nel modo desiderato mediante la finestra di progettazione della pagina di destinazione.
 

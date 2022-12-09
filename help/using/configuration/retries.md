@@ -11,7 +11,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -41,9 +41,9 @@ Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di error
 
 Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura seguente.
 
-1. Vai a **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco di eliminazione]**.
+1. Vai a **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
 
-1. Seleziona la **[!UICONTROL Modificare le regole di eliminazione]** pulsante .
+1. Seleziona la **[!UICONTROL Edit suppression rules]** pulsante .
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -55,7 +55,7 @@ Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi mo
 
    >[!CAUTION]
    >
-   >Qualsiasi valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché limitazione o inserire nell&#39;elenco Bloccati IP da parte degli ISP. [Ulteriori informazioni sul recapito messaggi](../reports/deliverability.md)
+   >Qualsiasi valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché limitazione o blocco degli IP da parte degli ISP. [Ulteriori informazioni sul recapito messaggi](../reports/deliverability.md)
 
 ## Periodo di tempo di un nuovo tentativo {#retry-duration}
 

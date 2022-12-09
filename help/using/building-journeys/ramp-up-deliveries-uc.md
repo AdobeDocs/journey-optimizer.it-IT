@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 3%
+source-wordcount: '251'
+ht-degree: 0%
 
 ---
 
@@ -21,23 +21,23 @@ Se ti sei recentemente trasferito in un altro provider di servizi e-mail, indiri
 
 Per scaldare l’IP, puoi gradualmente aumentare il numero delle consegne. Ulteriori informazioni [ottimizzazione del recapito messaggi in Journey Optimizer](../reports/deliverability.md).
 
-Lo scopo di questo caso d’uso è quello di creare un percorso per incrementare le consegne delle e-mail. Per configurare questo percorso, effettua le seguenti operazioni:
+Lo scopo di questo caso d’uso è quello di creare un percorso per incrementare le consegne delle e-mail. Per configurare questo percorso, segui questi passaggi:
 
-1. Creare un percorso. [Ulteriori informazioni](journey-gs.md).
+1. Crea un percorso. [Leggi tutto](journey-gs.md).
 
-1. Aggiungi un **[!UICONTROL Condizione]** attività al percorso. [Ulteriori informazioni](condition-activity.md).
+1. Aggiungi un **[!UICONTROL Condition]** attività per il percorso. [Leggi tutto](condition-activity.md).
 
-1. In **[!UICONTROL Condizione]** impostazioni dell’attività, imposta il numero massimo di destinatari per la consegna:
+1. In **[!UICONTROL Condition]** impostazioni dell’attività, imposta il numero massimo di destinatari per la consegna:
 
-   1. In **[!UICONTROL Condizione]** impostazioni attività, imposta **[!UICONTROL Tipo]** campo a **[!UICONTROL Limite del profilo]**. [Ulteriori informazioni](condition-activity.md#profile_cap).
+   1. In **[!UICONTROL Condition]** impostazioni attività, imposta **[!UICONTROL Type]** campo a **[!UICONTROL Profile cap]**. [Leggi tutto](condition-activity.md#profile_cap).
 
-   1. Imposta la **[!UICONTROL Limite]** al numero massimo di destinatari per la consegna.
+   1. Imposta la **[!UICONTROL Limit]** al numero massimo di destinatari per la consegna.
 
    ![](assets/profile-cap-condition.png)
 
    Puoi aumentare gradualmente questo limite fino al numero totale di abbonati.
 
-1. Aggiungi un **[!UICONTROL E-mail]** attività di azione sul percorso nominale dopo il **[!UICONTROL Condizione]** attività.
+1. Aggiungi un **[!UICONTROL Email]** attività di azione sul percorso nominale dopo il **[!UICONTROL Condition]** attività.
 
    ![](assets/ramp-up-deliveries-message.png)
 

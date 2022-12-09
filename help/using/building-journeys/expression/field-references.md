@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 3%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
@@ -108,7 +108,7 @@ Esempio :
 
 ## Riferimento a un campo definito in una mappa
 
-### Funzione  di `entry`
+### `entry` Funzione
 
 Per recuperare un elemento in una mappa, utilizziamo la funzione di ingresso con una chiave specifica. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Per ulteriori informazioni, consulta [questa pagina](../../event/about-creating.md#select-the-namespace).
 
@@ -118,7 +118,7 @@ Per recuperare un elemento in una mappa, utilizziamo la funzione di ingresso con
 
 In questa espressione, otteniamo la voce per la chiave &quot;Email&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;Email&quot; è una raccolta da cui prendiamo l’&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
-### Funzione  di `firstEntryKey`
+### `firstEntryKey` Funzione
 
 Per recuperare la prima chiave di ingresso di una mappa, utilizza la `firstEntryKey` funzione .
 
@@ -130,7 +130,7 @@ Questo esempio mostra come recuperare il primo indirizzo e-mail degli abbonati a
 
 In questo esempio, l’elenco di sottoscrizioni è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nel `subscribers` map, collegata alla mappa dell’elenco di abbonamenti.
 
-### Funzione  di `keys`
+### `keys` Funzione
 
 Per recuperare tutte le chiavi di una mappa, utilizza le `keys` funzione .
 
@@ -142,7 +142,7 @@ Questo esempio mostra come recuperare, per un profilo specifico, tutti gli indir
 
 ## Valori dei parametri di un’origine dati (valori dinamici dell’origine dati)
 
-Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro , viene visualizzata una nuova scheda a destra per consentirti di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
+Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro , viene visualizzata una nuova scheda a destra per consentirti di specificare questo parametro. Vedi [questa pagina](../expression/expressionadvanced.md).
 
 Per casi d’uso più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave _params_. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 

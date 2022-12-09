@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aggiungi offerte personalizzate
+title: Aggiungere offerte personalizzate
 description: Scopri come aggiungere offerte personalizzate ai messaggi
 feature: Journeys
 topic: Content Management
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 0%
 
 ---
 
-# Aggiungi offerte personalizzate {#deliver-personalized-offers}
+# Aggiungere offerte personalizzate {#deliver-personalized-offers}
 
 In [!DNL Journey Optimizer] e-mail, puoi inserire decisioni che sfruttano il motore di gestione delle decisioni per scegliere l’offerta migliore da consegnare ai tuoi clienti.
 
@@ -37,13 +37,13 @@ Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 
 1. Crea l’e-mail, quindi apri E-mail Designer per configurarne il contenuto.
 
-1. Aggiungi un **[!UICONTROL Decisione di offerta]** componente di contenuto.
+1. Aggiungi un **[!UICONTROL Offer decision]** componente di contenuto.
 
    ![](assets/deliver-offer-component.png)
 
    Scopri come utilizzare i componenti di contenuto in [questa sezione](content-components.md).
 
-1. La **[!UICONTROL Decisione di offerta]** nella palette a destra. Fai clic su **[!UICONTROL Seleziona la decisione di offerta]**.
+1. La **[!UICONTROL Offer decision]** nella palette a destra. Fai clic su **[!UICONTROL Select Offer decision]**.
 
    ![](assets/deliver-offer-tab.png)
 
@@ -51,7 +51,7 @@ Per inserire una decisione in un messaggio e-mail, segui la procedura seguente:
 
    [Posizionamenti](../offers/offer-library/creating-placements.md) sono contenitori utilizzati per mostrare le offerte. In questo esempio, utilizzeremo il posizionamento &quot;immagine principale dell’e-mail&quot;. Questo posizionamento è stato creato nella Libreria offerte per visualizzare le offerte di tipo immagine situate nella parte superiore dei messaggi.
 
-1. Decisioni corrispondenti alla visualizzazione del posizionamento selezionato. Seleziona la decisione da utilizzare nel componente contenuto, quindi fai clic su **[!UICONTROL Aggiungi]**.
+1. Decisioni corrispondenti alla visualizzazione del posizionamento selezionato. Seleziona la decisione da utilizzare nel componente contenuto, quindi fai clic su **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -69,13 +69,13 @@ Dopo aver salvato le modifiche, le offerte sono pronte per essere visualizzate n
 
 ## Anteprima delle offerte in un messaggio e-mail {#preview-offers-in-email}
 
-Puoi visualizzare in anteprima le diverse offerte che fanno parte della decisione aggiunta all’e-mail utilizzando **[!UICONTROL Offerte]** o le frecce dei componenti di contenuto.
+Puoi visualizzare in anteprima le diverse offerte che fanno parte della decisione aggiunta all’e-mail utilizzando **[!UICONTROL Offers]** o le frecce dei componenti di contenuto.
 
 ![](assets/deliver-offer-preview.png)
 
 Per visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente, segui la procedura seguente.
 
-1. Fai clic su **[!UICONTROL Anteprima]**.
+1. Fai clic su **[!UICONTROL Preview]**.
 
    ![](assets/deliver-offer-preview-button.png)
 
@@ -83,15 +83,15 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
    >
    >Per visualizzare l’anteprima dei messaggi, devi disporre dei profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
 
-1. Per scegliere lo spazio dei nomi da utilizzare per identificare i profili di test, seleziona **[!UICONTROL E-mail]** dal **[!UICONTROL Spazio dei nomi identità]** campo .
+1. Per scegliere lo spazio dei nomi da utilizzare per identificare i profili di test, seleziona **[!UICONTROL Email]** dal **[!UICONTROL Identity namespace]** campo .
 
    >[!NOTE]
    >
-   >In questo esempio, utilizzeremo il **E-mail** spazio dei nomi. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../segment/get-started-identity.md).
+   >In questo esempio, utilizzeremo il **E-mail** spazio dei nomi. Ulteriori informazioni sui namespace di identità di Adobe Experience Platform [in questa sezione](../segment/get-started-identity.md).
 
-1. Nell’elenco dei namespace delle identità, seleziona **[!UICONTROL E-mail]** e fai clic su **[!UICONTROL Seleziona]**.
+1. Nell’elenco dei namespace delle identità, seleziona **[!UICONTROL Email]** e fai clic su **[!UICONTROL Select]**.
 
-1. In **[!UICONTROL Valore identità]** immettere il valore per identificare il profilo di test. In questo esempio, immetti l’indirizzo e-mail di un profilo di test.
+1. In **[!UICONTROL Identity value]** immettere il valore per identificare il profilo di test. In questo esempio, immetti l’indirizzo e-mail di un profilo di test.
 
    <!--For example enter smith@adobe.com and click the **[!UICONTROL Add profile]** button.-->
 
@@ -99,7 +99,7 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
    ![](assets/deliver-offer-test-profiles.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Anteprima]** per testare il messaggio.
+1. Fai clic sul pulsante **[!UICONTROL Preview]** per testare il messaggio.
 
 1. Seleziona un profilo di test. Viene visualizzata l’offerta corrispondente al profilo selezionato (una donna).
 

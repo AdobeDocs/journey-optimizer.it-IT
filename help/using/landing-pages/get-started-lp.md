@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alle pagine di destinazione
+title: Guida introduttiva alle pagine di destinazione
 description: Informazioni sulle pagine di destinazione in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 9%
+source-wordcount: '203'
+ht-degree: 0%
 
 ---
 
-# Introduzione alle pagine di destinazione {#get-sarted-lp}
+# Guida introduttiva alle pagine di destinazione {#get-sarted-lp}
 
 Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un utente dopo aver fatto clic da un’e-mail, un sito web, un annuncio pubblicitario o qualsiasi altra posizione digitale.
 
@@ -25,9 +25,9 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 
 * Sfruttamento [!DNL Journey Optimizer] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
 * Configurazione **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.
-* Creare elenchi di sottoscrizione per consentire agli utenti di **abbonamento a un servizio**. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
-* Fornisci ai destinatari **capacità di annullare l’iscrizione** dalla ricezione delle comunicazioni. [Ulteriori informazioni](lp-use-cases.md#opt-out)
-* Invia un **e-mail di conferma** in caso di consenso o rinuncia. [Ulteriori informazioni](lp-use-cases.md#send-confirmation-email)
+* Creare elenchi di sottoscrizione per consentire agli utenti di **abbonamento a un servizio**. [Leggi tutto](lp-use-cases.md#subscription-to-a-service)
+* Fornisci ai destinatari **capacità di annullare l’iscrizione** dalla ricezione delle comunicazioni. [Leggi tutto](lp-use-cases.md#opt-out)
+* Invia un **e-mail di conferma** in caso di consenso o rinuncia. [Leggi tutto](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -60,7 +60,7 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 <img alt="Convalida" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>Generazione rapporti</strong></a>
+<a href="../reports/lp-report-live.md"><strong>Reporting</strong></a>
 </div>
 <p>
 </td>
@@ -68,6 +68,6 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 
 ## Video introduttivo{#video}
 
-Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento (un)a un messaggio e configurare percorsi rilevanti.
+Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento (un)a un messaggio e configurare i percorsi rilevanti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

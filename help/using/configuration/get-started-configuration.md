@@ -10,17 +10,17 @@ feature: Application Settings
 topic: Administration
 source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 34%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
 
 # Introduzione a [!DNL Journey Optimizer] configurazione {#start-optimizer-configuration}
 
-Quando accedi a [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un determinato numero di IP a seconda del contratto.
+Quando accedi [!DNL Journey Optimizer] per la prima volta, viene effettuato il provisioning di una sandbox di produzione e viene allocato un certo numero di IP a seconda del contratto.
 
-Per creare i tuoi percorsi e inviare messaggi, devi seguire i passaggi di configurazione riportati di seguito.
+Per creare i percorsi e inviare messaggi, devi seguire i passaggi di configurazione riportati di seguito.
 
 ## Configurare messaggi e canali
 
@@ -34,30 +34,30 @@ Per creare i tuoi percorsi e inviare messaggi, devi seguire i passaggi di config
 
 1. Al termine, devi creare **superfici del canale** per configurare tutti i parametri tecnici necessari per la consegna dei messaggi. [Ulteriori informazioni](channel-surfaces.md)
 
-1. È inoltre possibile:
+1. Puoi anche:
 
-   * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di soppressione. [Ulteriori informazioni](manage-suppression-list.md)
+   * Gestisci il numero di giorni durante i quali vengono eseguiti nuovi tentativi prima di inviare indirizzi e-mail all’elenco di eliminazione. [Ulteriori informazioni](manage-suppression-list.md)
 
    * Abilita la **Opzione e-mail BBC** per conservare una copia dei messaggi inviati a singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
 
    * Configura **regole di frequenza** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](frequency-rules.md)
 
-   * Determina l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
+   * Determina l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando diversi indirizzi/numeri sono disponibili in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
 
 <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
 
 >[!NOTE]
 >
->Questi passaggi devono essere eseguiti da un [Amministratore di sistema Adobe Journey Optimizer](../start/path/administrator.md).
+>Questi passaggi devono essere eseguiti da un [Amministratore di sistema di Adobe Journey Optimizer](../start/path/administrator.md).
 
 ## Configurare i percorsi
 
-Per generare percorsi, è necessario configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. [Ulteriori informazioni](about-data-sources-events-actions.md)
+Per creare i percorsi, devi configurare **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** e **[!UICONTROL Actions]**. [Ulteriori informazioni](about-data-sources-events-actions.md)
 
 ![](assets/admin-menu.png)
 
-* La **sorgente dati** La configurazione ti consente di definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. [Ulteriori informazioni](../datasource/about-data-sources.md)
+* La **sorgente dati** La configurazione ti consente di definire una connessione a un sistema per recuperare le informazioni aggiuntive che verranno utilizzate nei tuoi percorsi. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
-* **Eventi** ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion (acquisizione dati in streaming) per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. [Ulteriori informazioni](../event/about-events.md)
+* **Eventi** ti consente di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale al singolo utente che accede al percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API Streaming Ingestion per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. [Ulteriori informazioni](../event/about-events.md)
 
 * [!DNL Journey Optimizer] viene fornito con funzionalità integrate per la progettazione e l’invio di contenuti. Se utilizzi un sistema di terze parti per l’invio dei messaggi, crea un **azione personalizzata**. [Ulteriori informazioni](../action/action.md)

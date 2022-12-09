@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ Definisci le impostazioni e-mail nella sezione dedicata della configurazione del
 
 La configurazione dell’area e-mail viene selezionata per l’invio di comunicazioni secondo la logica seguente:
 
-* Per i percorsi batch e burst, non si applica all&#39;esecuzione in batch o burst che era già iniziata prima della configurazione della superficie dell&#39;e-mail. Le modifiche verranno rilevate alla ricorrenza successiva o alla nuova esecuzione.
+* Per i percorsi in batch e burst, non si applica all’esecuzione in batch o burst che era già iniziata prima della configurazione della superficie dell’e-mail. Le modifiche verranno rilevate alla ricorrenza successiva o alla nuova esecuzione.
 
 * Per i messaggi transazionali, la modifica viene selezionata immediatamente per la comunicazione successiva (fino a un ritardo di cinque minuti).
 
 >[!NOTE]
 >
->Le impostazioni aggiornate della superficie dell’e-mail vengono automaticamente raccolte nei percorsi o nelle campagne in cui viene utilizzata la superficie.
+>Le impostazioni aggiornate della superficie dell’e-mail vengono raccolte automaticamente nei percorsi o nelle campagne in cui viene utilizzata la superficie.
 
 ## Tipo di e-mail {#email-type}
 
@@ -62,15 +62,15 @@ In **Sottodominio e pool IP** sezione , devi:
 
 ![](assets/preset-subdomain-ip-pool.png)
 
-Impossibile procedere con la creazione della superficie mentre il pool IP selezionato è in uso [edizione](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** e non è mai stato associato al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione più vecchia dell’associazione pool/sottodominio IP. In questo caso, salva la superficie come bozza e riprova una volta che il pool IP dispone del **[!UICONTROL Completato]** stato.
+Impossibile procedere con la creazione della superficie mentre il pool IP selezionato è in uso [edizione](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** e non è mai stato associato al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione più vecchia dell’associazione pool/sottodominio IP. In questo caso, salva la superficie come bozza e riprova una volta che il pool IP dispone del **[!UICONTROL Success]** stato.
 
 >[!NOTE]
 >
->Per gli ambienti non di produzione, Adobe non crea sottodomini di test preconfigurati né concede l’accesso a un pool IP di invio condiviso. Devi [delegare i tuoi sottodomini](../configuration/delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
+>Per gli ambienti non di produzione, Adobe non crea sottodomini di test predefiniti né concede l’accesso a un pool IP di invio condiviso. Devi [delegare i tuoi sottodomini](../configuration/delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
 
 ## Annulla sottoscrizione elenco {#list-unsubscribe}
 
-Su [selezione di un sottodominio](#subdomains-and-ip-pools) dall&#39;elenco, **[!UICONTROL Abilita sottoscrizione a elenco]** viene visualizzata l&#39;opzione .
+Su [selezione di un sottodominio](#subdomains-and-ip-pools) dall&#39;elenco, **[!UICONTROL Enable List-Unsubscribe]** viene visualizzata l&#39;opzione .
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -86,7 +86,7 @@ Il collegamento per l’annullamento dell’abbonamento è costituito da due ele
 
 * Un **cancella indirizzo e-mail**, a cui vengono inviate tutte le richieste di annullamento dell’abbonamento.
 
-   In [!DNL Journey Optimizer], l’indirizzo e-mail per l’annullamento dell’abbonamento è quello predefinito **[!UICONTROL Mailto (annulla sottoscrizione)]** indirizzo visualizzato nella superficie del canale, in base alla [sottodominio selezionato](#subdomains-and-ip-pools).
+   In [!DNL Journey Optimizer], l’indirizzo e-mail per l’annullamento dell’abbonamento è quello predefinito **[!UICONTROL Mailto (unsubscribe)]** indirizzo visualizzato nella superficie del canale, in base alla [sottodominio selezionato](#subdomains-and-ip-pools).
 
    ![](assets/preset-list-unsubscribe-mailto.png)
 
@@ -106,21 +106,21 @@ Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell�
 
 ## Parametri di intestazione {#email-header}
 
-In **[!UICONTROL Parametri di intestazione]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale superficie.
+In **[!UICONTROL Header parameters]** , inserisci i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale superficie.
 
-* **[!UICONTROL Nome mittente]**: Nome del mittente, ad esempio il nome del brand.
+* **[!UICONTROL Sender name]**: Nome del mittente, ad esempio il nome del brand.
 
-* **[!UICONTROL Invia e-mail]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni.
+* **[!UICONTROL Sender email]**: L&#39;indirizzo e-mail che desideri utilizzare per le tue comunicazioni.
 
-* **[!UICONTROL Risposta a (nome)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail.
+* **[!UICONTROL Reply to (name)]**: Nome che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail.
 
-* **[!UICONTROL Rispondi a (e-mail)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. [Ulteriori informazioni](#reply-to-email)
+* **[!UICONTROL Reply to (email)]**: L’indirizzo e-mail che verrà utilizzato quando il destinatario fa clic sul pulsante **Rispondi** nel loro software client e-mail. [Ulteriori informazioni](#reply-to-email)
 
-* **[!UICONTROL E-mail di errore]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
+* **[!UICONTROL Error email]**: Tutti gli errori generati dagli ISP dopo alcuni giorni di consegna della posta (mancati recapiti asincroni) vengono ricevuti su questo indirizzo.
 
 >[!CAUTION]
 >
->La **[!UICONTROL Invia e-mail]** e **[!UICONTROL E-mail di errore]** Gli indirizzi devono utilizzare gli indirizzi selezionati correnti [sottodominio delegato](../configuration/about-subdomain-delegation.md). Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com* e *error@marketing.luma.com*.
+>La **[!UICONTROL Sender email]** e **[!UICONTROL Error email]** Gli indirizzi devono utilizzare gli indirizzi selezionati correnti [sottodominio delegato](../configuration/about-subdomain-delegation.md). Ad esempio, se il sottodominio delegato è *marketing.luma.com*, puoi utilizzare *contact@marketing.luma.com* e *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
@@ -130,7 +130,7 @@ In **[!UICONTROL Parametri di intestazione]** , inserisci i nomi del mittente e 
 
 ### Risposta all’e-mail {#reply-to-email}
 
-Quando definisci **[!UICONTROL Rispondi a (e-mail)]** indirizzo, è possibile specificare qualsiasi indirizzo e-mail purché si tratti di un indirizzo valido, nel formato corretto e senza errori di battitura.
+Quando definisci **[!UICONTROL Reply to (email)]** indirizzo, è possibile specificare qualsiasi indirizzo e-mail purché si tratti di un indirizzo valido, nel formato corretto e senza errori di battitura.
 
 Per garantire una corretta gestione delle risposte, segui le raccomandazioni riportate di seguito:
 
@@ -146,22 +146,22 @@ Per garantire una corretta gestione delle risposte, segui le raccomandazioni rip
 
 Se desideri inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l’Assistenza clienti Adobe. Dovrai fornire:
 
-* Indirizzo e-mail di tua scelta. Il dominio dell’indirizzo e-mail di inoltro non può corrispondere ad alcun sottodominio delegato ad Adobe.
+* Indirizzo e-mail di tua scelta. Il dominio dell’indirizzo e-mail inoltrato non può corrispondere ad alcun sottodominio delegato ad Adobe.
 * Il nome della sandbox.
 * Nome della superficie per la quale verrà utilizzato l’indirizzo e-mail di inoltro.
-* La corrente **[!UICONTROL Rispondi a (e-mail)]** indirizzo impostato a livello della superficie del canale.
+* La corrente **[!UICONTROL Reply to (email)]** indirizzo impostato a livello della superficie del canale.
 
 >[!NOTE]
 >
 >Può essere presente un solo indirizzo e-mail per sottodominio. Di conseguenza, se più superfici utilizzano lo stesso sottodominio, lo stesso indirizzo e-mail deve essere utilizzato per tutte.
 
-L’indirizzo e-mail successivo verrà impostato per Adobe. Questo può richiedere da 3 a 4 giorni.
+L’indirizzo e-mail successivo verrà configurato da Adobe. Questo può richiedere da 3 a 4 giorni.
 
 ## E-mail CCN {#bcc-email}
 
 Puoi inviare una copia identica (o copia cieca in carbonio) delle e-mail inviate da [!DNL Journey Optimizer] in una casella in entrata CCN in cui verranno archiviate a fini di conformità o archiviazione.
 
-A questo scopo, abilita la **[!UICONTROL E-mail CCN]** funzione opzionale a livello della superficie del canale. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-email)
+A questo scopo, abilita la **[!UICONTROL BCC email]** funzione opzionale a livello della superficie del canale. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
@@ -199,17 +199,17 @@ Ulteriori informazioni sui nuovi tentativi in [questa sezione](../configuration/
 >title="Anteprima parametri di tracciamento URL"
 >abstract="Controlla in che modo i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
-È possibile utilizzare **[!UICONTROL Parametri di tracciamento URL]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
+È possibile utilizzare **[!UICONTROL URL tracking parameters]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
 
 I parametri definiti in questa sezione verranno aggiunti alla fine degli URL inclusi nel contenuto del messaggio e-mail. Puoi quindi acquisire questi parametri in strumenti di analisi web come Adobe Analytics o Google Analytics e creare vari rapporti sulle prestazioni.
 
 <!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Puoi aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Aggiungi nuovo parametro]** pulsante .
+Puoi aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Add new parameter]** pulsante .
 
 ![](assets/preset-url-tracking.png)
 
-Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Nome]** e **[!UICONTROL Valore]** campi.
+Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Name]** e **[!UICONTROL Value]** campi.
 
 <!--You can also choose from a list of predefined values by navigating to the following objects:
 * Journey attributes: **Source id**, **Source name**, **Source version id**
@@ -222,13 +222,13 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-È inoltre possibile modificare **[!UICONTROL Valore]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui puoi selezionare gli attributi contestuali desiderati e/o modificare direttamente il testo.
+È inoltre possibile modificare **[!UICONTROL Value]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui puoi selezionare gli attributi contestuali desiderati e/o modificare direttamente il testo.
 
 ![](assets/preset-url-tracking-editor.png)
 
 >[!NOTE]
 >
->È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Valore]** Il campo può contenere fino a 255 caratteri in totale.
+>È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Value]** Il campo può contenere fino a 255 caratteri in totale.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
@@ -236,7 +236,7 @@ Di seguito sono riportati alcuni esempi di URL compatibili con Adobe Analytics e
 
 * URL compatibile con Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Google Analytics URL compatibile: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* URL compatibile con Google Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 Puoi visualizzare in anteprima dinamica l’URL di tracciamento risultante. Ogni volta che aggiungi, modifichi o rimuovi un parametro, l’anteprima viene aggiornata automaticamente.
 

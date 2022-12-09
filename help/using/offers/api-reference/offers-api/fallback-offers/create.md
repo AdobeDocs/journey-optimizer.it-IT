@@ -9,13 +9,13 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
 # Creare un’offerta di fallback {#create-fallback-offer}
 
-Puoi creare un’offerta di fallback effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Puoi creare un’offerta di fallback effettuando una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
@@ -23,7 +23,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **Formato API**

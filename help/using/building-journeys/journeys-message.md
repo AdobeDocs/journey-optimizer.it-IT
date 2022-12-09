@@ -11,13 +11,13 @@ exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# Messaggi e-mail, SMS e push{#add-a-message-in-a-journey}
+# E-mail, SMS, push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] include funzionalità integrate per messaggi. Puoi semplicemente aggiungere, nel tuo percorso, un’attività push, SMS o e-mail e definire impostazioni e contenuto. Viene quindi eseguito e inviato nel contesto del percorso.
+[!DNL Journey Optimizer] include funzionalità integrate per messaggi. Puoi semplicemente aggiungere, nel percorso, un’attività push, SMS o e-mail e definire impostazioni e contenuto. Viene quindi eseguito e inviato nel contesto del percorso.
 
 Puoi anche impostare azioni specifiche per l’invio dei messaggi:
 
@@ -30,9 +30,9 @@ Puoi anche impostare azioni specifiche per l’invio dei messaggi:
 
 Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
 
-1. Inizia il tuo percorso con un [Evento](general-events.md) o un’attività [Leggi segmento](read-segment.md).
+1. Inizia il tuo percorso con un [Evento](general-events.md) o [Leggi segmento](read-segment.md) attività.
 
-1. Dalla sezione **Azioni** della palette, trascina un’attività **E-mail**, **SMS** o **Push** nell’area di lavoro.
+1. Da **Azioni** sezione della palette, trascinare e rilasciare un **email**, un **SMS** o **Push** nell’area di lavoro.
 
 1. Configura l’attività. Scopri i passaggi dettagliati per la creazione del contenuto del messaggio nelle pagine seguenti:
 
@@ -42,13 +42,13 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
    <a href="../email/create-email.md">
    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
    </a>
-   <div><a href="../email/create-email.md"><strong>Creare le e-mail</strong>
+   <div><a href="../email/create-email.md"><strong>Creare e-mail</strong>
    </div>
    <p>
    </td>
    <td>
    <a href="../push/create-push.md">
-   <img alt="Non fequente" src="../assets/do-not-localize/push.jpg">
+   <img alt="Infrequente" src="../assets/do-not-localize/push.jpg">
    </a>
    <div>
    <a href="../push/create-push.md"><strong>Creare notifiche push<strong></a>
@@ -75,18 +75,18 @@ A questo scopo, apri il percorso live, seleziona l’attività messaggio e fai c
 
 ![](assets/add-a-message2.png)
 
-Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o percorso).
+Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (da proprietà di evento o percorso).
 
 ## Ottimizzazione dei tempi di invio{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Informazioni sull’ottimizzazione del tempo inviato"
->abstract="La funzione di ottimizzazione del momento di invio di Adobe Journey Optimizer, basata sui servizi AI di Adobe, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e clic storiche."
+>abstract="La funzione di ottimizzazione del momento di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e clic storiche."
 
 ### Informazioni sull’ottimizzazione del tempo di invio {#about-send-time}
 
-La funzione di ottimizzazione del momento di invio di Adobe Journey Optimizer, basata sui servizi AI di Adobe, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e clic storiche. Utilizza il nostro modello di apprendimento automatico per pianificare tempi di invio personalizzati per ogni utente in modo che aumentino le percentuali di apertura e clic dei messaggi.
+La funzione di ottimizzazione del momento di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e clic storiche. Utilizza il nostro modello di apprendimento automatico per pianificare tempi di invio personalizzati per ogni utente in modo che aumentino le percentuali di apertura e clic dei messaggi.
 
 Il modello di ottimizzazione del momento di invio acquisisce i dati di Adobe Journey Optimizer ed esamina le percentuali di apertura a livello di utente (per e-mail e push) e di clic (per e-mail) per determinare quando è più probabile che i clienti interagiscano con i tuoi messaggi. Per formulare raccomandazioni informate, l’ottimizzazione in fase di invio richiede almeno un mese di dati di tracciamento dei messaggi. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i seguenti punteggi:
 
@@ -99,7 +99,7 @@ Il modello varia a seconda che si tratti di punteggio o formazione. L&#39;addest
 * Formazione: lo sviluppo dell’algoritmo utilizzato per ottenere il punteggio
 * Punteggio: applicazione di un punteggio a singoli profili in base al modello addestrato
 
-Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si fa riferimento durante l’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
+Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si fa riferimento durante l’esecuzione del percorso per comunicare ad Adobe Journey Optimizer quando inviare il messaggio.
 
 >[!CAUTION]
 >

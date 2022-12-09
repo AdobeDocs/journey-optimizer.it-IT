@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: lower
+title: Lower
 description: Scopri la funzione di livello inferiore
 feature: Journeys
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 23%
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Stringa
 
 ## Parametro
 
-* stringa
+* string
 
 ## Firma e tipo restituito
 

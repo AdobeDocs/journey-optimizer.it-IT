@@ -9,7 +9,7 @@ exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per formare un singolo valore di riepilogo.
 
-## Medio{#average}
+## Media{#average}
 
 La `average` restituisce la media aritmetica di tutti i valori selezionati all&#39;interno dell&#39;array.
 

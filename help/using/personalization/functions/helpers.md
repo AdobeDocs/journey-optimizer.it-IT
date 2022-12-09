@@ -1,6 +1,6 @@
 ---
-title: Assistenza
-description: Assistenza
+title: Helper
+description: Helper
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,16 +8,16 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 4%
+source-wordcount: '372'
+ht-degree: 0%
 
 ---
 
-# Assistenza {#gs-helpers}
+# Helper {#gs-helpers}
 
 ## Valore di fallback predefinito{#default-value}
 
-La `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi di profilo e gli eventi di Percorso.
+La `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi del profilo e gli eventi del percorso.
 
 **Sintassi**
 
@@ -58,7 +58,7 @@ La `elseif` specifica una nuova condizione per eseguire il test se la prima istr
 
 **Esempi**
 
-1. **Eseguire il rendering di diversi collegamenti all’archivio in base a espressioni condizionali**
+1. **Eseguire il rendering di diversi collegamenti all’archivio in base alle espressioni condizionali**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}

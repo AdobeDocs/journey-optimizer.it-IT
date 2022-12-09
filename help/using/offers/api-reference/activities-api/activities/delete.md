@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 7%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
 # Eliminare una decisione {#delete-decision}
 
-Talvolta può essere necessario rimuovere una decisione (DELETE). È possibile eliminare solo le decisioni create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
+A volte può essere necessario rimuovere (ELIMINA) una decisione. È possibile eliminare solo le decisioni create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $dell’offerta di fallback che desideri eliminare.
 
 **Formato API**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una risposta corretta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) alla decisione. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché la decisione è stata rimossa dal contenitore.
+Puoi confermare l&#39;eliminazione tentando una richiesta di ricerca (GET) alla decisione. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché la decisione è stata rimossa dal contenitore.

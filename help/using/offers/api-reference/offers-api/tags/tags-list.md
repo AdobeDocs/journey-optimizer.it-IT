@@ -9,7 +9,7 @@ exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ I tag consentono di organizzare e ordinare meglio le offerte. Ad esempio, puoi a
 
 I tag possono essere utilizzati anche per raggruppare le offerte in raccolte. Per ulteriori informazioni, consulta l’esercitazione su [creazione di raccolte](../../../offer-library/creating-collections.md).
 
-Puoi visualizzare un elenco di tutti i tag all’interno di un contenitore effettuando una singola richiesta di GET al [!DNL Offer Library] API.
+È possibile visualizzare un elenco di tutti i tag all&#39;interno di un contenitore eseguendo una singola richiesta GET al [!DNL Offer Library] API.
 
 **Formato API**
 

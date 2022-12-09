@@ -9,7 +9,7 @@ exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
@@ -29,10 +29,10 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: only **datato** parte è considerata (fare riferimento a [RFC 3339, sezione 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | stringa |
+| Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: only **datato** parte è considerata (fare riferimento a [RFC 3339, sezione 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
 | ora | dateTime |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un&#39;epoch in millisecondi | numero intero |
+| valore intero di un&#39;epoch in millisecondi | integer |
 
 ## Firme e tipi restituiti
 

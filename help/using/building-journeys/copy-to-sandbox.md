@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Copia un percorso in un altro sandoto
+title: Copia un viaggio in un altro sandoto
 description: Scopri come copiare un percorso in un altro sandox
 feature: Journeys
 topic: Content Management
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 2%
+source-wordcount: '836'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="Copiare un percorso in un’altra sandbox"
->abstract="Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al Percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso."
+>abstract="Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
@@ -35,21 +35,21 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Oggetti dipendenti"
->abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno."
+>abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l’ID interno di Journey Optimizer."
 
 Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questo [sezione](../building-journeys/copy-to-sandbox.md#limitations).
 
 >[!CAUTION]
 >
->Non garantiamo che tutti gli elementi collegati vengano copiati nella sandbox di destinazione. Si consiglia vivamente di eseguire un controllo approfondito prima di pubblicare il percorso. Questo ti consentirà di identificare qualsiasi potenziale oggetto mancante.
+>Non garantiamo che tutti gli elementi collegati vengano copiati nella sandbox di destinazione. È consigliabile eseguire un controllo approfondito prima di pubblicare il percorso. Questo ti consentirà di identificare qualsiasi potenziale oggetto mancante.
 
-Gli oggetti copiati nella sandbox di destinazione sono univoci e non sussiste il rischio di sovrascrittura degli elementi esistenti. Sia il percorso che tutti i messaggi all&#39;interno del percorso vengono portati in modalità bozza. Ciò ti consente di eseguire una convalida approfondita prima della pubblicazione sulla sandbox di destinazione. Il processo di copia copia solo sui metadati relativi al percorso e agli oggetti contenuti in quel Percorso. Nessun dato di profilo o set di dati viene copiato come parte di questo processo.
+Gli oggetti copiati nella sandbox di destinazione sono univoci e non sussiste il rischio di sovrascrittura degli elementi esistenti. Sia il percorso che tutti i messaggi all’interno del percorso vengono portati in modalità bozza. Ciò ti consente di eseguire una convalida approfondita prima della pubblicazione sulla sandbox di destinazione. Il processo di copia copia solo i metadati del percorso e gli oggetti del percorso. Nessun dato di profilo o set di dati viene copiato come parte di questo processo.
 
 Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
 
-1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Viene visualizzato l’elenco dei percorsi.
+1. Nella sezione del menu JOURNEY MANAGEMENT fare clic su **[!UICONTROL Journeys]**. Viene visualizzato l’elenco dei percorsi.
 
-2. Cerca il percorso da copiare, fai clic sul pulsante **Altre azioni** (i tre punti accanto al nome del percorso) e fai clic su **Copia in sandbox**.
+2. Cerca il percorso da copiare, fai clic sul pulsante **Altre azioni** icona (i tre punti accanto al nome del percorso) e fai clic su **Copia in sandbox**.
 
    ![](assets/copy-sandbox1.png)
 
@@ -59,7 +59,7 @@ Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
 
 3. Seleziona la **Sandbox di Target** dal campo a discesa . Sono disponibili solo le sandbox all’interno dell’organizzazione IMS.
 
-4. Consulta la sezione **Oggetti dipendenti** sezione . Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno.
+4. Consulta la sezione **Oggetti dipendenti** sezione . Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l’ID interno di Journey Optimizer.
 
 5. Fai clic sul pulsante **Copia** , nell’angolo in alto a destra, per iniziare a copiare il percorso nella sandbox di destinazione.
 
@@ -93,11 +93,11 @@ Vengono copiati i seguenti oggetti:
 
 * Percorso - dettagli area di lavoro
 
-   La rappresentazione del percorso sull’area di lavoro, compresi gli oggetti nel percorso quali condizioni, azioni, eventi, segmenti di lettura, ecc. L’attività Jump è esclusa dalla copia.
+   La rappresentazione del percorso nell’area di lavoro, compresi gli oggetti nel percorso quali condizioni, azioni, eventi, segmenti di lettura, ecc. L’attività Jump è esclusa dalla copia.
 
 * Evento
 
-   Gli eventi e i dettagli dell&#39;evento utilizzati nel percorso vengono copiati.
+   Gli eventi e i dettagli dell’evento utilizzati nel percorso vengono copiati.
 
 * Azione
 
@@ -107,4 +107,4 @@ Le superfici (ovvero i predefiniti) non vengono copiate. Il sistema seleziona au
 
 Per gli schemi, i criteri di unione e i segmenti, la seconda volta che questi oggetti tentano di essere copiati, viene fatto riferimento solo a essi. Saranno trattati come oggetti già esistenti e verranno copiati di nuovo. Ciò significa che questi oggetti possono essere copiati una sola volta.
 
-Si verifica un ritardo di cinque minuti prima che Adobe Journey Optimizer possa fare riferimento a Schemi, Criteri di unione e Segmenti senza che venga visualizzato un errore nell’area di lavoro. Attendi cinque minuti e questi riferimenti saranno disponibili.
+Si verifica un ritardo di cinque minuti prima che Adobe Journey Optimizer possa fare riferimento a schemi, criteri di unione e segmenti senza che venga visualizzato un errore nell’area di lavoro. Attendi cinque minuti e questi riferimenti saranno disponibili.

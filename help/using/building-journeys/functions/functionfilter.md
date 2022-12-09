@@ -9,7 +9,7 @@ exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -34,8 +34,8 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToFilter | listObject | elenco di oggetti da filtrare. Deve essere un riferimento di campo. |
-| keyAttributeName | stringa | nome dell’attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtraggio |
-| keyValueList | list | array di valori chiave per il filtro |
+| keyAttributeName | string | nome dell’attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtraggio |
+| keyValueList | elenco | array di valori chiave per il filtro |
 
 ## Firme e tipi restituiti
 

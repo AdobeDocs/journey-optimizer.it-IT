@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 >La funzione canale web è attualmente disponibile come versione beta solo per gli utenti selezionati.
 
-[!DNL Journey Optimizer] consente di creare visivamente e fornire esperienze web personalizzate ai clienti.
+[!DNL Journey Optimizer] consente di creare e distribuire visivamente esperienze web personalizzate ai clienti.
 
 Se utilizzi già canali in uscita come e-mail, SMS o notifiche push, ora puoi sfruttare il canale web in entrata per offrire un’esperienza veramente personalizzata che si estende su tutti i canali.
 

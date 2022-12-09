@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: distinct
+title: distinto
 description: Scopri il distinto funzione
 feature: Journeys
 role: Data Engineer
@@ -9,7 +9,7 @@ exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | stringa | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
+| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
 
 ## Firme e tipi restituiti
 

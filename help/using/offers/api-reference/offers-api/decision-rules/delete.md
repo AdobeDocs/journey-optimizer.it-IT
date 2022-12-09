@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 6%
+source-wordcount: '161'
+ht-degree: 0%
 
 ---
 
-# Eliminare una regola di decisione {#delete-decision-rule}
+# Eliminare una regola decisionale {#delete-decision-rule}
 
-A volte può essere necessario rimuovere (DELETE) una regola decisionale. È possibile eliminare solo le regole decisionali create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID di istanza della regola decisionale che desideri eliminare.
+A volte può essere necessario rimuovere (CANCELLARE) una regola decisionale. È possibile eliminare solo le regole decisionali create nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID di istanza della regola decisionale che desideri eliminare.
 
 **Formato API**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Una risposta corretta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) alla regola decisionale. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché la regola decisionale è stata rimossa dal contenitore.
+Puoi confermare l&#39;eliminazione tentando una richiesta di ricerca (GET) alla regola decisionale. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché la regola decisionale è stata rimossa dal contenitore.

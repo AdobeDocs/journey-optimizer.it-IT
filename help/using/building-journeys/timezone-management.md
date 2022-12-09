@@ -10,18 +10,18 @@ level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 2%
+source-wordcount: '280'
+ht-degree: 0%
 
 ---
 
 # Gestione del fuso orario {#timezone_management}
 
-È possibile definire un fuso orario nel [proprietà](../building-journeys/journey-gs.md#change-properties) del tuo percorso.
+È possibile definire un fuso orario nel [proprietà](../building-journeys/journey-gs.md#change-properties) del tuo viaggio.
 
-Per accedere a Proprietà Percorso, fai clic sull’icona a forma di matita in alto a destra nella schermata.
+Per accedere a Proprietà percorso, fai clic sull’icona a forma di matita in alto a destra nella schermata.
 
-Questo fuso orario verrà utilizzato per ogni attività del percorso contenente un elemento temporale come:
+Questo fuso orario verrà utilizzato per ogni attività del percorso contenente un elemento orario come:
 
 * [Condizione di tempo](../building-journeys/condition-activity.md#time_condition)
 * [Condizione data](../building-journeys/condition-activity.md#date_condition)
@@ -41,13 +41,13 @@ Puoi selezionare un fuso orario o scegliere di utilizzarlo nel profilo utente.
 
 È inoltre possibile correggere il fuso orario. Deseleziona il fuso orario predefinito e selezionane uno dall’elenco a discesa. Se utilizzi un fuso orario fisso, sarà lo stesso per tutti gli utenti che accedono al percorso.
 
-Per farlo, nella **[!UICONTROL Proprietà percorso]** selezionare un fuso orario.
+Per farlo, nella **[!UICONTROL Journey Properties]** selezionare un fuso orario.
 
 ![](assets/journey72.png)
 
-## Utilizzare i profili per definire il fuso orario percorso {#timezone-from-profiles}
+## Utilizzare i profili per definire il fuso orario del percorso {#timezone-from-profiles}
 
-Se l’evento di ingresso del percorso dispone di uno spazio dei nomi, ovvero se il percorso può raggiungere il servizio Profilo cliente in tempo reale di Adobe Experience Platform, puoi utilizzare il fuso orario definito a livello di profilo. Per farlo, in **Proprietà**, controlla **Usa fuso orario del profilo in attese e condizioni**. Questa opzione non è selezionata per impostazione predefinita.
+Se l’evento di ingresso del percorso ha uno spazio dei nomi, il che significa che il percorso può raggiungere il servizio Profilo cliente in tempo reale di Adobe Experience Platform, puoi utilizzare il fuso orario definito a livello di profilo. Per farlo, in **Proprietà**, controlla **Usa fuso orario del profilo in attese e condizioni**. Questa opzione non è selezionata per impostazione predefinita.
 
 Se è stato definito un fuso orario per un profilo, questo verrà recuperato e utilizzato dal percorso. In caso contrario, il fuso orario utilizzato sarà quello definito nel campo relativo al fuso orario.
 

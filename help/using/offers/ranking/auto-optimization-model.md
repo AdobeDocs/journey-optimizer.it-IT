@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Un modello di ottimizzazione automatica mira a fornire offerte che massimizzano il rendimento (KPI) impostato dai clienti aziendali. Questi KPI possono essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic delle offerte con la conversione delle offerte come target. L’ottimizzazione automatica non è personalizzata e si ottimizza in base alle prestazioni &quot;globali&quot; delle offerte.
 
-## Limitazioni  {#limitations}
+## Limitazioni {#limitations}
 
-L’utilizzo di modelli di ottimizzazione automatica per la gestione delle decisioni è soggetto alle limitazioni seguenti:
+L’utilizzo dei modelli di ottimizzazione automatica per la gestione delle decisioni è soggetto alle limitazioni seguenti:
 
 * I modelli di ottimizzazione automatica non funzionano con l’API di Decisioning in batch.
 * Il feedback necessario per creare il modello deve essere inviato come evento di esperienza. Non deve essere inviato automaticamente in [!DNL Journey Optimizer] canali.
@@ -49,7 +49,7 @@ Alla fine, se un&#39;offerta (ad es. offerta 1) è un chiaro vincitore, la sua d
 
 ![](../assets/ai-ranking-thompson-sampling.png)
 
-**Figura 1**: *Per ogni decisione, campioniamo un punto dalla distribuzione della ricompensa posteriore. Verrà selezionata l’offerta con il valore di campionamento più alto (tasso di conversione). Nella fase iniziale, tutte le offerte hanno una distribuzione uniforme in quanto non abbiamo alcuna prova dei tassi di conversione delle offerte dai dati. Man mano che raccogliamo più campioni, le distribuzioni posteriori diventano più strette e accurate. Infine, l&#39;offerta con il più alto tasso di conversione sarà scelta ogni volta.*
+**Figura 1**: *Per ogni decisione, campioniamo un punto dalla distribuzione della ricompensa posteriore. Verrà selezionata l’offerta con il valore di campione più alto (tasso di conversione). Nella fase iniziale, tutte le offerte hanno una distribuzione uniforme in quanto non abbiamo alcuna prova dei tassi di conversione delle offerte dai dati. Man mano che raccogliamo più campioni, le distribuzioni posteriori diventano più strette e accurate. Infine, l&#39;offerta con il più alto tasso di conversione sarà scelta ogni volta.*
 
 <!--
 ![](../assets/ai-ranking-thompson-sampling-initial.png)

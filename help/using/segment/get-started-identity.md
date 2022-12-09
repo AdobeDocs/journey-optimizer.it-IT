@@ -9,8 +9,8 @@ level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 9%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -24,13 +24,13 @@ In [!DNL Adobe Journey Optimizer], **Identità** collega i consumatori tra dispo
 
 ![](assets/identities-home.png)
 
-Ulteriori informazioni **Servizio identità** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target=&quot;_blank&quot;}.
+Ulteriori informazioni **Servizio identità** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
 
 ## Namespace Identity {#identity-namespaces}
 
-**** Gli spazi dei nomi di identità sono un componente di Identity Service che fungono da indicatori del contesto a cui si riferisce un’identità. Ad esempio, distinguono un valore di `name@email.com` come indirizzo e-mail o `443522` come ID CRM numerico. Per utilizzare i namespace di identità è necessario comprendere i vari servizi Adobe Experience Platform interessati. Prima di iniziare a utilizzare i namespace, controlla la documentazione relativa ai seguenti servizi:
+**Namespace Identity** sono un componente del servizio Identity che funge da indicatore del contesto a cui si riferisce un’identità. Ad esempio, distinguono un valore di `name@email.com` come indirizzo e-mail o `443522` come ID CRM numerico. Per utilizzare i namespace di identità è necessario comprendere i vari servizi Adobe Experience Platform coinvolti. Prima di iniziare a utilizzare i namespace, controlla la documentazione relativa ai seguenti servizi:
 
-Ulteriori informazioni **Namespace Identity** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target=&quot;_blank&quot;}.
+Ulteriori informazioni **Namespace Identity** in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
 
 ## Grafico di identità{#id-graph}
 

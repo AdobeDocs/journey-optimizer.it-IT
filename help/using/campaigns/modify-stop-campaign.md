@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 2%
+source-wordcount: '456'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzio
 
 ## Accedere alle campagne {#access}
 
-Le campagne sono accessibili dal **[!UICONTROL Campagne]** menu.
+Le campagne sono accessibili dal **[!UICONTROL Campaigns]** menu.
 
-Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati.
+Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]** e **[!UICONTROL Live]** stati.
 
 Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
 
@@ -35,29 +35,29 @@ Per visualizzare le campagne interrotte, completate e archiviate, devi cancellar
 
 Le campagne possono avere più stati:
 
-* **[!UICONTROL Bozza]**: La campagna è in corso di modifica e non è stata attivata.
-* **[!UICONTROL Attivazione]**: È in corso l’attivazione della campagna.
+* **[!UICONTROL Draft]**: La campagna è in corso di modifica e non è stata attivata.
+* **[!UICONTROL Activating]**: È in corso l’attivazione della campagna.
 * **[!UICONTROL Live]**: La campagna è stata attivata.
-* **[!UICONTROL Pianificato]**: La campagna è configurata per essere attivata in una data di inizio specifica.
-* **[!UICONTROL Arrestato]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completato]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
-* **[!UICONTROL Archiviato]**: La campagna è stata archiviata. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
+* **[!UICONTROL Scheduled]**: La campagna è configurata per essere attivata in una data di inizio specifica.
+* **[!UICONTROL Stopped]**: La campagna è stata arrestata manualmente. Non è più possibile attivarlo o riutilizzarlo. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)
+* **[!UICONTROL Completed]**: La campagna è completa. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna oppure alla data di fine della campagna, se presenta un’esecuzione ricorrente.
+* **[!UICONTROL Archived]**: La campagna è stata archiviata. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Maggiori informazioni](modify-stop-campaign.md#modify).
+>Icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** lo stato indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
 
 ## Modificare una campagna ricorrente {#modify}
 
 Per modificare e creare una nuova versione di una campagna ricorrente, effettua le seguenti operazioni:
 
-1. Apri la campagna e fai clic su **[!UICONTROL Modifica campagna]** pulsante .
+1. Apri la campagna e fai clic su **[!UICONTROL Modify campaign]** pulsante .
 
 1. Viene creata una nuova versione della campagna. Per controllare la versione attiva, fai clic su **[!UICONTROL Open live version]**.
 
    ![](assets/create-campaign-draft.png)
 
-   Nell’elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un’icona specifica nel **[!UICONTROL Stato]** colonna. Fai clic su questa icona per aprire la versione bozza della campagna.
+   Nell’elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un’icona specifica nel **[!UICONTROL Status]** colonna. Fai clic su questa icona per aprire la versione bozza della campagna.
 
    ![](assets/create-campaign-edit-list.png)
 
@@ -69,7 +69,7 @@ Per modificare e creare una nuova versione di una campagna ricorrente, effettua 
 
 ## Interrompere una campagna ricorrente {#stop}
 
-Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UICONTROL Interrompi campagna]** pulsante .
+Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UICONTROL Stop campaign]** pulsante .
 
 ![](assets/create-campaign-stop.png)
 
@@ -81,7 +81,7 @@ Per interrompere una campagna ricorrente, aprilo e fai clic sul pulsante **[!UIC
 
 ## Duplicare una campagna {#duplicate}
 
-Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplica]**.
+Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplicate]**.
 
 ![](assets/create-campaign-duplicate.png)
 
@@ -89,7 +89,7 @@ Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la 
 
 Con il tempo, l&#39;elenco delle campagne continua a crescere e alla fine rende più difficile sfogliare le campagne completate e interrotte.
 
-Per evitare questo problema, puoi archiviare le campagne completate e interrotte di cui non hai più bisogno. A questo scopo, fai clic sul pulsante dell&#39;ellisse e seleziona **[!UICONTROL Archivia]**.
+Per evitare questo problema, puoi archiviare le campagne completate e interrotte di cui non hai più bisogno. A questo scopo, fai clic sul pulsante dell&#39;ellisse e seleziona **[!UICONTROL Archive]**.
 
 ![](assets/create-campaign-archive.png)
 

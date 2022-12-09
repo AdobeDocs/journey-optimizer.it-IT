@@ -1,5 +1,5 @@
 ---
-title: Introduzione alla consegna delle offerte tramite API
+title: Guida introduttiva alle API di consegna delle offerte
 description: Ulteriori informazioni sulle API disponibili per distribuire offerte personalizzate.
 feature: Offers
 topic: Integrations
@@ -9,24 +9,24 @@ exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# Introduzione alla consegna delle offerte tramite API {#about-decisioning-apis}
+# Guida introduttiva alle API di consegna delle offerte {#about-decisioning-apis}
 
-Puoi fornire offerte utilizzando **Decisioni** o **Edge Decisioning** API. Inoltre, la **Decisioni in batch** L’API ti consente di offrire a tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
+Puoi fornire offerte utilizzando **Decisioni** o **Edge Decisioning** API. Inoltre, la **Decisioni in batch** L’API ti consente di offrire a tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati di Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
 
 In questa pagina trovi informazioni su funzionalità specifiche disponibili con la **Decisioni** e **Edge Decisioning** API. Sebbene entrambi consentano di fornire offerte ai clienti, si consiglia di utilizzare **Edge Decisioning** API ogni volta che è possibile per i casi di utilizzo in entrata e per garantire una maggiore latenza e velocità effettiva sulla piattaforma.
 
 |  | Richieste/sec | Latenza |
 |---|---|---|
-| API Decisioning | 2000 | &lt;500 ms |
-| API Edge Decisioning | 5000 | &lt;250 ms |
+| Decisioning API | 2000 | &lt;500 ms |
+| API di Edge Decisioning | 5000 | &lt;250 ms |
 
 Per ulteriori informazioni su come utilizzare le API, consulta queste sezioni:
-* [API Decisioning](decisioning-api.md)
-* [API Edge Decisioning](edge-decisioning-api.md)
+* [Decisioning API](decisioning-api.md)
+* [API di Edge Decisioning](edge-decisioning-api.md)
 * [API Batch Decisioning](batch-decisioning-api.md)
 
 ## Funzionalità API di Edge Decisioning {#edge}

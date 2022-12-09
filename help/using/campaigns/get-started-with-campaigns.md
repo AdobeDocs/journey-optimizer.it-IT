@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione alle campagne
+title: Guida introduttiva alle campagne
 description: Ulteriori informazioni sulle campagne in [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
@@ -10,19 +10,19 @@ level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 12%
+source-wordcount: '385'
+ht-degree: 0%
 
 ---
 
-# Introduzione alle campagne {#get-started-campaigns}
+# Guida introduttiva alle campagne {#get-started-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagne"
->abstract="Crea campagne per distribuire contenuti una tantum a un segmento specifico su vari canali. Prima di creare la campagna, accertati di avere una superficie del canale (ad es. un messaggio preimpostato) e un segmento Adobe Experience Platform pronto per l’uso."
+>abstract="Crea campagne per distribuire contenuti una tantum a un segmento specifico su vari canali. Prima di creare la campagna, accertati di disporre di una superficie del canale (ad es. un messaggio preimpostato) e di un segmento Adobe Experience Platform pronto per l’uso."
 
-Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
+Utilizza le campagne di Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando utilizzi i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
 Puoi creare due tipi di campagne:
 
@@ -37,30 +37,30 @@ I passaggi principali per creare una campagna sono i seguenti:
 
 ## Prima di iniziare {#campaign-prerequisites}
 
-Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i seguenti prerequisiti:
+Verifica i seguenti prerequisiti prima di iniziare a creare la tua prima campagna in Journey Optimizer:
 
-1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a una campagna correlata **[!UICONTROL Profilo di prodotto]** come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign.
+1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a una campagna correlata **[!UICONTROL Product profile]** come l’amministratore di Campaign, l’approvatore di Campaign, il manager di Campaign e/o il visualizzatore di Campaign.
 
-   Se non riesci ad accedere alle campagne, devi estendere le tue autorizzazioni. Se hai accesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} per la tua organizzazione, segui i passaggi seguenti. In caso contrario, contattare l&#39;amministratore Journey Optimizer.
+   Se non riesci ad accedere alle campagne, devi estendere le tue autorizzazioni. Se hai accesso a [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} per la tua organizzazione, segui i passaggi seguenti. In caso contrario, contatta l’amministratore di Journey Optimizer.
 
    +++Scopri come assegnare le autorizzazioni della campagna
 
-   Per assegnare il corrispondente **[!UICONTROL Profilo di prodotto]** agli utenti:
+   Per assegnare il corrispondente **[!UICONTROL Product profile]** agli utenti:
 
    1. Da [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}, seleziona il [!DNL Adobe Experience Platform] prodotto.
 
-   1. Sfoglia il **[!UICONTROL Profilo di prodotto]** , seleziona una delle campagne integrate correlate **[!UICONTROL Profilo di prodotto]**: Amministratore di Campaign, approvatore di Campaign, manager di Campaign o visualizzatore di Campaign.
+   1. Sfoglia il **[!UICONTROL Product profile]** , seleziona una delle campagne integrate correlate **[!UICONTROL Product profile]**: Amministratore di Campaign, approvatore di Campaign, manager di Campaign o visualizzatore di Campaign.
 
-      Per ulteriori informazioni sulla campagna Journey Optimizer **[!UICONTROL Profili di prodotto]** e **[!UICONTROL Autorizzazioni]**, [fai riferimento a questa pagina](../administration/ootb-product-profiles.md).
+      Per ulteriori informazioni sulla campagna di Journey Optimizer **[!UICONTROL Product profiles]** e **[!UICONTROL Permissions]**, [fai riferimento a questa pagina](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. Fai clic su **[!UICONTROL Aggiungi utente]** per assegnare all&#39;utente il **[!UICONTROL Profilo di prodotto]**.
+   1. Fai clic su **[!UICONTROL Add user]** per assegnare all&#39;utente il **[!UICONTROL Product profile]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
-   1. Digita il nome utente, il gruppo o l’indirizzo e-mail e fai clic su **[!UICONTROL Salva]**.
-   L&#39;utente è ora in grado di accedere a **[!UICONTROL Campagne]**.
+   1. Digita il nome utente, il gruppo o l’indirizzo e-mail e fai clic su **[!UICONTROL Save]**.
+   L&#39;utente è ora in grado di accedere a **[!UICONTROL Campaigns]**.
 
 +++
 

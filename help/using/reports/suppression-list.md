@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Elenco di soppressione
+title: Elenco di eliminazione
 description: Scopri come utilizzare l’elenco di soppressione è
 feature: Deliverability
 topic: Content Management
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 3%
+source-wordcount: '759'
+ht-degree: 0%
 
 ---
 
-# Elenco di soppressione {#suppression-list}
+# Elenco di eliminazione {#suppression-list}
 
 Un elenco di soppressione è costituito da indirizzi e domini che desideri escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione e i tassi di consegna dell’invio.
 
@@ -25,7 +25,7 @@ Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico amb
 
 >[!NOTE]
 >
->In Adobe viene conservato un elenco aggiornato degli indirizzi danneggiati noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Questo elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti di consegna è indicato solo il numero di destinatari esclusi.
+>Adobe conserva un elenco aggiornato di indirizzi danneggiati noti che si sono dimostrati dannosi per l’impegno e la reputazione dell’e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Questo elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti di consegna è indicato solo il numero di destinatari esclusi.
 
 ## Perché una lista di soppressione? {#why-suppression-list}
 
@@ -33,7 +33,7 @@ Per controllare i messaggi e-mail ricevuti dai rispettivi proprietari e assicura
 
 Se non prendi il loro feedback (come reclami di spam, rimbalzi, ecc.) in considerazione, valuteranno la tua reputazione in basso. L&#39;elenco di soppressione ti aiuta a rispettare il feedback degli ISP.
 
-I destinatari i cui indirizzi e-mail sono soppressi vengono automaticamente esclusi dalla consegna dei messaggi. In questo modo le consegne sono più rapide, poiché il tasso di errore ha un effetto significativo sulla velocità di consegna.
+I destinatari i cui indirizzi e-mail sono soppressi vengono automaticamente esclusi dalla consegna dei messaggi. Questo velocizzerà le consegne, in quanto il tasso di errore ha un effetto significativo sulla velocità di consegna.
 
 ## Cosa c&#39;è nella lista di soppressione? {#what-s-on-suppression-list}
 
@@ -55,9 +55,9 @@ Per ogni indirizzo, il motivo di base della soppressione e la categoria di soppr
 
 >[!NOTE]
 >
->I profili con **[!UICONTROL Soppresso]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Inviato]** le metriche vengono filtrate prima dell’invio dell’e-mail.
+>I profili con **[!UICONTROL Suppressed]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sul percorso** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Sent]** le metriche vengono filtrate prima dell’invio dell’e-mail.
 >
->Per saperne di più sul [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Per saperne di più sul [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
 
 ### Errori di consegna {#delivery-failures}
 
@@ -72,7 +72,7 @@ A **rimbalzo morbido** <!--or an **ignored** error--> che si verifica troppe vol
 
 Se continui a inviare a questi indirizzi, potrebbe influenzare i tassi di consegna, perché comunica agli ISP che potresti non seguire le best practice di manutenzione dell’elenco indirizzi e-mail e quindi potrebbe non essere un mittente affidabile.
 
-### Segnalazioni di spam {#spam-complaints}
+### Disturbi dello spam {#spam-complaints}
 
 L’elenco di soppressione raccoglie gli indirizzi e-mail che contrassegnano il messaggio come spam. Ad esempio, se qualcuno scrive a un servizio clienti richiedendo di non ricevere mai più e-mail da te, l’indirizzo e-mail di tale persona verrà soppresso nell’istanza e non potrai più recapitare a tale indirizzo.
 

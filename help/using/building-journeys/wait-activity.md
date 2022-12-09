@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -34,9 +34,9 @@ Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso,
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-La durata massima di attesa è di 30 giorni. In modalità di prova, il **[!UICONTROL Tempo di attesa nel test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+La durata massima di attesa è di 30 giorni. In modalità di prova, il **[!UICONTROL Wait time in test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Vedi [questa pagina](../building-journeys/testing-the-journey.md)
 
-Presta attenzione quando utilizzi più attività Attendi in un percorso, in quanto il timeout del percorso globale è di 30 giorni, il che significa che un profilo abbandonerà sempre il percorso al massimo 30 giorni dopo l’inserimento.
+Presta attenzione quando utilizzi più attività Wait in un percorso , poiché il timeout del percorso globale è di 30 giorni, il che significa che un profilo abbandonerà sempre il percorso fino a un massimo di 30 giorni dopo il suo ingresso.
 
 ## Durata attesa{#duration}
 
@@ -61,7 +61,7 @@ Questa opzione ti consente di definire una data personalizzata, ad esempio 12 lu
 >
 >È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento è del modulo 2016-08-12T09:46:06Z
 >
->La **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di mixaggio e fuso orario ISO-8601 come 2016-08-12T09:46:06,982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>La **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di mixaggio e fuso orario ISO-8601 come 2016-08-12T09:46:06,982-05. Vedi [questa pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

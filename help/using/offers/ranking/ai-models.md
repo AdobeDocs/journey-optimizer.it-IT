@@ -10,7 +10,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Questa funzione consente di creare **Modelli AI** in base agli obiettivi azienda
 
 Ad esempio, puoi selezionare un modello AI per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrati sfrutterà più punti di dati per determinare quale offerta deve essere presentata prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di un [formula di classificazione](create-ranking-formulas.md).
 
-## Tipi di modelli basati su IA {#ai-model-types}
+## Tipi di modelli AI {#ai-model-types}
 
 Sono disponibili due tipi di modelli AI in [!DNL Journey Optimizer]:
 

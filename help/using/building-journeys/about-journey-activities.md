@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guida introduttiva alle attività di percorso
-description: Guida introduttiva alle attività di percorso
+title: Guida introduttiva alle attività del percorso
+description: Guida introduttiva alle attività del percorso
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,18 +10,18 @@ level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 14%
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
-# Guida introduttiva alle attività di percorso {#about-journey-activities}
+# Guida introduttiva alle attività del percorso {#about-journey-activities}
 
-Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
+Combina le diverse attività di evento, orchestrazione e azione per creare scenari multicanale con più passaggi.
 
 ## Attività eventi {#event-activities}
 
-Gli eventi attivano un percorso personalizzato, ad esempio un acquisto online. Una volta che qualcuno entra in un percorso, si muove come un individuo, e non due individui si muovono allo stesso ritmo o lungo lo stesso percorso. Quando avvii il percorso con un evento, il percorso viene attivato quando l’evento viene ricevuto. Ogni persona nel percorso segue, singolarmente, i passaggi successivi definiti nel percorso.
+Gli eventi attivano un percorso personalizzato, ad esempio un acquisto online. Una volta che qualcuno entra in un viaggio, si muove come un individuo, e non due individui si muovono allo stesso ritmo o lungo lo stesso percorso. Quando avvii il percorso con un evento, il percorso viene attivato quando l’evento viene ricevuto. Ogni persona nel percorso segue, singolarmente, i passaggi successivi definiti nel percorso.
 
 Eventi configurati dall’utente tecnico (consulta [questa pagina](../event/about-events.md)) sono visualizzate nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività eventi:
 
@@ -42,20 +42,20 @@ Le attività di orchestrazione sono condizioni diverse che consentono di determi
 Nella palette a sinistra dello schermo sono disponibili le seguenti attività di orchestrazione:
 
 * [Condizione](../building-journeys/condition-activity.md)
-* [Attendi](../building-journeys/wait-activity.md)
+* [Wait](../building-journeys/wait-activity.md)
 * [Leggi segmento](../building-journeys/read-segment.md)
 
 ![](assets/journey49.png)
 
-## Attività di azione {#action-activities}
+## Attività azione {#action-activities}
 
-Le azioni sono ciò che desideri che accada in seguito a un certo tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta.
+Le azioni sono ciò che desideri che accada in seguito a un certo tipo di trigger, ad esempio l’invio di un messaggio. È il percorso che il cliente sperimenta.
 
-Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la **[!UICONTROL Azioni]** categoria. Sono disponibili le seguenti attività di azione:
+Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Events]** e **[!UICONTROL Orchestration]**, puoi trovare la **[!UICONTROL Actions]** categoria. Sono disponibili le seguenti attività di azione:
 
-* [Messaggi e-mail, SMS e push](../building-journeys/journeys-message.md)
+* [E-mail, SMS, push](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
-* [Salta](../building-journeys/jump.md)
+* [Salto](../building-journeys/jump.md)
 
 ![](assets/journey58.png)
 
@@ -65,10 +65,10 @@ Se hai configurato azioni personalizzate, queste vengono visualizzate anche qui.
 
 ## Best practice {#best-practices}
 
-La maggior parte delle attività ti consente di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Descrizione]**.
+La maggior parte delle attività ti consente di definire un **[!UICONTROL Label]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Description]**.
 
 ![](assets/journey59bis.png)
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 source-git-commit: 9b7898d0fe008a0e7ef711b1303230c6f901b712
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="Eventi di reazione"
->abstract="Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform."
+>abstract="Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato all’interno dello stesso percorso. Queste informazioni vengono acquisite in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform."
 
-Tra le diverse attività dell’evento disponibili nella palette, troverai la **[!UICONTROL Reazioni]** evento. Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform.
+Tra le diverse attività dell’evento disponibili nella palette, troverai la **[!UICONTROL Reactions]** evento. Questa attività ti consente di reagire ai dati di tracciamento relativi a un messaggio inviato all’interno dello stesso percorso. Queste informazioni vengono acquisite in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform.
 
 Puoi reagire ai messaggi selezionati o aperti.
 
@@ -36,10 +36,10 @@ Vedi [Informazioni sulle attività azione](../building-journeys/about-journey-ac
 
 Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazione:
 
-1. Aggiungi un **[!UICONTROL Etichetta]** alla reazione. Questo passaggio è facoltativo.
+1. Aggiungi un **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata, scegli a cosa reagire.
-1. Puoi definire un timeout evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per gli individui che non hanno reagito entro la durata definita. Quando si esegue il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Tempo di attesa]** il valore predefinito e minimo è 40 secondi. Vedi [questa sezione](../building-journeys/testing-the-journey.md).
+1. Puoi definire un timeout evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per gli individui che non hanno reagito entro la durata definita. Quando sottoponete a test un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Wait time]** il valore predefinito e minimo è 40 secondi. Vedi [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

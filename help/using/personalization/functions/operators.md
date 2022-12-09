@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
 source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 11%
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori diversi e restituiscono true o false di conseguenza.
 
-### È uguale a{#equals}
+### Uguale{#equals}
 
 La `=` (equals) controlla se un valore o un&#39;espressione è uguale a un altro valore o espressione.
 

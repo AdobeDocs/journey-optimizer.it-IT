@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 7%
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visualizzi le impostazioni nel pannello laterale, puoi personalizzare gli attributi in linea e il relativo valore per quell’elemento specifico.
 
 1. Seleziona un elemento nel contenuto.
-1. Nel pannello laterale, cerca il **[!UICONTROL Stili in linea]** impostazioni.
+1. Nel pannello laterale, cerca il **[!UICONTROL Styles Inline]** impostazioni.
 
    ![](assets/styles_1.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Guida introduttiva alle funzioni Helper
-description: Libreria funzioni Journey Optimizer Helper
+description: Libreria funzioni helper di Journey Optimizer
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 3%
+source-wordcount: '1744'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 
 <table>
     <tr>
-        <td><a href="aggregation.md#average">Medio</a></td><td>Questa funzione restituisce la media aritmetica di tutti i valori selezionati all'interno della matrice</td>
+        <td><a href="aggregation.md#average">Media</a></td><td>Questa funzione restituisce la media aritmetica di tutti i valori selezionati all'interno della matrice</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count">Conteggio</a></td><td>Questa funzione restituisce il numero di elementi all'interno della matrice specificata</td>
@@ -73,7 +73,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="arrays-list.md#last-n">Ultimo n nella matrice</a></td><td>Questa funzione restituisce gli ultimi elementi `N` in un array, se ordinati in ordine crescente in base all'espressione numerica specificata</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#max">Massimo</a></td><td>Questa funzione restituisce il più grande di tutti i valori selezionati all'interno di una matrice</td>
+        <td><a href="aggregation.md#max">Massimo</a></td><td>Questa funzione restituisce il valore più alto tra tutti i valori selezionati all'interno di una matrice</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#min">Minimo</a></td><td>Questa funzione restituisce il valore più piccolo tra tutti i valori selezionati all'interno della matrice</td>
@@ -132,7 +132,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Ottenere</a></td><td>Questa funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave</td>
+        <td><a href="maps.md#get">Get</a></td><td>Questa funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Chiavi</a></td><td>Questa funzione viene utilizzata per recuperare tutte le chiavi di una determinata mappa</td>
@@ -149,7 +149,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="objects.md#absolute">Assoluto</a></td><td>Questa funzione converte un numero che è valore assoluto</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1</td>
+        <td><a href="objects.md#random">Casuale</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1</td>
     </tr>
     <tr>
         <td><a href="objects.md#round-down">Round down</a></td><td>Questa funzione consente di arrotondare un numero</td>
@@ -186,7 +186,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#concat">Concat</a></td><td>Questa funzione viene utilizzata per combinare due stringhe in una</td>
     </tr>
     <tr>
-        <td><a href="string.md#contains">Contains</a></td><td>Questa funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata</td>
+        <td><a href="string.md#contains">Contiene</a></td><td>Questa funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">Non contiene</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non contiene una sottostringa specificata</td>
@@ -205,7 +205,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">È uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, con distinzione tra maiuscole e minuscole</td>
+        <td><a href="string.md#equals">Uguale</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, con distinzione tra maiuscole e minuscole</td>
     </tr>
     <tr>
         <td><a href="string.md#equalsIgnoreCase">Uguale a Ignore Case</a></td><td>Questa funzione consente di determinare se una stringa non inizia con una sottostringa specificata, senza distinzione tra maiuscole e minuscole</td>
@@ -238,7 +238,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#leftTrim">Taglio a sinistra</a></td><td>Questa funzione rimuove gli spazi bianchi dall'inizio di una stringa</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Lunghezza</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o un'espressione</td>
+        <td><a href="string.md#length">Length</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o un'espressione</td>
     </tr>
     <tr>
         <td><a href="string.md#like">Simile</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
@@ -274,7 +274,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#rightTrim">Taglio a destra</a></td><td>Questa funzione rimuove gli spazi bianchi dalla fine di una stringa </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Dividere</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un carattere specificato</td>
+        <td><a href="string.md#split">Divisione</a></td><td>Questa funzione viene utilizzata per dividere una stringa in base a un carattere specificato</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Inizia con</a></td><td>Questa funzione viene utilizzata per determinare se una stringa inizia con una sottostringa specificata</td>
@@ -304,7 +304,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#to-date-time-only">Solo per data</a></td><td>Questa funzione converte un valore di argomento in un valore solo di data e ora. Restituisce la data epoch come output per input non valido.</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Trim (Taglia)</a></td><td>Questa funzione rimuove gli spazi bianchi dall'inizio e dalla fine di una stringa</td>
+        <td><a href="string.md#trim">Rifila</a></td><td>Questa funzione rimuove gli spazi bianchi dall'inizio e dalla fine di una stringa</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Custodia superiore</a></td><td>Questa funzione converte una stringa in lettere maiuscole</td>
@@ -318,7 +318,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 </table>
 
 
-## Assistenza{#helper-helper}
+## Helper{#helper-helper}
 
 Gli aiutanti sono descritti in [questa pagina](helpers.md).
 
@@ -389,7 +389,7 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">È uguale a</a></td><td>Questa operazione controlla se i valori sono uguali</td>
+        <td><a href="operators.md#equals">Uguale</a></td><td>Questa operazione controlla se i valori sono uguali</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Maggiore di</a></td><td>Questo operatore controlla se il primo valore è maggiore del secondo valore</td>
@@ -407,6 +407,6 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 ## Video introduttivo{#video}
 
-Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
+Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di supporto della personalizzazione e comprendere diversi casi d’uso per le funzioni di supporto.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

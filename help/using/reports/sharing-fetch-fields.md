@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campi di recupero dati di eventi journeyStep
-description: Campi di recupero dati di eventi journeyStep
+title: Campi di recupero dati di journeyStep
+description: Campi di recupero dati di journeyStep
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 7%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
-# Campi di recupero dati di eventi journeyStep {#sharing-fetch-fields}
+# Campi di recupero dati di journeyStep {#sharing-fetch-fields}
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
@@ -29,9 +29,9 @@ Tipo: long
 
 ## fetchTypeInError {#fetchtypeinerror-field}
 
-Definisce se il recupero in errore si trova su Adobe Experience Platform o su un’origine dati personalizzata.
+Definisce se l’errore di recupero è in Adobe Experience Platform o su un’origine dati personalizzata.
 
-Tipo: stringa
+Tipo: string
 
 Valori:
 * aep
@@ -41,19 +41,19 @@ Valori:
 
 Tipo di errore che si verifica quando il recupero dei dati viene elaborato.
 
-Tipo: stringa
+Tipo: string
 
 Valori:
 * http
 * tappatura
 * timeout
-* error
+* errore
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
 Errore di recupero del codice. Presente se l&#39;errore ha un codice, ad esempio uno HTTP. Ad esempio, se actionExecError è http, il codice 404 rappresenta l&#39;errore HTTP 404.
 
-Tipo: stringa
+Tipo: string
 
 ## fetchOriginError {#fetchoriginerror-field}
 
@@ -73,13 +73,13 @@ Ad esempio, i dati vengono recuperati da Unified Profile Service e viene restitu
     "fetchOrigErrorCode": "500"
 ```
 
-Tipo: stringa
+Tipo: string
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 Codice di errore fornito dal sistema [!DNL Journey Optimizer] sta eseguendo una query. Ad esempio può essere un 404, 500, ecc.
 
-Tipo: stringa
+Tipo: string
 
 ## fetchCount {#fetchcount-field}
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 2b487e60-593e-4bf7-9639-f469ba0f5cdc
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 0%
 
 ---
 
@@ -29,10 +29,10 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora in formato ISO-8601 | stringa |
-| id fuso orario | stringa |
+| ora in formato ISO-8601 | string |
+| id fuso orario | string |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un&#39;epoch in millisecondi | numero intero |
+| valore intero di un&#39;epoch in millisecondi | integer |
 
 >[!NOTE]
 >

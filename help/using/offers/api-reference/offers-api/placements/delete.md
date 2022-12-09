@@ -8,14 +8,14 @@ level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
 # Eliminare un posizionamento {#delete-placement}
 
-A volte può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID istanza del posizionamento da eliminare.
+A volte può essere necessario rimuovere (ELIMINA) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID istanza del posizionamento da eliminare.
 
 **Formato API**
 

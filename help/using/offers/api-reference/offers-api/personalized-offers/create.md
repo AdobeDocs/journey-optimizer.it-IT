@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Puoi creare un’offerta personalizzata effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Puoi creare un’offerta personalizzata effettuando una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
@@ -25,7 +25,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato API**
@@ -102,6 +102,6 @@ Una risposta corretta restituisce informazioni sull’offerta personalizzata app
 }
 ```
 
-## Limitazioni  {#limitations}
+## Limitazioni {#limitations}
 
 Le rappresentazioni delle offerte e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. La `Capping` il valore campo specifica il numero di volte in cui un’offerta può essere presentata in tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione sulle regole di idoneità e sui vincoli delle offerte](../../../offer-library/creating-personalized-offers.md).

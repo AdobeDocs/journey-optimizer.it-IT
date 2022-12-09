@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 16%
+ht-degree: 0%
 
 ---
 
@@ -28,30 +28,30 @@ I campi evento del passaggio sono organizzati per categoria.
 
 | Nome campo | Tipo | Descrizione |
 |---|---|------------|
-| requestId | Stringa | L&#39;ID della richiesta utilizzato da Journey Optimizer per tenere traccia del flusso di una richiesta. |
+| requestId | Stringa | L’ID della richiesta utilizzato da Journey Optimizer per monitorare il flusso di una richiesta. |
 
-## percorso {#journey-field}
+## viaggio {#journey-field}
 
-Questo gruppo di campi viene utilizzato nello schema di percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
+Questo gruppo di campi viene utilizzato nello schema del percorso (in relazione a journeyStepEvent). Contiene i campi seguenti:
 
 | Nome campo | Tipo | Descrizione |
 |---|---|------------|
-| ID | Stringa | Identificatore per il Percorso specificato |
-| VersionID | Stringa | ID della versione del percorso. Questo ID rappresenta l&#39;identità di un percorso |
+| ID | Stringa | Identificatore per il percorso specificato |
+| VersionID | Stringa | ID della versione del percorso. Questo ID rappresenta l’identità di un percorso |
 | name | Stringa | Nome del percorso |
 | descrizione | Stringa | Descrizione del percorso |
 | version | Stringa | versione, rappresentata come `major`.`minor` |
 
 ## profilo {#profile-field}
 
-Questo gruppo di campi è specifico per journeyStepEvent: questo evento è in relazione al percorso e non dispone di identityMap che descrive l’eventuale identità del profilo.
+Questo gruppo di campi è specifico per journeyStepEvent: questo evento è in relazione al percorso e non ha identityMap che descrive l’eventuale identità del profilo.
 
 Per journeyStepEvent, è inoltre necessario aggiungere campi relativi all’identità:
 
 | Nome campo | Tipo | Descrizione |
 |---|---|------------|
 | ID | Stringa | L’identificatore del profilo identifica il profilo inviato/utilizzato in un percorso. Ad esempio: foo@adobe.com. |
-| namespace | Stringa | Questo campo descrive lo spazio dei nomi a cui fa riferimento il profilo utilizzato nel Percorso. Ad esempio: E-mail, ECID |
+| namespace | Stringa | Questo campo descrive lo spazio dei nomi a cui fa riferimento il profilo utilizzato nel percorso. Ad esempio: E-mail, ECID |
 
 ## serviceEvents {#servicevents-field}
 

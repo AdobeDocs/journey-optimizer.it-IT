@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 9%
+source-wordcount: '157'
+ht-degree: 0%
 
 ---
 
 # Aggiornare una decisione {#update-decision}
 
-Puoi modificare o aggiornare una decisione nel contenitore effettuando una richiesta di PATCH al [!DNL Offer Library] API.
+Puoi modificare o aggiornare una decisione nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
 
 Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta il [Documentazione sulle patch JSON](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
 
 **Formato API**

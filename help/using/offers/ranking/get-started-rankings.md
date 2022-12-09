@@ -1,5 +1,5 @@
 ---
-title: Introduzione alle classificazioni
+title: Guida introduttiva alle classificazioni
 description: Scopri come utilizzare i ranking
 topic: Integrations
 role: User
@@ -8,11 +8,11 @@ exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
 source-git-commit: 17d37da6e6325d36df0f63122fa37f416e3f2c4c
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
-# Introduzione alle classificazioni {#create-fallback-offers}
+# Guida introduttiva alle classificazioni {#create-fallback-offers}
 
 [!DNL Journey Optimizer] consente di utilizzare le classificazioni per classificare le offerte per visualizzare un determinato profilo:
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 1%
+source-wordcount: '1232'
+ht-degree: 0%
 
 ---
 
@@ -37,11 +37,11 @@ Tali indirizzi e-mail vengono raccolti automaticamente in Journey Optimizer **el
 
 ## Accedere all&#39;elenco di soppressione {#access-suppression-list}
 
-Per accedere all’elenco dettagliato degli indirizzi e-mail esclusi, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, quindi seleziona **[!UICONTROL Elenco di eliminazione]**.
+Per accedere all’elenco dettagliato degli indirizzi e-mail esclusi, vai a **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, quindi seleziona **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
 >
->Le autorizzazioni per visualizzare, esportare e gestire l’elenco di soppressione sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
+>Le autorizzazioni per visualizzare, esportare e gestire l’elenco di soppressione sono limitate a [Amministratori del percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
 
 ![](assets/suppression-list-access.png)
 
@@ -49,15 +49,15 @@ Sono disponibili filtri che consentono di sfogliare l’elenco.
 
 ![](assets/suppression-list-filters.png)
 
-Puoi filtrare il **[!UICONTROL Categoria di soppressione]**, **[!UICONTROL Tipo di indirizzo]** oppure **[!UICONTROL Motivo]**. Seleziona le opzioni desiderate per ciascun criterio. Una volta selezionato, puoi cancellare ogni filtro o tutti i filtri visualizzati in cima all’elenco.
+Puoi filtrare il **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]** oppure **[!UICONTROL Reason]**. Seleziona le opzioni desiderate per ciascun criterio. Una volta selezionato, puoi cancellare ogni filtro o tutti i filtri visualizzati in cima all’elenco.
 
 ![](assets/suppression-list-filtering-example.png)
 
-Se aggiungi manualmente un indirizzo e-mail o un dominio per errore, la **[!UICONTROL Elimina]** consente di rimuovere tale voce.
+Se aggiungi manualmente un indirizzo e-mail o un dominio per errore, la **[!UICONTROL Delete]** consente di rimuovere tale voce.
 
 >[!CAUTION]
 >
->Non utilizzare mai il **[!UICONTROL Elimina]** per rimuovere gli indirizzi e-mail o i domini soppressi.
+>Non utilizzare mai il **[!UICONTROL Delete]** per rimuovere gli indirizzi e-mail o i domini soppressi.
 
 ![](assets/suppression-list-delete.png)
 
@@ -67,7 +67,7 @@ Se elimini un indirizzo e-mail o un dominio dall&#39;elenco di soppressione sign
 >
 >Procedi con molta attenzione quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbio, contatta un esperto di recapito.
 
-Da **[!UICONTROL Elenco di eliminazione]** puoi anche modificare le regole di soppressione. [Ulteriori informazioni](retries.md)
+Da **[!UICONTROL Suppression list]** puoi anche modificare le regole di soppressione. [Ulteriori informazioni](retries.md)
 
 ## Scaricare l&#39;elenco di soppressione {#download-suppression-list}
 
@@ -80,7 +80,7 @@ Da **[!UICONTROL Elenco di eliminazione]** puoi anche modificare le regole di so
 
 Per esportare l’elenco di soppressione come file CSV, segui la procedura seguente.
 
-1. Seleziona la **[!UICONTROL Scarica CSV]** pulsante .
+1. Seleziona la **[!UICONTROL Download CSV]** pulsante .
 
    ![](assets/suppression-list-download-csv.png)
 
@@ -112,7 +112,7 @@ Per esportare l’elenco di soppressione come file CSV, segui la procedura segue
 
 ## Categorie e motivi di soppressione {#suppression-categories-and-reasons}
 
-Quando un messaggio non viene recapitato a un indirizzo e-mail, [!DNL Journey Optimizer] determina il motivo per cui la consegna non è riuscita e la associa a un **[!UICONTROL Categoria di soppressione]**.
+Quando un messaggio non viene recapitato a un indirizzo e-mail, [!DNL Journey Optimizer] determina il motivo per cui la consegna non è riuscita e la associa a un **[!UICONTROL Suppression category]**.
 
 Le categorie di soppressione sono le seguenti:
 
@@ -130,7 +130,7 @@ Le categorie di soppressione sono le seguenti:
 >
 >Ulteriori informazioni sui rimbalzi morbidi e i rimbalzi duri nel [Tipi di errori di consegna](../reports/suppression-list.md#delivery-failures) sezione .
 
-Per ogni indirizzo e-mail elencato, puoi anche controllare il **[!UICONTROL Tipo]** (e-mail o dominio), **[!UICONTROL Motivo]** per escluderlo, chi l’ha aggiunto e la data/ora in cui è stato aggiunto all’elenco di soppressione.
+Per ogni indirizzo e-mail elencato, puoi anche controllare il **[!UICONTROL Type]** (e-mail o dominio), **[!UICONTROL Reason]** per escluderlo, chi l’ha aggiunto e la data/ora in cui è stato aggiunto all’elenco di soppressione.
 
 ![](assets/suppression-list.png)
 
@@ -138,13 +138,13 @@ I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria di soppressione |
 | --- | --- | --- |
-| **[!UICONTROL Destinatario non valido]** | Il destinatario non è valido o non esiste. | Duro |
-| **[!UICONTROL Rimbalzo morbido]** | Il messaggio è stato rimbalzato per un motivo diverso dagli errori soft elencati in questa tabella, ad esempio quando si invia la velocità consentita consigliata da un ISP. | Morbido |
-| **[!UICONTROL Errore DNS]** | Messaggio rimbalzato a causa di un errore DNS. | Morbido |
-| **[!UICONTROL Cassetta postale completa]** | Il messaggio è stato rimbalzato perché la casella di posta del destinatario era piena e non poteva accettare altri messaggi. | Morbido |
-| **[!UICONTROL Rimesso negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;invio non è consentito. | Morbido |
-| **[!UICONTROL Sfida-risposta]** | Il messaggio è una sonda di risposta alla sfida. | Morbido |
-| **[!UICONTROL Denuncia di spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Duro |
+| **[!UICONTROL Invalid Recipient]** | Il destinatario non è valido o non esiste. | Duro |
+| **[!UICONTROL Soft Bounce]** | Il messaggio è stato rimbalzato per un motivo diverso dagli errori soft elencati in questa tabella, ad esempio quando si invia la velocità consentita consigliata da un ISP. | Morbido |
+| **[!UICONTROL DNS Failure]** | Messaggio rimbalzato a causa di un errore DNS. | Morbido |
+| **[!UICONTROL Mailbox Full]** | Il messaggio è stato rimbalzato perché la casella di posta del destinatario era piena e non poteva accettare altri messaggi. | Morbido |
+| **[!UICONTROL Relaying Denied]** | Il messaggio è stato bloccato dal destinatario perché l&#39;invio non è consentito. | Morbido |
+| **[!UICONTROL Challenge-Response]** | Il messaggio è una sonda di risposta alla sfida. | Morbido |
+| **[!UICONTROL Spam Complaint]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Duro |
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ I possibili motivi di un errore di consegna sono:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
 >title="Aggiungi e-mail o domini all’elenco di soppressione"
->abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer al fine di escludere specifici indirizzi e-mail e/o domini dall’invio."
+>abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer per escludere dall’invio specifici indirizzi e-mail e/o domini."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
@@ -168,7 +168,7 @@ Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di
 
 Puoi aggiungere indirizzi e-mail o domini [una per volta](#add-one-address-or-domain)oppure [in modalità collettiva](#upload-csv-file) tramite caricamento di file CSV.
 
-A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi seguire uno dei metodi seguenti.
+A questo scopo, seleziona la **[!UICONTROL Add email or domain]** quindi seguire uno dei metodi seguenti.
 
 ![](assets/suppression-list-add-email.png)
 
@@ -179,11 +179,11 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
 >title="Aggiungi un elemento all&#39;elenco di soppressione"
 >abstract="Puoi compilare l’elenco di soppressione aggiungendo indirizzi e/o domini e-mail uno per uno."
 
-1. Seleziona la **[!UICONTROL Uno ad uno]** opzione .
+1. Seleziona la **[!UICONTROL One by one]** opzione .
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Scegli il tipo di indirizzo: **[!UICONTROL Indirizzo e-mail]** o **[!UICONTROL Indirizzo di dominio]**.
+1. Scegli il tipo di indirizzo: **[!UICONTROL Email address]** o **[!UICONTROL Domain address]**.
 
 1. Immetti l’indirizzo e-mail o il dominio da escludere dall’invio.
 
@@ -195,9 +195,9 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Reason]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
 
-1. Fai clic su **[!UICONTROL Invia]**.
+1. Fai clic su **[!UICONTROL Submit]**.
 
 ### Caricare un file CSV {#upload-csv-file}
 
@@ -206,7 +206,7 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
 >title="Carica CSV per aggiungere elementi all&#39;elenco di soppressione"
 >abstract="Puoi compilare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail/domini da escludere."
 
-1. Seleziona la **[!UICONTROL Carica CSV]** opzione .
+1. Seleziona la **[!UICONTROL Upload CSV]** opzione .
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -230,7 +230,7 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
    >
    >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **Commento** colonna. L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
 
-1. Al termine, trascina e rilascia il file CSV, quindi fai clic su **[!UICONTROL Invia]**.
+1. Al termine, trascina e rilascia il file CSV, quindi fai clic su **[!UICONTROL Submit]**.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
@@ -242,7 +242,7 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
 
 Puoi controllare l’elenco dei file CSV più recenti caricati.
 
-Per fare questo, dal **[!UICONTROL Elenco di eliminazione]** visualizzazione, fai clic su **[!UICONTROL Caricamenti recenti]** pulsante .
+Per fare questo, dal **[!UICONTROL Suppression list]** visualizzazione, fai clic su **[!UICONTROL Recent uploads]** pulsante .
 
 ![](assets/suppression-list-recent-uploads-button.png)
 

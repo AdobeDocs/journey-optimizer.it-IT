@@ -8,8 +8,8 @@ level: Experienced
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 16%
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | stringa |
+| ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | string |
 | ora | dateTime |
 
 ## Firme e tipi restituiti
