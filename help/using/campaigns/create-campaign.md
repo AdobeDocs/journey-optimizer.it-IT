@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -138,12 +138,12 @@ Quando la campagna è pronta, puoi rivederla e pubblicarla. [Ulteriori informazi
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="TBC"
+>abstract="Per un messaggio di marketing specificando una data di invio, l’ **Pianificato** Il tipo è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali come reimpostazione della password o abbandono della scheda, l’ **Attivazione dall’API** Il tipo è la scelta migliore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria campagna"
->abstract="TBC"
+>abstract="Il valore della categoria è direttamente collegato al valore del tipo di campagna. Pianifica tipo di campagna per **Marketing** categoria e tipo attivato dall’API per la categoria **Transazionale**"
 
 Sono disponibili due tipi di campagne:
 

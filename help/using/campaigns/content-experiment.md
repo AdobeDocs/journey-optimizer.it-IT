@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Esperimento dei contenuti"
->abstract="TBC"
+>abstract="Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna al fine di definire più trattamenti di consegna e determinare la combinazione migliore per il pubblico."
 
 >[!AVAILABILITY]
 >
