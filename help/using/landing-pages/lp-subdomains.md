@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 0%
+source-wordcount: '812'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="Delega di un sottodominio della pagina di destinazione"
->abstract="Devi configurare un sottodominio da utilizzare per le pagine di destinazione, in quanto dovrai usare questo sottodominio per creare un predefinito per la pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
+>abstract="Devi configurare un sottodominio da utilizzare per le pagine di destinazione, in quanto dovrai usare questo sottodominio per creare un predefinito per la pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un nuovo sottodominio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 >[!CONTEXTUALHELP]
@@ -44,17 +44,17 @@ Le lettere maiuscole non devono essere consentite in un sottodominio
 
 ## Utilizzare un sottodominio esistente {#lp-use-existing-subdomain}
 
-Per utilizzare un sottodominio già delegato ad Adobe, segui la procedura seguente.
+Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** quindi seleziona **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** quindi seleziona **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Sottodomini della pagina di destinazione]**.
 
    ![](assets/lp_access-subdomains.png)
 
-1. Fai clic su **[!UICONTROL Set up subdomain]**.
+1. Fai clic su **[!UICONTROL Imposta sottodominio]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. Seleziona **[!UICONTROL Use delegated domain]** dal **[!UICONTROL Configuration type]** sezione .
+1. Seleziona **[!UICONTROL Usa dominio delegato]** dal **[!UICONTROL Tipo di configurazione]** sezione .
 
    ![](assets/lp_use-delegated-subdomain.png)
 
@@ -74,38 +74,38 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui la procedura seguen
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se &quot;marketing1.yourcompany.com&quot; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &quot;marketing2.yourcompany.com&quot;. Tuttavia, i sottodomini di più livelli supportati per le pagine di destinazione, puoi procedere utilizzando un sottodominio di &quot;marketing1.yourcompany.com&quot; (ad esempio &quot;email.marketing1.yourcompany.com&quot;) o un dominio padre diverso.
+   Non è possibile utilizzare più sottodomini delegati dello stesso dominio padre. Ad esempio, se &#39;marketing1.yourcompany.com&#39; è già delegato ad Adobe per le pagine di destinazione, non potrai utilizzare &#39;marketing2.yourcompany.com&#39;. Tuttavia, i sottodomini di più livelli supportati per le pagine di destinazione, puoi procedere utilizzando un sottodominio di &quot;marketing1.yourcompany.com&quot; (ad esempio &quot;email.marketing1.yourcompany.com&quot;) o un dominio padre diverso.
 
    >[!CAUTION]
    >
    >Se selezioni un dominio delegato ad Adobe utilizzando [metodo CNAME](../configuration/delegate-subdomain.md#cname-subdomain-delegation), devi creare il record DNS sulla piattaforma di hosting. Per generare il record DNS, il processo è lo stesso di quando configuri un nuovo sottodominio della pagina di destinazione. Scopri come in [questa sezione](#lp-configure-new-subdomain).
 
-1. Fai clic su **[!UICONTROL Submit]**.
+1. Fai clic su **[!UICONTROL Invia]**.
 
-1. Dopo l’invio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Dopo l’invio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    >[!NOTE]
    >
-   >Prima di poter utilizzare quel sottodominio per inviare messaggi, attendi che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Success]** stato. È pronto per essere utilizzato per creare i predefiniti per le pagine di destinazione.
+1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Completato]** stato. È pronto per essere utilizzato per creare i predefiniti per le pagine di destinazione.
 
 ## Configurare un nuovo sottodominio {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="Genera il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio della pagina di destinazione, è necessario copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per creare i predefiniti della pagina di destinazione."
+>abstract="Per configurare un nuovo sottodominio della pagina di destinazione, è necessario copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per creare i predefiniti della pagina di destinazione."
 
 Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** quindi seleziona **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** quindi seleziona **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Sottodomini della pagina di destinazione]**.
 
-1. Fai clic su **[!UICONTROL Set up subdomain]**.
+1. Fai clic su **[!UICONTROL Imposta sottodominio]**.
 
-1. Seleziona **[!UICONTROL Add your own domain]** dal **[!UICONTROL Configuration type]** sezione .
+1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dal **[!UICONTROL Tipo di configurazione]** sezione .
 
    ![](assets/lp_add-your-own-subdomain.png)
 
@@ -117,7 +117,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
    >
    >Le lettere maiuscole non sono consentite nei sottodomini.
 
-   Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà dell’organizzazione, ad esempio marketing.yourcompany.com.
+   Delega di un sottodominio non valido ad Adobe non consentita. Assicurati di inserire un sottodominio valido di proprietà della tua organizzazione, ad esempio marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -125,7 +125,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
 1. Viene visualizzato il record da inserire nei server DNS. Copia questo record o scarica un file CSV, quindi accedi alla tua soluzione di hosting del dominio per generare il record DNS corrispondente.
 
-1. Assicurati che il record DNS sia stato generato nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Submit]**.
+1. Assicurati che il record DNS sia stato generato nella tua soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -133,12 +133,12 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
    >
    >Quando configuri un nuovo sottodominio della pagina di destinazione, questo punta sempre a un record CNAME.
 
-1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Processing]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Una volta inviata la delega del sottodominio, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >Prima di poter utilizzare quel sottodominio per inviare messaggi, attendi che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).-->
+   >Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).-->
 
-1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Success]** stato. È pronto per essere utilizzato per creare i predefiniti per le pagine di destinazione.
+1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Completato]** stato. È pronto per essere utilizzato per creare i predefiniti per le pagine di destinazione.
 
-   Il sottodominio verrà contrassegnato come **[!UICONTROL Failed]** se non riesci a creare il record di convalida nella soluzione di hosting.
+   Il sottodominio verrà contrassegnato come **[!UICONTROL Non riuscito]** se non riesci a creare il record di convalida nella soluzione di hosting.
