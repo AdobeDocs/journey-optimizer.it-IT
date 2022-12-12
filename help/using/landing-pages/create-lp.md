@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
+source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 0%
@@ -169,8 +169,8 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 >id="ajo_lp_access_settings-subpage"
 >title="Definire l’URL della pagina di destinazione"
 >abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. La prima parte dell’URL richiede l’impostazione di un sottodominio della pagina di destinazione come parte del predefinito selezionato."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Configurare i sottodomini della pagina di destinazione"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurare i sottodomini della pagina di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 È possibile aggiungere fino a 2 sottopagine. Ad esempio, è possibile creare una pagina di ringraziamento che verrà visualizzata dopo l’invio del modulo da parte degli utenti, nonché definire una pagina di errore da chiamare in caso di problemi relativi alla pagina di destinazione.
 
