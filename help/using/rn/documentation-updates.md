@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ In questa pagina sono elencati tutti gli aggiornamenti della documentazione per 
    * [Canale e-mail](../email/get-started-email.md)
    * [Canale di notifica push](../push/get-started-push.md)
    * [Canale SMS](../sms/get-started-sms.md)
+
+* La guida alla configurazione è stata riorganizzata per migliorare la leggibilità. [Leggi tutto](../configuration/get-started-configuration.md)
 
 ## Novembre 2022 {#november-2022}
 
