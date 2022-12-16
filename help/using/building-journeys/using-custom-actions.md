@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 25%
 
 ---
 
@@ -20,33 +20,33 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"
 >title="Azioni personalizzate"
->abstract="Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Un’azione può essere configurata con qualsiasi servizio di qualsiasi provider che possa essere chiamato tramite un’API REST con un payload in formato JSON."
+>abstract="Le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti in modo da consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON."
 
-Le azioni personalizzate consentono di configurare la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API. Un’azione può essere configurata con qualsiasi servizio di qualsiasi provider che possa essere chiamato tramite un’API REST con un payload in formato JSON.
+Le azioni personalizzate ti consentono di configurare la connessione di un sistema di terze parti in modo da consentire l’invio di messaggi o chiamate API. Per ciascun provider è possibile configurare un’azione che può essere attivata tramite un’API REST con un payload in formato JSON.
 
 ## Consenso e governance dei dati {#privacy}
 
-In Journey Optimizer puoi applicare le politiche di governance dei dati e di consenso alle azioni personalizzate per impedire l&#39;esportazione di campi specifici in sistemi di terze parti o escludere i clienti che non hanno acconsentito alla ricezione di comunicazioni e-mail, push o SMS. Per ulteriori informazioni, consulta le pagine seguenti:
+In Journey Optimizer, puoi applicare i criteri di governance dei dati e di consenso alle azioni personalizzate per impedire l’esportazione di campi specifici in sistemi di terze parti o escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS. Per ulteriori informazioni, consulta le pagine seguenti:
 
 * [Governance dei dati](../action/action-privacy.md).
 * [Consenso](../action/consent.md).
 
 ## Configurazione URL
 
-Il riquadro di configurazione del **Azione personalizzata** attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+Il riquadro di configurazione del **Azione personalizzata** attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. Non puoi impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
 ### Percorso dinamico
 
-Se l’URL include un percorso dinamico, specifica il percorso nel **[!UICONTROL Path]** campo .
+Se l’URL include un percorso dinamico, specifica il percorso nel **[!UICONTROL Percorso]** campo .
 
-Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Ulteriori informazioni](expression/expressionadvanced.md).
+Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno Più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o tra virgolette doppie (&quot;). [Maggiori informazioni](expression/expressionadvanced.md).
 
 Questa tabella mostra un esempio di configurazione:
 
 | Campo | Valore |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Percorso | `The id of marketingCampaign + '/messages'` |
+| Path | `The id of marketingCampaign + '/messages'` |
 
 L’URL concatenato ha questo modulo:
 
@@ -56,12 +56,12 @@ L’URL concatenato ha questo modulo:
 
 ### Intestazioni
 
-La **[!UICONTROL URL Configuration]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+La **[!UICONTROL Configurazione URL]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Maggiori informazioni](../action/about-custom-action-configuration.md).
 
 Se necessario, specifica il valore dei campi di intestazione dinamici:
 
 1. Seleziona l’azione personalizzata nel percorso.
-1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL URL Configuration]** sezione .
+1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL Configurazione URL]** sezione .
 
    ![](assets/journey-dynamicheaderfield.png)
 
@@ -69,7 +69,7 @@ Se necessario, specifica il valore dei campi di intestazione dinamici:
 
 ## Parametri azione
 
-In **[!UICONTROL Action parameters]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Fai riferimento a questo [page](expression/expressionadvanced.md).
+In **[!UICONTROL Parametri azione]** vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passa i valori manualmente o utilizza l’editor di espressioni avanzate per casi d’uso avanzati. I casi di utilizzo avanzati possono essere di manipolazione dati e di altro utilizzo di funzioni. Fai riferimento a questo [page](expression/expressionadvanced.md).
 
 **Argomenti correlati**
 

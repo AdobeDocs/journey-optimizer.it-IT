@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 0%
+source-wordcount: '1050'
+ht-degree: 3%
 
 ---
 
@@ -25,14 +25,14 @@ Il batch di successo più recente nel set di dati viene visualizzato a destra. L
 >
 >Scopri come accedere ai set di dati esportati per ciascun oggetto della Libreria offerte in [questa sezione](../export-catalog/access-dataset.md).
 
-Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decision Object Repository - Fallback Offers]** set di dati.
+Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archivio oggetti decisionali - Offerte di fallback]** set di dati.
 
 ## Identificatore {#identifier}
 
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
-**Tipo:** string
+**Tipo:** stringa
 
 ## _esperienza {#experience}
 
@@ -72,7 +72,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
    **Campo:** _type
    **Titolo:** Tipo componente contenuto
    **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente di contenuto.
-   **Tipo:** string
+   **Tipo:** stringa
 
 * **_esperienza > decisioni > contenuti > componenti > _dc**
 
@@ -85,7 +85,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
       **Campo:** format
       **Titolo:** Formato
       **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, Format deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/ assegnazioni/tipi di file multimediali/) definizione dei formati di file multimediali per computer).
-      **Tipo:** string
+      **Tipo:** stringa
       **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
@@ -105,47 +105,47 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 
       **Campo:** id
       **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-      **Tipo:** string
+      **Tipo:** stringa
       **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
-   * **name**
+   * **nome**
 
       **Campo:** name
       **Descrizione:** Alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna tramite il \&quot;repo:id\&quot;.
-      **Tipo:** string
+      **Tipo:** stringa
 
    * **repositoryID**
 
       **Campo:** repositoryID
       **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando le API di Platform vengono utilizzate per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-      **Tipo:** string
+      **Tipo:** stringa
       **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Campo:** resolveURL
       **Descrizione:** Un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente comprenda dove la risorsa viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma il semantico è più semplice e mirato.
-      **Tipo:** string
+      **Tipo:** stringa
       **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_esperienza > decisioni > contenuti > componenti > contenuto**
 
    **Campo:** content
    **Descrizione:** Un campo facoltativo per contenere direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente contenuti semplici. Questo campo non viene utilizzato per le risorse di contenuto composito, complesso e binario.
-   **Tipo:** string
+   **Tipo:** stringa
 
 * **_esperienza > decisioni > contenuti > componenti > deliveryURL**
 
    **Campo:** deliveryURL
    **Descrizione:** Un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione dei contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente.
-   **Tipo:** string
+   **Tipo:** stringa
    **Esempio:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_esperienza > decisioni > contenuti > componenti > linkURL**
 
    **Campo:** linkURL
    **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere monitorato.
-   **Tipo:** string
+   **Tipo:** stringa
    **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_esperienza > decisionale > contenuto > Posizionamento**
@@ -153,7 +153,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** placement
 **Titolo:** Posizionamento
 **Descrizione:** Posizionamento a cui conformarsi. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/placement.
-**Tipo:** string
+**Tipo:** stringa
 
 #### _esperienza > decisioni > Stato del ciclo di vita
 
@@ -168,7 +168,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** name
 **Titolo:** Nome opzione decisione
 **Descrizione:** Nome dell&#39;opzione visualizzato in diverse interfacce utente.
-**Tipo:** string
+**Tipo:** stringa
 
 #### _esperienza > decisionale > tag
 
@@ -189,4 +189,4 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Decisi
 **Campo:** etag
 **Titolo:** Opzione di decisione ETag
 **Descrizione:** Revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dell&#39;esecuzione dello snapshot.
-**Tipo:** string
+**Tipo:** stringa

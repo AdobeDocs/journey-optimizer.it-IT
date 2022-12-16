@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 0%
+source-wordcount: '1685'
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ La funzione seguente combina la città del profilo e il paese in un’unica stri
 {%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
 ```
 
-## Contiene {#contains}
+## Contains {#contains}
 
 La `contains` viene utilizzata per determinare se una stringa contiene una sottostringa specificata.
 
@@ -191,7 +191,7 @@ La seguente query determina, con distinzione tra maiuscole e minuscole, se l’i
 ```
 
 
-## Uguale{#equals}
+## È uguale a{#equals}
 
 La `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
 
@@ -401,7 +401,7 @@ La `leftTrim` viene utilizzata per rimuovere gli spazi vuoti dall&#39;inizio di 
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## Lunghezza {#length}
 
 La `length` viene utilizzato per ottenere il numero di caratteri in una stringa o un&#39;espressione.
 
@@ -436,7 +436,7 @@ La `like` viene utilizzata per determinare se una stringa corrisponde a un patte
 
 **Esempio**
 
-La seguente query recupera tutte le città in cui i profili risiedono contenenti il pattern &quot;es&quot;.
+La seguente query recupera tutte le città in cui i profili vivono contenenti il pattern &quot;es&quot;.
 
 ```sql
 {%= like(profile.homeAddress.city, "%es%")%}
@@ -630,7 +630,7 @@ La `rightTrim` viene utilizzata per rimuovere gli spazi bianchi dall&#39;estremi
 {%= rightTrim(string) %}
 ```
 
-## Divisione {#split}
+## Dividere {#split}
 
 La `split` viene utilizzata per dividere una stringa in base a un carattere specificato.
 
@@ -741,7 +741,7 @@ La `toDateTimeOnly` viene utilizzata per convertire un valore di argomento in un
 {%= toDateTimeOnly(string) %}: date-time
 ```
 
-## Rifila{#trim}
+## Trim (Taglia){#trim}
 
 La **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e alla fine di una stringa.
 

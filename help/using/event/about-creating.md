@@ -134,7 +134,7 @@ Seleziona uno spazio dei nomi dall’elenco a discesa.
 
 La chiave è il campo, o combinazione di campi, che fa parte dei dati di payload dell’evento e che consente al sistema di identificare la persona associata all’evento. La chiave può essere, ad esempio, l&#39;ID Experience Cloud, un ID CRM o un indirizzo e-mail.
 
-Per utilizzare i dati memorizzati nel database del profilo cliente in tempo reale di Adobe, la chiave evento deve essere costituita dalle informazioni definite come identità di un profilo nel [Servizio Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+Per utilizzare i dati memorizzati nel database del profilo cliente in tempo reale di Adobe, la chiave evento deve essere costituita dalle informazioni definite come identità di un profilo nel [Servizio Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}.
 
 L’identificatore del profilo consente al sistema di eseguire la riconciliazione tra l’evento e il profilo del singolo utente. Se selezioni uno schema con un&#39;identità principale, la **[!UICONTROL Identificatore profilo]** e **[!UICONTROL Namespace]** i campi sono precompilati. Se non è definita alcuna identità, la _identityMap > id_ è la chiave primaria. Quindi devi selezionare uno spazio dei nomi e la chiave viene precompilata automaticamente utilizzando _identityMap > id_.
 

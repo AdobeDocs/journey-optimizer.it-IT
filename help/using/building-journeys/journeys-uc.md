@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Casi di utilizzo dei percorsi
-description: Casi di utilizzo dei percorsi
+title: Casi d’uso dei percorsi
+description: Casi d’uso dei percorsi
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 0%
+source-wordcount: '860'
+ht-degree: 1%
 
 ---
 
@@ -40,55 +40,55 @@ Affinché questo caso d’uso funzioni, devi configurare quanto segue:
 
 ### Creare il segmento
 
-Nel nostro percorso, vogliamo sfruttare un segmento specifico di clienti. Tutti i singoli utenti appartenenti al segmento accedono al percorso e seguono i diversi passaggi. Nel nostro esempio, abbiamo bisogno di un segmento che si rivolga a tutti i clienti che vivono ad Atlanta, San Francisco, o Seattle e che sono nati dopo il 1980.
+Nel nostro percorso, vogliamo sfruttare un segmento specifico di clienti. Tutti gli individui appartenenti al segmento entrano nel percorso e seguono i diversi passaggi. Nel nostro esempio, abbiamo bisogno di un segmento che si rivolga a tutti i clienti che vivono ad Atlanta, San Francisco, o Seattle e che sono nati dopo il 1980.
 
 Per ulteriori informazioni sui segmenti, consulta questo [page](../segment/about-segments.md).
 
-1. Nella sezione del menu CLIENTE, selezionare **[!UICONTROL Segments]**.
+1. Nella sezione del menu CLIENTE, selezionare **[!UICONTROL Segmenti]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Create segment]** in alto a destra nell’elenco dei segmenti.
+1. Fai clic sul pulsante **[!UICONTROL Creare un segmento]** in alto a destra nell’elenco dei segmenti.
 
-1. In **[!UICONTROL Segment properties]** immettere un nome per il segmento.
+1. In **[!UICONTROL Proprietà del segmento]** immettere un nome per il segmento.
 
 1. Trascina e rilascia i campi desiderati dal riquadro di sinistra all’area di lavoro centrale, quindi configurali in base alle tue esigenze. In questo esempio, utilizziamo il **Città** e **Anno di nascita** campi degli attributi.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/add-attributes.png)
 
-Il segmento viene ora creato e pronto per essere utilizzato nel percorso. Utilizzo di un **Leggi segmento** puoi fare in modo che tutti gli individui appartenenti al segmento entrino nel percorso.
+Il segmento viene ora creato e pronto per essere utilizzato nel percorso. Utilizzo di un **Leggi segmento** attività , puoi fare in modo che tutti gli individui appartenenti al segmento entrino nel percorso .
 
 ### Configurare l’evento
 
-Devi configurare un evento inviato al tuo percorso quando un cliente effettua un acquisto. Quando il percorso riceve l’evento, attiva il messaggio di ringraziamento.
+Devi configurare un evento inviato al tuo percorso quando un cliente effettua un acquisto. Quando il percorso riceve l&#39;evento, attiva il messaggio di &quot;grazie&quot;.
 
 A questo scopo, utilizziamo un evento basato su regole. Per ulteriori informazioni sugli eventi, consulta questo [page](../event/about-events.md).
 
-1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurations]**, quindi fai clic su **[!UICONTROL Events]**. Fai clic su **[!UICONTROL Create event]** per creare un nuovo evento.
+1. Nella sezione del menu AMMINISTRAZIONE, seleziona **[!UICONTROL Configurazioni]**, quindi fai clic su **[!UICONTROL Eventi]**. Fai clic su **[!UICONTROL Crea evento]** per creare un nuovo evento.
 
 1. Inserisci il nome dell’evento.
 
-1. In **[!UICONTROL Event ID type]** campo , seleziona **[!UICONTROL Rule Based]**.
+1. In **[!UICONTROL Tipo ID evento]** campo , seleziona **[!UICONTROL Basato su regole]**.
 
-1. Definisci la **[!UICONTROL Schema]** e payload **[!UICONTROL Fields]**. Puoi utilizzare diversi campi, ad esempio il prodotto acquistato, la data di acquisto e l’ID acquisto.
+1. Definisci la **[!UICONTROL Schema]** e payload **[!UICONTROL Campi]**. Puoi utilizzare diversi campi, ad esempio il prodotto acquistato, la data di acquisto e l’ID acquisto.
 
-1. In **[!UICONTROL Event ID condition]** definisci la condizione utilizzata dal sistema per identificare gli eventi che attivano il percorso. Ad esempio, puoi aggiungere una `purchaseMessage` e definisci la seguente regola: `purchaseMessage="thank you"`
+1. In **[!UICONTROL Condizione ID evento]** definire la condizione utilizzata dal sistema per identificare gli eventi che attivano il percorso. Ad esempio, puoi aggiungere una `purchaseMessage` e definisci la seguente regola: `purchaseMessage="thank you"`
 
-1. Definisci la **[!UICONTROL Namespace]** e **[!UICONTROL Profile Identifier]**.
+1. Definisci la **[!UICONTROL Namespace]** e **[!UICONTROL Identificatore profilo]**.
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/jo-uc2.png)
 
 L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utilizzando l’attività evento corrispondente, puoi attivare un’azione ogni volta che un cliente effettua un acquisto.
 
-## Progettazione del percorso
+## Progettare il percorso
 
-1. Avvia il percorso con un **Leggi segmento** attività. Seleziona il segmento creato in precedenza. Tutti i singoli utenti appartenenti al segmento accedono al percorso.
+1. Avvia il percorso con un **Leggi segmento** attività. Seleziona il segmento creato in precedenza. Tutti i singoli utenti appartenenti al segmento entrano nel percorso.
 
    ![](assets/jo-uc4.png)
 
-1. Rilascia un **E-mail** e definisci il contenuto del &quot;primo messaggio&quot;. Questo messaggio viene inviato a tutti gli utenti del percorso. Fai riferimento a questo [sezione](../email/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
+1. Rilascia un **E-mail** e definisci il contenuto del &quot;primo messaggio&quot;. Questo messaggio viene inviato a tutti gli individui del percorso. Fai riferimento a questo [sezione](../email/create-email.md) per scoprire come configurare e progettare un messaggio e-mail.
 
    ![](assets/jo-uc5.png)
 
@@ -108,12 +108,12 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
 
 1. Collega i tre percorsi all’evento di acquisto creato in precedenza. L’evento viene attivato quando un singolo utente effettua un acquisto.
 
-1. Dopo l’evento, rilascia una **Push** e definisci il contenuto del messaggio di ringraziamento. Fai riferimento a questo [sezione](../push/create-push.md) per scoprire come configurare e progettare un push.
+1. Dopo l’evento, rilascia una **Push** attività di azione e definisci il contenuto del messaggio di ringraziamento. Fai riferimento a questo [sezione](../push/create-push.md) per scoprire come configurare e progettare un push.
 
 ## Test e pubblicazione del percorso
 
-1. Prima di testare il percorso, verifica che sia valido e che non vi siano errori.
+1. Prima di testare il percorso, verifica che sia valido e che non vi sia alcun errore.
 
 1. Fai clic sul pulsante **Test** per attivare la modalità di prova, nell’angolo in alto a destra. Definisci come desideri che i profili di test entrino nel test: un singolo profilo, o fino a 100 alla volta. Fai riferimento a questo [sezione](testing-the-journey.md) per scoprire come utilizzare la modalità di test.
 
-1. Quando il percorso è pronto, pubblicalo utilizzando **Pubblica** nell&#39;angolo in alto a destra.
+1. Quando il percorso è pronto, pubblicalo utilizzando la variabile **Pubblica** nell&#39;angolo in alto a destra.

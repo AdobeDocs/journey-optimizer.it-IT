@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Informazioni sulle origini dati
-description: Scopri come configurare un’origine dati
+description: Informazioni su come configurare un’origine dati
 feature: Data Sources
 topic: Administration
 role: Admin
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
 >title="Informazioni sulle origini dati"
->abstract="La configurazione dell’origine dati viene sempre eseguita da un utente tecnico. La configurazione dell’origine dati ti consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, che verranno utilizzate nei percorsi, al fine di: definizione della condizione, dati di parametro e personalizzazione nelle azioni, definizione di attesa personalizzata, definizione del fuso orario."
+>abstract="La configurazione dell’origine dati viene sempre eseguita da un utente tecnico. La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi. Tali informazioni saranno destinate a: definizione della condizione, dati relativi a parametri e personalizzazione nelle azioni, definizione di attesa personalizzata, impostazione del fuso orario."
 
-La configurazione dell’origine dati ti consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, che verranno utilizzate nei percorsi, al fine di:
+La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi e consentiranno di ottenere:
 
-* [definizione della condizione](../building-journeys/condition-activity.md)
-* dati dei parametri e della personalizzazione in [azioni](../action/action.md)
-* [Impostazione di attesa personalizzata](../building-journeys/wait-activity.md#custom)
-* [definizione del fuso orario](../building-journeys/timezone-management.md)
+* [Definizione della condizione.](../building-journeys/condition-activity.md)
+* Dati dei parametri e di personalizzazione nelle [azioni](../action/action.md).
+* [Impostazione di attesa personalizzata.](../building-journeys/wait-activity.md#custom)
+* [Impostazione del fuso orario](../building-journeys/timezone-management.md)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -35,10 +35,10 @@ Questa configurazione non è necessaria se i percorsi sfruttano solo i dati loca
 
 Esistono due tipi di origini dati:
 
-* L’origine dati preconfigurata di Adobe Experience Platform che definisce la connessione al servizio Profilo del cliente in tempo reale. È un’origine dati incorporata. Vedi [questa pagina](../datasource/adobe-experience-platform-data-source.md).
-* Le origini dati esterne che consentono di definire una connessione a sistemi esterni. Questi sono quelli che puoi creare. Vedi [questa pagina](../datasource/external-data-sources.md).
+* L’origine dati preconfigurata di Adobe Experience Platform che definisce la connessione al servizio Profilo del cliente in tempo reale, che costituisce un’origine dati incorporata. Consulta [questa pagina](../datasource/adobe-experience-platform-data-source.md).
+* Le origini dati esterne che consentono di definire una connessione ai sistemi esterni, ovvero quelle che puoi creare. Consulta [questa pagina](../datasource/external-data-sources.md).
 
-Per ogni origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi sono insiemi di campi che possono essere recuperati da un’origine dati. Vedi [questa pagina](../datasource/configure-data-sources.md#define-field-groups).
+Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. Consulta [questa pagina](../datasource/configure-data-sources.md#define-field-groups).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Per ulteriori informazioni su come configurare un’origine dati Adobe Experienc
 
 ## Video introduttivo {#video}
 
-Scopri cos’è un’origine dati e come configurare Experience Platform e origini dati esterne.
+Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

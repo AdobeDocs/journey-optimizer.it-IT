@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Calcoli statistici utilizzati dalla sperimentazione di Adobe Journey Optimizer
+title: Calcoli statistici utilizzati dalla sperimentazione Adobe Journey Optimizer
 description: Ulteriori informazioni sui calcoli statistici utilizzati durante l'esecuzione di esperimenti
 feature: A/B Testing
 topic: Content Management
@@ -12,8 +12,8 @@ hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: '897'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Questo articolo descrive i calcoli statistici utilizzati durante l’esecuzione 
 
 La sperimentazione utilizza metodi statistici avanzati per calcolare **Sequenze di affidabilità** e **Affidabilità**, che consente di eseguire gli esperimenti per il tempo necessario e di monitorare continuamente i risultati.
 
-Questo articolo descrive il funzionamento della sperimentazione e fornisce un’introduzione intuitiva alle **Qualsiasi Sequenza Di Affidabilità Valida**.
+Questo articolo descrive come funziona la Sperimentazione e fornisce un’introduzione intuitiva al Adobe **Qualsiasi Sequenza Di Affidabilità Valida**.
 
 Per gli utenti esperti, i dettagli tecnici e i riferimenti sono descritti in [questa pagina](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
@@ -42,9 +42,9 @@ Come illustrato nella tabella precedente, molte metodologie di deduzione statist
 
 * **Falso negativo (errori di tipo II)**: significa che non respingiamo l&#39;ipotesi null anche se è falsa. Per le sperimentazioni, ciò significa che non respingiamo l&#39;ipotesi null, quando in realtà è diversa. Per controllare questo tipo di errore, generalmente abbiamo bisogno di abbastanza utenti nel nostro esperimento per garantire una certa potenza, definita come `1 - \beta`(cioè uno meno la probabilità di un errore di tipo II).
 
-La maggior parte delle tecniche di deduzione statistica richiederà di correggere anticipatamente la dimensione del campione in base alla dimensione dell’effetto che si desidera determinare, nonché alla tolleranza di errore (`\alpha` e `\beta`) in anticipo. Tuttavia, la metodologia di Adobe Journey Optimizer è progettata per consentire di esaminare continuamente i risultati, per qualsiasi dimensione del campione.
+La maggior parte delle tecniche di deduzione statistica richiederà di correggere anticipatamente la dimensione del campione in base alla dimensione dell’effetto che si desidera determinare, nonché alla tolleranza di errore (`\alpha` e `\beta`) in anticipo. Tuttavia, la metodologia Adobe Journey Optimizer è progettata per consentire di esaminare continuamente i risultati, per qualsiasi dimensione del campione.
 
-## Metodologia statistica di Adobe: Qualsiasi Sequenza Di Affidabilità Valida
+## Metodologia statistica del Adobe: Qualsiasi Sequenza Di Affidabilità Valida
 
 A **Sequenza di affidabilità** è un analogico sequenziale di un **Intervallo di affidabilità**, ad esempio se ripeti i tuoi esperimenti cento volte e calcola una stima della metrica media e della sequenza di affidabilità al 95% associata per ogni nuovo utente che accede all’esperimento. Una sequenza di affidabilità del 95% includerà il valore vero della metrica in 95 dei 100 esperimenti eseguiti. Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente. Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore falsi positivi.
 
@@ -54,7 +54,7 @@ La differenza tra le sequenze di affidabilità e gli intervalli di affidabilità
 
 **Sequenze di affidabilità** spostare l&#39;attenzione delle Sperimentazioni verso la stima piuttosto che il test di ipotesi, cioè concentrandosi su una stima accurata della differenza di mezzi tra i trattamenti, piuttosto che sul rifiuto o meno di un&#39;ipotesi nulla basata su una soglia di significatività statistica.
 
-Tuttavia, in modo analogo al rapporto tra `p-values`oppure **Affidabilità** e **Intervalli di affidabilità**, esiste anche una relazione tra **Sequenze di affidabilità** e in qualsiasi momento valido `p-values`o in qualsiasi momento Confidence valida. Data la familiarità delle quantità come la Affidabilità, Adobe fornisce sia la **Sequenze di affidabilità** e ogni volta che la Confidence nei suoi rapporti è valida.
+Tuttavia, in modo analogo al rapporto tra `p-values`oppure **Affidabilità** e **Intervalli di affidabilità**, esiste anche una relazione tra **Sequenze di affidabilità** e in qualsiasi momento valido `p-values`o in qualsiasi momento Confidence valida. Data la familiarità delle quantità come la Confidenza, l&#39;Adobe fornisce sia **Sequenze di affidabilità** e ogni volta che la Confidence nei suoi rapporti è valida.
 
 Le basi teoriche **Sequenze di affidabilità** provengono dallo studio di sequenze di variabili casuali note come martingales. Alcuni risultati principali sono inclusi per i lettori esperti qui sotto, ma le prese di posizione dei professionisti sono chiare:
 
@@ -68,8 +68,8 @@ Le basi teoriche **Sequenze di affidabilità** provengono dallo studio di sequen
 
 ![](assets/experimentation_report_2.png)
 
-Ogni volta che visualizzi il rapporto sulla sperimentazione, Adobe analizza i dati accumulati nell’esperimento fino a questo punto e dichiarerà un esperimento &quot;conclusivo&quot; quando la fiducia in vigore supera una soglia del 95% per almeno uno dei trattamenti.
+Ogni volta che visualizzi il rapporto sulla sperimentazione, l&#39;Adobe analizza i dati accumulati nell&#39;esperimento fino a questo punto e dichiarerà un esperimento &quot;conclusivo&quot; quando la fiducia valida supera una soglia del 95% per almeno uno dei trattamenti.
 
 A questo punto, il trattamento che offre le prestazioni migliori (in base al tasso di conversione o al valore di metrica normalizzata in base al profilo) verrà evidenziato nella parte superiore della schermata del rapporto e indicato con una stella nel rapporto tabulare. In questa determinazione sono considerati solo i trattamenti con una confidenza superiore al 95%, insieme alla linea di base.
 
-Quando ci sono più di due trattamenti, il link di correzione Bonferroni viene utilizzato per correggere problemi di confronto multipli e controlla il tasso di errore familiare. In questo scenario, è anche possibile che ci siano più trattamenti la cui fiducia è superiore al 95% e i cui intervalli di affidabilità si sovrappongono. In questo caso, Adobe Journey Optimizer dichiarerà quello con il più alto tasso di conversione (o il valore di metrica normalizzata del profilo) come il più performante.
+Quando ci sono più di due trattamenti, il link di correzione Bonferroni viene utilizzato per correggere problemi di confronto multipli e controlla il tasso di errore familiare. In questo scenario, è anche possibile che ci siano più trattamenti la cui fiducia è superiore al 95% e i cui intervalli di affidabilità si sovrappongono. In questo caso, Adobe Journey Optimizer dichiarerà quello con il più alto tasso di conversione (o valore di metrica normalizzata del profilo) come il più performante.

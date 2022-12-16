@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sull’editor espressioni
+title: Informazioni sull’editor di espressioni
 description: Scopri come utilizzare l’editor espressioni.
 feature: Personalization
 topic: Personalization
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 9%
 
 ---
 
-# Informazioni sull’editor espressioni {#build-personalization-expressions}
+# Informazioni sull’editor di espressioni {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Informazioni sull’editor espressioni"
+>title="Informazioni sull’editor di espressioni"
 >abstract="L’editor espressioni ti consente di selezionare, disporre, personalizzare e convalidare tutti i dati per creare una personalizzazione personalizzata per i contenuti."
 
 L’editor espressioni è il fulcro della personalizzazione in [!DNL Journey Optimizer]. È disponibile in ogni contesto in cui devi definire la personalizzazione come e-mail, push e offerte.
@@ -34,11 +34,11 @@ Nella parte sinistra della schermata viene visualizzato un selettore di dominio 
 
 Le origini disponibili sono:
 
-* **[!UICONTROL Profile attributes]** : elenca tutti i riferimenti associati allo schema di profilo descritto in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Segment memberships]** : elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
-* **[!UICONTROL Offer decisions]** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa sulla gestione delle offerte, consulta [questa sezione](../email/add-offers-email.md).
-* **[!UICONTROL Contextual attributes]** : quando in un percorso viene utilizzata un’attività di azione canale (E-mail, push, SMS), i campi di percorso contestuali sono disponibili tramite questo menu. Ulteriori informazioni in [questa sezione](personalization-use-case.md).
-* **[!UICONTROL Helper functions]** : elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. Ulteriori informazioni in [questa sezione](functions/functions.md).
+* **[!UICONTROL Attributi del profilo]** : elenca tutti i riferimenti associati allo schema di profilo descritto in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
+* **[!UICONTROL Iscrizioni dei segmenti]** : elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Decisioni di offerta]** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa sulla gestione delle offerte, consulta [questa sezione](../email/add-offers-email.md).
+* **[!UICONTROL Attributi contestuali]** : quando in un percorso viene utilizzata un’attività di azione canale (E-mail, push, SMS), i campi di percorso contestuali sono disponibili tramite questo menu. Ulteriori informazioni in [questa sezione](personalization-use-case.md).
+* **[!UICONTROL Funzioni di supporto]** : elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. Ulteriori informazioni in [questa sezione](functions/functions.md).
 
 Fai clic sul pulsante + per aggiungere un attributo all’editor.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guida introduttiva a SMS
+title: Introduzione agli SMS
 description: Scopri come creare un SMS in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -10,22 +10,22 @@ level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 22%
 
 ---
 
-# Guida introduttiva a SMS {#get-started-sms}
+# Introduzione agli SMS {#get-started-sms}
 
 >[!IMPORTANT]
 >
->Se è la prima volta che crei un SMS, assicurati che il canale SMS sia stato configurato. [Ulteriori informazioni](sms-configuration.md).
+>Se è la prima volta che crei un SMS, assicurati che il canale SMS sia stato configurato. [Maggiori informazioni](sms-configuration.md).
 
 Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 
 È possibile creare le consegne SMS:
 
-* In una **Percorso**: Dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Actions: SMS]** riquadro a destra per creare il contenuto per il messaggio SMS.
+* In una **Percorso**: Dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Azioni: SMS]** riquadro a destra per creare il contenuto per il messaggio SMS.
 
    Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
 
@@ -33,7 +33,7 @@ Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui l
 
    Per ulteriori informazioni su come configurare la campagna, consulta questo [page](../campaigns/create-campaign.md#configure).
 
-Se è la prima volta che crei un messaggio SMS, assicurati che il canale SMS sia stato configurato. [Ulteriori informazioni](sms-configuration.md).
+Se è la prima volta che crei un messaggio SMS, assicurati che il canale SMS sia stato configurato. [Maggiori informazioni](sms-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -46,7 +46,7 @@ Se è la prima volta che crei un messaggio SMS, assicurati che il canale SMS sia
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Infrequente" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="Non fequente" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
 <a href="send-sms.md"><strong>Inviare un messaggio SMS</strong></a>
@@ -74,6 +74,6 @@ Se è la prima volta che crei un messaggio SMS, assicurati che il canale SMS sia
 
 ## Video introduttivo
 
-Scopri come configurare, creare e includere i messaggi SMS nei percorsi dei clienti.
+Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percorsi cliente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)

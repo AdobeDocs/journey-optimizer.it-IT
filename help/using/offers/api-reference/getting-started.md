@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 5%
 
 ---
 
@@ -23,8 +23,8 @@ Questa guida per gli sviluppatori descrive i passaggi necessari per iniziare a u
 
 Questa guida richiede una buona comprensione dei seguenti componenti di Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}: Il quadro standardizzato [!DNL Experience Platform] organizza i dati sulla customer experience.
-   * [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}: Scopri i blocchi di base degli schemi XDM.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}: Il quadro standardizzato [!DNL Experience Platform] organizza i dati sulla customer experience.
+   * [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target=&quot;_blank&quot;}: Scopri i blocchi di base degli schemi XDM.
 * [Gestione delle decisioni](../../../using/offers/get-started/starting-offer-decisioning.md): Illustra i concetti e i componenti utilizzati per Experience Decisioning in generale e per la gestione delle decisioni in particolare. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole decisionali.
 
@@ -50,7 +50,7 @@ Un contenitore è un meccanismo di isolamento per tenere separate le diverse pre
 
 Un amministratore può raggruppare entità, risorse e autorizzazioni di accesso simili in profili. Ciò riduce l’onere di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Devi essere un amministratore di prodotto per Adobe Experience Platform nella tua organizzazione per creare profili e assegnare loro gli utenti. È sufficiente creare profili di prodotto che corrispondano a determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi a cui sono state concesse autorizzazioni e ogni utente effettivo o tecnico del gruppo eredita tali autorizzazioni.
 
-In base ai privilegi di amministratore, è possibile concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Per ulteriori informazioni, consulta la sezione [Panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target=&quot;_blank&quot;}.
+In base ai privilegi di amministratore, è possibile concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Per ulteriori informazioni, consulta la sezione [Panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target=&quot;_blank&quot;}.
 
 ### Elencare contenitori accessibili a utenti e integrazioni {#list-containers-accessible-to-users-and-integrations}
 

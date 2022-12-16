@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 0%
+source-wordcount: '167'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
+| keyAttributeName | stringa | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
 
 ## Firme e tipi restituiti
 

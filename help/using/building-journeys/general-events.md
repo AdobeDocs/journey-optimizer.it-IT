@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 11%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_custom"
 >title="Eventi generali"
->abstract="Gli eventi ti consentono di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale al singolo utente che accede al percorso. Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. La configurazione dell’evento viene eseguita da un tecnico dei dati e non può essere modificata."
+>abstract="Eventi ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. La configurazione dell’evento viene eseguita da un tecnico dei dati e non può essere modificata."
 
-Gli eventi ti consentono di attivare i tuoi percorsi singolarmente per inviare messaggi in tempo reale al singolo utente che accede al percorso.
+Eventi ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso.
 
-Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall’utente tecnico. Vedi [questa pagina](../event/about-events.md).
+Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. Impossibile modificare il resto della configurazione. È stato eseguito dall’utente tecnico. Consulta [questa pagina](../event/about-events.md).
 
 ![](assets/general-events.png)
 
@@ -32,17 +32,17 @@ Quando rilasci un evento aziendale, aggiunge automaticamente una **Leggi segment
 
 ## Ascolto degli eventi durante un periodo di tempo specifico {#events-specific-time}
 
-Un’attività evento posizionata nel percorso ascolta gli eventi a tempo indefinito. Per ascoltare un evento solo durante un certo periodo di tempo, devi configurare un timeout per l’evento.
+Un’attività dell’evento posizionata nel percorso ascolta gli eventi a tempo indefinito. Per ascoltare un evento solo durante un certo periodo di tempo, devi configurare un timeout per l’evento.
 
-Il percorso ascolterà quindi l’evento durante il tempo specificato nel timeout. Se un evento viene ricevuto durante quel periodo, la persona scorre nel percorso dell&#39;evento. In caso contrario, il cliente può scorrere in un percorso di timeout o terminare il percorso.
+Il percorso ascolterà quindi l&#39;evento durante il tempo specificato nel timeout. Se un evento viene ricevuto durante quel periodo, la persona scorre nel percorso dell&#39;evento. In caso contrario, il cliente può scorrere in un percorso di timeout o terminare il percorso.
 
 Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
-1. Attiva la **[!UICONTROL Define the event timeout]** dalle proprietà dell’evento.
+1. Attiva la **[!UICONTROL Definire il timeout dell’evento]** dalle proprietà dell’evento.
 
-1. Specifica il tempo di attesa dell’evento nel percorso.
+1. Specifica il tempo di attesa dell’evento da parte del percorso.
 
-1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Set a timeout path]** opzione . Se questa opzione non è abilitata, il percorso termina per l’utente singolo una volta raggiunto il timeout.
+1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Imposta un percorso di timeout]** opzione . Se questa opzione non è abilitata, il percorso termina per la persona una volta raggiunto il timeout.
 
    ![](assets/event-timeout.png)
 

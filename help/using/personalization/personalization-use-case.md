@@ -32,7 +32,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
 ## Passaggio 1: creare il percorso {#create-journey}
 
-1. Fai clic sul pulsante **[!UICONTROL Journeys]** e crea un nuovo percorso.
+1. Fai clic sul pulsante **[!UICONTROL Percorsi]** e creare un nuovo percorso.
 
    ![](assets/perso-uc4.png)
 
@@ -62,8 +62,8 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
 1. Seleziona la **Attributi contestuali** menu. Gli attributi contestuali sono disponibili solo se un percorso ha trasmesso dati contestuali al messaggio. Fai clic su **Journey Orchestration**. Vengono visualizzate le seguenti informazioni contestuali:
 
-   * **Eventi**: questa categoria raggruppa tutti i campi degli eventi inseriti prima dell’attività di azione del canale nel percorso.
-   * **Proprietà percorso**: i campi tecnici relativi al percorso per un determinato profilo, ad esempio l’ID percorso o gli errori specifici rilevati. Ulteriori informazioni in [Documentazione di Journey Orchestration](../building-journeys/expression/journey-properties.md).
+   * **Eventi**: questa categoria raggruppa tutti i campi degli eventi inseriti prima dell’attività azione canale nel percorso.
+   * **Proprietà percorso**: i campi tecnici relativi al percorso per un determinato profilo, ad esempio l’ID percorso o gli errori specifici rilevati. Ulteriori informazioni in [Documentazione del Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -75,7 +75,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc12.png)
 
-1. Digita il messaggio e inserisci dal **[!UICONTROL Contextual attributes]** menu, il nome dell&#39;elemento dell&#39;ordine e l&#39;avanzamento dell&#39;ordine.
+1. Digita il messaggio e inserisci dal **[!UICONTROL Attributi contestuali]** menu, il nome dell&#39;elemento dell&#39;ordine e l&#39;avanzamento dell&#39;ordine.
 
    ![](assets/perso-uc13.png)
 

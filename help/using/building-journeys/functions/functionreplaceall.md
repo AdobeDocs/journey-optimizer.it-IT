@@ -9,7 +9,7 @@ exl-id: 5543e123-a5f4-4153-8709-97eeb9be83ba
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -31,9 +31,9 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|--------------|
-| base | string |
+| base | stringa |
 | target | string (RegExp) |
-| sostituzione | string |
+| sostituzione | stringa |
 
 ## Firma e tipo restituito
 

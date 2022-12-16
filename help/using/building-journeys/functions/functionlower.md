@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: Lower
+title: lower
 description: Scopri la funzione di livello inferiore
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '30'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
-# Lower {#lower}
+# lower {#lower}
 
 Restituisce una versione in minuscolo del parametro .
 
@@ -27,7 +27,7 @@ Stringa
 
 ## Parametro
 
-* string
+* stringa
 
 ## Firma e tipo restituito
 

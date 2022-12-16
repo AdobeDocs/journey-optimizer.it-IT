@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 0%
+source-wordcount: '582'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
-Si tratta dei campi XDM comuni che [!DNL Journey Optimizer] invia ad Adobe Experience Platform. Per ogni passaggio elaborato in un percorso verranno inviati campi comuni. Campi più specifici vengono utilizzati per azioni personalizzate e arricchimenti.
+Si tratta dei campi XDM comuni che [!DNL Journey Optimizer] invia a Adobe Experience Platform. Verranno inviati campi comuni per ogni passaggio elaborato in un percorso. Campi più specifici vengono utilizzati per azioni personalizzate e arricchimenti.
 
 Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione azione, recupero dati, ecc.) per limitare le dimensioni degli eventi.
 
@@ -49,44 +49,44 @@ Tipo: booleano
 
 ID evento in elaborazione, per l’elaborazione dei passaggi. Se l’evento è esterno, il valore è il relativo eventId. Se l’evento è interno, il valore è l’ID evento interno (ad esempio, scheduledNotificationReceived, executeAction, ecc.).
 
-Tipo: string
+Tipo: stringa
 
 ## nodeID {#nodeid-field}
 
 ID nodo client (dall’area di lavoro).
 
-Tipo: string
+Tipo: stringa
 
 ## stepID {#stepdid-field}
 
 ID univoco del passaggio in fase di elaborazione.
 
-Tipo: string
+Tipo: stringa
 
 ## stepName {#stepname-field}
 
 Nome del passaggio attualmente in fase di elaborazione.
 
-Tipo: string
+Tipo: stringa
 
 ## stepType {#steptype-field}
 
 Tipo del passaggio.
 
-Tipo: string
+Tipo: stringa
 
 Valori possibili:
 
 * Condizione
 * Azione
-* Scheduler
+* Attività Scheduler
 * Timer
 
 ## stepStatus {#stepstatus-field}
 
 Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell’elaborazione (e all’avvio dell’evento step).
 
-Tipo: string
+Tipo: stringa
 
 Lo stato può essere:
 
@@ -101,65 +101,65 @@ Lo stato può essere:
 
 ID del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersionID {#journeyversionid-field}
 
 ID della versione del percorso. Questo id rappresenta il riferimento di identità al percorso, nel caso di journeyStepEvent.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersionName {#journeyversionname-field}
 
 Nome della versione del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## journeyVersion {#journeyversion-field}
 
-Versione della versione del percorso.
+Versione del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## instanceID {#instanceid-field}
 
-ID interno dell’istanza di percorso.
+ID interno dell&#39;istanza del percorso.
 
-Tipo: string
+Tipo: stringa
 
 ## externalKey {#externalkey-field}
 
 Chiave esterna estratta dall’evento per elaborarla.
 
-Tipo: string
+Tipo: stringa
 
 ## parentStepID {#parenstepid-field}
 
 ID del passo padre del passaggio elaborato corrente nell&#39;istanza.
 
-Tipo: string
+Tipo: stringa
 
 ## parentStepName {#parentstepname-field}
 
 Nome del passo dell&#39;elemento padre del passaggio corrente.
 
-Tipo: string
+Tipo: stringa
 
 ## parentTransitionID {#parenttransitionid-field}
 
 ID della transizione che ha portato l’istanza al passaggio elaborato.
 
-Tipo: string
+Tipo: stringa
 
 ## parentTransitionName {#parenttransitionname-field}
 
 Nome della transizione che ha portato l&#39;istanza al passaggio elaborato.
 
-Tipo: string
+Tipo: stringa
 
 ## inTest {#intest-field}
 
-Indica se il percorso è in modalità di test o meno.
+Indica se il percorso è in modalità di prova o meno.
 
 Tipo: booleano
 
@@ -173,13 +173,13 @@ Tipo: long
 
 Indica il tipo di istanza, se è batch o unitario.
 
-Tipo: string
+Tipo: stringa
 
 Valori: batch/unitario
 
 ## recidivaIndex {#recurrenceindex-field}
 
-Indice della ricorrenza se il percorso è batch e ricorrente (la prima esecuzione ha ricorrenzaIndex = 1).
+Indice della ricorrenza se il percorso è in batch e ricorrente (la prima esecuzione ha ricorrenzaIndex = 1).
 
 Tipo: long
 
@@ -193,16 +193,16 @@ Tipo: booleano
 
 Chiave esterna per evento batch.
 
-Tipo: string
+Tipo: stringa
 
 ## batchInstanceID {#batchinstanceid-field}
 
 questo è l&#39;ID dell&#39;istanza batch.
 
-Tipo: string
+Tipo: stringa
 
 ## batchUnitarioBranchID {#batchunitarybranchid-field}
 
 se l&#39;istanza è stata attivata da un&#39;istanza batch, ID ramo unitario.
 
-Tipo: string
+Tipo: stringa

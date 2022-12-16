@@ -1,5 +1,5 @@
 ---
-title: Creare una regola decisionale
+title: Creare una regola di decisione
 description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: a7d4ab7f7430a93fb87af390ba0a8defb36ea9e9
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Creare una regola decisionale {#create-decision-rule}
+# Creare una regola di decisione {#create-decision-rule}
 
 Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 
@@ -23,7 +23,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **Formato API**

@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: intersecare
+title: intersect
 description: Scopri l’intersezione della funzione
 feature: Journeys
 role: Data Engineer
@@ -8,12 +8,12 @@ level: Experienced
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 0%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
-# intersecare{#intersect}
+# intersect{#intersect}
 
 Restituisce i valori comuni nei due elenchi di input. Se uno dei due elenchi è nullo, restituisce un elenco vuoto.
 
@@ -29,8 +29,8 @@ Elenco
 
 | Parametro | Tipo |
 |-----------|------------------|
-| elenco 1 | elenco |
-| elenco 2 | elenco |
+| elenco 1 | list |
+| elenco 2 | list |
 
 ## Firme e tipi restituiti
 

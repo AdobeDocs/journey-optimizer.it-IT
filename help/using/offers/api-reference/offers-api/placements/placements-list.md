@@ -9,7 +9,7 @@ exl-id: 36030ffe-eb7a-4487-914d-84ccb0a6bf6e
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 I posizionamenti sono contenitori utilizzati per mostrare le offerte. Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
-Puoi visualizzare un elenco di tutti i posizionamenti all’interno di un contenitore eseguendo una singola richiesta GET al [!DNL Offer Library] API.
+Puoi visualizzare un elenco di tutti i posizionamenti all’interno di un contenitore effettuando una singola richiesta di GET al [!DNL Offer Library] API.
 
 **Formato API**
 

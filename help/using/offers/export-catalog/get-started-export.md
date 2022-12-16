@@ -1,5 +1,5 @@
 ---
-title: Guida introduttiva all’esportazione del catalogo delle offerte
+title: Introduzione all’esportazione del catalogo delle offerte
 description: Scopri come esportare il catalogo delle offerte come set di dati
 feature: Offers
 topic: Integrations
@@ -9,11 +9,11 @@ exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Guida introduttiva all’esportazione del catalogo delle offerte {#export-catalog}
+# Introduzione all’esportazione del catalogo delle offerte {#export-catalog}
 
 Journey Optimizer consente di esportare automaticamente il catalogo delle offerte in Adobe Experience Platform.
 

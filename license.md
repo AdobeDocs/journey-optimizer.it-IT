@@ -1,16 +1,28 @@
 ---
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
 # Licenza MIT
 
-© Copyright 2021 Adobe. Tutti i diritti riservati.
+© Copyright 2021 Adobe. All rights reserved.
 
-È concessa gratuitamente l&#39;autorizzazione a qualsiasi persona che ottenga una copia di questo software e dei relativi file di documentazione (il &quot;Software&quot;), a trattare il Software senza restrizioni, compresi, a titolo esemplificativo, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza e/o vendere copie del Software, e a consentire alle persone a cui il Software è fornito di farlo, alle seguenti condizioni:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-L&#39;avviso di copyright di cui sopra e l&#39;avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-IL SOFTWARE VIENE FORNITO &quot;COSÌ COM’È&quot;, SENZA GARANZIA DI ALCUN TIPO, ESPLICITA O IMPLICITA, COMPRESE MA NON LIMITATE ALLE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ A UNO SCOPO PARTICOLARE E NON VIOLAZIONE. IN NESSUN CASO GLI AUTORI O I TITOLARI DEL DIRITTO D&#39;AUTORE DEVONO ESSERE RESPONSABILI DI QUALSIASI CREDITO, DANNO O ALTRA RESPONSABILITÀ, SIA IN UN&#39;AZIONE DI CONTRATTO, DI TRATTAMENTO O DI ALTRO TIPO, DERIVANTE DAL SOFTWARE O DALL&#39;UTILIZZO O DI ALTRI DEL SOFTWARE.
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

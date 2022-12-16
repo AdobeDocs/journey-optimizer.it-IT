@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: limite
+title: limit
 description: Scopri il limite di funzioni
 feature: Journeys
 role: Data Engineer
@@ -9,11 +9,11 @@ exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# limite {#limit}
+# limit {#limit}
 
 Restituisce il primo o l’ultimo N elementi di un elenco.
 
@@ -34,7 +34,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
-| numberOfItems | integer | Numero di elementi da restituire dall’elenco specificato. |
+| numberOfItems | numero intero | Numero di elementi da restituire dall’elenco specificato. |
 | firstOrLastItems | booleano | Questo parametro è facoltativo (true per impostazione predefinita). true restituisce i primi elementi. false restituisce gli ultimi elementi. |
 
 ## Firma e tipo restituito

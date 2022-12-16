@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Le raccolte sono sottoinsiemi di offerte in base a condizioni predefinite definite da un addetto al marketing, ad esempio la categoria dell’offerta.
 
-Puoi creare una raccolta effettuando una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Puoi creare una raccolta effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
@@ -25,7 +25,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **Formato API**

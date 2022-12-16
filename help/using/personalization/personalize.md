@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalizzare il contenuto in Journey Optimizer
-description: Guida introduttiva alla personalizzazione.
+title: Personalizzare i contenuti in Journey Optimizer
+description: Introduzione alla personalizzazione.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 28%
 
 ---
 
-# Guida introduttiva alla personalizzazione{#add-personalization}
+# Introduzione alla personalizzazione{#add-personalization}
 
 Scopri [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni disponibili su di essi. Può essere il loro nome, i loro interessi, dove vivono, quello che hanno comprato, e altro ancora.
 
@@ -31,11 +31,11 @@ Scopri [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per ada
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Durante l’elaborazione del messaggio (e-mail e push), Journey Optimizer sostituisce l’espressione con i dati contenuti nel database Experience Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` diventa &quot;Ciao John Doe&quot;.
+Durante l’elaborazione del messaggio (e-mail e push), Journey Optimizer sostituisce l’espressione con i dati contenuti nel database di Experience Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` diventa &quot;Ciao John Doe&quot;.
 
 ## Utilizza i dati del profilo per personalizzare i messaggi {#data}
 
-La personalizzazione si basa sui dati del profilo gestiti dal **Profilo individuale XDM** schema definito in Adobe Experience Platform. Ulteriori informazioni in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+La personalizzazione si basa sui dati del profilo gestiti dallo schema **Profilo individuale XDM** definito in Adobe Experience Platform. Ulteriori informazioni in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >La **Profilo individuale XDM** schema è l’unico schema utilizzabile per personalizzare il contenuto in [!DNL Journey Optimizer].
@@ -52,12 +52,12 @@ Sono disponibili diversi strumenti per creare contenuti di personalizzazione (fu
 
 Ulteriori informazioni [!DNL Journey Optimizer] editor di espressioni in [questa sezione](personalization-build-expressions.md)
 
-## Video dimostrativi{#video-perso}
+## Video sulle procedure{#video-perso}
 
-Scopri come utilizzare le informazioni sugli eventi contestuali di un percorso per personalizzare un messaggio.
+Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da un percorso per personalizzare un messaggio.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Scopri come aggiungere a un messaggio una personalizzazione basata su profili e come utilizzare l’appartenenza a un segmento come condizione preliminare per un blocco di personalizzazione.
+Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e come utilizzare l’iscrizione a un segmento come condizione preliminare per un blocco di personalizzazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

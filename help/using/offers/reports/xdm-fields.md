@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 0%
+source-wordcount: '106'
+ht-degree: 67%
 
 ---
 
@@ -19,13 +19,13 @@ Puoi accedere allo schema XDM DecisioningEvents direttamente da un set di dati c
 
 ![](../assets/access-schema.png)
 
-Lo schema contiene tutti i campi necessari per inviare informazioni da Gestione decisioni ad Adobe Experience Platform.
+Lo schema contiene tutti i campi necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
 
-Per ottenere ulteriori informazioni su un campo specifico, selezionalo per visualizzare un riquadro informazioni con le proprietà del campo.
+Per ottenere ulteriori informazioni su un campo specifico, selezionalo per visualizzare un riquadro di informazioni in cui sono riportate le proprietà del campo.
 
 ![](../assets/schema-fields.png)
 
-Informazioni dettagliate su come lavorare con schemi e campi XDM sono disponibili nella documentazione Experience Data Model:
+Per informazioni dettagliate su come lavorare con schemi e campi XDM, consulta la documentazione di Experience Data Model:
 
-* [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)
-* [Esplorare le risorse XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html)
+* [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it)
+* [Esplorare le risorse XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/explore.html?lang=it)

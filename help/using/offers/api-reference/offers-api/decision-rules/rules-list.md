@@ -1,5 +1,5 @@
 ---
-title: Elencare regole decisionali
+title: Elencare regole di decisione
 description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 feature: Offers
 topic: Integrations
@@ -9,13 +9,13 @@ exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Elencare regole decisionali {#list-decision-rules}
+# Elencare regole di decisione {#list-decision-rules}
 
-Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità. È possibile visualizzare un elenco delle regole decisionali esistenti all&#39;interno di un contenitore eseguendo una singola richiesta GET al [!DNL Offer Library] API.
+Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità. È possibile visualizzare un elenco delle regole decisionali esistenti all&#39;interno di un contenitore eseguendo una singola richiesta di GET al [!DNL Offer Library] API.
 
 **Formato API**
 

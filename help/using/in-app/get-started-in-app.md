@@ -11,15 +11,15 @@ exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
-# Guida introduttiva al canale in-app {#gs-in-app}
+# Introduzione al canale in-app {#gs-in-app}
 
 I messaggi in-app sono notifiche che puoi inviare agli utenti all’interno dell’app per indirizzarli verso specifici punti di interesse. Le notifiche in-app possono essere utilizzate per proporre un servizio, promuovere una nuova funzione, un’offerta speciale o a bordo di un nuovo utente.
 
-Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui layout e visualizzazione dei messaggi, testo e pulsanti.
+Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui layout e visualizzazione dei messaggi, testo e pulsante.
 
 ![](assets/new-in-app.png)
 
@@ -29,7 +29,7 @@ Prima di inviare messaggi in-app, è necessario:
 
 * Configura il canale in-app. [Ulteriori informazioni](inapp-configuration.md)
 
-* Prima di iniziare, assicurati di disporre delle autorizzazioni corrette per le campagne di Journey Optimizer. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Prima di iniziare, assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come ottenere questo risultato in [questa sezione](create-in-app.md).
 
@@ -44,10 +44,10 @@ Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Sc
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="Infrequente" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="Non fequente" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
-<a href="design-in-app.md"><strong>Progettazione di contenuti in-app</strong></a>
+<a href="design-in-app.md"><strong>Creare contenuto in-app</strong></a>
 </div>
 <p></td>
 <td>
@@ -64,7 +64,7 @@ Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Sc
 <img alt="Convalida" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>Configurare il canale in-app</strong></a>
+<a href="inapp-configuration.md"><strong>Configurare un canale in-app</strong></a>
 </div>
 <p>
 </td>

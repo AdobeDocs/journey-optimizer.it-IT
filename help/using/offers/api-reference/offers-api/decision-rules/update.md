@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 9%
 
 ---
 
-# Aggiornare una regola decisionale {#update-decision-rule}
+# Aggiornare una regola di decisione {#update-decision-rule}
 
-Puoi modificare o aggiornare le regole decisionali nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
+Puoi modificare o aggiornare le regole decisionali in nel contenitore effettuando una richiesta di PATCH al [!DNL Offer Library] API.
 
 Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta il [Documentazione sulle patch JSON](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
 **Formato API**

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione al contenuto dinamico
+title: Introduzione ai contenuti dinamici
 description: Ulteriori informazioni sul contenuto dinamico
 feature: Personalization
 topic: Personalization
@@ -11,18 +11,18 @@ exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
-# Introduzione al contenuto dinamico {#start-dynamic-content}
+# Introduzione ai contenuti dinamici {#start-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="Condizioni"
 >abstract="Le regole condizionali consentono di visualizzare più varianti di contenuto nei messaggi in base agli attributi del profilo, agli eventi contestuali o ai segmenti di pubblico."
 
-Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base a **regole condizionali** che può essere composta da attributi di profilo, eventi contestuali o segmenti di pubblico. Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo nei percorsi e nelle campagne.
+Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base a **regole condizionali** che può essere composta da attributi di profilo, eventi contestuali o segmenti di pubblico. Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor di espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.
 
 È possibile sfruttare le regole condizionali in E-mail Designer e nell’editor di espressioni per **creare contenuto dinamico** che si adatta ai profili target nei messaggi.
 

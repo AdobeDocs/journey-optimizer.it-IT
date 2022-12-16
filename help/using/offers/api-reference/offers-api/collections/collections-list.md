@@ -9,7 +9,7 @@ exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Le raccolte sono sottoinsiemi di offerte in base a condizioni predefinite definite da un addetto al marketing, ad esempio la categoria dell’offerta.
 
-Puoi visualizzare un elenco di tutte le raccolte all’interno di un contenitore eseguendo una singola richiesta GET al [!DNL Offer Library] API.
+Puoi visualizzare un elenco di tutte le raccolte all’interno di un contenitore effettuando una singola richiesta di GET al [!DNL Offer Library] API.
 
 **Formato API**
 

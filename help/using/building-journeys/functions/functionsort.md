@@ -9,7 +9,7 @@ exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -34,7 +34,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | string | Questo parametro è solo per listObject. Il nome dell’attributo negli oggetti dell’elenco specificato viene utilizzato come chiave per l’ordinamento. |
+| keyAttributeName | stringa | Questo parametro è solo per listObject. Il nome dell’attributo negli oggetti dell’elenco specificato viene utilizzato come chiave per l’ordinamento. |
 | sortOrder | booleano | Crescente (true) o decrescente (false) |
 
 ## Firma e tipo restituito

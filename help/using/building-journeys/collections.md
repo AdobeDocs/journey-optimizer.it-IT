@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Trasmettere dinamicamente le raccolte utilizzando azioni personalizzate
+title: Passaggio dinamico delle raccolte tramite azioni personalizzate
 description: Invio di un messaggio tramite Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 0%
+source-wordcount: '430'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +51,7 @@ Puoi passare una raccolta in parametri di azioni personalizzati che verranno com
    }
    ```
 
-## Limitazioni {#limitations}
+## Limitazioni  {#limitations}
 
 * Le matrici nidificate di oggetti all&#39;interno di un array di oggetti non sono attualmente supportate. Ad esempio:
 
@@ -100,9 +100,9 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
 È possibile vedere che &quot;products&quot; è una matrice di due oggetti. È necessario disporre di almeno un oggetto.
 
-1. Crea l&#39;azione personalizzata. Vedi [questa pagina](../action/about-custom-action-configuration.md).
+1. Crea l&#39;azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-1. In **[!UICONTROL Action parameters]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
+1. In **[!UICONTROL Parametri azione]** incolla l’esempio JSON. La struttura visualizzata è statica: quando si incolla il payload, tutti i campi sono definiti come costanti.
 
    ![](assets/uc-collection-1.png)
 
@@ -122,9 +122,9 @@ In questa sezione utilizzeremo il seguente esempio di payload JSON. Matrice di o
 
    ![](assets/uc-collection-2.png)
 
-1. Crea il percorso e aggiungi l’azione personalizzata creata. Vedi [questa pagina](../building-journeys/using-custom-actions.md).
+1. Crea il percorso e aggiungi l’azione personalizzata creata. Consulta [questa pagina](../building-journeys/using-custom-actions.md).
 
-1. In **[!UICONTROL Action parameters]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
+1. In **[!UICONTROL Parametri azione]** definisci il parametro array (&quot;products&quot; nel nostro esempio) utilizzando l’editor di espressioni avanzate.
 
    ![](assets/uc-collection-3.png)
 

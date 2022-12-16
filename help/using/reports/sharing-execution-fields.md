@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campi di esecuzione azione degli eventi journeyStep
-description: Campi di esecuzione azione degli eventi journeyStep
+title: Campi di esecuzione dell’azione eventi journeyStep
+description: Campi di esecuzione dell’azione eventi journeyStep
 feature: Reporting
 topic: Content Management
 role: User
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 12%
 
 ---
 
-# Campi di esecuzione azione degli eventi journeyStep {#sharing-execution-fields}
+# Campi di esecuzione dell’azione eventi journeyStep {#sharing-execution-fields}
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
@@ -25,19 +25,19 @@ Se il passaggio dispone di un’azione da elaborare, tali campi verranno aggiunt
 
 ID dell&#39;azione in corso di esecuzione.
 
-Tipo: string
+Tipo: stringa
 
 ## actionName {#actionname-field}
 
 Nome dell’azione. Se non è stato impostato alcun nome, viene eseguito stepName.
 
-Tipo: string
+Tipo: stringa
 
 ## actionType {#actionType-field}
 
 Tipo di azione.
 
-Tipo: string
+Tipo: stringa
 
 ## actionParameter {#actionparameterized-field}
 
@@ -55,19 +55,19 @@ Tipo: long
 
 Tipo di errore che si verifica quando viene chiamata l&#39;azione.
 
-Tipo: string
+Tipo: stringa
 
 Valori:
 * http
 * tappatura
 * timeout
-* errore
+* error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Errore di esecuzione del codice per l&#39;azione. Presente se l&#39;errore ha un codice, ad esempio uno HTTP.
 
-Tipo: string
+Tipo: stringa
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
@@ -89,13 +89,13 @@ Ad esempio, viene inviata un’e-mail e al primo tentativo viene restituito un e
     "actionExecOrigErrorCode": "500"
 ```
 
-Tipo: string
+Tipo: stringa
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Codice di errore dell&#39;actionExecOrigError.
 
-Tipo: string
+Tipo: stringa
 
 ## actionBusinessType {#actionbusinesstype-field}
 
@@ -111,23 +111,23 @@ Valori:
 * Epsilon
 * ...
 
-Tipo: string
+Tipo: stringa
 
 ## deliveryJobID {#deliveryjobid-field}
 
-Questo descrive l’ID del processo di consegna per il percorso batch.
+Questo descrive l’ID del processo di consegna per il Percorso batch.
 
-Tipo: string
+Tipo: stringa
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-Questo descrive l’ID di consegna per il percorso batch.
+Questo descrive l’ID di consegna per il Percorso batch.
 
-Tipo: string
+Tipo: stringa
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
-Questo descrive se il percorso batch viene attivato dal segmento di pubblico.
+Questo descrive se il Percorso batch viene attivato dal segmento di pubblico.
 
 Tipo: booleano
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '149'
+ht-degree: 18%
 
 ---
 
@@ -25,11 +25,11 @@ Utilizzo [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 Puoi creare le consegne e-mail:
 
-* In una **Percorso**: una volta aggiunto un **[!UICONTROL Email]** l’attività del percorso e le impostazioni di base definite, utilizzano **[!UICONTROL Actions: Email]** riquadro a destra per creare il contenuto per il messaggio SMS.
+* In una **Percorso**: una volta aggiunto un **[!UICONTROL E-mail]** attività al percorso e impostazioni di base definite, utilizza le **[!UICONTROL Azioni: E-mail]** riquadro a destra per creare il contenuto per il messaggio SMS.
 
    Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
 
-* In una **Campaign**: una volta creata una campagna, seleziona **[!UICONTROL Email]** come azione e definisci le impostazioni di base.
+* In una **Campaign**: una volta creata una campagna, seleziona **[!UICONTROL E-mail]** come azione e definisci le impostazioni di base.
 
    Per ulteriori informazioni su come configurare la campagna, consulta questo [page](../campaigns/create-campaign.md#configure).
 
@@ -44,10 +44,10 @@ Puoi creare le consegne e-mail:
 </td>
 <td>
 <a href="get-started-email-design.md">
-<img alt="Infrequente" src="../assets/do-not-localize/email-design.jpg">
+<img alt="Non fequente" src="../assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="get-started-email-design.md"><strong>Progettazione di un messaggio e-mail</strong></a>
+<a href="get-started-email-design.md"><strong>Progettazione di un’e-mail</strong></a>
 </div>
 <p></td>
 <td>

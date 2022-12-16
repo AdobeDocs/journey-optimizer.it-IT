@@ -10,19 +10,19 @@ level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # Casi d’uso del set di dati {#tracking-datasets}
 
-In questa pagina trovi l’elenco dei set di dati di Adobe Journey Optimizer e dei relativi casi d’uso:
+In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei relativi casi di utilizzo:
 
 [Set di dati evento esperienza tracciamento e-mail](#email-tracking-experience-event-dataset)
 [Set di dati evento del feedback del messaggio](#message-feedback-event-dataset)
 [Set di dati evento esperienza tracciamento push](#push-tracking-experience-event-dataset)
-[Evento passaggio del percorso](#journey-step-event)
+[Evento passaggio percorso](#journey-step-event)
 [Decisioning del set di dati evento](#ode-decisionevents)
 [Set di dati del servizio di consenso](#consent-service-dataset)
 [Set di dati evento feedback CCN](#bcc-feedback-event-dataset)
@@ -72,7 +72,7 @@ limit 100;
 
 _Nome nell’interfaccia: Set di dati evento feedback del messaggio CJM_
 
-Set di dati per l’acquisizione di eventi di feedback sulle applicazioni e-mail e push da Journey Optimizer.
+Set di dati per l’acquisizione di eventi di feedback delle applicazioni e-mail e push da Journey Optimizer.
 
 Lo schema correlato è lo schema Evento di feedback del messaggio CJM.
 
@@ -162,13 +162,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
-## Evento passaggio del percorso{#journey-step-event}
+## Evento passaggio percorso{#journey-step-event}
 
-_Nome interno: Eventi passaggio del percorso (set di dati di sistema)_
+_Nome interno: Eventi dei passaggi del percorso (set di dati di sistema)_
 
-Set di dati per l’acquisizione di eventi di passaggio nel percorso.
+Set di dati per l’acquisizione di eventi passaggio nel percorso.
 
-Lo schema correlato è lo schema Evento del passaggio del percorso per Journey Orchestration.
+Lo schema correlato è lo schema Evento passaggio Percorso per Journey Orchestration.
 
 Questa query mostra la suddivisione dei conteggi di successo delle azioni per etichetta di azione per un dato percorso:
 
@@ -186,7 +186,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-Questa query mostra il raggruppamento dei conteggi dei passaggi immessi per nodeId e nodeLabel per un determinato percorso. nodeId è incluso qui come nodeLabel può essere lo stesso per nodi di percorso diversi.
+Questa query mostra la suddivisione dei conteggi immessi per nodeId e nodeLabel per un determinato percorso. nodeId è incluso qui come nodeLabel può essere lo stesso per nodi di percorso diversi.
 
 ```sql
 select
@@ -237,7 +237,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 
 _Nome nell’interfaccia: Set di dati del servizio Consent CJM (set di dati di sistema)_
 
-Set di dati per il servizio di consenso di Journey Optimizer.
+Set di dati per il servizio Journey Optimizer Consent.
 
 Lo schema correlato è lo schema del servizio di consenso CJM.
 
@@ -314,7 +314,7 @@ Set di dati per memorizzare i metadati delle entità per i messaggi inviati all�
 
 Lo schema correlato è lo schema di entità AJO.
 
-Questo set di dati ti consente di accedere ai metadati definiti dall’addetto al marketing, che ti consentono di ottenere migliori informazioni sui rapporti quando i set di dati di Journey Optimizer vengono esportati per la visualizzazione dei rapporti in strumenti esterni. Questo si ottiene utilizzando l’attributo messageID che consente di unire vari set di dati come set di dati di feedback dei messaggi e set di dati di tracciamento degli eventi di esperienza per ottenere i dettagli di una consegna dei messaggi dall’invio al tracciamento a livello di profilo.
+Questo set di dati consente di accedere ai metadati definiti dall’addetto al marketing, che consentono di ottenere migliori informazioni sui rapporti quando i set di dati Journey Optimizer vengono esportati per la visualizzazione dei rapporti in strumenti esterni. Questo si ottiene utilizzando l’attributo messageID che consente di unire vari set di dati come set di dati di feedback dei messaggi e set di dati di tracciamento degli eventi di esperienza per ottenere i dettagli di una consegna dei messaggi dall’invio al tracciamento a livello di profilo.
 
 **Note importanti**
 
@@ -338,7 +338,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-La seguente query aiuta a ottenere i dettagli del percorso e l’oggetto e-mail associati a tutti gli eventi di feedback:
+La seguente query aiuta a ottenere i dettagli del Percorso e l’oggetto e-mail associati a tutti gli eventi di feedback:
 
 ```sql
 SELECT 
@@ -355,7 +355,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-Puoi unire gli eventi delle fasi del percorso, il feedback dei messaggi e i set di dati di tracciamento per ottenere gli stati di un particolare profilo:
+Puoi unire gli eventi dei passaggi di percorso, il feedback dei messaggi e i set di dati di tracciamento per ottenere gli stati di un particolare profilo:
 
 ```sql
 SELECT 

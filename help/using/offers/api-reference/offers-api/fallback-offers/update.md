@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '169'
+ht-degree: 11%
 
 ---
 
 # Aggiornare un’offerta di fallback {#update-fallback-offer}
 
-Puoi modificare o aggiornare un’offerta di fallback nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
+Puoi modificare o aggiornare un’offerta di fallback nel contenitore effettuando una richiesta di PATCH al [!DNL Offer Library] API.
 
 Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta il [Documentazione sulle patch JSON](http://jsonpatch.com/).
 
@@ -25,7 +25,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1"` |
 
 **Formato API**

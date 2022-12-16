@@ -8,15 +8,15 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 4%
 
 ---
 
 
 # Consegnare offerte utilizzando [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-La [!DNL Batch Decisioning] L’API consente alle organizzazioni di utilizzare la funzionalità decisionale per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati di Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
+La [!DNL Batch Decisioning] L’API consente alle organizzazioni di utilizzare la funzionalità decisionale per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
 
 Con la [!DNL Batch Decisioning] API, puoi compilare un set di dati con le migliori offerte per tutti i profili in un segmento Adobe Experience Platform per gli ambiti decisionali. Ad esempio, un&#39;organizzazione può voler eseguire [!DNL Batch Decisioning] in modo da poter inviare offerte a un fornitore di consegna messaggi. Tali offerte vengono quindi utilizzate come contenuto inviato per la consegna di messaggi batch allo stesso segmento di utenti.
 
@@ -24,9 +24,9 @@ A tal fine, l&#39;organizzazione:
 
 * Esegui il [!DNL Batch Decisioning] API, che contiene due richieste:
 
-   1. A **Richiesta POST batch** per avviare un carico di lavoro per elaborare in batch le selezioni delle offerte.
+   1. A **Richiesta Batch POST** per avviare un carico di lavoro per elaborare in batch le selezioni delle offerte.
 
-   2. A **Richiesta batch GET** per ottenere lo stato del carico di lavoro batch.
+   2. A **Richiesta di GET batch** per ottenere lo stato del carico di lavoro batch.
 
 * Esporta il set di dati nell’API del fornitore della consegna dei messaggi.
 
@@ -34,7 +34,7 @@ A tal fine, l&#39;organizzazione:
 
 >[!NOTE]
 >
->Le decisioni in batch possono essere eseguite anche utilizzando l’interfaccia di Journey Optimizer. Per ulteriori informazioni, consulta [questa sezione](../../batch-delivery.md), che fornisce informazioni su prerequisiti e limitazioni globali da tenere in considerazione quando si utilizzano le decisioni in batch.
+>Le decisioni in batch possono essere eseguite anche utilizzando l&#39;interfaccia Journey Optimizer. Per ulteriori informazioni, consulta [questa sezione](../../batch-delivery.md), che fornisce informazioni su prerequisiti e limitazioni globali da tenere in considerazione quando si utilizzano le decisioni in batch.
 
 * **Numero di processi batch in esecuzione per set di dati**: È possibile eseguire fino a cinque processi batch alla volta, per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene raccolto per l&#39;elaborazione una volta che il processo precedente è stato completato.
 * **Limite di frequenza**: Un batch esegue lo snapshot del profilo che si verifica una volta al giorno. La [!DNL Batch Decisioning] L’API limita la frequenza e carica sempre i profili dallo snapshot più recente.
@@ -58,7 +58,7 @@ Tutto [!DNL Batch Decisioning] le richieste richiedono le seguenti intestazioni 
 
 ## Avviare un processo batch {#start-a-batch-process}
 
-Per avviare un carico di lavoro per le decisioni di elaborazione batch, effettuare una richiesta POST al `/workloads/decisions` punto finale.
+Per avviare un carico di lavoro per l&#39;elaborazione in batch delle decisioni, inviare una richiesta POST `/workloads/decisions` punto finale.
 
 >[!NOTE]
 >

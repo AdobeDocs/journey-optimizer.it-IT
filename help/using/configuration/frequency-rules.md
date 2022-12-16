@@ -10,14 +10,14 @@ level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 0%
+source-wordcount: '856'
+ht-degree: 3%
 
 ---
 
 # Regole di frequenza dei messaggi {#frequency-rules}
 
-[!DNL Journey Optimizer] consente di controllare la frequenza con cui gli utenti riceveranno un messaggio o accederanno a un percorso impostando regole cross-channel che escluderanno automaticamente i profili sollecitati eccessivamente dai messaggi e dalle azioni.
+[!DNL Journey Optimizer] consente di controllare la frequenza con cui gli utenti ricevono un messaggio o accedono a un percorso impostando regole cross-channel che escludono automaticamente i profili sollecitati in eccesso dai messaggi e dalle azioni.
 
 Ad esempio, non vuoi che il tuo marchio invii più di 3 messaggi di marketing al mese ai loro clienti.
 
@@ -31,7 +31,7 @@ A questo scopo, puoi utilizzare una regola di frequenza che limiti il numero di 
 
 ## Regole di accesso {#access-rules}
 
-Le regole sono disponibili dal **[!UICONTROL Administration]** > **[!UICONTROL Rules]** menu. Vengono elencate tutte le regole, ordinate per data di modifica.
+Le regole sono disponibili dal **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole]** menu. Vengono elencate tutte le regole, ordinate per data di modifica.
 
 Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche effettuare ricerche nell’etichetta del messaggio.
 
@@ -39,9 +39,9 @@ Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/
 
 ### Autorizzazioni{#permissions-frequency-rules}
 
-Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, devi disporre della **[!UICONTROL Manage frequency rules]** autorizzazione.
+Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, devi disporre della **[!UICONTROL Gestire le regole di frequenza]** autorizzazione.
 
-Utenti con **[!UICONTROL View frequency rules]** Le autorizzazioni sono in grado di visualizzare le regole, ma non di modificarle o eliminarle.
+Utenti con **[!UICONTROL Visualizzare le regole di frequenza]** Le autorizzazioni sono in grado di visualizzare le regole, ma non di modificarle o eliminarle.
 
 ![](assets/message-rules-access.png)
 
@@ -51,7 +51,7 @@ Ulteriori informazioni sulle autorizzazioni in [questa sezione](../administratio
 
 Per creare una nuova regola, segui i passaggi seguenti.
 
-1. Accedere al **[!UICONTROL Message frequency rules]** elenco, quindi fai clic su **[!UICONTROL Create rule]**.
+1. Accedere al **[!UICONTROL Regole di frequenza dei messaggi]** elenco, quindi fai clic su **[!UICONTROL Crea regola]**.
 
    ![](assets/message-rules-create.png)
 
@@ -73,7 +73,7 @@ Per creare una nuova regola, segui i passaggi seguenti.
    >
    >Il limite di frequenza è basato su un periodo di calendario mensile. Viene reimpostato all&#39;inizio di ogni mese.
 
-1. Seleziona il canale da utilizzare per questa regola: **[!UICONTROL Email]** o **[!UICONTROL Push notification]**.
+1. Seleziona il canale da utilizzare per questa regola: **[!UICONTROL E-mail]** o **[!UICONTROL Notifica push]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -85,13 +85,13 @@ Per creare una nuova regola, segui i passaggi seguenti.
 
    Ad esempio, imposta il limite a 15 e seleziona sia i canali e-mail che i canali push. Se un profilo ha già ricevuto 10 e-mail di marketing e 5 notifiche push di marketing, verrà escluso dalla consegna immediatamente successiva di qualsiasi e-mail di marketing o notifica push.
 
-1. Fai clic su **[!UICONTROL Save as draft]** per confermare la creazione della regola. Il messaggio viene aggiunto all’elenco delle regole con **[!UICONTROL Draft]** stato.
+1. Fai clic su **[!UICONTROL Salva come bozza]** per confermare la creazione della regola. Il messaggio viene aggiunto all’elenco delle regole con **[!UICONTROL Bozza]** stato.
 
    ![](assets/message-rules-created.png)
 
 ## Attivare una regola {#activate-rule}
 
-Una volta creata, una regola di frequenza del messaggio ha la **[!UICONTROL Draft]** stato e non influisce ancora su alcun messaggio. Per abilitarlo, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Activate]**.
+Una volta creata, una regola di frequenza del messaggio ha la **[!UICONTROL Bozza]** stato e non influisce ancora su alcun messaggio. Per abilitarlo, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Attiva]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -101,11 +101,11 @@ L&#39;attivazione di una regola avrà un impatto sui messaggi a cui si applica a
 >
 >Per attivare completamente una regola possono essere necessari fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi affinché una regola abbia effetto.
 
-Per disattivare una regola di frequenza dei messaggi, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Deactivate]**.
+Per disattivare una regola di frequenza dei messaggi, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Disattiva]**.
 
 ![](assets/message-rules-deactivate.png)
 
-Lo stato della regola cambierà in **[!UICONTROL Inactive]** e la regola non verrà applicata alle esecuzioni di messaggi future. I messaggi attualmente in esecuzione non saranno interessati.
+Lo stato della regola cambierà in **[!UICONTROL Inattivo]** e la regola non verrà applicata alle esecuzioni di messaggi future. I messaggi attualmente in esecuzione non saranno interessati.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Per applicare una regola di frequenza a un messaggio, segui la procedura seguent
 
    >[!NOTE]
    >
-   >Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transactional]** non verranno valutati in base alle regole di frequenza.
+   >Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
 
    <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -140,7 +140,7 @@ Per applicare una regola di frequenza a un messaggio, segui la procedura seguent
 
 >[!NOTE]
 >
->Diverse regole possono essere applicate allo stesso canale, ma una volta raggiunto il limite inferiore, il profilo verrà escluso dalle consegne successive.
+>Puoi applicare diverse regole allo stesso canale, ma una volta raggiunto il limite inferiore, il profilo verrà escluso dalle consegne successive.
 
 ## Esempio: combinare diverse regole {#frequency-rule-example}
 

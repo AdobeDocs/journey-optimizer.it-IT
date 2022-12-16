@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 0%
+source-wordcount: '273'
+ht-degree: 16%
 
 ---
 
@@ -18,31 +18,31 @@ ht-degree: 0%
 
 Prima di creare un modello AI, devi creare un set di dati in cui verranno raccolti gli eventi di conversione. Inizia creando lo schema che verrà utilizzato nel set di dati:
 
-1. Da **[!UICONTROL Data Management]** menu, seleziona **[!UICONTROL Schema]**, vai al **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create schema]**.
+1. Da **[!UICONTROL Gestione dati]** menu, seleziona **[!UICONTROL Schema]**, vai al **[!UICONTROL Sfoglia]** e fai clic su **[!UICONTROL Creare uno schema]**.
 
    ![](../assets/ai-ranking-create-schema.png)
 
-1. Scegli **[!UICONTROL XDM ExperienceEvent]**.
+1. Scegli **[!UICONTROL ExperienceEvent XDM]**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella sezione [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=en){target=&quot;_blank&quot;}.
+   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
 
-1. Da **[!UICONTROL Field groups]** a sinistra, seleziona **[!UICONTROL Add]**.
+1. Da **[!UICONTROL Gruppi di campi]** a sinistra, seleziona **[!UICONTROL Aggiungi]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. In **[!UICONTROL Search]** digitare &quot;proposition Interposition&quot; e selezionare il campo **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi.
+1. In **[!UICONTROL Ricerca]** digitare &quot;proposition Interposition&quot; e selezionare il campo **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi.
 
    ![](../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
-   >Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Experience Event - Proposition Interactions]** gruppo di campi associato. In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
+   >Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi associato. In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
 
-1. Fai clic su **[!UICONTROL Add field groups]**.
+1. Fai clic su **[!UICONTROL Aggiungi gruppi di campi]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -55,13 +55,13 @@ Prima di creare un modello AI, devi creare un set di dati in cui verranno raccol
 >
 >Ulteriori informazioni sulla creazione degli schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}.
 
-Ora puoi creare un set di dati utilizzando questo schema. A questo scopo, segui i passaggi seguenti:
+Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 
-1. Da **[!UICONTROL Data Management]** menu, seleziona **[!UICONTROL Datasets]**, vai al **[!UICONTROL Browse]** e fai clic su **[!UICONTROL Create dataset]**.
+1. Da **[!UICONTROL Gestione dati]** menu, seleziona **[!UICONTROL Set di dati]**, vai al **[!UICONTROL Sfoglia]** e fai clic su **[!UICONTROL Creare un set di dati]**.
 
    ![](../assets/ai-ranking-create-dataset.png)
 
-1. Seleziona **[!UICONTROL Create dataset from schema]**.
+1. Seleziona **[!UICONTROL Creare un set di dati dallo schema]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
@@ -69,9 +69,9 @@ Ora puoi creare un set di dati utilizzando questo schema. A questo scopo, segui 
 
    ![](../assets/ai-ranking-dataset-select-schema.png)
 
-1. Fai clic su **[!UICONTROL Next]**.
+1. Fai clic su **[!UICONTROL Avanti]**.
 
-1. Immetti un nome univoco per il set di dati nel **[!UICONTROL Name]** campo e fai clic su **[!UICONTROL Finish]**.
+1. Immetti un nome univoco per il set di dati nel **[!UICONTROL Nome]** campo e fai clic su **[!UICONTROL Fine]**.
 
    ![](../assets/ai-ranking-dataset-name.png)
 

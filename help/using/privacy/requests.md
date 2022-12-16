@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Richieste sulla privacy
-description: Ulteriori informazioni sulle richieste di privacy e sul servizio Privacy.
+title: Richieste di accesso a dati personali
+description: Ulteriori informazioni sulle richieste di accesso a dati personali e su Privacy Service.
 feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
 
-# Richieste sulla privacy {#track-changes}
+# Richieste di accesso a dati personali {#track-changes}
 
-Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service, puoi inviare richieste di accesso e cancellazione dei dati dei clienti personali dalle applicazioni Adobe Experience Cloud, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
+Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service puoi inviare richieste di accesso e cancellazione dei dati personali dei clienti dalle applicazioni Adobe Experience Cloud, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
 
-Le richieste di privacy possono essere create e gestite dal **[!UICONTROL Requests]** menu.
+Le richieste di accesso ai dati personali possono essere create e gestite dal menu **[!UICONTROL Richieste]**.
 
 ![](assets/requests.png)
 
-Per ulteriori informazioni sui servizi per la privacy e su come creare e gestire le richieste di accesso a dati personali, consulta la documentazione di Adobe Experience Platform:
+Per ulteriori informazioni su Privacy Service e su come creare e gestire le richieste di accesso a dati personali, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica del servizio sulla privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Gestione dei processi relativi alla privacy nell’interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
+* [Panoramica di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it)
+* [Gestione dei processi relativi alla privacy nell’interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it)

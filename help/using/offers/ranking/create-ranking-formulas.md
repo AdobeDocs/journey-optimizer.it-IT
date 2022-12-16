@@ -1,5 +1,5 @@
 ---
-title: Classificazione delle formule
+title: Formule di classificazione
 description: Scopri come creare formule per classificare le offerte
 feature: Offers
 topic: Integrations
@@ -8,12 +8,12 @@ level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 1%
 
 ---
 
-# Classificazione delle formule {#create-ranking-formulas}
+# Formule di classificazione {#create-ranking-formulas}
 
 ## Informazioni sulla classificazione delle formule {#about-ranking-formulas}
 
@@ -27,11 +27,11 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 Per creare una formula di classificazione, segui i passaggi seguenti:
 
-1. Accedere al **[!UICONTROL Components]** quindi seleziona il **[!UICONTROL Rankings]** scheda . Viene visualizzato l’elenco delle classificazioni create in precedenza.
+1. Accedere al **[!UICONTROL Componenti]** quindi seleziona il **[!UICONTROL Classificazioni]** scheda . Viene visualizzato l’elenco delle classificazioni create in precedenza.
 
    ![](../assets/rankings-list.png)
 
-1. Fai clic su **[!UICONTROL Create ranking]** per creare una nuova formula di classificazione.
+1. Fai clic su **[!UICONTROL Creare una classificazione]** per creare una nuova formula di classificazione.
 
    ![](../assets/ranking-create-formula.png)
 
@@ -41,7 +41,7 @@ Per creare una formula di classificazione, segui i passaggi seguenti:
 
    ![](../assets/ranking-syntax.png)
 
-1. Fai clic su **[!UICONTROL Save]**. La formula di classificazione viene creata, è possibile selezionarla dall&#39;elenco per ottenere i dettagli e modificarla o eliminarla.
+1. Fai clic su **[!UICONTROL Salva]**. La formula di classificazione viene creata, è possibile selezionarla dall&#39;elenco per ottenere i dettagli e modificarla o eliminarla.
 
    È ora pronto per essere utilizzato in una decisione per classificare le offerte idonee per un posizionamento (vedi [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md)).
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 0%
+source-wordcount: '937'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Con Gestione delle decisioni, puoi creare e fornire esperienze di offerta personalizzate per gli utenti finali, su più canali e applicazioni utilizzando la logica di business e le regole decisionali. Un’offerta è un messaggio di marketing a cui possono essere associate regole che specificano gli utenti idonei per visualizzare l’offerta.
 
-Puoi creare e consegnare le offerte effettuando una richiesta POST al [!DNL Decisioning] API.
+Puoi creare e consegnare offerte effettuando una richiesta POST al [!DNL Decisioning] API.
 
 Questa esercitazione richiede una comprensione funzionante delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, consulta la sezione [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md). Questa esercitazione richiede anche che sia disponibile un ID di posizionamento e un valore dell&#39;ID decisione univoci. Se non hai acquisito questi valori, consulta le esercitazioni per [creazione di un posizionamento](../offers-api/placements/create.md) e [creazione di una decisione](../activities-api/activities/create.md).
 
@@ -29,7 +29,7 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accetta | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
 **Formato API**
@@ -189,7 +189,7 @@ Una risposta corretta restituisce informazioni sulla proposta, inclusa la relati
 | `xdm:propositions.xdm:content` | Il formato del contenuto della risposta. | Il contenuto della risposta può essere: `text`, `html block`oppure `image link` |
 | `xdm:score` | Punteggio per un&#39;opzione calcolata come risultato di una funzione di classificazione associata all&#39;opzione o alla decisione. Questo campo viene restituito dall’API se una funzione di classificazione è coinvolta nella determinazione del punteggio di un’offerta durante la classificazione. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Questo oggetto contiene una singola offerta di fallback, incluso il relativo identificatore univoco. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati multimediali del computer. | `"dc:format": "image/png"` o `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati multimediali del computer. | `"dc:format": "image/png"` oppure `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Un URL facoltativo per leggere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Data e ora di creazione del messaggio di risposta della decisione. Questo è rappresentato come tempo epoca. | `"ode:createDate": 1566497582038` |
 
@@ -199,7 +199,7 @@ Il seguente video è pensato per aiutarti a comprendere i componenti di Gestione
 
 >[!NOTE]
 >
->Questo video si applica al servizio di applicazione Offer Decisioning basato su Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
+>Questo video si applica al servizio di applicazione Offer Decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 

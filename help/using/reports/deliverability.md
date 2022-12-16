@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione al recapito messaggi
+title: Introduzione alla consegna
 description: Scopri le linee guida per il recapito messaggi
 feature: Deliverability
 topic: Content Management
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 2%
 
 ---
 
-# Introduzione al recapito messaggi {#manage-deliverability}
+# Introduzione alla consegna {#manage-deliverability}
 
 Il recapito messaggi è una misura del successo delle consegne nelle caselle in entrata dei destinatari.
 
@@ -35,7 +35,7 @@ La **tasso di consegna** è il numero di messaggi che hanno colpito le caselle i
 
 Ottimizzazione del recapito messaggi [!DNL Journey Optimizer] esperienze, consigliamo di utilizzare le best practice elencate in questa sezione. I problemi di recapito sono generalmente collegati alla protezione contro lo spam implementata dai provider di servizi Internet (ISP) e dagli amministratori dei server di posta.
 
-Per informazioni più approfondite su cosa sia il recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target=&quot;_blank&quot;}.
+Per informazioni più approfondite su cosa sia il recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}.
 
 ## Riduzione del tasso di reclamo {#reduce-complaint-rate}
 
@@ -57,7 +57,7 @@ Per proteggere il recapito messaggi, i destinatari i cui indirizzi si trovano ne
 
 Utilizzare le funzioni offerte da [!DNL Journey Optimizer] per monitorare il recapito messaggi.
 
-La **[!UICONTROL Executions]** la scheda dell’elenco dei messaggi ti consente di controllare le prestazioni delle consegne attraverso un set di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
+La **[!UICONTROL Esecuzioni]** la scheda dell’elenco dei messaggi ti consente di controllare le prestazioni delle consegne attraverso un set di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
 * Numero di messaggi eseguiti, inviati e consegnati correttamente.
 * Il numero di messaggi aperti e il numero di messaggi o collegamenti su cui è stato fatto clic.
 

@@ -9,7 +9,7 @@ exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 <table>
 <tr>
 <td><img src="../../assets/do-not-localize/icon-placement.svg" width="60px"><p><a href="../offer-library/creating-placements.md">Creare posizionamenti</a></p></td>
-<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Creare regole decisionali</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-rules.svg" width="60px"><p><a href="../offer-library/creating-decision-rules.md">Creare regole di decisione</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-tags.svg" width="60px"><p><a href="../offer-library/creating-tags.md">Creare tag</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../ranking/create-ranking-formulas.md">Creare formule di classificazione</a></p></td>
 </table>

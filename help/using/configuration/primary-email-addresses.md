@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 0%
 
 Quando esegui il targeting di un profilo, diversi indirizzi e-mail o numeri di telefono possono essere disponibili nel database (indirizzo e-mail professionale, numero di telefono personale, ecc.).
 
-Con [!DNL Journey Optimizer], puoi determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio di profilo e assegnare la priorità quando sono disponibili più indirizzi. A questo scopo, segui i passaggi seguenti.
+Con [!DNL Journey Optimizer], puoi determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio di profilo e assegnare la priorità quando sono disponibili più indirizzi. Per farlo, segui la procedura indicata di seguito.
 
-1. Accedere al  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** menu.
+1. Accedere al  **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi esecuzioni]** menu.
 
    ![](assets/primary-address-execution-fields.png)
 
-1. I campi attualmente utilizzati per impostazione predefinita per determinare l’indirizzo e-mail e il numero di telefono del profilo vengono visualizzati in questa schermata. Fai clic su **[!UICONTROL Edit]** per cambiarli.
+1. I campi attualmente utilizzati per impostazione predefinita per determinare l’indirizzo e-mail e il numero di telefono del profilo vengono visualizzati in questa schermata. Fai clic su **[!UICONTROL Modifica]** per cambiarli.
 
    ![](assets/primary-address.png)
 
@@ -47,7 +47,7 @@ Con [!DNL Journey Optimizer], puoi determinare quale indirizzo e-mail o numero d
 
    ![](assets/primary-address-select-field.png)
 
-1. Fai clic su **[!UICONTROL Save]** per confermare la scelta.
+1. Fai clic su **[!UICONTROL Salva]** per confermare la scelta.
 
 Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo principale.
 

@@ -10,7 +10,7 @@ hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -58,8 +58,8 @@ Prima di poter generare questo file, devi creare:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Scegli l&#39;area geografica AWS"
->abstract="Selezionare l&#39;area geografica del server AWS in cui si desidera esportare i file di direct mailing. Come procedura generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing."
+>title="Scegli l’area geografica di AWS"
+>abstract="Seleziona l’area geografica del server AWS in cui desideri esportare i file di direct mailing. Come procedura generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing."
 
 Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed esporta il file contenente i dati del pubblico di destinazione in un server.
 
@@ -67,13 +67,13 @@ Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed e
 
 Per configurare il routing dei file, segui i passaggi seguenti.
 
-1. Accedere al **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** menu, quindi fai clic su **[!UICONTROL Create routing configuration]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione dell’indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** menu, quindi fai clic su **[!UICONTROL Creare la configurazione di indirizzamento]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. Imposta un nome per la configurazione.
 
-1. Seleziona la **[!UICONTROL Server type]** che si desidera utilizzare per esportare i file di direct mailing.
+1. Seleziona la **[!UICONTROL Tipo di server]** che si desidera utilizzare per esportare i file di direct mailing.
 
    ![](assets/file-routing-config-type.png)
 
@@ -85,19 +85,19 @@ Per configurare il routing dei file, segui i passaggi seguenti.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Se hai selezionato **[!UICONTROL Amazon S3]**, scegli **[!UICONTROL AWS region]** dove sarà situata l&#39;infrastruttura del server.
+1. Se hai selezionato **[!UICONTROL Amazon S3]**, scegli **[!UICONTROL Area geografica AWS]** dove sarà situata l&#39;infrastruttura del server.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >Le aree geografiche AWS sono aree geografiche utilizzate da AWS per ospitare le infrastrutture cloud. Come procedura generale, è preferibile scegliere la regione più vicina alla posizione del provider di direct mailing.
+   >Le aree geografiche di AWS sono aree geografiche utilizzate da AWS per ospitare le proprie infrastrutture cloud. Come procedura generale, è preferibile scegliere la regione più vicina alla posizione del provider di direct mailing.
 
-1. Seleziona **[!UICONTROL Submit]**. La configurazione di routing dei file viene creata con **[!UICONTROL Active]** stato. È ora pronto per essere utilizzato in un [superficie della direct mailing](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di routing dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie della direct mailing](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >Puoi anche selezionare **[!UICONTROL Save as draft]** per creare la configurazione di routing dei file, ma non sarà possibile selezionarla in una superficie finché non sarà **[!UICONTROL Active]**.
+   >Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di routing dei file, ma non sarà possibile selezionarla in una superficie finché non sarà **[!UICONTROL Attivo]**.
 
 ## Creare una superficie direct mailing {#direct-mail-surface}
 
@@ -134,9 +134,9 @@ Una superficie direct mailing deve includere anche la configurazione di indirizz
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
-1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Text delimited]**.
+1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
 
-1. Seleziona la **[!UICONTROL File routing configuration]** tra quelli creati. Questo definisce dove verrà esportato il file da utilizzare per il provider di direct mailing.
+1. Seleziona la **[!UICONTROL Configurazione dell’indirizzamento dei file]** tra quelli creati. Questo definisce dove verrà esportato il file da utilizzare per il provider di direct mailing.
 
    >[!CAUTION]
    >

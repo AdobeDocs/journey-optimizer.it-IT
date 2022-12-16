@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 0%
+source-wordcount: '1056'
+ht-degree: 1%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ## Guida introduttiva e prerequisiti {#edge-overview-and-prerequisites}
 
-La [SDK per web di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) è una libreria JavaScript lato client che consente ai clienti Adobe Experience Cloud di interagire con i vari servizi di Experience Cloud tramite Experience Platform Edge Network.
+La [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) è una libreria JavaScript lato client che consente ai clienti Adobe Experience Cloud di interagire con i vari servizi dell’Experience Cloud tramite Experience Platform Edge Network.
 
-L’SDK per web di Experience Platform supporta l’esecuzione di query sulle soluzioni di personalizzazione in Adobe, inclusa la gestione delle decisioni, per consentire di recuperare ed eseguire il rendering delle offerte personalizzate create utilizzando le API o la Libreria offerte. Per istruzioni più dettagliate, consulta la documentazione su [creazione di un’offerta](../../get-started/starting-offer-decisioning.md).
+L’SDK per web di Experience Platform supporta l’esecuzione di query sulle soluzioni di personalizzazione all’Adobe, inclusa la gestione delle decisioni, e consente di recuperare ed eseguire il rendering delle offerte personalizzate create utilizzando le API o la Libreria offerte. Per istruzioni più dettagliate, consulta la documentazione su [creazione di un’offerta](../../get-started/starting-offer-decisioning.md).
 
-Esistono due modi per implementare la gestione delle decisioni con [SDK per web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Un modo è rivolto agli sviluppatori e richiede la conoscenza dei siti web e la programmazione. L’altro modo consiste nell’utilizzare l’interfaccia utente di Adobe Experience Platform per impostare offerte che richiedono solo un riferimento a un piccolo script nell’intestazione della pagina HTML.
+Esistono due modi per implementare la gestione delle decisioni con [SDK per web per Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Un modo è rivolto agli sviluppatori e richiede la conoscenza dei siti web e la programmazione. L’altro modo consiste nell’utilizzare l’interfaccia utente di Adobe Experience Platform per configurare offerte che richiedono solo un riferimento a un piccolo script nell’intestazione della pagina HTML.
 
-Consulta la documentazione su [gestione delle decisioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando l’SDK web di Adobe Experience Platform.
+Consulta la documentazione su [gestione delle decisioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando Adobe Experience Platform Web SDK.
 
 >[!NOTE]
 >
->L’utilizzo della gestione delle decisioni in Adobe Experience Platform Web SDK è disponibile solo per un set di organizzazioni (disponibilità limitata). Se desideri sfruttare questa funzione, contatta il tuo account executive di Adobe.
+>L’utilizzo della gestione delle decisioni in Adobe Experience Platform Web SDK è disponibile solo per un set di organizzazioni (disponibilità limitata). Se desideri sfruttare questa funzione, contatta l’amministratore dell’account di Adobe.
 
-## SDK per web di Adobe Experience Platform {#aep-web-sdk}
+## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
 Platform Web SDK sostituisce i seguenti SDK:
 
@@ -64,17 +64,17 @@ Questa opzione è più semplice da usare per le persone che hanno meno esperienz
 
 1. [Creare una proprietà tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-1. [Aggiungi il codice di incorporamento](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [Aggiungere il codice di incorporamento ](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-1. Installa e configura l’estensione Adobe Experience Platform Web SDK con il Datastream creato selezionando la configurazione dal menu a discesa &quot;Datastream&quot;. Consulta la documentazione su [estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Installa e configura l&#39;estensione Adobe Experience Platform Web SDK con il Datastream creato selezionando la configurazione dal menu a discesa &quot;Datastream&quot;. Consulta la documentazione su [estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
-   ![SDK per web di Adobe Experience Platform](../../assets/installed-catalog-web-sdk.png)
+   ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![Configura estensione](../../assets/configure-sdk-extension.png)
 
 1. Crea il necessario [Elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). Come minimo, devi creare una mappa di identità web SDK per Platform e un elemento dati di oggetto XDM per l’SDK per web per Platform.
 
-   ![Mappa identità](../../assets/sdk-identity-map.png)
+   ![Mappa delle identità](../../assets/sdk-identity-map.png)
 
    ![Oggetto XDM](../../assets/xdm-object.png)
 
@@ -105,7 +105,7 @@ javascript
     <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
-Per configurare la configurazione SDK, avrai bisogno di due ID dall&#39;interno del tuo account Adobe: il tuo edgeConfigId e il tuo orgId. edgeConfigId è lo stesso dell&#39;ID Datastream, che dovresti aver configurato nei prerequisiti.
+Per impostare la configurazione dell&#39;SDK, avrai bisogno di due ID dall&#39;interno dell&#39;account Adobe: il tuo edgeConfigId e il tuo orgId. edgeConfigId è lo stesso dell&#39;ID Datastream, che dovresti aver configurato nei prerequisiti.
 
 Per trovare il tuo edgeConfigID/datastream ID, vai a Raccolta dati e seleziona il tuo Datastream. Per trovare il tuo orgId, vai al tuo profilo.
 
@@ -129,7 +129,7 @@ Installa l’estensione Debugger Chrome da utilizzare con il debug. Si trova qui
 
 Quindi, accedi al tuo account all&#39;interno del debugger. Quindi, vai a Registri e assicurati di essere connesso all&#39;area di lavoro corretta. Ora, copia la versione codificata base64 dell’ambito decisionale dalla tua offerta.
 
-Durante la modifica del sito web, includi lo script con la configurazione e il `sendEvent` per inviare l’ambito decisionale ad Adobe.
+Durante la modifica del sito web, includi lo script con la configurazione e il `sendEvent` per inviare l&#39;ambito decisionale all&#39;Adobe.
 
 **Esempio**:
 
@@ -165,7 +165,7 @@ Puoi utilizzare il debugger per verificare di essere stato connesso correttament
 >
 >Se nei registri non viene visualizzata una connessione al bordo, potrebbe essere necessario disattivare il ad blocker.
 
-Fai riferimento alla modalità di creazione dell’offerta e alla formattazione utilizzata. In base ai criteri soddisfatti nella decisione, ti verrà restituita un’offerta contenente le informazioni specificate durante la creazione all’interno di Adobe Experience Platform.
+Fai riferimento alla modalità di creazione dell’offerta e alla formattazione utilizzata. In base ai criteri soddisfatti nella decisione, ti verrà restituita un’offerta contenente le informazioni specificate al momento della creazione all’interno di Adobe Experience Platform.
 
 In questo esempio, il JSON da restituire è:
 
@@ -253,6 +253,6 @@ document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
 ```
 
-## Limitazioni
+## Limitazioni 
 
 Alcuni vincoli di offerta non sono attualmente supportati con i flussi di lavoro Experience Edge per dispositivi mobili, ad esempio Limitazione di utilizzo. Il valore del campo Limitazione di utilizzo specifica il numero di volte in cui un’offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Aggiungere vincoli a un’offerta](../../offer-library/add-constraints.md#capping).
