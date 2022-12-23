@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 12%
+source-wordcount: '1328'
+ht-degree: 11%
 
 ---
 
@@ -64,7 +64,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    >[!NOTE]
    >
-   >Gli individui appartenenti a un segmento che non hanno l’identità selezionata (namespace) tra le loro diverse identità non possono accedere al percorso.
+   >Gli individui appartenenti a un segmento che non hanno l’identità selezionata (namespace) tra le loro diverse identità non possono accedere al percorso. È possibile selezionare solo uno spazio dei nomi di identità basato su persone. Se hai definito uno spazio dei nomi per una tabella di ricerca (ad esempio: Spazio dei nomi ProductID per una ricerca di prodotto), non sarà disponibile nel **Namespace** elenco a discesa.
 
 1. Imposta la **[!UICONTROL Velocità di limitazione]** al limite di velocità effettiva dell’attività del segmento letto.
 

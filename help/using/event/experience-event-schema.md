@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 4%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -79,6 +79,16 @@ In Journey Optimizer puoi quindi sfruttare tutti i campi delle tabelle collegate
 * quando si utilizzano condizioni in un percorso, [Leggi tutto](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * nella personalizzazione dei messaggi, [Leggi tutto](../event/experience-event-schema.md#message_personalization)
 * nella personalizzazione personalizzata delle azioni, [Leggi tutto](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Matrici{#relationships_limitations}
+
+È possibile definire una relazione di schema su un array di stringhe, ad esempio un elenco di ID prodotto.
+
+![](assets/schema15.png)
+
+Tuttavia, non è possibile definire una relazione di schema con un attributo all’interno di un array di oggetti, ad esempio un elenco di informazioni di acquisto (ID prodotto, nome prodotto, prezzo, sconto). I valori di ricerca non saranno disponibili nei percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
+
+![](assets/schema16.png)
 
 ### Configurazione evento{#unitary_event_configuration}
 

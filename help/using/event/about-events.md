@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 57%
+source-wordcount: '975'
+ht-degree: 53%
 
 ---
 
@@ -57,7 +57,9 @@ Per gli eventi unitari, sono disponibili due tipi di ID evento:
 
 * Eventi **generati dal sistema**: questi eventi richiedono un eventID. Questo campo eventID viene generato automaticamente durante la creazione dell’evento. Il sistema che trasmette l’evento non deve generare un ID, deve trasmettere quello disponibile nell’anteprima del payload.
 
-Journey Optimizer richiede che gli eventi vengano trasmessi in streaming o inseriti in batch in Adobe Experience Platform. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
+>[!NOTE]
+>
+>Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback dei messaggi, tracciamento e-mail, ecc.) non può essere utilizzato per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un segmento in base a tali eventi e utilizza il **Leggi segmento** invece. La qualificazione dei segmenti può essere utilizzata tecnicamente, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Ciclo dei dati {#data-cycle}
 

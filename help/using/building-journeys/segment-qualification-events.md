@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -66,6 +66,10 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
    >Tieni presente che **[!UICONTROL Invio]** e **[!UICONTROL Esci]** corrispondono **Realizzato** e **Uscita** stati di partecipazione al segmento da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
+
+   >[!NOTE]
+   >
+   >È possibile selezionare solo uno spazio dei nomi di identità basato su persone. Se hai definito uno spazio dei nomi per una tabella di ricerca (ad esempio: Spazio dei nomi ProductID per una ricerca di prodotto), non sarà disponibile nel **Namespace** elenco a discesa.
 
    ![](assets/segment7.png)
 

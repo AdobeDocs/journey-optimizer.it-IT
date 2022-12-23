@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1577'
 ht-degree: 11%
 
 ---
@@ -70,6 +70,7 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
    >L’editor di espressioni avanzate non è disponibile quando si definisce il **[!UICONTROL Condizione ID evento]**. Nell’editor di espressioni semplici, non tutti gli operatori sono disponibili, dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, è possibile utilizzare &quot;contiene&quot; o &quot;uguale a&quot;.
 
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Vedi [questa sezione](../event/about-creating.md#select-the-namespace).
+
 1. Definisci l’identificatore del profilo: scegli un campo dai campi payload o definisci una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, percorsi seleziona la chiave che deve corrispondere allo spazio dei nomi (ad esempio, se selezioni uno spazio dei nomi e-mail, verrà selezionata la chiave e-mail). Vedi [questa sezione](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
@@ -123,12 +124,15 @@ Durante la selezione dei campi, i campi di identità principali vengono contrass
 
 ![](assets/primary-identity.png)
 
-
 Seleziona uno spazio dei nomi dall’elenco a discesa.
 
 ![](assets/journey17.png)
 
 È consentito un solo spazio dei nomi al percorso. Se utilizzi più eventi nello stesso percorso, devi utilizzare lo stesso namespace. Consulta [questa pagina](../building-journeys/journey.md).
+
+>[!NOTE]
+>
+>È possibile selezionare solo uno spazio dei nomi di identità basato su persone. Se hai definito uno spazio dei nomi per una tabella di ricerca (ad esempio: Spazio dei nomi ProductID per una ricerca di prodotto), non sarà disponibile nel **Namespace** elenco a discesa.
 
 ## Definire l’identificatore del profilo {#define-the-event-key}
 
