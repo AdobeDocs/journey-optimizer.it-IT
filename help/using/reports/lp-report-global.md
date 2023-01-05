@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
 # Rapporto globale sulla pagina di destinazione {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="Rapporto globale sulla pagina di destinazione"
+>abstract="Il rapporto globale della pagina di destinazione consente di misurare l’impatto delle pagine di destinazione su un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
 
 La pagina di destinazione **[!UICONTROL Report globale]** nel rapporto vengono visualizzati i dettagli sull’impatto delle pagine di destinazione su un periodo di tempo selezionato. Per misurare i dati della pagina di destinazione solo nelle ultime 24 ore, consulta [Rapporto live sulla pagina di destinazione](lp-report-live.md).
 

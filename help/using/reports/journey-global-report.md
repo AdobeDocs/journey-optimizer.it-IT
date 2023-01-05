@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
 
 # Rapporto globale dei percorsi {#journey-global-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_global_report"
+>title="Rapporto globale dei percorsi"
+>abstract="Il rapporto globale del Percorso consente di misurare l’impatto dei percorsi su un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori del percorso. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
 
 È possibile accedere al report globale di percorso direttamente dal percorso con **[!UICONTROL Visualizza rapporto]** pulsante .
 

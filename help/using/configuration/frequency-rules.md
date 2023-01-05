@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 3%
+source-wordcount: '973'
+ht-degree: 2%
 
 ---
 
@@ -48,6 +48,21 @@ Utenti con **[!UICONTROL Visualizzare le regole di frequenza]** Le autorizzazion
 Ulteriori informazioni sulle autorizzazioni in [questa sezione](../administration/high-low-permissions.md).
 
 ## Creare una regola {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="Seleziona la categoria della regola del messaggio"
+>abstract="Quando viene attivata e applicata a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="Imposta il limite per la regola"
+>abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente ogni mese. Il limite di frequenza sarà basato su un periodo di calendario mensile e verrà reimpostato all&#39;inizio di ogni mese."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="Definisci i canali a cui si applica la regola"
+>abstract="Seleziona almeno un canale. L’applicazione dell’applicazione di limitazione viene applicata a tutti i canali come conteggio totale."
 
 Per creare una nuova regola, segui i passaggi seguenti.
 
@@ -115,26 +130,23 @@ Lo stato della regola cambierà in **[!UICONTROL Inattivo]** e la regola non ver
 
 Per applicare una regola di frequenza a un messaggio, segui la procedura seguente.
 
-1. Crea un messaggio selezionando uno dei canali definiti per la regola.
+1. Durante la creazione di un [percorso](../building-journeys/journey-gs.md), aggiungi un messaggio selezionando uno dei canali definiti per la regola.
 
 1. Seleziona la categoria definita per la [regola creata](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >Attualmente solo il **[!UICONTROL Marketing]** categoria disponibile per le regole di frequenza dei messaggi.
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. Puoi fare clic su **[!UICONTROL Regola di frequenza]** per visualizzare la schermata delle regole di frequenza in una nuova scheda. [Ulteriori informazioni](#access-rules)
 
-1. Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
+   Tutte le regole di frequenza che corrispondono alla categoria e al canale selezionati verranno applicate automaticamente a questo messaggio.
 
    >[!NOTE]
    >
-   >Messaggi <!--that do not have any selected category or messages -->dove è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >Messaggi in cui è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
 
 1. Puoi visualizzare il numero di profili esclusi dalla consegna nel [Report globale](../reports/global-report.md)e nella [Report live](../reports/live-report.md), dove le regole di frequenza saranno elencate come possibile motivo per cui gli utenti sono esclusi dalla consegna.
 

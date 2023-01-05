@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
 # Rapporto globale sottoscrizione {#subscription-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_global_report"
+>title="Rapporto globale sottoscrizione"
+>abstract="Il rapporto Abbonamento consente di misurare e visualizzare l’attività degli abbonati in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio gli abbonamenti e i annullamenti degli abbonamenti. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
 
 L’abbonamento **[!UICONTROL Report globale]** visualizza i dettagli sull’attività degli abbonati in un periodo di tempo selezionato. Per misurare gli abbonamenti solo nelle ultime 24 ore, consulta [Rapporto live abbonamento](subscription-report-live.md).
 

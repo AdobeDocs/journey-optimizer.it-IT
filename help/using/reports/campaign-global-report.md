@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1704'
 ht-degree: 1%
 
 ---
 
 # Rapporto globale della campagna {#campaign-global-report}
 
-Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Tutto il tempo]** pulsante .
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="Rapporto globale della campagna"
+>abstract="Il rapporto globale di Campaign consente di misurare l’impatto delle campagne in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
+
+Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Visualizza rapporto]** pulsante .
 
 ![](assets/campaign_report_global_5.png)
 

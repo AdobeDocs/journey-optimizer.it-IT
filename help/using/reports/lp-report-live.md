@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # Rapporto live sulla pagina di destinazione {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="Rapporto live sulla pagina di destinazione"
+>abstract="Il rapporto live della pagina di destinazione consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni della pagina di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
 
 La pagina di destinazione **[!UICONTROL Report live]** Il rapporto mostra i dettagli sull’impatto delle pagine di destinazione solo nelle ultime 24 ore. Per misurare i dati della pagina di destinazione in un periodo di tempo selezionato, consulta [Rapporto globale sulla pagina di destinazione](lp-report-global.md).
 

@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
 # Rapporto live della campagna {#campaign-live-report}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_live_report"
+>title="Rapporto live della campagna"
+>abstract="Il rapporto live di Campaign ti consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni delle campagne solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
 
 Puoi accedere al rapporto live della campagna direttamente dalla tua campagna con **[!UICONTROL Vista dal vivo]** pulsante .
 
@@ -25,7 +30,6 @@ La campagna **[!UICONTROL Report live]** La pagina verrà visualizzata con le se
 * [E-mail](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
-
 
 La campagna **[!UICONTROL Report live]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/live-report.md#modify-dashboard).
 
