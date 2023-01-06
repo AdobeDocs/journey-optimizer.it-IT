@@ -8,7 +8,7 @@ exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Per ulteriori informazioni sulla gestione degli accessi, consulta le pagine segu
 1. **Creare sandbox** per suddividere le istanze in ambienti virtuali separati e isolati. Le **Sandbox** vengono create in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Sandbox](../../administration/sandboxes.md).
 
    >[!NOTE]
-   >Come **Amministratore di sistema**, se non riesci a visualizzare il **[!UICONTROL Sandbox]** menu in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Scopri come aggiornare il profilo di prodotto in [questa pagina](../../administration/permissions.md#edit-product-profile).
+   >Come **Amministratore di sistema**, se non trovi il menu **[!UICONTROL Sandbox]** in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Scopri come aggiornare il profilo di prodotto in [questa pagina](../../administration/permissions.md#edit-product-profile).
 
 1. **Comprendere i profili di prodotto**. I profili di prodotto sono un set di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. Per ulteriori informazioni, consulta la sezione [Profili di prodotto predefiniti](../../administration/ootb-product-profiles.md).
 
-1. **Imposta le autorizzazioni** per i profili di prodotto, tra cui le **Sandbox** e concedi l‘accesso ai membri del tuo gruppo assegnandoli a profili di prodotto diversi. Questo passaggio viene eseguito nella [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate al **[!UICONTROL Profilo di prodotto]**. Ogni autorizzazione viene riunita nelle funzionalità, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Livelli di autorizzazione](../../administration/high-low-permissions.md).
+1. **Imposta le autorizzazioni** per i profili di prodotto, tra cui le **Sandbox** e concedi l‘accesso ai membri del tuo gruppo assegnandoli a profili di prodotto diversi. Questo passaggio viene eseguito in [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Le autorizzazioni sono diritti unitari che ti consentono di definire le autorizzazioni assegnate al **[!UICONTROL Profilo di prodotto]**. Ogni autorizzazione viene riunita nelle funzionalità, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta la sezione [Livelli di autorizzazione](../../administration/high-low-permissions.md).
 
 Inoltre, devi aggiungere gli utenti che hanno bisogno di accedere ad Assets Essentials ai profili di prodotto **Utenti consumer di Assets Essentials** e/o **Utenti di Assets Essentials**. [Ulteriori informazioni sono disponibili nella documentazione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=it){target=&quot;_blank&quot;}.
 
@@ -42,7 +42,7 @@ Quando accedi a [!DNL Journey Optimizer] per la prima volta, viene effettuato il
 Per creare i tuoi percorsi e inviare messaggi, accedi al menu **AMMINISTRAZIONE**. Sfoglia il menu **[!UICONTROL Canali]** per configurare i messaggi e le superfici di canale (ad es. predefiniti per messaggi).
 
 >[!NOTE]
->Come **Amministratore di sistema**, se non riesci a visualizzare il **[!UICONTROL Canali]** menu in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Scopri come aggiornare il profilo di prodotto in [questa pagina](../../administration/permissions.md#edit-product-profile).
+>Come **Amministratore di sistema**, se non trovi il menu **[!UICONTROL Canali]** in [!DNL Journey Optimizer], aggiorna le autorizzazioni in [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Scopri come aggiornare il profilo di prodotto in [questa pagina](../../administration/permissions.md#edit-product-profile).
 
 Segui i passaggi seguenti:
 

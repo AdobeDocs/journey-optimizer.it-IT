@@ -11,7 +11,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 53%
+ht-degree: 62%
 
 ---
 
@@ -59,7 +59,7 @@ Per gli eventi unitari, sono disponibili due tipi di ID evento:
 
 >[!NOTE]
 >
->Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback dei messaggi, tracciamento e-mail, ecc.) non può essere utilizzato per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un segmento in base a tali eventi e utilizza il **Leggi segmento** invece. La qualificazione dei segmenti può essere utilizzata tecnicamente, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
+>Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un segmento basato su tali eventi e utilizza l’attiviità **Leggi segmento**. Tecnicamente, è possibile usare la qualificazione dei segmenti, ma potrebbe causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione o la ricerca in un percorso diverso, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Ciclo dei dati {#data-cycle}
 

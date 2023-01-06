@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
 workflow-type: tm+mt
 source-wordcount: '2220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
    * [Canale per notifiche push](../push/get-started-push.md)
    * [Canale SMS](../sms/get-started-sms.md)
 
-* La guida alla configurazione è stata riorganizzata per migliorare la leggibilità. [Maggiori informazioni](../configuration/get-started-configuration.md)
+* La Guida alla configurazione è stata riorganizzata per migliorarne la leggibilità. [Maggiori informazioni](../configuration/get-started-configuration.md)
 
 ## Novembre 2022 {#november-2022}
 
