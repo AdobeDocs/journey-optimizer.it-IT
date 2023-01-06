@@ -11,7 +11,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Prima di poter generare questo file, devi creare:
 >
 >Se non hai configurato alcuna opzione di routing dei file, non potrai creare una superficie di direct mailing.
 
-## Configurare il routing dei file {#file-routing-configuration}
+## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
@@ -49,7 +49,7 @@ Prima di poter generare questo file, devi creare:
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="Configurazione dell’indirizzamento dei file"
->abstract="Seleziona la configurazione di routing dei file desiderata, che definisce dove verrà esportato il file per il provider di direct mailing da utilizzare."
+>abstract="Seleziona la configurazione di indirizzamento dei file desiderata, che definisce dove verrà esportato il file che verrà utilizzato dal provider di direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
@@ -99,13 +99,13 @@ Per configurare il routing dei file, segui i passaggi seguenti.
    >
    >Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di routing dei file, ma non sarà possibile selezionarla in una superficie finché non sarà **[!UICONTROL Attivo]**.
 
-## Creare una superficie direct mailing {#direct-mail-surface}
+## Creare una superficie per direct mail {#direct-mail-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
->title="Definire le impostazioni della direct mailing"
->abstract="Una superficie direct mailing contiene le impostazioni per la formattazione del file che contiene i dati di pubblico con targeting e viene utilizzata dal provider di posta. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di routing del file."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurare il routing dei file"
+>title="Definire le impostazioni per direct mail"
+>abstract="Una superficie per direct mail contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
 >[!CONTEXTUALHELP]
