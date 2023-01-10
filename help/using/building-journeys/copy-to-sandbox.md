@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 >title="Oggetti dipendenti"
 >abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno."
 
-Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questo [sezione](../building-journeys/copy-to-sandbox.md#limitations).
+Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questo [sezione](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
 
 ## Copia del processo e delle limitazioni {#limitations}
 
-Non garantiamo che tutti gli elementi collegati vengano copiati nella sandbox di destinazione. Ti consigliamo vivamente di eseguire un controllo approfondito. Identifica eventuali oggetti mancanti e creali manualmente prima di pubblicare il percorso.
+Tutti gli elementi collegati potrebbero non essere copiati nella sandbox di destinazione. L&#39;Adobe consiglia vivamente di eseguire un controllo approfondito. Identifica eventuali oggetti mancanti e creali manualmente prima di pubblicare il percorso.
 
 Vengono copiati i seguenti oggetti:
 
