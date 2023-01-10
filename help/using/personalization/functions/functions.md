@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 3%
 
 ---
@@ -146,22 +146,22 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Assoluto</a></td><td>Questa funzione converte un numero che è valore assoluto</td>
+        <td><a href="math.md#absolute">Assoluto</a></td><td>Questa funzione converte un numero nel suo valore assoluto</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1</td>
+        <td><a href="math.md#random">Random</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Round down</a></td><td>Questa funzione consente di arrotondare un numero</td>
+        <td><a href="math.md#round-down">Round down</a></td><td>Questa funzione consente di arrotondare un numero</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Arrotondamento</a></td><td>Questa funzione arrotonda un numero</td>
+        <td><a href="math.md#round-up">Arrotondamento</a></td><td>Questa funzione arrotonda un numero</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">A percentuale</a></td><td>Questa funzione converte un numero in percentuale</td>
+        <td><a href="math.md#to-percentage">A percentuale</a></td><td>Questa funzione converte un numero in percentuale</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">Precisione</a></td><td>Questa funzione converte un numero in una precisione richiesta</td>
+        <td><a href="math.md#to-precision">Precisione</a></td><td>Questa funzione converte un numero in una precisione richiesta</td>
     </tr>
 </table>
 
@@ -325,7 +325,7 @@ Gli aiutanti sono descritti in [questa pagina](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Valore di fallback predefinito</a></td><td>Questa funzione consente di eseguire il rendering di una variabile con impostazione predefinita</td>
+        <td><a href="helpers.md#default">Valore di fallback predefinito</a></td><td>Questa funzione viene utilizzata per eseguire il rendering di una variabile con impostazione predefinita</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Ogni</a></td><td>Questa funzione viene utilizzata per eseguire iterazioni su un array</td>
