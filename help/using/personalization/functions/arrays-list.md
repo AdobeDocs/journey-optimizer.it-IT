@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -125,7 +125,7 @@ La `topN` viene utilizzata per restituire il primo `N` elementi in una matrice, 
 
 **Esempio**
 
-L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più alto.
+L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più basso.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ La `bottomN` viene utilizzata per restituire l&#39;ultima `N` elementi in una ma
 
 **Esempio**
 
-L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più basso.
+L&#39;operazione seguente restituisce gli ultimi cinque ordini con il prezzo più alto.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
