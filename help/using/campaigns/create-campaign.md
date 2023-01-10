@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
+source-git-commit: ef7c1ac61a59407507e9570e1114e6ef0cb8a7ca
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 8%
@@ -161,4 +161,4 @@ Se non desideri eseguire la campagna subito dopo l’attivazione, puoi specifica
 
 ![](assets/create-campaign-schedule.png)
 
-Quando la campagna è pronta, puoi rivederla e pubblicarla. [Ulteriori informazioni](#review-activate)
+Quando la campagna è pronta, puoi rivederla e pubblicarla. [Ulteriori informazioni](review-activate-campaign.md)
