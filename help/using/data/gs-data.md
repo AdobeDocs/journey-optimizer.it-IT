@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: df1b520f693d33d7080b203df0d3808144feb6e3
+source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -37,11 +37,15 @@ In generale, la flessibilità desiderata dai dati è:
     <br>
   </td>
 </tr>
-  <!--td>
+</table>
+
+<!--td>
     <div><img alt="retention" src="assets/do-not-localize/retention.png" />  
     <br>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
-  </td-->
+  </td>
 </tr>
+<tr style="border: 0;"-->
+<table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
     <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
@@ -78,6 +82,6 @@ Tutti i dati sono considerati proprietà dei clienti e possono essere conservati
 
 -->
 
-* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono rimossi completamente dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
+* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono completamente rimossi dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
 
 I metodi di cui sopra sono definiti contrattualmente e descritti in dettaglio nell’accordo di elaborazione dei dati (DPA) che l’Adobe concorda con te all’inizio di un impegno. applicazioni di Adobe, tra cui [!DNL Journey Optimizer], sono basati sul principio che i dati di ciascun cliente devono essere trattati come risorsa di dati proprietaria del cliente.
