@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: fc88faceceea0312417e1176a5a61c1c03a6f01b
 workflow-type: tm+mt
-source-wordcount: '1751'
-ht-degree: 9%
+source-wordcount: '1775'
+ht-degree: 8%
 
 ---
 
@@ -114,6 +114,11 @@ Una volta delegato un sottodominio ad Adobe in [!DNL Journey Optimizer], viene c
 >id="ajo_admin_subdomain_dns_cname"
 >title="Genera i record DNS e di convalida corrispondenti"
 >abstract="Per delegare un sottodominio utilizzando i CNAME, devi copiare e incollare le informazioni del server dei nomi di Adobe e il record di convalida dell’URL CDN SSL visualizzato nell’interfaccia Journey Optimizer nella piattaforma host. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per inviare i messaggi."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="Copia il record di convalida"
+>abstract="Adobe genera un record di convalida. Devi creare il record corrispondente sulla piattaforma di hosting per la convalida degli URL CDN."
 
 Se si dispone di criteri di restrizione specifici per il dominio e si desidera che l&#39;Adobe abbia solo un controllo parziale sul DNS, è possibile scegliere di eseguire tutte le attività relative al DNS sul proprio lato.
 
