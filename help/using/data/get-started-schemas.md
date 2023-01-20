@@ -7,10 +7,10 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 29%
+source-wordcount: '305'
+ht-degree: 30%
 
 ---
 
@@ -22,15 +22,15 @@ Gli schemi sono il modo standard per descrivere i dati in Experience Platform, c
 
 Uno schema è un set di regole che rappresentano e convalidano la struttura e il formato dei dati. A un livello avanzato, gli schemi forniscono una definizione astratta di un oggetto reale (ad esempio una persona) e delineano quali dati includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via).
 
-Scopri come creare schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target=&quot;_blank&quot;}
+Scopri come creare schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}
 
 La **Schemi** area di lavoro [!DNL Adobe Journey Optimizer] l’interfaccia utente consente di gestire le risorse Experience Data Model (XDM), inclusi schemi, classi, gruppi di campi dello schema e tipi di dati. Puoi visualizzare ed esplorare le risorse di base fornite da Adobe e creare risorse e schemi personalizzati per la tua organizzazione.
 
 ![](assets/schemas-home.png)
 
-Scopri come utilizzare l’interfaccia utente di Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
+Scopri come utilizzare l’interfaccia utente di Schemi in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
-La documentazione dettagliata per creare uno schema utilizzando l’Editor di schema è disponibile in [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target=&quot;_blank&quot;}
+La documentazione dettagliata per creare uno schema utilizzando l’Editor di schema è disponibile in [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}
 
 
 ## Video introduttivo{#video-schema}
@@ -42,7 +42,7 @@ Scopri come creare uno schema, aggiungere gruppi di campi, creare e configurare 
 **Consulta anche**
 
 * [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../segment/creating-test-profiles.md)
-* [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}
-* [Best practice per la modellazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
-* [Creare uno schema utilizzando l’API del Registro di sistema dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
-* [Definire una relazione tra due schemi utilizzando l’Editor di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;}
+* [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}
+* [Best practice per la modellazione dei dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
+* [Creare uno schema utilizzando l’API del Registro di sistema dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
+* [Definire una relazione tra due schemi utilizzando l’Editor di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
