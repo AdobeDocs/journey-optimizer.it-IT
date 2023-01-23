@@ -5,13 +5,14 @@ title: Informazioni sulle origini dati
 description: Informazioni su come configurare un’origine dati
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 73%
+source-wordcount: '316'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +45,7 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 >
 >Le relazioni di schema non sono supportate per le origini dati.
 
-Per ulteriori informazioni su come configurare un’origine dati Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati in un percorso, consulta questo articolo [video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}.
+Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Video introduttivo {#video}
 

@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Modificare o interrompere una campagna
-description: Scopri come modificare, interrompere o duplicare le campagne live in [!DNL Journey Optimizer]
+description: Scopri come modificare, interrompere o duplicare campagne live in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---

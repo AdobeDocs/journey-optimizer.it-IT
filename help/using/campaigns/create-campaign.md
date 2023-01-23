@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Creare una campagna
-description: Scopri come creare campagne in [!DNL Journey Optimizer]
+description: Scopri come creare campagne in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: creare, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ef7c1ac61a59407507e9570e1114e6ef0cb8a7ca
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '721'
 ht-degree: 8%
 
 ---

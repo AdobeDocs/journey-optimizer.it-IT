@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1294'
 ht-degree: 1%
 
 ---
@@ -195,7 +196,7 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} ad esempio.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
@@ -228,7 +229,7 @@ A questo scopo, seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** quindi s
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **Commento** colonna. L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **Commento** colonna. L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} ad esempio.
 
 1. Al termine, trascina e rilascia il file CSV, quindi fai clic su **[!UICONTROL Invia]**.
 

@@ -7,10 +7,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: elenco Consentiti, elenco, sicuro, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1034'
 ht-degree: 2%
 
 ---
@@ -141,7 +142,7 @@ Per farlo, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} per esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} ad esempio.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
@@ -153,7 +154,7 @@ Per compilare l’elenco Consentiti, puoi anche chiamare l’API di soppressione
 
 È possibile eseguire le **Aggiungi**, **Elimina** e **Get** operazioni.
 
-Ulteriori informazioni sull’esecuzione di chiamate API in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html)Documentazione di riferimento di {target=&quot;_blank&quot;}.
+Ulteriori informazioni sull’esecuzione di chiamate API in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} documentazione di riferimento.
 
 ## Logica Elenco Consentiti {#logic}
 
@@ -180,7 +181,7 @@ Quando l’elenco Consentiti è [disattivato](#deactivate-allow-list), tutte le 
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare indirizzi e-mail o domini che sono stati esclusi da un invio perché non erano nell’elenco Consentiti. A questo scopo, puoi utilizzare la funzione [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} per effettuare le chiamate API riportate di seguito.
+Quando l’elenco Consentiti è attivo, puoi recuperare indirizzi e-mail o domini che sono stati esclusi da un invio perché non erano nell’elenco Consentiti. A questo scopo, puoi utilizzare la funzione [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} effettua le chiamate API di seguito.
 
 Per ottenere **numero di e-mail** che non sono stati inviati perché i destinatari non erano nell’elenco Consentiti, utilizza la seguente query:
 

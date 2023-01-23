@@ -5,12 +5,13 @@ title: Origine dati Adobe Experience Platform
 description: Scopri come configurare l’origine dati Adobe Experience Platform
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: integrato, origine, dati, piattaforma, integrazione
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 14%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 14%
 >title="Origine dati Adobe Experience Platform"
 >abstract="L’origine dati Adobe Experience Platform definisce la connessione a Profilo cliente in tempo reale Adobe. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. È progettato per recuperare e utilizzare i dati dal servizio Profilo cliente in tempo reale (ad esempio, controlla se la persona che ha inserito un percorso è una donna). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza."
 
-L’origine dati Adobe Experience Platform definisce la connessione a Profilo cliente in tempo reale Adobe. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. Questa origine dati è progettata per recuperare e utilizzare i dati dal servizio Profilo cliente in tempo reale (ad esempio, controlla se la persona che ha inserito un percorso è una donna). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. Per ulteriori informazioni sull’Adobe Profilo cliente in tempo reale, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}.
+L’origine dati Adobe Experience Platform definisce la connessione a Profilo cliente in tempo reale Adobe. Questa origine dati è incorporata e preconfigurata e non può essere eliminata. Questa origine dati è progettata per recuperare e utilizzare i dati dal servizio Profilo cliente in tempo reale (ad esempio, controlla se la persona che ha inserito un percorso è una donna). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. Per ulteriori informazioni sull’Adobe Profilo cliente in tempo reale, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 
 Per consentire la connessione al servizio Profilo cliente in tempo reale, è necessario utilizzare una chiave per identificare una persona e uno spazio dei nomi che contestualizza la chiave. Di conseguenza, puoi utilizzare questa origine dati solo se i percorsi iniziano con un evento contenente una chiave e uno spazio dei nomi. [Maggiori informazioni](../building-journeys/journey.md).

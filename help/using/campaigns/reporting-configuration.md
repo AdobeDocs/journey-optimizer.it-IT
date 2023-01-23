@@ -7,13 +7,14 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: configurazione, sperimentazione, reporting, ottimizzatore
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 29%
+source-wordcount: '719'
+ht-degree: 28%
 
 ---
 
@@ -46,11 +47,11 @@ Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli
 ## Prerequisiti
 
 
-Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#create){target=&quot;_blank&quot;}.
+Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#create){target="_blank"}.
 
 * È possibile aggiungere solo set di dati di tipo evento.
 
-* Questi set di dati devono contenere almeno uno dei seguenti [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target=&quot;_blank&quot;}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli Web**.
+* Questi set di dati devono contenere almeno uno dei seguenti [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli Web**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ Prima di poter aggiungere un set di dati alla configurazione di reporting, devi 
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
+>Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
 ## Obiettivi corrispondenti a ciascun gruppo di campi {#objective-list}
 
@@ -98,11 +99,11 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obi
 
    >[!CAUTION]
    >
-   >Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target=&quot;_blank&quot;}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli Web**. Se selezioni un set di dati che non corrisponde a tali criteri, non potrai salvare le modifiche.
+   >Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli Web**. Se selezioni un set di dati che non corrisponde a tali criteri, non potrai salvare le modifiche.
 
    ![](assets/reporting-config-datasets.png)
 
-   Per ulteriori informazioni sui set di dati, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target=&quot;_blank&quot;}.
+   Per ulteriori informazioni sui set di dati, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
 
 1. Da **[!UICONTROL ID profilo]** elenco a discesa, seleziona l’attributo del campo set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
 
@@ -116,7 +117,7 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obi
 
    ![](assets/reporting-config-namespace.png)
 
-   Per ulteriori informazioni sugli spazi dei nomi, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target=&quot;_blank&quot;}.
+   Per ulteriori informazioni sugli spazi dei nomi, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target="_blank"}.
 
 1. Salva le modifiche per aggiungere il set di dati selezionato all’elenco di configurazione del reporting.
 
