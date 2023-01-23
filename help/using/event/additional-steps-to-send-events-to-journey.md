@@ -7,8 +7,9 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: passaggi, configurazione, percorso, eventi, flusso, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 5%
@@ -19,7 +20,7 @@ ht-degree: 5%
 
 Per configurare gli eventi a cui inviare **[!UICONTROL API Streaming Ingestion]** e da utilizzare in [!DNL Journey Optimizer], segui questi passaggi:
 
-1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target=&quot;_blank&quot;}.
+1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target="_blank"}.
 1. Copia il payload dall’anteprima del payload nel **[!UICONTROL Evento]** menu. Per ulteriori informazioni, consulta [questa pagina](../event/about-creating.md#define-the-payload-fields).
 
 Devi quindi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
@@ -87,6 +88,6 @@ Ecco un esempio di evento API Streaming Ingestion:
 }
 ```
 
-Per facilitare l’identificazione del punto in cui incollare la parte &quot;dati&quot;, puoi utilizzare uno strumento di visualizzazione JSON, ad esempio [Formattatore JSON](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+Per facilitare l’identificazione del punto in cui incollare la parte &quot;dati&quot;, puoi utilizzare uno strumento di visualizzazione JSON, ad esempio [Formattatore JSON](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Per risolvere i problemi relativi alle API Streaming Ingestion, fai riferimento a [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Per risolvere i problemi relativi alle API Streaming Ingestion, fai riferimento a [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

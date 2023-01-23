@@ -7,10 +7,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: espressione, editor, helper, caso d'uso, personalizzazione
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 2%
 
 ---
@@ -52,7 +53,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Crea un evento il cui schema include `productListItems` array.
 1. Definisci tutti i campi di questa matrice come campi di payload per questo evento.
 
-   Ulteriori informazioni sul tipo di dati dell’elemento dell’elenco prodotti [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+   Ulteriori informazioni sul tipo di dati dell’elemento dell’elenco prodotti [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crea un percorso che inizia con questo evento.
 1. Aggiungi un **E-mail** attività al percorso.
@@ -105,7 +106,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Ulteriori informazioni sul tipo di dati del nome della persona in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Ulteriori informazioni sul tipo di dati del nome della persona in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Fai clic su **[!UICONTROL Convalida]**, quindi fai clic su **[!UICONTROL Salva]**.
 

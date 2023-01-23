@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: stock, immagini, integrazione, foto
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 La [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] Il plug-in per l’integrazione di E-mail Designer offre ai clienti un modo semplice di navigare, concedere in licenza e salvare le immagini da utilizzare nella creazione dei messaggi.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} consente di accedere a milioni di foto, video, illustrazioni e immagini vettoriali di alta qualità, curate e prive di royalty. È possibile scegliere di acquistare un pacchetto di crediti per la licenza delle risorse o acquistare solo una licenza Standard o Extended per la risorsa necessaria. Adobe Stock fornisce anche una raccolta gratuita di risorse.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} consente di accedere a milioni di foto, video, illustrazioni e immagini vettoriali di alta qualità, curate e prive di royalty. È possibile scegliere di acquistare un pacchetto di crediti per la licenza delle risorse o acquistare solo una licenza Standard o Extended per la risorsa necessaria. Adobe Stock fornisce anche una raccolta gratuita di risorse.
 
 Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail direttamente da [!DNL Adobe Stock] e aggiungilo al tuo **[!UICONTROL Risorse]** utilizzando **[!UICONTROL Trova foto Adobe Stock]** opzione . Inoltre, il **[!UICONTROL Trova foto di scorta simili]** consente di trovare immagini che corrispondono al contenuto, al colore e alla composizione della risorsa utilizzata nella consegna.
 
@@ -29,7 +30,7 @@ Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail diret
 
 La **[!UICONTROL Trova foto Adobe Stock]** e **[!UICONTROL Trova immagine simile]** sono disponibili per gli utenti con accesso a un profilo di prodotto AEM Assets Essentials.
 
-Per ulteriori informazioni, consulta [Documentazione essenziale delle risorse](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
+Per ulteriori informazioni, consulta [Documentazione essenziale delle risorse](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Inserire un&#39;immagine da [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ Per concedere la licenza e scaricare l&#39;immagine, segui i passaggi seguenti:
 
    Questo acquisto dipende dal tuo piano o abbonamento Adobe Stock. Se disponi di più account Adobe Stock, verrai reindirizzato all’ultimo ID Stock utilizzato. In questo caso, accertati di aver effettuato l’accesso all’account corretto prima di concedere in licenza la risorsa.
 
-   Per ulteriori informazioni sui piani e i prezzi di Adobe Stock in [Documentazione di Adobe Stock](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
+   Per ulteriori informazioni sui piani e i prezzi di Adobe Stock in [Documentazione di Adobe Stock](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Se viene inviata un&#39;e-mail con un&#39;immagine senza licenza, l&#39;immagine mantiene il proprio modulo senza licenza con la filigrana.
@@ -102,5 +103,5 @@ Per concedere la licenza e scaricare l&#39;immagine, segui i passaggi seguenti:
 
 * [Progettazione di e-mail in Journey Optimizer](get-started-email-design.md)
 * [Impostazioni dei componenti per la progettazione delle e-mail](content-components.md)
-* [Guida introduttiva di Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+* [Guida introduttiva di Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 
