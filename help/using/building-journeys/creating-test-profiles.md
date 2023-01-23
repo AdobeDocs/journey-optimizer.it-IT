@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: profili di test, test, test, percorso
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1368'
 ht-degree: 3%
 
 ---
@@ -27,9 +28,9 @@ Esistono diversi modi per creare profili di test. In questi dettagli di pagina p
 
    Oltre a questi due metodi, Adobe Journey Optimizer viene fornito con un [caso d’uso interno al prodotto](#use-case-1) per facilitare la creazione del profilo di test.
 
-Puoi anche caricare un file json in un set di dati esistente. Per ulteriori informazioni, consulta la sezione [Documentazione sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
+Puoi anche caricare un file json in un set di dati esistente. Per ulteriori informazioni, consulta la sezione [Documentazione sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
-La creazione di un profilo di test è simile alla creazione di profili normali in Adobe Experience Platform. Per ulteriori informazioni, consulta la [Documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}.
+La creazione di un profilo di test è simile alla creazione di profili normali in Adobe Experience Platform. Per ulteriori informazioni, consulta la [Documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 ➡️ [Scopri come creare profili di test in questo video](#video)
 
@@ -65,7 +66,7 @@ Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l’elenco de
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla creazione dello schema, consulta [Documentazione di XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}.
+>Per ulteriori informazioni sulla creazione dello schema, consulta [Documentazione di XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 Poi devi **creare il set di dati** in cui verranno importati i profili. Segui questi passaggi:
 
@@ -82,7 +83,7 @@ Poi devi **creare il set di dati** in cui verranno importati i profili. Segui qu
 
 >[!NOTE]
 >
-> Per ulteriori informazioni sulla creazione di un set di dati, consulta [Documentazione del servizio catalogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+> Per ulteriori informazioni sulla creazione di un set di dati, consulta [Documentazione del servizio catalogo](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Caso di utilizzo interno al prodotto{#use-case-1}
 
@@ -177,11 +178,11 @@ In Adobe Experience Platform, puoi creare profili caricando un file csv contenen
 I profili di test vengono aggiunti e possono ora essere utilizzati durante il test di un percorso. Fai riferimento a [questa sezione](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Per ulteriori informazioni sulle importazioni CSV, consulta la sezione [Documentazione sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}.
+> Per ulteriori informazioni sulle importazioni CSV, consulta la sezione [Documentazione sull’acquisizione dei dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Creare profili di test utilizzando le chiamate API{#create-test-profiles-api}
 
-Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}.
+Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 Devi utilizzare uno schema di profilo che contenga il gruppo di campi &quot;Dettagli del test di profilo&quot;. Il flag testProfile fa parte di questo gruppo di campi.
 Quando crei un profilo, accertati di trasmettere il valore: testProfile = true.

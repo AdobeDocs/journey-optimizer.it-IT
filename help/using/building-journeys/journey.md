@@ -6,10 +6,11 @@ description: Introduzione ai percorsi
 feature: Journeys
 role: User
 level: Beginner
+keywords: percorso, scopri, partenza
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '580'
 ht-degree: 29%
 
 ---

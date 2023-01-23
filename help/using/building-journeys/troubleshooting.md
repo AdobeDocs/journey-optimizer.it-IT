@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1030'
 ht-degree: 74%
 
 ---
@@ -49,7 +50,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 ## Controlla se le persone entrano nel percorso{#checking-if-people-enter-the-journey}
 

@@ -5,13 +5,14 @@ title: Utilizzare azioni personalizzate
 description: Scopri come utilizzare le azioni personalizzate
 feature: Actions
 topic: Content Management
-role: User
+role: User, Developer
 level: Intermediate
+keywords: azione, personalizzata, API, percorso, configurazione, servizio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 25%
+source-wordcount: '409'
+ht-degree: 24%
 
 ---
 

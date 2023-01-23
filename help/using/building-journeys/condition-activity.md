@@ -7,8 +7,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: attività, condizione, tela, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 8%
@@ -60,7 +61,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![](assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo di segmenti nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} per creare i segmenti, puoi sfruttarli nelle condizioni di percorso. Fai riferimento a [Utilizzo di segmenti nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -69,7 +70,7 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e di origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
+Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
 ## Condizione Origine dati {#data_source_condition}
 
@@ -161,4 +162,4 @@ Per utilizzare un segmento in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Tieni presente che solo gli individui con il **Realizzato** e **Esistente** gli stati di partecipazione al segmento saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Tieni presente che solo gli individui con il **Realizzato** e **Esistente** gli stati di partecipazione al segmento saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

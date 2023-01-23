@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: qualificazione, eventi, segmento, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -63,7 +64,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
 
    >[!NOTE]
    >
-   >Tieni presente che **[!UICONTROL Invio]** e **[!UICONTROL Esci]** corrispondono **Realizzato** e **Uscita** stati di partecipazione al segmento da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Tieni presente che **[!UICONTROL Invio]** e **[!UICONTROL Esci]** corrispondono **Realizzato** e **Uscita** stati di partecipazione al segmento da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
 
@@ -113,7 +114,7 @@ Non utilizzare in un **[!UICONTROL Qualificazione del segmento]** attività , un
 
 ![](assets/segment-error.png)
 
-Inserisci una regola di limitazione per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni in [Documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. La regola di tappatura non ha alcun nuovo tentativo. Se devi riprovare, devi utilizzare un percorso alternativo nel percorso selezionando la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]** in condizioni o azioni.
+Inserisci una regola di limitazione per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni in [Documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di tappatura non ha alcun nuovo tentativo. Se devi riprovare, devi utilizzare un percorso alternativo nel percorso selezionando la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]** in condizioni o azioni.
 
 Prima di utilizzare il segmento in un percorso di produzione, valuta sempre prima il volume di individui che si qualificano per questo segmento ogni giorno. Per farlo, puoi controllare la **[!UICONTROL Segmenti]** , apri il segmento e osserva il **[!UICONTROL Profili nel tempo]** grafico.
 

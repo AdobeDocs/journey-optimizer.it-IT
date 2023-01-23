@@ -6,11 +6,12 @@ description: Scopri come gestire l’accesso al profilo
 feature: Journeys
 role: User
 level: Intermediate
+keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 23%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 
@@ -20,7 +21,7 @@ Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibi
 
 ![](assets/journey-re-entrance.png)
 
-Al termine di un percorso, il suo stato è **[!UICONTROL Chiuso]**. TNew individui non possono più entrare nel percorso. Le persone già nel percorso finiscono il percorso normalmente.
+Al termine di un percorso, il suo stato è **[!UICONTROL Chiuso]**. I nuovi individui non possono più entrare nel percorso. Le persone già nel percorso finiscono il percorso normalmente.
 
 Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato.  [Maggiori informazioni](journey-gs.md#global_timeout).
 
