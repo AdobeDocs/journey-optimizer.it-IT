@@ -5,10 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 8%
+source-wordcount: '215'
+ht-degree: 6%
 
 ---
 
@@ -20,17 +20,39 @@ Scopri come utilizzare le funzioni Math nell’editor espressioni.
 
 La `absolute` La funzione viene utilizzata per convertire un numero il cui valore è assoluto.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= absolute(int) %}: int
+```
+
+## formatNumber {#format-number}
+
+La `formatNumber` viene utilizzata per formattare qualsiasi numero nella relativa rappresentazione sensibile alla lingua.
+
+Accetta un numero e una stringa che rappresentano le impostazioni internazionali e restituisce una stringa formattata del numero nelle impostazioni internazionali desiderate.
+
+**Sintassi**
+
+```sql
+{%= formatNumber(number/double,string) %}: string
+```
+
+È possibile utilizzare la formattazione e le impostazioni internazionali valide come riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+
+**Esempio**
+
+Questa query restituisce una stringa formattata in arabo corrispondente a 123456.789 come numero di input.
+
+```sql
+{%= formatNumber(123456.789, "ar_EG") %}
 ```
 
 ## Random {#random}
 
 La `random` viene utilizzato per restituire un valore casuale compreso tra 0 e 1.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= random() %}: double
@@ -40,7 +62,7 @@ La `random` viene utilizzato per restituire un valore casuale compreso tra 0 e 1
 
 La `roundDown` viene utilizzata per arrotondare un numero.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= roundDown(double) %}: double
@@ -50,17 +72,35 @@ La `roundDown` viene utilizzata per arrotondare un numero.
 
 La `Count only null` viene utilizzata per arrotondare un numero.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= roundUp(double) %}: double
+```
+
+## Stringa esadecimale {#to-hex-string}
+
+La `toHexString` la funzione converte qualsiasi numero nella relativa stringa esadecimale.
+
+**Sintassi**
+
+```sql
+{%= toHexString(number) %}: string
+```
+
+**Esempio**
+
+Questa query restituisce il valore esadecimale di 158, ovvero 9e.
+
+```sql
+{%= toHexString(158) %}
 ```
 
 ## In percentuale {#to-percentage}
 
 La `toPercentage` viene utilizzata per convertire un numero in percentuale.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= toPercentage(double) %}: string
@@ -70,8 +110,26 @@ La `toPercentage` viene utilizzata per convertire un numero in percentuale.
 
 La `toPrecision` viene utilizzata per convertire un numero in precisione richiesta.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= toPrecision(double,int) %}: string
+```
+
+## Stringa {#to-string}
+
+La **toString** la funzione converte qualsiasi numero nella relativa rappresentazione stringa.
+
+**Sintassi**
+
+```sql
+{%= toString(string) %}: string
+```
+
+**Esempio**
+
+Questa query restituisce &quot;12&quot;.
+
+```sql
+{%= toString(12) %} 
 ```

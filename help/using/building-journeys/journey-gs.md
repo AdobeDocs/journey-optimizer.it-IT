@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, prima, start, quick start, segmento, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1061'
 ht-degree: 10%
 
 ---
@@ -94,9 +94,39 @@ La **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 
 ### Ingresso{#entrance}
 
-Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione per percorsi &quot;una ripresa&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio.
+Per impostazione predefinita, i nuovi percorsi consentono il rientro. Puoi deselezionare la **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio.
+
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 
 Ulteriori informazioni sulla gestione dell’ingresso del profilo, in [questa sezione](entry-management.md).
+
+### Gestisci accesso {#access}
+
+Per assegnare etichette di utilizzo dati personalizzate o di base al percorso, fai clic sul pulsante **[!UICONTROL Gestisci accesso]** pulsante . [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### Fuso orario e fuso orario del profilo {#timezone}
+
+Il fuso orario è definito a livello di percorso.
+
+Puoi immettere un fuso orario fisso oppure utilizzare i profili Adobe Experience Platform per definire il fuso orario percorso.
+
+Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere recuperato nel percorso.
+
+Per ulteriori informazioni sulla gestione del fuso orario, vedi [questa pagina](../building-journeys/timezone-management.md).
+
+### Date di inizio e fine {#dates}
+
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+
+Puoi definire un **Data di inizio**. Puoi anche aggiungere un **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non specifichi una data di fine, i profili possono rimanere fino al timeout percorso predefinito.
 
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
@@ -118,18 +148,3 @@ Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, e
 
 A causa del timeout di 30 percorsi, quando non è consentito l’accesso al percorso, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché rimuoviamo tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non possiamo sapere che la persona è entrata in precedenza, più di 30 giorni fa.
 
-### Fuso orario e fuso orario del profilo {#timezone}
-
-Il fuso orario è definito a livello di percorso.
-
-Puoi immettere un fuso orario fisso oppure utilizzare i profili Adobe Experience Platform per definire il fuso orario percorso.
-
-Se un fuso orario è definito nel profilo Adobe Experience Platform, può essere recuperato nel percorso.
-
-Per ulteriori informazioni sulla gestione del fuso orario, vedi [questa pagina](../building-journeys/timezone-management.md).
-
-### Gestisci accesso {#access}
-
-Per assegnare etichette di utilizzo dati personalizzate o di base al percorso, fai clic sul pulsante **[!UICONTROL Gestisci accesso]** pulsante . [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)
