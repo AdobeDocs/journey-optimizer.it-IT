@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,11 @@ In generale, la flessibilità desiderata dai dati è:
 <tr style="border: 0;">
   <td>
     <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
-    <br>Base eliminata e tempistica concordata per la tua politica: l’eliminazione dei dati è un aspetto critico della protezione dei dati ed è un passaggio fondamentale in tutti i processi di governance dei dati. [!DNL Adobe Journey Optimizer] può produrre più dati del necessario. Inoltre, si desidera prendersi la massima cura di ciò che accade dopo la durata richiesta per un set di dati - che sia a causa di utilità o regolamentazione. Il controllo necessario consiste nell’eliminare i dati in qualsiasi momento. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Ulteriori informazioni sull’igiene dei dati nella documentazione di Adobe Experience Platform</a></div>
+    <br>Base eliminata e tempistica concordata per la tua politica: l’eliminazione dei dati è un aspetto critico della protezione dei dati ed è un passaggio fondamentale in tutti i processi di governance dei dati. [!DNL Adobe Journey Optimizer] può produrre più dati del necessario. Inoltre, si desidera prendersi la massima cura di ciò che accade dopo la durata richiesta per un set di dati - che sia a causa di utilità o regolamentazione. Il controllo necessario consiste nell’eliminare i dati in qualsiasi momento. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">Ulteriori informazioni</a></div>
+    </div>
   </td>
 </tr>
 </table>
@@ -83,6 +87,6 @@ Tutti i dati sono considerati proprietà dei clienti e possono essere conservati
 
 -->
 
-* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono completamente rimossi dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
+* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono rimossi completamente dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
 
 I metodi di cui sopra sono definiti contrattualmente e descritti in dettaglio nell’accordo di elaborazione dei dati (DPA) che l’Adobe concorda con te all’inizio di un impegno. applicazioni di Adobe, tra cui [!DNL Journey Optimizer], sono basati sul principio che i dati di ciascun cliente devono essere trattati come risorsa di dati proprietaria del cliente.
