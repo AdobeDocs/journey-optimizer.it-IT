@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 0%
+source-wordcount: '675'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,7 @@ Tutti i dati sono considerati proprietà dei clienti e possono essere conservati
 
 * **Purgoni e meccanismi di archiviazione**: La pulizia dei dati e dell&#39;archivio può essere liberamente definita e automatizzata in [!DNL Adobe Journey Optimizer] per automatizzare i criteri di conservazione dei dati. È possibile definire strategie di invecchiamento diverse per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.
 
-   L’area di lavoro Igiene dati nell’interfaccia utente di Adobe Experience Platform consente di creare e monitorare varie attività di igiene dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con lo scudo per la sicurezza e la privacy e con lo scudo sanitario. Ulteriori informazioni in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+   L’area di lavoro Igiene dati consente di creare e monitorare varie attività di igiene dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con lo scudo per la sicurezza e la privacy e con lo scudo sanitario. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
@@ -83,6 +83,6 @@ Tutti i dati sono considerati proprietà dei clienti e possono essere conservati
 
 -->
 
-* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono rimossi completamente dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
+* **Estrazione dati alla cessazione/uscita del coinvolgimento**: Quando il contratto viene terminato, i dati vengono completamente rimossi dallo spazio di archiviazione di Adobe. Inoltre, puoi estrarre estratti completi del profilo prima di terminare un contratto. Questa funzione non comporta costi aggiuntivi. Questo può essere fatto in qualsiasi momento e non solo al termine.
 
 I metodi di cui sopra sono definiti contrattualmente e descritti in dettaglio nell’accordo di elaborazione dei dati (DPA) che l’Adobe concorda con te all’inizio di un impegno. applicazioni di Adobe, tra cui [!DNL Journey Optimizer], sono basati sul principio che i dati di ciascun cliente devono essere trattati come risorsa di dati proprietaria del cliente.
