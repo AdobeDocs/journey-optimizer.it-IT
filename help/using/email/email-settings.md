@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1478'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,14 @@ Impossibile procedere con la creazione della superficie mentre il pool IP selezi
 >[!NOTE]
 >
 >Per gli ambienti non di produzione, Adobe non crea sottodomini di test preconfigurati né concede l’accesso a un pool IP di invio condiviso. Devi [delegare i tuoi sottodomini](../configuration/delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
+
+Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando passi il cursore sopra gli indirizzi IP visualizzati sotto l’elenco a discesa del pool IP. [Ulteriori informazioni sui record PTR](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>Se non è configurato un record PTR, contatta il tuo rappresentante di Adobe.
 
 ## Annulla sottoscrizione elenco {#list-unsubscribe}
 

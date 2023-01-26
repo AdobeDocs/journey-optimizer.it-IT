@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 8%
@@ -167,13 +167,15 @@ Per delegare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma host. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Conferma...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >Puoi anche creare il record di convalida e inviare la configurazione del sottodominio in un secondo momento utilizzando il **[!UICONTROL Salva come bozza]** pulsante . Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
 1. Una volta inviata la delega del sottodominio CNAME, il sottodominio viene visualizzato nell’elenco con la **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    Prima di poter utilizzare tale sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che in genere richiedono da 2 a 3 ore. Ulteriori informazioni in [questa sezione](#subdomain-validation).
 

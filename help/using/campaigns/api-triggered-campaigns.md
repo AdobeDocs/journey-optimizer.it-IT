@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivazione API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '817'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,8 @@ A questo scopo, devi prima creare una campagna con attivazione API in Journey Op
 I canali disponibili per le campagne con attivazione API sono messaggi e-mail, SMS e push.
 
 ## Creare una campagna con attivazione API {#create}
+
+### Configurare e attivare la campagna {#create-activate}
 
 Il processo di creazione di campagne con attivazione API rimane lo stesso delle campagne pianificate, ad eccezione della selezione del pubblico che viene eseguita nel payload API. Informazioni dettagliate su come creare una campagna sono disponibili in [questa sezione](create-campaign.md).
 
@@ -55,11 +57,23 @@ Per creare una campagna con attivazione API, segui questi passaggi:
 
    Se configuri una data di inizio e/o di fine specifica per una campagna, questa non verrà eseguita al di fuori di tali date e le chiamate API non riusciranno se la campagna viene attivata dalle API.
 
-1. In **[!UICONTROL richiesta cURL]** della sezione , recupera **[!UICONTROL ID campagna]** da utilizzare nel payload API.
+1. Fai clic su **[!UICONTROL Rivedi per attivare]** per verificare che la campagna sia configurata correttamente, attivala.
+
+Ora puoi eseguire la campagna dalle API. [Ulteriori informazioni](#execute)
+
+### Eseguire la campagna {#execute}
+
+Una volta che la campagna è stata attivata, devi recuperare la richiesta cURL di esempio generata e utilizzarla nell’API per generare il payload e attivare la campagna.
+
+1. Apri la campagna, quindi copia e incolla la richiesta di esempio da **[!UICONTROL richiesta cURL]** sezione .
 
    ![](assets/api-triggered-curl.png)
 
-1. Fai clic su **[!UICONTROL Rivedi per attivare]** per verificare che la campagna sia configurata correttamente, attivala.
+1. Utilizza questa richiesta cURL nelle API per generare il payload e attivare la campagna. Per ulteriori informazioni, consulta la [Documentazione API di esecuzione dei messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >Se hai configurato una data di inizio e/o di fine specifica al momento della creazione della campagna, questa non verrà eseguita al di fuori di queste date e le chiamate API non riusciranno.
 
 ## Utilizzare attributi contestuali nelle campagne con attivazione API {#contextual}
 
@@ -82,16 +96,6 @@ La `{{context.<contextualAttribute>}}` la sintassi è mappata solo a un tipo di 
 >La `context.system` La sintassi è limitata ad Adobe all’uso interno e non deve essere utilizzata per trasmettere attributi contestuali.
 
 Per il momento, non è disponibile alcun attributo contestuale da utilizzare nel menu della barra a sinistra. Gli attributi devono essere inseriti direttamente nell’espressione di personalizzazione, senza che venga eseguito alcun controllo da parte di [!DNL Journey Optimizer].
-
-## Eseguire la campagna {#execute}
-
-Per eseguire una campagna con attivazione API, devi innanzitutto recuperare il relativo ID e passarlo al payload API. A questo scopo, apri la campagna, quindi copia e incolla l’ID dal **[!UICONTROL richiesta cURL]** sezione .
-
-![](assets/api-triggered-id.png)
-
-Puoi quindi utilizzare questo ID nel payload API per attivare la campagna. Fai riferimento a [Documentazione API di esecuzione dei messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) per ulteriori informazioni.
-
-Nota che, se hai configurato una data di inizio e/o di fine specifica durante la creazione della campagna, questa non verrà eseguita al di fuori di queste date e le chiamate API non riusciranno.
 
 ## Creazione di profili all’esecuzione della campagna {#profile-creation}
 

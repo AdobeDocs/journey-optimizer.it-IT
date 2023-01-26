@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 3%
 
 ---
@@ -146,7 +146,10 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Assoluto</a></td><td>Questa funzione converte un numero nel suo valore assoluto</td>
+        <td><a href="math.md#absolute">Assoluto</a></td><td>Questa funzione formatta qualsiasi numero nella relativa rappresentazione sensibile alla lingua.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">Numero di formato</a></td><td>Questa funzione formatta qualsiasi numero nella relativa rappresentazione sensibile alla lingua.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1</td>
@@ -158,10 +161,16 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="math.md#round-up">Arrotondamento</a></td><td>Questa funzione arrotonda un numero</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">Stringa esadecimale</a></td><td>converte qualsiasi numero nella relativa stringa esadecimale.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">A percentuale</a></td><td>Questa funzione converte un numero in percentuale</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">Precisione</a></td><td>Questa funzione converte un numero in una precisione richiesta</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">Stringa</a></td><td>Questa funzione converte qualsiasi numero nella relativa rappresentazione stringa. </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
 <table>
     <tr>
         <td><a href="string.md#camelCase">Cammello</a></td><td>Questa funzione viene utilizzata per capitalizzare la prima lettera di ogni parola di una stringa</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Codice caratt.</a></td><td>Questa funzione restituisce il valore ASCII di un carattere, come la funzione charCodeAt in JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Questa funzione viene utilizzata per combinare due stringhe in una</td>
@@ -212,6 +224,9 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Estrai dominio e-mail</a></td><td>Questa funzione viene utilizzata per estrarre il dominio di un indirizzo e-mail</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Formato valuta</a></td><td>Questa funzione converte qualsiasi numero nella corrispondente rappresentazione della valuta sensibile alla lingua a seconda delle impostazioni internazionali passate come stringa nel secondo argomento</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">Ottieni host url</a></td><td>Questa funzione viene utilizzata per ottenere l'host url.</td>
@@ -280,7 +295,7 @@ Fai clic sul pulsante `...` per visualizzare la descrizione della funzione e agg
         <td><a href="string.md#startsWith">Inizia con</a></td><td>Questa funzione viene utilizzata per determinare se una stringa inizia con una sottostringa specificata</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">Stringa alla data</a></td><td>Questa funzione viene utilizzata per convertire la stringa in data. Restituisce la data epoch come output per input non valido.</td>
+        <td><a href="string.md#string-to-date">Stringa alla data</a></td><td>Questa funzione converte un valore stringa in un valore data-ora</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">Stringa a numero intero</a></td><td>Questa funzione converte un valore stringa in un valore intero.</td>

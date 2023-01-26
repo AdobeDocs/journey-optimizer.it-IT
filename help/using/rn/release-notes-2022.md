@@ -4,16 +4,57 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 100%
+source-wordcount: '3583'
+ht-degree: 99%
 
 ---
 
 # Note sulle versioni 2022 {#release-notes-2022}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2022.
+
+
+
+## Versione di ottobre 2022 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Miglioramenti {#oct-2022-improvements}
+
+**Percorsi**
+
+* L’opzione **Forza il rientro in caso di ricorrenza** è stata aggiunta nei parametri ricorrenti di pianificazione dei segmenti di lettura. Questa opzione ti consente di far passare automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando questa opzione è disattivata, i profili devono terminare il percorso prima di poter entrare nuovamente in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Amministrazione**
+
+* È stato aggiunto un messaggio all’interfaccia utente per avvisare che le configurazioni di sottodominio, sottodominio della pagina di destinazione, record PTR e pool IP sono comuni a tutte le sandbox e quindi qualsiasi modifica a una di queste configurazioni influirà anche sulle sandbox di produzione.
+* I passaggi per caricare l’elenco di soppressione come file CSV dall’interfaccia utente sono stati modificati. [Ulteriori informazioni](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Campagne**
+
+* Ora puoi archiviare le campagne completate e interrotte. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## Versione di settembre 2022{#sept-2022-release}
@@ -346,7 +387,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Percorsi**
 
-* **Cessazione di un percorso** - Nell’area di lavoro del percorso, l’attività **Fine** è stata rimossa dalla palette. I tag di fine vengono ora aggiunti per impostazione predefinita alla fine di ciascun percorso e non possono essere rimossi. Questo miglioramento consente una migliore generazione di rapporti su dove un cliente ha abbandonato il percorso, senza che sia necessaria alcuna azione da parte del professionista del percorso. Fai riferimento alla [documentazione](../building-journeys/end-journey.md) e al [video sulle funzioni](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Cessazione di un percorso** - Nell’area di lavoro del percorso, l’attività **Fine** è stata rimossa dalla palette. I tag di fine vengono ora aggiunti per impostazione predefinita alla fine di ciascun percorso e non possono essere rimossi. Questo miglioramento consente una migliore generazione di rapporti su dove un cliente ha abbandonato il percorso, senza che sia necessaria alcuna azione da parte del professionista del percorso. Fai riferimento a [documentazione](../building-journeys/end-journey.md) e [video sulle funzioni](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * L’opzione **Fuso orario del profilo** è ora deselezionata per impostazione predefinita nelle proprietà del percorso. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)

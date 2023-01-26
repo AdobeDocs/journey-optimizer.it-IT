@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, segmento, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '936'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivo 
    >
    >Tieni presente che **[!UICONTROL Invio]** e **[!UICONTROL Esci]** corrispondono **Realizzato** e **Uscita** stati di partecipazione al segmento da Adobe Experience Platform. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso.
+1. Seleziona uno spazio dei nomi. Questo è necessario solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
    >[!NOTE]
    >

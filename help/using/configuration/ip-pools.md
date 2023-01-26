@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '717'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,18 @@ Per creare un pool IP, effettua le seguenti operazioni:
    >[!NOTE]
    >
    >Nell’elenco sono disponibili tutti gli indirizzi IP forniti con la tua istanza.
+
+Quando selezioni gli IP, puoi vedere dall’elenco i record PTR associati agli IP. Questo consente di verificare le informazioni di branding per ogni IP durante la creazione di un pool IP e di selezionare ad esempio IP con le stesse informazioni di branding. [Ulteriori informazioni sui record PTR](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>Se non è configurato alcun record PTR per un IP, non è possibile selezionare tale IP. Rivolgiti al tuo rappresentante Adobe per configurare il record PTR di quell’IP.
+
+Dopo la creazione di un pool IP, le informazioni PTR sono visibili quando passi il cursore sopra gli indirizzi IP visualizzati sotto l’elenco a discesa del pool IP.
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare la superficie del canale associata (ad esempio, un messaggio preimpostato). Per ulteriori informazioni su come associare una superficie di canale a un pool IP, consulta [questa sezione](channel-surfaces.md).
 

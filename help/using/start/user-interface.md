@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Connettiti a [Adobe Experience Cloud](http://experience.adobe.com) e vai a [!DNL Journey Optimizer].
 
-I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;}.
+I concetti chiave della navigazione nell’interfaccia utente sono gli stessi di Adobe Experience Platform. Per ulteriori informazioni, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=it#adobe-experience-platform-ui-guide).{target="_blank"}
 
-I componenti e le funzionalità disponibili nell’interfaccia utente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
+I componenti e le funzionalità disponibili nell’interfaccia utente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 * **[!UICONTROL Query]**: utilizza Adobe Experience Platform Query Service per scrivere ed eseguire query, visualizzare le query eseguite in precedenza e accedere a quelle salvate dagli utenti della tua organizzazione. [Ulteriori informazioni](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoraggio]**: usa questo menu per monitorare l’acquisizione dei dati nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoraggio]**: usa questo menu per monitorare l’acquisizione dei dati nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=it){target="_blank"}
 
 **[!UICONTROL CONNESSIONI]**
 
@@ -88,7 +88,7 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 * **[!UICONTROL Sandbox]**: Adobe Experience Platform fornisce sandbox che suddividono una singola istanza in ambienti virtuali separati, utili per le attività di sviluppo e aggiornamento delle applicazioni di esperienza digitale. [Ulteriori informazioni](../administration/sandboxes.md)
 
-* **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target=&quot;_blank&quot;}
+* **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}
 
 
 ## Casi d’uso accessibili dal prodotto {#in-product-uc}
@@ -118,7 +118,7 @@ Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate d
 * Contrasto colore
 * Convalida dei campi obbligatori
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 È possibile utilizzare le seguenti scelte rapide da tastiera comuni in [!DNL Journey Optimizer]:
 
@@ -130,7 +130,7 @@ Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate d
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
 | Annulla una selezione, comprimi un pannello o chiudi una finestra di dialogo | Esc |
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target=&quot;_blank&quot;} nella documentazione di Adobe Experience Platform.
+[Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html?lang=it){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 È possibile utilizzare queste scelte rapide in parti specifiche di Journey Optimizer:
 
@@ -154,12 +154,32 @@ Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate d
   </tr>
   <tr>
     <td>Seleziona tutte le attività</td>
-    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
+    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Elimina le attività selezionate</td>
     <td>Elimina o backspace, quindi premi Invio per confermare l’eliminazione</td>
   </tr>
+  <tr>
+    <td>Zoom avanti e indietro (messa a fuoco su tela o su uno dei suoi elementi figlio)</td>
+    <td>CTRL +/- (Windows) o CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Navigare tra ogni attività e percorso (area di lavoro) o tra i pulsanti della barra degli strumenti (area di lavoro dedicata alla barra degli strumenti)</td>
+    <td>Tasti freccia</td>
+  </tr>   
+  <tr>
+    <td>Sposta lo stato attivo sull’elemento actionable successivo nell’area di lavoro, poiché la barra degli strumenti è la prima</td>
+    <td>Scheda</td>
+  </tr>  
+  <tr>
+    <td>Apri il riquadro di configurazione a destra (attivazione su un’attività)</td>
+    <td>INVIO</td>
+  </tr>   
+  <tr>
+    <td>Sposta un’attività nell’area di lavoro (attiva un’attività)</td>
+    <td>Tasti MAIUSC + freccia</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

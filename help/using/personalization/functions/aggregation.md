@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 8%
@@ -21,7 +21,7 @@ Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per f
 
 La `average` restituisce la media aritmetica di tutti i valori selezionati all&#39;interno dell&#39;array.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ L&#39;operazione seguente restituisce il prezzo medio di tutti gli ordini.
 
 La `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ L&#39;operazione seguente restituisce il numero di ordini nell&#39;array.
 
 La `max` restituisce il valore più grande tra tutti i valori selezionati all&#39;interno dell&#39;array.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ L&#39;operazione seguente restituisce il prezzo più alto di tutti gli ordini.
 
 La `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno della matrice.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
 
 La `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= sum(array) %}

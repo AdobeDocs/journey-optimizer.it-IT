@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, segmento, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1342'
 ht-degree: 11%
 
 ---
@@ -61,7 +61,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](assets/read-segment-copy.png)
 
-1. In **[!UICONTROL Namespace]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
+1. In **[!UICONTROL Namespace]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >

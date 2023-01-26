@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1350'
 ht-degree: 1%
 
 ---
@@ -247,11 +247,17 @@ Per fare questo, dal **[!UICONTROL Elenco di eliminazione]** visualizzazione, fa
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-Vengono visualizzati gli ultimi caricamenti inviati e i relativi stati corrispondenti.
+Vengono visualizzati gli ultimi caricamenti inviati e i relativi stati corrispondenti:
 
-Se un report di errore è associato a un file, puoi scaricarlo per verificare gli errori rilevati.
+* **[!UICONTROL In sospeso]**: Elaborazione del caricamento del file in corso.
+* **[!UICONTROL Errore]**: Il processo di caricamento dei file non è riuscito a causa di un problema tecnico o di un errore di formato del file.
+* **[!UICONTROL Completa]**: Il processo di caricamento dei file è stato completato.
 
-![](assets/suppression-list-recent-uploads-error.png)
+Durante il caricamento, se alcuni indirizzi non sono nel formato corretto, non vengono aggiunti al [!DNL Journey Optimizer] elenco di soppressione.
+
+In tal caso, al termine del caricamento, il report viene associato a un report. Puoi scaricarlo per verificare gli errori rilevati<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 Di seguito è riportato un esempio del tipo di voci che si possono trovare nel rapporto di errore:
 

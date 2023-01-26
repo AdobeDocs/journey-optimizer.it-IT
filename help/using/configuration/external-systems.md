@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limiti
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 3%
+source-wordcount: '1070'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,10 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, le protezioni t
 L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno.
 
 Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche.
+
+>[!NOTE]
+>
+> Se un’origine dati utilizza un’autenticazione personalizzata con un endpoint diverso da quello utilizzato per l’origine dati, è necessario contattare Adobe per includere tale endpoint nell’inserire nell&#39;elenco Consentiti.
 
 Per le azioni personalizzate, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una regola di limitazione in modo che il sistema non saturi.
 

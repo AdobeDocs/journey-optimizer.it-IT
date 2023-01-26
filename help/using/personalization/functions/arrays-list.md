@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Utilizza queste funzioni per semplificare l’interazione con array, elenchi e s
 
 La `countOnlyNull` viene utilizzato per contare il numero di valori nulli in un elenco.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ Restituisce 3.
 
 La `countWithNull` viene utilizzata per contare tutti gli elementi di un elenco, inclusi i valori nulli.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ Restituisce 6.
 
 La `distinct` viene utilizzata per ottenere i valori da una matrice o da un elenco con i valori duplicati rimossi.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ L&#39;operazione seguente specifica le persone che hanno effettuato ordini in pi
 
 La `distinctCountWithNull` viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori nulli.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ Restituisce 3.
 
 La `head` viene utilizzata per restituire il primo elemento di una matrice o di un elenco.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il pr
 
 La `topN` viene utilizzata per restituire il primo `N` elementi in una matrice, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più b
 
 La `in` viene utilizzata per determinare se un elemento è membro di una matrice o di un elenco.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ L&#39;operazione seguente definisce le persone con compleanni a marzo, giugno o 
 
 La `includes` viene utilizzata per determinare se una matrice o un elenco contiene un elemento specificato.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ L’operazione seguente definisce le persone il cui colore preferito include il 
 
 La `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ L’operazione seguente definisce le persone i cui colori preferiti includono al
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 La `bottomN` viene utilizzata per restituire l&#39;ultima `N` elementi in una matrice, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ La `notIn` viene utilizzata per determinare se un elemento non è membro di una 
 >
 >La `notIn` Funzione *anche* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta del `in` funzione .
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ L&#39;operazione seguente definisce le persone con compleanni che non sono in ma
 
 La `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, tutti gli elementi dell&#39;array A sono elementi dell&#39;array B.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ L’operazione seguente definisce le persone che hanno visitato tutte le loro ci
 
 La `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l&#39;array A contiene tutti gli elementi dell&#39;array B.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= supersetOf(array1, array2) %}

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Utilizza le funzioni Mappa nella personalizzazione per semplificare l’interazi
 
 La `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ L&#39;operazione seguente ottiene il valore della mappa di identità per la chia
 
 La `keys` viene utilizzata per recuperare tutte le chiavi di una determinata mappa.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ L&#39;operazione seguente ottiene tutte le chiavi per la mappa `identityMap`.
 
 La `values` viene utilizzata per recuperare tutti i valori di una data mappa.
 
-**Formato**
+**Sintassi**
 
 ```sql
 {%= values(map) %}

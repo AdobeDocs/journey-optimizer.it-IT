@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’
 >id="ajo_lp_access_management_labels"
 >title="Assegnare etichette alla pagina di destinazione"
 >abstract="Per proteggere le risorse digitali sensibili, puoi definire autorizzazioni per gestire l’accesso ai dati alla pagina di destinazione utilizzando le etichette."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Creare predefiniti per pagine di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Controllo dell’accesso a livello di oggetto"
 
 I passaggi per creare una pagina di destinazione sono i seguenti:
 

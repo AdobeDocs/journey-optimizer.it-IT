@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: schemi, XDM, piattaforma, streaming, acquisizione, percorso
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Qualsiasi schema XDM utilizzato per [!DNL Journey Optimizer] gli eventi devono s
 
    ![](assets/schema3.png)
 
-* Dichiara un campo di identità per identificare l’oggetto dell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Queste operazioni non sono consigliate.
+* Dichiara un campo di identità per identificare i singoli profili nell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Queste operazioni non sono consigliate.
 
    ![](assets/schema4.png)
 
