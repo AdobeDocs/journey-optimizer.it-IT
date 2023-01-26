@@ -6,9 +6,9 @@ description: Scopri come eseguire operazioni di igiene dei dati
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '135'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!AVAILABILITY]
 >
->Le funzionalità di igiene dei dati sono attualmente disponibili solo per le organizzazioni che hanno acquistato l&#39;offerta di componenti aggiuntivi Healthcare Shield. È disponibile anche per lo scudo Privacy e sicurezza, oltre che per lo scudo sanitario
+>Le funzionalità di igiene dati sono attualmente disponibili solo per le organizzazioni che hanno acquistato **Scudo sanitario** e **Privacy e sicurezza** offerte aggiuntive.
 
 
 Man mano che i dati vengono continuamente acquisiti in Adobe Experience Platform, diventa fondamentale assicurarsi che vengano utilizzati come previsto, aggiornati quando necessario ed eliminati in base ai criteri organizzativi.

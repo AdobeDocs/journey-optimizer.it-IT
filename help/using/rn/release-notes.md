@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 20%
+source-wordcount: '461'
+ht-degree: 19%
 
 ---
 
@@ -38,8 +38,8 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <td>
 <p>Adobe Experience Platform offre una suite di funzionalità di igiene dei dati che ti consentono di gestire i dati archiviati tramite l’eliminazione programmatica di record e set di dati di consumo. Questa funzionalità è ora disponibile per Adobe Journey Optimizer. </p>
 <p>Puoi gestire gli archivi dati per garantire che le informazioni vengano utilizzate come previsto, che vengano aggiornate quando è necessario correggere i dati in modo errato e che vengano eliminate quando i criteri organizzativi lo ritengono necessario.</p>
-<p><strong>Attenzione</strong> - Le funzionalità di igiene dei dati sono attualmente disponibili solo per le organizzazioni che hanno acquistato l'offerta di componenti aggiuntivi Healthcare Shield.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../privacy/data-hygiene.md">documentazione dettagliata</a>.
+<p><strong>Attenzione</strong> - Le funzionalità di igiene dati sono attualmente disponibili solo per le organizzazioni che hanno acquistato il <strong>Scudo sanitario</strong> e <strong>Privacy e sicurezza</strong> offerte aggiuntive.</p><p>Per ulteriori informazioni, consulta la <a href="../privacy/data-hygiene.md">documentazione dettagliata</a>.
+
 </td>
 </tr>
 </tbody>
