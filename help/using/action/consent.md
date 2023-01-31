@@ -7,12 +7,12 @@ feature: Privacy
 topic: Administration
 role: Admin,Developer
 level: Experienced
-keywords: politiche, governance, piattaforma, scudo sanitario, consenso
+keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -24,29 +24,29 @@ In Journey Optimizer puoi applicare questi criteri di consenso alle azioni perso
 
 >[!NOTE]
 >
->Le politiche di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato l&#39;offerta aggiuntiva Healthcare Shield.
+>L’applicazione automatica del consenso è attualmente disponibile solo per le organizzazioni che hanno acquistato l’offerta aggiuntiva Healthcare Shield.
 
 In Journey Optimizer, il consenso è definito a diversi livelli:
 
-* quando **configurazione di un’azione personalizzata**, puoi definire un canale e un’azione di marketing. Vedi questo [sezione](../action/consent.md#consent-custom-action).
-* quando si aggiunge il **azione personalizzata in un percorso**, puoi definire un’azione di marketing aggiuntiva. Vedi questo [sezione](../action/consent.md#consent-journey).
+* durante la **configurazione di un’azione personalizzata**, è possibile definire un canale e un’azione di marketing. Consulta questa [sezione](../action/consent.md#consent-custom-action).
+* durante l’aggunta dell’**azione personalizzata percorso**, è possibile definire un’azione di marketing aggiuntiva. Consulta questa [sezione](../action/consent.md#consent-journey).
 
 ## Note importanti {#important-notes}
 
-In Journey Optimizer, il consenso può essere sfruttato nelle azioni personalizzate. Se desideri utilizzarlo con le funzionalità dei messaggi incorporati, devi utilizzare un’attività di condizione per filtrare i clienti nel percorso.
+In Journey Optimizer, il consenso può essere utilizzato nelle azioni personalizzate. Se desideri utilizzarlo con le funzionalità dei messaggi incorporati, è necessario utilizzare un’attività di condizione per filtrare i clienti nel percorso.
 
-Con la gestione del consenso vengono analizzate due attività percorsi:
+Con la gestione del consenso vengono analizzate due attività del percorso:
 
 * Segmento di lettura: viene preso in considerazione il segmento recuperato.
-* Azione personalizzata: la gestione del consenso tiene conto degli attributi utilizzati ([parametri azione](../action/about-custom-action-configuration.md#define-the-message-parameters)) e le azioni di marketing definite (azioni di marketing richieste e azioni di marketing aggiuntive).
+* Azione personalizzata: la gestione del consenso tiene conto degli attributi utilizzati ([parametri di azione](../action/about-custom-action-configuration.md#define-the-message-parameters)) e le azioni di marketing definite (azioni di marketing richieste e azioni di marketing aggiuntive).
 * Gli attributi appartenti a un gruppo di campi che utilizzano lo schema di unione predefinito non sono supportati. Questi attributi risulteranno nascosti nell’interfaccia. È necessario creare un altro gruppo di campi utilizzando uno schema diverso.
 * I criteri di consenso si applicano solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
 
-Non vengono prese in considerazione tutte le altre attività utilizzate in un percorso. Se avvii il percorso con una qualifica Segmento, il segmento non viene preso in considerazione.
+Non vengono prese in considerazione tutte le altre attività utilizzate in un percorso. Se inizi il percorso con una qualifica Segmento, il segmento non viene preso in considerazione.
 
-In un percorso, se un profilo viene escluso da un criterio di consenso in un’azione personalizzata, il messaggio non viene inviato a lui, ma lui continua il percorso. Il profilo non passa al percorso di timeout ed errore quando si utilizza una condizione .
+In un percorso, se un profilo viene escluso da un criterio di consenso in un’azione personalizzata, il messaggio non viene inviato a tale profilo, ma questo continua il percorso. Il profilo non passa al percorso di timeout ed errore quando si utilizza una condizione.
 
-Prima di aggiornare i criteri in un&#39;azione personalizzata posizionata in un percorso, assicurati che il percorso non presenti errori.
+Prima di aggiornare i criteri in un’azione personalizzata posizionata in un percorso, assicurati che il percorso non presenti errori.
 
 <!--
 There are two types of latency regarding the use of consent policies:
@@ -59,20 +59,20 @@ There are two types of latency regarding the use of consent policies:
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
->title="Definire un’azione di marketing richiesta"
->abstract="L’Azione di marketing richiesta consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi tale azione personalizzata per inviare e-mail, puoi selezionare Targeting e-mail. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. Impossibile modificare l&#39;elemento nell&#39;area di lavoro."
+>title="Definisci un’azione di marketing richiesta"
+>abstract="L’Azione di marketing richiesta consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi l’azione personalizzata per inviare e-mail utilizzando una terza parte, puoi selezionare Targeting e-mail. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. Questo non può essere modificato nell’area di lavoro."
 
 Durante la configurazione di un’azione personalizzata, è possibile utilizzare due campi per la gestione del consenso.
 
-Il campo **Canale** consente di selezionare il canale correlato a questa azione personalizzata: **E-mail**, **SMS** oppure **Notifica push**. Il campo **Azione di marketing richiesta** verrà precompilato con l’azione di marketing predefinita per il canale selezionato. Se si seleziona **Altro**, non verrà definita alcuna azione di marketing per impostazione predefinita.
+Il campo **Canale** consente di selezionare il canale correlato a questa azione personalizzata: **E-mail**, **SMS** oppure **Notifica push**. Il campo **Azione di marketing richiesta** verrà precompilato con l’azione di marketing predefinita per il canale selezionato. Selezionando **Altro**, non verrà definita alcuna azione di marketing per impostazione predefinita.
 
 ![](assets/consent1.png)
 
-L’**Azione di marketing richiesta** consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi questa azione personalizzata per inviare e-mail, puoi selezionare **Targeting e-mail**. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. È selezionata un’azione di marketing predefinita, ma puoi fare clic sulla freccia giù per selezionare dall’elenco le azioni di marketing disponibili.
+L’**Azione di marketing richiesta** consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi l’azione personalizzata per inviare e-mail utilizzando una terza parte, puoi selezionare **Targeting e-mail**. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. È selezionata un’azione di marketing predefinita, ma puoi fare clic sulla freccia in giù per selezionare dall’elenco le azioni di marketing disponibili.
 
 ![](assets/consent2.png)
 
-Per alcuni tipi di comunicazioni importanti, ad esempio un messaggio transazionale inviato per reimpostare la password del cliente, potrebbe non essere necessario applicare un criterio di consenso. Seleziona **Nessuno** in **Azione di marketing necessaria** campo .
+Per alcuni tipi di comunicazioni importanti, ad esempio un messaggio transazionale inviato per reimpostare la password del cliente, potrebbe non essere necessario applicare un criterio di consenso. Quindi selezionerai **Nessuno** nel campo **Azione di marketing necessaria**.
 
 Gli altri passaggi per la configurazione di un’azione personalizzata sono descritti in [questa sezione](../action/about-custom-action-configuration.md#consent-management).
 
@@ -80,7 +80,7 @@ Gli altri passaggi per la configurazione di un’azione personalizzata sono desc
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_canvas"
->title="Azione di marketing necessaria"
+>title="Azione di marketing richiesta"
 >abstract="Durante la creazione di un’azione di marketing personalizzata viene definita un’azione di marketing richiesta. Impossibile rimuovere o modificare l’azione di marketing richiesta."
 
 >[!CONTEXTUALHELP]
@@ -90,10 +90,10 @@ Gli altri passaggi per la configurazione di un’azione personalizzata sono desc
 
 >[!CONTEXTUALHELP]
 >id="ajo_consent_refresh_policies_canvas"
->title="Visualizzare i criteri di consenso applicabili in fase di runtime"
+>title="Visualizza i criteri di consenso applicabili in fase di runtime"
 >abstract="Le azioni di marketing introducono criteri di consenso che combinano parametri di azione e valori di consenso dei singoli profili per filtrare gli utenti. Per ottenere la definizione più recente di questi criteri, fai clic sul pulsante per aggiornarli."
 
-Quando aggiungi l’azione personalizzata in un percorso, diverse opzioni ti consentono di gestire il consenso. Fai clic sul pulsante **Mostra campi di sola lettura** per visualizzare tutti i parametri.
+Quando si aggiunge l’azione personalizzata in un percorso, diverse opzioni consentono di gestire il consenso. Fai clic sul pulsante **Mostra campi di sola lettura** per visualizzare tutti i parametri.
 
 Nella parte superiore dello schermo sono riportati il **Canale** e l’**Azione di marketing richiesta**, definiti durante la configurazione dell’azione personalizzata. Non è possibile modificare questi campi.
 
@@ -103,7 +103,7 @@ Puoi definire un’**Azione di marketing aggiuntiva** per impostare il tipo di a
 
 ![](assets/consent3.png)
 
-Fai clic sul pulsante **Aggiorna criteri** , nella parte inferiore della schermata, per aggiornare e controllare l’elenco dei criteri presi in considerazione per questa azione personalizzata. Questo è solo a scopo informativo, durante la costruzione di un percorso. Con i percorsi live, i criteri di consenso vengono recuperati e aggiornati automaticamente ogni 6 ore.
+Fai clic sul pulsante **Aggiorna criteri**, nella parte inferiore della schermata, per aggiornare e controllare l’elenco dei criteri presi in considerazione per questa azione personalizzata. Questo è solo a scopo informativo, durante la creazione di un percorso. Per i percorsi live, i criteri di consenso vengono recuperati e aggiornati automaticamente ogni 6 ore.
 
 ![](assets/consent5.png)
 
