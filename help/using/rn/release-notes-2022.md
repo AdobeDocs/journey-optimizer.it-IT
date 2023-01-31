@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 99%
@@ -234,7 +234,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 ### Altre modifiche{#sept-2022-other}
 
-* La modalità Burst di un percorso è stata sostituita dalla modalità Consegna rapida di una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md#rapid-delivery)
+* La modalità Burst di un percorso è stata sostituita dalla modalità Consegna rapida di una campagna. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
 * Per migliorare le prestazioni, i gruppi di campo evento di un’esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi segmento, Qualificazione del segmento o Evento di business. Questo cambiamento è applicabile solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. [Ulteriori informazioni](../start/guardrails.md#expression-editor)
 * È stato rimosso il limite di 1 ora per i percorsi con Leggi segmento pianificati. Questi percorsi ora possono essere eseguiti senza ritardi.
 

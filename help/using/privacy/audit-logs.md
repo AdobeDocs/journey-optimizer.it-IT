@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 89%
 
 ---
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 
 ## Informazioni sui registri di audit {#audit-logs}
 
+>[!IMPORTANT]
+>
+>Per visualizzare ed esportare il registro di controllo, è necessario disporre della **[!DNL View User Activity Log]** permesso concesso. [Ulteriori informazioni](../administration/ootb-product-profiles.md)
+
 Con Journey Optimizer puoi identificare le azioni eseguite dagli utenti nel sistema su vari servizi e funzionalità come percorsi, messaggi, pagine di destinazione, ecc.
 
 Questo consente di aumentare la visibilità delle attività eseguite nel sistema, risolvere i problemi e aiutare la tua azienda a rispettare le normative e le politiche aziendali di gestione dei dati.
 
-Ogni azione viene registrata con i metadati nei “registri di audit”, accessibili in Adobe Experience Platform. Per ulteriori informazioni sui registri di audit, tra cui come visualizzarli e gestirli nell’interfaccia utente o nell’API, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it).
+Ogni azione viene registrata con i metadati nei “registri di audit”, accessibili in Adobe Experience Platform. Per ulteriori informazioni sui registri di controllo, tra cui come visualizzarli e gestirli nell’interfaccia utente o nell’API, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it).
 
 ![](assets/audit-logs.png)
 

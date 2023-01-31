@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '956'
 ht-degree: 100%
 
 ---
 
 # Guardrail e limitazioni {#limitations}
 
-I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto di Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto di Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
 
 Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di [!DNL Adobe Journey Optimizer].
 
@@ -29,7 +31,7 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 ## Guardrail di gestione delle decisioni {#offer-guardrails}
 
-I guardrail delle prestazioni e i limiti statici per il processo decisionale sono elencati nella [pagina di descrizione del prodotto Adobe Offer Decisioning App Service](https://helpx.adobe.com/it/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+I guardrail delle prestazioni e i limiti statici per il processo decisionale sono elencati nella [pagina di descrizione del prodotto Adobe Offer Decisioning App Service](https://helpx.adobe.com/it/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}

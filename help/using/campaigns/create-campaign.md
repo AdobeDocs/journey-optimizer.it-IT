@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: creare, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '754'
 ht-degree: 8%
 
 ---
@@ -52,11 +52,13 @@ Per creare una nuova campagna, accedi al **[!UICONTROL Campagne]** menu, quindi 
 
    Una “superficie” è una configurazione definita da un [amministratore di sistema](../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni](../configuration/channel-surfaces.md).
 
+   Nell’elenco a discesa sono elencate solo le superfici del canale compatibili con il tipo di campagna di marketing.
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Nell’elenco a discesa sono elencate solo le superfici del canale compatibili con il tipo di campagna di marketing.
+   >Se stai creando una campagna di notifica push, puoi abilitare il **[!UICONTROL Modalità di consegna rapida]**, componente aggiuntivo di Journey Optimizer che consente l’invio rapido di messaggi push in grandi volumi. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
 
 1. Fai clic su **[!UICONTROL Crea]** per creare la campagna.
 
@@ -121,7 +123,7 @@ In **[!UICONTROL Azioni]** crea il messaggio da inviare con la campagna.
 
 ## Definire il pubblico {#audience}
 
-1. Definisci il pubblico di cui eseguire il targeting. A questo scopo, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** per visualizzare l’elenco dei segmenti Adobe Experience Platform disponibili. [Ulteriori informazioni sui segmenti](../segment/about-segments.md)
+1. Definire il pubblico per eseguire il targeting. A questo scopo, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** per visualizzare l’elenco dei segmenti Adobe Experience Platform disponibili. [Ulteriori informazioni sui segmenti](../segment/about-segments.md)
 
    >[!NOTE]
    >

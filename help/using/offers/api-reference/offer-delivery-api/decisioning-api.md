@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 2%
+source-wordcount: '1058'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +32,9 @@ Nella tabella seguente sono riportati i valori validi che comprendono *Content-T
 | Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**Formato API**
+## richiesta API {#request}
+
+### Formato API
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -43,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Richiesta**
+### Richiesta
 
 ```shell
 curl -X POST \
@@ -122,7 +124,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | Questo flag identifica le informazioni di metadati specifiche restituite per `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | Questo flag identifica le informazioni di metadati specifiche restituite per `xdm:placement`. | `name`, `channel`, `componentType` |
 
-**Risposta**
+### Risposta
 
 Una risposta corretta restituisce informazioni sulla proposta, inclusa la relativa univocità `xdm:propositionId`.
 
@@ -189,9 +191,23 @@ Una risposta corretta restituisce informazioni sulla proposta, inclusa la relati
 | `xdm:propositions.xdm:content` | Il formato del contenuto della risposta. | Il contenuto della risposta può essere: `text`, `html block`oppure `image link` |
 | `xdm:score` | Punteggio per un&#39;opzione calcolata come risultato di una funzione di classificazione associata all&#39;opzione o alla decisione. Questo campo viene restituito dall’API se una funzione di classificazione è coinvolta nella determinazione del punteggio di un’offerta durante la classificazione. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Questo oggetto contiene una singola offerta di fallback, incluso il relativo identificatore univoco. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati multimediali del computer. | `"dc:format": "image/png"` oppure `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati multimediali del computer. | `"dc:format": "image/png"` o `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Un URL facoltativo per leggere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | Data e ora di creazione del messaggio di risposta della decisione. Questo è rappresentato come tempo epoca. | `"ode:createDate": 1566497582038` |
+
+**Codici di risposta**
+
+La tabella seguente elenca tutti i codici che possono essere restituiti nella risposta:
+
+| Codice | Descrizione |
+|  ---  |  ---  |
+| 200 | Operazione riuscita. È stata presa una decisione per determinate attività |
+| 400 | Parametro di richiesta non valido. La richiesta non può essere compresa dal server a causa di una sintassi non corretta. |
+| 403 | Autorizzazioni proibite e insufficienti. |
+| 422 | Entità non elaborabile. La sintassi della richiesta è corretta, tuttavia, a causa di errori semantici non è possibile elaborarla. |
+| 429 | Troppe richieste. L&#39;utente ha inviato troppe richieste in un dato periodo di tempo. |
+| 500 | Errore interno del server. Il server ha rilevato una condizione imprevista che ne ha impedito l&#39;esecuzione della richiesta. |
+| 503 | Servizio non disponibile a causa di sovraccarico del server. Il server non è attualmente in grado di gestire la richiesta a causa di un sovraccarico temporaneo. |
 
 ## Video tutorial {#video}
 

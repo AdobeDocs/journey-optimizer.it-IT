@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 5%
@@ -29,70 +29,92 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## Identificatore {#identifier}
++++ Identificatore
 
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
 **Tipo:** stringa
 
-## _esperienza {#experience}
++++
+
++++ _esperienza
 
 **Campo:** _esperienza
 **Tipo:** oggetto
 
-### _esperienza > decisionale
++++
+
++++ _esperienza > decisionale
 
 **Campo:** decisione
 **Tipo:** oggetto
 
-#### _esperienza > decisionale > Identificatore del canale del posizionamento
++++
+
++++ _esperienza > decisionale > Identificatore del canale del posizionamento
 
 **Campo:** channelID
 **Titolo:** Identificatore del canale del posizionamento
 **Descrizione:** Il canale in cui è stata fatta la proposta. Il valore è un URI canale valido. Vedi https://ns.adobe.com/xdm/channels/channel.
 **Tipo:** stringa
 
-#### _esperienza > decisionale > Tipo componente di contenuto
++++
+
++++ _esperienza > decisionale > Tipo componente di contenuto
 
 **Campo:** componentType
 **Titolo:** Tipo componente contenuto
 **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente di contenuto.
 **Tipo:** stringa
 
-#### _esperienza > decisionale > contentTypes
++++
+
++++ _esperienza > decisionale > contentTypes
 
 **Campo:** contentTypes
 **Tipo:** array
 
-**_esperienza > decisionale > contentTypes > MIME Media Type**
++++
+
++++_experience > decisionale > contentTypes > MIME Media Type
 
 **Titolo:** Tipo di supporto MIME
 **Descrizione:** Un vincolo per il tipo di supporto dei componenti previsto in tale posizionamento. Per un componente, ad esempio un formato immagine diverso, potrebbe essere possibile utilizzare più di un tipo di supporto.
 **Tipo:** stringa
 
-#### _esperienza > decisionale > Posizionamento descrizione
++++
+
++++ _esperienza > decisionale > Posizionamento descrizione
 
 **Campo:** descrizione
 **Titolo:** Descrizione del posizionamento
 **Descrizione:** Viene utilizzato per comunicare intenzioni comprensibili agli utenti in merito al modo in cui il contenuto dinamico viene utilizzato nella consegna complessiva dei messaggi. Che un determinato spazio sia un \&quot;Banner\&quot; in una pagina web viene spesso veicolato tramite la descrizione e non con un metodo formale.
 **Tipo:** stringa
 
-#### _esperienza > decisionale > Nome posizionamento
++++
+
++++ _esperienza > decisionale > Nome posizionamento
 
 **Campo:** name
 **Titolo:** Nome posizionamento
 **Descrizione:** Un nome assegnato per il posizionamento per farvi riferimento nelle interazioni umane.
 **Tipo:** stringa
 
-## _repo {#repo}
++++
+
++++ _repo
 
 **Campo:** _repo
 **Tipo:** oggetto
 
-### _repo > Posizionamento ETag
++++
+
++++ _repo > Posizionamento ETag
 
 **Campo:** etag
 **Titolo:** Posizionamento ETag
 **Descrizione:** Revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dell&#39;esecuzione dello snapshot.
 **Tipo:** stringa
+
++++

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 3%
@@ -27,40 +27,50 @@ Il batch di successo più recente nel set di dati viene visualizzato a destra. L
 
 Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archivio oggetti decisionali - Offerte di fallback]** set di dati.
 
-## Identificatore {#identifier}
++++ Identificatore
 
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
 **Tipo:** stringa
 
-## _esperienza {#experience}
++++
+
++++ _esperienza
 
 **Campo:** _esperienza
 **Tipo:** oggetto
 
-### _esperienza > decisionale
++++
+
++++ _esperienza > decisionale
 
 **Campo:** decisione
 **Tipo:** oggetto
 
-#### _esperienza > decisione > caratteristiche
++++
+
++++ _esperienza > decisione > caratteristiche
 
 **Campo:** caratteristiche
 **Titolo:** Caratteristiche dell&#39;opzione di decisione
 **Descrizione:** Proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. istanze diverse possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di valori nome utilizzate per distinguere un’opzione di decisione da altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione decisionale e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come uno schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _esperienza > decisioni > contenuti
++++ _esperienza > decisioni > contenuti
 
 **Campo:** sommario
 **Titolo:** Dettagli contenuto
 **Descrizione:** Elementi di contenuto per eseguire il rendering dell’elemento decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione rivolta a un pubblico da utilizzare in un’esperienza (digitale). I contenuti vengono consegnati attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
-**_esperienza > decisioni > contenuti > componenti**
++++
+
++++_experience > decisionale > contenuti > componenti
 
 **Campo:** componenti
 **Descrizione:** I componenti del contenuto che rappresentano l’opzione di decisione, incluse tutte le varianti di lingua. Componenti specifici sono reperibili da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una combinazione di essi. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
@@ -148,14 +158,18 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
    **Tipo:** stringa
    **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_esperienza > decisionale > contenuto > Posizionamento**
++++
+
++++ _esperienza > decisionale > contenuto > Posizionamento
 
 **Campo:** placement
 **Titolo:** Posizionamento
 **Descrizione:** Posizionamento a cui conformarsi. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** stringa
 
-#### _esperienza > decisioni > Stato del ciclo di vita
++++
+
++++ _esperienza > decisioni > Stato del ciclo di vita
 
 **Campo:** lifecycleStatus
 **Titolo:** Stato del ciclo di vita
@@ -163,30 +177,40 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 **Tipo:** string
 **Valori possibili:** &quot;Bozza&quot; (predefinito), &quot;Approvato&quot;, &quot;Live&quot;, &quot;Completato&quot;, &quot;Archiviato&quot;
 
-#### _esperienza > decisionale > Nome opzione decisione
++++
+
++++ _esperienza > decisionale > Nome opzione decisione
 
 **Campo:** name
 **Titolo:** Nome opzione decisione
 **Descrizione:** Nome dell&#39;opzione visualizzato in diverse interfacce utente.
 **Tipo:** stringa
 
-#### _esperienza > decisionale > tag
++++
+
++++ _esperienza > decisionale > tag
 
 **Campo:** tag
 **Titolo:** Tag
 **Descrizione:** Set di tag associati a questa entità. I tag vengono utilizzati nelle espressioni filtro per vincolare l’inventario complessivo a un sottoinsieme (categoria).
 **Tipo:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **Campo:** _repo
 **Tipo:** oggetto
 
-### _repo > Opzione decisione ETag
++++
+
++++ _repo > Opzione decisione ETag
 
 **Campo:** etag
 **Titolo:** Opzione di decisione ETag
 **Descrizione:** Revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dell&#39;esecuzione dello snapshot.
 **Tipo:** stringa
+
++++

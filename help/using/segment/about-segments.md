@@ -8,40 +8,54 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 2%
+source-wordcount: '559'
+ht-degree: 0%
 
 ---
 
 # Guida introduttiva ai segmenti Adobe Experience Platform {#about-segments}
 
-[!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal **[!UICONTROL Segmenti]** e sfruttali nei tuoi percorsi.
+[!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal **[!UICONTROL Segmenti]** e utilizzali nei tuoi percorsi o campagne.
 
-I segmenti possono essere creati anche dal servizio Segmentazione stesso. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+Inoltre, i segmenti possono essere creati anche dal servizio Segmentazione stesso. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-Puoi sfruttare i segmenti nei percorsi in diversi modi:
+## Utilizzare i segmenti in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-* Utilizza un **Leggi segmento** attività di orchestrazione per fare entrare nel percorso tutti gli individui appartenenti al segmento specificato. I messaggi inclusi nel percorso vengono inviati agli utenti appartenenti al segmento. Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi fare in modo che tutti i clienti argento entrino in un percorso e inviino loro una serie di messaggi personalizzati.
+Puoi sfruttare i segmenti in **[!DNL Journey Optimizer]** in diversi modi:
 
-   Per ulteriori informazioni su come utilizzare il **[!UICONTROL Leggi segmento]** attività, fai riferimento a [questa sezione](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+* Scegli un segmento come **pubblico per una campagna**, in cui il messaggio viene inviato a tutti gli utenti appartenenti al segmento selezionato. [Scopri come definire il pubblico di una campagna](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilizza la **Qualificazione di un segmento** attività dell’evento per consentire a singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti argento entrino in un percorso e inviino loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, consulta [questa sezione](../building-journeys/segment-qualification-events.md).
+* Utilizza un **Leggi segmento** attività di orchestrazione in un percorso per consentire a tutti gli utenti del segmento di entrare nel percorso e ricevere i messaggi inclusi nel percorso.
 
-* Crea **condizioni complesse** nei percorsi utilizzando l’editor di espressioni semplice o avanzato. Ulteriori informazioni in [questa sezione](../building-journeys/condition-activity.md#using-a-segment).
+   Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi fare in modo che tutti i clienti argento entrino in un percorso e inviino loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi segmento](../building-journeys/read-segment.md#configuring-segment-trigger-activity).
+
+* Utilizza la **Qualificazione di un segmento** attività evento in un percorso per consentire a singoli utenti di entrare o proseguire nel percorso in base alle entrate e alle uscite dei segmenti Adobe Experience Platform.
+
+   Ad esempio, puoi fare in modo che tutti i nuovi clienti argento entrino in un percorso e inviino loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, consulta [Scopri come configurare un’attività di qualificazione dei segmenti](../building-journeys/segment-qualification-events.md).
+
+* Utilizza la **Condizione** attività in un percorso per creare condizioni basate sull’appartenenza al segmento. [Scopri come utilizzare i segmenti nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
 ## Metodi di valutazione del pubblico{#evaluation-method-in-journey-optimizer}
 
-In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei seguenti metodi di valutazione:
+In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei due metodi di valutazione seguenti:
 
-* Segmentazione in streaming : l’elenco del pubblico per il segmento viene mantenuto aggiornato in tempo reale, mentre i nuovi dati scorrono nel sistema. La segmentazione in streaming è un processo continuo di selezione dei dati che aggiorna i segmenti in risposta all’attività dell’utente. Una volta generato e salvato un segmento, la definizione del segmento viene applicata ai dati in arrivo in Journey Optimizer. Gli aggiornamenti e le rimozioni dei segmenti vengono elaborati regolarmente, garantendo che il pubblico di destinazione rimanga rilevante.
+* **Segmentazione streaming**: L’elenco del pubblico per il segmento viene mantenuto aggiornato in tempo reale man mano che i nuovi dati scorrono nel sistema.
 
-* Segmentazione in batch: l’elenco del pubblico per il segmento viene valutato ogni 24 ore. In alternativa a un processo continuo di selezione dei dati, la segmentazione in batch sposta tutti i dati di profilo contemporaneamente attraverso le definizioni dei segmenti per produrre i tipi di pubblico corrispondenti. Una volta creato, questo segmento viene salvato e memorizzato in modo da poterlo esportare per l’uso.
+   La segmentazione in streaming è un processo continuo di selezione dei dati che aggiorna i segmenti in risposta all’attività dell’utente. Una volta generato e salvato un segmento, la definizione del segmento viene applicata ai dati in arrivo in Journey Optimizer. Questo significa che i singoli utenti vengono aggiunti o rimossi dal segmento quando i dati del loro profilo cambiano, garantendo che il pubblico di destinazione sia sempre rilevante.
 
-La determinazione tra segmentazione batch e segmentazione in streaming viene effettuata dal sistema per ogni definizione di segmento, in base alla complessità e al costo della valutazione della regola del segmento.
+* **Segmentazione in batch**: L’elenco del pubblico per il segmento viene valutato ogni 24 ore.
 
-Puoi visualizzare il metodo di valutazione per ogni segmento nel **[!UICONTROL Metodo di valutazione]** della colonna dell’elenco dei segmenti.
+   La segmentazione in batch è un’alternativa alla segmentazione in streaming che elabora tutti i dati di profilo contemporaneamente attraverso le definizioni dei segmenti. Crea un’istantanea del pubblico che può essere salvata ed esportata per l’utilizzo. Tuttavia, a differenza della segmentazione in streaming, la segmentazione in batch non aggiorna continuamente l’elenco dei tipi di pubblico in tempo reale, e i nuovi dati che arrivano dopo il processo batch non verranno riportati nel segmento fino al successivo processo batch.&quot;
+
+La determinazione tra segmentazione batch e segmentazione in streaming viene effettuata dal sistema per ogni definizione di segmento, in base alla complessità e al costo della valutazione della regola del segmento. Puoi visualizzare il metodo di valutazione per ogni segmento nel **[!UICONTROL Metodo di valutazione]** della colonna dell’elenco dei segmenti.
+
+![](assets/evaluation-method.png)
+
+>[!NOTE]
+>
+>Se la **[!UICONTROL Metodo di valutazione]** la colonna non viene visualizzata, è necessario aggiungerla utilizzando il pulsante di configurazione in alto a destra dell’elenco.
 
 Dopo aver definito per la prima volta un segmento, i profili vengono aggiunti al pubblico quando si qualificano.
 

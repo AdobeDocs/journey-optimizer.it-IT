@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 3%
@@ -29,24 +29,30 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Identificatore {#identifier}
++++ Identificatore
 
 **Campo:** _id
 **Titolo:** Identificatore
 **Descrizione:** Identificatore univoco del record.
 **Tipo:** stringa
 
-## _esperienza {#experience}
++++
+
++++ _esperienza {#experience}
 
 **Campo:** _esperienza
 **Tipo:** oggetto
 
-### _esperienza > decisionale
++++
+
++++ _esperienza > decisionale
 
 **Campo:** decisione
 **Tipo:** oggetto
 
-#### _esperienza > decisionale > calendarConstraints
++++
+
++++ _esperienza > decisionale > calendarConstraints
 
 **Campo:** calendarConstraints
 **Titolo:** Dettagli vincolo calendario
@@ -67,21 +73,27 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
    **Descrizione:** Data di inizio della validità delle opzioni di decisione. Le opzioni che non hanno raggiunto la data di inizio non possono ancora essere proposte nel processo decisionale.
    **Tipo:** stringa
 
-#### _esperienza > decisione > caratteristiche
++++
+
++++ _esperienza > decisione > caratteristiche
 
 **Campo:** caratteristiche
 **Titolo:** Caratteristiche dell&#39;opzione di decisione
 **Descrizione:** Proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. istanze diverse possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di valori nome utilizzate per distinguere un’opzione di decisione da altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione decisionale e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come uno schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
-#### _esperienza > decisioni > contenuti
++++
+
++++ _esperienza > decisioni > contenuti
 
 **Campo:** sommario
 **Titolo:** Dettagli contenuto
 **Descrizione:** Elementi di contenuto per eseguire il rendering dell’elemento decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione rivolta a un pubblico da utilizzare in un’esperienza (digitale). I contenuti vengono consegnati attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
-**_esperienza > decisioni > contenuti > componenti**
++++
+
++++_experience > decisionale > contenuti > componenti
 
 **Campo:** componenti
 **Descrizione:** I componenti del contenuto che rappresentano l’opzione di decisione, incluse tutte le varianti di lingua. Componenti specifici sono reperibili da &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o da una combinazione di essi. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
@@ -168,14 +180,16 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
    **Tipo:** stringa
    **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_esperienza > decisionale > contenuto > Posizionamento**
++++_experience > decisionale > contenuti > Posizionamento
 
 **Campo:** placement
 **Titolo:** Posizionamento
 **Descrizione:** Posizionamento a cui conformarsi. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** stringa
 
-#### _esperienza > decisioni > Stato del ciclo di vita
++++
+
++++ _esperienza > decisioni > Stato del ciclo di vita
 
 **Campo:** lifecycleStatus
 **Titolo:** Stato del ciclo di vita
@@ -183,35 +197,45 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 **Tipo:** string
 **Valori possibili:** &quot;Bozza&quot; (predefinito), &quot;Approvato&quot;, &quot;Live&quot;, &quot;Completato&quot;, &quot;Archiviato&quot;
 
-#### _esperienza > decisionale > Nome opzione decisione
++++
+
++++ _esperienza > decisionale > Nome opzione decisione
 
 **Campo:** name
 **Titolo:** Nome opzione decisione
 **Descrizione:** Nome dell&#39;opzione visualizzato in diverse interfacce utente.
 **Tipo:** stringa
 
-#### _esperienza > decisionale > profileConstraints
++++
+
++++ _esperienza > decisionale > profileConstraints
 
 **Campo:** profileConstraints
 **Titolo:** Dettagli vincolo profilo
 **Descrizione:** In questo contesto, i vincoli di profilo decidono se un’opzione è idonea per questa identità di profilo. Se il vincolo di profilo non deve considerare i valori di ciascuna opzione, ovvero non è necessariamente una delle opzioni della selezione dell’opzione, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D&#39;altra parte, viene valutata una regola di vincolo di profilo che utilizza un&#39;opzione come parametro per ogni opzione di qualificazione della selezione di opzione.
 **Tipo:** oggetto
 
-**_esperienza > decisionale > profileConstraints > Descrizione**
++++
+
++++_experience > decisionale > profileConstraints > Descrizione
 
 **Campo:** descrizione
 **Titolo:** Descrizione
 **Descrizione:** Descrizione del vincolo di profilo. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché è stato costruito questo vincolo di profilo e/o quale opzione sarà inclusa o esclusa da esso.
 **Tipo:** stringa
 
-**_esperienza > decisionale > profileConstraints > Regola di idoneità**
++++
+
++++_experience > decisionale > profileConstraints > Regola di idoneità
 
 **Campo:** adaptRule
 **Titolo:** Regola di idoneità
 **Descrizione:** Un riferimento a una regola decisionale che restituisce true o false per un determinato profilo e/o altri oggetti XDM contestuali specificati. La regola viene utilizzata per decidere se l’opzione è idonea per un determinato profilo. Il valore è l&#39;URI (@id) della regola decisionale a cui si fa riferimento. Vedi schema https://ns.adobe.com/experience/decisioning/rule.
 **Tipo:** stringa
 
-**_esperienza > decisione > profileConstraints > Tipo di vincolo del profilo**
++++
+
++++_experience > decisionale > profileConstraints > Tipo di vincolo del profilo
 
 **Campo:** profileConstraintType
 **Titolo:** Tipo di vincolo del profilo
@@ -224,7 +248,9 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 * &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di tutti i segmenti prima che l’azione vincolata sia consentita.&quot;
 * &quot;regole&quot;: &quot;Il vincolo di profilo è espresso come una serie di regole diverse, ad esempio idoneità, applicabilità, idoneità, che tutte devono valutare in true prima che l&#39;azione vincolata sia consentita.&quot;
 
-**_esperienza > decisionale > profileConstraints > Identificatori di segmento**
++++
+
++++_experience > decisionale > profileConstraints > Identificatori di segmento
 
 **Campo:** segmentIdentities
 **Titolo:** Identificatori dei segmenti
@@ -260,14 +286,18 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
    **Descrizione:** Se presente, questo valore rappresenta un identificatore dello spazio dei nomi incrociato univoco per tutti gli identificatori con ambito dello spazio dei nomi in tutti i namespace.
    **Tipo:** stringa
 
-#### _esperienza > decisionale > classificazione
++++
+
++++ _esperienza > decisionale > classificazione
 
 **Campo:** classificazione
 **Titolo:** Dettagli classificazione
 **Descrizione:** Classificazione (priorità). Definisce ciò che viene considerato la \&quot;azione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà l’opzione o le opzioni superiori N da proporre.
 **Tipo:** oggetto
 
-**_esperienza > decisionale > classificazione > Valutazione ordine**
++++
+
++++_experience > decisionale > classificazione > Valutazione ordine
 
 **Campo:** ordine
 **Titolo:** Valutazione ordine
@@ -296,7 +326,9 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
    **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni decisionali. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare con l&#39;opzione on alla volta. Vedi schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Tipo:** stringa
 
-**_esperienza > decisionale > classificazione > Priorità**
++++
+
++++_experience > decisionale > classificazione > Priorità
 
 **Campo:** priorità
 **Titolo:** Priorità
@@ -305,23 +337,31 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 **Valore minimo:** 0
 **Valore predefinito:** 0
 
-#### _esperienza > decisionale > tag
++++
+
++++ _esperienza > decisionale > tag
 
 **Campo:** tag
 **Titolo:** Tag
 **Descrizione:** Set di tag associati a questa entità. I tag vengono utilizzati nelle espressioni filtro per vincolare l’inventario complessivo a un sottoinsieme (categoria).
 **Tipo:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Campo:** _repo
 **Tipo:** oggetto
 
-### _repo > Opzione decisione ETag
++++
+
++++ _repo > Opzione decisione ETag
 
 **Campo:** etag
 **Titolo:** Opzione di decisione ETag
 **Descrizione:** Revisione in cui si trovava l&#39;oggetto opzione di decisione al momento dell&#39;esecuzione dello snapshot.
 **Tipo:** stringa
+
++++
