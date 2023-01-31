@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Guida rapida
-description: In qualità di addetto al marketing, amministratore o data engineer, scopri e apprendi le potenzialità di Adobe Journey Optimizer con questa guida dettagliata.
+description: In qualità di addetto marketing, amministratore o ingegnere dati, scopri e apprendi la potenza di Adobe Journey Optimizer con istruzioni dettagliate.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
