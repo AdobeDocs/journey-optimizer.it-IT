@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 18%
@@ -45,7 +45,6 @@ Una volta che [è stato aggiunto un messaggio e-mail](create-email.md) a un perc
       >[!NOTE]
       >
       >In una campagna, puoi anche selezionare la **[!UICONTROL Editor di codice]** dal pulsante **[!UICONTROL Modifica contenuto]** schermo. [Ulteriori informazioni](create-email.md#define-email-content)
-
 
    * **Importare contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare un contenuto e-mail in [questa sezione](existing-content.md).
 

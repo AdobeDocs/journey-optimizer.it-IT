@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1144'
 ht-degree: 10%
 
 ---
@@ -107,8 +107,18 @@ Questo profilo di prodotto include le seguenti autorizzazioni:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-La **[!DNL Decisioning manager]** il profilo di prodotto consente solo **[!UICONTROL Gestione delle decisioni]** menu. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
+La **[!DNL Decisioning manager]** il profilo di prodotto consente solo l’accesso al **[!UICONTROL Gestione delle decisioni]** menu. Gli utenti assegnati a questo profilo di prodotto potranno solo gestire, visualizzare e pubblicare le decisioni.
 
 Questo profilo di prodotto include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni| |-|-| |Gestione delle decisioni| <ul><li>**[!DNL Manage decisions]**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**[!DNL View decisions]**: accesso in sola lettura alle entità decisionali.</li><li>**[!DNL Manage ranking strategies]**: leggi, crea, modifica ed elimina rapporti personalizzati e utilizza le funzionalità di azione.</li><li>**[!DNL Publish decisions]**: attiva o disattiva le attività decisionali.</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+La **[!DNL Content Library Manager]** il profilo di prodotto consente solo l’accesso al **[!UICONTROL Modelli di contenuto]** menu. Gli utenti assegnati a questo profilo di prodotto potranno accedere solo alla libreria dei modelli per creare contenuti senza accedere ai percorsi o alle campagne.
+
+Questo profilo di prodotto include le seguenti autorizzazioni:
+
+| Funzionalità | Autorizzazioni| |-|-| |Libreria Journey Optimizer| <ul><li>**[!DNL Manage library items]**: leggere, creare, modificare ed eliminare gli elementi della libreria Journey Optimizer.</li><li>**[!DNL Manage simulate content]**: accesso al **[!UICONTROL Simulazione del contenuto]** per anteprima e bozza.</li></ul>|
+|Gestione delle decisioni|<ul><li>**[!DNL Manage decisions]**: leggere, creare, modificare ed eliminare le entità decisionali.</li><li>**[!DNL Manage ranking strategies]**: leggi, crea, modifica ed elimina rapporti personalizzati e utilizza le funzionalità di azione.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: leggere, creare, modificare ed eliminare i segmenti.</li><li>**[!DNL Manage profiles]**: leggere, creare, modificare ed eliminare i profili.</li><li>**[!DNL Read datasets]**: accesso in sola lettura ai set di dati.</li><li>**[!DNL Read schemas]**: accesso in sola lettura agli schemi.</li><li>**[!DNL Manage merge policies]**: leggere, creare, modificare ed eliminare i criteri di unione.</li></ul>|
