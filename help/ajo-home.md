@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ ht-degree: 94%
 </table>
 
 
-![Newsletter](using/assets/do-not-localize/nl-icon.png) Iscriviti a [Newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} oggi!
+![Newsletter](using/assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"}!
 
 Ricevi gli ultimi aggiornamenti dei prodotti, storie entusiasmanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
