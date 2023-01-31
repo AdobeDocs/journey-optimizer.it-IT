@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 3%
@@ -61,7 +61,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 +++
 
-+++ _esperienza > decisione > criteri > descrizione**
++++ _esperienza > decisioni > criteri > descrizione
 
 **Campo:** descrizione
 **Titolo:** Descrizione
@@ -110,7 +110,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 +++
 
-+++_experience > decisionale > criteri > posizionamenti**
++++_experience > decisionale > criteri > posizionamenti
 
 **Campo:** posizionamenti
 **Titolo:** Restrizioni di posizionamento
@@ -125,7 +125,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 +++
 
-+++_experience > decisionale > criteri > profileConstraints**
++++_experience > decisionale > criteri > profileConstraints
 
 **Campo:** profileConstraints
 **Titolo:** Vincolo profilo
@@ -205,7 +205,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 +++
 
-+++_experience > decisionale > criteri > classificazione**
++++_experience > decisionale > criteri > classificazione
 
 **Campo:** classificazione
 **Titolo:** Dettagli classificazione
@@ -292,7 +292,7 @@ Elenco di tutti i campi che possono essere utilizzati nella **[!UICONTROL Archiv
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **Campo:** _repo
 **Tipo:** oggetto
