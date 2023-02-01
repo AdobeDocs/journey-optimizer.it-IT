@@ -8,8 +8,8 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
-workflow-type: tm+mt
-source-wordcount: '580'
+workflow-type: ht
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Con Adobe Journey Optimizer puoi gestire, conservare ed esportare facilmente que
 
 >[!NOTE]
 >
-> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa al [Profilo cliente in tempo reale di Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che ha inserito un percorso è un cliente oppure no). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
+> Basato su Adobe Experience Platform, Adobe Journey Optimizer è connesso in modalità nativa al [Profilo cliente in tempo reale di Adobe](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}. Questa origine dati incorporata è preconfigurata ed è progettata per recuperare e utilizzare i dati dal Profilo cliente in tempo reale (ad esempio, verificare se la persona che ha inserito un percorso è un cliente oppure no). Consente di utilizzare i dati del Profilo e i dati di Eventi esperienza. [Maggiori informazioni](../datasource/adobe-experience-platform-data-source.md).
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -59,7 +59,7 @@ Ulteriori informazioni su [Journey Optimizer + Campaign Standard](../building-jo
 
 ## Canali personalizzati{#integration-custom}
 
-Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per connettersi al tuo percorso. Ad esempio, è possibile connettersi ai seguenti sistemi con azioni personalizzate: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, ecc.
+Se utilizzi un sistema di terze parti per l’invio di messaggi o se desideri che i percorsi inviino chiamate API a un sistema di terze parti, utilizza azioni personalizzate per connettersi al tuo percorso. Ad esempio, mediante azioni personalizzate è possibile connettersi ai seguenti sistemi: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, ecc.
 
 Le azioni personalizzate sono azioni aggiuntive definite dagli utenti tecnici e rese disponibili agli esperti di marketing. Una volta configurate, vengono visualizzate nella palette a sinistra del percorso nella categoria **[!UICONTROL Azione]**. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities).
 
