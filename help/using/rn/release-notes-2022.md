@@ -5,9 +5,9 @@ title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3583'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -387,7 +387,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Percorsi**
 
-* **Cessazione di un percorso** - Nell’area di lavoro del percorso, l’attività **Fine** è stata rimossa dalla palette. I tag di fine vengono ora aggiunti per impostazione predefinita alla fine di ciascun percorso e non possono essere rimossi. Questo miglioramento consente una migliore generazione di rapporti su dove un cliente ha abbandonato il percorso, senza che sia necessaria alcuna azione da parte del professionista del percorso. Fai riferimento a [documentazione](../building-journeys/end-journey.md) e [video sulle funzioni](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **Cessazione di un percorso** - Nell’area di lavoro del percorso, l’attività **Fine** è stata rimossa dalla palette. I tag di fine vengono ora aggiunti per impostazione predefinita alla fine di ciascun percorso e non possono essere rimossi. Questo miglioramento consente una migliore generazione di rapporti su dove un cliente ha abbandonato il percorso, senza che sia necessaria alcuna azione da parte del professionista del percorso. Fai riferimento alla [documentazione](../building-journeys/end-journey.md) e al [video sulle funzioni](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * L’opzione **Fuso orario del profilo** è ora deselezionata per impostazione predefinita nelle proprietà del percorso. [Ulteriori informazioni](../building-journeys/timezone-management.md#timezone-from-profiles)
