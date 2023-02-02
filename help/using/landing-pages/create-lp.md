@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 2%
@@ -59,7 +59,9 @@ Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’
 >abstract="Per proteggere le risorse digitali sensibili, puoi definire autorizzazioni per gestire l’accesso ai dati alla pagina di destinazione utilizzando le etichette."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Controllo dell’accesso a livello di oggetto"
 
-I passaggi per creare una pagina di destinazione sono i seguenti:
+I passaggi principali per creare pagine di destinazione sono i seguenti:
+
+![](assets/lp-creation-process.png)
 
 1. Dall’elenco della pagina di destinazione, fai clic su **[!UICONTROL Creare una pagina di destinazione]**.
 

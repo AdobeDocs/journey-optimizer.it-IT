@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: percorso, scopri, partenza
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 29%
+source-wordcount: '590'
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,9 @@ Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzional
 
 ## Passaggi per creare un percorso{#steps-journey}
 
-Utilizza Adobe Journey Optimizer per progettare e orchestrare percorsi personalizzati da un’unica area di lavoro.
+Utilizza Adobe Journey Optimizer per progettare e orchestrare percorsi personalizzati da un’unica area di lavoro. I passaggi principali per creare un percorso sono i seguenti:
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer include un’area di lavoro di orchestrazione omnicanale che consente agli esperti di marketing di armonizzare il pubblico marketing con il coinvolgimento di un singolo cliente. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette nell’area di lavoro per creare il percorso.
 
