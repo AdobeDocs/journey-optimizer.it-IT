@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivazione API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '827'
 ht-degree: 3%
 
 ---
@@ -91,7 +91,10 @@ La `{{context.<contextualAttribute>}}` la sintassi è mappata solo a un tipo di 
 
 ![](assets/api-triggered-context.png)
 
+
 >[!IMPORTANT]
+>
+>Gli attributi contestuali passati nella richiesta non possono superare i 50 kb.
 >
 >La `context.system` La sintassi è limitata ad Adobe all’uso interno e non deve essere utilizzata per trasmettere attributi contestuali.
 
