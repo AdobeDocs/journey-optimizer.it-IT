@@ -2,9 +2,9 @@
 title: Batch Decisioning
 description: Scopri come distribuire le decisioni sulle offerte a tutti i profili in un dato segmento Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Prima di configurare una richiesta di lavoro, assicurati di aver creato:
 
    >[!NOTE]
    >
-   >Un processo batch viene eseguito fuori dallo snapshot del profilo che si verifica una volta al giorno. Le decisioni in batch limitano la frequenza e caricano sempre i profili dallo snapshot più recente.
+   >Un processo batch viene eseguito fuori dallo snapshot del profilo che si verifica una volta al giorno. Le decisioni in batch limitano la frequenza e caricano sempre i profili dallo snapshot più recente. Attendi fino a 24 ore dopo la creazione di un segmento prima di provare l’API per le decisioni in batch.
 
 * **Una decisione** in Adobe Journey Optimizer. [Scopri come creare una decisione](offer-activities/create-offer-activities.md)
 
