@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, condizione, tela, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1469'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
+Nell’editor semplice, trovi anche la categoria Proprietà Percorso , sotto le categorie di eventi e di origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
 ## Condizione Origine dati {#data_source_condition}
 
@@ -130,7 +130,9 @@ Puoi utilizzare questo tipo di condizione per aumentare il volume delle consegne
 
 Il limite predefinito è 1000.
 
-Il contatore si applica solo alla versione del percorso selezionata. Il contatore viene reimpostato su zero dopo un mese. Dopo una reimpostazione, i profili in entrata riprendono il percorso nominale fino a raggiungere il limite del contatore.
+Il contatore si applica solo alla versione del percorso selezionata. Il contatore viene reimpostato su zero dopo un mese, dopo una nuova versione di percorso o su una versione duplicata del percorso. Dopo una reimpostazione, i profili in entrata riprendono il percorso nominale fino a raggiungere il limite del contatore.
+
+Quando il limite del profilo è definito in un percorso ricorrente, il contatore non viene reimpostato dopo ogni ricorrenza.
 
 Il percorso nominale ha sempre la priorità sul percorso alternativo, anche se si sposta il percorso alternativo sopra il percorso nominale sull&#39;area di lavoro del percorso.
 
