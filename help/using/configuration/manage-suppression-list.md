@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,19 @@ Ulteriori informazioni sul concetto e sull&#39;utilizzo dell&#39;elenco di soppr
 
 Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini esclusi, individua **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, quindi seleziona **[!UICONTROL Elenco di eliminazione]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >Le autorizzazioni per visualizzare, esportare e gestire l’elenco di soppressione sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 Sono disponibili filtri che consentono di sfogliare l’elenco.
 
 ![](assets/suppression-list-filters.png)
 
-Puoi filtrare il **[!UICONTROL Categoria di soppressione]**, **[!UICONTROL Tipo di indirizzo]** oppure **[!UICONTROL Motivo]**. Seleziona le opzioni desiderate per ciascun criterio. Una volta selezionato, puoi cancellare ogni filtro o tutti i filtri visualizzati in cima all’elenco.
+Puoi filtrare il **[!UICONTROL Categoria di soppressione]**, **[!UICONTROL Tipo di indirizzo]** oppure **[!UICONTROL Motivo]**. Seleziona una o più opzioni per ciascun criterio. Una volta selezionato, puoi cancellare ogni filtro o tutti i filtri visualizzati in cima all’elenco.
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -57,7 +59,7 @@ Le categorie di soppressione sono le seguenti:
 
 * **Morbido**: Un messaggio non recapitato è un messaggio non recapitato temporaneo che si è verificato per un indirizzo e-mail valido. L’indirizzo e-mail viene aggiunto all’elenco di soppressione dopo diversi tentativi. Gli errori morbidi inviano un indirizzo all’elenco di soppressione quando il contatore degli errori raggiunge la soglia limite. [Ulteriori informazioni sui nuovi tentativi](retries.md)
 
-* **Manuale**: Gli errori manuali sono stati aggiunti manualmente all&#39;elenco di soppressione. [Ulteriori informazioni](#add-addresses-and-domains)
+* **Manuale**: Gli errori manuali sono stati aggiunti manualmente all’elenco di soppressione. [Ulteriori informazioni](#add-addresses-and-domains)
 
 Per ogni indirizzo e-mail elencato, puoi anche controllare il **[!UICONTROL Tipo]** (e-mail o dominio), **[!UICONTROL Motivo]** per escluderlo, chi l’ha aggiunto e la data/ora in cui è stato aggiunto all’elenco di soppressione.
 
@@ -220,7 +222,7 @@ Per rimuovere un indirizzo dall&#39;elenco di soppressione, utilizzare il **[!UI
 
 Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail vengono erroneamente contrassegnate come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
-Per eseguire questa operazione, filtra l’elenco di soppressione per visualizzare gli indirizzi e-mail o i domini interessati. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
+A questo scopo, filtra l’elenco di soppressione per visualizzare gli indirizzi e-mail o i domini interessati. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
 ![](assets/remove-from-supp-list.png)
 
