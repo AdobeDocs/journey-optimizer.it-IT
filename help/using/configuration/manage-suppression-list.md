@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Possibili motivi di un errore di consegna:
 
 ### Regole di eliminazione  {#suppression-rules}
 
-Da **[!UICONTROL Elenco di eliminazione]** visualizza, puoi anche modificare il parametro di nuovo tentativo associato alle regole di soppressione dal **[!UICONTROL Pulsante Modifica regole di eliminazione]**. Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni](retries.md)
+Da **[!UICONTROL Elenco di eliminazione]** visualizza, puoi anche modificare il parametro di nuovo tentativo associato alle regole di soppressione dal **[!UICONTROL Modificare le regole di eliminazione]** pulsante . Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni sui nuovi tentativi](retries.md).
 
 
 ## Aggiungi indirizzi e domini all’elenco di soppressione{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, se
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Selezionare il tipo di indirizzo: **[!UICONTROL Indirizzo e-mail]** o **[!UICONTROL Indirizzo di dominio]**.
+1. Selezionare il tipo di indirizzo: **[!UICONTROL E-mail]** o **[!UICONTROL Dominio]**.
 
 1. Immetti l’indirizzo e-mail o il dominio da escludere dall’invio.
 
