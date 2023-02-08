@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '2307'
-ht-degree: 96%
+source-wordcount: '2330'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Febbraio 2023 {#feb-2023}
 
 * È stata aggiunta una nota nella documentazione sulle campagne attivate dall’API per specificare che gli attributi contestuali passati nella richiesta non possono superare i 50 kb. [Maggiori informazioni](../campaigns/api-triggered-campaigns.md#contextual)
+
+* Sono state aggiunte informazioni sulla modalità di memorizzazione delle informazioni di rinuncia nel **Set di dati del servizio di consenso** dopo che i destinatari hanno annullato l’abbonamento tramite una pagina di destinazione. [Maggiori informazioni](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Gennaio 2023 {#jan-2023}
 

@@ -11,9 +11,9 @@ keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1116'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 4%
 >
 >La **Esperimento dei contenuti** al momento è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Utilizza Journey Optimizer Content Experiment per definire più trattamenti di consegna. Il pubblico di interesse viene assegnato in modo casuale a ciascun trattamento al fine di determinare quale funziona meglio rispetto alla metrica di interesse. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna.
+L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale funziona meglio per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
 
 >[!NOTE]
 >
@@ -52,68 +52,53 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
 
    ![](assets/content_experiment_1.png)
 
-1. Seleziona il canale e quindi il **[!UICONTROL Superficie]** desideri utilizzare per questa consegna. Per ulteriori informazioni, consulta la sezione [Superfici dei canali](../configuration/channel-surfaces.md) pagina.
+1. Seleziona il canale e quindi il **[!UICONTROL Superficie]** desideri utilizzare per questa consegna e fai clic su **[!UICONTROL Crea]**. Per ulteriori informazioni, consulta la sezione [Superfici dei canali](../configuration/channel-surfaces.md) pagina.
 
    ![](assets/content_experiment_2.png)
 
-1. Fai clic su **[!UICONTROL Crea]**.
-
 1. Imposta la **[!UICONTROL Proprietà]** della consegna:
-   * **[!UICONTROL Titolo]**
+   * **[!UICONTROL Nome]**
    * **[!UICONTROL Descrizione]**
-   * **[!UICONTROL Categoria]**: **[!UICONTROL Marketing]** / **[!UICONTROL Transazionale]**
-
-1. Per avviare l’esperimento sui contenuti, attiva/disattiva la **[!UICONTROL Esperimento dei contenuti]** opzione . La **[!UICONTROL Esperimento dei contenuti]** viene visualizzato il menu .
-
-   ![](assets/content_experiment_3.png)
 
 1. Definisci il pubblico di cui eseguire il targeting. A questo scopo, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** per visualizzare l’elenco dei segmenti Adobe Experience Platform disponibili. [Ulteriori informazioni sui segmenti](../segment/about-segments.md)
 
    In **[!UICONTROL Spazio dei nomi identità]** scegli lo spazio dei nomi da utilizzare per identificare gli individui del segmento selezionato. [Ulteriori informazioni](get-started-experiment.md#content-experiment-work)
 
-1. Per eseguire la campagna in una data specifica o su una frequenza ricorrente, configura la sezione Pianificazione . [Ulteriori informazioni](create-campaign.md)
+   ![](assets/content_experiment_16.png)
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a personalizzare le diverse **[!UICONTROL Trattamenti]**.
+1. In **[!UICONTROL Tracciamento delle azioni]** specifica se desideri tenere traccia delle reazioni dei destinatari alla consegna: puoi tenere traccia dei clic e/o delle aperture.
 
-   ![](assets/content_experiment_4.png)
+   I risultati del tracciamento saranno accessibili dal rapporto della campagna una volta che la campagna sarà stata eseguita.
 
-## Crea i trattamenti {#treatment-experiment}
+1. Per eseguire la campagna in una data specifica o con una frequenza ricorrente, configura la **[!UICONTROL Pianificazione]** sezione . [Ulteriori informazioni](create-campaign.md)
 
-1. Da **[!UICONTROL Modifica contenuto]** finestra, inizia a personalizzare il tuo trattamento A.
+1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a personalizzare la consegna. [Ulteriori informazioni](../email/content-from-scratch.md)
 
-   Per questo trattamento, specificheremo l&#39;offerta speciale direttamente nell&#39;oggetto.
+   ![](assets/content_experiment_17.png)
+
+1. Da **[!UICONTROL Modifica contenuto]** finestra, inizia a personalizzare il trattamento A.
+
+   Per questo trattamento, specificheremo l’offerta speciale direttamente nell’oggetto e aggiungeremo la personalizzazione.
 
    ![](assets/content_experiment_5.png)
 
-1. Dopo aver progettato il tuo primo trattamento, dal **[!UICONTROL Altre azioni]** pulsante, fai clic su **[!UICONTROL Duplica]**.
-
-   Puoi anche scegliere di iniziare un nuovo trattamento da zero cliccando sul **[!UICONTROL Esperimento dei contenuti]** pulsante ![](assets/content_experiment_16.png) per accedere alle opzioni avanzate **[!UICONTROL Aggiungi trattamento]**.
-
-   ![](assets/content_experiment_7.png)
-
-1. Modificare la **[!UICONTROL Titolo]** del tuo trattamento per differenziarli meglio.
-
-   ![](assets/content_experiment_8.png)
-
-1. Personalizza il tuo secondo trattamento in base alle esigenze.
-
-   In questo caso, scegliamo di non specificare l’offerta nel **[!UICONTROL Linea oggetto]**.
-
-   ![](assets/content_experiment_9.png)
-
-Una volta personalizzati i trattamenti, puoi iniziare a configurare il tuo esperimento sui contenuti.
-
 ## Configurare l’esperimento sul contenuto {#configure-experiment}
 
-1. Quando entrambe le consegne sono personalizzate, dalla **[!UICONTROL Modifica contenuto]** finestra, seleziona **[!UICONTROL Configurare un esperimento sul contenuto]**.
+1. Quando la consegna è personalizzata, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
 
-   ![](assets/content_experiment_10.png)
+   ![](assets/content_experiment_3.png)
 
-1. Seleziona gli obiettivi da impostare per l’esperimento.
+1. Seleziona la **[!UICONTROL Metrica di successo]** vuoi impostare l&#39;esperimento.
 
    Per il nostro esperimento, selezioniamo **[!UICONTROL Apri e-mail]** per verificare se i destinatari aprono le loro e-mail se il codice promozionale si trova nella riga dell’oggetto.
 
    ![](assets/content_experiment_11.png)
+
+1. Fai clic su **[!UICONTROL Aggiungi trattamento]** creare il numero necessario di nuovi trattamenti.
+
+   ![](assets/content_experiment_8.png)
+
+1. Modificare la **[!UICONTROL Titolo]** del tuo trattamento per differenziarli meglio.
 
 1. Scegli di aggiungere un **[!UICONTROL Holdout]** creare un gruppo per la consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
 
@@ -125,9 +110,31 @@ Una volta personalizzati i trattamenti, puoi iniziare a configurare il tuo esper
 
    ![](assets/content_experiment_13.png)
 
-1. Fai clic su **[!UICONTROL Salva]** quando la configurazione è impostata.
+1. Fai clic su **[!UICONTROL Crea]** quando la configurazione è impostata.
 
-1. Quando l’esperimento sul contenuto è pronto, puoi fare clic su **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo della campagna. Gli avvisi vengono visualizzati se un parametro è errato o mancante.
+## Progettare i trattamenti {#treatment-experiment}
+
+1. Da **[!UICONTROL Modifica contenuto]** selezionare il trattamento B per modificare il contenuto.
+
+   In questo caso, scegliamo di non specificare l’offerta nel **[!UICONTROL Linea oggetto]**.
+
+   ![](assets/content_experiment_18.png)
+
+1. Fai clic su **[!UICONTROL Modifica corpo del messaggio e-mail]** per personalizzare ulteriormente il tuo trattamento B.
+
+   ![](assets/content_experiment_9.png)
+
+1. Dopo aver progettato i trattamenti, fai clic su **[!UICONTROL Altre azioni]** per accedere alle opzioni relative ai trattamenti: **[!UICONTROL Rinomina]**, **[!UICONTROL Duplica]** e **[!UICONTROL Elimina]**.
+
+   ![](assets/content_experiment_7.png)
+
+1. Se necessario, accedi al **[!UICONTROL Impostazioni dell’esperimento]** per modificare la configurazione dei trattamenti.
+
+   ![](assets/content_experiment_19.png)
+
+1. Una volta definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per controllare il rendering della consegna e controllare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../email/preview.md)
+
+1. Quando l’esperimento sul contenuto è pronto, dalla pagina di riepilogo della campagna puoi fare clic su **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo della campagna. Gli avvisi vengono visualizzati se un parametro è errato o mancante.
 
    ![](assets/content_experiment_15.png)
 

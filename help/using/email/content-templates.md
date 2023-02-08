@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '985'
 ht-degree: 5%
 
 ---
 
 # Utilizzare i modelli di contenuto  {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Creare modelli di contenuto"
->abstract="Crea modelli autonomi per riutilizzare i contenuti tra percorsi e campagne."
 
 Per un processo di progettazione accelerato e migliorato, è possibile creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Journey Optimizer] campagne e percorsi.
 
@@ -58,6 +53,11 @@ Per eliminare un modello, seleziona l’icona del cestino accanto al modello des
 >Quando un modello viene modificato o eliminato, le campagne o i percorsi, comprese le e-mail create utilizzando questo modello, non sono interessati.
 
 ## Creare modelli di contenuto {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Definire un modello di contenuto personalizzato"
+>abstract="Crea da zero un modello personalizzato autonomo per rendere i contenuti riutilizzabili tra più percorsi e campagne."
 
 Esistono due modi per creare modelli di contenuto:
 

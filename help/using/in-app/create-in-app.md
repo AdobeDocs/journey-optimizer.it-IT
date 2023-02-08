@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: in-app, messaggio, creazione, avvio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '627'
 ht-degree: 4%
 
 ---
@@ -115,3 +115,9 @@ Dopo l’invio, puoi misurare l’impatto dei messaggi in-app nel rapporto Campa
 * [Progettare un messaggio in-app](design-in-app.md)
 * [Rapporto in-app](inapp-report.md)
 * [Configurazione in-app](inapp-configuration.md)
+
+## Video introduttivo{#video}
+
+Il video seguente mostra come creare, configurare e pubblicare messaggi in-app nelle campagne.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
