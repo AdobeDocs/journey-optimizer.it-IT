@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Funzioni di accessibilità in Journey Optimizer
 description: Ulteriori informazioni sull’accessibilità nell’interfaccia utente di Journey Optimizer
-feature: Overview
+feature: Accessibility
 role: User
 level: Beginner
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 54%
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,7 @@ Sono disponibili le seguenti scelte rapide da tastiera comuni in [!DNL Journey O
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |
-| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
+| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Tab |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
 | Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
@@ -60,31 +60,31 @@ Puoi utilizzare queste scelte rapide in aree specifiche di [!DNL Journey Optimiz
   </tr>
   <tr>
     <td>Seleziona tutte le attività</td>
-    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
+    <td>Ctrl + A (Windows)<br/>Comando + A (Mac)</td>
   </tr>
   <tr>
     <td>Elimina le attività selezionate</td>
     <td>Elimina o backspace, quindi premi Invio per confermare l’eliminazione</td>
   </tr>
   <tr>
-    <td>Zoom avanti e indietro (messa a fuoco su tela o su uno dei suoi elementi figlio)</td>
-    <td>CTRL +/- (Windows) o CMD +/- (Mac)</td>
+    <td>Zoom avanti e indietro (quando è attiva l’area di lavoro o uno dei suoi elementi secondari)</td>
+    <td>Ctrl +/- (Windows) o Comando +/- (Mac)</td>
   </tr>  
   <tr>
-    <td>Navigare tra ogni attività e percorso (area di lavoro) o tra i pulsanti della barra degli strumenti (area di lavoro dedicata alla barra degli strumenti)</td>
+    <td>Passa da un’attività e un percorso all’altro (quando è attiva l‘area di lavoro) o da un pulsante all’altro nella barra degli strumenti (quando è attiva la barra degli strumenti)</td>
     <td>Tasti freccia</td>
   </tr>   
   <tr>
-    <td>Sposta lo stato attivo sull’elemento actionable successivo nell’area di lavoro, poiché la barra degli strumenti è la prima</td>
-    <td>Scheda</td>
+    <td>Rendi attivo l’elemento azionabile successivo sull’area di lavoro; la barra degli strumenti è il primo elemento</td>
+    <td>Tab</td>
   </tr>  
   <tr>
-    <td>Apri il riquadro di configurazione a destra (attivazione su un’attività)</td>
+    <td>Apri il riquadro di configurazione a destra (quando è attiva un’attività)</td>
     <td>INVIO</td>
   </tr>   
   <tr>
-    <td>Sposta un’attività nell’area di lavoro (attiva un’attività)</td>
-    <td>Tasti MAIUSC + freccia</td>
+    <td>Sposta un’attività nell’area di lavoro (quando è attiva un’attività)</td>
+    <td>Maiusc + tasti freccia</td>
   </tr>  
   <tr>
   <td rowspan="3">
@@ -100,7 +100,7 @@ Riquadro di configurazione dei seguenti elementi:
 
 </td>
     <td>Passa al campo successivo da configurare</td>
-    <td>Scheda</td>
+    <td>Tab</td>
   </tr>
   <tr>
     <td>Salva le modifiche e chiudi il riquadro di configurazione</td>

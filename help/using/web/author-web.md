@@ -1,16 +1,16 @@
 ---
 title: Creare pagine web
 description: Scopri come creare una pagina web e modificarne il contenuto in Journey Optimizer
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1097'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 
 >[!CAUTION]
 >
->Per accedere a [!DNL Journey Optimizer], la pagina web deve essere implementata utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target=&quot;_blank&quot;}.
+>Per accedere a [!DNL Journey Optimizer], la pagina web deve essere implementata utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"}.
 
 1. Da **[!UICONTROL Azione]** scheda della campagna, seleziona **[!UICONTROL Modifica contenuto]** per iniziare a creare la campagna web.
 
@@ -61,7 +61,7 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 
    >[!CAUTION]
    >
-   >La pagina web deve includere [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target=&quot;_blank&quot;}.
+   >La pagina web deve includere [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"}.
 
 1. Fai clic su **[!UICONTROL Apri web designer]** per modificarlo. [Ulteriori informazioni](author-web.md)
 
@@ -94,7 +94,7 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 
 1. Da **[!UICONTROL Componenti]** a sinistra, puoi aggiungere i seguenti componenti alla pagina web e modificarli in base alle tue esigenze:
 
-   * [Divider](../email/content-components.md#divider)
+   * [Divisore](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Immagine](../email/content-components.md#image)
    * Intestazione : l’utilizzo di questo componente è simile all’utilizzo del comando **[!UICONTROL Testo]** in e-mail designer. [Ulteriori informazioni](../email/content-components.md#text)

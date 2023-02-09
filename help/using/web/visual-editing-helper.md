@@ -1,17 +1,17 @@
 ---
 title: Estensione Helper per editing video
 description: Scopri l’estensione Visual Editing Helper Chrome che consente di creare e visualizzare in anteprima pagine web in Journey Optimizer
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 14%
+source-wordcount: '396'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ Per creare e visualizzare in anteprima rapidamente le esperienze web, l’estens
 
 Per ottenere e installare l’estensione del browser Visual Editing Helper, segui i passaggi riportati di seguito.
 
-1. Dal Web Store Google Chrome, passa al [Helper per l&#39;editing video di Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)Estensione del browser {target=&quot;_blank&quot;}.
+1. Dal Web Store Google Chrome, passa al [Helper per l&#39;editing video di Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} estensione del browser.
 
 1. Fai clic su **[!UICONTROL Aggiungi a Chrome]** > **[!UICONTROL Aggiungi estensione]**.
 
@@ -56,7 +56,7 @@ L’estensione non dispone di impostazioni condizionali e gestisce automaticamen
 
 Quando si utilizza l’Adobe [!DNL Journey Optimizer] web designer, se si tenta di caricare un sito web che non riesce a caricarsi, viene visualizzato un messaggio per suggerirti di installare [Estensione di Visual Editing Helper per il browser](#install-visual-editing-helper).
 
-Se l&#39;SDK per web di Adobe Experience Platform non è ancora implementato sul sito web, nella finestra di progettazione web viene visualizzato un messaggio per suggerirti di installare l&#39;estensione per browser di Visual Editing Helper e di implementare l&#39; [SDK per web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target=&quot;_blank&quot;}.
+Se l&#39;SDK per web di Adobe Experience Platform non è ancora implementato sul sito web, nella finestra di progettazione web viene visualizzato un messaggio per suggerirti di installare l&#39;estensione per browser di Visual Editing Helper e di implementare l&#39; [SDK per web](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"}.
 
 Se il sito non viene caricato o si comporta in modo imprevisto, è possibile accettare i cookie sul sito web nel browser prima di provare a caricarlo in Adobe [!DNL Journey Optimizer].
 
