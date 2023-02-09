@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1516'
 ht-degree: 0%
@@ -220,13 +220,13 @@ Per rimuovere un indirizzo dall&#39;elenco di soppressione, utilizzare il **[!UI
 >Procedi con molta attenzione quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbio, contatta un esperto di recapito.
 
 
-Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail vengono erroneamente contrassegnate come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
+Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail possono essere contrassegnate erroneamente come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
 A questo scopo, filtra l’elenco di soppressione per visualizzare gli indirizzi e-mail o i domini interessati. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
 ![](assets/remove-from-supp-list.png)
 
-È inoltre necessario aggiungere un filtro per il tipo di rimbalzo rigido, a seconda dei dettagli dell&#39;interruzione. Questi dettagli vengono forniti dall&#39;ISP, ad esempio l&#39;esatto codice di errore restituito al mittente. Ad esempio: `550 <email address> recipient rejected` o `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+È inoltre necessario aggiungere un filtro per il tipo di rimbalzo, a seconda dei dettagli dell’interruzione. Questi dettagli vengono forniti dall&#39;ISP, ad esempio l&#39;esatto codice di errore restituito al mittente. Ad esempio: `550 <email address> recipient rejected` o `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 Una volta identificati, questi indirizzi possono essere rimossi manualmente dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante . Questi indirizzi possono quindi essere inclusi nelle campagne e-mail future.
 
