@@ -1,14 +1,14 @@
 ---
 title: Estensione Helper per editing video
 description: Scopri l’estensione Visual Editing Helper Chrome che consente di creare e visualizzare in anteprima pagine web in Journey Optimizer
-feature: Web channel
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 15%
