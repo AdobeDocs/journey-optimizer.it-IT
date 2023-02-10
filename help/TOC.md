@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 99%
          + [Definisci uno stile per i collegamenti](using/email/styling-links.md)
          + [Aggiungi attributi di stile in linea](using/email/inline-styling.md)
    + [Anteprima e verifica dell’e-mail](using/email/preview.md)
-   + [Creare modelli di contenuto](using/email/content-templates.md)
+   + [Crea modelli di contenuto](using/email/content-templates.md)
    + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
    + Configurare il canale e-mail {#configure-email}
       + [ Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
