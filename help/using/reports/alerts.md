@@ -7,13 +7,11 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '210'
+ht-degree: 8%
 
 ---
 
@@ -24,16 +22,20 @@ Journey Optimizer sfrutta le funzionalità di avvisi di Adobe Experience Platfor
 Ulteriori informazioni sugli avvisi in Adobe Experience Platform [documentazione](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it).
 Per informazioni su come sottoscrivere e configurare gli avvisi, consulta questo articolo [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
-Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**. È disponibile un avviso preconfigurato per Journey Optimizer. Questo avviso ti avviserà se un nodo del segmento letto non ha elaborato alcun profilo durante l’intervallo di tempo definito.
+Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**.
 
-![](assets/alerts1.png)
+<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
+
+![](assets/alerts1.png)-->
 
 Se si verifica un comportamento imprevisto, una notifica di avviso viene inviata agli abbonati all’avviso tramite e-mail, nell’angolo in alto a destra dell’interfaccia.
 
-![](assets/alerts2.png)
+<!--![](assets/alerts2.png)-->
 
-Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Durante l’abbonamento agli avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in diversi pacchetti di abbonamento. Il nome della sottoscrizione dell’evento I/O corrispondente all’avviso Leggi segmento è: &quot;Ritardi, errori ed errori del segmento letti dal Percorso&quot;.
+Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Durante l’abbonamento agli avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in diversi pacchetti di abbonamento.
+
+<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 
 >[!WARNING]
 >
->Questi avvisi si applicano solo ai percorsi live. Gli avvisi non verranno attivati per percorsi in modalità di test.
+>These alerts apply only to live journeys. Alerts will not be triggered for journeys in test mode.-->
