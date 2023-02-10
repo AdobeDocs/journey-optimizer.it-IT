@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 5297edd0df4ffb9dc7470cbbc68781fc1cec0d27
+source-git-commit: 45d508b284c23235518fab37095413091208e497
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '828'
 ht-degree: 5%
 
 ---
@@ -134,6 +134,6 @@ Prendiamo un esempio con la seguente configurazione:
 * L&#39;azione deve iniziare alle 10 di mattina
 * Finestra 3 ore
 
-Un profilo può avere un tempo di apertura ottimale che si trova al di fuori della finestra. Ad esempio, John ha un open ottimale al clic alle 5 del pomeriggio.
+Un profilo può avere un tempo di apertura ottimale che si trova al di fuori della finestra. Ad esempio, l&#39;apertura ottimale di John al clic è alle 5 del pomeriggio.
 
-A livello di profilo, ci sono punteggi per ogni ora della settimana. In questo esempio, l’e-mail verrà sempre inviata all’interno della finestra . In fase di esecuzione, il sistema controlla l’elenco dei punteggi all’interno di tale finestra (finestra di 3 ore a partire dalle 10 di mattina). Il sistema confronta quindi i punteggi per 10, 11 e mezzogiorno e decide quale dei tre è più alto. L’e-mail viene inviata in quel momento.
+A livello di profilo, ci sono punteggi per ogni ora della settimana. In questo esempio, l’e-mail verrà sempre inviata all’interno della finestra . In fase di esecuzione, il sistema controlla l’elenco dei punteggi all’interno di tale finestra (finestra di 3 ore a partire dalle 10 di mattina). Il sistema confronta quindi i punteggi per 10, 11 e mezzogiorno e seleziona il più alto. L’e-mail viene inviata in quel momento.
