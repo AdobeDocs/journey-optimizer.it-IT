@@ -6,9 +6,9 @@ description: Scopri come configurare il tuo ambiente per l’invio di SMS con Jo
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -131,3 +131,5 @@ Ora puoi inviare messaggi SMS con Journey Optimizer.
 
 * [Creare un messaggio SMS](create-sms.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
+* [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)
+
