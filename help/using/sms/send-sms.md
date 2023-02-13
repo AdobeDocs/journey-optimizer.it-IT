@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Anteprima del messaggio SMS
+title: Anteprima e verifica il messaggio SMS
 description: Scopri come visualizzare in anteprima e testare il messaggio SMS in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '275'
 ht-degree: 6%
 
 ---
 
-# Invia il messaggio SMS {#send-sms}
+# Anteprima e verifica il messaggio SMS {#send-sms}
 
-## Anteprima del messaggio SMS {#preview-sms}
+## Anteprima dell’SMS {#preview-sms}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito contenuto personalizzato, puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito contenuto personalizzato, puoi controllare come questo contenuto viene visualizzato nel messaggio, utilizzando i dati del profilo di test.
 
 1. Fai clic su **[!UICONTROL Simulazione del contenuto]**.
 
@@ -31,27 +31,26 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 1. Dopo aver selezionato il profilo di test, puoi chiudere la **[!UICONTROL Aggiungi profilo di test]** finestra.
 
-   ![](assets/sms_preview_1.png)
-
-1. Dalla finestra Anteprima e test, i dati del profilo di test vengono utilizzati nel contenuto del messaggio.
-
-   Ad esempio, per questo messaggio SMS, sia il contenuto del messaggio sia personalizzato:
+1. Da **Anteprima e test** i dati del profilo di test vengono aggiunti al contenuto del messaggio.
 
    ![](assets/sms_preview_2.png)
 
-## Convalidare l’SMS{#sms-preview}
+
+## Convalidare l’SMS{#sms-validate}
+
+Devi controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedire l’invio del messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
+
+* **Avvisi** consulta consigli e best practice. Ad esempio, se il messaggio SMS è vuoto, viene visualizzato un messaggio di avviso.
+
+* **Errori** impedisce di testare o attivare il percorso o di pubblicare la campagna, purché non siano risolti. Ad esempio, un messaggio di errore ti avvisa quando manca l’oggetto.
+
+![](assets/sms-alert-button.png)
 
 >[!NOTE]
 >
-> Per una migliore consegna, è sempre necessario utilizzare i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
+> Per migliorare il recapito messaggi, utilizza i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
 
-È inoltre necessario controllare gli avvisi nella sezione superiore dell’editor.  Alcuni sono semplici avvisi, altri possono impedire l’utilizzo del messaggio. Possono verificarsi due tipi di avvisi:
-
-* **Avvisi** consulta consigli e best practice. Ad esempio, se il messaggio SMS è vuoto, viene visualizzato un messaggio.
-
-* **Errori** impedisce di testare o attivare il percorso purché non siano risolti. Ad esempio, un messaggio ti avviserà che manca l’oggetto.
-
-![](assets/sms-alert-button.png)
+## Invia il tuo SMS{#sms-send}
 
 Quando il messaggio SMS è pronto, completa la configurazione della [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
 

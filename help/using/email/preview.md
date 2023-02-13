@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Anteprima dei messaggi e invio delle bozze
-description: Scopri come visualizzare in anteprima e verificare i messaggi
+description: Scopri come visualizzare in anteprima e testare il messaggio e-mail
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: anteprima, contenuto, e-mail, bozza, test, profilo
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Anteprima e verifica dei messaggi {#preview-and-proof}
+# Anteprima e verifica dell’e-mail {#preview-and-proof}
 
 Una volta definito il contenuto dell’e-mail, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), puoi controllare come questo contenuto viene visualizzato nel messaggio, utilizzando i dati del profilo di test.
 

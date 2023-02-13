@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inviare una notifica push
+title: Anteprima e verifica la notifica push
 description: Scopri come visualizzare in anteprima e testare la notifica push in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '380'
+ht-degree: 5%
 
 ---
 
-# Inviare una notifica push {#send-push}
+# Anteprima e verifica la notifica push {#send-push}
 
 ## Anteprima della notifica push {#preview-push}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito contenuto personalizzato, puoi controllare come questo contenuto viene visualizzato nel messaggio, sfruttando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai inserito contenuto personalizzato, puoi controllare come questo contenuto viene visualizzato nel messaggio, utilizzando i dati del profilo di test.
 
 1. Fai clic su **[!UICONTROL Simulazione del contenuto]**.
 
@@ -29,11 +29,9 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
    ![](assets/push_preview_1.png)
 
-1. Per selezionare un profilo di test, applica gli stessi passaggi descritti in precedenza e
+1. Dopo aver selezionato il profilo di test, puoi chiudere la **[!UICONTROL Aggiungi profilo di test]** finestra.
 
-   ![](assets/push_preview_2.png)
-
-1. Nell’anteprima push, i dati del profilo di test vengono utilizzati nel contenuto del messaggio.
+1. Da **Anteprima e test** i dati del profilo di test vengono aggiunti al contenuto del messaggio.
 
    Seleziona il tipo di dispositivo per visualizzare in anteprima il contenuto: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
 
@@ -41,11 +39,8 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 ## Convalida la notifica push {#push-validate}
 
->[!NOTE]
->
-> Per una migliore consegna, è sempre necessario utilizzare i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
 
-È inoltre necessario controllare gli avvisi nella sezione superiore dell’editor.  Alcuni sono semplici avvisi, altri possono impedire l’utilizzo del messaggio. Possono verificarsi due tipi di avvisi:
+Devi controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedire l’invio del messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
 
 * **Avvisi** consulta consigli e best practice.
 
@@ -57,6 +52,22 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
    * **[!UICONTROL Il payload push iOS/Android ha superato il limite di 4 KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoticon. Scopri come gestire il contenuto delle notifiche push in [questa sezione](../push/create-push.md).
 
-![](assets/push_alert.png)
+   ![](assets/push_alert.png)
 
-Quando la notifica push è pronta, completa la configurazione della [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
+
+>[!NOTE]
+>
+> Per una migliore consegna, è sempre necessario utilizzare i numeri di telefono nei formati supportati dal provider. Ad esempio, Twilio e Sinch supportano solo i numeri di telefono in formato E.164.
+
+## Inviare una notifica push{#push-send}
+
+Quando il messaggio push è pronto, completa la configurazione della [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
+
+**Argomenti correlati**
+
+* [Configurare il canale push](push-configuration.md)
+* [Rapporto notifiche push](../reports/journey-global-report.md#push-global)
+* [Creare una notifica push](create-push.md)
+* [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
+* [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)
+
