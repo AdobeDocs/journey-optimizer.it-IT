@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: collegamenti, tracking, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 54%
+source-wordcount: '695'
+ht-degree: 51%
 
 ---
 
@@ -88,7 +88,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita per la [superficie di canale](../configuration/channel-surfaces.md#email-type) (ossia per il predefinito del messaggio) e durante la creazione del messaggio.
+>I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [superficie del canale](../configuration/channel-surfaces.md#email-type) (ad es. predefinito messaggio) durante la creazione del messaggio.
 
 ## Collegare a una pagina mirror {#mirror-page}
 
