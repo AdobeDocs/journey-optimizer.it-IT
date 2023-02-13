@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '449'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 13%
 
 ## Aggiungere un messaggio SMS {#create-sms-journey-campaign}
 
-Sfoglia le schede seguenti per scoprire come aggiungere un SMS in una campagna o in un percorso.
+Sfoglia le schede seguenti per scoprire come aggiungere un messaggio SMS in una campagna o in un percorso.
 
 >[!BEGINTABS]
 
@@ -86,9 +86,11 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL 
 
 1. Utilizza l’editor espressioni per definire il contenuto e aggiungere contenuto dinamico. Puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo o la città. Ulteriori informazioni [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor espressioni.
 
-1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell’anteprima. [Ulteriori informazioni](send-sms.md)
+1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell’anteprima.
 
    ![](assets/sms-content-preview.png)
+
+Ora puoi testare e inviare il messaggio SMS al tuo pubblico. [Ulteriori informazioni](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL 
 
 **Argomenti correlati**
 
+* [Anteprima, verifica e invia il messaggio SMS](send-sms.md)
 * [Configurare il canale SMS](sms-configuration.md)
 * [Rapporto SMS](../reports/journey-global-report.md#sms-global)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
