@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -144,28 +144,6 @@ Errori permanenti raggruppati per codice non recapitato:
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
-
-### Identificare gli indirizzi messi in quarantena dopo un’interruzione dell’ISP{#isp-outage-query}
-
-In caso di interruzione di un provider di servizi Internet (ISP), è necessario identificare gli indirizzi e-mail erroneamente contrassegnati come non recapitati (messi in quarantena) per domini specifici, durante un intervallo di tempo. Per ottenere questi indirizzi, utilizza la seguente query:
-
-```sql
-SELECT
-    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
-    timestamp AS EventTime,
-    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
-FROM cjm_message_feedback_event_dataset
-WHERE
-    eventtype = 'message.feedback' AND
-    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
-    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
-    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
-ORDER BY timestamp DESC;
-```
-
-se il formato delle date è: AAAA-MM-GG HH:MM:SS.
-
-Una volta identificati, rimuovi tali indirizzi dall’elenco di soppressione di Journey Optimizer. [Maggiori informazioni](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Set di dati evento esperienza tracciamento push {#push-tracking-experience-event-dataset}
 

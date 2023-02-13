@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 100%
          + [Definisci uno stile per i collegamenti](using/email/styling-links.md)
          + [Aggiungi attributi di stile in linea](using/email/inline-styling.md)
    + [Anteprima e verifica dell’e-mail](using/email/preview.md)
-   + [Crea modelli di contenuto](using/email/content-templates.md)
+   + [Creare modelli di contenuto](using/email/content-templates.md)
    + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
    + Configurare il canale e-mail {#configure-email}
       + [ Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
@@ -413,10 +413,10 @@ ht-degree: 100%
 + Gestione dei dati {#data-management}
    + [Introduzione alla gestione dei dati](using/data/gs-data.md)
    + [Utilizzare gli schemi](using/data/get-started-schemas.md)
-   + [Query](using/data/get-started-queries.md)
    + Set di dati di Journey Optimizer {#datasets}
       + [Introduzione ai set di dati](using/data/get-started-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
+   + [Query](using/data/get-started-queries.md)
 + Configurazione{#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
    + Delegare i sottodomini e-mail {#delegate-subdomains}

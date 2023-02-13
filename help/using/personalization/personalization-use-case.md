@@ -12,7 +12,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ L&#39;obiettivo di questo esempio è quello di inviare un evento a [!DNL Journey
 
 Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
-* configura un evento ordine, che include il numero dell&#39;ordine, lo stato e il nome dell&#39;articolo. Fai riferimento a questo [sezione](../event/about-events.md).
+* configura un evento ordine, che include il numero dell&#39;ordine, lo stato e il nome dell&#39;articolo. Fai riferimento a questa [sezione](../event/about-events.md).
 * crea una decisione, fai riferimento a questa [sezione](../offers/offer-activities/create-offer-activities.md).
 
 ## Passaggio 1: creare il percorso {#create-journey}
@@ -41,7 +41,7 @@ Per questo caso d’uso sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc5.png)
 
-1. Configura e progetta il messaggio di notifica push. Fai riferimento a questo [sezione](../push/create-push.md).
+1. Configura e progetta il messaggio di notifica push. Fai riferimento a questa [sezione](../push/create-push.md).
 
 ## Passaggio 2: aggiungere la personalizzazione sul profilo {#add-perso}
 

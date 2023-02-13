@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -58,11 +58,11 @@ Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti in 
 
 ## Integrazione con il Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] gli eventi di passaggio possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] gli eventi di passaggio possono essere collegati ad altri set di dati in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=it){target="_blank"}.
 
 Il flusso di lavoro generale è:
 
 * [!DNL Customer Journey Analytics] acquisisce il set di dati &quot;Evento passaggio Percorso&quot;.
 * La **profileID** il campo nello &quot;schema evento del passaggio del Percorso per il Journey Orchestration&quot; associato è definito come campo Identity. In [!DNL Customer Journey Analytics], puoi quindi collegare questo set di dati a qualsiasi altro set di dati con lo stesso valore dell’identificatore basato su persona.
-* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi dei percorsi cross-channel, fai riferimento a [Documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
+* Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi dei percorsi cross-channel, fai riferimento a [Documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 

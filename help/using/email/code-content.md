@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare un codice per il proprio contenuto e-mail
-description: Scopri come codificare il tuo contenuto e-mail
+title: Creare il codice del contenuto e-mail
+description: Scopri come creare il codice per il contenuto delle e-mail
 feature: Overview
 topic: Content Management
 role: User
@@ -12,13 +12,13 @@ exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 8%
+ht-degree: 60%
 
 ---
 
 # Crea un codice per il tuo contenuto {#code-content}
 
-Utilizza la **[!UICONTROL Codice personalizzato]** modalità per importare HTML non elaborati e/o codificare il contenuto dell’e-mail. Questo metodo richiede competenze HTML.
+Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il codice HTML non elaborato da usare come contenuto dell’e-mail. Questo metodo richiede competenze HTML.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -36,7 +36,7 @@ Utilizza la **[!UICONTROL Codice personalizzato]** modalità per importare HTML 
 
    ![](assets/code-editor.png)
 
-1. Se desideri aprire E-mail Designer per avviare l’e-mail da una nuova progettazione, seleziona **[!UICONTROL Modificare la progettazione]** dal menu delle opzioni.
+1. Se desideri aprire E-mail Designer per avviare l’e-mail da un nuovo design, seleziona **[!UICONTROL Cambia il design]** nel menu delle opzioni.
 
    ![](assets/code-editor-change-design.png)
 
@@ -44,6 +44,6 @@ Utilizza la **[!UICONTROL Codice personalizzato]** modalità per importare HTML 
 
    ![](assets/code-editor-preview.png)
 
-1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva]** quindi torna alla schermata di creazione del messaggio per finalizzare il messaggio.
+1. Quando il codice è pronto, fai clic su **[!UICONTROL Salva]** quindi torna alla schermata di creazione del messaggio per finalizzarlo.
 
    ![](assets/code-editor-save.png)

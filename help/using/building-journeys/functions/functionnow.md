@@ -30,7 +30,7 @@ Data
 
 | Parametro | Descrizione |
 |--- |--- |
-| stringa |  |
+| string |  |
 
 ## Firme e tipo restituito
 

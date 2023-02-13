@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -219,15 +219,16 @@ Per rimuovere un indirizzo dall&#39;elenco di soppressione, utilizzare il **[!UI
 >
 >Procedi con molta attenzione quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbio, contatta un esperto di recapito.
 
-Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail vengono erroneamente contrassegnate come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
-Per recuperare tali indirizzi, esegui una query specifica con parametri personalizzati, in base al contesto dell’interruzione. [Per ulteriori informazioni, consulta questa pagina](../data/datasets-query-examples.md#isp-outage-query).
+Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail possono essere contrassegnate erroneamente come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
-Una volta identificati gli indirizzi e-mail interessati, filtra l’elenco di soppressione per visualizzarli. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
+A questo scopo, filtra l’elenco di soppressione per visualizzare gli indirizzi e-mail o i domini interessati. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
 ![](assets/remove-from-supp-list.png)
 
-Puoi quindi rimuovere gli indirizzi e-mail messi in quarantena dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante .
+È inoltre necessario aggiungere un filtro per il tipo di rimbalzo, a seconda dei dettagli dell’interruzione. Questi dettagli vengono forniti dall&#39;ISP, ad esempio l&#39;esatto codice di errore restituito al mittente. Ad esempio: `550 <email address> recipient rejected` o `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+
+Una volta identificati, questi indirizzi possono essere rimossi manualmente dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante . Questi indirizzi possono quindi essere inclusi nelle campagne e-mail future.
 
 ## Scaricare l&#39;elenco di soppressione {#download-suppression-list}
 
@@ -235,7 +236,7 @@ Puoi quindi rimuovere gli indirizzi e-mail messi in quarantena dall’elenco di 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 Per esportare l’elenco di soppressione come file CSV, segui la procedura seguente:

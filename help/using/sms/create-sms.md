@@ -71,7 +71,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL 
 1. Da **[!UICONTROL Trigger delle azioni]** scegliere il menu **[!UICONTROL Frequenza]** del messaggio SMS:
 
    * Una volta
-   * Giornaliera
+   * Giornaliero
    * Settimanale
    * Mese
 

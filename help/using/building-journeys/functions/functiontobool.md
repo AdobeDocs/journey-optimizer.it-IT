@@ -33,7 +33,7 @@ Conversione
 
 * decimal
 * booleano
-* stringa
+* string
 * numero intero
 
 ## Firme e tipi restituiti

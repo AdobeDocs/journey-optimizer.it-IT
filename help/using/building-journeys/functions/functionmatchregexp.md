@@ -30,8 +30,8 @@ Stringa
 
 | Parametro | Tipo |
 |--- |--- |
-| stringa | stringa |
-| rigexp | stringa |
+| string | string |
+| rigexp | string |
 
 ## Firma e tipo restituito
 

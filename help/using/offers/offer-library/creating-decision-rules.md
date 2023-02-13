@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 10%
+source-wordcount: '328'
+ht-degree: 13%
 
 ---
 
@@ -41,7 +41,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Destinazioni pubblico]** servizio. Ad esempio, il **[!UICONTROL Segmenti]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) la documentazione è ancora valida per generare le regole decisionali delle offerte. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Destinazioni pubblico]** servizio. Ad esempio, il **[!UICONTROL Segmenti]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) la documentazione è ancora valida per generare le regole decisionali delle offerte. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
 
 1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Proprietà del segmento]** visualizza informazioni sui profili stimati appartenenti al segmento. Fai clic su **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 
@@ -59,7 +59,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, non potrai sfruttarlo in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
 
 ## Video tutorial {#video}
 

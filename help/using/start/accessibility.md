@@ -2,22 +2,22 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Funzioni di accessibilità in Journey Optimizer
-description: Ulteriori informazioni sull’accessibilità nell'interfaccia utente di Journey Optimizer
-feature: Accessibility
+description: Ulteriori informazioni sull’accessibilità nell’interfaccia utente di Journey Optimizer
+feature: Overview
 role: User
 level: Beginner
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
 # Accessibilità in Journey Optimizer{#accessibility}
 
-Per accessibilità si intende una serie di funzioni che rendono un prodotto software utilizzabile, con il minor sforzo possibile, per gli utenti con disabilità visive, uditive, cognitive, motorie o di altro tipo. Adobe è leader del settore nell’accessibilità e supporta la creazione di esperienze web eccellenti incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Ulteriori informazioni sull’impegno di Adobe per l’accessibilità nella [Pagina sull‘Accessibilità di Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+Per accessibilità si intende una serie di funzioni che rendono un prodotto software utilizzabile, con il minor sforzo possibile, per gli utenti con disabilità visive, uditive, cognitive, motorie o di altro tipo. Adobe è leader di settore nell’accessibilità e supporta la creazione di esperienze web eccezionali incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Ulteriori informazioni sull’impegno di Adobe per l’accessibilità nel [Pagina Accessibilità di Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
-Per raggiungere l’obiettivo di conformità all’accessibilità, [!DNL Journey Optimizer] segue le best practice riconosciute a livello internazionale nelle linee guida per l’accessibilità dei contenuti web (WCAG) 2.1 Livello A e livello AA. Ulteriori informazioni nell&#39;ultimo [Rapporto sulla conformità all’accessibilità di Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
+Per raggiungere l’obiettivo di conformità all’accessibilità, [!DNL Journey Optimizer] segue le best practice riconosciute a livello internazionale nelle linee guida per l’accessibilità dei contenuti web (WCAG) 2.1 Livello A e livello AA. Per saperne di più [Rapporto sulla conformità per l’accessibilità di Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
 
 
 Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate da Adobe Experience Platform:
@@ -28,7 +28,7 @@ Le funzioni di accessibilità in [!DNL Adobe Journey Optimizer] sono ereditate d
 
 Le funzioni di accessibilità di Adobe Experience Platform sono descritte in dettaglio [in questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=it){target="_blank"}.
 
-In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni seguenti:
+Sono disponibili le seguenti scelte rapide da tastiera comuni in [!DNL Journey Optimizer]:
 
 | Azione | Tasti di scelta rapida |
 | --- | --- |
@@ -38,7 +38,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
 | Annulla una selezione, comprimi un pannello o chiudi una finestra di dialogo | Esc |
 
-È possibile utilizzare queste scelte rapide in aree specifiche dell‘interfaccia utente di [!DNL Journey Optimizer]:
+Puoi utilizzare queste scelte rapide in aree specifiche di [!DNL Journey Optimizer] interfaccia utente:
 
 <table>
   <thead>

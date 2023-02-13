@@ -21,7 +21,7 @@ Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione l
 
 Le sezioni seguenti forniscono informazioni sulle diverse espressioni del tipo di dati e sulla relativa rappresentazione.
 
-## stringa {#string}
+## string {#string}
 
 **Descrizione**
 

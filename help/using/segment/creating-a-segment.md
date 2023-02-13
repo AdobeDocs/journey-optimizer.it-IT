@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '340'
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
    ![](assets/create-segment.png)
 
-   La schermata di definizione del segmento ti consente di configurare tutti i campi richiesti per definire il segmento. Scopri come configurare i segmenti nel [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
+   La schermata di definizione del segmento ti consente di configurare tutti i campi richiesti per definire il segmento. Scopri come configurare i segmenti nel [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -42,7 +42,7 @@ In questo esempio, creeremo un segmento per tutti i clienti che vivono ad Atlant
 
    >[!NOTE]
    >
-   >I campi disponibili nel riquadro a sinistra variano a seconda del modo in cui **Profilo individuale XDM** e **ExperienceEvent XDM** Gli schemi sono stati configurati per la tua organizzazione.  Ulteriori informazioni nel [Documentazione di Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target=&quot;_blank&quot;}.
+   >I campi disponibili nel riquadro a sinistra variano a seconda del modo in cui **Profilo individuale XDM** e **ExperienceEvent XDM** Gli schemi sono stati configurati per la tua organizzazione.  Ulteriori informazioni nel [Documentazione di Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
    ![](assets/drag-fields.png)
 

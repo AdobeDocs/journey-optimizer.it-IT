@@ -30,8 +30,8 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora in formato ISO-8601 | stringa |
-| id fuso orario | stringa |
+| ora in formato ISO-8601 | string |
+| id fuso orario | string |
 | data e ora senza fuso orario | dateTimeOnly |
 | valore intero di un&#39;epoch in millisecondi | numero intero |
 

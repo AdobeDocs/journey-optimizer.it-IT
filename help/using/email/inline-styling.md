@@ -12,7 +12,7 @@ exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 6%
+ht-degree: 37%
 
 ---
 
@@ -29,4 +29,4 @@ Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visuali
 
    ![](assets/styles_2.png)
 
-Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento padre.
+Lo stile viene quindi applicato all’elemento selezionato. Se per gli elementi secondari non sono definiti attributi di stile specifici, viene ereditato lo stile dell’elemento principale.

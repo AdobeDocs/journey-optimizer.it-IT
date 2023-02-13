@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '861'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Innanzitutto devi selezionare i profili di test che utilizzerai per la simulazio
 
    >[!NOTE]
    >
-   >Uno spazio dei nomi di identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID CRM. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../../segment/get-started-identity.md){target=&quot;_blank&quot;}.
+   >Uno spazio dei nomi di identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID CRM. Ulteriori informazioni sui namespace delle identità Adobe Experience Platform [in questa sezione](../../segment/get-started-identity.md){target="_blank"}.
 
 1. Immetti il valore dell&#39;identità e fai clic su **[!UICONTROL Visualizza]** per elencare i profili disponibili.
 
@@ -212,5 +212,5 @@ Dopo aver aggiunto un ambito decisionale e selezionato un profilo di test, puoi 
 
    >[!NOTE]
    >
-   >Quando copi i payload di richiesta o risposta nel tuo codice, assicurati di sostituire {USER_TOKEN} e {API_KEY} con valori validi. Scopri come recuperare questi valori nel [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html)Documentazione di {target=&quot;_blank&quot;}.
+   >Quando copi i payload di richiesta o risposta nel tuo codice, assicurati di sostituire {USER_TOKEN} e {API_KEY} con valori validi. Scopri come recuperare questi valori nel [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentazione.
 

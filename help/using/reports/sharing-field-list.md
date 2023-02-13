@@ -11,7 +11,7 @@ exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -70,4 +70,4 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 
 ## stepEvents {#stepevents-field}
 
-Questa categoria contiene i campi evento del passaggio originale. Fai riferimento a questo [sezione](../reports/sharing-legacy-fields.md).
+Questa categoria contiene i campi evento del passaggio originale. Fai riferimento a questa [sezione](../reports/sharing-legacy-fields.md).

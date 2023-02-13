@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Personalizza lo sfondo dell’e-mail
+title: Personalizzare lo sfondo delle e-mail
 description: Scopri come personalizzare lo sfondo delle e-mail
 feature: Overview
 topic: Content Management
@@ -12,44 +12,44 @@ exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 0%
+ht-degree: 82%
 
 ---
 
-# Personalizza lo sfondo dell’e-mail {#backgrounds}
+# Personalizzare lo sfondo delle e-mail {#backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Impostazioni dello sfondo"
->abstract="Puoi personalizzare il colore di sfondo o l’immagine di sfondo per il contenuto. L’immagine di sfondo non è supportata da tutti i client e-mail."
+>abstract="Puoi personalizzare il colore o l’immagine di sfondo del tuo contenuto. Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
 
-Quando si tratta di impostare gli sfondi con E-mail Designer, l’Adobe consiglia quanto segue:
+Per impostare lo sfondo con E-mail Designer, Adobe consiglia quanto segue:
 
-1. Se richiesto dalla progettazione, applica un colore di sfondo al corpo dell’e-mail.
-1. In genere, impostare i colori di sfondo a livello di colonna.
-1. Prova a non utilizzare i colori di sfondo su componenti immagine o testo in quanto sono difficili da gestire.
+1. Se richiesto dal tuo design, applica un colore di sfondo al corpo dell’e-mail.
+1. In genere, conviene impostare i colori di sfondo a livello di colonna.
+1. Evita di utilizzare i colori di sfondo su componenti immagine o testo, poiché sono difficili da gestire.
 
-Di seguito sono riportate le impostazioni di sfondo disponibili che è possibile utilizzare.
+Di seguito sono riportate le impostazioni di sfondo disponibili.
 
-* Imposta un **[!UICONTROL Colore di sfondo]** per l&#39;intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
+* Imposta un **[!UICONTROL Colore di sfondo]** per l’intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
 
    ![](assets/background_1.png)
 
-* Per impostare lo stesso colore di sfondo per tutti i componenti struttura, seleziona **[!UICONTROL Colore di sfondo del riquadro di visualizzazione]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
+* Per impostare lo stesso colore di sfondo per tutti i componenti della struttura, seleziona **[!UICONTROL Colore di sfondo del riquadro di visualizzazione]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
 
    ![](assets/background_2.png)
 
-* Impostare un colore di sfondo diverso per ciascun componente struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla palette a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
+* Imposta un colore di sfondo diverso per ciascun componente della struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla palette a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
 
-   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione in quanto potrebbe nascondere i colori di sfondo della struttura.
+   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
 
    ![](assets/background_3.png)
 
-* Imposta un **[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
+* Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
 
    >[!NOTE]
    >
-   >Alcuni programmi e-mail non supportano le immagini in background. Se non supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l&#39;immagine non possa essere visualizzata.
+   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
    ![](assets/background_4.png)
 

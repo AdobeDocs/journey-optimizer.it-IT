@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ L’utilizzo di modelli di ottimizzazione automatica per la gestione delle decis
 
 I seguenti termini sono utili quando si parla di ottimizzazione automatica:
 
-* **Bandit multi-armata**: A [slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit)L&#39;approccio all&#39;ottimizzazione {target=&quot;_blank&quot;} compensa l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento.
+* **Bandit multi-armata**: A [slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} l&#39;approccio all&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento.
 
 * **campionamento di Thomson**: il campionamento di Thompson è un algoritmo per i problemi decisionali online in cui le azioni vengono intraprese in sequenza in modo da bilanciare lo sfruttamento di ciò che è noto per massimizzare le prestazioni immediate e l’investimento per accumulare nuove informazioni che possono migliorare le prestazioni future. [Ulteriori informazioni](#thompson-sampling)
 
-* [**Distribuzione beta**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}: Serie continua [distribuzioni delle probabilità](https://en.wikipedia.org/wiki/Probability_distribution){target=&quot;_blank&quot;} definito nell&#39;intervallo [0, 1] [parametrizzato](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;} da due positivo [parametri della forma](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}.
+* [**Distribuzione beta**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Campionamento di Thompson {#thompson-sampling}
 
 L’algoritmo alla base dell’ottimizzazione automatica è **Campionamento di Thompson**. In questa sezione viene illustrato l’intuizione alla base del campionamento di Thompson.
 
-[Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}, o banditi bayesiani, è un approccio bayesiano al problema della slot machine.  L&#39;idea di base è trattare la ricompensa media? da ogni offerta come **variabile casuale** e utilizzare i dati raccolti finora, per aggiornare la nostra &quot;convinzione&quot; sulla ricompensa media. Questa &quot;credenza&quot; è rappresentata matematicamente da un **distribuzione della probabilità posteriore** - essenzialmente una gamma di valori per la ricompensa media, insieme alla plausibilità (o probabilità) che la ricompensa ha quel valore per ogni offerta. Allora, per ogni decisione, **campionare un punto da ciascuna di queste distribuzioni di ricompensa posteriori** e seleziona l’offerta il cui premio campione aveva il valore più alto.
+[Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o banditi bayesiani, è un approccio bayesiano al problema della slot machine.  L&#39;idea di base è trattare la ricompensa media? da ogni offerta come **variabile casuale** e utilizzare i dati raccolti finora, per aggiornare la nostra &quot;convinzione&quot; sulla ricompensa media. Questa &quot;credenza&quot; è rappresentata matematicamente da un **distribuzione della probabilità posteriore** - essenzialmente una gamma di valori per la ricompensa media, insieme alla plausibilità (o probabilità) che la ricompensa ha quel valore per ogni offerta. Allora, per ogni decisione, **campionare un punto da ciascuna di queste distribuzioni di ricompensa posteriori** e seleziona l’offerta il cui premio campione aveva il valore più alto.
 
 Questo processo è illustrato nella figura seguente, dove abbiamo 3 diverse offerte. Inizialmente non abbiamo alcuna prova dai dati e supponiamo che tutte le offerte abbiano una distribuzione uniforme di ricompensa posteriore. Disegniamo un campione dalla distribuzione della ricompensa posteriore di ogni offerta. Il campione selezionato nella distribuzione dell&#39;offerta 2 ha il valore più alto. Questo è un esempio di **esplorazione**. Dopo aver mostrato l&#39;Offerta 2, raccogliamo ogni potenziale premio (per esempio conversione/no-conversione) e aggiorniamo la distribuzione posteriore dell&#39;Offerta 2 utilizzando il Teorema Bayes come spiegato di seguito.  Continuiamo questo processo e aggiorniamo le distribuzioni posteriori ogni volta che viene mostrata un&#39;offerta e viene raccolto il premio. Nella seconda figura, l&#39;offerta 3 è selezionata - nonostante l&#39;offerta 1 abbia il premio medio più alto (la sua distribuzione di ricompensa posteriore è più a destra), il processo di campionamento da ogni distribuzione ci ha portato a scegliere un&#39;offerta apparentemente non ottimale 3. In questo modo ci offriamo l’opportunità di saperne di più sulla distribuzione della ricompensa effettiva dell’offerta 3.
 
@@ -71,7 +71,7 @@ L&#39;ottimizzazione automatica è progettata per considerare premi binari (clic
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-La funzione di probabilità, come spiegato sopra, è modellata da una distribuzione Binomiale, con i suoi successi (conversioni) e i suoi fallimenti (no-conversioni) e q è un [variabile casuale](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;} con un [distribuzione beta](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+La funzione di probabilità, come spiegato sopra, è modellata da una distribuzione Binomiale, con i suoi successi (conversioni) e i suoi fallimenti (no-conversioni) e q è un [variabile casuale](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 Il precedente è modellato dalla distribuzione Beta e la distribuzione posteriore assume la seguente forma:
 
@@ -85,8 +85,8 @@ Per l’ottimizzazione automatica, come mostrato nell’esempio precedente, vien
 **Argomenti correlati**:
 
 Per un&#39;immersione più approfondita sul campionamento di Thompson, leggi i seguenti documenti di ricerca:
-* [Valutazione empirica del campionamento di Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [Analisi del campionamento di Thompson per il problema del slot machine](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Valutazione empirica del campionamento di Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Analisi del campionamento di Thompson per il problema del slot machine](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Problema di avviamento a freddo {#cold-start}
 

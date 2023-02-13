@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ La connessione tra le istanze Journey Optimizer e Campaign viene impostata per A
 
 In questo viene presentato un caso d’uso end-to-end [sezione](../building-journeys/ajo-ac.md).
 
-Per ogni azione configurata, nella palette Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questo [sezione](../building-journeys/using-adobe-campaign-classic.md).
+Per ogni azione configurata, nella palette Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Note importanti {#important-notes}
 
@@ -70,7 +70,7 @@ Ecco un esempio:
 
 In Journey Optimizer, devi configurare un’azione per messaggio transazionale. Segui questi passaggi:
 
-1. Crea una nuova azione. Fai riferimento a questo [sezione](../action/action.md).
+1. Crea una nuova azione. Fai riferimento a questa [sezione](../action/action.md).
 1. Immetti un nome e una descrizione.
 1. In **Tipo di azione** campo , seleziona **Adobe Campaign Classic**.
 1. Fai clic in **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Per ottenere questo payload, contatta l’Adobe .

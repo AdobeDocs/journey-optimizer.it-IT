@@ -11,7 +11,7 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Nell’editor di espressioni avanzate, troverai il **Proprietà percorso** sotto
 
 >[!NOTE]
 >
->Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Vedi questo [sezione](../condition-activity.md#about_condition)
+>Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Consulta questa [sezione](../condition-activity.md#about_condition)
 
 ![](../assets/journey-properties.png)
 

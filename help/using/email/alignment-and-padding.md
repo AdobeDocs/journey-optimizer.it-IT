@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 5%
+ht-degree: 22%
 
 ---
 
@@ -32,7 +32,7 @@ In questo esempio, regoleremo la spaziatura e l’allineamento verticale all’i
 
 1. Sotto **[!UICONTROL Allineamento verticale]**, seleziona **[!UICONTROL In basso]**.
 
-   Il componente contenuto si sposta nella parte inferiore della colonna.
+   Il componente contenuto viene posizionato nella parte inferiore della colonna.
 
    ![](assets/alignment_3.png)
 

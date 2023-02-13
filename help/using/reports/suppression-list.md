@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ Per ogni indirizzo, il motivo di base della soppressione e la categoria di soppr
 >
 >I profili con **[!UICONTROL Soppresso]** lo stato viene escluso durante il processo di invio del messaggio. Pertanto, mentre **Rapporti sui percorsi** mostrerà questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), **Rapporti e-mail** non li includerà nella **[!UICONTROL Inviato]** le metriche vengono filtrate prima dell’invio dell’e-mail.
 >
->Per saperne di più sul [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Per saperne di più sul [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare il [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 
 ### Errori di consegna {#delivery-failures}
 

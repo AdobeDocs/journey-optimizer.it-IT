@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 22%
 
 ---
@@ -24,4 +24,4 @@ Scopri i connettori sorgente e come configurarli in Journey Optimizer in questo 
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Scopri come acquisire dati da sorgenti esterne con i connettori sorgente in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target=&quot;_blank&quot;}.
+Scopri come acquisire dati da sorgenti esterne con i connettori sorgente in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.

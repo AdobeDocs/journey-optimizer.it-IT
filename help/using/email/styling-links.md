@@ -12,13 +12,13 @@ exl-id: d5e148a8-a6d9-4e17-9cf0-46ff3c14871c
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 8%
+ht-degree: 59%
 
 ---
 
 # Definisci uno stile per i collegamenti {#styling-links}
 
-È possibile sottolineare un collegamento e selezionarne il colore e la destinazione in E-mail Designer.
+In E-mail Designer è possibile sottolineare un collegamento e selezionarne il colore e la destinazione.
 
 1. In un testo **[!UICONTROL Componente contenuto]** dove viene inserito un collegamento, seleziona il collegamento.
 
@@ -28,11 +28,11 @@ ht-degree: 8%
 
 1. Scegli in che modo il pubblico verrà reindirizzato con il **[!UICONTROL Target]** a discesa:
 
-   * **[!UICONTROL Nessuno]**: apre il collegamento nello stesso frame in cui è stato fatto clic (impostazione predefinita).
-   * **[!UICONTROL Vuoto]**: apre il collegamento in una nuova finestra o scheda.
-   * **[!UICONTROL Self]**: apre il collegamento nello stesso frame in cui è stato fatto clic.
-   * **[!UICONTROL Elemento padre]**: apre il collegamento nel frame principale.
-   * **[!UICONTROL Top]**: apre il collegamento nel corpo completo della finestra.
+   * **[!UICONTROL Nessuno]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic (impostazione predefinita).
+   * **[!UICONTROL Vuoto]**: il collegamento viene aperto in una nuova finestra o scheda.
+   * **[!UICONTROL Stesso]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic.
+   * **[!UICONTROL Principale]**: il collegamento viene aperto nel frame principale.
+   * **[!UICONTROL Superiore]**: il collegamento viene aperto nel corpo completo della finestra.
 
    ![](assets/link_2.png)
 

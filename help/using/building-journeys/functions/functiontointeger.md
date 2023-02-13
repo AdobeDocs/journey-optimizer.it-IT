@@ -30,7 +30,7 @@ Conversione
 
 | Parametro | Descrizione |
 |--- |--- |
-| stringa | converte il valore della stringa in un numero intero |
+| string | converte il valore della stringa in un numero intero |
 | dateTime | converte la data come numero di millisecondi (epoch millisecondi) |
 | decimal | converte in numero intero rimuovendo la parte decimale (ad esempio: 1,5 diventa 1) |
 | booleano | converte il valore booleano in 1 se true, 0 se false |

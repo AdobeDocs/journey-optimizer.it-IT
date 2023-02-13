@@ -12,7 +12,7 @@ exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 4%
+ht-degree: 40%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 4%
 
 Una volta progettato il tuo [contenuto della pagina di destinazione](lp-content.md), puoi salvarlo per un riutilizzo futuro. Per farlo, segui la procedura indicata di seguito.
 
-1. Fai clic sui puntini di sospensione in alto a destra dello schermo.
+1. Fai clic sui puntini di sospensione in alto a destra.
 
 1. Seleziona **[!UICONTROL Salva modello di progettazione]** dal menu a discesa.
 
    ![](assets/lp_designer-save-template.png)
 
-1. Aggiungi un nome per questo modello.
+1. Aggiungi il nome da assegnare al modello.
 
    ![](assets/lp_designer-template-name.png)
 
@@ -40,7 +40,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 ## Utilizzare un modello salvato {#use-saved-template}
 
-1. Apri [designer del contenuto della pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati in precedenza.
+1. Apri [designer del contenuto della pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati.
 
 1. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 

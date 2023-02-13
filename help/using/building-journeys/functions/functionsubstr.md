@@ -30,7 +30,7 @@ Stringa
 
 | Parametro | Tipo |
 |-------------|----------|
-| stringa | stringa |
+| string | string |
 | beginIndex | numero intero |
 | endIndex | numero intero |
 

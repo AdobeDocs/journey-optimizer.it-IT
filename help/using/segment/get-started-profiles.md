@@ -9,8 +9,8 @@ level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 8%
+source-wordcount: '238'
+ht-degree: 10%
 
 ---
 
@@ -24,13 +24,13 @@ Utilizzo del profilo cliente in tempo reale in [!DNL Adobe Journey Optimizer] pe
 
 ![](assets/profiles-home.png)
 
-Per scoprire come accedere e lavorare con **Dashboard dei profili** e informazioni dettagliate sulle metriche visualizzate nel dashboard, consulta [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it){target=&quot;_blank&quot;}.
+Per scoprire come accedere e lavorare con **Dashboard dei profili** e informazioni dettagliate sulle metriche visualizzate nel dashboard, consulta [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it){target="_blank"}.
 
 Puoi unire frammenti di dati provenienti da più sorgenti e combinarli per ottenere una visualizzazione completa di ciascuno dei tuoi clienti. Quando si riuniscono questi dati, i criteri di unione sono le regole utilizzate per determinare in che modo i dati verranno definiti come prioritari e quali dati verranno combinati per creare la visualizzazione unificata.
 
-Ulteriori informazioni **Unisci criteri** in questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}.
+Ulteriori informazioni **Unisci criteri** in questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
 
 **Consulta anche**
 
-* [Documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target=&quot;_blank&quot;}
-* [Video introduttivo sul profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target=&quot;_blank&quot;}
+* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
+* [Video introduttivo sul profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}

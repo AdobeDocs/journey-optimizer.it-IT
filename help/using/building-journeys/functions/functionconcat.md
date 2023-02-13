@@ -31,7 +31,7 @@ Stringa
 | Parametro | Tipo |
 |-----------|------------------|
 | Elenco | listString |
-| stringa | stringa |
+| string | string |
 
 ## Firma e tipo restituito
 

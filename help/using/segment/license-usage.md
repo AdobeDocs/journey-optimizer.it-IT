@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 12%
 
 ---
 
@@ -25,10 +25,10 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 >[!NOTE]
 >
->Per visualizzare il dashboard, è necessario disporre dei [Visualizza dashboard di utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions)Autorizzazione {target=&quot;_blank&quot;}.
+>Per visualizzare il dashboard, è necessario disporre dei [Visualizza dashboard di utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} autorizzazione.
 
 Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform:
 
-* [Panoramica sull’utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target=&quot;_blank&quot;}
-* [Esplorazione del dashboard di utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target=&quot;_blank&quot;}
-* [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target=&quot;_blank&quot;}
+* [Panoramica sull’utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
+* [Esplorazione del dashboard di utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}

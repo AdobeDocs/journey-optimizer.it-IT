@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '693'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ La **tasso di consegna** è il numero di messaggi che hanno colpito le caselle i
 
 Ottimizzazione del recapito messaggi [!DNL Journey Optimizer] esperienze, consigliamo di utilizzare le best practice elencate in questa sezione. I problemi di recapito sono generalmente collegati alla protezione contro lo spam implementata dai provider di servizi Internet (ISP) e dagli amministratori dei server di posta.
 
-Per informazioni più approfondite su cosa sia il recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target=&quot;_blank&quot;}.
+Per informazioni più approfondite su cosa sia il recapito messaggi e per ulteriori informazioni su termini, concetti e approcci chiave per il recapito messaggi, consulta [Guida alle best practice per il recapito messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}.
 
 ## Riduzione del tasso di reclamo {#reduce-complaint-rate}
 

@@ -30,8 +30,8 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|------------------|
-| stringa di input | stringa |
-| stringa separatore | stringa |
+| stringa di input | string |
+| stringa separatore | string |
 
 ## Firme e tipo restituito
 

@@ -75,7 +75,7 @@ Per creare una notifica push, segui i passaggi seguenti:
 1. Da **[!UICONTROL Trigger delle azioni]** scegliere il menu **[!UICONTROL Frequenza]** della notifica push:
 
    * Una volta
-   * Giornaliera
+   * Giornaliero
    * Settimanale
    * Mensile
 
