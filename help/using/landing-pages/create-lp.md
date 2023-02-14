@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1544'
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 ![](assets/lp_subpage-settings.png)
 
 ## Verificare la pagina di destinazione {#test-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_lp_profiles"
+>title="Visualizzare l’anteprima e verificare la pagina di destinazione"
+>abstract="Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Selezionare i profili di test"
 
 Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare la modalità di visualizzazione del contenuto nella pagina di destinazione utilizzando i dati del profilo di test.
 

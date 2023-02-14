@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 3%
+source-wordcount: '1194'
+ht-degree: 5%
 
 ---
 
 # Definire il contenuto specifico per la pagina di destinazione {#lp-content}
 
-Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte dalla pagina di destinazione, utilizza la funzione **[!UICONTROL Modulo]** componente. A questo scopo, segui i passaggi riportati qui sotto.
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="Utilizzare i componenti per contenuti"
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizzare il componente modulo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Aggiungere componenti per contenuti"
+
+Per progettare il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti di un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
+
+Progettazione di contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, [utilizzare il componente modulo](#use-form-component) e ne definisce i [stili specifici della pagina di destinazione](#lp-form-styles).
 
 >[!NOTE]
 >
 >Puoi anche creare una pagina di destinazione click-through senza **[!UICONTROL Modulo]** componente. In tal caso, agli utenti verrà visualizzata la pagina di destinazione, ma non sarà richiesto loro di inviare alcun modulo. Questa funzione può essere utile solo se desideri mostrare una pagina di destinazione senza richiedere alcuna azione da parte dei destinatari, ad esempio consenso o rinuncia, oppure se desideri fornire informazioni che non richiedono l’input dell’utente.
 
+La finestra di progettazione del contenuto della pagina di destinazione consente inoltre di sfruttare i dati contestuali provenienti dalla pagina principale in una pagina secondaria. [Ulteriori informazioni](#use-primary-page-context)
+
 ## Utilizzare il componente modulo {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="Impostare i campi del componente modulo"
+>abstract="Definisci in che modo i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definire gli stili del modulo della pagina di destinazione"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="Cosa succede quando si fa clic sul pulsante"
+>abstract="Definire gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
+
+Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte dalla pagina di destinazione, utilizza la funzione **[!UICONTROL Modulo]** componente. A questo scopo, segui i passaggi riportati qui sotto.
 
 1. Trascina e rilascia la pagina di destinazione specifica **[!UICONTROL Modulo]** dalla palette a sinistra nell’area di lavoro principale.
 
@@ -129,13 +152,13 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 Puoi utilizzare i dati contestuali provenienti da un’altra pagina all’interno della stessa pagina di destinazione.
 
-Ad esempio, se colleghi una casella di controllo<!-- or the submission of the page--> a [elenco abbonamenti](subscription-list.md) nella pagina di destinazione principale, puoi utilizzare tale elenco nella pagina secondaria &quot;grazie&quot;.
+Ad esempio, se colleghi una casella di controllo <!-- or the submission of the page--> a [elenco abbonamenti](subscription-list.md) nella pagina di destinazione principale, puoi utilizzare tale elenco nella pagina secondaria &quot;grazie&quot;.
 
 Supponiamo che colleghi due caselle di controllo sulla pagina principale a due diversi elenchi di abbonamenti. Se un utente si abbona a uno di questi, al momento dell’invio del modulo verrà visualizzato un messaggio specifico, a seconda della casella di controllo selezionata.
 
 A questo scopo, segui i passaggi riportati qui sotto:
 
-1. Sulla pagina principale, collega ciascuna casella di controllo all’elenco di sottoscrizione pertinente. [Maggiori informazioni](#use-form-component).
+1. Sulla pagina principale, collega ciascuna casella di controllo della **[!UICONTROL Modulo]** componente dell’elenco di sottoscrizione pertinente. [Maggiori informazioni](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
