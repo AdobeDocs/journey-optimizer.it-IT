@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 83ebd87487551b2fb234a555d7d0e43e80cb7885
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 7%
@@ -24,6 +24,10 @@ Quando viene raggiunto un determinato insieme di condizioni nelle operazioni (ad
 Ulteriori informazioni sugli avvisi in Adobe Experience Platform [documentazione](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it).
 Per informazioni su come sottoscrivere e configurare gli avvisi, consulta questo articolo [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
+>[!AVAILABILITY]
+>
+>Sono in corso alcune modifiche di progettazione per l’avviso &quot;Read Segment Trigger Unriuscito&quot;, pertanto l’avviso viene messo in pausa per il momento. Una volta rilasciate le modifiche, questo avviso verrà nuovamente visualizzato e potrai abbonarti.
+
 Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**.
 
 <!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
@@ -34,9 +38,6 @@ Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso
 
 <!--![](assets/alerts2.png)-->
 
->[!AVAILABILITY]
->
->Sono in corso alcune modifiche di progettazione per l’avviso &quot;Read Segment Trigger Unriuscito&quot;, pertanto l’avviso viene messo in pausa per il momento. Una volta rilasciate le modifiche, questo avviso verrà nuovamente visualizzato e potrai abbonarti.
 
 Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Durante l’abbonamento agli avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in diversi pacchetti di abbonamento.
 
