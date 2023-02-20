@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
+source-git-commit: f07a46e6fc42afb80275557dfe8bd27f51e4fad9
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 92%
+source-wordcount: '907'
+ht-degree: 57%
 
 ---
 
@@ -20,6 +20,43 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
+
+
+## Note sulla versione di febbraio 2023 {#feb-2023}
+
+Questa sezione contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso. La documentazione dettagliata sarà disponibile alla data di rilascio.
+
+Disponibilità: **22 febbraio 2023**
+
+### Miglioramenti {#feb-2023-improvements}
+
+**Percorsi**
+
+* La **Periodo di attesa per il rientro** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
+
+* Sono stati apportati miglioramenti per **Date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Per **Leggi segmento** percorsi, ora puoi aggiungere una data di fine. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data.
+
+* L’area di lavoro del Percorso è stata migliorata per un’esperienza utente più semplice e migliorata. Alla fine di ogni percorso nell’area di lavoro, i segnaposto vuoti sono stati rimossi. È ora possibile aggiungere semplicemente le attività trascinandole ovunque tra i nodi.
+
+* La gestione di timeout ed errori è stata migliorata in percorsi. I percorsi di timeout ed errore vengono sempre aggiunti sull’area di lavoro. È disponibile un nuovo pulsante della barra degli strumenti per visualizzare/nascondere tali percorsi.
+
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere notifiche in caso di errore in un’azione personalizzata.
+
+
+**Amministrazione**
+
+* **Elenco Consentiti** - È ora possibile scaricare l’elenco Consentiti come file .csv .
+
+* **Superficie e-mail** - È stato aggiunto un controllo aggiuntivo alle impostazioni dell’area e-mail: se il record MX per il sottodominio utilizzato nel **Risposta all&#39;indirizzo (e-mail)** o **Indirizzo e-mail CCN** non è configurato correttamente, non è più possibile creare l&#39;area e-mail. È necessario configurarlo o utilizzarne un altro.
+
+* **Superficie e-mail** - Nella sezione dei parametri di tracciamento URL delle impostazioni della superficie dell’e-mail, il limite per ogni **Valore** Il campo è stato aggiornato da 255 caratteri a 5 KB per la compatibilità con il tracciamento di Adobe Analytics.
+
+**Gestione delle decisioni**
+
+* **Posizionamenti** - Nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API.
+
+* **Personalizzazione URL** - Quando aggiungi URL come contenuto alle rappresentazioni delle offerte, ora puoi personalizzare tali URL utilizzando l’editor espressioni.
+
 
 
 ## Versione di gennaio 2023 {#jan-2023-release}
@@ -54,10 +91,10 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare modelli di contenuto autonomi da sfruttare tra percorsi e campagne per un rapido riutilizzo.</p> 
+<p>È ora possibile creare modelli di contenuto autonomi da sfruttare tra percorsi e campagne per riutilizzarli rapidamente.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Scopri come creare, modificare e utilizzare modelli di contenuto in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">questo video</a>. Per ulteriori informazioni, consulta la <a href="../email/content-templates.md">documentazione dettagliata</a>.
+<p>Scopri come creare, modificare e utilizzare modelli di contenuto in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=it">questo video</a>. Per ulteriori informazioni, consulta la <a href="../email/content-templates.md">documentazione dettagliata</a>.
 </p>
 </td>
 </tr>
