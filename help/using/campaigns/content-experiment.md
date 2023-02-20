@@ -11,9 +11,9 @@ keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1168'
 ht-degree: 4%
 
 ---
@@ -163,6 +163,11 @@ Con la **[!UICONTROL Obiettivo della campagna]** widget, puoi anche scegliere di
 Tieni presente che ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
 
 ## Rapporto di sperimentazione {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Clic univoci per profilo"
+>abstract="I clic univoci per metrica di profilo consentono di comprendere l’efficacia dell’esperimento nell’coinvolgere il pubblico e indirizzare i clic alla destinazione. Calcola il numero di clic distinti su un particolare collegamento, diviso per il numero totale di profili esposti al collegamento."
 
 >[!AVAILABILITY]
 >

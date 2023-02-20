@@ -11,9 +11,9 @@ keywords: iniziare, iniziare, contenuto, esperimento
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1983'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,11 @@ Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento.
 +++
 
 ## Interpretare i risultati degli esperimenti {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="Widget di riepilogo"
+>abstract="Il widget Riepilogo fornisce una panoramica dei risultati dell&#39;esperimento, specificando se sono conclusivi o meno. Offre un modo rapido e semplice per comprendere il risultato del vostro esperimento."
 
 ![](assets/experimentation_report_3.png)
 
