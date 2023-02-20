@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
 >title="Segmento"
->abstract="&quot;Sfruttando i dati del Profilo cliente in tempo reale, Adobe Experience Platform ti consente di creare facilmente segmenti mirati che acquisiscono i comportamenti e le preferenze unici dei tuoi clienti."
+>abstract="Sfruttando i dati del profilo cliente in tempo reale, Adobe Experience Platform ti consente di creare facilmente segmenti mirati che acquisiscono i comportamenti e le preferenze unici dei tuoi clienti."
 
 [!DNL Journey Optimizer]  consente di creare segmenti Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal **[!UICONTROL Segmenti]** e utilizzali nei tuoi percorsi o campagne.
 
