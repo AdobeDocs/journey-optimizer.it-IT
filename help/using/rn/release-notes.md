@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
+source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '816'
+ht-degree: 64%
 
 ---
 
@@ -35,13 +35,6 @@ Disponibilità: **22 febbraio 2023**
 * La **Periodo di attesa per il rientro** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
 
 * Sono stati apportati miglioramenti per **Date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Per **Leggi segmento** percorsi, ora puoi aggiungere una data di fine. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data.
-
-* L’area di lavoro del Percorso è stata migliorata per un’esperienza utente più semplice e migliorata. Alla fine di ogni percorso nell’area di lavoro, i segnaposto vuoti sono stati rimossi. È ora possibile aggiungere semplicemente le attività trascinandole ovunque tra i nodi.
-
-* La gestione di timeout ed errori è stata migliorata in percorsi. I percorsi di timeout ed errore vengono sempre aggiunti sull’area di lavoro. È disponibile un nuovo pulsante della barra degli strumenti per visualizzare/nascondere tali percorsi.
-
-* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere notifiche in caso di errore in un’azione personalizzata.
-
 
 **Amministrazione**
 
