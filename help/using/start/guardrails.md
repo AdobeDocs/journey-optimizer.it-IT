@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 100%
+source-wordcount: '969'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni sono elencati nella [pagina di descrizione del prodotto di Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
-Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
+Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail dati Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
 
 Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di [!DNL Adobe Journey Optimizer].
 
@@ -65,7 +65,7 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 * Sono supportati solo i metodi di chiamata POST e PUT
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”
 * Gli indirizzi IP non sono consentiti
-* Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
+* Indirizzi di Adobe interni (`.adobe.*`) non sono consentite negli URL e nelle API.
 
 ### Eventi {#events-g}
 
@@ -77,6 +77,7 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 ### Origini dati {#data-sources-g}
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso del cliente per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
+* Indirizzi di Adobe interni (`.adobe.*`) non sono consentite negli URL e nelle API.
 
 ### Creazione di percorsi e profili {#journeys-limitation-profile-creation}
 
