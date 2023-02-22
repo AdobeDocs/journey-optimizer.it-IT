@@ -5,10 +5,11 @@ title: Esportare i set di dati in percorsi di archiviazione cloud
 description: Scopri come esportare i set di dati utilizzando le destinazioni di archiviazione cloud Adobe Experience Platform.
 role: User
 level: Beginner
+badge: label="Beta" type="Informativo"
 keywords: piattaforma, data lake, creare, lago, set di dati, profilo
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---

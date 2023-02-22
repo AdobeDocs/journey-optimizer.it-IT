@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, messaggio, creazione, avvio
 badge: label="Beta" type="Informativo"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 16%
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # Introduzione al canale in-app {#gs-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >La funzione in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 

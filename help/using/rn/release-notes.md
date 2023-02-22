@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 61%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -28,15 +28,14 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Canale in-app</strong><br/></th>
+<th><strong>Canale in-app (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Ora puoi inviare messaggi in-app personalizzati agli utenti dell’app all’interno di una campagna. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza diretta.</p>
-<p>
-Al momento questa funzione è disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.</p>
+<p><strong>Attenzione</strong> - Al momento questa funzione è disponibile nella versione beta ed è disponibile solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../in-app/get-started-in-app.md">documentazione dettagliata</a>.</p>
 </td>
@@ -55,9 +54,7 @@ Al momento questa funzione è disponibile nella versione beta e solo per i clien
 <td>
 <p>È ora possibile stabilire una connessione in tempo reale con le posizioni di archiviazione cloud per esportare il contenuto dei set di dati. Le destinazioni disponibili sono: Archiviazione cloud Amazon S3, Azure Blob, Azure Data Lake Gen 2, Area di destinazione dei dati, archiviazione cloud Google, SFTP.</p>
 <p><strong>Attenzione</strong> - Questa funzione è attualmente in versione beta ed è disponibile per tutti gli utenti di Adobe Journey Optimizer. Collabora con il tuo rappresentante Adobe per accedere alle destinazioni se non hai già accesso.</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>Per ulteriori informazioni, consulta la <a href="../data/export-datasets.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
