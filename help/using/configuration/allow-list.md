@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: elenco Consentiti, elenco, sicuro, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1129'
 ht-degree: 2%
 
 ---
@@ -155,6 +155,34 @@ Per compilare l’elenco Consentiti, puoi anche chiamare l’API di soppressione
 È possibile eseguire le **Aggiungi**, **Elimina** e **Get** operazioni.
 
 Ulteriori informazioni sull’esecuzione di chiamate API in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} documentazione di riferimento.
+
+## Scarica l’elenco Consentiti {#download-allowed-list}
+
+Per esportare l’elenco Consentiti come file CSV, segui la procedura seguente:
+
+1. Seleziona la **[!UICONTROL Scarica CSV]** pulsante .
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. Attendi che il file sia generato.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >Il tempo di download dipende dalla dimensione del file, ovvero dal numero di indirizzi presenti nell’elenco Consentiti.
+   >
+   >È possibile elaborare una richiesta di download alla volta per una data sandbox.
+
+1. Una volta generato il file, riceverai una notifica. Fare clic sull&#39;icona della campana in alto a destra dello schermo per visualizzarla.
+
+1. Fai clic sulla notifica stessa per scaricare il file.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >Il collegamento è valido per 24 ore.
 
 ## Logica Elenco Consentiti {#logic}
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, prima, start, quick start, segmento, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 10%
+source-wordcount: '1171'
+ht-degree: 9%
 
 ---
 
@@ -30,7 +30,7 @@ Per inviare messaggi con percorsi, sono necessarie le seguenti configurazioni:
 
    ![](assets/segment2.png)
 
-1. **Configurare l’origine dati**: puoi definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi, ad esempio nelle tue condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguita da un **utente tecnico**. [Maggiori informazioni](../datasource/about-data-sources.md)
+1. **Configurare l’origine dati**: puoi definire una connessione a un sistema per recuperare informazioni aggiuntive che verranno utilizzate nei tuoi percorsi, ad esempio nelle tue condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
@@ -96,9 +96,7 @@ La **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. Puoi deselezionare la **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio.
 
-<!--
-When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
--->
+Quando il **Consenti rientro** viene attivata l&#39;opzione **Periodo di attesa per il rientro** viene visualizzato il campo . Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
 
 Ulteriori informazioni sulla gestione dell’ingresso del profilo, in [questa sezione](entry-management.md).
 
@@ -120,13 +118,9 @@ Per ulteriori informazioni sulla gestione del fuso orario, vedi [questa pagina](
 
 ### Date di inizio e fine {#dates}
 
-<!--
-You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+Puoi definire un **Data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
 
-You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
--->
-
-Puoi definire un **Data di inizio**. Puoi anche aggiungere un **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non specifichi una data di fine, i profili possono rimanere fino al timeout percorso predefinito.
+Puoi anche aggiungere un **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non si specifica una data di fine, i profili possono rimanere fino al timeout percorso predefinito (generalmente 30 giorni, 7 giorni con l’offerta aggiuntiva Healthcare Shield). L’unica eccezione è rappresentata dai percorsi di segmenti di lettura ricorrenti con **Forza il rientro della ricorrenza** attivata, che termina alla data di inizio dell&#39;occorrenza successiva.
 
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 

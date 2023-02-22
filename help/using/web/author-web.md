@@ -1,14 +1,14 @@
 ---
 title: Creare pagine web
 description: Scopri come creare una pagina web e modificarne il contenuto in Journey Optimizer
-feature: Overview
+feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 5%
@@ -29,8 +29,8 @@ Per accedere e creare pagine web nel [!DNL Journey Optimizer] interfaccia utente
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Immettere l&#39;URL da modificare"
->abstract="Inserisci l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sulla superficie web definita sopra. La pagina web deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
+>title="Conferma l’URL da modificare"
+>abstract="Conferma l’URL della pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sull’area web definita sopra. La pagina web deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Per saperne di più"
 
 >[!CONTEXTUALHELP]

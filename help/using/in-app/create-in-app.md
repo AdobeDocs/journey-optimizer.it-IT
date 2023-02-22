@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, messaggio, creazione, avvio
+badge: label="Beta" type="Informativo"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 4%
+source-wordcount: '653'
+ht-degree: 5%
 
 ---
 
 # Creare un messaggio in-app {#create-in-app}
+
+>[!IMPORTANT]
+>
+>La funzione in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 ## Creare una campagna e un messaggio in-app{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ Per farlo, segui la procedura indicata di seguito:
 
 La campagna è ora attivata. La notifica in-app configurata nella campagna viene inviata immediatamente o alla data specificata.
 
-Dopo l’invio, puoi misurare l’impatto dei messaggi in-app nel rapporto Campaign. Per ulteriori informazioni sul reporting, consulta [questa sezione](inapp-report.md).
+Dopo l’invio, puoi misurare l’impatto dei messaggi in-app nel rapporto Campaign. Per ulteriori informazioni sul reporting, consulta [questa sezione](../reports/campaign-global-report.md#inapp-report).
 
 **Argomenti correlati:**
 
 * [Progettare un messaggio in-app](design-in-app.md)
-* [Rapporto in-app](inapp-report.md)
+* [Rapporto in-app](../reports/campaign-global-report.md#inapp-report)
 * [Configurazione in-app](inapp-configuration.md)
 
 ## Video introduttivo{#video}

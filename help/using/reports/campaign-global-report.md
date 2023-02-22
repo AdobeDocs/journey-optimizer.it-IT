@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 1%
+source-wordcount: '1904'
+ht-degree: 2%
 
 ---
 
@@ -30,6 +30,7 @@ La campagna **[!UICONTROL Report globale]** La pagina verrà visualizzata con le
 
 * [Campaign](#campaign-global)
 * [E-mail](#email-global)
+* [In-app](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
 
@@ -141,6 +142,37 @@ La **[!UICONTROL Ottimizzazione del tempo di invio]** specifica il successo dell
 
 * **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.
 * **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
++++
+
+## Scheda in-app {#inapp-global}
+
+>[!IMPORTANT]
+>
+>La funzione in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+
+Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL In-app]** la scheda descrive le informazioni principali relative alle consegne in-app inviate nella campagna.
+
+![](assets/campaign_report_global_6.png)
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto in-app.
+
+La **[!UICONTROL Prestazioni in-app]** I KPI descrivono in dettaglio le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app, ad esempio:
+
+* **[!UICONTROL Impressioni univoche]**: numero di utenti univoci a cui è stato recapitato il messaggio in-app.
+
+* **[!UICONTROL Impressioni]**: numero totale di messaggi in-app inviati a tutti gli utenti.
+
+* **[!UICONTROL Frequenza di clic]**: percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.
+
+* **[!UICONTROL Tasso di dismissione]**: percentuale di messaggi in-app ignorati dai destinatari.
+
+La **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression in-app per il periodo in questione.
+
+La **[!UICONTROL Clic per pulsante]** grafico e tabella contengono i dati disponibili per il comportamento del destinatario per pulsante:
+
+* **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con i pulsanti inclusi nel messaggio in-app.
+
+* **[!UICONTROL Frequenza di clic]**: percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.
 +++
 
 ## Scheda notifica push {#push-global}

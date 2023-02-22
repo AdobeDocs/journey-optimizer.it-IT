@@ -2,7 +2,7 @@
 title: Batch Decisioning
 description: Scopri come distribuire le decisioni sulle offerte a tutti i profili in un dato segmento Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -76,7 +76,7 @@ Una volta creata una richiesta di processo, il processo batch attraversa più st
 
 >[!NOTE]
 >
->Per ottenere le informazioni più recenti sullo stato di una richiesta di lavoro, utilizza il pulsante di sospensione accanto al processo per aggiornarlo.
+>Per ottenere le informazioni più recenti sullo stato di una richiesta di lavoro, utilizza il pulsante con i puntini di sospensione accanto al processo per aggiornarlo.
 
 1. **[!UICONTROL In coda]**: La richiesta di processo è stata creata ed è entrata nella coda di elaborazione. È possibile eseguire fino a 5 processi batch alla volta per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene raccolto per l&#39;elaborazione una volta che il processo precedente è stato completato.
 1. **[!UICONTROL Elaborazione]**: Elaborazione della richiesta di processo in corso

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,17 @@ Per riutilizzare il contenuto in una rappresentazione, sfoglia **Libreria risors
 
 Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi immetti l’indirizzo URL del contenuto da aggiungere.
 
+Puoi personalizzare gli URL utilizzando l’editor espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+Ad esempio, vuoi personalizzare l’immagine mostrata come offerta. Vuoi che gli utenti che favoriscono le vacanze in città vedano lo skyline NYC e gli utenti che favoriscono le vacanze in spiaggia per vedere le Hawaii northshore.
+
+Utilizza l’editor espressioni per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+Se specifichi una **[!UICONTROL Collegamento di destinazione]**, puoi anche personalizzare l’URL a cui verranno indirizzati gli utenti che fanno clic sull’offerta.
 
 ### Aggiungi testo personalizzato {#custom-text}
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -70,7 +70,7 @@ Per salvare un&#39;espressione nella libreria, effettua le seguenti operazioni:
 
 Per modificare un’espressione esistente, aggiungilo all’editor, quindi modificala in base alle tue esigenze. Fai clic su **[!UICONTROL Aggiungi alla libreria]** per convalidare la sintassi e salvare l’espressione.
 
-Per eliminare un’espressione, fai clic sul pulsante ellisse , quindi fai clic su **[!UICONTROL Elimina]**.
+Per eliminare un’espressione, fai clic sul pulsante con i puntini di sospensione e fai clic su **[!UICONTROL Elimina]**.
 
 ## Video introduttivo{#video}
 

@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 15%
@@ -31,7 +31,7 @@ In questa scheda vengono elencati tutti i tipi di pubblico archiviati in Adobe E
 
 La **[!UICONTROL Numero di profili]** fornisce informazioni sul numero di profili inclusi in un pubblico. Fai clic sul pulsante &quot;i&quot; per ulteriori informazioni sulla data in cui queste informazioni sono state calcolate.
 
-Per assegnare etichette di utilizzo dati personalizzate o di base a un pubblico, fai clic sul pulsante ellisse , quindi seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
+Per assegnare etichette di utilizzo dati personalizzate o di base a un pubblico, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

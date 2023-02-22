@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configurare le impostazioni e-mail
 description: Scopri come configurare le impostazioni e-mail a livello di superficie del canale
-feature: Application Settings
+feature: Surface
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Su [selezione di un sottodominio](#subdomains-and-ip-pools) dall&#39;elenco, **[
 
 ![](assets/preset-list-unsubscribe.png)
 
-Questa opzione è attivata per impostazione predefinita.
+L’opzione è abilitata per impostazione predefinita.
 
 Se lo lasci abilitato, nell’intestazione dell’e-mail verrà automaticamente incluso un collegamento per l’annullamento dell’abbonamento, ad esempio:
 
@@ -151,6 +151,14 @@ Per garantire una corretta gestione delle risposte, segui le raccomandazioni rip
 
 * Non contrassegnare i messaggi come spam nella casella in entrata risposte, in quanto avranno effetto su tutte le altre risposte inviate a questo indirizzo.
 
+Inoltre, quando definisci la **[!UICONTROL Rispondi a (e-mail)]** Assicurati di utilizzare un sottodominio con una configurazione di record MX valida, altrimenti l&#39;elaborazione della superficie dell&#39;e-mail avrà esito negativo.
+
+Se si verifica un errore durante l’invio dell’area e-mail, significa che il record MX non è configurato per il sottodominio dell’indirizzo immesso. Contattare l&#39;amministratore per configurare il record MX corrispondente o utilizzare un altro indirizzo con una configurazione di record MX valida.
+
+>[!NOTE]
+>
+>Se il sottodominio dell’indirizzo immesso è un dominio che era [completamente delegato](../configuration/delegate-subdomain.md#full-subdomain-delegation) ad Adobe, contatta il tuo responsabile commerciale di Adobe.
+
 ### Invia e-mail {#forward-email}
 
 Se desideri inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l’Assistenza clienti Adobe. Dovrai fornire:
@@ -173,6 +181,10 @@ Puoi inviare una copia identica (o copia cieca in carbonio) delle e-mail inviate
 A questo scopo, abilita la **[!UICONTROL E-mail CCN]** funzione opzionale a livello della superficie del canale. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Inoltre, quando definisci la **[!UICONTROL E-mail Ccn]** Assicurati di utilizzare un sottodominio con una configurazione di record MX valida, altrimenti l&#39;elaborazione della superficie dell&#39;e-mail avrà esito negativo.
+
+Se si verifica un errore durante l’invio dell’area e-mail, significa che il record MX non è configurato per il sottodominio dell’indirizzo immesso. Contattare l&#39;amministratore per configurare il record MX corrispondente o utilizzare un altro indirizzo con una configurazione di record MX valida.
 
 ## Parametri di esecuzione di un nuovo tentativo e-mail {#email-retry}
 
@@ -237,7 +249,7 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 
 >[!NOTE]
 >
->È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Valore]** Il campo può contenere fino a 255 caratteri in totale.
+>È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’Editor espressioni. Ogni **[!UICONTROL Valore]** Il campo può contenere un numero di caratteri fino al limite di 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

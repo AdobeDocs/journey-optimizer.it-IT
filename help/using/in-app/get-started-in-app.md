@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, messaggio, creazione, avvio
+badge: label="Beta" type="Informativo"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 15%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
 
 # Introduzione al canale in-app {#gs-in-app}
 
-I messaggi in-app sono notifiche che puoi inviare agli utenti all’interno dell’app per indirizzarli verso specifici punti di interesse. Le notifiche in-app possono essere utilizzate per proporre un servizio, promuovere una nuova funzione, un’offerta speciale o a bordo di un nuovo utente.
+>[!IMPORTANT]
+>
+>La funzione in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+
+I messaggi in-app sono notifiche che possono essere inviate agli utenti all’interno dell’app e indirizzate a specifici punti di interesse. Queste notifiche possono essere utilizzate per scopi diversi, ad esempio per promuovere nuove funzioni, presentare offerte speciali o facilitare l’onboarding degli utenti. Sfruttando i messaggi in-app, puoi interagire efficacemente con il pubblico e indirizzarlo verso aspetti importanti della tua applicazione.
 
 Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui layout e visualizzazione dei messaggi, testo e pulsante.
-
-![](assets/new-in-app.png)
 
 ## Prerequisiti{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Sc
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Convalida" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>Rapporto in-app</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Rapporto in-app</strong></a>
 </div>
 <p>
 </td>
