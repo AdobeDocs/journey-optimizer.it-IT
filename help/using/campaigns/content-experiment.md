@@ -11,9 +11,9 @@ keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1137'
 ht-degree: 4%
 
 ---
@@ -166,8 +166,8 @@ Tieni presente che ogni widget può essere ridimensionato ed eliminato, se neces
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Clic univoci per profilo"
->abstract="I clic univoci per metrica di profilo consentono di comprendere l’efficacia dell’esperimento nell’coinvolgere il pubblico e indirizzare i clic alla destinazione. Calcola il numero di clic distinti su un particolare collegamento, diviso per il numero totale di profili esposti al collegamento."
+>title="Success metric"
+>abstract="Il valore totale della metrica di successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili."
 
 >[!AVAILABILITY]
 >
