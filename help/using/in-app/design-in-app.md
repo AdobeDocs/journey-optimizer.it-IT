@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 badge: label="Beta" type="Informativo"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Creare contenuto in-app {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >La funzione in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
