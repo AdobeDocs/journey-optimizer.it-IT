@@ -10,10 +10,11 @@ level: Intermediate
 keywords: percorso, tag
 hidefromtoc: true
 hide: true
-source-git-commit: 1a756b7277a6c01768f320745b81ef942c6f6b0f
+badge: label="Beta" type="Informativo"
+source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 5%
+source-wordcount: '253'
+ht-degree: 3%
 
 ---
 
@@ -21,25 +22,25 @@ ht-degree: 5%
 
 In qualità di utente Journey Optimizer, puoi organizzare i percorsi utilizzando i tag. I tag sono un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca.
 
->[!CAUTION]
+>[!AVAILABILITY]
 >
 > I tag unificati sono attualmente in versione beta. La documentazione e le funzionalità sono soggette a modifiche.
 
-## Note importanti
-
-* I tag distinguono tra maiuscole e minuscole
-* Per eliminare completamente un tag, è necessario eliminarlo da tutti gli oggetti.
-* Se si duplica o si crea una nuova versione di un percorso, i tag vengono mantenuti.
-
-## Aggiungere tag durante la creazione di un percorso
+## Aggiungere tag a un percorso
 
 Il **Tag** nelle proprietà del percorso, consente di definire i tag per il percorso. Puoi selezionare un tag esistente o crearne uno nuovo. Inizia a digitare il nome del tag desiderato e selezionalo dall’elenco. Se non è disponibile, fai clic su **Crea** per crearne uno nuovo e aggiungerlo al percorso. Puoi definire tutti i tag necessari.
 
 ![](assets/tags1.png)
 
-L’elenco dei tag definiti viene visualizzato sotto il campo. Puoi eliminarli.
+L’elenco dei tag definiti viene visualizzato sotto la **Tag** campo.
 
-## Modifica tag e filtro
+>[!NOTE]
+>
+> I tag distinguono tra maiuscole e minuscole
+> 
+> Se si duplica o si crea una nuova versione di un percorso, i tag vengono mantenuti.
+
+## Filtra per tag
 
 L’elenco Percorso presenta una colonna dedicata che consente di visualizzare facilmente i tag.
 
@@ -47,10 +48,14 @@ L’elenco Percorso presenta una colonna dedicata che consente di visualizzare f
 
 ![](assets/tags2.png)
 
-Puoi aggiungere o eliminare tag da qualsiasi tipo di percorso (live, draft, ecc.). Fai clic su **Altre azioni** accanto al percorso e selezionare **Modifica tag**.
+Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso (live, draft, ecc.). Fai clic su **Altre azioni** accanto al percorso e selezionare **Modifica tag**.
 
 ![](assets/tags3.png)
 
-## Gestione avanzata
+## Gestione tag
 
-Gli amministratori possono aggiungere tag e organizzarli per categorie utilizzando **Tag** menu, sotto **AMMINISTRAZIONE**. Fai riferimento a questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando **Tag** menu, sotto **AMMINISTRAZIONE**. Fai riferimento a questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+
+>[!NOTE]
+>
+> I tag definiti in percorsi vengono aggiunti alla categoria &quot;Non categorizzato&quot; incorporata.
