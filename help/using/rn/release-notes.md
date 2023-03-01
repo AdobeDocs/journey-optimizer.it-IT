@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 57%
+source-wordcount: '919'
+ht-degree: 60%
 
 ---
 
@@ -145,7 +145,9 @@ Note that each widget can be resized and deleted as needed.
 
 **Gestione delle decisioni**
 
-* **Posizionamenti** - Sono stati aggiunti parametri aggiuntivi nella schermata di creazione dei posizionamenti. Ti consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **Personalizzazione URL** - Quando aggiungi URL come contenuto alle rappresentazioni delle offerte, ora puoi personalizzare questi URL utilizzando l’editor di espressioni. [Ulteriori informazioni](../offers/offer-library/add-representations.md)
 

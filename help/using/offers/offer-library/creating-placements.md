@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
+source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 5%
+source-wordcount: '244'
+ht-degree: 11%
 
 ---
 
@@ -46,22 +46,6 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
    * **[!UICONTROL Descrizione]**: descrizione del posizionamento (facoltativo).
 
    ![](../assets/offers_placement_creation_properties.png)
-
-
-1. Il **[!UICONTROL Impostazioni richiesta]** e **[!UICONTROL Formato di risposta]** Le sezioni forniscono parametri aggiuntivi:
-
-   * **[!UICONTROL Consenti duplicati nei posizionamenti]**: controlla se la stessa offerta può essere proposta più volte tra posizionamenti diversi. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti.
-
-      Se questa opzione è impostata su false per qualsiasi posizionamento in una richiesta di decisione, tutti i posizionamenti nella richiesta ereditano l’impostazione &quot;false&quot;.
-
-   * **[!UICONTROL Richiedi offerta]**: per impostazione predefinita, viene restituita un’offerta dell’ambito di decisione per ogni profilo. Puoi regolare il numero di offerte restituite utilizzando questa opzione. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito di decisione selezionato.
-
-   * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell’offerta devono essere restituiti nella risposta API. Puoi includere solo tutti i metadati o campi specifici.
-   Questi parametri possono anche essere impostati direttamente nella richiesta API se si lavora con [API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
-
-   >[!NOTE]
-   >
-   >Se utilizzi il [API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata. Se utilizzi il [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), devi includere questi parametri direttamente nella richiesta API, in quanto i parametri impostati in questa schermata non vengono presi in considerazione per l’invio della consegna in batch.
 
 1. Clic **[!UICONTROL Salva]** per confermare.
 
