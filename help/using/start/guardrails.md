@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 * Sono supportati solo i metodi di chiamata POST e PUT
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”
 * Gli indirizzi IP non sono consentiti
-* Indirizzi di Adobe interni (`.adobe.*`) non sono consentite negli URL e nelle API.
+* Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
 
 ### Eventi {#events-g}
 
@@ -77,7 +77,7 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 ### Origini dati {#data-sources-g}
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso del cliente per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
-* Indirizzi di Adobe interni (`.adobe.*`) non sono consentite negli URL e nelle API.
+* Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
 
 ### Creazione di percorsi e profili {#journeys-limitation-profile-creation}
 
