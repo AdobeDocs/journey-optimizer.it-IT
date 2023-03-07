@@ -417,7 +417,7 @@ ht-degree: 99%
    + [Query](using/data/get-started-queries.md)
    + Set di dati di Journey Optimizer {#datasets}
       + [Introduzione ai set di dati](using/data/get-started-datasets.md)
-      + [Esportare set di dati Journey Optimizer](using/data/export-datasets.md)
+      + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
 + Configurazione{#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
