@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8de851b42b92ca4632000698fa78278671dd848b
+source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,13 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
+
+
+## Miglioramenti di marzo 2023 {#march-2023}
+
+**Gestione dei tag nei Percorsi**
+
+In qualità di utente Journey Optimizer, ora puoi organizzare gli oggetti aziendali utilizzando i tag. I tag sono un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca. Questa funzione è attualmente in versione beta e disponibile solo per i Percorsi. [Ulteriori informazioni](../building-journeys/tags.md)
 
 ## Note sulla versione di febbraio 2023 {#feb-2023}
 
