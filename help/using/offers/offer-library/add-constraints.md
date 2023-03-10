@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -145,10 +145,10 @@ Fondamentalmente, l’output di un segmento è un elenco di profili, mentre una 
 >title="Impostare la frequenza di limitazione"
 >abstract="Puoi scegliere di reimpostare il contatore del limite di offerta su base giornaliera, settimanale o mensile. Dopo aver salvato l’offerta, non potrai modificare la frequenza selezionata."
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisioning_frequency_capping_impression&quot;
->title=&quot;Impression&quot;
->abstract=&quot;L’utilizzo delle impression come eventi di limitazione è disponibile solo per i canali in entrata.&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="L’utilizzo delle impression come eventi di limitazione è disponibile solo per i canali in entrata."
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
