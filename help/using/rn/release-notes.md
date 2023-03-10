@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 95%
+source-wordcount: '1025'
+ht-degree: 89%
 
 ---
 
@@ -27,6 +27,12 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 **Gestione dei tag nei Percorsi**
 
 In qualità di utente Journey Optimizer, ora puoi organizzare gli oggetti aziendali utilizzando i tag. I tag sono un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca. Questa funzione è attualmente in versione beta e disponibile solo per i Percorsi. [Ulteriori informazioni](../building-journeys/tags.md)
+
+**Tag di gestione delle decisioni rinominati in qualificatori di raccolta**
+
+Per evitare potenziale confusione con la recente versione della funzione dei tag in Adobe Experience Platform, i tag di Gestione delle decisioni sono stati rinominati &quot;Qualificatori di raccolta&quot;.
+
+Tieni presente che anche se il termine &quot;tag&quot; non viene più utilizzato nell’interfaccia utente di Gestione delle decisioni, viene ancora utilizzato in servizi back-end come API e set di dati.
 
 ## Note sulla versione di febbraio 2023 {#feb-2023}
 
