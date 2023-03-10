@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 87%
+source-wordcount: '1064'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,12 @@ In qualità di utente Journey Optimizer, ora puoi organizzare gli oggetti aziend
 Per evitare potenziale confusione con la recente versione della funzione dei tag in Adobe Experience Platform, i tag di Gestione delle decisioni sono stati rinominati &quot;Qualificatori di raccolta&quot;.
 
 Tieni presente che anche se il termine &quot;tag&quot; non viene più utilizzato nell’interfaccia utente di Gestione delle decisioni, viene ancora utilizzato in servizi back-end come API e set di dati.
+
+**Limitazione della gestione delle decisioni**
+
+* Ora puoi reimpostare il contatore del limite di offerta su base giornaliera, settimanale o mensile. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
+
+* Puoi anche scegliere quale evento Adobe Experience Platform considerare, ad offer decisioning il limite. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 
 ## Note sulla versione di febbraio 2023 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **Personalizzazione URL**: quando aggiungi URL come contenuto alle rappresentazioni delle offerte, ora puoi personalizzare tali URL utilizzando l’editor espressioni. [Ulteriori informazioni](../offers/offer-library/add-representations.md)
-
-* **Limitazione** - Ora puoi reimpostare il contatore del limite di offerta su base giornaliera, settimanale o mensile. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
-
-* **Limitazione** - Ora puoi scegliere quale evento Adobe Experience Platform considerare, ad offer decisioning il limite massimo. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 
 ## Versione di gennaio 2023 {#jan-2023-release}
 
