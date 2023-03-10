@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 97%
+source-wordcount: '1334'
+ht-degree: 96%
 
 ---
 
@@ -334,10 +334,7 @@ ht-degree: 97%
          + Tipi di modelli basati su IA {#ai-model-types}
             + [Modello di ottimizzazione automatica](using/offers/ranking/auto-optimization-model.md)
             + [Modello di ottimizzazione personalizzata](using/offers/ranking/personalized-optimization-model.md)
-         + Creare modelli AI {#configure-ai-model}
-            + [Creare un set di dati per raccogliere gli eventi](using/offers/ranking/create-dataset.md)
-            + [Creare un modello IA](using/offers/ranking/create-ranking-strategies.md)
-            + [Configurare l’acquisizione di eventi](using/offers/ranking/schema-requirement.md)
+         + [Crea modelli AI](using/offers/ranking/create-ranking-strategies.md)
    + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
       + Configurare le offerte {#configure-offers}
          + [Creare le offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,10 +346,14 @@ ht-degree: 97%
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
       + [Creare simulazioni](using/offers/offer-activities/simulation.md)
-   + [Batch Decisioning](using/offers/batch-delivery.md)
+   + [Utilizzare le decisioni batch](using/offers/batch-delivery.md)
+   + Raccogliere dati evento {#collect-event-data}
+      + [Guida introduttiva alla raccolta dati](using/offers/data-collection/data-collection.md)
+      + [Creare un set di dati per raccogliere gli eventi](using/offers/data-collection/create-dataset.md)
+      + [Configurare l’acquisizione di eventi](using/offers/data-collection/schema-requirement.md)
    + Creare rapporti di gestione delle decisioni {#create-reports}
       + [Introduzione agli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
-      + [Informazioni chiave sugli eventi di Gestione delle decisioni](using/offers/reports/key-information.md)
+      + [Informazioni chiave sugli eventi di gestione delle decisioni](using/offers/reports/key-information.md)
       + [Accedere ai campi XDM degli eventi](using/offers/reports/xdm-fields.md)
    + Esportare il catalogo delle offerte {#export-catalog}
       + [Introduzione all’esportazione del catalogo delle offerte ](using/offers/export-catalog/get-started-export.md)

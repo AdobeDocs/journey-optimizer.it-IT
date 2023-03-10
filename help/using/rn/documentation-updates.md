@@ -4,16 +4,20 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
-workflow-type: ht
-source-wordcount: '2330'
-ht-degree: 100%
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+workflow-type: tm+mt
+source-wordcount: '2366'
+ht-degree: 98%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Marzo 2023 {#march-2023}
+
+* Nella guida alla gestione delle decisioni è stata creata una nuova sezione su come raccogliere feedback di offer decisioning in Adobe Experience Platform, che include informazioni sulle offerte visualizzate e sul modo in cui gli utenti interagiscono con esse.  [Ulteriori informazioni](../offers/data-collection/data-collection.md)
 
 ## Febbraio 2023 {#feb-2023}
 
@@ -145,7 +149,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di gennaio 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione sulle **classificazioni basate su IA di Offer Decisioning** è stata aggiornata con una descrizione più dettagliata del modello di ottimizzazione automatica. [Ulteriori informazioni](../offers/ranking/auto-optimization-model.md)
-* È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](../offers/ranking/schema-requirement.md)
+* È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza una strategia di classificazione. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md)
 * La sezione relativa alle funzionalità di personalizzazione di [!DNL Journey Optimizer] è stata riorganizzata per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
 * La sezione **Creare predefiniti messaggi** è stata suddivisa in diverse sezioni per migliorarne la chiarezza. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * La sezione sulla **gestione delle rinunce** è stata chiarita e leggermente riorganizzata. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)

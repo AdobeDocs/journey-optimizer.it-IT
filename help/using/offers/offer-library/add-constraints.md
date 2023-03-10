@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '2197'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Ad esempio, se impostate i seguenti vincoli:
 
 * L’offerta verrà considerata solo per gli utenti che corrispondono alla regola di decisione &quot;Clienti Gold Loyalty&quot;.
 * La priorità dell’offerta è impostata su &quot;50&quot;, il che significa che l’offerta sarà presentata prima delle offerte con priorità tra 1 e 49 e dopo quelle con priorità di almeno 51.
-* L’offerta verrà presentata una sola volta per utente in tutti i posizionamenti.
+* L’offerta verrà presentata solo una volta al mese per utente in tutti i posizionamenti.
 
 ## Idoneità {#eligibility}
 
@@ -138,63 +138,37 @@ Fondamentalmente, l’output di un segmento è un elenco di profili, mentre una 
 >id="ajo_decisioning_capping"
 >title="Usa limite"
 >abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza il limite per definire il numero massimo di volte in cui è possibile presentare un’offerta."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="La modifica delle date può influire sui limiti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Impostare la frequenza di limitazione"
->abstract="Puoi scegliere di reimpostare il contatore del limite di offerta su base giornaliera, settimanale o mensile."
+>abstract="Puoi scegliere di reimpostare il contatore del limite di offerta su base giornaliera, settimanale o mensile. Dopo aver salvato l’offerta, non potrai modificare la frequenza selezionata."
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="L’utilizzo delle impression come eventi di limitazione è disponibile solo per i canali in entrata."
+[!CONTEXTUALHELP]
+>id=&quot;ajo_decisioning_frequency_capping_impression&quot;
+>title=&quot;Impression&quot;
+>abstract=&quot;L’utilizzo delle impression come eventi di limitazione è disponibile solo per i canali in entrata.&quot;
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
 Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore.
 
-Per impostare i limiti, effettuare le seguenti operazioni.
+Per impostare i limiti, attenersi alla procedura principale descritta di seguito.
 
-1. Definisci il numero di volte in cui è possibile presentare l’offerta.
+1. Assicurati che le **[!UICONTROL Includi limite]** pulsante di attivazione/disattivazione selezionato. Il limite è incluso per impostazione predefinita.
 
-   ![](../assets/offer-capping-times.png)
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Il numero deve essere un numero intero maggiore di 0.
+   >Non è possibile abilitare o disabilitare il limite di frequenza per le offerte create in precedenza. A questo scopo, devi duplicare l’offerta o crearne una nuova.
 
-1. Specifica se desideri che il limite venga applicato a tutti gli utenti o a un profilo specifico:
+1. Definisci quale **[!UICONTROL Evento di limite]** per aumentare il contatore. [Ulteriori informazioni](#capping-event)
 
-   ![](../assets/offer-capping-total.png)
+1. Definisci il numero di volte in cui è possibile presentare l’offerta. [Ulteriori informazioni](#capping-type)
 
-   * Seleziona **[!UICONTROL In totale]** per definire quante volte un’offerta può essere proposta al pubblico target combinato, ovvero a tutti gli utenti.
+1. Imposta il **[!UICONTROL Frequenza]** per definire la frequenza con cui viene reimpostato il conteggio dei limiti. [Ulteriori informazioni](#frequency-capping)
 
-      Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
-
-   * Seleziona **[!UICONTROL Per profilo]** per definire quante volte un’offerta può essere proposta allo stesso utente.
-
-      Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
-   <!--
-    Set the **[!UICONTROL Frequency]** to define how often the capping count is reset. To do so, define the time period for the counting (daily, weekly or monthly) and enter the number of days/weeks/months of your choice.
-    ![](../assets/offer-capping-frequency.png)
-    >[!NOTE]
-    >
-    >The reset happens at 12am UTC, on the day that you defined or on the first day of the week/month when applicable. The week start day is Sunday.
-    
-    For example, if you want the capping count to be reset every 2 weeks, select **[!UICONTROL Weekly]** from the **[!UICONTROL Repeat]** drop-down list and type **2** in the other field. The reset will happen every other Sunday at 12pm UTC.
-    -->
-
-1. Se hai definito diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se desideri applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**.
-
-   ![](../assets/offer-capping-placement.png)
-
-   * **[!UICONTROL In tutti i posizionamenti]**: i conteggi dei limiti calcolano il totale di tutte le decisioni relative ai posizionamenti associati all’offerta.
-
-      Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo in tutti i posizionamenti**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
-
-   * **[!UICONTROL Per ogni posizionamento]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ciascun posizionamento.
-
-      Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo per ciascun posizionamento**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e altre 2 volte per il posizionamento web.
+1. Se hai definito diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se desideri applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**. [Ulteriori informazioni](#placements)
 
 1. Una volta salvata e approvata, se l’offerta è stata presentata il numero di volte che hai specificato in questo campo in base ai criteri e all’arco temporale definito, la sua consegna si interrompe.
 
@@ -205,6 +179,86 @@ Il numero di volte in cui viene proposta un’offerta viene calcolato al momento
 >[!NOTE]
 >
 >I contatori dei limiti vengono ripristinati alla scadenza dell’offerta o 2 anni dopo la data di inizio dell’offerta, a seconda di quale dei due eventi si verifica per primo. Scopri come definire la data di un’offerta in [questa sezione](creating-personalized-offers.md#create-offer).
+
+### Evento di limite {#capping-event}
+
+Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONTROL Evento di limite]** sarà preso in considerazione per aumentare il contatore:
+
+* **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un’offerta.
+* **[!UICONTROL Impression]**: numero massimo di volte che l’offerta può essere visualizzata a un utente.
+
+   >[!NOTE]
+   >
+   >L’utilizzo delle impression come eventi di limitazione è disponibile per **canali in entrata** solo.
+
+* **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull’offerta.
+* **[!UICONTROL Evento personalizzato]**: puoi definire un evento personalizzato che verrà utilizzato per limitare il numero di offerte inviate. Ad esempio, puoi limitare il numero di rimborsi fino a quando un determinato profilo non avrà rimborsato 1 volta. A tale scopo, utilizza [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per creare una regola evento personalizzata.
+
+   ![](../assets/offer-capping-event.png)
+
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+
+   <!--![](../assets/offer-capping-custom-event.png)-->
+
+   >[!CAUTION]
+   >
+   >Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente, quindi accertati che i dati vengano inseriti. [Ulteriori informazioni sulla raccolta dati](../data-collection/data-collection.md)
+
+### Tipo di limite {#capping-type}
+
+Il **[!UICONTROL Tipo di limite]** consente di specificare il numero di volte in cui è possibile presentare l’offerta.
+
+![](../assets/offer-capping-times.png)
+
+>[!NOTE]
+>
+>Il numero deve essere un numero intero maggiore di 0.
+
+<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+
+<!--![](../assets/offer-capping-custom-example.png)-->
+
+Puoi anche specificare se applicare il limite a tutti gli utenti o a un profilo specifico:
+
+![](../assets/offer-capping-total.png)
+
+* Seleziona **[!UICONTROL In totale]** per definire quante volte un’offerta può essere proposta al pubblico target combinato, ovvero a tutti gli utenti.
+
+   Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
+
+* Seleziona **[!UICONTROL Per profilo]** per definire quante volte un’offerta può essere proposta allo stesso utente.
+
+   Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
+
+### Limitazione di frequenza {#frequency-capping}
+
+Il **[!UICONTROL Frequenza]** consente di definire la frequenza con cui viene reimpostato il conteggio dei limiti. A tale scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
+
+![](../assets/offer-capping-frequency.png)
+
+>[!NOTE]
+>
+>Il ripristino avviene alle ore 12:00 UTC, nel giorno definito o, se del caso, nel primo giorno della settimana/mese. Il giorno di inizio della settimana è domenica. La durata scelta non può superare i 2 anni (ossia il numero corrispondente di mesi, settimane o giorni).
+
+Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Ogni settimana]** dal **[!UICONTROL Ripeti]** elenco a discesa e tipo **2** nell&#39;altro campo. Il ripristino avverrà ogni due domeniche alle 12:00 UTC.
+
+>[!CAUTION]
+>
+>Dopo aver salvato l’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza.
+
+### Limitazioni e posizionamenti {#placements}
+
+Se hai definito diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se desideri applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**.
+
+![](../assets/offer-capping-placement.png)
+
+* **[!UICONTROL In tutti i posizionamenti]**: i conteggi dei limiti calcolano il totale di tutte le decisioni relative ai posizionamenti associati all’offerta.
+
+   Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo in tutti i posizionamenti**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
+
+* **[!UICONTROL Per ogni posizionamento]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ciascun posizionamento.
+
+   Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo per ciascun posizionamento**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e altre 2 volte per il posizionamento web.
 
 ### Impatto della modifica delle date sui limiti {#capping-change-date}
 
