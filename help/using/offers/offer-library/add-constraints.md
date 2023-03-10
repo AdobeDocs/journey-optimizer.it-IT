@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2290'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,9 @@ Per impostare i limiti, attenersi alla procedura principale descritta di seguito
 
 1. Definisci quale **[!UICONTROL Evento di limite]** per aumentare il contatore. [Ulteriori informazioni](#capping-event)
 
-1. Definisci il numero di volte in cui è possibile presentare l’offerta. [Ulteriori informazioni](#capping-type)
+1. Imposta il numero di volte in cui è possibile presentare l’offerta. [Ulteriori informazioni](#capping-count)
+
+1. Scegli se desideri applicare il limite a tutti gli utenti o a un solo profilo. [Ulteriori informazioni](#capping-type)
 
 1. Imposta il **[!UICONTROL Frequenza]** per definire la frequenza con cui viene reimpostato il conteggio dei limiti. [Ulteriori informazioni](#frequency-capping)
 
@@ -184,6 +186,8 @@ Il numero di volte in cui viene proposta un’offerta viene calcolato al momento
 
 Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONTROL Evento di limite]** sarà preso in considerazione per aumentare il contatore:
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un’offerta.
 * **[!UICONTROL Impression]**: numero massimo di volte che l’offerta può essere visualizzata a un utente.
 
@@ -192,21 +196,25 @@ Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONT
    >L’utilizzo delle impression come eventi di limitazione è disponibile per **canali in entrata** solo.
 
 * **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull’offerta.
-* **[!UICONTROL Evento personalizzato]**: puoi definire un evento personalizzato che verrà utilizzato per limitare il numero di offerte inviate. Ad esempio, puoi limitare il numero di rimborsi fino a quando un determinato profilo non avrà rimborsato 1 volta. A tale scopo, utilizza [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per creare una regola evento personalizzata.
+* **[!UICONTROL Evento personalizzato]**: puoi definire un evento personalizzato che verrà utilizzato per limitare il numero di offerte inviate. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono lo stesso 10000, o fino a quando un determinato profilo non viene rimborsato 1 volta. A tale scopo, utilizza [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per creare una regola evento personalizzata.
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   Nell’esempio seguente, vuoi limitare il numero di abbonamenti. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizzare **[!UICONTROL Creare regole evento personalizzate]** per selezionare gli eventi rilevanti.
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   Una volta creata, la regola viene visualizzata nella **[!UICONTROL Query evento personalizzata]** campo.
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente, quindi accertati che i dati vengano inseriti. [Ulteriori informazioni sulla raccolta dati](../data-collection/data-collection.md)
 
-### Tipo di limite {#capping-type}
+### Conteggio limite {#capping-count}
 
-Il **[!UICONTROL Tipo di limite]** consente di specificare il numero di volte in cui è possibile presentare l’offerta.
+Il **[!UICONTROL Conteggio limite]** consente di specificare il numero di volte in cui è possibile presentare l’offerta.
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ Il **[!UICONTROL Tipo di limite]** consente di specificare il numero di volte in
 >
 >Il numero deve essere un numero intero maggiore di 0.
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+Ad esempio, se hai definito un evento di limite personalizzato, come le sottoscrizioni, viene preso in considerazione, se immetti 10 nel campo **[!UICONTROL Conteggio limite]** , dopo 10 abbonamenti non verranno inviate altre offerte.
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### Tipo di limite {#capping-type}
 
 Puoi anche specificare se applicare il limite a tutti gli utenti o a un profilo specifico:
 

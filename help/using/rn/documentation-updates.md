@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 98%
+source-wordcount: '2367'
+ht-degree: 97%
 
 ---
 
@@ -17,13 +17,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Marzo 2023 {#march-2023}
 
-* Nella guida alla gestione delle decisioni è stata creata una nuova sezione su come raccogliere feedback di offer decisioning in Adobe Experience Platform, che include informazioni sulle offerte visualizzate e sul modo in cui gli utenti interagiscono con esse.  [Ulteriori informazioni](../offers/data-collection/data-collection.md)
+* Nella guida alla gestione delle decisioni è stata creata una nuova sezione su come raccogliere feedback di offer decisioning in Adobe Experience Platform, che include informazioni sulle offerte visualizzate e sul modo in cui gli utenti interagiscono con esse. [Ulteriori informazioni](../offers/data-collection/data-collection.md)
 
 ## Febbraio 2023 {#feb-2023}
 
 * È stata aggiunta una nota nella documentazione sulle campagne attivate dall’API per specificare che gli attributi contestuali passati nella richiesta non possono superare i 50 KB. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Sono state aggiunte informazioni sulla modalità di memorizzazione delle informazioni di rinuncia nel **Set di dati del servizio di consenso** dopo che i destinatari hanno annullato l’iscrizione tramite una pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Sono state aggiunte informazioni sulla modalità di memorizzazione delle informazioni di rinuncia in **Set di dati del servizio di consenso** dopo che i destinatari hanno annullato l’abbonamento tramite una pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Gennaio 2023 {#jan-2023}
 
