@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informativo"
-source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
+source-git-commit: 7a044f7c048ba797e7b857212f6d6b0cf2644b5d
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '769'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Prima di iniziare a utilizzare questa funzionalità, assicurati di essere in lin
 
 * **Impostazioni Experience Manager**
 
-   Questa funzionalità è disponibile a partire da Adobe Experience Manager 6.5.14. Devi connetterti ad Adobe Experience Manager Sites nell’ambiente di authoring di Managed Services.
+   Questa funzionalità è disponibile con [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
-   Come parte del programma beta, la configurazione del Cloud Service è stata eseguita da Adobe in Adobe Experience Manager per connettersi a Adobe Journey Optimizer.
+   Come parte del programma beta, la configurazione del Cloud Service viene eseguita da Adobe in Adobe Experience Manager per connettersi a Adobe Journey Optimizer.
 
 * **Autorizzazioni**
 
