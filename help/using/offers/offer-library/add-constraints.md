@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2290'
+source-wordcount: '2323'
 ht-degree: 2%
 
 ---
@@ -200,14 +200,21 @@ Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONT
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   Nell’esempio seguente, vuoi limitare il numero di abbonamenti. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizzare **[!UICONTROL Creare regole evento personalizzate]** per selezionare gli eventi rilevanti.
+   Nell’esempio seguente, desideri limitare il numero di checkout.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizzare **[!UICONTROL Aggiungi evento personalizzato]** pulsante.
 
-   Una volta creata, la regola viene visualizzata nella **[!UICONTROL Query evento personalizzata]** campo.
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. Utilizza il **[!UICONTROL Creare regole evento personalizzate]** per selezionare l’evento rilevante. Puoi scegliere qualsiasi azione utente per la quale limitare le offerte.
 
+      Scegli qui **[!UICONTROL Commerce]** > **[!UICONTROL Pagamenti]** > **[!UICONTROL Valore]** e seleziona **[!UICONTROL esiste]** dall’elenco a discesa.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. Una volta creata, la regola viene visualizzata nella **[!UICONTROL Query evento personalizzata]** campo.
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente, quindi accertati che i dati vengano inseriti. [Ulteriori informazioni sulla raccolta dati](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ Il **[!UICONTROL Conteggio limite]** consente di specificare il numero di volte 
 >
 >Il numero deve essere un numero intero maggiore di 0.
 
-Ad esempio, se hai definito un evento di limite personalizzato, come le sottoscrizioni, viene preso in considerazione, se immetti 10 nel campo **[!UICONTROL Conteggio limite]** , dopo 10 abbonamenti non verranno inviate altre offerte.
+Ad esempio, hai definito un evento di limite personalizzato, come il numero di checkout presi in considerazione. Se si immette 10 in **[!UICONTROL Conteggio limite]** , non verranno inviate altre offerte dopo 10 checkout.
 
 ### Tipo di limite {#capping-type}
 
