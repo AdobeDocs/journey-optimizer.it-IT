@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informativo"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 3%
@@ -20,11 +20,16 @@ ht-degree: 3%
 
 # Creare il primo flusso di lavoro di composizione {#create-compositions}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Informazioni disponibili in questa documentazione:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Introduzione alla composizione dei tipi di pubblico</a></li>
-<li><b><a href="create-compositions.md">Creare il primo flusso di lavoro di composizione</a></b></li>
-<li><a href="composition-canvas.md">Lavorare nell’area di lavoro per la composizione</a></li>
-<li><a href="access-audiences.md">Accesso e gestione dei tipi di pubblico</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Informazioni disponibili in questa documentazione:
+
+* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
+* **[Creare il primo flusso di lavoro di composizione](create-compositions.md)**
+* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
+* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 ## Creare un flusso di lavoro di composizione {#create}
 

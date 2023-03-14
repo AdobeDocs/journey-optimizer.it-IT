@@ -1,29 +1,38 @@
 ---
-title: Rapporto Web
+title: Rapporto web
 description: Scopri come utilizzare i dati del rapporto web
-feature: Reporting
+feature: Reporting, Web Channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informativo"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
-# Rapporto Web {#web-report}
+# Rapporto web {#web-report}
 
-Il rapporto Web è disponibile nel rapporto Campaign.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->La funzione canale web è attualmente disponibile come versione beta solo per gli utenti selezionati.
+Informazioni disponibili in questa documentazione:
 
-La pagina del rapporto Campaign verrà visualizzata con le seguenti schede:
+* [Introduzione al canale Web](get-started-web.md)
+* [Creare esperienze web](create-web.md)
+* [Creare pagine web](author-web.md)
+* [Estensione Helper per editing video](visual-editing-helper.md)
+* **[Generazione rapporti Web](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+Il rapporto web è disponibile all’interno del rapporto della campagna.
+
+La pagina del rapporto della campagna verrà visualizzata con le seguenti schede:
 
 * [Campaign](../reports/campaign-global-report.md#campaign-live)
 * [E-mail](../reports/campaign-global-report.md#email-live)
@@ -31,18 +40,18 @@ La pagina del rapporto Campaign verrà visualizzata con le seguenti schede:
 * [SMS](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
-La campagna **[!UICONTROL Report globale]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
+La campagna **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
 
-Per un elenco dettagliato di ciascuna metrica disponibile in Adobe Journey Optimizer, consulta [questa pagina](../reports/global-report.md#list-of-components-global.md)
+Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](../reports/global-report.md#list-of-components-global.md)
 
 ## Scheda Web {#web-tab}
 
 ![](assets/web-report.png)
 
-La **[!UICONTROL Prestazioni web]** I KPI descrivono in dettaglio le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
+Il **[!UICONTROL Prestazioni web]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
 
-* **[!UICONTROL Impressioni univoche]**: numero di utenti univoci a cui è stata distribuita l’esperienza web.
+* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stata consegnata l’esperienza web.
 
-* **[!UICONTROL Impressioni]**: numero totale di esperienze web distribuite a tutti gli utenti.
+* **[!UICONTROL Impression]**: numero totale di esperienze web consegnate a tutti gli utenti.
 
-La **[!UICONTROL Riepilogo web]** Il grafico mostra l’evoluzione delle esperienze web (impression e impression univoche) per il periodo in questione.
+Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle tue esperienze web (impression e impressioni uniche) per il periodo in questione.

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informativo"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 14%
@@ -25,11 +25,16 @@ ht-degree: 14%
 >title="Creare una composizione"
 >abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico."
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Informazioni disponibili in questa documentazione:<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">Introduzione alla composizione dei tipi di pubblico</a></b></li>
-<li><a href="create-compositions.md">Creare il primo flusso di lavoro di composizione</a></li>
-<li><a href="composition-canvas.md">Lavorare nell’area di lavoro per la composizione</a></li>
-<li><a href="access-audiences.md">Accesso e gestione dei tipi di pubblico</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Informazioni disponibili in questa documentazione:
+
+* **[Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)**
+* [Creare il primo flusso di lavoro di composizione](create-compositions.md)
+* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
+* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
