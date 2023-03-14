@@ -10,10 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informativo"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 9%
+source-wordcount: '307'
+ht-degree: 14%
 
 ---
 
@@ -22,40 +23,45 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Creare una composizione"
->abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico Adobe Experience Platform esistenti in un’area di lavoro visiva e sfrutta varie attività (divise, escluse..) per creare nuovi tipi di pubblico."
+>abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico."
+
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Informazioni disponibili in questa documentazione:<br/><ul>
+<li><b><a href="get-started-audience-orchestration.md">Introduzione alla composizione dei tipi di pubblico</a></b></li>
+<li><a href="create-compositions.md">Creare il primo flusso di lavoro di composizione</a></li>
+<li><a href="composition-canvas.md">Lavorare nell’area di lavoro per la composizione</a></li>
+<li><a href="access-audiences.md">Accesso e gestione dei tipi di pubblico</a></li></ul></td></tr></table>
 
 >[!AVAILABILITY]
 >
->La composizione del pubblico è attualmente disponibile solo come versione beta privata e può essere soggetta a frequenti aggiornamenti senza preavviso.
+>La composizione del pubblico è attualmente disponibile solo come versione beta privata e può essere soggetta a frequenti aggiornamenti senza preavviso. Il provisioning della versione beta viene eseguito a livello di organizzazione IMS, il che significa che influirà su tutte le sandbox all’interno dell’organizzazione.
 
-## Informazioni sulla composizione del pubblico {#about}
+La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui puoi combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico.
 
-La composizione del pubblico consente di creare **flussi di lavoro per composizione**, dove puoi combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare varie attività (divise, escluse...) per creare nuovi tipi di pubblico.
-
-Una volta fatto, il **pubblico risultante** vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **sfruttato nelle campagne** ai clienti. [Scopri come utilizzare le campagne](../campaigns/get-started-with-campaigns.md)
+Al termine, il **pubblico risultante** vengono salvate in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **utilizzato nelle campagne** per eseguire il targeting dei clienti. [Scopri come utilizzare le campagne](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->I tipi di pubblico risultanti dai flussi di lavoro di composizione possono essere indirizzati solo alle campagne Journey Optimizer. Non sono disponibili per l’uso nei percorsi.
+>I tipi di pubblico risultanti dai flussi di lavoro di composizione possono essere indirizzati solo alle campagne Journey Optimizer. Non sono disponibili per l’uso in percorsi.
 
-## Accedere alla composizione del pubblico {#access}
+La composizione del pubblico è accessibile da Adobe Journey Optimizer **[!UICONTROL Segmenti]** menu:
 
-La composizione del pubblico è accessibile dal **[!UICONTROL Segmenti]** menu:
+![](assets/audiences-browse.png)
 
-* La **[!UICONTROL Tipi di pubblico]** elenca tutti i tipi di pubblico esistenti memorizzati in Adobe Experience Platform. [Scopri come accedere e gestire i tipi di pubblico](access-audiences.md)
+* Il **[!UICONTROL Panoramica]** fornisce una dashboard dedicata con metriche chiave correlate ai dati dei segmenti della tua organizzazione. Per ulteriori informazioni, consulta [Guida alle dashboard di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
-* La **[!UICONTROL Composizioni]** La scheda ti consente di creare flussi di lavoro di composizione in cui puoi combinare e disporre i tipi di pubblico per crearne di nuovi. [Scopri come creare flussi di lavoro per la composizione](create-compositions.md)
+* Il **[!UICONTROL Sfoglia]** elenca tutti i tipi di pubblico esistenti memorizzati in Adobe Experience Platform.
 
-![](assets/audiences-list.png)
+* Il **[!UICONTROL Composizioni]** Questa scheda ti consente di creare flussi di lavoro di composizione in cui puoi combinare e organizzare i tipi di pubblico per crearne di nuovi.
 
->[!NOTE]
->
->Questa documentazione si applica solo alla composizione del pubblico. La **[!UICONTROL Panoramica]** e **[!UICONTROL Segmenti]** vengono utilizzate nel contesto della creazione delle definizioni dei segmenti. Per ulteriori informazioni, consulta la sezione [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Fai clic su ogni scheda per scoprire come lavorare con la composizione del pubblico:
 
-Scopri di più:
-
-* [Creare flussi di lavoro di composizione](create-compositions.md)
-* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
-* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="create-compositions.md"><img alt="Creare flussi di lavoro di composizione" src="../assets/do-not-localize/ao-workflows.jpg"></a>
+<div><a href="create-compositions.md"><strong>Creare il primo flusso di lavoro di composizione</strong></a></div></td>
+<td><a href="composition-canvas.md"><img alt="Lavorare nell’area di lavoro per la composizione" src="../assets/do-not-localize/ao-canvas.jpg"></a>
+<div><a href="composition-canvas.md"><strong>Lavorare nell’area di lavoro per la composizione</strong></a></div></td>
+<td><a href="access-audiences.md"><img alt="Accesso e gestione dei tipi di pubblico" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+<div><a href="access-audiences.md"><strong>Accesso e gestione dei tipi di pubblico</strong></a></div></td>
+</tr></table>

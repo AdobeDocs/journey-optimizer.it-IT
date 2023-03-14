@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Lavorare nell’area di lavoro per la composizione
-description: Scopri come lavorare con l’area di lavoro della composizione
+description: Scopri come utilizzare l’area di lavoro della composizione
 feature: Journeys
 topic: Content Management
 role: User
@@ -10,20 +10,27 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informativo"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 2%
+source-wordcount: '1353'
+ht-degree: 1%
 
 ---
 
 # Lavorare nell’area di lavoro per la composizione {#composition-canvas}
 
-L’area di lavoro della composizione è un’area di lavoro visiva che consente di creare composizioni sfruttando il pubblico e le attività (divise, escluse..).
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Informazioni disponibili in questa documentazione:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Introduzione alla composizione dei tipi di pubblico</a></li>
+<li><a href="create-compositions.md">Creare il primo flusso di lavoro di composizione</a></li>
+<li><b><a href="composition-canvas.md">Lavorare nell’area di lavoro per la composizione</a></b></li>
+<li><a href="access-audiences.md">Accesso e gestione dei tipi di pubblico</a></li></ul></td></tr></table>
 
-I passaggi per configurare una composizione nell&#39;area di lavoro della composizione sono i seguenti:
+La composizione del pubblico fornisce un’area di lavoro visiva che ti consente di creare tipi di pubblico e di utilizzare varie attività (suddivisione, arricchimento, ecc.).
 
-1. [Definire i tipi di pubblico iniziali](#starting-audience)
+I passaggi per comporre un pubblico nell’area di lavoro sono i seguenti:
+
+1. [Definisci i tipi di pubblico iniziali](#starting-audience)
 1. [Aggiungi una o più attività](#action-activities)
 1. [Salvare i risultati in un nuovo pubblico](#save)
 
@@ -31,22 +38,22 @@ I passaggi per configurare una composizione nell&#39;area di lavoro della compos
 
 Il primo passaggio per creare una composizione consiste nel selezionare uno o più tipi di pubblico esistenti come base della composizione.
 
-1. Seleziona la **[!UICONTROL Pubblico]** quindi fornisci un’etichetta per l’attività.
+1. Seleziona la **[!UICONTROL Pubblico]** quindi fornire un’etichetta per l’attività.
 
-1. Scegli il pubblico di cui eseguire il targeting:
+1. Scegli il pubblico di destinazione:
 
-   * Fai clic sul pulsante **[!UICONTROL Aggiungi pubblico]** per selezionare uno o più tipi di pubblico esistenti,
-   * Fai clic sul pulsante **[!UICONTROL Crea regola]** per creare una nuova definizione di segmento utilizzando il pulsante [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   * Fai clic su **[!UICONTROL Aggiungi pubblico]** per selezionare uno o più tipi di pubblico esistenti,
+   * Fai clic su **[!UICONTROL Genera regola]** per creare una nuova definizione di segmento utilizzando [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/audiences-choose-audience.png)
 
-1. Se sono selezionati più tipi di pubblico, specifica in che modo unire i profili di questi tipi di pubblico:
+1. Se sono selezionati più tipi di pubblico, specifica come unire i profili di tali tipi di pubblico:
 
-* **[!UICONTROL Union]**: includere tutti i profili dal pubblico selezionato,
-* **[!UICONTROL Intersection]**: includere profili comuni a tutti i tipi di pubblico selezionati,
-* **[!UICONTROL Escludi sovrapposizione]**: includere profili che appartengono solo a uno dei tipi di pubblico. I profili appartenenti a più di un pubblico non verranno inclusi.
+* **[!UICONTROL Union]**: include tutti i profili dei tipi di pubblico selezionati,
+* **[!UICONTROL Intersezione]**: include profili comuni a tutti i tipi di pubblico selezionati,
+* **[!UICONTROL Escludi sovrapposizione]**: includi i profili che appartengono a uno solo dei tipi di pubblico. I profili appartenenti a più di un pubblico non verranno inclusi.
 
-In questo esempio, vogliamo eseguire il targeting di tutti i profili appartenenti al pubblico gold e silver.
+In questo esempio, vogliamo eseguire il targeting di tutti i profili appartenenti ai tipi di pubblico gold e silver.
 
 ![](assets/audiences-starting-audience.png)
 
@@ -54,143 +61,176 @@ Una volta selezionati i tipi di pubblico, il numero stimato di profili viene vis
 
 ## Aggiungi attività {#action-activities}
 
-Aggiungi le attività dopo aver selezionato il pubblico iniziale per perfezionare la selezione.
+Per perfezionare la selezione, aggiungi attività dopo aver selezionato il pubblico iniziale.
 
-A questo scopo, fai clic sul pulsante + nel percorso della composizione, quindi seleziona l’attività desiderata. Viene visualizzato il riquadro a destra, che consente di configurare l’attività.
+A questo scopo, fai clic sul pulsante + sul percorso della composizione, quindi seleziona l’attività desiderata. Si apre il riquadro a destra, che consente di configurare la nuova attività aggiunta.
 
 ![](assets/audiences-select-activity.png)
-
->[!NOTE]
->
->Puoi aggiungere più **[!UICONTROL Pubblico]** e **[!UICONTROL Escludi]** attività necessarie nella composizione. Tuttavia, non è possibile aggiungere attività aggiuntive dopo **[!UICONTROL Classificazione]** e **[!UICONTROL Divisione]** attività .
-
-Puoi rimuovere un’attività dall’area di lavoro in qualsiasi momento facendo clic sul pulsante Elimina nel riquadro a destra. Anche tutte le attività aggiunte dopo questa attività verranno rimosse dall’area di lavoro.
 
 Le attività disponibili sono:
 
 * [Pubblico](#audience): includere profili aggiuntivi appartenenti a uno o più tipi di pubblico esistenti,
-* [Escludi](#exclude): escludere profili appartenenti a un pubblico esistente o escludere profili basati su attributi specifici,
-* [Classificazione](#rank): classificare i profili in base a un attributo specifico, specificare il numero di profili da mantenere e includerli nella composizione,
-* [Divisione](#split): dividi la composizione in più percorsi in base a percentuali casuali o su attributi.
+* [Escludi](#exclude): escludi profili appartenenti a un pubblico esistente o escludi profili basati su attributi specifici,
+* [Arricchire]{#enrich}: arricchisci il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform,
+* [Classifica](#rank): classifica i profili in base a un attributo specifico, specifica il numero di profili da mantenere e includerli nella composizione,
+* [Dividi](#split): divide la composizione in più percorsi in base a percentuali casuali o ad attributi.
 
-### Attività pubblico {#audience}
+Puoi aggiungerne altrettanti **[!UICONTROL Pubblico]** e **[!UICONTROL Escludi]** attività necessarie nella composizione. Tuttavia, non è possibile aggiungere alcuna attività dopo **[!UICONTROL Classifica]** e **[!UICONTROL Dividi]** attività.
+
+Puoi rimuovere un’attività dall’area di lavoro in qualsiasi momento facendo clic sul pulsante Elimina nel riquadro a destra.  Se l’attività che desideri eliminare è padre di altre attività nella composizione, viene visualizzato un messaggio che ti consente di specificare se desideri eliminare solo l’attività selezionata o tutte le relative attività figlio.
+
+### Attività del pubblico {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="Attività pubblico"
->abstract="L’attività Pubblico ti consente di includere nella composizione profili aggiuntivi appartenenti a un pubblico esistente."
+>title="Attività del pubblico"
+>abstract="L’attività Audience ti consente di includere nella composizione ulteriori profili appartenenti a un pubblico esistente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
 >title="Tipi di unione"
->abstract="Specifica come devono essere uniti i profili dei tipi di pubblico selezionati."
+>abstract="Specifica come unire i profili dei tipi di pubblico selezionati."
 
-La **[!UICONTROL Pubblico]** l’attività ti consente di includere nella composizione profili aggiuntivi appartenenti a un pubblico esistente.
+Il **[!UICONTROL Pubblico]** attività ti consente di includere nella composizione ulteriori profili appartenenti a un pubblico esistente.
 
-La configurazione di questa attività è identica a quella iniziale [Attività pubblico](#starting-audience).
+La configurazione di questa attività è identica a quella iniziale [Attività del pubblico](#starting-audience).
 
 ### Escludi attività {#exclude}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
->title="Tipo di esclusione"
->abstract="Utilizza il tipo di pubblico Escludi per escludere i profili appartenenti a un pubblico esistente. L’opzione Escludi utilizzando il tipo di attributo ti consente di escludere i profili basati su un attributo specifico."
+>title="Escludi tipo"
+>abstract="Utilizza il tipo di pubblico da escludere per escludere i profili appartenenti a un pubblico esistente. Il tipo di attributo Escludi con consente di escludere i profili in base a un attributo specifico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
 >title="Escludi attività"
->abstract="L’attività Escludi ti consente di escludere i profili dalla composizione selezionando un pubblico esistente o utilizzando una regola."
+>abstract="L’attività Escludi ti consente di escludere profili dalla composizione selezionando un pubblico esistente o utilizzando una regola."
 
-La **[!UICONTROL Escludi]** l’attività ti consente di escludere i profili dalla composizione. Sono disponibili due tipi di esclusione:
+Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla composizione. Sono disponibili due tipi di esclusione:
 
-* **[!UICONTROL Escludi pubblico]**: Escludi i profili appartenenti a un pubblico esistente.
+* **[!UICONTROL Escludi pubblico]**: escludi i profili appartenenti a un pubblico esistente.
 
-   Fai clic sul pulsante **[!UICONTROL Aggiungi pubblico]** quindi seleziona il pubblico da escludere.
+   Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi selezionare il pubblico da escludere.
 
    ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL Escludi utilizzando l’attributo]**: Escludere i profili in base a un attributo specifico.
+* **[!UICONTROL Escludi con attributo]**: escludi i profili basati su un attributo specifico.
 
-   Seleziona l&#39;attributo da cercare e specifica il valore da escludere. In questo esempio, escludiamo dai profili di composizione il cui indirizzo di casa è in Giappone.
+   Seleziona l’attributo da cercare, quindi specifica il valore da escludere. In questo esempio, escludiamo dai profili di composizione il cui indirizzo principale è in Giappone.
 
    ![](assets/audiences-exclude-attribute.png)
 
-### Attività di classifica {#rank}
+### Arricchire {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Arricchire l’attività"
+>abstract="Utilizza l’attività Enrich per escludere i profili appartenenti a un pubblico esistente. Il tipo di attributo Escludi con consente di escludere i profili in base a un attributo specifico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Set di dati di arricchimento"
+>abstract="Seleziona il set di dati di arricchimento contenente i dati da associare al pubblico."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Criteri di arricchimento"
+>abstract="Seleziona i campi da utilizzare come chiave di riconciliazione tra il set di dati di origine, ovvero il pubblico, e il set di dati di arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Attributi di arricchimento"
+>abstract="Seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico. Una volta pubblicata la composizione, questi attributi sono associati al pubblico e possono essere utilizzati nelle campagne per personalizzare le consegne."
+
+Il **[!UICONTROL Arricchire]** attività ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
+
+>[!IMPORTANT]
+>
+>Per il momento, le etichette del set di dati, a livello di set di dati o di campo, non vengono propagate al pubblico appena creato. Questo può influire sul controllo degli accessi e/o sulla governance dei dati per il pubblico risultante. Per questo motivo, utilizza solo i dati di prova durante la composizione dei tipi di pubblico.
+
+Per configurare l’attività, effettua le seguenti operazioni:
+
+1. Seleziona la **[!UICONTROL Set di dati di arricchimento]** contenente i dati che desideri associare al pubblico.
+
+1. In **[!UICONTROL Criteri di arricchimento]** , seleziona i campi da utilizzare come chiave di riconciliazione tra il set di dati di origine, ovvero il pubblico, e il set di dati di arricchimento. In questo esempio, utilizziamo l’ID del prodotto acquistato come chiave di riconciliazione.
+
+1. Fai clic su **[!UICONTROL Aggiungi attributi]** quindi seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico.
+
+   ![](assets/audiences-enrich-activity.png)
+
+Una volta pubblicata la composizione, gli attributi selezionati vengono associati al pubblico e possono essere utilizzati nelle campagne per personalizzare le consegne.
+
+### Attività classificazione {#rank}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
 >title="Attività di classificazione"
->abstract="L’attività Classifica ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, includi i 50 profili con la maggiore quantità di punti fedeltà."
+>abstract="L’attività Rank ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, includi i 50 profili con il maggior numero di punti fedeltà."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="Aggiungi limite profilo"
->abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione."
+>abstract="Attivate questa opzione per specificare il numero massimo di profili da includere nella composizione."
 
-La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà.
+Il **[!UICONTROL Classifica]** attività ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con il maggior numero di punti fedeltà.
 
 1. Seleziona l’attributo da cercare e specifica un ordine di classificazione (crescente o decrescente).
 
    >[!NOTE]
    >
-   >Puoi selezionare gli attributi con i seguenti tipi di dati: numero intero, numeri, breve <!--(other?)-->
+   >È possibile selezionare gli attributi con i seguenti tipi di dati: numero intero, numero, breve <!--(other?)-->
 
-1. Attiva/disattiva la **[!UICONTROL Aggiungi limite profilo]** su e specifica un numero massimo di profili da includere nella composizione.
+1. Attiva/disattiva **[!UICONTROL Aggiungi limite profilo]** e specificare un numero massimo di profili da includere nella composizione.
 
    ![](assets/audiences-rank.png)
 
-### Dividi attività {#split}
+### Attività split {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="Gruppo di controllo"
->abstract="Utilizza i gruppi di controllo per isolare una parte dei profili. Questo ti consente di misurare l’impatto di un’attività di marketing e di effettuare un confronto con il comportamento del resto della popolazione."
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Dividi attività"
->abstract="L’attività Dividi ti consente di dividere la composizione in più percorsi. Quando si pubblica la composizione, un pubblico viene salvato in Adobe Experience Platform per ogni percorso."
+>title="Attività split"
+>abstract="L’attività Split ti consente di suddividere la composizione in più percorsi. Quando si pubblica la composizione, in Adobe Experience Platform viene salvato un pubblico per ogni percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
->title="Tipo di divisione"
->abstract="Utilizza il tipo di suddivisione percentuale per dividere in modo casuale i profili in più percorsi. Il tipo di suddivisione dell’attributo consente di suddividere i profili in base a un attributo specifico."
+>title="Tipo di suddivisione"
+>abstract="Utilizzare il tipo di suddivisione Percentuale per suddividere in modo casuale i profili in più percorsi. Il tipo di suddivisione Attributi consente di suddividere i profili in base a un attributo specifico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
 >title="Altri profili"
 >abstract="Attiva questa opzione per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi."
 
-La **[!UICONTROL Divisione]** l’attività ti consente di dividere la composizione in più percorsi.
+Il **[!UICONTROL Dividi]** L’attività ti consente di dividere la composizione in più percorsi.
 
-Questa operazione aggiunge automaticamente una **[!UICONTROL Salva]** attività alla fine di ogni percorso. Quando si pubblica la composizione, un pubblico viene salvato in Adobe Experience Platform per ogni percorso.
+Questa operazione aggiunge automaticamente un **[!UICONTROL Salva]** attività alla fine di ciascun percorso. Quando si pubblica la composizione, in Adobe Experience Platform viene salvato un pubblico per ogni percorso.
 
-Sono disponibili due tipi di operazioni suddivise:
+Sono disponibili due tipi di operazioni di suddivisione:
 
-* **[!UICONTROL Divisione percentuale]**: dividi i profili in modo casuale in due o più percorsi. Ad esempio, puoi dividere i profili in 2 percorsi distinti del 45% ciascuno e aggiungere un percorso aggiuntivo per il gruppo di controllo.
+* **[!UICONTROL Divisione percentuale]**: i profili vengono suddivisi in modo casuale in due o più percorsi. Ad esempio, puoi suddividere i profili in 2 percorsi distinti del 50% ciascuno. <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL Divisione attributo]**: dividere i profili in base a un attributo specifico. In questo esempio, suddividiamo i profili in base alle loro preferenze per il tipo di stanza.
+* **[!UICONTROL Suddivisione attributi]**: suddivide i profili in base a un attributo specifico. In questo esempio, i profili vengono suddivisi in base alle preferenze per il tipo di stanza.
 
    ![](assets/audiences-split.png)
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Altri profili]** consente di creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
+   >Il **[!UICONTROL Altri profili]** consente di creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
 
 ## Salvare i tipi di pubblico {#save}
 
 Configura i tipi di pubblico risultanti che verranno salvati in Adobe Experience Platform.
 
-A questo scopo, seleziona la **[!UICONTROL Save audience]** alla fine di ogni percorso, specifica il nome del nuovo pubblico da creare.
+A questo scopo, seleziona la **[!UICONTROL Salva pubblico]** attività alla fine di ciascun percorso, quindi specifica il nome del nuovo pubblico da creare.
 
 ![](assets/audiences-publish.png)
 
-Una volta pronta la composizione, puoi pubblicarla. [Scopri come creare le composizioni](create-compositions.md)
-
-Scopri di più:
-
-* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* [Creare flussi di lavoro di composizione](create-compositions.md)
-* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
+Quando la composizione è pronta, potete pubblicarla. [Scopri come creare le composizioni](create-compositions.md)
