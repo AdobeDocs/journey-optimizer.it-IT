@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lago, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 7%
+source-wordcount: '836'
+ht-degree: 9%
 
 ---
 
@@ -55,6 +55,8 @@ Sono disponibili diversi set di dati:
 
 * _Punteggi di ottimizzazione dei tempi di invio/Punteggi di coinvolgimento_: Punteggi di output del Percorso AI.
 
+Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta la [Dizionario dello schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## Anteprima dei set di dati{#preview-datasets}
 
 Dalla schermata Attività del set di dati, seleziona **Anteprima set di dati** nell’angolo in alto a destra dello schermo per visualizzare in anteprima il batch di successo più recente in questo set di dati. Quando un set di dati è vuoto, il collegamento di anteprima viene disattivato.
@@ -67,8 +69,8 @@ Per creare un nuovo set di dati, inizia selezionando **Creare un set di dati** n
 
 Puoi eseguire le seguenti operazioni:
 
-* Crea set di dati dallo schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
-* Crea set di dati da file CSV. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
+* Creare un set di dati da uno schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* Crea set di dati da file CSV. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=it){target="_blank"}
 
 Guarda questo video per scoprire come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
