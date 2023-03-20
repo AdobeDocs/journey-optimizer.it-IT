@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -346,7 +346,7 @@ ht-degree: 96%
       + [Creare decisioni](using/offers/offer-activities/create-offer-activities.md)
       + [Configurare la selezione di offerte nelle decisioni](using/offers/offer-activities/configure-offer-selection.md)
       + [Creare simulazioni](using/offers/offer-activities/simulation.md)
-   + [Utilizzare le decisioni batch](using/offers/batch-delivery.md)
+   + [Utilizzare Batch Decisioning](using/offers/batch-delivery.md)
    + Raccogliere dati evento {#collect-event-data}
       + [Guida introduttiva alla raccolta dati](using/offers/data-collection/data-collection.md)
       + [Creare un set di dati per raccogliere gli eventi](using/offers/data-collection/create-dataset.md)
@@ -378,8 +378,8 @@ ht-degree: 96%
             + [Aggiornare una regola di decisione](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Eliminare una regola di decisione](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Qualificatori di raccolta {#tags}
-            + [Qualificatori di raccolta elenchi](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Ricercare un qualificatore di raccolta](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Elenco dei qualificatori di raccolta](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Cercare un qualificatore di raccolta](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Creare un qualificatore di raccolta](using/offers/api-reference/offers-api/tags/create.md)
             + [Aggiornare un qualificatore di raccolta](using/offers/api-reference/offers-api/tags/update.md)
             + [Eliminare un qualificatore di raccolta](using/offers/api-reference/offers-api/tags/delete.md)
