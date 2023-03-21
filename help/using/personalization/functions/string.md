@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
-ht-degree: 7%
+source-wordcount: '1868'
+ht-degree: 6%
 
 ---
 
@@ -648,13 +648,20 @@ Restituisce &quot;Ciao Mark, ecco la tua newsletter mensile!&quot;
 
 ## Sostituisci tutto{#replaceAll}
 
-La `replaceAll` viene utilizzata per sostituire tutte le sottostringhe di un testo che corrisponde alla stringa &quot;target&quot; con la stringa letterale di &quot;sostituzione&quot; specificata. La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
+La `replaceAll` viene utilizzata per sostituire tutte le sottostringhe di un testo che corrispondono all&#39;espressione &quot;regex&quot; con la stringa letterale di &quot;sostituzione&quot; specificata. Regex ha una speciale gestione di &quot;\&quot; e &quot;+&quot; e tutte le espressioni regex seguono la strategia di escape PQL. La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 **Sintassi**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> Se l&#39;espressione regex considerata come secondo argomento è un carattere regex speciale, allora dobbiamo utilizzare la doppia barra posteriore (`//`) per gestire tali casi.
+>
+> Elenco dei caratteri regex speciali [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 
+> Viene riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## Taglio a destra {#rightTrim}
 
