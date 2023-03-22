@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 6%
 
 ---
@@ -655,13 +655,12 @@ La `replaceAll` viene utilizzata per sostituire tutte le sottostringhe di un tes
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> Se l&#39;espressione regex considerata come secondo argomento è un carattere regex speciale, allora dobbiamo utilizzare la doppia barra posteriore (`//`) per gestire tali casi.
->
-> Elenco dei caratteri regex speciali [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Quando l&#39;espressione presa come secondo argomento è un carattere regex speciale, utilizza la doppia barra rovesciata (`//`).  I caratteri regex speciali sono: [, +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Viene riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> Ulteriori informazioni in [Documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Taglio a destra {#rightTrim}
 
