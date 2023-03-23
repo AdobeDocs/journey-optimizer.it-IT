@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Rappresentazioni"
->abstract="Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Più rappresentazioni sono disponibili, più opportunità esistono per utilizzare l’offerta in contesti di posizionamento diversi."
+>abstract="Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Più rappresentazioni di un’offerta, più opportunità esistono per utilizzare l’offerta in contesti di posizionamento diversi."
 
 Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML, ecc. Più rappresentazioni sono disponibili, più opportunità esistono per utilizzare l’offerta in contesti di posizionamento diversi.
 

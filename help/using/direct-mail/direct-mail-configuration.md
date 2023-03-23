@@ -1,6 +1,6 @@
 ---
-title: Configurazione direct mail
-description: Scopri come configurare il canale di direct mailing in Journey Optimizer
+title: Configurazione direct mailing
+description: Scopri come configurare il canale direct mailing in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -17,98 +17,98 @@ ht-degree: 10%
 
 ---
 
-# Configurazione direct mail {#direct-mail-configuration}
+# Configurazione direct mailing {#direct-mail-configuration}
 
 >[!BEGINSHADEBOX]
 
-Informazioni disponibili in questa documentazione:
+Cosa troverai in questa documentazione:
 
 * [Creare una direct mail](create-direct-mail.md)
 * **[Configurare la direct mail](direct-mail-configuration.md)**
 
 >[!ENDSHADEBOX]
 
-[!DNL Journey Optimizer] ti consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.
+[!DNL Journey Optimizer] ti consente di personalizzare e generare i file richiesti dai provider di direct mailing per inviare messaggi ai clienti.
 
-Quando [creazione di un messaggio di direct mailing](../direct-mail/create-direct-mail.md), puoi definire i dati del pubblico target, comprese le informazioni di contatto scelte (ad esempio l’indirizzo postale). Un file contenente questi dati verrà quindi generato ed esportato automaticamente in un server, dove il provider di direct mailing sarà in grado di recuperarli e occuparsi dell’invio effettivo.
+Quando [creazione di un messaggio di direct mailing](../direct-mail/create-direct-mail.md), definisci i dati del pubblico di destinazione, comprese le informazioni di contatto scelte (ad esempio, l’indirizzo postale). Un file contenente questi dati verrà quindi generato ed esportato automaticamente in un server, dove il provider di direct mailing sarà in grado di recuperarlo e prendersi cura dell’invio effettivo.
 
 Prima di poter generare questo file, devi creare:
 
-1. A [configurazione di indirizzamento dei file](#file-routing-configuration) per specificare il server in cui verrà esportato il file.
+1. A [configurazione del routing dei file](#file-routing-configuration) per specificare il server in cui verrà esportato il file.
 
-1. A [superficie direct mail](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
+1. A [superficie della direct mailing](#direct-mail-surface) che fa riferimento alla configurazione del routing dei file.
 
 >[!CAUTION]
 >
->Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing.
+>Se non hai configurato alcuna opzione di routing dei file, non potrai creare una superficie di direct mailing.
 
 ## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="Definire la configurazione di indirizzamento dei file"
->abstract="Dopo aver creato un messaggio di direct mailing, il file contenente i dati del pubblico di destinazione verrà generato ed esportato su un server. È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere al file e utilizzarlo per la consegna della direct mailing."
+>title="Definire la configurazione del routing dei file"
+>abstract="Dopo aver creato un messaggio di direct mailing, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della direct mailing."
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Definire la configurazione di indirizzamento dei file"
->abstract="È necessario definire dove verrà esportato il file che il provider di direct mailing dovrà utilizzare."
+>title="Definire la configurazione del routing dei file"
+>abstract="È necessario definire dove verrà esportato il file da utilizzare per il provider di direct mailing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
->title="Configurazione di indirizzamento dei file"
+>title="Configurazione dell’indirizzamento dei file"
 >abstract="Seleziona la configurazione di indirizzamento dei file desiderata, che definisce dove verrà esportato il file che verrà utilizzato dal provider di direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selezionare il tipo di server per il file"
->abstract="Scegliere il tipo di server da utilizzare per esportare i file di direct mailing. Attualmente Journey Optimizer supporta solo Amazon S3 e SFTP."
+>abstract="Scegliere il tipo di server che si desidera utilizzare per esportare i file di direct mailing. Attualmente solo Amazon S3 e SFTP sono supportati da Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="Scegli l’area geografica di AWS"
->abstract="Seleziona l’area geografica del server AWS in cui desideri esportare i file di direct mailing. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing."
+>abstract="Seleziona l’area geografica del server AWS in cui desideri esportare i file di direct mailing. Come procedura generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing."
 
-Per recapitare un messaggio di direct mailing: [!DNL Journey Optimizer] genera ed esporta in un server il file contenente i dati del pubblico di destinazione.
+Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed esporta il file contenente i dati del pubblico di destinazione in un server.
 
-È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere al file e utilizzarlo per la consegna della posta.
+È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della posta.
 
-Per configurare l’indirizzamento dei file, segui la procedura riportata di seguito.
+Per configurare il routing dei file, segui i passaggi seguenti.
 
-1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione di indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** , quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
+1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione dell’indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** menu, quindi fai clic su **[!UICONTROL Creare la configurazione di indirizzamento]**.
 
    ![](assets/file-routing-config-button.png)
 
 1. Imposta un nome per la configurazione.
 
-1. Seleziona la **[!UICONTROL Tipo di server]** che desideri utilizzare per esportare i file di direct mailing.
+1. Seleziona la **[!UICONTROL Tipo di server]** che si desidera utilizzare per esportare i file di direct mailing.
 
    ![](assets/file-routing-config-type.png)
 
    >[!NOTE]
    >
-   >Attualmente in sono supportati solo Amazon S3 e SFTP [!DNL Journey Optimizer].
+   >Attualmente sono supportati solo Amazon S3 e SFTP in [!DNL Journey Optimizer].
 
-1. Inserisci i dettagli e le credenziali del server, ad esempio indirizzo del server, chiave di accesso e così via.
+1. Inserisci i dettagli e le credenziali del server, ad esempio l’indirizzo del server, la chiave di accesso, ecc.
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Se hai selezionato **[!UICONTROL Amazon S3]**, scegli il **[!UICONTROL Area geografica AWS]** dove si trova l&#39;infrastruttura server.
+1. Se hai selezionato **[!UICONTROL Amazon S3]**, scegli **[!UICONTROL Area geografica AWS]** dove sarà situata l&#39;infrastruttura del server.
 
    ![](assets/file-routing-config-aws-region.png)
 
    >[!NOTE]
    >
-   >Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
+   >Le aree geografiche di AWS sono aree geografiche utilizzate da AWS per ospitare le proprie infrastrutture cloud. Come procedura generale, è preferibile scegliere la regione più vicina alla posizione del provider di direct mailing.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie direct mail](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di routing dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie della direct mailing](#direct-mail-surface).
 
    >[!NOTE]
    >
-   >Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non sarà possibile selezionarla in una superficie finché non viene **[!UICONTROL Attivo]**.
+   >Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di routing dei file, ma non sarà possibile selezionarla in una superficie finché non sarà **[!UICONTROL Attivo]**.
 
 ## Creare una superficie per direct mail {#direct-mail-surface}
 
@@ -126,20 +126,20 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
->title="Definire la soglia di suddivisione dei file"
->abstract="Devi impostare il numero massimo di record per ogni file contenente dati sul pubblico. È possibile selezionare un numero qualsiasi compreso tra 1 e 200.000 record. Al raggiungimento della soglia specificata, verrà creato un altro file per i record rimanenti."
+>title="Definire la soglia di suddivisione del file"
+>abstract="Devi impostare il numero massimo di record per ogni file contenente i dati sul pubblico. È possibile selezionare un numero qualsiasi compreso tra 1 e 200.000 record. Una volta raggiunta la soglia specificata, verrà creato un altro file per i record rimanenti."
 
-Essere in grado di consegnare direct mailing con [!DNL Journey Optimizer], è necessario creare una superficie di canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
+Per poter consegnare direct mailing con [!DNL Journey Optimizer], è necessario creare una superficie del canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
 
-Una superficie di direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
+Una superficie direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
 
-1. Create una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+1. Create una superficie del canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 1. Seleziona la **[!UICONTROL Direct mail]** canale.
 
    ![](assets/surface-direct-mail-channel.png)
 
-1. Definisci le impostazioni della direct mailing nella sezione dedicata della configurazione della superficie di canale.
+1. Definisci le impostazioni di direct mailing nella sezione dedicata della configurazione della superficie del canale.
 
    ![](assets/surface-direct-mail-settings.png)
 
@@ -147,25 +147,25 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
 1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
 
-1. Seleziona la **[!UICONTROL Configurazione di indirizzamento dei file]** tra quelli che hai creato. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
+1. Seleziona la **[!UICONTROL Configurazione dell’indirizzamento dei file]** tra quelli creati. Questo definisce dove verrà esportato il file da utilizzare per il provider di direct mailing.
 
    >[!CAUTION]
    >
-   >Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
+   >Se non hai configurato alcuna opzione di routing dei file, non potrai creare una superficie di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png)
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
-1. Invia la superficie della direct mailing.
+1. Invia l&#39;area direct mailing.
 
-Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md) all’interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene esportato automaticamente nel server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna di direct mailing.
+Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md) all’interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene automaticamente esportato sul server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna direct mailing.
 
 >[!NOTE]
 >
 >Le righe duplicate verranno rimosse automaticamente.
 >
->Se il numero massimo di record (ovvero righe) per ciascun file contenente dati di profilo è troppo alto, verrà creato automaticamente un altro file per i record rimanenti.
+>Se il numero massimo di record (ovvero righe) per ogni file contenente dati di profilo è troppo alto, verrà creato automaticamente un altro file per i record rimanenti.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

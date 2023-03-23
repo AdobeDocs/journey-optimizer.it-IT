@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 11%
 
 ---
 
@@ -38,7 +38,7 @@ Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini esclus
 >Le autorizzazioni per visualizzare, esportare e gestire l’elenco di soppressione sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
 
 
-Sono disponibili filtri che consentono di sfogliare l’elenco.
+Sono disponibili alcuni filtri che consentono di sfogliare l’elenco.
 
 ![](assets/suppression-list-filters.png)
 
@@ -107,7 +107,7 @@ Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di
 >
 >Può richiedere fino a 60 minuti per [!DNL Journey Optimizer] tenere conto degli indirizzi soppressi nelle e-mail in uscita.
 
-Puoi aggiungere indirizzi e-mail o domini [una per volta](#add-one-address-or-domain)oppure [in modalità collettiva](#upload-csv-file) tramite caricamento di file CSV.
+È possibile aggiungere indirizzi e-mail o domini [uno alla volta](#add-one-address-or-domain) oppure [in blocco](#upload-csv-file) tramite il caricamento di un file CSV.
 
 ### Aggiungi un indirizzo o un dominio {#add-one-address-or-domain}
 
@@ -128,7 +128,7 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, se
 
 1. Selezionare il tipo di indirizzo: **[!UICONTROL E-mail]** o **[!UICONTROL Dominio]**.
 
-1. Immetti l’indirizzo e-mail o il dominio da escludere dall’invio.
+1. Inserisci l’indirizzo e-mail o il dominio che desideri escludere dall’invio.
 
    >[!NOTE]
    >
@@ -182,13 +182,13 @@ Utilizza la **[!UICONTROL Caricamenti recenti]** per controllare lo stato degli 
 
 Gli stati possibili sono:
 
-* **[!UICONTROL In sospeso]**: Elaborazione del caricamento del file in corso.
-* **[!UICONTROL Errore]**: Il processo di caricamento dei file non è riuscito a causa di un problema tecnico o di un errore di formato del file.
-* **[!UICONTROL Completa]**: Il processo di caricamento dei file è stato completato.
+* **[!UICONTROL In sospeso]**: il caricamento del file è in elaborazione.
+* **[!UICONTROL Errore]**: il processo di caricamento dei file non è riuscito a causa di un problema tecnico o di un errore di formato del file.
+* **[!UICONTROL Completato]**: il processo di caricamento del file è stato completato.
 
 Durante il caricamento, se alcuni indirizzi non sono nel formato corretto, non vengono aggiunti al [!DNL Journey Optimizer] elenco di soppressione.
 
-In tal caso, al termine del caricamento, il report viene associato a un report. Puoi scaricarlo per verificare gli errori rilevati<!-- and understand why they were not added to the suppression list-->.
+In tal caso, una volta completato il caricamento, viene associato a un rapporto. È possibile scaricarlo per verificare gli errori rilevati<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
@@ -219,16 +219,15 @@ Per rimuovere un indirizzo dall&#39;elenco di soppressione, utilizzare il **[!UI
 >
 >Procedi con molta attenzione quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbio, contatta un esperto di recapito.
 
+Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail vengono erroneamente contrassegnate come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
-Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail possono essere contrassegnate erroneamente come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
+Per recuperare tali indirizzi, esegui una query specifica con parametri personalizzati, in base al contesto dell’interruzione. [Per ulteriori informazioni, consulta questa pagina](../data/datasets-query-examples.md#isp-outage-query).
 
-A questo scopo, filtra l’elenco di soppressione per visualizzare gli indirizzi e-mail o i domini interessati. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
+Una volta identificati gli indirizzi e-mail interessati, filtra l’elenco di soppressione per visualizzarli. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
 ![](assets/remove-from-supp-list.png)
 
-È inoltre necessario aggiungere un filtro per il tipo di rimbalzo, a seconda dei dettagli dell’interruzione. Questi dettagli vengono forniti dall&#39;ISP, ad esempio l&#39;esatto codice di errore restituito al mittente. Ad esempio: `550 <email address> recipient rejected` o `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Una volta identificati, questi indirizzi possono essere rimossi manualmente dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante . Questi indirizzi possono quindi essere inclusi nelle campagne e-mail future.
+Puoi quindi rimuovere gli indirizzi e-mail messi in quarantena dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante .
 
 ## Scaricare l&#39;elenco di soppressione {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Una volta identificati, questi indirizzi possono essere rimossi manualmente dall
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 Per esportare l’elenco di soppressione come file CSV, segui la procedura seguente:

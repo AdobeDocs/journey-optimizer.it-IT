@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare modelli di contenuto
+title: Crea modelli di contenuto
 description: Scopri come creare modelli per riutilizzare i contenuti nelle campagne e nei percorsi Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -52,7 +52,7 @@ Per eliminare un modello, seleziona l’icona del cestino accanto al modello des
 >
 >Quando un modello viene modificato o eliminato, le campagne o i percorsi, comprese le e-mail create utilizzando questo modello, non sono interessati.
 
-## Creare modelli di contenuto {#create-content-templates}
+## Crea modelli di contenuto {#create-content-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"

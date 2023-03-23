@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ In Adobe Journey Optimizer, OLAC consente di proteggere i dati e concedere un ac
 >
 >Per poter creare etichette, devi far parte di un ruolo con il **[!UICONTROL Gestire le etichette di utilizzo]** autorizzazione.
 
-**[!UICONTROL Etichette]** consente di classificare set di dati e campi in base ai criteri di utilizzo applicati a tali dati. **[!UICONTROL Etichette]** può essere applicato in qualsiasi momento, offrendo flessibilità nella scelta di come gestire i dati.
+**[!UICONTROL Le etichette consentono di categorizzare set di dati e campi in base ai criteri di utilizzo applicabili a tali dati.]** **[!UICONTROL Etichette]** può essere applicato in qualsiasi momento, offrendo flessibilità nella scelta di come gestire i dati.
 
 Puoi creare etichette nella [!DNL Permissions] prodotto. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 

@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -142,7 +142,7 @@ Per farlo, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile all&#39;indirizzo [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} ad esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nella variabile **[!UICONTROL Motivo]** campo . L&#39;elenco completo è disponibile su [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} di esempio.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
