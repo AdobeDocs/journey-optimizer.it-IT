@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1397'
 ht-degree: 77%
 
 ---
@@ -26,7 +26,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 Le informazioni riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio. La documentazione aggiornata verrà pubblicata alla data di rilascio e in questa pagina verranno aggiunti collegamenti diretti.
 
-**Data di disponibilità**: 29 marzo
+**Data di disponibilità**: 29 marzo 2023
 
 ### Nuove funzionalità{#mar-2023-features}
 
@@ -42,7 +42,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 <td>
 <p>Ora puoi inviare messaggi in-app personalizzati agli utenti dell’app all’interno di una campagna. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza semplice.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../in-app/get-started-in-app.md">documentazione dettagliata</a>.</p>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 <tr>
 <td>
 <p>In qualità di utente business di Journey Optimizer, adesso puoi organizzare gli oggetti aziendali utilizzando i tag. I tag rappresentano un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca. Questa funzione è attualmente in versione beta e disponibile solo nei Percorsi.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/tags.md">documentazione dettagliata</a>.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
