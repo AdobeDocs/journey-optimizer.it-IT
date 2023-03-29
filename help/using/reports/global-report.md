@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1298'
 ht-degree: 3%
 
 ---
@@ -64,6 +64,10 @@ Ogni dashboard di reporting può essere modificato modificando il periodo di tem
    ![](assets/report_modify_5.png)
 
 1. Una volta soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Salva]**.
+
+1. Per personalizzare la modalità di visualizzazione dei dati, puoi scegliere tra diverse opzioni di visualizzazione, ad esempio grafici, tabelle e grafici ad anello.
+
+   ![](assets/report_modify_10.png)
 
 Il dashboard viene ora salvato. Le diverse modifiche verranno applicate nuovamente per un utilizzo successivo dei rapporti live. Se necessario, utilizza le **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine predefinito dei widget e dei widget.
 

@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, messaggio, progettazione, formattazione
 badge: label="Beta" type="Informativo"
+keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 6%
@@ -25,7 +25,7 @@ Puoi modificare il contenuto in-app per configurare le opzioni relative all’es
 
 Per configurare il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** e utilizza le opzioni nella sezione destra dello schermo per progettare il contenuto dei messaggi in-app.
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 La **[!UICONTROL Formattazione avanzata]** attiva le opzioni aggiuntive per personalizzare l’esperienza.
 

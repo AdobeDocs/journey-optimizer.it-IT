@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: progettazione, tela, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1642'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,12 @@ La **[!UICONTROL Filtrare gli elementi]** nell’angolo in alto a sinistra conse
 La **tela** è la zona centrale del designer del percorso. È in questa zona che puoi rilasciare le attività e configurarle. Fai clic su un’attività nell’area di lavoro per configurarla. Viene aperto il riquadro di configurazione dell’attività sul lato destro.
 
 ![](assets/journey39.png)
+
+La **barra degli strumenti**, situata nell’angolo in alto a destra dell’area di lavoro, consente di mostrare/nascondere la griglia, ingrandire/ridurre e scaricare una schermata dell’area di lavoro. Consulta questa [sezione](../building-journeys/journey-gs.md#timeout_and_error).
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 La **riquadro di configurazione delle attività** viene visualizzato quando si fa clic su un’attività nella palette. Compila i campi richiesti. Fai clic sul pulsante **[!UICONTROL Elimina]** per eliminare l’attività. Fai clic su **[!UICONTROL Annulla]** annullare le modifiche o **[!UICONTROL Ok]** per confermare. Per eliminare le attività, puoi anche selezionare una (o più) attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
 

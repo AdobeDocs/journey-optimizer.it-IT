@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: landing, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -40,8 +40,6 @@ Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un alt
 >[!CAUTION]
 >
 >La configurazione del sottodominio della pagina di destinazione è comune a tutti gli ambienti. Pertanto, qualsiasi modifica apportata a un sottodominio di una pagina di destinazione avrà un impatto anche sulle sandbox di produzione.
-
-Le lettere maiuscole non devono essere consentite in un sottodominio
 
 ## Utilizzare un sottodominio esistente {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ Per configurare un nuovo sottodominio, effettua le seguenti operazioni.
 
    >[!NOTE]
    >
-   >Prima di poter utilizzare quel sottodominio per inviare messaggi, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).-->
+   >Prima di poter utilizzare quel sottodominio per le pagine di destinazione, è necessario attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 4 ore.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Una volta eseguiti i controlli, il sottodominio ottiene il **[!UICONTROL Completato]** stato. È pronto per essere utilizzato per creare i predefiniti per le pagine di destinazione.
 

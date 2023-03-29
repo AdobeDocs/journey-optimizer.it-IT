@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---
@@ -286,4 +286,7 @@ La **[!UICONTROL Riepilogo SMS]** il widget descrive le informazioni principali 
 * **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
 La **[!UICONTROL Escludi motivi]** grafici e tabelle ti consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
+
+La **[!UICONTROL SMS - Clic tramite collegamenti]** e **[!UICONTROL SMS - Statistiche di tracciamento]** I widget descrivono nel dettaglio le informazioni principali relative al coinvolgimento dei visitatori con gli URL.
+
 +++

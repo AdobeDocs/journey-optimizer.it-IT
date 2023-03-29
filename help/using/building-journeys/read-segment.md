@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, segmento, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 11%
@@ -69,7 +69,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
 1. Imposta la **[!UICONTROL Velocità di limitazione]** al limite di velocità effettiva dell’attività del segmento letto.
 
-   Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 20.000 messaggi al secondo. Puoi modificare questo valore da 500 a 20.000 messaggi al secondo.
+   Questo valore viene memorizzato nel payload della versione percorso. Il valore predefinito è 5.000 messaggi al secondo. Puoi modificare questo valore da 500 a 20.000 messaggi al secondo.
 
    >[!NOTE]
    >

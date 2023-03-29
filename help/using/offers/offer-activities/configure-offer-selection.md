@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 6%
 
 ---
 
@@ -38,7 +38,7 @@ Ad esempio, puoi aumentare la priorità di tutte le offerte in cui la data di fi
 
 Scopri come creare una formula di classificazione in [questa sezione](../ranking/create-ranking-formulas.md).
 
-Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione. Per farlo, segui la procedura indicata di seguito:
+Una volta creata una formula, puoi assegnarla a un posizionamento in una decisione. Per farlo, segui la procedura indicata di seguito:
 
 1. Crea una decisione o modifica una decisione esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
@@ -46,17 +46,17 @@ Una volta creata una formula di classificazione, puoi assegnarla a un posizionam
 
 1. Per ogni posizionamento, aggiungi una raccolta. Vedi [Creare raccolte](../offer-library/creating-collections.md).
 
-1. Seleziona **[!UICONTROL Formula di classificazione]** come metodo di classificazione, quindi fare clic su **[!UICONTROL Aggiungi classificazione]**.
+1. Seleziona **[!UICONTROL Formula]** come metodo di classificazione, quindi fare clic su **[!UICONTROL Aggiungi classificazione]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Seleziona la formula di classificazione desiderata, quindi fai clic su **[!UICONTROL Seleziona]**.
+1. Seleziona la formula desiderata, quindi fai clic su **[!UICONTROL Seleziona]**.
 
    ![](../assets/ranking-selection.png)
 
 La formula di classificazione è ora associata al posizionamento.
 
-Se più offerte sono idonee per essere presentate in questo posizionamento, la decisione utilizzerà la formula della classificazione per calcolare quale offerta distribuire per prima.
+Se più offerte possono essere presentate in questo posizionamento, la decisione utilizzerà la formula selezionata per calcolare quale offerta distribuire per prima.
 
 ## Classificazione basata su IA {#use-ranking-strategy}
 

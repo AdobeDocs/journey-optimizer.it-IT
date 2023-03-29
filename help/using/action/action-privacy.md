@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,6 @@ Per ulteriori informazioni sul framework per la governance dei dati e su come ut
 
 * La governance dei dati si applica solo alle azioni personalizzate nei percorsi. Le azioni di Campaign Classic e Campaign Standard non sono supportate.
 * I criteri di governance si applicano solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
-* Gli attributi appartenti a un gruppo di campi che utilizzano lo schema di unione predefinito non sono supportati. Questi attributi risulteranno nascosti nell’interfaccia. È necessario creare un altro gruppo di campi utilizzando uno schema diverso.
 
 ## Definire i criteri di governance {#governance-policies}
 

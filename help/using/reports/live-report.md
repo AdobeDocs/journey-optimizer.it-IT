@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1052'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,8 @@ Per un elenco dettagliato di ciascuna metrica disponibile in Adobe Journey Optim
 
 Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget. La modifica dei widget influisce solo sul dashboard dell&#39;utente corrente. Altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
+1. Da **[!UICONTROL Azioni]** a discesa, scegli se desideri creare rapporti su una particolare azione dei tuoi percorsi.
+
 1. Scegli se escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
    Tieni presente che **[!UICONTROL Escludere gli eventi di test]** è disponibile solo per i rapporti di Percorso.
@@ -57,6 +59,10 @@ Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo 
    ![](assets/report_modify_9.png)
 
 1. Una volta soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Salva]**.
+
+1. Per personalizzare la modalità di visualizzazione dei dati, puoi scegliere tra diverse opzioni di visualizzazione, ad esempio grafici, tabelle e grafici ad anello.
+
+   ![](assets/report_modify_11.png)
 
 Il dashboard viene ora salvato. Le diverse modifiche verranno applicate nuovamente per un utilizzo successivo dei rapporti live. Se necessario, utilizza le **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine predefinito dei widget e dei widget.
 

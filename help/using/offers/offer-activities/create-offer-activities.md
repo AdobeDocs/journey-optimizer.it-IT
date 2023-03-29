@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1402'
+ht-degree: 3%
 
 ---
 
@@ -98,19 +98,19 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. Definisci il metodo di classificazione da utilizzare per selezionare l’offerta migliore per ciascun profilo.
+1. Definisci il metodo di classificazione da utilizzare per selezionare l’offerta migliore per ciascun profilo. [Maggiori informazioni](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
-   * Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, l’offerta con il punteggio di priorità più alto verrà consegnata al cliente.
+   * Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, l’ **[!UICONTROL Priorità offerta]** utilizza il valore definito nelle offerte: l’offerta con il punteggio di priorità più alto verrà consegnata all’utente.
 
-   * Se desideri utilizzare una formula specifica per scegliere l&#39;offerta idonea da consegnare, seleziona **[!UICONTROL Formula di classificazione]**. Scopri come classificare le offerte in [questa sezione](../offer-activities/configure-offer-selection.md).
+   * Se desideri utilizzare un punteggio calcolato specifico per scegliere l&#39;offerta idonea da consegnare, seleziona **[!UICONTROL Formula]** o **[!UICONTROL Modello AI]**. [Maggiori informazioni](../offer-activities/configure-offer-selection.md).
 
 1. Fai clic su **[!UICONTROL Aggiungi]** per definire più criteri per lo stesso posizionamento.
 
    ![](../assets/activity_add-collection.png)
 
-1. Quando aggiungi più criteri, questi verranno valutati in un ordine specifico. La prima raccolta aggiunta alla sequenza verrà valutata per prima e così via.
+1. Quando aggiungi più criteri, questi verranno valutati in un ordine specifico. La prima raccolta aggiunta alla sequenza verrà valutata per prima e così via. [Ulteriori informazioni](#evaluation-criteria-order)
 
    Per modificare la sequenza predefinita, puoi trascinare e rilasciare le raccolte per riordinarle come desiderato.
 
@@ -120,13 +120,27 @@ Prima di creare una decisione, accertati che i componenti seguenti siano stati c
 
    ![](../assets/activity_move-collection.png)
 
-   Ora hanno lo stesso rango e quindi saranno valutati contemporaneamente.
+   Ora hanno lo stesso rango e quindi saranno valutati contemporaneamente. [Ulteriori informazioni](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL Nuovo ambito]** pulsante . Ripeti i passaggi indicati sopra per ogni ambito di decisione.
 
    ![](../assets/activity_new-scope.png)
+
+### Ordine dei criteri di valutazione {#evaluation-criteria-order}
+
+Come descritto in precedenza, i criteri di valutazione consistono in una raccolta, vincoli di ammissibilità e un metodo di classificazione. È possibile impostare l’ordine sequenziale desiderato per la valutazione dei criteri di valutazione, ma è anche possibile combinare più criteri di valutazione in modo che vengano valutati insieme e non separatamente.
+
+Ad esempio, si dispone di due raccolte, una nei criteri di valutazione A e una nei criteri di valutazione B. La richiesta prevede il rinvio di due offerte. Supponiamo che vi siano due offerte ammissibili in base ai criteri di valutazione A e tre offerte ammissibili in base ai criteri di valutazione B.
+
+* Se i due criteri di valutazione sono **non combinato** e/o in ordine sequenziale (1 e 2), le prime due offerte ammissibili dei criteri di valutazione saranno restituite nella prima riga. Se non vi sono due offerte ammissibili per i primi criteri di valutazione, il modulo decisionale passerà ai criteri di valutazione successivi in sequenza per trovare quante offerte sono ancora necessarie e, in ultima analisi, restituirà un fallback se necessario.
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* Se le due raccolte sono **valutato contemporaneamente** Poiché i criteri di valutazione A e le tre offerte ammissibili ai criteri di valutazione B sono due, le cinque offerte saranno tutte raggruppate in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto le prime due offerte ammissibili di queste cinque offerte saranno restituite.
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## Aggiungere un’offerta di fallback {#add-fallback}
 

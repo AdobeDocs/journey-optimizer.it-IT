@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Integrare Journey Optimizer con i sistemi esterni
+title: Integrare Journey Optimizer con sistemi esterni
 description: Scopri le best practice per l’integrazione di Journey Optimizer con sistemi esterni
 role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limiti
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 2%
+source-wordcount: '1178'
+ht-degree: 3%
 
 ---
 
@@ -26,37 +26,50 @@ Tutti i sistemi esterni sono diversi in termini di prestazioni. Devi adattare la
 
 Quando Journey Optimizer esegue una chiamata a un’API esterna, le protezioni tecniche vengono eseguite come segue:
 
-1. Vengono applicate le regole di limitazione: se viene raggiunto il tasso massimo, le chiamate rimanenti vengono scartate.
+1. Le regole di limitazione o limitazione vengono applicate: se viene raggiunto il tasso massimo, le chiamate rimanenti vengono scartate o messe in coda.
 
 2. Timeout e nuovo tentativo: se la regola di limite viene soddisfatta, Journey Optimizer tenta di eseguire la chiamata fino al raggiungimento della fine della durata di timeout.
 
-## Limitazione{#capping}
+## API di limitazione e limitazione {#capping}
 
-L’API Capping integrata offre una protezione tecnica a monte che aiuta a proteggere il sistema esterno.
+### Informazioni sulle API di limitazione e limitazione
 
-Per le origini dati esterne, il numero massimo di chiamate al secondo è impostato su 15. Se il numero di chiamate supera il 15 al secondo, le chiamate rimanenti vengono scartate. Puoi aumentare questo limite per le origini dati esterne private. Contatta l’Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti. Ciò non è possibile per le fonti di dati esterne pubbliche.
+Durante la configurazione di un’origine dati o di un’azione, stabilisci una connessione a un sistema per recuperare informazioni aggiuntive da utilizzare nei percorsi oppure per inviare messaggi o chiamate API.
+
+Le API dei percorsi supportano fino a 5000 eventi al secondo, ma alcuni sistemi o API esterni potrebbero non avere una velocità effettiva equivalente. Per evitare il sovraccarico di questi sistemi, puoi utilizzare il **Limitazione** e **Limitazione** API per limitare il numero di eventi inviati al secondo.
+
+Ogni volta che una chiamata API viene eseguita dai percorsi, passa attraverso il motore API. Se viene raggiunto il limite impostato nell’API, la chiamata viene rifiutata se utilizzi l’API di limitazione delle funzioni o viene messa in coda ed elaborata il prima possibile nell’ordine in cui sono state ricevute se utilizzi l’API di limitazione delle prestazioni.
+
+Ad esempio, supponiamo che tu abbia definito una regola di limitazione o limitazione di 100 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un&#39;azione personalizzata in 10 percorsi diversi. Se un percorso riceve 200 chiamate al secondo, utilizza i 100 slot disponibili ed elimina o mette in coda i 100 slot rimanenti. Poiché la tariffa massima è stata superata, gli altri 9 percorsi non avranno più alcuna slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e crash.
+
+>[!IMPORTANT]
+>
+>**Regole di limitazione** sono configurati a livello di sandbox, per un endpoint specifico (l’URL chiamato) ma sono globali per tutti i percorsi di tale sandbox.
+>
+>**Regole di limitazione** sono configurati solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Puoi disporre di una sola configurazione di limitazione per organizzazione.
+
+Per ulteriori informazioni su come utilizzare le API, consulta queste sezioni:
+
+* [API di limitazione](capping.md)
+* [API di limitazione](throttling.md)
+
+### Origini dati e capacità di azioni personalizzate {#capacity}
+
+Per **origini dati esterne**, il numero massimo di chiamate al secondo è limitato a 15. Se questo limite viene superato, tutte le chiamate aggiuntive vengono scartate o messe in coda a seconda dell’API in uso. È possibile aumentare questo limite per le origini dati esterne private contattando Adobe per includere l’endpoint nell’inserire nell&#39;elenco Consentiti, ma questa non è un’opzione per le origini dati esterne pubbliche. * [Scopri come configurare le origini dati](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
-> Se un’origine dati utilizza un’autenticazione personalizzata con un endpoint diverso da quello utilizzato per l’origine dati, è necessario contattare Adobe per includere tale endpoint nell’inserire nell&#39;elenco Consentiti.
+>Se un’origine dati utilizza un’autenticazione personalizzata con un endpoint diverso da quello utilizzato per l’origine dati, è necessario contattare Adobe per includere tale endpoint nell’inserire nell&#39;elenco Consentiti.
 
-Per le azioni personalizzate, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una regola di limitazione in modo che il sistema non saturi.
-
-Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ). In fase di runtime, Journey Optimizer verifica se è definita una regola di limitazione e applica la velocità definita durante le chiamate a tale endpoint. Se il numero di chiamate supera il tasso definito, le chiamate rimanenti vengono scartate e sono conteggiate come errori nel reporting.
-
-Una regola di limitazione è specifica per un endpoint ma globale per tutti i percorsi di una sandbox. Ciò significa che gli slot di limitazione sono condivisi tra tutti i percorsi di una sandbox.
-
-Ad esempio, supponiamo che tu abbia definito una regola di limitazione di 100 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un&#39;azione personalizzata in 10 percorsi diversi. Se un percorso riceve 200 chiamate al secondo, utilizzerà i 100 slot disponibili e scarterà i 100 slot rimanenti. Poiché la tariffa massima è stata superata, gli altri 9 percorsi non avranno più alcuna slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e crash.
-
-Per ulteriori informazioni sull’API di limitazione di utilizzo e su come configurare le regole di limitazione di utilizzo, consulta [Documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
+Per **azioni personalizzate**, devi valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 100 chiamate al secondo, è necessario definire una configurazione di limitazione o limitazione in modo che il sistema non saturi. [Scopri come configurare le azioni](../action/action.md)
 
 ## Timeout e nuovi tentativi{#timeout}
 
-Se la regola di limitazione è soddisfatta, viene applicata la regola di timeout.
+Se la regola di limitazione o di limitazione è soddisfatta, viene applicata la regola di timeout.
 
 In ogni percorso, puoi definire una durata di timeout. Questo consente di impostare una durata massima quando si chiama un sistema esterno. La durata del timeout è configurata nelle proprietà di un percorso. Consulta [questa pagina](../building-journeys/journey-gs.md#timeout_and_error).
 
-Questo timeout è globale per tutte le chiamate esterne (chiamate API esterne in azioni personalizzate e origini dati personalizzate). Per impostazione predefinita, è impostato su 5 secondi.
+Questo timeout è globale per tutte le chiamate esterne (chiamate API esterne in azioni personalizzate e origini dati personalizzate). Per impostazione predefinita, è impostato su 30 secondi.
 
 Durante la durata di timeout definita, Journey Optimizer cerca di chiamare il sistema esterno. Dopo la prima chiamata, è possibile eseguire un massimo di tre tentativi fino al raggiungimento della fine della durata di timeout. Impossibile modificare il numero di tentativi.
 
@@ -74,9 +87,9 @@ Prendiamo ad esempio un timeout di 5 secondi.
 
 ## Domande frequenti{#faq}
 
-**Come posso configurare una regola di limitazione? Esiste una regola di limitazione predefinita?**
+**Come posso configurare una regola di limitazione o limitazione? Esiste una regola predefinita?**
 
-Per impostazione predefinita, non è presente alcuna regola di limitazione. Le regole di limitazione di utilizzo sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato ), utilizzando l’API di limitazione di utilizzo. Fai riferimento a [questa sezione](../configuration/external-systems.md#capping) e [Documentazione del Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
+Per impostazione predefinita, non è presente alcuna regola di limitazione o limitazione. Le regole sono definite a livello di sandbox per un endpoint specifico (l’URL chiamato), utilizzando l’API di limitazione o limitazione di limitazione di limitazione o limitazione di limitazione di utilizzo. Fai riferimento a [questa sezione](../configuration/external-systems.md#capping).
 
 **Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra i tentativi?**
 

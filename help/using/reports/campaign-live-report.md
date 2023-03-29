@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
@@ -135,7 +135,7 @@ Dalla tua campagna **[!UICONTROL Report live]**, **[!UICONTROL SMS]** la scheda 
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto SMS.
 
-La **[!UICONTROL SMS - Invio di statistiche]** la tabella descrive il successo della consegna:
+La **[!UICONTROL SMS - Statistiche]** la tabella descrive il successo della consegna:
 
 * **[!UICONTROL Target]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
 
@@ -148,6 +148,8 @@ La **[!UICONTROL SMS - Invio di statistiche]** la tabella descrive il successo d
 * **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
 
 * **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+
+* **[!UICONTROL Clic]**: Numero totale di visite URL.
 
 La **[!UICONTROL Prestazioni SMS per data]** il widget descrive le informazioni principali relative al messaggio con un grafico:
 

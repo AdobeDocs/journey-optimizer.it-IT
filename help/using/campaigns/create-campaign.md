@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: creare, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 8%
@@ -35,7 +35,7 @@ Per creare una nuova campagna, accedi al **[!UICONTROL Campagne]** menu, quindi 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Per un messaggio di marketing specificando una data di invio, l’ **Pianificato** Il tipo è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali come reimpostazione della password o abbandono del carrello, l’ **Attivazione dall’API** Il tipo è la scelta migliore."
+>abstract="Per un messaggio di marketing specificando una data di invio, la **Pianificato** Il tipo è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali come reimpostazione della password o abbandono del carrello, l’ **Attivazione dall’API** Il tipo è la scelta migliore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"

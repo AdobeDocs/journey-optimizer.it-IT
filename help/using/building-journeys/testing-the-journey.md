@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1522'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 ## Note importanti {#important_notes}
 
-* Viene fornita un’interfaccia per attivare eventi al percorso testato, ma gli eventi possono essere inviati anche da sistemi di terze parti come Postman.
+* In modalità di test, puoi attivare gli eventi utilizzando l’interfaccia .
 * Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Fai riferimento a questa [sezione](../segment/creating-test-profiles.md).
 * La modalità di test è disponibile solo in percorsi 2D che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che accede al percorso è un profilo di test o meno e deve quindi essere in grado di raggiungere Adobe Experience Platform.
 * Il numero massimo di profili di test che possono entrare in un percorso durante una sessione di test è 100.
@@ -103,8 +103,6 @@ Quando fai clic sul pulsante **[!UICONTROL Invia]** il test inizia. La progressi
 Quando selezioni un profilo di test diverso nella schermata di configurazione dell’evento ed esegui nuovamente il test, il flusso visivo viene cancellato e mostra il percorso del nuovo individuo.
 
 Quando si apre un percorso nel test, il percorso visualizzato corrisponde all&#39;ultimo test eseguito.
-
-Il flusso visivo funziona se l’evento viene attivato tramite l’interfaccia o esternamente (ad esempio utilizzando Postman).
 
 ## Modalità di test per percorsi basati su regole {#test-rule-based}
 

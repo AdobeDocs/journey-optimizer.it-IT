@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: percorso, origini dati, limite, throughput, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 3%
 
 ---
@@ -27,13 +27,17 @@ Questa operazione può essere eseguita con :
 
 * **Azioni personalizzate**: per inviare informazioni a sistemi esterni, ad esempio per inviare e-mail tramite una soluzione esterna utilizzando le funzionalità di orchestrazione di Journey Optimizer insieme alle informazioni sul profilo, ai dati sul pubblico e al contesto del percorso.
 
-Se lavori con origini dati esterne o azioni personalizzate, puoi proteggere i sistemi esterni limitando il throughput di percorso: fino a 5000 istanze/secondo per percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dai segmenti. È possibile definire un limite di limitazione a livello di endpoint per evitare di sovrapporre tali sistemi esterni tramite le API di Journey Optimizer Capping. Tuttavia, tutte le richieste rimanenti dopo il raggiungimento del limite verranno eliminate.
+Se lavori con origini dati esterne o azioni personalizzate, puoi proteggere i sistemi esterni limitando il throughput di percorso: fino a 5000 istanze/secondo per percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dai segmenti.
 
-In questa sezione sono disponibili soluzioni alternative che consentono di ottimizzare il throughput. Per ulteriori informazioni su come integrare con i sistemi esterni, consulta questo [page](../configuration/external-systems.md).
+Per le azioni personalizzate, le funzionalità di limitazione sono disponibili a livello di prodotto. Fai riferimento a questo [page](../configuration/external-systems.md#capping).
+
+Per le origini dati esterne, puoi definire un limite di limitazione a livello di endpoint per evitare di sovrapporre tali sistemi esterni tramite le API di Journey Optimizer Capping. Tuttavia, tutte le richieste rimanenti dopo il raggiungimento del limite verranno eliminate. In questa sezione sono disponibili soluzioni alternative che consentono di ottimizzare il throughput.
+
+Per ulteriori informazioni su come integrare con i sistemi esterni, consulta questo [page](../configuration/external-systems.md).
 
 ## Implementazione
 
-Per **percorsi con attivazione segmento**, puoi definire la velocità di limitazione dell’attività Leggi segmento che influirà sul throughput del percorso.  [Maggiori informazioni](../building-journeys/read-segment.md)
+Per **percorsi con attivazione segmento**, puoi definire la velocità di limitazione dell’attività Leggi segmento che influirà sul throughput del percorso.  [Ulteriori informazioni](../building-journeys/read-segment.md)
 
 ![](assets/limit-throughput-1.png)
 

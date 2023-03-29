@@ -6,9 +6,9 @@ description: Scopri come configurare il tuo ambiente per l’invio di SMS con Jo
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
@@ -120,6 +120,12 @@ Per creare una superficie del canale, effettuate le seguenti operazioni:
 
    * Seleziona la tua **[!UICONTROL Campo di esecuzione SMS]** per selezionare **[!UICONTROL Attributo profilo]** associati ai numeri di telefono dei profili.
 
+
+1. Se desideri utilizzare la funzione di abbreviazione degli URL nei messaggi SMS, seleziona un elemento dalla **[!UICONTROL Sottodominio]** elenco.
+
+   >[!NOTE]
+   >
+   >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio SMS. [Scopri come](sms-subdomains.md)
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. È inoltre possibile salvare la superficie del canale come bozza e riprendere la configurazione in un secondo momento.
 
