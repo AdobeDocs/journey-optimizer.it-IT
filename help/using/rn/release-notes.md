@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 79%
+source-wordcount: '1429'
+ht-degree: 75%
 
 ---
 
@@ -111,7 +111,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 
 * Puoi anche scegliere quale evento di Adobe Experience Platform deve essere considerato come limite di offer decisioning. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 
-<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+* Nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
 
 **Personalizzazione**
 
@@ -249,9 +249,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Gestione delle decisioni**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **Posizionamenti** - Nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
 
 * **Personalizzazione URL**: quando aggiungi URL come contenuto alle rappresentazioni delle offerte, ora puoi personalizzare tali URL utilizzando l’editor espressioni. [Ulteriori informazioni](../offers/offer-library/add-representations.md)
 
