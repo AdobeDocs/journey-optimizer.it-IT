@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -420,7 +420,7 @@ ht-degree: 98%
       + [Introduzione ai set di dati](using/data/get-started-datasets.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Query](using/data/get-started-queries.md)
 + Configurazione{#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
