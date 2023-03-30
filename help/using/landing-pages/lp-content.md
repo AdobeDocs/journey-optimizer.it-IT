@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,19 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Dopo aver aggiunto tutte le caselle di controllo desiderate, fai clic su **[!UICONTROL Invito all&#39;azione]** per espandere la sezione corrispondente. Ti consente di definire il comportamento del pulsante nel **[!UICONTROL Modulo]** componente.
+1. Puoi anche aggiungere una **[!UICONTROL Campo di testo]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * Inserisci il **[!UICONTROL Etichetta]** che verrà visualizzato sopra il campo del modulo.
+
+   * Inserisci un **[!UICONTROL Segnaposto]** testo. Verrà visualizzato all’interno del campo prima che l’utente compili il campo.
+
+   * Controlla la **[!UICONTROL Rendi obbligatorio il campo del modulo]** se necessario. In tal caso, la pagina di destinazione può essere inviata solo se l’utente ha compilato questo campo. Se non viene compilato un campo obbligatorio, viene visualizzato un messaggio di errore al momento dell’invio della pagina da parte dell’utente.
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. Dopo aver aggiunto tutte le caselle di controllo e/o i campi di testo desiderati, fai clic su **[!UICONTROL Invito all&#39;azione]** per espandere la sezione corrispondente. Ti consente di definire il comportamento del pulsante nel **[!UICONTROL Modulo]** componente.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
