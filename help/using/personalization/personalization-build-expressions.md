@@ -9,14 +9,14 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, informazioni, inizio
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '421'
+ht-degree: 6%
 
 ---
 
-# Informazioni sull’editor di espressioni {#build-personalization-expressions}
+# Guida introduttiva all’editor espressioni {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
@@ -29,11 +29,9 @@ Nell’interfaccia dell’editor di espressioni, seleziona, organizza, personali
 
 ![](assets/perso_ee1.png)
 
-Nella parte sinistra della schermata viene visualizzato un selettore di dominio che consente di selezionare l’origine da personalizzare.
+## Origini di personalizzazione disponibili {#sources}
 
-![](assets/perso_ee3.png)
-
-Le origini disponibili sono:
+Nella parte sinistra della schermata viene visualizzato un selettore di dominio che consente di selezionare l’origine da personalizzare. Le origini disponibili sono:
 
 * **[!UICONTROL Attributi del profilo]** : elenca tutti i riferimenti associati allo schema di profilo descritto in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 * **[!UICONTROL Iscrizioni dei segmenti]** : elenca tutti i segmenti creati nel servizio Segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
@@ -41,11 +39,13 @@ Le origini disponibili sono:
 * **[!UICONTROL Attributi contestuali]** : quando in un percorso viene utilizzata un’attività di azione canale (E-mail, push, SMS), i campi di percorso contestuali sono disponibili tramite questo menu. Ulteriori informazioni in [questa sezione](personalization-use-case.md).
 * **[!UICONTROL Funzioni di supporto]** : elenca tutte le funzioni di supporto disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione dei dati o conversioni, condizioni e manipolarle nel contesto della personalizzazione. Ulteriori informazioni in [questa sezione](functions/functions.md).
 
-Fai clic sul pulsante + per aggiungere un attributo all’editor.
+## Aggiungere attributi di personalizzazione {#add}
 
->[!NOTE]
->
->Il menu dell&#39;ellisse accanto all&#39;icona &quot;+&quot; consente di ottenere ulteriori dettagli per ogni variabile e di aggiungere gli attributi utilizzati più di frequenza a [preferiti](personalization-favorites.md).
+Fai clic sul pulsante + per aggiungere un attributo all’espressione di personalizzazione.
+
+Il menu dei puntini di sospensione accanto all’icona &quot;+&quot; consente di ottenere ulteriori dettagli per ciascuna variabile e di aggiungere ai preferiti gli attributi più utilizzati. [Scopri come aggiungere attributi ai preferiti](personalization-favorites.md)
+
+Inoltre, puoi definire il testo di fallback predefinito che verrà visualizzato se un attributo di profilo di tipo stringa è vuoto. A questo scopo, fai clic sul pulsante dei puntini di sospensione accanto all’attributo e seleziona **[!UICONTROL Inserisci con testo di riserva]**. Scrivi il testo che deve essere visualizzato per impostazione predefinita se il valore dell&#39;attributo è vuoto per un profilo, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
 ![](assets/attribute-details.png)
 
