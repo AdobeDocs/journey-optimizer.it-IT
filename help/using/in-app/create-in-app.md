@@ -7,28 +7,30 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, avvio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 3%
+source-wordcount: '432'
+ht-degree: 4%
 
 ---
 
 # Creare un messaggio in-app {#create-in-app}
 
+I messaggi in-app vengono creati nel contesto di una campagna.
+
 Per creare un messaggio in-app, segui i passaggi seguenti:
 
 1. Accedere al **[!UICONTROL Campagne]** menu, quindi fai clic su **[!UICONTROL Creare una campagna]**.
 
-1. In **[!UICONTROL Proprietà]** Specifica quando eseguire la campagna.
+1. In **[!UICONTROL Proprietà]** , seleziona il tipo di esecuzione della campagna: Pianificata o attivata dall’API. Ulteriori informazioni sui tipi di campagne in [questa pagina](../campaigns/create-campaign.md#campaigntype).
 
 1. In **[!UICONTROL Azioni]** scegli la sezione **[!UICONTROL Messaggio in-app]** e **[!UICONTROL Superficie dell&#39;app]** configurato in precedenza per il messaggio in-app. Quindi, fai clic su **[!UICONTROL Crea]**.
 
-   [Ulteriori informazioni sulla configurazione in-app](inapp-configuration.md).
+   Ulteriori informazioni sulla configurazione in-app in [questa pagina](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. Da **[!UICONTROL Proprietà]** , modifica la **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]**.
+1. Da **[!UICONTROL Proprietà]** nella sezione **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]** descrizione.
 
 1. Per assegnare etichette di utilizzo dati personalizzate o di base al messaggio in-app, seleziona **[!UICONTROL Gestisci accesso]**. [Maggiori informazioni](../administration/object-based-access.md).
 
@@ -40,13 +42,13 @@ Per creare un messaggio in-app, segui i passaggi seguenti:
 
 1. Fai clic su **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio:
 
-   1. Fai clic su **[!UICONTROL Aggiungi] condizione** se desideri che il trigger prenda in considerazione più eventi o criteri.
+   1. Fai clic su **Aggiungi condizione** se desideri che il trigger prenda in considerazione più eventi o criteri.
    1. Seleziona il collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** trigger impostati su true per mostrare o scegliere un messaggio **[!UICONTROL Oppure]** se desideri che il messaggio venga visualizzato se **o** dei trigger sono true.
    1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare gli attivatori.
 
    ![](assets/in_app_create_3.png)
 
-1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
+1. Scegli la frequenza del trigger quando il messaggio in-app è attivo. Sono disponibili le seguenti opzioni:
 
    * **[!UICONTROL Ogni]**: Mostra sempre il messaggio quando gli eventi selezionati nella **[!UICONTROL Attivazione app mobile]** si verificano a discesa.
    * **[!UICONTROL Una volta]**: Mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivazione app mobile]** si verificano a discesa.
