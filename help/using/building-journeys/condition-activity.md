@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, condizione, tela, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
+source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1465'
 ht-degree: 8%
 
 ---
@@ -130,7 +130,7 @@ Puoi utilizzare questo tipo di condizione per aumentare il volume delle consegne
 
 Il limite predefinito è 1000.
 
-Il contatore si applica solo alla versione del percorso selezionata. Il contatore viene reimpostato su zero dopo un mese, dopo una nuova versione di percorso o su una versione duplicata del percorso. Dopo una reimpostazione, i profili in entrata riprendono il percorso nominale fino a raggiungere il limite del contatore.
+Il contatore si applica solo alla versione del percorso selezionata. Il contatore viene reimpostato su zero quando il percorso viene duplicato o quando viene creata una nuova versione. Dopo una reimpostazione, i profili in entrata riprendono il percorso nominale fino a raggiungere il limite del contatore.
 
 Quando il limite del profilo è definito in un percorso ricorrente, il contatore non viene reimpostato dopo ogni ricorrenza.
 
