@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 2%
+source-wordcount: '1904'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ La **[!UICONTROL Statistiche di Campaign]** i dettagli del widget forniscono le 
 
 * **[!UICONTROL Azioni consegnate]**: Numero totale di volte in cui un’azione nel percorso è stata consegnata.
 
-* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata recapitata.
+* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
 
 ## Scheda E-mail {#email-global}
 
@@ -145,10 +145,6 @@ La **[!UICONTROL Ottimizzazione del tempo di invio]** specifica il successo dell
 +++
 
 ## Scheda in-app {#inapp-global}
-
->[!IMPORTANT]
->
->La funzione in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL In-app]** la scheda descrive le informazioni principali relative alle consegne in-app inviate nella campagna.
 
