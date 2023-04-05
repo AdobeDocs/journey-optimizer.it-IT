@@ -50,7 +50,7 @@ La **[!UICONTROL Statistiche di Campaign]** i dettagli del widget forniscono le 
 
 * **[!UICONTROL Azioni consegnate]**: Numero totale di volte in cui un’azione nel percorso è stata consegnata.
 
-* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
+* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata recapitata.
 
 ## Scheda E-mail {#email-global}
 

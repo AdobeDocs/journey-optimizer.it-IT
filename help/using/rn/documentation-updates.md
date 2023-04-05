@@ -4,16 +4,21 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2d2e5f6ef405c3c807993d19b93a599dc08989d8
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 96%
+source-wordcount: '2518'
+ht-degree: 95%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Aprile 2023 {#apr-2023}
+
+* Adobe Experience Manager Assets Essentials e Adobe Stock sono stati aggiunti alla pagina di integrazione con più soluzioni . [Ulteriori informazioni](../start/ajo-integrations.md)
+
 
 ## Marzo 2023 {#march-2023}
 
