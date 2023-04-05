@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informativo"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Cosa troverai in questa documentazione:
 
 >[!ENDSHADEBOX]
 
-La composizione del pubblico fornisce un’area di lavoro visiva che consente di creare tipi di pubblico e di utilizzare varie attività (suddivisione, arricchimento, ecc.).
+La composizione del pubblico fornisce un’area di lavoro visiva che consente di creare tipi di pubblico e utilizzare varie attività (suddivise, arricchite, ecc.).
 
 I passaggi per comporre un pubblico nell’area di lavoro sono i seguenti:
 
@@ -76,7 +76,7 @@ Le attività disponibili sono:
 
 * [Pubblico](#audience): includere profili aggiuntivi appartenenti a uno o più tipi di pubblico esistenti,
 * [Escludi](#exclude): escludere profili appartenenti a un pubblico esistente o escludere profili basati su attributi specifici,
-* [Arricchire]{#enrich}: arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati Adobe Experience Platform,
+* [Arricchire](#enrich): arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati Adobe Experience Platform,
 * [Classificazione](#rank): classificare i profili in base a un attributo specifico, specificare il numero di profili da mantenere e includerli nella composizione,
 * [Divisione](#split): dividi la composizione in più percorsi in base a percentuali casuali o su attributi.
 

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informativo"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 3%
@@ -39,11 +39,11 @@ Per creare un flusso di lavoro di composizione, effettua le seguenti operazioni:
 
 1. Seleziona **[!UICONTROL Componi pubblico]**.
 
+   ![](assets/audiences-create.png)
+
    >[!NOTE]
    >
    >La **[!UICONTROL Crea regola]** il metodo di creazione consente di creare una nuova definizione del segmento utilizzando [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
-
-   ![](assets/audiences-create.png)
 
 1. L’area di lavoro della composizione viene visualizzata con due attività predefinite:
 
