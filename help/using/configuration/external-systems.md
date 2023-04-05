@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limiti
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 65da82fd67442cfa2b5d45ec753fb3c5a86d4cc7
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 3%
+source-wordcount: '1201'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ Durante la configurazione di un’origine dati o di un’azione, stabilisci una 
 
 Le API dei percorsi supportano fino a 5000 eventi al secondo, ma alcuni sistemi o API esterni potrebbero non avere una velocità effettiva equivalente. Per evitare il sovraccarico di questi sistemi, puoi utilizzare il **Limitazione** e **Limitazione** API per limitare il numero di eventi inviati al secondo.
 
-Ogni volta che una chiamata API viene eseguita dai percorsi, passa attraverso il motore API. Se viene raggiunto il limite impostato nell’API, la chiamata viene rifiutata se utilizzi l’API di limitazione delle funzioni o viene messa in coda ed elaborata il prima possibile nell’ordine in cui sono state ricevute se utilizzi l’API di limitazione delle prestazioni.
+Ogni volta che una chiamata API viene eseguita dai percorsi, passa attraverso il motore API. Se viene raggiunto il limite impostato nell’API, la chiamata viene rifiutata se utilizzi l’API di limitazione delle funzioni, oppure viene messa in coda per un massimo di 6 ore ed elaborata il più presto possibile nell’ordine in cui sono stati ricevuti se utilizzi l’API di limitazione delle prestazioni.
 
 Ad esempio, supponiamo che tu abbia definito una regola di limitazione o limitazione di 100 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un&#39;azione personalizzata in 10 percorsi diversi. Se un percorso riceve 200 chiamate al secondo, utilizza i 100 slot disponibili ed elimina o mette in coda i 100 slot rimanenti. Poiché la tariffa massima è stata superata, gli altri 9 percorsi non avranno più alcuna slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e crash.
 

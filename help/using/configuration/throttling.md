@@ -6,9 +6,9 @@ description: Scopri come utilizzare l’API di limitazione
 role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limiti
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Questa sezione fornisce informazioni globali su come utilizzare l’API. Una des
 >È attualmente consentita una sola configurazione per organizzazione. Una configurazione deve essere definita su una sandbox di produzione (fornita tramite x-sandbox-name nelle intestazioni).
 >
 >Viene applicata una configurazione a livello di organizzazione.
+>
+>Al raggiungimento del limite impostato nell’API, altri eventi vengono messi in coda per un massimo di 6 ore. Impossibile modificare questo valore.
 
 ## Descrizione API di limitazione {#description}
 
