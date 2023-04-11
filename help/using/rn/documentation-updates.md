@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
 source-wordcount: '2518'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -22,12 +22,12 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Marzo 2023 {#march-2023}
 
-* Il dizionario dello schema Journey Optimizer è ora disponibile. Troverai l’elenco completo dei campi e degli attributi per ogni schema.  [Ulteriori informazioni](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
-* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 23 marzo è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Il dizionario dello schema di Journey Optimizer è ora disponibile. Troverai l’elenco completo dei campi e degli attributi per ogni schema.  [Ulteriori informazioni](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* Tutte le nuove funzioni e i miglioramenti apportati nella versione di marzo 2023 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stato aggiunto un passaggio per abilitare gli eventi di Adobe Analytics nei percorsi. [Ulteriori informazioni](../event/about-analytics.md)
 * Nella guida alla Gestione delle decisioni è stata creata una nuova sezione su come raccogliere feedback di offer decisioning in Adobe Experience Platform includendo quali offerte vengono visualizzate e come gli utenti interagiscono con esse. [Ulteriori informazioni](../offers/data-collection/data-collection.md)
-* È stata aggiunta una nuova sottosezione al **Crea decisione** per spiegare la differenza tra la valutazione dei criteri in ordine sequenziale o contemporaneamente. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* È stata aggiunta una guardrail per percorsi di segmenti di lettura con lettura incrementale. Non è possibile creare una nuova versione, è necessario duplicare il percorso. [Ulteriori informazioni](../start/guardrails.md#journey-versions-g)
+* È stata aggiunta una nuova sottosezione alla sezione **Crea decisione** per spiegare la differenza tra la valutazione dei criteri in ordine sequenziale o contemporaneamente. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* È stato aggiunto un guardrail per i percorsi di segmenti di lettura con lettura incrementale. Non puoi creare una nuova versione, è necessario duplicare il percorso. [Ulteriori informazioni](../start/guardrails.md#journey-versions-g)
 
 ## Febbraio 2023 {#feb-2023}
 
