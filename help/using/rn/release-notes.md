@@ -5,9 +5,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1540'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 ## Note sulla versione di marzo 2023 {#mar-2023}
 
-Le informazioni riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio. La documentazione aggiornata verrà pubblicata alla data di rilascio e in questa pagina verranno aggiunti collegamenti diretti.
+Le informazioni riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione. La documentazione aggiornata verrà pubblicata alla data di rilascio e in questa pagina verranno aggiunti i collegamenti diretti.
 
 
 ### Nuove funzionalità{#mar-2023-features}
@@ -65,7 +65,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 <table>
 <thead>
 <tr>
-<th><strong>Utilizzare i tag nei Percorsi (Beta)</strong><br/></th>
+<th><strong>Utilizzare i tag nei percorsi (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -83,9 +83,9 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 
 **Percorsi**
 
-* Il nuovo **API di limitazione** consente di impostare un limite al numero di eventi inviati al secondo, evitando picchi di traffico eccessivi sui sistemi esterni o sulle API. Al raggiungimento del limite impostato, tutte le chiamate API successive vengono messe in coda ed elaborate il prima possibile, nell’ordine in cui sono state ricevute. Questa funzione supporta una sola configurazione di limitazione per tutte le sandbox. [Ulteriori informazioni](../configuration/external-systems.md)
-* L’area di lavoro del Percorso è stata migliorata per un’esperienza utente più semplice e migliorata. Alla fine di ogni percorso nell&#39;area di lavoro, i portapacchi vuoti sono stati rimossi. Ora puoi semplicemente aggiungere le tue attività trascinandole alla fine di un percorso.
-* Nell’area di lavoro del percorso, l’etichetta della **Fine** non viene più impostato automaticamente con il nome dell’attività precedente. Se necessario, gli utenti possono aggiungere manualmente un’etichetta personalizzata.
+* La nuova **API di limitazione** consente di impostare un limite al numero di eventi inviati al secondo, evitando picchi di traffico eccessivi sui sistemi esterni o sulle API. Al raggiungimento del limite impostato, tutte le chiamate API successive vengono messe in coda ed elaborate il prima possibile, nell’ordine in cui sono state ricevute. Questa funzione supporta una sola configurazione di limitazione per tutte le sandbox. [Ulteriori informazioni](../configuration/external-systems.md)
+* L’area di lavoro del percorso è stata ottimizzata per un’esperienza utente più semplice e migliorata. Alla fine di ogni percorso nell’area di lavoro, i segnaposto vuoti sono stati rimossi. Ora puoi semplicemente aggiungere le attività trascinandole alla fine di un percorso.
+* Nell’area di lavoro del percorso, l’etichetta del tag **Fine** non viene più impostata automaticamente con il nome dell’attività precedente. Se necessario, gli utenti possono aggiungere manualmente un’etichetta personalizzata.
 * Il timeout predefinito e la durata dell’errore nelle proprietà del percorso sono stati modificati da 5 a 30 secondi. [Ulteriori informazioni](../configuration/external-systems.md#timeout)
 * Il tasso di limitazione predefinito nelle attività del segmento di lettura è stato modificato da 20.000 a 5.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
@@ -108,17 +108,17 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 
 * Puoi anche scegliere quale evento di Adobe Experience Platform deve essere considerato come limite di offer decisioning. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 
-* Nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
+* Nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Questi consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
 
 **Personalizzazione**
 
-* Ora puoi includere nell’editor espressioni il testo di fallback predefinito per gli attributi di profilo basati su stringhe. Questi valori verranno visualizzati se gli attributi selezionati non restituiscono alcun risultato. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#add)
+* Ora puoi includere nell’Editor espressioni il testo di fallback predefinito per gli attributi di profilo basati su stringhe. Questi valori verranno visualizzati se gli attributi selezionati non restituiscono alcun risultato. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#add)
 
 **Generazione rapporti**
 
-* La funzionalità dei widget di reporting è stata migliorata con la possibilità di personalizzare la visualizzazione dei dati da parte degli utenti. Con questo miglioramento, gli utenti possono ora scegliere tra più opzioni di visualizzazione, tra cui grafici a grafico, a tabella e ad anello.
+* La funzionalità dei widget di reporting è stata migliorata con la possibilità di personalizzare la visualizzazione dei dati da parte degli utenti. Con questo miglioramento, gli utenti possono ora scegliere tra più opzioni di visualizzazione, tra cui grafico, tabella e grafici ad anello.
 
-   Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione della dashboard, consulta la [documentazione dettagliata](../reports/global-report.md#modify-dashboard).
+   Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/global-report.md#modify-dashboard).
 
 ## Note sulla versione di febbraio 2023 {#feb-2023}
 
@@ -244,7 +244,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Gestione delle decisioni**
 
-* **Posizionamenti** - Nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
+* **Posizionamenti**: nella schermata di creazione dei posizionamenti sono stati aggiunti ulteriori parametri. Questi consentono di controllare se un’offerta può essere duplicata in più posizionamenti e di specificare se il contenuto e i metadati dell’offerta devono essere inclusi nella risposta API. [Ulteriori informazioni](../offers/offer-library/creating-placements.md)
 
 * **Personalizzazione URL**: quando aggiungi URL come contenuto alle rappresentazioni delle offerte, ora puoi personalizzare tali URL utilizzando l’editor espressioni. [Ulteriori informazioni](../offers/offer-library/add-representations.md)
 
