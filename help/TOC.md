@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -222,7 +222,7 @@ ht-degree: 98%
    + [Mostra l’anteprima e verifica gli SMS](using/sms/send-sms.md)
    + [Gestire la rinuncia agli SMS](using/sms/sms-opt-out.md)
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
-   + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
+   + [Configura i sottodomini SMS](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
    + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
@@ -443,7 +443,7 @@ ht-degree: 98%
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + Integrare con sistemi esterni {#external-systems}
          + [Integrazione dei percorsi con sistemi esterni](using/configuration/external-systems.md)
-         + [API di limitazione](using/configuration/capping.md)
+         + [API di limitazione di utilizzo](using/configuration/capping.md)
          + [API di limitazione](using/configuration/throttling.md)
       + Configurazione evento {#events-journeys}
          + [Principio generale](using/event/about-events.md)
