@@ -1,6 +1,6 @@
 ---
 title: Introduzione agli eventi di Gestione delle decisioni
-description: Scopri come creare rapporti di Gestione delle decisioni in Adobe Experience Platform.
+description: Scopri come creare rapporti di gestione delle decisioni in Adobe Experience Platform.
 feature: Offers
 topic: Integrations
 role: User
@@ -15,7 +15,7 @@ ht-degree: 56%
 
 # Introduzione agli eventi di gestione delle decisioni {#monitor-offer-events}
 
-Ogni volta che la gestione delle decisioni prende una decisione per un determinato profilo, le informazioni relative a tali eventi vengono inviate automaticamente a Adobe Experience Platform.
+Ogni volta che la gestione delle decisioni decide per un determinato profilo, le informazioni relative a tali eventi vengono inviate automaticamente a Adobe Experience Platform.
 
 Puoi quindi esportare questi dati per analizzarli nel tuo sistema di reporting. Puoi anche sfruttare Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) in combinazione con altri strumenti per migliorare le funzioni di analisi e reporting.
 
@@ -23,7 +23,7 @@ I set di dati contenenti eventi di gestione delle decisioni sono accessibili da 
 
 ![](../assets/events-datasets-list.png)
 
-Questi set di dati si basano su **[!UICONTROL ODE DecisionEvents]** schema, contenente tutti i campi XDM necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
+Questi set di dati sono basati su **[!UICONTROL Decisioni ODE]** schema, che contiene tutti i campi XDM necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
 
 >[!NOTE]
 >

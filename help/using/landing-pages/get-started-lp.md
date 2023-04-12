@@ -26,9 +26,9 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 
 * Sfruttamento [!DNL Journey Optimizer] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
 * Configurazione **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.
-* Creare elenchi di sottoscrizione per consentire agli utenti di **abbonamento a un servizio**. [Maggiori informazioni](lp-use-cases.md#subscription-to-a-service)
-* Fornisci ai destinatari **capacità di annullare l’iscrizione** dalla ricezione delle comunicazioni. [Maggiori informazioni](lp-use-cases.md#opt-out)
-* Invia un **e-mail di conferma** in caso di consenso o rinuncia. [Maggiori informazioni](lp-use-cases.md#send-confirmation-email)
+* Creare elenchi di sottoscrizione per consentire agli utenti di **abbonamento a un servizio**. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
+* Fornisci ai destinatari **capacità di annullare l’iscrizione** dalla ricezione delle comunicazioni. [Ulteriori informazioni](lp-use-cases.md#opt-out)
+* Invia un **e-mail di conferma** in caso di consenso o rinuncia. [Ulteriori informazioni](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

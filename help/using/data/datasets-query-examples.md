@@ -29,7 +29,7 @@ In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei 
 [Set di dati evento feedback CCN](#bcc-feedback-event-dataset)
 [Set di dati di entità](#entity-dataset)
 
-Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta la [Dizionario dello schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta la [Dizionario dello schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
 
 ## Set di dati evento esperienza tracciamento e-mail{#email-tracking-experience-event-dataset}
 

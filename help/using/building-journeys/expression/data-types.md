@@ -196,7 +196,7 @@ Formato di serializzazione: Formato data-ora offset esteso ISO-8601.
 
 Utilizza DateTimeForsubject ISO_OFFSET_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-È inoltre possibile passare un numero intero che passa un valore epoch. [Maggiori informazioni](https://www.epochconverter.com)
+È inoltre possibile passare un numero intero che passa un valore epoch. [Ulteriori informazioni](https://www.epochconverter.com)
 
 Il fuso orario può essere specificato da un codice di offset o di fuso orario (ad esempio: Europa/Parigi, Z - significato UTC).
 

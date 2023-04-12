@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informativo"
-source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1041'
 ht-degree: 8%
 
 ---
@@ -72,11 +72,6 @@ Affinché l&#39;esperienza web possa essere consegnata correttamente, è necessa
 >id="ajo_web_surface"
 >title="Definire una superficie web"
 >abstract="Una superficie web può corrispondere a uno o più URL di pagina, consentendoti di apportare modifiche al contenuto in una o più pagine web."
-
->[!CONTEXTUALHELP]
->id="ajo_web_surface_rule"
->title="Creare una regola di corrispondenza delle pagine"
->abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola, ad esempio, se desideri applicare le modifiche a un banner eroe in un intero sito web o aggiungere un’immagine superiore che viene visualizzata su tutte le pagine di prodotto di un sito web."
 
 Per iniziare a creare l’esperienza web tramite una campagna, segui i passaggi riportati di seguito.
 

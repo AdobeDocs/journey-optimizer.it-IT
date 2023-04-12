@@ -11,7 +11,7 @@ exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico amb
 
 >[!NOTE]
 >
->In Adobe viene conservato un elenco aggiornato degli indirizzi danneggiati noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Questo elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti di consegna è indicato solo il numero di destinatari esclusi.
+>In Adobe viene conservato un elenco aggiornato degli indirizzi danneggiati noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
 ## Perché una lista di soppressione? {#why-suppression-list}
 

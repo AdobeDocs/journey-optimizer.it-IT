@@ -1,5 +1,5 @@
 ---
-title: Rapporto web
+title: Rapporto Web
 description: Scopri come utilizzare i dati del rapporto web
 feature: Reporting, Web Channel
 topic: Content Management
@@ -16,11 +16,11 @@ ht-degree: 12%
 
 ---
 
-# Rapporto web {#web-report}
+# Rapporto Web {#web-report}
 
 >[!BEGINSHADEBOX]
 
-Informazioni disponibili in questa documentazione:
+Cosa troverai in questa documentazione:
 
 * [Introduzione al canale Web](get-started-web.md)
 * [Creare esperienze web](create-web.md)
@@ -30,9 +30,9 @@ Informazioni disponibili in questa documentazione:
 
 >[!ENDSHADEBOX]
 
-Il rapporto web è disponibile all’interno del rapporto della campagna.
+Il rapporto Web è disponibile nel rapporto Campaign.
 
-La pagina del rapporto della campagna verrà visualizzata con le seguenti schede:
+La pagina del rapporto Campaign verrà visualizzata con le seguenti schede:
 
 * [Campaign](../reports/campaign-global-report.md#campaign-live)
 * [E-mail](../reports/campaign-global-report.md#email-live)
@@ -40,18 +40,18 @@ La pagina del rapporto della campagna verrà visualizzata con le seguenti schede
 * [SMS](../reports/campaign-global-report.md#sms-live)
 * [Web](#web-tab)
 
-La campagna **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
+La campagna **[!UICONTROL Report globale]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
 
-Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](../reports/global-report.md#list-of-components-global.md)
+Per un elenco dettagliato di ciascuna metrica disponibile in Adobe Journey Optimizer, consulta [questa pagina](../reports/global-report.md#list-of-components-global.md)
 
 ## Scheda Web {#web-tab}
 
 ![](assets/web-report.png)
 
-Il **[!UICONTROL Prestazioni web]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
+La **[!UICONTROL Prestazioni web]** I KPI descrivono in dettaglio le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
 
-* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stata consegnata l’esperienza web.
+* **[!UICONTROL Impressioni univoche]**: numero di utenti univoci a cui è stata distribuita l’esperienza web.
 
-* **[!UICONTROL Impression]**: numero totale di esperienze web consegnate a tutti gli utenti.
+* **[!UICONTROL Impressioni]**: numero totale di esperienze web distribuite a tutti gli utenti.
 
-Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle tue esperienze web (impression e impressioni uniche) per il periodo in questione.
+La **[!UICONTROL Riepilogo web]** Il grafico mostra l’evoluzione delle esperienze web (impression e impression univoche) per il periodo in questione.

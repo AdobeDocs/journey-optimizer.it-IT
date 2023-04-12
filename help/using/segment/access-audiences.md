@@ -22,30 +22,30 @@ ht-degree: 11%
 
 >[!BEGINSHADEBOX]
 
-Informazioni disponibili in questa documentazione:
+Cosa troverai in questa documentazione:
 
 * [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* [Creare il primo flusso di lavoro di composizione](create-compositions.md)
+* [Crea il primo flusso di lavoro per la composizione](create-compositions.md)
 * [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
 * **[Accesso e gestione dei tipi di pubblico](access-audiences.md)**
 
 >[!ENDSHADEBOX]
 
-I tipi di pubblico risultanti dalla composizione del pubblico sono accessibili dalla sezione **[!UICONTROL Sfoglia]** scheda in **[!UICONTROL Segmenti]** menu.
+I tipi di pubblico risultanti dalla composizione del pubblico sono accessibili dal **[!UICONTROL Sfoglia]** nella scheda **[!UICONTROL Segmenti]** menu.
 
-Questa scheda elenca tutti i tipi di pubblico memorizzati in Adobe Experience Platform. I tipi di pubblico creati utilizzando composizioni di pubblico sono identificabili dall’ **[!UICONTROL Composizione del pubblico]** origine.
+In questa scheda vengono elencati tutti i tipi di pubblico archiviati in Adobe Experience Platform. I tipi di pubblico creati utilizzando le composizioni dei tipi di pubblico sono identificabili dalla **[!UICONTROL Composizione del pubblico]** origine.
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->Per questa versione beta, diversi componenti e/o metadati inizialmente visualizzati nell’inventario dei segmenti non vengono visualizzati in questa scheda (ad esempio, suddivisione, metodo di valutazione, ecc.).
+>Per questa versione beta, diversi componenti e/o metadati inizialmente visualizzati nell’inventario dei segmenti non vengono visualizzati in questa scheda (ad esempio suddivisione, metodo di valutazione, ecc.).
 >
->Per ulteriori informazioni su altri tipi di pubblico disponibili in Adobe Experience Platform, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>Per ulteriori informazioni sugli altri tipi di pubblico disponibili in Adobe Experience Platform, consulta la sezione [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
-Il **[!UICONTROL Conteggio profili]** fornisce informazioni sul numero di profili inclusi in un pubblico. Fare clic sul pulsante &quot;i&quot; per ulteriori informazioni sulla data di calcolo di queste informazioni.
+La **[!UICONTROL Numero di profili]** fornisce informazioni sul numero di profili inclusi in un pubblico. Fai clic sul pulsante &quot;i&quot; per ulteriori informazioni sulla data in cui queste informazioni sono state calcolate.
 
-Per assegnare etichette di utilizzo dei dati personalizzate o di base a un pubblico, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLE (Object Level Access Control)](../administration/object-based-access.md)
+Per assegnare etichette di utilizzo dati personalizzate o di base a un pubblico, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

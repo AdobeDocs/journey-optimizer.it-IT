@@ -59,6 +59,6 @@ Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da u
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e come utilizzare l’iscrizione a un segmento come condizione preliminare per un blocco di personalizzazione.
+Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e come utilizzare l’appartenenza a un segmento come condizione preliminare per un blocco di personalizzazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

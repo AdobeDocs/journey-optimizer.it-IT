@@ -20,7 +20,7 @@ ht-degree: 23%
 
 >[!BEGINSHADEBOX]
 
-Informazioni disponibili in questa documentazione:
+Cosa troverai in questa documentazione:
 
 * **[Introduzione al canale Web](get-started-web.md)**
 * [Creare esperienze web](create-web.md)
@@ -32,7 +32,7 @@ Informazioni disponibili in questa documentazione:
 
 >[!AVAILABILITY]
 >
->La funzione Canale web è attualmente disponibile come versione beta solo per alcuni utenti.
+>La funzione canale web è attualmente disponibile come versione beta solo per gli utenti selezionati.
 
 [!DNL Journey Optimizer] consente di creare visivamente e fornire esperienze web personalizzate ai clienti.
 
@@ -42,7 +42,7 @@ Se utilizzi già canali in uscita come e-mail, SMS o notifiche push, ora puoi sf
 >
 >Attualmente in [!DNL Journey Optimizer] puoi creare esperienze web solo utilizzando **campagne**.
 
-Grazie a un’interfaccia visiva intuitiva, questa funzionalità consente di modificare facilmente le proprietà web per sperimentare, ottimizzare e personalizzare le campagne degli utenti finali.
+Tramite un’interfaccia visiva intuitiva, questa funzionalità ti consente di modificare facilmente le proprietà web per sperimentare, ottimizzare e personalizzare le campagne degli utenti finali.
 
 <!--
 [Learn more on web channel in this video](#video)
