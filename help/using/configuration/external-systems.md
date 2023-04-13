@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limiti
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1202'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, le protezioni t
 
 1. Le regole di limitazione o limitazione vengono applicate: se viene raggiunto il tasso massimo, le chiamate rimanenti vengono scartate o messe in coda.
 
-2. Timeout e nuovo tentativo: se la regola di limite viene soddisfatta, Journey Optimizer tenta di eseguire la chiamata fino al raggiungimento della fine della durata di timeout.
+2. Timeout e nuovo tentativo: se la regola di limitazione o di limitazione è soddisfatta, Journey Optimizer tenta di eseguire la chiamata fino al raggiungimento della fine della durata di timeout.
 
 ## API di limitazione e limitazione {#capping}
 
