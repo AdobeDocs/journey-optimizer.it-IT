@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: pubblicazione, percorso, live, validità, controllo
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 8%
+source-wordcount: '242'
+ht-degree: 7%
 
 ---
 
@@ -32,6 +32,10 @@ Se si interrompe un percorso, questo verrà interrotto definitivamente. Tutte le
    ![](assets/journeyuc1_18.png)
 
 Quando il percorso viene pubblicato, è in modalità di sola lettura.
+
+>[!IMPORTANT]
+>
+>Se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo.  In questo modo le modifiche verranno incorporate nel messaggio del percorso e il messaggio sarà coerente con gli ultimi aggiornamenti.
 
 ## Video introduttivo {#video}
 

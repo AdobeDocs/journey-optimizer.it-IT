@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 3%
+source-wordcount: '1449'
+ht-degree: 2%
 
 ---
 
@@ -184,6 +184,10 @@ Dall’elenco delle decisioni, puoi selezionare la decisione di visualizzarne le
 ![](../assets/decision_created.png)
 
 Seleziona la **[!UICONTROL Modifica]** pulsante per tornare alla modalità di modifica della decisione, in cui è possibile modificare la [dettagli](#create-activity), [ambiti decisionali](#add-decision-scopes) e [offerta di fallback](#add-fallback).
+
+>[!IMPORTANT]
+>
+>Se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo.  In questo modo le modifiche verranno incorporate nel messaggio del percorso e il messaggio sarà coerente con gli ultimi aggiornamenti.
 
 Seleziona una decisione dal vivo e fai clic su **[!UICONTROL Disattiva]** per ripristinare lo stato della decisione su **[!UICONTROL Bozza]**.
 

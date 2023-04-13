@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: offerte, decisioni, e-mail, personalizzazione, decisione
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 1%
+source-wordcount: '639'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,12 @@ In [!DNL Journey Optimizer] e-mail, puoi inserire decisioni che sfruttano il mot
 
 Ad esempio, puoi aggiungere una decisione che visualizzerà nell’e-mail un’offerta di sconto speciale che varia a seconda del livello di fedeltà del destinatario.
 
-Per ulteriori informazioni su come creare e gestire le offerte, consulta [questa sezione](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>Se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo.  In questo modo le modifiche verranno incorporate nel messaggio del percorso e il messaggio sarà coerente con gli ultimi aggiornamenti.
 
-Per **esempio completo** mostrando come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un’e-mail, consulta [questa sezione](../offers/offers-e2e.md#insert-decision-in-email).
+* Per ulteriori informazioni su come creare e gestire le offerte, consulta [questa sezione](../offers/get-started/starting-offer-decisioning.md).
+* Per **esempio completo** mostrando come configurare le offerte, utilizzale in una decisione e sfrutta questa decisione in un’e-mail, consulta [questa sezione](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [Scopri come aggiungere le offerte come personalizzazione in questo video](#video-offers)
 

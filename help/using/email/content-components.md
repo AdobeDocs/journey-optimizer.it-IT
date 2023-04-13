@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: componenti, finestra di progettazione e-mail, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 75%
+source-wordcount: '1223'
+ht-degree: 72%
 
 ---
 
@@ -197,3 +197,6 @@ Utilizza la **[!UICONTROL Decisione di offerta]** per inserire offerte nei messa
 
 Scopri come aggiungere offerte personalizzate a un’e-mail in [questa sezione](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>Se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo.  In questo modo le modifiche verranno incorporate nel messaggio del percorso e il messaggio sarà coerente con gli ultimi aggiornamenti.
