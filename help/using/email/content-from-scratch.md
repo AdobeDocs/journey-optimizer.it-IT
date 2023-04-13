@@ -1,74 +1,74 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare e-mail in Journey Optimizer
-description: Scopri come creare contenuti e-mail da zero
+title: Progettazione di contenuti da zero in Journey Optimizer
+description: Scopri come progettare i contenuti da zero
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 keywords: contenuto, editor, e-mail, avvio
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 65%
+source-wordcount: '637'
+ht-degree: 27%
 
 ---
 
-# Inizia da zero {#content-from-scratch}
+# Progettazione di contenuti da zero {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura definiscono il layout del messaggio e-mail."
+>title="Aggiungi componenti struttura"
+>abstract="I componenti struttura definiscono il layout del messaggio e-mail. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto delle e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura definiscono il layout della pagina di destinazione."
+>title="Aggiungi componenti struttura"
+>abstract="I componenti struttura definiscono il layout della pagina di destinazione. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto della pagina di destinazione."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura definiscono il layout del frammento."
+>title="Aggiungi componenti struttura"
+>abstract="I componenti struttura definiscono il layout del frammento. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto del frammento."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Informazioni sui componenti struttura"
->abstract="I componenti struttura definiscono il layout del modello."
+>title="Aggiungi componenti struttura"
+>abstract="I componenti struttura definiscono il layout del modello. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto del modello."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Definizione delle colonne nell’e-mail"
->abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail definendone la struttura a colonne."
+>title="Definire le colonne e-mail"
+>abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail selezionando la struttura a colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definizione delle colonne nella pagina di destinazione"
->abstract="E-mail Designer consente di definire facilmente il layout della pagina di destinazione definendone la struttura a colonne."
+>title="Definire le colonne della pagina di destinazione"
+>abstract="Designer consente di definire facilmente il layout della pagina di destinazione selezionando la struttura delle colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Definizione delle colonne in un frammento"
->abstract="E-mail Designer consente di definire facilmente il layout del frammento definendone la struttura a colonne."
+>title="Definire le colonne di un frammento"
+>abstract="Designer consente di definire facilmente il layout del frammento selezionando la struttura delle colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Definizione delle colonne nei modelli"
->abstract="E-mail Designer consente di definire facilmente il layout del modello definendone la struttura a colonne."
+>title="Definire le colonne dei modelli"
+>abstract="Designer consente di definire facilmente il layout del modello selezionando la struttura delle colonne."
 
 
-E-mail Designer consente di definire facilmente la struttura delle e-mail. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del messaggio e-mail in pochi secondi.
+Utilizza Adobe Journey Optimizer Designer per definire facilmente la struttura dei contenuti. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del contenuto in pochi secondi.
 
-Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
+Per iniziare a creare il contenuto delle , segui i passaggi seguenti:
 
-1. Dalla pagina home di E-mail Designer, seleziona l’opzione **[!UICONTROL Progetta da zero]**.
+1. Dalla pagina home di Designer, seleziona l’opzione **[!UICONTROL Progetta da zero]**.
 
    ![](assets/email_designer.png)
 
-1. Per iniziare a progettare il contenuto delle e-mail, trascina nell’area di lavoro i **[!UICONTROL componenti struttura]** necessari per definire il layout del messaggio e-mail.
+1. Inizia a progettare il contenuto trascinandolo e rilasciandolo **[!UICONTROL Strutture]** nell’area di lavoro per definire il layout del messaggio e-mail.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Aggiungi tutti i **[!UICONTROL componenti struttura]** necessari e modificane le impostazioni nel riquadro dedicato a destra.
+1. Aggiungi tutti **[!UICONTROL Strutture]** in base alle esigenze e modifica le impostazioni nel riquadro dedicato a destra.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -86,7 +86,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
    >
    >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
 
-1. Da **[!UICONTROL Componenti contenuto]** aggiungi tutti gli elementi necessari in uno o più componenti struttura. [Ulteriori informazioni sui componenti contenuto](content-components.md)
+1. Espandi la **[!UICONTROL Contenuto]** e aggiungi tutti gli elementi necessari in uno o più componenti struttura. [Ulteriori informazioni sui componenti contenuto](content-components.md)
 
 1. Ogni componente può essere ulteriormente personalizzato utilizzando **[!UICONTROL Impostazioni]** o **[!UICONTROL Stile]** nel menu a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
@@ -98,7 +98,7 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Inserisci campi di personalizzazione per personalizzare il contenuto delle e-mail in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
+1. Inserisci campi di personalizzazione per personalizzare il contenuto dagli attributi dei profili, dalle appartenenze ai segmenti, dagli attributi contestuali e altro ancora. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,21 +106,21 @@ Per iniziare a creare il contenuto delle e-mail, segui i passaggi seguenti:
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento dei messaggi](message-tracking.md)
+1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** scheda dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare le **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni sui collegamenti e il tracciamento](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Puoi personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** dal menu avanzato. [Ulteriori informazioni sull’editor di codice](code-content.md)
+1. Se necessario, puoi personalizzare ulteriormente il contenuto facendo clic su **[!UICONTROL Passa all’editor di codice]** dall&#39;alto **Altro** pulsante . [Ulteriori informazioni sull’editor di codice](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 
    >[!CAUTION]
    >
-   >Dopo il passaggio all’editor di codice, non potrai tornare alla finestra di progettazione visiva per questa e-mail.
+   >Non è possibile tornare alla finestra di progettazione visiva per questo contenuto dopo il passaggio all’editor di codice.
 
-1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Simula contenuto]** per verificare il rendering dell’e-mail. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. [Ulteriori informazioni sull’anteprima del messaggio e-mail](preview.md)
+1. Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. [Ulteriori informazioni sull’anteprima del messaggio e-mail](preview.md)
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Quando l’e-mail è pronta, fai clic su **[!UICONTROL Salva]**.
+1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Salva]**.
 
