@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '152'
 ht-degree: 17%
 
 ---
@@ -26,7 +26,7 @@ Utilizzo [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 Puoi creare le consegne e-mail:
 
-* In una **Percorso**: una volta aggiunto un **[!UICONTROL E-mail]** attività al percorso e impostazioni di base definite, utilizza le **[!UICONTROL Azioni: E-mail]** riquadro a destra per creare il contenuto per il messaggio SMS.
+* In una **Percorso**: una volta aggiunto un **[!UICONTROL E-mail]** attività al percorso e impostazioni di base definite, utilizza le **[!UICONTROL Azioni: E-mail]** riquadro a destra per creare il contenuto del messaggio.
 
    Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
 
