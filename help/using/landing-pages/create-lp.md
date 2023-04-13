@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 2%
@@ -209,15 +209,15 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 >
 >Per visualizzare l’anteprima dei messaggi e inviare le bozze, devi disporre dei profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
 
-1. Nell’interfaccia della pagina di destinazione, fai clic sul pulsante **[!UICONTROL Anteprima e test]** per accedere alla selezione del profilo di test.
+1. Nell’interfaccia della pagina di destinazione, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per accedere alla selezione del profilo di test.
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Anteprima]** accessibile anche dal designer del contenuto.
+   >La **[!UICONTROL Simulazione del contenuto]** accessibile anche dal designer del contenuto.
 
-1. Da **[!UICONTROL Anteprima e test]** seleziona uno o più profili di test.
+1. Da **[!UICONTROL Simula]** seleziona uno o più profili di test.
 
    ![](assets/lp_test-profiles.png)
 

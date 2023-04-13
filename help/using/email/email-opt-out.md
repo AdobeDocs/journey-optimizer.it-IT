@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, collegamento, annullamento dell’abbonamento
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 82%
@@ -132,14 +132,6 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
 
    ![](assets/message-tracking-opt-out.png)
 
-1. Seleziona la modalità di applicazione della rinuncia: a livello di canale, identità o iscrizione.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Canale]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia viene applicata a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
-   * **[!UICONTROL Identità]**: la rinuncia viene applicata ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
-   * **[!UICONTROL Iscrizione]**: la rinuncia viene applicata ai messaggi futuri associati a un elenco iscrizioni specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
-
 1. Immetti l’URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullata l’iscrizione. Questa pagina è disponibile solo per confermare che la rinuncia è stata eseguita correttamente.
 
    >[!NOTE]
@@ -149,6 +141,14 @@ Per aggiungere un collegamento di rinuncia all’e-mail, segui la procedura segu
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md).
+
+1. Seleziona la modalità di applicazione della rinuncia: a livello di canale, identità o iscrizione.
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Canale]**: la rinuncia si applica ai messaggi futuri inviati alla destinazione del profilo (ad esempio l’indirizzo e-mail) per il canale corrente. Se a un profilo sono associate più destinazioni, la rinuncia viene applicata a tutte le destinazioni (ad esempio gli indirizzi e-mail) nel profilo di quel canale.
+   * **[!UICONTROL Identità]**: la rinuncia viene applicata ai messaggi futuri inviati alla destinazione specifica (ad esempio l’indirizzo e-mail) utilizzata per il messaggio corrente.
+   * **[!UICONTROL Iscrizione]**: la rinuncia viene applicata ai messaggi futuri associati a un elenco iscrizioni specifico. Questa opzione può essere selezionata solo se il messaggio corrente è associato a un elenco di abbonamenti.
 
 1. Salva le modifiche.
 

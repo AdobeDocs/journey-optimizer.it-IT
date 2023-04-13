@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: preintestazione, editor, riepilogo, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 95%
+source-wordcount: '197'
+ht-degree: 86%
 
 ---
 
@@ -39,13 +39,9 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body.png)
 
-1. Da **[!UICONTROL Impostazioni corpo]** nel riquadro a destra, fai clic sull’icona di modifica accanto al campo **[!UICONTROL Preintestazione]** per aggiungere il testo desiderato.
+1. Da **[!UICONTROL Impostazioni]** , fai clic sull’icona di personalizzazione accanto alla **[!UICONTROL Preintestazione]** campo per aggiungere contenuto.
 
    ![](assets/preheader_body_settings.png)
-
-1. Aggiungi la preintestazione. Puoi personalizzarla ulteriormente facendo clic sull’icona **[!UICONTROL Aggiungi personalizzazione]**.
-
-   ![](assets/preheader_3.png)
 
 1. Nella finestra **[!UICONTROL Modifica personalizzazione]** è possibile aggiungere un **[!UICONTROL Blocco di contenuto]**, **[!UICONTROL Contenuto dinamico]** o dei **[!UICONTROL Campi di personalizzazione]**.
 

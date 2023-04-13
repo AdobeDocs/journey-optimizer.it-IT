@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 8%
@@ -31,9 +31,7 @@ Per accedere alle espressioni salvate, fai clic sul pulsante **[!UICONTROL Libre
 
 >[!NOTE]
 >
->Puoi utilizzare il pulsante info per ottenere ulteriori informazioni sul contenuto di un’espressione salvata. Se disponi delle autorizzazioni appropriate per gestire gli elementi della libreria, il pulsante informazioni verrà visualizzato nel menu ellisse.
-
-![](assets/library-list.png)
+>Per ulteriori informazioni sul contenuto di un’espressione salvata, fare clic sul pulsante con i puntini di sospensione. Tieni presente che il pulsante informazioni verrà visualizzato nei puntini di sospensione se disponi delle autorizzazioni appropriate per gestire gli elementi della libreria.
 
 Fai clic sul segno + per inserire l’espressione nell’editor. Puoi quindi personalizzare e convalidare il contenuto di personalizzazione come di consueto. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 

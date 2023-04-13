@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: offerte, decisioni, e-mail, personalizzazione, decisione
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -73,15 +73,13 @@ Dopo aver salvato le modifiche, le offerte sono pronte per essere visualizzate n
 
 ## Anteprima delle offerte in un messaggio e-mail {#preview-offers-in-email}
 
-Puoi visualizzare in anteprima le diverse offerte che fanno parte della decisione aggiunta all’e-mail utilizzando **[!UICONTROL Offerte]** o le frecce dei componenti di contenuto.
+Puoi visualizzare in anteprima le diverse offerte che fanno parte della decisione aggiunta all’e-mail utilizzando **[!UICONTROL Offerta]** o le frecce dei componenti di contenuto.
 
 ![](assets/deliver-offer-preview.png)
 
 Per visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente, segui la procedura seguente.
 
-1. Fai clic su **[!UICONTROL Anteprima]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. Fai clic sul pulsante **[!UICONTROL Pulsante Simula contenuto]** pulsante .
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ Ulteriori informazioni sui passaggi dettagliati per controllare l’anteprima de
 Scopri come aggiungere un componente di gestione delle decisioni ai messaggi in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landing, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1324'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    >[!NOTE]
    >
-   >Passa alla **[!UICONTROL Stile del modulo]** in qualsiasi momento per modificare gli stili del contenuto del componente modulo. [Ulteriori informazioni](#define-lp-styles)
+   >Passa alla **[!UICONTROL Stili]** in qualsiasi momento per modificare gli stili del contenuto del componente modulo. [Ulteriori informazioni](#define-lp-styles)
 
 1. Da **[!UICONTROL Casella di controllo 1]** Puoi modificare l’etichetta corrispondente a questa casella di controllo.
 
@@ -83,7 +83,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    * **[!UICONTROL Lista di sottoscrizione]**: Seleziona l’elenco di sottoscrizioni da aggiornare se il profilo seleziona questa casella di controllo. Ulteriori informazioni su [elenchi di abbonamenti](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canale (e-mail)]**: L&#39;opt-in o l&#39;opt-out si applica all&#39;intero canale. Ad esempio, se un profilo che effettua la rinuncia ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi da tutte le tue comunicazioni.
 
@@ -136,21 +136,25 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
 ## Definire gli stili del modulo della pagina di destinazione {#lp-form-styles}
 
-1. Per modificare gli stili del contenuto del componente modulo, passare in qualsiasi momento al **[!UICONTROL Stile del modulo]** scheda .
+1. Per modificare gli stili del contenuto del componente modulo, passare in qualsiasi momento al **[!UICONTROL Stile]** scheda .
 
    ![](assets/lp_designer-form-style.png)
 
-1. Espandi la **[!UICONTROL Caselle di controllo]** per definire l’aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile modificare la famiglia o la dimensione del font e il colore del bordo della casella di controllo.
+1. La **[!UICONTROL Campi]** La sezione viene espansa per impostazione predefinita e consente di modificare l’aspetto del campo di testo, ad esempio l’etichetta e il font segnaposto, la posizione dell’etichetta, il colore dello sfondo del campo o il bordo del campo.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. Espandi la **[!UICONTROL Caselle di controllo]** per definire l’aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile modificare la famiglia o la dimensione del font oppure il colore del bordo della casella di controllo.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Espandi la **[!UICONTROL Pulsanti]** per modificare l’aspetto del pulsante nel modulo del componente. Ad esempio, è possibile aggiungere un bordo, modificare il colore dell’etichetta al passaggio del mouse o regolare l’allineamento del pulsante.
+1. Espandi la **[!UICONTROL Pulsanti]** per modificare l’aspetto del pulsante nel modulo del componente. Ad esempio, è possibile modificare il font, aggiungere un bordo, modificare il colore dell’etichetta al passaggio del mouse o regolare l’allineamento del pulsante.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Puoi visualizzare in anteprima alcune delle impostazioni, ad esempio il colore dell’etichetta del pulsante al passaggio del mouse utilizzando **[!UICONTROL Anteprima]** pulsante . Ulteriori informazioni sul test delle pagine di destinazione [qui](create-lp.md#test-landing-page).
+   Puoi visualizzare in anteprima alcune delle impostazioni, ad esempio il colore dell’etichetta del pulsante al passaggio del mouse utilizzando **[!UICONTROL Simulazione del contenuto]** pulsante . Ulteriori informazioni sul test delle pagine di destinazione [qui](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Espandi la **[!UICONTROL Layout del modulo]** per modificare le impostazioni di layout, ad esempio il colore di sfondo, la spaziatura o il margine.
 
@@ -194,11 +198,15 @@ A questo scopo, segui i passaggi riportati qui sotto:
 
 1. Salva le modifiche.
 
+Ora quando gli utenti selezionano una delle caselle di controllo,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Ora, quando gli utenti selezionano una delle caselle di controllo, all’invio del modulo viene visualizzato il messaggio corrispondente alla casella di controllo selezionata.
+all’invio del modulo viene visualizzato il messaggio corrispondente alla casella di controllo selezionata.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

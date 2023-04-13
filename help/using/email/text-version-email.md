@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: testo, e-mail, versione, semplice, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 80%
+ht-degree: 75%
 
 ---
 
@@ -24,7 +24,7 @@ Per impostazione predefinita, E-mail Designer crea una versione **[!UICONTROL Te
 
 Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
 
-1. Dal messaggio e-mail, seleziona la scheda **[!UICONTROL Testo normale]**.
+1. Dal messaggio e-mail, seleziona la **[!UICONTROL Testo normale]** icona.
 
    ![](assets/text_version_3.png)
 

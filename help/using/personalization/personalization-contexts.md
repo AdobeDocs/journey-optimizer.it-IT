@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, contesto, personalizzazione
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '283'
 ht-degree: 21%
 
 ---
@@ -32,7 +32,7 @@ Quando crei un messaggio e-mail, puoi aggiungere la personalizzazione nel **[!UI
 
 Nella finestra di progettazione e-mail puoi personalizzare il contenuto:
 
-* In **message**: fai clic all’interno di un blocco di testo, fai clic sul pulsante **Personalizza** dalla barra degli strumenti contestuale e seleziona **Inserisci personalizzazione** campo . Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta la sezione [sezione](../email/get-started-email-design.md).
+* In **message**: fai clic all’interno di un blocco di testo, fai clic sul pulsante **Aggiungi personalizzazione** dalla barra degli strumenti contestuale. Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta la sezione [sezione](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

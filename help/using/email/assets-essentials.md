@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: risorse, elementi essenziali, experience manager, integrazione
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '468'
 ht-degree: 9%
 
 ---
@@ -57,29 +57,23 @@ Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione
 
 1. Da **[!UICONTROL Caricare file]**, fai clic su **[!UICONTROL Sfoglia]** e scegliere se si desidera **[!UICONTROL Sfoglia file]** o **[!UICONTROL Sfoglia cartelle]**.
 
-   ![](assets/media_library_3.png)
+1. Seleziona il file da caricare. Al termine, fai clic su **[!UICONTROL Carica]**. Per ulteriori informazioni su come gestire le risorse, consulta questo articolo [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Seleziona il file da caricare. Al termine, fai clic su **[!UICONTROL Carica]**.
-
-   Per ulteriori informazioni su come gestire le risorse, consulta questo articolo [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. Una volta caricata la risorsa, puoi inserire le risorse in uno dei messaggi tramite E-mail Designer.
-
-   È inoltre possibile modificare ulteriormente la risorsa con **Modifica** modalità [!DNL Assets Essentials]. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. Per modificare ulteriormente le risorse con Adobe Photoshop Express, fai doppio clic su di esse. Quindi, dal menu di destra, seleziona la **[!UICONTROL Modalità Modifica]** icona. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. Da [!DNL Adobe Journey Optimizer], seleziona **[!UICONTROL Selettore risorse]** nel riquadro a sinistra della finestra di progettazione e-mail.
+1. Da [!DNL Adobe Journey Optimizer], seleziona **[!UICONTROL Selettore risorse]** dal riquadro a sinistra della finestra di progettazione e-mail.
 
    ![](assets/media_library_5.png)
 
-1. Seleziona la tua **[!UICONTROL Risorse]** cartella. Puoi anche cercare la risorsa o la cartella nella barra di ricerca.
+1. Seleziona il creato in precedenza **[!UICONTROL Risorse]** cartella. Puoi anche cercare la risorsa o la cartella nella barra di ricerca.
 
 1. Trascina e rilascia la risorsa nel contenuto dell’e-mail.
 
    ![](assets/media_library_6.png)
 
-1. Puoi personalizzare ulteriormente le tue risorse, ad esempio aggiungendo un collegamento esterno o un testo utilizzando **[!UICONTROL Impostazioni dei componenti]**. [Ulteriori informazioni sulle impostazioni dei componenti](content-components.md)
+1. Puoi personalizzare ulteriormente le tue risorse, ad esempio aggiungendo un collegamento esterno o un testo utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede. [Ulteriori informazioni sulle impostazioni dei componenti](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: collegamenti, tracking, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 51%
@@ -73,8 +73,6 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * **[!UICONTROL Pagina speculare]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
 
-   ![](assets/message-tracking-links.png)
-
 1. Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md#perso-urls).
 
 1. Salva le modifiche.
@@ -121,8 +119,6 @@ Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo tale rita
    Questo elenco consente di avere una visualizzazione centralizzata e di individuare ogni URL nel contenuto dell’e-mail.
 
 1. Per modificare un collegamento, fai clic sull’icona a forma di matita corrispondente.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. Se necessario, puoi modificare il **[!UICONTROL Tipo di tracciamento]**:
 

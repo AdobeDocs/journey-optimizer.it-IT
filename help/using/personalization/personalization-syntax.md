@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 9%
@@ -159,7 +159,7 @@ Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio agg
 1. Crea un collegamento nel contenuto del messaggio. [Ulteriori informazioni](../email/message-tracking.md#insert-links)
 1. Seleziona gli attributi dall’icona di personalizzazione. L’icona di personalizzazione è disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

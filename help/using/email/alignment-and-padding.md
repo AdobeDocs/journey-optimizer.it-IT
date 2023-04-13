@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: allineamento verticale, editor e-mail, spaziatura
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 22%
+source-wordcount: '148'
+ht-degree: 17%
 
 ---
 
@@ -22,23 +22,19 @@ In questo esempio, regoleremo la spaziatura e l’allineamento verticale all’i
 
 1. Seleziona il componente struttura direttamente nel messaggio e-mail o utilizza il **[!UICONTROL Struttura di navigazione]** disponibile nel menu a sinistra.
 
-   ![](assets/alignment_1.png)
-
 1. Dalla barra degli strumenti, fai clic su **[!UICONTROL Selezionare una colonna]** e scegli quello da modificare. È inoltre possibile selezionarlo dalla struttura ad albero.
 
-   I parametri modificabili per quella colonna vengono visualizzati nella **[!UICONTROL Impostazioni colonna]** menu.
+   I parametri modificabili per quella colonna vengono visualizzati nella **[!UICONTROL Stili]** scheda .
 
    ![](assets/alignment_2.png)
 
-1. Sotto **[!UICONTROL Allineamento verticale]**, seleziona **[!UICONTROL In basso]**.
-
-   Il componente contenuto viene posizionato nella parte inferiore della colonna.
+1. Sotto **[!UICONTROL Allineamento]**, seleziona **[!UICONTROL Top]**, **[!UICONTROL Medio]** o **[!UICONTROL In basso]**.
 
    ![](assets/alignment_3.png)
 
-1. Sotto **[!UICONTROL Spaziatura]**, definisci la spaziatura superiore all’interno della colonna. Fai clic sull’icona Blocca per interrompere la sincronizzazione con la spaziatura inferiore.
+1. Sotto **[!UICONTROL Spaziatura]**, definisci la spaziatura per tutto il lato.
 
-   Definisci la spaziatura sinistra e destra per la colonna.
+   Seleziona **[!UICONTROL Spaziatura diversa per ciascun lato]** per ottimizzare la spaziatura. Fare clic sull&#39;icona Blocca per interrompere la sincronizzazione.
 
    ![](assets/alignment_4.png)
 
