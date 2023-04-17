@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informativo"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '411'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,10 @@ Per creare un flusso di lavoro di composizione, effettua le seguenti operazioni:
    ![](assets/audiences-publish.png)
 
 1. Una volta che la composizione è pronta, fai clic sul pulsante **[!UICONTROL Pubblica]** per pubblicare la composizione e salvare i tipi di pubblico risultanti in Adobe Experience Platform.
+
+   >[!IMPORTANT]
+   >
+   >Puoi pubblicare fino a 75 composizioni in una data sandbox. Se hai raggiunto questa soglia, devi eliminare una composizione per liberare spazio e pubblicarne una nuova.
 
    Se si verifica un errore durante la pubblicazione, gli avvisi contengono informazioni su come risolvere il problema.
 
