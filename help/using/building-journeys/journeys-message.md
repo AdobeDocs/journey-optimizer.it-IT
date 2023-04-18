@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: percorso, messaggio, push, sms, e-mail
+keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 5%
+source-wordcount: '864'
+ht-degree: 2%
 
 ---
 
-# Messaggi e-mail, SMS e push{#add-a-message-in-a-journey}
+# E-mail, In-app, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] include funzionalità integrate per messaggi. Puoi semplicemente aggiungere, nel tuo percorso, un’attività push, SMS o e-mail e definire impostazioni e contenuto. Viene quindi eseguito e inviato nel contesto del percorso.
+[!DNL Journey Optimizer] include funzionalità integrate per messaggi. Puoi semplicemente aggiungere, nel tuo percorso, un push, un SMS, un’attività in-app o un messaggio e-mail e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso.
 
 Puoi anche impostare azioni specifiche per l’invio dei messaggi:
 
@@ -33,7 +33,7 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
 
 1. Inizia il tuo percorso con un [Evento](general-events.md) o un’attività [Leggi segmento](read-segment.md).
 
-1. Dalla sezione **Azioni** della palette, trascina un’attività **E-mail**, **SMS** o **Push** nell’area di lavoro.
+1. Da **Azioni** sezione della palette, trascinare e rilasciare un **email**, un **In-app**, un **SMS** o **Push** nell’area di lavoro.
 
 1. Configura l’attività. Scopri i passaggi dettagliati per la creazione del contenuto del messaggio nelle pagine seguenti:
 
@@ -44,6 +44,14 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
    <img alt="Lead" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>Creare le e-mail</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>Creare messaggi in-app</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
 
 ## Aggiornare il contenuto live{#update-live-content}
 
-Puoi aggiornare il contenuto di un messaggio (e-mail, sms, push) in un percorso live.
+Puoi aggiornare il contenuto di un messaggio (e-mail, in-app, push, SMS) in un percorso live.
 
 A questo scopo, apri il percorso live, seleziona l’attività messaggio e fai clic su **Modifica contenuto**.
 
 ![](assets/add-a-message2.png)
 
 Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o percorso).
+
+Per l’attività in-app, è possibile apportare eventuali modifiche al contenuto mentre il percorso è attivo, ma gli attivatori in-app non possono essere modificati.
 
 ## Ottimizzazione dei tempi di invio{#send-time-optimization}
 

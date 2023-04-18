@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, avvio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,55 @@ ht-degree: 4%
 
 I messaggi in-app vengono creati nel contesto di una campagna.
 
-Per creare un messaggio in-app, segui i passaggi seguenti:
+>[!BEGINTABS]
+
+>[!TAB Aggiungere un messaggio in-app a un percorso]
+
+>[!AVAILABILITY]
+>
+>L’attività in-app è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+
+1. Apri il percorso, quindi trascina e rilascia una **[!UICONTROL In-app]** attività dal **[!UICONTROL Azioni]** della palette.
+
+   Quando un profilo raggiunge la fine del percorso, tutti i messaggi in-app visualizzati scadranno automaticamente. Per questo motivo, dopo l’attività in-app viene aggiunta automaticamente un’attività Attendi per garantire la corretta tempistica.
+
+   ![](assets/in_app_journey_1.png)
+
+1. Inserisci un **[!UICONTROL Etichetta]** e **[!UICONTROL Descrizione]** per il tuo messaggio.
+
+1. Scegli la [Superficie in-app](inapp-configuration.md) da utilizzare.
+
+   ![](assets/in_app_journey_2.png)
+
+1. Ora puoi iniziare a progettare i contenuti con **[!UICONTROL Modifica contenuto]** pulsante . [Ulteriori informazioni](design-in-app.md)
+
+1. Fai clic su **[!UICONTROL Modifica trigger]** per configurare il trigger.
+
+   ![](assets/in_app_journey_4.png)
+
+1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
+
+   * **[!UICONTROL Mostra ogni volta]**: Mostra sempre il messaggio quando gli eventi selezionati nella **[!UICONTROL Attivazione app mobile]** si verificano a discesa.
+   * **[!UICONTROL Mostra una volta]**: Mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivazione app mobile]** si verificano a discesa.
+   * **[!UICONTROL Mostra fino a click-through]**: Mostra questo messaggio quando gli eventi selezionati nella **[!UICONTROL Attivazione app mobile]** si verifica fino a quando un evento interattivo non viene inviato dall&#39;SDK con un&#39;azione di &quot;clic&quot;.
+
+1. Da **[!UICONTROL Attivazione app mobile]** a discesa, scegli gli eventi e i criteri che attiveranno il messaggio:
+
+   1. Dall’elenco a discesa a sinistra, seleziona l’evento necessario per attivare il messaggio.
+   1. Dall’elenco a discesa a destra, seleziona la convalida richiesta per l’evento selezionato.
+   1. Fai clic sul pulsante **[!UICONTROL Aggiungi]** se desideri che il trigger consideri più eventi o criteri. Quindi, ripeti i passaggi precedenti.
+   1. Seleziona il collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** trigger impostati su true per mostrare o scegliere un messaggio **[!UICONTROL Oppure]** se desideri che il messaggio venga visualizzato se **o** dei trigger sono true.
+   1. Fai clic su **[!UICONTROL Salva]** quando i trigger sono stati configurati.
+
+   ![](assets/in_app_journey_3.png)
+
+1. Se necessario, completa il flusso di percorso trascinando e rilasciando azioni o eventi aggiuntivi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+
+1. Quando il messaggio in-app è pronto, finalizza la configurazione e pubblica il percorso per attivarla.
+
+Per ulteriori informazioni su come configurare un percorso, consulta [questa pagina](../building-journeys/journey-gs.md).
+
+>[!TAB Aggiungere un messaggio in-app a una campagna]
 
 1. Accedere al **[!UICONTROL Campagne]** menu, quindi fai clic su **[!UICONTROL Creare una campagna]**.
 
@@ -65,6 +113,7 @@ Per creare un messaggio in-app, segui i passaggi seguenti:
 
    ![](assets/in_app_create_4.png)
 
+>[!ENDTABS]
 
 ## Video introduttivo{#video}
 

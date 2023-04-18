@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, avvio
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 17%
+source-wordcount: '285'
+ht-degree: 14%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 17%
 
 ## Anteprima sul dispositivo {#preview-device}
 
-Una volta [creato il messaggio in-app](create-in-app.md) e [definisce il contenuto](design-in-app.md), puoi visualizzare in anteprima la notifica in-app in un dispositivo specifico.
+Se vuoi ottenere un&#39;anteprima della notifica in-app prima che questa diventi attiva per tutti gli utenti, puoi visualizzarla in anteprima su un dispositivo specifico. Questa funzionalità ti consente di garantire che la notifica sembri e funzioni come previsto sul dispositivo scelto, fornendo un’esperienza utente migliore per il pubblico.
 
 Per farlo, segui la procedura indicata di seguito:
 
@@ -37,7 +38,7 @@ Il messaggio in-app può ora essere attivato direttamente sul dispositivo, conse
 
 ## Rivedi e attiva la notifica in-app{#in-app-review}
 
-Quando il messaggio in-app è pronto, puoi rivederlo e attivarlo.
+Una volta creato il messaggio in-app e il relativo contenuto definito e personalizzato, puoi rivederlo e attivarlo.
 
 Per farlo, segui la procedura indicata di seguito:
 

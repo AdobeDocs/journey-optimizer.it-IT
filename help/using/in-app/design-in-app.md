@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '886'
 ht-degree: 5%
 
 ---
 
 # Creare contenuto in-app {#design-content}
 
-Puoi modificare il contenuto in-app per configurare le opzioni relative all’esperienza, tra cui layout e visualizzazione dei messaggi, testo e pulsanti.
+Puoi modificare il contenuto in-app per configurare le opzioni relative all’esperienza:
 
-Per configurare il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** e utilizza le opzioni nella sezione destra dello schermo per progettare il contenuto dei messaggi in-app.
+* In una **[!UICONTROL Campaign]**, dal **[!UICONTROL Azione]** per configurare il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** pulsante .
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* In una **[!UICONTROL Percorso]**, dal menu avanzato della tua app **[!UICONTROL Azione]**, puoi iniziare a progettare i contenuti con **[!UICONTROL Modifica contenuto]** pulsante .
+
+   ![](assets/design_inapp_journey.png)
 
 La **[!UICONTROL Formattazione avanzata]** attiva le opzioni aggiuntive per personalizzare l’esperienza.
 
-Una volta creato il messaggio in-app e il relativo contenuto definito e personalizzato, puoi rivederlo e attivarlo. Le notifiche vengono quindi inviate in base alla pianificazione della campagna. Per ulteriori informazioni, consulta [questa pagina](create-in-app.md#in-app-send).
+Una volta creato il messaggio in-app e il relativo contenuto definito e personalizzato, puoi rivederlo e attivarlo. Le notifiche vengono quindi inviate in base alla pianificazione della campagna. Per ulteriori informazioni, consulta [questa pagina](send-in-app.md).
 
 ## Layout dei messaggi {#message-layout}
 
