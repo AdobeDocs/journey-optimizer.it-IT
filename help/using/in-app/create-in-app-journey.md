@@ -8,10 +8,11 @@ level: Beginner
 keywords: in-app, messaggio, creazione, avvio
 hide: true
 hidefromtoc: true
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 2%
+source-wordcount: '553'
+ht-degree: 3%
 
 ---
 
@@ -67,10 +68,11 @@ Per ulteriori informazioni su come configurare un percorso, consulta [questa pag
 
 * La personalizzazione può contenere solo attributi di profilo.
 
-* La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app in quel percorso smetteranno di essere visualizzati per quel profilo. Ciò significa che non puoi interrompere un&#39;attività in-app direttamente da un&#39;attività di percorso. Dovete terminare quel percorso.
-* La visualizzazione in-app è collegata alla durata di vita di un percorso, il che significa che una volta completato un percorso per un particolare profilo utente, tutti i messaggi in-app all’interno di tale percorso cesseranno di essere visualizzati per quel profilo. Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Al contrario, dovrai terminare l’intero percorso per impedire che i messaggi in-app vengano visualizzati nel profilo.
+* La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app all’interno di quel percorso cesseranno di essere visualizzati per quel profilo.  Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Al contrario, dovrai terminare l’intero percorso per impedire che i messaggi in-app vengano visualizzati nel profilo.
 
-* Con questa funzione, non potrai ancora utilizzare **[!UICONTROL Reazione]** attività per reagire a un messaggio in-app aperto o fai clic su .
+* In modalità di test, la visualizzazione in-app dipende dalla durata del percorso. Per evitare che il percorso si termini troppo presto durante il test, regolare la **[!UICONTROL Tempo di attesa]** valore per **[!UICONTROL Wait]** attività.
+
+* **[!UICONTROL Reazione]** Le attività non possono essere utilizzate per reagire a un clic o apertura in-app.
 
 * Si verifica un ritardo di attivazione tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a vedere quel messaggio in-app. Questo ritardo può variare da 15 minuti a 1 ora.
 
