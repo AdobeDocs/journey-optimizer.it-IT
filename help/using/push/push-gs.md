@@ -1,23 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Notifiche push e Adobe Journey Optimizer
+title: Flusso di notifiche push in Adobe Journey Optimizer
 description: Comprendere il flusso di dati e i componenti della notifica push
 topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '699'
 ht-degree: 8%
 
 ---
 
-# Notifiche push e Adobe Journey Optimizer {#get-started-push}
+# Flusso di dati e componenti della notifica push {#get-started-push}
 
-Questa pagina ti aiuterà a configurare e comprendere i servizi e i flussi di lavoro chiave coinvolti nelle notifiche push in [!DNL Journey Optimizer]. Scopri come creare notifiche push su [questa pagina](create-push.md).
+Questa pagina consente di impostare e comprendere i servizi e i flussi di lavoro chiave coinvolti nelle notifiche push in [!DNL Journey Optimizer].
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
+
+Scopri come creare notifiche push su [questa pagina](create-push.md).
 
 Passaggi per configurare il canale push in [!DNL Adobe Journey Optimizer] sono descritte in dettaglio in [questa pagina](push-configuration.md).
 
@@ -58,8 +67,16 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 
 * **[!DNL Adobe Journey Optimizer]** : una volta che le integrazioni app mobili con i componenti di cui sopra sono state implementate e i profili dei clienti in Adobe Experience Platform, puoi creare e orchestrare notifiche push in [!DNL Adobe Journey Optimizer] per interagire con i tuoi utenti.
 
-## Flussi di lavoro push per l’installazione tecnica e il professionista {#push-technical-setup}
+## Implementare flussi di lavoro tecnici e pratici {#push-technical-setup}
 
 L’immagine seguente mostra i vari passaggi, end-to-end, necessari per configurare i componenti che formano l’ossatura del flusso di dati push. Gli elementi azione sono stati organizzati in categorie in base al ruolo che esegue la configurazione e al componente che viene configurato.
 
 ![](assets/user-flow.png)
+
+**Argomenti correlati**
+
+* [Configurare il canale push](push-configuration.md)
+* [Rapporto notifiche push](../reports/journey-global-report.md#push-global)
+* [Creare una notifica push](create-push.md)
+* [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
+* [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)

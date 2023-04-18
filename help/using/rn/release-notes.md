@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3dffd032edb3ffda4a1bcd460d554f7ecc253a8e
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1508'
 ht-degree: 100%
 
 ---
@@ -21,10 +21,31 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
+<!--
+## April 2023 Updates {#apr-2023}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<img src="../push/assets/mobile-wf-home.png"/>
+<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 ## Note sulla versione di marzo 2023 {#mar-2023}
 
-Le informazioni riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione. La documentazione aggiornata verrà pubblicata alla data di rilascio e in questa pagina verranno aggiunti i collegamenti diretti.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
 
 
 ### Nuove funzionalità{#mar-2023-features}
@@ -77,6 +98,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 </tr>
 </tbody>
 </table>
+
 
 
 ### Miglioramenti {#mar-2023-improvements}
