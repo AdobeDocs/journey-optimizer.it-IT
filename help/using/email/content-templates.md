@@ -119,7 +119,7 @@ Per creare un modello di contenuto da zero, segui la procedura seguente.
 
 Questo modello è ora pronto per essere utilizzato per la creazione di qualsiasi e-mail all’interno di [!DNL Journey Optimizer]. [Scopri come](email-templates.md)
 
-### Salvare come modello {#save-as-template}
+### Salva come modello {#save-as-template}
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"

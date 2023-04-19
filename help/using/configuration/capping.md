@@ -6,13 +6,13 @@ description: Scopri come lavorare con l’API di limitazione delle funzioni
 role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limiti
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
+source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 3%
+ht-degree: 30%
 
 ---
-
 
 # Utilizzare l’API di limitazione di utilizzo {#work}
 
@@ -22,7 +22,7 @@ Questa sezione fornisce informazioni globali su come utilizzare l’API. Una des
 
 ## Limitazione della descrizione API
 
-| Metodo | Path | Descrizione |
+| Metodo | Percorso | Descrizione |
 |---|---|---|
 | [!DNL POST] | list/endpointConfigs | Ottieni un elenco delle configurazioni di limiti endpoint |
 | [!DNL POST] | /endpointConfigs | Creare una configurazione di limite endpoint |
@@ -107,49 +107,49 @@ L&#39;avviso potenziale è:
 
 In questa sezione sono disponibili i cinque casi d’uso principali che è possibile eseguire per gestire la configurazione dei limiti in [!DNL Journey Optimizer].
 
-Per facilitare i test e la configurazione, è disponibile una raccolta Postman [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+Per facilitare i test e la configurazione, [qui](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json) è disponibile una raccolta Postman.
 
-Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori di integrazioni selezionati.
+Questa raccolta Postman è stata configurata per condividere la raccolta di variabili Postman generata tramite __[Integrazioni della console di Adobe I/O](https://console.adobe.io/integrations) > Prova > Scarica per Postman__, che genera un file di ambiente Postman con i valori delle integrazioni selezionate.
 
-Una volta scaricata e caricata in Postman, devi aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
+Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway
 * `{BASE_PATH}` : punto di ingresso per l’API.
-* `{SANDBOX_NAME}` : intestazione **x-sandbox-name** (ad esempio, &quot;prod&quot;) corrispondente al nome della sandbox in cui avranno luogo le operazioni API. Consulta la sezione [panoramica sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it) per ulteriori informazioni.
+* `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
-Nella sezione seguente, trovi l’elenco delle chiamate API rimanenti ordinate per eseguire il caso d’uso.
+Nella sezione seguente, è disponibile un elenco ordinato delle chiamate API REST per eseguire il caso d’uso.
 
 Caso d’uso n° 1: **Creazione e distribuzione di una nuova configurazione di tappatura**
 
 1. list
-1. creare
-1. canonizzare
-1. distribuire
+1. create
+1. candeploy
+1. deploy
 
 Caso d’uso n° 2: **Aggiornare e distribuire una configurazione di limite non ancora distribuita**
 
 1. list
 1. get
 1. update
-1. canonizzare
-1. distribuire
+1. candeploy
+1. deploy
 
 Caso d’uso n° 3: **Disdistribuire ed eliminare una configurazione di limitazione distribuita**
 
 1. list
-1. non distribuire
+1. undeploy
 1. delete
 
 Caso d’uso n° 4: **Elimina una configurazione di limitazione distribuita.**
 
-In una sola chiamata API, puoi annullare la distribuzione ed eliminare la configurazione utilizzando il parametro forceDelete .
+È possibile annullare la distribuzione ed eliminare la configurazione in una sola chiamata API utilizzando il parametro forceDelete.
 1. list
-1. elimina, con param forceDelete
+1. eliminare, con il parametro forceDelete
 
 Caso d’uso n° 5: **Aggiornare una configurazione di limite già distribuita**
 
 1. list
 1. get
 1. update
-1. non distribuire
-1. canonizzare
-1. distribuire
+1. undeploy
+1. candeploy
+1. deploy

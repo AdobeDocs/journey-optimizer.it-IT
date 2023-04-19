@@ -12,7 +12,7 @@ exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 ## Introduzione a [!DNL Adobe Stock] {#get-started-stock}
 
-La [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] Il plug-in per l’integrazione di E-mail Designer offre ai clienti un modo semplice di navigare, concedere in licenza e salvare le immagini da utilizzare nella creazione dei messaggi.
+Il plug-in per l’integrazione di E-mail designer di [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] offre ai clienti un modo semplice per cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle.
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} consente di accedere a milioni di foto, video, illustrazioni e immagini vettoriali di alta qualità, curate e prive di royalty. È possibile scegliere di acquistare un pacchetto di crediti per la licenza delle risorse o acquistare solo una licenza Standard o Extended per la risorsa necessaria. Adobe Stock fornisce anche una raccolta gratuita di risorse.
 
-Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail direttamente da [!DNL Adobe Stock] e aggiungilo al tuo **[!UICONTROL Risorse]** utilizzando **[!UICONTROL Trova foto Adobe Stock]** opzione . Inoltre, il **[!UICONTROL Trova foto di scorta simili]** consente di trovare immagini che corrispondono al contenuto, al colore e alla composizione della risorsa utilizzata nella consegna.
+Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail direttamente da [!DNL Adobe Stock] e aggiungerle alla cartella **[!UICONTROL Risorse]** utilizzando l’opzione **[!UICONTROL Trova le foto di Adobe Stock]**. Inoltre, l’opzione **[!UICONTROL Trova foto Stock simili]** consente di trovare immagini che corrispondono al contenuto, al colore e alla composizione della risorsa utilizzata nella consegna.
 
 ## Autorizzazioni{#stock-permissions}
 

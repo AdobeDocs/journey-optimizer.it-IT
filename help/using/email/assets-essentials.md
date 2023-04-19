@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 9%
+ht-degree: 19%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 9%
 
 ## Introduzione a [!DNL Assets Essentials] {#get-started-assets-essentials}
 
-Riunisci flussi di lavoro creativi e di marketing utilizzando [!DNL Adobe Experience Manager Assets Essentials]. Integrato in modo nativo con [!DNL Adobe Journey Optimizer], accesso [!DNL Assets Essentials] archiviare, gestire, individuare e distribuire risorse digitali. Fornisce un archivio unico e centralizzato delle risorse che puoi utilizzare per compilare i messaggi.
+Riunisci flussi di lavoro creativi e di marketing utilizzando [!DNL Adobe Experience Manager Assets Essentials]. Integrato in modo nativo con [!DNL Adobe Journey Optimizer], accedi a [!DNL Assets Essentials] per archiviare, gestire, individuare e distribuire le risorse digitali. Fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi.
 
 [!DNL Adobe Experience Manager Assets Essentials] è un’area di lavoro delle risorse condivisa e centralizzata che estende il sistema creativo e unifica le risorse digitali per la distribuzione delle esperienze. Puoi organizzare, assegnare tag e trovare facilmente le risorse di produzione approvate per garantire la coerenza del marchio tra i diversi team. Grazie alla sua esperienza utente intuitiva, puoi accedere a [!DNL Assets Essentials] condividere istantaneamente le risorse all’interno delle app Adobe Creative e Experience Cloud.
 
 Ulteriori informazioni in [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-[!DNL Adobe Experience Manager Assets Essentials] accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite il menu a sinistra **[!UICONTROL Risorse]** sezione . Puoi anche accedere a risorse e cartelle quando [progettazione di contenuto e-mail](get-started-email-design.md).
+[!DNL Adobe Experience Manager Assets Essentials] è accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite la sezione **[!UICONTROL Risorse]** del menu a sinistra. Puoi anche accedere a risorse e cartelle quando [progettazione di contenuto e-mail](get-started-email-design.md).
 
 ## Prerequisiti{#assets-prerequisites}
 

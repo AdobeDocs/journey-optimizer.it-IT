@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -42,7 +42,7 @@ Per iniziare a creare il contenuto con uno dei modelli di esempio o salvati, seg
 
 1. [Accedere a E-mail Designer](get-started-email-design.md) dall’e-mail **[!UICONTROL Modifica contenuto]** schermo.
 
-1. Sulla **[!UICONTROL Crea l’e-mail]** schermo, **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
+1. Nella schermata **[!UICONTROL Crea l’e-mail]**, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
 
 1. Per utilizzare un modello personalizzato, passa alla pagina **[!UICONTROL Modelli salvati]** scheda .
 
