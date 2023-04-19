@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: landing, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 16%
+source-wordcount: '968'
+ht-degree: 15%
 
 ---
 
@@ -70,11 +70,11 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 
 Inoltre, puoi inviare un’e-mail di conferma ai destinatari che si sono registrati per l’evento. A questo scopo, segui i passaggi riportati qui sotto.
 
-1. Crea un altro [percorso](../building-journeys/journey.md). Puoi eseguire questa operazione direttamente dalla pagina di destinazione facendo clic sul pulsante **[!UICONTROL Crea percorso]** pulsante . Puoi trovare ulteriori informazioni [qui](create-lp.md#configure-primary-page)
+1. Crea un altro [percorso](../building-journeys/journey.md). Puoi eseguire questa operazione direttamente dalla pagina di destinazione facendo clic sul pulsante **[!UICONTROL Crea percorso]** pulsante . [Ulteriori informazioni](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Apri **[!UICONTROL Eventi]** categoria e rilascia a **[!UICONTROL Qualificazione del segmento]** nell’area di lavoro. Puoi trovare ulteriori informazioni [qui](../building-journeys/segment-qualification-events.md)
+1. Apri **[!UICONTROL Eventi]** categoria e rilascia a **[!UICONTROL Qualificazione del segmento]** nell’area di lavoro. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 
 1. Fai clic in **[!UICONTROL Segmento]** e selezionare l&#39;elenco di sottoscrizioni creato.
 
@@ -127,13 +127,9 @@ Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle co
 
 1. Dopo aver configurato e definito il contenuto delle pagine, [pubblicare](create-lp.md#publish) la pagina di destinazione.
 
-   ![](assets/lp_opt-out-publish.png)
-
 1. [Creare un messaggio e-mail](../email/get-started-email-design.md) in un percorso.
 
 1. Seleziona il testo nel contenuto e [inserisci un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
-
-   ![](assets/lp_opt-out-insert-link.png)
 
 1. Seleziona **[!UICONTROL Pagina di destinazione]** dal **[!UICONTROL Tipo di collegamento]** elenco a discesa e seleziona il [pagina di destinazione](create-lp.md#configure-primary-page) creato per la rinuncia.
 
