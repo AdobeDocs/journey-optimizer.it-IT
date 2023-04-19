@@ -5,9 +5,9 @@ title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2572'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Aprile 2023 {#apr-2023}
 
-* Adobe Experience Manager Assets Essentials e Adobe Stock sono stati aggiunti alla pagina di integrazione con più soluzioni . [Ulteriori informazioni](../start/ajo-integrations.md)
+* Adobe Experience Manager Assets Essentials e Adobe Stock sono stati aggiunti alla pagina di integrazione per più soluzioni. [Ulteriori informazioni](../start/ajo-integrations.md)
 * L’avviso relativo ai sottodomini e-mail a più livelli non consentiti è stato rimosso in quanto ora sono supportati. [Ulteriori informazioni](../configuration/delegate-subdomain.md)
 * È stata aggiunta una nota per specificare che, se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
 
@@ -250,7 +250,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Nella documentazione e nelle schermate le “attività di offerta” sono state rinominate “decisioni” e le “decisioni” sono state rinominate “ambiti decisionali”. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con le funzioni di assistenza](../personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi segmento per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](../building-journeys/read-segment.md)
-* Sono state aggiornate le limitazioni di Journey. [Ulteriori informazioni](../start/guardrails.md)
+* Sono state aggiornate le limitazioni di Journey Optimizer. [Ulteriori informazioni](../start/guardrails.md)
 * È stata aggiornata la sezione Configurare la selezione delle offerte nella sezione relativa alle decisioni. [Ulteriori informazioni](../offers/offer-activities/configure-offer-selection.md)
 * È stata aggiunta un’avvertenza per segnalare che le offerte basate su eventi non sono attualmente supportate. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * È stata documentata la nuova scheda **[!UICONTROL Panoramica]** di Gestione delle decisioni. [Ulteriori informazioni](../offers/get-started/user-interface.md#overview)
