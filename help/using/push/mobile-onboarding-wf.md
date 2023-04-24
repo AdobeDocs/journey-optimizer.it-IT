@@ -11,16 +11,16 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informativo"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
-source-git-commit: 1332bc6caf18eaa735d1c99b8e5f70f8a4eaaf2b
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 5%
+source-wordcount: '368'
+ht-degree: 6%
 
 ---
 
 # Flusso di lavoro di avvio rapido per l’onboarding mobile {#mobile-wf}
 
-Il nuovo **flusso di lavoro di avvio rapido onboarding mobile** è una nuova funzionalità del prodotto per configurare rapidamente l’SDK di Mobile, iniziare a raccogliere e convalidare i dati degli eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
+Il nuovo **flusso di lavoro di avvio rapido onboarding mobile** è una nuova funzionalità del prodotto per configurare rapidamente l’SDK di Adobe Experience Platform Mobile, iniziare a raccogliere e convalidare i dati degli eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
 
 Questa funzionalità è accessibile tramite **[!DNL Adobe Experience Platform Data Collection]** home page per tutti i clienti come versione beta pubblica.
 
@@ -35,8 +35,8 @@ Per accedere al nuovo flusso di lavoro di avvio rapido dell’onboarding mobile,
 Di seguito sono riportate alcune funzioni aggiuntive:
 
 * Workflow a quattro passaggi e interfaccia utente semplici.
-* Fornisce una configurazione di base per iniziare a raccogliere in pochi minuti i dati dell’evento mobile tramite l’SDK di Mobile.
-* Possibilità di testare e convalidare un evento push mobile di base utilizzando Assurance.
+* Fornisce una configurazione di base per iniziare a raccogliere i dati degli eventi mobili tramite il [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in minuti.
+* Possibilità di testare e convalidare un evento push mobile di base sfruttando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Crea e configura automaticamente tutti i dati Collection necessari e le risorse Journey Optimizer.
 * Nella guida del prodotto e nelle descrizioni dei comandi.
 * Fornisce una transizione naturale per un’implementazione più avanzata, se necessario.

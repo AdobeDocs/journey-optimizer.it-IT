@@ -6,9 +6,9 @@ description: Scopri come configurare il tuo ambiente per l’invio di notifiche 
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: 014cc551cb125ba6dc20a4f572e6cd7024d9fab5
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1587'
 ht-degree: 3%
 
 ---
@@ -17,12 +17,10 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] consente di creare i percorsi e inviare messaggi a un pubblico di destinazione. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], è necessario assicurarsi che le configurazioni e le integrazioni siano presenti nell’app mobile e per i tag in Adobe Experience Platform. Per comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer] fare riferimento a [questa pagina](push-gs.md).
 
-<!--
 >[!AVAILABILITY]
 >
->The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
->
--->
+>Il nuovo **flusso di lavoro di avvio rapido onboarding mobile** è ora disponibile. Utilizza questa nuova funzione di prodotto per configurare rapidamente l’SDK Mobile per iniziare a raccogliere e convalidare i dati degli eventi mobili e per inviare le notifiche push mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
+
 
 ## Prima di iniziare {#before-starting}
 
