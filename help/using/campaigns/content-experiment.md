@@ -15,7 +15,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -184,8 +184,8 @@ Tieni presente che ogni widget può essere ridimensionato ed eliminato, se neces
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Success metric"
->abstract="Il valore totale della metrica di successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili."
+>title="Metrica Successo"
+>abstract="Valore totale della metrica Successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili."
 
 >[!AVAILABILITY]
 >

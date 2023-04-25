@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi segmento"
->abstract="L’attività Leggi segmento consente di fare in modo che tutti gli individui appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare."
+>abstract="L’attività Leggi segmento consente di fare in modo che tutti i singoli utenti appartenenti a un segmento Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare."
 
 Utilizza la **Leggi segmento** per fare entrare nel percorso tutti gli individui di un segmento. L’entrata in un percorso può essere eseguita una volta o su base regolare.
 

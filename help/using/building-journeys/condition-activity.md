@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività condizione
+title: Attività Condizione
 description: Scopri l’attività condizione
 feature: Journeys
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
-# Attività condizione{#condition-activity}
+# Attività Condizione{#condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
->title="Attività condizione"
->abstract="Questa attività ti consente di definire il flusso dell’individuo nel percorso. Verranno creati diversi percorsi in base a vari criteri. Puoi anche creare un percorso alternativo in caso di timeout o errore."
+>title="Attività Condizione"
+>abstract="Questa attività consente di definire il flusso del singolo utente nel percorso. Verranno creati diversi percorsi in base a vari criteri. Puoi anche creare un percorso alternativo in caso di timeout o errore."
 
 Sono disponibili i seguenti tipi di condizioni:
 
@@ -37,8 +37,8 @@ Sono disponibili i seguenti tipi di condizioni:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Informazioni sull’editor di espressioni semplici"
->abstract="La modalità editor di espressioni semplici consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili vengono visualizzati sul lato sinistro dello schermo. Trascina i campi nella zona principale. Per combinare i diversi elementi, collegali tra loro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello."
+>title="Editor di espressioni semplici"
+>abstract="La modalità editor di espressioni semplici consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. Trascina i campi nell’area principale. Per combinare i diversi elementi, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello."
 
 Quando utilizzi più condizioni in un percorso, puoi definire etichette per ognuna di esse per identificarle più facilmente.
 
@@ -54,7 +54,7 @@ Prendiamo ad esempio la condizione di un primo percorso &quot;La persona è un V
 
 Puoi creare un altro percorso per tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Mostra percorso per casi diversi da quelli sopra indicati]**. Questa opzione non è disponibile in condizioni di suddivisione. Vedi [Divisione percentuale](#percentage_split).
 
-La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili vengono visualizzati sul lato sinistro dello schermo. Trascina i campi nella zona principale. Per combinare i diversi elementi, collegali tra loro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
+La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. Trascina i campi nell’area principale. Per combinare i diversi elementi, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
 * E: un’intersezione di due criteri. Vengono presi in considerazione solo gli elementi che corrispondono a tutti i criteri.
 * OPPURE: un&#39;unione di due criteri. Vengono considerati gli elementi che corrispondono ad almeno uno dei due criteri.

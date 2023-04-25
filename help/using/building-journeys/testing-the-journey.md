@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Test del percorso"
->abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso di singoli utenti nel percorso e risolvere i problemi prima della pubblicazione."
+>abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 
 Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questa modalità ti consente di eseguire un test del percorso e di identificare i problemi utilizzando i profili di test.
 
@@ -122,8 +122,8 @@ Tieni presente che la prima volta che si attiva un evento aziendale non è possi
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
->title="Registri della modalità di prova"
->abstract="Il pulsante Mostra registro mostra i risultati del test in formato JSON. Questi risultati mostrano il numero di persone all’interno del percorso e il loro stato."
+>title="Registri della modalità di test"
+>abstract="Il pulsante Mostra registro visualizza i risultati dei test in formato JSON. Questi risultati mostrano il numero di singoli utenti all’interno del percorso e il loro stato."
 
 La **[!UICONTROL Mostra registro]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Devi aggiornare manualmente la pagina per aggiornare i risultati dei test del percorso.
 

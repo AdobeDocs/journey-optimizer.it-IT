@@ -13,7 +13,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 10%
+ht-degree: 33%
 
 ---
 
@@ -46,31 +46,31 @@ Prima di poter generare questo file, devi creare:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
->title="Definire la configurazione del routing dei file"
->abstract="Dopo aver creato un messaggio di direct mailing, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere e utilizzare tale file per la consegna della direct mailing."
+>title="Configurare l’indirizzamento dei file"
+>abstract="Dopo aver creato un messaggio di direct mail, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. Devi specificare i dettagli del server in modo che il provider di direct mail possa accedere e utilizzare tale file per la consegna della direct mail."
 
 <!--
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
->title="Definire la configurazione del routing dei file"
->abstract="È necessario definire dove verrà esportato il file da utilizzare per il provider di direct mailing."
+>title="Configurare l’indirizzamento dei file"
+>abstract="Devi definire dove esportare il file che verrà utilizzato dal provider di direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
->title="Configurazione dell’indirizzamento dei file"
+>title="Configurazione di indirizzamento dei file"
 >abstract="Seleziona la configurazione di indirizzamento dei file desiderata, che definisce dove verrà esportato il file che verrà utilizzato dal provider di direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="Selezionare il tipo di server per il file"
->abstract="Scegliere il tipo di server che si desidera utilizzare per esportare i file di direct mailing. Attualmente solo Amazon S3 e SFTP sono supportati da Journey Optimizer."
+>abstract="Scegli il tipo di server che desideri utilizzare per esportare i file di direct mail. Attualmente Journey Optimizer supporta solo Amazon S3 e SFTP."
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Scegli l’area geografica di AWS"
->abstract="Seleziona l’area geografica del server AWS in cui desideri esportare i file di direct mailing. Come procedura generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing."
+>title="Scegliere la regione AWS"
+>abstract="Seleziona la regione del server AWS in cui desideri esportare i file di direct mail. Come procedura generale, è preferibile scegliere la regione più vicina alla posizione del provider di direct mail."
 
 Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed esporta il file contenente i dati del pubblico di destinazione in un server.
 
@@ -116,7 +116,7 @@ Per configurare il routing dei file, segui i passaggi seguenti.
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni per direct mail"
 >abstract="Una superficie per direct mail contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Configurare l’indirizzamento dei file"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=it#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -126,8 +126,8 @@ Per configurare il routing dei file, segui i passaggi seguenti.
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
->title="Definire la soglia di suddivisione del file"
->abstract="Devi impostare il numero massimo di record per ogni file contenente i dati sul pubblico. È possibile selezionare un numero qualsiasi compreso tra 1 e 200.000 record. Una volta raggiunta la soglia specificata, verrà creato un altro file per i record rimanenti."
+>title="Definire la soglia di divisione dei file"
+>abstract="Devi impostare il numero massimo di record per ogni file contenente i dati del pubblico. Puoi selezionare un numero qualsiasi compreso tra 1 e 200.000 record. Una volta raggiunta la soglia specificata, verrà creato un altro file per i record rimanenti."
 
 Per poter consegnare direct mailing con [!DNL Journey Optimizer], è necessario creare una superficie del canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
 

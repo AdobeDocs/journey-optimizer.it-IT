@@ -12,7 +12,7 @@ exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -47,10 +47,10 @@ Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Anteprima e verifica dei messaggi"
+>title="Anteprima e test dei messaggi"
 >abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="Rendering di e-mail"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="Anteprima"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=it#email-rendering" text="Rendering delle e-mail"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=it#preview-email" text="Anteprima"
 
 Utilizzo [Profili di test](../segment/creating-test-profiles.md) per eseguire il targeting di altri destinatari che non soddisfano i criteri di targeting definiti.
 

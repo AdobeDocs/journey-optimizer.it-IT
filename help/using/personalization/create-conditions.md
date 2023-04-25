@@ -12,7 +12,7 @@ exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -42,13 +42,13 @@ Le regole condizionali vengono create dal **[!UICONTROL Condizioni]** all’inte
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
->title="Crea condizione"
->abstract="Combina gli attributi di profilo, gli eventi contestuali o i tipi di pubblico per creare regole che definiscano quale contenuto visualizzare nei messaggi."
+>title="Creare una condizione"
+>abstract="Combina gli attributi di profilo, gli eventi contestuali o i segmenti di pubblico per creare regole che definiscano quali contenuti visualizzare nei messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
->title="Crea condizione"
->abstract="Combina gli attributi di profilo, gli eventi contestuali o i tipi di pubblico per creare regole che definiscano quale contenuto visualizzare nei messaggi."
+>title="Creare una condizione"
+>abstract="Combina gli attributi di profilo, gli eventi contestuali o i segmenti di pubblico per creare regole che definiscano quali contenuti visualizzare nei messaggi."
 
 I passaggi per creare una regola condizionale sono i seguenti:
 

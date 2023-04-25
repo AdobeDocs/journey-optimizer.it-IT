@@ -12,7 +12,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -71,7 +71,7 @@ Affinché l&#39;esperienza web possa essere consegnata correttamente, è necessa
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface"
 >title="Definire una superficie web"
->abstract="Una superficie web può corrispondere a uno o più URL di pagina, consentendoti di apportare modifiche al contenuto in una o più pagine web."
+>abstract="Una superficie web può corrispondere all’URL di una sola pagina o più pagine, consentendoti di apportare modifiche al contenuto in una o più pagine web."
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"

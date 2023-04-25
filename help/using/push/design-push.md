@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -28,7 +28,7 @@ Utilizza la sezione di anteprima del dispositivo per visualizzare il modo in cui
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-onclick"
 >title="Informazioni sul comportamento del clic"
->abstract="Seleziona il comportamento quando un destinatario fa clic sul corpo della notifica push."
+>abstract="Seleziona il comportamento che si verifica quando un destinatario fa clic sul corpo della notifica push."
 
 Puoi selezionare il comportamento quando un utente fa clic sul corpo della notifica push.
 
@@ -79,7 +79,7 @@ Nella versione iOS è possibile aggiungere fino a quattro pulsanti. Nella versio
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"
 >title="Informazioni sulla notifica silenziosa"
->abstract="Invia notifiche senza disturbare l&#39;utente, le notifiche non vengono visualizzate nel centro notifiche o nella barra delle notifiche."
+>abstract="Invia notifiche senza disturbare l’utente: le notifiche non verranno visualizzate nel centro notifiche o nella barra delle notifiche."
 
 Una notifica push silenziosa (o notifica in background) è un&#39;istruzione nascosta inviata all&#39;applicazione. Viene utilizzato, ad esempio, per notificare all’applicazione la disponibilità di nuovi contenuti o per avviare un download in background.
 

@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -91,13 +91,13 @@ Da **[!UICONTROL Elenco di eliminazione]** visualizza, puoi anche modificare il 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
->title="Aggiungi e-mail o domini all’elenco di soppressione"
->abstract="Puoi compilare manualmente l’elenco di soppressione di Journey Optimizer al fine di escludere specifici indirizzi e-mail e/o domini dall’invio."
+>title="Aggiungere e-mail o domini all’elenco di soppressione"
+>abstract="Puoi popolare manualmente l’elenco di soppressione di Journey Optimizer al fine di escludere specifici indirizzi e-mail e/o domini dall’invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="Aggiungi e-mail o domini all’elenco di soppressione"
->abstract="Per compilare l’elenco di soppressione, puoi aggiungere manualmente indirizzi e-mail o domini: uno alla volta o in modalità collettiva tramite un caricamento di file CSV. Questi indirizzi e/o domini e-mail specifici saranno esclusi dall’invio."
+>title="Aggiungere e-mail o domini all’elenco di soppressione"
+>abstract="Per popolare l’elenco di soppressione, puoi aggiungere manualmente indirizzi e-mail o domini: uno alla volta oppure in blocco tramite il caricamento di un file CSV. Tali indirizzi e-mail e/o domini saranno esclusi dall’invio."
 
 Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di soppressione o al conteggio dei messaggi non recapitati definiti.
 
@@ -113,8 +113,8 @@ Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_address"
->title="Aggiungi un elemento all&#39;elenco di soppressione"
->abstract="Puoi compilare l’elenco di soppressione aggiungendo indirizzi e/o domini e-mail uno per uno."
+>title="Aggiungere un elemento all’elenco di soppressione"
+>abstract="Puoi popolare l’elenco di soppressione aggiungendo indirizzi e-mail e/o domini uno alla volta."
 
 Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, segui i passaggi seguenti:
 
@@ -142,8 +142,8 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, se
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_csv"
->title="Carica CSV per aggiungere elementi all&#39;elenco di soppressione"
->abstract="Puoi compilare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail/domini da escludere."
+>title="Caricare un CSV per aggiungere elementi all’elenco di soppressione"
+>abstract="Puoi popolare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail e i domini da escludere."
 
 Per aggiungere un gruppo di indirizzi e-mail o un gruppo di domini all’elenco di eliminazione, segui i passaggi seguenti:
 

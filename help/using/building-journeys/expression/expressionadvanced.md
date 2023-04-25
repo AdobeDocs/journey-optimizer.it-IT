@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sull’editor di espressioni avanzate
+title: Editor di espressioni avanzate
 description: Scopri come creare espressioni avanzate
 feature: Journeys
 role: Data Engineer, Architect
@@ -11,15 +11,15 @@ exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '609'
-ht-degree: 65%
+ht-degree: 76%
 
 ---
 
-# Informazioni sull’editor di espressioni avanzate {#about-the-advanced-expression-editor}
+# Editor di espressioni avanzate {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
->title="Informazioni sull’editor di espressioni avanzate"
+>title="Editor di espressioni avanzate"
 >abstract="Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati."
 
 Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati.

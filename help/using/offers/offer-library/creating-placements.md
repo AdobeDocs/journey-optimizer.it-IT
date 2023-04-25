@@ -18,7 +18,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_placement"
 >title="Posizionamento"
->abstract="Un posizionamento è un contenitore utilizzato per mostrare le offerte. In questo modo il contenuto corretto dell’offerta verrà visualizzato nella posizione corretta all’interno del messaggio. I posizionamenti vengono creati dal menu “Componenti”."
+>abstract="Un posizionamento è un contenitore utilizzato per mostrare le offerte, affinché il contenuto corretto venga visualizzato nella posizione desiderata all’interno del messaggio. I posizionamenti vengono creati dal menu “Componenti”."
 
 Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 

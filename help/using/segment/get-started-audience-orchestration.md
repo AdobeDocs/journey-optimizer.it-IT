@@ -14,7 +14,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Creare una composizione"
->abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico Adobe Experience Platform esistenti in un’area di lavoro visiva e sfrutta varie attività (divise, escluse..) per creare nuovi tipi di pubblico."
+>abstract="Crea un flusso di lavoro di composizione per combinare i segmenti di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfrutta varie attività (divisione, esclusione e così via) per creare nuovi segmenti di pubblico."
 
 >[!BEGINSHADEBOX]
 

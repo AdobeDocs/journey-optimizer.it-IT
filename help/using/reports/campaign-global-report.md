@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="Rapporto globale della campagna"
->abstract="Il rapporto globale di Campaign consente di misurare l’impatto delle campagne in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto globale delle campagne consente di misurare l’impatto di una campagna in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 Puoi accedere al rapporto globale di Campaign direttamente dalla tua campagna con **[!UICONTROL Visualizza rapporto]** pulsante .
 

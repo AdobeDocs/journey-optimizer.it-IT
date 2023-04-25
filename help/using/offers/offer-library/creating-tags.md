@@ -18,7 +18,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="Qualificatori di raccolta"
->abstract="Associa uno o più qualificatori di raccolta all’offerta per mantenere organizzata la Libreria di offerte e individuare le offerte più facilmente. I qualificatori di raccolta vengono creati dal menu “Componente”."
+>abstract="Associa all’offerta uno o più qualificatori di raccolta per mantenere organizzata la libreria di offerte e individuare più facilmente le offerte. I qualificatori di raccolta vengono creati dal menu “Componenti”."
 
 L’associazione dei qualificatori di raccolta (precedentemente noti come &quot;tag&quot;) alle offerte facilita la loro organizzazione. Ad esempio, puoi assegnare il tuo Black Friday alle offerte con il qualificatore di raccolta &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel qualificatore di raccolta.
 

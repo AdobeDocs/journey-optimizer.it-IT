@@ -18,7 +18,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_collection"
 >title="Informazioni sulle raccolte di offerte"
->abstract="Con le raccolte di offerte, puoi organizzare le offerte raggruppandole in categorie a tua scelta."
+>abstract="Le raccolte consentono di organizzare le offerte raggruppandole in categorie a tua scelta."
 
 Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie a tua scelta. Ad esempio, puoi creare una collezione &quot;sport&quot; che conterrà solo offerte relative allo sport.
 

@@ -15,7 +15,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 30%
+ht-degree: 36%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Imposta set di dati per il reporting"
->abstract="La configurazione di reporting consente di recuperare metriche aggiuntive che verranno utilizzate nella scheda Obiettivi dei rapporti della campagna. Deve essere eseguito da un utente tecnico."
+>abstract="La configurazione di reporting consente di recuperare metriche aggiuntive che verranno utilizzate nella scheda Finalità dei rapporti della campagna. Deve essere eseguito da un utente tecnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Selezionare un set di dati"
->abstract="Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei gruppi di campi supportati: Dettagli applicazione, Dettagli commercio, Dettagli Web."
+>abstract="Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei gruppi di campi supportati: dettagli applicazione, dettagli e-commerce, dettagli web."
 
 >[!BEGINSHADEBOX]
 

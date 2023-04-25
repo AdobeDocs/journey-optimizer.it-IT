@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -38,8 +38,8 @@ La configurazione dell’area e-mail viene selezionata per l’invio di comunica
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definire la categoria e-mail"
->abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, o transazionali per e-mail non commerciali, che possono anche essere inviate a profili non abbonati in contesti specifici."
+>title="Definire la categoria dell’e-mail"
+>abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, oppure Transazionale per e-mail non commerciali, che possono essere inviate anche a profili non iscritti in contesti specifici."
 
 In **TIPO E-MAIL** selezionate il tipo di messaggio da inviare con la superficie: **Marketing** o **Transazionale**.
 
@@ -190,9 +190,9 @@ Se si verifica un errore durante l’invio dell’area e-mail, significa che il 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Regolare il periodo di tempo per l’esecuzione dei nuovi tentativi"
->abstract="I tentativi vengono eseguiti per 3,5 giorni (84 ore) quando una consegna e-mail non riesce a causa di un errore temporaneo di mancato recapito messaggi. È possibile regolare questo periodo di tempo predefinito per l&#39;esecuzione di un nuovo tentativo in base alle proprie esigenze."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Informazioni sui nuovi tentativi"
+>title="Regolare il periodo di tempo per i tentativi"
+>abstract="Quando la consegna di un’e-mail ha esito negativo a causa di un errore temporaneo di mancato recapito dei messaggi, vengono eseguiti nuovi tentativi per 3,5 giorni (84 ore). Puoi regolare questo periodo di tempo predefinito per i tentativi in base alle tue esigenze."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=it" text="Informazioni sui tentativi"
 
 Puoi configurare le **Parametri di esecuzione di un nuovo tentativo e-mail**.
 
@@ -212,13 +212,13 @@ Ulteriori informazioni sui nuovi tentativi in [questa sezione](../configuration/
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Definire i parametri di tracciamento URL"
+>title="Definire i parametri di tracciamento degli URL"
 >abstract="Usa questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL presenti nel contenuto dell’e-mail. Questa funzione è facoltativa."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Anteprima parametri di tracciamento URL"
->abstract="Controlla in che modo i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
+>title="Anteprima dei parametri di tracciamento degli URL"
+>abstract="Verifica il modo in cui i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
 È possibile utilizzare **[!UICONTROL Parametri di tracciamento URL]** per misurare l’efficacia delle attività di marketing su tutti i canali. Questa funzione è facoltativa.
 

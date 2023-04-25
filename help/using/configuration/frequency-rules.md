@@ -12,7 +12,7 @@ exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '977'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
@@ -52,18 +52,18 @@ Ulteriori informazioni sulle autorizzazioni in [questa sezione](../administratio
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="Seleziona la categoria della regola del messaggio"
->abstract="Quando viene attivata e applicata a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+>title="Selezionare la categoria della regola del messaggio"
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Imposta il limite per la regola"
->abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente ogni mese. Il limite di frequenza sarà basato su un periodo di calendario mensile e verrà reimpostato all&#39;inizio di ogni mese."
+>title="Impostare i limiti per la regola"
+>abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente ogni mese. Il limite di frequenza sarà basato su un periodo di calendario mensile e verrà reimpostato all’inizio di ogni mese."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Definisci i canali a cui si applica la regola"
->abstract="Seleziona almeno un canale. L’applicazione dell’applicazione di limitazione viene applicata a tutti i canali come conteggio totale."
+>title="Definire i canali a cui si applica la regola"
+>abstract="Seleziona almeno un canale. I limiti vengo applicati a tutti i canali come conteggio totale."
 
 Per creare una nuova regola, segui i passaggi seguenti.
 
@@ -75,7 +75,7 @@ Per creare una nuova regola, segui i passaggi seguenti.
 
    ![](assets/message-rules-details.png)
 
-1. Seleziona la categoria della regola del messaggio.
+1. Selezionare la categoria della regola del messaggio.
 
    >[!NOTE]
    >

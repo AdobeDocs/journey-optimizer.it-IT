@@ -11,7 +11,7 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -58,7 +58,7 @@ Per eliminare un modello, seleziona l’icona del cestino accanto al modello des
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
 >title="Definire un modello di contenuto personalizzato"
->abstract="Crea da zero un modello personalizzato autonomo per rendere i contenuti riutilizzabili tra più percorsi e campagne."
+>abstract="Crea da zero un modello personalizzato autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne."
 
 Esistono due modi per creare modelli di contenuto:
 
@@ -123,8 +123,8 @@ Questo modello è ora pronto per essere utilizzato per la creazione di qualsiasi
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_depecrated_inventory"
->title="Scopri come eseguire la migrazione dei messaggi"
->abstract="Il 25 luglio 2022 il menu Messaggi è scomparso e i messaggi vengono ora creati direttamente da un Percorso. Per riutilizzare i messaggi legacy nei percorsi, è necessario salvarli come modelli."
+>title="Scopri come effettuare la migrazione dei messaggi"
+>abstract="Il 25 luglio 2022 il menu Messaggi è stato rimosso e i messaggi vengono ora creati direttamente da un percorso. Per riutilizzare i messaggi precedenti nei percorsi, devi salvarli come modelli."
 
 Durante la progettazione di un [email](get-started-email-design.md) in una campagna o in un percorso, puoi salvare il contenuto delle e-mail per riutilizzarlo in futuro. Per farlo, segui la procedura indicata di seguito.
 

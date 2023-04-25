@@ -21,9 +21,9 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Origini dati esterne"
->abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne."
+>abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne."
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio è in uso un sistema di prenotazione alberghiera per verificare se il cliente ha registrato una stanza. Al posto dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare un numero illimitato di origini dati esterne.
 
 >[!NOTE]
 >

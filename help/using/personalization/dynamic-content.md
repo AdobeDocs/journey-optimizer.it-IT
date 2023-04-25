@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -51,7 +51,7 @@ I passaggi per aggiungere contenuto dinamico nelle espressioni sono i seguenti:
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="Contenuto condizionale"
->abstract="Utilizza le regole condizionali per creare più varianti di un componente di contenuto. Se non viene soddisfatta alcuna condizione durante l’invio del messaggio, viene visualizzato il contenuto della variante Predefinito ."
+>abstract="Utilizza le regole condizionali per creare più varianti di un componente di contenuto. Se non viene soddisfatta alcuna condizione durante l’invio del messaggio, verrà visualizzato il contenuto della variante predefinita."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"

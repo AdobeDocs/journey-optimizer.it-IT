@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creazione di e-mail"
->abstract="Definisci i parametri e-mail in tre semplici passaggi."
+>abstract="Definisci i parametri dell’e-mail in tre semplici passaggi."
 
 Per creare un messaggio e-mail in [!DNL Journey Optimizer], segui i passaggi seguenti.
 
@@ -79,8 +79,8 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configurare il contenuto e-mail"
->abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi sfrutta E-mail Designer per creare e personalizzare il corpo dell’e-mail."
+>title="Configurare il contenuto dell’e-mail"
+>abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi usa E-mail Designer per creare e personalizzare il corpo dell’e-mail."
 
 1. Dalla schermata di configurazione del percorso o della campagna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto dell’e-mail. [Ulteriori informazioni](get-started-email-design.md)
 

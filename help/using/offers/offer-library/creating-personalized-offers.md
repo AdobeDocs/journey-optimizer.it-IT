@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -31,13 +31,13 @@ L’elenco delle offerte personalizzate è accessibile nella sezione **[!UICONTR
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="Informazioni sugli attributi dell’offerta"
->abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>title="Informazioni sugli attributi di offerta"
+>abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="Attributi dell’offerta"
->abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>title="Attributi di offerta"
+>abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 Per creare un **offerta**, segui questi passaggi:
 
@@ -69,7 +69,7 @@ Per creare un **offerta**, segui questi passaggi:
 
    >[!NOTE]
    >
-   >Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
    >Le stime del profilo non sono disponibili quando i parametri delle regole includono dati non presenti nel profilo, ad esempio dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia ≥ 80 gradi.
 

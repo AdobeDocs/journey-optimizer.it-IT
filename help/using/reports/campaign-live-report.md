@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="Rapporto live della campagna"
->abstract="Il rapporto live di Campaign ti consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni delle campagne solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto live delle campagne consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni di una campagna solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 Puoi accedere al rapporto live della campagna direttamente dalla tua campagna con **[!UICONTROL Vista dal vivo]** pulsante .
 

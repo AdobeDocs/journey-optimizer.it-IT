@@ -12,7 +12,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 6%
+ht-degree: 21%
 
 ---
 
@@ -38,14 +38,14 @@ Per accedere e creare pagine web nel [!DNL Journey Optimizer] interfaccia utente
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Conferma l’URL da modificare"
->abstract="Conferma l’URL della pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sull’area web definita sopra. La pagina web deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
+>title="Confermare l’URL per la modifica"
+>abstract="Conferma l’URL della pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sulla superficie web definita sopra. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Immettere l&#39;URL da modificare"
->abstract="Inserisci l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato a tutte le pagine che corrispondono alla regola. La pagina web deve essere implementata tramite Adobe Experience Platform Web SDK."
+>title="Immettere l’URL per la modifica"
+>abstract="Immetti l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato a tutte le pagine che corrispondono alla regola. La pagina web deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 <!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
@@ -144,7 +144,7 @@ Una volta creata un’azione web dalla campagna, è possibile modificarne il con
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Utilizzare la modalità Sfoglia"
->abstract="Da questa modalità è possibile passare alla pagina esatta dalla superficie selezionata che si desidera personalizzare."
+>abstract="Da questa modalità puoi passare alla pagina esatta dalla superficie selezionata che desideri personalizzare."
 
 È possibile eseguire lo scambio dal valore predefinito **[!UICONTROL Progettazione]** alla modalità **[!UICONTROL Sfoglia]** utilizzando il pulsante dedicato.
 
@@ -166,8 +166,8 @@ Da **[!UICONTROL Sfoglia]** In questa modalità, puoi passare alla pagina esatta
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="Gestione semplice di tutte le modifiche"
->abstract="Utilizzando questo riquadro, puoi navigare tra e gestire tutte le regolazioni e gli stili aggiunti alla pagina web."
+>title="Gestire con facilità tutte le modifiche"
+>abstract="Utilizzando questo riquadro, puoi esplorare e gestire tutte le modifiche e gli stili aggiunti alla pagina web."
 
 Puoi gestire facilmente tutti i componenti, le regolazioni e gli stili aggiunti alla pagina web.
 
@@ -205,8 +205,8 @@ Utilizza la **[!UICONTROL Decisione di offerta]** componente da inserire [offert
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"
->title="Visualizzare in anteprima l&#39;esperienza web"
->abstract="Ottieni una simulazione dell’aspetto della tua esperienza web."
+>title="Visualizzare l’esperienza web in anteprima"
+>abstract="Ottieni una simulazione dell’aspetto che avrà l’esperienza web."
 
 Per visualizzare un’anteprima dell’esperienza web modificata, segui i passaggi riportati di seguito.
 

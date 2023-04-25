@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creare un messaggio SMS"
->abstract="Aggiungi il messaggio SMS e inizia a personalizzarlo con l’editor espressioni."
+>abstract="Aggiungi il messaggio SMS e inizia a personalizzarlo con l’editor di espressioni."
 
 ## Aggiungere un messaggio SMS {#create-sms-journey-campaign}
 

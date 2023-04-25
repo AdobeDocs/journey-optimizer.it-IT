@@ -21,7 +21,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Impostazioni dello sfondo"
->abstract="Puoi personalizzare il colore o l’immagine di sfondo del tuo contenuto. Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
+>abstract="Puoi personalizzare il colore o l’immagine di sfondo del contenuto. Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
 
 Per impostare lo sfondo con E-mail Designer, Adobe consiglia quanto segue:
 

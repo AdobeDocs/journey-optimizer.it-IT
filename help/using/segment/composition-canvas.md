@@ -14,7 +14,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
@@ -84,12 +84,12 @@ Puoi aggiungere più **[!UICONTROL Pubblico]** e **[!UICONTROL Escludi]** attivi
 
 Puoi rimuovere un’attività dall’area di lavoro in qualsiasi momento facendo clic sul pulsante Elimina nel riquadro a destra.  Se l’attività da eliminare è un elemento padre di altre attività della composizione, viene visualizzato un messaggio che consente di specificare se si desidera eliminare solo l’attività selezionata o tutte le relative attività secondarie.
 
-### Attività pubblico {#audience}
+### Attività Pubblico {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_audience"
->title="Attività pubblico"
->abstract="L’attività Pubblico ti consente di includere nella composizione profili aggiuntivi appartenenti a un pubblico esistente."
+>title="Attività Pubblico"
+>abstract="L’attività Pubblico consente di includere nella composizione profili aggiuntivi appartenenti a un pubblico esistente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_merge_types"
@@ -100,17 +100,17 @@ La **[!UICONTROL Pubblico]** l’attività ti consente di includere nella compos
 
 La configurazione di questa attività è identica a quella iniziale [Attività pubblico](#starting-audience).
 
-### Escludi attività {#exclude}
+### Attività di esclusione {#exclude}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude_type"
 >title="Tipo di esclusione"
->abstract="Utilizza il tipo di pubblico Escludi per escludere i profili appartenenti a un pubblico esistente. L’opzione Escludi utilizzando il tipo di attributo ti consente di escludere i profili basati su un attributo specifico."
+>abstract="Utilizza il tipo Escludi pubblico per escludere i profili appartenenti a un pubblico esistente. Il tipo Escludi con attributo consente di escludere i profili in base a un attributo specifico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_exclude"
->title="Escludi attività"
->abstract="L’attività Escludi ti consente di escludere i profili dalla composizione selezionando un pubblico esistente o utilizzando una regola."
+>title="Attività di esclusione"
+>abstract="L’attività di esclusione consente di escludere i profili dalla composizione selezionando un pubblico esistente o utilizzando una regola."
 
 La **[!UICONTROL Escludi]** l’attività ti consente di escludere i profili dalla composizione. Sono disponibili due tipi di esclusione:
 
@@ -130,8 +130,8 @@ La **[!UICONTROL Escludi]** l’attività ti consente di escludere i profili dal
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
->title="Attività di arricchimento"
->abstract="Utilizza l’attività Arricchisci per escludere i profili appartenenti a un pubblico esistente. L’opzione Escludi utilizzando il tipo di attributo ti consente di escludere i profili basati su un attributo specifico."
+>title="Attività Arricchisci"
+>abstract="Utilizza l’attività Arricchisci per escludere i profili appartenenti a un pubblico esistente. Il tipo Escludi con attributo consente di escludere i profili in base a un attributo specifico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -141,7 +141,7 @@ La **[!UICONTROL Escludi]** l’attività ti consente di escludere i profili dal
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_criteria"
 >title="Criteri di arricchimento"
->abstract="Seleziona i campi da utilizzare come chiave di riconciliazione tra il set di dati sorgente, ovvero il pubblico, e il set di dati di arricchimento."
+>abstract="Seleziona i campi da utilizzare come chiave di riconciliazione tra il set di dati di origine, ovvero il pubblico, e il set di dati di arricchimento."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
@@ -170,12 +170,12 @@ Una volta pubblicata la composizione, gli attributi selezionati sono associati a
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
->title="Attività di classificazione"
->abstract="L’attività Classifica ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, includi i 50 profili con la maggiore quantità di punti fedeltà."
+>title="Attività Classificazione"
+>abstract="L’attività Classificazione consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
->title="Aggiungi limite profilo"
+>title="Aggiungere un limite di profili"
 >abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione."
 
 La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà.
@@ -190,7 +190,7 @@ La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i 
 
    ![](assets/audiences-rank.png)
 
-### Dividi attività {#split}
+### Attività Dividi {#split}
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -199,13 +199,13 @@ La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
->title="Dividi attività"
->abstract="L’attività Dividi ti consente di dividere la composizione in più percorsi. Quando si pubblica la composizione, un pubblico viene salvato in Adobe Experience Platform per ogni percorso."
+>title="Attività Dividi"
+>abstract="L’attività Dividi consente di dividere la composizione in più percorsi. Quando pubblichi la composizione, viene salvato un pubblico per ogni percorso in Adobe Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
 >title="Tipo di divisione"
->abstract="Utilizza il tipo di suddivisione percentuale per dividere in modo casuale i profili in più percorsi. Il tipo di suddivisione dell’attributo consente di suddividere i profili in base a un attributo specifico."
+>abstract="Utilizza il tipo di divisione percentuale per dividere in modo casuale i profili in più percorsi. Il tipo di divisione per attributo consente invece di dividere i profili in base a un attributo specifico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_otherprofiles_text"
@@ -214,7 +214,7 @@ La **[!UICONTROL Classificazione]** l’attività ti consente di classificare i 
 
 La **[!UICONTROL Divisione]** l’attività ti consente di dividere la composizione in più percorsi.
 
-Questa operazione aggiunge automaticamente una **[!UICONTROL Salva]** attività alla fine di ogni percorso. Quando si pubblica la composizione, un pubblico viene salvato in Adobe Experience Platform per ogni percorso.
+Questa operazione aggiunge automaticamente una **[!UICONTROL Salva]** attività alla fine di ogni percorso. Quando pubblichi la composizione, viene salvato un pubblico per ogni percorso in Adobe Experience Platform.
 
 Sono disponibili due tipi di operazioni suddivise:
 

@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="Rapporto live dei percorsi"
->abstract="Il rapporto Percorso dal vivo ti consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni dei tuoi percorsi solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori del percorso. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto live dei percorsi consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di un percorso. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 È possibile accedere al rapporto percorso live direttamente dal percorso con **[!UICONTROL Visualizza rapporto]** pulsante .
 

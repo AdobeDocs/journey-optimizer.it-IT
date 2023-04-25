@@ -12,7 +12,7 @@ exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
->title="Eventi aziendali"
->abstract="La configurazione dell’evento ti consente di definire le informazioni che Journey Optimizer riceverà sotto forma di eventi. È possibile utilizzare più eventi (in diversi passaggi di un percorso) e diversi percorsi possono utilizzare lo stesso evento. A differenza degli eventi unitari, gli eventi aziendali non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole."
+>title="Eventi di business"
+>abstract="La configurazione dell’evento consente di definire le informazioni che Journey Optimizer riceverà sotto forma di eventi. All’interno dei vari passaggi di un percorso puoi utilizzare più eventi, e uno stesso evento può essere utilizzato in più percorsi. A differenza degli eventi unitari, gli eventi di business non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole."
 
-A differenza degli eventi unitari, gli eventi aziendali non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole. Ulteriori informazioni sugli eventi aziendali in [questa sezione](../event/about-events.md).
+A differenza degli eventi unitari, gli eventi di business non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole. Ulteriori informazioni sugli eventi aziendali in [questa sezione](../event/about-events.md).
 
 I percorsi basati su segmenti di lettura possono essere attivati in una sola volta, da un programmatore regolarmente o da un evento aziendale, quando si verifica l’evento.
 

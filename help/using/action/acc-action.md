@@ -12,7 +12,7 @@ exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 7%
+ht-degree: 22%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Azioni Adobe Campaign v7/v8"
->abstract="Questa integrazione è disponibile per Adobe Campaign Classic v7 e v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign. La connessione tra le istanze Journey Optimizer e Campaign viene impostata per Adobe al momento del provisioning."
+>abstract="Questa integrazione è disponibile per Adobe Campaign Classic v7 e v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign. La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning."
 
-Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 7.1 e Adobe Campaign v8. Ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
+Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 7.1 e Adobe Campaign v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
-La connessione tra le istanze Journey Optimizer e Campaign viene impostata per Adobe al momento del provisioning.
+La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning.
 
 In questo viene presentato un caso d’uso end-to-end [sezione](../building-journeys/ajo-ac.md).
 

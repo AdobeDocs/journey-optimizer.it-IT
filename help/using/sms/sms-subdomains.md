@@ -10,7 +10,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
 >title="Delega un sottodominio SMS"
->abstract="Configurerai il tuo sottodominio per l’uso di SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un altro sottodominio."
+>abstract="Configurerai il tuo sottodominio per l’uso di SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
 >title="Delega un sottodominio SMS"
->abstract="È necessario configurare un sottodominio da utilizzare per i messaggi SMS, in quanto sarà necessario questo sottodominio per creare una superficie SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un nuovo sottodominio."
+>abstract="È necessario configurare un sottodominio da utilizzare per i messaggi SMS, in quanto sarà necessario questo sottodominio per creare una superficie SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="Creare superfici SMS"
 
 >[!CONTEXTUALHELP]
@@ -98,7 +98,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_subdomain_dns"
->title="Genera il record DNS corrispondente"
+>title="Generare il record DNS corrispondente"
 >abstract="Per configurare un nuovo sottodominio SMS, è necessario copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per creare le superfici SMS."
 
 Per configurare un nuovo sottodominio, effettua le seguenti operazioni.

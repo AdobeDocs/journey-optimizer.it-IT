@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto live sulla pagina di destinazione
+title: Rapporto live delle pagine di destinazione
 description: Scopri come utilizzare i dati dal rapporto live delle pagine di destinazione
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Rapporto live sulla pagina di destinazione {#lp-report-live}
+# Rapporto live delle pagine di destinazione {#lp-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
->title="Rapporto live sulla pagina di destinazione"
->abstract="Il rapporto live della pagina di destinazione consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni della pagina di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
+>title="Rapporto live delle pagine di destinazione"
+>abstract="Il rapporto live delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di delle pagine di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 La pagina di destinazione **[!UICONTROL Report live]** Il rapporto mostra i dettagli sull’impatto delle pagine di destinazione solo nelle ultime 24 ore. Per misurare i dati della pagina di destinazione in un periodo di tempo selezionato, consulta [Rapporto globale sulla pagina di destinazione](lp-report-global.md).
 

@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
@@ -108,12 +108,12 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add_header"
->title="Aggiungi indirizzi o domini all’elenco Consentiti"
+>title="Aggiungere indirizzi o domini all’elenco Consentiti"
 >abstract="Puoi aggiungere manualmente nuovi indirizzi e-mail o domini all’elenco Consentiti selezionandoli uno per uno."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"
->title="Aggiungi indirizzi o domini all’elenco Consentiti"
+>title="Aggiungere indirizzi o domini all’elenco Consentiti"
 >abstract="Puoi aggiungere manualmente nuovi indirizzi e-mail o domini all’elenco Consentiti selezionandoli uno per uno."
 
 È possibile compilare manualmente i [!DNL Journey Optimizer] elenco Consentiti aggiungendo un indirizzo e-mail o un dominio tramite l’interfaccia utente.
@@ -189,7 +189,7 @@ Per esportare l’elenco Consentiti come file CSV, segui la procedura seguente:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="Gestire l’elenco Consentiti"
->abstract="Quando l’elenco Consentiti viene attivato, solo i destinatari inclusi nell’elenco Consentiti riceveranno messaggi e-mail da questa sandbox. Quando è disattivato, tutti i destinatari riceveranno e-mail."
+>abstract="Quando l’elenco Consentiti viene attivato, solo i destinatari inclusi nell’elenco Consentiti riceveranno messaggi e-mail da questa sandbox. Quando è disattivato, tutti i destinatari riceveranno le e-mail."
 
 Quando l’elenco Consentiti è [attivo](#enable-allow-list), si applica la logica seguente:
 

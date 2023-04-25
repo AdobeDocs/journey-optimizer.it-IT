@@ -10,7 +10,7 @@ exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 6%
+ht-degree: 17%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain_header"
->title="Creare un predefinito per pagina di destinazione"
->abstract="Per creare una pagina di destinazione e sfruttarla tramite Journey Optimizer, devi creare un predefinito per pagina di destinazione che includa il sottodominio da utilizzare."
+>title="Creare un predefinito per la pagina di destinazione"
+>abstract="Per creare una pagina di destinazione e utilizzarla tramite Journey Optimizer, devi creare un predefinito per pagina di destinazione che includa il sottodominio da utilizzare."
 
 Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
 
@@ -37,7 +37,7 @@ Per accedere ai predefiniti della pagina di destinazione, effettua le seguenti o
 
    ![](assets/lp_preset-details.png)
 
-## Creare un predefinito per pagina di destinazione {#lp-create-preset}
+## Creare un predefinito per la pagina di destinazione {#lp-create-preset}
 
 Per creare un predefinito per una pagina di destinazione, segui i passaggi riportati di seguito.
 

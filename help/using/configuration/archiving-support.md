@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1133'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -34,8 +34,8 @@ Regolamenti come l&#39;HIPAA richiedono che [!DNL Journey Optimizer] dovrebbe fo
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
->title="Definire un indirizzo e-mail CCN"
->abstract="Puoi conservare una copia delle e-mail inviate inviandole a una casella in entrata CCN. Inserisci l’indirizzo e-mail desiderato in modo che ogni e-mail inviata venga copiata in modalità cieca in questo indirizzo CCN. Il dominio dell’indirizzo CCN non deve essere lo stesso di qualsiasi sottodominio delegato ad Adobe. Questa funzione è facoltativa."
+>title="Definire un indirizzo e-mail Ccn"
+>abstract="Per conservare una copia delle e-mail inviate, puoi includere nell’invio un indirizzo e-mail in Ccn. Immetti l’indirizzo e-mail desiderato in modo che ogni e-mail venga inviata anche in copia per conoscenza nascosta a questo indirizzo Ccn. Il dominio dell’indirizzo Ccn non deve essere lo stesso di un sottodominio delegato ad Adobe. Questa funzione è facoltativa."
 
 Puoi inviare una copia identica (o copia cieca in carbonio) di un’e-mail inviata da [!DNL Journey Optimizer] a una casella in entrata CCN. Questa funzione opzionale ti consente di conservare copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. Questo sarà invisibile ai destinatari della consegna.
 

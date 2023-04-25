@@ -12,7 +12,7 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
 >title="Copiare un percorso in un’altra sandbox"
->abstract="Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al Percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso."
+>abstract="Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di staging alla sandbox di produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
@@ -31,12 +31,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
 >title="Dettagli oggetto"
->abstract="Questo è il percorso che state per copiare."
+>abstract="Questo è il percorso che stai per copiare."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
 >title="Oggetti dipendenti"
->abstract="Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno."
+>abstract="Questo è l’elenco degli oggetti associati utilizzati nel percorso. Questo elenco mostra il nome, il tipo di oggetto e l’ID Journey Optimizer interno."
 
 Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di Produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ad esempio predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questo [sezione](#limitations).
 
@@ -60,7 +60,7 @@ Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
 
 3. Seleziona la **Sandbox di Target** dal campo a discesa . Sono disponibili solo le sandbox all’interno dell’organizzazione IMS.
 
-4. Consulta la sezione **Oggetti dipendenti** sezione . Elenco degli oggetti associati utilizzati nel percorso. Questo elenco visualizza il nome, il tipo di oggetto e l&#39;ID Journey Optimizer interno.
+4. Consulta la sezione **Oggetti dipendenti** sezione . Questo è l’elenco degli oggetti associati utilizzati nel percorso. Questo elenco mostra il nome, il tipo di oggetto e l’ID Journey Optimizer interno.
 
 5. Fai clic sul pulsante **Copia** , nell’angolo in alto a destra, per iniziare a copiare il percorso nella sandbox di destinazione.
 

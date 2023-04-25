@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività attendi
+title: Attività Attendi
 description: Scopri l’attività attendi
 feature: Journeys
 topic: Content Management
@@ -12,18 +12,18 @@ exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 5%
+ht-degree: 21%
 
 ---
 
-# Attività attendi{#wait-activity}
+# Attività Attendi{#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Attività attendi"
->abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi . Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzazione."
+>title="Attività Attendi"
+>abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
-Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso, puoi utilizzare un **[!UICONTROL Wait]** attività. Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
+Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso, puoi utilizzare un **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
 * [Personalizzato](#custom)

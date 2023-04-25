@@ -11,7 +11,7 @@ exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Creazione di messaggi push"
->abstract="Aggiungi il messaggio push e inizia a personalizzarlo con l’editor espressioni."
+>abstract="Aggiungi il messaggio push e inizia a personalizzarlo con l’editor di espressioni."
 
 ## Creare la notifica push in un percorso o in una campagna {#create}
 
@@ -99,7 +99,7 @@ Per creare una notifica push, segui i passaggi seguenti:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Modalità di consegna rapida"
->abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a una dimensione di pubblico inferiore a 30M."
+>abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a un pubblico di dimensione inferiore a 30 milioni."
 
 La modalità di consegna rapida, precedentemente nota come modalità Burst nei percorsi, è una [!DNL Journey Optimizer] add-on che consente l&#39;invio rapido di messaggi push in grandi volumi attraverso le campagne.
 

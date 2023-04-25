@@ -12,7 +12,7 @@ exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '717'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
 >title="Configurare un pool IP"
->abstract="Con Journey Optimizer puoi creare pool IP per raggruppare gli indirizzi IP dei sottodomini. Questo può migliorare in modo significativo il recapito messaggi e-mail, perché in questo modo puoi impedire che la reputazione di un sottodominio influisca sugli altri sottodomini."
+>abstract="Con Journey Optimizer puoi creare pool IP per raggruppare gli indirizzi IP dei sottodomini. Questo può migliorare in modo significativo il recapito delle e-mail, evitando che la reputazione di un sottodominio influisca sugli altri sottodomini."
 
 ## Informazioni sui pool IP {#about-ip-pools}
 

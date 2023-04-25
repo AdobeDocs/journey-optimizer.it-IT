@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -35,12 +35,12 @@ Per creare una nuova campagna, accedi al **[!UICONTROL Campagne]** menu, quindi 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Per un messaggio di marketing specificando una data di invio, la **Pianificato** Il tipo è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali come reimpostazione della password o abbandono del carrello, l’ **Attivazione dall’API** Il tipo è la scelta migliore."
+>abstract="Per un messaggio di marketing specificando una data di invio, la **Pianificato** Il tipo è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali, relativi ad esempio alla reimpostazione della password o all’abbandono del carrello, il tipo di campagna **Attivata da API** è la scelta migliore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
->title="Categoria campagna"
->abstract="Il valore della categoria è direttamente associato al valore del tipo di campagna. Pianifica tipo di campagna per **Marketing** categoria e tipo attivato dall’API per la categoria **Transazionale**"
+>title="Categoria della campagna"
+>abstract="Il valore della categoria è direttamente associato al valore del tipo di campagna. Il tipo di campagna Pianificato per la categoria **Marketing** e il tipo Attivata da API per la categoria **Transazionale**."
 
 1. In **[!UICONTROL Proprietà]** Specifica come eseguire la campagna. Sono disponibili due tipi di campagne:
 
@@ -143,17 +143,17 @@ In **[!UICONTROL Azioni]** crea il messaggio da inviare con la campagna.
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
->title="Inizio campagna"
+>title="Inizio della campagna"
 >abstract="Specifica la data e l’ora in cui il messaggio deve essere inviato."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
->title="Fine campagna"
+>title="Fine della campagna"
 >abstract="Specifica quando interrompere l’esecuzione di una campagna ricorrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
->title="Trigger delle azioni di Campaign"
+>title="Trigger delle azioni della campagna"
 >abstract="Definisci la frequenza con cui deve essere inviato il messaggio della campagna."
 
 Per impostazione predefinita, le campagne iniziano una volta attivate manualmente e terminano non appena il messaggio è stato inviato una volta.

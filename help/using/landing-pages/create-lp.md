@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1544'
-ht-degree: 2%
+ht-degree: 28%
 
 ---
 
@@ -49,15 +49,15 @@ Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
 >title="Definire e configurare la pagina di destinazione"
->abstract="Per creare una pagina di destinazione, devi selezionare un predefinito, quindi configurare la pagina principale e le sottopagine e infine verificare la pagina prima di pubblicarla."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Pubblicare la pagina di destinazione"
+>abstract="Per creare una pagina di destinazione, devi selezionare un predefinito; configurare la pagina principale e le pagine secondarie; e infine verificare la pagina prima di pubblicarla."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare i predefiniti per pagine di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html?lang=it#publish-landing-page" text="Pubblicare la pagina di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
 >title="Assegnare etichette alla pagina di destinazione"
->abstract="Per proteggere le risorse digitali sensibili, puoi definire autorizzazioni per gestire l’accesso ai dati alla pagina di destinazione utilizzando le etichette."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Controllo dell’accesso a livello di oggetto"
+>abstract="Per proteggere le risorse digitali sensibili, puoi definire autorizzazioni con cui gestire l’accesso ai dati per a pagina di destinazione utilizzando specifiche etichette."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html?lang=it" text="Controllo dell’accesso a livello di oggetto"
 
 I passaggi principali per creare pagine di destinazione sono i seguenti:
 
@@ -97,14 +97,14 @@ Una volta configurati e progettati i [pagina principale](#configure-primary-page
 >id="ajo_lp_primary_page"
 >title="Definire le impostazioni della pagina principale"
 >abstract="La pagina principale viene visualizzata immediatamente dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Progettazione del contenuto della pagina di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=it" text="Progettare il contenuto della pagina di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
 >title="Definire l’URL della pagina di destinazione"
->abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. La prima parte dell’URL richiede l’impostazione di un sottodominio della pagina di destinazione come parte del predefinito selezionato."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurare i sottodomini della pagina di destinazione"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
+>abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. Per la prima parte dell’URL, devi aver già impostato un sottodominio della pagina di destinazione come parte del predefinito selezionato."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=it" text="Configurare i sottodomini della pagina di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare i predefiniti per pagine di destinazione"
 
 La pagina principale è quella immediatamente visualizzata dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web.
 
@@ -116,7 +116,7 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    ![](assets/lp_open-designer.png)
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
+1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -164,18 +164,18 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_subpage"
->title="Definire le impostazioni della pagina secondaria"
->abstract="È possibile aggiungere fino a 2 sottopagine. Ad esempio, è possibile creare una pagina di ringraziamento che verrà visualizzata dopo l’invio del modulo da parte degli utenti, nonché definire una pagina di errore da chiamare in caso di problemi relativi alla pagina di destinazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Progettazione del contenuto della pagina di destinazione"
+>title="Definire le impostazioni delle pagine secondarie"
+>abstract="Puoi aggiungere fino a 2 pagine secondarie. Ad esempio, puoi creare una pagina di ringraziamento da visualizzare dopo l’invio di un modulo, e definire una pagina di errore da richiamare in caso di problemi relativi alla pagina di destinazione."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=it" text="Progettare il contenuto della pagina di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
 >title="Definire l’URL della pagina di destinazione"
->abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. La prima parte dell’URL richiede l’impostazione di un sottodominio della pagina di destinazione come parte del predefinito selezionato."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Configurare i sottodomini della pagina di destinazione"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
+>abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. Per la prima parte dell’URL, devi aver già impostato un sottodominio della pagina di destinazione come parte del predefinito selezionato."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=it" text="Configurare i sottodomini della pagina di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare i predefiniti per pagine di destinazione"
 
-È possibile aggiungere fino a 2 sottopagine. Ad esempio, è possibile creare una pagina di ringraziamento che verrà visualizzata dopo l’invio del modulo da parte degli utenti, nonché definire una pagina di errore da chiamare in caso di problemi relativi alla pagina di destinazione.
+Puoi aggiungere fino a 2 pagine secondarie. Ad esempio, puoi creare una pagina di ringraziamento da visualizzare dopo l’invio di un modulo, e definire una pagina di errore da richiamare in caso di problemi relativi alla pagina di destinazione.
 
 Per definire le impostazioni della pagina secondaria, segui la procedura seguente.
 
@@ -187,7 +187,7 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
    >
    >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare di nuovo l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../email/message-tracking.md#insert-links).
 
-1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
+1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,9 +199,9 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
->title="Visualizzare l’anteprima e verificare la pagina di destinazione"
+>title="Visualizzare l’anteprima e testare la pagina di destinazione"
 >abstract="Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Selezionare i profili di test"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=it" text="Selezionare i profili di test"
 
 Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare la modalità di visualizzazione del contenuto nella pagina di destinazione utilizzando i dati del profilo di test.
 

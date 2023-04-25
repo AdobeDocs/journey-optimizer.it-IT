@@ -9,7 +9,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
@@ -38,13 +38,13 @@ L’utilizzo dei servizi SMS sarà soggetto a termini e condizioni aggiuntivi da
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
 >title="Configurare il fornitore di SMS con Journey Optimizer"
->abstract="Prima di inviare SMS, è necessario integrare le impostazioni del provider con Journey Optimizer. Al termine, dovrai creare una superficie SMS. Questi passaggi devono essere eseguiti da un amministratore di sistema Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="Creare una superficie del canale SMS"
+>abstract="Prima di inviare SMS, devi integrare le impostazioni del provider con Journey Optimizer. Al termine, dovrai creare una superficie SMS. Questi passaggi devono essere eseguiti da un amministratore di sistema di Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=it#message-preset-sms" text="Creare una superficie del canale SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Seleziona la configurazione del fornitore SMS"
->abstract="Seleziona le credenziali API configurate per il fornitore SMS."
+>title="Selezionare la configurazione del fornitore di SMS"
+>abstract="Seleziona le credenziali API configurate per il fornitore di SMS."
 
 Per configurare il fornitore di SMS con Journey Optimizer, procedi come segue:
 
@@ -77,9 +77,9 @@ Dopo aver creato e configurato le credenziali API, è ora necessario creare una 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="Definire la categoria SMS"
->abstract="Seleziona il tipo di messaggi SMS utilizzando questa superficie: Marketing per messaggi SMS promozionali, che richiedono il consenso dell’utente, o transazionali per messaggi SMS non commerciali, come la reimpostazione della password."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Rinuncia nei messaggi SMS di marketing"
+>title="Definire la categoria di SMS"
+>abstract="Seleziona il tipo di messaggi SMS utilizzando questa superficie: Marketing per messaggi SMS promozionali, che richiedono il consenso dell’utente; oppure Transazionale per messaggi SMS non commerciali, come la reimpostazione della password."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#sms-opt-out-management" text="Rinuncia nei messaggi SMS di marketing"
 
 Una volta configurato il tuo canale SMS, devi creare una superficie del canale da cui poter inviare messaggi SMS **[!DNL Journey Optimizer]**.
 

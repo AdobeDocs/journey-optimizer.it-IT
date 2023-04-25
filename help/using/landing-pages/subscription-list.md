@@ -12,7 +12,7 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
 >title="Configurare un elenco di iscrizioni"
->abstract="Crea un elenco di sottoscrizioni per raccogliere i profili che hanno acconsentito alla ricezione di comunicazioni su un oggetto o un evento specifico. "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html#define-subscription-list" text="Creare un elenco di iscrizione"
+>abstract="Crea un elenco di iscrizioni per raccogliere i profili che hanno acconsentito a ricevere comunicazioni su uno specifico argomento o evento. "
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=it#define-subscription-list" text="Creare un elenco di iscrizione"
 
 Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti ai clienti che hanno acconsentito a ricevere comunicazioni su un soggetto/evento/interesse/ecc specifico. su base continuativa. In [!DNL Journey Optimizer], questi clienti con consenso vengono raccolti in un elenco di sottoscrizioni.
 

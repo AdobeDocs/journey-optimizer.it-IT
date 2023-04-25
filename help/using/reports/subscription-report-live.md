@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto live abbonamento
+title: Rapporto live delle iscrizioni
 description: Scopri come utilizzare i dati dei servizi di abbonamento con il rapporto in tempo reale Iscrizione
 feature: Journeys
 topic: Content Management
@@ -11,16 +11,16 @@ exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
 source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Rapporto live abbonamento {#subscription-report-live}
+# Rapporto live delle iscrizioni {#subscription-report-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
->title="Rapporto live abbonamento"
->abstract="Il rapporto live Abbonamento ti consente di misurare e visualizzare in tempo reale l’attività degli abbonati solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio gli abbonamenti e i annullamenti degli abbonamenti. Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget."
+>title="Rapporto live delle iscrizioni"
+>abstract="Il rapporto live delle iscrizioni consente di misurare e visualizzare in tempo reale l’attività degli utenti iscritti solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 Iscrizione **[!UICONTROL Report live]** visualizza i dettagli sull’attività degli abbonati solo nelle ultime 24 ore. Per misurare gli abbonamenti in un periodo di tempo selezionato, consulta [Rapporto globale sottoscrizione](subscription-report-global.md).
 

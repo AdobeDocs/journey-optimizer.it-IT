@@ -12,7 +12,7 @@ exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 9%
+ht-degree: 13%
 
 ---
 
@@ -38,7 +38,7 @@ Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di error
 >id="ajo_admin_suppression_list_bounces"
 >title="Aggiornare la soglia dei tentativi"
 >abstract="Se il valore predefinito non soddisfa le tue esigenze, puoi modificare il numero consentito di mancati recapiti non permanenti consecutivi. Quando il contatore dei tentativi raggiunge la soglia di errore per un indirizzo e-mail specifico, questo indirizzo viene aggiunto all’elenco di soppressione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Comprendere l’elenco di soppressione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=it" text="Informazioni sull’elenco di soppressione"
 
 Nel caso in cui il valore predefinito di 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura seguente.
 

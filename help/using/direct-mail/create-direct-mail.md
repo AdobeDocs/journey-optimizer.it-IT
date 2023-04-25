@@ -13,7 +13,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
->title="Creazione di direct mailing"
->abstract="Crea messaggi di direct mailing in campagne pianificate e progetta i file di estrazione richiesti dai provider di direct mailing per inviare la posta ai tuoi clienti."
+>title="Creazione di direct mail"
+>abstract="Crea messaggi di direct mail in campagne pianificate e progetta i file di estrazione richiesti dai provider di direct mail che desideri inviare ai tuoi clienti."
 
 >[!BEGINSHADEBOX]
 

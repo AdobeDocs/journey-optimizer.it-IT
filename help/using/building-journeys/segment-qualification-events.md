@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Eventi di qualificazione dei segmenti"
->abstract="Questa attività consente al tuo percorso di ascoltare le entrate e le uscite dei profili nei segmenti Adobe Experience Platform per consentire ai singoli utenti di entrare o proseguire in un percorso."
+>abstract="Questa attività consente al percorso di monitorare gli ingressi e le uscite dei profili nei segmenti Adobe Experience Platform per consentire a singoli utenti di entrare o proseguire in un percorso."
 
-Questa attività consente al tuo percorso di ascoltare le entrate e le uscite dei profili nei segmenti Adobe Experience Platform per consentire ai singoli utenti di entrare o proseguire in un percorso. Per ulteriori informazioni sulla creazione di segmenti, consulta questo [sezione](../segment/about-segments.md).
+Questa attività consente al percorso di monitorare gli ingressi e le uscite dei profili nei segmenti Adobe Experience Platform per consentire a singoli utenti di entrare o proseguire in un percorso. Per ulteriori informazioni sulla creazione di segmenti, consulta questo [sezione](../segment/about-segments.md).
 
 Supponiamo che tu abbia un segmento &quot;cliente argento&quot;. Con questa attività, puoi fare entrare tutti i nuovi clienti in argento in un percorso e inviare loro una serie di messaggi personalizzati.
 

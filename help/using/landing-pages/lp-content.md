@@ -12,7 +12,7 @@ exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Utilizzare i componenti per contenuti"
->abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizzare il componente modulo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Aggiungere componenti per contenuti"
+>abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=it#add-content-components" text="Aggiungere componenti per contenuti"
 
 Per progettare il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti di un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
@@ -40,12 +40,12 @@ La finestra di progettazione del contenuto della pagina di destinazione consente
 >id="ac_lp_formfield"
 >title="Impostare i campi del componente modulo"
 >abstract="Definisci in che modo i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definire gli stili del modulo della pagina di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=it#lp-form-styles" text="Definire gli stili del modulo della pagina di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="Cosa succede quando si fa clic sul pulsante"
->abstract="Definire gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
+>title="Eventi successivi al clic sul pulsante"
+>abstract="Definisci gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
 
 Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte dalla pagina di destinazione, utilizza la funzione **[!UICONTROL Modulo]** componente. A questo scopo, segui i passaggi riportati qui sotto.
 

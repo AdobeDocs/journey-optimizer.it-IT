@@ -15,7 +15,7 @@ badge: label="Beta" type="Informativo"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '2013'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -128,7 +128,7 @@ Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento.
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
 >title="Widget di riepilogo"
->abstract="Il widget Riepilogo fornisce una panoramica dei risultati dell&#39;esperimento, specificando se sono conclusivi o meno. Offre un modo rapido e semplice per comprendere il risultato del vostro esperimento."
+>abstract="Il widget di riepilogo fornisce una panoramica dei risultati dell’esperimento, specificando se sono conclusivi o meno. Offre un modo rapido e semplice per comprendere il risultato dell’esperimento."
 
 ![](assets/experimentation_report_3.png)
 

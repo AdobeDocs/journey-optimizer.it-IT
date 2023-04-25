@@ -17,23 +17,23 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
->title="Informazioni sui vincoli di offerta"
->abstract="Con i vincoli, puoi specificare in che modo l’offerta viene prioritizzata e presentata all’utente rispetto ad altre offerte."
+>title="Informazioni sui vincoli delle offerte"
+>abstract="Con i vincoli, puoi specificare in che modo viene assegnata la priorità all’offerta e come viene presentata all’utente rispetto ad altre offerte."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_constraints"
->title="Informazioni sui vincoli di offerta"
->abstract="Con i vincoli, puoi specificare in che modo l’offerta viene prioritizzata e presentata all’utente rispetto ad altre offerte."
+>title="Informazioni sui vincoli delle offerte"
+>abstract="Con i vincoli, puoi specificare in che modo viene assegnata la priorità all’offerta e come viene presentata all’utente rispetto ad altre offerte."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="Informazioni sulla priorità delle offerte"
->abstract="In questo campo puoi specificare le impostazioni di priorità per l’offerta. La priorità è un numero utilizzato per classificare le offerte che soddisfano tutti i vincoli, quali idoneità, date e limiti."
+>abstract="In questo campo, puoi specificare le impostazioni di priorità per l’offerta. La priorità è un numero utilizzato per classificare le offerte che soddisfano tutti i vincoli, come idoneità, data e limiti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
 >title="Impostare la priorità"
->abstract="La priorità consente di definire la priorità dell’offerta rispetto ad altre se l’utente è idoneo per più di un’offerta. Più alta sarà la priorità di un’offerta, maggiore sarà la sua priorità rispetto ad altre offerte."
+>abstract="La priorità consente di definire la priorità dell’offerta rispetto alle altre, se l’utente si qualifica per più di un’offerta. Maggiore è la priorità di un’offerta, maggiore sarà la sua priorità rispetto ad altre offerte."
 
 I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
@@ -41,7 +41,7 @@ I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un�
 
    ![](../assets/offer-eligibility.png)
 
-1. Definisci la **[!UICONTROL Priorità]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Più alta sarà la priorità di un’offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
+1. Definisci la **[!UICONTROL Priorità]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore è la priorità di un’offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
 
    ![](../assets/offer-priority.png)
 
@@ -64,18 +64,18 @@ Ad esempio, se imposti i vincoli seguenti:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definire l’idoneità"
->abstract="Per impostazione predefinita, qualsiasi profilo è idoneo alla presentazione dell’offerta, ma puoi utilizzare segmenti o regole di decisione per limitare l’offerta a profili specifici."
+>abstract="Per impostazione predefinita, l’offerta può essere presentata a qualsiasi profilo, ma puoi utilizzare segmenti o regole di decisione per limitare l’offerta a profili specifici."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
->title="Informazioni sull’idoneità delle offerte"
->abstract="In questa sezione puoi utilizzare le regole di decisione per determinare quali utenti sono idonei per l’offerta."
->additional-url="https://video.tv.adobe.com/v/329373" text="Guarda il video dimostrativo"
+>title="Informazioni sull’idoneità alle offerte"
+>abstract="In questa sezione puoi utilizzare le regole di decisione per determinare quali utenti sono idonei all’offerta."
+>additional-url="https://video.tv.adobe.com/v/329373?captions=ita" text="Guarda il video dimostrativo"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
->title="Stima totale profili"
->abstract="Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati."
+>title="Stima totale dei profili"
+>abstract="Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati."
 
 La **[!UICONTROL Idoneità offerta]** La sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali.
 
@@ -101,7 +101,7 @@ La **[!UICONTROL Idoneità offerta]** La sezione ti consente di limitare l’off
    >
    >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
 
-Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -131,24 +131,24 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
->title="Informazioni sul limite delle offerte"
+>title="Informazioni sui limiti delle offerte"
 >abstract="In questo campo puoi specificare quante volte può essere presentata l’offerta."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Utilizzare il limite"
->abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza il limite per definire il numero massimo di volte in cui è possibile presentare un’offerta."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=it#capping-change-date" text="La modifica delle date può influire sui limiti"
+>title="Utilizzare i limiti"
+>abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza i limiti per definire il numero massimo di volte in cui un’offerta può essere presentata."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=it#capping-change-date" text="Modificare le date può influire sui limiti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
->title="Impostare la frequenza di limitazione"
->abstract="Puoi scegliere di reimpostare il contatore del limite di offerta su base giornaliera, settimanale o mensile. Dopo aver salvato l’offerta, non potrai modificare la frequenza selezionata."
+>title="Impostare la frequenza dei limiti"
+>abstract="Puoi scegliere di reimpostare il contatore dei limiti delle offerte su base giornaliera, settimanale o mensile. Dopo aver salvato l’offerta, non potrai modificare la frequenza selezionata."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping_impression"
 >title="Impression"
->abstract="L’utilizzo delle impression come eventi di limitazione è disponibile solo per i canali in entrata."
+>abstract="È possibile utilizzare le impression come eventi per i limiti solo per i canali in entrata."
 
 La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
@@ -245,7 +245,7 @@ Puoi anche specificare se desideri che il limite sia applicato a tutti gli utent
 
    Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platinum&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito su di essa, ha una maggiore possibilità di agire sulla prossima offerta migliore.
 
-### Limite di frequenza {#frequency-capping}
+### Quota limite {#frequency-capping}
 
 La **[!UICONTROL Frequenza]** La sezione ti consente di definire la frequenza con cui viene reimpostato il conteggio dei limiti. A questo scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
 
@@ -279,8 +279,8 @@ Se ne hai definiti diversi [rappresentazioni](add-representations.md) per l’of
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="La modifica delle date può influire sui limiti"
->abstract="Se a questa offerta viene applicato un limite, questo può essere influenzato quando modifichi la data di inizio o di fine."
+>title="Modificare le date può influire sui limiti"
+>abstract="Se a questa offerta vengono applicati dei limiti, questi possono essere influenzati dalla modifica della data di inizio o di fine."
 
 È necessario prestare attenzione quando si modifica la data di un’offerta, perché questo può avere un impatto sui limiti se vengono soddisfatte le seguenti condizioni:
 
