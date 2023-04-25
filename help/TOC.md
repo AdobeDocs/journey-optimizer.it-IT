@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: ht
-source-wordcount: '1371'
-ht-degree: 100%
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+workflow-type: tm+mt
+source-wordcount: '1365'
+ht-degree: 99%
 
 ---
 
@@ -356,8 +356,7 @@ ht-degree: 100%
       + [Creare un set di dati per raccogliere gli eventi](using/offers/data-collection/create-dataset.md)
       + [Configurare l’acquisizione di eventi](using/offers/data-collection/schema-requirement.md)
    + Creare rapporti di gestione delle decisioni {#create-reports}
-      + [Introduzione agli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
-      + [Informazioni chiave sugli eventi di gestione delle decisioni](using/offers/reports/key-information.md)
+      + [Utilizzare gli eventi di gestione delle decisioni](using/offers/reports/get-started-events.md)
       + [Accedere ai campi XDM degli eventi](using/offers/reports/xdm-fields.md)
    + Esportare il catalogo delle offerte {#export-catalog}
       + [Introduzione all’esportazione del catalogo delle offerte ](using/offers/export-catalog/get-started-export.md)

@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informativo"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,9 +85,9 @@ I passaggi per creare e inviare un messaggio di direct mailing sono i seguenti:
 
 1. Ripeti questi passaggi per aggiungere tutte le colonne necessarie per creare il file di estrazione. È possibile aggiungere fino a 50 colonne.
 
-   ![](assets/direct-mail-complete.png)
-
    Puoi eliminare una colonna in qualsiasi momento selezionandola e facendo clic sul pulsante **[!UICONTROL Rimuovi]** dal pulsante **[!UICONTROL Formattazione]** sezione .
+
+   ![](assets/direct-mail-complete.png)
 
 1. Una volta definito il contenuto della direct mailing, completa la configurazione della campagna.
 
