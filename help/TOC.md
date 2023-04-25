@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -176,8 +176,8 @@ ht-degree: 98%
    + Progettare i contenuti delle e-mail {#design-email}
       + [Introduzione alla progettazione delle e-mail](using/email/get-started-email-design.md)
       + Iniziare a creare contenuti {#start-creating-content}
-         + [Progettazione di contenuti da zero](using/email/content-from-scratch.md)
-         + [Importare il contenuto](using/email/existing-content.md)
+         + [Crea contenuto da zero](using/email/content-from-scratch.md)
+         + [Importa il tuo contenuto](using/email/existing-content.md)
          + [Crea un codice per il tuo contenuto](using/email/code-content.md)
          + [Utilizzare i modelli](using/email/email-templates.md)
       + Creare contenuti {#add-content}
@@ -216,7 +216,7 @@ ht-degree: 98%
    + [Inviare una notifica push](using/push/send-push.md)
    + Configurare le notifiche push{#push-config}
       + [Flusso di notifica push](using/push/push-gs.md)
-      + [Configurare il canale per notifiche push](using/push/push-configuration.md)
+      + [Configurare il canale di notifica push](using/push/push-configuration.md)
       + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
 + Canale SMS{#sms}
    + [Introduzione agli SMS](using/sms/get-started-sms.md)
