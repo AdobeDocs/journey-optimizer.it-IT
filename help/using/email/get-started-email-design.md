@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 18%
+source-wordcount: '461'
+ht-degree: 12%
 
 ---
 
@@ -29,6 +29,14 @@ Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfrutta
 * Migliora l’esperienza dei clienti creando messaggi personalizzati e dinamici basati sugli attributi del loro profilo. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuti dinamici](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
+
+## Best practice per la progettazione e-mail {#best-practices}
+
+Quando invii e-mail, è importante tenere presente che i destinatari possono inoltrarle, il che a volte può causare problemi con il rendering dell’e-mail. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider di posta elettronica utilizzato per l’inoltro, ad esempio, se si utilizza la classe CSS &quot;is-desktop-hidden&quot; per nascondere un’immagine sui dispositivi mobili.
+
+Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione delle e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per desktop che per dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
+
+## Passaggi chiave per la creazione di contenuti e-mail {#key-steps}
 
 Una volta che [è stato aggiunto un messaggio e-mail](create-email.md) a un percorso o a una campagna, puoi iniziare a creare il contenuto dell’e-mail.
 
