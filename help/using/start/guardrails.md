@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 92%
 
 ---
 
@@ -43,6 +43,11 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 
 ## Guardrail di percorso {#journeys-guardrails}
 
+### Guardrail di percorso generale {#journeys-guardrails-journeys}
+
+* Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso.
+* Numero di **percorsi vivi** in un’organizzazione è limitato a 100 per sandbox. Una volta raggiunto questo limite, non puoi più pubblicare un nuovo percorso.
+
 ### Azioni generali {#general-actions-g}
 
 * Non esiste alcuna limitazione di invio.
@@ -67,6 +72,7 @@ I guardrail delle prestazioni e i limiti statici per il processo decisionale son
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”
 * Gli indirizzi IP non sono consentiti
 * Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
+* Non è possibile rimuovere le azioni personalizzate incorporate.
 
 ### Eventi {#events-g}
 
@@ -99,5 +105,6 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ### Editor espressioni {#expression-editor}
 
-* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi segmento, Qualificazione del segmento o Evento di business.
+* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi segmento, Qualificazione del segmento o Evento di business. È necessario creare un nuovo segmento e utilizzare una condizione di segmento nel percorso.
+
 

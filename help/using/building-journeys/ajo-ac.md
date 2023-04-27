@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: percorso, messaggio, campagna, integrazione
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '412'
 ht-degree: 3%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 3%
 # Caso di utilizzo: inviare un messaggio utilizzando Campaign v7/v8 {#campaign-classic-use-case}
 
 Questo caso d’uso illustra tutti i passaggi necessari per inviare un’e-mail utilizzando l’integrazione con Adobe Campaign Classic v7 e Adobe Campaign v8.
+
+>[!NOTE]
+>
+>Per utilizzare questa integrazione, è necessario disporre della build 9125 o successiva di Campaign Classic.
 
 Innanzitutto, creeremo un modello e-mail transazionale in Campaign. Poi, in Journey Optimizer, creeremo l&#39;evento, l&#39;azione e il percorso.
 

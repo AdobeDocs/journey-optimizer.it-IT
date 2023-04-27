@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: percorso, scopri, partenza
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '588'
 ht-degree: 28%
 
 ---
@@ -29,6 +29,11 @@ Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzional
 * Utilizza la **azioni integrate** per l’invio di messaggi progettati in [!DNL Journey Optimizer] o creare **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
 
 * Con il **designer percorsi**, genera i tuoi casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività di lettura segmento, aggiungi delle condizioni e invia messaggi personalizzati.
+
+
+>[!NOTE]
+>
+>Le protezioni e le limitazioni dei percorsi sono descritte in [questa pagina](../start/guardrails.md)
 
 ## Passaggi per creare un percorso{#steps-journey}
 
@@ -98,7 +103,3 @@ Dal momento in cui il percorso verrà pubblicato, i singoli inizieranno a scorre
 Le versioni di percorso possono essere arrestate singolarmente. Tutte le versioni dei percorsi hanno lo stesso nome.
 
 Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e passa alla **Chiuso** stato. Non può accadere alcuna entrata nel percorso. Anche se si interrompe l&#39;ultima versione, la versione precedente rimane chiusa.
-
->[!NOTE]
->
->Ulteriori informazioni sulle versioni di percorso protezioni e limitazioni, in [questa pagina](../start/guardrails.md#journey-versions-limitations)

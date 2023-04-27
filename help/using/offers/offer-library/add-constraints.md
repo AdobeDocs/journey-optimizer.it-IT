@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2357'
 ht-degree: 17%
 
 ---
@@ -215,9 +215,12 @@ La **[!UICONTROL Evento di limitazione]** consente di definire quale campo **[!U
    1. Una volta creata la regola, questa viene visualizzata nella **[!UICONTROL Query evento personalizzata]** campo .
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >Per tutti gli eventi di limitazione, ad eccezione dell’evento decisionale, il feedback della gestione delle decisioni potrebbe non essere raccolto automaticamente, quindi assicurati che i dati siano in arrivo. [Ulteriori informazioni sulla raccolta dati](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>Per tutti gli eventi di tappatura eccetto l’evento decisionale, il feedback della gestione delle decisioni potrebbe non essere raccolto automaticamente, il che potrebbe causare un errato incremento del contatore di tapping. [Ulteriori informazioni](../data-collection/data-collection.md)
+>
+>Per fare in modo che ogni evento di limitazione sia tracciato e contabilizzato nel contatore dei limiti, assicurati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. [Ulteriori informazioni](../data-collection/schema-requirement.md)
 
 ### Conteggio {#capping-count}
 

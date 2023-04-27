@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivazione API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '831'
 ht-degree: 3%
 
 ---
@@ -39,9 +39,7 @@ Per creare una campagna con attivazione API, segui questi passaggi:
 
    ![](assets/api-triggered-type.png)
 
-1. Specifica un titolo e una descrizione per la campagna, quindi configura il messaggio da inviare.
-
-   ![](assets/api-triggered-properties.png)
+1. Specifica un titolo e una descrizione per la campagna, quindi fai clic su **[!UICONTROL Modifica contenuto]** per configurare il messaggio da inviare.
 
    >[!NOTE]
    >

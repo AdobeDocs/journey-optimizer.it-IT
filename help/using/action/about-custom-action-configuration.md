@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 14%
+source-wordcount: '1045'
+ht-degree: 15%
 
 ---
 
@@ -97,35 +97,31 @@ Quando configuri un’azione personalizzata, devi definire quanto segue **[!UICO
    >
    > La **DELETE** metodo non supportato. Se devi aggiornare una risorsa esistente, seleziona la **PUT** metodo .
 
-1. In **[!UICONTROL Intestazioni]** definisci le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno:
-   1. Per aggiungere un campo di intestazione, fai clic su **[!UICONTROL Aggiungi un campo intestazione]**.
-   1. Immetti la chiave del campo intestazione.
-   1. Per impostare un valore dinamico per la coppia chiave-valore, selezionare **[!UICONTROL Variabile]**. In caso contrario, seleziona **[!UICONTROL Costante]**.
+1. Definisci le intestazioni e i parametri di query:
 
-      Ad esempio, per una marca temporale, è possibile impostare un valore dinamico.
+   * In **[!UICONTROL Intestazioni]** sezione, fai clic su **[!UICONTROL Aggiungi un campo intestazione]** definire le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno. La **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi di intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
 
-   1. Se hai selezionato **[!UICONTROL Costante]**, quindi immetti il valore costante.
+   * In **[!UICONTROL Parametri query]** sezione, fai clic su **[!UICONTROL Aggiungi un campo del parametro Query]** per definire i parametri da aggiungere nell’URL.
 
-      Se hai selezionato **[!UICONTROL Variabile]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. Immettere l&#39;etichetta o il nome del campo.
 
-   1. Per eliminare un campo intestazione, posizionare il puntatore sul campo intestazione e fare clic sul pulsante **[!UICONTROL Elimina]** icona.
-   La **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi di intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
+1. Seleziona il tipo: **[!UICONTROL Costante]** o **[!UICONTROL Variabile]**. Se hai selezionato **[!UICONTROL Costante]**, quindi inserisci il valore costante nel **[!UICONTROL Valore]** campo . Se hai selezionato **[!UICONTROL Variabile]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
 
-   Dopo aver aggiunto l’azione personalizzata a un percorso, puoi comunque aggiungergli dei campi di intestazione se il percorso è in stato di bozza. Se non desideri che le modifiche alla configurazione interessino il percorso, duplica l’azione personalizzata e aggiungi i campi di intestazione alla nuova azione personalizzata.
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >Dopo aver aggiunto l’azione personalizzata a un percorso, puoi comunque aggiungere campi di intestazione o parametri di query se il percorso è in stato di bozza. Se non desideri che le modifiche alla configurazione interessino il percorso, duplica l’azione personalizzata e aggiungi i campi alla nuova azione personalizzata.
    >
    >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. Ulteriori informazioni in [questa documentazione](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## Definire i parametri dell’azione {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 In **[!UICONTROL Parametri azione]** incolla un esempio del payload JSON da inviare al servizio esterno.
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ Puoi definire il tipo di parametro (ad esempio: (stringa, numero intero, ecc.).
 
 Puoi anche scegliere se specificare se un parametro è una costante o una variabile:
 
-* Costante significa che il valore del parametro è definito nel riquadro di configurazione dell&#39;azione da un utente tecnico. Il valore sarà sempre lo stesso in tutti i percorsi. Non varia e l’addetto al marketing non lo vedrà quando utilizza l’azione personalizzata nel percorso. Potrebbe trattarsi, ad esempio, di un ID previsto dal sistema di terze parti. In tal caso, il valore passato è rappresentato dal campo a destra della costante/variabile di attivazione/disattivazione.
-* Variabile indica che il valore del parametro varia. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso possono passare liberamente il valore desiderato o specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
+* **Costante** significa che il valore del parametro è definito nel riquadro di configurazione delle azioni da un utente tecnico. Il valore sarà sempre lo stesso in tutti i percorsi. Non varia e l’addetto al marketing non lo vedrà quando utilizza l’azione personalizzata nel percorso. Potrebbe trattarsi, ad esempio, di un ID previsto dal sistema di terze parti. In tal caso, il valore passato è rappresentato dal campo a destra della costante/variabile di attivazione/disattivazione.
+* **Variabile** indica che il valore del parametro varia. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso possono passare liberamente il valore desiderato o specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
 
 ![](assets/customactionpayloadmessage2.png)

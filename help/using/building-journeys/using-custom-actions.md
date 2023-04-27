@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: azione, personalizzata, API, percorso, configurazione, servizio
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 24%
+source-wordcount: '400'
+ht-degree: 25%
 
 ---
 
@@ -55,18 +55,13 @@ L’URL concatenato ha questo modulo:
 
 ![](assets/journey-custom-action-url.png)
 
-### Intestazioni
+### Intestazioni e parametri di query {#headers}
 
-La **[!UICONTROL Configurazione URL]** La sezione mostra i campi di intestazione dinamici, ma non i campi di intestazione costanti. I campi di intestazione dinamica sono campi di intestazione HTTP il cui valore è configurato come variabile. [Maggiori informazioni](../action/about-custom-action-configuration.md).
+La **[!UICONTROL Configurazione URL]** la sezione mostra i campi dell&#39;intestazione dinamica e del parametro query, ma non i campi costanti. I campi dell’intestazione dinamica e dei parametri di query sono definiti come variabili nella schermata di configurazione dell’azione. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 
-Se necessario, specifica il valore dei campi di intestazione dinamici:
+Per specificare il valore dei campi dell’intestazione dinamica e del parametro della query, fai clic all’interno del campo o sull’icona a forma di matita e seleziona il campo desiderato.
 
-1. Seleziona l’azione personalizzata nel percorso.
-1. Nel riquadro di configurazione, fai clic sull’icona a forma di matita accanto al campo di intestazione nel **[!UICONTROL Configurazione URL]** sezione .
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Seleziona un campo e fai clic su **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Parametri azione
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 17%
+source-wordcount: '507'
+ht-degree: 18%
 
 ---
 
@@ -66,9 +66,27 @@ Se hai configurato azioni personalizzate, queste vengono visualizzate anche qui.
 
 ## Best practice {#best-practices}
 
+### Aggiungi un’etichetta
+
 La maggior parte delle attività ti consente di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Descrizione]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### Gestire i parametri avanzati {#advanced-parameters}
+
+La maggior parte delle attività visualizza una serie di parametri avanzati e/o tecnici che non è possibile modificare.
+
+![](assets/journey-advanced-parameters.png)
+
+Per una migliore leggibilità, è possibile nascondere questi parametri utilizzando il **[!UICONTROL Nascondi campi di sola lettura]** pulsante .
+
+![](assets/journey-hide-read-only-fields.png)
+
+In alcuni contesti specifici, è possibile sostituire i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### Aggiungi un percorso alternativo
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 

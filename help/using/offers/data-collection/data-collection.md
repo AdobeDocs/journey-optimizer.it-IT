@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 3%
@@ -57,7 +57,7 @@ Tuttavia, **maggior parte dei canali** richiedere l’invio di dati relativi a i
 
 ### Eventi personalizzati
 
-Puoi inviare un feedback sugli eventi personalizzati legati a un’offerta in Adobe Experience Platform in base alle tue preferenze. Ad esempio, se un’offerta include più pulsanti, come *Interessato*, *Non interessato*, ecc., potresti voler inviare separatamente tali eventi, ma questi possono anche essere inviati come eventi di esperienza. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+Puoi inviare un feedback sugli eventi personalizzati legati a un’offerta in Adobe Experience Platform in base alle tue preferenze. Ad esempio, se un’offerta include più pulsanti, come *Interessato*, *Non interessato*, ecc., potresti voler inviare separatamente tali eventi, ma questi possono anche essere inviati come eventi di esperienza.
 
 ## Invio di dati di feedback
 

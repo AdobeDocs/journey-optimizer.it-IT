@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: codice, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 60%
+source-wordcount: '195'
+ht-degree: 67%
 
 ---
 
@@ -36,9 +36,13 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
 
    ![](assets/code-editor.png)
 
-1. Se desideri aprire E-mail Designer per avviare l’e-mail da un nuovo design, seleziona **[!UICONTROL Cambia il design]** nel menu delle opzioni.
+1. Se desideri cancellare il contenuto e-mail e avviare l’e-mail da un nuovo design, **[!UICONTROL Cambia il design]** nel menu delle opzioni.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Questa azione apre il modello selezionato in E-mail Designer. Da lì puoi completare il design dell’e-mail o tornare all’editor di codice utilizzando l’opzione **[!UICONTROL Passa all’editor di codice]**.
 
 1. Fai clic sul pulsante **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione dei messaggi utilizzando i profili di test. [Ulteriori informazioni](preview.md)
 

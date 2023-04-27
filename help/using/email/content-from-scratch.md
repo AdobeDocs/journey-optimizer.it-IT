@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 keywords: contenuto, editor, e-mail, avvio
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 27%
+source-wordcount: '654'
+ht-degree: 32%
 
 ---
 
-# Progettazione di contenuti da zero {#content-from-scratch}
+# Crea contenuto da zero {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -110,13 +110,11 @@ Per iniziare a creare il contenuto delle , segui i passaggi seguenti:
 
    ![](assets/email_designer_links.png)
 
-1. Se necessario, puoi personalizzare ulteriormente il contenuto facendo clic su **[!UICONTROL Passa all’editor di codice]** dall&#39;alto **Altro** pulsante . [Ulteriori informazioni sull’editor di codice](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. Se necessario, puoi personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** nel menu avanzato. Questo consente di modificare il codice sorgente dell’e-mail, ad esempio per aggiungere tag di tracciamento o HTML personalizzati. [Ulteriori informazioni sull’editor di codice](code-content.md)
 
    >[!CAUTION]
    >
-   >Non è possibile tornare alla finestra di progettazione visiva per questo contenuto dopo il passaggio all’editor di codice.
+   >Dopo il passaggio all’editor di codice, per l’e-mail corrente non è possibile tornare al designer visivo.
 
 1. Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. [Ulteriori informazioni sull’anteprima del messaggio e-mail](preview.md)
 

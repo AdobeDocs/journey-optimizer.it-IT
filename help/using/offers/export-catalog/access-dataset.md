@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 10%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
@@ -21,10 +21,8 @@ Il catalogo delle offerte esportato è accessibile in Adobe Experience Platform 
 
 Fai clic su un set di dati per accedere ai relativi dettagli.
 
+La **[!UICONTROL Anteprima set di dati]** consente di visualizzare il batch di successo più recente nel set di dati.
+
 ![](../assets/dataset-activity.png)
-
-La **[!UICONTROL Anteprima set di dati]** consente di visualizzare il batch di successo più recente nel set di dati. Il riquadro a sinistra fornisce informazioni sui tipi di dati esportati.
-
-![](../assets/dataset-preview.png)
 
 Per ulteriori informazioni su come consultare e utilizzare i set di dati, consulta [questa pagina](../../data/get-started-datasets.md).

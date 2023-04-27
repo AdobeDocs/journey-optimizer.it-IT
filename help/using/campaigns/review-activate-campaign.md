@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -31,8 +31,6 @@ Una volta configurata la campagna, devi rivederne il parametro e il contenuto pr
    ![](assets/create-campaign-alerts.png)
 
 1. Verifica che la campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
-
-   ![](assets/create-campaign-review.png)
 
 1. La campagna viene ora attivata. Il suo status è **[!UICONTROL Live]** oppure **[!UICONTROL Pianificato]** se hai inserito una data di inizio. [Ulteriori informazioni sugli stati delle campagne](get-started-with-campaigns.md#statuses).
 

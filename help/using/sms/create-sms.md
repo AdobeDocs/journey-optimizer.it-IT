@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 14%
+source-wordcount: '578'
+ht-degree: 13%
 
 ---
 
@@ -40,7 +40,7 @@ Sfoglia le schede seguenti per scoprire come aggiungere un messaggio SMS in una 
 
    Per ulteriori informazioni su come configurare un percorso, consulta [questa pagina](../building-journeys/journey-gs.md)
 
-<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   La **[!UICONTROL Superficie]** Il campo è precompilato, per impostazione predefinita, con l’ultima superficie utilizzata dall’utente per quel canale.
 
 Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL Modifica contenuto]** pulsante . [Definire il contenuto SMS](#sms-content)
 

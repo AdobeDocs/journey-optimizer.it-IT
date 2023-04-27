@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 8%
+source-wordcount: '1049'
+ht-degree: 7%
 
 ---
 
@@ -30,6 +30,7 @@ La campagna **[!UICONTROL Report live]** La pagina verrà visualizzata con le se
 * [E-mail](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [Web](#web-tab)
 
 La campagna **[!UICONTROL Report live]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/live-report.md#modify-dashboard).
 
@@ -162,6 +163,25 @@ La **[!UICONTROL Prestazioni SMS per data]** il widget descrive le informazioni 
 * **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
 
 La **[!UICONTROL Escludi motivi]**, **[!UICONTROL Motivi dei rimbalzi]** e **[!UICONTROL Motivi dell’errore]** grafici e tabelle ti consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
++++
+
+## Scheda Web {#web-tab}
+
+Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL Web]** scheda descrive le informazioni principali relative alle pagine Web.
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il report Web.
+
+La **[!UICONTROL Prestazioni web]** I KPI descrivono in dettaglio le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
+
+* **[!UICONTROL Impressioni univoche]**: numero di utenti univoci a cui è stata distribuita l’esperienza web.
+
+* **[!UICONTROL Impressioni]**: numero totale di esperienze web distribuite a tutti gli utenti.
+
+* **[!UICONTROL Clic]**: numero totale di visite URL.
+
+La **[!UICONTROL Riepilogo web]** Il grafico mostra l’evoluzione delle esperienze web (impression, impression univoche e clic) per il periodo in questione.
+
+La **[!UICONTROL Clic per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
 +++
 
 ## Risorse aggiuntive

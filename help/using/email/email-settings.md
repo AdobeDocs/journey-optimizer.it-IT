@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 9%
+source-wordcount: '1739'
+ht-degree: 8%
 
 ---
 
@@ -243,9 +243,23 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-È inoltre possibile modificare **[!UICONTROL Valore]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui puoi selezionare gli attributi contestuali desiderati e/o modificare direttamente il testo.
+È inoltre possibile modificare **[!UICONTROL Valore]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui puoi selezionare gli attributi contestuali disponibili e/o modificare direttamente il testo.
 
 ![](assets/preset-url-tracking-editor.png)
+
+I seguenti valori predefiniti sono disponibili tramite l’editor espressioni:
+
+* **ID azione origine**: ID dell’azione E-mail aggiunta al percorso o alla campagna.
+
+* **Nome azione origine**: nome dell’azione E-mail aggiunta al percorso o alla campagna.
+
+* **ID sorgente**: ID del percorso o della campagna con cui è stata inviata l’e-mail.
+
+* **Nome origine**: nome del percorso o della campagna con cui è stata inviata l’e-mail.
+
+* **ID versione sorgente**: ID del percorso o della versione della campagna con cui è stato inviato il messaggio e-mail.
+
+* **ID offerta**: ID dell’offerta utilizzata nell’e-mail.
 
 >[!NOTE]
 >

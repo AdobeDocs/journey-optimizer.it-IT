@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informativo"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '517'
+ht-degree: 9%
 
 ---
 
@@ -60,8 +60,6 @@ I passaggi per creare e inviare un messaggio di direct mailing sono i seguenti:
    ![](assets/direct-mail-campaign.png)
 
 1. Fai clic su **[!UICONTROL Crea]** quindi definisci le informazioni di base sulla campagna (nome, descrizione). [Scopri come configurare una campagna](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il file di estrazione da inviare al provider di direct mailing.
 

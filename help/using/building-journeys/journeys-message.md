@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 22%
 
 ---
@@ -85,6 +85,10 @@ A questo scopo, apri il percorso live, seleziona l’attività messaggio e fai c
 ![](assets/add-a-message2.png)
 
 Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o percorso).
+
+Se hai modificato i dati contestuali, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_201
+
+Se hai modificato gli attributi del profilo, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_202
 
 Per l’attività in-app, è possibile apportare eventuali modifiche al contenuto mentre il percorso è attivo, ma gli attivatori in-app non possono essere modificati.
 

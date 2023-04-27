@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 99%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 99%
    + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web{#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
+   + [Prerequisiti per i canali web](using/web/web-prerequisites.md)
    + [Creare esperienze web](using/web/create-web.md)
    + [Creare pagine web](using/web/author-web.md)
-   + [Estensione Helper per editing video](using/web/visual-editing-helper.md)
-   + [Generazione rapporti Web](using/web/web-report.md)
+   + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
    + [Creare una pagina di destinazione](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 99%
 + Tracciare e monitorare {#reporting}
    + Report live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
+      + [Elenco dei componenti](using/reports/live-report-components.md)
       + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
       + [Rapporto live della campagna](using/reports/campaign-live-report.md)
       + [Pagina di destinazione Live report](using/reports/lp-report-live.md)
       + [Lista abbonamenti Live report](using/reports/subscription-report-live.md)
    + Rapporto globale {#global-report}
       + [Introduzione ai rapporti globali](using/reports/global-report.md)
+      + [Elenco dei componenti](using/reports/global-report-components.md)
       + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
       + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
       + [Pagina di destinazione Global report](using/reports/lp-report-global.md)

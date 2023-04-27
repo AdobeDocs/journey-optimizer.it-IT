@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '2036'
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ La campagna **[!UICONTROL Report globale]** La pagina verrà visualizzata con le
 * [In-app](#inapp-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [Web](#web-tab)
 
 La campagna **[!UICONTROL Report globale]** è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della campagna. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
 
@@ -50,7 +51,7 @@ La **[!UICONTROL Statistiche di Campaign]** i dettagli del widget forniscono le 
 
 * **[!UICONTROL Azioni consegnate]**: Numero totale di volte in cui un’azione nel percorso è stata consegnata.
 
-* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
+* **[!UICONTROL Azioni non riuscite in %]**: Numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata recapitata.
 
 ## Scheda E-mail {#email-global}
 
@@ -281,6 +282,27 @@ La **[!UICONTROL Escludi motivi]**, **[!UICONTROL Motivi dei rimbalzi]** e **[!U
 
 La **[!UICONTROL SMS - Clic tramite collegamenti]** e **[!UICONTROL SMS - Statistiche di tracciamento]** I widget descrivono nel dettaglio le informazioni principali relative al coinvolgimento dei visitatori con gli URL.
 
++++
+
+## Scheda Web {#web-tab}
+
+Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL Web]** scheda descrive le informazioni principali relative alle pagine Web.
+
+![](assets/web-report.png)
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il report Web.
+
+La **[!UICONTROL Prestazioni web]** I KPI descrivono in dettaglio le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
+
+* **[!UICONTROL Impressioni univoche]**: numero di utenti univoci a cui è stata distribuita l’esperienza web.
+
+* **[!UICONTROL Impressioni]**: numero totale di esperienze web distribuite a tutti gli utenti.
+
+* **[!UICONTROL Frequenza di clic]**: percentuale di visitatori che hanno interagito con i vari elementi delle pagine web.
+
+La **[!UICONTROL Riepilogo web]** Il grafico mostra l’evoluzione delle esperienze web (impression, impression univoche e clic) per il periodo in questione.
+
+La **[!UICONTROL Clic per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
 +++
 
 ## Risorse aggiuntive

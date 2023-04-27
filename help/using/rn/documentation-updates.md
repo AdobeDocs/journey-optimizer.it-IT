@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2572'
-ht-degree: 100%
+source-wordcount: '2711'
+ht-degree: 94%
 
 ---
 
@@ -17,9 +17,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Aprile 2023 {#apr-2023}
 
+* Tutte le nuove funzionalità e i miglioramenti apportati [!DNL Journey Optimizer] La versione del 23 aprile è stata descritta nella documentazione. [Ulteriori informazioni](release-notes.md)
 * Adobe Experience Manager Assets Essentials e Adobe Stock sono stati aggiunti alla pagina di integrazione per più soluzioni. [Ulteriori informazioni](../start/ajo-integrations.md)
 * L’avviso relativo ai sottodomini e-mail a più livelli non consentiti è stato rimosso in quanto ora sono supportati. [Ulteriori informazioni](../configuration/delegate-subdomain.md)
-* È stata aggiunta una nota per specificare che, se vengono apportate modifiche a una decisione di offerta utilizzata nel messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+* È stata aggiunta una nota per specificare che, se vengono apportate modifiche a una decisione di offerta utilizzata in un messaggio del percorso, devi annullare la pubblicazione del percorso e ripubblicarlo. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
+* Nella gestione delle decisioni è stata chiarita la spiegazione su come garantire che gli eventi siano correttamente contabilizzati nel contatore dei tappi **Evento di limitazione** sezione . [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping-event)
+* È stata aggiunta una nuova sezione al **Modificare gli indirizzi di esecuzione** pagina. Specifica che è possibile sovrascrivere il campo di esecuzione impostato globalmente nei parametri avanzati del percorso, ma la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
+* La **Tracciamento URL** Questa sezione fornisce l’elenco e la descrizione di tutti gli attributi contestuali che possono essere impostati per il tracciamento degli URL in una superficie di un canale e-mail. [Ulteriori informazioni](../offers/offer-library/add-constraints.md)
 
 ## Marzo 2023 {#march-2023}
 

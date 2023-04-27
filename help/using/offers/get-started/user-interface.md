@@ -6,56 +6,45 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 39%
+source-wordcount: '662'
+ht-degree: 37%
 
 ---
 
 # Interfaccia utente {#user-interface}
 
-La Libreria offerte consente di creare e gestire posizionamenti e offerte in un’unica posizione, nonché di accedere a tutte le decisioni create.
+La **[!UICONTROL Gestione delle decisioni]** nella barra a sinistra sono disponibili due menu che consentono di accedere alle funzionalità di gestione delle decisioni:
 
->[!NOTE]
->
->Se riscontri dei problemi nell’accesso alla Libreria offerte o ad alcune delle sue funzioni, verifica con un utente amministratore che ti siano stati concessi i diritti richiesti. Vedi [Concedere l’accesso alla gestione delle decisioni](starting-offer-decisioning.md#granting-acess-to-decision-management).
+Utilizza la **[!UICONTROL Offerte]** menu per gestire e distribuire le offerte:
 
-Utilizza la  **[!UICONTROL Offerte]** per gestire offerte personalizzate e di fallback, organizzarle in raccolte e distribuirle mediante la creazione di decisioni:
-
-* **[!UICONTROL Panoramica]**: Da nuovo a [!DNL decision management]? Segui i passaggi sullo schermo per iniziare a impostare posizionamenti, offerte e raccolte. Quando già conosci [!DNL decision management], ottenere una panoramica delle offerte, delle raccolte e delle decisioni più recenti. Consulta [Panoramica](#overview).
-
-* **[!UICONTROL Offerte]**: Accedi alle tue offerte personalizzate e di fallback o creane di nuove. Consulta [Creazione di un’offerta](../offer-library/creating-personalized-offers.md) e [Creazione di un’offerta di fallback](../offer-library/creating-fallback-offers.md).
-
-* **[!UICONTROL Raccolte]**: Crea e gestisci raccolte di offerte statiche e dinamiche. Consulta [Informazioni sulle raccolte di offerte](../offer-library/creating-collections.md).
-
-* **[!UICONTROL Decisioni]**: Crea e gestisci le decisioni per distribuire le tue offerte. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
-Utilizza la  **[!UICONTROL Componenti]** per gestire i componenti necessari per creare offerte:
+* **[!UICONTROL Panoramica]**: Da nuovo a [!DNL decision management]? Segui i passaggi sullo schermo per iniziare a impostare posizionamenti, offerte e raccolte. Quando già conosci [!DNL decision management], ottenere una panoramica delle offerte, delle raccolte e delle decisioni più recenti. [Ulteriori informazioni](#overview)
+* **[!UICONTROL Offerte]**: Crea e accedi alle tue offerte personalizzate e di fallback. Scopri come creare [offerte](../offer-library/creating-personalized-offers.md) e [offerte di fallback](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Raccolte]**: Organizza le offerte in raccolte statiche e dinamiche. [Ulteriori informazioni](../offer-library/creating-collections.md)
+* **[!UICONTROL Decisioni]**: Crea e gestisci le decisioni per distribuire le tue offerte. [Ulteriori informazioni](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL Decisioni in batch]**: Distribuisci le decisioni relative alle offerte a tutti i profili in un dato segmento Adobe Experience Platform. [Ulteriori informazioni](../batch-delivery.md)
+* **[!UICONTROL Simulazione]**: Convalida la logica decisionale simulando quali offerte verranno consegnate a un profilo di test per un determinato posizionamento. [Ulteriori informazioni](../offer-activities/simulation.md)
 
-* **[!UICONTROL Posizionamenti]**: Crea e gestisci i posizionamenti in cui verranno visualizzate le offerte. Consulta [Creazione di posizionamenti](../offer-library/creating-placements.md).
-
-* **[!UICONTROL Qualificatori di raccolta]**: Crea e gestisci i qualificatori della raccolta (precedentemente noti come &quot;tag&quot;) per organizzare e filtrare le offerte. Vedi [Creazione di qualificatori di raccolta](../offer-library/creating-tags.md).
-
-* **[!UICONTROL Regole]**: Gestisci le condizioni in cui vengono presentate le offerte. Consulta [Creazione di una regola di decisione](../offer-library/creating-decision-rules.md).
-
-* **[!UICONTROL Classificazioni]**: Crea e gestisci formule di classificazione per determinare quale offerta deve essere presentata per prima per un determinato posizionamento. Consulta [Creare formule di classificazione](../ranking/create-ranking-formulas.md).
+Utilizza la **[!UICONTROL Componenti]** per creare e gestire i componenti necessari per creare offerte e decisioni:
 
 ![](../assets/offer_activities.png)
 
+* **[!UICONTROL Posizionamenti]**: Crea e gestisci i posizionamenti in cui verranno visualizzate le offerte. [Ulteriori informazioni](../offer-library/creating-placements.md)
+* **[!UICONTROL Qualificatori di raccolta]**: Crea e gestisci i qualificatori della raccolta (precedentemente noti come &quot;tag&quot;) per organizzare e filtrare le offerte. [Ulteriori informazioni](../offer-library/creating-tags.md)
+* **[!UICONTROL Regole]**: Gestisci le condizioni in cui vengono presentate le offerte. [Ulteriori informazioni](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL Classifica]**: Crea e gestisci formule di classificazione per determinare quale offerta deve essere presentata per prima per un determinato posizionamento. [Ulteriori informazioni](../ranking/create-ranking-formulas.md)
+
+>[!NOTE]
+>
+>Se riscontri problemi nell’accesso alla gestione delle decisioni o ad alcune delle relative funzioni, verifica con un utente amministratore che ti siano stati concessi i diritti richiesti. Vedi [Concedere l’accesso alla gestione delle decisioni](starting-offer-decisioning.md#granting-acess-to-decision-management).
+
 ## Panoramica {#overview}
 
-Quando hai effettuato una nuova operazione con [!DNL decision management], **[!UICONTROL Panoramica]** La scheda ti guida attraverso i passaggi principali necessari per iniziare a creare la tua prima decisione di offerta.
-
-![](../assets/overview_onboarding.png)
-
-Segui i passaggi sullo schermo per iniziare a creare posizionamenti, offerte e raccolte.
-
-Una volta completati questi primi passaggi, viene richiesto di creare le decisioni relative alle offerte.
-
-![](../assets/overview_collection-created.png)
+Quando hai effettuato una nuova operazione con [!DNL decision management], **[!UICONTROL Panoramica]** La scheda ti guida attraverso i passaggi principali necessari per iniziare a creare la tua prima decisione di offerta. Segui i passaggi sullo schermo per iniziare a creare posizionamenti, offerte e raccolte. Una volta completati questi primi passaggi, viene richiesto di creare le decisioni relative alle offerte.
 
 >[!NOTE]
 >
@@ -95,11 +84,7 @@ Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informaz
 
 Dagli elenchi delle offerte e delle decisioni ora è possibile eseguire azioni in blocco su più elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
 
-![](../assets/bulk-actions.png)
-
 Puoi anche duplicare un’offerta o decisioni esistenti per creare una copia con il **[!UICONTROL Bozza]** stato. Questa operazione può essere eseguita dal riquadro delle informazioni oppure dalla vista dettagliata di un’offerta o di una decisione.
-
-![](../assets/duplicate-offer.png)
 
 ## Registri di modifica di offerte e decisioni {#changes-logs}
 

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -53,11 +53,9 @@ Per ulteriori informazioni su come gestire i criteri, consulta questa [documenta
 Supponiamo ad esempio che vuoi etichettare il campo del gruppo sanguigno come dati sensibili per impedirne l’esportazione verso terze parti. Di seguito sono riportati i passaggi da eseguire:
 
 1. Nel menu a sinistra, nella sezione **Privacy**, fai clic su **Criteri**.
-   ![](assets/action-privacy0.png)
 1. Seleziona la scheda **Etichette** e fai clic su **Crea etichetta**.
    ![](assets/action-privacy1.png)
 1. Definisci un nome e un nome descrittivo per questa etichetta. Ad esempio: _ePHI1_.
-   ![](assets/action-privacy2.png)
 1. Nel menu a sinistra, nella sezione **Gestione dati**, fai clic su **Schemi**, quindi fai clic sul pulsante **Applica etichette di accesso e governance dei dati**. Seleziona lo schema e il campo (gruppo sanguigno) e seleziona l’etichetta appena creata (nel nostro esempio: _ePHI1_).
    ![](assets/action-privacy3.png)
 1. Torna al menu **Criteri**, seleziona la scheda **Azione di marketing** e fai clic su **Crea azione di marketing**. È consigliabile creare un’azione di marketing per ogni azione personalizzata di terze parti utilizzata nei percorsi. Ad esempio, creiamo un’_Azione di marketing Slack_ che verrà utilizzata per l’azione personalizzata Slack.

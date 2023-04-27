@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -128,6 +128,7 @@ Tieni presente che la prima volta che si attiva un evento aziendale non è possi
 La **[!UICONTROL Mostra registro]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Devi aggiornare manualmente la pagina per aggiornare i risultati dei test del percorso.
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 20%
+source-wordcount: '1558'
+ht-degree: 21%
 
 ---
 
@@ -24,7 +24,9 @@ Tali indirizzi e-mail vengono raccolti automaticamente in Journey Optimizer **el
 
 Ulteriori informazioni sul concetto e sull&#39;utilizzo dell&#39;elenco di soppressione in [questa sezione](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>In Adobe viene conservato un elenco aggiornato degli indirizzi danneggiati noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
 ## Accedere all&#39;elenco di soppressione {#access-suppression-list}
 

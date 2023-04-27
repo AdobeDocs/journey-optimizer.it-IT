@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informativo"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 23%
 
 ---
@@ -38,7 +38,7 @@ Cosa troverai in questa documentazione:
 
 >[!AVAILABILITY]
 >
->La composizione del pubblico è attualmente disponibile solo come versione beta privata e può essere soggetta a frequenti aggiornamenti senza preavviso. Il provisioning della versione beta avviene a livello di organizzazione IMS, il che significa che influenzerà tutte le sandbox all’interno della tua organizzazione.
+>La composizione del pubblico è attualmente disponibile solo come versione beta privata e può essere soggetta a frequenti aggiornamenti senza preavviso. Il provisioning della versione beta viene eseguito a livello di organizzazione, il che significa che influenzerà tutte le sandbox all’interno della tua organizzazione.
 
 La composizione del pubblico consente di creare **flussi di lavoro per composizione**, dove puoi combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare varie attività (divise, escluse...) per creare nuovi tipi di pubblico.
 

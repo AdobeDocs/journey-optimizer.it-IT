@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creare, e-mail, inizio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '856'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ Aggiungi un **[!UICONTROL E-mail]** a un percorso o a una campagna e segui i pas
 
    ![](assets/email_journey.png)
 
-<!-- The field is pre-filled, by default, with the last surface used for that channel by the user. -->
+   Il campo viene precompilato, per impostazione predefinita, con l’ultima superficie utilizzata dall’utente per quel canale.
 
 >[!NOTE]
 >
