@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: web, sottodomini, configurazione
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Impostare un sottodominio predefinito"
->abstract="Puoi creare più sottodomini web, ma verrà utilizzato solo il sottodominio predefinito. È possibile modificare il sottodominio Web predefinito, ma è possibile utilizzarne solo uno alla volta."
+>title="Impostare un sottodominio web"
+>abstract="Seleziona un sottodominio dall’elenco dei sottodomini delegati all’Adobe. È possibile impostare questo sottodominio Web come predefinito, ma è possibile utilizzare un solo sottodominio predefinito alla volta."
 
 Durante la creazione di esperienze web, se aggiungi contenuto proveniente da [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) devi configurare il sottodominio che verrà utilizzato per pubblicare il contenuto.
 
@@ -67,11 +68,15 @@ Puoi creare più sottodomini web, ma solo **default** verrà utilizzato il sotto
 
    >[!NOTE]
    >
-   >Solo il **default** verrà utilizzato il sottodominio. È possibile modificare il sottodominio Web predefinito, ma è possibile utilizzarne solo uno alla volta.
+   >Solo il **default** verrà utilizzato il sottodominio.
 
 1. Fai clic su **[!UICONTROL Invia]**. Il sottodominio ottiene il **[!UICONTROL Completato]** stato. È pronto per essere utilizzato per le esperienze web.
 
 1. La **[!UICONTROL Predefinito]** il badge viene visualizzato accanto al sottodominio attualmente utilizzato come predefinito. Per modificare il sottodominio predefinito, seleziona **[!UICONTROL Imposta come predefinito]** dal **[!UICONTROL Altre azioni]** accanto al sottodominio desiderato.
+
+   >[!NOTE]
+   >
+   >È possibile modificare il sottodominio Web predefinito, ma è possibile utilizzarne solo uno alla volta.
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ Puoi creare più sottodomini web, ma solo **default** verrà utilizzato il sotto
 1. È possibile eliminare solo un **[!UICONTROL Non riuscito]** sottodominio per ripulire l’elenco. A questo scopo, seleziona **[!UICONTROL Elimina]** dal **[!UICONTROL Altre azioni]** accanto al sottodominio desiderato.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-

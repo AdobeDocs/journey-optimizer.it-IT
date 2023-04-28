@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 8%
@@ -237,11 +237,13 @@ Per configurare un parametro di tracciamento URL, puoi immettere direttamente i 
 * Action attributes: **Action id**, **Action name**
 * Offer decisioning attributes: **Offer id**, **Offer name**
 
-![](assets/preset-url-tracking-source.png)
+
 
 >[!CAUTION]
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
+
+![](assets/preset-url-tracking-source.png)
 
 È inoltre possibile modificare **[!UICONTROL Valore]** utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui puoi selezionare gli attributi contestuali disponibili e/o modificare direttamente il testo.
 
