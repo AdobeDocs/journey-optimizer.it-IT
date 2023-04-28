@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: collegamenti, tracking, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 51%
+source-wordcount: '885'
+ht-degree: 40%
 
 ---
 
@@ -86,7 +86,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [superficie del canale](../configuration/channel-surfaces.md#email-type) (ad es. predefinito messaggio) durante la creazione del messaggio.
+>I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [superficie del canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
 
 ## Collegare a una pagina mirror {#mirror-page}
 
@@ -132,3 +132,29 @@ Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo tale rita
    * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL.<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Il reporting su aperture e clic è disponibile nella [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).
+
+## Tracciamento URL {#url-tracking}
+
+Di solito [Tracciamento URL](email-settings.md#url-tracking) è gestito a livello di superficie, ma gli attributi di profilo non sono supportati. Attualmente l&#39;unico modo per farlo è quello di [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) in e-mail designer.
+
+Per aggiungere parametri di tracciamento URL personalizzati ai collegamenti, segui i passaggi riportati di seguito.
+
+1. Seleziona un collegamento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
+
+1. Seleziona l’icona di personalizzazione. È disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. Aggiungi il parametro di tracciamento URL e seleziona l’attributo di profilo desiderato dall’editor di espressioni.
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. Salva le modifiche.
+
+1. Ripeti i passaggi precedenti per ogni collegamento a cui desideri aggiungere questo parametro di tracciamento.
+
+Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automaticamente alla fine dell’URL. Puoi quindi acquisire questo parametro negli strumenti di analisi web o nei rapporti sulle prestazioni.
+
+>[!NOTE]
+>
+>Per verificare l’URL finale, puoi [inviare una prova](preview.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
