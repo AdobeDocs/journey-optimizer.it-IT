@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 126d3afcca9801cddeff451fac60f469905f3b85
 workflow-type: tm+mt
-source-wordcount: '2711'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una nota per specificare che, se vengono apportate modifiche a una decisione di offerta utilizzata in un messaggio del percorso, devi annullare la pubblicazione del percorso e ripubblicarlo. [Ulteriori informazioni](../building-journeys/publishing-the-journey.md)
 * Nella gestione delle decisioni è stata chiarita la spiegazione su come garantire che gli eventi siano correttamente contabilizzati nel contatore dei tappi **Evento di limitazione** sezione . [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping-event)
 * È stata aggiunta una nuova sezione al **Modificare gli indirizzi di esecuzione** pagina. Specifica che è possibile sovrascrivere il campo di esecuzione impostato globalmente nei parametri avanzati del percorso, ma la sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, il valore definito come indirizzo principale nei **campi di esecuzione** è quello che deve essere utilizzato. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
-* La **Tracciamento URL** Questa sezione fornisce l’elenco e la descrizione di tutti gli attributi contestuali che possono essere impostati per il tracciamento degli URL in una superficie di un canale e-mail. [Ulteriori informazioni](../offers/offer-library/add-constraints.md)
+* La **Tracciamento URL** Questa sezione fornisce l’elenco e la descrizione di tutti gli attributi contestuali che possono essere impostati per il tracciamento degli URL in una superficie di un canale e-mail. [Ulteriori informazioni](../email/email-settings.md#url-tracking)
 
 ## Marzo 2023 {#march-2023}
 
