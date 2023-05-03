@@ -9,25 +9,25 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
 # Introduzione agli SMS {#get-started-sms}
 
-Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
+Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui loro dispositivi mobili. Puoi creare, personalizzare e visualizzare in anteprima i messaggi in formato testo dall’editor SMS.
 
 È possibile creare le consegne SMS:
 
-* In una **Percorso**: Dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Azioni: SMS]** riquadro a destra per creare il contenuto per il messaggio SMS.
+* In un **percorso**: dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL Azioni: SMS]** per creare il contenuto per il messaggio SMS.
 
-   Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
+   Per ulteriori informazioni sulla modalità di configurazione di un percorso, consulta questa [pagina](../building-journeys/journey-gs.md).
 
-* In una **Campaign**: Dopo aver creato una campagna, seleziona SMS come azione e definisci le impostazioni di base.
+* In una **campagna**: dopo aver creato una campagna, seleziona SMS come azione e definisci le impostazioni di base.
 
-   Per ulteriori informazioni su come configurare la campagna, consulta questo [page](../campaigns/create-campaign.md#configure).
+   Per ulteriori informazioni sulla modalità di configurazione della campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]
@@ -45,7 +45,7 @@ Utilizzo [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui l
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Non fequente" src="../assets/do-not-localize/sms-sending.jpg">
+<img alt="Non frequente" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
 <a href="send-sms.md"><strong>Inviare un messaggio SMS</strong></a>
