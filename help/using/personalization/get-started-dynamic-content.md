@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai contenuti dinamici
-description: Ulteriori informazioni sul contenuto dinamico
+description: Ulteriori informazioni sui contenuti dinamici
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-keywords: espressione, editor, guida introduttiva, condizioni, inizio
+keywords: espressione, editor, introduzione, condizioni, inizio
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 24%
 >title="Condizioni"
 >abstract="Le regole condizionali consentono di visualizzare più varianti di contenuto nei messaggi in base agli attributi del profilo, agli eventi contestuali o ai segmenti di pubblico."
 
-Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base a **regole condizionali** che può essere composta da attributi di profilo, eventi contestuali o segmenti di pubblico. Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor di espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.
+I contenuti dinamici ti consentono di adattare il contenuto dei messaggi in base a **regole condizionali** che possono essere composte da attributi di profilo, eventi contestuali o segmenti di pubblico. Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor di espressioni, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.
 
-È possibile sfruttare le regole condizionali in E-mail Designer e nell’editor di espressioni per **creare contenuto dinamico** che si adatta ai profili target nei messaggi.
+È possibile sfruttare le regole condizionali in E-mail Designer e nell’editor di espressioni per **creare contenuti dinamici** che si adattano ai profili di destinazione nei messaggi.
 
 ![](assets/conditions-overview.png)
 
@@ -34,6 +34,6 @@ Il contenuto dinamico ti consente di adattare il contenuto dei messaggi in base 
 
 ## Video introduttivo {#video}
 
-Scopri come creare contenuto dinamico con il generatore di regole di condizione.
+Scopri come creare contenuti dinamici con il generatore di regole di condizione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
