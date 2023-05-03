@@ -9,13 +9,13 @@ exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 29%
+ht-degree: 55%
 
 ---
 
 # Introduzione agli eventi di gestione delle decisioni {#monitor-offer-events}
 
-Ogni volta che la gestione delle decisioni decide per un determinato profilo, le informazioni relative a tali eventi vengono inviate automaticamente a Adobe Experience Platform.
+Ogni volta che il servizio per la gestione delle decisioni prende una decisione per un determinato profilo, le informazioni relative a tali eventi vengono inviate automaticamente ad Adobe Experience Platform.
 
 Questo ti consente di ottenere informazioni sulle tue decisioni, ad esempio per sapere quale offerta è stata presentata a un dato profilo. Puoi esportare questi dati per analizzarli nel tuo sistema di reporting o sfruttare Adobe Experience Platform [Servizio query](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it) in combinazione con altri strumenti per analisi e reporting migliorati.
 
@@ -36,11 +36,11 @@ Per ulteriori informazioni su tutti i campi XDM inviati con ciascuna decisione, 
 
 ## Accedere ai set di dati {#access-datasets}
 
-I set di dati contenenti eventi di gestione delle decisioni sono accessibili da Adobe Experience Platform **[!UICONTROL Set di dati]** menu. Al momento del provisioning di ciascuna istanza viene creato automaticamente un set di dati.
+I set di dati contenenti eventi di gestione delle decisioni sono accessibili dal menu **[!UICONTROL set di dati]** di Adobe Experience Platform. Al momento del provisioning di ciascuna istanza viene creato automaticamente un set di dati.
 
 ![](../assets/events-datasets-list.png)
 
-Questi set di dati sono basati su **[!UICONTROL Decisioni ODE]** schema, che contiene tutti i campi XDM necessari per inviare informazioni da Gestione decisioni a Adobe Experience Platform.
+Questi set di dati si basano sullo schema **[!UICONTROL ODE DecisionEvents]**, che contiene tutti i campi XDM necessari per inviare informazioni dal servizio di gestione delle decisioni ad Adobe Experience Platform.
 
 >[!NOTE]
 >

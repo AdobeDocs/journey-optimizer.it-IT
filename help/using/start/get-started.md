@@ -58,7 +58,7 @@ Scopri l’architettura di base di [!DNL Adobe Journey Optimizer], i punti di in
 >[!NOTE]
 >
 > Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud sono applicabili anche a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html).
-> Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
+> Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail per il profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it).
 
 
 **Consulta anche**
