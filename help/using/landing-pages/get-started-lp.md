@@ -7,12 +7,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: landing, pagina di destinazione, inizia, inizia
+keywords: destinazione, pagina di destinazione, inizio, inizia
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 ➡️ [Questo video offre ulteriori informazioni sulla configurazione degli abbonamenti e sulla creazione di pagine di destinazione](#video)
 
 * Sfruttamento [!DNL Journey Optimizer] funzionalità di progettazione dei contenuti per creare facilmente **pagine di destinazione reattive**.
-* Configurazione **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.
-* Creare elenchi di sottoscrizione per consentire agli utenti di **abbonamento a un servizio**. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
-* Fornisci ai destinatari **capacità di annullare l’iscrizione** dalla ricezione delle comunicazioni. [Ulteriori informazioni](lp-use-cases.md#opt-out)
-* Invia un **e-mail di conferma** in caso di consenso o rinuncia. [Ulteriori informazioni](lp-use-cases.md#send-confirmation-email)
+* Configura **flussi di consenso e rinuncia** rapidamente e senza soluzione di continuità.
+* Crea elenchi di sottoscrizione per consentire agli utenti di **abbonarsi a un servizio**. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
+* Fornisci ai destinatari la **possibilità di annullare l’iscrizione** dalla ricezione delle comunicazioni. [Ulteriori informazioni](lp-use-cases.md#opt-out)
+* Invia un’**e-mail di conferma** in caso di consenso o rinuncia. [Ulteriori informazioni](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -41,10 +41,10 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 </td>
 <td>
 <a href="subscription-list.md">
-<img alt="Non fequente" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Non frequente" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="subscription-list.md"><strong>Creare elenchi di iscrizioni</strong></a>
+<a href="subscription-list.md"><strong>Creare elenchi di abbonamenti</strong></a>
 </div>
 <p></td>
 <td>
@@ -69,6 +69,6 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 
 ## Video introduttivo{#video}
 
-Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento (un)a un messaggio e configurare percorsi rilevanti.
+Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento o annullamento con un messaggio e configurare percorsi rilevanti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
