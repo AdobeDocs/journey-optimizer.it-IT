@@ -5,30 +5,30 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, messaggio, creazione, avvio
+keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 13%
+ht-degree: 100%
 
 ---
 
 # Introduzione al canale in-app {#gs-in-app}
 
-I messaggi in-app sono notifiche che possono essere inviate agli utenti all’interno dell’app e indirizzate a specifici punti di interesse. Queste notifiche possono essere utilizzate per scopi diversi, ad esempio per promuovere nuove funzioni, presentare offerte speciali o facilitare l’onboarding degli utenti. Sfruttando i messaggi in-app, puoi interagire efficacemente con il pubblico e indirizzarlo verso aspetti importanti della tua applicazione.
+I messaggi in-app sono notifiche che possono essere inviate agli utenti all’interno dell’app per indirizzarli a specifici punti di interesse. Queste notifiche possono essere utilizzate per scopi diversi, ad esempio per promuovere nuove funzioni, presentare offerte speciali o facilitare l’onboarding degli utenti. Sfruttando i messaggi in-app, puoi interagire efficacemente con il pubblico e indirizzarlo verso aspetti importanti della tua applicazione.
 
-Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui layout e visualizzazione dei messaggi, testo e pulsante.
+Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui il layout e la visualizzazione dei messaggi, il testo e le opzioni dei pulsanti di scelta.
 
 ## Prerequisiti{#prerequisites-in-app}
 
 Prima di inviare messaggi in-app, è necessario:
 
-* Configura il canale in-app. [Ulteriori informazioni](inapp-configuration.md)
+* Configurare il canale in-app. [Ulteriori informazioni](inapp-configuration.md)
 
-* Prima di iniziare, assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Prima di iniziare, assicurati di disporre delle autorizzazioni corrette per le campagne di Journey Optimizer. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
-Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come ottenere questo risultato in [questa sezione](create-in-app.md).
+Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -41,7 +41,7 @@ Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Sc
 </td>
 <td>
 <a href="design-in-app.md">
-<img alt="Non fequente" src="../assets/do-not-localize/inapp-design.jpg">
+<img alt="Non frequente" src="../assets/do-not-localize/inapp-design.jpg">
 </a>
 <div>
 <a href="design-in-app.md"><strong>Creare contenuto in-app</strong></a>
