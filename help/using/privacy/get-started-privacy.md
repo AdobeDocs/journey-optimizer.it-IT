@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Adobe Experience Platform e Journey Optimizer forniscono vari strumenti per aiut
 </td>
 <td>
 <a href="audit-logs.md">
-<img alt="Non fequente" src="../assets/do-not-localize/privacy-audit.jpeg">
+<img alt="Non frequente" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
 <div>
 <a href="audit-logs.md"><strong>Controllo delle azioni degli utenti</strong></a>
