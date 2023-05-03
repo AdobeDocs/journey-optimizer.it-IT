@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 25%
 >
 >Se è la prima volta che crei una notifica push, assicurati che il canale push sia stato configurato. [Maggiori informazioni](push-gs.md).
 
-Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in qualsiasi momento, specialmente quando non stanno utilizzando attivamente l’app. Le notifiche push possono aiutarti a raggiungere una varietà di casi d’uso, come fornire aggiornamenti sul tuo servizio, chiedere a un utente di agire, avvisare l’utente di una nuova offerta, ecc. Le piattaforme di dispositivi richiedono l’opt-in prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere l’opt-in dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione oppure in una sessione o in un flusso di lavoro successivi, a seconda dei casi.
+Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in qualsiasi momento, specialmente quando non stanno utilizzando attivamente l’app. Le notifiche push possono aiutarti a raggiungere una varietà di casi d’uso, come fornire aggiornamenti sul servizio, chiedere a un utente di agire, avvisare l’utente di una nuova offerta, ecc. Le piattaforme di dispositivi richiedono il consenso prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere il consenso dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione oppure in una sessione o in un flusso di lavoro successivi, a seconda delle necessità.
 
-[!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti a velocità di throughput leader di settore. Le notifiche push possono includere la personalizzazione e il contesto basato su Percorsi per sfruttare le informazioni sui dati del tuo marchio con Adobe Experience Cloud.
+[!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti ai tassi di velocità leader di settore. Le notifiche push possono includere la personalizzazione e il contesto basato su percorsi per sfruttare le informazioni sui dati del marchio con Adobe Experience Cloud.
 
 Puoi creare le notifiche push:
 
-* In una **Percorso**: Dopo aver aggiunto un’attività push nel percorso e definito le impostazioni di base, utilizza **[!UICONTROL Azioni: Push]** riquadro a destra per creare il contenuto per le notifiche push.
+* In un **percorso**: dopo aver aggiunto un’attività push nel percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL azioni: push]** per creare il contenuto per le notifiche push.
 
-   Per ulteriori informazioni su come configurare il percorso, consulta questo [page](../building-journeys/journey-gs.md).
+   Per ulteriori informazioni sulla modalità di configurazione del percorso, consulta questa [pagina](../building-journeys/journey-gs.md).
 
-* In una **Campaign**: Dopo aver creato una campagna, seleziona Notifica push come azione e definisci le impostazioni di base.
+* In una **campagna**: dopo aver creato una campagna, seleziona notifica push come azione e definisci le impostazioni di base.
 
-   Per ulteriori informazioni su come configurare la campagna, consulta questo [page](../campaigns/create-campaign.md#configure).
+   Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
 
-Utilizza le schede dedicate per definire le impostazioni di notifica push per **iOS** e **Android** sistemi operativi.
+Utilizza le schede dedicate per definire le impostazioni di notifica push per i sistemi operativi **iOS** e **Android**.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Utilizza le schede dedicate per definire le impostazioni di notifica push per **
 </td>
 <td>
 <a href="design-push.md">
-<img alt="Non fequente" src="../assets/do-not-localize/push-design.jpg">
+<img alt="Non frequente" src="../assets/do-not-localize/push-design.jpg">
 </a>
 <div>
 <a href="design-push.md"><strong>Progettare una notifica push</strong></a>
