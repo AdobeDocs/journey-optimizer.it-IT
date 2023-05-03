@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
 source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 15%
 
 Journey Optimizer consente di esportare automaticamente il catalogo delle offerte in Adobe Experience Platform.
 
-L’esportazione crea un set di dati per ogni oggetto della Libreria offerte (consulta [Accedere ai set di dati esportati](../export-catalog/access-dataset.md)). Include:
+L’esportazione crea un set di dati per ogni oggetto della Libreria di offerte (consulta [Accedere ai set di dati esportati](../export-catalog/access-dataset.md)). Include:
 
 * Offerte personalizzate
 * Offerte di fallback
 * Posizionamenti
 * Decisioni
 
-Ogni volta che uno di questi oggetti viene modificato nella Libreria offerte, viene eseguito automaticamente un nuovo processo di esportazione per aggiornare i set di dati.
+Ogni volta che uno di questi oggetti viene modificato nella Libreria di offerte, viene eseguito automaticamente un nuovo processo di esportazione per aggiornare i set di dati.
 
 >[!NOTE]
 >
->Questa funzione non è abilitata per impostazione predefinita. Se desideri utilizzarlo, contatta il contatto Adobe per attivarlo per il catalogo. Una volta attivato, i processi di esportazione verranno automatizzati e non sarà necessaria alcuna azione da parte dell’utente.
+>Questa funzione non è abilitata per impostazione predefinita. Se desideri utilizzarla, contatta Adobe per attivarla per il catalogo. Una volta abilitata, i processi di esportazione verranno automatizzati e non sarà necessaria alcuna azione da parte tua.
