@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione alla configurazione e-mail
-description: Ulteriori informazioni sulla configurazione delle e-mail in [!DNL Journey Optimizer]
+description: Ulteriori informazioni sulla configurazione e-mail in  [!DNL Journey Optimizer]
 role: Admin
 level: Intermediate
 feature: Application Settings
@@ -10,17 +10,17 @@ topic: Administration
 keywords: e-mail, configurazione, superficie, sottodomini
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-#  Introduzione alla configurazione e-mail {#get-starte-email-config}
+# Introduzione alla configurazione e-mail {#get-starte-email-config}
 
 Per inviare e-mail tramite percorsi e campagne in [!DNL Journey Optimizer], devi seguire diversi passaggi di configurazione.
 
-1. Per garantire un recapito messaggi ottimale e proteggere la reputazione, inizia delegando ad Adobe i sottodomini con cui invierai le e-mail [!DNL Journey Optimizer]. Questi sottodomini determineranno elementi quali le pagine web da tracciare e gli URL della pagina speculare. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
+1. Per garantire un recapito messaggi ottimale e proteggere la reputazione, inizia delegando ad Adobe i sottodomini con cui invierai le e-mail con [!DNL Journey Optimizer]. Questi sottodomini determineranno elementi quali le pagine web da tracciare e gli URL della pagina mirror. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
 
    ![](../configuration/assets/subdomain-list.png)
 
@@ -28,18 +28,18 @@ Per inviare e-mail tramite percorsi e campagne in [!DNL Journey Optimizer], devi
 
    ![](../configuration/assets/ip-pool-create.png)
 
-1. Crea superfici del canale e seleziona la **[!UICONTROL E-mail]** canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+1. Crea superfici di canale e seleziona il canale **[!UICONTROL e-mail]**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 
    ![](../configuration/assets/preset-general.png)
 
-1. In ogni superficie del canale e-mail, configura tutti i parametri tecnici necessari per inviare e-mail. [Ulteriori informazioni](email-settings.md)
+1. In ogni superficie di canale e-mail, configura tutti i parametri tecnici necessari per inviare e-mail. [Ulteriori informazioni](email-settings.md)
 
    * In questo punto è possibile selezionare il sottodominio da utilizzare per inviare le e-mail e i pool IP da associare alla superficie. [Ulteriori informazioni](email-settings.md#subdomains-and-ip-pools)
 
    ![](assets/preset-subdomain-ip-pool.png)
 
-   * La **[!UICONTROL Invia e-mail]** e **[!UICONTROL E-mail di errore]** Gli indirizzi devono utilizzare il sottodominio delegato selezionato. [Ulteriori informazioni](email-settings.md#email-header)
+   * Gli indirizzi **[!UICONTROL e-mail mittente]** e **[!UICONTROL e-mail di errore]** devono utilizzare il corrente sottodominio delegato selezionato. [Ulteriori informazioni](email-settings.md#email-header)
 
    ![](assets/preset-header.png)
 
