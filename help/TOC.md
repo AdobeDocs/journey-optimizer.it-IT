@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ ht-degree: 99%
    + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web{#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
-   + [Prerequisiti per i canali web](using/web/web-prerequisites.md)
+   + [Prerequisiti per il canale Web](using/web/web-prerequisites.md)
    + [Creare esperienze web](using/web/create-web.md)
    + [Creare pagine web](using/web/author-web.md)
    + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
