@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 32%
+ht-degree: 57%
 
 ---
 
@@ -20,44 +20,44 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="Aggiungi componenti struttura"
->abstract="I componenti struttura definiscono il layout del messaggio e-mail. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto delle e-mail."
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout del messaggio e-mail. Per iniziare a progettare il contenuto delle e-mail, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="Aggiungi componenti struttura"
->abstract="I componenti struttura definiscono il layout della pagina di destinazione. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto della pagina di destinazione."
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout della pagina di destinazione. Per iniziare a progettare il contenuto della pagina di destinazione, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="Aggiungi componenti struttura"
->abstract="I componenti struttura definiscono il layout del frammento. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto del frammento."
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout del frammento. Per iniziare a progettare il contenuto del frammento, trascina un componente **Struttura** nell’area di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="Aggiungi componenti struttura"
->abstract="I componenti struttura definiscono il layout del modello. Trascina e rilascia una **Struttura** nell’area di lavoro per iniziare a progettare il contenuto del modello."
+>title="Aggiungere i componenti Struttura"
+>abstract="I componenti della struttura definiscono il layout del modello. Per iniziare a progettare il contenuto del modello, trascina un componente **Struttura** nell’area di lavoro."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="Definire le colonne e-mail"
->abstract="E-mail Designer consente di definire facilmente il layout dell’e-mail selezionando la struttura a colonne."
+>title="Definire le colonne di un’e-mail"
+>abstract="E-mail designer consente di definire facilmente il layout delle e-mail definendone la struttura a colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Definire le colonne della pagina di destinazione"
->abstract="Designer consente di definire facilmente il layout della pagina di destinazione selezionando la struttura delle colonne."
+>title="Definire le colonne di una pagina di destinazione"
+>abstract="Designer consente di definire facilmente il layout della pagina di destinazione definendone la struttura a colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Definire le colonne di un frammento"
->abstract="Designer consente di definire facilmente il layout del frammento selezionando la struttura delle colonne."
+>abstract="Designer consente di definire facilmente il layout del frammento definendone la struttura a colonne."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="Definire le colonne dei modelli"
->abstract="Designer consente di definire facilmente il layout del modello selezionando la struttura delle colonne."
+>title="Definire le colonne di un modello"
+>abstract="Designer consente di definire facilmente il layout del modello definendone la struttura a colonne."
 
 
 Utilizza Adobe Journey Optimizer Designer per definire facilmente la struttura dei contenuti. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento, puoi progettare la forma del contenuto in pochi secondi.

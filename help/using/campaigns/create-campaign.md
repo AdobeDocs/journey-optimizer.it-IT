@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -33,7 +33,7 @@ Per creare una nuova campagna, accedi al **[!UICONTROL Campagne]** menu, quindi 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Per un messaggio di marketing specificando una data di invio, la **Pianificato** Il tipo è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali, relativi ad esempio alla reimpostazione della password o all’abbandono del carrello, il tipo di campagna **Attivata da API** è la scelta migliore."
+>abstract="Per un messaggio di marketing con data di invio specificata, il tipo **Pianificato** è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali, relativi ad esempio alla reimpostazione della password o all’abbandono del carrello, il tipo di campagna **Attivata da API** è la scelta migliore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
@@ -88,7 +88,7 @@ In **[!UICONTROL Azioni]** crea il messaggio da inviare con la campagna.
     </td>
     <td>
     <a href="../push/create-push.md">
-      <img alt="Non fequente" src="../assets/do-not-localize/push.jpg">
+      <img alt="Non frequente" src="../assets/do-not-localize/push.jpg">
     </a>
     <div>
     <a href="../push/create-push.md"><strong>Creare notifiche push</strong></a>
