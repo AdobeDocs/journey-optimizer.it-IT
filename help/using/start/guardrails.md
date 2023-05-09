@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1037'
 ht-degree: 92%
 
 ---
@@ -27,11 +27,6 @@ Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utili
 
 * Con [!DNL Journey Optimizer] non è possibile aggiungere allegati a un messaggio e-mail.
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
-
-
-## Guardrail di gestione delle decisioni {#offer-guardrails}
-
-I guardrail delle prestazioni e i limiti statici per il processo decisionale sono elencati nella [pagina di descrizione del prodotto Adobe Offer Decisioning App Service](https://helpx.adobe.com/it/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
