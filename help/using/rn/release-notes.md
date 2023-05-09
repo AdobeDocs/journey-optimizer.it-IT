@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
+source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 100%
+source-wordcount: '1920'
+ht-degree: 97%
 
 ---
 
@@ -64,26 +64,27 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>Nuovo dashboard di Percorso (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> The Journey dashboard is now split in two tabs:</p>
-<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta.</p>
+<p> Il dashboard del Percorso è ora diviso in due schede:</p>
+<ul><li>Utilizza la <strong>Panoramica</strong> per accedere a un nuovo dashboard in cui vengono visualizzate le metriche chiave relative ai percorsi.</li>
+<li>Utilizza la <strong>Sfoglia</strong> per accedere all’elenco di tutti i percorsi.</li></ul>
+<p>Questa funzionalità è accessibile in tutti i percorsi come versione beta pubblica.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-gs.md#journey-access">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 
 <table>
 <thead>
