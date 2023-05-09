@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, prima, start, quick start, segmento, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 19%
+source-wordcount: '1325'
+ht-degree: 18%
 
 ---
 
@@ -38,27 +38,26 @@ Per inviare messaggi con percorsi, sono necessarie le seguenti configurazioni:
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## Percorsi di accesso {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**Sfoglia**: in questa scheda viene visualizzato l’elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**Panoramica**: in questa scheda viene visualizzato un dashboard con metriche chiave correlate ai percorsi:
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
+* **Percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi live includono **Percorsi unitari** (basato su eventi) e **Percorsi batch** (segmento letto).
+* **Frequenza errori**: rapporto tra tutti i profili in errore e il numero totale di profili immessi nelle ultime 24 ore.
+* **Tasso di sconto**: rapporto tra tutti i profili confrontati con il numero totale di profili inseriti nelle ultime 24 ore.
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>Questo dashboard tiene conto dei percorsi con traffico nelle ultime 24 ore. Vengono visualizzati solo i percorsi a cui hai accesso.
 
--->
+![](assets/journeys-dashboard.png)
 
 ## Creare il percorso{#jo-build}
 
@@ -71,15 +70,7 @@ Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i
 
 Di seguito sono riportati i passaggi principali per l’invio di messaggi attraverso i percorsi:
 
-1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Viene visualizzato l’elenco dei percorsi.
-
-   ![](assets/interface-journeys.png)
-
-1. Fai clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. Da **Sfoglia** scheda , fai clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
 
 1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Ulteriori informazioni [sezione](journey-gs.md#change-properties).
 
