@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, sottodomini, configurazione
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 2%
@@ -78,11 +78,11 @@ Puoi creare più sottodomini web, ma solo **default** verrà utilizzato il sotto
 
 1. La **[!UICONTROL Predefinito]** il badge viene visualizzato accanto al sottodominio attualmente utilizzato come predefinito. Per modificare il sottodominio predefinito, seleziona **[!UICONTROL Imposta come predefinito]** dal **[!UICONTROL Altre azioni]** accanto al sottodominio desiderato.
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >È possibile modificare il sottodominio Web predefinito, ma è possibile utilizzarne solo uno alla volta.
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
