@@ -1,15 +1,15 @@
 ---
-title: Prerequisiti per i canali web
+title: Prerequisiti per il canale Web
 description: Per accedere e creare pagine web nell’interfaccia utente di Journey Optimizer, segui i prerequisiti presenti in questa pagina
 feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 10%
+source-wordcount: '872'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +25,7 @@ Per accedere e creare pagine web nel [!DNL Journey Optimizer] interfaccia utente
 
 ## Attenzione
 
-Attualmente in [!DNL Journey Optimizer] puoi creare esperienze web solo utilizzando **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure)
+Attualmente in [!DNL Journey Optimizer] puoi creare esperienze web solo utilizzando le **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure)
 
 
 [!DNL Journey Optimizer] le campagne web sono indirizzate a nuovi profili che non sono stati coinvolti in precedenza su altri canali. Questo incrementerà il conteggio totale dei profili coinvolgibili, il che potrebbe avere implicazioni sui costi se viene superato il numero contrattuale di profili coinvolgenti acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html) pagina.
@@ -123,11 +123,10 @@ Affinché l&#39;esperienza web possa essere consegnata correttamente, è necessa
 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   Questo criterio di unione è utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul bordo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+   Questo criterio di unione è utilizzato da [!DNL Journey Optimizer] canali in entrata per attivare e pubblicare correttamente le campagne in entrata sul bordo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 
-<!--
-Branded domains for assets
+## Domini con marchio per le risorse {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+Durante la creazione di esperienze web, se aggiungi contenuto proveniente da [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) devi configurare il sottodominio che verrà utilizzato per pubblicare il contenuto. [Ulteriori informazioni](web-delegated-subdomains.md)
