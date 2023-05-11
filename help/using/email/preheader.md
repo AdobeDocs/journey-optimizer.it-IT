@@ -20,10 +20,10 @@ ht-degree: 86%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Aggiunta di una preintestazione"
->abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzato dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
+>title="Aggiungere una preintestazione"
+>abstract="Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail. In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase."
 
-Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzato dal client e-mail.
+Una preintestazione è un breve testo di riepilogo che segue l’oggetto quando un’e-mail viene visualizzata dal client e-mail.
 
 In molti casi, fornisce un breve riepilogo dell’e-mail e in genere consiste in una sola frase.
 

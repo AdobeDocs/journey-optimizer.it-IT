@@ -20,7 +20,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
 >title="Rapporto live delle iscrizioni"
->abstract="Il rapporto live delle iscrizioni consente di misurare e visualizzare in tempo reale l’attività degli utenti iscritti solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto live delle iscrizioni consente di misurare e visualizzare in tempo reale l’attività degli utenti iscritti solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
 Iscrizione **[!UICONTROL Report live]** visualizza i dettagli sull’attività degli abbonati solo nelle ultime 24 ore. Per misurare gli abbonamenti in un periodo di tempo selezionato, consulta [Rapporto globale sottoscrizione](subscription-report-global.md).
 

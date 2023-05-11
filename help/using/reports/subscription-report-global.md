@@ -20,7 +20,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Rapporto globale delle iscrizioni"
->abstract="Il rapporto globale delle iscrizioni consente di misurare e visualizzare l’attività degli utenti iscritti in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto globale delle iscrizioni consente di misurare e visualizzare l’attività degli utenti iscritti in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
 L’abbonamento **[!UICONTROL Report globale]** visualizza i dettagli sull’attività degli abbonati in un periodo di tempo selezionato. Per misurare gli abbonamenti solo nelle ultime 24 ore, consulta [Rapporto live abbonamento](subscription-report-live.md).
 

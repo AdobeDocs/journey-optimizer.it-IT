@@ -20,7 +20,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
 >title="Rapporto live delle pagine di destinazione"
->abstract="Il rapporto live delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di delle pagine di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto globale delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
 La pagina di destinazione **[!UICONTROL Report live]** Il rapporto mostra i dettagli sull’impatto delle pagine di destinazione solo nelle ultime 24 ore. Per misurare i dati della pagina di destinazione in un periodo di tempo selezionato, consulta [Rapporto globale sulla pagina di destinazione](lp-report-global.md).
 

@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Rapporto globale delle pagine di destinazione"
->abstract="Il rapporto globale delle pagine di destinazione consente di misurare l’impatto delle pagine di destinazione in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di delle pagine di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
+>abstract="Il rapporto globale delle pagine di destinazione consente di misurare l’impatto delle pagine di destinazione in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
 La pagina di destinazione **[!UICONTROL Report globale]** nel rapporto vengono visualizzati i dettagli sull’impatto delle pagine di destinazione su un periodo di tempo selezionato. Per misurare i dati della pagina di destinazione solo nelle ultime 24 ore, consulta [Rapporto live sulla pagina di destinazione](lp-report-live.md).
 
