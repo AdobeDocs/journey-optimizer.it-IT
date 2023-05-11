@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 33%
@@ -53,7 +53,7 @@ Con Adobe Experience Platform [Tag unificati](https://experienceleague.adobe.com
 >
 >I tag unificati sono attualmente in versione beta. La documentazione e le funzionalità sono soggette a modifiche.
 
-## Aggiungere tag a un oggetto
+### Aggiungere tag a un oggetto
 
 La **Tag** nel campo [percorso](../building-journeys/journey-gs.md#change-properties) o [campagna](../campaigns/create-campaign.md#create) consente di definire i tag per l&#39;oggetto. Puoi selezionare un tag esistente o crearne uno nuovo.
 
@@ -69,7 +69,7 @@ L’elenco dei tag definiti viene visualizzato sotto la **Tag** campo .
 > 
 > Se duplici o crei una nuova versione di un percorso o di una campagna, i tag vengono mantenuti.
 
-## Filtrare i tag
+### Filtrare i tag
 
 Gli elenchi dei percorsi e delle campagne presentano una colonna dedicata che consente di visualizzare facilmente i tag.
 
@@ -81,7 +81,7 @@ Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso o campagna (in tem
 
 ![](assets/tags3.png)
 
-## Gestire i tag
+### Gestire i tag
 
 Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando **Tag** menu, sotto **AMMINISTRAZIONE**. Ulteriori informazioni sulla gestione dei tag in [Documentazione sui tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
