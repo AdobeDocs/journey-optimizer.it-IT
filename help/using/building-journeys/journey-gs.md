@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, prima, start, quick start, segmento, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 18%
+source-wordcount: '1512'
+ht-degree: 25%
 
 ---
 
@@ -42,10 +42,6 @@ Per inviare messaggi con percorsi, sono necessarie le seguenti configurazioni:
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 
-**Sfoglia**: in questa scheda viene visualizzato l’elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
-
-![](assets/journeys-browse.png)
-
 **Panoramica**: in questa scheda viene visualizzato un dashboard con metriche chiave correlate ai percorsi:
 
 * **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
@@ -58,6 +54,22 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 >Questo dashboard tiene conto dei percorsi con traffico nelle ultime 24 ore. Vengono visualizzati solo i percorsi a cui hai accesso.
 
 ![](assets/journeys-dashboard.png)
+
+**Sfoglia**: in questa scheda viene visualizzato l’elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
+
+![](assets/journeys-browse.png)
+
+Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del segmento]**, **[!UICONTROL Leggi segmento]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
+
+Puoi scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare con **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**. Inoltre, la **[!UICONTROL Filtri di pubblicazione]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
+
+![](assets/filter-journeys.png)
+
+Utilizza le colonne **[!UICONTROL Ultimo aggiornamento]** e **[!UICONTROL Ultimo aggiornamento di]** per verificare quando è avvenuto l’ultimo aggiornamento dei percorsi e chi l’ha salvato.
+
+Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Usato in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
+
+![](assets/journey3bis.png)
 
 ## Creare il percorso{#jo-build}
 
@@ -101,7 +113,7 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi attrav
 
 Fai clic sull’icona della matita, in alto a destra, per accedere alle proprietà del percorso.
 
-Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e, come utente amministratore, definire una **[!UICONTROL Timeout ed errore]** durata.
+Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e, come utente amministratore, definire una **[!UICONTROL Timeout ed errore]** durata. Puoi anche assegnare tag unificati Adobe Experience Platform al percorso. Questo consente di classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
 Per i percorsi live, questa schermata mostra la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 

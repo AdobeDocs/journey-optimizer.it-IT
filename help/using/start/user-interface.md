@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,6 @@ I componenti e le funzionalità disponibili nell’interfaccia utente dipendono 
 >[!NOTE]
 >
 >Questa documentazione viene aggiornata spesso per riflettere le recenti modifiche all’interfaccia utente del prodotto. Tuttavia, alcune schermate possono risultare leggermente diverse dall’interfaccia del prodotto.
-
 
 ## Pannello di navigazione a sinistra {#left-nav}
 
@@ -90,7 +89,6 @@ La pagina Home di [!DNL Journey Optimizer] contiene collegamenti e risorse chiav
 
 * **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}
 
-
 ## Casi d’uso accessibili dal prodotto {#in-product-uc}
 
 Sfrutta i casi d’uso di [!DNL Adobe Journey Optimizer] accessibili dalla pagina Home e fornisci alcuni dati per creare un percorso del cliente.
@@ -110,7 +108,6 @@ Per iniziare il caso d’uso, fai clic sul pulsante **[!UICONTROL Inizia]**.
 
 Puoi accedere ai casi d’uso eseguiti dal pulsante **[!UICONTROL Visualizza libreria dei casi d’uso]**.
 
-
 ## Assistenza e supporto {#find-help}
 
 Dalla sezione inferiore della pagina Home puoi accedere alle pagine importanti della guida di Adobe Journey Optimizer.
@@ -118,10 +115,6 @@ Dalla sezione inferiore della pagina Home puoi accedere alle pagine importanti d
 Utilizza l’icona **Aiuto** per accedere alle pagine della guida, contattare il supporto e condividere i tuoi commenti. Puoi cercare articoli e video di supporto dal campo di ricerca.
 
 ![](assets/ajo-help.png)
-
-## Browser supportati {#browsers}
-
-L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare in modo ottimale nell’ultima versione di Google Chrome. L’utilizzo di versioni precedenti o di altri browser potrebbe comportare problemi durante l’utilizzo di alcune funzioni.
 
 ## Preferenze di lingua {#language-pref}
 
@@ -145,39 +138,3 @@ Per cambiare lingua:
 * Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail
 * Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
    ![](assets/select-language.png)
-
-## Cerca{#unified-search}
-
-In qualsiasi area dell’interfaccia di Adobe Journey Optimizer, utilizza la funzione di ricerca unificata di Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
-
-Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
-
-![](assets/unified-search.png)
-
-Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto aziendale.
-
-![](assets/search-and-filter.png)
-
-## Filtrare gli elenchi{#filter-lists}
-
-Nella maggior parte degli elenchi, utilizza la barra di ricerca per trovare elementi specifici e definire criteri di filtro.
-
-Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu dei filtri consente di filtrare gli elementi visualizzati in base a criteri diversi. Puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli che hai creato oppure quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
-
-Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del segmento]**, **[!UICONTROL Leggi segmento]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**. Puoi scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare con **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**. In **[!UICONTROL Filtri di pubblicazione]** puoi selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
-
->[!NOTE]
->
->Le colonne visualizzate possono essere personalizzate utilizzando il pulsante di configurazione, posto in alto a destra degli elenchi. La personalizzazione viene salvata per ogni utente.
-
-Utilizza le colonne **[!UICONTROL Ultimo aggiornamento]** e **[!UICONTROL Ultimo aggiornamento di]** per verificare quando è avvenuto l’ultimo aggiornamento dei percorsi e chi l’ha salvato.
-
-![](assets/filter-journeys.png)
-
-Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Usato in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
-
-![](assets/journey3bis.png)
-
-All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento.
-
-![](assets/journey4.png)

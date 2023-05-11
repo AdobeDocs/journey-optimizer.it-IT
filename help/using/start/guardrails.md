@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1066'
 ht-degree: 92%
 
 ---
@@ -22,6 +22,10 @@ I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni s
 Prima di iniziare, è inoltre necessario essere a conoscenza di [guardrail dati Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=it){target="_blank"}.
 
 Di seguito sono riportati ulteriori guardrail e limitazioni relativi all’utilizzo di [!DNL Adobe Journey Optimizer].
+
+## Browser supportati {#browsers}
+
+L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare in modo ottimale nell’ultima versione di Google Chrome. L’utilizzo di versioni precedenti o di altri browser potrebbe comportare problemi durante l’utilizzo di alcune funzioni.
 
 ## Guardrail messaggi {#message-guardrails}
 

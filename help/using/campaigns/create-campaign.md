@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: creare, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 22%
+source-wordcount: '789'
+ht-degree: 21%
 
 ---
 
@@ -65,6 +65,8 @@ Per creare una nuova campagna, accedi al **[!UICONTROL Campagne]** menu, quindi 
 1. In **[!UICONTROL Proprietà]** Specifica un nome e una descrizione per la campagna.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
+
+1. La **Tag** consente di assegnare tag unificati Adobe Experience Platform alla campagna. Questo consente di classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
 1. Per assegnare etichette di utilizzo dati personalizzate o di base alla campagna, fai clic sul pulsante **[!UICONTROL Gestisci accesso]** pulsante . [Ulteriori informazioni sul controllo dell&#39;accesso a livello di oggetto (OLA)](../administration/object-based-access.md)
 
@@ -129,9 +131,9 @@ In **[!UICONTROL Spazio dei nomi identità]** scegli lo spazio dei nomi da utili
 
 ![](assets/create-campaign-namespace.png)
 
->[!NOTE]
->
->Gli individui appartenenti a un segmento che non hanno l’identità selezionata (spazio dei nomi) tra le loro diverse identità non verranno presi di mira dalla campagna.
+    >[!NOTE]
+    >
+    >Gli utenti appartenenti a un segmento che non hanno l’identità selezionata (namespace) tra le diverse identità non verranno interessati dalla campagna.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

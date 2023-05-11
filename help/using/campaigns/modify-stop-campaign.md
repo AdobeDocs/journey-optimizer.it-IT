@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzio
 
 Le campagne sono accessibili dal **[!UICONTROL Campagne]** menu.
 
-Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati.
-
-Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
+Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]** stati. Per visualizzare le campagne interrotte, completate e archiviate, devi cancellare il filtro.
 
 ![](assets/create-campaign-list.png)
+
+Inoltre, puoi filtrare l’elenco in base al tipo di campagna e al canale, o ai tag assegnati alle campagne al momento della loro creazione. [Scopri come assegnare tag a una campagna](create-campaign.md#create)
 
 ## Stati di Campaign {#statuses}
 

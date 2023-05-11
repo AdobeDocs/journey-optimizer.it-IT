@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 13%
 
 ---
@@ -41,7 +41,7 @@ Per creare una regola decisionale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Destinazioni pubblico]** servizio. Ad esempio, il **[!UICONTROL Segmenti]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) la documentazione è ancora valida per generare le regole decisionali delle offerte. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
+   >Il Generatore di segmenti fornito per creare regole decisionali presenta alcune specificità rispetto a quella utilizzata con il **[!UICONTROL Segmentazione]** servizio. Ad esempio, il **[!UICONTROL Segmenti]** scheda non disponibile per l’uso. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) la documentazione è ancora valida per generare le regole decisionali delle offerte. Ulteriori informazioni nel [Documentazione del servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
 
 1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, la **[!UICONTROL Proprietà del segmento]** visualizza informazioni sui profili stimati appartenenti al segmento. Fai clic su **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 
