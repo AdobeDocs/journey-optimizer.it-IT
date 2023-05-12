@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '596'
 ht-degree: 13%
 
 ---
@@ -90,6 +90,10 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dal **[!UICONTROL 
 1. Dopo aver definito il contenuto, puoi aggiungere al messaggio gli URL di tracciamento. A questo scopo, accedi al **[!UICONTROL Funzioni di supporto]** menu e seleziona **[!UICONTROL Helper]**.
 
    Per utilizzare la funzione di abbreviazione degli URL, devi prima configurare un sottodominio da collegare alla tua superficie. [Ulteriori informazioni](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > Per accedere e modificare i sottodomini SMS, devi disporre dei **[!UICONTROL Gestire i sottodomini SMS]** autorizzazione per la sandbox di produzione.
 
    ![](assets/sms_tracking_1.png)
 
