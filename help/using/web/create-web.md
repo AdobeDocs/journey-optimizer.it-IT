@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->Attualmente in [!DNL Journey Optimizer] puoi creare esperienze web solo utilizzando **campagne**.
+>Attualmente in [!DNL Journey Optimizer] puoi creare esperienze web solo utilizzando le **campagne**.
 
 [Scopri come creare una campagna web in questo video](#video)
 
@@ -33,7 +33,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Creare una regola di corrispondenza delle pagine"
->abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola, ad esempio, se desideri applicare le modifiche a un banner eroe in un intero sito web o aggiungere un’immagine principale che viene visualizzata su tutte le pagine di prodotto di un sito web."
+>abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola. Può servire, ad esempio, per applicare a un intero sito web le modifiche apportate a un banner principale oppure per aggiungere un’immagine nella parte superiore da visualizzare su tutte le pagine dei prodotti di un sito web."
 
 Per iniziare a creare l’esperienza web tramite una campagna, segui i passaggi riportati di seguito.
 

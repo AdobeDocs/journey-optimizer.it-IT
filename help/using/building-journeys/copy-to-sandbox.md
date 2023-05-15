@@ -26,7 +26,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Dettagli della sandbox"
->abstract="Seleziona la sandbox di destinazione in cui desideri copiare il percorso. Sono disponibili solo le sandbox all’interno dell’organizzazione "
+>abstract="Seleziona la sandbox di destinazione in cui desideri copiare il percorso. Sono disponibili solo le sandbox all’interno dell’organizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
@@ -58,7 +58,7 @@ Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
 
    ![](assets/copy-sandbox2.png)
 
-3. Seleziona la **Sandbox di Target** dal campo a discesa . Sono disponibili solo le sandbox all’interno dell’organizzazione 
+3. Seleziona la **Sandbox di Target** dal campo a discesa . Sono disponibili solo le sandbox all’interno dell’organizzazione.
 
 4. Consulta la sezione **Oggetti dipendenti** sezione . Questo è l’elenco degli oggetti associati utilizzati nel percorso. Questo elenco mostra il nome, il tipo di oggetto e l’ID Journey Optimizer interno.
 
