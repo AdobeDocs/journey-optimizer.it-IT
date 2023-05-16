@@ -10,11 +10,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-badge: label="Beta" type="Informativo"
-source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
+badge: label="Beta" type="Informative"
+source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 27%
 Cosa troverai in questa documentazione:
 
 * [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* [Crea il primo flusso di lavoro per la composizione](create-compositions.md)
+* [Creare il primo flusso di lavoro per la composizione](create-compositions.md)
 * **[Lavorare nell’area di lavoro per la composizione](composition-canvas.md)**
 * [Accesso e gestione dei tipi di pubblico](access-audiences.md)
 
@@ -170,7 +170,7 @@ Una volta pubblicata la composizione, gli attributi selezionati sono associati a
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
->title="Attività Classificazione"
+>title="Attività di classifica"
 >abstract="L’attività Classificazione consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà."
 
 >[!CONTEXTUALHELP]
