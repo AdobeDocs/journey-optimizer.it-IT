@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
-## Miglioramenti apportati a maggio 2023 {#may-improvements}
+## Miglioramenti di maggio 2023 {#may-improvements}
 
 <table>
 <thead>
@@ -32,7 +32,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tbody>
 <tr>
 <td>
-<p>È ora possibile assegnare tag unificati Adobe Experience Platform alle campagne. Questo consente di classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. La funzione Tag unificati è attualmente in versione beta.
+<p>È ora possibile assegnare tag unificati Adobe Experience Platform alle campagne. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. Ricorda che la funzione Tag unificati è attualmente in versione beta.
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../start/search-filter-categorize.md#tags">documentazione dettagliata</a>.</p>
 </td>
@@ -84,15 +84,15 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Nuovo dashboard di Percorso (beta)</strong><br/></th>
+<th><strong>Nuovo dashboard Percorso (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Il dashboard del Percorso è ora diviso in due schede:</p>
-<ul><li>Utilizza la <strong>Panoramica</strong> per accedere a un nuovo dashboard in cui vengono visualizzate le metriche chiave relative ai percorsi.</li>
-<li>Utilizza la <strong>Sfoglia</strong> per accedere all’elenco di tutti i percorsi.</li></ul>
+<p> Il dashboard Percorso è ora suddiviso in due schede:</p>
+<ul><li>Utilizza il <strong>Panoramica</strong> per accedere a una nuova dashboard in cui vengono visualizzate le metriche chiave correlate ai percorsi.</li>
+<li>Utilizza il <strong>Sfoglia</strong> per accedere all’elenco di tutti i percorsi.</li></ul>
 <p>Questa funzionalità è accessibile in tutti i percorsi come versione beta pubblica.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-gs.md#journey-access">documentazione dettagliata</a>.</p>
