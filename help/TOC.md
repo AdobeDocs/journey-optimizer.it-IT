@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1370'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
       + [Introduzione per amministratori](using/start/path/administrator.md)
       + [Introduzione per sviluppatori](using/start/path/developer.md)
    + [Interfaccia utente](using/start/user-interface.md)
-   + [Ricerca, filtrare, categorizzare](using/start/search-filter-categorize.md)
+   + [Cerca, filtra, categorizza](using/start/search-filter-categorize.md)
    + [Accessibilità](using/start/accessibility.md)
    + [Integrazioni](using/start/ajo-integrations.md)
    + [Guardrail](using/start/guardrails.md)
