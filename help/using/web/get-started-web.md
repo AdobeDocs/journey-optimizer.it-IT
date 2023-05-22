@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Tramite un’interfaccia visiva intuitiva, questa funzionalità ti consente di m
 
 Se utilizzi già canali in uscita come e-mail, SMS o notifiche push, ora puoi sfruttare il canale Web in entrata per offrire un’esperienza veramente personalizzata che si estende in tutti i canali.
 
-Dopo aver creato una campagna, seleziona **Web** come azione e definisci le impostazioni di base. Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
+In una campagna: dopo aver creato una campagna, seleziona **web** come azione e definisci le impostazioni di base. Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Scopri i passaggi dettagliati per la creazione di una campagna web in [questo vi
 <img alt="Non frequente" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
-<a href="create-web.md"><strong>Creare un’esperienza web</strong></a>
+<a href="create-web.md"><strong>Crea un’esperienza web</strong></a>
 </div>
 <p></td>
 <td>
