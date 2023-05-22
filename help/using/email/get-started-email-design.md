@@ -10,9 +10,9 @@ level: Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfrutta
 
 ## Best practice per la progettazione e-mail {#best-practices}
 
-Quando invii e-mail, è importante tenere presente che i destinatari possono inoltrarle, il che a volte può causare problemi con il rendering dell’e-mail. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider di posta elettronica utilizzato per l’inoltro, ad esempio, se si utilizza la classe CSS &quot;is-desktop-hidden&quot; per nascondere un’immagine sui dispositivi mobili.
+Quando invii e-mail, è importante tenere presente che i destinatari possono inoltrarle, il che a volte può causare problemi con il rendering di queste. Ciò si verifica particolarmente quando si utilizzano classi CSS che potrebbero non essere supportate dal provider di posta elettronica utilizzato per l’inoltro, ad esempio, se si utilizza la classe CSS “is-desktop-hidden” per nascondere un’immagine sui dispositivi mobili.
 
-Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione delle e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per desktop che per dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
+Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
 
 ## Passaggi chiave per la creazione di contenuti e-mail {#key-steps}
 
