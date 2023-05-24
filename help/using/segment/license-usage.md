@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Dashboard di utilizzo licenze
-description: Scopri il dashboard sull’utilizzo delle licenze di Journey Optimizer
+title: Dashboard utilizzo licenze
+description: Scopri la dashboard Utilizzo licenze Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
@@ -15,20 +15,20 @@ ht-degree: 12%
 
 ---
 
-# Dashboard di utilizzo licenze {#license-usage}
+# Dashboard utilizzo licenze {#license-usage}
 
-La [!DNL Adobe Journey Optimizer] [interfaccia utente](../start/user-interface.md) fornisce un dashboard che visualizza informazioni importanti sull’utilizzo delle licenze dell’organizzazione, acquisite durante un’istantanea giornaliera.
+Il [!DNL Adobe Journey Optimizer] [interfaccia utente](../start/user-interface.md) fornisce una dashboard che visualizza informazioni importanti sull’utilizzo delle licenze dell’organizzazione, acquisite durante un’istantanea giornaliera.
 
-Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo della licenza]**. Viene aperta la **[!UICONTROL Panoramica]** scheda che mostra il dashboard.
+Per accedere a questa dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo licenze]**. Verrà aperto il **[!UICONTROL Panoramica]** che visualizza il dashboard.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Per visualizzare il dashboard, è necessario disporre dei [Visualizza dashboard di utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} autorizzazione.
+>Per poter visualizzare la dashboard, è necessario disporre del [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=en#available-permissions){target="_blank"} autorizzazione.
 
-Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform:
+Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica sull’utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
-* [Esplorazione del dashboard di utilizzo della licenza](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Panoramica della dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
+* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}

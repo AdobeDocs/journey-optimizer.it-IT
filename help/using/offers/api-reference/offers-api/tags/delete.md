@@ -1,6 +1,6 @@
 ---
 title: Elimina qualificatori raccolta
-description: I qualificatori di raccolta consentono di organizzare e ordinare meglio le offerte.
+description: I qualificatori di raccolta ti consentono di organizzare e ordinare meglio le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Eliminare un qualificatore di raccolta {#delete-tag}
 
-A volte può essere necessario rimuovere (DELETE) un qualificatore di raccolta (noto in precedenza come &quot;tag&quot;). È possibile eliminare solo i qualificatori di raccolta creati nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID $del qualificatore di raccolta che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;). È possibile eliminare solo i qualificatori di raccolta creati nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] tramite l&#39;API $id del qualificatore di raccolta che desideri eliminare.
 
 **Formato API**
 
@@ -25,9 +25,9 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano i qualificatori della raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID istanza del qualificatore della raccolta che si desidera aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenitore in cui si trovano i qualificatori di raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | ID istanza del qualificatore di raccolta da aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Richiesta**
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **Risposta**
 
-Una risposta corretta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
+In caso di esito positivo, la risposta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) al qualificatore della raccolta. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere uno stato HTTP 404 (Non trovato) perché il qualificatore della raccolta è stato rimosso dal contenitore.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) nel qualificatore della raccolta. Dovrai includere un’intestazione Accept nella richiesta, ma dovresti ricevere lo stato HTTP 404 (Non trovato) perché il qualificatore di raccolta è stato rimosso dal contenitore.

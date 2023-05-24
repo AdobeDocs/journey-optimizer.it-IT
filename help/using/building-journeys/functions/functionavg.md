@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: avg
-description: Scopri l’avg della funzione
+description: Scopri la funzione media
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: avg, funzione, espressione, percorso
+keywords: avg, function, expression, percorsi
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 # avg {#avg}
 
-Restituisce il valore medio tra un insieme di espressioni, dato come elenco o due espressioni. I valori Null vengono ignorati.
+Restituisce il valore medio tra un insieme di espressioni, sotto forma di elenco o di due espressioni. I valori Null vengono ignorati.
 
 
 ## Categoria
@@ -50,7 +50,7 @@ Tipi supportati:
 
 `avg(<integer>,<integer>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 ## Esempi
 
@@ -62,4 +62,4 @@ Restituisce 7,0.
 
 `avg(10.2, 3)`
 
-Restituisce 6.6.
+Restituisce 6,6.

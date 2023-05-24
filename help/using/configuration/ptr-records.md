@@ -32,15 +32,15 @@ ht-degree: 9%
 
 Un record puntatore (PTR) è un tipo di record DNS (Domain Name System) che fornisce il nome di dominio collegato a un indirizzo IP.
 
-Con i record PTR, i server di posta riceventi possono controllare l&#39;autenticità dei server di posta inviati identificando se i loro indirizzi IP corrispondono ai nomi a cui i server si connettono.
+Con i record PTR, i server di posta di ricezione possono verificare l&#39;autenticità dei server di posta di invio identificando se i loro indirizzi IP corrispondono ai nomi a cui si connettono i server.
 
-## Accedere ai record PTR dei tuoi sottodomini {#access-ptr-records}
+## Accedere ai record PTR dei sottodomini {#access-ptr-records}
 
-Una volta [viene delegato un sottodominio](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. Puoi accedervi dalla **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Record PTR]** menu.
+Una volta [un sottodominio è delegato](delegate-subdomain.md) in Adobe Journey Optimizer, viene creato automaticamente un record PTR associato a questo sottodominio. È possibile accedervi dal **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Record PTR]** menu.
 
 ![](assets/ptr-records.png)
 
-L’elenco mostra i record PTR generati per ciascun sottodominio delegato, utilizzando la sintassi seguente:
+L’elenco mostra i record PTR generati per ogni sottodominio delegato, utilizzando la sintassi seguente:
 
 * &quot;r&quot; per la registrazione,
 * &quot;xx&quot; per le ultime due cifre dell’indirizzo IP,
@@ -54,104 +54,104 @@ Puoi modificare un record PTR per modificare il sottodominio associato a un indi
 
 >[!CAUTION]
 >
->I record PTR sono comuni a tutti gli ambienti. Pertanto, qualsiasi modifica apportata a un record PTR influisce anche sulle sandbox di produzione.
+>I record PTR sono comuni a tutti gli ambienti. Pertanto, qualsiasi modifica apportata a un record PTR influirà anche sulle sandbox di produzione.
 >
->Procedi con molta attenzione durante la modifica dei record PTR. In caso di dubbio, contatta un esperto di recapito.
+>Procedi con particolare attenzione durante la modifica dei record PTR. In caso di dubbi, contatta un esperto di consegna.
 
 ### Sottodomini completamente delegati {#fully-delegated-subdomains}
 
-Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, segui i passaggi seguenti.
+Per modificare un record PTR con un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, segui la procedura indicata di seguito.
 
-1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
+1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Selezionare un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) all&#39;Adobe dall&#39;elenco.
+1. Seleziona un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) all&#39;Adobe dall&#39;elenco.
 
    ![](assets/ptr-record-subdomain.png)
 
-1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche.
+1. Clic **[!UICONTROL Salva]** per confermare le modifiche.
 
 >[!NOTE]
 >
->Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
+>Impossibile modificare **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
 
-### Sottodomini delegati che utilizzano il metodo CNAME {#edit-ptr-subdomains-cname}
+### Sottodomini delegati tramite il metodo CNAME {#edit-ptr-subdomains-cname}
 
-Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation), segui i passaggi seguenti.
+Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation), segui la procedura indicata di seguito.
 
-1. Dall’elenco, fai clic sul nome di un record PTR per aprirlo.
+1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select-cname.png)
 
-1. Seleziona un sottodominio delegato ad Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
+1. Seleziona un sottodominio delegato all’Adobe utilizzando [metodo CNAME](delegate-subdomain.md#cname-subdomain-delegation) dall&#39;elenco.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. È necessario creare un nuovo record DNS inoltrato sulla piattaforma di hosting. A questo scopo, copia il record generato da Adobe. Una volta fatto, seleziona la casella &quot;Confermo..&quot;.
+1. Devi creare un nuovo record DNS di inoltro sulla piattaforma di hosting. A questo scopo, copia il record generato da Adobe. Al termine, seleziona la casella &quot;Confermo...&quot;.
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
    >Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
-   >   * Controlla il provider DNS se il record DNS in inoltro è stato creato correttamente.
-   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere qualche minuto e riprovare.
+   >   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
+   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
 
 
-1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche.
+1. Clic **[!UICONTROL Salva]** per confermare le modifiche.
 
 >[!NOTE]
 >
->Non è possibile modificare il **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
+>Impossibile modificare **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** campi.
 
-## Controlla i dettagli dell&#39;aggiornamento del record PTR {#check-ptr-record-update}
+## Controlla dettagli aggiornamento record PTR {#check-ptr-record-update}
 
-Una volta confermata la modifica del record PTR, la **[!UICONTROL Elaborazione]** accanto al nome del record PTR nell’elenco viene visualizzata l’icona .
+Dopo aver confermato la modifica del record PTR, **[!UICONTROL Elaborazione]** accanto al nome del record PTR nell&#39;elenco.
 
 ![](assets/ptr-record-updating.png)
 
 >[!NOTE]
 >
->La [aggiornamento elaborazione](#processing) può richiedere fino a 3 ore.
+>Il [elaborazione aggiornamento](#processing) può richiedere fino a 3 ore.
 
-Per controllare i dettagli dell&#39;aggiornamento del record PTR, fai clic sull&#39;icona accanto ad esso. Ulteriori informazioni sugli stati associati alle diverse icone in [questa sezione](#ptr-record-update-statuses).
+Per verificare i dettagli dell&#39;aggiornamento del record PTR, fare clic sull&#39;icona accanto. Ulteriori informazioni sugli stati associati alle diverse icone in [questa sezione](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
-Puoi visualizzare informazioni quali lo stato dell’aggiornamento e le modifiche richieste.
+Puoi visualizzare informazioni quali lo stato di aggiornamento e le modifiche richieste.
 
 ![](assets/ptr-record-updates.png)
 
-## Stato dell’aggiornamento del record PTR {#ptr-record-update-statuses}
+## Stati di aggiornamento record PTR {#ptr-record-update-statuses}
 
 Un aggiornamento del record PTR può avere i seguenti stati:
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Elaborazione]**: L&#39;aggiornamento del record PTR è stato inviato ed è in corso un processo di verifica.
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Completato]**: Il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Non riuscito]**: Uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Elaborazione]**: l’aggiornamento del record PTR è stato inviato e sta attraversando un processo di verifica.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Completato]**: il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all’indirizzo IP.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti durante la verifica dell’aggiornamento del record PTR.
 
 ### Elaborazione {#processing}
 
-Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sottodominio da associare all’indirizzo IP sia valido. Questo può richiedere fino a 3 ore.
+Verranno eseguiti diversi controlli di recapito per verificare che il nuovo sottodominio da associare all’indirizzo IP sia valido. Questa operazione può richiedere fino a 3 ore.
 
 >[!NOTE]
 >
->Non è possibile modificare un record PTR mentre è in corso l&#39;aggiornamento. È comunque possibile fare clic sul suo nome, ma la **[!UICONTROL Sottodominio]** Il campo è disabilitato. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
+>Impossibile modificare un record PTR mentre è in corso l&#39;aggiornamento. Puoi comunque fare clic sul nome, ma il **[!UICONTROL Sottodominio]** è disattivato. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
 
-Durante il processo di convalida, il vecchio sottodominio viene ancora associato all’indirizzo IP.
+Durante il processo di convalida, il vecchio sottodominio è ancora associato all’indirizzo IP.
 
 ### Operazione riuscita {#success}
 
-Una volta completato il processo di convalida, il nuovo sottodominio viene associato automaticamente all’indirizzo IP.
+Una volta completato correttamente il processo di convalida, il nuovo sottodominio viene associato automaticamente all’indirizzo IP.
 
 ### Non riuscito {#failes}
 
 Se il processo di convalida non riesce, viene visualizzato il record PTR precedente. Il sottodominio valido precedentemente associato all’indirizzo IP rimane invariato.
 
 I possibili tipi di errore di aggiornamento sono i seguenti:
-* Errore durante la creazione di un nuovo DNS di inoltro per il record PTR
-* Errore durante l&#39;aggiornamento del record
-* Errore durante la riaggiunta delle affinità
+* Impossibile creare un nuovo DNS di inoltro per il record PTR
+* Impossibile aggiornare il record
+* Impossibile ripetere l’onboarding delle affinità
 
-In caso di errore durante l’aggiornamento, il record PTR diventa nuovamente modificabile. Puoi fare clic sul suo nome e aggiornare nuovamente il sottodominio.
+Se l&#39;aggiornamento non riesce, il record PTR diventa nuovamente modificabile. Puoi fare clic sul nome e aggiornare nuovamente il sottodominio.

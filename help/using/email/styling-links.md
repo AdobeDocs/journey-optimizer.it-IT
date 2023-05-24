@@ -20,9 +20,9 @@ ht-degree: 60%
 
 In E-mail Designer è possibile sottolineare un collegamento e selezionarne il colore e la destinazione.
 
-1. In un testo **[!UICONTROL Componente contenuto]** dove viene inserito un collegamento, seleziona il collegamento.
+1. In un testo **[!UICONTROL Componente contenuto]** quando viene inserito un collegamento, selezionalo.
 
-1. Da **[!UICONTROL Impostazioni]** , scegli come verrà reindirizzato il pubblico con **[!UICONTROL Target]** a discesa:
+1. Dalla sezione **[!UICONTROL Impostazioni]** , scegli come il pubblico verrà reindirizzato con il **[!UICONTROL Target]** elenco a discesa:
 
    * **[!UICONTROL Nessuno]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic (impostazione predefinita).
    * **[!UICONTROL Vuoto]**: il collegamento viene aperto in una nuova finestra o scheda.
@@ -32,11 +32,11 @@ In E-mail Designer è possibile sottolineare un collegamento e selezionarne il c
 
    ![](assets/link_2.png)
 
-1. Controlla **[!UICONTROL Collegamento sottolineato]** per sottolineare il testo dell’etichetta del collegamento.
+1. Verifica **[!UICONTROL Sottolinea collegamento]** per sottolineare il testo dell&#39;etichetta del collegamento.
 
    ![](assets/link_1.png)
 
-1. Per modificare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda .
+1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda.
 
    ![](assets/link_3.png)
 

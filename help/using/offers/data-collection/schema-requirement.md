@@ -2,7 +2,7 @@
 product: experience platform
 solution: Experience Platform
 title: Configurare l’acquisizione di eventi
-description: Scopri come configurare lo schema dell’offerta per l’acquisizione di eventi
+description: Scopri come configurare lo schema di offerta per acquisire gli eventi
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -16,24 +16,24 @@ ht-degree: 2%
 
 # Configurare la raccolta dati {#schema-requirements}
 
-Per ottenere un feedback su tipi di evento diversi dagli eventi decisionali, è necessario impostare il valore corretto per ogni tipo di evento in un **evento esperienza** viene inviato in Adobe Experience Platform.
+Per poter ottenere feedback su tipi di evento diversi dagli eventi di decisione, è necessario impostare il valore corretto per ciascun tipo di evento in un **evento esperienza** inviato a Adobe Experience Platform.
 
 >[!CAUTION]
 >
->Per ogni tipo di evento, assicurati che lo schema utilizzato nel set di dati disponga della **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi associato. [Ulteriori informazioni](create-dataset.md)
+>Per ogni tipo di evento, assicurati che lo schema utilizzato nel set di dati abbia **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato. [Ulteriori informazioni](create-dataset.md)
 
 Di seguito sono riportati i requisiti dello schema da implementare nel codice JavaScript.
 
 >[!NOTE]
 >
->Gli eventi decisionali non devono essere inviati in quanto la gestione delle decisioni genererà automaticamente tali eventi e li inserirà nel **[!UICONTROL Decisioni ODE]** set di dati<!--to check--> generato automaticamente.
+>Non è necessario inviare gli eventi di decisione, in quanto la gestione delle decisioni genererà tali eventi automaticamente e li inserirà nel **[!UICONTROL ODE DecisionEvents]** set di dati<!--to check--> generato automaticamente.
 
 ## Tracciare le impression
 
-Assicurati che il tipo di evento e l&#39;origine siano i seguenti:
+Assicurati che il tipo di evento e l’origine siano i seguenti:
 
 **Tipo di evento esperienza:** `decisioning.propositionDisplay`
-**Origine:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
+**Origine:** Web.sdk/Alloy.js`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
 +++**Payload di esempio:**
 
 ```
@@ -64,10 +64,10 @@ Assicurati che il tipo di evento e l&#39;origine siano i seguenti:
 
 ## Tracciare i clic
 
-Assicurati che il tipo di evento e l&#39;origine siano i seguenti:
+Assicurati che il tipo di evento e l’origine siano i seguenti:
 
 **Tipo di evento esperienza:** `decisioning.propositionInteract`
-**Origine:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
+**Origine:** Web.sdk/Alloy.js`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
 +++**Payload di esempio:**
 
 ```
@@ -96,9 +96,9 @@ Assicurati che il tipo di evento e l&#39;origine siano i seguenti:
 
 +++
 
-## Tracciare gli eventi personalizzati
+## Tracciare eventi personalizzati
 
-Per gli eventi personalizzati, lo schema utilizzato nel set di dati deve avere anche il **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato, ma non esiste un requisito specifico per il tipo di evento esperienza che deve essere utilizzato per assegnare tag a tali eventi.
+Per gli eventi personalizzati, lo schema utilizzato nel set di dati deve avere anche **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato, ma non esiste alcun requisito specifico sul tipo di evento esperienza che deve essere utilizzato per assegnare tag a tali eventi.
 
 <!--
 ## Using a ranking strategy {#using-ranking}

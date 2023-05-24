@@ -32,7 +32,7 @@ La configurazione dell’origine dati consente di definire una connessione a un 
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività azione canale che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
+Questa configurazione non è necessaria se i percorsi sfruttano solo i dati locali provenienti da un payload di eventi. Ad esempio, se il percorso è composto da un evento seguito da un’attività di azione del canale che utilizza solo i dati dell’evento, non è necessario configurare un’origine dati.
 
 Esistono due tipi di origini dati:
 
@@ -43,7 +43,7 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 
 >[!NOTE]
 >
->Le relazioni di schema non sono supportate per le origini dati.
+>Le relazioni tra schemi non sono supportate per le origini dati.
 
 Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 

@@ -16,7 +16,7 @@ ht-degree: 25%
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-Restituisce true se il secondo parametro è un prefisso del primo senza considerare il caso.
+Restituisce true se il secondo parametro è un prefisso del primo senza considerare la distinzione tra maiuscole e minuscole.
 
 ## Categoria
 

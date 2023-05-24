@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Definire i predefiniti per la pagina di destinazione
-description: Scopri come configurare l’ambiente per creare e utilizzare pagine di destinazione con Journey Optimizer
+description: Scopri come configurare l’ambiente per creare e utilizzare le pagine di destinazione con Journey Optimizer
 role: Admin
 level: Intermediate
-keywords: landing, pagina di destinazione, configurazione, ambiente, sottodominio, predefiniti
+keywords: destinazione, pagina di destinazione, configurazione, ambiente, sottodominio, predefiniti
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -21,37 +21,37 @@ ht-degree: 17%
 >title="Creare un predefinito per la pagina di destinazione"
 >abstract="Per creare una pagina di destinazione e utilizzarla tramite Journey Optimizer, devi creare un predefinito per pagina di destinazione che includa il sottodominio da utilizzare."
 
-Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), devi selezionare un predefinito per la pagina di destinazione per creare la pagina di destinazione e sfruttarla **[!DNL Journey Optimizer]**.
+Quando [creazione di una pagina di destinazione](../landing-pages/create-lp.md#create-a-lp), è necessario selezionare un predefinito per pagina di destinazione per poterla creare e sfruttarlo tramite **[!DNL Journey Optimizer]**.
 
 ## Accedere ai predefiniti della pagina di destinazione {#access-lp-presets}
 
-Per accedere ai predefiniti della pagina di destinazione, effettua le seguenti operazioni.
+Per accedere ai predefiniti per pagine di destinazione, effettua le seguenti operazioni.
 
-1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** menu.
+1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** menu.
 
-1. Seleziona **[!UICONTROL Branding]** > **[!UICONTROL Predefiniti per le pagine di destinazione]**.
+1. Seleziona **[!UICONTROL Marchio]** > **[!UICONTROL Predefiniti per pagine di destinazione]**.
 
    ![](assets/lp_presets-access.png)
 
-1. Fai clic su un’etichetta preimpostata per accedere ai dettagli del predefinito della pagina di destinazione.
+1. Fai clic su un’etichetta del predefinito per accedere ai dettagli del predefinito per pagina di destinazione.
 
    ![](assets/lp_preset-details.png)
 
 ## Creare un predefinito per la pagina di destinazione {#lp-create-preset}
 
-Per creare un predefinito per una pagina di destinazione, segui i passaggi riportati di seguito.
+Per creare un predefinito per pagina di destinazione, effettua le seguenti operazioni.
 
 >[!NOTE]
 >
->Per creare un predefinito, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](lp-subdomains.md)
+>Per poter creare un predefinito, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](lp-subdomains.md)
 
-1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** quindi seleziona **[!UICONTROL Branding]** > **[!UICONTROL Predefiniti per le pagine di destinazione]**.
+1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** , quindi seleziona **[!UICONTROL Marchio]** > **[!UICONTROL Predefiniti per pagine di destinazione]**.
 
-1. Seleziona **[!UICONTROL Crea predefinito pagina di destinazione]**.
+1. Seleziona **[!UICONTROL Crea predefinito per pagina di destinazione]**.
 
    ![](assets/lp_create-preset-temp.png)
 
-1. Immetti un nome e una descrizione per il predefinito.
+1. Immettete un nome e una descrizione per il predefinito.
 
    >[!NOTE]
    >
@@ -63,25 +63,25 @@ Per creare un predefinito per una pagina di destinazione, segui i passaggi ripor
 
    >[!NOTE]
    >
-   >Per selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
+   >Per poter selezionare un sottodominio, assicurati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
 
    Vengono visualizzate le impostazioni corrispondenti al sottodominio selezionato.
 
-1. Se desideri selezionare il sottodominio della pagina di destinazione per l’URL di tracciamento, controlla la **[!UICONTROL Uguale al sottodominio della pagina di destinazione]** opzione . [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
+1. Se desideri selezionare il sottodominio della pagina di destinazione per l’URL di tracciamento, controlla **[!UICONTROL Come sottodominio della pagina di destinazione]** opzione. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    Ad esempio, se l’URL della pagina di destinazione è &quot;pages.mail.luma.com&quot; e l’URL di tracciamento è &quot;data.mail.luma.com&quot;, puoi scegliere &quot;pages.mail.luma.com&quot; da utilizzare come sottodominio di tracciamento.
 
-1. Fai clic su **[!UICONTROL Invia]** per confermare la creazione del predefinito della pagina di destinazione. <!--You can also save the preset as draft and resume its configuration later on.-->
+1. Clic **[!UICONTROL Invia]** per confermare la creazione del predefinito per pagina di destinazione. <!--You can also save the preset as draft and resume its configuration later on.-->
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. Una volta creato il predefinito della pagina di destinazione, questo viene visualizzato nell’elenco con **[!UICONTROL Attivo]** stato. È pronto per essere utilizzato per le pagine di destinazione.
+1. Una volta creato il predefinito per pagina di destinazione, questo viene visualizzato nell’elenco con **[!UICONTROL Attivo]** stato. È pronto per essere utilizzato nelle pagine di destinazione.
 
    ![](assets/lp-preset-active-temp.png)
 
-Ora è pronto per [creare pagine di destinazione](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
+Ora sei pronto per [creare pagine di destinazione](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
 <!--
 >[!NOTE]
 >

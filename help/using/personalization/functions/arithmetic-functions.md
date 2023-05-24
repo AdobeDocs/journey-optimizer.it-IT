@@ -19,7 +19,7 @@ Le funzioni aritmetiche vengono utilizzate per eseguire calcoli di base sui valo
 
 ## Add{#add}
 
-La `+` (aggiunta) viene utilizzata per trovare la somma di due espressioni di argomento.
+Il `+` (addizione) viene utilizzata per trovare la somma di due espressioni di argomento.
 
 **Sintassi**
 
@@ -29,7 +29,7 @@ La `+` (aggiunta) viene utilizzata per trovare la somma di due espressioni di ar
 
 **Esempio**
 
-L&#39;operazione seguente è pari al prezzo di due prodotti diversi.
+L&#39;operazione seguente somma il prezzo di due prodotti diversi.
 
 ```sql
 {%= product1.price + product2.price %}
@@ -37,7 +37,7 @@ L&#39;operazione seguente è pari al prezzo di due prodotti diversi.
 
 ## Moltiplica{#multiply}
 
-La `*` (moltiplicazione) viene utilizzata per trovare il prodotto di due espressioni di argomento.
+Il `*` (moltiplicazione) viene utilizzata per trovare il prodotto di due espressioni di argomento.
 
 **Sintassi**
 
@@ -55,7 +55,7 @@ L&#39;operazione seguente individua il prodotto dell&#39;inventario e il prezzo 
 
 ## Sottrai{#substract}
 
-La `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressioni di argomento.
+Il `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressioni di argomento.
 
 **Sintassi**
 
@@ -65,7 +65,7 @@ La `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressi
 
 **Esempio**
 
-L&#39;operazione seguente individua la differenza di prezzo tra due prodotti diversi.
+L&#39;operazione seguente rileva la differenza di prezzo tra due prodotti diversi.
 
 ```sql
 {%= product1.price - product2.price %}
@@ -73,7 +73,7 @@ L&#39;operazione seguente individua la differenza di prezzo tra due prodotti div
 
 ## Dividi{#divide}
 
-La `/` (divisione) viene utilizzato per trovare il quoziente di due espressioni di argomento.
+Il `/` (divisione) viene utilizzata per trovare il quoziente di due espressioni di argomento.
 
 **Sintassi**
 
@@ -83,15 +83,15 @@ La `/` (divisione) viene utilizzato per trovare il quoziente di due espressioni 
 
 **Esempio**
 
-L&#39;operazione seguente trova il quoziente tra il totale dei prodotti venduti e il totale del denaro guadagnato per vedere il costo medio per articolo.
+L&#39;operazione seguente consente di trovare il quoziente tra il totale dei prodotti venduti e il totale del denaro guadagnato per visualizzare il costo medio per articolo.
 
 ```sql
 {%= totalProduct.price / totalProduct.sold %}
 ```
 
-## Resto{#remainder}
+## Rimanente{#remainder}
 
-La `%` (modulo/rest) viene utilizzato per trovare il resto dopo aver diviso le due espressioni di argomento.
+Il `%` (modulo/resto) viene utilizzata per trovare il resto dopo aver diviso le due espressioni di argomento.
 
 **Sintassi**
 
@@ -101,7 +101,7 @@ La `%` (modulo/rest) viene utilizzato per trovare il resto dopo aver diviso le d
 
 **Esempio**
 
-L&#39;operazione seguente verifica se l&#39;età della persona è divisibile per cinque anni.
+L’operazione seguente verifica se l’età della persona è divisibile di cinque.
 
 ```sql
 {%= person.age % 5 = 0 %}

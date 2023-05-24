@@ -16,7 +16,7 @@ ht-degree: 21%
 
 # containIgnoreCase {#containIgnoreCase}
 
-Controlla se la seconda stringa di argomento è contenuta nella prima stringa di argomento, senza tenere conto del caso.
+Controlla se la seconda stringa di argomento è contenuta nella prima stringa di argomento, senza tenere conto della distinzione tra maiuscole e minuscole.
 
 ## Categoria
 
@@ -31,7 +31,7 @@ Stringa
 | Parametro | Tipo |
 |-----------|------------------|
 | string | string |
-| ricerca stringa | string |
+| stringa cercata | string |
 
 ## Firma e tipo restituito
 

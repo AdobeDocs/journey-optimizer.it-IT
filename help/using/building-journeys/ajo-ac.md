@@ -16,15 +16,15 @@ ht-degree: 3%
 
 ---
 
-# Caso di utilizzo: inviare un messaggio utilizzando Campaign v7/v8 {#campaign-classic-use-case}
+# Caso di utilizzo: inviare un messaggio tramite Campaign v7/v8 {#campaign-classic-use-case}
 
 Questo caso d’uso illustra tutti i passaggi necessari per inviare un’e-mail utilizzando l’integrazione con Adobe Campaign Classic v7 e Adobe Campaign v8.
 
 >[!NOTE]
 >
->Per utilizzare questa integrazione, è necessario disporre della build 9125 o successiva di Campaign Classic.
+>Per utilizzare questa integrazione, è necessario disporre della build Campaign Classic 9125 o successiva.
 
-Innanzitutto, creeremo un modello e-mail transazionale in Campaign. Poi, in Journey Optimizer, creeremo l&#39;evento, l&#39;azione e il percorso.
+Creeremo prima un modello e-mail transazionale in Campaign. Quindi, in Journey Optimizer, creeremo l’evento, l’azione e progetteremo il percorso.
 
 Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti pagine:
 
@@ -33,21 +33,21 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
 **Adobe Campaign**
 
-È necessario eseguire il provisioning dell’istanza Campaign per questa integrazione. È necessario configurare la funzione Messaggistica transazionale.
+È necessario eseguire il provisioning della tua istanza di Campaign per questa integrazione. È necessario configurare la funzione di messaggistica transazionale.
 
-1. Accedi alla tua istanza di controllo Campaign.
+1. Accedi all’istanza di controllo Campaign.
 
-1. Sotto **Amministrazione** > **Piattaforma** > **Enumerazioni**, seleziona **Tipo evento** Enumerazione (eventType). Crea un nuovo tipo di evento (&quot;percorso-evento&quot;, nel nostro esempio). Sarà necessario utilizzare il nome interno del tipo di evento quando si scriverà il file JSON in un secondo momento.
+1. Sotto **Amministrazione** > **Piattaforma** > **Enumerazioni**, seleziona la **Tipo di evento** (eventType). Crea un nuovo tipo di evento (&quot;percorsi-event&quot;, nel nostro esempio). Sarà necessario utilizzare il nome interno del tipo di evento per scrivere il file JSON in un secondo momento.
 
    ![](assets/accintegration-uc-1.png)
 
-1. Disconnetti e ricollegati all’istanza per rendere effettiva la creazione.
+1. Disconnettiti e riconnettiti all’istanza per rendere effettiva la creazione.
 
-1. Sotto **Centro messaggi** > **Modelli di messaggio transazionali**, crea un nuovo modello e-mail in base al tipo di evento creato in precedenza.
+1. Sotto **Centro messaggi** > **Modelli per messaggi transazionali**, crea un nuovo modello e-mail in base al tipo di evento creato in precedenza.
 
    ![](assets/accintegration-uc-2.png)
 
-1. Progetta il tuo modello. In questo esempio, utilizziamo la personalizzazione sul nome del profilo e sul numero dell’ordine. Il nome si trova nell’origine dati Adobe Experience Platform e il numero dell’ordine è un campo del nostro evento Journey Optimizer. Assicurati di utilizzare i nomi di campo corretti in Campaign.
+1. Progetta il modello. In questo esempio, utilizziamo la personalizzazione sul nome del profilo e sul numero di ordine. Il nome si trova nell’origine dati Adobe Experience Platform e il numero d’ordine è un campo del nostro evento Journey Optimizer. Assicurati di utilizzare i nomi di campo corretti in Campaign.
 
    ![](assets/accintegration-uc-3.png)
 
@@ -75,15 +75,15 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
 **Journey Optimizer**
 
-1. Innanzitutto, devi creare un evento. Accertati di includere il campo &quot;purchaseOrderNumber&quot;.
+1. Innanzitutto, devi creare un evento. Assicurarsi di includere il campo &quot;purchaseOrderNumber&quot;.
 
    ![](assets/accintegration-uc-5.png)
 
-1. Devi quindi creare, in Journey Optimizer, un’azione corrispondente al modello di Campaign. In **Tipo di azione** a discesa, seleziona **Adobe Campaign Classic**.
+1. Devi quindi creare, in Journey Optimizer, un’azione corrispondente al modello Campaign. In **Tipo di azione** a discesa, seleziona **Adobe Campaign Classic**.
 
    ![](assets/accintegration-uc-6.png)
 
-1. Fai clic sul pulsante **Campo payload** e incolla il JSON creato in precedenza.
+1. Fai clic su **Campo payload** e incolla il JSON creato in precedenza.
 
    ![](assets/accintegration-uc-7.png)
 
@@ -95,7 +95,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![](assets/accintegration-uc-9.png)
 
-1. Aggiungi l’azione e mappa ogni campo al campo corretto in Journey Optimizer.
+1. Aggiungi l’azione e mappa ogni campo sul campo corretto in Journey Optimizer.
 
    ![](assets/accintegration-uc-10.png)
 
@@ -103,4 +103,4 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![](assets/accintegration-uc-11.png)
 
-1. Ora puoi pubblicare il tuo percorso.
+1. Ora puoi pubblicare il percorso.

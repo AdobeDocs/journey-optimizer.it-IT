@@ -19,11 +19,11 @@ ht-degree: 7%
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
-Durante un&#39;elaborazione a gradini, è possibile ottenere N dati sui gruppi di campi.
+Durante un passaggio di elaborazione, possiamo avere N recupero dati sui gruppi di campi.
 
 ## fetchTotalTime {#fetchtotaltime-field}
 
-Quantità totale di tempo impiegato nel recupero dei dati in millisecondi durante l&#39;elaborazione delle fasi.
+Tempo totale impiegato per il recupero dei dati in millisecondi durante l’elaborazione del passaggio.
 
 Tipo: long
 
@@ -39,30 +39,30 @@ Valori:
 
 ## fetchError {#fetcherror-field}
 
-Tipo di errore che si verifica quando il recupero dei dati viene elaborato.
+Tipo di errore che si verifica quando viene elaborato il recupero dei dati.
 
 Tipo: stringa
 
 Valori:
 * http
-* tappatura
+* limite
 * timeout
 * error
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
-Errore di recupero del codice. Presente se l&#39;errore ha un codice, ad esempio uno HTTP. Ad esempio, se actionExecError è http, il codice 404 rappresenta l&#39;errore HTTP 404.
+Codice per l’errore di recupero. Presente se l’errore ha un codice, ad esempio HTTP. Ad esempio, se actionExecError è http, il codice 404 rappresenta l&#39;errore HTTP 404.
 
 Tipo: stringa
 
 ## fetchOriginError {#fetchoriginerror-field}
 
-Può verificarsi un timeout, in due casi:
+Può verificarsi un timeout in due casi:
 
-* al primo tentativo l’azione viene eseguita. In questo caso, l&#39;esecuzione non è completata, quindi non vi è alcun errore sottostante
-* in un nuovo tentativo: in questo caso, actionExecOrigError/actionExecOrigErrorCode descrive l&#39;errore rilevato nel tentativo prima del nuovo tentativo.
+* al primo tentativo l’azione viene eseguita. In questo caso, l’esecuzione non è terminata, quindi non si verifica alcun errore sottostante
+* in caso di nuovo tentativo: in questo caso, actionExecOrigError/actionExecOrigErrorCode descrive l’errore riscontrato nel tentativo prima del nuovo tentativo.
 
-Ad esempio, i dati vengono recuperati da Unified Profile Service e viene restituito un errore HTTP 500 al primo tentativo. Il recupero viene ritentato, ma la durata dei 2 tentativi supera il timeout. Quindi l’esecuzione dell’azione viene taggata come timeout. La parte azione avrà un aspetto simile al seguente:
+Ad esempio, i dati vengono recuperati da Unified Profile Service e al primo tentativo viene restituito un errore HTTP 500. Il recupero viene ritentato, ma la durata dei 2 tentativi supera il timeout. Quindi l’esecuzione dell’azione viene taggata come timeout. La parte azione sarà simile alla seguente:
 
 ```
     ...
@@ -77,19 +77,19 @@ Tipo: stringa
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-Codice di errore fornito dal sistema [!DNL Journey Optimizer] sta eseguendo una query. Ad esempio può essere un 404, 500, ecc.
+Il codice di errore fornito dal sistema [!DNL Journey Optimizer] sta eseguendo una query. Ad esempio, può essere un 404, 500, ecc.
 
 Tipo: stringa
 
 ## fetchCount {#fetchcount-field}
 
-Quante volte i dati vengono recuperati, indipendentemente dal tipo di origine.
+Quante volte vengono recuperati i dati, indipendentemente dal tipo di origine.
 
 Tipo: long
 
 ## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
-Il tempo totale impiegato per recuperare i dati da Adobe Experience Platform in millisecondi. Nota: tale quantità di tempo viene calcolata dal momento in cui il motore invia l’evento di arricchimento al servizio di arricchimento e riceve la risposta.
+Il tempo totale impiegato per recuperare i dati da Adobe Experience Platform in millisecondi. Nota: questo periodo di tempo viene calcolato dal momento in cui il motore invia l’evento di arricchimento al servizio di arricchimento e riceve la risposta.
 
 Tipo: long
 
@@ -101,7 +101,7 @@ Tipo: long
 
 ## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
-Quantità di tempo per recuperare i dati personalizzati in millisecondi. Nota: tale quantità di tempo è calcolata dal momento in cui il motore invia l’evento di arricchimento al servizio di arricchimento e riceve la risposta
+Tempo di recupero dei dati personalizzati in millisecondi. Nota: questo periodo di tempo viene calcolato dal momento in cui il motore invia l’evento di arricchimento al servizio di arricchimento e riceve la risposta
 
 Tipo: long
 

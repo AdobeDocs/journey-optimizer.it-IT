@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: round
-description: Scopri l’arrotondamento della funzione
+description: Informazioni sulla funzione round
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # round {#round}
 
-Restituisce il valore intero più vicino all&#39;argomento con i legami arrotondati all&#39;infinito positivo.
+Restituisce il valore intero più vicino all&#39;argomento con legami arrotondati all&#39;infinito positivo.
 
 ## Categoria
 

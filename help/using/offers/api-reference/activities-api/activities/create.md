@@ -1,6 +1,6 @@
 ---
 title: Creare una decisione
-description: Una decisione contiene la logica che informa la selezione di un’offerta.
+description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 13%
 
 # Creare una decisione {#create-decision}
 
-Puoi creare una decisione effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Per creare una decisione, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Risposta**
 
-Una risposta corretta restituisce informazioni sulla nuova decisione creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la tua decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la decisione.
 
 ```json
 {

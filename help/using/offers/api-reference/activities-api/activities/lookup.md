@@ -1,6 +1,6 @@
 ---
-title: Cerca una decisione
-description: Una decisione contiene la logica che informa la selezione di un’offerta.
+title: Cercare una decisione
+description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Cerca una decisione {#look-up-decision}
+# Cercare una decisione {#look-up-decision}
 
-Puoi cercare decisioni specifiche effettuando una richiesta di GET al [!DNL Offer Library] API che include le decisioni `@id` o il nome della decisione nel percorso della richiesta.
+Per cercare decisioni specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include le decisioni `@id` o il nome della decisione nel percorso della richiesta.
 
 **Formato API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Definisce lo schema associato alle decisioni. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. Il parametro &quot;id&quot; e &quot;name&quot; non può essere utilizzato insieme | `LBAR` |
+| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. I parametri &quot;id&quot; e &quot;name&quot; non possono essere utilizzati insieme | `LBAR` |
 
 **Richiesta**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del posizionamento, incluse informazioni sull’ID contenitore, l’ID istanza e la decisione univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse informazioni sull’ID contenitore, sull’ID istanza e sulla decisione univoca `@id`.
 
 ```json
 {

@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: substr
-description: Informazioni sul substr funzione
+description: Informazioni sul sottoster della funzione
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: substr, funzione, espressione, percorso
+keywords: substr, function, expression, percorsi
 exl-id: 58a3107a-b4f3-43da-b454-5ce597515847
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # substr {#substr}
 
-Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice begin e l&#39;indice end. Se l&#39;indice finale non è definito, si trova tra l&#39;indice iniziale e la fine.
+Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice iniziale e l&#39;indice finale. Se l&#39;indice finale non è definito, si trova tra l&#39;indice iniziale e la fine.
 
 ## Categoria
 

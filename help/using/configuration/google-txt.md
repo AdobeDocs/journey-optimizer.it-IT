@@ -23,9 +23,9 @@ ht-degree: 24%
 >title="Record TXT di Google"
 >abstract="Per garantire la corretta consegna delle e-mail agli indirizzi Gmail, puoi aggiungere al sottodominio specifici record TXT di Google per la verifica del sito per assicurarti che sia verificato."
 
-I record TXT sono un tipo di record DNS utilizzato per fornire informazioni testuali su un dominio, leggibili da fonti esterne.
+I record TXT sono un tipo di record DNS utilizzati per fornire informazioni testuali su un dominio, leggibili da origini esterne.
 
-Al fine di garantire un recapito messaggi ottimale e la corretta consegna delle e-mail agli indirizzi Gmail, [!DNL Journey Optimizer] consente di aggiungere al sottodominio record TXT di Google per la verifica del sito per assicurarti che sia verificato.
+Al fine di garantire la consegna ottimale e la corretta consegna delle e-mail agli indirizzi Gmail, [!DNL Journey Optimizer] consente di aggiungere record TXT di Google per la verifica del sito al sottodominio per assicurarti che sia verificato.
 
 >[!CAUTION]
 >
@@ -35,8 +35,8 @@ Per aggiungere un record TXT di Google al sottodominio, effettua le seguenti ope
 
 1. Apri il sottodominio da **[!UICONTROL Canali]** / **[!UICONTROL Sottodomini]** menu.
 
-1. In **[!UICONTROL Record TXT di Google]** immettere il codice di verifica generato da [Area di lavoro Google](https://support.google.com/a/answer/183895?hl=it){target="_blank"}<!--G Suite Admin tools-->, quindi fai clic su **[!UICONTROL Salva]**.
+1. In **[!UICONTROL Record TXT di Google]** , immettere il codice di verifica generato da [Google Workspace](https://support.google.com/a/answer/183895?hl=it){target="_blank"}<!--G Suite Admin tools-->, quindi fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Una volta aggiunto il record TXT, è necessario che sia verificato da Google. Per eseguire questa operazione, passa a [Area di lavoro Google](https://support.google.com/a/answer/183895?hl=it){target="_blank"}<!--G Suite Admin tools-->, quindi avvia il passaggio di verifica.
+1. Una volta aggiunto il record TXT, è necessario che sia verificato da Google. A questo scopo, accedi a [Google Workspace](https://support.google.com/a/answer/183895?hl=it){target="_blank"}<!--G Suite Admin tools-->, quindi avvia il passaggio di verifica.

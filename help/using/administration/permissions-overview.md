@@ -12,23 +12,23 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
 # Panoramica della gestione utente {#permissions-overview}
 
-[!DNL Journey Optimizer]Con puoi definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzionalità e funzionalità dei prodotti.
+[!DNL Journey Optimizer]Con puoi definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzioni e alle funzionalità interne al prodotto.
 
-➡️ [Ulteriori informazioni sul controllo degli accessi in Adobe Journey Optimizer in questo video](#video)
+➡️ [Ulteriori informazioni sul controllo degli accessi in Adobe Journey Optimizer sono disponibili in questo video](#video)
 
 Gestione utente in [!DNL Journey Optimizer] si basa su tre concetti:
 
-* **[!UICONTROL Profilo di prodotto]**: Un insieme di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. Fai riferimento a [Profili di prodotto preconfigurati](ootb-product-profiles.md) sezione
+* **[!UICONTROL Profilo di prodotto]**: un insieme di diritti unitari che consente agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. Consulta la sezione [Profili di prodotto predefiniti](ootb-product-profiles.md) sezione
 
-* **[!UICONTROL Autorizzazioni]**: Diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Profilo di prodotto]**. Ogni autorizzazione viene riunita nelle funzionalità, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Fai riferimento a [Livelli di autorizzazione](high-low-permissions.md) sezione .
+* **[!UICONTROL Autorizzazioni]**: diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Profilo di prodotto]**. Ogni autorizzazione viene riunita nelle funzionalità, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Consulta la sezione [Livelli di autorizzazione](high-low-permissions.md) sezione.
 
-* **[!UICONTROL Sandbox]**: Sandbox virtuali che suddividono le istanze in ambienti virtuali separati e isolati. Fai riferimento a [Utilizzo delle sandbox](sandboxes.md)
+* **[!UICONTROL Sandbox]**: sandbox virtuali che suddividono le istanze in ambienti virtuali separati e isolati. Consulta la sezione [Utilizzo delle sandbox](sandboxes.md)
 
 Ogni concetto può essere gestito da **[!UICONTROL Amministratori di prodotto]** che hanno accesso ad Admin Console. [Ulteriori informazioni su Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html).
 

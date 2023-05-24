@@ -9,13 +9,13 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
 # Creare esperienze web {#create-web}
 
-[!DNL Journey Optimizer] ti consente di personalizzare l’esperienza web che distribuisci ai clienti tramite campagne web in entrata.
+[!DNL Journey Optimizer] consente di personalizzare l’esperienza web fornita ai clienti tramite campagne web in entrata.
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ ht-degree: 18%
 >title="Creare una regola di corrispondenza delle pagine"
 >abstract="Una regola di corrispondenza delle pagine consente di eseguire il targeting di più URL che corrispondono alla stessa regola. Può servire, ad esempio, per applicare a un intero sito web le modifiche apportate a un banner principale oppure per aggiungere un’immagine nella parte superiore da visualizzare su tutte le pagine dei prodotti di un sito web."
 
-Per iniziare a creare l’esperienza web tramite una campagna, segui i passaggi riportati di seguito.
+Per iniziare a creare la tua esperienza web attraverso una campagna, segui i passaggi indicati di seguito.
 
 >[!NOTE]
 >
@@ -49,31 +49,31 @@ Per iniziare a creare l’esperienza web tramite una campagna, segui i passaggi 
 
    >[!NOTE]
    >
-   >Una superficie web è una proprietà web identificata da un URL in cui verrà distribuito il contenuto. Può corrispondere a uno o più URL di pagina, consentendoti di apportare modifiche in una o più pagine web.
+   >Una superficie web è una proprietà web identificata da un URL in cui verrà distribuito il contenuto. Può corrispondere a un singolo URL di pagina o a più pagine, consentendoti di apportare modifiche in una o più pagine web.
 
-   Puoi immettere un **[!UICONTROL URL della pagina]** per applicare le modifiche a una sola pagina.
+   È possibile immettere un valore **[!UICONTROL URL della pagina]** se desideri applicare le modifiche a una sola pagina.
 
    ![](assets/web-campaign-surface.png)
 
-1. Oppure puoi creare un **[!UICONTROL Regola corrispondente alle pagine]** per eseguire il targeting di più URL che corrispondono alla stessa regola, ad esempio, se desideri applicare le modifiche a un banner eroe in un intero sito web o aggiungere un’immagine principale che viene visualizzata su tutte le pagine di prodotto di un sito web.
+1. Oppure puoi creare una **[!UICONTROL Regola di corrispondenza pagine]** per eseguire il targeting di più URL che corrispondono alla stessa regola: ad esempio, se desideri applicare le modifiche a un banner hero in un intero sito web o aggiungere un’immagine superiore che venga visualizzata in tutte le pagine di prodotto di un sito web.
 
-   A questo scopo, seleziona **[!UICONTROL Regola corrispondente alle pagine]** e fai clic su **[!UICONTROL Crea regola]**.
+   A tale scopo, seleziona **[!UICONTROL Regola di corrispondenza pagine]** e fai clic su **[!UICONTROL Crea regola]**.
 
    ![](assets/web-campaign-matching-rule.png)
 
-1. Definisci i criteri per la **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]** campi.
+1. Definisci i criteri per il **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]** campi.
 
-   Ad esempio, se desideri modificare gli elementi che vengono visualizzati su tutte le pagine di prodotto donna del sito web Luma, seleziona **[!UICONTROL Dominio]** > **[!UICONTROL Inizia con]** > `luma` e **[!UICONTROL Pagina]** > **[!UICONTROL Contiene]** > `women`.
+   Ad esempio, se desideri modificare gli elementi visualizzati su tutte le pagine di prodotti donna del tuo sito web Luma, seleziona **[!UICONTROL Dominio]** > **[!UICONTROL Inizia con]** > `luma` e **[!UICONTROL Pagina]** > **[!UICONTROL Contiene]** > `women`.
 
    ![](assets/web-pages-matching-rule.png)
 
-1. Salva le modifiche. La regola viene visualizzata nella **[!UICONTROL Creare una campagna]** schermo.
+1. Salva le modifiche. La regola viene visualizzata in **[!UICONTROL Crea campagna]** schermo.
 
    ![](assets/web-pages-matching-rule-example.png)
 
 1. Una volta definita la superficie web, seleziona **[!UICONTROL Crea]**.
 
-1. Completa i passaggi per creare una campagna web, ad esempio le proprietà della campagna, [pubblico](../segment/about-segments.md)e [pianificazione](../campaigns/create-campaign.md#schedule).
+1. Completa i passaggi per creare una campagna web, ad esempio le proprietà della campagna, [pubblico](../segment/about-segments.md), e [pianificazione](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 
@@ -81,13 +81,13 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
 ## Attivare la campagna web {#activate-web-campaign}
 
-Una volta definiti i [impostazioni campagna web](#configure-web-campaign) e il contenuto viene modificato come desiderato utilizzando la [web designer](author-web.md), puoi rivedere e attivare la tua campagna web. Effettua le seguenti operazioni.
+Una volta definiti i [impostazioni della campagna web](#configure-web-campaign) e hai modificato il contenuto come desiderato utilizzando [web designer](author-web.md), puoi rivedere e attivare la tua campagna web. Effettua le seguenti operazioni.
 
 >[!NOTE]
 >
 >Puoi anche visualizzare in anteprima il contenuto della campagna web prima di attivarlo. [Ulteriori informazioni](author-web.md#test-web-campaign)
 
-1. Dalla campagna web, seleziona **[!UICONTROL Rivedi per attivare]**.
+1. Dalla campagna web, seleziona **[!UICONTROL Controlla per attivare]**.
 
 1. Se necessario, seleziona e modifica il contenuto, le proprietà, la superficie, il pubblico e la pianificazione.
 
@@ -97,21 +97,21 @@ Una volta definiti i [impostazioni campagna web](#configure-web-campaign) e il c
 
    >[!NOTE]
    >
-   >Dopo aver fatto clic su **[!UICONTROL Attiva]**, potrebbero essere necessari fino a 15 minuti perché le modifiche alle campagne web siano disponibili in diretta sul sito web.
+   >Dopo aver fatto clic su **[!UICONTROL Attiva]**, possono essere necessari fino a 15 minuti affinché le modifiche alle campagne web siano disponibili in diretta sul sito web.
 
-La tua campagna web prende il **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può vedere le modifiche aggiunte al sito web utilizzando [!DNL Journey Optimizer] web designer.
+La tua campagna web accetta **[!UICONTROL Live]** ed è ora visibile al pubblico selezionato. Ogni destinatario della campagna può visualizzare le modifiche aggiunte al sito web utilizzando [!DNL Journey Optimizer] web designer.
 
 >[!NOTE]
 >
->Se hai definito una pianificazione per la campagna web, la **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell&#39;ora di inizio.
+>Se hai definito una pianificazione per la campagna web, questa presenta **[!UICONTROL Pianificato]** fino al raggiungimento della data e dell’ora di inizio.
 >
->Se attivate una campagna web che interessa le stesse pagine di un’altra campagna già attiva, tutte le modifiche verranno applicate alle pagine web.
+>Se attivi una campagna web che influisce sulle stesse pagine di un’altra campagna già live, tutte le modifiche verranno applicate alle pagine web.
 
 Ulteriori informazioni sull’attivazione delle campagne in [questa sezione](../campaigns/review-activate-campaign.md).
 
 ## Interrompere una campagna web {#stop-web-campaign}
 
-Quando una campagna web è attiva, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Effettua le seguenti operazioni.
+Quando una campagna web è in diretta, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Effettua le seguenti operazioni.
 
 1. Seleziona una campagna live dall’elenco.
 
@@ -123,7 +123,7 @@ Quando una campagna web è attiva, puoi interromperla per impedire al pubblico d
 
 >[!NOTE]
 >
->Una volta interrotta una campagna web, non puoi modificarla o attivarla nuovamente. Puoi duplicarla e attivare la campagna duplicata.
+>Una volta interrotta una campagna web, non puoi più modificarla o attivarla. Puoi solo duplicarlo e attivare la campagna duplicata.
 
 ## Video introduttivo{#video}
 

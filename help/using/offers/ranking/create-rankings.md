@@ -1,6 +1,6 @@
 ---
 title: Creare classificazioni
-description: Scopri come creare classificazioni
+description: Scopri come creare le classificazioni
 feature: Offers
 topic: Integrations
 role: User
@@ -16,6 +16,6 @@ ht-degree: 26%
 
  - Panoramica
 
-formule per la classificazione delle differenze/modelli di intelligenza artificiale
+formule di classificazione delle differenze/modelli AI
 
-collegamento alla sezione classificazione
+collegamento alla sezione di classificazione

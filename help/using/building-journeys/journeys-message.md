@@ -18,24 +18,24 @@ ht-degree: 22%
 
 # E-mail, In-app, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] include funzionalità integrate per messaggi. Puoi semplicemente aggiungere, nel tuo percorso, un push, un SMS, un’attività in-app o un messaggio e-mail e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso.
+[!DNL Journey Optimizer] viene fornito con funzionalità per i messaggi incorporate. Puoi semplicemente aggiungere nel percorso un’attività push, SMS, in-app o messaggio e-mail e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso.
 
-Puoi anche impostare azioni specifiche per l’invio dei messaggi:
+Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 * Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md).
 
-* Se lavori con Campaign e Journey Optimizer, consulta le sezioni seguenti:
+* Se utilizzi Campaign e Journey Optimizer, consulta le sezioni seguenti:
 
    * [[!DNL Journey Optimizer] e Campaign Classic v7/Campaign v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] e CAMPAIGN STANDARD](../action/acs-action.md)
 
-Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
+Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:
 
 1. Inizia il tuo percorso con un [Evento](general-events.md) o un’attività [Leggi segmento](read-segment.md).
 
-1. Da **Azioni** sezione della palette, trascinare e rilasciare un **email**, un **In-app**, un **SMS** o **Push** nell’area di lavoro.
+1. Dalla sezione **Azioni** nella palette, trascina e rilascia una **email**, un **In-app**, un **SMS** o un **Push** attività nell’area di lavoro.
 
-1. Configura l’attività. Scopri i passaggi dettagliati per la creazione del contenuto del messaggio nelle pagine seguenti:
+1. Configura l’attività. Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -57,7 +57,7 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
    </td>
    <td>
    <a href="../push/create-push.md">
-   <img alt="Non fequente" src="../assets/do-not-localize/push.jpg">
+   <img alt="Non frequente" src="../assets/do-not-localize/push.jpg">
    </a>
    <div>
    <a href="../push/create-push.md"><strong>Creare notifiche push<strong></a>
@@ -76,21 +76,21 @@ Per aggiungere un messaggio in un percorso, segui i passaggi seguenti:
    </tr>
    </table>
 
-## Aggiornare il contenuto live{#update-live-content}
+## Aggiornare contenuti live{#update-live-content}
 
 Puoi aggiornare il contenuto di un messaggio (e-mail, in-app, push, SMS) in un percorso live.
 
-A questo scopo, apri il percorso live, seleziona l’attività messaggio e fai clic su **Modifica contenuto**.
+A questo scopo, apri il percorso live, seleziona l’attività del messaggio e fai clic su **Modifica contenuto**.
 
 ![](assets/add-a-message2.png)
 
-Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o percorso).
+Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o di percorso).
 
-Se hai modificato i dati contestuali, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_201
+Se sono stati modificati i dati contestuali, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_201
 
-Se hai modificato gli attributi del profilo, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_202
+Se sono stati modificati gli attributi del profilo, verrà visualizzato il seguente messaggio di errore: ERR_AUTHORING_JOURNEYVERSION_202
 
-Per l’attività in-app, è possibile apportare eventuali modifiche al contenuto mentre il percorso è attivo, ma gli attivatori in-app non possono essere modificati.
+Tieni presente che per l’attività in-app è possibile apportare qualsiasi modifica al contenuto mentre il percorso è in esecuzione, ma non è possibile modificare i trigger in-app.
 
 ## Ottimizzazione dei tempi di invio{#send-time-optimization}
 
@@ -99,22 +99,22 @@ Per l’attività in-app, è possibile apportare eventuali modifiche al contenut
 >title="Ottimizzazione dell’ora di invio"
 >abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
 
-### Informazioni sull’ottimizzazione del tempo di invio {#about-send-time}
+### Informazioni sull’ottimizzazione dell’ora di invio {#about-send-time}
 
-La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici. Utilizza il nostro modello di apprendimento automatico per pianificare tempi di invio personalizzati per ogni utente in modo che aumentino le percentuali di apertura e clic dei messaggi.
+La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
 
-Il modello di ottimizzazione del momento di invio acquisisce i dati di Adobe Journey Optimizer ed esamina le percentuali di apertura a livello di utente (per e-mail e push) e di clic (per e-mail) per determinare quando è più probabile che i clienti interagiscano con i tuoi messaggi. Per formulare raccomandazioni informate, l’ottimizzazione in fase di invio richiede almeno un mese di dati di tracciamento dei messaggi. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i seguenti punteggi:
+Il modello di ottimizzazione dell’ora di invio acquisisce i dati Adobe Journey Optimizer e osserva le percentuali di apertura (e-mail e push) e clic (per e-mail) a livello di utente, per determinare quando i clienti hanno più probabilità di interagire con i messaggi. L’ottimizzazione dell’ora di invio richiede almeno un mese di dati di tracciamento dei messaggi per generare consigli informati. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i punteggi seguenti:
 
 * L&#39;ora migliore di ogni giorno della settimana per massimizzare il coinvolgimento
-* Il giorno migliore della settimana per massimizzare il coinvolgimento
+* Il miglior giorno della settimana per massimizzare il coinvolgimento
 * L&#39;ora migliore del giorno migliore della settimana per massimizzare il coinvolgimento
 
-Il modello varia a seconda che si tratti di punteggio o formazione. L&#39;addestramento viene effettuato inizialmente settimanalmente e poi trimestralmente. Il punteggio è inizialmente settimanale e poi mensile.
+Il modello varia a seconda che si parli di punteggio o di formazione. La formazione viene condotta inizialmente con cadenza settimanale e quindi trimestrale. Il punteggio è inizialmente settimanale e poi mensile.
 
-* Formazione: lo sviluppo dell’algoritmo utilizzato per ottenere il punteggio
-* Punteggio: applicazione di un punteggio a singoli profili in base al modello addestrato
+* Formazione: sviluppo dell’algoritmo utilizzato per assegnare il punteggio
+* Punteggio: applicazione di un punteggio ai singoli profili in base al modello addestrato
 
-Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si fa riferimento durante l’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
+Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa riferimento al momento dell’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
 
 >[!CAUTION]
 >
@@ -132,22 +132,22 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si 
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. Puoi anche restringere gli orari di invio utilizzati dal sistema immettendo un valore per l’opzione Invia entro."
 
-Abilita l’ottimizzazione in fase di invio su un messaggio e-mail o push selezionando la **Ottimizzazione dei tempi di invio** passa dai parametri dell’attività.
+Abilitare l’ottimizzazione dell’ora di invio in un messaggio e-mail o push selezionando la **Ottimizzazione dell’ora di invio** passa dai parametri dell’attività.
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Per i messaggi e-mail, scegli se ottimizzare le aperture dei messaggi e-mail o i click-through di e-mail selezionando il pulsante di scelta appropriato. Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push.
+Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push.
 
-Puoi anche scegliere di applicare una parentesi ai tempi di invio utilizzati dal sistema immettendo un valore per la **Invia all&#39;interno del successivo** opzione . Se si sceglie &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ogni profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
+È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per **Invia entro il prossimo** opzione. Se scegli &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ciascun profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
 
 **Cosa succede se il tempo ottimale è fuori dalla finestra?**
 
 Prendiamo un esempio con la seguente configurazione:
 
-* Ottimizzare i clic
-* L&#39;azione deve iniziare alle 10 di mattina
-* Finestra 3 ore
+* Ottimizza sui clic
+* L’azione deve iniziare alle 10
+* La finestra è di 3 ore
 
-Un profilo può avere un tempo di apertura ottimale che si trova al di fuori della finestra. Ad esempio, l&#39;apertura ottimale di John al clic è alle 5 del pomeriggio.
+Un profilo può avere un tempo di apertura ottimale che si trova all’esterno della finestra. Ad esempio, l’apertura ottimale di John al clic è alle 17.
 
-A livello di profilo, ci sono punteggi per ogni ora della settimana. In questo esempio, l’e-mail verrà sempre inviata all’interno della finestra . In fase di esecuzione, il sistema controlla l’elenco dei punteggi all’interno di tale finestra (finestra di 3 ore a partire dalle 10 di mattina). Il sistema confronta quindi i punteggi per 10, 11 e mezzogiorno e seleziona il più alto. L’e-mail viene inviata in quel momento.
+A livello di profilo, ci sono punteggi per ogni ora della settimana. In questo esempio, l’e-mail verrà sempre inviata all’interno della finestra. In fase di esecuzione, il sistema controlla l’elenco dei punteggi all’interno di tale finestra (finestra di 3 ore a partire dalle ore 00:00). Il sistema confronta quindi i punteggi per 10, 11 e mezzogiorno e seleziona il punteggio più alto. L’e-mail viene inviata in tale momento.

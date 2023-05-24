@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: inSegment
-description: Scopri la funzione inSegment
+description: Scopri la funzione in Segment
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inSegment, funzione, espressione, percorso
+keywords: inSegment, function, expression, percorsi
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 # inSegment {#inSegment}
 
-Controlla se una persona appartiene a un dato segmento.
+Controlla se un singolo appartiene a un dato segmento.
 
 >[!NOTE]
 >
@@ -24,19 +24,19 @@ Controlla se una persona appartiene a un dato segmento.
 
 Il nome del segmento deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione.
 
-I segmenti sono definiti nella [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor di espressioni fornisce un elenco di segmenti compilato automaticamente.
+I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor espressioni fornisce un elenco di segmenti completato automaticamente.
 
 I segmenti possono avere tre stati:
 
-* esistente: l’entità continua a trovarsi nel segmento.
+* esistente: l’entità continua a essere nel segmento.
 * realizzato: l’entità sta entrando nel segmento.
-* usciti: entità in uscita dal segmento.
+* uscita: l’entità sta uscendo dal segmento.
 
-Solo gli individui con il **Realizzato** e **Esistente** gli stati di partecipazione al segmento saranno considerati membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione al segmento verranno considerati come membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 
-`ELSE inSegment('segmentName') == false` significa che hai un segmentMembership dello stato exited.
+`ELSE inSegment('segmentName') == false` significa che disponi di segmentMembership dello stato di uscita.
 
 ## Categoria
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Parametro | Descrizione | Tipo |
 |--- |--- |--- |
-| Segmento | Nome del segmento | `<string>` |
+| Segmento | Il nome del segmento | `<string>` |
 
 ## Firma e tipo restituito
 
@@ -64,4 +64,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se la persona all’interno dell’istanza di percorso fa parte del segmento Adobe Experience Platform denominato &quot;uomini oltre 50&quot;, **[!UICONTROL false]** altrimenti.
+La funzione restituirà **[!UICONTROL true]** se l’individuo all’interno dell’istanza del percorso fa parte del segmento Adobe Experience Platform denominato &quot;men over 50&quot;, **[!UICONTROL false]** altrimenti.

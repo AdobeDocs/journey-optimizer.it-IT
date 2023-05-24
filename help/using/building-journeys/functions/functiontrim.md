@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: trim
-description: Scopri il trim della funzione
+description: Scopri il ritaglio della funzione
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: trim, funzione, espressione, percorso
+keywords: trim, function, expression, percorsi
 exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt

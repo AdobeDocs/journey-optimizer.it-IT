@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: opt-out, e-mail, collegamento, annullamento dell’abbonamento
+keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -18,15 +18,15 @@ ht-degree: 82%
 
 # Gestione della rinuncia e-mail {#email-opt-out}
 
-Per consentire ai destinatari di annullare l’iscrizione alla ricezione delle comunicazioni e-mail, è necessario includere sempre un **scollegare** in ogni e-mail inviata ai destinatari. [Ulteriori informazioni sulla privacy e la gestione delle rinunce](../privacy/opt-out.md)
+Per consentire ai destinatari di annullare l’abbonamento alla ricezione di comunicazioni e-mail, devi sempre includere un’ **collegamento per annullare l’abbonamento** in ogni e-mail inviata ai destinatari. [Ulteriori informazioni sulla gestione della privacy e della rinuncia](../privacy/opt-out.md)
 
 A questo scopo, puoi:
 
-* Inserisci un **collegamento a una pagina di destinazione esterna** in un messaggio e-mail per consentire agli utenti di annullare l’iscrizione alla ricezione di comunicazioni dal tuo marchio. [Scopri come aggiungere un collegamento di rinuncia esterno](#opt-out-external-lp)
+* Inserisci un **collegamento a una pagina di destinazione esterna** in un messaggio e-mail per consentire agli utenti di annullare l’abbonamento alla ricezione di comunicazioni dal tuo marchio. [Scopri come aggiungere un collegamento di rinuncia esterno](#opt-out-external-lp)
 
 * Aggiungi un **collegamento di rinuncia con un clic** nel contenuto dell’e-mail. Questo collegamento consentirà ai destinatari di annullare rapidamente l’iscrizione alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui confermare la rinuncia, per una procedura più snella. [Scopri come aggiungere un collegamento di rinuncia con un solo clic](#one-click-opt-out)
 
-Inoltre, se **[!UICONTROL Annulla sottoscrizione elenco]** l’opzione è abilitata a livello di superficie del canale. Le e-mail corrispondenti inviate con Journey Optimizer includeranno un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail. [Ulteriori informazioni sulla rinuncia nell’intestazione dell’e-mail](#unsubscribe-header)
+Inoltre, se **[!UICONTROL Annullamento iscrizione mailing list]** è abilitata a livello della superficie di canale, le e-mail corrispondenti inviate con Journey Optimizer includeranno un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail. [Ulteriori informazioni sulla rinuncia nell’intestazione dell’e-mail](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annu
 
 ### Implementare una chiamata API per la rinuncia {#opt-out-api}
 
-Per fare in modo che i destinatari rinunciino quando inviano la loro scelta dalla pagina di destinazione, devi implementare un **Chiamata API per abbonamento** attraverso [Adobe Developer](https://developer.adobe.com){target="_blank"} per aggiornare le preferenze dei profili corrispondenti.
+Per consentire ai destinatari di rinunciare selezionando la preferenza dalla pagina di destinazione, devi implementare una **Chiamata API per abbonamento** da a [Adobe Developer](https://developer.adobe.com){target="_blank"} per aggiornare le preferenze dei profili corrispondenti.
 
 La chiamata POST è la seguente:
 

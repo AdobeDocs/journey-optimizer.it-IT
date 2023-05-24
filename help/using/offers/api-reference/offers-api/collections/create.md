@@ -1,6 +1,6 @@
 ---
 title: Creare una raccolta
-description: Le raccolte sono sottoinsiemi di offerte in base a condizioni predefinite definite da un addetto al marketing, ad esempio la categoria dell’offerta.
+description: Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 10%
 
 # Creare una raccolta {#create-collection}
 
-Le raccolte sono sottoinsiemi di offerte in base a condizioni predefinite definite da un addetto al marketing, ad esempio la categoria dell’offerta.
+Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Puoi creare una raccolta effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Per creare una raccolta, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -36,7 +36,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
@@ -61,7 +61,7 @@ curl -X POST \
 
 **Risposta**
 
-Una risposta corretta restituisce informazioni sulla nuova raccolta creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la raccolta. Puoi utilizzare la tua raccolta univoca `@id` in un&#39;esercitazione successiva per creare una decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la raccolta. Puoi utilizzare la tua raccolta univoca `@id` in un tutorial successivo per creare una decisione.
 
 ```json
 {

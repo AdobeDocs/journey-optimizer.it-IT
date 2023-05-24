@@ -1,6 +1,6 @@
 ---
-title: Libreria di funzioni di array
-description: Libreria di funzioni di array
+title: Libreria funzioni array
+description: Libreria funzioni array
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # Funzioni array ed elenco {#arrays}
 
-Utilizza queste funzioni per semplificare l’interazione con array, elenchi e stringhe.
+Utilizzare queste funzioni per semplificare l&#39;interazione con array, elenchi e stringhe.
 
-## Conteggio solo null {#count-only-null}
+## Conteggio solo nulle {#count-only-null}
 
-La `countOnlyNull` viene utilizzato per contare il numero di valori nulli in un elenco.
+Il `countOnlyNull` La funzione viene utilizzata per contare il numero di valori Null in un elenco.
 
 **Sintassi**
 
@@ -35,9 +35,9 @@ La `countOnlyNull` viene utilizzato per contare il numero di valori nulli in un 
 
 Restituisce 3.
 
-## Conteggio con Null {#count-with-null}
+## Conteggio con valori Null {#count-with-null}
 
-La `countWithNull` viene utilizzata per contare tutti gli elementi di un elenco, inclusi i valori nulli.
+Il `countWithNull` La funzione viene utilizzata per contare tutti gli elementi di un elenco, inclusi i valori Null.
 
 **Sintassi**
 
@@ -53,9 +53,9 @@ La `countWithNull` viene utilizzata per contare tutti gli elementi di un elenco,
 
 Restituisce 6.
 
-## Distinto{#distinct}
+## Distinct{#distinct}
 
-La `distinct` viene utilizzata per ottenere i valori da una matrice o da un elenco con i valori duplicati rimossi.
+Il `distinct` La funzione viene utilizzata per ottenere valori da un array o da un elenco con valori duplicati rimossi.
 
 **Sintassi**
 
@@ -65,15 +65,15 @@ La `distinct` viene utilizzata per ottenere i valori da una matrice o da un elen
 
 **Esempio**
 
-L&#39;operazione seguente specifica le persone che hanno effettuato ordini in più store.
+L&#39;operazione seguente specifica gli utenti che hanno effettuato ordini in più di un negozio.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Conteggio Distinto Con Null {#distinct-count-with-null}
+## Conteggio valori univoci con valori Null {#distinct-count-with-null}
 
-La `distinctCountWithNull` viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori nulli.
+Il `distinctCountWithNull` La funzione viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori Null.
 
 **Sintassi**
 
@@ -91,7 +91,7 @@ Restituisce 3.
 
 ## Primo elemento{#head}
 
-La `head` viene utilizzata per restituire il primo elemento di una matrice o di un elenco.
+Il `head` viene utilizzata per restituire il primo elemento di un array o di un elenco.
 
 **Sintassi**
 
@@ -101,15 +101,15 @@ La `head` viene utilizzata per restituire il primo elemento di una matrice o di 
 
 **Esempio**
 
-L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il prezzo più alto. Ulteriori informazioni sulle `topN` si trova nella [first `n` in matrice](#first-n) sezione .
+L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il prezzo più alto. Ulteriori informazioni su `topN` è disponibile nella sezione [primo `n` nell’array](#first-n) sezione.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primo `n` in matrice {#first-n}
+## Primo `n` nell’array {#first-n}
 
-La `topN` viene utilizzata per restituire il primo `N` elementi in una matrice, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
+Il `topN` viene utilizzata per restituire la prima `N` elementi di un array, se ordinati in ordine crescente in base alla data espressione numerica.
 
 **Sintassi**
 
@@ -120,8 +120,8 @@ La `topN` viene utilizzata per restituire il primo `N` elementi in una matrice, 
 | Argomento | Descrizione |
 | --------- | ----------- |
 | `{ARRAY}` | Matrice o elenco da ordinare. |
-| `{VALUE}` | Proprietà in cui ordinare la matrice o l&#39;elenco. |
-| `{AMOUNT}` | Numero di elementi da restituire. |
+| `{VALUE}` | Proprietà in cui ordinare l&#39;array o l&#39;elenco. |
+| `{AMOUNT}` | Il numero di elementi da restituire. |
 
 **Esempio**
 
@@ -133,7 +133,7 @@ L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più b
 
 ## In{#in}
 
-La `in` viene utilizzata per determinare se un elemento è membro di una matrice o di un elenco.
+Il `in` viene utilizzata per determinare se un elemento è membro di un array o di un elenco.
 
 **Sintassi**
 
@@ -143,7 +143,7 @@ La `in` viene utilizzata per determinare se un elemento è membro di una matrice
 
 **Esempio**
 
-L&#39;operazione seguente definisce le persone con compleanni a marzo, giugno o settembre.
+L’operazione seguente definisce le persone il cui compleanno cade in marzo, giugno o settembre.
 
 ```sql
 {%= in (person.birthMonth, [3, 6, 9]) %}
@@ -151,7 +151,7 @@ L&#39;operazione seguente definisce le persone con compleanni a marzo, giugno o 
 
 ## Include{#includes}
 
-La `includes` viene utilizzata per determinare se una matrice o un elenco contiene un elemento specificato.
+Il `includes` viene utilizzata per determinare se un array o un elenco contiene un dato elemento.
 
 **Sintassi**
 
@@ -161,15 +161,15 @@ La `includes` viene utilizzata per determinare se una matrice o un elenco contie
 
 **Esempio**
 
-L’operazione seguente definisce le persone il cui colore preferito include il rosso.
+L&#39;operazione seguente definisce le persone il cui colore preferito include il rosso.
 
 ```sql
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersecazioni{#intersects}
+## Intersects{#intersects}
 
-La `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
+Il `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
 
 **Sintassi**
 
@@ -179,7 +179,7 @@ La `intersects` viene utilizzata per determinare se due array o elenchi hanno al
 
 **Esempio**
 
-L’operazione seguente definisce le persone i cui colori preferiti includono almeno uno di rosso, blu o verde.
+L&#39;operazione seguente definisce le persone i cui colori preferiti includono almeno uno rosso, blu o verde.
 
 ```sql
 {%= intersects(person.favoriteColors,["red", "blue", "green"]) %}
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Ultimo `n` in matrice{#last-n}
+## Ultimo `n` nell’array{#last-n}
 
-La `bottomN` viene utilizzata per restituire l&#39;ultima `N` elementi in una matrice, se ordinati in ordine crescente in base all&#39;espressione numerica specificata.
+Il `bottomN` viene utilizzata per restituire l&#39;ultimo `N` elementi di un array, se ordinati in ordine crescente in base alla data espressione numerica.
 
 **Sintassi**
 
@@ -218,8 +218,8 @@ La `bottomN` viene utilizzata per restituire l&#39;ultima `N` elementi in una ma
 | Argomento | Descrizione |
 | --------- | ----------- | 
 | `{ARRAY}` | Matrice o elenco da ordinare. |
-| `{VALUE}` | Proprietà in cui ordinare la matrice o l&#39;elenco. |
-| `{AMOUNT}` | Numero di elementi da restituire. |
+| `{VALUE}` | Proprietà in cui ordinare l&#39;array o l&#39;elenco. |
+| `{AMOUNT}` | Il numero di elementi da restituire. |
 
 **Esempio**
 
@@ -229,13 +229,13 @@ L&#39;operazione seguente restituisce gli ultimi cinque ordini con il prezzo pi�
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Non in{#notin}
+## Non in entrata{#notin}
 
-La `notIn` viene utilizzata per determinare se un elemento non è membro di una matrice o di un elenco.
+Il `notIn` viene utilizzata per determinare se un elemento non è un membro di un array o di un elenco.
 
 >[!NOTE]
 >
->La `notIn` Funzione *anche* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta del `in` funzione .
+>Il `notIn` funzione *anche* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta del `in` funzione.
 
 **Sintassi**
 
@@ -245,7 +245,7 @@ La `notIn` viene utilizzata per determinare se un elemento non è membro di una 
 
 **Esempio**
 
-L&#39;operazione seguente definisce le persone con compleanni che non sono in marzo, giugno o settembre.
+L’operazione seguente definisce le persone il cui compleanno non è in marzo, giugno o settembre.
 
 ```sql
 {%= notIn(person.birthMonth ,[3, 6, 9]) %}
@@ -254,7 +254,7 @@ L&#39;operazione seguente definisce le persone con compleanni che non sono in ma
 
 ## Sottoinsieme di{#subset}
 
-La `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, tutti gli elementi dell&#39;array A sono elementi dell&#39;array B.
+Il `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, che tutti gli elementi nell&#39;array A sono elementi dell&#39;array B.
 
 **Sintassi**
 
@@ -264,15 +264,15 @@ La `subsetOf` viene utilizzata per determinare se un array specifico (array A) �
 
 **Esempio**
 
-L’operazione seguente definisce le persone che hanno visitato tutte le loro città preferite.
+L&#39;operazione seguente definisce le persone che hanno visitato tutte le loro città preferite.
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Superset di{#superset}
+## Soprainsieme di{#superset}
 
-La `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l&#39;array A contiene tutti gli elementi dell&#39;array B.
+Il `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l’array A contiene tutti gli elementi dell’array B.
 
 **Sintassi**
 
@@ -282,7 +282,7 @@ La `supersetOf` viene utilizzata per determinare se un array specifico (array A)
 
 **Esempio**
 
-L&#39;operazione seguente definisce le persone che hanno mangiato sushi e pizza almeno una volta.
+L’operazione seguente definisce le persone che hanno mangiato sushi e pizza almeno una volta.
 
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}

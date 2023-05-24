@@ -5,7 +5,7 @@ description: Scopri il filtro funzione
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: filtro, funzione, espressione, percorso
+keywords: filter, function, expression, percorsi
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,11 +16,11 @@ ht-degree: 8%
 
 # filter{#filter}
 
-Restituisce un listObject con oggetti con l’attributo chiave corrispondente a uno dei valori chiave specificati.
+Restituisce un oggetto listObject con oggetti il cui attributo chiave corrisponde a uno dei valori chiave specificati.
 
 >[!NOTE]
 >
->Se l’elenco di destinazione è un listObject, è possibile utilizzare questa funzione solo nelle espressioni di azione personalizzate.
+>Se l’elenco di destinazione è un listObject, questa funzione può essere utilizzata solo nelle espressioni di azione personalizzate.
 
 ## Categoria
 
@@ -35,7 +35,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToFilter | listObject | elenco di oggetti da filtrare. Deve essere un riferimento di campo. |
-| keyAttributeName | string | nome dell’attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtraggio |
+| keyAttributeName | string | nome attributo negli oggetti dell’elenco specificato, utilizzato come chiave per il filtro |
 | keyValueList | list | array di valori chiave per il filtro |
 
 ## Firme e tipi restituiti
@@ -56,11 +56,11 @@ Elenco
 
 `filter(listObject, string, listBoolean)`
 
-Restituisce un valore listObject.
+Restituisce un oggetto listObject.
 
 ## Esempi
 
-Ecco un esempio di payload trasmesso in un evento in arrivo &quot;myevent&quot;:
+Ecco un esempio di payload passato in un evento in ingresso &quot;myevent&quot;:
 
 ```json
 "productListItems": [{
@@ -88,4 +88,4 @@ filter(
 )
 ```
 
-Restituisce un listObject contenente i due oggetti con &quot;product2&quot; e &quot;product3&quot; come id.
+Restituisce un oggetto listObject contenente i due oggetti con &quot;product2&quot; e &quot;product3&quot; come id.

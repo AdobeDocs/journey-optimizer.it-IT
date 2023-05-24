@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: testo, e-mail, versione, semplice, editor
+keywords: testo, e-mail, versione, normale, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -24,7 +24,7 @@ Per impostazione predefinita, E-mail Designer crea una versione **[!UICONTROL Te
 
 Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
 
-1. Dal messaggio e-mail, seleziona la **[!UICONTROL Testo normale]** icona.
+1. Dall’e-mail, seleziona la **[!UICONTROL Testo normale]** icona.
 
    ![](assets/text_version_3.png)
 
@@ -42,5 +42,5 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 >
 >* Le modifiche apportate nella vista **[!UICONTROL Testo normale]** non vengono applicate alla visualizzazione HTML.
 >
->* Se riattivi il **[!UICONTROL Sincronizzazione con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione di HTML.
+>* Se si riattiva il **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e sostituite con il contenuto di testo generato dalla versione di HTML.
 

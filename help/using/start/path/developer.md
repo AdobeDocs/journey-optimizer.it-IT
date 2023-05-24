@@ -1,6 +1,6 @@
 ---
-title: Guida introduttiva per sviluppatori
-description: In qualità di sviluppatore, scopri di più su come lavorare con Journey Optimizer
+title: Introduzione per gli sviluppatori
+description: In qualità di sviluppatore, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 hide: true
 hidefromtoc: true
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Guida introduttiva per sviluppatori {#get-started-developers}
+# Introduzione per gli sviluppatori {#get-started-developers}
 
-## Integrare la tua app mobile {#integrate-mobile-app}
+## Integrare l’app mobile {#integrate-mobile-app}
 
-In qualità di sviluppatore, devi **configurare la tua app mobile** per poter inviare notifiche push con [!DNL Adobe Journey Optimizer].
+Come sviluppatore, devi: **configurare l’app mobile** per poter inviare notifiche push con [!DNL Adobe Journey Optimizer].
 
-[!DNL Journey Optimizer] consente di creare i percorsi e inviare messaggi a un pubblico di destinazione. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], devi accertarti che le configurazioni e le integrazioni siano implementate nell’app mobile e in [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Per comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer] fare riferimento a [questa pagina](../../push/push-gs.md).
+[!DNL Journey Optimizer] consente di creare percorsi e inviare messaggi a un pubblico mirato. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], è necessario assicurarsi che le configurazioni e le integrazioni siano attive nell’app mobile e in [!DNL Adobe Experience Platform] e [!DNL Adobe Experience Platform Launch]. Comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer] fare riferimento a [questa pagina](../../push/push-gs.md).
 
-I passaggi per configurare il canale di notifica push e verificare l’integrazione dell’app mobile sono descritti in [questa pagina](../../push/push-configuration.md).
+I passaggi per configurare il canale di notifica push e testare l’integrazione della tua app mobile sono descritti in [questa pagina](../../push/push-configuration.md).
 
 ## Utilizzare le API {#work-apis}
 

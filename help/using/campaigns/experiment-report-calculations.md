@@ -1,18 +1,18 @@
 ---
-title: Calcoli statistici utilizzati nel rapporto di sperimentazione
-description: Ulteriori informazioni sui calcoli statistici utilizzati durante l'esecuzione dei rapporti sugli esperimenti
+title: Calcoli statistici utilizzati nel rapporto sulla sperimentazione
+description: Ulteriori informazioni sui calcoli statistici utilizzati durante l’esecuzione dei rapporti sugli esperimenti
 feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
-badge: label="Beta" type="Informativo"
+badge: label="Beta" type="Informative"
 exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -36,91 +36,91 @@ Questa pagina è destinata agli utenti tecnici.
 
 ## Tasso di conversione
 
-il tasso di conversione o **meschino**&#x200B;μ<sub>ν</sub> per ogni trattamento `ν` in un esperimento è definito come un rapporto tra la somma della metrica e il numero di profili assegnati a tale metrica, N<sub>ν</sub>:
+Il tasso di conversione o **media**, μ<sub></sub> per ciascun trattamento `ν` in un esperimento è definito come un rapporto tra la somma della metrica e il numero di profili assegnati a quella metrica, N<sub></sub>:
 
 ![](assets/statistical_1.png){width="125" align="center"}
 
-Qui, Y<sub>idroid</sub> è il valore della metrica oggettiva per ciascun profilo `i`, che è stato assegnato a una determinata variante *ν*. Quando la metrica di obiettivo è una metrica &quot;univoca&quot;, ovvero un conteggio del numero di profili che eseguono una particolare azione, viene visualizzata come un tasso di conversione e formattata come percentuale. Quando la metrica è una metrica di &quot;conteggio&quot; o &quot;valore totale&quot; (ad esempio, si apre un’e-mail, rispettivamente un ricavo), la stima media per la metrica viene visualizzata come &quot;Conteggio per profilo&quot; o &quot;Valore per profilo&quot;.
+Ecco, Y<sub>i</sub> è il valore della metrica obiettivo per ciascun profilo `i`, che è stato assegnato a una determinata variante **. Quando la metrica obiettiva è una metrica &quot;univoca&quot;, ovvero è un conteggio del numero di profili che eseguono una particolare azione, viene visualizzata come tasso di conversione e formattata come percentuale. Quando la metrica è una metrica di &quot;conteggio&quot; o &quot;valore totale&quot; (ad esempio apertura di e-mail, ricavi rispettivamente), la stima media per la metrica viene visualizzata come &quot;Conteggio per profilo&quot; o &quot;Valore per profilo&quot;.
 
-Se necessario, con l’espressione viene utilizzata la deviazione standard del campione:
+Se necessario, la deviazione standard del campione è usata con l&#39;espressione:
 
 ![](assets/statistical_2.png){width="225" align="center"}
 
 ## Lift {#lift}
 
-L’incremento tra una variante  *ν* e la variante di controllo  *ν<sub>0</sub>* è il &quot;delta&quot; relativo nei tassi di conversione, definito come il calcolo sottostante, dove i singoli tassi di conversione sono definiti sopra. Viene visualizzata come percentuale.
+L’incremento tra una variante  **, e la variante di controllo  *<sub>0</sub>* è il &quot;delta&quot; relativo nei tassi di conversione, definito come il calcolo qui di seguito, in cui i singoli tassi di conversione sono quelli definiti sopra. Viene visualizzata come percentuale.
 
 ![](assets/statistical_3.png){width="125" align="center"}
 
 </br>
 
-## In qualsiasi momento Intervalli di affidabilità validi per trattamenti individuali
+## Intervalli di confidenza validi per i singoli trattamenti
 
-Il pannello Sperimentazione Percorso visualizza gli intervalli di affidabilità &quot;in qualsiasi momento validi&quot; (sequenze di affidabilità) per i singoli trattamenti in un esperimento.
+Nel pannello Sperimentazione di Percorso vengono visualizzati intervalli di affidabilità (sequenze di affidabilità) &quot;sempre validi&quot; per i singoli trattamenti di un esperimento.
 
-Sequenza di affidabilità per una singola variante `ν` è fondamentale per la metodologia statistica utilizzata dall&#39;Adobe. Puoi trovarne la definizione in [questa pagina](https://doi.org/10.48550/arXiv.2103.06476) (riprodotto da [Waudby-Smith et al.]).
+Sequenza di affidabilità per una singola variante `ν` è fondamentale per la metodologia statistica utilizzata da Adobe. La sua definizione è disponibile in [questa pagina](https://doi.org/10.48550/arXiv.2103.06476) (riprodotto da [Waudby-Smith e altri.]).
 
-Se sei interessato a stimare un parametro target `ψ` come il tasso di conversione di una variante in un esperimento, la dicotomia tra una sequenza di intervalli di affidabilità a tempo fisso (CSI) e una sequenza di affidabilità uniforme in base al tempo (CS) può essere riassunta come segue:
+Se ti interessa stimare un parametro target `ψ` come il tasso di conversione di una variante in un esperimento, la dicotomia tra una sequenza di intervalli di confidenza (IC) a tempo fisso e una sequenza di confidenza (CS) uniforme nel tempo può essere riassunta come segue:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
-Per un intervallo di affidabilità regolare, la garanzia probabilistica che il parametro target si trovi all’interno dell’intervallo di valori Ċ<sub>n</sub> è valido solo a un singolo valore fisso di `n` (4) `n` è il numero di campioni). Al contrario per una sequenza di affidabilità, siamo certi che in ogni momento/ tutti i valori della dimensione del campione `t`, il valore &quot;true&quot; del parametro di interesse si trova entro i limiti.
+Per un intervallo di affidabilità regolare, la garanzia probabilistica che il parametro di destinazione si trovi all’interno dell’intervallo di valori<sub>n</sub> è valido solo per un singolo valore fisso di `n` (dove `n` è il numero di campioni). Al contrario, per una sequenza di affidabilità, abbiamo la garanzia che in ogni momento/ tutti i valori della dimensione del campione `t`, il valore &quot;true&quot; del parametro di interesse si trova entro i limiti.
 
-Questo ha alcune profonde implicazioni che sono molto importanti per i test online:
+Questo ha alcune implicazioni profonde che sono molto importanti per i test online:
 
-* Il CS può essere aggiornato facoltativamente ogni volta che nuovi dati diventano disponibili.
-* Gli esperimenti possono essere monitorati in modo continuo, arrestati in modo adattivo o continuati.
-* L&#39;errore di tipo I viene controllato in tutti i momenti di arresto, compresi i tempi dipendenti dai dati.
+* Facoltativamente, il CS può essere aggiornato ogni volta che diventano disponibili nuovi dati.
+* Gli esperimenti possono essere monitorati in modo continuo, interrotti in modo adattivo o continuati.
+* L’errore di tipo I viene controllato in tutti i momenti di arresto, compresi quelli dipendenti dai dati.
 
-L’Adobe utilizza le sequenze di confidenza asintotica, che per una singola variante con stima media `μ` presenta il modulo:
+Adobe utilizza le sequenze di affidabilità asintotiche, che per una singola variante con stima media `μ` ha il modulo:
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
 Dove:
 
-* `N` è il numero di unità per la variante.
-* `σ` è una stima campione della deviazione standard (definita sopra).
-* `α` è il livello desiderato di errore di tipo I (o probabilità di copertura errata). È sempre impostato su 0,05.
-* true<sup>2</sup> è una costante che regola la dimensione del campione a cui il CS è più stretto. L&#39;Adobe ha scelto un valore universale del valore<sup>2</sup> = 10<sup>-2,8</sup>, appropriato per i tipi di tassi di conversione rilevati negli esperimenti online.
+* `N` è il numero di unità per quella variante.
+* `σ` è una stima a campione della deviazione standard (definita sopra).
+* `α` è il livello desiderato di errore di tipo I (o la probabilità di copertura erronea). Questo valore è sempre impostato su 0,05.
+* <sup>2</sup> è una costante che ottimizza la dimensione del campione in cui il CS è più stretto. L’Adobe ha scelto un valore universale di<sup>2</sup> = 10<sup>-2,8</sup>, appropriato per i tipi di tassi di conversione visualizzati negli esperimenti online.
 
 ## Confidence {#confidence}
 
-L&#39;affidabilità utilizzata dall&#39;Adobe è un&#39;affidabilità &quot;valida in qualsiasi momento&quot;, ottenuta invertendo la sequenza di confidenza per l&#39;effetto di trattamento medio.
+L’affidabilità utilizzata da Adobe è un’affidabilità &quot;valida in qualsiasi momento&quot;, ottenuta invertendo la sequenza di affidabilità per l’effetto medio del trattamento.
 
-Per essere precisi, in un campione *t* per verificare la differenza di mezzi tra due varianti, esiste una mappatura 1:1 tra i *p*-value per questo test e l&#39;intervallo di affidabilità per la differenza nei mezzi. Per analogia, una qualsiasi volta valida *p*-value può essere ottenuto invertendo la sequenza di confidenza (in qualsiasi momento valida) per il calcolatore medio dell&#39;effetto di trattamento:
+Per essere precisi, in due campioni *t* test per la differenza nelle medie tra due varianti, esiste una mappatura 1:1 tra *p*-value per questo test e l’intervallo di affidabilità per la differenza nelle medie. Per analogia, un valore *p* Il valore-value può essere ottenuto invertendo la sequenza di confidenza (valida in qualsiasi momento) per lo stimatore dell’effetto medio del trattamento:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 
-Qui, *E* è un&#39;aspettativa. Lo stimatore utilizzato è uno stimatore a tendenza inversa (IPW). Considera N = N<sub>0</sub> +N<sub>1</sub> unità, le assegnazioni di variante per ciascuna unità `i` etichettate da A<sub>i</sub>=0,1 se l&#39;unità è assegnata alla variante `ν`=0,1. Se gli utenti sono assegnati con probabilità fissa (propensione) π<sub>0</sub>, (1 π)<sub>0</sub>) e la loro metrica di risultato è Y<sub>i</sub>, quindi lo stimatore IPW per l&#39;effetto medio del trattamento è:
+Qui, *E* è un&#39;aspettativa. Lo stimatore utilizzato è uno stimatore con ponderazione della propensione inversa (IPW). Considera N = N<sub>0</sub> +N<sub>1</sub> unità, le assegnazioni della variante per ciascuna unità `i` etichettato da A<sub>i</sub>=0,1 se l&#39;unità è assegnata alla variante `ν`=0,1. Se gli utenti vengono assegnati con una probabilità fissa (propensione), si verifica un’eccezione a questo tipo di assegnazione<sub>0</sub>, (1-<sub>0</sub>) e la metrica di risultato è Y<sub>i</sub>Quindi il stimatore IPW per l’effetto medio del trattamento è:
 
 ![](assets/statistical_12.png){width="400" align="center"}
 
-Nota che *f* è la funzione di influenza, Waudby-Smith et al. mostra che la sequenza di affidabilità per questo stimatore è:
+Osservando che *f* è la funzione di influenza, Waudby-Smith et al. ha mostrato che la sequenza di affidabilità per questo stimatore è:
 
 ![](assets/statistical_7.png){width="500" align="center"}
 
-Sostituzione della probabilità di assegnazione con le relative stime empiriche: π<sub>0</sub> = N<sub>0</sub>/N, il termine di varianza può essere espresso in termini di stime medie individuali del campione μ<sub>0,1</sub> e stime di deviazione standard,<sub>0,1</sub> come:
+Sostituzione della probabilità di assegnazione con le relative stime empiriche:<sub>0</sub> = N<sub>0</sub>/N, il termine della varianza può essere espresso in termini di medie individuali del campione μ<sub>0,1</sub> e le stime della deviazione standard,<sub>0,1</sub> come:
 
 ![](assets/statistical_8.png){width="500" align="center"}
 
-Successivamente, ricordare che per una normale prova di ipotesi con la statistica z del test (μ)<sub>A</sub>-μ<sub>0</sub>/Þ<sub>p</sub>) esiste una corrispondenza tra `p`-valori e intervalli di affidabilità:
+Successivamente, ricorda che per un test di ipotesi regolare con statistica di test z = (μ<sub>A</sub>-μ<sub>0</sub>/<sub>p</sub>) esiste una corrispondenza tra `p`-valori e intervalli di affidabilità:
 
 ![](assets/statistical_9.png){width="500" align="center"}
 
-dove `Φ` è la distribuzione cumulativa della norma normale. In qualsiasi momento valido `p`-valori, data la sequenza di affidabilità per l&#39;effetto di trattamento medio sopra definito, possiamo invertire questa relazione:
+dove `Φ` è la distribuzione cumulativa della normale standard. Per qualsiasi momento valido `p`-valori, data la sequenza di affidabilità per l’effetto medio del trattamento definito sopra, è possibile invertire questa relazione:
 
 ![](assets/statistical_10.png){width="600" align="center"}
 
-Infine, la **confidenza valida in qualsiasi momento** è:
+Infine, la **attendibilità valida in qualsiasi momento** è:
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
-## Dichiarare conclusivo un esperimento
+## Dichiarazione di conclusione di un esperimento
 
-Per un esperimento con due bracci, il pannello Sperimentazione Journey Optimizer visualizza un messaggio che informa che un esperimento è **conclusivo** quando l&#39;affidabilità valida in qualsiasi momento supera il 95% (ovvero, la validità in qualsiasi momento `p`-value è inferiore al 5%).
+Per un esperimento a due bracci, il pannello Sperimentazione di Journey Optimizer visualizza un messaggio che indica che un esperimento è **conclusivo** quando l’affidabilità valida supera il 95% (ovvero, l’affidabilità valida in qualsiasi momento `p`-value è inferiore al 5%).
 
-Quando sono presenti più di due varianti, la correzione Bonferonni viene applicata per controllare il tasso di errore in base alla famiglia. Per un esperimento con `K` trattamenti, e un unico trattamento di base (controllo), ci sono `K-1` test di ipotesi indipendenti. La correzione Bonferonni significa che respingiamo l&#39;ipotesi null secondo cui il controllo e una determinata variante hanno mezzi uguali, se valida in qualsiasi momento `p`-value (definito sopra) è inferiore a una soglia di `α/(K-1)`.
+Se sono presenti più di due varianti, la correzione Bonferroni viene applicata per controllare il tasso di errore per famiglia. Per un esperimento con `K` e un singolo trattamento di base (di controllo), sono disponibili `K-1` test di ipotesi indipendenti. La correzione Bonferroni significa che respingiamo l&#39;ipotesi nulla che il controllo e una data variante abbiano mezzi uguali, se il `p`-value (definito sopra) è inferiore a una soglia di `α/(K-1)`.
 
 ## Braccio dalle prestazioni migliori
 
-Quando un esperimento viene dichiarato conclusivo, viene visualizzato il braccio con le prestazioni migliori. Questa è la leva con le migliori prestazioni (media più alta o tasso di conversione), tra il Set che include il controllo, e tutti i bracci che hanno un `p`-valore inferiore alla soglia Bonferonni.
+Quando un esperimento è dichiarato conclusivo, viene visualizzato il braccio con le prestazioni migliori. Questo è il braccio con le migliori prestazioni (media più alta o tasso di conversione), tra il Set che include il controllo e tutti i bracci che hanno un `p`-valore inferiore alla soglia Bonferroni.

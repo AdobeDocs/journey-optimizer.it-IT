@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Operatori
-description: Informazioni sugli operatori nelle espressioni avanzate
+description: Scopri gli operatori nelle espressioni avanzate
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Operatori {#operators}
 
-Esistono due tipi di operatori: operatori unari e operatori binari. Ci sono operatori unari a sinistra e operatori unari a destra.
+Esistono due tipi di operatori: operatori unari e operatori binari. Sono disponibili operatori unari di sinistra e operatori unari di destra.
 
 ```json
 // left-hand unary operators
@@ -38,11 +38,11 @@ not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Note importanti{#important-notes}
 
-* Quando si utilizza una moltiplicazione (`*`), entrambi i campi operazione devono avere lo stesso tipo, intero o decimale. Esempio :
-   * l&#39;esempio seguente è corretto: `3.0 * 4.0`
-   * `3 * 4.0` porterà a un errore
+* Quando si utilizza una moltiplicazione (`*`), entrambi i campi dell&#39;operazione devono avere lo stesso tipo, intero o decimale. Esempio :
+   * l’esempio seguente è corretto: `3.0 * 4.0`
+   * `3 * 4.0` genererà un errore
 
-## Logica  {#logical}
+## Logico  {#logical}
 
 ### e
 
@@ -72,7 +72,7 @@ Esempio:
 3.14 > 2 or 3.15 < 1
 ```
 
-### not
+### non
 
 ```json
 not <expression>
@@ -96,7 +96,7 @@ not 3.15 < 1
 
 Il risultato è booleano.
 
-Il valore null indica che l&#39;espressione non ha alcun valore valutato.
+Nullo significa che l’espressione non ha un valore valutato.
 
 Esempio:
 
@@ -104,7 +104,7 @@ Esempio:
 @{BarBeacon.location} is null
 ```
 
-### non è null
+### non è nullo
 
 ```json
 <expression> is not null
@@ -112,7 +112,7 @@ Esempio:
 
 Il risultato è booleano.
 
-Il valore null indica che l&#39;espressione non ha alcun valore valutato.
+Nullo significa che l’espressione non ha un valore valutato.
 
 Esempio:
 
@@ -120,7 +120,7 @@ Esempio:
 @{BarBeacon.location} is not null
 ```
 
-### ha null
+### ha valore null
 
 ```json
 <expression> has null
@@ -152,7 +152,7 @@ Restituisce false perché &quot;&quot; non è considerato nullo.
 
 >[!NOTE]
 >
->Per &lt;expression1> e &lt;expression2> non è disponibile alcun controllo del tipo di dati.
+>Per &lt;expression1> e &lt;expression2> non esiste alcun controllo del tipo di dati.
 
 Esempio:
 
@@ -171,7 +171,7 @@ Esempio:
 ```
 
 >[!NOTE]
-Per &lt;expression1> e &lt;expression2> non è disponibile alcun controllo del tipo di dati.
+Per &lt;expression1> e &lt;expression2> non esiste alcun controllo del tipo di dati.
 
 Il risultato è booleano.
 
@@ -195,7 +195,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -217,7 +217,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -239,7 +239,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -261,7 +261,7 @@ Datetime può essere confrontato con Datetime.
 
 Datetimeonly può essere confrontato con Datetimeonly.
 
-È possibile confrontare sia un numero intero che un decimale con un numero intero o decimale.
+Sia il numero intero che il numero decimale possono essere confrontati con il numero intero o il numero decimale.
 
 Qualsiasi altra combinazione è vietata.
 
@@ -281,7 +281,7 @@ Esempio:
 <expression1> + <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -299,7 +299,7 @@ Restituisce 3
 <expression1> - <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -317,11 +317,11 @@ Restituisce 1
 <expression1> / <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
-&lt;expression2> deve essere diverso da 0 (restituisce 0).
+&lt;expression2> non deve essere uguale a 0 (restituisce 0).
 
 Esempio:
 
@@ -337,7 +337,7 @@ Restituisce 2
 <expression1> * <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -355,7 +355,7 @@ Restituisce 12
 <expression1> % <expression2>
 ```
 
-Entrambe le espressioni devono essere numeriche (integer o decimali).
+Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
@@ -375,7 +375,7 @@ Restituisce 1.
 <expression> is numeric
 ```
 
-Il tipo di espressione è integer o decimale.
+Il tipo dell&#39;espressione è numero intero o decimale.
 
 Esempio:
 
@@ -389,7 +389,7 @@ Esempio:
 <expression> is integer
 ```
 
-Il tipo di espressione è integer.
+Il tipo dell&#39;espressione è un numero intero.
 
 Esempio:
 
@@ -403,7 +403,7 @@ Esempio:
 <expression> is decimal
 ```
 
-Il tipo di espressione è decimale.
+Il tipo dell&#39;espressione è decimal.
 
 Esempio:
 
@@ -423,7 +423,7 @@ Esempio:
 <expression> + <string>
 ```
 
-Conconcatena due espressioni.
+Concatena due espressioni.
 
 Un&#39;espressione deve essere una stringa concatenata.
 
@@ -433,13 +433,13 @@ Esempio:
 "the current time is " + (now())
 ```
 
-Restituisce &quot;l&#39;ora corrente è 2019-09-23T09:30:06,693Z&quot;
+Restituisce &quot;l’ora corrente è 2019-09-23T09:30:06,693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Restituisce &quot;2019-09-23T09:30:06.693Z è l&#39;ora attuale&quot;
+Restituisce &quot;2019-09-23T09:30:06.693Z è l&#39;ora corrente&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -455,7 +455,7 @@ Restituisce &quot;abc1234&quot;.
 <expression> + <duration>
 ```
 
-Aggiungi una durata a un dateTime, a un dateTimeOnly o a una durata.
+Aggiungere una durata a un valore dateTime, dateTimeOnly o duration.
 
 Esempio:
 
@@ -463,22 +463,22 @@ Esempio:
 (toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Restituisce un valore _dateTime_ 2011-12-03T15:30:30 Z
+Restituisce un _dateTime_ 03/12/2011:30:30Z
 
 ```json
 (toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Restituisce un valore _dateTimeOnly_ 2011-12-03T15:30:30
+Restituisce un _dateTimeOnly_ 03/12/2011:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Restituisce un valore _dateTime_ (con fuso orario UTC) un&#39;ora dopo dall&#39;ora corrente
+Restituisce un _dateTime_ (con fuso orario UTC) un’ora dopo rispetto all’ora corrente
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Restituisce un valore _durata_ PT2H
+Restituisce un _durata_ PT2H

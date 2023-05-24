@@ -1,8 +1,8 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Guida introduttiva ai modelli AI
-description: Scopri i modelli AI che consentono di classificare le offerte
+title: Introduzione ai modelli AI
+description: Scopri i modelli di intelligenza artificiale che consentono di classificare le offerte
 feature: Ranking Formulas
 role: User
 level: Intermediate
@@ -14,31 +14,31 @@ ht-degree: 4%
 
 ---
 
-# Guida introduttiva ai modelli AI {#ai-models}
+# Introduzione ai modelli AI {#ai-models}
 
-[!DNL Journey Optimizer] consente di utilizzare un sistema di modelli addestrati che classifica le offerte da visualizzare per un determinato profilo.
+[!DNL Journey Optimizer] consente di utilizzare un sistema di modelli addestrato che classifica le offerte da visualizzare per un determinato profilo.
 
-Questa funzione consente di creare **Modelli AI** in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrati ti aiuterà a comprendere in che modo i diversi modelli AI influenzano i tuoi obiettivi.
+Questa funzione consente di creare diversi **Modelli IA** in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrato ti aiuterà a capire in che modo i diversi modelli di intelligenza artificiale influiscono sui tuoi obiettivi.
 
-Ad esempio, puoi selezionare un modello AI per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrati sfrutterà più punti di dati per determinare quale offerta deve essere presentata prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di un [formula di classificazione](create-ranking-formulas.md).
+Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutta più punti di dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte o di un [formula di classificazione](create-ranking-formulas.md).
 
 ## Tipi di modelli basati su IA {#ai-model-types}
 
-Sono disponibili due tipi di modelli AI in [!DNL Journey Optimizer]:
+In sono disponibili due tipi di modelli di IA [!DNL Journey Optimizer]:
 
-* **Modelli di ottimizzazione automatica** cerca di offrire che massimizzino i rendimenti (KPI) impostati dai clienti aziendali. Questi KPI possono essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic delle offerte con la conversione delle offerte come target. L’ottimizzazione automatica non è personalizzata e si ottimizza in base alle prestazioni &quot;globali&quot; delle offerte. [Ulteriori informazioni](auto-optimization-model.md)
+* **Modelli di ottimizzazione automatica** mira a distribuire offerte che massimizzano il ritorno (KPI, Key Performance Indicator) impostato dai clienti aziendali. Questi KPI potrebbero essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic dell’offerta con la conversione dell’offerta come obiettivo. L’ottimizzazione automatica non è personalizzata e viene ottimizzata in base alle prestazioni &quot;globali&quot; delle offerte. [Ulteriori informazioni](auto-optimization-model.md)
 
-* **Modelli di personalizzazione** consente di definire obiettivi aziendali e utilizza i dati dei clienti per addestrare modelli orientati alle aziende in modo da offrire offerte personalizzate e massimizzare i KPI. [Ulteriori informazioni](personalized-optimization-model.md)
+* **Modelli di personalizzazione** consente di definire gli obiettivi aziendali e utilizza i dati dei clienti per addestrare modelli orientati alle aziende a distribuire offerte personalizzate e massimizzare i KPI. [Ulteriori informazioni](personalized-optimization-model.md)
 
    >[!CAUTION]
    >
-   >L’utilizzo di modelli di ottimizzazione personalizzata è attualmente disponibile in fase di accesso anticipato solo per determinati utenti.
+   >L’utilizzo di modelli di ottimizzazione personalizzati è attualmente disponibile in accesso anticipato solo per alcuni utenti.
 
-## Creazione di un modello AI {#create-ai-model}
+## Creazione di un modello di IA {#create-ai-model}
 
-I passaggi principali per creare e utilizzare i modelli AI sono i seguenti:
+I passaggi principali per creare e utilizzare modelli di intelligenza artificiale sono i seguenti:
 
-1. Crea un set di dati in cui verranno raccolti gli eventi di conversione e impression. [Ulteriori informazioni](../data-collection/create-dataset.md)
-1. Crea un modello AI che sfrutti gli eventi dal set di dati per classificare le offerte. [Ulteriori informazioni](create-ranking-strategies.md)
-1. Configura lo schema dell’offerta per acquisire automaticamente gli eventi. [Ulteriori informazioni](../data-collection/schema-requirement.md)
-1. Assegna il modello AI a un posizionamento in una decisione per classificare le offerte idonee. [Ulteriori informazioni](../offer-activities/configure-offer-selection.md)
+1. Crea un set di dati in cui verranno raccolti gli eventi di conversione e di impression. [Ulteriori informazioni](../data-collection/create-dataset.md)
+1. Crea un modello di intelligenza artificiale che sfrutta gli eventi del set di dati per classificare le offerte. [Ulteriori informazioni](create-ranking-strategies.md)
+1. Configura lo schema di offerta per acquisire automaticamente gli eventi. [Ulteriori informazioni](../data-collection/schema-requirement.md)
+1. Assegna il modello di IA a un posizionamento in una decisione di classificazione delle offerte idonee. [Ulteriori informazioni](../offer-activities/configure-offer-selection.md)

@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: sum
-description: Scopri la somma delle funzioni
+description: Informazioni sulla somma delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: somma, funzione, espressione, percorso
+keywords: sum, function, expression, percorsi
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -38,7 +38,7 @@ Aggregazione
 
 `sum(<listDecimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 `sum(<listInteger>)`
 
@@ -50,7 +50,7 @@ Restituisce un numero intero.
 
 `sum(<decimal>,<decimal>)`
 
-Restituisce un decimale.
+Restituisce un valore decimale.
 
 ## Esempi
 

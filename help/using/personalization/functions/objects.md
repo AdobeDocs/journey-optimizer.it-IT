@@ -1,6 +1,6 @@
 ---
-title: Libreria di funzioni per oggetti
-description: Libreria di funzioni per oggetti
+title: Libreria funzioni oggetti
+description: Libreria funzioni oggetti
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 ## È nullo{#isNull}
 
-La `isNull` determina se un riferimento a un oggetto non esiste.
+Il `isNull` determina se un riferimento a un oggetto non esiste.
 
 **Sintassi**
 
@@ -27,15 +27,15 @@ La `isNull` determina se un riferimento a un oggetto non esiste.
 
 **Esempio**
 
-L&#39;operazione seguente verifica se l&#39;indirizzo di origine della persona non esiste.
+L&#39;operazione seguente verifica se l&#39;indirizzo dell&#39;abitazione della persona non esiste.
 
 ```sql
 {%= isNull(person.homeAddress) %}
 ```
 
-## Non è Null{#isNotNull}
+## Non è nullo{#isNotNull}
 
-La `isNotNull` determina se esiste un riferimento a un oggetto.
+Il `isNotNull` determina se esiste un riferimento a un oggetto.
 
 **Sintassi**
 
@@ -45,7 +45,7 @@ La `isNotNull` determina se esiste un riferimento a un oggetto.
 
 **Esempio**
 
-L&#39;operazione seguente controlla se l&#39;indirizzo di origine della persona esiste.
+L&#39;operazione seguente verifica se l&#39;indirizzo dell&#39;abitazione della persona esiste.
 
 ```sql
 {%= isNotNull(person.homeAddress) %}

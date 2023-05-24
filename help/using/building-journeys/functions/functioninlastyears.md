@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # inLastYears {#inLastYears}
 
-Restituisce true se una data o un valore dateTime specificato è compreso tra ora e ora - anni delta.
+Restituisce true se una data o un valore dateTime specificato è compreso tra now e now - delta years.
 
 ## Categoria
 
@@ -30,7 +30,7 @@ Data
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora | dateTime |
+| data e ora | dateTime |
 | delta | numero intero |
 
 ## Firme e tipo restituito

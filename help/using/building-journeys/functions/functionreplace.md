@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: replace
-description: Informazioni sulla sostituzione della funzione
+description: Scopri la funzione Sostituisci
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: sostituire, funzione, espressione, percorso
+keywords: replace, function, expression, percorsi
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,9 +16,9 @@ ht-degree: 10%
 
 # replace {#replace}
 
-Sostituisce la prima occorrenza che corrisponde alla stringa di destinazione dalla stringa di sostituzione nella stringa di base.
+Sostituisce la prima occorrenza corrispondente alla stringa di destinazione con la stringa di sostituzione nella stringa di base.
 
-La sostituzione procede dall’inizio della stringa alla fine, ad esempio sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
+La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 ## Categoria
 
@@ -33,7 +33,7 @@ Stringa
 | Parametro | Tipo |
 |-----------|--------------|
 | base | string |
-| target | string (RegExp) |
+| target | stringa (RegExp) |
 | sostituzione | string |
 
 ## Firma e tipo restituito
@@ -50,15 +50,15 @@ Restituisce &quot;Hexlo World&quot;.
 
 ## Esempio 2 {#example_2}
 
-Poiché il parametro di destinazione è un RegExp, a seconda della stringa che desideri sostituire, potrebbe essere necessario applicare l’escape di alcuni caratteri. Ecco un esempio:
+Poiché il parametro di destinazione è un RegExp, a seconda della stringa che si desidera sostituire, potrebbe essere necessario eseguire l&#39;escape di alcuni caratteri. Ecco un esempio:
 
 * stringa da valutare: `|OFFER_A|OFFER_B`
 * fornito da un attributo di profilo `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Stringa da sostituire: `|OFFER_A`
 * Stringa sostituita da: `''`
-* È necessario aggiungere `\\` prima del `|` carattere.
+* Devi aggiungere `\\` prima del `|` carattere.
 
-L&#39;espressione è:
+L’espressione è:
 
 `replace(#{ExperiencePlatform.myFieldGroup.profile.myOffers}, '\\|OFFER_A', '')`
 

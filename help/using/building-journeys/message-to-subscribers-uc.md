@@ -7,7 +7,7 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: percorso, caso d'uso, messaggio, abbonati, elenco, lettura
+keywords: percorso, caso d’uso, messaggio, abbonati, elenco, lettura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -16,27 +16,27 @@ ht-degree: 17%
 
 ---
 
-# Caso di utilizzo: inviare un messaggio agli abbonati di un elenco{#send-a-message-to-the-subscribers-of-a-list}
+# Caso d’uso: inviare un messaggio agli abbonati di un elenco{#send-a-message-to-the-subscribers-of-a-list}
 
-Lo scopo di questo caso d’uso è quello di creare un percorso per inviare un messaggio agli abbonati di un elenco.
+Lo scopo di questo caso d’uso è la creazione di un percorso per inviare un messaggio agli abbonati di un elenco.
 
-In questo esempio, la **[!UICONTROL Dettagli su consenso e preferenza]** gruppo di campi da [!DNL Adobe Experience Platform] viene utilizzato. Per trovare questo gruppo di campi, dal **[!UICONTROL Gestione dati]** menu, scegli **[!UICONTROL Schemi]**. Sulla **[!UICONTROL Gruppi di campi]** immettere il nome del gruppo di campi nel campo di ricerca.
+In questo esempio, la proprietà **[!UICONTROL Dettagli su consenso e preferenze]** gruppo di campi da [!DNL Adobe Experience Platform] viene utilizzato. Per trovare questo gruppo di campi, dal **[!UICONTROL Gestione dati]** menu, scegliere **[!UICONTROL Schemi]**. Il giorno **[!UICONTROL Gruppi di campi]** , immettere il nome del gruppo di campi nel campo di ricerca.
 
 ![Questo gruppo di campi include l&#39;elemento subscriptions](assets/consent-and-preference-details-field-group.png)
 
-Per configurare questo percorso, effettua le seguenti operazioni:
+Per configurare il percorso, eseguire la procedura seguente:
 
-1. Crea un percorso che inizia con un **[!UICONTROL Leggi]** attività. [Ulteriori informazioni](journey-gs.md).
-1. Aggiungi un **[!UICONTROL E-mail]** attività di azione al percorso. [Ulteriori informazioni](journeys-message.md).
-1. In **[!UICONTROL Parametri e-mail]** della sezione **[!UICONTROL E-mail]** impostazioni dell’attività, sostituisci l’indirizzo e-mail predefinito (`PersonalEmail.adress`) con l&#39;indirizzo e-mail degli abbonati all&#39;elenco:
+1. Creare un percorso che inizia con **[!UICONTROL Letto]** attività. [Ulteriori informazioni](journey-gs.md).
+1. Aggiungi un **[!UICONTROL E-mail]** attività al percorso. [Ulteriori informazioni](journeys-message.md).
+1. In **[!UICONTROL Parametri e-mail]** sezione del **[!UICONTROL E-mail]** , sostituisci l&#39;indirizzo e-mail predefinito (`PersonalEmail.adress`) con l’indirizzo e-mail degli iscritti all’elenco:
 
-   1. Fai clic sul pulsante **[!UICONTROL Abilita sostituzione parametro]** a destra del **[!UICONTROL Indirizzo]** quindi fai clic sul campo **[!UICONTROL Modifica]** icona.
+   1. Fai clic su **[!UICONTROL Abilita sostituzione parametro]** a destra della **[!UICONTROL Indirizzo]** , quindi fare clic sul pulsante **[!UICONTROL Modifica]** icona.
 
       ![](assets/message-to-subscribers-uc-1.png)
 
    1. Nell’editor espressioni, immetti l’espressione per recuperare gli indirizzi e-mail degli abbonati. [Ulteriori informazioni](expression/expressionadvanced.md).
 
-      Questo esempio mostra un&#39;espressione che include riferimenti ai campi di mappatura:
+      Questo esempio mostra un’espressione che include riferimenti ai campi mappa:
 
       ```json
       #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
@@ -46,16 +46,16 @@ Per configurare questo percorso, effettua le seguenti operazioni:
 
       | Funzione | Descrizione | Esempio |
       | --- | --- | --- |
-      | `entry` | Fai riferimento a un elemento mappa in base allo spazio dei nomi selezionato | Fai riferimento a un elenco di abbonamenti specifico |
-      | `firstEntryKey` | Recupera la prima chiave di ingresso di una mappa | Recupera il primo indirizzo e-mail degli abbonati |
+      | `entry` | Fai riferimento a un elemento mappa in base allo spazio dei nomi selezionato | Fai riferimento a un elenco di iscrizioni specifico |
+      | `firstEntryKey` | Recuperare la prima chiave di ingresso di una mappa | Recupera il primo indirizzo e-mail degli abbonati |
 
-      In questo esempio, l’elenco di sottoscrizioni è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nel `subscribers` map, collegata alla mappa dell’elenco di abbonamenti.
+      In questo esempio, l’elenco degli abbonamenti è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nella `subscribers` mappa, collegata alla mappa dell’elenco di iscrizioni.
 
-      Ulteriori informazioni [riferimenti ai campi](expression/field-references.md) nelle espressioni.
+      Ulteriori informazioni su [riferimenti ai campi](expression/field-references.md) nelle espressioni.
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. In **[!UICONTROL Aggiungi un’espressione]** finestra di dialogo, fai clic su **[!UICONTROL Ok]**.
+   1. In **[!UICONTROL Aggiungi un’espressione]** , fare clic su **[!UICONTROL Ok]**.
 
 >[!CAUTION]
 >

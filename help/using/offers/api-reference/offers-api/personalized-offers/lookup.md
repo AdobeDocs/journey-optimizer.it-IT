@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Puoi cercare offerte personalizzate specifiche effettuando una richiesta di GET al [!DNL Offer Library] API che include l’offerta personalizzata `@id` o il nome dell’offerta personalizzata nel percorso della richiesta.
+Per cercare offerte personalizzate specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include l’offerta personalizzata `@id` o il nome dell’offerta personalizzata nel percorso della richiesta.
 
 **Formato API**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le offerte personalizzate. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Definisce lo schema associato alle offerte personalizzate. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. Il parametro &quot;id&quot; e &quot;name&quot; non può essere utilizzato insieme. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Discount offer` |
+| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. I parametri &quot;id&quot; e &quot;name&quot; non possono essere utilizzati insieme. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Discount offer` |
 
 **Richiesta**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del posizionamento, incluse informazioni sull’ID contenitore, l’ID istanza e l’offerta personalizzata univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse le informazioni sull’ID contenitore, l’ID istanza e l’offerta personalizzata univoca `@id`.
 
 ```json
 {

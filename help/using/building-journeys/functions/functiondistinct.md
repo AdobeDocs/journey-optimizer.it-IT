@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: distinct
-description: Scopri il distinto funzione
+description: Scopri il distinto della funzione
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: distinto, funzione, espressione, percorso
+keywords: distinct, function, expression, percorsi
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,11 +16,11 @@ ht-degree: 6%
 
 # distinct {#distinct}
 
-Restituisce i valori o gli oggetti distinti di un elenco specificato. Le voci Null vengono ignorate.
+Restituisce i valori o gli oggetti distinti di un elenco specifico. Le voci Null vengono ignorate.
 
 >[!NOTE]
 >
->Se l’elenco di destinazione è un listObject, è possibile utilizzare questa funzione solo nelle espressioni di azione personalizzate.
+>Se l’elenco di destinazione è un listObject, questa funzione può essere utilizzata solo nelle espressioni di azione personalizzate.
 
 ## Categoria
 
@@ -35,7 +35,7 @@ Elenco
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l&#39;attributo specificato ha lo stesso valore. |
+| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l’attributo specificato ha lo stesso valore. |
 
 ## Firme e tipi restituiti
 

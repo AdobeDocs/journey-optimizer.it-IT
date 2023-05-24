@@ -2,12 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Elenco dei componenti
-description: Scopri come utilizzare i dati del report globale
+description: Scopri come utilizzare i dati del rapporto globale
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
+source-git-commit: 26456f7c2d879843eb533209377b83fc0ccb5617
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 5%
@@ -29,29 +30,29 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody> 
   <tr> 
-   <td>Azioni eseguite<br/> </td> 
+   <td>Azioni eseguite correttamente<br/> </td> 
    <td> Numero totale di azioni eseguite correttamente per un percorso.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Profili inseriti<br/> </td> 
-   <td> Numero totale di persone che hanno raggiunto l'evento di ingresso del percorso.<br/> </td> 
+   <td> Profili immessi<br/> </td> 
+   <td> Numero totale di individui che hanno raggiunto l'evento di ingresso del percorso.<br/> </td> 
 </tr>
   <tr> 
-   <td> Errore in azione<br/> </td> 
+   <td> Errore nell’azione<br/> </td> 
    <td>Numero totale di errori che si sono verificati per le azioni.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Profili usciti<br/> </td> 
-   <td> Numero totale di persone uscite dal percorso.<br/> </td> 
+   <td> Profili in uscita<br/> </td> 
+   <td> Numero totale di persone che sono uscite dal percorso.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Percorso singolo non riuscito<br/> </td> 
-   <td> Numero totale di singoli percorsi che non sono stati eseguiti correttamente.<br/> </td> 
+   <td> Singolo percorso non riuscito<br/> </td> 
+   <td> Numero totale di singoli percorsi non eseguiti correttamente.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
 
-## Dimensioni e metriche e-mail e SMS {#email-and-sms-metrics}
+## Dimensioni e metriche per e-mail e SMS {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -63,55 +64,55 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  <tbody>
   <tr> 
    <td> E-mail non consegnate<br/> </td> 
-   <td> Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
 </tr> 
   <tr> 
    <td> Percentuale non recapitate<br/> </td> 
-   <td> Percentuale di e-mail rimbalzate rispetto alle e-mail inviate.<br/> </td> 
+   <td> Percentuale di e-mail non recapitate rispetto alle e-mail inviate.<br/> </td> 
 </tr>
   <tr> 
    <td> Clic<br/> </td> 
-   <td> Numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.<br/> </td> 
+   <td> Numero di volte in cui è stato fatto clic su un contenuto in un messaggio e-mail.<br/> </td> 
 </tr> 
   <tr> 
    <td> Consegnate <br/> </td> 
-   <td> Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.<br/></td> 
+   <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br/></td> 
 </tr> 
   <tr> 
-   <td> Tasso di consegna<br/> </td> 
+   <td> Percentuale di consegna<br/> </td> 
    <td> Percentuale di messaggi inviati correttamente.<br/> </td> 
 </tr>
   <tr> 
    <td> Errori<br/> </td> 
-   <td> Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.<br/> </td> 
+   <td> Numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.<br/> </td> 
 </tr> 
   <tr> 
    <td> Frequenza errori<br/> </td> 
-   <td> Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle e-mail inviate.<br/> </td> 
+   <td> Percentuale di errori che si sono verificati durante una consegna che ne ha impedito l’invio rispetto alle e-mail inviate.<br/> </td> 
 </tr>
   <tr> 
    <td> Escluso<br/> </td> 
    <td> Numero di profili esclusi da Adobe Journey Optimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Rimbalzo duro<br/> </td> 
-   <td> Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.<br/> </td>
+   <td> Mancato recapito permanente<br/> </td> 
+   <td> Il numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio Utente sconosciuto.<br/> </td>
 </tr>
   <tr> 
    <td> Ignorato<br/> </td> 
-   <td> Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.<br/> </td> 
+   <td> Numero totale di messaggi temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.<br/> </td> 
 </tr>
    <tr> 
-   <td>Frequenza clic offerta<br/> </td> 
+   <td>Percentuale di clic dell’offerta<br/> </td> 
    <td>Percentuale di utenti che hanno interagito con l’offerta.<br/> </td> 
 </tr>
    <tr> 
-   <td>Tasso di impression dell’offerta<br/> </td> 
+   <td>Percentuale di impression offerta<br/> </td> 
    <td>Percentuale di offerte aperte rispetto al numero di offerte inviate.<br/> </td> 
 </tr>
    <tr> 
    <td>Offer name (Nome offerta)<br/> </td> 
-   <td> Nome dell’offerta aggiunta nella consegna. Per ulteriori informazioni sul posizionamento, consulta questo <a href="../offers/offer-library/creating-personalized-offers.md">page</a>.<br/> </td> 
+   <td> Nome dell’offerta aggiunta alla consegna. Per ulteriori informazioni sul posizionamento, consulta questa <a href="../offers/offer-library/creating-personalized-offers.md">pagina</a>.<br/> </td> 
 </tr>
    <tr> 
    <td>Offerta inviata<br/> </td> 
@@ -122,12 +123,12 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di volte in cui il messaggio è stato aperto.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Open Rate<br/> </td> 
+   <td> Percentuale aperture<br/> </td> 
    <td> Numero totale di e-mail aperte rispetto al numero di e-mail consegnate.<br/> </td> 
 </tr>
   <tr> 
-   <td>Nome del posizionamento<br/> </td> 
-   <td> Nome del posizionamento utilizzato per visualizzare l’offerta. Per ulteriori informazioni sul posizionamento, consulta questo <a href="../offers/offer-library/creating-placements.md">page</a>. </td> 
+   <td>Nome posizionamento<br/> </td> 
+   <td> Nome del posizionamento utilizzato per visualizzare l’offerta. Per ulteriori informazioni sul posizionamento, consulta questa <a href="../offers/offer-library/creating-placements.md">pagina</a>. </td> 
 </tr> 
   <tr> 
    <td> Nuovi tentativi<br/> </td> 
@@ -138,12 +139,12 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero totale di invii per la consegna.<br/> </td> 
 </tr>
   <tr> 
-   <td> Rimbalzo morbido<br/> </td> 
+   <td> Mancato recapito non permanente<br/> </td> 
    <td> Numero totale di errori temporanei, ad esempio una casella in entrata completa.<br/> </td> 
 </tr>
   <tr> 
    <td> Segnalazioni di spam<br/> </td> 
-   <td> Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.<br/> </td> 
+   <td> Numero di volte in cui un messaggio è stato dichiarato come posta indesiderata o posta indesiderata.<br/> </td> 
 </tr>
   <tr> 
    <td> Target<br/> </td> 
@@ -151,10 +152,10 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr> 
   <tr> 
    <td> Clic univoci<br/> </td> 
-   <td> Numero di destinatari che hanno fatto clic su un contenuto in un’e-mail.<br/> </td> 
+   <td> Numero di destinatari che hanno fatto clic su un contenuto in un messaggio e-mail.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Frequenza di clic univoca<br/> </td> 
+   <td>Percentuale clic univoci<br/> </td> 
    <td> Percentuale di utenti che hanno interagito con la consegna.<br/> </td> 
 </tr>
   <tr> 
@@ -268,25 +269,25 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero totale di destinatari che hanno interagito con i pulsanti inclusi nel messaggio in-app.<br/> </td> 
 </tr>
   <tr> 
-   <td>Frequenza di clic<br/> </td> 
+   <td>Percentuale di clic<br/> </td> 
    <td>Percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Tasso di dismissione<br/> </td> 
+   <td>Percentuale ignorati<br/> </td> 
    <td> Percentuale di messaggi in-app ignorati dai destinatari.<br/> </td> 
 </tr> 
   <tr> 
    <td>Impression<br/> </td> 
-   <td> Numero totale di messaggi in-app inviati a tutti gli utenti.<br/> </td>
+   <td> Numero totale di messaggi in-app consegnati a tutti gli utenti.<br/> </td>
 </tr>
   <tr> 
-   <td>Impressioni univoche<br/> </td> 
-   <td>Numero di utenti univoci a cui è stato recapitato il messaggio in-app.<br/> </td>
+   <td>Impression univoche<br/> </td> 
+   <td>Numero di utenti univoci a cui è stato consegnato il messaggio in-app.<br/> </td>
 </tr>
  </tbody> 
 </table>
 
-## Metriche di notifica push
+## Metriche delle notifiche push
 
 <table> 
  <thead> 
@@ -298,39 +299,39 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  <tbody>
  <tr> 
    <td>Azioni<br/> </td> 
-   <td> Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.<br/> </td> 
+   <td> Numero totale di azioni sulla notifica push consegnate, ad esempio clic su pulsante o rimozione.<br/> </td> 
 </tr>
   <tr> 
    <td>E-mail non consegnate<br/> </td> 
-   <td> Totale degli errori cumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
 </tr> 
   <tr> 
    <td> Percentuale non recapitate<br/> </td> 
-   <td> Percentuale di notifiche push rimbalzate rispetto alle notifiche push inviate.<br/> </td>
+   <td> Percentuale di notifiche push non recapitate rispetto alle notifiche push inviate.<br/> </td>
 </tr>
   <tr> 
    <td> Consegnate<br/> </td> 
-   <td> Numero di messaggi inviati correttamente in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Tasso di consegna<br/> </td> 
+   <td> Percentuale di consegna<br/> </td> 
    <td> Percentuale di notifiche push inviate correttamente.<br/> </td> 
 </tr>
   <tr> 
-   <td>Coinvolgimento<br/> </td> 
-   <td> Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.<br/> </td> 
+   <td>Coinvolgimenti<br/> </td> 
+   <td> Numero totale di aperture e azioni per questa notifica push, ovvero se il profilo ha aperto la notifica push o se è stato fatto clic su un pulsante.<br/> </td> 
 </tr> 
   <tr> 
    <td> Tasso di coinvolgimento<br/> </td> 
-   <td> Percentuale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.<br/> </td> 
+   <td> Percentuale di aperture e azioni per questa notifica push, ovvero se il profilo ha aperto la notifica push o se è stato fatto clic su un pulsante.<br/> </td> 
 </tr>
   <tr> 
    <td> Errori<br/> </td> 
-   <td> Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.<br/> </td> 
+   <td> Numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.<br/> </td> 
 </tr>
   <tr> 
    <td> Frequenza errori<br/> </td> 
-   <td> Percentuale di errori che si sono verificati durante una consegna che ne impedisce l’invio rispetto alle notifiche push inviate.<br/> </td> 
+   <td> Percentuale di errori che si sono verificati durante una consegna che ne ha impedito l’invio rispetto alle notifiche push inviate.<br/> </td> 
 </tr> 
   <tr> 
    <td> Escluso<br/> </td> 
@@ -338,10 +339,10 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr>
   <tr> 
    <td> Messaggi aperti<br/> </td> 
-   <td> Numero totale di notifiche push inviate al dispositivo e su cui gli utenti hanno fatto clic per aprire l’app. È simile al clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica è stata ignorata.<br/> </td> 
+   <td> Numero totale di notifiche push inviate al dispositivo e su cui gli utenti hanno fatto clic, aprendo in tal modo l’app. È simile al Clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica viene chiusa.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Tasso aperto<br/> </td> 
+   <td> Percentuale aperture<br/> </td> 
    <td> Percentuale di notifiche push aperte.<br/> </td> 
 </tr> 
   <tr> 
@@ -379,39 +380,36 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero di volte in cui è stato fatto clic su un contenuto nella pagina di destinazione.<br/> </td> 
 </tr>
  <tr> 
-   <td>Frequenza di clic<br/> </td> 
+   <td>Percentuale di clic<br/> </td> 
    <td>Percentuale di clic nella pagina di destinazione.<br/> </td>
 </tr>
 <tr>
 <td>Conversione<br/> </td> 
-   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio abbonati a un modulo.<br/> </td> 
+   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio che si sono abbonate a un modulo.<br/> </td> 
 </tr>
 <tr>
    <td>Tasso di conversione<br/> </td> 
-   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio abbonati a un modulo, in relazione al numero totale di visite.<br/> </td> 
+   <td>Numero di persone che hanno interagito con la pagina di destinazione, ad esempio che si sono abbonate a un modulo, in relazione al numero totale di visite.<br/> </td> 
 </tr>
  <tr> 
-   <td>Percorsi<br/> </td> 
+   <td>Percorso/i<br/> </td> 
    <td>Numero di visite alla pagina di destinazione provenienti da un percorso.<br/> </td> 
 </tr>
  <tr> 
-   <td>Altre fonti<br/> </td> 
+   <td>Altre origini<br/> </td> 
    <td>Numero di visite alla pagina di destinazione provenienti da un’origine esterna anziché da un percorso.<br/> </td> 
 </tr>
  <tr> 
    <td>Visite totali<br/> </td> 
-   <td> Numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, comprese visite multiple di un solo destinatario.<br/> </td> 
+   <td> Numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, incluse visite multiple di un destinatario.<br/> </td> 
 </tr>
  <tr> 
    <td>Visitatori univoci<br/> </td> 
-   <td>Numero di persone che hanno visitato la pagina di destinazione, non vengono prese in considerazione più visite di un destinatario.<br/> </td> 
+   <td>Numero di persone che hanno visitato la pagina di destinazione e visite multiple di un destinatario non vengono prese in considerazione.<br/> </td> 
 </tr>
  <tr> 
    <td>Visite<br/> </td> 
-   <td>Numero di visite alla pagina di destinazione, comprese più visite di un solo destinatario.<br/> </td> 
+   <td>Numero di visite alla pagina di destinazione, comprese le visite multiple di un destinatario.<br/> </td> 
 </tr>
  </tbody> 
 </table>
-
-
-

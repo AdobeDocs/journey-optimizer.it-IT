@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
@@ -26,25 +26,25 @@ Le sandbox vengono assegnate tramite i profili di prodotto nella Admin Console. 
 [!DNL Journey Optimizer] presenta le sandbox di Adobe Experience Platform che sono state create per una determinata organizzazione.
 Le sandbox di Adobe Experience Platform possono essere create o reimpostate dall’istanza di Adobe Experience Platform. [Ulteriori informazioni sono disponibili nella guida utente sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
 
-Puoi trovare il controllo del commutatore sandbox in alto a destra nella schermata accanto al nome della tua organizzazione. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
+Puoi trovare il controllo del commutatore sandbox in alto a destra dello schermo accanto al nome della tua organizzazione. Per passare da una sandbox all’altra, fai clic sulla sandbox attualmente attiva nel commutatore e selezionane un’altra dall’elenco a discesa.
 
 ![](assets/sandbox_5.png)
 
 ➡️ [Ulteriori informazioni sulle sandbox in questo video](#video)
 
-## Assegnare le sandbox {#assign-sandboxes}
+## Assegna sandbox {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
-> La gestione delle sandbox può essere eseguita solo da un **[!UICONTROL Prodotto]** o **[!UICONTROL Sistema]** amministratore. Per ulteriori informazioni, consulta la [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> La gestione delle sandbox può essere eseguita solo da un **[!UICONTROL Prodotto]** o **[!UICONTROL Sistema]** amministratore. Per ulteriori informazioni, consulta [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-Puoi scegliere di assegnare diverse sandbox a preconfigurate o personalizzate **[!UICONTROL Profili di prodotto]**.
+Puoi scegliere di assegnare sandbox diverse a sandbox predefinite o personalizzate **[!UICONTROL Profili di prodotto]**.
 
 Per assegnare le sandbox:
 
-1. In [!DNL Admin Console], dal **[!UICONTROL Prodotti]** seleziona la scheda **[!UICONTROL App Adobe Experience Platform]** prodotto.
+1. In [!DNL Admin Console], dalla **[!UICONTROL Prodotti]** , seleziona la scheda **[!UICONTROL App Adobe Experience Platform]** prodotto.
 
-1. Seleziona una **[!UICONTROL Profilo di prodotto]**.
+1. Seleziona un **[!UICONTROL Profilo di prodotto]**.
 
    ![](assets/sandbox_1.png)
 
@@ -54,11 +54,11 @@ Per assegnare le sandbox:
 
    ![](assets/sandbox_2.png)
 
-1. Sotto **[!UICONTROL Elementi delle autorizzazioni disponibili]**, fai clic sull’icona più (+) per assegnare le sandbox al tuo profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target="_blank"}.
+1. Sotto **[!UICONTROL Elementi di autorizzazione disponibili]**, fai clic sull’icona più (+) per assegnare le sandbox al profilo. [Ulteriori informazioni sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
-1. Se necessario, in **[!UICONTROL Elementi delle autorizzazioni inclusi]**, fai clic sull’icona X accanto a per rimuovere l’accesso alle sandbox al tuo **[!UICONTROL Profilo di prodotto]**.
+1. Se necessario, in **[!UICONTROL Elementi autorizzazione inclusi]**, fai clic sull’icona X accanto a rimuovere le sandbox per accedere al tuo **[!UICONTROL Profilo di prodotto]**.
 
    ![](assets/sandbox_4.png)
 
@@ -66,7 +66,7 @@ Per assegnare le sandbox:
 
 ## Accesso al contenuto {#content-access}
 
-Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa in **[!UICONTROL Storage]** nella scheda [!DNL Admin Console] per amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
+Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa in **[!UICONTROL Storage]** scheda visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
 
 ![](assets/do-not-localize/content_access.png)
 

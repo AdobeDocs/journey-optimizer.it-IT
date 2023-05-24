@@ -1,6 +1,6 @@
 ---
 title: eliminare i posizionamenti
-description: I posizionamenti sono contenitori utilizzati per mostrare le offerte.
+description: I posizionamenti sono contenitori utilizzati per presentare le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminare un posizionamento {#delete-placement}
 
-A volte può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. A questo scopo, esegui una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID istanza del posizionamento da eliminare.
+Occasionalmente può essere necessario rimuovere (DELETE) un posizionamento. È possibile eliminare solo i posizionamenti creati nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API utilizzando l’ID istanza del posizionamento che desideri eliminare.
 
 **Formato API**
 
@@ -25,7 +25,7 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano i posizionamenti. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | ID istanza del posizionamento da aggiornare. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
@@ -43,6 +43,6 @@ curl -X DELETE \
 
 **Risposta**
 
-Una risposta corretta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
+In caso di esito positivo, la risposta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) al posizionamento. Sarà necessario includere un’intestazione Accept nella richiesta, ma dovrebbe ricevere lo stato HTTP 404 (Non trovato) perché il posizionamento è stato rimosso dal contenitore.
+Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) al posizionamento. Dovrai includere un’intestazione Accept nella richiesta, ma dovresti ricevere lo stato HTTP 404 (Non trovato) perché il posizionamento è stato rimosso dal contenitore.

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gestione delle voci di profilo
-description: Scopri come gestire l’accesso al profilo
+description: Scopri come gestire la voce di profilo
 feature: Journeys
 role: User
 level: Intermediate
@@ -17,11 +17,11 @@ ht-degree: 22%
 
 # Gestione delle voci di profilo {#entry-management}
 
-Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l&#39;opzione per percorsi &quot;una ripresa&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente sia in grado di reinserire il percorso e ricevere nuovamente l&#39;offerta.
+Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l’opzione per i percorsi &quot;one shot&quot; (una sola volta), ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente possa reinserire il percorso e ricevere nuovamente l’offerta.
 
 ![](assets/journey-re-entrance.png)
 
-Al termine di un percorso, il suo stato è **[!UICONTROL Chiuso]**. I nuovi individui non possono più entrare nel percorso. Le persone già nel percorso finiscono il percorso normalmente.
+Quando un percorso termina, il suo stato è **[!UICONTROL Chiuso]**. I nuovi utenti non possono più accedere al percorso. Le persone già nel percorso finiscono normalmente il percorso.
 
 Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato.  [Maggiori informazioni](journey-gs.md#global_timeout).
 
@@ -32,16 +32,16 @@ I percorsi unitari (a partire da un evento o da una qualificazione del segmento)
 
 Inoltre:
 
-* Se la reintroduzione è abilitata, un profilo può entrare più volte in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso.
+* Se è abilitato il rientro, un profilo può entrare in un percorso diverse volte, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso.
 
-* Se l’opzione di rientro è disabilitata, un profilo non può entrare più volte nello stesso percorso
+* Se il rientro è disattivato, un profilo non può entrare più volte nello stesso percorso
 
 ## Leggi percorsi di segmenti{#entry-read-segment}
 
-In un percorso di segmenti letto:
+In un percorso Leggi segmento:
 
-* Per percorsi non ricorrenti: il profilo entra una volta e una sola volta il percorso.
+* Per percorsi non ricorrenti: il profilo entra una volta e solo una volta il percorso.
 
-* Per percorsi ricorrenti: il profilo entra nel percorso per ogni ricorrenza, se si trova nello stato del segmento o previsto. Se era ancora nel percorso da una precedente ricorrenza, lo riavvierà dall&#39;inizio.
+* Per percorsi ricorrenti: il profilo entra nel percorso a ogni ricorrenza, se si trova nello stato segmento/previsto. Se era ancora nel percorso da una precedente ricorrenza, lo riavvierà dall&#39;inizio.
 
-In percorsi di eventi aziendali che iniziano con un **Leggi segmento** attività: sapendo che questo percorso è basato sulla ricezione di un evento aziendale, se il profilo è qualificato nel segmento previsto, entrerà nel percorso per ogni evento aziendale ricevuto, il che significa che questo profilo può essere più volte nello stesso percorso, allo stesso tempo, ma nel contesto di eventi commerciali diversi.
+Nei percorsi di evento business che iniziano con **Leggi segmento** attività: sapendo che questo percorso si basa sulla ricezione di un evento di business, se il profilo è qualificato nel segmento previsto, entrerà nel percorso per ogni evento di business ricevuto, il che significa che questo profilo può essere più volte nello stesso percorso, allo stesso tempo, ma nel contesto di diversi eventi di business.

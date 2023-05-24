@@ -1,7 +1,7 @@
 ---
 product: journey optimizer
 title: concat
-description: Scopri la funzione concat
+description: Informazioni sulla concatenazione delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced

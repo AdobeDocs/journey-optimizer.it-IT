@@ -31,7 +31,7 @@ Stringa
 | Parametro | Tipo |
 |--- |--- |
 | string | string |
-| rigexp | string |
+| regexp | string |
 
 ## Firma e tipo restituito
 

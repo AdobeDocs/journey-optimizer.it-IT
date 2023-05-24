@@ -1,6 +1,6 @@
 ---
-title: Aggiorna le regole decisionali
-description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
+title: Aggiorna regole di decisione
+description: Le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,13 +15,13 @@ ht-degree: 9%
 
 # Aggiornare una regola di decisione {#update-decision-rule}
 
-Puoi modificare o aggiornare le regole decisionali in nel contenitore effettuando una richiesta di PATCH al [!DNL Offer Library] API.
+Puoi modificare o aggiornare le regole di decisione in nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta il [Documentazione sulle patch JSON](http://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](http://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -36,9 +36,9 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le regole di decisione. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID istanza della regola decisionale che si desidera aggiornare. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
+| `{INSTANCE_ID}` | ID istanza della regola di decisione che desideri aggiornare. | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
 **Richiesta**
 
@@ -62,13 +62,13 @@ curl -X PATCH \
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata dell’operazione utilizzata per definire l’azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`e `remove`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
-| `value` | Il nuovo valore con cui si desidera aggiornare il parametro. |
+| `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli aggiornati della regola decisionale, inclusi l’ID istanza univoco e la regola decisionale `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati della regola di decisione, inclusi l’ID istanza univoco e la regola di decisione `@id`.
 
 ```json
 {

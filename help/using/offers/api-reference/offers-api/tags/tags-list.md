@@ -1,6 +1,6 @@
 ---
 title: Elenco dei qualificatori di raccolta
-description: I qualificatori di raccolta consentono di organizzare e ordinare meglio le offerte.
+description: I qualificatori di raccolta ti consentono di organizzare e ordinare meglio le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 5%
 
 # Elenco dei qualificatori di raccolta {#list-tags}
 
-I qualificatori di raccolta (precedentemente noti come &quot;tag&quot;) consentono di organizzare e ordinare meglio le offerte. Ad esempio, puoi assegnare il tuo Black Friday alle offerte con il qualificatore di raccolta &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel qualificatore di raccolta.
+I qualificatori di raccolta (noti in precedenza come &quot;tag&quot;) consentono di organizzare e ordinare meglio le offerte. Ad esempio, puoi etichettare le offerte del Black Friday con il qualificatore per la raccolta &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel qualificatore di raccolta.
 
-I qualificatori di raccolta possono anche essere utilizzati per raggruppare le offerte in raccolte. Per ulteriori informazioni, consulta l’esercitazione su [creazione di raccolte](../../../offer-library/creating-collections.md).
+I qualificatori di raccolta possono essere utilizzati anche per raggruppare le offerte in raccolte. Per ulteriori informazioni, consulta l’esercitazione su [creazione di raccolte](../../../offer-library/creating-collections.md).
 
-È possibile visualizzare un elenco di tutti i qualificatori di raccolta all&#39;interno di un contenitore eseguendo una singola richiesta di GET al [!DNL Offer Library] API.
+Per visualizzare un elenco di tutti i qualificatori di raccolta all’interno di un contenitore, esegui una singola richiesta GET al [!DNL Offer Library] API.
 
 **Formato API**
 
@@ -29,10 +29,10 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano i qualificatori della raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definisce lo schema associato ai qualificatori della raccolta. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `{QUERY_PARAMS}` | Parametri di query opzionali per filtrare i risultati in base a. | `limit=2` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenitore in cui si trovano i qualificatori di raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Definisce lo schema associato ai qualificatori di raccolta. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{QUERY_PARAMS}` | Parametri di query facoltativi in base ai quali filtrare i risultati. | `limit=2` |
 
 **Richiesta**
 
@@ -48,7 +48,7 @@ curl -X GET \
 
 ## Utilizzo dei parametri di query {#using-query-parameters}
 
-Puoi utilizzare i parametri di query per sfogliare le pagine e filtrare i risultati durante l’elenco delle risorse.
+Puoi utilizzare i parametri di query per visualizzare e filtrare i risultati quando elenchi le risorse.
 
 ### Paging {#paging}
 
@@ -56,15 +56,15 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `q` | Una stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere circondata da virgolette doppie per evitare che venga token ed evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra inversa quando vengono visualizzati nella stringa di interrogazione. | JSON sito web |
+| `q` | Stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere racchiusa tra virgolette doppie per impedire che venga tokenizzata e per evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra rovesciata quando vengono visualizzati nella stringa query. | JSON per sito web |
 | `qop` | Applica l’operatore AND o OR ai valori nel parametro della stringa di query q. | `AND` / `OR` |
-| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto così: field=field1[,field=field2,...] e (le espressioni del percorso sono sotto forma di percorsi separati da punti come _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordina gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
+| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto come segue: field=field1[,campo=campo2,...] e (le espressioni di percorso sono sotto forma di percorsi separati da punti, ad esempio _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordinerà gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limita il numero di qualificatori di raccolta restituiti. | `limit=5` |
 
 **Risposta**
 
-Una risposta corretta restituisce un elenco di qualificatori di raccolta presenti all’interno del contenitore a cui hai accesso.
+In caso di esito positivo, la risposta restituisce un elenco di qualificatori di raccolta presenti all’interno del contenitore a cui hai accesso.
 
 ```json
 {

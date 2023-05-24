@@ -23,7 +23,7 @@ ht-degree: 80%
 >title="Informazioni sulla configurazione del percorso"
 >abstract="Per inviare messaggi tramite percorsi, devi configurare origini dati, eventi e azioni. Le origini dati consentono di definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio all’interno delle condizioni. Gli eventi consentono di attivare i percorsi quando viene ricevuto un evento. Le azioni personalizzate consentono di connettersi a un sistema di terze parti per l’invio dei messaggi. Se utilizzi funzionalità di messaggistica integrate di Journey Optimizer, non è necessario configurare un’azione."
 
-Per inviare messaggi con percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**.
+Per inviare messaggi con i percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**.
 
 ![](assets/admin-menu.png)
 
@@ -39,7 +39,7 @@ Nella configurazione dell’evento, puoi configurare gli eventi previsti nei per
 
 ## Azioni {#actions}
 
-Le funzionalità dei messaggi Journey Optimizer sono integrate: devi solo aggiungere un’attività azione canale al tuo percorso. Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../../using/action/action.md)
+Le funzionalità per i messaggi di Journey Optimizer sono integrate: devi solo aggiungere un’attività di azione sul canale al percorso. Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../../using/action/action.md)
 
 ## Sfogliare i campi di Adobe Experience Platform {#friendly-names-display}
 

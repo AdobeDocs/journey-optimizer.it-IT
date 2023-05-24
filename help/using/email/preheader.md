@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-keywords: preintestazione, editor, riepilogo, e-mail
+keywords: preheader, editor, summary, email
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -39,7 +39,7 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body.png)
 
-1. Da **[!UICONTROL Impostazioni]** , fai clic sull’icona di personalizzazione accanto alla **[!UICONTROL Preintestazione]** campo per aggiungere contenuto.
+1. Dalla sezione **[!UICONTROL Impostazioni]** , fai clic sull’icona di personalizzazione accanto alla scheda **[!UICONTROL Preheader]** per aggiungere contenuto.
 
    ![](assets/preheader_body_settings.png)
 

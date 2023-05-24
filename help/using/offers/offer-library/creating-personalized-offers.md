@@ -15,15 +15,15 @@ ht-degree: 12%
 
 # Creare le offerte personalizzate {#create-personalized-offers}
 
-Prima di creare un’offerta, accertati di aver creato:
+Prima di creare un’offerta, assicurati di aver creato:
 
-* A **placement** in cui verrà visualizzata l’offerta. Vedi [Creare posizionamenti](../offer-library/creating-placements.md)
-* Per aggiungere una condizione di idoneità: a **norma decisionale** che definirà la condizione in cui verrà presentata l’offerta. Vedi [Creare regole decisionali](../offer-library/creating-decision-rules.md).
-* Uno o più **qualificatori di raccolta** (precedentemente noti come &quot;tag&quot;) che è possibile associare all’offerta. Vedi [Creare i qualificatori della raccolta](../offer-library/creating-tags.md).
+* A **posizionamento** in cui verrà visualizzata l’offerta. Consulta [Creare posizionamenti](../offer-library/creating-placements.md)
+* Se desideri aggiungere una condizione di idoneità: **regola di decisione** che definirà la condizione in base alla quale verrà presentata l’offerta. Consulta [Creare regole di decisione](../offer-library/creating-decision-rules.md).
+* Uno o più **qualificatori di raccolta** (precedentemente noti come &quot;tag&quot;) che potresti voler associare all’offerta. Consulta [Creare qualificatori di raccolta](../offer-library/creating-tags.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle offerte personalizzate è accessibile nella sezione **[!UICONTROL Offerte]** menu.
+L’elenco delle offerte personalizzate è accessibile nel **[!UICONTROL Offerte]** menu.
 
 ![](../assets/offers_list.png)
 
@@ -39,13 +39,13 @@ L’elenco delle offerte personalizzate è accessibile nella sezione **[!UICONTR
 >title="Attributi di offerta"
 >abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
-Per creare un **offerta**, segui questi passaggi:
+Per creare un **offerta**, effettua le seguenti operazioni:
 
-1. Fai clic su **[!UICONTROL Creare un’offerta]**, quindi seleziona **[!UICONTROL Offerta personalizzata]**.
+1. Clic **[!UICONTROL Crea offerta]**, quindi seleziona **[!UICONTROL Offerta personalizzata]**.
 
    ![](../assets/create_offer.png)
 
-1. Specifica il nome dell’offerta, la data e l’ora di inizio e fine dell’offerta. Al di fuori di queste date, l’offerta non verrà selezionata dal motore Decisioning.
+1. Specifica il nome dell’offerta nonché la data e l’ora di inizio e di fine. Al di fuori di queste date, l’offerta non verrà selezionata dal motore delle decisioni.
 
    ![](../assets/offer_details.png)
 
@@ -53,11 +53,11 @@ Per creare un **offerta**, segui questi passaggi:
    >
    >L’aggiornamento delle date di inizio/fine può avere un impatto sui limiti. [Ulteriori informazioni](add-constraints.md#capping-change-date)
 
-1. Puoi anche associare uno o più **[!UICONTROL qualificatori di raccolta]** nell’offerta, ti consente di cercare e organizzare più facilmente la Libreria offerte. [Maggiori informazioni](creating-tags.md).
+1. È inoltre possibile associare uno o più elementi esistenti **[!UICONTROL qualificatori di raccolta]** all’offerta, per cercare e organizzare più facilmente la Libreria di offerte. [Maggiori informazioni](creating-tags.md).
 
-1. La **[!UICONTROL Attributi di offerta]** La sezione ti consente di associare coppie chiave-valore all’offerta a scopo di reporting e analisi.
+1. Il **[!UICONTROL Attributi offerta]** consente di associare coppie chiave-valore all’offerta a scopo di reporting e analisi.
 
-1. Per assegnare etichette di utilizzo dati personalizzate o di base all’offerta, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su Object Level Access Control (OLAC)](../../administration/object-based-access.md)
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base all’offerta, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -65,25 +65,25 @@ Per creare un **offerta**, segui questi passaggi:
 
    ![](../assets/channel-placement.png)
 
-1. Aggiungi dei vincoli per impostare le condizioni per la visualizzazione dell’offerta. [Ulteriori informazioni](add-constraints.md)
+1. Aggiungi vincoli per impostare le condizioni per la visualizzazione dell’offerta. [Ulteriori informazioni](add-constraints.md)
 
    >[!NOTE]
    >
-   >Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
-   >Le stime del profilo non sono disponibili quando i parametri delle regole includono dati non presenti nel profilo, ad esempio dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia ≥ 80 gradi.
+   >Tieni presente che le stime di profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
    ![](../assets/offer-constraints-example.png)
 
 1. Rivedi e salva l’offerta. [Ulteriori informazioni](#review)
 
-## Rivedi l’offerta {#review}
+## Rivedi l&#39;offerta {#review}
 
-Una volta definite le regole di idoneità e i vincoli, viene visualizzato un riepilogo delle proprietà dell’offerta.
+Una volta definiti le regole di idoneità e i vincoli, viene visualizzato un riepilogo delle proprietà dell’offerta.
 
 1. Assicurati che tutto sia configurato correttamente.
 
-1. Puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+1. Puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
    ![](../assets/offer-summary-estimate.png)
 
@@ -93,9 +93,9 @@ Una volta definite le regole di idoneità e i vincoli, viene visualizzato un rie
 
    ![](../assets/offer_review.png)
 
-   Puoi anche salvare l’offerta come bozza, per modificarla e approvarla in un secondo momento.
+   Puoi anche salvare l’offerta come bozza, per poi modificarla e approvarla in un secondo momento.
 
-L’offerta viene visualizzata nell’elenco con la **[!UICONTROL Approvato]** o **[!UICONTROL Bozza]** a seconda che sia stato approvato o meno nel passaggio precedente.
+L’offerta viene visualizzata nell’elenco con **[!UICONTROL Approvato]** o **[!UICONTROL Bozza]** a seconda che sia stato approvato o meno nel passaggio precedente.
 
 È ora pronto per essere consegnato agli utenti.
 
@@ -103,46 +103,46 @@ L’offerta viene visualizzata nell’elenco con la **[!UICONTROL Approvato]** o
 
 ## Gestire le offerte {#offer-list}
 
-Dall’elenco delle offerte, puoi selezionare l’offerta per visualizzarne le proprietà. Puoi anche modificarlo, modificarne lo stato (**Bozza**, **Approvato**, **Archiviato**), duplica l’offerta o eliminala.
+Dall’elenco delle offerte, puoi selezionare l’offerta per visualizzarne le proprietà. Puoi anche modificarlo, cambiarne lo stato (**Bozza**, **Approvato**, **Archiviato**), duplica l’offerta o eliminala.
 
 ![](../assets/offer_created.png)
 
-Seleziona la **[!UICONTROL Modifica]** per tornare alla modalità di modifica dell’offerta, dove puoi modificare l’offerta [dettagli](#create-offer), [rappresentazioni](#representations), nonché modificare il [regole di idoneità e vincoli](#eligibility).
+Seleziona la **[!UICONTROL Modifica]** per tornare alla modalità edizione dell’offerta, dove puoi modificare i [dettagli](#create-offer), [rappresentazioni](#representations), nonché modificare il [regole e vincoli di idoneità](#eligibility).
 
-Seleziona un’offerta approvata e fai clic su **[!UICONTROL Annulla approvazione]** per impostare nuovamente lo stato dell’offerta su **[!UICONTROL Bozza]**.
+Seleziona un’offerta approvata e fai clic su **[!UICONTROL Annulla approvazione]** per impostare nuovamente lo stato dell&#39;offerta su **[!UICONTROL Bozza]**.
 
 Per impostare nuovamente lo stato su **[!UICONTROL Approvato]**, seleziona il pulsante corrispondente visualizzato.
 
 ![](../assets/offer_approve.png)
 
-La **[!UICONTROL Altre azioni]** attiva le azioni descritte di seguito.
+Il **[!UICONTROL Altre azioni]** consente di eseguire le azioni descritte di seguito.
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplica]**: crea un’offerta con le stesse proprietà, rappresentazioni, regole di idoneità e vincoli. Per impostazione predefinita, la nuova offerta ha il **[!UICONTROL Bozza]** stato.
+* **[!UICONTROL Duplica]**: crea un’offerta con le stesse proprietà, rappresentazioni, regole di idoneità e vincoli. Per impostazione predefinita, la nuova offerta presenta **[!UICONTROL Bozza]** stato.
 * **[!UICONTROL Elimina]**: rimuove l’offerta dall’elenco.
 
    >[!CAUTION]
    >
-   >L’offerta e il relativo contenuto non saranno più accessibili. Questa azione non può essere annullata.
+   >L’offerta e il suo contenuto non saranno più accessibili. Questa azione non può essere annullata.
    >
-   >Se l&#39;offerta viene utilizzata in una raccolta o in una decisione, non può essere eliminata. È innanzitutto necessario rimuovere l’offerta da qualsiasi oggetto.
+   >Se l’offerta viene utilizzata in una raccolta o in una decisione, non può essere eliminata. Devi prima rimuovere l’offerta da qualsiasi oggetto.
 
-* **[!UICONTROL Archivia]**: imposta lo stato dell’offerta su **[!UICONTROL Archiviato]**. L’offerta è ancora disponibile dall’elenco, ma non è possibile ripristinarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. È possibile duplicarla o eliminarla.
+* **[!UICONTROL Archivia]**: imposta lo stato dell’offerta su **[!UICONTROL Archiviato]**. L’offerta è ancora disponibile dall’elenco, ma non è possibile impostarne nuovamente lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
 
 Puoi anche eliminare o modificare lo stato di più offerte contemporaneamente selezionando le caselle di controllo corrispondenti.
 
 ![](../assets/offer_multiple-selection.png)
 
-Se desideri modificare lo stato di diverse offerte con stati diversi, verranno modificati solo gli stati pertinenti.
+Se desideri modificare lo stato di più offerte con stati diversi, verranno modificati solo gli stati pertinenti.
 
 ![](../assets/offer_change-status.png)
 
-Una volta creata un’offerta, puoi fare clic sul suo nome dall’elenco.
+Dopo aver creato un’offerta, puoi fare clic sul nome nell’elenco.
 
 ![](../assets/offer_click-name.png)
 
-Ciò ti consente di accedere a informazioni dettagliate per quell’offerta. Seleziona la **[!UICONTROL Registro delle modifiche]** scheda a [controlla tutte le modifiche](../get-started/user-interface.md#monitoring-changes) che sono stati fatti all&#39;offerta.
+Questo consente di accedere a informazioni dettagliate su quell’offerta. Seleziona la **[!UICONTROL Registro modifiche]** scheda a [monitorare tutte le modifiche](../get-started/user-interface.md#monitoring-changes) che sono stati inseriti nell&#39;offerta.
 
 ![](../assets/offer_information.png)
 

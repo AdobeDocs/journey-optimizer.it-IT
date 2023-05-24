@@ -1,12 +1,12 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Percorso finale
-description: Scopri come termina il percorso in Journey Optimizer
+title: Fine percorso
+description: Scopri come termina un percorso in Journey Optimizer
 feature: Journeys
 role: User
 level: Beginner
-keywords: reinserire, percorso, fine, live, stop
+keywords: rientro, percorso, fine, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -19,14 +19,14 @@ ht-degree: 3%
 
 Un percorso può terminare per un individuo in due contesti specifici:
 
-* La persona arriva all&#39;ultima attività di un percorso.
-* La persona arriva ad un **Condizione** (o **Wait** attività con una condizione) e non corrisponde a nessuna delle condizioni.
+* La persona arriva all’ultima attività di un percorso.
+* La persona arriva a un **Condizione** attività (o un **Wait** con una condizione) e non corrisponde a nessuna delle condizioni.
 
-La persona può quindi rientrare nel percorso se è consentito il rientro. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
+La persona può quindi rientrare nel percorso se il rientro è consentito. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
 
-Per terminare un percorso live, ti consigliamo di chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà poi bloccato. I clienti che sono già entrati nel percorso possono sperimentarlo fino alla fine. Vedi [questa sezione](../building-journeys/journey.md#close-journey)
+Per terminare un percorso live, è consigliabile chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà quindi bloccato. I clienti che sono già entrati nel percorso possono provarlo fino alla fine. Vedi [questa sezione](../building-journeys/journey.md#close-journey)
 
-È possibile interrompere un percorso solo se si è verificata un&#39;emergenza e tutte le operazioni di elaborazione devono essere terminate immediatamente su un percorso. Le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Vedi [questa sezione](../building-journeys/journey.md#stop-journey)
+È possibile arrestare un percorso solo in caso di emergenza ed è necessario terminare immediatamente l&#39;elaborazione in un percorso. Le persone che sono già entrate in un percorso sono tutte fermate nel loro avanzamento. Vedi [questa sezione](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Per terminare un percorso live, ti consigliamo di chiuderlo. L&#39;arrivo di nuo
 
 ## Tag di fine percorso{#end-tag}
 
-Durante la creazione di un percorso, alla fine di ogni percorso viene visualizzato un &quot;tag finale&quot;. Impossibile aggiungere questo nodo da un utente, non può essere rimosso e può essere modificata solo la relativa etichetta. Segna la fine di ogni percorso del percorso. Se il percorso dispone di diversi percorsi, ti consigliamo di aggiungere un’etichetta a ogni estremità per facilitare la lettura dei rapporti. Consulta [questa pagina](../reports/live-report.md).
+Durante la creazione di un percorso, alla fine di ciascun percorso viene visualizzato un &quot;tag di fine&quot;. Questo nodo non può essere aggiunto da un utente, non può essere rimosso e solo la relativa etichetta può essere modificata. Segna la fine di ogni percorso del percorso. Se il percorso dispone di diversi percorsi, si consiglia di aggiungere un’etichetta a ogni estremità per facilitare la lettura dei rapporti. Consulta [questa pagina](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
@@ -50,44 +50,44 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 
 ## Chiudi un percorso{#close-journey}
 
-Un percorso può chiudersi per i motivi seguenti:
+Un percorso può essere chiuso per i motivi seguenti:
 
-* Il percorso viene chiuso manualmente tramite il **[!UICONTROL Vicino alle nuove entrate]** pulsante .
-* Un percorso basato su segmenti una tantum che ha completato l’esecuzione.
-* Dopo l’ultima occorrenza di un percorso basato su segmenti ricorrente.
+* Il percorso viene chiuso manualmente tramite **[!UICONTROL Chiudi ai nuovi ingressi]** pulsante.
+* Percorso basato su un segmento one-shot completato.
+* Dopo l’ultima occorrenza di un percorso ricorrente basato su segmenti.
 
-La chiusura manuale di un percorso garantisce che i clienti che sono già entrati nel percorso possano completare il loro percorso ma che i nuovi utenti non siano in grado di accedere al percorso. Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso smette di lasciare entrare nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. Dopo il timeout globale predefinito di 30 giorni, il percorso passerà al **Completato** stato. Consulta questa [sezione](../building-journeys/journey-gs.md#global_timeout).
+La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato. Consulta questa [sezione](../building-journeys/journey-gs.md#global_timeout).
 
-Impossibile riavviare o eliminare una versione di un percorso chiuso. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
+Impossibile riavviare o eliminare una versione di percorso chiusa. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
 
-Per chiudere un percorso dall’elenco dei percorsi, fai clic sul pulsante **[!UICONTROL Ellissi]** a destra del nome del percorso e seleziona **[!UICONTROL Vicino alle nuove entrate]**.
+Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic su **[!UICONTROL Puntini di sospensione]** che si trova a destra del nome del percorso e seleziona **[!UICONTROL Chiudi ai nuovi ingressi]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
-1. In **[!UICONTROL Percorsi]** fare clic sul percorso che si desidera chiudere.
-1. In alto a destra, fai clic sulla freccia giù.
+1. In **[!UICONTROL Percorsi]** selezionare il percorso che si desidera chiudere.
+1. In alto a destra, fare clic sulla freccia giù.
 
    ![](assets/finish_drop_down_list.png)
 
-1. Fai clic su **[!UICONTROL Vicino alle nuove entrate]** e conferma nella finestra di dialogo.
+1. Clic **[!UICONTROL Chiudi ai nuovi ingressi]**, e confermare nella finestra di dialogo.
 
 ## Interrompi un percorso{#stop-journey}
 
-Nel caso tu debba interrompere il progresso di tutti gli individui nel percorso, puoi fermarlo. Arrestare il percorso causerà il timeout di tutti gli individui nel percorso. Tuttavia, fermare un percorso implica che le persone che sono già entrate in un percorso vengono tutte fermate nel loro progresso. Il percorso è fondamentalmente spento. Se vuoi mettere fine a un percorso ti consigliamo di chiuderlo.
+Nel caso in cui si debba fermare il progresso di tutti i singoli individui nel percorso, è possibile fermarlo. L’arresto del percorso causerà il timeout di tutti gli utenti del percorso. Tuttavia, l&#39;arresto di un percorso implica che le persone che sono già entrate in un percorso sono tutte ferme nel loro progresso. Il percorso è spento. Se si desidera interrompere un percorso, è consigliabile chiuderlo.
 
-Impossibile riavviare una versione di percorso interrotta.
+Impossibile riavviare una versione del percorso interrotta.
 
-Quando viene arrestato, lo stato del percorso viene impostato su **[!UICONTROL Arrestato]**.
+Quando viene interrotto, lo stato del percorso viene impostato su **[!UICONTROL Interrotto]**.
 
-È possibile interrompere un percorso, ad esempio, se un addetto al marketing si rende conto che il percorso esegue il targeting del pubblico errato o che un&#39;azione personalizzata che dovrebbe inviare i messaggi non funziona correttamente. Per interrompere un percorso dall’elenco dei percorsi, fai clic sul pulsante **[!UICONTROL Ellissi]** a destra del nome del percorso e seleziona **[!UICONTROL Interrompi]**.
+Puoi interrompere un percorso, ad esempio, se un addetto marketing si rende conto che il percorso esegue il targeting del pubblico sbagliato o che un’azione personalizzata destinata a consegnare i messaggi non funziona correttamente. Per interrompere un percorso dall&#39;elenco dei percorsi, fare clic su **[!UICONTROL Puntini di sospensione]** che si trova a destra del nome del percorso e seleziona **[!UICONTROL Interrompi]**.
 
 ![](assets/journey-finish-quick-action.png)
 
 È inoltre possibile:
 
-1. In **[!UICONTROL Percorsi]** fare clic sul percorso che si desidera interrompere.
+1. In **[!UICONTROL Percorsi]** selezionare il percorso che si desidera interrompere.
 1. In alto a destra, fai clic sulla freccia giù.
    ![](assets/finish_drop_down_list.png)
-1. Fai clic su **[!UICONTROL Interrompi]** e conferma nella finestra di dialogo.
+1. Clic **[!UICONTROL Interrompi]**, e confermare nella finestra di dialogo.

@@ -12,7 +12,7 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 51%
 [!DNL Journey Optimizer] consente di importare contenuti HTML esistenti per progettare le e-mail. Tali contenuti possono essere:
 
 * Un **file HTML** con un foglio di stile incorporato;
-* A **Cartella .zip** incluso un file HTML, il foglio di stile (.css) e le immagini.
+* A **cartella .zip** inclusione di un file HTML, del foglio di stile (css) e delle immagini.
 
    >[!NOTE]
    >
-   >La struttura del file .zip non è soggetta a specifici vincoli. Tuttavia, i riferimenti devono essere relativi e adattati alla struttura ad albero della cartella .zip.
+   >La struttura del file .zip non è soggetta a specifici vincoli. Tuttavia, i riferimenti devono essere relativi e adattarsi alla struttura ad albero della cartella .zip.
 
 Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
-1. Dalla home page di E-mail Designer, seleziona **[!UICONTROL Importa HTML]**.
+1. Dalla pagina Home di E-mail designer, seleziona **[!UICONTROL Importa HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Trascina e rilascia il file HTML o .zip contenente il contenuto di HTML.
+1. Trascina e rilascia il file HTML o .zip contenente il contenuto HTML.
 
 1. Una volta caricato il contenuto HTML, puoi sfruttare le funzionalità di E-mail Designer per modificare e visualizzare l’anteprima del messaggio e-mail. [Ulteriori informazioni](content-from-scratch.md)
 

@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Campi comuni degli eventi di journeyStep
-description: Campi comuni degli eventi di journeyStep
+title: campi comuni degli eventi journeyStep
+description: campi comuni degli eventi journeyStep
 feature: Reporting
 topic: Content Management
 role: User
@@ -15,17 +15,17 @@ ht-degree: 9%
 
 ---
 
-# Campi comuni degli eventi di journeyStep {#sharing-common-fields}
+# campi comuni degli eventi journeyStep {#sharing-common-fields}
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
-Si tratta dei campi XDM comuni che [!DNL Journey Optimizer] invia a Adobe Experience Platform. Verranno inviati campi comuni per ogni passaggio elaborato in un percorso. Campi più specifici vengono utilizzati per azioni personalizzate e arricchimenti.
+Questi sono i campi XDM comuni che [!DNL Journey Optimizer] invia a Adobe Experience Platform. Campi comuni vengono inviati per ogni passaggio elaborato in un percorso. Campi più specifici vengono utilizzati per azioni personalizzate e arricchimenti.
 
-Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione azione, recupero dati, ecc.) per limitare le dimensioni degli eventi.
+Alcuni di questi campi sono disponibili solo in pattern di elaborazione specifici (esecuzione di azioni, recupero dati, ecc.) per limitare la dimensione degli eventi.
 
-## ingresso {#entrance-field}
+## entrata {#entrance-field}
 
-Indica se l’utente è entrato nel percorso. Se non è presente, si presuppone che il valore sia falso.
+Indica se l&#39;utente è entrato nel percorso. Se non presente, supponiamo che il valore sia falso.
 
 Tipo: booleano
 
@@ -33,7 +33,7 @@ Valori: true/false
 
 ## rientro {#reentrance-field}
 
-Indica se l’utente è rientrato nel percorso con la stessa istanza. Se non è presente, si presuppone che il valore sia falso.
+Indica se l&#39;utente è rientrato nel percorso con la stessa istanza. Se non presente, supponiamo che il valore sia falso.
 
 Tipo: booleano
 
@@ -41,25 +41,25 @@ Valori: true/false
 
 ## instanceEnded {#instance-ended-field}
 
-Indica se l&#39;istanza è terminata (con successo o meno).
+Indica se l’istanza è terminata (con successo o meno).
 
 Tipo: booleano
 
 ## eventID {#eventid-field}
 
-ID evento in elaborazione, per l’elaborazione dei passaggi. Se l’evento è esterno, il valore è il relativo eventId. Se l’evento è interno, il valore è l’ID evento interno (ad esempio, scheduledNotificationReceived, executeAction, ecc.).
+ID evento in elaborazione, per il passaggio di elaborazione. Se l&#39;evento è esterno, il valore è il relativo eventId. Se l’evento è interno, il valore è l’eventId interno (ad esempio scheduledNotificationReceived, executeAction, ecc.).
 
 Tipo: stringa
 
 ## nodeID {#nodeid-field}
 
-ID nodo client (dall’area di lavoro).
+ID del nodo client (dall’area di lavoro).
 
 Tipo: stringa
 
 ## stepID {#stepdid-field}
 
-ID univoco del passaggio in fase di elaborazione.
+ID univoco del passaggio attualmente in fase di elaborazione.
 
 Tipo: stringa
 
@@ -84,18 +84,18 @@ Valori possibili:
 
 ## stepStatus {#stepstatus-field}
 
-Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell’elaborazione (e all’avvio dell’evento step).
+Stato del passaggio, che rappresenta lo stato del passaggio, al termine dell&#39;elaborazione (e quando l&#39;evento del passaggio viene generato).
 
 Tipo: stringa
 
 Lo stato può essere:
 
-* end: il passaggio non ha alcuna transizione e l’elaborazione è terminata correttamente.
-* errore: errore generato dall&#39;elaborazione dei passaggi.
-* transizioni: il passaggio è in attesa della transizione di un evento a un altro passaggio.
-* con limiti massimi: il passaggio non è riuscito per un errore di limitazione, generato durante un&#39;azione o un arricchimento.
-* timeout: il passaggio non è riuscito per un errore di timeout, generato durante un&#39;azione o un arricchimento.
-* instanceTimedout: il passaggio ha interrotto l’elaborazione perché l’istanza ha raggiunto il timeout.
+* terminato: il passaggio non presenta alcuna transizione e l’elaborazione è terminata correttamente.
+* errore: l’elaborazione del passaggio ha generato un errore.
+* transizioni: il passaggio è in attesa che un evento passi a un altro passaggio.
+* limitato: il passaggio non è riuscito a causa di un errore di limite, generato durante un’azione o un arricchimento.
+* timeout: il passaggio non è riuscito a causa di un errore di timeout, generato durante un&#39;azione o un arricchimento.
+* instanceTimedout: l&#39;elaborazione del passaggio è stata interrotta perché è stato raggiunto il timeout dell&#39;istanza.
 
 ## journeyID {#journeyid-field}
 
@@ -105,7 +105,7 @@ Tipo: stringa
 
 ## journeyVersionID {#journeyversionid-field}
 
-ID della versione del percorso. Questo id rappresenta il riferimento di identità al percorso, nel caso di journeyStepEvent.
+ID della versione del percorso. Questo ID rappresenta il riferimento di identità al percorso, nel caso di journeyStepEvent.
 
 Tipo: stringa
 
@@ -123,25 +123,25 @@ Tipo: stringa
 
 ## instanceID {#instanceid-field}
 
-ID interno dell&#39;istanza del percorso.
+ID interno dell’istanza di percorso.
 
 Tipo: stringa
 
 ## externalKey {#externalkey-field}
 
-Chiave esterna estratta dall’evento per elaborarla.
+Chiave esterna estratta dall’evento per elaborarlo.
 
 Tipo: stringa
 
 ## parentStepID {#parenstepid-field}
 
-ID del passo padre del passaggio elaborato corrente nell&#39;istanza.
+ID del passaggio padre del passaggio elaborato corrente nell’istanza.
 
 Tipo: stringa
 
 ## parentStepName {#parentstepname-field}
 
-Nome del passo dell&#39;elemento padre del passaggio corrente.
+Nome del passaggio padre del passaggio corrente.
 
 Tipo: stringa
 
@@ -153,37 +153,37 @@ Tipo: stringa
 
 ## parentTransitionName {#parenttransitionname-field}
 
-Nome della transizione che ha portato l&#39;istanza al passaggio elaborato.
+Nome della transizione che ha portato l’istanza al passaggio elaborato.
 
 Tipo: stringa
 
 ## inTest {#intest-field}
 
-Indica se il percorso è in modalità di prova o meno.
+Indica se il percorso è in modalità di test o meno.
 
 Tipo: booleano
 
 ## processingTime {#processingtime-field}
 
-Quantità totale di tempo in millisecondi dall’entrata del passaggio dell’istanza alla fine dell’elaborazione.
+Tempo totale in millisecondi dall’ingresso del passaggio dell’istanza alla fine dell’elaborazione.
 
 Tipo: long
 
 ## instanceType {#instancetype-field}
 
-Indica il tipo di istanza, se è batch o unitario.
+Indica il tipo di istanza, se è batch o unitaria.
 
 Tipo: stringa
 
 Valori: batch/unitario
 
-## recidivaIndex {#recurrenceindex-field}
+## recurrenceIndex {#recurrenceindex-field}
 
-Indice della ricorrenza se il percorso è in batch e ricorrente (la prima esecuzione ha ricorrenzaIndex = 1).
+Indice della ricorrenza se il percorso è batch e ricorrente (la prima esecuzione ha recurrenceIndex = 1).
 
 Tipo: long
 
-## isBatchToUnitaria {#isbatchtounitary-field}
+## isBatchToUninary {#isbatchtounitary-field}
 
 Indica se questa istanza unitaria è stata attivata da un&#39;istanza batch.
 
@@ -197,12 +197,12 @@ Tipo: stringa
 
 ## batchInstanceID {#batchinstanceid-field}
 
-questo è l&#39;ID dell&#39;istanza batch.
+questo è l’ID dell’istanza batch.
 
 Tipo: stringa
 
-## batchUnitarioBranchID {#batchunitarybranchid-field}
+## batchUninaryBranchID {#batchunitarybranchid-field}
 
-se l&#39;istanza è stata attivata da un&#39;istanza batch, ID ramo unitario.
+se l’istanza è stata attivata da un’istanza batch, ID del ramo unitario.
 
 Tipo: stringa

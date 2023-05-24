@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Attività Attendi
-description: Scopri l’attività attendi
+description: Scopri l’attività Attendi
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: attendi, attività, percorso, successivo, canvas
+keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ ht-degree: 21%
 >title="Attività Attendi"
 >abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
-Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso, puoi utilizzare un **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
+Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’ **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
 
 * [Durata](#duration)
 * [Personalizzato](#custom)
@@ -35,11 +35,11 @@ Se desideri attendere prima di eseguire l&#39;attività successiva nel percorso,
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-La durata massima di attesa è di 30 giorni. In modalità di prova, il **[!UICONTROL Tempo di attesa nel test]** ti consente di definire la durata di ogni attività di attesa. Il tempo predefinito è di 10 secondi. In questo modo sarà possibile ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+La durata massima di attesa è di 30 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
-Presta attenzione quando utilizzi più attività Attendi in un percorso, in quanto il timeout del percorso globale è di 30 giorni, il che significa che un profilo abbandonerà sempre il percorso al massimo 30 giorni dopo l’inserimento.
+Presta attenzione quando utilizzi più attività di attesa in un percorso, in quanto il timeout percorso globale è di 30 giorni, il che significa che un profilo uscirà sempre dal valore massimo percorso 30 giorni dopo essere entrato.
 
-## Durata attesa{#duration}
+## Attesa durata{#duration}
 
 Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva.
 
@@ -56,13 +56,13 @@ Select the date for the execution of the next activity.
 
 ## Attesa personalizzata{#custom}
 
-Questa opzione ti consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da un’origine dati. Non ti consente di definire una durata personalizzata, ad esempio 7 giorni. L&#39;espressione nell&#39;editor di espressioni deve fornire un formato dateTimeOnly. Fai riferimento a questo [page](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, consulta questo [page](expression/data-types.md).
+Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2020 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o un’origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L’espressione nell’editor espressioni deve fornire un formato dateTimeOnly. Fai riferimento a questo [pagina](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [pagina](expression/data-types.md).
 
 >[!NOTE]
 >
->È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell&#39;evento è del modulo 2016-08-12T09:46:06Z
+>È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), il campo nell’evento è nel formato 2016-08-12T09:46:06Z
 >
->La **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall&#39;interfaccia puntare direttamente a un tempo pieno di mixaggio e fuso orario ISO-8601 come 2016-08-12T09:46:06,982-05. Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il **fuso orario** nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall’interfaccia puntare direttamente a una marca temporale ISO-8601 completa mescolando tempo e scostamento fuso orario come 2016-08-12T09:46:06.982-05 Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

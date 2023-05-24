@@ -18,31 +18,31 @@ ht-degree: 2%
 
 # Utilizzare JavaScript personalizzato in una pagina di destinazione {#lp-custom-js}
 
-Puoi definire il contenuto della pagina di destinazione utilizzando JavaScript personalizzato. Ad esempio, se devi eseguire uno stile avanzato o se desideri aggiungere comportamenti personalizzati alle pagine di destinazione, puoi creare controlli personalizzati ed eseguirli in [!DNL Journey Optimizer].
+Puoi definire il contenuto della pagina di destinazione utilizzando JavaScript personalizzato. Ad esempio, per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione, puoi creare controlli personalizzati ed eseguirli in [!DNL Journey Optimizer].
 
 ## Inserire codice JavaScript in una pagina di destinazione
 
-Per inserire JavaScript personalizzato nel contenuto della pagina di destinazione, puoi effettuare una delle seguenti operazioni:
+Per inserire un JavaScript personalizzato nel contenuto della pagina di destinazione, puoi effettuare le seguenti operazioni:
 
-* Importa il contenuto esistente di HTML quando inizi a creare il contenuto, quindi seleziona il file che include il codice JavaScript personalizzato. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
+* Importa il contenuto HTML esistente quando inizi a creare il contenuto e seleziona il file che include il codice JavaScript personalizzato. Scopri come importare i contenuti [in questa sezione](../email/existing-content.md).
 
-* Progetta la pagina di destinazione da zero o da un modello salvato. Trascina e rilascia la **[!UICONTROL HTML]** componente contenuto nell’area di lavoro e mostra il codice sorgente per aggiungere JavaSCript al componente. Scopri come utilizzare il componente HTML in [questa sezione](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Progetta la pagina di destinazione da zero o da un modello salvato. Trascina la **[!UICONTROL HTML]** componente contenuto nell’area di lavoro e mostra il codice sorgente per aggiungere il codice JavaScript al componente. Scopri come utilizzare il componente HTML in [questa sezione](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Immetti o incolla il codice JavaScript direttamente nella finestra di progettazione dei contenuti. Scopri come codificare i contenuti personalizzati [in questa sezione](../email/code-content.md).
+* Inserisci o incolla il codice JavaScript direttamente nel designer del contenuto. Scopri come programmare i contenuti [in questa sezione](../email/code-content.md).
 
 >[!NOTE]
 >
->Attualmente non è possibile visualizzare JavaScript in azione quando [visualizzazione dell’anteprima della pagina di destinazione](create-lp.md#test-landing-page).
+>Attualmente non è possibile visualizzare JavaScript in azione quando [anteprima della pagina di destinazione](create-lp.md#test-landing-page).
 
-Affinché la pagina di destinazione sia visualizzata correttamente, utilizza la sintassi seguente come descritto nelle sezioni seguenti.
+Per visualizzare correttamente la pagina di destinazione, utilizza la sintassi seguente come descritto nelle sezioni seguenti.
 
 ## Inizializzazione del codice
 
-Per inizializzare il codice JavaScript, è necessario utilizzare il `lpRuntimeReady` evento. Questo evento verrà attivato dopo l&#39;inizializzazione della libreria completata. Il callback viene eseguito con `lpRuntime` oggetto per esporre il metodo e gli hook della libreria.
+Per inizializzare il codice JavaScript, devi utilizzare `lpRuntimeReady` evento. Questo evento verrà attivato dopo la corretta inizializzazione della libreria. Il callback verrà eseguito con `lpRuntime` oggetto per esporre il metodo e gli hook della libreria.
 
-`LpRuntime` sta per &quot;Landing page Runtime&quot;. Questo oggetto è l&#39;identificatore della libreria principale. Verranno esposti hook, metodi di invio dei moduli e altri metodi di utilità utilizzabili in JavaScript personalizzato.
+`LpRuntime` sta per &quot;Runtime pagina di destinazione&quot;. Questo oggetto è l’identificatore della libreria principale. Verranno esposti hook, metodi di invio dei moduli e altri metodi di utilità che possono essere utilizzati in JavaScript personalizzato.
 
 **Esempio:**
 
@@ -62,15 +62,15 @@ function init(lpRuntime){
 
 ## Hook
 
-Utilizzando gli hook, è possibile allegare un metodo durante il ciclo di vita dell’invio del modulo. Ad esempio, è possibile utilizzare gli hook per eseguire una convalida del modulo prima che il modulo venga effettivamente inviato.
+Gli hook consentono di allegare un metodo durante il ciclo di vita dell&#39;invio del modulo. Ad esempio, è possibile utilizzare gli hook per eseguire una convalida del modulo prima che venga effettivamente inviato.
 
-Ecco gli hook che puoi utilizzare:
+Di seguito sono riportati gli hook che puoi utilizzare:
 
 | Nome | Descrizione |
 |--- |--- |
-| addBeforeSubmitHook | Gancio personalizzato da chiamare prima dell’invio del modulo. Restituisce true per continuare l&#39;invio, else restituisce false per bloccare l&#39;invio. |
-| addOnFailureHook | Gancio personalizzato da chiamare per l&#39;invio del modulo non riuscito. |
-| addOnSuccessHook | Gancio personalizzato da chiamare in caso di invio corretto del modulo. |
+| addBeforeSubmitHook | Hook personalizzato da chiamare prima dell’invio del modulo. Restituisce true per continuare l’invio, altrimenti restituisce false per bloccare l’invio. |
+| addOnFailureHook | Hook personalizzato da chiamare in caso di invio del modulo non riuscito. |
+| addOnSuccessHook | Hook personalizzato da chiamare in caso di invio corretto del modulo. |
 
 **Esempio:**
 
@@ -83,16 +83,16 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 
 ## Invio di moduli personalizzati
 
-I metodi elencati di seguito vengono utilizzati per eseguire invii di moduli personalizzati.
+I metodi elencati di seguito vengono utilizzati per eseguire l’invio di moduli personalizzati.
 
 >[!NOTE]
 >
->Poiché l’invio del modulo è gestito da JavaScript personalizzato, l’invio predefinito deve essere disabilitato esplicitamente impostando una variabile globale `disableDefaultFormSubmission` a `true`.
+>Poiché l’invio del modulo viene gestito da JavaScript personalizzato, l’invio predefinito deve essere disabilitato esplicitamente impostando una variabile globale `disableDefaultFormSubmission` a `true`.
 
 | Nome | Descrizione |
 |--- |--- |
-| submitForm | Questo metodo sottometterà il modulo e gestirà il flusso di invio successivo. |
-| submitFormPartial | Questo metodo invia anche il modulo, ma ignora il flusso di invio successivo. Ad esempio, se hai configurato il reindirizzamento alla pagina di successo dopo l’invio con esito positivo, tale reindirizzamento non verrà eseguito in caso di invio parziale del modulo. |
+| submitForm | Questo metodo invia il modulo e gestisce il flusso di invio dei post. |
+| submitFormPartial | Anche questo metodo invierà il modulo, ma salterà il flusso di invio dei post. Ad esempio, se hai configurato il reindirizzamento alla pagina di successo dopo l’invio corretto, tale reindirizzamento non si verifica in caso di invio parziale del modulo. |
 
 **Esempi:**
 
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | Nome | Descrizione |
 |--- |--- |
-| getFormData | Questo metodo può essere utilizzato per ottenere `formData` sotto forma di un oggetto JSON. Questo oggetto può essere passato a `submitForm` per l’invio del modulo. |
+| getFormData | Questo metodo può essere utilizzato per ottenere `formData` sotto forma di oggetto JSON. Questo oggetto può essere passato a `submitForm` per l’invio di moduli. |
 
 **Esempio:**
 
@@ -125,7 +125,7 @@ lpRuntime.submitForm(formData);
 
 ## Casi d’uso
 
-### Caso d&#39;uso 1: Aggiunta di una convalida prima dell’invio del modulo
+### Caso d’uso 1: aggiunta della convalida prima dell’invio del modulo
 
 ```
 <html>
@@ -160,9 +160,9 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### Caso d&#39;uso 2: Invio parziale del modulo
+### Caso d’uso 2: invio parziale di moduli
 
-Ad esempio, si dispone di un modulo con più caselle di controllo sulla pagina. Selezionando una casella di controllo, si desidera salvare tali dati nel backend senza attendere che l’utente faccia clic sul pulsante di invio.
+Ad esempio, nella pagina è presente un modulo con più caselle di controllo. Selezionando una casella di controllo, si desidera salvare i dati nel backend senza attendere che l’utente faccia clic sul pulsante Invia.
 
 ```
 <html>
@@ -193,9 +193,9 @@ Ad esempio, si dispone di un modulo con più caselle di controllo sulla pagina. 
 </html>
 ```
 
-### Caso d&#39;uso 3: Tag di analisi personalizzati
+### Caso d’uso 3: tag di analisi personalizzati
 
-Utilizzando JavaScript puoi aggiungere ascoltatori di campi di input e allegare un trigger di chiamata di analisi personalizzato.
+Utilizzando JavaScript puoi aggiungere listener di campi di input e allegare un trigger di chiamata di analisi personalizzato.
 
 ```
 <html>
@@ -226,7 +226,7 @@ Utilizzando JavaScript puoi aggiungere ascoltatori di campi di input e allegare 
 </html>
 ```
 
-### Caso d&#39;uso 4: Modulo dinamico
+### Caso d’uso 4: forma dinamica
 
 ```
 <html>

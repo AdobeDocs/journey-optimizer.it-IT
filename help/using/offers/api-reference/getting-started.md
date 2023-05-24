@@ -1,6 +1,6 @@
 ---
 title: Introduzione
-description: Scopri come iniziare a utilizzare l’API della Libreria offerte per eseguire operazioni chiave utilizzando il motore decisionale.
+description: Scopri come iniziare a utilizzare l’API della Libreria di offerte per eseguire operazioni chiave utilizzando il motore decisionale.
 feature: Offers
 topic: Integrations
 role: User
@@ -15,26 +15,26 @@ ht-degree: 6%
 
 # Guida per gli sviluppatori API per la gestione delle decisioni {#decision-management-api-developer-guide}
 
-Questa guida per gli sviluppatori descrive i passaggi necessari per iniziare a utilizzare [!DNL Offer Library] API. La guida fornisce quindi un esempio di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.
+Questa guida per sviluppatori descrive i passaggi per iniziare a utilizzare [!DNL Offer Library] API. La guida fornisce quindi esempi di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.
 
-➡️ [Questo video offre ulteriori informazioni sui componenti di Gestione delle decisioni .](#video)
+➡️ [Ulteriori informazioni sui componenti di Gestione delle decisioni sono disponibili in questo video](#video)
 
 ## Prerequisiti {#prerequisites}
 
-Questa guida richiede una buona comprensione dei seguenti componenti di Adobe Experience Platform:
+Questa guida richiede una buona conoscenza dei seguenti componenti di Adobe Experience Platform:
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}: Il quadro standardizzato [!DNL Experience Platform] organizza i dati sulla customer experience.
-   * [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: Scopri i blocchi di base degli schemi XDM.
-* [Gestione delle decisioni](../../../using/offers/get-started/starting-offer-decisioning.md): Illustra i concetti e i componenti utilizzati per Experience Decisioning in generale e per la gestione delle decisioni in particolare. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
-* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole decisionali.
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}: il quadro standardizzato mediante il quale [!DNL Experience Platform] organizza i dati sull’esperienza del cliente.
+   * [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: scopri gli elementi di base degli schemi XDM.
+* [Gestione delle decisioni](../../../using/offers/get-started/starting-offer-decisioning.md): illustra i concetti e i componenti utilizzati per Experience Decisioning in generale e per la gestione delle decisioni in particolare. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza di un cliente.
+* [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: PQL è un linguaggio potente per scrivere espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole di decisione.
 
-## Lettura di chiamate API di esempio {#reading-sample-api-calls}
+## Lettura delle chiamate API di esempio {#reading-sample-api-calls}
 
-Questa guida fornisce esempi di chiamate API per dimostrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richiesta formattati correttamente. Viene inoltre fornito un esempio di codice JSON restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione sulle [come leggere le chiamate API di esempio](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} in [!DNL Experience Platform] guida alla risoluzione dei problemi.
+Questa guida fornisce esempi di chiamate API per dimostrare come formattare le richieste. Questi includono percorsi, intestazioni richieste e payload di richieste formattati correttamente. Viene inoltre fornito il codice JSON di esempio restituito nelle risposte API. Per informazioni sulle convenzioni utilizzate nella documentazione per le chiamate API di esempio, consulta la sezione su [come leggere esempi di chiamate API](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"} nel [!DNL Experience Platform] guida alla risoluzione dei problemi.
 
-## Raccogli i valori delle intestazioni richieste {#gather-values-for-required-headers}
+## Raccogli i valori per le intestazioni richieste {#gather-values-for-required-headers}
 
-Per effettuare chiamate a [!DNL Adobe Experience Platform] API, devi prima completare l’ [esercitazione sull&#39;autenticazione](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. Il completamento dell’esercitazione sull’autenticazione fornisce i valori per ciascuna delle intestazioni richieste in tutte le [!DNL Experience Platform] Chiamate API, come mostrato di seguito:
+Per effettuare chiamate a [!DNL Adobe Experience Platform] , devi prima completare le [tutorial sull’autenticazione](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}. Il completamento del tutorial sull’autenticazione fornisce i valori per ciascuna delle intestazioni richieste in tutte [!DNL Experience Platform] Chiamate API, come mostrato di seguito:
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
@@ -46,13 +46,13 @@ Tutte le richieste che contengono un payload (POST, PUT, PATCH) richiedono un’
 
 ## Gestire l’accesso a un contenitore {#manage-access-to-container}
 
-Un contenitore è un meccanismo di isolamento per tenere separate le diverse preoccupazioni. L’ID contenitore è il primo elemento del percorso per tutte le API dell’archivio. Tutti gli oggetti decisionali risiedono all&#39;interno di un contenitore.
+Un contenitore è un meccanismo di isolamento per tenere separate le diverse preoccupazioni. L’ID contenitore è il primo elemento percorso per tutte le API dell’archivio. Tutti gli oggetti decisioning si trovano all’interno di un contenitore.
 
-Un amministratore può raggruppare entità, risorse e autorizzazioni di accesso simili in profili. Ciò riduce l’onere di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Devi essere un amministratore di prodotto per Adobe Experience Platform nella tua organizzazione per creare profili e assegnare loro gli utenti. È sufficiente creare profili di prodotto che corrispondano a determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi a cui sono state concesse autorizzazioni e ogni utente effettivo o tecnico del gruppo eredita tali autorizzazioni.
+Un amministratore può raggruppare entità principali e risorse simili e accedere alle autorizzazioni nei profili. Ciò riduce il carico di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Per creare profili e assegnare utenti a Adobe Experience Platform nella tua organizzazione, devi essere amministratore di prodotto. È sufficiente creare profili di prodotto che soddisfino determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi ai quali sono state concesse autorizzazioni e ogni utente reale o tecnico di quel gruppo eredita tali autorizzazioni.
 
-In base ai privilegi di amministratore, è possibile concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"}.
+Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"}.
 
-### Elencare contenitori accessibili a utenti e integrazioni {#list-containers-accessible-to-users-and-integrations}
+### Elencare i contenitori accessibili agli utenti e alle integrazioni {#list-containers-accessible-to-users-and-integrations}
 
 **Formato API**
 
@@ -62,7 +62,7 @@ GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{PRODUCT_CONTEXT}` | Filtra l’elenco dei contenitori in base alla loro associazione ai contesti di prodotto. | `acp` |
 | `{PROPERTY}` | Filtra il tipo di contenitore restituito. | `_instance.containerType==decisioning` |
 
@@ -79,7 +79,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce informazioni relative ai contenitori di gestione delle decisioni. Questo include `instanceId` , il cui valore è l&#39;ID del contenitore.
+In caso di esito positivo, la risposta restituisce le informazioni relative ai contenitori di gestione delle decisioni. Ciò include un `instanceId` , il cui valore corrisponde all&#39;ID del contenitore.
 
 ```json
 {
@@ -126,7 +126,7 @@ Una risposta corretta restituisce informazioni relative ai contenitori di gestio
 
 ## Passaggi successivi {#next-steps}
 
-Il presente documento tratta le conoscenze necessarie per effettuare chiamate [!DNL Offer Library] API, inclusa l’acquisizione dell’ID contenitore. Ora puoi passare alle chiamate di esempio fornite in questa guida per gli sviluppatori e seguire le relative istruzioni.
+In questo documento sono state trattate le conoscenze preliminari necessarie per effettuare chiamate [!DNL Offer Library] API, inclusa l’acquisizione dell’ID contenitore. Ora puoi passare alle chiamate di esempio fornite in questa guida per sviluppatori e seguire le loro istruzioni.
 <!--
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Il presente documento tratta le conoscenze necessarie per effettuare chiamate [!
 
 ## Video introduttivo {#video}
 
-Il seguente video è pensato per aiutarti a comprendere i componenti di Gestione delle decisioni.
+Il video seguente ha lo scopo di aiutarti a comprendere i componenti di Gestione delle decisioni.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
 

@@ -1,6 +1,6 @@
 ---
-title: Libreria funzioni matematiche
-description: Libreria funzioni matematiche
+title: Libreria di funzioni matematiche
+description: Libreria di funzioni matematiche
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 6%
 
 # Funzioni matematiche {#math}
 
-Scopri come utilizzare le funzioni Math nell’editor espressioni.
+Scopri come utilizzare le funzioni matematiche nell’editor di espressioni.
 
 ## Assoluto {#absolute}
 
-La `absolute` La funzione viene utilizzata per convertire un numero il cui valore è assoluto.
+Il `absolute` funzione viene utilizzata per convertire un numero in valore assoluto.
 
 **Sintassi**
 
@@ -29,9 +29,9 @@ La `absolute` La funzione viene utilizzata per convertire un numero il cui valor
 
 ## formatNumber {#format-number}
 
-La `formatNumber` viene utilizzata per formattare qualsiasi numero nella relativa rappresentazione sensibile alla lingua.
+Il `formatNumber` La funzione viene utilizzata per formattare qualsiasi numero nella relativa rappresentazione sensibile alla lingua.
 
-Accetta un numero e una stringa che rappresentano le impostazioni internazionali e restituisce una stringa formattata del numero nelle impostazioni internazionali desiderate.
+Accetta un numero e una stringa che rappresenta la lingua e restituisce una stringa formattata del numero nella lingua desiderata.
 
 **Sintassi**
 
@@ -39,11 +39,11 @@ Accetta un numero e una stringa che rappresentano le impostazioni internazionali
 {%= formatNumber(number/double,string) %}: string
 ```
 
-È possibile utilizzare la formattazione e le impostazioni internazionali valide come riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+È possibile utilizzare la formattazione e le lingue valide come riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Esempio**
 
-Questa query restituisce una stringa formattata in arabo corrispondente a 123456.789 come numero di input.
+Questa query restituisce come numero di input una stringa formattata in arabo corrispondente a 123456,789.
 
 ```sql
 {%= formatNumber(123456.789, "ar_EG") %}
@@ -51,7 +51,7 @@ Questa query restituisce una stringa formattata in arabo corrispondente a 123456
 
 ## Random {#random}
 
-La `random` viene utilizzato per restituire un valore casuale compreso tra 0 e 1.
+Il `random` viene utilizzata per restituire un valore casuale compreso tra 0 e 1.
 
 **Sintassi**
 
@@ -59,9 +59,9 @@ La `random` viene utilizzato per restituire un valore casuale compreso tra 0 e 1
 {%= random() %}: double
 ```
 
-## Round down {#round-down}
+## Arrotonda per difetto {#round-down}
 
-La `roundDown` viene utilizzata per arrotondare un numero.
+Il `roundDown` viene utilizzata per arrotondare un numero per difetto.
 
 **Sintassi**
 
@@ -69,9 +69,9 @@ La `roundDown` viene utilizzata per arrotondare un numero.
 {%= roundDown(double) %}: double
 ```
 
-## Arrotondamento {#round-up}
+## Arrotonda per eccesso {#round-up}
 
-La `Count only null` viene utilizzata per arrotondare un numero.
+Il `Count only null` funzione viene utilizzato per arrotondare un numero.
 
 **Sintassi**
 
@@ -79,9 +79,9 @@ La `Count only null` viene utilizzata per arrotondare un numero.
 {%= roundUp(double) %}: double
 ```
 
-## Stringa esadecimale {#to-hex-string}
+## Alla stringa esadecimale {#to-hex-string}
 
-La `toHexString` la funzione converte qualsiasi numero nella relativa stringa esadecimale.
+Il `toHexString` funzione converte qualsiasi numero nella relativa stringa esadecimale.
 
 **Sintassi**
 
@@ -91,15 +91,15 @@ La `toHexString` la funzione converte qualsiasi numero nella relativa stringa es
 
 **Esempio**
 
-Questa query restituisce il valore esadecimale di 158, ovvero 9e.
+Questa query restituisce il valore esadecimale 158, ovvero 9e.
 
 ```sql
 {%= toHexString(158) %}
 ```
 
-## In percentuale {#to-percentage}
+## A percentuale {#to-percentage}
 
-La `toPercentage` viene utilizzata per convertire un numero in percentuale.
+Il `toPercentage` viene utilizzata per convertire un numero in percentuale.
 
 **Sintassi**
 
@@ -107,9 +107,9 @@ La `toPercentage` viene utilizzata per convertire un numero in percentuale.
 {%= toPercentage(double) %}: string
 ```
 
-## Precisione {#to-precision}
+## Alla precisione {#to-precision}
 
-La `toPrecision` viene utilizzata per convertire un numero in precisione richiesta.
+Il `toPrecision` viene utilizzata per convertire un numero con la precisione richiesta.
 
 **Sintassi**
 
@@ -117,9 +117,9 @@ La `toPrecision` viene utilizzata per convertire un numero in precisione richies
 {%= toPrecision(double,int) %}: string
 ```
 
-## Stringa {#to-string}
+## A stringa {#to-string}
 
-La **toString** la funzione converte qualsiasi numero nella relativa rappresentazione stringa.
+Il **toString** funzione converte qualsiasi numero nella sua rappresentazione di stringa.
 
 **Sintassi**
 

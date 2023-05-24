@@ -17,7 +17,7 @@ ht-degree: 73%
 
 # Funzioni {#functions}
 
-Una funzione può avere firme diverse (un diverso insieme di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
+Una funzione può avere firme diverse (un diverso set di parametri ordinati). Una firma di funzione può avere espressioni 0-N come parametri ordinati.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 

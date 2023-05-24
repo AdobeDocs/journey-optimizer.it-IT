@@ -7,7 +7,7 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-keywords: soppressione, elenco, rimbalzo, e-mail, ottimizzatore, quarantena
+keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -18,19 +18,19 @@ ht-degree: 21%
 
 # Gestire l’elenco di soppressione {#manage-suppression-list}
 
-Con [!DNL Journey Optimizer], puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall’invio in un percorso o in una campagna, ad esempio messaggi non recapitati rigidi, messaggi non recapitati e reclami relativi a spam.
+Con [!DNL Journey Optimizer], puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall’invio in un percorso o in una campagna, ad esempio mancati recapiti permanenti, mancati recapiti non permanenti e reclami relativi a spam.
 
-Tali indirizzi e-mail vengono raccolti automaticamente in Journey Optimizer **elenco a discesa**. Un elenco di soppressione è costituito da indirizzi e domini da escludere dal pubblico. Raccoglie indirizzi e-mail e domini soppressi in tutti gli invii in un unico ambiente client, il che significa specifici per un ID organizzazione associato a un ID sandbox.
+Tali indirizzi e-mail vengono raccolti automaticamente in Journey Optimizer **elenco di soppressione**. Un elenco di soppressione è costituito da indirizzi e domini da escludere dai tipi di pubblico. Raccoglie indirizzi e-mail e domini che vengono soppressi in tutte le comunicazioni in un unico ambiente client, il che significa specifico per un ID organizzazione associato a un ID sandbox.
 
-Ulteriori informazioni sul concetto e sull&#39;utilizzo dell&#39;elenco di soppressione in [questa sezione](../reports/suppression-list.md).
+Ulteriori informazioni sul concetto e sull’utilizzo dell’elenco di soppressione in [questa sezione](../reports/suppression-list.md).
 
 >[!NOTE]
 >
->In Adobe viene conservato un elenco aggiornato degli indirizzi danneggiati noti, che si sono dimostrati dannosi per l’impegno e la reputazione dell’invio di e-mail e garantisce che le e-mail non vengano recapitate a tali indirizzi. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
+>Adobe mantiene un elenco aggiornato degli indirizzi non validi noti che si sono dimostrati dannosi per il coinvolgimento e la reputazione di invio di e-mail e garantisce che le e-mail non vengano consegnate a tali indirizzi. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
-## Accedere all&#39;elenco di soppressione {#access-suppression-list}
+## Accedere all’elenco di soppressione {#access-suppression-list}
 
-Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini esclusi, individua **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, quindi seleziona **[!UICONTROL Elenco di eliminazione]**.
+Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini esclusi, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, e seleziona **[!UICONTROL Elenco di soppressione]**.
 
 
 ![](assets/suppression-list-access.png)
@@ -44,52 +44,52 @@ Sono disponibili alcuni filtri che consentono di sfogliare l’elenco.
 
 ![](assets/suppression-list-filters.png)
 
-Puoi filtrare il **[!UICONTROL Categoria di soppressione]**, **[!UICONTROL Tipo di indirizzo]** oppure **[!UICONTROL Motivo]**. Seleziona una o più opzioni per ciascun criterio. Una volta selezionato, puoi cancellare ogni filtro o tutti i filtri visualizzati in cima all’elenco.
+Puoi filtrare in base al **[!UICONTROL Categoria di eliminazione]**, **[!UICONTROL Tipo di indirizzo]**, o **[!UICONTROL Motivo]**. Seleziona una o più opzioni per ciascun criterio. Una volta selezionati, puoi cancellare ogni filtro o tutti i filtri visualizzati sopra l’elenco.
 
 ![](assets/suppression-list-filtering-example.png)
 
 
-## Comprendere i motivi dell’errore {#suppression-categories-and-reasons}
+## Comprendere i motivi degli errori {#suppression-categories-and-reasons}
 
-Quando un messaggio non viene recapitato a un indirizzo e-mail, [!DNL Journey Optimizer] determina il motivo per cui la consegna non è riuscita e la associa a un **[!UICONTROL Categoria di soppressione]**.
+Quando un messaggio non viene recapitato a un indirizzo e-mail, [!DNL Journey Optimizer] determina il motivo dell’errore di consegna e la associa a un **[!UICONTROL Categoria di eliminazione]**.
 
 Le categorie di soppressione sono le seguenti:
 
-* **Duro**: Un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail inesistente). Questo comporta un messaggio non recapitato dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido. L’indirizzo e-mail viene inviato immediatamente all’elenco di eliminazione.
+* **Rigido**: un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail che non esiste). Ciò comporta un messaggio di mancato recapito dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido. L’indirizzo e-mail viene inviato immediatamente all’elenco di soppressione.
 
-   Quando l&#39;errore è il risultato di un reclamo di spam, rientra anche nella **Duro** categoria. L&#39;indirizzo e-mail del destinatario che ha emesso il reclamo viene inviato immediatamente all&#39;elenco di soppressione.
+   Quando l’errore è il risultato di un reclamo spam, rientra anche nel **Rigido** categoria. L’indirizzo e-mail del destinatario che ha emesso il reclamo viene inviato immediatamente all’elenco di soppressione.
 
-* **Morbido**: Un messaggio non recapitato è un messaggio non recapitato temporaneo che si è verificato per un indirizzo e-mail valido. L’indirizzo e-mail viene aggiunto all’elenco di soppressione dopo diversi tentativi. Gli errori morbidi inviano un indirizzo all’elenco di soppressione quando il contatore degli errori raggiunge la soglia limite. [Ulteriori informazioni sui nuovi tentativi](retries.md)
+* **Morbido**: un messaggio non recapitato è un messaggio e-mail non recapitato temporaneo che si è verificato per un indirizzo e-mail valido. L’indirizzo e-mail viene aggiunto all’elenco di soppressione dopo diversi tentativi. Gli errori soft inviano un indirizzo all’elenco di soppressione una volta che il contatore di errori raggiunge la soglia limite. [Ulteriori informazioni sui nuovi tentativi](retries.md)
 
-* **Manuale**: Gli errori manuali sono stati aggiunti manualmente all’elenco di soppressione. [Ulteriori informazioni](#add-addresses-and-domains)
+* **Manuale**: gli errori manuali sono stati aggiunti manualmente all’elenco di soppressione. [Ulteriori informazioni](#add-addresses-and-domains)
 
-Per ogni indirizzo e-mail elencato, puoi anche controllare il **[!UICONTROL Tipo]** (e-mail o dominio), **[!UICONTROL Motivo]** per escluderlo, chi l’ha aggiunto e la data/ora in cui è stato aggiunto all’elenco di soppressione.
+Per ogni indirizzo e-mail elencato, puoi anche controllare **[!UICONTROL Tipo]** (e-mail o dominio), **[!UICONTROL Motivo]** per escluderlo, chi l’ha aggiunto e la data/ora in cui è stato aggiunto all’elenco di soppressione.
 
 ![](assets/suppression-list.png)
 
-Possibili motivi di un errore di consegna:
+I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatario non valido]** | Il destinatario non è valido o non esiste. | Duro |
-| **[!UICONTROL Rimbalzo morbido]** | Il messaggio è stato rimbalzato per un motivo diverso dagli errori soft elencati in questa tabella, ad esempio quando si invia la velocità consentita consigliata da un ISP. | Morbido |
-| **[!UICONTROL Errore DNS]** | Messaggio rimbalzato a causa di un errore DNS. | Morbido |
-| **[!UICONTROL Cassetta postale completa]** | Il messaggio è stato rimbalzato perché la casella di posta del destinatario era piena e non poteva accettare altri messaggi. | Morbido |
-| **[!UICONTROL Rimesso negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;invio non è consentito. | Morbido |
-| **[!UICONTROL Sfida-risposta]** | Il messaggio è una sonda di risposta alla sfida. | Morbido |
-| **[!UICONTROL Denuncia di spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Duro |
+| **[!UICONTROL Destinatario non valido]** | Il destinatario non è valido o non esiste. | Rigido |
+| **[!UICONTROL Mancato recapito morbido]** | Messaggio non recapitato per un motivo diverso dagli errori non permanenti elencati in questa tabella, ad esempio durante l’invio della frequenza consentita consigliata da un ISP. | Morbido |
+| **[!UICONTROL Errore DNS]** | Messaggio non recapitato a causa di un errore DNS. | Morbido |
+| **[!UICONTROL Casella in entrata piena]** | Messaggio non recapitato perché la cassetta postale del destinatario è piena e non è in grado di accettare altri messaggi. | Morbido |
+| **[!UICONTROL Inoltro negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;inoltro non è consentito. | Morbido |
+| **[!UICONTROL Risposta alla sfida]** | Il messaggio è un probe challenge-response. | Morbido |
+| **[!UICONTROL Reclamo spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Rigido |
 
 >[!NOTE]
 >
->Gli utenti non abbonati non ricevono e-mail da [!DNL Journey Optimizer], pertanto i loro indirizzi e-mail non possono essere inviati all’elenco di soppressione. La loro scelta viene gestita a livello di Experience Platform. [Ulteriori informazioni sulla rinuncia](../privacy/opt-out.md)
+>Gli utenti non iscritti non ricevono e-mail da [!DNL Journey Optimizer], pertanto i relativi indirizzi e-mail non possono essere inviati all’elenco di soppressione. La loro scelta viene gestita a livello di Experience Platform. [Ulteriori informazioni sulla rinuncia](../privacy/opt-out.md)
 
 
 ### Regole di eliminazione  {#suppression-rules}
 
-Da **[!UICONTROL Elenco di eliminazione]** visualizza, puoi anche modificare il parametro di nuovo tentativo associato alle regole di soppressione dal **[!UICONTROL Modificare le regole di eliminazione]** pulsante . Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni sui nuovi tentativi](retries.md).
+Dalla sezione **[!UICONTROL Elenco di soppressione]** , è inoltre possibile modificare il parametro dei nuovi tentativi associato alle regole di soppressione dal **[!UICONTROL Modificare le regole di soppressione]** pulsante. Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni sui nuovi tentativi](retries.md).
 
 
-## Aggiungi indirizzi e domini all’elenco di soppressione{#add-addresses-and-domains}
+## Aggiungere indirizzi e domini all’elenco di soppressione{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"
@@ -101,13 +101,13 @@ Da **[!UICONTROL Elenco di eliminazione]** visualizza, puoi anche modificare il 
 >title="Aggiungere e-mail o domini all’elenco di soppressione"
 >abstract="Per popolare l’elenco di soppressione, puoi aggiungere manualmente indirizzi e-mail o domini: uno alla volta oppure in blocco tramite il caricamento di un file CSV. Tali indirizzi e-mail e/o domini saranno esclusi dall’invio."
 
-Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di soppressione o al conteggio dei messaggi non recapitati definiti.
+Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di eliminazione o al conteggio dei mancati recapiti definito.
 
-Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di soppressione per escludere specifici indirizzi e-mail e/o domini dall’invio.
+Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di eliminazione per escludere specifici indirizzi e-mail e/o domini dall’invio.
 
 >[!NOTE]
 >
->Può richiedere fino a 60 minuti per [!DNL Journey Optimizer] tenere conto degli indirizzi soppressi nelle e-mail in uscita.
+>Possono essere necessari fino a 60 minuti per [!DNL Journey Optimizer] per tenere conto degli indirizzi soppressi nelle e-mail in uscita.
 
 È possibile aggiungere indirizzi e-mail o domini [uno alla volta](#add-one-address-or-domain) oppure [in blocco](#upload-csv-file) tramite il caricamento di un file CSV.
 
@@ -118,13 +118,13 @@ Tuttavia, puoi anche compilare manualmente il [!DNL Journey Optimizer] elenco di
 >title="Aggiungere un elemento all’elenco di soppressione"
 >abstract="Puoi popolare l’elenco di soppressione aggiungendo indirizzi e-mail e/o domini uno alla volta."
 
-Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, segui i passaggi seguenti:
+Per aggiungere un indirizzo e-mail o un dominio all’elenco di soppressione, effettua le seguenti operazioni:
 
-1. Seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** pulsante .
+1. Seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** pulsante.
 
    ![](assets/suppression-list-add-email.png)
 
-1. Scegli la **[!UICONTROL Uno ad uno]** opzione .
+1. Scegli la **[!UICONTROL Uno per uno]** opzione.
 
    ![](assets/suppression-list-add-email-address.png)
 
@@ -136,9 +136,9 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, se
    >
    >Assicurati di inserire un indirizzo e-mail valido (ad esempio abc@company.com) o un dominio (ad esempio abc.company.com).
 
-1. (Facoltativo) Immetti un motivo. In questo campo sono consentiti tutti i caratteri ASCII stampabili compresi tra 32 e 126.
+1. (facoltativo) Inserisci un motivo. In questo campo sono consentiti tutti i caratteri ASCII stampabili compresi tra 32 e 126.
 
-1. Utilizza la **[!UICONTROL Invia]** per confermare.
+1. Utilizza il **[!UICONTROL Invia]** per confermare.
 
 ### Caricare un file CSV {#upload-csv-file}
 
@@ -147,10 +147,10 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di eliminazione, se
 >title="Caricare un CSV per aggiungere elementi all’elenco di soppressione"
 >abstract="Puoi popolare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail e i domini da escludere."
 
-Per aggiungere un gruppo di indirizzi e-mail o un gruppo di domini all’elenco di eliminazione, segui i passaggi seguenti:
+Per aggiungere un gruppo di indirizzi e-mail o un dominio all’elenco di soppressione, effettua le seguenti operazioni:
 
-1. Seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** pulsante .
-1. Scegli la **[!UICONTROL Carica CSV]** opzione .
+1. Seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** pulsante.
+1. Scegli la **[!UICONTROL Carica CSV]** opzione.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -162,7 +162,7 @@ Per aggiungere un gruppo di indirizzi e-mail o un gruppo di domini all’elenco 
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Compila il modello CSV con gli indirizzi e-mail e/o i domini da aggiungere all’elenco di soppressione. Tutti i caratteri stampabili ASCII compresi tra 32 e 126 sono consentiti nella variabile **COMMENTO** colonna.
+1. Inserisci nel modello CSV gli indirizzi e-mail e/o i domini da aggiungere all’elenco di soppressione. Tutti i caratteri stampabili ASCII compresi tra 32 e 126 sono consentiti nel **COMMENTO** colonna.
 
    >[!CAUTION]
    >
@@ -170,15 +170,15 @@ Per aggiungere un gruppo di indirizzi e-mail o un gruppo di domini all’elenco 
    >
    >La dimensione del file non deve superare 1 MB.
 
-1. Una volta completato, trascina e rilascia il file CSV e utilizza il **[!UICONTROL Invia]** per confermare.
+1. Al termine, trascina e rilascia il file CSV e utilizza **[!UICONTROL Invia]** per confermare.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Al termine del caricamento, puoi controllarne lo stato dal [Caricamenti recenti](#recent-uploads) , come descritto di seguito.
+Al termine del caricamento, puoi controllarne lo stato da [Caricamenti recenti](#recent-uploads) come descritto di seguito.
 
-### Verifica lo stato dei caricamenti {#recent-uploads}
+### Verifica stato dei caricamenti {#recent-uploads}
 
-Utilizza la **[!UICONTROL Caricamenti recenti]** per controllare lo stato degli ultimi file CSV caricati.
+Utilizza il **[!UICONTROL Caricamenti recenti]** per controllare lo stato degli ultimi file CSV caricati.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
@@ -194,7 +194,7 @@ In tal caso, una volta completato il caricamento, viene associato a un rapporto.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
-Di seguito è riportato un esempio del tipo di voci che si possono trovare nel rapporto di errore:
+Di seguito è riportato un esempio del tipo di voci che è possibile trovare nel rapporto errori:
 
 ```
 type,value,comments,failureReason
@@ -206,32 +206,32 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
-## Rimuovere un indirizzo dall&#39;elenco di soppressione{#remove-from-suppression-list}
+## Rimuovere un indirizzo dall’elenco di soppressione{#remove-from-suppression-list}
 
-È possibile aggiornare manualmente l’elenco di soppressione. La rimozione di un indirizzo e-mail dalla quarantena è un’operazione sensibile e può influenzare i tassi di reputazione e recapito dei dati IP. Assicurati di procedere con cautela.
+È possibile aggiornare manualmente l’elenco di soppressione. La rimozione di un indirizzo e-mail dalla quarantena è un’operazione delicata e può influire sulla reputazione dell’IP e sulle percentuali di recapito messaggi. Assicurati di procedere con cautela.
 
-Quando si elimina un indirizzo e-mail o un dominio dall’elenco di eliminazione, Adobe Journey Optimizer può iniziare di nuovo a consegnare a questo indirizzo o dominio.  Ulteriori informazioni sul recapito messaggi in [questa sezione](../reports/deliverability.md).
+Quando elimini un indirizzo e-mail o un dominio dall’elenco di soppressione, Adobe Journey Optimizer può ricominciare a consegnare a questo indirizzo o dominio.  Ulteriori informazioni sul recapito messaggi in [questa sezione](../reports/deliverability.md).
 
-Per rimuovere un indirizzo dall&#39;elenco di soppressione, utilizzare il **[!UICONTROL Elimina]** pulsante .
+Per rimuovere un indirizzo dall’elenco di soppressione, utilizza **[!UICONTROL Elimina]** pulsante.
 
 ![](assets/suppression-list-delete.png)
 
 
 >[!NOTE]
 >
->Procedi con molta attenzione quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbio, contatta un esperto di recapito.
+>Procedi con ulteriore cautela quando consideri di eliminare qualsiasi indirizzo e-mail o dominio. In caso di dubbi, contatta un esperto di consegna.
 
-Ad esempio, nel caso di un’interruzione di Internet Service Provider (ISP), le e-mail vengono erroneamente contrassegnate come messaggi non recapitati perché non possono essere recapitate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
+Ad esempio, in caso di interruzione del servizio di un provider di servizi Internet (ISP), le e-mail vengono erroneamente contrassegnate come mancati recapiti permanenti perché non possono essere consegnate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
 Per recuperare tali indirizzi, esegui una query specifica con parametri personalizzati, in base al contesto dell’interruzione. [Per ulteriori informazioni, consulta questa pagina](../data/datasets-query-examples.md#isp-outage-query).
 
-Una volta identificati gli indirizzi e-mail interessati, filtra l’elenco di soppressione per visualizzarli. Ad esempio, se si è verificata un’interruzione dell’ISP dall’11 novembre 2022 al 13 novembre 2022 sul **test.com** , filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
+Una volta identificati gli indirizzi e-mail interessati, filtra l’elenco di soppressione per visualizzarli. Ad esempio, in caso di interruzione del servizio ISP dall’11 novembre 2022 al 13 novembre 2022 sulla **test.com** dominio, filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
 ![](assets/remove-from-supp-list.png)
 
-Puoi quindi rimuovere gli indirizzi e-mail messi in quarantena dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante .
+Puoi quindi rimuovere gli indirizzi e-mail in quarantena dall’elenco di soppressione utilizzando **[!UICONTROL Elimina]** pulsante.
 
-## Scaricare l&#39;elenco di soppressione {#download-suppression-list}
+## Scaricare l’elenco di soppressione {#download-suppression-list}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -240,23 +240,23 @@ Puoi quindi rimuovere gli indirizzi e-mail messi in quarantena dall’elenco di 
 >abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
-Per esportare l’elenco di soppressione come file CSV, segui la procedura seguente:
+Per esportare l’elenco di soppressione come file CSV, effettua le seguenti operazioni:
 
-1. Seleziona la **[!UICONTROL Scarica CSV]** pulsante .
+1. Seleziona la **[!UICONTROL Scarica CSV]** pulsante.
 
    ![](assets/suppression-list-download-csv.png)
 
-1. Attendi che il file sia generato.
+1. Attendi che il file venga generato.
 
    ![](assets/suppression-list-download-generate.png)
 
    >[!NOTE]
    >
-   >Il tempo di download dipende dalla dimensione del file, ovvero dal numero di indirizzi nell’elenco di eliminazione.
+   >Il tempo di download dipende dalla dimensione del file, ovvero dal numero di indirizzi presenti nell’elenco di soppressione.
    >
-   >È possibile elaborare una richiesta di download alla volta per una data sandbox.
+   >È possibile elaborare una richiesta di download alla volta per una determinata sandbox.
 
-1. Una volta generato il file, riceverai una notifica. Fare clic sull&#39;icona della campana in alto a destra dello schermo per visualizzarla.
+1. Una volta generato il file, riceverai una notifica. Fai clic sull’icona a forma di campana in alto a destra dello schermo per visualizzarla.
 
 1. Fai clic sulla notifica stessa per scaricare il file.
 

@@ -1,6 +1,6 @@
 ---
 title: Creare un posizionamento
-description: I posizionamenti sono contenitori utilizzati per mostrare le offerte.
+description: I posizionamenti sono contenitori utilizzati per presentare le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Creare un posizionamento {#create-placement}
 
-Puoi creare un posizionamento effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Per creare un posizionamento, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -34,7 +34,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano i posizionamenti. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
@@ -58,7 +58,7 @@ curl -X POST \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del posizionamento appena creato, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza in passaggi successivi per aggiornare o eliminare il posizionamento. Puoi utilizzare il tuo posizionamento univoco `@id` in esercitazioni successive per creare decisioni, regole decisionali e offerte di fallback.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento appena creato, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare il posizionamento. Puoi utilizzare il tuo posizionamento univoco `@id` nelle esercitazioni successive per creare decisioni, regole di decisione e offerte di fallback.
 
 ```json
 {

@@ -19,17 +19,17 @@ ht-degree: 12%
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 
-Se il passaggio dispone di un’azione da elaborare, tali campi verranno aggiunti al payload dell’evento.
+Se il passaggio ha un’azione da elaborare, questi campi verranno aggiunti al payload dell’evento.
 
 ## actionID {#actionid-field}
 
-ID dell&#39;azione in corso di esecuzione.
+ID dell’azione in esecuzione.
 
 Tipo: stringa
 
 ## actionName {#actionname-field}
 
-Nome dell’azione. Se non è stato impostato alcun nome, viene eseguito stepName.
+Nome dell’azione. Se non è stato impostato alcun nome, verrà utilizzato stepName.
 
 Tipo: stringa
 
@@ -39,44 +39,44 @@ Tipo di azione.
 
 Tipo: stringa
 
-## actionParameter {#actionparameterized-field}
+## actionParameterized {#actionparameterized-field}
 
-Indica se l’azione è parametrizzata o meno.
+Indica se l&#39;azione è parametrizzata o meno.
 
 Tipo: booleano
 
 ## actionExecutionTime {#actionexecutiontime-field}
 
-Il tempo (in millisecondi) impiegato per eseguire un&#39;azione corrente.
+Tempo (in millisecondi) impiegato per eseguire un&#39;azione corrente.
 
 Tipo: long
 
 ## actionExecutionError {#actionexecutionerror-field}
 
-Tipo di errore che si verifica quando viene chiamata l&#39;azione.
+Tipo di errore che si verifica quando viene chiamata l’azione.
 
 Tipo: stringa
 
 Valori:
 * http
-* tappatura
+* limite
 * timeout
 * error
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
-Errore di esecuzione del codice per l&#39;azione. Presente se l&#39;errore ha un codice, ad esempio uno HTTP.
+Codice per l’errore di esecuzione dell’azione. Presente se l’errore ha un codice, ad esempio HTTP.
 
 Tipo: stringa
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
-Può verificarsi un timeout, in due casi:
+Può verificarsi un timeout in due casi:
 
-* al primo tentativo viene eseguita un&#39;azione. In questo caso, l&#39;esecuzione non è completata, quindi non vi è alcun errore sottostante
-* in un nuovo tentativo: in questo caso, actionExecOrigError/actionExecOrigErrorCode descrive l&#39;errore rilevato nel tentativo prima del nuovo tentativo.
+* al primo tentativo viene eseguita un’azione. In questo caso, l’esecuzione non è terminata, quindi non si verifica alcun errore sottostante
+* in caso di nuovo tentativo: in questo caso, actionExecOrigError/actionExecOrigErrorCode descrive l’errore riscontrato nel tentativo prima del nuovo tentativo.
 
-Ad esempio, viene inviata un’e-mail e al primo tentativo viene restituito un errore HTTP 500. Il recupero viene ritentato, ma la durata dei 2 tentativi supera il timeout. Quindi l’esecuzione dell’azione viene taggata come timeout. La parte azione avrà un aspetto simile al seguente:
+Ad esempio, viene inviato un messaggio e-mail e al primo tentativo viene restituito un errore HTTP 500. Il recupero viene ritentato, ma la durata dei 2 tentativi supera il timeout. Quindi l’esecuzione dell’azione viene taggata come timeout. La parte azione sarà simile alla seguente:
 
 ```
     ...
@@ -93,7 +93,7 @@ Tipo: stringa
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
-Codice di errore dell&#39;actionExecOrigError.
+Codice di errore di actionExecOrigError.
 
 Tipo: stringa
 
@@ -103,7 +103,7 @@ Indica il tipo di azione.
 
 Valori:
 
-* costruzione
+* builtin
 * E-mail ACS
 * SMS ACS
 * Push ACS
@@ -115,24 +115,24 @@ Tipo: stringa
 
 ## deliveryJobID {#deliveryjobid-field}
 
-Questo descrive l’ID del processo di consegna per il Percorso batch.
+Descrive l’ID del processo di consegna per il Percorso batch.
 
 Tipo: stringa
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
-Questo descrive l’ID di consegna per il Percorso batch.
+Descrive l’ID di consegna per il Percorso batch.
 
 Tipo: stringa
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
-Questo descrive se il Percorso batch viene attivato dal segmento di pubblico.
+Descrive se il Percorso batch viene attivato dal segmento di pubblico.
 
 Tipo: booleano
 
 ## actionSchedulerCount {#actionschedulercount-field}
 
-Numero di richieste di notifica del programmatore inviate al servizio di pianificazione durante l&#39;elaborazione dei passaggi.
+Numero di richieste di notifica del modulo di pianificazione inviate al servizio di pianificazione durante l&#39;elaborazione del passaggio.
 
 Tipo: long

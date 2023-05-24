@@ -15,14 +15,14 @@ ht-degree: 11%
 
 # Accedere al catalogo delle offerte esportato {#access-exported-catalog}
 
-Il catalogo delle offerte esportato è accessibile in Adobe Experience Platform **[!UICONTROL Set di dati]** menu. Viene creato un set di dati per ogni oggetto della Libreria offerte.
+Il catalogo delle offerte esportato è accessibile in Adobe Experience Platform **[!UICONTROL Set di dati]** menu. Viene creato un set di dati per ogni oggetto della Libreria di offerte.
 
 ![](../assets/datasets-list.png)
 
 Fai clic su un set di dati per accedere ai relativi dettagli.
 
-La **[!UICONTROL Anteprima set di dati]** consente di visualizzare il batch di successo più recente nel set di dati.
+Il **[!UICONTROL Anteprima set di dati]** consente di visualizzare il batch con esito positivo più recente nel set di dati.
 
 ![](../assets/dataset-activity.png)
 
-Per ulteriori informazioni su come consultare e utilizzare i set di dati, consulta [questa pagina](../../data/get-started-datasets.md).
+Per ulteriori informazioni su come sfogliare e utilizzare i set di dati, consulta [questa pagina](../../data/get-started-datasets.md).

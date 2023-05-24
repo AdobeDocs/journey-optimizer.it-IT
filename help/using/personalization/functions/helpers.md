@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valore di fallback predefinito{#default-value}
 
-La `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi di profilo e gli eventi di Percorso.
+Il `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi del profilo e gli eventi di Percorso.
 
 **Sintassi**
 
@@ -29,8 +29,8 @@ In questo esempio, il valore `there` viene visualizzato se `firstName` l&#39;att
 
 ## Condizioni{#if-function}
 
-La `if` helper viene utilizzato per definire un blocco condizionale.
-Se la valutazione dell’espressione restituisce true, il blocco viene sottoposto a rendering in caso contrario viene ignorato.
+Il `if` helper viene utilizzato per definire un blocco condizionale.
+Se la valutazione dell’espressione restituisce true, il blocco viene renderizzato, altrimenti viene saltato.
 
 **Sintassi**
 
@@ -39,8 +39,8 @@ Se la valutazione dell’espressione restituisce true, il blocco viene sottopost
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Seguendo `if` helper, puoi inserire un `else` istruzione per specificare un blocco di codice da eseguire, se la stessa condizione è falsa.
-La `elseif` specifica una nuova condizione per eseguire il test se la prima istruzione restituisce false.
+Dopo il `if` helper, puoi immettere un `else` per specificare un blocco di codice da eseguire, se la stessa condizione è false.
+Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se la prima istruzione restituisce false.
 
 
 **Formato**
@@ -58,7 +58,7 @@ La `elseif` specifica una nuova condizione per eseguire il test se la prima istr
 
 **Esempi**
 
-1. **Eseguire il rendering di diversi collegamenti all’archivio in base a espressioni condizionali**
+1. **Eseguire il rendering di diversi collegamenti store in base alle espressioni condizionali**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -82,7 +82,7 @@ La `elseif` specifica una nuova condizione per eseguire il test se la prima istr
 
 1. **Aggiungere un collegamento condizionale**
 
-   La seguente operazione aggiunge un collegamento al sito web &quot;www.adobe.com/academia&#39;&quot; per i profili con solo indirizzi e-mail &quot;.edu&quot;, al sito web &quot;www.adobe.com/org&#39; per profili con indirizzi e-mail &quot;.org&quot; e all’URL predefinito &quot;www.adobe.com/users&#39;&quot; per tutti gli altri profili:
+   La seguente operazione aggiungerà un collegamento al sito Web &quot;www.adobe.com/academia&#39;&quot; solo per i profili con indirizzi e-mail &quot;edu&quot;, al sito Web &quot;www.adobe.com/org&#39;&quot; per i profili con indirizzi e-mail &quot;org&quot; e all’URL predefinito &quot;www.adobe.com/users&#39;&quot; per tutti gli altri profili:
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ La `elseif` specifica una nuova condizione per eseguire il test se la prima istr
    {%/if%}
    ```
 
-1. **Contenuto condizionale in base all’appartenenza al segmento**
+1. **Contenuto condizionale basato sull’iscrizione al segmento**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ La `elseif` specifica una nuova condizione per eseguire il test se la prima istr
 
 >[!NOTE]
 >
->Per ulteriori informazioni sul servizio di segmentazione e segmentazione, consulta questo [sezione](../../segment/about-segments.md).
+>Per ulteriori informazioni sulla segmentazione e sul servizio di segmentazione, consulta questa pagina [sezione](../../segment/about-segments.md).
 
 
 ## A meno che{#unless}
 
-La `unless` helper viene utilizzato per definire un blocco condizionale. In opposizione al `if`  helper, se la valutazione dell&#39;espressione restituisce false, viene eseguito il rendering del blocco.
+Il `unless` helper viene utilizzato per definire un blocco condizionale. In opposizione alla proposta `if`  helper, se la valutazione dell’espressione restituisce false, viene eseguito il rendering del blocco.
 
 **Sintassi**
 
@@ -133,9 +133,9 @@ Some edu specific content Content
 
 ## Ogni{#each}
 
-La `each` helper viene utilizzato per eseguire iterazioni su un array.
-La sintassi dell&#39;helper è ```{{#each ArrayName}}``` YourContent {{/each}}
-Possiamo fare riferimento ai singoli elementi dell’array utilizzando la parola chiave **questo** all&#39;interno del blocco. L’indice dell’elemento dell’array può essere rappresentato utilizzando {{@index}}.
+Il `each` helper viene utilizzato per eseguire iterazioni su un array.
+La sintassi dell’helper è ```{{#each ArrayName}}``` Contenuto {{/each}}
+È possibile fare riferimento ai singoli elementi array utilizzando la parola chiave **questo** all&#39;interno del blocco. È possibile eseguire il rendering dell’indice dell’elemento dell’array utilizzando {{@index}}.
 
 **Sintassi**
 
@@ -156,7 +156,7 @@ Possiamo fare riferimento ai singoli elementi dell’array utilizzando la parola
 
 **Esempio**
 
-Esegui il rendering di un elenco di prodotti di cui dispone questo utente nel carrello:
+Esegui il rendering di un elenco di prodotti che questo utente ha nel carrello:
 
 ```sql
 {{#each profile.products as |product|}}
@@ -167,7 +167,7 @@ Esegui il rendering di un elenco di prodotti di cui dispone questo utente nel ca
 
 ## Con{#with}
 
-La `with` helper viene utilizzato per modificare il token di valutazione della parte modello.
+Il `with` helper viene utilizzato per modificare il token di valutazione della parte modello.
 
 **Sintassi**
 
@@ -177,11 +177,11 @@ La `with` helper viene utilizzato per modificare il token di valutazione della p
 {{/with}}
 ```
 
-La `with` helper è utile per definire anche una variabile di scelta rapida.
+Il `with` helper è utile anche per definire una variabile di scelta rapida.
 
 **Esempio**
 
-Utilizzare con per assegnare i nomi di variabili lunghe a nomi più brevi:
+Da utilizzare con per l’aliasing di nomi di variabili lunghi a nomi più brevi:
 
 ```sql
 {{#with profile.person.name as |name|}}
@@ -190,9 +190,9 @@ Utilizzare con per assegnare i nomi di variabili lunghe a nomi più brevi:
 {{/with}}
 ```
 
-## Lasciare{#let}
+## Let{#let}
 
-La `let` consente di memorizzare un&#39;espressione come variabile da utilizzare successivamente in una query.
+Il `let` consente di memorizzare un’espressione come variabile da utilizzare successivamente in una query.
 
 **Sintassi**
 
@@ -202,7 +202,7 @@ La `let` consente di memorizzare un&#39;espressione come variabile da utilizzare
 
 **Esempio**
 
-L&#39;esempio seguente consente a tutte le somme dei totali di prodotto con la transazione in USD se la somma è maggiore di $100 e inferiore a $1000.
+L&#39;esempio seguente consente di calcolare tutte le somme dei totali dei prodotti con la transazione in USD se la somma è maggiore di 100 $ e minore di 1000 $.
 
 ```sql
 {% let variable = expression %} {{variable}}

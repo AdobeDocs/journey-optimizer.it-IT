@@ -1,6 +1,6 @@
 ---
-title: Mappa la libreria delle funzioni
-description: Mappa la libreria delle funzioni
+title: Libreria funzioni mappe
+description: Libreria funzioni mappe
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,13 +13,13 @@ ht-degree: 6%
 
 ---
 
-# Funzioni Mappe{#maps}
+# Funzioni mappe{#maps}
 
 Utilizza le funzioni Mappa nella personalizzazione per semplificare l’interazione con le mappe.
 
 ## Ottenere{#get}
 
-La `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
+Il `get` La funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
 
 **Sintassi**
 
@@ -37,7 +37,7 @@ L&#39;operazione seguente ottiene il valore della mappa di identità per la chia
 
 ## Chiavi{#keys}
 
-La `keys` viene utilizzata per recuperare tutte le chiavi di una determinata mappa.
+Il `keys` La funzione viene utilizzata per recuperare tutte le chiavi per una data mappa.
 
 **Sintassi**
 
@@ -55,7 +55,7 @@ L&#39;operazione seguente ottiene tutte le chiavi per la mappa `identityMap`.
 
 ## Valori{#values}
 
-La `values` viene utilizzata per recuperare tutti i valori di una data mappa.
+Il `values` Questa funzione viene utilizzata per recuperare tutti i valori di una data mappa.
 
 **Sintassi**
 

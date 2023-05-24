@@ -15,7 +15,7 @@ ht-degree: 67%
 
 # Accedere ai campi XDM degli eventi {#decisioningevents-xdm-schema}
 
-Puoi accedere allo schema XDM DecisioningEvents direttamente da un set di dati contenente gli eventi di Gestione decisioni.
+Puoi accedere allo schema XDM DecisioningEvents direttamente da un set di dati contenente eventi di Gestione delle decisioni.
 
 ![](../assets/access-schema.png)
 

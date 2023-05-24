@@ -1,6 +1,6 @@
 ---
-title: Cerca un qualificatore di raccolta
-description: I qualificatori di raccolta consentono di organizzare e ordinare meglio le offerte.
+title: Cercare un qualificatore di raccolta
+description: I qualificatori di raccolta ti consentono di organizzare e ordinare meglio le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Cerca un qualificatore di raccolta {#look-up-tag}
+# Cercare un qualificatore di raccolta {#look-up-tag}
 
-Puoi cercare specifici qualificatori di raccolta (noti in precedenza come &quot;tag&quot;) effettuando una richiesta di GET al [!DNL Offer Library] API che include il qualificatore della raccolta `@id` o il nome del qualificatore della raccolta nel percorso della richiesta.
+Per cercare qualificatori di raccolta specifici (noti in precedenza come &quot;tag&quot;), invia una richiesta GET al [!DNL Offer Library] API che include il qualificatore di raccolta `@id` o il nome del qualificatore di raccolta nel percorso della richiesta.
 
 **Formato API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano i qualificatori della raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definisce lo schema associato ai qualificatori della raccolta. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:tag:124e147572cd7866` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Holiday sales and promotions` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenitore in cui si trovano i qualificatori di raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Definisce lo schema associato ai qualificatori di raccolta. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:tag:124e147572cd7866` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Holiday sales and promotions` |
 
 **Richiesta**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del qualificatore della raccolta, incluse informazioni sull’ID contenitore, l’ID istanza e il qualificatore della raccolta univoco `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del qualificatore di raccolta, incluse le informazioni sull’ID contenitore, l’ID istanza e il qualificatore di raccolta univoco `@id`.
 
 ```json
 {

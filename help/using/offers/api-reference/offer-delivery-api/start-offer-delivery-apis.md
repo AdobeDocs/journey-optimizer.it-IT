@@ -1,6 +1,6 @@
 ---
 title: Introduzione alla consegna delle offerte tramite API
-description: Ulteriori informazioni sulle API disponibili per distribuire offerte personalizzate.
+description: Ulteriori informazioni sulle API disponibili per distribuire le offerte personalizzate.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,45 +15,45 @@ ht-degree: 6%
 
 # Introduzione alla consegna delle offerte tramite API {#about-decisioning-apis}
 
-Puoi fornire offerte utilizzando **Decisioni** o **Edge Decisioning** API. Inoltre, la **Decisioni in batch** L’API ti consente di offrire a tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform, dove è disponibile per flussi di lavoro batch personalizzati.
+Puoi distribuire le offerte utilizzando **Decisioning** o **Edge Decisioning** API. Inoltre, il **Batch Decisioning** API ti consente di fornire offerte a tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
 
-In questa pagina trovi informazioni su funzionalità specifiche disponibili con la **Decisioni** e **Edge Decisioning** API. Sebbene entrambi consentano di fornire offerte ai clienti, si consiglia di utilizzare **Edge Decisioning** API ogni volta che è possibile per i casi di utilizzo in entrata e per garantire una maggiore latenza e velocità effettiva sulla piattaforma.
+In questa pagina trovi informazioni su funzionalità specifiche disponibili con **Decisioning** e **Edge Decisioning** API. Sebbene entrambi consentano di offrire offerte ai clienti, si consiglia di utilizzare **Edge Decisioning** Se possibile, API per casi di utilizzo in entrata e per garantire una migliore latenza e velocità effettiva sulla piattaforma.
 
 |  | Richieste/sec | Latenza |
 |---|---|---|
 | API Decisioning | 2000 | &lt;500 ms |
 | API Edge Decisioning | 5000 | &lt;250 ms |
 
-Per ulteriori informazioni su come utilizzare le API, consulta queste sezioni:
+Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguenti:
 * [API Decisioning](decisioning-api.md)
 * [API Edge Decisioning](edge-decisioning-api.md)
 * [API Batch Decisioning](batch-decisioning-api.md)
 
 ## Funzionalità API di Edge Decisioning {#edge}
 
-**Richiesta univoca per eventi di esperienza e richieste di decisione**
+**Richiesta univoca per eventi di esperienza e richieste di decisioni**
 
-Con l’API Edge Decisioning, puoi inviare una sola richiesta all’evento esperienza stesso insieme alla richiesta decisionale, anziché due richieste diverse.
+Con l’API Edge Decisioning, puoi inviare in un’unica richiesta l’evento esperienza stesso insieme alla richiesta decisioning, anziché avere due richieste diverse.
 
-Ad esempio, se un cliente visita il tuo sito web, la richiesta includerà l’evento esperienza (la visita del cliente alla pagina) e riceverà un’offerta per compilare nuovamente la pagina visitata.
+Ad esempio, se un cliente visita il tuo sito web, la richiesta includerà l’evento esperienza (la visita del cliente alla pagina) e otterrà nuovamente un’offerta per popolare la pagina visitata.
 
 **Archiviazione dei dati contestuali in Adobe Experience Platform**
 
-I dati contestuali si riferiscono ai dati che conosci solo al momento in cui vuoi recuperare un’offerta. Ad esempio, il colore dell’articolo acquistato, il tempo al momento dell’acquisto, ecc.
+I dati contestuali si riferiscono a dati che si conoscono solo al momento in cui si desidera che venga restituita un’offerta. Ad esempio, il colore dell’articolo acquistato, il tempo al momento dell’acquisto, ecc.
 
-Quando si trasmettono dati contestuali con una richiesta API di Edge Decisioning, questi vengono memorizzati nel profilo Adobe Experience Platform, consentendo un riutilizzo futuro.
+Quando si trasmettono dati contestuali con una richiesta API Edge Decisioning, i dati vengono memorizzati nel profilo di Adobe Experience Platform, consentendo un riutilizzo futuro.
 
 >[!NOTE]
 >
->Per memorizzare i dati contestuali, devi disporre di uno schema XDM dedicato.
+>Per memorizzare i dati contestuali, è necessario configurare uno schema XDM dedicato.
 
-## Decisioni delle funzionalità API {#decisioning}
+## Funzionalità API di decisioning {#decisioning}
 
-Le funzionalità elencate di seguito sono disponibili solo con l’API Decisioning. Se devi sfruttare uno di questi per soddisfare i tuoi requisiti, utilizza l’API Decisioning. In caso contrario, si consiglia di utilizzare le API di Edge Decisioning.
+Le funzionalità elencate di seguito sono disponibili solo con l’API Decisioning. Se devi sfruttarne una per soddisfare le tue esigenze, utilizza l’API Decisioning. In caso contrario, consigliamo di utilizzare le API Edge Decisioning.
 
-* **Eventi di esperienza**: sfrutta gli eventi di esperienza per creare le regole decisionali.
+* **Eventi esperienza**: sfrutta gli eventi di esperienza per creare regole decisionali.
 * **Contenuto e caratteristiche dell’offerta**: puoi scegliere di non restituire il contenuto e le caratteristiche di un’offerta utilizzando un’opzione dedicata.
-* **Metadati delle offerte**: abilita un’opzione per restituire i metadati di un’offerta.
-* **Criteri di unione**: utilizza nella richiesta un criterio di unione diverso da quello associato alla sandbox.
-* **Decisioni degli eventi e limiti di frequenza**: impedire che gli eventi decisionali vengano conteggiati da qualsiasi limite di frequenza che si verifica.
-* **Proposte duplicate**: abilitare un&#39;opzione per non deduplicare le proposizioni.
+* **Metadati offerta**: abilita un’opzione per restituire i metadati di un’offerta.
+* **Criterio di unione**: utilizza nella richiesta un criterio di unione diverso da quello associato alla sandbox.
+* **Eventi decisionali e quota limite**: gli eventi di blocco delle decisioni non vengono conteggiati da alcun limite di frequenza che si verifica.
+* **Proposte duplicate**: abilita un’opzione per non deduplicare le proposte.

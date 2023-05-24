@@ -16,7 +16,7 @@ ht-degree: 15%
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-Converte un valore di argomento in un valore solo di data e ora.
+Converte un valore di argomento in un valore di sola data e ora.
 
 ## Categoria
 
@@ -30,8 +30,8 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato XDM Data) | string |
-| ora | dateTime |
+| data e ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato data XDM) | string |
+| data e ora | dateTime |
 
 ## Firme e tipi restituiti
 
@@ -41,7 +41,7 @@ Conversione
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-Restituisce un datetime senza considerare il fuso orario.
+Restituisce un valore datetime senza considerare il fuso orario.
 
 ## Esempi
 

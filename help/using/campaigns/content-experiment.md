@@ -11,11 +11,11 @@ keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informativo"
+badge: label="Beta" type="Informative"
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1145'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -38,26 +38,26 @@ Cosa troverai in questa documentazione:
 
 >[!ENDSHADEBOX]
 
-L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale funziona meglio per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
+L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
 
 >[!NOTE]
 >
->Prima di iniziare con Esperienza di contenuto, assicurati che la configurazione di reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
+>Prima di iniziare con Content Experiment, assicurati che la configurazione del reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
 
-Nell’esempio seguente, il target di consegna è stato suddiviso in due gruppi, ognuno dei quali rappresenta il 45% della popolazione target e un gruppo di blocchi del 10%, che non riceverà la consegna.
+Nell’esempio seguente, l’obiettivo di consegna è stato suddiviso in due gruppi, ciascuno dei quali rappresenta il 45% della popolazione target e un gruppo di riserva del 10%, che non riceverà la consegna.
 
-Ogni persona nel pubblico di destinazione riceverà una versione di un’e-mail, con un oggetto che corrisponde a una delle due seguenti:
+Ogni persona nel pubblico di destinazione riceverà una versione di un’e-mail, con un oggetto che corrisponde a uno dei due seguenti:
 
-* uno che promuove direttamente un’offerta del 10% sulla nuova collezione e un’immagine.
-* l&#39;altro pubblicizza solo un&#39;offerta speciale senza specificare il 10% di sconto senza alcuna immagine.
+* uno promuove direttamente un’offerta del 10% sulla nuova collezione e un’immagine.
+* l&#39;altra si limita a pubblicizzare un&#39;offerta speciale senza specificare il 10% di sconto senza alcuna immagine.
 
-L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail a seconda dell’esperimento ricevuto. Pertanto sceglieremo **[!UICONTROL Aperture e-mail]** come metrica di obiettivo principale in questo esperimento di contenuto.
+L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seconda dell’esperimento ricevuto. Pertanto sceglieremo **[!UICONTROL Aperture e-mail]** come metrica di obiettivo principale in questo esperimento sui contenuti.
 
 ![](assets/content_experiment.png)
 
 ## Creare la campagna {#campaign-experiment}
 
-1. Da **[!UICONTROL Campagne]** pagina, fai clic su **[!UICONTROL Creare una campagna]**.
+1. Dalla sezione **[!UICONTROL Campagne]** pagina, fai clic su **[!UICONTROL Crea campagna]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -70,75 +70,75 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
     
         To execute an API-triggered campaign, you will need to make an API call. [Learn more](api-triggered-campaigns.md)
 -->
-1. Seleziona il canale e quindi il **[!UICONTROL Superficie]** desideri utilizzare per questa consegna e fai clic su **[!UICONTROL Crea]**. Per ulteriori informazioni, consulta la sezione [Superfici dei canali](../configuration/channel-surfaces.md) pagina.
+1. Seleziona il tuo canale e quindi **[!UICONTROL Superficie]** desideri utilizzare per questa consegna e fai clic su **[!UICONTROL Crea]**. Per ulteriori informazioni, consulta [Superfici di canale](../configuration/channel-surfaces.md) pagina.
 
    ![](assets/content_experiment_2.png)
 
-1. Imposta la **[!UICONTROL Proprietà]** della consegna:
+1. Configurare **[!UICONTROL Proprietà]** della consegna:
    * **[!UICONTROL Nome]**
    * **[!UICONTROL Descrizione]**
 
-1. Definisci il pubblico di cui eseguire il targeting. A questo scopo, fai clic sul pulsante **[!UICONTROL Selezionare il pubblico]** per visualizzare l’elenco dei segmenti Adobe Experience Platform disponibili. [Ulteriori informazioni sui segmenti](../segment/about-segments.md)
+1. Definisci il pubblico di destinazione. A questo scopo, fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei segmenti di Adobe Experience Platform disponibili. [Ulteriori informazioni sui segmenti](../segment/about-segments.md)
 
-   In **[!UICONTROL Spazio dei nomi identità]** scegli lo spazio dei nomi da utilizzare per identificare gli individui del segmento selezionato. [Ulteriori informazioni](get-started-experiment.md#content-experiment-work)
+   In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato. [Ulteriori informazioni](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 
-1. In **[!UICONTROL Tracciamento delle azioni]** specifica se desideri tenere traccia delle reazioni dei destinatari alla consegna: puoi tenere traccia dei clic e/o delle aperture.
+1. In **[!UICONTROL Tracciamento delle azioni]** , specifica se desideri tenere traccia della reazione dei destinatari alla consegna: puoi tenere traccia dei clic e/o delle aperture.
 
-   I risultati del tracciamento saranno accessibili dal rapporto della campagna una volta che la campagna sarà stata eseguita.
+   I risultati del tracciamento saranno accessibili dal rapporto della campagna una volta eseguita la campagna.
 
-1. Per eseguire la campagna in una data specifica o con una frequenza ricorrente, configura la **[!UICONTROL Pianificazione]** sezione . [Ulteriori informazioni](create-campaign.md)
+1. Per eseguire la campagna in una data specifica o con una frequenza ricorrente, configura la **[!UICONTROL Pianificazione]** sezione. [Ulteriori informazioni](create-campaign.md)
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** per iniziare a personalizzare la consegna. [Ulteriori informazioni](../email/content-from-scratch.md)
+1. Clic **[!UICONTROL Modifica contenuto]** per iniziare a personalizzare la consegna. [Ulteriori informazioni](../email/content-from-scratch.md)
 
    ![](assets/content_experiment_17.png)
 
-1. Da **[!UICONTROL Modifica contenuto]** finestra, inizia a personalizzare il trattamento A.
+1. Dalla sezione **[!UICONTROL Modifica contenuto]** finestra, iniziare a personalizzare il trattamento A.
 
    Per questo trattamento, specificheremo l’offerta speciale direttamente nell’oggetto e aggiungeremo la personalizzazione.
 
    ![](assets/content_experiment_5.png)
 
-## Configurare l’esperimento sul contenuto {#configure-experiment}
+## Configurare l’esperimento sui contenuti {#configure-experiment}
 
-1. Quando la consegna è personalizzata, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
+1. Quando la consegna è stata personalizzata, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
 
    ![](assets/content_experiment_3.png)
 
-1. Seleziona la **[!UICONTROL Metrica di successo]** vuoi impostare l&#39;esperimento.
+1. Seleziona la **[!UICONTROL Metrica di successo]** desideri impostare per l’esperimento.
 
-   Per il nostro esperimento, selezioniamo **[!UICONTROL Apri e-mail]** per verificare se i destinatari aprono le loro e-mail se il codice promozionale si trova nella riga dell’oggetto.
+   Per il nostro esperimento, selezioniamo **[!UICONTROL E-mail aperta]** per verificare se i destinatari apriranno le e-mail se il codice promozionale è nella riga dell’oggetto.
 
    ![](assets/content_experiment_11.png)
 
-1. Fai clic su **[!UICONTROL Aggiungi trattamento]** creare il numero necessario di nuovi trattamenti.
+1. Clic **[!UICONTROL Aggiungi trattamento]** per creare il maggior numero di nuovi trattamenti necessario.
 
    ![](assets/content_experiment_8.png)
 
-1. Modificare la **[!UICONTROL Titolo]** del tuo trattamento per differenziarli meglio.
+1. Modificare il **[!UICONTROL Titolo]** del trattamento per differenziarli meglio.
 
-1. Scegli di aggiungere un **[!UICONTROL Holdout]** creare un gruppo per la consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
+1. Scegli di aggiungere una **[!UICONTROL Blocco]** raggruppa per la consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
 
-   Se si attiva la barra di attivazione, la percentuale della popolazione sarà automaticamente pari al 10%. Se necessario, è possibile regolare questa percentuale.
+   Se passi alla barra di attivazione, riceverai automaticamente il 10% della tua popolazione; se necessario puoi regolare questa percentuale.
 
    ![](assets/content_experiment_12.png)
 
-1. È quindi possibile scegliere di allocare una percentuale precisa a ogni **[!UICONTROL Trattamento]** o semplicemente accendere **[!UICONTROL Distribuisci uniformemente]** barra di attivazione/disattivazione.
+1. Puoi quindi scegliere di allocare una percentuale precisa a ciascuno **[!UICONTROL Trattamento]** o semplicemente accendere il **[!UICONTROL Distribuisci uniformemente]** barra di selezione.
 
    ![](assets/content_experiment_13.png)
 
-1. Fai clic su **[!UICONTROL Crea]** quando la configurazione è impostata.
+1. Clic **[!UICONTROL Crea]** quando la configurazione è impostata.
 
 ## Progettare i trattamenti {#treatment-experiment}
 
-1. Da **[!UICONTROL Modifica contenuto]** selezionare il trattamento B per modificare il contenuto.
+1. Dalla sezione **[!UICONTROL Modifica contenuto]** finestra, selezionare il trattamento B per modificare il contenuto.
 
-   In questo caso, scegliamo di non specificare l’offerta nel **[!UICONTROL Linea oggetto]**.
+   In questo caso, scegliamo di non specificare l’offerta nel **[!UICONTROL Oggetto]**.
 
    ![](assets/content_experiment_18.png)
 
-1. Fai clic su **[!UICONTROL Modifica corpo del messaggio e-mail]** per personalizzare ulteriormente il tuo trattamento B.
+1. Clic **[!UICONTROL Modifica corpo dell’e-mail]** per personalizzare ulteriormente il trattamento B.
 
    ![](assets/content_experiment_9.png)
 
@@ -146,41 +146,41 @@ L’obiettivo è quello di vedere se i destinatari interagiranno con l’e-mail 
 
    ![](assets/content_experiment_7.png)
 
-1. Se necessario, accedi al **[!UICONTROL Impostazioni dell’esperimento]** per modificare la configurazione dei trattamenti.
+1. Se necessario, accedi a **[!UICONTROL Impostazioni esperimento]** per modificare la configurazione dei trattamenti.
 
    ![](assets/content_experiment_19.png)
 
-1. Una volta definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per controllare il rendering della consegna e controllare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../email/preview.md)
+1. Una volta definito il contenuto del messaggio, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering della consegna e controllare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../email/preview.md)
 
-1. Quando l’esperimento sul contenuto è pronto, dalla pagina di riepilogo della campagna puoi fare clic su **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo della campagna. Gli avvisi vengono visualizzati se un parametro è errato o mancante.
+1. Quando l’esperimento sui contenuti è pronto, dalla pagina di riepilogo della campagna puoi fare clic su **[!UICONTROL Controlla per attivare]** per visualizzare un riepilogo della campagna. Gli avvisi vengono visualizzati se un parametro è errato o mancante.
 
    ![](assets/content_experiment_15.png)
 
-1. Verifica che la campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]** per lanciarlo.
+1. Verifica che la campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]** per avviarlo.
 
    ![](assets/content_experiment_14.png)
 
-Dopo aver configurato la sperimentazione e la campagna, puoi seguire il successo della consegna con il rapporto Campaign.
+Dopo aver configurato la sperimentazione e la campagna, puoi seguire il successo della consegna con il rapporto della campagna.
 
 ## Relazione sugli obiettivi {#objectives-global}
 
 >[!AVAILABILITY]
 >
->La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La funzione di esperimento sui contenuti è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ![](assets/performance_report.gif)
 
-La **[!UICONTROL Obiettivi]** la scheda del rapporto Campaign ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
+Il **[!UICONTROL Obiettivi]** del rapporto Campaign ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
 
-La **[!UICONTROL Obiettivi]** sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per recuperare informazioni aggiuntive. Un elenco di elementi incorporati **[!UICONTROL Obiettivi]** è disponibile ma puoi aggiungerne una nuova **[!UICONTROL Set di dati]**. Per la procedura dettagliata, consulta [sezione](reporting-configuration.md).
+Il **[!UICONTROL Obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. Elenco di elementi incorporati **[!UICONTROL Obiettivi]** è disponibile, ma puoi aggiungerne uno nuovo aggiungendo nuove **[!UICONTROL Set di dati]**. Per la procedura dettagliata, fare riferimento al seguente [sezione](reporting-configuration.md).
 
-Dopo aver selezionato gli obiettivi su cui eseguire il targeting, i due **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Obiettivo della campagna]** I widget forniscono un riepilogo dettagliato delle prestazioni di consegna.
+Dopo aver selezionato gli obiettivi di destinazione, i due **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Finalità della campagna]** I widget forniranno un riepilogo dettagliato delle prestazioni di consegna.
 
-Con la **[!UICONTROL Obiettivo della campagna]** widget, puoi anche scegliere di confrontare il tuo obiettivo principale con un&#39;altra metrica.
+Con il **[!UICONTROL Finalità della campagna]** widget, puoi anche scegliere di confrontare l’obiettivo principale con un’altra metrica.
 
-Tieni presente che ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questo [sezione](../reports/global-report.md#modify-dashboard).
+Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
 
-## Rapporto di sperimentazione {#experimentation-global}
+## Rapporto sulla sperimentazione {#experimentation-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
@@ -189,28 +189,28 @@ Tieni presente che ogni widget può essere ridimensionato ed eliminato, se neces
 
 >[!AVAILABILITY]
 >
->La funzione di esperimento del contenuto è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La funzione di esperimento sui contenuti è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ![](assets/experimentation_report_3.png)
 
-Dalla tua campagna **[!UICONTROL Report globale]**, **[!UICONTROL Sperimentazione]** scheda descrive le informazioni principali relative alle prestazioni di ogni variante e se è presente un performer migliore.
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Sperimentazione]** La scheda descrive le informazioni principali relative alle prestazioni di ogni variante e all’eventuale migliore prestazione.
 
-Tieni presente che la definizione dell’esecutore migliore potrebbe richiedere un po’ di tempo, sarà rappresentata da questa icona ![](assets/experimentation_report_1.png).
+La definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tempo, sarà rappresentata da questa icona ![](assets/experimentation_report_1.png).
 
-La **[!UICONTROL Risultato dell’esperimento]** Il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti dal **[!UICONTROL Linea]** il menu a discesa. Il miglior trattamento sarà rappresentato da un&#39;icona a forma di stella.
+Il **[!UICONTROL Risultato esperimento]** il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti tra **[!UICONTROL Linea di base]** il menu a discesa. Il miglior trattamento sarà rappresentato da un’icona a forma di stella.
 
 La tabella presenta le metriche seguenti:
 
-* **[!UICONTROL Profili]**: Numero di profili interessati da questo trattamento.
+* **[!UICONTROL Profili]**: numero di profili target per questo trattamento.
 
-* **[!UICONTROL Clic in uscita univoci]**: Numero totale di clic tra canali in uscita.
+* **[!UICONTROL Clic in uscita univoci]**: numero totale di clic tra i canali in uscita.
 
-* **[!UICONTROL Conteggio per profilo]**: Valore totale della metrica obiettivo Esperimento diviso per il numero di profili.
+* **[!UICONTROL Conteggio per profilo]**: valore totale della metrica di finalità dell’esperimento diviso per il numero di profili.
 
-* **[!UICONTROL Intervallo di affidabilità]**: Differenza percentuale di prestazioni tra la linea di base e il trattamento più performante. [Maggiori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
+* **[!UICONTROL Intervallo di affidabilità]**: differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Maggiori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
 
-* **[!UICONTROL Incremento medio]**: Miglioramento percentuale del tasso di conversione di un dato trattamento rispetto alla linea di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-lift)
+* **[!UICONTROL Incremento medio]**: miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-lift)
 
-* **[!UICONTROL Affidabilità]**: Prova che un dato trattamento è lo stesso del trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
 
 Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).

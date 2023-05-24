@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: lower
-description: Scopri la funzione di livello inferiore
+description: Scopri la funzione in basso
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: inferiore, funzione, espressione, percorso
+keywords: lower, function, expression, percorsi
 exl-id: 3514f505-f934-4425-acce-39b06de7373c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 20%
 
 # lower {#lower}
 
-Restituisce una versione in minuscolo del parametro .
+Restituisce una versione in minuscolo del parametro.
 
 ## Categoria
 

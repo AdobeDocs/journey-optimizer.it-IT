@@ -1,6 +1,6 @@
 ---
 title: Elencare posizionamenti
-description: I posizionamenti sono contenitori utilizzati per mostrare le offerte.
+description: I posizionamenti sono contenitori utilizzati per presentare le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,9 +15,9 @@ ht-degree: 12%
 
 # Elencare posizionamenti {#list-placements}
 
-I posizionamenti sono contenitori utilizzati per mostrare le offerte. Un posizionamento garantisce che il contenuto dell’offerta corretta sia visualizzato nella posizione giusta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
+I posizionamenti sono contenitori utilizzati per presentare le offerte. Il posizionamento garantisce che il contenuto dell’offerta corretta venga visualizzato nella posizione corretta all’interno del messaggio. Quando aggiungi contenuto a un’offerta, ti verrà chiesto di selezionare un posizionamento in cui visualizzare il contenuto.
 
-Puoi visualizzare un elenco di tutti i posizionamenti all’interno di un contenitore effettuando una singola richiesta di GET al [!DNL Offer Library] API.
+Per visualizzare un elenco di tutti i posizionamenti all’interno di un contenitore, esegui una singola richiesta GET al [!DNL Offer Library] API.
 
 **Formato API**
 
@@ -27,14 +27,14 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano i posizionamenti. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Definisce lo schema associato ai posizionamenti. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `{QUERY_PARAMS}` | Parametri di query opzionali per filtrare i risultati in base a. | `limit=2` |
+| `{QUERY_PARAMS}` | Parametri di query facoltativi in base ai quali filtrare i risultati. | `limit=2` |
 
 ## Utilizzo dei parametri di query {#using-query-parameters}
 
-Puoi utilizzare i parametri di query per sfogliare le pagine e filtrare i risultati durante l’elenco delle risorse.
+Puoi utilizzare i parametri di query per visualizzare e filtrare i risultati quando elenchi le risorse.
 
 ### Paging {#paging}
 
@@ -42,10 +42,10 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `q` | Una stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere circondata da virgolette doppie per evitare che venga token ed evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra inversa quando vengono visualizzati nella stringa di interrogazione. | JSON sito web |
+| `q` | Stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere racchiusa tra virgolette doppie per impedire che venga tokenizzata e per evitare caratteri speciali. I caratteri `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra rovesciata quando vengono visualizzati nella stringa query. | JSON per sito web |
 | `qop` | Applica l’operatore AND o OR ai valori nel parametro della stringa di query q. | `AND` / `OR` |
-| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto così: field=field1[,field=field2,...] e (le espressioni del percorso sono sotto forma di percorsi separati da punti come _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordina gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
+| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto come segue: field=field1[,campo=campo2,...] e (le espressioni di percorso sono sotto forma di percorsi separati da punti, ad esempio _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordinerà gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limita il numero di posizionamenti restituiti. | `limit=5` |
 
 **Richiesta**
@@ -62,7 +62,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce un elenco di posizionamenti presenti all’interno del contenitore a cui hai accesso.
+In caso di esito positivo, la risposta restituisce un elenco di posizionamenti presenti all’interno del contenitore a cui hai accesso.
 
 ```json
 {

@@ -1,6 +1,6 @@
 ---
 title: Configurazione in-app
-description: Scopri come configurare l’ambiente per l’invio di messaggi in-app con Journey Optimizer
+description: Scopri come configurare l’ambiente per inviare messaggi in-app con Journey Optimizer
 role: Admin
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Prima di inviare messaggi in-app, devi configurare il canale in-app in [!DNL Adobe Experience Platform Data Collection].
 
-1. Dal tuo [!DNL Adobe Experience Platform Data Collection] account, accedere al **[!UICONTROL Datastream]** menu e fai clic su **[!UICONTROL Nuovo datastream]**. Per ulteriori informazioni sulla creazione del datastream, consulta [questa pagina](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
+1. Dal tuo [!DNL Adobe Experience Platform Data Collection] account, accedere a **[!UICONTROL Datastream]** e fai clic su **[!UICONTROL Nuovo flusso di dati]**. Per ulteriori informazioni sulla creazione di flussi di dati, consulta [questa pagina](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams).
 
 1. Seleziona la [!DNL Adobe Experience Platform] servizio.
 
@@ -24,27 +24,27 @@ Prima di inviare messaggi in-app, devi configurare il canale in-app in [!DNL Ado
 
    ![](assets/inapp_config_6.png)
 
-1. Quindi, accedi al **[!UICONTROL Superfici dell&#39;app]** menu, quindi fai clic su **[!UICONTROL Creare una superficie dell’app]**.
+1. Quindi, accedi a **[!UICONTROL Superfici app]** , quindi fai clic su **[!UICONTROL Crea superficie app]**.
 
    ![](assets/inapp_config_1.png)
 
-1. Aggiungi un nome al tuo **[!UICONTROL Superficie dell&#39;app]**.
+1. Aggiungi un nome al tuo **[!UICONTROL Superficie app]**.
 
-1. Dall’elenco a discesa Apple iOS , digita il **iOS Bundle ID**. Fai riferimento a [Documentazione di Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) per ulteriori informazioni su **ID bundle**.
+1. Dal menu a discesa iOS di Apple, digita il **ID bundle iOS**. Fai riferimento a [Documentazione di Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) per ulteriori informazioni su **ID bundle**.
 
    ![](assets/inapp_config_2.png)
 
-1. Dal menu a discesa Android, digita il tuo **Nome del pacchetto Android**. Fai riferimento a [Documentazione Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) per ulteriori informazioni su **Nome pacchetto**.
+1. Dal menu a discesa Android, digita il **Nome pacchetto Android**. Fai riferimento a [Documentazione Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) per ulteriori informazioni su **Nome pacchetto**.
 
-1. Fai clic su **[!UICONTROL Salva]** al termine della configurazione del **[!UICONTROL Superficie dell&#39;app]**.
+1. Clic **[!UICONTROL Salva]** al termine della configurazione del **[!UICONTROL Superficie app]**.
 
    ![](assets/inapp_config_3.png)
 
-   Le **[!UICONTROL Superficie dell&#39;app]** Sarà ora disponibile quando crei una nuova campagna con un messaggio in-app. [Ulteriori informazioni](create-in-app.md)
+   Il tuo **[!UICONTROL Superficie app]** sarà ora disponibile quando crei una nuova campagna con un messaggio in-app. [Ulteriori informazioni](create-in-app.md)
 
-1. Dopo aver creato la superficie dell’app, devi ora creare una proprietà mobile.
+1. Dopo aver creato la superficie dell’app, ora devi creare una proprietà mobile.
 
-   Fai riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) per la procedura dettagliata.
+   Fai riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) procedura dettagliata.
 
    ![](assets/inapp_config_4.png)
 
@@ -52,17 +52,17 @@ Prima di inviare messaggi in-app, devi configurare il canale in-app in [!DNL Ado
 
    * Adobe Experience Platform Edge Network
    * Adobe Journey Optimizer
-   * Garanzia AEP
+   * AEP Assurance
    * Consenso
-   * Identifica
+   * Identificare
    * Core mobile
    * Profilo
 
-   Fai riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) per la procedura dettagliata.
+   Fai riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) procedura dettagliata.
 
    ![](assets/inapp_config_5.png)
 
-Il canale in-app è ora configurato. Puoi iniziare a inviare messaggi in-app ai tuoi utenti.
+Il canale in-app è ora configurato. Puoi iniziare a inviare messaggi in-app agli utenti.
 
 **Argomenti correlati:**
 

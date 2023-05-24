@@ -1,5 +1,5 @@
 ---
-title: Utilizzare offerte personalizzate in un messaggio e-mail
+title: Utilizzare le offerte personalizzate in un messaggio e-mail
 description: Un esempio end-to-end illustra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
 feature: Offers
 topic: Integrations
@@ -15,13 +15,13 @@ ht-degree: 6%
 
 # Caso d’uso: configurare offerte personalizzate da utilizzare in un messaggio e-mail {#configure-add-personalized-offers-email}
 
-Questa sezione presenta un esempio end-to-end per mostrare come configurare le offerte e utilizzarle in un’e-mail, in base a una decisione creata in precedenza.
+Questa sezione presenta un esempio end-to-end per mostrare come configurare le offerte e utilizzarle in un messaggio e-mail, in base a una decisione creata in precedenza.
 
 ## Passaggi principali {#main-steps}
 
-I passaggi chiave per configurare le offerte, includerle in una decisione e sfruttare questa decisione in un’e-mail sono elencati di seguito:
+Di seguito sono elencati i passaggi chiave per configurare le offerte, includerle in una decisione e sfruttarla in un messaggio e-mail:
 
-1. Prima di creare offerte, [definire i componenti](#define-components)
+1. Prima di creare le offerte, [definire i componenti](#define-components)
 
    * Creare posizionamenti
    * Creare regole di decisione
@@ -30,12 +30,12 @@ I passaggi chiave per configurare le offerte, includerle in una decisione e sfru
 
 1. [Configurare le offerte](#configure-offers)
 
-   * Creare offerte
+   * Creare le offerte
    * Per ogni offerta:
 
-      * Crea rappresentazioni e seleziona un posizionamento e una risorsa per ogni rappresentazione
+      * Create le rappresentazioni e selezionate un posizionamento e una risorsa per ciascuna rappresentazione
       * Aggiungi una regola per ogni offerta
-      * Definire una priorità per ogni offerta
+      * Definisci una priorità per ogni offerta
 
 1. [Creare un’offerta di fallback](#create-fallback)
 
@@ -44,18 +44,18 @@ I passaggi chiave per configurare le offerte, includerle in una decisione e sfru
 1. [Configurare la decisione](#configure-decision)
 
    * Creare una decisione
-   * Selezionare i posizionamenti creati
+   * Seleziona i posizionamenti creati
    * Per ogni posizionamento, seleziona la raccolta
    * Per ogni posizionamento, seleziona una classificazione (facoltativo)
-   * Selezionare il fallback
+   * Seleziona il fallback
 
 1. [Inserire la decisione in un messaggio e-mail](#insert-decision-in-email)
 
-   * Selezionare un posizionamento corrispondente alle offerte che si desidera visualizzare
-   * Seleziona la decisione tra gli elementi compatibili con il posizionamento selezionato
-   * Anteprima delle offerte
+   * Seleziona un posizionamento corrispondente alle offerte da visualizzare
+   * Seleziona la decisione dagli elementi compatibili con il posizionamento selezionato
+   * Visualizzare l’anteprima delle offerte
 
-Il processo decisionale complessivo per l’utilizzo delle offerte in un messaggio e-mail può essere descritto come segue:
+Il processo complessivo di Gestione delle decisioni per utilizzare le offerte in un messaggio e-mail può essere descritto come segue:
 
 ![](assets/offers-e2e-process.png)
 
@@ -63,13 +63,13 @@ Il processo decisionale complessivo per l’utilizzo delle offerte in un messagg
 
 Prima di iniziare a creare le offerte, devi definire diversi componenti da utilizzare nelle offerte.
 
-Li troverai sotto il **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL Menu Componenti]**.
+Le troverai sotto al **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL Menu Componenti]**.
 
 1. Inizia creando **posizionamenti** per le offerte.
 
    Utilizzerai questi posizionamenti per definire dove verrà visualizzata l’offerta risultante durante la definizione della decisione di offerta.
 
-   In questo esempio, crea tre posizionamenti con i seguenti tipi di canale e contenuto:
+   In questo esempio, crea tre posizionamenti con i seguenti tipi di canale e di contenuto:
 
    * *Web - Immagine*
    * *E-mail - Immagine*
@@ -79,60 +79,60 @@ Li troverai sotto il **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL M
 
    I passaggi dettagliati per la creazione dei posizionamenti sono descritti in [questa sezione](../../using/offers/offer-library/creating-placements.md).
 
-1. Crea **norme decisionali**.
+1. Crea **regole di decisione**.
 
-   Le regole decisionali forniscono l’offerta migliore a un profilo in Adobe Experience Platform.
+   Le regole di decisione forniranno l’offerta migliore a un profilo in Adobe Experience Platform.
 
-   Configura due semplici regole utilizzando la **[!UICONTROL Profilo individuale XDM > Persona > Genere]** attributo:
+   Configurare due regole semplici utilizzando **[!UICONTROL Profilo individuale XDM > Persona > Genere]** attributo:
 
-   * *Clienti Femminili*
-   * *Clienti maschili*
+   * *Clienti femmina*
+   * *Clienti maschi*
 
    ![](assets/offers-e2e-rules.png)
 
    I passaggi dettagliati per la creazione delle regole sono descritti in [questa sezione](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. Puoi anche creare un **qualificatore di raccolta**.
+1. Puoi anche creare una **qualificatore raccolta**.
 
    Potrai quindi associarlo alle offerte e utilizzare questo qualificatore di raccolta per raggruppare le offerte in una raccolta.
 
-   In questo esempio, crea le *Yoga* qualificatore di raccolta.
+   In questo esempio, crea il *Yoga* qualificatore di raccolta.
 
    ![](assets/offers-e2e-tag.png)
 
    I passaggi dettagliati per la creazione dei qualificatori di raccolta sono descritti in [questa sezione](../../using/offers/offer-library/creating-tags.md).
 
-1. Se desideri definire regole che determinino quale offerta deve essere presentata per prima per un determinato posizionamento (anziché tenere conto dei punteggi di priorità delle offerte), puoi creare un **formula di classificazione**.
+1. Se desideri definire regole che determinano quale offerta deve essere presentata per prima per un determinato posizionamento (anziché tenere conto dei punteggi di priorità delle offerte), puoi creare una **formula di classificazione**.
 
    I passaggi dettagliati per la creazione di formule di classificazione sono descritti in [questa sezione](../../using/offers/ranking/create-ranking-formulas.md#create-ranking-formula).
 
    >[!NOTE]
    >
-   >In questo esempio, utilizzeremo solo i punteggi di priorità. Ulteriori informazioni su [regole di idoneità e vincoli](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
+   >In questo esempio utilizzeremo solo i punteggi di priorità. Ulteriori informazioni su [regole e vincoli di idoneità](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
 ## Configurare le offerte {#configure-offers}
 
-Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro offerte da visualizzare in base a ciascun profilo specifico.
+Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro offerte che desideri visualizzare in base a ciascun profilo specifico.
 
 1. Creare un’offerta. Ulteriori informazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. In questa offerta, crea tre rappresentazioni. Ogni rappresentazione deve essere una combinazione di un posizionamento creato in precedenza e di una risorsa:
 
-   * Uno corrispondente al *Web - Immagine* placement
-   * Uno corrispondente al *E-mail - Immagine* placement
-   * Uno corrispondente al *Non digitale - Testo* placement
+   * Uno corrispondente al *Web - Immagine* posizionamento
+   * Uno corrispondente al *E-mail - Immagine* posizionamento
+   * Uno corrispondente al *Non digitale - Testo* posizionamento
 
    >[!NOTE]
    >
-   >Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio per creare ulteriori opportunità di utilizzo in contesti di posizionamento diversi.
+   >Un’offerta può essere visualizzata in posizioni diverse in un messaggio per creare più opportunità di utilizzo in contesti di posizionamento diversi.
 
    Ulteriori informazioni sulle rappresentazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
-1. Seleziona un’immagine appropriata per i primi due posizionamenti. Immetti un testo personalizzato per la *Non digitale - Testo* posizionamento.
+1. Selezionate un&#39;immagine appropriata per i primi due posizionamenti. Inserisci testo personalizzato per *Non digitale - Testo* posizionamento.
 
    ![](assets/offers-e2e-representations.png)
 
-1. In **[!UICONTROL Idoneità offerta]** sezione , seleziona **[!UICONTROL Per regola decisionale definita]** e trascina e rilascia la regola scelta.
+1. In **[!UICONTROL Idoneità dell’offerta]** sezione, seleziona **[!UICONTROL Per regola di decisione definita]** e trascina e rilascia la regola desiderata.
 
    ![](assets/offers-e2e-eligibility.png)
 
@@ -142,12 +142,12 @@ Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro off
 
    ![](assets/offers-e2e-review.png)
 
-1. In questo esempio, crea altre tre offerte con le stesse rappresentazioni, ma risorse diverse. Assegnali con regole e priorità diverse, ad esempio:
+1. In questo esempio, crea altre tre offerte con le stesse rappresentazioni, ma con risorse diverse. Assegna loro diverse regole e priorità, ad esempio:
 
-   * Prima offerta - Regola decisionale: *Clienti Femminili*, Priorità: *25*
-   * Seconda offerta - Regola decisionale: *Clienti Femminili*, Priorità: *15*
-   * Terza offerta - Regola decisionale: *Clienti maschili*, Priorità: *25*
-   * Quarta offerta - Regola decisionale: *Clienti maschili*, Priorità: *15*
+   * Prima offerta - Regola di decisione: *Clienti femmina*, Priorità: *25*
+   * Seconda offerta - Regola di decisione: *Clienti femmina*, Priorità: *15*
+   * Terza offerta - Regola di decisione: *Clienti maschi*, Priorità: *25*
+   * Quarta offerta - Regola di decisione: *Clienti maschi*, Priorità: *15*
 
    ![](assets/offers-e2e-offers-created.png)
 
@@ -157,13 +157,13 @@ I passaggi dettagliati per la creazione e la configurazione delle offerte sono d
 
 1. Creare un’offerta di fallback.
 
-1. Definisci le stesse rappresentazioni delle offerte, con le risorse appropriate (devono essere diverse da quelle utilizzate nelle offerte).
+1. Definisci le stesse rappresentazioni delle offerte, con le risorse appropriate (dovrebbero essere diverse da quelle utilizzate nelle offerte).
 
    Ogni rappresentazione deve essere una combinazione di un posizionamento creato in precedenza e di una risorsa:
 
-   * Uno corrispondente al *Web - Immagine* placement
-   * Uno corrispondente al *E-mail - Immagine* placement
-   * Uno corrispondente al *Non digitale - Testo* placement
+   * Uno corrispondente al *Web - Immagine* posizionamento
+   * Uno corrispondente al *E-mail - Immagine* posizionamento
+   * Uno corrispondente al *Non digitale - Testo* posizionamento
 
    ![](assets/offers-e2e-fallback-representations.png)
 
@@ -173,15 +173,15 @@ I passaggi dettagliati per la creazione e la configurazione delle offerte sono d
 
 L’offerta di fallback è ora pronta per essere utilizzata in una decisione.
 
-I passaggi dettagliati per la creazione e la configurazione di un’offerta di fallback sono descritti in [questa sezione](../../using/offers/offer-library/creating-fallback-offers.md).
+I passaggi dettagliati per creare e configurare un’offerta di fallback sono descritti in [questa sezione](../../using/offers/offer-library/creating-fallback-offers.md).
 
 ## Creare una raccolta {#create-collection}
 
-Quando configuri la decisione, dovrai aggiungere le offerte personalizzate come parte di una raccolta.
+Durante la configurazione della decisione, dovrai aggiungere le offerte personalizzate come parte di una raccolta.
 
 1. Per accelerare il processo decisionale, crea una raccolta dinamica.
 
-1. Utilizza la *Yoga* qualificatore di raccolta per selezionare le quattro offerte personalizzate create in precedenza.
+1. Utilizza il *Yoga* qualificatore di raccolta per selezionare le quattro offerte personalizzate create in precedenza.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
@@ -191,7 +191,7 @@ I passaggi dettagliati per la creazione di una raccolta sono descritti in [quest
 
 Ora devi creare una decisione che combini i posizionamenti con le offerte personalizzate e l’offerta di fallback appena creata.
 
-Questa combinazione verrà utilizzata dal motore decisionale per trovare l’offerta migliore per un profilo specifico: in questo esempio, si baserà sulla priorità e sulla regola decisionale che hai assegnato a ogni offerta.
+Questa combinazione verrà utilizzata dal motore decisionale per trovare l’offerta migliore per un profilo specifico: in questo esempio, sarà basata sulla priorità e sulla regola di decisione assegnate a ogni offerta.
 
 Per creare e configurare una decisione di offerta, segui i passaggi principali seguenti:
 
@@ -205,19 +205,19 @@ Per creare e configurare una decisione di offerta, segui i passaggi principali s
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. Se hai definito una classificazione quando [creazione di componenti](#define-components), puoi assegnarlo a un posizionamento nella decisione. Se più offerte sono idonee per essere presentate in questo posizionamento, la decisione utilizzerà questa formula per calcolare quale offerta distribuire per prima.
+1. Se hai definito una classificazione quando [creazione dei componenti](#define-components), puoi assegnarlo a un posizionamento nella decisione. Se più offerte sono idonee per essere presentate in questo posizionamento, la decisione utilizzerà questa formula per calcolare quale offerta consegnare per prima.
 
    I passaggi dettagliati per assegnare una formula di classificazione a un posizionamento sono descritti in [questa sezione](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
-1. Seleziona l’offerta di fallback creata. Sarà visualizzato come offerta di fallback disponibile per i tre posizionamenti selezionati.
+1. Seleziona l’offerta di fallback creata. Verrà visualizzata come offerta di fallback disponibile per i tre posizionamenti selezionati.
 
    ![](assets/offers-e2e-decision-fallback.png)
 
-1. Rivedi la tua decisione, quindi fai clic su **[!UICONTROL Salva e approva]**.
+1. Rivedi la decisione, quindi fai clic su **[!UICONTROL Salva e approva]**.
 
    ![](assets/offers-e2e-review-decision.png)
 
-La tua decisione è ora pronta per essere utilizzata per fornire offerte ottimizzate e personalizzate.
+La decisione è ora pronta per essere utilizzata per distribuire offerte ottimizzate e personalizzate.
 
 I passaggi dettagliati per la creazione e la configurazione di una decisione sono descritti in [questa sezione](../../using/offers/offer-activities/create-offer-activities.md).
 

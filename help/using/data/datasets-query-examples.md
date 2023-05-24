@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esempi di query del set di dati
-description: Esempi di query del set di dati
+title: Esempi di query per set di dati
+description: Esempi di query per set di dati
 feature: Reporting
 topic: Content Management
 role: User
@@ -12,33 +12,33 @@ exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '850'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Casi d’uso del set di dati {#tracking-datasets}
+# Casi di utilizzo dei set di dati {#tracking-datasets}
 
-In questa pagina trovi l’elenco dei set di dati Adobe Journey Optimizer e dei relativi casi di utilizzo:
+In questa pagina è disponibile l’elenco dei set di dati di Adobe Journey Optimizer e dei casi d’uso correlati:
 
-[Set di dati evento esperienza tracciamento e-mail](#email-tracking-experience-event-dataset)
-[Set di dati evento del feedback del messaggio](#message-feedback-event-dataset)
-[Set di dati evento esperienza tracciamento push](#push-tracking-experience-event-dataset)
+[Set di dati dell’evento di tracciamento e-mail](#email-tracking-experience-event-dataset)
+[Set di dati evento feedback messaggio](#message-feedback-event-dataset)
+[Set di dati evento di tracciamento push](#push-tracking-experience-event-dataset)
 [Evento passaggio percorso](#journey-step-event)
-[Decisioning del set di dati evento](#ode-decisionevents)
-[Set di dati evento feedback CCN](#bcc-feedback-event-dataset)
+[Set di dati dell’evento Decisioning](#ode-decisionevents)
+[Set di dati evento feedback Ccn](#bcc-feedback-event-dataset)
 [Set di dati di entità](#entity-dataset)
 
-Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta la [Dizionario dello schema Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
+Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
 
-## Set di dati evento esperienza tracciamento e-mail{#email-tracking-experience-event-dataset}
+## Set di dati dell’evento di tracciamento e-mail{#email-tracking-experience-event-dataset}
 
-_Nome nell’interfaccia : Set di dati evento esperienza di tracciamento e-mail CJM_
+_Nome nell’interfaccia: Set di dati evento di tracciamento e-mail CJM_
 
 Set di dati di sistema per l’acquisizione di eventi di esperienza di tracciamento e-mail da Journey Optimizer.
 
-Lo schema correlato è lo schema evento esperienza di tracciamento e-mail di CJM.
+Lo schema correlato è Schema Evento esperienza di tracciamento e-mail CJM.
 
-Questa query mostra il numero di diverse interazioni e-mail (aperture, clic) per un messaggio specifico:
+Questa query mostra il numero di diverse interazioni e-mail (aperture, clic) per un determinato messaggio:
 
 ```sql
 select
@@ -51,7 +51,7 @@ group by
     _experience.customerJourneyManagement.messageInteraction.interactionType
 ```
 
-Questa query mostra il raggruppamento del numero di interazioni e-mail diverse (aperture, clic) per messaggio per un dato percorso:
+Questa query mostra il raggruppamento dei conteggi di diverse interazioni e-mail (aperture, clic) per messaggio per un determinato percorso:
 
 ```sql
 select
@@ -70,15 +70,15 @@ order by
 limit 100;
 ```
 
-## Set di dati evento del feedback del messaggio{#message-feedback-event-dataset}
+## Set di dati evento feedback messaggio{#message-feedback-event-dataset}
 
-_Nome nell’interfaccia: Set di dati evento feedback del messaggio CJM_
+_Nome nell’interfaccia: Set di dati evento feedback messaggio CJM_
 
-Set di dati per l’acquisizione di eventi di feedback delle applicazioni e-mail e push da Journey Optimizer.
+Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e push da Journey Optimizer.
 
-Lo schema correlato è lo schema Evento di feedback del messaggio CJM.
+Lo schema correlato è Schema evento feedback messaggio CJM.
 
-Questa query mostra il numero di diversi stati di feedback e-mail (inviati, non recapitati, ecc.) per un dato messaggio:
+Questa query mostra i conteggi di diversi stati di feedback e-mail (inviato, non recapitato, ecc.) per un determinato messaggio:
 
 ```sql
 select
@@ -91,7 +91,7 @@ group by
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus;
 ```
 
-Questa query mostra il raggruppamento dei conteggi dei diversi stati di feedback via e-mail (inviati, non recapitati, ecc.) per messaggio per un dato percorso:
+Questa query mostra il raggruppamento dei conteggi dei diversi stati di feedback delle e-mail (inviato, non recapitato, ecc.) per messaggio per un determinato percorso:
 
 ```sql
 select
@@ -110,45 +110,45 @@ order by
 limit 100;
 ```
 
-A livello aggregato, rapporto a livello di dominio (ordinato per domini principali): Nome di dominio, messaggio inviato, rimbalzi
+A livello aggregato, rapporto a livello di dominio (ordinato per domini principali): Nome di dominio, Messaggio inviato, Mancato recapito
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
 ```
 
-L’e-mail invia su base giornaliera:
+L’e-mail viene inviata su base giornaliera:
 
 ```sql
 SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
-Trova se un particolare ID e-mail ha ricevuto o meno un’e-mail e, in caso contrario, qual è stato l’errore, la categoria di rimbalzo, il codice:
+Scopri se un particolare ID e-mail ha ricevuto o meno un’e-mail e, in caso contrario, qual era l’errore, la categoria di mancato recapito e il codice:
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
-Trova l’elenco di tutti i singoli ID e-mail che hanno generato un errore, una categoria di messaggi non recapitati o un codice negli ultimi x ore/giorni o associati a una particolare consegna del messaggio:
+Trova l’elenco di tutti i singoli ID e-mail che hanno presentato un errore, una categoria di mancato recapito o un codice particolare nelle ultime x ore/giorni o associati a una consegna di messaggio particolare:
 
 ```sql
 SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
-Frequenza di rimbalzo duro a livello aggregato:
+Percentuale mancati recapiti permanenti a livello aggregato:
 
 ```sql
 select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
 ```
 
-Errori permanenti raggruppati per codice non recapitato:
+Errori permanenti raggruppati per codice di mancato recapito:
 
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
-### Identificare gli indirizzi messi in quarantena dopo un’interruzione dell’ISP{#isp-outage-query}
+### Identificare gli indirizzi messi in quarantena dopo un’interruzione del servizio ISP{#isp-outage-query}
 
-In caso di interruzione di un provider di servizi Internet (ISP), è necessario identificare gli indirizzi e-mail erroneamente contrassegnati come non recapitati (messi in quarantena) per domini specifici, durante un intervallo di tempo. Per ottenere questi indirizzi, utilizza la seguente query:
+In caso di interruzione del servizio di un provider di servizi Internet (ISP), è necessario identificare gli indirizzi e-mail erroneamente contrassegnati come mancati recapiti (messi in quarantena) per domini specifici, durante un determinato arco temporale. Per ottenere tali indirizzi, utilizza la seguente query:
 
 ```sql
 SELECT
@@ -164,17 +164,17 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-se il formato delle date è: AAAA-MM-GG HH:MM:SS.
+dove il formato delle date è: YYYY-MM-DD HH:MM:SS.
 
 Una volta identificati, rimuovi tali indirizzi dall’elenco di soppressione di Journey Optimizer. [Maggiori informazioni](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
-## Set di dati evento esperienza tracciamento push {#push-tracking-experience-event-dataset}
+## Set di dati evento di tracciamento push {#push-tracking-experience-event-dataset}
 
-_Nome nell’interfaccia: Dataset dell’evento esperienza di tracciamento push CJM_
+_Nome nell’interfaccia: Set di dati evento di tracciamento push CJM_
 
-Set di dati per l’acquisizione di eventi di esperienza di tracciamento mobile per il push da Journey Optimizer.
+Set di dati per l’acquisizione degli eventi di esperienza di tracciamento mobile per il push da Journey Optimizer.
 
-Lo schema correlato è lo schema evento esperienza di tracciamento push di CJM.
+Lo schema correlato è lo schema eventi esperienza tracciamento push CJM.
 
 Esempio di query:
 
@@ -188,13 +188,13 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Evento passaggio percorso{#journey-step-event}
 
-_Nome interno: Eventi dei passaggi del percorso (set di dati di sistema)_
+_Nome interno: Eventi passaggio Percorso (set di dati di sistema)_
 
-Set di dati per l’acquisizione di eventi passaggio nel percorso.
+Set di dati per l’acquisizione degli eventi dei passaggi nel percorso.
 
-Lo schema correlato è lo schema Evento passaggio Percorso per Journey Orchestration.
+Lo schema correlato è lo schema evento passaggio Percorso per il Journey Orchestration.
 
-Questa query mostra la suddivisione dei conteggi di successo delle azioni per etichetta di azione per un dato percorso:
+Questa query mostra la suddivisione dei conteggi di successo delle azioni per etichetta azione per un determinato percorso:
 
 ```sql
 select
@@ -210,7 +210,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-Questa query mostra la suddivisione dei conteggi immessi per nodeId e nodeLabel per un determinato percorso. nodeId è incluso qui come nodeLabel può essere lo stesso per nodi di percorso diversi.
+Questa query mostra la suddivisione dei conteggi dei passaggi immessi per nodeId e nodeLabel per un determinato percorso. nodeId è incluso qui poiché nodeLabel può essere lo stesso per nodi di percorso diversi.
 
 ```sql
 select
@@ -227,11 +227,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Decisioning del set di dati evento{#ode-decisionevents}
+## Set di dati dell’evento Decisioning{#ode-decisionevents}
 
 _Nome nell’interfaccia: ODE DecisionEvents (set di dati di sistema)_
 
-Set di dati per l’acquisizione delle proposte di offerta per gli utenti.
+Set di dati per l’acquisizione delle proposte di offerte agli utenti.
 
 Lo schema correlato è ODE DecisionEvents.
 
@@ -248,7 +248,7 @@ GROUP BY date_format(Decision.Timestamp, 'MM/dd/yyyy')
 ORDER BY 1, 2 DESC;
 ```
 
-Questa query mostra il numero di volte in cui sono state proposte offerte negli ultimi 30 giorni di una particolare attività/decisione e la relativa priorità di offerta.
+Questa query mostra il numero di offerte proposte negli ultimi 30 giorni di una particolare attività/decisione e la relativa priorità di offerta.
 
 ```sql
 select proposedOffers.id,proposedOffers.name, po._experience.decisioning.ranking.priority, count(proposedOffers.id) as ProposedCount from (
@@ -289,13 +289,13 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Set di dati evento feedback CCN{#bcc-feedback-event-dataset}
+## Set di dati evento feedback Ccn{#bcc-feedback-event-dataset}
 
-_Nome nell’interfaccia: Set di dati dell’evento del feedback CCN AJO (set di dati di sistema)_
+_Nome nell’interfaccia: Set di dati evento feedback CCN AJO (set di dati di sistema)_
 
-Set di dati per memorizzare le informazioni per i messaggi CCN.
+Set di dati per memorizzare informazioni per messaggi Ccn.
 
-Esegui una query per tutti i messaggi CCN entro 2 giorni (per una particolare campagna):
+Eseguire una query per tutti i messaggi Ccn entro 2 giorni (per una determinata campagna):
 
 ```sql
 SELECT bcc.*
@@ -305,7 +305,7 @@ WHERE
     bcc.timestamp >= now() - INTERVAL '2' day; 
 ```
 
-Effettua una query con set di dati di feedback per mostrare agli utenti che non hanno ricevuto (tutti i messaggi non recapitati e cancellati) e che hanno una voce CCN per un particolare messaggio:
+Esegui una query con set di dati di feedback per mostrare gli utenti che non hanno ricevuto (tutti i mancati recapiti e le eliminazioni) e che dispongono di voci Ccn per un particolare messaggio:
 
 ```sql
 SELECT 
@@ -336,25 +336,25 @@ WHERE
 
 _Nome nell’interfaccia: ajo_entity_dataset (set di dati di sistema)_
 
-Set di dati per memorizzare i metadati delle entità per i messaggi inviati all’utente finale.
+Set di dati per memorizzare i metadati di entità per i messaggi inviati all’utente finale.
 
-Lo schema correlato è lo schema di entità AJO.
+Lo schema correlato è Schema entità AJO.
 
-Questo set di dati consente di accedere ai metadati definiti dall’addetto al marketing, che consentono di ottenere migliori informazioni sui rapporti quando i set di dati Journey Optimizer vengono esportati per la visualizzazione dei rapporti in strumenti esterni. Questo si ottiene utilizzando l’attributo messageID che consente di unire vari set di dati come set di dati di feedback dei messaggi e set di dati di tracciamento degli eventi di esperienza per ottenere i dettagli di una consegna dei messaggi dall’invio al tracciamento a livello di profilo.
+Questo set di dati consente di accedere a metadati definiti dall’addetto al marketing, che consentono di ottenere informazioni migliori sui rapporti quando i set di dati di Journey Optimizer vengono esportati per la visualizzazione di reporting in strumenti esterni. Questo viene ottenuto utilizzando l’attributo messageID che consente di unire vari set di dati, come il set di dati di feedback sui messaggi e di tracciamento degli eventi sull’esperienza, per ottenere i dettagli di una consegna di messaggi dall’invio al tracciamento a livello di profilo.
 
 **Note importanti**
 
 * Una voce per un messaggio viene creata solo dopo la pubblicazione del percorso o della campagna.
 
-* È possibile visualizzare la voce 30 minuti dopo la pubblicazione della campagna/percorso.
+* La voce potrebbe essere visualizzata 30 minuti dopo la pubblicazione della campagna/del percorso.
 
 >[!NOTE]
 >
->Al momento, per motivi di compatibilità futuri, nel set di dati di entità sono presenti due voci per ogni pubblicazione di messaggi. Questo non influisce sulla capacità di utilizzare le query di join in base alle esigenze tra i set di dati per recuperare le informazioni desiderate.
+>Per il momento, esistono due voci per ogni pubblicazione di messaggi nel set di dati di entità per motivi di compatibilità futuri. Questo non influisce sulla possibilità di utilizzare le query di unione in base alle esigenze tra set di dati per recuperare le informazioni desiderate.
 
-Se desideri ordinare nei rapporti le e-mail inviate da un percorso specifico in base all’azione che le ha inviate. puoi unire il set di dati Feedback per i messaggi con il set di dati di entità. I campi da utilizzare sono: `_experience.decisioning.propositions.scopeDetails.correlationID` e `_id field in entity dataset`.
+Se desideri ordinare, nei rapporti, le e-mail inviate da un percorso specifico in base all’azione che le ha inviate. puoi unire il set di dati Feedback messaggio con il set di dati Entità. I campi da utilizzare sono: `_experience.decisioning.propositions.scopeDetails.correlationID` e `_id field in entity dataset`.
 
-La seguente query ti aiuta a ottenere il modello di messaggio associato per una determinata campagna:
+La query seguente ti aiuta a ottenere il modello di messaggio associato per una determinata campagna:
 
 ```sql
 SELECT
@@ -364,7 +364,7 @@ from
     WHERE AE._experience.customerJourneyManagement.entities.campaign.campaignVersionID = 'd7a01136-b113-4ef2-8f59-b6001f7eef6e'
 ```
 
-La seguente query aiuta a ottenere i dettagli del Percorso e l’oggetto e-mail associati a tutti gli eventi di feedback:
+La query seguente consente di ottenere i dettagli del Percorso e l’oggetto e-mail associati a tutti gli eventi di feedback:
 
 ```sql
 SELECT 
@@ -381,7 +381,7 @@ WHERE
   AND AE._experience.customerJourneyManagement.entities.journey.journeyVersionID IS NOT NULL
 ```
 
-Puoi unire gli eventi dei passaggi di percorso, il feedback dei messaggi e i set di dati di tracciamento per ottenere gli stati di un particolare profilo:
+Puoi unire gli eventi dei passaggi del percorso, il feedback dei messaggi e i set di dati di tracciamento per ottenere le statistiche per un particolare profilo:
 
 ```sql
 SELECT 

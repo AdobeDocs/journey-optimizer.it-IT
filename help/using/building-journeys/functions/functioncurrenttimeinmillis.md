@@ -16,7 +16,7 @@ ht-degree: 11%
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Restituisce l’ora corrente in millisecondi epoch.
+Restituisce il tempo corrente in millisecondi epoca.
 
 ## Categoria
 
@@ -40,4 +40,4 @@ Restituisce un numero intero.
 
 `currentTimeInMillis()`
 
-Restituisce &quot;1544712617131&quot;.
+Restituisce &quot;1544712617131&quot;

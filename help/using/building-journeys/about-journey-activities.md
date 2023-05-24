@@ -22,9 +22,9 @@ Combina le diverse attività relative a un evento, un percorso e un’azione in 
 
 ## Attività eventi {#event-activities}
 
-Gli eventi attivano un percorso personalizzato, ad esempio un acquisto online. Una volta che qualcuno entra in un percorso, si muove come un individuo, e non due individui si muovono allo stesso ritmo o lungo lo stesso percorso. Quando avvii il percorso con un evento, il percorso viene attivato quando l’evento viene ricevuto. Ogni persona nel percorso segue, singolarmente, i passaggi successivi definiti nel percorso.
+Gli eventi attivano un percorso personalizzato, ad esempio un acquisto online. Una volta che qualcuno entra in un percorso, si muove come un individuo, e non ci sono due individui che si muovono allo stesso ritmo o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso viene attivato alla ricezione dell’evento. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
 
-Eventi configurati dall’utente tecnico (consulta [questa pagina](../event/about-events.md)) sono visualizzate nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività eventi:
+Eventi configurati dall’utente tecnico (vedi [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di eventi:
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
@@ -32,15 +32,15 @@ Eventi configurati dall’utente tecnico (consulta [questa pagina](../event/abou
 
 ![](assets/journey43.png)
 
-Avvia il percorso trascinando e rilasciando un’attività evento. Puoi anche fare doppio clic su di esso.
+Per avviare il percorso, trascina e rilascia un’attività evento. Puoi anche fare doppio clic su di esso.
 
 ![](assets/journey44.png)
 
 ## Attività di orchestrazione {#orchestration-activities}
 
-Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso. Può essere se la persona ha o meno un caso di supporto aperto, le previsioni del tempo nella sua posizione attuale, se ha completato o meno un acquisto, o ha raggiunto 10 000 punti fedeltà.
+Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso. Può essere se la persona ha un caso di supporto aperto o no, le previsioni del tempo nella loro posizione attuale, se hanno completato un acquisto o no, o hanno raggiunto 10 000 punti fedeltà.
 
-Nella palette a sinistra dello schermo sono disponibili le seguenti attività di orchestrazione:
+Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti attività di orchestrazione:
 
 * [Condizione](../building-journeys/condition-activity.md)
 * [Attendi](../building-journeys/wait-activity.md)
@@ -50,9 +50,9 @@ Nella palette a sinistra dello schermo sono disponibili le seguenti attività di
 
 ## Attività di azione {#action-activities}
 
-Le azioni sono ciò che desideri che accada in seguito a un certo tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta.
+Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta.
 
-Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la **[!UICONTROL Azioni]** categoria. Sono disponibili le seguenti attività di azione:
+Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, è possibile trovare **[!UICONTROL Azioni]** categoria. Sono disponibili le seguenti attività di azione:
 
 * [Messaggi e-mail, SMS e push](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
@@ -62,13 +62,13 @@ Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Eventi]** e 
 
 Queste attività rappresentano i diversi canali di comunicazione disponibili. Puoi combinarle per creare uno scenario cross-channel.
 
-Se hai configurato azioni personalizzate, queste vengono visualizzate anche qui. [Ulteriori informazioni](../building-journeys/using-custom-actions.md)).
+Le azioni personalizzate eventualmente configurate vengono visualizzate anche qui. [Ulteriori informazioni](../building-journeys/using-custom-actions.md)).
 
 ## Best practice {#best-practices}
 
 ### Aggiungi un’etichetta
 
-La maggior parte delle attività ti consente di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l&#39;attività nell&#39;area di lavoro. Questa funzione è utile se utilizzi più volte la stessa attività nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e faciliterà la lettura dei rapporti. È inoltre possibile aggiungere un **[!UICONTROL Descrizione]**.
+La maggior parte delle attività ti consentono di definire una **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e semplifica la lettura dei rapporti. È inoltre possibile aggiungere un&#39;opzione **[!UICONTROL Descrizione]**.
 
 ![](assets/journey-action-label.png)
 
@@ -78,16 +78,16 @@ La maggior parte delle attività visualizza una serie di parametri avanzati e/o 
 
 ![](assets/journey-advanced-parameters.png)
 
-Per una migliore leggibilità, è possibile nascondere questi parametri utilizzando il **[!UICONTROL Nascondi campi di sola lettura]** pulsante .
+Per una migliore leggibilità, è possibile nascondere questi parametri utilizzando **[!UICONTROL Nascondi campi di sola lettura]** pulsante.
 
 ![](assets/journey-hide-read-only-fields.png)
 
-In alcuni contesti specifici, è possibile sostituire i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
+In alcuni contesti particolari, è possibile ignorare i valori di questi parametri per un uso specifico. Per forzare un valore, fai clic sul pulsante **[!UICONTROL Abilita sovrascrittura del parametro]** a destra del campo. [Ulteriori informazioni](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![](assets/journey-enable-parameter-override.png)
 
 ### Aggiungi un percorso alternativo
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella . **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o di errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

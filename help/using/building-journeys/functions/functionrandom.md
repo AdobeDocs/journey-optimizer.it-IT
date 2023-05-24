@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: random
-description: Scopri la funzione casuale
+description: Scopri la funzione random
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: casuale, funzione, espressione, percorso
+keywords: random, function, expression, percorsi
 exl-id: df006301-d309-4cb0-b505-317f623df494
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -30,4 +30,4 @@ Operazioni matematiche
 
 `random()`
 
-Restituisce un decimale.
+Restituisce un valore decimale.

@@ -5,7 +5,7 @@ description: Scopri l’intersezione della funzione
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: interseca, funzione, espressione, percorso
+keywords: intersezione, funzione, espressione, percorso
 exl-id: e236efa9-91a8-4f08-94c6-45f1e060bb2f
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -64,7 +64,7 @@ intersect(
 )
 ```
 
-Restituisce elementi comuni tra gli attributi del profilo e un elenco di categorie specificato.
+Restituisce elementi comuni tra gli attributi del profilo e un elenco specifico di categorie.
 
 ```json
 intersect(

@@ -16,7 +16,7 @@ ht-degree: 11%
 
 # toDateTime {#toDateTime}
 
-Converte i parametri in un valore di ora della data, a seconda dei loro tipi.
+Converte i parametri in un valore di data e ora, a seconda del tipo.
 
 ## Categoria
 
@@ -30,14 +30,14 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| ora in formato ISO-8601 | string |
+| data e ora nel formato ISO-8601 | string |
 | id fuso orario | string |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un&#39;epoch in millisecondi | numero intero |
+| valore intero di un’epoca in millisecondi | numero intero |
 
 >[!NOTE]
 >
->L&#39;ID del fuso orario deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+>L’ID del fuso orario deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
 
 ## Firme e tipi restituiti
 
@@ -47,7 +47,7 @@ Conversione
 
 `toDateTime(<integer>)`
 
-Restituire un **dateTime**.
+Restituisce un **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 

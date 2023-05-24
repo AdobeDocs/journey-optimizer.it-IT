@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: count
-description: Informazioni sul conteggio delle funzioni
+description: Scopri il conteggio delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: count, funzione, espressione, percorso
+keywords: count, function, expression, percorsi
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
 source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 28%
 
 # count {#count}
 
-Conta gli elementi dell’elenco che non tengono conto dei valori nulli.
+Conta gli elementi dell’elenco senza tenere conto dei valori nulli.
 
 ## Categoria
 

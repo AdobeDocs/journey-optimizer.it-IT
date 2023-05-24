@@ -1,6 +1,6 @@
 ---
 title: Creare un qualificatore di raccolta
-description: I qualificatori di raccolta consentono di organizzare e ordinare meglio le offerte.
+description: I qualificatori di raccolta ti consentono di organizzare e ordinare meglio le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,11 +15,11 @@ ht-degree: 12%
 
 # Creare un qualificatore di raccolta {#create-tag}
 
-È possibile creare un qualificatore di raccolta (noto in precedenza come &quot;tag&quot;) effettuando una richiesta di POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID del contenitore.
+Puoi creare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) inviando una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -34,8 +34,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano i qualificatori della raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenitore in cui si trovano i qualificatori di raccolta. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Risposta**
 
-Una risposta corretta restituisce informazioni sul qualificatore di raccolta appena creato, compreso l’ID di istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza in passaggi successivi per aggiornare o eliminare il qualificatore della raccolta. Puoi utilizzare il tuo qualificatore di raccolta univoco `@id` in esercitazioni successive per creare raccolte e offerte personalizzate.
+In caso di esito positivo, la risposta restituisce informazioni sul nuovo qualificatore di raccolta creato, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare il qualificatore della raccolta. Puoi utilizzare il qualificatore di raccolta univoco `@id` nei tutorial successivi per creare raccolte e offerte personalizzate.
 
 ```json
 {

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definire il contenuto specifico per la pagina di destinazione
-description: Scopri come progettare contenuti specifici per una pagina di destinazione in Journey Optimizer
+title: Definire il contenuto specifico della pagina di destinazione
+description: Scopri come progettare contenuti specifici per le pagine di destinazione in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: landing, pagina di destinazione, creazione, pagina, modulo, componente
+keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 ---
 
-# Definire il contenuto specifico per la pagina di destinazione {#lp-content}
+# Definire il contenuto specifico della pagina di destinazione {#lp-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
@@ -24,15 +24,15 @@ ht-degree: 11%
 >abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=it#add-content-components" text="Aggiungere componenti per contenuti"
 
-Per progettare il contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti di un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
+Per progettare il contenuto di una pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
-Progettazione di contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, [utilizzare il componente modulo](#use-form-component) e ne definisce i [stili specifici della pagina di destinazione](#lp-form-styles).
+Per progettare contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, [utilizzare il componente modulo](#use-form-component) e definirne il [stili specifici della pagina di destinazione](#lp-form-styles).
 
 >[!NOTE]
 >
->Puoi anche creare una pagina di destinazione click-through senza **[!UICONTROL Modulo]** componente. In tal caso, agli utenti verrà visualizzata la pagina di destinazione, ma non sarà richiesto loro di inviare alcun modulo. Questa funzione può essere utile solo se desideri mostrare una pagina di destinazione senza richiedere alcuna azione da parte dei destinatari, ad esempio consenso o rinuncia, oppure se desideri fornire informazioni che non richiedono l’input dell’utente.
+>Puoi anche creare una pagina di destinazione click-through senza **[!UICONTROL Modulo]** componente. In tal caso, gli utenti visualizzeranno la pagina di destinazione, ma non dovranno inviare alcun modulo. Questa funzione può essere utile se desideri visualizzare una pagina di destinazione solo senza richiedere alcuna azione da parte dei destinatari, ad esempio consenso o rinuncia, oppure se desideri fornire informazioni che non richiedono l’input dell’utente.
 
-La finestra di progettazione del contenuto della pagina di destinazione consente inoltre di sfruttare i dati contestuali provenienti dalla pagina principale in una pagina secondaria. [Ulteriori informazioni](#use-primary-page-context)
+Utilizzando la finestra di progettazione del contenuto della pagina di destinazione, puoi anche sfruttare i dati contestuali provenienti dalla pagina principale di una pagina secondaria. [Ulteriori informazioni](#use-primary-page-context)
 
 ## Utilizzare il componente modulo {#use-form-component}
 
@@ -47,49 +47,49 @@ La finestra di progettazione del contenuto della pagina di destinazione consente
 >title="Eventi successivi al clic sul pulsante"
 >abstract="Definisci gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
 
-Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte dalla pagina di destinazione, utilizza la funzione **[!UICONTROL Modulo]** componente. A questo scopo, segui i passaggi riportati qui sotto.
+Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le scelte effettuate dalla pagina di destinazione, utilizza **[!UICONTROL Modulo]** componente. A questo scopo, segui i passaggi riportati qui sotto.
 
-1. Trascina e rilascia la pagina di destinazione specifica **[!UICONTROL Modulo]** dalla palette a sinistra nell’area di lavoro principale.
+1. Trascina e rilascia la pagina di destinazione specifica **[!UICONTROL Modulo]** dalla palette a sinistra all’area di lavoro principale.
 
    ![](assets/lp_designer-form-component.png)
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Modulo]** può essere utilizzato solo una volta sulla stessa pagina.
+   >Il **[!UICONTROL Modulo]** il componente può essere utilizzato una sola volta sulla stessa pagina.
 
-1. Selezionala. La **[!UICONTROL Contenuto del modulo]** nella palette a destra viene visualizzata la scheda che consente di modificare i diversi campi del modulo.
+1. Selezionala. Il **[!UICONTROL Contenuto modulo]** La scheda viene visualizzata nella palette a destra per consentire la modifica dei diversi campi del modulo.
 
    ![](assets/lp_designer-form-content-options.png)
 
    >[!NOTE]
    >
-   >Passa alla **[!UICONTROL Stili]** in qualsiasi momento per modificare gli stili del contenuto del componente modulo. [Ulteriori informazioni](#define-lp-styles)
+   >Passa a **[!UICONTROL Stili]** per modificare gli stili del contenuto del componente modulo. [Ulteriori informazioni](#define-lp-styles)
 
-1. Da **[!UICONTROL Casella di controllo 1]** Puoi modificare l’etichetta corrispondente a questa casella di controllo.
+1. Dalla sezione **[!UICONTROL Casella di controllo 1]** sezione, puoi modificare l’etichetta corrispondente a questa casella di controllo.
 
-1. Definisci se questa casella di controllo è per consentire agli utenti di accedere o uscire: acconsentono a ricevere comunicazioni o chiedono di non essere più contattati?
+1. Definisci se questa casella di controllo deve consentire o meno agli utenti di ricevere comunicazioni: accettano di ricevere comunicazioni o chiedono di non essere più contattati?
 
    ![](assets/lp_designer-form-update.png)
 
    Seleziona una delle tre opzioni seguenti:
 
-   * **[!UICONTROL Consenso se selezionato]**: gli utenti devono selezionare la casella di controllo per il consenso (opt-in).
-   * **[!UICONTROL Rinuncia se è selezionato]**: gli utenti devono selezionare la casella per rimuovere il proprio consenso (opt-out).
-   * **[!UICONTROL Consenso se selezionato, rinuncia se deselezionato]**: questa opzione consente di inserire una singola casella di controllo per l’opt-in/opt-out. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out).
+   * **[!UICONTROL Consenso se selezionata]**: gli utenti devono selezionare la casella per il consenso (opt-in).
+   * **[!UICONTROL Rinuncia se selezionata]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
+   * **[!UICONTROL Consenso se selezionata, rinuncia se non selezionata]**: questa opzione ti consente di inserire una singola casella di controllo per il consenso/diniego. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out).
 
 1. Scegli cosa verrà aggiornato tra le tre opzioni seguenti:
 
    ![](assets/lp_designer-form-update-options.png)
 
-   * **[!UICONTROL Lista di sottoscrizione]**: Seleziona l’elenco di sottoscrizioni da aggiornare se il profilo seleziona questa casella di controllo. Ulteriori informazioni su [elenchi di abbonamenti](subscription-list.md).
+   * **[!UICONTROL Elenco iscrizioni]**: seleziona l’elenco di iscrizioni che verrà aggiornato se il profilo seleziona questa casella di controllo. Ulteriori informazioni su [elenchi di abbonamenti](subscription-list.md).
 
       <!--![](assets/lp_designer-form-subs-list.png)-->
 
-   * **[!UICONTROL Canale (e-mail)]**: L&#39;opt-in o l&#39;opt-out si applica all&#39;intero canale. Ad esempio, se un profilo che effettua la rinuncia ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi da tutte le tue comunicazioni.
+   * **[!UICONTROL Canale (e-mail)]**: il consenso o la rinuncia si applica all’intero canale. Ad esempio, se un profilo che rinuncia ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi da tutte le tue comunicazioni.
 
-   * **[!UICONTROL Identità e-mail]**: L’opzione di consenso o rinuncia si applica solo all’indirizzo e-mail utilizzato per accedere alla pagina di destinazione. Ad esempio, se un profilo ha due indirizzi e-mail, solo quello utilizzato per il consenso riceverà le comunicazioni dal tuo marchio.
+   * **[!UICONTROL Identità e-mail]**: il consenso o la rinuncia si applica solo all’indirizzo e-mail utilizzato per accedere alla pagina di destinazione. Ad esempio, se un profilo ha due indirizzi e-mail, solo quello utilizzato per il consenso riceverà le comunicazioni dal tuo marchio.
 
-1. Fai clic su **[!UICONTROL Aggiungi campo]** > **[!UICONTROL Casella di controllo]** per aggiungere un’altra casella di controllo. Ripeti i passaggi precedenti per definirne le proprietà.
+1. Clic **[!UICONTROL Aggiungi campo]** > **[!UICONTROL Casella di controllo]** per aggiungere un&#39;altra casella di controllo. Ripeti i passaggi precedenti per definirne le proprietà.
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
@@ -97,108 +97,108 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    ![](assets/lp_designer-form-add-text-field.png)
 
-   * Inserisci il **[!UICONTROL Etichetta]** che verrà visualizzato sopra il campo del modulo.
+   * Inserisci il **[!UICONTROL Etichetta]** che verrà visualizzata sopra il campo nel modulo.
 
-   * Inserisci un **[!UICONTROL Segnaposto]** testo. Verrà visualizzato all’interno del campo prima che l’utente compili il campo.
+   * Immetti un **[!UICONTROL Segnaposto]** testo. Viene visualizzato all’interno del campo prima che l’utente lo riempia.
 
-   * Controlla la **[!UICONTROL Rendi obbligatorio il campo del modulo]** se necessario. In tal caso, la pagina di destinazione può essere inviata solo se l’utente ha compilato questo campo. Se non viene compilato un campo obbligatorio, viene visualizzato un messaggio di errore al momento dell’invio della pagina da parte dell’utente.
+   * Controlla la **[!UICONTROL Rendi obbligatorio il campo modulo]** se necessario. In tal caso, la pagina di destinazione può essere inviata solo se l’utente ha compilato questo campo. Se non viene compilato un campo obbligatorio, quando l’utente invia la pagina viene visualizzato un messaggio di errore.
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Dopo aver aggiunto tutte le caselle di controllo e/o i campi di testo desiderati, fai clic su **[!UICONTROL Invito all&#39;azione]** per espandere la sezione corrispondente. Ti consente di definire il comportamento del pulsante nel **[!UICONTROL Modulo]** componente.
+1. Dopo aver aggiunto tutte le caselle di controllo e/o i campi di testo desiderati, fai clic su **[!UICONTROL Invito all’azione]** per espandere la sezione corrispondente. Consente di definire il comportamento del pulsante nella **[!UICONTROL Modulo]** componente.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
-1. Definisci cosa accade quando fai clic sul pulsante :
+1. Definisci cosa accade quando fai clic sul pulsante:
 
-   * **[!UICONTROL URL di reindirizzamento]**: Inserisci l’URL della pagina a cui verranno reindirizzati gli utenti.
-   * **[!UICONTROL Testo di conferma]**: Digita il testo di conferma che verrà visualizzato.
-   * **[!UICONTROL Collegamento a una pagina secondaria]**: Configura un [sottopagine](create-lp.md#configure-subpages) e selezionalo dall’elenco a discesa visualizzato.
+   * **[!UICONTROL URL di reindirizzamento]**: immetti l’URL della pagina a cui verranno reindirizzati gli utenti.
+   * **[!UICONTROL Testo di conferma]**: digita il testo di conferma che verrà visualizzato.
+   * **[!UICONTROL Collegamento a una pagina secondaria]**: Configura una [pagina secondaria](create-lp.md#configure-subpages) e selezionala dall’elenco a discesa visualizzato.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
 1. Definisci cosa accade quando fai clic sul pulsante in caso di errore:
 
-   * **[!UICONTROL URL di reindirizzamento]**: Inserisci l’URL della pagina a cui verranno reindirizzati gli utenti.
-   * **[!UICONTROL Testo errore]**: Digitare il testo di errore che verrà visualizzato. Puoi visualizzare in anteprima il testo dell’errore durante la definizione della [stili di modulo](#define-lp-styles).
+   * **[!UICONTROL URL di reindirizzamento]**: immetti l’URL della pagina a cui verranno reindirizzati gli utenti.
+   * **[!UICONTROL Testo di errore]**: digita il testo dell’errore che verrà visualizzato. È possibile visualizzare in anteprima il testo dell’errore durante la definizione del [stili di modulo](#define-lp-styles).
 
-   * **[!UICONTROL Collegamento a una pagina secondaria]**: Configura un [sottopagine](create-lp.md#configure-subpages) e selezionalo dall’elenco a discesa visualizzato.
+   * **[!UICONTROL Collegamento a una pagina secondaria]**: Configura una [pagina secondaria](create-lp.md#configure-subpages) e selezionala dall’elenco a discesa visualizzato.
 
    ![](assets/lp_designer-form-error.png)
 
-1. Se si desidera apportare ulteriori aggiornamenti al momento dell’invio del modulo, selezionare **[!UICONTROL Consenso]** o **[!UICONTROL Rinuncia]** e definisci se desideri aggiornare un elenco di abbonamenti, il canale o solo l’indirizzo e-mail utilizzato.
+1. Per apportare ulteriori aggiornamenti all&#39;invio del modulo, selezionare **[!UICONTROL Consenso accordato]** o **[!UICONTROL Rinuncia]**, e definisci se desideri aggiornare un elenco di abbonamenti, il canale o solo l’indirizzo e-mail utilizzato.
 
    ![](assets/lp_designer-form-additionnal-update.png)
 
-1. Salva il contenuto e fai clic sulla freccia accanto al nome della pagina per tornare alla pagina [proprietà della pagina di destinazione](create-lp.md#configure-primary-page).
+1. Salva il contenuto e fai clic sulla freccia accanto al nome della pagina per tornare al [proprietà pagina di destinazione](create-lp.md#configure-primary-page).
 
    ![](assets/lp_designer-form-save.png)
 
 ## Definire gli stili del modulo della pagina di destinazione {#lp-form-styles}
 
-1. Per modificare gli stili del contenuto del componente modulo, passare in qualsiasi momento al **[!UICONTROL Stile]** scheda .
+1. Per modificare gli stili del contenuto del componente modulo, passa in qualsiasi momento a **[!UICONTROL Stile]** scheda.
 
    ![](assets/lp_designer-form-style.png)
 
-1. La **[!UICONTROL Campi]** La sezione viene espansa per impostazione predefinita e consente di modificare l’aspetto del campo di testo, ad esempio l’etichetta e il font segnaposto, la posizione dell’etichetta, il colore dello sfondo del campo o il bordo del campo.
+1. Il **[!UICONTROL Campi]** La sezione viene espansa per impostazione predefinita e consente di modificare l&#39;aspetto del campo di testo, ad esempio il carattere dell&#39;etichetta e del segnaposto, la posizione dell&#39;etichetta, il colore di sfondo del campo o il bordo del campo.
 
    ![](assets/lp_designer-form-style-fields.png)
 
-1. Espandi la **[!UICONTROL Caselle di controllo]** per definire l’aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile modificare la famiglia o la dimensione del font oppure il colore del bordo della casella di controllo.
+1. Espandi **[!UICONTROL Caselle di controllo]** per definire l&#39;aspetto delle caselle di controllo e del testo corrispondente. Ad esempio, è possibile regolare la famiglia o la dimensione del carattere o il colore del bordo della casella di controllo.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Espandi la **[!UICONTROL Pulsanti]** per modificare l’aspetto del pulsante nel modulo del componente. Ad esempio, è possibile modificare il font, aggiungere un bordo, modificare il colore dell’etichetta al passaggio del mouse o regolare l’allineamento del pulsante.
+1. Espandi **[!UICONTROL Pulsanti]** per modificare l&#39;aspetto del pulsante nel modulo del componente. È ad esempio possibile modificare il tipo di carattere, aggiungere un bordo, modificare il colore dell&#39;etichetta al passaggio del mouse o regolare l&#39;allineamento del pulsante.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   Puoi visualizzare in anteprima alcune delle impostazioni, ad esempio il colore dell’etichetta del pulsante al passaggio del mouse utilizzando **[!UICONTROL Simulazione del contenuto]** pulsante . Ulteriori informazioni sul test delle pagine di destinazione [qui](create-lp.md#test-landing-page).
+   Puoi visualizzare in anteprima alcune impostazioni, ad esempio il colore delle etichette dei pulsanti al passaggio del mouse, utilizzando **[!UICONTROL Simula contenuto]** pulsante. Ulteriori informazioni sulla verifica delle pagine di destinazione [qui](create-lp.md#test-landing-page).
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
-1. Espandi la **[!UICONTROL Layout del modulo]** per modificare le impostazioni di layout, ad esempio il colore di sfondo, la spaziatura o il margine.
+1. Espandi **[!UICONTROL Layout modulo]** per modificare le impostazioni di layout, ad esempio il colore di sfondo, la spaziatura interna o il margine.
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Espandi la **[!UICONTROL Errore del modulo]** per regolare la visualizzazione del messaggio di errore visualizzato in caso di problemi. Selezionare l’opzione corrispondente per visualizzare in anteprima il testo di errore nel modulo.
+1. Espandi **[!UICONTROL Errore modulo]** sezione per regolare la visualizzazione del messaggio di errore visualizzato in caso di problemi. Seleziona l’opzione corrispondente per visualizzare in anteprima il testo dell’errore nel modulo.
 
    ![](assets/lp_designer-form-error-preview.png)
 
 ## Usa contesto pagina principale {#use-primary-page-context}
 
-Puoi utilizzare i dati contestuali provenienti da un’altra pagina all’interno della stessa pagina di destinazione.
+Puoi utilizzare dati contestuali provenienti da un’altra pagina all’interno della stessa pagina di destinazione.
 
-Ad esempio, se colleghi una casella di controllo <!-- or the submission of the page--> a [elenco abbonamenti](subscription-list.md) nella pagina di destinazione principale, puoi utilizzare tale elenco nella pagina secondaria &quot;grazie&quot;.
+Ad esempio, se colleghi una casella di controllo <!-- or the submission of the page--> a un [elenco iscrizioni](subscription-list.md) nella pagina di destinazione principale, puoi utilizzare l’elenco di iscrizioni nella pagina secondaria di ringraziamento.
 
-Supponiamo che colleghi due caselle di controllo sulla pagina principale a due diversi elenchi di abbonamenti. Se un utente si abbona a uno di questi, al momento dell’invio del modulo verrà visualizzato un messaggio specifico, a seconda della casella di controllo selezionata.
+Supponiamo che tu colleghi due caselle di controllo nella pagina principale a due diversi elenchi di abbonamento. Se un utente si abbona a uno di questi, desideri visualizzare un messaggio specifico al momento dell’invio del modulo, a seconda della casella di controllo selezionata.
 
 A questo scopo, segui i passaggi riportati qui sotto:
 
-1. Sulla pagina principale, collega ciascuna casella di controllo della **[!UICONTROL Modulo]** componente dell’elenco di sottoscrizione pertinente. [Maggiori informazioni](#use-form-component).
+1. Nella pagina principale, collega ogni casella di controllo della proprietà **[!UICONTROL Modulo]** al relativo elenco di abbonamenti. [Maggiori informazioni](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
-1. Posizionare il puntatore del mouse nella pagina secondaria in cui si desidera inserire il testo e selezionare **[!UICONTROL Aggiungi personalizzazione]** dalla barra degli strumenti contestuale.
+1. Nella pagina secondaria posizionare il puntatore del mouse nel punto in cui si desidera inserire il testo e selezionare **[!UICONTROL Aggiungi personalizzazione]** dalla barra degli strumenti contestuale.
 
    ![](assets/lp_designer-form-subpage-perso.png)
 
-1. In **[!UICONTROL Modifica personalizzazione]** finestra, seleziona **[!UICONTROL Attributi contestuali]** > **[!UICONTROL Pagine di destinazione]** > **[!UICONTROL Contesto della pagina principale]** > **[!UICONTROL Abbonamento]**.
+1. In **[!UICONTROL Modifica personalizzazione]** finestra, seleziona **[!UICONTROL Attributi contestuali]** > **[!UICONTROL Pagine di destinazione]** > **[!UICONTROL Contesto pagina principale]** > **[!UICONTROL Abbonamento]**.
 
-1. Vengono elencati tutti gli elenchi di sottoscrizioni selezionati nella pagina principale. Seleziona gli elementi rilevanti utilizzando l’icona +.
+1. Vengono elencati tutti gli elenchi di iscrizioni selezionati nella pagina principale. Seleziona gli elementi rilevanti utilizzando l’icona +.
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Aggiungi le condizioni pertinenti utilizzando le funzioni helper dell’editor espressioni. [Ulteriori informazioni](../personalization/functions/functions.md)
+1. Aggiungi le condizioni rilevanti utilizzando le funzioni helper dell’editor di espressioni. [Ulteriori informazioni](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
    >[!CAUTION]
    >
-   >Se nell’espressione è presente un carattere speciale, ad esempio un trattino, è necessario applicare al testo un escape che includa il trattino.
+   >Se nell’espressione è presente un carattere speciale, ad esempio un trattino, è necessario applicare l’escape al testo, incluso il trattino.
 
 1. Salva le modifiche.
 
-Ora quando gli utenti selezionano una delle caselle di controllo,
+Ora, quando gli utenti selezionano una delle caselle di controllo,
 
 ![](assets/lp_designer-form-preview-checked-box.png)
 
@@ -210,7 +210,7 @@ all’invio del modulo viene visualizzato il messaggio corrispondente alla casel
 
 >[!NOTE]
 >
->Se un utente seleziona le due caselle di controllo, vengono visualizzati entrambi i testi.
+>Se un utente seleziona le due caselle di controllo, verranno visualizzati entrambi i testi.
 
 <!--
 ## Use landing page additional data {#use-additional-data}

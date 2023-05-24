@@ -20,21 +20,21 @@ ht-degree: 2%
 
 ## Meccanismi di convalida {#validation-mechanisms}
 
-In **Editor espressioni** , utilizza **Convalida** per controllare la sintassi di personalizzazione.
+In **Editor espressioni** schermata, utilizza **Convalida** per controllare la sintassi di personalizzazione.
 
 >[!NOTE]
-> La convalida viene eseguita automaticamente quando si fa clic sul pulsante **Aggiungi** per chiudere la finestra dell’editor.
+> La convalida viene eseguita automaticamente quando fai clic su **Aggiungi** per chiudere la finestra dell&#39;editor.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Se la sintassi di personalizzazione non è valida, non è possibile chiudere la finestra dell’editor espressioni.
+> Se la sintassi di personalizzazione non è valida, non puoi chiudere la finestra dell’editor espressioni.
 
 ## Errori comuni {#common-errors}
 
 * **Percorso &quot;XYZ&quot; non trovato**
 
-Quando si tenta di fare riferimento a un campo non definito nello schema.
+Quando tenti di fare riferimento a un campo non definito nello schema.
 
 In questo caso **firstName1** non è definito come attributo nello schema del profilo:
 
@@ -42,11 +42,11 @@ In questo caso **firstName1** non è definito come attributo nello schema del pr
 {{profile.person.name.firstName1}}
 ```
 
-* **Tipo non corrispondente per la variabile &quot;XYZ&quot;. Matrice prevista. Stringa trovata.**
+* **Tipo non corrispondente per la variabile &quot;XYZ&quot;. Previsto array. Trovata stringa.**
 
-Quando si tenta di eseguire iterazioni su una stringa invece che su una matrice:
+Quando si tenta di eseguire l’iterazione su una stringa invece che su un array:
 
-In questo caso **prodotto** non è una matrice:
+In questo caso **prodotto** non è un array:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -54,9 +54,9 @@ In questo caso **prodotto** non è una matrice:
 {{/each}}
 ```
 
-* **Sintassi handlebars non valida. Trovato`‘[XYZ}}’`**
+* **Sintassi Handlebars non valida. Trovato`‘[XYZ}}’`**
 
-Se viene utilizzata una sintassi handlebar non valida.
+Se viene utilizzata una sintassi Handlebars non valida.
 
 Le espressioni Handlebars sono circondate da **{{expression}}**
 
@@ -64,7 +64,7 @@ Le espressioni Handlebars sono circondate da **{{expression}}**
    {{[profile.person.name.firstName}}
 ```
 
-* **Definizione del segmento non valida**
+* **Definizione segmento non valida**
 
 ```
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
@@ -78,42 +78,42 @@ Gli errori relativi all’integrazione delle offerte in un messaggio e-mail o pu
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-La convalida viene eseguita durante la convalida del contenuto di personalizzazione nell’editor espressioni.
+La convalida viene eseguita durante la convalida del contenuto di personalizzazione nell’editor di espressioni.
 
 <table> 
  <thead> 
   <tr> 
    <th> Titolo dell’errore<br /> </th> 
-   <th> Convalida/Risoluzione <br /> </th> 
+   <th> Convalida/risoluzione <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Risorsa con id placementID e tipo OfferPlacement non trovata <br/>
-Risorsa con id activityID e tipo OfferActivity non trovata<br/></td> 
-   <td>Controlla se sono disponibili gli ID attività e/o posizionamento</td> 
+   <td>Risorsa con ID placementID e tipo OfferPlacement non trovata <br/>
+Risorsa con ID activityID e tipo OfferActivity non trovata<br/></td> 
+   <td>Controlla se ActivityID e/o PlacementID sono disponibili</td> 
   </tr> 
    <tr> 
    <td>Impossibile convalidare la risorsa.</td> 
-   <td>Il componentType nel Placement deve corrispondere all'offerta offerType</td> 
+   <td>Il componentType nel posizionamento deve corrispondere all’offerta offerType</td> 
   </tr> 
    <tr> 
-   <td>L'URL pubblico non è presente in offerId.</td> 
-   <td>Le Offerte immagine (tutte le offerte personalizzate e di fallback associate alla coppia decisione e posizionamento) devono avere un URL pubblico popolato (deliveryURL non deve essere vuoto).</td> 
+   <td>L’URL pubblico non è presente in offerId.</td> 
+   <td>Le offerte di immagini (tutte le offerte personalizzate e di fallback associate alla coppia decisione-posizionamento) devono avere un URL pubblico popolato (deliveryURL non deve essere vuoto).</td> 
   </tr> 
   <tr> 
    <td>La decisione contiene attributi non di profilo.</td> 
-   <td>Offerte L'utilizzo del modello deve contenere solo gli attributi del profilo.</td> 
+   <td>Offerte L’utilizzo del modello deve contenere solo gli attributi del profilo.</td> 
   </tr> 
   <tr> 
-   <td>Errore durante il recupero dell'utilizzo della decisione.</td> 
-   <td>Questo errore potrebbe verificarsi quando l’API sta tentando di recuperare il modello di offerta.</td> 
+   <td>Si è verificato un errore durante il recupero dell’utilizzo della decisione.</td> 
+   <td>Questo errore può verificarsi quando l’API tenta di recuperare il modello di offerta.</td> 
   </tr>
   <tr> 
-   <td>Attributo di offerta non valido.</td> 
-   <td>Controlla se l'attributo dell'offerta a cui si fa riferimento nell'offerta drp è valido. Di seguito sono riportati gli attributi validi: <br/>
+   <td>Attributo offerta attributo offerta non valido.</td> 
+   <td>Verifica se l’attributo dell’offerta a cui si fa riferimento nel pacchetto di offerta è valido. Di seguito sono riportati gli attributi validi: <br/>
 Immagine: deliveryURL, linkURL<br/>
-Testo: content<br/>
+Testo: contenuto<br/>
 HTML: content<br/></td> 
   </tr> 
  </tbody> 

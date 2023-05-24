@@ -1,5 +1,5 @@
 ---
-title: Aggiornare offerte personalizzate
+title: Aggiornare le offerte personalizzate
 description: Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 feature: Offers
 topic: Integrations
@@ -15,13 +15,13 @@ ht-degree: 10%
 
 # Aggiornare un’offerta personalizzata {#update-personalized-offer}
 
-Puoi modificare o aggiornare un’offerta personalizzata effettuando una richiesta di PATCH al [!DNL Offer Library] API
+Puoi modificare o aggiornare un’offerta personalizzata effettuando una richiesta PATCH al [!DNL Offer Library] API
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta il [Documentazione sulle patch JSON](http://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](http://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -36,7 +36,7 @@ PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le offerte personalizzate. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
@@ -71,13 +71,13 @@ curl -X PATCH \
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata dell’operazione utilizzata per definire l’azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`e `remove`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
-| `value` | Il nuovo valore con cui si desidera aggiornare il parametro. |
+| `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-Una risposta di successo restituisce i dettagli aggiornati dell’offerta personalizzata, compreso l’ID istanza univoco e l’offerta personalizzata `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati dell’offerta personalizzata, inclusi l’ID istanza univoco e l’offerta personalizzata `@id`.
 
 ```json
 {

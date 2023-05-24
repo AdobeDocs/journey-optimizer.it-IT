@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # updateTimeZone {#updateTimeZone}
 
-Restituisce una nuova data e un nuovo fuso orario nello stesso istante.
+Restituisce una nuova data e ora, con un nuovo fuso orario nello stesso istante.
 
 ## Categoria
 
@@ -28,7 +28,7 @@ Data
 
 ## Parametri
 
-* id fuso orario: string
+* id fuso orario: stringa
 * dateTime
 
 ## Firma e tipo restituito

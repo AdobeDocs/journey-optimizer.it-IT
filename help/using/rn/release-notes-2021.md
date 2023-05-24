@@ -49,7 +49,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 <tbody>
 <tr>
 <td>
-<p>Ora puoi simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento nell’interfaccia utente di Journey Optimizer. Questo ti consente di convalidare facilmente la logica decisionale, compresi i vincoli di idoneità e gli algoritmi di classificazione, prima di inserirli in produzione. Questa funzionalità consente agli utenti non tecnici e tecnici di testare rapidamente la gestione delle decisioni e di risolvere eventuali problemi.</p>
+<p>Ora puoi simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento nell’interfaccia utente di Journey Optimizer. Questo ti consente di convalidare facilmente la logica decisionale, compresi i vincoli di idoneità e gli algoritmi di classificazione, prima di inserirli in produzione. Questa funzionalità consente agli utenti tecnici e non di testare rapidamente la gestione delle decisioni e risolvere potenziali problemi.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-activities/simulation.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -291,7 +291,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 * È stato risolto un problema di accessibilità nella navigazione della scheda dei messaggi.
 * È stato risolto un problema di localizzazione nelle etichette di e-mail designer.
-* È stato risolto un problema che si verificava selezionando più nodi in un percorso e facendo clic su &#39;Elimina&#39; nel riquadro delle proprietà.
+* È stato risolto un problema che si verificava selezionando più nodi in un percorso e facendo clic su &quot;Elimina&quot; nel riquadro delle proprietà.
 * È stato risolto un problema che impediva l’aggiunta di una nuova intestazione a un’azione utilizzata in un percorso.
 * Ora puoi scoprire il motivo per cui una creazione di un predefinito di messaggio non è riuscita tramite un avviso più esplicito nell’interfaccia utente.
 
@@ -342,11 +342,11 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](../configuration/external-systems.md#capping)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
 * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso. [Ulteriori informazioni](../start/user-interface.md#filter-lists)
-* La **[!UICONTROL Velocità di limitazione]** È stato aggiunto il parametro nell’attività Leggi segmento . [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il **[!UICONTROL Tasso di limitazione]** Il parametro è stato aggiunto nell’attività Leggi segmento. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Anteprima e test**
 
-* L’identità e lo spazio dei nomi sono ora visibili nella **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../email/preview.md#preview-your-messages)
+* L’identità e lo spazio dei nomi sono ora visibili nel **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../email/preview.md#preview-your-messages)
 * Il numero di e-mail di prova per le bozze è ora limitato a 10.
 * I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../email/preview.md#send-proofs)
 
@@ -359,6 +359,6 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 * È stato risolto un problema che causava la consegna di messaggi duplicati per la consegna di e-mail in batch.
 * Gli eventi vengono ora generati di conseguenza quando l’invio e-mail non viene eseguito una volta terminato il periodo di esecuzione dei nuovi tentativi.
 * È stato risolto un problema a causa del quale le informazioni IP mancavano nella schermata Record PTR.
-* La localizzazione nella barra delle offerte nell’editor espressioni è ora implementata.
+* È ora implementata la localizzazione nella barra delle offerte nell’editor di espressioni.
 * È stata corretta la spaziatura errata nei popup delle informazioni.
 * È stato risolto un problema in E-mail designer durante il caricamento di un file HTML in cui il foglio di stile interno con proprietà `background-image` non era supportato.

@@ -30,25 +30,25 @@ ht-degree: 10%
 
 ## Informazioni sui pool IP {#about-ip-pools}
 
-Con [!DNL Journey Optimizer], puoi creare pool IP per raggruppare gli indirizzi IP dei sottodomini.
+Con [!DNL Journey Optimizer], puoi creare pool IP per raggruppare gli indirizzi IP dei tuoi sottodomini.
 
-La creazione di pool IP è vivamente consigliata per il recapito messaggi e-mail. In questo modo puoi evitare che la reputazione di un sottodominio influisca sugli altri sottodomini.
+La creazione di pool IP è vivamente consigliata per il recapito messaggi e-mail. In questo modo, puoi evitare che la reputazione di un sottodominio influisca sugli altri sottodomini.
 
-Ad esempio, una best practice consiste nell’avere un pool IP per i messaggi di marketing e un altro per i messaggi transazionali. In questo modo, se uno dei tuoi messaggi di marketing funziona correttamente e viene dichiarato come spam da un cliente, questo non influenzerà i messaggi transazionali inviati allo stesso cliente, che riceverà comunque messaggi transazionali (conferme di acquisto, messaggi di recupero password, ecc.).
+Ad esempio, una best practice consiste nell’avere un pool IP per i messaggi di marketing e un altro per i messaggi transazionali. In questo modo, se uno dei messaggi di marketing non funziona correttamente e viene dichiarato come spam da un cliente, questo non influirà sui messaggi transazionali inviati allo stesso cliente, che riceverà comunque messaggi transazionali (conferme di acquisto, messaggi di recupero password, ecc.).
 
 >[!CAUTION]
 >
->La configurazione del pool IP è comune a tutti gli ambienti. Pertanto, qualsiasi creazione o edizione di pool IP influirà anche sulle sandbox di produzione.
+>La configurazione del pool IP è comune a tutti gli ambienti. Pertanto, qualsiasi creazione o modifica di pool IP influirà anche sulle sandbox di produzione.
 
 ## Creare un pool IP {#create-ip-pool}
 
-Per creare un pool IP, effettua le seguenti operazioni:
+Per creare un pool IP, eseguire la procedura seguente:
 
-1. Accedere al **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Pool IP]** menu, quindi fai clic su **[!UICONTROL Crea pool IP]**.
+1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Pool IP]** , quindi fai clic su **[!UICONTROL Crea pool IP]**.
 
    ![](assets/ip-pool-create.png)
 
-1. Immetti un nome e una descrizione (facoltativi) per il pool IP.
+1. Specifica un nome e una descrizione (facoltativa) per il pool IP.
 
    >[!NOTE]
    >
@@ -60,65 +60,65 @@ Per creare un pool IP, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Nell’elenco sono disponibili tutti gli indirizzi IP forniti con la tua istanza.
+   >Tutti gli indirizzi IP forniti con la tua istanza sono disponibili nell’elenco.
 
-Quando selezioni gli IP, puoi vedere dall’elenco i record PTR associati agli IP. Questo consente di verificare le informazioni di branding per ogni IP durante la creazione di un pool IP e di selezionare ad esempio IP con le stesse informazioni di branding. [Ulteriori informazioni sui record PTR](ptr-records.md)
+Quando selezioni gli IP, puoi visualizzare dall’elenco i record PTR associati agli IP. Questo consente di verificare le informazioni di branding per ogni IP durante la creazione di un pool IP e di selezionare, ad esempio, gli IP con le stesse informazioni di branding. [Ulteriori informazioni sui record PTR](ptr-records.md)
 
 ![](assets/ip-pool-ptr-record.png)
 
 >[!NOTE]
 >
->Se non è configurato alcun record PTR per un IP, non è possibile selezionare tale IP. Rivolgiti al tuo rappresentante Adobe per configurare il record PTR di quell’IP.
+>Se per un IP non è configurato alcun record PTR, non è possibile selezionare tale IP. Rivolgiti al rappresentante del tuo Adobe per configurare il record PTR di tale IP.
 
-Dopo la creazione di un pool IP, le informazioni PTR sono visibili quando passi il cursore sopra gli indirizzi IP visualizzati sotto l’elenco a discesa del pool IP.
+Dopo la creazione di un pool IP, le informazioni PTR sono visibili quando si passa il mouse sugli indirizzi IP visualizzati sotto l&#39;elenco a discesa del pool IP.
 
 ![](assets/ip-pool-ptr-record-tooltip.png)
 
-Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarlo per accedere alle relative proprietà e visualizzare la superficie del canale associata (ad esempio, un messaggio preimpostato). Per ulteriori informazioni su come associare una superficie di canale a un pool IP, consulta [questa sezione](channel-surfaces.md).
+Il pool IP viene ora creato e visualizzato nell’elenco. Puoi selezionarla per accedere alle relative proprietà e visualizzare la superficie di canale associata (ossia il predefinito per messaggi). Per ulteriori informazioni su come associare una superficie di canale a un pool IP, consulta [questa sezione](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
 ## Modificare un pool IP {#edit-ip-pool}
 
-Per modificare un pool IP, segui i passaggi seguenti.
+Per modificare un pool IP, effettua le seguenti operazioni.
 
 1. Dall’elenco, fai clic sul nome del pool IP per aprirlo.
 
    ![](assets/ip-pool-list.png)
 
-1. Modifica le proprietà desiderate. Puoi modificare la descrizione e aggiungere o rimuovere indirizzi IP.
+1. Modificane le proprietà come desiderato. Puoi modificare la descrizione e aggiungere o rimuovere indirizzi IP.
 
    >[!NOTE]
    >
-   >Il nome del pool IP non è modificabile. Se desideri modificarlo, devi eliminare il pool IP e crearne un altro con il nome desiderato.
+   >Impossibile modificare il nome del pool IP. Se desideri modificarlo, elimina il pool IP e creane un altro con il nome desiderato.
 
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
-   >Procedi con maggiore attenzione quando consideri l’eliminazione di un IP, in quanto questo causerà un ulteriore carico sugli altri IP e potrebbe avere gravi ripercussioni sul recapito messaggi. In caso di dubbio, contatta un esperto di recapito.
+   >Procedi con ulteriore cautela quando consideri di eliminare un IP, in quanto questo comporterà un carico aggiuntivo sugli altri IP e potrebbe avere gravi ripercussioni sulla consegna dei messaggi. In caso di dubbi, contatta un esperto di consegna.
 
 1. Salva le modifiche.
 
-L’aggiornamento ha effetto immediato o asincrono, a seconda che il pool IP sia associato a un [superficie del canale](channel-surfaces.md) o no:
+L’aggiornamento viene eseguito immediatamente o in modo asincrono, a seconda del pool IP associato a un [superficie di canale](channel-surfaces.md) oppure no:
 
-* Se il pool IP è **not** associato a qualsiasi superficie del canale, l&#39;aggiornamento è istantaneo (**[!UICONTROL Completato]** status).
-* Se il pool IP **è** associato a una superficie del canale, l’aggiornamento può richiedere fino a 3 ore (**[!UICONTROL Elaborazione]** status).
+* Se il pool IP è **non** associato a qualsiasi superficie di canale, l’aggiornamento è istantaneo (**[!UICONTROL Completato]** stato).
+* Se il pool IP **è** associato a una superficie di canale, l’aggiornamento può richiedere fino a 3 ore (**[!UICONTROL Elaborazione]** stato).
 
 >[!NOTE]
 >
->Quando [creazione di una superficie del canale](channel-surfaces.md#create-channel-surface), se selezioni un pool IP in edizione (**[!UICONTROL Elaborazione]** status) e non è mai stato associato al sottodominio selezionato per quella superficie, non è possibile procedere con la creazione della superficie. [Ulteriori informazioni](channel-surfaces.md#subdomains-and-ip-pools)
+>Quando [creazione di una superficie di canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP in corso di modifica (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato per quella superficie, non puoi procedere con la creazione della superficie. [Ulteriori informazioni](channel-surfaces.md#subdomains-and-ip-pools)
 
-Per controllare lo stato dell’aggiornamento del pool IP, fai clic sul pulsante **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Ultimi aggiornamenti]**.
+Per verificare lo stato di aggiornamento del pool IP, fare clic su **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Aggiornamenti recenti]**.
 
 ![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >
->Una volta aggiornato correttamente un pool IP, potresti dover attendere:
->* alcuni minuti prima che sia consumata dai messaggi unitari,
->* fino al batch successivo per l&#39;efficacia del pool IP nei messaggi batch.
+>Una volta aggiornato correttamente un pool IP, potrebbe essere necessario attendere:
+>* pochi minuti prima di essere utilizzato dai messaggi unitari,
+>* fino al successivo batch per rendere effettivo il pool IP nei messaggi batch.
 
 
-È inoltre possibile utilizzare **[!UICONTROL Elimina]** per eliminare un pool IP. Non è possibile eliminare un pool IP associato a una superficie del canale.
+È inoltre possibile utilizzare **[!UICONTROL Elimina]** per eliminare un pool IP. Non è possibile eliminare un pool IP associato a una superficie di canale.
 

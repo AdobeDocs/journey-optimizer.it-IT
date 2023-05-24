@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # toDateOnly{#toDateOnly}
 
-Converte un argomento in un valore di tipo dateOnly. Per ulteriori informazioni sui tipi di dati, consulta questo [sezione](../expression/data-types.md).
+Converte un argomento in un valore di tipo dateOnly. Per ulteriori informazioni sui tipi di dati, consulta [sezione](../expression/data-types.md).
 
 ## Categoria
 
@@ -30,10 +30,10 @@ Conversione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: only **datato** parte è considerata (fare riferimento a [RFC 3339, sezione 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
-| ora | dateTime |
+| Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: solo **full-date** parte è considerata (fare riferimento a [RFC 3339, paragrafo 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| data e ora | dateTime |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un&#39;epoch in millisecondi | numero intero |
+| valore intero di un’epoca in millisecondi | numero intero |
 
 ## Firme e tipi restituiti
 
@@ -55,7 +55,7 @@ Restituisce un valore di tipo dateOnly.
 
 `toDateOnly("2016-08-18T00:00:00")`
 
-tutti restituiscono un oggetto dateOnly che rappresenta 2016-08-18.
+tutti restituiscono un oggetto dateOnly che rappresenta il 18/08/2016.
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 

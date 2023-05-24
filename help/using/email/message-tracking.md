@@ -7,7 +7,7 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-keywords: collegamenti, tracking, monitoraggio, e-mail
+keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
@@ -18,11 +18,11 @@ ht-degree: 40%
 
 # Aggiungere collegamenti e tracciare i messaggi {#tracking}
 
-Utilizzo [!DNL Journey Optimizer] aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
+Utilizzare [!DNL Journey Optimizer] per aggiungere collegamenti al contenuto e tenere traccia dei messaggi inviati per monitorare il comportamento dei destinatari.
 
 ## Abilita tracciamento {#enable-tracking}
 
-Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Aperture e-mail]** e/o **[!UICONTROL Fai clic su e-mail]** quando crei il messaggio all’interno di un percorso o di una campagna.
+Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[!UICONTROL Aperture e-mail]** e/o **[!UICONTROL Fai clic sull’e-mail]** durante la creazione del messaggio all’interno di un percorso o di una campagna.
 
 >[!BEGINTABS]
 
@@ -40,10 +40,10 @@ Puoi abilitare il tracciamento a livello di messaggio e-mail controllando il **[
 >
 >Entrambe le opzioni sono abilitate per impostazione predefinita.
 
-In questo modo puoi tenere traccia del comportamento dei destinatari attraverso:
+In questo modo potrai tenere traccia del comportamento dei destinatari attraverso:
 
-* **[!UICONTROL Aperture e-mail]**: Messaggi aperti.
-* **[!UICONTROL Fai clic su e-mail]**: Fai clic sui collegamenti in un’e-mail.
+* **[!UICONTROL Aperture e-mail]**: messaggi aperti.
+* **[!UICONTROL Fai clic sull’e-mail]**: fa clic sui collegamenti all’interno di un’e-mail.
 
 ## Inserire i collegamenti {#insert-links}
 
@@ -51,7 +51,7 @@ Durante la progettazione di un messaggio, puoi aggiungere collegamenti al conten
 
 >[!NOTE]
 >
->Quando [tracciamento abilitato](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
+>Quando [il tracciamento è abilitato](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
 
 Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguente:
 
@@ -59,19 +59,19 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    ![](assets/message-tracking-insert-link.png)
 
-1. Scegli il tipo di collegamento che desideri creare:
+1. Scegli il tipo di collegamento da creare:
 
-   * **[!UICONTROL Collegamento esterno]**: Inserisci un collegamento a un URL esterno.
+   * **[!UICONTROL Collegamento esterno]**: inserisci un collegamento a un URL esterno.
 
-   * **[!UICONTROL Pagina di destinazione]**: Inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Rinuncia con un clic]**: Inserisci un collegamento per consentire agli utenti di annullare rapidamente l’iscrizione alle tue comunicazioni senza dover confermare l’rinuncia. Ulteriori informazioni in [questa sezione](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Rinuncia con un clic]**: inserisci un collegamento per consentire agli utenti di annullare rapidamente l’abbonamento alle comunicazioni senza la necessità di confermare la rinuncia. Ulteriori informazioni in [questa sezione](../privacy/opt-out.md#one-click-opt-out).
 
-   * **[!UICONTROL Opt-in/abbonamento esterno]**: Inserisci un collegamento per accettare la ricezione di comunicazioni dal tuo marchio.
+   * **[!UICONTROL Consenso/Iscrizione esterno]**: inserisci un collegamento per accettare la ricezione di comunicazioni dal brand.
 
-   * **[!UICONTROL Rinuncia/annullamento esterno dell’abbonamento]**: Inserisci un collegamento per non ricevere comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]**: inserisci un collegamento per annullare l’abbonamento alla ricezione di comunicazioni dal brand. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](../privacy/opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Pagina speculare]**: Inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
+   * **[!UICONTROL Pagina mirror]**: inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
 
 1. Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md#perso-urls).
 
@@ -79,20 +79,20 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Una volta creato il collegamento, puoi comunque modificarlo dal panello **[!UICONTROL Impostazioni componenti]** a destra.
 
-   * Puoi modificare il collegamento e modificarne il tipo.
+   * Puoi modificare il collegamento e cambiarne il tipo.
    * Puoi scegliere di sottolineare o meno il collegamento, selezionando l’opzione corrispondente.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), non necessaria per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita nella [superficie del canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
+>I messaggi e-mail di tipo Marketing devono includere [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definito in [superficie di canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
 
 ## Collegare a una pagina mirror {#mirror-page}
 
 La pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
 
-Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Pagina speculare]** come tipo di collegamento.
+Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Pagina mirror]** come tipo di collegamento.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -106,15 +106,15 @@ Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento d
 
 >[!NOTE]
 >
->In [prova](preview.md#send-proofs) inviato ai profili di test, il collegamento alla pagina speculare non è attivo. Viene attivato solo nei messaggi finali.
+>In [bozza](preview.md#send-proofs) inviato ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
 
-Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo tale ritardo, la pagina speculare non sarà più disponibile.
+Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo questo ritardo, la pagina speculare non sarà più disponibile.
 
 ## Gestire il tracciamento {#manage-tracking}
 
 [E-mail Designer](content-from-scratch.md) consente di gestire gli URL tracciati, ad esempio modificando il tipo di tracciamento per ogni collegamento.
 
-1. Fai clic sul pulsante **[!UICONTROL Collegamenti]** per visualizzare l’elenco di tutti gli URL del contenuto che verranno tracciati.
+1. Fai clic su **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare l’elenco di tutti gli URL del contenuto che verranno tracciati.
 
    Questo elenco consente di avere una visualizzazione centralizzata e di individuare ogni URL nel contenuto dell’e-mail.
 
@@ -131,17 +131,17 @@ Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo tale rita
    * **[!UICONTROL Pagina mirror]**: considera questo URL come un URL della pagina mirror.
    * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL.<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Il reporting su aperture e clic è disponibile nella [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).
+Il reporting sulle aperture e sui clic è disponibile nel [Rapporto live](../reports/live-report.md) e nella [Rapporto globale](../reports/global-report.md).
 
 ## Tracciamento URL {#url-tracking}
 
-Di solito [Tracciamento URL](email-settings.md#url-tracking) è gestito a livello di superficie, ma gli attributi di profilo non sono supportati. Attualmente l&#39;unico modo per farlo è quello di [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) in e-mail designer.
+Di solito [Tracciamento URL](email-settings.md#url-tracking) viene gestito a livello di superficie, ma gli attributi del profilo non sono supportati. Attualmente l&#39;unico modo per farlo è: [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) in e-mail designer.
 
-Per aggiungere parametri di tracciamento URL personalizzati ai collegamenti, segui i passaggi riportati di seguito.
+Per aggiungere parametri di tracciamento URL personalizzati ai collegamenti, segui i passaggi indicati di seguito.
 
 1. Seleziona un collegamento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
 
-1. Seleziona l’icona di personalizzazione. È disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento di annullamento dell’abbonamento** e **Rinuncia**.
+1. Seleziona l’icona di personalizzazione. È disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento per annullare l’iscrizione** e **Rinuncia**.
 
    ![](assets/message-tracking-insert-link-perso.png)
 
@@ -157,4 +157,4 @@ Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automatica
 
 >[!NOTE]
 >
->Per verificare l’URL finale, puoi [inviare una prova](preview.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
+>Per verificare l’URL finale, puoi: [invia una bozza](preview.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number

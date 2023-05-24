@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto di abbonamento
-description: Scopri come utilizzare i dati dei servizi di abbonamento con il rapporto globale Iscrizione
+title: Rapporto abbonamento
+description: Scopri come utilizzare i dati dei servizi di abbonamento con il rapporto globale sugli abbonamenti
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,24 +22,24 @@ ht-degree: 20%
 >title="Rapporto globale delle iscrizioni"
 >abstract="Il rapporto globale delle iscrizioni consente di misurare e visualizzare l’attività degli utenti iscritti in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
-L’abbonamento **[!UICONTROL Report globale]** visualizza i dettagli sull’attività degli abbonati in un periodo di tempo selezionato. Per misurare gli abbonamenti solo nelle ultime 24 ore, consulta [Rapporto live abbonamento](subscription-report-live.md).
+La sottoscrizione **[!UICONTROL Rapporto globale]** visualizza i dettagli sull’attività degli abbonati in un periodo di tempo selezionato. Per misurare solo gli abbonamenti nelle ultime 24 ore, consulta [Report live abbonamento](subscription-report-live.md).
 
-Per accedere ai rapporti, fai clic sul pulsante **[!UICONTROL Rapporto]** icona dell&#39;elenco di iscrizioni selezionato.
+Per accedere ai rapporti, fai clic su **[!UICONTROL Report]** dell&#39;elenco di iscrizioni selezionato.
 
 ![](assets/subscription_report_7.png)
 
-L’abbonamento **[!UICONTROL Report globale]** è suddiviso in diversi widget che descrivono in dettaglio i tuoi abbonamenti e annullamenti degli abbonamenti. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni su questo consulta [sezione](global-report.md).
+La sottoscrizione **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio gli abbonamenti e i loro annullamenti. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](global-report.md).
 
 ![](assets/subscription_report_1.png)
 
-La **[!UICONTROL Prestazioni abbonamento]** KPI e **[!UICONTROL Abbonamenti per percorso]**/**[!UICONTROL Annulla l’abbonamento per percorso]** Le tabelle descrivono nel dettaglio le informazioni principali relative al coinvolgimento dei visitatori con la pagina di destinazione. Le tabelle e i KPI contengono i dati disponibili relativi alla pagina di destinazione, ad esempio:
+Il **[!UICONTROL Prestazioni abbonamento]** KPI e **[!UICONTROL Iscrizioni per percorso]**/**[!UICONTROL Annulla iscrizione per percorso]** le tabelle descrivono le informazioni principali relative al coinvolgimento dei visitatori con la pagina di destinazione. Le tabelle e i KPI contengono i dati disponibili relativi alla pagina di destinazione, ad esempio:
 
-* **[!UICONTROL Abbonati]**: Numero totale di abbonamenti per il periodo in questione.
+* **[!UICONTROL Abbonamenti]**: numero totale di abbonamenti per il periodo in questione.
 
-* **[!UICONTROL Annulla sottoscrizione]**: Numero totale di annullamenti per il periodo in questione.
+* **[!UICONTROL Annulla iscrizione]**: numero totale di annullamenti di abbonamenti per il periodo in questione.
 
-La **[!UICONTROL Prestazioni abbonamento]** Il grafico mostra l’evoluzione delle sottoscrizioni per il periodo in questione.
+Il **[!UICONTROL Prestazioni abbonamento]** Il grafico mostra l’evoluzione degli abbonamenti per il periodo in questione.
 
 ![](assets/subscription_report_2.png)
 
-La **Abbonamenti - Suddivisione** e **Annulla sottoscrizioni - Suddivisione** rappresenta il numero totale di persone che hanno effettuato o annullato l’abbonamento nel periodo di tempo selezionato in base ai messaggi, alle pagine di destinazione e ai canali.
+Il **Iscrizioni - Raggruppamento** e **Annullamenti iscrizione - Raggruppamento** rappresenta il numero totale di persone che hanno effettuato o annullato l’abbonamento nel periodo di tempo selezionato, a seconda dei messaggi, delle pagine di destinazione e dei canali.

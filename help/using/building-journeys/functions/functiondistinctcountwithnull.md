@@ -16,11 +16,11 @@ ht-degree: 22%
 
 # distinctCountWithNull {#distinctCountWithNull}
 
-Conta il numero di valori diversi, inclusi i valori nulli.
+Conta il numero di valori diversi, inclusi i valori Null.
 
 >[!NOTE]
 >
->Se l’elenco di destinazione è un listObject, è possibile utilizzare questa funzione solo nelle espressioni di azione personalizzate.
+>Se l’elenco di destinazione è un listObject, questa funzione può essere utilizzata solo nelle espressioni di azione personalizzate.
 
 ## Categoria
 

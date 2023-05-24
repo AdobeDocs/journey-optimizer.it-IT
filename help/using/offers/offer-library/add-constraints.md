@@ -37,29 +37,29 @@ ht-degree: 17%
 
 I vincoli ti consentono di definire le condizioni in cui verrà visualizzata un’offerta.
 
-1. Configura le **[!UICONTROL Idoneità offerta]**. [Ulteriori informazioni](#eligibility)
+1. Configurare **[!UICONTROL Idoneità dell’offerta]**. [Ulteriori informazioni](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. Definisci la **[!UICONTROL Priorità]** dell’offerta rispetto alle altre se l’utente è idoneo per più di un’offerta. Maggiore è la priorità di un’offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
+1. Definisci il **[!UICONTROL Priorità]** dell’offerta rispetto ad altre se l’utente è idoneo per più di un’offerta. Maggiore è la priorità di un’offerta, maggiore sarà la sua priorità rispetto ad altre offerte.
 
    ![](../assets/offer-priority.png)
 
-1. Specifica le offerte **[!UICONTROL Limitazione]**, ovvero il numero di volte in cui verrà presentata l’offerta. [Ulteriori informazioni](#capping)
+1. Specifica dell’offerta **[!UICONTROL Limitazione]**, ovvero il numero di volte in cui verrà presentata l’offerta. [Ulteriori informazioni](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. Fai clic su **[!UICONTROL Successivo]** per confermare tutti i vincoli definiti.
+1. Clic **[!UICONTROL Successivo]** per confermare tutti i vincoli definiti.
 
-Ad esempio, se imposti i vincoli seguenti:
+Ad esempio, se impostate i seguenti vincoli:
 
 ![](../assets/offer-constraints-example.png)
 
 * L’offerta verrà considerata solo per gli utenti che corrispondono alla regola di decisione &quot;Clienti Gold Loyalty&quot;.
-* La priorità dell&#39;offerta è impostata su &quot;50&quot;, il che significa che l&#39;offerta sarà presentata prima delle offerte con una priorità compresa tra 1 e 49 e dopo quelle con una priorità di almeno 51.
-* L’offerta verrà presentata una sola volta al mese per utente in tutti i posizionamenti.
+* La priorità dell’offerta è impostata su &quot;50&quot;, il che significa che l’offerta sarà presentata prima delle offerte con priorità tra 1 e 49 e dopo quelle con priorità di almeno 51.
+* L’offerta verrà presentata solo una volta al mese per utente in tutti i posizionamenti.
 
-## Ammissibilità {#eligibility}
+## Idoneità {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
@@ -77,55 +77,55 @@ Ad esempio, se imposti i vincoli seguenti:
 >title="Stima totale dei profili"
 >abstract="Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati."
 
-La **[!UICONTROL Idoneità offerta]** La sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole decisionali.
+Il **[!UICONTROL Idoneità dell’offerta]** Questa sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole di decisione.
 
 >[!NOTE]
 >
->Ulteriori informazioni sull&#39;utilizzo di **segmenti** contro **norme decisionali** in [questa sezione](#segments-vs-decision-rules).
+>Ulteriori informazioni sull’utilizzo di **segmenti** rispetto a **regole di decisione** in [questa sezione](#segments-vs-decision-rules).
 
-* Per impostazione predefinita, la **[!UICONTROL Tutti i visitatori]** viene selezionata, il che significa che qualsiasi profilo sarà idoneo per la presentazione dell’offerta.
+* Per impostazione predefinita, il **[!UICONTROL Tutti i visitatori]** L’opzione è selezionata, il che significa che qualsiasi profilo sarà idoneo per ricevere l’offerta.
 
    ![](../assets/offer-eligibility-default.png)
 
 * Puoi anche limitare la presentazione dell’offerta ai membri di uno o più [Segmenti Adobe Experience Platform](../../segment/about-segments.md).
 
-   Per eseguire questa operazione, attiva il **[!UICONTROL Visitatori che rientrano in uno o più segmenti]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando la **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
+   A questo scopo, attiva il **[!UICONTROL Visitatori che rientrano in uno o più segmenti]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando il comando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
 
    ![](../assets/offer-eligibility-segment.png)
 
-* Per associare uno specifico [norma decisionale](../offer-library/creating-decision-rules.md) all’offerta, seleziona **[!UICONTROL Per regola decisionale definita]**, quindi trascina la regola desiderata dal riquadro di sinistra nel **[!UICONTROL Regola decisionale]** area.
+* Se si desidera associare un [regola di decisione](../offer-library/creating-decision-rules.md) all’offerta, seleziona **[!UICONTROL Per regola di decisione definita]**, quindi trascina la regola desiderata dal riquadro di sinistra a **[!UICONTROL Regola di decisione]** area.
 
    ![](../assets/offer_rule.png)
 
    >[!CAUTION]
    >
-   >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola decisionale basata su un [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
+   >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
 
-Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
 >[!NOTE]
 >
->Le stime del profilo non sono disponibili quando i parametri delle regole includono dati non presenti nel profilo, ad esempio dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia ≥ 80 gradi.
+>Le stime del profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
-### Utilizzo di segmenti e regole decisionali {#segments-vs-decision-rules}
+### Utilizzo di segmenti e regole di decisione {#segments-vs-decision-rules}
 
-Per applicare un vincolo, è possibile limitare la selezione delle offerte ai membri di uno o più **Segmenti Adobe Experience Platform** oppure puoi utilizzare un **norma decisionale**, entrambe le soluzioni corrispondenti a diversi utilizzi.
+Per applicare un vincolo, è possibile limitare la selezione delle offerte ai membri di uno o più **Segmenti Adobe Experience Platform**, oppure puoi utilizzare una **regola di decisione**, entrambe le soluzioni corrispondono a utilizzi diversi.
 
-In sostanza, l’output di un segmento è un elenco di profili, mentre una regola decisionale è una funzione eseguita su richiesta rispetto a un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è illustrata di seguito.
+Fondamentalmente, l’output di un segmento è un elenco di profili, mentre una regola di decisione è una funzione eseguita su richiesta su un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è descritta di seguito.
 
 * **Segmenti**
 
-   Da un lato, i segmenti sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica in base agli attributi di profilo e agli eventi di esperienza. Tuttavia, Gestione delle offerte non esegue il calcolo del segmento, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
+   Da un lato, i segmenti sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica basata sugli attributi del profilo e sugli eventi di esperienza. Tuttavia, Gestione offerte non ricalcola il segmento, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
 
    Ulteriori informazioni sui segmenti in [questa sezione](../../segment/about-segments.md).
 
 * **Regole di decisione**
 
-   D’altra parte, una regola decisionale si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’ultima e l’offerta migliore.
+   D’altra parte, una regola di decisione si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’offerta più recente e migliore.
 
-   Ulteriori informazioni sulle regole decisionali in [questa sezione](creating-decision-rules.md).
+   Ulteriori informazioni sulle regole di decisione in [questa sezione](creating-decision-rules.md).
 
 ## Limitazione {#capping}
 
@@ -150,29 +150,29 @@ In sostanza, l’output di un segmento è un elenco di profili, mentre una regol
 >title="Impression"
 >abstract="È possibile utilizzare le impression come eventi per i limiti solo per i canali in entrata."
 
-La limitazione di utilizzo viene utilizzata per definire il numero massimo di volte in cui è possibile presentare un’offerta.
+Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
-Limitare il numero di volte in cui gli utenti ricevono offerte specifiche ti consente di evitare di sollecitare eccessivamente i clienti e, quindi, di ottimizzare ogni punto di contatto con l’offerta migliore.
+Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore.
 
-Per impostare il limite, segui i passaggi principali riportati di seguito.
+Per impostare i limiti, attenersi alla procedura principale descritta di seguito.
 
-1. Assicurati che **[!UICONTROL Includi limite]** il pulsante di attivazione/disattivazione è selezionato. Per impostazione predefinita, la limitazione è inclusa.
+1. Assicurati che le **[!UICONTROL Includi limite]** pulsante di attivazione/disattivazione selezionato. Il limite è incluso per impostazione predefinita.
 
    >[!CAUTION]
    >
    >Non è possibile abilitare o disabilitare il limite di frequenza per le offerte create in precedenza. A questo scopo, devi duplicare l’offerta o crearne una nuova.
 
-1. Definisci quali **[!UICONTROL Evento di limitazione]** verrà preso in considerazione per aumentare il contatore. [Ulteriori informazioni](#capping-event)
+1. Definisci quale **[!UICONTROL Evento di limite]** per aumentare il contatore. [Ulteriori informazioni](#capping-event)
 
-1. Imposta il numero di volte in cui può essere presentata l’offerta. [Ulteriori informazioni](#capping-count)
+1. Imposta il numero di volte in cui è possibile presentare l’offerta. [Ulteriori informazioni](#capping-count)
 
-1. Scegli se applicare il limite a tutti gli utenti o a un solo profilo. [Ulteriori informazioni](#capping-type)
+1. Scegli se desideri applicare il limite a tutti gli utenti o a un solo profilo. [Ulteriori informazioni](#capping-type)
 
-1. Imposta la **[!UICONTROL Frequenza]** per definire la frequenza con cui viene reimpostato il conteggio dei limiti. [Ulteriori informazioni](#frequency-capping)
+1. Imposta il **[!UICONTROL Frequenza]** per definire la frequenza con cui viene reimpostato il conteggio dei limiti. [Ulteriori informazioni](#frequency-capping)
 
-1. Se ne hai definiti diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**. [Ulteriori informazioni](#placements)
+1. Se hai definito diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se desideri applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**. [Ulteriori informazioni](#placements)
 
-1. Una volta salvata e approvata, se all’offerta è stato presentato il numero di volte specificato in questo campo in base ai criteri e al periodo di tempo definito, la consegna verrà interrotta.
+1. Una volta salvata e approvata, se l’offerta è stata presentata il numero di volte che hai specificato in questo campo in base ai criteri e all’arco temporale definito, la sua consegna si interrompe.
 
 Il numero di volte in cui viene proposta un’offerta viene calcolato al momento della preparazione dell’e-mail. Ad esempio, se prepari un’e-mail contenente una serie di offerte, questi numeri vengono conteggiati in base al tetto massimo, indipendentemente dal fatto che l’e-mail venga inviata o meno.
 
@@ -180,51 +180,51 @@ Il numero di volte in cui viene proposta un’offerta viene calcolato al momento
 
 >[!NOTE]
 >
->I contatori di maschiatura vengono reimpostati quando l’offerta scade o due anni dopo la data di inizio dell’offerta, a seconda di quale dei due eventi si verifica per primi. Scopri come definire la data di un’offerta in [questa sezione](creating-personalized-offers.md#create-offer).
+>I contatori dei limiti vengono ripristinati alla scadenza dell’offerta o 2 anni dopo la data di inizio dell’offerta, a seconda di quale dei due eventi si verifica per primo. Scopri come definire la data di un’offerta in [questa sezione](creating-personalized-offers.md#create-offer).
 
-### Evento di limitazione {#capping-event}
+### Evento di limite {#capping-event}
 
-La **[!UICONTROL Evento di limitazione]** consente di definire quale campo **[!UICONTROL Evento di limitazione]** sarà preso in considerazione per aumentare il contatore:
+Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONTROL Evento di limite]** sarà preso in considerazione per aumentare il contatore:
 
 ![](../assets/offer-capping-event.png)
 
-* **[!UICONTROL Evento decisionale]** (valore predefinito): Numero massimo di volte in cui è possibile presentare un’offerta.
-* **[!UICONTROL Impression]**: Numero massimo di volte in cui l’offerta può essere visualizzata a un utente.
+* **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un’offerta.
+* **[!UICONTROL Impression]**: numero massimo di volte che l’offerta può essere visualizzata a un utente.
 
    >[!NOTE]
    >
    >L’utilizzo delle impression come eventi di limitazione è disponibile per **canali in entrata** solo.
 
-* **[!UICONTROL Clic]**: Numero massimo di volte in cui un utente può fare clic sull’offerta.
-* **[!UICONTROL Evento personalizzato]**: Puoi definire un evento personalizzato da utilizzare per limitare il numero di offerte inviate. Ad esempio, puoi limitare il numero di rimborsi fino a quando non sono pari a 10000, o fino a quando un determinato profilo non ha rimborsato 1 volta. Per farlo, utilizza [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per creare una regola evento personalizzata.
+* **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull’offerta.
+* **[!UICONTROL Evento personalizzato]**: puoi definire un evento personalizzato che verrà utilizzato per limitare il numero di offerte inviate. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono lo stesso 10000, o fino a quando un determinato profilo non viene rimborsato 1 volta. A tale scopo, utilizza [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per creare una regola evento personalizzata.
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
    Nell’esempio seguente, desideri limitare il numero di checkout.
 
-   1. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizza **[!UICONTROL Aggiungi evento personalizzato]** pulsante .
+   1. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizzare **[!UICONTROL Aggiungi evento personalizzato]** pulsante.
 
       ![](../assets/offer-capping-custom-event-add.png)
 
-   1. Utilizza la **[!UICONTROL Creare regole evento personalizzate]** Generatore per selezionare l’evento rilevante. Puoi scegliere qualsiasi azione dell’utente su cui desideri limitare il limite delle offerte.
+   1. Utilizza il **[!UICONTROL Creare regole evento personalizzate]** per selezionare l’evento rilevante. Puoi scegliere qualsiasi azione utente per la quale limitare le offerte.
 
-      Qui scegli **[!UICONTROL Commerce]** > **[!UICONTROL Pagamenti]** > **[!UICONTROL Valore]** e seleziona **[!UICONTROL esiste]** dall’elenco a discesa.
+      Scegli qui **[!UICONTROL Commerce]** > **[!UICONTROL Pagamenti]** > **[!UICONTROL Valore]** e seleziona **[!UICONTROL esiste]** dall’elenco a discesa.
 
       ![](../assets/offer-capping-custom-event.png)
 
-   1. Una volta creata la regola, questa viene visualizzata nella **[!UICONTROL Query evento personalizzata]** campo .
+   1. Una volta creata, la regola viene visualizzata nella **[!UICONTROL Query evento personalizzata]** campo.
 
       ![](../assets/offer-capping-custom-event-query.png)
 
 >[!CAUTION]
 >
->Per tutti gli eventi di tappatura eccetto l’evento decisionale, il feedback della gestione delle decisioni potrebbe non essere raccolto automaticamente, il che potrebbe causare un errato incremento del contatore di tapping. [Ulteriori informazioni](../data-collection/data-collection.md)
+>Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente e il contatore di limitazione potrebbe non essere incrementato correttamente. [Ulteriori informazioni](../data-collection/data-collection.md)
 >
->Per fare in modo che ogni evento di limitazione sia tracciato e contabilizzato nel contatore dei limiti, assicurati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. [Ulteriori informazioni](../data-collection/schema-requirement.md)
+>Per garantire che ogni evento di limitazione venga tracciato e contabilizzato nel contatore delle limitazioni, accertati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. [Ulteriori informazioni](../data-collection/schema-requirement.md)
 
-### Conteggio {#capping-count}
+### Conteggio limite {#capping-count}
 
-La **[!UICONTROL Conteggio]** consente di specificare il numero di volte in cui può essere presentata l’offerta.
+Il **[!UICONTROL Conteggio limite]** consente di specificare il numero di volte in cui è possibile presentare l’offerta.
 
 ![](../assets/offer-capping-times.png)
 
@@ -232,97 +232,97 @@ La **[!UICONTROL Conteggio]** consente di specificare il numero di volte in cui 
 >
 >Il numero deve essere un numero intero maggiore di 0.
 
-Ad esempio, hai definito un evento di limitazione personalizzata, ad esempio il numero di checkout, che viene preso in considerazione. Se immetti 10 nel campo **[!UICONTROL Conteggio]** campo , non verranno più inviate offerte dopo 10 checkout.
+Ad esempio, hai definito un evento di limite personalizzato, come il numero di checkout presi in considerazione. Se si immette 10 in **[!UICONTROL Conteggio limite]** , non verranno inviate altre offerte dopo 10 checkout.
 
-### Tipo di aggancio {#capping-type}
+### Tipo di limite {#capping-type}
 
-Puoi anche specificare se desideri che il limite sia applicato a tutti gli utenti o a un profilo specifico:
+Puoi anche specificare se applicare il limite a tutti gli utenti o a un profilo specifico:
 
 ![](../assets/offer-capping-total.png)
 
-* Seleziona **[!UICONTROL Totale]** per definire quante volte un’offerta può essere proposta tra il pubblico di destinazione combinato, ovvero tra tutti gli utenti.
+* Seleziona **[!UICONTROL In totale]** per definire quante volte un’offerta può essere proposta al pubblico target combinato, ovvero a tutti gli utenti.
 
-   Ad esempio, se sei un rivenditore di elettronica con un&#39;offerta di porta TV, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
+   Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
 
-* Seleziona **[!UICONTROL Per profilo]** per definire quante volte può essere proposta un’offerta allo stesso utente.
+* Seleziona **[!UICONTROL Per profilo]** per definire quante volte un’offerta può essere proposta allo stesso utente.
 
-   Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platinum&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito su di essa, ha una maggiore possibilità di agire sulla prossima offerta migliore.
+   Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
 
 ### Quota limite {#frequency-capping}
 
-La **[!UICONTROL Frequenza]** La sezione ti consente di definire la frequenza con cui viene reimpostato il conteggio dei limiti. A questo scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
+Il **[!UICONTROL Frequenza]** consente di definire la frequenza con cui viene reimpostato il conteggio dei limiti. A tale scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
 
 ![](../assets/offer-capping-frequency.png)
 
 >[!NOTE]
 >
->La reimpostazione avviene alle 12:00 UTC, nel giorno definito o il primo giorno della settimana/mese, se applicabile. Il giorno di inizio della settimana è domenica. La durata scelta non può superare i 2 anni (cioè il numero corrispondente di mesi, settimane o giorni).
+>Il ripristino avviene alle ore 12:00 UTC, nel giorno definito o, se del caso, nel primo giorno della settimana/mese. Il giorno di inizio della settimana è domenica. La durata scelta non può superare i 2 anni (ossia il numero corrispondente di mesi, settimane o giorni).
 
-Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Settimanale]** dal **[!UICONTROL Ripeti]** elenco a discesa e tipo **2** nell&#39;altro campo. Il reset avverrà ogni due domenica alle 12 UTC.
+Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Ogni settimana]** dal **[!UICONTROL Ripeti]** elenco a discesa e tipo **2** nell&#39;altro campo. Il ripristino avverrà ogni due domeniche alle 12:00 UTC.
 
 >[!CAUTION]
 >
 >Dopo aver salvato l’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza.
 
-### Blocco e posizionamenti {#placements}
+### Limitazioni e posizionamenti {#placements}
 
-Se ne hai definiti diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**.
+Se hai definito diversi [rappresentazioni](add-representations.md) per l’offerta, specifica se desideri applicare il limite **[!UICONTROL In tutti i posizionamenti]** o **[!UICONTROL Per ogni posizionamento]**.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL In tutti i posizionamenti]**: i conteggi dei massimali totalizzeranno tutte le decisioni nei posizionamenti associati all’offerta.
+* **[!UICONTROL In tutti i posizionamenti]**: i conteggi dei limiti calcolano il totale di tutte le decisioni relative ai posizionamenti associati all’offerta.
 
-   Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo in tutti i posizionamenti**, ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
+   Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo in tutti i posizionamenti**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
 
-* **[!UICONTROL Per ogni posizionamento]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ogni posizionamento.
+* **[!UICONTROL Per ogni posizionamento]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ciascun posizionamento.
 
-   Ad esempio, se un’offerta ha una **E-mail** posizionamento e **Web** e si imposta il limite su **2 per profilo per ogni posizionamento**, allora ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e un ulteriore 2 volte per il posizionamento web.
+   Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo per ciascun posizionamento**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e altre 2 volte per il posizionamento web.
 
-### Impatto della modifica delle date sul massimale {#capping-change-date}
+### Impatto della modifica delle date sui limiti {#capping-change-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
 >title="Modificare le date può influire sui limiti"
 >abstract="Se a questa offerta vengono applicati dei limiti, questi possono essere influenzati dalla modifica della data di inizio o di fine."
 
-È necessario prestare attenzione quando si modifica la data di un’offerta, perché questo può avere un impatto sui limiti se vengono soddisfatte le seguenti condizioni:
+Devi procedere con cautela quando modifichi la data di un’offerta, perché ciò può avere un impatto sui limiti se vengono soddisfatte le seguenti condizioni:
 
-* L&#39;offerta è [approvato](#review).
+* L’offerta è [approvato](#review).
 * [Limitazione](#capping) è già applicato all’offerta.
-* La limitazione di utilizzo è definita in base al profilo.
+* Il limite è definito per profilo.
 
 >[!NOTE]
 >
 >Scopri come definire la data di un’offerta in [questa sezione](creating-personalized-offers.md#create-offer).
 
-L’applicazione a capo per profilo memorizza i conteggi dei limiti su ciascun profilo. Quando modifichi la data di inizio e di fine di un’offerta approvata, il conteggio dei limiti per alcuni profili potrebbe essere interessato in base ai diversi scenari descritti di seguito.
+Il limite per profilo memorizza i conteggi dei limiti su ciascun profilo. Quando modifichi la data di inizio e di fine di un’offerta approvata, il conteggio dei limiti per alcuni profili potrebbe essere influenzato in base ai diversi scenari descritti di seguito.
 
 ![](../assets/offer-capping-change-date.png)
 
-Di seguito sono riportati gli scenari possibili quando **modifica di una data di inizio offerta**:
+Di seguito sono riportati gli scenari possibili in cui **modifica della data di inizio di un’offerta**:
 
-| Scenario:<br>Se... | Cosa succede:<br>allora... | Possibile impatto sul conteggio dei limiti |
+| Scenario<br>Se... | Cosa succede:<br>allora... | Possibile impatto sul numero di limiti |
 |--- |--- |--- |
-| ... la data di inizio dell’offerta viene aggiornata prima dell’inizio della data di inizio dell’offerta originale, | ... il conteggio dei limiti inizierà alla nuova data di inizio. | No |
-| ... la nuova data di inizio è anteriore alla data di fine corrente, | ... il limite continuerà con una nuova data di inizio e il precedente conteggio dei limiti per ciascun profilo verrà riportato. | No |
-| ... la nuova data di inizio è successiva alla data di fine corrente, | ... il limite attuale scade e il nuovo conteggio dei limiti ripartirà da 0 per tutti i profili alla nuova data di inizio. | Sì |
+| ... la data di inizio dell’offerta viene aggiornata prima della data di inizio dell’offerta originale, | ... il conteggio dei limiti inizierà nella nuova data di inizio. | No |
+| ... la nuova data di inizio è precedente alla data di fine corrente, | ... il limite continuerà con una nuova data di inizio e il conteggio dei limiti precedente per ciascun profilo verrà riportato avanti. | No |
+| ... la nuova data di inizio è successiva alla data di fine corrente, | ... il limite corrente scadrà e il nuovo conteggio dei limiti ricomincerà da 0 per tutti i profili nella nuova data di inizio. | Sì |
 
-Di seguito sono riportati gli scenari possibili quando **estensione di una data di fine offerta**:
+Di seguito sono riportati gli scenari possibili in cui **estensione di una data di fine offerta**:
 
-| Scenario:<br>Se... | Cosa succede:<br>allora... | Possibile impatto sul conteggio dei limiti |
+| Scenario<br>Se... | Cosa succede:<br>allora... | Possibile impatto sul numero di limiti |
 |--- |--- |--- |
-| ... una richiesta di decisione si verifica prima della data di fine dell’offerta originale, | ... il conteggio dei limiti verrà aggiornato e il conteggio dei limiti precedente per ciascun profilo verrà riportato. | No |
-| ... nessuna richiesta di decisione viene effettuata prima della data di fine originale, | ... il conteggio dei limiti verrà reimpostato sulla data di fine originale per ciascun profilo. Il nuovo conteggio dei limiti inizia da 0 per tutte le nuove richieste di decisione che verranno effettuate dopo la data di fine originale. | Sì |
+| ... una richiesta di decisioni si verifica prima della data di fine dell’offerta originale, | ... il conteggio dei limiti verrà aggiornato e il conteggio dei limiti precedente per ciascun profilo verrà riportato avanti. | No |
+| ... non si verifica alcuna richiesta di decisioni prima della data di fine originale, | ... il conteggio dei limiti verrà reimpostato sulla data di fine originale per ciascun profilo. Il nuovo conteggio dei limiti riprenderà quindi da 0 per tutte le nuove richieste di decisioni che si verificheranno dopo la data di fine originale. | Sì |
 
 **Esempio**
 
-Supponiamo di avere un&#39;offerta con una data di inizio originale impostata su **Gennaio 1**, in scadenza **31 gennaio**.
+Supponiamo che tu abbia un’offerta con una data di inizio originale impostata su **Gennaio 1**, scadenza il **31 gennaio**.
 
-1. Vengono presentati i profili X, Y e Z.
-1. On **Gennaio 10**, la data di fine dell’offerta viene modificata in **15 febbraio**.
-1. **Dall&#39;11 gennaio al 31 gennaio**, l’offerta viene presentata solo al profilo Z.
+1. Ai profili X, Y e Z viene presentata l’offerta.
+1. On **10 gennaio**, la data di fine dell’offerta viene modificata in **15 febbraio**.
+1. **Dall’11 gennaio al 31 gennaio**, all’offerta viene presentato solo il profilo Z.
 
-   * Perché una richiesta di decisione si è verificata prima della data di fine originale **per il profilo Z**, la data di fine dell’offerta può essere estesa a **15 febbraio**.
-   * Tuttavia, poiché non si è verificata alcuna attività prima della data di fine originale per **profili X e Y**, i loro contatori scadranno e i loro conteggi dei limiti saranno reimpostati a 0 su **31 gennaio**.
+   * Perché una richiesta di decisioni si è verificata prima della data di fine originale **per il profilo Z**, la data di fine dell’offerta può essere estesa a **15 febbraio**.
+   * Tuttavia, poiché non si è verificata alcuna attività prima della data di fine originale per **profili X e Y**, i contatori scadranno e i conteggi dei limiti verranno reimpostati su 0 il **31 gennaio**.
 
 ![](../assets/offer-capping-change-date-ex.png)

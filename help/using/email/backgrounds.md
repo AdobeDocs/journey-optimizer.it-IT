@@ -39,7 +39,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
    ![](assets/background_2.png)
 
-* Imposta un colore di sfondo diverso per ciascun componente della struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla palette a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
+* Imposta un colore di sfondo diverso per ciascun componente della struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla tavolozza a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
 
    Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
 
@@ -49,7 +49,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
    >[!NOTE]
    >
-   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
+   >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
    ![](assets/background_4.png)
 

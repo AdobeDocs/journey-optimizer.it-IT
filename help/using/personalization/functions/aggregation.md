@@ -15,11 +15,11 @@ ht-degree: 8%
 
 # Funzioni di aggregazione {#aggregation}
 
-Le funzioni di aggregazione vengono utilizzate per raggruppare più valori per formare un singolo valore di riepilogo.
+Le funzioni di aggregazione vengono utilizzate per raggruppare più valori in modo da formare un unico valore di riepilogo.
 
 ## Medio{#average}
 
-La `average` restituisce la media aritmetica di tutti i valori selezionati all&#39;interno dell&#39;array.
+Il `average` La funzione restituisce la media aritmetica di tutti i valori selezionati all’interno dell’array.
 
 **Sintassi**
 
@@ -37,7 +37,7 @@ L&#39;operazione seguente restituisce il prezzo medio di tutti gli ordini.
 
 ## Conteggio{#count}
 
-La `count` restituisce il numero di elementi all&#39;interno della matrice specificata.
+Il `count` La funzione restituisce il numero di elementi all’interno dell’array specificato.
 
 **Sintassi**
 
@@ -55,7 +55,7 @@ L&#39;operazione seguente restituisce il numero di ordini nell&#39;array.
 
 ## Massimo{#max}
 
-La `max` restituisce il valore più grande tra tutti i valori selezionati all&#39;interno dell&#39;array.
+Il `max` restituisce il più grande di tutti i valori selezionati all’interno dell’array.
 
 **Sintassi**
 
@@ -73,7 +73,7 @@ L&#39;operazione seguente restituisce il prezzo più alto di tutti gli ordini.
 
 ## Minimo{#min}
 
-La `min` restituisce il valore più piccolo tra tutti i valori selezionati all&#39;interno della matrice.
+Il `min` La funzione restituisce il più piccolo di tutti i valori selezionati all’interno dell’array.
 
 **Sintassi**
 
@@ -91,7 +91,7 @@ L&#39;operazione seguente restituisce il prezzo più basso di tutti gli ordini.
 
 ## Somma{#sum}
 
-La `sum` restituisce la somma di tutti i valori selezionati all&#39;interno della matrice.
+Il `sum` restituisce la somma di tutti i valori selezionati all’interno dell’array.
 
 **Sintassi**
 

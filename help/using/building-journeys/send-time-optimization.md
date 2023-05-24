@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Ottimizzazione dell’ora di invio
-description: Scopri come impostare i parametri per l’ottimizzazione del tempo di invio nei messaggi
+description: Scopri come impostare i parametri di ottimizzazione del tempo di invio nei messaggi
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, AI, Intelligente
+keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -23,20 +23,20 @@ ht-degree: 36%
 >title="Ottimizzazione dell’ora di invio"
 >abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
 
-La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici. Utilizza il nostro modello di apprendimento automatico per pianificare tempi di invio personalizzati per ogni utente in modo che aumentino le percentuali di apertura e clic dei messaggi.
+La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
 
-Il modello di ottimizzazione del momento di invio acquisisce i dati di Adobe Journey Optimizer ed esamina le percentuali di apertura a livello di utente (per e-mail e push) e di clic (per e-mail) per determinare quando è più probabile che i clienti interagiscano con i tuoi messaggi. Per formulare raccomandazioni informate, l’ottimizzazione in fase di invio richiede almeno un mese di dati di tracciamento dei messaggi. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i seguenti punteggi:
+Il modello di ottimizzazione dell’ora di invio acquisisce i dati Adobe Journey Optimizer e osserva le percentuali di apertura (e-mail e push) e clic (per e-mail) a livello di utente, per determinare quando i clienti hanno più probabilità di interagire con i messaggi. L’ottimizzazione dell’ora di invio richiede almeno un mese di dati di tracciamento dei messaggi per generare consigli informati. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i punteggi seguenti:
 
 * L&#39;ora migliore di ogni giorno della settimana per massimizzare il coinvolgimento
-* Il giorno migliore della settimana per massimizzare il coinvolgimento
+* Il miglior giorno della settimana per massimizzare il coinvolgimento
 * L&#39;ora migliore del giorno migliore della settimana per massimizzare il coinvolgimento
 
-Il modello varia a seconda che si tratti di punteggio o formazione. L&#39;addestramento viene effettuato inizialmente settimanalmente e poi trimestralmente. Il punteggio è inizialmente settimanale e poi mensile.
+Il modello varia a seconda che si parli di punteggio o di formazione. La formazione viene condotta inizialmente con cadenza settimanale e quindi trimestrale. Il punteggio è inizialmente settimanale e poi mensile.
 
-* Formazione: lo sviluppo dell’algoritmo utilizzato per ottenere il punteggio
-* Punteggio: applicazione di un punteggio a singoli profili in base al modello addestrato
+* Formazione: sviluppo dell’algoritmo utilizzato per assegnare il punteggio
+* Punteggio: applicazione di un punteggio ai singoli profili in base al modello addestrato
 
-Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si fa riferimento durante l’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
+Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa riferimento al momento dell’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
 
 >[!CAUTION]
 >
@@ -54,10 +54,10 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e a cui si 
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. Puoi anche restringere gli orari di invio utilizzati dal sistema immettendo un valore per l’opzione Invia entro."
 
-Abilita l’ottimizzazione in fase di invio su un messaggio e-mail o push selezionando la **Ottimizzazione dei tempi di invio** passa dai parametri dell’attività.
+Abilitare l’ottimizzazione dell’ora di invio in un messaggio e-mail o push selezionando la **Ottimizzazione dell’ora di invio** passa dai parametri dell’attività.
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Per i messaggi e-mail, scegli se ottimizzare le aperture dei messaggi e-mail o i click-through di e-mail selezionando il pulsante di scelta appropriato. Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push.
+Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push.
 
-Puoi anche scegliere di applicare una parentesi ai tempi di invio utilizzati dal sistema immettendo un valore per la **Invia all&#39;interno del successivo** opzione . Se si sceglie &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ogni profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
+È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per **Invia entro il prossimo** opzione. Se scegli &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ciascun profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: elenco dei campi evento
+title: elenco campi evento passaggio
 description: campi legacy
 feature: Reporting
 topic: Content Management
@@ -17,7 +17,7 @@ ht-degree: 50%
 
 # Informazioni sui campi legacy {#sharing-legacy-fields}
 
-Questa categoria contiene i campi evento del passaggio originale. Questi campi fanno parte dei seguenti gruppi di campi:
+Questa categoria contiene i campi dell’evento del passaggio originale. Questi campi fanno parte dei seguenti gruppi di campi:
 
 * [Campi comuni degli eventi journeySteps](../reports/sharing-common-fields.md)
 * [Campi di esecuzione dell’azione eventi journeyStep](../reports/sharing-execution-fields.md)

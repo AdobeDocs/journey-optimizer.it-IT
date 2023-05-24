@@ -1,6 +1,6 @@
 ---
-title: Cerca una raccolta
-description: Le raccolte sono sottoinsiemi di offerte in base a condizioni predefinite definite da un addetto al marketing, ad esempio la categoria dell’offerta.
+title: Cercare una raccolta
+description: Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,11 +13,11 @@ ht-degree: 3%
 
 ---
 
-# Cerca una raccolta {#look-up-collection}
+# Cercare una raccolta {#look-up-collection}
 
-Le raccolte sono sottoinsiemi di offerte in base a condizioni predefinite definite da un addetto al marketing, ad esempio la categoria dell’offerta.
+Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Puoi cercare raccolte specifiche effettuando una richiesta di GET al [!DNL Offer Library] API che include la raccolta `@id` o il nome della raccolta nel percorso della richiesta.
+Per cercare raccolte specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include la raccolta `@id` o il nome della raccolta nel percorso della richiesta.
 
 **Formato API**
 
@@ -27,11 +27,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Definisce lo schema associato alle raccolte. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Mobile demo` |
+| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Mobile demo` |
 
 **Richiesta**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del posizionamento, incluse informazioni sull’ID contenitore, l’ID istanza e la raccolta univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse le informazioni sull’ID contenitore, l’ID istanza e la raccolta univoca `@id`.
 
 ```json
 {

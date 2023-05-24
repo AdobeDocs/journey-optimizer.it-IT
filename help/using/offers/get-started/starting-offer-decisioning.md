@@ -37,7 +37,7 @@ I vantaggi includono:
 
 >[!NOTE]
 >
->Se sei un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} utente che sfrutta **offer decisioning** il servizio applicativo, tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche all&#39;utente.
+>Se sei un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} utente che sfrutta **Offer decisioning** tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche all&#39;utente.
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 

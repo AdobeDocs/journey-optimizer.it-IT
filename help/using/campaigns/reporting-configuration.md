@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare i rapporti di Journey Optimizer per la sperimentazione
+title: Configurare il reporting di Journey Optimizer per la sperimentazione
 description: Scopri come impostare l’origine dati per la generazione di rapporti
 feature: Data Sources
 topic: Administration
@@ -11,15 +11,15 @@ keywords: configurazione, sperimentazione, reporting, ottimizzatore
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informativo"
+badge: label="Beta" type="Informative"
 source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
-# Configurare i rapporti per la sperimentazione {#reporting-configuration}
+# Configurare la generazione di rapporti per la sperimentazione {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
@@ -45,13 +45,13 @@ Cosa troverai in questa documentazione:
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
-La configurazione dell’origine dati per la generazione di rapporti ti consente di recuperare metriche aggiuntive che verranno utilizzate nella **[!UICONTROL Obiettivi]** dei rapporti della campagna. [Ulteriori informazioni](content-experiment.md#objectives-global)
+La configurazione dell’origine dati per la generazione di rapporti ti consente di recuperare metriche aggiuntive che verranno utilizzate nel **[!UICONTROL Obiettivi]** dei rapporti della campagna. [Ulteriori informazioni](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >
 >La configurazione del reporting deve essere eseguita da un utente tecnico. <!--Rights?-->
 
-Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli elementi aggiuntivi che desideri utilizzare per i rapporti. A questo scopo, segui i passaggi [di seguito](#add-datasets).
+Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli elementi aggiuntivi che desideri utilizzare per i rapporti. A questo scopo, segui la procedura [sotto](#add-datasets).
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -62,19 +62,19 @@ Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli
 
 Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#create){target="_blank"}.
 
-* È possibile aggiungere solo set di dati di tipo evento.
+* Puoi aggiungere solo set di dati di tipo evento.
 
-* Questi set di dati devono contenere almeno uno dei seguenti [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli Web**.
+* Questi set di dati devono contenere almeno uno dei seguenti elementi [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli web**.
 
    >[!NOTE]
    >
    >Al momento sono supportati solo questi gruppi di campi.
 
-   Ad esempio, se desideri conoscere l’impatto di una campagna e-mail sui dati di e-mail, ad esempio acquisti o ordini, devi creare un set di dati evento esperienza con **Dettagli Commerce** gruppo di campi.
+   Ad esempio, se desideri conoscere l’impatto di una campagna e-mail sui dati di commerce, ad esempio acquisti o ordini, devi creare un set di dati evento esperienza con **Dettagli Commerce** gruppo di campi.
 
    Allo stesso modo, se desideri creare rapporti sulle interazioni mobili, devi creare un set di dati evento esperienza con **Dettagli applicazione** gruppo di campi.
 
-   Sono elencate le metriche corrispondenti a ciascun gruppo di campi [qui](#objective-list).
+   Vengono elencate le metriche corrispondenti a ciascun gruppo di campi [qui](#objective-list).
 
 * Puoi aggiungere questi gruppi di campi a uno o più schemi che verranno utilizzati in uno o più set di dati.
 
@@ -84,41 +84,41 @@ Prima di poter aggiungere un set di dati alla configurazione di reporting, devi 
 
 ## Obiettivi corrispondenti a ciascun gruppo di campi {#objective-list}
 
-La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obiettivi]** scheda dei rapporti della campagna per ciascun gruppo di campi.
+La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obiettivi]** dei rapporti della campagna per ciascun gruppo di campi.
 
 | Gruppo di campi | Obiettivi |
 |--- |--- |
-| Dettagli Commerce | Totale prezzo<br>Importo pagamento<br>Pagamenti (univoci)<br>(Univoco) Aggiunte all’elenco dei prodotti<br>Aperture elenco prodotti (univoche)<br>(Univoco) Rimozione elenco prodotti<br>Visualizzazioni elenco prodotti (univoche)<br>Visualizzazioni di prodotto (univoche)<br>(Unico) Acquisti<br>(Univoco) Salva Per I Latenti<br>Prezzo del prodotto totale<br>Quantità di prodotto |
-| Dettagli applicazione | Avvii di app (univoci)<br>Primi avvii dell’app<br>Installazioni delle app (univoche)<br>Aggiornamenti (univoci) alle app |
-| Dettagli Web | Visualizzazioni di pagina (univoche) |
+| Dettagli Commerce | Totale prezzo<br>Importo pagamento<br>(Univoco) Pagamenti<br>Aggiunte a elenco prodotti (univoche)<br>(Univoco) Aperture dell’elenco dei prodotti<br>Rimozione elenco prodotti (univoca)<br>(Univoco) Visualizzazioni elenco prodotti<br>(Univoco) Visualizzazioni prodotto<br>(Univoco) Acquisti<br>(Univoco) Salva Per Dopo<br>Totale prezzo prodotto<br>Quantità prodotto |
+| Dettagli applicazione | (Univoco) Avvii di app<br>Primi avvii app<br>(Univoco) Installazioni app<br>Aggiornamenti app (univoci) |
+| Dettagli web | (Univoco) Visualizzazioni pagina |
 
 ## Aggiungere set di dati {#add-datasets}
 
-1. Da **[!UICONTROL AMMINISTRAZIONE]** menu, seleziona **[!UICONTROL Configurazioni]**. In  **[!UICONTROL Reporting]** sezione, fai clic su **[!UICONTROL Gestisci]**.
+1. Dalla sezione **[!UICONTROL AMMINISTRAZIONE]** menu, seleziona **[!UICONTROL Configurazioni]**. In  **[!UICONTROL Generazione rapporti]** , fare clic su **[!UICONTROL Gestisci]**.
 
    ![](assets/reporting-config-menu.png)
 
    Viene visualizzato l’elenco dei set di dati già aggiunti.
 
-1. Da **[!UICONTROL Set di dati]** scheda , fai clic su **[!UICONTROL Aggiungi set di dati]**.
+1. Dalla sezione **[!UICONTROL Set di dati]** , fare clic su **[!UICONTROL Aggiungi set di dati]**.
 
    ![](assets/reporting-config-add.png)
 
    >[!NOTE]
    >
-   >Se selezioni la **[!UICONTROL Set di dati di sistema]** vengono visualizzati solo i set di dati creati dal sistema. Non potrai aggiungere altri set di dati.
+   >Se si seleziona la **[!UICONTROL Set di dati di sistema]** , vengono visualizzati solo i set di dati creati dal sistema. Non potrai aggiungere altri set di dati.
 
-1. Da **[!UICONTROL Set di dati]** dall’elenco a discesa, seleziona il set di dati da utilizzare per i rapporti.
+1. Dalla sezione **[!UICONTROL Set di dati]** dall’elenco a discesa, seleziona il set di dati da utilizzare per i rapporti.
 
    >[!CAUTION]
    >
-   >Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli Web**. Se selezioni un set di dati che non corrisponde a tali criteri, non potrai salvare le modifiche.
+   >Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei set di dati supportati [gruppi di campi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it#field-group){target="_blank"}: **Dettagli applicazione**, **Dettagli Commerce**, **Dettagli web**. Se selezioni un set di dati che non corrisponde a tali criteri, non potrai salvare le modifiche.
 
    ![](assets/reporting-config-datasets.png)
 
    Per ulteriori informazioni sui set di dati, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
 
-1. Da **[!UICONTROL ID profilo]** elenco a discesa, seleziona l’attributo del campo set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
+1. Dalla sezione **[!UICONTROL ID profilo]** dall’elenco a discesa, seleziona l’attributo del campo set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
 
    ![](assets/reporting-config-profile-id.png)
 
@@ -126,7 +126,7 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obi
    >
    >Vengono visualizzati solo gli ID disponibili per i rapporti.
 
-1. La **[!UICONTROL Usa spazio dei nomi ID primario]** è attivata per impostazione predefinita. Se selezionato **[!UICONTROL ID profilo]** è **[!UICONTROL Mappa identità]**, puoi disattivare questa opzione e scegliere un altro namespace dall’elenco a discesa visualizzato.
+1. Il **[!UICONTROL Usa spazio dei nomi ID primario]** è attivata per impostazione predefinita. Se il valore selezionato **[!UICONTROL ID profilo]** è **[!UICONTROL Mappa identità]**, è possibile disattivare questa opzione e scegliere un altro spazio dei nomi dall’elenco a discesa visualizzato.
 
    ![](assets/reporting-config-namespace.png)
 
@@ -138,7 +138,7 @@ La tabella seguente mostra quali metriche verranno aggiunte al **[!UICONTROL Obi
    >
    >Se hai selezionato un set di dati che non è di tipo evento, non potrai procedere.
 
-Quando crei i rapporti della campagna, ora puoi vedere le metriche corrispondenti ai gruppi di campi utilizzati nei set di dati aggiunti. Vai a **[!UICONTROL Obiettivi]** seleziona le metriche desiderate per ottimizzare i rapporti. [Ulteriori informazioni](content-experiment.md#objectives-global)
+Durante la creazione dei rapporti della campagna, ora puoi vedere le metriche corrispondenti ai gruppi di campi utilizzati nei set di dati aggiunti. Vai a **[!UICONTROL Obiettivi]** e seleziona le metriche desiderate per ottimizzare i rapporti. [Ulteriori informazioni](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 

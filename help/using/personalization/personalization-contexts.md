@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Contesti di personalizzazione
-description: Ulteriori informazioni su come personalizzare il contenuto e la visualizzazione dei messaggi.
+description: Scopri come personalizzare il contenuto e la visualizzazione dei messaggi.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -18,25 +18,25 @@ ht-degree: 21%
 
 # Contesti di personalizzazione{#personalization-areas}
 
-Contenuto e visualizzazione dei messaggi inviati da [!DNL Journey Optimizer] può essere personalizzato in diversi modi.
+Il contenuto e la visualizzazione dei messaggi consegnati da [!DNL Journey Optimizer] può essere personalizzato in diversi modi.
 
-In tutti i campi con l’icona dell’editor, puoi aprire l’editor di personalizzazione (noto anche come editor espressioni) e definire la personalizzazione.
+In ogni campo con l’icona dell’editor, puoi aprire l’editor di personalizzazione (noto anche come editor di espressioni) e definire la personalizzazione.
 
 ![](assets/perso_icon.png)
 
 ## Personalizzare le e-mail {#personalize-emails}
 
-Quando crei un messaggio e-mail, puoi aggiungere la personalizzazione nel **[!UICONTROL Linea oggetto]** campo del messaggio.
+Quando crei un messaggio e-mail, puoi aggiungere la personalizzazione nel **[!UICONTROL Oggetto]** del messaggio.
 
 ![](assets/perso_subject.png)
 
-Nella finestra di progettazione e-mail puoi personalizzare il contenuto:
+In E-mail designer, puoi personalizzare il contenuto:
 
-* In **message**: fai clic all’interno di un blocco di testo, fai clic sul pulsante **Aggiungi personalizzazione** dalla barra degli strumenti contestuale. Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta la sezione [sezione](../email/get-started-email-design.md).
+* In **messaggio**: fai clic all’interno di un blocco di testo, fai clic su **Aggiungi personalizzazione** dalla barra degli strumenti contestuale. Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta questa [sezione](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 
-* Per **collegamento**: seleziona un testo o un&#39;immagine all&#39;interno di un blocco di testo, fai clic sul pulsante **Inserisci collegamento** dalla barra degli strumenti contestuale. Nella finestra puoi aggiungere un blocco di personalizzazione facendo clic sul pulsante **Aggiungi personalizzazione** icona.
+* Per un **link**: seleziona del testo o dell’immagine all’interno di un blocco di testo, fai clic sulla **Inserisci collegamento** dalla barra degli strumenti contestuale. Nella finestra di, puoi aggiungere un blocco di personalizzazione facendo clic sul pulsante **Aggiungi personalizzazione** icona.
 
    ![](assets/perso_link.png)
 
@@ -46,12 +46,12 @@ In entrambi i casi, accedi all’editor di personalizzazione.
 
 ## Personalizzare le notifiche push {#personalize-push}
 
-Puoi anche personalizzare il tuo **Notifiche push** nei campi seguenti:
+Puoi anche personalizzare il tuo **Notifiche push** nei seguenti campi:
 
 * **Titolo**
 * **Corpo**
 * **Audio personalizzato**
-* **Badge**
+* **Distintivi**
 * **Dati personalizzati**
 
 ![](assets/perso_push.png)
@@ -66,7 +66,7 @@ Ulteriori informazioni sulla gestione dei contenuti con la gestione delle decisi
 
 ## Creare URL personalizzati{#personalize-urls}
 
-Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un sito web o verso un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.
+Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un sito web o verso un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer, puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.
 
 Scopri come inserire un URL personalizzato in [questa sezione](personalization-syntax.md#perso-urls).
 

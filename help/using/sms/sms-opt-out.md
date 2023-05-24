@@ -17,31 +17,31 @@ ht-degree: 31%
 
 # Gestione della rinuncia agli SMS {#sms-opt-out}
 
-In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. [Ulteriori informazioni sulla privacy e la gestione delle rinunce](../privacy/opt-out.md)
+In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. [Ulteriori informazioni sulla gestione della privacy e della rinuncia](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->Le comunicazioni tramite SMS possono essere soggette a vari requisiti di conformità legali a seconda della natura, della posizione da cui stai inviando i messaggi di testo e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi ai codici lunghi e ai numeri verdi come descritto di seguito, consulta il tuo consulente legale per assicurarti che le comunicazioni di SMS siano conformi a tutti i requisiti legali applicabili in materia di conformità.
+>Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi ai codici lunghi e ai numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni tramite SMS siano conformi a tutti i requisiti di conformità legale applicabili.
 
-## Parole chiave native in entrata{#sms-native-keywords}
+## Parole chiave in entrata native{#sms-native-keywords}
 
-Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta in lingua inglese standard per i messaggi Toll-Free e Long Code: INTERROMPI, INTERROMPI, INIZIA, ESCI, ANNULLA, FINE E ANNULLA ABBONAMENTO. Tieni presente che solo Sinch supporta le parole chiave native quando viene utilizzato con Journey Optimizer.
+Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi a pagamento e con codice lungo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Solo Sinch supporta le parole chiave native se utilizzato con Journey Optimizer.
 
-Queste parole chiave solitamente attivano una risposta standard automatica dal provider di terze parti. Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
+Queste parole chiave in genere attivano una risposta standard automatica dal provider di terze parti. Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
 
-Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS funzionino in Adobe Journey Optimizer in quanto le risposte alle parole chiave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE vengono automaticamente riconosciute. Gli stati di rinuncia ai profili vengono aggiornati in tempo reale in Adobe Journey Optimizer.
+Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS funzionino in Adobe Journey Optimizer, in quanto le risposte alle parole chiave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE vengono riconosciute automaticamente. Gli stati di rinuncia dei profili vengono aggiornati in tempo reale in Adobe Journey Optimizer.
 
 
-## Inserire nell&#39;elenco Bloccati{#sms-blocklists}
+## Inserisce nell&#39;elenco Bloccati{#sms-blocklists}
 
-Oltre a interrompere l’invio in base allo stato di rinuncia (per le integrazioni dirette con Twilio o Sinch), la maggior parte dei provider di gateway SMS mantiene anche un inserire nell&#39;elenco Bloccati Adobe Journey Optimizer che ti assicura che non venga consegnato un messaggio SMS a una persona che ha scelto di rinunciare. Se utilizzi un provider diverso da Sinch o Twilio e invii un SMS tramite [canale personalizzato](../building-journeys/using-custom-actions.md), devi confermarlo con il tuo provider.
+Oltre all’interruzione dell’invio da parte di Adobe Journey Optimizer in base allo stato di rinuncia (per le integrazioni dirette con Twilio o Sinch), la maggior parte dei provider di gateway SMS mantiene anche un inserisco nell&#39;elenco Bloccati di che ti assicura che non venga inviato un messaggio SMS a una persona che ha scelto la rinuncia. Se utilizzi un provider diverso da Sinch o Twilio e invii un SMS tramite [canale personalizzato](../building-journeys/using-custom-actions.md), è necessario confermarlo con il provider.
 
 
 ## Codici brevi {#short-codes}
 
-Per impostazione predefinita, Adobe Journey Optimizer non gestisce le parole chiave di consenso o aiuto per i numeri di codice brevi. Per garantire la conformità alle normative e alle regole del settore per la gestione delle rinunce, è essenziale verificare che il codice breve sia conforme a tutte le linee guida.
+Per impostazione predefinita, le parole chiave opt-in o help per i numeri di codice brevi non vengono gestite da Adobe Journey Optimizer. Per garantire la conformità alle normative di settore e alle regole per la gestione delle rinunce, è essenziale verificare che il codice breve sia conforme a tutte le linee guida.
 
-Tuttavia, Journey Optimizer supporta le rinunce globali basate su parole chiave in entrata con diversi ID mittente.
+Tuttavia, Journey Optimizer supporta le rinunce globali basate su parole chiave in arrivo con ID mittente diversi.
 
 ## ID mittente alfanumerico {#alphanumeric}
 

@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # lastIndexOf {#lastIndexOf}
 
-Restituisce la posizione (nel primo argomento) dell&#39;ultima occorrenza del secondo parametro. Restituisce -1 se non è presente alcuna corrispondenza.
+Restituisce la posizione (nel primo argomento) dell&#39;ultima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.
 
 ## Categoria
 
@@ -47,4 +47,4 @@ Restituisce 3.
 
 Spiegazione:
 
-In &quot;Hello&quot;, l&#39;ultima occorrenza di &quot;l&quot; è in posizione 3.
+In &quot;Hello&quot;, l&#39;ultima occorrenza di &quot;l&quot; è nella posizione 3.

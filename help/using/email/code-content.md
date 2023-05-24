@@ -24,9 +24,9 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
 
 >[!CAUTION]
 >
-> Immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md) impossibile fare riferimento quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
+> Immagini da [Adobe Experience Manager Assets Essentials](assets-essentials.md) non può essere utilizzato con riferimento quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
 
-1. Dalla home page di E-mail Designer, seleziona **[!UICONTROL Codice personalizzato]**.
+1. Dalla pagina Home di E-mail designer, seleziona **[!UICONTROL Crea il codice]**.
 
    ![](assets/code-your-own.png)
 
@@ -44,7 +44,7 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
    >
    >Questa azione apre il modello selezionato in E-mail Designer. Da lì puoi completare il design dell’e-mail o tornare all’editor di codice utilizzando l’opzione **[!UICONTROL Passa all’editor di codice]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione dei messaggi utilizzando i profili di test. [Ulteriori informazioni](preview.md)
+1. Fai clic su **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](preview.md)
 
    ![](assets/code-editor-preview.png)
 

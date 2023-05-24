@@ -1,6 +1,6 @@
 ---
 title: Consegnare offerte
-description: Gestione delle decisioni è una raccolta di servizi e programmi dell’interfaccia utente che consente agli esperti di marketing di creare e fornire esperienze di offerta personalizzate dagli utenti finali su canali e applicazioni utilizzando regole decisionali e logiche di business.
+description: Gestione delle decisioni è una raccolta di servizi e programmi di interfaccia utente che consente agli addetti marketing di creare e fornire esperienze di offerta personalizzate per l’utente finale tramite diversi canali e applicazioni utilizzando la logica di business e le regole decisionali.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,19 +13,19 @@ ht-degree: 3%
 
 ---
 
-# Consegnare offerte tramite l’API Decisioning {#decisioning-api}
+# Distribuire le offerte tramite l’API Decisioning {#decisioning-api}
 
-Con Gestione delle decisioni, puoi creare e fornire esperienze di offerta personalizzate per gli utenti finali, su più canali e applicazioni utilizzando la logica di business e le regole decisionali. Un’offerta è un messaggio di marketing a cui possono essere associate regole che specificano gli utenti idonei per visualizzare l’offerta.
+Con la funzione di gestione delle decisioni, puoi creare e fornire esperienze di offerta personalizzate per l’utente finale, per diversi canali e applicazioni utilizzando la logica di business e le regole decisionali. Un’offerta è un messaggio di marketing a cui possono essere associate delle regole che determinano gli utenti idonei per visualizzare l’offerta.
 
-Puoi creare e consegnare offerte effettuando una richiesta POST al [!DNL Decisioning] API.
+Per creare e consegnare le offerte, devi effettuare una richiesta POST al [!DNL Decisioning] API.
 
-Questa esercitazione richiede una comprensione funzionante delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, consulta la sezione [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md). Questa esercitazione richiede anche che sia disponibile un ID di posizionamento e un valore dell&#39;ID decisione univoci. Se non hai acquisito questi valori, consulta le esercitazioni per [creazione di un posizionamento](../offers-api/placements/create.md) e [creazione di una decisione](../activities-api/activities/create.md).
+Questo tutorial richiede una buona conoscenza delle API, in particolare per quanto riguarda la gestione delle decisioni. Per ulteriori informazioni, vedere [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md). Questo tutorial richiede anche di avere a disposizione un ID posizionamento e un valore ID decisione univoci. Se non hai acquisito questi valori, consulta i tutorial per [creazione di un posizionamento](../offers-api/placements/create.md) e [creazione di una decisione](../activities-api/activities/create.md).
 
 ➡️  [Scopri questa funzione nel video](#video)
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-Nella tabella seguente sono riportati i valori validi che comprendono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -42,7 +42,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### Richiesta
@@ -106,27 +106,27 @@ curl -X POST \
 
 | Proprietà | Descrizione | Esempio |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | Questo oggetto contiene gli identificatori di posizionamento e decisione. |
-| `xdm:propositionRequests.xdm:placementId` | Identificatore di posizionamento univoco. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
-| `xdm:propositionRequests.xdm:activityId` | Identificatore decisionale univoco. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
+| `xdm:propositionRequests` | Questo oggetto contiene gli identificatori di posizionamento e di decisione. |
+| `xdm:propositionRequests.xdm:placementId` | L’identificatore di posizionamento univoco. | `"xdm:placementId": "xcore:offer-placement:ffed0456"` |
+| `xdm:propositionRequests.xdm:activityId` | L’identificatore di decisione univoco. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Il numero di offerte da restituire. Il numero massimo è 30. | `"xdm:itemCount": 2` |
-| `xdm:profiles` | Questo oggetto contiene informazioni sul profilo per il quale viene richiesta la decisione. Per una richiesta API, questo conterrà un profilo. |
-| `xdm:profiles.xdm:identityMap` | Questo oggetto contiene un set di identità utente finale basate sul codice di integrazione dello spazio dei nomi dell&#39;identità. La mappa di identità può contenere più di un’identità per ogni namespace. Per ulteriori informazioni sugli spazi dei nomi, consulta [questa pagina](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
-| `xdm:profiles.xdm:decisionRequestId` | ID generato dal cliente che può essere utilizzato per identificare in modo univoco una richiesta di decisione del profilo. Questo ID viene riportato nella risposta e non influenza il risultato della decisione. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
-| `xdm:allowDuplicatePropositions` | Questo oggetto rappresenta la struttura di controllo delle regole di deduplicazione. È costituita da una serie di flag che indicano se la stessa opzione può essere proposta in una determinata dimensione. Un flag impostato su true indica che i duplicati sono consentiti e non devono essere rimossi tra le categorie indicate dal flag . Un flag impostato su false indica che il motore di decisione non deve effettuare la stessa proposta in tutta la dimensione e sceglie invece l’opzione migliore successiva per una delle decisioni secondarie. |
+| `xdm:profiles` | Questo oggetto contiene informazioni sul profilo per cui è richiesta la decisione. Per una richiesta API questo conterrà un profilo. |
+| `xdm:profiles.xdm:identityMap` | Questo oggetto contiene un set di identità dell’utente finale basate sul codice di integrazione dello spazio dei nomi dell’identità. La mappa delle identità può contenere più di un’identità di ogni spazio dei nomi. Per ulteriori informazioni sugli spazi dei nomi, consulta [questa pagina](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:decisionRequestId` | L’ID generato dal client che può essere utilizzato per identificare in modo univoco una richiesta di decisione di profilo. Questo ID viene ripreso nella risposta e non influenza l’esito della decisione. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
+| `xdm:allowDuplicatePropositions` | Questo oggetto rappresenta la struttura di controllo delle regole di deduplicazione. È costituito da una serie di flag che indicano se la stessa opzione può essere proposta in una determinata dimensione. Un flag impostato su true significa che i duplicati sono consentiti e non devono essere rimossi in tutta la categoria indicata dal flag. Un flag impostato su false significa che il motore decisionale non deve fare la stessa proposta in tutta la dimensione e scegliere invece l’opzione migliore successiva per una delle sottodecisioni. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Se è impostato su true, a più decisioni può essere assegnata la stessa opzione. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Se è impostato su true, a più posizionamenti può essere assegnata la stessa opzione. | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | Identifica il criterio di unione in base al quale governare i dati restituiti dal servizio di accesso al profilo. Se non ne viene specificato uno nella richiesta, la gestione delle decisioni non passerà nessun servizio di accesso al profilo, altrimenti passerà l&#39;id fornito dal chiamante. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | Identifica il criterio di unione in base al quale gestire i dati restituiti dal servizio di accesso al profilo. Se non ne viene specificato uno nella richiesta, la gestione delle decisioni non trasmette alcun servizio di accesso al profilo, altrimenti trasmette l’ID fornito dal chiamante. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Un set di flag che formatta il contenuto della risposta. |
-| `xdm:responseFormat.xdm:includeContent` | Un valore booleano che, se impostato su `true`, include il contenuto della risposta. | `"xdm:includeContent": true` |
-| `xdm:responseFormat.xdm:includeMetadata` | Oggetto utilizzato per specificare i metadati aggiuntivi restituiti. Se questa proprietà non è inclusa, allora `xdm:id` e `repo:etag` vengono restituiti per impostazione predefinita. | `name` |
+| `xdm:responseFormat.xdm:includeContent` | Valore booleano che, se impostato su `true`, include il contenuto della risposta. | `"xdm:includeContent": true` |
+| `xdm:responseFormat.xdm:includeMetadata` | Oggetto utilizzato per specificare i metadati aggiuntivi restituiti. Se questa proprietà non è inclusa, `xdm:id` e `repo:etag` vengono restituiti per impostazione predefinita. | `name` |
 | `xdm:responseFormat.xdm:activity` | Questo flag identifica le informazioni di metadati specifiche restituite per `xdm:activity`. | `name` |
 | `xdm:responseFormat.xdm:option` | Questo flag identifica le informazioni di metadati specifiche restituite per `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | Questo flag identifica le informazioni di metadati specifiche restituite per `xdm:placement`. | `name`, `channel`, `componentType` |
 
 ### Risposta
 
-Una risposta corretta restituisce informazioni sulla proposta, inclusa la relativa univocità `xdm:propositionId`.
+In caso di esito positivo, la risposta restituisce informazioni sulla proposta, comprese le sue caratteristiche univoche `xdm:propositionId`.
 
 ```json
 {
@@ -182,18 +182,18 @@ Una risposta corretta restituisce informazioni sulla proposta, inclusa la relati
 
 | Proprietà | Descrizione | Esempio |
 | -------- | ----------- | ------- |
-| `xdm:propositionId` | Identificatore univoco per l&#39;entità proposta associata a un elemento DecisionEvent XDM. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | Questo oggetto contiene una singola proposta di decisione. È possibile restituire più opzioni per la decisione. Se non viene trovata alcuna opzione, viene restituita l’offerta di fallback della decisione. Le singole proposte di decisione includono sempre una `options` proprietà o `fallback` proprietà. Se presente, il `options` La proprietà non può essere vuota. |
-| `xdm:propositions.xdm:activity` | Questo oggetto contiene l&#39;identificatore univoco di una decisione. | `"xdm:id": "xcore:activity:ffed0123"` |
-| `xdm:propositions.xdm:placement` | Questo oggetto contiene l’identificatore univoco di un posizionamento di offerta. | `"xdm:id": "xcore:placement:ffed0456"` |
-| `xdm:propositions.xdm:options` | Questo oggetto contiene una singola opzione, incluso il relativo identificatore univoco. Se presente, l&#39;oggetto non può essere vuoto. | `xdm:id": "xcore:personalized-option:ccc0111` |
-| `xdm:propositions.xdm:options.@type` | Definisce il tipo di componente. `@type` agisce come contratto di elaborazione per il cliente. Quando l&#39;esperienza viene assemblata, il compositore cercherà i componenti che hanno un tipo specifico. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
-| `xdm:propositions.xdm:content` | Il formato del contenuto della risposta. | Il contenuto della risposta può essere: `text`, `html block`oppure `image link` |
-| `xdm:score` | Punteggio per un&#39;opzione calcolata come risultato di una funzione di classificazione associata all&#39;opzione o alla decisione. Questo campo viene restituito dall’API se una funzione di classificazione è coinvolta nella determinazione del punteggio di un’offerta durante la classificazione. | `"xdm:score": 45.65` |
+| `xdm:propositionId` | L’identificatore univoco dell’entità proposta associata a un DecisionEvent XDM. | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
+| `xdm:propositions` | Questo oggetto contiene una singola proposta di decisione. È possibile restituire più opzioni per la decisione. Se non viene trovata alcuna opzione, viene restituita l’offerta di fallback della decisione. Le singole proposte di decisione includono sempre `options` proprietà o un `fallback` proprietà. Se presente, il `options` la proprietà non può essere vuota. |
+| `xdm:propositions.xdm:activity` | Questo oggetto contiene l’identificatore univoco di una decisione. | `"xdm:id": "xcore:activity:ffed0123"` |
+| `xdm:propositions.xdm:placement` | Questo oggetto contiene l’identificatore univoco per il posizionamento di un’offerta. | `"xdm:id": "xcore:placement:ffed0456"` |
+| `xdm:propositions.xdm:options` | Questo oggetto contiene una singola opzione, incluso il relativo identificatore univoco. Se presente, questo oggetto non può essere vuoto. | `xdm:id": "xcore:personalized-option:ccc0111` |
+| `xdm:propositions.xdm:options.@type` | Definisce il tipo di componente. `@type` funge da contratto di elaborazione per il cliente. Quando l&#39;esperienza viene assemblata, il compositore cercherà i componenti che hanno un tipo specifico. | `https://ns.adobe.com/experience/offer-management/content-component-imagelink` |
+| `xdm:propositions.xdm:content` | Il formato del contenuto della risposta. | Il contenuto della risposta può essere: `text`, `html block`, o `image link` |
+| `xdm:score` | Il punteggio di un’opzione calcolato come risultato di una funzione di classificazione associata all’opzione o alla decisione. Questo campo verrà restituito dall’API se una funzione di classificazione è coinvolta nella determinazione del punteggio di un’offerta durante la classificazione. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Questo oggetto contiene una singola offerta di fallback, incluso il relativo identificatore univoco. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di supporto della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l&#39;elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati multimediali del computer. | `"dc:format": "image/png"` o `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l’elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici. | `"dc:format": "image/png"` o `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Un URL facoltativo per leggere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
-| `ode:createDate` | Data e ora di creazione del messaggio di risposta della decisione. Questo è rappresentato come tempo epoca. | `"ode:createDate": 1566497582038` |
+| `ode:createDate` | L’ora in cui è stato creato il messaggio di risposta alla decisione. Questo è rappresentato come tempo dell&#39;epoca. | `"ode:createDate": 1566497582038` |
 
 **Codici di risposta**
 
@@ -201,24 +201,24 @@ La tabella seguente elenca tutti i codici che possono essere restituiti nella ri
 
 | Codice | Descrizione |
 |  ---  |  ---  |
-| 200 | Operazione riuscita. È stata presa una decisione per determinate attività |
-| 400 | Parametro di richiesta non valido. La richiesta non può essere compresa dal server a causa di una sintassi non corretta. |
-| 403 | Autorizzazioni proibite e insufficienti. |
+| 200 | Operazione riuscita. La decisione è stata presa per determinate attività |
+| 400 | Parametro di richiesta non valido. Impossibile comprendere la richiesta dal server a causa di sintassi non valida. |
+| 403 | Autorizzazioni non consentite, insufficienti. |
 | 422 | Entità non elaborabile. La sintassi della richiesta è corretta, tuttavia, a causa di errori semantici non è possibile elaborarla. |
-| 429 | Troppe richieste. L&#39;utente ha inviato troppe richieste in un dato periodo di tempo. |
-| 500 | Errore interno del server. Il server ha rilevato una condizione imprevista che ne ha impedito l&#39;esecuzione della richiesta. |
+| 429 | Troppe richieste. L’utente ha inviato troppe richieste in un determinato periodo di tempo. |
+| 500 | Errore interno del server. Il server ha rilevato una condizione imprevista che ha impedito il completamento della richiesta. |
 | 503 | Servizio non disponibile a causa di sovraccarico del server. Il server non è attualmente in grado di gestire la richiesta a causa di un sovraccarico temporaneo. |
 
 ## Video tutorial {#video}
 
-Il seguente video è pensato per aiutarti a comprendere i componenti di Gestione delle decisioni.
+Il video seguente ha lo scopo di aiutarti a comprendere i componenti di Gestione delle decisioni.
 
 >[!NOTE]
 >
->Questo video si applica al servizio di applicazione Offer Decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offerta nel contesto di Journey Optimizer.
+>Questo video si applica al servizio applicativo di Offer decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offer nel contesto di Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 
 ## Passaggi successivi {#next-steps}
 
-Seguendo questa guida API, hai creato e consegnato le offerte utilizzando [!DNL Decisions] API. Per ulteriori informazioni, consulta la sezione [Panoramica sulla gestione delle decisioni](../../../offers/get-started/starting-offer-decisioning.md).
+Seguendo questa guida API, hai creato e consegnato offerte utilizzando [!DNL Decisions] API. Per ulteriori informazioni, vedere [panoramica sulla gestione delle decisioni](../../../offers/get-started/starting-offer-decisioning.md).

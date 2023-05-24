@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rapporto live dei percorsi
-description: Scopri come utilizzare i dati del report live del percorso
+description: Scopri come utilizzare i dati dal rapporto live del percorso
 feature: Reporting
 topic: Content Management
 role: User
@@ -22,136 +22,136 @@ ht-degree: 5%
 >title="Rapporto live dei percorsi"
 >abstract="Il rapporto live dei percorsi consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di un percorso. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
-È possibile accedere al rapporto percorso live direttamente dal percorso con **[!UICONTROL Visualizza rapporto]** pulsante .
+Il report live del percorso è accessibile direttamente dal percorso con **[!UICONTROL Visualizza rapporto]** pulsante.
 
 ![](assets/report_journey.png)
 
-Il percorso **[!UICONTROL Report live]** La pagina verrà visualizzata con le seguenti schede:
+Il percorso **[!UICONTROL Rapporto live]** La pagina verrà visualizzata con le seguenti schede:
 
 * [Percorso](#journey-live)
 * [E-mail](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 
-Il percorso **[!UICONTROL Report live]** è diviso in diversi widget che descrivono il successo e gli errori del tuo percorso. Se necessario, ogni widget può essere ridimensionato ed eliminato. Per ulteriori informazioni, consulta questo [sezione](live-report.md#modify-dashboard).
+Il percorso **[!UICONTROL Rapporto live]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori del percorso. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
 
-Per un elenco dettagliato di ciascuna metrica disponibile in Adobe Journey Optimizer, consulta [questa pagina](live-report.md#list-of-components-live).
+Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](live-report.md#list-of-components-live).
 
-## scheda percorso {#journey-live}
+## Scheda percorso {#journey-live}
 
-Dal tuo percorso **[!UICONTROL Report live]**, **[!UICONTROL Percorso]** tab ti offre una visualizzazione chiara dei dati di tracciamento più importanti sul tuo percorso.
+Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL Percorso]** fornisce una visualizzazione chiara dei dati di tracciamento più importanti sul percorso.
 
 ![](assets/journey_live_1.png)
 
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il report di Percorso.
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto sul Percorso.
 
-**[!UICONTROL Prestazioni del percorso]** ti consente di visualizzare il percorso dei profili di destinazione passo dopo passo nel percorso.
+**[!UICONTROL Prestazioni percorso]** consente di visualizzare il percorso dei profili di destinazione passo dopo passo nel percorso.
 
-La **[!UICONTROL Statistiche percorso]** widget visualizza i KPI seguenti:
+Il **[!UICONTROL Statistiche percorso]** Il widget visualizza i KPI seguenti:
 
-* **[!UICONTROL Profili inseriti]**: Numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
+* **[!UICONTROL Profili immessi]**: numero totale di individui che hanno raggiunto l’evento di ingresso del percorso.
 
-* **[!UICONTROL Profili usciti]**: Numero totale di persone uscite dal percorso.
+* **[!UICONTROL Profili in uscita]**: numero totale di individui che sono usciti dal percorso.
 
-* **[!UICONTROL Singoli percorsi non riusciti]**: Numero totale di singoli percorsi che non sono stati eseguiti correttamente.
+* **[!UICONTROL Singoli percorsi con errori]**: numero totale di singoli percorsi non eseguiti correttamente.
 
-La **[!UICONTROL Evento eseguito nelle ultime 24 ore]** e **[!UICONTROL Eventi]** I widget consentono di vedere quale degli eventi è stato eseguito correttamente tramite numero di riepilogo, grafico e tabella.
+Il **[!UICONTROL Evento eseguito nelle ultime 24 ore]** e **[!UICONTROL Eventi]** i widget consentono di vedere quale evento è stato eseguito correttamente tramite il numero di riepilogo, il grafico e la tabella.
 
-La **[!UICONTROL Azione eseguita nelle ultime 24 ore]** e **[!UICONTROL Azioni eseguite ed errori]** I widget rappresentano l&#39;azione e gli errori più riusciti che si sono verificati quando le azioni sono state attivate. I numeri di grafico, tabella e riepilogo delle azioni contengono i dati disponibili per le azioni, ad esempio:
+Il **[!UICONTROL Azione eseguita nelle ultime 24 ore]** e **[!UICONTROL Azioni eseguite ed errori]** i widget rappresentano l&#39;azione e gli errori più riusciti che si sono verificati quando sono state attivate le azioni. Il grafico delle azioni, la tabella e i numeri di riepilogo contengono i dati disponibili per le azioni, ad esempio:
 
-* **[!UICONTROL Azioni eseguite]**: Numero totale di azioni eseguite correttamente per un percorso.
+* **[!UICONTROL Azioni eseguite]**: numero totale di azioni eseguite correttamente per un percorso.
 
-* **[!UICONTROL Errore nelle azioni]**: Numero totale di errori che si sono verificati per le azioni.
+* **[!UICONTROL Errore nelle azioni]**: numero totale di errori che si sono verificati per le azioni.
 +++
 
 ## Scheda E-mail {#email-live}
 
-Dal tuo percorso **[!UICONTROL Report live]**, **[!UICONTROL E-mail]** scheda descrive le informazioni principali relative alle consegne e-mail inviate nel percorso.
+Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL E-mail]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alle consegne e-mail inviate nel tuo percorso.
 
 ![](assets/journey_live_2.png)
 
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto E-mail.
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto e-mail.
 
-La **[!UICONTROL Invio di statistiche per e-mail]** widget fornisce informazioni principali relative al messaggio:
+Il **[!UICONTROL Statistiche di invio e-mail]** il widget descrive le informazioni principali relative al messaggio:
 
-* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
-* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-La **[!UICONTROL Invio di metriche per e-mail]** tabella e **[!UICONTROL Riepilogo e-mail]** il grafico descrive il successo della consegna:
+Il **[!UICONTROL Metriche di invio per e-mail]** tabella e **[!UICONTROL Riepilogo e-mail]** il grafico descrive il successo della consegna:
 
-* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
-* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-* **[!UICONTROL Aperture]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto in una consegna.
 
-* **[!UICONTROL Clic]**: Numero di volte in cui è stato fatto clic su un contenuto in una consegna.
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in una consegna.
 
-* **[!UICONTROL Annulla sottoscrizione]**: Numero di clic sul collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Annulla iscrizione]**: numero di clic sul collegamento di annullamento dell’abbonamento.
 
-* **[!UICONTROL Disturbi dello spam]**: Numero di volte in cui un messaggio è stato dichiarato come spam o spazzatura.
+* **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
-La **[!UICONTROL Ragioni di mancato recapito]**, **[!UICONTROL Categorie di rimbalzi]** e **[!UICONTROL Rigido e non recapitato - per e-mail]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
+Il **[!UICONTROL Motivi di mancato recapito]**, **[!UICONTROL Categorie di mancato recapito]** e **[!UICONTROL Errore permanente di recapito - Da e-mail]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
 
-* **[!UICONTROL Rimbalzo duro]**: Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio l’utente sconosciuto.
+* **[!UICONTROL Mancato recapito permanente]**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio Utente sconosciuto.
 
-* **[!UICONTROL Rimbalzo morbido]**: Numero totale di errori temporanei, ad esempio una casella in entrata completa.
+* **[!UICONTROL Mancato recapito non permanente]**: numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
-* **[!UICONTROL Ignorato]**: Numero totale di temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
+* **[!UICONTROL Ignorato]**: numero totale di messaggi temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
-La **[!UICONTROL Motivi dell’errore]** e **[!UICONTROL Escludi motivi]** grafici e tabelle ti consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
+Il **[!UICONTROL Motivi di errore]** e **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
 
-La **[!UICONTROL E-mail - Dominio principale destinatario]** visualizza i dettagli del grafico e della tabella relativi ai domini più utilizzati dai destinatari per aprire l’e-mail.
+Il **[!UICONTROL E-mail - Dominio destinatario principale]** il grafico e la tabella indicano i domini più utilizzati dai destinatari per aprire l’e-mail.
 
 >[!NOTE]
 >
->I widget e le metriche Offerte sono disponibili solo se una decisione è stata inserita in un’e-mail. Per ulteriori informazioni sulla gestione delle decisioni, consulta questo [page](../offers/get-started/starting-offer-decisioning.md).
+>I widget e le metriche delle offerte sono disponibili solo se è stata inserita una decisione in un messaggio e-mail. Per ulteriori informazioni sulla gestione delle decisioni, consulta questa [pagina](../offers/get-started/starting-offer-decisioning.md).
 
-La **[!UICONTROL Statistiche sulle offerte]** e **[!UICONTROL Statistiche sulle offerte]** i widget nel tempo misurano il successo e l’impatto dell’offerta sul pubblico di destinazione. Vengono descritte in dettaglio le informazioni principali relative al messaggio con i KPI:
+Il **[!UICONTROL Statistica sulle offerte]** e **[!UICONTROL Statistiche sulle offerte]** nel tempo, i widget misurano il successo e l’impatto dell’offerta sul pubblico di destinazione. Descrive le informazioni principali relative al messaggio con i KPI:
 
-* **[!UICONTROL Offerta inviata]**: Numero totale di invii per l’offerta.
+* **[!UICONTROL Offerta inviata]**: numero totale di invii per l’offerta.
 
-* **[!UICONTROL Immagine dell’offerta]**: Numero di volte in cui l’offerta è stata aperta in una consegna.
+* **[!UICONTROL Impression offerta]**: numero di volte in cui l’offerta è stata aperta in una consegna.
 
-* **[!UICONTROL Clic sull’offerta]**: Numero di volte in cui un’offerta è stata selezionata in una consegna.
+* **[!UICONTROL Clic sull’offerta]**: numero di volte in cui è stato fatto clic su un’offerta in una consegna.
 +++
 
-## Scheda notifica push {#push-live}
+## Scheda Notifica push {#push-live}
 
-Dal tuo percorso **[!UICONTROL Report live]**, **[!UICONTROL Notifica push]** la scheda descrive le informazioni principali relative alle consegne push inviate nel percorso.
+Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL Notifica push]** La scheda descrive le informazioni principali relative alle consegne push inviate nel tuo percorso.
 
 ![](assets/journey_live_3.png)
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto push.
 
-**[!UICONTROL Prestazioni invio notifiche push]**, **[!UICONTROL Riepilogo delle notifiche push]** e **[!UICONTROL Invio di metriche - da push]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio:
+**[!UICONTROL Prestazione invio notifiche push]**, **[!UICONTROL Riepilogo notifiche push]** e **[!UICONTROL Metriche di invio - modalità push]** i widget descrivono le informazioni principali relative al messaggio:
 
-* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
-* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-* **[!UICONTROL Aperture]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto in una consegna.
 
-* **[!UICONTROL Azioni]**: Numero totale di azioni sulla notifica push consegnata, ad esempio clic su un pulsante o cancellazione.
+* **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
 
-* **[!UICONTROL Coinvolgimento]**: Numero totale di aperture e azioni per questa notifica push, ad esempio se il profilo ha aperto il push o se è stato fatto clic su un pulsante.
+* **[!UICONTROL Coinvolgimenti]**: numero totale di aperture e azioni per questa notifica push, ovvero se il profilo ha aperto la notifica push o se è stato fatto clic su un pulsante.
 
-La **[!UICONTROL Motivi dell’errore]** e **[!UICONTROL Escludi motivi]** grafici e tabelle ti consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
+Il **[!UICONTROL Motivi di errore]** e **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
 
-La **[!UICONTROL Invio di statistiche - Non riuscito]** widget consente di vedere quanti errori e mancati riscontri si sono verificati.
+Il **[!UICONTROL Statistiche di invio - Non riuscito]** Il widget consente di vedere quanti errori e mancati recapiti si sono verificati.
 
-La **[!UICONTROL Tracciamento per piattaforma]**, **[!UICONTROL Invio per piattaforma]** e **[!UICONTROL Suddivisione per piattaforma]** grafici e tabelle descrivono in dettaglio il successo della notifica push in base al sistema operativo.
+Il **[!UICONTROL Tracciamento per piattaforma]**, **[!UICONTROL Invio per piattaforma]** e **[!UICONTROL Raggruppamento per piattaforma]** grafici e tabelle descrivono in dettaglio l’esito positivo della notifica push, a seconda del sistema operativo.
 +++
 
 ## Scheda SMS {#sms-live}
@@ -160,31 +160,31 @@ La **[!UICONTROL Tracciamento per piattaforma]**, **[!UICONTROL Invio per piatta
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto SMS.
 
-La **[!UICONTROL SMS - Invio di statistiche]** la tabella descrive il successo della consegna:
+Il **[!UICONTROL SMS - Statistiche di invio]** la tabella descrive il successo della consegna:
 
-* **[!UICONTROL Target]**: Numero di profili utente qualificati come profili di destinazione per questa consegna.
+* **[!UICONTROL Target]**: numero di profili utente qualificati come profili target per questa consegna.
 
-* **[!UICONTROL Escluso]**: Numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
+* **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
-* **[!UICONTROL Inviato]**: Numero totale di invii per la consegna.
+* **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Aperture]**: Numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto in una consegna.
 
-* **[!UICONTROL Clic]**: Numero di volte in cui è stato fatto clic su un contenuto in una consegna.
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in una consegna.
 
-* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
-* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-La **[!UICONTROL Riepilogo SMS]** il grafico descrive il successo della consegna:
+Il **[!UICONTROL Riepilogo SMS]** il grafico descrive il successo della consegna:
 
-* **[!UICONTROL Consegnato]**: Numero di messaggi inviati correttamente.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Rimbalzi]**: Totale degli errori cumulati durante la consegna e l&#39;elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
-* **[!UICONTROL Errori]**: Numero totale di errori che si sono verificati durante una consegna e che ne impediscono l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-La **[!UICONTROL Escludi motivi]** grafici e tabelle ti consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
+Il **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
 +++

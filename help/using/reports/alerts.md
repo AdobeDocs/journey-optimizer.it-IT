@@ -15,18 +15,18 @@ ht-degree: 6%
 
 ---
 
-# Guida introduttiva agli avvisi {#alerts}
+# Introduzione agli avvisi {#alerts}
 
-Journey Optimizer sfrutta le funzionalità di avvisi di Adobe Experience Platform. Questo consente di accedere agli avvisi del sistema tramite l’interfaccia utente. Puoi visualizzare gli avvisi disponibili e abbonarti.
+Journey Optimizer sfrutta le funzionalità di avviso di Adobe Experience Platform. Questo consente di accedere agli avvisi di sistema tramite l’interfaccia utente. Puoi visualizzare gli avvisi disponibili e abbonarti.
 
-Quando viene raggiunto un determinato insieme di condizioni nelle operazioni (ad esempio un potenziale problema in caso di superamento di una soglia da parte del sistema), i messaggi di avviso vengono inviati a tutti gli utenti dell’organizzazione che vi si sono abbonati. Questi messaggi possono ripetersi in un intervallo di tempo predefinito fino alla risoluzione dell’avviso.
+Quando viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), i messaggi di avviso vengono inviati a tutti gli utenti dell’organizzazione che si sono iscritti a tali condizioni. Questi messaggi possono ripetersi in un intervallo di tempo predefinito fino alla risoluzione dell&#39;avviso.
 
 Ulteriori informazioni sugli avvisi in Adobe Experience Platform [documentazione](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it).
-Per informazioni su come sottoscrivere e configurare gli avvisi, consulta questo articolo [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+Per informazioni su come abbonarsi agli avvisi e configurarli, consulta questa sezione [pagina](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
 
 >[!AVAILABILITY]
 >
->Sono in corso alcune modifiche di progettazione per l’avviso &quot;Read Segment Trigger Unriuscito&quot;, per cui questo avviso viene messo in pausa per il momento ed è stato rimosso temporaneamente dall’interfaccia utente. Una volta rilasciate queste modifiche, l’avviso verrà nuovamente visualizzato e potrai abbonarti.
+>Alcune modifiche progettuali sono in corso per l’avviso &quot;Attivatore Leggi segmento non riuscito&quot;, pertanto per il momento questo avviso è in pausa ed è stato temporaneamente rimosso dall’interfaccia utente. Una volta rilasciate queste modifiche, l’avviso verrà nuovamente visualizzato e potrai abbonarti.
 
 Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**.
 
@@ -34,12 +34,12 @@ Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**.
 
 ![](assets/alerts1.png)-->
 
-Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati all’avviso tramite e-mail, nell’angolo in alto a destra dell’interfaccia.
+Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati dell’avviso tramite e-mail, nell’angolo in alto a destra dell’interfaccia.
 
 <!--![](assets/alerts2.png)-->
 
 
-Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Durante l’abbonamento agli avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in diversi pacchetti di abbonamento.
+Quando [visualizzazione delle regole di avviso nell’interfaccia utente di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), puoi abbonarti a ogni regola singolarmente. Quando si sottoscrivono avvisi tramite [Notifiche di eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)Tuttavia, le regole di avviso sono organizzate in pacchetti di abbonamento diversi.
 
 <!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".
 

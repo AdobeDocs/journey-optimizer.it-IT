@@ -1,6 +1,6 @@
 ---
-title: Cerca una regola decisionale
-description: Le regole decisionali sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
+title: Cercare una regola di decisione
+description: Le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Cerca una regola decisionale {#lookup-decision-rule}
+# Cercare una regola di decisione {#lookup-decision-rule}
 
-Puoi cercare una regola decisionale specifica effettuando una richiesta di GET al [!DNL Offer Library] API che include la regola decisionale `@id` o il nome della regola decisionale nel percorso della richiesta.
+Per cercare una regola di decisione specifica, devi effettuare una richiesta GET al [!DNL Offer Library] API che include la regola di decisione `@id` o il nome della regola di decisione nel percorso della richiesta.
 
 **Formato API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le regole di decisione. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_ELIGIBILITY_RULE}` | Definisce lo schema associato alle regole decisionali. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. Il parametro s `id` e `name` non possono essere utilizzati insieme. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Sales rule` |
+| `{SCHEMA_ELIGIBILITY_RULE}` | Definisce lo schema associato alle regole di decisione. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
+| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Il parametro s `id` e `name` non possono essere utilizzati insieme. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Sales rule` |
 
 **Richiesta**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli della regola decisionale specifica cercata, comprese informazioni sull’ID contenitore, l’ID istanza e la regola decisionale univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli della regola di decisione specifica cercata, incluse informazioni sull’ID contenitore, sull’ID istanza e sulla regola di decisione univoca `@id`.
 
 ```json
 {

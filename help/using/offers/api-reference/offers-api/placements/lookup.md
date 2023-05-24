@@ -1,6 +1,6 @@
 ---
 title: Cercare un posizionamento
-description: I posizionamenti sono contenitori utilizzati per mostrare le offerte.
+description: I posizionamenti sono contenitori utilizzati per presentare le offerte.
 feature: Offers
 topic: Integrations
 role: Data Engineer
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Cercare un posizionamento {#look-up-placement}
 
-Puoi cercare posizionamenti specifici effettuando una richiesta di GET al [!DNL Offer Library] API che include il posizionamento `@id` o il nome del posizionamento nel percorso della richiesta.
+Per cercare posizionamenti specifici, devi effettuare una richiesta GET al [!DNL Offer Library] API che include il posizionamento `@id` o il nome del posizionamento nel percorso della richiesta.
 
 **Formato API**
 
@@ -25,11 +25,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API dell&#39;archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano i posizionamenti. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | Definisce lo schema associato ai posizionamenti. | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
-| `id` | Una stringa utilizzata per corrispondere al `@id` proprietà delle entità. La stringa corrisponde esattamente. I parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-placement:124541309805b7e8` |
-| `name` | Una stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa corrisponde esattamente con le maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non può essere utilizzato insieme | `Sales and Promotions Placement` |
+| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-placement:124541309805b7e8` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \
@@ -43,7 +43,7 @@ curl -X GET \
 
 **Risposta**
 
-Una risposta corretta restituisce i dettagli del posizionamento, incluse informazioni sull’ID contenitore, l’ID istanza e il posizionamento univoco `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse le informazioni sull’ID contenitore, l’ID istanza e il posizionamento univoco `@id`.
 
 ```json
 {

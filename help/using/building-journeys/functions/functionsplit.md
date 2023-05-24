@@ -1,11 +1,11 @@
 ---
 product: journey optimizer
 title: split
-description: Scopri la suddivisione della funzione
+description: Scopri la suddivisione delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: divisione, funzione, espressione, percorso
+keywords: split, function, expression, percorsi
 exl-id: 37bcdf98-203c-4f82-8d8a-be2b2c45c4e7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # split {#split}
 
-Divide la prima stringa argomento con una stringa separatore (seconda stringa argomento, che può essere un’espressione regolare) per generare un elenco di stringhe (token).
+Divide la prima stringa di argomento con una stringa di separatore (seconda stringa di argomento, che può essere un&#39;espressione regolare) per produrre un elenco di stringhe (token).
 
 ## Categoria
 
@@ -45,7 +45,7 @@ Restituisce un valore listString.
 
 Restituisce `["A","B","C"]`
 
-Esempio con un campo evento &#39;event.appVersion&#39; con valore: &quot;20.45.2.3434&quot;
+Esempio con un campo evento &quot;event.appVersion&quot; con valore: &quot;20.45.2.3434&quot;
 
 `split(@{event.appVersion}, "\\.")`
 

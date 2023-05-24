@@ -65,23 +65,23 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](assets/journey27.png)
 
-1. Configura l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzato]** o **[!UICONTROL Chiave API]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Le scelte del nostro esempio:
+1. Configura l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzato]** o **[!UICONTROL Chiave API]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Le scelte del nostro esempio:
 
-   * **[!UICONTROL Tipo]**: &quot;Chiave API&quot;
+   * **[!UICONTROL Tipo]**: &quot;API key&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (nome del parametro della chiave API)
    * **[!UICONTROL Valore]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
    * **[!UICONTROL Posizione]**: &quot;Query parameter&quot; (la chiave API si trova nell’URL)
 
    ![](assets/journey28.png)
 
-1. Aggiungi un nuovo gruppo di campi per ciascun set di parametri API facendo clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]**. Non utilizzare spazi o caratteri speciali nel nome del gruppo di campi. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
+1. Per aggiungere un nuovo gruppo di campi per ciascun set di parametri API, fai clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]**. Non utilizzare spazi o caratteri speciali nel nome del gruppo di campi. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
 
 Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi con le seguenti informazioni:
 
-* **[!UICONTROL Utilizzato in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l’elenco dei percorsi che utilizzano questo gruppo di campi.
-* **[!UICONTROL Metodo]**: selezionare il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
+* **[!UICONTROL Utilizzato in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo gruppo di campi.
+* **[!UICONTROL Metodo]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
 * **[!UICONTROL Valori dinamici]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Payload di risposta]**: fai clic all’interno del **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata . Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **[!UICONTROL Incolla un nuovo payload]** per modificare il payload attualmente trasmesso.
+* **[!UICONTROL Payload di risposta]**: fai clic all’interno del **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **[!UICONTROL Incolla un nuovo payload]** se desideri modificare il payload attualmente trasmesso.
 
    >[!NOTE]
    >
@@ -89,9 +89,9 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 
 * **[!UICONTROL Payload inviato]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
-Nel caso di una chiamata di GET che richieda i parametri, immetti i parametri nel **[!UICONTROL Valori dinamici]** e vengono aggiunti automaticamente alla fine della chiamata . Nel caso di una chiamata POST, è necessario:
+In caso di una chiamata di GET che richieda i parametri, inseriscili nella **[!UICONTROL Valori dinamici]** e vengono aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
 
-* elencare i parametri da trasmettere al momento della chiamata nel **[!UICONTROL Valori dinamici]** (nell’esempio seguente: &quot;identifier&quot;).
+* elencare i parametri da trasmettere al momento della chiamata nella **[!UICONTROL Valori dinamici]** nell’esempio seguente: &quot;identifier&quot;.
 * Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A tale scopo, è necessario aggiungere: &quot;param&quot;: “nome del tuo parametro”, nell’esempio seguente è &quot;identifier&quot;. Attieniti alla sintassi seguente:
 
    ```
@@ -134,8 +134,8 @@ Definizione dell’endpoint da chiamare per la generazione del token di accesso:
 * metodo della richiesta HTTP sull’endpoint (GET o POST)
 * intestazioni: coppie chiave-valore da inserire come intestazioni in questa chiamata, se necessario
 * corpo: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave-valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
-   * &#39;form&#39;: significa che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono: key1=value1&amp;key2=value2&amp;..
-   * &#39;json&#39;: significa che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie chiave-valore saranno serializzate come oggetto json così come sono: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+   * &#39;form&#39;: indica che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono: key1=value1&amp;key2=value2&amp;...
+   * &#39;json&#39;: indica che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 La definizione della modalità di inserimento del token di accesso nella richiesta HTTP dell’azione:
 
@@ -176,7 +176,7 @@ Il formato di questa autenticazione è:
 
 Adesso puoi modificare la durata della cache del token per un’origine dati di autenticazione personalizzata. Di seguito è riportato un esempio di payload di autenticazione personalizzato. La durata della cache è definita nel parametro “cacheDuration”. Tale parametro Specifica la durata di conservazione del token generato nella cache. L’unità può essere in millisecondi, secondi, minuti, ore, giorni, mesi, anni.
 
-Ecco un esempio per il tipo di autenticazione portatore:
+Ecco un esempio per il tipo di autenticazione bearer:
 
 ```
 {
@@ -208,9 +208,9 @@ Ecco un esempio per il tipo di autenticazione portatore:
 
 >[!NOTE]
 >
->La durata della cache aiuta a evitare troppe chiamate agli endpoint di autenticazione. Il mantenimento del token di autenticazione è memorizzato nella cache dei servizi. Non esiste persistenza. Se un servizio viene riavviato, inizia con una cache pulita. La durata predefinita della cache è di 1 ora. Nel payload di autenticazione personalizzato, può essere adattato specificando un’altra durata di conservazione.
+>La durata della cache consente di evitare un numero eccessivo di chiamate agli endpoint di autenticazione. La conservazione dei token di autenticazione è memorizzata nella cache dei servizi, non vi è persistenza. Se un servizio viene riavviato, inizia con una cache pulita. Per impostazione predefinita, la durata della cache è di 1 ora. Nel payload di autenticazione personalizzata, può essere adattato specificando un’altra durata di conservazione.
 
-Ecco un esempio per il tipo di autenticazione dell’intestazione:
+Di seguito è riportato un esempio per il tipo di autenticazione dell’intestazione:
 
 ```
 {

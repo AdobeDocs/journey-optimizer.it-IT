@@ -7,30 +7,30 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-keywords: landing, pagina di destinazione, caso d’uso
+keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
 workflow-type: tm+mt
 source-wordcount: '968'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # Casi di utilizzo della pagina di destinazione {#lp-use-cases}
 
-Di seguito sono riportati alcuni esempi di come è possibile utilizzare [!DNL Journey Optimizer] pagine di destinazione per consentire ai clienti di scegliere se accettare o meno alcune o tutte le tue comunicazioni.
+Di seguito sono riportati alcuni esempi di come utilizzare [!DNL Journey Optimizer] pagine di destinazione per consentire ai clienti di accettare o rinunciare alla ricezione di alcune o di tutte le comunicazioni.
 
-## Iscrizione a un servizio {#subscription-to-a-service}
+## Abbonamento a un servizio {#subscription-to-a-service}
 
-Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonamento a un servizio](subscription-list.md) (ad esempio una newsletter o un evento) tramite una pagina di destinazione. Le fasi principali sono presentate sul grafico seguente:
+Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonarsi a un servizio](subscription-list.md) (ad esempio una newsletter o un evento) tramite una pagina di destinazione. I passaggi principali sono illustrati nel grafico seguente:
 
 ![](assets/lp_subscription-uc.png)
 
-Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avviare una campagna di registrazione degli eventi<!--to keep your customers that are interested updated on that event-->. A questo scopo, invierai un’e-mail con un collegamento a una pagina di destinazione che consentirà ai destinatari di registrarsi a questo evento. Gli utenti che si registrano verranno aggiunti all’elenco di sottoscrizioni creato a questo scopo.
+Ad esempio, supponiamo che tu organizzi un evento il mese prossimo e desideri avviare una campagna di registrazione dell’evento<!--to keep your customers that are interested updated on that event-->. A questo scopo, stai per inviare un’e-mail contenente un collegamento a una pagina di destinazione che consentirà ai destinatari di registrarsi per questo evento. Gli utenti che si registrano verranno aggiunti all&#39;elenco di iscrizioni creato a questo scopo.
 
 ### Configurare una pagina di destinazione {#set-up-lp}
 
-1. Crea l&#39;elenco di iscrizione dell&#39;evento, che memorizzerà gli utenti registrati. Scopri come creare un elenco di abbonamenti [qui](subscription-list.md#define-subscription-list).
+1. Crea l&#39;elenco di iscrizioni della registrazione dell&#39;evento, in cui verranno archiviati gli utenti registrati. Scopri come creare un elenco di iscrizioni [qui](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
@@ -40,7 +40,7 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 
 1. Configurare la registrazione [pagina di destinazione principale](create-lp.md#configure-primary-page).
 
-1. Durante la progettazione della [contenuto della pagina di destinazione](design-lp.md), seleziona l’elenco di sottoscrizioni creato per aggiornarlo con i profili che selezionano la casella di controllo della registrazione.
+1. Durante la progettazione di [contenuto della pagina di destinazione](design-lp.md), seleziona l’elenco di iscrizioni creato per aggiornarlo con i profili che selezionano la casella di controllo di registrazione.
 
    ![](assets/lp_subscription-uc-lp-list.png)
 
@@ -48,13 +48,13 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Pubblica](create-lp.md#publish) la pagina di destinazione.
+1. [Pubblicare la pagina di destinazione.](create-lp.md#publish)
 
-1. In una [percorso](../building-journeys/journey.md), aggiungi un **E-mail** attività per indirizzare il traffico alla pagina di destinazione della registrazione.
+1. In un [percorso](../building-journeys/journey.md), aggiungi un **E-mail** attività per indirizzare il traffico alla pagina di destinazione della registrazione.
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [Progettazione dell’e-mail](../email/get-started-email-design.md) per annunciare che la registrazione è ora aperta per il tuo evento.
+1. [Progettare l’e-mail](../email/get-started-email-design.md) per annunciare che la registrazione è ora aperta per il tuo evento.
 
 1. [Inserire un collegamento](../email/message-tracking.md#insert-links) nel contenuto del messaggio. Seleziona **[!UICONTROL Pagina di destinazione]** come **[!UICONTROL Tipo di collegamento]** e scegli la [pagina di destinazione](create-lp.md#configure-primary-page) creato per la registrazione.
 
@@ -62,37 +62,37 @@ Ad esempio, supponiamo che il mese prossimo organizzi un evento e desideri avvia
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, accertati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
 
-   Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco di iscrizione.
+   Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco di iscrizioni.
 
-### Invia un messaggio e-mail di conferma {#send-confirmation-email}
+### Invia un’e-mail di conferma {#send-confirmation-email}
 
 Inoltre, puoi inviare un’e-mail di conferma ai destinatari che si sono registrati per l’evento. A questo scopo, segui i passaggi riportati qui sotto.
 
-1. Crea un altro [percorso](../building-journeys/journey.md). Puoi eseguire questa operazione direttamente dalla pagina di destinazione facendo clic sul pulsante **[!UICONTROL Crea percorso]** pulsante . [Ulteriori informazioni](create-lp.md#configure-primary-page)
+1. Crea un altro [percorso](../building-journeys/journey.md). Puoi farlo direttamente dalla pagina di destinazione facendo clic sul pulsante **[!UICONTROL Crea percorso]** pulsante. [Ulteriori informazioni](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. Apri **[!UICONTROL Eventi]** categoria e rilascia a **[!UICONTROL Qualificazione del segmento]** nell’area di lavoro. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
+1. Espandi la **[!UICONTROL Eventi]** categoria e rilascia una **[!UICONTROL Qualificazione del segmento]** attività nell’area di lavoro. [Ulteriori informazioni](../building-journeys/segment-qualification-events.md)
 
-1. Fai clic in **[!UICONTROL Segmento]** e selezionare l&#39;elenco di sottoscrizioni creato.
+1. Fai clic su nella **[!UICONTROL Segmento]** e selezionare l&#39;elenco di iscrizioni creato.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Aggiungi un’e-mail di conferma e inviala tramite il percorso.
+1. Aggiungi un’e-mail di conferma a tua scelta e inviala tramite il percorso.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
-Tutti gli utenti che si sono registrati al tuo evento riceveranno l’e-mail di conferma.
+Tutti gli utenti che si sono registrati all’evento riceveranno l’e-mail di conferma.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
 ## Rinuncia {#opt-out}
 
-Per consentire ai destinatari di annullare l’iscrizione alle comunicazioni, puoi includere un collegamento a una pagina di destinazione di rinuncia nelle e-mail.
+Per consentire ai destinatari di annullare l’iscrizione alle comunicazioni, puoi includere nelle e-mail un collegamento a una pagina di destinazione di rinuncia.
 
-Ulteriori informazioni sulla gestione del consenso dei destinatari e sull’importanza di questo in [questa sezione](../privacy/opt-out.md).
+Scopri come gestire il consenso dei destinatari e perché è importante in [questa sezione](../privacy/opt-out.md).
 
 ### Gestione degli opt-out {#opt-out-management}
 
@@ -101,69 +101,69 @@ Come requisito legale, è necessario dare ai destinatari la possibilità di annu
 Pertanto, devi sempre includere un **collegamento per l’annullamento dell’iscrizione** in ogni e-mail inviata ai destinatari:
 
 * Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare l’opt-out.
-* Facendo clic sul pulsante di rinuncia, i dati del profilo vengono aggiornati con queste informazioni.
+* Facendo clic sul pulsante di opt-out, i dati del profilo verranno aggiornati con queste informazioni.
 
 ### Configurare la rinuncia {#configure-opt-out}
 
-Per consentire ai destinatari di un’e-mail di annullare l’iscrizione alle comunicazioni tramite una pagina di destinazione, segui i passaggi riportati di seguito.
+Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle comunicazioni tramite una pagina di destinazione, segui i passaggi indicati di seguito.
 
 1. Crea la pagina di destinazione. [Ulteriori informazioni](create-lp.md)
 
 1. Definisci la pagina principale. [Ulteriori informazioni](create-lp.md#configure-primary-page)
 
-1. [Progettazione](design-lp.md) il contenuto della pagina principale: utilizza la pagina di destinazione specifica **[!UICONTROL Modulo]** componente, definire un **[!UICONTROL Rinuncia]** seleziona e scegli di aggiornare **[!UICONTROL Canale (e-mail)]**: il profilo che controlla la casella di rinuncia nella pagina di destinazione verrà escluso da tutte le comunicazioni.
+1. [Progettazione](design-lp.md) contenuto della pagina principale: utilizza la pagina di destinazione specifica **[!UICONTROL Modulo]** componente, definire un **[!UICONTROL Rinuncia]** e scegli di aggiornare **[!UICONTROL Canale (e-mail)]**: il profilo che controlla la casella di rinuncia nella pagina di destinazione verrà escluso da tutte le comunicazioni.
 
    ![](assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
-1. Aggiungi una conferma [sottopagine](create-lp.md#configure-subpages) che verranno visualizzati agli utenti che inviano il modulo.
+1. Aggiungi una conferma [pagina secondaria](create-lp.md#configure-subpages) che verrà visualizzata agli utenti che inviano il modulo.
 
    ![](assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
-   >Assicurati di fare riferimento alla pagina secondaria nella pagina principale **[!UICONTROL Invito all&#39;azione]** della sezione **[!UICONTROL Modulo]** componente. [Ulteriori informazioni](design-lp.md)
+   >Assicurati di fare riferimento alla pagina secondaria nella pagina principale **[!UICONTROL Invito all’azione]** sezione del **[!UICONTROL Modulo]** componente. [Ulteriori informazioni](design-lp.md)
 
-1. Dopo aver configurato e definito il contenuto delle pagine, [pubblicare](create-lp.md#publish) la pagina di destinazione.
+1. Una volta configurato e definito il contenuto delle pagine, [pubblicare](create-lp.md#publish) la pagina di destinazione.
 
 1. [Creare un messaggio e-mail](../email/get-started-email-design.md) in un percorso.
 
 1. Seleziona il testo nel contenuto e [inserisci un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
 
-1. Seleziona **[!UICONTROL Pagina di destinazione]** dal **[!UICONTROL Tipo di collegamento]** elenco a discesa e seleziona il [pagina di destinazione](create-lp.md#configure-primary-page) creato per la rinuncia.
+1. Seleziona **[!UICONTROL Pagina di destinazione]** dal **[!UICONTROL Tipo di collegamento]** e selezionare il [pagina di destinazione](create-lp.md#configure-primary-page) che hai creato per la rinuncia.
 
    ![](assets/lp_opt-out-landing-page.png)
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, accertati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
 
 1. Pubblica ed esegui il percorso. [Maggiori informazioni](../building-journeys/journey.md).
 
-1. Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento di annullamento all’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
+1. Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento per annullare l’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
 
    ![](assets/lp_opt-out-submit-form.png)
 
    Se il destinatario seleziona la casella e invia il modulo:
 
-   * Il destinatario con rinuncia viene reindirizzato alla schermata del messaggio di conferma.
+   * Il destinatario che ha rinunciato viene reindirizzato alla schermata del messaggio di conferma.
 
-   * I dati del profilo vengono aggiornati e non riceveranno comunicazioni dal tuo marchio a meno che non siano nuovamente abbonati.
+   * I dati del profilo vengono aggiornati e non riceveranno comunicazioni dal brand a meno che non si rinnovi l’abbonamento.
 
 Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 
-In **[!UICONTROL Attributi]** è possibile visualizzare il valore per **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**.
+In **[!UICONTROL Attributi]** , puoi vedere che il valore per **[!UICONTROL scelta]** è stato modificato in **[!UICONTROL no]**.
 
-Le informazioni di rinuncia vengono memorizzate nella **Set di dati del servizio di consenso**. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
+Le informazioni di rinuncia vengono memorizzate in **Set di dati del servizio di consenso**. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
->Se si utilizza il metodo di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>Se il metodo di unione per il valore predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profiles]** merge policy is **[!UICONTROL Dataset Precedence]**, make sure to enable the **[!UICONTROL AJO Consent Service Dataset]** and to prioritize it in the merge policy. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
->Anche se non sono stati aggiunti batch a questo set di dati, conterrà comunque le informazioni di consenso/rinuncia.
+>Anche se non sono stati aggiunti batch a questo set di dati, questo conterrà comunque le informazioni di consenso/rinuncia.
 
 
 <!--

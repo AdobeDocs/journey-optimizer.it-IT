@@ -1,6 +1,6 @@
 ---
 title: Informazioni chiave sugli eventi di Gestione delle decisioni
-description: Ulteriori informazioni sulle informazioni chiave inviate con ogni evento di gestione delle decisioni.
+description: Ulteriori informazioni sulle informazioni chiave inviate con ogni evento di Gestione delle decisioni.
 feature: Offers
 topic: Integrations
 role: User

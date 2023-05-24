@@ -7,7 +7,7 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: landing, pagina di destinazione, creazione, pubblicazione
+keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
@@ -20,21 +20,21 @@ ht-degree: 28%
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
-Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione dei percorsi]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
+Per accedere all’elenco delle pagine di destinazione, seleziona **[!UICONTROL Gestione percorso]** > **[!UICONTROL Pagine di destinazione]** dal menu a sinistra.
 
 ![](assets/lp_access-list.png)
 
-La **[!UICONTROL Pagine di destinazione]** visualizza tutti gli elementi creati. Puoi filtrarli in base al loro stato o alla data di modifica.
+Il **[!UICONTROL Pagine di destinazione]** mostra tutti gli elementi creati. Puoi filtrarli in base al loro stato o alla data di modifica.
 
 ![](assets/lp_access-list-filter.png)
 
-Da questo elenco è possibile accedere al [report live della pagina di destinazione](../reports/lp-report-live.md) o [report globale della pagina di destinazione](../reports/lp-report-global.md) per gli elementi pubblicati.
+Da questo elenco, è possibile accedere a [pagina di destinazione Live report](../reports/lp-report-live.md) o [pagina di destinazione Global report](../reports/lp-report-global.md) per gli elementi pubblicati.
 
 Puoi anche eliminare, duplicare e annullare la pubblicazione di una pagina di destinazione.
 
 >[!CAUTION]
 >
->Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione non funziona e viene visualizzata una pagina di errore.
+>Se annulli la pubblicazione di una pagina di destinazione a cui viene fatto riferimento in un messaggio, il collegamento alla pagina di destinazione verrà interrotto e verrà visualizzata una pagina di errore.
 
 Fai clic sui tre punti accanto a una pagina di destinazione per selezionare l’azione desiderata.
 
@@ -63,7 +63,7 @@ I passaggi principali per creare pagine di destinazione sono i seguenti:
 
 ![](assets/lp-creation-process.png)
 
-1. Dall’elenco della pagina di destinazione, fai clic su **[!UICONTROL Creare una pagina di destinazione]**.
+1. Nell’elenco della pagina di destinazione, fai clic su **[!UICONTROL Crea pagina di destinazione]**.
 
    ![](assets/lp_create-lp.png)
 
@@ -71,11 +71,11 @@ I passaggi principali per creare pagine di destinazione sono i seguenti:
 
    ![](assets/lp_create-lp-details.png)
 
-1. Per assegnare etichette di utilizzo dati personalizzate o di base alla pagina di destinazione, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su Object Level Access Control (OLAC)](../administration/object-based-access.md)
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla pagina di destinazione, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md)
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. Seleziona un predefinito. Scopri come creare i predefiniti per le pagine di destinazione in [questa sezione](../landing-pages/lp-presets.md#lp-create-preset).
+1. Seleziona un predefinito. Scopri come creare predefiniti per pagine di destinazione in [questa sezione](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -85,11 +85,11 @@ I passaggi principali per creare pagine di destinazione sono i seguenti:
 
    ![](assets/lp_primary-page.png)
 
-1. Fai clic sull’icona + per aggiungere una pagina secondaria. Scopri come configurare le impostazioni della pagina secondaria [qui](#configure-subpages).
+1. Fai clic sull’icona + per aggiungere una pagina secondaria. Scopri come configurare le impostazioni delle pagine secondarie [qui](#configure-subpages).
 
    ![](assets/lp_add-subpage.png)
 
-Una volta configurati e progettati i [pagina principale](#configure-primary-page)e [sottopagine](#configure-subpages) se presente, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
+Dopo aver configurato e progettato [pagina principale](#configure-primary-page)e [pagine secondarie](#configure-subpages) se presente, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
 
 ## Configurare la pagina principale {#configure-primary-page}
 
@@ -106,17 +106,17 @@ Una volta configurati e progettati i [pagina principale](#configure-primary-page
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html?lang=it" text="Configurare i sottodomini della pagina di destinazione"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare i predefiniti per pagine di destinazione"
 
-La pagina principale è quella immediatamente visualizzata dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web.
+La pagina principale è quella che viene visualizzata immediatamente dagli utenti dopo che hanno fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web.
 
-Per definire le impostazioni della pagina principale, segui la procedura seguente.
+Per definire le impostazioni della pagina principale, effettua le seguenti operazioni.
 
-1. È possibile modificare il nome della pagina, ovvero **[!UICONTROL Pagina principale]** per impostazione predefinita.
+1. Puoi modificare il nome della pagina, che è **[!UICONTROL Pagina principale]** per impostazione predefinita.
 
-1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
+1. Modifica il contenuto della pagina utilizzando il designer contenuto. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
    ![](assets/lp_open-designer.png)
 
-1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
+1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) hai selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -126,39 +126,39 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
    >[!NOTE]
    >
-   >Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando questo URL in un browser web, anche se pubblicato. Puoi invece testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
+   >Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando questo URL in un browser web, anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
 
-1. Se si desidera che la pagina di destinazione precarichi i dati del modulo già disponibili, selezionare la **[!UICONTROL Precompilare i campi del modulo con le informazioni sul profilo]**.
+1. Se desideri che la pagina di destinazione precarichi i dati del modulo già disponibili, seleziona la **[!UICONTROL Campi modulo precompilati con informazioni sul profilo]**.
 
    ![](assets/lp_prefill-form-fields.png)
 
-   Quando questa opzione è abilitata, se un profilo ha già rinunciato o è già stato aggiunto a un elenco di sottoscrizioni, le relative scelte verranno applicate alla visualizzazione della pagina di destinazione.
+   Quando questa opzione è abilitata, se un profilo ha già acconsentito o è già stato aggiunto a un elenco di abbonamenti, le sue scelte si rifletteranno sulla visualizzazione della pagina di destinazione.
 
-   Ad esempio, se un profilo ha acconsentito alla ricezione di comunicazioni su eventi futuri, la casella di controllo corrispondente verrà già selezionata al successivo accesso alla pagina di destinazione a tale profilo.
+   Ad esempio, se un profilo ha acconsentito alla ricezione di comunicazioni su eventi futuri, la casella di controllo corrispondente sarà già selezionata la prossima volta che la pagina di destinazione viene visualizzata su tale profilo.
 
    ![](assets/lp_prefill-form-ex.png)
 
-1. Puoi definire una data di scadenza per la pagina. In tal caso, è necessario selezionare un’azione alla scadenza della pagina:
+1. Puoi definire una data di scadenza per la pagina. In tal caso, seleziona un’azione alla scadenza della pagina:
 
-   * **[!UICONTROL URL di reindirizzamento]**: Inserisci l’URL della pagina a cui verranno reindirizzati gli utenti alla scadenza della pagina.
-   * **[!UICONTROL Pagina personalizzata]**: [Configurare una pagina secondaria](#configure-subpages) e selezionalo dall’elenco a discesa visualizzato.
-   * **[!UICONTROL Errore del browser]**: Digita il testo di errore che verrà visualizzato al posto della pagina.
+   * **[!UICONTROL URL di reindirizzamento]**: immetti l’URL della pagina a cui verranno reindirizzati gli utenti alla scadenza della pagina.
+   * **[!UICONTROL Pagina personalizzata]**: [Configurare una pagina secondaria](#configure-subpages) e selezionala dall’elenco a discesa visualizzato.
+   * **[!UICONTROL Errore del browser]**: digita il testo dell’errore che verrà visualizzato al posto della pagina.
 
    ![](assets/lp_expiry-date.png)
 
-1. In **[!UICONTROL Dati aggiuntivi]** , definisci una o più chiavi e i relativi valori di parametro. Potrai sfruttare queste chiavi nel contenuto della pagina principale e nelle pagine secondarie utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Ulteriori informazioni in [questa sezione](lp-content.md#use-form-component#use-additional-data).
+1. In **[!UICONTROL Dati aggiuntivi]** , definisci una o più chiavi e i corrispondenti valori dei parametri. Potrai sfruttare queste chiavi nel contenuto della pagina principale e delle pagine secondarie utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Ulteriori informazioni in [questa sezione](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 
-1. Se hai selezionato uno o più elenchi di sottoscrizioni quando [progettazione della pagina principale](design-lp.md), vengono visualizzati nella **[!UICONTROL Lista di sottoscrizione]** sezione .
+1. Se hai selezionato uno o più elenchi di abbonamenti quando [progettazione della pagina principale](design-lp.md), vengono visualizzati nel **[!UICONTROL Elenco iscrizioni]** sezione.
 
    ![](assets/lp_subscription-list.png)
 
-1. Dalla pagina di destinazione, puoi [creare un percorso](../building-journeys/journey-gs.md#jo-build) che invierà un messaggio di conferma agli utenti al momento dell’invio del modulo. Scopri come creare un tale percorso alla fine di questo [caso d&#39;uso](lp-use-cases.md#subscription-to-a-service).
+1. Dalla pagina di destinazione, puoi [creare un percorso](../building-journeys/journey-gs.md#jo-build) che invierà un messaggio di conferma agli utenti quando invieranno il modulo. Scopri come creare un percorso di questo tipo alla fine di questo [caso d’uso](lp-use-cases.md#subscription-to-a-service).
 
    ![](assets/lp_create-journey.png)
 
-   Fai clic su **[!UICONTROL Crea percorso]** da reindirizzare al **[!UICONTROL Gestione dei percorsi]** > **[!UICONTROL Percorsi]** elenco.
+   Clic **[!UICONTROL Crea percorso]** da reindirizzare al **[!UICONTROL Gestione percorso]** > **[!UICONTROL Percorsi]** elenco.
 
 ## Configurare le pagine secondarie {#configure-subpages}
 
@@ -177,17 +177,17 @@ Per definire le impostazioni della pagina principale, segui la procedura seguent
 
 Puoi aggiungere fino a 2 pagine secondarie. Ad esempio, puoi creare una pagina di ringraziamento da visualizzare dopo l’invio di un modulo, e definire una pagina di errore da richiamare in caso di problemi relativi alla pagina di destinazione.
 
-Per definire le impostazioni della pagina secondaria, segui la procedura seguente.
+Per definire le impostazioni delle pagine secondarie, effettuare le seguenti operazioni.
 
-1. È possibile modificare il nome della pagina, ovvero **[!UICONTROL Pagina secondaria 1]** per impostazione predefinita.
+1. Puoi modificare il nome della pagina, che è **[!UICONTROL Pagina secondaria 1]** per impostazione predefinita.
 
-1. Modifica il contenuto della pagina utilizzando la finestra di progettazione dei contenuti. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
+1. Modifica il contenuto della pagina utilizzando il designer contenuto. Scopri come definire il contenuto della pagina di destinazione [qui](design-lp.md).
 
    >[!NOTE]
    >
-   >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare di nuovo l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../email/message-tracking.md#insert-links).
+   >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare nuovamente l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../email/message-tracking.md#insert-links).
 
-1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
+1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -203,25 +203,25 @@ Per definire le impostazioni della pagina secondaria, segui la procedura seguent
 >abstract="Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=it" text="Selezionare i profili di test"
 
-Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima. Se hai inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare la modalità di visualizzazione del contenuto nella pagina di destinazione utilizzando i dati del profilo di test.
+Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se è stato inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare come vengono visualizzati questi contenuti nella pagina di destinazione utilizzando i dati del profilo di test.
 
 >[!CAUTION]
 >
->Per visualizzare l’anteprima dei messaggi e inviare le bozze, devi disporre dei profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
+>Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
 
-1. Nell’interfaccia della pagina di destinazione, fai clic sul pulsante **[!UICONTROL Simulazione del contenuto]** per accedere alla selezione del profilo di test.
+1. Nell’interfaccia della pagina di destinazione, fai clic su **[!UICONTROL Simula contenuto]** per accedere alla selezione del profilo di test.
 
    ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >La **[!UICONTROL Simulazione del contenuto]** accessibile anche dal designer del contenuto.
+   >Il **[!UICONTROL Simula contenuto]** è accessibile anche dal designer del contenuto.
 
-1. Da **[!UICONTROL Simula]** seleziona uno o più profili di test.
+1. Dalla sezione **[!UICONTROL Simula]** , seleziona uno o più profili di test.
 
    ![](assets/lp_test-profiles.png)
 
-   I passaggi per selezionare i profili di test sono gli stessi che per testare un messaggio. Essi sono descritti in [questa sezione](../email/preview.md#select-test-profiles).
+   I passaggi per selezionare i profili di test sono gli stessi utilizzati per testare un messaggio. Sono descritte in dettaglio [questa sezione](../email/preview.md#select-test-profiles).
 
 1. Seleziona **[!UICONTROL Apri anteprima]** per verificare la pagina di destinazione.
 
@@ -235,7 +235,7 @@ Una volta definite le impostazioni e il contenuto della pagina di destinazione, 
 
 ## Controllare gli avvisi {#check-alerts}
 
-Durante la creazione della pagina di destinazione, gli avvisi ti avvisano quando devi eseguire azioni importanti prima di pubblicare.
+Durante la creazione della pagina di destinazione, gli avvisi ti avvisano quando devi eseguire azioni importanti prima di pubblicarla.
 
 Gli avvisi vengono visualizzati in alto a destra dello schermo, come illustrato di seguito:
 
@@ -243,19 +243,19 @@ Gli avvisi vengono visualizzati in alto a destra dello schermo, come illustrato 
 
 >[!NOTE]
 >
->In caso contrario, non è stato rilevato alcun avviso.
+>Se questo pulsante non è visualizzato, non è stato rilevato alcun avviso.
 
 Possono verificarsi due tipi di avvisi:
 
 * **Avvisi** consulta consigli e best practice. <!--For example, a message will display if -->
 
-* **Errori** impedisce la pubblicazione della pagina di destinazione purché non siano state risolte. Ad esempio, se manca l’URL della pagina principale riceverai un avviso.
+* **Errori** impedisci la pubblicazione della pagina di destinazione se non sono risolti. Ad esempio, se manca l’URL della pagina principale, verrà visualizzato un avviso.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
 >[!CAUTION]
 >
-> Risolvere tutti i problemi **errore** avvisi prima della pubblicazione.
+> È necessario risolvere tutti **errore** avvisi prima della pubblicazione.
 
 <!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
@@ -274,19 +274,19 @@ Possono verificarsi due tipi di avvisi:
 
 ## Pubblicare la pagina di destinazione {#publish-landing-page}
 
-Quando la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
+Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
 
 ![](assets/lp_publish.png)
 
 >[!CAUTION]
 >
->Prima della pubblicazione, controlla e risolvi gli avvisi. [Ulteriori informazioni](#check-alerts)
+>Prima di pubblicare, controlla e risolvi gli avvisi. [Ulteriori informazioni](#check-alerts)
 
-Una volta pubblicata, la pagina di destinazione viene aggiunta all’elenco della pagina di destinazione con la **[!UICONTROL Pubblicato]** stato.
+Una volta pubblicata, la pagina di destinazione viene aggiunta all’elenco delle pagine di destinazione con **[!UICONTROL Pubblicato]** stato.
 
-È ora attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] messaggio che verrà inviato tramite un [percorso](../building-journeys/journey.md).
+Ora è attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] messaggio che verrà inviato tramite un [percorso](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->Puoi monitorare l’impatto della pagina di destinazione tramite report specifici. [Ulteriori informazioni](../reports/lp-report-live.md)
+>Puoi monitorare l’impatto della pagina di destinazione tramite rapporti specifici. [Ulteriori informazioni](../reports/lp-report-live.md)
 

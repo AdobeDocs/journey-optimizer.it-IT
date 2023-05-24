@@ -20,43 +20,43 @@ ht-degree: 9%
 >title="Rappresentazioni"
 >abstract="Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi."
 
-Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML, ecc. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi.
+Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML e così via. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi.
 
 ## Configurare le rappresentazioni dell’offerta {#representations}
 
-Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettua le seguenti operazioni.
+Per aggiungere una o più rappresentazioni all’offerta e configurarle, segui i passaggi seguenti.
 
-1. Per la prima rappresentazione, inizia selezionando la **[!UICONTROL Canale]** verrà utilizzato.
+1. Per la prima rappresentazione, inizia selezionando la **[!UICONTROL Canale]** che verrà utilizzato.
 
    ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >Vengono visualizzati solo i posizionamenti disponibili per il canale selezionato nel **[!UICONTROL Posizionamento]** elenco a discesa.
+   >Solo i posizionamenti disponibili per il canale selezionato vengono visualizzati nel **[!UICONTROL Posizione]** elenco a discesa.
 
-1. Seleziona un posizionamento dall’elenco.
+1. Selezionate un posizionamento dall&#39;elenco.
 
-   Puoi inoltre utilizzare il pulsante accanto al **[!UICONTROL Posizionamento]** elenco a discesa per sfogliare tutti i posizionamenti.
+   Puoi anche utilizzare il pulsante accanto al **[!UICONTROL Posizione]** per sfogliare tutti i posizionamenti.
 
    ![](../assets/browse-button-placements.png)
 
-   È comunque possibile filtrare i posizionamenti in base al relativo canale e/o tipo di contenuto. Scegli un posizionamento e fai clic su **[!UICONTROL Seleziona]**.
+   Qui è ancora possibile filtrare i posizionamenti in base al loro canale e/o al tipo di contenuto. Scegliete un posizionamento e fate clic su **[!UICONTROL Seleziona]**.
 
    ![](../assets/browse-placements.png)
 
-1. Aggiungi contenuto alla tua rappresentazione. Scopri come in [questa sezione](#content).
+1. Aggiungi contenuto alla rappresentazione. Scopri come in [questa sezione](#content).
 
-1. Quando aggiungi contenuto, ad esempio un’immagine o un URL, puoi specificare un **[!UICONTROL Collegamento di destinazione]**: gli utenti che fanno clic sull’offerta verranno indirizzati alla pagina corrispondente.
+1. Quando aggiungi contenuto come un’immagine o un URL, puoi specificare un **[!UICONTROL Collegamento di destinazione]**: gli utenti che fanno clic sull’offerta verranno indirizzati alla pagina corrispondente.
 
    ![](../assets/offer-destination-link.png)
 
-1. Infine, seleziona la lingua scelta per identificare e gestire gli elementi da visualizzare agli utenti.
+1. Infine, seleziona la lingua desiderata per identificare e gestire gli elementi da mostrare agli utenti.
 
-1. Per aggiungere un&#39;altra rappresentazione, utilizza la **[!UICONTROL Aggiungi rappresentazione]** e aggiungi tutte le rappresentazioni necessarie.
+1. Per aggiungere un&#39;altra rappresentazione, utilizzate **[!UICONTROL Aggiungi rappresentazione]** e aggiungi tutte le rappresentazioni necessarie.
 
    ![](../assets/offer-add-representation.png)
 
-1. Dopo aver aggiunto tutte le rappresentazioni, seleziona **[!UICONTROL Successivo]**.
+1. Dopo aver aggiunto tutte le rappresentazioni, selezionate **[!UICONTROL Successivo]**.
 
 ## Definire il contenuto per le rappresentazioni {#content}
 
@@ -68,21 +68,21 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, effettu
 
 ### Aggiungere immagini {#images}
 
-Se la posizione selezionata è di tipo immagine, puoi aggiungere contenuto proveniente da **Risorsa Adobe Experience Cloud** libreria, un archivio centralizzato di risorse fornito da [!DNL Adobe Experience Manager Assets Essentials].
+Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto proveniente da **Risorsa Adobe Experience Cloud** libreria, un archivio centralizzato di risorse fornito da [!DNL Adobe Experience Manager Assets Essentials].
 
 >[!NOTE]
 >
 > Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=it){target="_blank"}.
 
-1. Scegli la **[!UICONTROL Libreria risorse]** opzione .
+1. Scegli la **[!UICONTROL Libreria risorse]** opzione.
 
 1. Seleziona **[!UICONTROL Sfoglia]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
-1. Sfoglia le risorse per selezionare l&#39;immagine desiderata
+1. Sfoglia le risorse per selezionare l’immagine desiderata
 
-1. Fai clic su **[!UICONTROL Seleziona]**.
+1. Clic **[!UICONTROL Seleziona]**.
 
    ![](../assets/offer-select-asset.png)
 
@@ -90,31 +90,31 @@ Se la posizione selezionata è di tipo immagine, puoi aggiungere contenuto prove
 
 Se il posizionamento selezionato è di tipo HTML, puoi anche aggiungere contenuto HTML o JSON proveniente da [Libreria risorse Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Ad esempio, hai creato un modello e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e desideri utilizzare tale file per il contenuto dell’offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nel **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell’offerta.
+Ad esempio, hai creato un modello e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e desideri utilizzare quel file per il contenuto dell’offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello in **Libreria risorse** per poterla riutilizzare nelle rappresentazioni dell’offerta.
 
-Per riutilizzare il contenuto in una rappresentazione, sfoglia **Libreria risorse** come descritto in [questa sezione](#images) e seleziona il file HTML o JSON desiderato.
+Per riutilizzare il contenuto in una rappresentazione, sfogliate la **Libreria risorse** come descritto in [questa sezione](#images) e seleziona il file HTML o JSON desiderato.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
 ### Aggiungi URL {#urls}
 
-Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi immetti l’indirizzo URL del contenuto da aggiungere.
+Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi inserisci l’indirizzo URL del contenuto da aggiungere.
 
 Puoi personalizzare gli URL utilizzando l’editor espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
-Ad esempio, vuoi personalizzare l’immagine mostrata come offerta. Vuoi che gli utenti che favoriscono le vacanze in città vedano lo skyline NYC e gli utenti che favoriscono le vacanze in spiaggia per vedere le Hawaii northshore.
+Ad esempio, desideri personalizzare l’immagine visualizzata come offerta. Vuoi che gli utenti che preferiscono le vacanze in città vedano lo skyline di New York e quelli che preferiscono le vacanze in spiaggia vedano la costa nord delle Hawaii.
 
-Utilizza l’editor espressioni per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Utilizza l’editor espressioni per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
-Se specifichi una **[!UICONTROL Collegamento di destinazione]**, puoi anche personalizzare l’URL a cui verranno indirizzati gli utenti che fanno clic sull’offerta.
+Se si specifica un **[!UICONTROL Collegamento di destinazione]**, puoi anche personalizzare l’URL a cui verranno indirizzati gli utenti che fanno clic sull’offerta.
 
 ### Aggiungi testo personalizzato {#custom-text}
 
-È inoltre possibile inserire contenuto di tipo testo quando si seleziona una posizione compatibile.
+È inoltre possibile inserire contenuto di tipo testo quando si seleziona un posizionamento compatibile.
 
 1. Seleziona la **[!UICONTROL Personalizzato]** e fai clic su **[!UICONTROL Aggiungi contenuto]**.
 
@@ -128,11 +128,11 @@ Se specifichi una **[!UICONTROL Collegamento di destinazione]**, puoi anche pers
 
    ![](../assets/offer-text-content.png)
 
-   Puoi personalizzare il contenuto utilizzando l’editor espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
+   Puoi personalizzare i contenuti utilizzando l’editor di espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
-   >Solo il **[!UICONTROL Attributi del profilo]**, **[!UICONTROL Iscrizioni dei segmenti]** e **[!UICONTROL Funzioni di supporto]** le fonti sono disponibili per la gestione delle decisioni.
+   >Solo il **[!UICONTROL Attributi del profilo]**, **[!UICONTROL Iscrizioni al segmento]** e **[!UICONTROL Funzioni di supporto]** Le fonti sono disponibili per la gestione delle decisioni.
 
