@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11f18adf62c04f6659065ad8da38747fece54a1d
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2477'
 ht-degree: 78%
 
 ---
@@ -60,7 +60,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <td>
 <p>Adobe Journey Optimizer ora supporta gli esperimenti nelle campagne. Gli esperimenti sono test randomizzati, il che nel contesto dei test online significa che esponi alcuni utenti selezionati in modo casuale a una determinata variante di un messaggio e un altro gruppo di utenti selezionato in modo casuale a un’altra variante o trattamento. Dopo l’esposizione, puoi quindi misurare le metriche di risultato a cui sei interessato, ad esempio l’apertura di e-mail, abbonamenti o acquisti.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../campaigns/content-experiment.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -166,7 +166,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 **Canale SMS**
 
-* Infobip è stato aggiunto come provider del fornitore durante la configurazione delle superfici di canale SMS.
+* Infobip è stato aggiunto come provider del fornitore durante la configurazione delle superfici di canale SMS. [Ulteriori informazioni](../sms/sms-configuration.md)
 * Twillio: la configurazione delle credenziali API ora include la possibilità di aggiungere il SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio.
 
 **Canale in-app**
