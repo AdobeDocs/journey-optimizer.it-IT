@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2355'
-ht-degree: 17%
+source-wordcount: '2385'
+ht-degree: 16%
 
 ---
 
@@ -140,16 +140,6 @@ Fondamentalmente, l’output di un segmento è un elenco di profili, mentre una 
 >abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza i limiti per definire il numero massimo di volte in cui un’offerta può essere presentata."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=it#capping-change-date" text="Modificare le date può influire sui limiti"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="Impostare la frequenza dei limiti"
->abstract="Puoi scegliere di reimpostare il contatore dei limiti delle offerte su base giornaliera, settimanale o mensile. Dopo aver salvato l’offerta, non potrai modificare la frequenza selezionata."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impression"
->abstract="È possibile utilizzare le impression come eventi per i limiti solo per i canali in entrata."
-
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
 Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore.
@@ -183,6 +173,11 @@ Il numero di volte in cui viene proposta un’offerta viene calcolato al momento
 >I contatori dei limiti vengono ripristinati alla scadenza dell’offerta o 2 anni dopo la data di inizio dell’offerta, a seconda di quale dei due eventi si verifica per primo. Scopri come definire la data di un’offerta in [questa sezione](creating-personalized-offers.md#create-offer).
 
 ### Evento di limite {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impression"
+>abstract="È possibile utilizzare le impression come eventi per i limiti solo per i canali in entrata."
 
 Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONTROL Evento di limite]** sarà preso in considerazione per aumentare il contatore:
 
@@ -250,6 +245,11 @@ Puoi anche specificare se applicare il limite a tutti gli utenti o a un profilo 
 
 ### Quota limite {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="Impostare la frequenza dei limiti"
+>abstract="Puoi scegliere di reimpostare il contatore dei limiti delle offerte su base giornaliera, settimanale o mensile. Tieni presente che dopo la pubblicazione dell’offerta con il limite di frequenza abilitato, non potrai modificare la frequenza definita."
+
 Il **[!UICONTROL Frequenza]** consente di definire la frequenza con cui viene reimpostato il conteggio dei limiti. A tale scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, se
 
 >[!CAUTION]
 >
->Dopo aver salvato l’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza.
+>Dopo la pubblicazione dell’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza.
+>
+>Puoi comunque modificare il limite di frequenza se l’offerta presenta **[!UICONTROL Bozza]** e non è mai stato pubblicato prima con il limite di frequenza abilitato.
 
 ### Limitazioni e posizionamenti {#placements}
 
