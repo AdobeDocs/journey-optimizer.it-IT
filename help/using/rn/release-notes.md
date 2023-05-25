@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2485'
 ht-degree: 78%
 
 ---
@@ -167,11 +167,11 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 **Canale SMS**
 
 * Infobip è stato aggiunto come provider del fornitore durante la configurazione delle superfici di canale SMS. [Ulteriori informazioni](../sms/sms-configuration.md)
-* Twillio: la configurazione delle credenziali API ora include la possibilità di aggiungere il SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio.
+* Twillio: la configurazione delle credenziali API ora include la possibilità di aggiungere il SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Ulteriori informazioni](../sms/sms-configuration.md)
 
 **Canale in-app**
 
-* Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service.
+* Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * Sono state aggiunte nuove funzionalità di Adobe Experience Platform Assurance per acquisire eventi del dispositivo da aggiungere come regole di attivazione.
 
 **Percorsi**
@@ -180,9 +180,9 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 **Campagne**
 
-* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu con i puntini di sospensione.
+* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu con i puntini di sospensione. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#duplicate)
 * Ora puoi eliminare le modifiche alle bozze in una campagna live.
-* I passaggi per attivare una campagna sono stati semplificati.
+* I passaggi per attivare una campagna sono stati semplificati. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md)
 
 **Gestione delle decisioni**
 
