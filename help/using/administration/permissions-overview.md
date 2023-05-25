@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorizzazioni, diritti, restrizioni, accesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 31%
+source-wordcount: '208'
+ht-degree: 29%
 
 ---
 
-# Panoramica della gestione utente {#permissions-overview}
+# Introduzione alla gestione degli utenti {#permissions-overview}
 
 [!DNL Journey Optimizer]Con puoi definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzioni e alle funzionalità interne al prodotto.
 

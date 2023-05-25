@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: e-mail, stile, css, corpo, struttura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
@@ -28,5 +28,4 @@ Segui i collegamenti riportati di seguito per scoprire come regolare alcune dell
 
 * Scopri come [personalizzare lo sfondo delle e-mail](backgrounds.md)
 * Scopri come [gestire l’allineamento verticale e la spaziatura](alignment-and-padding.md)
-* Scopri come [definire lo stile dei collegamenti presenti nell’e-mail](styling-links.md)
 * Scopri come [personalizzare gli attributi di stile in linea](inline-styling.md)

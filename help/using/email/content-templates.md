@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 13%
@@ -81,8 +81,6 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
 1. Accedere all’elenco dei modelli di contenuto tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** menu a sinistra.
 
-   ![](assets/content-template-list.png)
-
 1. Seleziona **[!UICONTROL Crea modello]**.
 
 1. Compila i dettagli del modello.
@@ -95,7 +93,7 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
-1. Clic **[!UICONTROL Crea]** e scegli come progettare il messaggio e-mail tra le diverse opzioni:
+1. Clic **[!UICONTROL Crea]** e scegli come progettare il modello tra le diverse opzioni:
 
    * [Creare un messaggio e-mail da zero](content-from-scratch.md) tramite l’interfaccia di E-mail Designer.
 

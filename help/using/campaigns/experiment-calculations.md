@@ -8,34 +8,19 @@ topic: Content Management
 role: User
 level: Experienced
 keywords: contenuto, esperimento, statistica, calcolo
-hide: true
-hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 6%
+source-wordcount: '1057'
+ht-degree: 2%
 
 ---
 
 # Comprendere i calcoli statistici {#experiment-calculations}
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione all’esperimento sui contenuti](get-started-experiment.md)
-* [Creare un esperimento sui contenuti](content-experiment.md)
-* **[Comprendere i calcoli statistici](experiment-calculations.md)**
-* [Configurare i rapporti sulla sperimentazione](reporting-configuration.md)
-* [Calcoli statistici nel rapporto di sperimentazione](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
 Questo articolo descrive i calcoli statistici utilizzati quando si eseguono Esperimenti in Adobe Journey Optimizer.
 
-La sperimentazione utilizza metodi statistici avanzati per calcolare **Sequenze di affidabilità** e **Affidabilità**, che ti consente di eseguire gli esperimenti per il tempo necessario e di monitorare continuamente i risultati.
+Utilizzi della sperimentazione [metodi statistici avanzati](../campaigns/assets/confidence_sequence_technical_details.pdf) per calcolare **Sequenze di affidabilità** e **Affidabilità**, che ti consente di eseguire gli esperimenti per il tempo necessario e di monitorare continuamente i risultati.
 
 Adobe Questo articolo descrive come funziona la sperimentazione e fornisce un’introduzione intuitiva alla **Qualsiasi sequenza di affidabilità valida**.
 
@@ -43,12 +28,23 @@ Per gli utenti esperti, i dettagli tecnici e i riferimenti sono descritti in [qu
 
 ## Test statistici ed errori di controllo {#statistical-testing}
 
+Quando esegui un esperimento, stai cercando di determinare se c’è una differenza tra due popolazioni e la probabilità che la differenza sia dovuta al caso.
+
+In generale ci sono due ipotesi:
+
+* il **Ipotesi nulla** significa che non vi è alcun effetto sul trattamento.
+* il **Ipotesi alternativa** significa che c’è un effetto sul trattamento.
+
+In termini di significatività statistica, l&#39;obiettivo è quello di provare a valutare la forza delle prove per rifiutare l&#39;ipotesi nulla. Un punto importante da notare è che la significatività statistica viene utilizzata per valutare la probabilità che i trattamenti siano diversi, non la probabilità che abbiano successo. Per questo motivo la rilevanza statistica viene utilizzata in combinazione con **Incremento**.
+
+Una sperimentazione efficace richiede di prendere in considerazione diversi tipi di errori che potrebbero causare conclusioni errate.
+
 ![](assets/technote_1.png)
 
-Come illustrato nella tabella precedente, molte metodologie di deduzione statistica sono progettate per controllare due tipi di errori:
+La tabella precedente illustra i diversi tipi di errori:
 
-* **Falsi positivi (errori di tipo I)**: è un rifiuto errato dell’ipotesi nulla, quando in realtà è vera. Nel contesto delle sperimentazioni online, ciò significa che concludiamo erroneamente che la metrica di risultato è diversa tra ciascun trattamento, anche se era la stessa.
-   </br>Prima di eseguire l’esperimento, in genere scegliamo una soglia `\alpha`. Dopo l’esecuzione dell’esperimento, `p-value` viene calcolato e rifiutiamo `null if p < \alpha`. Una soglia comunemente utilizzata è `\alpha = 0.05`, il che significa che nel lungo periodo, ci aspettiamo che 5 esperimenti su 100 siano falsi positivi.
+* **Falsi positivi (errori di tipo I)**: sono un rifiuto errato dell’ipotesi nulla, quando in realtà è vera. Nel contesto degli esperimenti online, ciò significa che concludiamo erroneamente che la metrica di risultato è diversa tra ciascun trattamento, anche se era la stessa.
+   </br>Prima di eseguire l’esperimento, in genere scegliamo una soglia `\alpha`. Dopo l’esecuzione dell’esperimento, `p-value` viene calcolato e rifiutiamo `null if p < \alpha`.Scelta di un `/alpha` si basa sulle conseguenze di ottenere la risposta sbagliata, ad esempio in una sperimentazione clinica in cui la vita di qualcuno potrebbe essere influenzata, potresti decidere di avere un `\alpha = 0.005`. Una soglia comunemente utilizzata nella sperimentazione online è `\alpha = 0.05`, il che significa che nel lungo periodo, ci aspettiamo che 5 esperimenti su 100 siano falsi positivi.
 
 * **Falsi negativi (errori di tipo II)**: significa che non possiamo rifiutare l’ipotesi nulla anche se è falsa. Per le sperimentazioni, questo significa che non respingiamo l&#39;ipotesi nulla, quando in realtà è diversa. Per controllare questo tipo di errore, in genere abbiamo bisogno di un numero sufficiente di utenti nel nostro esperimento per garantire una certa Potenza, definita come `1 - \beta`(ovvero uno meno la probabilità di un errore di tipo II).
 
@@ -70,7 +66,7 @@ I fondamenti teorici di **Sequenze di affidabilità** provengono dallo studio di
 
 >[!NOTE]
 >
->Le sequenze di affidabilità possono essere interpretate come analoghi sequenziali sicuri degli intervalli di affidabilità.È possibile esaminare e interpretare i dati negli esperimenti in qualsiasi momento e interrompere in modo sicuro o continuare gli esperimenti. Il valore di affidabilità corrispondente per qualsiasi periodo di tempo valido, oppure `p-value`, è anche interpretabile in modo sicuro.
+>Le sequenze di affidabilità possono essere interpretate come analoghi sequenziali sicuri degli intervalli di affidabilità. Con gli intervalli di affidabilità puoi interpretare l’esperimento solo dopo aver raggiunto la dimensione del campione predeterminata. Tuttavia, con le sequenze di affidabilità è possibile esaminare e interpretare i dati negli esperimenti in qualsiasi momento e interrompere in modo sicuro o continuare gli esperimenti. Il valore di affidabilità corrispondente per qualsiasi periodo di tempo valido, oppure `p-value`, è anche in grado di interpretare in modo sicuro in qualsiasi momento.
 
 È importante notare che, poiché le sequenze di affidabilità sono &quot;sempre valide&quot;, saranno più prudenti di una metodologia di orizzonte fissa utilizzata alla stessa dimensione del campione. I limiti della sequenza di affidabilità sono generalmente più ampi di un calcolo dell’intervallo di affidabilità, mentre l’affidabilità valida per qualsiasi periodo di tempo sarà inferiore a un calcolo dell’affidabilità dell’orizzonte fisso. Il vantaggio di questo conservatorismo è che si può tranquillamente interpretare i risultati in ogni momento.
 

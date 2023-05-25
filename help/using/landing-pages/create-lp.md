@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 28%
+source-wordcount: '1583'
+ht-degree: 27%
 
 ---
 
 # Creare e pubblicare pagine di destinazione {#create-lp}
+
+>[!CAUTION]
+>
+>Per poter testare e pubblicare le pagine di destinazione, è necessario disporre del **[!UICONTROL Pubblicare i messaggi]** autorizzazione.
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -207,6 +211,8 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
 >[!CAUTION]
 >
+>Per poter testare le pagine di destinazione, è necessario disporre del **[!UICONTROL Pubblicare i messaggi]** autorizzazione.
+>
 >Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
 
 1. Nell’interfaccia della pagina di destinazione, fai clic su **[!UICONTROL Simula contenuto]** per accedere alla selezione del profilo di test.
@@ -273,6 +279,10 @@ Possono verificarsi due tipi di avvisi:
 -->
 
 ## Pubblicare la pagina di destinazione {#publish-landing-page}
+
+>[!CAUTION]
+>
+>Per poter pubblicare le pagine di destinazione, devi disporre del **[!UICONTROL Pubblicare i messaggi]** autorizzazione.
 
 Una volta che la pagina di destinazione è pronta, puoi pubblicarla per renderla disponibile per l’utilizzo in un messaggio.
 

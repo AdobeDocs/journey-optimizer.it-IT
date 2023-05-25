@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: 11f18adf62c04f6659065ad8da38747fece54a1d
 workflow-type: tm+mt
-source-wordcount: '2504'
+source-wordcount: '2467'
 ht-degree: 78%
 
 ---
@@ -22,11 +22,11 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
 
-## Note preliminari sulla versione di maggio 2023 {#may-rn-2023}
+## Note sulla versione di maggio 2023 {#may-rn-2023}
 
-Le informazioni riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione. La documentazione aggiornata verrà pubblicata alla data di rilascio e in questa pagina verranno aggiunti i collegamenti diretti.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Data di rilascio**: 25 maggio 2023
+**Release date**: May 25, 2023-->
 
 ### Nuove funzionalità{#may-2023-features}
 
@@ -97,7 +97,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 <td>
 <p>Ora puoi creare, utilizzare e gestire frammenti per assemblare rapidamente e-mail e modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail tra campagne e percorsi Journey Optimizer per una progettazione migliorata e accelerata.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../email/fragments.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -144,14 +144,6 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 
 ### Miglioramenti {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Tipi di pubblico**
@@ -161,16 +153,13 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
    * Pubblico: un insieme di persone, conti, famiglie o altre entità che condividono caratteristiche e comportamenti comuni.
    * Definizione del segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico target. Questo termine era precedentemente noto come &quot;segmento&quot;.
 
-   Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, i &quot;Segmenti&quot; vengono sostituiti da &quot;Tipi di pubblico&quot; per riflettere questo nuovo percorso di creazione e gestione del pubblico.
+   Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai &quot;Segmenti&quot; sostituiti da &quot;Tipi di pubblico&quot; per riflettere questo nuovo percorso di creazione e gestione del pubblico.
 
-   Le modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
-
-   Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
+   Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per alcune lingue:
 
    * Tedesco: Zielgruppe
    * Portoghese brasiliano: público-alvo
    * Spagnolo: público
-
 
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
@@ -197,7 +186,7 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 
 **Gestione delle decisioni**
 
-* Ora puoi modificare il limite di frequenza se l’offerta è nello stato Bozza e non è mai stata pubblicata in precedenza.
+* Ora puoi modificare il limite di frequenza se l’offerta presenta **[!UICONTROL Bozza]** e non è mai stato pubblicato prima con il limite di frequenza abilitato. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalizzazione**
 

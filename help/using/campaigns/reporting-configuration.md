@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: configurazione, sperimentazione, reporting, ottimizzatore
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 badge: label="Beta" type="Informative"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+hide: true
+hidefromtoc: true
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 38%
+source-wordcount: '719'
+ht-degree: 34%
 
 ---
 
@@ -30,18 +30,6 @@ ht-degree: 38%
 >id="ajo_admin_reporting_dataset"
 >title="Selezionare un set di dati"
 >abstract="Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei gruppi di campi supportati: dettagli applicazione, dettagli e-commerce, dettagli web."
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione all’esperimento sui contenuti](get-started-experiment.md)
-* [Creare un esperimento sui contenuti](content-experiment.md)
-* [Comprendere i calcoli statistici](experiment-calculations.md)
-* **[Configurare i rapporti sulla sperimentazione](reporting-configuration.md)**
-* [Calcoli statistici nel rapporto di sperimentazione](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +48,7 @@ Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli
 ## Prerequisiti
 
 
-Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#create){target="_blank"}.
+Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Puoi aggiungere solo set di dati di tipo evento.
 

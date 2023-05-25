@@ -8,14 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
-hide: true
-hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informative"
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 10%
+source-wordcount: '748'
+ht-degree: 6%
 
 ---
 
@@ -26,23 +23,11 @@ ht-degree: 10%
 >title="Esperimento sui contenuti"
 >abstract="Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna al fine di definire più trattamenti di consegna e determinare la combinazione migliore per il pubblico."
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione all’esperimento sui contenuti](get-started-experiment.md)
-* **[Creare un esperimento sui contenuti](content-experiment.md)**
-* [Comprendere i calcoli statistici](experiment-calculations.md)
-* [Configurare i rapporti sulla sperimentazione](reporting-configuration.md)
-* [Calcoli statistici nel rapporto di sperimentazione](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
-L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
-
 >[!NOTE]
 >
 >Prima di iniziare con Content Experiment, assicurati che la configurazione del reporting sia impostata per i set di dati personalizzati. Ulteriori informazioni in [questa sezione](reporting-configuration.md).
+
+L’esperimento sui contenuti di Journey Optimizer consente di definire più trattamenti di consegna per misurare quale offre le migliori prestazioni per il pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico di interesse viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata.
 
 Nell’esempio seguente, l’obiettivo di consegna è stato suddiviso in due gruppi, ciascuno dei quali rappresenta il 45% della popolazione target e un gruppo di riserva del 10%, che non riceverà la consegna.
 
@@ -72,6 +57,8 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 -->
 1. Seleziona il tuo canale e quindi **[!UICONTROL Superficie]** desideri utilizzare per questa consegna e fai clic su **[!UICONTROL Crea]**. Per ulteriori informazioni, consulta [Superfici di canale](../configuration/channel-surfaces.md) pagina.
 
+   In questo esempio, scegliamo di inviare una campagna tramite e-mail.
+
    ![](assets/content_experiment_2.png)
 
 1. Configurare **[!UICONTROL Proprietà]** della consegna:
@@ -90,7 +77,7 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
 1. Per eseguire la campagna in una data specifica o con una frequenza ricorrente, configura la **[!UICONTROL Pianificazione]** sezione. [Ulteriori informazioni](create-campaign.md)
 
-1. Clic **[!UICONTROL Modifica contenuto]** per iniziare a personalizzare la consegna. [Ulteriori informazioni](../email/content-from-scratch.md)
+1. Clic **[!UICONTROL Modifica contenuto]** per iniziare a personalizzare la consegna.
 
    ![](assets/content_experiment_17.png)
 
@@ -160,57 +147,4 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
    ![](assets/content_experiment_14.png)
 
-Dopo aver configurato la sperimentazione e la campagna, puoi seguire il successo della consegna con il rapporto della campagna.
-
-## Relazione sugli obiettivi {#objectives-global}
-
->[!AVAILABILITY]
->
->La funzione di esperimento sui contenuti è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
-
-![](assets/performance_report.gif)
-
-Il **[!UICONTROL Obiettivi]** del rapporto Campaign ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
-
-Il **[!UICONTROL Obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. Elenco di elementi incorporati **[!UICONTROL Obiettivi]** è disponibile, ma puoi aggiungerne uno nuovo aggiungendo nuove **[!UICONTROL Set di dati]**. Per la procedura dettagliata, fare riferimento al seguente [sezione](reporting-configuration.md).
-
-Dopo aver selezionato gli obiettivi di destinazione, i due **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Finalità della campagna]** I widget forniranno un riepilogo dettagliato delle prestazioni di consegna.
-
-Con il **[!UICONTROL Finalità della campagna]** widget, puoi anche scegliere di confrontare l’obiettivo principale con un’altra metrica.
-
-Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
-
-## Rapporto sulla sperimentazione {#experimentation-global}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Metrica Successo"
->abstract="Valore totale della metrica Successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili."
-
->[!AVAILABILITY]
->
->La funzione di esperimento sui contenuti è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
-
-![](assets/experimentation_report_3.png)
-
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Sperimentazione]** La scheda descrive le informazioni principali relative alle prestazioni di ogni variante e all’eventuale migliore prestazione.
-
-La definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tempo, sarà rappresentata da questa icona ![](assets/experimentation_report_1.png).
-
-Il **[!UICONTROL Risultato esperimento]** il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti tra **[!UICONTROL Linea di base]** il menu a discesa. Il miglior trattamento sarà rappresentato da un’icona a forma di stella.
-
-La tabella presenta le metriche seguenti:
-
-* **[!UICONTROL Profili]**: numero di profili target per questo trattamento.
-
-* **[!UICONTROL Clic in uscita univoci]**: numero totale di clic tra i canali in uscita.
-
-* **[!UICONTROL Conteggio per profilo]**: valore totale della metrica di finalità dell’esperimento diviso per il numero di profili.
-
-* **[!UICONTROL Intervallo di affidabilità]**: differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Maggiori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
-
-* **[!UICONTROL Incremento medio]**: miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-lift)
-
-* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
-
-Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
+Dopo aver configurato la sperimentazione e la campagna, puoi seguire il successo della consegna con il rapporto della campagna. [Ulteriori informazioni](../reports/campaign-global-report.md#experimentation-report)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 40%
+source-wordcount: '1063'
+ht-degree: 36%
 
 ---
 
@@ -63,30 +63,59 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * **[!UICONTROL Collegamento esterno]**: inserisci un collegamento a un URL esterno.
 
-   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Rinuncia con un clic]**: inserisci un collegamento per consentire agli utenti di annullare rapidamente l’abbonamento alle comunicazioni senza la necessità di confermare la rinuncia. Ulteriori informazioni in [questa sezione](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Rinuncia con un clic]**: inserisci un collegamento per consentire agli utenti di annullare rapidamente l’abbonamento alle comunicazioni senza la necessità di confermare la rinuncia. [Maggiori informazioni](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Consenso/Iscrizione esterno]**: inserisci un collegamento per accettare la ricezione di comunicazioni dal brand.
 
-   * **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]**: inserisci un collegamento per annullare l’abbonamento alla ricezione di comunicazioni dal brand. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]**: inserisci un collegamento per annullare l’abbonamento alla ricezione di comunicazioni dal brand. Ulteriori informazioni sulla gestione delle rinunce sono disponibili in [questa sezione](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Pagina mirror]**: inserisci un collegamento per visualizzare il contenuto dell’e-mail in un browser web. Ulteriori informazioni in [questa sezione](#mirror-page).
+   * **[!UICONTROL Pagina mirror]**: aggiungi un collegamento per visualizzare il contenuto dell’e-mail in un browser web. [Ulteriori informazioni](#mirror-page)
 
-1. Puoi personalizzare i tuoi collegamenti. Ulteriori informazioni sugli URL personalizzati sono disponibili in [questa sezione](../personalization/personalization-syntax.md#perso-urls).
+1. Inserisci l’URL desiderato nel campo corrispondente, oppure seleziona una pagina di destinazione e definisci le impostazioni e gli stili del collegamento. [Ulteriori informazioni](#adjust-links)
+
+   >[!NOTE]
+   >
+   >Per l’interpretazione degli URL: [!DNL Journey Optimizer] è conforme alla sintassi URI ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), che disabilita alcuni caratteri internazionali speciali negli URL. Quando tenti di inviare la bozza o l’e-mail, se ti viene restituito un errore relativo a un URL aggiunto al contenuto, puoi codificare l’URL della stringa come soluzione alternativa.
+
+1. Puoi personalizzare i tuoi collegamenti. [Ulteriori informazioni](../personalization/personalization-syntax.md#perso-urls)
 
 1. Salva le modifiche.
 
-1. Una volta creato il collegamento, puoi comunque modificarlo dal panello **[!UICONTROL Impostazioni componenti]** a destra.
-
-   * Puoi modificare il collegamento e cambiarne il tipo.
-   * Puoi scegliere di sottolineare o meno il collegamento, selezionando l’opzione corrispondente.
+1. Una volta creato il collegamento, puoi comunque modificarlo dall’ **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** riquadri a destra.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >I messaggi e-mail di tipo Marketing devono includere [collegamento di rinuncia](../privacy/opt-out.md#opt-out-management), che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definito in [superficie di canale](../configuration/channel-surfaces.md#email-type) durante la creazione del messaggio.
+
+## Regolare i collegamenti {#adjust-links}
+
+È possibile apportare modifiche ai collegamenti utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** riquadri a destra. Puoi sottolineare un collegamento, modificarne il colore e selezionarne la destinazione.
+
+1. In un componente **[!UICONTROL Testo]** in cui è stato inserito un collegamento, seleziona il collegamento.
+
+1. Dalla sezione **[!UICONTROL Impostazioni]** , scegli come il pubblico verrà reindirizzato con il **[!UICONTROL Target]** elenco a discesa:
+
+   * **[!UICONTROL Nessuno]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic (impostazione predefinita).
+   * **[!UICONTROL Vuoto]**: il collegamento viene aperto in una nuova finestra o scheda.
+   * **[!UICONTROL Stesso]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic.
+   * **[!UICONTROL Principale]**: il collegamento viene aperto nel frame principale.
+   * **[!UICONTROL Superiore]**: il collegamento viene aperto nel corpo completo della finestra.
+
+   ![](assets/link_2.png)
+
+1. Verifica **[!UICONTROL Sottolinea collegamento]** per sottolineare il testo dell&#39;etichetta del collegamento.
+
+   ![](assets/link_1.png)
+
+1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda.
+
+   ![](assets/link_3.png)
+
+1. Salva le modifiche.
 
 ## Collegare a una pagina mirror {#mirror-page}
 

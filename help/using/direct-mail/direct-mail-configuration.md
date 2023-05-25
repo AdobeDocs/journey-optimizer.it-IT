@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '898'
+ht-degree: 32%
 
 ---
 
@@ -90,7 +90,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
    >[!NOTE]
    >
-   >Attualmente in sono supportati solo Amazon S3 e SFTP [!DNL Journey Optimizer].
+   >Attualmente Amazon S3, SFTP e Azure sono supportati in [!DNL Journey Optimizer].
 
 1. Inserisci i dettagli e le credenziali del server, ad esempio indirizzo del server, chiave di accesso e così via.
 
@@ -116,7 +116,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni per direct mail"
 >abstract="Una superficie per direct mail contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=it#file-routing-configuration" text="Configurare l’indirizzamento dei file"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
+
+1. Se si seleziona **[!UICONTROL Testo delimitato]**, definisci il separatore di colonne desiderato: tabulazione, punto e virgola, barra verticale o e commerciale.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. Seleziona la **[!UICONTROL Configurazione di indirizzamento dei file]** tra quelli che hai creato. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
 

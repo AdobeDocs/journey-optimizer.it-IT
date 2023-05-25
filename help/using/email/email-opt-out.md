@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 82%
+source-wordcount: '1033'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Inoltre, se **[!UICONTROL Annullamento iscrizione mailing list]** è abilitata a
 
 >[!NOTE]
 >
->I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita per la [superficie di canale](../configuration/channel-surfaces.md#email-type) (ossia per il predefinito del messaggio) e durante la creazione del messaggio).
+>I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definito nella sezione [superficie di canale](../configuration/channel-surfaces.md#email-type) e durante la creazione del messaggio).
 
 ## Rinuncia esterna {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ Per consentire ai destinatari di rinunciare selezionando la preferenza dalla pag
 
 La chiamata POST è la seguente:
 
-Endpoint: platform.adobe.io/journey/imp/consent/preferences
+Endpoint: https://platform.adobe.io/journey/imp/consent/preferences
 
 Parametri query:
 
 * **parametri**: contiene il payload crittografato
-* **sig**: signature
 * **pid**: ID profilo crittografato
 
 Questi tre parametri verranno inclusi nell’URL della pagina di destinazione di terze parti inviato al destinatario:

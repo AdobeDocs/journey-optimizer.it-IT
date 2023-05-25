@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '827'
 ht-degree: 24%
 
 ---
@@ -39,7 +39,12 @@ Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un alt
 
 >[!CAUTION]
 >
->La configurazione del sottodominio della pagina di destinazione è comune a tutti gli ambienti. Pertanto, qualsiasi modifica a un sottodominio della pagina di destinazione influirà anche sulle sandbox di produzione.
+>La configurazione del sottodominio della pagina di destinazione è comune a tutti gli ambienti. Pertanto:
+>
+>* Per accedere e modificare i sottodomini della pagina di destinazione, devi disporre del **[!UICONTROL Gestire i sottodomini della pagina di destinazione]** autorizzazione per la sandbox di produzione.
+>
+> * Qualsiasi modifica a un sottodominio della pagina di destinazione influirà anche sulle sandbox di produzione.
+
 
 ## Usa un sottodominio esistente {#lp-use-existing-subdomain}
 

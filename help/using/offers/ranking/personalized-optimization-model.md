@@ -7,18 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 0%
+source-wordcount: '781'
+ht-degree: 1%
 
 ---
 
 # Modello di ottimizzazione personalizzata {#personalized-optimization-model}
-
->[!CAUTION]
->
->L’utilizzo di modelli di ottimizzazione personalizzati è attualmente disponibile in accesso anticipato solo per alcuni utenti.
 
 ## Panoramica {#overview}
 
@@ -35,14 +31,14 @@ Ad esempio, se una banca dispone di due offerte di carte di credito con l’unic
 
 ## Come funziona {#how}
 
-La personalizzazione automatica apprende interazioni complesse tra le funzioni di offerte, informazioni sugli utenti e informazioni contestuali per consigliare offerte personalizzate agli utenti finali. Le feature sono input nel modello.
+Il modello apprende interazioni complesse tra le funzioni di offerte, informazioni sugli utenti e informazioni contestuali per consigliare offerte personalizzate agli utenti finali. Le feature sono input nel modello.
 
 Esistono 3 tipi di funzionalità:
 
 | Tipi di funzionalità | Come aggiungere feature ai modelli |
 |--------------|----------------------------|
-| Oggetti decisioning (placementID, activityID, decisionScopeID) | Parte del feedback di gestione delle decisioni Eventi di esperienza inviati ad AEP |
 | Segmenti | È possibile aggiungere 0-50 segmenti come funzioni durante la creazione del modello di IA per la classificazione |
+| Oggetti decisioning (placementID, activityID, decisionScopeID) | Parte del feedback di gestione delle decisioni Eventi di esperienza inviati ad AEP |
 | Dati contestuali | Parte del feedback decisionale Eventi di esperienza inviati ad AEP. Dati contestuali disponibili da aggiungere allo schema: Dettagli Commerce, Dettagli canale, Dettagli applicazione, Dettagli web, Dettagli ambiente, Dettagli dispositivo, placeContext |
 
 Il modello prevede due fasi:
@@ -66,7 +62,7 @@ Fondamentalmente, questa è l&#39;idea di imparare e memorizzare interazioni sto
 Il problema di avvio a freddo si verifica quando non ci sono abbastanza dati per creare un consiglio. Per la personalizzazione automatica, esistono due tipi di problemi con avviamento a freddo.
 
 * **Dopo aver creato una nuova strategia di classificazione senza dati storici**, le offerte verranno distribuite in modo casuale per un periodo di tempo per la raccolta dei dati e i dati verranno utilizzati per addestrare il primo modello.
-* A **dopo il rilascio del primo modello**, il 10% del traffico totale verrà allocato per la distribuzione casuale, mentre il 90% del traffico verrà utilizzato per la generazione di consigli sui modelli. Pertanto, se alla strategia di classificazione fossero aggiunte nuove offerte, queste verrebbero consegnate come parte del 10% del traffico. I dati raccolti su tali offerte determinano il numero di volte in cui viene selezionato tra il 90% del traffico mentre il modello continua a essere aggiornato.
+* **Dopo il rilascio del primo modello**, il 10% del traffico totale verrà allocato per la distribuzione casuale, mentre il 90% del traffico verrà utilizzato per la generazione di consigli sui modelli. Pertanto, se alla strategia di classificazione fossero aggiunte nuove offerte, queste verrebbero consegnate come parte del 10% del traffico. I dati raccolti su tali offerte determinano il numero di volte in cui viene selezionato tra il 90% del traffico mentre il modello continua a essere aggiornato.
 
 ## Riaddestramento {#re-training}
 

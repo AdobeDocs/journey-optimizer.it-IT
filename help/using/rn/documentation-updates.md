@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
+source-git-commit: 74318fe0e9f72fe6341c060f7113fc877fc7d116
 workflow-type: tm+mt
-source-wordcount: '2769'
-ht-degree: 100%
+source-wordcount: '2818'
+ht-degree: 98%
 
 ---
 
@@ -17,8 +17,10 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Maggio 2023 {#may-2023}
 
+* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di maggio 2023 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stata aggiunta una nuova pagina per descrivere come impostare il sottodominio che verrà utilizzato per pubblicare contenuti provenienti da Adobe Experience Manager Assets Essentials nelle esperienze web. [Ulteriori informazioni](../web/web-delegated-subdomains.md)
 * È stata aggiunta una nuova sottosezione per spiegare come aggiungere parametri di tracciamento personalizzati agli URL in E-mail designer. [Ulteriori informazioni](../email/message-tracking.md#url-tracking)
+* È stata aggiunta una nuova sezione per descrivere come garantire che venga rispettata la scelta dei clienti che rinunciano a che i loro dati di profilo vengano utilizzati per la personalizzazione. [Ulteriori informazioni](../privacy/opt-out.md#)
 
 ## Aprile 2023 {#apr-2023}
 
