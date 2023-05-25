@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a6f66bd1b2b0050830e4ba5b102a3b48faa8202
+source-git-commit: 89909c8a1465c40bc1201eeba2deb98969e5575e
 workflow-type: tm+mt
-source-wordcount: '2379'
-ht-degree: 82%
+source-wordcount: '2530'
+ht-degree: 77%
 
 ---
 
@@ -155,6 +155,23 @@ Le informazioni riportate di seguito sono soggette a modifiche senza preavviso f
 
 
 **Tipi di pubblico**
+
+* In preparazione alla disponibilità generale della funzione Audience Portal, Adobe Experience Platform sta aggiornando l’utilizzo di &quot;tipi di pubblico&quot; e &quot;segmenti&quot; all’interno del sistema e della documentazione.
+
+   * Pubblico: un insieme di persone, conti, famiglie o altre entità che condividono caratteristiche e comportamenti comuni.
+   * Definizione del segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico target. Questo termine era precedentemente noto come &quot;segmento&quot;.
+
+   Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, i &quot;Segmenti&quot; vengono sostituiti da &quot;Tipi di pubblico&quot; per riflettere questo nuovo percorso di creazione e gestione del pubblico.
+
+   Le modifiche verranno implementate gradualmente con le prossime versioni dell’interfaccia utente e della documentazione.
+
+   Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per le seguenti lingue:
+
+   * Tedesco: Zielgruppe
+   * Portoghese brasiliano: público-alvo
+   * Spagnolo: público
+
+
 
 * Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico.
 
