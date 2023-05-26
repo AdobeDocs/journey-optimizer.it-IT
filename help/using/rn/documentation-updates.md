@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
+source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 97%
+source-wordcount: '2876'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una nuova pagina per descrivere come impostare il sottodominio che verrà utilizzato per pubblicare contenuti provenienti da Adobe Experience Manager Assets Essentials nelle esperienze web. [Ulteriori informazioni](../web/web-delegated-subdomains.md)
 * È stata aggiunta una nuova sottosezione per spiegare come aggiungere parametri di tracciamento personalizzati agli URL in E-mail Designer. [Ulteriori informazioni](../email/message-tracking.md#url-tracking)
 * È stata aggiunta una nuova sezione per descrivere come garantire che venga rispettata la scelta dei clienti che rinunciano a che i loro dati di profilo vengano utilizzati per la personalizzazione. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-personalization)
+* È stata aggiunta una nota sull’utilizzo di caratteri internazionali speciali negli URL inclusi nel contenuto delle e-mail. [Ulteriori informazioni](../email/message-tracking.md#insert-links)
+* È stata aggiunta l’autorizzazione necessaria per testare e pubblicare le pagine di destinazione. [Ulteriori informazioni](../landing-pages/create-lp.md)
+* È stata aggiunta una nota sugli endpoint Adobe Experience Platform necessari per tenere conto degli eventi personalizzati nel limite di frequenza di Management Decisioning. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## Aprile 2023 {#apr-2023}
 
