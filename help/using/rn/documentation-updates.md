@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
+source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
 ht-degree: 95%
@@ -23,7 +23,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta una nuova sezione per descrivere come garantire che venga rispettata la scelta dei clienti che rinunciano a che i loro dati di profilo vengano utilizzati per la personalizzazione. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-personalization)
 * È stata aggiunta una nota sull’utilizzo di caratteri internazionali speciali negli URL inclusi nel contenuto delle e-mail. [Ulteriori informazioni](../email/message-tracking.md#insert-links)
 * È stata aggiunta l’autorizzazione necessaria per testare e pubblicare le pagine di destinazione. [Ulteriori informazioni](../landing-pages/create-lp.md)
-* È stata aggiunta una nota sugli endpoint Adobe Experience Platform necessari per tenere conto degli eventi personalizzati nel limite di frequenza di Management Decisioning. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md#track-custom-events)
+* È stata aggiunta una nota sugli endpoint Adobe Experience Platform necessari per tenere conto degli eventi personalizzati nel limite di frequenza di Gestione delle decisioni. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## Aprile 2023 {#apr-2023}
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 271952e9c5d3c7823edba100d38e4ef673143cc3
+source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
 workflow-type: tm+mt
-source-wordcount: '2426'
-ht-degree: 80%
+source-wordcount: '2485'
+ht-degree: 78%
 
 ---
 
@@ -86,22 +86,22 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 -->
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Create and use fragments in your email content</strong><br/></th>
+<th><strong>Creare e utilizzare frammenti nel contenuto dell’e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
+<p>Ora puoi creare, utilizzare e gestire frammenti per assemblare rapidamente e-mail e modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail tra campagne e percorsi Journey Optimizer per una progettazione migliorata e accelerata.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/fragments.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>
