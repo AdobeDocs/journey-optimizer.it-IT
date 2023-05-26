@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 78%
+source-wordcount: '2466'
+ht-degree: 79%
 
 ---
 
@@ -174,9 +174,11 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 * Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * Sono state aggiunte nuove funzionalità di Adobe Experience Platform Assurance per acquisire eventi del dispositivo da aggiungere come regole di attivazione.
 
-**Percorsi**
+<!--
+**Journeys**
 
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Campagne**
 
