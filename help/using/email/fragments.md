@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # Utilizzare i frammenti {#fragments}
 
@@ -21,8 +21,7 @@ Un frammento è un componente riutilizzabile a cui è possibile fare riferimento
 
 Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati da utenti di marketing non tecnici per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [Scopri come gestire, creare e utilizzare i frammenti in questo video](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ Per interrompere l’ereditarietà, effettua le seguenti operazioni:
 
 1. Il frammento diventa un elemento autonomo non più collegato al frammento originale. Modificalo come qualsiasi altro componente del contenuto. [Ulteriori informazioni](content-components.md)
 
-<!--
+## Video introduttivo {#video-fragments}
 
-## How-to video {#video-templates}
+Scopri come gestire, creare e utilizzare i frammenti in [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
