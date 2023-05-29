@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 301b10e090859c196c22523f4ecbe578d3ccb592
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,8 @@ L’interfaccia utente è attualmente disponibile nelle seguenti lingue:
 * Portoghese (brasiliano)
 * Giapponese
 * Coreano
+* Cinese tradizionale
+* Cinese semplificato
 
 La lingua predefinita dell’interfaccia è determinata dalla lingua preferita specificata nel profilo utente.
 
