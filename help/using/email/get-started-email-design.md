@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -64,8 +64,12 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
    ![](assets/email_designer_export.png)
 
-## Video introduttivo {#video}
+## Video sulle procedure {#video}
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
