@@ -10,7 +10,7 @@ level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -28,8 +28,8 @@ In Journey Optimizer puoi applicare questi criteri di consenso alle azioni perso
 
 In Journey Optimizer, il consenso è definito a diversi livelli:
 
-* durante la **configurazione di un’azione personalizzata**, è possibile definire un canale e un’azione di marketing. Consulta questa [sezione](../action/consent.md#consent-custom-action).
-* durante l’aggunta dell’**azione personalizzata percorso**, è possibile definire un’azione di marketing aggiuntiva. Consulta questa [sezione](../action/consent.md#consent-journey).
+* Durante la **configurazione di un’azione personalizzata**, è possibile definire un canale e un’azione di marketing. Consulta questa [sezione](../action/consent.md#consent-custom-action).
+* Durante l’aggiunta dell’**azione personalizzata percorso**, è possibile definire un’azione di marketing aggiuntiva. Consulta questa [sezione](../action/consent.md#consent-journey).
 
 ## Note importanti {#important-notes}
 
@@ -39,7 +39,7 @@ Con la gestione del consenso vengono analizzate due attività del percorso:
 
 * Segmento di lettura: viene preso in considerazione il segmento recuperato.
 * Azione personalizzata: la gestione del consenso tiene conto degli attributi utilizzati ([parametri di azione](../action/about-custom-action-configuration.md#define-the-message-parameters)) e le azioni di marketing definite (azioni di marketing richieste e azioni di marketing aggiuntive).
-* Gli attributi appartenti a un gruppo di campi che utilizzano lo schema di unione predefinito non sono supportati. Questi attributi risulteranno nascosti nell’interfaccia. È necessario creare un altro gruppo di campi utilizzando uno schema diverso.
+* Gli attributi appartenenti a un gruppo di campi che utilizzano lo schema di unione predefinito non sono supportati. Questi attributi risulteranno nascosti nell’interfaccia. È necessario creare un altro gruppo di campi utilizzando uno schema diverso.
 * I criteri di consenso si applicano solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
 
 Non vengono prese in considerazione tutte le altre attività utilizzate in un percorso. Se inizi il percorso con una qualifica Segmento, il segmento non viene preso in considerazione.
