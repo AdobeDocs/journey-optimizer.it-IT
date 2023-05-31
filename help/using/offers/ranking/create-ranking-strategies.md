@@ -1,7 +1,7 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Crea modelli AI
+title: Creare modelli AI
 description: Scopri come creare modelli AI per classificare le offerte
 feature: Ranking Formulas
 role: User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ---
 
-# Crea modelli AI {#ai-rankings}
+# Creare modelli AI {#ai-rankings}
 
 [!DNL Journey Optimizer] consente di creare **Modelli IA** per classificare le offerte in base agli obiettivi aziendali.
 
