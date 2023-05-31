@@ -8,9 +8,9 @@ level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Qui sono disponibili diversi set di dati:
 * _Generazione rapporti - Set di dati evento esperienza di tracciamento push_: registri di interazione per il canale push, utilizzato a scopo di generazione rapporti e creazione di segmenti. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale sulle notifiche push.
 * _Generazione rapporti - Evento passaggio percorso_: acquisisce tutti gli eventi di esperienza passaggio percorso generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati percorso.
 * _Generazione rapporti - Percorsi_: set di dati di metadati che raccoglie informazioni di ogni passaggio in un percorso.
-* _Generazione rapporti - CCN_: set di dati evento di feedback che memorizza i log di consegna per le e-mail CCN. Da utilizzare a scopo di generazione rapporti.
+* _Generazione rapporti - Ccn_: set di dati evento di feedback che memorizza i log di consegna per le e-mail Ccn. Da utilizzare a scopo di generazione rapporti.
 
 **Consenso**
 
@@ -69,7 +69,7 @@ Per creare un nuovo set di dati, inizia selezionando **Creare un set di dati** n
 
 Puoi eseguire le seguenti operazioni:
 
-* Creare un set di dati da uno schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
+* Creare un set di dati da uno schema. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=it#schema){target="_blank"}
 * Crea set di dati da file CSV. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=it){target="_blank"}
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
