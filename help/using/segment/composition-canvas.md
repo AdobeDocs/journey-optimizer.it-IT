@@ -166,11 +166,11 @@ Per configurare l’attività, effettua le seguenti operazioni:
 
 Una volta pubblicata la composizione, gli attributi selezionati vengono associati al pubblico e possono essere utilizzati nelle campagne per personalizzare le consegne.
 
-### Attività classificazione {#rank}
+### Attività Classificazione {#rank}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
->title="Attività classificazione"
+>title="Attività Classificazione"
 >abstract="L’attività Classificazione consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà."
 
 >[!CONTEXTUALHELP]
