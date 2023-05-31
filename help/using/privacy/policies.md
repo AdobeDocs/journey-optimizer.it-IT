@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,5 @@ I criteri di utilizzo dei dati sono regole che descrivono i tipi di azioni di ma
 Per ulteriori informazioni sul framework per la governance dei dati e su come utilizzare etichette e criteri, consulta la documentazione di Adobe Experience Platform:
 
 * [Panoramica del servizio di governance dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=it)
-* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
+* [Panoramica delle etichette di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=it)
 * [Criteri di utilizzo dei dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it)
