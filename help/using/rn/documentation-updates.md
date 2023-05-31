@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Maggio 2023 {#may-2023}
 
-* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di maggio 2023 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati con la versione di maggio 2023 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Maggiori informazioni](release-notes.md)
 * È stata aggiunta una nuova pagina per descrivere come impostare il sottodominio che verrà utilizzato per pubblicare contenuti provenienti da Adobe Experience Manager Assets Essentials nelle esperienze web. [Ulteriori informazioni](../web/web-delegated-subdomains.md)
-* È stata aggiunta una nuova sottosezione per spiegare come aggiungere parametri di tracciamento personalizzati agli URL in E-mail Designer. [Ulteriori informazioni](../email/message-tracking.md#url-tracking)
-* È stata aggiunta una nuova sezione per descrivere come garantire che venga rispettata la scelta dei clienti che rinunciano a che i loro dati di profilo vengano utilizzati per la personalizzazione. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-personalization)
-* È stata aggiunta una nota sull’utilizzo di caratteri internazionali speciali negli URL inclusi nel contenuto delle e-mail. [Ulteriori informazioni](../email/message-tracking.md#insert-links)
-* È stata aggiunta l’autorizzazione necessaria per testare e pubblicare le pagine di destinazione. [Ulteriori informazioni](../landing-pages/create-lp.md)
-* È stata aggiunta una nota sugli endpoint Adobe Experience Platform necessari per tenere conto degli eventi personalizzati nel limite di frequenza di Gestione delle decisioni. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md#track-custom-events)
+* È stata aggiunta una nuova sottosezione per spiegare come aggiungere parametri di tracciamento personalizzati agli URL in E-mail designer. [Maggiori informazioni](../email/message-tracking.md#url-tracking)
+* È stata aggiunta una nuova sezione per descrivere come assicurarsi che venga rispettata la scelta dei clienti che rinunciano all&#39;utilizzo dei propri dati di profilo per la personalizzazione. [Maggiori informazioni](../privacy/opt-out.md#opt-out-personalization)
+* È stata aggiunta una nota sull’utilizzo di caratteri speciali internazionali negli URL inclusi nel contenuto delle e-mail. [Maggiori informazioni](../email/message-tracking.md#insert-links)
+* È stata aggiunta l’autorizzazione necessaria per testare e pubblicare le pagine di destinazione. [Maggiori informazioni](../landing-pages/create-lp.md)
+* È stata aggiunta una nota sugli endpoint Adobe Experience Platform necessari per tenere conto degli eventi personalizzati nel limite di frequenza di Gestione delle decisioni. [Maggiori informazioni](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## Aprile 2023 {#apr-2023}
 
@@ -73,8 +73,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * È stata aggiunta una nuova pagina sulle integrazioni con Journey Optimizer. [Maggiori informazioni](../start/ajo-integrations.md)
 * È stata aggiunta una raccomandazione relativa alla lunghezza degli URL delle pagine mirror. [Maggiori informazioni](../email/message-tracking.md)
-* Nella risposta all’indirizzo e-mail è stata aggiunta una nuova sottosezione nella configurazione delle impostazioni e-mail che include consigli per garantire la corretta gestione delle risposte. [Maggiori nformazioni](../email/email-settings.md#reply-to-email)
-* È stata aggiunta una sezione su come modificare il contenuto di un messaggio in un percorso live. [Maggiori nformazioni](../building-journeys/journeys-message.md#update-live-content)
+* Nella risposta all’indirizzo e-mail è stata aggiunta una nuova sottosezione nella configurazione delle impostazioni e-mail che include consigli per garantire la corretta gestione delle risposte. [Maggiori informazioni](../email/email-settings.md#reply-to-email)
+* È stata aggiunta una sezione su come modificare il contenuto di un messaggio in un percorso live. [Maggiori informazioni](../building-journeys/journeys-message.md#update-live-content)
 
 ## Ottobre 2022 {#october-2022}
 

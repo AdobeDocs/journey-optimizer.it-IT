@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
 source-wordcount: '2466'
-ht-degree: 79%
+ht-degree: 97%
 
 ---
 
@@ -52,13 +52,13 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Sperimentazione dei contenuti nelle campagne</strong><br/></th>
+<th><strong>Sperimentazione sui contenuti nelle campagne</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora supporta gli esperimenti nelle campagne. Gli esperimenti sono test randomizzati, il che nel contesto dei test online significa che esponi alcuni utenti selezionati in modo casuale a una determinata variante di un messaggio e un altro gruppo di utenti selezionato in modo casuale a un’altra variante o trattamento. Dopo l’esposizione, puoi quindi misurare le metriche di risultato a cui sei interessato, ad esempio l’apertura di e-mail, abbonamenti o acquisti.</p>
+<p>Adobe Journey Optimizer ora supporta gli esperimenti nelle campagne. Gli esperimenti sono test randomizzati: nel contesto dei test online significa che esponi alcuni utenti selezionati in modo casuale a una determinata variante di un messaggio e un altro gruppo di utenti selezionato in modo casuale a un’altra variante o trattamento. Dopo l’esposizione, puoi quindi misurare le metriche del risultato che ti interessano, ad esempio apertura di e-mail, iscrizioni o acquisti.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../campaigns/content-experiment.md">documentazione dettagliata</a>.</p>
 </td>
@@ -132,7 +132,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tbody>
 <tr>
 <td>
-<p>I modelli di classificazione di IA per l’ottimizzazione personalizzata sono ora generalmente disponibili in Gestione delle decisioni. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
+<p>I modelli di classificazione IA per l’ottimizzazione personalizzata sono ora disponibili in Gestione decisioni. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/ranking/personalized-optimization-model.md">documentazione dettagliata</a>.</p>
 </td>
@@ -148,30 +148,30 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 **Tipi di pubblico**
 
-* In preparazione alla disponibilità generale della funzione Audience Portal, Adobe Experience Platform sta aggiornando l’utilizzo di &quot;tipi di pubblico&quot; e &quot;segmenti&quot; all’interno del sistema e della documentazione.
+* In preparazione alla disponibilità generale della funzione Audience Portal, Adobe Experience Platform sta aggiornando l’utilizzo di “tipi di pubblico” e “segmenti” all’interno del sistema e della documentazione.
 
-   * Pubblico: un insieme di persone, conti, famiglie o altre entità che condividono caratteristiche e comportamenti comuni.
-   * Definizione del segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico target. Questo termine era precedentemente noto come &quot;segmento&quot;.
+   * Pubblico: un set di persone, account, famiglie o altre entità che hanno in comune caratteristiche e/o comportamenti specifici.
+   * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
 
-   Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai &quot;Segmenti&quot; sostituiti da &quot;Tipi di pubblico&quot; per riflettere questo nuovo percorso di creazione e gestione del pubblico.
+   Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai che “Segmenti” è stato sostituito da “Tipi di pubblico” per riflettere questo nuovo percorso di creazione e gestione del pubblico.
 
-   Le traduzioni del termine &quot;pubblico&quot; quando si fa riferimento a un gruppo di profili target per ricevere un messaggio sono state armonizzate in tutti i prodotti di esperienza digitale per alcune lingue:
+   Le traduzioni del termine inglese “audience” (pubblico) quando si fa riferimento a un gruppo di profili target per la ricezione di un messaggio sono state armonizzate in tutti i prodotti Digital Experience per alcune lingue:
 
    * Tedesco: Zielgruppe
    * Portoghese brasiliano: público-alvo
-   * Spagnolo: público
+   * Spagnolo: público destinatario
 
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **Canale SMS**
 
-* Infobip è stato aggiunto come provider del fornitore durante la configurazione delle superfici di canale SMS. [Ulteriori informazioni](../sms/sms-configuration.md)
-* Twillio: la configurazione delle credenziali API ora include la possibilità di aggiungere il SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Ulteriori informazioni](../sms/sms-configuration.md)
+* Infobip è stato aggiunto come provider disponibile per la configurazione delle superfici di canale SMS. [Maggiori informazioni](../sms/sms-configuration.md)
+* Twilio: la configurazione delle credenziali API ora include la possibilità di aggiungere l’identificatore SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Maggiori informazioni](../sms/sms-configuration.md)
 
 **Canale in-app**
 
-* Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service. [Ulteriori informazioni](../in-app/inapp-configuration.md)
+* Sono state aggiunte nuove regole di attivazione dei messaggi per Adobe Places Service. [Maggiori informazioni](../in-app/inapp-configuration.md)
 * Sono state aggiunte nuove funzionalità di Adobe Experience Platform Assurance per acquisire eventi del dispositivo da aggiungere come regole di attivazione.
 
 <!--
@@ -182,17 +182,17 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 **Campagne**
 
-* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu con i puntini di sospensione. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#duplicate)
-* Ora puoi eliminare le modifiche alle bozze in una campagna live.
-* I passaggi per attivare una campagna sono stati semplificati. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md)
+* È ora possibile duplicare una campagna dalla schermata di inventario utilizzando il menu Azioni con i tre puntini. [Maggiori informazioni](../campaigns/modify-stop-campaign.md#duplicate)
+* Ora puoi eliminare le modifiche apportate alle bozze in una campagna live.
+* I passaggi per attivare una campagna sono stati semplificati. [Maggiori informazioni](../campaigns/modify-stop-campaign.md)
 
 **Gestione delle decisioni**
 
-* Ora puoi modificare il limite di frequenza se l’offerta presenta **[!UICONTROL Bozza]** e non è mai stato pubblicato prima con il limite di frequenza abilitato. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
+* Ora puoi modificare la quota limite se l’offerta è in stato **[!UICONTROL Bozza]** e non è mai stata pubblicata prima con la quota limite abilitata. [Maggiori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalizzazione**
 
-* Ora è possibile selezionare e inserire riferimenti alle risorse direttamente dall’Editor di personalizzazione quando si lavora nel contenuto di HTML.
+* Ora è possibile selezionare e inserire riferimenti alle risorse direttamente dall’Editor personalizzazione quando si lavora su contenuti HTML.
 
 ### Correzioni{#may-2023-fixes}
 
@@ -226,7 +226,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Flusso di lavoro con avvio rapido per l’onboarding per dispositivi mobili (Beta)</strong><br/></th>
+<th><strong>Flusso di lavoro di avvio rapido per l’onboarding mobile (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -243,16 +243,16 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Nuovo dashboard Percorso (Beta)</strong><br/></th>
+<th><strong>Nuova dashboard Percorso (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Il dashboard Percorso è ora suddiviso in due schede:</p>
-<ul><li>Utilizza il <strong>Panoramica</strong> per accedere a una nuova dashboard in cui vengono visualizzate le metriche chiave correlate ai percorsi.</li>
-<li>Utilizza il <strong>Sfoglia</strong> per accedere all’elenco di tutti i percorsi.</li></ul>
-<p>Questa funzionalità è accessibile in tutti i percorsi come versione beta pubblica.</p>
+<p> La dashboard Percorso è ora suddivisa in due schede:</p>
+<ul><li>Utilizza la scheda <strong>Panoramica</strong> per accedere a una nuova dashboard in cui vengono visualizzate le metriche chiave relative ai percorsi.</li>
+<li>Utilizza la scheda <strong>Sfoglia</strong> per accedere all’elenco di tutti i percorsi.</li></ul>
+<p>Questa funzionalità è accessibile in tutti i percorsi come versione Beta pubblica.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-gs.md#journey-access">documentazione dettagliata</a>.</p>
 </td>
@@ -404,7 +404,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Esportare i set di dati di Journey Optimizer nelle destinazioni di archiviazione cloud (Beta)</strong><br/></th>
+<th><strong>Esportare i set di dati Journey Optimizer verso destinazioni di archiviazione cloud (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -497,7 +497,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Elenco Consentiti**: è ora possibile scaricare l’elenco Consentiti come file .csv. [Ulteriori informazioni](../configuration/allow-list.md#download-allowed-list)
 
-* **Superficie e-mail**: è stato aggiunto un controllo aggiuntivo alle impostazioni dell’area e-mail. Se il record MX per il sottodominio utilizzato in **Risposta all’indirizzo (e-mail)** o **Indirizzo e-mail CCN** non è configurato correttamente, non è più possibile creare la superficie e-mail. È necessario configurarla o utilizzarne un’altra [Ulteriori informazioni](../email/email-settings.md#reply-to-email)
+* **Superficie e-mail**: è stato aggiunto un controllo aggiuntivo alle impostazioni dell’area e-mail. Se il record MX per il sottodominio utilizzato in **Risposta all’indirizzo (e-mail)** o **Indirizzo e-mail Ccn** non è configurato correttamente, non è più possibile creare la superficie e-mail. È necessario configurarla o utilizzarne un’altra [Ulteriori informazioni](../email/email-settings.md#reply-to-email)
 
 * **Superficie e-mail**: nella sezione **Parametri di tracciamento URL** delle impostazioni della superficie dell’e-mail, il limite per ogni campo **Valore** è stato aggiornato da 255 caratteri a 5 KB per la compatibilità con il tracciamento di Adobe Analytics. [Ulteriori informazioni](../email/email-settings.md#url-tracking)
 
