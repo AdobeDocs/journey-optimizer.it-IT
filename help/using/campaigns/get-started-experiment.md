@@ -10,7 +10,7 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
 ht-degree: 100%
 
@@ -145,7 +145,7 @@ Il riepilogo del rapporto Esperimento mostra l’**[!UICONTROL Incremento rispet
 
 ### 3. Comprendere l’affidabilità {#understand-confidence}
 
-Mentre dovresti concentrarti principalmente sull’**[!UICONTROL Intervallo di affidabilità]** per l’esecuzione di ciascun trattamento, Adobe mostra anche l’affidabilità, che è una misura probabilistica di quanta prova ci sia che un dato trattamento è lo stesso del trattamento della line di base. Una maggiore affidabilità indica meno prove dell’ipotesi che i trattamenti della linea di base e non abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata rappresenta la probabilità (espressa in percentuale) di osservare una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non vi è alcuna differenza negli effettivi tassi di conversione sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
+Mentre dovresti concentrarti principalmente sull’**[!UICONTROL Intervallo di affidabilità]** per l’esecuzione di ciascun trattamento, Adobe mostra anche l’affidabilità, che è una misura probabilistica di quanta prova ci sia che un dato trattamento è lo stesso del trattamento della linea di base. Una maggiore affidabilità indica meno prove dell’ipotesi che i trattamenti della linea di base e non abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata rappresenta la probabilità (espressa in percentuale) di osservare una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non vi è alcuna differenza negli effettivi tassi di conversione sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
 
 In Adobe viene utilizzata l’affidabilità “valida in ogni momento” e i valori p “validi in ogni momento” coerenti con le sequenze di affidabilità descritte in precedenza.
 
