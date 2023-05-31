@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
       + [Introduzione per amministratori](using/start/path/administrator.md)
       + [Introduzione per sviluppatori](using/start/path/developer.md)
    + [Interfaccia utente](using/start/user-interface.md)
-   + [Cerca, filtra, categorizza](using/start/search-filter-categorize.md)
+   + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
    + [Accessibilità](using/start/accessibility.md)
    + [Integrazioni](using/start/ajo-integrations.md)
    + [Guardrail](using/start/guardrails.md)
@@ -61,7 +61,7 @@ ht-degree: 98%
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
       + [Azioni Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Salta](using/building-journeys/jump.md)
-      + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
+      + [Aggiorna profilo](using/building-journeys/update-profiles.md)
    + Creare espressioni {#building-advanced-conditions-journeys}
       + [Panoramica](using/building-journeys/expression/expressionadvanced.md)
       + Sintassi {#syntax}
@@ -169,7 +169,7 @@ ht-degree: 98%
       + [Configurare i rapporti sulla sperimentazione](using/campaigns/reporting-configuration.md)
       + Note tecniche {#technotes}
          + [Comprendere i calcoli statistici](using/campaigns/experiment-calculations.md)
-         + [Comprendere i calcoli statistici nel rapporto Sperimentazione](using/campaigns/experiment-report-calculations.md)
+         + [Comprendere i calcoli statistici nel rapporto sulla sperimentazione](using/campaigns/experiment-report-calculations.md)
    + [Attivare campagne tramite API](using/campaigns/api-triggered-campaigns.md)
 + Canale e-mail {#email}
    + [Introduzione alle e-mail](using/email/get-started-email.md)
@@ -177,9 +177,9 @@ ht-degree: 98%
    + Progettare i contenuti delle e-mail {#design-email}
       + [Introduzione alla progettazione delle e-mail](using/email/get-started-email-design.md)
       + Iniziare a creare contenuti {#start-creating-content}
-         + [Crea contenuto da zero](using/email/content-from-scratch.md)
-         + [Importa il tuo contenuto](using/email/existing-content.md)
-         + [Crea un codice per il tuo contenuto](using/email/code-content.md)
+         + [Creare contenuti da zero](using/email/content-from-scratch.md)
+         + [Importare i contenuti](using/email/existing-content.md)
+         + [Creare il codice del contenuto](using/email/code-content.md)
          + [Utilizzare i modelli](using/email/email-templates.md)
       + Creare contenuti {#add-content}
          + [Utilizzare i componenti per contenuti](using/email/content-components.md)
@@ -188,15 +188,15 @@ ht-degree: 98%
             + [Utilizzare Assets Essentials](using/email/assets-essentials.md)
             + [Utilizzare Adobe Stock](using/email/stock.md)
          + [Inserire offerte personalizzate](using/email/add-offers-email.md)
-         + [Genera la versione del testo](using/email/text-version-email.md)
-         + [Aggiungi una preintestazione](using/email/preheader.md)
+         + [Generare la versione del testo](using/email/text-version-email.md)
+         + [Aggiungere una preintestazione](using/email/preheader.md)
       + Modificare lo stile {#edit-style}
          + [Introduzione allo stile delle e-mail](using/email/get-started-email-style.md)
          + [Modificare le impostazioni dello sfondo](using/email/backgrounds.md)
-         + [Regola l’allineamento verticale e la spaziatura](using/email/alignment-and-padding.md)
-         + [Aggiungi attributi di stile in linea](using/email/inline-styling.md)
+         + [Regolare l’allineamento verticale e la spaziatura](using/email/alignment-and-padding.md)
+         + [Aggiungere attributi di stile in linea](using/email/inline-styling.md)
    + [Anteprima e verifica dell’e-mail](using/email/preview.md)
-   + [Crea modelli di contenuto](using/email/content-templates.md)
+   + [Creare modelli di contenuto](using/email/content-templates.md)
    + [Utilizzare i modelli di Experience Manager](using/email/aem-templates.md)
    + [Utilizzare i frammenti](using/email/fragments.md)
    + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
@@ -222,10 +222,10 @@ ht-degree: 98%
 + Canale SMS{#sms}
    + [Introduzione agli SMS](using/sms/get-started-sms.md)
    + [Creare un messaggio SMS](using/sms/create-sms.md)
-   + [Mostra l’anteprima e verifica gli SMS](using/sms/send-sms.md)
+   + [Anteprima e test degli SMS](using/sms/send-sms.md)
    + [Gestire la rinuncia agli SMS](using/sms/sms-opt-out.md)
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
-   + [Configura i sottodomini SMS](using/sms/sms-subdomains.md)
+   + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
    + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
@@ -257,17 +257,17 @@ ht-degree: 98%
          + Utilizzare l’editor di espressioni {#expression-editor}
             + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
             + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
-            + [Utilizza espressioni salvate](using/personalization/personalization-library.md)
+            + [Utilizzare le espressioni salvate](using/personalization/personalization-library.md)
             + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
-         + Funzioni assistenza{#functions}
-            + [Guida introduttiva alle funzioni di supporto](using/personalization/functions/functions.md)
+         + Funzioni Helper{#functions}
+            + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
             + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
             + [Funzioni aritmetiche](using/personalization/functions/arithmetic-functions.md)
             + [Funzioni array ed elenco](using/personalization/functions/arrays-list.md)
             + [Funzioni data](using/personalization/functions/dates.md)
             + [Funzioni booleane e di confronto](using/personalization/functions/operators.md)
-            + [Assistenza](using/personalization/functions/helpers.md)
-            + [Mappare le funzioni](using/personalization/functions/maps.md)
+            + [Helper](using/personalization/functions/helpers.md)
+            + [Funzioni di mappatura](using/personalization/functions/maps.md)
             + [Funzioni matematiche](using/personalization/functions/math.md)
             + [Funzioni oggetto](using/personalization/functions/objects.md)
             + [Funzioni stringa](using/personalization/functions/string.md)
@@ -284,7 +284,7 @@ ht-degree: 98%
       + [Generare segmenti](using/segment/creating-a-segment.md)
    + Profili{#profiles}
       + [Introduzione ai profili](using/segment/get-started-profiles.md)
-      + [Crea profili di test](using/segment/creating-test-profiles.md)
+      + [Creare profili di test](using/segment/creating-test-profiles.md)
    + [Identità](using/segment/get-started-identity.md)
    + Comporre i tipi di pubblico {#audience-orchestration}
       + [Introduzione alla composizione dei tipi di pubblico](using/segment/get-started-audience-orchestration.md)
@@ -293,25 +293,25 @@ ht-degree: 98%
       + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
    + [Utilizzo delle licenze](using/segment/license-usage.md)
 + Tracciare e monitorare {#reporting}
-   + Report live {#live-report}
+   + Rapporti live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
       + [Elenco dei componenti](using/reports/live-report-components.md)
       + [Rapporto live dei percorsi](using/reports/journey-live-report.md)
       + [Rapporto live della campagna](using/reports/campaign-live-report.md)
-      + [Pagina di destinazione Live report](using/reports/lp-report-live.md)
-      + [Lista abbonamenti Live report](using/reports/subscription-report-live.md)
+      + [Rapporto live delle pagine di destinazione](using/reports/lp-report-live.md)
+      + [Rapporto live dell’elenco iscrizioni](using/reports/subscription-report-live.md)
    + Rapporto globale {#global-report}
       + [Introduzione ai rapporti globali](using/reports/global-report.md)
       + [Elenco dei componenti](using/reports/global-report-components.md)
       + [Rapporto globale dei percorsi](using/reports/journey-global-report.md)
       + [Rapporto globale della campagna](using/reports/campaign-global-report.md)
-      + [Rapporto Finalità](using/reports/objective-report.md)
-      + [Pagina di destinazione Global report](using/reports/lp-report-global.md)
-      + [Lista abbonamenti Global report](using/reports/subscription-report-global.md)
+      + [Rapporto delle finalità](using/reports/objective-report.md)
+      + [Rapporto globale delle pagine di destinazione](using/reports/lp-report-global.md)
+      + [Rapporto globale dell’elenco iscrizioni](using/reports/subscription-report-global.md)
    + Rapporti sul percorso {#reports}
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
-      + Campi evento del passaggio precedente {#legacy-step-event-fields}
+      + Campi di eventi passaggio legacy{#legacy-step-event-fields}
          + [Informazioni sui campi legacy](using/reports/sharing-legacy-fields.md)
          + [Campi del percorso](using/reports/sharing-journey-fields.md)
          + [Campi comuni](using/reports/sharing-common-fields.md)
@@ -339,10 +339,10 @@ ht-degree: 98%
       + [Formule di classificazione](using/offers/ranking/create-ranking-formulas.md)
       + Modelli IA {#ai-models}
          + [Informazioni sui modelli AI](using/offers/ranking/ai-models.md)
-         + Tipi di modelli basati su IA {#ai-model-types}
+         + Tipi di modelli IA {#ai-model-types}
             + [Modello di ottimizzazione automatica](using/offers/ranking/auto-optimization-model.md)
             + [Modello di ottimizzazione personalizzata](using/offers/ranking/personalized-optimization-model.md)
-         + [Crea modelli AI](using/offers/ranking/create-ranking-strategies.md)
+         + [Creare modelli AI](using/offers/ranking/create-ranking-strategies.md)
    + Creare e gestire le offerte {#managing-offers-in-the-offer-library}
       + Configurare le offerte {#configure-offers}
          + [Creare le offerte personalizzate](using/offers/offer-library/creating-personalized-offers.md)
@@ -475,8 +475,8 @@ ht-degree: 98%
       + [Ruoli incorporati](using/administration/ootb-product-profiles.md)
       + [Autorizzazioni incorporate](using/administration/ootb-permissions.md)
       + [Livelli di autorizzazione](using/administration/high-low-permissions.md)
-   + [Gestione di utenti e ruoli](using/administration/permissions.md)
-   + [Controllo dell’accesso basato su attributi](using/administration/attribute-based-access.md)
+   + [Gestire utenti e ruoli](using/administration/permissions.md)
+   + [Controllo degli accessi basato su attributi](using/administration/attribute-based-access.md)
    + [Controllo dell’accesso a livello di oggetto](using/administration/object-based-access.md)
    + [Gestione delle sandbox](using/administration/sandboxes.md)
 + Privacy {#privacy}
