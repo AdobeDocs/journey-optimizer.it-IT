@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Cerca, filtra, organizza
+title: Cercare, filtrare, organizzare
 description: Scopri di più sull’interfaccia utente di Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
 ht-degree: 100%
 
 ---
 
 
-# Cerca, filtra, organizza {#search-filter-organize}
+# Cercare, filtrare, organizzare {#search-filter-organize}
 
-## Cerca{#unified-search}
+## Ricerca{#unified-search}
 
 In qualsiasi area dell’interfaccia di Adobe Journey Optimizer, utilizza la funzione di ricerca unificata di Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
 
@@ -45,7 +45,7 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 
 ![](assets/journey4.png)
 
-## Utilizza i tag unificati {#tags}
+## Utilizzare i tag unificati {#tags}
 
 Con i [Tag Unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it) di Adobe Experience Platform, è possibile classificare facilmente i percorsi e le campagne in Journey Optimizer per migliorare la ricerca dagli elenchi.
 
@@ -53,7 +53,7 @@ Con i [Tag Unificati](https://experienceleague.adobe.com/docs/experience-platfor
 >
 >I tag unificati sono attualmente nella versione beta. La documentazione e le funzionalità sono soggette a modifiche.
 
-### Aggiungi tag a un oggetto
+### Aggiungere tag a un oggetto
 
 Il campo **Tag**, nelle proprietà del [percorso](../building-journeys/journey-gs.md#change-properties) o della [campagna](../campaigns/create-campaign.md#create) consente di definire i tag da assegnare all’oggetto. Puoi selezionare un tag esistente o crearne uno nuovo.
 
@@ -69,7 +69,7 @@ L’elenco dei tag definiti viene visualizzato sotto il campo **Tag**.
 > 
 > Se duplichi o crei una nuova versione di un percorso o di una campagna, i tag vengono mantenuti.
 
-### Filtra i tag
+### Filtrare i tag
 
 Gli elenchi dei percorsi e delle campagne presentano una colonna dedicata che consente di visualizzare facilmente i tag.
 
@@ -81,7 +81,7 @@ Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso o campagna (live, 
 
 ![](assets/tags3.png)
 
-### Gestisci i tag
+### Gestire i tag
 
 Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **Tag**, sotto **AMMINISTRAZIONE**. Trovi ulteriori informazioni sulla gestione dei tag nella [Documentazione sui tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=it).
 
