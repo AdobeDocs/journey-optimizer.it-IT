@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '531'
 ht-degree: 4%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 4%
    * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
    * **[!UICONTROL Mostra fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
 
+1. Seleziona il giorno della settimana e l’ora specifica in cui desideri che il messaggio in-app venga attivato, quindi fai clic su **[!UICONTROL Salva]**.
+
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
 1. Una volta che il messaggio in-app è pronto, finalizza la configurazione e pubblica il percorso per attivarlo.
@@ -70,7 +72,7 @@ Per ulteriori informazioni su come configurare un percorso, consulta [questa pag
 
 * **[!UICONTROL Reazione]** Le attività non possono essere utilizzate per reagire a un clic o a un’apertura in-app.
 
-* Un ritardo di attivazione si verifica tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a visualizzare tale messaggio in-app. Questo ritardo può variare da 15 minuti a 1 ora.
+* Un ritardo di attivazione può verificarsi tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a visualizzare tale messaggio in-app.
 
 **Argomenti correlati:**
 
