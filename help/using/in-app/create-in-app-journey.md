@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
+source-git-commit: 9994bc6076f55128f5aa2c316433986eeff714b3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '555'
 ht-degree: 4%
 
 ---
@@ -51,6 +51,7 @@ ht-degree: 4%
    * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
    * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
    * **[!UICONTROL Mostra fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
+   * **[!UICONTROL X numero di volte]**: mostra il messaggio solo per un numero specifico di volte, determinato dal valore impostato in **[!UICONTROL Tempi di visualizzazione]** campo.
 
 1. Seleziona il giorno della settimana e l’ora specifica in cui desideri che il messaggio in-app venga attivato, quindi fai clic su **[!UICONTROL Salva]**.
 
