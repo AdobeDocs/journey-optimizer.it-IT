@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -37,21 +37,20 @@ ht-degree: 4%
 
    ![](assets/in_app_journey_4.png)
 
-1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
+1. Dalla sezione **[!UICONTROL Attivatore messaggio in-app]** , scegli gli eventi e i criteri che attiveranno il messaggio:
+
+   1. Clic **[!UICONTROL Aggiungi condizione]** se desideri che il trigger consideri più eventi o criteri.
+   1. Dalla sezione **[!UICONTROL Seleziona un evento]** , selezionare il tipo di evento per il trigger.
+   1. Seleziona la modalità di collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** i trigger devono essere true per consentire la visualizzazione di un messaggio o la scelta **[!UICONTROL Oppure]** se desideri che venga visualizzato il messaggio se **o** dei trigger sono true.
+   1. Clic **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
+
+   ![](assets/in_app_journey_3.png)
+
+1. Scegli la frequenza di attivazione quando il messaggio in-app è attivo:
 
    * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
    * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
    * **[!UICONTROL Mostra fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
-
-1. Dalla sezione **[!UICONTROL Attivatore app mobile]** , scegli gli eventi e i criteri che attiveranno il messaggio:
-
-   1. Dall’elenco a discesa a sinistra, seleziona l’evento necessario per attivare il messaggio.
-   1. Dall’elenco a discesa a destra, seleziona la convalida necessaria per l’evento selezionato.
-   1. Fai clic su **[!UICONTROL Aggiungi]** se desideri che il trigger consideri più eventi o criteri. Quindi, ripeti i passaggi precedenti.
-   1. Seleziona la modalità di collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** i trigger devono essere true per consentire la visualizzazione di un messaggio o la scelta **[!UICONTROL Oppure]** se desideri che venga visualizzato il messaggio se **o** dei trigger sono true.
-   1. Clic **[!UICONTROL Salva]** quando i trigger sono stati configurati.
-
-   ![](assets/in_app_journey_3.png)
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
