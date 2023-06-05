@@ -5,9 +5,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2466'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,13 +89,13 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Creare e utilizzare frammenti nel contenuto dell’e-mail</strong><br/></th>
+<th><strong>Crea e utilizza frammenti nel contenuto dell’e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare, utilizzare e gestire frammenti per assemblare rapidamente e-mail e modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail tra campagne e percorsi Journey Optimizer per una progettazione migliorata e accelerata.</p>
+<p>Ora puoi creare, utilizzare e gestire frammenti per assemblare rapidamente e-mail e modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail tra campagne e percorsi di Journey Optimizer per un processo di progettazione migliorato e accelerato.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../email/fragments.md">documentazione dettagliata</a>.</p>
 </td>
