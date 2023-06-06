@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '901'
 ht-degree: 6%
 
 ---
 
 # Creare simulazioni {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="Simulare decisioni di offerta"
+>abstract="La simulazione consente di simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento. Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari desiderati."
 
 ## Informazioni sulla simulazione {#about-simulation}
 
@@ -45,7 +50,7 @@ Per accedere a questa funzione, seleziona la **[!UICONTROL Simulazione]** scheda
 >id="ajo_decisioning_simulation_test_profile"
 >title="Aggiungere profili di test"
 >abstract="Puoi aggiungere un profilo di test selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. I profili di test devono essere già disponibili per poter essere usati per la simulazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=it" text="Crea profili di test"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=it" text="Creare profili di test"
 
 Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione.
 
