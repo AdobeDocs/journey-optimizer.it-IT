@@ -16,7 +16,7 @@ ht-degree: 17%
 
 ---
 
-# Regola l’allineamento verticale e la spaziatura {#alignment-and-padding}
+# Regolare l’allineamento verticale e la spaziatura {#alignment-and-padding}
 
 In questo esempio regoleremo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 

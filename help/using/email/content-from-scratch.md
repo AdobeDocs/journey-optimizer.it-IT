@@ -16,7 +16,7 @@ ht-degree: 60%
 
 ---
 
-# Crea contenuto da zero {#content-from-scratch}
+# Creare contenuti da zero {#content-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

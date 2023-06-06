@@ -64,11 +64,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
-* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
-* **[!UICONTROL Segmenti]**: se hai rilasciato una **[!UICONTROL Qualificazione del segmento]** , scegli il segmento da utilizzare nell’espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Origini dati]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
-* **[!UICONTROL Proprietà percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
-* **[!UICONTROL Funzioni]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
+* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Maggiori informazioni](../../event/about-events.md)
+* **[!UICONTROL Segmenti]**: se hai rilasciato una **[!UICONTROL Qualificazione del segmento]** , scegli il segmento da utilizzare nell’espressione. [Maggiori informazioni](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Origini dati]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Maggiori informazioni](../../datasource/about-data-sources.md)
+* **[!UICONTROL Proprietà percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Maggiori informazioni](journey-properties.md)
+* **[!UICONTROL Funzioni]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Maggiori informazioni](functions.md)
 
 ![](../assets/journey65.png)
 

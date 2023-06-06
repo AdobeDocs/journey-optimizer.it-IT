@@ -39,7 +39,7 @@ L’elenco dei tag definiti viene visualizzato sotto il campo **Tag**.
 > 
 > Se si duplica o si crea una nuova versione di un percorso, i tag vengono mantenuti.
 
-## Filtra i tag
+## Filtrare i tag
 
 L’elenco Percorso presenta una colonna dedicata che consente di visualizzare facilmente i tag.
 
@@ -51,7 +51,7 @@ Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso (live, draft, ecc.
 
 ![](assets/tags3.png)
 
-## Gestisci i tag
+## Gestire i tag
 
 Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **Tag**, sotto **AMMINISTRAZIONE**. Fai riferimento a questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it).
 

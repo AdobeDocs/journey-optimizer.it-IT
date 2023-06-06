@@ -40,7 +40,7 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 
 * **Invia avvisi in caso di errori**: puoi inviare una notifica a un sistema di terze parti ogni volta che si verifica un errore in un messaggio. A questo scopo, puoi impostare un percorso in caso di errore, aggiungere una condizione e un’azione personalizzata. Puoi inviare una notifica su un canale di Slack, ad esempio, con la descrizione dell’errore riscontrato.
 
-* **Perfezionare gli errori nella generazione rapporti** : invece di disporre di un solo percorso per i messaggi con errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare la generazione rapporti e visualizzare tutti i dati relativi ai tipi di errore.
+* **Ottimizzare gli errori nella generazione rapporti** : invece di disporre di un solo percorso per i messaggi con errore, puoi definire una condizione per tipo di errore. In questo modo sarà possibile perfezionare la generazione rapporti e visualizzare tutti i dati relativi ai tipi di errore.
 
 ## Elenco dei campi {#journey-properties-fields}
 

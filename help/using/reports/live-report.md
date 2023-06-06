@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Report live
+title: Rapporti live
 description: Scopri come utilizzare i dati del rapporto live
 feature: Reporting
 topic: Content Management

@@ -54,7 +54,7 @@ Vengono passati i seguenti set di dati:
 Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti qui:
 
 * [Elenco dei campi evento del passaggio](../reports/sharing-field-list.md)
-* [Campi evento del passaggio precedente](../reports/sharing-legacy-fields.md)
+* [Campi di eventi passaggio legacy](../reports/sharing-legacy-fields.md)
 
 ## Integrazione con Customer Journey Analytics {#integration-cja}
 

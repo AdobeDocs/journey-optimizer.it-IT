@@ -122,7 +122,7 @@ Tutti i riferimenti vengono convalidati in base allo schema delle offerte con un
    `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
-## Assistenza{#helpers-all}
+## Helper{#helpers-all}
 
 Un helper Handlebars è un semplice identificatore che può essere seguito da parametri.
 Ogni parametro è un&#39;espressione Handlebars. È possibile accedere a questi helper da qualsiasi contesto in un modello.

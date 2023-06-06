@@ -22,7 +22,7 @@ ht-degree: 30%
 >id="ajo_use_template"
 >title="Creare il contenuto da un modello"
 >abstract="Per iniziare a creare il contenuto dell’e-mail, seleziona un modello predefinito o un modello esistente personalizzato, creato da zero o salvato come modello da un’e-mail precedente."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=it#create-content-templates" text="Crea modelli di contenuto"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html?lang=it#create-content-templates" text="Creare modelli di contenuto"
 
 Dalla sezione **[!UICONTROL Creare l’e-mail]** schermata, utilizza **[!UICONTROL Seleziona modello struttura]** per iniziare a creare il contenuto da un modello.
 

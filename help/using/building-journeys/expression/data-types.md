@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione letterale, specifichiamo solo il valore. Il tipo di dati può essere dedotto dal valore (ad esempio stringa, numero intero, decimale e così via). Per casi specifici come la data e l’ora, utilizziamo funzioni dedicate per la rappresentazione.
 
-Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e su come vengono rappresentate.
+Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e sulla loro rappresentazione.
 
 ## string {#string}
 
@@ -196,7 +196,7 @@ Formato di serializzazione: formato data/ora offset esteso ISO-8601.
 
 Utilizza DateTimeFormatter ISO_OFFSET_DATE_TIME per deserializzare e serializzare il valore. [Ulteriori informazioni](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
 
-Puoi anche trasmettere un numero intero che passa un valore epoca. [Ulteriori informazioni](https://www.epochconverter.com)
+Puoi anche trasmettere un numero intero che passa un valore epoca. [Maggiori informazioni](https://www.epochconverter.com)
 
 Il fuso orario può essere specificato da uno scostamento o da un codice del fuso orario (ad esempio: Europa/Parigi, Z - che significa UTC).
 

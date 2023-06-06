@@ -332,7 +332,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 
 ### Funzioni Handlebars {#handlebars}
 
-* [Assistenza](functions/helpers.md)
+* [Helper](functions/helpers.md)
 
 * [Funzioni stringa](functions/string.md)
 

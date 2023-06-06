@@ -342,7 +342,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](../configuration/external-systems.md#capping)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
 * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso. [Ulteriori informazioni](../start/user-interface.md#filter-lists)
-* Il **[!UICONTROL Tasso di limitazione]** Il parametro è stato aggiunto nell’attività Leggi segmento. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il **[!UICONTROL Tasso di limitazione]** Il parametro è stato aggiunto nell’attività Leggi segmento. [Maggiori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 **Anteprima e test**
 

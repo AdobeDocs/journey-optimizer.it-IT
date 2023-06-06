@@ -1,6 +1,6 @@
 ---
-title: Assistenza
-description: Assistenza
+title: Helper
+description: Helper
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Assistenza {#gs-helpers}
+# Helper {#gs-helpers}
 
 ## Valore di fallback predefinito{#default-value}
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizza espressioni salvate
+title: Utilizzare le espressioni salvate
 description: Scopri come utilizzare le espressioni salvate da [!DNL Journey Optimizer] libreria.
 feature: Personalization
 topic: Personalization
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 ---
 
-# Utilizza espressioni salvate {#expression-library}
+# Utilizzare le espressioni salvate {#expression-library}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"

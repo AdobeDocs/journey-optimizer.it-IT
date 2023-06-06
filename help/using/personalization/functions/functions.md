@@ -336,7 +336,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
 </table>
 
 
-## Assistenza{#helper-helper}
+## Helper{#helper-helper}
 
 Gli helper sono descritti in [questa pagina](helpers.md).
 

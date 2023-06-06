@@ -37,7 +37,7 @@ Per ulteriori informazioni su come eseguire l’integrazione con i sistemi ester
 
 ## Implementazione
 
-Per **percorsi attivati da segmenti**, puoi definire il tasso di limitazione dell’attività Leggi segmento che influirà sulla velocità effettiva del percorso.  [Ulteriori informazioni](../building-journeys/read-segment.md)
+Per **percorsi attivati da segmenti**, puoi definire il tasso di limitazione dell’attività Leggi segmento che influirà sulla velocità effettiva del percorso.  [Maggiori informazioni](../building-journeys/read-segment.md)
 
 ![](assets/limit-throughput-1.png)
 

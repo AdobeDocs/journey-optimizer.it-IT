@@ -16,7 +16,7 @@ ht-degree: 67%
 
 ---
 
-# Crea un codice per il tuo contenuto {#code-content}
+# Creare il codice del contenuto {#code-content}
 
 Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il codice HTML non elaborato da usare come contenuto dell’e-mail. Questo metodo richiede competenze HTML.
 

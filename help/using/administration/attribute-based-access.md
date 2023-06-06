@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Controllo dell’accesso basato su attributi
+title: Controllo degli accessi basato su attributi
 description: Il controllo degli accessi basato su attributi (Attribute-Based Access Control - ABAC) consente di definire le autorizzazioni per gestire l'accesso ai dati per team o gruppi di utenti specifici.
 feature: Access Management
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ---
 
-# Controllo dell’accesso basato su attributi {#attribute-based-access}
+# Controllo degli accessi basato su attributi {#attribute-based-access}
 
 >[!IMPORTANT]
 >

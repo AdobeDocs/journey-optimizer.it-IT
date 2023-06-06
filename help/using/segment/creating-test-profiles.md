@@ -15,7 +15,7 @@ ht-degree: 3%
 
 ---
 
-# Crea profili di test {#create-test-profiles}
+# Creare profili di test {#create-test-profiles}
 
 I profili di test sono necessari quando si utilizza [modalità di test](../building-journeys/testing-the-journey.md) in un percorso e a [visualizzare in anteprima e verificare il contenuto](../email/preview.md).
 

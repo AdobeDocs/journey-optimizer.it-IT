@@ -16,7 +16,7 @@ ht-degree: 86%
 
 ---
 
-# Aggiungi una preintestazione {#preheader}
+# Aggiungere una preintestazione {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
