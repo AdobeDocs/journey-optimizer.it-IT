@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 Puoi modificare o aggiornare un’offerta di fallback nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](http://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 

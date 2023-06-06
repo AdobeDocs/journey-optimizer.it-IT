@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: a2f4a7f7b08cce3980eab71fea0b2704975087ca
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 3%
@@ -191,7 +191,7 @@ In caso di esito positivo, la risposta restituisce informazioni sulla proposta, 
 | `xdm:propositions.xdm:content` | Il formato del contenuto della risposta. | Il contenuto della risposta può essere: `text`, `html block`, o `image link` |
 | `xdm:score` | Il punteggio di un’opzione calcolato come risultato di una funzione di classificazione associata all’opzione o alla decisione. Questo campo verrà restituito dall’API se una funzione di classificazione è coinvolta nella determinazione del punteggio di un’offerta durante la classificazione. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Questo oggetto contiene una singola offerta di fallback, incluso il relativo identificatore univoco. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l’elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici. | `"dc:format": "image/png"` o `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato, ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici. | `"dc:format": "image/png"` o `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Un URL facoltativo per leggere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere pubblicamente alla risorsa da un agente utente. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | L’ora in cui è stato creato il messaggio di risposta alla decisione. Questo è rappresentato come tempo dell&#39;epoca. | `"ode:createDate": 1566497582038` |
 

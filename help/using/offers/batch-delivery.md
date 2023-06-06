@@ -2,7 +2,7 @@
 title: Batch Decisioning
 description: Scopri come distribuire le decisioni sulle offerte a tutti i profili in un dato segmento di Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Prima di configurare una richiesta di processo, assicurati di aver creato:
 
 * **Un set di dati** in Adobe Experience Platform. Questo set di dati verrà utilizzato per memorizzare il risultato della decisione utilizzando lo schema &quot;ODE DecisionEvents&quot;. Per ulteriori informazioni, consulta [Documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it).
 
-* **Un segmento** in Adobe Experience Platform. Il segmento deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al segmento in [Documentazione del servizio di segmentazione](http://www.adobe.com/go/segmentation-overview-en)
+* **Un segmento** in Adobe Experience Platform. Il segmento deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al segmento in [Documentazione del servizio di segmentazione](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 Puoi modificare o aggiornare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](http://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -117,7 +117,7 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
       **Campo:** formato
       **Titolo:** Formato
-      **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](http://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici).
+      **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici).
       **Tipo:** stringa
       **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 

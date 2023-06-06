@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 
 Per modificare o aggiornare una decisione nel contenitore, devi effettuare una richiesta PATCH al [!DNL Offer Library] API.
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](http://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
