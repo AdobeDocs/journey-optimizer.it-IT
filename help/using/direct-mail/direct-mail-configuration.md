@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -116,7 +116,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 >id="ajo_dm_surface_settings"
 >title="Definire le impostazioni per direct mail"
 >abstract="Una superficie per direct mail contiene le impostazioni per la formattazione del file che contiene i dati del pubblico e viene utilizzata dal provider e-mail. È inoltre necessario definire la posizione in cui il file verrà esportato selezionando la configurazione di indirizzamento del file."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Configurare l’indirizzamento dei file"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=it#file-routing-configuration" text="Configurare l’indirizzamento dei file"
 
 <!--
 >[!CONTEXTUALHELP]

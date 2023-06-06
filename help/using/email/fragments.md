@@ -11,7 +11,7 @@ exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
 source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
 source-wordcount: '1453'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -124,8 +124,8 @@ Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, 
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definisci un frammento personalizzato"
->abstract="Crea un frammento autonomo da zero per rendere i contenuti riutilizzabili in più percorsi e campagne."
+>title="Definisci il tuo frammento"
+>abstract="Crea da zero un frammento autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne."
 
 Per creare un frammento da zero, segui la procedura riportata di seguito.
 

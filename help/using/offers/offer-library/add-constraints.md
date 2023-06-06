@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -248,7 +248,7 @@ Puoi anche specificare se applicare il limite a tutti gli utenti o a un profilo 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_frequency_capping"
 >title="Impostare la frequenza dei limiti"
->abstract="Puoi scegliere di reimpostare il contatore dei limiti delle offerte su base giornaliera, settimanale o mensile. Tieni presente che dopo la pubblicazione dell’offerta con il limite di frequenza abilitato, non potrai modificare la frequenza definita."
+>abstract="Puoi scegliere di reimpostare il contatore dei limiti delle offerte su base giornaliera, settimanale o mensile. Ricorda che dopo la pubblicazione dell’offerta con quota limite abilitata, non potrai modificare la frequenza definita."
 
 Il **[!UICONTROL Frequenza]** consente di definire la frequenza con cui viene reimpostato il conteggio dei limiti. A tale scopo, definisci il periodo di tempo per il conteggio (giornaliero, settimanale o mensile) e inserisci il numero di giorni/settimane/mesi desiderato.
 
