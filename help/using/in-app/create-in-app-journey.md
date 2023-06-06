@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informative"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 4%
+source-wordcount: '735'
+ht-degree: 3%
 
 ---
 
@@ -74,6 +74,35 @@ Per ulteriori informazioni su come configurare un percorso, consulta [questa pag
 * **[!UICONTROL Reazione]** Le attività non possono essere utilizzate per reagire a un clic o a un’apertura in-app.
 
 * Un ritardo di attivazione può verificarsi tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a visualizzare tale messaggio in-app.
+
+## Rapporto in-app {#inapp-report}
+
+Dal tuo Percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative alle consegne in-app inviate nei tuoi percorsi.
+
+Ulteriori informazioni su [Rapporto globale percorso](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto in-app.
+
+Il **[!UICONTROL Prestazioni in-app]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app, ad esempio:
+
+* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stato recapitato il messaggio in-app.
+
+* **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
+
+* **[!UICONTROL Percentuale di clic]**: percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.
+
+* **[!UICONTROL Percentuale ignorati]**: percentuale di messaggi in-app ignorati dai destinatari.
+
+Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression in-app per il periodo in questione.
+
+Il **[!UICONTROL Clic per pulsante]** i grafici e le tabelle contengono i dati disponibili per il comportamento dei destinatari per pulsante:
+
+* **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con i pulsanti inclusi nel messaggio in-app.
+
+* **[!UICONTROL Percentuale di clic]**: percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.
++++
 
 **Argomenti correlati:**
 
