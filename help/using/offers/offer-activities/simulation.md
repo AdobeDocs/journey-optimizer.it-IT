@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 6%
+source-wordcount: '901'
+ht-degree: 12%
 
 ---
 
 # Creare simulazioni {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="Simulare decisioni di offerta"
+>abstract="La simulazione consente di simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento. Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari mirati."
 
 ## Informazioni sulla simulazione {#about-simulation}
 
@@ -21,7 +26,7 @@ Per convalidare la logica decisionale, puoi simulare quali offerte verranno cons
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari desiderati.
+Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari mirati.
 
 >[!NOTE]
 >
@@ -212,5 +217,5 @@ Dopo aver aggiunto un ambito di decisione e selezionato un profilo di test, puoi
 
    >[!NOTE]
    >
-   >Quando copi i payload di richiesta o di risposta nel tuo codice, assicurati di sostituire {USER_TOKEN} e {API_KEY} con valori validi. Scopri come recuperare questi valori in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentazione.
+   >Quando copi i payload di richiesta o risposta nel tuo codice, assicurati di sostituire {USER_TOKEN} e {API_KEY} con valori validi. Scopri come recuperare questi valori in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentazione.
 
