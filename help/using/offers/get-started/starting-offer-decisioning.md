@@ -57,15 +57,15 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
 * Puoi visualizzare sul tuo sito web le offerte che corrispondono al punto di interesse del visitatore, in base ai dati provenienti da Adobe Experience Platform.
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push sulle offerte disponibili in base ai loro attributi (livello di fedeltà, genere, acquisti precedenti...).
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * La funzione di gestione delle decisioni consente inoltre di migliorare l’esperienza dei clienti che contattano il team di assistenza. Con le API di Gestione delle decisioni puoi visualizzare nel portale degli agenti del call center informazioni sulle offerte di cui il cliente ha già usufruito e sulle migliori offerte successive.
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## Concedere l’accesso alla gestione delle decisioni {#granting-acess-to-decision-management}
 
