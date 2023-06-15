@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 82%
 
 ---
 
@@ -38,7 +38,7 @@ Cosa troverai in questa documentazione:
 
 >[!AVAILABILITY]
 >
->La composizione del pubblico è attualmente disponibile solo come versione beta privata e può essere soggetta a frequenti aggiornamenti senza preavviso. Il provisioning della versione beta avviene a livello di organizzazione e ciò significa che influenzerà tutte le sandbox all’interno della tua organizzazione.
+>Al momento, la composizione del pubblico è disponibile solo per un gruppo limitato di clienti. In caso di domande, contatta il rappresentante di Adobe.
 
 La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico.
 
@@ -49,6 +49,8 @@ Al termine, i **tipi di pubblico risultanti** vengono salvati e conservati in Ad
 >[!IMPORTANT]
 >
 >I tipi di pubblico risultanti dai flussi di lavoro di composizione possono essere indirizzati solo alle campagne di Journey Optimizer. Non sono disponibili per l’utilizzo nei percorsi.
+>
+>Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne Journey Optimizer.
 
 La composizione dei tipi di pubblico è accessibile dal menu **[!UICONTROL Segmenti]** di Adobe Journey Optimizer:
 

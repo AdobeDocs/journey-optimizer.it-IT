@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 14%
+source-wordcount: '405'
+ht-degree: 15%
 
 ---
 
@@ -50,6 +50,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
    * **[!UICONTROL Pubblico]**: il punto iniziale della composizione. Questa attività ti consente di selezionare uno o più tipi di pubblico come base per il flusso di lavoro,
 
    * **[!UICONTROL Salva]**: ultimo passaggio della composizione. Questa attività ti consente di salvare il risultato del flusso di lavoro in un nuovo pubblico.
+
    Per ulteriori informazioni su come configurare le attività nell’area di lavoro del flusso di lavoro di composizione, consulta [Utilizzare l’area di lavoro per la composizione](composition-canvas.md).
 
 1. Aprite le proprietà di composizione per specificare un titolo e una descrizione.
@@ -66,7 +67,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    >[!IMPORTANT]
    >
-   >Puoi pubblicare fino a 75 composizioni in una determinata sandbox. Se avete raggiunto questa soglia, dovete eliminare una composizione per liberare spazio e pubblicarne una nuova.
+   >Puoi pubblicare fino a 10 composizioni in una determinata sandbox. Se avete raggiunto questa soglia, dovete eliminare una composizione per liberare spazio e pubblicarne una nuova.
 
    Se si verifica un errore durante la pubblicazione, vengono visualizzati avvisi con informazioni su come risolvere il problema.
 
@@ -85,7 +86,6 @@ Tutte le composizioni create sono accessibili da **[!UICONTROL Composizioni]** s
 
 * **[!UICONTROL Bozza]**: la composizione è in corso e non è stata pubblicata.
 * **[!UICONTROL Pubblicato]**: la composizione è stata pubblicata, i tipi di pubblico risultanti sono stati salvati e sono disponibili per l’uso.
-* **[!UICONTROL Archiviato]**: la composizione è stata archiviazione.
 
 ![](assets/audiences-compositions.png)
 
