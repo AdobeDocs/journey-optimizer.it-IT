@@ -6,10 +6,10 @@ description: Scopri come configurare l’ambiente per l’invio di SMS con Journ
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Prima di inviare SMS, configura l’istanza. È necessario [integrare le imposta
 
 ## Prerequisiti{#sms-prerequisites}
 
-Adobe Journey Optimizer attualmente si integra con fornitori di terze parti come Sinch e Twilio, che offrono servizi SMS indipendenti da Adobe Journey Optimizer.
+Adobe Journey Optimizer attualmente si integra con provider di terze parti come Sinch, Twilio e Infobip, che offrono servizi SMS indipendenti da Adobe Journey Optimizer.
 
 Prima di configurare un SMS, è necessario creare un account con uno di questi provider SMS per ricevere il token API e l’ID servizio che ti consentiranno di stabilire la connessione tra Adobe Journey Optimizer e il provider SMS applicabile.
 
@@ -62,6 +62,7 @@ Per configurare il fornitore di SMS con Journey Optimizer, effettua le seguenti 
       * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
 
       * **[!UICONTROL ID servizio]** e **[!UICONTROL Token API]**: accedi alla pagina API, e trovi le tue credenziali nella scheda SMS.  [Ulteriori informazioni](https://developers.sinch.com/docs/sms/getting-started/)
+
    * Per **[!DNL Twilio]**:
 
       * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
@@ -69,6 +70,7 @@ Per configurare il fornitore di SMS con Journey Optimizer, effettua le seguenti 
       * **[!UICONTROL SID account]** e **[!UICONTROL Token di autenticazione]**: per trovare le credenziali, accedi al riquadro Informazioni account della pagina Dashboard di Twilio Console.
 
       * **[!UICONTROL SID messaggio]**: inserisci l’identificatore univoco assegnato a ogni messaggio creato dall’API di Twilio. [Ulteriori informazioni](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+
    * Per **[!DNL Infobip]**:
 
       * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
@@ -114,20 +116,19 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
       * Scegli **Marketing** per gli SMS promozionali: questi messaggi richiedono il consenso degli utenti.
       * Scegli **Transazionale** per messaggi non commerciali come ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
 
-      >[!CAUTION]
-      >
-      >**Transazionale** I messaggi SMS possono essere inviati ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
+     >[!CAUTION]
+     >
+     >**Transazionale** I messaggi SMS possono essere inviati ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
 
-      Quando crei un messaggio SMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
+     Quando crei un messaggio SMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
 
    * Seleziona la **[!UICONTROL Configurazione SMS]** per associarlo alla superficie.
 
-      Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](#create-api).
+     Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](#create-api).
 
    * Inserisci il **[!UICONTROL Numero mittente]** &#x200B;si desidera utilizzare per le comunicazioni.
 
    * Seleziona il **[!UICONTROL Campo di esecuzione SMS]** per selezionare **[!UICONTROL Attributo profilo]** associati ai numeri di telefono dei profili.
-
 
 1. Se desideri utilizzare la funzione di abbreviazione URL nei messaggi SMS, seleziona un elemento da **[!UICONTROL Sottodominio]** elenco.
 
