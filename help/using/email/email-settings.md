@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
+source-git-commit: 958e0c4352e150ebabdf53f0cc4f0eae2a478714
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1787'
 ht-degree: 8%
 
 ---
@@ -43,13 +43,9 @@ La configurazione della superficie e-mail viene selezionata per l’invio di com
 
 In **TIPO DI E-MAIL** , seleziona il tipo di messaggio che verrà inviato con la superficie: **Marketing** o **Transazionale**.
 
-* Scegli **Marketing** per l’e-mail promozionale: questi messaggi richiedono il consenso dell’utente.
+* Scegli **Marketing** e-mail promozionale, ad esempio promozioni settimanali per un negozio al dettaglio. Questi messaggi richiedono il consenso dell’utente.
 
-* Scegli **Transazionale** per e-mail non commerciali come ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
-
->[!CAUTION]
->
->**Transazionale** le e-mail possono essere inviate ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
+* Scegli **Transazionale** per e-mail non commerciali, ad esempio conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna. Queste e-mail possono essere inviate a profili che **annullato abbonamento** dalle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
 
 Quando crei un messaggio, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per l’e-mail.
 
@@ -95,19 +91,19 @@ Il collegamento per annullare l’abbonamento è costituito da due elementi:
 
 * Un **indirizzo e-mail per annullare l’iscrizione**, a cui vengono inviate tutte le richieste di annullamento dell’abbonamento.
 
-   In entrata [!DNL Journey Optimizer], l’indirizzo e-mail predefinito per l’annullamento dell’iscrizione è **[!UICONTROL Invia a (annulla iscrizione)]** indirizzo visualizzato nella superficie di canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
+  In entrata [!DNL Journey Optimizer], l’indirizzo e-mail predefinito per l’annullamento dell’iscrizione è **[!UICONTROL Invia a (annulla iscrizione)]** indirizzo visualizzato nella superficie di canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
 
-   ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png)
 
 * Il **URL per annullamento iscrizione**: URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullato l’abbonamento.
 
-   Se aggiungi un [collegamento di rinuncia con un clic](../privacy/opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa superficie, l’URL per l’annullamento dell’iscrizione sarà l’URL definito per il collegamento di rinuncia con un clic.
+  Se aggiungi un [collegamento di rinuncia con un clic](../privacy/opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa superficie, l’URL per l’annullamento dell’iscrizione sarà l’URL definito per il collegamento di rinuncia con un clic.
 
-   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   >[!NOTE]
-   >
-   >Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
+  >[!NOTE]
+  >
+  >Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
 Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell’iscrizione all’intestazione nei messaggi in [questa sezione](../privacy/opt-out.md#unsubscribe-header).
 
