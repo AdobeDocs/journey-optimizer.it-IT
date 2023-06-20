@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, funzione, espressione, percorso
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 18%
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 # indexOf {#indexOf}
 
-Controlla se la stringa del primo argomento termina con una stringa specifica (stringa del secondo argomento). Se la stringa non viene trovata, restituisce -1.
+Restituisce la posizione della prima occorrenza del secondo parametro nel primo argomento. Restituisce -1 se non viene trovata alcuna corrispondenza.
 
 ## Categoria
 
