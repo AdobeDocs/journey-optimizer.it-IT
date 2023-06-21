@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: percorsi, discovery, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 28%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer include un’area di lavoro di orchestrazione omnicanale
 
 Scopri come iniziare e creare il primo percorso in [questa pagina](journey-gs.md).
 
-La finestra di progettazione di percorsi omnichannel consente di creare percorsi con più passaggi, con tipi di pubblico mirati, aggiornamenti basati su interazioni cliente o business in tempo reale e messaggi omnichannel tramite un’interfaccia intuitiva basata su trascinamento.
+Il designer di percorsi omni-channel ti assiste nella creazione di percorsi con più passaggi, rivolgendoti in modo specifico al pubblico e incorporando aggiornamenti basati sulle interazioni in tempo reale tra clienti o aziende. Consente inoltre di creare messaggi omnicanale tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione.
 
 ![](assets/journey38.png)
 
