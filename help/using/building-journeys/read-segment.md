@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, segmento, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
 source-wordcount: '1338'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->I percorsi Leggi segmento una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i segmenti con Leggi segmento pianificati, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
+>Una sola ripresa **Leggi segmento** I percorsi passano al **Completato** stato 30 giorni dopo l’esecuzione del percorso. Per programmato **Leggi segmenti**, sono trascorsi 30 giorni dall’esecuzione dell’ultima occorrenza.
 
 ### Test e pubblicazione del percorso {#testing-publishing}
 

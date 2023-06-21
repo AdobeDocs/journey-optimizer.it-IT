@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, segmento, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1549'
 ht-degree: 26%
 
 ---
@@ -153,7 +153,7 @@ Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire
 
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
-Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che richiede l’interrogazione di un sistema di terze parti supera la durata di timeout definita nelle proprietà del percorso (**[!UICONTROL Timeout ed errore]** ), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
+Quando modifichi un’attività di azione o condizione, puoi specificare un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività, che comporta l’esecuzione di query su un sistema di terze parti, supera la durata specificata nelle proprietà del percorso per il timeout e la gestione degli errori (**[!UICONTROL Timeout ed errore]** ), verrà selezionato il secondo percorso per eseguire un’azione di fallback, se necessario.
 
 I valori autorizzati sono compresi tra 1 e 30 secondi.
 
