@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, eventi, reazione, tracciamento, piattaforma
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: b011b979aaab7568ca951982a59ad676d05c5595
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 21%
@@ -40,7 +40,7 @@ Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazi
 1. Aggiungi un **[!UICONTROL Etichetta]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata, scegli a cosa desideri reagire.
-1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Tempo di attesa]** il valore predefinito e minimo è di 40 secondi. Vedi [questa sezione](../building-journeys/testing-the-journey.md).
+1. Puoi definire un timeout dell’evento (tra 40 secondi e 30 giorni) e un percorso di timeout. Questo creerà un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Tempo di attesa]** il valore predefinito e minimo è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >
