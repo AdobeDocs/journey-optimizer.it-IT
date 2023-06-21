@@ -9,10 +9,10 @@ role: Admin,Developer
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Con la gestione del consenso vengono analizzate due attività del percorso:
 
 Non vengono prese in considerazione tutte le altre attività utilizzate in un percorso. Se inizi il percorso con una qualifica Segmento, il segmento non viene preso in considerazione.
 
-In un percorso, se un profilo viene escluso da un criterio di consenso in un’azione personalizzata, il messaggio non viene inviato a tale profilo, ma questo continua il percorso. Il profilo non passa al percorso di timeout ed errore quando si utilizza una condizione.
+In un percorso, se un profilo è escluso da un criterio di consenso in un’azione personalizzata, il messaggio non viene inviato loro, ma continuano il percorso. Il profilo non passa al percorso di timeout ed errore quando si utilizza una condizione.
 
 Prima di aggiornare i criteri in un’azione personalizzata posizionata in un percorso, assicurati che il percorso non presenti errori.
 

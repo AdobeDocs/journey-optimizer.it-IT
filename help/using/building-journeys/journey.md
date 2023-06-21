@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: percorsi, discovery, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -82,7 +82,7 @@ Quando si cerca un percorso, le versioni più recenti vengono visualizzate nella
 
 >[!NOTE]
 >
->In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
+>In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
 
 Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso.
 

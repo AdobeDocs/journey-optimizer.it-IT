@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, segmento, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 12%
@@ -27,7 +27,7 @@ ht-degree: 12%
 
 Utilizza il **Leggi segmento** attività per fare in modo che tutti i singoli utenti di un segmento entrino nel percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare.
 
-Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot; creato in [Creare segmenti](../segment/about-segments.md) caso d’uso. Con l’attività Leggi segmento, puoi fare in modo che tutti gli individui appartenenti a questo segmento entrino in un percorso e li facciano confluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
+Prendiamo ad esempio il segmento &quot;Apertura e pagamento dell’app Luma&quot; creato in [Caso di utilizzo: creazione di segmenti](../segment/about-segments.md). Con il **[!UICONTROL Leggi segmento]** attività, puoi fare in modo che tutti gli individui appartenenti a un segmento entrino in un percorso e li facciano confluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
 
 >[!NOTE]
 >
