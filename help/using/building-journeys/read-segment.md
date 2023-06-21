@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, segmento, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1337'
 ht-degree: 12%
 
 ---
@@ -75,7 +75,7 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
    >
    >Il tasso di limitazione complessivo per sandbox è impostato su 20.000 messaggi al secondo. Di conseguenza, il tasso di limitazione di tutti i segmenti letti eseguiti contemporaneamente nella stessa sandbox non supera i 20.000 messaggi al secondo. Non puoi modificare questo limite.
 
-1. Il **[!UICONTROL Leggi segmento]** attività ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic su **[!UICONTROL Modifica pianificazione percorso]** per accedere alle proprietà del percorso, quindi configura il **[!UICONTROL Tipo di modulo di pianificazione]** campo.
+1. Il **[!UICONTROL Leggi segmento]** attività ti consente di specificare l’ora in cui il segmento entrerà nel percorso. A questo scopo, fai clic su **[!UICONTROL Modifica pianificazione percorso]** per accedere alle proprietà del percorso.Quindi, configura il **[!UICONTROL Tipo di modulo di pianificazione]** campo.
 
    ![](assets/read-segment-schedule.png)
 
