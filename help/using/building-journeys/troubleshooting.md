@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 74%
+source-wordcount: '1029'
+ht-degree: 73%
 
 ---
 
@@ -42,7 +42,7 @@ Sul segno accanto al simbolo è possibile visualizzare due colori diversi **[!UI
 
 Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per primi nell’elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati successivamente per ordine di attività o per visualizzazione nel percorso da sinistra a destra. Il **[!UICONTROL Copia dettagli]** copia le informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi.
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Verifica che gli eventi siano inviati correttamente{#checking-that-events-are-properly-sent}
 
@@ -58,7 +58,7 @@ Il reporting percorso misura le entrate delle persone in un percorso in tempo re
 
 Se l’invio dell’evento è stato completato con successo ma non viene visualizzato alcuna entrata nel percorso, significa che si sono verificati errori tra l’invio dell’evento e la ricezione dell’evento nel percorso.
 
-Di seguito sono riportati alcuni elementi che l’amministratore deve controllare:
+Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
 
 * Hai la certezza che il percorso in cui prevedevi che arrivasse l’evento fosse in modalità di test o live?
 * Hai salvato l’evento prima di copiare il payload dall’anteprima del payload?
@@ -67,10 +67,10 @@ Di seguito sono riportati alcuni elementi che l’amministratore deve controllar
 * Hai seguito la struttura del payload delle API di Streaming Ingestion utilizzando l’anteprima della struttura del payload nel riquadro di configurazione dell’evento? Consulta [questa pagina](../event/about-creating.md#preview-the-payload).
 * Hai utilizzato le coppie chiave-valore corrette nell’intestazione dell’evento?
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## Controllare il modo in cui le persone si spostano nel percorso{#checking-how-people-navigate-through-the-journey}
 
