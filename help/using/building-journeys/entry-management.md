@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 22%
@@ -42,6 +42,6 @@ In un percorso Leggi segmento:
 
 * Per percorsi non ricorrenti: il profilo entra una volta e solo una volta il percorso.
 
-* Per percorsi ricorrenti: il profilo entra nel percorso a ogni ricorrenza, se si trova nello stato segmento/previsto. Se era ancora nel percorso da una precedente ricorrenza, lo riavvierà dall&#39;inizio.
+* Per i percorsi ricorrenti: il profilo entra nel percorso a ogni ricorrenza, se si trovano nello stato segmento/previsto. Se si trovavano ancora nel percorso dopo una precedente ricorrenza, lo riavvieranno dall’inizio.
 
-Nei percorsi di evento business che iniziano con **Leggi segmento** attività: sapendo che questo percorso si basa sulla ricezione di un evento di business, se il profilo è qualificato nel segmento previsto, entrerà nel percorso per ogni evento di business ricevuto, il che significa che questo profilo può essere più volte nello stesso percorso, allo stesso tempo, ma nel contesto di diversi eventi di business.
+Nei percorsi di evento business che iniziano con **Leggi segmento** attività: sapendo che questo percorso si basa sulla ricezione di un evento di business, se il profilo è qualificato nel segmento previsto, entreranno nel percorso per ogni evento di business ricevuto, il che significa che questo profilo può essere più volte nello stesso percorso, allo stesso tempo, ma nel contesto di diversi eventi di business.
