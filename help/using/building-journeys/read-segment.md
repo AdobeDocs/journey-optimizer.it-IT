@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, segmento, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
+source-git-commit: 834e2bbf00d1169ca3f15127fe380f6ee40ae88a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 13%
 
 ---
 
@@ -87,9 +87,9 @@ I passaggi per configurare l’attività Leggi segmento sono i seguenti:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Lettura incrementale** opzione: quando un percorso con un **Leggi segmento** viene eseguito per la prima volta, tutti i profili nel segmento entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel segmento dall’ultima esecuzione del percorso.
+   Quando un percorso con una **Leggi segmento** viene eseguito per la prima volta, tutti i profili nel segmento entrano nel percorso. Utilizza il **Lettura incrementale** opzione per eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel segmento dall’ultima esecuzione del percorso.
 
-   **Forza rientro in caso di ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Ad esempio, se attendi 2 percorsi in un giorno ricorrente giornaliero, attivando questa opzione i profili verranno sempre spostati all’esecuzione del percorso successivo (quindi il giorno successivo), indipendentemente dal fatto che si trovino o meno nel pubblico dell’esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza, non attivare questa opzione per assicurarsi che i profili possano terminare il percorso.
+   Abilitazione di **Forza rientro in caso di ricorrenza** consente di rimuovere automaticamente tutti i profili attualmente presenti nel percorso durante l’esecuzione successiva. Ad esempio, se si verifica un’attesa di 2 giorni in un percorso ricorrente giornaliero, l’attivazione di questa opzione sposterà in modo coerente i profili all’esecuzione successiva del percorso (il giorno successivo), indipendentemente dal fatto che facciano parte del pubblico dell’esecuzione successiva. Tuttavia, se la durata dei profili in questo percorso può superare la frequenza di ricorrenza, è consigliabile non abilitare questa opzione per garantire che i profili possano completare il percorso.
 
 <!--
 
