@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 54%
+source-wordcount: '1354'
+ht-degree: 58%
 
 ---
 
@@ -60,7 +60,7 @@ Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle 
    >
    >È possibile aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
 
-1. Regola gli attributi di stile per ciascun componente utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]** schede a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
+1. Regola gli attributi e lo stile di ciascun componente utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]** schede a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
@@ -102,7 +102,7 @@ Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsant
 
 ## Testo {#text}
 
-Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e regolarne lo stile (bordo, dimensione, spaziatura, ecc.) utilizzando **[!UICONTROL Stili]** scheda.
+Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e regolarne lo stile (bordo, dimensione, spaziatura, ecc.) utilizzando la scheda **[!UICONTROL Stili]**.
 
 ![](assets/email_designer_text_component.png)
 
@@ -129,7 +129,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
    * **[!UICONTROL Duplica]**: aggiungi una copia del componente di testo.
    * **[!UICONTROL Elimina]**: elimina dal messaggio e-mail il componente di testo selezionato.
 
-1. Regola gli altri attributi di stile quali colore del testo, famiglia di font, bordo, spaziatura, margine, ecc. dal **[!UICONTROL Stili]** scheda.
+1. Regola gli altri attributi di stile quali colore del testo, famiglia di font, bordo, spaziatura, margine, ecc. dalla scheda **[!UICONTROL Stili]**.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -137,7 +137,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
 
 Utilizza il componente **[!UICONTROL Divisore]** per inserire una linea di divisione utile per organizzare il layout e il contenuto dell’e-mail.
 
-È possibile regolare gli attributi di stile, ad esempio il colore, lo stile e l&#39;altezza della linea, dal **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede.
+È possibile regolare gli attributi di stile, ad esempio il colore, lo stile e lo spessore della linea, dalle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]**.
 
 ![](assets/email_designer_divider.png)
 
@@ -190,7 +190,7 @@ Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell�
 
 1. Seleziona il componente appena aggiunto.
 
-1. In **[!UICONTROL Social]** campo del **[!UICONTROL Impostazioni]** , scegli il social media da aggiungere o rimuovere.
+1. Nel campo **[!UICONTROL Social]** della scheda **[!UICONTROL Impostazioni]**, scegli i social media da aggiungere o rimuovere.
 
    ![](assets/email_designer_20.png)
 
@@ -202,7 +202,7 @@ Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell�
 
 1. Se necessario, puoi anche modificare le icone di ciascuno dei social media dalle risorse.
 
-1. Regola gli altri attributi quali stile, margine, bordo, ecc. dal **[!UICONTROL Stili]** scheda.
+1. Regola gli altri attributi quali stile, margine, bordo, ecc. dalla scheda **[!UICONTROL Stili]**.
 
 ## Decisione sull’offerta {#offer-decision}
 

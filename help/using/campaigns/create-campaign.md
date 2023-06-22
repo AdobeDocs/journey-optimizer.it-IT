@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 23%
+source-wordcount: '864'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 23%
 >* [Creare superfici di canale](../configuration/channel-surfaces.md)
 >* [Introduzione ai segmenti](../segment/about-segments.md)
 
-
 Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai clic su **[!UICONTROL Crea campagna]**. Puoi anche duplicare una campagna live esistente per crearne una nuova. [Ulteriori informazioni](modify-stop-campaign.md#duplicate)
 
 ## Scegli il tipo di campagna e il canale {#campaigntype}
@@ -33,18 +32,20 @@ Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai c
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Per un messaggio di marketing con data di invio specificata, il tipo **Pianificato** è il più appropriato. Tuttavia, se desideri inviare messaggi transazionali, relativi ad esempio alla reimpostazione della password o all’abbandono del carrello, il tipo di campagna **Attivata da API** è la scelta migliore."
+>abstract="**Campagne pianificate** vengono eseguiti immediatamente o in una data specificata e hanno lo scopo di inviare messaggi di tipo marketing. **Attivato da API** Le campagne di vengono eseguite utilizzando una chiamata API. Hanno lo scopo di inviare messaggi di marketing o messaggi transazionali, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, abbandono del carrello, ecc."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria della campagna"
->abstract="Il valore della categoria è direttamente associato al valore del tipo di campagna. Il tipo di campagna Pianificato per la categoria **Marketing** e il tipo Attivata da API per la categoria **Transazionale**."
+>abstract="Se stai creando una campagna pianificata, il **marketing** viene selezionato automaticamente. Per le campagne attivate da API, scegli se desideri inviare una **marketing** o **transazionale** messaggio, ovvero un messaggio inviato in seguito a un’azione eseguita da un individuo: reimpostazione della password, abbandono del carrello, ecc."
 
 1. In **[!UICONTROL Proprietà]** , specifica come eseguire la campagna. Sono disponibili due tipi di campagne:
 
-   * **[!UICONTROL Pianificato]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **marketing** digita i messaggi.
+   * **[!UICONTROL Pianificato]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **marketing** messaggi. Vengono configurati ed eseguiti dall’interfaccia utente di.
 
-   * **[!UICONTROL Attivato da API]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **transazionale** messaggi, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, abbandono del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
+   * **[!UICONTROL Attivato da API]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **marketing**, o **transazionale** messaggi, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
+
+1. Se stai creando una campagna pianificata, il **marketing** viene selezionato automaticamente. Per le campagne attivate da API, scegli se desideri inviare una **marketing** o **transazionale** messaggio.&quot;
 
 1. In **[!UICONTROL Azioni]** , scegli il canale e la superficie di canale da utilizzare per inviare il messaggio.
 
