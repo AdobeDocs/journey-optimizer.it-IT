@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -25,6 +25,10 @@ A tal fine, devi innanzitutto creare una campagna attivata da API in Journey Opt
 
 I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi push.
 
+>[!NOTE]
+>
+>Al momento, la consegna rapida non è supportata per le campagne attivate dall’API per le notifiche push.
+
 ## Creare una campagna attivata da API {#create}
 
 ### Configurare e attivare la campagna {#create-activate}
@@ -38,10 +42,6 @@ Per creare una campagna attivata da API, segui i passaggi seguenti. Informazioni
 1. Scegli uno dei canali supportati e la superficie di canale associata da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Crea]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >Al momento, la consegna rapida non è supportata per le campagne attivate dall’API per le notifiche push.
 
 1. Specifica un titolo e una descrizione per la campagna, quindi fai clic su **[!UICONTROL Modifica contenuto]** per configurare il messaggio da inviare.
 
