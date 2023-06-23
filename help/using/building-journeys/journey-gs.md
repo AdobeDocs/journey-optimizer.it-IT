@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, segmento, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 26%
+source-wordcount: '1548'
+ht-degree: 25%
 
 ---
 
@@ -59,7 +59,7 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 ![](assets/journeys-browse.png)
 
-Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del segmento]**, **[!UICONTROL Leggi segmento]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
+Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del segmento]**, **[!UICONTROL Leggi segmento]** o **[!UICONTROL Evento di business]**.
 
 Puoi scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare con **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**. Inoltre, il **[!UICONTROL Filtri di pubblicazione]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
 

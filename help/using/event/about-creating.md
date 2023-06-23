@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 16%
+source-wordcount: '1623'
+ht-degree: 15%
 
 ---
 
@@ -53,7 +53,7 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
 1. Il numero di percorsi che utilizzano questo evento viene visualizzato nel **[!UICONTROL Utilizzato in]** campo. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l’elenco dei percorsi che utilizzano questo evento.
 
-1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento, solitamente denominato payload, che i percorsi prevedono di ricevere. Potrai quindi utilizzare queste informazioni nel tuo percorso. Vedi [questa sezione](../event/about-creating.md#define-the-payload-fields).
+1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento, solitamente denominato payload, che i percorsi prevedono di ricevere. Potrai quindi utilizzare queste informazioni nel tuo percorso. Consulta [questa sezione](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
@@ -69,10 +69,12 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
    >[!NOTE]
    >
    >L’editor di espressioni avanzate non è disponibile quando si definisce **[!UICONTROL Condizione ID evento]**. Nell’editor delle espressioni semplici non tutti gli operatori sono disponibili, ma dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, puoi utilizzare &quot;contains&quot; o &quot;equal to&quot;.
+   >
+   >Se modifichi lo schema con nuovi valori di enumerazione dopo aver creato l’evento, segui questi passaggi per applicare le modifiche all’evento esistente: deseleziona il campo di enumerazione dai campi dell’evento, conferma la selezione, quindi seleziona nuovamente il campo di enumerazione. Viene ora visualizzato il nuovo valore di enumerazione.
 
-1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Vedi [questa sezione](../event/about-creating.md#select-the-namespace).
+1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa sezione](../event/about-creating.md#select-the-namespace).
 
-1. Definire l’identificatore del profilo: scegli un campo dai campi del payload o definisci una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, i percorsi selezionano la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, verrà selezionata la chiave e-mail. Vedi [questa sezione](../event/about-creating.md#define-the-event-key).
+1. Definire l’identificatore del profilo: scegli un campo dai campi del payload o definisci una formula per identificare la persona associata all’evento. Se selezioni uno spazio dei nomi, questa chiave viene impostata automaticamente, ma può essere comunque modificata. In effetti, i percorsi selezionano la chiave che deve corrispondere allo spazio dei nomi, ad esempio, se scegli uno spazio dei nomi e-mail, verrà selezionata la chiave e-mail. Consulta [questa sezione](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -100,7 +102,7 @@ La definizione del payload consente di scegliere le informazioni che il sistema 
 
    >[!NOTE]
    >
-   >Per gli eventi generati dal sistema, **[!UICONTROL eventID]** viene aggiunto automaticamente nell’elenco dei campi selezionati in modo che [!DNL Journey Optimizer] può identificare l’evento. Il sistema che trasmette l’evento non deve generare un ID, deve utilizzare quello disponibile nell’anteprima del payload. Vedi [questa sezione](../event/about-creating.md#preview-the-payload).
+   >Per gli eventi generati dal sistema, **[!UICONTROL eventID]** viene aggiunto automaticamente nell’elenco dei campi selezionati in modo che [!DNL Journey Optimizer] può identificare l’evento. Il sistema che trasmette l’evento non deve generare un ID, deve utilizzare quello disponibile nell’anteprima del payload. Consulta [questa sezione](../event/about-creating.md#preview-the-payload).
 
 1. Dopo aver selezionato i campi necessari, fai clic su **[!UICONTROL Ok]** o premere **[!UICONTROL Invio]**.
 

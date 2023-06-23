@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ Inoltre, i parametri delle azioni personalizzate hanno un formato previsto (ad e
 
 In Journey Optimizer, puoi applicare la governance dei dati e i criteri di consenso alle azioni personalizzate per impedire l’esportazione di campi specifici in sistemi di terze parti o escludere clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS. Per ulteriori informazioni, consulta le pagine seguenti:
 
-* [Governance dei dati](../action/action.md).
-* [Consenso](../action/action.md).
+* [Governance dei dati](../action/action-privacy.md).
+* [Consenso](../action/action-privacy.md).
 
 
 ## Passaggi di configurazione {#configuration-steps}
@@ -60,7 +60,7 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Aggiungi una descrizione all’azione. Questo passaggio è facoltativo.
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel **[!UICONTROL Utilizzato in]** campo. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
 1. Definisci i diversi **[!UICONTROL Configurazione URL]** parametri. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
-1. Configurare **[!UICONTROL Autenticazione]** sezione. Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
+1. Configurare **[!UICONTROL Autenticazione]** sezione. Questa configurazione è la stessa delle origini dati.  Consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
 1. Definisci il **[!UICONTROL Parametri azione]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -82,9 +82,10 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
 
    * Se l&#39;URL include un percorso dinamico, immettere solo la parte statica dell&#39;URL, ovvero lo schema, l&#39;host, la porta e, facoltativamente, una parte statica del percorso.
 
-      Esempio: `https://xxx.yyy.com/somethingstatic/`
+     Esempio: `https://xxx.yyy.com/somethingstatic/`
 
-      Specificherai il percorso dinamico dell’URL quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+     Specificherai il percorso dinamico dell’URL quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Per motivi di sicurezza, si consiglia vivamente di utilizzare lo schema HTTPS per l’URL. Non consentiamo l’uso di indirizzi Adobe non pubblici e l’uso di indirizzi IP.

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '719'
 ht-degree: 16%
 
 ---
@@ -103,7 +103,7 @@ Per creare una notifica push, effettua le seguenti operazioni:
 >title="Modalità di consegna rapida"
 >abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a un pubblico di dimensione inferiore a 30 milioni."
 
-La modalità Consegna rapida, precedentemente nota come modalità Burst in percorsi, è una [!DNL Journey Optimizer] componente aggiuntivo che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
+La modalità Consegna rapida è una [!DNL Journey Optimizer] componente aggiuntivo che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
