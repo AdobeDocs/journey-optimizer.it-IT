@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
+source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 82%
+source-wordcount: '329'
+ht-degree: 67%
 
 ---
 
@@ -42,13 +42,13 @@ Cosa troverai in questa documentazione:
 
 La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico.
 
-Al termine, i **tipi di pubblico risultanti** vengono salvati e conservati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **sfruttati nelle campagne** per eseguire il targenting dei clienti. [Scopri come utilizzare le campagne](../campaigns/get-started-with-campaigns.md)
+Al termine, il **pubblico risultante** vengono salvate in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzate per eseguire il targeting dei clienti in [Campagne Journey Optimizer](../campaigns/get-started-with-campaigns.md), o in Adobe [Destinazioni Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it).
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->I tipi di pubblico risultanti dai flussi di lavoro di composizione possono essere indirizzati solo alle campagne di Journey Optimizer. Non sono disponibili per l’utilizzo nei percorsi.
+>Al momento, i tipi di pubblico risultanti dai flussi di lavoro di composizione non sono disponibili per l’utilizzo nei percorsi.
 >
 >Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne Journey Optimizer.
 
