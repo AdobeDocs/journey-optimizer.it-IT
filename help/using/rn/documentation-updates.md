@@ -4,16 +4,22 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 100%
+source-wordcount: '2949'
+ht-degree: 97%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Giugno 2023 {#june-2023}
+
+* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione del 23 giugno è stata descritta in dettaglio nella documentazione. [Maggiori informazioni](release-notes.md)
+* Ulteriori esempi sull&#39;ordine dei criteri di valutazione sono stati aggiunti al **Creare decisioni** sezione per illustrare i casi in cui vengono utilizzati più criteri e più ambiti decisionali. [Maggiori informazioni](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* La documentazione relativa alla gestione delle decisioni è stata chiarita con una nota che specifica che l’utilizzo del controllo degli accessi a livello di oggetto non è disponibile per le raccolte dinamiche. [Maggiori informazioni](../offers/offer-library/creating-collections.md)
 
 ## Maggio 2023 {#may-2023}
 
@@ -95,7 +101,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiunte informazioni ai set di dati incorporati. [Ulteriori informazioni](../data/get-started-datasets.md#access-datasets)
 * Le sezioni Global report e Live report sono state migliorate e riorganizzate. [Ulteriori informazioni](../reports/global-report.md)
 * È stato aggiunto un elenco di tutte le metriche di reporting disponibili in Adobe Journey Optimizer.
-   [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
+  [Ulteriori informazioni](../reports/global-report.md#email-and-sms-metrics)
 * La sezione E-mail Ccn è stata spostata nella nuova pagina Supporto per l’archiviazione. [Ulteriori informazioni](../configuration/archiving-support.md)
 
 ## Agosto 2022 {#august-2022}
