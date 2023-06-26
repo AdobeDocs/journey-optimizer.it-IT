@@ -9,7 +9,7 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: oggetto, livello, accesso, controllo, etichette, olac, autorizzazione
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
+source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 14%
@@ -31,12 +31,12 @@ Il controllo dell&#39;accesso a livello di oggetto (OLAC) consente di definire l
 
 * Percorso
 * Campaign
+* Modello
 * Frammento
 * Landing page
-* Offerte
+* Nome
 * Raccolta di offerte statiche
-* Offer decisioning
-* Modello
+* Decisione sull’offerta
 
 Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 
