@@ -184,7 +184,7 @@ Per esportare l’elenco Consentiti come file CSV, effettua le seguenti operazio
    >
    >Il collegamento è valido per 24 ore.
 
-## logica di Elenco Consentiti {#logic}
+## Logica dell’elenco Consentiti {#logic}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
