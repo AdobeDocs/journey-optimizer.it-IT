@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 96%
+source-wordcount: '2595'
+ht-degree: 93%
 
 ---
 
@@ -301,9 +301,11 @@ You can now leverage API call responses in custom actions and orchestrate your j
 
 * L’area di lavoro del percorso ora mostra l’ID attività sulle attività di messaggistica e sui tag finali. Questo migliora la generazione di rapporti e il retargeting.
 * È stato migliorato il layout del riquadro di configurazione, che ora mostra azioni, origini dati, eventi e percorsi.
-* Nuove informazioni sul numero di nodi nell’area di lavoro con salvaguardie per favorire la crescita: facilità di lettura dei percorsi, controllo qualità e risoluzione dei problemi con un numero massimo di nodi al percorso a 50. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 * Quando si aggiunge un’azione [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) in un percorso, la superficie viene ora precompilata, per impostazione predefinita, con l’ultima superficie utilizzata per quel canale, nel percorso corrente.
 * È ora possibile definire parametri di query statici o dinamici nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
+* Nuovi guardrail per gestire la crescita di esperienze fornite dai Percorsi:
+   * Si consiglia di mantenere il numero di nodi limitato a un massimo di 50 per mantenere i percorsi efficienti, facili da leggere, di controllo qualità e di risoluzione dei problemi. Il numero di attività viene visualizzato nella sezione superiore sinistra dell’area di lavoro del percorso. [Maggiori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
+   * Quando svilupperai e lancerai percorsi, riceverai una notifica non appena ti avvicinerai al traguardo di 100 percorsi live alla volta. Se i tuoi piani richiedono più di 100 percorsi alla volta, crea un ticket per il supporto dopo aver visualizzato la notifica. Ti aiuteremo. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
 **Generazione rapporti**
 

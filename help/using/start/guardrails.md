@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 97%
+source-wordcount: '1119'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
+* Quando pubblichi i percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. Quando ti avvicini alla milestone di 100 percorsi live alla volta, vedrai una notifica nell’interfaccia utente di questo risultato. Se visualizzi questa notifica e hai la necessità di estendere i tuoi percorsi oltre i 100 percorsi live alla volta, crea un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 
 ### Azioni generali {#general-actions-g}
 
