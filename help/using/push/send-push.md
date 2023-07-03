@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -39,7 +39,6 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
 ## Convalidare la notifica push {#push-validate}
 
-
 È necessario controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
 
 * **Avvisi** consulta consigli e best practice.
@@ -52,7 +51,7 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
 
    * **[!UICONTROL Il payload push iOS/Android ha superato il limite di 4 KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoji. Scopri come gestire il contenuto delle notifiche push in [questa sezione](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]
