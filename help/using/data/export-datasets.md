@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +50,7 @@ Prima di iniziare a esportare i set di dati, verifica i seguenti prerequisiti:
 
 * Per esportare i set di dati, è necessario **Gestire le destinazioni**, **Visualizza destinazioni**, **Attivare le destinazioni**, e **Gestire e attivare le destinazioni dei set di dati** [autorizzazioni di controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leggi le [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) oppure contatta l’amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
-* Questa funzione supporta solo l’esportazione di dati di prima generazione, ovvero di dati non elaborati definiti nella [Descrizione del prodotto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Assicurati che il set di dati da esportare non contenga dati di seconda generazione.
+* Assicurati che il set di dati da esportare non contenga dati di seconda generazione. Questa funzione supporta solo l’esportazione di dati di prima generazione, ovvero di dati non elaborati definiti nella [Descrizione del prodotto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). I dati di prima generazione includono set di dati introdotti tramite origini Adobe Experience Platform o set di dati raccolti utilizzando soluzioni Adobe come Connettore dati di Analytics e set di dati di registri/rapporti di Journey Optimizer.
 
 ## Passaggi principali per esportare i set di dati {#main-steps}
 
