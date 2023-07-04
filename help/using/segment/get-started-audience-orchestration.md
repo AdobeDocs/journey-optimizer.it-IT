@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
 source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ Cosa troverai in questa documentazione:
 
 >[!AVAILABILITY]
 >
->Al momento, la composizione del pubblico è disponibile solo per un gruppo limitato di clienti. In caso di domande, contatta il rappresentante di Adobe.
+>Al momento, la composizione del pubblico è disponibile solo per un gruppo limitato di clienti. In caso di domande, contatta il tuo rappresentante Adobe.
 
 La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico.
 
-Al termine, il **pubblico risultante** vengono salvate in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzate per eseguire il targeting dei clienti in [Campagne Journey Optimizer](../campaigns/get-started-with-campaigns.md), o in Adobe [Destinazioni Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"}.
+Al termine, i **tipi di pubblico risultanti** vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati per eseguire il targeting dei clienti nelle [campagne di Journey Optimizer](../campaigns/get-started-with-campaigns.md), o nelle [destinazioni di Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=it){target="_blank"} di Adobe.
 
 ![](assets/audiences-process.png)
 
@@ -50,7 +50,7 @@ Al termine, il **pubblico risultante** vengono salvate in Adobe Experience Platf
 >
 >Al momento, i tipi di pubblico risultanti dai flussi di lavoro di composizione non sono disponibili per l’utilizzo nei percorsi.
 >
->Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne Journey Optimizer.
+>Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne di Journey Optimizer.
 
 La composizione dei tipi di pubblico è accessibile dal menu **[!UICONTROL Segmenti]** di Adobe Journey Optimizer:
 
