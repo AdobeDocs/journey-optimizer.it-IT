@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: c9941a800783b399b587b952c4191ce906b70552
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '2262'
-ht-degree: 4%
+source-wordcount: '2313'
+ht-degree: 21%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 4%
 >id="ajo_campaign_global_report"
 >title="Rapporto globale della campagna"
 >abstract="Il rapporto globale delle campagne consente di misurare l’impatto di una campagna in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+
+I report globali, accessibili dalla scheda Tutto il tempo, visualizzano gli eventi che si sono verificati almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 
 Il rapporto globale della campagna è accessibile direttamente dalla campagna con **[!UICONTROL Visualizza rapporto]** pulsante.
 
@@ -115,11 +117,11 @@ Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo 
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Percentuale di consegna]**: percentuale di messaggi inviati correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Percentuale non recapitate]**: percentuale di e-mail non recapitate rispetto alle e-mail inviate.
 
@@ -151,9 +153,9 @@ Il **[!UICONTROL E-mail - Statistiche di tracciamento]** il widget contiene i da
 
 Il **[!UICONTROL Statistiche di invio]** il grafico contiene i dati disponibili per le e-mail inviate, ad esempio:
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Nuovi tentativi]**: numero di e-mail nella coda per i nuovi tentativi.
 
@@ -189,8 +191,8 @@ Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informa
 
 Il **[!UICONTROL Ottimizzazione del tempo di invio]** descrive il successo della consegna in base al metodo di invio: ottimizzato o normale.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 +++
 
 ## Scheda In-app {#inapp-global}
@@ -234,11 +236,11 @@ Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le 
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Percentuale di consegna]**: percentuale di messaggi inviati correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Percentuale non recapitate]**: percentuale di notifiche push non recapitate rispetto alle notifiche push inviate.
 
@@ -266,9 +268,9 @@ Il **[!UICONTROL Riepilogo notifiche push]** il grafico contiene i dati disponib
 
 * **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
@@ -278,14 +280,14 @@ Il **[!UICONTROL Riepilogo notifiche push]** il grafico contiene i dati disponib
 
 Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 * **[!UICONTROL Aperture]**: numero di volte in cui la consegna è stata aperta in una consegna.
 * **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
 
 Il **[!UICONTROL Ottimizzazione del tempo di invio]** descrive il successo della consegna in base al metodo di invio: ottimizzato o normale.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
 Il **[!UICONTROL Motivi di errore]** grafico e tabella ti consentono di vedere quale errore si è verificato durante la consegna.
 
@@ -310,9 +312,9 @@ Il **[!UICONTROL SMS - Statistiche di invio]** la tabella descrive il successo d
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
@@ -320,9 +322,9 @@ Il **[!UICONTROL Prestazioni SMS per data]** un grafico fornisce dettagli sulle 
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 

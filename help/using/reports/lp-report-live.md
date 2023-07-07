@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '447'
 ht-degree: 14%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 14%
 >title="Rapporto live delle pagine di destinazione"
 >abstract="Il rapporto globale delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
-Pagina di destinazione **[!UICONTROL Rapporto live]** Il rapporto mostra dettagli sull’impatto delle pagine di destinazione solo nelle ultime 24 ore. Per misurare i dati della pagina di destinazione in un periodo di tempo selezionato, consulta [Rapporto globale della pagina di destinazione](lp-report-global.md).
+I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
 Per accedere ai rapporti, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
 

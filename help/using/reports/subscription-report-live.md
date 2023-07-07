@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 22%
+source-wordcount: '264'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 22%
 >title="Rapporto live delle iscrizioni"
 >abstract="Il rapporto live delle iscrizioni consente di misurare e visualizzare in tempo reale l’attività degli utenti iscritti solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
-L’abbonamento **[!UICONTROL Rapporto live]** visualizza i dettagli sull’attività degli abbonati solo nelle ultime 24 ore. Per misurare gli abbonamenti in un periodo di tempo selezionato, consulta [Rapporto globale abbonamento](subscription-report-global.md).
+I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
 Per accedere ai rapporti, fai clic su **[!UICONTROL Report]** dell&#39;elenco di iscrizioni selezionato.
 
