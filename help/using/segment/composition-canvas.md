@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 28%
+source-wordcount: '1373'
+ht-degree: 26%
 
 ---
 
@@ -116,22 +116,22 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 
 * **[!UICONTROL Escludi pubblico]**: escludi i profili appartenenti a un pubblico esistente.
 
-   Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi selezionare il pubblico da escludere.
+  Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi selezionare il pubblico da escludere.
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL Escludi con attributo]**: escludi i profili basati su un attributo specifico.
 
-   Seleziona l’attributo da cercare, quindi specifica il valore da escludere. In questo esempio, escludiamo dai profili di composizione il cui indirizzo principale è in Giappone.
+  Seleziona l’attributo da cercare, quindi specifica il valore da escludere. In questo esempio, escludiamo dai profili di composizione il cui indirizzo principale è in Giappone.
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### Arricchire {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Attività Arricchisci"
->abstract="Utilizza l’attività Arricchisci per escludere i profili appartenenti a un pubblico esistente. Il tipo Escludi con attributo consente di escludere i profili in base a un attributo specifico."
+>abstract="Utilizza l’attività Enrich per arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -220,15 +220,15 @@ Sono disponibili due tipi di operazioni di suddivisione:
 
 * **[!UICONTROL Divisione percentuale]**: i profili vengono suddivisi in modo casuale in due o più percorsi. Ad esempio, puoi suddividere i profili in 2 percorsi distinti del 50% ciascuno. <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL Suddivisione attributi]**: suddivide i profili in base a un attributo specifico. In questo esempio, i profili vengono suddivisi in base alle preferenze per il tipo di stanza.
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >Il **[!UICONTROL Altri profili]** consente di creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
+  >[!NOTE]
+  >
+  >Il **[!UICONTROL Altri profili]** consente di creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
 
 ## Salvare i tipi di pubblico {#save}
 
