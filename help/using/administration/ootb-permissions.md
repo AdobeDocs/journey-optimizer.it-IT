@@ -9,20 +9,18 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 3%
 
 ---
 
 # Autorizzazioni incorporate {#ootb-permissions}
 
 | Funzionalità | Autorizzazioni |
-|---|---|
-| Avvisi | **[!DNL Manage alerts]**: abilita/disabilita le regole di avviso per percorsi e diritti.</br>**[!DNL Resolve alerts]**: consente di risolvere gli avvisi attivati.</br>**[!DNL View alerts]**: consente di visualizzare i messaggi di avviso ricevuti e di accedere alla scheda Avvisi. </br>**[!DNL View alerts history]**: ti consente di visualizzare una cronologia degli avvisi ricevuti. |
+|-|-|
 | Campagne | **[!DNL Manage campaigns]**: leggi, crea, modifica ed elimina campagne. </br>**[!DNL Publish campaigns]**: diritto di pubblicare campagne.</br>**[!DNL View campaigns]**: accesso in sola lettura alle campagne. </br>**[!DNL View campaigns report]**: leggi e modifica i rapporti delle campagne. |
-| Configurazione del canale | **[!DNL View messages general settings]**: accesso in sola lettura alle impostazioni generali del messaggio.</br>**[!DNL Manage web subdomain]**: leggi, crea, modifica ed elimina i sottodomini web.</br>**[!DNL Manage messages general settings]**: leggi, crea, modifica ed elimina le impostazioni generali del messaggio.</br>**[!DNL Manage suppression]**: leggi, crea, modifica ed elimina regole di soppressione.</br>**[!DNL Manage messages presets]**: legge, crea, modifica ed elimina il branding dei contenuti.</br>**[!DNL View messages presets]**: accesso in sola lettura ai predefiniti per messaggi.</br>**[!DNL Manage SMS subdomains]**: leggi, crea, modifica ed elimina i sottodomini SMS.</br>**[!DNL Manage subdomains delegation]**: consente di leggere, creare, modificare ed eliminare la delega dei sottodomini.</br>**[!DNL Manage IP pools]**: lettura, creazione, modifica ed eliminazione del pool ip.</br>**[!DNL Manage PTR records]**: legge e modifica i record PTR.</br>**[!DNL View PTR records]**: accesso in sola lettura ai record PTR.</br>**[!DNL Manage channel surfaces]**: legge, crea, modifica ed elimina il branding dei contenuti.</br>**[!DNL Manage Landing page settings]**: leggi, crea, modifica ed elimina i sottodomini della pagina di destinazione e i predefiniti della pagina di destinazione.</br>**[!DNL Manage SMS settings]**: leggi, crea, modifica ed elimina le credenziali API e le superfici di canale SMS necessarie per abilitare il canale SMS.</br>**[!DNL Export suppression list]**: accesso all’elenco di soppressione dell’esportazione come file csv.</br>**[!DNL View suppression list]**: legge ed esporta l’elenco di soppressione locale. |
 | Dashboard | **[!DNL View license usage dashboards]**: accesso in sola lettura al dashboard utilizzo licenze. </br>**[!DNL Manage custom dashboards]**: consente di creare un nuovo dashboard o di modificarne uno esistente.</br>**[!DNL View custom dashboards]**: accesso in sola lettura ai dashboard definiti dall’utente. </br>**[!DNL View standard dashboards]**: accesso in sola lettura alle dashboard Profili, Destinazioni e Segmenti.</br>**[!DNL Manage standard dashboards]**: consente di creare widget personalizzati e modificare lo schema dei widget tramite la libreria Widget. |
 | Raccolta dati | **[!DNL Manage datastream]**: legge, crea e modifica gli stream di dati.</br>**[!DNL View datastream]**: accesso in sola lettura agli stream di dati. |
 | Governance dei dati | **[!DNL Manage usage labels]**: leggi, crea, modifica ed elimina etichette.</br>**[!DNL Manage data usage policies]**: leggi, crea, modifica ed elimina i criteri di utilizzo dei dati.</br>**[!DNL View data usage policies]**: accesso in sola lettura per i criteri di utilizzo dei dati appartenenti alla tua organizzazione.</br>**[!DNL View user activity log]**: accesso in sola lettura per visualizzare i registri di audit registrati delle attività di Platform. |

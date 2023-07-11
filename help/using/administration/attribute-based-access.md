@@ -9,18 +9,14 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attributo, autorizzazioni, dati, accesso, dati sensibili, risorse
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 3%
+source-wordcount: '1062'
+ht-degree: 1%
 
 ---
 
 # Controllo degli accessi basato su attributi {#attribute-based-access}
-
->[!IMPORTANT]
->
->Il controllo degli accessi basato su attributi è attualmente limitato ad alcuni utenti e verrà esteso a tutti gli ambienti con una versione futura.
 
 Il controllo degli accessi basato su attributi (Attribute-Based Access Control - ABAC) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici. Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 

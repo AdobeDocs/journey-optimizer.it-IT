@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: oggetto, livello, accesso, controllo, etichette, olac, autorizzazione
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 14%
+source-wordcount: '436'
+ht-degree: 15%
 
 ---
 
@@ -22,10 +22,6 @@ ht-degree: 14%
 >id="ajo_olac_manage_access"
 >title="Controllo dell’accesso a livello di oggetto"
 >abstract="Se applichi etichette a cui non hai accesso, l’accesso a questo oggetto verrà revocato."
-
->[!IMPORTANT]
->
->L’utilizzo del controllo dell’accesso a livello di oggetto è attualmente limitato ad alcuni clienti e verrà esteso a tutti gli ambienti con una versione futura.
 
 Il controllo dell&#39;accesso a livello di oggetto (OLAC) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati a una selezione di oggetti:
 
