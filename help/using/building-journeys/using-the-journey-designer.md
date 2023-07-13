@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 5%
@@ -69,11 +69,11 @@ Quando si progetta il percorso, la prima domanda da porsi è come i profili entr
 
 1. **Iniziare con un evento**: quando un percorso è impostato per ascoltare gli eventi, gli utenti entrano nel percorso **in modo unitario** in tempo reale. I messaggi inclusi nel percorso vengono inviati alla persona che sta entrando nel percorso. [Ulteriori informazioni sugli eventi](../event/about-events.md)
 
-1. **Iniziare con un segmento di lettura**: puoi impostare il percorso in modo che ascolti i segmenti di Adobe Experience Platform. In questo caso, tutte le persone appartenenti al segmento specificato entrano nel percorso. I messaggi inclusi nel percorso vengono inviati alle persone appartenenti al segmento. [Ulteriori informazioni sulla lettura dei segmenti](read-segment.md).
+1. **Iniziare con un pubblico di lettura**: puoi impostare il percorso in modo che ascolti il pubblico di Adobe Experience Platform. In questo caso, tutti i singoli utenti appartenenti al pubblico specificato accedono al percorso. I messaggi inclusi nel percorso vengono inviati ai singoli utenti appartenenti al pubblico. Ulteriori informazioni su [audience di lettura](read-audience.md).
 
 ## Definire i passaggi successivi{#define-next-steps}
 
-Dopo il primo evento o Leggi segmento, puoi combinare le diverse attività per creare scenari cross-channel con più passaggi. Scegli dalla palette i passaggi necessari.
+Dopo il primo evento o Read Audiences, puoi combinare le diverse attività per creare scenari cross-channel in più passaggi. Scegli dalla palette i passaggi necessari.
 
 ### Eventi{#jo-event}
 
@@ -85,13 +85,13 @@ Puoi aggiungere **diversi eventi** nel percorso, purché utilizzino lo stesso sp
 
 Puoi anche aggiungere una **Reazione** dopo un messaggio per reagire ai dati di tracciamento relativi al messaggio. Ciò ti consente, ad esempio, di inviare un altro messaggio se l’utente ha aperto il messaggio precedente o ha fatto clic al suo interno. [Ulteriori informazioni sugli eventi di reazione](reaction-events.md).
 
-Utilizzare **Qualificazione del segmento** attività dell’evento per fare in modo che i singoli utenti entrino o avanzino in un percorso basato sulle entrate e sulle uscite del segmento Adobe Experience Platform. Puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviino messaggi personalizzati. Ulteriori informazioni [sezione](segment-qualification-events.md).
+Utilizzare **Qualificazione del pubblico** attività evento per consentire ai singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite del pubblico Adobe Experience Platform. Puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviino messaggi personalizzati. Ulteriori informazioni [sezione](audience-qualification-events.md).
 
 ### Orchestrazione{#jo-orch}
 
 Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso.
 
-Dalle attività di orchestrazione, utilizza **Leggi segmento** attività per impostare il percorso in modo che ascolti un segmento di Adobe Experience Platform. [Ulteriori informazioni sull’attività Leggi segmento](read-segment.md).
+Dalle attività di orchestrazione, utilizza **Read Audience** attività per impostare il percorso in modo che ascolti un pubblico Adobe Experience Platform. [Ulteriori informazioni sull’attività Read Audience](read-audience.md).
 
 Le altre attività ti consentono di aggiungere condizioni al percorso per definire diversi percorsi, impostare un tempo di attesa prima di eseguire l’attività successiva o terminare il percorso. [Ulteriori informazioni sulle attività di orchestrazione](about-journey-activities.md#orchestration-activities).
 
@@ -113,7 +113,7 @@ Per aggiungere un’azione di fallback per un’attività, seleziona la **[!UICO
 
 Varie attività (evento, azione, attesa) ti consentono di aggiungere diversi percorsi dopo di essi. A questo scopo, posiziona il cursore sull’attività e fai clic sul simbolo &quot;+&quot;. Solo le attività event e wait possono essere impostate in parallelo. Se più eventi sono impostati in parallelo, il percorso scelto sarà quello del primo evento in corso.
 
-Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una best practice. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività Attendi in parallelo. Vedi [questa sezione](../building-journeys/general-events.md#events-specific-time).
+Quando ascolti un evento, ti consigliamo di non attendere l’evento a tempo indefinito. Non è obbligatorio, è solo una best practice. Se desideri ascoltare uno o più eventi solo durante un certo periodo di tempo, inserirai uno o più eventi e un’attività Attendi in parallelo. Consulta [questa sezione](../building-journeys/general-events.md#events-specific-time).
 
 Per eliminare il tracciato, posizionare il cursore su di esso e fare clic su **[!UICONTROL Elimina percorso]** icona.
 
