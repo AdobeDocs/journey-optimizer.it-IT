@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1345'
 ht-degree: 24%
 
 ---
@@ -138,8 +138,6 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 Il **[!UICONTROL Arricchire]** attività ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
 
 >[!IMPORTANT]
->
->Arricchimento disponibile per **[!UICONOTROL Adobe Journey Optimizer]** solo utenti.
 >
 >Per il momento, le etichette del set di dati, a livello di set di dati o di campo, non vengono propagate al pubblico appena creato. Questo può influire sul controllo degli accessi e/o sulla governance dei dati per il pubblico risultante. Per questo motivo, utilizza solo i dati di prova durante la composizione dei tipi di pubblico.
 
