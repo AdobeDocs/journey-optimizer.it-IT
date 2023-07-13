@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 9%
@@ -59,7 +59,7 @@ Per ulteriori informazioni su come configurare un percorso, consulta [questa pag
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../segment/about-segments.md), e [pianificazione](../campaigns/create-campaign.md#schedule).
+1. Completa i passaggi per creare una campagna e-mail, ad esempio le proprietà della campagna, [pubblico](../audience/about-audiences.md), e [pianificazione](../campaigns/create-campaign.md#schedule).
 
    ![](assets/email_campaign_steps.png)
 
@@ -122,9 +122,9 @@ Possono verificarsi due tipi di avvisi:
 
    * **[!UICONTROL Il collegamento di rinuncia non è presente nel corpo dell’e-mail]**: è consigliabile aggiungere un collegamento di annullamento all’abbonamento nel corpo dell’e-mail. Scopri come configurarlo in [questa sezione](../privacy/opt-out.md#opt-out-management).
 
-      >[!NOTE]
-      >
-      >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definito nella sezione [superficie di canale](email-settings.md#email-type) livello e quando [creazione del messaggio](#create-email-journey-campaign) da un percorso o da una campagna.
+     >[!NOTE]
+     >
+     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definito nella sezione [superficie di canale](email-settings.md#email-type) livello e quando [creazione del messaggio](#create-email-journey-campaign) da un percorso o da una campagna.
 
    * **[!UICONTROL La versione testo di HTML è vuota]**: non dimenticare di definire una versione di testo del corpo dell’e-mail, in quanto verrà utilizzato quando non è possibile visualizzare il contenuto di HTML. Scopri come creare la versione di testo in [questa sezione](text-version-email.md).
 
@@ -136,12 +136,11 @@ Possono verificarsi due tipi di avvisi:
 
    * **[!UICONTROL Manca l’oggetto]**: la riga dell’oggetto dell’e-mail è obbligatoria. Scopri come definirlo e personalizzarlo in [questa sezione](create-email.md).
 
-   <!--HTML is empty when Amp HTML is present-->
+  <!--HTML is empty when Amp HTML is present-->
 
    * **[!UICONTROL La versione e-mail del messaggio è vuota]**: questo errore viene visualizzato quando il contenuto dell’e-mail non è stato configurato. Scopri come progettare contenuti e-mail in [questa sezione](get-started-email-design.md).
 
    * **[!UICONTROL La superficie non esiste]**: non puoi utilizzare il messaggio se la superficie selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, seleziona un’altra superficie nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle superfici di canale in [questa sezione](../configuration/channel-surfaces.md).
-
 
 >[!CAUTION]
 >

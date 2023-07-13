@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1787'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ Definisci le impostazioni e-mail nella sezione dedicata della configurazione del
 
 La configurazione della superficie e-mail viene selezionata per l’invio di comunicazioni seguendo la logica seguente:
 
-* Per i percorsi batch, non si applica all’esecuzione batch già avviata prima della configurazione della superficie e-mail. Le modifiche verranno rilevate alla successiva ricorrenza o alla nuova esecuzione.
+* Per i percorsi batch e burst, non si applica all’esecuzione in batch o burst già avviata prima della configurazione della superficie e-mail. Le modifiche verranno rilevate alla successiva ricorrenza o alla nuova esecuzione.
 
 * Per i messaggi transazionali, la modifica viene selezionata immediatamente per la comunicazione successiva (fino a cinque minuti di ritardo).
 

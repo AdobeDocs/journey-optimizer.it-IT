@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -29,7 +29,7 @@ Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione
 
 ![](assets/general-events.png)
 
-Quando si rilascia un evento di business, questo aggiunge automaticamente un **Leggi segmento** attività. Per ulteriori informazioni sugli eventi di business, consulta [questa sezione](../event/about-events.md)
+Quando si rilascia un evento di business, questo aggiunge automaticamente un **Read Audience** attività. Per ulteriori informazioni sugli eventi di business, consulta [questa sezione](../event/about-events.md)
 
 ## Ascolto degli eventi durante un periodo di tempo specifico {#events-specific-time}
 

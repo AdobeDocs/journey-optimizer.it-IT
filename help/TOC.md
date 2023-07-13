@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 99%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 99%
       + [Introduzione alle attività dei percorsi](using/building-journeys/about-journey-activities.md)
       + [Eventi generali](using/building-journeys/general-events.md)
       + [Reazione](using/building-journeys/reaction-events.md)
-      + [Qualificazione del segmento](using/building-journeys/segment-qualification-events.md)
+      + [Qualificazione del pubblico](using/building-journeys/audience-qualification-events.md)
       + [Condizione](using/building-journeys/condition-activity.md)
       + [Attendi](using/building-journeys/wait-activity.md)
-      + [Leggi segmento](using/building-journeys/read-segment.md)
+      + [Leggere tipi di pubblico](using/building-journeys/read-audience.md)
       + [E-mail, In-app, Push, SMS](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
       + [Azioni di Adobe Campaign Standard](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 99%
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)
       + [Creare contenuti dinamici](using/personalization/dynamic-content.md)
-+ Segmenti, profili e identità{#segment}
-   + Segmenti {#segments}
-      + [Introduzione ai segmenti](using/segment/about-segments.md)
-      + [Generare segmenti](using/segment/creating-a-segment.md)
++ Tipi di pubblico, profili e identità{#audiences-profiles-identities}
+   + Tipi di pubblico {#audiences}
+      + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
+      + [Definizioni dei segmenti di build](using/audience/creating-a-segment-definition.md)
    + Profili{#profiles}
-      + [Introduzione ai profili](using/segment/get-started-profiles.md)
-      + [Creare profili di test](using/segment/creating-test-profiles.md)
-   + [Identità](using/segment/get-started-identity.md)
+      + [Introduzione ai profili](using/audience/get-started-profiles.md)
+      + [Creare profili di test](using/audience/creating-test-profiles.md)
+   + [Identità](using/audience/get-started-identity.md)
    + Comporre i tipi di pubblico {#audience-orchestration}
-      + [Introduzione alla composizione dei tipi di pubblico](using/segment/get-started-audience-orchestration.md)
-      + [Creare flussi di lavoro di composizione](using/segment/create-compositions.md)
-      + [Lavorare nell’area di lavoro per la composizione](using/segment/composition-canvas.md)
-      + [Accesso e gestione dei tipi di pubblico](using/segment/access-audiences.md)
-   + [Utilizzo delle licenze](using/segment/license-usage.md)
+      + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
+      + [Creare flussi di lavoro di composizione](using/audience/create-compositions.md)
+      + [Lavorare nell’area di lavoro per la composizione](using/audience/composition-canvas.md)
+      + [Accesso e gestione dei tipi di pubblico](using/audience/access-audiences.md)
+   + [Utilizzo delle licenze](using/audience/license-usage.md)
 + Tracciare e monitorare {#reporting}
    + Rapporti live {#live-report}
       + [Introduzione ai rapporti live](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 99%
       + [Gestire la rinuncia](using/privacy/opt-out.md)
       + [Utilizzare i criteri di consenso](using/action/consent.md)
    + [Governance dei dati](using/action/action-privacy.md)
-   + [Impostare e gestire le chiavi gestite dal cliente](using/privacy/cmk.md)

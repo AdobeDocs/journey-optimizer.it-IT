@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: d5be5ba43351e3143fce7f64878baceb8507d7f8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '3575'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -45,7 +45,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Percorsi**
 
-* L’opzione **Forza il rientro in caso di ricorrenza** è stata aggiunta nei parametri ricorrenti di pianificazione dei segmenti di lettura. Questa opzione ti consente di far passare automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando questa opzione è disattivata, i profili devono terminare il percorso prima di poter entrare nuovamente in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il **Forza rientro in caso di ricorrenza** è stata aggiunta l’opzione nei parametri ricorrenti di pianificazione read audience. Questa opzione ti consente di far passare automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando questa opzione è disattivata, i profili devono terminare il percorso prima di poter entrare nuovamente in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Amministrazione**
 
@@ -176,7 +176,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>In qualità di utente Journey Optimizer, ora puoi accedere agli avvisi di sistema tramite l’interfaccia utente per ricevere notifiche quando i percorsi non funzionano come previsto. Puoi visualizzare gli avvisi disponibili e abbonarti. Il primo avviso disponibile con questa versione ti avviserà se un’attività di lettura del segmento non ha elaborato alcun profilo durante l’intervallo di tempo definito. Ora che questo flusso di lavoro è disponibile, verranno introdotte ulteriori funzioni che possano sfruttarlo.</p>
+<p>In qualità di utente Journey Optimizer, ora puoi accedere agli avvisi di sistema tramite l’interfaccia utente per ricevere notifiche quando i percorsi non funzionano come previsto. Puoi visualizzare gli avvisi disponibili e abbonarti. Il primo avviso disponibile con questa versione ti avviserà se un’attività Read Audience non ha elaborato alcun profilo durante l’intervallo di tempo definito. Ora che questo flusso di lavoro è disponibile, verranno introdotte ulteriori funzioni che possano sfruttarlo.</p>
 <!--p>For more information, refer to the <a href="../reports/alerts.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -196,7 +196,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Adobe Experience Platform provides a suite of data hygiene capabilities that allow you manage your stored data through programmatic deletions of consumer records and datasets. This capability is now available for Adobe Journey Optimizer. </p>
 <p>You can manage your data stores to ensure that information is used as expected, is updated when incorrect data needs fixing, and is deleted when organizational policies deem it necessary.</p>
 <p><strong>Caution</strong> - Data Hygiene capabilities are currently only available for organizations that have purchased the Healthcare Shield add-on offering.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 **Percorsi**
 
 * Il **Set di dati di entità** è ora disponibile come set di dati predefinito in Adobe Journey Optimizer. Questo set di dati di ricerca include metadati per arricchire le informazioni di tracciamento e feedback sui set di dati. Questo ti aiuterà a migliorare i rapporti e le query con dati più comprensibili. [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
-* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione di segmento) per evitare che i percorsi vengano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il rientro nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
+* È stato aggiunto un nuovo guardrail ai percorsi unitari (a partire da un evento o da una qualificazione del pubblico) per evitare che i percorsi vengano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il rientro nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
 
 **Amministrazione**
 
@@ -235,8 +235,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 ### Altre modifiche{#sept-2022-other}
 
 * La modalità Burst di un percorso è stata sostituita dalla modalità Consegna rapida di una campagna. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
-* Per migliorare le prestazioni, i gruppi di campo evento di un’esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi segmento, Qualificazione del segmento o Evento di business. Questo cambiamento è applicabile solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. [Ulteriori informazioni](../start/guardrails.md#expression-editor)
-* È stato rimosso il limite di 1 ora per i percorsi con Leggi segmento pianificati. Questi percorsi ora possono essere eseguiti senza ritardi.
+* Per migliorare le prestazioni, i gruppi di campo evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Read audience, Audience qualification o Business Event. Questo cambiamento è applicabile solo ai nuovi percorsi. Quelli esistenti manterranno il comportamento corrente. [Ulteriori informazioni](../start/guardrails.md#expression-editor)
+* È stato rimosso il limite di 1 ora per i percorsi di lettura pianificati per il pubblico. Questi percorsi ora possono essere eseguiti senza ritardi.
 
 
 
@@ -254,7 +254,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un segmento specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
+<p>Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni sono progettate per essere eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
 <p>Scopri come creare una campagna nella <a href="../campaigns/get-started-with-campaigns.md">documentazione dettagliata</a> e nel <a href="https://video.tv.adobe.com/v/346680">video sulle funzioni</a>.
 </td>
@@ -290,7 +290,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <td>
 <p>You can now create conditional content blocks across different authoring services to personalize your content.</p>
 <p>In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+<p>For more information, refer to the <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">detailed documentation</a>.
 </td>
 </tr>
 </tbody>
@@ -303,7 +303,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 * La tabella e il grafico dei criteri di consenso sono ora disponibili nei rapporti globali del Percorso. Questi widget consentono di tenere traccia dei profili esclusi dai criteri nelle azioni personalizzate. [Ulteriori informazioni](../reports/journey-global-report.md#journey-global)
 
-   Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/global-report.md).
+  Per poter accedere ai widget più recenti, è necessario reimpostare le diverse dashboard di reporting. Per ulteriori informazioni sulla personalizzazione delle dashboard, consulta la [documentazione dettagliata](../reports/global-report.md).
 
 **Amministrazione**
 
@@ -374,7 +374,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Nella gestione delle decisioni, ora puoi utilizzare sistemi di modelli di ottimizzazione personalizzati. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base a segmenti e prestazioni.</p>
+<p>Nella gestione delle decisioni, ora puoi utilizzare sistemi di modelli di ottimizzazione personalizzati. Questo nuovo tipo di modello consente di ottimizzare e personalizzare le offerte in base al pubblico e alle prestazioni delle offerte.</p>
 <p>L’utilizzo di modelli di ottimizzazione personalizzati basati su IA è attualmente limitato ad alcuni utenti e verrà esteso a tutti gli ambienti con una versione futura.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/ranking/personalized-optimization-model.md">documentazione dettagliata</a>.</p>
@@ -408,7 +408,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Gestione delle decisioni**
 
-* **Dimensione del pubblico**: ora durante la creazione di una regola di decisione, durante la selezione di un segmento o di una regola per impostare un’idoneità per l’offerta o quando aggiungi un segmento o una regola a un ambito di decisione, nell’interfaccia utente viene visualizzato un nuovo componente per la stima delle dimensioni del pubblico.
+* **Dimensione pubblico** - Ora durante la creazione di una regola decisionale, durante la selezione di un pubblico o di una regola per impostare un’idoneità per l’offerta o quando aggiungi un pubblico o una regola a un ambito decisionale, nell’interfaccia utente viene visualizzato un nuovo componente per la stima delle dimensioni del pubblico.
 
 
 ## Versione di giugno 2022 {#june-2022-release}
@@ -477,7 +477,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on audiences and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
 <p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
@@ -615,12 +615,12 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Percorsi**
 
-* **Leggi segmento**: i percorsi Leggi segmento una tantum ora passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i segmenti con Leggi segmento pianificati, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza. [Ulteriori informazioni](../building-journeys/read-segment.md)
+* **Read audience** - I percorsi Read audience una tantum ora passano allo stato Finished 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 30 giorni dall’esecuzione dell’ultima occorrenza. [Ulteriori informazioni](../building-journeys/read-audience.md)
 * **Editor espressioni**: è stata aggiunta la funzione [limit](../building-journeys/functions/functionlimit.md) per consentire di limitare il numero di elementi di un elenco. La funzione [sort](../building-journeys/functions/functionsort.md) consente ora di ordinare un oggetto elenco. È stato aggiunto anche il supporto di listObject alle funzioni [disctinct](../building-journeys/functions/functiondistinct.md) e [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md).
 
 **Amministrazione**
 
-* **Aggiornamento della dashboard di utilizzo della licenza**: la dashboard Utilizzo licenze disponibile nell’interfaccia utente di [!DNL Adobe Journey Optimizer] ora riflette il valore preciso per la media **Concessa in licenza** del profilo. Osserverai un calo nella rappresentazione di questa metrica, che indica che il limite di licenza è ora correttamente segnalato. [Ulteriori informazioni](../segment/license-usage.md)
+* **Aggiornamento della dashboard di utilizzo della licenza**: la dashboard Utilizzo licenze disponibile nell’interfaccia utente di [!DNL Adobe Journey Optimizer] ora riflette il valore preciso per la media **Concessa in licenza** del profilo. Osserverai un calo nella rappresentazione di questa metrica, che indica che il limite di licenza è ora correttamente segnalato. [Ulteriori informazioni](../audience/license-usage.md)
 
 
 ## Versione di aprile 2022 {#april-2022-release}
@@ -673,7 +673,7 @@ In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notific
 **Gestione delle decisioni**
 
 * Ora puoi specificare se il limite di offerte viene applicato a tutti gli utenti o a un profilo specifico, e a tutti i posizionamenti o a singoli posizionamenti. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
-* L’API Batch Decisioning consente alle organizzazioni di utilizzare la funzionalità di gestione delle decisioni per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati AEP dove è disponibile per flussi di lavoro batch personalizzati. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* L’API Batch Decisioning consente alle organizzazioni di utilizzare la funzionalità di gestione delle decisioni per tutti i profili in un determinato pubblico in una chiamata. Il contenuto dell’offerta per ogni profilo del pubblico viene inserito in un set di dati AEP dove è disponibile per flussi di lavoro batch personalizzati. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Amministrazione**
 
@@ -800,14 +800,14 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <table>
 <thead>
 <tr>
-<th><strong>Percorsi: miglioramento delle attività Leggi segmento</strong><br/></th>
+<th><strong>Percorsi - Miglioramento del pubblico di lettura</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Alle attività <strong>Leggi segmento</strong> ricorrenti è stata aggiunta l’opzione <strong>Lettura incrementale</strong>. Questa opzione consente di indirizzare solo i singoli utenti che sono entrati a far parte del segmento dopo l’ultima esecuzione del percorso. La prima esecuzione indirizza sempre tutti i membri del segmento.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">documentazione dettagliata</a>.
+<p>Il <strong>Lettura incrementale</strong> l'opzione è stata aggiunta a ricorrente <strong>Read audience</strong> attività. Questa opzione consente di eseguire il targeting solo dei singoli utenti che sono entrati a far parte del pubblico dall’ultima esecuzione del percorso. La prima esecuzione esegue sempre il targeting di tutti i membri del pubblico.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">documentazione dettagliata</a>.
 </td>
 </tr>
 </tbody>

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 73%
+source-wordcount: '1030'
+ht-degree: 74%
 
 ---
 
@@ -58,7 +58,7 @@ Il reporting percorso misura le entrate delle persone in un percorso in tempo re
 
 Se l’invio dell’evento è stato completato con successo ma non viene visualizzato alcuna entrata nel percorso, significa che si sono verificati errori tra l’invio dell’evento e la ricezione dell’evento nel percorso.
 
-Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
+Di seguito sono riportati alcuni elementi che l’amministratore deve controllare:
 
 * Hai la certezza che il percorso in cui prevedevi che arrivasse l’evento fosse in modalità di test o live?
 * Hai salvato l’evento prima di copiare il payload dall’anteprima del payload?

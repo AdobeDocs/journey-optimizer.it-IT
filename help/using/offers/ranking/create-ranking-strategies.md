@@ -1,20 +1,20 @@
 ---
 product: experience platform
 solution: Experience Platform
-title: Creare modelli AI
+title: Creare modelli IA
 description: Scopri come creare modelli AI per classificare le offerte
 feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 7%
+source-wordcount: '418'
+ht-degree: 6%
 
 ---
 
-# Creare modelli AI {#ai-rankings}
+# Creare modelli IA {#ai-rankings}
 
 [!DNL Journey Optimizer] consente di creare **Modelli IA** per classificare le offerte in base agli obiettivi aziendali.
 
@@ -39,7 +39,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
 1. Specifica un nome univoco e una descrizione per il modello di IA, quindi seleziona il tipo di modello di IA da creare:
 
    * **[!UICONTROL Ottimizzazione automatica]** ottimizza le offerte in base alle prestazioni delle offerte passate. [Ulteriori informazioni](auto-optimization-model.md)
-   * **[!UICONTROL Ottimizzazione personalizzata]** ottimizza e personalizza le offerte in base ai segmenti e alle prestazioni delle offerte. [Ulteriori informazioni](personalized-optimization-model.md)
+   * **[!UICONTROL Personalizzato]** ottimizza e personalizza le offerte in base al pubblico e alle prestazioni delle offerte. [Ulteriori informazioni](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -50,7 +50,6 @@ Per creare un modello di IA, segui i passaggi seguenti:
    >[!DNL Journey Optimizer] classifica le offerte in base al **tasso di conversione** (Tasso di conversione = Numero totale di eventi di conversione / Numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche:
    >* **Eventi di impression** (offerte visualizzate)
    >* **Eventi di conversione** (offerte che si traducono in clic via e-mail o web).
-
    >
    >Questi eventi vengono acquisiti automaticamente tramite l’SDK web o l’SDK mobile fornito. Ulteriori informazioni in [Panoramica di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it).
 
@@ -62,15 +61,13 @@ Per creare un modello di IA, segui i passaggi seguenti:
    >
    >Solo i set di dati creati da schemi associati al **[!UICONTROL Evento esperienza - Interazioni proposte]** nell’elenco a discesa viene visualizzato il gruppo di campi (precedentemente noto come mixin).
 
-1. Se stai creando un **[!UICONTROL Ottimizzazione personalizzata]** Modello di IA, seleziona i segmenti da utilizzare per addestrare il modello di IA.
-
-   ➡️ [Scopri questa funzione nel video](#video)
+1. Se stai creando un **[!UICONTROL Ottimizzazione personalizzata]** Modello di IA, seleziona i tipi di pubblico da utilizzare per addestrare il modello di IA.
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >Puoi selezionare fino a 5 segmenti.
+   >Puoi selezionare fino a 5 tipi di pubblico.
 
 1. Salva e attiva il modello di intelligenza artificiale.
 

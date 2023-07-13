@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Per massimizzare il vantaggio dell’utilizzo della personalizzazione automatica
 
 * **Le offerte sono sufficientemente diverse, cosicché gli utenti avranno preferenze diverse tra le offerte considerate**. Se le offerte sono troppo simili, un modello risultante avrà un impatto minore in quanto le risposte sono apparentemente casuali.
 Ad esempio, se una banca dispone di due offerte di carte di credito con l’unica differenza rappresentata dal colore, potrebbe non avere importanza quale carta sia consigliata, ma se ogni carta dispone di termini diversi, ciò fornisce una motivazione per spiegare perché alcuni clienti ne sceglierebbero una e fornisce una differenza sufficiente tra le offerte per costruire un modello più incisivo.
-* **La composizione del traffico utente è stabile**. Se la composizione del traffico dell’utente cambia drasticamente durante l’apprendimento e la previsione del modello, le prestazioni del modello potrebbero peggiorare. Ad esempio, supponiamo che nella fase di apprendimento del modello siano disponibili solo i dati per gli utenti del segmento A, ma che il modello addestrato venga utilizzato per generare previsioni per gli utenti del segmento B, con conseguente possibile impatto sulle prestazioni del modello.
+* **La composizione del traffico utente è stabile**. Se la composizione del traffico dell’utente cambia drasticamente durante l’apprendimento e la previsione del modello, le prestazioni del modello potrebbero peggiorare. Ad esempio, supponiamo che nella fase di apprendimento del modello siano disponibili solo i dati per gli utenti nel pubblico A, ma che il modello addestrato venga utilizzato per generare previsioni per gli utenti nel pubblico B, e che le prestazioni del modello possano esserne influenzate.
 * **Le prestazioni delle offerte non cambiano drasticamente in un breve periodo di tempo** con l’aggiornamento settimanale di questo modello, le modifiche alle prestazioni vengono veicolate con l’aggiornamento del modello. Ad esempio, un prodotto era molto popolare in precedenza, ma un rapporto pubblico identifica il prodotto come dannoso per la nostra salute, e questo prodotto diventa impopolare estremamente veloce. In questo scenario, il modello potrebbe continuare a prevedere questo prodotto fino a quando il modello non si aggiorna con le modifiche nel comportamento dell’utente.
 
 ## Come funziona {#how}
@@ -37,8 +37,8 @@ Esistono 3 tipi di funzionalità:
 
 | Tipi di funzionalità | Come aggiungere feature ai modelli |
 |--------------|----------------------------|
-| Segmenti | È possibile aggiungere 0-50 segmenti come funzioni durante la creazione del modello di IA per la classificazione |
 | Oggetti decisioning (placementID, activityID, decisionScopeID) | Parte del feedback di gestione delle decisioni Eventi di esperienza inviati ad AEP |
+| Tipi di pubblico | È possibile aggiungere 0-50 tipi di pubblico come funzioni durante la creazione del modello di IA per la classificazione |
 | Dati contestuali | Parte del feedback decisionale Eventi di esperienza inviati ad AEP. Dati contestuali disponibili da aggiungere allo schema: Dettagli Commerce, Dettagli canale, Dettagli applicazione, Dettagli web, Dettagli ambiente, Dettagli dispositivo, placeContext |
 
 Il modello prevede due fasi:

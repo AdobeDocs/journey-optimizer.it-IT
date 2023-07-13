@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 23%
+source-wordcount: '894'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:
 
-1. Inizia il tuo percorso con un [Evento](general-events.md) o un’attività [Leggi segmento](read-segment.md).
+1. Iniziare il percorso con un [Evento](general-events.md) o un [Read Audience](read-audience.md) attività.
 
 1. Dalla sezione **Azioni** nella palette, trascina e rilascia una **email**, un **In-app**, un **SMS** o un **Push** attività nell’area di lavoro.
 
@@ -115,6 +115,10 @@ Il modello varia a seconda che si parli di punteggio o di formazione. La formazi
 * Punteggio: applicazione di un punteggio ai singoli profili in base al modello addestrato
 
 Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa riferimento al momento dell’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
+
+>[!CAUTION]
+>
+>Questa funzione non è compatibile con la modalità burst.
 
 ### Attivare l’ottimizzazione dell’ora di invio{#activate-send-time-optimization}
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 13%
+source-wordcount: '322'
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 1. Denomina la regola e fornisci una descrizione, quindi configura la regola in base alle tue esigenze.
 
-   Per eseguire questa operazione, il **Generatore di segmenti** è disponibile per aiutarti a creare le condizioni della regola. [Ulteriori informazioni](../../segment/about-segments.md)
+   A tale scopo, il Adobe Experience Platform **Generatore di segmenti** è disponibile per aiutarti a creare le condizioni della regola. [Scopri come creare le definizioni dei segmenti](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -41,9 +41,9 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con **[!UICONTROL Segmentazione]** servizio. Ad esempio, il **[!UICONTROL Segmenti]** non è disponibile. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../segment/about-segments.md) La documentazione di è ancora valida per creare le regole di decisioni per le offerte. Per ulteriori informazioni, consulta [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
+   >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con **[!UICONTROL Segmentazione]** servizio. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../audience/creating-a-segment-definition.md) La documentazione di è ancora valida per creare le regole di decisioni per le offerte. Per ulteriori informazioni, consulta [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
 
-1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il **[!UICONTROL Proprietà segmento]** visualizza informazioni sui profili stimati appartenenti al segmento. Clic **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
+1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il **[!UICONTROL Proprietà del pubblico]** Questo riquadro mostra informazioni sui profili stimati appartenenti al pubblico. Clic **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 

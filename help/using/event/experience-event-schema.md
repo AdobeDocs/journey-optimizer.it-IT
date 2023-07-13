@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: schemi, XDM, piattaforma, streaming, acquisizione, percorso
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 4%
@@ -32,33 +32,33 @@ Qualsiasi schema XDM che verrà utilizzato per [!DNL Journey Optimizer] gli even
 
 * Lo schema deve essere della classe ExperienceEvent XDM.
 
-   ![](assets/schema2.png)
+  ![](assets/schema2.png)
 
 * Per gli eventi generati dal sistema, lo schema deve includere il gruppo di campi ID evento di orchestrazione. [!DNL Journey Optimizer] utilizza questo campo per identificare gli eventi utilizzati nei percorsi.
 
-   ![](assets/schema3.png)
+  ![](assets/schema3.png)
 
 * Dichiara un campo di identità per identificare i singoli profili nell’evento. Se non viene specificata alcuna identità, è possibile utilizzare una mappa di identità. Queste operazioni non sono consigliate.
 
-   ![](assets/schema4.png)
+  ![](assets/schema4.png)
 
 * Se desideri che questi dati siano disponibili per la ricerca in un secondo momento in un Percorso, contrassegna lo schema e il set di dati per il profilo.
 
-   ![](assets/schema5.png)
+  ![](assets/schema5.png)
 
-   ![](assets/schema6.png)
+  ![](assets/schema6.png)
 
 * Puoi includere campi dati per acquisire altri dati contestuali che desideri includere con l’evento, ad esempio informazioni sull’utente, sul dispositivo da cui è stato generato l’evento, sulla posizione o su qualsiasi altra circostanza significativa correlata all’evento.
 
-   ![](assets/schema7.png)
+  ![](assets/schema7.png)
 
-   ![](assets/schema8.png)
+  ![](assets/schema8.png)
 
 ## Sfruttare le relazioni tra schemi{#leverage_schema_relationships}
 
 Adobe Experience Platform consente di definire relazioni tra schemi per utilizzare un set di dati come tabella di ricerca per un altro.
 
-Supponiamo che il modello dati del brand abbia uno schema per l’acquisizione degli acquisti. Inoltre, disponi di uno schema per il catalogo dei prodotti. Puoi acquisire l’ID prodotto nello schema di acquisto e utilizzare una relazione per cercare dettagli di prodotto più completi dal catalogo dei prodotti. Questo consente di creare un segmento per tutti i clienti che hanno acquistato un notebook, ad esempio, senza dover elencare esplicitamente tutti gli ID dei notebook o acquisire ogni singolo dettaglio di prodotto nei sistemi transazionali.
+Supponiamo che il modello dati del brand abbia uno schema per l’acquisizione degli acquisti. Inoltre, disponi di uno schema per il catalogo dei prodotti. Puoi acquisire l’ID prodotto nello schema di acquisto e utilizzare una relazione per cercare dettagli di prodotto più completi dal catalogo dei prodotti. Questo consente di creare un pubblico per tutti i clienti che hanno acquistato un notebook, ad esempio, senza dover elencare esplicitamente tutti gli ID dei notebook o acquisire ogni singolo dettaglio di prodotto nei sistemi transazionali.
 
 Per definire una relazione, è necessario disporre di un campo dedicato nello schema di origine, in questo caso il campo ID prodotto nello schema di acquisto. Questo campo deve fare riferimento al campo ID prodotto nello schema di destinazione. Le tabelle di origine e di destinazione devono essere abilitate per i profili e lo schema di destinazione deve avere quel campo comune definito come identità primaria.
 

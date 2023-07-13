@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1522'
 ht-degree: 11%
@@ -25,7 +25,7 @@ ht-degree: 11%
 
 Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questa modalità ti consente di eseguire un test del percorso e identificare i problemi utilizzando i profili di test.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../segment/creating-test-profiles.md).
+Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -43,17 +43,17 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Vedi [questa sezione](../building-journeys/reaction-events.md).
+   >Quando in un percorso viene utilizzato un evento di reazione con timeout, il valore predefinito e minimo del tempo di attesa è di 40 secondi. Consulta [questa sezione](../building-journeys/reaction-events.md).
 
 1. Utilizza il **[!UICONTROL Attivare un evento]** per configurare e inviare eventi al percorso.
 
    ![](assets/journeyuctest1.png)
 
-1. Configura i diversi campi previsti. In **Identificatore profilo** , immetti il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Vedi [questa sezione](#firing_events).
+1. Configura i diversi campi previsti. In **Identificatore profilo** , immetti il valore del campo utilizzato per identificare il profilo di test. Ad esempio, può essere l’indirizzo e-mail. Assicurati di inviare eventi relativi ai profili di test. Consulta [questa sezione](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Dopo aver ricevuto gli eventi, fai clic su **[!UICONTROL Mostra registro]** per visualizzare i risultati del test e verificarli. Vedi [questa sezione](#viewing_logs).
+1. Dopo aver ricevuto gli eventi, fai clic su **[!UICONTROL Mostra registro]** per visualizzare i risultati del test e verificarli. Consulta [questa sezione](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
@@ -62,7 +62,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 ## Note importanti {#important_notes}
 
 * In modalità di test, puoi attivare gli eventi utilizzando l’interfaccia.
-* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Fai riferimento a questa [sezione](../segment/creating-test-profiles.md).
+* Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Consulta questa [sezione](../audience/creating-test-profiles.md).
 * La modalità di test è disponibile solo nei percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere Adobe Experience Platform.
 * Il numero massimo di profili di test che può entrare in un percorso durante una sessione di test è 100.
 * Quando disattivi la modalità di test, i percorsi vengono svuotati da tutte le persone che vi sono entrate in passato o che vi si trovano attualmente. Cancella anche la segnalazione.
@@ -114,7 +114,7 @@ Quando si attiva un evento, il **Configurazione evento** La schermata ti consent
 
 ## Modalità di test per gli eventi di business {#test-business}
 
-Quando si utilizza una [evento di business](../event/about-events.md), utilizza la modalità di test per attivare un singolo ingresso del profilo di test nel percorso, simulare l’evento e passare l’ID profilo corretto. Devi trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. Non è possibile utilizzare **[!UICONTROL Fino a 100 profili alla volta]** per altri percorsi basati su segmenti. In modalità di test, non è disponibile la modalità &quot;Visualizzazione codice&quot; per i percorsi basata su eventi di business.
+Quando si utilizza una [evento di business](../event/about-events.md), utilizza la modalità di test per attivare un singolo ingresso del profilo di test nel percorso, simulare l’evento e passare l’ID profilo corretto. Devi trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. Non è possibile utilizzare **[!UICONTROL Fino a 100 profili alla volta]** per altri percorsi basati sul pubblico. In modalità di test, non è disponibile la modalità &quot;Visualizzazione codice&quot; per i percorsi basata su eventi di business.
 
 Si noti che quando si attiva per la prima volta un evento business, non è possibile modificare la definizione dell&#39;evento business nella stessa sessione di test. È possibile fare in modo che lo stesso individuo o un individuo diverso entri nel percorso passando lo stesso identificatore o un altro identificatore. Se si desidera modificare i parametri degli eventi business, è necessario interrompere e riavviare la modalità di test.
 

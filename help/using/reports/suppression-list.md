@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 8%
@@ -55,7 +55,7 @@ Per ogni indirizzo, il motivo di base dell’eliminazione e la categoria di elim
 
 >[!NOTE]
 >
->I profili con **[!UICONTROL Soppresso]** Lo stato è escluso durante il processo di invio del messaggio. Pertanto, mentre il **Rapporti percorso** mostra questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), il **Report e-mail** non li includerà nella **[!UICONTROL Inviato]** metriche poiché vengono escluse prima dell’invio e-mail.
+>I profili con **[!UICONTROL Soppresso]** Lo stato è escluso durante il processo di invio del messaggio. Pertanto, mentre il **Rapporti percorso** mostra questi profili come spostati nel percorso ([Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journeys-message.md)), il **Report e-mail** non li includerà nella **[!UICONTROL Inviato]** metriche poiché vengono escluse prima dell’invio e-mail.
 >
 >Ulteriori informazioni su [Rapporto live](../reports/live-report.md) e [Rapporto globale](../reports/global-report.md). Per scoprire il motivo di tutti i casi di esclusione, puoi utilizzare [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 9%
@@ -58,8 +58,8 @@ Nel percorso B, il primo evento viene attivato internamente tramite **[!UICONTRO
 
 * Il **[!UICONTROL Salta]** L’attività è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
 * È possibile passare solo a un percorso che utilizza lo stesso spazio dei nomi del percorso di origine.
-* Non è possibile passare a un percorso che inizia con **Qualificazione del segmento** evento o **Leggi segmento**.
-* Non è possibile avere **[!UICONTROL Salta]** attività e un **Qualificazione del segmento** evento o **Leggi segmento** nello stesso percorso.
+* Non è possibile passare a un percorso che inizia con **Qualificazione del pubblico** evento o **Read Audience**.
+* Non è possibile avere **[!UICONTROL Salta]** attività e un **Qualificazione del pubblico** evento o **Read Audience** nello stesso percorso.
 * Puoi includere quanti più **[!UICONTROL Salta]** attività necessarie in un percorso. Dopo un **[!UICONTROL Salta]**, puoi aggiungere qualsiasi attività necessaria.
 * Puoi avere tutti i livelli di salto necessari. Il Percorso A, ad esempio, passa al percorso B, che passa al percorso C e così via.
 * Il percorso target può includere anche **[!UICONTROL Salta]** attività in base alle esigenze.
@@ -81,7 +81,7 @@ Nel percorso B, il primo evento viene attivato internamente tramite **[!UICONTRO
    ![](assets/jump2.png)
 
 1. Fai clic all’interno del **Percorso di destinazione** campo.
-L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. Percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un **Qualificazione del segmento** evento non sono disponibili. Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
+L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. Percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un **Qualificazione del pubblico** evento non sono disponibili. Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
 
    ![](assets/jump3.png)
 

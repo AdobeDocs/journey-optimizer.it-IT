@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 18%
@@ -59,15 +59,15 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 
 | Nome campo | Tipo | Descrizione |
 |---|---|------------|
-| ID | Stringa | Identificatore del processo di esportazione del segmento attivato |
-| stato | Stringa | Lo stato del processo di esportazione del segmento: in coda, avviato, completato |
-| exportCountTotal | Intero | Il valore massimo possibile del processo di esportazione del segmento |
-| exportCountRealized | Intero | Numero effettivo di segmenti esportati tramite il processo |
-| exportCountFailed | Intero | Numero di segmenti non riusciti durante l’esportazione nel processo |
-| exportSegmentID | Stringa | Identificatore del segmento da esportare |
+| ID | Stringa | Identificatore del processo di esportazione del pubblico attivato |
+| stato | Stringa | Stato del processo di esportazione del pubblico: in coda, avviato, completato |
+| exportCountTotal | Intero | Il valore massimo possibile del processo di esportazione del pubblico |
+| exportCountRealized | Intero | Numero effettivo di tipi di pubblico esportati tramite il processo |
+| exportCountFailed | Intero | Numero di tipi di pubblico non riusciti durante l’esportazione tramite il processo |
+| exportSegmentID | Stringa | Identificatore del pubblico da esportare |
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore di evento informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
 ## stepEvents {#stepevents-field}
 
-Questa categoria contiene i campi dell’evento del passaggio originale. Fai riferimento a questa [sezione](../reports/sharing-legacy-fields.md).
+Questa categoria contiene i campi dell’evento del passaggio originale. Consulta questa [sezione](../reports/sharing-legacy-fields.md).

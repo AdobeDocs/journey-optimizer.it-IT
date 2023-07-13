@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -56,9 +56,9 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
    ![](assets/sms_create_4.png)
 
-1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei segmenti di Adobe Experience Platform disponibili. [Maggiori informazioni](../segment/about-segments.md).
+1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Maggiori informazioni](../audience/about-audiences.md).
 
-1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato. [Maggiori informazioni](../event/about-creating.md#select-the-namespace).
+1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Maggiori informazioni](../event/about-creating.md#select-the-namespace).
 
    ![](assets/sms_create_5.png)
 
@@ -105,7 +105,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
 1. In `originalUrl` , incollare l&#39;URL che si desidera ridurre.
 
-1. Clic **[!UICONTROL Salva]** e controlla il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
+1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
 
    ![](assets/sms-content-preview.png)
 

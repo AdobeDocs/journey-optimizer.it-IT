@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 9%
@@ -38,6 +38,7 @@ Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test
    ![](assets/push_preview_3.png)
 
 ## Convalidare la notifica push {#push-validate}
+
 
 È necessario controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
 

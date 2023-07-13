@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: offerte, decisione, e-mail, personalizzazione, decisione
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 1%
@@ -77,7 +77,7 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
 >[!NOTE]
 >
->Per poter visualizzare l’anteprima dei messaggi, è necessario disporre di profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
+>Per poter visualizzare l’anteprima dei messaggi, è necessario disporre di profili di test. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
 1. Seleziona i profili di test da utilizzare per visualizzare in anteprima l’offerta:
 
@@ -85,7 +85,7 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
       >[!NOTE]
       >
-      >In questo esempio utilizziamo **E-mail** spazio dei nomi. Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform [in questa sezione](../segment/get-started-identity.md).
+      >In questo esempio utilizziamo **E-mail** spazio dei nomi. Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform [in questa sezione](../audience/get-started-identity.md).
 
    1. In **[!UICONTROL Valore identità]** , immettere il valore per identificare il profilo di test. In questo esempio, inserisci l’indirizzo e-mail di un profilo di test.
 
@@ -94,7 +94,6 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
    1. Aggiungi altri profili in modo da poter testare diverse varianti del messaggio a seconda dei dati del profilo.
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. Fai clic su **[!UICONTROL Anteprima]** per verificare il messaggio, quindi seleziona un profilo di test. Viene visualizzata l’offerta corrispondente al profilo selezionato (una donna).
 

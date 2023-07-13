@@ -5,10 +5,10 @@ title: Guida introduttiva di Journey Optimizer per gli addetti al marketing
 description: In qualità di professionista dei percorsi, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ Come **addetto al marketing** o **professionista dei percorsi**, sei responsabil
 
 Per configurare il primo percorso, aggiungere offerte e risorse e inviare i messaggi, consulta le sezioni seguenti:
 
-1. **Creare segmenti**. In Journey Optimizer puoi creare segmenti di pubblico direttamente dal menu **Segmenti** e utilizzarli quindi nei tuoi percorsi.  Per ulteriori informazioni sui segmenti, [visita questa pagina](../../segment/about-segments.md). Scopri come creare i segmenti [in questo esempio](../../segment/creating-a-segment.md).
+1. **Creare tipi di pubblico**. Journey Optimizer consente di creare tipi di pubblico tramite le definizioni dei segmenti direttamente dal **Tipi di pubblico** e sfruttarli nei percorsi.  Ulteriori informazioni sui tipi di pubblico [in questa pagina](../../audience/about-audiences.md). Scopri come creare le definizioni dei segmenti [in questo esempio](../../audience/creating-a-segment-definition.md).
 
 1. **Aggiungere personalizzazione e contenuti dinamici**. Sfrutta le funzionalità di personalizzazione e per contenuti dinamici di Journey Optimizer per adattare il messaggio al tuo pubblico. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md) e [contenuti dinamici](../../personalization/get-started-dynamic-content.md).
 
@@ -34,13 +34,13 @@ Per configurare il primo percorso, aggiungere offerte e risorse e inviare i mess
 
 1. **Progettare i percorsi cliente** per offrire esperienze personalizzate e contestuali. [!DNL Journey Optimizer] consente di creare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
-   * Invia in tempo reale una **consegna unitaria** attivata quando viene ricevuto un evento, oppure **in batch** utilizzando i segmenti di Adobe Experience Platform.
+   * Invia in tempo reale **consegna unitaria** attivato quando viene ricevuto un evento, oppure **in batch** utilizzo dei tipi di pubblico di Adobe Experience Platform.
 
    * Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
 
    * Utilizza le **azioni del canale integrate** (e-mail, SMS, push) per inviare messaggi progettati in [!DNL Journey Optimizer] oppure, se utilizzi un sistema di terze parti per l’invio dei messaggi, crea **azioni personalizzate**.
 
-   * Con il **designer percorsi**, genera i tuoi casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività di lettura segmento, aggiungi delle condizioni e invia messaggi personalizzati.
+   * Con il **Designer percorso**, genera i tuoi casi d’uso a più passaggi: trascina facilmente un evento di partecipazione o un’attività di lettura del pubblico, aggiungi condizioni e invia messaggi personalizzati.
 
    ![](../assets/journey-design.png)
 

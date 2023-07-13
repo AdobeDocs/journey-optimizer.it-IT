@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ Inoltre, i parametri delle azioni personalizzate hanno un formato previsto (ad e
 
 In Journey Optimizer, puoi applicare la governance dei dati e i criteri di consenso alle azioni personalizzate per impedire l’esportazione di campi specifici in sistemi di terze parti o escludere clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS. Per ulteriori informazioni, consulta le pagine seguenti:
 
-* [Governance dei dati](../action/action-privacy.md).
-* [Consenso](../action/action-privacy.md).
+* [Governance dei dati](../action/action.md).
+* [Consenso](../action/action.md).
 
 
 ## Passaggi di configurazione {#configuration-steps}

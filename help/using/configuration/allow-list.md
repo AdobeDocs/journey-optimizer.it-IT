@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
 ht-degree: 14%
@@ -201,7 +201,7 @@ Quando l’elenco Consentiti è [attivo](#enable-allow-list), si applica la segu
 
 >[!NOTE]
 >
->I profili con **[!UICONTROL Non consentito]** Lo stato è escluso durante il processo di invio del messaggio. Pertanto, mentre il **Rapporti percorso** mostra questi profili come spostati nel percorso ([Leggi segmento](../building-journeys/read-segment.md) e [attività messaggio](../building-journeys/journeys-message.md)), il **Report e-mail** non li includerà nella **[!UICONTROL Inviato]** metriche poiché vengono escluse prima dell’invio e-mail.
+>I profili con **[!UICONTROL Non consentito]** Lo stato è escluso durante il processo di invio del messaggio. Pertanto, mentre il **Rapporti percorso** mostra questi profili come spostati nel percorso ([Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journeys-message.md)), il **Report e-mail** non li includerà nella **[!UICONTROL Inviato]** metriche poiché vengono escluse prima dell’invio e-mail.
 >
 >Ulteriori informazioni su [Rapporto live](../reports/live-report.md) e [Rapporto globale](../reports/global-report.md).
 

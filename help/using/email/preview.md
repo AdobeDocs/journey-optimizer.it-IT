@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: anteprima, contenuto, e-mail, bozza, test, profilo
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 11%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Per rilevare eventuali errori nel contenuto delle e-mail o nelle impostazioni di
 >
 >Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test.
 >
->Scopri come creare profili di test in [questa pagina](../segment/creating-test-profiles.md).
+>Scopri come creare profili di test in [questa pagina](../audience/creating-test-profiles.md).
 
 Per verificare il contenuto delle e-mail, è necessario:
 
@@ -52,7 +52,7 @@ Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=it#email-rendering" text="Rendering delle e-mail"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=it#preview-email" text="Anteprima"
 
-Utilizzare [Profili di test](../segment/creating-test-profiles.md) per eseguire il targeting di destinatari aggiuntivi che non corrispondono ai criteri di targeting definiti.
+Utilizzare [Profili di test](../audience/creating-test-profiles.md) per eseguire il targeting di destinatari aggiuntivi che non corrispondono ai criteri di targeting definiti.
 
 Per selezionare i profili di test, effettua le seguenti operazioni:
 
@@ -68,7 +68,7 @@ Per selezionare i profili di test, effettua le seguenti operazioni:
 
    ![](assets/previewselect-namespace.png)
 
-   Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform [in questa sezione](../segment/get-started-identity.md).
+   Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform [in questa sezione](../audience/get-started-identity.md).
 
    Nell’esempio seguente utilizzeremo **E-mail** spazio dei nomi.
 
@@ -90,7 +90,7 @@ Per selezionare i profili di test, effettua le seguenti operazioni:
 
 Una volta [profili di test](#select-test-profiles) , puoi visualizzare in anteprima il contenuto dell’e-mail. Effettua le seguenti operazioni:
 
-1. In [Modifica contenuto](create-email.md#define-email-content) o in E-mail Designer, fai clic sul pulsante **[!UICONTROL Simula contenuto]** pulsante.
+1. Nella schermata [Modifica contenuto](create-email.md#define-email-content) o in E-mail Designer, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
 1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
 
@@ -159,11 +159,11 @@ Per accedere alle funzionalità di rendering di e-mail, devi:
 * Avere un account Litmus
 * [Selezionare i profili di test](#select-test-profiles)
 
-Quindi, segui i passaggi seguenti:
+Quindi, segui i passaggi indicati di seguito:
 
-1. In [Modifica contenuto](create-email.md#define-email-content) o in E-mail Designer, fai clic sul pulsante **[!UICONTROL Simula contenuto]** pulsante.
+1. Nella schermata [Modifica contenuto](create-email.md#define-email-content) o in E-mail Designer, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
-1. Seleziona la **[!UICONTROL Rendering e-mail]** pulsante.
+1. Seleziona il pulsante **[!UICONTROL Rendering dell’e-mail]**.
 
    ![](assets/email-rendering-button.png)
 
@@ -177,7 +177,7 @@ Quindi, segui i passaggi seguenti:
 
 1. Fai clic su **Esegui test** per generare anteprime e-mail.
 
-1. Controlla i contenuti delle e-mail nei client desktop, mobili e basati su Web più diffusi.
+1. Verifica il contenuto delle e-mail nei client desktop, mobili e basati su web più diffusi.
 
    ![](assets/email-rendering-previews.png)
 

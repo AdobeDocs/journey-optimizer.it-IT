@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 A differenza degli eventi unitari, gli eventi di business non sono collegati a un profilo specifico. Il tipo di ID evento è sempre basato su regole. Ulteriori informazioni sugli eventi di business in [questa sezione](../event/about-events.md).
 
-I percorsi basati su segmenti di lettura possono essere attivati in un’unica soluzione, da un modulo di pianificazione su base regolare o da un evento di business, quando si verifica l’evento.
+I percorsi basati sul pubblico di lettura possono essere attivati in un’unica soluzione, da un modulo di pianificazione su base regolare o da un evento di business, quando si verifica l’evento.
 
 Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&quot;, &quot;il prezzo delle azioni di un&#39;azienda raggiunge un certo valore&quot;, ecc.
 
@@ -39,12 +39,12 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 * Lo schema evento deve contenere un&#39;identità primaria non basata su persone. Durante la definizione dell’evento è necessario selezionare i campi seguenti: `_id` e `timestamp`
 * Gli eventi di business possono essere eliminati solo come primo passaggio di un percorso.
 * Quando si rilascia un evento business come primo passaggio di un percorso, il tipo di scheduler del percorso sarà &quot;evento business&quot;.
-* Solo un’attività di lettura segmento può essere rilasciata dopo un evento business. Viene aggiunto automaticamente come passaggio successivo.
+* Dopo un evento di business è possibile eliminare solo un’attività di lettura del pubblico. Viene aggiunto automaticamente come passaggio successivo.
 * Per consentire più esecuzioni di eventi business, attiva l’opzione corrispondente nella **[!UICONTROL Esecuzione]** della sezione delle proprietà del percorso.
-* Dopo l’attivazione di un evento business, si verifica un ritardo nell’esportazione del segmento da 15 minuti a un’ora.
-* Durante il test di un evento di business, è necessario trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. Inoltre, quando esegui il test di un percorso basato su un evento business, puoi attivare solo l’ingresso di un singolo profilo. Vedi [questa sezione](../building-journeys/testing-the-journey.md#test-business). In modalità di test non è disponibile la modalità &quot;Visualizzazione codice&quot;.
+* Dopo l’attivazione di un evento di business, si verifica un ritardo nell’esportazione del pubblico da 15 minuti a un’ora.
+* Durante il test di un evento di business, è necessario trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. Inoltre, quando esegui il test di un percorso basato su un evento business, puoi attivare solo l’ingresso di un singolo profilo. Consulta [questa sezione](../building-journeys/testing-the-journey.md#test-business). In modalità di test non è disponibile la modalità &quot;Visualizzazione codice&quot;.
 * Cosa succederà alle persone che si trovano attualmente nel percorso se arriva un nuovo evento di business? Si comporta come quando gli individui sono ancora in un percorso ricorrente quando si verifica una nuova ricorrenza. Il loro percorso è terminato. Di conseguenza, gli esperti di marketing devono prestare attenzione ad evitare di creare percorsi troppo lunghi, qualora si aspettino eventi di business frequenti.
-* Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione dei segmenti.
+* Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
 
 ## Più eventi di business {#multiple-business-events}
 
@@ -54,9 +54,9 @@ Di seguito sono riportate alcune note importanti che vengono applicate quando si
 
 Gli eventi di business seguono le regole di rientro nello stesso modo degli eventi unitari. Se un percorso consente il rientro, l’evento di business successivo viene elaborato.
 
-**Quali sono i guardrail per evitare il sovraccarico dei segmenti materializzati?**
+**Quali sono le protezioni per evitare il sovraccarico dei tipi di pubblico materializzati?**
 
-Nel caso di eventi di business on-shot, per un determinato percorso, i dati inviati dal primo processo evento vengono riutilizzati durante un intervallo di tempo di 1 ora. Per i percorsi programmati, non c&#39;è guardrail. Ulteriori informazioni sui segmenti in [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+Nel caso di eventi di business on-shot, per un determinato percorso, i dati inviati dal primo processo evento vengono riutilizzati durante un intervallo di tempo di 1 ora. Per i percorsi programmati, non c&#39;è guardrail. Ulteriori informazioni sui tipi di pubblico in [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Introduzione agli eventi di business {#gs-business-events}
 
@@ -84,7 +84,7 @@ Di seguito sono riportati i primi passaggi per configurare un evento di business
 
 1. Il numero di percorsi che utilizzano questo evento viene visualizzato nel **[!UICONTROL Utilizzato in]** campo. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l’elenco dei percorsi che utilizzano questo evento.
 
-1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento (o payload) che i percorsi prevedono di ricevere. Queste informazioni verranno utilizzate successivamente nel percorso. Vedi [questa sezione](../event/about-creating-business.md#define-the-payload-fields).
+1. Definisci i campi dello schema e del payload: in questo punto è possibile selezionare le informazioni sull’evento (o payload) che i percorsi prevedono di ricevere. Queste informazioni verranno utilizzate successivamente nel percorso. Consulta [questa sezione](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1961'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ I metodi statistici ci danno un modo per formalizzare questa incertezza. Uno dei
 
 +++Forma nuove ipotesi ed esegui test in modo continuo
 
-Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento. Al contrario, segui gli esperimenti formulando nuove ipotesi ed eseguendo nuovi test con modifiche diverse, su segmenti diversi ed esaminando l’impatto sulle diverse metriche.
+Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento. Piuttosto, segui gli esperimenti formulando nuove ipotesi ed eseguendo nuovi test con modifiche diverse, su tipi di pubblico diversi ed esaminando l’impatto sulle diverse metriche.
 +++
 
 ## Interpreta i risultati degli esperimenti {#interpret-results}
@@ -161,21 +161,21 @@ Dopo aver eseguito l’esperimento, ci sono diverse azioni di follow-up possibil
 
 * **Distribuire idee vincenti**
 
-   Con un risultato non ambiguo, puoi distribuire questa idea vincente, sia trasmettendo il trattamento più performante a tutti i clienti o creando nuove campagne in cui viene replicata la struttura del trattamento con le prestazioni migliori.
-   </br>Si noti che in un ambiente dinamico, ciò che funziona bene una volta, potrebbe non funzionare bene in un secondo momento.
+  Con un risultato non ambiguo, puoi distribuire questa idea vincente, sia trasmettendo il trattamento più performante a tutti i clienti o creando nuove campagne in cui viene replicata la struttura del trattamento con le prestazioni migliori.
+  </br>Si noti che in un ambiente dinamico, ciò che funziona bene una volta, potrebbe non funzionare bene in un secondo momento.
 
 * **Eseguire test di follow-up**
 
-   A volte i risultati degli esperimenti possono essere inconcludenti, sia perché non vi erano abbastanza profili inclusi per rilevare eventuali differenze nei trattamenti sia perché i trattamenti definiti non erano sufficientemente diversi.
+  A volte i risultati degli esperimenti possono essere inconcludenti, sia perché non vi erano abbastanza profili inclusi per rilevare eventuali differenze nei trattamenti sia perché i trattamenti definiti non erano sufficientemente diversi.
 
-   Se l’ipotesi che stavi testando è ancora rilevante, eseguire un test di follow-up su un pubblico più ampio o diverso o modificare i trattamenti in modo che ci siano differenze più chiare potrebbe essere l’azione di follow-up migliore.
+  Se l’ipotesi che stavi testando è ancora rilevante, eseguire un test di follow-up su un pubblico più ampio o diverso o modificare i trattamenti in modo che ci siano differenze più chiare potrebbe essere l’azione di follow-up migliore.
 
 * **Eseguire analisi più approfondite**
 
-   Il trattamento che funziona bene per un pubblico può a volte non essere il miglior trattamento per un altro pubblico. Effettuare analisi più approfondite sul modo in cui i trattamenti si comportano per segmenti diversi aiuta a generare idee per nuovi test.
+  Il trattamento che funziona bene per un pubblico può a volte non essere il miglior trattamento per un altro pubblico. Eseguire analisi più approfondite sul comportamento dei trattamenti per diversi tipi di pubblico consente di generare idee per nuovi test.
 
-   Allo stesso modo, lo studio delle prestazioni di ogni trattamento con diverse metriche può anche dare una visione più completa degli esperimenti.
+  Allo stesso modo, lo studio delle prestazioni di ogni trattamento con diverse metriche può anche dare una visione più completa degli esperimenti.
 
-   >[!CAUTION]
-   >
-   >Ulteriori analisi indicano una maggiore probabilità di rilevare un effetto spurio o falso positivo.
+  >[!CAUTION]
+  >
+  >Ulteriori analisi indicano una maggiore probabilità di rilevare un effetto spurio o falso positivo.

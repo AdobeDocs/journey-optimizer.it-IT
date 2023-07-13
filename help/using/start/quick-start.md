@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 72%
 
 ---
 
 # Guida rapida {#cjm-quick-start}
 
-Con [!DNL Adobe Journey Optimizer] puoi importare contenuti di messaggi esistenti o progettare nuovi contenuti, personalizzare i messaggi con i dati del profilo del cliente, creare eventi per attivare i messaggi, definire segmenti e perfezionare i tipi di pubblico, creare e aggiungere offerte, e accedere a un set completo di strumenti di reporting e monitoraggio per misurare l’impatto dei messaggi e dei percorsi dei clienti.
+Con [!DNL Adobe Journey Optimizer], puoi importare contenuti di messaggi esistenti o progettare nuovi contenuti, personalizzare i messaggi con i dati del profilo del cliente, creare eventi per attivare i messaggi, definire tipi di pubblico, creare e aggiungere offerte e accedere a un set completo di strumenti di reporting e monitoraggio per misurare l’impatto dei messaggi e dei percorsi di clienti.
 
 In base all’organizzazione, puoi definire diversi tipi di utenti e concedere loro l’accesso a determinate funzionalità in base alle loro autorizzazioni.
 
@@ -27,12 +27,12 @@ Per scoprire e apprendere la potenza di Adobe Journey Optimizer con istruzioni d
 
 * Sono un **amministratore**
 
-   Prepara l’ambiente, concedi gli accessi e configura le impostazioni. [Ulteriori informazioni](path/administrator.md)
+  Prepara l’ambiente, concedi gli accessi e configura le impostazioni. [Ulteriori informazioni](path/administrator.md)
 
 * Sono un **data engineer**
 
-   Importa i profili, crea tipi di pubblico, schemi e set di dati. [Ulteriori informazioni](path/data-engineer.md)
+  Importa i profili, crea tipi di pubblico, schemi e set di dati. [Ulteriori informazioni](path/data-engineer.md)
 
 * Sono un **addetto marketing**
 
-   Progetta i messaggi, aggiungi offerte e risorse e crea i percorsi cliente. [Ulteriori informazioni](path/marketer.md)
+  Progetta i messaggi, aggiungi offerte e risorse e crea i percorsi cliente. [Ulteriori informazioni](path/marketer.md)

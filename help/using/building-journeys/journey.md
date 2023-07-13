@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: percorsi, discovery, get-start
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 24%
+source-wordcount: '588'
+ht-degree: 21%
 
 ---
 
@@ -22,13 +22,13 @@ Utilizzare [!DNL Journey Optimizer] per generare casi di utilizzo di orchestrazi
 
 Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
-* Invia in tempo reale una **consegna unitaria** attivata quando viene ricevuto un evento, oppure **in batch** utilizzando i segmenti di Adobe Experience Platform.
+* Invia in tempo reale **consegna unitaria** attivato quando viene ricevuto un evento, oppure **in batch** utilizzo dei tipi di pubblico di Adobe Experience Platform.
 
 * Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
 
 * Utilizza il **azioni incorporate** per inviare messaggi progettati in [!DNL Journey Optimizer] o creare **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
 
-* Con il **designer percorsi**, genera i tuoi casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività di lettura segmento, aggiungi delle condizioni e invia messaggi personalizzati.
+* Con il **Designer percorso**, genera i tuoi casi d’uso a più passaggi: trascina facilmente un evento di partecipazione o un’attività di lettura del pubblico, aggiungi condizioni e invia messaggi personalizzati.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Adobe Journey Optimizer include un’area di lavoro di orchestrazione omnicanale
 
 Scopri come iniziare e creare il primo percorso in [questa pagina](journey-gs.md).
 
-Il designer di percorsi omni-channel ti assiste nella creazione di percorsi con più passaggi, rivolgendoti in modo specifico al pubblico e incorporando aggiornamenti basati sulle interazioni in tempo reale tra clienti o aziende. Consente inoltre di creare messaggi omnicanale tramite un’interfaccia intuitiva con funzionalità di trascinamento della selezione.
+La finestra di progettazione di percorsi omnichannel consente di creare percorsi con più passaggi, con tipi di pubblico mirati, aggiornamenti basati su interazioni cliente o business in tempo reale e messaggi omnichannel tramite un’interfaccia intuitiva basata su trascinamento.
 
 ![](assets/journey38.png)
 
@@ -82,7 +82,7 @@ Quando si cerca un percorso, le versioni più recenti vengono visualizzate nella
 
 >[!NOTE]
 >
->In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
+>In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](end-journey.md).
 
 Se devi apportare delle modifiche a un percorso live, crea una nuova versione del percorso.
 

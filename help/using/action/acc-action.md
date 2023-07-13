@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign, acc, integrazione
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 22%
@@ -29,11 +29,11 @@ La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da
 
 Un caso d’uso end-to-end è presentato in questo [sezione](../building-journeys/ajo-ac.md).
 
-Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Fai riferimento a questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
+Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Consulta questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
 
 ## Note importanti {#important-notes}
 
-* Non esiste alcuna limitazione dei messaggi. Il sistema limita il numero di messaggi che possono essere inviati a 4000 in 5 minuti, in base allo SLA della campagna corrente. Per questo motivo, Journey Optimizer deve essere utilizzato solo in casi di utilizzo unitari (singoli eventi, non segmenti).
+* Non esiste alcuna limitazione dei messaggi. Il sistema limita il numero di messaggi che possono essere inviati a 4000 in 5 minuti, in base allo SLA della campagna corrente. Per questo motivo, Journey Optimizer deve essere utilizzato solo in casi di utilizzo unitari (eventi singoli, non tipi di pubblico).
 
 * Devi configurare un’azione nell’area di lavoro per modello da utilizzare. Devi configurare un’azione in Journey Optimizer per ogni modello da utilizzare da Adobe Campaign.
 
@@ -41,7 +41,7 @@ Per ogni azione configurata, nella palette di Progettazione percorsi è disponib
 
 * Non esiste alcuna convalida che dimostri che il payload o il messaggio di Campaign sono corretti.
 
-* Non è possibile utilizzare un’azione Campaign con un evento di qualificazione dei segmenti.
+* Non è possibile utilizzare un’azione Campaign con un evento di qualificazione del pubblico.
 
 ## Prerequisiti {#prerequisites}
 
@@ -70,7 +70,7 @@ Ecco un esempio:
 
 In Journey Optimizer, devi configurare un’azione per ogni messaggio transazionale. Segui questi passaggi:
 
-1. Crea una nuova azione. Fai riferimento a questa [sezione](../action/action.md).
+1. Crea una nuova azione. Consulta questa [sezione](../action/action.md).
 1. Immettere un nome e una descrizione.
 1. In **Tipo di azione** campo, seleziona **Adobe Campaign Classic**.
 1. Fai clic su nella **Payload** e incolla un esempio del payload JSON corrispondente al messaggio Campaign. Contatta l’Adobe per ottenere questo payload.

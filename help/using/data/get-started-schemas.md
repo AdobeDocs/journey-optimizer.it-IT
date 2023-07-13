@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Scopri come creare uno schema, aggiungere gruppi di campi, creare e configurare 
 
 **Consulta anche**
 
-* [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../segment/creating-test-profiles.md)
+* [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../audience/creating-test-profiles.md)
 * [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}
 * [Procedure consigliate per la modellazione dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=it){target="_blank"}
 * [Creare uno schema tramite l’API del registro di schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=it){target="_blank"}

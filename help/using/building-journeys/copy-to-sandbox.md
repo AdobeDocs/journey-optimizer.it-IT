@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 20%
@@ -38,7 +38,7 @@ ht-degree: 20%
 >title="Oggetti dipendenti"
 >abstract="Questo è l’elenco degli oggetti associati utilizzati nel percorso. Questo elenco mostra il nome, il tipo di oggetto e l’ID Journey Optimizer interno."
 
-Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: segmenti, superfici (ossia predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questa [sezione](#limitations).
+Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, superfici (ossia predefiniti), schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questa [sezione](#limitations).
 
 >[!CAUTION]
 >
@@ -80,32 +80,32 @@ Tutti gli elementi collegati potrebbero non essere copiati nella sandbox di dest
 
 Vengono copiati i seguenti oggetti:
 
-* Segmento
+* Destinatari
 
-   Un segmento può essere copiato una sola volta da una sandbox all’altra. Una volta copiato, il segmento non è più modificabile nella sandbox di destinazione.
+  Un pubblico può essere copiato una sola volta da una sandbox all’altra. Una volta copiato, il pubblico non può più essere modificato nella sandbox di destinazione.
 
 * Schema
 
-   Gli schemi utilizzati in questo percorso vengono copiati.
+  Gli schemi utilizzati in questo percorso vengono copiati.
 
 * Messaggio
 
-   Le attività di azione del canale utilizzate nel percorso. I campi utilizzati per la personalizzazione nel messaggio non vengono controllati per verificarne la completezza. I blocchi di contenuto non vengono copiati.
+  Le attività di azione del canale utilizzate nel percorso. I campi utilizzati per la personalizzazione nel messaggio non vengono controllati per verificarne la completezza. I blocchi di contenuto non vengono copiati.
 
 * Percorso - dettagli area di lavoro
 
-   La rappresentazione del percorso nell’area di lavoro, inclusi gli oggetti nel percorso come condizioni, azioni, eventi, segmenti di lettura e così via. L’attività Jump (Salta) viene esclusa dalla copia.
+  La rappresentazione del percorso nell’area di lavoro, inclusi gli oggetti nel percorso come condizioni, azioni, eventi, tipi di pubblico letti e così via. L’attività Jump (Salta) viene esclusa dalla copia.
 
 * Evento
 
-   Gli eventi e i dettagli dell’evento utilizzati nel percorso vengono copiati.
+  Gli eventi e i dettagli dell’evento utilizzati nel percorso vengono copiati.
 
 * Azione
 
-   Vengono copiati le azioni e i dettagli delle azioni utilizzati nel percorso.
+  Vengono copiati le azioni e i dettagli delle azioni utilizzati nel percorso.
 
 Le superfici (ossia i predefiniti) non vengono copiate. Il sistema seleziona automaticamente la corrispondenza più simile possibile nella sandbox di destinazione, in base al tipo di messaggio e al nome della superficie. Se nella sandbox di destinazione non è presente alcuna superficie, la copia della superficie avrà esito negativo. Ciò significa che anche la copia del messaggio avrà esito negativo perché un messaggio richiede che sia disponibile una superficie per l’impostazione. In questo caso, affinché la copia funzioni, è necessario creare almeno una superficie, per il canale destro del messaggio.
 
-Per gli schemi, i criteri di unione e i segmenti, la seconda volta che questi oggetti tentano di essere copiati, viene fatto solo riferimento ad essi. Saranno trattati come oggetti già esistenti e verranno copiati di nuovo. Ciò significa che questi oggetti possono essere copiati una sola volta.
+Per gli schemi, i criteri di unione e i tipi di pubblico, la seconda volta che questi oggetti tentano di essere copiati, viene fatto riferimento solo a essi. Saranno trattati come oggetti già esistenti e verranno copiati di nuovo. Ciò significa che questi oggetti possono essere copiati una sola volta.
 
-Si verifica un ritardo di cinque minuti prima che Adobe Journey Optimizer possa fare riferimento a schemi, criteri di unione e segmenti senza visualizzare un errore nell’area di lavoro. Attendete cinque minuti e questi riferimenti saranno disponibili.
+Si verifica un ritardo di cinque minuti prima che Adobe Journey Optimizer possa fare riferimento a schemi, criteri di unione e tipi di pubblico senza visualizzare un errore nell’area di lavoro. Attendete cinque minuti e questi riferimenti saranno disponibili.

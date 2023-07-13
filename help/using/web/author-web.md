@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 14%
@@ -71,15 +71,15 @@ Per iniziare a creare la tua campagna web, segui i passaggi indicati di seguito.
 
    * Il menu contestuale per modificarne il contenuto, il layout, l’inserimento di collegamenti o la personalizzazione, ecc.
 
-      ![](assets/web-designer-contextual-bar.png)
+     ![](assets/web-designer-contextual-bar.png)
 
    * Le icone sopra il pannello di destra per modificare, duplicare, eliminare o nascondere ogni elemento.
 
-      ![](assets/web-designer-right-panel-icons.png)
+     ![](assets/web-designer-right-panel-icons.png)
 
    * Pannello a destra che cambia dinamicamente in base all’elemento selezionato. Ad esempio, puoi modificare lo sfondo, la composizione tipografica, il bordo, le dimensioni, la posizione, la spaziatura, gli effetti o gli stili in linea di un elemento.
 
-      ![](assets/web-designer-right-panel.png)
+     ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Per visualizzare un’anteprima della tua esperienza web modificata, segui i pas
 
 >[!CAUTION]
 >
->Devi disporre di profili di test per simulare quali offerte verranno consegnate. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
+>Devi disporre di profili di test per simulare quali offerte verranno consegnate. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
 1. Dalla schermata di modifica del contenuto della campagna web, seleziona **[!UICONTROL Simula contenuto]**.
 

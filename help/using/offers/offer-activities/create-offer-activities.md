@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 146dda9b180a4767b7041b50382f9a0eac0a0058
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '1449'
 ht-degree: 2%
 
 ---
@@ -72,17 +72,17 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
 1. Utilizza il **[!UICONTROL Idoneità]** per limitare la selezione delle offerte per questo posizionamento.
 
-   Questo vincolo può essere applicato utilizzando un **regola di decisione** o uno o più **Segmenti Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Questo vincolo può essere applicato utilizzando un **regola di decisione** o uno o più **Pubblico Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Per limitare la selezione delle offerte ai membri di un segmento di Experience Platform, seleziona **[!UICONTROL Segmenti]**, quindi fai clic su **[!UICONTROL Aggiungere segmenti]**.
+   * Per limitare la selezione delle offerte ai membri di un pubblico di Experienci Platform, seleziona **[!UICONTROL Tipi di pubblico]**, quindi fai clic su **[!UICONTROL Aggiungere tipi di pubblico]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
+     Aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Scopri come lavorare con i segmenti in [questa sezione](../../segment/about-segments.md).
+     Scopri come utilizzare i tipi di pubblico in [questa sezione](../../audience/about-audiences.md).
 
    * Se desideri aggiungere un vincolo di selezione con una regola di decisione, utilizza **[!UICONTROL Regola di decisione]** e selezionare la regola desiderata.
 
@@ -90,7 +90,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
      Scopri come creare una regola di decisione in [questa sezione](../offer-library/creating-decision-rules.md).
 
-1. Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+1. Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
    >[!NOTE]
    >
@@ -128,18 +128,9 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
    ![](../assets/activity_new-scope.png)
 
-   >[!NOTE]
-   >
-   >Quando si aggiungono più ambiti decisionali, l’ordine dei criteri di valutazione sarà interessato. [Ulteriori informazioni](#multiple-scopes)
-
 ### Ordine dei criteri di valutazione {#evaluation-criteria-order}
 
 Come descritto in precedenza, un criterio di valutazione è costituito da una raccolta, da vincoli di idoneità e da un metodo di classificazione. È possibile impostare l&#39;ordine sequenziale desiderato per la valutazione dei criteri di valutazione, ma è anche possibile combinare più criteri di valutazione in modo che vengano valutati insieme e non separatamente.
-
-#### Con un ambito {#one-scope}
-
-
-All’interno di un unico ambito decisionale, più criteri e il loro raggruppamento determinano la priorità dei criteri e la classificazione delle offerte idonee. Il primo criterio ha la massima priorità e i criteri combinati all&#39;interno dello stesso &quot;gruppo&quot; hanno la stessa priorità.
 
 Ad esempio, sono disponibili due raccolte, una nel criterio di valutazione A e una nel criterio di valutazione B. La richiesta prevede il rinvio di due offerte. Supponiamo che vi siano due offerte ammissibili dal criterio di valutazione A e tre offerte ammissibili dal criterio di valutazione B.
 
@@ -150,131 +141,6 @@ Ad esempio, sono disponibili due raccolte, una nel criterio di valutazione A e u
 * Se le due raccolte sono **valutato contemporaneamente** Poiché esistono due offerte ammissibili in base al criterio di valutazione A e tre offerte ammissibili in base al criterio di valutazione B, le cinque offerte saranno tutte raggruppate in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
 
   ![](../assets/activity_same-rank-collections.png)
-
-+++ **Esempio con più criteri**
-
-Prendiamo ora in considerazione un esempio in cui si dispone di più criteri per un singolo ambito suddivisi in gruppi diversi.
-
-Hai definito tre criteri. I criteri 1 e 2 sono combinati insieme nel gruppo 1 e il criterio 3 è indipendente (gruppo 2).
-
-Le offerte idonee per ciascun criterio e la relativa priorità (utilizzata nella valutazione della funzione di classificazione) sono le seguenti:
-
-* Gruppo 1:
-   * Criterio 1 - (Offerta 1, Offerta 2, Offerta 3) - Priorità 1
-   * Criterio 2 - (Offerta 3, Offerta 4, Offerta 5) - Priorità 1
-
-* Gruppo 2:
-   * Criterio 3 - (Offerta 5, Offerta 6) - Priorità 0
-
-Le offerte con criteri di priorità più elevata vengono valutate per prime e aggiunte all’elenco delle offerte classificate.
-
-**Iterazione 1:**
-
-Le offerte dei criteri 1 e 2 vengono valutate insieme (offerta 1, offerta 2, offerta 3, offerta 4, offerta 5). Supponiamo che il risultato sia:
-
-Offerta 1 - 10 Offerta 2 - 20 Offerta 3 - 30 secondo i criteri 1, 45 secondo i criteri 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
-Offerta 4 - 40 Offerta 5 - 50
-
-L’offerta classificata è ora la seguente: Offerta 5, Offerta 3, Offerta 4, Offerta 2, Offerta 1.
-
-**Iterazione 2:**
-
-Vengono valutate le offerte del criterio 3 (offerta 5, offerta 6). Supponiamo che il risultato sia:
-
-* Offerta 5: non verrà valutata perché esiste già nel risultato precedente.
-* Offerta 6 - 60
-
-Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
-
-+++
-
-#### Con più ambiti {#multiple-scopes}
-
-**Se la duplicazione è disattivata**
-
-Quando aggiungi più ambiti decisionali a una decisione e non è consentita la duplicazione tra posizionamenti diversi, le offerte idonee vengono selezionate in sequenza in base all’ordine degli ambiti decisionali nella richiesta.
-
->[!NOTE]
->
->Il **[!UICONTROL Consenti duplicati nei posizionamenti]** Il parametro viene impostato a livello di posizionamento. Se la duplicazione è impostata su false per qualsiasi posizionamento in una richiesta di decisioning, tutti i posizionamenti nella richiesta ereditano l’impostazione false. [Ulteriori informazioni sui parametri di duplicazione](../offer-library/creating-placements.md)
-
-Prendiamo un esempio in cui hai aggiunto due ambiti decisionali, come:
-
-* Ambito 1: ci sono quattro offerte idonee (Offerta 1, Offerta 2, Offerta 3, Offerta 4) e la richiesta è di rimandare indietro due offerte.
-* Ambito 2: sono ammesse quattro offerte (Offerta 1, Offerta 2, Offerta 3, Offerta 4) e la richiesta è di rimandare indietro due offerte.
-
-+++ **Esempio 1**
-
-La selezione è la seguente:
-
-1. Verranno restituite le prime due offerte idonee dall’ambito 1 (offerta 1, offerta 2).
-1. Verranno restituite le due migliori offerte idonee rimanenti dall&#39;ambito 2 (offerta 3, offerta 4).
-
-+++
-
-+++ **Esempio 2**
-
-In questo esempio, l’offerta 1 ha raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
-
-La selezione è la seguente:
-
-1. Verranno restituite le due migliori offerte idonee rimanenti dall&#39;ambito 1 (offerta 2, offerta 3).
-1. Verrà restituita l&#39;offerta idonea rimanente dall&#39;ambito 2 (offerta 4).
-
-+++
-
-+++ **Esempio 3**
-
-In questo esempio, Offerta 1 e Offerta 3 hanno raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
-
-La selezione è la seguente:
-
-1. Verranno restituite le due migliori offerte idonee rimanenti dall&#39;ambito 1 (offerta 2, offerta 4).
-1. Non vi sono altre offerte idonee per l&#39;ambito 2, pertanto [offerta di fallback](#add-fallback) viene restituito.
-
-+++
-
-**Se la duplicazione è attiva**
-
-Quando la duplicazione è consentita in tutti i posizionamenti, la stessa offerta può essere proposta più volte in diversi posizionamenti. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. [Ulteriori informazioni sui parametri di duplicazione](../offer-library/creating-placements.md)
-
-Prendiamo lo stesso esempio di cui sopra in cui hai aggiunto due ambiti decisionali, come:
-
-* Ambito 1: ci sono quattro offerte idonee (Offerta 1, Offerta 2, Offerta 3, Offerta 4) e la richiesta è di rimandare indietro due offerte.
-* Ambito 2: sono ammesse quattro offerte (Offerta 1, Offerta 2, Offerta 3, Offerta 4) e la richiesta è di rimandare indietro due offerte.
-
-+++ **Esempio 1**
-
-La selezione è la seguente:
-
-1. Verranno restituite le prime due offerte idonee dall’ambito 1 (offerta 1, offerta 2).
-1. Verranno restituite le stesse due migliori offerte idonee dell&#39;ambito 2 (offerta 1, offerta 2).
-
-+++
-
-+++ **Esempio 2**
-
-In questo esempio, l’offerta 1 ha raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
-
-La selezione è la seguente:
-
-1. Verranno restituite le due migliori offerte idonee rimanenti dall&#39;ambito 1 (offerta 2, offerta 3).
-
-1. Verranno restituite le stesse due migliori offerte idonee rimanenti dall’ambito 2 (offerta 2, offerta 3).
-
-+++
-
-+++ **Esempio 3**
-
-In questo esempio, Offerta 1 e Offerta 3 hanno raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
-
-La selezione è la seguente:
-
-1. Verranno restituite le due migliori offerte idonee rimanenti dall&#39;ambito 1 (offerta 2, offerta 4).
-
-1. Verranno restituite le stesse due migliori offerte idonee rimanenti dall’ambito 2 (offerta 2, offerta 4).
-
-+++
 
 ## Aggiungere un’offerta di fallback {#add-fallback}
 

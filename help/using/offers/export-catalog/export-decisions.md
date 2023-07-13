@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 3%
@@ -79,32 +79,32 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * Descrizione
 
-   **Campo:** descrizione
-   **Titolo:** Descrizione
-   **Descrizione:** Descrizione della selezione dell&#39;opzione. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché la selezione dell’opzione è stata costruita e/o quale opzione corrisponderà.
-   **Tipo:** stringa
+  **Campo:** descrizione
+  **Titolo:** Descrizione
+  **Descrizione:** Descrizione della selezione dell&#39;opzione. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché la selezione dell’opzione è stata costruita e/o quale opzione corrisponderà.
+  **Tipo:** stringa
 
 * Filtro opzioni
 
-   **Campo:** filter
-   **Titolo:** Filtro opzioni
-   **Descrizione:** Il riferimento a un filtro basato su qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) che corrisponde alle opzioni di un inventario utilizzando i qualificatori di raccolta associati. Il valore è l’URI (@id) della regola di decisione a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/filter.
-   **Tipo:** stringa
+  **Campo:** filter
+  **Titolo:** Filtro opzioni
+  **Descrizione:** Il riferimento a un filtro basato su qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) che corrisponde alle opzioni di un inventario utilizzando i qualificatori di raccolta associati. Il valore è l’URI (@id) della regola di decisione a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/filter.
+  **Tipo:** stringa
 
 * Tipo di vincolo profilo
 
-   **Campo:** optionSelectionType
-   **Titolo:** Tipo di vincolo profilo
-   **Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una query di filtro o tramite una o più appartenenze a segmenti.
-   **Tipo:** stringa
-   **Valori possibili:** &quot;none&quot; (impostazione predefinita), &quot;directList&quot;, &quot;filter&quot;
+  **Campo:** optionSelectionType
+  **Titolo:** Tipo di vincolo profilo
+  **Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una query di filtro o una o più appartenenze a un pubblico.
+  **Tipo:** stringa
+  **Valori possibili:** &quot;none&quot; (impostazione predefinita), &quot;directList&quot;, &quot;filter&quot;
 
 * Elenco opzioni
 
-   **Campo:** opzioni
-   **Titolo:** Elenco opzioni
-   **Descrizione:** Elenco che specifica direttamente le opzioni senza valutare una query di filtro. È possibile specificare un elenco di opzioni o una regola di filtro delle opzioni.
-   **Tipo:** array
+  **Campo:** opzioni
+  **Titolo:** Elenco opzioni
+  **Descrizione:** Elenco che specifica direttamente le opzioni senza valutare una query di filtro. È possibile specificare un elenco di opzioni o una regola di filtro delle opzioni.
+  **Tipo:** array
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -119,9 +119,9 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * Identificatore di posizionamento
 
-   **Titolo:** Identificatore di posizionamento
-   **Descrizione:** Riferimento a un&#39;entità di posizionamento. Il valore è l’URI (@id) del posizionamento a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/placement.
-   **Tipo:** stringa
+  **Titolo:** Identificatore di posizionamento
+  **Descrizione:** Riferimento a un&#39;entità di posizionamento. Il valore è l’URI (@id) del posizionamento a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/placement.
+  **Tipo:** stringa
 
 +++
 
@@ -156,13 +156,13 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** profileConstraintType
 **Titolo:** Tipo di vincolo profilo
-**Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze a segmenti.
+**Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 * &quot;none&quot; (impostazione predefinita)
 * &quot;EliabilityRule&quot;: &quot;Il vincolo di profilo è espresso come una singola regola che deve restituire true prima che l’azione vincolata sia consentita.&quot;
-* &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;
-* &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di tutti loro prima che l’azione vincolata sia consentita.&quot;
+* &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più tipi di pubblico e il profilo deve essere membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;
+* &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più tipi di pubblico e il profilo deve essere un membro di tutti loro prima che l’azione vincolata sia consentita.&quot;
 * &quot;regole&quot;: &quot;Il vincolo di profilo è espresso come una serie di regole diverse, ad esempio idoneità, applicabilità, idoneità, che tutte devono restituire true prima che l’azione vincolata sia consentita.&quot;
 
 +++
@@ -171,37 +171,37 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** segmentIdentities
 **Titolo:** Identificatori segmento
-**Descrizione:** Identificatori dei segmenti.
+**Descrizione:** Identificatori del pubblico.
 **Tipo:** array
 
 * Identificatore
 
-   **Campo:** _id
-   **Titolo:** Identificatore
-   **Descrizione:** Identità del segmento nel relativo spazio dei nomi.
-   **Tipo:** stringa
+  **Campo:** _id
+  **Titolo:** Identificatore
+  **Descrizione:** Identità del pubblico nel relativo spazio dei nomi.
+  **Tipo:** stringa
 
 * namespace
 
-   **Campo:** namespace
-   **Titolo:** Namespace
-   **Descrizione:** Lo spazio dei nomi associato al `xid` attributo.
-   **Tipo:** oggetto
-   **Obbligatorio:** &quot;code&quot;
+  **Campo:** namespace
+  **Titolo:** Namespace
+  **Descrizione:** Lo spazio dei nomi associato al `xid` attributo.
+  **Tipo:** oggetto
+  **Obbligatorio:** &quot;code&quot;
 
    * Codice
 
-      **Campo:** codice
-      **Titolo:** Codice
-      **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere usato per richiedere l’ID tecnico dello spazio dei nomi, che a sua volta è usato per l’elaborazione del grafico delle identità.
-      **Tipo:** stringa
+     **Campo:** codice
+     **Titolo:** Codice
+     **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere usato per richiedere l’ID tecnico dello spazio dei nomi, che a sua volta è usato per l’elaborazione del grafico delle identità.
+     **Tipo:** stringa
 
 * Identificatore dell’esperienza
 
-   **Campo:** xid
-   **Titolo:** Identificatore dell’esperienza
-   **Descrizione:** Se presente, questo valore rappresenta un identificatore per più spazi dei nomi che è univoco tra tutti gli identificatori relativi allo spazio dei nomi in tutti gli spazi dei nomi.
-   **Tipo:** stringa
+  **Campo:** xid
+  **Titolo:** Identificatore dell’esperienza
+  **Descrizione:** Se presente, questo valore rappresenta un identificatore per più spazi dei nomi che è univoco tra tutti gli identificatori relativi allo spazio dei nomi in tutti gli spazi dei nomi.
+  **Tipo:** stringa
 
 +++
 
@@ -223,25 +223,25 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * Funzione punteggio
 
-   **Campo:** funzione
-   **Titolo:** Funzione punteggio
-   **Descrizione:** Riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione verranno quindi ordinate (classificate) in base a tale punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/function.
-   **Tipo:** stringa
+  **Campo:** funzione
+  **Titolo:** Funzione punteggio
+  **Descrizione:** Riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione verranno quindi ordinate (classificate) in base a tale punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/function.
+  **Tipo:** stringa
 
 * Tipo di valutazione ordine**
 
-   **Campo:** orderEvaluationType
-   **Titolo:** Tipo di valutazione ordine
-   **Descrizione:** Specifica il meccanismo di valutazione dell’ordine utilizzato, la priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarla.
-   **Tipo:** stringa
-   **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Campo:** orderEvaluationType
+  **Titolo:** Tipo di valutazione ordine
+  **Descrizione:** Specifica il meccanismo di valutazione dell’ordine utilizzato, la priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarla.
+  **Tipo:** stringa
+  **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * Strategia di classificazione
 
-   **Campo:** rankingStrategy
-   **Titolo:** Strategia di classificazione
-   **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni di decisione. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Tipo:** stringa
+  **Campo:** rankingStrategy
+  **Titolo:** Strategia di classificazione
+  **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni di decisione. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Tipo:** stringa
 
 +++
 

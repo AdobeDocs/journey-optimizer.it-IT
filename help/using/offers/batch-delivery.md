@@ -1,8 +1,8 @@
 ---
 title: Batch Decisioning
-description: Scopri come distribuire le decisioni sulle offerte a tutti i profili in un dato segmento di Adobe Experience Platform.
+description: Scopri come distribuire le decisioni sulle offerte a tutti i profili in un determinato pubblico Adobe Experience Platform.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 2%
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ## Introduzione alle decisioni batch {#start}
 
-Journey Optimizer ti consente di fornire decisioni sulle offerte a tutti i profili in un dato segmento Adobe Experience Platform.
+Journey Optimizer consente di fornire decisioni sulle offerte a tutti i profili in un determinato pubblico Adobe Experience Platform.
 
-A questo scopo, devi creare una richiesta di lavoro in Journey Optimizer che contenga informazioni sul segmento di destinazione e sulla decisione di offerta da utilizzare. Il contenuto dell’offerta per ciascun profilo del segmento viene quindi inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
+A questo scopo, devi creare una richiesta di lavoro in Journey Optimizer che contenga informazioni sul pubblico di destinazione e sulla decisione di offerta da utilizzare. Il contenuto dell’offerta per ogni profilo del pubblico viene quindi inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
 
 La consegna in batch può essere eseguita anche utilizzando le API. Per ulteriori informazioni, consulta [Documentazione API di Batch Decisioning](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Prima di configurare una richiesta di processo, assicurati di aver creato:
 
 * **Un set di dati** in Adobe Experience Platform. Questo set di dati verrà utilizzato per memorizzare il risultato della decisione utilizzando lo schema &quot;ODE DecisionEvents&quot;. Per ulteriori informazioni, consulta [Documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it).
 
-* **Un segmento** in Adobe Experience Platform. Il segmento deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al segmento in [Documentazione del servizio di segmentazione](https://www.adobe.com/go/segmentation-overview-en)
+* **Un pubblico** in Adobe Experience Platform. Il pubblico deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al pubblico in [Documentazione del servizio di segmentazione](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >Un processo batch viene eseguito dallo snapshot del profilo che si verifica una volta al giorno. Le decisioni in batch limitano la frequenza e caricano sempre i profili dallo snapshot più recente. Prima di provare l’API di decisioning batch, attendi fino a 24 ore dalla creazione di un segmento.
+  >[!NOTE]
+  >
+  >Un processo batch viene eseguito dallo snapshot del profilo che si verifica una volta al giorno. Le decisioni in batch limitano la frequenza e caricano sempre i profili dallo snapshot più recente. Prima di provare l’API di decisioning in batch, attendi fino a 24 ore dalla creazione di un pubblico.
 
 * **Una decisione** in Adobe Journey Optimizer. [Scopri come creare una decisione](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Per creare una nuova richiesta di processo, attieniti alla procedura seguente.
 
 1. Assegna un nome alla richiesta del processo, quindi seleziona il set di dati in cui devono essere inviati i dati del processo.
 
-1. Seleziona il segmento Adobe Experience Platform di destinazione.
+1. Seleziona il pubblico Adobe Experience Platform di destinazione.
 
-1. Seleziona uno o più ambiti di decisione delle offerte da utilizzare per distribuire le offerte al segmento:
+1. Seleziona uno o più ambiti di decisione delle offerte da utilizzare per distribuire le offerte al pubblico:
    1. Selezionate un posizionamento dall&#39;elenco.
    1. Vengono visualizzate le decisioni disponibili per il posizionamento selezionato. Seleziona la decisione desiderata e fai clic su **[!UICONTROL Aggiungi]**.
    1. Ripeti l’operazione per aggiungere tutti gli ambiti decisionali desiderati.
@@ -93,11 +93,11 @@ Se si verifica un errore durante l’esecuzione della richiesta di processo, vie
 
 Il tempo end-to-end per ogni processo batch è la durata dal momento della creazione del carico di lavoro al momento in cui il risultato della decisione è disponibile nel set di dati di output.
 
-La dimensione del segmento è il fattore principale che influisce sul tempo di decisione del batch end-to-end. Se per l’offerta idonea è abilitato un limite di frequenza globale, il completamento delle decisioni batch richiede un tempo aggiuntivo. Di seguito sono riportate alcune approssimazioni del tempo di elaborazione end-to-end per le rispettive dimensioni dei segmenti, con e senza limiti di frequenza per le offerte idonee:
+La dimensione del pubblico è il fattore principale che influisce sul tempo di decisione batch end-to-end. Se per l’offerta idonea è abilitato un limite di frequenza globale, il completamento delle decisioni batch richiede un tempo aggiuntivo. Di seguito sono riportate alcune approssimazioni del tempo di elaborazione end-to-end per le rispettive dimensioni di pubblico, con e senza limite di frequenza per le offerte idonee:
 
 Con il limite di frequenza abilitato per le offerte idonee:
 
-| Dimensione segmento | Tempo di elaborazione end-to-end |
+| Dimensione del pubblico | Tempo di elaborazione end-to-end |
 |--------------|----------------------------|
 | 10.000 profili o meno | 7 minuti |
 | 1 milione di profili o meno | 30 minuti |
@@ -105,7 +105,7 @@ Con il limite di frequenza abilitato per le offerte idonee:
 
 Senza limite di frequenza per le offerte idonee:
 
-| Dimensione segmento | Tempo di elaborazione end-to-end |
+| Dimensione del pubblico | Tempo di elaborazione end-to-end |
 |--------------|----------------------------|
 | 10.000 profili o meno | 6 minuti |
 | 1 milione di profili o meno | 8 minuti |

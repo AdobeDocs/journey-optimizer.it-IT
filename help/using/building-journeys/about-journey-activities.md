@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -28,7 +28,7 @@ Eventi configurati dall’utente tecnico (vedi [questa pagina](../event/about-ev
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
-* [Qualificazione del segmento](../building-journeys/segment-qualification-events.md)
+* [Qualifica per pubblico](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 
 * [Condizione](../building-journeys/condition-activity.md)
 * [Attendi](../building-journeys/wait-activity.md)
-* [Leggi segmento](../building-journeys/read-segment.md)
+* [Read Audience](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 
@@ -88,6 +88,6 @@ In alcuni contesti particolari, è possibile ignorare i valori di questi paramet
 
 ### Aggiungi un percorso alternativo
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

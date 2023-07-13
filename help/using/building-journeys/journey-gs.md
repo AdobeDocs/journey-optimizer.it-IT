@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: percorso, primo, inizio, avvio rapido, segmento, evento, azione
+keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 25%
+source-wordcount: '1537'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,7 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 
    ![](assets/jo-event7bis.png)
 
-1. **Creare un segmento**: il percorso può anche ascoltare i segmenti di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. A questo scopo, devi creare dei segmenti. [Ulteriori informazioni](../segment/about-segments.md).
+1. **Creare un pubblico**: il tuo percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. A questo scopo, devi creare dei tipi di pubblico. [Ulteriori informazioni](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
@@ -45,7 +45,7 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 **Panoramica**: in questa scheda viene visualizzato un dashboard con le metriche chiave correlate ai percorsi:
 
 * **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
-* **Percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi live includono **Percorsi unitari** (basato su eventi) e **Percorsi batch** (leggi segmento).
+* **Percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi live includono **Percorsi unitari** (basato su eventi) e **Percorsi batch** (pubblico di lettura).
 * **Percentuale di errori**: rapporto tra tutti i profili con errore e il numero totale di profili immessi nelle ultime 24 ore.
 * **Percentuale di eliminazione**: rapporto tra tutti i profili scartati e il numero totale di profili immessi nelle ultime 24 ore. Un profilo scartato rappresenta un utente non idoneo per l’accesso al percorso, ad esempio a causa di uno spazio dei nomi errato o di regole di rientro.
 
@@ -59,7 +59,7 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 ![](assets/journeys-browse.png)
 
-Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del segmento]**, **[!UICONTROL Leggi segmento]** o **[!UICONTROL Evento di business]**.
+Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
 
 Puoi scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare con **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**. Inoltre, il **[!UICONTROL Filtri di pubblicazione]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
 
@@ -88,7 +88,7 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi tramit
 
    ![](assets/jo-properties.png)
 
-1. Per iniziare, trascina e rilascia un evento o una **Leggi segmento** dalla palette all’area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, fare riferimento a [questa sezione](using-the-journey-designer.md).
+1. Per iniziare, trascina e rilascia un evento o una **Read Audience** dalla palette all’area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, fare riferimento a [questa sezione](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -125,7 +125,7 @@ Il **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio.
 
-Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o una qualifica di segmento). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
+Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di entrare nuovamente nel percorso in percorsi unitari (a partire da un evento o da una qualifica di pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
 
 Ulteriori informazioni sulla gestione dell’ingresso del profilo, in [questa sezione](entry-management.md).
 
@@ -149,11 +149,11 @@ Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagi
 
 È possibile definire un **Data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
 
-Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non specifichi una data di fine, i profili possono rimanere fino al timeout predefinito del percorso (in genere 30 giorni, 7 giorni con l’offerta aggiuntiva Healthcare Shield). L’unica eccezione è rappresentata dai percorsi di segmenti di lettura ricorrenti con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
+Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non specifichi una data di fine, i profili possono rimanere fino al timeout predefinito del percorso (in genere 30 giorni, 7 giorni con l’offerta aggiuntiva Healthcare Shield). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
 
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
-Quando modifichi un’attività di azione o condizione, puoi specificare un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività, che comporta l’esecuzione di query su un sistema di terze parti, supera la durata specificata nelle proprietà del percorso per il timeout e la gestione degli errori (**[!UICONTROL Timeout ed errore]** ), verrà selezionato il secondo percorso per eseguire un’azione di fallback, se necessario.
+Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che richiede l’interrogazione di un sistema di terze parti supera la durata di timeout definita nelle proprietà del percorso (**[!UICONTROL Timeout ed errore]** ), verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
 I valori autorizzati sono compresi tra 1 e 30 secondi.
 

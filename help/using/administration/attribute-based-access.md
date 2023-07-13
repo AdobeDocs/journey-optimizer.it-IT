@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attributo, autorizzazioni, dati, accesso, dati sensibili, risorse
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Il controllo degli accessi basato su attributi (Attribute-Based Access Control - ABAC) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici. Il suo scopo è proteggere le risorse digitali sensibili da utenti non autorizzati, consentendo un&#39;ulteriore protezione dei dati personali.
 
-In Adobe Journey Optimizer, ABAC consente di proteggere i dati e concedere un accesso specifico a elementi di campo specifici, inclusi schemi Experience Data Model (XDM), attributi di profilo e segmenti.
+In Adobe Journey Optimizer, ABAC consente di proteggere i dati e concedere un accesso specifico a elementi di campo specifici, inclusi schemi Experience Data Model (XDM), attributi di profilo e tipi di pubblico.
 
 Per un elenco più dettagliato della terminologia utilizzata con ABAC, fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -90,7 +90,7 @@ Gli utenti in **Ruolo demografico limitato** hanno ora accesso agli oggetti con 
 **[!UICONTROL Etichette]** può essere utilizzato per assegnare specifiche aree funzionali utilizzando il controllo degli accessi basato su attributi.
 In questo esempio, vogliamo limitare l’accesso a **Nazionalità** campo. Questo campo sarà accessibile solo agli utenti con il **[!UICONTROL Etichetta]** alla loro  **[!UICONTROL Ruolo]**.
 
-Puoi anche aggiungere  **[!UICONTROL Etichetta]** a  **[!UICONTROL Schema]**,  **[!UICONTROL Set di dati]** e  **[!UICONTROL Segmenti]**.
+Puoi anche aggiungere  **[!UICONTROL Etichetta]** a  **[!UICONTROL Schema]**,  **[!UICONTROL Set di dati]** e  **[!UICONTROL Tipi di pubblico]**.
 
 1. Crea **[!UICONTROL Schema]**. Per ulteriori informazioni, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it).
 

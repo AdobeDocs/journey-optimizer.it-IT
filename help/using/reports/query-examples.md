@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ Assicurati che i campi utilizzati nelle query abbiano valori associati nello sch
 * id: univoco per tutte le voci evento del passaggio. Due eventi di passaggio diversi non possono avere lo stesso ID.
 * instanceId: instanceID è lo stesso per tutti gli eventi di passaggio associati a un profilo all’interno di un’esecuzione di percorso. Se un profilo torna nel percorso, verrà utilizzato un instanceId diverso. Questo nuovo instanceId sarà lo stesso per tutti gli eventi di passaggio dell’istanza reinserita (dall’inizio alla fine).
 * profileID: l’identità del profilo che corrisponde allo spazio dei nomi del percorso.
-
->[!NOTE]
->
->Per la risoluzione dei problemi, si consiglia di utilizzare journeyVersionID invece di journeyVersionName durante la query sui percorsi.
 
 ## Casi d’uso di base/query comuni {#common-queries}
 
@@ -431,9 +427,9 @@ ORDER BY DATE(timestamp) desc
 
 La query restituisce, per il periodo definito, il numero di profili che sono entrati nel percorso ogni giorno. Se un profilo immesso tramite più identità, verrà conteggiato due volte. Se è abilitato il rientro, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è rientrato nel percorso in un giorno diverso.
 
-## Query relative al segmento di lettura {#read-segment-queries}
+## Query relative al pubblico di lettura {#read-segment-queries}
 
-**Tempo impiegato per completare un processo di esportazione di segmenti**
+**Tempo impiegato per completare un processo di esportazione del pubblico**
 
 _Query Data Lake_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-La query restituisce la differenza di tempo, espressa in minuti, tra il momento in cui il processo di esportazione del segmento è stato messo in coda e il momento in cui è stato infine terminato.
+La query restituisce la differenza di tempo, espressa in minuti, tra il momento in cui il processo di esportazione del pubblico è stato messo in coda e il momento in cui è stato finalmente terminato.
 
 **Numero di profili scartati dal percorso perché duplicati**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 La query restituisce tutti gli ID profilo scartati dal percorso a causa di un errore interno.
 
-**Panoramica della funzione Leggi segmento per una determinata versione del percorso**
+**Panoramica del pubblico di lettura per una determinata versione del percorso**
 
 _Query Data Lake_
 
@@ -604,7 +600,7 @@ Verranno restituiti tutti gli eventi di servizio relativi alla versione di perco
 
 Possiamo anche rilevare problemi come:
 
-* errori nella creazione di processi di esportazione o argomento (inclusi timeout nelle chiamate API per l’esportazione di segmenti)
+* errori nella creazione di processi di esportazione o argomento (inclusi timeout nelle chiamate API di esportazione del pubblico)
 * processi di esportazione che possono essere bloccati (nel caso in cui per una determinata versione del percorso, non si verifichino eventi relativi alla chiusura del processo di esportazione)
 * problemi del lavoratore, se abbiamo ricevuto l&#39;evento di cessazione del processo di esportazione ma nessun lavoratore ne elabora l&#39;elaborazione uno
 
@@ -613,7 +609,7 @@ IMPORTANTE: se questa query non restituisce alcun evento, la causa potrebbe esse
 * la versione del percorso non ha raggiunto la pianificazione
 * se la versione del percorso deve aver attivato il processo di esportazione chiamando l’orchestratore, si è verificato un errore nel flusso a monte: problema di implementazione del percorso, evento di business o problema con il modulo di pianificazione.
 
-**Errori di Leggi segmento per una determinata versione del percorso**
+**Errori di lettura del pubblico per una determinata versione del percorso**
 
 _Query Data Lake_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Ottieni metriche aggregate (processi di esportazione dei segmenti e scarti) su tutti i processi di esportazione**
+**Ottieni metriche aggregate (processi di esportazione e scarti del pubblico) su tutti i processi di esportazione**
 
 _Query Data Lake_
 
@@ -791,9 +787,9 @@ Questa query è diversa dalla precedente.
 
 Restituisce le metriche complessive per una determinata versione del percorso, indipendentemente dai processi che possono essere stati eseguiti per essa (in caso di percorsi ricorrenti, eventi di business attivati da quelli che sfruttano il riutilizzo degli argomenti).
 
-## Query relative alla qualificazione dei segmenti {#segment-qualification-queries}
+## Query relative alla qualifica del pubblico {#segment-qualification-queries}
 
-**Profilo scartato a causa di una realizzazione del segmento diversa da quella configurata**
+**Profilo scartato a causa di una realizzazione del pubblico diversa da quella configurata**
 
 _Query Data Lake_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-Questa query restituisce tutti gli ID profilo che sono stati scartati dalla versione del percorso a causa di una realizzazione errata del segmento.
+Questa query restituisce tutti gli ID profilo scartati dalla versione del percorso a causa di una realizzazione errata del pubblico.
 
-**Eventi di qualificazione del segmento eliminati per qualsiasi altro motivo per un profilo specifico**
+**Eventi di qualificazione del pubblico eliminati per qualsiasi altro motivo per un profilo specifico**
 
 _Query Data Lake_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Questa query restituisce tutti gli eventi (eventi esterni/eventi di qualificazione dei segmenti) che sono stati eliminati a causa di qualsiasi altro motivo per un profilo.
+Questa query restituisce tutti gli eventi (eventi esterni/eventi di qualificazione del pubblico) che sono stati eliminati a causa di qualsiasi altro motivo per un profilo.
 
 ## Query basate su eventi {#event-based-queries}
 

@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ Prima di iniziare a esportare i set di dati, verifica i seguenti prerequisiti:
 
 * Per esportare i set di dati, è necessario **Gestire le destinazioni**, **Visualizza destinazioni**, **Attivare le destinazioni**, e **Gestire e attivare le destinazioni dei set di dati** [autorizzazioni di controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leggi le [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) oppure contatta l’amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
-* Assicurati che il set di dati da esportare non contenga dati di seconda generazione. Questa funzione supporta solo l’esportazione di dati di prima generazione, ovvero di dati non elaborati definiti nella [Descrizione del prodotto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). I dati di prima generazione includono set di dati introdotti tramite origini Adobe Experience Platform o set di dati raccolti utilizzando soluzioni Adobe come Connettore dati di Analytics e set di dati di registri/rapporti di Journey Optimizer.
+* Questa funzione supporta solo l’esportazione di dati di prima generazione, ovvero di dati non elaborati definiti nella [Descrizione del prodotto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Assicurati che il set di dati da esportare non contenga dati di seconda generazione.
 
 ## Passaggi principali per esportare i set di dati {#main-steps}
 
@@ -70,7 +70,7 @@ Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazi
 
    >[!NOTE]
    >
-   >Se utilizzi Adobe Journey Optimizer insieme ai profili cliente in tempo reale, le schede di destinazione visualizzano un pulsante &quot;Attiva&quot; che consente di esportare i set di dati e attivare segmenti per questa destinazione, a seconda delle autorizzazioni abilitate.
+   >Se utilizzi Adobe Journey Optimizer insieme ai profili cliente in tempo reale, le schede di destinazione visualizzano un pulsante &quot;Attiva&quot; che consente di esportare set di dati e attivare tipi di pubblico per questa destinazione, a seconda delle autorizzazioni abilitate.
 
 1. **Seleziona i set di dati** che desideri esportare nella destinazione selezionata.
 

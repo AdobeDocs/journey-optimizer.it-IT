@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, elenco, abbonamento, servizio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 12%
@@ -76,7 +76,7 @@ I possibili stati sono i seguenti:
 
 Una volta creato l’elenco di iscrizioni, puoi utilizzarlo in una pagina di destinazione. I profili che danno il consenso tramite il modulo della pagina di destinazione verranno aggiunti all’elenco. [Ulteriori informazioni](design-lp.md)
 
-È inoltre possibile utilizzare gli elenchi di abbonamento come segmenti quando [creazione di percorsi](../building-journeys/journey-gs.md#jo-build) e aggiungendo la personalizzazione.
+È inoltre possibile utilizzare gli elenchi di abbonamento come tipi di pubblico quando [creazione di percorsi](../building-journeys/journey-gs.md#jo-build) e aggiungendo la personalizzazione.
 
 >[!NOTE]
 >

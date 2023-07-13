@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, condizionale, regole
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '596'
 ht-degree: 8%
 
 ---
 
 # Utilizzare le regole condizionali {#conditions}
 
-Le regole condizionali sono insiemi di regole che definiscono quale contenuto deve essere visualizzato nei messaggi, a seconda di vari criteri come gli attributi dei profili, l’appartenenza a un segmento o gli eventi contestuali.
+Le regole condizionali sono insiemi di regole che definiscono quale contenuto deve essere visualizzato nei messaggi, a seconda di vari criteri come gli attributi dei profili, l’appartenenza a un pubblico o gli eventi contestuali.
 
 Le regole condizionali vengono create utilizzando l’editor di espressioni e possono essere memorizzate se desideri riutilizzarle all’interno del contenuto. [Scopri come salvare una regola condizionale nella libreria](#save)
 
@@ -32,11 +32,11 @@ Le regole condizionali vengono create dal **[!UICONTROL Condizioni]** nell’edi
 
 * Da E-mail Designer, quando si abilita il contenuto dinamico per un componente nel corpo dell’e-mail. [Scopri come aggiungere contenuto dinamico alle e-mail](dynamic-content.md#emails)
 
-   ![](assets/conditions-access-email.png)
+  ![](assets/conditions-access-email.png)
 
 * In qualsiasi campo in cui puoi aggiungere la personalizzazione utilizzando [Editor espressioni](personalization-build-expressions.md).
 
-   ![](assets/conditions-access-editor.png)
+  ![](assets/conditions-access-editor.png)
 
 ## Creare una regola condizionale {#create-condition}
 
@@ -56,17 +56,17 @@ I passaggi per creare una regola condizionale sono i seguenti:
 
 1. Crea la regola condizionale in base alle tue esigenze. A questo scopo, trascina e rilascia nell’area di lavoro gli attributi desiderati dal menu a sinistra.
 
-   I passaggi per combinare gli attributi nell’area di lavoro sono simili all’esperienza di creazione dei segmenti. Per ulteriori informazioni su come utilizzare l’area di lavoro del generatore di regole, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+   I passaggi per combinare gli attributi nell’area di lavoro sono simili all’esperienza di creazione della definizione del segmento. Per ulteriori informazioni su come utilizzare l’area di lavoro del generatore di regole, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    Gli attributi sono organizzati in tre schede:
 
    * **[!UICONTROL Profilo]**:
-      * **[!UICONTROL Iscrizione al segmento]** elenca tutti gli attributi del segmento (ad esempio stato, versione, ecc.) per [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+      * **[!UICONTROL Tipi di pubblico]** elenca tutti gli attributi del pubblico (ad esempio stato, versione, ecc.) per [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
       * **[!UICONTROL Profili individuali XDM]** elenca tutti gli attributi di profilo associati al profilo [Schema Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it) definiti in Adobe Experience Platform.
    * **[!UICONTROL Contestuale]**: quando il messaggio viene utilizzato in un percorso, i campi del percorso contestuale sono disponibili tramite questa scheda.
-   * **[!UICONTROL Tipi di pubblico]**: elenca tutti i tipi di pubblico generati dai segmenti creati in [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL Tipi di pubblico]**: elenca tutti i tipi di pubblico generati dalle definizioni dei segmenti create in [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Una volta che la regola condizionale è pronta, puoi aggiungerla al messaggio per creare contenuto dinamico. [Scopri come aggiungere contenuti dinamici](dynamic-content.md)
 

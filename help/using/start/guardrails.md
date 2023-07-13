@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 91%
+source-wordcount: '1048'
+ht-degree: 74%
 
 ---
 
@@ -45,7 +45,6 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
-* Quando pubblichi i percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. Quando ti avvicini alla milestone di 100 percorsi live alla volta, vedrai una notifica nell’interfaccia utente di questo risultato. Se visualizzi questa notifica e hai la necessità di estendere i tuoi percorsi oltre i 100 percorsi live alla volta, crea un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 
 ### Azioni generali {#general-actions-g}
 
@@ -53,16 +52,16 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
 * L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
-* Un profilo non può essere presente più volte nello stesso percorso, contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
+* In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
 ### Versioni del percorso {#journey-versions-g}
 
-* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
-* Un percorso che inizia con un’attività di **Qualificazione del segmento** nella versione v1 deve sempre iniziare con una **Qualificazione del segmento** nelle altre versioni.
-* Il segmento e lo spazio dei nomi scelti nella **Qualificazione del segmento** (primo nodo) non possono essere modificati nelle nuove versioni.
+* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un **Qualificazione del pubblico** evento.
+* Un percorso che inizia con **Qualificazione del pubblico** l&#39;attività nella versione 1 deve sempre iniziare con un **Qualificazione del pubblico** in altre versioni.
+* Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
-* Un percorso che inizia con un’attività di **Lettura segmento** non può iniziare con un altro evento nelle versioni successive.
-* Non puoi creare una nuova versione di un percorso di segmenti di lettura con lettura incrementale. È necessario duplicare il percorso.
+* Un percorso che inizia con **Read Audience** non può iniziare con un altro evento nelle versioni successive.
+* Non è possibile creare una nuova versione di un percorso di pubblico di lettura con lettura incrementale. È necessario duplicare il percorso.
 
 ### Azioni personalizzate {#custom-actions-g}
 
@@ -76,9 +75,9 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 ### Eventi {#events-g}
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
-* Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione dei segmenti.
-* I percorsi unitari (a partire da un evento o da una qualificazione del segmento) includono un guardrail che impedisce che i percorsi siano erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
-* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un segmento basato su tali eventi e utilizza l’attiviità **Leggi segmento**. Tecnicamente, è possibile usare la qualificazione dei segmenti, ma potrebbe causare problemi a valle in base alle azioni utilizzate.
+* Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
+* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere erroneamente attivati più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
+* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza **Read Audience** attività. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate.
 
 ### Origini dati {#data-sources-g}
 
@@ -97,13 +96,13 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 
-### Leggi segmento {#read-segment-g}
+### Leggere tipi di pubblico {#read-segment-g}
 
-* I segmenti in streaming sono sempre aggiornati, ma i segmenti batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del batch.
-* Per i percorsi che utilizzano un’attività di lettura del segmento, esiste un numero massimo di percorsi che possono avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi segmento, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+* I tipi di pubblico in streaming sono sempre aggiornati, ma quelli in batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del batch.
+* Per i percorsi che utilizzano un’attività Read Audience, esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con Read Audience, pianificato o che inizia &quot;il prima possibile&quot;) a partire nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
 
 ### Editor espressioni {#expression-editor}
 
-* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi segmento, Qualificazione del segmento o Evento di business. È necessario creare un nuovo segmento e utilizzare una condizione inSegment nel percorso.
+* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event. Devi creare un nuovo pubblico e utilizzare una condizione insegment nel percorso.
 
 

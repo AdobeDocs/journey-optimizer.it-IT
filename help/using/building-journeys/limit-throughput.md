@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Questa operazione può essere eseguita con:
 
 * **Azioni personalizzate**: per inviare informazioni a sistemi esterni, ad esempio per inviare e-mail tramite una soluzione esterna utilizzando le funzionalità di orchestrazione di Journey Optimizer insieme alle informazioni di profilo, ai dati sul pubblico e al contesto di percorso.
 
-Se utilizzi origini dati esterne o azioni personalizzate, potresti voler proteggere i tuoi sistemi esterni limitando la velocità effettiva del percorso: fino a 5000 istanze/secondo per i percorsi unitari e fino a 20000 istanze/secondo per quelli attivati da segmenti.
+Se lavori con origini dati esterne o azioni personalizzate, potresti voler proteggere i tuoi sistemi esterni limitando la velocità effettiva del percorso: fino a 5000 istanze/secondo per percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dal pubblico.
 
 Per le azioni personalizzate, sono disponibili funzionalità di limitazione a livello di prodotto. Fai riferimento a questo [pagina](../configuration/external-systems.md#capping).
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni su come eseguire l’integrazione con i sistemi ester
 
 ## Implementazione
 
-Per **percorsi attivati da segmenti**, puoi definire il tasso di limitazione dell’attività Leggi segmento che influirà sulla velocità effettiva del percorso.  [Maggiori informazioni](../building-journeys/read-segment.md)
+Per **percorsi attivati dal pubblico**, puoi definire il tasso di limitazione dell’attività Read Audience che influirà sulla velocità effettiva del percorso.  [Maggiori informazioni](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -45,9 +45,9 @@ Potete modificare questo valore da 500 a 20.000 istanze al secondo. Se devi anda
 
 ![](assets/limit-throughput-2.png)
 
-Prendiamo un esempio di **percorsi attivati da segmenti** utilizzo di una popolazione di **10.000 profili** e l&#39;invio di dati a un sistema esterno che supporta **100 richieste/secondo**.
+Prendiamo un esempio di **percorsi attivati dal pubblico** utilizzo di una popolazione di **10.000 profili** e l&#39;invio di dati a un sistema esterno che supporta **100 richieste/secondo**.
 
-1. Puoi definire il segmento di lettura per leggere i profili con una velocità effettiva di 500 profili/secondo, il che significa che occorreranno 20 secondi per leggere tutti i profili. Al secondo 1, ne leggerete 500, al secondo 2 500, ecc.
+1. Puoi definire il pubblico di lettura per leggere i profili con una velocità effettiva di 500 profili/secondo, il che significa che occorreranno 20 secondi per leggere tutti i profili. Al secondo 1, ne leggerete 500, al secondo 2 500, ecc.
 
 1. Puoi quindi aggiungere un’attività Condizione &quot;suddivisione percentuale&quot; con una suddivisione del 20% in modo da avere a ogni secondo 100 profili in ogni ramo.
 
@@ -56,14 +56,14 @@ Prendiamo un esempio di **percorsi attivati da segmenti** utilizzo di una popola
    * Nel ramo 1, attenderanno 30 secondi, il che significa che:
       * il secondo 1, 100 profili attenderanno il secondo 31
       * al secondo 2, 100 profili attenderanno il secondo 32, ecc.
+
    * Nel ramo 2, attenderanno 60 secondi, il che significa che:
       * Al secondo 1, 100 profili attenderanno il secondo 61 (1&#39;01&#39;&#39;)
       * Al secondo 2, 100 profili attenderanno il secondo 62 (1&#39;02&#39;&#39;), ecc.
+
    * Sapendo che ci aspettiamo un massimo di 20 secondi per leggere tutti i profili, non ci sarà alcuna sovrapposizione tra ciascun ramo, il secondo 20 è l’ultimo in cui i profili confluiranno nella condizione. Tra il secondo 31 e il secondo 51, verranno elaborati tutti i profili nel ramo 1. Tra il secondo 61 (1&#39;01&#39;&#39;) e il secondo 81 (1&#39;21&#39;&#39;), verranno elaborati tutti i profili nel ramo 2, ecc.
 
    * Come guardrail, puoi anche aggiungere un sesto ramo per avere meno di 100 profili per ramo, soprattutto se il sistema esterno supporta solo 100 richieste/secondo.
-
-
 
 >[!IMPORTANT]
 >

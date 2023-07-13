@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: rientro, percorso, fine, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 3%
@@ -24,9 +24,9 @@ Un percorso può terminare per un individuo in due contesti specifici:
 
 La persona può quindi rientrare nel percorso se il rientro è consentito. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
 
-Per terminare un percorso live, è consigliabile chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà quindi bloccato. I clienti che sono già entrati nel percorso possono provarlo fino alla fine. Vedi [questa sezione](../building-journeys/journey.md#close-journey)
+Per terminare un percorso live, è consigliabile chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà quindi bloccato. I clienti che sono già entrati nel percorso possono provarlo fino alla fine. Consulta [questa sezione](../building-journeys/journey.md#close-journey)
 
-È possibile arrestare un percorso solo in caso di emergenza ed è necessario terminare immediatamente l&#39;elaborazione in un percorso. Le persone che sono già entrate in un percorso sono tutte fermate nel loro avanzamento. Vedi [questa sezione](../building-journeys/journey.md#stop-journey)
+È possibile arrestare un percorso solo in caso di emergenza ed è necessario terminare immediatamente l&#39;elaborazione in un percorso. Le persone che sono già entrate in un percorso sono tutte fermate nel loro avanzamento. Consulta [questa sezione](../building-journeys/journey.md#stop-journey)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Un percorso può essere chiuso per i motivi seguenti:
 
 * Il percorso viene chiuso manualmente tramite **[!UICONTROL Chiudi ai nuovi ingressi]** pulsante.
 * Percorso basato su un segmento one-shot completato.
-* Dopo l’ultima occorrenza di un percorso ricorrente basato su segmenti.
+* Dopo l’ultima occorrenza di un percorso ricorrente basato su pubblico.
 
 La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato. Consulta questa [sezione](../building-journeys/journey-gs.md#global_timeout).
 

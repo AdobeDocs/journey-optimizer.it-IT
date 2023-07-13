@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 17%
@@ -61,14 +61,14 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![](assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} per creare i segmenti, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo di segmenti nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} per creare i tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic sui messaggi passati) con l’editor semplice. A questo scopo, utilizza l’editor avanzato. Consulta [questa pagina](expression/expressionadvanced.md).
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Vedi [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
@@ -145,11 +145,11 @@ Il limite del profilo non viene preso in considerazione nella modalità di test.
 
 ![](assets/profile-cap-condition.png)
 
-## Utilizzo di segmenti nelle condizioni {#using-a-segment}
+## Utilizzo dei tipi di pubblico nelle condizioni {#using-a-segment}
 
-Questa sezione spiega come utilizzare un segmento in una condizione di percorso. Per ulteriori informazioni sui segmenti e su come generarli, consulta [questa sezione](../segment/about-segments.md).
+Questa sezione spiega come utilizzare un pubblico in una condizione di percorso. Per ulteriori informazioni sui tipi di pubblico e su come generarli, consulta [questa sezione](../audience/about-audiences.md).
 
-Per utilizzare un segmento in una condizione di percorso, effettua le seguenti operazioni:
+Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti operazioni:
 
 1. Apri un percorso, rilascia una **[!UICONTROL Condizione]** e scegli la **Condizione origine dati**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Per utilizzare un segmento in una condizione di percorso, effettua le seguenti o
 
    ![](assets/segment3.png)
 
-1. Sul lato sinistro, apri **[!UICONTROL Segmenti]** nodo. Trascina e rilascia il segmento da utilizzare per la condizione. Per impostazione predefinita, la condizione sul segmento è true.
+1. Sul lato sinistro, apri **[!UICONTROL Tipi di pubblico]** nodo. Trascina e rilascia il pubblico da utilizzare per la condizione. Per impostazione predefinita, la condizione sul pubblico è true.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Tieni presente che solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione al segmento verranno considerati come membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Tieni presente che solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione del pubblico verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

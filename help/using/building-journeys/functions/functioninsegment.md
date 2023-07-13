@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, function, expression, percorsi
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 6%
 
 ---
 
 # inSegment {#inSegment}
 
-Controlla se un singolo appartiene a un dato segmento.
+Controlla se un singolo appartiene a un determinato pubblico.
 
 >[!NOTE]
 >
->Puoi recuperare fino a 100 segmenti.
+>Puoi recuperare fino a 100 tipi di pubblico.
 
-Il nome del segmento deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione.
+Il nome del pubblico deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione.
 
-I segmenti sono definiti in [Adobe Experience Platform](https://platform.adobe.com/segment/overview). L’editor espressioni fornisce un elenco di segmenti completato automaticamente.
+I tipi di pubblico sono definiti in [Adobe Experience Platform](https://platform.adobe.com/audience/overview). L’editor espressioni fornisce un elenco di tipi di pubblico compilato automaticamente.
 
-I segmenti possono avere tre stati:
+I tipi di pubblico possono avere tre stati:
 
-* esistente: l’entità continua a essere nel segmento.
-* realizzato: l’entità sta entrando nel segmento.
-* uscita: l’entità sta uscendo dal segmento.
+* esistente: l’entità continua a essere nel pubblico.
+* realizzato: l’entità sta entrando nel pubblico.
+* uscita: l’entità sta uscendo dal pubblico.
 
-Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione al segmento verranno considerati come membri del segmento. Per ulteriori informazioni su come valutare un segmento, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione del pubblico verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Parametro | Descrizione | Tipo |
 |--- |--- |--- |
-| Segmento | Il nome del segmento | `<string>` |
+| Segmento | Il nome del pubblico | `<string>` |
 
 ## Firma e tipo restituito
 
@@ -64,4 +64,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se l’individuo all’interno dell’istanza del percorso fa parte del segmento Adobe Experience Platform denominato &quot;men over 50&quot;, **[!UICONTROL false]** altrimenti.
+La funzione restituirà **[!UICONTROL true]** se l’individuo all’interno dell’istanza del percorso fa parte del pubblico Adobe Experience Platform denominato &quot;uomini sopra i 50 anni&quot;, **[!UICONTROL false]** altrimenti.

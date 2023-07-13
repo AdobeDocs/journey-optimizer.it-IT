@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 22752a30fef53808fa9deb80a2053d5bc22abc95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 4%
 
 ---
@@ -94,7 +94,7 @@ Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se
    {%/if%}
    ```
 
-1. **Contenuto condizionale basato sull’iscrizione al segmento**
+1. **Contenuto condizionale basato sull’iscrizione al pubblico**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla segmentazione e sul servizio di segmentazione, consulta questa pagina [sezione](../../segment/about-segments.md).
+>Per ulteriori informazioni sui tipi di pubblico e sul servizio di segmentazione, consulta questa pagina [sezione](../../audience/about-audiences.md).
 
 
 ## A meno che{#unless}

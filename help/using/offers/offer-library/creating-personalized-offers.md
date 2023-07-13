@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -69,7 +69,7 @@ Per creare un **offerta**, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
    >Tieni presente che le stime di profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
@@ -122,11 +122,11 @@ Il **[!UICONTROL Altre azioni]** consente di eseguire le azioni descritte di seg
 * **[!UICONTROL Duplica]**: crea un’offerta con le stesse proprietà, rappresentazioni, regole di idoneità e vincoli. Per impostazione predefinita, la nuova offerta presenta **[!UICONTROL Bozza]** stato.
 * **[!UICONTROL Elimina]**: rimuove l’offerta dall’elenco.
 
-   >[!CAUTION]
-   >
-   >L’offerta e il suo contenuto non saranno più accessibili. Questa azione non può essere annullata.
-   >
-   >Se l’offerta viene utilizzata in una raccolta o in una decisione, non può essere eliminata. Devi prima rimuovere l’offerta da qualsiasi oggetto.
+  >[!CAUTION]
+  >
+  >L’offerta e il suo contenuto non saranno più accessibili. Questa azione non può essere annullata.
+  >
+  >Se l’offerta viene utilizzata in una raccolta o in una decisione, non può essere eliminata. Devi prima rimuovere l’offerta da qualsiasi oggetto.
 
 * **[!UICONTROL Archivia]**: imposta lo stato dell’offerta su **[!UICONTROL Archiviato]**. L’offerta è ancora disponibile dall’elenco, ma non è possibile impostarne nuovamente lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
 

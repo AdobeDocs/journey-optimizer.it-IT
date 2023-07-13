@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulle versioni precedenti (2021)
 description: Note sulle versioni 2021 di Journey Optimizer
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -65,7 +65,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 <tbody>
 <tr>
 <td>
-<p>Ora puoi personalizzare il contenuto delle offerte utilizzando gli attributi e i segmenti del profilo Adobe Experience Platform, utilizzando lo stesso componente editor di espressioni presente nell’interfaccia utente di Journey Optimizer. </p>
+<p>Ora puoi personalizzare il contenuto delle offerte utilizzando gli attributi del profilo di Adobe Experience Platform e i tipi di pubblico, utilizzando lo stesso componente editor di espressioni presente nell’interfaccia utente di Journey Optimizer. </p>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Percorsi**
 
-* **Editor espressioni** - In qualità di utente avanzato, ora puoi utilizzare le funzioni per lavorare con le mappe. Questa funzionalità può essere utilizzata con gli elenchi degli abbonamenti. Ad esempio, da un segmento, puoi ottenere un indirizzo e-mail da un elenco di abbonamenti. [Per ulteriori informazioni, consulta questa pagina](../building-journeys/message-to-subscribers-uc.md)
+* **Editor espressioni** - In qualità di utente avanzato, ora puoi utilizzare le funzioni per lavorare con le mappe. Questa funzionalità può essere utilizzata con gli elenchi degli abbonamenti. Ad esempio, da un pubblico, ora puoi ottenere un indirizzo e-mail da un elenco di abbonamenti. [Per ulteriori informazioni, consulta questa pagina](../building-journeys/message-to-subscribers-uc.md)
 
 * **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../reports/sharing-field-list.md#serviceevents) sono stati aggiunti in relazione ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento del passaggio sono ora organizzati in diverse categorie. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nella categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Accessibilità** - I miglioramenti all’accessibilità sono stati implementati nei percorsi.
@@ -262,12 +262,12 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 * **Intestazioni dinamiche** - Ora puoi trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 * **Percorsi URL dinamici** - Ora puoi impostare percorsi URL dinamici per azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
-* Il tasso di limitazione complessivo per i segmenti letti è stato modificato da 17.000 a 20.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il tasso di limitazione complessivo per i tipi di pubblico di lettura è stato modificato da 17.000 a 20.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Interfaccia utente**
 
 * **Ricerca** - In ogni pagina, ora puoi e cercare oggetti aziendali e gli articoli direttamente dal campo di ricerca Unified Experience Cloud. [Ulteriori informazioni](../start/user-interface.md#unified-search)
-* **Recenti** - La visualizzazione degli elementi recenti della home page di Adobe Journey Optimizer è ora estesa ad altri oggetti aziendali. Con questo aggiornamento, le scelte rapide per l’accesso recente includono Messaggi, Percorsi, Segmenti, Schemi, Set di dati, Origini dati, Eventi, Azioni, Origini e Destinazioni. [Ulteriori informazioni](../action/about-custom-action-configuration.md#passing-collection)
+* **Recenti** - La visualizzazione degli elementi recenti della home page di Adobe Journey Optimizer è ora estesa ad altri oggetti aziendali. Con questo aggiornamento, le scelte rapide per l’accesso recente includono Messaggi, Percorsi, Tipi di pubblico, Schemi, Set di dati, Origini dati, Eventi, Azioni, Origini e Destinazioni. [Ulteriori informazioni](../action/about-custom-action-configuration.md#passing-collection)
 
 **Progettazione dei contenuti**
 
@@ -337,12 +337,12 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Percorsi**
 
-* Il tasso di limitazione complessivo di tutti i segmenti letti eseguiti contemporaneamente nella stessa sandbox è limitato a 17.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il tasso di limitazione complessivo di tutti i tipi di pubblico letti eseguiti contemporaneamente nella stessa sandbox è limitato a 17.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Il campo **Durata della cache** è stato rimosso dal riquadro di configurazione dell’origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](../configuration/external-systems.md#capping)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
 * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso. [Ulteriori informazioni](../start/user-interface.md#filter-lists)
-* Il **[!UICONTROL Tasso di limitazione]** Il parametro è stato aggiunto nell’attività Leggi segmento. [Maggiori informazioni](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Il **[!UICONTROL Tasso di limitazione]** Il parametro è stato aggiunto nell’attività Read audience. [Maggiori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Anteprima e test**
 

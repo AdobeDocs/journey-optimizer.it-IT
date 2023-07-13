@@ -1,12 +1,12 @@
 ---
 title: API Batch Decisioning
-description: Scopri come utilizzare l’API Batch Decisioning per selezionare le offerte migliori per i profili segmentati all’interno di un ambito decisionale predefinito.
+description: Scopri come utilizzare l’API Batch Decisioning per selezionare le offerte migliori per i profili di pubblico all’interno di un ambito decisionale predefinito.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 4%
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 # Consegnare offerte tramite [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-Il [!DNL Batch Decisioning] API consente alle organizzazioni di utilizzare la funzionalità di decisioning per tutti i profili in un dato segmento in una chiamata. Il contenuto dell’offerta per ogni profilo del segmento viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
+Il [!DNL Batch Decisioning] API consente alle organizzazioni di utilizzare la funzionalità di decisioning per tutti i profili in un determinato pubblico in una chiamata. Il contenuto dell’offerta per ogni profilo del pubblico viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
 
-Con il [!DNL Batch Decisioning] API, puoi popolare un set di dati con le offerte migliori per tutti i profili in un segmento Adobe Experience Platform per gli ambiti decisionali. Ad esempio, un’organizzazione potrebbe voler eseguire [!DNL Batch Decisioning] in modo che possano inviare offerte a un fornitore di consegna dei messaggi. Tali offerte vengono quindi utilizzate come contenuto inviato per la consegna di messaggi in batch allo stesso segmento di utenti.
+Con il [!DNL Batch Decisioning] API, puoi popolare un set di dati con le offerte migliori per tutti i profili in un pubblico Adobe Experience Platform, per ambiti decisionali. Ad esempio, un’organizzazione potrebbe voler eseguire [!DNL Batch Decisioning] in modo che possano inviare offerte a un fornitore di consegna dei messaggi. Tali offerte vengono quindi utilizzate come contenuto inviato per la consegna di messaggi in batch allo stesso pubblico di utenti.
 
 A tal fine, l’organizzazione:
 
@@ -30,7 +30,7 @@ A tal fine, l’organizzazione:
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Prima di utilizzare questa API, assicurati di completare i seguenti passaggi pre
 
 ### Preparare la decisione {#prepare-decision}
 
-Per preparare una o più decisioni, assicurati di aver creato un set di dati, un segmento e una decisione. Tali prerequisiti sono descritti in [questa sezione](../../batch-delivery.md).
+Per preparare una o più decisioni, assicurati di aver creato un set di dati, un pubblico e una decisione. Tali prerequisiti sono descritti in [questa sezione](../../batch-delivery.md).
 
 ### Requisiti API {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | Proprietà | Descrizione | Esempio |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | Il valore è un array che contiene l’identificatore univoco del segmento. Può contenere un solo valore. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | Il valore è un array che contiene l’identificatore univoco del pubblico. Può contenere un solo valore. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | Il set di dati di output in cui è possibile scrivere gli eventi di decisione. | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | Un wrapper che contiene `placementId` e `activityId` |  |
 | `xdm:activityId` | L’identificatore univoco della decisione. | `xcore:offer-activity:1410cdcda196707b` |

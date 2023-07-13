@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 60%
+ht-degree: 68%
 
 ---
 
@@ -62,13 +62,13 @@ ht-degree: 60%
 
 Utilizza Adobe Journey Optimizer Designer per definire facilmente la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, è possibile progettare la forma del contenuto in pochi secondi.
 
-Per iniziare a creare il contenuto delle , segui i passaggi seguenti:
+Per iniziare a creare il contenuto delle , segui i passaggi indicati di seguito:
 
-1. Dalla pagina home di Designer, seleziona l’opzione **[!UICONTROL Progetta da zero]**.
+1. Dalla pagina Home di Designer, seleziona l’opzione **[!UICONTROL Progetta da zero]**.
 
    ![](assets/email_designer.png)
 
-1. Inizia a progettare il contenuto trascinando la selezione **[!UICONTROL Strutture]** nell’area di lavoro per definire il layout dell’e-mail.
+1. Per iniziare a progettare il contenuto delle , trascina nell’area di lavoro le **[!UICONTROL Strutture]** per definire il layout del messaggio e-mail.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Per iniziare a creare il contenuto delle , segui i passaggi seguenti:
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Aggiungi tanti **[!UICONTROL Strutture]** in base alle esigenze e modificarne le impostazioni nel riquadro dedicato a destra.
+1. Aggiungi tutte le **[!UICONTROL Strutture]** necessarie e modificane le impostazioni nel riquadro dedicato a destra.
 
    ![](assets/email_designer_structure_components.png)
 
@@ -98,7 +98,7 @@ Per iniziare a creare il contenuto delle , segui i passaggi seguenti:
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Inserisci campi di personalizzazione per personalizzare il contenuto da attributi di profili, appartenenze a segmenti, attributi contestuali e altro ancora. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
+1. Inserisci campi di personalizzazione per personalizzare il contenuto da attributi di profili, iscrizioni di pubblico, attributi contestuali e altro ancora. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
@@ -106,7 +106,7 @@ Per iniziare a creare il contenuto delle , segui i passaggi seguenti:
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Fai clic su **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare tutti gli URL del contenuto che verranno tracciati. È possibile modificare i **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungi **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni su collegamenti e tracciamento](message-tracking.md)
+1. Fai clic sulla scheda **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare tutti gli URL del contenuto che saranno tracciati. È possibile modificare i **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungi **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni su collegamenti e tracciamento](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 

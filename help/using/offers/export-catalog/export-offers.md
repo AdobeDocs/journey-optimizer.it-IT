@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 3%
@@ -61,17 +61,17 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * **Data e ora di fine**
 
-   **Campo:** endDate
-   **Titolo:** Data e ora di fine
-   **Descrizione:** Data di fine della validità delle opzioni di decisione. Le opzioni che hanno superato la data di fine non possono più essere proposte nel processo decisionale.
-   **Tipo:** stringa
+  **Campo:** endDate
+  **Titolo:** Data e ora di fine
+  **Descrizione:** Data di fine della validità delle opzioni di decisione. Le opzioni che hanno superato la data di fine non possono più essere proposte nel processo decisionale.
+  **Tipo:** stringa
 
 * **Data e ora di inizio**
 
-   **Campo:** startDate
-   **Titolo:** Data e ora di inizio
-   **Descrizione:** Data di inizio della validità delle opzioni di decisione. Le opzioni che non hanno raggiunto la data di inizio non possono ancora essere proposte nel processo decisionale.
-   **Tipo:** stringa
+  **Campo:** startDate
+  **Titolo:** Data e ora di inizio
+  **Descrizione:** Data di inizio della validità delle opzioni di decisione. Le opzioni che non hanno raggiunto la data di inizio non possono ancora essere proposte nel processo decisionale.
+  **Tipo:** stringa
 
 +++
 
@@ -102,83 +102,83 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * **_experience > decisioning > contenuti > componenti > Tipo di componente Contenuto**
 
-   **Campo:** _type
-   **Titolo:** Tipo di componente contenuto
-   **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente contenuto.
-   **Tipo:** stringa
+  **Campo:** _type
+  **Titolo:** Tipo di componente contenuto
+  **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente contenuto.
+  **Tipo:** stringa
 
 * **_esperienza > decisioni > contenuti > componenti > _dc**
 
-   **Campo:** _dc
-   **Tipo:** oggetto
-   **Obbligatorio:** &quot;format&quot;
+  **Campo:** _dc
+  **Tipo:** oggetto
+  **Obbligatorio:** &quot;format&quot;
 
    * **Formato**
 
-      **Campo:** formato
-      **Titolo:** Formato
-      **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici).
-      **Tipo:** stringa
-      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
+     **Campo:** formato
+     **Titolo:** Formato
+     **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici).
+     **Tipo:** stringa
+     **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
-      **Campo:** lingua
-      **Titolo:** Lingua
-      **Descrizione:** Lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
-      **Tipo:** array
-      **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Campo:** lingua
+     **Titolo:** Lingua
+     **Descrizione:** Lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
+     **Tipo:** array
+     **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > sommario > componenti > _repo**
 
-   **Campo:** _repo
-   **Tipo:** oggetto
+  **Campo:** _repo
+  **Tipo:** oggetto
 
    * **id**
 
-      **Campo:** id
-      **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-      **Tipo:** stringa
-      **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Campo:** id
+     **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+     **Tipo:** stringa
+     **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **nome**
 
-      **Campo:** nome
-      **Descrizione:** Alcuni suggerimenti su dove individuare l’archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
-      **Tipo:** stringa
+     **Campo:** nome
+     **Descrizione:** Alcuni suggerimenti su dove individuare l’archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
+     **Tipo:** stringa
 
    * **repositoryID**
 
-      **Campo:** repositoryID
-      **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-      **Tipo:** stringa
-      **Esempio:** C87932A55B06F7070A49412D@AdobeOrg
+     **Campo:** repositoryID
+     **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+     **Tipo:** stringa
+     **Esempio:** C87932A55B06F7070A49412D@AdobeOrg
 
    * **resolveURL**
 
-      **Campo:** resolveURL
-      **Descrizione:** Un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
-      **Tipo:** stringa
-      **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Campo:** resolveURL
+     **Descrizione:** Un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
+     **Tipo:** stringa
+     **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_esperienza > decisioning > contenuti > componenti > contenuto**
 
-   **Campo:** contenuto
-   **Descrizione:** Un campo facoltativo che contiene direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente il contenuto semplice. Questo campo non viene utilizzato per risorse di contenuto composito, complesso e binario.
-   **Tipo:** stringa
+  **Campo:** contenuto
+  **Descrizione:** Un campo facoltativo che contiene direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente il contenuto semplice. Questo campo non viene utilizzato per risorse di contenuto composito, complesso e binario.
+  **Tipo:** stringa
 
 * **_experience > decisioning > contenuti > componenti > deliveryURL**
 
-   **Campo:** deliveryURL
-   **Descrizione:** Un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere alla risorsa pubblicamente da un agente utente.
-   **Tipo:** stringa
-   **Esempio:** https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg
+  **Campo:** deliveryURL
+  **Descrizione:** Un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere alla risorsa pubblicamente da un agente utente.
+  **Tipo:** stringa
+  **Esempio:** https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg
 
 * **_experience > decisioning > sommario > componenti > linkURL**
 
-   **Campo:** linkURL
-   **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
-   **Tipo:** stringa
-   **Esempio:** https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg
+  **Campo:** linkURL
+  **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
+  **Tipo:** stringa
+  **Esempio:** https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg
 
 +++_esperienza > decisioning > content > Placement (Decisioning > Contenuti > Posizionamento)
 
@@ -239,13 +239,13 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** profileConstraintType
 **Titolo:** Tipo di vincolo profilo
-**Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze a segmenti.
+**Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 * &quot;none&quot; (impostazione predefinita)
 * &quot;EliabilityRule&quot;: &quot;Il vincolo di profilo è espresso come una singola regola che deve restituire true prima che l’azione vincolata sia consentita.&quot;
-* &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;
-* &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più segmenti e il profilo deve essere un membro di tutti loro prima che l’azione vincolata sia consentita.&quot;
+* &quot;anySegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più tipi di pubblico e il profilo deve essere membro di almeno uno di essi prima che l’azione vincolata sia consentita.&quot;
+* &quot;allSegments&quot;: &quot;Il vincolo di profilo è espresso come uno o più tipi di pubblico e il profilo deve essere un membro di tutti loro prima che l’azione vincolata sia consentita.&quot;
 * &quot;regole&quot;: &quot;Il vincolo di profilo è espresso come una serie di regole diverse, ad esempio idoneità, applicabilità, idoneità, che tutte devono restituire true prima che l’azione vincolata sia consentita.&quot;
 
 +++
@@ -254,37 +254,37 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** segmentIdentities
 **Titolo:** Identificatori segmento
-**Descrizione:** Identificatori dei segmenti
+**Descrizione:** Identificatori dei tipi di pubblico
 **Tipo:** array
 
 * **Identificatore**
 
-   **Campo:** _id
-   **Titolo:** Identificatore
-   **Descrizione:** Identità del segmento nel relativo spazio dei nomi.
-   **Tipo:** stringa
+  **Campo:** _id
+  **Titolo:** Identificatore
+  **Descrizione:** Identità del pubblico nel relativo spazio dei nomi.
+  **Tipo:** stringa
 
 * **Spazio dei nomi**
 
-   **Campo:** namespace
-   **Titolo:** Namespace
-   **Descrizione:** Lo spazio dei nomi associato al `xid` attributo.
-   **Tipo:** oggetto
-   **Obbligatorio:** &quot;code&quot;
+  **Campo:** namespace
+  **Titolo:** Namespace
+  **Descrizione:** Lo spazio dei nomi associato al `xid` attributo.
+  **Tipo:** oggetto
+  **Obbligatorio:** &quot;code&quot;
 
    * **Codice**
 
-      **Campo:** codice
-      **Titolo:** Codice
-      **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere usato per richiedere l’ID tecnico dello spazio dei nomi, che a sua volta è usato per l’elaborazione del grafico delle identità.
-      **Tipo:** stringa
+     **Campo:** codice
+     **Titolo:** Codice
+     **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere usato per richiedere l’ID tecnico dello spazio dei nomi, che a sua volta è usato per l’elaborazione del grafico delle identità.
+     **Tipo:** stringa
 
 * **Identificatore dell’esperienza**
 
-   **Campo:** xid
-   **Titolo:** Identificatore dell’esperienza
-   **Descrizione:** Se presente, questo valore rappresenta un identificatore per più spazi dei nomi che è univoco tra tutti gli identificatori relativi allo spazio dei nomi in tutti gli spazi dei nomi.
-   **Tipo:** stringa
+  **Campo:** xid
+  **Titolo:** Identificatore dell’esperienza
+  **Descrizione:** Se presente, questo valore rappresenta un identificatore per più spazi dei nomi che è univoco tra tutti gli identificatori relativi allo spazio dei nomi in tutti gli spazi dei nomi.
+  **Tipo:** stringa
 
 +++
 
@@ -306,25 +306,25 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * **Funzione punteggio**
 
-   **Campo:** funzione
-   **Titolo:** Funzione punteggio
-   **Descrizione:** Riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione verranno quindi ordinate (classificate) in base a tale punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/function.
-   **Tipo:** stringa
+  **Campo:** funzione
+  **Titolo:** Funzione punteggio
+  **Descrizione:** Riferimento a una funzione che calcola un punteggio numerico per questa opzione di decisione. Le opzioni di decisione verranno quindi ordinate (classificate) in base a tale punteggio. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/function.
+  **Tipo:** stringa
 
 * **Tipo di valutazione ordine**
 
-   **Campo:** orderEvaluationType
-   **Titolo:** Tipo di valutazione ordine
-   **Descrizione:** Specifica il meccanismo di valutazione dell’ordine utilizzato, la priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarla.
-   **Tipo:** stringa
-   **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Campo:** orderEvaluationType
+  **Titolo:** Tipo di valutazione ordine
+  **Descrizione:** Specifica il meccanismo di valutazione dell’ordine utilizzato, la priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o una strategia di classificazione che riceve un elenco per ordinarla.
+  **Tipo:** stringa
+  **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Strategia di classificazione**
 
-   **Campo:** rankingStrategy
-   **Titolo:** Strategia di classificazione
-   **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni di decisione. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Tipo:** stringa
+  **Campo:** rankingStrategy
+  **Titolo:** Strategia di classificazione
+  **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni di decisione. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Tipo:** stringa
 
 +++
 

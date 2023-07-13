@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 77%
+ht-degree: 65%
 
 ---
 
@@ -29,13 +29,12 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
-* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del segmento**.
-* Un percorso che inizia con un’attività di **Qualificazione del segmento** nella versione v1 deve sempre iniziare con una **Qualificazione del segmento** nelle altre versioni.
-* Segmento e spazio dei nomi scelti in **Qualificazione del segmento** (primo nodo) non può essere modificato nelle nuove versioni.
+* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un **Qualificazione del pubblico** evento.
+* Un percorso che inizia con **Qualificazione del pubblico** l&#39;attività nella versione 1 deve sempre iniziare con un **Qualificazione del pubblico** in altre versioni.
+* Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
-* Un percorso che inizia con un’attività di **Lettura segmento** non può iniziare con un altro evento nelle versioni successive.
+* Un percorso che inizia con **Read Audience** non può iniziare con un altro evento nelle versioni successive.
  
-
 ## Limitazioni delle azioni personalizzate
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
@@ -44,12 +43,10 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 * Gli indirizzi IP non sono consentiti. 
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
-
 ## Limitazioni degli eventi
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
-
 ## Limitazioni delle origini dati
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
@@ -66,6 +63,6 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc).
 
-## Limitazioni di Leggi segmento
+## Limitazioni del pubblico di lettura
 
-* I segmenti in streaming sono sempre aggiornati, ma i segmenti batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del batch.
+* I tipi di pubblico in streaming sono sempre aggiornati, ma quelli in batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del batch.
