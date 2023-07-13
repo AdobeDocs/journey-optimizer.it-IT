@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 26%
+source-wordcount: '1354'
+ht-degree: 24%
 
 ---
 
 # Lavorare nell’area di lavoro per la composizione {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* [Creare il primo flusso di lavoro per la composizione](create-compositions.md)
-* **[Lavorare nell’area di lavoro per la composizione](composition-canvas.md)**
-* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 La composizione del pubblico fornisce un’area di lavoro visiva che consente di creare tipi di pubblico e utilizzare varie attività (suddivisione, arricchimento, ecc.).
 
@@ -151,6 +138,8 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 Il **[!UICONTROL Arricchire]** attività ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
 
 >[!IMPORTANT]
+>
+>Arricchimento disponibile per **[!UICONOTROL Adobe Journey Optimizer]** solo utenti.
 >
 >Per il momento, le etichette del set di dati, a livello di set di dati o di campo, non vengono propagate al pubblico appena creato. Questo può influire sul controllo degli accessi e/o sulla governance dei dati per il pubblico risultante. Per questo motivo, utilizza solo i dati di prova durante la composizione dei tipi di pubblico.
 

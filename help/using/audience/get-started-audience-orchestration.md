@@ -7,14 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 91%
+source-wordcount: '273'
+ht-degree: 90%
 
 ---
 
@@ -24,21 +22,6 @@ ht-degree: 91%
 >id="ajo_ao_create_composition"
 >title="Creare una composizione"
 >abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico."
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* **[Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)**
-* [Creare il primo flusso di lavoro per la composizione](create-compositions.md)
-* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
-* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Al momento, la composizione del pubblico è disponibile solo per un gruppo limitato di clienti. In caso di domande, contatta il tuo rappresentante Adobe.
 
 La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico.
 

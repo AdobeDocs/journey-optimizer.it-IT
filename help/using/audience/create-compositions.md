@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 14%
+source-wordcount: '377'
+ht-degree: 8%
 
 ---
 
 # Creare il primo flusso di lavoro per la composizione {#create-compositions}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* **[Creare il primo flusso di lavoro di composizione](create-compositions.md)**
-* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
-* [Accesso e gestione dei tipi di pubblico](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 ## Creare un flusso di lavoro di composizione {#create}
 

@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 17%
+source-wordcount: '136'
+ht-degree: 6%
 
 ---
 
 # Accesso e gestione dei tipi di pubblico {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
-* [Creare il primo flusso di lavoro per la composizione](create-compositions.md)
-* [Lavorare nell’area di lavoro per la composizione](composition-canvas.md)
-* **[Accesso e gestione dei tipi di pubblico](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 I tipi di pubblico risultanti dalla composizione del pubblico sono accessibili dalla sezione **[!UICONTROL Sfoglia]** scheda in **[!UICONTROL Tipi di pubblico]** menu.
 
@@ -38,8 +25,6 @@ Questa scheda elenca tutti i tipi di pubblico memorizzati in Adobe Experience Pl
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->Per questa versione beta, diversi componenti e/o metadati inizialmente visualizzati nell’inventario del pubblico non vengono visualizzati in questa scheda (ad esempio, suddivisione, metodo di valutazione, ecc.).
 >
 >Per ulteriori informazioni su altri tipi di pubblico disponibili in Adobe Experience Platform, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
