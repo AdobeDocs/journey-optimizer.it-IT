@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '901'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -50,13 +50,13 @@ Per accedere a questa funzione, seleziona la **[!UICONTROL Simulazione]** scheda
 >id="ajo_decisioning_simulation_test_profile"
 >title="Aggiungere profili di test"
 >abstract="Puoi aggiungere un profilo di test selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. I profili di test devono essere già disponibili per poter essere usati per la simulazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=it" text="Creare profili di test"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Creare profili di test"
 
 Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione.
 
 >[!CAUTION]
 >
->Devi disporre di profili di test per simulare quali offerte verranno consegnate. Scopri come [creare profili di test](../../segment/creating-test-profiles.md).
+>Devi disporre di profili di test per simulare quali offerte verranno consegnate. Scopri come [creare profili di test](../../audience/creating-test-profiles.md).
 
 1. Clic **[!UICONTROL Gestisci profilo]**.
 
@@ -66,7 +66,7 @@ Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione
 
    >[!NOTE]
    >
-   >Uno spazio dei nomi delle identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID del sistema di gestione delle relazioni con i clienti. Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform [in questa sezione](../../segment/get-started-identity.md){target="_blank"}.
+   >Uno spazio dei nomi delle identità definisce il contesto di un identificatore, ad esempio un indirizzo e-mail o un ID del sistema di gestione delle relazioni con i clienti. Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform [in questa sezione](../../audience/get-started-identity.md){target="_blank"}.
 
 1. Inserisci il valore di identità e fai clic su **[!UICONTROL Visualizza]** per elencare i profili disponibili.
 

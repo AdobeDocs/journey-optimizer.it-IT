@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -64,7 +64,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definire l’idoneità"
->abstract="Per impostazione predefinita, l’offerta può essere presentata a qualsiasi profilo, ma puoi utilizzare segmenti o regole di decisione per limitare l’offerta a profili specifici."
+>abstract="Per impostazione predefinita, qualsiasi profilo è idoneo alla presentazione dell’offerta, ma puoi utilizzare tipi di pubblico o regole decisionali per limitare l’offerta a profili specifici."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,33 +75,33 @@ Ad esempio, se impostate i seguenti vincoli:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Stima totale dei profili"
->abstract="Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati."
+>abstract="Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati."
 
-Il **[!UICONTROL Idoneità dell’offerta]** Questa sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando segmenti o regole di decisione.
+Il **[!UICONTROL Idoneità dell’offerta]** Questa sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando tipi di pubblico o regole decisionali.
 
 >[!NOTE]
 >
->Ulteriori informazioni sull’utilizzo di **segmenti** rispetto a **regole di decisione** in [questa sezione](#segments-vs-decision-rules).
+>Ulteriori informazioni sull’utilizzo di **audience** rispetto a **regole di decisione** in [questa sezione](#segments-vs-decision-rules).
 
 * Per impostazione predefinita, il **[!UICONTROL Tutti i visitatori]** L’opzione è selezionata, il che significa che qualsiasi profilo sarà idoneo per ricevere l’offerta.
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
-* Puoi anche limitare la presentazione dell’offerta ai membri di uno o più [Segmenti Adobe Experience Platform](../../segment/about-segments.md).
+* Puoi anche limitare la presentazione dell’offerta ai membri di uno o più [Pubblico Adobe Experience Platform](../../audience/about-audiences.md).
 
-   A questo scopo, attiva il **[!UICONTROL Visitatori che rientrano in uno o più segmenti]** , quindi aggiungi uno o più segmenti dal riquadro a sinistra e combinali utilizzando il comando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
+  A questo scopo, attiva il **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]** , quindi aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * Se si desidera associare un [regola di decisione](../offer-library/creating-decision-rules.md) all’offerta, seleziona **[!UICONTROL Per regola di decisione definita]**, quindi trascina la regola desiderata dal riquadro di sinistra a **[!UICONTROL Regola di decisione]** area.
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
+  >[!CAUTION]
+  >
+  >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
 
-Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni sulla stima dei profili qualificati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,23 +109,23 @@ Quando selezioni segmenti o regole di decisione, puoi visualizzare informazioni 
 >
 >Le stime del profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
-### Utilizzo di segmenti e regole di decisione {#segments-vs-decision-rules}
+### Utilizzo dei tipi di pubblico e delle regole di decisione {#segments-vs-decision-rules}
 
-Per applicare un vincolo, è possibile limitare la selezione delle offerte ai membri di uno o più **Segmenti Adobe Experience Platform**, oppure puoi utilizzare una **regola di decisione**, entrambe le soluzioni corrispondono a utilizzi diversi.
+Per applicare un vincolo, è possibile limitare la selezione delle offerte ai membri di uno o più **Pubblico Adobe Experience Platform**, oppure puoi utilizzare una **regola di decisione**, entrambe le soluzioni corrispondono a utilizzi diversi.
 
-Fondamentalmente, l’output di un segmento è un elenco di profili, mentre una regola di decisione è una funzione eseguita su richiesta su un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è descritta di seguito.
+In sostanza, l’output di un pubblico è un elenco di profili, mentre una regola di decisione è una funzione eseguita su richiesta su un singolo profilo durante il processo decisionale. La differenza tra questi due utilizzi è descritta di seguito.
 
-* **Segmenti**
+* **Tipi di pubblico**
 
-   Da un lato, i segmenti sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica basata sugli attributi del profilo e sugli eventi di esperienza. Tuttavia, Gestione offerte non ricalcola il segmento, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
+  Da un lato, i tipi di pubblico sono un gruppo di profili Adobe Experience Platform che corrispondono a una determinata logica basata sugli attributi del profilo e sugli eventi di esperienza. Tuttavia, Gestione delle offerte non ricalcola il pubblico, che potrebbe non essere aggiornato al momento della presentazione dell’offerta.
 
-   Ulteriori informazioni sui segmenti in [questa sezione](../../segment/about-segments.md).
+  Ulteriori informazioni sui tipi di pubblico in [questa sezione](../../audience/about-audiences.md).
 
 * **Regole di decisione**
 
-   D’altra parte, una regola di decisione si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’offerta più recente e migliore.
+  D’altra parte, una regola di decisione si basa sui dati disponibili in Adobe Experience Platform e determina a chi può essere visualizzata un’offerta. Una volta selezionata in un’offerta o in una decisione per un determinato posizionamento, la regola viene eseguita ogni volta che viene presa una decisione, in modo che ogni profilo ottenga l’offerta più recente e migliore.
 
-   Ulteriori informazioni sulle regole di decisione in [questa sezione](creating-decision-rules.md).
+  Ulteriori informazioni sulle regole di decisione in [questa sezione](creating-decision-rules.md).
 
 ## Limitazione {#capping}
 
@@ -186,16 +186,16 @@ Il **[!UICONTROL Evento di limite]** campo consente di definire quale **[!UICONT
 * **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un’offerta.
 * **[!UICONTROL Impression]**: numero massimo di volte che l’offerta può essere visualizzata a un utente.
 
-   >[!NOTE]
-   >
-   >L’utilizzo delle impression come eventi di limitazione è disponibile per **canali in entrata** solo.
+  >[!NOTE]
+  >
+  >L’utilizzo delle impression come eventi di limitazione è disponibile per **canali in entrata** solo.
 
 * **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull’offerta.
 * **[!UICONTROL Evento personalizzato]**: puoi definire un evento personalizzato che verrà utilizzato per limitare il numero di offerte inviate. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono lo stesso 10000, o fino a quando un determinato profilo non viene rimborsato 1 volta. A tale scopo, utilizza [ADOBE EXPERIENCE PLATFORM XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} schemi per creare una regola evento personalizzata.
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   Nell’esempio seguente, desideri limitare il numero di checkout.
+  Nell’esempio seguente, desideri limitare il numero di checkout.
 
    1. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizzare **[!UICONTROL Aggiungi evento personalizzato]** pulsante.
 
@@ -237,11 +237,11 @@ Puoi anche specificare se applicare il limite a tutti gli utenti o a un profilo 
 
 * Seleziona **[!UICONTROL In totale]** per definire quante volte un’offerta può essere proposta al pubblico target combinato, ovvero a tutti gli utenti.
 
-   Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
+  Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
 
 * Seleziona **[!UICONTROL Per profilo]** per definire quante volte un’offerta può essere proposta allo stesso utente.
 
-   Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
+  Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
 
 ### Quota limite {#frequency-capping}
 
@@ -274,11 +274,11 @@ Se hai definito diversi [rappresentazioni](add-representations.md) per l’offer
 
 * **[!UICONTROL In tutti i posizionamenti]**: i conteggi dei limiti calcolano il totale di tutte le decisioni relative ai posizionamenti associati all’offerta.
 
-   Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo in tutti i posizionamenti**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
+  Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo in tutti i posizionamenti**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte in totale, indipendentemente dal mix di posizionamento.
 
 * **[!UICONTROL Per ogni posizionamento]**: i conteggi dei limiti applicheranno separatamente i conteggi delle decisioni per ciascun posizionamento.
 
-   Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo per ciascun posizionamento**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e altre 2 volte per il posizionamento web.
+  Ad esempio, se un’offerta presenta **E-mail** posizionamento e **Web** e impostate la quota limite in corrispondenza di **2 per profilo per ciascun posizionamento**, quindi ogni profilo potrebbe ricevere l’offerta fino a 2 volte per il posizionamento dell’e-mail e altre 2 volte per il posizionamento web.
 
 ### Impatto della modifica delle date sui limiti {#capping-change-date}
 

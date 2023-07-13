@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -205,7 +205,7 @@ Per definire le impostazioni delle pagine secondarie, effettuare le seguenti ope
 >id="ac_preview_lp_profiles"
 >title="Visualizzare l’anteprima e testare la pagina di destinazione"
 >abstract="Una volta definite le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarli in anteprima."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html?lang=it" text="Selezionare i profili di test"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Selezionare i profili di test"
 
 Una volta definiti le impostazioni e il contenuto della pagina di destinazione, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se è stato inserito [contenuti personalizzati](../personalization/personalize.md), potrai controllare come vengono visualizzati questi contenuti nella pagina di destinazione utilizzando i dati del profilo di test.
 
@@ -213,7 +213,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 >
 >Per poter testare le pagine di destinazione, è necessario disporre del **[!UICONTROL Pubblicare i messaggi]** autorizzazione.
 >
->Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. Scopri come [creare profili di test](../segment/creating-test-profiles.md).
+>Per poter visualizzare in anteprima i messaggi e inviare le bozze, è necessario disporre di profili di test. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
 1. Nell’interfaccia della pagina di destinazione, fai clic su **[!UICONTROL Simula contenuto]** per accedere alla selezione del profilo di test.
 
