@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 99%
@@ -282,15 +282,15 @@ ht-degree: 99%
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
       + [Definizioni dei segmenti di build](using/audience/creating-a-segment-definition.md)
+      + Comporre i tipi di pubblico {#audience-orchestration}
+         + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
+         + [Creare flussi di lavoro di composizione](using/audience/create-compositions.md)
+         + [Lavorare nell’area di lavoro per la composizione](using/audience/composition-canvas.md)
+         + [Accesso e gestione dei tipi di pubblico](using/audience/access-audiences.md)
    + Profili{#profiles}
       + [Introduzione ai profili](using/audience/get-started-profiles.md)
       + [Creare profili di test](using/audience/creating-test-profiles.md)
    + [Identità](using/audience/get-started-identity.md)
-   + Comporre i tipi di pubblico {#audience-orchestration}
-      + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
-      + [Creare flussi di lavoro di composizione](using/audience/create-compositions.md)
-      + [Lavorare nell’area di lavoro per la composizione](using/audience/composition-canvas.md)
-      + [Accesso e gestione dei tipi di pubblico](using/audience/access-audiences.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
 + Tracciare e monitorare {#reporting}
    + Rapporti live {#live-report}
