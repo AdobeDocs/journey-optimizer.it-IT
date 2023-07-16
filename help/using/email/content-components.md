@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1354'
 ht-degree: 58%
 
 ---
@@ -60,7 +60,7 @@ Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle 
    >
    >È possibile aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
 
-1. Regola gli attributi di stile per ciascun componente utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]** schede a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
+1. Regola gli attributi e lo stile di ciascun componente utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]** schede a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 

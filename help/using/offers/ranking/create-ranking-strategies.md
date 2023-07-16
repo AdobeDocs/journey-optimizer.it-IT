@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 6%
+source-wordcount: '424'
+ht-degree: 7%
 
 ---
 
@@ -39,7 +39,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
 1. Specifica un nome univoco e una descrizione per il modello di IA, quindi seleziona il tipo di modello di IA da creare:
 
    * **[!UICONTROL Ottimizzazione automatica]** ottimizza le offerte in base alle prestazioni delle offerte passate. [Ulteriori informazioni](auto-optimization-model.md)
-   * **[!UICONTROL Personalizzato]** ottimizza e personalizza le offerte in base al pubblico e alle prestazioni delle offerte. [Ulteriori informazioni](personalized-optimization-model.md)
+   * **[!UICONTROL Ottimizzazione personalizzata]** ottimizza e personalizza le offerte in base al pubblico e alle prestazioni delle offerte. [Ulteriori informazioni](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -61,7 +61,9 @@ Per creare un modello di IA, segui i passaggi seguenti:
    >
    >Solo i set di dati creati da schemi associati al **[!UICONTROL Evento esperienza - Interazioni proposte]** nell’elenco a discesa viene visualizzato il gruppo di campi (precedentemente noto come mixin).
 
-1. Se stai creando un **[!UICONTROL Ottimizzazione personalizzata]** Modello di IA, seleziona i tipi di pubblico da utilizzare per addestrare il modello di IA.
+1. Se stai creando un **[!UICONTROL Ottimizzazione personalizzata]** Modello di IA, seleziona i segmenti da utilizzare per addestrare il modello di IA.
+
+   ➡️ [Scopri questa funzione nel video](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

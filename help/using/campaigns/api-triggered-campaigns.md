@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 3%
+source-wordcount: '917'
+ht-degree: 1%
 
 ---
 
@@ -19,23 +19,27 @@ ht-degree: 3%
 
 ## Informazioni sulle campagne attivate da API {#about}
 
-Con [!DNL Journey Optimizer], puoi creare campagne e richiamarle da un sistema esterno in base all’attivazione dell’utente utilizzando [API REST di esecuzione messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Questo ti consente di soddisfare varie esigenze operative e di messaggistica transazionale, tra cui reimpostazioni di password e token OTP.
+Con [!DNL Journey Optimizer], puoi creare campagne e richiamarle da un sistema esterno in base all’attivazione dell’utente utilizzando [API REST di esecuzione messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Questo ti consente di soddisfare varie esigenze di marketing e messaggistica transazionale, tra cui reimpostazioni di password e token OTP.
 
 A tal fine, devi innanzitutto creare una campagna attivata da API in Journey Optimizer e quindi avviarne l’esecuzione tramite una chiamata API.
 
 I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi push.
 
+>[!NOTE]
+>
+>Al momento, la consegna rapida non è supportata per le campagne attivate dall’API per le notifiche push.
+
 ## Creare una campagna attivata da API {#create}
 
 ### Configurare e attivare la campagna {#create-activate}
 
-Il processo per creare campagne attivate da API rimane lo stesso delle campagne pianificate, ad eccezione della selezione del pubblico che viene eseguita nel payload API. Informazioni dettagliate su come creare una campagna sono disponibili in [questa sezione](create-campaign.md).
-
-Per creare una campagna attivata da API, effettua le seguenti operazioni:
+Per creare una campagna attivata da API, segui i passaggi seguenti. Informazioni dettagliate su come creare una campagna sono disponibili in [questa sezione](create-campaign.md).
 
 1. Crea una nuova campagna con **[!UICONTROL Attivato da API]** tipo.
 
-1. Scegli il canale e la superficie di canale da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Crea]**.
+1. Scegli la **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]** a seconda del tipo di comunicazione che desideri inviare.
+
+1. Scegli uno dei canali supportati e la superficie di canale associata da utilizzare per inviare il messaggio, quindi fai clic su **[!UICONTROL Crea]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -47,9 +51,11 @@ Per creare una campagna attivata da API, effettua le seguenti operazioni:
    >
    >L’utilizzo di un numero elevato o di dati contestuali pesanti nel contenuto può influire sulle prestazioni.
 
-1. In **[!UICONTROL Pubblico]** , specifica lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico.
+1. In **[!UICONTROL Pubblico]** , specifica lo spazio dei nomi da utilizzare per identificare i singoli utenti.
 
-   Il **[!UICONTROL Creare nuovi profili]** consente di creare automaticamente profili che non esistono nel database. [Ulteriori informazioni sulla creazione di profili durante l’esecuzione della campagna](#profile-creation)
+   * Se stai creando un **transazionale** di tipo, i profili target devono essere definiti nella chiamata API. Il **[!UICONTROL Creare nuovi profili]** consente di creare automaticamente profili che non esistono nel database. [Ulteriori informazioni sulla creazione di profili durante l’esecuzione della campagna](#profile-creation)
+
+   * Per **marketing** campagne di tipo, fai clic sul pulsante **[!UICONTROL Pubblico]** per scegliere il pubblico di destinazione.
 
 1. Configura le date di inizio e di fine della campagna.
 
@@ -68,6 +74,9 @@ Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio gen
    ![](assets/api-triggered-curl.png)
 
 1. Utilizza questa richiesta cURL nelle API per generare il payload e attivare la campagna. Per ulteriori informazioni, consulta [Documentazione API di esecuzione messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+
+   Gli esempi di chiamate API sono disponibili anche in [questa pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -92,7 +101,7 @@ Il `{{context.<contextualAttribute>}}` La sintassi è mappata solo a un tipo di 
 
 >[!IMPORTANT]
 >
->Gli attributi contestuali trasmessi nella richiesta non possono superare i 50 kb.
+>Gli attributi contestuali trasmessi nella richiesta non possono superare i 50 kb e sono sempre considerati di tipo stringa.
 >
 >Il `context.system` la sintassi è limitata solo all’utilizzo interno di Adobe e non deve essere utilizzata per trasmettere attributi contestuali.
 
@@ -106,9 +115,9 @@ Se nel database non esiste un profilo, Journey Optimizer ti consente di crearlo 
 
 >[!IMPORTANT]
 >
->Questa funzione è disponibile per **creazione di profili di volume molto piccoli** in un caso di utilizzo relativo all’invio transazionale di grandi volumi, con la maggior parte dei profili già esistenti in platform.
+>In caso di messaggi transazionali, questa funzione è disponibile per **creazione di profili di volume molto piccoli** in un caso di utilizzo relativo all’invio transazionale di grandi volumi, con la maggior parte dei profili già esistenti in platform.
 
-Per attivare la creazione del profilo durante l’esecuzione della campagna, attiva **[!UICONTROL Creare nuovi profili]** opzione su in **[!UICONTROL Pubblico]** sezione.
+Per attivare la creazione del profilo durante l’esecuzione della campagna, attiva **[!UICONTROL Creare nuovi profili]** opzione su in **[!UICONTROL Pubblico]** sezione. Se questa opzione è disabilitata, i profili sconosciuti verranno rifiutati per qualsiasi invio e la chiamata API avrà esito negativo.
 
 ![](assets/api-triggered-create-profile.png)
 

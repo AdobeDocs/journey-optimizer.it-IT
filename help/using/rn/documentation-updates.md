@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2949'
 ht-degree: 95%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 95%
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Giugno 2023 {#june-2023}
+
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di giugno 2023 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Maggiori informazioni](release-notes.md)
+* Ulteriori esempi sull’ordine dei criteri di valutazione sono stati aggiunti alla sezione **Creare decisioni** per illustrare i casi in cui vengono utilizzati più criteri e più ambiti decisionali. [Maggiori informazioni](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* La documentazione relativa alla gestione delle decisioni è stata chiarita con una nota che specifica che l’utilizzo del Controllo dell’accesso a livello di oggetto non è disponibile per le raccolte dinamiche. [Ulteriori informazioni](../offers/offer-library/creating-collections.md)
 
 ## Maggio 2023 {#may-2023}
 
@@ -103,7 +109,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Tutte le nuove funzionalità e i miglioramenti apportati nella versione di agosto 2022 di [!DNL Journey Optimizer] sono elencati in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione Regole di frequenza è stata aggiornata per riflettere il nuovo flusso di messaggistica in linea. [Ulteriori informazioni](../configuration/frequency-rules.md#apply-frequency-rule)
 * Nella sezione Introduzione alle pagine di destinazione è ora disponibile un riferimento per un video che illustra come configurare gli abbonamenti e creare pagine di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md#video)
-* È stata aggiunta una limitazione per i percorsi che utilizzano attività Read Audience. [Maggiori informazioni](../building-journeys/read-audience.md)
+* È stata aggiunta una limitazione per i percorsi che utilizzano attività Read Audience. [Ulteriori informazioni](../building-journeys/read-audience.md)
 * È stata migliorata la pagina degli operatori dell’Editor espressioni. [Ulteriori informazioni](../building-journeys/expression/operators.md)
 * È stata aggiunta una sezione su come pianificare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 * La sezione delle regole di sintassi generale per l’editor di espressioni è stata aggiornata per tenere conto della nuova regola relativa all’escape mediante il simbolo della barra rovesciata nelle funzioni letterali. I messaggi pubblicati esistenti non sono interessati da questa modifica. Solo i messaggi nuovi o bozza devono essere aggiornati. [Ulteriori informazioni](../personalization/personalization-syntax.md#general-rules)
@@ -238,8 +244,8 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Sono state aggiornate le autorizzazioni di Gestione delle decisioni. [Ulteriori informazioni](../administration/ootb-product-profiles.md)
 * Sono state aggiornate le schermate di E-mail designer con l’interfaccia utente più recente.
 * È stata aggiornata la procedura di configurazione per le azioni personalizzate con percorsi URL dinamici e intestazioni dinamiche. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
-* È stata aggiunta una sezione sulle funzioni e sui collegamenti di accesso facilitato. [Maggiori informazioni](../start/user-interface.md#accessibility)
-* È stata aggiunta una sezione sui metodi di valutazione del pubblico. [Maggiori informazioni](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* È stata aggiunta una sezione sulle funzioni e sui collegamenti di accesso facilitato. [Ulteriori informazioni](../start/user-interface.md#accessibility)
+* È stata aggiunta una sezione sui metodi di valutazione del pubblico. [Ulteriori informazioni](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * Sono state aggiunte note alle sezioni Elenco di soppressione, Elenco consentiti e Rapporto globale/live delle e-mail per specificare che i profili con stato Soppresso e Non consentito sono esclusi dalle metriche del Rapporto delle e-mail Inviato. [Ulteriori informazioni](../reports/global-report.md)
 * È stata aggiunta una nuova sezione che descrive come recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#reporting)
 * È stata aggiornata la sezione Abilitare elenco consentiti. [Ulteriori informazioni](../configuration/allow-list.md#enable-allow-list)

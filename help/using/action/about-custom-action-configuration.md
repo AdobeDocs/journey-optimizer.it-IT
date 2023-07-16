@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 15%
@@ -39,8 +39,8 @@ Inoltre, i parametri delle azioni personalizzate hanno un formato previsto (ad e
 
 In Journey Optimizer, puoi applicare la governance dei dati e i criteri di consenso alle azioni personalizzate per impedire l’esportazione di campi specifici in sistemi di terze parti o escludere clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS. Per ulteriori informazioni, consulta le pagine seguenti:
 
-* [Governance dei dati](../action/action.md).
-* [Consenso](../action/action.md).
+* [Governance dei dati](../action/action-privacy.md).
+* [Consenso](../action/action-privacy.md).
 
 
 ## Passaggi di configurazione {#configuration-steps}
@@ -84,7 +84,7 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
 
      Esempio: `https://xxx.yyy.com/somethingstatic/`
 
-     Specificherai il percorso dinamico dell’URL quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+     Specificherai il percorso dinamico dell’URL quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
 
 1. Immettere l&#39;etichetta o il nome del campo.
 
-1. Selezionare il tipo: **[!UICONTROL Costante]** o **[!UICONTROL Variabile]**. Se hai selezionato **[!UICONTROL Costante]**, quindi inserisci il valore costante nel **[!UICONTROL Valore]** campo. Se hai selezionato **[!UICONTROL Variabile]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Maggiori informazioni](../building-journeys/using-custom-actions.md).
+1. Selezionare il tipo: **[!UICONTROL Costante]** o **[!UICONTROL Variabile]**. Se hai selezionato **[!UICONTROL Costante]**, quindi inserisci il valore costante nel **[!UICONTROL Valore]** campo. Se hai selezionato **[!UICONTROL Variabile]**, quindi specificherai questa variabile quando aggiungi l’azione personalizzata a un percorso. [Ulteriori informazioni](../building-journeys/using-custom-actions.md).
 
    ![](assets/journeyurlconfiguration2.png)
 

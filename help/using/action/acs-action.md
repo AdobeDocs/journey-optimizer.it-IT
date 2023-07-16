@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campaign, standard, integrazione, limite, azione
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 5%
@@ -30,7 +30,7 @@ Per poter essere utilizzato in Journey Optimizer, il messaggio transazionale di 
 
 * L’integrazione di Adobe Campaign Standard è impostata tramite un’azione incorporata dedicata nell’elenco delle azioni. Questo deve essere configurato per ogni sandbox.
 
-* Non è possibile utilizzare un’azione Campaign Standard con una qualifica Audience o un’attività Read Audience.
+* Non è possibile utilizzare un’azione Campaign Standard con una qualificazione del pubblico o un’attività Read audience.
 
 * Un percorso non può utilizzare sia messaggi che azioni di Campaign Standard.
 

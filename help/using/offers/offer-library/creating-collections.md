@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 9%
+source-wordcount: '364'
+ht-degree: 8%
 
 ---
 
@@ -57,6 +57,10 @@ Per creare una raccolta, effettua le seguenti operazioni:
    >Le raccolte statiche non vengono aggiornate automaticamente. Per aggiungere offerte a una raccolta statica, devi modificarla e aggiungerle manualmente.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base a una raccolta statica, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+
+   >[!NOTE]
+   >
+   >L&#39;utilizzo di OLAC non è disponibile per le raccolte dinamiche. Deve essere gestito a livello di offerta. Di conseguenza, se non hai accesso a nessuna di queste offerte, è possibile che non venga visualizzata alcuna offerta all’interno di una raccolta dinamica.
 
 1. Una volta creata la raccolta, questa viene visualizzata nell’elenco. Puoi selezionarla per modificarla o eliminarla.
 

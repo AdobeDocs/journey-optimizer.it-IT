@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: percorso, integrazione, standard, campagna, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '933'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Per **[!UICONTROL E-mail]** e **[!UICONTROL SMS]**, i parametri sono identici.
 
 >[!NOTE]
 >
->Per le e-mail, se utilizzi un modello transazionale di profili, il meccanismo di annullamento dell’abbonamento viene gestito da Campaign Standard. È sufficiente aggiungere un’ **[!UICONTROL Collegamento per annullare l’iscrizione]** blocco di contenuto nel modello ([ulteriori informazioni](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it)). Se utilizzi un modello basato su eventi (rtEvent), devi aggiungere nel messaggio un collegamento che trasmette l’e-mail della persona nel parametro URL e che punta a una pagina di destinazione per l’annullamento dell’abbonamento. Devi creare questa pagina di destinazione e assicurarti che la decisione della persona di annullare l’abbonamento sia trasmessa ad Adobe.
+>Quando si utilizza il modello transazionale di un profilo per le e-mail, il meccanismo di annullamento dell’abbonamento viene gestito automaticamente da Adobe Campaign Standard. Per implementare questa, puoi includere facilmente un’ **[!UICONTROL Collegamento per annullare l’iscrizione]** blocco di contenuto all’interno di [il modello e-mail transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it). Tuttavia, se utilizzi un modello basato su eventi (rtEvent), devi incorporare nel messaggio un collegamento che trasmetta l’e-mail del destinatario come parametro URL e li indirizzi a una pagina di destinazione per l’annullamento dell’abbonamento. È necessario creare questa pagina di destinazione e garantire che la decisione del destinatario di annullare l’abbonamento sia effettivamente trasmessa ad Adobe.
 
 Innanzitutto, devi scegliere un modello di messaggistica transazionale.
 

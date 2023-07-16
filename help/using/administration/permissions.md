@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profiles, sandbox
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 8%
@@ -109,7 +109,7 @@ Per creare **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Scegli tra le diverse funzionalità, ad esempio **[!DNL Journeys]**, **[!DNL Segments]** <!--CHECK--> o **[!DNL Decision management]** disponibile in [!DNL Journey Optimizer] nel menu a sinistra.
+1. Seleziona tra le diverse risorse, ad esempio **[!DNL Journeys]**, **[!DNL Segments]** o **[!DNL Decision management]** disponibile in [!DNL Journey Optimizer] nel menu a sinistra.
 
    In questo punto selezioniamo il **[!UICONTROL Percorsi]** risorsa.
 

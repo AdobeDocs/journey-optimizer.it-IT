@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '482'
 ht-degree: 36%
 
 ---
@@ -37,10 +37,6 @@ Il modello varia a seconda che si parli di punteggio o di formazione. La formazi
 * Punteggio: applicazione di un punteggio ai singoli profili in base al modello addestrato
 
 Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa riferimento al momento dell’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
-
->[!CAUTION]
->
->Questa funzione non è compatibile con la modalità burst.
 
 ## Attivare l’ottimizzazione dell’ora di invio{#activate-send-time-optimization}
 

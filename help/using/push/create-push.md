@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '719'
 ht-degree: 16%
 
 ---
@@ -64,9 +64,9 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
    ![](assets/push_create_4.png)
 
-1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Maggiori informazioni](../audience/about-audiences.md).
+1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni](../audience/about-audiences.md).
 
-1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Maggiori informazioni](../event/about-creating.md#select-the-namespace).
+1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
    ![](assets/push_create_5.png)
 
@@ -103,7 +103,7 @@ Per creare una notifica push, effettua le seguenti operazioni:
 >title="Modalità di consegna rapida"
 >abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a un pubblico di dimensione inferiore a 30 milioni."
 
-La modalità Consegna rapida, precedentemente nota come modalità Burst in percorsi, è una [!DNL Journey Optimizer] componente aggiuntivo che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
+La modalità Consegna rapida è una [!DNL Journey Optimizer] componente aggiuntivo che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 

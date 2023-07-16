@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '429'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un
 Puoi creare due tipi di campagne:
 
 * Le **Campagne pianificate** consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
-* Le **Campagne attivate dall’API** consentono semplici messaggi operativi/transazionali con API REST (reimpostazione della password, abbandono del carrello, ecc.), dove esiste una necessità di personalizzazione utilizzando gli attributi del profilo e i dati contestuali del payload.
+* **Campagne attivate da API** consente alle comunicazioni di marketing di raggiungere un pubblico al momento giusto oppure di inviare messaggi transazionali/operativi a utenti individuali, come la reimpostazione della password, dove può essere necessario applicare la personalizzazione non solo utilizzando l’attributo di profilo, ma anche i dati contestuali in tempo reale nel trigger, che è un payload API REST.
 
 I passaggi principali per creare una campagna sono i seguenti:
 

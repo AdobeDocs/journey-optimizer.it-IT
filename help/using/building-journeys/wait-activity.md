@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 21%
+source-wordcount: '350'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 21%
 >title="Attività Attendi"
 >abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
-Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’ **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili tre opzioni:
+Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’ **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili le seguenti opzioni:
 
 * [Durata](#duration)
 * [Personalizzato](#custom)
