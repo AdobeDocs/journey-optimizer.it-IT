@@ -12,7 +12,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informative"
 source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '895'
 ht-degree: 33%
 
 ---
@@ -69,8 +69,8 @@ Prima di poter generare questo file, devi creare:
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
->title="Scegliere la regione AWS"
->abstract="Seleziona la regione del server AWS in cui desideri esportare i file di direct mail. Come procedura generale, è preferibile scegliere la regione più vicina alla posizione del provider di direct mail."
+>title="Scegli l’area geografica di AWS"
+>abstract="Seleziona l’area geografica del server AWS in cui desideri esportare i file di direct mail. In genere, è preferibile scegliere quella più vicina al luogo in cui si trova il provider di direct mail."
 
 Per recapitare un messaggio di direct mailing: [!DNL Journey Optimizer] genera ed esporta in un server il file contenente i dati del pubblico di destinazione.
 
