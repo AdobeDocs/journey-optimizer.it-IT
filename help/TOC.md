@@ -319,8 +319,8 @@ ht-degree: 99%
          + [Campi di recupero dati](using/reports/sharing-fetch-fields.md)
          + [Campi di identità](using/reports/sharing-identity-fields.md)
       + [Esempi di query](using/reports/query-examples.md)
-   + Consegna {#deliverability}
-      + [Introduzione alla consegna](using/reports/deliverability.md)
+   + Recapitabilità {#deliverability}
+      + [Introduzione alla recapitabilità](using/reports/deliverability.md)
       + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
    + [Avvisi](using/reports/alerts.md)
    + [Utilizzare Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -415,7 +415,7 @@ ht-degree: 99%
          + [Aggiornare una decisione](using/offers/api-reference/activities-api/activities/update.md)
          + [Eliminare una decisione](using/offers/api-reference/activities-api/activities/delete.md)
       + Consegnare offerte tramite API {#offer-delivery-api}
-         + [Introduzione alla consegna delle offerte tramite API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+         + [Introduzione alla recapitabilità delle offerte tramite API](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
