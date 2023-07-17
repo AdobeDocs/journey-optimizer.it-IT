@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 6%
 
 ---
@@ -62,9 +62,9 @@ Se più offerte sono idonee per essere presentate in questo posizionamento, la d
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando una strategia di classificazione. Scopri come creare una strategia di classificazione in [questa sezione](../ranking/create-ranking-strategies.md).
+Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando un modello di intelligenza artificiale. Scopri come creare un modello di intelligenza artificiale in [questa sezione](../ranking/create-ranking-strategies.md).
 
-Una volta creata una strategia di classificazione, puoi assegnarla a un posizionamento in una decisione. A questo scopo, segui la procedura indicata di seguito:
+Una volta creato un modello di IA, puoi assegnarlo a un posizionamento in una decisione. A questo scopo, segui la procedura indicata di seguito:
 
 1. Crea una decisione o modificane una esistente. Consulta [Creare decisioni](../offer-activities/create-offer-activities.md).
 
@@ -76,11 +76,11 @@ Una volta creata una strategia di classificazione, puoi assegnarla a un posizion
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Seleziona la strategia di classificazione creata. Vengono visualizzati tutti i dettagli della strategia di classificazione.
+1. Seleziona il modello di IA creato. Vengono visualizzati tutti i dettagli del modello.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Clic **[!UICONTROL Seleziona]**. La strategia di classificazione ora è associata al posizionamento.
+1. Clic **[!UICONTROL Seleziona]**. Il modello di intelligenza artificiale è ora associato al posizionamento.
 
 Se sono idonee più offerte, il sistema di modelli addestrato determinerà quale offerta deve essere presentata per prima per un determinato posizionamento.
 

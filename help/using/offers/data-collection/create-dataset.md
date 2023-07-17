@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 17%
@@ -42,7 +42,7 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
    >[!CAUTION]
    >
-   >Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato. In caso contrario, non potrai utilizzarlo nella tua strategia di classificazione.
+   >Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato. In caso contrario, non potrai utilizzarlo nel modello di intelligenza artificiale.
 
 1. Digita un nome e salva lo schema.
 
@@ -66,4 +66,4 @@ Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la pr
 
 >[!NOTE]
 >
->Ora è possibile selezionare questo set di dati per raccogliere i dati dell’evento quando [creazione di una strategia di classificazione](#create-ranking-strategy).
+>Ora è possibile selezionare questo set di dati per raccogliere i dati dell’evento quando [creazione di un modello di IA](../ranking/create-ranking-strategies.md).

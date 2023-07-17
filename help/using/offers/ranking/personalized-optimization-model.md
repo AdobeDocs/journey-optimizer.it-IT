@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 1%
@@ -61,8 +61,8 @@ Fondamentalmente, questa è l&#39;idea di imparare e memorizzare interazioni sto
 
 Il problema di avvio a freddo si verifica quando non ci sono abbastanza dati per creare un consiglio. Per la personalizzazione automatica, esistono due tipi di problemi con avviamento a freddo.
 
-* **Dopo aver creato una nuova strategia di classificazione senza dati storici**, le offerte verranno distribuite in modo casuale per un periodo di tempo per la raccolta dei dati e i dati verranno utilizzati per addestrare il primo modello.
-* **Dopo il rilascio del primo modello**, il 10% del traffico totale verrà allocato per la distribuzione casuale, mentre il 90% del traffico verrà utilizzato per la generazione di consigli sui modelli. Pertanto, se alla strategia di classificazione fossero aggiunte nuove offerte, queste verrebbero consegnate come parte del 10% del traffico. I dati raccolti su tali offerte determinano il numero di volte in cui viene selezionato tra il 90% del traffico mentre il modello continua a essere aggiornato.
+* **Dopo la creazione di un nuovo modello di intelligenza artificiale senza dati storici**, le offerte verranno distribuite in modo casuale per un periodo di tempo per la raccolta dei dati e i dati verranno utilizzati per addestrare il primo modello.
+* **Dopo il rilascio del primo modello**, il 10% del traffico totale verrà allocato per la distribuzione casuale, mentre il 90% del traffico verrà utilizzato per la generazione di consigli sui modelli. Pertanto, se al modello di IA fossero aggiunte nuove offerte, queste verrebbero consegnate come parte del 10% del traffico. I dati raccolti su tali offerte determinano il numero di volte in cui viene selezionato tra il 90% del traffico mentre il modello continua a essere aggiornato.
 
 ## Riaddestramento {#re-training}
 
