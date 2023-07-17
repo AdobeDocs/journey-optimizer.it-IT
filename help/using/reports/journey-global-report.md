@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2087'
 ht-degree: 21%
 
 ---
@@ -83,7 +83,7 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL E-mail]** L
 
 Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo della consegna:
 
-* **[!UICONTROL Target]**: numero di profili target per ogni Journey Orchestration di Adobi per qualsiasi azione, ad esempio invio di e-mail o SMS.
+* **[!UICONTROL Target]**: numero di profili target per qualsiasi azione, ad esempio invio di e-mail o SMS.
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
@@ -193,7 +193,7 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica pu
 
 Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le informazioni principali relative alle notifiche push con grafico e KPI:
 
-* **[!UICONTROL Target]**: numero di profili target per ogni Journey Orchestration di Adobi per qualsiasi azione, ad esempio invio di e-mail o SMS.
+* **[!UICONTROL Target]**: numero di profili target per qualsiasi azione, ad esempio invio di e-mail o SMS.
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
