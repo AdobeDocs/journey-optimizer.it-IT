@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 65%
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
-## Limitazioni delle azioni generali
+## Limitazioni delle azioni generali {#action-limitations}
 
 * Non esiste alcuna limitazione di invio. 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
@@ -35,7 +35,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con **Read Audience** non può iniziare con un altro evento nelle versioni successive.
  
-## Limitazioni delle azioni personalizzate
+## Limitazioni delle azioni personalizzate {#custom-actions-limitations}
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
@@ -43,11 +43,11 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 * Gli indirizzi IP non sono consentiti. 
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
  
-## Limitazioni degli eventi
+## Limitazioni degli eventi {#events-limitations}
 
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
  
-## Limitazioni delle origini dati
+## Limitazioni delle origini dati {#data-sources-limitations}
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 
@@ -63,6 +63,6 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc).
 
-## Limitazioni del pubblico di lettura
+## Limitazioni del pubblico di lettura {#read-audiences-limitations}
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma quelli in batch non verranno calcolati al momento del recupero. Vengono valutati solo ogni giorno al momento della valutazione giornaliera del batch.
