@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 0996de79ae5b9593db8ec61ba51fc17073c0f458
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 90%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 90%
 >id="ajo_ao_create_composition"
 >title="Creare una composizione"
 >abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico."
+
+>[!BEGINSHADEBOX]
+
+Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico.
 
