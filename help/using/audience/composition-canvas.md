@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 6f6fd6c032be7f86dca239d43732f3ab37223093
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 24%
+source-wordcount: '1415'
+ht-degree: 29%
 
 ---
 
 # Lavorare nell’area di lavoro per la composizione {#composition-canvas}
+
+>[!BEGINSHADEBOX]
+
+Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 La composizione del pubblico fornisce un’area di lavoro visiva che consente di creare tipi di pubblico e utilizzare varie attività (suddivisione, arricchimento, ecc.).
 
@@ -137,9 +143,11 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 
 Il **[!UICONTROL Arricchire]** attività ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
 
->[!IMPORTANT]
->
->Per il momento, le etichette del set di dati, a livello di set di dati o di campo, non vengono propagate al pubblico appena creato. Questo può influire sul controllo degli accessi e/o sulla governance dei dati per il pubblico risultante. Per questo motivo, utilizza solo i dati di prova durante la composizione dei tipi di pubblico.
+Tieni presente le seguenti limitazioni quando lavori con **[!UICONTROL Arricchire]** attività:
+
+* **Set di dati** per l’arricchimento deve essere di tipo record (anziché di tipo evento) e non può essere un set di dati di sistema né essere contrassegnato per il profilo. Devono essere inferiori a 1 GB.
+* **L’arricchimento supporta un join 1:1**. Ciò significa che se le chiavi di join hanno più di una corrispondenza nel set di dati di arricchimento, il sistema seleziona una delle corrispondenze e la utilizza per il join 1:1.
+* **I tipi di pubblico possono essere attivati nelle destinazioni RTCDP**, ma gli eventuali attributi di arricchimento non possono.
 
 Per configurare l’attività, effettua le seguenti operazioni:
 
