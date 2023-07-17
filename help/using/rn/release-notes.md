@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
+source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 93%
+source-wordcount: '2695'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,6 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 ## Aggiornamenti di luglio 2023
 
-
 <table>
 <thead>
 <tr>
@@ -35,13 +34,16 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tr>
 <td>
 <p>Ora puoi creare flussi di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, arricchimento...) per creare nuovi tipi di pubblico. I tipi di pubblico appena creati vengono salvati nuovamente in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati nelle campagne Journey Optimizer per il targeting dei clienti.</p>
+
 <img src="../audience/assets/audiences-publish.png"/>
+
 <p>Per ulteriori informazioni, consulta la <a href="../audience/get-started-audience-orchestration.md">documentazione dettagliata</a>.</p>
+
+<p>La composizione del pubblico è completamente integrata con il nuovo menu "Tipi di pubblico" di Adobe Experience Platform, che funge da portale centralizzato per i tipi di pubblico. Ora puoi utilizzare una pagina Sfoglia che include una nuova dashboard con tendenze dei segmenti e sovrapposizioni per trovare nuove informazioni ed esplorare gli strumenti organizzativi per la cartella e i tag. In questa esperienza sono incorporati i controlli di governance per l’etichettatura standardizzata del pubblico e le funzionalità di gestione del ciclo di vita del pubblico per gestire i flussi di lavoro di attivazione. Con questa nuova esperienza di gestione, ora puoi gestire in modo semplice e sicuro i tipi di pubblico da un’unica posizione. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Documentazione di Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ## Note sulla versione di giugno 2023 {#june-rn-2023}
 
