@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: e0f2a96054886737861e261173f68933cab56e99
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 74%
+source-wordcount: '1119'
+ht-degree: 75%
 
 ---
 
@@ -45,6 +45,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
+* Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 
 ### Azioni generali {#general-actions-g}
 
@@ -52,12 +53,12 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto.
 * L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
-* In genere, un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
+* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
 
 ### Versioni del percorso {#journey-versions-g}
 
 * Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un **Qualificazione del pubblico** evento.
-* Un percorso che inizia con **Qualificazione del pubblico** l&#39;attività nella versione 1 deve sempre iniziare con un **Qualificazione del pubblico** in altre versioni.
+* Un percorso che inizia con **Qualificazione del pubblico** l’attività nella versione v1 deve sempre iniziare con una **Qualificazione del pubblico** in altre versioni.
 * Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non può essere modificato nelle nuove versioni.
 * La regola di rientro deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con **Read Audience** non può iniziare con un altro evento nelle versioni successive.
@@ -103,6 +104,5 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ### Editor espressioni {#expression-editor}
 
-* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event. Devi creare un nuovo pubblico e utilizzare una condizione insegment nel percorso.
-
+* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event. È necessario creare un nuovo pubblico e utilizzare una condizione di non pubblico nel percorso.
 
