@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 29%
+source-wordcount: '1417'
+ht-degree: 27%
 
 ---
 
@@ -139,7 +139,7 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Attributi di arricchimento"
->abstract="Seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico. Una volta pubblicata la composizione, questi attributi sono associati al pubblico e possono essere utilizzati nelle campagne per personalizzare le consegne."
+>abstract="Seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico. Una volta pubblicata la composizione, questi attributi sono associati al pubblico e possono essere utilizzati nelle campagne Journey Optimizer per personalizzare le consegne."
 
 Il **[!UICONTROL Arricchire]** attività ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
 
