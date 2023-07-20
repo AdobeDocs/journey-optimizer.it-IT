@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1623'
 ht-degree: 8%
 
 ---
@@ -30,7 +30,6 @@ Con [!DNL Journey Optimizer], puoi impostare le superfici di canale (ad esempio 
 > * Per creare, modificare ed eliminare superfici di canale, è necessario disporre del [Gestisci superficie di canale](../administration/high-low-permissions.md#manage-channel-surface) autorizzazione.
 >
 > * È necessario eseguire la [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md) e [Configurazione SMS](../sms/sms-configuration.md) passi prima di creare superfici di canale.
-
 
 Una volta configurate le superfici di canale, potrai selezionarle durante la creazione di messaggi da un percorso o da una campagna.
 
@@ -99,7 +98,10 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
    Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >Quando si crea la prima superficie e-mail per un determinato sottodominio, il tempo di elaborazione può richiedere **Da 10 minuti a 10 giorni**. Se il sottodominio selezionato è già utilizzato in un’altra superficie e-mail, saranno necessarie solo fino a 3 ore.
+   > Quando crei una superficie e-mail per un sottodominio, il tempo di elaborazione varia, come descritto di seguito:
+   >
+   > * Per i nuovi sottodomini, il processo di creazione della prima superficie di canale può richiedere **Da 10 minuti a 10 giorni**.
+   > * Per **sandbox non di produzione** o se il sottodominio selezionato è **già in uso** in un&#39;altra superficie di canale, il processo richiede solo 3 ore.
 
    Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobi:
 
