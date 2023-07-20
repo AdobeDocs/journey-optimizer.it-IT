@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
+source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 8%
@@ -98,10 +98,10 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
    Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Quando crei una superficie e-mail per un sottodominio, il tempo di elaborazione varia, come descritto di seguito:
+   > Quando crei una superficie e-mail per un sottodominio, il tempo di elaborazione varia come descritto di seguito:
    >
-   > * Per i nuovi sottodomini, il processo di creazione della prima superficie di canale può richiedere **Da 10 minuti a 10 giorni**.
-   > * Per **sandbox non di produzione** o se il sottodominio selezionato è **già in uso** in un&#39;altra superficie di canale, il processo richiede solo 3 ore.
+   > * Per **nuovi sottodomini**, il processo di creazione della prima superficie di canale può richiedere **Da 10 minuti a 10 giorni**.
+   > * Per **sandbox non di produzione** o se il sottodominio selezionato è **già in uso** in un&#39;altra superficie di canale, il processo richiede solo **3 ore**.
 
    Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobi:
 
