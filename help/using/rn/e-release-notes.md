@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
+source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 25%
+source-wordcount: '636'
+ht-degree: 24%
 
 ---
 
@@ -106,6 +106,8 @@ Questa versione include i miglioramenti elencati di seguito.
 **Percorsi**
 
 * Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non riesce.
+
 
 
 **Campagne**
@@ -123,5 +125,6 @@ Con il rilascio del portale di composizione del pubblico, Adobe Experience Platf
 * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
 
 Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai che “Segmenti” è stato sostituito da “Tipi di pubblico” per riflettere questo nuovo percorso di creazione e gestione del pubblico.
+
 
 
