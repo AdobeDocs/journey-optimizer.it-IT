@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Definire l’idoneità"
->abstract="Per impostazione predefinita, qualsiasi profilo è idoneo alla presentazione dell’offerta, ma puoi utilizzare tipi di pubblico o regole decisionali per limitare l’offerta a profili specifici."
+>abstract="Per impostazione predefinita, l’offerta può essere presentata a qualsiasi profilo, ma puoi utilizzare tipi di pubblico o regole di decisione per limitare l’offerta a profili specifici."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,7 +75,7 @@ Ad esempio, se impostate i seguenti vincoli:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Stima totale dei profili"
->abstract="Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati."
+>abstract="Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati."
 
 Il **[!UICONTROL Idoneità dell’offerta]** Questa sezione ti consente di limitare l’offerta a profili specifici definiti utilizzando tipi di pubblico o regole decisionali.
 
@@ -101,7 +101,7 @@ Il **[!UICONTROL Idoneità dell’offerta]** Questa sezione ti consente di limit
   >
   >Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarlo in un’offerta.
 
-Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 

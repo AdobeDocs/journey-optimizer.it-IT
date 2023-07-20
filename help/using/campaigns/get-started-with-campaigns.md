@@ -12,7 +12,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 84%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagne"
->abstract="Crea campagne per distribuire contenuti una tantum a un pubblico specifico attraverso vari canali. Prima di creare la campagna, assicurati di disporre di una superficie di canale (ossia un predefinito per messaggi) e di un pubblico Adobe Experience Platform pronto per l’uso."
+>abstract="Crea campagne per distribuire contenuti una tantum a un pubblico specifico su vari canali. Prima di creare la campagna, accertati di avere una superficie di canale (ad esempio, un messaggio predefinito) e un pubblico di Adobe Experience Platform pronto per l’uso."
 
 Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 

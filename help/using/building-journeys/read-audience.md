@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="Attività Read Audience"
->abstract="L’attività Read Audience ti consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare."
+>title="Attività Leggi pubblico"
+>abstract="L’attività Leggi pubblico consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico di Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare."
 
 Utilizza il **Read Audience** attività per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare.
 

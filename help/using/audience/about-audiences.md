@@ -11,7 +11,7 @@ exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="Destinatari"
->abstract="Sfruttando i dati Real-Time Customer Profile, Adobe Experience Platform consente di creare facilmente definizioni di segmenti per creare tipi di pubblico mirati che acquisiscono i comportamenti e le preferenze univoci dei clienti."
+>title="Pubblico"
+>abstract="Sfruttando i dati del servizio Profilo cliente in tempo reale, Adobe Experience Platform consente di creare facilmente definizioni di segmenti, per creare tipi di pubblico mirati che acquisiscono i comportamenti e le preferenze univoci della tua clientela."
 
 [!DNL Journey Optimizer] consente di creare e sfruttare tipi di pubblico di Adobe Experience Platform utilizzando i dati Real-Time Customer Profile direttamente dal **[!UICONTROL Tipi di pubblico]** e utilizzarli nei percorsi o nelle campagne.
 
