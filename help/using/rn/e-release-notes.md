@@ -5,9 +5,9 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '617'
 ht-degree: 25%
 
 ---
@@ -90,7 +90,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi assegnare Tag unificati Adobe Experience Platform alle pagine di destinazione, ai modelli, ai frammenti di contenuto e agli elenchi di abbonamenti, oltre a campagne e percorsi. Ciò ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. Questa funzione è attualmente in versione GA (Generale disponibile).</p>
+<p>Oltre a campagne e percorsi, ora puoi assegnare Tag unificati Adobe Experience Platform alle pagine di destinazione, ai modelli, ai frammenti di contenuto e agli elenchi di abbonamento. Ciò ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../start/search-filter-categorize.md#tags">documentazione dettagliata</a>.</p>
 </td>
@@ -103,6 +103,16 @@ Questa versione include le nuove funzionalità elencate di seguito.
 
 Questa versione include i miglioramenti elencati di seguito.
 
+**Percorsi**
+
+* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
+
+
+**Campagne**
+
+* Gli eventi contestuali relativi alle campagne sono ora disponibili per l’utilizzo nel menu &quot;Attributi contestuali&quot; dell’editor di personalizzazione.
+
+
 **Tipi di pubblico**
 
 Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico.
@@ -114,13 +124,4 @@ Con il rilascio del portale di composizione del pubblico, Adobe Experience Platf
 
 Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai che “Segmenti” è stato sostituito da “Tipi di pubblico” per riflettere questo nuovo percorso di creazione e gestione del pubblico.
 
-
-**Percorsi**
-
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
-
-
-**Campagne**
-
-* Gli eventi contestuali relativi alle campagne sono ora disponibili per l’utilizzo nel menu &quot;Attributi contestuali&quot; dell’editor di personalizzazione.
 
