@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '797'
 ht-degree: 6%
 
 ---
@@ -88,6 +88,16 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
    ![](assets/content_experiment_5.png)
 
 ## Configurare l’esperimento sui contenuti {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="Dimensione"
+>abstract="Scegli la dimensione specifica da monitorare per l’esperimento, ad esempio clic o visualizzazioni specifici di pagine specifiche."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="Metrica Successo"
+>abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento. Assicurati di impostare il set di dati per determinate metriche prima di utilizzarlo."
 
 1. Quando la consegna è stata personalizzata, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
 
