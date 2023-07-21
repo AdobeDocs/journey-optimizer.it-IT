@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1088'
 ht-degree: 15%
 
 ---
@@ -146,8 +146,6 @@ Il **[!UICONTROL SMS - Statistiche]** la tabella descrive il successo della cons
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
-
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
@@ -157,8 +155,6 @@ Il **[!UICONTROL SMS - Statistiche]** la tabella descrive il successo della cons
 Il **[!UICONTROL Prestazioni SMS per data]** un grafico fornisce dettagli sulle informazioni principali relative al messaggio:
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
-
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
 
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.
 
