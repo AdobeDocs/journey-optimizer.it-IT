@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 88dff30c5128884ba72ba64cf8ca9ceb460ed4ca
+source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 24%
+source-wordcount: '616'
+ht-degree: 22%
 
 ---
 
@@ -55,7 +55,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere messaggi di direct mailing alle campagne e ai percorsi. La direct mailing è un canale offline che ti consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.</p>
+<p>È ora possibile aggiungere messaggi di direct mailing alle campagne. La direct mailing è un canale offline che ti consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.</p>
 <p>Quando prepari una consegna di direct mailing, Journey Optimizer genera un file contenente tutti i profili target e le informazioni di contatto scelte (ad esempio l’indirizzo postale). Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
 <p>Per ulteriori informazioni, consulta la <a href="../direct-mail/create-direct-mail.md">documentazione dettagliata</a>.</p>
@@ -90,7 +90,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Oltre a campagne e percorsi, ora puoi assegnare Tag unificati Adobe Experience Platform alle pagine di destinazione, ai modelli, ai frammenti di contenuto e agli elenchi di abbonamento. Ciò ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. </p>
+<p>Oltre a campagne e percorsi, ora puoi assegnare Tag unificati Adobe Experience Platform alle pagine di destinazione, ai modelli di contenuto, ai frammenti e agli elenchi di abbonamento. Ciò ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../start/search-filter-categorize.md#tags">documentazione dettagliata</a>.</p>
 </td>
@@ -105,7 +105,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
+<!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non riesce.
 
 
