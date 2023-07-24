@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 78%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se sei un cliente Real-time Customer Profile only e non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se sei un cliente Real-time Customer Profile only e non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=it).
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +40,11 @@ Al termine, i **tipi di pubblico risultanti** vengono salvati e conservati in Ad
 >
 >Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne di Journey Optimizer.
 
-La composizione del pubblico è accessibile da Adobe Journey Optimizer **[!UICONTROL Tipi di pubblico]** menu:
+La composizione dei tipi di pubblico è accessibile dal menu **[!UICONTROL Tipi di pubblico]** di Adobe Journey Optimizer:
 
 ![](assets/audiences-browse.png)
 
-* Il **[!UICONTROL Panoramica]** fornisce una dashboard dedicata con le metriche chiave relative ai dati sul pubblico della tua organizzazione. Per ulteriori informazioni, consulta la [Guida alle dashboard di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=it).
+* La scheda **[!UICONTROL Panoramica]** fornisce una dashboard dedicata con la metrica chiave relativa ai dati di pubblico dell’organizzazione. Per ulteriori informazioni, consulta la [Guida alle dashboard di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=it).
 
 * La scheda **[!UICONTROL Sfoglia]** elenca tutti i tipi di pubblico esistenti memorizzati in Adobe Experience Platform.
 
