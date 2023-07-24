@@ -10,9 +10,9 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1961'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ I metodi statistici ci danno un modo per formalizzare questa incertezza. Uno dei
 
 +++Forma nuove ipotesi ed esegui test in modo continuo
 
-Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento. Piuttosto, segui gli esperimenti formulando nuove ipotesi ed eseguendo nuovi test con modifiche diverse, su tipi di pubblico diversi ed esaminando l’impatto sulle diverse metriche.
+Per ottenere informazioni aziendali reali, devi attenerti a un solo esperimento. Al contrario, segui gli esperimenti formulando nuove ipotesi ed eseguendo nuovi test con modifiche diverse su tipi di pubblico diversi ed esaminando l’impatto sulle diverse metriche.
 +++
 
 ## Interpreta i risultati degli esperimenti {#interpret-results}
@@ -172,7 +172,7 @@ Dopo aver eseguito l’esperimento, ci sono diverse azioni di follow-up possibil
 
 * **Eseguire analisi più approfondite**
 
-  Il trattamento che funziona bene per un pubblico può a volte non essere il miglior trattamento per un altro pubblico. Eseguire analisi più approfondite sul comportamento dei trattamenti per diversi tipi di pubblico consente di generare idee per nuovi test.
+  Il trattamento che funziona bene per un pubblico può a volte non essere il miglior trattamento per un altro pubblico. Effettuare analisi più approfondite sul modo in cui i trattamenti si comportano per tipi di pubblico diversi, aiuta a generare idee per nuovi test.
 
   Allo stesso modo, lo studio delle prestazioni di ogni trattamento con diverse metriche può anche dare una visione più completa degli esperimenti.
 
