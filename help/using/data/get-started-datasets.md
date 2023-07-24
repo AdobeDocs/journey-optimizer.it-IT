@@ -8,9 +8,9 @@ level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,9 +40,9 @@ Qui sono disponibili diversi set di dati:
 
 **Generazione rapporti**
 
-* _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutti i messaggi inviati da Journey Optimizer a scopo di reporting e creazione di tipi di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati.
-* _Reporting - Set di dati evento di tracciamento e-mail_: registri di interazione per il canale e-mail utilizzato a scopo di reporting e creazione di tipi di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc.).
-* _Reporting - Set di dati evento di tracciamento push_: registri di interazione per il canale push, utilizzato a scopo di reporting e creazione di tipi di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale sulle notifiche push.
+* _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati.
+* _Generazione rapporti - Set di dati evento esperienza di tracciamento e-mail_: registri di interazione per il canale e-mail utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc.).
+* _Generazione rapporti - Set di dati evento esperienza di tracciamento push_: registri di interazione per il canale push, utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale sulle notifiche push.
 * _Generazione rapporti - Evento passaggio percorso_: acquisisce tutti gli eventi di esperienza passaggio percorso generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati percorso.
 * _Generazione rapporti - Percorsi_: set di dati di metadati che raccoglie informazioni di ogni passaggio in un percorso.
 * _Generazione rapporti - Ccn_: set di dati evento di feedback che memorizza i log di consegna per le e-mail Ccn. Da utilizzare a scopo di generazione rapporti.
