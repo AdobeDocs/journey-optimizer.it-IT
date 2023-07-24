@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ In questa sezione puoi gestire le connessioni dati con altre app e altri cloud.
 
 Gestisci i tuoi tipi di pubblico e i dati del profilo da questa sezione.
 
-* **[!UICONTROL Tipi di pubblico]** : crea e gestisci i tipi di pubblico di Experience Platform e utilizzali nei tuoi percorsi. [Ulteriori informazioni](../audience/about-audiences.md)
+* **[!UICONTROL Tipi di pubblico]**: crea e gestisci tipi di pubblico di Experience Platform e sfruttali nei percorsi. [Ulteriori informazioni](../audience/about-audiences.md)
 
 * **[!UICONTROL Elenchi di abbonamenti]**: in [!DNL Journey Optimizer], i clienti che hanno acconsentito a un servizio in abbonamento vengono riuniti in un elenco abbonamenti. [Ulteriori informazioni](../landing-pages/subscription-list.md)
 
