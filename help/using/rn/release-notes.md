@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3125'
 ht-degree: 85%
 
 ---
@@ -130,28 +130,26 @@ Questa versione include i miglioramenti elencati di seguito.
 **Percorsi**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non riesce.
+È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non riesce.
 
 
 **Campagne**
 
-* Gli eventi contestuali relativi alle campagne sono ora disponibili per l’utilizzo nel menu &quot;Attributi contestuali&quot; dell’editor di personalizzazione.
+Gli eventi contestuali relativi alle campagne sono ora disponibili per l’utilizzo nel menu &quot;Attributi contestuali&quot; dell’editor di personalizzazione.
 
 
 **Tipi di pubblico**
 
-Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico.
-
-Con il rilascio del portale di composizione del pubblico, Adobe Experience Platform e Adobe Journey Optimizer hanno aggiornato l’utilizzo di &quot;tipi di pubblico&quot; e &quot;segmenti&quot; all’interno del sistema e della documentazione.
+Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico. Con il rilascio del portale di composizione del pubblico, Adobe Experience Platform e Adobe Journey Optimizer hanno aggiornato l’utilizzo di &quot;tipi di pubblico&quot; e &quot;segmenti&quot; all’interno del sistema e della documentazione.
 
 * Pubblico: un set di persone, account, famiglie o altre entità che hanno in comune caratteristiche e/o comportamenti specifici.
 * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
 
-Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai che “Segmenti” è stato sostituito da “Tipi di pubblico” per riflettere questo nuovo percorso di creazione e gestione del pubblico.
+Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, &quot;Segmenti&quot; viene sostituito da &quot;Tipi di pubblico&quot; per riflettere questo nuovo percorso di creazione e gestione del pubblico.
 
 **API**
 
-Autenticazione API Adobe Journey Optimizer - Il metodo JWT per generare i token di accesso è stato dichiarato obsoleto. Tutte le nuove integrazioni devono essere create utilizzando il metodo di autenticazione server-to-server OAuth. Adobe consiglia inoltre di migrare le integrazioni esistenti al metodo OAuth. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+Il metodo JWT per generare token di accesso per l’autenticazione API Adobe Journey Optimizer è stato dichiarato obsoleto. Tutte le nuove integrazioni devono essere create utilizzando il metodo di autenticazione server-to-server OAuth. Adobe consiglia inoltre di migrare le integrazioni esistenti al metodo OAuth. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Altre modifiche**
