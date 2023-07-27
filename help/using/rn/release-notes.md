@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
 workflow-type: tm+mt
 source-wordcount: '3079'
 ht-degree: 86%
@@ -72,7 +72,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tr>
 <td>
 <p>Ora puoi importare e convertire qualsiasi contenuto HTML nell’editor e-mail di Journey Optimizer. I blocchi di contenuto vengono identificati automaticamente e sono disponibili nell’e-mail designer: utilizza le sue potenti funzionalità di progettazione per aggiornarlo e personalizzarlo.</p>
-<img src="../email/assets/html-imported_2.png">
+<img src="assets/html-convert.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
