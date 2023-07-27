@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 15%
+source-wordcount: '1342'
+ht-degree: 13%
 
 ---
 
@@ -30,9 +30,11 @@ La campagna **[!UICONTROL Rapporto live]** La pagina verrà visualizzata con le 
 
 * [Campaign](#campaign-live)
 * [E-mail](#email-live)
+* [In-app](#inapp-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
 * [Web](#web-tab)
+* [Direct mail](#direct-mail-tab)
 
 La campagna **[!UICONTROL Rapporto live]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/live-report.md#modify-dashboard).
 
@@ -97,6 +99,26 @@ Il **[!UICONTROL Motivi di mancato recapito]**, **[!UICONTROL Categorie di manca
 Il **[!UICONTROL Motivi di errore]** e **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
 
 Il **[!UICONTROL E-mail - Dominio destinatario principale]** il grafico e la tabella indicano i domini più utilizzati dai destinatari per aprire l’e-mail.
++++
+
+## Scheda In-app {#inapp-live}
+
+Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative alle consegne in-app inviate nella campagna.
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto in-app.
+
+Il **[!UICONTROL Prestazioni in-app]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app, ad esempio:
+
+* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stato recapitato il messaggio in-app.
+
+* **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
+
+Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression in-app per il periodo in questione.
+
+Il **[!UICONTROL Clic per pulsante]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari per pulsante:
+
+* **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con i pulsanti inclusi nel messaggio in-app.
+
 +++
 
 ## Scheda Notifica push {#push-live}
@@ -180,6 +202,25 @@ Il **[!UICONTROL Prestazioni web]** I KPI descrivono le informazioni principali 
 Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle esperienze web (impression, impression univoche e clic) per il periodo in questione.
 
 Il **[!UICONTROL Clic per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
++++
+
+## Scheda Direct mailing {#direct-mail-tab}
+
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Direct mail]** Questa scheda contiene le informazioni principali relative alle consegne Direct mailing.
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto Direct mail.
+
+Il **[!UICONTROL Direct mailing - Statistiche di invio]** la tabella descrive il successo della consegna:
+
+* **[!UICONTROL Target]**: numero di profili utente qualificati come profili target per questa consegna.
+
+* **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
+
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
+
+* **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto la consegna.
+
+Il **[!UICONTROL Direct mailing - Motivi di esclusione]** e **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
 +++
 
 ## Risorse aggiuntive

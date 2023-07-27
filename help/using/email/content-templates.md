@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1065'
 ht-degree: 13%
 
 ---
 
-# Utilizzare i modelli di contenuto  {#content-templates}
+# Utilizzare i modelli di contenuto {#content-templates}
 
 Per un processo di progettazione accelerato e migliorato, puoi creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Journey Optimizer] campagne e percorsi.
 
@@ -23,13 +23,15 @@ Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su 
 
 Ad esempio, un utente all’interno dell’azienda è solo responsabile dei contenuti e quindi non ha accesso a campagne o percorsi. Tuttavia, questo utente può creare un modello e-mail che gli esperti marketing della tua organizzazione potranno selezionare per l’utilizzo in tutte le e-mail come punto di partenza.
 
+Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta [Documentazione delle API di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+
 ➡️ [Scopri come creare e utilizzare i modelli in questo video](#video-templates)
 
 >[!CAUTION]
 >
 >Per creare, modificare ed eliminare i modelli di contenuto, è necessario disporre del **[!DNL Manage Library Items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
-## Accedere e gestire i modelli {#access-manage-templates}
+## Accedere ai modelli e gestirli {#access-manage-templates}
 
 Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** dal menu a sinistra.
 
@@ -43,7 +45,7 @@ Puoi ordinare i modelli di contenuto in base alla data di creazione o di modific
 
 Per modificare il contenuto di un modello, fai clic sull’elemento desiderato dall’elenco e seleziona **[!UICONTROL Modifica contenuto]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 Per eliminare un modello, seleziona l’icona del cestino accanto al modello desiderato.
 
@@ -74,7 +76,6 @@ Una volta salvato, il modello di contenuto è disponibile per l’utilizzo in un
 >
 >* Allo stesso modo, quando i modelli vengono utilizzati in una campagna o in un percorso, eventuali modifiche apportate al contenuto della campagna e del percorso non influiscono sul modello di contenuto utilizzato in precedenza.
 
-
 ### Crea modello da zero {#create-template-from-scratch}
 
 Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
@@ -92,6 +93,8 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
    >Attualmente solo il **E-mail** channel e **HTML** sono supportati.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
+
+1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare il modello e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
 1. Clic **[!UICONTROL Crea]** e scegli come progettare il modello tra le diverse opzioni:
 
@@ -136,6 +139,10 @@ Durante la progettazione di un’ [email](get-started-email-design.md) in una ca
 
    ![](assets/email_designer-template-name.png)
 
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al modello, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni](../administration/object-based-access.md).
+
+1. Seleziona o crea un tag Adobe Experience Platform da **Tag** per categorizzare il modello. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
+
 1. Fai clic su **[!UICONTROL Salva]**.
 
 1. Il modello viene salvato in **[!UICONTROL Modelli di contenuto]** , accessibile dalla [!DNL Journey Optimizer] menu dedicato. Diventa un modello di contenuto autonomo accessibile, modificato ed eliminato come qualsiasi altro elemento dell’elenco. [Ulteriori informazioni](#access-manage-templates)
@@ -168,7 +175,7 @@ Puoi testare il rendering di qualsiasi modello di contenuto e-mail, creato da ze
 
    * Prima di inviare la bozza, è necessario selezionare [superficie e-mail](../configuration/channel-surfaces.md) che verranno utilizzati per testare il contenuto.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## Video introduttivo {#video-templates}
 

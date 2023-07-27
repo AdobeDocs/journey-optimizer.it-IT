@@ -8,10 +8,10 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 7%
+source-wordcount: '585'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->La funzione di esportazione dei set di dati è attualmente in versione beta e disponibile per tutti gli utenti di Adobe Journey Optimizer. Collabora con il tuo rappresentante Adobe per accedere alle destinazioni se non hai già accesso.
+>La funzione di esportazione dei set di dati è attualmente in versione beta e disponibile per tutti gli utenti di Adobe Journey Optimizer.
 
 Journey Optimizer consente di stabilire una connessione live con le posizioni di archiviazione cloud per esportare il contenuto dei set di dati.
 
@@ -48,7 +48,7 @@ Informazioni dettagliate su ciascuna destinazione sono disponibili nella documen
 
 Prima di iniziare a esportare i set di dati, verifica i seguenti prerequisiti:
 
-* Per esportare i set di dati, è necessario **Gestire le destinazioni**, **Visualizza destinazioni**, **Attivare le destinazioni**, e **Gestire e attivare le destinazioni dei set di dati** [autorizzazioni di controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leggi le [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) oppure contatta l’amministratore del prodotto per ottenere le autorizzazioni necessarie.
+* Per esportare i set di dati, è necessario **Visualizza destinazioni** e **Gestire e attivare le destinazioni dei set di dati** [autorizzazioni di controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Leggi le [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) oppure contatta l’amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
 * Assicurati che il set di dati da esportare non contenga dati di seconda generazione. Questa funzione supporta solo l’esportazione di dati di prima generazione, ovvero di dati non elaborati definiti nella [Descrizione del prodotto Real-time Customer Data Platform](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). I dati di prima generazione includono set di dati introdotti tramite origini Adobe Experience Platform o set di dati raccolti utilizzando soluzioni Adobe come Connettore dati di Analytics e set di dati di registri/rapporti di Journey Optimizer.
 

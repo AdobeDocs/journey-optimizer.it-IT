@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 6%
+source-wordcount: '840'
+ht-degree: 5%
 
 ---
 
@@ -108,6 +108,10 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
    Per il nostro esperimento, selezioniamo **[!UICONTROL E-mail aperta]** per verificare se i destinatari apriranno le e-mail se il codice promozionale è nella riga dell’oggetto.
 
    ![](assets/content_experiment_11.png)
+
+1. Quando si imposta un esperimento utilizzando il canale in-app o web e si sceglie **[!UICONTROL Clic in entrata]**, **[!UICONTROL Clic univoci in entrata]** , **[!UICONTROL Visualizzazioni pagina]** , o **[!UICONTROL Metriche delle visualizzazioni di pagina univoche]** , il **[!UICONTROL Azione clic]**  a discesa consente di monitorare e tenere traccia con precisione dei clic e delle visualizzazioni su pagine specifiche.
+
+   ![](assets/content_experiment_20.png)
 
 1. Clic **[!UICONTROL Aggiungi trattamento]** per creare il maggior numero di nuovi trattamenti necessario.
 

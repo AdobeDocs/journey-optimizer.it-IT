@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, elenco, abbonamento, servizio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '447'
 ht-degree: 12%
 
 ---
@@ -57,6 +57,8 @@ Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
    >[!CAUTION]
    >
    >Attualmente non è possibile utilizzare la spaziatura o immettere un nome già esistente per un altro elenco di iscrizioni in **[!UICONTROL Titolo]** campo.
+
+1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare la pagina di destinazione e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
 1. Puoi definire una data di inizio e una data di fine.
 

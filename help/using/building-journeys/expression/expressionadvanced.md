@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 76%
+source-wordcount: '647'
+ht-degree: 72%
 
 ---
 
@@ -64,11 +64,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
-* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Maggiori informazioni](../../event/about-events.md)
-* **[!UICONTROL Tipi di pubblico]**: se hai rilasciato una **[!UICONTROL Qualificazione del pubblico]** , scegli il pubblico da utilizzare nell&#39;espressione. [Maggiori informazioni](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Origini dati]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Maggiori informazioni](../../datasource/about-data-sources.md)
-* **[!UICONTROL Proprietà percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Maggiori informazioni](journey-properties.md)
-* **[!UICONTROL Funzioni]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Maggiori informazioni](functions.md)
+* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
+* **[!UICONTROL Tipi di pubblico]**: se hai rilasciato una **[!UICONTROL Qualificazione del pubblico]** , scegli il pubblico da utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Origini dati]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
+* **[!UICONTROL Proprietà percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
+* **[!UICONTROL Funzioni]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
 
 ![](../assets/journey65.png)
 
@@ -82,7 +82,7 @@ Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice
 
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
-Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro (consulta [questa pagina](../../datasource/external-data-sources.md). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
+Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro (consulta [questa pagina](../../datasource/external-data-sources.md)), a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Il valore del parametro può provenire dagli eventi posizionati nel percorso o dall&#39;origine dati dell&#39;Experience Platform (e non da altre origini dati esterne). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
 ![](../assets/journeyuc2_19.png)
 

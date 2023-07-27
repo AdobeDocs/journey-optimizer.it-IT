@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
-source-git-commit: 8da2b22b36a21f95a49f4195c25ccec9b055bbd6
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 76%
 
 ---
 
@@ -49,41 +49,52 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 
 Con i [Tag Unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it) di Adobe Experience Platform, è possibile classificare facilmente i percorsi e le campagne in Journey Optimizer per migliorare la ricerca dagli elenchi.
 
->[!AVAILABILITY]
->
->I tag unificati sono attualmente nella versione beta. La documentazione e le funzionalità sono soggette a modifiche.
-
 ### Aggiungere tag a un oggetto
 
-Il campo **Tag**, nelle proprietà del [percorso](../building-journeys/journey-gs.md#change-properties) o della [campagna](../campaigns/create-campaign.md#create) consente di definire i tag da assegnare all’oggetto. Puoi selezionare un tag esistente o crearne uno nuovo.
+Il **[!UICONTROL Tag]** consente di definire tag per l&#39;oggetto. I tag sono disponibili per i seguenti oggetti:
 
-Inizia a digitare il nome del tag desiderato e selezionalo dall’elenco. Se non è disponibile, fai clic su **Crea** per crearne uno nuovo e aggiungerlo. Puoi definire tutti i tag necessari.
+* [Percorsi](../building-journeys/journey-gs.md#change-properties)
+* [Campagne](../campaigns/create-campaign.md#create)
+* [Modelli](../email/content-templates.md)
+* [Frammenti](../email/fragments.md)
+* [Elenchi di iscrizione](../landing-pages/subscription-list.md)
+* [Pagine di destinazione](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+Puoi selezionare un tag esistente o crearne uno nuovo. A questo scopo, segui i passaggi riportati qui sotto.
 
-L’elenco dei tag definiti viene visualizzato sotto il campo **Tag**.
+1. Inizia a digitare il nome del tag desiderato e/o selezionalo dall’elenco.
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > I tag non distinguono tra maiuscole e minuscole.
+
+1. Se il tag che stai cercando non è disponibile, fai clic su **[!UICONTROL Crea &quot;&quot;]** per definirne uno nuovo, verrà aggiunto automaticamente all&#39;oggetto corrente e sarà disponibile per tutti gli altri oggetti.
+
+   ![](assets/tags4.png)
+
+1. L’elenco dei tag selezionati o creati viene visualizzato sotto **[!UICONTROL Tag]** campo. Puoi definire tutti i tag necessari.
 
 >[!NOTE]
->
-> I tag non distinguono l’uso di maiuscole e minuscole
 > 
-> Se duplichi o crei una nuova versione di un percorso o di una campagna, i tag vengono mantenuti.
+> Se si duplica o si crea una nuova versione di un oggetto, i tag vengono mantenuti.
 
 ### Filtrare i tag
 
-Gli elenchi dei percorsi e delle campagne presentano una colonna dedicata che consente di visualizzare facilmente i tag.
+Ogni elenco di oggetti mostra una colonna dedicata che consente di visualizzare facilmente i tag.
 
-È inoltre disponibile un filtro per visualizzare solo percorsi o campagne con determinati tag.
+È inoltre disponibile un filtro per visualizzare solo gli oggetti con determinati tag.
 
 ![](assets/tags2.png)
 
-Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso o campagna (live, bozza, ecc.). A questo scopo, fai clic sull’icona **Altre azioni** accanto all’oggetto e seleziona **Modifica tag**.
+Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso o campagna (live, bozza, ecc.). A questo scopo, fai clic sull’icona **[!UICONTROL Altre azioni]** accanto all’oggetto e seleziona **[!UICONTROL Modifica tag]**.
 
 ![](assets/tags3.png)
 
 ### Gestire i tag
 
-Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **Tag**, sotto **AMMINISTRAZIONE**. Trovi ulteriori informazioni sulla gestione dei tag nella [Documentazione sui tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=it).
+Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **[!UICONTROL Tag]**, sotto **[!UICONTROL AMMINISTRAZIONE]**. Trovi ulteriori informazioni sulla gestione dei tag nella [Documentazione sui tag unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html?lang=it).
 
 >[!NOTE]
 >

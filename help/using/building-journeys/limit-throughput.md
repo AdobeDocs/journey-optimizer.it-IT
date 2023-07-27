@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '675'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,11 @@ Per ulteriori informazioni su come eseguire l’integrazione con i sistemi ester
 
 ## Implementazione
 
-Per **percorsi attivati dal pubblico**, puoi definire il tasso di limitazione dell’attività Read Audience che influirà sulla velocità effettiva del percorso.  [Maggiori informazioni](../building-journeys/read-audience.md)
+Per **percorsi attivati dal pubblico**, puoi definire il tasso di limitazione dell’attività Read Audience che influirà sulla velocità effettiva del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> Questo è il numero massimo di profili che possono entrare nel pubblico letto al secondo. Questo tasso si applica solo a questa attività e non ad altre attività nel percorso. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 

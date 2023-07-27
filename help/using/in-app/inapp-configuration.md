@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
@@ -26,9 +26,14 @@ Prima di inviare messaggi in-app, devi configurare il canale in-app in [!DNL Ado
 
 1. Quindi, accedi a **[!UICONTROL Superfici app]** , quindi fai clic su **[!UICONTROL Crea superficie app]**.
 
+   >[!NOTE]
+   >
+   > Hai bisogno di **Gestire la configurazione dell’app** autorizzazione ad avere accesso al **[!UICONTROL Superfici app]** menu. Per ulteriori informazioni, consulta [questo video](#video).
+
    ![](assets/inapp_config_1.png)
 
 1. Aggiungi un nome al tuo **[!UICONTROL Superficie app]**.
+
 
 1. Dal menu a discesa iOS di Apple, digita il **ID bundle iOS**. Fai riferimento a [Documentazione di Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) per ulteriori informazioni su **ID bundle**.
 
@@ -70,3 +75,12 @@ Il canale in-app è ora configurato. Puoi iniziare a inviare messaggi in-app agl
 * [Creare una campagna](../campaigns/create-campaign.md)
 * [Progettare un messaggio in-app](design-in-app.md)
 * [Rapporto in-app](../reports/campaign-global-report.md#inapp-report)
+
+
+## Video sulle procedure{#video}
+
+* Il video seguente mostra come assegnare il **Gestire la configurazione dell’app** autorizzazione per accedere al menu Superfici app.
+
+  +++Guarda il video
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++

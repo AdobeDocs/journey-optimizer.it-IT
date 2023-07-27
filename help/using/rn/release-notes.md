@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '3105'
-ht-degree: 85%
+source-wordcount: '3079'
+ht-degree: 86%
 
 ---
 
@@ -22,18 +22,9 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
 
-## Note preliminari sulla versione di luglio 2023 {#july-rn-2023}
-
-Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati alla data di rilascio.
-
-
-**Data di rilascio**: 26-27 luglio
+## Note sulla versione di luglio 2023 {#july-rn-2023}
 
 ### Nuove funzionalità{#july-2023-features}
-
-Questa versione include le nuove funzionalità elencate di seguito.
-
-
 
 <table>
 <thead>
@@ -45,7 +36,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi creare flussi di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (divisione, arricchimento...) per creare nuovi tipi di pubblico. I tipi di pubblico appena creati vengono salvati nuovamente in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati nelle campagne Journey Optimizer per il targeting dei clienti.</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../audience/get-started-audience-orchestration.md">documentazione dettagliata</a>.</p>
 <p>La composizione del pubblico è completamente integrata con il nuovo menu "Tipi di pubblico" di Adobe Experience Platform, che funge da portale centralizzato per i tipi di pubblico. Ora puoi utilizzare una pagina Sfoglia che include una nuova dashboard con tendenze dei segmenti e sovrapposizioni per trovare nuove informazioni ed esplorare gli strumenti organizzativi per la cartella e i tag. In questa esperienza sono incorporati i controlli di governance per l’etichettatura standardizzata del pubblico e le funzionalità di gestione del ciclo di vita del pubblico per gestire i flussi di lavoro di attivazione. Con questa nuova esperienza di gestione, ora puoi gestire in modo semplice e sicuro i tipi di pubblico da un’unica posizione. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it" target="_blank">Documentazione di Adobe Experience Platform</a>.</p></p>
 </td>
@@ -64,7 +55,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
 <p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<img src="assets/do-not-localize/gif-dm.gif"/>
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
@@ -116,12 +108,11 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi creare e gestire modelli di contenuto Adobe Journey Optimizer utilizzando API dedicate, fornendo un’integrazione perfetta con il sistema di contenuti esistente.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ### Miglioramenti {#july-2023-improvements}
 

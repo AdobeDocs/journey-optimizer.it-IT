@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 4%
+source-wordcount: '1388'
+ht-degree: 12%
 
 ---
 
@@ -31,9 +31,9 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 >[!NOTE]
 >
->Per i percorsi che utilizzano un’attività Read Audience, esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di avere più di cinque percorsi (con Read Audience, pianificato o che inizia &quot;il prima possibile&quot;) a partire nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+>Per i percorsi che utilizzano un’attività di Leggii pubblico esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi pubblico, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
 >
->I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
+>I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business.
 
 ### Configurare l’attività {#configuring-segment-trigger-activity}
 
@@ -67,13 +67,13 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
    >
    >Le persone appartenenti a un pubblico che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non possono entrare nel percorso. È possibile selezionare solo uno spazio dei nomi delle identità basato su persone. Se hai definito uno spazio dei nomi per una tabella di ricerca (ad esempio: Spazio dei nomi ProductID per una ricerca di prodotto), questo non sarà disponibile nella **Namespace** elenco a discesa.
 
-1. Imposta il **[!UICONTROL Tasso di limitazione]** al limite di velocità effettiva dell’attività di lettura del pubblico.
+1. Imposta il **[!UICONTROL Tasso di limitazione]**. Questo è il numero massimo di profili che possono entrare nel pubblico letto al secondo. Questo tasso si applica solo a questa attività. Non si applica ad altre attività nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questo [pagina](../configuration/throttling.md).
 
-   Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 messaggi al secondo. Puoi modificare questo valore da 500 a 20.000 messaggi al secondo.
+   Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 profili al secondo. Puoi modificare questo valore da 500 a 20.000 profili al secondo.
 
    >[!NOTE]
    >
-   >Il tasso di limitazione complessivo per sandbox è impostato su 20.000 messaggi al secondo. Pertanto, il tasso di limitazione di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox aggiungono fino a un massimo di 20.000 messaggi al secondo. Non puoi modificare questo limite.
+   >Il tasso di limitazione complessivo per sandbox è impostato su 20.000 profili al secondo. Pertanto, il tasso di limitazione di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox aggiungono fino a un massimo di 20.000 profili al secondo. Non puoi modificare questo limite.
 
 1. Il **[!UICONTROL Read Audience]** attività ti consente di specificare l’ora in cui il pubblico entrerà nel percorso. A questo scopo, fai clic su **[!UICONTROL Modifica pianificazione percorso]** per accedere alle proprietà del percorso, quindi configura il **[!UICONTROL Tipo di modulo di pianificazione]** campo.
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->I percorsi Read audience una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 30 giorni dall’esecuzione dell’ultima occorrenza.
+>I percorsi Read audience una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico con lettura pianificata, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
 
 ### Test e pubblicazione del percorso {#testing-publishing}
 

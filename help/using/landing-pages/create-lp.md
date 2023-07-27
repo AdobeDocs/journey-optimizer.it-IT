@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 26%
+source-wordcount: '1604'
+ht-degree: 27%
 
 ---
 
@@ -77,7 +77,7 @@ I passaggi principali per creare pagine di destinazione sono i seguenti:
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla pagina di destinazione, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare la pagina di destinazione e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
 1. Seleziona un predefinito. Scopri come creare predefiniti per pagine di destinazione in [questa sezione](../landing-pages/lp-presets.md#lp-create-preset).
 

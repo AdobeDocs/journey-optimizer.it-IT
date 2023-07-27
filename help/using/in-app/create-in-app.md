@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '747'
 ht-degree: 6%
 
 ---
@@ -80,23 +80,55 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Dalla sezione **[!UICONTROL Proprietà]** , immetti il **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]** descrizione.
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al messaggio in-app, seleziona **[!UICONTROL Gestisci accesso]**. [Maggiori informazioni](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al messaggio in-app, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni](../administration/object-based-access.md).
 
-1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Maggiori informazioni](../audience/about-audiences.md).
+1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni](../audience/about-audiences.md).
 
    ![](assets/in_app_create_2.png)
 
-1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Maggiori informazioni](../event/about-creating.md#select-the-namespace).
+1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
 1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../campaigns/content-experiment.md)
 
-1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio:
+1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
 
-   1. Clic **Aggiungi condizione** se desideri che il trigger consideri più eventi o criteri.
-   1. Seleziona la modalità di collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** i trigger devono essere true per consentire la visualizzazione di un messaggio o la scelta **[!UICONTROL Oppure]** se desideri che venga visualizzato il messaggio se **o** dei trigger sono true.
+   1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
+
+   1. Clic **[!UICONTROL Aggiungi condizione]** se desideri che il trigger consideri più eventi o criteri.
+
+   1. Scegli la **[!UICONTROL Oppure]** condizione per aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Scegli la **[!UICONTROL E]** condizione se si desidera aggiungere **[!UICONTROL Caratteristiche]** e perfeziona meglio la regola.
+
+      +++Vedi Caratteristiche disponibili.
+
+      | Pacchetto | Caratteristiche  | Definizione |
+      |---|---|---|
+      | Informazioni dispositivo | Nome gestore | Attivazione quando viene soddisfatto uno dei nomi dei gestori dell&#39;elenco. |
+      | Informazioni dispositivo | Nome dispositivo | Attivazione quando viene raggiunto uno dei nomi di dispositivo. |
+      | Informazioni dispositivo | Lingua | Attivazione quando viene soddisfatta una delle lingue dell’elenco. |
+      | Informazioni dispositivo | Versione sistema operativo | Attivazione quando viene soddisfatta una delle versioni del sistema operativo specificate. |
+      | Informazioni dispositivo | Versione precedente del sistema operativo | Attivazione quando viene soddisfatta una delle versioni del sistema operativo precedente specificate. |
+      | Informazioni dispositivo | Modalità di esecuzione | Attivazione se la modalità di esecuzione è un&#39;applicazione o un&#39;estensione. |
+      | Ciclo di vita dell&#39;applicazione | ID app | Attivazione quando viene soddisfatto l&#39;ID app specificato. |
+      | Ciclo di vita dell&#39;applicazione | Giorno della settimana | Attivazione quando viene raggiunto il giorno della settimana specificato. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dal primo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dal primo utilizzo. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
+      | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
+      | Ciclo di vita dell&#39;applicazione | Avvii | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
+      | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
+      | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
+      | Places | Ultimo punto di interesse chiuso | Attivato dall’SDK di Places a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
    1. Clic **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
-
-   ![](assets/in_app_create_3.png)
 
 1. Scegli la frequenza del trigger quando il messaggio in-app è attivo. Sono disponibili le seguenti opzioni:
 
@@ -121,13 +153,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## Video sulle procedure{#video}
 
-Il video seguente mostra come creare, configurare e pubblicare messaggi in-app nelle campagne.
+* Il video seguente mostra come creare, configurare e pubblicare messaggi in-app nelle campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  +++Guarda il video
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
-Il video seguente mostra come configurare e analizzare gli esperimenti di contenuto per testare i messaggi in-app A/B.
+* Il video seguente mostra come configurare e analizzare gli esperimenti di contenuto per testare i messaggi in-app A/B.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  +++Guarda il video
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
+
 
 **Argomenti correlati:**
 

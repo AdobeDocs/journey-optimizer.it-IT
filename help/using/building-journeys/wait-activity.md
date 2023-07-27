@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 22%
+source-wordcount: '471'
+ht-degree: 18%
 
 ---
 
@@ -35,9 +35,13 @@ Se desideri attendere prima di eseguire l’attività successiva nel percorso, p
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-La durata massima di attesa è di 30 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
+La durata massima di attesa è di 30 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
-Presta attenzione quando utilizzi più attività di attesa in un percorso, in quanto il timeout percorso globale è di 30 giorni, il che significa che un profilo uscirà sempre dal valore massimo percorso 30 giorni dopo essere entrato.
+Presta attenzione quando utilizzi più attività di attesa in un percorso, in quanto il timeout percorso globale è di 30 giorni, il che significa che un profilo uscirà sempre dal valore massimo percorso 30 giorni dopo essere entrato. Consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
+
+Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 30 percorsi. Ad esempio, se aggiungi due attività di attesa impostate su 20 giorni ciascuna, il sistema rileverà che la seconda attesa terminerà dopo il timeout di 30 giorni. La seconda attesa verrà quindi ignorata e l’individuo uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
+
+È buona prassi non utilizzare le attese per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Consulta [questa pagina](../building-journeys/journey-gs.md#entrance).
 
 ## Attesa durata{#duration}
 
@@ -88,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+Potresti fare qualcosa per questo, per favore?

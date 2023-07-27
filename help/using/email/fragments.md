@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 4%
+source-wordcount: '1495'
+ht-degree: 5%
 
 ---
 
@@ -63,7 +63,7 @@ Dalla sezione **[!UICONTROL Altre azioni]** accanto a ciascun frammento, puoi ef
 Per modificare un frammento, effettua le seguenti operazioni.
 
 1. Fai clic sull’elemento desiderato da **[!UICONTROL Frammento]** elenco.
-1. Dalle proprietà del frammento puoi [esplorare i riferimenti](#explore-references), [gestirne l’accesso](../administration/object-based-access.md) e aggiorna i dettagli del frammento.
+1. Dalle proprietà del frammento puoi [esplorare i riferimenti](#explore-references), [gestirne l’accesso](../administration/object-based-access.md), e aggiorna i dettagli del frammento, tra cui [tag](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -143,6 +143,8 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
+1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare il frammento per una ricerca migliore. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
+
 1. Fai clic su **[!UICONTROL Crea]**.
 
 1. Il [E-mail Designer](get-started-email-design.md) visualizzazioni. Modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna.
@@ -188,6 +190,8 @@ Durante la progettazione di un [modello di contenuto](content-templates.md) o un
    >Attualmente solo il **[!UICONTROL Frammento visivo]** tipo e **E-mail** sono supportati.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
+
+1. Seleziona o crea tag Adobe Experience Platform da **Tag** per categorizzare il modello e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
 1. Clic **[!UICONTROL Crea]** di nuovo. Il frammento viene salvato in **[!UICONTROL Frammenti]** , accessibile dalla [!DNL Journey Optimizer] menu dedicato.
 

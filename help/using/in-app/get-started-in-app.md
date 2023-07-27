@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 I messaggi in-app sono notifiche che possono essere inviate agli utenti all’interno dell’app per indirizzarli a specifici punti di interesse. Queste notifiche possono essere utilizzate per scopi diversi, ad esempio per promuovere nuove funzioni, presentare offerte speciali o facilitare l’onboarding degli utenti. Sfruttando i messaggi in-app, puoi interagire efficacemente con il pubblico e indirizzarlo verso aspetti importanti della tua applicazione.
 
 Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui il layout e la visualizzazione dei messaggi, il testo e le opzioni dei pulsanti di scelta.
+
+>[!AVAILABILITY]
+>
+>Per il momento, il canale in-app non è disponibile per le organizzazioni che hanno acquistato l’offerta aggiuntiva Adobe Healthcare Shield.
+>
 
 ## Prerequisiti{#prerequisites-in-app}
 

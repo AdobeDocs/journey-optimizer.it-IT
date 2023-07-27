@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '432'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,9 @@ Nell’interfaccia dell’editor di espressioni seleziona, disponi, personalizza
 Nella parte sinistra della schermata viene visualizzato un selettore di dominio che consente di selezionare l’origine per la personalizzazione. Le origini disponibili sono:
 
 * **[!UICONTROL Attributi del profilo]** : elenca tutti i riferimenti associati allo schema del profilo descritto in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
-* **[!UICONTROL Tipi di pubblico]** : elenca tutti i tipi di pubblico creati nel servizio di segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL Tipi di pubblico]** : elenca tutti i tipi di pubblico creati nel servizio di segmentazione di Adobe Experience Platform. Ulteriori informazioni sulla segmentazione disponibili [qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 * **[!UICONTROL Decisioni di offerta]** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa su come gestire le offerte, consulta [questa sezione](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Attributi contestuali]** : quando un’attività di azione del canale (e-mail, push, SMS) viene utilizzata in un percorso, i campi contestuali del percorso sono disponibili tramite questo menu. Ulteriori informazioni in [questa sezione](personalization-use-case.md).
+* **[!UICONTROL Attributi contestuali]** : quando un’attività di azione del canale (e-mail, push, SMS) viene utilizzata in un percorso o in una campagna, gli attributi contestuali relativi a eventi e proprietà sono disponibili per la personalizzazione. Un esempio di personalizzazione che sfrutta gli attributi contestuali è presentato in [questa sezione](personalization-use-case.md).
 * **[!UICONTROL Funzioni di supporto]** : elenca tutte le funzioni di assistenza disponibili per eseguire operazioni sui dati, ad esempio calcoli, formattazione o conversioni di dati, condizioni e manipolarle nel contesto della personalizzazione. Ulteriori informazioni in [questa sezione](functions/functions.md).
 
 ## Aggiungere attributi di personalizzazione {#add}

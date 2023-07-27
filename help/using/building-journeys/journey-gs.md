@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 24%
+source-wordcount: '1579'
+ht-degree: 25%
 
 ---
 
@@ -125,7 +125,7 @@ Il **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio.
 
-Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di entrare nuovamente nel percorso in percorsi unitari (a partire da un evento o da una qualifica di pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
+Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti.
 
 Ulteriori informazioni sulla gestione dell’ingresso del profilo, in [questa sezione](entry-management.md).
 
@@ -163,7 +163,7 @@ I percorsi utilizzano anche un timeout globale. Consulta la [sezione successiva]
 
 ### Timeout percorso globale {#global_timeout}
 
-Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout interromperà l’avanzamento delle persone nel percorso 30 giorni dopo l’ingresso. Ciò significa che la durata del percorso di un individuo non può superare i 30 giorni. Dopo il periodo di timeout di 30 giorni, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e verranno presi in considerazione come errori nella generazione dei rapporti.
+Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout interromperà l’avanzamento delle persone nel percorso 30 giorni dopo l’ingresso. Ciò significa che la durata del percorso di un individuo non può superare i 30 giorni. Dopo il periodo di timeout di 30 giorni, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
 
 >[!NOTE]
 >
@@ -171,3 +171,4 @@ Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, e
 
 A causa del timeout di 30 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 30 giorni fa.
 
+Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 30 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
