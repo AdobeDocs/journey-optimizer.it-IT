@@ -5,7 +5,7 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: df5f5b82d6463973ba7fb19713eb1dc49c00d9db
+source-git-commit: 3f00453df4ba73f621b23aaba7ce4631d40b648a
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 27%
@@ -36,7 +36,6 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi creare flussi di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (divisione, arricchimento...) per creare nuovi tipi di pubblico. I tipi di pubblico appena creati vengono salvati nuovamente in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati nelle campagne Journey Optimizer per il targeting dei clienti.</p>
-<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../audience/get-started-audience-orchestration.md">documentazione dettagliata</a>.</p>
 <p>La composizione del pubblico è completamente integrata con il nuovo menu "Tipi di pubblico" di Adobe Experience Platform, che funge da portale centralizzato per i tipi di pubblico. Ora puoi utilizzare una pagina Sfoglia che include una nuova dashboard con tendenze dei segmenti e sovrapposizioni per trovare nuove informazioni ed esplorare gli strumenti organizzativi per la cartella e i tag. In questa esperienza sono incorporati i controlli di governance per l’etichettatura standardizzata del pubblico e le funzionalità di gestione del ciclo di vita del pubblico per gestire i flussi di lavoro di attivazione. Con questa nuova esperienza di gestione, ora puoi gestire in modo semplice e sicuro i tipi di pubblico da un’unica posizione. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it" target="_blank">Documentazione di Adobe Experience Platform</a>.</p></p>
 </td>
