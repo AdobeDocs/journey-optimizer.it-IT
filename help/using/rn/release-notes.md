@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
-ht-degree: 84%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <p>Ora puoi creare flussi di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (divisione, arricchimento...) per creare nuovi tipi di pubblico. I tipi di pubblico appena creati vengono salvati nuovamente in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati nelle campagne Journey Optimizer per il targeting dei clienti.</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../audience/get-started-audience-orchestration.md">documentazione dettagliata</a>.</p>
-<p>La composizione del pubblico è completamente integrata con il nuovo menu "Tipi di pubblico" di Adobe Experience Platform, che funge da portale centralizzato per i tipi di pubblico. Ora puoi utilizzare una pagina Sfoglia che include una nuova dashboard con tendenze dei segmenti e sovrapposizioni per trovare nuove informazioni ed esplorare gli strumenti organizzativi per la cartella e i tag. In questa esperienza sono incorporati i controlli di governance per l’etichettatura standardizzata del pubblico e le funzionalità di gestione del ciclo di vita del pubblico per gestire i flussi di lavoro di attivazione. Con questa nuova esperienza di gestione, ora puoi gestire in modo semplice e sicuro i tipi di pubblico da un’unica posizione. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it" target="_blank">Documentazione di Adobe Experience Platform</a>.</p></p>
+<p>La composizione del pubblico è completamente integrata con il nuovo menu "Tipi di pubblico" di Adobe Experience Platform, che funge da portale centralizzato per i tipi di pubblico. Ora puoi utilizzare una pagina Sfoglia che include una nuova dashboard con tendenze di segmenti e sovrapposizioni, per trovare nuove informazioni ed esplorare gli strumenti organizzativi per cartelle e tag. In questa esperienza sono incorporati controlli di governance per l’etichettatura standardizzata del pubblico e funzionalità di gestione del ciclo di vita del pubblico, al fine di gestire i flussi di lavoro di attivazione. Con questa nuova esperienza di gestione, ora puoi gestire in modo semplice e sicuro i tipi di pubblico da un’unica posizione. Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it" target="_blank">documentazione di Adobe Experience Platform</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -53,8 +53,8 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere messaggi di direct mailing alle campagne. La direct mailing è un canale offline che ti consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.</p>
-<p>Quando prepari una consegna di direct mailing, Journey Optimizer genera un file contenente tutti i profili target e le informazioni di contatto scelte (ad esempio l’indirizzo postale). Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.</p>
+<p>È ora possibile aggiungere messaggi direct mail alle campagne. Direct mail è un canale offline che consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.</p>
+<p>Quando prepari una consegna di direct mail, Journey Optimizer genera un file contenente tutti i profili target e i dati di contatto scelti (ad esempio l’indirizzo postale). Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.</p>
 <p>Per il momento, il canale direct mailing non è disponibile per le organizzazioni che hanno acquistato l’offerta aggiuntiva Adobe Healthcare Shield.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../direct-mail/get-started-direct-mail.md">documentazione dettagliata</a>.</p>
@@ -65,13 +65,13 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <table>
 <thead>
 <tr>
-<th><strong>Convertire il contenuto HTML per e-mail designer</strong><br/></th>
+<th><strong>Convertire il contenuto HTML per E-mail designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi importare e convertire qualsiasi contenuto HTML nell’editor e-mail di Journey Optimizer. I blocchi di contenuto vengono identificati automaticamente e sono disponibili nell’e-mail designer: utilizza le sue potenti funzionalità di progettazione per aggiornarlo e personalizzarlo.</p>
+<p>Ora puoi importare e convertire qualsiasi contenuto HTML nell’editor e-mail di Journey Optimizer. I blocchi di contenuto vengono identificati automaticamente e sono disponibili in E-mail designer: utilizza le sue potenti funzionalità di progettazione per aggiornarli e personalizzarli.</p>
 <img src="assets/html-convert.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -89,7 +89,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tbody>
 <tr>
 <td>
-<p>Oltre a campagne e percorsi, ora puoi assegnare Tag unificati Adobe Experience Platform alle pagine di destinazione, ai modelli di contenuto, ai frammenti e agli elenchi di abbonamento. Ciò ti consente di classificarli facilmente e di migliorare la ricerca e la navigazione in tutti gli elenchi. </p>
+<p>Oltre a campagne e percorsi, ora puoi assegnare i tag unificati di Adobe Experience Platform a pagine di destinazione, modelli di contenuto, frammenti ed elenchi di iscrizione. Questo ne agevola la classificazione e migliora la ricerca e la navigazione in tutti gli elenchi. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../start/search-filter-categorize.md#tags">documentazione dettagliata</a>.</p>
 </td>
@@ -107,7 +107,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e gestire modelli di contenuto Adobe Journey Optimizer utilizzando API dedicate, fornendo un’integrazione perfetta con il sistema di contenuti esistente.</p>
+<p>Ora puoi creare e gestire modelli di contenuto Adobe Journey Optimizer utilizzando API dedicate, fornendo un’integrazione diretta con il sistema di contenuti esistente.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -126,12 +126,12 @@ A new type of system alert has been introduced. You can now get notified when a 
 
 **Campagne**
 
-Gli eventi contestuali relativi alle campagne sono ora disponibili per l’utilizzo nel menu &quot;Attributi contestuali&quot; dell’editor di personalizzazione.
+Gli eventi contestuali relativi alle campagne sono ora disponibili all’uso nel menu “Attributi contestuali” dell’editor di personalizzazione.
 
 
 **Tipi di pubblico**
 
-Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico. Con il rilascio del portale di composizione del pubblico, Adobe Experience Platform e Adobe Journey Optimizer hanno aggiornato l’utilizzo di &quot;tipi di pubblico&quot; e &quot;segmenti&quot; all’interno del sistema e della documentazione.
+Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico. Con il rilascio del portale di composizione del pubblico, nel sistema e nella documentazione di Adobe Experience Platform e Adobe Journey Optimizer è stato aggiornato l’utilizzo di “pubblico” e “segmenti”.
 
 * Pubblico: un set di persone, account, famiglie o altre entità che hanno in comune caratteristiche e/o comportamenti specifici.
 * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
@@ -145,7 +145,7 @@ Il metodo JWT per generare token di accesso per l’autenticazione API Adobe Jou
 
 **Altre modifiche**
 
-L’esportazione dei set di dati Journey Optimizer nelle destinazioni di archiviazione cloud è ora disponibile per tutti i clienti come versione beta pubblica. Questa funzione ti consente di stabilire una connessione live con le posizioni di archiviazione cloud per esportare il contenuto dei set di dati. [Ulteriori informazioni](../data/export-datasets.md)
+L’esportazione dei set di dati Journey Optimizer nelle destinazioni di archiviazione cloud è ora disponibile per tutti i clienti come versione beta pubblica. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud. [Ulteriori informazioni](../data/export-datasets.md)
 
 
 

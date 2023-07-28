@@ -7,7 +7,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '3001'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -188,7 +188,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di gennaio 2022 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione sulle **classificazioni basate su IA di Offer Decisioning** è stata aggiornata con una descrizione più dettagliata del modello di ottimizzazione automatica. [Ulteriori informazioni](../offers/ranking/auto-optimization-model.md)
-* È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza un modello AI. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md)
+* È stata aggiunta una nuova sezione sui requisiti dello schema necessari per poter inviare i tipi di evento quando si utilizza un modello basato su IA. [Ulteriori informazioni](../offers/data-collection/schema-requirement.md)
 * La sezione relativa alle funzionalità di personalizzazione di [!DNL Journey Optimizer] è stata riorganizzata per una migliore leggibilità. [Ulteriori informazioni](../personalization/personalize.md)
 * La sezione **Creare predefiniti messaggi** è stata suddivisa in diverse sezioni per migliorarne la chiarezza. [Ulteriori informazioni](../configuration/channel-surfaces.md#create-channel-surface)
 * La sezione sulla **gestione delle rinunce** è stata chiarita e leggermente riorganizzata. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
