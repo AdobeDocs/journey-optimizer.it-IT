@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informative"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 33%
+source-wordcount: '881'
+ht-degree: 32%
 
 ---
 
 # Configurazione direct mail {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Creare una direct mail](create-direct-mail.md)
-* **[Configurare la direct mail](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ti consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.
 
@@ -80,13 +68,13 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione di indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** , quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Imposta un nome per la configurazione.
 
 1. Seleziona la **[!UICONTROL Tipo di server]** che desideri utilizzare per esportare i file di direct mailing.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,7 +86,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Se hai selezionato **[!UICONTROL Amazon S3]**, scegli il **[!UICONTROL Area geografica AWS]** dove si trova l&#39;infrastruttura server.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -137,11 +125,11 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
 1. Seleziona la **[!UICONTROL Direct mail]** canale.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Definisci le impostazioni della direct mailing nella sezione dedicata della configurazione della superficie di canale.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -157,7 +145,7 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
    >
    >Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 

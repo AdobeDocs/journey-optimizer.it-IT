@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
-hide: true
-hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informative"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 11%
+source-wordcount: '459'
+ht-degree: 10%
 
 ---
 
@@ -24,69 +21,58 @@ ht-degree: 11%
 >title="Creazione di direct mail"
 >abstract="Crea messaggi di direct mail in campagne pianificate e progetta i file di estrazione richiesti dai provider di direct mail che desideri inviare ai tuoi clienti."
 
->[!BEGINSHADEBOX]
+## Creare una campagna di direct mailing{#create-dm-campaign}
 
-Cosa troverai in questa documentazione:
+1. Crea una nuova campagna pianificata e scegli **[!UICONTROL Direct mail]** come azione.
 
-* **[Creare una direct mail](create-direct-mail.md)**
-* [Configurare la direct mail](direct-mail-configuration.md)
+1. Seleziona la **[!UICONTROL Superficie direct mail]** per utilizzare e fare clic su **[!UICONTROL Crea]**. [Scopri come creare una superficie per direct mailing](direct-mail-configuration.md#direct-mail-surface).
 
->[!ENDSHADEBOX]
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
->[!AVAILABILITY]
->
->La direct mailing è attualmente disponibile come versione beta privata e può essere soggetta ad aggiornamenti frequenti senza preavviso.
+1. In **[!UICONTROL Proprietà]** , modifica i **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]**.
 
-La direct mailing è un canale offline che ti consente di personalizzare e generare i file di estrazione necessari ai provider di direct mailing per inviare e-mail ai clienti.
+1. Per definire il pubblico di destinazione, fai clic su **[!UICONTROL Seleziona pubblico]** e scegliere tra i tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni](../audience/about-audiences.md).
 
-Quando crei una direct mailing, Journey Optimizer genera un file che include tutti i profili target e i dati scelti (ad esempio indirizzo postale, attributi del profilo). Il provider di direct mailing sarà quindi in grado di recuperare tale file e si occuperà dell’invio effettivo.
+   >[!IMPORTANT]
+   >
+   >Per il momento, la selezione del pubblico è limitata a 3 milioni di profili. Questa limitazione può essere revocata su richiesta del rappresentante del tuo Adobe.
 
-I messaggi direct mail possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo in campagne attivate da API o in percorsi.
+1. In **[!UICONTROL Spazio dei nomi dell’identità]** , seleziona lo spazio dei nomi appropriato per identificare i singoli utenti all’interno del pubblico scelto. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
->[!IMPORTANT]
->
->Prima di inviare un messaggio di direct mailing, assicurati di aver configurato:
->
->1. A [configurazione di indirizzamento dei file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui il file di estrazione deve essere caricato e memorizzato,
->1. A [superficie del messaggio direct mail](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
+1. Le campagne possono essere pianificate per una data specifica o impostate per essere ricorrenti a intervalli regolari. Scopri come configurare **[!UICONTROL Pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
 
-## Creare il messaggio di direct mailing {#create}
+Ora puoi iniziare a configurare il file di estrazione da inviare al provider di direct mailing.
 
-I passaggi per creare e inviare un messaggio di direct mailing sono i seguenti:
+## Configurare il file di estrazione {#extraction-file}
 
-1. Crea una nuova campagna pianificata, seleziona **[!UICONTROL Direct mail]** come azione e scegliere la superficie di canale da utilizzare. [Scopri come creare una superficie per direct mailing](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. Dalla schermata di configurazione della campagna, fai clic su **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
 
-   ![](assets/direct-mail-campaign.png)
+1. Regola le proprietà del file di estrazione:
 
-1. Clic **[!UICONTROL Crea]** quindi definisci le informazioni di base sulla campagna (nome, descrizione). [Scopri come configurare una campagna](../campaigns/create-campaign.md)
+   1. Specifica il **[!UICONTROL Nome file]** per il file di estrazione.
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** per configurare il file di estrazione da inviare al provider di direct mailing.
+   1. Facoltativamente, abilita **[!UICONTROL Aggiungi la marca temporale al nome del file di esportazione]** se si desidera aggiungere una marca temporale automatica al nome file specificato.
 
-1. Definisci il nome del file di estrazione in **[!UICONTROL Nome file]** campo.
+   1. A volte potresti aver bisogno di aggiungere informazioni all’inizio o alla fine del file di estrazione. A tale scopo, utilizza **[!UICONTROL Note]** specificare se si desidera includere la nota come intestazione o piè di pagina.
 
-   A volte potresti aver bisogno di aggiungere informazioni all’inizio o alla fine del file di estrazione. A tale scopo, utilizza **[!UICONTROL Note]** specificare se si desidera includere la nota come intestazione o piè di pagina.
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+1. Configura le colonne e le informazioni da visualizzare nel file di estrazione:
 
-   ![](assets/direct-mail-properties.png)
+   1. Fai clic su **[!UICONTROL Aggiungi]** per creare una nuova colonna.
 
-1. Utilizza l’area a sinistra per definire le informazioni da visualizzare come colonne nel file di estrazione:
+   1. Il **[!UICONTROL Formattazione]** Il riquadro di destra consente di impostare la colonna selezionata. Specifica un **[!UICONTROL Etichetta]** per la colonna.
 
-   1. Fai clic su **[!UICONTROL Aggiungi]** per aggiungere una nuova colonna, quindi selezionarla dall&#39;elenco.
+   1. In **[!UICONTROL Dati]** , selezionare gli attributi di profilo da visualizzare utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md).
 
-   1. In **[!UICONTROL Formattazione]** , specificare un&#39;etichetta per la colonna, quindi definire gli attributi di profilo da visualizzare utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md).
+   1. Per ordinare il file di estrazione utilizzando una colonna, seleziona la colonna e attiva **[!UICONTROL Ordina per]** opzione. Il **[!UICONTROL Ordina per]** viene visualizzata accanto all’etichetta della colonna nel **[!UICONTROL Campi dati]** sezione.
 
-      ![](assets/direct-mail-content.png)
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
-   1. Per ordinare il file di estrazione utilizzando la colonna selezionata, attiva/disattiva **[!UICONTROL Ordina per]** opzione attivata. Il **[!UICONTROL Ordina per]** viene quindi visualizzata accanto all’etichetta della colonna nella struttura del file.
+   1. Ripeti questi passaggi per aggiungere tutte le colonne necessarie per il file di estrazione. Puoi aggiungere fino a 50 colonne.
 
-1. Ripeti questi passaggi per aggiungere tutte le colonne necessarie per generare il file di estrazione. Puoi aggiungere fino a 50 colonne.
+      Per modificare la posizione di una colonna, trascinarla nella posizione desiderata in **[!UICONTROL Campo dati]** sezione. Per eliminare una colonna, selezionarla e fare clic sul pulsante **[!UICONTROL Rimuovi]** pulsante in **[!UICONTROL Formattazione]** riquadro.
 
-   È possibile eliminare una colonna in qualsiasi momento selezionandola e facendo clic sul pulsante **[!UICONTROL Rimuovi]** dal pulsante **[!UICONTROL Formattazione]** sezione.
-
-   ![](assets/direct-mail-complete.png)
-
-1. Una volta definito il contenuto della direct mailing, completa la configurazione della campagna.
-
-   All’avvio della campagna, il file di estrazione viene generato ed esportato automaticamente sul server specificato nella [configurazione di indirizzamento dei file](../direct-mail/direct-mail-configuration.md).
+Ora puoi testare il messaggio direct mailing e inviarlo al pubblico. [Scopri come testare e inviare messaggi di direct mailing](test-send-direct-mail.md)

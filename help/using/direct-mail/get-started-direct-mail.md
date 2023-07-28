@@ -1,0 +1,37 @@
+---
+title: Introduzione alla direct mailing
+description: Scopri come creare e un messaggio di direct mailing in Journey Optimizer
+feature: Overview
+topic: Content Management
+role: User
+level: Beginner
+keywords: direct mail, messaggio, campagna
+source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+workflow-type: tm+mt
+source-wordcount: '205'
+ht-degree: 0%
+
+---
+
+# Creare un messaggio di direct mailing {#create-direct}
+
+>[!AVAILABILITY]
+>
+>Per il momento, il canale direct mailing non è disponibile per le organizzazioni che hanno acquistato l’offerta aggiuntiva Adobe Healthcare Shield.
+
+La direct mailing è un canale offline che ti consente di personalizzare e generare i file di estrazione necessari ai provider di direct mailing per inviare e-mail ai clienti.
+
+Durante la creazione di una campagna di direct mailing, Journey Optimizer genera automaticamente un file contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mailing scelto, che gestirà il processo di mailing effettivo per te.
+
+I passaggi principali per l’invio di messaggi di direct mailing sono i seguenti:
+
+![](assets/dm-creation-process.png)
+
+I messaggi direct mail possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo in campagne attivate da API o in percorsi.
+
+>[!IMPORTANT]
+>
+>Prima di inviare un messaggio di direct mailing, assicurati di aver configurato:
+>
+>1. A [configurazione di indirizzamento dei file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui il file di estrazione deve essere caricato e memorizzato,
+>1. A [superficie del messaggio direct mail](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.

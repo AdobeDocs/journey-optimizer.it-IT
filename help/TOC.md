@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1399'
 ht-degree: 99%
 
 ---
@@ -53,9 +53,9 @@ ht-degree: 99%
       + [Introduzione alle attività dei percorsi](using/building-journeys/about-journey-activities.md)
       + [Eventi generali](using/building-journeys/general-events.md)
       + [Reazione](using/building-journeys/reaction-events.md)
-      + [Qualificazione del pubblico](using/building-journeys/audience-qualification-events.md)
+      + [Qualifica tipi di pubblico](using/building-journeys/audience-qualification-events.md)
       + [Condizione](using/building-journeys/condition-activity.md)
-      + [Attendi](using/building-journeys/wait-activity.md)
+      + [Attendere](using/building-journeys/wait-activity.md)
       + [Leggere tipi di pubblico](using/building-journeys/read-audience.md)
       + [E-mail, In-app, Push, SMS](using/building-journeys/journeys-message.md)
       + [Azioni personalizzate](using/building-journeys/using-custom-actions.md)
@@ -228,7 +228,9 @@ ht-degree: 99%
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
+   + [Introduzione alla direct mailing](using/direct-mail/get-started-direct-mail.md)
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
+   + [Testare e inviare un messaggio di direct mailing](using/direct-mail/test-send-direct-mail.md)
    + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web{#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
@@ -282,7 +284,7 @@ ht-degree: 99%
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
-      + [Definizioni dei segmenti di build](using/audience/creating-a-segment-definition.md)
+      + [Generare definizioni di segmento](using/audience/creating-a-segment-definition.md)
       + Comporre i tipi di pubblico {#audience-orchestration}
          + [Introduzione alla composizione dei tipi di pubblico](using/audience/get-started-audience-orchestration.md)
          + [Creare flussi di lavoro di composizione](using/audience/create-compositions.md)
