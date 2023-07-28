@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# Creare un messaggio di direct mailing {#create-direct}
+# Introduzione alla direct mailing {#create-direct}
 
 >[!AVAILABILITY]
 >
 >Per il momento, il canale direct mailing non è disponibile per le organizzazioni che hanno acquistato l’offerta aggiuntiva Adobe Healthcare Shield.
+>
 
 La direct mailing è un canale offline che ti consente di personalizzare e generare i file di estrazione necessari ai provider di direct mailing per inviare e-mail ai clienti.
 

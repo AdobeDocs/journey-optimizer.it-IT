@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '3193'
 ht-degree: 84%
@@ -57,7 +57,7 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 <p>Quando prepari una consegna di direct mailing, Journey Optimizer genera un file contenente tutti i profili target e le informazioni di contatto scelte (ad esempio l’indirizzo postale). Potrai quindi inviare questo file al provider di direct mailing, che si occuperà dell’invio effettivo.</p>
 <p>Per il momento, il canale direct mailing non è disponibile per le organizzazioni che hanno acquistato l’offerta aggiuntiva Adobe Healthcare Shield.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../direct-mail/create-direct-mail.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../direct-mail/get-started-direct-mail.md">documentazione dettagliata</a>.</p>
 </tr>
 </tbody>
 </table>
