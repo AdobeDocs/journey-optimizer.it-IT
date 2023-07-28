@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
-source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,4 @@ I passaggi principali per l’invio di messaggi di direct mailing sono i seguent
 
 I messaggi direct mail possono essere creati solo nel contesto di campagne pianificate. Non sono disponibili per l’utilizzo in campagne attivate da API o in percorsi.
 
->[!IMPORTANT]
->
->Prima di inviare un messaggio di direct mailing, assicurati di aver configurato:
->
->1. A [configurazione di indirizzamento dei file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui il file di estrazione deve essere caricato e memorizzato,
->1. A [superficie del messaggio direct mail](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
+

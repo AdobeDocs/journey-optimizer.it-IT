@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 10%
+source-wordcount: '560'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 10%
 >title="Creazione di direct mail"
 >abstract="Crea messaggi di direct mail in campagne pianificate e progetta i file di estrazione richiesti dai provider di direct mail che desideri inviare ai tuoi clienti."
 
+Per creare messaggi di direct mailing, crea una campagna pianificata e configura il file di estrazione. Questo file è richiesto dai provider di direct mailing per inviare e-mail ai clienti.
+
+>[!IMPORTANT]
+>
+>Prima di creare un messaggio di direct mailing, assicurati di aver configurato:
+>
+>1. A [configurazione di indirizzamento dei file](../direct-mail/direct-mail-configuration.md#file-routing-configuration) che specifica il server in cui il file di estrazione deve essere caricato e memorizzato,
+>1. A [superficie del messaggio direct mail](../direct-mail/direct-mail-configuration.md#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
+
+
 ## Creare una campagna di direct mailing{#create-dm-campaign}
+
+Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 
 1. Crea una nuova campagna pianificata e scegli **[!UICONTROL Direct mail]** come azione.
 
@@ -46,6 +58,8 @@ ht-degree: 10%
 Ora puoi iniziare a configurare il file di estrazione da inviare al provider di direct mailing.
 
 ## Configurare il file di estrazione {#extraction-file}
+
+Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 
 1. Dalla schermata di configurazione della campagna, fai clic su **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
 
