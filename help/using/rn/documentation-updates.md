@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
-source-wordcount: '3001'
-ht-degree: 98%
+source-wordcount: '3061'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,11 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Luglio 2023 {#july-2023}
 
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione del 23 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La pagina della documentazione sull’attività Attendi è stata migliorata con ulteriori informazioni e best practice relative al timeout globale e all’utilizzo del rientro. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 * È stata migliorata la pagina sulla gestione delle voci. [Ulteriori informazioni](../building-journeys/entry-management.md)
-* Sono state aggiunte ulteriori informazioni sul tasso di limitazione nella documentazione dell’attività Read audience. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* Nella documentazione dell’attività Read audience sono state aggiunte ulteriori informazioni sul tasso di limitazione. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* Il **Implementare il consenso alla personalizzazione** La sezione è stata aggiornata per descrivere come applicare manualmente il consenso alla personalizzazione nelle campagne: puoi utilizzare il generatore di regole di segmento per creare un pubblico contenente profili di rinuncia o aggiungere un’attività di suddivisione a un flusso di lavoro di composizione. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Giugno 2023 {#june-2023}
 

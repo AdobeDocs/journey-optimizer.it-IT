@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer i
 
 I clienti possono anche rinunciare alla presentazione di contenuti personalizzati. Una volta che un profilo ha rinunciato alla personalizzazione, devi assicurarti che i suoi dati non vengano utilizzati per la personalizzazione e devi sostituire qualsiasi contenuto personalizzato con una variante di fallback.
 
-### In Gestione decisioni
+### In Gestione decisioni {#opt-out-decision-management}
 
 Quando utilizzi le offerte, le preferenze di personalizzazione non vengono implementate automaticamente negli [ambiti decisionali](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) utilizzati da una richiesta di [Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API o [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API. In questo caso, devi applicare manualmente il consenso alla personalizzazione. A questo scopo, segui i passaggi riportati qui sotto.
 
@@ -93,9 +93,7 @@ Se un utente:
 >
 >Il consenso all’utilizzo dei dati del profilo in [modellazione dati](../offers/ranking/ai-models.md) non è ancora supportato in [!DNL Journey Optimizer].
 
-## Sull’editor di espressioni
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## Sull’editor di espressioni {#opt-out-expression-editor}
 
 L’[Editor di espressioni](../personalization/personalization-build-expressions.md) stesso non esegue alcun controllo o applicazione del consenso, in quanto non è coinvolto nelle azioni di consegna dei messaggi.
 
@@ -104,7 +102,6 @@ Tuttavia, l’utilizzo di etichette di controllo dell’accesso basate sui dirit
 >[!NOTE]
 >
 >Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC) in [questa sezione](../administration/object-based-access.md).
-
 
 Nelle campagne [!DNL Journey Optimizer], i criteri di consenso vengono applicati come segue:
 
