@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 32%
 
 ---
@@ -44,9 +44,9 @@ Ad esempio, supponiamo che sia stata definita una regola di limitazione di utili
 
 >[!IMPORTANT]
 >
->Le **regole di limitazione di utilizzo** sono configurate a livello di sandbox, per un endpoint specifico (l’URL chiamato) ma sono globali per tutti i percorsi di tale sandbox.
+>Le **regole di limitazione di utilizzo** sono configurate a livello di sandbox, per un endpoint specifico (l’URL chiamato) ma sono globali per tutti i percorsi di tale sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
 >
->Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Si può disporre di una sola configurazione di limitazione per organizzazione.
+>Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Si può disporre di una sola configurazione di limitazione per organizzazione. La limitazione è disponibile solo per le azioni personalizzate.
 
 Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguenti:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1125'
 ht-degree: 99%
 
 ---
@@ -49,7 +49,6 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 ### Azioni generali {#general-actions-g}
 
-* Non esiste alcuna limitazione di invio.
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. I tentativi vengono eseguiti per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
 * L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
