@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1399'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -228,9 +228,9 @@ ht-degree: 99%
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
-   + [Introduzione alla direct mailing](using/direct-mail/get-started-direct-mail.md)
+   + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
-   + [Testare e inviare un messaggio di direct mailing](using/direct-mail/test-send-direct-mail.md)
+   + [Testare e inviare un messaggio di direct mail](using/direct-mail/test-send-direct-mail.md)
    + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web{#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
