@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 ### Azioni generali {#general-actions-g}
 
-* In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. I tentativi vengono eseguiti per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
+* In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. Vengono eseguiti nuovi tentativi per tutti gli errori HTTP eccetto HTTP 401, 403 e 404.
 * L’evento **Reazione** incorporato ti consente di reagire alle azioni predefinite. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/reaction-events.md). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato.
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
 * Un profilo non può essere presente più volte nello stesso percorso contemporaneamente. Se è stato abilitato il rientro, un profilo può rientrare in un percorso, ma non può farlo fino a quando non è completamente uscito dall’istanza precedente del percorso. [Ulteriori informazioni](../building-journeys/end-journey.md)
