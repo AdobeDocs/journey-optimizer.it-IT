@@ -5,9 +5,9 @@ title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3193'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campa
 * Pubblico: un set di persone, account, famiglie o altre entità che hanno in comune caratteristiche e/o comportamenti specifici.
 * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
 
-Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, &quot;Segmenti&quot; viene sostituito da &quot;Tipi di pubblico&quot; per riflettere questo nuovo percorso di creazione e gestione del pubblico.
+Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia di Adobe Experience Platform, il termine “Segmenti” è stato sostituito da “Tipi di pubblico” per riflettere questo nuovo percorso di creazione e gestione del pubblico.
 
 **API**
 
@@ -145,7 +145,7 @@ Il metodo JWT per generare token di accesso per l’autenticazione API Adobe Jou
 
 **Altre modifiche**
 
-L’esportazione dei set di dati Journey Optimizer nelle destinazioni di archiviazione cloud è ora disponibile per tutti i clienti come versione beta pubblica. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud. [Ulteriori informazioni](../data/export-datasets.md)
+L’esportazione di set di dati Journey Optimizer in destinazioni di archiviazione cloud è ora disponibile per tutti i clienti come Beta pubblica. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud. [Ulteriori informazioni](../data/export-datasets.md)
 
 
 
