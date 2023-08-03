@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -51,40 +51,40 @@ Con i [Tag Unificati](https://experienceleague.adobe.com/docs/experience-platfor
 
 ### Aggiungere tag a un oggetto
 
-Il **[!UICONTROL Tag]** consente di definire tag per l&#39;oggetto. I tag sono disponibili per i seguenti oggetti:
+Il campo **[!UICONTROL Tag]** consente di definire i tag per l’oggetto. I tag sono disponibili per i seguenti oggetti:
 
 * [Percorsi](../building-journeys/journey-gs.md#change-properties)
 * [Campagne](../campaigns/create-campaign.md#create)
 * [Modelli](../email/content-templates.md)
 * [Frammenti](../email/fragments.md)
-* [Elenchi di iscrizione](../landing-pages/subscription-list.md)
+* [Elenchi di iscrizioni](../landing-pages/subscription-list.md)
 * [Pagine di destinazione](../landing-pages/create-lp.md)
 
 Puoi selezionare un tag esistente o crearne uno nuovo. A questo scopo, segui i passaggi riportati qui sotto.
 
-1. Inizia a digitare il nome del tag desiderato e/o selezionalo dall’elenco.
+1. Inizia a digitare il nome del tag desiderato e selezionalo dall’elenco.
 
    ![](assets/tags1.png)
 
    >[!NOTE]
    >
-   > I tag non distinguono tra maiuscole e minuscole.
+   > I tag non tengono conto di maiuscole e minuscole.
 
-1. Se il tag che stai cercando non è disponibile, fai clic su **[!UICONTROL Crea &quot;&quot;]** per definirne uno nuovo, verrà aggiunto automaticamente all&#39;oggetto corrente e sarà disponibile per tutti gli altri oggetti.
+1. Se il tag che stai cercando non è disponibile, fai clic su **[!UICONTROL Crea &quot;&quot;]** per definirne uno nuovo: verrà aggiunto automaticamente all’oggetto corrente e sarà disponibile per tutti gli altri oggetti.
 
    ![](assets/tags4.png)
 
-1. L’elenco dei tag selezionati o creati viene visualizzato sotto **[!UICONTROL Tag]** campo. Puoi definire tutti i tag necessari.
+1. L’elenco dei tag selezionati o creati viene visualizzato sotto il campo **[!UICONTROL Tag]**. Puoi definire tutti i tag necessari.
 
 >[!NOTE]
 > 
-> Se si duplica o si crea una nuova versione di un oggetto, i tag vengono mantenuti.
+> Se duplichi o crei una nuova versione di un oggetto, i tag vengono mantenuti.
 
 ### Filtrare i tag
 
-Ogni elenco di oggetti mostra una colonna dedicata che consente di visualizzare facilmente i tag.
+In ogni elenco di oggetti è presente una colonna dedicata che consente di visualizzare facilmente i tag.
 
-È inoltre disponibile un filtro per visualizzare solo gli oggetti con determinati tag.
+È inoltre disponibile un filtro per visualizzare solo gli oggetti a cui sono stati applicati determinati tag.
 
 ![](assets/tags2.png)
 
