@@ -6,9 +6,9 @@ description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '638'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -122,7 +122,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
 * È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata.
-—>
+-->
 
 **Campagne**
 
@@ -147,7 +147,7 @@ Autenticazione nelle API di Adobe Journey Optimizer: il metodo JWT per generare 
 
 **Altre modifiche**
 
-L’esportazione dei set di dati Journey Optimizer nelle destinazioni di archiviazione cloud è ora disponibile per tutti i clienti come versione beta pubblica. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud. [Ulteriori informazioni](../data/export-datasets.md)
+L’esportazione di set di dati Journey Optimizer in destinazioni di archiviazione cloud è ora disponibile per tutti i clienti come Beta pubblica. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud. [Ulteriori informazioni](../data/export-datasets.md)
 
 
 
