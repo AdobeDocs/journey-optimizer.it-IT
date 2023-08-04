@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: azione, terze parti, personalizzato, percorsi, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 9%
 
 ---
 
-# Miglioramenti delle azioni personalizzate {#configure-an-action}
+# Miglioramenti delle azioni personalizzate
 
 Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
 
 Questa funzionalità era disponibile solo quando si utilizzavano origini dati. Ora puoi utilizzarlo con azioni personalizzate.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> Questa funzione è attualmente disponibile come versione beta privata.
+>Questa funzione è attualmente disponibile come versione beta privata.
 
 ## Definizione dell’azione personalizzata
 
 Durante la definizione dell’azione personalizzata, sono stati resi disponibili due miglioramenti: l’aggiunta del metodo GET e il nuovo campo di risposta del payload. Le altre opzioni e i parametri rimangono invariati. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-### Configurazione endpoint {#url-configuration}
+### Configurazione endpoint
 
 Il **Configurazione URL** la sezione è stata rinominata **Configurazione endpoint**.
 
@@ -40,16 +40,16 @@ In **Metodo** a discesa, è ora possibile selezionare **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payload {#url-configuration}
+### Payload
 
 Il **Parametri azione** la sezione è stata rinominata **Payload**. Sono disponibili due campi:
 
 * Il **Richiesta** campo: questo campo è disponibile solo per i metodi di chiamata POST e PUT.
 * Il **Risposta** campo: questa è la nuova funzionalità. Questo campo è disponibile per tutti i metodi di chiamata.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Entrambi questi campi sono facoltativi.
+>Entrambi questi campi sono facoltativi.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ Puoi anche sfruttare **jo_status** codice per creare un nuovo percorso in caso d
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Solo le azioni personalizzate appena create includono questo campo pronto all’uso. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
+>Solo le azioni personalizzate appena create includono questo campo pronto all’uso. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
 
 Di seguito sono riportati i possibili valori per questo campo:
 
@@ -148,9 +148,9 @@ Puoi personalizzare i messaggi utilizzando i campi di risposta. Nel nostro esemp
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> La chiamata viene eseguita solo una volta per profilo in un dato percorso. Messaggi multipli non attiveranno nuove chiamate.
+>La chiamata viene eseguita solo una volta per profilo in un dato percorso. Messaggi multipli non attiveranno nuove chiamate.
 
 ## Sintassi delle espressioni
 
