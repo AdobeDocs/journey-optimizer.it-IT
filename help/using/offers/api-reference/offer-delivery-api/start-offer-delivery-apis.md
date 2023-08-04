@@ -1,28 +1,24 @@
 ---
-title: Introduzione alla consegna delle offerte tramite API
+title: Introduzione alla recapitabilità delle offerte tramite API
 description: Ulteriori informazioni sulle API disponibili per distribuire le offerte personalizzate.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 6%
+source-wordcount: '430'
+ht-degree: 4%
 
 ---
 
-# Introduzione alla consegna delle offerte tramite API {#about-decisioning-apis}
+# Introduzione alla recapitabilità delle offerte tramite API {#about-decisioning-apis}
 
 Puoi distribuire le offerte utilizzando **Decisioning** o **Edge Decisioning** API. Inoltre, il **Batch Decisioning** API ti consente di distribuire offerte a tutti i profili in un determinato pubblico in una chiamata. Il contenuto dell’offerta per ogni profilo del pubblico viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
 
 In questa pagina trovi informazioni su funzionalità specifiche disponibili con **Decisioning** e **Edge Decisioning** API. Sebbene entrambi consentano di offrire offerte ai clienti, si consiglia di utilizzare **Edge Decisioning** Se possibile, API per casi di utilizzo in entrata e per garantire una migliore latenza e velocità effettiva sulla piattaforma.
 
-|  | Richieste/sec | Latenza |
-|---|---|---|
-| API Decisioning | 2000 | &lt;500 ms |
-| API Edge Decisioning | 5000 | &lt;250 ms |
 
 Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguenti:
 * [API Decisioning](decisioning-api.md)
