@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 32%
 
 ---
@@ -78,7 +78,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
    >[!NOTE]
    >
-   >Attualmente Amazon S3, SFTP e Azure sono supportati in [!DNL Journey Optimizer].
+   >Attualmente Amazon S3 e SFTP<!--and Azure--> sono supportati in [!DNL Journey Optimizer].
 
 1. Inserisci i dettagli e le credenziali del server, ad esempio indirizzo del server, chiave di accesso e così via.
 
@@ -135,7 +135,7 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
 1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
 
-1. Se si seleziona **[!UICONTROL Testo delimitato]**, definisci il separatore di colonne desiderato: tabulazione, punto e virgola, barra verticale o e commerciale.
+1. Se si seleziona **[!UICONTROL Testo delimitato]**, definire il separatore di colonne desiderato: tabulazione, punto e virgola o barra verticale<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
