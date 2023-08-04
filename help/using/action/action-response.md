@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: azione, terze parti, personalizzato, percorsi, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 9%
+source-wordcount: '497'
+ht-degree: 4%
 
 ---
 
 # Miglioramenti delle azioni personalizzate
 
-Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
+Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare i percorsi in base a tali risposte.
 
 Questa funzionalità era disponibile solo quando si utilizzavano origini dati. Ora puoi utilizzarlo con azioni personalizzate.
 
@@ -55,11 +55,11 @@ Il **Parametri azione** la sezione è stata rinominata **Payload**. Sono disponi
 
 1. Fai clic all’interno del **Risposta** campo.
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Incolla un esempio del payload restituito dalla chiamata. Verifica che i tipi di campo siano corretti (stringa, numero intero, ecc.).
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Fai clic su **Salva**.
 
@@ -121,15 +121,15 @@ Ecco un esempio di payload di risposta acquisito durante la chiamata a un serviz
 
 Ad esempio, puoi aggiungere una condizione per controllare la velocità del vento. Quando la persona entra nel negozio di surf puoi inviare una spinta se il tempo è troppo ventoso .
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 Nella condizione, devi utilizzare l’editor avanzato per sfruttare i campi di risposta dell’azione, nella sezione **Contesto** nodo.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 Puoi anche sfruttare **jo_status** codice per creare un nuovo percorso in caso di errore.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ Di seguito sono riportati i possibili valori per questo campo:
 * errore di limite: **con limite**
 * errore interno: **internalError**
 
+Per ulteriori informazioni sulle attività del percorso, vedi [questa sezione](../building-journeys/about-journey-activities.md).
+
 ### Personalizzazione dei messaggi
 
 Puoi personalizzare i messaggi utilizzando i campi di risposta. Nel nostro esempio, nella notifica push, personalizziamo il contenuto utilizzando il valore di velocità.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->La chiamata viene eseguita solo una volta per profilo in un dato percorso. Messaggi multipli non attiveranno nuove chiamate.
+>La chiamata viene eseguita solo una volta per profilo in un dato percorso. Se invii più messaggi allo stesso profilo, non verranno attivate nuove chiamate.
+
+Per ulteriori informazioni sulla personalizzazione dei messaggi, consulta [questa sezione](../personalization/personalize.md).
 
 ## Sintassi delle espressioni
 
@@ -175,4 +179,4 @@ Di seguito sono riportati alcuni esempi:
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+Per ulteriori informazioni sui riferimenti di campo, consulta [questa sezione](../building-journeys/expression/field-references.md).
