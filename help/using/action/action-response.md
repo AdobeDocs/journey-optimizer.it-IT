@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: azione, terze parti, personalizzato, percorsi, API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,11 @@ Questa funzionalità era disponibile solo quando si utilizzavano origini dati. O
 >
 >Questa funzione è attualmente disponibile come versione beta privata.
 
-## Definizione dell’azione personalizzata
+>[!WARNING]
+>
+>Le azioni personalizzate devono essere utilizzate solo con endpoint privati o interni e con un limite di limitazione o limite appropriato. Consulta [questa pagina](../configuration/external-systems.md).
+
+## Definire l’azione personalizzata
 
 Durante la definizione dell’azione personalizzata, sono stati resi disponibili due miglioramenti: l’aggiunta del metodo GET e il nuovo campo di risposta del payload. Le altre opzioni e i parametri rimangono invariati. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
@@ -57,104 +61,80 @@ Il **Parametri azione** la sezione è stata rinominata **Payload**. Sono disponi
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Incolla un esempio del payload restituito dalla chiamata. Verifica che i tipi di campo siano corretti (stringa, numero intero, ecc.).
+1. Incolla un esempio del payload restituito dalla chiamata. Verifica che i tipi di campo siano corretti (stringa, numero intero, ecc.). Ecco un esempio di payload di risposta acquisito durante la chiamata. L’endpoint locale invia il numero di punti fedeltà e lo stato di un profilo.
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload.
+
+1. Aggiungiamo anche il customerID come parametro di query.
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. Fai clic su **Salva**.
 
-Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **Incolla un nuovo payload** se desideri modificare il payload attualmente trasmesso.
-
-Ecco un esempio di payload di risposta acquisito durante la chiamata a un servizio API meteo:
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
-
-## Utilizzo della risposta in un percorso
+## Sfruttare la risposta in un percorso
 
 È sufficiente aggiungere l’azione personalizzata a un percorso. Puoi quindi sfruttare i campi del payload di risposta in condizioni, altre azioni e personalizzazione dei messaggi.
 
-### Condizioni e azioni
-
-Ad esempio, puoi aggiungere una condizione per controllare la velocità del vento. Quando la persona entra nel negozio di surf puoi inviare una spinta se il tempo è troppo ventoso .
+Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fedeltà. Quando la persona accede al ristorante, l’endpoint locale invia una chiamata con le informazioni sulla fedeltà del profilo. Puoi inviare un messaggio push se il profilo è un cliente Gold. E se nella chiamata viene rilevato un errore, invia un’azione personalizzata per informare l’amministratore di sistema.
 
 ![](assets/action-response5.png)
 
-Nella condizione, devi utilizzare l’editor avanzato per sfruttare i campi di risposta dell’azione, nella sezione **Contesto** nodo.
+1. Aggiungi l’evento e l’azione personalizzata Fedeltà creata in precedenza.
 
-![](assets/action-response6.png)
+1. Nell’azione personalizzata Fedeltà, mappa il parametro di query dell’ID cliente con l’ID profilo. Seleziona l’opzione **Aggiungi un percorso alternativo in caso di timeout o errore**.
 
-Puoi anche sfruttare **jo_status** codice per creare un nuovo percorso in caso di errore.
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. Nel primo ramo, aggiungi una condizione e utilizza l’editor avanzato per sfruttare i campi di risposta dell’azione, nella sezione **Contesto** nodo.
 
->[!WARNING]
->
->Solo le azioni personalizzate appena create includono questo campo pronto all’uso. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
+   ![](assets/action-response6.png)
+
+1. Quindi aggiungi il push e personalizza il messaggio utilizzando i campi di risposta. Nel nostro esempio, personalizziamo il contenuto utilizzando il numero di punti fedeltà e lo stato del cliente. I campi di risposta dell’azione sono disponibili in **Attributi contestuali** > **Journey Orchestration** > **Azioni**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >Ogni profilo che accede all’azione personalizzata attiva una chiamata. Anche se la risposta è sempre la stessa, il Percorso eseguirà comunque una chiamata per profilo.
+
+1. Nel ramo di timeout ed errore, aggiungi una condizione e sfrutta il **jo_status_code** campo. Nel nostro esempio, utilizziamo
+   **http_400** tipo di errore. Consulta [questa sezione](#error-status).
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. Aggiungi un’azione personalizzata che verrà inviata alla tua organizzazione.
+
+   ![](assets/action-response11.png)
+
+## Stato errore{#error-status}
+
+Il **jo_status_code** Questo campo è sempre disponibile anche quando non è definito alcun payload di risposta.
 
 Di seguito sono riportati i possibili valori per questo campo:
 
-* codice di stato http: ad esempio **http_200** o **http_400**
+* codice di stato http: http_`<HTTP API call returned code>`, ad esempio http_200 o http_400
 * errore di timeout: **timeout**
 * errore di limite: **con limite**
 * errore interno: **internalError**
 
-Per ulteriori informazioni sulle attività del percorso, vedi [questa sezione](../building-journeys/about-journey-activities.md).
+Una chiamata di azione viene considerata in errore quando il codice http restituito è maggiore di 2xx o se si verifica un errore. In questi casi, il percorso passa al ramo dedicato relativo al timeout o all’errore.
 
-### Personalizzazione dei messaggi
-
-Puoi personalizzare i messaggi utilizzando i campi di risposta. Nel nostro esempio, nella notifica push, personalizziamo il contenuto utilizzando il valore di velocità.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->La chiamata viene eseguita solo una volta per profilo in un dato percorso. Se invii più messaggi allo stesso profilo, non verranno attivate nuove chiamate.
-
-Per ulteriori informazioni sulla personalizzazione dei messaggi, consulta [questa sezione](../personalization/personalize.md).
+>Solo le azioni personalizzate appena create includono **jo_status_code** preconfigurata. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
 
 ## Sintassi delle espressioni
 
