@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 27%
+source-wordcount: '1783'
+ht-degree: 24%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 27%
 >[!CAUTION]
 >
 >Per poter testare e pubblicare le pagine di destinazione, è necessario disporre del **[!UICONTROL Pubblicare i messaggi]** autorizzazione.
+
+Per indirizzare i clienti a una pagina web definita che desideri visualizzare quando fanno clic su un collegamento specifico, crea una pagina di destinazione in [!DNL Journey Optimizer], configura la pagina principale e le eventuali pagine secondarie, testala e pubblicala.
+
+>[!CAUTION]
+>
+>Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito quando [creazione della pagina](#create-landing-page), anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
 
 ## Accedere alle pagine di destinazione {#access-landing-pages}
 
@@ -95,6 +101,10 @@ I passaggi principali per creare pagine di destinazione sono i seguenti:
 
 Dopo aver configurato e progettato [pagina principale](#configure-primary-page)e [pagine secondarie](#configure-subpages) se presente, puoi [test](#test-landing-page) e [pubblicare](#publish-landing-page) la pagina di destinazione.
 
+>[!CAUTION]
+>
+>Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando l’URL definito in un browser web, anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
+
 ## Configurare la pagina principale {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ Per definire le impostazioni della pagina principale, effettua le seguenti opera
    >[!CAUTION]
    >
    >L’URL della pagina di destinazione deve essere univoco.
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando questo URL in un browser web, anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. Se desideri che la pagina di destinazione precarichi i dati del modulo già disponibili, seleziona la **[!UICONTROL Campi modulo precompilati con informazioni sul profilo]**.
 
@@ -196,6 +204,8 @@ Per definire le impostazioni delle pagine secondarie, effettuare le seguenti ope
    >[!CAUTION]
    >
    >L’URL della pagina di destinazione deve essere univoco.
+   >
+   >Non puoi accedere alla pagina secondaria semplicemente copiando e incollando questo URL in un browser web, anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ Ora è attivo e pronto per essere utilizzato in un [!DNL Journey Optimizer] mess
 
 >[!NOTE]
 >
->Puoi monitorare l’impatto della pagina di destinazione tramite rapporti specifici. [Ulteriori informazioni](../reports/lp-report-live.md)
+>Non puoi accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito quando [creazione della pagina](#create-landing-page), anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima come descritto in [questa sezione](#test-landing-page).
 
+Puoi monitorare l’impatto della pagina di destinazione tramite rapporti specifici. [Ulteriori informazioni](../reports/lp-report-live.md)
