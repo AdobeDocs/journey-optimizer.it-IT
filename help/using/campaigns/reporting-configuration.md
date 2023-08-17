@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configurazione, sperimentazione, reporting, ottimizzatore
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 42%
+source-wordcount: '636'
+ht-degree: 45%
 
 ---
 
@@ -59,7 +59,7 @@ Prima di poter aggiungere un set di dati alla configurazione di reporting, devi 
 
   Ad esempio, se desideri conoscere l’impatto di una campagna e-mail sui dati di commerce, ad esempio acquisti o ordini, devi creare un set di dati evento esperienza con il gruppo di campi `Commerce Details`. 
 
-  Allo stesso modo, se desideri creare rapporti sulle interazioni mobili, devi creare un set di dati evento esperienza con il gruppo di campi &quot;Dettagli applicazione&quot;.
+  Allo stesso modo, se desideri creare rapporti sulle interazioni mobili, devi creare un set di dati evento esperienza con gruppo di campi `Application Details`. 
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
