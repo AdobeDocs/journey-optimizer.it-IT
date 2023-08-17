@@ -45,7 +45,6 @@ Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un alt
 >
 > * Qualsiasi modifica a un sottodominio SMS influirà anche sulle sandbox di produzione.
 
-
 ## Usa un sottodominio esistente {#sms-use-existing-subdomain}
 
 Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.

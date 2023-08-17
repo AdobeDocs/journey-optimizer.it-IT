@@ -26,7 +26,7 @@ Ulteriori informazioni sul concetto e sull’utilizzo dell’elenco di soppressi
 
 >[!NOTE]
 >
->Adobe mantiene un elenco aggiornato degli indirizzi non validi noti che si sono dimostrati dannosi per il coinvolgimento e la reputazione di invio di e-mail e garantisce che le e-mail non vengano consegnate a tali indirizzi. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
+>Adobe mantiene un elenco aggiornato di indirizzi non validi noti che hanno dimostrato di essere dannosi per il coinvolgimento e la reputazione di mailing e garantisce che le e-mail non vengano consegnate a loro. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
 ## Accedere all’elenco di soppressione {#access-suppression-list}
 
@@ -57,7 +57,7 @@ Le categorie di soppressione sono le seguenti:
 
 * **Rigido**: un messaggio non recapitato indica un indirizzo e-mail non valido (ovvero un indirizzo e-mail che non esiste). Ciò comporta un messaggio di mancato recapito dal server e-mail ricevente che indica esplicitamente che l’indirizzo non è valido. L’indirizzo e-mail viene inviato immediatamente all’elenco di soppressione.
 
-   Quando l’errore è il risultato di un reclamo spam, rientra anche nel **Rigido** categoria. L’indirizzo e-mail del destinatario che ha emesso il reclamo viene inviato immediatamente all’elenco di soppressione.
+  Quando l’errore è il risultato di un reclamo spam, rientra anche nel **Rigido** categoria. L’indirizzo e-mail del destinatario che ha emesso il reclamo viene inviato immediatamente all’elenco di soppressione.
 
 * **Morbido**: un messaggio non recapitato è un messaggio e-mail non recapitato temporaneo che si è verificato per un indirizzo e-mail valido. L’indirizzo e-mail viene aggiunto all’elenco di soppressione dopo diversi tentativi. Gli errori soft inviano un indirizzo all’elenco di soppressione una volta che il contatore di errori raggiunge la soglia limite. [Ulteriori informazioni sui nuovi tentativi](retries.md)
 
@@ -169,6 +169,7 @@ Per aggiungere un gruppo di indirizzi e-mail o un dominio all’elenco di soppre
    >Non modificare il nome delle colonne nel modello CSV.
    >
    >La dimensione del file non deve superare 1 MB.
+   >
 
 1. Al termine, trascina e rilascia il file CSV e utilizza **[!UICONTROL Invia]** per confermare.
 

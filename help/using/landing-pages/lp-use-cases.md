@@ -139,7 +139,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
    >
    >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [in questa sezione](create-lp.md#configure-primary-page).
 
-1. Pubblica ed esegui il percorso. [Maggiori informazioni](../building-journeys/journey.md).
+1. Pubblica ed esegui il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
 1. Una volta ricevuto il messaggio, se un destinatario fa clic sul collegamento per annullare l’abbonamento nell’e-mail, viene visualizzata la pagina di destinazione.
 

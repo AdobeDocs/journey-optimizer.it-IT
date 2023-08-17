@@ -63,7 +63,7 @@ Per creare un predefinito per pagina di destinazione, effettua le seguenti opera
 
    >[!NOTE]
    >
-   >Per poter selezionare un sottodominio, assicurati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
+   >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione. [Scopri come](#lp-subdomains)
 
    Vengono visualizzate le impostazioni corrispondenti al sottodominio selezionato.
 

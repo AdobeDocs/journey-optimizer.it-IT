@@ -46,7 +46,7 @@ Le campagne possono avere più stati:
 
 >[!NOTE]
 >
->L’icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** Lo stato indica che è stata creata una nuova versione della campagna, che non è ancora stata attivata. [Maggiori informazioni](modify-stop-campaign.md#modify).
+>L’icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** Lo stato indica che è stata creata una nuova versione della campagna, che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
 
 ## Modificare una campagna ricorrente {#modify}
 

@@ -9,7 +9,7 @@ exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1588'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è ora disponibile. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile come Beta pubblica tramite la pagina Home di raccolta dati. [Ulteriori informazioni](mobile-onboarding-wf.md)
+>
 
 
 ## Prima di iniziare {#before-starting}
@@ -67,7 +68,7 @@ Da assegnare **Proprietà** e **Azienda** diritti, segui i passaggi seguenti:
 1. Clic **[!UICONTROL Aggiungi tutto]**. Questo aggiungerà il seguente diritto al tuo profilo di prodotto:
    * **[!UICONTROL Approvazione]**
    * **[!UICONTROL Sviluppa]**
-   * **[!UICONTROL Gestisci ambienti]**
+   * **[!UICONTROL Gestire gli ambienti]**
    * **[!UICONTROL Gestire le estensioni]**
    * **[!UICONTROL Pubblica]**
 
@@ -142,7 +143,7 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
 
    * **Per iOS**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. Immetti l’app mobile **ID bundle** nel **[!UICONTROL ID app (ID bundle iOS)]** campo. L’ID del bundle dell’app si trova nella sezione **Generale** scheda della destinazione principale in **Xcode**.
 
@@ -153,16 +154,16 @@ La registrazione delle credenziali push dell’app mobile è necessaria per auto
       1. Fornisci **ID chiave**. Si tratta di una stringa di 10 caratteri assegnata durante la creazione del tasto di autenticazione p8. È disponibile in **Chiavi** scheda in **Certificati**, **Identificatori** e **Profili** pagina.
 
       1. Fornisci **ID team**. Si tratta di un valore stringa che si trova nella scheda Appartenenza.
+
    * **Per Android**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. Fornisci **[!UICONTROL ID app (nome pacchetto Android)]**: in genere il nome del pacchetto corrisponde all’id dell’app nel `build.gradle` file.
 
       1. Attivato il **[!UICONTROL Credenziali push]** per aggiungere le credenziali.
 
       1. Trascina e rilascia le credenziali push FCM. Per ulteriori dettagli su come ottenere le credenziali push, consulta [Documentazione di Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. Clic **[!UICONTROL Salva]** per creare la configurazione dell’app.

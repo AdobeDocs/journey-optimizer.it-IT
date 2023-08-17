@@ -11,7 +11,7 @@ exl-id: d6ec55e5-e44e-4773-a561-d1bc0919ea04
 source-git-commit: 26456f7c2d879843eb533209377b83fc0ccb5617
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -163,7 +163,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero di destinatari che hanno aperto la consegna.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Abbonamenti annullati<br/> </td> 
+   <td> Iscrizioni annullate<br/> </td> 
    <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
 </tr> 
  </tbody> 

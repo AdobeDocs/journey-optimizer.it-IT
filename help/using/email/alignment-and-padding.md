@@ -12,7 +12,7 @@ exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ In questo esempio regoleremo la spaziatura e l’allineamento verticale all’in
 
 1. Dalla barra degli strumenti, fai clic su **[!UICONTROL Seleziona una colonna]** e scegli quello che desideri modificare. Puoi anche selezionarla dall’albero della struttura.
 
-   I parametri modificabili per tale colonna vengono visualizzati nel **[!UICONTROL Stili]** scheda.
+   I parametri modificabili per tale colonna vengono visualizzati nella scheda **[!UICONTROL Stili]**.
 
    ![](assets/alignment_2.png)
 

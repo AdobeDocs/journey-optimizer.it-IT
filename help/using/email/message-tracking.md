@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
@@ -63,9 +63,9 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * **[!UICONTROL Collegamento esterno]**: inserisci un collegamento a un URL esterno.
 
-   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Pagina di destinazione]**: inserisci un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Rinuncia con un clic]**: inserisci un collegamento per consentire agli utenti di annullare rapidamente l’abbonamento alle comunicazioni senza la necessità di confermare la rinuncia. [Maggiori informazioni](email-opt-out.md#one-click-opt-out).
+   * **[!UICONTROL Rinuncia con un clic]**: inserisci un collegamento per consentire agli utenti di annullare rapidamente l’abbonamento alle comunicazioni senza la necessità di confermare la rinuncia. [Ulteriori informazioni](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL Consenso/Iscrizione esterno]**: inserisci un collegamento per accettare la ricezione di comunicazioni dal brand.
 
@@ -111,7 +111,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    ![](assets/link_1.png)
 
-1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda.
+1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dalla scheda **[!UICONTROL Stili]**.
 
    ![](assets/link_3.png)
 

@@ -18,7 +18,7 @@ ht-degree: 7%
 
 # Rivedere e attivare una campagna {#review-activate}
 
-Una volta configurata la campagna, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, esegui questi passaggi:
+Una volta configurata la campagna, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 
 1. Nella schermata di configurazione della campagna, fai clic su **[!UICONTROL Controlla per attivare]** per visualizzare un riepilogo della campagna.
 

@@ -13,7 +13,7 @@ badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '763'
 ht-degree: 3%
 
 ---
@@ -33,13 +33,13 @@ Prima di iniziare a utilizzare questa funzionalità, assicurati di essere in lin
 
 * **Impostazioni Experience Manager**
 
-   Questa funzionalità è disponibile con [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=it){target="_blank"}.
+  Questa funzionalità è disponibile con [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=it){target="_blank"}.
 
-   Come parte del programma beta, la configurazione del Cloud Service viene eseguita da Adobe in Adobe Experience Manager per connettersi a Adobe Journey Optimizer.
+  Come parte del programma beta, la configurazione del Cloud Service viene eseguita da Adobe in Adobe Experience Manager per connettersi a Adobe Journey Optimizer.
 
 * **Autorizzazioni**
 
-   Per creare, modificare ed eliminare modelli di contenuto in Adobe Journey Optimizer, è necessario disporre del **[!DNL Manage Library Items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+  Per creare, modificare ed eliminare modelli di contenuto in Adobe Journey Optimizer, è necessario disporre del **[!DNL Manage Library Items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Guardrail e limitazioni{#aem-templates-limitations}
 

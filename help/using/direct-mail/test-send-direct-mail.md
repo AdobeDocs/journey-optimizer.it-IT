@@ -1,5 +1,5 @@
 ---
-title: Testare e inviare un messaggio di direct mailing
+title: Testare e inviare un messaggio di direct mail
 description: Scopri come verificare e inviare un messaggio di direct mailing in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keyword: direct, mail, configuration, direct-mail, provider
 source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Testare e inviare un messaggio di direct mailing {#direct-mail-test-send}
+# Testare e inviare un messaggio di direct mail {#direct-mail-test-send}
 
 ## Anteprima del file di estrazione {#preview-dm}
 

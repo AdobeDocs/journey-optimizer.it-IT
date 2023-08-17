@@ -20,11 +20,11 @@ Puoi modificare il contenuto in-app per configurare le opzioni dell’esperienza
 
 * In un **[!UICONTROL Campagna]**, dalla **[!UICONTROL Azione]** per configurare il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** pulsante.
 
-   ![](assets/edit-in-app-content.png)
+  ![](assets/edit-in-app-content.png)
 
 * In un **[!UICONTROL Percorso]**, dal menu avanzato dell’app **[!UICONTROL Azione]**, puoi iniziare a progettare i contenuti con **[!UICONTROL Modifica contenuto]** pulsante.
 
-   ![](assets/design_inapp_journey.png)
+  ![](assets/design_inapp_journey.png)
 
 Il **[!UICONTROL Formattazione avanzata]** attiva/disattiva opzioni aggiuntive per personalizzare l’esperienza.
 
@@ -38,21 +38,21 @@ Dalla sezione **[!UICONTROL Layout messaggio]** , seleziona una delle quattro op
 
 * **[!UICONTROL Schermo intero]**: questo tipo di layout copre l’intero schermo dei dispositivi per il pubblico.
 
-   Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Modale]**: questo layout viene visualizzato in una grande finestra in stile avviso. L’applicazione rimane visibile in background.
 
-   Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Banner]**: questo tipo di layout viene visualizzato come messaggio di avviso del sistema operativo nativo.
 
-   È possibile aggiungere solo un **[!UICONTROL Intestazione]** e un **[!UICONTROL Corpo]** al messaggio.
+  È possibile aggiungere solo un **[!UICONTROL Intestazione]** e un **[!UICONTROL Corpo]** al messaggio.
 
 * **[!UICONTROL Personalizzato]**: la modalità messaggio personalizzato ti consente di importare e modificare direttamente uno dei messaggi di HTML preconfigurati.
 
    * Seleziona **[!UICONTROL Componi]** per inserire o incollare il codice HTML non elaborato.
 
-      Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione di Journey Optimizer. Per ulteriori informazioni al riguardo, consulta [questa sezione](../personalization/personalize.md).
+     Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione di Journey Optimizer. Per ulteriori informazioni al riguardo, consulta [questa sezione](../personalization/personalize.md).
 
    * Seleziona **[!UICONTROL Importa]** per importare il file HTML o .zip contenente il contenuto HTML.
 

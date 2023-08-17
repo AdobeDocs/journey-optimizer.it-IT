@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -59,6 +59,6 @@ Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da u
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Scopri come aggiungere a un messaggio una personalizzazione basata su profili e come utilizzare l’iscrizione a un pubblico come condizione preliminare per un blocco di personalizzazione.
+Scopri come personalizzare un profilo di base con un messaggio e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

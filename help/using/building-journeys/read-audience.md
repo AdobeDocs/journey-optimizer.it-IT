@@ -146,7 +146,7 @@ I percorsi basati sul pubblico iniziano sempre con **Read Audience** per recuper
 
 Il pubblico appartenente al pubblico viene recuperato una volta o su base regolare.
 
-Dopo aver inserito il percorso, puoi creare casi di utilizzo di orchestrazione del pubblico, consentendo ai singoli utenti del pubblico iniziale di passare a settori diversi del percorso.
+Dopo l’accesso al percorso, puoi creare casi di utilizzo di orchestrazione del pubblico, consentendo ai singoli utenti del pubblico iniziale di passare a settori diversi del percorso.
 
 **Segmentazione**
 

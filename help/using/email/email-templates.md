@@ -12,7 +12,7 @@ exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 30%
+ht-degree: 46%
 
 ---
 
@@ -38,7 +38,7 @@ Puoi scegliere tra:
 
    * Salvato da un’e-mail in un percorso o in una campagna utilizzando **[!UICONTROL Salva come modello di contenuto]** opzione. [Ulteriori informazioni](content-templates.md#save-as-template)
 
-Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui i passaggi indicati di seguito.
+Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui questi passaggi.
 
 1. [Accedere a E-mail Designer](get-started-email-design.md) dall’e-mail **[!UICONTROL Modifica contenuto]** schermo.
 
@@ -58,6 +58,6 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Clic **[!UICONTROL Usa questo modello]** in alto a destra.
+1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
 
-1. Modifica il contenuto come desiderato utilizzando E-mail designer.
+1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail designer.

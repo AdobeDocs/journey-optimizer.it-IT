@@ -28,7 +28,7 @@ Per inserire un JavaScript personalizzato nel contenuto della pagina di destinaz
 
 * Progetta la pagina di destinazione da zero o da un modello salvato. Trascina la **[!UICONTROL HTML]** componente contenuto nell’area di lavoro e mostra il codice sorgente per aggiungere il codice JavaScript al componente. Scopri come utilizzare il componente HTML in [questa sezione](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * Inserisci o incolla il codice JavaScript direttamente nel designer del contenuto. Scopri come programmare i contenuti [in questa sezione](../email/code-content.md).
 

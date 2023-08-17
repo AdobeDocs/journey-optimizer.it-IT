@@ -8,7 +8,7 @@ level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema,
 
 ## Anteprima dei set di dati{#preview-datasets}
 
-Dalla schermata Attività del set di dati, seleziona **Anteprima set di dati** nell’angolo in alto a destra dello schermo per visualizzare in anteprima il batch di successo più recente in questo set di dati. Quando un set di dati è vuoto, il collegamento di anteprima viene disattivato.
+Nella schermata Attività del set di dati, seleziona **Anteprima set di dati** nell’angolo in alto a destra per visualizzare in anteprima il batch di successo più recente in questo set di dati. Quando un set di dati è vuoto, il collegamento di anteprima viene disattivato.
 
 ![](assets/dataset-preview.png)
 

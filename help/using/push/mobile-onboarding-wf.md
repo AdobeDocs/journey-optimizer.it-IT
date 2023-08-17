@@ -11,14 +11,14 @@ badge: label="Beta" type="Informative"
 exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
 source-git-commit: 04f96fa1ad815b380cf33c7706e39094a1bca1c3
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 10%
+source-wordcount: '365'
+ht-degree: 9%
 
 ---
 
 # Flusso di lavoro di avvio rapido per l’onboarding mobile {#mobile-wf}
 
-Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è una nuova funzione del prodotto che consente di configurare rapidamente l’SDK di Adobe Experience Platform Mobile, avviare la raccolta e la convalida dei dati degli eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
+Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è una nuova funzione del prodotto che consente di configurare rapidamente l’SDK di Adobe Experience Platform Mobile, iniziare a raccogliere e convalidare i dati degli eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
 
 Questa funzionalità è accessibile tramite **[!DNL Adobe Experience Platform Data Collection]** home page per tutti i clienti come versione beta pubblica.
 

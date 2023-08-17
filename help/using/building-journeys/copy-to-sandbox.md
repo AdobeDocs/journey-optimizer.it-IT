@@ -80,7 +80,7 @@ Tutti gli elementi collegati potrebbero non essere copiati nella sandbox di dest
 
 Vengono copiati i seguenti oggetti:
 
-* Destinatari
+* Pubblico
 
   Un pubblico può essere copiato una sola volta da una sandbox all’altra. Una volta copiato, il pubblico non può più essere modificato nella sandbox di destinazione.
 

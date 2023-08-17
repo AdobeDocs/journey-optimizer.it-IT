@@ -12,7 +12,7 @@ exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -81,7 +81,7 @@ Gli attributi devono essere definiti nello schema prima di essere referenziati i
 Scopri come sfruttare gli attributi di profilo nelle condizioni in [questa sezione](functions/helpers.md#if-function).
 
 >[!NOTE]
->Per ulteriori informazioni sul servizio di segmentazione, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+>Per ulteriori informazioni sul servizio di segmentazione, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 
 ## Offerte {#offers-syntax}
 

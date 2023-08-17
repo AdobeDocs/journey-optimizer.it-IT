@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 ## Titolo e corpo {#push-title-body}
 
-Per comporre il messaggio, fai clic su **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]** campi. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
+Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
 
 Utilizza la sezione di anteprima del dispositivo per visualizzare come viene visualizzata la notifica push sui dispositivi iOS e Android.
 
@@ -50,7 +50,7 @@ Sono disponibili due opzioni. Puoi eseguire le seguenti operazioni:
 
 * Utilizza il **[!UICONTROL Aggiungi file multimediali]** per selezionare una risorsa in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   Scopri come utilizzare **[!DNL Adobe Experience Manager Assets Essentials]** in [questa pagina](../email/assets-essentials.md).
+  Scopri come utilizzare **[!DNL Adobe Experience Manager Assets Essentials]** in [questa pagina](../email/assets-essentials.md).
 
 * Oppure immetti l’URL del file multimediale in **[!UICONTROL Aggiungi file multimediali]** campo. In tal caso, puoi aggiungere la personalizzazione all’URL.
 

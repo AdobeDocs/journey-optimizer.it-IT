@@ -59,7 +59,6 @@ La configurazione del sottodominio ti consente di configurare una sottosezione d
 >
 >* Il metodo CNAME è consigliato se i criteri dell’organizzazione limitano il metodo di delega del sottodominio completo. Questo approccio richiede di gestire e mantenere i record DNS autonomamente. Adobe non sarà in grado di fornire assistenza per la modifica, la manutenzione o la gestione del DNS per un sottodominio configurato tramite il metodo CNAME.
 
-
 La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, oltre al livello di impegno che comportano:
 
 | Metodo di configurazione | Come funziona | Livello di impegno |

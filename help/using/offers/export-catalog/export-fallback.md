@@ -79,84 +79,84 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 * **_experience > decisioning > contenuti > componenti > Tipo di componente Contenuto**
 
-   **Campo:** _type
-   **Titolo:** Tipo di componente contenuto
-   **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento a uno schema che descrive proprietà aggiuntive del componente contenuto.
-   **Tipo:** stringa
+  **Campo:** _type
+  **Titolo:** Tipo di componente contenuto
+  **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento a uno schema che descrive proprietà aggiuntive del componente contenuto.
+  **Tipo:** stringa
 
 * **_esperienza > decisioni > contenuti > componenti > _dc**
 
-   **Campo:** _dc
-   **Tipo:** oggetto
-   **Obbligatorio:** &quot;format&quot;
+  **Campo:** _dc
+  **Tipo:** oggetto
+  **Obbligatorio:** &quot;format&quot;
 
    * **Formato**
 
-      **Campo:** formato
-      **Titolo:** Formato
-      **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/ assegnazioni/tipi di file multimediali/) definizione dei formati di file multimediali per computer).
-      **Tipo:** stringa
-      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
+     **Campo:** formato
+     **Titolo:** Formato
+     **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/ assegnazioni/tipi di file multimediali/) definizione dei formati di file multimediali per computer).
+     **Tipo:** stringa
+     **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
 
-      **Campo:** lingua
-      **Titolo:** Lingua
-      **Descrizione:** Lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
-      **Tipo:** array
-      **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Campo:** lingua
+     **Titolo:** Lingua
+     **Descrizione:** Lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
+     **Tipo:** array
+     **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > sommario > componenti > _repo**
 
-   **Campo:** _repo
-   **Tipo:** oggetto
+  **Campo:** _repo
+  **Tipo:** oggetto
 
    * **id**
 
-      **Campo:** id
-      **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-      **Tipo:** stringa
-      **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Campo:** id
+     **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+     **Tipo:** stringa
+     **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **nome**
 
-      **Campo:** nome
-      **Descrizione:** Alcuni suggerimenti su dove individuare l’archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
-      **Tipo:** stringa
+     **Campo:** nome
+     **Descrizione:** Alcuni suggerimenti su dove individuare l’archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
+     **Tipo:** stringa
 
    * **repositoryID**
 
-      **Campo:** repositoryID
-      **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-      **Tipo:** stringa
-      **Esempio:** C87932A55B06F7070A49412D@AdobeOrg
+     **Campo:** repositoryID
+     **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+     **Tipo:** stringa
+     **Esempio:** C87932A55B06F7070A49412D@AdobeOrg
 
    * **resolveURL**
 
-      **Campo:** resolveURL
-      **Descrizione:** Un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
-      **Tipo:** stringa
-      **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Campo:** resolveURL
+     **Descrizione:** Un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
+     **Tipo:** stringa
+     **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_esperienza > decisioning > contenuti > componenti > contenuto**
 
-   **Campo:** contenuto
-   **Descrizione:** Un campo facoltativo che contiene direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente il contenuto semplice. Questo campo non viene utilizzato per risorse di contenuto composito, complesso e binario.
-   **Tipo:** stringa
+  **Campo:** contenuto
+  **Descrizione:** Un campo facoltativo che contiene direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente il contenuto semplice. Questo campo non viene utilizzato per risorse di contenuto composito, complesso e binario.
+  **Tipo:** stringa
 
 * **_experience > decisioning > contenuti > componenti > deliveryURL**
 
-   **Campo:** deliveryURL
-   **Descrizione:** Un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere alla risorsa pubblicamente da un agente utente.
-   **Tipo:** stringa
-   **Esempio:** https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg
+  **Campo:** deliveryURL
+  **Descrizione:** Un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere alla risorsa pubblicamente da un agente utente.
+  **Tipo:** stringa
+  **Esempio:** https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg
 
-* **_experience > decisioning > sommario > componenti > linkURL**
+* **_experience > decisioning > contenuti > componenti > linkURL**
 
-   **Campo:** linkURL
-   **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
-   **Tipo:** stringa
-   **Esempio:** https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg
+  **Campo:** linkURL
+  **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
+  **Tipo:** stringa
+  **Esempio:** https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg
 
 +++
 

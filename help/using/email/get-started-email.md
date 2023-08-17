@@ -28,11 +28,11 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 * In un **percorso**: dopo aver aggiunto un’attività **[!UICONTROL e-mail]** al percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL Azioni: e-mail]** per creare il contenuto del messaggio.
 
-   Per ulteriori informazioni sulla modalità di configurazione di un percorso, consulta a questa [pagina](../building-journeys/journey-gs.md).
+  Per ulteriori informazioni sulla modalità di configurazione di un percorso, consulta a questa [pagina](../building-journeys/journey-gs.md).
 
 * In una **campagna**: dopo aver creato una campagna, seleziona **[!UICONTROL e-mail]** come azione e definisci le impostazioni di base.
 
-   Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
+  Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -34,13 +34,13 @@ In Journey Optimizer, puoi applicare la governance dei dati e i criteri di conse
 
 ## Configurazione URL
 
-Riquadro di configurazione del **Azione personalizzata** L’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. Non è possibile impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Maggiori informazioni](../action/about-custom-action-configuration.md).
+Riquadro di configurazione del **Azione personalizzata** L’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. Non è possibile impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
 ### Percorso dinamico
 
 Se l’URL include un percorso dinamico, specifica il percorso in **[!UICONTROL Percorso]** campo.
 
-Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o doppie (&quot;). [Maggiori informazioni](expression/expressionadvanced.md).
+Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o doppie (&quot;). [Ulteriori informazioni](expression/expressionadvanced.md).
 
 Questa tabella mostra un esempio di configurazione:
 

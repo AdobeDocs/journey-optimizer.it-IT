@@ -22,15 +22,15 @@ I dati sono disponibili nel **[!UICONTROL Rapporto live]** non appena la consegn
 
 * Se si desidera eseguire il targeting di un percorso nel contesto di un percorso, dal **[!UICONTROL Percorsi]** , accedere al percorso e fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** pulsante.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Se desideri eseguire il targeting di una campagna, da **[!UICONTROL Campagne]** , accedi alla tua campagna e fai clic sul pulsante **[!UICONTROL Rapporti]** pulsante.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Se si desidera passare dalla modalità **[!UICONTROL Rapporto globale]** al **[!UICONTROL Rapporto live]** per la consegna, fai clic su **[!UICONTROL Ultime 24 ore]** dal selettore di tabulazione.
 
-   ![](assets/report_3.png)
+  ![](assets/report_3.png)
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](#list-of-components-live).
 

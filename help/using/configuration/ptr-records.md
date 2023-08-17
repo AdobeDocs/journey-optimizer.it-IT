@@ -98,7 +98,6 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando [
    >   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
    >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
 
-
 1. Clic **[!UICONTROL Salva]** per confermare le modifiche.
 
 >[!NOTE]

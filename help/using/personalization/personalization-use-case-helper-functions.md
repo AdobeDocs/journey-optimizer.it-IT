@@ -22,20 +22,19 @@ In questo esempio personalizzerai il corpo di un messaggio e-mail. Questo messag
 
 Puoi utilizzare i seguenti tipi di funzioni di assistenza:
 
-* Il `upperCase` funzione stringa, per inserire il nome del cliente in lettere maiuscole. [Maggiori informazioni](functions/string.md#upper).
-* Il `each` helper, per elencare gli elementi presenti nel carrello. [Maggiori informazioni](functions/helpers.md#each).
-* Il `if` helper, per inserire una nota specifica per il prodotto se il prodotto correlato si trova nel carrello. [Maggiori informazioni](functions/helpers.md#if-function).
-
+* Il `upperCase` funzione stringa, per inserire il nome del cliente in lettere maiuscole. [Ulteriori informazioni](functions/string.md#upper).
+* Il `each` helper, per elencare gli elementi presenti nel carrello. [Ulteriori informazioni](functions/helpers.md#each).
+* Il `if` helper, per inserire una nota specifica per il prodotto se il prodotto correlato si trova nel carrello. [Ulteriori informazioni](functions/helpers.md#if-function).
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Scopri come utilizzare le funzioni di assistenza in questo video](#video)
 
 Prima di iniziare, assicurati di sapere come configurare questi elementi:
 
-* Un evento unitario. [Maggiori informazioni](../event/about-events.md).
-* Un percorso che inizia con un evento. [Maggiori informazioni](../building-journeys/using-the-journey-designer.md).
+* Un evento unitario. [Ulteriori informazioni](../event/about-events.md).
+* Un percorso che inizia con un evento. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
 * Un messaggio e-mail nel percorso. [Ulteriori informazioni](../email/create-email.md)
-* Corpo di un’e-mail. [Maggiori informazioni](../email/content-from-scratch.md).
+* Corpo di un’e-mail. [Ulteriori informazioni](../email/content-from-scratch.md).
 
 Segui questi passaggi:
 
@@ -168,7 +167,6 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. Incolla questo codice tra le aperture `{{#each}}` tag e chiusura `{/each}}` tag:
 

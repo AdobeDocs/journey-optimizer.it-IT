@@ -28,7 +28,7 @@ L’obiettivo di questo esempio è quello di inviare un evento a [!DNL Journey O
 
 Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
-* configura un evento dell’ordine con il numero, lo stato e il nome dell’articolo. Fai riferimento a questa [sezione](../event/about-events.md).
+* configura un evento dell’ordine con il numero, lo stato e il nome dell’articolo. Consulta questa [sezione](../event/about-events.md).
 * crea una decisione, fai riferimento a questo [sezione](../offers/offer-activities/create-offer-activities.md).
 
 ## Passaggio 1: creare il percorso {#create-journey}
@@ -41,7 +41,7 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc5.png)
 
-1. Configura e progetta il messaggio di notifica push. Fai riferimento a questa [sezione](../push/create-push.md).
+1. Configura e progetta il messaggio di notifica push. Consulta questa [sezione](../push/create-push.md).
 
 ## Passaggio 2: aggiungere la personalizzazione al profilo {#add-perso}
 

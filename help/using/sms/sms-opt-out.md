@@ -22,6 +22,7 @@ In conformità agli standard e alle normative del settore, tutti i messaggi SMS 
 >[!IMPORTANT]
 >
 >Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi ai codici lunghi e ai numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni tramite SMS siano conformi a tutti i requisiti di conformità legale applicabili.
+>
 
 ## Parole chiave in entrata native{#sms-native-keywords}
 

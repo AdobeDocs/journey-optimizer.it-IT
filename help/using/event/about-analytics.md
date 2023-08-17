@@ -31,6 +31,7 @@ Affinché questo funzioni con Adobe Analytics, devi:
 >Questa sezione si applica solo per gli eventi basati su regole e i clienti che devono utilizzare dati Adobe Analytics o Web SDK.
 > 
 >Se utilizzi Adobe Customer Journey Analytics, consulta [questa pagina](../reports/cja-ajo.md).
+>
 
 ## Configurare i dati di Adobe Analytics o Web SDK {#leverage-analytics-data}
 
@@ -105,7 +106,7 @@ Nell’esempio seguente, scopri come eseguire il targeting degli utenti che hann
    * **[!UICONTROL Campi]**: seleziona i campi Payload. [Ulteriori informazioni](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Condizione ID evento]**: definisci la condizione per identificare gli eventi che attiveranno il percorso.
 
-      In questo caso, l’evento viene attivato quando i clienti aggiungono un articolo ai loro carrelli.
+     In questo caso, l’evento viene attivato quando i clienti aggiungono un articolo ai loro carrelli.
    * **[!UICONTROL Identificatore profilo]**: scegli un campo dai campi del payload, o definisci una formula, per identificare la persona associata all’evento.
 
    ![](assets/ajo-aa_6.png)

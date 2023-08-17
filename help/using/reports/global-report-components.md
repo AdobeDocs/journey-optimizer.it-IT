@@ -11,7 +11,7 @@ exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
 source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -64,7 +64,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  <tbody>
   <tr> 
    <td> E-mail non consegnate<br/> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.<br/> </td> 
 </tr> 
   <tr> 
    <td> Percentuale non recapitate<br/> </td> 
@@ -163,7 +163,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero di destinatari che hanno aperto la consegna.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Abbonamenti annullati<br/> </td> 
+   <td> Iscrizioni annullate<br/> </td> 
    <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
 </tr> 
  </tbody> 
@@ -303,7 +303,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr>
   <tr> 
    <td>E-mail non consegnate<br/> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.<br/> </td> 
 </tr> 
   <tr> 
    <td> Percentuale non recapitate<br/> </td> 

@@ -11,7 +11,7 @@ exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -22,13 +22,13 @@ Utilizzare [!DNL Journey Optimizer] per generare casi di utilizzo di orchestrazi
 
 Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 
-* Invia in tempo reale **consegna unitaria** attivato quando viene ricevuto un evento, oppure **in batch** utilizzo dei tipi di pubblico di Adobe Experience Platform.
+* Invia in tempo reale una **consegna unitaria** attivata quando viene ricevuto un evento o **in batch** utilizzando i tipi di pubblico di Adobe Experience Platform.
 
 * Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
 
 * Utilizza il **azioni incorporate** per inviare messaggi progettati in [!DNL Journey Optimizer] o creare **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
 
-* Con il **Designer percorso**, genera i tuoi casi d’uso a più passaggi: trascina facilmente un evento di partecipazione o un’attività di lettura del pubblico, aggiungi condizioni e invia messaggi personalizzati.
+* Con **journey designer**, genera casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
 
 
 >[!NOTE]

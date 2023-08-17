@@ -16,7 +16,7 @@ ht-degree: 12%
 
 ---
 
-# Elenchi di iscrizione {#create-subscription-list}
+# Elenchi di iscrizioni {#create-subscription-list}
 
 ## Che cos’è un elenco di iscrizioni? {#subscription-list-definition}
 

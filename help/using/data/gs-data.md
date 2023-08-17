@@ -67,7 +67,7 @@ Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenu
 
 * **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati sorgente in qualsiasi momento tramite l’API di accesso ai dati senza penali o ritardi. Il [API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
-   Nota che il contenuto utilizzato nei percorsi o nelle campagne non può essere estratto tramite i metodi API o di destinazione menzionati in precedenza.
+  Nota che il contenuto utilizzato nei percorsi o nelle campagne non può essere estratto tramite i metodi API o di destinazione menzionati in precedenza.
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
@@ -77,7 +77,7 @@ Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenu
 
 * **Rimozione e meccanismi di archiviazione**: la rimozione dei dati e l&#39;archiviazione possono essere definite e automatizzate in modo libero [!DNL Adobe Journey Optimizer] per automatizzare le regole di conservazione dei dati. È possibile definire diverse strategie di aging per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.
 
-   L’area di lavoro Igiene dei dati consente di creare e monitorare varie attività di igiene dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con lo scudo per la sicurezza e la privacy e con lo scudo sanitario. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
+  L’area di lavoro Igiene dei dati consente di creare e monitorare varie attività di igiene dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con lo scudo per la sicurezza e la privacy e con lo scudo sanitario. Per ulteriori informazioni, consulta [questa pagina](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

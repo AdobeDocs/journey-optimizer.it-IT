@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 9%
+ht-degree: 17%
 
 ---
 
@@ -64,7 +64,7 @@ Per creare varianti di un componente di contenuto in E-mail Designer, segui ques
 
    ![](assets/conditions-enable-conditional.png)
 
-1. Il **[!UICONTROL Contenuto condizionale]** a sinistra. In questo riquadro, puoi creare più varianti del componente di contenuto selezionato utilizzando le condizioni.
+1. Il **[!UICONTROL Contenuto condizionale]** a sinistra. In questo riquadro, puoi utilizzare le condizioni per creare più varianti del componente di contenuto selezionato.
 
    Configura la prima variante selezionando la **[!UICONTROL Applica condizione]** pulsante.
 
@@ -78,7 +78,7 @@ Per creare varianti di un componente di contenuto in E-mail Designer, segui ques
 
 1. La regola condizionale è associata alla variante. Per una migliore leggibilità, si consiglia di rinominare la variante facendo clic sul menu dell’ellisse.
 
-   Ora configura come deve essere visualizzato il componente se la regola viene soddisfatta durante l’invio del messaggio. In questo esempio, vogliamo visualizzare il testo in francese se è la lingua preferita del destinatario.
+   Ora configura come deve essere visualizzato il componente se la regola viene soddisfatta durante l’invio del messaggio. In questo esempio, se la lingua preferita del destinatario è il francese, il testo dovrà essere in francese.
 
    ![](assets/conditions-design.png)
 

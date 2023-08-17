@@ -43,7 +43,7 @@ Le attività di orchestrazione sono condizioni diverse che consentono di determi
 Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti attività di orchestrazione:
 
 * [Condizione](../building-journeys/condition-activity.md)
-* [Attendi](../building-journeys/wait-activity.md)
+* [Attendere](../building-journeys/wait-activity.md)
 * [Read Audience](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)

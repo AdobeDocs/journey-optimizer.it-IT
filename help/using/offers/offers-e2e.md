@@ -126,7 +126,7 @@ Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro off
    >
    >Un’offerta può essere visualizzata in posizioni diverse in un messaggio per creare più opportunità di utilizzo in contesti di posizionamento diversi.
 
-   Ulteriori informazioni sulle rappresentazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#representations).
+   Ulteriori informazioni sulle rappresentazioni sono disponibili in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#representations).
 
 1. Selezionate un&#39;immagine appropriata per i primi due posizionamenti. Inserisci testo personalizzato per *Non digitale - Testo* posizionamento.
 

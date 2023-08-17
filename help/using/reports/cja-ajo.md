@@ -49,13 +49,13 @@ Utilizzo di [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] potre
 
 * **Entrambi [!DNL Journey Optimizer] e [!DNL Customer Journey Analytics] sincronizza i dati da Azure Data Lake Storage (ADLS) per i rapporti.**
 
-   Il tempo di elaborazione dei dati in arrivo può variare leggermente da un prodotto all’altro. Per questo motivo, i dati potrebbero non corrispondere quando si visualizzano rapporti da una data specificata al giorno corrente. Per ridurre le discrepanze, utilizza intervalli di date che escludono il giorno corrente.
+  Il tempo di elaborazione dei dati in arrivo può variare leggermente da un prodotto all’altro. Per questo motivo, i dati potrebbero non corrispondere quando si visualizzano rapporti da una data specificata al giorno corrente. Per ridurre le discrepanze, utilizza intervalli di date che escludono il giorno corrente.
 
 * **In entrata [!DNL Journey Optimizer] rapporti, la metrica Inviata include anche la metrica Nuovi tentativi.**
 
-   **[!UICONTROL Nuovi tentativi]** non sarà incluso in **[!UICONTROL Inviato]** metrica in [!DNL Customer Journey Analytics]. Questo causerà [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** metriche per mostrare valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei nuovi tentativi vengono convertiti in **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Mancati recapiti]** metrica.
+  **[!UICONTROL Nuovi tentativi]** non sarà incluso in **[!UICONTROL Inviato]** metrica in [!DNL Customer Journey Analytics]. Questo causerà [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** metriche per mostrare valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei nuovi tentativi vengono convertiti in **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Mancati recapiti]** metrica.
 Per ridurre le discrepanze, utilizza intervalli di date da una settimana fa o anche più tardi.
 
 * **I rapporti vengono gestiti da un’origine dati diversa.**
 
-   Ciò potrebbe causare discrepanze di dati tra l’1% e il 2% tra i prodotti.
+  Ciò potrebbe causare discrepanze di dati tra l’1% e il 2% tra i prodotti.

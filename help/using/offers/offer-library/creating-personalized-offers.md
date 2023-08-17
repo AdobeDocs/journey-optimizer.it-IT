@@ -9,7 +9,7 @@ exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '741'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,7 @@ Per creare un **offerta**, effettua le seguenti operazioni:
    >
    >L’aggiornamento delle date di inizio/fine può avere un impatto sui limiti. [Ulteriori informazioni](add-constraints.md#capping-change-date)
 
-1. È inoltre possibile associare uno o più elementi esistenti **[!UICONTROL qualificatori di raccolta]** all’offerta, per cercare e organizzare più facilmente la Libreria di offerte. [Maggiori informazioni](creating-tags.md).
+1. È inoltre possibile associare uno o più elementi esistenti **[!UICONTROL qualificatori di raccolta]** all’offerta, per cercare e organizzare più facilmente la Libreria di offerte. [Ulteriori informazioni](creating-tags.md).
 
 1. Il **[!UICONTROL Attributi offerta]** consente di associare coppie chiave-valore all’offerta a scopo di reporting e analisi.
 
@@ -69,7 +69,7 @@ Per creare un **offerta**, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
    >Tieni presente che le stime di profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 

@@ -61,7 +61,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![](assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} per creare i tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -76,7 +76,7 @@ Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le c
 
 Questo consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Scopri come utilizzare l’editor di espressioni in [questa sezione](expression/expressionadvanced.md).
 
-Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. [Maggiori informazioni](../datasource/external-data-sources.md).
+Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. [Ulteriori informazioni](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 

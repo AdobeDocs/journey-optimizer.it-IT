@@ -40,7 +40,7 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, segui i
 
    ![](../assets/browse-button-placements.png)
 
-   Qui è ancora possibile filtrare i posizionamenti in base al loro canale e/o al tipo di contenuto. Scegliete un posizionamento e fate clic su **[!UICONTROL Seleziona]**.
+   Lì è ancora possibile filtrare i posizionamenti in base al loro canale e/o tipo di contenuto. Scegliete un posizionamento e fate clic su **[!UICONTROL Seleziona]**.
 
    ![](../assets/browse-placements.png)
 

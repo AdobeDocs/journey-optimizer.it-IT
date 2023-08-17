@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare Assets Essentials in Journey Optimizer
-description: Introduzione ad Assets Essentials
+description: Introduzione agli Assets Essentials
 feature: Overview
 topic: Content Management
 role: User
@@ -30,7 +30,7 @@ Ulteriori informazioni in [Documentazione di Adobe Experience Manager Assets Ess
 
 ## Prerequisiti{#assets-prerequisites}
 
-Prima di utilizzare [!DNL Adobe Experience Manager Assets Essentials], è necessario aggiungere utenti al **Utenti consumer di Assets Essentials** oppure/e **Utenti Assets Essentials** Profili di prodotto. Ulteriori informazioni in [Documentazione di Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=it){target="_blank"}.
+Prima di utilizzare [!DNL Adobe Experience Manager Assets Essentials], è necessario aggiungere utenti al **Assets Essentials utenti consumer** oppure/e **Utenti Assets Essentials** Profili di prodotto. Ulteriori informazioni in [Documentazione sugli Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=it){target="_blank"}.
 
 >[!NOTE]
 >Per i prodotti di Journey Optimizer ottenuti prima del 6 gennaio 2022, devi distribuire [!DNL Adobe Experience Manager Assets Essentials] per la tua organizzazione. Per ulteriori informazioni, consulta la sezione [Distribuire Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=it){target="_blank"}.

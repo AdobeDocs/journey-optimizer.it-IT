@@ -166,7 +166,7 @@ ORDER BY timestamp DESC;
 
 dove il formato delle date è: YYYY-MM-DD HH:MM:SS.
 
-Una volta identificati, rimuovi tali indirizzi dall’elenco di soppressione di Journey Optimizer. [Maggiori informazioni](../configuration/manage-suppression-list.md#remove-from-suppression-list).
+Una volta identificati, rimuovi tali indirizzi dall’elenco di soppressione di Journey Optimizer. [Ulteriori informazioni](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Set di dati evento di tracciamento push {#push-tracking-experience-event-dataset}
 

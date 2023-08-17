@@ -9,7 +9,7 @@ exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
@@ -41,7 +41,7 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con **[!UICONTROL Segmentazione]** servizio. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../audience/creating-a-segment-definition.md) La documentazione di è ancora valida per creare le regole di decisioni per le offerte. Per ulteriori informazioni, consulta [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
+   >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con **[!UICONTROL Segmentazione]** servizio. Tuttavia, il processo globale descritto nel [Generatore di segmenti](../../audience/creating-a-segment-definition.md) La documentazione di è ancora valida per creare le regole di decisioni per le offerte. Ulteriori informazioni nella [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it).
 
 1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il **[!UICONTROL Proprietà del pubblico]** Questo riquadro mostra informazioni sui profili stimati appartenenti al pubblico. Clic **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 

@@ -83,7 +83,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    * **[!UICONTROL Elenco iscrizioni]**: seleziona l’elenco di iscrizioni che verrà aggiornato se il profilo seleziona questa casella di controllo. Ulteriori informazioni su [elenchi di abbonamenti](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Canale (e-mail)]**: il consenso o la rinuncia si applica all’intero canale. Ad esempio, se un profilo che rinuncia ha due indirizzi e-mail, entrambi gli indirizzi saranno esclusi da tutte le tue comunicazioni.
 
@@ -174,7 +174,7 @@ Supponiamo che tu colleghi due caselle di controllo nella pagina principale a du
 
 A questo scopo, segui i passaggi riportati qui sotto:
 
-1. Nella pagina principale, collega ogni casella di controllo della proprietà **[!UICONTROL Modulo]** al relativo elenco di abbonamenti. [Maggiori informazioni](#use-form-component).
+1. Nella pagina principale, collega ogni casella di controllo della proprietà **[!UICONTROL Modulo]** al relativo elenco di abbonamenti. [Ulteriori informazioni](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

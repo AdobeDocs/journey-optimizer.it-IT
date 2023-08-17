@@ -24,11 +24,13 @@ In **Editor espressioni** schermata, utilizza **Convalida** per controllare la s
 
 >[!NOTE]
 > La convalida viene eseguita automaticamente quando fai clic su **Aggiungi** per chiudere la finestra dell&#39;editor.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Se la sintassi di personalizzazione non è valida, non puoi chiudere la finestra dell’editor espressioni.
+>
 
 ## Errori comuni {#common-errors}
 

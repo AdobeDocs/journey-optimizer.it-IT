@@ -119,6 +119,5 @@ Per verificare lo stato di aggiornamento del pool IP, fare clic su **[!UICONTROL
 >* pochi minuti prima di essere utilizzato dai messaggi unitari,
 >* fino al successivo batch per rendere effettivo il pool IP nei messaggi batch.
 
-
 È inoltre possibile utilizzare **[!UICONTROL Elimina]** per eliminare un pool IP. Non è possibile eliminare un pool IP associato a una superficie di canale.
 

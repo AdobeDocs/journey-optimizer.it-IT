@@ -43,7 +43,6 @@ A tal fine, devi scegliere dall’elenco dei sottodomini già delegati ad Adobe.
 >
 > * Qualsiasi modifica a un sottodominio web influirà anche sulle sandbox di produzione.
 
-
 Puoi creare diversi sottodomini web, ma solo **predefinito** verrà utilizzato il sottodominio. Puoi modificare il sottodominio web predefinito, ma è possibile utilizzarne solo uno alla volta.
 
 1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** , quindi seleziona **[!UICONTROL Configurazione web]** > **[!UICONTROL Sottodomini web]**.

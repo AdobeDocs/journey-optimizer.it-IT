@@ -81,7 +81,7 @@ Gli altri passaggi per la configurazione di un’azione personalizzata sono desc
 
 Nel menu a sinistra, nella sezione **Gestione percorsi**, fai clic su **Percorsi**. Crea il percorso e aggiungi l’azione personalizzata.  Quando si aggiunge l’azione personalizzata in un percorso, diverse opzioni consentono di gestire la governance dei dati. Fai clic sul pulsante **Mostra campi di sola lettura** per visualizzare tutti i parametri.
 
-Nella parte superiore dello schermo sono riportati il **Canale** e l’**Azione di marketing richiesta**, definiti durante la configurazione dell’azione personalizzata. Non è possibile modificare questi campi.
+Nella parte superiore della schermata sono riportati il **Canale** e l’**Azione di marketing richiesta**, definiti durante la configurazione dell’azione personalizzata. Non è possibile modificare questi campi.
 
 ![](assets/action-privacy7.png)
 

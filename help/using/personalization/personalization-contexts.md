@@ -34,11 +34,11 @@ In E-mail designer, puoi personalizzare il contenuto:
 
 * In **messaggio**: fai clic all’interno di un blocco di testo, fai clic su **Aggiungi personalizzazione** dalla barra degli strumenti contestuale. Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta questa [sezione](../email/get-started-email-design.md).
 
-   ![](assets/perso_insert.png)
+  ![](assets/perso_insert.png)
 
 * Per un **link**: seleziona del testo o dell’immagine all’interno di un blocco di testo, fai clic sulla **Inserisci collegamento** dalla barra degli strumenti contestuale. Nella finestra di, puoi aggiungere un blocco di personalizzazione facendo clic sul pulsante **Aggiungi personalizzazione** icona.
 
-   ![](assets/perso_link.png)
+  ![](assets/perso_link.png)
 
 In entrambi i casi, accedi all’editor di personalizzazione.
 

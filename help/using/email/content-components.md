@@ -106,7 +106,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
 
 ![](assets/email_designer_text_component.png)
 
-1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia **[!UICONTROL Testo]** componente in una **[!UICONTROL Componente struttura]**.
+1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia la **[!UICONTROL Testo]** componente in una **[!UICONTROL Componente struttura]**.
 
 1. Fai clic sul componente appena aggiunto per personalizzare il testo e accedere al **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** schede nel riquadro a destra di E-mail Designer.
 
@@ -163,7 +163,7 @@ Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse 
 
 Utilizza il **[!UICONTROL Immagine]** per inserire un file immagine dal computer nel contenuto dell’e-mail.
 
-1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia **[!UICONTROL Immagine]** componente in una **[!UICONTROL Componente struttura]**.
+1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia la **[!UICONTROL Immagine]** componente in una **[!UICONTROL Componente struttura]**.
 
    ![](assets/email_designer_image_content.png)
 
@@ -208,7 +208,7 @@ Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell�
 
 Utilizza il **[!UICONTROL Decisione sull’offerta]** per inserire offerte nei messaggi. Il [gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md) Il motore sceglierà l’offerta migliore da consegnare ai clienti.
 
-1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia **[!UICONTROL Decisione sull’offerta]** componente in una **[!UICONTROL Componente struttura]**.
+1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia la **[!UICONTROL Decisione sull’offerta]** componente in una **[!UICONTROL Componente struttura]**.
 
 1. Clic **[!UICONTROL Aggiungi]** per selezionare **[!UICONTROL Decisione sull’offerta]**.
 

@@ -1,5 +1,5 @@
 ---
-title: Introduzione alla direct mailing
+title: Introduzione alle direct mail
 description: Scopri come creare e un messaggio di direct mailing in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -9,11 +9,11 @@ keywords: direct mail, messaggio, campagna
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
-# Introduzione alla direct mailing {#create-direct}
+# Introduzione alle direct mail {#create-direct}
 
 >[!AVAILABILITY]
 >

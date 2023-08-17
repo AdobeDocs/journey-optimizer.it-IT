@@ -173,7 +173,7 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
   **Tipo:** stringa
   **Esempio:** https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg
 
-* **_experience > decisioning > sommario > componenti > linkURL**
+* **_experience > decisioning > contenuti > componenti > linkURL**
 
   **Campo:** linkURL
   **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.

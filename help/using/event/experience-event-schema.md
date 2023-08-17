@@ -72,7 +72,7 @@ Schema di acquisto con la relazione definita nel campo ID prodotto.
 
 >[!NOTE]
 >
->Ulteriori informazioni sulle relazioni tra schemi in [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=it).
+>Ulteriori informazioni sulle relazioni tra schemi in [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=it).
 
 In Journey Optimizer, puoi quindi sfruttare tutti i campi delle tabelle collegate:
 

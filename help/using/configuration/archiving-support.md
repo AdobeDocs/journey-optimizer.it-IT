@@ -77,7 +77,7 @@ Tuttavia, l’indirizzo Ccn viene selezionato per inviare comunicazioni seguendo
 
 * I messaggi possono essere recapitati all’indirizzo e-mail Ccn prima dei destinatari target. I messaggi Ccn possono essere inviati anche se i messaggi originali [non recapitato](../reports/suppression-list.md#delivery-failures).
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * Non aprire o scorrere le e-mail inviate all’indirizzo Ccn, in quanto vengono prese in considerazione nel totale delle aperture e dei clic dall’analisi di invio, il che potrebbe causare alcuni errori di calcolo in [rapporti](../reports/global-report.md).
 

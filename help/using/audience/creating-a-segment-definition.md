@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definizioni dei segmenti di build
+title: Generare definizioni di segmento
 description: Scopri come creare tipi di pubblico tramite le definizioni dei segmenti
 feature: Journeys
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
-# Definizioni dei segmenti di build {#build-segments}
+# Generare definizioni di segmento {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
@@ -30,7 +30,7 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
 
    ![](assets/create-segment.png)
 
-   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico in [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico in [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"}.
 
    ![](assets/segment-builder.png)
 

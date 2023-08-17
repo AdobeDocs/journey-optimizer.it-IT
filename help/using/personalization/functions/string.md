@@ -91,15 +91,15 @@ Il `contains` La funzione viene utilizzata per determinare se una stringa contie
 
 * La funzione seguente verifica se il nome del profilo contiene la lettera A (in maiuscolo o minuscolo). In questo caso, restituirà &quot;true&quot;, altrimenti restituirà &quot;false&quot;.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * La query seguente determina, con distinzione tra maiuscole e minuscole, se l’indirizzo e-mail della persona contiene la stringa &quot;2010@gm&quot;.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## Non contiene{#doesNotContain}
 
@@ -658,9 +658,10 @@ Il `replaceAll` La funzione viene utilizzata per sostituire tutte le sottostring
 
 >[!NOTE]
 >
-> Se l&#39;espressione utilizzata come secondo argomento è un carattere regex speciale, utilizzare una doppia barra rovesciata (`//`).  I caratteri regex speciali sono: [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Se l&#39;espressione utilizzata come secondo argomento è un carattere regex speciale, utilizzare una doppia barra rovesciata (`//`).  I caratteri regex speciali sono: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Ulteriori informazioni in [Documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Taglia a destra {#rightTrim}
 
@@ -672,7 +673,7 @@ Il `rightTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dall
 {%= rightTrim(string) %}
 ```
 
-## Dividere {#split}
+## Split {#split}
 
 Il `split` La funzione viene utilizzata per dividere una stringa per un determinato carattere.
 

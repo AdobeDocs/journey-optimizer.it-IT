@@ -43,4 +43,3 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 >* Le modifiche apportate nella vista **[!UICONTROL Testo normale]** non vengono applicate alla visualizzazione HTML.
 >
 >* Se si riattiva il **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e sostituite con il contenuto di testo generato dalla versione di HTML.
-

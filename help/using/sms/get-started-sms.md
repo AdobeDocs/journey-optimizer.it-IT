@@ -23,11 +23,11 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi di testo ai clienti sui l
 
 * In un **percorso**: dopo aver aggiunto un’attività SMS nel percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL Azioni: SMS]** per creare il contenuto per il messaggio SMS.
 
-   Per ulteriori informazioni sulla modalità di configurazione di un percorso, consulta questa [pagina](../building-journeys/journey-gs.md).
+  Per ulteriori informazioni sulla modalità di configurazione di un percorso, consulta questa [pagina](../building-journeys/journey-gs.md).
 
 * In una **campagna**: dopo aver creato una campagna, seleziona SMS come azione e definisci le impostazioni di base.
 
-   Per ulteriori informazioni sulla modalità di configurazione della campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
+  Per ulteriori informazioni sulla modalità di configurazione della campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]

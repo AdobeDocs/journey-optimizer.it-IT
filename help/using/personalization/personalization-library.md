@@ -65,7 +65,6 @@ Per salvare un’espressione nella libreria, effettua le seguenti operazioni:
 >* Le espressioni salvate sono ordinate in base alla data di creazione: le espressioni aggiunte di recente vengono visualizzate per prime nell’elenco.
 
 
-
 Per modificare un’espressione esistente, aggiungila all’editor, quindi modificala in base alle tue esigenze. Clic **[!UICONTROL Aggiungi alla libreria]** per convalidare la sintassi e salvare l’espressione.
 
 Per eliminare un’espressione, fai clic sul pulsante con i puntini di sospensione e quindi su **[!UICONTROL Elimina]**.

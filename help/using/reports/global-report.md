@@ -25,15 +25,15 @@ Utilizza il **[!UICONTROL Rapporto globale]** per misurare l’impatto di percor
 
 * Se desideri eseguire il targeting di un percorso o di consegne nel contesto di un percorso, da **[!UICONTROL Percorsi]** , accedere al percorso e fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** pulsante. Puoi quindi trovare i rapporti globali relativi a Percorso, e-mail, SMS e push.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
 * Se desideri eseguire il targeting di una campagna, da **[!UICONTROL Campagne]** , accedi alla tua campagna e fai clic sul pulsante **[!UICONTROL Rapporti]** pulsante.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Se si desidera passare dalla modalità **[!UICONTROL Rapporto live]** al **[!UICONTROL Rapporto globale]** per la consegna, fai clic su **[!UICONTROL Sempre]** dal selettore di tabulazione.
 
-   ![](assets/report_5.png)
+  ![](assets/report_5.png)
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](#list-of-components-global)
 

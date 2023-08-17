@@ -10,7 +10,7 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 100%
 
@@ -77,14 +77,14 @@ Quando esegui gli esperimenti, è importante seguire alcune best practice. Di se
 
 Formulare alcune ipotesi che si intende testare e limitare questa ipotesi al minor numero possibile di modifiche per determinare cosa ha avuto un impatto sulla consegna.
 
-Ad esempio, una buona ipotesi può essere se la personalizzazione nell’oggetto dell’e-mail determina percentuali di apertura migliori. Tuttavia, l’aggiunta di una modifica al contenuto del messaggio o nelle immagini può causare una conclusione confusa.
+Ad esempio, una buona ipotesi può essere se la personalizzazione nell’oggetto dell’e-mail determina tassi di apertura migliori. Tuttavia, l’aggiunta di una modifica al contenuto del messaggio o nelle immagini può causare una conclusione confusa.
 +++
 
 +++Assicurati di utilizzare la metrica corretta
 
 Determina la metrica di cui desideri eseguire il targeting e se le modifiche apportate possono avere un impatto diretto su questa metrica.
 
-Ad esempio, è improbabile che la modifica del contenuto del corpo del messaggio influisca sulle percentuali di apertura delle e-mail.
+Ad esempio, è improbabile che la modifica del contenuto del corpo del messaggio influisca sui tassi di apertura delle e-mail.
 +++
 
 +++Esegui il test sulla dimensione corretta del pubblico o per un periodo di tempo sufficiente
@@ -117,7 +117,7 @@ Questa sezione descrive i rapporti degli esperimenti e come comprendere le varie
 
 Seguono alcune linee guida per interpretare i risultati dell’esperimento contenuti.
 
-Si noti che una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ovvero, le dimensioni dei campioni, i tassi di conversione, gli intervalli di affidabilità, ecc.), e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora conclusivo, ci possono essere prove convincenti che un trattamento sia diverso da un altro.
+Si noti che una descrizione completa dei risultati dovrebbe considerare tutte le prove disponibili (ovvero, dimensioni dei campioni, tassi di conversione, intervalli di affidabilità, ecc.), e non solo la dichiarazione conclusiva o meno. Anche quando un risultato non è ancora conclusivo, ci possono essere prove convincenti che un trattamento sia diverso da un altro.
 
 Per comprendere i calcoli statistici, fare riferimento a questa [pagina](../campaigns/experiment-calculations.md).
 
