@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '389'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,13 @@ Prima di inviare messaggi in-app, devi configurare il canale in-app in [!DNL Ado
 
    ![](assets/inapp_config_6.png)
 
-1. Quindi, accedi a **[!UICONTROL Superfici app]** , quindi fai clic su **[!UICONTROL Crea superficie app]**.
+   >[!NOTE]
+   >
+   >Per abilitare gli esperimenti di contenuto per il canale in-app, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell’app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} è presente anche nella configurazione di reporting, altrimenti i dati in-app non verranno visualizzati nei rapporti dell’esperimento sui contenuti. [Scopri come aggiungere set di dati](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >Il set di dati viene utilizzato in sola lettura da [!DNL Journey Optimizer] e non influisce sulla raccolta o l’acquisizione dei dati.
+
+1. Quindi, accedi a **[!UICONTROL Superfici app]** e fai clic su **[!UICONTROL Crea superficie app]**.
 
    >[!NOTE]
    >
