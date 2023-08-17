@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1113'
 ht-degree: 13%
 
 ---
@@ -176,6 +176,10 @@ Puoi testare il rendering di qualsiasi modello di contenuto e-mail, creato da ze
    * Prima di inviare la bozza, è necessario selezionare [superficie e-mail](../configuration/channel-surfaces.md) che verranno utilizzati per testare il contenuto.
 
      ![](assets/content-template-stimulate-proof-surface.png)
+
+>[!CAUTION]
+>
+>Il tracciamento attuale non è supportato durante il test dei modelli di contenuto e-mail, il che significa che gli eventi di tracciamento, i parametri UTM e i collegamenti alle pagine di destinazione non saranno efficaci nelle bozze inviate da un modello. Per verificare il tracciamento: [utilizzare il modello di contenuto](email-templates.md) in un messaggio e-mail e [invia una bozza](preview.md#send-proofs).
 
 ## Video introduttivo {#video-templates}
 
