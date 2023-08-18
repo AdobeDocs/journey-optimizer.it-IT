@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
+source-git-commit: bdebd6495b0147b606a86153025090bdcb5c96a7
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1054'
 ht-degree: 38%
 
 ---
@@ -186,4 +186,4 @@ Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automatica
 
 >[!NOTE]
 >
->Per verificare l’URL finale, puoi: [invia una bozza](preview.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
+>Per verificare l’URL finale, puoi: [invia una bozza](preview.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
