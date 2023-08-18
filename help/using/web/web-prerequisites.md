@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 827fd9a6e97b610234b2c43a469e71ed8d2f8199
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 10%
@@ -133,7 +133,7 @@ Affinché l’esperienza web possa essere consegnata correttamente, è necessari
 
 ## Prerequisiti per l’esperimento sui contenuti {#experiment-prerequisites}
 
-Per abilitare gli esperimenti di contenuto per il canale web, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell’implementazione web [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} è presente anche nella configurazione di reporting.
+Per abilitare gli esperimenti di contenuto per il canale web, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell’implementazione web [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} è incluso anche nella configurazione di reporting.
 
 In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati web, i dati web non vengono visualizzati nei rapporti sull’esperimento del contenuto.
 
