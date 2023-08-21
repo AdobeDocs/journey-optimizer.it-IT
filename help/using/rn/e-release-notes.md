@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 41%
+source-wordcount: '402'
+ht-degree: 39%
 
 ---
 
@@ -29,7 +29,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Canale in-app in percorsi</strong><br/></th>
+<th><strong>Inviare messaggi in-app nei percorsi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Assistente contenuti per testo e immagini</strong><br/></th>
+<th><strong>Generare testo e immagini con l'Assistente contenuto</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Dopo aver creato e personalizzato il messaggio, porta il contenuto al livello successivo con l’Assistente contenuti. Ora puoi utilizzare l’Assistente contenuto per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
+<p>Questa funzione è attualmente disponibile come versione beta privata.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte.
 * È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata.
+
+
+**Direct mail**
+
+* Supporta Azure Blob come destinazione di routing.
+* Supporto di &quot;&amp;&quot;come separatore personalizzato.
