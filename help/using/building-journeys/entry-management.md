@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '599'
 ht-degree: 14%
 
 ---
@@ -31,13 +31,16 @@ Nei percorsi unitari, puoi abilitare o disabilitare il rientro:
 
 * Se è abilitato il rientro, un profilo può entrare in un percorso diverse volte, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso.
 
-* Se il rientro è disattivato, un profilo non può entrare più volte nello stesso percorso
+* Se il rientro è disattivato, un profilo non può entrare più volte nello stesso percorso.
 
-Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l’opzione per i percorsi &quot;one shot&quot; (una sola volta), ad esempio se si desidera offrire un regalo una tantum quando una persona entra in un negozio. In tal caso, non vuoi che il cliente possa reinserire il percorso e ricevere nuovamente l’offerta. Quando un percorso termina, il suo stato è **[!UICONTROL Chiuso]**. I nuovi utenti non possono più accedere al percorso. Le persone già nel percorso finiscono normalmente il percorso. [Ulteriori informazioni](journey-gs.md#entrance)
+Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l’opzione per i percorsi &quot;one shot&quot; (una sola volta), ad esempio se si desidera offrire un regalo occasionale quando una persona visita un negozio. In tal caso, il cliente non deve essere in grado di rientrare nel percorso e ricevere nuovamente l’offerta. Quando un percorso termina, il suo stato è **[!UICONTROL Chiuso]**. I nuovi utenti non possono più accedere al percorso. Le persone già nel percorso finiscono normalmente il percorso. [Ulteriori informazioni](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato. I nuovi utenti non possono più accedere al percorso. Le persone già nel percorso finiscono normalmente il percorso.A causa del timeout del percorso di 30 giorni, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni più di 30 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 30 giorni fa. [Ulteriori informazioni](journey-gs.md#global_timeout).
+Dopo il timeout globale predefinito di 30 giorni, il percorso passa alla **Completato** stato. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso. Per allinearsi alla conformità alla privacy, questo comportamento è impostato solo per 30 giorni. Dopo tale periodo, i profili possono rientrare nel percorso. Per evitare questo problema, aggiungi una condizione per verificare se il profilo inserito è già stato inserito o meno. Ulteriori informazioni sul timeout del percorso in [questa sezione](journey-gs.md#global_timeout).
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 
