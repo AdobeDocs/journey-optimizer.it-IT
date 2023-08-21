@@ -5,7 +5,7 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 39%
@@ -102,4 +102,4 @@ Questa versione include i miglioramenti elencati di seguito.
 **Direct mail**
 
 * Supporta Azure Blob come destinazione di routing.
-* Supporto di &quot;&amp;&quot;come separatore personalizzato.
+* Supporto `&` come separatore personalizzato.
