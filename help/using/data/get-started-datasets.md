@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5d122a244b610c9dc6b53795b4e94bc2029df714
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,13 @@ Per impostazione predefinita, vengono visualizzati solo i set di dati che hai ac
 
 Seleziona il nome di un set di dati per accedere alla relativa schermata di attività set di dati e vedi i dettagli del set di dati selezionato. La scheda attività include un grafico che mostra il tasso di utilizzo dei messaggi e un elenco di batch con esito positivo o negativo.
 
-Qui sono disponibili diversi set di dati:
+I set di dati di sistema per Adobe Journey Optimizer sono elencati di seguito.
+
+
+>[!CAUTION]
+>
+> Set di dati di sistema **non deve essere modificato**. Qualsiasi modifica viene ripristinata automaticamente con ogni aggiornamento del prodotto.
+>
 
 **Generazione rapporti**
 
