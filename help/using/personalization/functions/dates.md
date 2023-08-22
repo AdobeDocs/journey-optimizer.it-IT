@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: 3a4a58f8601c67e8e9a2b606a47c6b4bcc2dab05
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 4%
@@ -141,7 +141,7 @@ Dove la prima stringa è l’attributo data e il secondo valore è il modo in cu
 L&#39;operazione seguente restituisce la data nel formato seguente: MM/GG/AA.
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
 ## Formattare la data con il supporto delle impostazioni internazionali{#format-date-locale}
