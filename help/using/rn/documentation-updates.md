@@ -5,9 +5,9 @@ title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3171'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Agosto 2023 {#august-2023}
 
-* È stata aggiunta una nuova sezione sui prerequisiti dell’esperimento sui contenuti per il canale web. [Ulteriori informazioni](../web/web-prerequisites.md#experiment-prerequisites)
-* È stata aggiunta un&#39;avvertenza sul **Utilizzare i modelli di contenuto** per indicare che il tracciamento attuale non è supportato durante il test dei modelli di contenuto e-mail. Per verificare il tracciamento, devi utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../email/content-templates.md#test-template)
-* Sono state aggiunte diverse avvertenze in **Creare e pubblicare pagine di destinazione** per specificare che non è possibile accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito durante la creazione della pagina, anche se pubblicato. È invece possibile testarlo utilizzando la funzione di anteprima. [Ulteriori informazioni](../landing-pages/create-lp.md)
+* È stata aggiunta una nuova sezione sui prerequisiti dei contenuti dell’esperimento per il canale web. [Ulteriori informazioni](../web/web-prerequisites.md#experiment-prerequisites)
+* È stata aggiunta un’avvertenza sulla pagina **Utilizzare i modelli di contenuto** per indicare che attualmente il tracciamento non è supportato durante il test dei modelli di contenuto e-mail. Per testare il tracciamento, è necessario utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../email/content-templates.md#test-template)
+* Sono state aggiunte diverse avvertenze nella sezione **Creare e pubblicare pagine di destinazione** per specificare che non è possibile accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito durante la creazione della pagina, anche se pubblicato. È invece possibile testarla utilizzando la funzione di anteprima. [Ulteriori informazioni](../landing-pages/create-lp.md)
 
 ## Luglio 2023 {#july-2023}
 
