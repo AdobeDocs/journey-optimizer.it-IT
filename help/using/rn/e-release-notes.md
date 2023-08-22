@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '362'
+ht-degree: 43%
 
 ---
 
@@ -52,7 +52,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e gestire gli elenchi di seed in Journey Optimizer. Un elenco di seed è costituito da indirizzi e-mail di test a cui invii un’e-mail prima di inviarla al pubblico effettivo. Utilizza questa funzionalità per monitorare le copie e-mail inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
+<p>Ora puoi creare e gestire gli elenchi di seed in Journey Optimizer. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Generare testo e immagini con l'Assistente contenuto</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Dopo aver creato e personalizzato il messaggio, porta il contenuto al livello successivo con l’Assistente contenuti. Ora puoi utilizzare l’Assistente contenuto per ottimizzare l’impatto del messaggio sperimentando diversi titoli principali e immagini. Ogni variante viene gestita come un trattamento univoco, per misurare e confrontare quale titolo genera effettivamente più clic.</p>
-<p>Questa funzionalità è attualmente disponibile come versione beta privata.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale e-mail**
 
-* Una nuova opzione è disponibile nelle impostazioni della superficie e-mail per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nei tipi di pubblico dei messaggi transazionali. Anche se hanno contrassegnato i messaggi di marketing come spam, questi profili possono quindi ricevere messaggi transazionali, come reimpostazione della password o istruzioni dell’account. Questa opzione è disabilitata per impostazione predefinita.
+Una nuova opzione è disponibile nelle impostazioni della superficie e-mail per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nei tipi di pubblico dei messaggi transazionali. Anche se hanno contrassegnato i messaggi di marketing come spam, questi profili possono quindi ricevere messaggi transazionali, come reimpostazione della password o istruzioni dell’account. Questa opzione è disabilitata per impostazione predefinita.
 
 **Percorsi**
 
@@ -102,5 +102,5 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Direct mail**
 
-* Supporta Azure Blob come destinazione di routing.
-* Supporto `&` come separatore personalizzato.
+* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento dei file.
+* La e commerciale è ora disponibile come campo separatore di colonna nelle impostazioni della superficie della direct mailing.
