@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
+source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '425'
+ht-degree: 37%
 
 ---
 
@@ -97,6 +97,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile come versione beta privata.
 * È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata.
+* Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso.
 
 
 **Direct mail**
