@@ -12,7 +12,7 @@ exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 45%
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Imposta set di dati per il reporting"
->abstract="La configurazione di reporting ti consente di recuperare metriche aggiuntive che verranno utilizzate nei rapporti delle campagne. Deve essere eseguito da un utente tecnico."
+>abstract="La configurazione del reporting consente di recuperare metriche aggiuntive che verranno utilizzate nei rapporti della campagna. Deve essere eseguito da un utente tecnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
