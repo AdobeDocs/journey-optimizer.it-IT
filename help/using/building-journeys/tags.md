@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: percorso, tag
-badge: label="Beta" type="Informative"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 46%
+source-wordcount: '234'
+ht-degree: 42%
 
 ---
 
 # Gestione dei tag nei percorsi {#journey_tags}
 
 In qualità di utente Journey Optimizer, puoi organizzare i percorsi utilizzando i tag. I tag rappresentano un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca.
-
->[!AVAILABILITY]
->
-> I tag unificati sono attualmente nella versione beta. La documentazione e le funzionalità sono soggette a modifiche.
 
 ## Aggiungere tag a un percorso
 

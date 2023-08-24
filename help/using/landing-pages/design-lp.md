@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, progettazione, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 17%
@@ -24,7 +24,7 @@ Per iniziare a creare contenuti per la destinazione [pagina principale](create-l
 
 Da qui è possibile:
 
-* **Progettare la pagina di destinazione da zero** tramite l’interfaccia di progettazione dei contenuti e sfrutta le immagini di [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Scopri come progettare il contenuto delle <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
+* **Progettare la pagina di destinazione da zero** tramite l’interfaccia di progettazione dei contenuti e sfrutta le immagini di [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Scopri come progettare il contenuto delle <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
 * **Codice o incolla HTML non elaborato** direttamente in designer contenuto. Scopri come programmare i contenuti [in questa sezione](../email/code-content.md).
 

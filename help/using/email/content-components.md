@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 58%
@@ -121,7 +121,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
    * **Dimensione font**: seleziona la dimensione del font in pixel.
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Inserisci collegamento]**: aggiungi qualsiasi tipo di collegamento al contenuto.
-   * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](assets-essentials.md)
+   * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets-essentials.md)
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
    * **[!UICONTROL Mostra il codice sorgente]**: visualizza il codice sorgente del testo. Non può essere modificato.
@@ -178,7 +178,7 @@ Utilizza il **[!UICONTROL Immagine]** per inserire un file immagine dal computer
 
    ![](assets/email_designer_10.png)
 
-1. Puoi anche scegliere di **[!UICONTROL Trova foto Stock simili]**. [Ulteriori informazioni](stock.md)
+1. Puoi anche scegliere di **[!UICONTROL Trova foto Stock simili]**. [Ulteriori informazioni](../content-management/stock.md)
 
 1. Dalla sezione **[!UICONTROL Stili]** , regolare gli altri attributi di stile come margine, bordo e così via. oppure aggiungendo un collegamento per reindirizzare il pubblico a un altro contenuto, dal riquadro **[!UICONTROL Impostazioni componenti]**.
 

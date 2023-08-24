@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '1260'
 ht-degree: 15%
@@ -50,7 +50,7 @@ Sono disponibili due opzioni. Puoi eseguire le seguenti operazioni:
 
 * Utilizza il **[!UICONTROL Aggiungi file multimediali]** per selezionare una risorsa in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-  Scopri come utilizzare **[!DNL Adobe Experience Manager Assets Essentials]** in [questa pagina](../email/assets-essentials.md).
+  Scopri come utilizzare **[!DNL Adobe Experience Manager Assets Essentials]** in [questa pagina](../content-management/assets-essentials.md).
 
 * Oppure immetti l’URL del file multimediale in **[!UICONTROL Aggiungi file multimediali]** campo. In tal caso, puoi aggiungere la personalizzazione all’URL.
 

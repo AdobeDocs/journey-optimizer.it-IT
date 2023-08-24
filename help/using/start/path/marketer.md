@@ -5,7 +5,7 @@ title: Guida introduttiva di Journey Optimizer per gli addetti al marketing
 description: In qualità di professionista dei percorsi, scopri di più su come utilizzare Journey Optimizer
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Per configurare il primo percorso, aggiungere offerte e risorse e inviare i mess
 
    ![](../assets/perso_ee2.png)
 
-1. **Creare e gestire le risorse**. [!DNL Adobe Experience Manager Assets Essentials] fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi. [Ulteriori informazioni](../../email/assets-essentials.md).
+1. **Creare e gestire le risorse**. [!DNL Adobe Experience Manager Assets Essentials] fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi. [Ulteriori informazioni](../../content-management/assets-essentials.md).
 
 1. **Aggiungere offerte**. Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate. Per informazioni sulla gestione delle decisioni, consulta [questa sezione](../../offers/get-started/starting-offer-decisioning.md).
 

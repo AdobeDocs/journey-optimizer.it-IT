@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Riunisci flussi di lavoro creativi e di marketing utilizzando [!DNL Adobe Experi
 
 [!DNL Adobe Experience Manager Assets Essentials] è accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite la sezione **[!UICONTROL Risorse]** del menu a sinistra.
 
-Ulteriori informazioni su [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+Ulteriori informazioni su [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
 
 
 ## Adobe Stock{#integration-stock}
@@ -55,7 +55,7 @@ Il plug-in per l’integrazione di E-mail designer di [!DNL Adobe Stock] e [!DNL
 
 Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail direttamente da [!DNL Adobe Stock] e aggiungerle alla cartella **[!UICONTROL Risorse]** utilizzando l’opzione **[!UICONTROL Trova le foto di Adobe Stock]**. Inoltre, l’opzione **[!UICONTROL Trova foto Stock simili]** consente di trovare immagini che corrispondono al contenuto, al colore e alla composizione della risorsa utilizzata nella consegna.
 
-Ulteriori informazioni su [Journey Optimizer + Stock](../email/stock.md).
+Ulteriori informazioni su [Journey Optimizer + Stock](../content-management/stock.md).
 
 
 ## Adobe Intelligent Services{#integration-intelligent-service}

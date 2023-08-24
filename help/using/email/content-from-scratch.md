@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 68%
@@ -92,7 +92,7 @@ Per iniziare a creare il contenuto delle , segui i passaggi indicati di seguito:
 
    ![](assets/email_designer_structure_component.png)
 
-1. Dalla sezione **[!UICONTROL Selettore risorse]**, puoi selezionare direttamente le risorse memorizzate in **[!UICONTROL Libreria risorse]**. [Ulteriori informazioni sulla gestione delle risorse](assets-essentials.md)
+1. Dalla sezione **[!UICONTROL Selettore risorse]**, puoi selezionare direttamente le risorse memorizzate in **[!UICONTROL Libreria risorse]**. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets-essentials.md)
 
    Fai doppio clic sulla cartella che contiene le risorse. Trascinali e rilasciali in un componente struttura.
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 6%
@@ -84,7 +84,7 @@ Il **[!UICONTROL Contenuti multimediali]** consente di aggiungere contenuti mult
 
 ![](assets/in_app_content_3.png)
 
-Digita l’URL del file multimediale o fai clic su **[!UICONTROL Seleziona risorse]** per aggiungere direttamente al messaggio in-app le risorse memorizzate nella libreria di risorse. [Ulteriori informazioni sulla gestione delle risorse](../email/assets-essentials.md).
+Digita l’URL del file multimediale o fai clic su **[!UICONTROL Seleziona risorse]** per aggiungere direttamente al messaggio in-app le risorse memorizzate nella libreria di risorse. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets-essentials.md).
 Puoi anche aggiungere una **[!UICONTROL Testo alternativo]** per applicazioni di lettura dello schermo.
 
 +++Altre opzioni con formattazione avanzata

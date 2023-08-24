@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, sottodomini, configurazione
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 27%
@@ -31,7 +31,7 @@ ht-degree: 27%
 >title="Impostare un sottodominio web"
 >abstract="Seleziona un sottodominio dall’elenco dei sottodomini delegati ad Adobe. È possibile impostare questo sottodominio web come predefinito, ma è possibile utilizzare un solo sottodominio predefinito alla volta."
 
-Quando crei esperienze web, se aggiungi contenuti provenienti da [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) devi impostare il sottodominio che verrà utilizzato per pubblicare questo contenuto.
+Quando crei esperienze web, se aggiungi contenuti provenienti da [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) devi impostare il sottodominio che verrà utilizzato per pubblicare questo contenuto.
 
 A tal fine, devi scegliere dall’elenco dei sottodomini già delegati ad Adobe. Ulteriori informazioni sulla delega dei sottodomini all’Adobe in [questa sezione](../configuration/delegate-subdomain.md).
 
