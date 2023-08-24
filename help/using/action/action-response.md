@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare un’azione personalizzata
-description: Scopri come configurare un’azione personalizzata
+title: Miglioramenti delle azioni personalizzate
+description: Scopri gli ultimi miglioramenti sulle azioni personalizzate
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: azione, terze parti, personalizzato, percorsi, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 4%
 
 ---
 
-# Miglioramenti delle azioni personalizzate
+# Miglioramenti delle azioni personalizzate {#custom-action-enhancements}
 
 Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare i percorsi in base a tali risposte.
 
-Questa funzionalità era disponibile solo quando si utilizzavano origini dati. Ora puoi utilizzarlo con azioni personalizzate.
+In precedenza questa funzionalità era disponibile solo quando si utilizzavano origini dati. Ora puoi utilizzarlo con azioni personalizzate.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ Questa funzionalità era disponibile solo quando si utilizzavano origini dati. O
 >
 >Le azioni personalizzate devono essere utilizzate solo con endpoint privati o interni e con un limite di limitazione o limite appropriato. Consulta [questa pagina](../configuration/external-systems.md).
 
-## Definire l’azione personalizzata
+## Definire l’azione personalizzata {#define-custom-action}
 
 Durante la definizione dell’azione personalizzata, sono stati resi disponibili due miglioramenti: l’aggiunta del metodo GET e il nuovo campo di risposta del payload. Le altre opzioni e i parametri rimangono invariati. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-### Configurazione endpoint
+### Configurazione endpoint {#endpoint-configuration}
 
 Il **Configurazione URL** la sezione è stata rinominata **Configurazione endpoint**.
 
@@ -44,7 +42,7 @@ In **Metodo** a discesa, è ora possibile selezionare **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payload
+### Payload {#payloads-new}
 
 Il **Parametri azione** la sezione è stata rinominata **Payload**. Sono disponibili due campi:
 
@@ -80,7 +78,7 @@ Il **Parametri azione** la sezione è stata rinominata **Payload**. Sono disponi
 
 1. Fai clic su **Salva**.
 
-## Sfruttare la risposta in un percorso
+## Sfruttare la risposta in un percorso {#response-in-journey}
 
 È sufficiente aggiungere l’azione personalizzata a un percorso. Puoi quindi sfruttare i campi del payload di risposta in condizioni, altre azioni e personalizzazione dei messaggi.
 
@@ -119,7 +117,7 @@ Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fed
 
    ![](assets/action-response11.png)
 
-## Stato errore{#error-status}
+## Stato errore {#error-status}
 
 Il **jo_status_code** Questo campo è sempre disponibile anche quando non è definito alcun payload di risposta.
 
@@ -136,7 +134,7 @@ Una chiamata di azione viene considerata in errore quando il codice http restitu
 >
 >Solo le azioni personalizzate appena create includono **jo_status_code** preconfigurata. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
 
-## Sintassi delle espressioni
+## Sintassi delle espressioni {#exp-syntax}
 
 Di seguito è riportata la sintassi:
 
@@ -160,3 +158,4 @@ Di seguito sono riportati alcuni esempi:
 ```
 
 Per ulteriori informazioni sui riferimenti di campo, consulta [questa sezione](../building-journeys/expression/field-references.md).
+

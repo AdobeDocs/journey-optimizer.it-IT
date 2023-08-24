@@ -1,6 +1,6 @@
 ---
 title: Creazione di una notifica in-app in un Percorso
-description: Scopri come creare un messaggio in-app in Journey Optimizer
+description: Scopri come aggiungere un messaggio in-app in un percorso
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: in-app, messaggio, creazione, inizio
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informative"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 3%
+source-wordcount: '742'
+ht-degree: 2%
 
 ---
 
+
 # Creare un messaggio in-app in un Percorso {#create-in-app-journey}
+
+Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazioni:
 
 1. Apri il percorso, quindi trascina e rilascia una **[!UICONTROL In-app]** attività da **[!UICONTROL Azioni]** nella palette.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 25%
+source-wordcount: '1662'
+ht-degree: 24%
 
 ---
 
@@ -172,3 +172,20 @@ Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, e
 A causa del timeout di 30 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 30 giorni fa.
 
 Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 30 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
+
+## Duplicare un percorso {#duplicate-a-journey}
+
+È possibile duplicare un percorso esistente da **Sfoglia** scheda. Tutti gli oggetti e le impostazioni vengono duplicati nella copia di percorso.
+
+Per farlo, segui la procedura indicata di seguito:
+
+1. Passare al percorso che si desidera copiare, fare clic sul pulsante **Altre azioni** (i tre punti accanto al nome del percorso).
+1. Seleziona **Duplica**.
+
+   ![Duplicare un percorso](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. Il nuovo percorso viene creato e disponibile nell&#39;elenco percorso.

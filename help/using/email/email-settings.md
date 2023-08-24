@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1941'
 ht-degree: 8%
 
 ---
@@ -181,6 +181,31 @@ Per eseguire questa operazione, abilita **[!UICONTROL E-mail Ccn]** feature opzi
 Inoltre, quando definisci il **[!UICONTROL E-mail Ccn]** indirizzo, assicurati di utilizzare un sottodominio con una configurazione del record MX valida, altrimenti l’elaborazione della superficie e-mail non riuscirà.
 
 Se ricevi un errore durante l’invio della superficie e-mail, significa che il record MX non è configurato per il sottodominio dell’indirizzo inserito. Contatta l’amministratore per configurare il record MX corrispondente o utilizza un altro indirizzo con una configurazione di record MX valida.
+
+## Elenco seed {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Aggiungere un elenco di seed"
+>abstract="Seleziona l’elenco di seed desiderato per includere automaticamente indirizzi di seed e-mail specifici nelle consegne. Questi indirizzi verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta della consegna a scopo di garanzia."
+
+Un elenco seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi e-mail seed specifici nelle consegne. [Ulteriori informazioni](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Attualmente questa funzione si applica solo al canale e-mail.
+
+Seleziona l’elenco che ti interessa nel **[!UICONTROL Elenco seed]** sezione. Scopri come creare un elenco di seed in [questa sezione](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>È possibile selezionare un solo elenco di seed alla volta.
+
+Quando la superficie corrente viene utilizzata in una campagna o in un percorso, gli indirizzi e-mail nell’elenco di seed selezionato vengono inclusi al momento dell’esecuzione della consegna, il che significa che riceveranno una copia della consegna a scopo di garanzia.
+
+Scopri come utilizzare l’elenco di seed in una campagna o in un percorso di [questa sezione](../configuration/seed-lists.md#use-seed-list).
 
 ## Parametri per nuovi tentativi e-mail {#email-retry}
 

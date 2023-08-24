@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -435,22 +435,23 @@ ht-degree: 98%
       + [Esempi di query](using/data/datasets-query-examples.md)
       + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Query](using/data/get-started-queries.md)
-+ Configurazione{#configuration}
++ Configurazione {#configuration}
    + [Introduzione alla configurazione di Journey Optimizer](using/configuration/get-started-configuration.md)
+   + [Impostare le superfici di canale](using/configuration/channel-surfaces.md)
    + Delegare i sottodomini e-mail {#delegate-subdomains}
       + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
       + [Delegare un sottodominio](using/configuration/delegate-subdomain.md)
       + [Aggiungere un record TXT di Google](using/configuration/google-txt.md)
       + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
       + [Creare pool IP](using/configuration/ip-pools.md)
-   + [Impostare le superfici di canale](using/configuration/channel-surfaces.md)
    + Monitorare gli indirizzi e-mail {#monitor-reputation}
       + [Elenco di soppressione](using/configuration/manage-suppression-list.md)
       + [Nuovi tentativi](using/configuration/retries.md)
       + [Elenco Consentiti](using/configuration/allow-list.md)
+   + [Usa elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
+   + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
-   + [Gestire gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + Integrare con sistemi esterni {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 98%
          + [Configurare un’azione](using/action/about-custom-action-configuration.md)
          + [Integrare con Adobe Campaign Standard](using/action/acs-action.md)
          + [Integrare con Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Informazioni sulle azioni](using/action/action-response.md)
+         + [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](using/action/action-response.md)
    + [Origini](using/start/get-started-sources.md)
 + Controllo degli accessi {#access-control}
    + Panoramica sul controllo degli accessi {#privacy}

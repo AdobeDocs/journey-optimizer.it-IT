@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 32%
+source-wordcount: '893'
+ht-degree: 31%
 
 ---
 
@@ -36,9 +36,7 @@ Prima di poter generare questo file, devi creare:
 >id="ajo_dm_file_routing_details"
 >title="Configurare l’indirizzamento dei file"
 >abstract="Dopo aver creato un messaggio di direct mail, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. Devi specificare i dettagli del server in modo che il provider di direct mail possa accedere e utilizzare tale file per la consegna della direct mail."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Creare un messaggio di direct mailing"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
    >[!NOTE]
    >
-   >Attualmente Amazon S3 e SFTP<!--and Azure--> sono supportati in [!DNL Journey Optimizer].
+   >Attualmente Amazon S3, SFTP e Azure sono supportati in [!DNL Journey Optimizer].
 
 1. Inserisci i dettagli e le credenziali del server, ad esempio indirizzo del server, chiave di accesso e così via.
 
@@ -135,7 +133,7 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
 1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
 
-1. Se si seleziona **[!UICONTROL Testo delimitato]**, definire il separatore di colonne desiderato: tabulazione, punto e virgola o barra verticale<!--or ampersand-->.
+1. Se si seleziona **[!UICONTROL Testo delimitato]**, definisci il separatore di colonne desiderato: tabulazione, punto e virgola, barra verticale o e commerciale.
 
    ![](assets/surface-direct-mail-column-separator.png)
 

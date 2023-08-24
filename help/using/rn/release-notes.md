@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c8a985d19c82ecb79153dd8ba2e056f6a2c1f2b
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '3495'
-ht-degree: 93%
+source-wordcount: '3384'
+ht-degree: 96%
 
 ---
 
@@ -22,32 +22,27 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
 
-## Note preliminari sulla versione di agosto 2023 {#aug-rn-2023}
-
-Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di rilascio. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati alla data di rilascio.
-
-
-**Data di rilascio**: 23-24 agosto 2023
+## Note sulla versione di agosto 2023 {#aug-rn-2023}
 
 ### Nuove funzionalità{#aug-2023-features}
 
 Questa versione include le nuove funzionalità elencate di seguito.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Inviare messaggi in-app nei percorsi</strong><br/></th>
+<th><strong>Send In-app messages in your journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi inviare messaggi in-app personalizzati agli utenti della tua app in un percorso. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza semplice.</p>
+<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/in_app_journey_1.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
@@ -61,7 +56,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>Ora puoi creare e gestire gli elenchi di seed in Journey Optimizer. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
 <img src="../configuration/assets/seed-list-details.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/seed-lists.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,25 +87,26 @@ Questa versione include le nuove funzionalità elencate di seguito.
 
 Questa versione include i miglioramenti elencati di seguito.
 
-**API**
+<!--
+**APIs**
 
-È ora disponibile una nuova API per creare e gestire Frammenti di contenuto. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
 
-**Canale e-mail**
+<!--**Email channel**
 
-Una nuova opzione è disponibile nelle impostazioni della superficie e-mail per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nei tipi di pubblico dei messaggi transazionali. Anche se hanno contrassegnato i messaggi di marketing come spam, questi profili possono quindi ricevere messaggi transazionali, come reimpostazione della password o istruzioni dell’account. Questa opzione è disabilitata per impostazione predefinita.
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
 
 **Percorsi**
 
-Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile come versione beta privata.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile come versione beta privata. [Ulteriori informazioni](../action/action-response.md).
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata. [Ulteriori informazioni](../reports/alerts.md).
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Direct mail**
 
-* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento dei file.
-* La e commerciale è ora disponibile come campo separatore di colonna nelle impostazioni della superficie della direct mailing.
+* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento dei file. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* La e commerciale è ora disponibile come campo separatore di colonna nelle impostazioni della superficie della direct mailing. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

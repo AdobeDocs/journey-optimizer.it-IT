@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 70%
+source-wordcount: '1493'
+ht-degree: 67%
 
 ---
 
@@ -92,7 +92,7 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 In caso di una chiamata di GET che richieda i parametri, inseriscili nella **[!UICONTROL Valori dinamici]** e vengono aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
 
 * elencare i parametri da trasmettere al momento della chiamata nella **[!UICONTROL Valori dinamici]** nell’esempio seguente: &quot;identifier&quot;.
-* Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A tale scopo, è necessario aggiungere: &quot;param&quot;: “nome del tuo parametro”, nell’esempio seguente è &quot;identifier&quot;. Attieniti alla sintassi seguente:
+* Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A questo scopo, devi aggiungere: &quot;param&quot;: &quot;nome del tuo parametro&quot; (nell’esempio seguente: &quot;identifier&quot;). Attieniti alla sintassi seguente:
 
   ```
   {"id":{"param":"identifier"}}
@@ -208,7 +208,10 @@ Ecco un esempio per il tipo di autenticazione bearer:
 
 >[!NOTE]
 >
+>Il token di autenticazione viene memorizzato nella cache al percorso: se due percorsi utilizzano la stessa azione personalizzata, ogni percorso ha un proprio token memorizzato nella cache. Il token non è condiviso tra questi percorsi.
+>
 >La durata della cache consente di evitare un numero eccessivo di chiamate agli endpoint di autenticazione. La conservazione dei token di autenticazione è memorizzata nella cache dei servizi, non vi è persistenza. Se un servizio viene riavviato, inizia con una cache pulita. Per impostazione predefinita, la durata della cache è di 1 ora. Nel payload di autenticazione personalizzata, può essere adattato specificando un’altra durata di conservazione.
+>
 
 Di seguito è riportato un esempio per il tipo di autenticazione dell’intestazione:
 
