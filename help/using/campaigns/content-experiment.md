@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 11%
+source-wordcount: '838'
+ht-degree: 8%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Esperimento sui contenuti"
->abstract="Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna al fine di definire più trattamenti di consegna e determinare la combinazione migliore per il pubblico."
+>abstract="Puoi scegliere di variare il contenuto del messaggio, l’oggetto o il mittente per definire più trattamenti e determinare la combinazione migliore per il pubblico."
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento. Assicurati di impostare il set di dati per determinate metriche prima di utilizzarlo."
 
-1. Quando la consegna è stata personalizzata, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
+1. Quando il messaggio è personalizzato, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
 
    ![](assets/content_experiment_3.png)
 
 1. Seleziona la **[!UICONTROL Metrica di successo]** desideri impostare per l’esperimento.
 
-   Per il nostro esperimento, selezioniamo **[!UICONTROL E-mail aperta]** per verificare se i destinatari apriranno le e-mail se il codice promozionale è nella riga dell’oggetto.
+   Per questo esempio, seleziona **[!UICONTROL E-mail aperta]** per verificare se i profili aprono le e-mail se il codice promozionale è nella riga dell’oggetto.
 
    ![](assets/content_experiment_11.png)
 
