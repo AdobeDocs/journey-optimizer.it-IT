@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 8%
+source-wordcount: '1137'
+ht-degree: 6%
 
 ---
 
@@ -35,9 +35,9 @@ Normative come l&#39;HIPAA richiedono che [!DNL Journey Optimizer] deve fornire 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definire un indirizzo e-mail Ccn"
->abstract="Per conservare una copia delle e-mail inviate, puoi includere nell’invio un indirizzo e-mail in Ccn. Immetti l’indirizzo e-mail desiderato in modo che ogni e-mail venga inviata anche in copia per conoscenza nascosta a questo indirizzo Ccn. Il dominio dell’indirizzo Ccn non deve essere lo stesso di un sottodominio delegato ad Adobe. Questa funzione è facoltativa."
+>abstract="Per conservare una copia delle e-mail inviate, puoi includere nell’invio un indirizzo e-mail in Ccn. Immetti l’indirizzo e-mail desiderato in modo che ogni e-mail venga inviata anche in copia per conoscenza nascosta a questo indirizzo Ccn. Il dominio dell’indirizzo Ccn deve essere diverso da qualsiasi sottodominio delegato ad Adobe. Questa funzione è facoltativa."
 
-Puoi inviare una copia identica (o una copia per conoscenza nascosta) di un’e-mail inviata da [!DNL Journey Optimizer] in una casella in entrata Ccn. Questa funzione opzionale consente di conservare le copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. Questo sarà invisibile ai destinatari della consegna.
+Puoi inviare una copia per conoscenza nascosta (CCN) di un’e-mail inviata da [!DNL Journey Optimizer] a un indirizzo Ccn dedicato. Questa funzione opzionale consente di conservare le copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. L&#39;indirizzo Ccn non è visibile agli altri destinatari del messaggio.
 
 ### Abilita e-mail Ccn {#enable-bcc}
 
@@ -55,11 +55,11 @@ Per attivare **[!UICONTROL E-mail Ccn]** , immetti l’indirizzo e-mail desidera
 
 ![](assets/preset-bcc.png)
 
-Tutti i messaggi e-mail che utilizzano questa superficie verranno copiati in modo cieco nell&#39;indirizzo e-mail Ccn immesso. Da lì, possono essere elaborati e archiviati utilizzando un sistema esterno.
+Al termine della configurazione, tutti i messaggi e-mail basati su questa superficie vengono copiati in modo cieco nell&#39;indirizzo e-mail Ccn immesso. Da lì, i messaggi possono essere elaborati e archiviati utilizzando un sistema esterno.
 
 >[!CAUTION]
 >
->L’utilizzo della funzione Ccn verrà conteggiato rispetto al numero di messaggi per i quali disponi della licenza. Pertanto, abilitarla solo nelle superfici utilizzate per le comunicazioni critiche che si desidera archiviare. Verifica la disponibilità di volumi con licenza nel contratto.
+>L’utilizzo della funzione Ccn viene conteggiato rispetto al numero di messaggi per i quali disponi della licenza. Pertanto, abilitarla solo nelle superfici utilizzate per le comunicazioni critiche che si desidera archiviare. Verifica la disponibilità di volumi con licenza nel contratto.
 
 L’impostazione dell’indirizzo e-mail Ccn viene immediatamente salvata ed elaborata a livello di superficie. Quando si crea un nuovo messaggio utilizzando questa superficie, l&#39;indirizzo e-mail Ccn viene visualizzato automaticamente.
 
