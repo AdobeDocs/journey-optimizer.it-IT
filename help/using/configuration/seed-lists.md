@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '912'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,14 @@ Gli indirizzi di seed non sono profili reali né profili di test in quanto non i
 
 Per accedere agli elenchi di seed già creati, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, e seleziona **[!UICONTROL Elenco seed]**.
 
+<!--
 >[!CAUTION]
 >
->Le autorizzazioni per visualizzare, esportare e gestire gli elenchi di seed sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>Per poter visualizzare, modificare e gestire gli elenchi di seed, è necessario disporre del **[!UICONTROL Gestisci elenco seed]** autorizzazione.
 
 ![](assets/seed-list-access.png)
 
