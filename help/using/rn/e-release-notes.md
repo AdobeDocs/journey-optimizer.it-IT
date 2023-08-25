@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 40%
+ht-degree: 76%
 
 ---
 
@@ -35,7 +35,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi inviare messaggi in-app personalizzati agli utenti della tua app in un percorso. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza semplice.</p>
+<p>Ora puoi inviare messaggi in-app personalizzati agli utenti dell’app all’interno di un percorso. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza semplice.</p>
 <img src="assets/in_app_journey_1.png"/>
 <p>Per ulteriori informazioni, consulta la <a href="../in-app/get-started-in-app.md">documentazione dettagliata</a>.</p>
 </tr>
@@ -46,13 +46,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Convalidare le e-mail con elenchi di seed</strong><br/></th>
+<th><strong>Convalidare le e-mail con elenchi seed</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e gestire gli elenchi di seed in Journey Optimizer. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
+<p>Ora in Journey Optimizer puoi creare e gestire gli elenchi seed. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -91,11 +91,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale e-mail**
 
-Una nuova opzione è disponibile nelle impostazioni della superficie e-mail per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nei tipi di pubblico dei messaggi transazionali. Anche se hanno contrassegnato i messaggi di marketing come spam, questi profili possono quindi ricevere messaggi transazionali, come reimpostazione della password o istruzioni dell’account. Questa opzione è disabilitata per impostazione predefinita.
+Nelle impostazioni della superficie e-mail è disponibile una nuova opzione per includere gli indirizzi e-mail soppressi a causa di una segnalazione di spam nei tipi di pubblico dei messaggi transazionali. Anche se hanno contrassegnato i messaggi di marketing come spam, questi profili possono comunque ricevere messaggi transazionali, come la reimpostazione della password o le istruzioni dell’account. Questa opzione è disabilitata per impostazione predefinita.
 
 **Percorsi**
 
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile come versione beta privata.
+* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile solo come versione beta privata.
 <!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
 * When duplicating a journey, you can now define the name of the journey copy.-->
 
