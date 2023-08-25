@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 77%
+source-wordcount: '206'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 I messaggi in-app sono notifiche che possono essere inviate agli utenti all’interno dell’app per indirizzarli a specifici punti di interesse. Queste notifiche possono essere utilizzate per scopi diversi, ad esempio per promuovere nuove funzioni, presentare offerte speciali o facilitare l’onboarding degli utenti. Sfruttando i messaggi in-app, puoi interagire efficacemente con il pubblico e indirizzarlo verso aspetti importanti della tua applicazione.
 
-Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui il layout e la visualizzazione dei messaggi, il testo e le opzioni dei pulsanti di scelta. Puoi aggiungere messaggi in-app [in una campagna](create-in-app.md) e [in un percorso](create-in-app-journey.md).
+Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni relative all’esperienza, tra cui il layout e la visualizzazione dei messaggi, il testo e le opzioni dei pulsanti di scelta.
 
 >[!AVAILABILITY]
 >
@@ -40,7 +40,7 @@ Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Sc
 <a href="create-in-app.md">
 <img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>Creare un messaggio in-app in una campagna</strong>
+<div><a href="create-in-app.md"><strong>Creare un messaggio in-app</strong>
 </div>
 <p>
 </td>
