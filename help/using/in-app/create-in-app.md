@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1134'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,8 @@ Puoi aggiungere un messaggio in-app in una campagna o in un percorso. Segui i pa
 >[!BEGINTABS]
 
 >[!TAB Aggiungere un messaggio in-app a un percorso]
+
+Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazioni:
 
 1. Apri il percorso, quindi trascina e rilascia una **[!UICONTROL In-app]** attività da **[!UICONTROL Azioni]** nella palette.
 
