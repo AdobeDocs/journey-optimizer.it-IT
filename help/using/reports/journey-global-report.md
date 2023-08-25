@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '2057'
-ht-degree: 20%
+source-wordcount: '2258'
+ht-degree: 18%
 
 ---
 
@@ -34,6 +34,7 @@ Il percorso **[!UICONTROL Rapporto globale]** La pagina verrà visualizzata con 
 * [E-mail](#email-global)
 * [Push](#push-global)
 * [SMS](#sms-global)
+* [In-app](#in-app-global)
 
 Il percorso **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori del percorso. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](global-report.md#modify-dashboard).
 
@@ -287,4 +288,33 @@ Il **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali 
 
 Il **[!UICONTROL SMS - Clic per collegamenti]** e **[!UICONTROL SMS - Statistiche di tracciamento]** i widget descrivono le informazioni principali relative al coinvolgimento dei visitatori con gli URL.
 
++++
+
+## Scheda In-app {#in-app-global}
+
+Dal tuo Percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative alle consegne in-app inviate nei tuoi percorsi.
+
+![](assets/in-app-journey-report.png)
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto in-app.
+
+Il **[!UICONTROL Prestazioni in-app]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app, ad esempio:
+
+* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stato visualizzato il messaggio in-app.
+
+* **[!UICONTROL Impression]**: numero totale di messaggi in-app visualizzati a tutti gli utenti.
+
+  >[!NOTE]
+  >
+  >Per garantire il conteggio di un’impression, l’utente deve soddisfare due criteri:
+  >* Qualifica nell’esperienza in-app, ottenuta raggiungendo l’attività in-app specifica nel proprio percorso.
+  >* Soddisfa le condizioni specificate nelle regole di attivazione.
+  > 
+  >A causa del secondo criterio, potrebbero esserci variazioni notevoli tra il numero di profili target e il conteggio di impression univoche.
+
+* **[!UICONTROL Tasso di interazione]**: percentuale di accordi con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
+
+Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression e delle interazioni in-app per il periodo in questione.
+
+Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo in cui gli utenti interagivano con il messaggio in-app tracciando i clic, le eliminazioni o le interazioni.
 +++

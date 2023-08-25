@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2472'
 ht-degree: 19%
 
 ---
@@ -219,17 +219,11 @@ Il **[!UICONTROL Prestazioni in-app]** I KPI descrivono le informazioni principa
 
 * **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
 
-* **[!UICONTROL Percentuale di clic]**: percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.
+* **[!UICONTROL Tasso di interazioni]**: percentuale di accordi con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
 
-* **[!UICONTROL Percentuale ignorati]**: percentuale di messaggi in-app ignorati dai destinatari.
+Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression e delle interazioni in-app per il periodo in questione.
 
-Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression in-app per il periodo in questione.
-
-Il **[!UICONTROL Clic per pulsante]** il grafico e la tabella contengono i dati disponibili per il comportamento dei destinatari per pulsante:
-
-* **[!UICONTROL Clic]**: numero totale di destinatari che hanno interagito con i pulsanti inclusi nel messaggio in-app.
-
-* **[!UICONTROL Percentuale di clic]**: percentuale di utenti che hanno interagito con i pulsanti inclusi nel messaggio in-app rispetto agli utenti che hanno visualizzato il messaggio.
+Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo in cui gli utenti interagivano con il messaggio in-app tracciando i clic, le eliminazioni o le interazioni.
 +++
 
 ## Scheda Notifica push {#push-global}
@@ -354,11 +348,11 @@ Il **[!UICONTROL Prestazioni web]** I KPI descrivono le informazioni principali 
 
 * **[!UICONTROL Impression]**: numero totale di esperienze web consegnate a tutti gli utenti.
 
-* **[!UICONTROL Percentuale di clic]**: percentuale di visitatori che ha interagito con i vari elementi delle pagine web.
+* **[!UICONTROL Tasso di interazione]**: percentuale di accordi con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
 
-Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle esperienze web (impression, impression univoche e clic) per il periodo in questione.
+Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle tue esperienze web (impression, impressioni e interazioni uniche) per il periodo in questione.
 
-Il **[!UICONTROL Clic per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
+Il **[!UICONTROL Interazioni per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
 +++
 
 ## Scheda Direct mailing {#direct-mail-global}
