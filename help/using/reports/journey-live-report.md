@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 12%
+source-wordcount: '1344'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,7 @@ Il percorso **[!UICONTROL Rapporto live]** La pagina verrà visualizzata con le 
 * [E-mail](#email-live)
 * [Push](#push-live)
 * [SMS](#sms-live)
+* [In-app](#in-app-live)
 
 Il percorso **[!UICONTROL Rapporto live]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori del percorso. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](live-report.md#modify-dashboard).
 
@@ -185,4 +186,30 @@ Il **[!UICONTROL Riepilogo SMS]** il grafico descrive il successo della consegna
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
 Il **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
++++
+
+## Scheda In-app {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto in-app.
+
+Il **[!UICONTROL Prestazioni in-app]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app, ad esempio:
+
+* **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
+
+  >[!NOTE]
+  >
+  >Per garantire il conteggio di un’impression, l’utente deve soddisfare due criteri:
+  >* Qualifica nell’esperienza in-app, ottenuta raggiungendo l’attività in-app specifica nel proprio percorso.
+  >* Soddisfa le condizioni specificate nelle regole di attivazione.
+  > 
+  >A causa del secondo criterio, potrebbero esserci variazioni notevoli tra il numero di profili target e il conteggio di impression univoche.
+
+* **[!UICONTROL Interazioni]**: numero totale di engagement con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
+
+Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression e delle interazioni in-app per il periodo in questione.
+
+Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo in cui gli utenti interagivano con il messaggio in-app tracciando i clic, le eliminazioni o le interazioni.
+
 +++
