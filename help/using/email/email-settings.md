@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1967'
 ht-degree: 8%
 
 ---
@@ -187,7 +187,10 @@ Se ricevi un errore durante l’invio della superficie e-mail, significa che il 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Aggiungere un elenco di seed"
->abstract="Seleziona l’elenco di seed desiderato per includere automaticamente indirizzi di seed e-mail specifici nelle consegne. Questi indirizzi verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta della consegna a scopo di garanzia."
+>abstract="Seleziona l’elenco di seed desiderato per aggiungere automaticamente indirizzi interni specifici ai tipi di pubblico. Questi indirizzi seed verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio a scopo di garanzia."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Cosa sono gli elenchi di seed?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Creare elenchi di seed"
+
 
 Un elenco seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi e-mail seed specifici nelle consegne. [Ulteriori informazioni](../configuration/seed-lists.md)
 

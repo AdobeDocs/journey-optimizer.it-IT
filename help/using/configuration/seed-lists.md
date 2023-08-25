@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 3%
+source-wordcount: '919'
+ht-degree: 2%
 
 ---
 
@@ -71,14 +71,14 @@ Utilizza il **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Definire l’elenco di seed"
->abstract="Inserisci i dettagli dell’elenco dei seed per includere automaticamente indirizzi di seed specifici nelle consegne. Questi indirizzi verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta della consegna a scopo di garanzia."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Cosa sono gli elenchi di seed"
+>title="Definire un elenco di seed"
+>abstract="Utilizza un elenco di seed per aggiungere automaticamente indirizzi interni specifici al pubblico di consegna a scopo di garanzia. Gli elenchi di seed consentono di monitorare le copie dei messaggi inviate, per verificare che tutti gli elementi di visualizzazione siano corretti e per proteggere la mailing list. Attualmente questa funzione si applica solo al canale e-mail."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Cosa sono gli elenchi di seed?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Specificare gli indirizzi di seed da utilizzare"
->abstract="Aggiungi gli indirizzi di seed che verranno inclusi automaticamente nelle consegne. Puoi importare un file CSV o immettere manualmente gli indirizzi e-mail."
+>title="Compila l’elenco seed"
+>abstract="Seleziona gli indirizzi che verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio. Puoi importare un file CSV o immettere manualmente gli indirizzi e-mail."
 
 Per creare un elenco di seed, attieniti alla procedura seguente.
 
