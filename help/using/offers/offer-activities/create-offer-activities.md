@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 2%
@@ -146,7 +146,7 @@ Ad esempio, sono disponibili due raccolte, una nel criterio di valutazione A e u
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Se le due raccolte sono **valutato contemporaneamente** Poiché esistono due offerte ammissibili in base al criterio di valutazione A e tre offerte ammissibili in base al criterio di valutazione B, le cinque offerte saranno tutte raggruppate in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
+* Se le due raccolte sono **valutato contemporaneamente** Poiché esistono due offerte ammissibili del criterio di valutazione A e tre offerte ammissibili del criterio di valutazione B, le cinque offerte saranno tutte classificate insieme in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
 
   ![](../assets/activity_same-rank-collections.png)
 
