@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
-source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
+source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '947'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ Elenchi seed in [!DNL Journey Optimizer] consente di includere automaticamente i
 >[!CAUTION]
 >
 >Attualmente questa funzione si applica solo al canale e-mail.
+>
+>Varianti non supportate. Come ogni profilo del pubblico target, gli indirizzi seed ricevono una singola copia del messaggio e non tutte le varianti (come i diversi trattamenti di una [esperimento sui contenuti](../campaigns/get-started-experiment.md)).
 
 Gli indirizzi di seed vengono utilizzati per eseguire il targeting di destinatari che non corrispondono ai criteri di target definiti. In questo modo, i destinatari che non rientrano nell’ambito di consegna possono ricevere la consegna, come farebbe qualsiasi altro destinatario.
 
