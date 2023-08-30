@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
+source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 31%
+source-wordcount: '444'
+ht-degree: 27%
 
 ---
 
@@ -26,7 +26,7 @@ In conformità agli standard e alle normative del settore, tutti i messaggi SMS 
 
 ## Parole chiave in entrata native{#sms-native-keywords}
 
-Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi a pagamento e con codice lungo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Solo Sinch supporta le parole chiave native se utilizzato con Journey Optimizer.
+Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi a pagamento e con codice lungo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Solo Sinch e Infobip supportano le parole chiave native se utilizzate con Journey Optimizer.
 
 Queste parole chiave in genere attivano una risposta standard automatica dal provider di terze parti. Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
 
@@ -46,7 +46,7 @@ Tuttavia, Journey Optimizer supporta le rinunce globali basate su parole chiave 
 
 ## ID mittente alfanumerico {#alphanumeric}
 
-Gli ID mittente alfanumerico sono solo per la messaggistica unidirezionale e non sono in grado di ricevere messaggi in entrata. Di conseguenza, le parole chiave SMS STOP, START e HELP di Adobe Journey Optimizer non sono applicabili agli ID mittente alfanumerico. È necessario fornire altre istruzioni, come scrivere al team di supporto, chiamare una linea telefonica di supporto o inviare un messaggio con un altro numero di telefono o codice per consentire agli utenti di rinunciare ai messaggi inviati tramite l’ID mittente alfanumerico.
+Gli ID mittente alfanumerico sono solo per la messaggistica unidirezionale e non sono in grado di ricevere messaggi in entrata. Di conseguenza, le parole chiave SMS STOP, START e HELP di Adobe Journey Optimizer non sono applicabili agli ID mittente alfa. È necessario fornire altre istruzioni, come scrivere al team di supporto, chiamare una linea telefonica di supporto o inviare un messaggio con un altro numero di telefono o codice per consentire agli utenti di rinunciare ai messaggi inviati tramite l’ID mittente alfanumerico.
 
 ## Video {#video-sms}
 
