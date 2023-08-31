@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
+source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -37,8 +37,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi inviare messaggi in-app personalizzati agli utenti della tua app in un percorso. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza semplice.</p>
-<img src="assets/do-not-localize/in-app-GA.gif"/>
+<p>Ora puoi inviare messaggi in-app personalizzati agli utenti dell’app all’interno di un percorso. Utilizza Journey Optimizer per progettare notifiche e personalizzare il layout, la visualizzazione, il testo e i pulsanti del messaggio per creare un’esperienza semplice.</p>
+<img src="assets/do-not-localize/in-app-jo.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../in-app/create-in-app.md">documentazione dettagliata</a>.</p>
 </tr>
 </tbody>
@@ -48,13 +48,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Convalidare le e-mail con elenchi di seed</strong><br/></th>
+<th><strong>Convalidare le e-mail con elenchi seed</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare e gestire gli elenchi di seed in Journey Optimizer. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
+<p>Ora in Journey Optimizer puoi creare e gestire gli elenchi seed. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/seed-lists.md">documentazione dettagliata</a>.</p>
 </td>
@@ -98,7 +98,7 @@ A new option is available in the email surface settings to include email address
 
 **Percorsi**
 
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile come versione beta privata. [Ulteriori informazioni](../action/action-response.md).
+* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile solo come versione beta privata. [Ulteriori informazioni](../action/action-response.md).
 * È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata. [Ulteriori informazioni](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
@@ -711,7 +711,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Percorsi**
 
-* Il campo **Periodo di attesa per il rientro** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. [Ulteriori informazioni](../building-journeys/journey-gs.md#entrance)
+* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. [Ulteriori informazioni](../building-journeys/journey-gs.md#entrance)
 
 * Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Per i percorsi **Leggi pubblico**, ora puoi aggiungere una data di fine. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. [Ulteriori informazioni](../building-journeys/journey-gs.md#dates)
 
