@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se sei cliente solo del servizio Profilo cliente in tempo reale e non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=it){target="_blank"}.
+Questa documentazione fornisce informazioni dettagliate su come lavorare con la composizione del pubblico in Adobe Journey Optimizer. Se sei cliente solo con Profilo cliente in tempo reale e non utilizzi Adobe Journey Optimizer, [fai clic qui](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=it){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ La composizione dei tipi di pubblico è accessibile dal menu **[!UICONTROL Tipi 
 
 ![](assets/audiences-browse.png)
 
-* Il **[!UICONTROL Panoramica]** fornisce una dashboard dedicata con le metriche chiave relative ai dati sul pubblico della tua organizzazione. Per ulteriori informazioni, consulta la [Guida alle dashboard di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=it).
+* La scheda **[!UICONTROL Panoramica]** fornisce una dashboard dedicata con una metrica chiave relativa ai dati di pubblico dell’organizzazione. Per ulteriori informazioni, consulta la [Guida alle dashboard di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html?lang=it).
 
 * La scheda **[!UICONTROL Sfoglia]** elenca tutti i tipi di pubblico esistenti memorizzati in Adobe Experience Platform.
 
