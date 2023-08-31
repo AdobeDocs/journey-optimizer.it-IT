@@ -5,9 +5,9 @@ title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3279'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Agosto 2023 {#august-2023}
 
-* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di agosto 2023 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
-* La nota su **gestione cache di autenticazione** nel percorso è stato aggiornato per specificare che il token non è condiviso tra percorsi diversi. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode)
-* La pagina sul percorso **gestione delle voci** è stato aggiornato per chiarire il comportamento. [Ulteriori informazioni](../building-journeys/entry-management.md)
-* Offer decisioning **esportare i set di dati** sono ora attivate per impostazione predefinita. La nota sul comportamento precedente è stata rimossa.  [Ulteriori informazioni](../offers/export-catalog/get-started-export.md)
-* Varie **metriche del rapporto della campagna** sono stati rinominati, sia nei rapporti Live che Global. [Ulteriori informazioni](../reports/campaign-global-report.md)
+* Tutte le nuove funzioni e i miglioramenti apportati nella versione di agosto 2023 di [!DNL Journey Optimizer] sono elencati in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* La nota sulla **gestione della cache di autenticazione** nel percorso è stata aggiornata per specificare che il token non è condiviso tra percorsi diversi. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode)
+* La pagina sulla **gestione degli ingressi** del percorso è stata aggiornata al fine di definire il comportamento. [Ulteriori informazioni](../building-journeys/entry-management.md)
+* I **set di dati di esportazione** di offer decisioning sono ora attivati per impostazione predefinita. La nota relativa al comportamento precedente è stata rimossa.  [Ulteriori informazioni](../offers/export-catalog/get-started-export.md)
+* Sono state rinominate varie **metriche di rapporto della campagna**, sia nei rapporti live che in quelli globali. [Ulteriori informazioni](../reports/campaign-global-report.md)
 * È stata aggiunta una nuova sezione sui prerequisiti dei contenuti dell’esperimento per il canale web. [Ulteriori informazioni](../web/web-prerequisites.md#experiment-prerequisites)
 * È stata aggiunta un’avvertenza sulla pagina **Utilizzare i modelli di contenuto** per indicare che attualmente il tracciamento non è supportato durante il test dei modelli di contenuto e-mail. Per testare il tracciamento, è necessario utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../email/content-templates.md#test-template)
 * Sono state aggiunte diverse avvertenze nella sezione **Creare e pubblicare pagine di destinazione** per specificare che non è possibile accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito durante la creazione della pagina, anche se pubblicato. È invece possibile testarla utilizzando la funzione di anteprima. [Ulteriori informazioni](../landing-pages/create-lp.md)
-* È stata aggiunta una nuova sezione su come **gestire il consenso** per il canale direct mailing. [Ulteriori informazioni](../direct-mail/test-send-direct-mail.md)
+* È stata aggiunta una nuova sezione su come **gestire il consenso** per il canale direct mail. [Ulteriori informazioni](../direct-mail/test-send-direct-mail.md)
 
 
 ## Luglio 2023 {#july-2023}
