@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 4%
+source-wordcount: '1940'
+ht-degree: 12%
 
 ---
 
@@ -38,25 +38,73 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
 1. Ora puoi iniziare a progettare il contenuto con **[!UICONTROL Modifica contenuto]** pulsante. [Ulteriori informazioni](design-in-app.md)
 
-1. Clic **[!UICONTROL Modifica trigger]** per configurare il trigger.
+1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
 
    ![](assets/in_app_journey_4.png)
 
-1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
+   1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
-   * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
-   * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
-   * **[!UICONTROL Mostra fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
+      +++Consulta Triggers disponibili.
 
-1. Dalla sezione **[!UICONTROL Attivatore app mobile]** , scegli gli eventi e i criteri che attiveranno il messaggio:
+      | Pacchetto | Attivatore | Definizione |
+      |---|---|---|
+      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall’estensione AEP Edge. |
+      | Tracciamento di base | Azione di tracciamento | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) viene chiamato. |
+      | Tracciamento di base | Tracciare lo stato | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) viene chiamato. |
+      | Tracciamento di base | Raccogli PII | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) viene chiamato. |
+      | Ciclo di vita dell&#39;applicazione | Avvio applicazione | Attivazione a ogni esecuzione, comprese quelle a seguito di arresti anomali e installazioni. Questa metrica viene attivata anche in seguito alla ripresa dal background oltre il tempo di timeout della sessione del ciclo di vita. |
+      | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
+      | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
+      | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
+      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento è inviato all&#39;avvio dell&#39;applicazione in seguito a un arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
+      | Places | Inserisci POI | Attivato dall’SDK Places quando il cliente accede al punto di interesse (POI) configurato. |
+      | Places | Esci da POI | Attivato dall’SDK Places quando il cliente esce dal punto di interesse (POI) configurato. |
 
-   1. Dall’elenco a discesa a sinistra, seleziona l’evento necessario per attivare il messaggio.
-   1. Dall’elenco a discesa a destra, seleziona la convalida necessaria per l’evento selezionato.
-   1. Fai clic su **[!UICONTROL Aggiungi]** se desideri che il trigger consideri più eventi o criteri. Quindi, ripeti i passaggi precedenti.
-   1. Seleziona la modalità di collegamento degli eventi, ad esempio scegli **[!UICONTROL E]** se vuoi **entrambi** i trigger devono essere true per consentire la visualizzazione di un messaggio o la scelta **[!UICONTROL Oppure]** se desideri che venga visualizzato il messaggio se **o** dei trigger sono true.
-   1. Clic **[!UICONTROL Salva]** quando i trigger sono stati configurati.
++++
 
-   ![](assets/in_app_journey_3.png)
+   1. Clic **[!UICONTROL Aggiungi condizione]** se desideri che il trigger consideri più eventi o criteri.
+
+   1. Scegli la **[!UICONTROL Oppure]** condizione per aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Scegli la **[!UICONTROL E]** condizione se si desidera aggiungere **[!UICONTROL Caratteristiche]** e perfeziona meglio la regola.
+
+      +++Vedi Caratteristiche disponibili.
+
+      | Pacchetto | Caratteristiche  | Definizione |
+      |---|---|---|
+      | Informazioni dispositivo | Nome gestore | Attivazione quando viene soddisfatto uno dei nomi dei gestori dell&#39;elenco. |
+      | Informazioni dispositivo | Nome dispositivo | Attivazione quando viene raggiunto uno dei nomi di dispositivo. |
+      | Informazioni dispositivo | Lingua | Attivazione quando viene soddisfatta una delle lingue dell’elenco. |
+      | Informazioni dispositivo | Versione sistema operativo | Attivazione quando viene soddisfatta una delle versioni del sistema operativo specificate. |
+      | Informazioni dispositivo | Versione precedente del sistema operativo | Attivazione quando viene soddisfatta una delle versioni del sistema operativo precedente specificate. |
+      | Informazioni dispositivo | Modalità di esecuzione | Attivazione se la modalità di esecuzione è un&#39;applicazione o un&#39;estensione. |
+      | Ciclo di vita dell&#39;applicazione | ID app | Attivazione quando viene soddisfatto l&#39;ID app specificato. |
+      | Ciclo di vita dell&#39;applicazione | Giorno della settimana | Attivazione quando viene raggiunto il giorno della settimana specificato. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dal primo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dal primo utilizzo. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
+      | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
+      | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
+      | Ciclo di vita dell&#39;applicazione | Avvii | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
+      | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
+      | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
+      | Places | Ultimo punto di interesse chiuso | Attivato dall’SDK di Places a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
+   1. Clic **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
+
+      ![](assets/in_app_journey_3.png)
+
+   1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
+
+      * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
+      * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
+      * **[!UICONTROL Mostra fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
@@ -93,6 +141,24 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
+
+      +++Consulta Triggers disponibili.
+
+      | Pacchetto | Attivatore | Definizione |
+      |---|---|---|
+      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall’estensione AEP Edge. |
+      | Tracciamento di base | Azione di tracciamento | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) viene chiamato. |
+      | Tracciamento di base | Tracciare lo stato | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) viene chiamato. |
+      | Tracciamento di base | Raccogli PII | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) viene chiamato. |
+      | Ciclo di vita dell&#39;applicazione | Avvio applicazione | Attivazione a ogni esecuzione, comprese quelle a seguito di arresti anomali e installazioni. Questa metrica viene attivata anche in seguito alla ripresa dal background oltre il tempo di timeout della sessione del ciclo di vita. |
+      | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
+      | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
+      | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
+      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento è inviato all&#39;avvio dell&#39;applicazione in seguito a un arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
+      | Places | Inserisci POI | Attivato dall’SDK Places quando il cliente accede al punto di interesse (POI) configurato. |
+      | Places | Esci da POI | Attivato dall’SDK Places quando il cliente esce dal punto di interesse (POI) configurato. |
+
++++
 
    1. Clic **[!UICONTROL Aggiungi condizione]** se desideri che il trigger consideri più eventi o criteri.
 
@@ -153,14 +219,27 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
 * Il video seguente mostra come creare, configurare e pubblicare messaggi in-app nelle campagne.
 
+  +++Guarda il video
+
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
++++
 
 * Il video seguente mostra come configurare e analizzare gli esperimenti di contenuto per testare i messaggi in-app A/B.
 
+  +++Guarda il video
+
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
 
++++
 
+* Il video seguente mostra come creare un messaggio in-app in un percorso e come testare e pubblicare il percorso.
+
+  +++Guarda il video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077)
+
++++
 
 **Argomenti correlati:**
 

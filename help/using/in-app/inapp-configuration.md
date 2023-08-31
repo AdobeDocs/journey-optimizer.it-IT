@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,10 @@ Prima di inviare messaggi in-app, devi configurare il canale in-app in [!DNL Ado
    >Il set di dati viene utilizzato in sola lettura da [!DNL Journey Optimizer] e non influisce sulla raccolta o l’acquisizione dei dati.
 
 1. Quindi, accedi a **[!UICONTROL Superfici app]** e fai clic su **[!UICONTROL Crea superficie app]**.
+
+   >[!NOTE]
+   >
+   > Hai bisogno di **Gestire la configurazione dell’app** autorizzazione ad avere accesso al **[!UICONTROL Superfici app]** menu. Per ulteriori informazioni, consulta [questo video](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ Il canale in-app è ora configurato. Puoi iniziare a inviare messaggi in-app agl
 
 * Il video seguente mostra come assegnare il **Gestire la configurazione dell’app** autorizzazione per accedere al menu Superfici app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++Guarda il video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
