@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -250,8 +250,8 @@ ht-degree: 98%
 + Gestione dei contenuti {#content-management}
    + [Utilizzare Assets Essentials](using/content-management/assets-essentials.md)
    + [Utilizzare Adobe Stock](using/content-management/stock.md)
-   + Utilizzare l’assistente contenuti{#content-assistant}
-      + [Introduzione all’assistente contenuti](using/content-management/gs-generative.md)
+   + Utilizzare l’Assistente contenuti{#content-assistant}
+      + [Introduzione all’Assistente contenuti](using/content-management/gs-generative.md)
       + [Generazione titolo](using/content-management/generative-title.md)
       + [Generazione di immagini](using/content-management/generative-image.md)
 + Personalizzazione e contenuti dinamici {#personalized-dynamic-content}
@@ -447,7 +447,7 @@ ht-degree: 98%
       + [Elenco di soppressione](using/configuration/manage-suppression-list.md)
       + [Nuovi tentativi](using/configuration/retries.md)
       + [Elenco Consentiti](using/configuration/allow-list.md)
-   + [Usa elenchi seed](using/configuration/seed-lists.md)
+   + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
