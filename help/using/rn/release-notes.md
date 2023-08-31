@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora in Journey Optimizer puoi creare e gestire gli elenchi seed. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
+<p>Ora in Journey Optimizer puoi creare e gestire gli elenchi seed. Un elenco seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili di destinazione al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/seed-lists.md">documentazione dettagliata</a>.</p>
 </td>
@@ -105,8 +105,8 @@ A new option is available in the email surface settings to include email address
 
 **Direct mail**
 
-* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento dei file. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* La e commerciale è ora disponibile come campo separatore di colonna nelle impostazioni della superficie della direct mailing. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento file. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* La E commerciale è ora disponibile come campo separatore di colonna nelle impostazioni di superficie di direct mail. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 

@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
 workflow-type: tm+mt
 source-wordcount: '1296'
-ht-degree: 86%
+ht-degree: 99%
 
 ---
 
@@ -108,16 +108,16 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ### Limitazioni delle attività in-app {#in-app-activity-limitations}
 
-* Questa funzione non è attualmente disponibile per i clienti del settore sanitario.
+* Questa funzione non è attualmente disponibile per la clientela del settore dell’assistenza sanitaria.
 
 * La personalizzazione può contenere solo attributi di profilo.
 
 * La visualizzazione in-app è legata alla durata del percorso, il che significa che quando il percorso termina per un profilo, tutti i messaggi in-app all’interno di quel percorso cesseranno di essere visualizzati per quel profilo.  Di conseguenza, non è possibile interrompere un messaggio in-app direttamente da un’attività del percorso. Al contrario, per impedire la visualizzazione dei messaggi in-app nel profilo, devi terminare l’intero percorso.
 
-* In modalità di test, la visualizzazione in-app dipende dalla durata del percorso. Per evitare che il percorso termini troppo presto durante il test, regolare il **[!UICONTROL Tempo di attesa]** valore per il **[!UICONTROL Wait]** attività.
+* In modalità di test, la visualizzazione in-app dipende dalla durata del percorso. Per evitare che il percorso termini anticipatamente durante il test, regola il valore **[!UICONTROL Tempo di attesa]** per le attività di **[!UICONTROL Attesa]**.
 
-* **[!UICONTROL Reazione]** Le attività non possono essere utilizzate per reagire a un clic o a un’apertura in-app.
+* Le attività di **[!UICONTROL Reazione]** non possono essere utilizzate per reagire a un’apertura in-app o a un clic.
 
-* Un ritardo di attivazione può verificarsi tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a visualizzare tale messaggio in-app.
+* È possibile che si verifichi un ritardo di attivazione tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a visualizzare tale messaggio in-app.
 
-* La dimensione del contenuto del messaggio in-app è limitata a 2 Mb. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
+* La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
