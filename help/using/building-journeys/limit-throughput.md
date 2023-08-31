@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Per ulteriori informazioni su come eseguire l’integrazione con i sistemi ester
 
 ## Implementazione
 
-Per **percorsi attivati dal pubblico**, puoi definire il tasso di limitazione dell’attività Read Audience che influirà sulla velocità effettiva del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md)
+Per **percorsi attivati dal pubblico**, puoi definire la velocità di lettura dell’attività Read Audience che influirà sulla velocità effettiva del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >

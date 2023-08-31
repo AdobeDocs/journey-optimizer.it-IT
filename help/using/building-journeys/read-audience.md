@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '1383'
 ht-degree: 12%
@@ -23,9 +23,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
->abstract="L’attività Leggi pubblico consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico di Adobe Experience Platform entrino in un percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare."
+>abstract="L’attività Leggi pubblico consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico di Adobe Experience Platform entrino in un percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare."
 
-Utilizza il **Read Audience** attività per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’entrata in un percorso può essere eseguita una volta o su base regolare.
+Utilizza il **Read Audience** attività per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
 Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot; creato in [Creare tipi di pubblico](../audience/about-audiences.md) caso d’uso. Con l’attività Read Audience, puoi fare in modo che tutti gli individui appartenenti a questo pubblico entrino in un percorso e li facciano confluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
 
@@ -67,13 +67,13 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
    >
    >Le persone appartenenti a un pubblico che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non possono entrare nel percorso. È possibile selezionare solo uno spazio dei nomi delle identità basato su persone. Se hai definito uno spazio dei nomi per una tabella di ricerca (ad esempio: Spazio dei nomi ProductID per una ricerca di prodotto), questo non sarà disponibile nella **Namespace** elenco a discesa.
 
-1. Imposta il **[!UICONTROL Tasso di limitazione]**. Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questo [pagina](../configuration/throttling.md).
+1. Imposta il **[!UICONTROL Percentuale di lettura]**. Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questo [pagina](../configuration/throttling.md).
 
    Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 profili al secondo. Puoi modificare questo valore da 500 a 20.000 profili al secondo.
 
    >[!NOTE]
    >
-   >Il tasso di limitazione complessivo per sandbox è impostato su 20.000 profili al secondo. Pertanto, il tasso di limitazione di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox aggiungono fino a un massimo di 20.000 profili al secondo. Non puoi modificare questo limite.
+   >La velocità di lettura complessiva per sandbox è impostata su 20.000 profili al secondo. Pertanto, la velocità di lettura di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox non supera i 20.000 profili al secondo. Non puoi modificare questo limite.
 
 1. Il **[!UICONTROL Read Audience]** attività ti consente di specificare l’ora in cui il pubblico entrerà nel percorso. A questo scopo, fai clic su **[!UICONTROL Modifica pianificazione percorso]** per accedere alle proprietà del percorso, quindi configura il **[!UICONTROL Tipo di modulo di pianificazione]** campo.
 
