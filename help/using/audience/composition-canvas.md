@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1493'
 ht-degree: 30%
 
 ---
@@ -224,10 +224,10 @@ Sono disponibili due tipi di operazioni di suddivisione:
 
   ![](assets/audiences-split.png)
 
-  Per configurare un’attività di suddivisione basata su attributi:
+  Per impostare un’attività di suddivisione basata su attributi, effettua le seguenti operazioni:
 
-   1. fai clic sul pulsante accanto al **[!UICONTROL Attributo]** per scegliere l&#39;attributo da scegliere come criterio.
-   1. Aggiungi tutti i percorsi desiderati, quindi specifica un’etichetta e il valore da utilizzare per selezionare i profili da includere nel percorso.
+   1. Fai clic sul pulsante accanto al **[!UICONTROL Attributo]** per selezionare l&#39;attributo da utilizzare come criterio di suddivisione.
+   1. Aggiungi tutti i percorsi necessari. Per ogni percorso, fornisci un’etichetta e specifica il valore da utilizzare per determinare quali profili includere in quel particolare percorso.
 
       >[!NOTE]
       >
