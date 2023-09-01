@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 31%
+source-wordcount: '1482'
+ht-degree: 30%
 
 ---
 
@@ -116,9 +116,13 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 
   Seleziona l’attributo da cercare, quindi specifica il valore da escludere. In questo esempio, escludiamo dai profili di composizione il cui indirizzo principale è in Giappone.
 
+  >[!NOTE]
+  >
+  >È possibile specificare un solo valore di esclusione.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### Arricchire {#enrich}
+### Attività Arricchisci {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ Sono disponibili due tipi di operazioni di suddivisione:
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >Il **[!UICONTROL Altri profili]** consente di creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
+  Per configurare un’attività di suddivisione basata su attributi:
+
+   1. fai clic sul pulsante accanto al **[!UICONTROL Attributo]** per scegliere l&#39;attributo da scegliere come criterio.
+   1. Aggiungi tutti i percorsi desiderati, quindi specifica un’etichetta e il valore da utilizzare per selezionare i profili da includere nel percorso.
+
+      >[!NOTE]
+      >
+      >È possibile specificare un solo valore per ciascun percorso.
+
+   1. Attiva **[!UICONTROL Altri profili]** per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
 
 ## Salvare i tipi di pubblico {#save}
 
