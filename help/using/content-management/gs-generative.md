@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione all’assistente contenuti
+title: Introduzione all’Assistente contenuti
 description: Scopri come accedere e lavorare con l’Assistente ai contenuti di Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Introduzione all’assistente contenuti {#gs-content-assistant}
+# Introduzione all’Assistente contenuti {#gs-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
-* **[Introduzione all’assistente contenuti](gs-generative.md)**
+* **[Introduzione all’Assistente contenuti](gs-generative.md)**
 * [Genera testo con l’assistente contenuto](generative-title.md)
 * [Generare immagini con l’assistente contenuto](generative-image.md)
 

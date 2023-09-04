@@ -1,5 +1,5 @@
 ---
-title: Creare un messaggio di direct mailing
+title: Creare un messaggio direct mail
 description: Scopri come creare un messaggio di direct mailing in Journey Optimizer
 feature: Overview
 topic: Content Management
@@ -10,11 +10,11 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
 source-wordcount: '560'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# Creare un messaggio di direct mailing {#create-direct}
+# Creare un messaggio direct mail {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"

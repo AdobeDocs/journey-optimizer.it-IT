@@ -8,7 +8,7 @@ hidefromtoc: true
 source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora in Journey Optimizer puoi creare e gestire gli elenchi seed. Un elenco di seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili target al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
+<p>Ora in Journey Optimizer puoi creare e gestire gli elenchi seed. Un elenco seed è costituito da indirizzi interni che possono essere aggiunti al pubblico effettivo e ricevere lo stesso messaggio dei profili di destinazione al momento dell’esecuzione della consegna. Utilizza questa funzionalità per monitorare le comunicazioni inviate e verificare che tutti i formati di visualizzazione, gli URL, le immagini e i collegamenti siano corretti.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -102,5 +102,5 @@ Nelle impostazioni della superficie e-mail è disponibile una nuova opzione per 
 
 **Direct mail**
 
-* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento dei file.
-* La e commerciale è ora disponibile come campo separatore di colonna nelle impostazioni della superficie della direct mailing.
+* È ora possibile selezionare Azure come tipo di server nella configurazione di indirizzamento file.
+* La E commerciale è ora disponibile come campo separatore di colonna nelle impostazioni di superficie di direct mail.

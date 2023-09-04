@@ -5,7 +5,7 @@ title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **Percorsi**
 
-* È stata aggiunta l’opzione **Forza il rientro in caso di ricorrenza** nei parametri ricorrenti di pianificazione Leggi pubblico. Questa opzione ti consente di far passare automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando questa opzione è disattivata, i profili devono terminare il percorso prima di poter entrare nuovamente in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* È stata aggiunta l’opzione **Forza il reingresso in caso di ricorrenza** nei parametri di pianificazione per le attività Leggi pubblico ricorrenti. Questa opzione ti consente di far passare automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Quando questa opzione è disattivata, i profili devono terminare il percorso prima di poter entrare nuovamente in un’altra occorrenza. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Amministrazione**
 
@@ -207,7 +207,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 **Percorsi**
 
 * Il **Set di dati di entità** è ora disponibile come set di dati predefinito in Adobe Journey Optimizer. Questo set di dati di ricerca include metadati per arricchire le informazioni di tracciamento e feedback sui set di dati. Questo ti aiuterà a migliorare i rapporti e le query con dati più comprensibili. [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
-* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione del pubblico) per evitare che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il rientro nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
+* È stata aggiunto un nuovo guardrail ai percorsi unitari (che iniziano con un evento o una qualificazione del pubblico) per evitare che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso nel profilo viene ora bloccato temporaneamente per 5 minuti. [Ulteriori informazioni](../start/guardrails.md#events-g)
 
 **Amministrazione**
 

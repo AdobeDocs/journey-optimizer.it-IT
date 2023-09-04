@@ -6,7 +6,7 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: e75e24852c5be51565706dc8844a90a8a9b7f8cd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    + Gestire i percorsi{#manage-journey}
       + [Terminare il percorso](using/building-journeys/end-journey.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
-      + [Gestione dell’entrata nel profilo](using/building-journeys/entry-management.md)
+      + [Gestione dell’ingresso nel profilo](using/building-journeys/entry-management.md)
       + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
       + [Risolvere i problemi di un percorso](using/building-journeys/troubleshooting.md)
       + [Integrare con Intelligent Services](using/building-journeys/ai-services-overview.md)

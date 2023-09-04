@@ -163,7 +163,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero di destinatari che hanno aperto la consegna.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Iscrizioni annullate<br/> </td> 
+   <td> Annullamenti dell’abbonamento<br/> </td> 
    <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
 </tr> 
  </tbody> 

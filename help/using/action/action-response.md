@@ -12,7 +12,7 @@ keywords: azione, terze parti, personalizzato, percorsi, API
 source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -24,7 +24,7 @@ In precedenza questa funzionalità era disponibile solo quando si utilizzavano o
 
 >[!AVAILABILITY]
 >
->Questa funzione è attualmente disponibile come versione beta privata.
+>Questa funzione è attualmente disponibile solo come versione beta privata.
 
 >[!WARNING]
 >

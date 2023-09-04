@@ -36,7 +36,7 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
   Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare in modo che tutti i clienti silver entrino in un percorso e inviare loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi pubblico](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-* Utilizza l’attività di evento **Qualificazione del pubblico** in un percorso per consentire ai singoli utenti di entrare o proseguire nel percorso, sulla base delle entrate e delle uscite del pubblico di Adobe Experience Platform.
+* Utilizza l’attività di evento **Qualificazione del pubblico** in un percorso per consentire a singoli utenti di entrare o proseguire nel percorso, sulla base degli ingressi e delle uscite del pubblico di Adobe Experience Platform.
 
   Ad esempio, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviare loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, fai riferimento a [Scopri come configurare un’attività di qualificazione del pubblico](../building-journeys/audience-qualification-events.md).
 

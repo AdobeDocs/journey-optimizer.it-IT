@@ -217,5 +217,5 @@ Dopo aver aggiunto un ambito di decisione e selezionato un profilo di test, puoi
 
    >[!NOTE]
    >
-   >Quando copi i payload di richiesta o risposta nel tuo codice, assicurati di sostituire {USER_TOKEN} e {API_KEY} con valori validi. Scopri come recuperare questi valori in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"} documentazione.
+   >Quando copi i payload di richiesta o risposta nel tuo codice, assicurati di sostituire {USER_TOKEN} e {API_KEY} con valori validi. Scopri come recuperare questi valori in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=it){target="_blank"} documentazione.
 
