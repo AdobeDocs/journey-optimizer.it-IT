@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 31%
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,7 @@ Prima di poter generare questo file, devi creare:
 >id="ajo_dm_file_routing_details"
 >title="Configurare l’indirizzamento dei file"
 >abstract="Dopo aver creato un messaggio di direct mail, il file contenente i dati del pubblico di destinazione verrà generato ed esportato in un server. Devi specificare i dettagli del server in modo che il provider di direct mail possa accedere e utilizzare tale file per la consegna della direct mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Creare un messaggio di direct mailing"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html?lang=it" text="Creare un messaggio direct mail"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"

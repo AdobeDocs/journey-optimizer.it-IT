@@ -12,7 +12,7 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
 source-wordcount: '1137'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -35,7 +35,7 @@ Normative come l&#39;HIPAA richiedono che [!DNL Journey Optimizer] deve fornire 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Definire un indirizzo e-mail Ccn"
->abstract="Per conservare una copia delle e-mail inviate, puoi includere nell’invio un indirizzo e-mail in Ccn. Immetti l’indirizzo e-mail desiderato in modo che ogni e-mail venga inviata anche in copia per conoscenza nascosta a questo indirizzo Ccn. Il dominio dell’indirizzo Ccn deve essere diverso da qualsiasi sottodominio delegato ad Adobe. Questa funzione è facoltativa."
+>abstract="Per conservare una copia delle e-mail inviate, puoi includere nell’invio un indirizzo e-mail in Ccn. Immetti l’indirizzo e-mail desiderato in modo che ogni e-mail venga inviata anche in copia per conoscenza nascosta a questo indirizzo Ccn. Il dominio dell’indirizzo Ccn non deve essere lo stesso di un sottodominio delegato ad Adobe. Questa funzione è facoltativa."
 
 Puoi inviare una copia per conoscenza nascosta (CCN) di un’e-mail inviata da [!DNL Journey Optimizer] a un indirizzo Ccn dedicato. Questa funzione opzionale consente di conservare le copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. L&#39;indirizzo Ccn non è visibile agli altri destinatari del messaggio.
 

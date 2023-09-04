@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 21%
+ht-degree: 28%
 
 ---
 
@@ -37,7 +37,7 @@ Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai c
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Categoria campagna"
->abstract="Se stai creando una campagna pianificata, il tipo di **marketing** viene selezionato automaticamente. Per le campagne attivate da API, scegli se desideri inviare una **marketing** messaggio (messaggio promozionale che richiede il consenso dell’utente) o **transazionale** messaggio (messaggio non commerciale, che può anche essere inviato a profili non abbonati in contesti specifici)."
+>abstract="Se stai creando una campagna pianificata, il tipo di **marketing** viene selezionato automaticamente. Per le campagne attivate da API, scegli se desideri inviare un messaggio di **marketing** (messaggio promozionale che richiede il consenso dell’utente) o un messaggio **transazionale** (messaggio non commerciale, che può anche essere inviato a profili non abbonati in contesti specifici)."
 
 1. In **[!UICONTROL Proprietà]** , specifica come eseguire la campagna. Sono disponibili due tipi di campagne:
 
