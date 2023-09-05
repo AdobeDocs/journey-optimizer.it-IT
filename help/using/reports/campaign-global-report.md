@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2466'
 ht-degree: 19%
 
 ---
@@ -145,9 +145,9 @@ Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo 
 
 Il **[!UICONTROL E-mail - Statistiche di tracciamento]** il widget contiene i dati disponibili per l’attività del destinatario per la consegna:
 
-* **[!UICONTROL Aperture]**: numero di volte in cui la consegna è stata aperta in una consegna.
+* **[!UICONTROL Aperture]**: numero di volte in cui l’e-mail è stata aperta.
 
-* **[!UICONTROL Aperture univoche]**: percentuale di consegne aperte.
+* **[!UICONTROL Aperture univoche]**: percentuale di e-mail aperte.
 
 * **[!UICONTROL Percentuale aperture]**: numero totale di e-mail aperte rispetto al numero di e-mail consegnate.
 
@@ -196,7 +196,9 @@ Il **[!UICONTROL E-mail - Dominio destinatario principale]** il grafico e la tab
 Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la consegna.
-* **[!UICONTROL Aperture]**: numero di volte in cui la consegna è stata aperta in una consegna.
+
+* **[!UICONTROL Aperture]**: numero di volte in cui il messaggio è stato aperto.
+
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
 
 Il **[!UICONTROL Ottimizzazione del tempo di invio]** descrive il successo della consegna in base al metodo di invio: ottimizzato o normale.
