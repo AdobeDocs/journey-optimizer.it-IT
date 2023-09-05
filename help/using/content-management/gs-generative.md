@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '199'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 14%
 **Sommario**
 
 * **[Introduzione all’Assistente contenuti](gs-generative.md)**
-* [Genera testo con l’assistente contenuto](generative-title.md)
+* [Genera testo con l’assistente contenuto](generative-content.md)
 * [Generare immagini con l’assistente contenuto](generative-image.md)
 
 >[!ENDSHADEBOX]
@@ -36,7 +36,7 @@ Adobe L’Assistente per contenuti di Percorsi Optimier offre suggerimenti proat
 
 
 
-Utilizza l’assistente al contenuto per ottimizzare l’impatto del messaggio sperimentando diversi titoli e immagini principali. Genera più varianti e crea un esperimento per confrontarle. Sfruttando Journey Optimizer Content Experiment, puoi definire più trattamenti per i messaggi al fine di misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto, l’oggetto o il mittente della consegna. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata. Ulteriori informazioni sull’esperimento sui contenuti in [questa sezione](../campaigns/content-experiment.md).
+Utilizza l’assistente al contenuto per ottimizzare l’impatto del messaggio sperimentando diversi titoli e immagini principali. Genera più varianti e crea un esperimento per confrontarle. Sfruttando Journey Optimizer Content Experiment, puoi definire più trattamenti per i messaggi al fine di misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio in termini di metrica specificata. Ulteriori informazioni sull’esperimento sui contenuti in [questa sezione](../campaigns/content-experiment.md).
 
 
 >[!AVAILABILITY]
