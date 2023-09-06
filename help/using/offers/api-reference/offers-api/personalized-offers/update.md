@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '157'
 ht-degree: 10%
 
 ---
@@ -21,66 +21,74 @@ Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili,
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato API**
 
 ```http
-PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | ID dell’entità da aggiornare. | `personalizedOffer1234` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Il contenitore in cui si trovano le offerte personalizzate. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1234?offer-type=personalized' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated personalized offer"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated personalized offer description"
-    }
-]'
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0f4bc230-13df-11eb-bc55-c11be7252432' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'\
+  -d '[
+        {
+            "op": "add",
+            "path": "/_instance/xdm:representations/-",
+            "value": {
+                "xdm:placement": "xcore:offer-placement:124e0be5699743d3",
+                "xdm:components": [
+                    {
+                        "@type": "https://ns.adobe.com/experience/offer-management/content-component-text",
+                        "dc:format": "text/plain",
+                        "dc:language": ["en"],
+                        "xdm:content": "Here is your first sale offer!"
+                    }
+                ]
+            }
+        }
+    ]'
 ```
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, `remove`, `copy` e `test`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati del posizionamento, incluso l’ID posizionamento.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati dell’offerta personalizzata, inclusi l’ID istanza univoco e l’offerta personalizzata `@id`.
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "0f4bc230-13df-11eb-bc55-c11be7252432",
+    "@id": "xcore:personalized-offer:124e181c8b0d7878",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T20:50:32.018624Z",
+    "repo:lastModifiedDate": "2020-10-21T20:50:32.018624Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

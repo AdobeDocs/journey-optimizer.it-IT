@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '166'
 ht-degree: 9%
 
 ---
@@ -21,66 +21,70 @@ Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili,
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Content-Type | `application/json` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **Formato API**
 
 ```http
-PATCH /{ENDPOINT_PATH}/offer-collections/{ID}
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | ID dell’entità da aggiornare. | `offerCollection1234` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | ID istanza della raccolta da aggiornare. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Richiesta**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCollection1234' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated offer collection"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated offer collection description"
-    }
-]'
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0bf31c20-13f1-11eb-a752-e58fd7dc4cb3' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '[
+        {
+            "op": "add",
+            "path": "/_instance/xdm:filterType",
+            "value": "anyTags"
+        },
+        {
+            "op": "add",
+            "path": "/_instance/xdm:ids",
+            "value": ["xcore:tag:124e147572cd7866"]
+        }
+    ]'
 ```
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, `remove`, `copy` e `test`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati della raccolta, inclusa la relativa raccolta univoca `id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati della raccolta, inclusi l’ID istanza e la raccolta univoci `@id`.
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "0bf31c20-13f1-11eb-a752-e58fd7dc4cb3",
+    "@id": "xcore:offer-filter:124e3594ce8b4930",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
+    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
