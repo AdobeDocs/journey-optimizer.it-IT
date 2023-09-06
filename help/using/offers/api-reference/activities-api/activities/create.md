@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '101'
+ht-degree: 15%
 
 ---
 
 # Creare una decisione {#create-decision}
 
-Per creare una decisione, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+Per creare una decisione, devi effettuare una richiesta POST al [!DNL Offer Library] API.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
@@ -29,61 +29,67 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 **Formato API**
 
 ```http
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
+POST /{ENDPOINT_PATH}/offer-decisions
 ```
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps/` |
 
 **Richiesta**
 
 ```shell
-curl -X POST \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}' \
-  -d '{
-      "_instance": {
-          "xdm:name": "Test API",
-          "xdm:startDate": "2022-01-20T16:00:00Z",
-          "xdm:endDate": "2022-01-27T16:00:00Z",
-          "xdm:status": "live",
-          "xdm:criteria": [
-              {
-                  "xdm:placements": [
-                      "xcore:offer-placement:1457f9322f005194"
-                  ],
-                  "xdm:optionSelection": {
-                      "xdm:filter": "xcore:offer-filter:1457f93227d0b6f0"
-                  }
-              }
-          ],
-          "xdm:fallback": "xcore:fallback-offer:13c259399d8bf013"
-      },
-      "_links": {}
-  }'
+curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}' \
+-d '{
+    "name": "Test Offer Decision",
+    "description": "Offer Decision description",
+    "status": "live",
+    "startDate": "2021-08-23T07:00:00.000+00:00",
+    "endDate": "2021-08-25T07:00:00.000+00:00",
+    "fallback": "fallbackOffer1234",
+    "criteria": [
+        {
+            "placements": [
+                "offerPlacement1234",
+                "offerPlacement5678"
+            ],
+            "rank": {
+                "priority": 0,
+                "order": {
+                    "orderEvaluationType": "ranking-strategy",
+                    "rankingStrategy": "123456789123"
+                }
+            },
+            "profileConstraint": {
+                "profileConstraintType": "none"
+            },
+            "optionSelection": {
+                "filter": "offerCollection1234"
+            }
+        }
+    ]
+}'
 ```
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID nei passaggi successivi per aggiornare o eliminare la decisione.
 
 ```json
 {
-    "instanceId": "f88c9be0-1245-11eb-8622-b77b60702882",
-    "@id": "xcore:offer-activity:124b79dc3ce2d720",
-    "repo:etag": 1,
-    "repo:createdDate": "2020-10-19T20:02:09.694067Z",
-    "repo:lastModifiedDate": "2020-10-19T20:02:09.694067Z",
-    "repo:createdBy": "{CREATED_BY}",
-    "repo:lastModifiedBy": "{MODIFIED_BY}",
-    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "etag": 1,
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "{ID}",
+    "sandboxId": "{SANDBOX_ID}",
+    "createdDate": "2023-05-31T15:09:11.771Z",
+    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
+    "createdByClientId": "{CREATED_CLIENT_ID}",
+    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
