@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d5c9297ef3e504b0ef9462b30882cdc4dba5b106
+source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1113'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su 
 
 Ad esempio, un utente all’interno dell’azienda è solo responsabile dei contenuti e quindi non ha accesso a campagne o percorsi. Tuttavia, questo utente può creare un modello e-mail che gli esperti marketing della tua organizzazione potranno selezionare per l’utilizzo in tutte le e-mail come punto di partenza.
 
-Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta [Documentazione delle API di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta [Documentazione delle API di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/).
 
 ➡️ [Scopri come creare e utilizzare i modelli in questo video](#video-templates)
 

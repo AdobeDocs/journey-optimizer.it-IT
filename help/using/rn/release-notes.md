@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c494f614296bd90ddb1b49337f21a9121f47a78b
+source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
 workflow-type: tm+mt
 source-wordcount: '3432'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -197,7 +197,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>Ora puoi creare e gestire modelli di contenuto Adobe Journey Optimizer utilizzando API dedicate, fornendo un’integrazione diretta con il sistema di contenuti esistente.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
