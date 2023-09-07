@@ -6,20 +6,31 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 15%
+source-wordcount: '427'
+ht-degree: 12%
 
 ---
 
 # Creare regole di decisione {#create-decision-rules}
+
+## Informazioni sulle regole di decisione {#about}
 
 Puoi creare regole di decisione delle offerte basate sui dati disponibili in Adobe Experience Platform. Le regole di decisione determinano a chi può essere visualizzata un’offerta.
 
 Ad esempio, puoi specificare che desideri che venga visualizzata solo “Offerta di abbigliamento invernale per le donne” quando (Genere = ‘Femmina’) e (Area geografica = ‘Nord Est’). 
 
 ➡️ [Scopri questa funzione nel video](#video)
+
+Di seguito è riportato un elenco di limitazioni di cui tenere conto quando si lavora con le regole di decisione:
+
+* Durante la creazione di una regola, puoi utilizzare eventi storici, ma esistono limitazioni su quando queste regole sono utilizzabili.
+* Edge Decisioning utilizza il profilo Edge che non memorizza gli eventi, pertanto qualsiasi regola utilizzata in una decisione Edge non sarà valida.
+* I percorsi che utilizzano le decisioni sulle offerte non esamineranno gli eventi storici, pertanto queste regole non saranno valide.
+* Le richieste di decisione che utilizzano il profilo hub esamineranno gli ultimi 100 eventi di esperienza sul profilo per valutare le regole che fanno riferimento a eventi di esperienza storici.
+
+## Creare una regola di decisione {#create}
 
 L’elenco delle regole di decisione create è accessibile nel **[!UICONTROL Componenti]** menu.
 
