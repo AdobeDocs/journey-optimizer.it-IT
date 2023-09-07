@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 10%
 
 ---
@@ -107,13 +107,15 @@ L’estensione non dispone di impostazioni condizionali e gestisce automaticamen
 
 Quando si utilizza l’Adobe [!DNL Journey Optimizer] web designer, se si tenta di caricare un sito web che non riesce, viene visualizzato un messaggio per suggerirti di installare [Estensione del browser Helper per editing video](#install-visual-editing-helper).
 
-Se l’estensione del browser Helper per editing video è installata correttamente, ma il sito web non si carica o si comporta in modo imprevisto, è possibile aprire il sito web nel browser e accettare i cookie prima di tentare di caricarlo in [!DNL Journey Optimizer] web designer.
+1. Assicurati che l’estensione del browser Helper per editing video sia installata correttamente.
+
+1. Se il sito web continua a comportarsi in modo imprevisto, assicurati che nel browser siano consentiti i cookie di terze parti, altrimenti la pagina web non può essere caricata all’interno del [!DNL Journey Optimizer] web designer.
 
 Per le pagine in autenticazione, se la pagina di accesso non viene caricata o se dopo aver tentato di accedere non hai ancora effettuato l’accesso:
 
-* Prova ad accedere prima da una nuova scheda del browser e a passare alla pagina desiderata, quindi copia l’URL e prova ad aprirlo nella [!DNL Journey Optimizer] web designer.
+1. Prova ad accedere prima da una nuova scheda del browser e a passare alla pagina desiderata, quindi copia l’URL e prova ad aprirlo nella [!DNL Journey Optimizer] web designer.
 
-* Se non riesci ancora a caricare il sito web in [!DNL Journey Optimizer] web designer, contatta l’Adobe dell’Assistenza clienti per segnalare il problema, assicurandoti di specificare l’URL errato.
+2. Se non riesci ancora a caricare il sito web in [!DNL Journey Optimizer] web designer, contatta l’Adobe dell’Assistenza clienti per segnalare il problema, assicurandoti di specificare l’URL errato.
 
 ## Prerequisiti per la consegna {#delivery-prerequisites}
 
