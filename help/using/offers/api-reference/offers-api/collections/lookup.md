@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_FILTER}` | Definisce lo schema associato alle raccolte. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Mobile demo` |
+| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | ID dell’entità da cercare. | `offerCollection1234` |
 
 **Richiesta**
 

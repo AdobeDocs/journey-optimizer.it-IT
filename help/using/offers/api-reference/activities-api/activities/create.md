@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -23,8 +23,7 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"` |
+| Content-Type | `application/json` |
 
 **Formato API**
 
@@ -72,7 +71,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, comprese le sue univoche `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la decisione.
 
 ```json
 {

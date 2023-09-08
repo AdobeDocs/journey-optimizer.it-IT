@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '165'
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli della regola di decisione specifica cercata, incluse informazioni sull’ID contenitore, sull’ID istanza e sulla regola di decisione univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli della regola di decisione specifica cercata, incluse le informazioni sulla regola di decisione univoca `id`.
 
 ```json
 {
