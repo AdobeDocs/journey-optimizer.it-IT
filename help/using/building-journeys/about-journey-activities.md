@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 19%
+source-wordcount: '536'
+ht-degree: 18%
 
 ---
 
@@ -71,6 +71,10 @@ Le azioni personalizzate eventualmente configurate vengono visualizzate anche qu
 La maggior parte delle attività ti consentono di definire una **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e semplifica la lettura dei rapporti. È inoltre possibile aggiungere un&#39;opzione **[!UICONTROL Descrizione]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>Per alcune attività, il loro ID è visibile anche nel riquadro. Questo ID può essere utilizzato nel reporting come chiave più stabile dell’etichetta, che può cambiare.
 
 ### Gestire i parametri avanzati {#advanced-parameters}
 
