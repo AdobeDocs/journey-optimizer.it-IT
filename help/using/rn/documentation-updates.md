@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3597'
 ht-degree: 92%
@@ -99,7 +99,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Nella documentazione sui limiti sono state aggiunte informazioni sugli endpoint di autenticazione personalizzati. [Ulteriori informazioni](../configuration/external-systems.md)
 * È stato aggiunto un nuovo esempio di autenticazione personalizzata nella sezione origini dati esterne. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-mode)
 * È stata aggiunta una nota sul servizio core di raccolta dati (DCCS, Data Collection Core Service) per i percorsi attivati da eventi. [Ulteriori informazioni](../start/guardrails.md#events-g)
-* È stata aggiunta una nota sul recupero dello spazio dei nomi delle identità nella sezione [Read audience](../building-journeys/read-audience.md), [Qualificazione del segmento](../building-journeys/segment-qualification-events.md) e [Creazione di eventi](../event/about-creating.md) sezioni.
+* È stata aggiunta una nota sul recupero dello spazio dei nomi delle identità nella sezione [Read audience](../building-journeys/read-audience.md), [Qualificazione del pubblico](../building-journeys/audience-qualification-events.md) e [Creazione di eventi](../event/about-creating.md) sezioni.
 * Le funzioni di accessibilità in [!DNL Journey Optimizer] sono ora raggruppate in una pagina dedicata. [Ulteriori informazioni](../start/accessibility.md)
 * Gli esempi sono stati aggiornati nella sezione Operatori della documentazione dell’editor di espressioni avanzate. [Ulteriori informazioni](../building-journeys/expression/operators.md)
 * È stata aggiunta una nota sulla limitazione della ricerca con array di oggetti. [Ulteriori informazioni](../event/experience-event-schema.md#relationships_limitations)
