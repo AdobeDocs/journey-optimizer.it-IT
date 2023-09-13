@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
+source-git-commit: 27b5d9d66cd2659b4254ee26ac7de928cdd13fe1
 workflow-type: tm+mt
-source-wordcount: '3432'
+source-wordcount: '3468'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,24 @@ Le note sulle versioni precedenti sono disponibili in [questa pagina](release-no
 
 ![Newsletter](../assets/do-not-localize/nl-icon.png) Iscriviti subito alla [newsletter trimestrale Adobe Journey Optimizer](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} e ricevi gli ultimi aggiornamenti dei prodotti, storie interessanti, casi d’uso, suggerimenti e altro ancora direttamente nella tua casella in entrata ogni trimestre.
 
+## Aggiornamento di settembre 2023 {#sept-rn-2023}
+
+### Nuova funzionalità {#sept-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Archiviazione delle credenziali per le app mobili per sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Questa nuova funzione consente di gestire e associare facilmente le credenziali push a una sandbox dedicata in Superfici app.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../in-app/inapp-configuration.md">documentazione dettagliata</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ## Note sulla versione di agosto 2023 {#aug-rn-2023}
 
