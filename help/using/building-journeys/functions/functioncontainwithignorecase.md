@@ -9,8 +9,8 @@ keywords: containIgnoreCase, funzione, espressione, percorso
 exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '52'
+ht-degree: 21%
 
 ---
 

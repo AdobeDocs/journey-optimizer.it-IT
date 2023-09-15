@@ -13,7 +13,7 @@ hidefromtoc: true
 source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 * [Introduzione all’Assistente contenuti](gs-generative.md)
 * **[Generare contenuti con l’Assistente contenuti](generative-content.md)**
-* [Generare immagini con l’assistente contenuto](generative-image.md)
+* [Generare immagini con l’assistente contenuti](generative-image.md)
 
 >[!ENDSHADEBOX]
 
