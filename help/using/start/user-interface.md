@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -116,7 +116,7 @@ Controlla la gestione della privacy e le richieste da questa sezione.
 
 * **[!UICONTROL Criteri]**: Adobe Experience Platform consente di etichettare i campi e creare azioni di marketing per ogni canale. Puoi quindi definire un criterio di governance collegato a un’etichetta e a un’azione di marketing. [Ulteriori informazioni](../action/action-privacy.md)
 
-* **[!UICONTROL Richieste]** - Le richieste di accesso ai dati personali vengono gestite in Adobe Experience Platform Privacy Service. Fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati della clientela. [Ulteriori informazioni](../privacy/requests.md)
+* **[!UICONTROL Richieste]**: le richieste di privacy sono gestite in Adobe Experience Platform Privacy Service. Fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati della clientela. [Ulteriori informazioni](../privacy/requests.md)
 
 * **[!UICONTROL Audit]**: passa a questa sezione per verificare i registri delle attività. [Ulteriori informazioni](../privacy/audit-logs.md)
 
