@@ -1,0 +1,119 @@
+---
+title: Creare strategie di selezione
+description: Scopri come creare strategie di selezione
+feature: Offers
+topic: Integrations
+role: User
+level: Intermediate
+hide: true
+hidefromtoc: true
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 2%
+
+---
+
+# Creare strategie di selezione {#selection-strategies}
+
+>[!BEGINSHADEBOX]
+
+Cosa troverai in questa documentazione di guida:
+
+* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
+* Gestire gli elementi decisionali
+   * [Configurare il catalogo articoli](catalogs.md)
+   * [Creare elementi decisionali](items.md)
+   * [Gestire le raccolte elementi](collections.md)
+* Configurare la selezione degli elementi
+   * [Creare regole di decisione](rules.md)
+   * [Creare metodi di classificazione](ranking.md)
+* **[Creare strategie di selezione](selection-strategies.md)**
+* [Creare criteri di decisione](create-decision.md)
+
+>[!ENDSHADEBOX]
+
+Una strategia di selezione è un elemento riutilizzabile, costituito da una raccolta associata a un vincolo di idoneità e da un metodo di classificazione per determinare le offerte da visualizzare quando vengono selezionate in un [criterio di decisione](create-decision.md).
+
+## Accesso e gestione delle strategie di selezione
+
+1. Vai a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configurazione]** > **[!UICONTROL Strategie di selezione]**.
+
+1. Vengono elencate tutte le strategie di selezione create finora. Sono disponibili filtri per aiutarti a recuperare le strategie in base al metodo di classificazione.
+
+   ![](assets/strategy-list-filters.png)
+
+1. Fare clic sul nome di una strategia di selezione per modificarla.
+
+1. Vengono inoltre visualizzati la raccolta, il metodo di classificazione e l’idoneità selezionati per ciascuna strategia. Puoi fare clic sull&#39;icona accanto al nome di ogni raccolta per modificarla direttamente.
+
+   ![](assets/strategy-list-edit-collection.png)
+
+## Creare una strategia di selezione
+
+Per creare una strategia di selezione, segui i passaggi indicati di seguito.
+
+1. Dalla sezione **[!UICONTROL Strategie di selezione]** inventory, fai clic su **[!UICONTROL Creare una strategia di selezione]**.
+
+   ![](assets/strategy-create-button.png)
+
+1. Aggiungi un nome per la strategia.
+
+   >[!NOTE]
+   >
+   >Attualmente solo il valore predefinito **[!UICONTROL Offerte]** il catalogo è disponibile.
+
+1. Compila i dettagli per la strategia di selezione, iniziando dal nome.
+
+   ![](assets/strategy-create-screen.png)
+
+1. Seleziona l’offerta [raccolta](collections.md) che contiene le offerte da considerare.
+
+1. Utilizza il **[!UICONTROL Idoneità]** per limitare la selezione delle offerte per questa strategia di selezione.
+
+   ![](assets/strategy-create-eligibility.png)
+
+   * Per limitare la selezione delle offerte ai membri di un pubblico di Experienci Platform, seleziona **[!UICONTROL Tipi di pubblico]** e scegli un pubblico dall’elenco. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md)
+
+   * Se desideri aggiungere un vincolo di selezione con una regola di decisione, utilizza **[!UICONTROL Regola di decisione]** e selezionare la regola desiderata. [Scopri come creare una regola](rules.md)
+
+1. Definisci il metodo di classificazione da utilizzare per selezionare l’offerta migliore per ciascun profilo. [Ulteriori informazioni](#select-ranking-method)
+
+   ![](assets/strategy-create-ranking.png)
+
+   * Per impostazione predefinita, se più offerte sono idonee per questa strategia, il [Priorità offerta](#offer-priority) Il metodo utilizza il valore definito nelle offerte.
+
+   * Se desideri utilizzare un punteggio calcolato specifico per scegliere l’offerta idonea da consegnare, seleziona [Formula](#ranking-formula) o [Modello IA](#ai-ranking).
+
+1. Fai clic su **[!UICONTROL Crea]**. È ora pronto per essere utilizzato in un [decisione](create-decision.md)
+
+## Seleziona un metodo di classificazione {#select-ranking-method}
+
+Se più offerte sono idonee per una determinata strategia di selezione, puoi scegliere il metodo con cui selezionare l’offerta migliore per ciascun profilo al momento di creare una strategia di selezione. Puoi classificare le offerte in base a:
+
+* [Priorità offerta](#offer-priority)
+* [Formula](#ranking-formula)
+* [Classificazione basata su IA](#ai-ranking)
+
+### Priorità offerta {#offer-priority}
+
+Per impostazione predefinita, quando diverse offerte sono idonee per un determinato posizionamento in una decisione, gli elementi con il valore più alto **priorità** verrà consegnato prima ai clienti.
+
+![](assets/item-priority.png)
+
+I punteggi di priorità delle offerte vengono assegnati durante la creazione di un [elemento di decisione](items.md).
+
+### Formula di classificazione {#ranking-formula}
+
+Oltre alla priorità dell’offerta, Journey Optimizer consente di creare **formule di classificazione**. Si tratta di formule che determinano quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte.
+
+Ad esempio, puoi aumentare la priorità di tutte le offerte la cui data di fine è inferiore a 24 ore da ora, oppure puoi aumentare le offerte dalla categoria &quot;in esecuzione&quot; se il punto di interesse del profilo è &quot;in esecuzione&quot;. Scopri come creare una formula di classificazione in [questa sezione](ranking.md).
+
+Una volta creata, è possibile utilizzare questa formula in una strategia di selezione. Se più offerte sono idonee per essere presentate quando si utilizza questa strategia di selezione, la decisione utilizzerà la formula selezionata per calcolare quale offerta consegnare per prima.
+
+### Classificazione basata su IA {#ai-ranking}
+
+Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando un modello di intelligenza artificiale. Scopri come creare un modello di intelligenza artificiale in [questa sezione](ranking.md).
+
+Una volta creato un modello di IA, puoi utilizzarlo in una strategia di selezione. Se sono ammesse più offerte, il sistema di modelli addestrato determinerà quale offerta deve essere presentata per prima per questa strategia di selezione.
+
