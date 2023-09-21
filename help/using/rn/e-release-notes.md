@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 29%
+source-wordcount: '540'
+ht-degree: 22%
 
 ---
 
@@ -26,20 +26,6 @@ Le note preliminari sulla versione riportate di seguito sono soggette a modifich
 
 Questa versione include le nuove funzionalità elencate di seguito.
 
-<table>
-<thead>
-<tr>
-<th><strong>Archiviazione delle credenziali per le app mobili per sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Questa nuova funzione consente di gestire e associare facilmente le credenziali push a una sandbox dedicata in Superfici app.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../in-app/inapp-configuration.md">documentazione dettagliata</a>.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Archiviazione delle credenziali per le app mobili per sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Questa nuova funzione consente di gestire e associare facilmente le credenziali push a una sandbox dedicata in Superfici app.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../in-app/inapp-configuration.md">documentazione dettagliata</a>.</p>
+</tr>
+</tbody>
+</table>
 
 ### Miglioramenti {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico**
 
 * Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
-* Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * Ora puoi indirizzare ai percorsi i tipi di pubblico risultanti dai flussi di lavoro di composizione.
 
 **Personalizzazione**
@@ -111,6 +111,6 @@ Questa versione include i miglioramenti elencati di seguito.
 
 Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono nell’elenco di soppressione di Adobe Journey Optimizer.
 
-**Gestione delle decisioni**
+<!--**Decision management**
 
-Sono stati apportati miglioramenti al selettore del pubblico in percorsi o campagne, con l’aggiunta di nuove colonne che mostrano l’origine e la frequenza di aggiornamento dei tipi di pubblico.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
