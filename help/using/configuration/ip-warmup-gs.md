@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 7%
 
 ---
@@ -73,4 +73,4 @@ I passaggi chiave per implementare un piano di riscaldamento IP sono i seguenti:
 
 1. Crea un piano di riscaldamento IP e carica il tuo piano. [Ulteriori informazioni](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Regola ogni fase del piano e attiva le esecuzioni. [Ulteriori informazioni](ip-warmup-running.md)
+1. Seleziona una campagna per ogni fase del piano e attiva le esecuzioni corrispondenti. [Ulteriori informazioni](ip-warmup-running.md)

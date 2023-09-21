@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '566'
 ht-degree: 5%
 
 ---
@@ -29,6 +29,8 @@ Cosa troverai in questa documentazione di guida:
 * [Eseguire il piano di riscaldamento IP](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+Una volta [ha creato una o più campagne](ip-warmup-campaign.md) con una superficie dedicata e l’opzione di riscaldamento IP abilitata, puoi iniziare a creare il piano di riscaldamento IP.
 
 ## Accesso e gestione dei piani di riscaldamento IP {#manage-ip-warmup-plans}
 
