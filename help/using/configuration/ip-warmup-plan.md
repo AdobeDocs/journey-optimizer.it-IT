@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 5%
@@ -67,14 +67,11 @@ Una volta [ha creato una o più campagne](ip-warmup-campaign.md) con una superfi
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Impostare le superfici di canale"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di riscaldamento IP"
 
->[!CAUTION]
->
->Per creare, modificare ed eliminare i piani di riscaldamento IP, è necessario disporre del **[!UICONTROL Consulente per il recapito messaggi]** autorizzazione.
-<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
-
 Quando una o più campagne live con **[!UICONTROL Attivazione del piano di riscaldamento IP]** opzione attivata, è possibile associarle a un piano di riscaldamento IP.
 
 >[!CAUTION]
+>
+>Per creare, modificare ed eliminare i piani di riscaldamento IP, è necessario disporre del **[!UICONTROL Consulente per il recapito messaggi]** autorizzazione. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 >
 >Rivolgiti al tuo consulente di recapito messaggi per assicurarti che il modello di piano di riscaldamento IP sia configurato correttamente. <!--TBC-->
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -58,25 +58,29 @@ A livello di fase, il sistema assicura che i profili target + nuovi vengano sele
 
    * Non puoi selezionare una campagna già in uso in un’altra campagna di riscaldamento IP.
 
-1. Per ciascuna fase si applica quanto segue:
+1. In **[!UICONTROL Esclusione profilo]** sezione, puoi notare che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
 
-   * **[!UICONTROL Esclusione profilo]** - I profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se Leo è stato #1 nelle prime 6300 persone prese di mira, il sistema si assicurerà automaticamente che Leo non riceva la posta in esecuzione #2.
+1. Dalla sezione **[!UICONTROL Pubblico della campagna escluso]** , seleziona i tipi di pubblico da un&#39;altra <!--executed/live?-->campagne che desideri escludere dalla fase corrente.
 
-   * **[!UICONTROL Pubblico della campagna escluso]** - Selezionare il pubblico da un altro <!--executed/live?-->campagne che desideri escludere dalla fase corrente.
+   ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
-     Ad esempio, è possibile che si stia eseguendo una fase e che sia stato necessario dividerla per qualsiasi motivo. In questo caso, nella fase 2, vorresti includere in questa sezione la campagna utilizzata nella fase 1, in modo che nella fase 2 non vengano incluse le persone contattate in precedenza nella fase 1. Questo può essere fatto non solo con le campagne utilizzate nello stesso piano di riscaldamento IP, ma anche da un altro piano di riscaldamento IP troppo.
+   Ad esempio, durante l’esecuzione della fase 1, era necessario [dividilo](#split-phase) per qualsiasi motivo. Pertanto, puoi escludere la campagna utilizzata nella fase 1 in modo che i profili contattati in precedenza dalla fase 1 non siano inclusi nella fase 2. Puoi anche escludere le campagne da altri piani di riscaldamento dell’IP.
 
-   * **[!UICONTROL Gruppi di domini esclusi]** : seleziona i domini che desideri escludere da quella fase, ad esempio Gmail. <!--??-->
+1. Dalla sezione **[!UICONTROL Gruppi di domini esclusi]** , selezionare i domini che si desidera escludere da tale fase.
 
-     Dopo aver eseguito il riscaldamento dell&#39;IP per alcuni giorni, ti rendi conto che la reputazione dell&#39;ISP con un dominio, ad esempio hotmail, non è buona e desideri risolverla con l&#39;ISP, ma non desideri interrompere il piano di riscaldamento dell&#39;IP. In questo caso, puoi inserire l’hotmail del gruppo di dominio nella categoria esclusa.
+   ![](assets/ip-warmup-plan-exclude-domains.png)
 
-     >[!NOTE]
-     >
-     >L’esclusione del dominio richiede una fase non eseguita, pertanto per aggiungere esclusioni potrebbe essere necessario dividere una fase in esecuzione. Analogamente, se il gruppo di dominio non è un gruppo di dominio OOTB, potrebbe essere necessario creare un gruppo di dominio in Excel e caricarlo e quindi escluderlo.
+   Ad esempio, dopo aver eseguito il riscaldamento dell’IP per alcuni giorni, ti rendi conto che la reputazione dell’ISP con un dominio (ad Adobe) non è buona e desideri risolverla senza interrompere il piano di riscaldamento dell’IP. In questo caso, puoi escludere il gruppo di dominio Adobe.
+
+   >[!NOTE]
+   >
+   >L’esclusione del dominio richiede una fase non eseguita, quindi potrebbe essere necessario dividere una fase in esecuzione per aggiungere esclusioni. Analogamente, se il gruppo di dominio non è un gruppo di dominio OOTB, devi aggiungerlo al file Excel, caricarlo e quindi escludere il dominio.
 
    ![](assets/ip-warmup-plan-phase-1.png)
 
-1. Se necessario, puoi aggiungere una fase, che verrà aggiunta dopo l’ultima fase corrente. Utilizza il **[!UICONTROL Elimina fase]** per rimuovere eventuali fasi indesiderate.
+1. Se necessario, puoi aggiungere una fase. Verrà aggiunta dopo l&#39;ultima fase corrente.
+
+1. Utilizza il **[!UICONTROL Elimina fase]** per rimuovere eventuali fasi indesiderate.
 
    ![](assets/ip-warmup-plan-add-delete-phases.png)
 
@@ -92,7 +96,7 @@ A livello di fase, il sistema assicura che i profili target + nuovi vengano sele
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Seleziona un’ora di fine, che in pratica indica la finestra all’interno della quale possiamo eseguire la campagna di riscaldamento nel caso in cui si verifichino ritardi nel lavoro di pubblico. Se non viene specificato, verrà eseguito un tentativo all&#39;ora di inizio e non verrà eseguito alcun tentativo. Se viene fornita l’ora di fine, eseguiremo l’esecuzione tra tale finestra.
+1. Seleziona un’ora di fine, che definisce la finestra all’interno della quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nell’esecuzione del processo di segmentazione del pubblico. Se non viene specificato un orario di fine, l’esecuzione viene tentata all’orario di inizio e avrà esito negativo se la segmentazione non è stata completata.
 
 1. Attiva ogni esecuzione. Assicurati di pianificare con un tempo sufficiente per consentire l’esecuzione del processo di segmentazione. <!--explain how you can evaluate a proper time-->
 
@@ -100,11 +104,13 @@ A livello di fase, il sistema assicura che i profili target + nuovi vengano sele
    >
    >Ogni esecuzione deve essere attivata almeno 12 ore prima dell’ora di invio effettiva. In caso contrario, la segmentazione potrebbe non essere completata. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
-<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 1. Se l’esecuzione della campagna non è stata avviata, puoi interrompere un’esecuzione.<!--why?-->
 
-   Una volta avviata l’esecuzione della campagna, il **[!UICONTROL Interrompi]** non è più disponibile. <!--TBC in UI-->
+   >[!NOTE]
+   >
+   >Una volta avviata l’esecuzione della campagna, il **[!UICONTROL Interrompi]** non è più disponibile. <!--TBC in UI-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -112,9 +118,13 @@ A livello di fase, il sistema assicura che i profili target + nuovi vengano sele
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-1. In qualsiasi momento, se desideri utilizzare una campagna diversa a partire da un’esecuzione specifica, seleziona la **[!UICONTROL Opzione Dividi in una nuova fase]** dall’icona dei tre puntini. Viene creata una nuova fase per le restanti esecuzioni della fase corrente. Segui i passaggi [sopra](#define-phases) per definire la nuova fase.
+## Dividere una fase {#split-phase}
 
-   Ad esempio, se selezioni questa opzione per #4 di esecuzione, le esecuzioni #4 a #8 verranno spostate in una nuova fase.
+In qualsiasi momento, se desideri utilizzare una campagna diversa a partire da un’esecuzione specifica, seleziona la **[!UICONTROL Opzione Dividi in una nuova fase]** dall’icona dei tre puntini.
+
+Viene creata una nuova fase per le restanti esecuzioni della fase corrente. Segui i passaggi [sopra](#define-phases) per definire la nuova fase.
+
+Ad esempio, se selezioni questa opzione per Esegui #4, le esecuzioni #4 a #8 verranno spostate in una nuova fase.
 
 <!--
 You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
