@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -111,7 +111,7 @@ Per eseguire casi di utilizzo web, puoi utilizzare il canale web o l’esperienz
 * È incentrato sull’addetto al marketing.
 
 **Esperienza basata su codice**
-* Modifica il contenuto utilizzando [editor di codice](create-code-based.md#edit-code).
+* Modifica il contenuto utilizzando [Editor espressioni](create-code-based.md#edit-code).
 * L’esperienza basata sul codice richiede un lavoro di sviluppo precedente sull’implementazione per garantire che le superfici possano interpretare e distribuire i contenuti pubblicati ai margini tramite [!DNL Journey Optimizer] per queste superfici. [Ulteriori informazioni](#surface-definition)
 * Richiede una maggiore pianificazione e può modificare solo gli elementi specificati dagli sviluppatori. Pertanto, è essenziale identificare i componenti (banner Home, immagine protagonista, barra dei menu, ecc.) sulle superfici che devono essere modificate per la personalizzazione o il testing e collabora con il team di sviluppo per creare l’implementazione necessaria per gestire queste modifiche.
 * Ti consente di utilizzare il contenuto del codice JSON.
@@ -133,7 +133,7 @@ I passaggi chiave per implementare una campagna basata su codice sono i seguenti
 
 1. Definisci un [superficie](#surface-definition), che è fondamentalmente la posizione in cui desideri aggiungere l’esperienza basata su codice e creare una campagna in [!DNL Journey Optimizer] utilizzando questa superficie. [Scopri come](create-code-based.md#create-code-based-campaign)
 
-1. Componi un’esperienza specificando il contenuto per la superficie selezionata utilizzando [!DNL Journey Optimizer] editor di codice. [Scopri come](create-code-based.md#edit-code)
+1. Componi un’esperienza specificando il contenuto per la superficie selezionata utilizzando [!DNL Journey Optimizer] Editor espressioni. [Scopri come](create-code-based.md#edit-code)
 
 1. Il team di implementazione dell’app effettua chiamate API o SDK esplicite per recuperare il contenuto delle superfici denominate, ad esempio &quot;Testo banner&quot; o &quot;Cassetto 1 Recommendations&quot;, o punti decisionali non correlati all’interfaccia utente in un’applicazione, ad esempio &quot;Parametri dell’algoritmo di ricerca&quot;. In questo caso, il team di implementazione è responsabile del rendering o dell’interpretazione e dell’azione sul contenuto restituito.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1007'
 ht-degree: 3%
 
 ---
@@ -68,7 +68,7 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="Utilizzare l’editor di codice"
+>title="Utilizzare l’editor di espressioni"
 >abstract="Inserisci e modifica il codice che desideri consegnare come parte di questa azione di esperienza basata su codice."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introduzione all’editor di espressioni"
 
@@ -76,7 +76,7 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. Viene aperto l’editor di codice. Si tratta di un’interfaccia non visiva per la creazione di esperienze.
+1. Il [Editor espressioni](../personalization/personalization-build-expressions.md) viene aperto. Si tratta di un’interfaccia non visiva per la creazione di esperienze che consente di creare il codice.
 
 1. Puoi passare dalla modalità di authoring di HTML a JSON e viceversa.
 
@@ -84,7 +84,7 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
    >
    >La modifica della modalità di authoring comporterà la perdita di tutto il codice corrente; assicurati quindi di cambiare modalità prima di iniziare l’authoring.
 
-1. Immetti il codice in base alle esigenze. L’editor di codice sfrutta [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+1. Immetti il codice in base alle esigenze. Puoi sfruttare [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 >
 >Devi disporre di profili di test per simulare quali offerte verranno consegnate. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
-1. Dall’editor di codice o dalla schermata di modifica del contenuto, seleziona **[!UICONTROL Simula contenuto]**.
+1. Dall’editor espressioni o dalla schermata Modifica contenuto, seleziona **[!UICONTROL Simula contenuto]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
