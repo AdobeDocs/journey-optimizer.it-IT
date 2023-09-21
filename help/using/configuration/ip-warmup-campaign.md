@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 3%
@@ -43,7 +43,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!NOTE]
    >
-   >Scopri come selezionare il dominio e gli IP da utilizzare in un’area e-mail in [questa sezione](using/email/email-settings.md#subdomains-and-ip-pools).
+   >Scopri come selezionare il dominio e gli IP da utilizzare in un’area e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. Creare un [campagna](../campaigns/create-campaign.md) e seleziona la [E-mail](../email/create-email.md#create-email-journey-campaign) azione.
 
@@ -68,4 +68,6 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 >Per una campagna live con il piano di riscaldamento IP attivato, il **[!UICONTROL Elimina]** finché non viene associato a un piano di riscaldamento IP.
 
 Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
