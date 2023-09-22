@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 5%
@@ -271,7 +271,7 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 
 ## Implementazione ibrida {#hybrid-implementation}
 
-Se hai un’implementazione ibrida, controlla i collegamenti riportati di seguito.
+Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di seguito.
 
 * Adobe di blog tecnico: [Personalizzazione ibrida in Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentazione SDK: [Personalizzazione ibrida tramite Web SDK e API del server di rete Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

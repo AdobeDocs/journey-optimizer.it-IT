@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1242'
 ht-degree: 5%
 
 ---
@@ -181,11 +181,11 @@ Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, 
 
 ## Utilizzare il criterio di decisione nell’editor di codice {#use-decision-policy}
 
-Una volta creato, il criterio di decisione può essere utilizzato nel [editor di codice](../code-based/create-code-based.md#edit-code). A questo scopo, segui i passaggi riportati qui sotto.
+Una volta creato, il criterio di decisione può essere utilizzato nel [Editor espressioni](../code-based/create-code-based.md#edit-code). A questo scopo, segui i passaggi riportati qui sotto.
 
 >[!NOTE]
 >
->L’editor di codice sfrutta [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+>L&#39;esperienza basata su codice sfrutta [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 1. Fai clic sull’icona +. Viene aggiunto il codice corrispondente al criterio di decisione. Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di tale codice.
 
@@ -197,7 +197,7 @@ Una volta creato, il criterio di decisione può essere utilizzato nel [editor di
 
 1. Fai clic sul criterio di decisione. Vengono visualizzati gli attributi di decisione.
 
-   Questi attributi vengono memorizzati nel **[!UICONTROL Offerte]** schema del catalogo. Gli attributi personalizzati sono memorizzati in **_cjmstage** cartella e attributi standard nella **_experience** cartella. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
+   Questi attributi vengono memorizzati nel **[!UICONTROL Offerte]** schema del catalogo. Gli attributi personalizzati sono memorizzati in **`_<imsOrg`>** cartella e attributi standard nella **`_experience`** cartella. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 

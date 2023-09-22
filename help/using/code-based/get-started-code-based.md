@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 7%
@@ -168,10 +168,10 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 | Web | web://domain.com/*#element | Superficie con caratteri jolly: rappresenta un singolo elemento in ciascuna pagina sotto un dominio specifico. |
 | Desktop | desktop://com.vendor.bundle | Rappresenta un&#39;applicazione desktop specifica. |
 | Desktop | desktop://com.vendor.bundle#element | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
-| App iOS | ios://com.vendor.bundle | Rappresenta un’app mobile specifica per una singola piattaforma, in questo caso l’app iOS. |
-| App iOS | ios://com.vendor.bundle/activity | Rappresenta un’attività specifica (visualizzazione) all’interno di un’app mobile. |
-| App iOS | ios://com.vendor.bundle/activity#element | Rappresenta un elemento specifico all’interno di un’attività, ad esempio un pulsante o un altro elemento di visualizzazione. |
-| App Android | android://com.vendor.bundle | Rappresenta un’app mobile specifica per una singola piattaforma, in questo caso un’app Android. |
+| App iOS | mobileapp://com.vendor.bundle | Rappresenta un’app mobile specifica per una singola piattaforma, in questo caso l’app iOS. |
+| App iOS | mobileapp://com.vendor.bundle/activity | Rappresenta un’attività specifica (visualizzazione) all’interno di un’app mobile. |
+| App iOS | mobileapp://com.vendor.bundle/activity#element | Rappresenta un elemento specifico all’interno di un’attività, ad esempio un pulsante o un altro elemento di visualizzazione. |
+| App Android | mobileapp://com.vendor.bundle | Rappresenta un’app mobile specifica per una singola piattaforma, in questo caso un’app Android. |
 | app tvOS | tvos://com.vendor.bundle | Rappresenta un&#39;app tvOS specifica. |
 | App TV | tvcd://com.vendor.bundle | Rappresenta un&#39;app per dispositivi collegati a smart TV o TV specifica - ID bundle. |
 | Servizio | service://servicename | Rappresenta un processo lato server o altra entità manuale. |
