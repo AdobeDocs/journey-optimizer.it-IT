@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -27,7 +27,7 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 
 >[!NOTE]
 >
->Al momento, la consegna rapida non è supportata per le campagne attivate dall’API per le notifiche push.
+>Al momento, la modalità Consegna rapida non è supportata per le campagne attivate dall’API per le notifiche push.
 
 ## Creare una campagna attivata da API {#create}
 
