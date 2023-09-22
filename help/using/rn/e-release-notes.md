@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
+source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 23%
+source-wordcount: '556'
+ht-degree: 21%
 
 ---
 
@@ -96,7 +96,8 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale Web**
 
-* Ora puoi selezionare le visualizzazioni specifiche a cui applicare le modifiche alla pagina web. Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento.
+* Le applicazioni a pagina singola (SPA) ora possono essere create nell’editor visivo web. Ora puoi selezionare le viste specifiche a cui applicare le modifiche alla pagina web. Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento. È necessaria la configurazione per sviluppatori una tantum per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK, in modo che gli esperti di marketing possano creare ed eseguire campagne web Adobe Journey Optimizer sull’SPA.
+
 * Quando modifichi una pagina utilizzando il designer Web, ora puoi aggiungere nuove modifiche al contenuto direttamente dal riquadro Modifiche, senza dover selezionare un componente e modificarlo dall’interfaccia del designer.
 * Durante la configurazione dei sottodomini web, ora puoi aggiungere un tuo sottodominio, oltre a utilizzare un sottodominio già delegato ad Adobe.
 
