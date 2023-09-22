@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 14b6ea7d0bf460cdab865f21977ab4bbe789ef7c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 6%
@@ -66,5 +66,3 @@ I passaggi principali per lavorare con Experience Decisioning sono i seguenti:
 1. **Creare strategie di selezione**: crea strategie di selezione che sfruttano raccolte, regole di decisione e metodi di classificazione per identificare gli elementi di decisione adatti per la visualizzazione nei profili.
 
 1. **Incorporare un criterio di decisione nella campagna basata su codice**: i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
-
-<!--## Glossary-->
