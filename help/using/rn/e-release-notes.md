@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 21%
+source-wordcount: '550'
+ht-degree: 24%
 
 ---
 
@@ -92,7 +92,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Avvisi**
 
-* Sono stati introdotti due nuovi tipi di avvisi di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata o una lettura del segmento non riesce.
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando una lettura del pubblico non riesce.
 
 **Canale Web**
 
@@ -103,13 +103,20 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Le funzionalità di risposta dell’azione personalizzata sono ora GA. Questo consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e di orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni doganali a 5000 chiamate/s per endpoint.
+* Il supporto delle risposte di azione personalizzate è ora GA. Questo consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e di orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni doganali a 5000 chiamate/s per endpoint.
 * Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso.
-* La durata massima che puoi definire nell’attività Attesa è ora di 29 giorni invece di 30.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **Canale e-mail**
 
 Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono nell’elenco di soppressione di Adobe Journey Optimizer.
+
+**Generazione rapporti**
+
+Ora puoi esportare i rapporti di Journey Optimizer come file CSV. [Ulteriori informazioni](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
