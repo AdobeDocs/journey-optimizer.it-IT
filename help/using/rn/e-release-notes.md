@@ -5,10 +5,10 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
+source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 24%
+source-wordcount: '586'
+ht-degree: 23%
 
 ---
 
@@ -113,6 +113,10 @@ Questa versione include i miglioramenti elencati di seguito.
 **Canale e-mail**
 
 Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono nell’elenco di soppressione di Adobe Journey Optimizer.
+
+**Canale SMS**
+
+Due nuovi campi, **Messaggio di Opt-in** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, che consente agli utenti di personalizzare le risposte per le parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch.
 
 **Generazione rapporti**
 
