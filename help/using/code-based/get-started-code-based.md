@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ Quando utilizzare il canale basato su codice anziché l’altro [!DNL Journey Op
 
 * È possibile utilizzare le esperienze basate su codice in qualsiasi momento quando non si accede alla proprietà digitale tramite un browser web o un’app mobile, nei casi in cui probabilmente è possibile utilizzare meglio [!DNL Journey Optimizer] [canale web](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} canale.
 
-* È possibile utilizzare il canale basato su codice in alternativa al [!DNL Journey Optimizer] canale web se il sito web non può essere caricato in [web visual editor](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale web.
+* È possibile utilizzare il canale basato su codice in alternativa al [!DNL Journey Optimizer] canale web se il sito web non può essere caricato in [web designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale web.
 
 * È inoltre possibile utilizzare il canale basato su codice come alternativa al [!DNL Journey Optimizer] canali web o in-app in caso di implementazione basata su API, headless o lato server.
 
@@ -104,9 +104,9 @@ Quando utilizzare il canale basato su codice anziché l’altro [!DNL Journey Op
 Per eseguire casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata su codice, ma a seconda del contesto, uno sarebbe più appropriato dell’altro. Le principali differenze sono elencate di seguito in modo da poter prendere una decisione informata su cosa utilizzare quando.
 
 **Web**
-* Modifica il contenuto utilizzando [editor visivo](../web/author-web.md){target="_blank"}.
+* Modifica il contenuto utilizzando [web designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} editor visivo.
 * Hai bisogno di [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
-* Il canale web consente di modificare tutto ciò che si trova sulla pagina e dispone di un elenco predefinito di azioni che puoi utilizzare per apportare modifiche. [Ulteriori informazioni](../web/author-web.md){target="_blank"}
+* Il canale web consente di modificare tutto ciò che si trova sulla pagina e dispone di un elenco predefinito di azioni che puoi utilizzare per apportare modifiche. [Ulteriori informazioni](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * È facile da configurare e andare veloce.
 * È incentrato sull’addetto al marketing.
 

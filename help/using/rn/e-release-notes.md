@@ -5,9 +5,9 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
+source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '588'
 ht-degree: 23%
 
 ---
@@ -96,9 +96,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale Web**
 
-* Le applicazioni a pagina singola (SPA) ora possono essere create nell’editor visivo web. Ora puoi selezionare le viste specifiche a cui applicare le modifiche alla pagina web. Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento. È necessaria la configurazione per sviluppatori una tantum per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK, in modo che gli esperti di marketing possano creare ed eseguire campagne web Adobe Journey Optimizer sull’SPA.
+* Le applicazioni a pagina singola (SPA) ora possono essere create nell’editor visivo di Web Designer. Ora puoi selezionare le viste specifiche a cui applicare le modifiche alla pagina web. Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento. È necessaria la configurazione per sviluppatori una tantum per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK; ciò consente agli addetti al marketing di creare ed eseguire campagne web di Adobe Journey Optimizer sull’SPA.
 
-* Quando modifichi una pagina utilizzando il designer Web, ora puoi aggiungere nuove modifiche al contenuto direttamente dal riquadro Modifiche, senza dover selezionare un componente e modificarlo dall’interfaccia del designer.
+* Quando modifichi una pagina utilizzando il designer Web, ora puoi aggiungere nuove modifiche al contenuto direttamente dal **Modifiche** senza dover selezionare un componente e modificarlo dall’interfaccia di progettazione.
 * Durante la configurazione dei sottodomini web, ora puoi aggiungere un tuo sottodominio, oltre a utilizzare un sottodominio già delegato ad Adobe.
 
 **Percorsi**
