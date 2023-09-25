@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pool, gruppo, sottodomini, recapito messaggi
+keywords: IP, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '295'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ Cosa troverai in questa documentazione di guida:
 * **[Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)**
 * [Creare campagne di riscaldamento IP](ip-warmup-campaign.md)
 * [Creare un piano di riscaldamento IP](ip-warmup-plan.md)
-* [Eseguire il piano di riscaldamento IP](ip-warmup-running.md)
+* [Eseguire il piano di riscaldamento IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Con [!DNL Journey Optimizer], è possibile eseguire facilmente flussi di lavoro 
 
 Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) sospettano che gli indirizzi IP non siano riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente, gli ISP spesso le contrassegnano come spam.
 
-Per evitare di essere contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione del piano di riscaldamento IP. Una nuova opzione in **[!UICONTROL Amministrazione]** consente di farlo in modo più fluido invece di creare percorsi giornalieri complessi. Ciò dovrebbe garantire un regolare sviluppo della fase di avvio e consentirti di ridurre il tasso complessivo di indirizzi non validi.
+Per evitare di essere contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione del piano di riscaldamento IP. Questa nuova opzione in **[!UICONTROL Amministrazione]** consente di farlo più facilmente in modo consolidato anziché creare percorsi giornalieri complessi. Ciò dovrebbe garantire un regolare sviluppo della fase di avvio e consentirti di ridurre il tasso complessivo di indirizzi non validi.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 I passaggi chiave per implementare un piano di riscaldamento IP sono i seguenti:
 
-1. Devi innanzitutto creare una o più campagne con l’opzione di riscaldamento IP abilitata. [Ulteriori informazioni](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. Devi innanzitutto creare una o più campagne con l’opzione di riscaldamento IP abilitata. [Ulteriori informazioni](ip-warmup-campaign.md)
 
-1. Creare un piano di riscaldamento IP in [!DNL Journey Optimizer] e caricare il foglio Excel precedentemente compilato con i dati di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Creare un piano di riscaldamento IP in [!DNL Journey Optimizer] e carica il foglio Excel preparato con l’aiuto del tuo consulente di recapito messaggi. [Ulteriori informazioni](ip-warmup-plan.md)
 
-1. Seleziona una campagna per ogni fase del piano e attiva le esecuzioni corrispondenti. [Ulteriori informazioni](ip-warmup-running.md)
+1. Seleziona una campagna per ogni fase del piano e attiva le esecuzioni corrispondenti. [Ulteriori informazioni](ip-warmup-execution.md)

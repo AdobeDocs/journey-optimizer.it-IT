@@ -6,13 +6,13 @@ description: Scopri come creare una campagna di riscaldamento IP
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, pool, gruppo, sottodomini, recapito messaggi
+level: Intermediate
+keywords: IP, pool, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '348'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Attiva l&#39;opzione del piano di riscaldamento IP"
->abstract="Selezionare l&#39;opzione di attivazione del piano di riscaldamento IP. Una volta che la campagna è attiva, può essere associata a un piano di riscaldamento IP."
+>abstract="Quando selezioni questa opzione, la campagna può essere utilizzata in un piano di riscaldamento IP. La pianificazione della campagna sarà quindi guidata dal piano di riscaldamento IP a cui è associata."
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ Cosa troverai in questa documentazione di guida:
 * [Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)
 * **[Creare campagne di riscaldamento IP](ip-warmup-campaign.md)**
 * [Creare un piano di riscaldamento IP](ip-warmup-plan.md)
-* [Eseguire il piano di riscaldamento IP](ip-warmup-running.md)
+* [Eseguire il piano di riscaldamento IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
    >
    >Scopri come selezionare il dominio e gli IP da utilizzare in un’area e-mail in [questa sezione](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Se necessario, rivolgiti al tuo consulente del team Deliverability per identificare il dominio e gli IP da utilizzare per il piano di riscaldamento dell’IP.<!--TBC-->
+   >Collabora con il tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare per il piano di riscaldamento dell’IP.<!--TBC-->
 
 1. Creare un [campagna](../campaigns/create-campaign.md) e seleziona la [E-mail](../email/create-email.md#create-email-journey-campaign) azione.
 
@@ -73,9 +73,9 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!NOTE]
    >
-   >Per una campagna live con il piano di riscaldamento IP attivato, il **[!UICONTROL Elimina]** finché non viene associato a un piano di riscaldamento IP. Una volta utilizzata in un piano di riscaldamento IP, la campagna non può più essere eliminata.
+   >Per una campagna live con il piano di riscaldamento IP attivato, il **[!UICONTROL Elimina]** finché non viene associato a un piano di riscaldamento IP. Una volta utilizzata in un piano, la campagna non può più essere eliminata.
 
-1. La campagna viene visualizzata in **[!UICONTROL Campagne]** elenco. Per recuperare facilmente tutte le campagne di riscaldamento IP create nella sandbox corrente, puoi filtrare per opzione la campagna **[!UICONTROL Riscaldamento IP]**.
+1. La campagna viene visualizzata in **[!UICONTROL Campagne]** elenco. Per recuperare facilmente tutte le campagne di riscaldamento IP create nella sandbox corrente, puoi filtrare in base al **[!UICONTROL Riscaldamento IP]** opzione della campagna.
 
    ![](assets/ip-warmup-campaign-filter.png)
 

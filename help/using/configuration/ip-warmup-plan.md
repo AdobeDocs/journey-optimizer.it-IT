@@ -2,18 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Creare un piano di riscaldamento IP
-description: Scopri come creare un piano di riscaldamento IP
+description: Scopri come creare un piano di riscaldamento IP in Journey Optimizer
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pool, gruppo, sottodomini, recapito messaggi
+keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 5%
+source-wordcount: '825'
+ht-degree: 4%
 
 ---
 
@@ -26,15 +26,19 @@ Cosa troverai in questa documentazione di guida:
 * [Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)
 * [Creare campagne di riscaldamento IP](ip-warmup-campaign.md)
 * **[Creare un piano di riscaldamento IP](ip-warmup-plan.md)**
-* [Eseguire il piano di riscaldamento IP](ip-warmup-running.md)
+* [Eseguire il piano di riscaldamento IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
 Una volta creati uno o più [Campagne di riscaldamento IP](ip-warmup-campaign.md) con una superficie dedicata e l’opzione corrispondente abilitata, puoi iniziare a creare il piano di riscaldamento IP.
 
-## Compila il modello di riscaldamento IP {#upload-plan}
+## Preparare il file del piano di riscaldamento IP {#prepare-file}
 
-Prima di poter creare un piano di riscaldamento IP nell’interfaccia di Journey Optimizer, è necessario compilare un modello in formato Excel con tutti i dati che alimenteranno il piano.
+Il riscaldamento dell’IP è un’attività che consiste nell’aumentare gradualmente il volume di e-mail che escono dagli IP e dal dominio verso i principali provider di servizi Internet (ISP) - al fine di stabilire la tua reputazione di mittente legittimo.
+
+Questa attività viene tipicamente eseguita con l’aiuto di un esperto di recapito messaggi che aiuta a preparare un piano ben pensato basato sui domini del settore, sui casi d’uso, sulle aree geografiche, sugli ISP e su vari altri fattori.
+
+Quando si lavora con [!DNL Journey Optimizer] Caratteristica di riscaldamento IP, questo piano assume la forma di un file Excel che deve contenere una serie di colonne predefinite. Prima di poter creare un piano di riscaldamento IP in [!DNL Journey Optimizer] è necessario compilare questo modello con tutti i dati che alimenteranno il piano.
 
 >[!CAUTION]
 >
@@ -46,19 +50,16 @@ Di seguito è riportato un esempio di file contenente un piano di riscaldamento 
 
 ### Scheda Piano di riscaldamento IP
 
-Il riscaldamento dell’IP è un’attività che consiste nell’aumentare gradualmente il volume di e-mail che escono dagli IP e dal dominio verso i principali provider di servizi Internet (ISP) al fine di stabilire la tua reputazione di mittente legittimo.
+* In questo esempio, è stato preparato un piano che si estende su 17 giorni (denominato &quot;**esecuzioni**&quot;) per raggiungere un volume target di oltre 1 milione di profili.
 
-Questa attività viene tipicamente eseguita con l’aiuto di un consulente o esperto di recapito messaggi che prepara un piano ben pensato in base al dominio del settore, al caso d’uso, all’area geografica, agli ISP e a vari altri fattori.
+* Il piano viene eseguito fino al 6 **fasi**, ciascuno contenente almeno una sequenza.
 
-* In questo esempio, è stato preparato un piano che si estende su 17 giorni per raggiungere un volume target di xxx profili.
+* Puoi avere tutte le colonne che desideri per i domini a cui desideri recapitare. In questo esempio, il piano è diviso in 6 colonne: 5 di cui corrispondono al **gruppi di domini principali** da utilizzare nel piano (Gmail, Microsoft, Yahoo, Orange e Apple) e nella sesta colonna, **Altro**, contiene tutti gli indirizzi rimanenti da altri domini.
+* Il **Giorni di coinvolgimento** mostra che solo i profili coinvolti con il tuo marchio negli ultimi 30 giorni sono oggetto di targeting.
 
-* Il piano prevede 6 fasi.
+L’idea è quella di aumentare progressivamente il numero di indirizzi target in ogni esecuzione, riducendo al contempo il numero di esecuzioni per ogni fase.
 
-* Puoi avere tutte le colonne che desideri per i domini a cui desideri recapitare. In questo esempio, il piano è diviso in quattro colonne che corrispondono ai gruppi di dominio da utilizzare nel piano: Gmail, Adobe, Yahoo e Altri.
-
-L’idea è quella di avere più esecuzioni nelle prime fasi e di aumentare progressivamente il numero di indirizzi mirati, riducendo nel contempo il numero di esecuzioni.
-
-L’elenco dei domini predefiniti è il seguente:
+Di seguito sono elencati i gruppi di dominio principali predefiniti che è possibile aggiungere al piano:
 
 * Gmail
 * Adobe
@@ -78,9 +79,11 @@ L’elenco dei domini predefiniti è il seguente:
 
 ### Scheda Gruppo di dominio personalizzato
 
-Puoi anche aggiungere altre colonne con i gruppi di dominio personalizzati.
+Puoi anche aggiungere più colonne al piano includendo gruppi di dominio personalizzati.
 
-Utilizza il **[!UICONTROL Gruppo di dominio personalizzato]** per definire un nuovo dominio e per ciascun dominio puoi aggiungere tutti i sottodomini coperti.<!--TBC-->
+Utilizza il **[!UICONTROL Gruppo di dominio personalizzato]** per definire un nuovo gruppo di dominio. Per ogni dominio, puoi aggiungere tutti i sottodomini coperti.<!--TBC-->
+
+Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguenti sottodomini: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, ecc.
 
 ## Accesso e gestione dei piani di riscaldamento IP {#manage-ip-warmup-plans}
 
@@ -90,12 +93,12 @@ Utilizza il **[!UICONTROL Gruppo di dominio personalizzato]** per definire un nu
 
 1. Puoi filtrare in base allo stato. I diversi stati sono:
 
-   * **Non avviato**: non è stata ancora attivata alcuna esecuzione. [Ulteriori informazioni](ip-warmup-running.md#define-runs)
-   * **In corso / Live**: il piano assume questo stato non appena la prima esecuzione nella prima fase è stata attivata correttamente. [Ulteriori informazioni](ip-warmup-running.md#define-runs)
-   * **Completato**: il piano è stato contrassegnato come completato. Questa opzione è disponibile solo se tutte le esecuzioni del piano sono in **[!UICONTROL Completato]** o **[!UICONTROL Bozza]** stato (nessuna esecuzione può essere **[!UICONTROL Live]**). [Ulteriori informazioni](ip-warmup-running.md#define-runs#mark-as-completed)
-   * **In pausa**<!--: to check (user action)-->
+   * **Non avviato**: non è stata ancora attivata alcuna esecuzione. [Ulteriori informazioni](ip-warmup-execution.md#define-runs)
+   * **Live**: il piano passa a questo stato non appena la prima esecuzione nella prima fase è stata attivata correttamente. [Ulteriori informazioni](ip-warmup-execution.md#define-runs)
+   * **Completato**: il piano è stato contrassegnato come completato. Questa opzione è disponibile solo se tutte le esecuzioni del piano sono in **[!UICONTROL Completato]** o **[!UICONTROL Bozza]** stato (nessuna esecuzione può essere **[!UICONTROL Live]**). [Ulteriori informazioni](ip-warmup-execution.md#define-runs#mark-as-completed)
+     <!--* **Paused**: to check (user action)-->
 
-1. Per eliminare un piano di riscaldamento IP, selezionare **[!UICONTROL Elimina]** accanto a una voce di elenco e confermare l&#39;eliminazione.
+1. Per eliminare un piano di riscaldamento IP, selezionare **[!UICONTROL Elimina]** accanto al nome di un piano e confermare l&#39;eliminazione.
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -122,8 +125,6 @@ Quando una o più campagne live con **[!UICONTROL Attivazione del piano di risca
 >[!CAUTION]
 >
 >Per creare, modificare ed eliminare i piani di riscaldamento IP, è necessario disporre del **[!UICONTROL Consulente per il recapito messaggi]** autorizzazione. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
->
->Rivolgiti al tuo consulente di recapito messaggi per assicurarti che il modello di piano di riscaldamento IP sia configurato correttamente. <!--TBC-->
 
 1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Piani di riscaldamento IP]** , quindi fai clic su **[!UICONTROL Crea piano di riscaldamento IP]**.
 
@@ -137,24 +138,15 @@ Quando una o più campagne live con **[!UICONTROL Attivazione del piano di risca
 
    >[!CAUTION]
    >
-   >Devi selezionare la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP. [Scopri come creare una campagna di riscaldamento IP](#create-ip-warmup-campaign)
+   >Devi selezionare la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP. [Scopri come creare una campagna di riscaldamento IP](ip-warmup-campaign.md)
 
-1. Carica il file Excel contenente il tuo piano di riscaldamento IP<!--which formats are allowed?-->. Puoi utilizzare il modello fornito dal team di recapito messaggi.<!--TBC?--> [Ulteriori informazioni](#upload-plan)
+1. Carica il file Excel contenente il piano di riscaldamento IP. [Ulteriori informazioni](#prepare-file)
+
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.-->
 
    ![](assets/ip-warmup-upload-success.png)
 
-1. Fai clic su **[!UICONTROL Crea]**. Il numero di fasi definite nel file caricato viene visualizzato automaticamente in tutte le esecuzioni di ogni fase. [Ulteriori informazioni](#upload-plan)
+1. Fai clic su **[!UICONTROL Crea]**. Tutte le fasi, le esecuzioni, le colonne e il relativo contenuto definito nel file caricato vengono visualizzati automaticamente nel [!DNL Journey Optimizer] di rete. [Ulteriori informazioni](ip-warmup-execution.md)
 
-   ![](assets/ip-warmup-plan-phases.png)
-
-## Ricarica un piano di riscaldamento IP {#re-upload-plan}
-
-Puoi ricaricare un altro piano di riscaldamento IP utilizzando il pulsante corrispondente.
-
-![](assets/ip-warmup-re-upload-plan.png)
-
->[!NOTE]
->
->I dettagli del piano di riscaldamento IP cambiano in base al file appena caricato. Non influisce sulle esecuzioni complete e attivate.
+   ![](assets/ip-warmup-plan-uploaded.png)
