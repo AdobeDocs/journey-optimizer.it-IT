@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '293'
 ht-degree: 7%
 
 ---
@@ -71,6 +71,6 @@ I passaggi chiave per implementare un piano di riscaldamento IP sono i seguenti:
 
 1. Devi innanzitutto creare una o più campagne con l’opzione di riscaldamento IP abilitata. [Ulteriori informazioni](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. Crea un piano di riscaldamento IP e carica il tuo piano. [Ulteriori informazioni](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Creare un piano di riscaldamento IP in [!DNL Journey Optimizer] e caricare il foglio Excel precedentemente compilato con i dati di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. Seleziona una campagna per ogni fase del piano e attiva le esecuzioni corrispondenti. [Ulteriori informazioni](ip-warmup-running.md)

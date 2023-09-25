@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '1014'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,12 @@ Cosa troverai in questa documentazione di guida:
 * **[Eseguire il piano di riscaldamento IP](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+Una volta che [ha creato un piano di riscaldamento IP](ip-warmup-plan.md) e caricato il file preparato con il tuo consulente del team Deliverability, puoi definire le fasi ed eseguire nel piano.
+
+Ogni fase corrisponde a un periodo composto da più esecuzioni, a cui si assegna una singola campagna.
+
+Per ogni esecuzione, hai un certo numero di destinatari e pianifichi quando verrà eseguita.
 
 ## Definire le fasi {#define-phases}
 
@@ -96,7 +102,7 @@ A livello di fase, il sistema assicura che i profili target + nuovi vengano sele
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Seleziona un’ora di fine, che definisce la finestra all’interno della quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nell’esecuzione del processo di segmentazione del pubblico. Se non viene specificato un orario di fine, l’esecuzione viene tentata all’orario di inizio e avrà esito negativo se la segmentazione non è stata completata.
+1. Facoltativamente, seleziona la finestra all’interno della quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nell’esecuzione del processo di segmentazione del pubblico. Se non viene specificato un orario di fine, l’esecuzione viene tentata all’orario di inizio e avrà esito negativo se la segmentazione non è stata completata.
 
 1. Attiva ogni esecuzione. Assicurati di pianificare con un tempo sufficiente per consentire l’esecuzione del processo di segmentazione. <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## Monitorare il piano
+## Contrassegna un piano come completato {#mark-as-completed}
 
-Un’esecuzione può avere i seguenti stati<!--TBC with Medha-->:
+Se le prestazioni del piano non sono sufficienti o se si desidera eliminarlo per crearne un altro, è possibile contrassegnarlo come completato.
 
-* **[!UICONTROL Completato]**:
-* **[!UICONTROL Non riuscito]**:
-* **[!UICONTROL Annullato]**: l’esecuzione è stata interrotta prima dell’avvio dell’esecuzione della campagna.
+A tale scopo, fare clic sul pulsante **[!UICONTROL Altro]** in alto a destra, vai al piano di riscaldamento IP e seleziona **[!UICONTROL Contrassegna come completato]**.
 
-Vantaggi :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* I rapporti continueranno a essere visualizzati a livello di campagna con funzionalità simili a quelle attuali. Ma il piano di riscaldamento dell&#39;IP funge anche da rapporto consolidato in un unico luogo di quante esecuzioni sono state effettuate e così via.
+Questa opzione è disponibile solo se tutte le esecuzioni del piano sono in **[!UICONTROL Completato]** o **[!UICONTROL Bozza]** stato. Nessuna esecuzione può essere **[!UICONTROL Live]**.
 
-* Un’unica posizione per gestire e visualizzare l’avanzamento degli indirizzi IP caldi.
+I diversi stati di esecuzione sono elencati in [questa sezione](#monitor-plan).
 
-* Rapporto consolidato a livello creativo/campagna in quanto tutti i dati vengono eseguiti per una fase
+## Monitorare il piano {#monitor-plan}
+
+Per misurare l’impatto del piano, puoi controllare le prestazioni delle campagne di riscaldamento IP utilizzando i rapporti. Ulteriori informazioni sono disponibili nel messaggio e-mail della campagna [rapporto live](../reports/campaign-live-report.md#email-live) e [rapporto globale](../reports/campaign-global-report.md##email-global).
+
+Lo stesso piano di riscaldamento dell’IP funge anche da rapporto consolidato in un’unica posizione. Puoi controllare elementi come il numero di **[!UICONTROL Live]** o **[!UICONTROL Completato]** viene eseguito per ogni fase e visualizza l’avanzamento del piano di riscaldamento IP.
+
+Un’esecuzione può avere i seguenti stati:
+
+* **[!UICONTROL Bozza]** : ogni volta che viene creata un’esecuzione, quando [caricamento di un nuovo piano](ip-warmup-plan.md) o [aggiunta di un&#39;esecuzione](#define-runs) dall&#39;interfaccia utente, accetta **[!UICONTROL Bozza]** stato.
+* **[!UICONTROL Live]**: ogni volta che attivi un’esecuzione, vengono richiesti **[!UICONTROL Live]** stato.
+* **[!UICONTROL Completato]**<!--TBC-->: l’esecuzione della campagna per questa esecuzione è completata. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Annullato]**: a **[!UICONTROL Live]** esecuzione annullata utilizzando **[!UICONTROL Interrompi]** pulsante. Questo pulsante è disponibile solo se l’esecuzione della campagna non è stata avviata. [Ulteriori informazioni](#define-runs)
+* **[!UICONTROL Non riuscito]**: il sistema ha rilevato un errore o la campagna utilizzata per la fase corrente è stata interrotta<!--what should the user do in that case?-->.
