@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: ac1a9840123f52daca1c18b7f7c0f07af63bae2c
+source-git-commit: 4c148733f2c6046c352135757d4a378b4bbb948e
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1337'
 ht-degree: 1%
 
 ---
@@ -41,13 +41,11 @@ Ogni fase è composta da più esecuzioni, alle quali si assegna una singola camp
 >title="Escludere i tipi di pubblico delle campagne"
 >abstract="Seleziona i tipi di pubblico da altre campagne da escludere dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di riscaldamento dell’IP non verranno nuovamente oggetto di targeting."
 
-<!--
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
->title="Exclude domain groups"
->abstract="Select the domains that you want to exclude from the current phase. Domain exclusion requires a non-executed phase, so you may have to split a running phase to add exclusions."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-running.html#split-phase" text="Split a phase"
--->
+>title="Escludi gruppi di dominio"
+>abstract="Seleziona i domini da escludere dalla fase corrente. L’esclusione del dominio richiede una fase non eseguita, quindi potrebbe essere necessario dividere una fase in esecuzione per aggiungere esclusioni."
+>additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividere una fase"
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
