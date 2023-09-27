@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '349'
 ht-degree: 7%
 
 ---
@@ -39,94 +39,15 @@ Per effettuare chiamate a [!DNL Adobe Experience Platform] , devi prima completa
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`
 * `x-gw-ims-org-id: {IMS_ORG}`
+* `x-sandbox-name: {SANDBOX_NAME}`
 
 Tutte le richieste che contengono un payload (POST, PUT, PATCH) richiedono un’intestazione aggiuntiva:
 
 * `Content-Type: application/json`
 
-## Gestire l’accesso a un contenitore {#manage-access-to-container}
-
-Un contenitore è un meccanismo di isolamento per tenere separate le diverse preoccupazioni. L’ID contenitore è il primo elemento percorso per tutte le API dell’archivio. Tutti gli oggetti decisioning si trovano all’interno di un contenitore.
-
-Un amministratore può raggruppare entità principali e risorse simili e accedere alle autorizzazioni nei profili. Ciò riduce il carico di gestione ed è supportato da [Adobe Admin Console](https://adminconsole.adobe.com/). Per creare profili e assegnare utenti a Adobe Experience Platform nella tua organizzazione, devi essere amministratore di prodotto. È sufficiente creare profili di prodotto che soddisfino determinate autorizzazioni in un unico passaggio e quindi aggiungere semplicemente gli utenti a tali profili. I profili fungono da gruppi ai quali sono state concesse autorizzazioni e ogni utente reale o tecnico di quel gruppo eredita tali autorizzazioni.
-
-Dati i privilegi di amministratore, puoi concedere o revocare le autorizzazioni agli utenti tramite [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}. For more information, see the [Access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"}.
-
-### Elencare i contenitori accessibili agli utenti e alle integrazioni {#list-containers-accessible-to-users-and-integrations}
-
-**Formato API**
-
-```http
-GET /{ENDPOINT_PATH}?product={PRODUCT_CONTEXT}&property={PROPERTY}==decisioning
-```
-
-| Parametro | Descrizione | Esempio |
-| --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{PRODUCT_CONTEXT}` | Filtra l’elenco dei contenitori in base alla loro associazione ai contesti di prodotto. | `acp` |
-| `{PROPERTY}` | Filtra il tipo di contenitore restituito. | `_instance.containerType==decisioning` |
-
-**Richiesta**
-
-```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/?product=acp&property=_instance.containerType==decisioning' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
-```
-
-**Risposta**
-
-In caso di esito positivo, la risposta restituisce le informazioni relative ai contenitori di gestione delle decisioni. Ciò include un `instanceId` , il cui valore corrisponde all&#39;ID del contenitore.
-
-```json
-{
-    "_embedded": {
-        "https://ns.adobe.com/experience/xcore/container": [
-            {
-                "instanceId": "{INSTANCE_ID}",
-                "schemas": [
-                    "https://ns.adobe.com/experience/xcore/container;version=0.5"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 2,
-                "repo:createdDate": "2020-09-16T07:54:28.319959Z",
-                "repo:lastModifiedDate": "2020-09-16T07:54:32.098139Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_instance": {
-                    "containerType": "decisioning",
-                    "repo:name": "{REPO_NAME}",
-                    "dataCenter": "{DATA_CENTER}",
-                    "parentName": "{PARENT_NAME}",
-                    "parentId": "{PARENT_ID}"
-                },
-                "_links": {
-                    "self": {
-                        "href": "/containers/{INSTANCE_ID}"
-                    }
-                }
-            }
-        ]
-    },
-    "_links": {
-        "self": {
-            "href": "/?product=acp&property=_instance.containerType==decisioning",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/home"
-        }
-    }
-}
-```
-
 ## Passaggi successivi {#next-steps}
 
-In questo documento sono state trattate le conoscenze preliminari necessarie per effettuare chiamate [!DNL Offer Library] API, inclusa l’acquisizione dell’ID contenitore. Ora puoi passare alle chiamate di esempio fornite in questa guida per sviluppatori e seguire le loro istruzioni.
+In questo documento sono state trattate le conoscenze preliminari necessarie per effettuare chiamate [!DNL Offer Library] API. Ora puoi passare alle chiamate di esempio fornite in questa guida per sviluppatori e seguire le loro istruzioni.
 <!--
 >[!NOTE]
 >

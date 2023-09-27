@@ -6,43 +6,41 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 11%
 
 ---
 
 # Eliminare una raccolta {#delete-collection}
 
-Talvolta può essere necessario rimuovere (DELETE) una raccolta. È possibile eliminare solo le raccolte create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] tramite l’API $id della raccolta da eliminare.
+Talvolta può essere necessario rimuovere (DELETE) una raccolta. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API tramite `id` della raccolta che desideri eliminare.
 
 **Formato API**
 
 ```http
-DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+DELETE /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID istanza della raccolta da aggiornare. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
+| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps` |
+| `{ID}` | ID dell’entità da eliminare. | `offerCollection1234` |
 
 **Richiesta**
 
 ```shell
-curl -X DELETE \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0bf31c20-13f1-11eb-a752-e58fd7dc4cb3' \
-  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer  {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce lo stato HTTP 202 (nessun contenuto) e un corpo vuoto.
+In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) alla raccolta. Dovrai includere un’intestazione Accept nella richiesta, ma dovresti ricevere lo stato HTTP 404 (Non trovato) perché la raccolta è stata rimossa dal contenitore.
+Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) alla raccolta. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la raccolta è stata rimossa.
