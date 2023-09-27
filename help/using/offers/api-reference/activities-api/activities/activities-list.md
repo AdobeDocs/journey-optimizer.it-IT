@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 0d2a5d566a9bc328ebe8ec0f88bb6a7127f6624d
+source-git-commit: 8071bcf194a7cbf1ba00011e5deba1e6296cf708
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 7%
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
@@ -49,13 +49,11 @@ Puoi utilizzare i parametri di query per visualizzare e filtrare i risultati qua
 
 I parametri di query più comuni per il paging includono:
 
-| Descrizione parametro | Esempio |
-|------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| `property` | Un filtro proprietà facoltativo: |
-- Le proprietà sono raggruppate per operazione AND.
-- I parametri possono essere ripetuti come segue: `property=<property-expr>[&property=<property-expr2>...]` o `property=<property-expr1>[,<property-expr2>...]`
-- Le espressioni di proprietà sono nel formato `[!]field[op]value`, con op in `[==,!=,<=,>=,<,>,~]`, supporto di espressioni regolari | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` | | `orderBy`  | Ordina i risultati per una proprietà specifica. Aggiunta di un `-` prima di nome (orderby=-name) gli elementi verranno ordinati in base al nome in ordine decrescente (Z-A). Le espressioni di percorso sono sotto forma di percorsi separati da punti. Questo parametro può essere ripetuto come segue: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name`                    | | `limit`    | Limita il numero di entità restituite. | `limit=5`                                |
-
+| Parametro | Descrizione | Esempio |
+| --------- | ----------- | ------- |
+| `property` | Un filtro proprietà facoltativo: <br> <ul> - Le proprietà sono raggruppate per operazione AND. <br><br> - I parametri possono essere ripetuti come segue: property=<property-expr>[&amp;property=<property-expr2>...] or property=<property-expr1>[&amp;<property-expr2>...] <br><br> - Le espressioni di proprietà sono in formato [!]campo[op]valore, con op in [==!=,&lt;=,>=,&lt;,>,~], supporto di espressioni regolari | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un segno - prima del nome (orderby=-name), gli elementi verranno ordinati in base al nome in ordine decrescente (Z-A). Le espressioni di percorso sono sotto forma di percorsi separati da punti. Questo parametro può essere ripetuto come segue: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `limit` | Limita il numero di entità restituite. | `limit=5` |
 
 **Risposta**
 
