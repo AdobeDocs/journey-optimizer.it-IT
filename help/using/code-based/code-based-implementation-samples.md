@@ -8,9 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 5%
 
 ---
@@ -114,7 +115,7 @@ Se disponi di un’implementazione lato server, puoi utilizzare una delle API di
 ### Come funziona
 
 1. La pagina web viene richiesta ed eventuali cookie memorizzati in precedenza dal browser con prefisso `kndctr_` sono inclusi.
-1. Quando la pagina viene richiesta dal server dell’app, viene inviato un evento al [endpoint di raccolta dati interattivo](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) per recuperare il contenuto di personalizzazione. Questa app di esempio utilizza alcuni metodi di supporto per semplificare la creazione e l’invio di richieste all’API (vedi [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Ma la richiesta è semplicemente un `POST` con un payload che contiene un evento e una query. I cookie (se disponibili) della fase precedente sono inclusi nella richiesta nel `meta>state>entries` array.
+1. Quando la pagina viene richiesta dal server dell’app, viene inviato un evento al [endpoint di raccolta dati interattivo](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) per recuperare il contenuto di personalizzazione. Questa app di esempio utilizza alcuni metodi di supporto per semplificare la creazione e l’invio di richieste all’API (vedi [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Ma la richiesta è semplicemente un `POST` con un payload che contiene un evento e una query. I cookie (se disponibili) della fase precedente sono inclusi nella richiesta nel `meta>state>entries` array.
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di 
 
 * Adobe di blog tecnico: [Personalizzazione ibrida in Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentazione SDK: [Personalizzazione ibrida tramite Web SDK e API del server di rete Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

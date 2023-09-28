@@ -1,0 +1,111 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Rapporti sul canale
+description: Introduzione ai rapporti sul canale
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+source-git-commit: e812621c0b365e07432f6b517a012cf59c37f01f
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 1%
+
+---
+
+# Introduzione ai rapporti sul canale {#channel-report-gs}
+
+I rapporti per canale fungono da potente strumento che fornisce una panoramica completa delle metriche di traffico e coinvolgimento in un rapporto unificato per ciascun canale, includendo tutte le azioni di tutte le campagne e i Percorsi. È divisa in diversi widget, ciascuno dei quali fornisce una visualizzazione specifica delle prestazioni della campagna o del percorso.
+
+I rapporti Canale sono completamente personalizzabili, per cui puoi ridimensionare o rimuovere widget per creare una dashboard che soddisfi le tue esigenze specifiche. Puoi anche esportare i dati del rapporto in un file PDF o CSV per ulteriori analisi.
+
+Per ulteriori informazioni sulle diverse metriche e widget disponibili per i rapporti Canale, consulta [pagina](channel-report.md).
+
+## Prima di iniziare {#manage-reports-prereq}
+
+Prima di iniziare, verifica di avere accesso a **[!UICONTROL Rapporti]** menu.
+
+Se non riesci a visualizzare **[!UICONTROL Rapporti]** , i tuoi diritti di accesso devono essere estesi per includere **[!UICONTROL Visualizzare i rapporti sul canale]** autorizzazione. Puoi estendere le tue autorizzazioni, se hai accesso a Adobe Experience Platform [Autorizzazioni](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it){target="_blank"} per la tua organizzazione. In caso contrario, contattare l&#39;amministratore di Adobe Journey Optimizer.
+
++++Scopri come assegnare le autorizzazioni per i rapporti
+
+Questa autorizzazione è inclusa nei seguenti elementi incorporati **[!UICONTROL Ruoli]**: Responsabile di Campaign, Approvatore di Campaign, Visualizzatore di Campagne e Amministratore di Campaign.
+
+Per assegnare l&#39;autorizzazione corrispondente al **[!UICONTROL Ruolo]**:
+
+1. Dalla sezione [!DNL Permissions] prodotto, passare alla **[!UICONTROL Ruoli]** e selezionare il ruolo che si desidera aggiornare con il nuovo **[!UICONTROL Visualizzare i rapporti sul canale]** autorizzazione.
+
+1. Dal tuo **[!UICONTROL Ruolo]** dashboard, fai clic su **[!UICONTROL Modifica]**.
+
+   ![](assets/channel_permission_1.png)
+
+1. Trascina la **[!UICONTROL Report]** risorsa per assegnare le autorizzazioni.
+
+   Dalla sezione **[!UICONTROL Report]** risorse, seleziona la **[!UICONTROL Visualizzare i rapporti sul canale]** autorizzazione.
+
+   ![](assets/channel_permission_2.png)
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+Utenti assegnati a questo **[!UICONTROL Ruolo]** ora possono accedere al **[!UICONTROL Rapporti]** menu.
+
++++
+
+## Gestire la dashboard dei report {#manage-reports}
+
+Per accedere e gestire i rapporti sui canali, segui questi passaggi:
+
+1. Accedi a **[!UICONTROL Rapporti]** menu all&#39;interno di **[!UICONTROL Gestione percorso]** sezione.
+
+   ![](assets/channel_report_1.png)
+
+1. Dal dashboard, scegli un **Inizio** e **[!UICONTROL Ora di fine]** per eseguire il targeting di dati specifici.
+
+1. Dalla sezione **[!UICONTROL Azione da]** , seleziona se desideri eseguire il targeting di campagne, Percorsi o entrambi.
+
+   ![](assets/channel_report_2.png)
+
+1. Clic **[!UICONTROL Modifica]** per ridimensionare o rimuovere widget per creare un dashboard che soddisfi le tue esigenze specifiche.
+
+   ![](assets/channel_report_3.png)
+
+1. Quando si è soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fare clic su **[!UICONTROL Salva]**.
+
+1. A seconda del widget, è possibile scegliere di passare da una tabella, un grafico a barre o una ciambella.
+
+1. Fai clic sull’icona della percentuale per visualizzare i dati come percentuali.
+
+   ![](assets/channel_report_4.png)
+
+## Esportare i rapporti {#export-reports}
+
+Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli, manipolarli o stamparli. I passaggi dettagliati per esportare i rapporti sui canali sono disponibili nelle seguenti schede:
+
+>[!BEGINTABS]
+
+>[!TAB Esportare il report come file PDF]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+
+1. Nella finestra Stampa configurare il documento in base alle esigenze. Le opzioni possono variare a seconda del browser in uso.
+
+1. Scegliere se stampare o salvare il report come PDF.
+
+1. Individuare la cartella in cui si desidera salvare il file, rinominarlo, se necessario, e fare clic su Salva.
+
+Il report è ora disponibile per la visualizzazione o la condivisione in un file pdf.
+
+>[!TAB Esportare il rapporto come file CSV]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
+
+1. Puoi anche scegliere di esportare i dati da un widget specifico. Clic **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
+
+1. Il file viene scaricato automaticamente e si trova nei file locali.
+
+   Se hai generato il file a livello di report, contiene informazioni dettagliate per ciascun widget, inclusi il titolo e i dati.
+
+   Se hai generato il file a livello di widget, fornisce specificamente i dati per il widget selezionato.
+
+>[!ENDTABS]

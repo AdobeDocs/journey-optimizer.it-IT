@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 10%
 
 ---
@@ -31,14 +31,17 @@ Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa att
 
 Questo tipo di evento può essere posizionato come primo passaggio o successivamente nel percorso.
 
->[!IMPORTANT]
->
->Tieni presente che i tipi di pubblico di Adobe Experience Platform vengono calcolati una volta al giorno (**batch** pubblico) o in tempo reale (**streaming** pubblico, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
->
->Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale. Se il pubblico è batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso quando il calcolo del pubblico viene eseguito su Adobe Experience Platform.
->
->I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business.
+### Note importanti{#important-notes-segment-qualification}
 
+* Tieni presente che i tipi di pubblico di Adobe Experience Platform vengono calcolati una volta al giorno (**batch** pubblico) o in tempo reale (**streaming** pubblico, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
+
+* Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale. Se il pubblico è batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso quando il calcolo del pubblico viene eseguito su Adobe Experience Platform.
+
+* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business.
+
+* Quando si utilizza una qualificazione del pubblico in un percorso, l’attività di qualificazione del pubblico può richiedere fino a 10 minuti per essere attiva e ascoltare i profili che entrano o escono dal pubblico.
+
+### Configurare l’attività{#cnfigure-segment-qualification}
 
 1. Espandi la **[!UICONTROL Eventi]** categoria e rilascia una **[!UICONTROL Qualificazione del pubblico]** attività nell’area di lavoro.
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3596'
-ht-degree: 92%
+source-wordcount: '3695'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,19 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Settembre 2023 {#september-2023}
 
+* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di settembre 2023 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* È stata aggiunta una nuova pagina con le best practice per la scalabilità e le indicazioni sull’unione in tempo reale. [Ulteriori informazioni](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* È stata aggiunta una sezione Domande frequenti per Ottimizzazione dell’ora di invio. [Ulteriori informazioni](../building-journeys/journeys-message.md#faq-send-time)
+* È stata aggiunta una nota per l’attività di qualificazione del pubblico. Potrebbero essere necessari fino a 10 minuti per essere attivi e per ascoltare i profili che entrano nel pubblico o lo escono. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Nella documentazione di gestione delle decisioni è stato aggiunto un elenco di limitazioni di cui tenere conto durante la creazione delle regole di decisione. [Ulteriori informazioni](../offers/offer-library/creating-decision-rules.md)
+* I collegamenti alla documentazione sul controllo degli accessi sono stati aggiornati. [Ulteriori informazioni](../administration/permissions.md)
+* I prerequisiti del canale in-app sono stati aggiornati con i dettagli di Raccolta dati di Adobe Experience Platform. [Ulteriori informazioni](../in-app/inapp-configuration.md)
+
+
+
 
 ## Agosto 2023 {#august-2023}
 

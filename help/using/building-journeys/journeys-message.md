@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 22%
+source-wordcount: '1108'
+ht-degree: 17%
 
 ---
 
@@ -119,6 +119,24 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa 
 >[!CAUTION]
 >
 >Questa funzione non è compatibile con la modalità burst.
+
+### Domande frequenti {#faq-send-time}
+
+Quali operazioni può eseguire l’ottimizzazione dell’ora di invio? In che modo gestisce i nuovi profili? Distribuisce l’invio nell’arco di un’ora 6/12/24?
+
+Send-Time Optimization cerca di prevedere il momento migliore per interagire con i clienti e ottimizzare le percentuali di apertura e clic sulle e-mail. Il punteggio è in un formato `3*7*24` attributi per ciascun profilo. Il `7*24` gli attributi descrivono la classificazione del momento migliore previsto per inviare e-mail al destinatario e 3 serve per ottimizzare il tasso di apertura delle e-mail, il tasso di clic e il tasso di apertura push.
+
+Dove posso trovare il tempo di invio previsto per ciascun profilo?
+
+Puoi vedere il punteggio complessivo in **Profili** di rete. Per ciascuno dei tre set di 168 punteggi, la classifica va da -83 a 84. Più alto è il rango, migliore è il momento scelto per interagire con il destinatario. Poiché è possibile definire l&#39;inizio e la durata di un percorso, la classificazione migliore (84) potrebbe non rientrare in tale intervallo di tempo. In questo caso, consigliamo di scegliere un’ora con il valore di classificazione più alto.
+
+Quali rapporti sono disponibili?
+
+Accedi al percorso, fai clic su **Visualizza rapporto** in alto a destra e seleziona il pulsante **Percorso** a sinistra. [Ulteriori informazioni](../reports/journey-global-report.md)
+
+In che modo i dati di ottimizzazione dell’ora di invio influiscono sulla ricchezza del profilo?
+
+L’ottimizzazione dell’ora di invio aggiunge il punteggio/attributi a ciascun profilo, ma non ne viene creato uno nuovo.
 
 ### Attivare l’ottimizzazione dell’ora di invio{#activate-send-time-optimization}
 

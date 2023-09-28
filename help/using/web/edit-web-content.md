@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 17%
+source-wordcount: '1114'
+ht-degree: 16%
 
 ---
 
@@ -166,6 +166,8 @@ In questa sezione vengono descritti i diversi modi in cui è possibile spostarsi
 Dalla sezione **[!UICONTROL Sfoglia]** in modalità, puoi passare alla pagina esatta dalla superficie selezionata che desideri personalizzare.
 
 È particolarmente utile quando si tratta di pagine che sono dietro l’autenticazione o che non sono disponibili dall’inizio a un determinato URL. Ad esempio, potrai eseguire l’autenticazione, passare alla pagina dell’account o del carrello e quindi tornare a **[!UICONTROL Progettazione]** per eseguire le modifiche sulla pagina desiderata.
+
+Utilizzo di **[!UICONTROL Sfoglia]** La modalità consente inoltre di navigare tra tutte le visualizzazioni del sito web durante l’authoring di applicazioni a pagina singola. [Ulteriori informazioni](web-spa.md)
 
 ### Cambia dimensione dispositivo {#change-device-size}
 

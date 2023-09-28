@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 11%
+source-wordcount: '1505'
+ht-degree: 12%
 
 ---
 
@@ -114,7 +114,7 @@ Quando si attiva un evento, il **Configurazione evento** La schermata ti consent
 
 ## Modalità di test per gli eventi di business {#test-business}
 
-Quando si utilizza una [evento di business](../event/about-events.md), utilizza la modalità di test per attivare un singolo ingresso del profilo di test nel percorso, simulare l’evento e passare l’ID profilo corretto. Devi trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. Non è possibile utilizzare **[!UICONTROL Fino a 100 profili alla volta]** per altri percorsi basati sul pubblico. In modalità di test, non è disponibile la modalità &quot;Visualizzazione codice&quot; per i percorsi basata su eventi di business.
+Quando si utilizza una [evento di business](../event/about-events.md), utilizza la modalità di test per attivare un singolo ingresso del profilo di test nel percorso, simulare l’evento e passare l’ID profilo corretto. Devi trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. In modalità di test, non è disponibile la modalità &quot;Visualizzazione codice&quot; per i percorsi basata su eventi di business.
 
 Si noti che quando si attiva per la prima volta un evento business, non è possibile modificare la definizione dell&#39;evento business nella stessa sessione di test. È possibile fare in modo che lo stesso individuo o un individuo diverso entri nel percorso passando lo stesso identificatore o un altro identificatore. Se si desidera modificare i parametri degli eventi business, è necessario interrompere e riavviare la modalità di test.
 

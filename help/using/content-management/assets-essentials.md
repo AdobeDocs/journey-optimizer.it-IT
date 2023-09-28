@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, integrazione
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 19%
+source-wordcount: '522'
+ht-degree: 18%
 
 ---
 
@@ -39,11 +39,24 @@ Prima di utilizzare [!DNL Adobe Experience Manager Assets Essentials], è necess
 
 Per importare file in [!DNL Assets Essentials], è innanzitutto necessario sfogliare o creare la cartella in cui verrà memorizzato. Potrai quindi inserirli nel contenuto dell’e-mail.
 
-Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target="_blank"}.
+Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=it){target="_blank"}.
 
 1. Da [!DNL Adobe Journey Optimizer] home page, selezionare la **[!UICONTROL Risorse]** sotto il **[!UICONTROL Gestione dei contenuti]** menu di accesso [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. Scegli l’archivio per le risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu sia il proprietario di questa soluzione.
+
+   ![](assets/media_library_4.png)
+
++++
+Scopri come cambiare l’archivio delle risorse.
+
+   Per modificare l’archivio Assets, seleziona l’icona Account in alto a destra e fai clic su **[!UICONTROL Seleziona archivio]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. Fare doppio clic su una cartella dalla sezione centrale o dalla vista ad albero per aprirla.
 

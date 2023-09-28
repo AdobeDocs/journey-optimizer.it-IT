@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 15%
+source-wordcount: '1277'
+ht-degree: 12%
 
 ---
 
@@ -34,6 +34,16 @@ Le azioni personalizzate presentano alcune limitazioni elencate in [questa pagin
 Nei parametri delle azioni personalizzati, puoi trasmettere una semplice raccolta e un insieme di oggetti. Ulteriori informazioni sulle limitazioni della raccolta in [questa pagina](../building-journeys/collections.md#limitations).
 
 Inoltre, i parametri delle azioni personalizzate hanno un formato previsto (ad esempio, stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Ulteriori informazioni [caso d’uso](../building-journeys/collections.md).
+
+## Best practice{#custom-action-enhancements-best-practices}
+
+Per tutte le azioni personalizzate viene definito un limite massimo di 5000 chiamate/s. Questo limite è stato impostato in base all’utilizzo da parte dei clienti, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili/s quando vengono utilizzate azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione. Consulta [questa pagina](../configuration/external-systems.md).
+
+Non eseguire il targeting degli endpoint pubblici con azioni personalizzate per vari motivi:
+
+* Senza limiti o limitazioni corretti, esiste il rischio di inviare troppe chiamate a un endpoint pubblico che potrebbe non supportare tale volume.
+* I dati del profilo possono essere inviati tramite azioni personalizzate, pertanto il targeting di un endpoint pubblico potrebbe causare la condivisione involontaria di informazioni personali esternamente.
+* Non hai alcun controllo sui dati restituiti dagli endpoint pubblici. Se un endpoint modifica la propria API o inizia a inviare informazioni errate, queste saranno rese disponibili nelle comunicazioni inviate, con potenziali effetti negativi.
 
 ## Consenso e governance dei dati {#privacy}
 
@@ -70,11 +80,11 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
    >
    >Quando un’azione personalizzata viene utilizzata in un percorso, la maggior parte dei parametri è di sola lettura. È possibile modificare solo **[!UICONTROL Nome]**, **[!UICONTROL Descrizione]**, **[!UICONTROL URL]** campi e **[!UICONTROL Autenticazione]** sezione.
 
-## Configurazione URL {#url-configuration}
+## Configurazione endpoint {#url-configuration}
 
-Durante la configurazione di un’azione personalizzata, devi definire quanto segue **[!UICONTROL Configurazione URL]** parametri:
+Durante la configurazione di un’azione personalizzata, devi definire quanto segue **[!UICONTROL Configurazione endpoint]** parametri:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. In **[!UICONTROL URL]** , specifica l’URL del servizio esterno:
 
@@ -92,7 +102,7 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
    >
    >Durante la definizione di un’azione personalizzata sono consentite solo le porte predefinite: 80 per http e 443 per https.
 
-1. Seleziona la chiamata **[!UICONTROL Metodo]**: può essere **[!UICONTROL POST]** o **[!UICONTROL PUT]**.
+1. Seleziona la chiamata **[!UICONTROL Metodo]**: può essere **[!UICONTROL POST]**, **[!UICONTROL GET]** o **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
    >
    >Le intestazioni vengono convalidate in base alle regole di analisi dei campi. Ulteriori informazioni in [questa documentazione](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## Definire i parametri dell’azione {#define-the-message-parameters}
+## Definire i parametri di payload {#define-the-message-parameters}
 
-In **[!UICONTROL Parametri azione]** incolla un esempio del payload JSON da inviare al servizio esterno.
+1. In **[!UICONTROL Richiesta]** incolla un esempio del payload JSON da inviare al servizio esterno. Questo campo è facoltativo e disponibile solo per i metodi di chiamata POST e PUT.
 
-![](assets/messageparameterssection.png)
+1. In **[!UICONTROL Risposta]** incolla un esempio del payload restituito dalla chiamata. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni dei clienti, consulta [questa pagina](../action/action-response.md).
+
+>[!NOTE]
+>
+>La funzionalità di risposta è attualmente disponibile in versione beta.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

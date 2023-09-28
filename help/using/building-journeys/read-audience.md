@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 12%
+source-wordcount: '1267'
+ht-degree: 13%
 
 ---
 
@@ -116,23 +116,17 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### Test e pubblicazione del percorso {#testing-publishing}
 
-Il **[!UICONTROL Read Audience]** attività ti consente di testare il percorso su un profilo unitario o su 100 profili di test selezionati in modo casuale tra i profili qualificati per il pubblico.
+Il **[!UICONTROL Read Audience]** attività ti consente di testare il percorso su un profilo unitario.
 
-A questo scopo, attiva la modalità di test, quindi seleziona l’opzione desiderata dal riquadro a sinistra.
+A questo scopo, attiva la modalità di test.
 
 ![](assets/read-segment-test-mode.png)
 
-Puoi quindi configurare ed eseguire la modalità di test come di consueto. [Scopri come testare un percorso](testing-the-journey.md).
+Configura ed esegui la modalità di test normalmente. [Scopri come testare un percorso](testing-the-journey.md).
 
-Una volta eseguito il test, il **[!UICONTROL Mostra registri]** consente di visualizzare i risultati del test in base all’opzione di test selezionata:
+Una volta eseguito il test, il **[!UICONTROL Mostra registri]** consente di visualizzare i risultati del test. Per ulteriori informazioni al riguardo, consulta [questa sezione](testing-the-journey.md#viewing_logs)
 
-* **[!UICONTROL Profilo singolo alla volta]**: i registri di test visualizzano le stesse informazioni visualizzate quando si utilizza la modalità di test unitaria. Per ulteriori informazioni al riguardo, consulta [questa sezione](testing-the-journey.md#viewing_logs)
-
-* **[!UICONTROL Fino a 100 profili alla volta]**: i registri del test ti consentono di monitorare la progressione dell’esportazione del pubblico da Adobe Experience Platform, nonché l’avanzamento individuale di tutte le persone che sono entrate nel percorso.
-
-  Il test del percorso con un massimo di 100 profili alla volta non consente di monitorare l’avanzamento dei singoli utenti nel percorso utilizzando il flusso visivo.
-
-  ![](assets/read-segment-log.png)
+![](assets/read-segment-log.png)
 
 Una volta completati i test, puoi pubblicare il percorso (vedi [Pubblicazione del percorso](publishing-the-journey.md)). Gli individui appartenenti al pubblico entreranno nel percorso alla data/ora specificata nelle proprietà del percorso **[!UICONTROL Scheduler]** sezione.
 

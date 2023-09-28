@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: autorizzazioni, diritti, restrizioni, accesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 16%
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
@@ -29,8 +29,6 @@ Gestione utente in [!DNL Journey Optimizer] si basa su tre concetti:
 * **[!UICONTROL Autorizzazioni]**: diritti unitari che ti consentono di definire le autorizzazioni assegnate a **[!UICONTROL Ruoli]**. Ogni autorizzazione viene raccolta nelle risorse, ad esempio Percorso o Offerte, che rappresentano le diverse funzionalità o oggetti in [!DNL Journey Optimizer]. Consulta la sezione [Livelli di autorizzazione](high-low-permissions.md) sezione.
 
 * **[!UICONTROL Sandbox]**: sandbox virtuali che suddividono le istanze in ambienti virtuali separati e isolati. Consulta la sezione [Utilizzo delle sandbox](sandboxes.md).
-
-Ogni concetto può essere gestito da **[!UICONTROL Amministratori di prodotto]** che hanno accesso ad Admin Console. [Ulteriori informazioni su Adobe Admin Console](https://helpx.adobe.com/it/enterprise/managing/user-guide.html).
 
 ![](assets/do-not-localize/permissions_2.png)
 

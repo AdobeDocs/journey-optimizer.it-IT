@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 11%
+source-wordcount: '2258'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ La configurazione della superficie e-mail viene selezionata per l’invio di com
 >title="Definire la categoria dell’e-mail"
 >abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, oppure Transazionale per e-mail non commerciali, che possono essere inviate anche a profili non iscritti in contesti specifici."
 
-In **TIPO DI E-MAIL** , seleziona il tipo di messaggio che verrà inviato con la superficie: **Marketing** o **Transazionale**.
+In **TIPO DI E-MAIL** , seleziona il tipo di messaggio che verrà inviato con la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**.
 
 * Scegli **Marketing** e-mail promozionale, ad esempio promozioni settimanali per un negozio al dettaglio. Questi messaggi richiedono il consenso dell’utente.
 
@@ -182,6 +182,36 @@ Inoltre, quando definisci il **[!UICONTROL E-mail Ccn]** indirizzo, assicurati d
 
 Se ricevi un errore durante l’invio della superficie e-mail, significa che il record MX non è configurato per il sottodominio dell’indirizzo inserito. Contatta l’amministratore per configurare il record MX corrispondente o utilizza un altro indirizzo con una configurazione di record MX valida.
 
+## Invio a indirizzi e-mail soppressi {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="Sovrascrivi precedenza elenco di soppressione"
+>abstract="Puoi decidere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono presenti nell’elenco di soppressione di Adobe Journey Optimizer a causa di un reclamo spam. Questa opzione è disabilitata per impostazione predefinita."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gestire l’elenco di soppressione"
+
+>[!IMPORTANT]
+>
+>Questa opzione è disponibile solo se è stata selezionata l&#39;opzione **[!UICONTROL Transazionale]** tipo di e-mail. [Ulteriori informazioni](#email-type)
+
+In entrata [!DNL Journey Optimizer], tutti gli indirizzi e-mail contrassegnati come mancati recapiti permanenti, mancati recapiti non permanenti e segnalazioni di spam vengono raccolti automaticamente nel [elenco di soppressione](../configuration/manage-suppression-list.md) ed è escluso dall’invio in un percorso o una campagna.
+
+Tuttavia, puoi decidere di continuare a inviare messaggi del **transazionale** digita nei profili anche se i loro indirizzi e-mail sono presenti nell’elenco di soppressione a causa di un reclamo spam da parte dell’utente.
+
+In effetti, i messaggi transazionali generalmente contengono informazioni utili e attese, come una conferma di un ordine o una notifica di reimpostazione della password. Pertanto, anche se hanno segnalato uno dei tuoi messaggi di marketing come spam, nella maggior parte dei casi desideri che i tuoi clienti ricevano questo tipo di e-mail non commerciale.
+
+Per includere gli indirizzi e-mail soppressi a causa di un reclamo spam nel pubblico dei messaggi transazionali, seleziona l’opzione corrispondente dalla **[!UICONTROL Invia a indirizzi e-mail soppressi]** sezione.
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>Questa opzione è disabilitata per impostazione predefinita.
+
+Come best practice per la consegna dei messaggi, questa opzione è disabilitata per impostazione predefinita per garantire che i clienti che hanno rinunciato non vengano contattati. Tuttavia, puoi modificare questa opzione predefinita, che ti consente quindi di inviare messaggi transazionali ai clienti.
+
+Una volta abilitata questa opzione, anche se un cliente ha contrassegnato l’e-mail di marketing come spam, potrà ricevere i messaggi transazionali utilizzando la superficie corrente. Assicurati sempre di gestire le preferenze di rinuncia in conformità alle best practice per la consegna dei messaggi.
+
 ## Elenco seed {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ Se ricevi un errore durante l’invio della superficie e-mail, significa che il 
 >title="Aggiungere un elenco seed"
 >abstract="Seleziona l’elenco seed desiderato per aggiungere automaticamente indirizzi interni specifici ai tipi di pubblico. Questi indirizzi seed verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio a scopo di garanzia."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list?lang=it" text="Cosa sono gli elenchi seed?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#create-seed-list" text="Creare un elenco seed"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Creare un elenco seed"
 
 
 Un elenco seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi e-mail seed specifici nelle consegne. [Ulteriori informazioni](../configuration/seed-lists.md)

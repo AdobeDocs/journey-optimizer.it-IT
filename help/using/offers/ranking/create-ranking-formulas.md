@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5083536950e43fc2df66a6bb46e69173245acf18
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 9%
@@ -79,7 +79,7 @@ Boost the priority of offers based on whether the user is a member of a priority
 **Ranking formula:**
 
 ```
-if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
+if( segmentMembership.get("ups").get(offer.characteristics.get("prioritySegmentId")).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
 ```
 -->
 
@@ -90,7 +90,7 @@ Se il profilo risiede nella città corrispondente all’offerta, allora raddoppi
 **Formula di classificazione:**
 
 ```
-if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
 ### Incrementa le offerte la cui data di fine è inferiore a 24 ore
@@ -109,7 +109,7 @@ Incrementa alcune offerte in base ai dati contestuali trasmessi nella chiamata d
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
 Tieni presente che quando utilizzi l’API di decisioning, i dati contestuali vengono aggiunti all’elemento profilo nel corpo della richiesta, come nell’esempio seguente.
@@ -173,6 +173,6 @@ La formula di classificazione può quindi impostare la priorità di ogni offerta
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.propensityType, false)).head().core.propensityScore
+             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
 in if(score.isNotNull(), score, offer.rank.priority)
 ```

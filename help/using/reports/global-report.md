@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,15 @@ Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un ut
 
 ## Esportare i rapporti {#export-reports}
 
-Puoi esportare facilmente i diversi rapporti in formato PDF, che ti consente di condividerli o stamparli.
+Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli.
 
-1. Dal report, fai clic su **[!UICONTROL Esporta]**.
+>[!BEGINTABS]
 
-   ![](assets/export_1.png)
+>[!TAB Esportare il report come file PDF]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+
+   ![](assets/export_2.png)
 
 1. Nella finestra Stampa configurare il documento in base alle esigenze. Le opzioni possono variare a seconda del browser in uso.
 
@@ -87,3 +91,20 @@ Puoi esportare facilmente i diversi rapporti in formato PDF, che ti consente di 
 
 Il report è ora disponibile per la visualizzazione o la condivisione in un file pdf.
 
+>[!TAB Esportare il rapporto come file CSV]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
+
+   ![](assets/export_1.png)
+
+1. Puoi anche scegliere di esportare i dati da un widget specifico. Clic **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
+
+   ![](assets/export_3.png)
+
+1. Il file viene scaricato automaticamente e si trova nei file locali.
+
+   Se hai generato il file a livello di report, contiene informazioni dettagliate per ciascun widget, inclusi il titolo e i dati.
+
+   Se hai generato il file a livello di widget, fornisce specificamente i dati per il widget selezionato.
+
+>[!ENDTABS]

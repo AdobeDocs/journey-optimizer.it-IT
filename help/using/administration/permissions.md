@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profiles, sandbox
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
-> Ciascuna delle procedure descritte di seguito può essere eseguita soltanto da un **[!UICONTROL Prodotto]** o **[!UICONTROL Sistema]** amministratore. Per ulteriori informazioni, consulta [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html).
+> Ciascuna delle procedure descritte di seguito può essere eseguita soltanto da un **[!UICONTROL Prodotto]** o **[!UICONTROL Sistema]** amministratore.
 
 **[!UICONTROL Ruoli]** fai riferimento a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione.
 
@@ -48,13 +48,13 @@ Per assegnare un **[!UICONTROL Ruolo]**:
 
 1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
-   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], fare riferimento a [Aggiungi documentazione utenti](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
+   Se l&#39;utente non è stato creato in precedenza in [!DNL Admin Console], fare riferimento a [Aggiungi documentazione utenti](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/users.html).
 
    ![](assets/do-not-localize/access_control_4.png)
 
 L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 
-Per ulteriori informazioni sulla gestione degli utenti, consulta [Documentazione di Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
+Per ulteriori informazioni sulla gestione degli utenti, consulta [Documentazione sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it).
 
 Quando accedi all’istanza, l’utente visualizzerà una visualizzazione specifica a seconda delle autorizzazioni assegnate nella sezione **[!UICONTROL Ruolo]**. Se l’utente non dispone del diritto di accesso a una funzione, viene visualizzato il seguente messaggio:
 
@@ -125,4 +125,4 @@ Per creare **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 
 Il tuo **[!UICONTROL Ruolo]** viene ora creato e configurato. Ora devi assegnarla agli utenti.
 
-Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta [Documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=it).
+Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta [Documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).

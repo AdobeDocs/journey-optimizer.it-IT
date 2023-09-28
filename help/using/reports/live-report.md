@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 4%
+source-wordcount: '527'
+ht-degree: 3%
 
 ---
 
@@ -68,11 +68,15 @@ Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un ut
 
 ## Esportare i rapporti {#export-reports}
 
-Puoi esportare facilmente i diversi rapporti in formato PDF, che ti consente di condividerli o stamparli.
+Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli.
 
-1. Dal report, fai clic su **[!UICONTROL Esporta]**.
+>[!BEGINTABS]
 
-   ![](assets/export_2.png)
+>[!TAB Esportare il report come file PDF]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+
+   ![](assets/export_6.png)
 
 1. Nella finestra Stampa configurare il documento in base alle esigenze. Le opzioni possono variare a seconda del browser in uso.
 
@@ -81,3 +85,21 @@ Puoi esportare facilmente i diversi rapporti in formato PDF, che ti consente di 
 1. Individuare la cartella in cui si desidera salvare il file, rinominarlo, se necessario, e fare clic su Salva.
 
 Il report è ora disponibile per la visualizzazione o la condivisione in un file pdf.
+
+>[!TAB Esportare il rapporto come file CSV]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
+
+   ![](assets/export_4.png)
+
+1. Puoi anche scegliere di esportare i dati da un widget specifico. Clic **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
+
+   ![](assets/export_5.png)
+
+1. Il file viene scaricato automaticamente e si trova nei file locali.
+
+   Se hai generato il file a livello di report, contiene informazioni dettagliate per ciascun widget, inclusi il titolo e i dati.
+
+   Se hai generato il file a livello di widget, fornisce specificamente i dati per il widget selezionato.
+
+>[!ENDTABS]

@@ -6,10 +6,10 @@ description: Scopri come configurare l’ambiente per l’invio di SMS con Journ
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 18%
+source-wordcount: '951'
+ht-degree: 17%
 
 ---
 
@@ -62,6 +62,10 @@ Per configurare il fornitore di SMS con Journey Optimizer, effettua le seguenti 
       * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
 
       * **[!UICONTROL ID servizio]** e **[!UICONTROL Token API]**: accedi alla pagina API, e trovi le tue credenziali nella scheda SMS.  [Ulteriori informazioni](https://developers.sinch.com/docs/sms/getting-started/)
+
+      * **[!UICONTROL Messaggio di Opt-in]**: digita la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di Opt-in]**.
+
+      * **[!UICONTROL Messaggio di aiuto]**: digita la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di aiuto]**.
 
    * Per **[!DNL Twilio]**:
 

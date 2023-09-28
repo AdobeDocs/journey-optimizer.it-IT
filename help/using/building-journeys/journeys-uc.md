@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: caso d’uso, multicanale, messaggi, percorso, canale, eventi, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
@@ -115,6 +115,6 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
 
 1. Prima di eseguire il test del percorso, verificare che sia valido e che non vi siano errori.
 
-1. Fai clic sul pulsante **Test** per attivare la modalità di test, posizionata nell’angolo in alto a destra. Definisci come inserire i profili di test nel test: un singolo profilo o fino a 100 alla volta. Fai riferimento a questo [sezione](testing-the-journey.md) per scoprire come utilizzare la modalità di test.
+1. Fai clic sul pulsante **Test** per attivare la modalità di test, posizionata nell’angolo in alto a destra. Fai riferimento a questo [sezione](testing-the-journey.md) per scoprire come utilizzare la modalità di test.
 
 1. Quando il percorso è pronto, pubblicarlo utilizzando **Pubblica** nell&#39;angolo superiore destro.

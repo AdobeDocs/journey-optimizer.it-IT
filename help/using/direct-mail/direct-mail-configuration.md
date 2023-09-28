@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 33%
+source-wordcount: '914'
+ht-degree: 32%
 
 ---
 
@@ -22,7 +22,7 @@ Quando [creazione di un messaggio di direct mailing](../direct-mail/create-direc
 
 Prima di poter generare questo file, devi creare:
 
-1. A [configurazione di indirizzamento dei file](#file-routing-configuration) per specificare il server in cui verrà esportato il file.
+1. A [configurazione di indirizzamento dei file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografarlo, se necessario.
 
 1. A [superficie direct mail](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
 
@@ -89,6 +89,8 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
    >[!NOTE]
    >
    >Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
+
+1. Per crittografare il file, copia e incolla la chiave di crittografia nel **[!UICONTROL Chiave di crittografia PGP/GPG]** campo.
 
 1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie direct mail](#direct-mail-surface).
 

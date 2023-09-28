@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1282'
 ht-degree: 15%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 15%
 
 ## Titolo e corpo {#push-title-body}
 
-Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
+Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuti dinamici. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
 
 Utilizza la sezione di anteprima del dispositivo per visualizzare come viene visualizzata la notifica push sui dispositivi iOS e Android.
 
@@ -62,17 +62,15 @@ Crea una notifica actionable aggiungendo pulsanti al contenuto push.
 
 Se lo schermo del dispositivo è bloccato, questi pulsanti non vengono visualizzati: solo il **Titolo** e **Messaggio** della notifica. Se il dispositivo è sbloccato, i destinatari visualizzeranno i pulsanti.
 
-Nella versione di iOS, puoi aggiungere fino a quattro pulsanti. Nella versione Android, puoi aggiungere fino a tre pulsanti.
+Nella versione Android, puoi aggiungere fino a tre pulsanti.
 
->[!NOTE]
->
->Per iOS, utilizza **[!UICONTROL Categoria iOS]** per associare azioni a una categoria di notifica.
+Nella versione di iOS, è specificato un identificatore di categoria di notifica. Le categorie di notifica devono essere preconfigurate nell’app iOS che definirà i pulsanti da visualizzare e le azioni da intraprendere. Consulta la [Documentazione di Apple](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) per ulteriori dettagli.
 
 1. Utilizza il **[!UICONTROL Pulsante Aggiungi]** per definire le impostazioni: l’etichetta e l’azione associata. Le azioni possibili sono le stesse di [comportamento al clic](#on-click-behavior).
 
 1. Utilizza il **[!UICONTROL Espandi visualizzazione]** sotto l’immagine di anteprima centrale per visualizzare in anteprima i pulsanti personalizzati.
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## Inviare una notifica invisibile all’utente {#silent-notification}
 
