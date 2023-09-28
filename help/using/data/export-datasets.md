@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 08f24547237c01c581248d675c55c834c261b173
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '988'
 ht-degree: 6%
 
 ---
@@ -26,9 +26,6 @@ Puoi esportare i set di dati in 6 destinazioni di archiviazione cloud accessibil
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->Queste destinazioni sono tutte disponibili in versione beta e soggette a modifiche.
 
 Informazioni dettagliate su ciascuna destinazione sono disponibili nella documentazione di Adobe Experience Platform:
 
