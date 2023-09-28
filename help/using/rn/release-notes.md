@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
 workflow-type: tm+mt
 source-wordcount: '4018'
 ht-degree: 87%
@@ -57,7 +57,7 @@ Inoltre, gli attributi calcolati semplificano la segmentazione e i flussi di lav
 <p>La funzione Channel Report offre ad analisti ed esperti di marketing una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale.</p>
 <p>Per accedere al <b>Report</b> menu, è necessario disporre di <b>Visualizzare i rapporti sul canale</b> autorizzazione.</p>
 <img src="assets/channel-reports.png"/>
-<p>Per ulteriori informazioni, consulta <a href="../reports/channel-report.md">documentazione dettagliata</a>, e <a href="../reports/channel-report.md#how-to-video-channel-report-video">video tutorial</a>.</p>
+<p>Per ulteriori informazioni, consulta <a href="../reports/channel-report.md">documentazione dettagliata</a>, e <a href="../reports/channel-report.md#channel-report-video">video tutorial</a>.</p>
 </tr>
 </tbody>
 </table>
