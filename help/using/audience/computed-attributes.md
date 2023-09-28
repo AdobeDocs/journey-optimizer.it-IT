@@ -1,0 +1,71 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Utilizzare gli attributi calcolati
+description: Scopri come utilizzare gli attributi calcolati.
+feature: Profiles
+role: User
+level: Beginner
+source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+workflow-type: tm+mt
+source-wordcount: '547'
+ht-degree: 2%
+
+---
+
+
+# Utilizzare gli attributi calcolati {#computed-attributes}
+
+Gli attributi calcolati consentono di riepilogare i singoli eventi comportamentali in attributi di profilo calcolati disponibili in Adobe Experience Platform. Questi attributi calcolati si basano sui set di dati Experience Event abilitati per il profilo acquisiti in Adobe Experience Platform e fungono da punti di dati aggregati memorizzati nei profili dei clienti.
+
+Ogni attributo calcolato è un attributo di profilo che puoi sfruttare per la segmentazione, la personalizzazione e l’attivazione in percorsi e campagne. Questa semplificazione migliora la capacità di fornire ai clienti esperienze personalizzate tempestive e significative.
+
+>[!NOTE]
+>
+>Per accedere agli attributi calcolati, devi disporre delle autorizzazioni appropriate (**Visualizza attributi calcolati** e **Gestisci attributi calcolati**).
+
+## Creare attributi calcolati {#manage}
+
+Per creare attributi calcolati, passare alla **[!UICONTROL Attributi calcolati]** scheda in **[!UICONTROL Profili]** sul lato sinistro.
+
+Da questa schermata, puoi creare attributi calcolati creando regole che combinano attributi evento, funzioni aggregate e un periodo di lookback specificato. Ad esempio, puoi calcolare la somma degli acquisti effettuati negli ultimi tre mesi, identificare l’articolo più recente visualizzato da un profilo con cui non è stato effettuato un acquisto nell’ultima settimana o calcolare il totale dei punti premio accumulati da ciascun profilo.
+
+![](assets/computed-attributes.png)
+
+Quando la regola è pronta, pubblica l’attributo calcolato per renderlo disponibile in altri servizi a valle, incluso Journey Optimizer.
+
+Informazioni dettagliate su come creare e gestire gli attributi calcolati sono disponibili nella sezione [Documentazione degli attributi calcolati](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+
+## Aggiungere attributi calcolati all&#39;origine dati Adobe Experience Platform {#source}
+
+Per poter sfruttare gli attributi calcolati in Journey Optimizer, devi innanzitutto aggiungerli a Journey Optimizer **Experience Platform** origine dati.
+
+L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è progettata per recuperare i dati del profilo e i dati di Experience Events da Real-time Customer Profile Service.
+
+Per aggiungere attributi calcolati all&#39;origine dati, eseguire la procedura seguente:
+
+1. Accedi a **[!UICONTROL Configurazioni]** menu a sinistra, quindi fare clic sul pulsante **[!UICONTROL Origini dati]** Card.
+
+1. Seleziona la **[!UICONTROL Experience Platform]** origine dati.
+
+   ![](assets/computed-attributes-add.png)
+
+1. Aggiungi il **[!UICONTROL SystemComputedAttributes]** gruppo di campi contenente tutti gli attributi calcolati creati.
+
+   ![](assets/computed-attributes-fieldgroup.png)
+
+Gli attributi calcolati sono ora disponibili per l’utilizzo in Journey Optimizer. [Scopri come utilizzare gli attributi calcolati in Journey Optimizer](#use)
+
+Informazioni dettagliate su come aggiungere gruppi di campi all’origine dati di Adobe Experience Platform sono disponibili in [questa sezione](../datasource/adobe-experience-platform-data-source.md).
+
+## Utilizzare attributi calcolati in Journey Optimizer {#use}
+
+>[!NOTE]
+>
+>Prima di iniziare, assicurati di aver aggiunto gli attributi calcolati all’origine dati di Adobe Experience Platform. [Scopri come in questa sezione](#source).
+
+Gli attributi calcolati offrono un set versatile di funzionalità all’interno di Percorsi Optimizer. Puoi utilizzarli per vari scopi, ad esempio per personalizzare il contenuto dei messaggi, creare nuovi tipi di pubblico o suddividere i percorsi in base a uno specifico attributo calcolato. Ad esempio, puoi dividere il percorso di un percorso in base agli acquisti totali di un profilo nelle ultime tre settimane, aggiungendo un singolo attributo calcolato in un’attività Condizione. Puoi anche personalizzare un’e-mail visualizzando l’elemento visualizzato più di recente per ciascun profilo.
+
+Poiché gli attributi calcolati sono campi di attributi di profilo creati nello schema di unione profili, puoi accedervi dall’editor espressioni all’interno di **SystemComputedAttributes** gruppo di campi. Da qui, puoi aggiungere un attributo calcolato alle espressioni, trattandole come qualsiasi altro attributo di profilo per eseguire le operazioni desiderate.
+
+![](assets/computed-attributes-ajo.png)
