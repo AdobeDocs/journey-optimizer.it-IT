@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -73,7 +73,10 @@ Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un ut
 
 ## Esportare i rapporti {#export-reports}
 
-Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli.
+Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli. I passaggi per esportare i rapporti sono descritti nelle schede seguenti.
+
+➡️ [Scopri questa funzione nel video](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ Il report è ora disponibile per la visualizzazione o la condivisione in un file
 
 
 >[!ENDTABS]
+
+
+### Esportare rapporti (video) {#video-csv}
+
+Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget nel seguente video tutorial.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+
