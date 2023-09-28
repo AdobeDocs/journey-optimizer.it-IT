@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4059'
-ht-degree: 86%
+source-wordcount: '4014'
+ht-degree: 87%
 
 ---
 
@@ -137,10 +137,6 @@ Due nuovi campi, **Messaggio di Opt-in** e **Messaggio di aiuto**, sono stati ag
 **Canale direct mail**
 
 È ora possibile crittografare i file destinati ai provider di direct mailing quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file è disponibile un nuovo campo che consente di copiare e incollare la chiave di crittografia. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
-
-**Canale direct mail**
-
-È ora possibile crittografare i file destinati ai provider di direct mailing quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file è disponibile un nuovo campo che consente di copiare e incollare la chiave di crittografia.
 
 **Generazione rapporti**
 
