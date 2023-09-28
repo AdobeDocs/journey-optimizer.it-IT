@@ -4,17 +4,15 @@ description: Scopri come implementare le visualizzazioni SPA in Journey Optimize
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '830'
 ht-degree: 2%
 
 ---
 
-# Implementazione di un&#39;applicazione a pagina singola {#web-spa-implementation}
+# Implementare applicazioni a pagina singola (SPA) {#web-spa-implementation}
 
 Adobe Experience Platform Web SDK offre funzioni avanzate che consentono di eseguire personalizzazioni su tecnologie lato client di nuova generazione, come le applicazioni a pagina singola (SPA).
 
@@ -24,7 +22,7 @@ Le applicazioni web moderne, come le applicazioni a pagina singola (SPA), hanno 
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Vantaggi di AEP Web SDK per SPA
+## Vantaggi di Adobe Experience Platform Web SDK per SPA {#web-spa-benefits}
 
 Di seguito sono riportati alcuni vantaggi dell’utilizzo di Adobe Experience Platform Web SDK per le applicazioni a pagina singola:
 
@@ -32,7 +30,7 @@ Di seguito sono riportati alcuni vantaggi dell’utilizzo di Adobe Experience Pl
 * Migliora enormemente l’esperienza utente sul sito, in quanto le offerte appaiono immediatamente tramite la cache senza il ritardo causato dalle chiamate al server tradizionali.
 * La configurazione per sviluppatori una tantum consente agli esperti di marketing di creare ed eseguire attività di personalizzazione e sperimentazione tramite l’editor visivo web di Adobe Journey Optimizer sull’SPA.
 
-## Visualizzazioni XDM e applicazioni a pagina singola
+## Visualizzazioni XDM e applicazioni a pagina singola {#web-spa-xdm}
 
 L’Adobe **[!UICONTROL Journey Optimizer]** l’editor web sfrutta un concetto chiamato visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, pertanto, essere considerata come transizione attraverso le viste, anziché gli URL, in base alle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito, una singola pagina o elementi visivi raggruppati all’interno di una pagina.
 
@@ -91,7 +89,7 @@ Per completare la configurazione per sviluppatori una tantum, è necessario eseg
 
 Questa sezione illustra due esempi che mostrano come richiamare `sendEvent()` funzione in React per un ipotetico SPA di e-commerce.
 
-### Esempio 1: home page per test A/B
+### Esempio 1: home page per test A/B {#web-spa-sample-1}
 
 Il team marketing desidera eseguire test A/B sull’intera home page.
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### Esempio 2: prodotti personalizzati
+### Esempio 2: prodotti personalizzati {#web-spa-sample-2}
 
 Il team marketing vuole personalizzare la seconda riga di prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente fa clic per visualizzare tutti i prodotti da uomo.
 
