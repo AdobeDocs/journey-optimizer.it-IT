@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 8%
 
 ---
@@ -51,7 +51,7 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `property` | Un filtro proprietà facoltativo: <br> <ul> - Le proprietà sono raggruppate per operazione AND. <br><br> - I parametri possono essere ripetuti come segue: property=<property-expr>[&amp;property=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Le espressioni di proprietà sono in formato [!]campo[op]valore, con op in [==!=,&lt;=,>=,&lt;,>,~], supporto di espressioni regolari | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtro proprietà facoltativo: <ul><li> Le proprietà sono raggruppate per operazione AND. <br><br> - I parametri possono essere ripetuti come segue: property=`<property-expr>`[&amp;property=`<property-expr2>`...] or property=`<property-expr1>`[E`<property-expr2>`...] <br><br> - Le espressioni di proprietà sono in formato `[!]field[op]` valore, con op in `[==,!=,'<=',>=,<,>,~]`, supporto di espressioni regolari  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un segno - prima del nome (orderby=-name), gli elementi verranno ordinati in base al nome in ordine decrescente (Z-A). Le espressioni di percorso sono sotto forma di percorsi separati da punti. Questo parametro può essere ripetuto come segue: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limita il numero di posizionamenti restituiti. | `limit=5` |
 
