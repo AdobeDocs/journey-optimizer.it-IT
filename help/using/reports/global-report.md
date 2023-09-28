@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -77,20 +77,6 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 
 >[!BEGINTABS]
 
->[!TAB Esportare il report come file PDF]
-
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
-
-   ![](assets/export_2.png)
-
-1. Nella finestra Stampa configurare il documento in base alle esigenze. Le opzioni possono variare a seconda del browser in uso.
-
-1. Scegliere se stampare o salvare il report come PDF.
-
-1. Individuare la cartella in cui si desidera salvare il file, rinominarlo, se necessario, e fare clic su Salva.
-
-Il report è ora disponibile per la visualizzazione o la condivisione in un file pdf.
-
 >[!TAB Esportare il rapporto come file CSV]
 
 1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
@@ -106,5 +92,21 @@ Il report è ora disponibile per la visualizzazione o la condivisione in un file
    Se hai generato il file a livello di report, contiene informazioni dettagliate per ciascun widget, inclusi il titolo e i dati.
 
    Se hai generato il file a livello di widget, fornisce specificamente i dati per il widget selezionato.
+
+>[!TAB Esportare il report come file PDF]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+
+   ![](assets/export_2.png)
+
+1. Nella finestra Stampa configurare il documento in base alle esigenze. Le opzioni possono variare a seconda del browser in uso.
+
+1. Scegliere se stampare o salvare il report come PDF.
+
+1. Individuare la cartella in cui si desidera salvare il file, rinominarlo, se necessario, e fare clic su Salva.
+
+Il report è ora disponibile per la visualizzazione o la condivisione in un file pdf.
+
+
 
 >[!ENDTABS]
