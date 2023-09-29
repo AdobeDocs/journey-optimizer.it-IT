@@ -6,10 +6,10 @@ description: Scopri come configurare l’ambiente per l’invio di SMS con Journ
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 17%
+source-wordcount: '1010'
+ht-degree: 16%
 
 ---
 
@@ -105,7 +105,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
 1. Immetti un nome e una descrizione (facoltativa) per la superficie, quindi seleziona il canale SMS.
 
-   ![](assets/sms_preset.png)
+   ![](assets/sms-create-surface.png)
 
    >[!NOTE]
    >
@@ -113,26 +113,26 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
 1. Definisci il **Impostazioni SMS**.
 
-   ![](assets/preset-sms.png)
+   ![](assets/sms-surface-settings.png)
 
-   * Seleziona la **[!UICONTROL Tipo di SMS]** che verrà inviato con la superficie: **[!UICONTROL Transazionale]** o **[!UICONTROL Marketing]**.
+   Per iniziare, seleziona la **[!UICONTROL Tipo di SMS]** che verrà inviato con la superficie: **[!UICONTROL Transazionale]** o **[!UICONTROL Marketing]**.
 
-      * Scegli **Marketing** per gli SMS promozionali: questi messaggi richiedono il consenso degli utenti.
-      * Scegli **Transazionale** per messaggi non commerciali come ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
+   * Scegli **Marketing** per gli SMS promozionali: questi messaggi richiedono il consenso degli utenti.
+   * Scegli **Transazionale** per messaggi non commerciali come ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
 
-     >[!CAUTION]
-     >
-     >**Transazionale** I messaggi SMS possono essere inviati ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
+   Quando crei un messaggio SMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
 
-     Quando crei un messaggio SMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
+   >[!CAUTION]
+   >
+   >**Transazionale** I messaggi SMS possono essere inviati ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
 
-   * Seleziona la **[!UICONTROL Configurazione SMS]** per associarlo alla superficie.
+1. Seleziona la **[!UICONTROL Configurazione SMS]** per associarlo alla superficie.
 
-     Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](#create-api).
+   Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](#create-api).
 
-   * Inserisci il **[!UICONTROL Numero mittente]** &#x200B;si desidera utilizzare per le comunicazioni.
+1. Inserisci il **[!UICONTROL Numero mittente]** &#x200B;si desidera utilizzare per le comunicazioni.
 
-   * Seleziona il **[!UICONTROL Campo di esecuzione SMS]** per selezionare **[!UICONTROL Attributo profilo]** associati ai numeri di telefono dei profili.
+1. Seleziona il **[!UICONTROL Campo di esecuzione SMS]** per selezionare **[!UICONTROL Attributo profilo]** associati ai numeri di telefono dei profili.
 
 1. Se desideri utilizzare la funzione di abbreviazione URL nei messaggi SMS, seleziona un elemento da **[!UICONTROL Sottodominio]** elenco.
 
@@ -140,11 +140,15 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
    >
    >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio SMS. [Scopri come](sms-subdomains.md)
 
+1. Inserisci il **[!UICONTROL Numero di rinuncia]** si desidera utilizzare per questa superficie. Quando i profili rinunciano a questo numero, puoi comunque inviare loro messaggi da altri numeri con cui stai utilizzando l’invio di messaggi SMS [!DNL Journey Optimizer].
+
+   >[!NOTE]
+   >
+   >In entrata [!DNL Journey Optimizer], la rinuncia agli SMS non viene più gestita a livello di canale. Ora è specifico per un numero.
+
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. Potete anche salvare la superficie di canale come sformo e riprenderne la configurazione in un secondo momento.
 
-   ![](assets/sms_preset_2.png)
-<!--
-1. **[!UICONTROL Opt-out number]** But what we need to call out is that the opt-out is no longer at a channel level. Previously on receiving the opt-out keyword we used to opt-out the profile at the channel level. Now, we have made it short code specific. So if the customer is using multiple short codes within AJO to send out SMSs, they can continue to send messages to users from other shortcodes if the end user unsubscribes from 1.-->
+   ![](assets/sms-submit-surface.png)
 
 1. Una volta creata la superficie di canale, questa viene visualizzata nell’elenco con **[!UICONTROL Elaborazione]** stato.
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4018'
-ht-degree: 87%
+source-wordcount: '4086'
+ht-degree: 86%
 
 ---
 
@@ -132,7 +132,9 @@ Una nuova opzione nella configurazione della superficie e-mail consente di scegl
 
 **Canale SMS**
 
-Due nuovi campi, **Messaggio di Opt-in** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, che consente agli utenti di personalizzare le risposte per le parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch. [Ulteriori informazioni](../sms/sms-configuration.md)
+* Due nuovi campi, **Messaggio di Opt-in** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, che consente agli utenti di personalizzare le risposte per le parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch. [Ulteriori informazioni](../sms/sms-configuration.md#create-api)
+
+* La rinuncia agli SMS non viene più gestita a livello di canale. Ora è specifico per il numero, il che significa che se alcuni profili rinunciano a un determinato numero o codice breve, puoi comunque inviare loro messaggi da altri numeri che utilizzi per inviare messaggi SMS. Una nuova opzione consente di selezionare **Numero di rinuncia** che si desidera utilizzare per una determinata superficie. [Ulteriori informazioni](../sms/sms-configuration.md#message-preset-sms)
 
 **Canale direct mail**
 
