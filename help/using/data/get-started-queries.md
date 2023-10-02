@@ -9,7 +9,7 @@ keywords: query, piattaforma, dati, esplorazione
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
