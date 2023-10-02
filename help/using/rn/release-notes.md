@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -90,7 +90,7 @@ Inoltre, gli attributi calcolati semplificano la segmentazione e i flussi di lav
 <tr>
 <td>
 <p>Questa nuova funzione consente di gestire e associare facilmente le credenziali push a una sandbox dedicata in Superfici app.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../in-app/inapp-configuration.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../in-app/inapp-configuration.md#channel-prerequisites">documentazione dettagliata</a>.</p>
 </tr>
 </tbody>
 </table>
