@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 4%
@@ -85,6 +86,8 @@ Utilizza il **[!UICONTROL Gruppo di dominio personalizzato]** per definire un nu
 
 Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguenti sottodomini: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, ecc.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## Accesso e gestione dei piani di riscaldamento IP {#manage-ip-warmup-plans}
 
 1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Piani di riscaldamento IP]** menu. Vengono visualizzati tutti i piani di riscaldamento IP creati finora.
@@ -95,7 +98,7 @@ Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguent
 
    * **Non avviato**: non è stata ancora attivata alcuna esecuzione. [Ulteriori informazioni](ip-warmup-execution.md#define-runs)
    * **Live**: il piano passa a questo stato non appena la prima esecuzione nella prima fase è stata attivata correttamente. [Ulteriori informazioni](ip-warmup-execution.md#define-runs)
-   * **Completato**: il piano è stato contrassegnato come completato. Questa opzione è disponibile solo se tutte le esecuzioni del piano sono in **[!UICONTROL Completato]** o **[!UICONTROL Bozza]** stato (nessuna esecuzione può essere **[!UICONTROL Live]**). [Ulteriori informazioni](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **Completato**: il piano è stato contrassegnato come completato. Questa opzione è disponibile solo se tutte le esecuzioni del piano sono in **[!UICONTROL Completato]** o **[!UICONTROL Bozza]** stato (nessuna esecuzione può essere **[!UICONTROL Live]**). [Ulteriori informazioni](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Per eliminare un piano di riscaldamento IP, selezionare **[!UICONTROL Elimina]** accanto al nome di un piano e confermare l&#39;eliminazione.
