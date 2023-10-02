@@ -8,8 +8,8 @@ level: Beginner
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
-workflow-type: tm+mt
-source-wordcount: '332'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
