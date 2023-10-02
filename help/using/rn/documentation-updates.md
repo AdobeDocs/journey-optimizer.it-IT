@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
 workflow-type: tm+mt
-source-wordcount: '3695'
+source-wordcount: '3711'
 ht-degree: 90%
 
 ---
@@ -20,16 +20,14 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di settembre 2023 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stata aggiunta una nuova pagina con le best practice per la scalabilità e le indicazioni sull’unione in tempo reale. [Ulteriori informazioni](../start/best-practices.md)
 
-<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+  <!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
 
 * È stata aggiunta una sezione Domande frequenti per Ottimizzazione dell’ora di invio. [Ulteriori informazioni](../building-journeys/journeys-message.md#faq-send-time)
 * È stata aggiunta una nota per l’attività di qualificazione del pubblico. Potrebbero essere necessari fino a 10 minuti per essere attivi e per ascoltare i profili che entrano nel pubblico o lo escono. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Nella documentazione di gestione delle decisioni è stato aggiunto un elenco di limitazioni di cui tenere conto durante la creazione delle regole di decisione. [Ulteriori informazioni](../offers/offer-library/creating-decision-rules.md)
 * I collegamenti alla documentazione sul controllo degli accessi sono stati aggiornati. [Ulteriori informazioni](../administration/permissions.md)
 * I prerequisiti del canale in-app sono stati aggiornati con i dettagli di Raccolta dati di Adobe Experience Platform. [Ulteriori informazioni](../in-app/inapp-configuration.md)
-
-
-
+* Alcune espressioni presentate negli esempi di formule di classificazione sono state aggiornate per evitare errori di convalida. [Ulteriori informazioni](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 ## Agosto 2023 {#august-2023}
 
@@ -42,7 +40,6 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * È stata aggiunta un’avvertenza sulla pagina **Utilizzare i modelli di contenuto** per indicare che attualmente il tracciamento non è supportato durante il test dei modelli di contenuto e-mail. Per testare il tracciamento, è necessario utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../email/content-templates.md#test-template)
 * Sono state aggiunte diverse avvertenze nella sezione **Creare e pubblicare pagine di destinazione** per specificare che non è possibile accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito durante la creazione della pagina, anche se pubblicato. È invece possibile testarla utilizzando la funzione di anteprima. [Ulteriori informazioni](../landing-pages/create-lp.md)
 * È stata aggiunta una nuova sezione su come **gestire il consenso** per il canale direct mail. [Ulteriori informazioni](../direct-mail/test-send-direct-mail.md)
-
 
 ## Luglio 2023 {#july-2023}
 

@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 13%
 
 ---
@@ -58,7 +58,7 @@ Puoi gestire facilmente tutti i componenti, le regolazioni e gli stili aggiunti 
 
 Quando modifichi una pagina utilizzando il designer Web, puoi aggiungere nuove modifiche al contenuto direttamente dal **[!UICONTROL Modifiche]** riquadro - senza la necessità di selezionare un componente e modificarlo dall’interfaccia di web designer. Effettua le seguenti operazioni.
 
-1. Dalla sezione **[!UICONTROL Modifiche]**, fare clic su **[!UICONTROL Altre azioni]** pulsante.
+1. Dalla sezione **[!UICONTROL Modifiche]** , fare clic sul pulsante **[!UICONTROL Altre azioni]** pulsante.
 
 1. Seleziona **[!UICONTROL Aggiungi una modifica]**.
 
@@ -66,7 +66,7 @@ Quando modifichi una pagina utilizzando il designer Web, puoi aggiungere nuove m
 
 1. Selezionare il tipo di modifica:
 
-   * **[!UICONTROL Selettore CSS]**- [Ulteriori informazioni](#css-selector)
+   * **[!UICONTROL Selettore CSS]** - [Ulteriori informazioni](#css-selector)
    * **[!UICONTROL Pagina`<Head>`]** - [Ulteriori informazioni](#page-head)
 
 1. Inserisci il contenuto e **[!UICONTROL Salva]** le tue modifiche.
@@ -184,4 +184,3 @@ Ogni modifica crea un nuovo elemento nel **[!UICONTROL Modifiche]** pannello. La
 Se si utilizza **[!UICONTROL Pagina`<head>`]** tipo di modifica per due campagne che influiscono sullo stesso URL, il codice JavaScript viene inserito nella pagina da entrambe le campagne. [!DNL Journey Optimizer] determina automaticamente l’ordine del contenuto consegnato. Assicurati che il codice non dipenda dal posizionamento. Sta a te verificare che il codice non contenga conflitti.
 
 +++
-

@@ -5,9 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
@@ -22,7 +23,9 @@ ht-degree: 5%
 >abstract="Le modifiche verranno applicate solo alle viste selezionate. Le visualizzazioni possono essere rilevate utilizzando **Sfoglia** e accedervi. Non riesci a trovare la visualizzazione che stai cercando?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
-**Applicazioni a pagina singola** (SPA) ora può essere creato nell’editor visivo del designer web. Questo consente di selezionare le visualizzazioni specifiche a cui applicare le modifiche alla pagina web.
+**Applicazioni a pagina singola** (SPA) ora può essere creato nell’editor visivo del designer web. Questo consente di selezionare quali **visualizzazioni** desideri applicare le modifiche apportate alla pagina web a.
+
+[Scopri come creare applicazioni a pagina singola in questo video](#video)
 
 Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento.
 
@@ -77,3 +80,14 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 1. Scambia in **[!UICONTROL Sfoglia]** per verificare che le modifiche vengano applicate alle pagine desiderate.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## Video introduttivo{#video}
+
+Questo video spiega come:
+
+* Scopri le visualizzazioni SPA tramite **[!UICONTROL Sfoglia]** modalità
+* Eseguire l&#39;authoring sulla visualizzazione corrente
+* Applica le modifiche al sito web a più visualizzazioni o a tutte le visualizzazioni individuate
+* Eseguire azioni in blocco sulle modifiche
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
