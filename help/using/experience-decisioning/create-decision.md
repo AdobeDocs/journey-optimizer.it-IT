@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 5%
+ht-degree: 17%
 
 ---
 
@@ -19,9 +20,9 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
->title="Che cos&#39;è una decisione?"
->abstract="I criteri decisionali sfruttano il motore di experience decisioning per scegliere i contenuti migliori da distribuire, in base al pubblico."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it" text="Informazioni su Experience Decisioning"
+>title="Che cos’è una decisione?"
+>abstract="I criteri decisionali sfruttano il motore di Offer Decisioning per scegliere i contenuti migliori da distribuire in base al pubblico."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it" text="Informazioni su Offer Decisioning"
 
 >[!BEGINSHADEBOX]
 
@@ -50,17 +51,17 @@ I criteri di decisione sono contenitori per le offerte che sfruttano il motore d
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Definisci il numero di articoli da restituire"
+>title="Definire il numero di elementi da restituire"
 >abstract="Seleziona il numero di elementi decisionali che desideri restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la superficie corrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Seleziona un fallback"
->abstract="Un elemento di fallback viene visualizzato all’utente quando nessuna delle strategie di selezione definite per quel criterio decisionale è qualificata."
+>title="Selezionare un fallback"
+>abstract="L’utente visualizza un elemento di fallback quando nessuna delle strategie di selezione definite per tale criterio decisionale è qualificata."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
->title="Che cos&#39;è una strategia?"
+>title="Che cos’è una strategia?"
 >abstract="La sequenza della strategia di selezione determina quale strategia verrà valutata per prima. È necessaria almeno una strategia. Gli elementi decisionali nelle strategie combinate saranno valutati insieme."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it" text="Creare strategie"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it" text="Ordine di valutazione"

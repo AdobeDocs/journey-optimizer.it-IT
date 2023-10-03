@@ -10,10 +10,11 @@ level: Intermediate
 keywords: IP, pool, recapito messaggi
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
->title="Attiva l&#39;opzione del piano di riscaldamento IP"
+>title="Attivare l’opzione piano di riscaldamento IP"
 >abstract="Quando selezioni questa opzione, la campagna può essere utilizzata in un piano di riscaldamento IP. La pianificazione della campagna sarà quindi guidata dal piano di riscaldamento IP a cui è associata."
 
 >[!BEGINSHADEBOX]
@@ -82,4 +83,3 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 Una volta pubblicata, la campagna è pronta per essere utilizzata in un piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

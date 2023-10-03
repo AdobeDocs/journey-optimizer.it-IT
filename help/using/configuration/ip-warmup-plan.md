@@ -14,7 +14,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 4%
+ht-degree: 14%
 
 ---
 
@@ -114,12 +114,12 @@ Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguent
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Specificare il piano di riscaldamento IP"
->abstract="Scarica il modello CSV e compilalo con i dati per le fasi di riscaldamento IP e il numero di profili target."
+>abstract="Scarica il modello CSV e compilalo con i dati per le fasi di riscaldamento IP e il numero di profili di destinazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Seleziona una superficie di marketing"
->abstract="Devi selezionare la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP."
+>title="Selezionare una superficie marketing"
+>abstract="Seleziona la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Impostare le superfici di canale"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di riscaldamento IP"
 
@@ -141,7 +141,7 @@ Quando una o più campagne live con **[!UICONTROL Attivazione del piano di risca
 
    >[!CAUTION]
    >
-   >Devi selezionare la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP. [Scopri come creare una campagna di riscaldamento IP](ip-warmup-campaign.md)
+   >Seleziona la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP. [Scopri come creare una campagna di riscaldamento IP](ip-warmup-campaign.md)
 
 1. Carica il file Excel contenente il piano di riscaldamento IP. [Ulteriori informazioni](#prepare-file)
 
