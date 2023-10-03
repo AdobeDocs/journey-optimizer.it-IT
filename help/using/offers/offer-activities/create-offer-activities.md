@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
 workflow-type: tm+mt
-source-wordcount: '2164'
+source-wordcount: '2225'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,12 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
    Ora hanno lo stesso rango e quindi saranno valutati allo stesso tempo. [Ulteriori informazioni](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* Se [Modello IA](../ranking/ai-models.md) viene utilizzato in un gruppo di criteri di valutazione, tutti i criteri di valutazione in tale gruppo devono utilizzare il metodo di classificazione di IA e devono utilizzare lo stesso modello di IA specifico.
+   >
+   >* Solo un gruppo di criteri di valutazione può utilizzare il modello di IA. Qualsiasi altro gruppo all’interno di un ambito decisionale deve utilizzare altri metodi di classificazione (priorità o formula). [Ulteriori informazioni sui metodi di classificazione](../offer-activities/configure-offer-selection.md)
 
 1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL Nuovo ambito]** pulsante. Ripeti i passaggi precedenti per ogni ambito decisionale.
 
