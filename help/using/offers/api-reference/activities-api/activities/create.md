@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '96'
 ht-degree: 15%
 
 ---
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID nei passaggi successivi per aggiornare o eliminare la decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, comprese le sue univoche `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la decisione.
 
 ```json
 {

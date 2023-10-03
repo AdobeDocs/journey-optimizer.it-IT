@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 11%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la raccolta. Puoi utilizzare la tua raccolta univoca `@id` in un tutorial successivo per creare una decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, compresi i relativi `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la raccolta o in un tutorial successivo per creare una decisione.
 
 ```json
 {

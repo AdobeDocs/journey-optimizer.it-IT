@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
@@ -69,7 +69,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati dell’offerta di fallback, inclusa la sua istanza univoca `id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati dell’offerta di fallback, compresi i relativi `id`.
 
 ```json
 {

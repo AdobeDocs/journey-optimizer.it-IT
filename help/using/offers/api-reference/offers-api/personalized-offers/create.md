@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 439813d0e7430d2e009b1af6abb7a027b10a427c
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 12%
+source-wordcount: '157'
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,6 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* nell’
 | Nome intestazione | Valore |
 | ----------- | ----- |
 | Content-Type | `application/json` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato API**
 
@@ -113,4 +112,4 @@ In caso di esito positivo, la risposta restituisce i dettagli dell’offerta per
 
 ## Limitazioni  {#limitations}
 
-Le rappresentazioni di offerta e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. Il `Capping` Il valore del campo specifica quante volte un’offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione su regole di idoneità e vincoli per le offerte](../../../offer-library/creating-personalized-offers.md).
+Le rappresentazioni di offerta e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. Il `Capping` Il valore del campo specifica quante volte un’offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione su regole di idoneità e vincoli per le offerte](../../../../offers/offer-library/creating-personalized-offers.md).

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 13%
+source-wordcount: '119'
+ht-degree: 14%
 
 ---
 
@@ -33,8 +33,7 @@ POST /{ENDPOINT_PATH}/offer-rules
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | Il contenitore in cui si trovano le regole di decisione. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps/` |
 
 **Richiesta**
 
@@ -69,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla regola di decisione appena creata, incluso il posizionamento `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la regola di decisione o utilizzarla in un tutorial successivo per creare decisioni, regole di decisione e offerte di fallback.
+In caso di esito positivo, la risposta restituisce informazioni sulla regola di decisione appena creata `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la regola di decisione o utilizzarla in un tutorial successivo per creare decisioni, regole di decisione e offerte di fallback.
 
 ```json
 {

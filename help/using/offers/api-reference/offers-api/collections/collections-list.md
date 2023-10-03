@@ -6,12 +6,13 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '208'
 ht-degree: 7%
 
 ---
+
 
 # Elencare raccolte {#list-collections}
 
@@ -51,7 +52,7 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `property` | Un filtro proprietà facoltativo: <ul><li> Le proprietà sono raggruppate per operazione AND. <br><br> - I parametri possono essere ripetuti come segue: property=`<property-expr>`[&amp;property=`<property-expr2>`...] or property=`<property-expr1>`[E`<property-expr2>`...] <br><br> - Le espressioni di proprietà sono in formato `[!]field[op]` valore, con op in `[==,!=,'<=',>=,<,>,~]`, supporto di espressioni regolari  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtro proprietà facoltativo: <ul><li>Le proprietà sono raggruppate per operazione AND.</li><li>I parametri possono essere ripetuti come segue: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Le espressioni di proprietà sono in formato `[!]field[op]value`, con `op` in `[==,!=,<=,>=,<,>,~]`, con supporto di espressioni regolari.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un segno - prima del nome (orderby=-name), gli elementi verranno ordinati in base al nome in ordine decrescente (Z-A). Le espressioni di percorso sono sotto forma di percorsi separati da punti. Questo parametro può essere ripetuto come segue: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limita il numero di entità restituite. | `limit=5` |
 
