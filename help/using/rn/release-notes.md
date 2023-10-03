@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '4086'
 ht-degree: 86%
@@ -469,7 +469,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Ora puoi creare, utilizzare e gestire frammenti per assemblare rapidamente e-mail e modelli di contenuto. Un frammento è un componente riutilizzabile predefinito a cui è possibile fare riferimento in più e-mail tra campagne e percorsi di Journey Optimizer per un processo di progettazione migliorato e accelerato.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../email/fragments.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/fragments.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -906,7 +906,7 @@ Note that each widget can be resized and deleted as needed.
 <p>È ora possibile creare modelli di contenuto autonomi da sfruttare tra percorsi e campagne per riutilizzarli rapidamente.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Scopri come creare, modificare e utilizzare modelli di contenuto in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=it">questo video</a>. Per ulteriori informazioni, consulta la <a href="../email/content-templates.md">documentazione dettagliata</a>.
+<p>Scopri come creare, modificare e utilizzare modelli di contenuto in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=it">questo video</a>. Per ulteriori informazioni, consulta la <a href="../content-management/content-templates.md">documentazione dettagliata</a>.
 </p>
 </td>
 </tr>

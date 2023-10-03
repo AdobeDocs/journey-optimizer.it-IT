@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '1521'
-ht-degree: 93%
+source-wordcount: '1527'
+ht-degree: 92%
 
 ---
 
@@ -182,9 +182,10 @@ ht-degree: 93%
          + [Creare contenuti da zero](using/email/content-from-scratch.md)
          + [Importare i contenuti](using/email/existing-content.md)
          + [Creare il codice del contenuto](using/email/code-content.md)
-         + [Utilizzare i modelli](using/email/email-templates.md)
+         + [Utilizzare i modelli e-mail](using/email/use-email-templates.md)
       + Creare contenuti {#add-content}
          + [Utilizzare i componenti per contenuti](using/email/content-components.md)
+         + [Sfruttare i frammenti visivi](using/email/use-visual-fragments.md)
          + [Aggiungere collegamenti e tracciare i messaggi](using/email/message-tracking.md)
          + [Inserire offerte personalizzate](using/email/add-offers-email.md)
          + [Generare la versione del testo](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 93%
          + [Regolare l’allineamento verticale e la spaziatura](using/email/alignment-and-padding.md)
          + [Aggiungere attributi di stile in linea](using/email/inline-styling.md)
    + [Anteprima e verifica dell’e-mail](using/email/preview.md)
-   + [Creare modelli di contenuto](using/email/content-templates.md)
    + [Utilizzare i modelli di Experience Manager](using/email/aem-templates.md)
-   + [Utilizzare i frammenti](using/email/fragments.md)
    + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
    + Configurare il canale e-mail {#configure-email}
       + [ Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 93%
       + Utilizzare l’editor di espressioni {#expression-editor}
          + [Informazioni sull’editor di espressioni](using/personalization/personalization-build-expressions.md)
          + [Aggiungere attributi ai preferiti](using/personalization/personalization-favorites.md)
-         + [Utilizzare le espressioni salvate](using/personalization/personalization-library.md)
+         + [Utilizzare frammenti di espressione](using/personalization/use-expression-fragments.md)
          + [Convalida della personalizzazione](using/personalization/personalization-validation.md)
       + Funzioni Helper{#functions}
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 93%
       + Casi di utilizzo della personalizzazione{#personalization-use-cases}
          + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
+   + Gestire i contenuti riutilizzabili {#reusable-content}
+      + [Utilizzare i modelli di contenuto](using/content-management/content-templates.md)
+      + [Utilizzare i frammenti](using/content-management/fragments.md)
    + Contenuto dinamico {#dynamic}
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)

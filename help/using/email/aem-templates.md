@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -97,7 +97,7 @@ Una volta che il modello di Experience Manager è disponibile in Journey Optimiz
    >
    > Se desideri modificare e personalizzare il modello, potrai utilizzare solo la modalità di compatibilità.
 
-1. Quando il modello di contenuto è pronto, [testarlo e convalidarlo](content-templates.md#test-template).
+1. Quando il modello di contenuto è pronto, [testarlo e convalidarlo](../content-management/content-templates.md#test-template).
 
 1. Una volta definiti i contenuti, puoi utilizzarli durante la creazione di una nuova e-mail sfogliando il **[!UICONTROL Modelli salvati]** raccolta. Quindi, seleziona **[!UICONTROL Usa questo modello]**.
 

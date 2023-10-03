@@ -4,8 +4,8 @@ product: journey optimizer
 title: Note sulle versioni 2022
 description: Note sulle versioni 2022 di Journey Optimizer
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
-workflow-type: ht
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
+workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 100%
 
@@ -514,7 +514,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 
 **E-mail**
 
-* **Salva come modello**: ora è possibile salvare un contenuto e-mail come modello e riutilizzarlo per creare altri messaggi. [Ulteriori informazioni](../email/email-templates.md)
+* **Salva come modello**: ora è possibile salvare un contenuto e-mail come modello e riutilizzarlo per creare altri messaggi. [Ulteriori informazioni](../content-management/content-templates.md#save-as-template)
 
 
 **Amministrazione**
@@ -682,7 +682,7 @@ In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notific
 
 **Personalizzazione**
 
-* Ora puoi salvare più di 40 espressioni di personalizzazione nella libreria. [Ulteriori informazioni](../personalization/personalization-library.md)
+* Ora puoi salvare più di 40 espressioni di personalizzazione nella libreria. [Ulteriori informazioni](../personalization/use-expression-fragments.md)
 
 ## Versione di febbraio 2022 {#feb-2022-release}
 
@@ -714,7 +714,7 @@ In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notific
 <tr>
 <td>
 <p>Journey Optimizer fornisce ora una libreria in cui è possibile accedere a espressioni di personalizzazione predefinite. Queste espressioni sono configurate dagli utenti amministratore.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../personalization/personalization-library.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../personalization/use-expression-fragments.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>

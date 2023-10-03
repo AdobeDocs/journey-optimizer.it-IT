@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 90%
@@ -37,7 +37,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * I **set di dati di esportazione** di offer decisioning sono ora attivati per impostazione predefinita. La nota relativa al comportamento precedente è stata rimossa.  [Ulteriori informazioni](../offers/export-catalog/get-started-export.md)
 * Sono state rinominate varie **metriche di rapporto della campagna**, sia nei rapporti live che in quelli globali. [Ulteriori informazioni](../reports/campaign-global-report.md)
 * È stata aggiunta una nuova sezione sui prerequisiti dei contenuti dell’esperimento per il canale web. [Ulteriori informazioni](../web/web-prerequisites.md#experiment-prerequisites)
-* È stata aggiunta un’avvertenza sulla pagina **Utilizzare i modelli di contenuto** per indicare che attualmente il tracciamento non è supportato durante il test dei modelli di contenuto e-mail. Per testare il tracciamento, è necessario utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../email/content-templates.md#test-template)
+* È stata aggiunta un’avvertenza sulla pagina **Utilizzare i modelli di contenuto** per indicare che attualmente il tracciamento non è supportato durante il test dei modelli di contenuto e-mail. Per testare il tracciamento, è necessario utilizzare il modello di contenuto in un messaggio e-mail e inviare una bozza. [Ulteriori informazioni](../content-management/content-templates.md#test-template)
 * Sono state aggiunte diverse avvertenze nella sezione **Creare e pubblicare pagine di destinazione** per specificare che non è possibile accedere alla pagina di destinazione semplicemente copiando e incollando in un browser l’URL definito durante la creazione della pagina, anche se pubblicato. È invece possibile testarla utilizzando la funzione di anteprima. [Ulteriori informazioni](../landing-pages/create-lp.md)
 * È stata aggiunta una nuova sezione su come **gestire il consenso** per il canale direct mail. [Ulteriori informazioni](../direct-mail/test-send-direct-mail.md)
 
