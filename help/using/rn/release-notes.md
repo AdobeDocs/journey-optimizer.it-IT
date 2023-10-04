@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
+source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
 workflow-type: tm+mt
 source-wordcount: '4141'
 ht-degree: 85%
@@ -101,7 +101,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Personalizzazione**
 
-* Oltre ai frammenti visivi, ora è possibile creare, salvare e riutilizzare frammenti di espressione dall’interfaccia di Journey Optimizer tramite l’editor di espressioni. I frammenti di espressione sostituiscono le espressioni salvate in precedenza. [Ulteriori informazioni](../content-management/fragments.md#create-expression-fragment)
+* Oltre ai frammenti visivi, ora è possibile creare, salvare e riutilizzare frammenti di espressione dall’interfaccia di Journey Optimizer tramite l’editor di espressioni. I frammenti di espressione sostituiscono le espressioni salvate in precedenza. [Ulteriori informazioni](../personalization/use-expression-fragments.md)
 
 **Avvisi**
 
