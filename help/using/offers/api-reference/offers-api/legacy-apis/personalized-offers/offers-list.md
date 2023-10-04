@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 6%
@@ -25,10 +25,12 @@ GET Puoi visualizzare un elenco di tutte le offerte personalizzate all’interno
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
+
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Parametri di query facoltativi in base ai quali filtrare i risultati. | `limit=2` |
+
 **Richiesta**
 
 ```shell
@@ -40,9 +42,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## Utilizzo dei parametri di query {#using-query-parameters}
+
 Puoi utilizzare i parametri di query per visualizzare e filtrare i risultati quando elenchi le risorse.
+
 ### Paging {#paging}
+
 I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |

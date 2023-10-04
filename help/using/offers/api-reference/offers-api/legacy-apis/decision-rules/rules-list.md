@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 54b92b19f2e3a6afa6557ffeff0d971a4c411510
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 6%
@@ -34,7 +34,9 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 ## Utilizzo dei parametri di query {#using-query-parameters}
 
 Puoi utilizzare i parametri di query per visualizzare e filtrare i risultati quando elenchi le risorse.
+
 ### Paging {#paging}
+
 I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |

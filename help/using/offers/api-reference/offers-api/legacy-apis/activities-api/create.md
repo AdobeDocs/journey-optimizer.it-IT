@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 13%
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,12 @@ Per creare una decisione, devi effettuare una richiesta POST al [!DNL Offer Libr
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-    @@ -22,61 +22,67 @@ La tabella seguente mostra i valori validi che comprendono il *Content-Type* e
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+
+| Nome intestazione | Valore |
+| ----------- | ----- |
+| Content-Type | `application/json` |
+
 **Formato API**
 
 ```http

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '272'
 ht-degree: 5%
 
 ---
@@ -56,10 +56,10 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `q` | Stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere racchiusa tra virgolette doppie per impedire che venga tokenizzata e per evitare caratteri speciali. I caratteri + - = &amp;&amp; |  | > &lt; ! ( ) { } [ ] ^ \&quot; ~ * ? : \ / hanno un significato speciale e devono essere preceduti da una barra rovesciata quando vengono visualizzati nella stringa query. raccolta demo |
-| `qop` | Applicabile `AND` o `OR` operatore ai valori in `q` parametro stringa query. | `AND` / `OR` |
-| o in un altro campo | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto come segue: field=field1[,campo=campo2,...] e (le espressioni di percorso sono sotto forma di percorsi separati da punti, ad esempio _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiungendo un - prima del titolo (orderby=-title) gli elementi verranno ordinati in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
+| `q` | Stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere racchiusa tra virgolette doppie per impedire che venga tokenizzata e per evitare caratteri speciali. I caratteri `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra rovesciata quando vengono visualizzati nella stringa query. | `demo collection` |
+| `qop` | Applica l’operatore AND o OR ai valori nel parametro della stringa di query q. | `AND` / `OR` |
+| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto come segue: field=field1[,campo=campo2,...] e (le espressioni di percorso sono sotto forma di percorsi separati da punti, ad esempio _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordinerà gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limita il numero di raccolte restituite. | `limit=5` |
 
 **Risposta**

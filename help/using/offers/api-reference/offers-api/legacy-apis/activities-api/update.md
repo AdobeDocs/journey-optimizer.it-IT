@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,9 @@ Per modificare o aggiornare una decisione nel contenitore, devi effettuare una r
 
 Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@ La tabella seguente mostra i valori validi che comprendono il *Content-Type* e
+## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
+
+La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
