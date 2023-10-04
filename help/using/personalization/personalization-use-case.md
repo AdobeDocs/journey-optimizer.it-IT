@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, caso d’uso, personalizzazione
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '501'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc2.png)
 
-1. Digita l’oggetto e aggiungi la personalizzazione del profilo. Utilizza la barra di ricerca per trovare il campo del nome del profilo. Nel testo dell’oggetto, posiziona il cursore nel punto in cui desideri inserire il campo di personalizzazione e fai clic sul pulsante **+** icona. Fai clic su **Salva**.
+1. Inserisci l’oggetto e aggiungi la personalizzazione del profilo. Utilizza la barra di ricerca per trovare il campo del nome del profilo. Nel testo dell’oggetto, posiziona il cursore nel punto in cui desideri inserire il campo di personalizzazione e fai clic sul pulsante **+** icona. Fai clic su **Salva**.
 
    ![](assets/perso-uc3.png)
 
