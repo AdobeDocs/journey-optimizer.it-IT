@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**. Per Jour
 
 ![](assets/alert-subscribe.png)
 
-Puoi anche abbonarti agli avvisi tramite [Notifiche di eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}Tuttavia, le regole di avviso sono organizzate in pacchetti di abbonamento diversi.
+Puoi anche abbonarti agli avvisi tramite [Notifiche di eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
 
 Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente.
 
 Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;.
 
->[!WARNING]
+>[!CAUTION]
 >
 >Gli avvisi specifici di Adobe Journey Optimizer si applicano solo a **live** percorsi. Gli avvisi non vengono attivati per i percorsi in modalità di test.
 
@@ -51,7 +51,7 @@ Gli avvisi sulle azioni personalizzate vengono risolti quando, negli ultimi 5 mi
 
 * l’azione personalizzata non contiene errori (o errori al di sotto della soglia dell’1%),
 
-* In alternativa, nessun profilo ha raggiunto l’azione personalizzata.
+* oppure, nessun profilo ha raggiunto l’azione personalizzata.
 
 Il nome dell’abbonamento all’evento di I/O corrispondente all’avviso di azione personalizzato è **Azione personalizzata percorso non riuscita**.
 
