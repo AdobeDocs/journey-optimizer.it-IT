@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 11%
+source-wordcount: '155'
+ht-degree: 10%
 
 ---
+
 
 # Creare una raccolta {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso endpoint per le API di persistenza. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Richiesta**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, compresi i relativi `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la raccolta o in un tutorial successivo per creare una decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la raccolta. Puoi utilizzare la tua raccolta univoca `@id` in un tutorial successivo per creare una decisione.
 
 ```json
 {

@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '164'
 ht-degree: 11%
 
 ---
@@ -67,8 +67,6 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 | `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
-ens35577 ha contrassegnato la conversazione come risolta.
-Mostra risolti
 
 **Risposta**
 
