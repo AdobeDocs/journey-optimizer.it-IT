@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4121'
+source-wordcount: '4143'
 ht-degree: 85%
 
 ---
@@ -103,10 +103,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Oltre ai frammenti visivi, ora è possibile creare, salvare e riutilizzare frammenti di espressione dall’interfaccia di Journey Optimizer tramite l’editor di espressioni. I frammenti di espressione sostituiscono le espressioni salvate in precedenza. [Ulteriori informazioni](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**Avvisi**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando una lettura del pubblico non riesce. [Ulteriori informazioni](../reports/alerts.md).
 
 **Canale Web**
 
