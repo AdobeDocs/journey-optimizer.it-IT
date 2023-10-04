@@ -4,9 +4,9 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4141'
 ht-degree: 85%
 
 ---
@@ -105,7 +105,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Avvisi**
 
-* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando una lettura del pubblico non riesce. [Ulteriori informazioni](../reports/alerts.md).
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un **Read Audience** l’attività non riesce. [Ulteriori informazioni](../reports/alerts.md).
 
 **Canale Web**
 
@@ -117,7 +117,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ Durante la duplicazione di un percorso, è ora possibile definire il nome della 
 
 **Canale e-mail**
 
-Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail si trovano nell’Adobe [!DNL Journey Optimizer] elenco di soppressione. [Ulteriori informazioni](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail si trovano nell’Adobe [!DNL Journey Optimizer] elenco di soppressione. [Ulteriori informazioni](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Canale SMS**
 
@@ -137,15 +137,15 @@ Una nuova opzione nella configurazione della superficie e-mail consente di scegl
 
 **Canale direct mail**
 
-È ora possibile crittografare i file destinati ai provider di direct mailing quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file è disponibile un nuovo campo che consente di copiare e incollare la chiave di crittografia. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
+* È ora possibile crittografare i file destinati ai provider di direct mailing quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file è disponibile un nuovo campo che consente di copiare e incollare la chiave di crittografia. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
 
 **Generazione rapporti**
 
-Ora puoi esportare i rapporti di Journey Optimizer come file CSV. Per ulteriori informazioni, consulta [documentazione dettagliata](../reports/global-report.md#export-reports) e [video tutorial](../reports/global-report.md#video-csv).
+* Ora puoi esportare i rapporti di Journey Optimizer come file CSV. Per ulteriori informazioni, consulta [documentazione dettagliata](../reports/global-report.md#export-reports) e [video tutorial](../reports/global-report.md#video-csv).
 
 **Risorse**
 
-Una nuova opzione per Assets consente di scegliere l’archivio delle risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu sia il proprietario di questa soluzione. [Ulteriori informazioni](../content-management/assets-essentials.md)
+* Una nuova opzione per Assets consente di scegliere l’archivio delle risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu sia il proprietario di questa soluzione. [Ulteriori informazioni](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

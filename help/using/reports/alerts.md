@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
+source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -57,12 +57,12 @@ Il nome dell’abbonamento all’evento di I/O corrispondente all’avviso di az
 
 ## Trigger di lettura segmento non riuscito {#alert-read-audiences}
 
-Questo avviso ti avvisa se **Leggi segmento** l’attività non ha elaborato alcun profilo 10 minuti dopo l’ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto.
+Questo avviso ti avvisa se **Read Audience** l’attività non ha elaborato alcun profilo 10 minuti dopo l’ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto.
 
 ![](assets/alerts1.png)
 
-Avvisi su **Leggi segmento** Le attività sono applicabili solo ai percorsi ricorrenti. **Leggi segmento** attività in percorsi live che hanno una pianificazione da eseguire **Una volta** o **Appena possibile** vengono ignorati.
+Avvisi su **Read Audience** Le attività sono applicabili solo ai percorsi ricorrenti. **Read Audience** attività in percorsi live che hanno una pianificazione da eseguire **Una volta** o **Appena possibile** vengono ignorati.
 
-Avvisi su **Leggi segmento** vengono risolti quando un profilo entra in **Leggi segmento** nodo.
+Avvisi su **Read Audience** vengono risolti quando un profilo entra in **Read Audience** nodo.
 
-Il nome dell’abbonamento all’evento di I/O corrispondente al **Leggi segmento** l&#39;avviso è **Ritardi, errori ed errori percorsi nella lettura del segmento**.
+Il nome dell’abbonamento all’evento di I/O corrispondente al **Trigger di lettura segmento non riuscito** l&#39;avviso è **Ritardi, errori ed errori percorsi nella lettura del segmento**.
