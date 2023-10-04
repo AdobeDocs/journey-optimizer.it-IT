@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
+source-git-commit: 623aa2ee317553eaebfb16c350a69672de2866a1
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
 >[!NOTE]
 >
->Se crei un frammento di espressione contenente più interruzioni di riga e lo utilizzi in [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenuti, le interruzioni di riga vengono mantenute. Assicurati quindi di visualizzare in anteprima e testare il [SMS](../sms/send-sms.md) o [push](../push/send-push.md) messaggio prima di inviarlo.
+>Se crei un frammento di espressione contenente più interruzioni di riga e lo utilizzi in [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenuti, le interruzioni di riga vengono mantenute. In questo modo, assicurati di testare [SMS](../sms/send-sms.md) o [push](../push/send-push.md) messaggio prima di inviarlo.
 
 ## Interrompi ereditarietà {#break-inheritance}
 
