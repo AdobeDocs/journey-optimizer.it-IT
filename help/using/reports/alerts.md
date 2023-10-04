@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
 # Introduzione agli avvisi {#alerts}
 
-## Funzionalità di avviso {#alerting-capabilities}
+## Accedere e sottoscrivere gli avvisi {#alerting-capabilities}
 
-Puoi accedere agli avvisi di sistema tramite l’interfaccia utente o ricevere un messaggio e-mail in caso di errore. Dalla sezione **Avvisi** , puoi visualizzare gli avvisi disponibili e abbonarti. Quando viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), i messaggi di avviso vengono inviati a tutti gli utenti dell’organizzazione che si sono iscritti a tali condizioni.
+In caso di errore, puoi ricevere gli avvisi di sistema nel centro notifiche di Journey Optimizer e ricevere un messaggio e-mail. Dalla sezione **Avvisi** , puoi visualizzare gli avvisi disponibili e abbonarti. Quando viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), i messaggi di avviso vengono inviati a tutti gli utenti dell’organizzazione che si sono iscritti a tali condizioni.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
