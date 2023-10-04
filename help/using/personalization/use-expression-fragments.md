@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 Quando utilizzi l’editor espressioni, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
 
->[!NOTE]
->
->Scopri come creare e gestire i frammenti in [questa sezione](../content-management/fragments.md).
+Scopri come creare e gestire i frammenti in [questa sezione](../content-management/fragments.md).
 
 ➡️ [Scopri come gestire, creare e utilizzare i frammenti in questo video](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
 1. Puoi quindi personalizzare e convalidare i contenuti come di consueto utilizzando tutte le funzionalità di personalizzazione e authoring del [Editor espressioni](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>Se crei un frammento di espressione contenente più interruzioni di riga e lo utilizzi in [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenuti, le interruzioni di riga vengono mantenute. Assicurati quindi di visualizzare in anteprima e testare il [SMS](../sms/send-sms.md) o [push](../push/send-push.md) messaggio prima di inviarlo.
+
 ## Interrompi ereditarietà {#break-inheritance}
 
 Quando si aggiunge un ID frammento all’editor espressioni, le modifiche apportate al frammento di espressione originale vengono sincronizzate.
@@ -79,13 +81,4 @@ Tuttavia, puoi anche incollare il contenuto di un frammento di espressione nell�
 In tal caso, l’ereditarietà dal frammento originale è interrotta. Il contenuto del frammento viene copiato nell’editor e le modifiche non vengono più sincronizzate.
 
 Diventa un elemento autonomo non più collegato al frammento originale; puoi modificarlo come qualsiasi altro elemento nel codice.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
