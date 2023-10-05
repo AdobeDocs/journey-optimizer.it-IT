@@ -4,7 +4,7 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '4190'
 ht-degree: 84%
@@ -121,7 +121,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 
 
-* Il supporto delle risposte di azione personalizzate è ora GA. Questa funzionalità ti consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e di orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni doganali a 15.000 chiamate in 30 secondi per endpoint. [Ulteriori informazioni](../action/action-response.md)
+* Il supporto delle risposte di azione personalizzate è ora GA. Questa funzionalità ti consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e di orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni doganali a 150.000 chiamate in 30 secondi per endpoint. [Ulteriori informazioni](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
