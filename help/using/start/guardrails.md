@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1355'
 ht-degree: 95%
 
 ---
@@ -66,7 +66,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 ### Azioni personalizzate {#custom-actions-g}
 
-* Per tutte le azioni personalizzate viene definito un limite massimo di 5000 chiamate/s. Questo limite è stato impostato in base all’utilizzo da parte dei clienti, per proteggere gli endpoint esterni interessati dalle azioni personalizzate.
+* Per tutte le azioni personalizzate viene definito un limite massimo di 150.000 chiamate in 30 secondi. Questo limite è stato impostato in base all’utilizzo da parte dei clienti, per proteggere gli endpoint esterni interessati dalle azioni personalizzate.
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”

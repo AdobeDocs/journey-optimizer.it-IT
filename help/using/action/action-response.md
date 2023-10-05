@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: azione, terze parti, personalizzato, percorsi, API
-exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '603'
 ht-degree: 7%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 7%
 # Utilizzare le risposte alle chiamate API nelle azioni personalizzate {#custom-action-enhancements}
 
 Puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare i percorsi in base a tali risposte.
-
->[!AVAILABILITY]
->
->Questa funzione è attualmente disponibile in versione beta.
 
 <!--
 You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 12%
 
 ---
@@ -37,7 +37,7 @@ Inoltre, i parametri delle azioni personalizzate hanno un formato previsto (ad e
 
 ## Best practice{#custom-action-enhancements-best-practices}
 
-Per tutte le azioni personalizzate viene definito un limite massimo di 5000 chiamate/s. Questo limite è stato impostato in base all’utilizzo da parte dei clienti, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili/s quando vengono utilizzate azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione. Consulta [questa pagina](../configuration/external-systems.md).
+Per tutte le azioni personalizzate viene definito un limite massimo di 150.000 chiamate in 30 secondi. Questo limite è stato impostato in base all’utilizzo da parte dei clienti, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili/s quando vengono utilizzate azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione. Consulta [questa pagina](../configuration/external-systems.md).
 
 Non eseguire il targeting degli endpoint pubblici con azioni personalizzate per vari motivi:
 
