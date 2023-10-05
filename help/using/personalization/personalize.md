@@ -9,14 +9,20 @@ role: Data Engineer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 25%
+source-wordcount: '411'
+ht-degree: 22%
 
 ---
 
 # Introduzione alla personalizzazione{#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card5"
+>title="Personalizzare le esperienze"
+>abstract="Utilizzare **Adobe Journey Optimizer** adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui si dispone su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato e altro ancora."
+
 
 Scoprire [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato e altro ancora.
 

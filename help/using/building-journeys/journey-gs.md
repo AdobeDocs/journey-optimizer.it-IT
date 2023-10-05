@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1710'
 ht-degree: 24%
 
 ---
 
 # Creare il primo percorso{#jo-quick-start}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card2"
+>title="Creare percorsi"
+>abstract="Utilizzare **Adobe Journey Optimizer** per generare casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali archiviati negli eventi o nelle origini dati."
 
 ## Prerequisiti{#start-prerequisites}
 
