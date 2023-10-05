@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: assets, essentials, experience manager, integrazione
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 18%
@@ -49,8 +49,7 @@ Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione
 
    ![](assets/media_library_4.png)
 
-+++
-Scopri come cambiare l’archivio delle risorse.
++++ Scopri come cambiare l’archivio delle risorse.
 
    Per modificare l’archivio Assets, seleziona l’icona Account in alto a destra e fai clic su **[!UICONTROL Seleziona archivio]**.
 
