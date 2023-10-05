@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 6%
+source-wordcount: '1147'
+ht-degree: 4%
 
 ---
 
 # Creare contenuto in-app {#design-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_content"
+>title="Definire il contenuto in-app"
+>abstract="Personalizza il contenuto e lo stile dei messaggi in-app. Puoi anche aggiungere media e pulsanti di azione per rendere i messaggi più coinvolgenti ed efficaci."
 
 Puoi modificare il contenuto in-app per configurare le opzioni dell’esperienza:
 
@@ -31,6 +36,11 @@ Il **[!UICONTROL Formattazione avanzata]** attiva/disattiva opzioni aggiuntive p
 Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Per ulteriori informazioni, consulta [questa pagina](send-in-app.md).
 
 ## Layout dei messaggi {#message-layout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="Definire il contenuto in-app"
+>abstract="Il layout del messaggio fornisce i modelli comunemente utilizzati per incorniciare il messaggio. Il layout personalizzato fornisce opzioni per caricare o comporre messaggi HTML personalizzati."
 
 Dalla sezione **[!UICONTROL Layout messaggio]** , seleziona una delle quattro opzioni di layout disponibili a seconda delle tue esigenze di messaggistica.
 
@@ -58,9 +68,14 @@ Dalla sezione **[!UICONTROL Layout messaggio]** , seleziona una delle quattro op
 
 ## Scheda Contenuto {#content-tab}
 
-Dalla sezione **Contenuto** , puoi definire e personalizzare: il contenuto della notifica e lo stile della **Chiudi** pulsante. Puoi anche aggiungere un file multimediale alla notifica in-app e i pulsanti di azione da questa scheda.
+Dalla sezione **Contenuto** , puoi definire e personalizzare il contenuto della notifica e lo stile della **Chiudi** pulsante. Puoi anche aggiungere un file multimediale alla notifica in-app e i pulsanti di azione da questa scheda.
 
 ### Pulsante Chiudi {#close-button}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_close"
+>title="Scegliere lo stile del pulsante Chiudi."
+>abstract="La sezione del pulsante Chiudi consente di selezionare le varianti del pulsante Chiudi messaggio e di caricare un’immagine personalizzata."
 
 ![](assets/in_app_content_2.png)
 
@@ -80,6 +95,11 @@ Se il **[!UICONTROL Modalità di formattazione avanzata]** è acceso, è possibi
 
 ### Media {#add-media}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_media"
+>title="Aggiungi contenuti multimediali al messaggio in-app per creare un’esperienza coinvolgente per l’utente finale."
+>abstract="Fornisci un collegamento diretto al contenuto o utilizza il selettore delle risorse per scegliere i contenuti multimediali da aggiungere al messaggio in Asset Essentials."
+
 Il **[!UICONTROL Contenuti multimediali]** consente di aggiungere contenuti multimediali al messaggio in-app per creare un’esperienza coinvolgente per l’utente finale.
 
 ![](assets/in_app_content_3.png)
@@ -94,6 +114,11 @@ Se il **[!UICONTROL Modalità di formattazione avanzata]** è attivato, è possi
 +++
 
 ### Intestazione e corpo {#title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_content"
+>title="Per comporre il messaggio, immetti il contenuto nei campi Intestazione e Corpo."
+>abstract="Qui è possibile aggiungere sia l’intestazione che il corpo del testo. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
 
 Per comporre il messaggio, inserisci il contenuto nel **[!UICONTROL Intestazione]** e **[!UICONTROL Corpo]** campi.
 
@@ -112,6 +137,11 @@ Se il **[!UICONTROL Modalità di formattazione avanzata]** è attivato, è possi
 +++
 
 ### Pulsanti {#add-buttons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_buttons"
+>title="Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in-app."
+>abstract="Questa sezione ti consente di aggiungere pulsanti di invito all’azione al messaggio. È possibile includere testo e destinazioni personalizzati per ogni pulsante."
 
 Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in-app.
 
@@ -147,6 +177,11 @@ Dalla sezione **Impostazioni** , puoi definire il layout del messaggio e visuali
 
 ### Anteprima {#preview-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_preview"
+>title="Visualizza l’anteprima del messaggio in-app."
+>abstract="Immagine di anteprima che verrà visualizzata quando il messaggio viene inviato al riepilogo dei messaggi del dispositivo."
+
 ![](assets/in_app_content_6.png)
 
 Il **[!UICONTROL Anteprima app]** consente di aggiungere uno sfondo dietro il messaggio in-app:
@@ -159,6 +194,11 @@ Il **[!UICONTROL Anteprima app]** consente di aggiungere uno sfondo dietro il me
 
 ### Layout {#layout-options}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="Definisci il layout del messaggio in-app."
+>abstract="Questa sezione ti consente di aggiungere uno sfondo al messaggio in-app. Questo richiede che l’acquisizione dell’interfaccia utente sia abilitata."
+
 ![](assets/in_app_content_7.png)
 
 Il **[!UICONTROL Immagine di sfondo]** consente di aggiungere uno sfondo al messaggio in-app:
@@ -168,6 +208,11 @@ Il **[!UICONTROL Immagine di sfondo]** consente di aggiungere uno sfondo al mess
 * Un colore di sfondo.
 
 ### Messaggio {#message-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_advanced"
+>title="Definisci le impostazioni avanzate del messaggio."
+>abstract="Questa sezione ti permette di migliorare la personalizzazione dei contenuti in-app, in particolare quando è abilitata la formattazione avanzata."
 
 ![](assets/in_app_content_8.png)
 
