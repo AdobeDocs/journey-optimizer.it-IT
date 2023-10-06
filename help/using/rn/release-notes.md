@@ -4,10 +4,10 @@ product: journey optimizer
 title: Note sulla versione
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
-source-wordcount: '4221'
-ht-degree: 84%
+source-wordcount: '4254'
+ht-degree: 83%
 
 ---
 
@@ -104,6 +104,10 @@ Inoltre, gli attributi calcolati semplificano la segmentazione e i flussi di lav
 ### Miglioramenti {#sept-2023-improvements}
 
 Questa versione include i miglioramenti elencati di seguito.
+
+**Gestione delle decisioni**
+
+* Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Queste API forniscono prestazioni migliori e una migliore esperienza utente. Le API legacy saranno supportate fino al 03/27/2024. [Ulteriori informazioni](../offers/api-reference/getting-started.md)
 
 **Personalizzazione**
 
