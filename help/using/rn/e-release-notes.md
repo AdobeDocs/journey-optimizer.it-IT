@@ -5,11 +5,11 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 hide: true
 hidefromtoc: true
-exl-id: 3a741a74-8fec-499d-be1f-17ac04106e54
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
-workflow-type: tm+mt
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Rapporti consolidati sul canale</strong><br/></th>
+<th><strong>Rapporti consolidati sui canali</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La funzione Channel Report offre ad analisti ed esperti di marketing una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale. Per accedere al menu Report, devi disporre dell’autorizzazione View Channel Reports (Visualizza rapporti canale).</p>
+<p>La funzione Rapporto dei canali offre ad analisti ed esperti di marketing una panoramica completa delle metriche di traffico e coinvolgimento a livello di canale. Per accedere al menu Rapporto, è necessario disporre dell’autorizzazione Vsualizza i rapporti sui canali.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -48,13 +48,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Destinazioni di esportazione del set di dati (GA)</strong><br/></th>
+<th><strong>Destinazioni di esportazione dei set di dati (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’esportazione dei set di dati Journey Optimizer nelle destinazioni di archiviazione cloud è ora generalmente disponibile. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud.</p>
+<p>L’esportazione dei set di dati di Journey Optimizer nelle destinazioni di archiviazione cloud è ora disponibile a livello generale. Ora, per esportare il contenuto dei set di dati, è possibile stabilire una connessione in tempo reale con posizioni di archiviazione cloud.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -65,7 +65,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Archiviazione delle credenziali per le app mobili per sandbox</strong><br/></th>
+<th><strong>Archiviazione per sandbox delle credenziali per app mobili</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -86,8 +86,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Gli attributi calcolati consentono di riepilogare facilmente i dati evento negli attributi del profilo tramite un’interfaccia utente intuitiva per migliorare la segmentazione, la personalizzazione e l’attivazione basate sul comportamento. Con questa funzione, puoi creare attributi calcolati in modo autonomo, gestirli e utilizzarli nella segmentazione, nelle destinazioni del profilo cliente in tempo reale o in Journey Optimizer.<br/><br/>
-Inoltre, gli attributi calcolati semplificano la segmentazione e i flussi di lavoro di percorso per aiutarti a fornire esperienze rilevanti in modo semplice. Per ulteriori informazioni, consulta <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">documentazione dettagliata</a>.</p>
+<p>Gli attributi calcolati consentono di riepilogare facilmente i dati evento negli attributi del profilo tramite un’interfaccia intuitiva e migliorano la segmentazione, la personalizzazione e l’attivazione basate sul comportamento. Con questa funzione, puoi creare attributi calcolati in autonomia, gestirli e utilizzarli nella segmentazione, nelle destinazioni del profilo cliente in tempo reale o in Journey Optimizer.<br/><br/>
+Inoltre, gli attributi calcolati semplificano i flussi di lavoro per percorsi e segmentazione per aiutarti a fornire esperienze rilevanti in modo semplice e diretto. Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=it">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -109,18 +109,18 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Avvisi**
 
-* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando una lettura del pubblico non riesce.
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’attività Leggi pubblico non viene completata.
 
 **Canale Web**
 
-* Le applicazioni a pagina singola (SPA) possono ora essere create nell’editor visivo del designer web, che consente di selezionare le visualizzazioni specifiche a cui applicare le modifiche alla pagina web. Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento. Per creare ed eseguire campagne web di Adobe Journey Optimizer sull’SPA, è necessaria una configurazione per sviluppatori una tantum per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK.
+* Le applicazioni a pagina singola (SPA) possono ora essere create nell’editor visivo del designer web, che consente di selezionare le viste specifiche a cui applicare le modifiche alla pagina web. Una vista può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o il frame delle preferenze di consegna su tutte le pagine di pagamento. Per creare ed eseguire campagne web di Adobe Journey Optimizer sulle SPA, è necessaria una singola configurazione per sviluppatori per definire le viste nell’implementazione di Adobe Experience Platform Web SDK.
 
-* Quando modifichi una pagina utilizzando il designer Web, ora puoi aggiungere nuove modifiche al contenuto direttamente dal **Modifiche** senza dover selezionare un componente e modificarlo dall’interfaccia di progettazione.
+* Quando modifichi una pagina utilizzando il designer web, ora puoi aggiungere nuove modifiche al contenuto direttamente dal riquadro **Modifiche**, senza dover selezionare un componente e modificarlo dall’interfaccia del designer.
 * Durante la configurazione dei sottodomini web, ora puoi aggiungere un tuo sottodominio, oltre a utilizzare un sottodominio già delegato ad Adobe.
 
 **Percorsi**
 
-* Il supporto delle risposte di azione personalizzate è ora GA. Questo consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e di orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni doganali a 5000 chiamate/s per endpoint.
+* Il supporto delle risposte alle azioni personalizzate è ora disponibile al pubblico. Ciò consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni personalizzate a 5000 chiamate per endpoint.
 * Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso.
 
 <!--
@@ -129,15 +129,15 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale e-mail**
 
-Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono nell’elenco di soppressione di Adobe Journey Optimizer.
+Una nuova opzione nella configurazione della superficie e-mail consente di scegliere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail si trovano nell’elenco di soppressione di Adobe Journey Optimizer.
 
 **Canale SMS**
 
-Due nuovi campi, **Messaggio di Opt-in** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, che consente agli utenti di personalizzare le risposte per le parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch.
+Due nuovi campi, **Messaggio di consenso** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, per consentire agli utenti di personalizzare le risposte in base alle parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch.
 
-**Generazione rapporti**
+**Reporting**
 
-Ora puoi esportare i rapporti di Journey Optimizer come file CSV. [Ulteriori informazioni](../reports/global-report.md#export-reports)
+Ora è possibile esportare i rapporti di Journey Optimizer come file CSV. [Ulteriori informazioni](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
