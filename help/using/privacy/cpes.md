@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Per creare un pubblico suddiviso nella composizione del pubblico, segui questi p
 
 1. In Percorso 1: scegli un’etichetta per definire il pubblico non personalizzato.
 
-1. Scegli il valore appropriato da questo elenco: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
+1. Scegli il valore appropriato da questo elenco: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values
 
    In questo esempio, per la rinuncia alla personalizzazione useremo una “n” per indicare NO.
 
