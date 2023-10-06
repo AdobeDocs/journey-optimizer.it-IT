@@ -6,9 +6,9 @@ description: Scopri come configurare l’ambiente per inviare notifiche push con
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1609'
 ht-degree: 4%
 
 ---
@@ -267,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Affinché questo percorso funzioni, devi creare uno schema XDM. Per ulteriori informazioni, consulta [Documentazione XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. Nel menu a sinistra, passa a **[!UICONTROL Schemi]**.
-
-1. Clic **[!UICONTROL Crea schema]** quindi seleziona **[!UICONTROL XDM ExperienceEvent]**.
-
+1. Nella sezione del menu DATA MANAGEMENT, fare clic su **[!UICONTROL Schemi]**.
+   ![](assets/test_push_1.png)
+1. Clic **[!UICONTROL Crea schema]**, in alto a destra, seleziona **[!UICONTROL Evento esperienza]** e fai clic su **Successivo**.
    ![](assets/test_push_2.png)
-
-1. Seleziona **[!UICONTROL Crea un nuovo gruppo di campi]**.
+1. Immetti un nome e una descrizione per lo schema e fai clic su **Fine**.
+   ![](assets/test_push_3.png)
+1. In **Gruppi di campi** , a sinistra, fai clic su **Aggiungi** e seleziona **[!UICONTROL Crea un nuovo gruppo di campi]**.
 
 1. Immetti un **[!UICONTROL Nome visualizzato]** e un **[!UICONTROL Descrizione]**. Clic **[!UICONTROL Aggiungi gruppi di campi]** al termine. Per ulteriori informazioni su come creare gruppi di campi, consulta [Documentazione del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. Sul lato sinistro, seleziona lo schema. Nel riquadro di destra, immettere il nome dello schema e la descrizione. Abilita questo schema per **[!UICONTROL Profilo]**.
+1. Sul lato sinistro, seleziona lo schema. Nel riquadro a destra, abilita questo schema per **[!UICONTROL Profilo]**.
 
    ![](assets/test_push_4b.png)
 

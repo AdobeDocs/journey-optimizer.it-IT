@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profili di test, test, test, percorso
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
@@ -42,18 +42,18 @@ A **creare uno schema**, effettua le seguenti operazioni:
 
 1. Nella sezione del menu DATA MANAGEMENT, fare clic su **[!UICONTROL Schemi]**.
    ![](assets/test-profiles-0.png)
-1. Clic **[!UICONTROL Crea schema]**, in alto a destra, quindi seleziona un tipo di schema, ad esempio **Profilo individuale XDM**.
+1. Clic **[!UICONTROL Crea schema]**, in alto a destra, seleziona un tipo di schema, ad esempio **Profilo individuale** e fai clic su **Successivo**.
    ![](assets/test-profiles-1.png)
-1. Selezionare i gruppi di campi appropriati. Accertati di aggiungere **Dettagli del test del profilo** gruppo di campi.
+1. Immetti un nome per lo schema e fai clic su **Fine**.
+   ![](assets/test-profiles-1-bis.png)
+1. In **Gruppi di campi** a sinistra, fai clic su **Aggiungi$$ e seleziona i gruppi di campi appropriati. Accertati di aggiungere **Dettagli del test del profilo** gruppo di campi.
    ![](assets/test-profiles-1-ter.png)
 Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l’elenco dei gruppi di campi viene visualizzato nella schermata di panoramica dello schema.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* Fai clic sul nome dello schema per modificarlo e aggiornarne le proprietà.
-   >
-   >* Fai clic su **[!UICONTROL Aggiungi]** nella sezione Gruppi di campi per selezionare altri gruppi di campi da aggiungere nello schema
+   >Fai clic sul nome dello schema per aggiornarne le proprietà.
 
 1. Nell’elenco dei campi, fai clic sul campo che desideri definire come identità primaria.
    ![](assets/test-profiles-3.png)
