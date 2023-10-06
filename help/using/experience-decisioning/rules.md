@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
+source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 6%
+source-wordcount: '280'
+ht-degree: 17%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali
-   * [Configurare il catalogo articoli](catalogs.md)
+   * [Configurare il catalogo degli elementi](catalogs.md)
    * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte elementi](collections.md)
+   * [Gestire le raccolte di elementi](collections.md)
 * Configurare la selezione degli elementi
    * **[Creare regole di decisione](rules.md)**
    * [Creare metodi di classificazione](ranking.md)
@@ -39,7 +39,10 @@ Le regole di decisione ti consentono di definire il pubblico per gli elementi di
 
 Ad esempio, consideriamo uno scenario in cui si hanno elementi decisionali con prodotti relativi allo yoga progettati per le donne. Con le regole di decisione, puoi specificare che questi elementi devono essere visualizzati solo ai profili il cui genere è &quot;Femmina&quot; e che hanno indicato un &quot;Punto di interesse&quot; in &quot;Yoga&quot;.
 
-Oltre alle regole di decisione a livello di elemento e di strategia di selezione, puoi anche creare parametri aggiuntivi per il pubblico a cui desideri rivolgerti a livello di campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
+>[!NOTE]
+>
+>Oltre alle regole di decisione a livello di articolo e di strategia di selezione, puoi anche definire il pubblico a cui rivolgerti a livello di campagna. [Ulteriori informazioni](../campaigns/create-campaign.md#audience)
+
 
 L’elenco delle regole di decisione è accessibile nella sezione **[!UICONTROL Configurazione]** / **[!UICONTROL Regole delle decisioni]** menu.
 
@@ -49,7 +52,7 @@ L’elenco delle regole di decisione è accessibile nella sezione **[!UICONTROL 
 >
 >Per il momento, le regole di decisione vengono gestite utilizzando Journey Optimizer **Gestione delle decisioni** menu. Di conseguenza, il **[!UICONTROL Regole di decisione]** L’elenco in Experience Decisioning include regole create da Journey Optimizer **[!UICONTROL Gestione delle decisioni]** o **[!UICONTROL Experience Decisioning]** menu.
 
-Per creare una raccolta, effettua le seguenti operazioni:
+Per creare una regola, effettua le seguenti operazioni:
 
 1. Accedi a **[!UICONTROL Configurazione]** / **[!UICONTROL Regole di decisione]**.
 1. L’interfaccia utente di Journey Optimizer per la gestione delle decisioni viene visualizzata nell’area centrale. Segui i passaggi descritti in [Documentazione sulla gestione delle decisioni](../offers/offer-library/creating-decision-rules.md) per creare la regola in base alle tue esigenze.
