@@ -7,8 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
+source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 4%
@@ -127,7 +127,7 @@ Esistono due modi per creare i frammenti:
 
 * Creare un frammento da zero utilizzando **[!UICONTROL Frammenti]** menu dedicato. [Scopri come](#create-from-scratch)
 
-* Durante la progettazione di un contenuto, salva una parte del contenuto come frammento. [Scopri come](#save-as-template)
+* Durante la progettazione di un contenuto, salva una parte del contenuto come frammento. [Scopri come](#save-as-fragment)
 
 Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, una campagna o un modello. Sia che sia creato da zero o da un contenuto esistente, ora puoi utilizzare questo frammento durante la creazione di qualsiasi contenuto in [!DNL Journey Optimizer]. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
 
    ![](assets/fragment-details.png)
 
-1. Seleziona il tipo di frammento: **[!UICONTROL Frammento visivo]** o **[!UICONTROL Frammento di espressione]**.
+1. Seleziona il tipo di frammento: [Frammento visivo](#create-visual-fragment) o [Frammento di espressione](#create-expression-fragment).
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
