@@ -4,16 +4,23 @@ product: journey optimizer
 title: Aggiornamenti alla documentazione
 description: Scopri gli ultimi aggiornamenti della documentazione
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
-source-wordcount: '3765'
-ht-degree: 98%
+source-wordcount: '3815'
+ht-degree: 97%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+
+
+## Ottobre 2023 {#oct-2023}
+
+* Sono stati aggiunti dei GIF per illustrare alcune funzionalità chiave, ad esempio: [Modelli di contenuto](../content-management/content-templates.md), [Frammenti](../content-management/fragments.md), [Attributi calcolati](../audience/computed-attributes.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [Tag](../start/search-filter-categorize.md#tags), [Modelli di ottimizzazione della gestione delle decisioni](../offers/ranking/personalized-optimization-model.md), [Campagne attivate da API](../campaigns/api-triggered-campaigns.md), e [Esperimento sui contenuti](../campaigns/content-experiment.md).
+* Il processo di creazione dello schema è stato aggiornato per riflettere gli ultimi aggiornamenti nell’interfaccia utente, con le modifiche apportate a Adobe Experience Platform. [Ulteriori informazioni](../audience/creating-test-profiles.md)
 
 ## Settembre 2023 {#september-2023}
 

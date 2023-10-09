@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 1%
@@ -22,6 +22,8 @@ ht-degree: 1%
 Con [!DNL Journey Optimizer], puoi creare campagne e richiamarle da un sistema esterno in base all’attivazione dell’utente utilizzando [API REST di esecuzione messaggi interattivi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Questo ti consente di soddisfare varie esigenze di marketing e messaggistica transazionale, tra cui reimpostazioni di password e token OTP.
 
 A tal fine, devi innanzitutto creare una campagna attivata da API in Journey Optimizer e quindi avviarne l’esecuzione tramite una chiamata API.
+
+![](../rn/assets/do-not-localize/api-triggered.gif)
 
 I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi push.
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 17%
@@ -24,6 +24,9 @@ ht-degree: 17%
 La direct mailing è un canale offline che ti consente di personalizzare e generare i file di estrazione necessari ai provider di direct mailing per inviare e-mail ai clienti.
 
 Durante la creazione di una campagna di direct mailing, Journey Optimizer genera automaticamente un file contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mailing scelto, che gestirà il processo di mailing effettivo per te.
+
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
 
 I passaggi principali per l’invio di messaggi di direct mailing sono i seguenti:
 
