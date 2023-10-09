@@ -8,37 +8,44 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
+source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 4%
+source-wordcount: '1548'
+ht-degree: 3%
 
 ---
 
 # Utilizzare i frammenti {#fragments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_create_fragment"
+>title="Definire i propri frammenti"
+>abstract="Crea e gestisci frammenti autonomi per consentire il riutilizzo dei contenuti in più percorsi e campagne."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Creare frammenti"
+
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi.
 
 Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
 
-➡️ [Scopri come gestire, creare e utilizzare i frammenti in questi video](#video-fragments)
+![](../rn/assets/do-not-localize/fragments.gif)
 
->[!CAUTION]
->
->Per creare, modificare e archiviare i frammenti, è necessario disporre del **[!DNL Manage Library Items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+➡️ [Scopri come gestire, creare e utilizzare i frammenti in questi video](#video-fragments)
 
 Per utilizzare al meglio i frammenti:
 
 * Crea frammenti personalizzati. Puoi creare frammenti visivi o frammenti di espressione. [Ulteriori informazioni](#create-fragments)
+
 * Utilizzale il numero di volte necessario nel contenuto. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md)
 
->[!NOTE]
->
->Attualmente in [!DNL Journey Optimizer]:
->
->* I frammenti visivi sono disponibili solo per il canale e-mail.
->
->* I frammenti di espressione non sono disponibili per i canali Web e in-app.
+## Prima di iniziare {#fragment-prerequisites}
+
+Per creare, modificare e archiviare i frammenti, è necessario disporre del **[!DNL Manage Library Items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+
+In questa versione si applicano le seguenti limitazioni:
+
+* I frammenti visivi sono disponibili solo per il canale e-mail
+
+* I frammenti di espressione non sono disponibili per i canali web e in-app
 
 ## Accedere e gestire i frammenti {#access-manage-fragments}
 
@@ -133,14 +140,9 @@ Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, 
 
 ### Crea da zero {#create-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo_create_fragment"
->title="Definisci il tuo frammento"
->abstract="Crea da zero un frammento autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne."
-
 Per creare un frammento da zero, segui la procedura riportata di seguito.
 
-1. Accedere all’elenco dei frammenti tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
+1. [Accedere all’elenco dei frammenti](#access-manage-fragments) tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
 
 1. Seleziona **[!UICONTROL Crea frammento]**.
 
@@ -157,6 +159,12 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
 1. Fai clic su **[!UICONTROL Crea]**.
 
 ### Creare un frammento visivo {#create-visual-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_visual_fragment"
+>title="Seleziona il tipo di elemento visivo"
+>abstract="Crea un frammento visivo indipendente per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Aggiungi frammenti visivi alle e-mail"
 
 1. [Creare un frammento](#create-from-scratch) dal **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra e selezionare **[!UICONTROL Frammento visivo]** tipo.
 
@@ -181,6 +189,12 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
 Questo frammento è ora pronto per essere utilizzato durante la creazione di qualsiasi [email](../email/get-started-email-design.md) o [modello di contenuto](content-templates.md) entro [!DNL Journey Optimizer]. [Scopri come](../email/use-visual-fragments.md)
 
 ### Creare un frammento di espressione {#create-expression-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_expression_fragment"
+>title="Seleziona il tipo di espressione"
+>abstract="Crea un frammento di espressione autonomo per rendere il contenuto riutilizzabile in più percorsi e campagne. Quando utilizzi l’editor espressioni, puoi sfruttare tutti i frammenti di espressione creati nella sandbox corrente."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Sfruttare i frammenti di espressione"
 
 1. [Creare un frammento](#create-from-scratch) dal **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra e selezionare **[!UICONTROL Frammento di espressione]** tipo.
 
