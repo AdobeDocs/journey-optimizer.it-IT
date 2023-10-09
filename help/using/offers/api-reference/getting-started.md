@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 93%
 
 ---
 
 # API per la gestione delle decisioni - Guida per sviluppatori  {#decision-management-api-developer-guide}
+
+>[!CONTEXTUALHELP]
+>id="od_api_support"
+>title="Nuove API di gestione delle decisioni"
+>abstract="Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Le api legacy saranno supportate fino al 03/27/2024."
 
 Questa guida per sviluppatori descrive i passaggi per iniziare a utilizzare l’API di [!DNL Offer Library]. La guida fornisce quindi esempi di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.
 
