@@ -97,8 +97,8 @@ Per aggiungere una **Selettore CSS** modifica del tipo, segui la procedura ripor
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
->title="Aggiungi codice personalizzato"
->abstract="L’elemento HEAD è un contenitore per metadati e si trova tra il tag HTML e il tag BODY. Aggiungere solo elementi SCRIPT e STYLE. L’aggiunta di tag DIV e di altri elementi potrebbe causare la comparsa di altri elementi HEAD nel BODY."
+>title="Aggiungere codice personalizzato"
+>abstract="L’elemento HEAD è un contenitore per metadati e si trova tra il tag HTML e il tag BODY. Aggiungere solo elementi SCRIPT e STYLE. L’aggiunta di tag DIV e di altri elementi potrebbe causare il passaggio di elementi HEAD rimanenti nel BODY. "
 
 Puoi aggiungere codice personalizzato utilizzando **[!UICONTROL Pagina`<head>`]** tipo di modifica.
 

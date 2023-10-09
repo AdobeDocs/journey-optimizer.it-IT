@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Eseguire il piano di riscaldamento IP
+title: Eseguire il piano di preparazione IP
 description: Scopri come eseguire e monitorare un piano di riscaldamento IP
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# Eseguire il piano di riscaldamento IP {#ip-warmup-running}
+# Eseguire il piano di preparazione IP {#ip-warmup-running}
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)
-* [Creare campagne di riscaldamento IP](ip-warmup-campaign.md)
-* [Creare un piano di riscaldamento IP](ip-warmup-plan.md)
-* **[Eseguire il piano di riscaldamento IP](ip-warmup-execution.md)**
+* [Introduzione alla preparazione dell’IP](ip-warmup-gs.md)
+* [Creare campagne di preparazione IP](ip-warmup-campaign.md)
+* [Creare un piano di preparazione IP](ip-warmup-plan.md)
+* **[Eseguire il piano di preparazione IP](ip-warmup-execution.md)**
 
 >[!ENDSHADEBOX]
 
@@ -40,13 +40,13 @@ Ogni fase è composta da più esecuzioni, alle quali si assegna una singola camp
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Escludere i tipi di pubblico delle campagne"
->abstract="Seleziona i tipi di pubblico da altre campagne da escludere dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di riscaldamento dell’IP non verranno nuovamente oggetto di targeting."
+>abstract="Seleziona i tipi di pubblico da altre campagne da escludere dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di preparazione dell’IP non saranno considerati di nuovo oggetti di targeting."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
->title="Escludi gruppi di dominio"
+>title="Escludere gruppi di dominio"
 >abstract="Seleziona i domini da escludere dalla fase corrente. L’esclusione del dominio richiede una fase non eseguita, quindi potrebbe essere necessario dividere una fase in esecuzione per aggiungere esclusioni."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividere una fase"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=it#split-phase" text="Suddividere una fase"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -117,22 +117,22 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="Filtra in base al coinvolgimento"
->abstract="Questa colonna è un filtro che esegue il targeting solo degli utenti coinvolti con il tuo marchio negli ultimi 20 giorni, ad esempio. È inoltre possibile modificare questa impostazione tramite **Modifica esecuzione** opzione."
+>abstract="Questa colonna è un filtro che esegue il targeting solo degli utenti coinvolti con il tuo marchio negli ultimi 20 giorni, ad esempio. È inoltre possibile modificare questa impostazione tramite l’opzione **Modifica esecuzione**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="Impostare una finestra temporale"
->abstract="Puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nel processo di segmentazione."
+>title="Impostare un intervallo di tempo"
+>abstract="Puoi definire un intervallo di tempo durante il quale la campagna di preparaizone IP può essere eseguita in caso di ritardi nel processo di segmentazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="Annulla esecuzioni con errori del pubblico"
->abstract="Seleziona questa opzione per annullare un’esecuzione se i profili idonei sono inferiori ai profili target una volta che il pubblico è stato valutato per tale esecuzione."
+>title="Annullare esecuzioni con errori del pubblico"
+>abstract="Seleziona questa opzione per annullare un’esecuzione se i profili qualificati sono inferiori ai profili di destinazione una volta che il pubblico è stato valutato per tale esecuzione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Visualizzare i profili qualificati"
->abstract="Questa colonna mostra il numero di profili idonei. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili target rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che il **Pausa per errori** l&#39;opzione è abilitata. In questo caso, l’esecuzione viene annullata."
+>abstract="Questa colonna mostra il numero di profili qualificati. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili di destinazione rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che l’opzione **Pausa per errori** è abilitata. In questo caso, l’esecuzione viene annullata."
 
 1. Seleziona una pianificazione per ogni esecuzione.
 

@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 4%
@@ -65,6 +66,3 @@ Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno 
 * Se le stesse condizioni vengono ripetute in più percorsi (controlli del consenso, eliminazioni), considera di spostarle come parte della definizione del segmento. Ad esempio, se disponi di una condizione per controllare &quot;l’indirizzo e-mail non è vuoto&quot; in più percorsi, includi tale condizione nella definizione del segmento.
 * Se il percorso presenta diverse condizioni che dividono il pubblico per visualizzare i numeri in ogni passaggio, è consigliabile utilizzare il Customer Journey Analytics o un’altra soluzione di reporting più adatta per l’analisi.
 * Se ti stai avvicinando al limite di nodi nell’area di lavoro, considera il consolidamento delle azioni con parametri dinamici o contenuti per fornire il contenuto giusto invece di nodi espliciti.
-
-
-

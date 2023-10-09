@@ -12,7 +12,7 @@ exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -32,7 +32,7 @@ Inoltre, quando l’elenco Consentiti è attivo ma vuoto, non viene inviata alcu
 
 >[!CAUTION]
 >
->Questa funzione si applica solo al canale e-mail.
+>Questa funzione si applica solo al canale E-mail.
 
 ## Accedere all’elenco Consentiti {#access-allowed-list}
 

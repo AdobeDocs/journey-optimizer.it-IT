@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
+source-git-commit: 7906d28cbe770dd2debf079d3c646536bf7f74e4
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -91,4 +92,3 @@ Per interrompere l’ereditarietà, effettua le seguenti operazioni:
    ![](assets/fragment-break-inheritance.png)
 
 1. Il frammento diventa un elemento autonomo non più collegato al frammento originale. Modificalo come qualsiasi altro componente del contenuto. [Ulteriori informazioni](content-components.md)
-

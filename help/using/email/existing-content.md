@@ -12,7 +12,7 @@ exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 33%
+ht-degree: 72%
 
 ---
 
@@ -33,23 +33,23 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
    ![](assets/import-html_2.png)
 
-1. Trascina e rilascia il file HTML o .zip con il contenuto HTML e fai clic su **[!UICONTROL Importa]**.
+1. Trascina il file HTML o .zip con il contenuto HTML e fai clic su **[!UICONTROL Importa]**.
 
    ![](assets/html-imported_2.png)
 
-1. Una volta caricato il contenuto di HTML, il contenuto sarà in **[!UICONTROL Modalità di compatibilità]**.
+1. Una volta caricato il contenuto HTML, questo sarà in **[!UICONTROL Modalità di compatibilità]**.
 
    In questa modalità, puoi solo personalizzare il testo, aggiungere collegamenti o includere risorse nel contenuto.
 
-1. Per poter sfruttare i componenti di contenuto di E-mail Designer, accedi al **[!UICONTROL Convertitore HTML]** e fai clic su **[!UICONTROL Converti]**.
+1. Per poter sfruttare i componenti di contenuto di E-mail designer, accedi alla scheda **[!UICONTROL Convertitore HTML]** e fai clic su **[!UICONTROL Converti]**.
 
    ![](assets/html-imported.png)
 
    >[!NOTE]
    >
-   > Utilizzo di un `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
+   > L’utilizzo di un tag `<table>` come primo livello in un file HTML può causare la perdita di stile, incluse le impostazioni di sfondo e larghezza nel tag del livello superiore.
 
-1. Ora puoi personalizzare il file importato in base alle esigenze con le funzionalità di E-mail Designer [Ulteriori informazioni](content-from-scratch.md).
+1. Ora puoi personalizzare il file importato in base alle esigenze con le funzionalità di E-mail designer [Ulteriori informazioni](content-from-scratch.md).
 
 ## Video introduttivo {#video}
 

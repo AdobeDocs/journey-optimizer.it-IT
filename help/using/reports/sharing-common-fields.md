@@ -79,7 +79,7 @@ Valori possibili:
 
 * Condizione
 * Azione
-* Attività Scheduler
+* Modulo di pianificazione
 * Timer
 
 ## stepStatus {#stepstatus-field}

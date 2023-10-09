@@ -1,5 +1,5 @@
 ---
-title: Introduzione a Experience Decisioning
+title: Introduzione a Offer Decisioning
 description: Ulteriori informazioni su Experience Decisioning
 feature: Offers
 topic: Integrations
@@ -8,24 +8,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 14b6ea7d0bf460cdab865f21977ab4bbe789ef7c
+exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
-# Introduzione a Experience Decisioning {#get-started-experience-decisioning}
+# Introduzione a Offer Decisioning {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* **[Introduzione a Experience Decisioning](gs-experience-decisioning.md)**
+* **[Introduzione a Offer Decisioning](gs-experience-decisioning.md)**
 * Gestire gli elementi decisionali
-   * [Configurare il catalogo articoli](catalogs.md)
+   * [Configurare il catalogo degli elementi](catalogs.md)
    * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte elementi](collections.md)
+   * [Gestire le raccolte di elementi](collections.md)
 * Configurare la selezione degli elementi
    * [Creare regole di decisione](rules.md)
    * [Creare metodi di classificazione](ranking.md)

@@ -186,9 +186,9 @@ Se ricevi un errore durante l’invio della superficie e-mail, significa che il 
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="Sovrascrivi precedenza elenco di soppressione"
+>title="Sostituire la precedenza dell’elenco di soppressione"
 >abstract="Puoi decidere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono presenti nell’elenco di soppressione di Adobe Journey Optimizer a causa di un reclamo spam. Questa opzione è disabilitata per impostazione predefinita."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="Gestire l’elenco di soppressione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it" text="Gestire l’elenco di soppressione"
 
 >[!IMPORTANT]
 >

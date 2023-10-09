@@ -12,7 +12,7 @@ exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 17%
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni su come caricare le risorse, consulta [Documentazione
 
    ![](assets/media_library_1.png)
 
-1. Scegli l’archivio per le risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu sia il proprietario di questa soluzione.
+1. Scegli l’archivio per le risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu disponga di una licenza per questa soluzione.
 
    ![](assets/media_library_4.png)
 

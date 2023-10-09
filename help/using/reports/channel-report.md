@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
+exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Rapporto a livello di canale"
->abstract="I rapporti sul canale offrono una panoramica completa delle metriche del traffico e del coinvolgimento su tutti i canali. I rapporti sono suddivisi in diversi widget che descrivono nel dettaglio la campagna e i percorsi di successo ed errori. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="I rapporti sul canale offrono una panoramica completa delle metriche del traffico e del coinvolgimento su tutti i canali. I rapporti sono suddivisi in diversi widget che descrivono nel dettaglio i successi e gli errori della campagna e dei percorsi. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
 
 >[!IMPORTANT]
 >
-> Per accedere al **Report** menu, è necessario disporre di **[!UICONTROL Visualizzare i rapporti sul canale]** autorizzazione. [Ulteriori informazioni](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Per accedere al menu **Rapporto**, è necessario disporre dell’autorizzazione **[!UICONTROL Visualizza rapporti sui canali.]** [Ulteriori informazioni](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 I rapporti sul canale forniscono agli utenti una panoramica completa delle metriche del traffico e del coinvolgimento a livello di canale. Le metriche vengono aggregate per presentare valori consolidati per le azioni provenienti dal canale scelto, che si estendono su vari percorsi e campagne.
 

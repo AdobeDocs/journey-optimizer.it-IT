@@ -12,7 +12,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1009'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
 * [Introduzione al canale basato su codice](get-started-code-based.md)
-* [Prerequisiti basati su codice](code-based-prerequisites.md)
-* [Esempi di implementazione basati su codice](code-based-implementation-samples.md)
+* [Prerequisiti per esperienze basate su codice](code-based-prerequisites.md)
+* [Esempi di implementazione per esperienze basate su codice](code-based-implementation-samples.md)
 * **[Creare esperienze basate su codice](create-code-based.md)**
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->Il canale di esperienza basato su codice è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+>Il canale per esperienze basate su codice è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 ## Creare una campagna basata su codice {#create-code-based-campaign}
 

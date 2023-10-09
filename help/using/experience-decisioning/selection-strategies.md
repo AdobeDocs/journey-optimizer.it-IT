@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -19,13 +20,13 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali
-   * [Configurare il catalogo articoli](catalogs.md)
+   * [Configurare il catalogo degli elementi](catalogs.md)
    * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte elementi](collections.md)
+   * [Gestire le raccolte di elementi](collections.md)
 * Configurare la selezione degli elementi
    * [Creare regole di decisione](rules.md)
    * [Creare metodi di classificazione](ranking.md)
@@ -117,4 +118,3 @@ Una volta creata, è possibile utilizzare questa formula in una strategia di sel
 Puoi anche utilizzare un sistema di modelli addestrato che classifica automaticamente le offerte da visualizzare per un determinato profilo selezionando un modello di intelligenza artificiale. Scopri come creare un modello di intelligenza artificiale in [questa sezione](ranking.md).
 
 Una volta creato un modello di IA, puoi utilizzarlo in una strategia di selezione. Se sono ammesse più offerte, il sistema di modelli addestrato determinerà quale offerta deve essere presentata per prima per questa strategia di selezione.
-

@@ -6,8 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
-workflow-type: ht
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -18,9 +18,6 @@ ht-degree: 100%
 [!DNL Journey Optimizer] consente di creare visivamente e fornire esperienze web personalizzate ai clienti.
 
 Tramite un’interfaccia visiva intuitiva, questa funzionalità ti consente di modificare facilmente le proprietà web per sperimentare, ottimizzare e personalizzare le campagne per gli utenti finali.
-
-![](../rn/assets/do-not-localize/web-authoring.gif)
-
 
 Se utilizzi già canali in uscita come e-mail, SMS o notifiche push, ora puoi sfruttare il canale Web in entrata per offrire un’esperienza veramente personalizzata che si estende in tutti i canali.
 

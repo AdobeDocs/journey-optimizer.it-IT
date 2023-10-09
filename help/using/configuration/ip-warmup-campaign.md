@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare campagne di riscaldamento IP
+title: Creare campagne di preparazione IP
 description: Scopri come creare una campagna di riscaldamento IP
 feature: Application Settings
 topic: Administration
@@ -14,25 +14,25 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# Creare campagne di riscaldamento IP {#create-ip-warmup-campaign}
+# Creare campagne di preparazione IP {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Attivare l’opzione piano di riscaldamento IP"
->abstract="Quando selezioni questa opzione, la campagna può essere utilizzata in un piano di riscaldamento IP. La pianificazione della campagna sarà quindi guidata dal piano di riscaldamento IP a cui è associata."
+>abstract="Quando selezioni questa opzione, la campagna può essere utilizzata in un piano di preparazione IP. La pianificazione della campagna sarà quindi guidata dal piano di preparazione IP a cui è associata."
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)
-* **[Creare campagne di riscaldamento IP](ip-warmup-campaign.md)**
-* [Creare un piano di riscaldamento IP](ip-warmup-plan.md)
-* [Eseguire il piano di riscaldamento IP](ip-warmup-execution.md)
+* [Introduzione alla preparazione dell’IP](ip-warmup-gs.md)
+* **[Creare campagne di preparazione IP](ip-warmup-campaign.md)**
+* [Creare un piano di preparazione IP](ip-warmup-plan.md)
+* [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 

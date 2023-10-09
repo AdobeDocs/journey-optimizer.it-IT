@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ In entrata [!DNL Journey Optimizer], l’authoring web è basato su **Helper vis
 
 Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 
-* [Gestione modifiche](manage-web-modifications.md)
+* [Gestire le modifiche](manage-web-modifications.md)
 
 * [Monitorare le campagne web](monitor-web-campaigns.md)
 

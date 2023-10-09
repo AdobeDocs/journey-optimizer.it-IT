@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
 source-wordcount: '1656'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -227,21 +227,21 @@ ht-degree: 92%
    + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
    + [Testare e inviare un messaggio di direct mail](using/direct-mail/test-send-direct-mail.md)
-   + [Configurare la direct mail](using/direct-mail/direct-mail-configuration.md)
+   + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web {#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
    + [Prerequisiti per il canale Web](using/web/web-prerequisites.md)
    + [Creare esperienze web](using/web/create-web.md)
    + Creare pagine web {#author-web-pages}
       + [Modificare il contenuto di una pagina web](using/web/edit-web-content.md)
-      + [Gestione modifiche](using/web/manage-web-modifications.md)
+      + [Gestire le modifiche](using/web/manage-web-modifications.md)
       + [Monitorare le campagne web](using/web/monitor-web-campaigns.md)
-      + [Creazione di applicazioni a pagina singola](using/web/web-spa.md)
+      + [Creare applicazioni a pagina singola](using/web/web-spa.md)
    + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
 + Esperienza basata su codice {#code-based-experience}
    + [Introduzione al canale basato su codice](using/code-based/get-started-code-based.md)
-   + [Prerequisiti basati su codice](using/code-based/code-based-prerequisites.md)
-   + [Esempi di implementazione basati su codice](using/code-based/code-based-implementation-samples.md)
+   + [Prerequisiti per esperienze basate su codice](using/code-based/code-based-prerequisites.md)
+   + [Esempi di implementazione per esperienze basate su codice](using/code-based/code-based-implementation-samples.md)
    + [Creare esperienze basate su codice](using/code-based/create-code-based.md)
 + Pagine di destinazione {#landing-pages}
    + [Introduzione alle pagine di destinazione](using/landing-pages/get-started-lp.md)
@@ -284,7 +284,7 @@ ht-degree: 92%
          + [Funzioni matematiche](using/personalization/functions/math.md)
          + [Funzioni oggetto](using/personalization/functions/objects.md)
          + [Funzioni stringa](using/personalization/functions/string.md)
-      + Casi di utilizzo della personalizzazione{#personalization-use-cases}
+      + Casi d’uso della personalizzazione{#personalization-use-cases}
          + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Gestire i contenuti riutilizzabili {#reusable-content}
@@ -306,7 +306,7 @@ ht-degree: 92%
    + Profili{#profiles}
       + [Introduzione ai profili](using/audience/get-started-profiles.md)
       + [Creare profili di test](using/audience/creating-test-profiles.md)
-      + [Utilizzare gli attributi calcolati](using/audience/computed-attributes.md)
+      + [Utilizzo di attributi con più valori](using/audience/computed-attributes.md)
    + [Identità](using/audience/get-started-identity.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
 + Tracciare e monitorare {#reporting}
@@ -483,12 +483,12 @@ ht-degree: 92%
          + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Experience Decisioning {#experience-decisioning}
-   + [Introduzione a Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
++ Offer Decisioning {#experience-decisioning}
+   + [Introduzione a Offer Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
    + Gestire gli elementi decisionali {#decision-items}
-      + [Configurare il catalogo articoli](using/experience-decisioning/catalogs.md)
+      + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
       + [Creare elementi decisionali](using/experience-decisioning/items.md)
-      + [Gestire le raccolte elementi](using/experience-decisioning/collections.md)
+      + [Gestire le raccolte di elementi](using/experience-decisioning/collections.md)
    + Configurare la selezione degli elementi {#selection}
       + [Creare regole di decisione](using/experience-decisioning/rules.md)
       + [Creare metodi di classificazione](using/experience-decisioning/ranking.md)
@@ -512,11 +512,11 @@ ht-degree: 92%
       + [Aggiungere un record TXT di Google](using/configuration/google-txt.md)
       + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
       + [Creare pool IP](using/configuration/ip-pools.md)
-   + Implementare un piano di riscaldamento IP {#implement-ip-warmup-plan}
-      + [Introduzione ai piani di riscaldamento IP](using/configuration/ip-warmup-gs.md)
-      + [Creare campagne di riscaldamento IP](using/configuration/ip-warmup-campaign.md)
-      + [Creare un piano di riscaldamento IP](using/configuration/ip-warmup-plan.md)
-      + [Eseguire il piano di riscaldamento IP](using/configuration/ip-warmup-execution.md)
+   + Implementare un piano di preparazione IP {#implement-ip-warmup-plan}
+      + [Introduzione ai piani di preparazione IP](using/configuration/ip-warmup-gs.md)
+      + [Creare campagne di preparazione IP](using/configuration/ip-warmup-campaign.md)
+      + [Creare un piano di preparazione IP](using/configuration/ip-warmup-plan.md)
+      + [Eseguire il piano di preparazione IP](using/configuration/ip-warmup-execution.md)
    + Monitorare gli indirizzi e-mail {#monitor-reputation}
       + [Elenco di soppressione](using/configuration/manage-suppression-list.md)
       + [Nuovi tentativi](using/configuration/retries.md)

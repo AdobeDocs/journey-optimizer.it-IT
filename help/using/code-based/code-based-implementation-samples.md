@@ -1,5 +1,5 @@
 ---
-title: Esempi di implementazione basati su codice
+title: Esempi di implementazione per esperienze basate su codice
 description: Questa pagina mostra esempi del metodo di implementazione per la funzione basata su codice di Journey Optimizer
 feature: Offers
 topic: Content Management
@@ -8,11 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
 * [Introduzione al canale basato su codice](get-started-code-based.md)
-* [Prerequisiti basati su codice](code-based-prerequisites.md)
-* **[Esempi di implementazione basati su codice](code-based-implementation-samples.md)**
+* [Prerequisiti per esperienze basate su codice](code-based-prerequisites.md)
+* **[Esempi di implementazione per esperienze basate su codice](code-based-implementation-samples.md)**
 * [Creare esperienze basate su codice](create-code-based.md)
 
 >[!ENDSHADEBOX]

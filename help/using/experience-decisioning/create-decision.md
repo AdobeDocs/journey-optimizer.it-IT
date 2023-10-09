@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali
-   * [Configurare il catalogo articoli](catalogs.md)
+   * [Configurare il catalogo degli elementi](catalogs.md)
    * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte elementi](collections.md)
+   * [Gestire le raccolte di elementi](collections.md)
 * Configurare la selezione degli elementi
    * [Creare regole di decisione](rules.md)
    * [Creare metodi di classificazione](ranking.md)

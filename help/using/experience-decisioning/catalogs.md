@@ -8,11 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-exl-id: 613a0a16-2e8f-499d-9db4-5175fefd93cc
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 6%
+ht-degree: 16%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali
-   * **[Configurare il catalogo articoli](catalogs.md)**
+   * **[Configurare il catalogo degli elementi](catalogs.md)**
    * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte elementi](collections.md)
+   * [Gestire le raccolte di elementi](collections.md)
 * Configurare la selezione degli elementi
    * [Creare regole di decisione](rules.md)
    * [Creare metodi di classificazione](ranking.md)

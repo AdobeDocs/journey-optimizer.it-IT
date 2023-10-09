@@ -22,7 +22,7 @@ Il controllo degli accessi basato su attributi (Attribute-Based Access Control -
 
 In Adobe Journey Optimizer, ABAC consente di proteggere i dati e concedere un accesso specifico a elementi di campo specifici, inclusi schemi Experience Data Model (XDM), attributi di profilo e tipi di pubblico.
 
-Per un elenco più dettagliato della terminologia utilizzata con ABAC, fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
+Per un elenco più dettagliato della terminologia utilizzata con ABAC, fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html?lang=it).
 
 In questo esempio, desideri aggiungere un’etichetta al file **Nazionalità** per impedire agli utenti non autorizzati di utilizzarlo. Affinché ciò funzioni, devi eseguire i seguenti passaggi:
 

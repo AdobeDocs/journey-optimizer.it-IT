@@ -1,5 +1,5 @@
 ---
-title: Creazione di applicazioni a pagina singola
+title: Creare applicazioni a pagina singola
 description: Scopri come creare SPA e applicare modifiche a diverse visualizzazioni in Journey Optimizer
 feature: Web Channel
 topic: Content Management
@@ -9,25 +9,25 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 20%
 
 ---
 
-# Creazione di applicazioni a pagina singola {#web-author-spas}
+# Creare applicazioni a pagina singola {#web-author-spas}
 
 ## Informazioni sulle viste {#about-views}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
->title="Applica modifiche alle viste selezionate"
->abstract="Le modifiche verranno applicate solo alle viste selezionate. Le visualizzazioni possono essere rilevate utilizzando **Sfoglia** e accedervi. Non riesci a trovare la visualizzazione che stai cercando?"
+>title="Applicare le modifiche alle viste selezionate"
+>abstract="Le modifiche verranno applicate solo alle viste selezionate. Le viste possono essere rilevate utilizzando la modalità **Sfoglia** e accedendo ad esse. Non trovi la vista che stai cercando?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 **Applicazioni a pagina singola** (SPA) ora può essere creato nell’editor visivo del designer web. Questo consente di selezionare quali **visualizzazioni** desideri applicare le modifiche apportate alla pagina web a.
 
 [Scopri come creare applicazioni a pagina singola in questo video](#video)
 
-Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento.
+Una vista può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o il frame delle preferenze di consegna su tutte le pagine di pagamento.
 
 È necessaria la configurazione per sviluppatori una tantum per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK. Questo consente di creare ed eseguire campagne web Adobe Journey Optimizer sull’SPA.
 
@@ -86,8 +86,8 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 Questo video spiega come:
 
 * Scopri le visualizzazioni SPA tramite **[!UICONTROL Sfoglia]** modalità
-* Eseguire l&#39;authoring sulla visualizzazione corrente
-* Applica le modifiche al sito web a più visualizzazioni o a tutte le visualizzazioni individuate
+* Eseguire l’authoring sulla vista corrente
+* Applicare le modifiche al sito web per più viste o tutte le viste individuate
 * Eseguire azioni in blocco sulle modifiche
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

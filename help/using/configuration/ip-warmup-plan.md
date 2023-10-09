@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare un piano di riscaldamento IP
+title: Creare un piano di preparazione IP
 description: Scopri come creare un piano di riscaldamento IP in Journey Optimizer
 feature: Application Settings
 topic: Administration
@@ -14,20 +14,20 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
-# Creare un piano di riscaldamento IP {#ip-warmup}
+# Creare un piano di preparazione IP {#ip-warmup}
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
-* [Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)
-* [Creare campagne di riscaldamento IP](ip-warmup-campaign.md)
-* **[Creare un piano di riscaldamento IP](ip-warmup-plan.md)**
-* [Eseguire il piano di riscaldamento IP](ip-warmup-execution.md)
+* [Introduzione alla preparazione dell’IP](ip-warmup-gs.md)
+* [Creare campagne di preparazione IP](ip-warmup-campaign.md)
+* **[Creare un piano di preparazione IP](ip-warmup-plan.md)**
+* [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +109,7 @@ Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguent
    >
    >Il piano di riscaldamento IP selezionato verrà eliminato definitivamente.
 
-## Creare un piano di riscaldamento IP {#create-ip-warmup-plan}
+## Creare un piano di preparazione IP {#create-ip-warmup-plan}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
@@ -121,7 +121,7 @@ Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguent
 >title="Selezionare una superficie marketing"
 >abstract="Seleziona la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Impostare le superfici di canale"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di riscaldamento IP"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di preparazione IP"
 
 Quando una o più campagne live con **[!UICONTROL Attivazione del piano di riscaldamento IP]** opzione attivata, è possibile associarle a un piano di riscaldamento IP.
 

@@ -12,7 +12,7 @@ exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
 source-wordcount: '970'
-ht-degree: 10%
+ht-degree: 13%
 
 ---
 
@@ -39,7 +39,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business.
 
-* Quando si utilizza una qualificazione del pubblico in un percorso, l’attività di qualificazione del pubblico può richiedere fino a 10 minuti per essere attiva e ascoltare i profili che entrano o escono dal pubblico.
+* Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 
 ### Configurare l’attività{#cnfigure-segment-qualification}
 

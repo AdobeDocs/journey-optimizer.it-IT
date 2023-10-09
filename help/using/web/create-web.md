@@ -39,7 +39,7 @@ Per iniziare a creare la tua esperienza web attraverso una campagna, segui i pas
 
 >[!NOTE]
 >
->Se questa è la prima volta che crei un’esperienza web, assicurati di seguire i prerequisiti descritti in [questa sezione](web-prerequisites.md).
+>Se è la prima volta che crei un’esperienza web, assicurati di seguire i prerequisiti descritti in [questa sezione](web-prerequisites.md).
 
 1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 

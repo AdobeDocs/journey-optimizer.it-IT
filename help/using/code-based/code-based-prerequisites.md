@@ -8,10 +8,11 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -19,11 +20,11 @@ ht-degree: 13%
 
 >[!BEGINSHADEBOX]
 
-Cosa troverai in questa documentazione di guida:
+Cosa troverai in questa documentazione:
 
 * [Introduzione al canale basato su codice](get-started-code-based.md)
-* **[Prerequisiti basati su codice](code-based-prerequisites.md)**
-* [Esempi di implementazione basati su codice](code-based-implementation-samples.md)
+* **[Prerequisiti per esperienze basate su codice](code-based-prerequisites.md)**
+* [Esempi di implementazione per esperienze basate su codice](code-based-implementation-samples.md)
 * [Creare esperienze basate su codice](create-code-based.md)
 
 >[!ENDSHADEBOX]
@@ -36,7 +37,7 @@ Per poter utilizzare le azioni basate su codice nelle [!DNL Journey Optimizer] e
 
 ## Note di attenzione {#caution-notes-web}
 
-* Il canale di esperienza basato su codice è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+* Il canale per esperienze basate su codice è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 * Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo in **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure)
 
@@ -79,5 +80,3 @@ Scopri come aggiungere set di dati per il reporting degli esperimenti sui conten
 >[!NOTE]
 >
 >Il set di dati viene utilizzato in sola lettura da [!DNL Journey Optimizer] e non influisce sulla raccolta o l’acquisizione dei dati.
-
-

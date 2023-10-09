@@ -172,7 +172,7 @@ Esempio:
 
 >[!NOTE]
 >
->Per &lt;expression1> e &lt;expression2> non esiste alcun controllo del tipo di dati.
+Per &lt;expression1> e &lt;expression2> non esiste alcun controllo del tipo di dati.
 
 Il risultato è booleano.
 
