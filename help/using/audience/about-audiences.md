@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="ajo_campaigns_content_experiment_segment"
 >title="Pubblico"
 >abstract="Sfruttando i dati del servizio profilo cliente in tempo reale, Adobe Experience Platform consente di generare facilmente definizioni di segmento per creare tipi di pubblico mirati, che acquisiscono preferenze e comportamenti univoci dei clienti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="Selezionare il pubblico della campagna"
+>abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico di destinazione della campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)"
 
 [!DNL Journey Optimizer] consente di generare e sfruttare tipi di pubblico di Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal menu **[!UICONTROL Tipi di pubblico]** e utilizzarli nei percorsi o nelle campagne.
 

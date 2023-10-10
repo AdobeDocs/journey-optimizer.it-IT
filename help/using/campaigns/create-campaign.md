@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 27%
@@ -122,7 +122,7 @@ In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna
 
 ## Definire il pubblico {#audience}
 
-Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei segmenti di Adobe Experience Platform disponibili. [Ulteriori informazioni sui segmenti](../audience/about-audiences.md)
+Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
 
 >[!NOTE]
 >
