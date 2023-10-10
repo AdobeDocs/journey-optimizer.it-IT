@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 8%
 
 ---
 
@@ -58,6 +58,32 @@ Per creare una campagna di direct mailing, effettua le seguenti operazioni:
 Ora puoi iniziare a configurare il file di estrazione da inviare al provider di direct mailing.
 
 ## Configurare il file di estrazione {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="Campi dati"
+>abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richiesto dai provider di direct mailing per inviare e-mail ai clienti. Puoi aggiungere fino a 50 colonne."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="Formattazione file di estrazione"
+>abstract="Il <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione. Quando questa opzione è disattivata, le colonne vengono ordinate automaticamente in base al campo ID profilo."
+
+1. Configura le colonne e le informazioni da visualizzare nel file di estrazione:
+
+   1. Fai clic su **[!UICONTROL Aggiungi]** per creare una nuova colonna.
+
+   1. Il **[!UICONTROL Formattazione]** Il riquadro di destra consente di impostare la colonna selezionata. Specifica un **[!UICONTROL Etichetta]** per la colonna.
+
+   1. In **[!UICONTROL Dati]** , selezionare gli attributi di profilo da visualizzare utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md).
+
+   1. Per ordinare il file di estrazione utilizzando una colonna, seleziona la colonna e attiva **[!UICONTROL Ordina per]** opzione. Il **[!UICONTROL Ordina per]** viene visualizzata accanto all’etichetta della colonna nel **[!UICONTROL Campi dati]** sezione.
+
+
+
+
+
+
 
 Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 
