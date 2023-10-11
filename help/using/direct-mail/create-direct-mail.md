@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '720'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 >abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richiesto dai provider di direct mailing per inviare e-mail ai clienti. Puoi aggiungere fino a 50 colonne."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="Formattazione file di estrazione"
->abstract="Il <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione. Quando questa opzione è disattivata, le colonne vengono ordinate automaticamente in base al campo ID profilo."
+>abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’Editor espressioni. <br/><br/> Il <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
 
 1. Configura le colonne e le informazioni da visualizzare nel file di estrazione:
 
