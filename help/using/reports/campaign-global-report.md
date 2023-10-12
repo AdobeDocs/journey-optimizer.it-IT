@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '3181'
+source-wordcount: '3192'
 ht-degree: 6%
 
 ---
@@ -239,9 +239,9 @@ Il **[!UICONTROL E-Mail - URL principale]** il grafico e la tabella indicano gli
 
 Il **[!UICONTROL E-mail - Dominio destinatario principale]** il grafico e la tabella indicano i domini più utilizzati dai profili per aprire l’e-mail.
 
->[!NOTE]
+>[!CAUTION]
 >
->Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per l’e-mail è attivata l’opzione Ottimizzazione ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
+> Il **[!UICONTROL E-mail - Dominio destinatario principale]** widget ha una percentuale di precisione del 99,95%.
 
 Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
 
@@ -256,6 +256,11 @@ Il **[!UICONTROL Ottimizzazione del tempo di invio]** Il completamento dell’e-
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+
+>[!NOTE]
+>
+>Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per l’e-mail è attivata l’opzione Ottimizzazione ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## Scheda In-app {#inapp-global}
