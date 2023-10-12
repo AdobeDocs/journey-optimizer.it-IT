@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 22%
@@ -70,3 +70,4 @@ Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da u
 Scopri come personalizzare un profilo di base con un messaggio e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+
