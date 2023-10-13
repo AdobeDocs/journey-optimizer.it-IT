@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 24%
+source-wordcount: '1727'
+ht-degree: 22%
 
 ---
 
@@ -44,6 +44,11 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
    ![](assets/custom2.png)
 
 ## Percorsi di accesso {#journey-access}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Percorsi"
+>abstract="Progettare i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Il **Panoramica** Questa scheda mostra una dashboard con le metriche chiave relative ai tuoi percorsi. Il **Sfoglia** nella scheda viene visualizzato l&#39;elenco dei percorsi esistenti."
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 
@@ -77,11 +82,6 @@ Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azion
 ![](assets/journey3bis.png)
 
 ## Creare il percorso{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Creare il percorso"
->abstract="In questa schermata viene visualizzato l’elenco dei percorsi esistenti. Apri un percorso o fai clic su “Crea percorso” e combina le diverse attività di evento, orchestrazione e azione per creare scenari multicanale con più passaggi."
 
 Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
 
