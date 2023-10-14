@@ -1,12 +1,12 @@
 ---
 title: Aggiorna decisioni
 description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: 500b76aaaed604a73f2d8430a181763a9f35565f
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 9%

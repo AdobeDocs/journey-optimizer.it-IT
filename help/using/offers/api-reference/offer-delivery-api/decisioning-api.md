@@ -1,12 +1,12 @@
 ---
 title: Consegnare offerte
 description: Gestione delle decisioni è una raccolta di servizi e programmi di interfaccia utente che consente agli addetti marketing di creare e fornire esperienze di offerta personalizzate per l’utente finale tramite diversi canali e applicazioni utilizzando la logica di business e le regole decisionali.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 4%

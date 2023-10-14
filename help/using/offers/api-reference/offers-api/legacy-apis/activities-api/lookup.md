@@ -1,12 +1,12 @@
 ---
 title: Cercare una decisione
 description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
-source-git-commit: d312410ce2a91d3084d99e3caceb53ce4ada87b8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 4%
