@@ -11,7 +11,7 @@ keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
+source-git-commit: 9236848f0f9ee3ece555833283378570ec498b1d
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 19%
@@ -69,7 +69,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* È necessario selezionare una campagna che utilizza la stessa superficie di quella selezionata per il piano di riscaldamento IP corrente.
    >
-   >* Non puoi selezionare una campagna già in uso in un’altra campagna di riscaldamento IP.
+   >* Non puoi selezionare una campagna già in uso in un altro piano di riscaldamento IP.
 
 
 1. In **[!UICONTROL Esclusione profilo]** sezione, puoi notare che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
