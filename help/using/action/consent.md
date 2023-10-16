@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 77565a88d23f241a54a8622ceed0cd26fc4a31b2
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 100%
@@ -58,7 +58,7 @@ There are two types of latency regarding the use of consent policies:
 ## Configurazione dell’azione personalizzata {#consent-custom-action}
 
 >[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_admin"
+>id="ajo_consent_required_marketing_action"
 >title="Definisci un’azione di marketing richiesta"
 >abstract="L’Azione di marketing richiesta consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi l’azione personalizzata per inviare e-mail utilizzando una terza parte, puoi selezionare Targeting e-mail. Se utilizzato in un percorso, tutti i criteri di consenso associati a tale azione di marketing verranno recuperati e utilizzati. Questo non può essere modificato nell’area di lavoro."
 
