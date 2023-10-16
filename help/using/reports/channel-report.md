@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -81,7 +81,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
@@ -203,7 +203,7 @@ Il **[!UICONTROL Motivi di mancato recapito per dominio]**, **[!UICONTROL Inviat
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -302,7 +302,7 @@ Il **[!UICONTROL Tracciamento per piattaforma]** e **[!UICONTROL Invio per piatt
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
@@ -372,7 +372,7 @@ Il **[!UICONTROL Escludi motivi]**, **[!UICONTROL Motivi di mancato recapito]** 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"

@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 6%
+ht-degree: 19%
 
 ---
 
@@ -153,7 +153,7 @@ Per informazioni approfondite su questi risultati e su come interpretarli, consu
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="E-mail - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
@@ -304,7 +304,7 @@ Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impr
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
 >title="Notifica push - Statistiche di invio"
->abstract="La tabella Statistiche di invio delle notifiche push riepiloga i dati essenziali sulle notifiche push, come i messaggi di destinazione o recapitati."
+>abstract="La tabella Statistiche di invio delle notifiche push riepiloga i dati essenziali sulle notifiche push, come i messaggi di mirati o recapitati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
@@ -319,7 +319,7 @@ Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impr
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="Notifica push - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
@@ -411,7 +411,7 @@ Il **[!UICONTROL Raggruppamento per piattaforma]** grafico e tabella descrivono 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - Statistiche di invio"
->abstract="La tabella Statistiche di invio SMS riepiloga dati essenziali sui messaggi SMS, ad esempio Messaggi di destinazione o recapitati."
+>abstract="La tabella Statistiche di invio SMS riepiloga dati essenziali sui messaggi SMS, ad esempio i messaggi mirati o recapitati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
@@ -426,7 +426,7 @@ Il **[!UICONTROL Raggruppamento per piattaforma]** grafico e tabella descrivono 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="SMS - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_bounces_reasons"
@@ -436,7 +436,7 @@ Il **[!UICONTROL Raggruppamento per piattaforma]** grafico e tabella descrivono 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - Clic per collegamenti"
->abstract="Il widget SMS - Clic da collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi"
+>abstract="Il widget SMS - Clic per collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi"
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL SMS]** Questa scheda fornisce le informazioni principali relative alle consegne di SMS inviate nella campagna.
 
@@ -510,18 +510,18 @@ Il **[!UICONTROL Interazioni per elemento]** la tabella descrive le informazioni
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"
->title="Direct mailing - Statistiche di invio"
->abstract="La tabella Statistiche di invio Direct Mail riepiloga i dati essenziali relativi ai messaggi Direct Mail, ad esempio i messaggi di destinazione o recapitati."
+>title="Direct mail - Statistiche di invio"
+>abstract="La tabella Statistiche di invio Direct Mail riepiloga i dati essenziali relativi ai messaggi Direct Mail, ad esempio i messaggi mirati o recapitati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
->title="Direct mailing - Motivi di errore"
+>title="Direct mail - Motivi di errore"
 >abstract="I grafici e la tabella Direct mailing - Error Reasons (Mailing diretto: motivi di errore) consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="Direct mailing - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione della direct mailing illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico di destinazione, a non ricevere il messaggio."
+>title="Direct mail - Motivi di esclusione"
+>abstract="I grafici e la tabella dei motivi di esclusione di Direct mail illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Direct mail]** Questa scheda contiene le informazioni principali relative alle consegne Direct mailing.
 

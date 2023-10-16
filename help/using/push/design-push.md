@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -48,7 +48,7 @@ Puoi selezionare il comportamento quando un utente fa clic sul corpo della notif
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
 >title="Aggiungere contenuti multimediali alla notifica push"
->abstract="Puoi aggiungere un’immagine, un video o un GIF visualizzati all’interno della notifica."
+>abstract="Puoi aggiungere un’immagine, un video o una GIF da visualizzare all’interno della notifica."
 
 Nella versione iOS della notifica push, puoi aggiungere un’immagine, un video o un GIF visualizzati all’interno della notifica.
 
@@ -71,7 +71,7 @@ Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del co
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="Aggiungi i pulsanti per consentire agli utenti di interagire con la notifica push."
->abstract="Questa sezione ti consente di aggiungere pulsanti di invito all’azione al messaggio. Per iOS, specifica un identificatore di categoria di notifica. Per Android, puoi includere testo personalizzato e destinazioni per ogni pulsante."
+>abstract="Questa sezione consente di aggiungere pulsanti di invito all’azione al messaggio. Per iOS, specifica un identificatore di categoria di notifica. Per Android, per ogni pulsante puoi specificare testo personalizzato e destinazione."
 
 Crea una notifica actionable aggiungendo pulsanti al contenuto push.
 
@@ -104,7 +104,7 @@ Utilizza il **[!UICONTROL Dati personalizzati]** per aggiungere coppie chiave-va
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-custom"
->title="Configura dati personalizzati per la notifica push."
+>title="Configura i dati personalizzati per la notifica push."
 >abstract="Aggiungi variabili personalizzate al payload, a seconda della configurazione dell’app mobile."
 
 In **[!UICONTROL Dati personalizzati]** , puoi aggiungere variabili personalizzate al payload, a seconda della configurazione dell’app mobile. Per ulteriori informazioni su come impostare le notifiche push in Adobe Experience Platform e Adobe Launch, consulta [questa sezione](push-gs.md)

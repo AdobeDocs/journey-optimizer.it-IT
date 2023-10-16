@@ -12,7 +12,7 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="Progettare le e-mail"
->abstract="Utilizzare **Adobe Journey Optimizer** per inviare messaggi e-mail ai clienti. È possibile creare, personalizzare e visualizzare in anteprima i messaggi in E-mail Designer."
+>abstract="Utilizza **Adobe Journey Optimizer** per inviare messaggi e-mail ai clienti. È possibile creare, personalizzare e visualizzare in anteprima i messaggi in E-mail Designer."
 
 Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È possibile creare, personalizzare e visualizzare in anteprima i messaggi in E-mail Designer.
 

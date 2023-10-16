@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: b00a4e174e978121687428147b5b3861077c5182
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -259,9 +259,9 @@ Ora puoi utilizzare questo frammento durante la creazione di qualsiasi [email](.
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Salva come frammento di espressione"
->abstract="Il [!DNL Journey Optimizer] L’editor espressioni ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per creare contenuti personalizzati."
+>abstract="L’[!DNL Journey Optimizer]editor di espressioni ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per generare contenuti personalizzati."
 
-Il [!DNL Journey Optimizer] L’editor espressioni ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per creare contenuti personalizzati.
+L’[!DNL Journey Optimizer]editor di espressioni ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per generare contenuti personalizzati.
 
 Per salvare il contenuto come frammento di espressione, effettua le seguenti operazioni.
 

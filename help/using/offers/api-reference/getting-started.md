@@ -9,7 +9,7 @@ exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="od_api_support"
 >title="Nuove API di gestione delle decisioni"
->abstract="Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Le api legacy saranno supportate fino al 03/27/2024."
+>abstract="Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Le API legacy saranno supportate fino al 27/03/2024."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_api_support"
 >title="Nuove API di gestione delle decisioni"
->abstract="Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Le api legacy saranno supportate fino al 03/27/2024."
+>abstract="Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Le API legacy saranno supportate fino al 27/03/2024."
 
 Questa guida per sviluppatori descrive i passaggi per iniziare a utilizzare l’API di [!DNL Offer Library]. La guida fornisce quindi esempi di chiamate API per eseguire operazioni chiave utilizzando il motore decisionale.
 

@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Creare percorsi"
->abstract="Utilizzare **Adobe Journey Optimizer** per generare casi di utilizzo di orchestrazione in tempo reale sulla base dei dati contestuali archiviati negli eventi o nelle origini dati."
+>abstract="Utilizza **Adobe Journey Optimizer** per generare l’orchestrazione in tempo reale per diversi casi d’uso, sfruttando i dati contestuali provenienti da eventi od origini dati."
 
 ## Prerequisiti{#start-prerequisites}
 

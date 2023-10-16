@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 22%
+ht-degree: 35%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="Personalizzare le esperienze"
->abstract="Utilizzare **Adobe Journey Optimizer** adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui si dispone su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato e altro ancora."
+>abstract="Utilizza **Adobe Journey Optimizer** per adattare i messaggi a ogni destinatario sfruttando i dati e le informazioni di cui disponi. Ad esempio, il nome del destinatario, i suoi interessi, dove vive, cosa ha comprato e altro ancora."
 
 
-Scoprire [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato e altro ancora.
+Scoprire [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Ad esempio, il nome del destinatario, i suoi interessi, dove vive, cosa ha comprato e altro ancora.
 
 ➡️ [Scopri come personalizzare un messaggio in questi video](#video-perso)
 ➡️ [Scopri i casi d’uso che sfruttano la personalizzazione](personalization-use-case.md)

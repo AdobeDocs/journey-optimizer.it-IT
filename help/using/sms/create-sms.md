@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -84,7 +84,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definire il contenuto degli SMS"
->abstract="Personalizza e personalizza i messaggi SMS utilizzando l’editor espressioni per definire il contenuto e incorporare elementi dinamici."
+>abstract="Personalizza i messaggi SMS utilizzando l’editor di espressioni per definire il contenuto e incorporare elementi dinamici."
 
 1. Dalla schermata di configurazione del percorso o della campagna, fai clic su **[!UICONTROL Modifica contenuto]** per configurare il contenuto SMS.
 

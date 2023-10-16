@@ -7,7 +7,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
 source-wordcount: '4254'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Novità"
->abstract="**Adobe Journey Optimizer** viene continuamente aggiornato con nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
+>abstract="**Adobe Journey Optimizer** offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese.
 
