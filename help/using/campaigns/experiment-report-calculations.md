@@ -1,12 +1,11 @@
 ---
 title: Calcoli statistici utilizzati nel rapporto sulla sperimentazione
 description: Ulteriori informazioni sui calcoli statistici utilizzati durante l’esecuzione dei rapporti sugli esperimenti
-feature: A/B Testing
-topic: Content Management
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 1%
@@ -45,7 +44,7 @@ Nel pannello Sperimentazione di Percorso vengono visualizzati intervalli di affi
 
 Sequenza di affidabilità per una singola variante `ν` è fondamentale per la metodologia statistica utilizzata da Adobe. La sua definizione è disponibile in [questa pagina](https://doi.org/10.48550/arXiv.2103.06476) (riprodotto da [Waudby-Smith e altri.]).
 
-Se ti interessa stimare un parametro target `ψ` come il tasso di conversione di una variante in un esperimento, la dicotomia tra una sequenza di intervalli di confidenza (IC) a tempo fisso e una sequenza di confidenza (CS) uniforme nel tempo può essere riassunta come segue:
+Se ti interessa stimare un parametro target `ψ` come il tasso di conversione di una variante in un esperimento, la dicotomia tra una sequenza di intervalli di affidabilità (CI) a tempo fisso e una sequenza di affidabilità (CS) uniforme nel tempo può essere riassunta come segue:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
