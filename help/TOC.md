@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
+source-git-commit: 93f4f4edcce7c7e9f7472a871c96cefa276bdda1
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1666'
 ht-degree: 97%
 
 ---
@@ -267,7 +267,6 @@ ht-degree: 97%
       + [Generazione di immagini](using/content-management/generative-image.md)
    + Utilizzare contenuti multilingue{#content-multilingual}
       + [Creare contenuti multilingue](using/content-management/multilingual-manual.md)
-+ Personalizzazione e contenuti dinamici {#personalized-dynamic-content}
    + Personalizzazione {#personalization}
       + [Introduzione alla personalizzazione](using/personalization/personalize.md)
       + [Contesti di personalizzazione](using/personalization/personalization-contexts.md)
