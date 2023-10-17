@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: anteprima, contenuto, e-mail, bozza, test, profilo
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 18%
+source-wordcount: '991'
+ht-degree: 16%
 
 ---
 
 # Anteprima e verifica dell’e-mail {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Anteprima e test dei messaggi"
+>abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
 
 Una volta definito il contenuto dell’e-mail, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se è stato inserito [contenuti personalizzati](../personalization/personalize.md), puoi verificare come viene visualizzato questo contenuto nel messaggio, utilizzando i dati del profilo di test.
 
@@ -44,13 +49,6 @@ Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **
 ➡️ [Scopri come visualizzare in anteprima e verificare le e-mail in questo video](#video-preview)
 
 ## Selezionare i profili di test {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="Anteprima e test dei messaggi"
->abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=it#email-rendering" text="Rendering delle e-mail"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=it#preview-email" text="Anteprima"
 
 Utilizzare [Profili di test](../audience/creating-test-profiles.md) per eseguire il targeting di destinatari aggiuntivi che non corrispondono ai criteri di targeting definiti.
 

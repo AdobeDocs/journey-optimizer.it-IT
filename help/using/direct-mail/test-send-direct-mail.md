@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 14%
+source-wordcount: '460'
+ht-degree: 19%
 
 ---
 
@@ -18,12 +18,7 @@ ht-degree: 14%
 
 ## Anteprima del file di estrazione {#preview-dm}
 
->[!CONTEXTUALHELP]
->id="ajo_direct_mail_preview"
->title="Anteprima file di estrazione"
->abstract="In questo riquadro puoi visualizzare in anteprima il modo in cui il file di estrazione viene visualizzato per ciascun profilo di test selezionato nel riquadro a sinistra. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati utilizzando i dati del profilo di test."
-
-Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
+Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
 1. Nella schermata di configurazione del contenuto del file di estrazione, fai clic su **[!UICONTROL Simula contenuto]**.
 
