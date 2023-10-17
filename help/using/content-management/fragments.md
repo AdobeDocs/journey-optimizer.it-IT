@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: b00a4e174e978121687428147b5b3861077c5182
+source-git-commit: 0eec7788aa8292843812eba0282ea5219b5711df
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 6%
@@ -21,7 +21,7 @@ ht-degree: 6%
 >id="ajo_create_fragment"
 >title="Definire i propri frammenti"
 >abstract="Crea e gestisci frammenti autonomi per consentire il riutilizzo dei contenuti in più percorsi e campagne."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/reusable-content/fragments.html#create-fragments" text="Creare frammenti"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Creare frammenti"
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi.
 
@@ -194,7 +194,7 @@ Questo frammento è ora pronto per essere utilizzato durante la creazione di qua
 >id="ajo_create_expression_fragment"
 >title="Seleziona il tipo di espressione"
 >abstract="Crea un frammento di espressione autonomo per rendere il contenuto riutilizzabile in più percorsi e campagne. Quando utilizzi l’editor espressioni, puoi sfruttare tutti i frammenti di espressione creati nella sandbox corrente."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/personalized-dynamic-content/personalization/expression-editor/use-expression-fragments.html" text="Sfruttare i frammenti di espressione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Sfruttare i frammenti di espressione"
 
 1. [Creare un frammento](#create-from-scratch) dal **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra e selezionare **[!UICONTROL Frammento di espressione]** tipo.
 
