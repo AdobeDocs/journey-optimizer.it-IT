@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 27%
+source-wordcount: '447'
+ht-degree: 26%
 
 ---
 
@@ -21,12 +21,12 @@ In conformità agli standard e alle normative del settore, tutti i messaggi SMS 
 
 >[!IMPORTANT]
 >
->Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi ai codici lunghi e ai numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni tramite SMS siano conformi a tutti i requisiti di conformità legale applicabili.
+>Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi a codici brevi, codici lunghi e numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni di messaggi di testo siano conformi a tutti i requisiti di conformità legale applicabili.
 >
 
 ## Parole chiave in entrata native {#sms-native-keywords}
 
-Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi a pagamento e con codice lungo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Solo Sinch e Infobip supportano le parole chiave native se utilizzate con Journey Optimizer.
+Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi con codici brevi, gratuiti e a codice lungo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Solo Sinch e Infobip supportano le parole chiave native se utilizzate con Journey Optimizer.
 
 Queste parole chiave in genere attivano una risposta standard automatica dal provider di terze parti. Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
 
