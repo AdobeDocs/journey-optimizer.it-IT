@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Configurazione della notifica push
 description: Scopri come configurare l’ambiente per inviare notifiche push con Journey Optimizer
+feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1609'
 ht-degree: 4%
@@ -349,7 +350,7 @@ L&#39;evento è stato creato e ora può essere utilizzato in un percorso.
 
    ![](assets/test_push_13.png)
 
-1. Clic **[!UICONTROL Invia]**.
+1. Fai clic su **[!UICONTROL Invia]**.
 
 L’evento verrà attivato e riceverai la notifica push all’app mobile.
 

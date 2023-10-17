@@ -3,16 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gestire l’elenco di soppressione
 description: Scopri come accedere e gestire l’elenco di soppressione di Journey Optimizer
-feature: Application Settings
+feature: Deliverability, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 

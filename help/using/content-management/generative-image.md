@@ -3,7 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Generazione di immagini con l’assistente ai contenuti
 description: Introduzione all’assistente contenuti
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 11%
+ht-degree: 22%
 
 ---
 
@@ -29,8 +29,6 @@ ht-degree: 11%
 * **[Generare immagini con l’assistente contenuti](generative-image.md)**
 
 >[!ENDSHADEBOX]
-
-
 
 Dopo aver creato e personalizzato le e-mail o le pagine Web, porta il contenuto al livello successivo con l’assistente contenuto. Questo potente strumento ti consente di personalizzare e migliorare i contenuti in modo semplice.
 
@@ -50,7 +48,7 @@ Nell’esempio seguente, scopri come utilizzare l’assistente contenuti per agg
 
    ![](assets/gen-ai-image-2.png)
 
-1. Sfoglia **[!UICONTROL Suggerimenti varianti]** per trovare la risorsa desiderata.
+1. Sfoglia i **[!UICONTROL Suggerimenti per le varianti]** per trovare la risorsa desiderata.
 
 1. Una volta scelto il **[!UICONTROL Variante]**, accedi al menu avanzato della risorsa selezionata.
 
@@ -72,7 +70,7 @@ Nell’esempio seguente, scopri come utilizzare l’assistente contenuti per agg
 
    ![](assets/gen-ai-image-6.png)
 
-1. Dopo aver definito il contenuto del messaggio, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering e controllare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../email/preview.md)
+1. Dopo aver definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e verifica le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../email/preview.md)
 
 1. Quando il messaggio è pronto, dalla pagina di riepilogo della campagna puoi fare clic su **[!UICONTROL Controlla per attivare]** per visualizzare un riepilogo della campagna. Gli avvisi vengono visualizzati se un parametro è errato o mancante.
 

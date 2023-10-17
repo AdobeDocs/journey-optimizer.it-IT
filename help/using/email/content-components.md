@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare i componenti di contenuto di e-mail designer
 description: Scopri come utilizzare i componenti per contenuti nelle tue e-mail
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c4ea32bf25ab49e925d6f0610494c3729e779bf1
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 58%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Anteprima dei messaggi e invio delle bozze
 description: Scopri come visualizzare in anteprima e testare il messaggio e-mail
-feature: Journeys
+feature: Preview, Email Design
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner, Intermediate
 keywords: anteprima, contenuto, e-mail, bozza, test, profilo
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 16%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Importa il contenuto delle e-mail
 description: Scopri come importare il contenuto dell’e-mail
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: e-mail, importazione, contenuto, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 72%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Regole di frequenza
 description: Scopri come definire le regole di frequenza
-feature: Overview
+feature: Rules
 topic: Content Management
 role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
+source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 13%

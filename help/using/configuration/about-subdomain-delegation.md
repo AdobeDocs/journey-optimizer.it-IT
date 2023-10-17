@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Delega dei sottodomini in [!DNL Journey Optimizer]
 description: Scopri come delegare i sottodomini
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 26%

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creare un elenco di iscrizione
 description: Scopri come impostare un elenco di iscrizioni in Journey Optimizer
-feature: Landing Pages
+feature: Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, elenco, abbonamento, servizio
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
+source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 12%

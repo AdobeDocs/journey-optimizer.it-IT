@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Creare un esperimento sui contenuti
 description: Scopri come creare un esperimento sui contenuti nelle campagne
-feature: A/B Testing
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 11%
