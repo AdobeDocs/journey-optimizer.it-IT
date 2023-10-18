@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
 workflow-type: tm+mt
-source-wordcount: '2258'
+source-wordcount: '2340'
 ht-degree: 12%
 
 ---
@@ -121,7 +121,12 @@ In **[!UICONTROL Parametri intestazione]** , inserisci i nomi dei mittenti e gli
 
 * **[!UICONTROL Rispondi a (e-mail)]**: l’indirizzo e-mail che verrà utilizzato quando il destinatario farà clic su **Rispondi** nel software client di posta elettronica. [Ulteriori informazioni](#reply-to-email)
 
-* **[!UICONTROL E-mail di errore]**: su questo indirizzo vengono ricevuti tutti gli errori generati dagli ISP dopo alcuni giorni di recapito della posta (mancati recapiti asincroni).
+* **[!UICONTROL E-mail di errore]**: su questo indirizzo vengono ricevuti tutti gli errori generati dagli ISP dopo alcuni giorni di recapito della posta (mancati recapiti asincroni). Su questo indirizzo vengono inoltre ricevute le notifiche fuori sede e le risposte alle richieste di verifica.
+
+  >[!NOTE]
+  >
+  >Se desideri ricevere le notifiche out-of-office e le risposte di sfida su un indirizzo e-mail specifico che non è delegato ad Adobe, devi impostare un [processo di inoltro](#forward-email). In tal caso, assicurati di disporre di una soluzione manuale o automatizzata per elaborare le e-mail che verranno inviate a questa casella in entrata.
+
 
 >[!CAUTION]
 >
@@ -137,9 +142,9 @@ In **[!UICONTROL Parametri intestazione]** , inserisci i nomi dei mittenti e gli
 
 Quando definisci **[!UICONTROL Rispondi a (e-mail)]** indirizzo, puoi specificare qualsiasi indirizzo e-mail purché sia valido, nel formato corretto e senza errori di battitura.
 
-Per garantire una corretta gestione delle risposte, segui le raccomandazioni seguenti:
+La casella in entrata utilizzata per le risposte riceverà tutte le e-mail di risposta, ad eccezione delle notifiche fuori sede e delle risposte di richiesta di verifica, ricevute il **[!UICONTROL E-mail di errore]** indirizzo.
 
-* La casella in entrata utilizzata per le risposte riceverà tutte le e-mail di risposta, incluse le notifiche fuori sede e le risposte di richiesta di verifica, pertanto assicurati di disporre di un processo manuale o automatico per elaborare le e-mail che verranno inviate a questa casella in entrata.
+Per garantire una corretta gestione delle risposte, segui le raccomandazioni seguenti:
 
 * Assicurati che la casella in entrata dedicata disponga di una capacità di ricezione sufficiente per ricevere tutte le e-mail di risposta inviate utilizzando la superficie e-mail. Se la casella in entrata restituisce mancati recapiti, è possibile che alcune risposte dei clienti non vengano ricevute.
 
@@ -157,18 +162,26 @@ Se ricevi un errore durante l’invio della superficie e-mail, significa che il 
 
 ### Inoltra e-mail {#forward-email}
 
-Se desideri inoltrare a un indirizzo e-mail specifico, tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l’Adobe dell’Assistenza clienti. Dovrai fornire:
+Per inoltrare a un indirizzo e-mail specifico tutte le e-mail ricevute da [!DNL Journey Optimizer] per il sottodominio delegato, contatta l’Adobe dell’Assistenza clienti.
+
+>[!NOTE]
+>
+>Se il sottodominio utilizzato per **[!UICONTROL Rispondi a (e-mail)]** indirizzo non è delegato ad Adobe, l&#39;inoltro non può funzionare per questo indirizzo.
+
+Devi fornire:
 
 * L’indirizzo e-mail di inoltro desiderato. Il dominio dell’indirizzo e-mail di inoltro non può corrispondere ad alcun sottodominio delegato ad Adobe.
 * Nome della sandbox.
-* Il nome della superficie per la quale verrà utilizzato l’indirizzo e-mail di inoltro.
-* L&#39;attuale **[!UICONTROL Rispondi a (e-mail)]** indirizzo impostato a livello della superficie di canale.
+* Il nome della superficie o il sottodominio per cui verrà utilizzato l’indirizzo e-mail di inoltro.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
 
 >[!NOTE]
 >
 >Può essere presente un solo indirizzo e-mail di inoltro per sottodominio. Di conseguenza, se più superfici utilizzano lo stesso sottodominio, è necessario utilizzare lo stesso indirizzo e-mail di inoltro per tutte le superfici.
 
-L’indirizzo e-mail di inoltro verrà impostato da Adobe. Questa operazione può richiedere da 3 a 4 giorni.
+L’indirizzo e-mail di inoltro è configurato da Adobe. Questa operazione può richiedere da 3 a 4 giorni.
+
+Al termine, tutti i messaggi ricevuti il **[!UICONTROL Rispondi a (e-mail)]** e **[!UICONTROL E-mail di errore]** gli indirizzi vengono inoltrati all’indirizzo e-mail specifico fornito.
 
 ## E-mail Ccn {#bcc-email}
 
