@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare i modelli e-mail
 description: Scopri come salvare il contenuto delle e-mail come modello e riutilizzarlo in Journey Optimizer
-feature: Templates, Email Design
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
 keywords: e-mail, modelli, progettazione
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 47%

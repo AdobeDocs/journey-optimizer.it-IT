@@ -1,15 +1,15 @@
 ---
 title: Prerequisiti per l’esperienza basata su codice
 description: Per poter modificare app e pagine web utilizzando la funzione basata su codice di Journey Optimizer, segui i prerequisiti riportati in questa pagina
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 18%

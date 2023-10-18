@@ -1,12 +1,12 @@
 ---
 title: Set di dati delle offerte di fallback
 description: Questa sezione elenca tutti i campi utilizzati nel set di dati esportato per le offerte di fallback
-feature: Offers, Datasets
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
+role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 3%

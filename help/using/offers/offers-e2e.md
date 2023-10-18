@@ -1,12 +1,12 @@
 ---
 title: Utilizzare le offerte personalizzate in un messaggio e-mail
 description: Un esempio end-to-end illustra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
-feature: Offers
+feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 6%

@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Creare un set di dati per raccogliere gli eventi
 description: Scopri come creare un set di dati per raccogliere gli eventi
-feature: Ranking, Offers, Datasets
-role: User
-level: Intermediate
+feature: Ranking, Decision Management, Datasets
+role: Data Engineer, Developer
+level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 17%

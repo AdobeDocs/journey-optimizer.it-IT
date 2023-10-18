@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Modelli di ottimizzazione automatica
 description: Ulteriori informazioni sui modelli di ottimizzazione automatica
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
-level: Intermediate
+level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -41,7 +41,7 @@ L’algoritmo alla base dell’ottimizzazione automatica è **Campionamento di T
 
 [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o banditi bayesiani, è un approccio bayesiano al problema dei banditi multiarmati.  L&#39;idea di base è quella di trattare la ?? media di ogni offerta come un **variabile casuale** e utilizzare i dati raccolti finora, per aggiornare le nostre &quot;convinzioni&quot; sulla ricompensa media. Questa &quot;credenza&quot; è rappresentata matematicamente da un **distribuzione di probabilità posteriore** - essenzialmente un intervallo di valori per il premio medio, insieme alla plausibilità (o probabilità) che il premio abbia quel valore per ogni offerta. Allora, per ogni decisione, **campionare un punto da ciascuna di queste distribuzioni di premi posteriori** e seleziona l’offerta con la ricompensa più elevata.
 
-Questo processo è illustrato nella figura seguente, dove sono disponibili 3 diverse offerte. Inizialmente non abbiamo alcuna prova dai dati e supponiamo che tutte le offerte abbiano una distribuzione di ricompensa a posteriori uniforme. Prendiamo un campione dalla distribuzione di ogni offerta di premi a posteriori. Il campione selezionato dalla distribuzione di Offerta 2 ha il valore più alto. Questo è un esempio **esplorazione**. Dopo aver mostrato l&#39;Offerta 2, raccogliamo qualsiasi potenziale ricompensa (ad esempio conversione/non conversione) e aggiorniamo la distribuzione posteriore dell&#39;Offerta 2 utilizzando il Teorema di Bayes come spiegato di seguito.  Continuiamo questo processo e aggiorniamo le distribuzioni posteriori ogni volta che viene mostrata un’offerta e viene raccolto il premio. Nella seconda figura, viene selezionata l&#39;Offerta 3 - nonostante l&#39;Offerta 1 abbia la più alta ricompensa media (la sua distribuzione di ricompensa posteriore è più a destra), il processo di campionamento da ogni distribuzione ci ha portato a scegliere un&#39;Offerta 3 apparentemente non ottimale. In questo modo, offriamo a noi stessi l’opportunità di saperne di più sulla vera distribuzione delle ricompense dell’Offerta 3.
+Questo processo è illustrato nella figura seguente, dove sono disponibili 3 diverse offerte. Inizialmente non abbiamo alcuna prova dai dati e supponiamo che tutte le offerte abbiano una distribuzione di ricompensa a posteriori uniforme. Prendiamo un campione dalla distribuzione di ogni offerta di premi a posteriori. Il campione selezionato dalla distribuzione di Offerta 2 ha il valore più alto. Questo è un esempio **esplorazione**. Dopo aver mostrato l&#39;Offerta 2, raccogliamo qualsiasi potenziale ricompensa (ad esempio conversione/non conversione) e aggiorniamo la distribuzione posteriore dell&#39;Offerta 2 utilizzando il Teorema di Bayes come spiegato di seguito.  Continuiamo questo processo e aggiorniamo le distribuzioni posteriori ogni volta che viene mostrata un’offerta e viene raccolto il premio. Nella seconda figura, viene selezionata l&#39;Offerta 3 - nonostante l&#39;Offerta 1 abbia la più alta ricompensa media (la sua distribuzione di ricompensa posteriore è più a destra), il processo di campionamento da ogni distribuzione ci ha portato a scegliere un&#39;Offerta 3 apparentemente non ottimale. In questo modo, offriamo a noi stessi l&#39;opportunità di conoscere meglio la vera distribuzione delle ricompense offerta 3.
 
 Man mano che vengono raccolti più campioni, l’affidabilità aumenta e si ottiene una stima più accurata del possibile premio (corrispondente a distribuzioni più ridotte). Questo processo di aggiornamento delle nostre convinzioni man mano che diventano disponibili nuove prove è noto come **Inferenza bayesiana**.
 

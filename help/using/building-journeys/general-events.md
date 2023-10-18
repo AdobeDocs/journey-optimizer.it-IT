@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Eventi generali
 description: Scopri come utilizzare gli eventi generali
-feature: Journeys
+feature: Journeys, Events
 topic: Content Management
 role: User
 level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
