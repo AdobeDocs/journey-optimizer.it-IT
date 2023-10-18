@@ -4,12 +4,12 @@ product: journey optimizer
 title: Introduzione alle attività dei percorsi
 description: Introduzione alle attività dei percorsi
 feature: Journeys, Activities, Overview
-topic: Journeys
+topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 18%
