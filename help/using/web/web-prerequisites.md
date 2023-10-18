@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1059'
 ht-degree: 10%
 
 ---
@@ -32,8 +32,7 @@ Per poter accedere e creare pagine web in [!DNL Journey Optimizer] nell&#39;inte
 
 >[!AVAILABILITY]
 >
->Per il momento, il canale web non è disponibile per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe Healthcare Shield.
->
+>Per il momento, il canale web non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
 
 ## Prerequisiti per l’implementazione {#implementation-prerequisites}
 
