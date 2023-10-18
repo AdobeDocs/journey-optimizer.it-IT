@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Modificare o interrompere una campagna
 description: Scopri come modificare, interrompere o duplicare le campagne live in Journey Optimizer
-Feature: Campaigns
+feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 2%

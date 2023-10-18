@@ -1,12 +1,12 @@
 ---
 title: Creare le offerte di fallback
 description: Scopri come creare offerte di fallback da visualizzare per i clienti che non sono idonei per nessuna offerta
-Feature: Decision Management
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 4%
