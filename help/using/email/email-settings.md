@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 12%
@@ -123,10 +123,7 @@ In **[!UICONTROL Parametri intestazione]** , inserisci i nomi dei mittenti e gli
 
 * **[!UICONTROL E-mail di errore]**: su questo indirizzo vengono ricevuti tutti gli errori generati dagli ISP dopo alcuni giorni di recapito della posta (mancati recapiti asincroni). Su questo indirizzo vengono inoltre ricevute le notifiche fuori sede e le risposte alle richieste di verifica.
 
-  >[!NOTE]
-  >
-  >Se desideri ricevere le notifiche out-of-office e le risposte di sfida su un indirizzo e-mail specifico che non è delegato ad Adobe, devi impostare un [processo di inoltro](#forward-email). In tal caso, assicurati di disporre di una soluzione manuale o automatizzata per elaborare le e-mail che verranno inviate a questa casella in entrata.
-
+  Se desideri ricevere le notifiche out-of-office e le risposte di sfida su un indirizzo e-mail specifico che non è delegato ad Adobe, devi impostare un [processo di inoltro](#forward-email). In tal caso, assicurati di disporre di una soluzione manuale o automatizzata per elaborare le e-mail che verranno inviate a questa casella in entrata.
 
 >[!CAUTION]
 >
