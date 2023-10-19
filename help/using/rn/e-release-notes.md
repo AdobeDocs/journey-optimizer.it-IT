@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '414'
 ht-degree: 24%
 
 ---
@@ -31,24 +31,6 @@ Le note preliminari sulla versione riportate di seguito sono soggette a modifich
 
 Questa versione include le nuove funzionalità elencate di seguito.
 
-
-<table>
-<thead>
-<tr>
-<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), abilitando la condivisione di immagini, GIF o video con i clienti. Questa funzione è attualmente disponibile solo in versione beta con Sinch.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
-
 <table>
 <thead>
 <tr>
@@ -66,7 +48,38 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Pubblico composto in percorsi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi utilizzare i tipi di pubblico creati nei flussi di lavoro di composizione nei tuoi percorsi per eseguire il targeting dei clienti. Una volta pubblicata una composizione di pubblico e salvato il pubblico, utilizza un’attività Read audience per selezionare questo nuovo pubblico nell’area di lavoro del percorso.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Per ulteriori informazioni, consulta la <a href="../audience/get-started-audience-orchestration.md">documentazione dettagliata</a>.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), abilitando la condivisione di immagini, GIF o video con i clienti. Questa funzione è attualmente disponibile solo in versione beta con Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Miglioramenti {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico**
 
 * Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
-* Ora puoi indirizzare ai tuoi percorsi i tipi di pubblico risultanti dai flussi di lavoro di composizione.
 
 **Punteggio spam per le e-mail**
 
