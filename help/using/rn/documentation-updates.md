@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 97%
+source-wordcount: '3845'
+ht-degree: 96%
 
 ---
 
@@ -19,13 +19,12 @@ ht-degree: 97%
 
 Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
-
-
 ## Ottobre 2023 {#oct-2023}
 
 * Sono stati aggiunti dei GIF per illustrare alcune funzionalità chiave, ad esempio: [Modelli di contenuto](../content-management/content-templates.md), [Frammenti](../content-management/fragments.md), [Attributi calcolati](../audience/computed-attributes.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [Tag](../start/search-filter-categorize.md#tags), [Modelli di ottimizzazione della gestione delle decisioni](../offers/ranking/personalized-optimization-model.md), [Campagne attivate da API](../campaigns/api-triggered-campaigns.md), e [Esperimento sui contenuti](../campaigns/content-experiment.md).
 * Il processo di creazione dello schema è stato aggiornato per riflettere gli ultimi aggiornamenti nell’interfaccia utente, con le modifiche apportate a Adobe Experience Platform. [Ulteriori informazioni](../audience/creating-test-profiles.md)
 * Alla pagina Guardrail e limitazioni sono stati aggiunti i guardrail di Gestione delle decisioni. [Ulteriori informazioni](../start/guardrails.md#decision-management)
+* È stata creata una nuova sezione su come visualizzare in anteprima e verificare il contenuto. [Ulteriori informazioni](../content-management/preview-test.md)
 
 ## Settembre 2023 {#september-2023}
 
