@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 53d2d09342979d8f277d1be9f2f72da067dc1763
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 24%
 
 ---
@@ -237,7 +237,7 @@ Una volta definiti le impostazioni e il contenuto della pagina di destinazione, 
 
    ![](assets/lp_test-profiles.png)
 
-   I passaggi per selezionare i profili di test sono gli stessi utilizzati per testare un messaggio. Sono descritte in dettaglio [questa sezione](../email/preview.md#select-test-profiles).
+   I passaggi per selezionare i profili di test sono gli stessi utilizzati per testare un messaggio. Sono descritte in dettaglio nella [Gestione dei contenuti](../content-management/test-profiles.md) sezione.
 
 1. Seleziona **[!UICONTROL Apri anteprima]** per verificare la pagina di destinazione.
 

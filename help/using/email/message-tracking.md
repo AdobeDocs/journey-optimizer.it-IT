@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 38%
@@ -135,7 +135,7 @@ Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento d
 
 >[!NOTE]
 >
->In [bozza](preview.md#send-proofs) inviato ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
+>In [bozza](../content-management/proofs.md) inviato ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
 
 Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo questo ritardo, la pagina speculare non sarà più disponibile.
 
@@ -186,4 +186,4 @@ Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automatica
 
 >[!NOTE]
 >
->Per verificare l’URL finale, puoi: [invia una bozza](preview.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>Per verificare l’URL finale, puoi: [invia una bozza](../content-management/preview-test.md#send-proofs) e fai clic sul collegamento nel contenuto dell’e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell’esempio precedente, l’URL finale sarà: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

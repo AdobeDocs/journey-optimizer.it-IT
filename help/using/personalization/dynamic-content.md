@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 17%
@@ -42,7 +42,7 @@ I passaggi per aggiungere contenuto dinamico nelle espressioni sono i seguenti:
 
    ![](assets/conditions-language-sample.png)
 
-1. Quando il contenuto è pronto, puoi visualizzare in anteprima le diverse varianti utilizzando **[!UICONTROL Simula contenuto]** pulsante. [Scopri come testare e visualizzare in anteprima i messaggi](../email/preview.md)
+1. Quando il contenuto è pronto, puoi visualizzare in anteprima le diverse varianti utilizzando **[!UICONTROL Simula contenuto]** pulsante. [Scopri come testare e visualizzare in anteprima i messaggi](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 

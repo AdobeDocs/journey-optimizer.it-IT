@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Creare profili di test {#create-test-profiles}
 
-I profili di test sono necessari quando si utilizza [modalità di test](../building-journeys/testing-the-journey.md) in un percorso e a [visualizzare in anteprima e verificare il contenuto](../email/preview.md).
+I profili di test sono necessari quando si utilizza [modalità di test](../building-journeys/testing-the-journey.md) in un percorso e a [visualizzare in anteprima e verificare il contenuto](../content-management/preview-test.md).
 
 Esistono diversi modi per creare profili di test. Puoi trovare in questa pagina i dettagli per:
 

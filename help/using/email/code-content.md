@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: codice, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 67%
@@ -44,7 +44,7 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
    >
    >Questa azione apre il modello selezionato in E-mail Designer. Da lì puoi completare il design dell’e-mail o tornare all’editor di codice utilizzando l’opzione **[!UICONTROL Passa all’editor di codice]**.
 
-1. Fai clic su **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](preview.md)
+1. Fai clic su **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

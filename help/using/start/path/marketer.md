@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Per configurare il primo percorso, aggiungere offerte e risorse e inviare i mess
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testare e convalidare**. Una volta definito il contenuto, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se sono stati inseriti dei [contenuti personalizzati](../../personalization/personalize.md), potrai verificare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **Litmus** per visualizzare all’istantante l’anteprima del **rendering di e-mail** nei client e-mail più diffusi. Puoi quindi verificare che il contenuto dell’e-mail si presenti e funzioni correttamente in ogni casella in entrata. Per informazioni su come testare e convalidare i messaggi, consulta [questa sezione](../../email/preview.md).
+1. **Testare e convalidare**. Una volta definito il contenuto, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se sono stati inseriti dei [contenuti personalizzati](../../personalization/personalize.md), potrai verificare come questi contenuti vengono visualizzati nel messaggio utilizzando i dati del profilo di test. Inoltre, utilizza in [!DNL Journey Optimizer] le informazioni del tuo account **Litmus** per visualizzare all’istantante l’anteprima del **rendering di e-mail** nei client e-mail più diffusi. Puoi quindi verificare che il contenuto dell’e-mail si presenti e funzioni correttamente in ogni casella in entrata. Per informazioni su come testare e convalidare i messaggi, consulta [questa sezione](../../content-management/preview-test.md).
 
 1. **Progettare i percorsi cliente** per offrire esperienze personalizzate e contestuali. [!DNL Journey Optimizer] consente di creare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzionalità:
 

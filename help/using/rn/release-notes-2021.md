@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 88%
@@ -275,7 +275,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Progettazione dei contenuti**
 
-* **Sfondo** - Le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](../email/preview.md)
+* **Sfondo** - Le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](../content-management/preview-test.md)
 * **Collegamento rinuncia con un clic** - Puoi inserire un nuovo tipo di collegamento nel contenuto dell’e-mail: il collegamento **Rinuncia** consente agli utenti di annullare l’iscrizione alla ricezione delle comunicazioni con un solo clic, senza essere reindirizzati a una pagina di destinazione per confermare la rinuncia. [Ulteriori informazioni](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalizzazione**
@@ -350,9 +350,9 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Anteprima e test**
 
-* L’identità e lo spazio dei nomi sono ora visibili nel **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../email/preview.md#preview-your-messages)
+* L’identità e lo spazio dei nomi sono ora visibili nel **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../content-management/preview-test.md#preview-your-messages)
 * Il numero di e-mail di prova per le bozze è ora limitato a 10.
-* I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../email/preview.md#send-proofs)
+* I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../content-management/preview-test.md#send-proofs)
 
 **Editor di espressioni di personalizzazione**
 

@@ -1,40 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Anteprima e verifica del messaggio SMS
-description: Scopri come visualizzare in anteprima e testare il messaggio SMS in Journey Optimizer
+title: Verifica e verifica il messaggio SMS
+description: Scopri come controllare e inviare il messaggio SMS in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 19%
+source-wordcount: '257'
+ht-degree: 14%
 
 ---
 
-# Anteprima e verifica del messaggio SMS {#send-sms}
+# Controllare e inviare il messaggio SMS {#send-sms}
 
 ## Anteprima SMS {#preview-sms}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-1. Clic **[!UICONTROL Simula contenuto]**.
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test per controllare il messaggio utilizzando i dati del profilo di test.
 
-1. Clic **[!UICONTROL Gestire i profili di test]** per aggiungere un profilo di test.
+![](assets/sms_preview_2.png)
 
-1. Trova il tuo profilo di test con **[!UICONTROL Spazio dei nomi dell’identità]** e **[!UICONTROL Valore identità]** campi. Quindi, fai clic su **[!UICONTROL Aggiungi profilo]**.
-
-   ![](assets/sms_preview_3.png)
-
-1. Dopo aver selezionato il profilo di test, puoi chiudere **[!UICONTROL Aggiungi profilo di test]** finestra.
-
-1. Dalla sezione **Anteprima e prova** I dati del profilo di test vengono aggiunti al contenuto del messaggio.
-
-   ![](assets/sms_preview_2.png)
-
+Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
 
 ## Convalidare l’SMS{#sms-validate}
 

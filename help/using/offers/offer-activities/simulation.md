@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 13%
@@ -85,8 +85,6 @@ Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione
    >I profili selezionati rimarranno elencati come profili di test nel **[!UICONTROL Simulazione]** da sessione a sessione fino a quando non vengono rimossi utilizzando **[!UICONTROL Gestisci profilo]**.
 
 1. Puoi fare clic su **[!UICONTROL Dettagli profilo]** per visualizzare i dati di profilo selezionati.
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Aggiungere ambiti decisionali {#add-decision-scopes}
 

@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Anteprima e test della notifica push
-description: Scopri come visualizzare in anteprima e testare le notifiche push in Journey Optimizer
+title: Controllare e inviare la notifica push
+description: Scopri come controllare e inviare le notifiche push in Journey Optimizer
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 14%
+source-wordcount: '356'
+ht-degree: 10%
 
 ---
 
-# Anteprima e test della notifica push {#send-push}
+# Controllare e inviare la notifica push {#send-push}
 
 ## Anteprima della notifica push {#preview-push}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarlo in anteprima e testarlo. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-1. Clic **[!UICONTROL Simula contenuto]**.
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test. Puoi quindi selezionare il tipo di dispositivo per l’anteprima del contenuto: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
 
-1. Clic **[!UICONTROL Gestire i profili di test]** per aggiungere un profilo di test.
+![](assets/push_preview_3.png)
 
-1. Trova il tuo profilo di test con **[!UICONTROL Spazio dei nomi dell’identità]** e **[!UICONTROL Valore identità]** campi. Quindi, fai clic su **[!UICONTROL Aggiungi profilo]**.
-
-   ![](assets/push_preview_1.png)
-
-1. Dopo aver selezionato il profilo di test, puoi chiudere **[!UICONTROL Aggiungi profilo di test]** finestra.
-
-1. Dalla sezione **Anteprima e prova** I dati del profilo di test vengono aggiunti al contenuto del messaggio.
-
-   Seleziona il tipo di dispositivo per l&#39;anteprima del contenuto: **[!UICONTROL iOS]** o **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
 
 ## Convalidare la notifica push {#push-validate}
-
 
 È necessario controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
 

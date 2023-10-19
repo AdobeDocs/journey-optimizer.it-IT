@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1031'
 ht-degree: 12%
 
 ---
@@ -108,7 +108,7 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 >title="Visualizzare l’esperienza basata su codice in anteprima"
 >abstract="Ottieni una simulazione dell’aspetto che avrà l’esperienza basata su codice."
 
-Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito.
+Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito. Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione  [Anteprima e verifica della pagina di contenuto](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

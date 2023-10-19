@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: offerte, decisione, e-mail, personalizzazione, decisione
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -74,10 +74,6 @@ Puoi visualizzare in anteprima le diverse offerte che fanno parte della decision
 ![](assets/deliver-offer-preview.png)
 
 Per visualizzare le diverse offerte che fanno parte della decisione con un profilo cliente, segui i passaggi indicati di seguito.
-
->[!NOTE]
->
->Per poter visualizzare l’anteprima dei messaggi, è necessario disporre di profili di test. Scopri come [creare profili di test](../audience/creating-test-profiles.md).
 
 1. Seleziona i profili di test da utilizzare per visualizzare in anteprima l’offerta:
 

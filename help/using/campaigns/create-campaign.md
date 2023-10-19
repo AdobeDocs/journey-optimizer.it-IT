@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 27%
@@ -110,7 +110,7 @@ In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna
     </tr>
     </table>
 
-1. Una volta definito il contenuto, utilizza **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con i profili di test. [Ulteriori informazioni](../email/preview.md).
+1. Una volta definito il contenuto, utilizza **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md).
 
 1. Fai clic sulla freccia per tornare alla schermata di creazione della campagna.
 

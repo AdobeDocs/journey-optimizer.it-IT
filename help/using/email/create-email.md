@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 9%
+source-wordcount: '916'
+ht-degree: 10%
 
 ---
 
@@ -146,11 +146,15 @@ Possono verificarsi due tipi di avvisi:
 >
 >Per poter testare o attivare il percorso o la campagna tramite l’e-mail, devi risolvere tutto **errore** avvisi.
 
-## Anteprima e invio dell’e-mail
+## Controllare e inviare l’e-mail
 
-Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima per controllare il rendering dell’e-mail e verificare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](preview.md)
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test per controllare il messaggio utilizzando i dati del profilo di test.
 
 ![](assets/email_designer_edit_simulate.png)
+
+Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
 
 Quando l’e-mail è pronta, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md)e attivarlo per inviare il messaggio.
 

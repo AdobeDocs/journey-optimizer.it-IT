@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 3%
@@ -109,7 +109,7 @@ Una volta che il modello di Experience Manager è disponibile in Journey Optimiz
 
 1. Se hai aggiunto contenuti personalizzati al modello di Experience Manager, fai clic su **[!UICONTROL Simula contenuto]** per visualizzare in anteprima come verrà visualizzata nel messaggio utilizzando i profili di test.
 
-[Ulteriori informazioni sull’anteprima e sui profili di test](../email/preview.md)
+[Ulteriori informazioni sull’anteprima e sui profili di test](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

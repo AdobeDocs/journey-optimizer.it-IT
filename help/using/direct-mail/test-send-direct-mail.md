@@ -1,40 +1,30 @@
 ---
-title: Testare e inviare un messaggio di direct mail
-description: Scopri come verificare e inviare un messaggio di direct mailing in Journey Optimizer
+title: Verifica e invia un messaggio di direct mailing
+description: Scopri come controllare e inviare un messaggio di direct mailing in Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 19%
+source-wordcount: '429'
+ht-degree: 18%
 
 ---
 
-# Testare e inviare un messaggio di direct mail {#direct-mail-test-send}
+# Verifica e invia un messaggio di direct mailing {#direct-mail-test-send}
 
 ## Anteprima del file di estrazione {#preview-dm}
 
 Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-1. Nella schermata di configurazione del contenuto del file di estrazione, fai clic su **[!UICONTROL Simula contenuto]**.
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test per verificare come viene eseguito il rendering del file di estrazione utilizzando i dati del profilo di test.
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. Clic **[!UICONTROL Gestire i profili di test]** per aggiungere un profilo di test.
-
-1. Trova il tuo profilo di test con **[!UICONTROL Spazio dei nomi dell’identità]** e **[!UICONTROL Valore identità]** campi. Quindi, fai clic su **[!UICONTROL Aggiungi profilo]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. Dopo aver selezionato il profilo di test, puoi chiudere **[!UICONTROL Aggiungi profilo di test]** finestra.
-
-1. Dalla sezione **Anteprima e prova** finestra, i dati del profilo di test vengono aggiunti al contenuto del file di estrazione, consentendo di visualizzare in anteprima come verrà eseguito il rendering del file.
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
 
 Quando il contenuto del file è pronto per essere inviato, chiudi la schermata di simulazione e fai clic su **[!UICONTROL Controlla per attivare]** pulsante.
 

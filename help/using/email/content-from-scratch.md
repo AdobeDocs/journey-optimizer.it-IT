@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 68%
+source-wordcount: '667'
+ht-degree: 66%
 
 ---
 
@@ -116,9 +116,8 @@ Per iniziare a creare il contenuto delle , segui i passaggi indicati di seguito:
    >
    >Dopo il passaggio all’editor di codice, per l’e-mail corrente non è possibile tornare al designer visivo.
 
-1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. [Ulteriori informazioni sull’anteprima del messaggio e-mail](preview.md)
+1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
 
    ![](assets/email_designer_simulate_content.png)
 
 1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Salva]**.
-
