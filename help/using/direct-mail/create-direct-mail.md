@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -62,12 +62,12 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Campi dati"
->abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richiesto dai provider di direct mailing per inviare e-mail ai clienti. Puoi aggiungere fino a 50 colonne."
+>abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richieste dai provider di direct mail per inviare e-mail alla clientela. Puoi aggiungere fino a 50 colonne."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="Formattazione file di estrazione"
->abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’Editor espressioni. <br/><br/> Il <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
+>title="Formattazione del file di estrazione"
+>abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’Editor di espressioni. <br/><br/> L’opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
 
 1. Configura le colonne e le informazioni da visualizzare nel file di estrazione:
 

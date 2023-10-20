@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -122,7 +122,7 @@ In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna
 
 ## Definire il pubblico {#audience}
 
-Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
+Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="Pianificazione della campagna"
->abstract="Per impostazione predefinita, le campagne iniziano al momento dell’attivazione manuale e terminano immediatamente dopo l’invio del messaggio. Tuttavia, puoi impostare una data e un’ora specifiche per l’invio del messaggio. Inoltre, puoi specificare una data di fine per le campagne ricorrenti o attivate da API. In Action triggers, puoi anche configurare la frequenza di invio del messaggio in base alle tue preferenze."
+>abstract="Per impostazione predefinita, le campagne iniziano al momento dell’attivazione manuale e terminano immediatamente dopo l’invio del messaggio. Tuttavia, puoi impostare una data e un’ora specifiche per l’invio del messaggio. Inoltre, puoi specificare una data di fine per le campagne ricorrenti o attivate da API. Nei trigger di Azione, puoi anche configurare la frequenza di invio del messaggio in base alle tue preferenze."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"

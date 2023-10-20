@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
 source-wordcount: '2664'
-ht-degree: 7%
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_channel_level_report"
 >title="Rapporto a livello di canale"
->abstract="I rapporti sul canale offrono una panoramica completa delle metriche del traffico e del coinvolgimento su tutti i canali. I rapporti sono suddivisi in diversi widget che descrivono nel dettaglio i successi e gli errori della campagna e dei percorsi. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="I rapporti sul canale offrono una panoramica completa delle metriche del traffico e del coinvolgimento su tutti i canali. I rapporti sono suddivisi in diversi widget che descrivono nel dettaglio i successi e gli errori della campagna e dei percorsi. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="E-mail - Statistiche di invio totali"
->abstract="I KPI E-mail - Statistiche di invio totali riepilogano i dati essenziali sulle notifiche push, come i messaggi di destinazione o recapitati."
+>abstract="I KPI E-mail - Statistiche di invio totali riepilogano i dati essenziali sulle notifiche push, come i messaggi mirati o recapitati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
@@ -56,17 +56,17 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics_overtime"
 >title="E-mail - Statistiche di invio nel tempo"
->abstract="Il grafico E-mail - Statistiche di invio nel tempo presenta i dati relativi alle e-mail inviate, suddivisi su base oraria, giornaliera, settimanale o mensile."
+>abstract="Il grafico E-mail - Statistiche di invio nel tempo presenta dati relativi alle e-mail inviate, suddivisi su base oraria, giornaliera, settimanale o mensile."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics_overtime"
 >title="E-mail - Statistiche di tracciamento nel tempo"
->abstract="Il grafico E-mail - Tracciamento delle statistiche nel tempo fornisce dati sull’attività del profilo per le e-mail, suddivisi su base oraria, giornaliera, settimanale o mensile."
+>abstract="Il grafico E-mail - Statistiche di tracciamento nel tempo fornisce dati sull’attività del profilo secondo le e-mail, suddivisi su base oraria, giornaliera, settimanale o mensile."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
 >title="Categorie di mancato recapito"
->abstract="I grafici e la tabella delle categorie di mancato recapito forniscono dati sugli errori temporanei e permanenti."
+>abstract="I grafici e la tabella di Categorie di mancato recapito forniscono dati sugli errori temporanei e permanenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons"
@@ -81,22 +81,22 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_delivered_domains"
->title="Inviato e consegnato da domini"
->abstract="Il grafico e la tabella Inviato e consegnato da domini rappresentano il raggruppamento a livello di dominio di ogni dato importante relativo all’invio di e-mail."
+>title="Inviato e consegnato per dominio"
+>abstract="Il grafico e la tabella Inviato e consegnato per dominio rappresentano il raggruppamento a livello di dominio di ogni dato importante relativo all’invio di e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="Mancati recapiti ed errori per domini"
->abstract="Il grafico e la tabella Mancati recapiti ed errori per domini rappresentano il raggruppamento a livello di dominio degli errori specifici che si sono verificati durante il processo di invio."
+>title="Mancati recapiti ed errori per dominio"
+>abstract="Il grafico e la tabella Mancati recapiti ed errori per dominio rappresentano il raggruppamento a livello di dominio degli errori specifici che si sono verificati durante il processo di invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Apri e fai clic per domini"
->abstract="Il grafico e la tabella Apri e clic per domini rappresentano il raggruppamento a livello di dominio del coinvolgimento dei visitatori con la tua e-mail."
+>title="Aperture e clic per dominio"
+>abstract="Il grafico e la tabella Aperture e clic per dominio rappresentano il raggruppamento a livello di dominio del coinvolgimento dei visitatori con la tua e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_reasons_domains"
@@ -183,27 +183,27 @@ Il **[!UICONTROL Motivi di mancato recapito per dominio]**, **[!UICONTROL Inviat
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
 >title="Notifiche push - Statistiche di invio totali"
->abstract="I KPI per le notifiche push - Statistiche di invio totali riepilogano i dati essenziali sulle notifiche push, come Destinato o Consegnato."
+>abstract="I KPI della sezione Notifiche push - Statistiche di invio totali riepilogano i dati essenziali sulle notifiche push, come Target o Consegnati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics"
 >title="Notifica push - Statistiche di tracciamento totali"
->abstract="Le statistiche di tracciamento notifica push - Totale forniscono dati sull’attività del profilo per le notifiche push."
+>abstract="La sezione Notifica push - Statistiche di tracciamento totali fornisce dati sulle attività dei profili per le notifiche push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_overtime"
 >title="Notifiche push - Statistiche di invio nel tempo"
->abstract="Il grafico Invio di notifiche push con statistiche nel tempo presenta i dati relativi alle notifiche push inviate, suddivisi su base oraria, giornaliera, settimanale o mensile."
+>abstract="Il grafico della sezione Notifiche push - Statistiche di invio nel tempo presenta i dati relativi alle notifiche push inviate, suddivisi su base oraria, giornaliera, settimanale o mensile."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_overtime"
->title="Notifiche push - Tracciamento delle statistiche nel tempo"
->abstract="Il grafico Notifiche push - Tracciamento delle statistiche nel tempo fornisce dati sull’attività del profilo per le notifiche push, suddivisi su base oraria, giornaliera, settimanale o mensile."
+>title="Notifiche push - Statistiche di tracciamento nel tempo"
+>abstract="Il grafico della sezione Notifiche push - Statistiche di tracciamento nel tempo fornisce dati sulle attività dei profili per le notifiche push, suddivisi su base oraria, giornaliera, settimanale o mensile."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -213,12 +213,12 @@ Il **[!UICONTROL Motivi di mancato recapito per dominio]**, **[!UICONTROL Inviat
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
 >title="Statistiche di tracciamento per piattaforma"
->abstract="Le statistiche di tracciamento per grafico e tabella della piattaforma forniscono dati sull’attività del profilo per le notifiche push a seconda del sistema operativo del profilo."
+>abstract="Il grafico e la tabella Statistiche di tracciamento per piattaforma forniscono dati sulle attività dei profili per le notifiche push, a seconda del sistema operativo del profilo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
 >title="Statistiche di invio per piattaforma"
->abstract="Le statistiche di invio per grafico e tabella della piattaforma presentano i dati relativi alle notifiche push inviate."
+>abstract="Il grafico e la tabella Statistiche di invio per piattaforma presentano dati relativi alle notifiche push inviate."
 
 Dai rapporti sul canale, il menu Notifica push fornisce i dettagli delle informazioni principali relative alle notifiche push inviate nelle campagne e nei Percorsi. Le metriche sono descritte di seguito.
 
@@ -282,27 +282,27 @@ Il **[!UICONTROL Tracciamento per piattaforma]** e **[!UICONTROL Invio per piatt
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
 >title="SMS - Statistiche di invio totali"
->abstract="I KPI SMS - Statistiche di invio totali riepilogano dati essenziali sui messaggi SMS come Target o Delivered."
+>abstract="I KPI della sezione SMS - Statistiche di invio totali riepiloga dati essenziali sui messaggi SMS, come Target o Consegnati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics"
 >title="SMS - Statistiche di tracciamento totali"
->abstract="Le statistiche di tracciamento SMS - Totale forniscono dati sull’attività del profilo per i messaggi SMS."
+>abstract="La sezione SMS - Statistiche di tracciamento totali fornisce dati sulle attività dei profili per i messaggi SMS."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics_overtime"
 >title="SMS - Statistiche di invio nel tempo"
->abstract="Il grafico SMS - Statistiche di invio nel tempo presenta i dati relativi ai messaggi SMS inviati, suddivisi su base oraria, giornaliera, settimanale o mensile."
+>abstract="Il grafico della sezione SMS - Statistiche di invio nel tempo presenta i dati relativi ai messaggi SMS inviati, suddivisi su base oraria, giornaliera, settimanale o mensile."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_tracking_statistics_overtime"
 >title="SMS - Statistiche di tracciamento nel tempo"
->abstract="Il grafico SMS - Tracciamento statistiche nel tempo fornisce dati sull’attività del profilo per i messaggi SMS, suddivisi su base oraria, giornaliera, settimanale o mensile."
+>abstract="Il grafico della sezione SMS - Statistiche di tracciamento nel tempo fornisce dati sulle attività dei profili per i messaggi SMS, suddivisi su base oraria, giornaliera, settimanale o mensile."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_bounce_reasons"
@@ -366,13 +366,13 @@ Il **[!UICONTROL Escludi motivi]**, **[!UICONTROL Motivi di mancato recapito]** 
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
->title="Direct mailing - Statistiche di invio totali"
->abstract="I KPI per le statistiche di invio Direct mailing - Totale riepilogano i dati essenziali relativi ai messaggi di direct mailing, ad esempio Destinato o Consegnato."
+>title="Direct mail - Statistiche di invio totali"
+>abstract="I KPI della sezione Direct mail - Statistiche di invio totali riepilogano dati essenziali relativi ai messaggi direct mail, come Target o Consegnati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_excluded_reasons"
 >title="Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_error_reasons"
@@ -407,12 +407,12 @@ Il **[!UICONTROL Escludi motivi]** e **[!UICONTROL Motivi di errore]** grafici e
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
 >title="In-app - Coinvolgimento totale"
->abstract="I KPI per il coinvolgimento totale in-app forniscono informazioni complete sul coinvolgimento dei visitatori con i messaggi in-app, incluse metriche quali impressioni e interazioni."
+>abstract="I KPI della sezione In-app - Coinvolgimento totale forniscono informazioni complete sul coinvolgimento dei visitatori con i messaggi in-app, incluse metriche quali impression e interazioni."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"
 >title="In-app - Coinvolgimento nel tempo"
->abstract="Il grafico In-app - Coinvolgimento nel tempo eccessivo tiene traccia delle impression e delle interazioni in-app, fornendo raggruppamenti orari, giornalieri, settimanali e mensili."
+>abstract="Il grafico In-app - Coinvolgimento nel tempo tiene traccia delle impression e delle interazioni in-app, fornendo raggruppamenti orari, giornalieri, settimanali e mensili."
 
 Dai rapporti sul canale, il menu in-app fornisce i dettagli delle informazioni principali relative ai messaggi in-app inviati nelle campagne e nei Percorsi. Le metriche sono descritte di seguito.
 
@@ -439,12 +439,12 @@ Il **[!UICONTROL Intervento in-app straordinario]** Il grafico mostra l’evoluz
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
 >title="Web - Coinvolgimento totale"
->abstract="I KPI (Key Performance Indicator) Web - Coinvolgimento totale forniscono informazioni complete sul coinvolgimento dei visitatori con le pagine Web, incluse metriche quali impressioni e interazioni."
+>abstract="I KPI della sezione Web - Coinvolgimento totale forniscono informazioni complete sul coinvolgimento dei visitatori con le pagine web, incluse metriche quali impression e interazioni."
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement_overtime"
->title="Web - Straordinari di coinvolgimento totali"
->abstract="Il grafico Web - Coinvolgimento nel tempo libero tiene traccia delle impression e delle interazioni delle pagine Web, fornendo raggruppamenti orari, giornalieri, settimanali e mensili."
+>title="Web - Coinvolgimento totale nel tempo"
+>abstract="Il grafico Web - Coinvolgimento totale nel tempo tiene traccia delle impression e delle interazioni delle pagine web, fornendo raggruppamenti orari, giornalieri, settimanali e mensili."
 
 Dai rapporti sul canale, il menu Web fornisce i dettagli delle informazioni principali relative alle pagine Web incluse nelle campagne e nei Percorsi. Le metriche sono descritte di seguito.
 

@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 25%
+ht-degree: 39%
 
 ---
 
@@ -59,37 +59,37 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
 >title="E-mail - Statistiche di invio"
->abstract="Il grafico E-mail - Statistiche di invio riepiloga i dati essenziali sull’e-mail, ad esempio Destinato o Consegnato nelle ultime 24 ore."
+>abstract="Il grafico E-mail - Statistiche di invio riepiloga i dati essenziali relativi all’email, ad esempio e-mail mirate o consegnate nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_statistics"
 >title="E-mail - Statistiche"
->abstract="La tabella E-mail - Statistiche fornisce i dati sull’attività del profilo per l’e-mail delle ultime 24 ore."
+>abstract="La tabella E-mail - Statistiche fornisce dati sull’attività del profilo relativi all’email nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
 >title="E-mail - Categorie di mancato recapito"
->abstract="I grafici e la tabella delle categorie E-mail non recapitate forniscono dati sugli errori temporanei e permanenti delle ultime 24 ore."
+>abstract="I grafici e la tabella E-mail - Categorie di mancato recapito forniscono dati sugli errori temporanei e permanenti nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
 >title="E-mail - Prestazioni per data"
->abstract="Il grafico E-mail - Prestazioni per data presenta dati completi sulle ultime 24 ore relative alle e-mail inviate, fornendo informazioni approfondite su metriche chiave come consegne e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
+>abstract="Il grafico E-mail - Prestazioni per data presenta dati completi sulle ultime 24 ore relative alle e-mail inviate, fornendo informazioni approfondite su metriche chiave quali consegne e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_reasons"
 >title="E-mail - Motivi di mancato recapito"
->abstract="I grafici e la tabella E-mail - Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati delle ultime 24 ore."
+>abstract="I grafici e la tabella E-mail - Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
 >title="E-mail - Motivi di errore"
->abstract="I grafici e la tabella E-mail - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante il processo di invio nelle ultime 24 ore."
+>abstract="I grafici e la tabella E-mail - Motivi di errore consentono di individuare gli errori che si sono verificati durante il processo di invio nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
 >title="E-mail - Motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
+>abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori a causa di quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_best_recipient"
@@ -179,12 +179,12 @@ Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo i
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
 >title="Notifica push - Prestazioni di invio"
->abstract="Il grafico Prestazioni invio notifiche push riassume i dati essenziali relativi alla notifica push, come errori o messaggi consegnati nelle ultime 24 ore."
+>abstract="Il grafico delle prestazioni di invio delle notifiche push riassume i dati essenziali relativi alle notifiche push, come Errori o Messaggi consegnati nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_statistics"
 >title="Notifica push - Statistiche"
->abstract="La tabella Statistiche push fornisce dati sull’attività dei destinatari per la notifica push delle ultime 24 ore."
+>abstract="La tabella delle statistiche sulle notifiche push fornisce dati sull’attività del destinatario relativi alla notifica push nelle ultime 24 ore."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
@@ -199,7 +199,7 @@ Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo i
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
 >title="Notifica push - Motivi di errore"
->abstract="I grafici e la tabella Motivi di errore consentono di identificare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di invio."
+>abstract="I grafici e la tabella Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
@@ -250,7 +250,7 @@ Il **[!UICONTROL Tracciamento per piattaforma]**, **[!UICONTROL Invio per piatta
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
 >title="SMS - Motivi di errore"
->abstract="I grafici e la tabella SMS - Motivi di errore consentono di identificare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di invio."
+>abstract="I grafici e la tabella SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di consegna."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"

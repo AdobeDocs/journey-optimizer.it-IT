@@ -12,7 +12,7 @@ exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -48,7 +48,7 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Percorsi"
->abstract="Progettare i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi di utilizzo di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. Il **Panoramica** Questa scheda mostra una dashboard con le metriche chiave relative ai tuoi percorsi. Il **Sfoglia** nella scheda viene visualizzato l&#39;elenco dei percorsi esistenti."
+>abstract="Progettare i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 

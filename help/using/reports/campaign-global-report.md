@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 19%
+ht-degree: 28%
 
 ---
 
@@ -123,47 +123,47 @@ Per informazioni approfondite su questi risultati e su come interpretarli, consu
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
 >title="E-mail - Statistiche di invio"
->abstract="La tabella delle statistiche di invio e-mail riepiloga dati essenziali sull’e-mail, ad esempio Destinato o Consegnato."
+>abstract="La tabella della sezione E-mail - Statistiche di invio riepiloga dati essenziali sulle e-mail, ad esempio Target o Consegnati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_tracking_statistics"
 >title="E-mail - Statistiche di tracciamento"
->abstract="La tabella delle statistiche di tracciamento e-mail fornisce i dati sull’attività del profilo per l’e-mail."
+>abstract="La tabella della sezione E-mail - Statistiche di tracciamento e-mail fornisce i dati sulle attività dei profili per l’e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
 >title="E-mail - Prestazioni di invio"
->abstract="Il grafico delle prestazioni E-mail - Invio presenta dati completi sulle e-mail inviate, fornendo informazioni approfondite su metriche chiave quali consegne e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
+>abstract="Il grafico della sezione E-mail - Prestazioni di invio presenta dati completi sulle e-mail inviate, fornendo insight su metriche chiave quali consegne e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
 >title="E-mail - Categorie di mancato recapito"
->abstract="I grafici e la tabella delle categorie E-mail non recapitate forniscono dati su errori temporanei e permanenti."
+>abstract="I grafici e la tabella della sezione E-mail - Categorie di mancato recapito forniscono dati su errori temporanei e permanenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_reasons"
 >title="E-mail - Motivi di mancato recapito"
->abstract="I grafici e la tabella E-mail - Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
+>abstract="I grafici e la tabella della sezione E-mail - Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
 >title="E-mail - Motivi di errore"
->abstract="I grafici e la tabella E-mail - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
+>abstract="I grafici e la tabella della sezione E-mail - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante l’invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_excluded_reasons"
 >title="E-mail - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
 >title="E-mail - URL principale"
->abstract="Il grafico e la tabella E-mail - URL principali offrono una panoramica completa degli URL all’interno dell’e-mail che ricevono il traffico di visitatori più elevato, consentendoti di identificare i collegamenti più popolari."
+>abstract="Il grafico e la tabella della sezione E-mail - URL principale offrono una panoramica completa degli URL all’interno dell’e-mail che vengono visitati di più, consentendoti di individuare i collegamenti più popolari."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_best_recipient"
 >title="E-mail - Dominio destinatario migliore"
->abstract="Il grafico e la tabella E-mail - Dominio destinatario migliore forniscono un raggruppamento dettagliato dei domini utilizzati più di frequente dai destinatari per aprire l’e-mail e utili informazioni sul comportamento dei destinatari."
+>abstract="Il grafico e la tabella della sezione E-mail - Dominio destinatario migliore forniscono un raggruppamento dettagliato dei domini utilizzati più di frequente dai destinatari per aprire l’e-mail e insight sul comportamento dei destinatari."
 
 ![](assets/campaign_report_global_2.png)
 
@@ -309,7 +309,7 @@ Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impr
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="Notifica push - Statistiche di tracciamento"
->abstract="Le statistiche di tracciamento push forniscono dati sull’attività del profilo per la notifica push."
+>abstract="Le statistiche di tracciamento push forniscono dati sulle attività dei profili per le notifiche push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -329,7 +329,7 @@ Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impr
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Notifica push - Raggruppamento per piattaforma"
->abstract="La tabella e i grafici Raggruppamento per piattaforma forniscono una suddivisione del successo delle notifiche push in base al sistema operativo del profilo."
+>abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del successo delle notifiche push in base al sistema operativo del profilo."
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica push]** La scheda descrive le informazioni principali relative alle consegne push inviate nella campagna.
 
@@ -416,7 +416,7 @@ Il **[!UICONTROL Raggruppamento per piattaforma]** grafico e tabella descrivono 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="SMS - Motivi di errore"
->abstract="I grafici e la tabella SMS - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
+>abstract="I grafici e la tabella della sezione SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -516,7 +516,7 @@ Il **[!UICONTROL Interazioni per elemento]** la tabella descrive le informazioni
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="Direct mail - Motivi di errore"
->abstract="I grafici e la tabella Direct mailing - Error Reasons (Mailing diretto: motivi di errore) consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
+>abstract="I grafici e la tabella Direct Mail - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
