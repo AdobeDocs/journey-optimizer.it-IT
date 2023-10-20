@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 17%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
 # Raccolte {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="Creare le raccolte"
+>abstract="Le raccolte ti consentono di categorizzare e raggruppare gli elementi decisionali in base alle tue preferenze. Queste categorie vengono create creando regole che sfruttano gli attributi degli elementi decisionali."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="Definire le regole per la raccolta"
+>abstract="Aggiungi una o più regole per determinare gli elementi da includere nella raccolta. Scegliere un attributo articolo da utilizzare come criterio. Seleziona l’operatore desiderato e inserisci il valore su cui filtrare. Aggiungi tutte le regole necessarie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="Scegli una raccolta"
+>abstract="Seleziona la raccolta contenente le offerte da considerare. Questo passaggio è obbligatorio durante la creazione di una strategia di selezione. Le raccolte ti consentono di categorizzare e raggruppare gli elementi decisionali in base alle tue preferenze. Ad esempio, puoi creare una raccolta che includa tutti gli elementi decisionali con il valore &quot;Yoga&quot; nell’attributo personalizzato &quot;Categoria&quot;."
 
 >[!BEGINSHADEBOX]
 

@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 8%
+source-wordcount: '1014'
+ht-degree: 7%
 
 ---
 
 # Elementi decisionali {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="Gestire gli elementi decisionali"
+>abstract="Journey Optimizer consente di creare offerte di marketing, note come elementi decisionali, da creare e organizzare in un catalogo e in raccolte centralizzati. Attualmente, tutti gli elementi decisionali creati sono consolidati all’interno di un singolo catalogo &quot;Offerte&quot;. Da questa schermata, puoi anche accedere allo schema del catalogo utilizzando **Modifica schema** e creare attributi personalizzati per gli elementi decisionali."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurare il catalogo degli elementi"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ Journey Optimizer consente di creare offerte di marketing, note come elementi de
 Prima di creare un elemento di decisione, assicurati di aver creato un **regola di decisione** se desideri impostare le condizioni per determinare a chi può essere visualizzato l’elemento decisionale. [Scopri come creare regole di decisione](rules.md).
 
 ## Creare il primo elemento di decisione
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="Definire la priorità dell’elemento decisionale"
+>abstract="Se un profilo è idoneo per più elementi, la priorità consente di confrontare questo elemento decisionale con altri. Una priorità più alta concede la precedenza dell&#39;elemento rispetto agli altri."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="Definire gli attributi personalizzati"
+>abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle tue esigenze che puoi assegnare a un elemento decisionale. Vengono create nello schema di catalogo degli elementi decisionali. Questa sezione viene visualizzata solo se hai aggiunto almeno un attributo personalizzato allo schema del catalogo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurare il catalogo degli elementi"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="Aggiungere tipi di pubblico o regole di decisione"
+>abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisione, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Utilizzare i tipi di pubblico"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Utilizzare le regole di decisione"
 
 Per creare un elemento di decisione, effettua le seguenti operazioni:
 
@@ -71,7 +95,7 @@ Per creare un elemento di decisione, effettua le seguenti operazioni:
 
    ![](assets/item-constraints.png)
 
-   * Per limitare la presentazione dell’elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona la **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]** , quindi aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md).
+   * Per limitare la presentazione dell’elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona la **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]** , quindi aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md).
 
    * Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md).
 

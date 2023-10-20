@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 17%
+source-wordcount: '323'
+ht-degree: 15%
 
 ---
 
 # Regole di decisione {#rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_rules"
+>title="Creare regole di decisione"
+>abstract="Le regole di decisione ti consentono di definire il pubblico per gli elementi di decisione applicando vincoli, direttamente a livello di elemento di decisione o all’interno di una strategia di selezione specifica. Ciò consente di controllare con precisione quali elementi devono essere presentati a chi."
 
 >[!BEGINSHADEBOX]
 
