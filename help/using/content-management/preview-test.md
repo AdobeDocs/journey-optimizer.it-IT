@@ -4,10 +4,10 @@ description: Scopri come visualizzare in anteprima e testare i contenuti.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 3%
+source-wordcount: '308'
+ht-degree: 1%
 
 ---
 
@@ -15,8 +15,13 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Anteprima e test dei messaggi"
->abstract="Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima."
+>title="Controlla come viene eseguito il rendering del contenuto"
+>abstract="Una volta definito il contenuto, puoi utilizzare i profili di test per visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="Controlla come viene eseguito il rendering del contenuto"
+>abstract="Una volta definito il contenuto, puoi visualizzarne l’anteprima e verificare se il rendering è corretto in base al canale in uso."
 
 ## Informazioni sull’anteprima e il test dei contenuti {#about}
 
