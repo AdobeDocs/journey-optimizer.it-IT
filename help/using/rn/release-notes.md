@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4605'
+source-wordcount: '4584'
 ht-degree: 91%
 
 ---
@@ -120,10 +120,6 @@ Questa versione include i miglioramenti elencati di seguito.
    * il **Quantità di tempo** campo in [attività attendi](../building-journeys/wait-activity.md)
    * il **Periodo di attesa per rientro** in [Proprietà percorso](../building-journeys/journey-gs.md#entrance)
    * il **Attendi** campo nella definizione di timeout di [generale](../building-journeys/general-events.md#events-specific-time) e [reazione](../building-journeys/reaction-events.md) eventi.
-
-**Pagine di destinazione**
-
-* Quando utilizzi il componente modulo pagina di destinazione, ora puoi aggiungere un campo e-mail con le proprie opzioni specifiche.
 
 **Consenso nella configurazione del canale**
 
