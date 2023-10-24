@@ -3,23 +3,46 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai contenuti multilingue
 description: Ulteriori informazioni sui contenuti multilingue in Journey Optimizer
-feature: Multilingual
+feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 hide: true
 hidefromtoc: true
-source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 7%
+source-wordcount: '1106'
+ht-degree: 1%
 
 ---
 
-# Creare contenuti multilingue {#multilingual-automated}
+# Creazione di contenuti multilingue con traduzione automatica {#multilingual-automated}
 
-La funzione multilingue consente di creare facilmente contenuti in più lingue all’interno di una singola campagna. Grazie a questa funzione, è possibile cambiare lingua durante la modifica della campagna, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.
+>[!BEGINSHADEBOX]
+
+**Sommario**
+
+* [Introduzione ai contenuti multilingue](multilingual-gs.md)
+* [Creare contenuti multilingue con traduzione manuale](multilingual-manual.md)
+* **[Creazione di contenuti multilingue con traduzione automatica](multilingual-automated.md)**
+* [Rapporto campagna multilingue](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+Utilizzando il flusso automatizzato, è sufficiente selezionare la lingua di destinazione e il provider della lingua. Il contenuto viene quindi inviato direttamente alla traduzione, pronto per una revisione finale al completamento.
+
+Per creare contenuti multilingue mediante la traduzione automatica, segui la procedura riportata di seguito:
+
+1. [Creare le impostazioni locali](#create-locale).
+
+1. [Creare un progetto lingua](#create-translation-project).
+
+1. [Creare le impostazioni della lingua](#create-language-settings).
+
+1. [Creare una campagna multilingue](#create-a-multilingual-campaign).
+
+1. [Rivedere l’attività di traduzione (facoltativo)](#review-translation-project).
 
 ## Crea lingua {#create-locale}
 
@@ -41,11 +64,17 @@ Durante la configurazione delle impostazioni della lingua, come descritto in [Cr
 
 ## Crea progetto di traduzione {#translation-project}
 
+Avvia il progetto di traduzione specificando la lingua di Target, che indica la lingua o l’area geografica specifica per il contenuto. Puoi quindi scegliere il provider di traduzione.
+
 1. Dalla sezione **[!UICONTROL Progetti di traduzione]** menu in **[!UICONTROL Gestione dei contenuti]**, fai clic su **[!UICONTROL Crea progetto]**.
+
+   ![](assets/translation_project_1.png)
 
 1. Digitare a **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]**.
 
 1. Seleziona la **[!UICONTROL Lingua di origine]**.
+
+   ![](assets/translation_project_2.png)
 
 1. Scegli se le traduzioni vengono pubblicate automaticamente dopo l’approvazione e se desideri abilitare il flusso di lavoro di revisione.
 
@@ -53,21 +82,27 @@ Durante la configurazione delle impostazioni della lingua, come descritto in [Cr
 
    Se un **[!UICONTROL Lingua]** mancante, è possibile crearlo manualmente in anticipo dalla **[!UICONTROL Traduzione]** menu o tramite API. Fai riferimento a [Crea una nuova lingua](#create-locale).
 
+   ![](assets/translation_project_3.png)
+
 1. Seleziona dall’elenco il tuo **[!UICONTROL Impostazioni locali di destinazione]** e scegliere quale **[!UICONTROL Provider traduzione]** si desidera utilizzare per ogni lingua.
 
-1. Clic **[!UICONTROL Aggiungi una lingua]** una volta terminato il collegamento delle impostazioni internazionali di Target con il provider di traduzione corretto.
+1. Clic **[!UICONTROL Aggiungi una lingua]** una volta terminato il collegamento delle impostazioni internazionali di Target con il provider di traduzione corretto. Quindi, fai clic su **[!UICONTROL Salva]**.
+
+   ![](assets/translation_project_4.png)
 
 1. Clic **[!UICONTROL Salva]** quando il progetto di traduzione è configurato.
 
-1. Dal menu Avanzate del progetto di traduzione, puoi scegliere di modificarlo, disattivarlo o eliminarlo.
+Il progetto di traduzione viene ora creato e può essere utilizzato in una campagna multilingue.
 
 ## Creare le impostazioni della lingua {#language-settings}
 
-In questa sezione puoi impostare la lingua principale e le lingue associate per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo
+In questa sezione puoi impostare la lingua principale e le lingue associate per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo.
 
 1. Dalla sezione **[!UICONTROL Amministrazione]** menu, accesso **[!UICONTROL Canale]**.
 
 1. In **[!UICONTROL Impostazioni lingua]** menu, fai clic su **[!UICONTROL Creare le impostazioni della lingua]**.
+
+   ![](assets/language_settings_1.png)
 
 1. Digita il nome della tua **[!UICONTROL Impostazioni lingua]**.
 
@@ -75,11 +110,19 @@ In questa sezione puoi impostare la lingua principale e le lingue associate per 
 
 1. Dalla sezione **[!UICONTROL Progetto di traduzione]** , fare clic su **[!UICONTROL Modifica]** e scegli il creato in precedenza **[!UICONTROL Progetto di traduzione]**.
 
-   Le impostazioni internazionali configurate in precedenza vengono importate automaticamente. Se aggiorni il tuo **[!UICONTROL Progetto di traduzione]**, fai clic su **[!UICONTROL Aggiorna]** per riflettere queste modifiche nel **[!UICONTROL Impostazioni lingua]**.
+   Le impostazioni internazionali configurate in precedenza vengono importate automaticamente.
+
+   ![](assets/language_settings_2.png)
 
 1. Dalla sezione **[!UICONTROL Preferenza di invio]** selezionare l&#39;attributo che si desidera cercare per trovare informazioni sulle lingue del profilo.
 
 1. Clic **[!UICONTROL Modifica]** accanto al tuo **[!UICONTROL Lingua]** per personalizzarlo ulteriormente e aggiungere **[!UICONTROL Preferenze profilo]**.
+
+   ![](assets/language_settings_3.png)
+
+1. Se il **[!UICONTROL Progetto di traduzione]** viene aggiornato, fai clic su **[!UICONTROL Aggiorna]** per riflettere queste modifiche nel **[!UICONTROL Impostazioni lingua]**.
+
+   ![](assets/language_settings_4.png)
 
 1. Clic **[!UICONTROL Invia]** per creare **[!UICONTROL Impostazioni lingua]**.
 
@@ -93,23 +136,47 @@ In questa sezione puoi impostare la lingua principale e le lingue associate per 
 
 ## Creare una campagna multilingue {#create-multilingual-campaign}
 
-1. Inizia creando e configurando la campagna in base alle tue esigenze. [Ulteriori informazioni](../campaigns/create-campaign.md)
+Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, puoi creare la campagna e personalizzare il contenuto per le diverse lingue.
 
-1. Accedi a **[!UICONTROL Azioni]** e selezionare **[!UICONTROL Modifica contenuto]**.
-
-1. Crea o importa il contenuto originale e personalizzalo in base alle esigenze.
+1. Inizia creando e configurando la tua campagna di notifica e-mail, SMS o push in base alle tue esigenze. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
 1. Una volta creato il contenuto principale, fai clic su **[!UICONTROL Salva]** e torna alla schermata di configurazione della campagna.
 
-1. Clic **[!UICONTROL Aggiungi lingue]** e seleziona il creato in precedenza **[!UICONTROL Impostazioni lingua]**. [Ulteriori informazioni](#create-language-settings)
+1. Clic **[!UICONTROL Aggiungi lingue]**.  [Ulteriori informazioni](#create-language-settings)
 
-1. Accedi alle impostazioni avanzate di **[!UICONTROL Impostazioni internazionali]** menu e seleziona **[!UICONTROL Copia principale in tutte le lingue]**.
+   ![](assets/multilingual-campaign-automated-1.png)
 
-1. Ora che il contenuto principale viene duplicato in tutto il file selezionato  **[!UICONTROL Impostazioni internazionali]**, accedere alle impostazioni locali e fare clic su **[!UICONTROL Modifica corpo dell’e-mail]** per tradurre il contenuto.
+1. Seleziona il creato in precedenza **[!UICONTROL Impostazioni lingua]**.
 
-1. È possibile scegliere di disabilitare o abilitare le impostazioni internazionali con **[!UICONTROL Altre azioni]** nel menu della lingua selezionata.
+   ![](assets/multilingual-campaign-automated-2.png)
 
-1. Per disattivare la configurazione multilingue, fai clic su **[!UICONTROL Aggiungi lingue]** e selezionare la lingua da mantenere come lingua locale.
+1. Dopo aver importato le impostazioni internazionali, fai clic su **[!UICONTROL Invia per tradurre]** per inoltrare il contenuto al provider di traduzione selezionato in precedenza.
+
+   ![](assets/multilingual-campaign-automated-3.png)
+
+1. Una volta inviato per la traduzione, il contenuto non è più modificabile. Per apportare modifiche al contenuto originale, fai clic sull’icona del lucchetto.
+
+   Tieni presente che se desideri apportare modifiche a questo contenuto, dovrai creare un nuovo progetto di traduzione e inviarlo di nuovo per la traduzione.
+
+   ![](assets/multilingual-campaign-automated-4.png)
+
+1. Clic **[!UICONTROL Apri traduzione]** per accedere al progetto di traduzione e rivederlo.
+
+   ![](assets/multilingual-campaign-automated-5.png)
+
+1. In questa pagina, segui lo stato del progetto di traduzione:
+
+   * **[!UICONTROL Traduzione in corso]**: il provider di servizi sta lavorando attivamente alla traduzione.
+   * **[!UICONTROL Pronto per la revisione]**: il processo di revisione è pronto per iniziare, dandoti la possibilità di accedere alla traduzione e di rifiutarla o approvarla.
+   * **[!UICONTROL Esaminato]**: la traduzione è stata approvata ed è pronta per essere inviata alla campagna.
+   * **[!UICONTROL Pronto per la pubblicazione]**: la traduzione automatica è stata completata e ora può essere inviata alla tua campagna.
+   * **[!UICONTROL Completato]**: la traduzione è ora disponibile nella campagna.
+
+   ![](assets/multilingual-campaign-automated-6.png)
+
+1. Una volta completata la traduzione, il contenuto multilingue è pronto per essere inviato.
+
+   ![](assets/translation_review_9.png)
 
 1. Clic **[!UICONTROL Controlla per attivare]** per visualizzare un riepilogo della campagna.
 
@@ -117,39 +184,58 @@ In questa sezione puoi impostare la lingua principale e le lingue associate per 
 
 1. Sfoglia i contenuti multilingue per visualizzare il rendering in ogni lingua.
 
+   ![](assets/multilingual-campaign-automated-7.png)
+
 1. Verifica che la campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
 
 La campagna è ora attivata. Il messaggio configurato nella campagna viene inviato immediatamente o alla data specificata. Non è possibile modificare la campagna non appena è attiva. Per riutilizzare il contenuto, puoi duplicare la campagna.
 
 Una volta inviato, puoi misurare l’impatto delle campagne all’interno dei rapporti sulle campagne.
 
-## Rapporto campagna multilingue {#multilingual-campaign-report}
+## Rivedi il progetto di traduzione {#review-translation-project}
 
-Rapporti globali, accessibili dalla **Sempre** , visualizza gli eventi che si sono verificati almeno due ore fa e copre gli eventi in un periodo di tempo selezionato. Il rapporto globale della campagna è accessibile direttamente dalla campagna con **[!UICONTROL Visualizza rapporto]** pulsante.
+Se hai selezionato **[!UICONTROL Abilita flusso di lavoro di revisione]** nel tuo **[!UICONTROL Progetto di traduzione]**, puoi rivedere la traduzione direttamente in Journey Optimizer dopo il completamento da parte del provider di traduzione selezionato.
+Se questa opzione è disabilitata, al termine della traduzione da parte del provider, lo stato dell’attività di traduzione viene impostato automaticamente su **[!UICONTROL Esaminato]**, per procedere rapidamente facendo clic su **[!UICONTROL Invia al prodotto]**.
 
-Per ulteriori informazioni sui dati disponibili nel rapporto della campagna, consulta [questa pagina](../reports/campaign-global-report.md).
+1. Una volta completata la traduzione dal provider di servizi, puoi accedere alla traduzione per la revisione dal tuo **[!UICONTROL Progetto di traduzione]** o direttamente dal tuo **[!UICONTROL Campagna]**.
 
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per i contenuti multilingue.
+   ![](assets/translation_review_1.png)
 
-![](assets/report_multilingual.png)
+1. Dalla finestra Revisione, sfoglia il contenuto tradotto e accetta o rifiuta ogni stringa di traduzione.
 
-Il **[!UICONTROL Statistiche sull’invio di e-mail per lingue]** Il widget descrive il successo della consegna in base alla **[!UICONTROL Impostazioni internazionali]**:
+   ![](assets/translation_review_3.png)
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+1. Clic **[!UICONTROL Modifica]** per modificare il contenuto della stringa di traduzione.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante la consegna e l’elaborazione automatica dei messaggi restituiti rispetto al numero totale di messaggi inviati.
+   ![](assets/translation_review_2.png)
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
+1. Inserisci la traduzione aggiornata e fai clic su **[!UICONTROL Conferma]** al termine.
 
-Il **[!UICONTROL Statistiche di tracciamento e-mail per lingue]** Il widget contiene i dati disponibili per l’attività del destinatario per la consegna in base al **[!UICONTROL Impostazioni internazionali]**:
+   ![](assets/translation_review_4.png)
 
-* **[!UICONTROL Annulla iscrizione]**: numero di clic sul collegamento di annullamento dell’abbonamento.
+1. Puoi anche scegliere di **[!UICONTROL Rifiuta tutto]** o **[!UICONTROL Approva tutto]** direttamente.
 
-* **[!UICONTROL Aperture]**: numero di volte in cui il messaggio è stato aperto.
+   Durante la selezione **[!UICONTROL Rifiuta tutto]**, aggiungi un commento e fai clic su **[!UICONTROL Rifiuta]**.
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto.
-+++
+1. Clic **[!UICONTROL Anteprima]** per controllare il rendering del contenuto tradotto in ogni lingua.
 
+1. Una volta completata la traduzione, fai clic su **[!UICONTROL Finalizza]**.
+
+   ![](assets/translation_review_5.png)
+
+1. Dal tuo **[!UICONTROL Progetto di traduzione]**, seleziona uno dei progetti per accedere a ulteriori dettagli. Se hai rifiutato la traduzione, puoi scegliere di inviarla nuovamente alla traduzione.
+
+   ![](assets/translation_review_6.png)
+
+1. Una volta **[!UICONTROL Progetto di traduzione]** Lo stato è impostato su Rivisto, puoi inviarlo alla tua campagna.
+
+   Dal menu avanzato, fai clic su **[!UICONTROL Pubblica]**.
+
+   ![](assets/translation_review_7.png)
+
+1. Nella campagna, verifica che lo stato di traduzione sia stato modificato in **[!UICONTROL Traduzione completata]**. Ora puoi inviare contenuti multilingue, fai riferimento al passaggio 10 in [questa sezione](#create-multilingual-campaign).
+
+   ![](assets/translation_review_9.png)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
