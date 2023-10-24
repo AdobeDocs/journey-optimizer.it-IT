@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 83%
+source-wordcount: '1650'
+ht-degree: 81%
 
 ---
 
@@ -124,7 +124,11 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
 
-## Gestione delle decisioni {#decision-management}
+## Guardrail di Audiences {#audience}
+
+* Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se avete raggiunto questa soglia, dovete eliminare una composizione per liberare spazio e pubblicarne una nuova.
+
+## Guardrail di gestione delle decisioni {#decision-management}
 
 ### Guardrail delle prestazioni {#performance-guardrails}
 
