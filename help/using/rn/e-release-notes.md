@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 33%
+source-wordcount: '371'
+ht-degree: 24%
 
 ---
 
@@ -58,11 +58,27 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Per ulteriori informazioni, consulta la <a href="../audience/get-started-audience-orchestration.md">documentazione dettagliata</a>.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), abilitando la condivisione di immagini, GIF o video con i clienti. Questa funzione è attualmente disponibile solo in versione beta con Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Miglioramenti {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico**
 
 * Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
+* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi.
 
-**Punteggio spam per le e-mail**
+>[!AVAILABILITY]
+>
+>Queste funzionalità sono attualmente disponibili come versione beta privata.
 
-* Durante la simulazione di un contenuto e-mail, una nuova opzione consente di controllare le prestazioni del contenuto rispetto al filtro anti-spam delle caselle in entrata. Questa funzione è attualmente proposta solo a un set di clienti (disponibilità limitata) e disponibile per il canale e-mail.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **Avvisi**
 
-* I nuovi avvisi relativi alle campagne Journey Optimizer sono ora disponibili nel **Avvisi** menu.
+* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna.
 
 **Campagne**
 
@@ -86,8 +108,16 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* La durata massima che puoi definire nell’attività Attesa è ora di 29 giorni invece di 30.
+* La durata massima definibile in qualsiasi tempo di attesa è ora di 29 giorni invece di 30. Questo vale per:
+
+   * il **Quantità di tempo** campo in [attività attendi](../building-journeys/wait-activity.md)
+   * il **Periodo di attesa per rientro** in [Proprietà percorso](../building-journeys/journey-gs.md#entrance)
+   * il **Attendi** campo nella definizione di timeout di [generale](../building-journeys/general-events.md#events-specific-time) e [reazione](../building-journeys/reaction-events.md) eventi.
 
 **Consenso nella configurazione del canale**
 
 * Ora puoi selezionare un’azione di marketing a livello di superficie di canale. Se utilizzati in una superficie, tutti i criteri di consenso associati a tale azione di marketing vengono utilizzati per rispettare le preferenze dei clienti.
+
+**Gestione delle decisioni**
+
+* Sono state aggiornate diverse etichette relative al limite delle offerte nell’interfaccia di gestione delle decisioni.
