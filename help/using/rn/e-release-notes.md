@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
+source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '370'
 ht-degree: 24%
 
 ---
@@ -98,13 +98,10 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
-**Avvisi**
-
-* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna.
-
 **Campagne**
 
 * Ora puoi interrompere una campagna live una tantum, apportare modifiche e riprenderla. Questo miglioramento è disponibile in versione beta.
+* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna.
 
 **Percorsi**
 
