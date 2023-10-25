@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 10%
+source-wordcount: '536'
+ht-degree: 9%
 
 ---
 
@@ -40,6 +40,10 @@ Per creare una formula di classificazione, effettua le seguenti operazioni:
    In questo esempio, vogliamo aumentare la priorità di tutte le offerte con l’attributo &quot;hot&quot; (caldo) se il tempo effettivo è caldo. Per eseguire questa operazione, il **contextData.weather=hot** è stato passato nella chiamata di decisione.
 
    ![](../assets/ranking-syntax.png)
+
+   >[!IMPORTANT]
+   >
+   >Durante la creazione di una formula di classificazione, non è supportato guardare indietro a un periodo di tempo precedente. Ad esempio, se specifichi un evento esperienza che si è verificato nell’ultimo mese come componente della formula. Qualsiasi tentativo di includere un periodo di lookback durante la creazione della formula attiverà un errore durante il salvataggio.
 
 1. Fai clic su **[!UICONTROL Salva]**. La formula di classificazione viene creata, puoi selezionarla dall’elenco per ottenere i dettagli e modificarla o eliminarla.
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 12%
+source-wordcount: '419'
+ht-degree: 13%
 
 ---
 
@@ -25,10 +25,9 @@ Ad esempio, puoi specificare che desideri che venga visualizzata solo “Offerta
 
 Di seguito è riportato un elenco di limitazioni di cui tenere conto quando si lavora con le regole di decisione:
 
-* Durante la creazione di una regola, puoi utilizzare eventi storici, ma esistono limitazioni su quando queste regole sono utilizzabili.
 * Edge Decisioning utilizza il profilo Edge che non memorizza gli eventi, pertanto qualsiasi regola utilizzata in una decisione Edge non sarà valida.
-* I percorsi che utilizzano le decisioni sulle offerte non esamineranno gli eventi storici, pertanto queste regole non saranno valide.
-* Le richieste di decisione che utilizzano il profilo hub esamineranno gli ultimi 100 eventi di esperienza sul profilo per valutare le regole che fanno riferimento a eventi di esperienza storici.
+* Durante la creazione di una regola di decisione, non è supportato guardare indietro a un periodo di tempo precedente. Ad esempio, se specifichi un evento esperienza che si è verificato nell’ultimo mese come componente della regola. Qualsiasi tentativo di includere un periodo di lookback durante la creazione della regola attiverà un errore durante il salvataggio.
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Creare una regola di decisione {#create}
 

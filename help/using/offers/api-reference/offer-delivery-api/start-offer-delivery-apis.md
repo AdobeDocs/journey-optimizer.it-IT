@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '631'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 5%
 Puoi distribuire le offerte utilizzando **Decisioning** o **Edge Decisioning** API. Inoltre, il **Batch Decisioning** API ti consente di distribuire offerte a tutti i profili in un determinato pubblico in una chiamata. Il contenuto dell’offerta per ogni profilo del pubblico viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
 
 In questa pagina trovi informazioni su funzionalità specifiche disponibili con **Decisioning** e **Edge Decisioning** API. Sebbene entrambi consentano di offrire offerte ai clienti, si consiglia di utilizzare **Edge Decisioning** Se possibile, API per casi di utilizzo in entrata e per garantire una migliore latenza e velocità effettiva sulla piattaforma.
-
 
 Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguenti:
 * [API Decisioning](decisioning-api.md)
@@ -127,7 +126,6 @@ Quando si trasmettono dati contestuali con una richiesta API Edge Decisioning, i
 
 Le funzionalità elencate di seguito sono disponibili solo con l’API Decisioning. Se devi sfruttarne una per soddisfare le tue esigenze, utilizza l’API Decisioning. In caso contrario, consigliamo di utilizzare le API Edge Decisioning.
 
-* **Eventi esperienza**: sfrutta gli eventi di esperienza per creare regole decisionali.
 * **Contenuto e caratteristiche dell’offerta**: puoi scegliere di non restituire il contenuto e le caratteristiche di un’offerta utilizzando un’opzione dedicata.
 * **Metadati offerta**: abilita un’opzione per restituire i metadati di un’offerta.
 * **Criterio di unione**: utilizza nella richiesta un criterio di unione diverso da quello associato alla sandbox.
