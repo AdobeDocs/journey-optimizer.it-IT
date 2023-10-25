@@ -75,7 +75,7 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 
    ![](assets/web-designer-modifications-apply-to.png)
 
-1. Clic **[!UICONTROL Applica]**.
+1. Fai clic su **[!UICONTROL Applica]**.
 
 1. Scambia in **[!UICONTROL Sfoglia]** per verificare che le modifiche vengano applicate alle pagine desiderate.
 

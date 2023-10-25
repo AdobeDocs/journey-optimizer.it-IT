@@ -109,7 +109,7 @@ Per farlo, segui la procedura indicata di seguito.
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. Clic **[!UICONTROL Applica]**.
+1. Fai clic su **[!UICONTROL Applica]**.
 
 >[!NOTE]
 >

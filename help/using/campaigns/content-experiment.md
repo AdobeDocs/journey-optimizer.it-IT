@@ -68,7 +68,7 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
    * **[!UICONTROL Nome]**
    * **[!UICONTROL Descrizione]**
 
-1. Definisci il pubblico di destinazione. A questo scopo, fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
+1. Definisci il pubblico di destinazione. A questo scopo, fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)
 
    In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](get-started-experiment.md#content-experiment-work)
 
