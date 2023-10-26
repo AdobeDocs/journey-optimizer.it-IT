@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
+source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4477'
 ht-degree: 94%
 
 ---
@@ -94,14 +94,14 @@ Questa versione include le nuove funzionalità elencate di seguito.
 
 Questa versione include i miglioramenti elencati di seguito.
 
-<!--**Audiences**
+**Tipi di pubblico**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
+* Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
+* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi.
 
 >[!AVAILABILITY]
 >
->These capabilities are currently available as a private beta.-->
+>Queste funzionalità sono attualmente disponibili come versione beta privata.
 
 <!--
 **Spam scoring for emails**
