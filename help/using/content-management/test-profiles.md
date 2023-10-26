@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"
 >title="Utilizza i profili di test per verificare il contenuto"
->abstract="Utilizza i profili di test per visualizzare in anteprima e verificare il contenuto. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati del profilo di test."
+>abstract="Utilizza i profili di test per visualizzare in anteprima e verificare il contenuto. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati dei profili di test."
 
 Prima di visualizzare l’anteprima o testare il contenuto, devi selezionare i profili di test, che sono destinatari aggiuntivi che non corrispondono ai criteri di targeting definiti. [Scopri come creare profili di test](../audience/creating-test-profiles.md)
 

@@ -11,7 +11,7 @@ exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_fragment"
 >title="Definisci il tuo frammento"
 >abstract="Crea e gestisci frammenti autonomi per rendere il contenuto riutilizzabile in più percorsi e campagne."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Crea frammenti"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=it#create-fragments" text="Crea frammenti"
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi.
 
@@ -194,7 +194,7 @@ Questo frammento è ora pronto per essere utilizzato durante la creazione di qua
 >id="ajo_create_expression_fragment"
 >title="Seleziona il tipo di espressione"
 >abstract="Crea da zero un frammento di espressione autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne. Quando utilizzi l’editor di espressioni, puoi sfruttare tutti i frammenti di espressione che sono stati creati nella sandbox corrente."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Sfrutta i frammenti di espressione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=it" text="Sfrutta i frammenti di espressione"
 
 1. [Creare un frammento](#create-from-scratch) dal **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra e selezionare **[!UICONTROL Frammento di espressione]** tipo.
 
