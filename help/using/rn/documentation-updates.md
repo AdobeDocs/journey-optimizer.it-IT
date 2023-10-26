@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
-source-wordcount: '3956'
-ht-degree: 94%
+source-wordcount: '4011'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,10 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La pagina Implementa applicazioni a pagina singola è stata spostata nella documentazione Adobe Experience Platform Web SDK. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * La sezione Limitazione è stata aggiornata per riflettere le modifiche dell’etichetta relative al limite delle offerte nell’interfaccia di gestione delle decisioni. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 * La sezione Aggiungere contenuto dinamico alle e-mail è stata aggiornata con i dettagli su come eliminare una variante. [Ulteriori informazioni](../personalization/dynamic-content.md#emails)
+* È stato aggiornato l’esempio per le configurazioni di limitazione e limite dei massimali. [Ulteriori informazioni](../configuration/external-systems.md)
+* La limitazione relativa agli array scalari è stata rimossa dalla sezione dell’origine dati esterna. [Ulteriori informazioni](../datasource/external-data-sources.md)
+* È stato aggiornato il caso di utilizzo del percorso multicanale. [Ulteriori informazioni](../building-journeys/journeys-uc.md)
+* Il set di documentazione di Journey Optimizer è stato aggiornato per riflettere il nuovo processo di creazione dello schema di Experience Platform.
 
 ## Settembre 2023 {#september-2023}
 
