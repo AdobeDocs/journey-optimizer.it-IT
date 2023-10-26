@@ -11,9 +11,9 @@ keywords: IP, recapitabilità
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Con [!DNL Journey Optimizer], è possibile eseguire facilmente flussi di lavoro 
 
 Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) possono ritenere sospetti gli indirizzi IP che non vengono riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente da un nuovo indirizzo IP, gli ISP spesso le contrassegnano come spam.
 
-Per evitare che i messaggi di una tua nuova campagna vengano contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione Piano di preparazione IP. Questa nuova opzione disponibile nel menu **[!UICONTROL Amministrazione]** agevola questo compito in modo consolidato, senza dover creare complessi percorsi giornalieri. Facilitando lo sviluppo della fase iniziale, consente di ridurre il tasso complessivo di indirizzi non validi.
+Per evitare che i messaggi di una tua nuova campagna vengano contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione Piano di preparazione IP. Questa nuova opzione disponibile nel menu **[!UICONTROL Amministrazione]** agevola questo compito in modo consolidato, senza dover creare complessi percorsi giornalieri.
 
 >[!NOTE]
 >

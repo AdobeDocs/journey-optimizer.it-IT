@@ -11,10 +11,10 @@ keywords: IP, pool, recapito messaggi
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 21%
+source-wordcount: '407'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Cosa troverai in questa documentazione:
 
 >[!ENDSHADEBOX]
 
-Prima di creare il piano di riscaldamento IP in [!DNL Journey Optimizer], devi innanzitutto creare una o più campagne con l’opzione dedicata abilitata, in modo che possano essere utilizzate in un piano di riscaldamento IP.
+Prima di creare il piano di riscaldamento IP in [!DNL Journey Optimizer], devi innanzitutto creare una o più campagne progettate specificamente per l’utilizzo in un piano di riscaldamento IP<!--through a dedicated option-->.
 
 Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguito.
 
@@ -48,8 +48,9 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
    >
    >Collabora con il tuo consulente di recapito messaggi per identificare il dominio e gli IP da utilizzare per il piano di riscaldamento dell’IP.<!--TBC-->
 
-1. Creare un [campagna](../campaigns/create-campaign.md) e seleziona la [E-mail](../email/create-email.md#create-email-journey-campaign) azione.
+1. Creare un marketing pianificato [campagna](../campaigns/create-campaign.md) e seleziona la [E-mail](../email/create-email.md#create-email-journey-campaign) azione.
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. Selezionate la superficie creata per il riscaldamento dell&#39;IP.
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
    >
    >Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
-1. [Attiva](../campaigns/review-activate-campaign.md) la campagna.
+1. [Attiva](../campaigns/review-activate-campaign.md) la campagna. Lo stato cambia in **[!UICONTROL Live]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
 Una volta pubblicata, la campagna è pronta per essere utilizzata in un piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+Una campagna di riscaldamento IP può essere utilizzata solo in un piano di riscaldamento IP. Tuttavia, la stessa campagna può essere utilizzata in una o più fasi dello stesso piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>Quando una campagna live viene utilizzata in un piano di riscaldamento IP, dopo che il piano è [contrassegnato come completato](ip-warmup-execution.md#mark-as-completed), lo stato di tale campagna diventa **[!UICONTROL Interrotto]**.
+
