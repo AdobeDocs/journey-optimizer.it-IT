@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1068'
 ht-degree: 9%
 
 ---
@@ -152,7 +152,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr> 
   <tr> 
    <td> Clic univoci<br/> </td> 
-   <td> Numero di destinatari che hanno fatto clic su un contenuto in un messaggio e-mail.<br/> </td> 
+   <td> Numero di destinatari che hanno fatto clic su un contenuto in un messaggio e-mail.<br> Tieni presente che, nel calcolo dei clic univoci, vengono presi in considerazione gli ultimi 10 giorni. Se un profilo registra più clic entro il periodo di 10 giorni, verranno conteggiati come clic univoci. Tuttavia, se un profilo ha 2 clic a distanza di più di 10 giorni, non verrà considerato come clic univoci.<br/> </td> 
 </tr> 
   <tr> 
    <td>Percentuale clic univoci<br/> </td> 
@@ -160,10 +160,10 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr>
   <tr> 
    <td> Aperture univoche<br/> </td> 
-   <td>Numero di destinatari che hanno aperto la consegna.<br/> </td> 
+   <td>Numero di destinatari che hanno aperto la consegna. <br> Tieni presente che, nel calcolo delle aperture univoche, vengono presi in considerazione gli ultimi 10 giorni. Se un profilo registra più aperture entro il periodo di 10 giorni, queste verranno conteggiate come aperture univoche. Tuttavia, se un profilo ha 2 aperture a più di 10 giorni di distanza, non verrà considerato come un’apertura univoca.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Annullamenti dell’abbonamento<br/> </td> 
+   <td> Annullamenti dell’iscrizione<br/> </td> 
    <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
 </tr> 
  </tbody> 

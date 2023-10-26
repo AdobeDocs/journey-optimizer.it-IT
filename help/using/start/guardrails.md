@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 81%
+source-wordcount: '1698'
+ht-degree: 79%
 
 ---
 
@@ -39,6 +39,13 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Il componente **Modulo** non può essere utilizzato nelle pagine secondarie.
 * Non puoi aggiungere un preheader a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
+
+## Guardrail SMS {#sms-guardrails}
+
+* La funzionalità MMS è disponibile solo per Sinch.
+* I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
+* La sincronizzazione del feedback sui messaggi non è attualmente disponibile per MMS.
+* La gestione del consenso funziona a livello del canale SMS per MMS.
 
 ## Guardrail di percorso {#journeys-guardrails}
 

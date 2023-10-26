@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '469'
 ht-degree: 18%
 
 ---
@@ -45,7 +45,7 @@ Un singolo utente può accedere a un’attività di attesa solo se nel percorso 
 
 ## Attesa durata{#duration}
 
-Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva.
+Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è di 29 giorni.
 
 ![](assets/journey55.png)
 

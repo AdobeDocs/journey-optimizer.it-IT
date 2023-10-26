@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONT
 
 Inoltre, puoi filtrare l’elenco in base al tipo di campagna e al canale, o ai tag assegnati alle campagne durante la loro creazione. [Scopri come assegnare tag a una campagna](create-campaign.md#create)
 
-## Stati delle campagne {#statuses}
+## Stati e avvisi delle campagne {#statuses}
 
 Le campagne possono avere più stati:
 
@@ -47,6 +47,10 @@ Le campagne possono avere più stati:
 >[!NOTE]
 >
 >L’icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** Lo stato indica che è stata creata una nuova versione della campagna, che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
+
+Quando si verifica un errore all’interno di una delle campagne, accanto allo stato della campagna viene visualizzata un’icona di avviso. Fai clic su di esso per visualizzare le informazioni relative all’avviso. Questi avvisi possono verificarsi in varie situazioni, ad esempio quando il messaggio della campagna non è stato pubblicato o se la superficie scelta non è corretta.
+
+![](assets/campaign-alerts.png)
 
 ## Modificare una campagna ricorrente {#modify}
 

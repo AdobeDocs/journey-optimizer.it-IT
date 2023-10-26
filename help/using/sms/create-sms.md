@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 18%
+source-wordcount: '707'
+ht-degree: 17%
 
 ---
 
@@ -108,7 +108,23 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
    ![](assets/sms_tracking_2.png)
 
-1. In `originalUrl` , incollare l&#39;URL che si desidera ridurre.
+1. In `originalUrl` , incolla l’URL da abbreviare e fai clic su **[!UICONTROL Salva]**.
+
+1. Abilita l’opzione MMS per aggiungere contenuti multimediali al contenuto SMS.
+
+   MMS viene fornito con alcune limitazioni elencate in [questa pagina](../start/guardrails.md#sms-guardrails).
+
+   >[!NOTE]
+   >
+   > L’opzione MMS è disponibile solo con Sinch. Per creare MMS è necessario creare una credenziale API specifica. [Ulteriori informazioni](sms-configuration.md#create-new-api)
+
+   ![](assets/sms_create_6.png)
+
+1. Aggiungi un **[!UICONTROL Titolo]** ai tuoi contenuti multimediali.
+
+1. Immetti l’URL del file multimediale in **[!UICONTROL Contenuti multimediali]** campo.
+
+   ![](assets/sms_create_7.png)
 
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
 

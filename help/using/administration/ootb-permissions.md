@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '726'
 ht-degree: 5%
 
 ---
 
 # Autorizzazioni incorporate {#ootb-permissions}
+
+Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che possono essere assegnate a **[!UICONTROL Ruolo]** per ottimizzare l’accesso degli utenti a Journey Optimizer. Le autorizzazioni di alto livello comprendono le autorizzazioni di basso livello, descritte in [questa pagina](high-low-permissions.md).
 
 | Funzionalità | Autorizzazioni |
 |-|-|

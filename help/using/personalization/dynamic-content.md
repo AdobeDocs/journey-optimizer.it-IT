@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 17%
+source-wordcount: '564'
+ht-degree: 19%
 
 ---
 
@@ -60,13 +60,13 @@ I passaggi per aggiungere contenuto dinamico nelle espressioni sono i seguenti:
 
 Per creare varianti di un componente di contenuto in E-mail Designer, segui questi passaggi:
 
-1. In E-mail Designer, seleziona un componente di contenuto, quindi fai clic su **[!UICONTROL Abilita contenuto condizionale]**.
+1. In [E-mail Designer](../email/content-from-scratch.md), seleziona un componente di contenuto, quindi fai clic su **[!UICONTROL Abilita contenuto condizionale]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. Il **[!UICONTROL Contenuto condizionale]** a sinistra. In questo riquadro, puoi utilizzare le condizioni per creare più varianti del componente di contenuto selezionato.
 
-   Configura la prima variante selezionando la **[!UICONTROL Applica condizione]** pulsante.
+   Configura la prima variante selezionando la **[!UICONTROL Seleziona condizione]** pulsante.
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ Per creare varianti di un componente di contenuto in E-mail Designer, segui ques
 
    Puoi anche creare una nuova regola facendo clic su **[!UICONTROL Crea nuovo]**. [Scopri come creare le condizioni](create-conditions.md)
 
-1. La regola condizionale è associata alla variante. Per una migliore leggibilità, si consiglia di rinominare la variante facendo clic sul menu dell’ellisse.
+1. La regola condizionale è associata alla variante. Per una migliore leggibilità, rinomina la variante selezionando la **[!UICONTROL Rinomina]** dall&#39;icona Altre azioni.
 
-   Ora configura come deve essere visualizzato il componente se la regola viene soddisfatta durante l’invio del messaggio. In questo esempio, se la lingua preferita del destinatario è il francese, il testo dovrà essere in francese.
+   ![](assets/conditions-rename.png)
+
+1. Configura il modo in cui il componente verrà visualizzato se la regola viene soddisfatta al momento dell’invio del messaggio. In questo esempio, se la lingua preferita del destinatario è il francese, il testo dovrà essere in francese.
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ Per creare varianti di un componente di contenuto in E-mail Designer, segui ques
    >Se nessuna delle regole definite nelle varianti è soddisfatta durante l’invio del messaggio, il componente contenuto visualizzerà il contenuto definito nel **[!UICONTROL Variante predefinita]**.
    >
    >Il contenuto condizionale verrà valutato in base alle regole associate nell’ordine in cui vengono visualizzate le varianti. La variante predefinita viene sempre visualizzata se non sono soddisfatte altre condizioni.
+
+1. Per eliminare una variante, fai clic sull’icona Altre azioni accanto alla variante desiderata e seleziona **[!UICONTROL Elimina]**.
+
+   ![](assets/conditions-delete.png)

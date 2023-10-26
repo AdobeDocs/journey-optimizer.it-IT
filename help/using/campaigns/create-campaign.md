@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '967'
 ht-degree: 34%
 
 ---
@@ -124,17 +124,17 @@ In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna
 
 Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) nelle campagne è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 >Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API. [Ulteriori informazioni](api-triggered-campaigns.md)
 
-In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace)
+In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato.
+
+Gli utenti appartenenti a un segmento che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non saranno presi in considerazione dalla campagna. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->Gli utenti appartenenti a un segmento che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non saranno presi in considerazione dalla campagna.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

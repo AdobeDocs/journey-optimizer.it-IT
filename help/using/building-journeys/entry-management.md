@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 13%
+source-wordcount: '598'
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,8 @@ Nei percorsi unitari, puoi abilitare o disabilitare il rientro:
 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare l’opzione per i percorsi &quot;one shot&quot; (una sola volta), ad esempio se si desidera offrire un regalo occasionale quando una persona visita un negozio. In tal caso, il cliente non deve essere in grado di rientrare nel percorso e ricevere nuovamente l’offerta. Quando un percorso termina, il suo stato è **[!UICONTROL Chiuso]**. I nuovi utenti non possono più accedere al percorso. Le persone già nel percorso finiscono normalmente il percorso. [Ulteriori informazioni](journey-gs.md#entrance)
 
+Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** Questo campo consente di definire il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso. In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 29 giorni.
+
 ![](assets/journey-re-entrance.png)
 
 Dopo il valore predefinito [timeout globale](journey-gs.md#global_timeout) di 30 giorni, il percorso passa alla **Completato** stato. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso. Questo comportamento è impostato solo per 30 giorni (ossia per il valore predefinito di timeout del percorso), poiché tutte le informazioni sui profili che sono entrati nel percorso vengono rimosse 30 giorni dopo l’immissione. Dopo tale periodo, i profili possono rientrare nel percorso. Per evitare questo problema e disabilitare completamente il rientro per tali profili, puoi aggiungere una condizione per verificare se il profilo è già stato inserito o meno, utilizzando i dati del profilo o del pubblico.
@@ -42,9 +44,7 @@ Dopo il valore predefinito [timeout globale](journey-gs.md#global_timeout) di 30
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
-
-La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
+La chiave viene utilizzata per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
 ## Leggi percorsi di pubblico{#entry-read-segment}
 

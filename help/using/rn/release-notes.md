@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4477'
-ht-degree: 94%
+source-wordcount: '4558'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>Gli strumenti sandbox consentono di copiare oggetti in più sandbox sfruttando le funzioni di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/copy-to-sandbox.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>MMS (Multimedia Message Service) negli SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), abilitando la condivisione di immagini, GIF o video con i clienti. Questa funzione è attualmente disponibile solo con Sinch.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Per ulteriori informazioni, consulta la <a href="../sms/create-sms.md#sms-content">documentazione dettagliata</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ Questa versione include i miglioramenti elencati di seguito.
 **Tipi di pubblico**
 
 * Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
-* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi.
+* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ Questa versione include i miglioramenti elencati di seguito.
 **Campagne**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna.
+* Quando si verifica un errore in una delle campagne, ora viene visualizzata un’icona di avviso nell’elenco delle campagne insieme allo stato della campagna. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#statuses)
 
 **Percorsi**
 
-* La durata massima definibile in qualsiasi tempo di attesa è ora di 29 giorni invece di 30. Questo vale per:
+* La durata massima definibile in qualsiasi tempo di attesa è ora di 29 giorni invece di 30. Questo miglioramento è stato introdotto per evitare che le durate di attesa superino la durata di 30 percorsi. Questo vale per:
 
    * il **Quantità di tempo** campo in [attività attendi](../building-journeys/wait-activity.md)
    * il **Periodo di attesa per rientro** in [Proprietà percorso](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Gestione delle decisioni**
 
-* Sono state aggiornate diverse etichette relative al limite delle offerte nell’interfaccia di gestione delle decisioni.
+* Sono state aggiornate diverse etichette relative al limite delle offerte nell’interfaccia di gestione delle decisioni. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 
 ## Note sulla versione di settembre 2023 {#sept-rn-2023}
 

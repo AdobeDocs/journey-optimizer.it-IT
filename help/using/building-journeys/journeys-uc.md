@@ -9,9 +9,9 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, messaggi, percorso, canale, eventi, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Questa sezione presenta un caso d’uso che combina un Read Audience, un evento,
 
 ## Descrizione del caso d’uso
 
-In questo caso d’uso, vogliamo inviare un primo messaggio (e-mail e push) a tutti i clienti appartenenti a un pubblico specifico.
+In questo caso d’uso, vogliamo inviare un primo messaggio e-mail a tutti i clienti appartenenti a un pubblico specifico.
 
 In base alla loro reazione al primo messaggio, vogliamo inviare messaggi specifici.
 
-Dopo il primo messaggio, attendiamo un giorno che i clienti aprano il messaggio push o e-mail. In assenza di reazioni, inviamo loro un’e-mail di follow-up.
+Se il cliente apre l’e-mail, attendiamo un acquisto e inviamo un messaggio push per ringraziare il cliente.
 
-Poi aspettiamo un acquisto e inviamo un messaggio push per ringraziare il cliente.
+In assenza di reazioni, inviamo loro un’e-mail di follow-up.
 
 ## Prerequisiti
 
@@ -93,21 +93,13 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
 
    ![](assets/jo-uc5.png)
 
-1. Posiziona il cursore sull’attività e-mail e fai clic sul simbolo &quot;+&quot; per creare un nuovo percorso.
+1. Aggiungi un **Reazione** evento e seleziona **E-mail aperta**. L’evento viene attivato quando una persona appartenente al pubblico apre l’e-mail.
 
-1. Nel primo percorso, aggiungi un **Reazione** evento e seleziona **Push aperto**. L’evento viene attivato quando un singolo appartenente al pubblico apre la versione push del primo messaggio.
-
-1. Nel secondo percorso, aggiungi un **Reazione** evento e seleziona **E-mail aperta**. L’evento viene attivato quando l’utente apre l’e-mail.
-
-1. In una delle attività di reazione, controllare **Definire il timeout dell’evento** , definisci una durata (1 giorno nel nostro esempio) e spunta **Impostare un percorso di timeout**. In questo modo viene creato un altro percorso per i singoli utenti che non aprono il primo messaggio push o e-mail.
-
-   >[!NOTE]
-   >
-   >Quando configuri un timeout per più eventi (le due reazioni in questo caso), devi configurare il timeout solo per uno di questi eventi.
+1. Controlla la **Definire il timeout dell’evento** , definisci una durata (1 giorno nel nostro esempio) e spunta **Impostare un percorso di timeout**. In questo modo viene creato un altro percorso per i singoli utenti che non aprono il primo messaggio push o e-mail.
 
 1. Nel percorso di timeout, rilascia una **E-mail** attività e definire il contenuto del messaggio di &quot;follow-up&quot;. Questo messaggio viene inviato alle persone che non aprono l’e-mail o non inviano il primo messaggio push nel giorno successivo. Fai riferimento a questo [sezione](../email/create-email.md) per scoprire come configurare e progettare un’e-mail.
 
-1. Connetti i tre percorsi all’evento di acquisto creato in precedenza. L’evento viene attivato quando un individuo effettua un acquisto.
+1. Nel primo percorso, aggiungi l’evento di acquisto creato in precedenza. L’evento viene attivato quando un individuo effettua un acquisto.
 
 1. Dopo l’evento, rilascia una **Push** attività di azione e definisci il contenuto del messaggio di ringraziamento. Fai riferimento a questo [sezione](../push/create-push.md) per scoprire come configurare e progettare un push.
 

@@ -9,14 +9,16 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1167'
 ht-degree: 6%
 
 ---
 
 # Ruoli incorporati {#ootb-product-profiles}
+
+I ruoli incorporati sono un insieme di diritti unitari che consentono agli utenti di accedere a determinate funzionalità o oggetti nell’interfaccia. Fai riferimento a [questa pagina](ootb-permissions.md) per l’elenco delle autorizzazioni disponibili per generare il ruolo.
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
