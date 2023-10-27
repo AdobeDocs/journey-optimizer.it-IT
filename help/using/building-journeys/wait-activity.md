@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 18%
@@ -35,7 +35,7 @@ Se desideri attendere prima di eseguire l’attività successiva nel percorso, p
 
 ## Informazioni sull’attività Attendi{#about_wait}
 
-La durata massima di attesa è di 30 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
+La durata massima di attesa è di 29 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
 Presta attenzione quando utilizzi più attività di attesa in un percorso, in quanto il timeout percorso globale è di 30 giorni, il che significa che un profilo uscirà sempre dal valore massimo percorso 30 giorni dopo essere entrato. Consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
 
