@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 17%
+source-wordcount: '461'
+ht-degree: 15%
 
 ---
 
@@ -74,7 +74,9 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 >title="Pubblicare il pubblico"
 >abstract="Pubblica la composizione per salvare i segmenti di pubblico risultanti in Adobe Experience Platform."
 
-Tutte le composizioni create sono accessibili da **[!UICONTROL Composizioni]** scheda. Possono avere più stati:
+Tutte le composizioni create sono accessibili da **[!UICONTROL Composizioni]** scheda. Potete duplicare o eliminare una composizione esistente in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;elenco.
+
+Le composizioni possono avere più stati:
 
 * **[!UICONTROL Bozza]**: la composizione è in corso e non è stata pubblicata.
 * **[!UICONTROL Pubblicato]**: la composizione è stata pubblicata, i tipi di pubblico risultanti sono stati salvati e sono disponibili per l’uso.
@@ -83,4 +85,4 @@ Tutte le composizioni create sono accessibili da **[!UICONTROL Composizioni]** s
 
 >[!NOTE]
 >
->Potete duplicare o eliminare una composizione esistente in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;elenco.
+>La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili in Adobe Experience Platform [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
