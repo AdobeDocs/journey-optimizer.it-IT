@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai contenuti multilingue
-description: Ulteriori informazioni sui contenuti multilingue in Journey Optimizer
+title: Introduzione al contenuto multilingue
+description: Ulteriori informazioni sul contenuto multilingue in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -13,17 +13,17 @@ hidefromtoc: true
 source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 8%
+ht-degree: 26%
 
 ---
 
-# Introduzione ai contenuti multilingue {#multilingual-gs}
+# Introduzione al contenuto multilingue {#multilingual-gs}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
-* **[Introduzione ai contenuti multilingue](multilingual-gs.md)**
+* **[Introduzione al contenuto multilingue](multilingual-gs.md)**
 * [Creare contenuti multilingue con traduzione manuale](multilingual-manual.md)
 * [Creazione di contenuti multilingue con traduzione automatica](multilingual-automated.md)
 * [Rapporto campagna multilingue](multilingual-report.md)

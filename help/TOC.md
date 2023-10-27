@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1710'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -182,7 +182,7 @@ ht-degree: 94%
          + [Creare contenuti da zero](using/email/content-from-scratch.md)
          + [Importare i contenuti](using/email/existing-content.md)
          + [Creare il codice del contenuto](using/email/code-content.md)
-         + [Utilizzare i modelli e-mail](using/email/use-email-templates.md)
+         + [Utilizzare modelli di e-mail](using/email/use-email-templates.md)
       + Creare contenuti {#add-content}
          + [Utilizzare i componenti per contenuti](using/email/content-components.md)
          + [Sfruttare i frammenti visivi](using/email/use-visual-fragments.md)
@@ -230,7 +230,7 @@ ht-degree: 94%
    + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web {#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
-   + Configurare il canale web {#configure-web-channel}
+   + Configurare il canale Web {#configure-web-channel}
       + [Prerequisiti per il canale Web](using/web/web-prerequisites.md)
       + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
    + [Creare esperienze web](using/web/create-web.md)
@@ -262,8 +262,8 @@ ht-degree: 94%
       + [Introduzione all’Assistente contenuti](using/content-management/gs-generative.md)
       + [Generazione di contenuti](using/content-management/generative-content.md)
       + [Generazione di immagini](using/content-management/generative-image.md)
-   + Utilizzare contenuti multilingue{#content-multilingual}
-      + [Introduzione ai contenuti multilingue](using/content-management/multilingual-gs.md)
+   + Utilizzare il contenuto multilingue{#content-multilingual}
+      + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
       + [Creare contenuti multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
       + [Creazione di contenuti multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
       + [Rapporto campagna multilingue](using/content-management/multilingual-report.md)
@@ -294,7 +294,7 @@ ht-degree: 94%
       + Casi d’uso della personalizzazione{#personalization-use-cases}
          + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
-   + Gestire i contenuti riutilizzabili {#reusable-content}
+   + Gestire il contenuto riutilizzabile {#reusable-content}
       + [Utilizzare i modelli di contenuto](using/content-management/content-templates.md)
       + [Utilizzare i frammenti](using/content-management/fragments.md)
    + Contenuto dinamico {#dynamic}
@@ -448,8 +448,8 @@ ht-degree: 94%
             + [Creare una decisione](using/offers/api-reference/activities-api/activities/create.md)
             + [Aggiornare una decisione](using/offers/api-reference/activities-api/activities/update.md)
             + [Eliminare una decisione](using/offers/api-reference/activities-api/activities/delete.md)
-         + API legacy {#legacy-api}
-            + [Informazioni sulle API legacy](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+         + API Legacy {#legacy-api}
+            + [Informazioni sulle API Legacy](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
             + Posizionamenti {#placements}
                + [Elencare posizionamenti](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                + [Ricercare un posizionamento](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)

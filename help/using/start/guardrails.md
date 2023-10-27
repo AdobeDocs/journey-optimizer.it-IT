@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '1698'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 ### Azioni personalizzate {#custom-actions-g}
 
-* Per tutte le azioni personalizzate viene definito un limite massimo di 150.000 chiamate in 30 secondi. Questo limite è stato impostato in base all’utilizzo da parte dei clienti, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili/s quando vengono utilizzate azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione o limitazione maggiore tramite le API di limitazione o limitazione. Consulta [questa pagina](../configuration/external-systems.md).
+* Per tutte le azioni personalizzate viene definito un limite massimo di 150.000 chiamate in 30 secondi. Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”
@@ -137,29 +137,29 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 ## Guardrail di gestione delle decisioni {#decision-management}
 
-### Guardrail delle prestazioni {#performance-guardrails}
+### Guardrail prestazioni {#performance-guardrails}
 
 La velocità effettiva di consegna corrisponde al numero di risposte alle decisioni che possono essere fornite dal servizio app di gestione delle decisioni in un determinato periodo di tempo. Il numero di decisioni al secondo è indicato nella tabella seguente.
 
 | API | Decisioni al secondo |
 |---------|----------|
-| Decisioning delle richieste API | 500 al secondo |
-| Richieste API di Edge Decisioning | 5000 al secondo |
+| Richieste API Decisioning | 500 al secondo |
+| Richieste API Edge Decisioning | 5000 al secondo |
 
-### Limitazioni  {#offers-limitations}
+### Limitazioni {#offers-limitations}
 
 Le limitazioni di Gestione delle decisioni sono elencate di seguito.
 
-* **Offerte personalizzate approvate + Offerte di fallback** - Fino a 10.000 offerte personalizzate approvate combinate e offerte di fallback approvate.
-* **Decisioni** - Fino a 10.000 decisioni.
-* **Decisioni live** - Il servizio app Offer Decisioning supporta fino a 1.000 decisioni live.
-* **Offerte restituite per risposta** - Offer Decisioning supporta fino a 100 offerte restituite per richiesta in tutti gli ambiti decisionali della richiesta.
-* **Raccolte** - Fino a 10.000 raccolte.
-* **Raccolte per decisione** - Fino a 30 raccolte per decisione.
-* **Regole di decisione + funzioni di classificazione** Fino a 10.000 regole di decisione e funzioni di classificazione combinate.
-* **Posizionamenti** - Fino a 1.000 posizionamenti.
-* **Posizionamenti per decisione** - Fino a 30 posizionamenti per decisione.
-* **Metodo di classificazione per decisione** - Il servizio app Offer Decisioning supporta fino a 30 funzioni di classificazione per decisione.
-* **Modello di classificazione IA** - Offer Decisioning App Service supporta fino a 5 modelli di classificazione AI.
-* **Qualificatore raccolta per offerta o raccolta** : il servizio app di Offer decisioning supporta fino a 20 qualificatori di raccolta in una singola offerta personalizzata o raccolta singola.
-* **Qualificatori raccolta totali** - Il servizio app Offer Decisioning supporta fino a 1.000 qualificatori di raccolta.
+* **Offerte personalizzate approvate + Offerte di fallback**: fino a 10.000 offerte personalizzate approvate combinate e offerte di fallback approvate.
+* **Decisioni**: fino a 10.000 decisioni.
+* **Decisioni live**: il servizio app Offer Decisioning supporta fino a 1.000 decisioni live.
+* **Offerte restituite per risposta**: Offer Decisioning supporta fino a 100 offerte restituite per richiesta in tutti gli ambiti decisionali della richiesta.
+* **Raccolte**: fino a 10.000 raccolte.
+* **Raccolte per decisione**: fino a 30 raccolte per decisione.
+* **Regole di decisione + funzioni di classificazione**: fino a 10.000 regole di decisione e funzioni di classificazione combinate.
+* **Posizionamenti**: fino a 1.000 posizionamenti.
+* **Posizionamenti per decisione**: fino a 30 posizionamenti per decisione.
+* **Metodo di classificazione per decisione**: il servizio app Offer Decisioning supporta fino a 30 funzioni di classificazione per decisione.
+* **Modello di classificazione IA**: il servizio app Offer Decisioning supporta fino a 5 modelli di classificazione IA.
+* **Qualificatore raccolta per offerta o raccolta**: il servizio app Offer decisioning supporta fino a 20 qualificatori di raccolta in una singola offerta personalizzata o raccolta singola.
+* **Qualificatori raccolta totali**: il servizio app Offer Decisioning supporta fino a 1.000 qualificatori di raccolta.
