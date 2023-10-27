@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -141,11 +141,11 @@ Puoi anche aggiungere un controllo del consenso alla personalizzazione di un pub
 
 1. Aggiungi il pubblico iniziale utilizzando il pulsante dedicato a destra.
 
-1. Fai clic su **+** e seleziona un&#39;icona **[!UICONTROL Dividi]** attività per creare un pubblico diviso. [Ulteriori informazioni sull’attività di divisione](../audience/composition-canvas.md#split)
+1. Fai clic sull’icona **+** e seleziona un’attività **[!UICONTROL Dividi]** per creare un pubblico suddiviso. [Ulteriori informazioni sull’attività Dividi](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. Nel riquadro di destra, seleziona **[!UICONTROL Suddivisione attributi]** come tipo di divisione.
+1. Nel riquadro a destra, seleziona **[!UICONTROL Suddivisione attributi]** come tipo di suddivisione.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 
