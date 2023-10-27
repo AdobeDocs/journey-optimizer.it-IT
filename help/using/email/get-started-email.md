@@ -10,9 +10,9 @@ level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt="Crea" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="Creare" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>Creare un messaggio e-mail</strong>
 </div>
@@ -63,13 +63,13 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <img alt="Rinuncia" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Gestione della rinuncia e-mail</strong></a>
+<a href="email-opt-out.md"><strong>Gestione della rinuncia alle e-mail</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="Configura le " src="../assets/do-not-localize/email-config.jpg">
+<img alt="Configurare" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurare il canale e-mail</strong></a>
