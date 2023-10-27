@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_tags"
 >title="Tag"
->abstract="Questo campo ti consente di assegnare alla campagna i tag unificati di Adobe Experience Platform. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne."
+>abstract="Questo campo consente di assegnare i tag unificati Adobe Experience Platform alla campagna. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne."
 
 Con i [Tag Unificati](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it) di Adobe Experience Platform, è possibile classificare facilmente i percorsi e le campagne in Journey Optimizer per migliorare la ricerca dagli elenchi.
 
