@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 7%
+source-wordcount: '718'
+ht-degree: 6%
 
 ---
 
@@ -44,6 +44,10 @@ Gli strumenti sandbox consentono di copiare oggetti in più sandbox sfruttando l
 
 Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, fare riferimento a [Documentazione di Experienci Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>Questa funzione richiede le seguenti autorizzazioni: manage-sandbox (o view-sandbox) e manage-package.
+
 ## Introduzione agli strumenti sandbox{#sandbox-gs}
 
 Journey Optimizer consente di copiare un intero percorso da una sandbox all’altra. Ad esempio, puoi copiare un percorso dall’ambiente sandbox di Stage alla sandbox di produzione. Oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta questa [sezione](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ Journey Optimizer consente di copiare un intero percorso da una sandbox all’al
 
 Gli oggetti copiati nella sandbox di destinazione sono univoci e non esiste alcun rischio di sovrascrittura degli elementi esistenti. Sia il percorso che i messaggi all&#39;interno del percorso vengono trasferiti in modalità bozza. Ciò ti consente di eseguire una convalida completa prima della pubblicazione sulla sandbox di destinazione. Il processo di copia viene copiato solo sui metadati relativi al percorso e agli oggetti di tale Percorso. Non vengono copiati dati di profilo o set di dati come parte di questo processo.
 
-## Esportare il percorso {#export}
+Il processo di copia viene eseguito tramite un’esportazione e un’importazione di pacchetti tra le sandbox di origine e di destinazione. Di seguito sono riportati i passaggi generali per copiare un percorso da una sandbox a un’altra:
 
-Per copiare un percorso in un’altra sandbox, effettua le seguenti operazioni:
+1. Aggiungi il percorso come pacchetto nella sandbox di origine.
+1. Esporta il pacchetto nella sandbox di destinazione.
+
+## Aggiungere il percorso come pacchetto{#export}
+
+Per copiare un percorso in un’altra sandbox, devi innanzitutto aggiungere il percorso come pacchetto nella sandbox sorgente. Segui questi passaggi:
 
 1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Viene visualizzato l’elenco dei percorsi.
 
 1. Cercare il percorso che si desidera copiare, fare clic sul pulsante **Altre azioni** (i tre punti accanto al nome del percorso) e fare clic su **Aggiungi al pacchetto**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-Il **Aggiungi al pacchetto** viene visualizzata la finestra.
+   Il **Aggiungi al pacchetto** viene visualizzata la finestra.
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. Scegliere se si desidera aggiungere il percorso a un pacchetto esistente o crearne uno nuovo:
 
@@ -85,9 +94,11 @@ Il **Aggiungi al pacchetto** viene visualizzata la finestra.
 
    ![](assets/journey-sandbox9.png)
 
-## Importa il percorso {#import}
+## Esportare il pacchetto nella sandbox di destinazione {#import}
 
-1. Nell’elenco dei pacchetti, fai clic sull’icona + accanto al nome del pacchetto.
+Una volta pubblicato il pacchetto, devi esportarlo nella sandbox di destinazione.
+
+1. Nella sandbox di origine, fai clic su **[!UICONTROL Sandbox]** , selezionare il **Pacchetti** e fai clic sull’icona + accanto al pacchetto da esportare.
 
    ![](assets/journey-sandbox5.png)
 
