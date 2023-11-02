@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '4525'
-ht-degree: 93%
+source-wordcount: '4527'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Tipi di pubblico**
 
-* Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
+* Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
@@ -205,7 +205,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Gestione delle decisioni**
 
-* Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Queste API forniscono prestazioni migliori e una migliore esperienza utente. Le API legacy saranno supportate fino al 03/27/2024. [Ulteriori informazioni](../offers/api-reference/getting-started.md)
+* Sono ora disponibili nuove API per la creazione e la gestione di oggetti di gestione delle decisioni. Queste API forniscono prestazioni migliori e una esperienza utente ottimizzata. Le API legacy saranno supportate fino al 27/03/2024. [Ulteriori informazioni](../offers/api-reference/getting-started.md)
 
 **Personalizzazione**
 
@@ -213,7 +213,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Avvisi**
 
-* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un **Read Audience** l’attività non riesce. [Ulteriori informazioni](../reports/alerts.md).
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’attività **Leggi pubblico** non viene completata. [Ulteriori informazioni](../reports/alerts.md).
 
 **Canale web**
 
@@ -229,7 +229,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 
 
-* Il supporto delle risposte alle azioni personalizzate è ora disponibile al pubblico. Questa funzionalità ti consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e di orchestrare il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni doganali a 150.000 chiamate in 30 secondi per endpoint. [Ulteriori informazioni](../action/action-response.md)
+* Il supporto delle risposte alle azioni personalizzate è ora disponibile al pubblico. Questa funzionalità consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e gestire il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni personalizzate a 150.000 chiamate in 30 secondi per endpoint. [Ulteriori informazioni](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
@@ -246,7 +246,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale direct mail**
 
-* È ora possibile crittografare i file destinati ai provider di direct mailing quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file, nuovo campo consente di copiare e incollare la chiave di crittografia. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
+* Ora è possibile crittografare i file destinati ai provider di direct mail quando vengono trasferiti su un server. A questo scopo, nella schermata di configurazione dell’indirizzamento dei file, nuovo campo consente di copiare e incollare la chiave di crittografia. [Ulteriori informazioni](../direct-mail/direct-mail-configuration.md)
 
 **Reporting**
 

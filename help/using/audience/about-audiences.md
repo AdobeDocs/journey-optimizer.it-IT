@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 92%
 
 ---
 
@@ -27,11 +27,15 @@ ht-degree: 100%
 >title="Selezionare il pubblico della campagna"
 >abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico a cui destinare la campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] consente di generare e sfruttare tipi di pubblico di Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal menu **[!UICONTROL Tipi di pubblico]** e utilizzarli nei percorsi o nelle campagne.
-
-Ulteriori informazioni nella [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it).
+[!DNL Journey Optimizer] consente di generare e sfruttare tipi di pubblico di Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal menu **[!UICONTROL Tipi di pubblico]** e utilizzarli nei percorsi o nelle campagne. Ulteriori informazioni nella [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it).
 
 ## Utilizzare tipi di pubblico in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico Adobe Experience Platform generato utilizzando [definizioni dei segmenti](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Queste funzionalità sono attualmente disponibili come versione beta privata.
 
 Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi diversi:
 

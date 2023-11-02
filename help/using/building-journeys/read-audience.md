@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 13%
+source-wordcount: '1356'
+ht-degree: 12%
 
 ---
 
@@ -47,13 +47,13 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
 
 1. Aggiungi un **[!UICONTROL Etichetta]** all’attività (facoltativo).
 
-1. In **[!UICONTROL Pubblico]** , scegli il pubblico di Adobe Experience Platform che entrerà nel percorso, quindi fai clic su **[!UICONTROL Salva]**.
-
-   Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
+1. In **[!UICONTROL Pubblico]** , scegli il pubblico di Adobe Experience Platform che entrerà nel percorso, quindi fai clic su **[!UICONTROL Salva]**. Puoi selezionare qualsiasi pubblico Adobe Experience Platform generato utilizzando [definizioni dei segmenti](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione del pubblico entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Queste funzionalità sono attualmente disponibili come versione beta privata.
+
+   Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione del pubblico entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. In **[!UICONTROL Namespace]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
