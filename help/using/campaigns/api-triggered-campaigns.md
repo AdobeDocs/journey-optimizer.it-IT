@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '967'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ I canali disponibili per le campagne attivate da API sono e-mail, SMS e messaggi
 >[!NOTE]
 >
 >Al momento, la modalità Consegna rapida non è supportata per le campagne attivate dall’API per le notifiche push.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Creare una campagna attivata da API {#create}
 
@@ -132,3 +134,9 @@ Per attivare la creazione del profilo durante l’esecuzione della campagna, att
 >[!NOTE]
 >
 >I profili sconosciuti vengono creati in **Set di dati profilo messaggistica interattiva AJO** set di dati, in tre spazi dei nomi predefiniti (e-mail, telefono e ECID) rispettivamente per ogni canale in uscita (e-mail, SMS e push).
+
+## Video introduttivo {#video}
+
+Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
