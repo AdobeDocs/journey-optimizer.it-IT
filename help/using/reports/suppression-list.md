@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 8%
+source-wordcount: '802'
+ht-degree: 9%
 
 ---
 
@@ -26,6 +26,8 @@ Raccoglie indirizzi e-mail e domini che vengono soppressi in tutte le comunicazi
 >[!NOTE]
 >
 >Adobe mantiene un elenco aggiornato di indirizzi non validi noti che hanno dimostrato di essere dannosi per il coinvolgimento e la reputazione di mailing e garantisce che le e-mail non vengano consegnate a loro. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
+
+Inoltre, puoi sfruttare Journey Optimizer **API REST di eliminazione** per controllare i messaggi in uscita utilizzando soppressione e elenchi consentiti. [Scopri come utilizzare l’API REST di soppressione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it)
 
 ## Perché un elenco di soppressione? {#why-suppression-list}
 

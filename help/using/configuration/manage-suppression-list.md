@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1595'
 ht-degree: 22%
 
 ---
@@ -27,6 +27,8 @@ Ulteriori informazioni sul concetto e sull’utilizzo dell’elenco di soppressi
 >[!NOTE]
 >
 >Adobe mantiene un elenco aggiornato di indirizzi non validi noti che hanno dimostrato di essere dannosi per il coinvolgimento e la reputazione di mailing e garantisce che le e-mail non vengano consegnate a loro. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
+
+Inoltre, puoi sfruttare Journey Optimizer **API REST di eliminazione** per controllare i messaggi in uscita utilizzando soppressione e elenchi consentiti. [Scopri come utilizzare l’API REST di soppressione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it)
 
 ## Accedere all’elenco di soppressione {#access-suppression-list}
 

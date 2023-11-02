@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1165'
 ht-degree: 15%
 
 ---
@@ -22,17 +22,15 @@ ht-degree: 15%
 
 Questo elenco Consentiti consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica.
 
->[!NOTE]
+>[!CAUTION]
 >
->Questa funzione è disponibile sulle sandbox di produzione e non di produzione.
+>Questa funzione si applica solo al canale E-mail. È disponibile su sandbox di produzione e non di produzione.
 
 Ad esempio, in un’istanza non di produzione in cui possono verificarsi errori, l’elenco Consentiti ti assicura di non correre il rischio di inviare messaggi indesiderati a indirizzi reali dei clienti e fornisce quindi un ambiente protetto a scopo di test.
 
 Inoltre, quando l’elenco Consentiti è attivo ma vuoto, non viene inviata alcuna e-mail. Pertanto, se riscontri problemi gravi, puoi utilizzare questa funzione per interrompere tutte le comunicazioni in uscita da [!DNL Journey Optimizer] fino a risolvere il problema. Ulteriori informazioni su [logica di elenco Consentiti](#logic).
 
->[!CAUTION]
->
->Questa funzione si applica solo al canale E-mail.
+Inoltre, puoi sfruttare Journey Optimizer **API REST di eliminazione** per controllare i messaggi in uscita utilizzando soppressione e elenchi consentiti. [Scopri come utilizzare l’API REST di soppressione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it)
 
 ## Accedere all’elenco Consentiti {#access-allowed-list}
 
