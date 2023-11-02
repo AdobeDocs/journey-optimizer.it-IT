@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 13%
@@ -37,7 +37,7 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 * Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o derivanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) in percorsi è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-### Configurare l’attività {#configuring-segment-trigger-activity}
+## Configurare l’attività {#configuring-segment-trigger-activity}
 
 I passaggi per configurare l’attività Read Audience sono i seguenti:
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >I percorsi Read audience una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico con lettura pianificata, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
 
-### Test e pubblicazione del percorso {#testing-publishing}
+## Test e pubblicazione del percorso {#testing-publishing}
 
 Il **[!UICONTROL Read Audience]** attività ti consente di testare il percorso su un profilo unitario.
 
