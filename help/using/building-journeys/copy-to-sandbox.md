@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
+source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 6%
@@ -42,7 +42,7 @@ ht-degree: 6%
 
 Gli strumenti sandbox consentono di copiare oggetti in più sandbox sfruttando le funzioni di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
 
-Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, fare riferimento a [Documentazione di Experienci Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, fare riferimento a [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
