@@ -11,7 +11,7 @@ keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 19%
@@ -190,7 +190,7 @@ Assicurati di aver pianificato abbastanza tempo per consentire l’esecuzione di
 >
 >Ogni esecuzione deve essere attivata almeno 12 ore prima dell’ora di invio effettiva. In caso contrario, la segmentazione potrebbe non essere completata.
 
-Quando attivi un’esecuzione, vengono creati automaticamente diversi segmenti.
+Quando attivi un’esecuzione, vengono creati automaticamente diversi tipi di pubblico.
 
 * Se si attiva la prima esecuzione di una fase:
 
