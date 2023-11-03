@@ -12,7 +12,7 @@ exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
 source-wordcount: '1595'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -91,7 +91,7 @@ I possibili motivi di un errore di consegna sono:
 Dalla sezione **[!UICONTROL Elenco di soppressione]** , è inoltre possibile modificare il parametro dei nuovi tentativi associato alle regole di soppressione dal **[!UICONTROL Modificare le regole di soppressione]** pulsante. Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni sui nuovi tentativi](retries.md).
 
 
-## Aggiungere indirizzi e domini all’elenco di soppressione{#add-addresses-and-domains}
+## Aggiungere indirizzi o domini all’elenco di soppressione{#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_header"

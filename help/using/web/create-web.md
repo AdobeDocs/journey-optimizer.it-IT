@@ -9,7 +9,7 @@ exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -79,7 +79,7 @@ Per iniziare a creare la tua esperienza web attraverso una campagna, segui i pas
 
 Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
-## Testare la campagna web {#test-web-campaign}
+## Verificare la campagna web {#test-web-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_preview"

@@ -12,7 +12,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1242'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -47,7 +47,7 @@ I criteri di decisione sono contenitori per le offerte che sfruttano il motore d
 >
 >In [!DNL Journey Optimizer] interfaccia utente, i criteri di decisione sono etichettati come decisioni<!--but they are decision policies. TBC if this note is needed-->.
 
-## Aggiungere un criterio di decisione a una campagna basata su codice {#add-decision}
+## Aggiungere un criterio di decisione a una campagna basata sul codice {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"

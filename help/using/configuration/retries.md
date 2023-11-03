@@ -32,7 +32,7 @@ Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
 Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di errori dell’indirizzo viene reinizializzato.
 
-## Riprova modifica soglia {#edit-retry-threshold}
+## Edizione soglia di ripetizione {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"

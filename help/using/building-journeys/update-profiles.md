@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aggiorna profilo
+title: Aggiornare il profilo
 description: Scopri come utilizzare l’attività Aggiorna profilo in un percorso
 feature: Journeys, Profiles, Activities
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# Aggiorna profilo {#update-profile}
+# Aggiornare il profilo {#update-profile}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"

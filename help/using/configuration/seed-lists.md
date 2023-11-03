@@ -75,7 +75,7 @@ Utilizza il **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 
 È possibile fare clic sul nome di un elenco di seed per modificarlo. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
-## Creare un elenco di seed {#create-seed-list}
+## Creare un elenco seed {#create-seed-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"

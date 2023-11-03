@@ -32,7 +32,7 @@ L’utilizzo dei servizi SMS sarà soggetto a termini e condizioni aggiuntivi da
 >
 >Per accedere e modificare i sottodomini SMS, devi disporre del **[!UICONTROL Gestire i sottodomini SMS]** autorizzazione per la sandbox di produzione.
 
-## Crea nuove credenziali API {#create-api}
+## Creare nuove credenziali API {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

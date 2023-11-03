@@ -9,7 +9,7 @@ exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 
 * [Monitorare le campagne web](monitor-web-campaigns.md)
 
-## Utilizzare il web designer {#work-with-web-designer}
+## Utilizzare web designer {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
@@ -152,7 +152,7 @@ In questa sezione vengono descritti i diversi modi in cui è possibile spostarsi
 
 1. Utilizzando questo elemento è possibile passare facilmente a qualsiasi elemento padre, di pari livello o figlio all’interno dell’editor visivo.
 
-### Passa alla modalità Sfoglia {#browse-mode}
+### Passare alla modalità sfoglia {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"

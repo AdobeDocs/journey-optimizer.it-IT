@@ -10,7 +10,7 @@ exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -35,7 +35,7 @@ Il **[!UICONTROL Formattazione avanzata]** attiva/disattiva opzioni aggiuntive p
 
 Una volta creato il messaggio in-app e definito e personalizzato il relativo contenuto, puoi rivederlo e attivarlo. Le notifiche verranno quindi inviate in base alla pianificazione della campagna. Per ulteriori informazioni, consulta [questa pagina](send-in-app.md).
 
-## Layout dei messaggi {#message-layout}
+## Layout messaggio {#message-layout}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_message_layout"
@@ -70,7 +70,7 @@ Dalla sezione **[!UICONTROL Layout messaggio]** , seleziona una delle quattro op
 
 Dalla sezione **Contenuto** , puoi definire e personalizzare il contenuto della notifica e lo stile della **Chiudi** pulsante. Puoi anche aggiungere un file multimediale alla notifica in-app e i pulsanti di azione da questa scheda.
 
-### Pulsante Chiudi {#close-button}
+### Chiudi pulsante {#close-button}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_close"

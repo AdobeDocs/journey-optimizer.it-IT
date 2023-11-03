@@ -101,7 +101,7 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 
 Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie selezionata, le modifiche verranno applicate alla pagina web o all’app.
 
-## Testare la campagna basata su codice {#test-code-based-campaign}
+## Testare la campagna basata sul codice {#test-code-based-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"

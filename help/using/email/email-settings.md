@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2340'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -250,7 +250,7 @@ Quando la superficie corrente viene utilizzata in una campagna o in un percorso,
 
 Scopri come utilizzare l’elenco di seed in una campagna o in un percorso di [questa sezione](../configuration/seed-lists.md#use-seed-list).
 
-## Parametri per nuovi tentativi e-mail {#email-retry}
+## Parametri di ripetizione delle e-mail {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"

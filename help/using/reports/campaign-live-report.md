@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 39%
+ht-degree: 40%
 
 ---
 
@@ -54,7 +54,7 @@ Il **[!UICONTROL Statistiche campagna]** widget fornisce dettagli sulle informaz
 From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
 -->
 
-## Scheda E-mail {#email-live}
+## Scheda e-mail {#email-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
@@ -141,7 +141,7 @@ Il **[!UICONTROL Motivi di errore]** e **[!UICONTROL Escludi motivi]** grafici e
 Il **[!UICONTROL E-mail - Dominio destinatario migliore]** il grafico e la tabella indicano i domini più utilizzati dai destinatari per aprire l’e-mail.
 +++
 
-## Scheda In-app {#inapp-live}
+## Scheda in-app {#inapp-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
@@ -174,7 +174,7 @@ Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo i
 
 +++
 
-## Scheda Notifica push {#push-live}
+## Scheda notifica push {#push-live}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
@@ -293,7 +293,7 @@ Il **[!UICONTROL Prestazioni SMS per data]** un grafico fornisce dettagli sulle 
 Il **[!UICONTROL Escludi motivi]**, **[!UICONTROL Motivi di mancato recapito]** e **[!UICONTROL Motivi di errore]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante il processo di invio.
 +++
 
-## Scheda Web {#web-tab}
+## Scheda web {#web-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
@@ -325,7 +325,7 @@ Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle esperie
 Il **[!UICONTROL Interazioni per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
 +++
 
-## Scheda Direct mailing {#direct-mail-tab}
+## Scheda direct mail {#direct-mail-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"

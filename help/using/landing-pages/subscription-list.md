@@ -12,13 +12,13 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Elenchi di iscrizioni {#create-subscription-list}
 
-## Che cos’è un elenco di iscrizioni? {#subscription-list-definition}
+## Che cos’è un elenco di abbonamenti? {#subscription-list-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"

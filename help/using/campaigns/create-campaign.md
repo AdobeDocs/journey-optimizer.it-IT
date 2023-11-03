@@ -12,7 +12,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 34%
 
 Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai clic su **[!UICONTROL Crea campagna]**. Puoi anche duplicare una campagna live esistente per crearne una nuova. [Ulteriori informazioni](modify-stop-campaign.md#duplicate)
 
-## Scegli il tipo di campagna e il canale {#campaigntype}
+## Scegliere il tipo di campagna e il canale {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"

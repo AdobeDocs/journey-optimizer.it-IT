@@ -12,7 +12,7 @@ exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 21%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Creare formule di classificazione"
->abstract="Le formule ti consentono di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creato un metodo di classificazione, puoi assegnarlo a una strategia decisionale per definire quali elementi devono essere selezionati per primi."
+>abstract="Le formule consentono di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creato un metodo di classificazione, puoi assegnarlo a una strategia decisionale per definire quali elementi devono essere selezionati per primi."
 
 >[!BEGINSHADEBOX]
 
@@ -44,7 +44,7 @@ I metodi di classificazione consentono di classificare gli elementi da visualizz
 
 I metodi di classificazione sono accessibili dalla sezione **[!UICONTROL Configurazione]** / **[!UICONTROL Metodi di classificazione]** menu. Sono disponibili due tipi di metodi di classificazione:
 
-* **Formule** consente di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento.
+* **Le formule consentono di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento.**
 
 * **Modelli IA** consente di utilizzare sistemi di modelli formati che sfrutteranno più punti dati per determinare quale elemento deve essere presentato per primo.
 

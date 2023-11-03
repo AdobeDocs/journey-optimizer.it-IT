@@ -12,7 +12,7 @@ exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1522'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -119,7 +119,7 @@ Quando si utilizza una [evento di business](../event/about-events.md), utilizza 
 
 Si noti che quando si attiva per la prima volta un evento business, non è possibile modificare la definizione dell&#39;evento business nella stessa sessione di test. È possibile fare in modo che lo stesso individuo o un individuo diverso entri nel percorso passando lo stesso identificatore o un altro identificatore. Se si desidera modificare i parametri degli eventi business, è necessario interrompere e riavviare la modalità di test.
 
-## Visualizza registri {#viewing_logs}
+## Visualizzare i registri {#viewing_logs}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"

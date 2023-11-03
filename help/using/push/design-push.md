@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -43,7 +43,7 @@ Puoi selezionare il comportamento quando un utente fa clic sul corpo della notif
 * Per reindirizzare l’utente a uno specifico contenuto all’interno di un’app, seleziona la **[!UICONTROL Deeplink]** opzione.  Il contenuto specifico può essere una visualizzazione specifica, una sezione particolare di una pagina o una determinata scheda. Una volta selezionata l’opzione, inserisci il collegamento diretto nel campo associato.
 * Per reindirizzare l’utente a un URL esterno, utilizza **[!UICONTROL URL web]** opzione. Una volta selezionata l’opzione, immetti l’URL nel campo associato.
 
-## Aggiungi file multimediali {#add-media-push}
+## Aggiungere file multimediali {#add-media-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-media"
@@ -66,7 +66,7 @@ Sono disponibili due opzioni. Puoi eseguire le seguenti operazioni:
 
 Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del corpo della notifica.
 
-## Aggiungi pulsanti {#add-buttons-push}
+## Aggiungere pulsanti {#add-buttons-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
@@ -87,7 +87,7 @@ Nella versione di iOS, è specificato un identificatore di categoria di notifica
 
    ![](assets/push_buttons.png)
 
-## Inviare una notifica invisibile all’utente {#silent-notification}
+## Inviare una notifica silenziosa {#silent-notification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_push_silent_notification"

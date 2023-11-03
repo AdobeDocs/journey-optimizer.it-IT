@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '1034'
-ht-degree: 7%
+ht-degree: 33%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
 >title="Gestire gli elementi decisionali"
->abstract="Journey Optimizer consente di creare offerte di marketing, note come elementi decisionali, da creare e organizzare in un catalogo e in raccolte centralizzati. Attualmente, tutti gli elementi decisionali creati sono consolidati all’interno di un singolo catalogo &quot;Offerte&quot;. Da questa schermata, puoi anche accedere allo schema del catalogo utilizzando **Modifica schema** e creare attributi personalizzati per gli elementi decisionali."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurare il catalogo degli elementi"
+>abstract="Journey Optimizer consente di creare offerte di marketing, note come elementi decisionali, da creare e organizzare in un catalogo e in raccolte centralizzati. Attualmente, tutti gli elementi decisionali creati sono consolidati all’interno di un singolo catalogo “Offerte”. Da questa schermata, puoi anche accedere allo schema del catalogo utilizzando il pulsante **Modifica schema** e creare attributi personalizzati per gli elementi decisionali."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=it" text="Configurare il catalogo degli elementi"
 
 >[!BEGINSHADEBOX]
 
@@ -45,25 +45,25 @@ Journey Optimizer consente di creare offerte di marketing, note come elementi de
 
 Prima di creare un elemento di decisione, assicurati di aver creato un **regola di decisione** se desideri impostare le condizioni per determinare a chi può essere visualizzato l’elemento decisionale. [Scopri come creare regole di decisione](rules.md).
 
-## Creare il primo elemento di decisione
+## Creare il primo elemento decisionale
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_priority"
 >title="Definire la priorità dell’elemento decisionale"
->abstract="Se un profilo è idoneo per più elementi, la priorità consente di confrontare questo elemento decisionale con altri. Una priorità più alta concede la precedenza dell&#39;elemento rispetto agli altri."
+>abstract="Se un profilo è idoneo per più elementi, la priorità consente di confrontare questo elemento decisionale con altri. Una priorità più alta concede la precedenza di un elemento rispetto agli altri."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="Definire gli attributi personalizzati"
->abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle tue esigenze che puoi assegnare a un elemento decisionale. Vengono create nello schema di catalogo degli elementi decisionali. Questa sezione viene visualizzata solo se hai aggiunto almeno un attributo personalizzato allo schema del catalogo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="Configurare il catalogo degli elementi"
+>abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Vengono creati nello schema del catalogo degli elementi decisionali. Questa sezione viene visualizzata solo se hai aggiunto almeno un attributo personalizzato allo schema del catalogo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=it" text="Configurare il catalogo degli elementi"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"
 >title="Aggiungere tipi di pubblico o regole di decisione"
->abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisione, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Utilizzare i tipi di pubblico"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Utilizzare le regole di decisione"
+>abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=it" text="Utilizzare i tipi di pubblico"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=it" text="Utilizzare le regole di decisione"
 
 Per creare un elemento di decisione, effettua le seguenti operazioni:
 
@@ -73,7 +73,7 @@ Per creare un elemento di decisione, effettua le seguenti operazioni:
 
    1. Immetti un nome e una descrizione.
    1. Specifica le date di inizio e fine. L’elemento verrà preso in considerazione solo dal motore decisionale entro queste date.
-   1. Imposta il **[!UICONTROL Priorità]** dell’elemento decisionale rispetto ad altri, se un profilo è idoneo per più elementi. Una priorità più alta concede la precedenza dell&#39;elemento rispetto agli altri.
+   1. Imposta il **[!UICONTROL Priorità]** dell’elemento decisionale rispetto ad altri, se un profilo è idoneo per più elementi. Una priorità più alta concede la precedenza di un elemento rispetto agli altri.
 
    ![](assets/item-attributes.png)
 
@@ -81,7 +81,7 @@ Per creare un elemento di decisione, effettua le seguenti operazioni:
    >
    >La priorità è un tipo di dati intero. Tutti gli attributi che sono tipi di dati integer devono contenere valori interi (senza decimali).
 
-1. Gli attributi personalizzati sono attributi specifici personalizzati in base alle tue esigenze che puoi assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
+1. Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
 
 1. Una volta definiti gli attributi dell’elemento decisionale, fai clic su **[!UICONTROL Successivo]** per impostare i vincoli di profilo per l&#39;elemento.
 

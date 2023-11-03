@@ -12,7 +12,7 @@ exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1785'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -209,7 +209,7 @@ Per definire le impostazioni delle pagine secondarie, effettuare le seguenti ope
 
 ![](assets/lp_subpage-settings.png)
 
-## Verificare la pagina di destinazione {#test-landing-page}
+## Verifica della pagina di destinazione {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

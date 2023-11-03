@@ -9,7 +9,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
 source-wordcount: '2396'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -131,7 +131,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 
   Ulteriori informazioni sulle regole di decisione in [questa sezione](creating-decision-rules.md).
 
-## Limitazione {#capping}
+## Limiti {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"

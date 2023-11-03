@@ -110,7 +110,7 @@ La definizione del payload consente di scegliere le informazioni che il sistema 
 
    ![](assets/journey12.png)
 
-## Seleziona lo spazio dei nomi {#select-the-namespace}
+## Selezionare lo spazio dei nomi {#select-the-namespace}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_namespace"

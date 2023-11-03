@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
 source-wordcount: '3192'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -118,7 +118,7 @@ L&#39;ultimo widget fornisce dati relativi al **[!UICONTROL Metrica di successo]
 
 Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
 
-## Scheda E-mail {#email-global}
+## Scheda e-mail {#email-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -263,7 +263,7 @@ Il **[!UICONTROL Ottimizzazione del tempo di invio]** Il completamento dell’e-
 
 +++
 
-## Scheda In-app {#inapp-global}
+## Scheda in-app {#inapp-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
@@ -299,7 +299,7 @@ Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo i
 Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression e delle interazioni in-app per il periodo in questione.
 +++
 
-## Scheda Notifica push {#push-global}
+## Scheda notifica push {#push-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
@@ -470,7 +470,7 @@ Il **[!UICONTROL SMS - Clic per collegamenti]** i widget descrivono le informazi
 
 +++
 
-## Scheda Web {#web-tab}
+## Scheda web {#web-tab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
@@ -506,7 +506,7 @@ Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle tue esp
 Il **[!UICONTROL Interazioni per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
 +++
 
-## Scheda Direct mailing {#direct-mail-global}
+## Scheda direct mail {#direct-mail-global}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"

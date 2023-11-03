@@ -12,13 +12,13 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Utilizzare un pubblico in un percorso {#segment-trigger-activity}
 
-## Aggiungere un’attività Read Audience {#about-segment-trigger-actvitiy}
+## Aggiungere un’attività Leggi pubblico {#about-segment-trigger-actvitiy}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"

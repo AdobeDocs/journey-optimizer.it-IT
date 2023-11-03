@@ -12,11 +12,11 @@ exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
-# Passare da un percorso all&#39;altro {#jump}
+# Passaggio da un percorso a un altro {#jump}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_jump"
