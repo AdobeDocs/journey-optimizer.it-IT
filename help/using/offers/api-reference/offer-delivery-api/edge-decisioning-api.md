@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 4%
+source-wordcount: '960'
+ht-degree: 5%
 
 ---
 
@@ -24,10 +24,6 @@ Experienci Platform Web SDK supporta l’esecuzione di query sulle soluzioni di 
 Esistono due modi per implementare la gestione delle decisioni con [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Una modalità è rivolta agli sviluppatori e richiede la conoscenza dei siti web e della programmazione. L’altro modo consiste nell’utilizzare l’interfaccia utente di Adobe Experience Platform per configurare le offerte; a tale scopo è necessario fare riferimento solo a uno script di piccole dimensioni nell’intestazione della pagina HTML.
 
 Consulta la documentazione su [gestione delle decisioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) per ulteriori informazioni su come distribuire offerte personalizzate utilizzando Adobe Experience Platform Web SDK.
-
->[!NOTE]
->
->L’utilizzo della gestione delle decisioni in Adobe Experience Platform Web SDK è disponibile solo per un set di organizzazioni (disponibilità limitata). Se desideri sfruttare questa funzione, contatta il responsabile dell’account Adobe.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
