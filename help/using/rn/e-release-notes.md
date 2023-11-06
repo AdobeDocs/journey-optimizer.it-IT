@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '350'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), abilitando la condivisione di immagini, GIF o video con i clienti. Questa funzione è attualmente disponibile solo in versione beta con Sinch.</p>
+<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono la condivisione di immagini, GIF o video con la clientela. Questa funzione è attualmente disponibile in versione beta solo con Sinch.</p>
 <!--img src="assets/channel-reports.png"/-->
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -86,8 +86,8 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Tipi di pubblico**
 
-* Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV.
-* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi.
+* Ora puoi eseguire il targeting di tipi di pubblico caricati da un file CSV in percorsi e campagne.
+* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei percorsi.
 
 >[!AVAILABILITY]
 >
@@ -105,15 +105,15 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* La durata massima definibile in qualsiasi tempo di attesa è ora di 29 giorni invece di 30. Questo vale per:
+* La durata massima che puoi definire in qualsiasi tempo di attesa è ora di 29 giorni anziché di 30. Ciò si applica:
 
-   * il **Quantità di tempo** campo in [attività attendi](../building-journeys/wait-activity.md)
-   * il **Periodo di attesa per rientro** in [Proprietà percorso](../building-journeys/journey-gs.md#entrance)
-   * il **Attendi** campo nella definizione di timeout di [generale](../building-journeys/general-events.md#events-specific-time) e [reazione](../building-journeys/reaction-events.md) eventi.
+   * al campo **Quantità di tempo** nell’[attività di attesa](../building-journeys/wait-activity.md)
+   * al **Periodo di attesa prima di un reingresso** nelle [Proprietà del percorso](../building-journeys/journey-gs.md#entrance)
+   * nel campo **Attendi** nella definizione di timeout di eventi [generale](../building-journeys/general-events.md#events-specific-time) e di [reazione](../building-journeys/reaction-events.md) .
 
-**Consenso nella configurazione del canale**
+**Consenso nella configurazione dei canali**
 
-* Ora puoi selezionare un’azione di marketing a livello di superficie di canale. Se utilizzati in una superficie, tutti i criteri di consenso associati a tale azione di marketing vengono utilizzati per rispettare le preferenze dei clienti.
+* Ora puoi selezionare un’azione di marketing al livello della superficie di canale. Se utilizzati in una superficie, tutti i criteri di consenso associati a tale azione di marketing vengono usati per rispettare le preferenze della clientela.
 
 **Gestione delle decisioni**
 
