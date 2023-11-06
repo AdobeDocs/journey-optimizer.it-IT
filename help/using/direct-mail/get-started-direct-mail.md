@@ -8,9 +8,9 @@ level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->Per il momento, il canale direct mailing non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+>Per il momento, il canale direct mail non è disponibile per le organizzazioni che hanno acquistato le offerte aggiuntive **Healthcare Shield** e **Privacy and Security Shiled** di Adobe.
 
 Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mailing per inviare e-mail ai clienti.
 
