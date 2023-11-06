@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1698'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Non puoi aggiungere un preheader a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
-## Guardrail SMS {#sms-guardrails}
+## Guardrail di SMS {#sms-guardrails}
 
 * La funzionalità MMS è disponibile solo per Sinch.
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
-* La sincronizzazione del feedback sui messaggi non è attualmente disponibile per MMS.
+* La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
 
 ## Guardrail di percorso {#journeys-guardrails}
@@ -131,9 +131,9 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
 
-## Guardrail di Audiences {#audience}
+## Guardrail dei tipi di pubblico {#audience}
 
-* Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se avete raggiunto questa soglia, dovete eliminare una composizione per liberare spazio e pubblicarne una nuova.
+* Puoi pubblicare fino a 10 composizioni di pubblico in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
 ## Guardrail di gestione delle decisioni {#decision-management}
 
