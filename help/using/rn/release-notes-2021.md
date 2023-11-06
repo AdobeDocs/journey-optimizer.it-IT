@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 <tbody>
 <tr>
 <td>
-<p>Ora puoi personalizzare il contenuto delle offerte utilizzando gli attributi del profilo di Adobe Experience Platform e i tipi di pubblico, utilizzando lo stesso componente editor di espressioni presente nell’interfaccia utente di Journey Optimizer. </p>
+<p>Ora puoi personalizzare il contenuto delle offerte utilizzando gli attributi e i tipi di pubblico del profilo Adobe Experience Platform, tramite lo stesso componente editor di espressioni presente nell’interfaccia utente di Journey Optimizer. </p>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -77,13 +77,13 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti rilasciati ne
 </table>
 
 
-Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=it){target="_blank"} per ulteriori modifiche.
+Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=it){target="_blank"} per ulteriori modifiche.
 
 ### Miglioramenti
 
 **Percorsi**
 
-* **Editor espressioni** - In qualità di utente avanzato, ora puoi utilizzare le funzioni per lavorare con le mappe. Questa funzionalità può essere utilizzata con gli elenchi degli abbonamenti. Ad esempio, da un pubblico, ora puoi ottenere un indirizzo e-mail da un elenco di abbonamenti. [Per ulteriori informazioni, consulta questa pagina](../building-journeys/message-to-subscribers-uc.md)
+* **Editor espressioni** - In qualità di utente avanzato, ora puoi utilizzare le funzioni per lavorare con le mappe. Questa funzionalità può essere utilizzata con gli elenchi degli abbonamenti. Ad esempio, da un pubblico, ora puoi ottenere un indirizzo e-mail da un elenco di iscrizioni. [Per ulteriori informazioni, consulta questa pagina](../building-journeys/message-to-subscribers-uc.md)
 
 * **Monitoraggio** - Sono stati migliorati gli eventi di passaggio per i percorsi live e la modalità di test. [Nuovi campi](../reports/sharing-field-list.md#serviceevents) sono stati aggiunti in relazione ai processi di esportazione del profilo. Per una migliore esperienza utente, i campi evento del passaggio sono ora organizzati in diverse categorie. Tutti i campi degli eventi dei passaggi precedenti sono ancora disponibili nella categoria [stepEvents](../reports/sharing-legacy-fields.md).
 * **Accessibilità** - I miglioramenti all’accessibilità sono stati implementati nei percorsi.
@@ -92,7 +92,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Generazione rapporti**
 
-* **Formato dati nella visualizzazione globale** - È ora possibile alternare tra numeri e percentuali nella **Visualizzazione globale** della scheda **Esecuzione.**
+* **Formato dati nella vista Globale** - Ora è possibile alternare tra numeri e percentuali nella **vista Globale** della scheda **Esecuzione**.
 
 
 **Amministrazione**
@@ -111,8 +111,8 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 ### Correzioni
 
-* È stato risolto un problema che impediva la visualizzazione dell’elenco dei percorsi, dell’elenco dei messaggi e della finestra di progettazione e-mail quando la lingua del browser non era inglese.
-* È stato corretto un errore di sintassi che si verificava quando si aggiungeva la personalizzazione utilizzando un’espressione nella finestra di progettazione e-mail: i caratteri venivano preceduti erroneamente.
+* È stato risolto un problema che impediva la visualizzazione dell’elenco dei percorsi, dell’elenco dei messaggi e dell’E-mail designer quando la lingua del browser non era inglese.
+* È stato corretto un errore di sintassi che si verificava quando si aggiungeva la personalizzazione utilizzando un’espressione nell’E-mail designer: i caratteri venivano preceduti erroneamente.
 * È stato risolto un problema che causava un errore 404 durante la navigazione nel menu **Amministrazione**.
 * È stato risolto un problema che attivava altri percorsi in tempo reale durante il test di un percorso utilizzando un evento aziendale.
 
@@ -184,7 +184,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 <tbody>
 <tr>
 <td>
-<p>Invia automaticamente il messaggio push o e-mail nel momento migliore per ogni cliente con cui hai a che fare, grazie ad Adobe Journey Optimizer. L’ottimizzazione dell’ora di invio, basata sui servizi AI di Adobe, prevede il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic preconfigurate.</p>
+<p>Invia automaticamente il messaggio push o e-mail nel momento migliore per ogni cliente con cui hai a che fare, grazie ad Adobe Journey Optimizer. L’ottimizzazione dell’ora di invio, gestita dai servizi Adobe basati su IA, prevede il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic preconfigurate.</p>
 <p>Al momento questa funzione è disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journeys-message.md#send-time-optimization">documentazione dettagliata</a>.</p>
 </td>
@@ -266,7 +266,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 * **Intestazioni dinamiche** - Ora puoi trasmettere dati dinamici nei parametri di intestazione HTTP. Questi parametri possono essere utilizzati dai sistemi di integrazione che ricevono le chiamate di azione HTTP del percorso, ad esempio la marca temporale o l’ID di tracciamento. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 * **Percorsi URL dinamici** - Ora puoi impostare percorsi URL dinamici per azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
-* Il tasso di limitazione complessivo per i tipi di pubblico di lettura è stato modificato da 17.000 a 20.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* La frequenza di limitazione complessiva per i tipi di pubblico letti è stata modificata da 17.000 a 20.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Interfaccia utente**
 
@@ -280,7 +280,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Personalizzazione**
 
-* **Editor espressioni** - È ora possibile aggiungere facilmente un valore di fallback durante la definizione della personalizzazione: quando il campo di personalizzazione è vuoto per un profilo, viene visualizzato il valore di fallback. [Ulteriori informazioni](../personalization/functions/helpers.md)
+* **Editor di espressioni** - Ora è possibile aggiungere facilmente un valore di fallback durante la definizione di personalizzazione; quando il campo di personalizzazione è vuoto per un profilo, viene visualizzato il valore di fallback. [Ulteriori informazioni](../personalization/functions/helpers.md)
 
 **Configurazione e-mail**
 
@@ -295,7 +295,7 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 * È stato risolto un problema di accessibilità nella navigazione della scheda dei messaggi.
 * È stato risolto un problema di localizzazione nelle etichette di e-mail designer.
-* È stato risolto un problema che si verificava selezionando più nodi in un percorso e facendo clic su &quot;Elimina&quot; nel riquadro delle proprietà.
+* È stato risolto un problema che si verificava quando si selezionavano più nodi in un percorso e quindi si faceva clic su “Elimina” nel riquadro delle proprietà.
 * È stato risolto un problema che impediva l’aggiunta di una nuova intestazione a un’azione utilizzata in un percorso.
 * Ora puoi scoprire il motivo per cui una creazione di un predefinito di messaggio non è riuscita tramite un avviso più esplicito nell’interfaccia utente.
 
@@ -341,16 +341,16 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 
 **Percorsi**
 
-* Il tasso di limitazione complessivo di tutti i tipi di pubblico letti eseguiti contemporaneamente nella stessa sandbox è limitato a 17.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* La frequenza di limitazione complessiva di tutti i tipi di pubblico letti eseguiti contemporaneamente nella stessa sandbox è limitata a 17.000 messaggi al secondo. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Il campo **Durata della cache** è stato rimosso dal riquadro di configurazione dell’origine dati. [Ulteriori informazioni](../datasource/about-data-sources.md)
 * Per le origini dati esterne, ora viene definita automaticamente una regola di limitazione di 15 chiamate al secondo. [Ulteriori informazioni](../configuration/external-systems.md#capping)
 * Per i percorsi live, nella schermata delle proprietà del percorso vengono ora visualizzate la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
 * Nella schermata dell’elenco dei percorsi, è stato aggiunto il filtro del tipo di percorso. [Ulteriori informazioni](../start/user-interface.md#filter-lists)
-* Il **[!UICONTROL Tasso di limitazione]** Il parametro è stato aggiunto nell’attività Read audience. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* Il parametro **[!UICONTROL Frequenza di limitazione]** è stato aggiunto nell’attività Leggi pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Anteprima e test**
 
-* L’identità e lo spazio dei nomi sono ora visibili nel **[!UICONTROL Anteprima]** schermo. [Ulteriori informazioni](../content-management/preview-test.md#preview-your-messages)
+* L’identità e lo spazio dei nomi ora sono visibili nella schermata **[!UICONTROL Anteprima]**. [Ulteriori informazioni](../content-management/preview-test.md#preview-your-messages)
 * Il numero di e-mail di prova per le bozze è ora limitato a 10.
 * I caratteri consentiti per **Prefisso riga oggetto** nelle bozze ora sono limitati. [Ulteriori informazioni](../content-management/preview-test.md#send-proofs)
 
@@ -363,6 +363,6 @@ Vedi anche [Note sulla versione di ottobre di Adobe Experience Platform](https:/
 * È stato risolto un problema che causava la consegna di messaggi duplicati per la consegna di e-mail in batch.
 * Gli eventi vengono ora generati di conseguenza quando l’invio e-mail non viene eseguito una volta terminato il periodo di esecuzione dei nuovi tentativi.
 * È stato risolto un problema a causa del quale le informazioni IP mancavano nella schermata Record PTR.
-* È ora implementata la localizzazione nella barra delle offerte nell’editor di espressioni.
+* È stata implementata la localizzazione nella barra delle offerte nell’editor di espressioni.
 * È stata corretta la spaziatura errata nei popup delle informazioni.
 * È stato risolto un problema in E-mail designer durante il caricamento di un file HTML in cui il foglio di stile interno con proprietà `background-image` non era supportato.
