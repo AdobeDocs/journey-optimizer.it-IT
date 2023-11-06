@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4010'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Ottobre 2023 {#oct-2023}
 
-* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di ottobre 2023 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di ottobre 2023 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * Sono stati aggiunti GIF per illustrare alcune funzionalità chiave, ad esempio: [Modelli di contenuto](../content-management/content-templates.md), [Frammenti](../content-management/fragments.md), [Attributi calcolati](../audience/computed-attributes.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [Tag](../start/search-filter-categorize.md#tags), [Modelli di ottimizzazione della gestione delle decisioni](../offers/ranking/personalized-optimization-model.md), [Campagne attivate da API](../campaigns/api-triggered-campaigns.md)e [Esperimento sui contenuti](../campaigns/content-experiment.md).
 * Il processo di creazione dello schema è stato aggiornato per riflettere gli ultimi aggiornamenti nell’interfaccia utente, con le modifiche in arrivo su Adobe Experience Platform. [Ulteriori informazioni](../audience/creating-test-profiles.md)
 * Sono stati aggiunti i guardrail di gestione delle decisioni nella pagina Guardrail e limitazioni. [Ulteriori informazioni](../start/guardrails.md#decision-management)
-* La sezione Parametri di intestazione è stata aggiornata per riflettere il modo in cui vengono gestite le notifiche fuori sede e le risposte alle richieste di verifica (vengono ricevute il **[!UICONTROL E-mail di errore]**). [Ulteriori informazioni](../email/email-settings.md#email-header)
-* È stata creata una nuova sezione su come visualizzare in anteprima e verificare il contenuto. [Ulteriori informazioni](../content-management/preview-test.md)
-* La pagina Implementa applicazioni a pagina singola è stata spostata nella documentazione Adobe Experience Platform Web SDK. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* La sezione Parametri per intestazione è stata aggiornata per riflettere il modo in cui vengono gestite le notifiche “fuori sede” e le risposte alle richieste di verifica (vengono ricevute nell’**[!UICONTROL e-mail di errore]**). [Ulteriori informazioni](../email/email-settings.md#email-header)
+* È stata creata una nuova sezione su come visualizzare in anteprima e verificare il contenuto creato. [Ulteriori informazioni](../content-management/preview-test.md)
+* La pagina Implementare applicazioni a pagina singola è stata spostata nella documentazione di Adobe Experience Platform Web SDK. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 * La sezione Limitazione è stata aggiornata per riflettere le modifiche dell’etichetta relative al limite delle offerte nell’interfaccia di gestione delle decisioni. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
-* La sezione Aggiungere contenuto dinamico alle e-mail è stata aggiornata con i dettagli su come eliminare una variante. [Ulteriori informazioni](../personalization/dynamic-content.md#emails)
-* È stato aggiornato l’esempio per le configurazioni di limitazione e limite dei massimali. [Ulteriori informazioni](../configuration/external-systems.md)
+* La sezione Aggiungi contenuto dinamico alle e-mail è stata aggiornata con i dettagli su come eliminare una variante. [Ulteriori informazioni](../personalization/dynamic-content.md#emails)
+* È stato aggiornato l’esempio per le configurazioni di limite e limitazione. [Ulteriori informazioni](../configuration/external-systems.md)
 * La limitazione relativa agli array scalari è stata rimossa dalla sezione dell’origine dati esterna. [Ulteriori informazioni](../datasource/external-data-sources.md)
 * È stato aggiornato il caso di utilizzo del percorso multicanale. [Ulteriori informazioni](../building-journeys/journeys-uc.md)
 * Il set di documentazione di Journey Optimizer è stato aggiornato per riflettere il nuovo processo di creazione dello schema di Experience Platform.
@@ -48,7 +48,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * I collegamenti alla documentazione sul controllo degli accessi sono stati aggiornati. [Ulteriori informazioni](../administration/permissions.md)
 * I prerequisiti del canale in-app sono stati aggiornati con i dettagli della Raccolta dati di Adobe Experience Platform. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * Alcune espressioni presentate negli esempi di formule di classificazione sono state aggiornate per evitare errori di convalida. [Ulteriori informazioni](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* È stato aggiunto un avviso alla sezione Definisci ambiti decisionali per specificare che, se il modello di IA viene utilizzato in un gruppo di criteri di valutazione, tutti i criteri di valutazione in tale gruppo devono utilizzare il metodo di classificazione di IA, con lo stesso modello di IA specifico. Inoltre, solo un gruppo di criteri di valutazione può utilizzare il modello di IA. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* È stata aggiunta un’avvertenza alla sezione Definire gli ambiti decisionali per specificare che, se il modello di intelligenza artificiale viene utilizzato in un gruppo di criteri di valutazione, tutti i criteri di valutazione di quel gruppo devono utilizzare il metodo di classificazione IA, con lo stesso modello di IA specifico. Inoltre, solo un gruppo di criteri di valutazione può utilizzare il modello di IA. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Agosto 2023 {#august-2023}
 
