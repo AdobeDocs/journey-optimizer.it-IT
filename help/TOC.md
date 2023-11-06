@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -205,12 +205,12 @@ ht-degree: 96%
    + [Prerequisiti per il canale in-app](using/in-app/inapp-configuration.md)
    + [Creare un messaggio in-app](using/in-app/create-in-app.md)
    + [Creare contenuto in-app](using/in-app/design-in-app.md)
-   + [Verifica e invia la notifica in-app](using/in-app/send-in-app.md)
+   + [Verifica e invio della notifica in-app](using/in-app/send-in-app.md)
 + Canale di notifica push{#push}
    + [Introduzione alle notifiche push](using/push/get-started-push.md)
    + [Creare una notifica push](using/push/create-push.md)
    + [Progettare una notifica push](using/push/design-push.md)
-   + [Controllare e inviare la notifica push](using/push/send-push.md)
+   + [Verificare e inviare la notifica push](using/push/send-push.md)
    + Configurare le notifiche push{#push-config}
       + [Flusso di notifica push](using/push/push-gs.md)
       + [Configurare il canale di notifica push](using/push/push-configuration.md)
@@ -219,14 +219,14 @@ ht-degree: 96%
    + [Introduzione agli SMS](using/sms/get-started-sms.md)
    + [Creare un messaggio SMS](using/sms/create-sms.md)
    + [Creare un messaggio MMS](using/sms/create-mms.md)
-   + [Controllare e inviare l’SMS](using/sms/send-sms.md)
+   + [Verificare e inviare il messaggio SMS](using/sms/send-sms.md)
    + [Gestire la rinuncia agli SMS](using/sms/sms-opt-out.md)
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
    + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)
-   + [Controllare e inviare un messaggio di direct mailing](using/direct-mail/test-send-direct-mail.md)
+   + [Controllare e inviare un messaggio direct mail](using/direct-mail/test-send-direct-mail.md)
    + [Configurare direct mail](using/direct-mail/direct-mail-configuration.md)
 + Canale Web {#web}
    + [Introduzione al canale Web](using/web/get-started-web.md)
@@ -264,8 +264,8 @@ ht-degree: 96%
       + [Generazione di immagini](using/content-management/generative-image.md)
    + Utilizzare il contenuto multilingue{#content-multilingual}
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
-      + [Creare contenuti multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
-      + [Creazione di contenuti multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
+      + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
+      + [Creare contenuto multilingue con traduzione automatica](using/content-management/multilingual-automated.md)
       + [Rapporto campagna multilingue](using/content-management/multilingual-report.md)
    + Risorse/Immagini {#assets-images}
       + [Utilizzare Assets Essentials](using/content-management/assets-essentials.md)
@@ -301,13 +301,13 @@ ht-degree: 96%
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
       + [Creare regole condizionali](using/personalization/create-conditions.md)
       + [Creare contenuti dinamici](using/personalization/dynamic-content.md)
-   + Anteprima e verifica dei contenuti {#preview-test}
-      + [Introduzione a anteprima e test](using/content-management/preview-test.md)
+   + Anteprima e test del contenuto {#preview-test}
+      + [Introduzione ad anteprima e test](using/content-management/preview-test.md)
       + [Selezionare i profili di test](using/content-management/test-profiles.md)
       + [Anteprima del contenuto](using/content-management/preview.md)
       + [Inviare bozze e-mail](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
-      + [Usa rapporto spam](using/content-management/spam-report.md)
+      + [Usare il rapporto spam](using/content-management/spam-report.md)
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
