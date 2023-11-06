@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ I vantaggi includono:
 
 >[!NOTE]
 >
->Se sei un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} utente che sfrutta **Offer decisioning** tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche all&#39;utente.
+>Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} che sfruttano il servizio applicativo **Offer Decisioning**.
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
