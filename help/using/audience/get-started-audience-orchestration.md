@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Al termine, i **tipi di pubblico risultanti** vengono salvati e conservati in Ad
 
 >[!IMPORTANT]
 >
->Per il momento, l’utilizzo in percorsi dei tipi di pubblico derivanti dai flussi di lavoro di composizione è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Per il momento, l’utilizzo di tipi di pubblico derivanti da flussi di lavoro di composizione in percorsi è disponibile come versione Private Beta. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 >Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne di Journey Optimizer.
 
