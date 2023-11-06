@@ -8,9 +8,9 @@ level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
 source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni 
 
 >[!AVAILABILITY]
 >
->Per il momento, il canale in-app non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+>Per il momento, il canale in-app non è disponibile per le organizzazioni che hanno acquistato le offerte aggiuntive **Healthcare Shield** e **Privacy and Security Shield** di Adobe.
 
 ## Prerequisiti{#prerequisites-in-app}
 
