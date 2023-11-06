@@ -11,7 +11,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
 source-wordcount: '4527'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), abilitando la condivisione di immagini, GIF o video con i clienti. Questa funzione è attualmente disponibile solo con Sinch.</p>
+<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono la condivisione di immagini, GIF o video con la clientela. Questa funzione è attualmente disponibile solo con Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../sms/create-sms.md#sms-content">documentazione dettagliata</a>.</p>
 </tr>
@@ -92,8 +92,8 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Tipi di pubblico**
 
-* Ora puoi indirizzare a percorsi e campagne i tipi di pubblico caricati da un file CSV. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
-* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei Percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* Ora puoi eseguire il targeting di tipi di pubblico caricati da un file CSV in percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Ora puoi eseguire il targeting dei tipi di pubblico creati tramite la composizione del pubblico e sfruttare gli attributi di arricchimento nei percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* La durata massima definibile in qualsiasi tempo di attesa è ora di 29 giorni invece di 30. Questo miglioramento è stato introdotto per evitare che le durate di attesa superino la durata di 30 percorsi. Questo vale per:
+* La durata massima che puoi definire in qualsiasi tempo di attesa è ora di 29 giorni anziché di 30. Questo miglioramento è stato introdotto per evitare che le durate di attesa superino la durata del percorso di 30 giorni. Ciò si applica:
 
-   * il **Quantità di tempo** campo in [attività attendi](../building-journeys/wait-activity.md)
-   * il **Periodo di attesa per rientro** in [Proprietà percorso](../building-journeys/journey-gs.md#entrance)
-   * il **Attendi** campo nella definizione di timeout di [attività evento](../building-journeys/general-events.md#events-specific-time).
+   * al campo **Quantità di tempo** nell’[attività di attesa](../building-journeys/wait-activity.md)
+   * al **Periodo di attesa per rientro** nelle [Proprietà del percorso](../building-journeys/journey-gs.md#entrance)
+   * il campo **Attendi** nella definizione di timeout delle [attività evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
