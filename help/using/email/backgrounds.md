@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: sfondo, e-mail, colore, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
   ![](assets/background_2.png)
 
-* Imposta un colore di sfondo diverso per ciascun componente della struttura. Selezionare una struttura nell&#39;albero di navigazione accessibile dalla tavolozza a sinistra per applicare un colore di sfondo specifico solo a tale struttura.
+* Imposta un colore di sfondo diverso per ciascun componente della struttura. Per applicare un colore di sfondo specifico a una sola struttura, selezionala nella struttura di navigazione nella palette a sinistra.
 
   Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
 
@@ -49,7 +49,7 @@ Di seguito sono riportate le impostazioni di sfondo disponibili.
 
   >[!NOTE]
   >
-  >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, verrà utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
+  >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
 
   ![](assets/background_4.png)
 
