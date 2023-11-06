@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Aggiungere una preintestazione in Journey Optimizer
-description: Progettare il contenuto delle e-mail
+description: Scopri come progettare il contenuto delle e-mail
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
-keywords: preheader, editor, summary, email
+keywords: preintestazione, editor, riepilogo, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Per definire la preintestazione dell’e-mail, segui la procedura seguente:
 
    ![](assets/preheader_body.png)
 
-1. Dalla sezione **[!UICONTROL Impostazioni]** , fai clic sull’icona di personalizzazione accanto alla scheda **[!UICONTROL Preheader]** per aggiungere contenuto.
+1. Dalla scheda **[!UICONTROL Impostazioni]**, fai clic sull’icona di personalizzazione accanto al campo **[!UICONTROL Preintestazione]** per aggiungere contenuti.
 
    ![](assets/preheader_body_settings.png)
 
