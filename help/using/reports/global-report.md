@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,12 @@ Ogni dashboard di reporting può essere modificato modificando il periodo di tem
 1. Dal rapporto globale, seleziona un’ora di inizio e di fine per eseguire il targeting di dati specifici.
 
    ![](assets/report_modify_1.png)
+
+1. Per i rapporti di Percorso che coinvolgono più rapporti configurati **[!UICONTROL Azioni]**, scegli un **[!UICONTROL Azione]** dal menu a discesa.
+
+1. Se desideri eseguire il targeting solo di uno o più messaggi ricorrenti, selezionali dall’ **[!UICONTROL Tempo di esecuzione]** a discesa.
+
+   ![](assets/report_modify_12.png)
 
 1. Scegliere se si desidera escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 

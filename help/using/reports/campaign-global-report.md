@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '3192'
-ht-degree: 29%
+source-wordcount: '3357'
+ht-degree: 27%
 
 ---
 
@@ -173,6 +173,8 @@ Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL E-mail]** Que
 
 Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo della tua e-mail:
 
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’e-mail ricorrente. Per eseguire il targeting di una o più e-mail ricorrenti, selezionala dall’opzione **[!UICONTROL Tempo di esecuzione]** a discesa.
+
 * **[!UICONTROL Target]**: numero totale di messaggi elaborati durante il processo di invio.
 
 * **[!UICONTROL Inviato]**: numero totale di invii per e-mail.
@@ -194,6 +196,8 @@ Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo 
 * **[!UICONTROL Escluso]**: numero di profili che sono stati esclusi da Adobe Journey Optimizer.
 
 Il **[!UICONTROL E-mail - Statistiche di tracciamento]** il widget contiene i dati disponibili per l’attività profilo per l’e-mail:
+
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’e-mail ricorrente. Per eseguire il targeting di una o più e-mail ricorrenti, selezionala dall’opzione **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui l’e-mail è stata aperta.
 
@@ -243,7 +247,7 @@ Il **[!UICONTROL E-mail - Dominio destinatario principale]** il grafico e la tab
 >
 > Il **[!UICONTROL E-mail - Dominio destinatario principale]** widget ha una percentuale di precisione del 99,95%.
 
-Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
+Il **[!UICONTROL E-mail - Ottimizzata e normale]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
@@ -251,7 +255,7 @@ Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informa
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
 
-Il **[!UICONTROL Ottimizzazione del tempo di invio]** Il completamento dell’e-mail dipende dal metodo di invio: ottimizzato o normale.
+Il **[!UICONTROL E-mail - Ottimizzazione dell’ora di invio]** Il completamento dell’e-mail dipende dal metodo di invio: ottimizzato o normale.
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -337,7 +341,9 @@ Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica push
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto push.
 
-Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le informazioni principali relative alle notifiche push
+Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le informazioni principali relative alle notifiche push:
+
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Target]**: numero totale di messaggi elaborati durante l’analisi.
 
@@ -358,6 +364,8 @@ Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le 
 * **[!UICONTROL Escluso]**: numero di profili che sono stati esclusi da Adobe Journey Optimizer.
 
 Il **[!UICONTROL Push - Statistiche di tracciamento]** contiene i dati disponibili per l’attività profilo per la notifica push:
+
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
@@ -446,6 +454,8 @@ Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL SMS]** Questa
 
 Il **[!UICONTROL SMS - Statistiche di invio]** la tabella descrive il completamento del messaggio SMS:
 
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del messaggio SMS ricorrente. Per eseguire il targeting solo di uno o più messaggi SMS ricorrenti, selezionalo dal **[!UICONTROL Tempo di esecuzione]** a discesa.
+
 * **[!UICONTROL Target]**: numero di profili utente qualificati come profili target.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
@@ -530,6 +540,8 @@ Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Direct mail]*
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto Direct mail.
 
 Il **[!UICONTROL Direct mailing - Statistiche di invio]** la tabella descrive il successo della direct mailing:
+
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della direct mailing ricorrente. Per eseguire il targeting solo di una o più direct mailing ricorrenti, selezionarle dall&#39; **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Target]**: numero di profili utente qualificati come profili target per questa direct mailing.
 

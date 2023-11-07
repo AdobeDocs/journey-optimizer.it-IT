@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 9%
+source-wordcount: '1100'
+ht-degree: 8%
 
 ---
 
@@ -89,6 +89,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   <tr> 
    <td> Frequenza errori<br/> </td> 
    <td> Percentuale di errori che si sono verificati durante una consegna che ne ha impedito l’invio rispetto alle e-mail inviate.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> Motivo dell’errore<br/> </td> 
+   <td> Nome della causa originale specifica dell’errore. <a href="error-list.md">Ulteriori informazioni sui motivi di errore</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Escluso<br/> </td> 
@@ -332,7 +337,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   <tr> 
    <td> Frequenza errori<br/> </td> 
    <td> Percentuale di errori che si sono verificati durante una consegna che ne ha impedito l’invio rispetto alle notifiche push inviate.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Motivo dell’errore<br/> </td> 
+   <td> Nome della causa originale specifica dell’errore. <a href="error-list.md">Ulteriori informazioni sui motivi di errore</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Escluso<br/> </td> 
    <td> Numero di profili esclusi da Adobe Journey Optimizer.<br/> </td> 
@@ -356,7 +365,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </tbody> 
 </table>
 
-### Metriche della pagina di destinazione {#landing-page-metrics}
+## Metriche della pagina di destinazione {#landing-page-metrics}
 
 <table> 
  <thead> 
