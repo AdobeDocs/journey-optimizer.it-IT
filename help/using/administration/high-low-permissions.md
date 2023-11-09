@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorizzazione, alto livello, basso livello, profilo, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 ## Risorsa configurazioni canale {#administration-permissions}
 
-* **[!DNL Manage channel surface]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare superfici di canale tra canali diversi a livello di sandbox.
-
-+++ Include le seguenti autorizzazioni di basso livello:
-
-   * Specifico di Journey Optimizer:
-      * messages_preets.read
-      * messages_preets.write
-      * messages_preets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
-      * mobile_setting.read (da Adobe Experience Platform Launch)
-
-+++
-
 * **[!DNL Manage IP pools]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare la definizione di affinità.
 
 +++ Include le seguenti autorizzazioni di basso livello:
@@ -341,7 +327,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare il branding dei contenuti.
+* **[!DNL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare superfici di canale tra canali diversi a livello di sandbox.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -353,7 +339,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
       * IP_pools.read
 
    * Specifico per raccolta dati:
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage subdomains delegation]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare deleghe di sottodomini (incluso il pool IP).
+* **[!DNL Manage subdomains delegations]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare deleghe di sottodomini (incluso il pool IP).
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:

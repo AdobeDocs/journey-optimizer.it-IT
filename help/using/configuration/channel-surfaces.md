@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Con [!DNL Journey Optimizer], puoi impostare le superfici di canale (ad esempio 
 
 >[!CAUTION]
 >
-> * Per creare, modificare ed eliminare superfici di canale, è necessario disporre del [Gestisci superficie di canale](../administration/high-low-permissions.md#manage-channel-surface) autorizzazione.
+> * Per creare, modificare ed eliminare superfici di canale, è necessario disporre del [Gestire i predefiniti per messaggi](../administration/high-low-permissions.md#administration-permissions) autorizzazione.
 >
 > * È necessario eseguire la [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md) e [Configurazione SMS](../sms/sms-configuration.md) passi prima di creare superfici di canale.
 
@@ -47,7 +47,7 @@ Una volta configurate le superfici di canale, potrai selezionarle durante la cre
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Impostazioni della superficie del canale"
->abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una superficie del canale in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare le superfici del canale, devi disporre dell’autorizzazione Gestisci superficie canale."
+>abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una superficie del canale in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare superfici di canale è necessario disporre dell&#39;autorizzazione Gestione predefiniti messaggi."
 
 Per creare una superficie di canale, effettuate le seguenti operazioni:
 
