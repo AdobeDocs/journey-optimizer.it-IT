@@ -224,13 +224,13 @@ Ogni dominio ora viene visualizzato in una colonna diversa sulla stessa riga.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
->title="Specificare il piano di riscaldamento IP"
->abstract="Scarica il modello CSV e compilalo con i dati per le fasi di riscaldamento IP e il numero di profili di destinazione."
+>title="Specificare il piano di preparazione IP"
+>abstract="Scarica il modello CSV e compilalo con i dati per le fasi di preparazione IP e il numero di profili di destinazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
 >title="Selezionare una superficie marketing"
->abstract="Seleziona la stessa superficie di quella selezionata nella campagna da associare al piano di riscaldamento IP."
+>abstract="Seleziona la stessa superficie di quella selezionata nella campagna da associare al piano di preparazione IP."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Impostare le superfici di canale"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html?lang=it" text="Creare campagne di preparazione IP"
 
