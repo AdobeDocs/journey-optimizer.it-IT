@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 523c0cf8dd32eb9a1d2616258a7f5a142fd3499c
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 17%
+source-wordcount: '2394'
+ht-degree: 18%
 
 ---
 
@@ -84,7 +84,7 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL E-mail]** L
 
 Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo della consegna:
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’e-mail ricorrente nel percorso. Per eseguire il targeting di una o più e-mail ricorrenti, selezionala dall’opzione **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del percorso in caso di percorsi ricorrenti. Per eseguire il targeting di una o più ricorrenze, selezionatela dal **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Target]**: numero di profili target per qualsiasi azione, ad esempio invio di e-mail o SMS.
 
@@ -198,7 +198,7 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica pu
 
 Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le informazioni principali relative alle notifiche push con grafico e KPI:
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente nel percorso. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del percorso in caso di percorsi ricorrenti. Per eseguire il targeting di una o più ricorrenze, selezionatela dal **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Target]**: numero di profili target per qualsiasi azione, ad esempio invio di e-mail o SMS.
 
@@ -218,7 +218,7 @@ Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le 
 
 Il **[!UICONTROL Push - Statistiche di tracciamento]** contiene i dati disponibili per l’attività del destinatario per la consegna:
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente nel percorso. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del percorso in caso di percorsi ricorrenti. Per eseguire il targeting di una o più ricorrenze, selezionatela dal **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto in una consegna.
 
@@ -274,7 +274,7 @@ L’SMS **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descri
 
 Il **[!UICONTROL SMS - Statistiche di invio]** la tabella descrive il successo della consegna:
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del messaggio SMS ricorrente nel percorso. Per eseguire il targeting solo di uno o più messaggi SMS ricorrenti, selezionalo dal **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del percorso in caso di percorsi ricorrenti. Per eseguire il targeting di una o più ricorrenze, selezionatela dal **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Target]**: numero di profili utente qualificati come profili target per questa consegna.
 
