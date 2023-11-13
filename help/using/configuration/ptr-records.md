@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '773'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,7 @@ Una volta [delegare](delegate-subdomain.md) il primo sottodominio da Adobe in [!
 
 ![](assets/ptr-records.png)
 
-L’elenco mostra i record PTR generati per ogni sottodominio delegato, utilizzando la sintassi seguente:
+L&#39;elenco mostra i record PTR generati utilizzando la sintassi seguente:
 
 * &quot;r&quot; per la registrazione,
 * &quot;xx&quot; per le ultime due cifre dell’indirizzo IP,
