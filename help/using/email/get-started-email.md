@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 92%
 
 ---
 
@@ -27,19 +27,14 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 È possibile creare le consegne e-mail:
 
-* In un **percorso**: dopo aver aggiunto un’attività **[!UICONTROL e-mail]** al percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL Azioni: e-mail]** per creare il contenuto del messaggio.
+* In un **percorso**: dopo aver aggiunto un’attività **[!UICONTROL e-mail]** al percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL Azioni: e-mail]** per creare il contenuto del messaggio. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-  Per ulteriori informazioni sulla modalità di configurazione di un percorso, consulta a questa [pagina](../building-journeys/journey-gs.md).
-
-* In una **campagna**: dopo aver creato una campagna, seleziona **[!UICONTROL e-mail]** come azione e definisci le impostazioni di base.
-
-  Per ulteriori informazioni sulla modalità di configurazione di una campagna, consulta questa [pagina](../campaigns/create-campaign.md#configure).
+* In una **campagna**: dopo aver creato una campagna, seleziona **[!UICONTROL e-mail]** come azione e definisci le impostazioni di base. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
 >
 >Se è la prima volta che crei un’e-mail, assicurati che il canale e-mail sia stato configurato. [Ulteriori informazioni](email-settings.md)
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

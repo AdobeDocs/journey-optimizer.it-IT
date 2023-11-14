@@ -1,5 +1,5 @@
 ---
-title: Verifica e invia la notifica in-app
+title: Verifica e invio della notifica in-app
 description: Scopri come controllare e inviare un messaggio in-app in Journey Optimizer
 feature: In App
 topic: Content Management
@@ -7,14 +7,14 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 13%
+source-wordcount: '362'
+ht-degree: 19%
 
 ---
 
-# Verifica e invia la notifica in-app {#create-in-app}
+# Verifica e invio della notifica in-app {#create-in-app}
 
 ## Anteprima su dispositivo {#preview-device}
 
@@ -35,6 +35,14 @@ Per farlo, segui la procedura indicata di seguito:
 1. Analizzare il codice QR con il dispositivo e immettere il codice PIN visualizzato.
 
 Ora il messaggio in-app può essere attivato direttamente sul dispositivo, consentendoti di visualizzare l’anteprima e rivedere il messaggio su un dispositivo effettivo.
+
+## Anteprima con profili di test {#simulate}
+
+Una volta definito il messaggio in-app, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test per controllare il messaggio utilizzando i dati del profilo di test.
+
+Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
 
 ## Rivedere e attivare la notifica in-app{#in-app-review}
 
