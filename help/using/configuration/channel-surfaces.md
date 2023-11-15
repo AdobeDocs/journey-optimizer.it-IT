@@ -47,7 +47,7 @@ Una volta configurate le superfici di canale, potrai selezionarle durante la cre
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Impostazioni della superficie del canale"
->abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una superficie del canale in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare superfici di canale è necessario disporre dell&#39;autorizzazione Gestione predefiniti messaggi."
+>abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una superficie del canale in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare le superfici del canale, devi disporre dell’autorizzazione Gestisci predefiniti messaggi."
 
 Per creare una superficie di canale, effettuate le seguenti operazioni:
 
