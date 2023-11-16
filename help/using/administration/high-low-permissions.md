@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: autorizzazione, alto livello, basso livello, profilo, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -288,6 +288,17 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 ## Risorsa configurazioni canale {#administration-permissions}
 
+* **[!DNL Manage file routing]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare configurazioni di indirizzamento dei file.
+
++++ Include le seguenti autorizzazioni di basso livello:
+   * Specifico di Journey Optimizer:
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * **[!DNL Manage IP pools]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare la definizione di affinità.
 
 +++ Include le seguenti autorizzazioni di basso livello:
@@ -399,13 +410,12 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
+* **[!DNL View file routing]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le configurazioni di indirizzamento dei file.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
       * Mobile_setting.read
 
 +++
+
+* **[!DNL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
+
++++ Include le seguenti autorizzazioni di basso livello:
+   * Specifico di Journey Optimizer:
+
+      * PTR_records.read
+      * subdomains_delegation.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
