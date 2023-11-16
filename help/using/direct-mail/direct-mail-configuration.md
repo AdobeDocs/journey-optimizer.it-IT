@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '929'
 ht-degree: 32%
 
 ---
@@ -24,11 +24,11 @@ Prima di poter generare questo file, devi creare:
 
 1. A [configurazione di indirizzamento dei file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografarlo, se necessario.
 
-1. A [superficie direct mail](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file.
+   >[!CAUTION]
+   >
+   >Per creare una configurazione di indirizzamento dei file, è necessario disporre del **[!DNL Manage file routing]** autorizzazione incorporata. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing.
+1. A [superficie direct mail](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing.
 
 ## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
@@ -121,7 +121,7 @@ Essere in grado di consegnare direct mailing con [!DNL Journey Optimizer], è ne
 
 Una superficie di direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
 
-1. Create una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+1. Creare una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 1. Seleziona la **[!UICONTROL Direct mail]** canale.
 
