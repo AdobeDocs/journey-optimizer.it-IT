@@ -11,10 +11,10 @@ keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 11%
+source-wordcount: '1275'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,43 @@ Cosa troverai in questa documentazione:
 
 Una volta creati uno o più [Campagne di riscaldamento IP](ip-warmup-campaign.md) con una superficie dedicata e l’opzione corrispondente abilitata, puoi iniziare a creare il piano di riscaldamento IP.
 
->[!CAUTION]
->
->Per accedere, creare, modificare ed eliminare i piani di riscaldamento IP, è necessario disporre del **[!UICONTROL Consulente per il recapito messaggi]** autorizzazione. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+Per accedere, creare, modificare ed eliminare i piani di riscaldamento IP, è necessario disporre del **[!UICONTROL Consulente per il recapito messaggi]** autorizzazioni relative a ruoli o piani di riscaldamento IP.
+
++++Scopri come assegnare il ruolo di Consulente del recapito messaggi o le autorizzazioni relative ai piani di riscaldamento IP
+
+Per assegnare l&#39;autorizzazione corrispondente a un **[!UICONTROL Ruolo]**:
+
+1. Dalla sezione [!DNL Permissions] prodotto, passare alla **[!UICONTROL Ruoli]** e selezionare il ruolo che si desidera aggiornare con il nuovo **[!UICONTROL Configurazioni di riscaldamento IP]** autorizzazioni.
+
+1. Dal tuo **[!UICONTROL Ruolo]** dashboard, fai clic su **[!UICONTROL Modifica]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. Trascina la **[!UICONTROL Configurazioni di riscaldamento IP]** risorsa per assegnare le autorizzazioni.
+
+1. Dalla sezione **[!UICONTROL Configurazioni di riscaldamento IP]** elenco a discesa delle risorse, seleziona le autorizzazioni necessarie per l’utente.
+
+   ![](assets/ip_permissions_2.png)
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+Per assegnare il ruolo corrispondente a un **[!UICONTROL Utente]**:
+
+1. Dalla sezione [!DNL Permissions] prodotto, passare alla **[!UICONTROL Ruoli]** e selezionare il **[!UICONTROL Consulente per il recapito messaggi]** ruolo predefinito.
+
+1. Dal tuo **[!UICONTROL Ruolo]** , accedere al **[!UICONTROL Utenti]** scheda.
+
+   ![](assets/ip_permissions_3.png)
+
+1. Clic **[!UICONTROL Aggiungi utente]** per assegnare **[!UICONTROL Consulente per il recapito messaggi]** ruolo predefinito.
+
+   ![](assets/ip_permissions_4.png)
+
+1. Seleziona il **[!UICONTROL Utente]** e fai clic su **[!UICONTROL Salva]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## Preparare il file del piano di riscaldamento IP {#prepare-file}
 
@@ -264,5 +298,9 @@ Per creare un piano di riscaldamento IP, attenersi alla procedura descritta di s
 1. Fai clic su **[!UICONTROL Crea]**. Tutte le fasi, le esecuzioni, le colonne e il relativo contenuto definito nel file caricato vengono visualizzati automaticamente nel [!DNL Journey Optimizer] di rete.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >Il **[!UICONTROL Target]** mostra la somma di tutti i profili target per ogni esecuzione, ovvero tutti i profili di ciascun gruppo di dominio definito, inclusi **Altro** colonna, se presente.
 
 Ora puoi eseguire il piano di riscaldamento IP. [Ulteriori informazioni](ip-warmup-execution.md)
