@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 98%
+source-wordcount: '1730'
+ht-degree: 97%
 
 ---
 
@@ -46,6 +46,11 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
+
+## Guardrail frammenti {#fragments-guardrails}
+
+* I frammenti visivi sono disponibili solo per il canale e-mail.
+* I frammenti di espressione non sono disponibili per i canali Web e in-app.
 
 ## Guardrail di percorso {#journeys-guardrails}
 
