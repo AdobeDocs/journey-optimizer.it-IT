@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
+source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
 workflow-type: tm+mt
 source-wordcount: '1730'
 ht-degree: 97%
@@ -78,7 +78,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 ### Azioni personalizzate {#custom-actions-g}
 
-* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e sandbox. Consulta [questa pagina](../building-journeys/about-journey-activities.md#action-activities). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
+* Per tutte le azioni personalizzate, viene definito un limite massimo di 300.000 chiamate in un minuto per host e sandbox. Consulta [questa pagina](../action/about-custom-action-configuration.md). Questo limite è stato impostato in base all’utilizzo da parte della clientela, per proteggere gli endpoint esterni interessati dalle azioni personalizzate. Devi tenerne conto nei percorsi basati sul pubblico definendo una velocità di lettura appropriata (5000 profili al secondo quando vengono utilizzate le azioni personalizzate). Se necessario, puoi ignorare questa impostazione definendo un limite di limitazione di utilizzo o di limitazione maggiore tramite le rispettive API. Consulta [questa pagina](../configuration/external-systems.md).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”
