@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4103'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 ## Novembre 2023 {#nov-2023}
 
-* Il guardrail che limita tutte le azioni personalizzate è stato modificato da 150.000 chiamate in 30 secondi a 300.000 chiamate in un minuto. Inoltre, il limite predefinito non si applica più a ciascun endpoint. Ora viene eseguito per host e per sandbox. Ad esempio, in una sandbox, se hai due endpoint con lo stesso host (ad esempio: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), il limite verrà applicato a tutti gli endpoint nell’host adobe.com. &quot;endpoint1&quot; ed &quot;endpoint2&quot; condivideranno la stessa configurazione di limitazione e il fatto che un endpoint raggiunga il limite avrà un impatto sull’altro endpoint. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
+* Il guardrail che limita tutte le azioni personalizzate è stato cambiato da 150.000 chiamate in 30 secondi a 300.000 chiamate in un minuto. Inoltre, il limite predefinito non viene più applicato a ciascun endpoint. Ora viene eseguito per host e per sandbox. Ad esempio, se in una sandbox hai due endpoint con lo stesso host (ad esempio: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), il limite verrà applicato a tutti gli endpoint nell’host adobe.com. “endpoint1” ed “endpoint2” condivideranno entrambi la stessa configurazione di limitazione; se un endpoint raggiunge il limite, questo avrà un impatto anche sull’altro endpoint. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 
 ## Ottobre 2023 {#oct-2023}
 
