@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '933'
 ht-degree: 57%
 
 ---
@@ -111,7 +111,7 @@ Di conseguenza, per prestazioni ottimali di segmentazione in streaming, evita di
 
 * **Messaggio inviato** Evento stato feedback
 
-  Il **Messaggio inviato** l’evento di feedback viene spesso utilizzato per il controllo della frequenza o dell’eliminazione prima dell’invio di un’e-mail. L’Adobe consiglia di evitarlo, se possibile, in quanto occupa spazio nell’attuale capacità complessiva del numero di eventi che possono essere trasmessi al secondo.
+  Il **Messaggio inviato** l’evento di feedback viene spesso utilizzato per il controllo della frequenza o dell’eliminazione prima dell’invio di un’e-mail. L&#39;Adobe consiglia di evitarlo in quanto mette pressione sulle prestazioni e può causare il degrado del sistema.
 
   Pertanto, per la logica di frequenza o eliminazione, utilizza le regole di business anziché **Messaggio inviato** eventi di feedback. Si noti che presto saranno disponibili limiti di frequenza giornalieri per i singoli profili, a complemento della frequenza mensile esistente per le regole aziendali.
 
