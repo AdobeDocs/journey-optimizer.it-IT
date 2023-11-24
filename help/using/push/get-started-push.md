@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Le notifiche push ti aiutano a raggiungere gli utenti dell’app mobile in quals
 
 Puoi creare le notifiche push:
 
-* In un **percorso**: dopo aver aggiunto un’attività push nel percorso e definito le impostazioni di base, utilizza il riquadro a destra **[!UICONTROL azioni: push]** per creare il contenuto per le notifiche push. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
+* In un **percorso**: dopo aver aggiunto un’attività push nel percorso e definito le impostazioni di base, utilizza il riquadro **[!UICONTROL Azioni: push]** a destra per creare il contenuto per le notifiche push. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-* In una **campagna**: dopo aver creato una campagna, seleziona notifica push come azione e definisci le impostazioni di base. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
+* In una **campagna**: dopo aver creato una campagna, seleziona l’azione Notifica push e definisci le impostazioni di base. [Scopri come creare una campagna](../campaigns/create-campaign.md#configure)
 
 Utilizza le schede dedicate per definire le impostazioni di notifica push per i sistemi operativi **iOS** e **Android**.
 
