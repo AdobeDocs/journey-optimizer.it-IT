@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1004'
 ht-degree: 13%
 
 ---
@@ -59,7 +59,7 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
    Una volta aggiunto il pubblico, il **[!UICONTROL Copia]** consente di copiarne nome e ID:
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -107,7 +107,9 @@ Inoltre, se il pubblico batch è stato appena creato e immediatamente utilizzato
 
 Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in streaming, vi è meno rischio di ottenere picchi di entrate/uscite a causa della valutazione continua del pubblico. Tuttavia, se la definizione del pubblico porta a rendere un grande volume di clienti idonei allo stesso tempo, potrebbe esserci anche un picco.
 
-Per ulteriori informazioni sulla segmentazione in streaming, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole di business anziché inviare eventi. [Ulteriori informazioni](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+Per ulteriori informazioni sulla segmentazione in streaming, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
 ### Come evitare gli overload{#overloads-speed-segment-qualification}
 

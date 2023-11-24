@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 13%
+source-wordcount: '401'
+ht-degree: 18%
 
 ---
 
@@ -55,6 +55,10 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
    * **Eventi**: profili che hanno aperto l’applicazione Luma negli ultimi 7 giorni e che hanno poi effettuato un acquisto entro 2 ore dall’apertura dell’applicazione.
 
      ![](assets/add-events.png)
+
+     >[!NOTE]
+     >
+     >L’Adobe consiglia di non utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole di business anziché inviare eventi. [Ulteriori informazioni](about-audiences.md#open-and-send-event-guardrails)
 
 1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il **[!UICONTROL Proprietà pubblico]** viene aggiornato automaticamente con le informazioni sui profili stimati appartenenti al pubblico.
 
