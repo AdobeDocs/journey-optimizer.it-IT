@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 57%
@@ -51,7 +51,7 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 * Utilizza l’attività **Condizione** in un percorso per generare condizioni basate sull’iscrizione al pubblico. [Scopri come utilizzare i tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
-## Metodi di valutazione del pubblico{#evaluation-method-in-journey-optimizer}
+## Metodi di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizioni dei segmenti utilizzando uno dei tre metodi di valutazione seguenti.
 
@@ -97,7 +97,7 @@ Dopo aver definito per la prima volta un pubblico, vengono aggiunti i profili qu
 
 Il recupero del pubblico dai dati precedenti può richiedere fino a 24 ore. Dopo il recupero, il pubblico viene aggionato costantemente ed è sempre pronto per il targeting.
 
-### Utilizzo degli eventi con segmentazione in streaming {#open-and-send-event-guardrails}
+### Utilizzo degli eventi con segmentazione in streaming {#streaming-segmentation-events-guardrails}
 
 La segmentazione in streaming è utile per la personalizzazione in tempo reale con casi d’uso di alto valore. Tuttavia, è importante scegliere il diritto [Eventi](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} da utilizzare come criteri di segmentazione.
 
