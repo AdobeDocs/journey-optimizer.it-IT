@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Le campagne possono avere più stati:
 
 * **[!UICONTROL Bozza]**: la campagna è in fase di modifica e non è stata attivata.
 * **[!UICONTROL Attivazione]**: attivazione della campagna in corso.
+* **[!UICONTROL Elaborazione]** *(solo campagne e-mail)*: l’esportazione del pubblico è stata completata, la campagna è in fase di pubblicazione.
 * **[!UICONTROL Live]**: la campagna è stata attivata.
 * **[!UICONTROL Pianificato]**: la campagna è configurata per essere attivata in una data di inizio specifica.
 * **[!UICONTROL Interrotto]**: la campagna è stata interrotta manualmente. Non è più possibile attivarla o riutilizzarla. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)

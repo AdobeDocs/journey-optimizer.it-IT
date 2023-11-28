@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
-workflow-type: ht
-source-wordcount: '4103'
-ht-degree: 100%
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+workflow-type: tm+mt
+source-wordcount: '4120'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Novembre 2023 {#nov-2023}
 
 * Il guardrail che limita tutte le azioni personalizzate è stato cambiato da 150.000 chiamate in 30 secondi a 300.000 chiamate in un minuto. Inoltre, il limite predefinito non viene più applicato a ciascun endpoint. Ora viene eseguito per host e per sandbox. Ad esempio, se in una sandbox hai due endpoint con lo stesso host (ad esempio: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), il limite verrà applicato a tutti gli endpoint nell’host adobe.com. “endpoint1” ed “endpoint2” condivideranno entrambi la stessa configurazione di limitazione; se un endpoint raggiunge il limite, questo avrà un impatto anche sull’altro endpoint. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
+* È stato aggiunto un nuovo stato per le campagne e-mail all’elenco degli stati delle campagne. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
 
 ## Ottobre 2023 {#oct-2023}
 
