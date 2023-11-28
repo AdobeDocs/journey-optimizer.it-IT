@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Sfruttare i frammenti di espressione {#use-expression-fragments}
+# Sfrutta i frammenti di espressione {#use-expression-fragments}
 
-Quando utilizzi l’editor espressioni, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
+Quando si utilizza **Editor espressioni**, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
 
 Scopri come creare e gestire i frammenti in [questa sezione](../content-management/fragments.md).
 
