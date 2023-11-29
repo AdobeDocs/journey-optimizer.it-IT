@@ -11,10 +11,10 @@ keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 10%
+source-wordcount: '1552'
+ht-degree: 8%
 
 ---
 
@@ -97,7 +97,7 @@ Di seguito è riportato un esempio di file contenente un piano di riscaldamento 
 
 ### Scheda Piano di riscaldamento IP {#ip-warmup-plan-tab}
 
-* In questo esempio, è stato preparato un piano che si estende su 17 giorni (denominato &quot;**esecuzioni**&quot;) per raggiungere un volume target di oltre un milione di profili.
+* In questo esempio, è stato preparato un piano che si estende su 17 giorni (denominato &quot;**esecuzioni**&#39;) per raggiungere un volume target di oltre un milione di profili.
 
 * Il piano è attuato in sei **fasi**, ciascuno contenente almeno una sequenza.
 
@@ -128,51 +128,48 @@ Di seguito sono elencati i gruppi di dominio principali predefiniti che è possi
 * La Poste
 * Apple
 
-<!--
-+++ Gmail
-gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++ Adobe
-adobe.com;adobe.fr;adobe.es
+
 +++
 
-+++WP
++++WP wp.pl;o2.pl
 +++
 
-+++Comcast
++++Comcast comcast.net
 +++
 
-+++Yahoo
++++Yahoo aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es;yahoo.com.au;yahoo.com.vn;yahoo.ca;aol.hk;aol.co.nz;yahoo.com.br;aolpoland.pl;aolnorge.no;yahoo.ne.jp;yahoo.fi;ymail.com;netscape.com;yahoo.com.pe;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;yahoo.co.id;aol.it;citlink.net;wmconnect.com;ahoo.es;yahoo.dk;yahoogroups.ca;yahoo.com.jp;yahoo.com.hk;aol.kr;yahoo.ie;aol.jp;aol.com.br;yahoo.lt;yahoo.co.kr;aol.nl;yahoo.com.ar;yahoo.bg;ygm.com;yahoo.co.nz;aol.se;aol.com;yahoo.de;goowy.com;rocketmail.com;frontiernet.net;yahoo.nl;aim.com;aol.dk;yahoogroups.co.in;aol.cl;netscape.net;yahoo.no;luckymail.com;yahoo.co.jp;yahoo.choz;yahoo.com.kr;yahoo o.sk;yahoo.co.za;yahoogroups.de;yahoo.gr;verizon.net;aol.com.ve;yahoo.ro;aol.com.ar;aol.com.co;yahoo.at;wild4music.com;yahoogroups.com.cn;yahoo.com.co;wow.com;aol.fr;yahoo.in;aol.in;yahoo.com;yahoo.rs;aol.de;yahooxtra.co.nz;yahoo.com.mx;yahoo.com.ph;sky.com;aol.com.mx;aol.com.au;aolchina.com;yahoo.se;myaol.jp;yahoo.com.net;yahoo.pt;yahoo.com.tw;talk21.com;yahoogrupper.dk;yahoo.fr;compuserve.com;yahoo.com.sg;aol.pl;yahoogroups.com.tw;aol.ch;yahoo.it;frontier.com;yahoo.co.in;aolpolcka.pl;yahoo.co.il;verizon.net.in;yahoogruppi.it;yahoo.com.tr;yahoo.cl;yahoogroups.com.hk;yahoogroups.co.uk;yahoo.com.biz;yahoo.com.hr;yahoo.be;aol.co.uk;ybb.ne.jp;aol.tw;yahoogroups.co.kr;yahoo.com.my;rogers.com;gte.net;yahoogroups.com;yahoo.co.th;yahoo.com.cn;love.com;bellatlantic.net;yahoo.com.ve;yahoo.com.ua;aol.ru;;;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
-+++Bigpond
++++Bigpond bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++Orange
++++Arancione voila.com;francetelecom.com;orange.com;arancione.fr;wanadoo.fr;voila.fr
 +++
 
-+++Softbank
++++Softbank c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;
 +++
 
-+++Docomo
++++Docomo docomo.ne.jp
 +++
 
-+++United Internet
++++United Internet gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Microsoft
++++Microsoft hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;live.ie;outlook.com.br;hotmail.co.il;hotmail.dk;live.co.kr;live.co.uk;live.com.mx;outlook.ie;live.cn;hotmail.co.uk;live.com.sg;hotmail.es;live.fr;live.no;live.dhotmail.it;msn.com;live.se;hotmail.co.jp;live.be;live.co.za;live.live.in mail.se;live.com.pt;hotmail.ch;outlook.com;live.com;hotmail.gr;live.it;live.com.ar;hotmail.ca;hotmail.com.br;hotmail.com.ar;live.ca;hotmail.de
 +++
 
-+++KDDI
++++KDDI au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
-+++Italia Online
++++Italia Online inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
-+++La Poste
++++La Poste laposte.net
 +++
--->
 
 ### Scheda Gruppo di dominio personalizzato {#custom-domain-group-tab}
 
