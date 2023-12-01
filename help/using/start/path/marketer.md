@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Per configurare il primo percorso, aggiungere offerte e risorse e inviare i mess
 
    ![](../assets/perso_ee2.png)
 
-1. **Creare e gestire le risorse**. [!DNL Adobe Experience Manager Assets Essentials] fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi. [Ulteriori informazioni](../../content-management/assets-essentials.md).
+1. **Creare e gestire le risorse**. [!DNL Adobe Experience Manager Assets] fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi. [Ulteriori informazioni](../../content-management/assets.md).
 
 1. **Aggiungere offerte**. Utilizza [!DNL Journey Optimizer] per offrire ai clienti l’offerta e l’esperienza migliore al momento giusto, in tutti i punti di contatto. Una volta progettate, puoi indirizzarle al tuo pubblico con offerte personalizzate. Per informazioni sulla gestione delle decisioni, consulta [questa sezione](../../offers/get-started/starting-offer-decisioning.md).
 
