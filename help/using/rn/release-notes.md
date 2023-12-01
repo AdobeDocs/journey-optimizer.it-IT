@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '4527'
 ht-degree: 100%
@@ -254,7 +254,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Assets**
 
-* Una nuova opzione per Assets consente di scegliere l’archivio delle risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu disponga di una licenza per questa soluzione. [Ulteriori informazioni](../content-management/assets-essentials.md)
+* Una nuova opzione per Assets consente di scegliere l’archivio delle risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu disponga di una licenza per questa soluzione. [Ulteriori informazioni](../content-management/assets.md)
 
 <!--**Decision management**
 
