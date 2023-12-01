@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 24%
@@ -58,9 +58,9 @@ Nella versione Android, puoi aggiungere solo un’icona immagine e un’immagine
 
 Sono disponibili due opzioni. Puoi eseguire le seguenti operazioni:
 
-* Utilizza il **[!UICONTROL Aggiungi file multimediali]** per selezionare una risorsa in **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Utilizza il **[!UICONTROL Aggiungi file multimediali]** per selezionare una risorsa in **[!DNL Adobe Experience Manager Assets]**.
 
-  Scopri come utilizzare **[!DNL Adobe Experience Manager Assets Essentials]** in [questa pagina](../content-management/assets-essentials.md).
+  Scopri come utilizzare **[!DNL Adobe Experience Manager Assets]** in [questa pagina](../content-management/assets.md).
 
 * Oppure immetti l’URL del file multimediale in **[!UICONTROL Aggiungi file multimediali]** campo. In tal caso, puoi aggiungere la personalizzazione all’URL.
 

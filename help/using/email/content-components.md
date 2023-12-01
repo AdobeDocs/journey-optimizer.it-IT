@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1406'
 ht-degree: 55%
 
 ---
@@ -121,7 +121,7 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
    * **Dimensione font**: seleziona la dimensione del font in pixel.
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Inserisci collegamento]**: aggiungi qualsiasi tipo di collegamento al contenuto.
-   * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets-essentials.md)
+   * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets.md)
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
    * **[!UICONTROL Mostra il codice sorgente]**: visualizza il codice sorgente del testo. Non può essere modificato.
@@ -167,9 +167,9 @@ Utilizza il **[!UICONTROL Immagine]** per inserire un file immagine dal computer
 
    ![](assets/email_designer_image_content.png)
 
-1. Dalla sezione **[!UICONTROL Impostazioni]** , fare clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse o **[!UICONTROL Importa file multimediali]** per caricare una risorsa negli Assets Essentials.
+1. Dalla sezione **[!UICONTROL Impostazioni]** , fare clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse o **[!UICONTROL Importa file multimediali]** per caricare una risorsa in Adobe Experience Manager Assets.
 
-   Per ulteriori informazioni su [!DNL Assets Essentials], fare riferimento a [Documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   Per ulteriori informazioni su [!DNL Adobe Experience Manager Assets], fare riferimento a [Documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

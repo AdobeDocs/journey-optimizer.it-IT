@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sottodomini, configurazione
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 21%
+source-wordcount: '841'
+ht-degree: 19%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegare un sottodominio web"
->abstract="Se aggiungi contenuti provenienti da Adobe Experience Manager Assets Essentials alle esperienze web, devi configurare il sottodominio che verrà utilizzato per pubblicare tali contenuti. Seleziona tra i sottodomini già delegati ad Adobe o configura un nuovo sottodominio."
+>abstract="Se aggiungi contenuti provenienti da Adobe Experience Manager Assets alle esperienze web, devi configurare il sottodominio che verrà utilizzato per pubblicare tali contenuti. Seleziona tra i sottodomini già delegati ad Adobe o configura un nuovo sottodominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="Impostare un sottodominio web"
 >abstract="Seleziona un sottodominio dall’elenco dei sottodomini delegati ad Adobe. È possibile impostare questo sottodominio web come predefinito, ma è possibile utilizzare un solo sottodominio predefinito alla volta."
 
-Quando crei esperienze web, se aggiungi contenuti provenienti da [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) devi impostare il sottodominio che verrà utilizzato per pubblicare questo contenuto.
+Quando crei esperienze web, se aggiungi contenuti provenienti da [Adobe Experience Manager Assets](../content-management/assets.md) devi impostare il sottodominio che verrà utilizzato per pubblicare questo contenuto.
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini all’Adobe in [questa sezione](../configuration/delegate-subdomain.md).
 
@@ -101,7 +101,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Experience Manager Assets Essentials."
+>abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Adobe Experience Manager Assets."
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 

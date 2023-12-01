@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
-workflow-type: ht
-source-wordcount: '480'
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Puoi importare un contenuto esistente in [!DNL Journey Optimizer] oppure sfrutta
 
 * Utilizza le **funzionalità di progettazione delle e-mail** di [!DNL Journey Optimizer] per creare o importare e-mail dinamiche. [Ulteriori informazioni](content-from-scratch.md)
 
-* Sfrutta **Adobe Experience Manager Assets Essentials** per arricchire le e-mail e creare e gestire un tuo database di risorse. [Ulteriori informazioni](../content-management/assets-essentials.md)
+* Sfrutta **Adobe Experience Manager Assets Essentials** per arricchire le e-mail e creare e gestire un tuo database di risorse. [Ulteriori informazioni](../content-management/assets.md)
 
 * Trova **foto Adobe Stock** per creare i contenuti e migliorare la progettazione delle e-mail. [Ulteriori informazioni](../content-management/stock.md)
 
@@ -46,7 +46,7 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
 1. Nella pagina home di E-mail Designer, scegli come desideri progettare l’e-mail tra le seguenti opzioni:
 
-   * **Progettazione dell’e-mail da zero** tramite l’interfaccia di e-mail designer e sfrutta le immagini da [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Scopri come progettare il contenuto delle e-mail in [questa sezione](content-from-scratch.md).
+   * **Progettazione dell’e-mail da zero** tramite l’interfaccia di e-mail designer e sfrutta le immagini da [Adobe Experience Manager Assets ](../content-management/assets.md). Scopri come progettare il contenuto delle e-mail in [questa sezione](content-from-scratch.md).
 
    * **Codifica o incolla HTML non elaborato** direttamente nella finestra di e-mail designer. Scopri come codificare il tuo contenuto in [questa sezione](code-content.md).
 

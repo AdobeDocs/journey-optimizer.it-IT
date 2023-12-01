@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 98%
 
 ---
 
@@ -40,13 +40,13 @@ Puoi sfruttare tutti i dati dell’evento comportamentale di Adobe Analytics che
 Ulteriori informazioni su [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 
-## Adobe Experience Manager Assets Essentials {#integration-assets}
+## Adobe Experience Manager Assets {#integration-assets}
 
-Riunisci flussi di lavoro creativi e di marketing utilizzando [!DNL Adobe Experience Manager Assets Essentials]. Integrato in modo nativo con [!DNL Adobe Journey Optimizer], accedi a [!DNL Assets Essentials] per archiviare, gestire, individuare e distribuire le risorse digitali. Fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi.
+Riunisci flussi di lavoro creativi e di marketing utilizzando [!DNL Adobe Experience Manager Assets]. Integrato in modo nativo con [!DNL Adobe Journey Optimizer], accedi a [!DNL Adobe Experience Manager Assets] per archiviare, gestire, individuare e distribuire le risorse digitali. Fornisce un archivio di risorse unico e centralizzato da utilizzare per compilare i messaggi.
 
-[!DNL Adobe Experience Manager Assets Essentials] è accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite la sezione **[!UICONTROL Risorse]** del menu a sinistra.
+[!DNL Adobe Experience Manager Assets] è accessibile direttamente da [!DNL Adobe Journey Optimizer] tramite la sezione **[!UICONTROL Risorse]** del menu a sinistra.
 
-Ulteriori informazioni su [Journey Optimizer + Assets Essentials](../content-management/assets-essentials.md).
+Ulteriori informazioni su [JOURNEY OPTIMIZER + ADOBE EXPERIENCE MANAGER ASSETS](../content-management/assets.md).
 
 
 ## Adobe Stock {#integration-stock}
