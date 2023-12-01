@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: ht
 source-wordcount: '1283'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Crea offerte e componenti da questa sezione.
 
 Crea e gestisci i contenuti di questa sezione.
 
-* **[!UICONTROL Risorse]**: [!DNL Adobe Experience Manager Assets Essentials] è un archivio centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../content-management/assets-essentials.md)
+* **[!UICONTROL Risorse]**: [!DNL Adobe Experience Manager Assets] è un archivio centralizzato di risorse che puoi utilizzare per compilare i messaggi. [Ulteriori informazioni](../content-management/assets.md)
 
 * **[!UICONTROL Modelli di contenuto]**: per una progettazione più rapida e migliorata, crea modelli autonomi per riutilizzare facilmente i contenuti personalizzati nelle campagne e nei percorsi di Journey Optimizer. [Ulteriori informazioni](../content-management/content-templates.md)
 
