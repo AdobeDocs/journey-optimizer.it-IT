@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare un messaggio SMS
-description: Scopri come creare un messaggio SMS in Journey Optimizer
+title: Creare un messaggio SMS/MMS
+description: Scopri come creare un messaggio SMS/MMS in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 17%
+source-wordcount: '781'
+ht-degree: 15%
 
 ---
 
-# Creare un messaggio SMS {#create-sms}
+# Creare un messaggio SMS/MMS {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creare un messaggio SMS"
 >abstract="Aggiungi il messaggio SMS e inizia a personalizzarlo con l’editor di espressioni."
 
-## Aggiungere un messaggio SMS {#create-sms-journey-campaign}
+## Aggiungere un messaggio SMS/MMS {#create-sms-journey-campaign}
 
 Sfoglia le schede seguenti per scoprire come aggiungere un messaggio SMS in una campagna o in un percorso.
 
@@ -110,13 +110,30 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
 1. In `originalUrl` , incolla l’URL da abbreviare e fai clic su **[!UICONTROL Salva]**.
 
+1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## Definire il contenuto MMS{#mms-content}
+
+Con il canale SMS, puoi migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), consentendo la condivisione di immagini, GIF o video con i clienti.
+
+
+>[!NOTE]
+>
+> Questa funzione è attualmente disponibile con **Sinch** solo.
+>
+> Il canale MMS presenta alcune limitazioni elencate in [questa pagina](../start/guardrails.md#sms-guardrails).
+
+Per creare contenuti MMS, effettua le seguenti operazioni:
+
+1. Creare un SMS come descritto in [questa sezione](#create-sms-journey-campaign).
+
+1. Modifica il contenuto SMS come descritto in [questa sezione](#sms-content).
+
 1. Abilita l’opzione MMS per aggiungere contenuti multimediali al contenuto SMS.
-
-   MMS viene fornito con alcune limitazioni elencate in [questa pagina](../start/guardrails.md#sms-guardrails).
-
-   >[!NOTE]
-   >
-   > L’opzione MMS è disponibile solo con Sinch. Per creare MMS è necessario creare una credenziale API specifica. [Ulteriori informazioni](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,16 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
 
-   ![](assets/sms-content-preview.png)
+## Testare e inviare i messaggi {#sms-mms-test}
 
 Ora puoi testare e inviare il messaggio SMS al pubblico. [Ulteriori informazioni](send-sms.md)
+
+
 Una volta inviato, puoi misurare l’impatto del tuo SMS all’interno dei rapporti della campagna o del Percorso. Per ulteriori informazioni sul reporting, consulta [questa sezione](../reports/campaign-global-report.md#sms-tab).
 
 >[!NOTE]
 >
 >In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **Argomenti correlati**
 
 * [Visualizzare l’anteprima, testare e inviare il messaggio SMS](send-sms.md)
