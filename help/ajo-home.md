@@ -5,16 +5,16 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 38%
+source-wordcount: '354'
+ht-degree: 30%
 
 ---
 
 # Documentazione di Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## Novità
+## Quali sono le novità?
 
 Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](using/rn/release-notes.md).  Resta aggiornato sulle ultime modifiche apportate alla documentazione di visitando il [pagina aggiornamenti della documentazione](using/rn/documentation-updates.md).
 
@@ -26,7 +26,7 @@ Gli strumenti sandbox consentono di copiare oggetti in più sandbox sfruttando l
 
 [![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB MMS (Multimedia Message Service) negli SMS]
+>[!TAB MMS (Multimedia Message Service)]
 
 Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono la condivisione di immagini, GIF o video con la clientela. Questa funzione è attualmente disponibile solo con Sinch.
 

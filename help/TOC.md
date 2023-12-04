@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 99%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
    + [Note sulla versione più recente](using/rn/release-notes.md)
    + Note sulle versioni precedenti {#previous-rn-new}
+      + [Note sulla versione 2023](using/rn/release-notes-2023.md)
       + [Note sulle versioni 2022](using/rn/release-notes-2022.md)
       + [Note sulle versioni 2021](using/rn/release-notes-2021.md)
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
@@ -215,11 +216,11 @@ ht-degree: 99%
       + [Flusso di notifica push](using/push/push-gs.md)
       + [Configurare il canale di notifica push](using/push/push-configuration.md)
       + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
-+ Canale SMS{#sms}
-   + [Introduzione agli SMS](using/sms/get-started-sms.md)
-   + [Creare un messaggio SMS](using/sms/create-sms.md)
++ Canale SMS/MMS{#sms}
+   + [Introduzione ai messaggi di testo](using/sms/get-started-sms.md)
+   + [Creare un messaggio di testo](using/sms/create-sms.md)
    + [Creare un messaggio MMS](using/sms/create-mms.md)
-   + [Verificare e inviare il messaggio SMS](using/sms/send-sms.md)
+   + [Controllare e inviare i messaggi di testo](using/sms/send-sms.md)
    + [Gestire la rinuncia agli SMS](using/sms/sms-opt-out.md)
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)

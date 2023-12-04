@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 35%
+source-wordcount: '412'
+ht-degree: 33%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 35%
 >id="ajo_homepage_card5"
 >title="Personalizzare le esperienze"
 >abstract="Utilizza **Adobe Journey Optimizer** per adattare i messaggi a ogni destinatario sfruttando i dati e le informazioni di cui disponi. Ad esempio, il nome del destinatario, i suoi interessi, dove vive, cosa ha comprato e altro ancora."
-
 
 Scoprire [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Ad esempio, il nome del destinatario, i suoi interessi, dove vive, cosa ha comprato e altro ancora.
 
@@ -57,7 +56,7 @@ Inoltre, puoi anche sfruttare **attributi calcolati** per personalizzare il cont
 
 [!DNL Journey Optimizer] fornisce un editor di espressioni in cui puoi selezionare, disporre, personalizzare e convalidare tutti i dati per creare una personalizzazione personalizzata per il contenuto.
 
-Sono disponibili diversi strumenti per creare i contenuti di personalizzazione (funzioni di assistenza, libreria di espressioni predefinite, attributi preferiti...)
+Sono disponibili diversi strumenti per creare i contenuti di personalizzazione, ad esempio: funzioni di contorno, libreria di espressioni predefinite, preferenza per gli attributi e altro ancora.
 
 Ulteriori informazioni su [!DNL Journey Optimizer] editor di espressioni in [questa sezione](personalization-build-expressions.md)
 
