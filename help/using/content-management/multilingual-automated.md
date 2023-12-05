@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione ai contenuti multilingue
-description: Ulteriori informazioni sui contenuti multilingue in Journey Optimizer
+title: Introduzione al contenuto multilingue
+description: Ulteriori informazioni sul contenuto multilingue in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -10,21 +10,22 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 1%
+source-wordcount: '1315'
+ht-degree: 3%
 
 ---
 
-# Creazione di contenuti multilingue con traduzione automatica {#multilingual-automated}
+# Creare contenuto multilingue con traduzione automatica {#multilingual-automated}
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
-* [Introduzione ai contenuti multilingue](multilingual-gs.md)
-* [Creare contenuti multilingue con traduzione manuale](multilingual-manual.md)
+* [Introduzione al contenuto multilingue](multilingual-gs.md)
+* [Creare contenuto multilingue con traduzione manuale](multilingual-manual.md)
 * **[Creazione di contenuti multilingue con traduzione automatica](multilingual-automated.md)**
 * [Rapporto campagna multilingue](multilingual-report.md)
 
@@ -88,6 +89,14 @@ Avvia il progetto di traduzione specificando la lingua di Target, che indica la 
    ![](assets/translation_project_3.png)
 
 1. Seleziona dall’elenco il tuo **[!UICONTROL Impostazioni locali di destinazione]** e scegliere quale **[!UICONTROL Provider traduzione]** si desidera utilizzare per ogni lingua.
+
+   **[!UICONTROL Provider traduzione]** è possibile accedere alle impostazioni da **[!UICONTROL Traduzione]** menu in **[!UICONTROL Amministrazione]** menu.
+
+   >[!NOTE]
+   >
+   >La gestione dei contratti con il fornitore di traduzione esula dall’ambito di questa funzione. Assicurati di disporre di un contratto valido e attivo con il partner di traduzione designato.
+   >
+   ></br>Il fornitore di traduzione è responsabile della qualità del contenuto tradotto.
 
 1. Clic **[!UICONTROL Aggiungi una lingua]** una volta terminato il collegamento delle impostazioni internazionali di Target con il provider di traduzione corretto. Quindi, fai clic su **[!UICONTROL Salva]**.
 
