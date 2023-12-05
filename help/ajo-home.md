@@ -5,7 +5,7 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 30%
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 ## Quali sono le novità?
 
-Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](using/rn/release-notes.md).  Resta aggiornato sulle ultime modifiche apportate alla documentazione di visitando il [pagina aggiornamenti della documentazione](using/rn/documentation-updates.md).
+Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](using/rn/release-notes.md). Resta aggiornato sulle ultime modifiche apportate alla documentazione di visitando il [pagina aggiornamenti della documentazione](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messagg
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Gestione dei contenuti</strong><br/><a href="using/content-management/assets-essentials.md">Risorse/immagini</a> - <a href="using/personalization/personalize.md">Personalizzazione</a> - <a href="using/content-management/content-templates.md">Riutilizzabile</a> E <a href="using/personalization/dynamic-content.md">dinamico</a> contenuto - <a href="using/content-management/preview-test.md">Contenuto di prova e anteprima</a>
+      <strong>Gestione dei contenuti</strong><br/><a href="using/content-management/assets.md">Risorse/immagini</a> - <a href="using/personalization/personalize.md">Personalizzazione</a> - <a href="using/content-management/content-templates.md">Riutilizzabile</a> E <a href="using/personalization/dynamic-content.md">dinamico</a> contenuto - <a href="using/content-management/preview-test.md">Contenuto di prova e anteprima</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
