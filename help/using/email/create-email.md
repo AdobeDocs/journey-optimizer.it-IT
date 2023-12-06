@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '908'
 ht-degree: 10%
 
 ---
@@ -44,7 +44,7 @@ Per creare un messaggio e-mail in [!DNL Journey Optimizer], aggiungi un **[!UICO
 
 >[!NOTE]
 >
->Se invii un’e-mail da un percorso, puoi sfruttare la funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l’ottimizzazione dell’ora di invio](../building-journeys/journeys-message.md#send-time-optimization)
+>Puoi utilizzare l’opzione Ottimizzazione del tempo di invio per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l’ottimizzazione dell’ora di invio](../building-journeys/journeys-message.md#send-time-optimization)
 
 Per ulteriori informazioni su come configurare un percorso, consulta [questa pagina](../building-journeys/journey-gs.md).
 
