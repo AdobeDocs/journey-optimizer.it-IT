@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 27%
+source-wordcount: '773'
+ht-degree: 19%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 27%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=it" text="Utilizzare i tipi di pubblico"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=it" text="Utilizzare le regole di decisione"
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
+>[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
 * [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali
-   * [Configurare il catalogo degli elementi](catalogs.md)
-   * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte di elementi](collections.md)
-* Configurare la selezione degli elementi
-   * [Creare regole di decisione](rules.md)
-   * [Creare metodi di classificazione](ranking.md)
+* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
+* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * **[Creare strategie di selezione](selection-strategies.md)**
 * [Creare criteri di decisione](create-decision.md)
 
@@ -83,6 +76,8 @@ Per creare una strategia di selezione, segui i passaggi indicati di seguito.
    ![](assets/strategy-create-screen.png)
 
 1. Seleziona la [raccolta](collections.md) che contiene le offerte da considerare.
+
+1. Seleziona l’offerta [raccolta](collections.md) che contiene le offerte da considerare.
 
 1. Utilizza il **[!UICONTROL Idoneità]** per limitare la selezione delle offerte per questa strategia di selezione.
 

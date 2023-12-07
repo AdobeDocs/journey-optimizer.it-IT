@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 61%
+ht-degree: 50%
 
 ---
 
@@ -33,18 +33,11 @@ ht-degree: 61%
 >title="Scegli una raccolta"
 >abstract="Selezionare la raccolta contenente le offerte da considerare. Questo passaggio è obbligatorio durante la creazione di una strategia di selezione. Le raccolte consentono di categorizzare e raggruppare gli elementi decisionali in base alle preferenze. Ad esempio, puoi creare una raccolta che includa tutti gli elementi decisionali con il valore “Yoga” nell’attributo personalizzato “Categoria”."
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
+>[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
 * [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali
-   * [Configurare il catalogo degli elementi](catalogs.md)
-   * [Creare elementi decisionali](items.md)
-   * **[Gestire le raccolte di elementi](collections.md)**
-* Configurare la selezione degli elementi
-   * [Creare regole di decisione](rules.md)
-   * [Creare metodi di classificazione](ranking.md)
+* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - **[Gestire le raccolte elementi](collections.md)**
+* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
 * [Creare criteri di decisione](create-decision.md)
 
@@ -63,7 +56,7 @@ Per creare una raccolta, effettua le seguenti operazioni:
 1. Aggiungi una o più regole per determinare gli elementi da includere nella raccolta. Per eseguire questa operazione:
 
    1. Scegliere un attributo dell’elemento da utilizzare come criterio. L’elenco degli attributi include tutti gli attributi standard e personalizzati definiti nello schema del catalogo. [Ulteriori informazioni sul catalogo degli articoli](catalogs.md)
-   1. Selezionare l’operatore desiderato e inserisci il valore su cui filtrare.
+   1. Seleziona l’operatore desiderato e inserisci il valore su cui filtrare.
    1. Ripeti questi passaggi per aggiungere tutte le regole necessarie. Quando vengono aggiunte più regole, puoi scegliere tra **E** e **Oppure** per combinarli. A questo scopo, fai clic sul badge dell’operatore per passare da una scelta all’altra.
 
    ![](assets/collection-create.png)

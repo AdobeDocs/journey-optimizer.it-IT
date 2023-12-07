@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 33%
+source-wordcount: '1007'
+ht-degree: 26%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 33%
 >abstract="Journey Optimizer consente di creare offerte di marketing, note come elementi decisionali, da creare e organizzare in un catalogo e in raccolte centralizzati. Attualmente, tutti gli elementi decisionali creati sono consolidati all’interno di un singolo catalogo “Offerte”. Da questa schermata, puoi anche accedere allo schema del catalogo utilizzando il pulsante **Modifica schema** e creare attributi personalizzati per gli elementi decisionali."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html?lang=it" text="Configurare il catalogo degli elementi"
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
+>[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
 * [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali
-   * [Configurare il catalogo degli elementi](catalogs.md)
-   * **[Creare elementi decisionali](items.md)**
-   * [Gestire le raccolte di elementi](collections.md)
-* Configurare la selezione degli elementi
-   * [Creare regole di decisione](rules.md)
-   * [Creare metodi di classificazione](ranking.md)
+* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - **[Creare elementi decisionali](items.md)** - [Gestire le raccolte elementi](collections.md)
+* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
 * [Creare criteri di decisione](create-decision.md)
 
@@ -99,11 +92,11 @@ Per creare un elemento di decisione, effettua le seguenti operazioni:
 
    ![](assets/item-constraints.png)
 
-   * Per limitare la presentazione dell’elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona la **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]** , quindi aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md).
+   * Per limitare la presentazione dell’elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona la **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]** , quindi aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md).
 
    * Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md).
 
-   Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
    >[!NOTE]
    >

@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 16%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
 # Catalogo articoli {#catalog}
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
+>[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
 * [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali
-   * **[Configurare il catalogo degli elementi](catalogs.md)**
-   * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte di elementi](collections.md)
-* Configurare la selezione degli elementi
-   * [Creare regole di decisione](rules.md)
-   * [Creare metodi di classificazione](ranking.md)
+* Gestire gli elementi decisionali: **[Configurare il catalogo articoli](catalogs.md)** - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
+* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
 * [Creare criteri di decisione](create-decision.md)
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 64%
+ht-degree: 39%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 64%
 >title="Creare formule di classificazione"
 >abstract="Le formule consentono di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creato un metodo di classificazione, puoi assegnarlo a una strategia decisionale per definire quali elementi devono essere selezionati per primi."
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
+>[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
 * [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali
-   * [Configurare il catalogo degli elementi](catalogs.md)
-   * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte di elementi](collections.md)
-* Configurare la selezione degli elementi
-   * [Creare regole di decisione](rules.md)
-   * **[Creare metodi di classificazione](ranking.md)**
+* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
+* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - **[Creare metodi di classificazione](ranking.md)**
 * [Creare strategie di selezione](selection-strategies.md)
 * [Creare criteri di decisione](create-decision.md)
 
@@ -44,7 +37,7 @@ I metodi di classificazione consentono di classificare gli elementi da visualizz
 
 I metodi di classificazione sono accessibili dalla sezione **[!UICONTROL Configurazione]** / **[!UICONTROL Metodi di classificazione]** menu. Sono disponibili due tipi di metodi di classificazione:
 
-* **Le formule consentono di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento.**
+* **Formule** consente di definire regole che determinano quale elemento deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento.
 
 * **Modelli IA** consente di utilizzare sistemi di modelli formati che sfrutteranno più punti dati per determinare quale elemento deve essere presentato per primo.
 

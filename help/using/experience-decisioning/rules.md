@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 40%
+ht-degree: 31%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 40%
 >title="Creare regole di decisione"
 >abstract="Le regole di decisione consentono di definire il pubblico per gli elementi decisionali applicando vincoli, direttamente a livello dell’elemento decisionale o all’interno di una strategia di selezione specifica. Ciò consente di controllare con precisione quali elementi devono essere presentati a chi."
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
+>[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
 * [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali
-   * [Configurare il catalogo degli elementi](catalogs.md)
-   * [Creare elementi decisionali](items.md)
-   * [Gestire le raccolte di elementi](collections.md)
-* Configurare la selezione degli elementi
-   * **[Creare regole di decisione](rules.md)**
-   * [Creare metodi di classificazione](ranking.md)
+* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
+* Configura la selezione degli elementi: **[Creare regole di decisione](rules.md)** - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
 * [Creare criteri di decisione](create-decision.md)
 
