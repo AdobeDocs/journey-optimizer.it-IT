@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 15%
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegare un sottodominio web"
->abstract="Se aggiungi contenuto proveniente da Adobe Experience Manager Assets alle esperienze web, devi impostare il sottodominio che verrà utilizzato per pubblicare tale contenuto. Seleziona tra i sottodomini già delegati ad Adobe o configura un nuovo sottodominio."
+>abstract="Se aggiungi contenuti provenienti da Adobe Experience Manager Assets alle esperienze web, devi configurare il sottodominio che verrà utilizzato per pubblicare tali contenuti. Seleziona tra i sottodomini già delegati ad Adobe o configura un nuovo sottodominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
@@ -101,7 +101,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Adobe Experience Manager Assets."
+>abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Experience Manager Assets "
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
