@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 0ba1af43f5447df861e419b56f34a418cfbce241
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 23%
+source-wordcount: '1599'
+ht-degree: 20%
 
 ---
 
@@ -28,7 +28,7 @@ Ulteriori informazioni sul concetto e sull’utilizzo dell’elenco di soppressi
 >
 >Adobe mantiene un elenco aggiornato di indirizzi non validi noti che hanno dimostrato di essere dannosi per il coinvolgimento e la reputazione di mailing e garantisce che le e-mail non vengano consegnate a loro. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
-Inoltre, puoi sfruttare Journey Optimizer **API REST di eliminazione** per controllare i messaggi in uscita utilizzando soppressione e elenchi consentiti. [Scopri come utilizzare l’API REST di soppressione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it)
+Inoltre, puoi sfruttare il Journey Optimizer **API REST di eliminazione** per controllare i messaggi in uscita utilizzando soppressione e elenchi consentiti. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Accedere all’elenco di soppressione {#access-suppression-list}
 
@@ -138,7 +138,7 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di soppressione, ef
    >
    >Assicurati di inserire un indirizzo e-mail valido (ad esempio abc@company.com) o un dominio (ad esempio abc.company.com).
 
-1. (facoltativo) Inserisci un motivo. In questo campo sono consentiti tutti i caratteri ASCII stampabili compresi tra 32 e 126.
+1. (facoltativo) Inserisci un motivo. In questo campo sono consentiti tutti i caratteri stampabili ASCII compresi tra 32 e 126.
 
 1. Utilizza il **[!UICONTROL Invia]** per confermare.
 
@@ -193,7 +193,7 @@ Gli stati possibili sono:
 
 Durante il caricamento, se alcuni indirizzi non sono nel formato corretto, non vengono aggiunti al [!DNL Journey Optimizer] elenco di soppressione.
 
-In tal caso, una volta completato il caricamento, viene associato a un rapporto. È possibile scaricarlo per verificare gli errori rilevati<!-- and understand why they were not added to the suppression list-->.
+In tal caso, una volta completato il caricamento, viene associato a un rapporto. Puoi scaricarlo per verificare gli errori riscontrati<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
@@ -226,7 +226,7 @@ Per rimuovere un indirizzo dall’elenco di soppressione, utilizza **[!UICONTROL
 
 Ad esempio, in caso di interruzione del servizio di un provider di servizi Internet (ISP), le e-mail vengono erroneamente contrassegnate come mancati recapiti permanenti perché non possono essere consegnate correttamente al destinatario. Questi indirizzi e-mail devono essere rimossi dall’elenco di soppressione.
 
-Per recuperare tali indirizzi, esegui una query specifica con parametri personalizzati, in base al contesto dell’interruzione. [Per ulteriori informazioni, consulta questa pagina](../data/datasets-query-examples.md#isp-outage-query).
+Per recuperare tali indirizzi, esegui una query specifica con parametri personalizzati, in base al contesto dell’interruzione. [Ulteriori informazioni in questo esempio](../data/datasets-query-examples.md#isp-outage-query).
 
 Una volta identificati gli indirizzi e-mail interessati, filtra l’elenco di soppressione per visualizzarli. Ad esempio, in caso di interruzione del servizio ISP dall’11 novembre 2022 al 13 novembre 2022 sulla **test.com** dominio, filtra gli indirizzi aggiunti all’elenco di soppressione in tale arco temporale, come segue:
 
