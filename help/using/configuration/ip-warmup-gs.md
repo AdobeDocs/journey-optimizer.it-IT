@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP, recapitabilità
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+workflow-type: tm+mt
+source-wordcount: '295'
+ht-degree: 91%
 
 ---
 
 # Introduzione ai piani di preparazione IP {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ Cosa troverai in questa documentazione:
 >La funzione di preparazione IP è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 Con [!DNL Journey Optimizer], è possibile eseguire facilmente flussi di lavoro di preparazione IP direttamente dall’interfaccia utente in modo standardizzato ed efficiente, seguendo le best practice per una recapitabilità ottimale.
+
+➡️ [Scopri come creare ed eseguire un piano di riscaldamento IP in questo video](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ I passaggi chiave per implementare un piano di preparazione IP sono i seguenti:
 1. Crea un piano di preparazione IP in [!DNL Journey Optimizer] e carica il foglio Excel preparato con l’aiuto del tuo consulente di recapitabilità. [Ulteriori informazioni](ip-warmup-plan.md)
 
 1. Seleziona una campagna per ogni fase del piano e attiva le esecuzioni corrispondenti. [Ulteriori informazioni](ip-warmup-execution.md)
+
+## Video introduttivo {#video}
+
+Scopri come creare ed eseguire un piano di riscaldamento IP.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)

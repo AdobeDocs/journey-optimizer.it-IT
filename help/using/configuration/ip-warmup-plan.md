@@ -10,11 +10,12 @@ level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 8%
+source-wordcount: '1522'
+ht-degree: 7%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 8%
 
 Cosa troverai in questa documentazione:
 
-* [Introduzione alla preparazione dell’IP](ip-warmup-gs.md)
+* [Introduzione al riscaldamento dell’IP](ip-warmup-gs.md)
 * [Creare campagne di preparazione IP](ip-warmup-campaign.md)
-* **[Creare un piano di preparazione IP](ip-warmup-plan.md)**
+* **[Creare un piano di riscaldamento IP](ip-warmup-plan.md)**
 * [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
