@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -218,10 +218,10 @@ ht-degree: 97%
       + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
 + Canale SMS/MMS{#sms}
    + [Introduzione ai messaggi di testo](using/sms/get-started-sms.md)
-   + [Creare un messaggio di testo](using/sms/create-sms.md)
+   + [Creare un messaggio SMS](using/sms/create-sms.md)
    + [Creare un messaggio MMS](using/sms/create-mms.md)
-   + [Controllare e inviare i messaggi di testo](using/sms/send-sms.md)
-   + [Gestire la rinuncia agli SMS](using/sms/sms-opt-out.md)
+   + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
+   + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
    + [Configurare il canale SMS](using/sms/sms-configuration.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
@@ -235,7 +235,7 @@ ht-degree: 97%
       + [Prerequisiti per il canale Web](using/web/web-prerequisites.md)
       + [Configurare i sottodomini web](using/web/web-delegated-subdomains.md)
    + [Creare esperienze web](using/web/create-web.md)
-   + Creare pagine web {#author-web-pages}
+   + Authoring di pagine web {#author-web-pages}
       + [Modificare il contenuto di una pagina web](using/web/edit-web-content.md)
       + [Gestire le modifiche](using/web/manage-web-modifications.md)
       + [Monitorare le campagne web](using/web/monitor-web-campaigns.md)
@@ -543,7 +543,7 @@ ht-degree: 97%
    + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
-      + Integrare con sistemi esterni {#external-systems}
+      + Integrazione con sistemi esterni {#external-systems}
          + [Integrazione dei percorsi con sistemi esterni](using/configuration/external-systems.md)
          + [API di limitazione di utilizzo](using/configuration/capping.md)
          + [API di limitazione](using/configuration/throttling.md)
