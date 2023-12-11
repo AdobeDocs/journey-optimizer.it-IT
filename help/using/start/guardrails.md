@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
-workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1752'
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
 
-## Guardrail frammenti {#fragments-guardrails}
+## Guardrail dei frammenti {#fragments-guardrails}
 
 * I frammenti visivi sono disponibili solo per il canale e-mail.
-* I frammenti di espressione non sono disponibili per i canali Web e in-app.
+* I frammenti di espressione non sono disponibili per i canali Web e In-app.
 
 ## Guardrail di percorso {#journeys-guardrails}
 
