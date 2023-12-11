@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
-workflow-type: tm+mt
-source-wordcount: '4174'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '4216'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 ## Novembre 2023 {#nov-2023}
 
 * Il guardrail che limita tutte le azioni personalizzate è stato cambiato da 150.000 chiamate in 30 secondi a 300.000 chiamate in un minuto. Inoltre, il limite predefinito non viene più applicato a ciascun endpoint. Ora viene eseguito per host e per sandbox. Ad esempio, se in una sandbox hai due endpoint con lo stesso host (ad esempio: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), il limite verrà applicato a tutti gli endpoint nell’host adobe.com. “endpoint1” ed “endpoint2” condivideranno entrambi la stessa configurazione di limitazione; se un endpoint raggiunge il limite, questo avrà un impatto anche sull’altro endpoint. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
-* È stato aggiunto un nuovo stato per le campagne e-mail all’elenco degli stati delle campagne. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* All’elenco degli stati delle campagne è stato aggiunto un nuovo stato per le campagne e-mail. [Ulteriori informazioni](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
 * La sezione Introduzione ai tipi di pubblico di Adobe Experience Platform è stata aggiornata per riflettere i metodi di valutazione del pubblico disponibili e come selezionarli. [Ulteriori informazioni](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * È stata aggiunta una nuova sottosezione per specificare quali eventi devono essere evitati durante la creazione del pubblico se si utilizza il metodo di valutazione della segmentazione in streaming. [Ulteriori informazioni](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
