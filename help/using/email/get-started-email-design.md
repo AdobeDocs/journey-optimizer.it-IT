@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
-workflow-type: tm+mt
-source-wordcount: '479'
+workflow-type: ht
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Una volta che [è stata aggiunta un’e-mail](create-email.md) a un percorso o a
 
 1. Nella pagina home di E-mail Designer, scegli come desideri progettare l’e-mail tra le seguenti opzioni:
 
-   * **Progettazione dell’e-mail da zero** tramite l’interfaccia di e-mail designer e sfrutta le immagini da [Adobe Experience Manager Assets ](../content-management/assets.md). Scopri come progettare il contenuto delle e-mail in [questa sezione](content-from-scratch.md).
+   * **Progettazione dell’e-mail da zero** tramite l’interfaccia di e-mail designer e sfrutta le immagini da [Adobe Experience Manager Assets](../content-management/assets.md). Scopri come progettare il contenuto delle e-mail in [questa sezione](content-from-scratch.md).
 
    * **Codifica o incolla HTML non elaborato** direttamente nella finestra di e-mail designer. Scopri come codificare il tuo contenuto in [questa sezione](code-content.md).
 
