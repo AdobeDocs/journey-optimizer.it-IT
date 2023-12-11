@@ -8,15 +8,15 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 30%
+ht-degree: 78%
 
 ---
 
 # Documentazione di Adobe [!DNL Journey Optimizer] {#cjm-documentation}
 
-## Quali sono le novità?
+## Novità
 
-Dai un’occhiata ai più recenti miglioramenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](using/rn/release-notes.md). Resta aggiornato sulle ultime modifiche apportate alla documentazione di visitando il [pagina aggiornamenti della documentazione](using/rn/documentation-updates.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](using/rn/release-notes.md). Per gli ultimi aggiornamenti sulle modifiche più recenti apportate alla documentazione visita la [pagina degli aggiornamenti della documentazione](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -48,7 +48,7 @@ Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messagg
     </td>
     <td>
     <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Creazione del primo percorso</strong><br/>Progetta e gestisci percorsi omnicanale personalizzati per armonizzare l’attività di marketing con il coinvolgimento dei clienti uno a uno. 
+    <div><strong>Crea il primo percorso</strong><br/>Progetta e gestisci percorsi omni-channel personalizzati per armonizzare l’attività di marketing con il coinvolgimento dei clienti uno a uno. 
     </div>
     </td>
     <td>
@@ -101,7 +101,7 @@ Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messagg
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Riferimento API</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Riferimento API</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it" target="_blank">Documentazione</a> - <a href="https://www.adobe.com/it/experience-platform/documentation-and-developer-resources.html" target="_blank">Risorse per sviluppatori</a>
@@ -109,4 +109,4 @@ Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messagg
 </tr></table>
 
 <table style="table-layout:auto"><tr style="border: 0;"><td><img src="using/assets/do-not-localize/newsletter.png"></td><td>
-<b>Resta informato e migliora la tua esperienza con Adobe Journey Optimizer.</b><br/>Iscriviti alla newsletter trimestrale. Accedi in esclusiva agli ultimi aggiornamenti dei prodotti, storie accattivanti, casi d’uso reali, suggerimenti preziosi e altro ancora: il tutto consegnato direttamente alla tua casella in entrata ogni trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Registratevi oggi stesso!</a></td></tr></table>
+<b>Segui le novità e migliora la tua esperienza con Adobe Journey Optimizer.</b><br/>Iscriviti alla newsletter trimestrale. Accedi in esclusiva agli ultimi aggiornamenti dei prodotti, storie accattivanti, casi d’uso reali, suggerimenti preziosi e altro ancora: il tutto consegnato direttamente alla tua casella di posta in entrata ogni trimestre. <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html">Registrati oggi stesso!</a></td></tr></table>
