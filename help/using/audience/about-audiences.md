@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
+source-git-commit: 51c6717d5d5d317c4ff1040194f2e831bea89222
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 57%
+source-wordcount: '880'
+ht-degree: 48%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 57%
 >title="Selezionare il pubblico della campagna"
 >abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico a cui destinare la campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] consente di generare e sfruttare tipi di pubblico di Adobe Experience Platform utilizzando i dati del profilo cliente in tempo reale direttamente dal menu **[!UICONTROL Tipi di pubblico]** e utilizzarli nei percorsi o nelle campagne. Ulteriori informazioni nella [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
+[!DNL Journey Optimizer] consente di creare e sfruttare tipi di pubblico di Adobe Experience Platform utilizzando i dati Real-Time Customer Profile direttamente dal **[!UICONTROL Tipi di pubblico]** e utilizzarli nei percorsi o nelle campagne. Per ulteriori informazioni, consulta [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 
 ## Utilizzare tipi di pubblico in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -59,11 +59,11 @@ In Adobe Journey Optimizer, i tipi di pubblico vengono generati dalle definizion
 
 L’elenco dei profili per il pubblico viene tenuto aggiornato in tempo reale man mano che nuovi dati fluiscono nel sistema.
 
-La segmentazione in streaming è un processo continuo di selezione di dati che aggiorna i tipi di pubblico in risposta all’attività dell’utente. Una volta generata la definizione di un segmento e salvato il pubblico risultante, la definizione del segmento viene applicata ai dati in entrata in Journey Optimizer. Ciò significa che i singoli utenti vengono aggiunti o rimossi dal pubblico con la modifica dei dati del loro profilo, garantendo che il pubblico target sia sempre rilevante. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html#query-types){target="_blank"}
+La segmentazione in streaming è un processo continuo di selezione di dati che aggiorna i tipi di pubblico in risposta all’attività dell’utente. Una volta generata la definizione di un segmento e salvato il pubblico risultante, la definizione del segmento viene applicata ai dati in entrata in Journey Optimizer. Ciò significa che gli individui vengono aggiunti o rimossi dal pubblico con la modifica dei dati del loro profilo, garantendo che il pubblico di destinazione sia sempre rilevante. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
 
 >[!NOTE]
 >
->Assicurati di utilizzare gli eventi giusti come criteri di segmentazione in streaming. [Ulteriori informazioni](#open-and-send-event-guardrails)
+>Assicurati di utilizzare gli eventi giusti come criteri di segmentazione in streaming. [Ulteriori informazioni](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -71,7 +71,7 @@ La segmentazione in streaming è un processo continuo di selezione di dati che a
 
 L’elenco dei profili per il pubblico viene valutato ogni 24 ore.
 
-La segmentazione in batch è un’alternativa alla segmentazione in streaming che elabora tutti i dati di profilo contemporaneamente tramite le definizioni dei segmenti. In questo modo viene creata un’istantanea del pubblico, che è possibile salvare ed esportare per l’utilizzo. Tuttavia, a differenza della segmentazione in streaming, la segmentazione in batch non aggiorna continuamente l’elenco del pubblico in tempo reale e i nuovi dati che arrivano dopo il processo batch non si riflettono nel pubblico fino al successivo processo batch. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+La segmentazione in batch è un’alternativa alla segmentazione in streaming che elabora tutti i dati di profilo contemporaneamente tramite le definizioni dei segmenti. In questo modo viene creata un’istantanea del pubblico, che è possibile salvare ed esportare per l’utilizzo. Tuttavia, a differenza della segmentazione in streaming, la segmentazione in batch non aggiorna continuamente l’elenco del pubblico in tempo reale e i nuovi dati che arrivano dopo il processo batch non verranno riflessi nel pubblico fino al successivo processo batch. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
 
 +++
 

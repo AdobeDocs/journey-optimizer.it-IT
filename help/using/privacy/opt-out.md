@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
-workflow-type: ht
-source-wordcount: '1078'
-ht-degree: 100%
+source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clie
 
 >[!NOTE]
 >
->Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it)
+>Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 
 Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer in queste sezioni:
