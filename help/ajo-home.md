@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 85c700271b49150a8796d58748a2d78b20587ee1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 ## Novità
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta la [Note sulla versione](using/rn/release-notes.md). Per gli ultimi aggiornamenti sulle modifiche più recenti apportate alla documentazione visita la [pagina degli aggiornamenti della documentazione](using/rn/documentation-updates.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate. Per gli ultimi aggiornamenti sulle modifiche più recenti apportate alla documentazione visita la [pagina degli aggiornamenti della documentazione](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -70,11 +70,11 @@ Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messagg
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Esperienza del cliente</strong><br/><a href="using/building-journeys/journey.md">Percorsi</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campagne</a> - <a href="using/landing-pages/get-started-lp.md">Pagine di destinazione</a> - <a href="using/reports/live-report.md">Generazione rapporti</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Gestione delle decisioni</a>
+      <strong>Esperienza cliente</strong><br/><a href="using/building-journeys/journey.md">Percorsi</a> - <a href="using/campaigns/get-started-with-campaigns.md">Campagne</a> - <a href="using/landing-pages/get-started-lp.md">Pagine di destinazione</a> - <a href="using/reports/live-report.md">Generazione rapporti</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">Gestione delle decisioni</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configurazione<br/>amministrazione</strong><br/><a href="using/configuration/channel-surfaces.md">Superfici di canale</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configura percorsi</a>  - <a href="using/administration/permissions-overview.md">Controllo degli accessi</a> - <a href="using/administration/sandboxes.md">Gestione delle sandbox</a>
+      <strong>Configurazione<br/>amministrazione</strong><br/><a href="using/configuration/channel-surfaces.md">Superfici di canale</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configura percorsi</a> - <a href="using/administration/permissions-overview.md">Controllo degli accessi</a> - <a href="using/administration/sandboxes.md">Gestione delle sandbox</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
@@ -84,7 +84,7 @@ Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messagg
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Gestione dei contenuti</strong><br/><a href="using/content-management/assets.md">Risorse/immagini</a> - <a href="using/personalization/personalize.md">Personalizzazione</a> - <a href="using/content-management/content-templates.md">Riutilizzabile</a> E <a href="using/personalization/dynamic-content.md">dinamico</a> contenuto - <a href="using/content-management/preview-test.md">Contenuto di prova e anteprima</a>
+      <strong>Gestione dei contenuti</strong><br/><a href="using/content-management/assets.md">Risorse/immagini</a> - <a href="using/personalization/personalize.md">Personalizzazione</a> - Contenuto <a href="using/content-management/content-templates.md">riutilizzabile</a> e <a href="using/personalization/dynamic-content.md">dinamico</a> - <a href="using/content-management/preview-test.md">Contenuto di prova e anteprima</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
