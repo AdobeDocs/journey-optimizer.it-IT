@@ -11,13 +11,13 @@ exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
 # Attributi proprietà percorso {#journey-properties}
 
-Nell’editor di espressioni avanzate, troverai **Proprietà percorso** sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati.
+Nell’editor di espressioni avanzate, troverai **Proprietà percorso** sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso o gli errori specifici rilevati.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 | Istanza percorso | instanceUID | Identificatore istanza percorso | ID dell’istanza |
 | | externalKey | Chiave esterna | Identificatore individuale che attiva il percorso |
 | | organizationId | Identificatore organizzazione | Organizzazione del brand |
-| | sandboxName | Nome della sandbox | Nome della sandbox |
+| | sandboxName | Nome sandbox | Nome della sandbox |
 | Identità | profileId | Identificatore dell’identità del profilo | Identificatore del profilo nel percorso |
 | | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (ad esempio: ECID) |
 | Nodo corrente | currentNodeId | Identificatore nodo corrente | Identificatore dell’attività corrente (nodo) |

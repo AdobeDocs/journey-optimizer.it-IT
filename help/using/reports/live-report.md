@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporti live
+title: Rapporto live
 description: Scopri come utilizzare i dati del rapporto live
 feature: Reporting
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ## Personalizza dashboard {#modify-dashboard}
 
-Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget. La modifica dei widget ha effetto solo sul dashboard dell&#39;utente corrente. Gli altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
+Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget. La modifica dei widget ha effetto solo sul dashboard dell&#39;utente corrente. Gli altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
 1. Dalla sezione **[!UICONTROL Azioni]** a discesa, scegli se desideri creare rapporti su una particolare azione dei tuoi percorsi.
 

@@ -12,7 +12,7 @@ exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 41%
+ht-degree: 37%
 
 ---
 
@@ -40,7 +40,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 ## Utilizzare un modello salvato {#use-saved-template}
 
-1. Apri [progettazione contenuto pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati.
+1. Apri [progettazione contenuto pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati in precedenza.
 
 1. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 

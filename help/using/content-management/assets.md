@@ -11,8 +11,8 @@ keywords: assets, experience manager, integrazione
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 31%
+source-wordcount: '787'
+ht-degree: 29%
 
 ---
 
@@ -26,7 +26,7 @@ Riunisci flussi di lavoro creativi e di marketing utilizzando **[!DNL Adobe Expe
 
 * **[!DNL Assets as a Cloud Service]**: Adobe Experience Manager Assets as a Cloud Service offre una soluzione cloud di facile utilizzo per la gestione efficiente delle risorse digitali e le operazioni Dynamic Medie. Incorpora perfettamente funzioni avanzate, tra cui l’intelligenza artificiale e l’apprendimento automatico.
 
-  Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html).
+  Ulteriori informazioni in [Documentazione di Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html).
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials è una soluzione leggera e as a Cloud Service ad Assets per la gestione unificata delle risorse e la collaborazione. Grazie a un’interfaccia moderna e semplificata, i team creativi e di marketing possono archiviare, individuare e distribuire risorse digitali in modo semplice.
 

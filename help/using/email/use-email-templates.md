@@ -11,8 +11,8 @@ keywords: e-mail, modelli, progettazione
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 48%
+source-wordcount: '269'
+ht-degree: 43%
 
 ---
 
@@ -60,4 +60,4 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 
 1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
 
-1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail designer.
+1. Modifica il contenuto come desiderato utilizzando E-mail designer.

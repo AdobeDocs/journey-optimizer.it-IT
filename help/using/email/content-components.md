@@ -11,8 +11,8 @@ keywords: componenti, e-mail designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 55%
+source-wordcount: '1401'
+ht-degree: 52%
 
 ---
 
@@ -123,9 +123,9 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell’e-mail e
    * **[!UICONTROL Inserisci collegamento]**: aggiungi qualsiasi tipo di collegamento al contenuto.
    * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets.md)
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
-   * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
+   * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
    * **[!UICONTROL Mostra il codice sorgente]**: visualizza il codice sorgente del testo. Non può essere modificato.
-   * **[!UICONTROL Abilita contenuto condizionale]**: aggiungi contenuto condizionale per adattare il contenuto del componente ai profili target. [Ulteriori informazioni sui contenuti dinamici](../personalization/get-started-dynamic-content.md)
+   * **[!UICONTROL Abilita contenuto condizionale]**: aggiungi contenuto condizionale per adattare il contenuto del componente ai profili di destinazione. [Ulteriori informazioni sui contenuti dinamici](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Duplica]**: aggiungi una copia del componente di testo.
    * **[!UICONTROL Elimina]**: elimina dal messaggio e-mail il componente di testo selezionato.
 

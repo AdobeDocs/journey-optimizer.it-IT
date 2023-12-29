@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 9%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **Formato API**

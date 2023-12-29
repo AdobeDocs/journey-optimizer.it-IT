@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 17%
+source-wordcount: '254'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
    >[!NOTE]
    >
-   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM in [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
 1. Immetti un nome e una descrizione per lo schema e fai clic su **Fine**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,7 +51,7 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
 >[!NOTE]
 >
->Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it#understanding-schemas){target="_blank"}.
+>Ulteriori informazioni sulla creazione di schemi in [Nozioni di base sulla composizione dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}.
 
 Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 

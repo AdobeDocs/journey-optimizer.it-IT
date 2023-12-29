@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 32%
+source-wordcount: '918'
+ht-degree: 31%
 
 ---
 
@@ -121,7 +121,7 @@ Essere in grado di consegnare direct mailing con [!DNL Journey Optimizer], è ne
 
 Una superficie di direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
 
-1. Creare una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
+1. Create una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
 1. Seleziona la **[!UICONTROL Direct mail]** canale.
 

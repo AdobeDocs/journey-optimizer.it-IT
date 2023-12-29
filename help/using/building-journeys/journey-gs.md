@@ -11,8 +11,8 @@ keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 26%
+source-wordcount: '1752'
+ht-degree: 23%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
->title="Creare percorsi"
+>title="Creare i percorsi"
 >abstract="Utilizza **Adobe Journey Optimizer** per generare l’orchestrazione in tempo reale per diversi casi d’uso, sfruttando i dati contestuali provenienti da eventi od origini dati."
 
 ## Prerequisiti{#start-prerequisites}
 
 Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 
-1. **Configurare un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. È possibile definire le informazioni previste e le modalità di elaborazione. e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
+1. **Configurare un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. È possibile definire le informazioni previste e le modalità di elaborazione. Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
 
    ![](assets/jo-event7bis.png)
 
@@ -35,11 +35,11 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 
    ![](assets/segment2.png)
 
-1. **Configurare l’origine dati**: è possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario e viene eseguita da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
+1. **Configurare l’origine dati**: è possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
-1. **Configurare un’azione**: se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md). e viene eseguita da un **utente tecnico**. Se utilizzi le funzionalità per messaggi integrate di Journey Optimizer, devi solo aggiungere un’azione di canale al percorso e progettare il contenuto.
+1. **Configurare un’azione**: se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md). Questo passaggio viene eseguito da un **utente tecnico**. Se utilizzi le funzionalità per messaggi integrate di Journey Optimizer, devi solo aggiungere un’azione di canale al percorso e progettare il contenuto.
 
    ![](assets/custom2.png)
 
@@ -48,7 +48,7 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Percorsi"
->abstract="Progettare i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
+>abstract="Progetta i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 
@@ -65,7 +65,7 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 ![](assets/journeys-dashboard.png)
 
-**Sfoglia**: in questa scheda viene visualizzato l’elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. Ad esempio, è possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
+**Sfoglia**: in questa scheda viene visualizzato l’elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. È ad esempio possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
 
 ![](assets/journeys-browse.png)
 
@@ -83,7 +83,7 @@ Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azion
 
 ## Creare il percorso{#jo-build}
 
-Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
+Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
 
 Di seguito sono riportati i passaggi principali per l’invio di messaggi tramite percorsi:
 

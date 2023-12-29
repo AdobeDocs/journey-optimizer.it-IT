@@ -11,8 +11,8 @@ keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 10%
+source-wordcount: '476'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 Utilizza il **[!UICONTROL Aggiorna profilo]** attività di azione per aggiornare un profilo Adobe Experience Platform esistente con informazioni provenienti da un evento, un’origine dati o un valore specifico.
 
-## Consigli
+## Raccomandazioni
 
 * Il **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento che ha uno spazio dei nomi.
 * L’azione aggiorna solo i campi esistenti, non crea nuovi campi profilo.
@@ -73,6 +73,6 @@ Il **Aggiorna profilo** è ora configurato.
 
 In modalità di test, l’aggiornamento del profilo non verrà simulato. L’aggiornamento verrà eseguito sul profilo di test.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform, puoi aggiornare gli attributi dei profili tramite un’importazione di file csv o chiamate API. Un metodo più semplice consiste nell&#39;utilizzare un **Aggiorna profilo** attività di azione e modifica il campo booleano del profilo di test da false a true.
+Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. In Adobe Experience Platform, puoi aggiornare gli attributi dei profili tramite un’importazione di file csv o chiamate API. Un metodo più semplice consiste nell&#39;utilizzare un **Aggiorna profilo** attività di azione e modifica il campo booleano del profilo di test da false a true.
 
 Per ulteriori informazioni su come trasformare un profilo esistente in un profilo di test, consulta questa [sezione](../audience/creating-test-profiles.md#create-test-profiles-csv).

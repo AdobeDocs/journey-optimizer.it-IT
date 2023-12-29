@@ -11,7 +11,7 @@ keywords: espressione, editor, caso d’uso, personalizzazione
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
    ![](assets/perso-uc17.png)
 
-1. Immettere i diversi valori da passare nel test. La modalità di test funziona solo con i profili di test. L’identificatore del profilo deve corrispondere a un profilo di test. Clic **Invia**.
+1. Immettere i diversi valori da passare nel test. La modalità di test funziona solo con i profili di test. L’identificatore del profilo deve corrispondere a un profilo di test. Fai clic su **Invia**.
 
    ![](assets/perso-uc18.png)
 

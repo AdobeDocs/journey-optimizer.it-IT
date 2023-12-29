@@ -11,7 +11,7 @@ exl-id: 12168cdf-f517-49b5-958b-ba689ade6982
 source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -63,7 +63,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody>
   <tr> 
-   <td> E-mail non consegnate<br/> </td> 
+   <td> Mancati recapiti<br/> </td> 
    <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.<br/> </td> 
 </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di volte in cui è stato fatto clic su un contenuto in un messaggio e-mail.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Consegnate <br/> </td> 
+   <td> Consegnato <br/> </td> 
    <td> Numero di messaggi inviati correttamente.<br/></td> 
 </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Percentuale di offerte aperte rispetto al numero di offerte inviate.<br/> </td> 
 </tr>
    <tr> 
-   <td>Offer name (Nome offerta)<br/> </td> 
+   <td>Nome offerta<br/> </td> 
    <td> Nome dell’offerta aggiunta alla consegna. Per ulteriori informazioni sul posizionamento, consulta questa <a href="../offers/offer-library/creating-personalized-offers.md">pagina</a>.<br/> </td> 
 </tr>
    <tr> 
@@ -119,7 +119,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero totale di invii per l’offerta.<br/> </td> 
 </tr> 
   <tr>
-   <td>Messaggi aperti<br/> </td> 
+   <td>Aperture<br/> </td> 
    <td> Numero di volte in cui il messaggio è stato aperto.<br/> </td> 
 </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di e-mail in coda per i nuovi tentativi.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Inviate<br/> </td> 
+   <td> Inviato<br/> </td> 
    <td> Numero totale di invii per la consegna.<br/> </td> 
 </tr>
   <tr> 
@@ -143,7 +143,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero totale di errori temporanei, ad esempio una casella in entrata completa.<br/> </td> 
 </tr>
   <tr> 
-   <td> Segnalazioni di spam<br/> </td> 
+   <td> Reclami spam<br/> </td> 
    <td> Numero di volte in cui un messaggio è stato dichiarato come posta indesiderata o posta indesiderata.<br/> </td> 
 </tr>
   <tr> 
@@ -163,7 +163,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td>Numero di destinatari che hanno aperto la consegna.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Annullamenti dell’abbonamento<br/> </td> 
+   <td> Annullamenti iscrizione<br/> </td> 
    <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
 </tr> 
  </tbody> 
@@ -180,7 +180,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody>
  <tr> 
-  <td>E-mail non consegnate<br/> </td> 
+  <td>Mancati recapiti<br/> </td> 
    <td>Numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l’azione di iscrizione.<br/> </td> 
 </tr>
  <tr>
@@ -230,11 +230,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero totale di azioni sulla notifica push consegnate, ad esempio clic su pulsante o rimozione.<br/> </td> 
 </tr>
   <tr> 
-   <td>E-mail non consegnate<br/> </td> 
+   <td>Mancati recapiti<br/> </td> 
    <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Consegnate<br/> </td> 
+   <td> Consegnato<br/> </td> 
    <td> Numero di messaggi inviati correttamente.<br/> </td> 
 </tr> 
   <tr> 
@@ -250,11 +250,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di profili esclusi da Adobe Journey Optimizer.<br/> </td> 
 </tr>
   <tr> 
-   <td> Messaggi aperti<br/> </td> 
+   <td> Aperture<br/> </td> 
    <td> Numero totale di notifiche push inviate al dispositivo e su cui gli utenti hanno fatto clic, aprendo in tal modo l’app. È simile al Clic push, tranne per il fatto che l’apertura push non viene attivata se la notifica viene chiusa.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Inviate<br/> </td> 
+   <td> Inviato<br/> </td> 
    <td> Numero totale di invii per la consegna.<br/> </td> 
 </tr> 
   <tr> 

@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 6%
+source-wordcount: '1100'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Di seguito sono elencati i passaggi chiave per configurare le offerte, includerl
 
    * Creare posizionamenti
    * Creare regole di decisione
-   * Creare qualificatori di raccolta (precedentemente noti come &quot;tag&quot;)
+   * Creare qualificatori di raccolta (noti in precedenza come &quot;tag&quot;)
    * Creare classificazioni (facoltativo)
 
 1. [Configurare le offerte](#configure-offers)
@@ -114,7 +114,7 @@ Le troverai sotto al **[!UICONTROL Gestione delle decisioni]** > **[!UICONTROL M
 
 Ora puoi creare e configurare le offerte. In questo esempio, creerai quattro offerte che desideri visualizzare in base a ciascun profilo specifico.
 
-1. Creare un’offerta. Ulteriori informazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
+1. Crea un’offerta. Ulteriori informazioni in [questa sezione](../../using/offers/offer-library/creating-personalized-offers.md#create-offer).
 
 1. In questa offerta, crea tre rappresentazioni. Ogni rappresentazione deve essere una combinazione di un posizionamento creato in precedenza e di una risorsa:
 
@@ -155,7 +155,7 @@ I passaggi dettagliati per la creazione e la configurazione delle offerte sono d
 
 ## Creare un’offerta di fallback {#create-fallback}
 
-1. Creare un’offerta di fallback.
+1. Crea un’offerta di fallback.
 
 1. Definisci le stesse rappresentazioni delle offerte, con le risorse appropriate (dovrebbero essere diverse da quelle utilizzate nelle offerte).
 

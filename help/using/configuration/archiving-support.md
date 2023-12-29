@@ -11,8 +11,8 @@ keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 7%
 
 ---
 
@@ -113,7 +113,7 @@ Per farlo, segui la procedura indicata di seguito.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
+>Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
 ### Dati di reporting Ccn {#bcc-reporting}
 

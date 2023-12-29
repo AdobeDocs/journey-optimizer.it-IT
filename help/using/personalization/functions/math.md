@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '207'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Questa query restituisce come numero di input una stringa formattata in arabo co
 {%= formatNumber(123456.789, "ar_EG") %}
 ```
 
-## Random {#random}
+## Casuale {#random}
 
 Il `random` viene utilizzata per restituire un valore casuale compreso tra 0 e 1.
 

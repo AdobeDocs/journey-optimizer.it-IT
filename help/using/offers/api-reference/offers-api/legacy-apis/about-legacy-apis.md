@@ -8,11 +8,11 @@ level: Experienced
 exl-id: cfe8162b-d50f-4ad3-8b62-9d30b756ad1b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 0%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
 
-# Informazioni sulle API legacy
+# Informazioni sulle API Legacy
 
 Sono state aggiornate le API per la creazione e la gestione degli oggetti di gestione delle decisioni. Queste API aggiornate forniscono prestazioni migliori e una migliore esperienza complessiva per l’utente. Le API legacy diventeranno obsolete il 27 marzo 2024. Apporta le modifiche necessarie prima di tale data.

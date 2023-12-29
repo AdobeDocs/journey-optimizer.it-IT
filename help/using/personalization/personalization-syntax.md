@@ -11,8 +11,8 @@ keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 10%
+source-wordcount: '719'
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ Le parole **true**, **false**, **nulle** e **non definito** sono consentiti solo
 
 In Handlebars, i valori restituiti da {{expression}} sono **con escape HTML**. Se l’espressione contiene `&`, quindi l’output con escape HTML restituito viene generato come `&amp;`. Se non desideri che Handlebars sfugga a un valore, utilizza il &quot;triplo-stash&quot;.
 
-Per quanto riguarda gli argomenti delle funzioni letterali, il parser del linguaggio dei modelli non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduta da una barra rovesciata (`\`). Esempio :
+Per quanto riguarda gli argomenti delle funzioni letterali, il parser del linguaggio dei modelli non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduta da una barra rovesciata (`\`). Esempio:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 

@@ -11,8 +11,8 @@ keywords: abac, attributo, autorizzazioni, dati, accesso, dati sensibili, risors
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
 source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 1%
+source-wordcount: '1021'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Tieni presente che **[!UICONTROL Ruoli]**, **[!UICONTROL Criteri]** e **[!UICONT
 
 >[!IMPORTANT]
 >
->Prima di gestire le autorizzazioni per un ruolo, è necessario creare un criterio. Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+>Prima di gestire le autorizzazioni per un ruolo, è necessario creare un criterio. Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=it).
 
 **[!UICONTROL Ruoli]** sono un set di utenti che condividono le stesse autorizzazioni, etichette e sandbox all’interno dell’organizzazione. Ogni utente appartenente a un **[!UICONTROL Ruolo]** ha diritto alle app e ai servizi di Adobe contenuti nel prodotto.
 Puoi anche creare **[!UICONTROL Ruoli]** se desideri ottimizzare l’accesso degli utenti a determinate funzionalità o oggetti nell’interfaccia.

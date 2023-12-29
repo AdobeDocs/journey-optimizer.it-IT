@@ -8,8 +8,8 @@ keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 9%
+source-wordcount: '642'
+ht-degree: 6%
 
 ---
 
@@ -105,7 +105,7 @@ Il canale in-app è ora configurato. Puoi iniziare a inviare messaggi in-app agl
 
 ## Prerequisiti per l’esperimento sui contenuti {#experiment-prerequisites}
 
-Per abilitare gli esperimenti di contenuto per il canale in-app, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell’implementazione in-app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} è incluso anche nella configurazione di reporting.
+Per abilitare gli esperimenti di contenuto per il canale in-app, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell’implementazione in-app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} è incluso anche nella configurazione di reporting.
 
 In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati web, i dati web non vengono visualizzati nei rapporti sull’esperimento del contenuto.
 

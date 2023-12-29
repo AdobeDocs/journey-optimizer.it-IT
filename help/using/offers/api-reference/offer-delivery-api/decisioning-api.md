@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 4%
+source-wordcount: '1057'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
+| Accetta | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
 ## richiesta API {#request}
@@ -201,7 +201,7 @@ La tabella seguente elenca tutti i codici che possono essere restituiti nella ri
 
 | Codice | Descrizione |
 |  ---  |  ---  |
-| 200 | Operazione riuscita. La decisione è stata presa per determinate attività |
+| 200 | Operazione completata. La decisione è stata presa per determinate attività |
 | 400 | Parametro di richiesta non valido. Impossibile comprendere la richiesta dal server a causa di sintassi non valida. |
 | 403 | Autorizzazioni non consentite, insufficienti. |
 | 422 | Entità non elaborabile. La sintassi della richiesta è corretta, tuttavia, a causa di errori semantici non è possibile elaborarla. |

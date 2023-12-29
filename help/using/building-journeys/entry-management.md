@@ -10,8 +10,8 @@ keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 5%
+source-wordcount: '604'
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,6 @@ In un percorso di pubblico lettura:
 
 >[!NOTE]
 >
->Sono disponibili due opzioni per percorsi di pubblico ricorrenti di lettura. Il **Forza rientro in caso di ricorrenza** fa in modo che tutti i profili ancora presenti nel percorso lo abbandonino automaticamente all’esecuzione successiva. Il **Lettura incrementale** L’opzione esegue il targeting solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso. Consulta questa [sezione](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+>Sono disponibili due opzioni per percorsi di pubblico ricorrenti di lettura. Il **Forza rientro in caso di ricorrenza** fa in modo che tutti i profili ancora presenti nel percorso lo abbandonino automaticamente all’esecuzione successiva. Il **Lettura incrementale** L’opzione esegue il targeting solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso. Fai riferimento a questo [sezione](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 Nei percorsi di evento business che iniziano con **Read audience** attività: sapendo che questo percorso si basa sulla ricezione di un evento di business, se il profilo è qualificato nel pubblico previsto, entreranno nel percorso per ogni evento di business ricevuto, il che significa che questo profilo può essere più volte nello stesso percorso, allo stesso tempo, ma nel contesto di diversi eventi di business.

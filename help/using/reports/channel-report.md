@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
 workflow-type: tm+mt
-source-wordcount: '2664'
+source-wordcount: '2665'
 ht-degree: 33%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
-> Per accedere al menu **Rapporto**, è necessario disporre dell’autorizzazione **[!UICONTROL Visualizza rapporti sui canali.]** [Ulteriori informazioni](channel-report-gs.md#before-starting-manage-reports-prereq)
+> Per accedere al **Report** menu, è necessario disporre di **[!UICONTROL Visualizzare i rapporti sul canale]** autorizzazione. [Ulteriori informazioni](channel-report-gs.md#before-starting-manage-reports-prereq)
 
 I rapporti sul canale forniscono agli utenti una panoramica completa delle metriche del traffico e del coinvolgimento a livello di canale. Le metriche vengono aggregate per presentare valori consolidati per le azioni provenienti dal canale scelto, che si estendono su vari percorsi e campagne.
 

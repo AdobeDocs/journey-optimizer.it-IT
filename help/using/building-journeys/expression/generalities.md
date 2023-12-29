@@ -10,8 +10,8 @@ keywords: sintassi, editor, percorso
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 4%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 

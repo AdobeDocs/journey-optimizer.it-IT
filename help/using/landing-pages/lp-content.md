@@ -11,8 +11,8 @@ keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, compo
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 11%
+source-wordcount: '1308'
+ht-degree: 9%
 
 ---
 
@@ -75,7 +75,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    * **[!UICONTROL Consenso se selezionata]**: gli utenti devono selezionare la casella per il consenso (opt-in).
    * **[!UICONTROL Rinuncia se selezionata]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
-   * **[!UICONTROL Consenso se selezionata, rinuncia se non selezionata]**: questa opzione ti consente di inserire una singola casella di controllo per il consenso/diniego. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out).
+   * **[!UICONTROL Consenso se selezionata, rinuncia se non selezionata]**: questa opzione ti consente di inserire una singola casella di controllo per il consenso/diniego. Gli utenti devono selezionare la casella per il consenso (opt-in) e deselezionarla per la rimozione del consenso (opt-out).
 
 1. Scegli cosa verrà aggiornato tra le tre opzioni seguenti:
 

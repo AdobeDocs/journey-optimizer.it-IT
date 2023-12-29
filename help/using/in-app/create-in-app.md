@@ -9,8 +9,8 @@ keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1987'
-ht-degree: 14%
+source-wordcount: '1939'
+ht-degree: 12%
 
 ---
 
@@ -51,7 +51,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
       +++Consulta Triggers disponibili.
 
-      | Pacchetto | Attivatore | Definizione |
+      | Pacchetto | Trigger | Definizione |
       |---|---|---|
       | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall’estensione AEP Edge. |
       | Tracciamento di base | Azione di tracciamento | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) viene chiamato. |
@@ -61,7 +61,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
       | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
-      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento è inviato all&#39;avvio dell&#39;applicazione in seguito a un arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
+      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
       | Places | Inserisci POI | Attivato dall’SDK Places quando il cliente accede al punto di interesse (POI) configurato. |
       | Places | Esci da POI | Attivato dall’SDK Places quando il cliente esce dal punto di interesse (POI) configurato. |
 
@@ -77,7 +77,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
       +++Vedi Caratteristiche disponibili.
 
-      | Pacchetto | Caratteristiche  | Definizione |
+      | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
       | Informazioni dispositivo | Nome gestore | Attivazione quando viene soddisfatto uno dei nomi dei gestori dell&#39;elenco. |
       | Informazioni dispositivo | Nome dispositivo | Attivazione quando viene raggiunto uno dei nomi di dispositivo. |
@@ -91,7 +91,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
       | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
-      | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Avvii | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
       | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
@@ -149,7 +149,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
       +++Consulta Triggers disponibili.
 
-      | Pacchetto | Attivatore | Definizione |
+      | Pacchetto | Trigger | Definizione |
       |---|---|---|
       | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall’estensione AEP Edge. |
       | Tracciamento di base | Azione di tracciamento | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) viene chiamato. |
@@ -159,7 +159,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
       | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
-      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento è inviato all&#39;avvio dell&#39;applicazione in seguito a un arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
+      | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
       | Places | Inserisci POI | Attivato dall’SDK Places quando il cliente accede al punto di interesse (POI) configurato. |
       | Places | Esci da POI | Attivato dall’SDK Places quando il cliente esce dal punto di interesse (POI) configurato. |
 
@@ -175,7 +175,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
       +++Vedi Caratteristiche disponibili.
 
-      | Pacchetto | Caratteristiche  | Definizione |
+      | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
       | Informazioni dispositivo | Nome gestore | Attivazione quando viene soddisfatto uno dei nomi dei gestori dell&#39;elenco. |
       | Informazioni dispositivo | Nome dispositivo | Attivazione quando viene raggiunto uno dei nomi di dispositivo. |
@@ -189,7 +189,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
       | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
-      | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Avvii | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
       | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |

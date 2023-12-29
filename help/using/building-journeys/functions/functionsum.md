@@ -9,8 +9,8 @@ keywords: sum, function, expression, percorsi
 exl-id: a9085f4d-6434-4bc5-8e5d-3f2b6033defc
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 14%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
@@ -32,7 +32,7 @@ Aggregazione
 * listDecimal
 * durata
 * numero intero
-* decimal
+* decimale
 
 ## Firme e tipi restituiti
 

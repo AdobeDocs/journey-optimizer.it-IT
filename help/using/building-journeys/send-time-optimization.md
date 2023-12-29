@@ -12,7 +12,7 @@ exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 36%
+ht-degree: 26%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 36%
 >title="Ottimizzazione dell’ora di invio"
 >abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
 
-La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
+La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
 
 Il modello di ottimizzazione dell’ora di invio acquisisce i dati Adobe Journey Optimizer e osserva le percentuali di apertura (e-mail e push) e clic (per e-mail) a livello di utente, per determinare quando i clienti hanno più probabilità di interagire con i messaggi. L’ottimizzazione dell’ora di invio richiede almeno un mese di dati di tracciamento dei messaggi per generare consigli informati. Per ogni utente, il sistema sceglierà automaticamente il momento migliore utilizzando i punteggi seguenti:
 
@@ -54,6 +54,6 @@ Abilitare l’ottimizzazione dell’ora di invio in un messaggio e-mail o push s
 
 ![](../building-journeys/assets/jo-message5.png)
 
-Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push.
+Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. I messaggi push hanno per impostazione predefinita l’opzione opens, in quanto i clic non sono applicabili ai messaggi push.
 
 È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per **Invia entro il prossimo** opzione. Se scegli &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ciascun profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.

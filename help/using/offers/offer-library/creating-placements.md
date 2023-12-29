@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 11%
+source-wordcount: '537'
+ht-degree: 12%
 
 ---
 
@@ -66,7 +66,7 @@ Per creare un posizionamento, effettuate le seguenti operazioni:
    >
    >Se utilizzi il [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), è possibile impostare questi parametri in questa schermata o nella richiesta API. In caso di mancata corrispondenza dei valori dei parametri tra la schermata e la richiesta APi, verranno utilizzati i valori della richiesta.
 
-1. Clic **[!UICONTROL Salva]** per confermare.
+1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
 1. Una volta creato, il posizionamento viene visualizzato nell’elenco dei posizionamenti. Puoi selezionarlo per visualizzarne le proprietà e modificarlo.
 

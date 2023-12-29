@@ -11,7 +11,7 @@ exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -50,5 +50,5 @@ Quando il messaggio di testo è pronto, completa la configurazione del [percorso
 
 * [Configurare il canale SMS](sms-configuration.md)
 * [Rapporti SMS/MMS](../reports/journey-global-report.md#sms-global)
-* [Creare un messaggio di testo](create-sms.md)
+* [Creare un messaggio SMS](create-sms.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)

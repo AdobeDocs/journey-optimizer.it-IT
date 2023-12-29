@@ -11,8 +11,8 @@ keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 25%
+source-wordcount: '1716'
+ht-degree: 21%
 
 ---
 
@@ -130,7 +130,7 @@ Per definire le impostazioni della pagina principale, effettua le seguenti opera
 
    ![](assets/lp_open-designer.png)
 
-1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) hai selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione come parte del [predefinito](../landing-pages/lp-presets.md#lp-create-preset) hai selezionato. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -199,7 +199,7 @@ Per definire le impostazioni delle pagine secondarie, effettuare le seguenti ope
    >
    >Puoi inserire un collegamento alla pagina principale da qualsiasi pagina secondaria della stessa pagina di destinazione. Ad esempio, per reindirizzare gli utenti che hanno commesso un errore e desiderano effettuare nuovamente l’abbonamento, puoi aggiungere un collegamento dalla pagina secondaria di conferma alla pagina principale dell’abbonamento. Scopri come inserire collegamenti in [questa sezione](../email/message-tracking.md#insert-links).
 
-1. Definire l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
+1. Definisci l’URL della pagina di destinazione. La prima parte dell’URL richiede la configurazione precedente di un sottodominio della pagina di destinazione. [Ulteriori informazioni](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

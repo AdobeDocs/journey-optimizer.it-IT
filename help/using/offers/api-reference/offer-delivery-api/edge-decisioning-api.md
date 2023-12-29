@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 5%
+source-wordcount: '888'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Questa opzione è più intuitiva per le persone che potrebbero avere meno esperi
 
 1. [Creare una proprietà tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html)
 
-1. [Aggiungere il codice di incorporamento ](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
+1. [Aggiungere il codice di incorporamento](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html)
 
 1. Installa e configura l’estensione Adobe Experience Platform Web SDK con lo stream di dati creato selezionando la configurazione dal menu a discesa &quot;Stream di dati&quot;. Consulta la documentazione su [estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html).
 
@@ -70,7 +70,7 @@ Questa opzione è più intuitiva per le persone che potrebbero avere meno esperi
 
 1. Creare il necessario [Elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). È necessario creare almeno una mappa identità di Platform Web SDK e un elemento dati di oggetti XDM di Platform Web SDK.
 
-   ![Mappa delle identità](../../assets/sdk-identity-map.png)
+   ![Mappa identità](../../assets/sdk-identity-map.png)
 
    ![Oggetto XDM](../../assets/xdm-object.png)
 

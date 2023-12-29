@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 18%
+source-wordcount: '954'
+ht-degree: 14%
 
 ---
 
@@ -56,7 +56,7 @@ Puoi gestire facilmente tutti i componenti, le regolazioni e gli stili aggiunti 
 
 ## Aggiungi modifiche dal riquadro dedicato {#add-modifications}
 
-Quando modifichi una pagina utilizzando il designer Web, puoi aggiungere nuove modifiche al contenuto direttamente dal **[!UICONTROL Modifiche]** riquadro - senza la necessità di selezionare un componente e modificarlo dall’interfaccia di web designer. Effettua le seguenti operazioni.
+Quando modifichi una pagina utilizzando il designer Web, puoi aggiungere nuove modifiche al contenuto direttamente dal **[!UICONTROL Modifiche]** riquadro - senza la necessità di selezionare un componente e modificarlo dall’interfaccia di web designer. Segui i passaggi seguenti.
 
 1. Dalla sezione **[!UICONTROL Modifiche]** , fare clic sul pulsante **[!UICONTROL Altre azioni]** pulsante.
 
@@ -116,7 +116,7 @@ Per aggiungere una **Pagina`<head>`** modifica del tipo, segui la procedura ripo
 
    >[!CAUTION]
    >
-   >Puoi aggiungere solo `<script>` e `<style>` elementi al `<head>` sezione. L’aggiunta di tag `<div>` e di altri elementi potrebbe causare la comparsa di elementi `<head>` rimanenti nel `<body>`. 
+   >Puoi aggiungere solo `<script>` e `<style>` elementi al `<head>` sezione. Aggiunta `<div>` tag e altri elementi potrebbero causare la `<head>` elementi da inserire nel `<body>`.
 
 1. Fai clic su **[!UICONTROL Opzioni di modifica avanzate]** pulsante. Viene aperto l’editor espressioni.
 
@@ -175,7 +175,7 @@ Gli script vengono eseguiti in modo asincrono. Questo causa spesso la visualizza
 
 +++ **Se crei un elemento e lo modifichi, non eliminare l’elemento originale.**
 
-Ogni modifica crea un nuovo elemento nel **[!UICONTROL Modifiche]** pannello. La seconda azione modifica l&#39;elemento 1: se lo elimini, questa azione non avrà più niente da modificare, risultando nella mancata applicazione della modifica.
+Ogni modifica crea un nuovo elemento nel **[!UICONTROL Modifiche]** pannello. La seconda azione modifica l&#39;elemento 1: se lo elimini, questa azione non avrà più nulla da modificare e la modifica non funzionerà più.
 
 +++
 

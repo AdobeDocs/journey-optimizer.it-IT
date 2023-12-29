@@ -10,8 +10,8 @@ keywords: percorso, campo, espressione, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 4%
+source-wordcount: '562'
+ht-degree: 2%
 
 ---
 
@@ -101,7 +101,7 @@ expression examples:
 
 Per fare riferimento agli elementi definiti nelle raccolte vengono utilizzate le funzioni specifiche `all`, `first` e `last`. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
-Esempio :
+Esempio:
 
 ```json
 @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
@@ -109,7 +109,7 @@ Esempio :
 
 ## Riferimento a un campo definito in una mappa
 
-### Funzione  di `entry`
+### `entry` funzione
 
 Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una determinata chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Per ulteriori informazioni, consulta [questa pagina](../../event/about-creating.md#select-the-namespace).
 
@@ -119,7 +119,7 @@ Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione c
 
 In questa espressione, si ottiene la voce per la chiave &quot;E-mail&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;E-mail&quot; è una raccolta, da cui prendiamo l’&quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
-### Funzione  di `firstEntryKey`
+### `firstEntryKey` funzione
 
 Per recuperare la prima chiave di ingresso di una mappa, utilizza `firstEntryKey` funzione.
 
@@ -131,7 +131,7 @@ Questo esempio mostra come recuperare il primo indirizzo e-mail degli abbonati d
 
 In questo esempio, l’elenco degli abbonamenti è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nella `subscribers` mappa, collegata alla mappa dell’elenco di iscrizioni.
 
-### Funzione  di `keys`
+### `keys` funzione
 
 Per recuperare in tutte le chiavi di una mappa, utilizza `keys` funzione.
 

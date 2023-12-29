@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 9245d6a93aaaa85bee56e2291a53ca7495b6ba9e
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 10%
+source-wordcount: '1349'
+ht-degree: 11%
 
 ---
 
@@ -67,7 +67,7 @@ Il **[!UICONTROL Azione eseguita nelle ultime 24 ore]** e **[!UICONTROL Azioni e
 * **[!UICONTROL Errore nelle azioni]**: numero totale di errori che si sono verificati per le azioni.
 +++
 
-## Scheda E-mail {#email-live}
+## Scheda e-mail {#email-live}
 
 Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL E-mail]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alle consegne e-mail inviate nel tuo percorso.
 
@@ -126,7 +126,7 @@ Il **[!UICONTROL Statistica sulle offerte]** e **[!UICONTROL Statistiche sulle o
 * **[!UICONTROL Clic sull’offerta]**: numero di volte in cui è stato fatto clic su un’offerta in una consegna.
 +++
 
-## Scheda Notifica push {#push-live}
+## Scheda notifica push {#push-live}
 
 Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL Notifica push]** La scheda descrive le informazioni principali relative alle consegne push inviate nel tuo percorso.
 
@@ -188,7 +188,7 @@ Il **[!UICONTROL Riepilogo SMS]** il grafico descrive il successo della consegna
 Il **[!UICONTROL Escludi motivi]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante la consegna.
 +++
 
-## Scheda In-app {#in-app-live}
+## Scheda in-app {#in-app-live}
 
 ![](assets/journey_live_5.png)
 

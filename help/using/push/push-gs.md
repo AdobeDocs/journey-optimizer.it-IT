@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 10%
+source-wordcount: '729'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Questa pagina consente di impostare e comprendere i servizi e i flussi di lavoro
 
 >[!AVAILABILITY]
 >
->Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è ora disponibile. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile come Beta pubblica tramite la pagina Home di raccolta dati. [Ulteriori informazioni](mobile-onboarding-wf.md)
+>Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è ora disponibile. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
 >
 
 Scopri come creare notifiche push su [questa pagina](create-push.md).

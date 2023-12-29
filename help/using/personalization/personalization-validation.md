@@ -11,8 +11,8 @@ keywords: espressione, editor, convalida, errori, personalizzazione
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
 source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '315'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ La convalida viene eseguita durante la convalida del contenuto di personalizzazi
 <table> 
  <thead> 
   <tr> 
-   <th> Titolo dell’errore<br /> </th> 
+   <th> Titolo errore<br /> </th> 
    <th> Convalida/risoluzione <br /> </th> 
   </tr> 
  </thead> 

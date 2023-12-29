@@ -11,8 +11,8 @@ keywords: profili di test, test, test, percorso
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 4%
+source-wordcount: '1328'
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l’elenco de
 
 1. Nell’elenco dei campi, fai clic sul campo che desideri definire come identità primaria.
    ![](assets/test-profiles-3.png)
-1. In **[!UICONTROL Proprietà campo]** riquadro destro, selezionare **[!UICONTROL Identità]** e **[!UICONTROL Identità primaria]** e selezionare uno spazio dei nomi. Se desideri che l’identità primaria sia un indirizzo e-mail, scegli **[!UICONTROL E-mail]** spazio dei nomi. Clic **[!UICONTROL Applica]**.
+1. In **[!UICONTROL Proprietà campo]** riquadro destro, selezionare **[!UICONTROL Identità]** e **[!UICONTROL Identità primaria]** e selezionare uno spazio dei nomi. Se desideri che l’identità primaria sia un indirizzo e-mail, scegli **[!UICONTROL E-mail]** spazio dei nomi. Fai clic su **[!UICONTROL Applica]**.
    ![](assets/test-profiles-4bis.png)
 1. Seleziona lo schema e abilita **[!UICONTROL Profilo]** opzione in **[!UICONTROL Proprietà dello schema]** riquadro.
    ![](assets/test-profiles-5.png)
@@ -181,7 +181,7 @@ Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il
 
 ## Creare profili di test tramite chiamate API{#create-test-profiles-api}
 
-Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
+Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 Devi utilizzare uno schema di profilo che contiene il gruppo di campi &quot;Dettagli test profilo&quot;. Il flag testProfile fa parte di questo gruppo di campi.
 Quando crei un profilo, accertati di trasmettere il valore: testProfile = true.

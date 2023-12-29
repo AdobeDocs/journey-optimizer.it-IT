@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 3%
+source-wordcount: '1834'
+ht-degree: 2%
 
 ---
 
@@ -61,7 +61,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="arrays-list.md#first-n">Primo n nell’array</a></td><td>Questa funzione restituisce i primi elementi "N" di un array, se ordinati in ordine crescente in base alla data espressione numerica</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>Questa funzione viene utilizzata per determinare se un elemento è membro di un array o di un elenco</td>
+        <td><a href="arrays-list.md#in">In entrata</a></td><td>Questa funzione viene utilizzata per determinare se un elemento è membro di un array o di un elenco</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Include</a></td><td>Questa funzione determina se un array o un elenco contiene un dato elemento</td>
@@ -155,7 +155,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="math.md#format-number">Formato numero</a></td><td>Questa funzione formatta qualsiasi numero nella sua rappresentazione sensibile alla lingua.</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">Random</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1.</td>
+        <td><a href="math.md#random">Casuale</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1.</td>
     </tr>
     <tr>
         <td><a href="math.md#round-down">Arrotonda per difetto</a></td><td>Questa funzione arrotonda un numero per difetto</td>

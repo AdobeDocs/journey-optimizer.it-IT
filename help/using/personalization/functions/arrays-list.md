@@ -8,7 +8,7 @@ level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '564'
 ht-degree: 6%
 
 ---
@@ -131,7 +131,7 @@ L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più b
 {%= topN(orders,price, 5) %}
 ```
 
-## In{#in}
+## In entrata{#in}
 
 Il `in` viene utilizzata per determinare se un elemento è membro di un array o di un elenco.
 

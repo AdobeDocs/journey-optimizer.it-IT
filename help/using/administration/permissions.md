@@ -11,8 +11,8 @@ level: Intermediate
 keywords: product, profiles, sandbox
 source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 8%
+source-wordcount: '740'
+ht-degree: 4%
 
 ---
 
@@ -91,7 +91,7 @@ Se necessario, puoi anche creare un nuovo ruolo con autorizzazioni specifiche. P
 
 [!DNL Journey Optimizer] consente di creare **[!UICONTROL Ruoli]** e assegna un set di autorizzazioni e sandbox agli utenti. Con **[!UICONTROL Ruoli]**, puoi autorizzare o negare l’accesso a determinate funzionalità o oggetti nell’interfaccia.
 
-Per ulteriori informazioni sulla modalità di creazione e di gestione delle sandbox, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
+Per ulteriori informazioni su come creare e gestire le sandbox, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it){target="_blank"}.
 
 In questo esempio verrà creato un ruolo denominato **Percorsi di sola lettura** dove verranno concessi diritti di sola lettura per la funzione di Percorso. Gli utenti potranno solo accedere ai percorsi e visualizzarli e non potranno accedere ad altre funzioni, come **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
@@ -125,4 +125,4 @@ Per creare **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 
 Il tuo **[!UICONTROL Ruolo]** viene ora creato e configurato. Ora devi assegnarla agli utenti.
 
-Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta [Documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html).
+Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta [Documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=it).

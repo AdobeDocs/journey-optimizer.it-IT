@@ -11,8 +11,8 @@ keywords: configurazione, sperimentazione, reporting, ottimizzatore
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: 1490ac2efd39c6bf9b6ca97e682750463e9f054d
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 48%
+source-wordcount: '592'
+ht-degree: 29%
 
 ---
 
@@ -45,7 +45,7 @@ Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli
 ## Prerequisiti
 
 
-Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come fare nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
+Prima di poter aggiungere un set di dati alla configurazione di reporting, devi crearlo. Scopri come nella [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * Puoi aggiungere solo set di dati di tipo evento.
 
@@ -57,9 +57,9 @@ Prima di poter aggiungere un set di dati alla configurazione di reporting, devi 
   >
   >Possono essere inclusi anche altri gruppi di campi, ma solo i gruppi di campi di cui sopra sono attualmente supportati nella generazione rapporti di Journey Optimizer.
 
-  Ad esempio, se desideri conoscere l’impatto di una campagna e-mail sui dati di commerce, ad esempio acquisti o ordini, devi creare un set di dati evento esperienza con il gruppo di campi `Commerce Details`. 
+  Ad esempio, se desideri conoscere l’impatto di una campagna e-mail sui dati di commerce, ad esempio acquisti o ordini, devi creare un set di dati evento esperienza con `Commerce Details` gruppo di campi.
 
-  Allo stesso modo, se desideri creare rapporti sulle interazioni mobili, devi creare un set di dati evento esperienza con gruppo di campi `Application Details`. 
+  Allo stesso modo, se desideri creare rapporti sulle interazioni mobili, devi creare un set di dati evento esperienza con `Application Details` gruppo di campi.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -67,7 +67,7 @@ Prima di poter aggiungere un set di dati alla configurazione di reporting, devi 
 
 >[!NOTE]
 >
->Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+>Ulteriori informazioni sugli schemi e sui gruppi di campi XDM in [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -105,7 +105,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-datasets.png)
 
-   Per ulteriori informazioni sui set di dati, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
+   Per ulteriori informazioni sui set di dati, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}.
 
 1. Dalla sezione **[!UICONTROL ID profilo]** dall’elenco a discesa, seleziona l’attributo del campo set di dati che verrà utilizzato per identificare ogni profilo nei rapporti.
 
@@ -119,7 +119,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   Per ulteriori informazioni sugli spazi dei nomi, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target="_blank"}.
+   Per ulteriori informazioni sugli spazi dei nomi, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=it){target="_blank"}.
 
 1. Salva le modifiche per aggiungere il set di dati selezionato all’elenco di configurazione del reporting.
 

@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 54%
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 >title="Informazioni sulle azioni"
 >abstract="In questa sezione è possibile definire la connessione al sistema che invierà i messaggi. Le azioni qui configurate saranno quindi disponibili nella palette a sinistra del percorso, nella categoria Azione."
 
-Le azioni rappresentano le connessioni attraverso le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail,  o qualsiasi altro strumento di coinvolgimento digitale che utilizzi nella tua azienda.
+Le azioni sono connessioni tramite le quali puoi offrire esperienze personalizzate in tempo reale ai clienti, ad esempio notifiche push, e-mail o qualsiasi altro mezzo di coinvolgimento digitale utilizzato nella tua azienda.
 
 ➡️ [Scopri questa funzione nel video](#video)
 

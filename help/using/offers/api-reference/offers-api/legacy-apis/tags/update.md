@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 7%
+source-wordcount: '170'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/tag;version=0.1"` |
 
 **Formato API**
@@ -34,7 +34,7 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-Parametro | | Descrizione | Esempio | | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | Contenitore in cui si trovano i tag. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | L’ID istanza del tag che desideri aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| Parametro | Descrizione | Esempio | | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | Contenitore in cui si trovano i tag. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | ID istanza del tag che desideri aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Richiesta**
 

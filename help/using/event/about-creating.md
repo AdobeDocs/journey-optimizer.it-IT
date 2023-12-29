@@ -11,8 +11,8 @@ keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1623'
-ht-degree: 15%
+source-wordcount: '1606'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="Eventi unitari"
 >abstract="La configurazione dell’evento consente di definire le informazioni che Journey Optimizer riceverà sotto forma di eventi. All’interno dei vari passaggi di un percorso puoi utilizzare più eventi, e uno stesso evento può essere utilizzato in più percorsi. Gli eventi unitari sono collegati a un profilo specifico. Possono essere basati su regole o generati dal sistema."
 
-Gli eventi unitari sono collegati a un profilo specifico. Possono essere basati su regole o generati dal sistema.  Ulteriori informazioni sull’evento unitario [questa sezione](../event/about-events.md).
+Gli eventi unitari sono collegati a un profilo specifico. Possono essere basate su regole o generate dal sistema.  Ulteriori informazioni sull’evento unitario [questa sezione](../event/about-events.md).
 
 Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 

@@ -11,12 +11,12 @@ keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 71%
+source-wordcount: '512'
+ht-degree: 47%
 
 ---
 
-# Limitazioni  {#journey-limitations}
+# Limitazioni {#journey-limitations}
 
 Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
@@ -39,17 +39,17 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” oppure “$”. 
+* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o &quot;$&quot;. 
 * Gli indirizzi IP non sono consentiti. 
 * Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
 
-## Eventi limitazioni {#events-limitations}
+## Limitazioni degli eventi {#events-limitations}
 
-* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso di clienti devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 
 ## Limitazioni delle origini dati {#data-sources-limitations}
 
-* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
+* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume di richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
@@ -61,7 +61,7 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 * Aggiungi un’attività di attesa dopo il primo evento, per dare ad Adobe Experience Platform il tempo necessario per eseguire l’acquisizione nel servizio profilo.
 
-* Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc).
+* Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 
 ## Limitazioni del pubblico di lettura {#read-audiences-limitations}
 

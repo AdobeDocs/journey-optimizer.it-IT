@@ -11,8 +11,8 @@ keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 83%
+source-wordcount: '311'
+ht-degree: 72%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 83%
 
 La configurazione dell’origine dati consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei percorsi e consentiranno di ottenere:
 
-* [Definizione della condizione.](../building-journeys/condition-activity.md)
+* [definizione della condizione](../building-journeys/condition-activity.md)
 * Dati dei parametri e di personalizzazione nelle [azioni](../action/action.md).
-* [Impostazione di attesa personalizzata.](../building-journeys/wait-activity.md#custom)
-* [Impostazione del fuso orario](../building-journeys/timezone-management.md)
+* [definizione di attesa personalizzata](../building-journeys/wait-activity.md#custom)
+* [definizione del fuso orario](../building-journeys/timezone-management.md)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -45,7 +45,7 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 >
 >Le relazioni tra schemi non sono supportate per le origini dati.
 
-Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Per ulteriori informazioni su come configurare un&#39;origine dati Adobe Experience Platform e un&#39;origine dati esterna e su come individuare e utilizzare i dati in un percorso, vedere [video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Video introduttivo {#video}
 

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
 source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 18%
+source-wordcount: '1101'
+ht-degree: 17%
 
 ---
 
@@ -73,7 +73,7 @@ Per iniziare a creare la tua campagna web, segui i passaggi indicati di seguito.
 
 1. Seleziona qualsiasi elemento dall’area di lavoro, ad esempio immagine, pulsante, paragrafo, testo, contenitore, intestazione, collegamento e così via. [Ulteriori informazioni](#content-components)
 
-1. Seleziona:
+1. Usa:
 
    * Il menu contestuale per modificarne il contenuto, il layout, l’inserimento di collegamenti o la personalizzazione, ecc.
 

@@ -9,8 +9,8 @@ keywords: tobool, function, expression, percorsi
 exl-id: 0bb68d05-bb90-48b7-aff3-82ab15d55ebe
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 12%
+source-wordcount: '79'
+ht-degree: 11%
 
 ---
 
@@ -31,7 +31,7 @@ Conversione
 
 ## Parametri
 
-* decimal
+* decimale
 * booleano
 * string
 * numero intero

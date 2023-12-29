@@ -9,7 +9,7 @@ exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -110,6 +110,6 @@ In caso di esito positivo, la risposta restituisce i dettagli dell’offerta per
 }
 ```
 
-## Limitazioni  {#limitations}
+## Limitazioni {#limitations}
 
 Le rappresentazioni di offerta e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. Il `Capping` Il valore del campo specifica quante volte un’offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione su regole di idoneità e vincoli per le offerte](../../../../offers/offer-library/creating-personalized-offers.md).

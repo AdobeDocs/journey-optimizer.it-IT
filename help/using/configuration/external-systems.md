@@ -10,8 +10,8 @@ keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 32%
+source-wordcount: '1250'
+ht-degree: 29%
 
 ---
 
@@ -45,9 +45,9 @@ Ad esempio, supponiamo che sia stata definita una regola di limitazione di utili
 
 >[!IMPORTANT]
 >
->Le **regole di limitazione di utilizzo** sono configurate a livello di sandbox, per un endpoint specifico (l’URL chiamato) ma sono globali per tutti i percorsi di tale sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
+>**Regole di limitazione** sono configurate a livello di sandbox, per un endpoint specifico (l’URL denominato) ma globali per tutti i percorsi di quella sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
 >
->Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Si può disporre di una sola configurazione di limitazione per organizzazione. La limitazione è disponibile solo per le azioni personalizzate.
+>Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Puoi avere una sola configurazione di limitazione per organizzazione. La limitazione è disponibile solo per le azioni personalizzate.
 >
 >Il **maxCallsCount** deve essere maggiore di 1.
 

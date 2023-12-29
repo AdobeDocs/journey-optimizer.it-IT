@@ -12,7 +12,7 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 21%
+ht-degree: 15%
 
 ---
 
@@ -60,7 +60,7 @@ Ulteriori informazioni sulla configurazione delle notifiche push in [questa sezi
 
 ## Personalizzare le offerte {#personalize-offers}
 
-Puoi anche accedere all’editor di personalizzazione quando aggiungi contenuti testuali alle rappresentazioni delle offerte.
+Puoi anche accedere all’editor di personalizzazione quando aggiungi contenuto di tipo testo alle rappresentazioni delle offerte.
 
 Ulteriori informazioni sulla gestione dei contenuti con la gestione delle decisioni in [questa sezione](../offers/offer-library/creating-personalized-offers.md#custom-text).
 

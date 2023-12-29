@@ -11,8 +11,8 @@ keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 13%
+source-wordcount: '1347'
+ht-degree: 10%
 
 ---
 
@@ -33,9 +33,9 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 * Per i percorsi che utilizzano un’attività di Leggii pubblico esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi pubblico, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
 
-* I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business.
+* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
 
-* Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o derivanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) in percorsi è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+* Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o derivanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) in percorsi è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ## Configurare l’attività {#configuring-segment-trigger-activity}
 
@@ -118,7 +118,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->I percorsi Read audience una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico con lettura pianificata, devono invece trascorrere 30 giorni dall’esecuzione dell’ultima occorrenza.
+>I percorsi Read audience una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 30 giorni dall’esecuzione dell’ultima occorrenza.
 
 ## Test e pubblicazione del percorso {#testing-publishing}
 
@@ -130,7 +130,7 @@ A questo scopo, attiva la modalità di test.
 
 Configura ed esegui la modalità di test normalmente. [Scopri come testare un percorso](testing-the-journey.md).
 
-Una volta eseguito il test, il **[!UICONTROL Mostra registri]** consente di visualizzare i risultati del test. Per ulteriori informazioni al riguardo, consulta [questa sezione](testing-the-journey.md#viewing_logs)
+Una volta eseguito il test, il **[!UICONTROL Mostra registri]** consente di visualizzare i risultati del test. Per ulteriori informazioni, consulta [questa sezione](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 

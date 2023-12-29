@@ -9,10 +9,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+exl-id: 38defa47-9b33-43a3-9b3e-d3aa4cb2857f
+source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 9%
+source-wordcount: '1084'
+ht-degree: 7%
 
 ---
 
@@ -193,7 +194,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
    ![](assets/sms_create_7.png)
 
-1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
+1. Clic **[!UICONTROL Salva]** e controlla il messaggio nell’anteprima. È possibile utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima gli URL abbreviati o i contenuti personalizzati.
 
 Ora puoi testare e inviare il messaggio SMS al pubblico. [Ulteriori informazioni](send-sms.md)
 Una volta inviato, puoi misurare l’impatto del tuo SMS all’interno dei rapporti della campagna o del Percorso. Per ulteriori informazioni sul reporting, consulta [questa sezione](../reports/campaign-global-report.md#sms-tab).

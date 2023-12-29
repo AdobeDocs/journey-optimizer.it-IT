@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 5%
+source-wordcount: '463'
+ht-degree: 3%
 
 ---
 
@@ -54,7 +54,7 @@ Vengono passati i seguenti set di dati:
 Gli elenchi dei campi XDM passati a Adobe Experience Platform sono descritti qui:
 
 * [Elenco dei campi evento del passaggio](../reports/sharing-field-list.md)
-* [Campi di eventi passaggio legacy](../reports/sharing-legacy-fields.md)
+* [Campi evento del passaggio precedente](../reports/sharing-legacy-fields.md)
 
 ## Integrazione con Customer Journey Analytics {#integration-cja}
 

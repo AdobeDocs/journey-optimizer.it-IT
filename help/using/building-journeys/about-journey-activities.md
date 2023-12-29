@@ -11,14 +11,14 @@ keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 18%
+source-wordcount: '538'
+ht-degree: 13%
 
 ---
 
 # Introduzione alle attività dei percorsi {#about-journey-activities}
 
-Combina le diverse attività relative a un evento, un percorso e un’azione in modo da creare scenari tra canali con più passaggi.
+Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
 
 ## Attività eventi {#event-activities}
 
@@ -48,7 +48,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 
 ![](assets/journey49.png)
 
-## Attività di azione {#action-activities}
+## Attività azione {#action-activities}
 
 Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta.
 

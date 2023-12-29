@@ -10,7 +10,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro pe
 >
 >Per il momento, i modelli di classificazione non sono supportati nei canali creati con Journey Optimizer.
 
-## Tipi di modelli IA {#ai-model-types}
+## Tipi di modelli basati su IA {#ai-model-types}
 
 In sono disponibili due tipi di modelli di IA [!DNL Journey Optimizer]:
 

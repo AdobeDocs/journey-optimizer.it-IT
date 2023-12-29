@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Controllare e inviare la notifica push
+title: Verificare e inviare la notifica push
 description: Scopri come controllare e inviare le notifiche push in Journey Optimizer
 feature: Push
 topic: Content Management
@@ -11,11 +11,11 @@ exl-id: aad4e08a-3369-454d-9e32-974347a3b393
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
-# Controllare e inviare la notifica push {#send-push}
+# Verificare e inviare la notifica push {#send-push}
 
 ## Anteprima della notifica push {#preview-push}
 

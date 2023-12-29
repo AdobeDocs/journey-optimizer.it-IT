@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Panoramica della gestione utente
+title: Panoramica sulla gestione utente
 description: Scopri come definire e gestire le autorizzazioni
 feature: Access Management
 topic: Administration
@@ -11,14 +11,14 @@ keywords: autorizzazioni, diritti, restrizioni, accesso, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 12%
+source-wordcount: '178'
+ht-degree: 5%
 
 ---
 
 # Introduzione alla gestione degli utenti {#permissions-overview}
 
-[!DNL Journey Optimizer]Con puoi definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzioni e alle funzionalità interne al prodotto.
+[!DNL Journey Optimizer] consente di definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzioni e alle funzionalità interne al prodotto.
 
 ➡️ [Ulteriori informazioni sul controllo degli accessi in Adobe Journey Optimizer sono disponibili in questo video](#video)
 

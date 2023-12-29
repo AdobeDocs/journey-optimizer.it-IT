@@ -14,7 +14,7 @@ exl-id: b5582601-5804-4413-b548-a0b34cc38090
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 22%
 
 * [Introduzione all’Assistente contenuti](gs-generative.md)
 * [Generare testo con l’assistente contenuti](generative-content.md)
-* **[Generare immagini con l’assistente contenuti](generative-image.md)**
+* **[Generare immagini con l’assistente contenuto](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Nell’esempio seguente, scopri come utilizzare l’assistente contenuti per agg
 
    ![](assets/gen-ai-image-2.png)
 
-1. Sfoglia i **[!UICONTROL Suggerimenti per le varianti]** per trovare la risorsa desiderata.
+1. Sfoglia **[!UICONTROL Suggerimenti varianti]** per trovare la risorsa desiderata.
 
 1. Una volta scelto il **[!UICONTROL Variante]**, accedi al menu avanzato della risorsa selezionata.
 

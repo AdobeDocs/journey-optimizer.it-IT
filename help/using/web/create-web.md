@@ -8,8 +8,8 @@ level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 19%
+source-wordcount: '833'
+ht-degree: 18%
 
 ---
 
@@ -45,7 +45,7 @@ Per iniziare a creare la tua esperienza web attraverso una campagna, segui i pas
 
 1. Seleziona la **[!UICONTROL Web]** azione.
 
-1. Definire una superficie web.
+1. Definite una superficie web.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Informazioni dettagliate su come selezionare i profili di test e visualizzare in
 
 ## Attivare la campagna web {#activate-web-campaign}
 
-Una volta definiti i [impostazioni della campagna web](#configure-web-campaign) e hai modificato il contenuto come desiderato utilizzando [web designer](edit-web-content.md#work-with-web-designer), puoi rivedere e attivare la tua campagna web. Effettua le seguenti operazioni.
+Una volta definiti i [impostazioni della campagna web](#configure-web-campaign) e hai modificato il contenuto come desiderato utilizzando [web designer](edit-web-content.md#work-with-web-designer), puoi rivedere e attivare la tua campagna web. Segui i passaggi seguenti.
 
 <!--
 >[!NOTE]
@@ -133,7 +133,7 @@ Ulteriori informazioni sull’attivazione delle campagne in [questa sezione](../
 
 ## Interrompere una campagna web {#stop-web-campaign}
 
-Quando una campagna web è in diretta, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Effettua le seguenti operazioni.
+Quando una campagna web è in diretta, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Segui i passaggi seguenti.
 
 1. Seleziona una campagna live dall’elenco.
 

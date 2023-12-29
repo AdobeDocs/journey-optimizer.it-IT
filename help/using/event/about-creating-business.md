@@ -11,8 +11,8 @@ keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 15%
+source-wordcount: '1127'
+ht-degree: 13%
 
 ---
 

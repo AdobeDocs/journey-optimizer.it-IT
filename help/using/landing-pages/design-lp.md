@@ -12,7 +12,7 @@ exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 17%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Per iniziare a creare contenuti per la destinazione [pagina principale](create-l
 
 Da qui è possibile:
 
-* **Progettare la pagina di destinazione da zero** tramite l’interfaccia di progettazione dei contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../content-management/assets.md). Scopri come progettare il contenuto delle <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
+* **Progettare la pagina di destinazione da zero** tramite l’interfaccia di progettazione dei contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../content-management/assets.md). Scopri come progettare i contenuti <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
 * **Codice o incolla HTML non elaborato** direttamente in designer contenuto. Scopri come programmare i contenuti [in questa sezione](../email/code-content.md).
 

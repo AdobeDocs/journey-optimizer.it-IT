@@ -9,7 +9,7 @@ exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -25,7 +25,7 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Accetta | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
 | Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
 **Formato API**
@@ -102,6 +102,6 @@ In caso di esito positivo, la risposta restituisce informazioni sull’offerta p
 }
 ```
 
-## Limitazioni  {#limitations}
+## Limitazioni {#limitations}
 
 Le rappresentazioni di offerta e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. Il `Capping` Il valore del campo specifica quante volte un’offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione su regole di idoneità e vincoli per le offerte](../../../../offer-library/creating-personalized-offers.md).

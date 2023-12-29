@@ -10,8 +10,8 @@ keywords: espressione, dati, tipo di dati, percorso
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 6%
+source-wordcount: '616'
+ht-degree: 5%
 
 ---
 
@@ -71,7 +71,7 @@ Formato JSON: numero
 42
 ```
 
-## decimal {#decimal}
+## decimale {#decimal}
 
 **Descrizione**
 

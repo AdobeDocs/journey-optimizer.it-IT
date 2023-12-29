@@ -9,7 +9,7 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Un modello di ottimizzazione automatica mira a fornire offerte che massimizzano il rendimento (KPI) impostato dai clienti aziendali. Questi KPI potrebbero essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic dell’offerta con la conversione dell’offerta come obiettivo. L’ottimizzazione automatica non è personalizzata e viene ottimizzata in base alle prestazioni &quot;globali&quot; delle offerte.
 
-## Limitazioni  {#limitations}
+## Limitazioni {#limitations}
 
 L’utilizzo di modelli di ottimizzazione automatica per la gestione delle decisioni è soggetto alle limitazioni seguenti:
 
@@ -59,7 +59,7 @@ Alla fine, se un&#39;offerta (ad es. Offerta 1) è un chiaro vincitore, la sua d
 
 +++**Dettagli tecnici**
 
-Per calcolare/aggiornare le distribuzioni, utilizziamo **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(??i | dati)***, cioè per ogni offerta ***i***, la probabilità di un valore di ricompensa **??i** è, dati i dati raccolti finora per quell’offerta.
+Per calcolare/aggiornare le distribuzioni, utilizziamo **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(??i | dati)***, ovvero per ogni offerta ***i***, la probabilità di un valore di ricompensa **??i** è, dati i dati raccolti finora per quell’offerta.
 
 Dal Teorema Di Bayes:
 

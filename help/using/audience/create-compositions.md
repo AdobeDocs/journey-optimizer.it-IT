@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 15%
+source-wordcount: '443'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    >[!IMPORTANT]
    >
-   >Puoi pubblicare fino a 10 composizioni in una determinata sandbox. Se avete raggiunto questa soglia, dovete eliminare una composizione per liberare spazio e pubblicarne una nuova.
+   >Puoi pubblicare fino a 10 composizioni in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
    Se si verifica un errore durante la pubblicazione, vengono visualizzati avvisi con informazioni su come risolvere il problema.
 

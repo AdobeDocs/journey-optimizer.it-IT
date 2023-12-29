@@ -11,8 +11,8 @@ keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 16%
+source-wordcount: '942'
+ht-degree: 12%
 
 ---
 
@@ -48,7 +48,7 @@ Ad esempio, supponiamo che tu organizzi un evento il mese prossimo e desideri av
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. [Pubblicare la pagina di destinazione.](create-lp.md#publish)
+1. [Pubblica](create-lp.md#publish) la pagina di destinazione.
 
 1. In un [percorso](../building-journeys/journey.md), aggiungi un **E-mail** attività per indirizzare il traffico alla pagina di destinazione della registrazione.
 
@@ -129,7 +129,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
 
 1. [Creare un messaggio e-mail](../email/get-started-email-design.md) in un percorso.
 
-1. Seleziona il testo nel contenuto e [inserisci un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
+1. Seleziona il testo nel contenuto e [inserire un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale. Puoi anche utilizzare un collegamento su un pulsante.
 
 1. Seleziona **[!UICONTROL Pagina di destinazione]** dal **[!UICONTROL Tipo di collegamento]** e selezionare il [pagina di destinazione](create-lp.md#configure-primary-page) che hai creato per la rinuncia.
 
@@ -151,7 +151,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
 
    * I dati del profilo vengono aggiornati e non riceveranno comunicazioni dal brand a meno che non si rinnovi l’abbonamento.
 
-Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
+Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
 
 ![](assets/lp_opt-out-profile-choice.png)
 

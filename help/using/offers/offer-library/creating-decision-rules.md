@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 13%
+source-wordcount: '408'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Puoi creare regole di decisione delle offerte basate sui dati disponibili in Adobe Experience Platform. Le regole di decisione determinano a chi può essere visualizzata un’offerta.
 
-Ad esempio, puoi specificare che desideri che venga visualizzata solo “Offerta di abbigliamento invernale per le donne” quando (Genere = ‘Femmina’) e (Area geografica = ‘Nord Est’). 
+Ad esempio, puoi specificare di voler visualizzare solo &quot;Offerta di abbigliamento invernale per le donne&quot; quando (Genere = &quot;Femmina&quot;) e (Area geografica = &quot;Nord Est&quot;).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -61,7 +61,7 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
    >
    >Le stime del profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
-1. Clic **[!UICONTROL Salva]** per confermare.
+1. Fai clic su **[!UICONTROL Salva]** per confermare.
 
 1. Una volta creata, la regola viene visualizzata nella **[!UICONTROL Regole]** elenco. Puoi selezionarlo per visualizzarne le proprietà e modificarlo o eliminarlo.
 

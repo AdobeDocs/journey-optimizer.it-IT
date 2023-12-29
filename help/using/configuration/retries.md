@@ -11,8 +11,8 @@ keywords: nuovi tentativi, mancato recapito, morbido, ottimizzatore, errore
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 13%
+source-wordcount: '467'
+ht-degree: 11%
 
 ---
 
@@ -58,7 +58,7 @@ Nel caso in cui il valore predefinito 5 non soddisfi le tue esigenze, puoi modif
    >
    >Inserire nell&#39;elenco Bloccati Un valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché la limitazione o l’degli IP da parte degli ISP. [Ulteriori informazioni sulla consegna dei messaggi](../reports/deliverability.md)
 
-## Periodo di tempo di un nuovo tentativo {#retry-duration}
+## Periodo di tempo per i tentativi {#retry-duration}
 
 Il **periodo di tempo di un nuovo tentativo** è l’intervallo di tempo in cui verrà ritentato qualsiasi messaggio e-mail della consegna che abbia riscontrato un errore temporaneo o un mancato recapito non permanente.
 

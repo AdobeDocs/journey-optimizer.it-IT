@@ -11,8 +11,8 @@ keywords: recapito messaggi, percorso, caso d’uso, e-mail, reputazione
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 6%
+source-wordcount: '264'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Ulteri
 
 Lo scopo di questo caso d’uso è la creazione di un percorso per incrementare le consegne di e-mail. Per configurare il percorso, eseguire la procedura seguente:
 
-1. Creare un percorso. [Ulteriori informazioni](journey-gs.md).
+1. Creazione di un percorso. [Ulteriori informazioni](journey-gs.md).
 
 1. Aggiungi un **[!UICONTROL Condizione]** al percorso. [Ulteriori informazioni](condition-activity.md).
 

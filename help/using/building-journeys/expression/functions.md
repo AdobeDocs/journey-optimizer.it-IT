@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 73%
+ht-degree: 69%
 
 ---
 
@@ -66,13 +66,13 @@ Elenco delle funzioni supportate.
 | Elenco | [filter](../functions/functionfilter.md) |
 | Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
-| Elenco | [intersect](../functions/functionintersect.md) |
+| Elenco | [intersecare](../functions/functionintersect.md) |
 | Elenco | [listSize](../functions/functionlimit.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |
-| Matematica | [random](../functions/functionrandom.md) |
-| Matematica | [round](../functions/functionround.md) |
+| Math | [random](../functions/functionrandom.md) |
+| Math | [round](../functions/functionround.md) |
 | Stringa | [concat](../functions/functionconcat.md) |
 | Stringa | [contain](../functions/functioncontain.md) |
 | Stringa | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
@@ -83,7 +83,7 @@ Elenco delle funzioni supportate.
 | Stringa | [isEmpty](../functions/functionisempty.md) |
 | Stringa | [isNotEmpty](../functions/functionisnotempty.md) |
 | Stringa | [lastIndexOf](../functions/functionlastindexof.md) |
-| Stringa | [lunghezza](../functions/functionlength.md) |
+| Stringa | [length](../functions/functionlength.md) |
 | Stringa | [Lower](../functions/functionlower.md) |
 | Stringa | [matchRegExp](../functions/functionmatchregexp.md) |
 | Stringa | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |

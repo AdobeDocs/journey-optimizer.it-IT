@@ -11,8 +11,8 @@ keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 66%
+source-wordcount: '670'
+ht-degree: 60%
 
 ---
 
@@ -62,13 +62,13 @@ ht-degree: 66%
 
 Utilizza Adobe Journey Optimizer Designer per definire facilmente la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, è possibile progettare la forma del contenuto in pochi secondi.
 
-Per iniziare a creare il contenuto delle , segui i passaggi indicati di seguito:
+Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
-1. Dalla pagina Home di Designer, seleziona l’opzione **[!UICONTROL Progetta da zero]**.
+1. Dalla pagina Home di Designer, seleziona la **[!UICONTROL Progettare da zero]** opzione.
 
    ![](assets/email_designer.png)
 
-1. Per iniziare a progettare il contenuto delle , trascina nell’area di lavoro le **[!UICONTROL Strutture]** per definire il layout del messaggio e-mail.
+1. Inizia a progettare il contenuto trascinando la selezione **[!UICONTROL Strutture]** nell’area di lavoro per definire il layout dell’e-mail.
 
    >[!NOTE]
    >

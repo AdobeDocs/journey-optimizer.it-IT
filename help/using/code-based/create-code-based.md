@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 12%
+source-wordcount: '1026'
+ht-degree: 11%
 
 ---
 
@@ -131,7 +131,7 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 
 ## Attivare la campagna basata su codice {#activate-code-based-campaign}
 
-Dopo aver definito la campagna basata su codice e aver modificato il contenuto come desiderato utilizzando [editor basato su codice](#edit-code), puoi rivederlo e attivarlo. Effettua le seguenti operazioni.
+Dopo aver definito la campagna basata su codice e aver modificato il contenuto come desiderato utilizzando [editor basato su codice](#edit-code), puoi rivederlo e attivarlo. Segui i passaggi seguenti.
 
 >[!NOTE]
 >
@@ -163,7 +163,7 @@ Ulteriori informazioni sull’attivazione delle campagne in [questa sezione](../
 
 ## Interrompere una campagna basata su codice {#stop-code-based-campaign}
 
-Quando una campagna basata su codice è attiva, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Effettua le seguenti operazioni.
+Quando una campagna basata su codice è attiva, puoi interromperla per impedire al pubblico di visualizzare le modifiche. Segui i passaggi seguenti.
 
 1. Seleziona una campagna live dall’elenco.
 

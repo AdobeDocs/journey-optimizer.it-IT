@@ -11,8 +11,8 @@ keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 35%
+source-wordcount: '960'
+ht-degree: 34%
 
 ---
 
@@ -85,7 +85,7 @@ In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna
     <a href="../email/create-email.md">
     <img alt="Lead" src="../assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>Creare le e-mail</strong>
+    <div><a href="../email/create-email.md"><strong>Creare e-mail</strong>
     </div>
     <p>
     </td>
@@ -126,7 +126,7 @@ Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei 
 
 >[!IMPORTANT]
 >
->Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) nelle campagne è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) nelle campagne è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 >Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API. [Ulteriori informazioni](api-triggered-campaigns.md)
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 24%
+source-wordcount: '1365'
+ht-degree: 18%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 24%
 >title="Personalizza la notifica push."
 >abstract="Per comporre il messaggio, immetti il contenuto nei campi Titolo e Corpo. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
 
-Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuti dinamici. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
+Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor espressioni per definire il contenuto, personalizzare i dati e aggiungere contenuto dinamico. Ulteriori informazioni su [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
 
 Utilizza la sezione di anteprima del dispositivo per visualizzare come viene visualizzata la notifica push sui dispositivi iOS e Android.
 
@@ -122,7 +122,7 @@ Puoi configurare **[!UICONTROL Opzioni avanzate]** per la notifica push. I param
 |---------|---------|
 | **[!UICONTROL Comprimibile]** (iOS/Android) | Un messaggio comprimibile è un messaggio che può essere sostituito da un nuovo messaggio se è diventato obsoleto. Un caso d’uso comune di messaggi comprimibili è rappresentato dai messaggi utilizzati per indicare a un’app mobile di sincronizzare i dati dal server. Un esempio potrebbe essere un’app sportiva che aggiorna gli utenti con il punteggio più recente. È rilevante solo il messaggio più recente. D’altra parte, con un messaggio non comprimibile, ogni messaggio è importante per l’app client e deve essere consegnato. |
 | **[!UICONTROL Audio personalizzato]** (iOS/Android) | Il suono che il terminale mobile deve riprodurre quando viene ricevuta la notifica. L&#39;audio deve essere incluso nell&#39;app. |
-| **[!UICONTROL Distintivi]** (iOS/Android) | Un badge viene utilizzato per visualizzare direttamente sull’icona dell’applicazione il numero di nuove informazioni non lette. <br/>Il valore del badge scompare non appena l’utente apre o legge il nuovo contenuto dall’applicazione. Quando un dispositivo riceve una notifica, quest’ultima può aggiornare o aggiungere un valore di badge per l’app correlata.<br/>Ad esempio, se memorizzi il numero di articoli non letti dei clienti, puoi sfruttare la personalizzazione per inviare a ciascun cliente il valore univoco del badge degli articoli non letti. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md). |
+| **[!UICONTROL Distintivi]** (iOS/Android) | Un badge viene utilizzato per visualizzare direttamente sull’icona dell’applicazione il numero di nuove informazioni non lette. <br/>Il valore del badge scompare non appena l’utente apre o legge il nuovo contenuto dall’applicazione. Quando viene ricevuta una notifica su un dispositivo, quest’ultimo può aggiornare o aggiungere un valore di badge per l’app correlata.<br/>Ad esempio, se memorizzi il numero di articoli non letti dei clienti, puoi sfruttare la personalizzazione per inviare a ciascun cliente il valore univoco del badge degli articoli non letti. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md). |
 | **[!UICONTROL Gruppo di notifica]**  (Solo iOS) | Associa un gruppo di notifiche alla notifica push.<br/>A partire da iOS 12, i gruppi di notifica consentono di consolidare i thread di messaggi e gli argomenti di notifica in ID thread. Ad esempio, un brand può inviare notifiche di marketing con un ID gruppo, mantenendo più notifiche di tipo operativo con uno o più ID diversi.<br/>Per illustrare questo, puoi avere groupID: 123 &quot;check out the new spring collection of sweaters&quot; e groupID: 456 &quot;your package was deliver&quot; gruppi di notifiche. In questo esempio, tutte le notifiche di consegna sono raggruppate in ID gruppo: 456. |
 | **[!UICONTROL Canale di notifica]** (solo Android) | Associa un canale di notifica alla notifica push.<br/>A partire da Android 8.0 (livello API 26), tutte le notifiche devono essere assegnate a un canale per poter essere visualizzate. Per ulteriori informazioni, consulta [Documentazione per gli sviluppatori Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Aggiungi flag di disponibilità del contenuto]** (Solo iOS) | Invia il flag di contenuto disponibile nel payload push per garantire che l’app venga riattivata non appena riceve la notifica push, il che significa che l’app sarà in grado di accedere ai dati del payload.<br/> Questo funziona anche se l’app è in esecuzione in background e non richiede alcuna interazione da parte dell’utente (ad esempio, toccando la notifica push). Tuttavia, questo non si applica se l’app non è in esecuzione. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |

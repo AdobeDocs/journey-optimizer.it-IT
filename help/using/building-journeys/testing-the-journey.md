@@ -11,8 +11,8 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 12%
+source-wordcount: '1525'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 12%
 
 Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questa modalità ti consente di eseguire un test del percorso e identificare i problemi utilizzando i profili di test.
 
-Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
+Solo i profili di test possono entrare in un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >

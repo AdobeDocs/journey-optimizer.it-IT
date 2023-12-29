@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 7%
+source-wordcount: '751'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Cosa troverai in questa documentazione:
 
 * [Introduzione al canale basato su codice](get-started-code-based.md)
 * [Prerequisiti per esperienze basate su codice](code-based-prerequisites.md)
-* **[Esempi di implementazione per esperienze basate su codice](code-based-implementation-samples.md)**
+* **[Esempi di implementazione basati su codice](code-based-implementation-samples.md)**
 * [Creare esperienze basate su codice](create-code-based.md)
 
 >[!ENDSHADEBOX]

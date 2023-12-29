@@ -23,7 +23,7 @@ ht-degree: 5%
 >title="Progettazione del percorso"
 >abstract="L’interfaccia dei percorsi consente di trascinare facilmente le attività dalla palette all’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro in corrispondenza del prossimo passaggio disponibile."
 
-Adobe Journey Optimizer include un’area di lavoro di orchestrazione omnicanale che consente agli addetti al marketing di armonizzare l’attività di marketing con il coinvolgimento dei clienti uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro, al prossimo passaggio disponibile.
+Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro, al prossimo passaggio disponibile.
 
 Gli eventi, le attività di orchestrazione e le attività di azione hanno un ruolo e un luogo specifici nel processo. Le attività sono in sequenza: al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
 

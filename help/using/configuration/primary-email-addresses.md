@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 23%
+ht-degree: 18%
 
 ---
 
@@ -78,7 +78,7 @@ In alcuni contesti specifici, puoi sovrascrivere questo valore utilizzando **[!U
 
 >[!CAUTION]
 >
->La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l’indirizzo e-mail perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** è quello che deve essere utilizzato.
+>La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l’indirizzo e-mail perché il valore definito come indirizzo principale in **[!UICONTROL Campi di esecuzione]** è quello che deve essere utilizzato.
 
 L’override di questo valore può essere utile, ad esempio, per:
 

@@ -11,8 +11,8 @@ badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 18%
+source-wordcount: '449'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 18%
 Cosa troverai in questa documentazione:
 
 * [Introduzione al canale basato su codice](get-started-code-based.md)
-* **[Prerequisiti per esperienze basate su codice](code-based-prerequisites.md)**
+* **[Prerequisiti basati su codice](code-based-prerequisites.md)**
 * [Esempi di implementazione per esperienze basate su codice](code-based-implementation-samples.md)
 * [Creare esperienze basate su codice](create-code-based.md)
 
@@ -71,7 +71,7 @@ Per consegnare correttamente le esperienze basate su codice, è necessario defin
 
 ## Prerequisiti per l’esperimento sui contenuti {#experiment-prerequisites}
 
-Per abilitare gli esperimenti di contenuto per il canale basato su codice, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=it){target="_blank"} è incluso anche nella configurazione di reporting.
+Per abilitare gli esperimenti di contenuto per il canale basato su codice, è necessario assicurarsi che il [set di dati](../data/get-started-datasets.md) utilizzato nell&#39;implementazione dell&#39;app [flusso di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} è incluso anche nella configurazione di reporting.
 
 In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti sull’esperimento del contenuto.
 

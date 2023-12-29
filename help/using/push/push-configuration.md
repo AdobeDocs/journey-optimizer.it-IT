@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurazione della notifica push
+title: Configurazione delle notifiche push
 description: Scopri come configurare l’ambiente per inviare notifiche push con Journey Optimizer
 feature: Push, Channel Configuration
 role: Admin
@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 4%
+source-wordcount: '1544'
+ht-degree: 3%
 
 ---
 
 # Configurare il canale di notifica push {#push-notification-configuration}
 
-[!DNL Journey Optimizer] consente di creare percorsi e inviare messaggi a un pubblico mirato. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], devi assicurarti che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. Comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer] fare riferimento a [questa pagina](push-gs.md).
+[!DNL Journey Optimizer] consente di creare percorsi e inviare messaggi a un pubblico target. Prima di iniziare a inviare notifiche push con [!DNL Journey Optimizer], devi assicurarti che le configurazioni e le integrazioni siano attive nell’app mobile e per i tag in Adobe Experience Platform. Per comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer], consulta [questa pagina](push-gs.md).
 
 >[!AVAILABILITY]
 >
->Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è ora disponibile. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile come Beta pubblica tramite la pagina Home di raccolta dati. [Ulteriori informazioni](mobile-onboarding-wf.md)
+>Il nuovo **flusso di lavoro di avvio rapido per l’onboarding per dispositivi mobili** è ora disponibile. Utilizza questa nuova funzione del prodotto per configurare rapidamente l’SDK di Mobile per iniziare a raccogliere e convalidare i dati dell’evento mobile e per inviare notifiche push per dispositivi mobili. Questa funzionalità è accessibile tramite la home page di Data Collection come versione beta pubblica. [Ulteriori informazioni](mobile-onboarding-wf.md)
 >
 
 
@@ -67,7 +67,7 @@ Da assegnare **Proprietà** e **Azienda** diritti, segui i passaggi seguenti:
    ![](assets/push_product_2.png)
 
 1. Clic **[!UICONTROL Aggiungi tutto]**. Questo aggiungerà il seguente diritto al tuo profilo di prodotto:
-   * **[!UICONTROL Approvazione]**
+   * **[!UICONTROL Approva]**
    * **[!UICONTROL Sviluppa]**
    * **[!UICONTROL Gestire gli ambienti]**
    * **[!UICONTROL Gestire le estensioni]**
@@ -81,7 +81,7 @@ Da assegnare **Proprietà** e **Azienda** diritti, segui i passaggi seguenti:
 
 1. Aggiungi i seguenti diritti:
 
-   * **[!UICONTROL Gestire le configurazioni dell’app]**
+   * **[!UICONTROL Gestione configurazioni app]**
    * **[!UICONTROL Gestisci proprietà]**
 
    Queste autorizzazioni sono necessarie per consentire allo sviluppatore di app mobili di impostare le credenziali push in **Raccolta dati di Adobe Experience Platform** e definire le superfici di canale per le notifiche push (ossia i predefiniti per messaggi) in **Adobe Journey Optimizer**.

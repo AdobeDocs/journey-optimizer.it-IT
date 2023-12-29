@@ -12,7 +12,7 @@ exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 | Libreria Journey Optimizer | **[!DNL Manage Library Items]**: aggiungi ed elimina le espressioni salvate in [!DNL Journey Optimizer] Libreria.</br>**[!DNL Simulate content]**: accesso all’opzione Simula contenuto per anteprima e bozza. |
 | Regole Journey Optimizer | **[!DNL View frequency rules]**: accesso in sola lettura alle regole.</br>**[!DNL Manage frequency rules]**: accedi, crea, modifica o elimina regole di frequenza dei messaggi. |
 | Percorsi | **[!DNL Manage journeys]**: leggi, crea, modifica ed elimina percorsi.</br>**[!DNL View journeys]**: accesso in sola lettura ai percorsi.</br>**[!DNL Publish journeys]**: pubblica percorsi.</br>**[!DNL Manage journeys events, data sources and actions]**: leggi, crea, modifica ed elimina eventi, origini o azioni.</br>**[!DNL View journeys events, data sources and actions]**: accesso in sola lettura agli eventi del percorso, alle azioni personalizzate del percorso e alle origini dati del percorso.</br>**[!DNL View journeys report]**: leggi e modifica il rapporto percorsi.</br> |
-| Gestione dei profili | **[!DNL Manage profiles]**: leggi, crea, modifica ed elimina set di dati utilizzati per i profili dei clienti. Accesso in sola lettura ai profili disponibili.</br>**[!DNL View profiles]**: accesso in sola lettura ai profili disponibili.</br>**[!DNL Export audience segments]**: esporta un segmento di pubblico valutato in un set di dati.</br>**[!DNL View segments]**: accesso in sola lettura ai tipi di pubblico disponibili.</br>**[!DNL Evaluate a segment to an audience]**: genera profili per un pubblico valutando una definizione di segmento.</br>**[!DNL Manage merge policies]**: leggi, crea, modifica ed elimina i criteri di unione.</br>**[!DNL View merge policies]**: accesso in sola lettura ai criteri di unione disponibili. |
+| Gestione profilo | **[!DNL Manage profiles]**: leggi, crea, modifica ed elimina set di dati utilizzati per i profili dei clienti. Accesso in sola lettura ai profili disponibili.</br>**[!DNL View profiles]**: accesso in sola lettura ai profili disponibili.</br>**[!DNL Export audience segments]**: esporta un segmento di pubblico valutato in un set di dati.</br>**[!DNL View segments]**: accesso in sola lettura ai tipi di pubblico disponibili.</br>**[!DNL Evaluate a segment to an audience]**: genera profili per un pubblico valutando una definizione di segmento.</br>**[!DNL Manage merge policies]**: leggi, crea, modifica ed elimina i criteri di unione.</br>**[!DNL View merge policies]**: accesso in sola lettura ai criteri di unione disponibili. |
 | Servizio query | **[!DNL Manage queries]**: leggi, crea, modifica ed elimina query SQL strutturate per i dati di Platform.</br>**[!DNL Manage query service integration]**: crea, aggiorna ed elimina credenziali senza scadenza per l’accesso a Query Service. |
 | Amministrazione sandbox | **[!DNL Manage sandboxes]**: leggi, crea, modifica ed elimina sandbox.</br>**[!DNL View sandboxes]**: accesso in sola lettura per le sandbox appartenenti alla tua organizzazione.</br>**[!DNL Reset sandboxes]**: possibilità di ripristinare una sandbox.</br>**[!DNL Export sandboxes]**: possibilità di esportare una sandbox. |
 

@@ -11,8 +11,8 @@ keywords: percorso, messaggio, campagna, integrazione
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 3%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
@@ -99,7 +99,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![](assets/accintegration-uc-10.png)
 
-1. Test del percorso.
+1. Verifica il tuo percorso.
 
    ![](assets/accintegration-uc-11.png)
 
