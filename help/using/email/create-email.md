@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creazione di e-mail"
->abstract="Definisci l’oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
+>abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
 
 
 ## Aggiungi un&#39;azione e-mail {#email-action}

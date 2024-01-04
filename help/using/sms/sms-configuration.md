@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -36,17 +36,17 @@ L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condi
 >Per accedere e modificare i sottodomini SMS, devi disporre del **[!UICONTROL Gestire i sottodomini SMS]** autorizzazione per la sandbox di produzione. Ulteriori informazioni sulle autorizzazioni in [questa pagina](../administration/high-low-permissions.md#administration-permissions).
 >
 
-## Crea nuove credenziali API {#create-api}
+## Creare nuove credenziali API {#create-api}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
->title="Configurare il provider SMS/MMS con Journey Optimizer"
->abstract="Adobe Journey Optimizer invia messaggi di testo tramite provider di servizi SMS/MMS. Seleziona il provider e compila le credenziali API."
+>title="Configurare il fornitore di SMS/MMS con Journey Optimizer"
+>abstract="Adobe Journey Optimizer invia messaggi di testo tramite provider di servizi SMS/MMS. Seleziona il fornitore e compila le credenziali API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configurare il provider SMS/MMS con Journey Optimizer"
->abstract="Prima di inviare messaggi di testo (SMS/MMS), è necessario integrare le impostazioni del provider con Journey Optimizer. Al termine, devi creare una superficie SMS/MMS. Questi passaggi devono essere eseguiti da un amministratore di sistema Adobe Journey Optimizer."
+>title="Configurare il fornitore di SMS/MMS con Journey Optimizer"
+>abstract="Prima di inviare messaggi di testo (SMS/MMS), devi integrare le impostazioni del fornitore con Journey Optimizer. Al termine, dovrai creare una superficie SMS/MMS. Questi passaggi devono essere eseguiti da un amministratore di sistema di Adobe Journey Optimizer."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=it#message-preset-sms" text="Creare una superficie del canale SMS"
 
 >[!CONTEXTUALHELP]
@@ -103,8 +103,8 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare una 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
->title="Definire la categoria del messaggio"
->abstract="Seleziona il tipo di messaggi di testo che utilizza questa superficie: Marketing per i messaggi promozionali che richiedono il consenso dell’utente o Transazionale per i messaggi non commerciali, ad esempio la reimpostazione della password."
+>title="Definire la categoria di messaggio"
+>abstract="Seleziona il tipo di messaggi utilizzando questa superficie: Marketing per messaggi promozionali, che richiedono il consenso dell’utente; oppure Transazionale per messaggi non commerciali, come la reimpostazione della password."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#sms-opt-out-management" text="Rinuncia nei messaggi di testo di marketing"
 
 Una volta configurato il canale SMS/MMS, devi creare una superficie di canale da cui inviare messaggi SMS **[!DNL Journey Optimizer]**.
