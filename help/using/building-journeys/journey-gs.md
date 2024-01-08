@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1769'
 ht-degree: 23%
 
 ---
@@ -150,7 +150,7 @@ Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagi
 
 È possibile definire un **Data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
 
-Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (in genere 30 giorni e ridotti a 7 giorni con le offerte aggiuntive Healthcare Shield e Security and Privacy Shield). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
+Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (che è generalmente di 30 giorni, e ridotto a 7 giorni con l’offerta aggiuntiva Healthcare Shield). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
 
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
@@ -166,7 +166,7 @@ I percorsi utilizzano anche un timeout globale. Consulta la [sezione successiva]
 
 Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato.
 
-Questo timeout globale arresta il progresso dei singoli utenti nel percorso **30 giorni** dopo che sono entrati. Questo timeout è ridotto a **7 giorni** con le offerte aggiuntive Healthcare Shield e Privacy and Security Shield. Ciò significa che la durata del percorso di un individuo non può superare i 30 giorni (o 7 giorni). Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
+Questo timeout globale arresta il progresso dei singoli utenti nel percorso **30 giorni** dopo che sono entrati. Questo timeout è ridotto a **7 giorni** con il componente aggiuntivo Healthcare Shield. Ciò significa che la durata del percorso di un individuo non può superare i 30 giorni (o 7 giorni). Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
 
 >[!NOTE]
 >
