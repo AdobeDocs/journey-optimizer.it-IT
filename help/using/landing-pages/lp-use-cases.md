@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '943'
 ht-degree: 12%
 
 ---
@@ -92,7 +92,9 @@ Tutti gli utenti che si sono registrati all’evento riceveranno l’e-mail di c
 
 Per consentire ai destinatari di annullare l’iscrizione alle comunicazioni, puoi includere nelle e-mail un collegamento a una pagina di destinazione di rinuncia.
 
-Scopri come gestire il consenso dei destinatari e perché è importante in [questa sezione](../privacy/opt-out.md).
+>[!NOTE]
+>
+>Scopri come gestire il consenso dei destinatari e perché è importante in [questa sezione](../privacy/opt-out.md).
 
 ### Gestione degli opt-out {#opt-out-management}
 
@@ -103,7 +105,7 @@ Pertanto, devi sempre includere un **collegamento per l’annullamento dell’is
 * Facendo clic su questo collegamento, i destinatari verranno indirizzati a una pagina di destinazione contenente un pulsante per confermare l’opt-out.
 * Facendo clic sul pulsante di opt-out, i dati del profilo verranno aggiornati con queste informazioni.
 
-### Configurare la rinuncia {#configure-opt-out}
+### Configurare la rinuncia e-mail {#configure-opt-out}
 
 Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle comunicazioni tramite una pagina di destinazione, segui i passaggi indicati di seguito.
 

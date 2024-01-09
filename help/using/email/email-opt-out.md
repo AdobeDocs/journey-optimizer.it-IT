@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 77%
+source-wordcount: '1029'
+ht-degree: 76%
 
 ---
 
@@ -22,11 +22,15 @@ Per consentire ai destinatari di annullare l’abbonamento alla ricezione di com
 
 A questo scopo, puoi:
 
-* Inserisci un **collegamento a una pagina di destinazione esterna** in un messaggio e-mail per consentire agli utenti di annullare l’abbonamento alla ricezione di comunicazioni dal tuo marchio. [Scopri come aggiungere un collegamento di rinuncia esterno](#opt-out-external-lp)
+* Inserisci un **collegamento a una pagina di destinazione** in un messaggio e-mail per consentire agli utenti di annullare l’abbonamento alla ricezione di comunicazioni dal tuo marchio. Può essere:
+
+   * A **[!DNL Journey Optimizer]pagina di destinazione**. [Scopri come aggiungere una pagina di destinazione di rinuncia](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **una pagina di destinazione esterna**. [Scopri come aggiungere un collegamento di rinuncia esterno](#opt-out-external-lp)
 
 * Aggiungi un **collegamento di rinuncia con un clic** nel contenuto dell’e-mail. Questo collegamento consentirà ai destinatari di annullare rapidamente l’iscrizione alle comunicazioni senza essere reindirizzati a una pagina di destinazione in cui confermare la rinuncia, per una procedura più snella. [Scopri come aggiungere un collegamento di rinuncia con un solo clic](#one-click-opt-out)
 
-Inoltre, se **[!UICONTROL Annullamento iscrizione mailing list]** è abilitata a livello della superficie di canale, le e-mail corrispondenti inviate con Journey Optimizer includeranno un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail. [Ulteriori informazioni sulla rinuncia nell’intestazione dell’e-mail](#unsubscribe-header)
+* Aggiungi un collegamento per annullare l’iscrizione nell’intestazione dell’e-mail. Se il **[!UICONTROL Annullamento iscrizione mailing list]** è abilitata a livello della superficie di canale, le e-mail corrispondenti inviate con Journey Optimizer includeranno un collegamento di annullamento all’abbonamento nell’intestazione dell’e-mail. [Ulteriori informazioni sulla rinuncia nell’intestazione dell’e-mail](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -161,7 +165,7 @@ Quando il messaggio viene inviato tramite un [percorso](../building-journeys/jou
 >abstract="Abilita Annulla iscrizione mailing list per aggiungere un collegamento di annullamento iscrizione nell’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#one-click-opt-out" text="Rinuncia con un clic"
 
-Se l’opzione [Annullamento iscrizione a mailing list](../configuration/channel-surfaces.md#list-unsubscribe) è attiva a livello di superficie di canale, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includeranno un collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail.
+Se l’opzione [Annullamento iscrizione a mailing list](email-settings.md#list-unsubscribe) è attiva a livello di superficie di canale, le e-mail corrispondenti inviate con [!DNL Journey Optimizer] includeranno un collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail.
 
 Ad esempio, il collegamento per annullare l’iscrizione verrà visualizzato in Gmail in questo modo:
 
