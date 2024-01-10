@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 001117b273355b18a2f429ed686c30afd6d99e89
+source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
 workflow-type: tm+mt
-source-wordcount: '4125'
-ht-degree: 100%
+source-wordcount: '4121'
+ht-degree: 99%
 
 ---
 
@@ -118,11 +118,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#duplicate-a-percorsi
 
-
-
-* Il supporto delle risposte alle azioni personalizzate è ora disponibile al pubblico. Questa funzionalità consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e gestire il percorso in base a tali risposte. Inoltre, è stato aggiunto un nuovo guardrail per limitare tutte le azioni personalizzate a 150.000 chiamate in 30 secondi per endpoint. [Ulteriori informazioni](../action/action-response.md)
+* Il supporto delle risposte alle azioni personalizzate è ora disponibile al pubblico. Questa funzionalità consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e gestire il percorso in base a tali risposte. Inoltre, un [nuovo guardrail di chiusura](../start/guardrails.md#custom-actions-g) L’opzione è stata aggiunta per limitare automaticamente le chiamate di azioni personalizzate. [Ulteriori informazioni](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
