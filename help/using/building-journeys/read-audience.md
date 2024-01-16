@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1398'
 ht-degree: 10%
 
 ---
@@ -34,6 +34,8 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 * Per i percorsi che utilizzano un’attività di Leggii pubblico esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi pubblico, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
 
 * I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
+
+* Come best practice, consigliamo di utilizzare solo i tipi di pubblico in batch in una **Read audience** attività. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d’uso richiede dati in tempo reale, utilizza **[Qualificazione del pubblico](audience-qualification-events.md)** attività.
 
 * Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o derivanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) in percorsi è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 

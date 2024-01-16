@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1011'
 ht-degree: 8%
 
 ---
@@ -40,6 +40,8 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 * I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
 
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
+
+* Come best practice, consigliamo di utilizzare solo pubblici in streaming per **Qualificazione del pubblico** attività. Per i casi di utilizzo in batch, utilizza **[Read audience](read-audience.md)** attività.
 
 ### Configurare l’attività{#cnfigure-segment-qualification}
 
