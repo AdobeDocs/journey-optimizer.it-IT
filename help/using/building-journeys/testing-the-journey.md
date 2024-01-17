@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1535'
 ht-degree: 10%
 
 ---
@@ -61,7 +61,7 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
 ## Note importanti {#important_notes}
 
-* In modalità di test, puoi attivare gli eventi utilizzando l’interfaccia.
+* In modalità di test, puoi attivare gli eventi utilizzando l’interfaccia. Gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API.
 * Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale potranno accedere al percorso testato. Consulta questa [sezione](../audience/creating-test-profiles.md).
 * La modalità di test è disponibile solo nei percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere Adobe Experience Platform.
 * Il numero massimo di profili di test che può entrare in un percorso durante una sessione di test è 100.
@@ -126,7 +126,7 @@ Si noti che quando si attiva per la prima volta un evento business, non è possi
 >title="Registri della modalità di test"
 >abstract="Il pulsante Mostra registro visualizza i risultati dei test in formato JSON. Questi risultati mostrano il numero di singoli utenti all’interno del percorso e il loro stato."
 
-Il **[!UICONTROL Mostra registro]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati dei test del percorso, è necessario aggiornare manualmente la pagina.
+Il **[!UICONTROL Mostra registro]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati del test del percorso, è necessario aggiornare manualmente la pagina.
 
 ![](assets/journeytest3.png)
 
