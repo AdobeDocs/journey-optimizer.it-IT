@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 661ddb52e5264b5970a520bd27db0a81d5de4b7e
+source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1860'
+ht-degree: 94%
 
 ---
 
@@ -59,6 +59,8 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
 * Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
+* Un’istanza di percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono memorizzati in tale istanza del percorso. Pertanto, dati da un evento in arrivo, informazioni sul profilo recuperate da Adobe Experience Platform, risposte alle azioni personalizzate, ecc. sono memorizzate in tale istanza del percorso e influiscono sulle dimensioni del percorso. Si consiglia, quando un percorso inizia con un evento, di limitare la dimensione massima del payload dell’evento (ad esempio, sotto gli 800 KB) per evitare di raggiungere tale limite dopo alcune attività, nell’esecuzione del percorso. Una volta raggiunto tale limite, il profilo si trova in uno stato di errore e verrà escluso dal percorso.
+
 
 ### Azioni generali {#general-actions-g}
 
