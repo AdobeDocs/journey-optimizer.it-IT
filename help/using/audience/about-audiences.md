@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 46%
+source-wordcount: '991'
+ht-degree: 44%
 
 ---
 
@@ -37,14 +37,17 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 * **Importazione file CSV**: importa un pubblico utilizzando un file CSV. Scopri come importare i tipi di pubblico in Adobe Experience Platform [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Composizione del pubblico**: crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico. [Introduzione alla composizione dei tipi di pubblico](get-started-audience-orchestration.md)
 
-## Utilizzare tipi di pubblico in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Targeting dei tipi di pubblico in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico Adobe Experience Platform generato utilizzando [definizioni dei segmenti](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Queste funzionalità sono attualmente disponibili come versione beta privata.
-
+>Per il momento, i tipi di pubblico derivanti da [composizioni di pubblico](../audience/get-started-audience-orchestration.md) può essere impostato come destinazione solo nelle campagne. Questa funzionalità è disponibile come versione beta privata per i percorsi.
+>
+>L&#39;utilizzo del pubblico [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} in campagne e percorsi è attualmente disponibile come versione beta privata.
+>
+>Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi diversi:
 
