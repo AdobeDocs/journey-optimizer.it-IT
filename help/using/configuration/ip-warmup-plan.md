@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 6%
+source-wordcount: '1577'
+ht-degree: 5%
 
 ---
 
@@ -82,9 +82,14 @@ Questa attività viene tipicamente eseguita con l’aiuto di un esperto di recap
 
 Prima di poter creare un piano di riscaldamento IP in [!DNL Journey Optimizer] è necessario compilare un modello di Excel con tutti i dati che alimenteranno il piano.
 
-* Dall’interfaccia utente puoi scaricare il file Excel vuoto [Modello di piano di riscaldamento IP](assets/IPWarmupPlan-Template.xlsx) da compilare.
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* È inoltre possibile scaricare un [esempio di piano di riscaldamento IP](assets/IPWarmupPlan-Sample.xlsx) già compilati con alcuni dati che puoi utilizzare come esempio.
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* Dall’interfaccia utente è possibile scaricare il modello vuoto del piano di riscaldamento IP di Excel da compilare.
+
+* Puoi anche scaricare un piano di riscaldamento IP di esempio già compilato con alcuni dati che puoi utilizzare come esempio.
 
 >[!CAUTION]
 >
@@ -265,7 +270,8 @@ Ogni dominio ora viene visualizzato in una colonna diversa sulla stessa riga.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Specificare il piano di preparazione IP"
->abstract="Scarica il modello CSV e compilalo con i dati per le fasi di preparazione IP e il numero di profili di destinazione."
+>abstract="Compila il modello Excel con tutti i dati che alimenteranno il piano, ad esempio le fasi di riscaldamento IP e il numero target di profili, e caricalo qui."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparare il file del piano di riscaldamento IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
