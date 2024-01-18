@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 100%
@@ -55,7 +55,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Area di lavoro del percorso in stato bozza</td>
+    <td rowspan="8">Area di lavoro del percorso in stato bozza</td>
     <td>Aggiungi un’attività dalla palette a sinistra nella prima posizione disponibile, dall’alto verso il basso</td>
     <td>Fai doppio clic sull’attività</td>
   </tr>
