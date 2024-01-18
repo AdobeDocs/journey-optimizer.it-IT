@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -88,8 +88,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
     <td>Maiusc + tasti freccia</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   Riquadro di configurazione dei seguenti elementi:
 <ul>
   <li>Attività in un percorso</li>
@@ -97,8 +96,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
   <li>Origine dati</li>
   <li>Azione</li>
 </ul>
-
-</td>
+  </td>
     <td>Passa al campo successivo da configurare</td>
     <td>Tab</td>
   </tr>
@@ -120,11 +118,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-Attivare un evento in un percorso basato sul pubblico per il quale è attivata l’opzione **[!UICONTROL Singolo profilo alla volta]**
-
-</td>
+    <td>Attiva un evento in un percorso basato su pubblico per il quale è attivata l’opzione **[!UICONTROL Singolo profilo alla volta]**</td>
     <td>P</td>
   </tr>
   <tr>

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: a20318a2c38d3ee97e3347439e6b02e2ef04acf6
+source-git-commit: 922789a4dd439f3c3953f235ea2fc556bf929f33
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%
@@ -26,4 +26,3 @@ This page is not supposed to be publicly accessible. Its only purpose is to make
 * Dall’interfaccia utente puoi scaricare il file Excel vuoto [Modello di piano di riscaldamento IP](assets/IPWarmupPlan-Template.xlsx) da compilare.
 
 * È inoltre possibile scaricare un [esempio di piano di riscaldamento IP](assets/IPWarmupPlan-Sample.xlsx) già compilati con alcuni dati che puoi utilizzare come esempio.
-
