@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '743'
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto 
 
 >[!NOTE]
 >
->Questa funzione richiede le seguenti autorizzazioni: manage-sandbox (o view-sandbox) e manage-package.
+>Questa funzione richiede le seguenti autorizzazioni da **Amministrazione sandbox** funzionalità: gestisci le sandbox (o Visualizza sandbox) e gestisci i pacchetti. [Ulteriori informazioni](../administration/ootb-permissions.md)
 
 ## Introduzione agli strumenti sandbox{#sandbox-gs}
 
