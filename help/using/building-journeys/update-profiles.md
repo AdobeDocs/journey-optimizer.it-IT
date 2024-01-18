@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -33,6 +33,8 @@ Utilizza il **[!UICONTROL Aggiorna profilo]** attività di azione per aggiornare
 * Proprio come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi inserire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a Adobe Experience Platform è immediata/entro un secondo. Ci vorrà normalmente qualche secondo, ma a volte di più senza alcuna garanzia. Di conseguenza, ad esempio, se un’azione utilizza il &quot;campo 1&quot; aggiornato da un **Aggiorna profilo** azione posizionata immediatamente prima, non ti aspetti che &quot;campo 1&quot; venga aggiornato nell’azione.
 * Il **Aggiorna profilo** L’attività non supporta i campi XDM definiti come enumerazione.
+* Il **[!UICONTROL Aggiorna profilo]** l’attività aggiorna solo il [Archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
+* Quando selezioni un set di dati in **[!UICONTROL Aggiorna profilo]** attività, si consiglia di utilizzare un’attività non interessata dai flussi di acquisizione dei dati. **[!UICONTROL Aggiorna profilo]** aggiornamenti memorizzati solo in [Archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}Tuttavia, esiste il rischio di sovrascrivere tale modifica con un flusso di acquisizione dei dati.
 
 ## Utilizzo dell’aggiornamento del profilo
 
