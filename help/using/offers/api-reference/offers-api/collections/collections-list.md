@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f27ffbe0-a61a-428a-bc37-db6b56e38a83
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 7%
@@ -62,7 +62,7 @@ In caso di esito positivo, la risposta restituisce un elenco di raccolte present
 
 ```json
 {
-        "results": [
+    "results": [
         {
             "created": "2022-09-16T18:59:23.063+00:00",
             "modified": "2022-09-16T18:59:23.063+00:00",

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 6%
@@ -58,7 +58,7 @@ curl -X PATCH \
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, `remove`, `copy` e `test`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
