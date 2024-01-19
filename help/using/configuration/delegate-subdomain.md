@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 22%
+source-wordcount: '1827'
+ht-degree: 21%
 
 ---
 
@@ -85,6 +85,8 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
    >
    >Puoi creare i record e inviare la configurazione del sottodominio in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
+1. Se il sottodominio non dispone di record DMARC, puoi impostarli qui. Se il sottodominio aveva record DMARC esistenti e se sono stati recuperati da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Ulteriori informazioni
+
 1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -154,6 +156,8 @@ Per delegare un sottodominio tramite CNAME, segui i passaggi seguenti:
    >[!NOTE]
    >
    >È possibile creare i record in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. A questo punto, potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+
+1. Se il sottodominio non dispone di record DMARC, puoi impostarli qui. Se il sottodominio aveva record DMARC esistenti e se sono stati recuperati da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Ulteriori informazioni
 
 1. Attendi che Adobe verifichi che questi record vengano generati senza errori nella soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
 
