@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 99%
@@ -357,6 +357,7 @@ ht-degree: 99%
    + Recapitabilità {#deliverability}
       + [Introduzione alla recapitabilità](using/reports/deliverability.md)
       + [Informazioni sull’elenco di soppressione](using/reports/suppression-list.md)
+      + [Aggiornamento DMARC obbligatorio](using/configuration/dmarc-record-update.md)
    + [Motivi di errore](using/reports/error-list.md)
    + [Avvisi](using/reports/alerts.md)
    + [Utilizzare Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -528,7 +529,6 @@ ht-degree: 99%
       + [Aggiungere un record TXT di Google](using/configuration/google-txt.md)
       + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
       + [Creare pool IP](using/configuration/ip-pools.md)
-      + [Aggiornamento record DMARC](using/configuration/dmarc-record-update.md)
    + Implementare un piano di preparazione IP {#implement-ip-warmup-plan}
       + [Introduzione ai piani di preparazione IP](using/configuration/ip-warmup-gs.md)
       + [Creare campagne di preparazione IP](using/configuration/ip-warmup-campaign.md)

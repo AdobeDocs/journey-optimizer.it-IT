@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC, che sta per **Autenticazione, reporting e conformità dei messaggi basati
 
 L&#39;impostazione di un record DMARC comporta l&#39;aggiunta di un record TXT DNS alle impostazioni DNS del dominio. Questo record specifica i criteri DMARC, ad esempio se mettere in quarantena o rifiutare i messaggi che non superano l&#39;autenticazione. L’implementazione di DMARC è un passaggio proattivo per migliorare la sicurezza delle e-mail e proteggere l’organizzazione e i destinatari dalle minacce basate su e-mail.
 
-[Per ulteriori informazioni su DMARC, consulta la Guida alle best practice per la consegna dei messaggi.](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=it){target="_blank"} per comprendere meglio l’impatto di DMARC sul recapito messaggi e-mail.
+[Per ulteriori informazioni su DMARC, consulta la Guida alle best practice per la consegna dei messaggi.](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} per comprendere meglio l’impatto di DMARC sul recapito messaggi e-mail.
 
 Se non aggiungi DMARC, verrai messo in quarantena (almeno).
 
