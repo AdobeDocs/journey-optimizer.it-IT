@@ -23,7 +23,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 
 * È stato aggiunto un guardrail sulle dimensioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 * La gestione del timeout del percorso è stata dettagliata [nella sezione seguente](../building-journeys/journey-gs.md#global_timeout).
-* Journey Optimizer [pagina principale della documentazione di](../../ajo-home.md) La pagina è stata riprogettata.
+* La [pagina home](../../ajo-home.md) della documentazione di Journey Optimizer è stata riprogettata.
 * Sono state aggiunte informazioni su Recommendations relative all’attività Aggiorna profili. [Ulteriori informazioni](../building-journeys/update-profiles.md)
 
 ## Novembre 2023 {#nov-2023}
