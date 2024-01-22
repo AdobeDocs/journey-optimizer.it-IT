@@ -10,7 +10,7 @@ level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Di conseguenza, Adobe consiglia vivamente di disporre di un record DMARC configu
    * Configurare DMARC nei sottodomini o nel dominio principale dei sottodomini **nella soluzione di hosting**.
    * Configurare DMARC nei sottodomini delegati **utilizzo della funzionalità in arrivo in [!DNL Journey Optimizer] interfaccia utente di amministrazione**. Tuttavia, richiederà anche l’ingresso nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento non appena [!DNL Journey Optimizer] (il 30 gennaio). <!--and be ready on February 1st, 2024-->
 
-Maggiori dettagli sulla [!DNL Journey Optimizer] La prossima funzionalità di DMARC sarà presto disponibile.
+**Maggiori dettagli sulla [!DNL Journey Optimizer] La prossima funzionalità di DMARC sarà presto disponibile.**
 
 >[!NOTE]
 >
