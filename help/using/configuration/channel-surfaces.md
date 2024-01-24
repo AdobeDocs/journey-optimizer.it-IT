@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1627'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ Con [!DNL Journey Optimizer], puoi impostare le superfici di canale (ad esempio 
 >
 > * Per creare, modificare ed eliminare superfici di canale, è necessario disporre del [Gestire i predefiniti per messaggi](../administration/high-low-permissions.md#administration-permissions) autorizzazione.
 >
-> * È necessario eseguire la [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md) e [Configurazione SMS](../sms/sms-configuration.md) passi prima di creare superfici di canale.
+> * È necessario eseguire la [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md), [Configurazione SMS](../sms/sms-configuration.md) e [Configurazione direct mail](../direct-mail/direct-mail-configuration.md) passi prima di creare superfici di canale.
 
 Una volta configurate le superfici di canale, potrai selezionarle durante la creazione di messaggi da un percorso o da una campagna.
 
