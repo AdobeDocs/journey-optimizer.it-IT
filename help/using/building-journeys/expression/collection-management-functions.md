@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, raccolte, funzioni, payload, percorso
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 7204b475dffe9977a7af6b633cdd92a50fa39a64
+source-git-commit: 5812ca4974ca52073ede993063217ab4453ba2b7
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -171,8 +171,7 @@ The result will be:
 >
 >**[!UICONTROL currentEventField]** è disponibile solo quando si manipolano le raccolte di eventi, **[!UICONTROL currentDataPackField]** durante la manipolazione delle raccolte di origini dati e **[!UICONTROL currentActionField]** quando si manipolano raccolte di risposte di azioni personalizzate.
 >
->Durante l’elaborazione delle raccolte con **[!UICONTROL tutto]**, **[!UICONTROL primo]** e **[!UICONTROL ultimo]**, noi
->ciclo su ogni elemento della raccolta uno alla volta. **[!UICONTROL currentEventField]**, **currentDataPackField** e **[!UICONTROL currentActionField]** corrisponde all&#39;elemento di cui viene eseguito il ciclo.
+>Durante l’elaborazione delle raccolte con **[!UICONTROL tutto]**, **[!UICONTROL primo]** e **[!UICONTROL ultimo]**, eseguiamo un ciclo su ogni elemento della raccolta uno alla volta. **[!UICONTROL currentEventField]**, **currentDataPackField** e **[!UICONTROL currentActionField]** corrisponde all&#39;elemento di cui viene eseguito il ciclo.
 
 **Le funzioni &quot;first(`<condition>`)&quot; e &quot;last(`<condition>`)&quot;**
 
