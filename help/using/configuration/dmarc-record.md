@@ -11,7 +11,7 @@ keywords: sottodominio, dominio, posta, dmarc, record
 source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Impostare il record DMARC"
->abstract="Imposta il record DMARC per evitare problemi di consegna con gli ISP. Come parte delle procedure ottimali di settore, Google e Yahoo richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
+>abstract="Imposta il record DMARC per evitare problemi di recapito con gli ISP. Come parte dell’applicazione delle best practice del settore, Google e Yahoo richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
 
 >[!CAUTION]
 >

@@ -11,7 +11,7 @@ exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Creare una regola"
->abstract="Il metodo di creazione delle regole di compilazione ti consente di creare una nuova definizione di pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform."
+>abstract="Il metodo di creazione delle regole consente di creare una nuova definizione di pubblico, utilizzando il servizio di segmentazione di Adobe Experience Platform."
 
 In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che vivono ad Atlanta, San Francisco o Seattle e sono nati dopo il 1980. Tutti questi clienti avrebbero dovuto aprire l’applicazione Luma negli ultimi 7 giorni, quindi hanno effettuato un acquisto entro 2 ore dall’apertura dell’applicazione.
 

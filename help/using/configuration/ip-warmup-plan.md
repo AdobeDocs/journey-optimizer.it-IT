@@ -15,7 +15,7 @@ exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -72,7 +72,7 @@ Per assegnare il ruolo corrispondente a un **[!UICONTROL Utente]**:
 
 +++
 
-## Preparare il file del piano di riscaldamento IP {#prepare-file}
+## Preparare il file del piano di preparazione IP {#prepare-file}
 
 Il riscaldamento dell’IP è un’attività che consiste nell’aumentare gradualmente il volume di e-mail che escono dagli IP e dal dominio verso i principali provider di servizi Internet (ISP) - al fine di stabilire la tua reputazione di mittente legittimo.
 
@@ -270,8 +270,8 @@ Ogni dominio ora viene visualizzato in una colonna diversa sulla stessa riga.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Specificare il piano di preparazione IP"
->abstract="Compila il modello Excel con tutti i dati che alimenteranno il piano, ad esempio le fasi di riscaldamento IP e il numero target di profili, e caricalo qui."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Preparare il file del piano di riscaldamento IP"
+>abstract="Compila il modello Excel con tutti i dati che alimenteranno il tuo piano, ad esempio le fasi di preparazione IP e il numero di profili di destinazione, e caricalo qui."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html?lang=it#prepare-file" text="Preparare il file del piano di preparazione IP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"

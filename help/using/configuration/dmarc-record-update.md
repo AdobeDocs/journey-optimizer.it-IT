@@ -11,7 +11,7 @@ keywords: sottodominio, dominio, posta, dmarc, record
 source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
->title="Ulteriori informazioni sull&#39;aggiornamento DMARC obbligatorio"
->abstract="Come parte delle procedure ottimali di settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. <br>Di conseguenza, devi assicurarti di aver impostato il record DMARC per tutti i sottodomini che hai delegato ad Adobe in Journey Optimizer."
+>title="Scopri di più sull’aggiornamento DMARC obbligatorio"
+>abstract="Come parte dell’applicazione delle best practice del settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. <br>Di conseguenza, devi assicurarti di aver impostato il record DMARC per tutti i sottodomini che hai delegato ad Adobe in Journey Optimizer."
 
 Come parte delle procedure ottimali di settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito inizia il **1 febbraio 2024**.
 
