@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4258'
-ht-degree: 99%
+source-wordcount: '4295'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,7 @@ Questa pagina elenca tutti gli aggiornamenti alla documentazione di [!DNL Journe
 * La gestione del timeout del percorso è stata dettagliata [nella sezione seguente](../building-journeys/journey-gs.md#global_timeout).
 * La [pagina home](../../ajo-home.md) della documentazione di Journey Optimizer è stata riprogettata.
 * Sono state aggiunte informazioni su Recommendations relative all’attività Aggiorna profili. [Ulteriori informazioni](../building-journeys/update-profiles.md)
+* Sono state aggiunte informazioni sul comportamento dei timeout sulle attività evento in percorsi. Se non viene ricevuto alcun evento durante il periodo di timeout specificato, gli utenti continueranno il percorso se non è definito alcun percorso di timeout. [Ulteriori informazioni](../building-journeys/general-events.md#events-specific-time)
 
 ## Novembre 2023 {#nov-2023}
 
