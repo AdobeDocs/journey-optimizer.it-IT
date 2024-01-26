@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
+source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 21%
+source-wordcount: '470'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Le note preliminari sulla versione riportate di seguito sono soggette a modifich
 
 ## Note preliminari sulla versione di gennaio 2024 {#oct-jan-2024}
 
-**Data di rilascio**: 20-31 gennaio 2024
+**Data di rilascio**: 30-31 gennaio 2024
 
 ### Nuove funzionalità{#jan-2024-features}
 
@@ -57,7 +57,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Reporting**
 
-* **Rapporti canale per dominio** - Sono stati aggiunti nuovi widget per migliorare i rapporti Campagna e Percorso. Il **Motivi di mancato recapito per dominio**, **Inviato e consegnato da domini**, **Aperture e clic per dominio** e **Mancato recapito ed errori per dominio** i widget forniscono una suddivisione dettagliata a livello di dominio per le metriche chiave di consegna e tracciamento delle e-mail. [Ulteriori informazioni](../reports/channel-report.md)
+* **Rapporti canale per dominio** - Sono stati aggiunti nuovi widget per migliorare i rapporti Campagna e Percorso. Il **Motivi di mancato recapito per dominio**, **Inviato e consegnato da domini**, **Aperture e clic per dominio** e **Mancato recapito ed errori per dominio** i widget forniscono una suddivisione dettagliata a livello di dominio per le metriche chiave di consegna e tracciamento delle e-mail.
 
 **Canale SMS**
 
@@ -67,7 +67,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* **Durata eventi di reazione** : la durata massima che puoi definire nel **Eventi di reazione** è ora di 29 giorni invece di 30. [Ulteriori informazioni](../building-journeys/reaction-events.md)
+* **Durata eventi di reazione** : la durata massima che puoi definire nel **Eventi di reazione** è ora di 29 giorni invece di 30.
 
 * **Filtri per data** - È ora possibile utilizzare date personalizzate per filtrare l’inventario dei percorsi, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando percorsi pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
 
