@@ -8,10 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+hide: true
+hidefromtoc: true
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 5%
+source-wordcount: '1377'
+ht-degree: 1%
 
 ---
 
@@ -19,21 +21,49 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
->title="Impostare il record DMARC"
->abstract="Imposta il record DMARC per evitare problemi di recapito con gli ISP. Come parte dell’applicazione delle best practice del settore, Google e Yahoo richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
+>title="Imposta record DMARC"
+>abstract="DMARC è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il dominio da utilizzi non autorizzati ed evitare problemi di recapito dei messaggi con i provider di caselle postali.<br>Come parte delle procedure ottimali di settore, Google e Yahoo richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
 
->[!CAUTION]
+## Che cos&#39;è DMARC? {#what-is-dmarc}
+
+DMARC, che sta per **Autenticazione, reporting e conformità dei messaggi basati su dominio**, è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica/ISP, aiuta a evitare che attori dannosi inviino e-mail che affermano di essere dal tuo dominio. Questo può ridurre le possibilità che le e-mail legittime vengano contrassegnate come spam o rifiutate e migliorare il recapito dei messaggi e-mail.
+
+DMARC offre anche rapporti sui messaggi che non superano l’autenticazione, oltre al controllo sulla gestione delle e-mail che non superano la convalida DMARC. A seconda del [Criterio DMARC](#dmarc-policies), queste e-mail possono essere monitorate, messe in quarantena o rifiutate. Queste funzionalità consentono di intraprendere azioni per mitigare e risolvere potenziali errori.
+
+<!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
+
+Per evitare problemi di recapito messaggi e ottenere al contempo il controllo sulle e-mail che non riescono a eseguire l’autenticazione, [!DNL Journey Optimizer] presto supporterà la tecnologia DMARC direttamente nell&#39;interfaccia di amministrazione. [Ulteriori informazioni](#implement-dmarc)
+
+### Come funziona DMARC? {#how-dmarc-works}
+
+SPF e DKIM vengono entrambi utilizzati per associare un’e-mail a un dominio e collaborare per l’autenticazione dell’e-mail. DMARC compie un ulteriore passo avanti e aiuta a prevenire lo spoofing facendo corrispondere il dominio controllato da DKIM e SPF.
+
+>[!NOTE]
 >
->A seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer ora supporta la tecnologia di autenticazione DMARC.
+>In Journey Optimizer, SPF e DKIM sono configurati per te.
 
-<!--TO ADD TO AJO HOME PAGE (first tab)
+Per passare il DMARC, un messaggio deve trasmettere SPF o DKIM:
 
->[!TAB Mandatory DMARC update]
+* SPF (Sender Policy Framework) consente di verificare che il messaggio di posta elettronica provenga da una fonte autorizzata controllando l&#39;indirizzo IP del server di invio rispetto a un elenco di indirizzi IP autorizzati per il dominio.
+* DKIM (DomainKeys Identified Mail) aggiunge una firma digitale ai messaggi e-mail, consentendo al destinatario di verificarne l’integrità e l’autenticità.
 
-As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
+In caso di errore di autenticazione di entrambe o di una di queste, DMARC avrà esito negativo e l’e-mail verrà consegnata in base ai criteri DMARC selezionati.
 
-[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
--->
+<!--DMARC requires alignment between the 'From" and 'Return-Path' address.-->
+
+### Criteri DMARC {#dmarc-policies}
+
+Se l&#39;autenticazione DMARC di un messaggio e-mail non riesce, puoi decidere quale azione verrà applicata al messaggio. DMARC dispone di tre opzioni:
+
+* Monitoraggio (p=none): indica al provider di cassette postali/ISP di eseguire le operazioni normalmente eseguite sul messaggio.
+* Quarantena (p=quarantena): indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata o indesiderata del destinatario.
+* Rifiuta (p=rifiuta): indica al provider di cassette postali/ISP di bloccare la posta che non passa DMARC causando un mancato recapito.
+
+>[!NOTE]
+>
+>Scopri come impostare i criteri DMARC con [!DNL Journey Optimizer] in [questa sezione](#set-up-dmarc).
+
+## Aggiornamento requisiti DMARC {#dmarc-update}
 
 Come parte delle procedure ottimali di settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito inizia il **1 febbraio 2024**.
 
@@ -41,101 +71,137 @@ Ulteriori informazioni sui requisiti di Google e Yahoo in [questa sezione](https
 
 >[!CAUTION]
 >
->Il mancato rispetto di questo nuovo requisito da parte di Gmail e Yahoo dovrebbe comportare l’invio di e-mail nella cartella di posta indesiderata o il blocco.
+>Il mancato rispetto di questo nuovo requisito da parte di Gmail e Yahoo dovrebbe comportare l’invio di e-mail nella cartella di posta indesiderata o il blocco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
-Di conseguenza, Adobe consiglia vivamente di disporre di un record DMARC configurato per tutti i sottodomini a cui hai delegato l’Adobe in [!DNL Journey Optimizer]. Segui i passaggi seguenti che si applicano al tuo caso:
+Di conseguenza, Adobe consiglia vivamente di effettuare le seguenti operazioni:
 
-* Se è stato [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, per l’invio dei sottodomini, segui una delle due opzioni seguenti:
+* Assicurati di avere **Record DMARC** configurare per **tutti i sottodomini già delegati** Adobe in [!DNL Journey Optimizer]. [Scopri come](#check-subdomains-for-dmarc)
 
-   * Configurare DMARC nel dominio principale dei sottodomini delegati **nella soluzione di hosting**.
+* Quando **delega di un nuovo sottodominio** ad Adobe, sarà presto possibile **configurare DMARC** direttamente **nel [!DNL Journey Optimizer] interfaccia di amministrazione**. [Scopri come](#implement-dmarc)
 
-   * Configurare DMARC nei sottodomini delegati **utilizzo della funzionalità in arrivo in [!DNL Journey Optimizer] interfaccia utente di amministrazione** - senza alcun lavoro aggiuntivo sulla soluzione di hosting.
+## Implementare DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
-* Se hai impostato [Delega CNAME](delegate-subdomain.md#cname-subdomain-delegation) per i sottodomini di invio, segui una delle due opzioni seguenti:
+A partire dal **30 gennaio 2024**, il [!DNL Journey Optimizer] l’interfaccia di amministrazione ti consentirà di impostare il record DMARC per tutti i sottodomini che hai già delegato o che stai delegando ad Adobe. I passaggi dettagliati sono descritti di seguito.
 
-   * Configurare DMARC nei sottodomini o nel dominio principale dei sottodomini **nella soluzione di hosting**.
+### Verifica la presenza di DMARC nei sottodomini esistenti {#check-subdomains-for-dmarc}
 
-   * Configurare DMARC nei sottodomini delegati **utilizzo della funzionalità in arrivo in [!DNL Journey Optimizer] interfaccia utente di amministrazione**. Tuttavia, richiederà anche l’ingresso nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento non appena [!DNL Journey Optimizer] (il 30 gennaio). <!--and be ready on February 1st, 2024-->
+Per verificare di aver impostato il record DMARC per tutti i sottodomini delegati in [!DNL Journey Optimizer], segui la procedura indicata di seguito.
 
-**Maggiori dettagli sulla [!DNL Journey Optimizer] La prossima funzionalità di DMARC sarà presto disponibile.**
+1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]** , quindi fai clic su **[!UICONTROL Configurare il sottodominio]**.
 
->[!NOTE]
+1. Per ogni sottodominio delegato, controlla **[!UICONTROL Record DMARC]** colonna. Se non è stato trovato alcun record per un determinato sottodominio, viene visualizzato un avviso.
+
+   ![](assets/dmarc-record-alert.png)
+
+   >[!CAUTION]
+   >
+   >Per soddisfare i nuovi requisiti di Gmail e Yahoo ed evitare problemi di recapito messaggi con i principali ISP, si consiglia di impostare un record DMARC per tutti i sottodomini delegati. [Ulteriori informazioni](dmarc-record-update.md)
+
+1. Seleziona un sottodominio senza record DMARC associato e compila il **[!UICONTROL Record DMARC]** in base alle esigenze della tua organizzazione. I passaggi per compilare i campi del record DMARC sono descritti in [questa sezione](#implement-dmarc).
+
+1. Considera le due opzioni seguenti:
+
+   * Se stai modificando una configurazione di sottodominio con [CNAME](delegate-subdomain.md#cname-subdomain-delegation), è necessario copiare il record DNS per DMARC nella soluzione di hosting per generare i record DNS corrispondenti.
+
+     ![](assets/dmarc-record-edit-cname.png)
+
+     Assicurati che il record DNS sia stato generato nella soluzione di hosting del tuo dominio e seleziona la casella &quot;Confermo...&quot;.
+
+   * Se stai modificando un sottodominio [completamente delegato](delegate-subdomain.md#full-subdomain-delegation) ad Adobe, compila semplicemente il **[!UICONTROL Record DMARC]** campi dettagliati in [questa sezione](#implement-dmarc). Non sono necessarie ulteriori azioni.
+
+     ![](assets/dmarc-record-edit-full.png)
+
+1. Salva le modifiche.
+
+## Configurare DMARC per i nuovi sottodomini {#set-up-dmarc}
+
+Durante la delega di nuovi sottodomini ad Adobe in [!DNL Journey Optimizer], verrà creato un record DMARC nel DNS per il dominio. Per implementare DMARC, segui i passaggi indicati di seguito.
+
+>[!CAUTION]
 >
->Ulteriori informazioni sull&#39;implementazione di DMARC in [Guida alle best practice per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} per comprendere meglio l’impatto sul recapito messaggi e-mail.
+>Per soddisfare i nuovi requisiti di Gmail e Yahoo ed evitare problemi di recapito messaggi con i principali ISP, si consiglia di impostare un record DMARC per tutti i sottodomini delegati. [Ulteriori informazioni](dmarc-record-update.md)
 
-## Che cos&#39;è DMARC?
+<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
-DMARC, che sta per **Autenticazione, reporting e conformità dei messaggi basati su dominio**, è un metodo/protocollo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati.
+1. Configura un nuovo sottodominio. [Scopri come](delegate-subdomain.md)
 
-Offrendo un modo per autenticare il dominio del mittente, impedisce ad attori dannosi di inviare e-mail che sembrano provenire dal tuo dominio.
+1. Vai a **[!UICONTROL Record DMARC]** sezione.
 
-DMARC fornisce inoltre un feedback sullo stato di autenticazione delle e-mail e consente ai mittenti di controllare cosa accade alle e-mail che non superano l’autenticazione. Ciò include opzioni per monitorare, mettere in quarantena o rifiutare la posta a seconda del criterio DMARC implementato.
+   Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori evidenziati nell’interfaccia o modificarli in base alle esigenze.
 
-<!--Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.-->
+   ![](assets/dmarc-record-found.png)
 
-DMARC dispone di tre opzioni:
+   >[!NOTE]
+   >
+   >Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti precompilati.
 
-* Monitoraggio (p=none): indica al provider di cassette postali/ISP di eseguire le operazioni normalmente eseguite sul messaggio.
-* Quarantena (p=quarantena): indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata o indesiderata del destinatario.
-* Rifiuta (p=rifiuta): indica al provider di cassette postali/ISP di bloccare la posta che non passa DMARC causando un mancato recapito.
+1. Definire l&#39;azione che il server destinatario eseguirà se DMARC non riesce. A seconda della [Criterio DMARC](#dmarc-policies) se si desidera applicare, selezionare una delle tre opzioni seguenti:
 
-## Come funziona DMARC?
+   * **[!UICONTROL Nessuno]** (valore predefinito): indica al destinatario di non eseguire azioni sui messaggi che non superano l’autenticazione DMARC, ma di inviare comunque i rapporti e-mail al mittente.
+   * **[!UICONTROL Quarantena]**: indica al server e-mail ricevente di mettere in quarantena le e-mail che non superano l’autenticazione DMARC; in genere, questo significa inserire i messaggi nella cartella di posta indesiderata o indesiderata del destinatario.
+   * **[!UICONTROL Rifiuta]**: indica al destinatario di rifiutare completamente (rifiutare) qualsiasi e-mail per il dominio che non supera l’autenticazione. Con questo criterio abilitato, solo i messaggi e-mail verificati come autenticati al 100% dal dominio avranno anche la possibilità di inserire messaggi nella casella in entrata.
 
-SPF e DKIM vengono entrambi utilizzati per associare un’e-mail a un dominio e collaborare per l’autenticazione dell’e-mail. DMARC compie un ulteriore passo avanti e aiuta a prevenire lo spoofing facendo corrispondere il dominio controllato da DKIM e SPF. Per passare il DMARC, un messaggio deve passare SPF o DKIM. Se entrambe queste operazioni non riescono, l’autenticazione DMARC avrà esito negativo e l’e-mail verrà recapitata in base ai criteri DMARC selezionati.
+   >[!NOTE]
+   >
+   >Come best practice, si consiglia di implementare lentamente l’implementazione DMARC inoltrando i criteri DMARC da **Nessuno**, a **Quarantena**, a **Rifiuta** man mano che acquisisci comprensione del potenziale impatto di DMARC.
 
-* SPF (Sender Policy Framework): DMARC si basa su SPF per autenticare l&#39;identità del server di posta elettronica di invio. SPF consente di verificare che il messaggio e-mail provenga da un’origine autorizzata controllando l’indirizzo IP del server di invio in base a un elenco di indirizzi IP autorizzati per il dominio.
-* DKIM (DomainKeys Identified Mail): DMARC utilizza anche DKIM per aggiungere una firma digitale ai messaggi e-mail, consentendo al destinatario di verificarne l’integrità e l’autenticità.
+1. Facoltativamente, aggiungi uno o più indirizzi e-mail di tua scelta per indicare dove **Rapporti DMARC** sulle e-mail che [autenticazione non riuscita](#how-dmarc-works) all&#39;interno della tua organizzazione. Puoi aggiungere fino a cinque indirizzi per ogni rapporto.
 
->[!NOTE]
->
->DMARC richiede l&#39;allineamento tra l&#39;indirizzo &#39;From&#39; e &#39;Return-Path&#39;.
+   >[!NOTE]
+   >
+   >Assicurati di avere una casella in entrata autentica (non Adobe) nel controllo in cui puoi ricevere tali rapporti.
+
+   Esistono due diversi rapporti generati dagli ISP che i mittenti possono ricevere tramite i tag RUA/RUF nei loro criteri DMARC:
+
+   * **Aggregare i rapporti** (RUA): non contengono dati PII (personalmente identificabili) che potrebbero essere sensibili ai requisiti RGPD.
+   * **Rapporti di errore forense** (RUF): Contengono indirizzi e-mail sensibili al RGPD. Prima di utilizzare, controlla internamente come gestire le informazioni che devono essere conformi ai requisiti RGPD.
+
+   >[!NOTE]
+   >
+   >Questi rapporti altamente tecnici forniscono una panoramica delle e-mail che vengono tentate di spoofing. È consigliabile digerirli attraverso uno strumento di terze parti.
+
+1. Seleziona la **percentuale applicabile** di e-mail per DMARC.
+
+   Questa percentuale dipende dalla fiducia nell’infrastruttura e-mail e dalla tolleranza per i falsi positivi (le e-mail legittime vengono contrassegnate come fraudolente). È comune per le organizzazioni iniziare con i criteri DMARC impostati su **Nessuno**, aumenta gradualmente la percentuale di criteri DMARC e monitora attentamente l’impatto sulla consegna di e-mail legittime.
+
+   >[!NOTE]
+   >
+   >Collabora con i tuoi amministratori e-mail e il team IT per aumentare gradualmente la percentuale man mano che acquisisci fiducia nelle tue pratiche di autenticazione e-mail.
+
+   Come best practice, è consigliabile ottenere un tasso di conformità DMARC elevato, idealmente vicino al 100%, per ottimizzare i vantaggi in termini di sicurezza e ridurre al minimo il rischio di falsi positivi.
+
+1. Seleziona un **intervallo di reporting** tra 24 e 168 ore. Consente ai proprietari del dominio di ricevere aggiornamenti regolari sui risultati dell’autenticazione e-mail e di intraprendere le azioni necessarie per migliorare la sicurezza e-mail.
+
+   <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+
+    The default value (24 hours) is generally the email providers' expectation.-->
 
 
 <!--
 
-* DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+Setting up a DMARC record involves adding a DNS TXT record to your domain's DNS settings. This record specifies your DMARC policy, such as whether to quarantine or reject messages that fail authentication. Implementing DMARC is a proactive step towards enhancing email security and protecting both your organization and your recipients from email-based threats.
 
-* DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
+DMARC helps prevent malicious actors from sending emails that appear to come from your domain. By setting up DMARC, you can specify how email providers should handle messages that fail authentication checks, reducing the likelihood that phishing emails will reach recipients.
+
+DMARC helps improve email deliverability by providing a clear policy for email providers to follow when encountering messages claiming to be from your domain. This can reduce the chances of legitimate emails being marked as spam or rejected.
 
 DMARC helps protect against email spoofing, phishing, and other fraudulent activities.
 
 It allows you to decide how a mailbox provider should handle emails that fail SPF and DKIM checks, providing a way to authenticate the sender's domain and prevent unauthorized use of the domain for malicious purposes.
 
+## What are the benefits of DMARC? {#dmarc-benefits}
+
+The key benefits or DMARC are as folllows:
+
+* DMARC allows email receivers to easily identify the authentication of emails, which could potentially improve delivery.
+
+* It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
+
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
+
 -->
 
 
-## Implementazione DMARC {#implement-dmarc}
-
-Per implementare DMARC, segui i passaggi riportati di seguito che si applicano al tuo caso.
-
-* Se non aggiungi DMARC, verrai messo in quarantena (almeno).
-
-### Sottodomini completamente delegati
-
-Impostare l&#39;azione che verrà eseguita dal server dei destinatari se DMARC non riesce.
-
-DMARC dispone di tre opzioni:
-
-* Monitoraggio (p=none): indica al provider di cassette postali/ISP di eseguire le operazioni normalmente eseguite sul messaggio. Questo è il valore predefinito.
-* Quarantena (p=quarantena): indica al provider della cassetta postale o all&#39;ISP di recapitare messaggi che non passano DMARC alla cartella di posta indesiderata o indesiderata del destinatario.
-* Rifiuta (p=rifiuta): indica al provider di cassette postali/ISP di bloccare la posta che non passa DMARC causando un mancato recapito.
-
-E-mail per ricevere report DMARC aggregati e report di errori DMARC forensi: puoi aggiungere fino a 5 indirizzi.
-
-* Assicurati di disporre di una casella in entrata autentica in cui ricevere il controllo: gestisci questa casella in entrata (non dovrebbe essere una casella in entrata Adobe)
-
-Percentuale applicabile di e-mail per applicare DMARC:
-
-Intervallo di reporting: il consiglio è di 24 perché in genere questo è ciò che hanno gli ISP.
-se meno, valuta la capacità / controlla il tuo > chat GPT
-
-Se viene rilevato un record DMARC, è possibile copiare e incollare gli stessi valori elencati o modificarli, se necessario.
-
-Se non si inserisce alcun valore, verranno utilizzati i valori predefiniti.
-
-### Sottodomini delegati tramite CNAME
-
-per CNAME nel flusso dell’edizione è necessario scaricare nuovamente il file CSV (non per una delega completa)
 
 
 

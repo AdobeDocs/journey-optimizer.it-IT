@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 22%
+source-wordcount: '1857'
+ht-degree: 21%
 
 ---
 
@@ -85,6 +85,12 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
    >
    >Puoi creare i record e inviare la configurazione del sottodominio in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
+1. Se il sottodominio non ha un record DMARC, puoi impostarlo qui. Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+   <!--update screen when available-->
+
 1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -154,6 +160,8 @@ Per delegare un sottodominio tramite CNAME, segui i passaggi seguenti:
    >[!NOTE]
    >
    >È possibile creare i record in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. A questo punto, potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
+
+1. Se il sottodominio non ha un record DMARC, puoi impostarlo qui. Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
 
 1. Attendi che Adobe verifichi che questi record vengano generati senza errori nella soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
 
