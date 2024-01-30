@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Per verificare di aver impostato il record DMARC per tutti i sottodomini delegat
 
 1. Salva le modifiche.
 
-## Configurare DMARC per i nuovi sottodomini {#set-up-dmarc}
+### Configurare DMARC per i nuovi sottodomini {#set-up-dmarc}
 
 Durante la delega di nuovi sottodomini ad Adobe in [!DNL Journey Optimizer], verrà creato un record DMARC nel DNS per il dominio. Per implementare DMARC, segui i passaggi indicati di seguito.
 
