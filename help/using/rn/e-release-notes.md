@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
+source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 20%
+source-wordcount: '537'
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,21 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>Playbook di casi d’uso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sfrutta un catalogo di playbook di casi d’uso specifici per il settore in Real-Time CDP e Journey Optimizer per risolvere casi d’uso comuni che è possibile eseguire utilizzando Adobe Experience Platform e Adobe Percorsi Optimizer.</p><p>Dopo aver scelto il playbook più adatto alle tue esigenze, puoi abilitarlo per generare le risorse necessarie per supportare il tuo caso d’uso, ad esempio percorsi, messaggi, schemi o segmenti.</p>
+<img src="assets/playbooks-detail.png"/>
+<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+</tr>
+</tbody>
+</table>
 
 ### Miglioramenti {#jan-2024-improvements}
 
