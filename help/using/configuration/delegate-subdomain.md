@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Delegare un sottodominio
 description: Scopri come delegare i sottodomini.
-feature: Subdomains
+feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1797'
 ht-degree: 21%
 
 ---
@@ -77,21 +77,21 @@ Per delegare completamente un nuovo sottodominio ad Adobe, segui i passaggi segu
 
 1. Viene visualizzato l’elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
-1. Assicurati che tutti i record DNS siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
+1. Assicurati che tutti i record DNS siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;.
 
    ![](assets/subdomain-submit.png)
+
+1. Impostare il record DMARC. Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. Fai clic su **[!UICONTROL Invia]**.
 
    >[!NOTE]
    >
    >Puoi creare i record e inviare la configurazione del sottodominio in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
-1. Se il sottodominio non ha un record DMARC, puoi impostarlo qui. Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
-
-   ![](assets/dmarc-record-found.png)
-
-   <!--update screen when available-->
-
-1. Una volta inviata la delega completa del sottodominio, il sottodominio viene visualizzato nell’elenco con **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
+1. Il sottodominio viene visualizzato nell’elenco con **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -113,7 +113,7 @@ Una volta delegato un sottodominio all’Adobe in [!DNL Journey Optimizer]: vien
 >
 >L’esecuzione parallela dei sottodomini non è attualmente supportata in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro ha la proprietà **[!UICONTROL Elaborazione]** stato, verrà visualizzato un messaggio di errore.
 
-## Delega dei sottodomini CNAME {#cname-subdomain-delegation}
+## Configurazione del sottodominio CNAME {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -127,7 +127,7 @@ Una volta delegato un sottodominio all’Adobe in [!DNL Journey Optimizer]: vien
 
 Se si dispone di criteri di restrizione specifici per il dominio e si desidera che Adobe abbia solo un controllo parziale sul DNS, è possibile scegliere di eseguire tutte le attività correlate al DNS dal proprio lato.
 
-La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utilizzare i CNAME per puntare a record specifici per Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.
+La configurazione del sottodominio CNAME consente di creare un sottodominio e utilizzare i CNAME per puntare a record specifici di un Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS per configurare l’ambiente per l’invio, il rendering e il tracciamento delle e-mail.
 
 >[!CAUTION]
 >
@@ -135,7 +135,7 @@ La delega dei sottodomini CNAME ti consente di creare un sottodominio e di utili
 
 ➡️ [Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici per Adobe in questo video](#video)
 
-Per delegare un sottodominio tramite CNAME, segui i passaggi seguenti:
+Per impostare un sottodominio utilizzando i CNAME, segui i passaggi seguenti:
 
 1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]** , quindi fai clic su **[!UICONTROL Configurare il sottodominio]**.
 
@@ -157,13 +157,17 @@ Per delegare un sottodominio tramite CNAME, segui i passaggi seguenti:
 
    ![](assets/subdomain-create-dns-confirm.png)
 
+1. Imposta il record DMARC. Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. Fai clic su **[!UICONTROL Continua]**.
+
    >[!NOTE]
    >
    >È possibile creare i record in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. A questo punto, potrai riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
-1. Se il sottodominio non ha un record DMARC, puoi impostarlo qui. Se il sottodominio ha un record DMARC esistente e se viene recuperato da [!DNL Journey Optimizer], è possibile utilizzare gli stessi valori o modificarli in base alle esigenze. Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti. [Ulteriori informazioni](dmarc-record.md)
-
-1. Attendi che Adobe verifichi che questi record vengano generati senza errori nella soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
+1. Attendi che Adobe verifichi che i record vengano generati senza errori nella soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
 
    >[!NOTE]
    >
@@ -172,10 +176,6 @@ Per delegare un sottodominio tramite CNAME, segui i passaggi seguenti:
 1. L’Adobe genera un record di convalida URL CDN SSL. Copia questo record di convalida nella piattaforma di hosting. Se hai creato correttamente questo record nella tua soluzione di hosting, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
    <!--![](assets/subdomain-cdn-url-validation.png)-->
-
-   >[!NOTE]
-   >
-   >Puoi anche creare il record di convalida e inviare la configurazione del sottodominio in un secondo momento utilizzando **[!UICONTROL Salva come bozza]** pulsante. Potrai quindi riprendere la delega del sottodominio aprendola dall’elenco dei sottodomini.
 
 1. Una volta inviata la delega del sottodominio CNAME, il sottodominio viene visualizzato nell’elenco con **[!UICONTROL Elaborazione]** stato. Per ulteriori informazioni sugli stati dei sottodomini, consulta [questa sezione](about-subdomain-delegation.md#access-delegated-subdomains).
 
