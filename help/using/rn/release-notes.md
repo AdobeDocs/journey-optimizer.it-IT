@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c428b18469eb98392fe6c49d5892a4699477457
+source-git-commit: 146a142afeb47debac0d56963e48225a85b0f2c4
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 27%
+source-wordcount: '605'
+ht-degree: 28%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 27%
 ### Nuove funzionalità{#jan24-features}
 
 Questa versione include le nuove funzionalità elencate di seguito.
-
 
 <table>
 <thead>
@@ -90,7 +89,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Read audience**  - Il **Read Audience** l’attività ora si basa sul set di dati snapshot del profilo per i segmenti batch, che viene generato solo una volta al giorno dopo l’esecuzione del processo batch giornaliero pianificato, pertanto i dati verranno aggiornati fino all’ultimo processo batch giornaliero.
+* **Read audience**  - Il **Read Audience** l’attività ora si basa sul set di dati snapshot del profilo per i segmenti batch, che viene generato solo una volta al giorno dopo l’esecuzione del processo batch giornaliero pianificato, pertanto i dati verranno aggiornati fino all’ultimo processo batch giornaliero. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 * **Gruppi di campi** - Questa versione risolve un problema che in alcuni casi impediva il salvataggio dei gruppi di campi.
 
@@ -100,4 +99,4 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Gestione delle decisioni**
 
-* **Limitazione di frequenza su Edge** - Il contatore dei limiti di frequenza ora è aggiornato e disponibile in una decisione API Edge Decisioning in meno di 3 secondi.
+* **Limitazione di frequenza su Edge** - Il contatore dei limiti di frequenza ora è aggiornato e disponibile in una decisione API Edge Decisioning in meno di 3 secondi. [Ulteriori informazioni](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
