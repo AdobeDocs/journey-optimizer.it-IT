@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
+source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
 workflow-type: tm+mt
-source-wordcount: '4574'
-ht-degree: 93%
+source-wordcount: '4586'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ Questa pagina elenca tutti gli aggiornamenti più recenti in [!DNL Journey Optim
 * È stato aggiunto un guardrail sulle dimensioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 * La gestione del timeout del percorso è stata dettagliata [nella sezione seguente](../building-journeys/journey-gs.md#global_timeout).
 * La [pagina home](../../ajo-home.md) della documentazione di Journey Optimizer è stata riprogettata.
-* Sono state aggiunte informazioni su Recommendations relative all’attività Aggiorna profili. [Ulteriori informazioni](../building-journeys/update-profiles.md)
+* Sono state aggiunte informazioni su consigli relativi all’attività Aggiorna profili. [Ulteriori informazioni](../building-journeys/update-profiles.md)
 * Sono state aggiunte informazioni sul comportamento dei timeout sulle attività evento in percorsi. Se non viene ricevuto alcun evento durante il periodo di timeout specificato, gli utenti continueranno il percorso se non è definito alcun percorso di timeout. [Ulteriori informazioni](../building-journeys/general-events.md#events-specific-time)
 * I prerequisiti per la configurazione del canale in-app sono stati aggiornati con una nota sull’utilizzo di un criterio di unione delle preferenze del set di dati personalizzato. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * Sono stati aggiunti ulteriori dettagli su come manipolare le raccolte in una risposta di azione personalizzata. [Ulteriori informazioni](../action/action-response.md#exp-syntax).
@@ -41,6 +41,7 @@ Questa pagina elenca tutti gli aggiornamenti più recenti in [!DNL Journey Optim
 * Aggiornare il **durata** parametro in `toString` funzione. [Ulteriori informazioni](../building-journeys/functions/functiontostring.md)
 * Per alcuni casi di utilizzo di origini dati esterne, si consiglia di utilizzare azioni personalizzate.
 * La sintassi del campo evento è stata aggiornata. La sintassi seguente è obsoleta `@(my_event.myfield}` e sostituito da `@event{my_event.myfield}`. [Ulteriori informazioni](../building-journeys/expression/field-references.md)
+* Le guide dei rapporti globali e live sono state riorganizzate. [Ulteriori informazioni](../reports/campaign-global-report.md)
 
 
 ## Novembre 2023 {#nov-2023}
