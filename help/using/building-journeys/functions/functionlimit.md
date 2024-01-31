@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limit, funzione, espressione, percorso
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '139'
 ht-degree: 7%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 7%
 # limit {#limit}
 
 Restituisce il primo o l&#39;ultimo N elemento di un elenco.
-
->[!NOTE]
->
->Se l’elenco di destinazione è un listObject, questa funzione può essere utilizzata solo nelle espressioni di azione personalizzate.
 
 ## Categoria
 

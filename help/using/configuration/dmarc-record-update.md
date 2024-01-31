@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '576'
 ht-degree: 6%
 
 ---
@@ -45,9 +45,8 @@ oppure
 oppure
    * Configurare DMARC nei sottodomini delegati **nel[!DNL Journey Optimizer]** interfaccia utente di configurazione. [Scopri come](dmarc-record.md#implement-dmarc)
 
-     Tuttavia, con la delega CNAME sarà necessario inserire anche la voce nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento non appena [!DNL Journey Optimizer] (il 30 gennaio). [Ulteriori informazioni](dmarc-record.md#implement-dmarc)
+  Tuttavia, con la delega CNAME sarà necessario inserire anche la voce nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento descritto in [questa sezione](dmarc-record.md#implement-dmarc).
 
-**A partire dal 30 gennaio sarà disponibile un&#39;interfaccia self-service per l&#39;implementazione DMARC. Ulteriori informazioni in [questa sezione](dmarc-record.md#implement-dmarc).**
 
 Le timeline più recenti condivise da Google e Yahoo sono le seguenti:
 

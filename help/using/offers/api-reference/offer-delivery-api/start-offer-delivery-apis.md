@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '673'
 ht-degree: 4%
 
 ---
@@ -121,6 +121,10 @@ Quando si trasmettono dati contestuali con una richiesta API Edge Decisioning, i
 >[!NOTE]
 >
 >Per memorizzare i dati contestuali, è necessario configurare uno schema XDM dedicato.
+
+**Aggiornamento del contatore dei limiti di frequenza**
+
+Se per alcune offerte è stato abilitato il limite di frequenza per definire la frequenza con cui viene reimpostato il conteggio dei limiti, il contatore viene aggiornato e disponibile in una decisione API Edge Decisioning in meno di 3 secondi. [Scopri come aggiungere vincoli a un’offerta](../../offer-library/add-constraints.md)
 
 ## Funzionalità API di decisioning {#decisioning}
 

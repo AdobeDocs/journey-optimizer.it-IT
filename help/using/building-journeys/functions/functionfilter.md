@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: filter, function, expression, percorsi
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 8%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
 # filter{#filter}
 
 Restituisce un oggetto listObject con oggetti il cui attributo chiave corrisponde a uno dei valori chiave specificati.
-
->[!NOTE]
->
->Se l’elenco di destinazione è un listObject, questa funzione può essere utilizzata solo nelle espressioni di azione personalizzate.
 
 ## Categoria
 
@@ -82,7 +78,7 @@ Ecco un esempio di payload passato in un evento in ingresso &quot;myevent&quot;:
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )

@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctCountWithNull, funzione, espressione, percorso
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 22%
 
 Conta il numero di valori diversi, inclusi i valori Null.
 
->[!NOTE]
->
->Se l’elenco di destinazione è un listObject, questa funzione può essere utilizzata solo nelle espressioni di azione personalizzate.
+Il parametro `<listObject>` non è supportato in questa funzione.
 
 ## Categoria
 
@@ -34,14 +32,7 @@ Aggregazione
 
 | Parametro | Tipo |
 |-----------|------------------|
-| Elenco | listString |
-| Elenco | listBoolean |
-| Elenco | listInteger |
-| Elenco | listDecimal |
-| Elenco | listDuration |
-| Elenco | listDateTime |
-| Elenco | listDateTimeOnly |
-| Elenco | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Firma e tipo restituito
 

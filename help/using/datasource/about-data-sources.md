@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 72%
+source-wordcount: '331'
+ht-degree: 68%
 
 ---
 
@@ -38,6 +38,10 @@ Esistono due tipi di origini dati:
 
 * L’origine dati preconfigurata di Adobe Experience Platform che definisce la connessione al servizio Profilo del cliente in tempo reale, che costituisce un’origine dati incorporata. Consulta [questa pagina](../datasource/adobe-experience-platform-data-source.md).
 * Le origini dati esterne che consentono di definire una connessione ai sistemi esterni, ovvero quelle che puoi creare. Consulta [questa pagina](../datasource/external-data-sources.md).
+
+>[!NOTE]
+>
+>Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati.
 
 Per ciascuna origine dati è possibile definire le informazioni da recuperare utilizzando i gruppi di campi. I gruppi di campi costituiscono insiemi di campi che possono essere recuperati da un’origine dati. Consulta [questa pagina](../datasource/configure-data-sources.md#define-field-groups).
 

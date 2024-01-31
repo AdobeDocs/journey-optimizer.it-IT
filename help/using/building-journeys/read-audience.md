@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 10%
+source-wordcount: '1402'
+ht-degree: 5%
 
 ---
 
@@ -31,9 +31,9 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 ## Da leggere {#must-read}
 
-* Per i percorsi che utilizzano un’attività di Leggii pubblico esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I tentativi verranno eseguiti dal sistema, ma evita di disporre di più di cinque percorsi (con Leggi pubblico, programmato o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza.
+* Per i percorsi che utilizzano **Read Audience** attività, esiste un numero massimo di percorsi che possono iniziare contemporaneamente. I nuovi tentativi verranno eseguiti dal sistema, ma non dovranno richiedere più di cinque percorsi (con **Read Audience**, pianificato o che inizia &quot;non appena possibile&quot;) a partire dalla stessa ora. Si consiglia di distribuirli nel tempo, ad esempio a 5-10 minuti di distanza.
 
-* I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
+* I gruppi di campi evento esperienza non possono essere utilizzati nei percorsi che iniziano con un **Read audience** attività, un **[Qualificazione del pubblico](audience-qualification-events.md)** o un’attività di evento di business.
 
 * Come best practice, consigliamo di utilizzare solo i tipi di pubblico in batch in una **Read audience** attività. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d’uso richiede dati in tempo reale, utilizza **[Qualificazione del pubblico](audience-qualification-events.md)** attività.
 

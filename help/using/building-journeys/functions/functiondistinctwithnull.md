@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: distinctWithNull, funzione, espressione, percorso
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 5%
+source-wordcount: '123'
+ht-degree: 7%
 
 ---
 
 # distinctWithNull {#distinctWithNull}
 
 Restituisce i valori o gli oggetti distinti di un elenco specifico. Se l&#39;elenco include almeno una voce Null, nell&#39;elenco restituito sarà presente una voce Null.
+
+Il parametro `<listObject>` non è supportato in questa funzione.
 
 ## Categoria
 
@@ -30,8 +32,7 @@ Elenco
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | string | Questo parametro è facoltativo e solo per listObject. Se il parametro non viene fornito, un oggetto viene considerato duplicato se tutti gli attributi hanno gli stessi valori. In caso contrario, un oggetto viene considerato duplicato se l’attributo specificato ha lo stesso valore. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Elenco da elaborare. |
 
 ## Firme e tipi restituiti
 
@@ -66,12 +67,6 @@ Restituisce un elenco di booleani.
 `distinctWithNull(<listDuration>)`
 
 Restituisce un elenco di durate.
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-Restituisce un elenco di oggetti.
 
 ## Esempi
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2424'
 ht-degree: 16%
 
 ---
@@ -258,9 +258,12 @@ Il **[!UICONTROL Frequenza]** consente di definire la frequenza con cui viene re
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >Il ripristino avviene alle ore 12:00 UTC, nel giorno definito o, se del caso, nel primo giorno della settimana/mese. Il giorno di inizio della settimana è domenica. La durata scelta non può superare i 2 anni (ossia il numero corrispondente di mesi, settimane o giorni).
+>
+>Il contatore dei limiti di frequenza viene aggiornato e disponibile in una decisione API Edge Decisioning in meno di 3 secondi.
 
 Ad esempio, se desideri reimpostare il conteggio dei limiti ogni 2 settimane, seleziona **[!UICONTROL Ogni settimana]** dall’elenco a discesa corrispondente e digita **2** nell&#39;altro campo. Il ripristino avverrà ogni due domeniche alle 12:00 UTC.
 

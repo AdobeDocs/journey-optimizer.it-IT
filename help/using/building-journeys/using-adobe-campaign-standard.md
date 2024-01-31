@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, integrazione, standard, campagna, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -102,7 +102,7 @@ In questa sezione devi definire **[!UICONTROL Piattaforma push]**. L’elenco a 
 È inoltre necessario definire **[!UICONTROL Token di registrazione]**. L’espressione dipende da come viene definito il token nel payload dell’evento o in altri [!DNL Journey Optimizer] informazioni. Può essere un campo semplice o un’espressione più complessa, nel caso in cui il token sia definito in una raccolta, ad esempio:
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Dati di personalizzazione]**

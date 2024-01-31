@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, funzione, espressione, percorso
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 21%
+source-wordcount: '88'
+ht-degree: 12%
 
 ---
 
 # serializeList {#serializeList}
 
-Converte l&#39;elenco (qualsiasi tipo) specificato nel primo parametro in una stringa. Il secondo parametro rappresenta il separatore da utilizzare. Il terzo parametro è un valore booleano che indica se ogni elemento dell’espressione deve includere virgolette.
+Converte un elenco specifico (qualsiasi tipo eccetto listObject) in una stringa.
 
 ## Categoria
 
@@ -28,19 +28,11 @@ Elenco
 
 ## Parametri
 
-| Parametro | Tipo |
-|-----------|------------------|
-| Stringa | Stringa |
-| Booleano | Booleano |
-| DateTimeOnly | DateTimeOnly |
-| Elenco | listString |
-| Elenco | listBoolean |
-| Elenco | listPoint |
-| Elenco | listDecimal |
-| Elenco | listDuration |
-| Elenco | listDateTime |
-| Elenco | listDateTimeOnly |
-| Elenco | listDateOnly |
+| Parametro | Tipo | Descrizione |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Elenco da convertire in stringa. |
+| separatore | string | Separatore tra ciascun elemento elenco nella stringa di output. |
+| addQuotes | booleano | Questo parametro indica se ogni elemento nella stringa di output deve includere virgolette (true) o meno (false). |
 
 ## Firma e tipo restituito
 
@@ -59,8 +51,6 @@ Elenco
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Restituisce una stringa.
 

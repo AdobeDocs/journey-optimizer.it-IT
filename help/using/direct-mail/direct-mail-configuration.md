@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '903'
 ht-degree: 31%
 
 ---
@@ -155,9 +155,7 @@ Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-ma
 
 >[!NOTE]
 >
->Le righe duplicate verranno rimosse automaticamente.
->
->Se il numero massimo di record (ovvero righe) per ciascun file contenente dati di profilo è troppo alto, verrà creato automaticamente un altro file per i record rimanenti.
+>Le righe duplicate in cui tutti i valori nella riga sono uguali vengono rimosse automaticamente dal file.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

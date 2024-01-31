@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 81%
+source-wordcount: '435'
+ht-degree: 68%
 
 ---
 
@@ -20,23 +20,27 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
+>[!TAB La versione di gennaio è live!]
+
+Scopri le nuove funzioni e i miglioramenti introdotti con Adobe Journey Optimizer versione 24.1.
+
+[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB Aggiornamento DMARC obbligatorio]
 
-Come parte delle procedure ottimali di settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. Assicurati di aver impostato il record DMARC per tutti i sottodomini a cui hai delegato l’Adobe in Journey Optimizer.
+Come parte dell’applicazione delle best practice del settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. Assicurati di aver impostato il record DMARC per tutti i sottodomini a cui hai delegato l’Adobe in Journey Optimizer.
 
 [![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Strumenti sandbox]
+>[!TAB Playbook di casi d’uso]
 
-Gli strumenti sandbox consentono di copiare oggetti in più sandbox sfruttando le funzioni di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
+Sfrutta un catalogo di playbook di casi d’uso specifici per il settore in Real-Time CDP e Journey Optimizer per risolvere casi d’uso comuni che è possibile eseguire utilizzando Adobe Experience Platform e Adobe Percorsi Optimizer.
 
-[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+Dopo aver scelto il playbook più adatto alle tue esigenze, puoi abilitarlo per generare le risorse necessarie per supportare il caso d’uso, ad esempio percorsi, messaggi, schemi o segmenti, e personalizzarli nel tuo schema per velocizzare il time-to-value.
 
->[!TAB MMS negli SMS]
+![immagine animata che mostra le playbook Use Case](using/rn/assets/do-not-localize/playbooks.gif)
 
-Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono la condivisione di immagini, GIF o video con la clientela. Questa funzione è attualmente disponibile solo con Sinch.
-
-[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

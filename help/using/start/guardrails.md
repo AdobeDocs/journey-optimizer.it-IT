@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 94%
+source-wordcount: '1960'
+ht-degree: 89%
 
 ---
 
@@ -87,6 +87,10 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Gli indirizzi IP non sono consentiti
 * Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
 * Non è possibile rimuovere le azioni personalizzate incorporate.
+* Quando scegli un endpoint per il targeting utilizzando un’azione personalizzata, assicurati che:
+
+   * Questo endpoint può supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [Limitazione di utilizzo API](../configuration/capping.md) per limitarlo. Fai attenzione a che una configurazione di limitazione non possa scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.
+   * Questo endpoint deve avere un tempo di risposta il più basso possibile. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva.
 
 ### Eventi {#events-g}
 
@@ -99,6 +103,10 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 * Le origini dati esterne possono essere sfruttate all’interno di un percorso del cliente per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 * Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
+
+>[!NOTE]
+>
+>Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati.
 
 ### Creazione di percorsi e profili {#journeys-limitation-profile-creation}
 

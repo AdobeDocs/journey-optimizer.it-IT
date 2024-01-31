@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 4%
+source-wordcount: '982'
+ht-degree: 3%
 
 ---
 
@@ -65,3 +65,5 @@ Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno 
 * Se le stesse condizioni vengono ripetute in più percorsi (controlli del consenso, eliminazioni), considera di spostarle come parte della definizione del segmento. Ad esempio, se disponi di una condizione per controllare &quot;l’indirizzo e-mail non è vuoto&quot; in più percorsi, includi tale condizione nella definizione del segmento.
 * Se il percorso presenta diverse condizioni che dividono il pubblico per visualizzare i numeri in ogni passaggio, è consigliabile utilizzare il Customer Journey Analytics o un’altra soluzione di reporting più adatta per l’analisi.
 * Se ti stai avvicinando al limite di nodi nell’area di lavoro, considera il consolidamento delle azioni con parametri dinamici o contenuti per fornire il contenuto giusto invece di nodi espliciti.
+
+* Se ha un **Read Audience** percorso con segmento batch (A) e se utilizzi all’interno del percorso nel segmento di streaming del pubblico (B) per escludere (ovvero esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l’esclusione come parte della logica di segmentazione stessa.

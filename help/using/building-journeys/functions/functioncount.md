@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: count, function, expression, percorsi
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 28%
+source-wordcount: '90'
+ht-degree: 10%
 
 ---
 
@@ -26,18 +26,13 @@ Aggregazione
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## Parametri
 
-| Parametro | Tipo |
-|-----------|------------------|
-| Elenco | listString |
-| Elenco | listBoolean |
-| Elenco | listInteger |
-| Elenco | listDecimal |
-| Elenco | listDuration |
-| Elenco | listDateTime |
-| Elenco | listDateTimeOnly |
-| Elenco | listDateOnly |
+| Parametro | Tipo | Descrizione |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da elaborare. Per listObject, deve essere un riferimento di campo. Un listObject non può contenere un oggetto null. |
 
 ## Firme e tipo restituito
 
@@ -50,3 +45,7 @@ Restituisce un numero intero.
 `count([10,2,10,null])`
 
 Restituisce 3.
+
+`count(@event{my_event.productListItems})`
+
+Restituisce il numero di oggetti nella matrice di oggetti specificata (tipo listObject). Nota: listObject non può contenere un oggetto null

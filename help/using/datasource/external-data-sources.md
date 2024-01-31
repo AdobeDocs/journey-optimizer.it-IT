@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 67%
+source-wordcount: '1489'
+ht-degree: 64%
 
 ---
 
@@ -28,6 +28,10 @@ Le origini dati esterne consentono di definire una connessione a sistemi di terz
 >[!NOTE]
 >
 >I guardrail quando si lavora con sistemi esterni sono elencati in [questa pagina](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati.
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
@@ -122,9 +126,12 @@ Con questa autenticazione, l’esecuzione dell’azione è un processo suddiviso
 1. Chiama l’endpoint per generare il token di accesso.
 1. Chiama l’API REST inserendo il token di accesso nel modo appropriato.
 
-Questa autenticazione è costituita da due parti.
 
-Definizione dell’endpoint da chiamare per la generazione del token di accesso:
+>[!NOTE]
+>
+>**Questa autenticazione è costituita da due parti.**
+
+### Definizione dell’endpoint da chiamare per generare il token di accesso
 
 * endpoint: URL da utilizzare per generare l’endpoint
 * metodo della richiesta HTTP sull’endpoint (GET o POST)
@@ -133,7 +140,7 @@ Definizione dell’endpoint da chiamare per la generazione del token di accesso:
    * &#39;form&#39;: indica che il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono: key1=value1&amp;key2=value2&amp;...
    * &#39;json&#39;: indica che il tipo di contenuto sarà application/json (charset UTF-8) e che le coppie chiave-valore saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-La definizione della modalità di inserimento del token di accesso nella richiesta HTTP dell’azione:
+### Definizione del modo in cui il token di accesso deve essere inserito nella richiesta HTTP dell’azione
 
 * authorizationType: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l’azione. I valori possibili sono:
 
@@ -150,8 +157,6 @@ Il formato di questa autenticazione è:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ Il formato di questa autenticazione è:
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ Di seguito è riportato un esempio per il tipo di autenticazione dell’intestaz
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 Ecco un esempio della risposta della chiamata API di accesso:
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

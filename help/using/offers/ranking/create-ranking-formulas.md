@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 3%
@@ -112,8 +112,8 @@ Incrementa alcune offerte in base ai dati contestuali trasmessi nella chiamata d
 **Formula di classificazione:**
 
 ```
-if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+if (@event{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
+and offer.characteristics.get("weather")=@event{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
 Tieni presente che quando utilizzi l’API di decisioning, i dati contestuali vengono aggiunti all’elemento profilo nel corpo della richiesta, come nell’esempio seguente.

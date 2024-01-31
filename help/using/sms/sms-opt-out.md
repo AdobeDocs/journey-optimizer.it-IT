@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 25%
+source-wordcount: '459'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,15 @@ In conformità agli standard e alle normative del settore, tutti i messaggi SMS 
 
 ## Parole chiave in entrata native {#sms-native-keywords}
 
-Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi con codici brevi, gratuiti e a codice lungo: STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE. Solo Sinch e Infobip supportano le parole chiave native se utilizzate con Journey Optimizer.
+>[!NOTE]
+>
+> Solo Sinch e Infobip supportano le parole chiave native se utilizzate con Journey Optimizer.
+
+Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messaggi di risposta standard in lingua inglese per i messaggi con codici brevi, gratuiti e a codice lungo:
+
+* **Rinuncia**: INTERROMPI, ESCI, ANNULLA, TERMINA, ANNULLA ISCRIZIONE, NO.
+* **Opt-in**: SUBSCRIBE, YES, UNSTOP, START, CONTINUE, RESUME, BEGIN.
+* **Aiuto**: GUIDA.
 
 Queste parole chiave in genere attivano una risposta standard automatica dal provider di terze parti. Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
 
