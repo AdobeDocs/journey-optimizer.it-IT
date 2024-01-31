@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 # Playbook di casi d’uso {#playbooks}
+
+>[!PREREQUISITES]
+>
+>Prima di utilizzare i playbook dei casi d’uso, è necessario eseguire i seguenti passaggi di configurazione. Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazione di Use Case Playbook [Introduzione](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} pagina.
+>
+>* Creare una sandbox
+>* Configurare le autorizzazioni utente
+>* Configurare le superfici di canale Journey Optimizer per le notifiche e-mail, push e SMS
 
 Le playbook di casi d’uso sono flussi di lavoro predefiniti che trattano casi d’uso comuni che puoi eseguire utilizzando Adobe Experience Platform e Journey Optimizer.
 
