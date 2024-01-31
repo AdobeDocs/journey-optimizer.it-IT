@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '3359'
-ht-degree: 27%
+source-wordcount: '4648'
+ht-degree: 19%
 
 ---
 
@@ -53,13 +53,17 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ![](assets/campaign_report_global_1.png)
 
-Il **[!UICONTROL Statistiche della campagna]** widget fornisce dettagli sulle informazioni principali relative alla campagna:
+Il **[!UICONTROL Statistiche della campagna]** I KPI fungono da dashboard completo e offrono una suddivisione dettagliata delle metriche chiave correlate alla campagna. Ciò include informazioni essenziali come il numero di profili e le azioni consegnate, fornendo una comprensione approfondita delle prestazioni e del coinvolgimento della campagna.
 
-* **[!UICONTROL Profili immessi]**: numero di profili che hanno avviato il percorso.
++++ Ulteriori informazioni sulle metriche delle statistiche di Campaign
 
-* **[!UICONTROL Azioni consegnate]**: numero totale di volte in cui è stata consegnata un’azione nel percorso.
+* **[!UICONTROL Pubblico]**: numero di profili target.
 
-* **[!UICONTROL Azioni non riuscite in %]**: numero totale di volte in cui un’azione non è riuscita nel percorso rispetto al numero totale di volte in cui è stata consegnata un’azione.
+* **[!UICONTROL Azioni consegnate]**: numero totale di volte in cui è stata consegnata un’azione.
+
+* **[!UICONTROL Azioni non riuscite in %]**: percentuale di volte in cui un’azione non è riuscita rispetto al numero totale di volte in cui è stata consegnata un’azione.
+
++++
 
 <!--
 ### Objectives report {#objectives-global}
@@ -92,6 +96,8 @@ La definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tem
 
 Il **[!UICONTROL Risultato esperimento]** il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti tra **[!UICONTROL Linea di base]** il menu a discesa. Il miglior trattamento sarà rappresentato da un’icona a forma di stella.
 
+Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
+
 La tabella presenta le metriche seguenti:
 
 * **[!UICONTROL Incremento rispetto alla linea di base]**: misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale.
@@ -116,72 +122,28 @@ L&#39;ultimo widget fornisce dati relativi al **[!UICONTROL Metrica di successo]
 
 +++
 
-Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
-
 ## Scheda e-mail {#email-global}
+
+### E-mail - Statistiche di invio {#sending-statistics-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
 >title="E-mail - Statistiche di invio"
 >abstract="La tabella della sezione E-mail - Statistiche di invio riepiloga dati essenziali sulle e-mail, ad esempio Target o Consegnati."
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_tracking_statistics"
->title="E-mail - Statistiche di tracciamento"
->abstract="La tabella della sezione E-mail - Statistiche di tracciamento e-mail fornisce i dati sulle attività dei profili per l’e-mail."
+![](assets/campaign_email_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_sending_performance"
->title="E-mail - Prestazioni di invio"
->abstract="Il grafico della sezione E-mail - Prestazioni di invio presenta dati completi sulle e-mail inviate, fornendo insight su metriche chiave quali consegne e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
+Il **[!UICONTROL Statistiche di invio e-mail]** La tabella fornisce un riepilogo completo dei dati essenziali relativi alle campagne e-mail. Descrive le metriche chiave, come la dimensione del pubblico target e il numero di e-mail inviate con successo, fornendo informazioni utili sull’efficacia e la portata delle e-mail.
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_bounce_categories"
->title="E-mail - Categorie di mancato recapito"
->abstract="I grafici e la tabella della sezione E-mail - Categorie di mancato recapito forniscono dati su errori temporanei e permanenti."
++++ Ulteriori informazioni sulle metriche delle statistiche di invio di e-mail
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_bounce_reasons"
->title="E-mail - Motivi di mancato recapito"
->abstract="I grafici e la tabella della sezione E-mail - Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_error_reasons"
->title="E-mail - Motivi di errore"
->abstract="I grafici e la tabella della sezione E-mail - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante l’invio."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_excluded_reasons"
->title="E-mail - Motivi di esclusione"
->abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_top_url"
->title="E-mail - URL principale"
->abstract="Il grafico e la tabella della sezione E-mail - URL principale offrono una panoramica completa degli URL all’interno dell’e-mail che vengono visitati di più, consentendoti di individuare i collegamenti più popolari."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_email_best_recipient"
->title="E-mail - Dominio destinatario migliore"
->abstract="Il grafico e la tabella della sezione E-mail - Dominio destinatario migliore forniscono un raggruppamento dettagliato dei domini utilizzati più di frequente dai destinatari per aprire l’e-mail e insight sul comportamento dei destinatari."
-
-![](assets/campaign_report_global_2.png)
-
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL E-mail]** Questa scheda contiene le informazioni principali relative alle consegne e-mail inviate nella campagna.
-
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto e-mail.
-
-Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo della tua e-mail:
-
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’e-mail ricorrente. Per eseguire il targeting di una o più e-mail ricorrenti, selezionala dall’opzione **[!UICONTROL Tempo di esecuzione]** a discesa.
-
-* **[!UICONTROL Target]**: numero totale di messaggi elaborati durante il processo di invio.
+* **[!UICONTROL Target]**: numero totale di e-mail elaborate durante il processo di invio.
 
 * **[!UICONTROL Inviato]**: numero totale di invii per e-mail.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di e-mail inviate correttamente, in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Percentuale di consegna]**: percentuale di messaggi inviati correttamente.
+* **[!UICONTROL Percentuale di consegna]**: percentuale di e-mail inviate correttamente.
 
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
@@ -195,9 +157,20 @@ Il **[!UICONTROL Statistiche di invio e-mail]** il grafico descrive il successo 
 
 * **[!UICONTROL Escluso]**: numero di profili che sono stati esclusi da Adobe Journey Optimizer.
 
-Il **[!UICONTROL E-mail - Statistiche di tracciamento]** il widget contiene i dati disponibili per l’attività profilo per l’e-mail:
++++
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’e-mail ricorrente. Per eseguire il targeting di una o più e-mail ricorrenti, selezionala dall’opzione **[!UICONTROL Tempo di esecuzione]** a discesa.
+### E-mail - Statistiche di tracciamento {#tracking-statistics-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_tracking_statistics"
+>title="E-mail - Statistiche di tracciamento"
+>abstract="La tabella della sezione E-mail - Statistiche di tracciamento e-mail fornisce i dati sulle attività dei profili per l’e-mail."
+
+![](assets/campaign_email_tracking.png)
+
+Il **[!UICONTROL E-mail - Statistiche di tracciamento]** la tabella offre un account dettagliato dell’attività profilo correlata alle campagne e-mail. Ciò include metriche su aperture, clic e altri indicatori di coinvolgimento rilevanti, che offrono una visualizzazione completa del modo in cui i profili interagiscono con il contenuto dell’e-mail.
+
++++ Ulteriori informazioni su E-mail - Metriche delle statistiche di tracciamento
 
 * **[!UICONTROL Aperture]**: numero di volte in cui l’e-mail è stata aperta.
 
@@ -205,27 +178,60 @@ Il **[!UICONTROL E-mail - Statistiche di tracciamento]** il widget contiene i da
 
 * **[!UICONTROL Percentuale aperture]**: numero totale di e-mail aperte rispetto al numero di e-mail consegnate.
 
-* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
+* **[!UICONTROL Clic]**: numero di volte in cui hai fatto clic su un contenuto nelle e-mail.
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.
 
-* **[!UICONTROL Percentuale clic univoci]**: percentuale di utenti che hanno interagito con il messaggio e-mail.
+* **[!UICONTROL Percentuale clic univoci]**: percentuale di utenti che hanno interagito con le e-mail.
 
 * **[!UICONTROL Annullamenti iscrizione]**: numero di clic sul collegamento di annullamento dell’abbonamento.
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
-Il **[!UICONTROL Prestazioni di invio]** il grafico contiene i dati disponibili per le e-mail inviate, ad esempio:
++++
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+### E-mail - Prestazioni di invio {#sending-performance-email}
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_performance"
+>title="E-mail - Prestazioni di invio"
+>abstract="Il grafico delle prestazioni E-mail - Invio presenta dati completi sulle e-mail inviate, fornendo informazioni approfondite su metriche chiave quali consegna e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
+
+![](assets/campaign_email_sending_performance.png)
+
+Il **[!UICONTROL E-mail - Prestazioni di invio]** graph fornisce una visualizzazione completa dei dati relativi alle e-mail inviate, offrendo informazioni approfondite su metriche chiave quali consegna e mancati recapiti. Ciò consente un’analisi dettagliata del processo di invio delle e-mail, fornendo informazioni preziose sull’efficienza e le prestazioni delle campagne e-mail.
+
++++ Ulteriori informazioni sull’e-mail - Metriche delle prestazioni di invio
+
+* **[!UICONTROL Consegnato]**: numero di e-mail inviate correttamente, in relazione al numero totale di e-mail inviate.
+
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di e-mail inviate.
 
 * **[!UICONTROL Nuovi tentativi]**: numero di e-mail nella coda per i nuovi tentativi.
 
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
 
-Il **[!UICONTROL Motivi di mancato recapito]** e **[!UICONTROL Categorie di mancato recapito]** I widget contengono i dati disponibili relativi ai messaggi non recapitati, ad esempio:
++++
+
+### E-mail - Motivi e categorie di mancato recapito {#bounces-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_categories"
+>title="E-mail - Categorie di mancato recapito"
+>abstract="I grafici e la tabella della sezione E-mail - Categorie di mancato recapito forniscono dati su errori temporanei e permanenti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_reasons"
+>title="E-mail - Motivi di mancato recapito"
+>abstract="I grafici e la tabella della sezione E-mail - Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
+
+![](assets/campaign_email_bounces.png)
+
+Il **[!UICONTROL E-mail - Motivi di mancato recapito]** e **[!UICONTROL E-mail - Categorie di mancato recapito]** I widget compilano i dati disponibili relativi ai messaggi non recapitati, fornendo informazioni dettagliate sui motivi e sulle categorie specifici alla base dei messaggi non recapitati.
+
+Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppressione](../reports/suppression-list.md) pagina.
+
++++ Ulteriori informazioni su E-mail - Metriche delle categorie di mancato recapito
 
 * **[!UICONTROL Mancato recapito permanente]**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio Utente sconosciuto.
 
@@ -233,21 +239,138 @@ Il **[!UICONTROL Motivi di mancato recapito]** e **[!UICONTROL Categorie di manc
 
 * **[!UICONTROL Ignorato]**: numero totale di messaggi temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
-Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppressione](../reports/suppression-list.md) pagina.
++++
 
-Il **[!UICONTROL Motivi di errore]** Il grafico e la tabella consentono di vedere quale errore si è verificato durante il processo di invio.
 
-Il **[!UICONTROL Motivi di esclusione]** il grafico e la tabella mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
+### E-mail - Motivi di errore {#errors-email}
 
-Il **[!UICONTROL E-Mail - URL principale]** il grafico e la tabella indicano gli URL più visitati del tuo indirizzo e-mail.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_error_reasons"
+>title="E-mail - Motivi di errore"
+>abstract="I grafici e la tabella della sezione E-mail - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante l’invio."
 
-Il **[!UICONTROL E-mail - Dominio destinatario principale]** il grafico e la tabella indicano i domini più utilizzati dai profili per aprire l’e-mail.
+![](assets/campaign_email_error_reasons.png)
+
+Il **[!UICONTROL Motivi di errore]** grafici e tabelle offrono visibilità sugli errori specifici che si sono verificati durante il processo di invio, fornendo informazioni preziose sulla natura e sul verificarsi degli errori.
+
+È possibile scegliere di passare da una tabella, un grafico a barre o una ciambella.
+
+### E-mail - Motivi di esclusione {#excluded-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_excluded_reasons"
+>title="E-mail - Motivi di esclusione"
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
+
+![](assets/campaign_email_excluded.png)
+
+Il **[!UICONTROL Motivi di esclusione]** grafici e tabelle presentano una visione completa dei diversi fattori che hanno determinato l’esclusione dei profili utente dal pubblico di destinazione, causando la mancata ricezione del messaggio.
+
+Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+
+### Inviato e consegnato per dominio {#sent-domains}
+
+![](assets/campaign_email_sent_domains.png)
+
+Il  **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forniscono un raggruppamento dettagliato delle e-mail a livello di dominio, offrendo informazioni complete sulle prestazioni delle e-mail.
+
++++ Ulteriori informazioni sulle metriche Inviato e Consegnato per domini
+
+* **[!UICONTROL Inviato]**: numero totale di invii per e-mail.
+
+* **[!UICONTROL Consegnato]**: numero di e-mail inviate correttamente, in relazione al numero totale di e-mail inviate.
+
++++
+
+### Mancati recapiti ed errori per dominio {#bounces-domains}
+
+![](assets/campaign_email_bounce_domains.png)
+
+Il  **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offrono un raggruppamento a livello di dominio degli errori specifici riscontrati durante il processo di invio, fornendo un’analisi dettagliata dei problemi che si sono verificati.
+
++++ Ulteriori informazioni su mancati recapiti ed errori per domini e metriche
+
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di e-mail inviate.
+
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che hanno impedito l’invio dell’e-mail ai profili.
+
++++
+
+### Aperture e clic per dominio {#opens-domains}
+
+![](assets/campaign_email_open_domains.png)
+
+Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra un raggruppamento a livello di dominio del coinvolgimento dei profili con la tua e-mail, fornendo informazioni utili su come diversi domini interagiscono con i contenuti.
+
++++ Ulteriori informazioni sulle metriche Apri e clic per domini
+
+* **[!UICONTROL Aperture]**: numero di volte in cui l’e-mail è stata aperta.
+
+* **[!UICONTROL Clic]**: numero di volte in cui si è fatto clic su un contenuto in un’e-mail.
+
++++
+
+### Motivi di mancato recapito per dominio {#bounce-reasons-domains}
+
+![](assets/campaign_email_bounce_reasons_domains.png)
+
+Il  **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabella forniscono un raggruppamento dei dati a livello di dominio relativi a errori temporanei e permanenti, fornendo informazioni dettagliate sui motivi alla base dei messaggi non recapitati.
+
++++ Ulteriori informazioni sui motivi di mancato recapito per metriche di dominio
+
+* **[!UICONTROL Aperture]**: numero di volte in cui l’e-mail è stata aperta.
+
+* **[!UICONTROL Clic]**: numero di volte in cui si è fatto clic su un contenuto in un’e-mail.
+
++++
+
+### E-mail - URL principale {#top-url-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_top_url"
+>title="E-mail - URL principale"
+>abstract="Il grafico e la tabella della sezione E-mail - URL principale offrono una panoramica completa degli URL all’interno dell’e-mail che vengono visitati di più, consentendoti di individuare i collegamenti più popolari."
+
+![](assets/campaign_email_topurl.png)
+
+Il **[!UICONTROL E-Mail - URL principale]** Il grafico e la tabella forniscono una panoramica completa degli URL all’interno dell’e-mail che attraggono il traffico di visitatori più elevato. Questo consente di identificare e assegnare la priorità ai collegamenti più popolari, migliorando la comprensione del coinvolgimento del profilo con contenuti specifici nelle e-mail.
+
+### E-mail - Dominio destinatario migliore {#top-recipient-email}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_best_recipient"
+>title="E-mail - Dominio destinatario migliore"
+>abstract="Il grafico e la tabella della sezione E-mail - Dominio destinatario migliore forniscono un raggruppamento dettagliato dei domini utilizzati più di frequente dai destinatari per aprire l’e-mail e insight sul comportamento dei destinatari."
+
+![](assets/campaign_email_best_recipient.png)
 
 >[!CAUTION]
 >
-> Il **[!UICONTROL E-mail - Dominio destinatario principale]** widget ha una percentuale di precisione del 99,95%.
+> Il **[!UICONTROL E-mail - Dominio destinatario migliore]** widget ha una percentuale di precisione del 99,95%.
 
-Il **[!UICONTROL E-mail - Ottimizzata e normale]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
+Il **[!UICONTROL E-mail - Dominio destinatario migliore]** grafico e tabella offrono una suddivisione dettagliata dei domini utilizzati più di frequente dai profili per aprire le e-mail. Questo fornisce informazioni utili sul comportamento del profilo, consentendoti di comprendere le piattaforme preferite.
+
++++ Ulteriori informazioni sull’e-mail - Metriche del dominio dei destinatari migliori
+
+* **[!UICONTROL Consegnato]**: numero di e-mail inviate correttamente, in relazione al numero totale di e-mail inviate.
+
+* **[!UICONTROL Percentuale di consegna]**: percentuale di e-mail inviate correttamente.
+
+* **[!UICONTROL Mancato recapito + Percentuale errori]**: percentuale di e-mail non recapitate rispetto alle e-mail inviate.
+
++++
+
+### E-mail - Ottimizzazione {#optimized-email}
+
+![](assets/campaign_email_optimized.png)
+
+>[!NOTE]
+>
+>Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per l’e-mail è attivata l’opzione Ottimizzazione ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
+
+Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio, ottimizzate o meno.
+
++++ Ulteriori informazioni sulle metriche di ottimizzazione del tempo di invio
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
@@ -255,105 +378,121 @@ Il **[!UICONTROL E-mail - Ottimizzata e normale]** il grafico descrive le inform
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in un’e-mail.
 
-Il **[!UICONTROL E-mail - Ottimizzazione dell’ora di invio]** Il completamento dell’e-mail dipende dal metodo di invio: ottimizzato o normale.
-
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
 
->[!NOTE]
->
->Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per l’e-mail è attivata l’opzione Ottimizzazione ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
++++
+
+### E-mail - Offerte {#email-offers}
+
+![](assets/campaign_email_offers.png)
+
+Il **[!UICONTROL Statistiche sulle offerte]**, **[!UICONTROL Statistiche sulle offerte nel tempo]** e **[!UICONTROL Statistiche dettagliate sulle offerte]** i widget misurano il successo e l’impatto dell’offerta sul pubblico di destinazione.
+
++++ Ulteriori informazioni su E-mail - Metriche delle offerte
+
+* **[!UICONTROL Offerta inviata]**: numero totale di invii per l’offerta.
+
+* **[!UICONTROL Impression offerta]**: numero di volte in cui l’offerta è stata aperta nelle e-mail.
+
+* **[!UICONTROL Clic sull’offerta]**: numero di volte in cui hai fatto clic su un’offerta nelle e-mail.
+
+* **[!UICONTROL Nome posizionamento]**: nome del posizionamento utilizzato per visualizzare l’offerta. Per ulteriori informazioni sul posizionamento, consulta questa [pagina](../offers/offer-library/creating-placements.md).
+
+* **[!UICONTROL Nome offerta]**: nome dell’offerta aggiunta alla consegna. Per ulteriori informazioni sul posizionamento, consulta questa [pagina](../offers/offer-library/creating-personalized-offers.md).
+
+* **[!UICONTROL Offerta inviata]**: numero totale di invii per l’offerta.
+
+* **[!UICONTROL Percentuale di impression offerta]**: percentuale di offerte aperte rispetto al numero di offerte inviate.
 
 +++
 
 ## Scheda in-app {#inapp-global}
+
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative ai messaggi in-app inviati nella campagna.
+
+### Prestazioni in-app {#in-app-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
 >title="Prestazioni in-app"
 >abstract="I KPI (Key Performance Indicator) in-app forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app."
 
+![](assets/campaign_inapp_performance.png)
+
+Il **[!UICONTROL Prestazioni in-app]** I KPI forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app, fornendo metriche essenziali per valutare l’efficacia e l’impatto delle campagne in-app.
+
++++ Ulteriori informazioni sulle metriche delle prestazioni in-app
+
+* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stato recapitato il messaggio in-app.
+
+* **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
+
+* **[!UICONTROL Interazioni]**: numero totale di engagement con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
+
++++
+
+### Interazioni per tipo {#interactions-type}
+
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_interactions"
 >title="Interazioni per tipo"
 >abstract="Le Interazioni per tipo rappresentano grafici e tabelle che descrivono il modo in cui gli utenti hanno interagito con il messaggio in-app tracciando eventuali clic, eliminazioni o interazioni."
+
+![](assets/campaign_inapp_interactions.png)
+
+Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle forniscono un resoconto dettagliato del modo in cui i profili interagivano con il messaggio in-app, le azioni di tracciamento come clic, licenziamenti o qualsiasi altra forma di coinvolgimento.
+
+### Riepilogo in-app {#in-app-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_summary"
 >title="Riepilogo in-app"
 >abstract="Il grafico di riepilogo in-app illustra la progressione delle impression e delle interazioni in-app nel periodo specificato."
 
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative alle consegne in-app inviate nella campagna.
+![](assets/campaign_inapp_summary.png)
 
-![](assets/campaign_report_global_6.png)
+Il **[!UICONTROL Riepilogo in-app]** Il grafico illustra la progressione delle impression e delle interazioni in-app nel periodo specificato, fornendo una panoramica completa delle prestazioni dei messaggi in-app.
 
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto in-app.
-
-Il **[!UICONTROL Prestazioni in-app]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app, ad esempio:
++++ Ulteriori informazioni sulle metriche di riepilogo in-app
 
 * **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stato recapitato il messaggio in-app.
 
 * **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
 
-* **[!UICONTROL Tasso di interazioni]**: percentuale di accordi con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
+* **[!UICONTROL Interazioni]**: numero totale di engagement con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
 
-Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle dettagliano il modo in cui gli utenti interagivano con il messaggio in-app tracciando i clic, le eliminazioni o le interazioni.
-
-Il **[!UICONTROL Riepilogo in-app]** Il grafico mostra l’evoluzione delle impression e delle interazioni in-app per il periodo in questione.
 +++
 
 ## Scheda notifica push {#push-global}
+
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica push]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alle notifiche push inviate nella campagna.
+
+### Notifica push - Statistiche di invio {#push-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
 >title="Notifica push - Statistiche di invio"
 >abstract="La tabella Statistiche di invio delle notifiche push riepiloga i dati essenziali sulle notifiche push, come i messaggi di mirati o recapitati."
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_push_tracking_statistics"
->title="Notifica push - Statistiche di tracciamento"
->abstract="Le statistiche di tracciamento push forniscono dati sulle attività dei profili per le notifiche push."
+![](assets/campaign_push_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_push_sending_summary"
->title="Notifica push - Riepilogo di invio"
->abstract="Il grafico Riepilogo invio notifiche push visualizza i dati disponibili per le notifiche push inviate."
+Il **[!UICONTROL Notifica push - Statistiche di invio]** La tabella fornisce un riepilogo sintetico dei dati essenziali relativi alle notifiche push, incluse metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_push_excluded_reasons"
->title="Notifica push - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_push_error_reasons"
->title="Notifica push - Motivi di errore"
->abstract="I grafici e la tabella Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_push_breakdown_platform"
->title="Notifica push - Raggruppamento per piattaforma"
->abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del successo delle notifiche push in base al sistema operativo del profilo."
-
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica push]** La scheda descrive le informazioni principali relative alle consegne push inviate nella campagna.
-
-![](assets/campaign_report_global_3.png)I KPI relativi alle prestazioni in-app descrivono nel dettaglio le informazioni principali relative al coinvolgimento dei visitatori con i messaggi in-app.
-
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto push.
-
-Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le informazioni principali relative alle notifiche push:
++++ Ulteriori informazioni sulla notifica push - Metriche delle statistiche di invio
 
 * **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
 
-* **[!UICONTROL Target]**: numero totale di messaggi elaborati durante l’analisi.
+* **[!UICONTROL Target]**: numero totale di notifiche push elaborate durante l’analisi.
 
 * **[!UICONTROL Inviato]**: numero totale di invii per la notifica push.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
 
-* **[!UICONTROL Percentuale di consegna]**: percentuale di messaggi inviati correttamente.
+* **[!UICONTROL Percentuale di consegna]**: percentuale di notifiche push inviate correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di notifiche push.
 
 * **[!UICONTROL Percentuale non recapitate]**: percentuale di notifiche push non recapitate rispetto alle notifiche push inviate.
 
@@ -363,96 +502,143 @@ Il **[!UICONTROL Notifica push - Statistiche di invio]** la tabella descrive le 
 
 * **[!UICONTROL Escluso]**: numero di profili che sono stati esclusi da Adobe Journey Optimizer.
 
-Il **[!UICONTROL Push - Statistiche di tracciamento]** contiene i dati disponibili per l’attività profilo per la notifica push:
++++
+
+### Notifica push - Statistiche di tracciamento {#push-tracking-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="Notifica push - Statistiche di tracciamento"
+>abstract="Le statistiche di tracciamento push forniscono dati sulle attività dei profili per le notifiche push."
+
+![](assets/campaign_push_tracking.png)
+
+Il **[!UICONTROL Notifica push - Statistiche di tracciamento]** widget offre un’istantanea dettagliata dell’attività del profilo associata alle notifiche push, fornendo informazioni essenziali sull’efficacia delle notifiche push e di coinvolgimento.
+
++++ Ulteriori informazioni sulla notifica push - Metriche delle statistiche di tracciamento
 
 * **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
-* **[!UICONTROL Percentuale aperture]**: percentuale di notifiche push aperte.
-
 * **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
 
-* **[!UICONTROL Coinvolgimenti]**: numero totale di aperture e azioni per questa notifica push, ovvero se il profilo ha aperto la notifica push o se è stato fatto clic su un pulsante.
++++
 
-* **[!UICONTROL Tasso di coinvolgimento]**: percentuale di aperture e azioni per questa notifica push, ovvero se il profilo ha aperto la notifica push o se è stato fatto clic su un pulsante.
+### Notifica push - Riepilogo di invio {#push-summary}
 
-Il **[!UICONTROL Riepilogo notifiche push]** il grafico contiene i dati disponibili per le notifiche push inviate, ad esempio:
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="Notifica push - Riepilogo di invio"
+>abstract="Il grafico Riepilogo invio notifiche push visualizza i dati disponibili per le notifiche push inviate."
+
+![](assets/campaign_push_sending_summary.png)
+
+Il **[!UICONTROL Notifica push - Riepilogo di invio]** graph offre una rappresentazione dinamica che mostra un’analisi dell’attività delle notifiche push. Questa rappresentazione grafica fornisce un raggruppamento completo delle notifiche push inviate.
+
++++ Ulteriori informazioni sulla notifica push - Invio di metriche di riepilogo
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
 * **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati e dell’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati ed elaborazione automatica della restituzione in relazione al numero totale di notifiche push inviate.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
+* **[!UICONTROL Consegnato]**: numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
 
 * **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
+
++++
+
+### Notifica push - Ottimizzazione {#push-optimized}
 
 >[!NOTE]
 >
 >Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la notifica push è attivata l’opzione Ottimizzazione dell’ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
-Il **[!UICONTROL Ottimizzato e non ottimizzato]** il grafico descrive le informazioni principali relative al messaggio, ottimizzate o meno:
+Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio, ottimizzate o meno.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
++++ Ulteriori informazioni sulla notifica push - Metriche di ottimizzazione del tempo di invio
+
+* **[!UICONTROL Consegnato]**: numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
 * **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
 
-Il **[!UICONTROL Ottimizzazione del tempo di invio]** descrive il successo della notifica push in base al metodo di invio: ottimizzato o normale.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di notifiche push inviate.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
++++
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+### Notifica push - Motivi di errore {#error-reasons-push}
 
-Il **[!UICONTROL Motivi di errore]** i grafici e la tabella consentono di vedere quale errore si è verificato.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="Notifica push - Motivi di errore"
+>abstract="I grafici e la tabella Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
 
-Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere il messaggio.
+![](assets/campaign_push_error_reasons.png)
 
-Il **[!UICONTROL Raggruppamento per piattaforma]** grafico e tabella descrivono il successo della notifica push in base al sistema operativo del profilo.
+Il **[!UICONTROL Motivi di errore]** tabelle e grafici consentono di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, fornendo informazioni dettagliate su eventuali problemi riscontrati durante il processo.
+
+### Notifica push - Motivi di esclusione {#excluded-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="Notifica push - Motivi di esclusione"
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+
+![](assets/campaign_push_excluded.png)
+
+Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere le notifiche push.
+
+Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+
+### Notifica push - Raggruppamento per piattaforma {#breakdown-platform-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="Notifica push - Raggruppamento per piattaforma"
+>abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del successo delle notifiche push in base al sistema operativo del profilo."
+
+![](assets/campaign_push_breakdown.png)
+
+Il **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** grafico e tabella forniscono un’analisi dettagliata del successo delle notifiche push, con informazioni basate sul sistema operativo del profilo. Questo raggruppamento migliora la comprensione delle prestazioni delle notifiche push tra le diverse piattaforme.
+
++++ Ulteriori informazioni sulla notifica push: suddivisione per metriche della piattaforma
+
+* **[!UICONTROL Target]**: numero totale di notifiche push elaborate durante l’analisi.
+
+* **[!UICONTROL Consegnato]**: numero di notifiche push inviate correttamente, in relazione al numero totale di notifiche push inviate.
+
+* **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
+
+* **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
+
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati ed elaborazione automatica della restituzione in relazione al numero totale di notifiche push inviate.
+
+* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
+
+* **[!UICONTROL Escluso]**: numero di profili che sono stati esclusi da Adobe Journey Optimizer.
+
 +++
 
 ## Scheda SMS {#sms-global}
+
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL SMS]** Questa scheda contiene le informazioni principali relative ai messaggi SMS inviati nella campagna.
+
+### SMS - Statistiche di invio {#sms-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - Statistiche di invio"
 >abstract="La tabella Statistiche di invio SMS riepiloga dati essenziali sui messaggi SMS, ad esempio i messaggi mirati o recapitati."
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_sms_error_reasons"
->title="SMS - Motivi di errore"
->abstract="I grafici e la tabella della sezione SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
+![](assets/campaign_sms_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_sms_performance"
->title="SMS - Prestazioni per data"
->abstract="Il widget Prestazioni SMS per data fornisce informazioni chiave sui messaggi tramite una rappresentazione grafica."
+Il **[!UICONTROL SMS - Statistiche di invio]** La tabella fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi SMS, includendo metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_sms_excluded_reasons"
->title="SMS - Motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_sms_bounces_reasons"
->title="SMS - Motivi di mancato recapito"
->abstract="I grafici e la tabella Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
-
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_sms_clicks_links"
->title="SMS - Clic per collegamenti"
->abstract="Il widget SMS - Clic per collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi"
-
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL SMS]** Questa scheda fornisce le informazioni principali relative alle consegne di SMS inviate nella campagna.
-
-![](assets/campaign_report_global_4.png)
-
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto SMS.
-
-Il **[!UICONTROL SMS - Statistiche di invio]** la tabella descrive il completamento del messaggio SMS:
++++ Ulteriori informazioni sugli SMS - Metriche delle statistiche di invio
 
 * **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del messaggio SMS ricorrente. Per eseguire il targeting solo di uno o più messaggi SMS ricorrenti, selezionalo dal **[!UICONTROL Tempo di esecuzione]** a discesa.
 
@@ -460,50 +646,109 @@ Il **[!UICONTROL SMS - Statistiche di invio]** la tabella descrive il completame
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
-* **[!UICONTROL Inviato]**: numero totale di invii per il messaggio SMS.
-
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
-
-* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
-
-Il **[!UICONTROL Prestazioni SMS per data]** un grafico fornisce dettagli sulle informazioni principali relative al messaggio:
-
 * **[!UICONTROL Inviato]**: numero totale di invii per i messaggi SMS.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi SMS inviati.
 
 * **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
-
-Il **[!UICONTROL Escludi motivi]** e **[!UICONTROL Motivi di mancato recapito]** e **[!UICONTROL Motivi di errore]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante il processo di invio.
-
-Il **[!UICONTROL SMS - Clic per collegamenti]** i widget descrivono le informazioni principali relative al coinvolgimento dei visitatori con gli URL.
 
 +++
 
+### SMS - Statistiche di tracciamento {#sms-tracking-statistics}
+
+![](assets/campaign_sms_tracking.png)
+
+Il **[!UICONTROL SMS - Statistiche di tracciamento]** Il widget fornisce una panoramica dettagliata delle informazioni chiave relative al coinvolgimento dei visitatori con gli URL, fornendo informazioni sull’efficacia dei messaggi SMS.
+
++++ Ulteriori informazioni su SMS - Metriche delle statistiche di tracciamento
+
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’SMS ricorrente. Per eseguire il targeting di uno o più SMS ricorrenti, selezionali dall’elenco **[!UICONTROL Tempo di esecuzione]** a discesa.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto in un messaggio SMS.
+
++++
+
+### SMS - Prestazioni per data {#sms-perfomance-date}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS - Prestazioni per data"
+>abstract="Il widget Prestazioni SMS per data fornisce informazioni chiave sui messaggi tramite una rappresentazione grafica."
+
+![](assets/campaign_sms_performance.png)
+
+Il **[!UICONTROL Prestazioni SMS per data]** Il widget offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni sulle tendenze delle prestazioni in periodi di tempo specifici.
+
++++ Ulteriori informazioni sugli SMS - Metriche delle prestazioni per data
+
+* **[!UICONTROL Inviato]**: numero totale di invii per i messaggi SMS.
+
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi SMS inviati.
+
+* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
+
++++
+
+### SMS - Motivi di errore {#sms-error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS - Motivi di errore"
+>abstract="I grafici e la tabella della sezione SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
+
+![](assets/campaign_sms_error_reasons.png)
+
+Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle ti consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS, semplificando un’analisi approfondita di eventuali problemi riscontrati.
+
+### SMS - Motivi di esclusione {#sms-excluded-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS - Motivi di esclusione"
+>abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+
+![](assets/campaign_sms_excluded.png)
+
+Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle illustrano visivamente i diversi fattori che hanno portato all’esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi SMS.
+
+Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+
+### SMS - Motivi di mancato recapito {#sms-bounces-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS - Motivi di mancato recapito"
+>abstract="I grafici e la tabella Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
+
+Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati.
+
+### SMS - Clic per collegamenti {#sms-clicks-links}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS - Clic per collegamenti"
+>abstract="Il widget SMS - Clic per collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi"
+
+![](assets/campaign_sms_clicks.png)
+
+Il **[!UICONTROL SMS - Clic per collegamenti]** widget offre informazioni essenziali sul coinvolgimento dei visitatori con gli URL inclusi nei messaggi, fornendo informazioni preziose su quali collegamenti attraggono maggiormente l’interazione.
+
 ## Scheda web {#web-tab}
+
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Web]** Questa scheda fornisce informazioni dettagliate sulle informazioni principali relative alle pagine Web.
+
+### Prestazioni web {#web-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
 >title="Prestazioni web"
 >abstract="I KPI per le prestazioni web forniscono informazioni complete sul coinvolgimento dei visitatori con le esperienze web."
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_web_summary"
->title="Riepilogo web"
->abstract="Il grafico Riepilogo web illustra la progressione delle esperienze web, incluse impression, impression univoche e interazioni, nel periodo specificato."
+![](assets/campaign_web_performance.png)
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_global_web_interactions"
->title="Interazioni per elemento"
->abstract="La tabella Interazioni per elemento fornisce informazioni chiave sul coinvolgimento dei visitatori con diversi elementi nelle pagine web."
+Il **[!UICONTROL Prestazioni web]** I KPI offrono informazioni complete sul coinvolgimento dei visitatori con le pagine web, incluse metriche chiave come impressioni e interazioni.
 
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Web]** Questa scheda fornisce informazioni dettagliate sulle informazioni principali relative alle pagine Web.
-
-![](assets/web-report.png)
-
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto Web.
-
-Il **[!UICONTROL Prestazioni web]** I KPI descrivono le informazioni principali relative al coinvolgimento dei visitatori con le esperienze web, ad esempio:
++++ Ulteriori informazioni sulle metriche delle prestazioni web
 
 * **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stata consegnata l’esperienza web.
 
@@ -511,48 +756,100 @@ Il **[!UICONTROL Prestazioni web]** I KPI descrivono le informazioni principali 
 
 * **[!UICONTROL Tasso di interazione]**: percentuale di accordi con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
 
++++
+
+### Riepilogo web {#web-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Riepilogo web"
+>abstract="Il grafico Riepilogo web illustra la progressione delle esperienze web, incluse impression, impression univoche e interazioni, nel periodo specificato."
+
+![](assets/campaign_web_summary.png)
+
 Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle tue esperienze web (impression, impressioni e interazioni uniche) per il periodo in questione.
 
-Il **[!UICONTROL Interazioni per elemento]** la tabella descrive le informazioni principali relative al coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web.
++++ Ulteriori informazioni sulle metriche di riepilogo web
+
+* **[!UICONTROL Impression univoche]**: numero di utenti univoci a cui è stata consegnata l’esperienza web.
+
+* **[!UICONTROL Impression]**: numero totale di esperienze web consegnate a tutti gli utenti.
+
+* **[!UICONTROL Interazione]**: numero totale di engagement con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
+
++++
+
+### Interazioni per elemento {#web-interactions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="Interazioni per elemento"
+>abstract="La tabella Interazioni per elemento fornisce informazioni chiave sul coinvolgimento dei visitatori con diversi elementi nelle pagine web."
+
+![](assets/campaign_web_interactions.png)
+
+Il **[!UICONTROL Interazioni per elemento]** La tabella presenta informazioni complete sul coinvolgimento dei visitatori con i vari elementi presenti nelle pagine web, offrendo informazioni utili sulle interazioni e le preferenze degli utenti.
+
++++ Ulteriori informazioni sulle interazioni per metriche degli elementi
+
+* **[!UICONTROL Interazione]**: numero totale di engagement con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
+
+* **[!UICONTROL Tasso di interazione]**: percentuale di accordi con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
+
 +++
 
 ## Scheda direct mail {#direct-mail-global}
+
+Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Direct mail]** Questa scheda contiene le informazioni principali relative ai messaggi di direct mailing.
+
+### Direct mail - Statistiche di invio {#direct-mail-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_sending_statistics"
 >title="Direct mail - Statistiche di invio"
 >abstract="La tabella Statistiche di invio Direct Mail riepiloga i dati essenziali relativi ai messaggi Direct Mail, ad esempio i messaggi mirati o recapitati."
 
+![](assets/campaign_direct_sending.png)
+
+Il **[!UICONTROL Direct mailing - Statistiche di invio]** La tabella fornisce un riepilogo sintetico dei dati essenziali relativi ai messaggi Direct Mail, includendo metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
+
++++ Ulteriori informazioni sulla direct mailing - Metriche delle statistiche di invio
+
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della direct mailing ricorrente. Per eseguire il targeting solo di una o più direct mailing ricorrenti, selezionarle dall&#39; **[!UICONTROL Tempo di esecuzione]** a discesa.
+
+* **[!UICONTROL Target]**: numero di profili utente idonei come profili target per i messaggi di direct mailing.
+
+* **[!UICONTROL Inviato]**: numero totale di invii per i messaggi di direct mailing.
+
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+
+* **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto i messaggi di direct mailing.
+
++++
+
+### Direct mail - Motivi di errore {#direct-mail-error}
+
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="Direct mail - Motivi di errore"
 >abstract="I grafici e la tabella Direct Mail - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
+
+![](assets/direct-mail-report_1.png)
+
+Il **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consentono di identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un’analisi dettagliata di eventuali problemi riscontrati.
+
+### Direct mail - Motivi di esclusione {#direct-mail-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
 >title="Direct mail - Motivi di esclusione"
 >abstract="I grafici e la tabella dei motivi di esclusione di Direct mail illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
-Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Direct mail]** Questa scheda contiene le informazioni principali relative alle consegne Direct mailing.
+![](assets/campaign_direct_excluded.png)
 
-![](assets/direct-mail-report_1.png)
+Il **[!UICONTROL Direct mailing - Motivi di esclusione]** grafici e tabelle illustrano visivamente i vari fattori che hanno portato all’esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing.
 
-+++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto Direct mail.
-
-Il **[!UICONTROL Direct mailing - Statistiche di invio]** la tabella descrive il successo della direct mailing:
-
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della direct mailing ricorrente. Per eseguire il targeting solo di una o più direct mailing ricorrenti, selezionarle dall&#39; **[!UICONTROL Tempo di esecuzione]** a discesa.
-
-* **[!UICONTROL Target]**: numero di profili utente qualificati come profili target per questa direct mailing.
-
-* **[!UICONTROL Inviato]**: numero totale di invii per questa direct mailing.
-
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
-
-* **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto la direct mailing.
-
-Il **[!UICONTROL Direct mailing - Motivi di esclusione]** e **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consentono di vedere quali errori ed esclusioni si sono verificati durante il processo di invio.
-+++
+Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
 ## Risorse aggiuntive
 

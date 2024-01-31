@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  <tbody>
   <tr> 
    <td> Mancati recapiti<br/> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
 </tr> 
   <tr> 
    <td> Percentuale non recapitate<br/> </td> 
@@ -84,16 +84,16 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr>
   <tr> 
    <td> Errori<br/> </td> 
-   <td> Numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.<br/> </td> 
+   <td> Numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.<br/> </td> 
 </tr> 
   <tr> 
    <td> Frequenza errori<br/> </td> 
-   <td> Percentuale di errori che si sono verificati durante una consegna che ne ha impedito l’invio rispetto alle e-mail inviate.<br/> </td> 
+   <td> Percentuale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio rispetto alle e-mail inviate.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Motivo dell’errore<br/> </td> 
-   <td> Nome della causa originale specifica dell’errore. <a href="error-list.md">Ulteriori informazioni sui motivi di errore</a>.<br/> </td> 
+   <td> Nome della causa originale specifica dell’errore. <a href="exclusion-list.md">Ulteriori informazioni sui motivi di errore</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Escluso<br/> </td> 
@@ -340,7 +340,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
 </tr>
   <tr> 
    <td> Motivo dell’errore<br/> </td> 
-   <td> Nome della causa originale specifica dell’errore. <a href="error-list.md">Ulteriori informazioni sui motivi di errore</a>.<br/> </td> 
+   <td> Nome della causa originale specifica dell’errore. <a href="exclusion-list.md">Ulteriori informazioni sui motivi di errore</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Escluso<br/> </td> 
