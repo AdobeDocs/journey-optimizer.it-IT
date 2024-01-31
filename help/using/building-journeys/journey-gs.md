@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 23%
+source-wordcount: '1787'
+ht-degree: 16%
 
 ---
 
@@ -50,6 +50,8 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 >title="Percorsi"
 >abstract="Progetta i percorsi cliente per offrire esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
+### Elenco delle metriche chiave e dei percorsi {#access-metrics}
+
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 
 **Panoramica**: in questa scheda viene visualizzato un dashboard con le metriche chiave correlate ai percorsi:
@@ -69,15 +71,27 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 ![](assets/journeys-browse.png)
 
-Nell’elenco del percorsi, puoi filtrare i percorsi in base al loro stato, tipo e versione mediante i **[!UICONTROL filtri Stato e Versione]**. Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
+### Filtra percorsi {#filter}
 
-Puoi scegliere di visualizzare solo i percorsi che utilizzano un evento, un gruppo di campi o un’azione particolare con **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**. Inoltre, il **[!UICONTROL Filtri di pubblicazione]** consente di selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md).
+Nell’elenco dei percorsi, puoi sfruttare diversi filtri per perfezionare l’elenco dei percorsi in modo da migliorarne la leggibilità.
 
 ![](assets/filter-journeys.png)
 
-Utilizza le colonne **[!UICONTROL Ultimo aggiornamento]** e **[!UICONTROL Ultimo aggiornamento di]** per verificare quando è avvenuto l’ultimo aggiornamento dei percorsi e chi l’ha salvato.
+Di seguito sono elencate le varie operazioni di filtro che è possibile eseguire:
 
-Nei riquadri di configurazione dell’evento, dell’origine dati e dell’azione, il campo **[!UICONTROL Usato in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
+* Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dal **[!UICONTROL Filtri di stato e di versione]**.
+
+  Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
+
+* Utilizza il **[!UICONTROL Creazione di filtri]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
+
+* Visualizza i percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifica del **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri dati]**.
+
+* Utilizza il **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+Inoltre, nei riquadri di configurazione Evento, Origine dati e Azione, il **[!UICONTROL Utilizzato in]** in questo campo viene visualizzato il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** vi
 
 Ulteriori informazioni sulla gestione dell’entrata e del rientro del profilo, in [questa sezione](entry-management.md).
 
-### Gestisci accesso {#access}
+### Gestisci accesso {#manage-access}
 
 Per assegnare al percorso etichette di utilizzo dei dati personalizzate o di base, fai clic su **[!UICONTROL Gestisci accesso]** pulsante. [Ulteriori informazioni su OLE (Object Level Access Control)](../administration/object-based-access.md)
 
