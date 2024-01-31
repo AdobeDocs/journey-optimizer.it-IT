@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
+source-git-commit: fe4c51a74431bf8ab66aa2c9c3bd07404d971bbf
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '562'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * **Filtri per data** - È ora possibile utilizzare date personalizzate per filtrare l’inventario dei percorsi, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando percorsi pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
 
-* **Read audience**  : l’attività Read Audience ora si basa sul set di dati snapshot del profilo per i segmenti batch, che viene generato solo una volta al giorno dopo l’esecuzione del processo batch giornaliero pianificato.
+* **Read audience**  - L’attività Read Audience ora si basa sul set di dati snapshot del profilo per i segmenti batch, che viene generato solo una volta al giorno dopo l’esecuzione del processo batch giornaliero pianificato, pertanto i dati verranno aggiornati all’ultimo processo batch giornaliero.
 
 **Regole di frequenza**
 
