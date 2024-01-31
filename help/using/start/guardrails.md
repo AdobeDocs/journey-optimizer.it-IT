@@ -11,7 +11,7 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -59,7 +59,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
 * Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
-* Un’istanza di percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono memorizzati in tale istanza del percorso. Pertanto, dati da un evento in arrivo, informazioni sul profilo recuperate da Adobe Experience Platform, risposte alle azioni personalizzate, ecc. sono memorizzate in tale istanza del percorso e influiscono sulle dimensioni del percorso. Si consiglia, quando un percorso inizia con un evento, di limitare la dimensione massima del payload dell’evento (ad esempio, sotto gli 800 KB) per evitare di raggiungere tale limite dopo alcune attività, nell’esecuzione del percorso. Una volta raggiunto tale limite, il profilo si trova in uno stato di errore e verrà escluso dal percorso.
+* Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono archiviati in quell’istanza percorso e influiscono sulle sue dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
 
 
 ### Azioni generali {#general-actions-g}

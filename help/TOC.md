@@ -536,7 +536,7 @@ ht-degree: 99%
       + [Creare campagne di preparazione IP](using/configuration/ip-warmup-campaign.md)
       + [Creare un piano di preparazione IP](using/configuration/ip-warmup-plan.md)
       + [Eseguire il piano di preparazione IP](using/configuration/ip-warmup-execution.md)
-      + [File del piano di riscaldamento IP](using/configuration/ip-warmup-plan-files.md)
+      + [File del piano di preparazione IP](using/configuration/ip-warmup-plan-files.md)
    + Monitorare gli indirizzi e-mail {#monitor-reputation}
       + [Elenco di soppressione](using/configuration/manage-suppression-list.md)
       + [Nuovi tentativi](using/configuration/retries.md)
