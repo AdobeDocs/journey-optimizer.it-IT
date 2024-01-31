@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 16%
 
 ---
@@ -88,6 +88,8 @@ Questa versione include i miglioramenti elencati di seguito.
 * **Read audience**  - L’attività Read Audience ora si basa sul set di dati snapshot del profilo per i segmenti batch, che viene generato solo una volta al giorno dopo l’esecuzione del processo batch giornaliero pianificato, pertanto i dati verranno aggiornati all’ultimo processo batch giornaliero.
 
 * **Gruppi di campi** - Correzione di un problema che in alcuni casi impediva il salvataggio dei gruppi di campi.
+
+* **Editor espressioni** - Il tipo di dati listObject è ora supportato in tutte le espressioni e nelle funzioni aggiuntive. [Ulteriori informazioni](../building-journeys/expression/functions.md)
 
 **Regole di frequenza**
 
