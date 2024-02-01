@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 5%
+source-wordcount: '3523'
+ht-degree: 7%
 
 ---
 
@@ -46,11 +46,21 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Percorso]**
 
 ### Prestazioni percorso {#journey-perfomance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_performance"
+>title="Prestazioni percorso"
+>abstract="XX"
+
 ![](assets/journey_performance.png)
 
 Il **[!UICONTROL Prestazioni percorso]** Il widget consente di tracciare visivamente la traiettoria dei profili target durante la navigazione nel percorso.
 
 ### Statistiche percorso {#journey-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_statistics"
+>title="Statistiche percorso"
+>abstract="XX"
 
 ![](assets/journey_statistics.png)
 
@@ -68,11 +78,21 @@ Il **[!UICONTROL Statistiche percorso]** Gli indicatori di prestazioni chiave (K
 
 ### Prestazioni azione {#action-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_performance"
+>title="Prestazioni azione"
+>abstract="XX"
+
 ![](assets/journey_action_performance.png)
 
 Il **[!UICONTROL Prestazioni azione]** widget rappresenta le azioni di maggior successo che si sono verificate quando **[!UICONTROL Azioni]** sono stati attivati.
 
 ### Azioni principali {#top-actions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_actions"
+>title="Azioni principali"
+>abstract="XX"
 
 ![](assets/journey_top_actions.png)
 
@@ -88,11 +108,21 @@ Il **[!UICONTROL Azioni principali]** compila i dati essenziali sul tuo **[!UICO
 
 ### Motivi di errore azioni {#action-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_actions_error_reasons"
+>title="Motivi di errore azioni"
+>abstract="XX"
+
 ![](assets/journey_action_error.png)
 
 Il **[!UICONTROL Motivi di errore azione]**  tabella e grafico offrono una panoramica completa degli errori che si sono verificati durante l’esecuzione **[!UICONTROL Azioni]**.
 
 ### Eventi per origine {#events-origin}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_origin"
+>title="Eventi per origine"
+>abstract="XX"
 
 ![](assets/journey_events_origin.png)
 
@@ -100,17 +130,32 @@ Il **[!UICONTROL Eventi per origine]** la tabella e i grafici forniscono una pro
 
 ### Eventi ricevuti per evento {#events-received}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_events_received"
+>title="Eventi ricevuti per evento"
+>abstract="XX"
+
 ![](assets/journey_event_received.png)
 
 Il **[!UICONTROL Eventi ricevuti per evento]** grafico consente di identificare e analizzare quali **[!UICONTROL Evento]** all’interno del tuo percorso è stato eseguito in modo efficace, fornendo informazioni preziose sulle prestazioni e sui tassi di successo dei singoli eventi.
 
 ### Eventi principali {#top-events}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_top_events"
+>title="Eventi principali"
+>abstract="XX"
+
 ![](assets/journey_top_events.png)
 
 Il **[!UICONTROL Eventi principali]** compila i dati essenziali sul tuo **[!UICONTROL Eventi]**. Fornisce informazioni succinte sulla frequenza e sulle prestazioni di ciascuno **[!UICONTROL Evento]**.
 
 ### Criteri di consenso {#consent-policies}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_consent_policies"
+>title="Criteri di consenso"
+>abstract="XX"
 
 ![](assets/journey_consent.png)
 
@@ -124,7 +169,12 @@ Tieni presente che affinché questi widget vengano visualizzati nei rapporti Per
 
 Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL E-mail]** Questa scheda contiene le informazioni principali relative alle e-mail inviate nel percorso.
 
-### Statistiche di invio e-mail {#email-sending-statistics}
+### E-mail - Statistiche di invio {#email-sending-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_statistics"
+>title="E-mail - Statistiche di invio"
+>abstract="XX"
 
 ![](assets/journey_email_statistics.png)
 
@@ -158,6 +208,11 @@ Il **[!UICONTROL Statistiche di invio e-mail]** La tabella fornisce un riepilogo
 
 ### E-mail - Statistiche di tracciamento {#email-tracking}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_tracking_statistics"
+>title="E-mail - Statistiche di tracciamento"
+>abstract="XX"
+
 ![](assets/journey_email_tracking.png)
 
 Il **[!UICONTROL E-mail - Statistiche di tracciamento]** la tabella offre un account dettagliato dell’attività del profilo relativa alle e-mail incluse nel percorso. Ciò include metriche su aperture, clic e altri indicatori di coinvolgimento rilevanti, che offrono una visualizzazione completa del modo in cui i profili interagiscono con il contenuto dell’e-mail.
@@ -186,6 +241,11 @@ Il **[!UICONTROL E-mail - Statistiche di tracciamento]** la tabella offre un acc
 
 ### E-mail - Prestazioni di invio {#email-performance}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sending_performance"
+>title="E-mail - Prestazioni di invio"
+>abstract="XX"
+
 ![](assets/journey_email_performance.png)
 
 Il **[!UICONTROL E-mail - Prestazioni di invio]** graph fornisce una visualizzazione completa dei dati relativi alle e-mail inviate nel tuo percorso, offrendo informazioni approfondite sulle metriche chiave, quali consegna e mancati recapiti. Ciò consente un’analisi dettagliata del processo di invio delle e-mail, fornendo informazioni preziose sull’efficienza e le prestazioni dei percorsi.
@@ -203,6 +263,11 @@ Il **[!UICONTROL E-mail - Prestazioni di invio]** graph fornisce una visualizzaz
 +++
 
 ### E-mail - Categorie e motivi di mancato recapito {#email-bounce-categories}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces"
+>title="E-mail - Categorie e motivi di mancato recapito"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -222,11 +287,21 @@ Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppression
 
 ### E-mail - Motivi di errore {#email-errors}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_error_reasons"
+>title="E-mail - Motivi di errore"
+>abstract="XX"
+
 ![](assets/journey_email_error.png)
 
 Il **[!UICONTROL Motivi di errore]** grafici e tabelle offrono visibilità sugli errori specifici che si sono verificati durante il processo di invio, fornendo informazioni preziose sulla natura e sul verificarsi degli errori.
 
 ### E-mail - Motivi di esclusione {#email-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_excluded_reasons"
+>title="E-mail - Motivi di esclusione"
+>abstract="XX"
 
 ![](assets/journey_email_excluded.png)
 
@@ -235,6 +310,11 @@ Il **[!UICONTROL Motivi di esclusione]** grafici e tabelle presentano una vision
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
 ### Inviato e consegnato per dominio {#sent-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_sent_delivered_domains"
+>title="Inviato e consegnato per dominio"
+>abstract="XX"
 
 ![](assets/journey_email_sent_domains.png)
 
@@ -250,6 +330,11 @@ Il  **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forn
 
 ### Aperture e clic per dominio {#open-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_open_clicks_domains"
+>title="Aperture e clic per dominio"
+>abstract="XX"
+
 ![](assets/journey_email_open_domains.png)
 
 Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra un raggruppamento a livello di dominio del coinvolgimento dei profili con la tua e-mail, fornendo informazioni utili su come diversi domini interagiscono con i contenuti.
@@ -263,6 +348,11 @@ Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostr
 +++
 
 ### Mancati recapiti ed errori per dominio {#bounces-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_errors_domains"
+>title="Mancati recapiti ed errori per dominio"
+>abstract="XX"
 
 ![](assets/journey_email_bounce_domains.png)
 
@@ -278,17 +368,34 @@ Il  **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella off
 
 ### Motivi di mancato recapito per dominio {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_bounces_reasons_domains"
+>title="Motivi di mancato recapito per domini"
+>abstract="XX"
+
 ![](assets/journey_email_bounce_reasons_domain.png)
 
 Il  **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabella forniscono un raggruppamento dei dati a livello di dominio relativi a errori temporanei e permanenti, fornendo informazioni dettagliate sui motivi alla base dei messaggi non recapitati.
 
 ### E-mail - URL principale {#email-top}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_top_url"
+>title="E-mail - URL principale"
+>abstract="XX"
+
 ![](assets/journey_email_top.png)
 
 Il **[!UICONTROL E-Mail - URL principale]** Il grafico e la tabella forniscono una panoramica completa degli URL all’interno dell’e-mail che attraggono il traffico di visitatori più elevato. Questo consente di identificare e assegnare la priorità ai collegamenti più popolari, migliorando la comprensione del coinvolgimento del profilo con contenuti specifici nelle e-mail.
 
 ### E-mail - Ottimizzazione {#email-sto}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_optimization"
+>title="E-mail - Ottimizzazione"
+>abstract="XX"
+
+![](assets/journey_email_sto.png)
 
 >[!NOTE]
 >
@@ -310,6 +417,11 @@ Il **[!UICONTROL Ottimizzazione del tempo di invio]** e **[!UICONTROL Ottimizzat
 +++
 
 ### E-mail - Offerte {#email-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_email_offers"
+>title="E-mail - Offerte"
+>abstract="XX"
 
 >[!NOTE]
 >
@@ -343,6 +455,11 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica pu
 
 ### Notifica push - Statistiche di invio {#push-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_statistics"
+>title="Notifica push - Statistiche di invio"
+>abstract="XX"
+
 ![](assets/journey_push_sending.png)
 
 Il **[!UICONTROL Notifica push - Statistiche di invio]** La tabella fornisce un riepilogo sintetico dei dati essenziali relativi alle notifiche push, incluse metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
@@ -373,6 +490,11 @@ Il **[!UICONTROL Notifica push - Statistiche di invio]** La tabella fornisce un 
 
 ### Notifica push - Statistiche di tracciamento {#push-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_tracking_statistics"
+>title="Notifica push - Statistiche di tracciamento"
+>abstract="XX"
+
 Il **[!UICONTROL Push - Statistiche di tracciamento]** widget offre un’istantanea dettagliata dell’attività del profilo associata alle notifiche push, fornendo informazioni essenziali sull’efficacia delle notifiche push e di coinvolgimento.
 
 +++ Ulteriori informazioni sulla notifica push - Metriche delle statistiche di tracciamento
@@ -386,6 +508,11 @@ Il **[!UICONTROL Push - Statistiche di tracciamento]** widget offre un’istanta
 +++
 
 ### Notifica push - Riepilogo di invio {#push-summary}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_sending_summary"
+>title="Notifica push - Riepilogo di invio"
+>abstract="XX"
 
 ![](assets/journey_push_summary.png)
 
@@ -407,11 +534,21 @@ Il **[!UICONTROL Notifica push - Riepilogo di invio]** graph offre una rappresen
 
 ### Notifica push - Motivi di errore {#push-error-reasons}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_error_reasons"
+>title="Notifica push - Motivi di errore"
+>abstract="XX"
+
 ![](assets/journey_push_error.png)
 
 Il **[!UICONTROL Motivi di errore]** tabelle e grafici consentono di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, fornendo informazioni dettagliate su eventuali problemi riscontrati durante il processo.
 
 ### Notifica push - Motivi di esclusione {#push-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_excluded_reasons"
+>title="Notifica push - Motivi di esclusione"
+>abstract="XX"
 
 ![](assets/journey_push_excluded.png)
 
@@ -420,6 +557,11 @@ Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diver
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
 ### Notifica push - Raggruppamento per piattaforma {#push-breakdown}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_push_breakdown_platform"
+>title="Notifica push - Raggruppamento per piattaforma"
+>abstract="XX"
 
 ![](assets/journey_push_breakdown.png)
 
@@ -451,6 +593,11 @@ Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione
 
 ### SMS - Statistiche di invio {#sms-sending-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_sending_statistics"
+>title="SMS - Statistiche di invio"
+>abstract="XX"
+
 ![](assets/journey_sms_sending.png)
 
 Il **[!UICONTROL SMS - Statistiche di invio]** La tabella fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi SMS, includendo metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
@@ -473,6 +620,11 @@ Il **[!UICONTROL SMS - Statistiche di invio]** La tabella fornisce un riepilogo 
 
 ### SMS - Statistiche di tracciamento {#sms-tracking-stat}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_tracking_statistics"
+>title="SMS - Statistiche di tracciamento"
+>abstract="XX"
+
 ![](assets/journey_sms_tracking.png)
 
 Il **[!UICONTROL SMS - Statistiche di tracciamento]** Il widget fornisce una panoramica dettagliata delle informazioni chiave relative al coinvolgimento dei visitatori con gli URL, fornendo informazioni sull’efficacia dei messaggi SMS.
@@ -482,6 +634,11 @@ Il **[!UICONTROL SMS - Statistiche di tracciamento]** Il widget fornisce una pan
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi SMS.
 
 ### SMS - Prestazioni per data {#sms-performance-date}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_perfomance_date"
+>title="SMS - Prestazioni per data"
+>abstract="XX"
 
 ![](assets/journey_sms_performance.png)
 
@@ -499,17 +656,32 @@ Il **[!UICONTROL SMS - Prestazioni per data]** Il widget offre una panoramica de
 
 ### SMS - Motivi di mancato recapito {#sms-bounce}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_bounces_reasons"
+>title="SMS - Motivi di mancato recapito"
+>abstract="XX"
+
 ![](assets/journey_sms_bounce_reasons.png)
 
 Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati.
 
 ### SMS - Motivi di errore {#sms-error}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_error_reasons"
+>title="SMS - Motivi di errore"
+>abstract="XX"
+
 ![](assets/journey_sms_error.png)
 
 Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle ti consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS, semplificando un’analisi approfondita di eventuali problemi riscontrati.
 
 ### SMS - Motivi di esclusione {#sms-excluded}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_excluded_reasons"
+>title="SMS - Motivi di esclusione"
+>abstract="XX"
 
 ![](assets/journey_sms_excluded.png)
 
@@ -518,6 +690,11 @@ Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle illustrano visiv
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
 ### SMS - Clic per collegamenti {#sms-clicks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_sms_clicks"
+>title="SMS - Clic per collegamenti"
+>abstract="XX"
 
 ![](assets/journey_sms_clicks.png)
 
@@ -528,6 +705,11 @@ Il **[!UICONTROL SMS - Clic per collegamenti]** widget offre informazioni essenz
 Dal tuo Percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative ai messaggi in-app inviati nei tuoi percorsi.
 
 ### Prestazioni in-app {#inapp-performance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_performance"
+>title="Prestazioni in-app"
+>abstract="XX"
 
 ![](assets/journey_inapp_performance.png)
 
@@ -552,11 +734,21 @@ Il **[!UICONTROL Prestazioni in-app]**  I KPI forniscono informazioni essenziali
 
 ### Riepilogo in-app {#inapp-summary}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_summary"
+>title="Riepilogo in-app"
+>abstract="XX"
+
 ![](assets/journey_inapp_summary.png)
 
 Il **[!UICONTROL Riepilogo in-app]** Il grafico illustra la progressione delle impression e delle interazioni in-app nel periodo specificato, fornendo una panoramica completa delle prestazioni dei messaggi in-app.
 
 ### Interazioni per tipo {#interactions-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_inapp_interactions"
+>title="Interazioni per tipo"
+>abstract="XX"
 
 ![](assets/journey_inapp_interactions.png)
 
