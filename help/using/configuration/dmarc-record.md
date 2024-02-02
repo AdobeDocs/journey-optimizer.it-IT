@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1364'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Imposta record DMARC"
->abstract="DMARC è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il dominio da utilizzi non autorizzati ed evitare problemi di recapito dei messaggi con i provider di caselle postali.<br>Come parte delle procedure ottimali di settore, Google e Yahoo richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
+>abstract="DMARC è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il dominio da utilizzi non autorizzati ed evitare problemi di recapito dei messaggi con i provider di caselle postali.<br>Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
 
 ## Che cos&#39;è DMARC? {#what-is-dmarc}
 
@@ -30,7 +30,7 @@ DMARC offre anche rapporti sui messaggi che non superano l’autenticazione, olt
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-Per evitare problemi di recapito messaggi e ottenere al contempo il controllo sulle e-mail che non riescono a eseguire l’autenticazione, [!DNL Journey Optimizer] presto supporterà la tecnologia DMARC direttamente nell&#39;interfaccia di amministrazione. [Ulteriori informazioni](#implement-dmarc)
+Per evitare problemi di recapito messaggi e ottenere al contempo il controllo sulle e-mail che non riescono a eseguire l’autenticazione, [!DNL Journey Optimizer] supporta ora la tecnologia DMARC direttamente nell&#39;interfaccia di amministrazione. [Ulteriori informazioni](#implement-dmarc)
 
 ### Come funziona DMARC? {#how-dmarc-works}
 
@@ -63,19 +63,19 @@ Se l&#39;autenticazione DMARC di un messaggio e-mail non riesce, puoi decidere q
 
 ## Aggiornamento requisiti DMARC {#dmarc-update}
 
-Come parte delle procedure ottimali di settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito inizia il **1 febbraio 2024**.
+Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito si applica a partire dal **1 febbraio 2024**.
 
-Ulteriori informazioni sui requisiti di Google e Yahoo in [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Ulteriori informazioni su Google e Yahoo!&#39;s requisito in [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Il mancato rispetto di questo nuovo requisito da parte di Gmail e Yahoo dovrebbe comportare l’invio di e-mail nella cartella di posta indesiderata o il blocco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Non rispettare questo nuovo requisito da parte di Gmail e Yahoo! dovrebbe causare l’invio di e-mail nella cartella di posta indesiderata o il blocco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 Di conseguenza, Adobe consiglia vivamente di effettuare le seguenti operazioni:
 
 * Assicurati di avere **Record DMARC** configurare per **tutti i sottodomini già delegati** Adobe in [!DNL Journey Optimizer]. [Scopri come](#check-subdomains-for-dmarc)
 
-* Quando **delega di un nuovo sottodominio** ad Adobe, sarà presto possibile **configurare DMARC** direttamente **nel [!DNL Journey Optimizer] interfaccia di amministrazione**. [Scopri come](#implement-dmarc)
+* Quando **delega di un nuovo sottodominio** ad Adobe, puoi **configurare DMARC** direttamente **nel [!DNL Journey Optimizer] interfaccia di amministrazione**. [Scopri come](#implement-dmarc)
 
 ## Implementare DMARC in [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -93,7 +93,7 @@ Per verificare di aver impostato il record DMARC per tutti i sottodomini delegat
 
    >[!CAUTION]
    >
-   >Per soddisfare i nuovi requisiti di Gmail e Yahoo ed evitare problemi di recapito messaggi con i principali ISP, si consiglia di impostare un record DMARC per tutti i sottodomini delegati. [Ulteriori informazioni](dmarc-record-update.md)
+   >Per soddisfare i nuovi requisiti di Gmail e Yahoo! ed evitare problemi di recapito messaggi con i principali ISP, si consiglia di impostare un record DMARC per tutti i sottodomini delegati. [Ulteriori informazioni](dmarc-record-update.md)
 
 1. Seleziona un sottodominio senza record DMARC associato e compila il **[!UICONTROL Record DMARC]** in base alle esigenze della tua organizzazione. I passaggi per compilare i campi del record DMARC sono descritti in [questa sezione](#implement-dmarc).
 
@@ -117,9 +117,9 @@ Durante la delega di nuovi sottodomini ad Adobe in [!DNL Journey Optimizer], ver
 
 >[!CAUTION]
 >
->Per soddisfare i nuovi requisiti di Gmail e Yahoo ed evitare problemi di recapito messaggi con i principali ISP, si consiglia di impostare un record DMARC per tutti i sottodomini delegati. [Ulteriori informazioni](dmarc-record-update.md)
+>Per soddisfare i nuovi requisiti di Gmail e Yahoo! ed evitare problemi di recapito messaggi con i principali ISP, si consiglia di impostare un record DMARC per tutti i sottodomini delegati. [Ulteriori informazioni](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. Configura un nuovo sottodominio. [Scopri come](delegate-subdomain.md)
 
@@ -143,7 +143,7 @@ Durante la delega di nuovi sottodomini ad Adobe in [!DNL Journey Optimizer], ver
    >
    >Come best practice, si consiglia di implementare lentamente l’implementazione DMARC inoltrando i criteri DMARC da **Nessuno**, a **Quarantena**, a **Rifiuta** man mano che acquisisci comprensione del potenziale impatto di DMARC.
 
-1. Facoltativamente, aggiungi uno o più indirizzi e-mail di tua scelta per indicare dove **Rapporti DMARC** sulle e-mail che [autenticazione non riuscita](#how-dmarc-works) all&#39;interno della tua organizzazione. Puoi aggiungere fino a cinque indirizzi per ogni rapporto.
+1. Se necessario, aggiungi uno o più indirizzi e-mail di tua scelta per indicare dove **Rapporti DMARC** sulle e-mail che [autenticazione non riuscita](#how-dmarc-works) all&#39;interno della tua organizzazione. Puoi aggiungere fino a cinque indirizzi per ogni rapporto.
 
    >[!NOTE]
    >

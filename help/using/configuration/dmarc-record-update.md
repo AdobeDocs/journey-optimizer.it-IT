@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 6%
 
 ---
@@ -20,10 +20,9 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Scopri di più sull’aggiornamento DMARC obbligatorio"
->abstract="Come parte delle procedure ottimali di settore, Google e Yahoo richiederanno che tu abbia un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**.<br>Di conseguenza, devi assicurarti di aver impostato il record DMARC per tutti i sottodomini che hai delegato ad Adobe in Journey Optimizer."
+>abstract="Come parte delle procedure ottimali di settore, Google e Yahoo richiedono entrambe di disporre di un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**.<br>Di conseguenza, devi assicurarti di aver impostato il record DMARC per tutti i sottodomini che hai delegato ad Adobe in Journey Optimizer."
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica/ISP, aiuta a evitare che attori dannosi inviino e-mail che affermano di essere dal tuo dominio. L’implementazione di DMARC riduce il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e migliora il recapito dei messaggi e-mail.
-
 
 Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi che un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito si applica a partire dal **1 febbraio 2024**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
@@ -48,7 +47,7 @@ oppure
   Tuttavia, con la delega CNAME sarà necessario inserire anche la voce nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento descritto in [questa sezione](dmarc-record.md#implement-dmarc).
 
 
-Le timeline più recenti condivise da Google e Yahoo sono le seguenti:
+Le timeline più recenti condivise da Google e Yahoo! sono i seguenti:
 
 * Google:
 
@@ -58,7 +57,7 @@ Le timeline più recenti condivise da Google e Yahoo sono le seguenti:
 
    * **1 giugno 2024** - Qualsiasi mittente non pienamente conforme subirà un blocco.
 
-* Yahoo non ha fornito date esatte, ma ha detto che &quot;l&#39;implementazione dell&#39;applicazione inizierà a febbraio 2024. L&#39;applicazione sarà introdotta gradualmente&quot;.
+* Yahoo! non ha fornito date esatte, ma ha detto che &quot;l&#39;implementazione dell&#39;applicazione inizierà a febbraio 2024. L&#39;applicazione sarà introdotta gradualmente&quot;.
 
 >[!NOTE]
 >
