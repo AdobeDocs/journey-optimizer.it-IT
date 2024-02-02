@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
 ht-degree: 26%
@@ -214,7 +214,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 ![](assets/channel_email_sent_domains.png)
 
-Il  **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forniscono un raggruppamento dettagliato delle consegne e-mail a livello di dominio, offrendo informazioni complete sulle prestazioni delle e-mail.
+Il **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forniscono un raggruppamento dettagliato delle consegne e-mail a livello di dominio, offrendo informazioni complete sulle prestazioni delle e-mail.
 
 +++ Ulteriori informazioni sulle metriche Inviato e Consegnato per domini
 
@@ -233,7 +233,7 @@ Il  **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forn
 
 ![](assets/channel_email_bounces_domain.png)
 
-Il  **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offrono un raggruppamento a livello di dominio degli errori specifici riscontrati durante il processo di invio, fornendo un’analisi dettagliata dei problemi che si sono verificati.
+Il **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offrono un raggruppamento a livello di dominio degli errori specifici riscontrati durante il processo di invio, fornendo un’analisi dettagliata dei problemi che si sono verificati.
 
 +++ Ulteriori informazioni su mancati recapiti ed errori per domini e metriche
 
@@ -252,7 +252,7 @@ Il  **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella off
 
 ![](assets/channel_email_open_domains.png)
 
-Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra un raggruppamento a livello di dominio del coinvolgimento dei visitatori con la tua e-mail, fornendo informazioni utili su come diversi domini interagiscono con i contenuti.
+Il **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra un raggruppamento a livello di dominio del coinvolgimento dei visitatori con la tua e-mail, fornendo informazioni utili su come diversi domini interagiscono con i contenuti.
 
 +++ Ulteriori informazioni sulle metriche Apri e clic per domini
 
@@ -271,7 +271,7 @@ Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostr
 
 ![](assets/channel_email_bounce_domain.png)
 
-Il  **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabella forniscono un raggruppamento dei dati a livello di dominio relativi a errori temporanei e permanenti, fornendo informazioni dettagliate sui motivi alla base dei messaggi non recapitati.
+Il **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabella forniscono un raggruppamento dei dati a livello di dominio relativi a errori temporanei e permanenti, fornendo informazioni dettagliate sui motivi alla base dei messaggi non recapitati.
 
 Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppressione](../reports/suppression-list.md) pagina.
 

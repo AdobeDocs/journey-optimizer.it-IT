@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4648'
-ht-degree: 19%
+source-wordcount: '4806'
+ht-degree: 17%
 
 ---
 
@@ -270,9 +270,14 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 ### Inviato e consegnato per dominio {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="Inviato e consegnato per dominio"
+>abstract="La tabella e il grafico Inviato e consegnato per domini forniscono una suddivisione delle e-mail suddivise per domini, presentando informazioni approfondite sulle prestazioni complessive delle comunicazioni e-mail."
+
 ![](assets/campaign_email_sent_domains.png)
 
-Il  **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forniscono un raggruppamento dettagliato delle e-mail a livello di dominio, offrendo informazioni complete sulle prestazioni delle e-mail.
+Il **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forniscono un raggruppamento dettagliato delle e-mail a livello di dominio, offrendo informazioni complete sulle prestazioni delle e-mail.
 
 +++ Ulteriori informazioni sulle metriche Inviato e Consegnato per domini
 
@@ -284,9 +289,14 @@ Il  **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forn
 
 ### Mancati recapiti ed errori per dominio {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="Mancati recapiti ed errori per dominio"
+>abstract="Il grafico e la tabella Mancati recapiti ed errori per domini forniscono un raggruppamento granulare a livello di dominio, fornendo informazioni su errori specifici riscontrati durante il processo di invio delle e-mail."
+
 ![](assets/campaign_email_bounce_domains.png)
 
-Il  **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offrono un raggruppamento a livello di dominio degli errori specifici riscontrati durante il processo di invio, fornendo un’analisi dettagliata dei problemi che si sono verificati.
+Il **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offrono un raggruppamento a livello di dominio degli errori specifici riscontrati durante il processo di invio, fornendo un’analisi dettagliata dei problemi che si sono verificati.
 
 +++ Ulteriori informazioni su mancati recapiti ed errori per domini e metriche
 
@@ -298,9 +308,14 @@ Il  **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella off
 
 ### Aperture e clic per dominio {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="Aperture e clic per dominio"
+>abstract="Il grafico e la tabella Apri e clic per domini offrono un raggruppamento dettagliato a livello di dominio, presentando una panoramica completa del modo in cui il pubblico si relaziona con le e-mail."
+
 ![](assets/campaign_email_open_domains.png)
 
-Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra un raggruppamento a livello di dominio del coinvolgimento dei profili con la tua e-mail, fornendo informazioni utili su come diversi domini interagiscono con i contenuti.
+Il **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra un raggruppamento a livello di dominio del coinvolgimento dei profili con la tua e-mail, fornendo informazioni utili su come diversi domini interagiscono con i contenuti.
 
 +++ Ulteriori informazioni sulle metriche Apri e clic per domini
 
@@ -312,9 +327,14 @@ Il  **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostr
 
 ### Motivi di mancato recapito per dominio {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="Motivi di mancato recapito per dominio"
+>abstract="Il grafico e la tabella dei motivi di mancato recapito per dominio forniscono un raggruppamento a livello di dominio, offrendo informazioni complete su errori temporanei e permanenti. Questa analisi dettagliata offre informazioni utili sulle ragioni specifiche alla base dei messaggi non recapitati."
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-Il  **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabella forniscono un raggruppamento dei dati a livello di dominio relativi a errori temporanei e permanenti, fornendo informazioni dettagliate sui motivi alla base dei messaggi non recapitati.
+Il **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabella forniscono un raggruppamento dei dati a livello di dominio relativi a errori temporanei e permanenti, fornendo informazioni dettagliate sui motivi alla base dei messaggi non recapitati.
 
 +++ Ulteriori informazioni sui motivi di mancato recapito per metriche di dominio
 
@@ -366,7 +386,7 @@ Il **[!UICONTROL E-mail - Dominio destinatario migliore]** grafico e tabella off
 
 >[!NOTE]
 >
->Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per l’e-mail è attivata l’opzione Ottimizzazione ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]** I widget sono disponibili solo se per l’e-mail è attivata l’opzione Ottimizzazione ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio, ottimizzate o meno.
 
@@ -554,7 +574,7 @@ Il **[!UICONTROL Notifica push - Riepilogo di invio]** graph offre una rappresen
 
 >[!NOTE]
 >
->Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]**  I widget sono disponibili solo se per la notifica push è attivata l’opzione Ottimizzazione dell’ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]** I widget sono disponibili solo se per la notifica push è attivata l’opzione Ottimizzazione dell’ora di invio. Per ulteriori informazioni sull’ottimizzazione dell’ora di invio, consulta [questa pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione del tempo di invio]** i widget descrivono nel dettaglio le informazioni principali relative al messaggio, ottimizzate o meno.
 
@@ -599,7 +619,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Notifica push - Raggruppamento per piattaforma"
->abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del successo delle notifiche push in base al sistema operativo del profilo."
+>abstract="La tabella e i grafici Notifica push - Raggruppamento per piattaforma forniscono un raggruppamento del successo delle notifiche push in base al sistema operativo del profilo."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL SMS]** Questa
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - Statistiche di invio"
->abstract="La tabella Statistiche di invio SMS riepiloga dati essenziali sui messaggi SMS, ad esempio i messaggi mirati o recapitati."
+>abstract="La tabella SMS - Statistiche di invio riepiloga i dati essenziali sui messaggi SMS, ad esempio i messaggi di destinazione o recapitati."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -655,6 +675,11 @@ Il **[!UICONTROL SMS - Statistiche di invio]** La tabella fornisce un riepilogo 
 +++
 
 ### SMS - Statistiche di tracciamento {#sms-tracking-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="SMS - Statistiche di tracciamento"
+>abstract="Il widget SMS - Statistiche di tracciamento fornisce una panoramica completa delle informazioni essenziali relative all’interazione dei visitatori con l’URL."
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -727,7 +752,7 @@ Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - Clic per collegamenti"
->abstract="Il widget SMS - Clic per collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi"
+>abstract="Il widget SMS - Clic per collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi."
 
 ![](assets/campaign_sms_clicks.png)
 
