@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1961'
 ht-degree: 12%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 12%
 >abstract="Controlla in modo efficiente i trigger selezionando gli eventi e i criteri specifici che attiveranno i messaggi. Con il Generatore di regole, gli utenti possono definire condizioni e valori precisi. Quando queste condizioni vengono soddisfatte, avviano una serie di azioni, inclusa la consegna di messaggi in-app."
 
 Puoi aggiungere un messaggio in-app in una campagna o in un percorso. Segui i passaggi descritti di seguito per creare un messaggio in-app in entrambi i contesti.
+
+I messaggi in-app non sono influenzati dalla scelta dell’utente di dare il consenso o rinunciare alle notifiche push nel sistema operativo.
 
 >[!BEGINTABS]
 
