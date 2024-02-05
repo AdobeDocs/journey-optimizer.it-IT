@@ -11,7 +11,7 @@ keywords: sottodominio, dominio, posta, dmarc, record
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
->title="Imposta record DMARC"
->abstract="DMARC è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il dominio da utilizzi non autorizzati ed evitare problemi di recapito dei messaggi con i provider di caselle postali.<br>Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
+>title="Impostare il record DMARC"
+>abstract="DMARC è un metodo di autenticazione delle e-mail che consente ai proprietari di dominio di proteggerlo da utilizzi non autorizzati ed evitare problemi di recapitabilità con i provider di posta elettronica.<br>Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
 
 ## Che cos&#39;è DMARC? {#what-is-dmarc}
 
