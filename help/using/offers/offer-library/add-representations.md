@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 9%
+source-wordcount: '730'
+ht-degree: 8%
 
 ---
 
@@ -136,3 +136,42 @@ Se si specifica un **[!UICONTROL Collegamento di destinazione]**, puoi anche per
    >
    >Solo il **[!UICONTROL Attributi del profilo]**, **[!UICONTROL Tipi di pubblico]** e **[!UICONTROL Funzioni di supporto]** Le fonti sono disponibili per la gestione delle decisioni.
 
+## Personalizzare le rappresentazioni in base ai dati contestuali{#context-data}
+
+Quando i dati contestuali vengono trasmessi nel [Decisioning Edge](../api-reference/offer-delivery-api/edge-decisioning-api.md) chiamata, puoi sfruttare questi dati per personalizzare dinamicamente le rappresentazioni. Ad esempio, puoi personalizzare la rappresentazione di un’offerta in base a fattori in tempo reale, come le condizioni meteo correnti al momento in cui viene presa la decisione.
+
+A questo scopo, incorpora la variabile di dati di contesto direttamente all’interno del contenuto della rappresentazione utilizzando `profile.timeSeriesEvents.` spazio dei nomi.
+
+Di seguito è riportato un esempio di sintassi utilizzato per personalizzare la rappresentazione di un’offerta in base ai sistemi operativi degli utenti:
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+La richiesta di Edge decisioning corrispondente, inclusi i dati contestuali, è la seguente:
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
