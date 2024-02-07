@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 0d010bbb46887546d524726606764b564c352064
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1960'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Non è possibile rimuovere le azioni personalizzate incorporate.
 * Quando scegli un endpoint per il targeting utilizzando un’azione personalizzata, assicurati che:
 
-   * Questo endpoint può supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [Limitazione di utilizzo API](../configuration/capping.md) per limitarlo. Fai attenzione a che una configurazione di limitazione non possa scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.
+   * Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.
    * Questo endpoint deve avere un tempo di risposta il più basso possibile. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva.
 
 ### Eventi {#events-g}
