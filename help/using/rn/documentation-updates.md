@@ -11,13 +11,13 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
 workflow-type: tm+mt
 source-wordcount: '4604'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
-Questa pagina elenca tutti gli aggiornamenti più recenti in [!DNL Journey Optimizer] documentazione.
+Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
 ## Febbraio 2024 {#feb-2024}
 
@@ -25,27 +25,27 @@ Questa pagina elenca tutti gli aggiornamenti più recenti in [!DNL Journey Optim
 
 ## Gennaio 2024 {#jan-2024}
 
-* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di gennaio 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati nella versione di gennaio 2024 di [!DNL Journey Optimizer] sono elencati nel dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stato aggiunto un guardrail sulle dimensioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 * La gestione del timeout del percorso è stata dettagliata [nella sezione seguente](../building-journeys/journey-gs.md#global_timeout).
 * La [pagina home](../../ajo-home.md) della documentazione di Journey Optimizer è stata riprogettata.
 * Sono state aggiunte informazioni su consigli relativi all’attività Aggiorna profili. [Ulteriori informazioni](../building-journeys/update-profiles.md)
-* Sono state aggiunte informazioni sul comportamento dei timeout sulle attività evento in percorsi. Se non viene ricevuto alcun evento durante il periodo di timeout specificato, gli utenti continueranno il percorso se non è definito alcun percorso di timeout. [Ulteriori informazioni](../building-journeys/general-events.md#events-specific-time)
+* Sono state aggiunte informazioni sul comportamento dei timeout sulle attività evento nei percorsi. Se non viene ricevuto alcun evento durante il periodo di timeout specificato, i singoli utenti continueranno il percorso se non viene definito alcun percorso di timeout. [Ulteriori informazioni](../building-journeys/general-events.md#events-specific-time)
 * I prerequisiti per la configurazione del canale in-app sono stati aggiornati con una nota sull’utilizzo di un criterio di unione delle preferenze del set di dati personalizzato. [Ulteriori informazioni](../in-app/inapp-configuration.md)
-* Sono stati aggiunti ulteriori dettagli su come manipolare le raccolte in una risposta di azione personalizzata. [Ulteriori informazioni](../action/action-response.md#exp-syntax).
-* Un collegamento al [Dizionario schema per Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) è stato aggiunto alla home page.
-* Un riferimento obsoleto alla risorsa Messaggio AJO è stato rimosso dall’elenco delle risorse disponibili nel Registro di controllo. Quando viene eseguito un aggiornamento su un messaggio in un percorso, viene **Percorso** viene creato il registro. [Ulteriori informazioni](../privacy/audit-logs.md)
-* Sono stati aggiunti ulteriori consigli sull’utilizzo di **Read Audience** attività. [Ulteriori informazioni](../building-journeys/read-audience.md#must-read)
-* La pagina Introduzione ai tipi di pubblico di Adobe Experience Platform è stata migliorata con un elenco di metodi per la generazione di tipi di pubblico. [Ulteriori informazioni](../audience/about-audiences.md)
-* Sono state aggiunte le best practice per la scelta di un endpoint da targetizzare utilizzando un’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
+* Sono stati aggiunti ulteriori dettagli su come manipolare le raccolte in una azione di risposta personalizzata. [Ulteriori informazioni](../action/action-response.md#exp-syntax).
+* Un collegamento al [Dizionario dello schema per Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) è stato aggiunto alla pagina Home.
+* Un riferimento obsoleto alla risorsa messaggio AJO è stato rimosso dall’elenco delle risorse disponibili nel registro di audit. Quando viene eseguito un aggiornamento su un messaggio in un percorso, viene creato un registro di **percorso**. [Ulteriori informazioni](../privacy/audit-logs.md)
+* Sono stati aggiunti ulteriori consigli sull’utilizzo dell’attività **Leggi pubblico**. [Ulteriori informazioni](../building-journeys/read-audience.md#must-read)
+* La pagina Introduzione ai tipi di pubblico di Adobe Experience Platform è stata migliorata con un elenco di metodi per la generazione del pubblico. [Ulteriori informazioni](../audience/about-audiences.md)
+* Sono state aggiunte le best practice per la scelta di un endpoint come destinazione utilizzando un’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md)
 * È stata aggiunta una nota per avvisare gli utenti che gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#important-notes)
-* Informazioni sulla **currentActionField** è stata aggiunta all&#39;elenco di [funzioni di gestione delle raccolte](../building-journeys/expression/collection-management-functions.md). Un esempio di espressione che sfrutta la funzione è stato aggiunto nel [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md) pagina.
-* Aggiorna il documento di autenticazione personalizzato relativo alla durata della cache. [Ulteriori informazioni] (../datasource/external-data-sources.md)
-* Supporto di `<listObject>` è stato modificato in più funzioni.
-* Aggiornare il **durata** parametro in `toString` funzione. [Ulteriori informazioni](../building-journeys/functions/functiontostring.md)
+* Sono state aggiunte delle informazioni sulla funzione **currentActionField** all’elenco delle [funzioni di gestione delle raccolte](../building-journeys/expression/collection-management-functions.md). Un esempio di espressione che sfrutta la funzione è stato aggiunto nella pagina [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md).
+* Aggiornare il documento di autenticazione personalizzato relativo alla durata della cache. [Ulteriori informazioni] (../datasource/external-data-sources.md)
+* Il supporto a `<listObject>` è stato modificato in più funzioni.
+* Aggiornamento del parametro della **durata** nella funzione `toString`. [Ulteriori informazioni](../building-journeys/functions/functiontostring.md)
 * Per alcuni casi di utilizzo di origini dati esterne, si consiglia di utilizzare azioni personalizzate.
-* La sintassi del campo evento è stata aggiornata. La sintassi seguente è obsoleta `@(my_event.myfield}` e sostituito da `@event{my_event.myfield}`. [Ulteriori informazioni](../building-journeys/expression/field-references.md)
-* Le guide dei rapporti globali e live sono state riorganizzate. [Ulteriori informazioni](../reports/campaign-global-report.md)
+* La sintassi del campo evento è stata aggiornata. La sintassi seguente `@(my_event.myfield}` è obsoleta e sostituita da `@event{my_event.myfield}`. [Ulteriori informazioni](../building-journeys/expression/field-references.md)
+* Le guide Rapporto globale e Rapporto live sono state riorganizzate. [Ulteriori informazioni](../reports/campaign-global-report.md)
 
 
 ## Novembre 2023 {#nov-2023}

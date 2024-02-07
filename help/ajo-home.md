@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 68%
+ht-degree: 94%
 
 ---
 
@@ -22,23 +22,23 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!TAB La versione di gennaio è live!]
 
-Scopri le nuove funzioni e i miglioramenti introdotti con Adobe Journey Optimizer versione 24.1.
+Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.1 di Adobe Journey Optimizer.
 
 [![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Aggiornamento DMARC obbligatorio]
 
-Come parte delle procedure ottimali di settore, Google e Yahoo! richiederanno entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. Assicurati di aver impostato il record DMARC per tutti i sottodomini delegati ad Adobe in Journey Optimizer.
+Come parte delle best practice di settore, Google e Yahoo! richiederanno entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. Assicurati di aver impostato il record DMARC per tutti i sottodomini delegati ad Adobe in Journey Optimizer.
 
 [![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Playbook di casi d’uso]
+>[!TAB Usare i playbook sui casi d’uso]
 
-Sfrutta un catalogo di playbook di casi d’uso specifici per il settore in Real-Time CDP e Journey Optimizer per risolvere casi d’uso comuni che è possibile eseguire utilizzando Adobe Experience Platform e Adobe Percorsi Optimizer.
+Sfrutta un catalogo di playbook sui casi d’uso specifici per il settore in Real-Time CDP e Journey Optimizer per risolvere casi d’uso comuni che è possibile eseguire utilizzando Adobe Experience Platform e Adobe Journey Optimizer.
 
-Dopo aver scelto il playbook più adatto alle tue esigenze, puoi abilitarlo per generare le risorse necessarie per supportare il caso d’uso, ad esempio percorsi, messaggi, schemi o segmenti, e personalizzarli nel tuo schema per velocizzare il time-to-value.
+Dopo aver scelto il playbook più adatto alle tue esigenze, puoi abilitarlo per generare le risorse necessarie per supportare il caso d’uso, ad esempio percorsi, messaggi, schemi o segmenti, e personalizzarle nel tuo schema per velocizzare il time-to-value.
 
-![immagine animata che mostra le playbook Use Case](using/rn/assets/do-not-localize/playbooks.gif)
+![immagine animata che mostra i playbook dei casi d’uso](using/rn/assets/do-not-localize/playbooks.gif)
 
 [![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
