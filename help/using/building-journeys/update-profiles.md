@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 7%
+source-wordcount: '614'
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,11 @@ Utilizza il **[!UICONTROL Aggiorna profilo]** attività di azione per aggiornare
 * La richiesta di aggiornamento inviata a Adobe Experience Platform è immediata/entro un secondo. Ci vorrà normalmente qualche secondo, ma a volte di più senza alcuna garanzia. Di conseguenza, ad esempio, se un’azione utilizza il &quot;campo 1&quot; aggiornato da un **Aggiorna profilo** azione posizionata immediatamente prima, non ti aspetti che &quot;campo 1&quot; venga aggiornato nell’azione.
 * Il **Aggiorna profilo** L’attività non supporta i campi XDM definiti come enumerazione.
 * Il **[!UICONTROL Aggiorna profilo]** l’attività aggiorna solo il [Archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
-* Quando selezioni un set di dati in **[!UICONTROL Aggiorna profilo]** attività, si consiglia di utilizzare un’attività non interessata dai flussi di acquisizione dei dati. **[!UICONTROL Aggiorna profilo]** aggiornamenti memorizzati solo in [Archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}Tuttavia, esiste il rischio di sovrascrivere tale modifica con un flusso di acquisizione dei dati.
+* Quando selezioni un set di dati in **[!UICONTROL Aggiorna profilo]** attività, si consiglia di utilizzare un’attività non interessata dai flussi di acquisizione dei dati. Perché **Aggiorna profilo** Gli aggiornamenti vengono memorizzati solo in [Archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, esiste il rischio di sovrascrivere tali modifiche con un flusso di acquisizione dati.
+
+  Inoltre, il **Aggiorna profilo** la configurazione dell’attività non richiede uno spazio dei nomi delle identità. Di conseguenza, assicurati che il set di dati selezionato utilizzi lo stesso spazio dei nomi Identity utilizzato dall’azione che ha avviato il percorso, in quanto questo spazio dei nomi verrà utilizzato da questi aggiornamenti. La mappa delle identità può essere utilizzata anche dal set di dati selezionato. Se non si seleziona un set di dati con lo spazio dei nomi corretto o uno che utilizza la mappa di identità, si verifica la **Aggiorna profilo** l&#39;attività non superata.
+
+
 
 ## Utilizzo dell’aggiornamento del profilo
 
