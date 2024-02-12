@@ -11,7 +11,7 @@ keywords: sottodominio, dominio, posta, dmarc, record
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Scopri di più sull’aggiornamento DMARC obbligatorio"
->abstract="Come parte delle procedure ottimali di settore, Google e Yahoo richiedono entrambe di disporre di un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**.<br>Di conseguenza, devi assicurarti di aver impostato il record DMARC per tutti i sottodomini che hai delegato ad Adobe in Journey Optimizer."
+>abstract="Come parte dell’applicazione delle best practice del settore, Google e Yahoo richiedono entrambi di disporre di un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**.<br>Di conseguenza, devi assicurarti di aver impostato il record DMARC per tutti i sottodomini che hai delegato ad Adobe in Journey Optimizer."
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica/ISP, aiuta a evitare che malintenzionati inviino e-mail che affermano di arrivare dal tuo dominio. L’implementazione di DMARC riduce il rischio che le e-mail legittime vengano contrassegnate come spam o vengano rifiutate, inoltre migliora il recapito dei messaggi e-mail.
 

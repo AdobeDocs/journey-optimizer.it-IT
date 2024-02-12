@@ -11,7 +11,7 @@ exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '4806'
-ht-degree: 17%
+ht-degree: 23%
 
 ---
 
@@ -124,7 +124,7 @@ L&#39;ultimo widget fornisce dati relativi al **[!UICONTROL Metrica di successo]
 
 ## Scheda e-mail {#email-global}
 
-### E-mail - Statistiche di invio {#sending-statistics-email}
+### E-mail: statistiche di invio {#sending-statistics-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -190,12 +190,12 @@ Il **[!UICONTROL E-mail - Statistiche di tracciamento]** la tabella offre un acc
 
 +++
 
-### E-mail - Prestazioni di invio {#sending-performance-email}
+### E-mail: prestazioni di invio {#sending-performance-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_performance"
->title="E-mail - Prestazioni di invio"
->abstract="Il grafico delle prestazioni E-mail - Invio presenta dati completi sulle e-mail inviate, fornendo informazioni approfondite su metriche chiave quali consegna e mancati recapiti e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
+>title="E-mail: prestazioni di invio"
+>abstract="Il grafico E-mail: prestazioni di invio presenta dati completi sulle e-mail inviate, fornendo informazioni approfondite sulle metriche chiave, come consegnati e mancati recapiti, e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
 
 ![](assets/campaign_email_sending_performance.png)
 
@@ -213,7 +213,7 @@ Il **[!UICONTROL E-mail - Prestazioni di invio]** graph fornisce una visualizzaz
 
 +++
 
-### E-mail - Motivi e categorie di mancato recapito {#bounces-email}
+### E-mail: motivi e categorie di mancato recapito {#bounces-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounce_categories"
@@ -242,11 +242,11 @@ Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppression
 +++
 
 
-### E-mail - Motivi di errore {#errors-email}
+### E-mail: motivi di errore {#errors-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_error_reasons"
->title="E-mail - Motivi di errore"
+>title="E-mail: motivi di errore"
 >abstract="I grafici e la tabella della sezione E-mail - Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante l’invio."
 
 ![](assets/campaign_email_error_reasons.png)
@@ -273,7 +273,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sent_domains"
 >title="Inviato e consegnato per dominio"
->abstract="La tabella e il grafico Inviato e consegnato per domini forniscono una suddivisione delle e-mail suddivise per domini, presentando informazioni approfondite sulle prestazioni complessive delle comunicazioni e-mail."
+>abstract="La tabella e il grafico Inviato e consegnato per domini forniscono un raggruppamento delle e-mail categorizzate per domini, presentando informazioni approfondite e dettagliate sulla prestazione complessiva delle comunicazioni via e-mail."
 
 ![](assets/campaign_email_sent_domains.png)
 
@@ -287,12 +287,12 @@ Il **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forni
 
 +++
 
-### Mancati recapiti ed errori per dominio {#bounces-domains}
+### Mancati recapiti ed errori per domini {#bounces-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_domains"
->title="Mancati recapiti ed errori per dominio"
->abstract="Il grafico e la tabella Mancati recapiti ed errori per domini forniscono un raggruppamento granulare a livello di dominio, fornendo informazioni su errori specifici riscontrati durante il processo di invio delle e-mail."
+>title="Mancati recapiti ed errori per domini"
+>abstract="Il grafico e la tabella Mancati recapiti ed errori per domini forniscono un raggruppamento dettagliato a livello di dominio, fornendo informazioni approfondite su errori specifici riscontrati durante il processo di invio delle e-mail."
 
 ![](assets/campaign_email_bounce_domains.png)
 
@@ -306,12 +306,12 @@ Il **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offr
 
 +++
 
-### Aperture e clic per dominio {#opens-domains}
+### Aperture e clic per domini {#opens-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_open_domains"
->title="Aperture e clic per dominio"
->abstract="Il grafico e la tabella Apri e clic per domini offrono un raggruppamento dettagliato a livello di dominio, presentando una panoramica completa del modo in cui il pubblico si relaziona con le e-mail."
+>title="Aperture e clic per domini"
+>abstract="Il grafico e la tabella Aperture e clic per domini offrono un raggruppamento dettagliato a livello di dominio, presentando una panoramica completa del modo in cui il pubblico si relaziona con le e-mail."
 
 ![](assets/campaign_email_open_domains.png)
 
@@ -330,7 +330,7 @@ Il **[!UICONTROL Apri e fai clic per domini]** un grafico con una tabella mostra
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_bounces_reasons_domains"
 >title="Motivi di mancato recapito per dominio"
->abstract="Il grafico e la tabella dei motivi di mancato recapito per dominio forniscono un raggruppamento a livello di dominio, offrendo informazioni complete su errori temporanei e permanenti. Questa analisi dettagliata offre informazioni utili sulle ragioni specifiche alla base dei messaggi non recapitati."
+>abstract="Il grafico e la tabella dei Motivi di mancato recapito per dominio forniscono un raggruppamento a livello di dominio, offrendo informazioni approfondite e complete su errori temporanei e permanenti. Questa analisi dettagliata offre informazioni utili sulle ragioni specifiche alla base dei messaggi non recapitati."
 
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
@@ -344,11 +344,11 @@ Il **[!UICONTROL Motivi di mancato recapito per dominio]** Il grafico e la tabel
 
 +++
 
-### E-mail - URL principale {#top-url-email}
+### E-mail: URL principale {#top-url-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_top_url"
->title="E-mail - URL principale"
+>title="E-mail: URL principale"
 >abstract="Il grafico e la tabella della sezione E-mail - URL principale offrono una panoramica completa degli URL all’interno dell’e-mail che vengono visitati di più, consentendoti di individuare i collegamenti più popolari."
 
 ![](assets/campaign_email_topurl.png)
@@ -380,7 +380,7 @@ Il **[!UICONTROL E-mail - Dominio destinatario migliore]** grafico e tabella off
 
 +++
 
-### E-mail - Ottimizzazione {#optimized-email}
+### E-mail: ottimizzazione {#optimized-email}
 
 ![](assets/campaign_email_optimized.png)
 
@@ -404,7 +404,7 @@ Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione
 
 +++
 
-### E-mail - Offerte {#email-offers}
+### E-mail: offerte {#email-offers}
 
 ![](assets/campaign_email_offers.png)
 
@@ -432,11 +432,11 @@ Il **[!UICONTROL Statistiche sulle offerte]**, **[!UICONTROL Statistiche sulle o
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative ai messaggi in-app inviati nella campagna.
 
-### Prestazioni in-app {#in-app-performance}
+### Prestazione in-app {#in-app-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_inapp_performance"
->title="Prestazioni in-app"
+>title="Prestazione in-app"
 >abstract="I KPI (Key Performance Indicator) in-app forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app."
 
 ![](assets/campaign_inapp_performance.png)
@@ -489,11 +489,11 @@ Il **[!UICONTROL Riepilogo in-app]** Il grafico illustra la progressione delle i
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Notifica push]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alle notifiche push inviate nella campagna.
 
-### Notifica push - Statistiche di invio {#push-sending-statistics}
+### Notifica push: statistiche di invio {#push-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_statistics"
->title="Notifica push - Statistiche di invio"
+>title="Notifica push: statistiche di invio"
 >abstract="La tabella Statistiche di invio delle notifiche push riepiloga i dati essenziali sulle notifiche push, come i messaggi di mirati o recapitati."
 
 ![](assets/campaign_push_sending.png)
@@ -524,11 +524,11 @@ Il **[!UICONTROL Notifica push - Statistiche di invio]** La tabella fornisce un 
 
 +++
 
-### Notifica push - Statistiche di tracciamento {#push-tracking-statistics}
+### Notifica push: statistiche di tracciamento {#push-tracking-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
->title="Notifica push - Statistiche di tracciamento"
+>title="Notifica push: statistiche di tracciamento"
 >abstract="Le statistiche di tracciamento push forniscono dati sulle attività dei profili per le notifiche push."
 
 ![](assets/campaign_push_tracking.png)
@@ -545,11 +545,11 @@ Il **[!UICONTROL Notifica push - Statistiche di tracciamento]** widget offre un�
 
 +++
 
-### Notifica push - Riepilogo di invio {#push-summary}
+### Notifica push: riepilogo di invio {#push-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
->title="Notifica push - Riepilogo di invio"
+>title="Notifica push: riepilogo di invio"
 >abstract="Il grafico Riepilogo invio notifiche push visualizza i dati disponibili per le notifiche push inviate."
 
 ![](assets/campaign_push_sending_summary.png)
@@ -590,22 +590,22 @@ Il **[!UICONTROL Ottimizzato e non ottimizzato]** e **[!UICONTROL Ottimizzazione
 
 +++
 
-### Notifica push - Motivi di errore {#error-reasons-push}
+### Notifica push: motivi di errore {#error-reasons-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
->title="Notifica push - Motivi di errore"
+>title="Notifica push: motivi di errore"
 >abstract="I grafici e la tabella Motivi di errore consentono di identificare gli errori specifici che si sono verificati durante il processo di invio."
 
 ![](assets/campaign_push_error_reasons.png)
 
 Il **[!UICONTROL Motivi di errore]** tabelle e grafici consentono di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, fornendo informazioni dettagliate su eventuali problemi riscontrati durante il processo.
 
-### Notifica push - Motivi di esclusione {#excluded-push}
+### Notifica push: motivi di esclusione {#excluded-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
->title="Notifica push - Motivi di esclusione"
+>title="Notifica push: motivi di esclusione"
 >abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 ![](assets/campaign_push_excluded.png)
@@ -614,12 +614,12 @@ Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diver
 
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
-### Notifica push - Raggruppamento per piattaforma {#breakdown-platform-push}
+### Notifica push: raggruppamento per piattaforma {#breakdown-platform-push}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
->title="Notifica push - Raggruppamento per piattaforma"
->abstract="La tabella e i grafici Notifica push - Raggruppamento per piattaforma forniscono un raggruppamento del successo delle notifiche push in base al sistema operativo del profilo."
+>title="Notifica push: raggruppamento per piattaforma"
+>abstract="La tabella e i grafici della Notifica push: raggruppamento per piattaforma forniscono un raggruppamento del successo delle notifiche push in base al sistema operativo del profilo."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -647,12 +647,12 @@ Il **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** grafico e tab
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL SMS]** Questa scheda contiene le informazioni principali relative ai messaggi SMS inviati nella campagna.
 
-### SMS - Statistiche di invio {#sms-sending-statistics}
+### SMS: statistiche di invio {#sms-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
->title="SMS - Statistiche di invio"
->abstract="La tabella SMS - Statistiche di invio riepiloga i dati essenziali sui messaggi SMS, ad esempio i messaggi di destinazione o recapitati."
+>title="SMS: statistiche di invio"
+>abstract="La tabella SMS: statistiche di invio riepiloga i dati essenziali sui messaggi SMS, ad esempio i messaggi mirati o recapitati."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -674,12 +674,12 @@ Il **[!UICONTROL SMS - Statistiche di invio]** La tabella fornisce un riepilogo 
 
 +++
 
-### SMS - Statistiche di tracciamento {#sms-tracking-statistics}
+### SMS: statistiche di tracciamento {#sms-tracking-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_sms_tracking_statistics"
->title="SMS - Statistiche di tracciamento"
->abstract="Il widget SMS - Statistiche di tracciamento fornisce una panoramica completa delle informazioni essenziali relative all’interazione dei visitatori con l’URL."
+>title="SMS: statistiche di tracciamento"
+>abstract="Il widget SMS: statistiche di tracciamento fornisce una panoramica completa delle informazioni essenziali relative all’interazione dei visitatori con l’URL."
 
 ![](assets/campaign_sms_tracking.png)
 
@@ -693,12 +693,12 @@ Il **[!UICONTROL SMS - Statistiche di tracciamento]** Il widget fornisce una pan
 
 +++
 
-### SMS - Prestazioni per data {#sms-perfomance-date}
+### SMS: prestazione per data {#sms-perfomance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
->title="SMS - Prestazioni per data"
->abstract="Il widget Prestazioni SMS per data fornisce informazioni chiave sui messaggi tramite una rappresentazione grafica."
+>title="SMS: prestazione per data"
+>abstract="Il widget SMS: prestazione per data fornisce informazioni chiave sui messaggi tramite una rappresentazione grafica."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -714,22 +714,22 @@ Il **[!UICONTROL Prestazioni SMS per data]** Il widget offre una panoramica dett
 
 +++
 
-### SMS - Motivi di errore {#sms-error}
+### SMS: motivi di errore {#sms-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
->title="SMS - Motivi di errore"
+>title="SMS: motivi di errore"
 >abstract="I grafici e la tabella della sezione SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
 
 ![](assets/campaign_sms_error_reasons.png)
 
 Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle ti consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS, semplificando un’analisi approfondita di eventuali problemi riscontrati.
 
-### SMS - Motivi di esclusione {#sms-excluded-reasons}
+### SMS: motivi di esclusione {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
->title="SMS - Motivi di esclusione"
+>title="SMS: motivi di esclusione"
 >abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 ![](assets/campaign_sms_excluded.png)
@@ -738,21 +738,21 @@ Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle illustrano visiv
 
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
-### SMS - Motivi di mancato recapito {#sms-bounces-reasons}
+### SMS: motivi di mancato recapito {#sms-bounces-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_bounces_reasons"
->title="SMS - Motivi di mancato recapito"
+>title="SMS: motivi di mancato recapito"
 >abstract="I grafici e la tabella Motivi di mancato recapito contengono i dati disponibili relativi ai messaggi non recapitati."
 
 Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati.
 
-### SMS - Clic per collegamenti {#sms-clicks-links}
+### SMS: clic per collegamenti {#sms-clicks-links}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
->title="SMS - Clic per collegamenti"
->abstract="Il widget SMS - Clic per collegamenti fornisce informazioni essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi."
+>title="SMS: clic per collegamenti"
+>abstract="Il widget SMS: clic per collegamenti fornisce informazioni approfondite essenziali sul coinvolgimento dei visitatori con gli URL nei messaggi."
 
 ![](assets/campaign_sms_clicks.png)
 
@@ -762,11 +762,11 @@ Il **[!UICONTROL SMS - Clic per collegamenti]** widget offre informazioni essenz
 
 Dalla campagna **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Web]** Questa scheda fornisce informazioni dettagliate sulle informazioni principali relative alle pagine Web.
 
-### Prestazioni web {#web-performance}
+### Prestazione web {#web-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_web_performance"
->title="Prestazioni web"
+>title="Prestazione web"
 >abstract="I KPI per le prestazioni web forniscono informazioni complete sul coinvolgimento dei visitatori con le esperienze web."
 
 ![](assets/campaign_web_performance.png)
@@ -852,22 +852,22 @@ Il **[!UICONTROL Direct mailing - Statistiche di invio]** La tabella fornisce un
 
 +++
 
-### Direct mail - Motivi di errore {#direct-mail-error}
+### Direct mail: motivi di errore {#direct-mail-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
->title="Direct mail - Motivi di errore"
+>title="Direct mail: motivi di errore"
 >abstract="I grafici e la tabella Direct Mail - Motivi di errore consentono di individuare gli errori specifici che si sono verificati durante il processo di invio."
 
 ![](assets/direct-mail-report_1.png)
 
 Il **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consentono di identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un’analisi dettagliata di eventuali problemi riscontrati.
 
-### Direct mail - Motivi di esclusione {#direct-mail-excluded}
+### Direct mail: motivi di esclusione {#direct-mail-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
->title="Direct mail - Motivi di esclusione"
+>title="Direct mail: motivi di esclusione"
 >abstract="I grafici e la tabella dei motivi di esclusione di Direct mail illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
 
 ![](assets/campaign_direct_excluded.png)

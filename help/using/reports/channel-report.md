@@ -11,7 +11,7 @@ exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3683'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -45,12 +45,12 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 
 Dai rapporti sul canale, il menu E-mail fornisce i dettagli delle informazioni principali relative alle e-mail inviate nelle campagne e nei Percorsi. Le metriche sono descritte di seguito.
 
-### E-mail - Statistiche di invio totali {#email-total-sending}
+### E-mail: statistiche di invio totali {#email-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="E-mail - Statistiche di invio totali"
->abstract="I KPI E-mail - Statistiche di invio totali riepilogano dati essenziali sulle e-mail, come messaggi di destinazione o recapitati."
+>title="E-mail: statistiche di invio totali"
+>abstract="I KPI delle Email: statistiche di invio totali riepilogano i dati essenziali sulle e-mail, come messaggi mirati o consegnati."
 
 ![](assets/channel_email_total_sending.png)
 
@@ -80,11 +80,11 @@ Il **[!UICONTROL Statistiche di invio totali e-mail]** Il widget offre una panor
 
 +++
 
-### E-mail - Statistiche di tracciamento totali {#email-total-tracking}
+### E-mail: statistiche di tracciamento totali {#email-total-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_tracking_statistics"
->title="E-mail - Statistiche di tracciamento totali"
+>title="E-mail: statistiche di tracciamento totali"
 >abstract="I KPI E-mail - Statistiche di tracciamento totali forniscono dati sull’attività del profilo per le e-mail."
 
 ![](assets/channel_email_total_tracking.png)
@@ -153,7 +153,7 @@ Il **[!UICONTROL E-mail - Statistiche di tracciamento nel tempo]** graph fornisc
 
 +++
 
-### E-mail - Categorie e motivi di mancato recapito {#bounce-categories}
+### E-mail: categorie e motivi di mancato recapito {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounce_categories"
@@ -224,11 +224,11 @@ Il **[!UICONTROL Inviato e consegnato da domini]** la tabella e il grafico forni
 
 +++
 
-### Mancati recapiti ed errori per dominio {#bounces-errors-domains}
+### Mancati recapiti ed errori per domini {#bounces-errors-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_bounces_errors_domains"
->title="Mancati recapiti ed errori per dominio"
+>title="Mancati recapiti ed errori per domini"
 >abstract="Il grafico e la tabella Mancati recapiti ed errori per dominio rappresentano il raggruppamento a livello di dominio degli errori specifici che si sono verificati durante il processo di invio."
 
 ![](assets/channel_email_bounces_domain.png)
@@ -243,11 +243,11 @@ Il **[!UICONTROL Mancati recapiti ed errori per domini]** grafico e tabella offr
 
 +++
 
-### Aperture e clic per dominio {#open-clicks-domains}
+### Aperture e clic per domini {#open-clicks-domains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_open_clicks_domains"
->title="Aperture e clic per dominio"
+>title="Aperture e clic per domini"
 >abstract="Il grafico e la tabella Aperture e clic per dominio rappresentano il raggruppamento a livello di dominio del coinvolgimento dei visitatori con la tua e-mail."
 
 ![](assets/channel_email_open_domains.png)
@@ -375,7 +375,7 @@ Il **[!UICONTROL Notifiche push - Tracciamento delle statistiche nel tempo]** gr
 
 +++
 
-### Notifiche push - Motivi di esclusione {#push-excluded-reasons}
+### Notifiche push: motivi di esclusione {#push-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_excluded_reasons"
@@ -388,7 +388,7 @@ Il **[!UICONTROL Motivi di esclusione]** il grafico e la tabella mostrano i dive
 
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
-### Notifiche push - Motivi di errore {#push-error-reasons}
+### Notifiche push: motivi di errore {#push-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_error_reasons"
@@ -399,7 +399,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 Il **[!UICONTROL Motivi di errore]** grafici e tabelle consentono di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, fornendo informazioni dettagliate su eventuali problemi riscontrati durante il processo.
 
-### Notifiche push - Tracciamento per piattaforma {#push-tracking-platform}
+### Notifiche push: tracciamento per piattaforma {#push-tracking-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_tracking_statistics_platform"
@@ -408,7 +408,7 @@ Il **[!UICONTROL Motivi di errore]** grafici e tabelle consentono di identificar
 
 Il **[!UICONTROL Notifiche push - Tracciamento per piattaforma]** i grafici e le tabelle descrivono l’attività dei destinatari per la notifica push in base al sistema operativo del profilo.
 
-### Notifiche push - Invio per piattaforma {#push-sending-platform}
+### Notifiche push: invio per piattaforma {#push-sending-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics_platform"
@@ -616,7 +616,7 @@ Il **[!UICONTROL Coinvolgimento totale in-app]** I KPI forniscono informazioni c
 
 +++
 
-### Intervento in-app straordinario {#inapp-engagement-overtime}
+### Coinvolgimento nel tempo in-app {#inapp-engagement-overtime}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement_overtime"

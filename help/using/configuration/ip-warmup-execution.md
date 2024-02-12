@@ -154,7 +154,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="Visualizzare i profili qualificati"
+>title="Visualizzazione a 360° dei profili"
 >abstract="Questa colonna mostra il numero di profili qualificati. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili di destinazione rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che l’opzione **Pausa per errori** è abilitata. In questo caso, l’esecuzione viene annullata."
 
 1. Seleziona una pianificazione per ogni esecuzione per assicurarti che venga eseguita all’ora specificata.

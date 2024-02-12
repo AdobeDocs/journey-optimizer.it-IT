@@ -11,7 +11,7 @@ exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3484'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -68,7 +68,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL E-mail]** La scheda contiene le informazioni principali relative all’e-mail inviata nella campagna.
 
-### E-mail - Prestazioni di invio {#email-sending-performance}
+### E-mail: prestazioni di invio {#email-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_sending_statistics"
@@ -128,7 +128,7 @@ Il **[!UICONTROL Metriche di invio per e-mail]** la tabella offre un riepilogo c
 * **[!UICONTROL Nuovi tentativi]**: numero di e-mail nella coda per i nuovi tentativi.
 +++
 
-### E-mail - Categorie e motivi di mancato recapito {#bounce-categories}
+### E-mail: categorie e motivi di mancato recapito {#bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_bounce_categories"
@@ -156,12 +156,12 @@ Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppression
 
 +++
 
-### E-mail - Prestazioni per data {#email-performance-date}
+### E-mail: prestazione per data {#email-performance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_performance_bydate"
->title="E-mail - Prestazioni per data"
->abstract="Il grafico E-mail - Prestazioni per data presenta dati completi sulle ultime 24 ore relative alle e-mail inviate, fornendo informazioni approfondite su metriche chiave quali recapitato e non recapitato, consentendo un’analisi dettagliata del processo di invio delle e-mail."
+>title="E-mail: prestazione per data"
+>abstract="Il grafico E-mail: prestazione per data presenta i dati completi sulle ultime 24 ore relative alle e-mail inviate, offrendo informazioni approfondite sulle metriche chiave, come consegnati e mancati recapiti, e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
 
 ![](assets/campaign_email_live_performance.png)
 
@@ -191,7 +191,7 @@ Il **[!UICONTROL E-mail - Prestazioni per data]** widget offre una panoramica de
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_error_reasons"
->title="E-mail - Motivi di errore"
+>title="E-mail: motivi di errore"
 >abstract="I grafici e la tabella E-mail - Motivi di errore consentono di individuare gli errori che si sono verificati durante il processo di invio nelle ultime 24 ore."
 
 ![](assets/campaign_email_live_error.png)
@@ -222,7 +222,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 Il **[!UICONTROL E-mail - Dominio destinatario migliore]** Il grafico e la tabella forniscono un’analisi approfondita dei domini utilizzati più di frequente dai profili per aprire le e-mail nelle ultime 24 ore. Questo fornisce informazioni utili sul comportamento del profilo, consentendoti di comprendere le piattaforme preferite.
 
-### E-mail - Offerte {#email-offers}
+### E-mail: offerte {#email-offers}
 
 >[!NOTE]
 >
@@ -244,11 +244,11 @@ Il **[!UICONTROL Statistica sulle offerte]** e **[!UICONTROL Statistiche sulle o
 
 Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative ai messaggi in-app inviati nella campagna.
 
-### Prestazioni in-app {#inapp-performance}
+### Prestazione in-app {#inapp-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_inapp_performance"
->title="Prestazioni in-app"
+>title="Prestazione in-app"
 >abstract="I KPI della sezione Prestazioni in-app forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app delle ultime 24 ore."
 
 Il **[!UICONTROL Prestazioni in-app]** I KPI forniscono informazioni essenziali sul coinvolgimento dei profili con i messaggi in-app nelle ultime 24 ore, fornendo metriche essenziali per valutare l’efficacia e l’impatto delle campagne in-app.
@@ -291,11 +291,11 @@ Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle forniscono un resocon
 
 Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Notifica push]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alla notifica push inviata nella campagna.
 
-### Notifica push - Prestazioni di invio {#push-sending-performance}
+### Notifica push: prestazione di invio {#push-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_performance"
->title="Notifica push - Prestazioni di invio"
+>title="Notifica push: prestazione di invio"
 >abstract="Il grafico delle prestazioni di invio delle notifiche push riassume i dati essenziali relativi alle notifiche push, come Errori o Messaggi consegnati nelle ultime 24 ore."
 
 ![](assets/campain_push_live_sending_performance.png)
@@ -343,11 +343,11 @@ Il **[!UICONTROL Notifica push - Statistiche]** La tabella fornisce un riepilogo
 
 +++
 
-### Notifica push - Riepilogo di invio {#push-sending-summary}
+### Notifica push: riepilogo di invio {#push-sending-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_sending_summary"
->title="Notifica push - Riepilogo di invio"
+>title="Notifica push: riepilogo di invio"
 >abstract="Il grafico di riepilogo dell’invio delle notifiche push visualizza i dati disponibili per le notifiche push inviate nelle ultime 24 ore."
 
 Il **[!UICONTROL Notifica push - Statistiche]** graph offre una rappresentazione dinamica che mostra un’analisi dell’attività delle notifiche push nelle ultime 24 ore. Questa rappresentazione grafica fornisce un raggruppamento completo delle notifiche push inviate.
@@ -366,31 +366,31 @@ Il **[!UICONTROL Notifica push - Statistiche]** graph offre una rappresentazione
 
 +++
 
-### Notifica push - Motivi di esclusione {#push-excluded}
+### Notifica push: motivi di esclusione {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
->title="Notifica push - Motivi di esclusione"
+>title="Notifica push: motivi di esclusione"
 >abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
 
 Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere le notifiche push nelle ultime 24 ore.
 
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
-### Notifica push - Motivi di errore {#push-error}
+### Notifica push: motivi di errore {#push-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_error_reasons"
->title="Notifica push - Motivi di errore"
+>title="Notifica push: motivi di errore"
 >abstract="I grafici e la tabella Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di invio."
 
 Il **[!UICONTROL Motivi di errore]** la tabella e i grafici ti forniscono la possibilità di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push nelle ultime 24 ore, fornendo informazioni dettagliate su eventuali problemi incontrati durante il percorso.
 
-### Notifica push - Raggruppamento per piattaforma {#push-breakdown-platform}
+### Notifica push: raggruppamento per piattaforma {#push-breakdown-platform}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_breakdown_platform"
->title="Notifica push - Raggruppamento per piattaforma"
+>title="Notifica push: raggruppamento per piattaforma"
 >abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del buon esito delle notifiche push nelle ultime 24 ore, in base al sistema operativo del destinatario."
 
 Il **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** grafico e tabella forniscono un’analisi dettagliata del successo delle notifiche push nelle ultime 24 ore, con informazioni basate sul sistema operativo del profilo. Questo raggruppamento migliora la comprensione delle prestazioni delle notifiche push tra le diverse piattaforme.
@@ -417,11 +417,11 @@ Il **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** grafico e tab
 
 Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL SMS]** La scheda contiene le informazioni principali relative al messaggio SMS inviato nella campagna.
 
-### SMS - Statistiche {#sms-statistics}
+### SMS: statistiche {#sms-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_statistics"
->title="SMS - Statistiche"
+>title="SMS: statistiche"
 >abstract="La tabella Statistiche di invio SMS riepiloga i dati essenziali relativi ai messaggi SMS, ad esempio Target o Messaggi consegnati, delle ultime 24 ore."
 
 ![](assets/campaign_live_sms_statistics.png)
@@ -446,11 +446,11 @@ Il **[!UICONTROL SMS - Statistiche]** La tabella fornisce un riepilogo conciso d
 
 +++
 
-### SMS - Prestazioni per data {#sms-perfomance-date}
+### SMS: prestazione per data {#sms-perfomance-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_performance"
->title="SMS - Prestazioni per data"
+>title="SMS: prestazione per data"
 >abstract="Il widget Prestazioni SMS per data rappresenta graficamente le informazioni chiave delle ultime 24 ore relative ai messaggi."
 
 ![](assets/campaign_live_sms_performance_date.png)
@@ -467,20 +467,20 @@ Il **[!UICONTROL Prestazioni SMS per data]** widget offre una panoramica dettagl
 
 +++
 
-### SMS - Motivi di errore {#sms-error-reasons}
+### SMS: motivi di errore {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
->title="SMS - Motivi di errore"
+>title="SMS: motivi di errore"
 >abstract="I grafici e la tabella SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di consegna."
 
 Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle ti consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS nelle ultime 24 ore, semplificando un’analisi approfondita di eventuali problemi riscontrati.
 
-### SMS - Motivi di esclusione {#sms-excluded-reasons}
+### SMS: motivi di esclusione {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
->title="SMS - Motivi di esclusione"
+>title="SMS: motivi di esclusione"
 >abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
 
 ![](assets/campaign_live_sms_excluded.png)
@@ -489,11 +489,11 @@ Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle illustrano visiv
 
 Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
 
-### SMS - Motivi di mancato recapito {#sms-bounces-reasons}
+### SMS: motivi di mancato recapito {#sms-bounces-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_bounces_reasons"
->title="SMS - Motivi di mancato recapito"
+>title="SMS: motivi di mancato recapito"
 >abstract="I grafici e la tabella della sezione Motivi di mancato recapito contengono i dati disponibili per e ultime 24 ore relativi ai messaggi non recapitati."
 
 Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati nelle ultime 24 ore.
@@ -502,11 +502,11 @@ Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono
 
 Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Web]** Questa scheda fornisce informazioni dettagliate sulle informazioni principali relative alle pagine Web.
 
-### Prestazioni web {#web-performance}
+### Prestazione web {#web-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_web_performance"
->title="Prestazioni web"
+>title="Prestazione web"
 >abstract="I KPI della sezione Prestazioni web forniscono informazioni complete sul coinvolgimento dei visitatori con le esperienze web nelle ultime 24´ore."
 
 ![](assets/campaign_live_web_performance.png)
@@ -576,22 +576,22 @@ Il **[!UICONTROL Direct mailing - Statistiche di invio]** La tabella fornisce un
 
 +++
 
-### Direct mail - Motivi di errore {#direct-mail-error-reasons}
+### Direct mail: motivi di errore {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
->title="Direct mail - Motivi di errore"
+>title="Direct mail: motivi di errore"
 >abstract="I grafici e la tabella della sezione Direct mail - Motivi di errore consentono di individuare gli errori che si sono verificati nelle ultime 24 ore."
 
 ![](assets/campaign_live_error_reasons.png)
 
 Il **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consentono di identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un’analisi dettagliata di eventuali problemi riscontrati nelle ultime 24 ore.
 
-### Direct mail - Motivi di esclusione {#direct-mail-excluded-reasons}
+### Direct mail: motivi di esclusione {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"
->title="Direct mail - Motivi di esclusione"
+>title="Direct mail: motivi di esclusione"
 >abstract="I grafici e la tabella della sezione Direct mail - Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target, per le ultime 24 ore."
 
 ![](assets/campaign_live_directmail_excluded.png)

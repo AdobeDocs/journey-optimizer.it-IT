@@ -11,7 +11,7 @@ exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
 source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
 source-wordcount: '3668'
-ht-degree: 17%
+ht-degree: 31%
 
 ---
 
@@ -44,12 +44,12 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL Percorso]** fornisce una visualizzazione chiara dei dati di tracciamento più importanti sul percorso.
 
-### prestazioni del percorso {#journey-performance}
+### Prestazioni del percorso {#journey-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
->title="prestazioni del percorso"
->abstract="Il widget Prestazioni Percorso consente di tenere traccia visivamente del percorso dei profili di destinazione durante l’avanzamento nel percorso nelle ultime 24 ore."
+>title="Prestazioni del percorso"
+>abstract="Il widget Prestazioni percorso consente di tenere traccia visivamente del percorso dei profili di destinazione durante l’avanzamento nel percorso nelle ultime 24 ore."
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL Percorso]** fo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="Statistiche del percorso"
->abstract="Gli indicatori prestazioni chiave (KPI, Key Performance Indicators) delle statistiche di Percorso fungono da dashboard completo e forniscono un’analisi approfondita delle metriche essenziali delle ultime 24 ore relative al percorso."
+>abstract="Gli indicatori delle prestazioni chiave (KPI, Key Performance Indicators) delle statistiche del Percorso fungono da dashboard completo e forniscono un’analisi approfondita delle metriche essenziali relative al percorso nelle ultime 24 ore."
 
 ![](assets/journey_live_statistics.png)
 
@@ -80,7 +80,7 @@ Il **[!UICONTROL Statistiche percorso]** Gli indicatori di prestazioni chiave (K
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="Azione eseguita nelle ultime 24 ore"
->abstract="L’azione eseguita nelle ultime 24 ore fornisce un’istantanea delle prestazioni recenti, mostrando l’efficacia delle azioni eseguite nelle ultime 24 ore."
+>abstract="Il widget Azione eseguita nelle ultime 24 ore fornisce un’istantanea delle prestazioni recenti, mostrando l’efficacia delle azioni eseguite nelle ultime 24 ore."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -113,12 +113,12 @@ Il **[!UICONTROL Azioni eseguite ed errori]** Il widget rappresenta l&#39;azione
 
 +++
 
-### Motivi di errore azioni {#actions-error-reasons}
+### Motivi di errore delle azioni {#actions-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
->title="Motivi di errore azioni"
->abstract="La tabella e il grafico dei motivi degli errori delle azioni forniscono un riepilogo completo degli errori riscontrati durante l’esecuzione delle azioni, offrendo una panoramica completa dei problemi che possono essersi verificati nelle ultime 24 ore."
+>title="Motivi di errore delle azioni"
+>abstract="La tabella e il grafico Motivi degli errori delle azioni forniscono un riepilogo completo degli errori riscontrati durante l’esecuzione delle azioni, offrendo una panoramica completa dei problemi che possono essersi verificati nelle ultime 24 ore."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ Il **[!UICONTROL Motivi di errore azione]** La tabella e il grafico offrono una 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="Tipo di errore per azione"
->abstract="La tabella e il grafico Tipo di errore per azioni forniscono una panoramica completa degli errori che si sono verificati durante ogni esecuzione delle azioni nelle ultime 24 ore."
+>abstract="La tabella e il grafico Tipo di errore per azione forniscono una panoramica completa degli errori che si sono verificati durante ogni esecuzione delle azioni nelle ultime 24 ore."
 
 ![](assets/journey_live_error_type.png)
 
@@ -151,7 +151,7 @@ Il **[!UICONTROL Evento eseguito nelle ultime 24 ore]** widget consente di ident
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="Eventi"
->abstract="Il widget Eventi fornisce una vista completa di quali eventi sono stati eseguiti correttamente, offrendo un numero di riepilogo, un grafico e una tabella per informazioni dettagliate sulle ultime 24 ore."
+>abstract="Il widget Eventi fornisce una vista completa di quali eventi sono stati eseguiti correttamente, offrendo un numero di riepilogo, un grafico e una tabella con informazioni dettagliate sulle ultime 24 ore."
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ Il **[!UICONTROL Eventi]** il widget consente di vedere quale evento è stato es
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="Eventi per origine"
->abstract="La tabella e i grafici Eventi per origine offrono una panoramica della ricezione di successo degli eventi nelle ultime 24 ore. Queste rappresentazioni visive consentono di identificare con precisione gli eventi effettivamente ricevuti, fornendo informazioni preziose sulle prestazioni e sull’impatto di ogni evento all’interno del percorso."
+>abstract="La tabella e i grafici Eventi per origine offrono una panoramica della ricezione corretta degli eventi nelle ultime 24 ore. Queste rappresentazioni visive consentono di identificare con precisione gli eventi effettivamente ricevuti, fornendo informazioni valide e approfondite sulla prestazione e sull’impatto di ogni evento all’interno del percorso."
 
 ![](assets/journey_events_origin.png)
 
@@ -172,11 +172,11 @@ Il **[!UICONTROL Eventi per origine]** la tabella e i grafici forniscono una pro
 
 Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL E-mail]** Questa scheda contiene le informazioni principali relative alle e-mail inviate nel percorso.
 
-### E-mail - Prestazioni di invio {#email-sending-performance}
+### E-mail: prestazioni di invio {#email-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
->title="E-mail - Prestazioni di invio"
+>title="E-mail: prestazioni di invio"
 >abstract="Il grafico E-mail - Statistiche di invio riepiloga i dati essenziali relativi all’email, ad esempio e-mail mirate o consegnate nelle ultime 24 ore."
 
 ![](assets/journey_live_email_performance.png)
@@ -232,12 +232,12 @@ Il **[!UICONTROL E-mail - Statistiche]** La tabella fornisce un riepilogo comple
 
 +++
 
-### E-mail - Prestazioni per data {#email-perf-date}
+### E-mail: prestazione per data {#email-perf-date}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
->title="E-mail - Prestazioni per data"
->abstract="Il grafico E-mail - Prestazioni per data presenta dati completi sulle ultime 24 ore relative alle e-mail inviate, fornendo informazioni approfondite su metriche chiave quali recapitato e non recapitato, consentendo un’analisi dettagliata del processo di invio delle e-mail."
+>title="E-mail: prestazione per data"
+>abstract="Il grafico E-mail: prestazione per data presenta i dati completi sulle ultime 24 ore relative alle e-mail inviate, offrendo informazioni approfondite sulle metriche chiave, come consegnati e mancati recapiti, e consentendo un’analisi dettagliata del processo di consegna delle e-mail."
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -263,11 +263,11 @@ Il **[!UICONTROL E-mail - Prestazioni per data]** widget offre una panoramica de
 
 +++
 
-### E-mail - Categorie e motivi di mancato recapito {#email-bounce-categories}
+### E-mail: categorie e motivi di mancato recapito {#email-bounce-categories}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_live"
->title="E-mail - Categorie e motivi di mancato recapito"
+>title="E-mail: categorie e motivi di mancato recapito"
 >abstract="XX"
 
 ![](assets/journey_live_email_bounce.png)
@@ -286,11 +286,11 @@ Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppression
 
 +++
 
-### E-mail - Motivi di errore {#email-error-reasons}
+### E-mail: motivi di errore {#email-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_errors_live"
->title="E-mail - Motivi di errore"
+>title="E-mail: motivi di errore"
 >abstract="I grafici e la tabella E-mail - Motivi di errore consentono di individuare gli errori che si sono verificati durante il processo di invio nelle ultime 24 ore."
 
 ![](assets/journey_live_email_error_reasons.png)
@@ -321,12 +321,12 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 Il **[!UICONTROL E-mail - Dominio destinatario migliore]** grafico e tabella offrono una suddivisione dettagliata dei domini utilizzati più di frequente dai profili per aprire le e-mail nelle ultime 24 ore. Questo fornisce informazioni utili sul comportamento del profilo, consentendoti di comprendere le piattaforme preferite.
 
-### E-mail - Offerte {#email-offers}
+### E-mail: offerte {#email-offers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
->title="E-mail - Offerte"
->abstract="I widget statistici Offerte e Offerte dettagliati forniscono informazioni complete sulle prestazioni delle offerte nelle ultime 24 ore, offrendo un’analisi dettagliata del loro impatto nel tempo e presentando statistiche dettagliate per una comprensione più approfondita."
+>title="E-mail: offerte"
+>abstract="I widget statistici Statistiche offerte e Dettagli offerte forniscono informazioni complete sulle prestazioni delle offerte nelle ultime 24 ore, offrendo un’analisi dettagliata del loro impatto nel tempo e presentando statistiche dettagliate per una comprensione più approfondita."
 
 >[!NOTE]
 >
@@ -344,12 +344,12 @@ Il **[!UICONTROL Statistica sulle offerte]** e **[!UICONTROL Statistiche sulle o
 
 +++
 
-### E-mail - Ottimizzazione {#email-sto}
+### E-mail: ottimizzazione {#email-sto}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
->title="E-mail - Ottimizzazione"
->abstract="L’ottimizzazione dell’ora di invio e i widget ottimizzati e non ottimizzati forniscono informazioni dettagliate sulle ultime 24 ore relative ai messaggi, evidenziando se sono stati ottimizzati o meno."
+>title="E-mail: ottimizzazione"
+>abstract="I widget Ottimizzazione dell’ora di invio e Ottimizzati e non ottimizzati forniscono informazioni dettagliate relative ai messaggi nelle ultime 24 ore, evidenziando se sono stati ottimizzati o meno."
 
 ![](assets/journey_email_sto.png)
 
@@ -376,11 +376,11 @@ Il **[!UICONTROL Ottimizzazione del tempo di invio]** e **[!UICONTROL Ottimizzat
 
 Dal tuo percorso **[!UICONTROL Rapporto live]**, il **[!UICONTROL Notifica push]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alla notifica push inviata nel percorso.
 
-### Notifica push - Prestazioni di invio {#push-sending-performance}
+### Notifica push: prestazione di invio {#push-sending-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_performance_live"
->title="Notifica push - Prestazioni di invio"
+>title="Notifica push: prestazione di invio"
 >abstract="Il grafico delle prestazioni di invio delle notifiche push riassume i dati essenziali relativi alle notifiche push, come Errori o Messaggi consegnati nelle ultime 24 ore."
 
 ![](assets/campain_push_live_sending_performance.png)
@@ -425,22 +425,22 @@ Il **[!UICONTROL Prestazione invio notifiche push]** graph offre una panoramica 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 +++
 
-### Notifica push - Raggruppamento per piattaforma {#push-breakdown}
+### Notifica push: raggruppamento per piattaforma {#push-breakdown}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_live"
->title="Notifica push - Raggruppamento per piattaforma"
+>title="Notifica push: raggruppamento per piattaforma"
 >abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del buon esito delle notifiche push nelle ultime 24 ore, in base al sistema operativo del destinatario."
 
 ![](assets/journey_push_breakdown.png)
 
 Il **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** grafico e tabella forniscono un’analisi dettagliata del successo delle notifiche push, con informazioni basate sul sistema operativo del profilo. Questo raggruppamento migliora la comprensione delle prestazioni delle notifiche push tra le diverse piattaforme.
 
-### Notifica push - Riepilogo di invio {#push-sending-summary}
+### Notifica push: riepilogo di invio {#push-sending-summary}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary_live"
->title="Notifica push - Riepilogo di invio"
+>title="Notifica push: riepilogo di invio"
 >abstract="Il grafico di riepilogo dell’invio delle notifiche push visualizza i dati disponibili per le notifiche push inviate nelle ultime 24 ore."
 
 ![](assets/journey_live_push_sending.png)
@@ -463,22 +463,22 @@ Il **[!UICONTROL Riepilogo notifiche push]** graph offre una rappresentazione di
 
 +++
 
-### Notifica push - Motivi di errore {#push-error}
+### Notifica push: motivi di errore {#push-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons_live"
->title="Notifica push - Motivi di errore"
+>title="Notifica push: motivi di errore"
 >abstract="I grafici e la tabella Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di invio."
 
 ![](assets/journey_live_push_error.png)
 
 Il **[!UICONTROL Motivi di errore]** la tabella e i grafici consentono di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, fornendo informazioni dettagliate su eventuali problemi riscontrati nelle ultime 24 ore.
 
-### Notifica push - Motivi di esclusione {#push-excluded}
+### Notifica push: motivi di esclusione {#push-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
->title="Notifica push - Motivi di esclusione"
+>title="Notifica push: motivi di esclusione"
 >abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
 
 ![](assets/journey_live_push_excluded.png)
@@ -489,11 +489,11 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 ## Scheda SMS {#sms-live}
 
-### SMS - Statistiche {#sms-statistics}
+### SMS: statistiche {#sms-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_statistics_live"
->title="SMS - Statistiche"
+>title="SMS: statistiche"
 >abstract="La tabella Statistiche di invio SMS riepiloga i dati essenziali relativi ai messaggi SMS, ad esempio Target o Messaggi consegnati, delle ultime 24 ore."
 
 ![](assets/journey_live_sms_statistics.png)
@@ -518,11 +518,11 @@ Il **[!UICONTROL SMS - Statistiche]** La tabella fornisce un riepilogo sintetico
 
 +++
 
-### SMS - Prestazioni per data {#sms-performance}
+### SMS: prestazione per data {#sms-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
->title="SMS - Prestazioni per data"
+>title="SMS: prestazione per data"
 >abstract="Il widget Prestazioni SMS per data rappresenta graficamente le informazioni chiave delle ultime 24 ore relative ai messaggi."
 
 ![](assets/journey_live_sms_performance.png)
@@ -539,33 +539,33 @@ Il **[!UICONTROL SMS - Prestazioni per data]** widget offre una panoramica detta
 
 +++
 
-### SMS - Motivi di mancato recapito {#sms-bounces}
+### SMS: motivi di mancato recapito {#sms-bounces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_live"
->title="SMS - Motivi di mancato recapito"
+>title="SMS: motivi di mancato recapito"
 >abstract="I grafici e la tabella della sezione Motivi di mancato recapito contengono i dati disponibili per e ultime 24 ore relativi ai messaggi non recapitati."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
 Il **[!UICONTROL SMS - Motivi di mancato recapito]** I grafici e le tabelle forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati nelle ultime 24 ore.
 
-### SMS - Motivi di errore {#sms-error}
+### SMS: motivi di errore {#sms-error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
->title="SMS - Motivi di errore"
+>title="SMS: motivi di errore"
 >abstract="I grafici e la tabella SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di consegna."
 
 ![](assets/journey_sms_error.png)
 
 Il **[!UICONTROL SMS - Motivi di errore]** I grafici e le tabelle ti consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS, semplificando un’analisi approfondita di eventuali problemi riscontrati nelle ultime 24 ore.
 
-### SMS - Motivi di esclusione {#sms-excluded}
+### SMS: motivi di esclusione {#sms-excluded}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
->title="SMS - Motivi di esclusione"
+>title="SMS: motivi di esclusione"
 >abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
 
 ![](assets/journey_live_sms_excluded.png)
@@ -584,12 +584,12 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 
 ## Scheda in-app {#in-app-live}
 
-### Prestazioni in-app {#inapp-performance}
+### Prestazione in-app {#inapp-performance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
->title="Prestazioni in-app"
->abstract="I KPI (Key Performance Indicator) in-app forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app nelle ultime 24 ore."
+>title="Prestazione in-app"
+>abstract="I KPI della sezione Prestazioni in-app forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app delle ultime 24 ore."
 
 ![](assets/journey_live_inapp_performance.png)
 

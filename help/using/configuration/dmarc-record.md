@@ -11,7 +11,7 @@ keywords: sottodominio, dominio, posta, dmarc, record
 source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="Impostare il record DMARC"
->abstract="DMARC è un metodo di autenticazione delle e-mail che consente ai proprietari di dominio di proteggerlo da utilizzi non autorizzati ed evitare problemi di recapitabilità con i provider di posta elettronica.<br>Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
+>abstract="DMARC è un metodo di autenticazione delle e-mail che consente ai proprietari di dominio di proteggerlo da utilizzi non autorizzati ed evitare problemi di recapitabilità con i provider di posta elettronica.<br>Come parte dell’applicazione delle best practice del settore, Google e Yahoo richiedono entrambi di disporre di un record DMARC per qualsiasi dominio utilizzato per inviare loro e-mail."
 
 ## Che cos&#39;è DMARC? {#what-is-dmarc}
 
-DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica/ISP, aiuta a evitare che attori dannosi inviino e-mail che affermano di essere dal tuo dominio. L’implementazione di DMARC riduce il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e migliora il recapito dei messaggi e-mail.
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica/ISP, aiuta a evitare che malintenzionati inviino e-mail che affermano di arrivare dal tuo dominio. L’implementazione di DMARC riduce il rischio che le e-mail legittime vengano contrassegnate come spam o vengano rifiutate, inoltre migliora il recapito dei messaggi e-mail.
 
 DMARC offre anche rapporti sui messaggi che non superano l’autenticazione, oltre al controllo sulla gestione delle e-mail che non superano la convalida DMARC. A seconda del [Criterio DMARC](#dmarc-policies), queste e-mail possono essere monitorate, messe in quarantena o rifiutate. Queste funzionalità consentono di intraprendere azioni per mitigare e risolvere potenziali errori.
 
@@ -63,9 +63,9 @@ Se l&#39;autenticazione DMARC di un messaggio e-mail non riesce, puoi decidere q
 
 ## Aggiornamento requisiti DMARC {#dmarc-update}
 
-Come parte delle procedure ottimali di settore, Google e Yahoo! richiedono entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito si applica a partire dal **1 febbraio 2024**.
+Come parte delle best practice di settore, Google e Yahoo! richiedono entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito si applica a partire dal **1 febbraio 2024**.
 
-Ulteriori informazioni su Google e Yahoo!&#39;s requisito in [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Ulteriori informazioni su Google e Yahoo!&#39;s requisito in [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=it#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
