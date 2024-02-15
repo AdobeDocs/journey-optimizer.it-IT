@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27ef6f591fdf5d8175b79bbbf3f59fe65e44106f
+source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 20%
@@ -41,8 +41,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi utilizzare la nuova funzionalità di messaggistica Web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la fidelizzazione e i tassi di conversione degli utenti.<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>Ora puoi utilizzare la nuova funzionalità di messaggistica Web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la fidelizzazione e i tassi di conversione degli utenti.<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -58,8 +57,7 @@ Learn more in the <a href="../audience/computed-attributes.md">detailed document
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare regole di limitazione della frequenza che si applicano ai canali SMS e Direct Mail. Inoltre, puoi impostare regole di quota limite per tipo di comunicazione.<br/><!--br/>
-Learn more in the <a href="../audience/computed-attributes.md">detailed documentation</a>.</p-->
+<p>Ora puoi creare regole di limitazione della frequenza che si applicano ai canali SMS e Direct Mail. Inoltre, puoi impostare regole di quota limite per tipo di comunicazione.<br/><br/></p>
 <!--img src="assets/do-not-localize/computed-attributes.gif"-->
 </tr>
 </tbody>
@@ -82,10 +80,11 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 
 **Percorsi**
 
-* La barra superiore, nelle schermate di percorso, è stata riorganizzata per migliorare l’esperienza. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso.
 * Ora puoi utilizzare **date personalizzate per filtrare i percorsi** magazzino, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando percorsi pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
 * Ora puoi aggiornare l’intestazione &quot;content-type&quot; in **azioni personalizzate**.
 * L’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come &quot;primary = true&quot;.
+* La barra superiore, nelle schermate di percorso, è stata riorganizzata per migliorare l’esperienza. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso.
+
 
 **Canale SMS**
 
