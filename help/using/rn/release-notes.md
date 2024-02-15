@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
+source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 95%
 
 ---
@@ -90,6 +90,8 @@ Questa versione include i miglioramenti elencati di seguito.
 * **Leggi pubblico**: l’attività **Leggi pubblico** ora si basa sul set di dati dello snapshot del profilo per i segmenti batch, che viene generato solo una volta al giorno dopo l’esecuzione del processo batch giornaliero pianificato, pertanto i dati verranno aggiornati fino all’ultimo processo batch giornaliero. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 * **Gruppi di campi**: questa versione risolve un problema che in alcuni casi impediva il salvataggio dei gruppi di campi.
+
+* Il supporto a `<listObject>` è stato modificato in più funzioni.
 
 **Regole di frequenza**
 
