@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, caso d’uso, personalizzazione
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 2%
+source-wordcount: '532'
+ht-degree: 3%
 
 ---
 
@@ -30,6 +30,8 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
 * configura un evento dell’ordine con il numero, lo stato e il nome dell’articolo. Consulta questa [sezione](../event/about-events.md).
 * crea una decisione, fai riferimento a questo [sezione](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [Scopri un caso d’uso simile nel video](#video)
 
 ## Passaggio 1: creare il percorso {#create-journey}
 
@@ -103,3 +105,10 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
    ![](assets/perso-uc19.png)
 
 1. Verifica che non vi sia alcun errore e pubblica il percorso.
+
+## Video introduttivo {#video}
+
+Il video seguente mostra un caso d’uso simile, sfruttando i dati contestuali provenienti da un percorso per personalizzare un’e-mail.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
