@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 8%
+source-wordcount: '1043'
+ht-degree: 11%
 
 ---
 
@@ -30,6 +30,8 @@ Questa attività consente al percorso di ascoltare le entrate e le uscite dei pr
 Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviino loro una serie di messaggi personalizzati.
 
 Questo tipo di evento può essere posizionato come primo passaggio o successivamente nel percorso.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ### Note importanti{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ Inserisci una regola di limite per le origini dati e le azioni utilizzate nei pe
 Prima di utilizzare il pubblico in un percorso di produzione, valuta sempre per primo il volume di persone qualificate per questo pubblico ogni giorno. A questo scopo, puoi controllare il **[!UICONTROL Pubblico]** , apri il pubblico e osserva il **[!UICONTROL Profili nel tempo]** grafico.
 
 ![](assets/segment-overload.png)
+
+## Video introduttivo {#video}
+
+Comprendi i casi d’uso applicabili ai percorsi di qualificazione di un pubblico. Scopri come creare un percorso con qualificazione di un pubblico e quali best practice applicare.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
