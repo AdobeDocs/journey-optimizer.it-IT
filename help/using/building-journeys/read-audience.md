@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 5%
+source-wordcount: '1438'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 5%
 Utilizza il **Read Audience** attività per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
 
 Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot; creato in [Creare tipi di pubblico](../audience/about-audiences.md) caso d’uso. Con l’attività Read Audience, puoi fare in modo che tutti gli individui appartenenti a questo pubblico entrino in un percorso e li facciano confluire in percorsi personalizzati che sfrutteranno tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
+
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Da leggere {#must-read}
 
@@ -183,3 +185,9 @@ Ad esempio, dopo aver seguito un’esperienza diversa per dieci giorni di un per
 Dopo un’unione, puoi dividere nuovamente il pubblico eseguendo una segmentazione o un’esclusione.
 
 ![](assets/read-segment-audience3.png)
+
+## Video introduttivo {#video}
+
+Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
