@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
+source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '510'
+ht-degree: 19%
 
 ---
 
@@ -71,7 +71,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Tipi di pubblico**
 
-* Le varianti sono ora supportate quando si utilizza **elenchi seed**. Come ogni profilo del pubblico di destinazione, gli indirizzi di seed ricevono una copia di tutte le varianti dello stesso messaggio (come i diversi trattamenti di un esperimento di contenuto).
+* **Elenchi seed** - Le varianti sono ora supportate quando si utilizza **elenchi seed**. Come ogni profilo del pubblico di destinazione, gli indirizzi di seed ricevono una copia di tutte le varianti dello stesso messaggio (come i diversi trattamenti di un esperimento di contenuto).
 
 Precedentemente disponibili come versione beta, i seguenti miglioramenti sono ora disponibili per tutti gli utenti:
 
@@ -80,25 +80,25 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 
 **Percorsi**
 
-* Ora puoi utilizzare **date personalizzate per filtrare i percorsi** magazzino, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando percorsi pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
-* Ora puoi aggiornare l’intestazione &quot;content-type&quot; in **azioni personalizzate**.
-* L’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come &quot;primary = true&quot;.
-* La barra superiore, nelle schermate di percorso, è stata riorganizzata per migliorare l’esperienza. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso.
+* **Filtrare i percorsi** - È ora possibile utilizzare **date personalizzate per filtrare i percorsi** magazzino, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando percorsi pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
+* **Azioni personalizzate** - È ora possibile aggiornare l’intestazione &quot;content-type&quot; in **azioni personalizzate**.
+* **Configurazione** : l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come &quot;primary = true&quot;.
+* **Interfaccia utente** - La barra superiore, nelle schermate di percorso, è stata riorganizzata per offrire un’esperienza migliore. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso.
 
 
 **Canale SMS**
 
-* Durante la configurazione del canale SMS, ora puoi personalizzare **Parole chiave di consenso e rinuncia** in base alle tue preferenze. Journey Optimizer attiva la risposta in base a queste parole chiave specificate.
+* **Parole chiave di consenso/rinuncia** - Durante la configurazione del canale SMS, ora puoi personalizzare la **Parole chiave di consenso e rinuncia** in base alle tue preferenze. Journey Optimizer attiva la risposta in base a queste parole chiave specificate.
 
 **Campagne**
 
-* Sono state aggiunte informazioni nella sezione &quot;Richiesta cURL&quot; di **Campagne attivate da API** che sono in stato &quot;Bozza&quot;, per specificare che la richiesta cURL di esempio è visibile solo dopo che la campagna è stata pubblicata ed eseguita.
+* **Campagne attivate da API** - Le informazioni sono state aggiunte nel **richiesta cURL** sezione di **Campagne attivate da API** che sono in **Bozza** per specificare che la richiesta cURL di esempio è visibile solo dopo la pubblicazione e l’esecuzione della campagna.
 
 **Gestione delle decisioni**
 
-* Ora puoi aggiungere **più regole di limite** per un&#39;offerta. Ciò ti consente di aumentare il livello di controllo sulla modalità di invio delle offerte.
+* **Regole di limitazione** - È ora possibile aggiungere **più regole di limite** per un&#39;offerta. Ciò ti consente di aumentare il livello di controllo sulla modalità di invio delle offerte.
 
 **Modelli di contenuto**
 
-* A **visualizzazione miniature** è ora disponibile per modelli di contenuto e frammenti per migliorare l’accesso visivo.
-* I modelli di contenuto sono ora disponibili per **tutti i canali**, ad eccezione del Web.
+* **Miniatura** - A **visualizzazione miniature** è ora disponibile per modelli di contenuto e frammenti per migliorare l’accesso visivo.
+* **Canali** - I modelli di contenuto sono ora disponibili per **tutti i canali**, ad eccezione del Web.
