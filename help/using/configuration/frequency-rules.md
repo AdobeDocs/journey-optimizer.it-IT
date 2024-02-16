@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 718854c5ab51ad55fde7629415b954a079647c0b
+source-git-commit: b85a14dfe5ef52c9bf714246386c79d142f9b002
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1109'
 ht-degree: 10%
 
 ---
@@ -79,23 +79,23 @@ Per creare una nuova regola, segui la procedura riportata di seguito.
    >
    >Attualmente solo il **[!UICONTROL Marketing]** categoria disponibile.
 
-1. Selezionate un intervallo di tempo per il limite da applicare.
+1. Seleziona un intervallo di tempo per il limite da applicare dall’ **[!UICONTROL Durata]** elenco a discesa.
 
-   ![](assets/message-rules-capping-duration.png)
+   <!--![](assets/message-rules-capping-duration.png) TO UPDATE ONCE DAILY REMOVED-->
 
    Il limite di frequenza si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’intervallo di tempo corrispondente.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
-   * **[!UICONTROL Giornaliero]**: il limite di frequenza è valido per il giorno fino al 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
+   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
 
    * **[!UICONTROL Ogni settimana]**: il limite di frequenza è valido fino a sabato 23:59:59 UTC della settimana, poiché la settimana solare inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59
 
    * **[!UICONTROL Mensile]**: il limite di frequenza è valido fino all’ultimo giorno del mese alle ore 23:59:59 UTC Ad esempio, la scadenza mensile per gennaio è 01-31 23:59:59 UTC
 
-   >[!NOTE]
+   <!--[!NOTE]
    >
-   >Quando si tratta di [segmentazione batch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} è consigliato. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   >When dealing with [batch segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} is recommended. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
 1. Imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese, settimana o giorno, in base alla selezione precedente.
 
