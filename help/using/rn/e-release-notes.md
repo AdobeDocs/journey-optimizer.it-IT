@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 00a1b3cab9f5d7060ab8db9e27a31a6afaede79e
+source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 18%
@@ -42,7 +42,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi utilizzare la nuova funzionalità di messaggistica Web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la fidelizzazione e i tassi di conversione degli utenti.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
 </table>
