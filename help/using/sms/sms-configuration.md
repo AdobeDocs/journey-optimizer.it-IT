@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
 workflow-type: tm+mt
 source-wordcount: '1213'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -205,7 +205,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
 **Argomenti correlati**
 
-* [Creare un messaggio di testo](create-sms.md)
+* [Creare un messaggio SMS](create-sms.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
 * [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)
 
