@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '892'
 ht-degree: 27%
 
 ---
@@ -44,10 +44,6 @@ Questi requisiti vengono gestiti tramite componenti in hosting sia dall’Adobe 
 * Scopri come [delegare i sottodomini](delegate-subdomain.md) direttamente dall’interfaccia
 * Scopri come [aggiungere record TXT di Google](google-txt.md) ai sottodomini per garantire la corretta consegna delle e-mail agli indirizzi Gmail
 * Scopri come [accedere ai record PTR](ptr-records.md) generati per i sottodomini, che possono essere verificati inviando server di posta
-
->[!NOTE]
->
->Per implementare DMARC per i sottodomini, contatta [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## Metodi di configurazione dei sottodomini {#subdomain-delegation-methods}
 

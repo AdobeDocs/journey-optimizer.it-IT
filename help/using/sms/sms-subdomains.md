@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, sottodomini, configurazione
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '740'
 ht-degree: 24%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 24%
 >abstract="Per creare una superficie SMS, accertati di aver configurato in precedenza almeno un sottodominio SMS da selezionare dall’elenco dei nomi di sottodominio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=it#message-preset-sms" text="Creare superfici SMS"
 
-Per poter ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio che selezionerai quando [creazione di una superficie SMS](sms-configuration.md#message-preset-sms).
+Per poter ridurre gli URL aggiunti ai messaggi SMS, devi impostare il sottodominio che selezionerai quando [creazione di una superficie SMS](sms-configuration.md#message-preset-sms).
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini all’Adobe in [questa sezione](../configuration/delegate-subdomain.md).
 

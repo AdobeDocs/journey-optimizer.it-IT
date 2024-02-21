@@ -5,15 +5,11 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '602'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +21,7 @@ Le note preliminari sulla versione riportate di seguito sono soggette a modifich
 
 ## Note preliminari sulla versione di febbraio 2024 {#e-2024}
 
-**Data di rilascio**: 20-21 febbraio 2024
+**Data di rilascio**: 21-22 febbraio 2024
 
 ### Nuove funzionalità{#e-features}
 
@@ -51,19 +47,17 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Regole aziendali (beta)</strong><br/></th>
+<th><strong>Regole di frequenza per SMS e direct mailing</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare regole di limitazione della frequenza che si applicano ai canali SMS e Direct Mail. Inoltre, puoi impostare regole di quota limite per tipo di comunicazione.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>Ora puoi creare regole di frequenza per i canali SMS e Direct Mail. Le regole di frequenza escludono automaticamente i profili sollecitati eccessivamente dai messaggi e dalle azioni quando viene raggiunto il limite di frequenza. <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### Miglioramenti {#e-improvements}
 
@@ -75,12 +69,14 @@ Questa versione include i miglioramenti elencati di seguito.
 
 Precedentemente disponibili come versione beta, i seguenti miglioramenti sono ora disponibili per tutti gli utenti:
 
-* Ora puoi eseguire il targeting **pubblico caricato da un file CSV** in percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
 * Ora puoi eseguire il targeting **tipi di pubblico creati tramite la composizione del pubblico** e sfruttano gli attributi di arricchimento nei Percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e dal caricamento personalizzato (file CSV) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
+* Ora puoi eseguire il targeting **pubblico caricato da un file CSV** in percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e dal caricamento personalizzato (file CSV) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
+  >* Tieni presente che il caricamento del pubblico da un file CSV verrà introdotto gradualmente nel corso di alcuni giorni dopo la versione iniziale. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro account.
 
 **Percorsi**
 
@@ -95,7 +91,7 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 
 **Campagne**
 
-* **Campagne attivate da API** - Le informazioni sono state aggiunte nel **richiesta cURL** sezione di **Campagne attivate da API** che sono in **Bozza** per specificare che la richiesta cURL di esempio è visibile solo dopo la pubblicazione e l’esecuzione della campagna.
+* **Campagne attivate da API** : è stato migliorato il codice cURL generato dopo l’attivazione di una campagna attivata da API. Ora include tutte le variabili di personalizzazione (profilo e contesto) utilizzate nel messaggio.
 
 **Gestione delle decisioni**
 
@@ -104,4 +100,9 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 **Modelli di contenuto**
 
 * **Miniatura** - A **visualizzazione miniature** è ora disponibile per modelli di contenuto e frammenti per migliorare l’accesso visivo.
-* **Modelli multicanale** - I modelli di contenuto sono ora disponibili per **tutti i canali**, ad eccezione del Web.
+
+  >[!AVAILABILITY]
+  >
+  >Questa funzionalità viene implementata progressivamente negli ambienti dei clienti a partire da questa versione.
+
+* **Modelli multicanale** - I modelli di contenuto sono ora disponibili per **tutti i canali**, ad eccezione del Web. Per E-mail, ora puoi selezionare il tipo (HTML o Contenuto).

@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
-workflow-type: ht
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
+workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->Prima di utilizzare i playbook sui casi d’uso, è necessario eseguire i seguenti passaggi di configurazione. Informazioni dettagliate su ciascun passaggio sono disponibili nella pagina [Introduzione](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html?lang=it){target="_blank"} della documentazione dei Playbook sui casi d’uso.
+>Prima di utilizzare i playbook sui casi d’uso, è necessario eseguire i seguenti passaggi di configurazione. Informazioni dettagliate su ciascun passaggio sono disponibili nella pagina [Introduzione](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} della documentazione dei Playbook sui casi d’uso.
 >
 >* Creare una sandbox
 >* Configurare le autorizzazioni utente

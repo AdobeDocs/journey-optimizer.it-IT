@@ -7,29 +7,29 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1213'
 ht-degree: 13%
 
 ---
 
 # Configurare il canale SMS {#sms-configuration}
 
-Prima di inviare SMS o MMS, devi configurare il tuo ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
+Prima di inviare SMS, devi configurare l’ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
 
 * [Integrare le impostazioni del provider](#create-api) con Journey Optimizer
-* [Creare una superficie SMS](#message-preset-sms) (ossia predefinito SMS), utilizzato anche per MMS
+* [Creare una superficie SMS](#message-preset-sms) (ossia predefinito SMS)
 
 Questi passaggi devono essere eseguiti da un Adobe Journey Optimizer [Amministratore di sistema](../start/path/administrator.md).
 
 ## Prerequisiti{#sms-prerequisites}
 
-Adobe Journey Optimizer attualmente si integra con provider di terze parti che offrono servizi di messaggistica di testo indipendenti da Adobe Journey Optimizer. I provider supportati per i messaggi di testo sono: **Sinch**, **Twilio** e **Infobip**. MMS è supportato solo con **Sinch**.
+Adobe Journey Optimizer attualmente si integra con provider di terze parti che offrono servizi di messaggistica di testo indipendenti da Adobe Journey Optimizer. I provider supportati per i messaggi di testo sono: **Sinch**, **Twilio** e **Infobip**.
 
 Prima di configurare il canale SMS, è necessario creare un account con uno di questi provider per ottenere il **Token API** e **ID servizio**, che è necessario configurare la connessione tra Adobe Journey Optimizer e il provider applicabile.
 
-L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per eventuali problemi o richieste di assistenza relativi ai servizi di messaggistica di testo (SMS/MMS), contatta il provider.
+L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per qualsiasi problema o richiesta di assistenza relativa ai servizi di SMS, contatta il provider di servizi.
 
 >[!CAUTION]
 >
@@ -50,8 +50,8 @@ L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condi
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configurare il fornitore di SMS/MMS con Journey Optimizer"
->abstract="Prima di inviare messaggi di testo (SMS/MMS), devi integrare le impostazioni del fornitore con Journey Optimizer. Al termine, dovrai creare una superficie SMS/MMS. Questi passaggi devono essere eseguiti da un amministratore di sistema di Adobe Journey Optimizer."
+>title="Configurare il fornitore di SMS con Journey Optimizer"
+>abstract="Prima di inviare messaggi di testo, è necessario integrare le impostazioni del provider con Journey Optimizer. Al termine, devi creare una superficie SMS. Questi passaggi devono essere eseguiti da un amministratore di sistema di Adobe Journey Optimizer."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=it#message-preset-sms" text="Creare una superficie del canale SMS"
 
 >[!CONTEXTUALHELP]
@@ -59,7 +59,7 @@ L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condi
 >title="Selezionare la configurazione del fornitore di SMS"
 >abstract="Seleziona le credenziali API configurate per il fornitore di SMS."
 
-Per configurare il provider SMS/MMS con Journey Optimizer, effettua le seguenti operazioni:
+Per configurare il provider SMS con Journey Optimizer, effettua le seguenti operazioni:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona la **[!UICONTROL Credenziali API]** menu. Fai clic su **[!UICONTROL Crea nuove credenziali API]** pulsante.
 
@@ -81,17 +81,9 @@ Per configurare il provider SMS/MMS con Journey Optimizer, effettua le seguenti 
 
       * **[!UICONTROL Messaggio di aiuto]**: inserisci la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**.
 
-      * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato dopo la conferma. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+      * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
 
       * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso.
-+++
-
-   * +++ Per **[!DNL Sinch MMS]**
-
-      * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
-
-      * **[!UICONTROL ID Progetto]**, **[!UICONTROL ID app]** e **[!UICONTROL Token API]**: dal menu API di conversazione, puoi trovare le tue credenziali nel menu App. Ulteriori informazioni in [Documentazione di Sinch](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
 +++
 
    * +++ Per **[!DNL Twilio]**
@@ -110,7 +102,7 @@ Per configurare il provider SMS/MMS con Journey Optimizer, effettua le seguenti 
 
       * **[!UICONTROL URL di base API]** e **[!UICONTROL Token API]**: accedi alla pagina home dell’interfaccia web o alla pagina gestione delle chiavi API per trovare le tue credenziali. Ulteriori informazioni in [Documentazione di Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato dopo la conferma. Per più parole chiave, utilizza valori separati da virgola.
+      * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola.
 
       * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata che viene inviata automaticamente in risposta alla conferma del doppio consenso.
 
@@ -123,6 +115,15 @@ Per configurare il provider SMS/MMS con Journey Optimizer, effettua le seguenti 
       * **[!UICONTROL Dati callback]**: inserisci i dati client aggiuntivi che verranno inviati sull’URL di notifica.
 +++
 
+<!--
+    * +++ For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+
+        +++ 
+-->
 1. Clic **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale (ossia un predefinito per messaggi) per i messaggi SMS.
@@ -135,7 +136,7 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare una 
 >abstract="Seleziona il tipo di messaggi utilizzando questa superficie: Marketing per messaggi promozionali, che richiedono il consenso dell’utente; oppure Transazionale per messaggi non commerciali, come la reimpostazione della password."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#sms-opt-out-management" text="Rinuncia nei messaggi di testo di marketing"
 
-Una volta configurato il canale SMS/MMS, devi creare una superficie di canale da cui inviare messaggi SMS **[!DNL Journey Optimizer]**.
+Una volta configurato il canale SMS, è necessario creare una superficie di canale per poter inviare messaggi SMS da **[!DNL Journey Optimizer]**.
 
 Per creare una superficie di canale, effettuate le seguenti operazioni:
 
@@ -160,7 +161,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
    * Scegli **Marketing** messaggi di testo promozionali: questi messaggi richiedono il consenso dell’utente.
    * Scegli **Transazionale** per messaggi non commerciali come ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
 
-   Quando crei un messaggio SMS/MMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
+   Quando crei un messaggio SMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
 
    >[!CAUTION]
    >
@@ -178,7 +179,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio SMS/MMS. [Scopri come](sms-subdomains.md)
+   >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio SMS. [Scopri come](sms-subdomains.md)
 
 1. Inserisci il **[!UICONTROL Numero di rinuncia]** si desidera utilizzare per questa superficie. Quando i profili rinunciano a questo numero, puoi comunque inviare loro messaggi da altri numeri con cui stai utilizzando l’invio di messaggi di testo [!DNL Journey Optimizer].
 
@@ -204,7 +205,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
 **Argomenti correlati**
 
-* [Creare un messaggio di testo (SMS/MMS)](create-sms.md)
+* [Creare un messaggio di testo](create-sms.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
 * [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)
 

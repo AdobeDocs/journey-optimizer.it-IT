@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2141'
+source-wordcount: '2152'
 ht-degree: 14%
 
 ---
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >È possibile escludere solo un gruppo di dominio (predefinito o personalizzato) aggiunto al [Modello di piano di riscaldamento IP](ip-warmup-plan.md#prepare-file). In caso contrario, aggiorna il modello con il gruppo di dominio che desideri escludere e [ricarica il piano](#re-upload-plan).
+      >È possibile escludere solo un gruppo di dominio personalizzato aggiunto al [Modello di piano di riscaldamento IP](ip-warmup-plan.md#prepare-file). In caso contrario, aggiorna il modello con il gruppo di dominio personalizzato che desideri escludere e [ricarica il piano](#re-upload-plan).
 
 1. Se necessario, puoi sostituire la campagna utilizzando **[!UICONTROL Sostituisci campagna]** pulsante.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nel [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra, accanto al nome del piano e utilizzare **[!UICONTROL Ritenta runtime]** per selezionare una durata - fino a 240 minuti (4 ore).
+
+   >[!NOTE]
+   >
+   >I tentativi si verificano ogni 30 minuti fino alla fine dell’intervallo di tempo definito.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
