@@ -5,11 +5,11 @@ title: Attivare campagne tramite API
 description: Scopri come attivare le campagne utilizzando le API di Journey Optimizer
 feature: Campaigns, API
 topic: Content Management
-role: Developer, Admin
+role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 4%

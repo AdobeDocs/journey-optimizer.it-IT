@@ -6,9 +6,9 @@ description: Note preliminari sulla versione di Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 16%
 
 ---
@@ -80,8 +80,8 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 
 **Percorsi**
 
-* **Filtrare i percorsi** - È ora possibile utilizzare **date personalizzate per filtrare i percorsi** magazzino, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando percorsi pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
-* **Azioni personalizzate** - È ora possibile aggiornare l’intestazione &quot;content-type&quot; in **azioni personalizzate**.
+* **Filtrare i percorsi** - È ora possibile utilizzare **date personalizzate per filtrare i percorsi** magazzino, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
+* **Azioni personalizzate** - È ora possibile aggiornare **content-type** intestazione. Questo nuovo **content-type** deve fare riferimento al contenuto JSON.
 * **Configurazione** : l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come &quot;primary = true&quot;.
 * **Interfaccia utente** - La barra superiore, nelle schermate di percorso, è stata riorganizzata per offrire un’esperienza migliore. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso.
 
@@ -103,6 +103,6 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 
   >[!AVAILABILITY]
   >
-  >Questa funzionalità viene implementata progressivamente negli ambienti dei clienti a partire da questa versione.
+  >Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un piccolo gruppo di clienti.
 
 * **Modelli multicanale** - I modelli di contenuto sono ora disponibili per **tutti i canali**, ad eccezione del Web. Per E-mail, ora puoi selezionare il tipo (HTML o Contenuto).
