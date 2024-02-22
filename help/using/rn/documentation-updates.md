@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4604'
-ht-degree: 99%
+source-wordcount: '4729'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,13 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Febbraio 2024 {#feb-2024}
 
 * Sono state aggiunte informazioni su come personalizzare le rappresentazioni delle offerte in base ai dati contestuali. [Ulteriori informazioni](../offers/offer-library/add-representations.md#context-data)
+* La pagina dei guardrail è stata aggiornata con una nota sulle azioni personalizzate che supportano il formato JSON solo quando si utilizzano payload di richieste o risposte. [Ulteriori informazioni](../start/guardrails.md#custom-actions-g)
+* Sono state aggiunte ulteriori informazioni sul tipo di autenticazione di base nelle origini dati esterne. [Ulteriori informazioni](../datasource/external-data-sources.md)
+* È stata aggiunta una nota per differenziare chiaramente la [Editor espressioni percorso](../building-journeys/expression/expressionadvanced.md) dal [Editor di personalizzazione](../personalization/functions/functions.md).
+* L’elenco delle funzioni disponibili nell’editor di espressioni avanzate è stato aggiornato. [Ulteriori informazioni](../building-journeys/expression/functions.md)
+* La pagina sulla funzione di divisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
+* Sono state aggiunte informazioni sull’impatto del consenso o del rifiuto delle notifiche push sui messaggi in-app. [Ulteriori informazioni](../in-app/create-in-app.md)
+* La pagina Regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni Durata disponibili nell’interfaccia utente (settimanale o mensile). [Ulteriori informazioni](../configuration/frequency-rules.md)
 
 ## Gennaio 2024 {#jan-2024}
 
@@ -321,7 +328,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Settembre 2021 {#september-2021}
 
-* Sono state aggiornate le pagine delle seguenti funzioni: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
+* Sono state aggiornate le pagine delle seguenti funzioni: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninaudience.md)
 
 * Sono state aggiunte le seguenti funzioni: [filter](../building-journeys/functions/functionfilter.md), [intersect](../building-journeys/functions/functionintersect.md), [toDateOnly](../building-journeys/functions/functiontodateonly.md)
 
@@ -375,7 +382,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * In diverse pagine sono stati aggiunti tutorial video
 * Immagini ottimizzate della pagina principale
 * La sezione “Tracciamento messaggi” è stata spostata, migliorata e rinominata in “Aggiungere collegamenti e tenere traccia dei messaggi”. [Ulteriori informazioni](../email/message-tracking.md)
-* È stata aggiunta una sottosezione sulle pagine speculari. [Ulteriori informazioni](../email/message-tracking.md#mirror-page)
+* È stata aggiunta una sottosezione sulle pagine mirror. [Ulteriori informazioni](../email/message-tracking.md#mirror-page)
 * Nella documentazione e nelle schermate le “attività di offerta” sono state rinominate “decisioni” e le “decisioni” sono state rinominate “ambiti decisionali”. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 * Nuovo caso d’uso: [personalizzare un messaggio con le funzioni di assistenza](../personalization/personalization-use-case-helper-functions.md)
 * È stata aggiornata la documentazione Leggi pubblico per riflettere gli impatti dei segmenti materializzati. [Ulteriori informazioni](../building-journeys/read-audience.md)

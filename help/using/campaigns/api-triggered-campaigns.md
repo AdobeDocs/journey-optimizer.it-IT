@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 4%
+source-wordcount: '954'
+ht-degree: 2%
 
 ---
 
 # Attivare campagne tramite API {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="Tipo di campagna"
->abstract="Per la funzione di disponibilità limitata di invio messaggi senza la creazione di profili, segui i passaggi descritti nella documentazione."
 
 ## Informazioni sulle campagne attivate da API {#about}
 
@@ -79,7 +74,7 @@ Ora puoi eseguire la campagna dalle API. [Ulteriori informazioni](#execute)
 
 Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio generata e utilizzarla nell’API per generare il payload e attivare la campagna.
 
-1. Apri la campagna, quindi copia e incolla la richiesta di esempio dalla **[!UICONTROL richiesta cURL]** sezione.
+1. Apri la campagna, quindi copia e incolla la richiesta di payload da **[!UICONTROL richiesta cURL]** sezione. Questo payload include tutte le variabili di personalizzazione (profilo e contesto) utilizzate nel messaggio. È disponibile una volta che la campagna è in diretta.
 
    ![](assets/api-triggered-curl.png)
 

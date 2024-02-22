@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1803'
 ht-degree: 16%
 
 ---
@@ -89,7 +89,7 @@ Di seguito sono elencate le varie operazioni di filtro che è possibile eseguire
 
 * Utilizza il **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
 
-  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+  Per filtrare i percorsi in base a un intervallo di date specifico, seleziona **[!UICONTROL Personalizzato]** dal **[!UICONTROL Pubblicato]** elenco a discesa.
 
 Inoltre, nei riquadri di configurazione Evento, Origine dati e Azione, il **[!UICONTROL Utilizzato in]** in questo campo viene visualizzato il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 
@@ -130,7 +130,7 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi tramit
 >title="Proprietà del percorso"
 >abstract="Questa sezione mostra le proprietà del percorso. Per impostazione predefinita, i parametri di sola lettura sono nascosti. Le impostazioni disponibili dipendono dallo stato del percorso, dalle autorizzazioni e dalla configurazione del prodotto."
 
-Fai clic sull’icona della matita, in alto a destra per accedere alle proprietà del percorso.
+Fai clic sull’icona della matita, accanto al nome del percorso, per accedere alle relative proprietà.
 
 Puoi modificare il nome del percorso, aggiungere una descrizione, consentire il rientro, scegliere le date di inizio e di fine e, in qualità di utente amministratore, definire un’ **[!UICONTROL Timeout ed errore]** durata. Puoi anche assegnare tag unificati Adobe Experience Platform al tuo percorso. Questo consente di classificarle facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1526'
 ht-degree: 64%
 
 ---
@@ -69,7 +69,15 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](assets/journey27.png)
 
-1. Configura l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzato]** o **[!UICONTROL Chiave API]**. Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Le scelte del nostro esempio:
+1. Configura l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzato]** o **[!UICONTROL Chiave API]**.
+
+   Per la modalità di autenticazione di base, devi inserire un nome utente e una password.
+
+   >[!NOTE]
+   >
+   >Quando viene eseguita la chiamata di autenticazione, il `<username>:<password>` stringa, codificata in base64, viene aggiunta nell’intestazione Authentication.
+
+   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API:
 
    * **[!UICONTROL Tipo]**: &quot;API key&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (nome del parametro della chiave API)

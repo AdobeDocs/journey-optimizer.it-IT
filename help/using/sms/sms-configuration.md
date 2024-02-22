@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f34eabfb4eb6d7486819cbc8435844b1ef983af3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 14%
+source-wordcount: '1518'
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,73 @@ L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condi
 >title="Selezionare la configurazione del fornitore di SMS"
 >abstract="Seleziona le credenziali API configurate per il fornitore di SMS."
 
-Per configurare il provider SMS con Journey Optimizer, effettua le seguenti operazioni:
+### Sinch {#sinch-api}
+
+Per configurare Sinch con Journey Optimizer, effettua le seguenti operazioni:
+
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona la **[!UICONTROL Credenziali API]** menu. Fai clic su **[!UICONTROL Crea nuove credenziali API]** pulsante.
+
+   ![](assets/sms_6.png)
+
+1. Configura le credenziali API SMS, come descritto di seguito:
+
+   * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
+
+   * **[!UICONTROL ID servizio]** e **[!UICONTROL Token API]**: accedi alla pagina API, e trovi le tue credenziali nella scheda SMS. Ulteriori informazioni in [Documentazione di Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+
+   * **[!UICONTROL Parole chiave di Opt-in]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di Opt-in]**. Per più parole chiave, utilizza valori separati da virgola.
+
+   * **[!UICONTROL Messaggio di Opt-in]**: inserisci la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di Opt-in]**.
+
+   * **[!UICONTROL Parole chiave di rinuncia]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di rinuncia]**. Per più parole chiave, utilizza valori separati da virgola.
+
+   * **[!UICONTROL Messaggio di rinuncia]**: inserisci la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di rinuncia]**.
+
+   * **[!UICONTROL Parole chiave della Guida]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola.
+
+   * **[!UICONTROL Messaggio di aiuto]**: inserisci la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**.
+
+   * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+
+   * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso.
+
+1. Clic **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
+
+Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale (ossia un predefinito per messaggi) per i messaggi SMS.
+
+<!--
+### Sinch MMS
+
+For **[!DNL Sinch MMS]**
+
+        * **[!UICONTROL Name]**: choose a name for your API Credential.
+
+        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+-->
+
+### Twilio {#twilio-api}
+
+Per configurare Twilio con Journey Optimizer, effettua le seguenti operazioni:
+
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona la **[!UICONTROL Credenziali API]** menu. Fai clic su **[!UICONTROL Crea nuove credenziali API]** pulsante.
+
+   ![](assets/sms_6.png)
+
+1. Configura le credenziali API SMS, come descritto di seguito:
+
+   * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
+
+   * **[!UICONTROL SID account]** e **[!UICONTROL Token di autenticazione]**: accedi a **Informazioni account** per trovare le credenziali.
+
+   * **[!UICONTROL SID messaggio]**: inserisci l’identificatore univoco assegnato a ogni messaggio creato dall’API di Twilio. Ulteriori informazioni in [Documentazione di Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+1. Clic **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
+
+Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale (ossia un predefinito per messaggi) per i messaggi SMS.
+
+### Infobip {#infobip-api}
+
+Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona la **[!UICONTROL Credenziali API]** menu. Fai clic su **[!UICONTROL Crea nuove credenziali API]** pulsante.
 
@@ -67,63 +133,34 @@ Per configurare il provider SMS con Journey Optimizer, effettua le seguenti oper
 
 1. Configura le credenziali API SMS, come descritto di seguito.
 
-   ![](assets/sms_7.png)
+   * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
 
-   * +++ Per **[!DNL Sinch]**
+   * **[!UICONTROL URL di base API]** e **[!UICONTROL Chiave API]**: accedi alla pagina home dell’interfaccia web o alla pagina gestione delle chiavi API per trovare le tue credenziali. Ulteriori informazioni in [Documentazione di Infobip](https://www.infobip.com/docs/api){target="_blank"}.
 
-      * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
+   * **[!UICONTROL Parole chiave di Opt-in]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **[!UICONTROL Messaggio di Opt-in]**. Per più parole chiave, utilizza valori separati da virgola.
 
-      * **[!UICONTROL ID servizio]** e **[!UICONTROL Token API]**: accedi alla pagina API, e trovi le tue credenziali nella scheda SMS. Ulteriori informazioni in [Documentazione di Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
+   * **[!UICONTROL Messaggio di Opt-in]**: inserisci la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di Opt-in]**.
 
-      * **[!UICONTROL Messaggio di Opt-in]**: inserisci la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di Opt-in]**.
+   * **[!UICONTROL Parole chiave di rinuncia]**: immetti il valore predefinito o le parole chiave che attiveranno automaticamente il **[!UICONTROL Messaggio di rinuncia]**. Per più parole chiave, utilizza valori separati da virgola.
 
-      * **[!UICONTROL Messaggio di rinuncia]**: inserisci la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di rinuncia]**.
+   * **[!UICONTROL Messaggio di rinuncia]**: inserisci la risposta personalizzata inviata automaticamente come **[!UICONTROL Messaggio di rinuncia]**.
 
-      * **[!UICONTROL Messaggio di aiuto]**: inserisci la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**.
+   * **[!UICONTROL Parole chiave della Guida]**: immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola.
 
-      * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
+   * **[!UICONTROL Messaggio di aiuto]**: inserisci la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**.
 
-      * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso.
-+++
+   * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola.
 
-   * +++ Per **[!DNL Twilio]**
+   * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata che viene inviata automaticamente in risposta alla conferma del doppio consenso.
 
-      * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
+   * **[!UICONTROL ID entità principale]**: inserisci l&#39;ID entità principale DLT assegnato.
 
-      * **[!UICONTROL SID account]** e **[!UICONTROL Token di autenticazione]**: per trovare le credenziali, accedi al riquadro Informazioni account della pagina Dashboard di Twilio Console.
+   * **[!UICONTROL ID modello contenuto]**: immetti l&#39;ID del modello di contenuto DLT registrato.
 
-      * **[!UICONTROL SID messaggio]**: inserisci l’identificatore univoco assegnato a ogni messaggio creato dall’API di Twilio. Ulteriori informazioni in [Documentazione di Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+   * **[!UICONTROL Periodo di validità]**: inserisci il periodo di validità del messaggio in ore. Nel caso in cui i messaggi non possano essere consegnati entro questo intervallo di tempo, il sistema effettuerà ulteriori tentativi per inviarli nuovamente. Il periodo di validità predefinito è impostato su 48 ore.
 
-+++
+   * **[!UICONTROL Dati callback]**: inserisci i dati client aggiuntivi che verranno inviati sull’URL di notifica.
 
-   * +++ Per **[!DNL Infobip]**
-
-      * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
-
-      * **[!UICONTROL URL di base API]** e **[!UICONTROL Token API]**: accedi alla pagina home dell’interfaccia web o alla pagina gestione delle chiavi API per trovare le tue credenziali. Ulteriori informazioni in [Documentazione di Infobip](https://www.infobip.com/docs/api){target="_blank"}.
-
-      * **[!UICONTROL Parole chiave per doppio consenso]**: immetti le parole chiave che attivano il processo di doppio consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola.
-
-      * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata che viene inviata automaticamente in risposta alla conferma del doppio consenso.
-
-      * **[!UICONTROL ID entità principale]**: inserisci l&#39;ID entità principale DLT assegnato.
-
-      * **[!UICONTROL ID modello contenuto]**: immetti l&#39;ID del modello di contenuto DLT registrato.
-
-      * **[!UICONTROL Periodo di validità]**: inserisci il periodo di validità del messaggio in ore. Nel caso in cui i messaggi non possano essere consegnati entro questo intervallo di tempo, il sistema effettuerà ulteriori tentativi per inviarli nuovamente. Il periodo di validità predefinito è impostato su 48 ore.
-
-      * **[!UICONTROL Dati callback]**: inserisci i dati client aggiuntivi che verranno inviati sull’URL di notifica.
-+++
-
-<!--
-    * +++ For **[!DNL Sinch MMS]**
-
-        * **[!UICONTROL Name]**: choose a name for your API Credential.
-
-        * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** and **[!UICONTROL API Token]**: from the Conversation API menu, you can find your credentials in the App menu. Learn more in [Sinch Documentation](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
-
-        +++ 
--->
 1. Clic **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale (ossia un predefinito per messaggi) per i messaggi SMS.

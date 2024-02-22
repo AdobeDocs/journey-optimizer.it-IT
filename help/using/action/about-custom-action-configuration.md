@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1451'
+ht-degree: 22%
 
 ---
 
@@ -35,11 +35,13 @@ Nei parametri delle azioni personalizzati, puoi trasmettere una semplice raccolt
 
 Inoltre, i parametri delle azioni personalizzate hanno un formato previsto (ad esempio, stringa, decimale, ecc.). Devi fare attenzione a rispettare questi formati previsti. Ulteriori informazioni [caso d’uso](../building-journeys/collections.md).
 
+Le azioni personalizzate supportano il formato JSON solo quando si utilizza [richiesta](../action/about-custom-action-configuration.md#define-the-message-parameters) o [payload di risposta](../action/action-response.md).
+
 ## Best practice{#custom-action-enhancements-best-practices}
 
 Quando scegli un endpoint per il targeting utilizzando un’azione personalizzata, assicurati che:
 
-* Questo endpoint può supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [Limitazione di utilizzo API](../configuration/capping.md) per limitarlo. Fai attenzione a che una configurazione di limitazione non possa scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.
+* Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.
 * Questo endpoint deve avere un tempo di risposta il più basso possibile. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva.
 
 Per tutte le azioni personalizzate viene definito un limite massimo di 300.000 chiamate in un minuto. Inoltre, il limite predefinito viene eseguito per host e per sandbox. Ad esempio, se in una sandbox hai due endpoint con lo stesso host (ad esempio: `https://www.adobe.com/endpoint1` e `https://www.adobe.com/endpoint2`), il limite verrà applicato a tutti gli endpoint nell’host adobe.com. &quot;endpoint1&quot; ed &quot;endpoint2&quot; condivideranno la stessa configurazione di limitazione e il fatto che un endpoint raggiunga il limite avrà un impatto sull’altro endpoint.
@@ -117,7 +119,9 @@ Durante la configurazione di un’azione personalizzata, devi definire quanto se
 
 1. Definisci le intestazioni e i parametri di query:
 
-   * In **[!UICONTROL Intestazioni]** , fare clic su **[!UICONTROL Aggiungere un campo intestazione]** per definire le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno. Il **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi dell’intestazione sono impostati per impostazione predefinita. Non è possibile modificare o eliminare questi campi.
+   * In **[!UICONTROL Intestazioni]** , fare clic su **[!UICONTROL Aggiungere un campo intestazione]** per definire le intestazioni HTTP del messaggio di richiesta da inviare al servizio esterno. Il **[!UICONTROL Content-Type]** e **[!UICONTROL Charset]** i campi dell’intestazione sono impostati per impostazione predefinita. Non è possibile eliminare questi campi. Solo il **[!UICONTROL Content-Type]** l’intestazione può essere modificata. Il suo valore deve rispettare il formato JSON. Di seguito è riportato il valore predefinito:
+
+   ![](assets/content-type-header.png)
 
    * In **[!UICONTROL Parametri di query]** , fare clic su **[!UICONTROL Aggiungere un campo Parametro query]** per definire i parametri che desideri aggiungere all’URL.
 

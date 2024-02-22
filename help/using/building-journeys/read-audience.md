@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 7%
+source-wordcount: '1427'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot
 
 * Come best practice, consigliamo di utilizzare solo i tipi di pubblico in batch in una **Read audience** attività. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d’uso richiede dati in tempo reale, utilizza **[Qualificazione del pubblico](audience-qualification-events.md)** attività.
 
-* Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o derivanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) in percorsi è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+* Tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o derivanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) può essere selezionato in **Read Audience** attività. Questi tipi di pubblico non sono disponibili in **Qualificazione del pubblico** attività.
 
 ## Configurare l’attività {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ I passaggi per configurare l’attività Read Audience sono i seguenti:
 
    >[!NOTE]
    >
-   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Queste funzionalità sono attualmente disponibili come versione beta privata.
+   >Inoltre, puoi anche eseguire il targeting dei tipi di pubblico di Adobe Experience Platform creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md) o [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 34%
+source-wordcount: '969'
+ht-degree: 33%
 
 ---
 
@@ -126,9 +126,9 @@ Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei 
 
 >[!IMPORTANT]
 >
->Per il momento, l’utilizzo dei tipi di pubblico [importato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) nelle campagne è disponibile come versione beta privata. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>L’utilizzo di tipi di pubblico e attributi da [composizione del pubblico](../audience/get-started-audience-orchestration.md) e [caricamento personalizzato (file CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API. [Ulteriori informazioni](api-triggered-campaigns.md)
+>Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API.
 
 In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato.
 

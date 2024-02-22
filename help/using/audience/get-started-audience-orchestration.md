@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,15 @@ Questa documentazione fornisce informazioni dettagliate su come lavorare con la 
 
 La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare i tipi di pubblico esistenti di Adobe Experience Platform in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico.
 
-Al termine, i **tipi di pubblico risultanti** vengono salvati e conservati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere **sfruttati nelle campagne** per eseguire il targenting dei clienti. [Scopri come utilizzare le campagne](../campaigns/get-started-with-campaigns.md)
+Al termine, il **pubblico risultante** vengono salvati e inseriti in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati nelle campagne e nei percorsi Journey Optimizer per eseguire il targeting dei clienti. [Scopri come eseguire il targeting dei tipi di pubblico in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Per il momento, l’utilizzo di tipi di pubblico derivanti da flussi di lavoro di composizione in percorsi è disponibile come versione Private Beta. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>L’utilizzo di tipi di pubblico e attributi da Composizione pubblico e Caricamento personalizzato non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Le campagne in Adobe Journey Optimizer non sono ancora integrate con il servizio di applicazione dei criteri. Pertanto, tutte le etichette di utilizzo dei dati applicate agli attributi del pubblico non verranno applicate nelle campagne di Journey Optimizer.
+>Gli attributi di arricchimento non sono ancora integrati con il servizio di applicazione dei criteri. Pertanto, eventuali etichette di utilizzo dei dati applicate agli attributi di arricchimento non verranno applicate nelle campagne o nei percorsi Journey Optimizer.
 
 La composizione dei tipi di pubblico è accessibile dal menu **[!UICONTROL Tipi di pubblico]** di Adobe Journey Optimizer:
 

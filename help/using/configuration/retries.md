@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: nuovi tentativi, mancato recapito, morbido, ottimizzatore, errore
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 11%
+source-wordcount: '578'
+ht-degree: 9%
 
 ---
 
 # Nuovi tentativi {#retries}
 
-Quando un messaggio e-mail non riesce a causa di un errore temporaneo **Mancato recapito non permanente** errore, vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo viene aggiunto all’elenco di soppressione.
+Quando un messaggio e-mail non riesce a causa di un errore temporaneo **Mancato recapito non permanente** per un determinato indirizzo, vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo e-mail viene aggiunto all’elenco di soppressione.
 
 >[!NOTE]
 >
@@ -28,9 +28,17 @@ Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
 * Per la stessa consegna, al quinto errore riscontrato all’interno del [periodo di tempo di un nuovo tentativo](#retry-duration), l&#39;indirizzo viene soppresso.
 
-* Se sono presenti consegne diverse e due errori si verificano almeno a 24 ore di distanza, il contatore degli errori viene incrementato a ogni errore e anche l’indirizzo viene eliminato al quinto tentativo.
+* Se sono presenti consegne diverse e due errori si verificano almeno a 24 ore di distanza, il contatore degli errori viene incrementato a ogni errore e anche l’indirizzo viene eliminato al quinto tentativo. Gli errori sono cumulativi per ogni indirizzo.
 
 Se una consegna ha esito positivo dopo un nuovo tentativo, il contatore di errori dell’indirizzo viene reinizializzato.
+
+Ad esempio:
+
+* Hai inviato un’e-mail lunedì con un periodo di tempo di esecuzione dei nuovi tentativi impostato su 24 ore. Impossibile recapitare l&#39;indirizzo emma.jones@mail.com. L’e-mail viene ritentata fino a tre volte e smette di ritentare quando raggiunge il periodo di 24 ore.
+
+* Mercoledì spedisci un’altra e-mail. Anche emma.jones@mail.com, che presenta già un conteggio di tre errori, è oggetto di targeting e di nuovo non viene consegnato - due volte. Vengono contabilizzati altri due errori.
+
+Se tra queste due e-mail non è stata tentata e non si è verificato alcun altro tentativo di consegna, l’indirizzo emma.jones@mail.com viene aggiunto all’elenco di soppressione in base all’impatto cumulativo di 3 + 2 errori.
 
 ## Edizione soglia di ripetizione {#edit-retry-threshold}
 

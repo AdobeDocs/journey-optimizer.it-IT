@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 2%
+source-wordcount: '1854'
+ht-degree: 3%
 
 ---
 
@@ -17,13 +17,19 @@ ht-degree: 2%
 
 Utilizzare [!DNL Journey Optimizer] linguaggio di template per eseguire operazioni sui dati, ad esempio calcoli, formattazione o conversioni di dati, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
 
+
+
 ➡️ [Scopri come utilizzare le funzioni di assistenza in questo video](#video)
 
-Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibili nell’elenco a discesa di personalizzazione dell’editor espressioni, come segue:
+Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibili nell’elenco a discesa Personalizzazione dell’editor Personalizzazione, come segue:
 
 ![](../assets/access-helper-functions.png)
 
-In [!DNL Journey Optimizer] Le funzioni di supporto dell’editor di espressioni sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
+>[!NOTE]
+>
+>Le funzioni e le funzionalità disponibili nell’editor di personalizzazione sono diverse da quelle disponibili nella [Editor espressioni avanzate percorso](../../building-journeys/expression/expressionadvanced.md).
+
+In [!DNL Journey Optimizer] Le funzioni di assistenza dell’editor di personalizzazione sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
 
 Seleziona una categoria per accedere alle sottocategorie e alle funzioni.
 
@@ -79,7 +85,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="aggregation.md#min">Minimo</a></td><td>Questa funzione restituisce il più piccolo di tutti i valori selezionati all’interno dell’array.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Non in entrata</a></td><td>Questa funzione determina se un elemento non è un membro di un array o di un elenco</td>
+        <td><a href="arrays-list.md#notin">Non in</a></td><td>Questa funzione determina se un elemento non è un membro di un array o di un elenco</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#subset">Sottoinsieme di</a></td><td>Questa funzione determina se un array specifico (array A) è un sottoinsieme di un altro array (array B), ovvero se tutti gli elementi nell’array A sono elementi dell’array B</td>
@@ -259,7 +265,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#length">Lunghezza</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o in un’espressione</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Mi piace</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
+        <td><a href="string.md#like">Simile a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">Minuscolo</a></td><td>Questa funzione converte una stringa in lettere minuscole.</td>
@@ -274,7 +280,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#md5">MD5</a></td><td>Questa funzione restituisce l’hash MD5 della stringa di input.</td>
     </tr>
     <tr>
-        <td><a href="string.md#notEqualTo">Diverso da</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non è uguale alla stringa specificata</td>
+        <td><a href="string.md#notEqualTo">Non uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non è uguale alla stringa specificata</td>
     </tr>
     <tr>
         <td><a href="string.md#not-equal-with-ignore-case">Non uguale con ignora maiuscole/minuscole</a></td><td>Questa funzione confronta due stringhe ignorando le maiuscole/minuscole.</td>
@@ -292,7 +298,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#rightTrim">Taglia a destra</a></td><td>Questa funzione rimuove gli spazi bianchi dalla fine di una stringa. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Split</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
+        <td><a href="string.md#split">Divisione</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Inizia con</a></td><td>Questa funzione viene utilizzata per determinare se una stringa inizia con una sottostringa specificata</td>

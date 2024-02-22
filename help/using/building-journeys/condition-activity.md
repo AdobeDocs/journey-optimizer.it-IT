@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1494'
 ht-degree: 17%
 
 ---
@@ -75,6 +75,8 @@ Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le c
 ## Condizione origine dati {#data_source_condition}
 
 Questo consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Scopri come utilizzare l’editor di espressioni in [questa sezione](expression/expressionadvanced.md).
+
+Ad esempio, se esegui il targeting di un pubblico con attributi di arricchimento generati utilizzando un flusso di lavoro di composizione o un caricamento personalizzato (file CSV), puoi sfruttare questi attributi di arricchimento per creare la condizione. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. [Ulteriori informazioni](../datasource/external-data-sources.md).
 

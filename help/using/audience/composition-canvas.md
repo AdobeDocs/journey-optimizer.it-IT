@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 29%
+source-wordcount: '1521'
+ht-degree: 28%
 
 ---
 
@@ -151,6 +151,7 @@ Tieni presente le seguenti limitazioni quando lavori con **[!UICONTROL Arricchir
 * **Set di dati** per l’arricchimento deve essere di tipo record (anziché di tipo evento) e non può essere un set di dati di sistema né essere contrassegnato per il profilo. Devono essere inferiori a 1 GB.
 * **L’arricchimento supporta un join 1:1**. Ciò significa che se le chiavi di join hanno più di una corrispondenza nel set di dati di arricchimento, il sistema seleziona una delle corrispondenze e la utilizza per il join 1:1.
 * **I tipi di pubblico possono essere attivati nelle destinazioni RTCDP**, ma gli eventuali attributi di arricchimento non possono.
+* Gli attributi di arricchimento non sono ancora integrati con il servizio di applicazione dei criteri. Pertanto, eventuali etichette di utilizzo dei dati applicate agli attributi di arricchimento non verranno applicate nelle campagne o nei percorsi Journey Optimizer.
 
 Per configurare l’attività, effettua le seguenti operazioni:
 

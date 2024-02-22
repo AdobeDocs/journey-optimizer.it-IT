@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '936'
 ht-degree: 16%
 
 ---
@@ -23,8 +23,6 @@ Elenchi seed in [!DNL Journey Optimizer] consente di includere automaticamente i
 >[!CAUTION]
 >
 >Attualmente questa funzione si applica solo al canale e-mail.
->
->Varianti non supportate. Come ogni profilo del pubblico target, gli indirizzi seed ricevono una singola copia di ogni messaggio, ma non tutte le varianti dello stesso messaggio (come i diversi trattamenti di una [esperimento sui contenuti](../campaigns/get-started-experiment.md)).
 
 Gli indirizzi di seed vengono utilizzati per eseguire il targeting di destinatari che non corrispondono ai criteri di target definiti. In questo modo, i destinatari che non rientrano nell’ambito di consegna possono ricevere la consegna, come farebbe qualsiasi altro destinatario.
 
@@ -47,6 +45,10 @@ Gli indirizzi di seed non sono profili reali né profili di test in quanto non i
 +++
 
 * Un altro motivo per utilizzare gli elenchi di seed è la protezione della mailing list. L’inserimento di indirizzi di seed nella mailing list ti consente di notare se è utilizzato da una terza parte, in quanto gli indirizzi di seed in esso contenuti riceveranno le consegne inviate alla mailing list.
+
+>[!NOTE]
+>
+>Sono supportate le varianti. Gli indirizzi seed ricevono una singola copia di ogni variante dello stesso messaggio (come i diversi trattamenti di una [esperimento sui contenuti](../campaigns/get-started-experiment.md)).
 
 ## Accedere agli elenchi di seed {#access-seed-lists}
 
@@ -128,7 +130,7 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 
 >[!CAUTION]
 >
->I messaggi inviati agli indirizzi seed non sono inclusi nei rapporti.
+>I messaggi inviati agli indirizzi seed non sono inclusi nei rapporti di percorso o di campagna.
 
 1. Create una superficie e selezionate **[!UICONTROL E-mail]** canale. [Ulteriori informazioni](../email/email-settings.md)
 
@@ -154,4 +156,4 @@ Ora, ogni volta che un messaggio e-mail viene inviato ai clienti tramite tale ca
 
 >[!NOTE]
 >
->Per i percorsi la consegna e-mail viene inviata agli indirizzi seed solo il percorso della prima esecuzione.
+>Per i percorsi, la consegna e-mail viene inviata agli indirizzi seed solo il percorso della prima esecuzione.

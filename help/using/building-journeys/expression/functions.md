@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: funzione, espressioni, editor, percorso
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 69%
 
 ---
@@ -29,7 +29,7 @@ Elenco delle funzioni supportate.
 
 | Categoria | Funzione |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inAudience](../functions/functioninaudience.md) |
 | Aggregazione | [avg](../functions/functionavg.md) |
 | Aggregazione | [count](../functions/functioncount.md) |
 | Aggregazione | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -67,7 +67,7 @@ Elenco delle funzioni supportate.
 | Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
 | Elenco | [intersecare](../functions/functionintersect.md) |
-| Elenco | [listSize](../functions/functionlimit.md) |
+| Elenco | [limit](../functions/functionlimit.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |
@@ -89,6 +89,7 @@ Elenco delle funzioni supportate.
 | Stringa | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
 | Stringa | [replace](../functions/functionreplace.md) |
 | Stringa | [replaceAll](../functions/functionreplaceall.md) |
+| Stringa | [split](../functions/functionsplit.md) |
 | Stringa | [startWith](../functions/functionstartwith.md) |
 | Stringa | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
 | Stringa | [substr](../functions/functionsubstr.md) |

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: fuso orario, proprietà, percorso, condizione, ora, data, personalizzato
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ Questo fuso orario verrà utilizzato per ogni attività del percorso contenente 
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-Puoi selezionare un fuso orario o scegliere di utilizzare quello definito nel profilo utente.
-
->[!NOTE]
->
->Il fuso orario del profilo funziona con **fuso orario** campo esistente nel **Dettagli sulle preferenze** gruppo di campi.
+È possibile selezionare una [fuso orario fisso](#fixed-timezone) o scegliere di utilizzare il fuso orario [definito nel profilo utente](#timezone-from-profiles).
 
 ## Definire un fuso orario fisso {#fixed-timezone}
 
@@ -53,6 +49,10 @@ Se l’evento di ingresso del percorso ha uno spazio dei nomi, il che significa 
 Se per un profilo è stato definito un fuso orario, questo verrà recuperato e utilizzato dal percorso. In caso contrario, il fuso orario utilizzato sarà quello definito nel campo del fuso orario.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>Il fuso orario del profilo funziona con **fuso orario** campo esistente nel **Dettagli sulle preferenze** gruppo di campi.
 
 ## Utilizzare i fusi orari nelle espressioni {#timezone-in-expressions}
 

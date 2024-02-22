@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 44%
+source-wordcount: '1087'
+ht-degree: 40%
 
 ---
 
@@ -39,15 +39,11 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 ## Targeting dei tipi di pubblico in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico Adobe Experience Platform generato utilizzando [definizioni dei segmenti](../audience/creating-a-segment-definition.md).
+Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utilizzando le definizioni dei segmenti, l’importazione di file CSV o i flussi di lavoro di composizione.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Per il momento, i tipi di pubblico derivanti da [composizioni di pubblico](../audience/get-started-audience-orchestration.md) può essere impostato come destinazione solo nelle campagne. Questa funzionalità è disponibile come versione beta privata per i percorsi.
->
->L&#39;utilizzo del pubblico [caricato da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} in campagne e percorsi è attualmente disponibile come versione beta privata.
->
->Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e dal caricamento personalizzato (file CSV) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi diversi:
 
@@ -62,6 +58,18 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
   Ad esempio, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviare loro messaggi. Per ulteriori informazioni su come utilizzare questa attività, fai riferimento a [Scopri come configurare un’attività di qualificazione del pubblico](../building-journeys/audience-qualification-events.md).
 
 * Utilizza l’attività **Condizione** in un percorso per generare condizioni basate sull’iscrizione al pubblico. [Scopri come utilizzare i tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
+
+## Utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer {#enrichment}
+
+Quando esegui il targeting di un pubblico generato tramite flussi di lavoro di composizione o caricamento personalizzato (file CSV), puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
+
+* Crea più percorsi in un percorso in base a regole che sfruttano gli attributi di arricchimento del pubblico di destinazione. A tal fine, esegui il targeting del pubblico utilizzando una [Read audience](../building-journeys/read-audience.md) attività, quindi crea regole in un [Condizione](../building-journeys/condition-activity.md) attività basata sugli attributi di arricchimento del pubblico.
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* Personalizza i messaggi in percorsi o campagne aggiungendo attributi di arricchimento dal pubblico di destinazione nell’editor espressioni. [Scopri come utilizzare l’editor di espressioni](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## Metodi di valutazione del pubblico {#evaluation-method-in-journey-optimizer}
 
