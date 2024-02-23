@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1362'
 ht-degree: 10%
@@ -41,7 +41,7 @@ Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulterio
 
 Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** dal menu a sinistra.
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 Tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna utilizzando **[!UICONTROL Salva come modello]** opzione, dal menu **[!UICONTROL Modelli di contenuto]** menu -. [Scopri come creare modelli](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * Per modificare il contenuto di un modello, fai clic sull’elemento desiderato dall’elenco e seleziona **[!UICONTROL Modifica contenuto]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * Per eliminare un modello, selezionare **[!UICONTROL Altre azioni]** accanto al modello desiderato e seleziona **[!UICONTROL Elimina]**.
 
@@ -202,7 +202,7 @@ Puoi testare il rendering di alcuni modelli e-mail, creati da zero o da un conte
 
 1. Clic **[!UICONTROL Simula contenuto]** e seleziona un profilo di test per controllare il rendering. [Ulteriori informazioni](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. Puoi inviare una bozza per testare il contenuto e farla approvare da alcuni utenti interni prima di utilizzarla in un percorso o in una campagna.
 
@@ -210,7 +210,7 @@ Puoi testare il rendering di alcuni modelli e-mail, creati da zero o da un conte
 
    * Prima di inviare la bozza, è necessario selezionare [superficie e-mail](../configuration/channel-surfaces.md) che verranno utilizzati per testare il contenuto.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
