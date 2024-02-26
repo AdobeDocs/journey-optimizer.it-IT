@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 94%
+source-wordcount: '385'
+ht-degree: 73%
 
 ---
 
@@ -20,27 +20,27 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di gennaio è live!]
+>[!TAB È disponibile la versione di febbraio.]
 
-Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.1 di Adobe Journey Optimizer.
+Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.2 di Adobe Journey Optimizer.
 
-[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Aggiornamento DMARC obbligatorio]
+>[!TAB Messaggistica Web in-app]
 
-Come parte delle best practice di settore, Google e Yahoo! richiederanno entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail, a partire dal **1 febbraio 2024**. Assicurati di aver impostato il record DMARC per tutti i sottodomini delegati ad Adobe in Journey Optimizer.
+Ora puoi utilizzare la nuova funzionalità di messaggistica Web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la fidelizzazione e i tassi di conversione degli utenti.
 
-[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB Usare i playbook sui casi d’uso]
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-Sfrutta un catalogo di playbook sui casi d’uso specifici per il settore in Real-Time CDP e Journey Optimizer per risolvere casi d’uso comuni che è possibile eseguire utilizzando Adobe Experience Platform e Adobe Journey Optimizer.
+>[!TAB Modelli di contenuto multicanale]
 
-Dopo aver scelto il playbook più adatto alle tue esigenze, puoi abilitarlo per generare le risorse necessarie per supportare il caso d’uso, ad esempio percorsi, messaggi, schemi o segmenti, e personalizzarle nel tuo schema per velocizzare il time-to-value.
+Oltre all’e-mail, ora sono disponibili modelli di contenuto per i seguenti canali: push, in-app, SMS e direct mailing, ciascuno dei quali dispone di tipi di modello dedicati. Per E-mail, ora puoi selezionare il tipo di contenuto, che ti consente di salvare l’oggetto come parte del modello e-mail.
 
-![immagine animata che mostra i playbook dei casi d’uso](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![immagine](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
