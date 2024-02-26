@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '840'
 ht-degree: 9%
 
 ---
@@ -50,7 +50,11 @@ Puoi aprire un record PTR dall’elenco per visualizzare il nome del sottodomini
 
 ## Modificare un record PTR {#edit-ptr-record}
 
-Puoi modificare un record PTR per modificare il sottodominio associato a un indirizzo IP.
+In entrata [!DNL Journey Optimizer], non è possibile creare manualmente record PTR. Invece, una volta [delegare](delegate-subdomain.md) il primo sottodominio da Adobe, i record PTR vengono creati automaticamente per gli IP.
+
+Ogni IP riceve un singolo record PTR. Tutti i record PTR hanno il seguente formato: &quot;rxx.subdomain&quot;, dove &quot;subdomain&quot; è il primo sottodominio delegato in [!DNL Journey Optimizer].
+
+Quando crei altri sottodomini, devi modificare uno o più record PTR e assegnare loro i nuovi sottodomini. A questo scopo, segui i passaggi riportati qui sotto.
 
 >[!CAUTION]
 >
