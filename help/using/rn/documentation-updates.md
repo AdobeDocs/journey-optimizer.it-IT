@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
 workflow-type: tm+mt
 source-wordcount: '4778'
 ht-degree: 96%
@@ -30,7 +30,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La pagina sulla funzione di divisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
 * Sono state aggiunte informazioni sull’impatto del consenso o del rifiuto delle notifiche push sui messaggi in-app. [Ulteriori informazioni](../in-app/create-in-app.md)
 * La pagina Regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni Durata disponibili nell’interfaccia utente (settimanale o mensile). [Ulteriori informazioni](../configuration/frequency-rules.md)
-* La sezione Modificare un record PTR è stata aggiornata per chiarire il fatto che i record PTR non possono essere creati manualmente e che è necessario modificare i record PTR per assegnare loro nuovi sottodomini. [Ulteriori informazioni](using/configuration/ptr-records.md#edit-ptr-record)
+* La sezione Modificare un record PTR è stata aggiornata per chiarire il fatto che i record PTR non possono essere creati manualmente e che è necessario modificare i record PTR per assegnare loro nuovi sottodomini. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Gennaio 2024 {#jan-2024}
 
