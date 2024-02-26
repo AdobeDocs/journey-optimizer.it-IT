@@ -11,7 +11,7 @@ exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 9%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creare un messaggio SMS"
->abstract="Per creare un messaggio di testo, aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’editor espressioni."
+>abstract="Per creare un messaggio di testo, aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’Editor di espressioni."
 
 Puoi progettare e inviare testo (SMS) con Adobe Journey Optimizer. Devi innanzitutto aggiungere un’azione SMS in un percorso o in una campagna e quindi definire il contenuto del messaggio di testo, come descritto di seguito. Adobe Journey Optimizer offre inoltre funzionalità per testare i messaggi di testo prima dell’invio, in modo da poter controllare il rendering, gli attributi di personalizzazione e tutte le altre impostazioni.
 
@@ -91,7 +91,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio di testo dalla sezione
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definire il contenuto degli SMS"
->abstract="Personalizza e personalizza i messaggi di testo utilizzando l’editor di espressioni per definire il contenuto e incorporare elementi dinamici."
+>abstract="Personalizza i messaggi di testo utilizzando l’editor di espressioni per definire il contenuto e incorporare elementi dinamici."
 
 Per configurare il contenuto SMS, segui i passaggi indicati di seguito.
 
