@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 40%
 
 ---
@@ -43,7 +43,7 @@ Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utili
 
 >[!AVAILABILITY]
 >
->L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e dal caricamento personalizzato (file CSV) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
+>L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e da tipi di pubblico con caricamento personalizzato (file CSV) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield. [Scopri come utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi diversi:
 
@@ -61,7 +61,7 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 ## Utilizzare gli attributi di arricchimento del pubblico in Journey Optimizer {#enrichment}
 
-Quando esegui il targeting di un pubblico generato tramite flussi di lavoro di composizione o caricamento personalizzato (file CSV), puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
+Quando esegui il targeting di un pubblico generato utilizzando i flussi di lavoro di composizione, puoi sfruttare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
 
 * Crea più percorsi in un percorso in base a regole che sfruttano gli attributi di arricchimento del pubblico di destinazione. A tal fine, esegui il targeting del pubblico utilizzando una [Read audience](../building-journeys/read-audience.md) attività, quindi crea regole in un [Condizione](../building-journeys/condition-activity.md) attività basata sugli attributi di arricchimento del pubblico.
 

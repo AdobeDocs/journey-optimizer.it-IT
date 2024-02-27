@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ Il menu con i puntini di sospensione accanto all’icona &quot;+&quot; ti consen
 
 >[!NOTE]
 >
->Se esegui il targeting di un pubblico con attributi di arricchimento generati utilizzando un flusso di lavoro di composizione o un caricamento personalizzato (file CSV), puoi sfruttare questi attributi di arricchimento per personalizzare il messaggio. [Scopri come utilizzare gli attributi di arricchimento del pubblico](../audience/about-audiences.md#enrichment)
+>Se esegui il targeting di un pubblico con attributi di arricchimento generati utilizzando un flusso di lavoro di composizione, puoi sfruttare questi attributi di arricchimento per personalizzare il messaggio. [Scopri come utilizzare gli attributi di arricchimento del pubblico](../audience/about-audiences.md#enrichment)
 
 Inoltre, puoi definire il testo di fallback predefinito che verrà visualizzato se un attributo di profilo di tipo stringa è vuoto. A questo scopo, fai clic sul pulsante con i puntini di sospensione accanto all’attributo e seleziona **[!UICONTROL Inserisci con testo di riserva]**. Scrivi il testo da visualizzare per impostazione predefinita se il valore dell’attributo è vuoto per un profilo, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
