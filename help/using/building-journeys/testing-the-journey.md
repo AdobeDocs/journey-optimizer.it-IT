@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1535'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -124,7 +124,7 @@ Si noti che quando si attiva per la prima volta un evento business, non è possi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Registri della modalità di test"
->abstract="Il pulsante Mostra registro visualizza i risultati dei test in formato JSON. Questi risultati mostrano il numero di singoli utenti all’interno del percorso e il loro stato."
+>abstract="Il **Mostra registro** visualizza i risultati del test in formato JSON. Questi risultati mostrano il numero di singoli utenti all’interno del percorso e il loro stato."
 
 Il **[!UICONTROL Mostra registro]** consente di visualizzare i risultati del test. In questa pagina vengono visualizzate le informazioni correnti del percorso in formato JSON. Un pulsante consente di copiare interi nodi. Per aggiornare i risultati del test del percorso, è necessario aggiornare manualmente la pagina.
 

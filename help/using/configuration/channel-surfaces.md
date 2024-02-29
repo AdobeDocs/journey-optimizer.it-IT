@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 00da20f3d51ce1032cb6908641048b377cc1a192
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
-source-wordcount: '1627'
-ht-degree: 8%
+source-wordcount: '1629'
+ht-degree: 7%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Superficie"
->abstract="Una superficie è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
+>title="Superficie di canale"
+>abstract="Una superficie di canale è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
 
 Con [!DNL Journey Optimizer], puoi impostare le superfici di canale (ad esempio i predefiniti per messaggi) che definiscono tutti i parametri tecnici richiesti per i messaggi: tipo di e-mail, e-mail e nome del mittente, app mobili, configurazione di SMS e altro ancora.
 
