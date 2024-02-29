@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sugli eventi
-description: Scopri gli eventi
+title: Utilizzare gli eventi di percorso
+description: Scopri come utilizzare gli eventi nei tuoi percorsi
 feature: Journeys, Events
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 58%
+source-wordcount: '989'
+ht-degree: 55%
 
 ---
 
-# Informazioni sugli eventi{#about-events}
+# Utilizzare gli eventi di percorso {#about-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
->title="Informazioni sugli eventi"
+>title="Eventi percorso"
 >abstract="Un evento è collegato a una persona e si riferisce al suo comportamento: ad esempio, se ha acquistato un prodotto, se ha visitato un negozio, se è uscita da un sito web, e così via. Oppure, indica qualcosa che si verifica in relazione a una persona, ad esempio se ha raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, Journey Optimizer farà da listener per questi dati, in modo da orchestrare le migliori azioni da eseguire in futuro."
 
 La configurazione dell’evento consente di definire le informazioni che [!DNL Journey Optimizer] riceverà sotto forma di eventi. Puoi utilizzare più eventi (in passaggi diversi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
@@ -64,7 +64,7 @@ Per gli eventi unitari, esistono due tipi di ID evento:
 
 ## Ciclo dei dati {#data-cycle}
 
-Gli eventi sono chiamate API POST. Gli eventi vengono inviati a Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite le API di messaggistica transazionale è denominata “entrata”. Il payload degli eventi segue la formattazione XDM.
+Gli eventi sono chiamate API POST. Gli eventi vengono inviati a Adobe Experience Platform tramite le API Streaming Ingestion. La destinazione URL degli eventi inviati tramite API di messaggistica transazionale è denominata &quot;entrata&quot;. Il payload degli eventi segue la formattazione XDM.
 
 Nell’intestazione del payload sono contenute le informazioni richieste per il funzionamento delle API Streaming Ingestion, nonché le informazioni richieste da [!DNL Journey Optimizer] per lavorare e informazioni da utilizzare nei percorsi (nel corpo, ad esempio, la quantità di un carrello abbandonato). Lo streaming ingestion può avvenire in modalità autenticata e non autenticata. Per informazioni dettagliate sulle API Streaming Ingestion, fai riferimento a [questo collegamento](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it).
 

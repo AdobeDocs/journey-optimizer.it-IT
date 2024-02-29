@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1738'
 ht-degree: 99%
 
 ---
@@ -553,7 +553,7 @@ ht-degree: 99%
          + [API di limitazione di utilizzo](using/configuration/capping.md)
          + [API di limitazione](using/configuration/throttling.md)
       + Configurazione evento {#events-journeys}
-         + [Principio generale](using/event/about-events.md)
+         + [Utilizzare gli eventi di percorso](using/event/about-events.md)
          + Configurare un evento unitario {#unitary-events}
             + [Introduzione agli eventi unitari](using/event/about-creating.md)
             + [Informazioni sugli schemi ExperienceEvent](using/event/experience-event-schema.md)
