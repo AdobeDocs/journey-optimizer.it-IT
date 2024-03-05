@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 12%
+source-wordcount: '1349'
+ht-degree: 13%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 12%
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio da utilizzi non autorizzati. Offrendo una politica chiara ai provider di posta elettronica/ISP, aiuta a evitare che malintenzionati inviino e-mail che affermano di arrivare dal tuo dominio. L’implementazione di DMARC riduce il rischio che le e-mail legittime vengano contrassegnate come spam o vengano rifiutate, inoltre migliora il recapito dei messaggi e-mail.
 
 DMARC offre anche rapporti sui messaggi che non superano l’autenticazione, oltre al controllo sulla gestione delle e-mail che non superano la convalida DMARC. A seconda del [Criterio DMARC](#dmarc-policies), queste e-mail possono essere monitorate, messe in quarantena o rifiutate. Queste funzionalità consentono di intraprendere azioni per mitigare e risolvere potenziali errori.
-
-<!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
 Per evitare problemi di recapito messaggi e ottenere al contempo il controllo sulle e-mail che non riescono a eseguire l’autenticazione, [!DNL Journey Optimizer] supporta ora la tecnologia DMARC direttamente nell&#39;interfaccia di amministrazione. [Ulteriori informazioni](#implement-dmarc)
 
@@ -65,11 +63,9 @@ Se l&#39;autenticazione DMARC di un messaggio e-mail non riesce, puoi decidere q
 
 Come parte delle best practice di settore, Google e Yahoo! richiedono entrambi di avere un **Record DMARC** per qualsiasi dominio utilizzato per inviare loro e-mail. Questo nuovo requisito si applica a partire dal **1 febbraio 2024**.
 
-Ulteriori informazioni su Google e Yahoo!&#39;s requisito in [questa sezione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=it#dmarc){target="_blank"}.
-
 >[!CAUTION]
 >
->Non rispettare questo nuovo requisito da parte di Gmail e Yahoo! dovrebbe causare l’invio di e-mail nella cartella di posta indesiderata o il blocco. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Non rispettare questo nuovo requisito da parte di Gmail e Yahoo! dovrebbe comportare l’invio di e-mail nella cartella di posta indesiderata oppure il blocco.
 
 Di conseguenza, Adobe consiglia vivamente di effettuare le seguenti operazioni:
 
