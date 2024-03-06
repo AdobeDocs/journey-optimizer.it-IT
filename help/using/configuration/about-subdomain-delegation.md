@@ -9,16 +9,23 @@ role: Admin
 level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
+source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '915'
 ht-degree: 27%
 
 ---
 
 # Delega dei sottodomini in [!DNL Journey Optimizer] {#subdomain-delegation}
 
-La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (ad esempio marketing e aziendale) in pool IP specifici e con domini specifici, velocizzando il processo di riscaldamento dell’IP e migliorando complessivamente il recapito messaggi. Se condividi un dominio e questo viene bloccato o aggiunto all’elenco Bloccati, ciò potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le comunicazioni di e-mail marketing avranno un impatto solo su tale flusso di e-mail. L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe inoltre interrompere l’autenticazione e-mail, causando il blocco o l’inserimento dei messaggi nella cartella di posta indesiderata.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_delegated_subdomains"
+>title="I sottodomini delegati vengono visualizzati qui."
+>abstract="Delega il primo sottodominio. Al termine della delega, vengono creati record PTR e abilitati i canali e-mail."
+
+La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (ad esempio marketing e aziendale) in pool IP specifici e con domini specifici, velocizzando il processo di riscaldamento dell’IP e migliorando complessivamente il recapito messaggi.
+
+Se condividi un dominio e questo viene bloccato o aggiunto all’elenco Bloccati, ciò potrebbe influire sulla consegna della posta aziendale. Tuttavia, problemi o blocchi di reputazione su un dominio specifico per le comunicazioni di e-mail marketing avranno un impatto solo su tale flusso di e-mail. L’utilizzo del dominio principale come mittente o indirizzo &quot;Da&quot; per più flussi di posta potrebbe inoltre interrompere l’autenticazione e-mail, causando il blocco o l’inserimento dei messaggi nella cartella di posta indesiderata.
 
 >[!NOTE]
 >
