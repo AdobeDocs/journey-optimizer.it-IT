@@ -10,29 +10,29 @@ level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Regole di frequenza dei messaggi {#frequency-rules}
 
-[!DNL Journey Optimizer] consente di controllare la frequenza con cui gli utenti riceveranno un messaggio o entreranno in un percorso impostando regole cross-channel che escluderanno automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
+[!DNL Journey Optimizer] consente di controllare la frequenza con cui l’utente riceve un messaggio o inizia un percorso impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
 
-Ad esempio, per un marchio, non è possibile inviare più di 4 messaggi di marketing al mese ai clienti. A questo scopo, puoi utilizzare una regola di frequenza che limiterà il numero di messaggi inviati in base a uno o più canali durante un periodo di calendario mensile.
+Ad esempio, per un brand, una regola potrebbe essere di non inviare più di 4 messaggi di marketing al mese alla clientela. Per farlo, puoi utilizzare una regola di frequenza che limiterà il numero di messaggi inviati in base a uno o più canali durante un periodo di un mese di calendario.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->Le regole di frequenza dei messaggi sono diverse dalla gestione della rinuncia, che consente agli utenti di annullare l’abbonamento alla ricezione di comunicazioni da un brand. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
+>Le regole di frequenza dei messaggi sono diverse dalla gestione della rinuncia, che consente di annullare l’iscrizione alla ricezione di comunicazioni da un brand. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
 ## Regole di accesso {#access-rules}
 
-Le regole sono disponibili nella sezione **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole]** menu. Vengono elencate tutte le regole, ordinate per data di modifica.
+Le regole sono disponibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole]**. Vengono elencate tutte le regole, ordinate per data di modifica.
 
 Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche eseguire ricerche sull’etichetta del messaggio.
 
@@ -40,9 +40,9 @@ Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/
 
 ### Autorizzazioni{#permissions-frequency-rules}
 
-Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, è necessario disporre del **[!UICONTROL Gestire le regole di frequenza]** autorizzazione.
+Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, è necessario disporre dell’autorizzazione per **[!UICONTROL Gestire le regole di frequenza]**.
 
-Utenti con **[!UICONTROL Visualizza regole di frequenza]** Le autorizzazioni consentono di visualizzare le regole, ma non di modificarle o eliminarle.
+Chi possiede l’autorizzazione per **[!UICONTROL Visualizzare le regole di frequenza]**, può visualizzare le regole, ma non modificarle o eliminarle.
 
 ![](assets/message-rules-access.png)
 
@@ -58,16 +58,16 @@ Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione]
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Impostare i limiti per la regola"
->abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente entro l’intervallo di tempo scelto. Il limite di frequenza si basa sul periodo di calendario selezionato e viene reimpostato all’inizio dell’intervallo di tempo corrispondente."
+>abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. Il limite di frequenza si baserà sul periodo di calendario selezionato e verrà reimpostato all’inizio dell’arco temporale corrispondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
 >title="Definire i canali a cui si applica la regola"
 >abstract="Seleziona almeno un canale. I limiti vengo applicati a tutti i canali come conteggio totale."
 
-Per creare una nuova regola, segui la procedura riportata di seguito.
+Per creare una nuova regola, segui i passaggi seguenti:
 
-1. Accedere a **[!UICONTROL Regole di frequenza dei messaggi]** , quindi fai clic su **[!UICONTROL Crea regola]**.
+1. Accedi all’elenco delle **[!UICONTROL Regole di frequenza dei messaggi]**, quindi fai clic su **[!UICONTROL Crea regola]**.
 
    ![](assets/message-rules-create.png)
 
@@ -75,27 +75,27 @@ Per creare una nuova regola, segui la procedura riportata di seguito.
 
    >[!NOTE]
    >
-   >Attualmente solo il **[!UICONTROL Marketing]** categoria disponibile.
+   >Attualmente è disponibile solo la categoria **[!UICONTROL Marketing]**.
 
    <!--![](assets/message-rules-details.png)-->
 
-1. Dalla sezione **[!UICONTROL Durata]** , selezionare un intervallo di tempo per la limitazione da applicare.
+1. Dall’elenco a discesa **[!UICONTROL Durata]**, seleziona un arco temporale in cui applicare la limitazione.
 
    ![](assets/message-rules-capping-duration.png)
 
-   Il limite di frequenza si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’intervallo di tempo corrispondente.
+   Il limite di frequenza si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
 
    La scadenza del contatore per ciascun periodo è la seguente:
 
    <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
 
-   * **[!UICONTROL Ogni settimana]**: il limite di frequenza è valido fino a sabato 23:59:59 UTC della settimana, poiché la settimana solare inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59
+   * **[!UICONTROL Settimanale]**: il limite di frequenza è valido fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
 
-   * **[!UICONTROL Mensile]**: il limite di frequenza è valido fino all’ultimo giorno del mese alle ore 23:59:59 UTC Ad esempio, la scadenza mensile per gennaio è 01-31 23:59:59 UTC
+   * **[!UICONTROL Mensile]**: il limite di frequenza è valido fino all’ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
 
-   &lt;!—NOTA: quando si tratta di [segmentazione batch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} è consigliato. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+   &lt;!—NOTA: questa opzione è consigliata quando si tratta di [segmentazione in batch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}.<!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
 
-1. Imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese o settimana <!--or day--> - in base alla selezione precedente.
+1. Imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese o settimana <!--or day-->, in base alla selezione precedente.
 
    <!--![](assets/message-rules-capping.png)-->
 
@@ -105,19 +105,19 @@ Per creare una nuova regola, segui la procedura riportata di seguito.
 
    >[!NOTE]
    >
-   >Devi selezionare almeno un canale per poter creare la regola.
+   >Per poter creare il messaggio, devi selezionare almeno un canale.
 
-1. Seleziona diversi canali se desideri applicare il limite su tutti i canali selezionati come conteggio totale.
+1. Se desideri applicare il limite come conteggio totale su tutti i canali selezionati, seleziona diversi canali.
 
-   Ad esempio, imposta il limite su 15 e seleziona sia il canale e-mail che quello push. Se un profilo ha già ricevuto 10 e-mail marketing e 5 notifiche push di marketing per il periodo selezionato, verrà escluso dalla consegna successiva di eventuali e-mail marketing o notifiche push.
+   Ad esempio, imposta il limite su 15 e seleziona sia il canale e-mail che quello push. Se un profilo ha già ricevuto 10 e-mail marketing e 5 notifiche push di marketing nel periodo selezionato, verrà escluso dalla consegna successiva di eventuali e-mail marketing o notifiche push.
 
-1. Clic **[!UICONTROL Salva come bozza]** per confermare la creazione della regola. Il messaggio viene aggiunto all’elenco di regole, con **[!UICONTROL Bozza]** stato.
+1. Fai clic su **[!UICONTROL Salva come bozza]** per confermare la creazione della regola. Il messaggio viene aggiunto all’elenco dei messaggi nello stato **[!UICONTROL Bozza]**.
 
    ![](assets/message-rules-created.png)
 
 ## Attivare una regola {#activate-rule}
 
-Una volta creata, una regola di frequenza dei messaggi presenta **[!UICONTROL Bozza]** e non influisce ancora su alcun messaggio. Per abilitarla, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Attiva]**.
+Una volta creata, una regola di frequenza dei messaggi è in stato **[!UICONTROL Bozza]** e non influisce ancora su alcun messaggio. Per abilitarla, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Attiva]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -139,27 +139,27 @@ Lo stato della regola verrà modificato in **[!UICONTROL Inattivo]** e la regola
 
 ## Applicare una regola di frequenza a un messaggio {#apply-frequency-rule}
 
-Per applicare una regola di frequenza a un messaggio, segui la procedura riportata di seguito.
+Per applicare una regola di frequenza a un messaggio, segui i passaggi riportati qui sotto.
 
-1. Durante la creazione di un’ [percorso](../building-journeys/journey-gs.md), aggiungi un messaggio selezionando uno dei canali definiti per la regola.
+1. Durante la creazione di un [percorso](../building-journeys/journey-gs.md), aggiungi un messaggio selezionando uno dei canali definiti per la regola.
 
-1. Seleziona la categoria definita per il [regola creata](#create-new-rule).
+1. Seleziona la categoria definita per la [regola creata](#create-new-rule).
 
    ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
-   >Attualmente solo il **[!UICONTROL Marketing]** La categoria è disponibile per le regole di frequenza dei messaggi.
+   >Attualmente, per le regole di frequenza dei messaggi è disponibile solo la categoria **[!UICONTROL Marketing]**.
 
-1. Puoi fare clic su **[!UICONTROL Regola di frequenza]** per visualizzare la schermata delle regole di frequenza in una nuova scheda. [Ulteriori informazioni](#access-rules)
+1. Puoi fare clic sul collegamento **[!UICONTROL Regola di frequenza]** per visualizzare la schermata delle regole di frequenza in una nuova scheda. [Ulteriori informazioni](#access-rules)
 
    Tutte le regole di frequenza corrispondenti alla categoria e ai canali selezionati verranno applicate automaticamente a questo messaggio.
 
    >[!NOTE]
    >
-   >Messaggi in cui è selezionata la categoria **[!UICONTROL Transazionale]** non verrà valutato in base alle regole di frequenza.
+   >I messaggi in cui è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
 
-1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto globale](../reports/global-report.md), e nella [Rapporto live](../reports/live-report.md), in cui le regole di frequenza saranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
+1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto globale](../reports/global-report.md) e in [Rapporto live](../reports/live-report.md), in cui le regole di frequenza saranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
 
 >[!NOTE]
 >
@@ -169,23 +169,23 @@ Per applicare una regola di frequenza a un messaggio, segui la procedura riporta
 
 Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’esempio seguente.
 
-1. [Creare una regola](#create-new-rule) ha chiamato *Limiti di marketing complessivi*:
+1. [Crea una regola](#create-new-rule) denominata *Limiti di marketing complessivi*:
 
    * Seleziona tutti i canali.
-   * Imposta il limite su 12 mensili.
+   * Imposta il limite su 12 al mese.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
-1. Per limitare ulteriormente il numero di notifiche push basate sul marketing inviate da un utente, crea una seconda regola denominata *Limite marketing push*:
+1. Per limitare ulteriormente il numero di notifiche push basate sul marketing inviate a un utente, crea una seconda regola denominata *Limite marketing push*:
 
    * Seleziona Canale push.
-   * Imposta il limite su 4 mensili.
+   * Imposta il limite su 4 al mese.
 
    ![](assets/message-rules-ex-push-cap.png)
 
-1. Salva e [attivare](#activate-rule) la regola.
+1. Salva e [attiva](#activate-rule) la regola.
 
-1. [Creare un messaggio](../building-journeys/journeys-message.md) per ogni canale attraverso cui desideri comunicare e seleziona la **[!UICONTROL Marketing]** categoria per ogni messaggio. [Scopri come applicare una regola di frequenza](#apply-frequency-rule)
+1. [Crea un messaggio](../building-journeys/journeys-message.md) per ogni canale attraverso cui desideri comunicare e seleziona la categoria **[!UICONTROL Marketing]** per ogni messaggio. [Scopri come applicare una regola di frequenza](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -208,11 +208,11 @@ Create a direct mail and select the **[!UICONTROL Marketing]** category for that
 
 In questo scenario, un singolo profilo:
 * può ricevere fino a 12 messaggi di marketing al mese;
-* ma sarà escluso dalle notifiche push di marketing dopo aver ricevuto 4 notifiche push.
+* ma sarà escluso dalle notifiche push di marketing dopo averne ricevute 4.
 
 >[!NOTE]
 >
->Quando si esegue il test delle regole di frequenza, si consiglia di utilizzare una nuova [profilo di test](../audience/creating-test-profiles.md), poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+>Quando si esegue il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
 
 ## Video introduttivo {#video}
 
