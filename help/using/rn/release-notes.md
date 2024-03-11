@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 54%
+source-wordcount: '1146'
+ht-degree: 69%
 
 ---
 
@@ -38,13 +38,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Messaggistica Web in-app</strong><br/></th>
+<th><strong>Messaggistica web in-app</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi utilizzare la nuova funzionalità di messaggistica Web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la fidelizzazione e i tassi di conversione degli utenti.<br/><br/></p>
+<p>Ora puoi utilizzare la nuova funzionalità di messaggistica web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la conservazione e i tassi di conversione degli utenti.<br/><br/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../in-app/create-in-app-web.md">documentazione dettagliata</a>.<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
@@ -75,13 +75,13 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Tipi di pubblico**
 
-* **Elenchi seed** - Le varianti sono ora supportate quando si utilizza **elenchi seed**. Gli indirizzi seed ricevono una copia di tutte le varianti dello stesso messaggio (ad esempio i diversi trattamenti di un esperimento sui contenuti). [Ulteriori informazioni](../configuration/seed-lists.md)
+* **Elenchi seed**: quando si utilizzano gli **elenchi seed**, adesso sono supportate le varianti. Gli indirizzi seed ricevono una copia di tutte le varianti dello stesso messaggio (ad esempio i diversi trattamenti di un esperimento sui contenuti). [Ulteriori informazioni](../configuration/seed-lists.md)
 
-Precedentemente disponibili come versione beta, i seguenti miglioramenti sono ora disponibili per tutti gli utenti:
+Precedentemente disponibili in versione beta, i seguenti miglioramenti sono ora disponibili per tutti gli utenti:
 
-* Ora puoi eseguire il targeting **tipi di pubblico creati tramite la composizione del pubblico** e sfruttano gli attributi di arricchimento nei Percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
+* Ora puoi eseguire il targeting dei **tipi di pubblico creati tramite la composizione del pubblico** e sfruttare gli attributi di arricchimento nei percorsi. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
-* Ora puoi eseguire il targeting **pubblico caricato da un file CSV** in percorsi e campagne. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
+* Ora puoi eseguire il targeting di **tipi di pubblico caricati da un file CSV** nei percorsi e nelle campagne. [Ulteriori informazioni](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
@@ -90,18 +90,18 @@ Precedentemente disponibili come versione beta, i seguenti miglioramenti sono or
 
 **Percorsi**
 
-* **Filtrare i percorsi** - È ora possibile utilizzare **date personalizzate per filtrare i percorsi** magazzino, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici. [Ulteriori informazioni](../building-journeys/journey-gs.md#filter)
+* **Filtrare i percorsi**: è ora possibile utilizzare inventari di **date personalizzate per filtrare i percorsi**, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici. [Ulteriori informazioni](../building-journeys/journey-gs.md#filter)
 * **Azioni personalizzate** - È ora possibile aggiornare **content-type** intestazione. Questo nuovo **content-type** deve fare riferimento al contenuto JSON. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
-* **Configurazione** : l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come &quot;primary = true&quot;. [Ulteriori informazioni](../reports/sharing-field-list.md)
-* **Interfaccia utente** - La barra superiore, nelle schermate di percorso, è stata riorganizzata per offrire un’esperienza migliore. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
+* **Configurazione**: l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come &quot;primary = true&quot;. [Ulteriori informazioni](../reports/sharing-field-list.md)
+* **Interfaccia utente**: la barra superiore, nelle schermate del percorso, è stata riorganizzata per offrire un’esperienza migliorata. Tra i diversi aggiornamenti, l’icona &quot;matita&quot; che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#change-properties)
 
 **Canale SMS**
 
-* **Parole chiave di consenso/rinuncia** - Durante la configurazione del canale SMS, ora puoi personalizzare la **Parole chiave di consenso e rinuncia** in base alle tue preferenze. Journey Optimizer attiva la risposta in base a queste parole chiave specificate. [Ulteriori informazioni](../sms/sms-configuration.md#create-api)
+* **Parole chiave di consenso/rinuncia**: durante la configurazione del canale SMS, ora puoi personalizzare le **parole chiave di consenso e rinuncia** in base alle tue preferenze. Journey Optimizer attiva la risposta in base a queste parole chiave specificate. [Ulteriori informazioni](../sms/sms-configuration.md#create-api)
 
 **Campagne**
 
-* **Campagne attivate da API** : è stato migliorato il codice cURL generato dopo l’attivazione di una campagna attivata da API. Ora include tutte le variabili di personalizzazione (profilo e contesto) utilizzate nel messaggio. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md#execute)
+* **Campagne attivate da API**: è stato migliorato il codice cURL generato dopo l’attivazione di una campagna attivata da API. Ora include tutte le variabili di personalizzazione (profilo e contesto) utilizzate nel messaggio. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md#execute)
 
 **Regole di frequenza**
 
@@ -191,8 +191,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Regole di frequenza**
 
-* **Limite di frequenza settimanale e giornaliero**: è ora possibile specificare il numero massimo di messaggi inviati a un profilo cliente in una settimana o in un giorno, oltre a quelli inviati in un mese. Il limite di frequenza si basa sul periodo di calendario selezionato e viene reimpostato all’inizio dell’intervallo di tempo corrispondente. [Ulteriori informazioni](../configuration/frequency-rules.md#create-new-rule)
+* **Limite di frequenza settimanale** - Ora puoi specificare il numero massimo di messaggi inviati a un profilo cliente alla settimana, oltre al mese. Il limite di frequenza si basa sul periodo di calendario selezionato e viene reimpostato all’inizio dell’intervallo di tempo corrispondente. [Ulteriori informazioni](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >Il limite di frequenza giornaliero è disponibile anche su richiesta. Contatta il rappresentante del tuo Adobe.
 
 **Gestione delle decisioni**
 

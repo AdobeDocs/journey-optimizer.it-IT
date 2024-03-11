@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1563'
 ht-degree: 13%
 
 ---
@@ -81,7 +81,7 @@ Dalla sezione **[!UICONTROL Altre azioni]** accanto a ciascun frammento, puoi:
 
 * Utilizza il **[!UICONTROL Esplora riferimenti]** per visualizzare i percorsi, le campagne o i modelli in cui viene utilizzato. [Ulteriori informazioni](#explore-references)
 
-* Copia un frammento in un’altra sandbox. <!--Learn more?-->
+<!--Copy a fragment to another sandbox.-->
 
 * Archivia un frammento. [Ulteriori informazioni](#archive-fragments)
 
