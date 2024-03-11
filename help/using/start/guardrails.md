@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Gli indirizzi IP non sono consentiti
 * Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
 * Non è possibile rimuovere le azioni personalizzate incorporate.
-* Le azioni personalizzate supportano il formato JSON solo quando si utilizzano payload di richieste o risposte. Consulta [questa pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
+* Le azioni personalizzate supportano il formato JSON solo quando si utilizzano payload di richiesta o risposta. Consulta [questa pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Quando scegli un endpoint per il targeting utilizzando un’azione personalizzata, assicurati che:
 
    * Questo endpoint possa supportare la velocità effettiva del percorso utilizzando le configurazioni della [API di limitazione](../configuration/throttling.md) o [API di limitazione di utilizzo](../configuration/capping.md) per limitarlo. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. Qualsiasi endpoint di destinazione dovrà supportare almeno 200 TPS.

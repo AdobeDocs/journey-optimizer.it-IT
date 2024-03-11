@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,27 +20,27 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB È disponibile la versione di febbraio.]
+>[!TAB La versione di febbraio è live!]
 
 Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.2 di Adobe Journey Optimizer.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Messaggistica Web in-app]
+>[!TAB Messaggistica web in-app]
 
-Ora puoi utilizzare la nuova funzionalità di messaggistica Web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la fidelizzazione e i tassi di conversione degli utenti.
+Ora puoi utilizzare la nuova funzionalità di messaggistica web in-app per visualizzare contenuti personalizzati direttamente sui siti web tramite messaggi di sovrapposizione modale. Questa funzione consente di interagire in modo efficace con i visitatori web, migliorando l’interazione, la conservazione e i tassi di conversione degli utenti.
 
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
 >[!TAB Modelli di contenuto multicanale]
 
-Oltre all’e-mail, ora sono disponibili modelli di contenuto per i seguenti canali: push, in-app, SMS e direct mailing, ciascuno dei quali dispone di tipi di modello dedicati. Per E-mail, ora puoi selezionare il tipo di contenuto, che ti consente di salvare l’oggetto come parte del modello e-mail.
+Oltre all’e-mail, ora sono disponibili modelli di contenuto per i seguenti canali: push, in-app, SMS e direct mail, ciascuno dei quali dispone di tipi di modello dedicati. Per l’e-mail, ora puoi selezionare il tipo di contenuto, che consente di salvare l’oggetto come parte del modello dell’e-mail.
 
 ![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 

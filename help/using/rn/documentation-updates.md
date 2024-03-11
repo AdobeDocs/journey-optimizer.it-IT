@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4778'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Febbraio 2024 {#feb-2024}
 
-* L’integrazione Journey Optimizer + Workfront è stata aggiunta alla pagina delle integrazioni. [Ulteriori informazioni](../start/ajo-integrations.md)
-* Sono state aggiunte informazioni su come personalizzare le rappresentazioni delle offerte in base ai dati contestuali. [Ulteriori informazioni](../offers/offer-library/add-representations.md#context-data)
-* La pagina dei guardrail è stata aggiornata con una nota sulle azioni personalizzate che supportano il formato JSON solo quando si utilizzano payload di richieste o risposte. [Ulteriori informazioni](../start/guardrails.md#custom-actions-g)
+* L’integrazione Journey Optimizer e Workfront è stata aggiunta alla pagina delle integrazioni. [Ulteriori informazioni](../start/ajo-integrations.md)
+* Sono state aggiunte delle informazioni su come personalizzare le rappresentazioni delle offerte in base ai dati contestuali. [Ulteriori informazioni](../offers/offer-library/add-representations.md#context-data)
+* La pagina dei guardrail è stata aggiornata con una nota sulle azioni personalizzate che supportano il formato JSON solo quando si utilizzano payload di richiesta o risposta. [Ulteriori informazioni](../start/guardrails.md#custom-actions-g)
 * Sono state aggiunte ulteriori informazioni sul tipo di autenticazione di base nelle origini dati esterne. [Ulteriori informazioni](../datasource/external-data-sources.md)
-* È stata aggiunta una nota per differenziare chiaramente la [Editor espressioni percorso](../building-journeys/expression/expressionadvanced.md) dal [Editor di personalizzazione](../personalization/functions/functions.md).
+* È stata aggiunta una nota per differenziare chiaramente l’[editor di espressioni di Journey](../building-journeys/expression/expressionadvanced.md) dall’[editor di personalizzazione](../personalization/functions/functions.md).
 * L’elenco delle funzioni disponibili nell’editor di espressioni avanzate è stato aggiornato. [Ulteriori informazioni](../building-journeys/expression/functions.md)
-* La pagina sulla funzione di divisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
+* La pagina sulla funzione di suddivisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
 * Sono state aggiunte informazioni sull’impatto del consenso o del rifiuto delle notifiche push sui messaggi in-app. [Ulteriori informazioni](../in-app/create-in-app.md)
-* La pagina Regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni Durata disponibili nell’interfaccia utente (settimanale o mensile). [Ulteriori informazioni](../configuration/frequency-rules.md)
-* La sezione Modificare un record PTR è stata aggiornata per chiarire il fatto che i record PTR non possono essere creati manualmente e che è necessario modificare i record PTR per assegnare loro nuovi sottodomini. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-record)
+* La pagina delle regole di frequenza dei messaggi è stata aggiornata per riflettere le opzioni di durata disponibili nell’interfaccia utente (settimanale o mensile). [Ulteriori informazioni](../configuration/frequency-rules.md)
+* La sezione Modificare un record PTR è stata aggiornata per chiarire il fatto che i record PTR non possono essere creati manualmente e che è necessario modificarli per assegnare loro nuovi sottodomini. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-record)
 
 ## Gennaio 2024 {#jan-2024}
 

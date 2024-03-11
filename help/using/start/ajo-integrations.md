@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -80,11 +80,11 @@ Ulteriori informazioni su [Journey Optimizer + Campaign Standard](../building-jo
 
 ## Adobe Workfront {#integration-workfront}
 
-Utilizza i moduli Adobe Journey Optimizer in Adobe Workfront per creare, leggere, aggiornare o eliminare record oppure eseguire una chiamata API personalizzata all’API Adobe Journey Optimizer.
+Utilizza i moduli di Adobe Journey Optimizer in Adobe Workfront per creare, leggere, aggiornare o eliminare record oppure eseguire una chiamata API personalizzata all’API di Adobe Journey Optimizer.
 
-È disponibile una panoramica dei passaggi chiave di questa integrazione [in questo post di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+[In questo articolo di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"} è disponibile una panoramica dei passaggi chiave di questa integrazione.
 
-Ulteriori informazioni su Journey Optimizer + Adobe Workfront [nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
+Ulteriori informazioni su Journey Optimizer e Adobe Workfront [nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"}.
 
 ## Canali personalizzati {#integration-custom}
 

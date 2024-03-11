@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -82,8 +82,8 @@ Precedentemente disponibili in versione beta, i seguenti miglioramenti sono ora 
 
 **Percorsi**
 
-* **Filtrare i percorsi**: è ora possibile utilizzare inventari di **date personalizzate per filtrare i percorsi**, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o entro intervalli di tempo specifici.
-* **Azioni personalizzate** - È ora possibile aggiornare **content-type** intestazione. Questo nuovo **content-type** deve fare riferimento al contenuto JSON.
+* **Filtrare i percorsi**: è ora possibile utilizzare inventari di **date personalizzate per filtrare i percorsi**, oltre ai filtri di data predefiniti esistenti. Questo consente di perfezionare l’elenco visualizzando i percorsi creati o pubblicati in una data specifica, all’interno di un mese specifico, durante un anno intero o compresi in intervalli di tempo specifici.
+* **Azioni personalizzate**: ora puoi aggiornare l’intestazione **content-type**. Questo nuovo **content-type** dovrebbe fare riferimento al contenuto JSON.
 * **Configurazione**: l’attributo identityMap in stepEvents ora è precompilato. L’identità primaria è definita come “primary = true”.
 * **Interfaccia utente**: la barra superiore, nelle schermate del percorso, è stata riorganizzata per offrire un’esperienza migliorata. Tra i diversi aggiornamenti, l’icona a forma di “matita” che consente di accedere alle proprietà del percorso è ora visualizzata a sinistra della barra superiore, accanto al nome del percorso.
 
@@ -105,6 +105,6 @@ Precedentemente disponibili in versione beta, i seguenti miglioramenti sono ora 
 
   >[!AVAILABILITY]
   >
-  >Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un piccolo gruppo di clienti.
+  >Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
 
 * **Modelli multicanale**: i modelli di contenuto sono ora disponibili per **tutti i canali**, eccetto che per il Web. Per il canale e-mail, ora puoi selezionare il tipo (HTML o Contenuto).
