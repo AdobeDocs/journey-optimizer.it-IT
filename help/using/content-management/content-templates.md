@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1425'
 ht-degree: 10%
 
 ---
@@ -55,16 +55,6 @@ Puoi anche scegliere di visualizzare solo gli elementi creati o modificati perso
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * Per modificare il contenuto di un modello, fai clic sull’elemento desiderato dall’elenco e seleziona **[!UICONTROL Modifica contenuto]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >Quando si modifica o si elimina un modello, le campagne o i percorsi che includono il contenuto creato utilizzando questo modello non sono interessati.
+
+### Visualizza modelli come miniature {#template-thumbnails}
+
+Seleziona la **[!UICONTROL Vista griglia]** per visualizzare ogni modello come miniatura.
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>Al momento le miniature corrette possono essere generate solo per modelli di contenuto e-mail di tipo HTML.
+
+Quando aggiorni un contenuto, potresti dover attendere alcuni secondi prima che le modifiche vengano riportate nella miniatura.
 
 ## Creare modelli di contenuto {#create-content-templates}
 

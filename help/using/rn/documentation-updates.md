@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
 source-wordcount: '4831'
 ht-degree: 99%
@@ -23,6 +23,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sul limite di frequenza giornaliero, disponibile su richiesta oltre al limite settimanale o mensile. [Ulteriori informazioni](../configuration/frequency-rules.md#daily-frequency-cap)
 * La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experienci Platform. [Ulteriori informazioni](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## Febbraio 2024 {#feb-2024}
 
