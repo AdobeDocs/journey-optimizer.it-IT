@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
-workflow-type: ht
-source-wordcount: '4778'
-ht-degree: 100%
+source-git-commit: 62124981df61960fcf61d404481417c70413a2a6
+workflow-type: tm+mt
+source-wordcount: '4831'
+ht-degree: 99%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Marzo 2024 {#march-2024}
+
+* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sul limite di frequenza giornaliero, disponibile su richiesta oltre al limite settimanale o mensile. [Ulteriori informazioni](../configuration/frequency-rules.md#daily-frequency-cap)
+* La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experienci Platform. [Ulteriori informazioni](../action/consent.md)
 
 ## Febbraio 2024 {#feb-2024}
 
