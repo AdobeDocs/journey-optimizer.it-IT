@@ -9,27 +9,33 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '961'
+ht-degree: 82%
 
 ---
 
 # Utilizzare i criteri di consenso {#consent-management}
 
-Adobe Experience Platform consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei clienti. I criteri di consenso sono definiti in Adobe Experience Platform. Fai riferimento a [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy).
+<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
-In Journey Optimizer puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS.
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
->[!NOTE]
+I tuoi dati potrebbero essere soggetti a restrizioni di utilizzo definite dalla tua organizzazione o da normative legali. È quindi importante assicurarsi che le operazioni sui dati all’interno di Journey Optimizer siano conformi con [criteri di utilizzo dati](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} è consentito eseguire operazioni sui dati.
+
+Un tipo di criteri di utilizzo dei dati disponibili è **criteri di consenso**. Ti consentono di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei tuoi clienti. [Ulteriori informazioni sull’applicazione dei criteri](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+
+>[!IMPORTANT]
 >
->L’applicazione automatica del consenso è attualmente disponibile solo per le organizzazioni che hanno acquistato l’offerta aggiuntiva Healthcare Shield.
+>I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** o **Privacy e sicurezza** offerte aggiuntive.
 
-In Journey Optimizer, il consenso è definito a diversi livelli:
+Ad esempio, puoi [creare criteri di consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy){target="_blank"} ad Experience Platform, per escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS.
 
-* Durante la **configurazione di un’azione personalizzata**, è possibile definire un canale e un’azione di marketing. Consulta questa [sezione](../action/consent.md#consent-custom-action).
-* Durante l’aggiunta dell’**azione personalizzata percorso**, è possibile definire un’azione di marketing aggiuntiva. Consulta questa [sezione](../action/consent.md#consent-journey).
+In Journey Optimizer, il consenso è definito a diversi livelli. Puoi applicare i criteri di consenso alle azioni personalizzate del percorso:
+
+* Quando **configurazione di un’azione personalizzata**, puoi definire un canale e un’azione di marketing. [Ulteriori informazioni](#consent-custom-action)
+* Quando si aggiunge **azione personalizzata in un percorso**, puoi definire un’azione di marketing aggiuntiva. [Ulteriori informazioni](#consent-journey)
 
 ## Note importanti {#important-notes}
 
