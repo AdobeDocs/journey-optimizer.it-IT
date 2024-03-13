@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, funzione, espressione, percorso
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 7%
@@ -61,7 +61,7 @@ Restituisce &quot;4&quot;.
 
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
-Restituisce la rappresentazione in forma di stringa del campo dataOnly specificato (campo Data XDM), ad esempio &quot;2016-08-18&quot;.
+Restituisce la rappresentazione in forma di stringa del campo dataOnly specificato (campo Data XDM), ad esempio &quot;2023-08-18&quot;.
 
 `toString(toDuration(1520))`
 

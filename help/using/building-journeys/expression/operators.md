@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: espressione, sintassi, operatori, editor, percorso
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 5%
@@ -434,13 +434,13 @@ Esempio:
 "the current time is " + (now())
 ```
 
-Restituisce &quot;l’ora corrente è 2019-09-23T09:30:06,693Z&quot;
+Restituisce &quot;l’ora corrente è 2023-09-23T09:30:06,693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Restituisce &quot;2019-09-23T09:30:06.693Z è l&#39;ora corrente&quot;
+Restituisce &quot;2023-09-23T09:30:06.693Z è l&#39;ora corrente&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -461,16 +461,16 @@ Aggiungere una durata a un valore dateTime, dateTimeOnly o duration.
 Esempio:
 
 ```json
-(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
+(toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Restituisce un _dateTime_ 03/12/2011:30:30Z
+Restituisce un _dateTime_ 03/12/2023:30:30Z
 
 ```json
-(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
+(toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Restituisce un _dateTimeOnly_ 03/12/2011:30:30
+Restituisce un _dateTimeOnly_ 03/12/2023:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
