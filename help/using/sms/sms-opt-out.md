@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '484'
 ht-degree: 19%
 
 ---
@@ -37,6 +37,8 @@ Per impostazione predefinita, Adobe Journey Optimizer gestisce i seguenti messag
 * **Aiuto**: GUIDA.
 
 Queste parole chiave in genere attivano una risposta standard automatica dal provider di terze parti. Puoi confermarlo direttamente con il tuo provider o tramite il loro sito di documentazione.
+
+Quando utilizzi Infobip, accertati che l’azione Inoltro sia impostata su Configurazione pull.
 
 Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS funzionino in Adobe Journey Optimizer, in quanto le risposte alle parole chiave STOP, UNSTOP, START, QUIT, CANCEL, END e UNSUBSCRIBE vengono riconosciute automaticamente. Gli stati di rinuncia dei profili vengono aggiornati in tempo reale in Adobe Journey Optimizer.
 
