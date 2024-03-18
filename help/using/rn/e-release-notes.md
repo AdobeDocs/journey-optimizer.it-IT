@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
+source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 67%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -32,14 +32,17 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Esperienza basata su codice</strong><br/></th>
+<th><strong>Esperienze basate su codice</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi personalizzare e testare le esperienze che desideri fornire ai clienti in tutti i tuoi punti di contatto, ad esempio: app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, assistenti vocali, dispositivi IoT e altro ancora.</p>
-<p>Con la funzionalità di esperienza basata su codice, puoi definire le esperienze in entrata utilizzando un editor non visivo semplice e intuitivo. Questo consente di inserire e modificare elementi specifici in posizioni singole e più granulari delle app o delle pagine web, indipendentemente dal tipo di applicazione utilizzata, anziché applicare modifiche all’intero contenuto.</p><br/><br/></p>
+<p>Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.</p>
+<P>Le funzionalità principali includono:</p>
+<ul><li> Personalizzazione universale: estende le esperienze personalizzate in tutti i punti di contatto, garantendo un percorso di utenti coeso e personalizzato</li>
+<li>&gt;Editing accurato: modifica contenuti specifici in singole posizioni all'interno delle app o delle pagine web</li>
+<li>Implementazione versatile: supporto di metodi di implementazione lato server, basati su API o SDK per l’integrazione perfetta con l’ambiente di sviluppo.</li></ul></p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/get-started-code-based.md">documentazione dettagliata</a>.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
@@ -52,5 +55,12 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Modelli di contenuto**
 
-* **Miniatura**: una **vista miniature** è ora disponibile per modelli e frammenti di contenuto al fine di migliorare l’accesso visivo.
+* **Miniatura** - A **visualizzazione miniature** è ora disponibile per modelli di contenuto e frammenti per migliorare l’accesso visivo. [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
 
+**Percorsi**
+
+Sono stati aggiunti nuovi stati intermedi al ciclo di vita di authoring del percorso:
+
+* **Pubblicazione** stato tra **Bozza** stato e **Live** stato
+* **Interruzione** stato tra **Live** stato e **Interrotto** stato
+* **Attivazione della modalità di test** o **Disattivazione della modalità di test** stati tra **Bozza** stato e **Bozza (prova)** stato
