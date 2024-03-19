@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 27%
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
 >title="I sottodomini delegati vengono visualizzati qui."
->abstract="Delega il primo sottodominio. Al termine della delega, vengono creati record PTR e abilitati i canali e-mail."
+>abstract="Delegare il primo sottodominio. Al termine della delega, vengono creati record PTR e abilitati i canali e-mail."
 
 La creazione di un sottodominio per le campagne e-mail consente ai brand di isolare diversi tipi di traffico (ad esempio marketing e aziendale) in pool IP specifici e con domini specifici, velocizzando il processo di riscaldamento dell’IP e migliorando complessivamente il recapito messaggi.
 
