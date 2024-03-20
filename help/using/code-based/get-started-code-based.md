@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
+source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 80%
@@ -174,6 +174,5 @@ Le tabelle seguenti elencano alcuni esempi di definizione di URI di superficie p
 | --------- | ----------- | ------- | 
 | Web con caratteri jolly | carattere jolly:web://domain.com/`*`#element | Superficie con caratteri jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
 | Web con caratteri jolly | carattere jolly:web://`*`domain.com/`*`#element | Superficie con caratteri jolly: rappresenta un singolo elemento in ciascuna pagina sotto tutti i domini che terminano con &quot;domain.com&quot;. |
-
 
 
