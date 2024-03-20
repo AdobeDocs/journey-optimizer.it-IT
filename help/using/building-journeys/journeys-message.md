@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 17%
 
 ---
@@ -31,7 +31,7 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 * Se utilizzi Campaign e Journey Optimizer, consulta le sezioni seguenti:
 
-   * [[!DNL Journey Optimizer] e Campaign Classic v7/Campaign v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] e CAMPAIGN STANDARD](../action/acs-action.md)
 
 Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:

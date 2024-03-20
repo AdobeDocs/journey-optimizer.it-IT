@@ -7,9 +7,10 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '522'
 ht-degree: 3%
 
 ---
@@ -25,6 +26,11 @@ Oltre a [rapporti in tempo reale](live-report.md) e incorporato [funzionalità d
 Ad esempio, hai impostato un percorso che invia più e-mail. Questa funzionalità consente di combinare [!DNL Journey Optimizer] dati con dati di eventi a valle come il numero di conversioni avvenute, quanto coinvolgimento si è verificato sul sito web o quante transazioni si sono verificate nello store. Le informazioni sul percorso possono essere combinate con i dati su Adobe Experience Platform, provenienti da altre proprietà digitali o da proprietà offline, per offrire una visione più completa delle prestazioni.
 
 [!DNL Journey Optimizer] crea automaticamente gli schemi e i flussi necessari nei set di dati da Adobe Experience Platform per ogni passaggio che un singolo utente compie in un percorso. Un evento di passaggio corrisponde a un singolo spostamento da un nodo all’altro in un percorso. Ad esempio, in un percorso che ha un evento, una condizione e un’azione, vengono inviati a Adobe Experience Platform tre eventi di passaggio.
+
+In alcuni casi è possibile creare più eventi per lo stesso nodo. Ad esempio, nel caso dell’attività Attendi:
+
+* Un evento viene generato quando il profilo entra nell’attesa (l’attributo journeyNodeProcessed è uguale a false)
+* Un evento viene generato quando il profilo ne esce (l’attributo journeyNodeProcessed è uguale a true)
 
 L’elenco dei campi XDM passati è completo. Alcuni contengono codici generati dal sistema, altri nomi descrittivi leggibili dall&#39;utente. Alcuni esempi includono l’etichetta dell’attività del percorso o lo stato del passaggio: quante volte un’azione è scaduta o è terminata in errore.
 
@@ -66,4 +72,3 @@ Il flusso di lavoro generale è:
 * Per utilizzare questo set di dati in [!DNL Customer Journey Analytics], per l&#39;analisi del percorso cross-channel, fare riferimento a [Documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Utilizzare il Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

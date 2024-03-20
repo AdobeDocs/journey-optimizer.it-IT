@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Gli avvisi sulle azioni personalizzate vengono risolti quando, negli ultimi 5 mi
 
 Il nome dell’abbonamento all’evento di I/O corrispondente all’avviso di azione personalizzato è **Azione personalizzata percorso non riuscita**.
 
-## Trigger di lettura segmento non riuscito {#alert-read-audiences}
+## Attivatore Read Audience Non Riuscito {#alert-read-audiences}
 
 Questo avviso ti avvisa se **Read Audience** l’attività non ha elaborato alcun profilo 10 minuti dopo l’ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto.
 
@@ -68,3 +68,24 @@ Avvisi su **Read Audience** Le attività sono applicabili solo ai percorsi ricor
 Avvisi su **Read Audience** vengono risolti quando un profilo entra in **Read Audience** nodo.
 
 Il nome dell’abbonamento all’evento di I/O corrispondente al **Trigger di lettura segmento non riuscito** l&#39;avviso è **Ritardi, errori ed errori percorsi nella lettura del segmento**.
+
+## Risoluzione dei problemi {#alert-troubleshooting}
+
+Per risolvere i problemi **Read Audience** avvisi, controlla il conteggio del pubblico nell’interfaccia di Experienci Platform.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+Per risolvere i problemi **Azione personalizzata** avvisi:
+
+* Controlla l’azione personalizzata utilizzando la modalità di test in un altro percorso:
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* Controlla il report di percorso per visualizzare i motivi dell’errore durante l’azione.
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* Controlla il tuo stepEvents di percorso per cercare ulteriori informazioni su &quot;failureReason&quot;.
+* Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Esegui un controllo manuale con Postman, ad esempio.

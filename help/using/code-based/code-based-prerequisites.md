@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 12%
+source-wordcount: '430'
+ht-degree: 3%
 
 ---
 
 # Prerequisiti e guardrail {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione al canale basato su codice](get-started-code-based.md)
-* **[Prerequisiti basati su codice](code-based-prerequisites.md)**
-* [Esempi di implementazione per esperienze basate su codice](code-based-implementation-samples.md)
-* [Creare esperienze basate su codice](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 Per poter utilizzare le azioni basate su codice nelle [!DNL Journey Optimizer] e consegnare il payload del contenuto del codice che può essere utilizzato dalle applicazioni, segui i prerequisiti seguenti:
 
@@ -37,9 +23,11 @@ Per poter utilizzare le azioni basate su codice nelle [!DNL Journey Optimizer] e
 
 ## Note di attenzione {#caution-notes-web}
 
-* Il canale per esperienze basate su codice è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
-
 * Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo in **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>Per il momento, il canale di esperienza basato su codice non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
 
 ## Prerequisiti per l’implementazione {#implementation-prerequisites}
 

@@ -9,27 +9,27 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integrazione
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 22%
+source-wordcount: '496'
+ht-degree: 20%
 
 ---
 
-# Integrare con Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Integrare con Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Azioni Adobe Campaign v7/v8"
->abstract="Questa integrazione è disponibile per Adobe Campaign Classic v7 e v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign. La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning."
+>abstract="Questa integrazione è disponibile per Adobe Campaign v7 e v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign. La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning."
 
-Questa integrazione è disponibile per Adobe Campaign Classic v7 a partire dalla versione 7.1 e per Adobe Campaign v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
+Questa integrazione è disponibile per Adobe Campaign v7/v8 a partire dalla versione 7.1 e per Adobe Campaign v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
 La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning.
 
 Un caso d’uso end-to-end è presentato in questo [sezione](../building-journeys/ajo-ac.md).
 
-Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Consulta questa [sezione](../building-journeys/using-adobe-campaign-classic.md).
+Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Consulta questa [sezione](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 ## Note importanti {#important-notes}
 

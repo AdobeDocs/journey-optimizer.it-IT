@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 7%
+source-wordcount: '1630'
+ht-degree: 8%
 
 ---
 
@@ -89,7 +89,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Impossibile procedere con la creazione della superficie mentre il pool IP selezionato si trova in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
+   >Impossibile procedere con la creazione della superficie e-mail mentre il pool IP selezionato si trova in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
    >
    >Salva la superficie come sformo e attendi che il pool IP abbia **[!UICONTROL Completato]** stato per riprendere la creazione della superficie.
 

@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
@@ -49,11 +49,6 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
       <th>Tasti di scelta rapida</th>
     </tr>
   </thead>
-  <tr>
-    <td>Elenco percorsi, azioni, origini dati o eventi</td>
-    <td>Creare un percorso, un’azione, un’origine dati o un evento</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">Area di lavoro del percorso in stato bozza</td>
     <td>Aggiungi un’attività dalla palette a sinistra nella prima posizione disponibile, dall’alto verso il basso</td>
@@ -107,23 +102,6 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
   <tr>
     <td>Ignora le modifiche e chiudi il riquadro di configurazione</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Percorso in modalità di test</td>
-    <td>Attivare o disattivare la modalità di test</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Attivare un evento in un percorso basato su eventi</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>Attivare un evento in un percorso basato sul pubblico per il quale è attivata l’opzione **[!UICONTROL Singolo profilo per volta]**</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>Visualizzare i registri di test</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

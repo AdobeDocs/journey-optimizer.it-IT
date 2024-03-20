@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni sul framework per la governance dei dati e su come ut
 
 ## Note importanti {#important-notes}
 
-* La governance dei dati si applica solo alle azioni personalizzate nei percorsi. Le azioni di Campaign Classic e Campaign Standard non sono supportate.
+* La governance dei dati si applica solo alle azioni personalizzate nei percorsi. Le azioni di Campaign v7/v8 e Campaign Standard non sono supportate.
 * I criteri di governance si applicano solo quando un’azione di marketing (obbligatoria o aggiuntiva) è impostata a livello di azione personalizzata.
 
 ## Definire i criteri di governance {#governance-policies}

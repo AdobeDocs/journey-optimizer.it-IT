@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 12%
+source-wordcount: '2378'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 12%
 
 Per iniziare a creare un’e-mail, devi impostare superfici di canale e-mail che definiscano tutti i parametri tecnici richiesti per i messaggi. [Scopri come creare le superfici](../configuration/channel-surfaces.md)
 
-Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie di canale.
+>[!NOTE]
+>
+>Per preservare la tua reputazione e migliorare il recapito dei messaggi, imposta i sottodomini da utilizzare per l’invio di e-mail prima di creare una superficie e-mail. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
+
+Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie di canale, come descritto di seguito.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ Quando crei un messaggio, devi scegliere una superficie di canale valida che cor
 
 ## Sottodominio e pool IP {#subdomains-and-ip-pools}
 
-In **Sottodominio e pool IP** sezione, è necessario:
+In **Sottodominio e pool IP** , compilare i campi obbligatori come indicato di seguito.
 
-1. Seleziona il sottodominio da utilizzare per inviare le e-mail. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
+1. Seleziona il sottodominio da utilizzare per inviare le e-mail.
+
+   Per preservare la reputazione del dominio, velocizza il processo di riscaldamento dell’IP e migliora il recapito messaggi, delega i sottodomini di invio ad Adobe. [Ulteriori informazioni](../configuration/about-subdomain-delegation.md)
 
 1. Selezionare il pool IP da associare alla superficie. [Ulteriori informazioni](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-Impossibile procedere con la creazione della superficie mentre il pool IP selezionato si trova in [edizione](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione meno recente dell’associazione pool IP/sottodominio. In questo caso, salva la superficie come sformo e riprova una volta che il pool IP ha **[!UICONTROL Completato]** stato.
+   Impossibile procedere con la creazione della superficie mentre il pool IP selezionato si trova in [edizione](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione meno recente dell’associazione pool IP/sottodominio. In questo caso, salva la superficie come sformo e riprova una volta che il pool IP ha **[!UICONTROL Completato]** stato.
 
->[!NOTE]
->
->Per gli ambienti non di produzione, Adobe non crea sottodomini di test predefiniti né concede l’accesso a un pool IP di invio condiviso. È necessario [delegare i propri sottodomini](../configuration/delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
+   >[!NOTE]
+   >
+   >Per gli ambienti non di produzione, Adobe non crea sottodomini di test predefiniti né concede l’accesso a un pool IP di invio condiviso. È necessario [delegare i propri sottodomini](../configuration/delegate-subdomain.md) e utilizza gli IP del pool assegnato alla tua organizzazione.
 
-Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si passa il puntatore del mouse sugli indirizzi IP visualizzati sotto l&#39;elenco a discesa del pool IP. [Ulteriori informazioni sui record PTR](../configuration/ptr-records.md)
+1. Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si passa il puntatore del mouse sugli indirizzi IP visualizzati sotto l&#39;elenco a discesa del pool IP. [Ulteriori informazioni sui record PTR](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->Se non è configurato alcun record PTR, contatta il rappresentante del tuo Adobe.
+   >[!NOTE]
+   >
+   >Se non è configurato alcun record PTR, contatta il rappresentante del tuo Adobe.
 
 ## Annullamento iscrizione mailing list {#list-unsubscribe}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '4831'
-ht-degree: 99%
+source-wordcount: '5046'
+ht-degree: 95%
 
 ---
 
@@ -21,12 +21,24 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Marzo 2024 {#march-2024}
 
+* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di marzo 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
+* È stata migliorata la pagina sulla gestione dell’ingresso del profilo. [Ulteriori informazioni](../building-journeys/entry-management.md)
+* Le informazioni sulla risoluzione dei problemi sono state aggiunte alla pagina Avvisi. [Ulteriori informazioni](../reports/alerts.md#alert-troubleshooting)
+* Le informazioni sull’attività Attendi sono state aggiunte alla pagina dei rapporti del percorso. [Ulteriori informazioni](../reports/sharing-overview.md)
+* Per i Percorsi in modalità di test, le seguenti scelte rapide sono state disattivate:
+   * T: collegamento per attivare o disattivare la modalità di test.
+   * E: Collegamento utilizzato per attivare un evento in un percorso basato su eventi.
+   * P: Collegamento per attivare un evento in un percorso basato su pubblico per il quale è attivata l’opzione Singolo profilo alla volta.
+   * L: Scelta rapida designata per visualizzare i registri di test.
 * La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sul limite di frequenza giornaliero, disponibile su richiesta oltre al limite settimanale o mensile. [Ulteriori informazioni](../configuration/frequency-rules.md#daily-frequency-cap)
 * La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experienci Platform. [Ulteriori informazioni](../action/consent.md)
-  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
+* È stata aggiunta una nuova sezione per riflettere il fatto che è possibile visualizzare i modelli di contenuto e-mail di HTML come miniature con la modalità Visualizzazione griglia (disponibilità limitata). [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
+* È stata aggiunta una nuova sezione alla pagina Recapito messaggi per spiegare cosa sono i cicli di feedback e come sfruttarli. [Ulteriori informazioni](../reports/deliverability.md#feedback-loops)
+* È stata aggiunta una nota alla sezione Creare offerte personalizzate per specificare che le dimensioni di un’offerta, incluse tutte le sue rappresentazioni, non possono superare i 300 KB. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## Febbraio 2024 {#feb-2024}
 
+* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione del 24 febbraio è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * L’integrazione Journey Optimizer e Workfront è stata aggiunta alla pagina delle integrazioni. [Ulteriori informazioni](../start/ajo-integrations.md)
 * Sono state aggiunte delle informazioni su come personalizzare le rappresentazioni delle offerte in base ai dati contestuali. [Ulteriori informazioni](../offers/offer-library/add-representations.md#context-data)
 * La pagina dei guardrail è stata aggiornata con una nota sulle azioni personalizzate che supportano il formato JSON solo quando si utilizzano payload di richiesta o risposta. [Ulteriori informazioni](../start/guardrails.md#custom-actions-g)

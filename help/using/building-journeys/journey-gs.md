@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 16%
+source-wordcount: '1977'
+ht-degree: 15%
 
 ---
 
@@ -79,17 +79,30 @@ Nell’elenco dei percorsi, puoi sfruttare diversi filtri per perfezionare l’e
 
 Di seguito sono elencate le varie operazioni di filtro che è possibile eseguire:
 
-* Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dal **[!UICONTROL Filtri di stato e di versione]**.
+Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dal **[!UICONTROL Filtri di stato e di versione]**.
 
-  Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
+Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]**, **[!UICONTROL Evento di business]** o **[!UICONTROL Burst]**.
 
-* Utilizza il **[!UICONTROL Creazione di filtri]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
+Lo stato può essere:
 
-* Visualizza i percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifica del **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri dati]**.
+* **Chiuso**: il percorso è stato chiuso utilizzando **Chiudi ai nuovi ingressi** pulsante. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
+* **Bozza**: il percorso è alla sua prima fase. Non è ancora stato pubblicato.
+* **Bozza (prova)**: la modalità di test è stata attivata utilizzando **Modalità di test** pulsante.
+* **Completato**: il percorso passa automaticamente a questo stato dopo il timeout globale predefinito di 30 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
+* **Live**: il percorso è stato pubblicato utilizzando **Pubblica** pulsante.
+* **Interrotto**: il percorso è stato spento utilizzando **Interrompi** pulsante. Tutti gli individui escono immediatamente dal percorso.
 
-* Utilizza il **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
+>[!NOTE]
+>
+>Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
 
-  Per filtrare i percorsi in base a un intervallo di date specifico, seleziona **[!UICONTROL Personalizzato]** dal **[!UICONTROL Pubblicato]** elenco a discesa.
+Utilizza il **[!UICONTROL Creazione di filtri]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
+
+Visualizza i percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifica del **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri dati]**.
+
+Utilizza il **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
+
+Per filtrare i percorsi in base a un intervallo di date specifico, seleziona **[!UICONTROL Personalizzato]** dal **[!UICONTROL Pubblicato]** elenco a discesa.
 
 Inoltre, nei riquadri di configurazione Evento, Origine dati e Azione, il **[!UICONTROL Utilizzato in]** in questo campo viene visualizzato il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 

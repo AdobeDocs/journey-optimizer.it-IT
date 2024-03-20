@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '966'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori i
 
 ## Riduci la percentuale di reclami {#reduce-complaint-rate}
 
-Gli ISP di solito dispongono di un mezzo importante per segnalare un messaggio ricevuto come spam. In questo modo è possibile individuare fonti inaffidabili. Rispettando rapidamente le richieste di rinuncia e dimostrando quindi di essere un mittente affidabile, puoi ridurre la percentuale di reclami. [Ulteriori informazioni sulla gestione delle rinunce](../privacy/opt-out.md#opt-out-management).
+Gli ISP di solito dispongono di un mezzo importante per segnalare un messaggio ricevuto come spam. In questo modo è possibile individuare fonti inaffidabili. Rispettando rapidamente le richieste di rinuncia e dimostrando quindi di essere un mittente affidabile, puoi ridurre la percentuale di reclami. [Ulteriori informazioni sulla gestione delle rinunce](../privacy/opt-out.md#opt-out-management)
 
 Come regola generale, non cercare di intralciare i destinatari che desiderano rinunciare richiedendo loro di compilare campi come il loro indirizzo e-mail o nome, ad esempio. La pagina di destinazione per l’annullamento dell’abbonamento deve avere un solo pulsante di convalida.
 
@@ -51,7 +51,7 @@ Presta particolare attenzione quando richiedi una conferma aggiuntiva: un utente
 
 Per proteggere il recapito messaggi, i destinatari i cui indirizzi sono inclusi nell’elenco di soppressione sono esclusi per impostazione predefinita da tutte le consegne future, perché l’invio a tali contatti potrebbe danneggiare la reputazione del mittente.
 
-[Ulteriori informazioni sull’elenco di soppressione](suppression-list.md).
+[Ulteriori informazioni sull’elenco di soppressione](suppression-list.md)
 
 ## Utilizzare gli strumenti di monitoraggio {#monitoring-tools}
 
@@ -71,10 +71,88 @@ Per migliorare il tasso di recapito dei messaggi e assicurarti che le e-mail arr
 
 * **Collegamento e pagina di destinazione per annullare l’abbonamento**: il collegamento per annullare l’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
 
-[Ulteriori informazioni sulla progettazione di contenuti e-mail](../email/get-started-email-design.md).
+[Ulteriori informazioni sulla progettazione di contenuti e-mail](../email/get-started-email-design.md)
 
-## Stabilisci la tua reputazione di mittente
+## Stabilisci la tua reputazione di mittente {#reputation}
 
 Se recentemente sei passato a un altro provider di servizi e-mail, indirizzo IP o dominio o sottodominio e-mail, devi stabilire la tua reputazione di mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nella cartella di posta indesiderata della cassetta postale dei destinatari.
 
-Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Vedi questo [caso d’uso](../building-journeys/ramp-up-deliveries-uc.md).
+Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Ulteriori informazioni [caso d’uso](../building-journeys/ramp-up-deliveries-uc.md).
+
+## Implementazione DMARC {#dmarc}
+
+Per attenuare il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e per evitare problemi di recapito, [!DNL Journey Optimizer] consente di impostare un record DMARC per tutti i sottodomini a cui deleghi Adobe.
+
+DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio dall&#39;uso non autorizzato da parte di utenti malintenzionati.
+
+[Ulteriori informazioni sul record DMARC](../configuration/dmarc-record.md)
+
+## Scopri i cicli di feedback {#feedback-loops}
+
+Un feedback loop (FBL) è un servizio offerto da alcuni ISP che consente al mittente dell’e-mail di ricevere automaticamente una notifica quando l’utente che riceve un’e-mail sceglie di contrassegnarla come spam (noto anche come &quot;reclamo&quot;).
+
+Dopo che un utente finale genera un reclamo che viene rimandato all&#39;Adobe dall&#39;ISP, l&#39;indirizzo e-mail viene aggiunto automaticamente al [elenco di soppressione](../reports/suppression-list.md) ed esclusi dalle consegne future. In effetti, l’invio di e-mail agli utenti che le hanno contrassegnate come spam influisce negativamente sulla reputazione del mittente e può causare problemi di recapito messaggi. [Ulteriori informazioni sui reclami di spam](../reports/suppression-list.md#spam-complaints)
+
+>[!IMPORTANT]
+>
+>Non tutti gli ISP forniscono un FBL tradizionale, come ad esempio Gmail. Gmail non offre feedback a livello individuale e non può essere utilizzato per tenere traccia dei reclami spam per singoli destinatari, concentrandosi invece sul reporting a livello aggregato all’interno dei loro strumenti Google Postmaster. [Ulteriori informazioni](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+
+Tutti i clienti Adobe vengono automaticamente iscritti ai FBL tradizionali dei seguenti ISP:
+
+* 1&amp;1
+
+* AOL
+
+* Cravatta blu
+
+* Comcast
+
+* Fastmail
+
+* Gandi
+
+* Italia Online
+
+* La Poste
+
+* Liberty Global (violoncello, UPC, Unity Media)
+
+* Locaweb
+
+* Mail.RU
+
+* Microsoft
+
+* OpenSRS
+
+* Rackspace
+
+* SEZNM
+
+* SFR
+
+* SilverSky
+
+* Swisscom
+
+* Synacor
+
+* Telecom Italia
+
+* Telenet
+
+* Telenor
+
+* Telstra
+
+* Terra
+
+* UOL
+
+* Elementi multimediali vergini
+
+* Yahoo
+
+* Ziggo
+
+L’Adobe controlla regolarmente questi FBL per garantire che vengano aggiunti i più recenti FBL disponibili.

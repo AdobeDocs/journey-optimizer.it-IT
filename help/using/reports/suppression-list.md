@@ -8,10 +8,10 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 12%
+source-wordcount: '828'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ I destinatari i cui indirizzi e-mail vengono soppressi vengono automaticamente e
 
 Gli indirizzi vengono aggiunti all’elenco di soppressione come segue:
 
-* Tutti **mancati recapiti permanenti** e **reclami spam** invia automaticamente gli indirizzi corrispondenti all’elenco di soppressione dopo una singola occorrenza.
+* Tutti **mancati recapiti permanenti** e **reclami spam** invia automaticamente gli indirizzi corrispondenti all’elenco di soppressione dopo una singola occorrenza. Ulteriori informazioni sui reclami di spam in [questa sezione](#spam-complaints).
 
 * **Mancati recapiti non permanenti** non inviare immediatamente un indirizzo all’elenco di soppressione, ma incrementa un contatore di errori. Diversi [nuovi tentativi](../configuration/retries.md) vengono quindi eseguiti e, quando il contatore di errori raggiunge la soglia, l’indirizzo viene aggiunto all’elenco di soppressione.
 
@@ -81,3 +81,5 @@ L’elenco di soppressione raccoglie gli indirizzi e-mail che contrassegnano il 
 L’invio a destinatari dopo l’invio di un reclamo spam può avere un impatto enorme sulla reputazione del mittente, in quanto informa gli ISP che puoi inviare e-mail indesiderate e che non ascolti i destinatari.
 
 Questo poteva causare il blocco dell’indirizzo IP o del dominio di invio, che poteva essere evitato inserendo tali indirizzi nell’elenco di soppressione.
+
+Alcuni ISP offrono un ciclo di feedback (FBL) che consente al mittente dell’e-mail di ricevere automaticamente una notifica quando l’utente che riceve un’e-mail sceglie di contrassegnarla come spam. [Ulteriori informazioni](deliverability.md#feedback-loops)
