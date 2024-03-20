@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '864'
 ht-degree: 9%
 
 ---
@@ -67,7 +67,7 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 
 ## Prerequisiti {#prerequisites}
 
-Per esportare i set di dati, è necessario [autorizzazioni di controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) elencate di seguito. Leggi le [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) oppure contatta l’amministratore del prodotto per ottenere le autorizzazioni necessarie.
+Per esportare i set di dati, è necessario [autorizzazioni di controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} oppure contatta l’amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
 | Categoria | Autorizzazione |
 |--|--|
@@ -75,15 +75,15 @@ Per esportare i set di dati, è necessario [autorizzazioni di controllo degli ac
 | Gestione dati | Visualizzare i set di dati |
 | Destinazioni | Visualizza destinazioni |
 
-## Passaggi principali per esportare i set di dati {#main-steps}
+## Passaggi chiave per esportare i set di dati {#main-steps}
 
 I passaggi principali per esportare un set di dati in una posizione di archiviazione cloud sono i seguenti:
 
 ![](assets/dataset-export-process.png)
 
-Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazione di Adobe Experience Platform: [Esportare i set di dati nelle destinazioni dell’archiviazione cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it).
+Informazioni dettagliate su ciascuna fase sono disponibili in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}.
 
-1. **Configurare la destinazione dell’archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. [Scopri come creare una nuova connessione di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **Configurare la destinazione dell’archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. Scopri come creare una nuova connessione di destinazione in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazi
 
    >[!NOTE]
    >
-   >Se utilizzi Adobe Journey Optimizer insieme ai profili cliente in tempo reale, le schede di destinazione visualizzano un pulsante &quot;Attiva&quot; che consente di esportare set di dati e attivare tipi di pubblico per questa destinazione, a seconda delle autorizzazioni abilitate.
+   >Se utilizzi Adobe Journey Optimizer insieme ai profili cliente in tempo reale, le schede di destinazione visualizzeranno un **Attiva** , che consente di esportare set di dati e attivare tipi di pubblico per questa destinazione, a seconda delle autorizzazioni abilitate.
 
 1. **Seleziona i set di dati** che desideri esportare nella destinazione selezionata. [Ulteriori informazioni sui set di dati di Journey Optimizer disponibili per l’esportazione](#datasets)
 
@@ -107,4 +107,4 @@ Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazi
 
    <!--![](assets/dataset-export-review.png)-->
 
-Una volta completata l’esportazione, il contenuto del set di dati viene depositato nella posizione di archiviazione cloud in base alla pianificazione configurata. [Scopri come verificare l’esportazione corretta del set di dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+Una volta completata l’esportazione, il contenuto del set di dati viene depositato nella posizione di archiviazione cloud in base alla pianificazione configurata. [Scopri come verificare l’esportazione corretta del set di dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
