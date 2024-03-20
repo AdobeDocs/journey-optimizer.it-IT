@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
-workflow-type: ht
-source-wordcount: '385'
-ht-degree: 100%
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,19 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di febbraio è live!]
+>[!TAB La versione di marzo è live!]
 
-Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.2 di Adobe Journey Optimizer.
+Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.3 di Adobe Journey Optimizer.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Esperienze basate su codice]
+
+Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Messaggistica web in-app]
 
@@ -33,14 +41,6 @@ Ora puoi utilizzare la nuova funzionalità di messaggistica web in-app per visua
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB Modelli di contenuto multicanale]
-
-Oltre all’e-mail, ora sono disponibili modelli di contenuto per i seguenti canali: push, in-app, SMS e direct mail, ciascuno dei quali dispone di tipi di modello dedicati. Per l’e-mail, ora puoi selezionare il tipo di contenuto, che consente di salvare l’oggetto come parte del modello dell’e-mail.
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
