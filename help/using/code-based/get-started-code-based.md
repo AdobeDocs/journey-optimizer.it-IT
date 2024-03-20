@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 88%
+source-wordcount: '1138'
+ht-degree: 80%
 
 ---
 
@@ -144,37 +144,31 @@ In altre parole, una superficie può essere vista come un contenitore a qualsias
 * Può anche essere una superficie con caratteri jolly che corrisponde a una varietà di definizioni di superficie client (ad esempio, la posizione di un’immagine principale su ogni pagina del sito web potrebbe tradursi in un URI di superficie come: web://mydomain.com/*#hero_image).
 
 Fondamentalmente, un URI di superficie è composto da più sezioni:
-1. **Tipo**: web, ios, android, atm, kiosk, tvcd, service, ecc.
+1. **Tipo**: web, mobileapp, atm, chiosco, tvcd, servizio, ecc.
 1. **Proprietà**: URL della pagina o bundle dell’app
 1. **Contenitore**: posizione nell’attività pagina/app
 
 Le tabelle seguenti elencano alcuni esempi di definizione di URI di superficie per vari dispositivi.
 
-**Web e dispositivi mobili**
+### Web e dispositivi mobili
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | Rappresenta un singolo percorso e una singola pagina di un sito web. |
-| Web | web://domain.com/path/page.html#element | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico. |
-| Web | web://domain.com/*#element | Superficie con caratteri jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
-| App iOS | mobileapp://com.vendor.bundle | Rappresenta un’applicazione mobile specifica per una singola piattaforma, in questo caso l’app iOS. |
-| App iOS | mobileapp://com.vendor.bundle/activity | Rappresenta un’attività specifica (vista) all’interno di un’app mobile. |
-| App iOS | mobileapp://com.vendor.bundle/activity#element | Rappresenta un elemento specifico all’interno di un’attività, ad esempio un pulsante o un altro elemento della vista. |
-| App Android | mobileapp://com.vendor.bundle | Rappresenta un’app mobile specifica per una singola piattaforma, in questo caso un’app Android. |
+| Web | web://domain.com/path/page.html#element | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico, dove un elemento può essere un’etichetta come negli esempi seguenti: hero_banner, top_nav, menu, piè di pagina, ecc. |
+| App iOS | mobileapp://com.vendor.bundle/activity#element | Rappresenta un elemento specifico all’interno di un’attività nativa dell’app, ad esempio un pulsante o un altro elemento di visualizzazione. |
+| App Android | mobileapp://com.vendor.bundle#element | Rappresenta un elemento specifico di un&#39;app nativa. |
 
-**Altri tipi di dispositivi**
+### Altri tipi di dispositivi
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle | Rappresenta un’applicazione desktop specifica. |
 | Desktop | desktop://com.vendor.bundle#element | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
-| app tvOS | tvos://com.vendor.bundle | Rappresenta un’app tvOS specifica. |
-| App TV | tvcd://com.vendor.bundle | Rappresenta un’app per dispositivi collegati a smart TV o TV specifica - ID pacchetto. |
-| Servizio | service://servicename | Rappresenta un processo lato server o altra entità manuale. |
-| Chiosco | kiosk://location/screen | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
-| ATM | atm://location/screen | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
+| App TV | tvcd://com.vendor.bundle#element | Rappresenta un elemento specifico all’interno di un’app per dispositivi connessi a smart TV o TV - ID bundle. |
+| Servizio | service://servicename#element | Rappresenta un processo lato server o altra entità manuale. |
+| Chiosco | kiosk://location/screen#element | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
+| ATM | atm://location/screen#element | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
 
-**Superfici con caratteri jolly**
+### Superfici con caratteri jolly
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
