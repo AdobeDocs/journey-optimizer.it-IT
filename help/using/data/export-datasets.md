@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 5%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -37,9 +37,33 @@ Informazioni dettagliate su ciascuna destinazione sono disponibili nella documen
 * [Archiviazione cloud Google](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
-## Set di dati di Journey Optimizer disponibili per l’esportazione {#datasets}
+## Set di dati disponibili per l’esportazione {#datasets}
 
-Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare a seconda del livello di prodotto (consulta [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |Set di dati|Descrizione|Livello| | ------- | ------- | ------- | | Set di dati evento feedback Ccn AJO | Set di dati evento feedback Ccn AJO | Prime | | Set di dati di classificazione AJO | Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e push da Journey Optimizer. Creato tramite SDK. | Prime | | Set di dati del servizio di consenso AJO | Memorizza le informazioni sul consenso di un profilo. | Prime | | Set di dati evento esperienza tracciamento e-mail AJO | Registri di interazione per il canale e-mail utilizzato a scopo di reporting e creazione di tipi di pubblico.  | Prime | | Set di dati entità AJO | Set di dati per memorizzare i metadati di entità per i messaggi inviati all’utente finale.  | Prime | | Set di dati evento attività in entrata AJO | Set di dati per canali web e inApp Journey Optimizer per eventi di consegna e interazione. | Prime | | Set di dati profilo messaggistica interattiva AJO | Memorizza i profili creati per supportare le campagne attivate da API | Prime | | Set di dati evento feedback messaggio AJO | Registri di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. In questo set di dati viene registrato anche il feedback degli ISP e-mail sui messaggi non recapitati. | Prime | | Estensione contatori profilo AJO | Contiene una mappa di oggetti contenente counter_value e expiryDate, con chiave counter_id | Prime | | Set di dati profilo push AJO | Memorizza i token di push di un profilo. | Prime | | Set di dati evento di tracciamento push AJO | Registri di interazione per il canale push, utilizzato a scopo di reporting e creazione di tipi di pubblico.  | Prime | | Set di dati superfici AJO | Set di dati vuoto relativo allo schema delle superfici in entrata di Journey Optimizer | Prime | | AOOutputForUPSDataset | Contiene tutte le appartenenze al pubblico AO da riscrivere su UPS | Prime | | Set di dati profilo di orchestrazione pubblico | Generato dalla composizione del pubblico per i tipi di pubblico di Composizione del pubblico. Contiene tutti i tipi di pubblico di Composizione del pubblico, i loro attributi e i dati di arricchimento | Prime | | Archivio oggetti decisione - Attività | noto anche come Decisioni nell’interfaccia utente di. Ma questi sono gli oggetti che un utente crea che mettono insieme tutti i blocchi predefiniti, inclusa la logica decisionale. Ad esempio, per un particolare posizionamento (posizione), quali offerte devono essere considerate (raccolta di offerte) e quale metodo di classificazione utilizzare su tali offerte. | Ultimate | | Archivio oggetti decisione - Offerte di fallback | questo è l’archivio per l’altro tipo di offerta creato da un utente. In particolare, se non sono idonei a visualizzare un’offerta personalizzata e hanno bisogno di vedere qualcosa, vedranno almeno l’offerta di fallback. Questo set di dati contiene gli attributi per questo tipo di offerta | Ultimate | | Archivio di oggetti decisionali - Offerte personalizzate | questo è l’archivio per un tipo di offerta creato da un utente. Questo set di dati contiene gli attributi di questo tipo di offerta | Ultimate | | Archivio oggetti decisione - Posizionamenti | questo è l’archivio degli oggetti che definiscono la posizione in cui deve essere visualizzata un’offerta. | Ultimate | | Eventi passaggio percorso | Acquisisce tutti gli eventi di esperienza delle fasi del Percorso generati da Journey Optimizer e destinati a essere utilizzati da servizi come Reporting. | Prime | | Percorsi | Set di dati di metadati che contiene le informazioni di ogni passaggio di un percorso | Prime | | ODE DecisionEvents - Prod Decisioning | Ogni volta che prendiamo una decisione in base a una richiesta, la consideriamo un evento decisionale | Ultimate |
+Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare.
+
+| Set di dati | Descrizione |
+| ------- | ------- | 
+| Set di dati evento feedback Ccn AJO | Set di dati evento feedback Ccn AJO |
+| Set di dati di classificazione AJO | Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e push da Journey Optimizer. Creato tramite SDK. |
+| Set di dati del servizio di consenso AJO | Memorizza le informazioni sul consenso di un profilo. |
+| Set di dati evento esperienza di tracciamento e-mail AJO | Registri di interazione per il canale e-mail utilizzato a scopo di reporting e creazione di tipi di pubblico.  |
+| Set di dati di entità AJO | Set di dati per memorizzare i metadati di entità per i messaggi inviati all’utente finale.  |
+| Set di dati evento attività in entrata AJO | Set di dati per canali web e inApp Journey Optimizer per eventi di consegna e interazione. |
+| Set di dati profilo messaggistica interattiva AJO | Memorizza i profili creati per supportare le campagne attivate da API |
+| Set di dati evento feedback messaggio AJO | Registri di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati. |
+| Estensione contatori profilo AJO | Contiene una mappa di oggetti contenente counter_value e expiryDate, con chiave counter_id |
+| Set di dati profilo push AJO | Memorizza i token di push di un profilo. |
+| Set di dati evento di tracciamento push AJO | Registri di interazione per il canale push, utilizzato a scopo di reporting e creazione di tipi di pubblico.  |
+| Set di dati superfici AJO | Set di dati vuoto relativo allo schema delle superfici in entrata di Journey Optimizer |
+| AOOutputForUPSDataset | Contiene tutte le appartenenze al pubblico AO da riscrivere su UPS |
+| Set di dati profilo di orchestrazione pubblico | Generato dalla composizione del pubblico per i tipi di pubblico di Composizione del pubblico. Contiene tutti i tipi di pubblico di Composizione del pubblico, i loro attributi e i dati di arricchimento |
+| Archivio oggetti decisione - Attività | noto anche come Decisioni nell’interfaccia utente di. Ma questi sono gli oggetti che un utente crea che mettono insieme tutti i blocchi predefiniti, inclusa la logica decisionale. Ad esempio, per un particolare posizionamento (posizione), quali offerte devono essere considerate (raccolta di offerte) e quale metodo di classificazione utilizzare su tali offerte. |
+| Archivio oggetti decisione - Offerte di fallback | questo è l’archivio per l’altro tipo di offerta creato da un utente. In particolare, se non sono idonei a visualizzare un’offerta personalizzata e hanno bisogno di vedere qualcosa, vedranno almeno l’offerta di fallback. Questo set di dati contiene gli attributi per questo tipo di offerta |
+| Archivio di oggetti decisionali - Offerte personalizzate | questo è l’archivio per un tipo di offerta creato da un utente. Questo set di dati contiene gli attributi di questo tipo di offerta | Ultimate |
+| Archivio oggetti decisione - Posizionamenti | questo è l’archivio degli oggetti che definiscono la posizione in cui deve essere visualizzata un’offerta. |
+| Eventi passaggio percorso | Acquisisce tutti gli eventi di esperienza delle fasi del Percorso generati da Journey Optimizer e destinati a essere utilizzati da servizi come Reporting. |
+| Percorsi | Set di dati di metadati che contiene le informazioni di ogni passaggio di un percorso |
+| ODE DecisionEvents - Prod Decisioning | Ogni volta che prendiamo una decisione in base a una richiesta, la consideriamo un evento decisionale |
 
 ## Prerequisiti {#prerequisites}
 
@@ -57,7 +81,7 @@ I passaggi principali per esportare un set di dati in una posizione di archiviaz
 
 ![](assets/dataset-export-process.png)
 
-Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazione di Adobe Experience Platform: [Esportare i set di dati nelle destinazioni dell’archiviazione cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
+Informazioni dettagliate su ciascun passaggio sono disponibili nella documentazione di Adobe Experience Platform: [Esportare i set di dati nelle destinazioni dell’archiviazione cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it).
 
 1. **Configurare la destinazione dell’archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. [Scopri come creare una nuova connessione di destinazione](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
 
