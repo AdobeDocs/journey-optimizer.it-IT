@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '613'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,6 @@ Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzional
 
 * Con **journey designer**, genera casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
 
-
 >[!NOTE]
 >
 >Per i guardrail e le limitazioni applicabili ai percorsi, visita [questa pagina](../start/guardrails.md).
@@ -40,6 +39,8 @@ Puoi progettare scenari avanzati a più passaggi basati sulle seguenti funzional
 Utilizza Adobe Journey Optimizer per progettare e orchestrare percorsi personalizzati da un’unica area di lavoro. I passaggi principali per creare un percorso sono i seguenti:
 
 ![](assets/journey-creation-process.png)
+
+➡️ [Scopri questa funzione nel video](#video)
 
 Adobe Journey Optimizer include un’area di lavoro di orchestrazione omni-channel, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente consente di trascinare facilmente le attività dalla palette all’area di lavoro, per generare il tuo percorso.
 
@@ -103,3 +104,9 @@ Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a 
 È possibile interrompere le versioni di percorso singolarmente. Tutte le versioni di un percorso hanno lo stesso nome.
 
 Quando pubblichi una nuova versione di un percorso, la versione precedente termina automaticamente e il suo stato diventa **Chiuso**. Un percorso chiuso non accetta alcun ingresso. Anche se si interrompe la versione più recente, la versione precedente rimane chiusa.
+
+## Video introduttivo {#video}
+
+Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

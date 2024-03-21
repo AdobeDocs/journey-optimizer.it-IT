@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1983'
 ht-degree: 15%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 15%
 >id="ajo_homepage_card2"
 >title="Creare i percorsi"
 >abstract="Utilizza **Adobe Journey Optimizer** per generare l’orchestrazione in tempo reale per diversi casi d’uso, sfruttando i dati contestuali provenienti da eventi od origini dati."
+
+
 
 ## Prerequisiti{#start-prerequisites}
 
@@ -111,6 +113,8 @@ Inoltre, nei riquadri di configurazione Evento, Origine dati e Azione, il **[!UI
 ## Creare il percorso{#jo-build}
 
 Questo passaggio viene eseguito da **utente aziendale**. Qui è dove si creano i percorsi. Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
+
+➡️ [Scopri questa funzione nel video](journey.md#video)
 
 Di seguito sono riportati i passaggi principali per l’invio di messaggi tramite percorsi:
 
