@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1005'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo in **campagne**.
 
-Guardrail e raccomandazioni sono descritti in [questa pagina](code-based-prerequisites.md).
+Guardrail e raccomandazioni specifici per esperienze basate su codice sono descritti in [questa pagina](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >

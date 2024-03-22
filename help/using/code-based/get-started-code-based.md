@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 >
 >* Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo utilizzando **campagne**.
 >
->>* Il canale di esperienza basato su codice non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+>* Il canale di esperienza basato su codice è **non disponibile** per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,7 +45,7 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 <img alt="Convalida" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Prerequisiti</strong></a>
+<a href="code-based-prerequisites.md"><strong>Guardrail e prerequisiti</strong></a>
 </div>
 <p>
 </td>

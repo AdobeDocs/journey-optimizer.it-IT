@@ -1,15 +1,15 @@
 ---
-title: Prerequisiti per l’esperienza basata su codice
+title: Guardrail e prerequisiti per l’esperienza basati su codice
 description: Per poter modificare app e pagine web utilizzando la funzione basata su codice di Journey Optimizer, segui i prerequisiti riportati in questa pagina
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 3%
+source-wordcount: '427'
+ht-degree: 2%
 
 ---
 
@@ -21,14 +21,12 @@ Per poter utilizzare le azioni basate su codice nelle [!DNL Journey Optimizer] e
 
 * Affinché le esperienze basate sul codice possano essere consegnate correttamente, assicurati di definire in dettaglio le impostazioni di Adobe Experience Platform [qui](#delivery-prerequisites).
 
-
-## Note di attenzione {#caution-notes-web}
-
-* Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo in **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Per il momento, il canale di esperienza basato su codice non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+>* Il canale di esperienza basato su codice non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+>
+>* Puoi creare esperienze basate su codice solo in **campagne**. [Ulteriori informazioni](../campaigns/create-campaign.md#configure
+
 
 ## Prerequisiti per l’implementazione {#implementation-prerequisites}
 
