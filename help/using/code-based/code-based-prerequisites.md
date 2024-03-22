@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
 
 ---
 
-# Prerequisiti e guardrail {#web-prerequisites}
+# Guardrail e prerequisiti {#web-prerequisites}
 
 Per poter utilizzare le azioni basate su codice nelle [!DNL Journey Optimizer] e consegnare il payload del contenuto del codice che può essere utilizzato dalle applicazioni, segui i prerequisiti seguenti:
 
 * Per aggiungere modifiche alle applicazioni, è necessario disporre di un’implementazione specifica. [Ulteriori informazioni](#implementation-prerequisites)
 
 * Affinché le esperienze basate sul codice possano essere consegnate correttamente, assicurati di definire in dettaglio le impostazioni di Adobe Experience Platform [qui](#delivery-prerequisites).
+
 
 ## Note di attenzione {#caution-notes-web}
 

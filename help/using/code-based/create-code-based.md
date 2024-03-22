@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 8%
+source-wordcount: '1001'
+ht-degree: 7%
 
 ---
 
 # Creare esperienze basate su codice {#create-code-based}
+
+Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo in **campagne**.
+
+Guardrail e raccomandazioni sono descritti in [questa pagina](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 8%
 ## Creare una campagna basata su codice {#create-code-based-campaign}
 
 Per iniziare a creare l’esperienza basata su codice tramite una campagna, segui i passaggi indicati di seguito.
-
->[!CAUTION]
->
->Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo utilizzando **campagne**.
 
 1. Creare una campagna. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 
 1. Seleziona **[!UICONTROL Crea]**.
 
-1. Completa i passaggi per creare una campagna, ad esempio le proprietà, [pubblico](../audience/about-audiences.md), e [pianificazione](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
+1. Completa i passaggi per creare una campagna, ad esempio le proprietà, [pubblico](../audience/about-audiences.md), e [pianificazione](../campaigns/create-campaign.md#schedule). Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
 1. Modifica il contenuto come desideri utilizzando l’editor di espressioni. [Ulteriori informazioni](#edit-code)
 
@@ -100,7 +96,7 @@ Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare i
 >title="Visualizzare l’esperienza basata su codice in anteprima"
 >abstract="Ottieni una simulazione dell’aspetto che avrà l’esperienza basata su codice."
 
-Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito. Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione  [Anteprima e verifica della pagina di contenuto](../content-management/preview-test.md).
+Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito. Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Anteprima e verifica della pagina di contenuto](../content-management/preview-test.md).
 
 >[!CAUTION]
 >
