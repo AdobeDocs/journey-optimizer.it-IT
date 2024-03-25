@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5046'
+source-wordcount: '5073'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Marzo 2024 {#march-2024}
 
+* È stata aggiunta la sezione Domande frequenti per rispondere alle domande comuni sull’utilizzo della composizione del pubblico e dei tipi di pubblico personalizzati da caricare in Journey Optimizer. [Ulteriori informazioni](../audience/about-audiences.md#faq)
 * Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di marzo 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stata migliorata la pagina sulla gestione dell’ingresso del profilo. [Ulteriori informazioni](../building-journeys/entry-management.md)
 * Le informazioni sulla risoluzione dei problemi sono state aggiunte alla pagina Avvisi. [Ulteriori informazioni](../reports/alerts.md#alert-troubleshooting)
@@ -30,8 +31,8 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
    * E: Collegamento utilizzato per attivare un evento in un percorso basato su eventi.
    * P: Collegamento per attivare un evento in un percorso basato su pubblico per il quale è attivata l’opzione Singolo profilo alla volta.
    * L: Scelta rapida designata per visualizzare i registri di test.
-* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sul limite di frequenza giornaliero, disponibile su richiesta oltre al limite settimanale o mensile. [Ulteriori informazioni](../configuration/frequency-rules.md#daily-frequency-cap)
-* La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experienci Platform. [Ulteriori informazioni](../action/consent.md)
+* La pagina Regole di frequenza dei messaggi è stata aggiornata con una nuova sottosezione sulla quota limite giornaliera, disponibile su richiesta oltre al limite settimanale o mensile. [Ulteriori informazioni](../configuration/frequency-rules.md#daily-frequency-cap)
+* La pagina Utilizzare i criteri di consenso è stata migliorata e aggiornata con collegamenti utili alla documentazione di Experience Platform. [Ulteriori informazioni](../action/consent.md)
 * È stata aggiunta una nuova sezione per riflettere il fatto che è possibile visualizzare i modelli di contenuto e-mail di HTML come miniature con la modalità Visualizzazione griglia (disponibilità limitata). [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
 * È stata aggiunta una nuova sezione alla pagina Recapito messaggi per spiegare cosa sono i cicli di feedback e come sfruttarli. [Ulteriori informazioni](../reports/deliverability.md#feedback-loops)
 * È stata aggiunta una nota alla sezione Creare offerte personalizzate per specificare che le dimensioni di un’offerta, incluse tutte le sue rappresentazioni, non possono superare i 300 KB. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md#create-offer)

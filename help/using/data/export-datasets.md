@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 9%
@@ -56,7 +56,7 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 | Set di dati evento di tracciamento push AJO | Registri di interazione per il canale push, utilizzato a scopo di reporting e creazione di tipi di pubblico.  |
 | Set di dati superfici AJO | Set di dati vuoto relativo allo schema delle superfici in entrata di Journey Optimizer |
 | AOOutputForUPSDataset | Contiene tutte le appartenenze al pubblico AO da riscrivere su UPS |
-| Set di dati profilo di orchestrazione pubblico | Generato dalla composizione del pubblico per i tipi di pubblico di Composizione del pubblico. Contiene tutti i tipi di pubblico di Composizione del pubblico, i loro attributi e i dati di arricchimento |
+| Set di dati profilo di orchestrazione pubblico | Generato dalla composizione del pubblico per i tipi di pubblico di composizione del pubblico. Contiene tutti i tipi di pubblico di composizione del pubblico, i loro attributi e i dati di arricchimento |
 | Archivio oggetti decisione - Attività | noto anche come Decisioni nell’interfaccia utente di. Ma questi sono gli oggetti che un utente crea che mettono insieme tutti i blocchi predefiniti, inclusa la logica decisionale. Ad esempio, per un particolare posizionamento (posizione), quali offerte devono essere considerate (raccolta di offerte) e quale metodo di classificazione utilizzare su tali offerte. |
 | Archivio oggetti decisione - Offerte di fallback | questo è l’archivio per l’altro tipo di offerta creato da un utente. In particolare, se non sono idonei a visualizzare un’offerta personalizzata e hanno bisogno di vedere qualcosa, vedranno almeno l’offerta di fallback. Questo set di dati contiene gli attributi per questo tipo di offerta |
 | Archivio di oggetti decisionali - Offerte personalizzate | questo è l’archivio per un tipo di offerta creato da un utente. Questo set di dati contiene gli attributi di questo tipo di offerta | Ultimate |

@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '680'
 ht-degree: 5%
 
 ---
@@ -78,6 +78,10 @@ Leggi percorsi di pubblico può essere ricorrente o occasionale:
 Per i percorsi di pubblico Leggi ricorrenti sono disponibili due opzioni:
 
 * **Lettura incrementale** opzione: quando un percorso con un **Read audience** viene eseguito per la prima volta, tutti i profili nel pubblico entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
+
+  >[!NOTE]
+  >
+  >Se esegui il targeting di un [pubblico di caricamento personalizzato](../audience/about-audiences.md#segments-in-journey-optimizer) nel tuo percorso, i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
 
 * **Forza rientro in caso di ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza (ad esempio, se utilizzi le attività Attendi), non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
 

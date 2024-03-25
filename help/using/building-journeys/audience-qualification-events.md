@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 11%
+source-wordcount: '1081'
+ht-degree: 10%
 
 ---
 
@@ -37,13 +37,18 @@ Questo tipo di evento può essere posizionato come primo passaggio o successivam
 
 * Tieni presente che i tipi di pubblico di Adobe Experience Platform vengono calcolati una volta al giorno (**batch** pubblico) o in tempo reale (**streaming** pubblico, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di Adobe Experience Platform).
 
-* Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale. Se il pubblico è batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso quando il calcolo del pubblico viene eseguito su Adobe Experience Platform.
+   * Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale.
+   * Se il pubblico è batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso quando il calcolo del pubblico viene eseguito su Adobe Experience Platform.
+
+  Come best practice, consigliamo quindi di utilizzare solo i tipi di pubblico in streaming in una **Qualificazione del pubblico** attività. Per i casi di utilizzo in batch, utilizza una **[Read audience](read-audience.md)** attività.
+
+  >[!NOTE]
+  >
+  >A causa della natura batch dei tipi di pubblico creati utilizzando flussi di lavoro di composizione e caricamento personalizzato, non puoi indirizzarli a un’attività &quot;Qualificazione del pubblico&quot;. Solo i tipi di pubblico creati utilizzando le definizioni dei segmenti possono essere utilizzati in questa attività.
 
 * I gruppi di campo di evento esperienza non possono essere utilizzati in percorsi che iniziano con un’attività Read audience, Audience Qualification o Business Event.
 
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
-
-* Come best practice, consigliamo di utilizzare solo pubblici in streaming per **Qualificazione del pubblico** attività. Per i casi di utilizzo in batch, utilizza **[Read audience](read-audience.md)** attività.
 
 ### Configurare l’attività{#cnfigure-segment-qualification}
 
