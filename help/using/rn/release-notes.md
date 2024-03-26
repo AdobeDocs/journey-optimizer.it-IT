@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -43,11 +43,11 @@ Questa versione include la nuova funzionalità descritta di seguito.
 <tbody>
 <tr>
 <td>
-<p>Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.</p>
+<p>Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi per TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.</p>
 <P>Le funzionalità principali includono:</p>
-<ul><li> Personalizzazione universale: estende le esperienze personalizzate in tutti i punti di contatto, garantendo un percorso di utenti coeso e personalizzato</li>
+<ul><li> Personalizzazione universale: estende le esperienze personalizzate in tutti i punti di contatto, garantendo un percorso utenti coeso e personalizzato</li>
 <li>Precisione granulare nella modifica: modifica contenuti specifici in singole posizioni all’interno delle app o delle pagine web</li>
-<li>Implementazione versatile: supporto di metodi di implementazione lato server, basati su API o SDK per l’integrazione perfetta con l’ambiente di sviluppo.</li></ul></p>
+<li>Implementazione versatile: supporto per metodi di implementazione lato server, basati su API o SDK per l’integrazione diretta con l’ambiente di sviluppo.</li></ul></p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/get-started-code-based.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/code-based.gif">
 </tr>
@@ -60,7 +60,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Modelli di contenuto**
 
-* **Miniature** - A **Vista griglia** la modalità è ora disponibile per i modelli di contenuto, con miniature per un migliore accesso visivo. Al momento sono supportati solo i modelli di e-mail HTML. [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
+* **Miniature**: per i modelli di contenuto è ora disponibile la modalità **Vista a griglia**, in cui vengono visualizzate miniature dei modelli per agevolarne l’accesso visivo. Al momento sono supportati solo i modelli per e-mail HTML. [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -70,9 +70,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 Sono stati aggiunti nuovi stati intermedi al ciclo di vita di authoring del percorso:
 
-* **Pubblicazione** stato tra **Bozza** stato e **Live** stato
-* **Interruzione** stato tra **Live** stato e **Interrotto** stato
-* **Attivazione della modalità di test** o **Disattivazione della modalità di test** stati tra **Bozza** stato e **Bozza (prova)** stato
+* Stato **Pubblicazione** tra gli stati **Bozza** e **Live**
+* Stato **Interruzione** tra gli stati **Live** e **Interrotto**
+* Stati **Attivazione modalità di test** o **Disattivazione modalità di test** tra gli stati **Bozza** e **Bozza (test)**
 
 Quando un percorso si trova in uno stato intermedio, è di sola lettura. [Ulteriori informazioni](../building-journeys/journey-gs.md#filter)
 
@@ -231,11 +231,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Regole di frequenza**
 
-* **Limite di frequenza settimanale** - Ora puoi specificare il numero massimo di messaggi inviati a un profilo cliente alla settimana, oltre al mese. Il limite di frequenza si basa sul periodo di calendario selezionato e viene reimpostato all’inizio dell’intervallo di tempo corrispondente. [Ulteriori informazioni](../configuration/frequency-rules.md#create-new-rule)
+* **Quota limite settimanale**: è ora possibile specificare il numero massimo di messaggi inviati a un profilo cliente in una settimana, oltre a quelli inviati in un mese. La quota limite si basa sul periodo di calendario selezionato e viene reimpostata all’inizio dell’intervallo di tempo corrispondente. [Ulteriori informazioni](../configuration/frequency-rules.md#create-new-rule)
 
   >[!NOTE]
   >
-  >Il limite di frequenza giornaliero è disponibile anche su richiesta. Contatta il rappresentante del tuo Adobe.
+  >Su richiesta, è disponibile anche l’opzione di durata giornaliera. Contatta il tuo rappresentante Adobe.
 
 **Gestione delle decisioni**
 
