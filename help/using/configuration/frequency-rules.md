@@ -10,9 +10,9 @@ level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 949e7cd05a2b1125e13615814f6501b3906e470c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1212'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione]
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="Impostare i limiti per la regola"
->abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. Il limite di frequenza si baserà sul periodo di calendario selezionato e verrà reimpostato all’inizio dell’arco temporale corrispondente."
+>abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. La quota limite si baserà sul periodo di calendario selezionato e verrà reimpostata all’inizio dell’arco temporale corrispondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
@@ -75,11 +75,11 @@ Per creare una nuova regola, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Solo il **[!UICONTROL Marketing]** categoria disponibile.
+   >È disponibile solo la categoria **[!UICONTROL Marketing]**.
 
    ![](assets/message-rules-details.png)
 
-1. Dalla sezione **[!UICONTROL Durata]** , selezionare un intervallo di tempo per la limitazione da applicare. [Ulteriori informazioni](#frequency-cap)
+1. Dall’elenco a discesa **[!UICONTROL Durata]**, seleziona un arco temporale in cui applicare la limitazione. [Ulteriori informazioni](#frequency-cap)
 
 1. Imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese o settimana <!--or day-->, in base alla selezione precedente.
 
@@ -101,33 +101,33 @@ Per creare una nuova regola, segui i passaggi seguenti:
 
    ![](assets/message-rules-created.png)
 
-### Limite di frequenza {#frequency-cap}
+### Quota limite {#frequency-cap}
 
-Dalla sezione **[!UICONTROL Durata]** , seleziona se desideri che il limite venga applicato mensilmente o settimanalmente.
+Dall’elenco a discesa **[!UICONTROL Durata]**, seleziona se desideri che il limite venga applicato su base mensile o settimanale.
 
 >[!NOTE]
 >
->Il limite di frequenza giornaliero è disponibile anche su richiesta. [Ulteriori informazioni](#daily-frequency-cap)
+>Su richiesta, è disponibile anche l’opzione di durata giornaliera. [Ulteriori informazioni](#daily-frequency-cap)
 
-Il limite di frequenza si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
+La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
 
 ![](assets/message-rules-capping-duration.png)
 
 La scadenza del contatore per ciascun periodo è la seguente:
 
-* **[!UICONTROL Mensile]**: il limite di frequenza è valido fino all’ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
+* **[!UICONTROL Mensile]**: la quota limite è valida fino all’ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
 
-* **[!UICONTROL Settimanale]**: il limite di frequenza è valido fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
+* **[!UICONTROL Settimanale]**: la quota limite è valida fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
 
-### Limite di frequenza giornaliero {#daily-frequency-cap}
+### Quota limite giornaliera {#daily-frequency-cap}
 
-Oltre a mensilmente e settimanalmente, il limite di frequenza giornaliero è disponibile anche su richiesta. Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+Oltre alle opzioni Mensile e Settimanale, su richiesta è anche disponibile l’opzione Giornaliera. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Il limite di frequenza giornaliero è valido per il giorno fino al 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
+La quota limite giornaliera è valido per il giorno corrente fino alle 23:59:59 UTC e viene reimpostata su 0 all’inizio del giorno successivo.
 
 >[!NOTE]
 >
->Quando si tratta di [segmentazione batch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"} è consigliato. Ulteriori informazioni sui metodi di valutazione del pubblico in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Questa opzione è consigliata quando si tratta di [segmentazione in batch](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Attivare una regola {#activate-rule}
 
@@ -226,7 +226,7 @@ In questo scenario, un singolo profilo:
 
 >[!NOTE]
 >
->Quando si esegue il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+>Quando si esegue il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunta la quota limite di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
 
 ## Video introduttivo {#video}
 
