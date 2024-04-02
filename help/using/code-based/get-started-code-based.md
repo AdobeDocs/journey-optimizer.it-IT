@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 84%
+source-wordcount: '1055'
+ht-degree: 85%
 
 ---
 
@@ -145,19 +145,19 @@ Le tabelle seguenti elencano alcuni esempi di definizione di URI di superficie p
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html#element | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico, dove un elemento può essere un’etichetta come negli esempi seguenti: hero_banner, top_nav, menu, piè di pagina, ecc. |
-| App iOS | mobileapp://com.vendor.bundle/activity#element | Rappresenta un elemento specifico all’interno di un’attività nativa dell’app, ad esempio un pulsante o un altro elemento di visualizzazione. |
-| App Android | mobileapp://com.vendor.bundle/#element | Rappresenta un elemento specifico di un&#39;app nativa. |
+| Web | `web://domain.com/path/page.html#element` | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico, dove un elemento può essere un’etichetta come negli esempi seguenti: hero_banner, top_nav, menu, piè di pagina, ecc. |
+| App iOS | `mobileapp://com.vendor.bundle/activity#element` | Rappresenta un elemento specifico all’interno di un’attività nativa dell’app, ad esempio un pulsante o un altro elemento di visualizzazione. |
+| App Android | `mobileapp://com.vendor.bundle/#element` | Rappresenta un elemento specifico di un&#39;app nativa. |
 
 **Altri tipi di dispositivi**
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle/#element | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
-| App TV | tvcd://com.vendor.bundle/#element | Rappresenta un elemento specifico all’interno di un’app per dispositivi connessi a smart TV o TV - ID bundle. |
-| Servizio | service://servicename/#element | Rappresenta un processo lato server o altra entità manuale. |
-| Chiosco | kiosk://location/screen#element | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
-| ATM | atm://location/screen#element | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
+| Desktop | `desktop://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
+| App TV | `tvcd://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’app per dispositivi connessi a smart TV o TV - ID bundle. |
+| Servizio | `service://servicename/#element` | Rappresenta un processo lato server o altra entità manuale. |
+| Chiosco | `kiosk://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
+| ATM | `atm://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
 
 **Superfici con caratteri jolly**
 

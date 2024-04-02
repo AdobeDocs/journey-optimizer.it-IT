@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1392'
 ht-degree: 99%
@@ -49,7 +49,7 @@ Questa versione include la nuova funzionalità descritta di seguito.
 <li>Precisione granulare nella modifica: modifica contenuti specifici in singole posizioni all’interno delle app o delle pagine web</li>
 <li>Implementazione versatile: supporto per metodi di implementazione lato server, basati su API o SDK per l’integrazione diretta con l’ambiente di sviluppo.</li></ul></p>
 <p>Per ulteriori informazioni, consulta la <a href="../code-based/get-started-code-based.md">documentazione dettagliata</a>.</p>
-<img src="assets/do-not-localize/code-based.gif">
+<img src="assets/do-not-localize/code-based.gif"> 
 </tr>
 </tbody>
 </table>
@@ -113,7 +113,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>Oltre all’e-mail, ora sono disponibili modelli di contenuto per i seguenti canali: push, in-app, SMS e direct mail, ciascuno dei quali dispone di tipi di modello dedicati. Per l’e-mail, ora puoi selezionare il tipo di contenuto, che consente di salvare l’oggetto come parte del modello dell’e-mail. <br/><br/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/content-templates.md">documentazione dettagliata</a>.<br></br></p>
-<img src="assets/do-not-localize/multi-chan-templates.gif">
+<img src="assets/do-not-localize/multi-chan-templates.gif"> 
 </tr>
 </tbody>
 </table>
