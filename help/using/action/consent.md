@@ -10,9 +10,9 @@ level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Ad esempio, puoi [creare i criteri di consenso](https://experienceleague.adobe.c
     
     To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
 
-A livello di percorso, puoi applicare i criteri di consenso alle azioni personalizzate:
+A livello di percorso, puoi applicare questi criteri di consenso alle azioni personalizzate.
 
 * Durante la **configurazione di un’azione personalizzata**, puoi definire un canale e un’azione di marketing. [Ulteriori informazioni](#consent-custom-action)
 * Durante l’aggiunta dell’**azione personalizzata in un percorso**, puoi definire un’azione di marketing aggiuntiva. [Ulteriori informazioni](#consent-journey)
@@ -87,7 +87,7 @@ Therefore, in this example, any [email](../email/create-email.md) using that sur
 
 ### Note importanti {#important-notes}
 
-In Journey Optimizer, il consenso può <!--also -->nelle azioni personalizzate. Se desideri utilizzarlo con le funzionalità dei messaggi incorporati, è necessario utilizzare un’attività di condizione per filtrare i clienti nel percorso.
+In Journey Optimizer, il consenso può <!--also -->essere sfruttato nelle azioni personalizzate. Se desideri utilizzarlo con le funzionalità dei messaggi incorporati, è necessario utilizzare un’attività di condizione per filtrare i clienti nel percorso.
 
 Con la gestione del consenso vengono analizzate due attività del percorso:
 
@@ -118,11 +118,11 @@ There are two types of latency regarding the use of consent policies:
 
 Durante la configurazione di un’azione personalizzata, è possibile utilizzare due campi per la gestione del consenso.
 
-Il campo **Canale** consente di selezionare il canale correlato a questa azione personalizzata: **E-mail**, **SMS** oppure **Notifica push**. Precompila il **Azione di marketing richiesta** con l’azione di marketing predefinita per il canale selezionato. Se si seleziona **altro**, per impostazione predefinita non è definita alcuna azione di marketing.
+Il campo **Canale** consente di selezionare il canale correlato a questa azione personalizzata: **E-mail**, **SMS** oppure **Notifica push**. Il campo **Azione di marketing richiesta** verrà precompilato con l’azione di marketing predefinita per il canale selezionato. Selezionando **Altro**, non verrà definita alcuna azione di marketing per impostazione predefinita.
 
 ![](assets/consent1.png)
 
-L’**Azione di marketing richiesta** consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi l’azione personalizzata per inviare e-mail utilizzando una terza parte, puoi selezionare **Targeting e-mail**. Quando vengono utilizzati in un percorso, tutti i criteri di consenso associati a tale azione di marketing vengono recuperati e utilizzati. È selezionata un’azione di marketing predefinita, ma puoi fare clic sulla freccia in giù per selezionare dall’elenco le azioni di marketing disponibili.
+L’**Azione di marketing richiesta** consente di definire l’azione di marketing correlata all’azione personalizzata. Ad esempio, se utilizzi l’azione personalizzata per inviare e-mail utilizzando una terza parte, puoi selezionare **Targeting e-mail**. Se tale azione di marketing viene utilizzata in un percorso, tutti i criteri di consenso ad essa associati verranno recuperati e utilizzati. È selezionata un’azione di marketing predefinita, ma puoi fare clic sulla freccia in giù per selezionare dall’elenco le azioni di marketing disponibili.
 
 ![](assets/consent2.png)
 
@@ -153,7 +153,7 @@ Nella parte superiore della schermata sono riportati il **Canale** e l’**Azion
 
 ![](assets/consent4.png)
 
-Puoi definire un’**Azione di marketing aggiuntiva** per impostare il tipo di azione personalizzata. Questo consente di definire lo scopo dell’azione personalizzata in questo percorso. Oltre all’azione di marketing richiesta, solitamente specifica per un canale, puoi definire un’azione di marketing aggiuntiva specifica per l’azione personalizzata in questo particolare percorso. Ad esempio: una comunicazione di allenamento, una newsletter, una comunicazione fitness, ecc. Vengono applicate sia l’azione di marketing richiesta che quella aggiuntiva.
+Puoi definire un’**Azione di marketing aggiuntiva** per impostare il tipo di azione personalizzata. Questo consente di definire lo scopo dell’azione personalizzata in questo percorso. Oltre all’azione di marketing richiesta, solitamente specifica per un canale, puoi definire un’azione di marketing aggiuntiva specifica per l’azione personalizzata in questo particolare percorso. Ad esempio: una comunicazione di allenamento, una newsletter, una comunicazione fitness, ecc. Verranno applicate sia l’azione di marketing richiesta che quella aggiuntiva.
 
 ![](assets/consent3.png)
 

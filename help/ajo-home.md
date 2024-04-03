@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.3 di Ado
 
 >[!TAB Esperienze basate su codice]
 
-Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, consentendo la distribuzione diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi alla TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.
+Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, facilitando la consegna diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi per TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.
 
 ![](using/rn/assets/do-not-localize/code-based.gif)
 
