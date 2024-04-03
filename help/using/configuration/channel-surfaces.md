@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
 source-wordcount: '1651'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -51,8 +51,8 @@ Una volta configurate le superfici di canale, potrai selezionarle durante la cre
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="Seleziona un’azione di marketing"
->abstract="Scegli un’azione di marketing nell’area per associare al messaggio un criterio di consenso."
+>title="Selezionare un’azione di marketing"
+>abstract="Scegli un’azione di marketing nella superficie per associare al messaggio un criterio di consenso."
 
 Per creare una superficie di canale, effettuate le seguenti operazioni:
 
