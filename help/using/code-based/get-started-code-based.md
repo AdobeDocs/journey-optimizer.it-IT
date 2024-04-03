@@ -9,7 +9,7 @@ exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 
 >[!IMPORTANT]
 >
->Guardrail e raccomandazioni specifici per esperienze basate su codice sono descritti in [questa pagina](code-based-prerequisites.md).
+>I dettagli su guardrail e consigli specifici per esperienze basate su codice sono disponibili in [questa pagina](code-based-prerequisites.md).
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
@@ -135,33 +135,33 @@ In altre parole, una superficie può essere vista come un contenitore a qualsias
 * Può anche essere una superficie con caratteri jolly che corrisponde a una varietà di definizioni di superficie client (ad esempio, la posizione di un’immagine principale su ogni pagina del sito web potrebbe tradursi in un URI di superficie come: web://mydomain.com/*#hero_image).
 
 Fondamentalmente, un URI di superficie è composto da più sezioni:
-1. **Tipo**: web, mobileapp, atm, chiosco, tvcd, servizio, ecc.
-1. **Proprietà**: URL della pagina o bundle dell’app
+1. **Tipo**: web, app mobile, sportello bancomat, chiosco, tvcd, servizio ecc.
+1. **Proprietà**: URL pagina o pacchetto di app
 1. **Contenitore**: posizione nell’attività pagina/app
 
-Le tabelle seguenti elencano alcuni esempi di definizione di URI di superficie per vari dispositivi.
+La tabella seguente elenca alcuni esempi di definizione di URI di superficie per vari dispositivi.
 
 **Web e dispositivi mobili**
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
 | Web | `web://domain.com/path/page.html#element` | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico, dove un elemento può essere un’etichetta come negli esempi seguenti: hero_banner, top_nav, menu, piè di pagina, ecc. |
-| App iOS | `mobileapp://com.vendor.bundle/activity#element` | Rappresenta un elemento specifico all’interno di un’attività nativa dell’app, ad esempio un pulsante o un altro elemento di visualizzazione. |
-| App Android | `mobileapp://com.vendor.bundle/#element` | Rappresenta un elemento specifico di un&#39;app nativa. |
+| App iOS | `mobileapp://com.vendor.bundle/activity#element` | Rappresenta un elemento specifico all’interno dell’attività di un’app nativa, ad esempio un pulsante o un altro elemento della vista. |
+| App Android | `mobileapp://com.vendor.bundle/#element` | Rappresenta un elemento specifico di un’app nativa. |
 
 **Altri tipi di dispositivi**
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
 | Desktop | `desktop://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner principale e così via. |
-| App TV | `tvcd://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’app per dispositivi connessi a smart TV o TV - ID bundle. |
+| App TV | `tvcd://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un bundle di app per dispositivi collegati a smart TV o TV. |
 | Servizio | `service://servicename/#element` | Rappresenta un processo lato server o altra entità manuale. |
 | Chiosco | `kiosk://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
 | ATM | `atm://location/screen#element` | Esempio di possibili ulteriori tipi di superficie che possono essere aggiunti facilmente. |
 
-**Superfici con caratteri jolly**
+**Superfici jolly**
 
 | Tipo | URI | Descrizione |
 | --------- | ----------- | ------- | 
-| Web con caratteri jolly | `wildcard:web://domain.com/*#element` | Superficie con caratteri jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
-| Web con caratteri jolly | `wildcard:web://*domain.com/*#element` | Superficie con caratteri jolly: rappresenta un singolo elemento in ciascuna pagina sotto tutti i domini che terminano con &quot;domain.com&quot;. |
+| Web jolly | `wildcard:web://domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
+| Web jolly | `wildcard:web://*domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina di tutti i domini che finiscono con “domain.com”. |
