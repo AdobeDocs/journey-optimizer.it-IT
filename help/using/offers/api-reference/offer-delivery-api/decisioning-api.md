@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 3%
+source-wordcount: '1025'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Questo tutorial richiede una buona conoscenza delle API, in particolare per quan
 
 ➡️  [Scopri questa funzione nel video](#video)
 
-## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
+## Intestazioni richieste {#required-headers}
 
 La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
 
@@ -31,25 +31,31 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 | ----------- | ----- |
 | Accetta | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Content-Type | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| Authorization | `Bearer {ACCESS_TOKEN}` |
+| x-gw-ims-org-id | `{IMS_ORG}` |
+| x-sandbox-name | `{SANDBOX_NAME}` |
+| x-api-key | `{API_KEY}` |
+
+* Tutte le richieste che contengono un payload (POST,PUT,PATCH) richiedono l’intestazione content-type
 
 ## richiesta API {#request}
 
 ### Formato API
 
 ```https
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
+POST /{ENDPOINT_PATH}/decisions
 ```
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/ods` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### Richiesta
 
 ```shell
 curl -X POST \
-  'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
+  'https://platform.adobe.io/data/core/ods/decisions' \
   -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
   -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"'
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
@@ -209,15 +215,15 @@ La tabella seguente elenca tutti i codici che possono essere restituiti nella ri
 | 500 | Errore interno del server. Il server ha rilevato una condizione imprevista che ha impedito il completamento della richiesta. |
 | 503 | Servizio non disponibile a causa di sovraccarico del server. Il server non è attualmente in grado di gestire la richiesta a causa di un sovraccarico temporaneo. |
 
-## Video tutorial {#video}
+<!-- ## Tutorial video {#video}
 
-Segui questo video per comprendere i componenti di Gestione decisioni.
+The following video is intended to support your understanding of the components of Decision Management.
 
 >[!NOTE]
 >
->Questo video si applica al servizio applicativo di Offer decisioning integrato in Adobe Experience Platform. Tuttavia, fornisce indicazioni generiche per utilizzare Offer nel contesto di Journey Optimizer.
+>This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Passaggi successivi {#next-steps}
 
