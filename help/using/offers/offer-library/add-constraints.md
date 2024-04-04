@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
 workflow-type: tm+mt
 source-wordcount: '2617'
 ht-degree: 15%
@@ -260,24 +260,22 @@ Il **[!UICONTROL Frequenza]** consente di definire la frequenza con cui viene re
 
 >[!NOTE]
 >
->Il ripristino del contatore del limite di frequenza si verifica alle **12:00 UTC**, il giorno definito o il primo giorno della settimana/mese, se applicabile. Il giorno di inizio della settimana è **Domenica**.
+>Il ripristino del contatore del limite di frequenza si verifica alle **12:00 UTC**, il giorno definito o il primo giorno della settimana/mese, se applicabile. Il giorno di inizio della settimana è **Domenica**. Qualsiasi durata scelta non può superare **2 anni** (ossia il numero corrispondente di mesi, settimane o giorni).
 >
->Qualsiasi durata scelta non può superare **2 anni** (ossia il numero corrispondente di mesi, settimane o giorni).
-
-Dopo la pubblicazione dell’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza. Puoi comunque modificare il limite di frequenza se l’offerta presenta **[!UICONTROL Bozza]** e non è mai stato pubblicato prima con il limite di frequenza abilitato.
+>Dopo la pubblicazione dell’offerta, non potrai modificare il periodo di tempo (mensile, settimanale o giornaliero) selezionato per la frequenza. Puoi comunque modificare il limite di frequenza se l’offerta presenta **[!UICONTROL Bozza]** e non è mai stato pubblicato prima con il limite di frequenza abilitato.
 
 +++ **Da leggere: Limitazione di frequenza e API Edge Decisioning**
 
-* Il contatore dei limiti di frequenza viene aggiornato e disponibile in una decisione API Edge Decisioning in meno di 3 secondi.
+Il contatore dei limiti di frequenza viene aggiornato e disponibile in una decisione API Edge Decisioning in meno di 3 secondi.
 
-* Ogni area hub è associata a una o più aree edge. Le regole di quota limite vengono generate ed esportate da ogni area hub alle aree edge associate. Ogni volta che viene presa una decisione utilizzando l’API Edge Decisioning, il sistema applica le regole disponibili nella stessa area Edge:
+Ogni area hub è associata a una o più aree edge. Le regole di quota limite vengono generate ed esportate da ogni area hub alle aree edge associate. Ogni volta che viene presa una decisione utilizzando l’API Edge Decisioning, il sistema applica le regole disponibili nella stessa area Edge:
 
-   * Se è presente una regola corrispondente, il contatore del limite di frequenza del profilo viene incrementato.
-   * In caso contrario, non viene creato alcun contatore per il profilo e la regola di quota limite non è applicabile. Di conseguenza, il profilo continuerà a ricevere offerte personalizzate anche se viene superata la soglia di limite.
+* Se è presente una regola corrispondente, il contatore del limite di frequenza del profilo viene incrementato.
+* In caso contrario, non viene creato alcun contatore per il profilo e la regola di quota limite non è applicabile. Di conseguenza, il profilo continuerà a ricevere offerte personalizzate anche se viene superata la soglia di limite.
 
-  Ad esempio, consideriamo l’area hub della tua organizzazione come *NLD2*, e stai inviando una richiesta decisionale dall&#39;Europa (*IRL1* regione di spigolo). In questo scenario, la richiesta di decisioni incrementerà il contatore del profilo, in quanto le regole sono disponibili nel (Irlanda) *IRL1* area geografica. Tuttavia, se la richiesta di decisione proviene da una regione come il Giappone (*JPN3*), che non è una regione edge associata a (Paesi Bassi) *NLD2* area hub, non verrà creato alcun contatore e le regole di quota limite non verranno applicate.
+Ad esempio, consideriamo l’area hub della tua organizzazione come *NLD2*, e stai inviando una richiesta decisionale dall&#39;Europa (*IRL1* regione di spigolo). In questo scenario, la richiesta di decisioni incrementerà il contatore del profilo, in quanto le regole sono disponibili nel (Irlanda) *IRL1* area geografica. Tuttavia, se la richiesta di decisione proviene da una regione come il Giappone (*JPN3*), che non è una regione edge associata a (Paesi Bassi) *NLD2* area hub, non verrà creato alcun contatore e le regole di quota limite non verranno applicate.
 
-  Per ulteriori informazioni sulle aree edge e hub associate all’organizzazione, contatta il rappresentante del tuo Adobe.
+Per ulteriori informazioni sulle aree edge e hub associate all’organizzazione, contatta il rappresentante del tuo Adobe.
 
 +++
 
