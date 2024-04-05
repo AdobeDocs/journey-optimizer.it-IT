@@ -1,19 +1,29 @@
 ---
-title: Prerequisiti per il canale in-app
+title: Prerequisiti e configurazione del canale in-app
 description: Scopri come configurare l’ambiente per inviare messaggi in-app con Journey Optimizer
 role: Admin
 feature: In App
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 6%
+source-wordcount: '819'
+ht-degree: 10%
 
 ---
 
-# Prerequisiti per il canale in-app {#inapp-configuration}
+# Prerequisiti e configurazione {#inapp-configuration}
+
+Per poter inviare messaggi in-app, percorsi e campagne in [!DNL Journey Optimizer], è necessario seguire i seguenti passaggi di configurazione.
+
+1. Assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer prima di iniziare, anche se prevedi di utilizzare i messaggi in-app solo nei percorsi. Sono ancora necessarie le autorizzazioni per la campagna. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. Abilita Adobe Journey Optimizer nello stream di dati di raccolta dati Adobe Experience Platform e verifica il criterio di unione predefinito in Adobe Experience Platform, come descritto in [Prerequisiti per la consegna](#delivery-prerequisites) di seguito.
+1. Creare e configurare una superficie app in Raccolta dati di Adobe Experience Platform, come descritto in [questa sezione](#channel-prerequisites). È necessario concedere un’autorizzazione specifica per accedere al **Superfici app** in Raccolta dati di Adobe Experience Platform. Per ulteriori informazioni, guarda [questo video](#video).
+1. Se utilizzi esperimenti di contenuto, assicurati di seguire i requisiti elencati in [questa sezione](#experiment-prerequisite).
+
+Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
+
 
 ## Prerequisiti per la consegna {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ Se sei **non** utilizzando le seguenti opzioni predefinite [gruppi di campi](htt
 
 ## Video sulle procedure{#video}
 
-* Il video seguente mostra come assegnare il **Gestire la configurazione dell’app** autorizzazione per accedere al menu Superfici app.
+Il video seguente mostra come assegnare il **Gestire la configurazione dell’app** autorizzazione per accedere al menu Superfici app.
 
-  +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **Argomenti correlati:**
 

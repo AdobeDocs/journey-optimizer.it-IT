@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,19 @@ Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni 
 
 >[!AVAILABILITY]
 >
->Per il momento, il canale in-app non è disponibile per le organizzazioni che hanno acquistato le offerte aggiuntive **Healthcare Shield** e **Privacy and Security Shield** di Adobe.
+>Il canale in-app non è disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
 
-## Prerequisiti{#prerequisites-in-app}
-
-Prima di inviare messaggi in-app, è necessario:
-
-* Configurare il canale in-app. [Ulteriori informazioni](inapp-configuration.md)
-
-* Assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer prima di iniziare, anche se prevedi di utilizzare i messaggi in-app solo nei percorsi. Sono ancora necessarie le autorizzazioni per la campagna. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="Convalida" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>Configurare un canale in-app</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="Lead" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Sc
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>Accedere al rapporto in-app</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="Convalida" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>Configurare un canale in-app</strong></a>
 </div>
 <p>
 </td>
