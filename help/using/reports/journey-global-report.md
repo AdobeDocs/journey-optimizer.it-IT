@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4368'
-ht-degree: 28%
+source-wordcount: '4412'
+ht-degree: 27%
 
 ---
 
@@ -54,6 +54,8 @@ Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL Percorso]**
 ![](assets/journey_performance.png)
 
 Il **[!UICONTROL Prestazioni percorso]** Il widget consente di tracciare visivamente la traiettoria dei profili target durante la navigazione nel percorso.
+
+Il conteggio dei profili per un nodo viene aggiornato solo dopo che il profilo ha completato il nodo, non al momento dell’immissione. Ad esempio, un profilo su un **Wait** Il nodo viene conteggiato solo una volta raggiunta la data specificata e usciti dal nodo del profilo.
 
 ### Statistiche del percorso {#journey-statistics}
 
