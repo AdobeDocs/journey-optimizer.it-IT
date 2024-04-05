@@ -11,7 +11,7 @@ exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
 source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo 
 
 Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un utilizzo successivo dei rapporti live. Se necessario, utilizza **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine dei widget e dei widget predefiniti.
 
-## Esportare i rapporti {#export-reports}
+## Esportazione dei rapporti {#export-reports}
 
 Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli.
 

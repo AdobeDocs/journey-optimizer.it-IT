@@ -65,7 +65,7 @@ Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenu
 
 È possibile utilizzare [!DNL Journey Optimizer]la flessibilità dei dati di per soddisfare i requisiti specifici relativi alla conservazione, all&#39;archiviazione o all&#39;eliminazione dei dati:
 
-* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati sorgente in qualsiasi momento tramite l’API di accesso ai dati senza penali o ritardi. Il [API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati sorgente in qualsiasi momento tramite l’API di accesso ai dati senza penali o ritardi. Il [API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Nota che il contenuto utilizzato nei percorsi o nelle campagne non può essere estratto tramite i metodi API o di destinazione menzionati in precedenza.
 

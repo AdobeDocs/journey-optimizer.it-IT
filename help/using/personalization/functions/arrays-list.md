@@ -229,7 +229,7 @@ L&#39;operazione seguente restituisce gli ultimi cinque ordini con il prezzo pi√
 {%= bottomN(orders,price, 5) %}
 ```
 
-## Non in entrata{#notin}
+## Non in{#notin}
 
 Il `notIn` viene utilizzata per determinare se un elemento non √® un membro di un array o di un elenco.
 

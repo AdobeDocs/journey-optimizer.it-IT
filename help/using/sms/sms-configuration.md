@@ -10,7 +10,7 @@ exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
 source-wordcount: '1676'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ L’utilizzo dei servizi di messaggistica di testo è soggetto a termini e condi
 
 >[!CAUTION]
 >
->Per accedere e modificare i sottodomini SMS, devi disporre del **[!UICONTROL Gestire i sottodomini SMS]** autorizzazione per la sandbox di produzione. Ulteriori informazioni sulle autorizzazioni in [questa pagina](../administration/high-low-permissions.md#administration-permissions).
+>Per accedere e modificare i sottodomini SMS, devi disporre del **[!UICONTROL Gestire i sottodomini SMS]** autorizzazione per la sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../administration/high-low-permissions.md#administration-permissions)
 >
 
 ## Creare nuove credenziali API {#create-api}

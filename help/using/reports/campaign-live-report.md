@@ -42,7 +42,7 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ## Scheda Campagna {#campaign-live}
 
-### Distribuzione {#delivery-live}
+### Consegna {#delivery-live}
 
 ![](assets/campaign_live_statistics.png)
 

@@ -11,7 +11,7 @@ exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -79,7 +79,7 @@ Per accedere e gestire i rapporti sui canali, segui questi passaggi:
 
    ![](assets/channel_report_4.png)
 
-## Esportare i rapporti {#export-reports}
+## Esportazione dei rapporti {#export-reports}
 
 Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli, manipolarli o stamparli. I passaggi dettagliati per esportare i rapporti sui canali sono disponibili nelle seguenti schede:
 

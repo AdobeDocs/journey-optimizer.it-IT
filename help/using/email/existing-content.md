@@ -53,6 +53,6 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
 ## Video introduttivo {#video}
 
-Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina speculare e collegamenti per annullare l’abbonamento, e come programmare i contenuti.
+Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare il codice dei contenuti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

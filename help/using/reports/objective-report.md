@@ -28,7 +28,7 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ## Scheda Campagna {#campaign-global-objectives}
 
-### Distribuzione {#delivery-global-objectives}
+### Consegna {#delivery-global-objectives}
 
 ![](assets/campaign_report_global_1.png)
 

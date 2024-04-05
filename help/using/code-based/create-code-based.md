@@ -9,7 +9,7 @@ exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
 source-wordcount: '980'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 Attualmente in [!DNL Journey Optimizer] puoi creare esperienze basate su codice solo in **campagne**.
 
-Guardrail e raccomandazioni specifici per esperienze basate su codice sono descritti in [questa pagina](code-based-prerequisites.md).
+I dettagli su guardrail e consigli specifici per esperienze basate su codice sono disponibili in [questa pagina](code-based-prerequisites.md).
 
 ## Creare una campagna basata su codice {#create-code-based-campaign}
 

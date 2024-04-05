@@ -9,7 +9,7 @@ exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -455,7 +455,7 @@ La funzione seguente restituisce la lunghezza del nome della città del profilo.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Mi piace{#like}
+## Simile a{#like}
 
 Il `like` viene utilizzata per determinare se una stringa corrisponde a un pattern specificato.
 
@@ -552,7 +552,7 @@ Il `md5` La funzione viene utilizzata per calcolare e restituire l’hash md5 di
 
 Restituisce &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;
 
-## Diverso da{#notEqualTo}
+## Non uguale a{#notEqualTo}
 
 Il `notEqualTo` viene utilizzata per determinare se una stringa non è uguale alla stringa specificata.
 
@@ -673,7 +673,7 @@ Il `rightTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dall
 {%= rightTrim(string) %}
 ```
 
-## Split {#split}
+## Divisione {#split}
 
 Il `split` La funzione viene utilizzata per dividere una stringa per un determinato carattere.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i modelli di pagina di destinazione
+title: Lavorare con i modelli di pagine di destinazione
 description: Scopri come salvare una pagina di destinazione come modello e riutilizzarla in Journey Optimizer
 feature: Landing Pages, Templates
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 37%
+ht-degree: 42%
 
 ---
 
-# Utilizzare i modelli di pagina di destinazione {#work-with-templates}
+# Lavorare con i modelli di pagine di destinazione {#work-with-templates}
 
 ## Salvare una pagina come modello {#save-as-template}
 
