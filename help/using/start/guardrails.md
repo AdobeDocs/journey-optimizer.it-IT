@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 100%
+source-wordcount: '2029'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,6 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * Con [!DNL Journey Optimizer] non è possibile aggiungere allegati a un messaggio e-mail.
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
-
 ## Guardrail delle pagine di destinazione {#lp-guardrails}
 
 * Solo un componente **Modulo** può essere utilizzato in una singola pagina principale.
@@ -46,6 +45,12 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
+
+## Guardrail dei sottodomini {#subdomain-guardrails}
+
+Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini in totale (che coprono sia i canali e-mail che i canali web).
+
+Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, contatta il tuo contatto Adobe.
 
 ## Guardrail dei frammenti {#fragments-guardrails}
 

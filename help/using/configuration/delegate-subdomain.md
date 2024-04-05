@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1816'
 ht-degree: 21%
 
 ---
@@ -33,7 +33,7 @@ La delega del nome di dominio è un metodo che consente al proprietario di un no
 
 >[!NOTE]
 >
->Per impostazione predefinita, [!DNL Journey Optimizer] il contratto di licenza ti consente di delegare fino a 10 sottodomini. Per aumentare questo limite, rivolgiti al tuo contatto Adobe.
+>Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, contatta il tuo contatto Adobe.
 
 Puoi delegare completamente un sottodominio o crearne uno utilizzando i CNAME per puntare a record specifici di un Adobe.
 
