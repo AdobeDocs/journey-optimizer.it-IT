@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 84%
+source-wordcount: '147'
+ht-degree: 77%
 
 ---
 
@@ -31,7 +31,7 @@ Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni 
 <img alt="Convalida" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>Configurare un canale in-app</strong></a>
+<a href="inapp-configuration.md"><strong>Configurare il canale in-app</strong></a>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ Utilizza Journey Optimizer per creare notifiche in-app e configurare le opzioni 
 <img alt="Convalida" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accedere al rapporto in-app</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Accedere ai rapporti in-app</strong></a>
 </div>
 <p>
 </td>
