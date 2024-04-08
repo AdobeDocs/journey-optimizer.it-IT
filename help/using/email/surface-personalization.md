@@ -11,7 +11,8 @@ keywords: impostazioni, e-mail, configurazione, sottodominio
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
+source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 1%
@@ -81,7 +82,7 @@ Per definire i sottodomini dinamici in una superficie di canale e-mail, segui i 
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
 1. Definisci tutte le altre [impostazioni e-mail](email-settings.md) e [invia](../configuration/channel-surfaces.md#create-channel-surface) la tua superficie.
 
@@ -163,4 +164,3 @@ Quando utilizzi una superficie con impostazioni personalizzate in una campagna o
 1. Seleziona **[!UICONTROL Espandi]** per visualizzare i dettagli dei sottodomini dinamici.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
-
