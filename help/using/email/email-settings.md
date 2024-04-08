@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2373'
 ht-degree: 11%
 
 ---
@@ -239,8 +239,6 @@ Una volta abilitata questa opzione, anche se un cliente ha contrassegnato l’e-
 >title="Aggiungere un elenco seed"
 >abstract="Seleziona l’elenco seed desiderato per aggiungere automaticamente indirizzi interni specifici ai tipi di pubblico. Questi indirizzi seed verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio a scopo di garanzia."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list?lang=it" text="Cosa sono gli elenchi seed?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#create-seed-list" text="Creare un elenco seed"
-
 
 Un elenco seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi e-mail seed specifici nelle consegne. [Ulteriori informazioni](../configuration/seed-lists.md)
 
