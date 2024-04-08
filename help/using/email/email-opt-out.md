@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: rinuncia, e-mail, collegamento, annullamento dell’iscrizione
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
 source-wordcount: '1029'
 ht-degree: 76%
@@ -175,7 +175,7 @@ Ad esempio, il collegamento per annullare l’iscrizione verrà visualizzato in 
 >
 >Per visualizzare il collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail, il client e-mail dei destinatari deve supportare questa funzione.
 
-L’indirizzo predefinito per l’annullamento dell’iscrizione è l’indirizzo **[!UICONTROL Invia a (annulla iscrizione)]** visualizzato nella superficie di canale corrispondente. [Ulteriori informazioni](../configuration/channel-surfaces.md#list-unsubscribe).
+L’indirizzo predefinito per l’annullamento dell’iscrizione è l’indirizzo **[!UICONTROL Invia a (annulla iscrizione)]** visualizzato nella superficie di canale corrispondente. [Ulteriori informazioni](email-settings.md#list-unsubscribe)
 
 Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inserisci un collegamento per la rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato. [Ulteriori informazioni](#one-click-opt-out)
 

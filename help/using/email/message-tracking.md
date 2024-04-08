@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1053'
 ht-degree: 38%
 
 ---
@@ -162,7 +162,7 @@ Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo questo ri
 
 Il reporting sulle aperture e sui clic è disponibile nel [Rapporto live](../reports/live-report.md) e nella [Rapporto globale](../reports/global-report.md).
 
-## Tracciamento URL {#url-tracking}
+## Personalizzare il tracciamento URL {#url-tracking}
 
 Di solito [Tracciamento URL](email-settings.md#url-tracking) viene gestito a livello di superficie, ma gli attributi del profilo non sono supportati. Attualmente l&#39;unico modo per farlo è: [personalizzare gli URL](../personalization/personalization-syntax.md#perso-urls) in e-mail designer.
 
