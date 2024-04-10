@@ -10,9 +10,9 @@ level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
 source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1219'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ La quota limite giornaliera è valido per il giorno corrente fino alle 23:59:59 
 
 >[!NOTE]
 >
->Per garantire l&#39;accuratezza delle regole relative ai limiti di frequenza giornalieri, l&#39;uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"} è consigliato. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+>Per garantire l’accuratezza delle regole relative ai limiti di frequenza giornalieri, è consigliato l’uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Attivare una regola {#activate-rule}
 
