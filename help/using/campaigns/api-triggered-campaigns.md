@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '971'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Per attivare la creazione del profilo durante l’esecuzione della campagna, att
 
 >[!NOTE]
 >
->I profili sconosciuti vengono creati in **Set di dati profilo messaggistica interattiva AJO** set di dati, in tre spazi dei nomi predefiniti (e-mail, telefono e ECID) rispettivamente per ogni canale in uscita (e-mail, SMS e push).
+>I profili sconosciuti vengono creati in **Set di dati profilo messaggistica interattiva AJO** set di dati, in tre spazi dei nomi predefiniti (e-mail, telefono e ECID) rispettivamente per ogni canale in uscita (e-mail, SMS e push). Tuttavia, se utilizzi uno spazio dei nomi personalizzato, l’identità viene creata con lo stesso spazio dei nomi personalizzato.
 
 ## Video introduttivo {#video}
 

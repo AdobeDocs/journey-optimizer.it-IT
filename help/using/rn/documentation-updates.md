@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '5123'
-ht-degree: 99%
+source-wordcount: '5140'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * Sono stati descritti i passaggi di configurazione per i messaggi in-app. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * Documentazione per [API OFFER DECISIONING](../offers/api-reference/offer-delivery-api/decisioning-api.md) e [API di decisioning in batch](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) sono stati aggiornati.
 * Nella documentazione di Gestione delle decisioni sono state aggiunte informazioni relative alla gestione delle aree edge e hub quando si utilizza il limite di frequenza con l’API Edge Decisioning. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
-
+* Sono state aggiunte informazioni sulla creazione di identità con spazi dei nomi personalizzati quando si lavora con campagne attivate da API. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md)
 
 ## Marzo 2024 {#march-2024}
 
