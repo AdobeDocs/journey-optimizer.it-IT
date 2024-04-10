@@ -83,7 +83,7 @@ Utilizza il **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 >id="ajo_seed_list_details"
 >title="Definire un elenco seed"
 >abstract="Utilizza un elenco seed per aggiungere automaticamente indirizzi interni specifici al pubblico della consegna a scopo di garanzia. Gli elenchi seed consentono di monitorare le copie dei messaggi inviate, per verificare che tutti gli elementi della visualizzazione siano corretti e per proteggere la mailing list. Attualmente questa funzione si applica solo al canale e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list?lang=it" text="Cosa sono gli elenchi seed?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#use-seed-list" text="Cosa sono gli elenchi seed?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
