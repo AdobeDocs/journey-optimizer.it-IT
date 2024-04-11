@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1983'
-ht-degree: 16%
+source-wordcount: '2005'
+ht-degree: 15%
 
 ---
 
@@ -146,6 +146,11 @@ Di seguito sono riportati i passaggi principali per l’invio di messaggi tramit
 >id="ajo_journey_properties"
 >title="Proprietà del percorso"
 >abstract="Questa sezione mostra le proprietà del percorso. Per impostazione predefinita, i parametri di sola lettura sono nascosti. Le impostazioni disponibili dipendono dallo stato del percorso, dalle autorizzazioni e dalla configurazione del prodotto."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Criteri di uscita dal percorso"
+>abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
 
 Fai clic sull’icona della matita, accanto al nome del percorso, per accedere alle relative proprietà.
 
