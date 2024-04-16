@@ -15,7 +15,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -27,22 +27,22 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail
 >
 >Questa funzionalità è attualmente disponibile come versione beta solo per alcuni utenti. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Aggiungere sottodomini dinamici {#dynamic-subdomains}
+## Aggiungi i sottodomini dinamici. {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalizzazione non disponibile"
->abstract="Questa superficie è stata creata senza attributi di personalizzazione. Consulta la documentazione per i passaggi da seguire per risolvere eventuali esigenze di personalizzazione."
+>abstract="Questa superficie è stata creata senza alcun attributo di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Abilitare i sottodomini dinamici"
->abstract="Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’Editor espressioni. Puoi aggiungere fino a 50 sottodomini dinamici."
+>title="Abilita i sottodomini dinamici"
+>abstract="Quando crei una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’editor di espressioni. Puoi aggiungere fino a 50 sottodomini dinamici."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Alcuni sottodomini potrebbero non essere disponibili"
->abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completati, puoi scegliere tra tutti i sottodomini disponibili."
+>abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completato, puoi scegliere tra tutti i sottodomini disponibili."
 
 Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base a condizioni specifiche.
 
