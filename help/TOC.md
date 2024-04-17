@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: c10a5917f5e1d5b1cac39c530af28c341f02206e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1746'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
       + [Note sulle versioni 2022](using/rn/release-notes-2022.md)
       + [Note sulle versioni 2021](using/rn/release-notes-2021.md)
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
-   + [Nuova area di lavoro percorso](using/rn/new-canvas.md)
+   + [Nuova area di lavoro del percorso](using/rn/new-canvas.md)
 + Introduzione{#get-started}
    + [Cos’è Journey Optimizer](using/start/get-started.md)
    + Guide rapide{#quick-start}

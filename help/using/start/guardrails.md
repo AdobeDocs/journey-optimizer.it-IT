@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2029'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.
 * La gestione del consenso funziona a livello del canale SMS per MMS.
 
-## Guardrail dei sottodomini {#subdomain-guardrails}
+## Guardrail di sottodomini {#subdomain-guardrails}
 
 Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini in totale (che coprono sia i canali e-mail che i canali web).
 
-Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, contatta il tuo contatto Adobe.
+Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
 ## Guardrail dei frammenti {#fragments-guardrails}
 

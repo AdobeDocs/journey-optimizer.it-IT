@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5140'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Aprile 2024 {#april-2024}
 
-* Sono stati descritti i passaggi di configurazione per i messaggi in-app. [Ulteriori informazioni](../in-app/inapp-configuration.md)
-* Documentazione per [API OFFER DECISIONING](../offers/api-reference/offer-delivery-api/decisioning-api.md) e [API di decisioning in batch](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) sono stati aggiornati.
+* Sono stati descritti i passaggi di configurazione per la messaggistica in-app. [Ulteriori informazioni](../in-app/inapp-configuration.md)
+* La documentazione per l’[API Offer Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) e l’[API Batch decisioning](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) è stata aggiornata.
 * Nella documentazione di Gestione delle decisioni sono state aggiunte informazioni relative alla gestione delle aree edge e hub quando si utilizza il limite di frequenza con l’API Edge Decisioning. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
-* Sono state aggiunte informazioni sulla creazione di identità con spazi dei nomi personalizzati quando si lavora con campagne attivate da API. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md)
+* Sono state aggiunte informazioni sulla creazione di identità con spazi dei nomi personalizzati quando si utilizzano campagne attivate da API. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md)
 
 ## Marzo 2024 {#march-2024}
 
