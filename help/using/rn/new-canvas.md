@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Nuova interfaccia di percorso
+title: Nuova interfaccia del percorso
 feature: Release Notes
 topic: Content Management
-description: Nuova interfaccia di percorso
+description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Nuova interfaccia di percorso {#new-canvas}
+# Nuova interfaccia del percorso {#new-canvas}
 
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"
