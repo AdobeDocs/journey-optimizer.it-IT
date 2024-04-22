@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1600'
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ Per assegnare l&#39;autorizzazione corrispondente a un **[!UICONTROL Ruolo]**:
 
 1. Trascina la **[!UICONTROL Configurazioni di riscaldamento IP]** risorsa per assegnare le autorizzazioni.
 
-1. Dalla sezione **[!UICONTROL Configurazioni di riscaldamento IP]** elenco a discesa delle risorse, seleziona le autorizzazioni necessarie per l’utente.
+1. Dalla sezione **[!UICONTROL Configurazioni di riscaldamento IP]** elenco a discesa delle risorse, seleziona le autorizzazioni necessarie per l’utente: **[!UICONTROL Visualizza piani di riscaldamento IP]**, **[!UICONTROL Gestione piani di riscaldamento IP]**, e/o **[!UICONTROL Visualizza report di riscaldamento IP]**. Se necessario, puoi selezionarli tutti contemporaneamente.
 
    ![](assets/ip_permissions_2.png)
 
