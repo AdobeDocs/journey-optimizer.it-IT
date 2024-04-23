@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: f957737aa741cc8b854912414d15154489d1b0b0
+source-git-commit: 94308f93de1552e081c4966fe5436bf7a76418ec
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 33%
 
 ---
 
@@ -21,52 +21,176 @@ ht-degree: 100%
 
 Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
-## Note preliminari sulla versione di marzo 2024 {#e-2024}
+## Note preliminari sulla versione di aprile 2024 {#e-2024}
 
-**Data di rilascio**: 19-20 marzo 2024
+**Data di rilascio**: 30 aprile 2024
 
 ### Nuova funzionalità {#e-features}
 
-Questa versione include la nuova funzionalità descritta di seguito.
+Questa versione include le nuove funzionalità descritte di seguito.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Esperienze basate su codice</strong><br/></th>
+<th><strong>Business rules - Private Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con il nuovo canale di esperienza basato su codice, Adobe Journey Optimizer consente di eseguire personalizzazioni e test avanzati per qualsiasi proprietà in entrata, facilitando la consegna diretta di esperienze personalizzate in diversi punti di contatto come app web, app mobili, app desktop, console video, dispositivi connessi per TV, smart TV, chioschi, sportelli bancomat, dispositivi IoT e altro ancora.</p>
-<P>Le funzionalità principali includono:</p>
-<ul><li> Personalizzazione universale: estende le esperienze personalizzate in tutti i punti di contatto, garantendo un percorso utenti coeso e personalizzato</li>
-<li>Precisione granulare nella modifica: modifica contenuti specifici in singole posizioni all’interno delle app o delle pagine web</li>
-<li>Implementazione versatile: supporto per metodi di implementazione lato server, basati su API o SDK per l’integrazione diretta con l’ambiente di sviluppo.</li></ul></p>
-<p>Per ulteriori informazioni, consulta la <a href="../code-based/get-started-code-based.md">documentazione dettagliata</a>.</p>
-<img src="assets/do-not-localize/code-based.gif">
+<p>It is now possible to create and apply rule sets to your marketing communications.  </p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Experience Decisioning - Disponibilità limitata</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Experience Decisioning semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come "elementi decisionali" e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni individuo gli elementi decisionali più rilevanti.</p>
+<p>Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer.</p>
+<p>Experience Decisioning è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante del tuo Adobe.</p>
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Personalization - Local Lookups - Multi-Entity Support - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) con Infobip</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono la condivisione di immagini, GIF o video con la clientela. Questa funzione in precedenza disponibile solo con Sinch, è ora disponibile anche con Infobip.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>IP Warmup Workflow - LA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now easily perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 ### Miglioramenti {#e-improvements}
 
 Questa versione include i miglioramenti elencati di seguito.
 
-**Modelli di contenuto**
+<!--
+* **ExD reporting in AEP**: TBD
+-->
 
-* **Miniature**: per i modelli di contenuto è ora disponibile la modalità **Vista a griglia**, in cui vengono visualizzate miniature dei modelli per agevolarne l’accesso visivo. Al momento sono supportati solo i modelli per e-mail HTML. [Ulteriori informazioni](../content-management/content-templates.md#template-thumbnails)
+**Tipi di pubblico**
 
-  >[!AVAILABILITY]
-  >
-  >Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
+* Ora puoi utilizzare i tipi di pubblico e gli attributi della composizione del pubblico con Healthcare Shield e Privacy &amp; Security Shield.
+* Ora puoi utilizzare il caricamento personalizzato (file CSV) con Healthcare Shield e Privacy &amp; Security Shield.
+
+<!--
+* **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
+-->
+<!--
+* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+-->
+
+
+<!--
+* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+-->
+
+
+<!--
+* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
+-->
+
+**Gestione delle decisioni**
+
+* Il **Registro modifiche** Questa scheda ti consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione che sono state rimosse. Le modifiche relative alle offerte e alle decisioni ora sono visibili in **Audit** menu.
+
+**Experience Decisioning**
+
+Dalla versione beta a LA, ecco i miglioramenti apportati:
+
+* Ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione utilizzando **Dati contestuali** scheda.
+* È ora disponibile una nuova autorizzazione &quot;Gestisci decisioni esperienza&quot; per la risorsa Gestione delle decisioni. Consente di gestire i diritti relativi ad Experience Decisioning.
+* Ora puoi aggiungere più regole di limite per un’offerta. Ciò consente di aumentare il livello di controllo sulla modalità di invio delle offerte.
+* Ora in Experience Decisioning è possibile aggiungere più regole di limitazione per un determinato elemento decisionale. Ciò consente di aumentare il livello di controllo sulla modalità di invio delle offerte.
 
 **Percorsi**
 
-Sono stati aggiunti nuovi stati intermedi al ciclo di vita di authoring del percorso:
+* **Progettazione Percorsi migliorata**:
 
-* Stato **Pubblicazione** tra gli stati **Bozza** e **Live**
-* Stato **Interruzione** tra gli stati **Live** e **Interrotto**
-* Stati **Attivazione modalità di test** o **Disattivazione modalità di test** tra gli stati **Bozza** e **Bozza (test)**
+   * L’interfaccia utente dell’area di lavoro migliorata offre un’esperienza utente più intuitiva ed efficiente.
+   * Le attività sono più chiare e presentano più informazioni sull’area di lavoro del percorso con meno clic.
 
-Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+* **Nuovo reporting live**: il reporting per percorsi è ora accessibile tramite l’applicazione Live Reports. Questa è un’applicazione che fornisce molte informazioni approfondite sull’esecuzione del percorso.
+
+**Configurazione**
+
+* Ora puoi selezionare un’azione di marketing al livello della superficie di canale. Se utilizzati in una superficie, tutti i criteri di consenso associati a tale azione di marketing vengono usati per rispettare le preferenze della clientela.
+* Per le superfici di canale è ora disponibile l&#39;utilizzo del controllo di accesso a livello di oggetto.
+
