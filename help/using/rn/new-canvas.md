@@ -8,9 +8,9 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,10 @@ Abbiamo sviluppato un **modello di percorso semplificato** che mira a migliorare
 
 * A **area di lavoro percorso riprogettata** progettato per un’esperienza di interfaccia utente moderna
 * A **reportistica live** Interfaccia utente direttamente disponibile nell’area di lavoro del percorso
+
+>[!AVAILABILITY]
+>
+>Tieni presente che il rollout di questa funzione sarà progressivo. Potresti non vedere le modifiche immediatamente.
 
 ## Aggiornamenti sul modello di percorso
 
@@ -74,20 +78,28 @@ Consente inoltre al team di prodotto di aggiungere più informazioni sull’area
 
 ## Generazione di rapporti live nell’area di lavoro del percorso
 
-Oltre al design migliorato dell’area di lavoro del percorso, stiamo introducendo la possibilità di vedere **metriche di reporting delle ultime 24 ore** (chiamato &quot;reporting live&quot;) direttamente nell’area di lavoro del percorso.
+Oltre al design migliorato dell&#39;area di lavoro del percorso, stiamo introducendo la possibilità di vedere, **su ogni attività**, il numero di profili che sono entrati in tale attività e il numero di persone che sono uscite a causa di un errore:
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-Con ogni percorso live sul nuovo modello, potrai vedere due tipi di informazioni di reporting &quot;ultime 24 ore&quot;:
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* Su un **nuovo inserto**, visualizzerai:
-   * Il numero di profili esportati per percorsi attivati dal pubblico. Visualizzerai il numero di profili disponibili nell’ultimo processo di esportazione insieme all’ora in cui è stata effettuata l’esportazione.
-   * Il numero di profili che sono usciti dal percorso
-   * Percentuale di errori
-     ![](assets/new-canvas7.png)
-* **Per ogni attività**, visualizzerai il numero di profili che sono entrati in tale attività e il numero di persone che sono uscite a causa di un errore:
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 L’interfaccia utente viene aggiornata automaticamente ogni minuto.
 
-Tieni presente che potrebbero essere presenti differenze tra il numero di profili esportati e il numero di profili che attraversano il percorso. Il conteggio dei profili esportati fornisce solo informazioni sull’ultimo processo di esportazione in corso, mentre il numero di profili che entrano in un’attività contiene solo profili che l’hanno fatto nelle ultime 24 ore. Questo può essere visibile in particolare nei percorsi giornalieri ricorrenti, in quanto potrebbe esserci una sovrapposizione di dati tra due giorni.
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
