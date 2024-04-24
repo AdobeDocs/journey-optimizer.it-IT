@@ -8,7 +8,7 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Abbiamo sviluppato un **modello di percorso semplificato** che mira a migliorare
 * A **area di lavoro percorso riprogettata** progettato per un’esperienza di interfaccia utente moderna
 * A **reportistica live** Interfaccia utente direttamente disponibile nell’area di lavoro del percorso
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Tieni presente che il rollout di questa funzione sarà progressivo. Potresti non vedere le modifiche immediatamente.
 
