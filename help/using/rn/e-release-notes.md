@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 34%
 
 ---
@@ -164,7 +164,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Experience Decisioning**
 
-Dalla versione beta a LA, ecco i miglioramenti apportati:
+Dalla versione beta a LA, sono stati aggiunti i seguenti miglioramenti:
 
 * Ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione utilizzando **Dati contestuali** scheda.
 * È ora disponibile una nuova autorizzazione &quot;Gestisci decisioni esperienza&quot; per la risorsa Gestione delle decisioni. Consente di gestire i diritti relativi ad Experience Decisioning.
@@ -174,12 +174,12 @@ Dalla versione beta a LA, ecco i miglioramenti apportati:
 
 **Percorsi**
 
-* **Progettazione Percorsi migliorata**:
+* **Progettazione Percorsi migliorata**
 
    * L’interfaccia utente dell’area di lavoro migliorata offre un’esperienza utente più intuitiva ed efficiente.
    * Le attività sono più chiare e presentano più informazioni sull’area di lavoro del percorso con meno clic.
 
-* **Nuovo reporting live**: il reporting per percorsi è ora accessibile tramite l’applicazione Live Reports. Questa è un’applicazione che fornisce molte informazioni approfondite sull’esecuzione del percorso.
+* **Nuovo reporting live**: le ultime 24 ore di reporting per percorso sono ora accessibili direttamente nell’area di lavoro del Percorso.
 
 **Configurazione**
 
