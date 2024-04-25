@@ -8,21 +8,14 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
+source-git-commit: 59f41003183e155632124fde294bea575fb0f493
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
 
 # Progettazione Percorsi migliorata {#new-canvas}
-
->[!CONTEXTUALHELP]
->id="ajo_new_canvas"
->title="Novità"
->abstract="Nuova area di lavoro"
-
-Benvenuti nel designer del percorso migliorato.
 
 Abbiamo sviluppato un **modello di percorso semplificato** che mira a migliorare i processi interni. Anche se questo nuovo modello rappresenta un miglioramento di back-end, il nostro team ha colto l’opportunità per aggiungere funzionalità visibili e vantaggiose per gli utenti di Journey Optimizer:
 
