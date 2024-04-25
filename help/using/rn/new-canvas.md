@@ -8,9 +8,9 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 59f41003183e155632124fde294bea575fb0f493
+source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Come vedi nella schermata seguente, i nodi sono a forma di arrotondamento, che �
 
 ![](assets/new-canvas.png)
 
-Tuttavia, quando **Crea un nuovo percorso** o **duplicare un elemento esistente**, sarà un percorso v2.  Prevediamo di continuare a supportare i percorsi v1 fino a quando la maggior parte dei clienti non sarà trasferita ai percorsi v2.
+Tuttavia, quando **crea un nuovo percorso** o **duplicare un elemento esistente**, sarà un percorso v2.  Prevediamo di continuare a supportare i percorsi v1 fino a quando la maggior parte dei clienti non sarà trasferita ai percorsi v2.
 
 Esiste un limite al nuovo modello di percorso che **impossibile copiare e incollare attività da un percorso v1 a una v2 e viceversa**. Se desideri eseguire questa operazione, ti consigliamo di duplicare il percorso v1 per renderlo v2 e quindi di copiare le attività.
 
