@@ -8,16 +8,16 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
+source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '555'
 ht-degree: 1%
 
 ---
 
 # Progettazione Percorsi migliorata {#new-canvas}
 
-Journey Optimizer ora offre **modello di percorso semplificato** che mira a migliorare i processi interni. Anche se questo nuovo modello rappresenta un miglioramento di back-end, il nostro team ha colto l’opportunità per aggiungere funzionalità visibili e vantaggiose per gli utenti di Journey Optimizer:
+Journey Optimizer ora offre **modello di percorso semplificato** che mira a migliorare l’esperienza utente e i processi interni. A partire dalla versione di aprile, potrai beneficiare delle seguenti funzionalità:
 
 * A **area di lavoro percorso riprogettata** progettato per un’esperienza di interfaccia utente moderna
 * A **reportistica live** Interfaccia utente direttamente disponibile nell’area di lavoro del percorso
