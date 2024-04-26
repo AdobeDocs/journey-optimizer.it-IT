@@ -8,9 +8,9 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
+source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Journey Optimizer ora offre **modello di percorso semplificato** che mira a migl
 Il nuovo modello di percorso coesisterà con quello esistente, il che significa che ci saranno percorsi che utilizzano **due modelli diversi**:
 
 * Il modello legacy
-* E il nuovo modello
+* Il nuovo modello
 
 Tutti i percorsi del modello legacy rimarranno al suo interno. Potrai comunque modificarli, testarli o pubblicarli. Vi rimarrà anche qualsiasi nuova versione creata da un percorso sul modello legacy. Ci sono **nessuna modifica funzionale** intorno a quei percorsi.
 
@@ -39,9 +39,9 @@ Come vedi nella schermata seguente, i nodi sono a forma di arrotondamento, che �
 
 ![](assets/new-canvas.png)
 
-Tuttavia, quando **crea un nuovo percorso** o **duplicare un elemento esistente**, sarà un nuovo percorso di modelli. I percorsi del modello precedente continueranno a essere supportati fino a quando la maggior parte dei clienti non sarà trasferita a quello nuovo.
+Tuttavia, quando **crea un nuovo percorso** o **duplicare un elemento esistente**, sarà sul nuovo modello. I percorsi del modello precedente continueranno a essere supportati fino a quando la maggior parte dei clienti non sarà trasferita a quello nuovo.
 
-Esiste un limite al nuovo modello di percorso che **impossibile copiare e incollare le attività dal modello legacy a quello nuovo e viceversa**. Se desideri eseguire questa operazione, ti consigliamo di duplicare il percorso sul modello legacy per passare al nuovo modello e quindi copiare le attività.
+Esiste un limite al nuovo modello di percorso che **impossibile copiare e incollare le attività dal modello legacy a quello nuovo e viceversa**. Se desideri eseguire questa operazione, ti consigliamo di duplicare il percorso legacy per passare al nuovo modello e quindi copiare le attività.
 
 Nella schermata seguente puoi vedere l’interfaccia utente riprogettata per l’area di lavoro del percorso (disponibile solo con il nuovo modello):
 
@@ -51,7 +51,7 @@ Nella schermata seguente puoi vedere l’interfaccia utente riprogettata per l�
 
 ## Progettazione dell’area di lavoro del percorso migliorata
 
-Con il nuovo modello di percorso introduciamo un nuovo **Interfaccia utente area di lavoro percorso**, che si inserisce perfettamente nell’ecosistema delle soluzioni e delle app Adobe Experience Cloud, offrendo un’esperienza utente intuitiva ed efficiente. Tutti i percorsi del nuovo modello saranno su quel nuovo design.
+Con il nuovo modello di percorso, verrà introdotto un nuovo **Interfaccia utente area di lavoro percorso**, che si inserisce perfettamente nell’ecosistema delle soluzioni e delle app Adobe Experience Cloud, offrendo un’esperienza utente intuitiva ed efficiente. Tutti i percorsi del nuovo modello saranno su quel nuovo design.
 
 ![](assets/new-canvas3.gif)
 
