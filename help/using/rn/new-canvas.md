@@ -8,9 +8,9 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Con il nuovo modello di percorso, verrà introdotto un nuovo **Interfaccia utent
 
 Le attività saranno ora rappresentate da caselle quadrate con le seguenti funzionalità:
 
-* La prima riga che rappresenta il tipo di attività e che spesso viene sovrascritta da informazioni più contestuali (ad esempio, in Read Audiences, conterrà il nome del pubblico selezionato), o da un’etichetta personalizzata se ne definisci una.
+* La prima riga che rappresenta il tipo di attività e che spesso viene sovrascritta da informazioni più contestuali (in Read Audiences, contiene il nome del pubblico selezionato) o da un’etichetta personalizzata, se ne definisci una.
 * La seconda riga rappresenta sempre il tipo di attività.
 
 ![](assets/new-canvas4.png)
