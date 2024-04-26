@@ -8,16 +8,16 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
+source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
 
 # Progettazione Percorsi migliorata {#new-canvas}
 
-Abbiamo sviluppato un **modello di percorso semplificato** che mira a migliorare i processi interni. Anche se questo nuovo modello rappresenta un miglioramento di back-end, il nostro team ha colto l’opportunità per aggiungere funzionalità visibili e vantaggiose per gli utenti di Journey Optimizer:
+Journey Optimizer ora offre **modello di percorso semplificato** che mira a migliorare i processi interni. Anche se questo nuovo modello rappresenta un miglioramento di back-end, il nostro team ha colto l’opportunità per aggiungere funzionalità visibili e vantaggiose per gli utenti di Journey Optimizer:
 
 * A **area di lavoro percorso riprogettata** progettato per un’esperienza di interfaccia utente moderna
 * A **reportistica live** Interfaccia utente direttamente disponibile nell’area di lavoro del percorso
@@ -30,28 +30,28 @@ Abbiamo sviluppato un **modello di percorso semplificato** che mira a migliorare
 
 Il nuovo modello di percorso coesisterà con quello esistente, il che significa che ci saranno percorsi che utilizzano **due modelli diversi**:
 
-* La vecchia, chiamata &quot;v1&quot;
-* E la nuova, chiamata &quot;v2&quot;
+* Il modello legacy
+* E il nuovo modello
 
-Tutti i percorsi nella versione 1 rimarranno nella versione 1. Potrai comunque modificarli, testarli o pubblicarli. Tutte le nuove versioni create a partire da una v1 rimarranno anche nella v1. Ci sono **nessuna modifica funzionale** intorno ai percorsi v1.
+Tutti i percorsi del modello legacy rimarranno al suo interno. Potrai comunque modificarli, testarli o pubblicarli. Vi rimarrà anche qualsiasi nuova versione creata da un percorso sul modello legacy. Ci sono **nessuna modifica funzionale** intorno a quei percorsi.
 
-Come vedi nella schermata seguente, i nodi sono a forma di arrotondamento, che è la vecchia interfaccia utente per i percorsi sul modello v1.
+Come vedi nella schermata seguente, i nodi sono a forma di arrotondamento, che è la vecchia interfaccia utente per i percorsi del modello legacy.
 
 ![](assets/new-canvas.png)
 
-Tuttavia, quando **crea un nuovo percorso** o **duplicare un elemento esistente**, sarà un percorso v2.  Prevediamo di continuare a supportare i percorsi v1 fino a quando la maggior parte dei clienti non sarà trasferita ai percorsi v2.
+Tuttavia, quando **crea un nuovo percorso** o **duplicare un elemento esistente**, sarà un nuovo percorso di modelli. I percorsi del modello precedente continueranno a essere supportati fino a quando la maggior parte dei clienti non sarà trasferita a quello nuovo.
 
-Esiste un limite al nuovo modello di percorso che **impossibile copiare e incollare attività da un percorso v1 a una v2 e viceversa**. Se desideri eseguire questa operazione, ti consigliamo di duplicare il percorso v1 per renderlo v2 e quindi di copiare le attività.
+Esiste un limite al nuovo modello di percorso che **impossibile copiare e incollare le attività dal modello legacy a quello nuovo e viceversa**. Se desideri eseguire questa operazione, ti consigliamo di duplicare il percorso sul modello legacy per passare al nuovo modello e quindi copiare le attività.
 
-Nella schermata seguente puoi vedere l’interfaccia utente riprogettata per l’area di lavoro del percorso (disponibile solo con il modello v2):
+Nella schermata seguente puoi vedere l’interfaccia utente riprogettata per l’area di lavoro del percorso (disponibile solo con il nuovo modello):
 
 ![](assets/new-canvas2.png)
 
-**A partire da questo momento, qualsiasi nuova funzione aggiunta al designer del percorso (incluso il reporting live) sarà disponibile solo per i percorsi v2.**
+**A partire da questo momento tutte le nuove funzioni aggiunte al designer del percorso (incluso il reporting in tempo reale) saranno disponibili solo per i percorsi del nuovo modello.**
 
 ## Progettazione dell’area di lavoro del percorso migliorata
 
-Con il nuovo modello di percorso introduciamo un nuovo **Interfaccia utente area di lavoro percorso**, che si inserisce perfettamente nell’ecosistema delle soluzioni e delle app Adobe Experience Cloud, offrendo un’esperienza utente intuitiva ed efficiente. Qualsiasi percorso nello stack v2 si troverà in quella nuova progettazione.
+Con il nuovo modello di percorso introduciamo un nuovo **Interfaccia utente area di lavoro percorso**, che si inserisce perfettamente nell’ecosistema delle soluzioni e delle app Adobe Experience Cloud, offrendo un’esperienza utente intuitiva ed efficiente. Tutti i percorsi del nuovo modello saranno su quel nuovo design.
 
 ![](assets/new-canvas3.gif)
 
