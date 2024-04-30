@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 10%
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
-* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) -[Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
 * Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
@@ -33,7 +33,7 @@ In questo caso d’uso, definisci due trattamenti di consegna ciascuno contenent
 
 Devi innanzitutto creare gli elementi, raggrupparli in raccolte, impostare regole e metodi di classificazione. Questi elementi ti consentiranno di creare strategie di selezione.
 
-1. Accedi a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Elementi]** e creare diversi elementi dell’offerta. Imposta i vincoli utilizzando tipi di pubblico o regole per limitare ogni elemento solo a profili specifici. [Ulteriori informazioni](items.md)
+1. Accedi a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Cataloghi]** e creare diversi elementi dell’offerta. Imposta i vincoli utilizzando tipi di pubblico o regole per limitare ogni elemento solo a profili specifici. [Ulteriori informazioni](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

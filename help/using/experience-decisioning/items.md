@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
 ht-degree: 14%
@@ -38,7 +38,7 @@ Journey Optimizer consente di creare offerte di marketing, note come elementi de
 
 Prima di creare un elemento di decisione, assicurati di aver creato un **regola di decisione** se desideri impostare le condizioni per determinare a chi può essere visualizzato l’elemento decisionale. [Scopri come creare regole di decisione](rules.md).
 
-Per creare un elemento di decisione, passa a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Elementi]**, quindi fai clic su **[!UICONTROL Crea elemento]** quindi segui i passaggi descritti nelle sezioni seguenti.
+Per creare un elemento di decisione, passa a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Cataloghi]**, quindi fai clic su **[!UICONTROL Crea elemento]** quindi segui i passaggi descritti nelle sezioni seguenti.
 
 ## Definire gli attributi dell’elemento decisionale {#attributes}
 

@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 5%
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
-* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali: **[Configurare il catalogo articoli](catalogs.md)** - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
 * Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 In Experience Decisioning, i cataloghi fungono da contenitori centrali per l’organizzazione degli elementi decisionali. Ogni catalogo è collegato a uno schema Adobe Experience Platform, che include tutti gli attributi assegnabili a un elemento decisionale.
 
-Per il momento, tutti gli elementi decisionali creati sono consolidati in un unico catalogo &quot;Offerte&quot;, accessibile tramite **[!UICONTROL Elementi]** menu.
+Per il momento, tutti gli elementi decisionali creati sono consolidati in un unico catalogo &quot;Offerte&quot;, accessibile tramite **[!UICONTROL Cataloghi]** menu.
 
 ![](assets/catalogs-list.png)
 
