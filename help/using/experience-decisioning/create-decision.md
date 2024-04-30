@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 14%
+source-wordcount: '1443'
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 >[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
-* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
+* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
 * Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
 * Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
 * [Creare strategie di selezione](selection-strategies.md)
@@ -206,3 +206,15 @@ Una volta creato, il criterio di decisione può essere utilizzato nel [Editor es
 1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor espressioni, ad esempio gli attributi del profilo.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+## Generazione di rapporti nel Customer Journey Analytics {#cja}
+
+Se utilizzi Customer Journey Analytics, puoi creare dashboard di reporting personalizzati per le campagne basate su codice, utilizzando Experience Decisioning.
+
+I passaggi principali sono elencati di seguito. Informazioni dettagliate su come lavorare con il Customer Journey Analytics sono disponibili nel [Documentazione del Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+
+1. Creare e configurare un **connessione** nel Customer Journey Analytics. Questo ti consente di connettersi al set di dati per il quale desideri creare rapporti. [Scopri come creare una connessione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+
+1. Creare un **visualizzazione dati** e associarlo alla connessione creata in precedenza. In **[!UICONTROL Componenti]** , scegli i campi dello schema rilevanti che desideri visualizzare nei rapporti. Per Experience Decisioning, assicurati di includere **propositioninteract** e **propositiondisplay** campi. [Scopri come creare e configurare le visualizzazioni dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+
+1. Combinare componenti dati, tabelle e visualizzazioni in **progetti workspace** per creare e condividere rapporti per la campagna basata su codice.[Scopri come creare progetti Workspace](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
