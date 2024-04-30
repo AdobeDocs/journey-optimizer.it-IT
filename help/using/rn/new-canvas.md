@@ -8,9 +8,9 @@ description: Nuova interfaccia del percorso
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f9183f0ef3dbc13f39e5442405e7b0011621e773
+source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '556'
 ht-degree: 1%
 
 ---
@@ -71,13 +71,14 @@ Consente inoltre al team di prodotto di aggiungere più informazioni sull’area
 
 ## Generazione di rapporti live nell’area di lavoro del percorso
 
-Oltre al design migliorato dell’area di lavoro del percorso, stiamo introducendo la possibilità di vedere **metriche di reporting delle ultime 24 ore** (chiamato &quot;reporting live&quot;) direttamente nell’area di lavoro del percorso.
+Oltre al layout migliorato dell’area di lavoro di percorso, è stata introdotta una nuova funzione che consente agli utenti di visualizzare le metriche di reporting in tempo reale da **ultime 24 ore**, denominato reporting live, direttamente nell’area di lavoro del percorso.
+
+Per ogni attività all’interno di ogni percorso live che utilizza il nuovo modello, puoi accedere a:
+
+* Il numero di profili che entrano in questa attività.
+* Numero di profili che escono da questa attività a causa di un errore.
 
 ![](assets/new-canvas6bis.png)
-
-Con ogni percorso live sul nuovo modello, potrai vedere, **su ogni attività**, il numero di profili che sono entrati in tale attività e il numero di persone che sono uscite a causa di un errore:
-
-![](assets/new-canvas8.png)
 
 <!--`
 With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
@@ -90,9 +91,6 @@ With every live journey on the new model, you will be able to see two types of "
 * **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
     ![](assets/new-canvas8.png)
 -->
-
-L’interfaccia utente viene aggiornata automaticamente ogni minuto.
-
 <!--
 Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
 -->
