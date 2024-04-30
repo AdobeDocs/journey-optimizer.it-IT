@@ -1,5 +1,5 @@
 ---
-title: Introduzione a Offer Decisioning
+title: Introduzione a Experience Decisioning
 description: Ulteriori informazioni su Experience Decisioning
 feature: Experience Decisioning
 topic: Integrations
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 7%
+source-wordcount: '329'
+ht-degree: 27%
 
 ---
 
-# Introduzione a Offer Decisioning {#get-started-experience-decisioning}
+# Introduzione a Experience Decisioning {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
 
@@ -33,15 +33,12 @@ ht-degree: 7%
 >[!AVAILABILITY]
 >
 >La funzione Experience Decisioning è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+>
+>I criteri di decisione sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
 
-Experience Decisioning semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come &quot;elementi decisionali&quot; e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni individuo gli elementi decisionali più rilevanti.
+La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer.
-
-**Limitazioni:**
-
-* I criteri di decisione sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
-* Per il momento, la quota limite non è disponibile in Experience Decisioning.
+Gli elementi decisionali sono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer.
 
 ## Passaggi chiave di Experience Decisioning {#steps}
 
