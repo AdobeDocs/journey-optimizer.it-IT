@@ -505,8 +505,8 @@ ht-degree: 99%
          + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-+ Offer Decisioning {#experience-decisioning}
-   + [Introduzione a Offer Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
++ Experience Decisioning {#experience-decisioning}
+   + [Introduzione a Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
    + Gestire gli elementi decisionali {#decision-items}
       + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
       + [Creare elementi decisionali](using/experience-decisioning/items.md)
