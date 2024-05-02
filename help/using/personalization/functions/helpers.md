@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 4%
 
 ---
@@ -202,7 +202,7 @@ Il `let` consente di memorizzare un’espressione come variabile da utilizzare s
 
 **Esempio**
 
-L&#39;esempio seguente consente di calcolare tutte le somme dei totali dei prodotti con la transazione in USD se la somma è maggiore di 100 $ e minore di 1000 $.
+L&#39;esempio seguente consente di calcolare la somma totale dei prezzi dei prodotti nel carrello con prezzi compresi tra 100 e 1000.
 
 ```sql
 {% let sum = 0%}
