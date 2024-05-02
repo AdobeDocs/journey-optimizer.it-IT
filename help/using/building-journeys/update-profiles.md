@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Utilizza il **[!UICONTROL Aggiorna profilo]** attività di azione per aggiornare
 
 ## Raccomandazioni
 
-* Il **Aggiorna profilo** può essere utilizzata solo nei percorsi che iniziano con un evento che ha uno spazio dei nomi.
+* Il **Aggiorna profilo** può essere utilizzato solo in percorsi che hanno uno spazio dei nomi.
 * L’azione aggiorna solo i campi esistenti, non crea nuovi campi profilo.
 * Non è possibile utilizzare **Aggiorna profilo** azione per generare eventi di esperienza, ad esempio un acquisto.
 * Proprio come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi inserire due azioni in parallelo.

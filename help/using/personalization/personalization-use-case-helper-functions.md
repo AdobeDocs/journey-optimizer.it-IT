@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, helper, caso d’uso, personalizzazione
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ Il contenuto del carrello è un’informazione contestuale proveniente dal perco
 1. Crea un evento il cui schema include `productListItems` array.
 1. Definisci tutti i campi di questo array come campi payload per questo evento.
 
-   Ulteriori informazioni sul tipo di dati delle voci dell’elenco dei prodotti [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Ulteriori informazioni sul tipo di dati delle voci dell’elenco dei prodotti in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Crea un percorso che inizia con questo evento.
 1. Aggiungi un **E-mail** al percorso.

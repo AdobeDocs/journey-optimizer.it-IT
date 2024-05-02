@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 99%
+source-wordcount: '1786'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [Note preliminari sulla versione](using/rn/early-release-notes.md)
    + [Note sulla versione più recente](using/rn/release-notes.md)
    + Note sulle versioni precedenti {#previous-rn-new}
+      + [Note sulla versione 2024](using/rn/release-notes-2024.md)
       + [Note sulla versione 2023](using/rn/release-notes-2023.md)
       + [Note sulle versioni 2022](using/rn/release-notes-2022.md)
       + [Note sulle versioni 2021](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 99%
          + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
          + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
+         + [Utilizzare azioni personalizzate per scrivere eventi di Percorso in Experienci Platform](using/building-journeys/custom-action-aep.md)
 + Campagne{#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 99%
       + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
 + Canale SMS/MMS{#sms}
    + [Introduzione ai messaggi di testo](using/sms/get-started-sms.md)
-   + [Creare un messaggio SMS](using/sms/create-sms.md)
-   + [Creare un messaggio MMS](using/sms/create-mms.md)
+   + [Creare un messaggio di testo (SMS/MMS)](using/sms/create-sms.md)
    + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
    + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
-   + [Configurare il canale SMS](using/sms/sms-configuration.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
+   + Configurare il canale SMS/MMS{#configure-sms}
+      + [Introduzione alla configurazione degli SMS](using/sms/sms-configuration.md)
+      + [Configura provider Sinch](using/sms/sms-configuration-sinch.md)
+      + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
+      + [Configura provider Twilio](using/sms/sms-configuration-twilio.md)
+      + [Creare una superficie SMS](using/sms/sms-configuration-surface.md)
 + Direct mail {#direct-mail}
    + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Creare una direct mail](using/direct-mail/create-direct-mail.md)

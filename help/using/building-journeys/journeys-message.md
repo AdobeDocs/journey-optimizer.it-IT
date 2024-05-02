@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1177'
 ht-degree: 17%
 
 ---
@@ -104,6 +104,10 @@ Tieni presente che per l’attività in-app è possibile apportare qualsiasi mod
 >title="Ottimizzazione dell’ora di invio"
 >abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
 
+>[!NOTE]
+>
+>Questa funzione non è abilitata per impostazione predefinita. Puoi rivolgerti al tuo rappresentante Adobe per attivarlo.
+
 ### Informazioni sull’ottimizzazione dell’ora di invio {#about-send-time}
 
 La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un’e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. Utilizza il nostro modello di apprendimento automatico per pianificare un’ora di invio personalizzata in modo da aumentare le percentuali di apertura e clic sui messaggi da parte di ogni utente.
@@ -120,10 +124,6 @@ Il modello varia a seconda che si parli di punteggio o di formazione. La formazi
 * Punteggio: applicazione di un punteggio ai singoli profili in base al modello addestrato
 
 Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa riferimento al momento dell’esecuzione del percorso per indicare a Adobe Journey Optimizer quando inviare il messaggio.
-
->[!CAUTION]
->
->Questa funzione non è compatibile con la modalità burst.
 
 ### Domande frequenti {#faq-send-time}
 

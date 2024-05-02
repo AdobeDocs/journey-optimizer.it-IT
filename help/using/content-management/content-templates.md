@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1411'
 ht-degree: 10%
 
 ---
@@ -197,10 +197,6 @@ Ora puoi utilizzare questo modello per creare qualsiasi contenuto in [!DNL Journ
 ## Test dei modelli di contenuto e-mail {#test-template}
 
 Puoi testare il rendering di alcuni modelli e-mail, creati da zero o da un contenuto esistente. A questo scopo, segui i passaggi riportati qui sotto.
-
->[!CAUTION]
->
->I modelli di contenuto attualmente in fase di test sono disponibili solo per **[!UICONTROL E-mail]** modelli con **[!UICONTROL HTML]** tipo.
 
 1. Accedere all’elenco dei modelli di contenuto tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** e seleziona un modello di e-mail.
 

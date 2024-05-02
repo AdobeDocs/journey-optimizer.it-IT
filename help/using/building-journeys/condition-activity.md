@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 17%
@@ -154,11 +154,10 @@ Questa sezione spiega come utilizzare un pubblico in una condizione di percorso.
 Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti operazioni:
 
 1. Apri un percorso, rilascia una **[!UICONTROL Condizione]** e scegli la **Condizione origine dati**.
-   ![](assets/journey47.png)
-
-1. Clic **[!UICONTROL Aggiungi un percorso]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic su **[!UICONTROL Espressione]** campo.
 
    ![](assets/segment3.png)
+
+1. Clic **[!UICONTROL Aggiungi un percorso]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic su **[!UICONTROL Espressione]** campo.
 
 1. Sul lato sinistro, apri **[!UICONTROL Tipi di pubblico]** nodo. Trascina e rilascia il pubblico da utilizzare per la condizione. Per impostazione predefinita, la condizione sul pubblico è true.
 

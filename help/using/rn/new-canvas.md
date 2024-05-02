@@ -5,17 +5,15 @@ title: Nuova interfaccia del percorso
 feature: Release Notes
 topic: Content Management
 description: Nuova interfaccia del percorso
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Progettazione Percorsi migliorata {#new-canvas}
+# Ti diamo il benvenuto nel Journey Designer migliorato {#new-canvas}
 
 Journey Optimizer ora offre **modello di percorso semplificato** che mira a migliorare l’esperienza utente e i processi interni. A partire dalla versione di aprile, potrai beneficiare delle seguenti funzionalità:
 
@@ -68,12 +66,12 @@ Consente inoltre al team di prodotto di aggiungere più informazioni sull’area
 
 ![](assets/new-canvas5.png)
 
-
 ## Generazione di rapporti live nell’area di lavoro del percorso
 
 Oltre al layout migliorato dell’area di lavoro di percorso, è stata introdotta una nuova funzione che consente agli utenti di visualizzare le metriche di reporting in tempo reale da **ultime 24 ore**, denominato reporting live, direttamente nell’area di lavoro del percorso.
 
 Per ogni attività all’interno di ogni percorso live che utilizza il nuovo modello, puoi accedere a:
+
 
 * Il numero di profili che entrano in questa attività.
 * Numero di profili che escono da questa attività a causa di un errore.

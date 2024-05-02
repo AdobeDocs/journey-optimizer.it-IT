@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1536'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Solo i profili di test possono entrare in un percorso in modalità di test. Puoi
 
 Per utilizzare la modalità di test, effettua le seguenti operazioni:
 
-1. Per attivare la modalità di test, attiva **[!UICONTROL Test]** , situato nell’angolo in alto a destra.
+1. Per attivare la modalità di test, fai clic su **[!UICONTROL Modalità di test]** nell&#39;angolo superiore destro.
 
    ![](assets/journeytest1.png)
 

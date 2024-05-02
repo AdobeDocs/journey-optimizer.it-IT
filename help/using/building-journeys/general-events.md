@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 13%
+source-wordcount: '547'
+ht-degree: 12%
 
 ---
 
@@ -45,17 +45,20 @@ Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
 1. Specifica il tempo di attesa dell&#39;evento da parte del percorso. La durata massima è di 29 giorni.
 
-1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Impostare un percorso di timeout]** opzione. Se questa opzione non è abilitata, il percorso continuerà per la singola persona una volta raggiunto il timeout.
+1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Impostare un percorso di timeout]** opzione. Se questa opzione non è abilitata, il percorso continuerà per la singola persona una volta raggiunto il timeout. È consigliabile abilitare sempre **Impostare un percorso di timeout** opzione.
 
    ![](assets/event-timeout.png)
 
-In questo esempio, il percorso invia un messaggio push di benvenuto a un cliente. Invia quindi un messaggio push con uno sconto sui pasti solo se il cliente entra nel ristorante entro il giorno successivo. Abbiamo quindi configurato l’evento del ristorante con un timeout di 1 giorno:
+In questo esempio, il percorso invia un’e-mail di benvenuto a un cliente dopo che è entrato nell’atrio. Invia un’e-mail con uno sconto sui pasti solo se il cliente entra nel ristorante entro il giorno successivo. Abbiamo quindi configurato l’evento del ristorante con un timeout di 1 giorno:
 
-* Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo il messaggio push di benvenuto, l’attività push per lo sconto sui pasti viene inviata.
+* Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo l’e-mail di benvenuto, viene inviata l’e-mail con lo sconto sui pasti.
 * Se non viene ricevuto alcun evento del ristorante nel giorno successivo, la persona scorre attraverso il percorso di timeout.
 
 Se desideri configurare un timeout per più eventi posizionati dopo un’ **[!UICONTROL Wait]** attività, è necessario configurare il timeout solo per uno di questi eventi.
 
-Il timeout verrà applicato a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività. Se non viene ricevuto alcun evento prima del timeout specificato, i singoli utenti scorrono in un singolo percorso di timeout o continuano tale percorso attraverso il ramo che esce dall’attività in cui sono state definite tali impostazioni di timeout.
+Il timeout definito si applica a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività:
+
+* Se un evento viene rimosso entro la durata del timeout, il singolo passa nel percorso dell’evento ricevuto.
+* Se non viene ricevuto alcun evento entro la durata di timeout, il singolo fluisce nel ramo di timeout dell’evento in cui è stato definito il timeout.
 
 ![](assets/event-timeout-group.png)

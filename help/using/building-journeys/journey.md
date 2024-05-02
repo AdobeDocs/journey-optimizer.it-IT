@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
@@ -96,8 +96,6 @@ Se devi apportare delle modifiche a un percorso live, crea una nuova versione de
    >È possibile creare una nuova versione solo a partire dalla versione più recente di un percorso.
 
 1. Apporta le modifiche necessarie, quindi fai clic su **[!UICONTROL Pubblica]** e conferma.
-
-   ![](assets/journeyversions3.png)
 
 Dal momento in cui il percorso viene pubblicato, i singoli utenti inizieranno a confluire nell’ultima versione del percorso. Le persone che erano già entrate in una versione precedente vi rimangono fino alla fine del percorso. Se in un secondo momento entrano di nuovo nello stesso percorso, passeranno nella versione più recente.
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1606'
-ht-degree: 13%
+source-wordcount: '1605'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,7 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
    >[!NOTE]
    >
-   >Non utilizzare spazi o caratteri speciali. Non usare più di 30 caratteri.
+   >Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri.
 
 1. In **[!UICONTROL Tipo]** campo, scegli **Unitario**.
 

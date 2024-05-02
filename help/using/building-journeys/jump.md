@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '842'
 ht-degree: 10%
 
 ---
@@ -112,7 +112,7 @@ Quando un **[!UICONTROL Salta]** l’attività è configurata in un percorso, un
 
 ## Risoluzione dei problemi
 
-Quando il percorso viene pubblicato o in modalità di test, si verificano degli errori se:
+Si verificano degli errori se:
 * il percorso target non esiste più
 * il percorso di destinazione è bozza, chiuso o interrotto
 * se il primo evento del percorso target è stato modificato e la mappatura è interrotta

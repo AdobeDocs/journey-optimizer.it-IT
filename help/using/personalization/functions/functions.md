@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1872'
 ht-degree: 3%
 
 ---
@@ -171,6 +171,9 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">Alla stringa esadecimale</a></td><td>converte qualsiasi numero nella relativa stringa esadecimale.</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>Converte uno qualsiasi di questi tipi (number, double, int, long, float, short, byte, boolean, string) in un numero intero.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">A percentuale</a></td><td>Questa funzione converte un numero in percentuale.</td>

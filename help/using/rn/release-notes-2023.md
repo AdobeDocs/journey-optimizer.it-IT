@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4398'
 ht-degree: 100%
@@ -213,9 +213,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale SMS**
 
-* Due nuovi campi, **Messaggio di consenso** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, per consentire agli utenti di personalizzare le risposte in base a parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch. [Ulteriori informazioni](../sms/sms-configuration.md#create-api)
+* Due nuovi campi, **Messaggio di consenso** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, per consentire agli utenti di personalizzare le risposte in base a parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch. [Ulteriori informazioni](../sms/sms-configuration.md)
 
-* La rinuncia agli SMS non viene più gestita a livello di canale. Ora è a livello di numero: se alcuni profili rinunciano da un determinato numero o codice breve, puoi comunque inviare loro messaggi da altri numeri che utilizzi per inviare messaggi SMS. Una nuova opzione consente di selezionare il **Numero di rinuncia** da utilizzare per una determinata superficie. [Ulteriori informazioni](../sms/sms-configuration.md#message-preset-sms)
+* La rinuncia agli SMS non viene più gestita a livello di canale. Ora è a livello di numero: se alcuni profili rinunciano da un determinato numero o codice breve, puoi comunque inviare loro messaggi da altri numeri che utilizzi per inviare messaggi SMS. Una nuova opzione consente di selezionare il **Numero di rinuncia** da utilizzare per una determinata superficie. [Ulteriori informazioni](../sms/sms-configuration.md)
 
 **Canale direct mail**
 
