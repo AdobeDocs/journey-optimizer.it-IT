@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '976'
 ht-degree: 13%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 13%
 >
 >Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 
-Dopo aver creato e personalizzato i messaggi, porta il contenuto delle notifiche push al livello successivo con l’Assistente di intelligenza artificiale di Journey Optimizer.
+Dopo aver creato e personalizzato i messaggi, porta il contenuto delle notifiche push al livello successivo con l’Assistente AI in Adobe Journey Optimizer.
 
 Esplora le schede seguenti per scoprire come utilizzare l’Assistente IA in Journey Optimizer.
 

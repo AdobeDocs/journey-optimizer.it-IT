@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1319'
 ht-degree: 24%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
-Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente di intelligenza artificiale di Journey Optimizer in Campaign basato sull’intelligenza artificiale generativa per portare il contenuto al livello successivo.
+Dopo aver creato e personalizzato le e-mail, utilizza l’Assistente per l’intelligenza artificiale in Adobe Journey Optimizer basato sull’intelligenza artificiale generativa per portare il contenuto al livello successivo.
 
 L’Assistente AI può aiutarti a ottimizzare l’impatto delle consegne suggerendo contenuti diversi che hanno maggiori probabilità di risuonare con il pubblico.
 
