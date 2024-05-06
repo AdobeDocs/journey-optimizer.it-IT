@@ -12,7 +12,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1786'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -70,7 +70,7 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 
 1. Una volta definiti gli attributi dell’elemento decisionale, fai clic su **[!UICONTROL Successivo]**.
 
-## Configurare l’idoneità dell’elemento di decisione {#eligibility}
+## Configurare l’idoneità dell’elemento decisionale {#eligibility}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_constraints"

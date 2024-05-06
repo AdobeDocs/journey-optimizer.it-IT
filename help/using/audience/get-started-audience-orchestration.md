@@ -11,7 +11,7 @@ exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 51%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 51%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Creare una composizione"
->abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico."
+>abstract="Crea un flusso di lavoro di composizione per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare le varie attività (divisione, esclusione...) per creare nuovi tipi di pubblico."
 
 >[!BEGINSHADEBOX]
 
