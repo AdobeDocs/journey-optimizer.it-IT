@@ -25,7 +25,7 @@ ht-degree: 97%
       + [Note sulle versioni 2022](using/rn/release-notes-2022.md)
       + [Note sulle versioni 2021](using/rn/release-notes-2021.md)
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
-   + [Area di lavoro percorso migliorata](using/rn/new-canvas.md)
+   + [Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
 + Introduzione{#get-started}
    + [Cos’è Journey Optimizer](using/start/get-started.md)
    + Guide rapide{#quick-start}
@@ -87,7 +87,7 @@ ht-degree: 97%
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + Aggregazione {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
-            + [numero](using/building-journeys/functions/functioncount.md)
+            + [conteggio](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
             + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
@@ -558,7 +558,7 @@ ht-degree: 97%
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
-   + [Utilizzare le regole business](using/configuration/business-rules.md)
+   + [Utilizzare le regole aziendali](using/configuration/business-rules.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + Integrazione con sistemi esterni {#external-systems}
