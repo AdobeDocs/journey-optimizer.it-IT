@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 35%
+source-wordcount: '636'
+ht-degree: 33%
 
 ---
 
@@ -88,8 +88,4 @@ Puoi anche duplicare un’offerta o decisioni esistenti per creare una copia con
 
 ## Registri di modifica di offerte e decisioni {#changes-logs}
 
-La Libreria di offerte consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione. A questo scopo, apri l’offerta o la decisione facendo clic sul nome nell’elenco, quindi seleziona la **[!UICONTROL Registro modifiche]** scheda.
-
-Tutte le modifiche apportate vengono visualizzate in questa schermata, così come il nome dell’utente che le ha eseguite.
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione. A questo scopo, accedi a **[!UICONTROL Audit]** dal menu a sinistra. [Scopri come controllare le azioni sulle risorse](../../privacy/audit-logs.md)

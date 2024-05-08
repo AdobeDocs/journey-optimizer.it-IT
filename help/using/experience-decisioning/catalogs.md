@@ -5,28 +5,16 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 # Catalogo articoli {#catalog}
-
->[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
-
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali: **[Configurare il catalogo articoli](catalogs.md)** - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
-* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
-* [Creare strategie di selezione](selection-strategies.md)
-* [Creare criteri di decisione](create-decision.md)
-
->[!ENDSHADEBOX]
 
 In Experience Decisioning, i cataloghi fungono da contenitori centrali per l’organizzazione degli elementi decisionali. Ogni catalogo è collegato a uno schema Adobe Experience Platform, che include tutti gli attributi assegnabili a un elemento decisionale.
 
@@ -53,10 +41,9 @@ Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degl
 
    >[!CAUTION]
    >
-   >Per il momento, Experience Decisioning supporta esclusivamente i tipi di dati elencati di seguito. Eventuali campi che non rientrano in questi tipi di dati non saranno disponibili per l’utilizzo durante la creazione di un elemento decisionale.
-   >* Stringa
-   >* Booleano
-   >* Numero
+   >Per il momento, Experience Decisioning supporta esclusivamente i seguenti tipi di dati: Stringa, Numero intero, Booleano, Data, DataOra e Risorsa decisionale. Eventuali campi che non rientrano in questi tipi di dati non saranno disponibili per l’utilizzo durante la creazione di un elemento decisionale o di un catalogo.
+
+   Il valore immesso in un attributo con l’attributo di risorsa decisioning è un URL pubblico. Nella maggior parte dei casi, questo richiama un’immagine.
 
    Informazioni dettagliate su come lavorare con gli schemi di Adobe Experience Platform sono disponibili nella sezione [Documentazione del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
 

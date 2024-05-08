@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
@@ -32,11 +32,11 @@ Ogni azione viene registrata con i metadati nei “registri di audit”, accessi
 
 ## Tipi di eventi acquisiti dai registri di audit {#events}
 
-La tabella seguente presenta le azioni che vengono riportate nei registri di audit per le diverse risorse Journey Optimizer.
+La tabella seguente illustra le azioni per le quali le risorse Journey Optimizer vengono registrate dai registri di audit. L’elenco completo delle azioni riportate nei registri di audit è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it#category).
 
 >[!NOTE]
 >
->L’elenco completo delle azioni riportate nei registri di audit è disponibile nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html?lang=it#category).
+>Registri di audit relativi a **gestione delle decisioni** sono visibili solo dal file CSV scaricabile tramite **[!UICONTROL Scarica registro]** pulsante.
 
 | Risorsa | Azione |
 |-----------|------------------|

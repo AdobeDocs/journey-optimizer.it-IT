@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 19%
+source-wordcount: '722'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Definire le strategie di selezione"
->abstract="Una strategia di selezione è un elemento riutilizzabile, costituito da una raccolta associata a un vincolo di idoneità e da un metodo di classificazione per determinare le offerte da visualizzare quando vengono selezionate in un criterio decisionale."
+>abstract="Una strategia di selezione è riutilizzabile e consiste in una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un criterio decisionale."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html?lang=it" text="Creare criteri di decisione"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 19%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=it" text="Utilizzare i tipi di pubblico"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html?lang=it" text="Utilizzare le regole di decisione"
 
->[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
-
-* [Introduzione a Offer Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
-* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
-* **[Creare strategie di selezione](selection-strategies.md)**
-* [Creare criteri di decisione](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Una strategia di selezione è un elemento riutilizzabile, costituito da una raccolta associata a un vincolo di idoneità e da un metodo di classificazione per determinare le offerte da visualizzare quando vengono selezionate in un [criterio di decisione](create-decision.md).
+Una strategia di selezione è riutilizzabile ed è costituita da una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un [criterio di decisione](create-decision.md).
 
 ## Accesso e gestione delle strategie di selezione
 
-1. Vai a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configurazione]** > **[!UICONTROL Strategie di selezione]**.
+1. Vai a **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Impostazione strategia]** > **[!UICONTROL Strategie di selezione]**.
 
 1. Vengono elencate tutte le strategie di selezione create finora. Sono disponibili filtri per aiutarti a recuperare le strategie in base al metodo di classificazione.
 
@@ -77,8 +65,6 @@ Per creare una strategia di selezione, segui i passaggi indicati di seguito.
 
 1. Seleziona la [raccolta](collections.md) che contiene le offerte da considerare.
 
-1. Seleziona l’offerta [raccolta](collections.md) che contiene le offerte da considerare.
-
 1. Utilizza il **[!UICONTROL Idoneità]** per limitare la selezione delle offerte per questa strategia di selezione.
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ Per creare una strategia di selezione, segui i passaggi indicati di seguito.
 
    * Se desideri utilizzare un punteggio calcolato specifico per scegliere l’offerta idonea da consegnare, seleziona [Formula](#ranking-formula) o [Modello IA](#ai-ranking).
 
-1. Fai clic su **[!UICONTROL Crea]**. È ora pronto per essere utilizzato in un [decisione](create-decision.md)
+1. Fai clic su **[!UICONTROL Crea]**. È ora pronto per essere utilizzato in un [criterio di decisione](create-decision.md)
 
 ## Selezionare un metodo di classificazione {#select-ranking-method}
 
@@ -113,7 +99,7 @@ Se più offerte sono idonee per una determinata strategia di selezione, puoi sce
 
 ### Priorità offerta {#offer-priority}
 
-Per impostazione predefinita, quando diverse offerte sono idonee per un determinato posizionamento in una decisione, gli elementi con il valore più alto **priorità** verrà consegnato prima ai clienti.
+Per impostazione predefinita, quando diverse offerte sono idonee per un determinato posizionamento in un criterio decisionale, gli elementi con il valore più alto **priorità** verrà consegnato prima ai clienti.
 
 ![](assets/item-priority.png)
 

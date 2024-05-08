@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 23%
+source-wordcount: '419'
+ht-degree: 19%
 
 ---
 
 # Introduzione a Experience Decisioning {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
-
-* **[Introduzione a Experience Decisioning](gs-experience-decisioning.md)**
-* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
-* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
-* [Creare strategie di selezione](selection-strategies.md)
-* [Creare criteri di decisione](create-decision.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>
+>Per il momento, la funzione non è disponibile per i clienti che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
 
 ## Cos’è Experience Decisioning {#about}
 
->[!AVAILABILITY]
->
->La funzione Experience Decisioning è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
->
->I criteri di decisione sono disponibili per l’utilizzo solo nelle campagne di esperienza basate su codice.
-
 La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Gli elementi decisionali sono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer.
+Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer. I criteri decisionali di Experience Decisioning sono disponibili solo per l’utilizzo in campagne di esperienza basate su codice.
 
 ## Passaggi chiave di Experience Decisioning {#steps}
 
 I passaggi principali per lavorare con Experience Decisioning sono i seguenti:
 
-1. **Assegnare le autorizzazioni appropriate**. Le decisioni sono disponibili solo per gli utenti con accesso a un correlato a Experience Decisioning **[!UICONTROL ruolo]** come i responsabili delle decisioni. Se non riesci ad accedere alle decisioni, devi estendere le autorizzazioni.
+1. **Assegnare le autorizzazioni appropriate**. Experience Decisioning è disponibile solo per gli utenti con accesso a un correlato a Experience Decisioning **[!UICONTROL ruolo]** come i responsabili delle decisioni. Se non riesci ad accedere ad Experience Decisioning, devi estendere le autorizzazioni.
 
    +++Scopri come assegnare il ruolo Responsabili delle decisioni
 
@@ -66,7 +54,7 @@ I passaggi principali per lavorare con Experience Decisioning sono i seguenti:
 
 +++
 
-1. **Configurare gli attributi personalizzati**: personalizza il catalogo degli elementi decisionali in base ai tuoi requisiti specifici impostando attributi personalizzati nello schema del catalogo.
+1. **Configurare gli attributi personalizzati**: personalizza il catalogo articoli in base alle tue esigenze impostando attributi personalizzati nello schema del catalogo.
 
 1. **Creare elementi decisionali** per mostrarlo al pubblico di destinazione.
 

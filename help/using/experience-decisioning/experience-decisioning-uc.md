@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="Disponibilità limitata"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 10%
+source-wordcount: '330'
+ht-degree: 6%
 
 ---
 
 # Caso di utilizzo di Experience Decisioning {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
-
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) -[Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
-* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
-* [Creare strategie di selezione](selection-strategies.md)
-* [Creare criteri di decisione](create-decision.md)
-
->[!ENDSHADEBOX]
 
 In questo caso d’uso, definisci due trattamenti di consegna ciascuno contenente un criterio di decisione diverso al fine di misurare quale offre le prestazioni migliori per il pubblico di destinazione.
 
@@ -52,11 +40,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 
 Definisci due trattamenti di consegna ciascuno contenente un criterio di decisione diverso.
 
-1. Crea una campagna e seleziona la **[!UICONTROL Esperienza basata su codice (Beta)]** azione. [Ulteriori informazioni](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >La funzione di esperienza basata su codice è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+1. Crea una campagna e seleziona la **[!UICONTROL Esperienza basata su codice]** azione. [Ulteriori informazioni](../code-based/create-code-based.md)
 
 1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti. [Ulteriori informazioni](../campaigns/content-experiment.md)
 

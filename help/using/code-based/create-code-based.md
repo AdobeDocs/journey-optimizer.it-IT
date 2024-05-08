@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1018'
 ht-degree: 9%
 
 ---
@@ -71,15 +71,14 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 
    Puoi anche salvare parte del contenuto del codice come frammento. [Scopri come](../content-management/fragments.md#save-as-expression-fragment)
 
-<!--
-1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
+1. Nelle campagne basate su codice, puoi utilizzare la funzione Experience Decisioning. Seleziona la **[!UICONTROL Decisioni]** dalla barra a sinistra e fai clic su **[!UICONTROL Crea decisione]**. [Ulteriori informazioni](../experience-decisioning/create-decision.md)
 
-    ![](assets/code-based-campaign-create-decision.png)
+   ![](assets/code-based-campaign-create-decision.png)
 
-    >[!NOTE]
-    >
-    >The experience decisioning feature is currently available as a beta to select users only.
--->
+   >[!NOTE]
+   >
+   >La funzione Experience Decisioning è attualmente disponibile come versione beta solo per alcuni utenti.
+
 
 1. Clic **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
 

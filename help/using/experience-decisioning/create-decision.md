@@ -1,18 +1,16 @@
 ---
-title: Creare decisioni
-description: Scopri come creare decisioni
+title: Creare criteri di decisioni
+description: Scopri come creare criteri di decisioni
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 12%
+source-wordcount: '1481'
+ht-degree: 10%
 
 ---
 
@@ -21,20 +19,12 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="Che cos’è una decisione?"
->abstract="I criteri decisionali sfruttano il motore di Offer Decisioning per scegliere i contenuti migliori da distribuire in base al pubblico."
+>abstract="I criteri di decisione contengono tutta la logica di selezione necessaria affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici per la campagna. Il loro obiettivo è selezionare le offerte migliori per ciascun profilo, mentre la creazione della campagna ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=it" text="Informazioni su Offer Decisioning"
 
->[!BEGINSHADEBOX &quot;Cosa troverai in questa guida alla documentazione&quot;]
-
-* [Introduzione a Experience Decisioning](gs-experience-decisioning.md)
-* Gestire gli elementi decisionali: [Configurare il catalogo articoli](catalogs.md) - [Creare elementi decisionali](items.md) - [Gestire le raccolte elementi](collections.md)
-* Configura la selezione degli elementi: [Creare regole di decisione](rules.md) - [Creare metodi di classificazione](ranking.md)
-* [Creare strategie di selezione](selection-strategies.md)
-* **[Creare criteri di decisione](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di experience decisioning per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
+
+I criteri di decisione contengono tutta la logica di selezione necessaria affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici per la campagna. Il loro obiettivo è selezionare le offerte migliori per ciascun profilo, mentre la creazione della campagna ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio.
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ I criteri di decisione sono contenitori per le offerte che sfruttano il motore d
 
 Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori sul sito web o sull’app mobile, aggiungi un criterio decisionale a una campagna basata su codice. A questo scopo, segui i passaggi riportati qui sotto.
 
-1. Crea una campagna e seleziona la **[!UICONTROL Esperienza basata su codice (Beta)]** azione. [Ulteriori informazioni](../code-based/create-code-based.md)
+1. Crea una campagna e seleziona la **[!UICONTROL Esperienza basata su codice]** azione. [Ulteriori informazioni](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >La funzione di esperienza basata su codice è attualmente disponibile come versione beta solo per alcuni utenti.
-
-1. Dalla sezione [editor di codice](../code-based/create-code-based.md#edit-code), seleziona la **[!UICONTROL Decisioni]** e fai clic su **[!UICONTROL Creare una decisione]**.
+1. Dalla sezione [editor di codice](../code-based/create-code-based.md#edit-code), seleziona la **[!UICONTROL Criterio decisionale]** e fai clic su **[!UICONTROL Aggiungi criterio di decisione]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -81,7 +67,7 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
 
 1. Selezionare il numero di elementi che si desidera restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la superficie corrente. Clic **[!UICONTROL Successivo]**
 
-1. Utilizza il **[!UICONTROL Aggiungi strategia]** per definire le strategie di selezione per il criterio di decisione. Ogni strategia consiste in una raccolta di offerte associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da visualizzare. [Ulteriori informazioni](selection-strategies.md)
+1. Utilizza il **[!UICONTROL Aggiungi strategia]** per definire le strategie di selezione per il criterio di decisione. Ogni strategia è costituita da una raccolta di offerte associata a un vincolo di idoneità e da un metodo di classificazione per determinare le offerte da visualizzare. [Ulteriori informazioni](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -109,11 +95,9 @@ Per presentare l’offerta e l’esperienza migliore e dinamica ai visitatori su
    >
    >Un fallback è facoltativo. Se non è selezionato alcun fallback e non è stata qualificata alcuna strategia, non viene visualizzato nulla da [!DNL Journey Optimizer].
 
-1. Salva la selezione e fai clic su **[!UICONTROL Crea]**. La nuova politica decisionale è aggiunta in **[!UICONTROL Decisioni]**.
+1. Salva la selezione e fai clic su **[!UICONTROL Crea]**. Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-Dopo aver creato il criterio decisionale, puoi utilizzare gli attributi di decisione all’interno del contenuto dell’esperienza basata su codice. [Ulteriori informazioni](#use-decision-policy)
 
 ## Ordine di valutazione {#evaluation-order}
 
@@ -181,7 +165,7 @@ Una volta creato, il criterio di decisione può essere utilizzato nel [Editor es
 >
 >L&#39;esperienza basata su codice sfrutta [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
-1. Fai clic sull’icona +. Viene aggiunto il codice corrispondente al criterio di decisione. Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di tale codice.
+1. Fai clic su **[!UICONTROL Inserisci criterio]** pulsante. Viene aggiunto il codice corrispondente al criterio di decisione.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -189,19 +173,18 @@ Una volta creato, il criterio di decisione può essere utilizzato nel [Editor es
    >
    >Questa sequenza verrà ripetuta il numero di volte che si desidera che venga restituito il criterio di decisione. Ad esempio, se scegli di restituire indietro 2 elementi quando [creazione della decisione](#add-decision), la stessa sequenza verrà ripetuta due volte.
 
-1. Fai clic sul criterio di decisione. Vengono visualizzati gli attributi di decisione.
-
-   Questi attributi vengono memorizzati nel **[!UICONTROL Offerte]** schema del catalogo. Gli attributi personalizzati sono memorizzati in **`_<imsOrg`>** cartella e attributi standard nella **`_experience`** cartella. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
+1. Ora puoi aggiungere tutti gli attributi di decisione desiderati all’interno di tale codice. Gli attributi disponibili vengono memorizzati nel **[!UICONTROL Offerte]** schema del catalogo. Gli attributi personalizzati sono memorizzati in **`_<imsOrg`>** cartella e attributi standard nella **`_experience`** cartella. [Ulteriori informazioni sullo schema del catalogo delle offerte](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >Per il tracciamento degli elementi dei criteri di decisione, `trackingToken`l’attributo deve essere aggiunto come segue per il contenuto dei criteri di decisione:
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Fai clic su ciascuna cartella per espanderla. Posizionare il cursore del mouse nella posizione desiderata e fare clic sull&#39;icona + accanto all&#39;attributo che si desidera aggiungere. Puoi aggiungere al codice tutti gli attributi che desideri.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. Per tornare alla directory principale dei criteri di decisione, fai clic sull’icona della cartella.
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor espressioni, ad esempio gli attributi del profilo.
 
