@@ -10,7 +10,8 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 5c4b7cde5514f60f61050837fc9ae325f7bef2e8
+exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 15%
@@ -25,8 +26,8 @@ ht-degree: 15%
 
 * [Introduzione all’assistente IA](gs-generative.md)
 * [Generazione di e-mail con l’Assistente IA](generative-email.md)
-* [Generazione di SMS con l’Assistente IA](generative-sms.md)
-* **[Generazione push con l’Assistente AI](generative-push.md)**
+* Generazione di SMS con l’Assistente IA
+* [Generazione push con l’Assistente AI](generative-push.md)
 * [Esperimento sui contenuti con l’Assistente AI](generative-experimentation.md)
 
 >[!ENDSHADEBOX]

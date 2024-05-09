@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Introduzione al contenuto multilingue
+title: Rapporto campagna multilingue
 description: Ulteriori informazioni sul rapporto sui contenuti multilingue in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 39%
+source-wordcount: '215'
+ht-degree: 40%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 39%
 * [Introduzione al contenuto multilingue](multilingual-gs.md)
 * [Creare contenuto multilingue con traduzione manuale](multilingual-manual.md)
 * [Creare contenuto multilingue con traduzione automatica](multilingual-automated.md)
-* **[Rapporto campagna multilingue](multilingual-report.md)**
+* Rapporto campagna multilingue
 
 >[!ENDSHADEBOX]
 
