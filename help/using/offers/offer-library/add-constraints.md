@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
 workflow-type: tm+mt
 source-wordcount: '2617'
 ht-degree: 15%
@@ -142,7 +142,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 >id="ajo_decisioning_capping"
 >title="Utilizzare i limiti"
 >abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza i limiti per definire il numero massimo di volte in cui un’offerta può essere presentata."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=it#capping-change-date" text="Modificare le date può influire sui limiti"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Modificare le date può influire sui limiti"
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
