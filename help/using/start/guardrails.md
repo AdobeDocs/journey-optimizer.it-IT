@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '2022'
-ht-degree: 100%
+source-wordcount: '2020'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomi
 ## Guardrail dei frammenti {#fragments-guardrails}
 
 * I frammenti visivi sono disponibili solo per il canale e-mail.
-* I frammenti di espressione non sono disponibili per i canali Web e In-app.
+* I frammenti di espressione non sono disponibili per il canale in-app.
 
 ## Guardrail di percorso {#journeys-guardrails}
 
