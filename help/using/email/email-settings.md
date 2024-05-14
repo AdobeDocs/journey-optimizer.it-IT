@@ -12,7 +12,7 @@ exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -42,7 +42,7 @@ La configurazione della superficie e-mail viene selezionata per l’invio di com
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definisci il tipo di e-mail"
+>title="Definire il contenuto dell’e-mail"
 >abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, oppure Transazionale per e-mail non commerciali, che possono essere inviate anche a profili non iscritti in contesti specifici."
 
 In **Tipo di e-mail** nella sezione, selezionare il tipo di messaggio per la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**.

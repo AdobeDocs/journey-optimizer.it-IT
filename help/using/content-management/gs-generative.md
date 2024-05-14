@@ -14,7 +14,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="Creare il contenuto dell’e-mail"
->abstract="L’Assistente AI in Adobe Journey Optimizer offre suggerimenti proattivi per la variante dei contenuti per testo e immagini. È disponibile per i canali e-mail, push, SMS e web. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt."
+>abstract="L’Assistente IA in Adobe Journey Optimizer offre suggerimenti proattivi per la variante di contenuto per testo e immagini. È disponibile per i canali e-mail, push, SMS e web. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt."
 
 >[!BEGINSHADEBOX]
 
@@ -41,7 +41,7 @@ ht-degree: 55%
 >
 >L’Assistente per l’intelligenza artificiale in Adobe Journey Optimizer è attualmente disponibile come versione beta solo per alcuni utenti.
 
-L’Assistente AI in Adobe Journey Optimizer offre suggerimenti proattivi per la variante dei contenuti per testo e immagini. È disponibile per i canali e-mail, push e SMS. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt. La generazione di immagini è gestita con Adobe Firefly.
+L’Assistente IA in Adobe Journey Optimizer offre suggerimenti proattivi per la variante di contenuto per testo e immagini. È disponibile per i canali e-mail, push e SMS. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt. La generazione di immagini è gestita con Adobe Firefly.
 
 Utilizza l’assistente IA di Journey Optimizer per ottimizzare l’impatto del messaggio sperimentando con diversi titoli principali e immagini. Genera più varianti e crea un esperimento per confrontarle. Sfruttando l’esperimento con contenuti di Journey Optimizer, puoi definire più trattamenti per i messaggi al fine di misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio nei termini della metrica specificata. Per ulteriori informazioni sull’esperimento contenuti, consulta [questa sezione](../campaigns/content-experiment.md).
 
