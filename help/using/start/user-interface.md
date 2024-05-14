@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: e9a32d396b3ebca1e0c7d115f12024eef55aeaa4
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 97%
 
 ---
 
@@ -193,3 +193,66 @@ Per cambiare lingua:
 * Quindi fai clic sulla lingua visualizzata sotto il tuo indirizzo e-mail
 * Seleziona la lingua preferita e fai clic su **Salva**. Se il componente che utilizzi non è localizzato nella tua lingua, puoi selezionare una seconda lingua.
   ![](assets/select-language.png)
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_name"
+>title="Nome configurazione mobile e web"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_add"
+>title="Aggiungi dipendenze"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_initialization_code"
+>title="Aggiungi codice di inizializzazione"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_validate_assurance"
+>title="Convalida con garanzia"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_code"
+>title="Codice Javascript"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_javascript_site"
+>title="Avvia sito e convalida"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_token"
+>title="Recupera il token del dispositivo"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_xcode"
+>title="Avvia l&#39;applicazione da Xcode."
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_certificate"
+>title="Fornisci un certificato push"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_key_id"
+>title="ID chiave"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_push_team_id"
+>title="ID team"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_inapp_tag_property"
+>title="Scegli la proprietà tag"
+>abstract="TBC"
+
+
