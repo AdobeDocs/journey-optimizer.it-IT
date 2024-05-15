@@ -11,19 +11,32 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 61%
+source-wordcount: '658'
+ht-degree: 67%
 
 ---
 
 # Introduzione all’assistente IA {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
->id="ajo_content_generation"
->title="Creare il contenuto dell’e-mail"
->abstract="L’Assistente IA in Adobe Journey Optimizer offre suggerimenti proattivi per la variante di contenuto per testo e immagini. È disponibile per i canali e-mail, push, SMS e web. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt."
+>id="ajo_ai_generation_settings"
+>title="Assistente IA"
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA per migliorare il contenuto. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_context"
+>title="Definire il contesto con l’Assistente IA"
+>abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuto, attiva **Usa contenuto originale** attivare/disattivare. Puoi anche caricare le risorse del tuo marchio per utilizzarle come origine. Se non utilizzi il contenuto selezionato, devi obbligatoriamente caricare e selezionare le risorse di un marchio."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_start"
+>title="Termini di IA generativa di Adobe"
+>abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di IA generativa di Adobe Experience Cloud. Qualsiasi prompt, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere collegato a un individuo specifico). Dovresti verificare che ogni output generato da questa funzione sia accurato e assicurarti che sia appropriato al caso d’uso"
+>additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
 >[!BEGINSHADEBOX]
 
