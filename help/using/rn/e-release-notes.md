@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 34%
+source-wordcount: '764'
+ht-degree: 31%
 
 ---
 
@@ -85,33 +85,17 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Supporto di più entità per la ricerca locale - Beta</strong><br/></th>
+<th><strong>Dati di personalizzazione estesa - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Da definire</p>
+<p>Ora puoi cercare e recuperare valori di dati nei set di dati di Adobe Experience Platform e utilizzarli per creare condizioni in Adobe Journey Optimizer. Puoi sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili nelle condizioni dei tuoi percorsi, nelle azioni personalizzate e nella personalizzazione dei messaggi.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 ### Miglioramenti {#e-improvements}
 
@@ -137,7 +121,7 @@ Dalla versione beta a LA, sono stati aggiunti i seguenti miglioramenti:
 **Canale e-mail**
 
 * **Annullamento iscrizione mailing list** - A seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer supporta l’opzione &quot;post/1 clic&quot; List-Unsubscribe.
-* **Punteggio spam** - Ora puoi controllare il punteggio di posta indesiderata in un rapporto dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se i provider ISP lo considereranno come spam o meno. [Ulteriori informazioni](../content-management/spam-report.md)
+* **Punteggio spam** (Beta) - Ora puoi controllare il punteggio di posta indesiderata del contenuto in un rapporto spam dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se i provider ISP lo considereranno come spam o meno. [Ulteriori informazioni](../content-management/spam-report.md)
 
 
 **Tipi di pubblico**
@@ -146,10 +130,10 @@ Dalla versione beta a LA, sono stati aggiunti i seguenti miglioramenti:
 
 **Personalizzazione**
 
-* **Tabella di ricerca** - È ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
-* **Frammento di espressione** - I frammenti di espressione sono ora disponibili per il canale in-app.
+* **Frammento di espressione** - I frammenti di espressione sono ora disponibili per **Canale in-app**. [Ulteriori informazioni](../personalization/use-expression-fragments.md)
 
 **Percorsi**
 
 * **Criteri di unione** - È ora possibile configurare e utilizzare i criteri di unione nei percorsi.
 * **Supporto mTLS** - Il protocollo mTLS è ora supportato nelle API e nelle azioni personalizzate di Journey Optimizer.
+* **Ricercare tabelle negli eventi** - È ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
