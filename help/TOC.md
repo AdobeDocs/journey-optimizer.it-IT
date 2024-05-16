@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 96%
@@ -231,7 +231,7 @@ ht-degree: 96%
    + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
    + Configurare il canale SMS/MMS{#configure-sms}
-      + [Introduzione alla configurazione degli SMS](using/sms/sms-configuration.md)
+      + [Introduzione alle configurazione di SMS](using/sms/sms-configuration.md)
       + [Configura provider Sinch](using/sms/sms-configuration-sinch.md)
       + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
       + [Configura provider Twilio](using/sms/sms-configuration-twilio.md)
@@ -322,7 +322,7 @@ ht-degree: 96%
       + [Anteprima del contenuto](using/content-management/preview.md)
       + [Inviare bozze e-mail](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
-      + [Usare il rapporto spam](using/content-management/spam-report.md)
+      + [Rapporto spam e-mail](using/content-management/spam-report.md)
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)

@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b779d297769bd7a0b6913a0142ee7be7775ba04
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 36%
+source-wordcount: '699'
+ht-degree: 34%
 
 ---
 
@@ -134,9 +134,11 @@ Dalla versione beta a LA, sono stati aggiunti i seguenti miglioramenti:
 * **Audit** - Il **Registro modifiche** Questa scheda ti consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione che sono state rimosse. Le modifiche relative alle offerte e alle decisioni ora sono visibili nel menu **Audit**.
 
 
-**Annullamento iscrizione mailing list**
+**Canale e-mail**
 
-* A seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer supporta l’opzione &quot;post/1 clic&quot; List-Unsubscribe.
+* **Annullamento iscrizione mailing list** - A seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer supporta l’opzione &quot;post/1 clic&quot; List-Unsubscribe.
+* **Punteggio spam** - Ora puoi controllare il punteggio di posta indesiderata in un rapporto dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se i provider ISP lo considereranno come spam o meno. [Ulteriori informazioni](../content-management/spam-report.md)
+
 
 **Tipi di pubblico**
 
