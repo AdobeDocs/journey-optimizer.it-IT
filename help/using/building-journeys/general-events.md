@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 12%
@@ -58,7 +58,7 @@ Se desideri configurare un timeout per più eventi posizionati dopo un’ **[!UI
 
 Il timeout definito si applica a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività:
 
-* Se un evento viene rimosso entro la durata del timeout, il singolo passa nel percorso dell’evento ricevuto.
+* Se un evento viene ricevuto entro la durata di timeout, il singolo passa nel percorso dell’evento ricevuto.
 * Se non viene ricevuto alcun evento entro la durata di timeout, il singolo fluisce nel ramo di timeout dell’evento in cui è stato definito il timeout.
 
 ![](assets/event-timeout-group.png)
