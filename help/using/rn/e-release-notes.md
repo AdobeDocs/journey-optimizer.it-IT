@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf751ea0e2a6b02ab996c712ac1309ac06b32979
+source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '778'
 ht-degree: 31%
 
 ---
@@ -91,7 +91,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi cercare e recuperare valori di dati nei set di dati di Adobe Experience Platform e utilizzarli per creare condizioni in Adobe Journey Optimizer. Puoi sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili nelle condizioni dei tuoi percorsi, nelle azioni personalizzate e nella personalizzazione dei messaggi.</p>
+<p>Ora puoi cercare e recuperare valori di dati nei set di dati di Adobe Experience Platform e utilizzarli per creare condizioni in Adobe Journey Optimizer. Puoi sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. Puoi specificare set di dati non abilitati per il profilo per la ricerca. Una volta abilitata, puoi utilizzare un attributo di profilo come chiave di unione al set di dati specificato per recuperare ulteriori dati per la personalizzazione.</p>
 </td>
 </tr>
 </tbody>
