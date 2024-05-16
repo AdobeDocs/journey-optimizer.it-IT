@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 26%
 
 ---
@@ -76,7 +76,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi creare regole granulari di quota limite e applicarle a diversi tipi di comunicazioni di marketing tramite set di regole. Questa nuova funzionalità consente di controllare la frequenza con cui i tipi di pubblico ricevono un messaggio impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p>
-<p>La funzionalità delle regole business è attualmente disponibile solo come versione beta pubblica.</p>
+<p>La funzionalità Regole di business è attualmente disponibile come versione beta pubblica.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/business-rules.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi cercare e recuperare valori di dati nei set di dati di Adobe Experience Platform e utilizzarli per creare condizioni in Adobe Journey Optimizer. Puoi sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. Puoi specificare set di dati non abilitati per il profilo per la ricerca. Una volta abilitata, puoi utilizzare un attributo di profilo come chiave di unione al set di dati specificato per recuperare ulteriori dati per la personalizzazione.</p>
+<p>Questa funzionalità è attualmente disponibile come versione beta pubblica.</p>
 </td>
 </tr>
 </tbody>
