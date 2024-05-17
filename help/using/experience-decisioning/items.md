@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 14%
@@ -121,7 +121,7 @@ Per impostare le regole di limite per l’elemento decisionale, fai clic su **[!
 
    * Seleziona **[!UICONTROL In totale]** per definire quante volte l’elemento può essere proposto nel pubblico target combinato, ovvero tra tutti gli utenti. Ad esempio, se sei un rivenditore di elettronica e hai concluso un&#39;operazione &quot;TV Doorbuster&quot;, vuoi che l&#39;offerta venga restituita solo 200 volte in tutti i profili.
 
-* Seleziona **[!UICONTROL Per profilo]** per definire quante volte l’offerta può essere proposta allo stesso utente. Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
+   * Seleziona **[!UICONTROL Per profilo]** per definire quante volte l’offerta può essere proposta allo stesso utente. Ad esempio, se sei una banca con un&#39;offerta &quot;Carta di credito Platino&quot;, non vuoi che questa offerta venga visualizzata più di 5 volte per profilo. In effetti, si ritiene che se l&#39;utente ha visto l&#39;offerta 5 volte e non ha agito di conseguenza, ha una maggiore possibilità di agire sulla migliore offerta successiva.
 
 1. In **[!UICONTROL Limite conteggio limite]** , specifica quante volte l’offerta può essere presentata a tutti gli utenti o per profilo, a seconda del tipo di limite selezionato. Il numero deve essere un numero intero maggiore di 0.
 
