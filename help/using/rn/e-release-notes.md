@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
+source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '736'
 ht-degree: 27%
 
 ---
@@ -104,11 +104,11 @@ Questa versione include le nuove funzionalità elencate di seguito.
 
 Questa versione include i miglioramenti elencati di seguito.
 
-**Experience Decisioning**
+**Experience Decisioning** (Disponibilità limitata)
 
 Dalla versione beta a questa versione, sono stati aggiunti i seguenti miglioramenti:
 
-* **Experience Decisioning + Esperienze basate su codice (LA)** - Ora puoi sfruttare la funzione Experience Decisioning per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato sul codice e Experience Decisioning non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield e Privacy and Security Shield. [Ulteriori informazioni](../code-based/get-started-code-based.md)
+* **Experience Decisioning + Esperienze basate su codice** - Ora puoi sfruttare la funzione Experience Decisioning per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato sul codice e Experience Decisioning non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield e Privacy and Security Shield. [Ulteriori informazioni](../code-based/get-started-code-based.md)
 * **Dati contestuali** - Ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione e nelle formule di classificazione. [Ulteriori informazioni](../experience-decisioning/context-data.md)
 * **Nuova autorizzazione** - È ora disponibile la nuova autorizzazione &quot;Gestisci decisioni esperienza&quot; per la risorsa Gestione delle decisioni. Consente di gestire i diritti relativi ad Experience Decisioning. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 * **Regole di limitazione** - Ora in Experience Decisioning è possibile aggiungere più regole di limitazione per un determinato elemento decisionale. Ciò ti consente di aumentare il livello di controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
