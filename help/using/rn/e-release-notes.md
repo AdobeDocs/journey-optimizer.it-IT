@@ -5,13 +5,11 @@ title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 feature: Release Notes
 topic: Content Management
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 91a687563ecd989c89061996b5906bcc77e82e23
+source-git-commit: 7addbcaf12611860c0dde239b68be54493b99bb9
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 27%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +17,7 @@ ht-degree: 27%
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
 
-Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
+**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
 ## Note preliminari sulla versione di maggio 2024 {#e-2024}
 
@@ -76,7 +74,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Ora puoi creare regole granulari di quota limite e applicarle a diversi tipi di comunicazioni di marketing tramite set di regole. Questa nuova funzionalità consente di controllare la frequenza con cui i tipi di pubblico ricevono un messaggio impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p>
-<p>La funzionalità Regole di business è attualmente disponibile come versione beta pubblica.</p>
+<p>La funzionalità Regole di business è attualmente disponibile come versione beta. Per partecipare al programma beta, contatta il rappresentante del tuo Adobe.</p>
 <!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -127,10 +125,10 @@ Dalla versione beta a questa versione, sono stati aggiunti i seguenti migliorame
 * **Punteggio spam** (Beta) - Ora puoi controllare il punteggio di posta indesiderata del contenuto in un rapporto spam dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se i provider ISP lo considereranno come spam o meno.
   <!--[Read more](../content-management/spam-report.md)-->
 
+<!--
+**Audiences**
 
-**Tipi di pubblico**
-
-* L’utilizzo di tipi di pubblico e attributi dalla composizione del pubblico e dal caricamento personalizzato (file CSV) è ora disponibile con Healthcare Shield o Privacy and Security Shield.
+* The use of audiences and attributes from audience composition and custom upload (CSV file) is now available for use with Healthcare Shield or Privacy and Security Shield.-->
 
 **Personalizzazione**
 
