@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 26%
+source-wordcount: '825'
+ht-degree: 24%
 
 ---
 
@@ -60,7 +60,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>Se invii un’e-mail con un nuovo indirizzo IP, ora puoi eseguire facilmente i flussi di lavoro di riscaldamento IP direttamente dall’interfaccia utente. Adobe Journey Optimizer offre un modo standardizzato ed efficiente di riscaldare gli indirizzi IP seguendo le best practice per una consegna ottimale.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/ip-warmup-gs.md">documentazione dettagliata</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>Ora puoi creare regole granulari di quota limite e applicarle a diversi tipi di comunicazioni di marketing tramite set di regole. Questa nuova funzionalità consente di controllare la frequenza con cui i tipi di pubblico ricevono un messaggio impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.</p>
 <p>La funzionalità Regole di business è attualmente disponibile come versione beta pubblica.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/business-rules.md">documentazione dettagliata</a>.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ Dalla versione beta a questa versione, sono stati aggiunti i seguenti migliorame
 **Canale e-mail**
 
 * **Annullamento iscrizione mailing list** - A seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer supporta l’opzione &quot;post/1 clic&quot; List-Unsubscribe.
-* **Punteggio spam** (Beta) - Ora puoi controllare il punteggio di posta indesiderata del contenuto in un rapporto spam dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se i provider ISP lo considereranno come spam o meno. [Ulteriori informazioni](../content-management/spam-report.md)
+* **Punteggio spam** (Beta) - Ora puoi controllare il punteggio di posta indesiderata del contenuto in un rapporto spam dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se i provider ISP lo considereranno come spam o meno.
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **Tipi di pubblico**
@@ -133,10 +134,11 @@ Dalla versione beta a questa versione, sono stati aggiunti i seguenti migliorame
 
 **Personalizzazione**
 
-* **Frammento di espressione** - I frammenti di espressione sono ora disponibili per **Canale in-app**. [Ulteriori informazioni](../personalization/use-expression-fragments.md)
+* **Frammento di espressione** - I frammenti di espressione sono ora disponibili per **Canale in-app**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **Percorsi**
 
-* **Criteri di unione** (Disponibilità limitata): i criteri di unione utilizzati da un percorso sono ora visibili e coerenti in tutto il percorso.
-* **Supporto mTLS** - Il protocollo mTLS è ora supportato nelle API e nelle azioni personalizzate di Journey Optimizer.
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **Supporto mTLS** - L’autenticazione mTLS è ora supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS.
 * **Ricercare tabelle negli eventi** - È ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
