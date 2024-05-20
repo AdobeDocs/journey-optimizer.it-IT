@@ -142,7 +142,7 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 >id="ajo_decisioning_capping"
 >title="Utilizzare i limiti"
 >abstract="Per evitare di sollecitare eccessivamente i clienti, utilizza i limiti per definire il numero massimo di volte in cui un’offerta può essere presentata."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Modificare le date può influire sui limiti"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="La modifica delle date può influire sui limiti"
 
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui è possibile presentare un’offerta.
 
@@ -297,7 +297,7 @@ Se hai definito diversi [rappresentazioni](add-representations.md) per l’offer
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Modificare le date può influire sui limiti"
+>title="La modifica delle date può influire sui limiti"
 >abstract="Se a questa offerta vengono applicati dei limiti, questi possono essere influenzati dalla modifica della data di inizio o di fine."
 
 Devi procedere con cautela quando modifichi la data di un’offerta, perché ciò può avere un impatto sui limiti se vengono soddisfatte le seguenti condizioni:
