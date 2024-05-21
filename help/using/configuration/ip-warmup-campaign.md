@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 18%
+source-wordcount: '451'
+ht-degree: 17%
 
 ---
 
@@ -69,11 +69,15 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
 1. Completa i passaggi per creare una campagna e-mail, ad esempio la definizione delle proprietà della campagna, [pubblico](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, e [contenuto](../email/get-started-email-design.md#key-steps).
 
+   Tieni presente che devi selezionare un pubblico basato su regole per la tua campagna di riscaldamento IP. [Ulteriori informazioni](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
 1. [Attiva](../campaigns/review-activate-campaign.md) la campagna. Lo stato cambia in **[!UICONTROL Live]**.
+
+   Le regole business non devono essere utilizzate in un piano di riscaldamento IP. L’applicazione di queste regole potrebbe ostacolare il raggiungimento del numero desiderato di profili mirati per le campagne.
 
    >[!NOTE]
    >

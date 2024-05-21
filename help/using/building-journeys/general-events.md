@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: personalizzato, generale, eventi, percorso
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 12%
+source-wordcount: '605'
+ht-degree: 14%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 12%
 >id="ajo_journey_event_custom"
 >title="Eventi unitari"
 >abstract="Gli eventi consentono di attivare i percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. La configurazione dell’evento viene eseguita da un ingegnere dei dati e non può essere modificata."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="Eventi di business"
+>abstract="Questi eventi ti consentono di avviare un percorso utilizzando un evento non correlato al profilo. Quando tale evento viene attivato, potrai inviare messaggi a un pubblico di profili. Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione. La configurazione dell’evento viene eseguita da un utente tecnico e non può essere modificata."
 
 Eventi consente di attivare i percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso.
 

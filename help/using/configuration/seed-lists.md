@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 16%
 
 ---
@@ -156,4 +156,4 @@ Ora, ogni volta che un messaggio e-mail viene inviato ai clienti tramite tale ca
 
 >[!NOTE]
 >
->Per i percorsi, la consegna e-mail viene inviata agli indirizzi seed solo il percorso della prima esecuzione.
+>Per i percorsi ricorrenti, la consegna e-mail viene inviata agli indirizzi seed a ogni esecuzione del percorso, purché almeno un profilo raggiunga il nodo e-mail.

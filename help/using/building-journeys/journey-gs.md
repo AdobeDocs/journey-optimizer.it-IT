@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '2004'
+source-wordcount: '2086'
 ht-degree: 16%
 
 ---
@@ -211,6 +211,21 @@ Questo timeout globale arresta il progresso dei singoli utenti nel percorso **30
 A causa del timeout di 30 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 30 giorni fa.
 
 Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 30 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
+
+### Criteri di unione {#merge-policies}
+
+Il percorso utilizza i criteri di unione per recuperare i dati del profilo da Adobe Experience Platform. A seconda del tipo di percorso, vengono utilizzati diversi criteri di unione:
+
+* In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
+* Nei percorsi attivati da eventi: viene utilizzato il criterio di unione predefinito
+
+Il percorso rispetterà il criterio di unione utilizzato in tutto il percorso.
+
+>[!NOTE]
+>
+>Questa funzionalità è disponibile solo in Disponibilità limitata (LA) per clienti selezionati.
+
+Per ulteriori informazioni sui criteri di unione, consulta [pagina](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## Duplicare un percorso {#duplicate-a-journey}
 

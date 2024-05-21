@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '2153'
-ht-degree: 14%
+source-wordcount: '2487'
+ht-degree: 11%
 
 ---
 
@@ -80,18 +80,6 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Dopo l’attivazione di un’esecuzione, le esclusioni non possono più essere modificate a meno che non si: [dividere l’esecuzione](#split-phase) in una nuova fase.
 
-   1. In **[!UICONTROL Esclusione profilo]** sezione, puoi notare che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
-
-      >[!NOTE]
-      >
-      >Questa sezione non è modificabile.
-
-   1. Dalla sezione **[!UICONTROL Pubblico della campagna escluso]** , seleziona le campagne che i tipi di pubblico desideri escludere dalla fase corrente.
-
-      ![](assets/ip-warmup-plan-exclude-campaigns.png)
-
-      Ad esempio, durante l’esecuzione della fase 1, era necessario [dividilo](#split-phase) per qualsiasi motivo. Pertanto, puoi escludere la campagna utilizzata nella fase 1 in modo che i profili contattati in precedenza dalla fase 1 non siano inclusi nella fase 2. Puoi anche escludere le campagne da altri piani di riscaldamento dell’IP.
-
    1. Dalla sezione **[!UICONTROL Gruppi di dominio esclusi]** , selezionare i domini che si desidera escludere da tale fase.
 
       >[!NOTE]
@@ -106,7 +94,30 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >È possibile escludere solo un gruppo di dominio personalizzato aggiunto al [Modello di piano di riscaldamento IP](ip-warmup-plan.md#prepare-file). In caso contrario, aggiorna il modello con il gruppo di dominio personalizzato che desideri escludere e [ricarica il piano](#re-upload-plan).
 
-1. Se necessario, puoi sostituire la campagna utilizzando **[!UICONTROL Sostituisci campagna]** pulsante.
+   1. Dalla sezione **[!UICONTROL Campagna per l’esclusione dei profili]** , seleziona le campagne che i tipi di pubblico desideri escludere dalla fase corrente.
+
+      ![](assets/ip-warmup-plan-exclude-campaigns.png)
+
+      Ad esempio, durante l’esecuzione della fase 1, era necessario [dividilo](#split-phase) per qualsiasi motivo. Pertanto, puoi escludere la campagna utilizzata nella fase 1 in modo che i profili contattati in precedenza dalla fase 1 non siano inclusi nella fase 2. Puoi anche escludere le campagne da altri piani di riscaldamento dell’IP.
+
+   1. Dalla sezione **[!UICONTROL Percorsi per l’esclusione dei profili]** , seleziona i percorsi con i tipi di pubblico che desideri escludere dalla fase corrente.
+
++++ Per utilizzare l’opzione Percorsi per l’esclusione dei profili, è necessario stabilire una relazione tra gli schemi Evento feedback messaggio AJO e Record entità AJO.
+
+      1. Creare un **Namespace** che fungerà da tipo di identità per i passaggi seguenti.
+
+      1. Accedere a Adobe Experience Platform, dalla **Schemi** , selezionare il **Schema record entità AJO** e imposta **_id** come identità primaria e selezionare lo spazio dei nomi creato in precedenza come **Spazio dei nomi dell’identità**.
+
+      1. Dalla sezione **Schemi** , selezionare il **Schema evento feedback messaggio AJO**, e passare al **_messageID** campo. Seleziona **Aggiungi relazione** e scegli **Schema record entità AJO** come **Schema di riferimento** e lo spazio dei nomi creato in precedenza come **Spazio dei nomi dell’identità di riferimento**.
++++
+
+   1. In **[!UICONTROL Profili di destinazione nelle esecuzioni precedenti]** sezione, puoi notare che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
+
+      >[!NOTE]
+      >
+      >Questa sezione non è modificabile.
+
+1. Se necessario, puoi sostituire la campagna utilizzando **[!UICONTROL Sostituisci]** pulsante. Puoi anche cancellare la campagna selezionata utilizzando **[!UICONTROL Cancella]** pulsante. Puoi quindi scegliere una nuova campagna immediatamente o in un secondo momento.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -122,7 +133,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!CAUTION]
    >
-   >Non è possibile annullare **[!UICONTROL Elimina]** azione.
+   >Non è possibile annullare **[!UICONTROL Elimina fase]** azione.
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -155,7 +166,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="Visualizzazione a 360° dei profili"
->abstract="Questa colonna mostra il numero di profili qualificati. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili di destinazione rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che l’opzione **Pausa per errori** è abilitata. In questo caso, l’esecuzione viene annullata."
+>abstract="Questa colonna mostra il numero di profili qualificati. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili target rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che il **Annulla esecuzioni attivate in caso di errori** l&#39;opzione è abilitata. In questo caso, l’esecuzione viene annullata."
 
 1. Seleziona una pianificazione per ogni esecuzione per assicurarti che venga eseguita all’ora specificata.
 
@@ -187,7 +198,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Se non si desidera applicare alcun periodo di coinvolgimento a un&#39;esecuzione, immettere 0 nel campo **[!UICONTROL Ultimo impegno]** campo.
 
-1. Seleziona la **[!UICONTROL Pausa per errori]** opzione per annullare un’esecuzione se i profili idonei sono inferiori ai profili target dopo che il pubblico è stato valutato per tale esecuzione. In tal caso, l’esecuzione richiede **[!UICONTROL Non riuscito]** stato.
+1. Seleziona la **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** opzione per annullare un’esecuzione se i profili idonei sono inferiori ai profili target dopo che il pubblico è stato valutato per tale esecuzione. In tal caso, l’esecuzione richiede **[!UICONTROL Non riuscito]** stato.
 
    ![](assets/ip-warmup-plan-pause.png)
 
@@ -199,21 +210,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >I diversi stati di esecuzione sono elencati in [questa sezione](#monitor-plan).
 
-1. Se l’esecuzione della campagna non è stata avviata, puoi interrompere una live run. Questa azione actullay annulla la pianificazione di esecuzione - non interrompe l’invio.
+1. Se l’esecuzione della campagna non è stata avviata, puoi annullare un’esecuzione live. Questa azione annulla effettivamente la pianificazione dell’esecuzione e non interrompe l’invio.
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-   >[!NOTE]
-   >
-   >Una volta avviata l’esecuzione della campagna, il **[!UICONTROL Interrompi]** non è più disponibile.
+1. Per duplicare una bozza, un’esecuzione live o completata, seleziona **[!UICONTROL Esecuzione duplicata]**. Dopo la duplicazione, viene visualizzato il menu Modifica esecuzione, che consente agli utenti di regolare **[!UICONTROL Profili target totali]** e **[!UICONTROL Ora di invio]** secondo necessità.
 
-1. Per aggiungere un’esecuzione, seleziona **[!UICONTROL Aggiungi una sequenza di seguito]** dall’icona Altre azioni.
-
-   ![](assets/ip-warmup-plan-run-more-actions.png)
+   ![](assets/ip-warmup-duplicate.png)
 
 ## Attiva esecuzioni {#activate-run}
 
 Per attivare un&#39;esecuzione, selezionare **[!UICONTROL Attiva]** pulsante. Quindi puoi attivare le esecuzioni successive su base giornaliera.
+
+Quando si eseguono più piani di riscaldamento IP simultaneamente, tutti rivolti agli stessi domini e pool IP, è fondamentale prevedere le potenziali conseguenze. Ad esempio, se un ISP applica un limite giornaliero di 100 e-mail, l’esecuzione di diversi piani destinati agli stessi domini potrebbe superare questa soglia.
 
 Assicurati di aver pianificato abbastanza tempo per consentire l’esecuzione di [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} da eseguire.
 
@@ -251,7 +260,7 @@ Quando attivi un’esecuzione, vengono creati automaticamente diversi tipi di pu
 
      >[!NOTE]
      >
-     >Per ogni esecuzione viene creata una nuova composizione di pubblico.
+     >Per ogni esecuzione viene creata una nuova composizione di pubblico. Con un limite di 10, gli utenti che eseguono più campagne, percorsi e piani di riscaldamento IP simultaneamente utilizzando composizioni di pubblico pubblicate devono pianificare in anticipo per rimanere entro questo limite, per operazioni parallele.
      >
      >La composizione del pubblico (e quindi del pubblico di output) viene pulita quando viene attivata l’iterazione successiva.
 
@@ -284,9 +293,9 @@ Lo stesso piano di riscaldamento dell’IP funge da rapporto consolidato in un�
 Un’esecuzione può avere i seguenti stati:
 
 * **[!UICONTROL Bozza]** : ogni volta che viene creata un’esecuzione, quando [creazione di un nuovo piano](ip-warmup-plan.md) o [aggiunta di un&#39;esecuzione](#define-runs) dall&#39;interfaccia utente, accetta **[!UICONTROL Bozza]** stato.
-* **[!UICONTROL Live]**: ogni volta che attivi un’esecuzione, vengono richiesti **[!UICONTROL Live]** stato. Significa che il sistema ha accettato la richiesta di pianificare l’esecuzione, non che l’invio sia iniziato.
-* **[!UICONTROL Completato]**: l’esecuzione della campagna per questa esecuzione è completata. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Annullato]**: a **[!UICONTROL Live]** esecuzione annullata utilizzando **[!UICONTROL Interrompi]** oppure hai attivato il pulsante **[!UICONTROL Pausa per errori]** e si è verificato un errore. [Ulteriori informazioni](#define-runs)
+* **[!UICONTROL Live]**: ogni volta che attivi un’esecuzione, vengono richiesti **[!UICONTROL Live]** stato. Significa che il sistema ha accettato la richiesta di pianificare l’esecuzione, non che l’invio sia iniziato. A questo punto puoi osservare lo stato dell’esecuzione live facendo clic sul pulsante **[!UICONTROL Visualizza stato]** nella tabella. Questo consente di tenere traccia di quanti profili di destinazione sono effettivamente qualificati.
+* **[!UICONTROL Completato]**: l’esecuzione della campagna per questa esecuzione è completata. Per accedere a un rapporto di esecuzione dettagliato, fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** nella tabella. Questa opzione consente di tenere traccia dello stato di consegna dell’e-mail, inclusi i raggruppamenti specifici dei gruppi di dominio per un monitoraggio avanzato. [Ulteriori informazioni](#reports)
+* **[!UICONTROL Annullato]**: a **[!UICONTROL Live]** esecuzione annullata utilizzando **[!UICONTROL Interrompi]** oppure hai attivato il pulsante **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** e si è verificato un errore. [Ulteriori informazioni](#define-runs)
 * **[!UICONTROL Non riuscito]**: il sistema ha rilevato un errore o la campagna utilizzata per la fase corrente è stata interrotta. Se un’esecuzione non riesce, puoi pianificarne un’altra per il giorno successivo.
 
 ### Utilizzare i rapporti {#reports}
@@ -297,13 +306,14 @@ Più in generale, per misurare l’impatto del piano, puoi controllare le presta
 
 Puoi anche accedere ai rapporti da [Menu Campagne](../campaigns/modify-stop-campaign.md#access) poiché il piano potrebbe utilizzare campagne diverse.
 
+
 ## Gestire il piano {#manage-plan}
 
 In qualsiasi momento, se il piano di riscaldamento dell’IP non funziona come previsto, puoi intraprendere le azioni seguenti.
 
 ### Suddividere una fase {#split-phase}
 
-Se desideri aggiungere una nuova fase a partire da un’esecuzione specifica, seleziona la **[!UICONTROL Opzione Dividi in una nuova fase]** dall’icona Altre azioni.
+Se desideri aggiungere una nuova fase a partire da un’esecuzione specifica, seleziona la **[!UICONTROL Dividi esegue una nuova fase]** dall&#39;icona Altre azioni.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -313,7 +323,7 @@ Ad esempio, se selezioni questa opzione per Esegui #4, le esecuzioni #4 a #8 ver
 
 Segui i passaggi [sopra](#define-phases) per definire la nuova fase.
 
-* È possibile utilizzare **[!UICONTROL Sostituisci campagna]** per la nuova fase.
+* È possibile utilizzare **[!UICONTROL Sostituisci]** o **[!UICONTROL Cancella]** opzioni per la nuova fase.
 
 * Puoi anche escludere la campagna precedente o un dominio dalle prestazioni insoddisfacenti. Scopri come in [questa sezione](#define-phases).
 

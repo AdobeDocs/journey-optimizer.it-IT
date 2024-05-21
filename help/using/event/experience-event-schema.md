@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schemi, XDM, piattaforma, streaming, acquisizione, percorso
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '831'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Puoi definire una relazione di schema su un array di stringhe, ad esempio un ele
 
 ![](assets/schema15.png)
 
-Tuttavia, non è possibile definire una relazione di schema con un attributo all’interno di un array di oggetti, ad esempio un elenco di informazioni di acquisto (ID prodotto, nome prodotto, prezzo, sconto). I valori di ricerca non saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
+Puoi anche definire una relazione di schema con un attributo all’interno di un array di oggetti, ad esempio un elenco di informazioni di acquisto (ID prodotto, nome prodotto, prezzo, sconto). I valori di ricerca saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
 
 ![](assets/schema16.png)
 

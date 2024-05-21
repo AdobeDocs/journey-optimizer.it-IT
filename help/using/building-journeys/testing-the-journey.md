@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '1536'
 ht-degree: 10%
@@ -71,6 +71,10 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
 * Quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi.
 * Per ottimizzare le prestazioni ed evitare l’utilizzo di risorse obsolete, tutti i percorsi in modalità di test che non sono stati attivati per una settimana torneranno al **Bozza** stato.
 * Gli eventi attivati dalla modalità di test vengono memorizzati in set di dati dedicati. Questi set di dati sono etichettati come segue: `JOtestmode - <schema of your event>`
+
+<!--
+* Fields from related entities are hidden from the test mode.
+-->
 
 ## Attivare gli eventi {#firing_events}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5230'
+source-wordcount: '5290'
 ht-degree: 98%
 
 ---
@@ -21,8 +21,11 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Maggio 2024 {#may-2024}
 
-* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di aprile 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
-
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di aprile 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* La sezione sugli elenchi di seed è stata aggiornata per quanto riguarda i percorsi ricorrenti. [Ulteriori informazioni](../configuration/seed-lists.md#use-seed-list)
+* La sezione sulle origini dati esterne è stata aggiornata. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-access-token)
+* Alla pagina Guardrail and limit è stato aggiunto il timeout percorso globale di 30 giorni. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
+* La sezione sull’integrazione Adobe Campaign v7/v8 è stata aggiornata con informazioni sul provisioning. [Ulteriori informazioni](../action/acc-action.md#access)
 
 ## Aprile 2024 {#april-2024}
 
@@ -30,10 +33,10 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * La documentazione per l’[API Offer Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) e l’[API Batch decisioning](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) è stata aggiornata.
 * Nella documentazione di Gestione delle decisioni sono state aggiunte informazioni relative alla gestione delle aree edge e hub quando si utilizza il limite di frequenza con l’API Edge Decisioning. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
 * Sono state aggiunte informazioni sulla creazione di identità con spazi dei nomi personalizzati quando si utilizzano campagne attivate da API. [Ulteriori informazioni](../campaigns/api-triggered-campaigns.md)
-* Le schermate sono state aggiornate per riflettere l’area di lavoro del Percorso migliorata.
-* I vincoli di denominazione sono stati aggiornati nella pagina seguente: [Configurare un evento unitario](../event/about-creating.md), [Configurare un evento di business](../event/about-creating-business.md#gs-business-events), [Configurare un’azione personalizzata](../action/about-custom-action-configuration.md#configuration-steps), [Origini dati esterne](../datasource/external-data-sources.md)
-* È stata aggiunta una nota sulla disponibilità di Ottimizzazione del tempo di invio. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
-* È stato aggiunto un nuovo caso d’uso tecnico su come creare un’azione personalizzata per inviare dati ad Experienci Platform. [Ulteriori informazioni](../building-journeys/custom-action-aep.md)
+* Le schermate sono state aggiornate per riflettere l’area di lavoro del percorso migliorata.
+* I vincoli di denominazione sono stati aggiornati nelle pagine seguenti: [Configurare un evento unitario](../event/about-creating.md), [Configurare un evento di business](../event/about-creating-business.md#gs-business-events), [Configurare un’azione personalizzata](../action/about-custom-action-configuration.md#configuration-steps), [Origini dati esterne](../datasource/external-data-sources.md)
+* È stata aggiunta una nota sulla disponibilità di Ottimizzazione dell’ora di invio. [Ulteriori informazioni](../building-journeys/journeys-message.md#send-time-optimization)
+* È stato aggiunto un nuovo caso d’uso tecnico su come creare un’azione personalizzata per inviare dati ad Experience Platform. [Ulteriori informazioni](../building-journeys/custom-action-aep.md)
 
 ## Marzo 2024 {#march-2024}
 

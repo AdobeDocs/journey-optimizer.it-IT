@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cef6970e611a33b71b803fdb247f566cb8a8a708
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1674'
 ht-degree: 8%
 
 ---
@@ -37,6 +37,10 @@ Una volta creati uno o più [Campagne di riscaldamento IP](ip-warmup-campaign.md
 Per accedere, creare, modificare ed eliminare i piani di riscaldamento IP, è necessario disporre del **[!UICONTROL Consulente per il recapito messaggi]** autorizzazioni relative a ruoli o piani di riscaldamento IP.
 
 +++Scopri come assegnare il ruolo di Consulente del recapito messaggi o le autorizzazioni relative ai piani di riscaldamento IP
+
+Il controllo dell&#39;accesso a livello di oggetto consente di proteggere i dati e concedere un accesso specifico per visualizzare e gestire i piani. Se al piano di riscaldamento IP non viene assegnata alcuna etichetta, verrà aperto per la visualizzazione e la modifica da parte di tutti gli utenti.
+
+Concessione del **[!UICONTROL Visualizza piani di riscaldamento IP]** L’autorizzazione limita l’accesso solo alla visualizzazione e alla pubblicazione, durante l’assegnazione di **[!UICONTROL Gestire i piani di riscaldamento IP]** L&#39;autorizzazione consente agli utenti di visualizzare e modificare il piano.
 
 Per assegnare l&#39;autorizzazione corrispondente a un **[!UICONTROL Ruolo]**:
 
@@ -76,7 +80,7 @@ Per assegnare il ruolo corrispondente a un **[!UICONTROL Utente]**:
 
 Il riscaldamento dell’IP è un’attività che consiste nell’aumentare gradualmente il volume di e-mail che escono dagli IP e dal dominio verso i principali provider di servizi Internet (ISP) - al fine di stabilire la tua reputazione di mittente legittimo.
 
-Questa attività viene tipicamente eseguita con l’aiuto di un esperto di recapito messaggi che aiuta a preparare un piano ben pensato basato sui domini del settore, sui casi d’uso, sulle aree geografiche, sugli ISP e su vari altri fattori.
+Questa attività viene generalmente eseguita con l’aiuto di un esperto di recapito messaggi che aiuta a preparare un piano ben concepito basato sui domini di settore, i casi di utilizzo, le aree geografiche, gli ISP e vari altri fattori.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
@@ -102,10 +106,6 @@ Di seguito è riportato un esempio di file contenente un piano di riscaldamento 
 
 ![](assets/ip-warmup-sample-file.png)
 
->[!NOTE]
->
->Per ora dovresti lasciare il **Proprietà** e **Valore** celle intatte.
-
 ### Scheda Piano di riscaldamento IP {#ip-warmup-plan-tab}
 
 * In questo esempio, è stato preparato un piano che si estende su 17 giorni (denominato &quot;**esecuzioni**&#39;) per raggiungere un volume target di oltre un milione di profili.
@@ -117,7 +117,6 @@ Di seguito è riportato un esempio di file contenente un piano di riscaldamento 
    * Quattro dei quali corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Microsoft, Yahoo e Orange).
    * Uno corrisponde a un gruppo di dominio personalizzato (che devi aggiungere utilizzando [Gruppo di dominio personalizzato](#custom-domain-group-tab) ).
    * La sesta colonna, **Altro**, contiene tutti gli indirizzi rimanenti da altri domini che non sono trattati esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
-* Il **Giorni di coinvolgimento** mostra che solo i profili coinvolti con il tuo marchio nell’ultimo periodo inserito sono oggetto di targeting.
 
 L’idea è quella di aumentare progressivamente il numero di indirizzi target in ogni esecuzione, riducendo al contempo il numero di esecuzioni per ogni fase.
 
@@ -188,6 +187,8 @@ Di seguito sono elencati i gruppi di dominio principali predefiniti che è possi
 Puoi anche aggiungere più colonne al piano includendo gruppi di dominio personalizzati.
 
 Utilizza il **[!UICONTROL Gruppo di dominio personalizzato]** per definire un nuovo gruppo di dominio. Per ogni dominio, puoi aggiungere tutti i sottodomini coperti.<!--TBC-->
+
+Assicurati che ogni dominio sia univoco per il relativo gruppo di dominio e non si sovrapponga ad altri gruppi di dominio. Poiché i gruppi di dominio globali vengono definiti automaticamente, gli utenti devono tenerne conto durante la creazione di gruppi di dominio personalizzati.
 
 Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguenti sottodomini: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, ecc.
 

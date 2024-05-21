@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campaign, acc, integrazione
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 22%
+source-wordcount: '540'
+ht-degree: 18%
 
 ---
 
@@ -25,11 +25,24 @@ ht-degree: 22%
 
 Questa integrazione è disponibile per Adobe Campaign v7/v8 a partire dalla versione 7.1 e per Adobe Campaign v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign.
 
-La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning.
-
 Un caso d’uso end-to-end è presentato in questo [sezione](../building-journeys/ajo-ac.md).
 
 Per ogni azione configurata, nella palette di Progettazione percorsi è disponibile un’attività di azione. Consulta questa [sezione](../building-journeys/using-adobe-campaign-v7-v8.md).
+
+## Accesso {#access}
+
+La connessione tra le istanze Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning, se richiesto. Se non hai richiesto la connessione al momento del provisioning, contatta il supporto Adobe Journey Optimizer fornendo i seguenti dettagli per richiedere l’abilitazione:
+
+Da Adobe Journey Optimizer:
+
+* ID organizzazione (ID organizzazione Adobe)
+* Sandbox
+
+Da Adobe Campaign:
+
+* URL della campagna
+* URL RT
+* Versione di Campaign
 
 ## Note importanti {#important-notes}
 
