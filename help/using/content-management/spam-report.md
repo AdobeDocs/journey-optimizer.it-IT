@@ -1,6 +1,6 @@
 ---
 title: Utilizzare il rapporto di posta indesiderata
-description: Scopri come utilizzare il rapporto sulla posta indesiderata.
+description: Scopri come utilizzare il rapporto sullo spam delle e-mail.
 feature: Preview
 role: User
 level: Beginner
@@ -8,29 +8,29 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
+source-git-commit: d0973e623de8f26b4e9dc5809251f9705333adb9
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 2%
 
 ---
 
 # Rapporto posta indesiderata {#spam-report}
 
-[!DNL Journey Optimizer] consente di controllare le prestazioni del contenuto rispetto al filtro anti-spam e di assicurarsi che i messaggi arrivino nelle caselle in entrata dei clienti, non nella posta indesiderata.
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_spam_report"
+>title="Rapporto posta indesiderata"
+>abstract="Il rapporto Spam consente di controllare il punteggio di posta indesiderata del contenuto delle e-mail. Questo punteggio indica se gli ISP o i provider di cassette postali considereranno il messaggio come spam o meno. Più basso è il punteggio, meglio è. Se il punteggio del contenuto dell’e-mail è superiore a 2, è consigliabile risolvere i problemi che impediscono il corretto funzionamento dei test."
+
+Puoi controllare il punteggio di posta indesiderata in un report spam dedicato. Utilizzo di [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, Adobe Journey Optimizer può testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di cassette postali lo considereranno come spam o meno.
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 Quando modifichi o visualizzi in anteprima il contenuto delle e-mail, il **[!UICONTROL Rapporto spam]** fornisce un punteggio e consigli per migliorare i punteggi di ogni singolo elemento elencato.
 
-Ciò ti consente di determinare se un messaggio corre il rischio di essere considerato come spam dagli strumenti anti-spam utilizzati al momento della ricezione e di intraprendere azioni in caso contrario. Molti provider di posta in arrivo utilizzano gli strumenti come parte del processo di filtraggio della posta indesiderata. L’invio di e-mail con un punteggio errato può influire notevolmente sulla consegna dei messaggi.
-
-
->[!CAUTION]
->
->* Questa funzione è attualmente disponibile solo come versione beta privata.
->
->* Per il momento l’analisi del rapporto spam può essere eseguita solo per il contenuto in inglese.
->
->* Il rapporto Spam è informativo e non impedisce l’invio di messaggi con un punteggio errato.
+Questa funzionalità ti consente di determinare se un messaggio può essere considerato come spam dagli strumenti anti-spam utilizzati al momento della ricezione e di intraprendere azioni in tal caso. Molti provider di posta in arrivo utilizzano gli strumenti come parte del processo di filtraggio della posta indesiderata. L’invio di e-mail con un punteggio errato può influire notevolmente sulla consegna dei messaggi.
 
 Per accedere al **[!UICONTROL Rapporto spam]**, segui la procedura indicata di seguito.
 
@@ -50,7 +50,7 @@ Per accedere al **[!UICONTROL Rapporto spam]**, segui la procedura indicata di s
 
 1. Controlla i punteggi e le descrizioni di ogni elemento.
 
-   Più basso è il punteggio, meglio è. Se il punteggio è superiore a 5, viene visualizzato un avviso: indica che alcuni messaggi potrebbero essere bloccati o contrassegnati come spam al momento della ricezione.
+   Più basso è il punteggio, meglio è. Se il punteggio è superiore a 5, viene visualizzato un avviso: indica che alcuni messaggi potrebbero essere bloccati o contrassegnati come spam al momento della ricezione. Si consiglia di avere un punteggio inferiore a 2.
 
 1. In base a tale punteggio, se ritieni che alcuni elementi possano essere migliorati, modifica il contenuto in [E-mail Designer](../email/content-from-scratch.md) e apporta gli aggiornamenti necessari.
 
