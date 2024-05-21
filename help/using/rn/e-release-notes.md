@@ -4,12 +4,14 @@ product: journey optimizer
 title: Note sulla versione
 description: Note preliminari sulla versione di Journey Optimizer
 feature: Release Notes
+hide: true
+hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: de9aba41b6351bc7bad18f3d774612a03673f185
+source-git-commit: bd4e352378ba9f895a192b467a650013af669c4d
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 25%
+ht-degree: 37%
 
 ---
 
@@ -38,7 +40,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tr>
 <td>
 <p>La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.</p>
-<p>Questi elementi decisionali vengono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer. I criteri decisionali di Experience Decisioning sono disponibili solo per l’utilizzo in campagne di esperienza basate su codice.</p>
+<p>Questi elementi decisionali sono integrati direttamente in un’ampia gamma di superfici in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne di Journey Optimizer. I criteri decisionali relativi alla funzione Decisioni per le esperienze sono disponibili per l’utilizzo solo in campagne di esperienza basate su codice.</p>
 <p>La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/gs-experience-decisioning.md">documentazione dettagliata</a>.</p>
@@ -106,10 +108,10 @@ Questa versione include i miglioramenti elencati di seguito.
 
 Dalla versione beta a questa versione, sono stati aggiunti i seguenti miglioramenti:
 
-* **Experience Decisioning + Esperienze basate su codice** - Ora puoi sfruttare la funzione Experience Decisioning per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato sul codice e Experience Decisioning non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield e Privacy and Security Shield. [Ulteriori informazioni](../code-based/get-started-code-based.md)
+* **Experience Decisioning + Esperienze basate su codice** - Ora puoi sfruttare la funzione Experience Decisioning per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato su codice e la funzione Decisioni per le esperienze non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Healthcare Shield e Privacy and Security Shield di Adobe. [Ulteriori informazioni](../code-based/get-started-code-based.md)
 * **Dati contestuali** - Ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione e nelle formule di classificazione. [Ulteriori informazioni](../experience-decisioning/context-data.md)
-* **Nuova autorizzazione** - È ora disponibile la nuova autorizzazione &quot;Gestisci decisioni esperienza&quot; per la risorsa Gestione delle decisioni. Consente di gestire i diritti relativi ad Experience Decisioning. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
-* **Regole di limitazione** - Ora in Experience Decisioning è possibile aggiungere più regole di limitazione per un determinato elemento decisionale. Ciò ti consente di aumentare il livello di controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
+* **Nuova autorizzazione** - È ora disponibile la nuova autorizzazione &quot;Gestisci decisioni esperienza&quot; per la risorsa Gestione delle decisioni. Questa consente di gestire i diritti relativi alla funzione Decisioni per le esperienze. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+* **Regole di limitazione** - Ora in Experience Decisioning è possibile aggiungere più regole di limitazione per un determinato elemento decisionale. Ciò offre un maggiore controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
 * **Generazione rapporti** - Ora puoi creare dashboard di reporting personalizzati per le campagne Experience Decisioning utilizzando [!DNL Customer Journey Analytics]. [Maggiori informazioni](../experience-decisioning/cja-reporting.md)
 
 
