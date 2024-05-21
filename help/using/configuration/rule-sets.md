@@ -1,0 +1,270 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Utilizzare i set di regole
+description: Scopri come creare e applicare i set di regole
+feature: Rules
+topic: Content Management
+role: User
+level: Intermediate
+keywords: messaggio, frequenza, regole, pressione
+badge: label="Beta"
+hide: true
+hidefromtoc: true
+exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+workflow-type: tm+mt
+source-wordcount: '1630'
+ht-degree: 24%
+
+---
+
+# Utilizzare i set di regole {#rule-sets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_rule_sets"
+>title="Set di regole"
+>abstract="Utilizza i set di regole per applicare il limite di frequenza a diversi tipi di comunicazioni di marketing. Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviato ai clienti e crea un altro set di regole per limitare il numero di **newsletter** inviati a loro. I set di regole sono attualmente disponibili come versione beta per selezionare solo gli utenti."
+
+>[!AVAILABILITY]
+>
+>I set di regole sono attualmente disponibili come versione beta solo per gli utenti selezionati. Contatta il rappresentante del tuo Adobe per essere incluso nella versione beta.
+
+## Cosa sono i set di regole? {#what}
+
+Oltre alle regole aziendali globali che limitano il numero di volte in cui gli utenti ricevono messaggi su uno o più canali, i set di regole consentono di: **raggruppare più regole in set di regole** e applicarli alle campagne di tua scelta. Ciò offre una maggiore granularità per controllare la frequenza con cui gli utenti riceveranno un messaggio, a seconda del tipo di comunicazione.
+
+Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviato ai clienti e un altro set di regole per limitare il numero di **newsletter** inviati a loro. A seconda del tipo di campagna che si sta creando, è possibile scegliere di applicare la comunicazione promozionale o il set di regole newsletter.
+
+## Set di regole globali e personalizzati {#global-custom}
+
+Quando si accede ai set di regole per la prima volta da **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali (Beta)]** un set di regole predefinito è precreato e attivo: **Set di regole predefinito globale**.
+
+Questo set di regole contiene regole globali che è possibile applicare per controllare la frequenza con cui gli utenti ricevono messaggi in uno o più canali, in modo analogo al funzionamento delle regole business correnti. Tutte le regole definite in questo set di regole si applicano a tutti i canali selezionati, indipendentemente dal fatto che le comunicazioni vengano inviate da un percorso o da una campagna. [Scopri come utilizzare le regole business](frequency-rules.md)
+
+Oltre a questo set di regole predefinito globale, puoi creare **regola personalizzata** set che è possibile applicare a qualsiasi campagna per limitare il numero di messaggi inviati all’interno di tale campagna. [Scopri come creare set di regole personalizzati](#create)
+
+![](assets/rule-sets-default.png)
+
+>[!IMPORTANT]
+>
+>Per il momento, è possibile applicare set di regole personalizzati a **campagne** solo. Solo le regole definite nel set di regole &quot;Set di regole predefinito globale&quot; sono applicabili sia alle comunicazioni di percorsi che a quelle di campagne.
+
+## Creare il primo set di regole personalizzato {#create-rule-set}
+
+### Creare il set di regole {#create}
+
+Per creare un set di regole, segui la procedura riportata di seguito.
+
+>[!NOTE]
+>
+>Puoi creare fino a 3 set di regole personalizzati.
+
+1. Accedere a **[!UICONTROL Set di regole]** , quindi fai clic su **[!UICONTROL Crea set di regole]**.
+
+   ![](assets/rule-sets-create-button.png)
+
+1. Definisci il nome del set di regole, aggiungi una descrizione se necessario e fai clic su **[!UICONTROL Salva]**.
+
+   ![](assets/rule-sets-create.png)
+
+   >[!NOTE]
+   >
+   >Il nome del set di regole deve essere univoco.
+
+1. Ora puoi [definire le regole](#create-new-rule) desideri aggiungere a questo set di regole.
+
+### Aggiungere regole al set di regole {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_category"
+>title="Selezionare la categoria della regola del messaggio"
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_capping"
+>title="Impostare i limiti per la regola"
+>abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. La quota limite si baserà sul periodo di calendario selezionato e verrà reimpostata all’inizio dell’arco temporale corrispondente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_channel"
+>title="Definire i canali a cui si applica la regola"
+>abstract="Seleziona almeno un canale. I limiti vengo applicati a tutti i canali come conteggio totale."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_sets_duration"
+>title="Selezionare la categoria della regola del messaggio"
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+
+Per aggiungere una regola a un set di regole, effettua le seguenti operazioni.
+
+1. Dal set di regole appena creato, fai clic su **[!UICONTROL Aggiungi regola]**.
+
+   ![](assets/rule-sets-create-rule-button.png)
+
+1. Definisci un univoco **Nome regola**.
+
+1. Il **Categoria** specifica la categoria del messaggio a cui si applica la regola. Per il momento, questo campo è di sola lettura in quanto **[!UICONTROL Marketing]** categoria disponibile.
+
+1. Dalla sezione **[!UICONTROL Durata]** , seleziona se desideri che il limite venga applicato mensilmente, settimanalmente o quotidianamente. La quota limite si basa sul periodo di calendario selezionato. Viene reimpostato all’inizio dell’arco temporale corrispondente.
+
+   ![](assets/rule-set-capping-duration.png)
+
+   La scadenza del contatore per ciascun periodo è la seguente:
+
+   * **[!UICONTROL Mensile]**: la quota limite è valida fino all’ultimo giorno del mese alle 23:59:59 UTC. Ad esempio, la scadenza mensile di gennaio è il 31/01 alle 23:59:59 UTC.
+
+   * **[!UICONTROL Settimanale]**: la quota limite è valida fino alle 23:59:59 UTC del sabato di tale settimana, poiché la settimana di calendario inizia la domenica. La scadenza è indipendente dalla creazione della regola. Ad esempio, se la regola viene creata il giovedì, è valida fino a sabato alle 23:59:59.
+
+   * **[!UICONTROL Giornaliero]**: il limite di frequenza giornaliero è valido per il giorno fino al 23:59:59 UTC e viene reimpostato su 0 all&#39;inizio del giorno successivo.
+
+     >[!CAUTION]
+     >
+     >Per garantire l&#39;accuratezza delle regole relative ai limiti di frequenza giornalieri, l&#39;uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"} è obbligatorio. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+
+   Il valore del contatore dei profili viene aggiornato una volta consegnata la comunicazione. Tieni presente questo aspetto quando invii grandi volumi di comunicazioni, in quanto la velocità effettiva potrebbe far sì che il destinatario riceva l’e-mail pochi minuti o anche alcune ore dopo l’inizio della comunicazione (nel caso in cui invii milioni di comunicazioni simultaneamente).
+
+   Ciò è importante nel caso in cui un destinatario riceva due comunicazioni in stretta collaborazione. Si consiglia di distanziare le comunicazioni di almeno due ore, se possibile, per dare al destinatario il tempo sufficiente per ricevere la comunicazione e aggiornare di conseguenza il valore del contatore.
+
+1. Imposta il limite per la regola, ovvero il numero massimo di messaggi che possono essere inviati a un singolo profilo utente ogni mese, settimana o giorno, in base alla selezione precedente.
+
+1. Seleziona il canale da utilizzare per questa regola: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push]** o **[!UICONTROL Direct mail]**.
+
+   ![](assets/rule-set-channels.png)
+
+   >[!NOTE]
+   >
+   >Per poter creare il messaggio, devi selezionare almeno un canale.
+
+1. Se desideri applicare il limite come conteggio totale su tutti i canali selezionati, seleziona diversi canali.
+
+   Ad esempio, imposta il limite su 5 e seleziona sia il canale e-mail che quello sms. Se un profilo ha già ricevuto 3 e-mail di marketing e 2 sms di marketing per il periodo selezionato, verrà escluso dalla consegna successiva di eventuali e-mail di marketing o sms.
+
+1. Clic **[!UICONTROL Salva]** per confermare la creazione della regola. Il messaggio viene aggiunto al set di regole, con **[!UICONTROL Bozza]** stato.
+
+   ![](assets/rule-set-rule-created.png)
+
+1. Ripeti i passaggi precedenti per aggiungere al set di regole tutte le regole necessarie.
+
+Ora devi attivare ogni regola prima che possa essere applicata a qualsiasi messaggio. [Ulteriori informazioni](#activate-rule)
+
+### Attivare le regole e il set di regole {#activate-rule}
+
+Una volta creata, una regola presenta **[!UICONTROL Bozza]** e non influisce ancora su alcun messaggio. Per abilitarlo, fai clic su **[!UICONTROL Altre azioni]** accanto alla regola e seleziona **[!UICONTROL Attiva]**.
+
+![](assets/rule-set-activate-rule.png)
+
+Devi anche attivare il set di regole per potervi accedere in campagne/percorsi e applicarlo ai messaggi.
+
+![](assets/rule-set-activate-set.png)
+
+L’attivazione di un set di regole influisce su tutti i messaggi a cui si applica nella successiva esecuzione. Scopri come [applicare un set di regole a un messaggio](#apply-rule-set).
+
+>[!NOTE]
+>
+>La completa attivazione di una regola o di un set di regole può richiedere fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
+
+<!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
+
+Per disattivare una regola o un set di regole, fare clic sul pulsante **[!UICONTROL Altre azioni]** accanto all&#39;elemento desiderato e selezionare **[!UICONTROL Disattiva]**.
+
+![](assets/rule-set-inactive-rule.png)
+
+Il suo stato cambierà in **[!UICONTROL Inattivo]** e la regola non si applicherà alle esecuzioni future dei messaggi. Eventuali messaggi attualmente in esecuzione non saranno interessati.
+
+>[!NOTE]
+>
+>La disattivazione di una regola o di un set di regole non influisce né reimposta i conteggi sui singoli profili.
+
+## Accedere e gestire i set di regole {#access-rule-sets}
+
+Tutti i set di regole creati vengono visualizzati nel **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali (Beta)]** menu. Vengono ordinati in base alla data dell’ultima modifica.
+
+![](assets/rule-sets-list.png)
+
+Fai clic sul nome di un set di regole per visualizzarne e modificarne il contenuto. Sono elencate tutte le regole incluse in tale set di regole. Il menu contestuale in alto a destra consente di:
+
+* Modifica il nome e la descrizione del set di regole
+* Attiva il set di regole - [ulteriori informazioni](#activate-rule)
+* Elimina il set di regole
+
+![](assets/rule-set-example.png)
+
+Per ogni regola del set di regole, la proprietà **[!UICONTROL Altre azioni]** consente di:
+
+* Modifica la regola
+* Attiva la regola [ulteriori informazioni](#activate-rule)
+* Elimina la regola
+
+![](assets/rule-set-example-rules.png)
+
+<!--### Permissions{#permissions-frequency-rules}
+
+To access, create, edit or delete message frequency rules, you must have the **[!UICONTROL Manage frequency rules]** permission. 
+
+Users with the **[!UICONTROL View frequency rules]** permission are able to view rules, but not to modify or delete them.
+
+![](assets/message-rules-access.png)
+
+Learn more about permissions in [this section](../administration/high-low-permissions.md).-->
+
+## Applicare un set di regole a un messaggio {#apply-frequency-rule}
+
+Per applicare una regola business a un messaggio, attieniti alla procedura seguente.
+
+1. Durante la creazione di un’ [campagna](../campaigns/create-campaign.md), seleziona uno dei canali definiti per il set di regole e modifica il contenuto del messaggio.
+
+1. Nella schermata dell’edizione del contenuto, fai clic su **[!UICONTROL Aggiungi regola business]** pulsante.
+
+1. Seleziona la [set di regole creato](#create-rule-set).
+
+   ![](assets/rule-set-campaign-add-rule-button.png)
+
+   >[!NOTE]
+   >
+   >Solo [attivato](#activate-rule) i set di regole vengono visualizzati nell’elenco.
+
+   <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
+
+1. Prima di attivare la campagna, assicurati di pianificarne l’esecuzione per almeno 10 minuti nel futuro.
+
+   In questo modo sarà possibile popolare i valori dei contatori nel profilo per la regola business selezionata. Se attivi immediatamente la campagna, i valori dei contatori del set di regole non verranno inseriti nei profili dei destinatari e il messaggio non verrà conteggiato per le regole del limite di frequenza per i set di regole personalizzati.
+
+   ![](assets/rule-set-schedule-campaign.png)
+
+1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto globale](../reports/global-report.md) e in [Rapporto live](../reports/live-report.md), in cui le regole di frequenza saranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
+
+>[!NOTE]
+>
+>Puoi applicare diverse regole allo stesso canale, ma una volta raggiunto il limite inferiore, il profilo verrà escluso dalle consegne successive.
+
+<!--
+## Example: combine several rules {#frequency-rule-example}
+
+You can combine several message frequency rules, such as described in the example below.
+
+1. [Create a rule](#create-new-rule) called *Overall Marketing Capping*:
+
+   * Select all channels.
+   * Set capping to 12 monthly.
+
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. To further restrict the number of marketing-based push notifications that a user is sent, create a second rule called *Push Marketing Cap*:
+
+   * Select Push channel.
+   * Set capping to 4 monthly.
+
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. Save and [activate](#activate-rule) the rule.
+
+1. [Create a message](../building-journeys/journeys-message.md) for every channel you want to communicate through and select the **[!UICONTROL Marketing]** category for each message. [Learn how to apply a frequency rule](#apply-frequency-rule)
+
+   ![](assets/journey-message-category.png)
+
+In this scenario, an individual profile:
+* can receive up to 12 marketing messages per month;
+* but will be excluded from marketing push notifications after they have received 4 push notifications.-->
+
+Quando si esegue il test delle regole di frequenza, si consiglia di utilizzare una nuova [profilo di test](../audience/creating-test-profiles.md), perché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al periodo successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.

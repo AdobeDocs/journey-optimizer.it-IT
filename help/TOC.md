@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 96%
+source-wordcount: '1808'
+ht-degree: 99%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 96%
          + [Passaggio dinamico delle raccolte tramite azioni personalizzate](using/building-journeys/collections.md)
          + [Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
-         + [Utilizzare azioni personalizzate per scrivere eventi di Percorso in Experienci Platform](using/building-journeys/custom-action-aep.md)
+         + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Campagne{#campaigns}
    + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
    + [Creare una campagna](using/campaigns/create-campaign.md)
@@ -230,11 +230,11 @@ ht-degree: 96%
    + [Verificare e inviare i messaggi di testo](using/sms/send-sms.md)
    + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
-   + Configurare il canale SMS/MMS{#configure-sms}
+   + Configurare canale SMS/MMS{#configure-sms}
       + [Introduzione alle configurazione di SMS](using/sms/sms-configuration.md)
-      + [Configura provider Sinch](using/sms/sms-configuration-sinch.md)
+      + [Configurare il provider Sinch](using/sms/sms-configuration-sinch.md)
       + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
-      + [Configura provider Twilio](using/sms/sms-configuration-twilio.md)
+      + [Configurare il provider Twilio](using/sms/sms-configuration-twilio.md)
       + [Creare una superficie SMS](using/sms/sms-configuration-surface.md)
 + Direct mail {#direct-mail}
    + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
@@ -271,12 +271,12 @@ ht-degree: 96%
       + [Configurare i sottodomini della pagina di destinazione](using/landing-pages/lp-subdomains.md)
       + [Definire i predefiniti per la pagina di destinazione](using/landing-pages/lp-presets.md)
 + Gestione dei contenuti {#content-management}
-   + Utilizzare l’assistente AI{#ai-assistant}
+   + Utilizzare l’Assistente IA{#ai-assistant}
       + [Introduzione all’assistente IA](using/content-management/gs-generative.md)
       + [Generazione di e-mail](using/content-management/generative-email.md)
-      + [Generazione push](using/content-management/generative-push.md)
+      + [Generazione di push](using/content-management/generative-push.md)
       + [Generazione di SMS](using/content-management/generative-sms.md)
-      + [Esperimento sui contenuti con l’Assistente AI](using/content-management/generative-experimentation.md)
+      + [Esperimento contenuti con l’assistente IA](using/content-management/generative-experimentation.md)
    + Utilizzare il contenuto multilingue{#content-multilingual}
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
       + [Creare contenuto multilingue con traduzione manuale](using/content-management/multilingual-manual.md)
@@ -515,19 +515,19 @@ ht-degree: 96%
             + [API Decisioning](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [API Edge Decisioning](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [API Batch Decisioning](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
-   + Experience Decisioning (LA) {#experience-decisioning}
-      + [Introduzione a Experience Decisioning](using/experience-decisioning/gs-experience-decisioning.md)
+   + Decisioni per le esperienze (LA) {#experience-decisioning}
+      + [Introduzione alle decisioni per le esperienze](using/experience-decisioning/gs-experience-decisioning.md)
       + Gestire gli elementi decisionali {#decision-items}
-         + [Configurare il catalogo articoli](using/experience-decisioning/catalogs.md)
+         + [Configurare il catalogo degli elementi](using/experience-decisioning/catalogs.md)
          + [Creare elementi decisionali](using/experience-decisioning/items.md)
-         + [Gestire le raccolte elementi](using/experience-decisioning/collections.md)
-      + Configura selezione elemento {#selection}
+         + [Gestire le raccolte di elementi](using/experience-decisioning/collections.md)
+      + Configurare la selezione degli elementi {#selection}
          + [Creare regole di decisione](using/experience-decisioning/rules.md)
          + [Creare metodi di classificazione](using/experience-decisioning/ranking.md)
          + [Sfruttare i dati contestuali](using/experience-decisioning/context-data.md)
       + [Creare strategie di selezione](using/experience-decisioning/selection-strategies.md)
       + [Creare criteri di decisione](using/experience-decisioning/create-decision.md)
-      + [Generazione di rapporti nel Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
+      + [Generazione di rapporti in Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
 + Gestione dei dati {#data-management}
    + [Introduzione alla gestione dei dati](using/data/gs-data.md)
    + [Utilizzare gli schemi](using/data/get-started-schemas.md)
@@ -562,6 +562,7 @@ ht-degree: 96%
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
    + [Utilizzare le regole aziendali](using/configuration/business-rules.md)
+   + [Utilizzare i set di regole](using/configuration/rule-sets.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
       + Integrazione con sistemi esterni {#external-systems}
