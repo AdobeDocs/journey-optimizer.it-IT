@@ -9,14 +9,24 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
-workflow-type: ht
-source-wordcount: '1219'
-ht-degree: 100%
+source-git-commit: e80148e9678e71329f8711dd201c7531b4f9aeae
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 99%
 
 ---
 
 # Regole di frequenza dei messaggi {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Regole aziendali"
+>abstract="Descrizione regole business"
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_rule_sets"
+>title="Set di regole"
+>abstract="Descrizione set di regole"
 
 [!DNL Journey Optimizer] consente di controllare la frequenza con cui l’utente riceve un messaggio o inizia un percorso impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
 
