@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1605'
 ht-degree: 24%
 
 ---
@@ -157,8 +157,6 @@ Una volta creata, una regola presenta **[!UICONTROL Bozza]** e non influisce anc
 Devi anche attivare il set di regole per potervi accedere in campagne/percorsi e applicarlo ai messaggi.
 
 ![](assets/rule-set-activate-set.png)
-
-L’attivazione di un set di regole influisce su tutti i messaggi a cui si applica nella successiva esecuzione. Scopri come [applicare un set di regole a un messaggio](#apply-rule-set).
 
 >[!NOTE]
 >
