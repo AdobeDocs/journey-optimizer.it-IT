@@ -5,9 +5,9 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '354'
 ht-degree: 88%
 
 ---
@@ -20,27 +20,27 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di aprile è live.]
+>[!TAB La versione di maggio è live.]
 
-Scopri le nuove funzioni e i miglioramenti introdotti nella versione 24.3 di Adobe Journey Optimizer.
+Scopri le nuove funzioni e i miglioramenti in arrivo con la versione di maggio di Adobe Journey Optimizer.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Nuova esperienza di percorso]
+>[!TAB Experience Decisioning]
 
-Questa versione include un’interfaccia utente canvas migliorata per i percorsi e offre un’esperienza utente più intuitiva ed efficiente. Le attività sono più chiare e nell’area di lavoro del percorso è possibile ottenere più informazioni con meno clic.
+Experience Decisioning semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come &quot;elementi decisionali&quot; e un motore decisionale sofisticato.
+
+![](using/rn/assets/do-not-localize/gif-exd.gif)
+
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+
+>[!TAB Nuova esperienza percorso]
+
+Questa versione include un’interfaccia utente dell’area di lavoro migliorata per i percorsi e offre un’esperienza utente più intuitiva ed efficiente. Le attività sono più chiare e nell’area di lavoro del percorso è possibile ottenere più informazioni con meno clic.
 
 ![](using/rn/assets/new-canvas3.gif)
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
-
->[!TAB MMS per tutti i provider]
-
-Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono di condividere immagini, GIF o video con la clientela. Inizialmente disponibile solo con Sinch, MMS è ora disponibile anche con Infobip e Twilio.
-
-![](using/rn/assets/do-not-localize/mms.gif)
-
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
