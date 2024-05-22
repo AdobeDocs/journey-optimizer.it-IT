@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ I passaggi principali per creare una campagna sono i seguenti:
 
 Prima di iniziare a creare la prima campagna in Journey Optimizer, verifica i seguenti prerequisiti:
 
-1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a una campagna **[!UICONTROL Profilo di prodotto]** come Amministratore di Campaign, Approvatore di Campaign, Manager di Campaign e/o Visualizzatore di Campaign. Se non riesci ad accedere alle campagne, devi estendere le autorizzazioni.
+1. **Sono necessarie autorizzazioni adeguate**. Le campagne sono disponibili solo per gli utenti con accesso a un **[!UICONTROL profilo di prodotto]** relativo a una campagna, come amministratore di campagna, approvatore di campagna, manager di campagna e/o visualizzatore di campagna. Se non puoi accedere alle campagne, le autorizzazioni devono essere estese.
 
-   +++Scopri come assegnare il ruolo correlato alla campagna
+   +++Scopri come assegnare il relativo ruolo alla campagna
 
-   1. Per assegnare un ruolo a un utente in [!DNL Permissions] prodotto, passare alla **[!UICONTROL Ruoli]** e seleziona una delle relative campagne integrate **[!UICONTROL Ruoli]**: amministratore di Campaign, approvatore di Campaign, manager di Campaign o visualizzatore di Campaign.
+   1. Per assegnare un ruolo a un utente nel prodotto [!DNL Permissions], passa alla scheda **[!UICONTROL Ruoli]** e seleziona uno dei **[!UICONTROL Ruoli]** relativi alle campagne integrate: amministratore di campagna, approvatore di campagna, manager di campagna o visualizzatore di campagna.
 
-   1. Dalla sezione **[!UICONTROL Utenti]** , fare clic su **[!UICONTROL Aggiungi utente]**.
+   1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
    1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
-      Se l’utente non è stato creato in precedenza, consulta [Aggiungi documentazione utenti](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+      Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
 
    L’utente dovrebbe quindi ricevere un messaggio e-mail di reindirizzamento all’istanza.
 

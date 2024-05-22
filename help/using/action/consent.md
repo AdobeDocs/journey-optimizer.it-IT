@@ -10,9 +10,9 @@ level: Experienced
 keywords: criteri, governance, piattaforma, healthcare shield, consenso
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
 source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1330'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Ad esempio, puoi [creare i criteri di consenso](https://experienceleague.adobe.c
 
    * Per impostazione predefinita, se un profilo ha rinunciato a ricevere comunicazioni da te, il profilo corrispondente viene escluso dalle consegne successive.
 
-   * Se hai l’Adobe **Healthcare Shield** o **Privacy e sicurezza**, puoi creare un criterio di consenso personalizzato che sovrascrive la logica predefinita. Ad esempio, puoi definire una policy per inviare messaggi e-mail solo a tutti gli utenti che hanno acconsentito. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
+   * Se disponi di **Healthcare Shield** o **Privacy and Security Shield** di Adobe, puoi creare un criterio di consenso personalizzato che sostituisce la logica predefinita. Ad esempio, puoi definire un criterio per inviare messaggi e-mail solo a tutte le persone che hanno dato il loro consenso. In assenza di un criterio personalizzato, viene applicato il criterio predefinito.
 
   Per applicare un criterio personalizzato, è necessario definire un’azione di marketing in tale criterio e associarla a una superficie di canale. [Ulteriori informazioni](#surface-marketing-actions)
 
@@ -41,45 +41,45 @@ A livello di percorso, puoi applicare questi criteri di consenso alle azioni per
 * Durante la **configurazione di un’azione personalizzata**, puoi definire un canale e un’azione di marketing. [Ulteriori informazioni](#consent-custom-action)
 * Durante l’aggiunta dell’**azione personalizzata in un percorso**, puoi definire un’azione di marketing aggiuntiva. [Ulteriori informazioni](#consent-journey)
 
-## Sfruttare i criteri di consenso tramite le superfici di canale {#surface-marketing-actions}
+## Sfruttare i criteri di consenso tramite superfici di canale {#surface-marketing-actions}
 
 In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} di Experience Platform.
 
-Per modificare il valore del campo di consenso, puoi creare un criterio di consenso personalizzato in cui definire un’azione di marketing e le condizioni in cui viene eseguita. [Ulteriori informazioni sulle azioni di marketing](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#marketing-actions){target="_blank"}
+Per modificare il valore del campo di consenso, puoi creare un criterio di consenso personalizzato in cui definisci un’azione di marketing e le condizioni in cui viene eseguita. [Ulteriori informazioni sulle azioni di marketing](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#marketing-actions){target="_blank"}
 
 Ad esempio, se desideri creare un criterio di consenso per eseguire il targeting solo dei profili che hanno acconsentito a ricevere comunicazioni e-mail, segui i passaggi riportati di seguito.
 
-1. Assicurati che la tua organizzazione abbia acquistato l’Adobe **Healthcare Shield** o **Privacy e sicurezza** offerte aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=it){target="_blank"}
+1. Assicurati che la tua organizzazione abbia acquistato le offerte aggiuntive **Healthcare Shield** o **Privacy and Security Shield** di Adobe. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html?lang=it){target="_blank"}
 
-1. In Adobe Experience Platform, crea un criterio personalizzato (dal **[!UICONTROL Privacy]** > **[!UICONTROL Criteri]** menu). [Scopri come](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+1. In Adobe Experience Platform, crea un criterio personalizzato (dal menu **[!UICONTROL Privacy]** > **[!UICONTROL Criteri]**). [Scopri come](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-policy){target="_blank"}
 
    <!--![](assets/consent-policy-create.png)-->
 
-1. Scegli la **[!UICONTROL Criterio di consenso]** digita e configura una condizione come segue. [Scopri come configurare i criteri di consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy){target="_blank"}
+1. Scegli il tipo **[!UICONTROL Criterio di consenso]** e configura una condizione nel modo seguente. [Scopri come configurare i criteri di consenso](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#consent-policy){target="_blank"}
 
-   1. Sotto **[!UICONTROL Se]** , seleziona la sezione **[!UICONTROL Targeting e-mail]** azione di marketing predefinita.
+   1. Nella sezione **[!UICONTROL Se]**, seleziona l’azione di marketing predefinita **[!UICONTROL Targeting e-mail]**.
 
       <!--![](assets/consent-policy-marketing-action.png)-->
 
       >[!NOTE]
       >
-      >Le azioni di marketing di base fornite come predefinite per Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+      >Le azioni di marketing di base fornite già preconfigurate da Adobe sono elencate in [questa tabella](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=it#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#create-marketing-action){target="_blank"}.
 
    1. Seleziona cosa accade quando si applica l’azione di marketing. In questo esempio, seleziona **[!UICONTROL Consenso e-mail marketing]**.
 
    ![](assets/consent-policy-then.png)
 
-1. Salva e [abilita](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} questo criterio.
+1. Salva e [abilita](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=it#enable){target="_blank"} questo criterio.
 
 1. In Journey Optimizer, crea una superficie e-mail. [Scopri come](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. Nei dettagli della superficie e-mail, seleziona la **[!UICONTROL Targeting e-mail]** azione di marketing.
+1. Nei dettagli della superficie e-mail, seleziona l’azione di marketing **[!UICONTROL Targeting e-mail]**.
 
    ![](assets/surface-marketing-action.png)
 
-Tutti i criteri di consenso associati a tale azione di marketing vengono utilizzati automaticamente per rispettare le preferenze dei clienti.
+Tutti i criteri di consenso associati a tale azione di marketing vengono automaticamente usati per rispettare le preferenze della clientela.
 
-Pertanto, in questo esempio, qualsiasi [email](../email/create-email.md) l’utilizzo di tale superficie in una campagna o in un percorso viene inviato solo ai profili che hanno acconsentito a ricevere e-mail da te. Sono esclusi i profili che non hanno acconsentito a ricevere comunicazioni e-mail.
+Pertanto, in questo esempio, qualsiasi [e-mail](../email/create-email.md) che utilizza tale superficie in una campagna o in un percorso viene inviata solo ai profili che hanno acconsentito a ricevere e-mail da te. Sono esclusi i profili che non hanno acconsentito a ricevere comunicazioni e-mail.
 
 ## Sfruttare i criteri di consenso tramite azioni personalizzate {#journey-custom-actions}
 

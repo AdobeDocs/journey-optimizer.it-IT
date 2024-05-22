@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Il campo **[!UICONTROL Tag]** consente di definire i tag per l’oggetto. I tag 
 * [Frammenti](../content-management/fragments.md)
 * [Percorsi](../building-journeys/journey-gs.md#change-properties)
 * [Pagine di destinazione](../landing-pages/create-lp.md)
-* [Elenchi di iscrizioni](../landing-pages/subscription-list.md)
+* [Elenchi di abbonamenti](../landing-pages/subscription-list.md)
 * [Modelli](../content-management/content-templates.md)
 
 Puoi selezionare un tag esistente o crearne uno nuovo. A questo scopo, segui i passaggi riportati qui sotto.

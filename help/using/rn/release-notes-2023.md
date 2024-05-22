@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **Percorsi**
 
-* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile come versione beta. [Ulteriori informazioni](../action/action-response.md).
+* Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile solo come versione beta. [Ulteriori informazioni](../action/action-response.md).
 * È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata. [Ulteriori informazioni](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
