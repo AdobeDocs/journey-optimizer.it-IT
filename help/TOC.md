@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '1811'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -424,7 +424,7 @@ ht-degree: 99%
          + [Set di dati sui fallback](using/offers/export-catalog/export-fallback.md)
       + Documentazione di riferimento API {#api-reference}
          + [Introduzione](using/offers/api-reference/getting-started.md)
-         + Creare e gestire offerte tramite API {#offers-api}
+         + Creare e gestire le offerte tramite API {#offers-api}
             + Posizionamenti {#placements}
                + [Elencare posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Ricercare un posizionamento](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -561,7 +561,7 @@ ht-degree: 99%
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
-   + [Configurare le regole di frequenza](using/configuration/frequency-rules.md)
+   + [Configurare le regole business](using/configuration/frequency-rules.md)
    + [Utilizzare i set di regole](using/configuration/rule-sets.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)

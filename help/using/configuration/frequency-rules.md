@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Regole di frequenza
+title: Regole aziendali
 description: Scopri come definire le regole di frequenza
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 99%
+source-wordcount: '1257'
+ht-degree: 68%
 
 ---
 
-# Regole di frequenza dei messaggi {#frequency-rules}
+# Regole aziendali {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Regole aziendali"
+>abstract="Utilizza le regole business per controllare la frequenza con cui gli utenti riceveranno un messaggio o entreranno in un percorso impostando regole cross-channel che escluderanno automaticamente i profili sollecitati eccessivamente da messaggi e azioni."
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,27 +30,25 @@ ht-degree: 99%
 
 [!DNL Journey Optimizer] consente di controllare la frequenza con cui l’utente riceve un messaggio o inizia un percorso impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
 
-Ad esempio, per un brand, una regola potrebbe essere di non inviare più di 4 messaggi di marketing al mese alla clientela. Per farlo, puoi utilizzare una regola di frequenza che limiterà il numero di messaggi inviati in base a uno o più canali durante un periodo di un mese di calendario.
+Ad esempio, per un brand, una regola potrebbe essere di non inviare più di 4 messaggi di marketing al mese alla clientela. A questo scopo, puoi utilizzare una regola business che limiterà il numero di messaggi inviati in base a uno o più canali durante un periodo di calendario mensile.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->Le regole di frequenza dei messaggi sono diverse dalla gestione della rinuncia, che consente di annullare l’iscrizione alla ricezione di comunicazioni da un brand. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
+>Le regole aziendali sono diverse dalla gestione delle rinunce, che consente agli utenti di annullare l’abbonamento alla ricezione di comunicazioni da un marchio. [Ulteriori informazioni](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-## Regole di accesso {#access-rules}
+## Accedere alle regole business {#access-rules}
 
-Le regole sono disponibili dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole]**. Vengono elencate tutte le regole, ordinate per data di modifica.
-
-Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche eseguire ricerche sull’etichetta del messaggio.
+Le regole business sono disponibili nella sezione **[!UICONTROL Amministrazione]** > **[!UICONTROL Regole aziendali]** menu. Vengono elencate tutte le regole, ordinate per data di modifica. Utilizza l’icona del filtro per filtrare in base alla categoria, allo stato e/o al canale. Puoi anche eseguire ricerche sull’etichetta del messaggio.
 
 ![](assets/message-rules-filter.png)
 
 ### Autorizzazioni{#permissions-frequency-rules}
 
-Per accedere, creare, modificare o eliminare le regole di frequenza dei messaggi, è necessario disporre dell’autorizzazione per **[!UICONTROL Gestire le regole di frequenza]**.
+Per accedere, creare, modificare o eliminare le regole business, è necessario disporre del **[!UICONTROL Gestire le regole di frequenza]** autorizzazione.
 
 Chi possiede l’autorizzazione per **[!UICONTROL Visualizzare le regole di frequenza]**, può visualizzare le regole, ma non modificarle o eliminarle.
 
@@ -53,26 +56,26 @@ Chi possiede l’autorizzazione per **[!UICONTROL Visualizzare le regole di freq
 
 Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa sezione](../administration/high-low-permissions.md).
 
-## Creare una regola {#create-new-rule}
+## Creare una regola business {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
->title="Selezionare la categoria della regola del messaggio"
->abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+>title="Seleziona la categoria della regola del messaggio"
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole business che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="Impostare i limiti per la regola"
+>title="Impostare il limite per la regola business"
 >abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. La quota limite si baserà sul periodo di calendario selezionato e verrà reimpostata all’inizio dell’arco temporale corrispondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Definire i canali a cui si applica la regola"
->abstract="Seleziona almeno un canale. I limiti vengo applicati a tutti i canali come conteggio totale."
+>title="Definire i canali a cui si applica la regola business"
+>abstract="Seleziona almeno un canale. Le funzioni di limitazione vengono applicate a tutti i canali come conteggio totale."
 
-Per creare una nuova regola, segui i passaggi seguenti:
+Per creare una nuova regola business, attenersi alla procedura descritta di seguito.
 
-1. Accedi all’elenco delle **[!UICONTROL Regole di frequenza dei messaggi]**, quindi fai clic su **[!UICONTROL Crea regola]**.
+1. Accedere a **[!UICONTROL Regole aziendali]** , quindi fai clic su **[!UICONTROL Crea regola]**.
 
    ![](assets/message-rules-create.png)
 
@@ -134,19 +137,19 @@ La quota limite giornaliera è valido per il giorno corrente fino alle 23:59:59 
 >
 >Per garantire l’accuratezza delle regole relative ai limiti di frequenza giornalieri, è consigliato l’uso di [segmentazione in streaming](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=it){target="_blank"}. Ulteriori informazioni sui metodi di valutazione del pubblico sono disponibili in [questa sezione](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Attivare una regola {#activate-rule}
+## Attivare una regola business {#activate-rule}
 
-Una volta creata, una regola di frequenza dei messaggi è in stato **[!UICONTROL Bozza]** e non influisce ancora su alcun messaggio. Per abilitarla, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Attiva]**.
+Una volta creata, una regola business ha **[!UICONTROL Bozza]** e non influisce ancora su alcun messaggio. Per abilitarla, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Attiva]**.
 
 ![](assets/message-rules-activate.png)
 
-L’attivazione di una regola influisce su tutti i messaggi a cui si applica nella successiva esecuzione. Scopri come [applicare una regola di frequenza a un messaggio](#apply-frequency-rule).
+L’attivazione di una regola influisce su tutti i messaggi a cui si applica nella successiva esecuzione. Scopri come [applicare una regola business a un messaggio](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >La completa attivazione di una regola può richiedere fino a 10 minuti. Non è necessario modificare i messaggi o ripubblicare i percorsi per rendere effettiva una regola.
 
-Per disattivare una regola di frequenza dei messaggi, fai clic sui puntini di sospensione accanto alla regola e seleziona **[!UICONTROL Disattiva]**.
+Per disattivare una regola business, fare clic sui puntini di sospensione accanto alla regola e selezionare **[!UICONTROL Disattiva]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ Lo stato della regola verrà modificato in **[!UICONTROL Inattivo]** e la regola
 >
 >La disattivazione di una regola non influisce né reimposta i conteggi sui singoli profili.
 
-## Applicare una regola di frequenza a un messaggio {#apply-frequency-rule}
+## Applicare una regola business a un messaggio {#apply-frequency-rule}
 
-Per applicare una regola di frequenza a un messaggio, segui i passaggi riportati qui sotto.
+Per applicare una regola business a un messaggio, attieniti alla procedura seguente.
 
 1. Durante la creazione di un [percorso](../building-journeys/journey-gs.md), aggiungi un messaggio selezionando uno dei canali definiti per la regola.
 
@@ -168,17 +171,17 @@ Per applicare una regola di frequenza a un messaggio, segui i passaggi riportati
 
    >[!NOTE]
    >
-   >Attualmente, per le regole di frequenza dei messaggi è disponibile solo la categoria **[!UICONTROL Marketing]**.
+   >Attualmente solo il **[!UICONTROL Marketing]** La categoria è disponibile per le regole business.
 
 1. Puoi fare clic sul collegamento **[!UICONTROL Regola di frequenza]** per visualizzare la schermata delle regole di frequenza in una nuova scheda. [Ulteriori informazioni](#access-rules)
 
-   Tutte le regole di frequenza corrispondenti alla categoria e ai canali selezionati verranno applicate automaticamente a questo messaggio.
+   Tutte le regole che corrispondono alla categoria e ai canali selezionati verranno applicate automaticamente a questo messaggio.
 
    >[!NOTE]
    >
    >I messaggi in cui è selezionata la categoria **[!UICONTROL Transazionale]** non verranno valutati in base alle regole di frequenza.
 
-1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto globale](../reports/global-report.md) e in [Rapporto live](../reports/live-report.md), in cui le regole di frequenza saranno elencate come possibile motivo per gli utenti esclusi dalla consegna.
+1. Puoi visualizzare il numero di profili esclusi dalla consegna in [Rapporto globale](../reports/global-report.md), e nella [Rapporto live](../reports/live-report.md), in cui le regole business verranno elencate come possibile motivo per l’esclusione degli utenti dalla consegna.
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ Per applicare una regola di frequenza a un messaggio, segui i passaggi riportati
 
 ## Esempio: combinare più regole {#frequency-rule-example}
 
-Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’esempio seguente.
+Puoi combinare diverse regole aziendali, come descritto nell’esempio seguente.
 
-1. [Crea una regola](#create-new-rule) denominata *Limiti di marketing complessivi*:
+1. [Creare una regola business](#create-new-rule) ha chiamato *Limiti di marketing complessivi*:
 
    * Seleziona tutti i canali.
    * Imposta il limite su 12 al mese.
@@ -204,7 +207,7 @@ Puoi combinare diverse regole di frequenza dei messaggi, come descritto nell’e
 
 1. Salva e [attiva](#activate-rule) la regola.
 
-1. [Crea un messaggio](../building-journeys/journeys-message.md) per ogni canale attraverso cui desideri comunicare e seleziona la categoria **[!UICONTROL Marketing]** per ogni messaggio. [Scopri come applicare una regola di frequenza](#apply-frequency-rule)
+1. [Crea un messaggio](../building-journeys/journeys-message.md) per ogni canale attraverso cui desideri comunicare e seleziona la categoria **[!UICONTROL Marketing]** per ogni messaggio. [Scopri come applicare una regola di business](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ In questo scenario, un singolo profilo:
 
 >[!NOTE]
 >
->Quando si esegue il test delle regole di frequenza, si consiglia di utilizzare un [profilo di test](../audience/creating-test-profiles.md) appena creato, poiché una volta raggiunta la quota limite di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
+>Durante il test delle regole business, si consiglia di utilizzare una [profilo di test](../audience/creating-test-profiles.md), poiché una volta raggiunto il limite di frequenza di un profilo, non è possibile reimpostare il contatore fino al mese successivo. La disattivazione di una regola consente ai profili con limiti di ricevere messaggi, ma non rimuove o elimina eventuali incrementi del contatore.
 
 ## Video introduttivo {#video}
 
-Scopri come creare, attivare, testare e creare rapporti sulle regole di frequenza.
+Scopri come creare, attivare, testare e creare rapporti sulle regole business.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

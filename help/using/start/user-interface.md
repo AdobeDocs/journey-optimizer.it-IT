@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 7cef45750889572f1684aa2b98c1eab1d668896a
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 94%
+source-wordcount: '1359'
+ht-degree: 91%
 
 ---
 
@@ -128,7 +128,7 @@ Controlla la gestione della privacy e le richieste da questa sezione.
 
   È inoltre possibile accedere alla sezione **Generazione rapporti** per configurare la generazione di rapporti per la sperimentazione delle campagne. [Ulteriori informazioni](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Regole]**: utilizza questa sezione per creare regole di frequenza cross-channel e controllare la frequenza con cui gli utenti ricevono un messaggio o entrano in un percorso. [Ulteriori informazioni](../configuration/frequency-rules.md)
+* **[!UICONTROL Regole aziendali]** : utilizza questa sezione per creare regole di business cross-channel per controllare la frequenza con cui gli utenti ricevono un messaggio o immettono in un percorso. [Ulteriori informazioni](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](../reports/alerts.md)
 
@@ -198,104 +198,104 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="Nome configurazione mobile e web"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
 >title="Aggiungi dipendenze"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Aggiungi codice di inizializzazione"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Convalida con garanzia"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
->title="Codice Javascript"
->abstract="TBC"
+>title="Codice JavaScript"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="Avvia sito e convalida"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
 >title="Recupera il token del dispositivo"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="Avvia l&#39;applicazione da Xcode."
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
 >title="Fornisci un certificato push"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_key_id"
 >title="ID chiave"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_team_id"
 >title="ID team"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
 >title="Scegli la proprietà tag"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
 >title="Fornisci un certificato push"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
 >title="Aggiungi dipendenze"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="Importa dipendenze"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Aggiungi codice di inizializzazione"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance_android"
 >title="Convalida con garanzia"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
 >title="Recupera il token del dispositivo"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Avviare l&#39;applicazione da Android Studio"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_load_library"
 >title="Carica libreria in modo asincrono"
->abstract="TBC"
+>abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_library_code"
 >title="Tag di intestazione del documento"
->abstract="TBC"
+>abstract="DA CONFERMARE"
