@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Dalla sezione **Avvisi** , puoi visualizzare gli avvisi disponibili e abbonarti.
 
 Ulteriori informazioni sugli avvisi in Adobe Experience Platform in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}.
 
-Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**. Per Journey Optimizer sono disponibili due avvisi preconfigurati: [Azione personalizzata percorso non riuscita](#alert-custom-actions) avviso e [Trigger di lettura segmento non riuscito](#alert-read-audiences) attenzione. Questi avvisi sono descritti di seguito.
+Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**. Per Journey Optimizer sono disponibili due avvisi preconfigurati: [Azione personalizzata percorso non riuscita](#alert-custom-actions) avviso e [Attivatore Read Audience Non Riuscito](#alert-read-audiences) attenzione. Questi avvisi sono descritti di seguito.
 
 È possibile iscriversi a ogni avviso singolarmente dall’interfaccia utente, selezionando la **Abbonati** opzione dalla **Avvisi** dashboard. Utilizza lo stesso metodo per annullare l’abbonamento.
 
@@ -67,7 +67,7 @@ Avvisi su **Read Audience** Le attività sono applicabili solo ai percorsi ricor
 
 Avvisi su **Read Audience** vengono risolti quando un profilo entra in **Read Audience** nodo.
 
-Il nome dell’abbonamento all’evento di I/O corrispondente al **Trigger di lettura segmento non riuscito** l&#39;avviso è **Ritardi, errori ed errori percorsi nella lettura del segmento**.
+Il nome dell’abbonamento all’evento di I/O corrispondente al **Attivatore Read Audience Non Riuscito** l&#39;avviso è **Ritardi, errori ed errori del pubblico di lettura percorso**.
 
 ## Risoluzione dei problemi {#alert-troubleshooting}
 
