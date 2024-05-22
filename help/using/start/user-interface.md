@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
+source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 91%
+source-wordcount: '1348'
+ht-degree: 92%
 
 ---
 
@@ -266,6 +266,11 @@ Per cambiare lingua:
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
+>id="ajo_mobile_web_setup_swift_dependencies_import"
+>title="Importa dipendenze"
+>abstract="DA CONFERMARE"
+
+>[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
 >title="Importa dipendenze"
 >abstract="DA CONFERMARE"
@@ -275,10 +280,6 @@ Per cambiare lingua:
 >title="Aggiungi codice di inizializzazione"
 >abstract="DA CONFERMARE"
 
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance_android"
->title="Convalida con garanzia"
->abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
@@ -288,14 +289,4 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Avviare l&#39;applicazione da Android Studio"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_load_library"
->title="Carica libreria in modo asincrono"
->abstract="DA CONFERMARE"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_library_code"
->title="Tag di intestazione del documento"
 >abstract="DA CONFERMARE"
