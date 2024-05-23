@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: percorsi, scopri, inizia
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,6 @@ Casi d’uso aziendali:
 Casi d’uso tecnici:
 
 * [Passaggio dinamico delle raccolte tramite azioni personalizzate](collections.md)
-* [Incrementare gradualmente le consegne](ramp-up-deliveries-uc.md)
 * [Limite di trasmissione con origini dati esterne e azioni personalizzate](limit-throughput.md)
 
 ## Versioni del percorso{#journey-versions}

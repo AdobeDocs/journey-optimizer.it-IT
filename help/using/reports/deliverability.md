@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Il **tasso di consegna** è il numero di messaggi che raggiungono le caselle in 
 
 Ottimizzare il recapito messaggi [!DNL Journey Optimizer] esperienze, consigliamo di utilizzare le best practice elencate in questa sezione. I problemi di recapito dei messaggi sono generalmente legati alla protezione contro la posta indesiderata implementata dai provider di servizi Internet (ISP) e dagli amministratori dei server di posta.
 
-Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori informazioni sui termini, i concetti e gli approcci chiave, consulta [Guida alle procedure consigliate per la consegna dei messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}.
+Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori informazioni sui termini, i concetti e gli approcci chiave, consulta [Guida alle procedure consigliate per la consegna dei messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
 
 ## Riduci la percentuale di reclami {#reduce-complaint-rate}
 
@@ -77,7 +77,7 @@ Per migliorare il tasso di recapito dei messaggi e assicurarti che le e-mail arr
 
 Se recentemente sei passato a un altro provider di servizi e-mail, indirizzo IP o dominio o sottodominio e-mail, devi stabilire la tua reputazione di mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nella cartella di posta indesiderata della cassetta postale dei destinatari.
 
-Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Ulteriori informazioni [caso d’uso](../building-journeys/ramp-up-deliveries-uc.md).
+<!--To warm up your IP, you can gradually ramp up the number of your deliveries. Learn more in this [use case](../building-journeys/ramp-up-deliveries-uc.md).-->
 
 ## Implementazione DMARC {#dmarc}
 
