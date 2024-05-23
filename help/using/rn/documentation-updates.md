@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5290'
-ht-degree: 98%
+source-wordcount: '5335'
+ht-degree: 97%
 
 ---
 
@@ -21,14 +21,16 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Maggio 2024 {#may-2024}
 
-* Tutte le nuove funzioni e i miglioramenti apportati alla versione di aprile 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di maggio 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * La sezione sugli elenchi di seed è stata aggiornata per quanto riguarda i percorsi ricorrenti. [Ulteriori informazioni](../configuration/seed-lists.md#use-seed-list)
 * La sezione sulle origini dati esterne è stata aggiornata. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-access-token)
 * Alla pagina Guardrail and limit è stato aggiunto il timeout percorso globale di 30 giorni. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 * La sezione sull’integrazione Adobe Campaign v7/v8 è stata aggiornata con informazioni sul provisioning. [Ulteriori informazioni](../action/acc-action.md#access)
+* L’editor di espressioni utilizzato per personalizzare il contenuto è stato rinominato nella documentazione &quot;editor di personalizzazione&quot;, per distinguerlo chiaramente dalla [Editor espressioni percorso](../building-journeys/expression/expressionadvanced.md). [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 ## Aprile 2024 {#april-2024}
 
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione di aprile 2024 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md#apr-2024)
 * Sono stati descritti i passaggi di configurazione per la messaggistica in-app. [Ulteriori informazioni](../in-app/inapp-configuration.md)
 * La documentazione per l’[API Offer Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) e l’[API Batch decisioning](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) è stata aggiornata.
 * Nella documentazione di Gestione delle decisioni sono state aggiunte informazioni relative alla gestione delle aree edge e hub quando si utilizza il limite di frequenza con l’API Edge Decisioning. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -41,7 +43,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Marzo 2024 {#march-2024}
 
 * È stata aggiunta la sezione Domande frequenti per rispondere alle domande comuni sull’utilizzo della composizione del pubblico e dei tipi di pubblico personalizzati da caricare in Journey Optimizer. [Ulteriori informazioni](../audience/about-audiences.md#faq)
-* Tutte le nuove funzioni e i miglioramenti apportati a [!DNL Journey Optimizer] nella versione di marzo 2024 sono approfonditi nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati a [!DNL Journey Optimizer] nella versione di marzo 2024 sono approfonditi nella documentazione. [Ulteriori informazioni](release-notes.md#mar-2024)
 * È stata migliorata la pagina sulla gestione dell’ingresso del profilo. [Ulteriori informazioni](../building-journeys/entry-management.md)
 * Le informazioni sulla risoluzione dei problemi sono state aggiunte alla pagina Avvisi. [Ulteriori informazioni](../reports/alerts.md#alert-troubleshooting)
 * Le informazioni sull’attività Attendi sono state aggiunte alla pagina dei rapporti del percorso. [Ulteriori informazioni](../reports/sharing-overview.md)
@@ -58,12 +60,12 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Febbraio 2024 {#feb-2024}
 
-* Tutte le nuove funzioni e i miglioramenti apportati [!DNL Journey Optimizer]nella versione di febbraio 2024 sono approfonditi nella documentazione. [Ulteriori informazioni](release-notes.md)
+* Tutte le nuove funzioni e i miglioramenti apportati [!DNL Journey Optimizer]nella versione di febbraio 2024 sono approfonditi nella documentazione. [Ulteriori informazioni](release-notes.md#feb-2024)
 * L’integrazione Journey Optimizer e Workfront è stata aggiunta alla pagina delle integrazioni. [Ulteriori informazioni](../start/ajo-integrations.md)
 * Sono state aggiunte delle informazioni su come personalizzare le rappresentazioni delle offerte in base ai dati contestuali. [Ulteriori informazioni](../offers/offer-library/add-representations.md#context-data)
 * La pagina dei guardrail è stata aggiornata con una nota sulle azioni personalizzate che supportano il formato JSON solo quando si utilizzano payload di richiesta o risposta. [Ulteriori informazioni](../start/guardrails.md#custom-actions-g)
 * Sono state aggiunte ulteriori informazioni sul tipo di autenticazione di base nelle origini dati esterne. [Ulteriori informazioni](../datasource/external-data-sources.md)
-* È stata aggiunta una nota per differenziare chiaramente l’[editor di espressioni di Journey](../building-journeys/expression/expressionadvanced.md) dall’[editor di personalizzazione](../personalization/functions/functions.md).
+* È stata aggiunta una nota per differenziare chiaramente la [Editor espressioni percorso](../building-journeys/expression/expressionadvanced.md) dal [editor di personalizzazione](../personalization/functions/functions.md).
 * L’elenco delle funzioni disponibili nell’editor di espressioni avanzate è stato aggiornato. [Ulteriori informazioni](../building-journeys/expression/functions.md)
 * La pagina sulla funzione di suddivisione è stata aggiornata. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md)
 * Sono state aggiunte informazioni sull’impatto del consenso o del rifiuto delle notifiche push sui messaggi in-app. [Ulteriori informazioni](../in-app/create-in-app.md)
