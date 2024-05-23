@@ -8,14 +8,12 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Disponibilità limitata"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 2%
+source-wordcount: '834'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +23,7 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile come versione beta solo per alcuni utenti. <!--To join the beta program, contact Adobe Customer Care.-->
+>La personalizzazione della superficie e-mail è attualmente disponibile solo per un set di organizzazioni (Disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 ## Aggiungere sottodomini dinamici {#dynamic-subdomains}
 
