@@ -7,10 +7,10 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -44,7 +44,7 @@ Informazioni dettagliate su come creare e gestire gli attributi calcolati sono d
 
 Per poter sfruttare gli attributi calcolati in Journey Optimizer, devi innanzitutto aggiungerli a Journey Optimizer **Experience Platform** origine dati.
 
-L’origine dati di Adobe Experience Platform definisce la connessione ad Adobe Real-Time Customer Profile. Questa origine dati è progettata per recuperare i dati del profilo e i dati di Experience Events da Real-time Customer Profile Service.
+L’origine dati Adobe Experience Platform definisce la connessione ad Adobe Real-time Customer Profile. Questa origine dati è progettata per recuperare i dati del profilo e i dati di Experience Events da Real-time Customer Profile Service.
 
 Per aggiungere attributi calcolati all&#39;origine dati, eseguire la procedura seguente:
 
@@ -70,6 +70,6 @@ Informazioni dettagliate su come aggiungere gruppi di campi all’origine dati d
 
 Gli attributi calcolati offrono un set versatile di funzionalità all’interno di Percorsi Optimizer. Puoi utilizzarli per vari scopi, ad esempio per personalizzare il contenuto dei messaggi, creare nuovi tipi di pubblico o suddividere i percorsi in base a uno specifico attributo calcolato. Ad esempio, puoi dividere il percorso di un percorso in base agli acquisti totali di un profilo nelle ultime tre settimane, aggiungendo un singolo attributo calcolato in un’attività Condizione. Puoi anche personalizzare un’e-mail visualizzando l’elemento visualizzato più di recente per ciascun profilo.
 
-Poiché gli attributi calcolati sono campi di attributi di profilo creati nello schema di unione profili, puoi accedervi dall’editor espressioni all’interno di **SystemComputedAttributes** gruppo di campi. Da qui, puoi aggiungere un attributo calcolato alle espressioni, trattandole come qualsiasi altro attributo di profilo per eseguire le operazioni desiderate.
+Poiché gli attributi calcolati sono campi attributo profilo creati nello schema di unione profili, puoi accedervi dall’editor personalizzazione all’interno di **SystemComputedAttributes** gruppo di campi. Da qui, puoi aggiungere un attributo calcolato alle espressioni, trattandole come qualsiasi altro attributo di profilo per eseguire le operazioni desiderate.
 
 ![](assets/computed-attributes-ajo.png)

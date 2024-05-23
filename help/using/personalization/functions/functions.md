@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1872'
-ht-degree: 3%
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ Utilizzare [!DNL Journey Optimizer] linguaggio di template per eseguire operazio
 
 ➡️ [Scopri come utilizzare le funzioni di assistenza in questo video](#video)
 
-Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibili nell’elenco a discesa Personalizzazione dell’editor Personalizzazione, come segue:
+Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibili nell’elenco a discesa di personalizzazione dell’editor di personalizzazione, come segue:
 
 ![](../assets/access-helper-functions.png)
 
@@ -29,7 +29,7 @@ Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibil
 >
 >Le funzioni e le funzionalità disponibili nell’editor di personalizzazione sono diverse da quelle disponibili nella [Editor espressioni avanzate percorso](../../building-journeys/expression/expressionadvanced.md).
 
-In [!DNL Journey Optimizer] Le funzioni di assistenza dell’editor di personalizzazione sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
+In [!DNL Journey Optimizer] nell’editor della personalizzazione, le funzioni di assistenza sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
 
 Seleziona una categoria per accedere alle sottocategorie e alle funzioni.
 
@@ -49,22 +49,22 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="aggregation.md#count">Conteggio</a></td><td>Questa funzione restituisce il numero di elementi all’interno dell’array specificato</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#count-only-null">Count Only Null</a></td><td>Questa funzione conta il numero di valori Null nell’elenco.</td>
+        <td><a href="aggregation.md#count-only-null">Conteggio solo valori Null</a></td><td>Questa funzione conta il numero di valori Null nell’elenco.</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#count-with-null">Conteggio con valori Null</a></td><td>Questa funzione conta tutti gli elementi dell’elenco, compresi i valori nulli</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct">Distinct</a></td><td>Questa funzione ottiene valori da un array o da un elenco con valori duplicati rimossi</td>
+        <td><a href="arrays-list.md#distinct">Diverso</a></td><td>Questa funzione ottiene valori da un array o da un elenco con valori duplicati rimossi</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#distinct-count-with-null">Conteggio valori univoci con valori Null</a></td><td>Questa funzione conta il numero di valori diversi, inclusi i valori Null.</td>
+        <td><a href="arrays-list.md#distinct-count-with-null">Conteggio valori univoci con Null</a></td><td>Questa funzione conta il numero di valori diversi, inclusi i valori Null.</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#head">Primo elemento</a></td><td>Questa funzione restituisce il primo elemento di un array o di un elenco.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#first-n">Primo n nell’array</a></td><td>Questa funzione restituisce i primi elementi "N" di un array, se ordinati in ordine crescente in base alla data espressione numerica</td>
+        <td><a href="arrays-list.md#first-n">Primo/i n nell’array</a></td><td>Questa funzione restituisce i primi elementi "N" di un array, se ordinati in ordine crescente in base alla data espressione numerica</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#in">In entrata</a></td><td>Questa funzione viene utilizzata per determinare se un elemento è membro di un array o di un elenco</td>
@@ -73,10 +73,10 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="arrays-list.md#includes">Include</a></td><td>Questa funzione determina se un array o un elenco contiene un dato elemento</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#intersects">Intersects</a></td><td>Questa funzione determina se due array o elenchi hanno almeno un membro comune</td>
+        <td><a href="arrays-list.md#intersects">Interseca</a></td><td>Questa funzione determina se due array o elenchi hanno almeno un membro comune</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#last-n">Ultimo n nell’array</a></td><td>Questa funzione restituisce gli ultimi elementi "N" di un array, se ordinati in ordine crescente in base alla data espressione numerica</td>
+        <td><a href="arrays-list.md#last-n">Ultimo/i n nell’array</a></td><td>Questa funzione restituisce gli ultimi elementi "N" di un array, se ordinati in ordine crescente in base alla data espressione numerica</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#max">Massimo</a></td><td>Questa funzione restituisce il più grande di tutti i valori selezionati all’interno di un array.</td>
@@ -85,7 +85,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="aggregation.md#min">Minimo</a></td><td>Questa funzione restituisce il più piccolo di tutti i valori selezionati all’interno dell’array.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Non in</a></td><td>Questa funzione determina se un elemento non è un membro di un array o di un elenco</td>
+        <td><a href="arrays-list.md#notin">Non in entrata</a></td><td>Questa funzione determina se un elemento non è un membro di un array o di un elenco</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#subset">Sottoinsieme di</a></td><td>Questa funzione determina se un array specifico (array A) è un sottoinsieme di un altro array (array B), ovvero se tutti gli elementi nell’array A sono elementi dell’array B</td>
@@ -94,7 +94,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="aggregation.md#sum">Somma</a></td><td>Questa funzione restituisce la somma di tutti i valori selezionati all’interno dell’array.</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Soprainsieme di</a></td><td>Questa funzione determina se un array specifico (array A) è un superset di un altro array (array B), ovvero se l’array A contiene tutti gli elementi dell’array B</td>
+    <td><a href="arrays-list.md#superset">Superset di</a></td><td>Questa funzione determina se un array specifico (array A) è un superset di un altro array (array B), ovvero se l’array A contiene tutti gli elementi dell’array B</td>
     </tr>
 </table>
 
@@ -141,7 +141,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
 
 <table>
     <tr>
-        <td><a href="maps.md#get">Ottenere</a></td><td>Questa funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave</td>
+        <td><a href="maps.md#get">Ottieni</a></td><td>Questa funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave</td>
     </tr>
     <tr>
         <td><a href="maps.md#keys">Chiavi</a></td><td>Questa funzione viene utilizzata per recuperare tutte le chiavi per una data mappa</td>
@@ -164,7 +164,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="math.md#random">Casuale</a></td><td>Questa funzione restituisce un valore casuale compreso tra 0 e 1.</td>
     </tr>
     <tr>
-        <td><a href="math.md#round-down">Arrotonda per difetto</a></td><td>Questa funzione arrotonda un numero per difetto</td>
+        <td><a href="math.md#round-down">Arrotonda per difetto</a></td><td>Questa funzione arrotonda un numero per difetto.</td>
     </tr>
     <tr>
         <td><a href="math.md#round-up">Arrotonda per eccesso</a></td><td>Questa funzione arrotonda un numero per eccesso</td>
@@ -179,7 +179,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="math.md#to-percentage">A percentuale</a></td><td>Questa funzione converte un numero in percentuale.</td>
     </tr>
     <tr>
-        <td><a href="math.md#to-precision">Per la precisione</a></td><td>Questa funzione converte un numero con la precisione richiesta.</td>
+        <td><a href="math.md#to-precision">Per la precisione</a></td><td>Questa funzione converte un numero in base alla precisione richiesta.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-string">A stringa</a></td><td>Questa funzione converte qualsiasi numero nella sua rappresentazione di stringa. </td>
@@ -190,10 +190,10 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
 
 <table>
     <tr>
-        <td><a href="objects.md#isNotNull">Non è nullo</a></td><td>Questa funzione viene utilizzata per determinare se esiste un riferimento a un oggetto</td>
+        <td><a href="objects.md#isNotNull">Non è Null</a></td><td>Questa funzione viene utilizzata per determinare se esiste un riferimento a un oggetto</td>
     </tr>
     <tr>
-        <td><a href="objects.md#isNull">È nullo</a></td><td>Questa funzione viene utilizzata per determinare se un riferimento a un oggetto non esiste</td>
+        <td><a href="objects.md#isNull">È Null</a></td><td>Questa funzione viene utilizzata per determinare se un riferimento a un oggetto non esiste</td>
     </tr>
 </table>
 
@@ -207,7 +207,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#char-code-at">Codice carattere in corrispondenza di</a></td><td>Questa funzione restituisce il valore ASCII di un carattere, come la funzione charCodeAt in JavaScript</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">Concat</a></td><td>Questa funzione viene utilizzata per combinare due stringhe in una</td>
+        <td><a href="string.md#concat">Concatena</a></td><td>Questa funzione viene utilizzata per combinare due stringhe in una</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">Contains</a></td><td>Questa funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata</td>
@@ -229,10 +229,10 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">È uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, con distinzione tra maiuscole e minuscole</td>
+        <td><a href="string.md#equals">Uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, con distinzione tra maiuscole e minuscole</td>
     </tr>
     <tr>
-        <td><a href="string.md#equalsIgnoreCase">Ignora maiuscole/minuscole uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, senza distinzione tra maiuscole e minuscole</td>
+        <td><a href="string.md#equalsIgnoreCase">Uguale a ignora distinzione tra maiuscole e minuscole</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, senza distinzione tra maiuscole e minuscole</td>
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">Estrai dominio e-mail</a></td><td>Questa funzione viene utilizzata per estrarre il dominio di un indirizzo e-mail</td>
@@ -256,7 +256,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>Questa funzione viene utilizzata per verificare se una stringa o un’espressione è vuota.</td>
     </tr>
     <tr>
-        <td><a href="string.md#is-not-empty">Non è vuoto</a></td><td>Questa funzione restituisce true se la stringa nel parametro non è vuota.</td>
+        <td><a href="string.md#is-not-empty">Non è vuoto</a></td><td>Questa funzione restituisce true, se la stringa nel parametro non è vuota.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Ultimo indice di</a></td><td>Questa funzione restituisce la posizione (nel primo argomento) dell’ultima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.</td>
@@ -268,7 +268,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#length">Lunghezza</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o in un’espressione</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Simile a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
+        <td><a href="string.md#like">Mi piace</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">Minuscolo</a></td><td>Questa funzione converte una stringa in lettere minuscole.</td>
@@ -277,7 +277,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#mask">Maschera</a></td><td>Questa funzione viene utilizzata per sostituire una parte di stringa con caratteri "X".</td>
     </tr>
     <tr>
-        <td><a href="string.md#matches">Corrisponde</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare.</td>
+        <td><a href="string.md#matches">Corrisponde a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare.</td>
     </tr>
     <tr>
         <td><a href="string.md#md5">MD5</a></td><td>Questa funzione restituisce l’hash MD5 della stringa di input.</td>
@@ -286,7 +286,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#notEqualTo">Non uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non è uguale alla stringa specificata</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">Non uguale con ignora maiuscole/minuscole</a></td><td>Questa funzione confronta due stringhe ignorando le maiuscole/minuscole.</td>
+        <td><a href="string.md#not-equal-with-ignore-case">Non è uguale con ignora distinzione tra maiuscole e minuscole</a></td><td>Questa funzione confronta due stringhe ignorando la distinzione tra maiuscole e minuscole.</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Gruppo di espressioni regolari</a></td><td>Questa funzione viene utilizzata per estrarre informazioni specifiche, in base all’espressione regolare fornita</td>
@@ -301,7 +301,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#rightTrim">Taglia a destra</a></td><td>Questa funzione rimuove gli spazi bianchi dalla fine di una stringa. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Divisione</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
+        <td><a href="string.md#split">Dividi</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Inizia con</a></td><td>Questa funzione viene utilizzata per determinare se una stringa inizia con una sottostringa specificata</td>
@@ -316,28 +316,28 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#string-to-number">Stringa a numero</a></td><td>Questa funzione viene utilizzata per convertire una stringa in numero. In caso di input non valido, restituisce la stessa stringa come output.</td>
     </tr>
     <tr>
-        <td><a href="string.md#sub-string">Sottostringa</a></td><td>Questa funzione restituisce la sottostringa dell’espressione stringa tra l’indice iniziale e l’indice finale.</td>
+        <td><a href="string.md#sub-string">Sottostringa</a></td><td>Questa funzione restituisce la sottostringa dell’espressione della stringa tra l’indice iniziale e l’indice finale.</td>
     </tr>
     <tr>
         <td><a href="string.md#titleCase">Tutte iniziali maiuscole</a></td><td>Questa funzione viene utilizzata per rendere maiuscole le prime lettere di ogni parola di una stringa</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-bool">To Bool</a></td><td>Questa funzione converte un valore di argomento in un valore booleano, a seconda del tipo.</td>
+        <td><a href="string.md#to-bool">A valore booleano</a></td><td>Questa funzione converte un valore di un argomento in un valore booleano, a seconda del tipo.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">A Data/Ora</a></td><td>Questa funzione viene utilizzata per convertire una stringa in data. In caso di input non valido, restituisce la data epoca come output.</td>
+        <td><a href="string.md#to-date-time">A data/ora</a></td><td>Questa funzione viene utilizzata per convertire una stringa in data. In caso di input non valido, restituisce la data epoca come output.</td>
     </tr>
     <tr>
         <td><a href="string.md#to-date-time-only">Solo a data/ora</a></td><td>Questa funzione converte un valore di argomento in un valore solo di data e ora. In caso di input non valido, restituisce la data epoca come output.</td>
     </tr>
     <tr>
-        <td><a href="string.md#trim">Trim (Taglia)</a></td><td>Questa funzione rimuove gli spazi bianchi dall’inizio e dalla fine di una stringa.</td>
+        <td><a href="string.md#trim">Taglia</a></td><td>Questa funzione rimuove gli spazi bianchi dall’inizio e dalla fine di una stringa.</td>
     </tr>
     <tr>
         <td><a href="string.md#upper">Maiuscolo</a></td><td>Questa funzione converte una stringa in lettere maiuscole.</td>
     </tr>
     <tr>
-        <td><a href="string.md#url-decode">Decodifica URL</a></td><td>Questa funzione viene utilizzata per decodificare una stringa con codifica URL.</td>
+        <td><a href="string.md#url-decode">Decodifica URL</a></td><td>Questa funzione viene utilizzata per decodificare una stringa codificato dell’URL.</td>
     </tr>
     <tr>
         <td><a href="string.md#url-encode">Codifica URL</a></td><td>Questa funzione viene utilizzata per la codifica URL di una stringa.</td>
@@ -355,7 +355,7 @@ Gli helper sono descritti in [questa pagina](helpers.md).
         <td><a href="helpers.md#default">Valore di fallback predefinito</a></td><td>Questa funzione viene utilizzata per eseguire il rendering di una variabile con il valore predefinito</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#each">Ogni</a></td><td>Questa funzione viene utilizzata per eseguire iterazioni su un array</td>
+        <td><a href="helpers.md#each">Each</a></td><td>Questa funzione viene utilizzata per eseguire iterazioni su un array</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">Se</a></td><td>Questa funzione viene utilizzata per definire un blocco condizionale. Se la valutazione dell’espressione restituisce true, viene eseguito il rendering del blocco.</td>
@@ -364,10 +364,10 @@ Gli helper sono descritti in [questa pagina](helpers.md).
         <td><a href="helpers.md#let">Let</a></td><td>Questa funzione consente di memorizzare un’espressione come variabile da utilizzare successivamente in una query</td>
     </tr>
    <tr>
-        <td><a href="helpers.md#unless">A meno che</a></td><td>Questa funzione viene utilizzata per definire un blocco condizionale. Se la valutazione dell’espressione restituisce false, viene eseguito il rendering del blocco</td>
+        <td><a href="helpers.md#unless">Unless</a></td><td>Questa funzione viene utilizzata per definire un blocco condizionale. Se la valutazione dell’espressione restituisce false, viene eseguito il rendering del blocco</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#with">Con</a></td><td>Questa funzione viene utilizzata per modificare il token di valutazione della parte modello</td>
+        <td><a href="helpers.md#with">With</a></td><td>Questa funzione viene utilizzata per modificare il token di valutazione della parte modello</td>
     </tr>
 </table>
 
@@ -379,7 +379,7 @@ Le funzioni aritmetiche vengono utilizzate per eseguire calcoli di base sui valo
 
 <table>
     <tr>
-        <td><a href="arithmetic-functions.md#add">Aggiunta</a></td><td>Questo operatore viene utilizzato per trovare la somma di due espressioni di argomento</td>
+        <td><a href="arithmetic-functions.md#add">Addizione</a></td><td>Questo operatore viene utilizzato per trovare la somma di due espressioni di argomento</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#divide">Dividi</a></td><td>Questo operatore viene utilizzato per trovare il quoziente di due espressioni di argomento</td>
@@ -416,7 +416,7 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">È uguale a</a></td><td>Questa operazione controlla se i valori sono uguali</td>
+        <td><a href="operators.md#equals">Uguale a</a></td><td>Questa operazione controlla se i valori sono uguali</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Maggiore di</a></td><td>Questo operatore controlla se il primo valore è maggiore del secondo valore</td>

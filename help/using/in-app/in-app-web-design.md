@@ -8,10 +8,10 @@ level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 hide: true
 hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '780'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
@@ -43,11 +43,11 @@ Dalla sezione **[!UICONTROL Layout messaggio]** , seleziona una delle quattro op
 
 * **[!UICONTROL Schermo intero]**: questo tipo di layout copre l’intero schermo dei dispositivi per il pubblico.
 
-  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Modale]**: questo layout viene visualizzato in una grande finestra in stile avviso. L’applicazione rimane visibile in background.
 
-  Supporta i componenti per contenuti multimediali (immagine, video), di testo e i pulsanti.
+  Supporta i componenti multimediali (immagine, video), di testo e i pulsanti.
 
 * **[!UICONTROL Banner]**: questo tipo di layout viene visualizzato come messaggio di avviso del sistema operativo nativo.
 
@@ -65,7 +65,7 @@ Dalla sezione **[!UICONTROL Layout messaggio]** , seleziona una delle quattro op
 
 Dalla sezione **Contenuto** , puoi definire e personalizzare il contenuto della notifica e lo stile della **Chiudi** pulsante. Puoi anche aggiungere un file multimediale alla notifica in-app e i pulsanti di azione da questa scheda.
 
-### Chiudi pulsante {#close-button}
+### Pulsante Chiudi {#close-button}
 
 ![](assets/in_app_web_design_2.png)
 
@@ -104,7 +104,7 @@ Per comporre il messaggio, inserisci il contenuto nel **[!UICONTROL Intestazione
 
 ![](assets/in_app_web_design_4.png)
 
-Utilizza il **[!UICONTROL Personalizzazione]** per aggiungere la personalizzazione. Ulteriori informazioni sulla personalizzazione in Adobe Journey Optimizer Expression Editor [in questa sezione](../personalization/personalize.md).
+Utilizza il **[!UICONTROL Personalizzazione]** per aggiungere la personalizzazione. Ulteriori informazioni sulla personalizzazione nell’editor di personalizzazione di Adobe Journey Optimizer [in questa sezione](../personalization/personalize.md).
 
 +++Altre opzioni con formattazione avanzata
 

@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 2%
@@ -97,7 +97,7 @@ Prendiamo questo esempio, in cui i clienti vogliono reimpostare la propria passw
 >
 >A differenza degli eventi abilitati per il profilo, i dati contestuali passati nell’API REST vengono utilizzati per una comunicazione una tantum e non memorizzati rispetto al profilo. Al massimo, il profilo viene creato con i dettagli dello spazio dei nomi, se questo è stato trovato mancante.
 
-Per utilizzare questi dati nelle campagne, devi passarli nel payload API e aggiungerli nel messaggio utilizzando l’editor di espressioni. A tale scopo, utilizza `{{context.<contextualAttribute>}}` sintassi, dove `<contextualAttribute>` deve corrispondere al nome della variabile nel payload API contenente i dati che desideri trasmettere.
+Per utilizzare questi dati nelle campagne, devi passarli nel payload API e aggiungerli nel messaggio utilizzando l’editor di personalizzazione. A tale scopo, utilizza `{{context.<contextualAttribute>}}` sintassi, dove `<contextualAttribute>` deve corrispondere al nome della variabile nel payload API contenente i dati che desideri trasmettere.
 
 Il `{{context.<contextualAttribute>}}` La sintassi è mappata solo a un tipo di dati String.
 

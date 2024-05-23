@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 # Funzioni matematiche {#math}
 
-Scopri come utilizzare le funzioni matematiche nell’editor di espressioni.
+Scopri come utilizzare le funzioni matematiche nell’editor di personalizzazione.
 
 ## Assoluto {#absolute}
 
@@ -97,7 +97,7 @@ Questa query restituisce il valore esadecimale 158, ovvero 9e.
 {%= toHexString(158) %}
 ```
 
-## A Intero {#to-int}
+## Per Int {#to-int}
 
 Il `toInt` La funzione viene utilizzata per convertire uno qualsiasi di questi tipi (number, double, int, long, float, short, byte, boolean, string) in un numero intero.
 
@@ -125,7 +125,7 @@ Il `toPercentage` viene utilizzata per convertire un numero in percentuale.
 {%= toPercentage(double) %}: string
 ```
 
-## Alla precisione {#to-precision}
+## A precisione {#to-precision}
 
 Il `toPrecision` viene utilizzata per convertire un numero con la precisione richiesta.
 

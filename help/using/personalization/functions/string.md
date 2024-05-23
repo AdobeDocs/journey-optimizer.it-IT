@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1846'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 # Funzioni stringa {#string}
 
-Scopri come utilizzare le funzioni String nell’editor di espressioni.
+Scopri come utilizzare le funzioni stringa nell’editor di personalizzazione.
 
 ## Camel Case {#camelCase}
 
@@ -53,7 +53,7 @@ La funzione seguente restituisce il valore ASCII o i.e 111.
 {%= charCodeAt("some", 1)%}
 ```
 
-## Concat {#concate}
+## Concatena {#concate}
 
 Il `concat` funzione combina due stringhe in una.
 
@@ -209,7 +209,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se l’i
 ```
 
 
-## È uguale a{#equals}
+## Uguale a{#equals}
 
 Il `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
 
@@ -232,7 +232,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 {%=equals(profile.person.name,"John") %}
 ```
 
-## Ignora maiuscole/minuscole uguale a{#equalsIgnoreCase}
+## Uguale a ignora distinzione tra maiuscole e minuscole{#equalsIgnoreCase}
 
 Il `equalsIgnoreCase` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, senza distinzione tra maiuscole e minuscole.
 
@@ -455,7 +455,7 @@ La funzione seguente restituisce la lunghezza del nome della città del profilo.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Simile a{#like}
+## Mi piace{#like}
 
 Il `like` viene utilizzata per determinare se una stringa corrisponde a un pattern specificato.
 
@@ -496,7 +496,7 @@ Questa funzione converte il nome del profilo in lettere minuscole.
 {%= lowerCase(profile.person.name.firstName) %}
 ```
 
-## Corrisponde{#matches}
+## Corrisponde a{#matches}
 
 Il `matches` viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare. Fare riferimento a [questo documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) per ulteriori informazioni sui pattern corrispondenti nelle espressioni regolari, vedere.
 
@@ -575,7 +575,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## Non uguale con ignora maiuscole/minuscole {#not-equal-with-ignore-case}
+## Non è uguale con ignora distinzione tra maiuscole e minuscole {#not-equal-with-ignore-case}
 
 Il `notEqualWithIgnoreCase` viene utilizzata per confrontare due stringhe ignorando la distinzione tra maiuscole e minuscole.
 
@@ -673,7 +673,7 @@ Il `rightTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dall
 {%= rightTrim(string) %}
 ```
 
-## Divisione {#split}
+## Dividi {#split}
 
 Il `split` La funzione viene utilizzata per dividere una stringa per un determinato carattere.
 
@@ -770,7 +770,7 @@ Se la persona vive a Washington High Street, questa funzione restituirà Washing
 {%= titleCase(profile.person.location.Street) %}
 ```
 
-## To Bool {#to-bool}
+## A valore booleano {#to-bool}
 
 Il `toBool` funzione viene utilizzata per convertire un valore di argomento in un valore booleano, a seconda del tipo.
 
@@ -780,7 +780,7 @@ Il `toBool` funzione viene utilizzata per convertire un valore di argomento in u
 {= toBool(string) %}: boolean
 ```
 
-## A Data/Ora {#to-date-time}
+## A data/ora {#to-date-time}
 
 Il `toDateTime` funzione viene utilizzata per convertire una stringa in data. In caso di input non valido, restituisce la data epoca come output.
 
@@ -790,7 +790,7 @@ Il `toDateTime` funzione viene utilizzata per convertire una stringa in data. In
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Solo a data/ora {#to-date-time-only}
+## Solo a ora/data {#to-date-time-only}
 
 Il `toDateTimeOnly` funzione viene utilizzata per convertire un valore di argomento in un valore di sola data e ora. In caso di input non valido, restituisce la data epoca come output. Questa funzione accetta tipi di campo stringa, data, long e int.
 
@@ -800,7 +800,7 @@ Il `toDateTimeOnly` funzione viene utilizzata per convertire un valore di argome
 {%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Trim (Taglia) {#trim}
+## Taglia {#trim}
 
 Il **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e dalla fine di una stringa.
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 9%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Utilizzare i componenti per contenuti"
->abstract="I componenti per contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html?lang=it#add-content-components" text="Aggiungere componenti per contenuti"
+>abstract="I componenti contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire un contenuto specifico che consenta agli utenti di selezionare e inviare le scelte effettuate, utilizza il componente Modulo."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Aggiungere componenti di contenuto"
 
 Per progettare il contenuto di una pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
@@ -39,13 +39,13 @@ Utilizzando la finestra di progettazione del contenuto della pagina di destinazi
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="Impostare i campi del componente modulo"
->abstract="Definisci in che modo i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html?lang=it#lp-form-styles" text="Definire gli stili del modulo della pagina di destinazione"
+>abstract="Definisci come i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Definire gli stili dei moduli delle pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="Eventi successivi al clic sul pulsante"
->abstract="Definisci gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
+>title="Che cosa accade quando si fa clic sul pulsante"
+>abstract="Definisci cosa accade quando gli utenti inviano il modulo della pagina di destinazione."
 
 Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le scelte effettuate dalla pagina di destinazione, utilizza **[!UICONTROL Modulo]** componente. A questo scopo, segui i passaggi riportati qui sotto.
 
@@ -134,7 +134,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    ![](assets/lp_designer-form-save.png)
 
-## Definire gli stili del modulo della pagina di destinazione {#lp-form-styles}
+## Definire gli stili dei moduli delle pagine di destinazione {#lp-form-styles}
 
 1. Per modificare gli stili del contenuto del componente modulo, passa in qualsiasi momento a **[!UICONTROL Stile]** scheda.
 
@@ -172,7 +172,7 @@ Ad esempio, se colleghi una casella di controllo <!-- or the submission of the p
 
 Supponiamo che tu colleghi due caselle di controllo nella pagina principale a due diversi elenchi di abbonamento. Se un utente si abbona a uno di questi, desideri visualizzare un messaggio specifico al momento dell’invio del modulo, a seconda della casella di controllo selezionata.
 
-A questo scopo, segui i passaggi riportati qui sotto:
+Per farlo, segui la procedura indicata di seguito:
 
 1. Nella pagina principale, collega ogni casella di controllo della proprietà **[!UICONTROL Modulo]** al relativo elenco di abbonamenti. [Ulteriori informazioni](#use-form-component).
 
@@ -188,7 +188,7 @@ A questo scopo, segui i passaggi riportati qui sotto:
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Aggiungi le condizioni rilevanti utilizzando le funzioni helper dell’editor di espressioni. [Ulteriori informazioni](../personalization/functions/functions.md)
+1. Aggiungi le condizioni rilevanti utilizzando le funzioni di assistenza dell’editor di personalizzazione. [Ulteriori informazioni](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

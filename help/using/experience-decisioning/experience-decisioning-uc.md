@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilità limitata"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Definisci due trattamenti di consegna ciascuno contenente un criterio di decisio
 
 1. Definisci le strategie di selezione per la decisione. Clic **[!UICONTROL Aggiungi strategia]**.
 
-1. Fai clic su **[!UICONTROL Crea]**. La nuova decisione è aggiunta alla voce **[!UICONTROL Decisioni]**.
+1. Clic **[!UICONTROL Crea]**. La nuova decisione è aggiunta alla voce **[!UICONTROL Decisioni]**.
 
    ![](assets/decision-code-based-decision-added.png)
 
@@ -58,7 +58,7 @@ Definisci due trattamenti di consegna ciascuno contenente un criterio di decisio
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor espressioni, ad esempio gli attributi del profilo.
+1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di personalizzazione, ad esempio gli attributi del profilo.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

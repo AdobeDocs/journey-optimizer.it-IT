@@ -10,7 +10,8 @@ level: Intermediate
 keywords: espressione, editor
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -25,9 +26,9 @@ ht-degree: 0%
 >
 >Per il momento, è disponibile solo a scopo di test nella sandbox non di produzione fornita ad Adobe e per i set di dati richiesti per la versione beta.
 
-Journey Optimizer consente di sfruttare i dati provenienti da Adobe Experience Platform nell’editor di espressioni per [personalizzare i contenuti](../personalization/personalize.md). I passaggi sono i seguenti:
+Journey Optimizer ti consente di sfruttare i dati provenienti da Adobe Experience Platform nell’editor di personalizzazione per [personalizzare i contenuti](../personalization/personalize.md). I passaggi sono i seguenti:
 
-1. Apri l’editor di espressioni, disponibile in ogni contesto in cui puoi definire la personalizzazione, ad esempio i messaggi. [Scopri come utilizzare l’editor di espressioni](../personalization/personalization-build-expressions.md)
+1. Apri l’editor di personalizzazione, disponibile in ogni contesto in cui puoi definire la personalizzazione, ad esempio i messaggi. [Scopri come utilizzare l’editor di personalizzazione](../personalization/personalization-build-expressions.md)
 
 1. Passa all’elenco delle funzioni di assistenza e aggiungi **datasetLookup** funzione helper nel riquadro del codice.
 

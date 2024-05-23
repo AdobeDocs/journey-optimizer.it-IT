@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informazioni sull’editor di espressioni
-description: Scopri come utilizzare l’editor di espressioni.
+title: Informazioni sull’editor di personalizzazione
+description: Scopri come utilizzare l’editor di personalizzazione.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
-# Introduzione all’editor di espressioni {#build-personalization-expressions}
+# Introduzione all’editor di personalizzazione {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="Informazioni sull’editor di espressioni"
->abstract="L’editor di espressioni consente di selezionare, disporre, personalizzare e convalidare tutti i dati per creare una personalizzazione per i contenuti."
+>title="Informazioni sull’editor di personalizzazione"
+>abstract="L’editor di personalizzazione ti consente di selezionare, disporre, personalizzare e convalidare tutti i dati per creare una personalizzazione personalizzata per il contenuto."
 
-L’editor espressioni è il fulcro della personalizzazione in [!DNL Journey Optimizer]. È disponibile in ogni contesto in cui è necessario definire la personalizzazione, ad esempio e-mail, push e offerte.
+L’editor di personalizzazione è il fulcro della personalizzazione in [!DNL Journey Optimizer]. È disponibile in ogni contesto in cui è necessario definire la personalizzazione, ad esempio e-mail, push e offerte.
 
-Nell’interfaccia dell’editor di espressioni seleziona, disponi, personalizza e convalida tutti i dati per creare una personalizzazione personalizzata per il contenuto.
+Nell’interfaccia dell’editor di personalizzazione, seleziona, disponi, personalizza e convalida tutti i dati per creare una personalizzazione personalizzata per il contenuto.
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ Inoltre, puoi definire il testo di fallback predefinito che verrà visualizzato 
 
 ![](assets/attribute-details.png)
 
-Nell’esempio seguente, l’editor di espressioni ti consente di selezionare i profili che hanno il compleanno oggi e quindi di completare la personalizzazione inserendo un’offerta specifica corrispondente a quel giorno.
+Nell’esempio seguente, l’editor di personalizzazione ti consente di selezionare i profili che hanno il compleanno oggi e quindi di completare la personalizzazione inserendo un’offerta specifica corrispondente a quel giorno.
 
 ![](assets/perso_ee2.png)
 
-Una volta che l’espressione di personalizzazione è pronta, devi farla convalidare dall’editor espressioni. Ulteriori informazioni in [questa sezione](personalization-validation.md).
+Una volta che l’espressione di personalizzazione è pronta, devi farla convalidare dall’editor di personalizzazione. Ulteriori informazioni in [questa sezione](personalization-validation.md).

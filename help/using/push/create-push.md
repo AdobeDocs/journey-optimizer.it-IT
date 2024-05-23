@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 11%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Creazione di messaggi push"
->abstract="Aggiungi il messaggio push e inizia a personalizzarlo con l’editor di espressioni."
+>abstract="Aggiungi il messaggio push e inizia a personalizzarlo con l’editor di personalizzazione."
 
 ## Creare la notifica push in un percorso o in una campagna {#create}
 
@@ -77,7 +77,7 @@ Per creare una notifica push, effettua le seguenti operazioni:
 1. Dalla sezione **[!UICONTROL Trigger azione]** scegliere il menu **[!UICONTROL Frequenza]** della notifica push:
 
    * Una volta
-   * Giornaliero
+   * Giornaliera
    * Settimanale
    * Mensile
 
@@ -96,12 +96,12 @@ Per creare una notifica push, effettua le seguenti operazioni:
 * [Configurare il canale push](push-gs.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
 
-## Modalità di consegna rapida {#rapid-delivery}
+## Modalità Consegna rapida {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="Modalità di consegna rapida"
->abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a un pubblico di dimensione inferiore a 30 milioni."
+>title="Modalità Consegna rapida"
+>abstract="La modalità di consegna rapida consente di eseguire l’invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 M."
 
 La modalità Consegna rapida è una [!DNL Journey Optimizer] componente aggiuntivo che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
 

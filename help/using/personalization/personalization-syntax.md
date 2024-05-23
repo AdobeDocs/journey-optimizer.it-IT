@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -27,7 +27,7 @@ Esempio di espressione semplice:
 
 `{{profile.person.name}}`
 
-Dove:
+dove:
 
 * `profile` è uno spazio dei nomi.
 * `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
@@ -92,7 +92,7 @@ Questo percorso ha la seguente struttura:
 
 `offers.Type.[Placement Id].[Activity Id].Attribute`
 
-Dove:
+dove:
 
 * `offers` identifica l’espressione di percorso appartenente allo spazio dei nomi dell’offerta
 * `Type`  determina il tipo di rappresentazione dell’offerta. I valori possibili sono: `image`, `html` e `text`
@@ -164,7 +164,7 @@ Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio agg
 
 >[!NOTE]
 >
->Nell’editor espressioni, quando modifichi un URL personalizzato, le funzioni di assistenza e l’iscrizione ai tipi di pubblico vengono disabilitate per motivi di sicurezza.
+>Nell’editor di personalizzazione, quando modifichi un URL personalizzato, le funzioni di assistenza e l’iscrizione ai tipi di pubblico vengono disabilitate per motivi di sicurezza.
 >
 
 **URL personalizzati di esempio**

@@ -1,5 +1,5 @@
 ---
-title: Creare un messaggio direct mail
+title: Creare un messaggio di direct mailing
 description: Scopri come creare un messaggio di direct mailing in Journey Optimizer
 feature: Direct Mail
 topic: Content Management
@@ -7,19 +7,19 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 18%
+ht-degree: 1%
 
 ---
 
-# Creare un messaggio direct mail {#create-direct}
+# Creare un messaggio di direct mailing {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Creazione di direct mail"
->abstract="Crea messaggi di direct mail in campagne pianificate e progetta i file di estrazione richiesti dai provider di direct mail che desideri inviare ai tuoi clienti."
+>abstract="Crea messaggi di direct mailing nelle campagne pianificate e progetta i file di estrazione necessari ai provider di direct mailing per inviare la posta ai clienti."
 
 Per creare messaggi di direct mailing, crea una campagna pianificata e configura il file di estrazione. Questo file è richiesto dai provider di direct mailing per inviare e-mail ai clienti.
 
@@ -62,12 +62,12 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Campi dati"
->abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richieste dai provider di direct mail per inviare e-mail alla clientela. Puoi aggiungere fino a 50 colonne."
+>abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richiesto dai provider di direct mailing per inviare e-mail ai clienti. Puoi aggiungere fino a 50 colonne."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="Formattazione del file di estrazione"
->abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’Editor di espressioni. <br/><br/> L’opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
+>title="Formattazione file di estrazione"
+>abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’editor di personalizzazione. <br/><br/> Il <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
 
 1. Configura le colonne e le informazioni da visualizzare nel file di estrazione:
 
@@ -75,7 +75,7 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 
    1. Il **[!UICONTROL Formattazione]** Il riquadro di destra consente di impostare la colonna selezionata. Specifica un **[!UICONTROL Etichetta]** per la colonna.
 
-   1. In **[!UICONTROL Dati]** , selezionare gli attributi di profilo da visualizzare utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md).
+   1. In **[!UICONTROL Dati]** , selezionare gli attributi di profilo da visualizzare utilizzando [editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
    1. Per ordinare il file di estrazione utilizzando una colonna, seleziona la colonna e attiva **[!UICONTROL Ordina per]** opzione. Il **[!UICONTROL Ordina per]** viene visualizzata accanto all’etichetta della colonna nel **[!UICONTROL Campi dati]** sezione.
 
@@ -95,7 +95,7 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
 
    1. Facoltativamente, abilita **[!UICONTROL Aggiungi la marca temporale al nome del file di esportazione]** se si desidera aggiungere una marca temporale automatica al nome file specificato.
 
-   1. A volte potresti aver bisogno di aggiungere informazioni all’inizio o alla fine del file di estrazione. A tale scopo, utilizza **[!UICONTROL Note]** specificare se si desidera includere la nota come intestazione o piè di pagina.
+   1. A volte può essere necessario aggiungere informazioni all’inizio o alla fine del file di estrazione. A tale scopo, utilizza **[!UICONTROL Note]** specificare se si desidera includere la nota come intestazione o piè di pagina.
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 
@@ -105,7 +105,7 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
 
    1. Il **[!UICONTROL Formattazione]** Il riquadro di destra consente di impostare la colonna selezionata. Specifica un **[!UICONTROL Etichetta]** per la colonna.
 
-   1. In **[!UICONTROL Dati]** , selezionare gli attributi di profilo da visualizzare utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md).
+   1. In **[!UICONTROL Dati]** , selezionare gli attributi di profilo da visualizzare utilizzando [editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
    1. Per ordinare il file di estrazione utilizzando una colonna, seleziona la colonna e attiva **[!UICONTROL Ordina per]** opzione. Il **[!UICONTROL Ordina per]** viene visualizzata accanto all’etichetta della colonna nel **[!UICONTROL Campi dati]** sezione.
 

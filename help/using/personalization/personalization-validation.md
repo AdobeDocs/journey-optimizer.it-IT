@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, convalida, errori, personalizzazione
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Meccanismi di convalida {#validation-mechanisms}
 
-In **Editor espressioni** schermata, utilizza **Convalida** per controllare la sintassi di personalizzazione.
+In **editor di personalizzazione** schermata, utilizza **Convalida** per controllare la sintassi di personalizzazione.
 
 >[!NOTE]
 > La convalida viene eseguita automaticamente quando fai clic su **Aggiungi** per chiudere la finestra dell&#39;editor.
@@ -29,7 +29,7 @@ In **Editor espressioni** schermata, utilizza **Convalida** per controllare la s
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Se la sintassi di personalizzazione non è valida, non puoi chiudere la finestra dell’editor espressioni.
+> Se la sintassi di personalizzazione non è valida, non puoi chiudere la finestra dell’editor di personalizzazione.
 >
 
 ## Errori comuni {#common-errors}
@@ -80,7 +80,7 @@ Gli errori relativi all’integrazione delle offerte in un messaggio e-mail o pu
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-La convalida viene eseguita durante la convalida del contenuto di personalizzazione nell’editor di espressioni.
+La convalida viene eseguita durante la convalida del contenuto di personalizzazione nell’editor di personalizzazione.
 
 <table> 
  <thead> 

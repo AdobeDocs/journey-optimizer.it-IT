@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 21%
+source-wordcount: '1855'
+ht-degree: 17%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selezionare il pubblico della campagna"
->abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico a cui destinare la campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)"
+>abstract="Questo elenco mostra tutti i tipi di pubblico di Adobe Experience Platform disponibili. Seleziona il pubblico di destinazione della campagna. Il messaggio configurato nella campagna verrà inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)"
 
 Un pubblico è un insieme di persone che condividono comportamenti e/o caratteristiche simili. Ulteriori informazioni sui tipi di pubblico in [Documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 
@@ -86,7 +86,7 @@ Una volta aggiunti gli attributi di arricchimento a un gruppo di campi, puoi sfr
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Personalizzare i messaggi** in percorsi o campagne aggiungendo attributi di arricchimento dal pubblico di destinazione nell’editor espressioni. [Scopri come utilizzare l’editor di espressioni](../personalization/personalization-build-expressions.md)
+* **Personalizzare i messaggi** in percorsi o campagne aggiungendo attributi di arricchimento dal pubblico target nell’editor di personalizzazione. [Scopri come utilizzare l’editor di personalizzazione](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -110,7 +110,7 @@ La segmentazione in streaming è un processo continuo di selezione di dati che a
 
 +++
 
-+++ Segmentazione in batch
++++ Segmentazione batch
 
 L’elenco dei profili per il pubblico viene valutato ogni 24 ore.
 
@@ -120,7 +120,7 @@ La segmentazione in batch è un’alternativa alla segmentazione in streaming ch
 
 +++ Segmentazione Edge
 
-La segmentazione Edge consente di valutare i segmenti in Adobe Experience Platform istantaneamente [sul bordo](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+La segmentazione Edge consente di valutare i segmenti in Adobe Experience Platform istantaneamente [sul bordo](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, abilitazione dei casi d’uso di personalizzazione della stessa pagina e della pagina successiva. Attualmente solo i tipi di query selezionati possono essere valutati con la segmentazione Edge. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ I tipi di pubblico da composizione e caricamento personalizzati del pubblico pos
   >
   >Per i tipi di pubblico di caricamento personalizzati, se &quot;Lettura incrementale&quot; è abilitato in un percorso ricorrente, i profili vengono recuperati solo alla prima ricorrenza, in quanto questi tipi di pubblico sono fissi.
 
-Inoltre, questi tipi di pubblico sono disponibili per l’utilizzo nell’editor di espressioni per personalizzare i messaggi in percorsi e campagne. [Scopri come utilizzare l’editor di espressioni](../personalization/personalization-build-expressions.md)
+Inoltre, questi tipi di pubblico sono disponibili per l’utilizzo nell’editor di personalizzazione per personalizzare i messaggi in percorsi e campagne. [Scopri come utilizzare l’editor di personalizzazione](../personalization/personalization-build-expressions.md)
 
 +++
 

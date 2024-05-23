@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 88%
 
 ---
 
@@ -73,9 +73,9 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 
 Quando utilizzare il canale Basato su codice anziché gli altri canali di [!DNL Journey Optimizer]?
 
-* È possibile utilizzare le esperienze basate su codice in qualsiasi momento quando non si accede alla proprietà digitale tramite un browser web o un’app mobile; in questi ultimi casi, infatti, è spesso preferibile utilizzare il [canale Web](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} di [!DNL Journey Optimizer].
+* È possibile utilizzare le esperienze basate su codice in qualsiasi momento quando non si accede alla proprietà digitale tramite un browser web o un’app mobile, nei casi in cui probabilmente è possibile utilizzare meglio [!DNL Journey Optimizer] [canale web](../web/get-started-web.md){target="_blank"} o [!DNL Journey Optimizer] [messaggi in-app](../in-app/get-started-in-app.md){target="_blank"} canale.
 
-* È possibile utilizzare il canale Basato su codice in alternativa al canale Web di [!DNL Journey Optimizer] se il sito web non può essere caricato nel [Designer web](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale Web.
+* È possibile utilizzare il canale basato su codice in alternativa al [!DNL Journey Optimizer] canale web se il sito web non può essere caricato in [web designer](../web/edit-web-content.md#work-with-web-designer){target="_blank"} editor visivo o se non è possibile utilizzare il [estensione browser](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} che attiva l’authoring visivo per il canale web.
 
 * Inoltre, il canale Basato su codice può essere usato in alternativa ai canali Web o In-app di [!DNL Journey Optimizer] in caso di implementazioni basate su API, headless o lato server.
 
@@ -85,13 +85,13 @@ Per casi di utilizzo web, puoi utilizzare il canale web o l’esperienza basata 
 
 **Web**
 * Modifica il contenuto utilizzando l’editor visivo [Designer web](../web/edit-web-content.md#work-with-web-designer){target="_blank"}.
-* È necessario utilizzare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
+* Hai bisogno di [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} implementazione e [Helper per editing video Adobe Experience Cloud](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} nel browser. [Ulteriori informazioni](../web/web-prerequisites.md){target="_blank"}
 * Il canale Web consente di modificare tutto ciò che si trova sulla pagina e dispone di un elenco preimpostato di azioni che puoi utilizzare per apportare modifiche. [Ulteriori informazioni](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * È facile e veloce da configurare.
 * È incentrato sul ruolo di marketer.
 
 **Esperienza basata su codice**
-* Modifica il contenuto utilizzando l’[editor di espressioni](create-code-based.md#edit-code).
+* Modifica il contenuto utilizzando [editor di personalizzazione](create-code-based.md#edit-code).
 * Prima di creare esperienze basate su codice, è necessario intervenire a livello di sviluppo sulla propria implementazione affinché le superfici possano interpretare e consegnare i contenuti pubblicati nell’ambiente Edge da [!DNL Journey Optimizer] per queste superfici. [Ulteriori informazioni](#surface-definition)
 * Richiede una maggiore pianificazione ed è possibile modificare solo gli elementi specificati dagli sviluppatori. Pertanto, è essenziale identificare i componenti (banner Home, immagine hero, barra dei menu, ecc.) sulle superfici che devono essere modificati per la personalizzazione o il testing e collaborare con il team di sviluppo per creare l’implementazione necessaria per gestire queste modifiche.
 * Consente di utilizzare contenuti creati con codice JSON.
@@ -113,7 +113,7 @@ I passaggi chiave per implementare una campagna basata su codice sono i seguenti
 
 1. Definisci una [superficie](#surface-definition), che, in sostanza, è la posizione in cui desideri aggiungere l’esperienza basata su codice e crea una campagna in [!DNL Journey Optimizer] utilizzando tale superficie. [Scopri come](create-code-based.md#create-code-based-campaign)
 
-1. Comporre un’esperienza specificando il contenuto per la superficie selezionata utilizzando l’Editor espressioni di [!DNL Journey Optimizer]. [Scopri come](create-code-based.md#edit-code)
+1. Componi un’esperienza specificando il contenuto per la superficie selezionata utilizzando [!DNL Journey Optimizer] editor di personalizzazione. [Scopri come](create-code-based.md#edit-code)
 
 1. Il team di implementazione dell’app effettua chiamate API o SDK esplicite per recuperare il contenuto delle superfici denominate, ad esempio “Testo banner” o “Area 1 Consigli”, o punti decisionali non correlati all’interfaccia utente in un’applicazione, ad esempio “Parametri dell’algoritmo di ricerca”. In questo caso, il team di implementazione è responsabile del rendering o dell’interpretazione e dell’azione sul contenuto restituito.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 

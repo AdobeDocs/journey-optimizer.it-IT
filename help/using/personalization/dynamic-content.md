@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 20%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 Adobe Journey Optimizer consente di sfruttare le regole condizionali create nella libreria per aggiungere contenuto dinamico ai messaggi.
 
-Il contenuto dinamico può essere creato in qualsiasi campo in cui è possibile aggiungere la personalizzazione utilizzando l’editor di espressioni. Ciò include l’oggetto, i collegamenti, il contenuto delle notifiche push o le rappresentazioni delle offerte di tipo testo. [Ulteriori informazioni sui contesti di personalizzazione](personalization-contexts.md)
+Il contenuto dinamico può essere creato in qualsiasi campo in cui puoi aggiungere la personalizzazione utilizzando l’editor di personalizzazione. Ciò include l’oggetto, i collegamenti, il contenuto delle notifiche push o le rappresentazioni delle offerte di tipo testo. [Ulteriori informazioni sui contesti di personalizzazione](personalization-contexts.md)
 
 Inoltre, è possibile utilizzare le regole condizionali in E-mail Designer per creare più varianti di un componente di contenuto.
 
@@ -28,7 +28,7 @@ Inoltre, è possibile utilizzare le regole condizionali in E-mail Designer per c
 
 I passaggi per aggiungere contenuto dinamico nelle espressioni sono i seguenti:
 
-1. Passa al campo in cui desideri aggiungere contenuto dinamico, quindi apri l’editor di espressioni.
+1. Passa al campo in cui desideri aggiungere contenuto dinamico, quindi apri l’editor di personalizzazione.
 
 1. Seleziona la **[!UICONTROL Condizioni]** per visualizzare l’elenco delle regole condizionali disponibili. Fai clic sul pulsante + accanto a una regola per aggiungerla all’espressione corrente.
 
@@ -51,7 +51,7 @@ I passaggi per aggiungere contenuto dinamico nelle espressioni sono i seguenti:
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
 >title="Contenuto condizionale"
->abstract="Utilizza le regole condizionali per creare più varianti di un componente di contenuto. Se non viene soddisfatta alcuna condizione durante l’invio del messaggio, verrà visualizzato il contenuto della variante predefinita."
+>abstract="Utilizza le regole condizionali per creare più varianti di un componente contenuto. Se nessuna delle condizioni è soddisfatta durante l’invio del messaggio, verrà visualizzato il contenuto della variante predefinita."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
@@ -64,7 +64,7 @@ Per creare varianti di un componente di contenuto in E-mail Designer, segui ques
 
    ![](assets/conditions-enable-conditional.png)
 
-1. Il **[!UICONTROL Contenuto condizionale]** a sinistra. In questo riquadro, puoi utilizzare le condizioni per creare più varianti del componente di contenuto selezionato.
+1. Il **[!UICONTROL Contenuto condizionale]** a sinistra. In questo riquadro, puoi creare più varianti del componente di contenuto selezionato utilizzando le condizioni.
 
    Configura la prima variante selezionando la **[!UICONTROL Seleziona condizione]** pulsante.
 
@@ -80,7 +80,7 @@ Per creare varianti di un componente di contenuto in E-mail Designer, segui ques
 
    ![](assets/conditions-rename.png)
 
-1. Configura il modo in cui il componente verrà visualizzato se la regola viene soddisfatta al momento dell’invio del messaggio. In questo esempio, se la lingua preferita del destinatario è il francese, il testo dovrà essere in francese.
+1. Configura la modalità di visualizzazione del componente se la regola viene soddisfatta durante l’invio del messaggio. In questo esempio, vogliamo visualizzare il testo in francese se è la lingua preferita del destinatario.
 
    ![](assets/conditions-design.png)
 

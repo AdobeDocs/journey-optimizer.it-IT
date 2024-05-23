@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare frammenti di espressione
-description: Scopri come utilizzare i frammenti di espressione in [!DNL Journey Optimizer] Editor espressioni.
+description: Scopri come utilizzare i frammenti di espressione in [!DNL Journey Optimizer] editor di personalizzazione.
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Sfrutta i frammenti di espressione {#use-expression-fragments}
+# Sfruttare i frammenti di espressione {#use-expression-fragments}
 
-Quando si utilizza **Editor espressioni**, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
+Quando si utilizza **editor di personalizzazione**, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
 
 Scopri come creare e gestire i frammenti in [questa sezione](../content-management/fragments.md).
 
@@ -28,7 +28,7 @@ Scopri come creare e gestire i frammenti in [questa sezione](../content-manageme
 
 Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
-1. Apri [Editor espressioni](personalization-build-expressions.md) e seleziona la **[!UICONTROL Frammenti]** nel riquadro sinistro.
+1. Apri [editor di personalizzazione](personalization-build-expressions.md) e seleziona la **[!UICONTROL Frammenti]** nel riquadro sinistro.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
    ![](assets/expression-fragment-open.png)
 
-1. Puoi quindi personalizzare e convalidare i contenuti come di consueto utilizzando tutte le funzionalità di personalizzazione e authoring del [Editor espressioni](personalization-build-expressions.md).
+1. Puoi quindi personalizzare e convalidare i contenuti come di consueto utilizzando tutte le funzionalità di personalizzazione e authoring del [editor di personalizzazione](personalization-build-expressions.md).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
 ## Interrompi ereditarietà {#break-inheritance}
 
-Quando si aggiunge un ID frammento all’editor espressioni, le modifiche apportate al frammento di espressione originale vengono sincronizzate.
+Quando si aggiunge un ID frammento all’editor di personalizzazione, le modifiche apportate al frammento di espressione originale vengono sincronizzate.
 
 Tuttavia, puoi anche incollare il contenuto di un frammento di espressione nell’editor. Dal menu contestuale, seleziona **[!UICONTROL Incolla frammento]** per inserire tale contenuto.
 

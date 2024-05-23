@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 8%
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Rappresentazioni"
->abstract="Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi."
+>abstract="Aggiungi le rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Maggiore è il numero di rappresentazioni di un’offerta, maggiori sono le opportunità di utilizzarla in contesti di posizionamento diversi."
 
-Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML e così via. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi.
+Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come blocco di HTML e così via. Maggiore è il numero di rappresentazioni di un’offerta, maggiori sono le opportunità di utilizzarla in contesti di posizionamento diversi.
 
 ## Configurare le rappresentazioni dell’offerta {#representations}
 
@@ -72,7 +72,7 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 >[!NOTE]
 >
-> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, è necessario implementare [!DNL Assets Essentials] per la tua organizzazione e assicurati che gli utenti facciano parte **Assets Essentials utenti consumer** oppure/e **Utenti Assets Essentials** Profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Scegli la **[!UICONTROL Libreria risorse]** opzione.
 
@@ -100,13 +100,13 @@ Per riutilizzare il contenuto in una rappresentazione, sfogliate la **Libreria r
 
 Per aggiungere contenuto da una posizione pubblica esterna, seleziona **[!UICONTROL URL]**, quindi inserisci l’indirizzo URL del contenuto da aggiungere.
 
-Puoi personalizzare gli URL utilizzando l’editor espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
+Puoi personalizzare gli URL utilizzando l’editor di personalizzazione. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 Ad esempio, desideri personalizzare l’immagine visualizzata come offerta. Vuoi che gli utenti che preferiscono le vacanze in città vedano lo skyline di New York e quelli che preferiscono le vacanze in spiaggia vedano la costa nord delle Hawaii.
 
-Utilizza l’editor espressioni per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Utilizza l’editor di personalizzazione per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ Se si specifica un **[!UICONTROL Collegamento di destinazione]**, puoi anche per
 
    ![](../assets/offer-text-content.png)
 
-   Puoi personalizzare i contenuti utilizzando l’editor di espressioni. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
+   Puoi personalizzare i contenuti utilizzando l’editor di personalizzazione. Ulteriori informazioni su [personalizzazione](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, condizionale, regole
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 Le regole condizionali sono insiemi di regole che definiscono quale contenuto deve essere visualizzato nei messaggi, a seconda di vari criteri come gli attributi dei profili, l’appartenenza a un pubblico o gli eventi contestuali.
 
-Le regole condizionali vengono create utilizzando l’editor di espressioni e possono essere memorizzate se desideri riutilizzarle all’interno del contenuto. [Scopri come salvare una regola condizionale nella libreria](#save)
+Le regole condizionali vengono create utilizzando l’editor di personalizzazione e possono essere memorizzate se desideri riutilizzarle nei contenuti. [Scopri come salvare una regola condizionale nella libreria](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ Le regole condizionali vengono create utilizzando l’editor di espressioni e po
 
 ## Accedere al generatore di regole condizionali {#access}
 
-Le regole condizionali vengono create dal **[!UICONTROL Condizioni]** nell’editor di espressioni, accessibile:
+Le regole condizionali vengono create dal **[!UICONTROL Condizioni]** nell’editor di personalizzazione, accessibile:
 
 * Da E-mail Designer, quando si abilita il contenuto dinamico per un componente nel corpo dell’e-mail. [Scopri come aggiungere contenuto dinamico alle e-mail](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* In qualsiasi campo in cui puoi aggiungere la personalizzazione utilizzando [Editor espressioni](personalization-build-expressions.md).
+* In qualsiasi campo in cui puoi aggiungere la personalizzazione utilizzando [editor di personalizzazione](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -42,17 +42,17 @@ Le regole condizionali vengono create dal **[!UICONTROL Condizioni]** nell’edi
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions_create"
->title="Creare una condizione"
->abstract="Combina gli attributi di profilo, gli eventi contestuali o i segmenti di pubblico per creare regole che definiscano quali contenuti visualizzare nei messaggi."
+>title="Crea condizione"
+>abstract="Combina attributi di profilo, eventi contestuali o tipi di pubblico per creare regole che definiscano quale contenuto visualizzare nei messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_expression_editor_conditions"
->title="Creare una condizione"
->abstract="Combina gli attributi di profilo, gli eventi contestuali o i segmenti di pubblico per creare regole che definiscano quali contenuti visualizzare nei messaggi."
+>title="Crea condizione"
+>abstract="Combina attributi di profilo, eventi contestuali o tipi di pubblico per creare regole che definiscano quale contenuto visualizzare nei messaggi."
 
 I passaggi per creare una regola condizionale sono i seguenti:
 
-1. Accedere a **[!UICONTROL Condizioni]** nell’editor di espressioni o in E-mail Designer, quindi fai clic su **[!UICONTROL Crea nuovo]**.
+1. Accedere a **[!UICONTROL Condizioni]** nell’editor di personalizzazione o in E-mail designer, quindi fai clic su **[!UICONTROL Crea nuovo]**.
 
 1. Crea la regola condizionale in base alle tue esigenze. A questo scopo, trascina e rilascia nell’area di lavoro gli attributi desiderati dal menu a sinistra.
 

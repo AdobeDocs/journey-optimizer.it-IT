@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
@@ -31,18 +31,18 @@ Per ulteriori informazioni su ciascun argomento, consulta le sezioni seguenti:
 
 * [Monitorare le campagne web](monitor-web-campaigns.md)
 
-## Utilizzare web designer {#work-with-web-designer}
+## Utilizzare il web designer {#work-with-web-designer}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Confermare l’URL per la modifica"
->abstract="Conferma l’URL della pagina web specifica da utilizzare per modificare il contenuto che verrà applicato sulla superficie web definita sopra. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
+>title="Conferma l’URL da modificare"
+>abstract="Conferma l’URL della pagina web specifica da utilizzare per la modifica del contenuto che verrà applicato alla superficie web definita sopra. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Immettere l’URL per la modifica"
->abstract="Immetti l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato a tutte le pagine che corrispondono alla regola. La pagina web deve essere implementata utilizzando l’SDK per web di Adobe Experience Platform."
+>title="Inserisci l’URL da modificare"
+>abstract="Inserisci l’URL di una pagina web specifica da utilizzare per modificare il contenuto che verrà applicato a tutte le pagine che corrispondono alla regola. La pagina web deve essere implementata utilizzando Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
 Per iniziare a creare la tua campagna web, segui i passaggi indicati di seguito.
@@ -128,7 +128,7 @@ Per iniziare a creare la tua campagna web, segui i passaggi indicati di seguito.
 
 ## Aggiungere personalizzazione e offerte
 
-Per aggiungere la personalizzazione, seleziona un contenitore e fai clic sull’icona di personalizzazione dalla barra dei menu contestuale visualizzata. Aggiungi le modifiche utilizzando l’editor espressioni. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+Per aggiungere la personalizzazione, seleziona un contenitore e fai clic sull’icona di personalizzazione dalla barra dei menu contestuale visualizzata. Aggiungi le modifiche utilizzando l’editor di personalizzazione. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
@@ -152,12 +152,12 @@ In questa sezione vengono descritti i diversi modi in cui è possibile spostarsi
 
 1. Utilizzando questo elemento è possibile passare facilmente a qualsiasi elemento padre, di pari livello o figlio all’interno dell’editor visivo.
 
-### Passare alla modalità sfoglia {#browse-mode}
+### Passa alla modalità Sfoglia {#browse-mode}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="Utilizzare la modalità Sfoglia"
->abstract="Da questa modalità puoi passare alla pagina esatta dalla superficie selezionata che desideri personalizzare."
+>abstract="Da questa modalità, puoi passare alla pagina esatta dalla superficie selezionata che desideri personalizzare."
 
 È possibile sostituire il valore predefinito **[!UICONTROL Progettazione]** alla modalità **[!UICONTROL Sfoglia]** mediante il pulsante dedicato.
 
@@ -177,7 +177,7 @@ Utilizzo di **[!UICONTROL Sfoglia]** La modalità consente inoltre di navigare t
 
 ![](assets/web-designer-device.png)
 
-La possibilità di modificare le dimensioni del dispositivo è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, compresi desktop, laptop, tablet o telefoni cellulari.
+La possibilità di modificare le dimensioni del dispositivo è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, inclusi desktop, laptop, tablet o telefoni cellulari.
 
 >[!CAUTION]
 >

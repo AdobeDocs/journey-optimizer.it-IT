@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 13%
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definisci il tuo frammento"
->abstract="Crea e gestisci frammenti autonomi per rendere il contenuto riutilizzabile in più percorsi e campagne."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html?lang=it#create-fragments" text="Crea frammenti"
+>title="Definire i propri frammenti"
+>abstract="Crea e gestisci frammenti autonomi per consentire il riutilizzo dei contenuti in più percorsi e campagne."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Creare frammenti"
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi.
 
@@ -39,7 +39,7 @@ Per utilizzare al meglio i frammenti:
 
 >[!NOTE]
 >
->**Frammenti visivi** può essere utilizzato in [E-mail Designer](../email/get-started-email-design.md), considerando che **frammenti di espressione** sono accessibili tramite [Editor espressioni](../personalization/personalization-build-expressions.md).
+>**Frammenti visivi** può essere utilizzato in [E-mail Designer](../email/get-started-email-design.md), considerando che **frammenti di espressione** sono accessibili tramite [editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
 Inoltre, puoi sfruttare Journey Optimizer **API REST per contenuti** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta [Documentazione delle API di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -134,7 +134,7 @@ Per annullare l’archiviazione di un frammento, applica il filtro **[!UICONTROL
 
 ![](assets/fragment-list-unarchive.png)
 
-## Crea frammenti {#create-fragments}
+## Creare frammenti {#create-fragments}
 
 Esistono due modi per creare i frammenti:
 
@@ -168,9 +168,9 @@ Per creare un frammento da zero, segui la procedura riportata di seguito.
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Seleziona il tipo visivo"
->abstract="Crea un frammento visivo autonomo per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=it" text="Aggiungi frammenti visivi alle e-mail"
+>title="Seleziona il tipo di elemento visivo"
+>abstract="Crea un frammento visivo indipendente per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Aggiungi frammenti visivi alle e-mail"
 
 1. [Creare un frammento](#create-from-scratch) dal **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra e selezionare **[!UICONTROL Frammento visivo]** tipo.
 
@@ -199,8 +199,8 @@ Questo frammento è ora pronto per essere utilizzato durante la creazione di qua
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Seleziona il tipo di espressione"
->abstract="Crea da zero un frammento di espressione autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne. Quando utilizzi l’editor di espressioni, puoi sfruttare tutti i frammenti di espressione che sono stati creati nella sandbox corrente."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=it" text="Sfrutta i frammenti di espressione"
+>abstract="Crea un frammento di espressione autonomo per rendere il contenuto riutilizzabile in più percorsi e campagne. Quando utilizzi l’editor di personalizzazione, puoi sfruttare tutti i frammenti di espressione creati nella sandbox corrente."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Sfruttare i frammenti di espressione"
 
 1. [Creare un frammento](#create-from-scratch) dal **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra e selezionare **[!UICONTROL Frammento di espressione]** tipo.
 
@@ -210,9 +210,9 @@ Questo frammento è ora pronto per essere utilizzato durante la creazione di qua
 
    <!--Expression fragments can be used in any channel.-->
 
-1. Fai clic su **[!UICONTROL Crea]**. Viene aperto l’editor espressioni.
+1. Clic **[!UICONTROL Crea]**. Viene aperto l’editor di personalizzazione.
 
-1. Puoi sfruttare [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+1. Puoi sfruttare [!DNL Journey Optimizer] l’editor di personalizzazione con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ Questo frammento è ora pronto per essere utilizzato durante la creazione di qua
 
 1. Se necessario, fai clic sulla freccia accanto al nome del frammento per tornare al **[!UICONTROL Dettagli]** e modificarlo.
 
-Questo frammento è ora pronto per essere utilizzato quando crei qualsiasi contenuto all’interno del [!DNL Journey Optimizer] Editor espressioni. [Scopri come](../personalization/use-expression-fragments.md)
+Questo frammento è ora pronto per essere utilizzato quando crei qualsiasi contenuto all’interno del [!DNL Journey Optimizer] editor di personalizzazione. [Scopri come](../personalization/use-expression-fragments.md)
 
 ## Salva come frammento {#save-as-fragment}
 
@@ -244,7 +244,7 @@ Durante la progettazione di un [modello di contenuto](content-templates.md) o un
 
    ![](assets/fragment-save-as-screen.png)
 
-1. Fai clic su **[!UICONTROL Crea]**. Inserisci i dettagli del frammento, ovvero nome e descrizione (se necessario).
+1. Clic **[!UICONTROL Crea]**. Inserisci i dettagli del frammento, ovvero nome e descrizione (se necessario).
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
@@ -265,13 +265,13 @@ Ora puoi utilizzare questo frammento durante la creazione di qualsiasi [email](.
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Salva come frammento di espressione"
->abstract="L’[!DNL Journey Optimizer]editor di espressioni ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per generare contenuti personalizzati."
+>abstract="Il [!DNL Journey Optimizer] l’editor di personalizzazione consente di salvare il contenuto come frammento di espressione. Queste espressioni sono quindi disponibili per creare contenuti personalizzati."
 
-L’[!DNL Journey Optimizer]editor di espressioni ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per generare contenuti personalizzati.
+Il [!DNL Journey Optimizer] l’editor di personalizzazione consente di salvare il contenuto come frammento di espressione. Queste espressioni sono quindi disponibili per creare contenuti personalizzati.
 
 Per salvare il contenuto come frammento di espressione, effettua le seguenti operazioni.
 
-1. In [Editor espressioni](../personalization/personalization-build-expressions.md) , genera un&#39;espressione, quindi fai clic su **[!UICONTROL Salva come frammento]**.
+1. In [editor di personalizzazione](../personalization/personalization-build-expressions.md) , genera un&#39;espressione, quindi fai clic su **[!UICONTROL Salva come frammento]**.
 
 1. Nel riquadro di destra, immettere un nome e una descrizione per l&#39;espressione in modo che gli utenti possano trovarla più facilmente.
 

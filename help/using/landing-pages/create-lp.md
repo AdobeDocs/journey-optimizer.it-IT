@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 2%
@@ -158,7 +158,7 @@ Per definire le impostazioni della pagina principale, effettua le seguenti opera
 
    ![](assets/lp_expiry-date.png)
 
-1. In **[!UICONTROL Dati aggiuntivi]** , definisci una o più chiavi e i corrispondenti valori dei parametri. Potrai sfruttare queste chiavi nel contenuto della pagina principale e delle pagine secondarie utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Ulteriori informazioni in [questa sezione](lp-content.md#use-form-component#use-additional-data).
+1. In **[!UICONTROL Dati aggiuntivi]** , definisci una o più chiavi e i corrispondenti valori dei parametri. Potrai sfruttare queste chiavi nel contenuto della pagina principale e delle pagine secondarie utilizzando [editor di personalizzazione](../personalization/personalization-build-expressions.md). Ulteriori informazioni in [questa sezione](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 

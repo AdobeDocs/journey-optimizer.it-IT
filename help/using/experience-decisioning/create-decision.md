@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Disponibilità limitata"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1481'
-ht-degree: 18%
+ht-degree: 2%
 
 ---
 
@@ -19,32 +19,32 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="Che cos’è una decisione?"
->abstract="I criteri di decisione contengono tutta la logica di selezione affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici della campagna. Il loro obiettivo è selezionare le migliori offerte per ciascun profilo mentre la creazione della campagna consente di indicare come devono essere presentati gli elementi decisionali selezionati, inclusi gli attributi degli elementi da includere nel messaggio."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informazioni su Offer Decisioning"
+>abstract="I criteri di decisione contengono tutta la logica di selezione necessaria affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici per la campagna. Il loro obiettivo è selezionare le offerte migliori per ciascun profilo, mentre la creazione della campagna ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Informazioni su Experience Decisioning"
 
 I criteri di decisione sono contenitori per le offerte che sfruttano il motore di experience decisioning per scegliere il contenuto migliore da distribuire, a seconda del pubblico.
 
-I criteri di decisione contengono tutta la logica di selezione affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici della campagna. Il loro obiettivo è selezionare le migliori offerte per ciascun profilo mentre la creazione della campagna consente di indicare come devono essere presentati gli elementi decisionali selezionati, inclusi gli attributi degli elementi da includere nel messaggio.
+I criteri di decisione contengono tutta la logica di selezione necessaria affinché il motore decisionale possa scegliere il contenuto migliore. I criteri di decisione sono specifici per la campagna. Il loro obiettivo è selezionare le offerte migliori per ciascun profilo, mentre la creazione della campagna ti consente di indicare in che modo devono essere presentati gli elementi decisionali selezionati, compresi gli attributi degli elementi da includere nel messaggio.
 
 >[!NOTE]
 >
 >In [!DNL Journey Optimizer] interfaccia utente, i criteri di decisione sono etichettati come decisioni<!--but they are decision policies. TBC if this note is needed-->.
 
-## Aggiungere un criterio di decisione a una campagna basata sul codice {#add-decision}
+## Aggiungere un criterio di decisione a una campagna basata su codice {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
->title="Definire il numero di elementi da restituire"
+>title="Definisci il numero di articoli da restituire"
 >abstract="Seleziona il numero di elementi decisionali che desideri restituire. Ad esempio, se selezioni 2, verranno presentate le 2 offerte idonee migliori per la superficie corrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
->title="Selezionare un fallback"
->abstract="L’utente visualizza un elemento di fallback quando nessuna delle strategie di selezione definite per tale criterio decisionale è qualificata."
+>title="Seleziona un fallback"
+>abstract="Un elemento di fallback viene visualizzato all’utente quando nessuna delle strategie di selezione definite per quel criterio decisionale è qualificata."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_strategy"
->title="Che cos’è una strategia?"
+>title="Che cos&#39;è una strategia?"
 >abstract="La sequenza della strategia di selezione determina quale strategia verrà valutata per prima. È necessaria almeno una strategia. Gli elementi decisionali nelle strategie combinate saranno valutati insieme."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creare strategie"
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Ordine di valutazione"
@@ -159,11 +159,11 @@ Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, 
 
 ## Utilizzare il criterio di decisione nell’editor di codice {#use-decision-policy}
 
-Una volta creato, il criterio di decisione può essere utilizzato nel [Editor espressioni](../code-based/create-code-based.md#edit-code). A questo scopo, segui i passaggi riportati qui sotto.
+Una volta creato, il criterio di decisione può essere utilizzato nel [editor di personalizzazione](../code-based/create-code-based.md#edit-code). A questo scopo, segui i passaggi riportati qui sotto.
 
 >[!NOTE]
 >
->L&#39;esperienza basata su codice sfrutta [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+>L&#39;esperienza basata su codice sfrutta [!DNL Journey Optimizer] l’editor di personalizzazione con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 1. Fai clic su **[!UICONTROL Inserisci criterio]** pulsante. Viene aggiunto il codice corrispondente al criterio di decisione.
 
@@ -186,11 +186,11 @@ Una volta creato, il criterio di decisione può essere utilizzato nel [Editor es
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor espressioni, ad esempio gli attributi del profilo.
+1. Puoi anche aggiungere qualsiasi altro attributo disponibile nell’editor di personalizzazione, ad esempio gli attributi del profilo.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## Generazione di rapporti nel Customer Journey Analytics {#cja}
+## Generazione di rapporti in Customer Journey Analytics {#cja}
 
 Se utilizzi Customer Journey Analytics, puoi creare dashboard di reporting personalizzati per le campagne basate su codice, utilizzando Experience Decisioning.
 

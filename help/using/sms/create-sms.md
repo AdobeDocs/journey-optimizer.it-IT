@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 10%
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Creare un messaggio SMS"
->abstract="Per creare un messaggio di testo (SMS/MMS), aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’Editor di espressioni."
+>abstract="Per creare un messaggio di testo (SMS/MMS), aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’editor di personalizzazione."
 
 È possibile progettare e inviare messaggi di testo (SMS) e multimediali (MMS) con Adobe Journey Optimizer. Devi innanzitutto aggiungere un’azione SMS in un percorso o in una campagna e quindi definire il contenuto del messaggio di testo, come descritto di seguito. Adobe Journey Optimizer offre inoltre funzionalità per testare i messaggi di testo prima dell’invio, in modo da poter controllare il rendering, gli attributi di personalizzazione e tutte le altre impostazioni.
 
@@ -78,7 +78,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 1. Dalla sezione **[!UICONTROL Trigger azione]** scegliere il menu **[!UICONTROL Frequenza]** del messaggio SMS:
 
    * Una volta
-   * Giornaliero
+   * Giornaliera
    * Settimanale
    * Mese
 
@@ -91,17 +91,17 @@ Ora puoi iniziare a progettare il contenuto del messaggio di testo dalla sezione
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definire il contenuto degli SMS"
->abstract="Personalizza i messaggi di testo (SMS/MMS) utilizzando l’Editor di espressioni per definire il contenuto e incorporare elementi dinamici."
+>abstract="Personalizza e personalizza i messaggi di testo (SMS/MMS) utilizzando l’editor di personalizzazione per definire il contenuto e incorporare elementi dinamici."
 
 Per configurare il contenuto SMS, segui i passaggi indicati di seguito. Le impostazioni per MMS sono descritte in dettaglio in [questa sezione](#mms-content).
 
 1. Dalla schermata di configurazione del percorso o della campagna, fai clic su **[!UICONTROL Modifica contenuto]** per configurare il contenuto del messaggio di testo.
 
-1. Fai clic su **[!UICONTROL Messaggio]** per aprire l’editor di espressioni.
+1. Fai clic su **[!UICONTROL Messaggio]** per aprire l’editor di personalizzazione.
 
    ![](assets/sms-content.png)
 
-1. Utilizza l’editor espressioni per definire i contenuti, aggiungere personalizzazioni e contenuti dinamici. Puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo o la città. È inoltre possibile definire regole condizionali. Per ulteriori informazioni, consulta le pagine seguenti [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di espressioni.
+1. Utilizza l’editor di personalizzazione per definire i contenuti, aggiungere personalizzazioni e contenuti dinamici. Puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo o la città. È inoltre possibile definire regole condizionali. Per ulteriori informazioni, consulta le pagine seguenti [personalizzazione](../personalization/personalize.md) e [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell’editor di personalizzazione.
 
 1. Dopo aver definito il contenuto, puoi aggiungere URL tracciati al messaggio. A questo scopo, accedi a **[!UICONTROL Funzioni di supporto]** menu e seleziona **[!UICONTROL Helper]**.
 

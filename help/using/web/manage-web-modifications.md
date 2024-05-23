@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 14%
+ht-degree: 0%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
->title="Gestire con facilità tutte le modifiche"
->abstract="Utilizzando questo riquadro, puoi esplorare e gestire tutte le modifiche e gli stili aggiunti alla pagina web."
+>title="Gestione semplificata di tutte le modifiche"
+>abstract="Utilizzando questo riquadro, puoi navigare e gestire tutte le regolazioni e gli stili aggiunti alla pagina web."
 
 Puoi gestire facilmente tutti i componenti, le regolazioni e gli stili aggiunti alla pagina web. Puoi anche aggiungere modifiche direttamente dal riquadro dedicato.
 
@@ -97,8 +97,8 @@ Per aggiungere una **Selettore CSS** modifica del tipo, segui la procedura ripor
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_head"
->title="Aggiungere codice personalizzato"
->abstract="L’elemento HEAD è un contenitore per metadati e si trova tra il tag HTML e il tag BODY. Aggiungi solo elementi SCRIPT e STYLE. Se si aggiungono tag DIV e altri elementi, gli elementi HEAD rimanenti potrebbero comparire all’interno del contenuto BODY."
+>title="Aggiungi codice personalizzato"
+>abstract="L’elemento HEAD è un contenitore per metadati e si trova tra il tag HTML e il tag BODY. Aggiungere solo elementi SCRIPT e STYLE. L’aggiunta di tag DIV e di altri elementi potrebbe causare la comparsa di altri elementi HEAD nel BODY."
 
 Puoi aggiungere codice personalizzato utilizzando **[!UICONTROL Pagina`<head>`]** tipo di modifica.
 
@@ -118,11 +118,11 @@ Per aggiungere una **Pagina`<head>`** modifica del tipo, segui la procedura ripo
    >
    >Puoi aggiungere solo `<script>` e `<style>` elementi al `<head>` sezione. Aggiunta `<div>` tag e altri elementi potrebbero causare la `<head>` elementi da inserire nel `<body>`.
 
-1. Fai clic su **[!UICONTROL Opzioni di modifica avanzate]** pulsante. Viene aperto l’editor espressioni.
+1. Fai clic su **[!UICONTROL Opzioni di modifica avanzate]** pulsante. Viene aperto l’editor di personalizzazione.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   Puoi sfruttare [!DNL Journey Optimizer] Editor espressioni con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+   Puoi sfruttare [!DNL Journey Optimizer] l’editor di personalizzazione con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 #### Esempi di codice personalizzato {#custom-code-examples}
 
@@ -163,7 +163,7 @@ Ad esempio:
 
 Nel caso in cui siano necessarie modifiche, apporta modifiche all’interno del contenitore.
 
-Se non è più necessario il codice personalizzato, è sufficiente lasciare vuoto questo contenitore, ma non rimuoverlo. In questo modo, non influisce sulle altre modifiche dell’esperienza.
+Se non hai più bisogno del codice personalizzato, lascia vuoto questo contenitore, ma non rimuoverlo. In questo modo, non influisce sulle altre modifiche dell’esperienza.
 
 +++
 

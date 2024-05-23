@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 12%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creazione di e-mail"
->abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
+>abstract="Definisci l’oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
 
 
 ## Aggiungi un&#39;azione e-mail {#email-action}
@@ -72,14 +72,14 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
 >[!ENDTABS]
 
-## Importare il contenuto dell’e-mail {#define-email-content}
+## Definire il contenuto dell’e-mail {#define-email-content}
 
 <!-- update the quarry component with right ID value-->
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configurare il contenuto dell’e-mail"
->abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi usa E-mail Designer per creare e personalizzare il corpo dell’e-mail."
+>title="Configurare il contenuto delle e-mail"
+>abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi utilizza E-mail Designer per creare e personalizzare il corpo dell’e-mail."
 
 1. Dalla schermata di configurazione del percorso o della campagna, fai clic su **[!UICONTROL Modifica contenuto]** per configurare il contenuto dell’e-mail. [Ulteriori informazioni](get-started-email-design.md)
 
@@ -89,7 +89,7 @@ Per ulteriori informazioni su come configurare una campagna, consulta [questa pa
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Aggiungi un oggetto per il messaggio. Per configurare e personalizzare l’oggetto con l’editor di espressioni, fai clic su **[!UICONTROL Apri finestra di dialogo per personalizzazione]** icona. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+1. Aggiungi un oggetto per il messaggio. Per configurare e personalizzare l’oggetto con l’editor di personalizzazione, fai clic su **[!UICONTROL Apri finestra di dialogo per personalizzazione]** icona. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
 1. Fai clic su **[!UICONTROL Modifica corpo dell’e-mail]** per accedere a E-mail Designer e iniziare a creare il contenuto. [Ulteriori informazioni](get-started-email-design.md)
 
@@ -147,7 +147,7 @@ Possono verificarsi due tipi di avvisi:
 
 ## Controllare e inviare l’e-mail
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
 
 A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test per controllare il messaggio utilizzando i dati del profilo di test.
 
@@ -169,7 +169,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 
-Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] personalization editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 

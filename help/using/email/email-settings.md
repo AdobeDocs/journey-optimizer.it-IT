@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 11%
+ht-degree: 1%
 
 ---
 
@@ -42,8 +42,8 @@ La configurazione della superficie e-mail viene selezionata per l’invio di com
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Definire il contenuto dell’e-mail"
->abstract="Seleziona il tipo di e-mail da inviare quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, oppure Transazionale per e-mail non commerciali, che possono essere inviate anche a profili non iscritti in contesti specifici."
+>title="Definisci il tipo di e-mail"
+>abstract="Seleziona il tipo di e-mail che verranno inviate quando utilizzi questa superficie: Marketing per e-mail promozionali, che richiedono il consenso dell’utente, o Transazionale per e-mail non commerciali, che può essere inviato anche a profili non abbonati in contesti specifici."
 
 In **Tipo di e-mail** nella sezione, selezionare il tipo di messaggio per la superficie: **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**.
 
@@ -200,7 +200,7 @@ Se ricevi un errore durante l’invio della superficie e-mail, significa che il 
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_suppressed_addresses"
->title="Sostituire la precedenza dell’elenco di soppressione"
+>title="Sovrascrivi precedenza elenco di soppressione"
 >abstract="Puoi decidere di inviare messaggi transazionali ai profili anche se i loro indirizzi e-mail sono presenti nell’elenco di soppressione di Adobe Journey Optimizer a causa di un reclamo spam. Questa opzione è disabilitata per impostazione predefinita."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=it" text="Gestire l’elenco di soppressione"
 
@@ -230,9 +230,9 @@ Una volta abilitata questa opzione, anche se un cliente ha contrassegnato l’e-
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
->title="Aggiungere un elenco seed"
->abstract="Seleziona l’elenco seed desiderato per aggiungere automaticamente indirizzi interni specifici ai tipi di pubblico. Questi indirizzi seed verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio a scopo di garanzia."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#use-seed-list" text="Cosa sono gli elenchi seed?"
+>title="Aggiungere un elenco di seed"
+>abstract="Seleziona l’elenco di seed desiderato per aggiungere automaticamente indirizzi interni specifici ai tipi di pubblico. Questi indirizzi seed verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio a scopo di garanzia."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Cosa sono gli elenchi di seed?"
 
 Un elenco seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi e-mail seed specifici nelle consegne. [Ulteriori informazioni](../configuration/seed-lists.md)
 
@@ -252,13 +252,13 @@ Quando la superficie corrente viene utilizzata in una campagna o in un percorso,
 
 Scopri come utilizzare l’elenco di seed in una campagna o in un percorso di [questa sezione](../configuration/seed-lists.md#use-seed-list).
 
-## Parametri di ripetizione delle e-mail {#email-retry}
+## Parametri per nuovi tentativi e-mail {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Regolare il periodo di tempo per i tentativi"
->abstract="Quando la consegna di un’e-mail ha esito negativo a causa di un errore temporaneo di mancato recapito dei messaggi, vengono eseguiti nuovi tentativi per 3,5 giorni (84 ore). Puoi regolare questo periodo di tempo predefinito per i tentativi in base alle tue esigenze."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html?lang=it" text="Informazioni sui tentativi"
+>title="Regola il periodo di tempo di un nuovo tentativo"
+>abstract="I tentativi vengono eseguiti per 3,5 giorni (84 ore) quando una consegna e-mail non riesce a causa di un errore di mancato recapito non permanente temporaneo. È possibile regolare questo periodo di tempo predefinito per i nuovi tentativi in base alle proprie esigenze."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Informazioni sui nuovi tentativi"
 
 È possibile configurare **Parametri per nuovi tentativi e-mail**.
 
@@ -278,13 +278,13 @@ Ulteriori informazioni sui nuovi tentativi in [questa sezione](../configuration/
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Definire i parametri di tracciamento degli URL"
->abstract="Usa questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL presenti nel contenuto dell’e-mail. Questa funzione è facoltativa."
+>title="Definire i parametri di tracciamento URL"
+>abstract="Utilizza questa sezione per aggiungere automaticamente i parametri di tracciamento agli URL presenti nel contenuto dell’e-mail. Questa funzione è facoltativa."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_url_preview"
->title="Anteprima dei parametri di tracciamento degli URL"
->abstract="Verifica il modo in cui i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
+>title="Anteprima parametri di tracciamento URL"
+>abstract="Esamina come i parametri di tracciamento verranno aggiunti agli URL presenti nel contenuto dell’e-mail."
 
 È possibile utilizzare **[!UICONTROL Parametri di tracciamento URL]** per misurare l’efficacia delle tue attività di marketing su tutti i canali. Questa funzione è facoltativa.
 
@@ -296,11 +296,11 @@ Puoi aggiungere fino a 10 parametri di tracciamento utilizzando **[!UICONTROL Ag
 
 Per configurare un parametro di tracciamento URL, puoi immettere direttamente i valori desiderati nel **[!UICONTROL Nome]** e **[!UICONTROL Valore]** campi.
 
-Puoi anche modificarli **[!UICONTROL Valore]** campo utilizzando [Editor espressioni](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui, puoi selezionare gli attributi contestuali disponibili e/o modificare direttamente il testo.
+Puoi anche modificarli **[!UICONTROL Valore]** campo utilizzando [editor di personalizzazione](../personalization/personalization-build-expressions.md). Fai clic sull’icona dell’edizione per aprire l’editor. Da qui, puoi selezionare gli attributi contestuali disponibili e/o modificare direttamente il testo.
 
 ![](assets/preset-url-tracking-editor.png)
 
-I seguenti valori predefiniti sono disponibili tramite l’editor espressioni:
+I seguenti valori predefiniti sono disponibili tramite l’editor di personalizzazione:
 
 * **ID azione sorgente**: ID dell’azione E-mail aggiunta al percorso o alla campagna.
 
@@ -316,7 +316,7 @@ I seguenti valori predefiniti sono disponibili tramite l’editor espressioni:
 
 >[!NOTE]
 >
->È possibile combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’editor espressioni. Ogni **[!UICONTROL Valore]** può contenere un numero di caratteri fino al limite di 5 KB.
+>Puoi combinare la digitazione di valori di testo e l’utilizzo di attributi contestuali dall’editor di personalizzazione. Ogni **[!UICONTROL Valore]** può contenere un numero di caratteri fino al limite di 5 KB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -27,23 +27,23 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail
 >
 >Questa funzionalità è attualmente disponibile come versione beta solo per alcuni utenti. <!--To join the beta program, contact Adobe Customer Care.-->
 
-## Aggiungi i sottodomini dinamici. {#dynamic-subdomains}
+## Aggiungere sottodomini dinamici {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalizzazione non disponibile"
->abstract="Questa superficie è stata creata senza alcun attributo di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
+>abstract="Questa superficie è stata creata senza attributi di personalizzazione. Consulta la documentazione per i passaggi da seguire per risolvere eventuali esigenze di personalizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Abilita i sottodomini dinamici"
->abstract="Quando crei una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’editor di espressioni. Puoi aggiungere fino a 50 sottodomini dinamici."
+>title="Abilitare i sottodomini dinamici"
+>abstract="Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Alcuni sottodomini potrebbero non essere disponibili"
->abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completato, puoi scegliere tra tutti i sottodomini disponibili."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
+>abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completati, puoi scegliere tra tutti i sottodomini disponibili."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
 
 Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base a condizioni specifiche.
 
@@ -65,7 +65,7 @@ Per definire i sottodomini dinamici in una superficie di canale e-mail, segui i 
 
 1. Seleziona l’icona Modifica accanto alla prima **[!UICONTROL Condizione]** campo.
 
-1. Il [Editor espressioni](../personalization/personalization-build-expressions.md) viene aperto. In questo esempio, imposta una condizione come `Country` è uguale a `US`.
+1. Il [editor di personalizzazione](../personalization/personalization-build-expressions.md) viene aperto. In questo esempio, imposta una condizione come `Country` è uguale a `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -118,7 +118,7 @@ Per utilizzare variabili personalizzate per i parametri di intestazione di super
 
    ![](assets/surface-email-personalize-header.png)
 
-1. Il [Editor espressioni](../personalization/personalization-build-expressions.md) viene aperto. Definisci la condizione come desiderato e salva le modifiche.
+1. Il [editor di personalizzazione](../personalization/personalization-build-expressions.md) viene aperto. Definisci la condizione come desiderato e salva le modifiche.
 
    Ad esempio, imposta una condizione per cui ogni destinatario riceve un’e-mail dal proprio rappresentante del marchio.
 
@@ -137,7 +137,7 @@ Per utilizzare variabili personalizzate per i parametri di intestazione di super
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 

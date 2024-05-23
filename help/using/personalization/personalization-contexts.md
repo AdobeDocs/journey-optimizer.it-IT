@@ -9,18 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, contesto, personalizzazione
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 15%
+ht-degree: 14%
 
 ---
 
 # Contesti di personalizzazione{#personalization-areas}
 
-Il contenuto e la visualizzazione dei messaggi consegnati da [!DNL Journey Optimizer] può essere personalizzato in diversi modi.
-
-In ogni campo con l’icona dell’editor, puoi aprire l’editor di personalizzazione (noto anche come editor di espressioni) e definire la personalizzazione.
+Il contenuto e la visualizzazione dei messaggi consegnati da [!DNL Journey Optimizer] può essere personalizzato in diversi modi. In ogni campo con l’icona dell’editor, puoi aprire l’editor di personalizzazione (noto anche come editor di personalizzazione) e definire la personalizzazione.
 
 ![](assets/perso_icon.png)
 
