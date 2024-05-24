@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 68%
+source-wordcount: '1262'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Regole aziendali"
->abstract="Utilizza le regole business per controllare la frequenza con cui gli utenti riceveranno un messaggio o entreranno in un percorso impostando regole cross-channel che escluderanno automaticamente i profili sollecitati eccessivamente da messaggi e azioni."
+>abstract="Le regole di frequenza dei messaggi sono un tipo di regola business che limita il numero di volte in cui gli utenti ricevono messaggi o immettono in percorsi su uno o più canali. Queste regole cross-channel escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni."
 
-[!DNL Journey Optimizer] consente di controllare la frequenza con cui l’utente riceve un messaggio o inizia un percorso impostando regole cross-channel che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
+[!DNL Journey Optimizer] consente di controllare la frequenza con cui gli utenti riceveranno un messaggio o entreranno in un percorso attraverso uno o più canali. Regole di frequenza dei messaggi che escludono automaticamente i profili sollecitati eccessivamente da messaggi e azioni.
 
 Ad esempio, per un brand, una regola potrebbe essere di non inviare più di 4 messaggi di marketing al mese alla clientela. A questo scopo, puoi utilizzare una regola business che limiterà il numero di messaggi inviati in base a uno o più canali durante un periodo di calendario mensile.
 

@@ -12,10 +12,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 24%
+source-wordcount: '1593'
+ht-degree: 19%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Set di regole"
->abstract="Utilizza i set di regole per applicare il limite di frequenza a diversi tipi di comunicazioni di marketing. Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviato ai clienti e crea un altro set di regole per limitare il numero di **newsletter** inviati a loro. I set di regole sono attualmente disponibili come versione beta per selezionare solo gli utenti."
+>abstract="Utilizza i set di regole per applicare il limite di frequenza a diversi tipi di comunicazioni di marketing. Ad esempio, puoi creare un set di regole per limitare il numero di **comunicazioni promozionali** inviato ai clienti e crea un altro set di regole per limitare il numero di **newsletter** inviati a loro."
 
 >[!AVAILABILITY]
 >
@@ -78,23 +78,23 @@ Per creare un set di regole, segui la procedura riportata di seguito.
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_category"
->title="Selezionare la categoria della regola del messaggio"
->abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+>title="Seleziona la categoria della regola del messaggio"
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata vengono applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
->title="Impostare i limiti per la regola"
+>title="Impostare il limite per la regola"
 >abstract="Specifica il numero massimo di messaggi inviati a un profilo cliente nell’arco temporale definito. La quota limite si baserà sul periodo di calendario selezionato e verrà reimpostata all’inizio dell’arco temporale corrispondente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
->title="Definire i canali a cui si applica la regola"
->abstract="Seleziona almeno un canale. I limiti vengo applicati a tutti i canali come conteggio totale."
+>title="Definisci i canali a cui si applica la regola"
+>abstract="Seleziona almeno un canale. Le funzioni di limitazione vengono applicate a tutti i canali come conteggio totale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
->title="Selezionare la categoria della regola del messaggio"
->abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata verranno applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
+>title="Seleziona la categoria della regola del messaggio"
+>abstract="Quando vengono attivate e applicate a un messaggio, tutte le regole di frequenza che corrispondono alla categoria selezionata vengono applicate automaticamente a questo messaggio. Attualmente è disponibile solo la categoria Marketing."
 
 Per aggiungere una regola a un set di regole, effettua le seguenti operazioni.
 
