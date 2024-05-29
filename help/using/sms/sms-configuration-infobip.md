@@ -6,10 +6,11 @@ description: Scopri come configurare l’ambiente per l’invio di messaggi di t
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '357'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +20,9 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]** e seleziona la **[!UICONTROL Credenziali API]** menu. Fai clic su **[!UICONTROL Crea nuove credenziali API]** pulsante.
 
-   ![](assets/sms_6.png)
-
 1. Configura le credenziali API come descritto di seguito.
+
+   * **[!UICONTROL Fornitore SMS]**: Infobip.
 
    * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
 

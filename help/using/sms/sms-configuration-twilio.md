@@ -1,27 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configura provider Twilio
+title: Configurare il provider Twilio
 description: Scopri come configurare l’ambiente per l’invio di messaggi di testo con Journey Optimizer con Twilio
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: d6f74566-c913-4727-83b9-473a798a0158
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 1%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
-# Configura provider Twilio {#sms-configuration-twilio}
+# Configurare il provider Twilio {#sms-configuration-twilio}
 
 Per configurare Twilio con Journey Optimizer, è necessario creare una nuova credenziale API utilizzata per Twilio:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona la **[!UICONTROL Credenziali API]** menu. Fai clic su **[!UICONTROL Crea nuove credenziali API]** pulsante.
 
-   ![](assets/sms_6.png)
-
 1. Configura le credenziali API SMS, come descritto di seguito:
+
+   * **[!UICONTROL Fornitore SMS]**: Twilio.
 
    * **[!UICONTROL Nome]**: scegli un nome per le credenziali API.
 
@@ -32,4 +33,3 @@ Per configurare Twilio con Journey Optimizer, è necessario creare una nuova cre
 1. Clic **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
 Dopo aver creato e configurato le credenziali API, ora è necessario creare una superficie di canale per i messaggi SMS e MMS. [Ulteriori informazioni](sms-configuration-surface.md)
-
