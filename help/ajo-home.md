@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di maggio è live.]
+>[!TAB La versione di maggio è disponibile]
 
-Scopri le nuove funzioni e i miglioramenti in arrivo con la versione di maggio di Adobe Journey Optimizer.
+Scopri le nuove funzioni e i miglioramenti introdotti nella versione di maggio di Adobe Journey Optimizer.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Experience Decisioning]
+>[!TAB Decisioni per le esperienze]
 
-Experience Decisioning semplifica la personalizzazione offrendo un catalogo centralizzato di offerte di marketing note come &quot;elementi decisionali&quot; e un motore decisionale sofisticato.
+La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato.
 
 ![](using/rn/assets/do-not-localize/gif-exd.gif)
 

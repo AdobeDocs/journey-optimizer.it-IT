@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1348'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Controlla la gestione della privacy e le richieste da questa sezione.
 
   È inoltre possibile accedere alla sezione **Generazione rapporti** per configurare la generazione di rapporti per la sperimentazione delle campagne. [Ulteriori informazioni](../campaigns/reporting-configuration.md)
 
-* **[!UICONTROL Regole aziendali]** : utilizza questa sezione per creare regole di business cross-channel per controllare la frequenza con cui gli utenti ricevono un messaggio o immettono in un percorso. [Ulteriori informazioni](../configuration/frequency-rules.md)
+* **[!UICONTROL Regole aziendali]**: utilizza questa sezione per creare regole di frequenza cross-channel e controllare la frequenza con cui gli utenti ricevono un messaggio o entrano in un percorso. [Ulteriori informazioni](../configuration/frequency-rules.md)
 
 * **[!UICONTROL Avvisi]** : l’interfaccia utente consente di visualizzare una cronologia degli avvisi ricevuti in base alle metriche rivelate da Adobe Experience Platform Observability Insights. L’interfaccia utente consente inoltre di visualizzare, abilitare e disabilitare le regole di avviso disponibili. [Ulteriori informazioni](../reports/alerts.md)
 
@@ -197,22 +197,22 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
->title="Nome configurazione mobile e web"
+>title="Nome configurazione per dispositivi mobilie e web"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Aggiungi dipendenze"
+>title="Aggiungere dipendenze"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
->title="Aggiungi codice di inizializzazione"
+>title="Aggiungere il codice di inizializzazione"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
->title="Convalida con garanzia"
+>title="Convalidare con Assurance"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
@@ -222,22 +222,22 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
->title="Avvia sito e convalida"
+>title="Avviare il sito e convalidare"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
->title="Recupera il token del dispositivo"
+>title="Recuperare il token del dispositivo"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
->title="Avvia l&#39;applicazione da Xcode."
+>title="Avviare l’applicazione da Xcode."
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_certificate"
->title="Fornisci un certificato push"
+>title="Fornire un certificato push"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
@@ -252,41 +252,41 @@ Per cambiare lingua:
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="Scegli la proprietà tag"
+>title="Scegliere la proprietà tag"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
->title="Fornisci un certificato push"
+>title="Fornire un certificato push"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
->title="Aggiungi dipendenze"
+>title="Aggiungere dipendenze"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Importa dipendenze"
+>title="Importare dipendenze"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_import"
->title="Importa dipendenze"
+>title="Importare dipendenze"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
->title="Aggiungi codice di inizializzazione"
+>title="Aggiungere il codice di inizializzazione"
 >abstract="DA CONFERMARE"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token_android"
->title="Recupera il token del dispositivo"
+>title="Recuperare il token del dispositivo"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_android_studio"
->title="Avviare l&#39;applicazione da Android Studio"
+>title="Avviare l’applicazione da Android Studio"
 >abstract="DA CONFERMARE"

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -23,28 +23,28 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Assistente IA"
->abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente AI per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionare i contenuti descrivendo cosa desideri generare."
+>abstract="Dopo aver creato e personalizzato la consegna, puoi utilizzare l’Assistente IA per migliorare i contenuti. Questa funzione semplifica il processo di personalizzazione e miglioramento dei contenuti consentendoti di perfezionarli descrivendo cosa desideri generare."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Definire il contesto con l’Assistente IA"
->abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuto, attiva **Usa contenuto originale** attivare/disattivare. Puoi anche caricare le risorse del brand per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è obbligatorio caricare e selezionare le risorse di un marchio."
+>abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuto, attiva il pulsante **Usa contenuto originale**. Puoi anche caricare le risorse del brand per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è obbligatorio caricare e selezionare le risorse di un brand."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
->title="Termini di IA generativi di Adobe"
->abstract="L’accesso a questa funzione è soggetto al consenso dell’utente alle linee guida per l’utente di Adobe Experience Cloud Generative AI. Qualsiasi suggerimento, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito Web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere collegato a un individuo specifico). Controlla l’accuratezza degli output generati da questa funzione e assicurati che sia appropriata al tuo caso d’uso"
->additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe di linee guida utente per l’intelligenza artificiale generativa"
+>title="Termini sull’intelligenza artificiale generativa di Adobe"
+>abstract="L’accesso a questa funzione è soggetto al consenso delle linee guida per l’utente sull’intelligenza artificiale generativa di Adobe Experience Cloud. Qualsiasi prompt, contesto, informazioni supplementari o altro input fornito a questa funzione deve essere associato a un contesto specifico, che può includere materiali di branding, contenuto del sito Web, dati, schemi per tali dati, modelli o altri documenti attendibili e non deve contenere informazioni personali (le informazioni personali includono tutto ciò che può essere ricollegato a un individuo specifico). Devi controllare l’accuratezza degli output generati da questa funzione e assicurarti che sia appropriata al tuo caso d’uso"
+>additional-url="https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Linee guida per l’utente sull’intelligenza artificiale generativa di Adobe"
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
 * Introduzione all’assistente IA
-* [Generazione di e-mail con l’Assistente AI](generative-email.md)
-* [Generazione di SMS con l’Assistente AI](generative-sms.md)
+* [Generazione di e-mail con l’assistente IA](generative-email.md)
+* [Generazione di SMS con l’assistente IA](generative-sms.md)
 * [Generazione di push con l’assistente IA](generative-push.md)
 * [Esperimento contenuti con l’assistente IA](generative-experimentation.md)
 
@@ -62,8 +62,8 @@ Utilizza l’assistente IA di Journey Optimizer per ottimizzare l’impatto del 
 
 Di seguito sono elencate alcune linee guida generali su come utilizzare l’assistente IA in Journey Optimizer per la generazione di e-mail:
 
-* La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizzate un prompt ben definito per interpretare con precisione il modello GenAI. 
-* Carica la risorsa del brand in modo che sia accurata per il contenuto del brand. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: PDF, JPEG, PNG o file ZIP (con formati di file supportati).
+* La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizza un prompt ben definito per interpretare con precisione il modello GenAI. 
+* Carica la risorsa del brand in modo che sia accurata per il relativo contenuto. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: file PDF, JPEG, PNG o ZIP (con formati di file supportati).
 * La dimensione massima per risorsa del marchio caricata è 50 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
 * Per creare il contenuto dell’e-mail, utilizza un modello e-mail creato in Adobe Campaign, preferibilmente uno dei [modelli e-mail incorporati](../email/use-email-templates.md), un modello specifico del marchio o un modello personalizzato. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 * Assicurati di segnalare eventuali output problematici utilizzando le icone con il pollice su, il pollice giù o un flag durante la selezione delle varianti.
