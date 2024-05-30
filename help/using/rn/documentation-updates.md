@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
 source-wordcount: '5335'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Maggio 2024 {#may-2024}
 
 * Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di maggio 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
-* La sezione sugli elenchi di seed è stata aggiornata per quanto riguarda i percorsi ricorrenti. [Ulteriori informazioni](../configuration/seed-lists.md#use-seed-list)
+* La sezione sugli elenchi seed è stata aggiornata riguardo ai percorsi ricorrenti. [Ulteriori informazioni](../configuration/seed-lists.md#use-seed-list)
 * La sezione sulle origini dati esterne è stata aggiornata. [Ulteriori informazioni](../datasource/external-data-sources.md#custom-authentication-access-token)
-* Alla pagina Guardrail and limit è stato aggiunto il timeout percorso globale di 30 giorni. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
+* Il timeout del percorso globale di 30 giorni è stato aggiunto alla pagina Guardrail e limitazioni. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 * La sezione sull’integrazione Adobe Campaign v7/v8 è stata aggiornata con informazioni sul provisioning. [Ulteriori informazioni](../action/acc-action.md#access)
 * L’editor di espressioni utilizzato per personalizzare il contenuto è stato rinominato nella documentazione &quot;editor di personalizzazione&quot;, per distinguerlo chiaramente dalla [Editor espressioni percorso](../building-journeys/expression/expressionadvanced.md). [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
@@ -92,7 +92,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * Aggiornare il documento di autenticazione personalizzato relativo alla durata della cache. [Ulteriori informazioni] (../datasource/external-data-sources.md)
 * Il supporto a `<listObject>` è stato modificato in più funzioni.
 * Aggiornamento del parametro della **durata** nella funzione `toString`. [Ulteriori informazioni](../building-journeys/functions/functiontostring.md)
-* Per alcuni casi di utilizzo di origini dati esterne, si consiglia di utilizzare azioni personalizzate.
+* Per alcuni casi d’uso di origini dati esterne, si consiglia di utilizzare azioni personalizzate.
 * La sintassi del campo evento è stata aggiornata. La sintassi seguente `@(my_event.myfield}` è obsoleta e sostituita da `@event{my_event.myfield}`. [Ulteriori informazioni](../building-journeys/expression/field-references.md)
 * Le guide Rapporto globale e Rapporto live sono state riorganizzate. [Ulteriori informazioni](../reports/campaign-global-report.md)
 

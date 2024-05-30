@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 40e4aaa93400daf52c96aa5ac2de17151cdbb07f
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 42%
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Novità"
->abstract="**Adobe Journey Optimizer** viene continuamente aggiornato con nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
+>abstract="**Adobe Journey Optimizer** offre continuamente nuove funzioni, miglioramenti a quelle esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese."
 
 [!DNL Adobe Journey Optimizer] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nelle presenti note sulla versione, tutte le modifiche sono consolidate durante l’ultima settimana di ogni mese.
 
@@ -126,15 +126,15 @@ Questa versione include le nuove funzionalità elencate di seguito.
 
 Questa versione include i miglioramenti elencati di seguito.
 
-**Experience Decisioning** (Disponibilità limitata)
+**Decisioni per le esperienze**: disponibilità limitata
 
-Dalla versione beta a questa versione, sono stati aggiunti i seguenti miglioramenti:
+Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i seguenti miglioramenti:
 
-* **Experience Decisioning + Esperienze basate su codice** - Ora puoi sfruttare la funzione Experience Decisioning per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato su codice e la funzione Decisioni per le esperienze non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Healthcare Shield e Privacy and Security Shield di Adobe. [Ulteriori informazioni](../code-based/get-started-code-based.md)
-* **Dati contestuali** - Ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione e nelle formule di classificazione. [Ulteriori informazioni](../experience-decisioning/context-data.md)
-* **Nuova autorizzazione** - È ora disponibile la nuova autorizzazione &quot;Gestisci decisioni esperienza&quot; per la risorsa Gestione delle decisioni. Questa consente di gestire i diritti relativi alla funzione Decisioni per le esperienze. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
-* **Regole di limitazione** - Ora in Experience Decisioning è possibile aggiungere più regole di limitazione per un determinato elemento decisionale. Ciò offre un maggiore controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
-* **Generazione rapporti** - Ora puoi creare dashboard di reporting personalizzati per le campagne Experience Decisioning utilizzando [!DNL Customer Journey Analytics]. [Ulteriori informazioni](../experience-decisioning/cja-reporting.md)
+* **Decisioni per le esperienze + Esperienze basate su codice**: ora puoi sfruttare la funzione Decisioni per le esperienze per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato su codice e la funzione Decisioni per le esperienze non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Healthcare Shield e Privacy and Security Shield di Adobe. [Ulteriori informazioni](../code-based/get-started-code-based.md)
+* **Dati contestuali**: ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione e nelle formule di classificazione. [Ulteriori informazioni](../experience-decisioning/context-data.md)
+* **Nuova autorizzazione**: è ora disponibile la nuova autorizzazione “Gestisci decisioni per le esperienze” per la risorsa Gestione delle decisioni. Questa consente di gestire i diritti relativi alla funzione Decisioni per le esperienze. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+* **Regole di limitazione**: ora, in Decisione per le esperienze, è possibile aggiungere più regole di limitazione per un determinato elemento in Decisioni per le esperienze. Ciò offre un maggiore controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
+* **Reporting**: ora puoi creare dashboard di reporting personalizzate delle campagne di Decisioni per le esperienze tramite [!DNL Customer Journey Analytics]. [Ulteriori informazioni](../experience-decisioning/cja-reporting.md)
 
 
 <!--**Decision Management**
@@ -149,11 +149,11 @@ Dalla versione beta a questa versione, sono stati aggiunti i seguenti migliorame
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
-* **Punteggio spam** (Beta) - Ora puoi controllare il punteggio di posta indesiderata del contenuto in un rapporto spam dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di cassette postali lo considereranno come spam o meno. [Ulteriori informazioni](../content-management/spam-report.md)
+* **Punteggio contenuto indesiderato** (beta): ora puoi controllare il punteggio del contenuto indesiderato in un rapporto relativo dedicato. Utilizzando SpamAssassin, Adobe Journey Optimizer può ora testare il contenuto delle e-mail e assegnargli un punteggio per indicare se gli ISP o i provider di caselle postali lo considereranno come contenuto indesiderato o meno. [Ulteriori informazioni](../content-management/spam-report.md)
 
   >[!AVAILABILITY]
   >
-  >Questa funzionalità è attualmente disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta il rappresentante del tuo Adobe.
+  >Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma beta, contatta il rappresentante del tuo Adobe.
 
 <!--
 **Audiences**
@@ -167,14 +167,14 @@ Dalla versione beta a questa versione, sono stati aggiunti i seguenti migliorame
 **Percorsi**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **Supporto mTLS** - L’autenticazione mTLS è ora supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **Ricercare tabelle negli eventi** - È ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi. [Ulteriori informazioni](../event/experience-event-schema.md#relationships_limitations)
-* **Editor di espressioni avanzate nella configurazione dell’evento** (LA) - È ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione dell’ID evento. Questa funzionalità viene rilasciata in Disponibilità limitata per alcuni clienti. [Ulteriori informazioni](../event/about-creating.md)
-* **Criteri di unione** (LA) - I criteri di unione utilizzati da un Percorso sono ora visibili e coerenti in tutto il percorso. Questa funzionalità viene rilasciata in Disponibilità limitata per alcuni clienti. [Ulteriori informazioni](../building-journeys/journey-gs.md#merge-policies)
+* **Supporto mTLS**: l’autenticazione mTLS è ora supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **Tabelle di ricerca negli eventi**: è ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili nei percorsi (condizioni, azioni personalizzate, ecc.) e nella personalizzazione dei messaggi. [Ulteriori informazioni](../event/experience-event-schema.md#relationships_limitations)
+* **Editor di espressioni avanzate nella configurazione dell’evento** (Disponibilità limitata): è ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione per l’ID evento. Questa funzionalità viene rilasciata in Disponibilità limitata per clienti selezionati. [Ulteriori informazioni](../event/about-creating.md)
+* **Criteri di unione** (Disponibilità limitata): i criteri di unione utilizzati da un percorso sono ora visibili e coerenti in tutto il percorso. Questa funzionalità viene rilasciata in Disponibilità limitata per clienti selezionati. [Ulteriori informazioni](../building-journeys/journey-gs.md#merge-policies)
 
 **Globalizzazione**
 
-Come parte del nostro impegno continuo per offrire un’esperienza utente unificata, armonizziamo la terminologia utilizzata nei prodotti e nelle app Adobe Experience Cloud. Questo influisce sul termine tedesco &quot;Titel&quot; che viene modificato in &quot;Label&quot; quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione di.
+Come parte del nostro impegno continuo per offrire un’esperienza utente unificata, armonizziamo la terminologia utilizzata nei prodotti e nelle app di Adobe Experience Cloud. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
 

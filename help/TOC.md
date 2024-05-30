@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 93%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Data {#date}
-            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
@@ -130,19 +130,19 @@ ht-degree: 93%
             + [limit](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
+            + [ordina](using/building-journeys/functions/functionsort.md)
          + Matematica {#math}
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + Stringa {#string}
-            + [concat](using/building-journeys/functions/functionconcat.md)
+            + [concatena](using/building-journeys/functions/functionconcat.md)
             + [contain](using/building-journeys/functions/functioncontain.md)
             + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
             + [endWith](using/building-journeys/functions/functionendwith.md)
             + [endWithIgnorecase](using/building-journeys/functions/functionendwithignorecase.md)
             + [equalIgnoreCase](using/building-journeys/functions/functionequalignorecase.md)
             + [indexOf](using/building-journeys/functions/functionindexof.md)
-            + [isEmpty](using/building-journeys/functions/functionisempty.md)
+            + [IsEmpty](using/building-journeys/functions/functionisempty.md)
             + [isNotEmpty](using/building-journeys/functions/functionisnotempty.md)
             + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
             + [lunghezza](using/building-journeys/functions/functionlength.md)
@@ -327,7 +327,7 @@ ht-degree: 93%
       + [Anteprima del contenuto](using/content-management/preview.md)
       + [Inviare bozze e-mail](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
-      + [Rapporto spam e-mail](using/content-management/spam-report.md)
+      + [Rapporto e-mail di spam](using/content-management/spam-report.md)
 + Tipi di pubblico, profili e identità{#audiences-profiles-identities}
    + Tipi di pubblico {#audiences}
       + [Introduzione ai tipi di pubblico](using/audience/about-audiences.md)
@@ -428,7 +428,7 @@ ht-degree: 93%
          + [Set di dati sui fallback](using/offers/export-catalog/export-fallback.md)
       + Documentazione di riferimento API {#api-reference}
          + [Introduzione](using/offers/api-reference/getting-started.md)
-         + Creare e gestire le offerte tramite API {#offers-api}
+         + Creare e gestire offerte tramite le API {#offers-api}
             + Posizionamenti {#placements}
                + [Elencare posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Ricercare un posizionamento](using/offers/api-reference/offers-api/placements/lookup.md)
@@ -565,7 +565,7 @@ ht-degree: 93%
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
    + [Modificare gli indirizzi di esecuzione](using/configuration/primary-email-addresses.md)
-   + [Configurare le regole business](using/configuration/frequency-rules.md)
+   + [Configurare regole aziendali](using/configuration/frequency-rules.md)
    + [Utilizzare i set di regole](using/configuration/rule-sets.md)
    + Configurare percorsi {#configure-journeys}
       + [Informazioni su origini dati, eventi e azioni](using/configuration/about-data-sources-events-actions.md)
