@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’Assistente IA in Adobe Journey Optimizer
-description: Scopri come sfruttare l’Assistente di intelligenza artificiale di Adobe Experience Platform in Adobe Percorsi Optimizer.
+title: Utilizzare l’Assistente AI
+description: Scopri come sfruttare l’Assistente AI
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Utilizzare l’Assistente IA in Adobe Journey Optimizer {#ai-assistant}
+# Utilizzare l’Assistente AI {#ai-assistant}
 
 L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti Adobi e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
@@ -26,7 +27,7 @@ Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L
 
 In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
-* Domande sui concetti (disponibilità generale) Le domande sui concetti riguardano concetti Adobi relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sui concetti includono:
+* Conoscenza del prodotto (disponibilità generale) Le domande sulla conoscenza del prodotto riguardano concetti Adobi relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sulla conoscenza del prodotto includono:
 
    * Quante attività live posso avere in una sandbox di Adobe Journey Optimizer?
    * Come si imposta una campagna in Adobe Journey Optimizer?
@@ -54,4 +55,4 @@ Controlla la risposta e utilizza **Mostra origini** per ottenere collegamenti di
 
 Utilizza il pollice verso l’alto o il pollice verso il basso per valutare la risposta.
 
-Per informazioni sull’utilizzo di AI Assistant, consulta gli obiettivi di esempio che puoi raggiungere con l’AI Assistant e scopri come funziona l’AI Assistant, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+Per informazioni su come utilizzare l’Assistente IA, consulta gli obiettivi di esempio che puoi raggiungere con l’Assistente AI e scopri come funziona, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
