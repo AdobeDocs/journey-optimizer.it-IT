@@ -8,18 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 93%
+source-wordcount: '1066'
+ht-degree: 95%
 
 ---
 
 # Gestire la rinuncia {#consent}
 
-Come requisito legale, è necessario fornire ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio e garantire il rispetto di questa scelta. Il mancato rispetto di queste normative introduce rischi legali normativi per il tuo marchio. Ti aiuta a evitare l’invio di comunicazioni non richieste ai destinatari, in modo che queste non vengano contrassegnate come spam danneggiando la tua reputazione.
+Come requisito legale, è necessario fornire ai destinatari la possibilità di annullare l’iscrizione alla ricezione di comunicazioni da parte di un marchio e garantire il rispetto di questa scelta. Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target="_blank"}.
 
-Ulteriori informazioni sulle normative applicabili sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=it#regulations){target="_blank"}.
+**Perché è importante?**
+
+* Il mancato rispetto di queste normative introduce rischi legali normativi per il tuo marchio.
+* Ti aiuta a evitare l’invio di comunicazioni non richieste ai destinatari, in modo che queste non vengano contrassegnate come spam danneggiando la tua reputazione.
 
 ## Gestire gli annullamenti delle iscrizioni in percorsi e campagne {#opt-out-ajo}
 

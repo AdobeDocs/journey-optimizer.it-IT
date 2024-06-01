@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2415'
 ht-degree: 1%
 
 ---
@@ -26,17 +26,17 @@ Per iniziare a creare un’e-mail, devi impostare superfici di canale e-mail che
 
 Definisci le impostazioni e-mail nella sezione dedicata della configurazione della superficie di canale, come descritto di seguito.
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/preset-email-settings.png)
 
 La configurazione della superficie e-mail viene selezionata per l’invio di comunicazioni seguendo la logica seguente:
 
-* Per i percorsi batch, non si applica all’esecuzione batch già avviata prima della configurazione della superficie e-mail. Le modifiche vengono rilevate alla successiva ricorrenza o alla nuova esecuzione.
+* Per i percorsi batch, non si applica all’esecuzione batch già avviata prima della configurazione della superficie e-mail. Le modifiche verranno rilevate alla successiva ricorrenza o alla nuova esecuzione.
 
 * Per i messaggi transazionali, la modifica viene selezionata immediatamente per la comunicazione successiva (fino a cinque minuti di ritardo).
 
 >[!NOTE]
 >
->Le impostazioni aggiornate della superficie e-mail vengono rilevate automaticamente nei percorsi o nelle campagne in cui viene utilizzata la superficie.
+>Le impostazioni aggiornate della superficie e-mail verranno rilevate automaticamente nei percorsi o nelle campagne in cui viene utilizzata la superficie.
 
 ## Tipo di e-mail {#email-type}
 
@@ -67,7 +67,7 @@ Per preservare la reputazione del dominio, velocizza il processo di riscaldament
 
 Selezionare il pool IP da associare alla superficie. [Ulteriori informazioni](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
 Impossibile procedere con la creazione della superficie mentre il pool IP selezionato si trova in [edizione](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione meno recente dell’associazione pool IP/sottodominio. In questo caso, salva la superficie come sformo e riprova una volta che il pool IP ha **[!UICONTROL Completato]** stato.
 
@@ -81,47 +81,41 @@ Dopo aver selezionato un pool IP, le informazioni PTR sono visibili quando si pa
 >
 >Se non è configurato alcun record PTR, contatta il rappresentante del tuo Adobe.
 
-## Intestazione Annulla iscrizione elenco{#list-unsubscribe}
-
-<!--Do not modify - Legal Review Done -->
-
+## Annullamento iscrizione elenco {#list-unsubscribe}
 
 Su [selezione di un sottodominio](#subdomains-and-ip-pools) dall&#39;elenco, **[!UICONTROL Abilita annullamento sottoscrizione elenco]** viene visualizzata l&#39;opzione.
 
-Questa opzione è abilitata per impostazione predefinita per includere un URL con un solo clic per annullare l’iscrizione nell’intestazione dell’e-mail, ad esempio:
+Questa opzione è attivata per impostazione predefinita. Se lo lasci abilitato, nell’intestazione dell’e-mail verrà automaticamente incluso un collegamento per annullare l’abbonamento, ad esempio:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Se disattivi questa opzione, nell’intestazione dell’e-mail non viene visualizzato alcun URL con un solo clic per annullare l’iscrizione.
+Se disattivi questa opzione, nell’intestazione dell’e-mail non viene visualizzato alcun collegamento per annullare l’abbonamento.
 
-Puoi selezionare il livello di consenso dalla scheda **[!UICONTROL Livello di consenso]** elenco a discesa. Può essere specifico per il canale o per l’identità del profilo. In base a questa impostazione, quando un utente annulla l’iscrizione utilizzando l’URL per l’annullamento dell’iscrizione all’elenco nell’intestazione di un’e-mail, il consenso viene aggiornato in Adobe Journey Optimizer a livello di canale o di ID.
+Puoi selezionare il livello di consenso dalla scheda **Livello di consenso** elenco a discesa. Può essere specifico per il canale o per l’identità del profilo. In base a questa impostazione, quando un utente annulla l’iscrizione utilizzando il collegamento di intestazione per l’annullamento dell’iscrizione all’elenco di un’e-mail, il consenso viene aggiornato in Adobe Journey Optimizer a livello di canale o di ID.
 
-L’intestazione Annulla iscrizione elenco offre due funzioni (Mailto e URL di annullamento iscrizione con un solo clic, come spiegato di seguito) che sono abilitate per impostazione predefinita, a meno che tu non deselezioni una o entrambe le funzioni:
+Il collegamento per annullare l’abbonamento è costituito da due elementi:
 
-* A **Invia a (annulla iscrizione)** address: indirizzo di destinazione a cui vengono indirizzate le richieste di annullamento dell’abbonamento per l’elaborazione automatica.
+* Un **indirizzo e-mail per annullare l’iscrizione**, a cui vengono inviate tutte le richieste di annullamento dell’abbonamento.
 
-  In Journey Optimizer, l’indirizzo e-mail predefinito per l’annullamento dell’iscrizione è **Invia a (annulla iscrizione)** indirizzo visualizzato nella superficie di canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
+  In entrata [!DNL Journey Optimizer], l’indirizzo e-mail predefinito per l’annullamento dell’iscrizione è **[!UICONTROL Invia a (annulla iscrizione)]** indirizzo visualizzato nella superficie di canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
+* Il **URL per annullamento iscrizione**: URL della pagina di destinazione a cui l’utente verrà reindirizzato una volta annullato l’abbonamento.
 
-* Il **URL per annullamento iscrizione con un clic**, che per impostazione predefinita è l’intestazione per l’annullamento dell’iscrizione all’elenco generata con un solo clic, basata sul sottodominio impostato e configurato nelle Impostazioni della superficie di canale.
+  Se aggiungi un [collegamento di rinuncia con un clic](../privacy/opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa superficie, l’URL per l’annullamento dell’iscrizione sarà l’URL definito per il collegamento di rinuncia con un clic.
 
-  >[!AVAILABILITY]
+  ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+  >[!NOTE]
   >
-  >L’intestazione dell’URL per l’annullamento dell’iscrizione con un solo clic sarà disponibile in Adobe Journey Optimizer a partire dal 3 giugno 2024.
-  >
+  >Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio, non verrà visualizzata alcuna pagina di destinazione.
 
+Ulteriori informazioni sull’aggiunta di un collegamento di annullamento dell’iscrizione all’intestazione nei messaggi in [questa sezione](../privacy/opt-out.md#unsubscribe-header).
 
-Il **[!UICONTROL Invia a (annulla iscrizione)]** funzionalità e **[!UICONTROL URL per annullamento iscrizione con un solo clic]** sono opzionali. Se non desideri utilizzare l’URL predefinito generato con un solo clic per annullare l’abbonamento, puoi deselezionare la funzione. Nello scenario in cui **[!UICONTROL Configurazione della rinuncia]** è attivata e la **[!UICONTROL URL per annullamento iscrizione con un solo clic]** è deselezionata, se si aggiunge un [collegamento di rinuncia con un clic](../privacy/opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa superficie, l’intestazione annulla iscrizione all’elenco raccoglierà il collegamento di rinuncia con un solo clic inserito nel corpo dell’e-mail e lo utilizzerà come valore URL di annullamento iscrizione con un solo clic.
+<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-![](assets/preset-list-unsubscribe-opt-out-url.png)
-
->[!NOTE]
->
->Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’URL predefinito per l’annullamento dell’iscrizione con un solo clic non è selezionato in Impostazioni superficie canale, nell’intestazione Annulla iscrizione elenco non verrà trasmesso alcun URL nell’intestazione dell’e-mail.
-
-Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell’iscrizione nei messaggi in [questa sezione](../email/email-opt-out.md#unsubscribe-header).
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 
 ## Parametri intestazione {#email-header}
 

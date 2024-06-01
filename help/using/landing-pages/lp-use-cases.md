@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '968'
 ht-degree: 12%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 12%
 
 Di seguito sono riportati alcuni esempi di come utilizzare [!DNL Journey Optimizer] pagine di destinazione per consentire ai clienti di accettare o rinunciare alla ricezione di alcune o di tutte le comunicazioni.
 
-## Abbonati a un servizio {#subscription-to-a-service}
+## Abbonamento a un servizio {#subscription-to-a-service}
 
 Uno dei casi d’uso più comuni consiste nell’invitare i clienti a [abbonarsi a un servizio](subscription-list.md) (ad esempio una newsletter o un evento) tramite una pagina di destinazione. I passaggi principali sono illustrati nel grafico seguente:
 
@@ -88,7 +88,7 @@ Tutti gli utenti che si sono registrati all’evento riceveranno l’e-mail di c
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Pagina di destinazione di rinuncia {#opt-out}
+## Rinuncia {#opt-out}
 
 Per consentire ai destinatari di annullare l’iscrizione alle comunicazioni, puoi includere nelle e-mail un collegamento a una pagina di destinazione di rinuncia.
 
@@ -107,7 +107,7 @@ Pertanto, devi sempre includere un **collegamento per l’annullamento dell’is
 
 ### Configurare la rinuncia e-mail {#configure-opt-out}
 
-Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle comunicazioni tramite una pagina di destinazione, segui i passaggi seguenti:
+Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle comunicazioni tramite una pagina di destinazione, segui i passaggi indicati di seguito.
 
 1. Crea la pagina di destinazione. [Ulteriori informazioni](create-lp.md)
 
@@ -167,12 +167,6 @@ Le informazioni di rinuncia vengono memorizzate in **Set di dati del servizio di
 >
 >Anche se non sono stati aggiunti batch a questo set di dati, questo conterrà comunque le informazioni di consenso/rinuncia.
 
-
-
-**Vedi anche:**
-
-* [Rinuncia con un clic](../email/email-opt-out.md#one-click-opt-out-link)
-* [Collegamento per la rinuncia nell’intestazione dell’e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 

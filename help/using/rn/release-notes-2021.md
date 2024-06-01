@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 529a8ab0bf0c0496996183a56269d9f566e48bcb
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2078'
 ht-degree: 100%
 
 ---
@@ -276,7 +276,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 **Progettazione dei contenuti**
 
 * **Sfondo** - Le immagini di sfondo sono ora supportate nell’anteprima live. [Ulteriori informazioni](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+* **Collegamento rinuncia con un clic** - Puoi inserire un nuovo tipo di collegamento nel contenuto dell’e-mail: il collegamento **Rinuncia** consente agli utenti di annullare l’iscrizione alla ricezione delle comunicazioni con un solo clic, senza essere reindirizzati a una pagina di destinazione per confermare la rinuncia. [Ulteriori informazioni](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalizzazione**
 

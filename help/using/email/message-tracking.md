@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 3%
@@ -158,7 +158,7 @@ Il [E-mail Designer](content-from-scratch.md) consente di gestire gli URL tracci
    * **[!UICONTROL Tracciato]**: attiva il tracciamento su questo URL.
    * **[!UICONTROL Rinuncia]**: considera questo URL come URL di rinuncia o di annullamento dell’abbonamento.
    * **[!UICONTROL Pagina mirror]**: considera questo URL come un URL di pagina mirror.
-   * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL.
+   * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Il reporting sulle aperture e sui clic è disponibile nel [Rapporto live](../reports/live-report.md) e nella [Rapporto globale](../reports/global-report.md).
 
