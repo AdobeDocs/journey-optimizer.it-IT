@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 12%
@@ -166,6 +166,8 @@ Le informazioni di rinuncia vengono memorizzate in **Set di dati del servizio di
 >Se il metodo di unione per il valore predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** criterio di unione è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare **[!UICONTROL Set di dati del servizio di consenso AJO]** e per assegnarvi la priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Anche se non sono stati aggiunti batch a questo set di dati, questo conterrà comunque le informazioni di consenso/rinuncia.
+
+
 
 **Vedi anche:**
 
