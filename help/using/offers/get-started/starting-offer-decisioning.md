@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 72%
 
 ---
 
@@ -37,7 +37,7 @@ I vantaggi includono:
 
 >[!NOTE]
 >
->Tutte le funzioni di gestione delle decisioni descritte in questa sezione si applicano anche agli utenti di [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} che sfruttano il servizio applicativo **Offer Decisioning**.
+>Se sei un [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} utente che sfrutta **Offer decisioning** Tutte le funzioni di Gestione delle decisioni descritte in questa sezione si applicano anche all&#39;utente.
 
 ## Informazioni su offerte e decisioni {#about-offers-and-decisions}
 
@@ -80,15 +80,15 @@ Le autorizzazioni specificheper la gestione delle decisioni sono elencate in [qu
 Di seguito è riportato l’elenco dei concetti principali con cui lavorare quando si utilizza Gestione decisioni.
 
 * **Quota limite** o **Quota limite frequenza**: il limite viene utilizzato come vincolo per definire quante volte viene presentata un’offerta.
-Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come “Limiti totali”; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come “Limite per profilo”.
+Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come &quot;Limiti totali&quot;; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come &quot;Limite profilo&quot;.
 
-* **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite impostate da un addetto marketing, ad esempio la categoria dell’offerta.
+* **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
 * **Decisione**: una decisione contiene la logica su cui si basa la selezione di un’offerta.
 
 * **Regola di decisione**: le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e applicati a un profilo per determinare l’idoneità.
 
-* **Offerta idonea**: un’offerta idonea soddisfa i vincoli definiti a monte che definiscono l’offerta coerente rispetto a un profilo.
+* **Offerta idonea**: un’offerta idonea soddisfa i vincoli definiti a monte che possono essere offerti in modo coerente a un profilo.
 
 * **Gestione delle decisioni**: consente di creare e fornire esperienze di offerta personalizzate per l’utente finale sui vari canali e applicazioni utilizzando la logica di business e le regole decisionali.
 
@@ -100,11 +100,11 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 * **Offerte personalizzate**: un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-* **Posizionamenti**: il posizionamento corrisponde a posizione e contesto in cui un’offerta viene mostrata a un utente finale.
+* **Posizionamenti**: per posizionamento si intende la posizione e/o il contesto in cui un’offerta viene visualizzata per un utente finale.
 
 * **Priorità**: la priorità viene utilizzata per classificare le offerte che soddisfano tutti i vincoli, come idoneità, calendario e limiti.
 
-* **Rappresentazioni**: per rappresentazione si intendono le informazioni utilizzate da un canale, ad esempio posizione o lingua, per mostrare un’offerta.
+* **Rappresentazioni**: per rappresentazione si intendono le informazioni utilizzate da un canale, ad esempio posizione o lingua, per visualizzare un’offerta.
 
 ## Video sulle procedure{#video}
 

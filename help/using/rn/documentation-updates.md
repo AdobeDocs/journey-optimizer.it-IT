@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5335'
+source-wordcount: '5334'
 ht-degree: 98%
 
 ---
@@ -391,7 +391,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * È stata migliorata la pagina **Avvio rapido**, con passaggi per utenti tipo diversi. [Ulteriori informazioni](../start/quick-start.md)
 
-* Ora tutte le funzioni di gestione delle decisioni descritte nella sezione dedicata si applicano anche agli utenti Adobe Experience Platform che sfruttano il servizio applicativo Offer Decisioning. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
+* Ora tutte le funzioni di gestione delle decisioni descritte nella sezione dedicata si applicano anche agli utenti Adobe Experience Platform che sfruttano l’applicazione Offer Decisioning. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md)
 
 * È stata aggiunta una sottosezione per chiarire le differenze tra l’utilizzo di tipi di pubblico e regole decisionali nell’applicazione di un vincolo per limitare la selezione delle offerte relative a un determinato posizionamento. [Ulteriori informazioni](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
