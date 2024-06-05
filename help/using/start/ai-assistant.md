@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
+source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ L’Assistente AI è una funzione dell’interfaccia utente che consente di navi
 Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L’Assistente AI viene visualizzato nella sezione destra dello schermo.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
+
+
+>[!CAUTION]
+>
+>Prima di poter utilizzare l’Assistente all’intelligenza artificiale, devi accettare le linee guida per l’utente di Adobe Experience Cloud Generative AI. Ulteriori informazioni sull’accordo sono disponibili in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
 
 In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
