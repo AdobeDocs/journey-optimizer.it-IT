@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
@@ -22,13 +22,13 @@ Combina le diverse attività relative a eventi, orchestrazioni e azioni per crea
 
 ## Attività eventi {#event-activities}
 
-Gli eventi attivano un percorso personalizzato, ad esempio un acquisto online. Una volta che qualcuno entra in un percorso, si muove come un individuo, e non ci sono due individui che si muovono allo stesso ritmo o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso viene attivato alla ricezione dell’evento. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
+I percorsi personalizzati vengono attivati da eventi, ad esempio un acquisto online. Una volta che un profilo entra in un percorso, si sposta come un individuo, e non ci sono due individui che si muovono lungo la stessa velocità o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso viene attivato alla ricezione dell’evento. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
 
 Eventi configurati dall’utente tecnico (vedi [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di eventi:
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
-* [Qualifica per pubblico](../building-journeys/audience-qualification-events.md)
+* [Qualificazione del pubblico](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -92,6 +92,6 @@ In alcuni contesti particolari, è possibile ignorare i valori di questi paramet
 
 ### Aggiungi un percorso alternativo
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)
