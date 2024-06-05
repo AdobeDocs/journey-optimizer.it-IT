@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 5%
+source-wordcount: '545'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 5%
 >title="Attività attendi"
 >abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzata."
 
-È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva. Sono disponibili le seguenti opzioni:
+È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva.  La durata massima di attesa è **29 giorni**.
+
+Sono disponibili i seguenti tipi:
 
 * [Durata](#duration)
 * [Personalizzato](#custom)
@@ -33,19 +35,26 @@ ht-degree: 5%
 * [Fixed date](#fixed_date) 
 -->
 
-## Informazioni sull’attività Attendi {#about_wait}
+## Consigli {#wait-recommendations}
 
-La durata massima di attesa è di 29 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+### Attività di attesa multiple {#multiple-wait-activities}
 
-Presta attenzione quando utilizzi più **Wait** attività in un percorso, poiché il timeout percorso globale è di 30 giorni, il che significa che un profilo verrà sempre escluso dal valore massimo percorso di 30 giorni dopo l’immissione. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
+Quando si utilizzano più **Wait** attività di un percorso, tieni presente che il timeout percorso globale è di 30 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso di 30 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
 
 Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 30 percorsi. Ad esempio, se ne aggiungi due **Wait** attività impostate su 20 giorni ciascuna, il sistema rileva che il secondo **Wait** l’attività termina dopo il timeout di 30 giorni. Il secondo **Wait** L’attività verrà quindi ignorata e l’utente uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
 
+### Attendere e rientrare {#wait-re-entrance}
+
 Best practice per non utilizzare **Wait** attività per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#entrance).
+
+### Modalità di attesa e test {#wait-test-modd}
+
+In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** parametro consente di definire il tempo che ogni **Wait** l’attività durerà. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+
 
 ## Attesa durata {#duration}
 
-Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è di 29 giorni.
+Seleziona la **Durata** digita per impostare la durata dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **29 giorni**.
 
 ![Definire la durata dell’attesa](assets/journey55.png)
 
@@ -60,7 +69,7 @@ Select the date for the execution of the next activity.
 
 ## Attesa personalizzata {#custom}
 
-Utilizza il **Personalizzato** digita per definire una data personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
+Seleziona la **Personalizzato** digita per definire una data personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
 
 ![Definire un’attesa personalizzata con un’espressione](assets/journey57.png)
 

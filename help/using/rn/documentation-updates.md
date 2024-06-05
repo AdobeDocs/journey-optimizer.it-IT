@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '5334'
+source-wordcount: '5355'
 ht-degree: 98%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 98%
 # Aggiornamenti alla documentazione {#latest-updates}
 
 Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL Journey Optimizer].
+
+## Giugno 2024 {#june-2024}
+
+* La pagina su come configurare un **Wait** l&#39;attività in un percorso è stata riorganizzata e migliorata. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 
 ## Maggio 2024 {#may-2024}
 
