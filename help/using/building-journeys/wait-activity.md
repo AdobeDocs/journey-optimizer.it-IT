@@ -1,29 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività Attendi
-description: Scopri l’attività Attendi
+title: Attività attendi
+description: Scopri come configurare l’attività Attendi
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 17%
+source-wordcount: '535'
+ht-degree: 5%
 
 ---
 
-# Attività Attendi{#wait-activity}
+# Attività attendi {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Attività Attendi"
->abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
+>title="Attività attendi"
+>abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzata."
 
-Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’ **[!UICONTROL Wait]** attività. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili le seguenti opzioni:
+È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva. Sono disponibili le seguenti opzioni:
 
 * [Durata](#duration)
 * [Personalizzato](#custom)
@@ -33,21 +33,21 @@ Se desideri attendere prima di eseguire l’attività successiva nel percorso, p
 * [Fixed date](#fixed_date) 
 -->
 
-## Informazioni sull’attività Attendi{#about_wait}
+## Informazioni sull’attività Attendi {#about_wait}
 
-La durata massima di attesa è di 29 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
+La durata massima di attesa è di 29 giorni. In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** Questo parametro ti consente di definire la durata di ogni attività Attendi. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
-Presta attenzione quando utilizzi più attività di attesa in un percorso, in quanto il timeout percorso globale è di 30 giorni, il che significa che un profilo uscirà sempre dal valore massimo percorso 30 giorni dopo essere entrato. Consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
+Presta attenzione quando utilizzi più **Wait** attività in un percorso, poiché il timeout percorso globale è di 30 giorni, il che significa che un profilo verrà sempre escluso dal valore massimo percorso di 30 giorni dopo l’immissione. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
 
-Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 30 percorsi. Ad esempio, se aggiungi due attività di attesa impostate su 20 giorni ciascuna, il sistema rileverà che la seconda attesa terminerà dopo il timeout di 30 giorni. La seconda attesa verrà quindi ignorata e l’individuo uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
+Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 30 percorsi. Ad esempio, se ne aggiungi due **Wait** attività impostate su 20 giorni ciascuna, il sistema rileva che il secondo **Wait** l’attività termina dopo il timeout di 30 giorni. Il secondo **Wait** L’attività verrà quindi ignorata e l’utente uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
 
-È buona prassi non utilizzare le attese per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Consulta [questa pagina](../building-journeys/journey-gs.md#entrance).
+Best practice per non utilizzare **Wait** attività per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#entrance).
 
-## Attesa durata{#duration}
+## Attesa durata {#duration}
 
 Seleziona la durata dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è di 29 giorni.
 
-![](assets/journey55.png)
+![Definire la durata dell’attesa](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -58,19 +58,25 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Attesa personalizzata{#custom}
+## Attesa personalizzata {#custom}
 
-Questa opzione consente di definire una data personalizzata, ad esempio 12 luglio 2023 alle 17:00, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o un’origine dati. Non consente di definire una durata personalizzata, ad esempio 7 giorni. L’espressione nell’editor espressioni deve fornire un formato dateTimeOnly. Fai riferimento a questo [pagina](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [pagina](expression/data-types.md).
+Utilizza il **Personalizzato** digita per definire una data personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
+
+![Definire un’attesa personalizzata con un’espressione](assets/journey57.png)
+
+L’espressione nell’editor deve fornire `dateTimeOnly` formato. Consulta [questa pagina](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, fare riferimento a [questa pagina](expression/data-types.md).
+
+Si consiglia di utilizzare date personalizzate specifiche per i profili ed evitare di utilizzare la stessa data per tutti. Ad esempio, non definire `toDateTimeOnly('2024-01-01T01:11:00Z')` ma piuttosto `toDateTimeOnly(@event{Event.productDeliveryDate})` che è specifico per ciascun profilo. Tieni presente che l’utilizzo di date fisse può causare problemi nell’esecuzione del percorso.
+
 
 >[!NOTE]
 >
->È possibile sfruttare un&#39;espressione dateTimeOnly o utilizzare una funzione per convertire in dateTimeOnly. Ad esempio: toDateTimeOnly(@event{Event.offerOpened.activity.endTime}), il campo nell’evento è nel formato 2023-08-12T09:46:06Z
+>Puoi sfruttare una `dateTimeOnly` espressione o utilizzare una funzione per convertire in una `dateTimeOnly`. Ad esempio: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, se il campo è del modulo 2023-08-12T09:46:06Z
 >
->Il **fuso orario** nelle proprietà del percorso. Di conseguenza, oggi non è possibile dall’interfaccia puntare direttamente a un timestamp completo ISO-8601 che mescola tempo e scostamento fuso orario come 2023-08-12T09:46:06.982-05 Consulta [questa pagina](../building-journeys/timezone-management.md).
+>Il **fuso orario** nelle proprietà del percorso. Di conseguenza, dall’interfaccia utente di, non è possibile puntare direttamente a una marca temporale ISO-8601 completa per la combinazione di tempo e scostamento fuso orario, come 2023-08-12T09:46:06.982-05 [Ulteriori informazioni](../building-journeys/timezone-management.md).
 
-![](assets/journey57.png)
 
-Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. Consulta [questa pagina](../reports/query-examples.md#common-queries).
+Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. [Ulteriori informazioni](../reports/query-examples.md#common-queries).
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
