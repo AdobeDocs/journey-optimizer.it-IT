@@ -9,7 +9,7 @@ exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
 source-git-commit: 5f69b252f5812f43b3d0a6fed0aac074ece0d10f
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi controllare il punteggio di posta indesiderata in un report spam dedicato. 
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile nella versione beta e solo per i clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
+>Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma beta, contatta l’Assistenza clienti di Adobe.
 
 Quando modifichi o visualizzi in anteprima il contenuto delle e-mail, il **[!UICONTROL Rapporto spam]** fornisce un punteggio e consigli per migliorare i punteggi di ogni singolo elemento elencato.
 
