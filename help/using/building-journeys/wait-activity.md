@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '566'
+ht-degree: 5%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 4%
 
 È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva.  La durata massima di attesa è **29 giorni**.
 
-Sono disponibili i seguenti tipi:
+È possibile impostare due tipi di **Wait** attività:
 
-* [Durata](#duration)
-* [Personalizzato](#custom)
+* Un’attesa basata su una durata di correzione. [Ulteriori informazioni](#duration)
+* Un’attesa personalizzata, utilizzando le funzioni per calcolarla. [Ulteriori informazioni](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ Best practice per non utilizzare **Wait** attività per bloccare il rientro. Inv
 
 In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** parametro consente di definire il tempo che ogni **Wait** l’attività durerà. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
+## Configurazione {#wait-configuration}
 
-## Attesa durata {#duration}
+### Attesa durata {#duration}
 
 Seleziona la **Durata** digita per impostare la durata dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **29 giorni**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Attesa personalizzata {#custom}
+### Attesa personalizzata {#custom}
 
-Seleziona la **Personalizzato** digita per definire una data personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
+Seleziona la **Personalizzato** digita per definire una durata personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
 
 ![Definire un’attesa personalizzata con un’espressione](assets/journey57.png)
 
