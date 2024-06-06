@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L
 
 In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
-* Conoscenza del prodotto (disponibilità generale) Le domande sulla conoscenza del prodotto riguardano concetti Adobi relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sulla conoscenza del prodotto includono:
+* **Conoscenza del prodotto** (Disponibilità generale)
+
+  Le domande sulla conoscenza del prodotto riguardano concetti di Adobe relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sulla conoscenza del prodotto includono:
 
    * Quante attività live posso avere in una sandbox di Adobe Journey Optimizer?
    * Come si imposta una campagna in Adobe Journey Optimizer?
    * Come si crea un&#39;azione personalizzata da utilizzare nei percorsi Adobe Journey Optimizer?
 
 
-* Informazioni operative nei percorsi (Beta) Le domande relative alle informazioni operative riguardano gli oggetti del percorso nella sandbox della tua organizzazione. Alcuni esempi di domande o prompt di approfondimento operativo includono:
+* **Informazioni operative** in percorsi (Beta)
+
+  Le domande operative riguardano gli oggetti del percorso nella sandbox dell’organizzazione. Alcuni esempi di domande o prompt di approfondimento operativo includono:
 
    * Quanti percorsi live ho in Adobe Journey Optimizer?
    * Dammi un elenco di tutti i percorsi pianificati
@@ -50,11 +54,11 @@ In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
 Per porre una domanda, immetterla nel campo nella parte inferiore dello schermo e premere Invio.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 Controlla la risposta e utilizza **Mostra origini** per ottenere collegamenti diretti alla documentazione del prodotto e ulteriori informazioni.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Utilizza il pollice verso l’alto o il pollice verso il basso per valutare la risposta.
 
