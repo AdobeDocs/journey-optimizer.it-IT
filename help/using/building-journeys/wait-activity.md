@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
+source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '567'
 ht-degree: 5%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 5%
 
 È possibile impostare due tipi di **Wait** attività:
 
-* Un’attesa basata su una durata di correzione. [Ulteriori informazioni](#duration)
-* Un’attesa personalizzata, utilizzando le funzioni per calcolarla. [Ulteriori informazioni](#custom)
+* Un’attesa basata su una durata relativa. [Ulteriori informazioni](#duration)
+* Una data personalizzata, utilizzando le funzioni per calcolarla. [Ulteriori informazioni](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -55,7 +55,7 @@ In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** parametro con
 
 ### Attesa durata {#duration}
 
-Seleziona la **Durata** digita per impostare la durata dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **29 giorni**.
+Seleziona la **Durata** digita per impostare la durata relativa dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **29 giorni**.
 
 ![Definire la durata dell’attesa](assets/journey55.png)
 
@@ -70,7 +70,7 @@ Select the date for the execution of the next activity.
 
 ### Attesa personalizzata {#custom}
 
-Seleziona la **Personalizzato** digita per definire una durata personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
+Seleziona la **Personalizzato** digita per definire una data personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
 
 ![Definire un’attesa personalizzata con un’espressione](assets/journey57.png)
 
