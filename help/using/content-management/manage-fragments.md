@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 4f238177485ccc5ab53b48488dd1f2084d34d684
+source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '536'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nuovi stati dei frammenti"
->abstract="Da **Bozza** e **Live** Con la versione di giugno di Journey Optimizer sono stati introdotti gli stati; tutti i frammenti creati prima di questa versione hanno lo stato &quot;Bozza&quot;, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli &quot;live&quot; e propagare le modifiche alle campagne e ai percorsi associati. Devi anche creare una nuova versione di percorso/campagna e pubblicarla."
+>abstract="Da **Bozza** e **Live** Con la versione di giugno di Journey Optimizer sono stati introdotti gli stati; tutti i frammenti creati prima di questa versione hanno lo stato &quot;Bozza&quot;, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli &quot;live&quot; e propagare le modifiche alle campagne e ai percorsi associati. Devi anche creare una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede un’autorizzazione utente."
 
 Per gestire i frammenti, accedi all’elenco dei frammenti da **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
 
