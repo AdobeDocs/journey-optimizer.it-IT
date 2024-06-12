@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: in-app, messaggio, configurazione, piattaforma
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 9%
@@ -26,7 +26,6 @@ Per inviare messaggi in-app nei percorsi e nelle campagne con [!DNL Journey Opti
 1. Se utilizzi esperimenti di contenuto, assicurati di seguire i requisiti elencati in [questa sezione](#experiment-prerequisite).
 
 Al termine, puoi creare, configurare e inviare il tuo primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
-
 
 ## Prerequisiti per la consegna {#delivery-prerequisites}
 
