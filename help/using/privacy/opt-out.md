@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
 source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1066'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer i
 
 >[!NOTE]
 >
->In entrata [!DNL Journey Optimizer], il consenso è gestito dall&#39;Experience Platform [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"}. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"}.
+>In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it) di Experience Platform{target="_blank"}. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l’onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"}.
 
 ## Implementare il consenso alla personalizzazione {#opt-out-personalization}
 
@@ -100,7 +100,7 @@ Se un utente:
 
 ### Nell’editor di personalizzazione {#opt-out-expression-editor}
 
-Il [editor di personalizzazione](../personalization/personalization-build-expressions.md) non effettua di per sé alcun controllo del consenso o dell’applicazione in quanto non è coinvolta nella consegna dei messaggi.
+L’[editor di personalizzazione](../personalization/personalization-build-expressions.md) stesso non esegue alcun controllo o applicazione del consenso, in quanto non è coinvolto nella consegna dei messaggi.
 
 Tuttavia, l’utilizzo di etichette di controllo dell’accesso basate sui diritti consente di limitare quali campi possono essere utilizzati per la personalizzazione. L’[anteprima del messaggio](../content-management/preview.md) e il [servizio di rendering di e-mail](../content-management/rendering.md) maschererà i campi identificati con informazioni sensibili.
 

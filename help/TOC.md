@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1817'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
    + [Cercare, filtrare, categorizzare](using/start/search-filter-categorize.md)
    + [Accessibilità](using/start/accessibility.md)
    + [Usare i playbook sui casi d’uso](using/start/playbooks.md)
-   + [Utilizzare l’Assistente AI](using/start/ai-assistant.md)
+   + [Utilizzare l’Assistente IA](using/start/ai-assistant.md)
    + [Integrazioni](using/start/ajo-integrations.md)
    + [Guardrail](using/start/guardrails.md)
    + [Best practice](using/start/best-practices.md)
@@ -315,7 +315,7 @@ ht-degree: 98%
    + Frammenti di contenuto riutilizzabili {#fragments}
       + [Introduzione ai frammenti](using/content-management/fragments.md)
       + [Creare un frammento](using/content-management/create-fragments.md)
-      + [Salva contenuto esistente come frammento](using/content-management/save-fragments.md)
+      + [Salvare contenuto esistente come frammento](using/content-management/save-fragments.md)
       + [Gestire i frammenti](using/content-management/manage-fragments.md)
    + Contenuto dinamico {#dynamic}
       + [Introduzione ai contenuti dinamici](using/personalization/get-started-dynamic-content.md)
