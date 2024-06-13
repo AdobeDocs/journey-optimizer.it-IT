@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 23%
+source-wordcount: '640'
+ht-degree: 24%
 
 ---
 
@@ -169,6 +169,9 @@ Questa versione include i miglioramenti elencati di seguito.
 * Il timeout globale del percorso è stato aumentato da 30 a 91 giorni.
 * Adobe Journey Optimizer ora supporta le richieste di accesso/eliminazione della privacy.
 * È ora possibile ridimensionare le colonne nell’inventario del percorso.
+* **Editor di espressioni avanzate nella configurazione dell’evento** è ora GA - È ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione dell’ID evento. Questa funzionalità viene rilasciata in Disponibilità limitata per clienti selezionati. [Ulteriori informazioni](../event/about-creating.md)
+* **Criteri di unione** sono ora GA: i criteri di unione utilizzati da un Percorso sono ora visibili e coerenti in tutto il percorso. Questa funzionalità viene rilasciata in Disponibilità limitata per clienti selezionati. [Ulteriori informazioni](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **Campagne**
@@ -183,7 +186,7 @@ Questa versione include i miglioramenti elencati di seguito.
 **Canale SMS**
 
 * Ora puoi aggiungere codici brevi univoci per ogni sandbox con una singola configurazione API, per rendere il processo più efficiente e semplificato.
-* Ora puoi modificare le configurazioni SMS esistenti.
+  <!--* You can now modify existing SMS configurations.-->
 
 **Canale in-app**
 
