@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 ## Aggiornamenti di giugno 2024
 
-* Ora puoi lavorare con Adobe Experience Platform AI Assistant in Adobe Journey Optimizer. [Ulteriori informazioni](../start/ai-assistant.md)
+* Ora puoi lavorare con Assistente IA di Adobe Experience Platform in Adobe Journey Optimizer. [Ulteriori informazioni](../start/ai-assistant.md)
 
 * **Supporto di più regole nella gestione delle decisioni** - È ora possibile aggiungere fino a 10 regole di limite per una determinata offerta in Gestione delle decisioni. Ciò offre un maggiore controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../offers/offer-library/add-constraints.md#capping)
 
@@ -62,14 +62,14 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Personalizzazione della superficie e-mail - Disponibilità limitata</strong><br/></th>
+<th><strong>Personalizzazione della superficie e-mail: disponibilità limitata</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione di superfici di canale e-mail, per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail.</p>
-<p>La personalizzazione della superficie e-mail è attualmente disponibile solo per un set di organizzazioni (Disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Ora puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione di superfici di canale e-mail, per maggiore flessibilità e controllo sulle impostazioni e-mail.</p>
+<p>La personalizzazione della superficie e-mail è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/surface-personalization.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -157,7 +157,7 @@ Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i 
 
   >[!AVAILABILITY]
   >
-  >Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma beta, contatta il rappresentante del tuo Adobe.
+  >Questa funzionalità è disponibile nella versione beta e solo per clienti beta. Per partecipare al programma Beta, contatta il tuo rappresentante Adobe.
 
 <!--
 **Audiences**
