@@ -7,13 +7,13 @@ feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
+source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # Caso d’uso: utilizzare azioni personalizzate per scrivere eventi di Percorso in Experienci Platform{#custom-action-aep}
 
@@ -36,6 +36,10 @@ Questo caso d’uso spiega come scrivere eventi personalizzati in Adobe Experien
 ```
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
+
+>[!CAUTION]
+>
+>Dopo aver creato il progetto nella console Adobe Developer, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## Configurare l’origine utilizzando l’ingresso API HTTP
 
@@ -172,5 +176,3 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 1. Popola l’ID versione del Percorso, l’ID nodo, il nome del nodo e altri attributi in base al tuo caso d’uso.
 
    ![](assets/custom-action-aep-9.png)
-
-
