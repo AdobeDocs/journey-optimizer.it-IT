@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e5d1e7a7520579b1fae7898f67cb10ee3915e1c
+source-git-commit: 354c05746b6aa45356969fab9af6ffdcee6b9e66
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 71%
@@ -205,7 +205,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Ora puoi utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata.
 
+<!--
+**Direct mail channel**
 
+* Direct mail channel is now available for organizations that have purchased the Adobe **Healthcare Shield** and **Privacy and Security Shield** add-on offerings.
+-->
 
 ## Note sulla versione di maggio 2024 {#may-2024}
 
