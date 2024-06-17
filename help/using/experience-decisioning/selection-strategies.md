@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '722'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Definire le strategie di selezione"
->abstract="Una strategia di selezione è riutilizzabile e consiste in una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un criterio decisionale."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creare criteri di decisione"
+>abstract="Una strategia di selezione è riutilizzabile e consiste in una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da visualizzare quando vengono selezionate in un criterio di decisione."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creare criteri di decisione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
->title="Limita i profili idonei"
+>title="Limitare i profili idonei"
 >abstract="Puoi limitare la selezione delle offerte per questa strategia di selezione. Per impostazione predefinita, tutti i profili sono idonei, ma puoi utilizzare tipi di pubblico o regole per limitare la selezione dell’offerta solo a profili specifici."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Utilizzare i tipi di pubblico"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html" text="Utilizzare le regole di decisione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=it" text="Utilizzare i tipi di pubblico"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html?lang=it" text="Utilizzare le regole di decisione"
 
 Una strategia di selezione è riutilizzabile ed è costituita da una raccolta associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare quando vengono selezionate in un [criterio di decisione](create-decision.md).
 
@@ -81,15 +81,15 @@ Per creare una strategia di selezione, segui i passaggi indicati di seguito.
 
    * Se desideri utilizzare un punteggio calcolato specifico per scegliere l’offerta idonea da consegnare, seleziona [Formula](#ranking-formula) o [Modello IA](#ai-ranking).
 
-1. Clic **[!UICONTROL Crea]**. È ora pronto per essere utilizzato in un [criterio di decisione](create-decision.md)
+1. Fai clic su **[!UICONTROL Crea]**. È ora pronto per essere utilizzato in un [criterio di decisione](create-decision.md)
 
-## Seleziona un metodo di classificazione {#select-ranking-method}
+## Selezionare un metodo di classificazione {#select-ranking-method}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_ranking"
 >title="Definire la modalità di classificazione delle offerte"
 >abstract="Se più offerte sono idonee per una determinata strategia di selezione, scegli il metodo che selezionerà l’offerta migliore per ciascun profilo durante la creazione di una strategia di selezione: priorità o formula di classificazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creare criteri di decisione"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/create-decision.html" text="Creare criteri di decisione"
 
 Se più offerte sono idonee per una determinata strategia di selezione, puoi scegliere il metodo con cui selezionare l’offerta migliore per ciascun profilo al momento di creare una strategia di selezione. Puoi classificare le offerte in base a:
 

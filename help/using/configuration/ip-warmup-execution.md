@@ -41,7 +41,7 @@ Ogni fase è composta da più esecuzioni, alle quali si assegna una singola camp
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Escludere i tipi di pubblico delle campagne"
->abstract="Seleziona le campagne per escludere i relativi tipi di pubblico dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di preparazione dell’IP non saranno considerati di nuovo oggetti di targeting."
+>abstract="Seleziona le campagne per escludere i relativi tipi di pubblico dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di preparazione IP non saranno nuovamente oggetto di targeting."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
