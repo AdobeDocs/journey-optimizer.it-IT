@@ -15,7 +15,7 @@ exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
 source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
@@ -41,13 +41,13 @@ Ogni fase è composta da più esecuzioni, alle quali si assegna una singola camp
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Escludere i tipi di pubblico delle campagne"
->abstract="Seleziona le campagne per escludere i relativi tipi di pubblico dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di riscaldamento dell’IP non verranno nuovamente oggetto di targeting."
+>abstract="Seleziona le campagne per escludere i relativi tipi di pubblico dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di preparazione dell’IP non saranno considerati di nuovo oggetti di targeting."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
->title="Escludi gruppi di dominio"
+>title="Escludere gruppi di dominio"
 >abstract="Seleziona i domini da escludere dalla fase corrente. L’esclusione del dominio richiede una fase non eseguita, quindi potrebbe essere necessario dividere una fase in esecuzione per aggiungere esclusioni."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Dividere una fase"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html?lang=it#split-phase" text="Suddividere una fase"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_phases"
@@ -151,22 +151,22 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_last_engagement"
 >title="Filtra in base al coinvolgimento"
->abstract="Questa colonna è un filtro che esegue il targeting solo degli utenti coinvolti con il tuo marchio negli ultimi 20 giorni, ad esempio. È inoltre possibile modificare questa impostazione tramite **Modifica esecuzione** opzione."
+>abstract="Questa colonna è un filtro che esegue il targeting solo degli utenti coinvolti con il tuo marchio negli ultimi 20 giorni, ad esempio. È inoltre possibile modificare questa impostazione tramite l’opzione **Modifica esecuzione**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_retry"
->title="Impostare una finestra temporale"
->abstract="Puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nel processo di segmentazione."
+>title="Impostare un intervallo di tempo"
+>abstract="Puoi definire un intervallo di tempo durante il quale la campagna di preparaizone IP può essere eseguita in caso di ritardi nel processo di segmentazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_pause"
->title="Annulla esecuzioni con errori del pubblico"
->abstract="Seleziona questa opzione per annullare un’esecuzione se i profili idonei sono inferiori ai profili target una volta che il pubblico è stato valutato per tale esecuzione."
+>title="Annullare esecuzioni con errori del pubblico"
+>abstract="Seleziona questa opzione per annullare un’esecuzione se i profili qualificati sono inferiori ai profili di destinazione una volta che il pubblico è stato valutato per tale esecuzione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
->title="Visualizzare i profili qualificati"
->abstract="Questa colonna mostra il numero di profili idonei. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili target rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che il **Annulla esecuzioni attivate in caso di errori** l&#39;opzione è abilitata. In questo caso, l’esecuzione viene annullata."
+>title="Visualizzazione a 360° dei profili"
+>abstract="Questa colonna mostra il numero di profili qualificati. Una volta che il pubblico è stato valutato per un’esecuzione, se sono presenti più profili target rispetto ai profili qualificati, l’esecuzione viene comunque eseguita, a meno che non sia abilitata l’opzione **Annulla esecuzioni attivate in caso di errori**. In questo caso, l’esecuzione viene annullata."
 
 1. Seleziona una pianificazione per ogni esecuzione per assicurarti che venga eseguita all’ora specificata.
 
@@ -315,7 +315,7 @@ Puoi anche accedere ai rapporti da [Menu Campagne](../campaigns/modify-stop-camp
 
 In qualsiasi momento, se il piano di riscaldamento dell’IP non funziona come previsto, puoi intraprendere le azioni seguenti.
 
-### Dividere una fase {#split-phase}
+### Suddividere una fase {#split-phase}
 
 Se desideri aggiungere una nuova fase a partire da un’esecuzione specifica, seleziona la **[!UICONTROL Dividi esegue una nuova fase]** dall&#39;icona Altre azioni.
 
