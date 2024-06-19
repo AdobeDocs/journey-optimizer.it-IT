@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, fine, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Un percorso può essere chiuso per i motivi seguenti:
 
 La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
 
-Dopo 30 giorni, un percorso Read audience passa alla **Completato** stato. Questo comportamento è impostato solo per 30 giorni (ossia per il valore predefinito di timeout del percorso), poiché tutte le informazioni sui profili che sono entrati nel percorso vengono rimosse 30 giorni dopo l’immissione. Le persone ancora nel percorso sono automaticamente interessate. Uscono dal percorso dopo il timeout di 30 giorni.
+Dopo 91 giorni [timeout predefinito](journey-gs.md#global_timeout), un percorso Read audience passa alla **Completato** stato. Questo comportamento è impostato solo per 91 giorni (ad es. [Valore predefinito timeout percorso](journey-gs.md#global_timeout)) poiché tutte le informazioni sui profili che sono entrati nel percorso vengono rimosse 91 giorni dopo l’ingresso. Le persone ancora nel percorso sono automaticamente interessate. Uscono dal percorso dopo il timeout di 91 giorni.
 
 Consulta questa [sezione](../building-journeys/journey-gs.md#global_timeout).
 

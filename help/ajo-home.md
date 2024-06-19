@@ -5,10 +5,10 @@ description: Scopri come utilizzare Adobe Journey Optimizer.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
-workflow-type: ht
-source-wordcount: '354'
-ht-degree: 100%
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 83%
 
 ---
 
@@ -20,27 +20,29 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di maggio è disponibile]
+>[!TAB La versione di giugno è live!]
 
 Scopri le nuove funzioni e i miglioramenti introdotti nella versione di maggio di Adobe Journey Optimizer.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Decisioni per le esperienze]
+>[!TAB Generazione di rapporti con il Customer Journey Analytics (Beta)]
 
-La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato.
+Il reporting di Journey Optimizer è ora completamente integrato con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati.
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB Assistente AI]
 
->[!TAB Nuova esperienza percorso]
+L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti Adobi e comprenderli e ottenere informazioni operative per l’ambiente specifico.
 
-Questa versione include un’interfaccia utente dell’area di lavoro migliorata per i percorsi e offre un’esperienza utente più intuitiva ed efficiente. Le attività sono più chiare e nell’area di lavoro del percorso è possibile ottenere più informazioni con meno clic.
+[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB Frammenti di contenuto]
 
-[![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+È ora possibile modificare i frammenti e propagare le modifiche in tutti i percorsi live e le campagne in cui vengono utilizzati.
+
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 

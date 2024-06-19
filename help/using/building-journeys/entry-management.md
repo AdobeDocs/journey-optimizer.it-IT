@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ Nei percorsi di qualificazione Unitaria di eventi e pubblico, puoi abilitare o d
 
 * Se il rientro è disattivato, un profilo non può entrare più volte nello stesso percorso, entro il periodo di timeout del percorso globale. Consulta questa [sezione](../building-journeys/journey-gs.md#global_timeout).
 
-Per impostazione predefinita, i percorsi consentono il rientro. Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Consente di definire il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso. In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 29 giorni.
+Per impostazione predefinita, i percorsi consentono il rientro. Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Consente di definire il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso. In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 91 giorni ([timeout predefinito](journey-gs.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
@@ -49,7 +49,7 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 Dopo il periodo di rientro, i profili possono rientrare nel percorso. Per evitare questo problema e disabilitare completamente il rientro per tali profili, puoi aggiungere una condizione per verificare se il profilo è già stato inserito o meno, utilizzando i dati del profilo o del pubblico.
 
 <!--
-Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
 ## Percorsi lavorativi{#entry-business}
 
@@ -90,5 +90,5 @@ Per i percorsi di pubblico Leggi ricorrenti sono disponibili due opzioni:
 Per ulteriori informazioni, consulta questa [sezione](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 <!--
-After 30 days, a Read audience journey switches to the **Finished** status. This behavior is set for 30 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 30 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
+After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività attendi
+title: Attività Attendi
 description: Scopri come configurare l’attività Attendi
 feature: Journeys, Activities
 topic: Content Management
@@ -9,19 +9,19 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Attività attendi {#wait-activity}
+# Attività Attendi {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Attività attendi"
->abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Ti consente di definire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzata."
+>title="Attività Attendi"
+>abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
 È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva.  La durata massima di attesa è **29 giorni**.
 
@@ -35,13 +35,13 @@ ht-degree: 5%
 * [Fixed date](#fixed_date) 
 -->
 
-## Consigli {#wait-recommendations}
+## Raccomandazioni {#wait-recommendations}
 
 ### Attività di attesa multiple {#multiple-wait-activities}
 
-Quando si utilizzano più **Wait** attività di un percorso, tieni presente che il timeout percorso globale è di 30 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso di 30 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
+Quando si utilizzano più **Wait** attività in un percorso, tieni presente che il [timeout percorso globale](journey-gs.md#global_timeout) è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso di 91 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
 
-Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 30 percorsi. Ad esempio, se ne aggiungi due **Wait** attività impostate su 20 giorni ciascuna, il sistema rileva che il secondo **Wait** l’attività termina dopo il timeout di 30 giorni. Il secondo **Wait** L’attività verrà quindi ignorata e l’utente uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
+Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 91 percorsi. Ad esempio, se ne aggiungi due **Wait** attività impostate su 20 giorni ciascuna, il sistema rileva che il secondo **Wait** l’attività terminerà dopo il timeout di 91 giorni. Il secondo **Wait** L’attività verrà quindi ignorata e l’utente uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
 
 ### Attendere e rientrare {#wait-re-entrance}
 

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
+source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1613'
 ht-degree: 12%
 
 ---
@@ -61,20 +61,17 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
    >
    >Quando selezioni il **[!UICONTROL Generato dal sistema]** tipo, sono disponibili solo gli schemi che hanno il campo tipo eventID. Quando selezioni il **[!UICONTROL Basato su regole]** Tipo, sono disponibili tutti gli schemi Experience Event.
 
-1. Per gli eventi basati su regole, fai clic su all’interno del **[!UICONTROL Condizione ID evento]** campo. Utilizzando l’editor di espressioni semplice o avanzato, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
-   ![](assets/jo-event6.png)
+1. Per gli eventi basati su regole, fai clic su all’interno del **[!UICONTROL Condizione ID evento]** campo. Utilizzo di <!--simple or advanced--> editor di espressioni, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
 
-   >[!NOTE]
-   >
-   >L’editor di espressioni avanzate nella configurazione degli eventi è disponibile in Disponibilità limitata per alcuni clienti selezionati.
+![](assets/jo-event6.png)
 
-   Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL Città]** campo e **[!UICONTROL Parigi]** ), la trasmetterà ai percorsi.
+Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL Città]** campo e **[!UICONTROL Parigi]** ), la trasmetterà ai percorsi.
 
-   >[!NOTE]
-   >
-   >Nell’editor delle espressioni semplici non tutti gli operatori sono disponibili, ma dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, puoi utilizzare &quot;contains&quot; o &quot;equal to&quot;.
-   >
-   >Se modifichi lo schema con nuovi valori di enumerazione dopo aver creato l’evento, segui questi passaggi per applicare le modifiche all’evento esistente: deseleziona il campo di enumerazione dai campi dell’evento, conferma la selezione, quindi seleziona nuovamente il campo di enumerazione. Viene ora visualizzato il nuovo valore di enumerazione.
+>[!NOTE]
+>
+>Nell’editor delle espressioni semplici non tutti gli operatori sono disponibili, ma dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, puoi utilizzare &quot;contains&quot; o &quot;equal to&quot;.
+>
+>Se modifichi lo schema con nuovi valori di enumerazione dopo aver creato l’evento, segui questi passaggi per applicare le modifiche all’evento esistente: deseleziona il campo di enumerazione dai campi dell’evento, conferma la selezione, quindi seleziona nuovamente il campo di enumerazione. Viene ora visualizzato il nuovo valore di enumerazione.
 
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa sezione](../event/about-creating.md#select-the-namespace).
 
@@ -159,14 +156,23 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 
    ![](assets/journey16.png)
 
-1. Seleziona il campo scelto come chiave nell’elenco dei campi del payload. Puoi anche passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi).
-
-   ![](assets/journey20.png)
+1. Seleziona il campo scelto come chiave nell’elenco dei campi del payload.
 
 Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associato a uno spazio dei nomi (vedere [questa sezione](../event/about-creating.md#select-the-namespace)), la chiave può essere utilizzata per eseguire query su Adobe Experience Platform. Consulta [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
 La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
-È inoltre possibile accedere alle funzioni di espressione avanzate (**[!UICONTROL Modalità avanzata]**) se desideri eseguire ulteriori manipolazioni. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio per modificare i formati e eseguire concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i primi 10 caratteri). Consulta questa [pagina](../building-journeys/expression/expressionadvanced.md).
+### Editor di espressioni avanzate {#adv-exp-editor}
+
+
+Quando definisci l’identificatore Profilo, puoi passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi).
+
+![](assets/journey20.png)
+
+Puoi accedere alle funzioni di espressione avanzata da **[!UICONTROL Modalità avanzata]** se si desidera eseguire ulteriori manipolazioni. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio per modificare i formati e eseguire concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i primi 10 caratteri). Consulta questa [pagina](../building-journeys/expression/expressionadvanced.md).
+
+>[!AVAILABILITY]
+>
+>L’editor di espressioni avanzate è disponibile solo per un set di organizzazioni (LA).
 
 ## Anteprima del payload {#preview-the-payload}
 

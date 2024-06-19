@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Quando si utilizza **editor di personalizzazione**, puoi sfruttare tutti i frammenti di espressione creati o salvati nella sandbox corrente.
 
-Scopri come creare e gestire i frammenti in [questa sezione](../content-management/fragments.md).
+Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti in un processo di progettazione migliorato. [Scopri come creare e gestire i frammenti](../content-management/fragments.md).
 
 ➡️ [Scopri come gestire, creare e utilizzare i frammenti in questo video](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ Scopri come creare e gestire i frammenti in [questa sezione](../content-manageme
 
 Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
+>[!NOTE]
+>
+>Puoi aggiungere fino a 30 frammenti in una determinata consegna. I frammenti possono essere nidificati solo fino a un livello.
+
 1. Apri [editor di personalizzazione](personalization-build-expressions.md) e seleziona la **[!UICONTROL Frammenti]** nel riquadro sinistro.
+
+   Nell’elenco vengono visualizzati tutti i frammenti di espressione creati o salvati come frammenti nella sandbox corrente. Sono ordinati per data di creazione: i frammenti di espressione aggiunti di recente vengono visualizzati per primi nell’elenco. [Ulteriori informazioni](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   Nell’elenco vengono visualizzati tutti i frammenti di espressione creati o salvati come frammenti nella sandbox corrente. [Ulteriori informazioni](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >I frammenti sono ordinati per data di creazione: i frammenti di espressione aggiunti di recente vengono visualizzati per primi nell’elenco.
-
-1. Puoi anche aggiornare l’elenco.
+   Puoi anche aggiornare questo elenco.
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 
    ![](assets/expression-fragment-add.png)
 
-   Una volta aggiunto l’ID frammento, se apri il frammento di espressione corrispondente e [modificarlo](../content-management/fragments.md#edit-fragments) dall’interfaccia di, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutti **[!UICONTROL Bozza]** percorsi/campagne contenenti tale ID frammento.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Le modifiche non vengono propagate al contenuto utilizzato in **[!UICONTROL Live]** percorsi o campagne.
+   >Puoi aggiungere qualsiasi **Bozza** o **Live** frammento nel contenuto. Tuttavia, non potrai attivare il percorso o la campagna se al suo interno viene utilizzato un frammento con lo stato Bozza. Durante la pubblicazione di un percorso o di una campagna, i frammenti bozza mostreranno un errore e dovrai approvarli per poterli pubblicare.
+   >
+   > Si prega di notare che gli stati dei frammenti vengono gradualmente implementati nel corso di diversi giorni dopo la versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nel tuo ambiente, tieni presente che il frammento non deve essere **Live** da utilizzare nei percorsi e nelle campagne.
 
-1. Fai clic su **[!UICONTROL Altre azioni]** accanto a un frammento.
+1. Una volta aggiunto l’ID frammento, se apri il frammento di espressione corrispondente e [modificarlo](../content-management/fragments.md#edit-fragments) dall’interfaccia di, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutte le bozze o ai percorsi/campagne live che contengono tale ID frammento.
 
-1. Dal menu contestuale visualizzato, seleziona **[!UICONTROL Visualizza frammento]** per ottenere ulteriori informazioni su quel frammento. Il **[!UICONTROL ID frammento]** viene visualizzato anche e può essere copiato da qui.
+1. Fai clic su **[!UICONTROL Altre azioni]** accanto a un frammento. Dal menu contestuale visualizzato, seleziona **[!UICONTROL Visualizza frammento]** per ottenere ulteriori informazioni su quel frammento. Il **[!UICONTROL ID frammento]** viene visualizzato anche e può essere copiato da qui.
 
    ![](assets/expression-fragment-view.png)
 

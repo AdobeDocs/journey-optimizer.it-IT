@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 5%
+source-wordcount: '176'
+ht-degree: 4%
 
 ---
 
@@ -29,6 +29,8 @@ Per configurare Twilio con Journey Optimizer, è necessario creare una nuova cre
    * **[!UICONTROL SID account]** e **[!UICONTROL Token di autenticazione]**: accedi a **Informazioni account** per trovare le credenziali.
 
    * **[!UICONTROL SID messaggio]**: inserisci l’identificatore univoco assegnato a ogni messaggio creato dall’API di Twilio. Ulteriori informazioni in [Documentazione di Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
+
+   * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata.
 
 1. Clic **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 

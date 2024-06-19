@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: dati, gestione, piattaforma
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
+source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 1%
@@ -65,12 +65,12 @@ Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenu
 
 È possibile utilizzare [!DNL Journey Optimizer]la flessibilità dei dati di per soddisfare i requisiti specifici relativi alla conservazione, all&#39;archiviazione o all&#39;eliminazione dei dati:
 
-* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati sorgente in qualsiasi momento tramite l’API di accesso ai dati senza penali o ritardi. Il [API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati sorgente in qualsiasi momento tramite l’API di accesso ai dati senza penali o ritardi. Il [API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} fornisce agli utenti un’interfaccia RESTful incentrata sulla reperibilità e l’accessibilità dei set di dati acquisiti in [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   Nota che il contenuto utilizzato nei percorsi o nelle campagne non può essere estratto tramite i metodi API o di destinazione menzionati in precedenza.
 
 <!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 30 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
+* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer’s default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization’s data retention policy.
 
   Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->

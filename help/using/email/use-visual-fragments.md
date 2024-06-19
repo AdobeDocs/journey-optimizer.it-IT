@@ -8,24 +8,27 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '612'
+ht-degree: 2%
 
 ---
 
 # Aggiungi frammenti visivi alle e-mail {#use-visual-fragments}
 
-È possibile utilizzare un frammento visivo in una [email](get-started-email-design.md) in un percorso, in una campagna o in un [modello di contenuto](../content-management/content-templates.md).
-
->[!NOTE]
->
->Scopri come creare e gestire i frammenti in [questa sezione](../content-management/fragments.md).
+Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail tra campagne Journey Optimizer, percorsi o modelli di contenuto. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato. [Scopri come creare e gestire i frammenti](../content-management/fragments.md).
 
 ➡️ [Scopri come gestire, creare e utilizzare i frammenti in questo video](../content-management/fragments.md#video-fragments)
 
 ## Utilizzare un frammento {#use-fragment}
+
+Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
+
+>[!NOTE]
+>
+>Puoi aggiungere fino a 30 frammenti in una determinata consegna. I frammenti possono essere nidificati solo fino a un livello.
+
 
 1. Apri qualsiasi contenuto e-mail o modello utilizzando [E-mail Designer](get-started-email-design.md).
 
@@ -33,17 +36,12 @@ ht-degree: 4%
 
    ![](assets/fragments-in-designer.png)
 
-1. Viene visualizzato l’elenco di tutti i frammenti visivi creati nella sandbox corrente. Puoi eseguire le seguenti operazioni:
+1. Viene visualizzato l’elenco di tutti i frammenti visivi creati nella sandbox corrente. Sono ordinati per data di creazione: i frammenti visivi aggiunti di recente vengono visualizzati per primi nell’elenco. Puoi eseguire le seguenti operazioni:
 
    * Cerca un frammento specifico iniziando a digitarne l’etichetta.
    * Ordina i frammenti in ordine crescente o decrescente.
    * Modifica la modalità di visualizzazione dei frammenti (scheda o elenco).
-
-   >[!NOTE]
-   >
-   >I frammenti sono ordinati per data di creazione: i frammenti visivi aggiunti di recente vengono visualizzati per primi nell’elenco.
-
-1. Puoi cercare e aggiornare l’elenco.
+   * Aggiorna l’elenco.
 
    >[!NOTE]
    >
@@ -52,6 +50,12 @@ ht-degree: 4%
 1. Trascina un frammento dall’elenco nell’area in cui desideri inserirlo.
 
    ![](assets/fragment-insert.png)
+
+   >[!CAUTION]
+   >
+   >Puoi aggiungere qualsiasi **Bozza** o **Live** frammento nel contenuto. Tuttavia, non potrai attivare il percorso o la campagna se al suo interno viene utilizzato un frammento con lo stato Bozza. Durante la pubblicazione di un percorso o di una campagna, i frammenti bozza mostreranno un errore e dovrai approvarli per poterli pubblicare.
+   >
+   > Si prega di notare che gli stati dei frammenti vengono gradualmente implementati nel corso di diversi giorni dopo la versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nel tuo ambiente, tieni presente che il frammento non deve essere **Live** da utilizzare nei percorsi e nelle campagne.
 
 1. Come qualsiasi altro componente, puoi spostare il frammento all’interno del contenuto.
 
@@ -73,15 +77,9 @@ ht-degree: 4%
 
 ## Interrompi ereditarietà {#break-inheritance}
 
-Quando modifichi un frammento visivo, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutti **[!UICONTROL Bozza]** percorsi/campagne e modelli di contenuto contenenti tale frammento.
+Quando modifichi un frammento visivo, le modifiche vengono sincronizzate. Vengono propagati automaticamente a tutti i percorsi/campagne in bozza o live e ai modelli di contenuto contenenti tale frammento.
 
->[!NOTE]
->
->Le modifiche non vengono propagate alle e-mail utilizzate in **[!UICONTROL Live]** percorsi o campagne.
-
-I frammenti aggiunti a un messaggio e-mail o a un modello di contenuto vengono sincronizzati per impostazione predefinita.
-
-Tuttavia, puoi interrompere l’ereditarietà dal frammento originale. In tal caso, il contenuto del frammento viene copiato nella progettazione corrente e le modifiche non vengono più sincronizzate.
+I frammenti aggiunti a un messaggio e-mail o a un modello di contenuto vengono sincronizzati per impostazione predefinita. Tuttavia, puoi interrompere l’ereditarietà dal frammento originale. In tal caso, il contenuto del frammento viene copiato nella progettazione corrente e le modifiche non vengono più sincronizzate.
 
 Per interrompere l’ereditarietà, effettua le seguenti operazioni:
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 2%
+source-wordcount: '324'
+ht-degree: 15%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
->title="Definire i propri frammenti"
->abstract="Crea e gestisci frammenti autonomi per consentire il riutilizzo dei contenuti in più percorsi e campagne."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creare frammenti"
+>title="Definisci il tuo frammento"
+>abstract="Crea e gestisci frammenti autonomi per rendere il contenuto riutilizzabile in più percorsi e campagne."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creare i frammenti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_campaigns"
->title="Campagne di aggiornamento di frammenti"
->abstract="Campagne di aggiornamento di frammenti"
+>title="Frammenti aggiornamento campagne"
+>abstract="Frammenti aggiornamento campagne"
 
 >[!CONTEXTUALHELP]
 >id="ajo_fragments_update_journeys"
->title="Percorsi di aggiornamento frammenti"
->abstract="Percorsi di aggiornamento frammenti"
+>title="Frammenti aggiornamento percorsi"
+>abstract="Frammenti aggiornamento percorsi"
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
 
@@ -46,9 +46,7 @@ Per utilizzare al meglio i frammenti:
 
 ## Prima di iniziare {#fragment-prerequisites}
 
->[!NOTE]
->
->Per creare, modificare e archiviare i frammenti, è necessario disporre del **[!DNL Manage library items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+Per creare, modificare e archiviare i frammenti, è necessario disporre del **[!DNL Manage library items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 In questa versione si applicano le seguenti limitazioni:
 
@@ -62,17 +60,16 @@ Sono disponibili due tipi di frammenti:
 * **Frammenti visivi** sono blocchi visivi predefiniti che puoi riutilizzare in più consegne e-mail utilizzando [E-mail Designer](../email/get-started-email-design.md), o in [modelli di contenuto](../email/use-email-templates.md).
 * **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata in [editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
-
-Tutti i frammenti sono accessibili da **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]**  menu a sinistra.
+Tutti i frammenti creati sono accessibili da **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]**  menu a sinistra. [Scopri come gestire i frammenti](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## Video introduttivo {#video-fragments}
 
-Scopri come gestire, creare e utilizzare i frammenti visivi in [!DNL Journey Optimizer].
+Scopri come gestire, creare e utilizzare **frammenti visivi** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-Scopri come gestire, creare e utilizzare i frammenti di espressione in [!DNL Journey Optimizer].
+Scopri come gestire, creare e utilizzare **frammenti di espressione** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

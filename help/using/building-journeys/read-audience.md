@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->I percorsi Read audience una tantum passano allo stato Finito 30 giorni dopo l’esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 30 giorni dall’esecuzione dell’ultima occorrenza.
+>I percorsi di pubblico con lettura unica si spostano sul **Completato** stato 91 giorni ([timeout predefinito](journey-gs.md#global_timeout)) dopo l&#39;esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 91 giorni dall’esecuzione dell’ultima occorrenza.
 
 ## Test e pubblicazione del percorso {#testing-publishing}
 
@@ -178,7 +178,7 @@ Questa esclusione può verificarsi subito dopo il recupero del pubblico, per sco
 
 ![](assets/read-segment-audience2.png)
 
-**Unione**
+**Union**
 
 I percorsi consentono di creare N rami e unirli dopo una segmentazione.
 

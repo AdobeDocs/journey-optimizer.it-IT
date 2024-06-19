@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 16%
+source-wordcount: '2623'
+ht-degree: 12%
 
 ---
 
@@ -90,13 +90,13 @@ Lo stato può essere:
 * **Chiuso**: il percorso è stato chiuso utilizzando **Chiudi ai nuovi ingressi** pulsante. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
 * **Bozza**: il percorso è alla sua prima fase. Non è ancora stato pubblicato.
 * **Bozza (prova)**: la modalità di test è stata attivata utilizzando **Modalità di test** pulsante.
-* **Completato**: il percorso passa automaticamente a questo stato dopo il timeout globale predefinito di 30 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
+* **Completato**: il percorso passa automaticamente a questo stato dopo 91 giorni [timeout predefinito](journey-gs.md#global_timeout). I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
 * **Live**: il percorso è stato pubblicato utilizzando **Pubblica** pulsante.
 * **Interrotto**: il percorso è stato spento utilizzando **Interrompi** pulsante. Tutti gli individui escono immediatamente dal percorso.
 
 >[!NOTE]
 >
->Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
+>Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
 
 Utilizza il **[!UICONTROL Creazione di filtri]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
 
@@ -186,7 +186,7 @@ Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagi
 
 È possibile definire un **Data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
 
-Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (che è generalmente di 30 giorni, e ridotto a 7 giorni con l’offerta aggiuntiva Healthcare Shield). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
+Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (che è generalmente di 91 giorni, e ridotto a 7 giorni con l’offerta aggiuntiva Healthcare Shield). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
 
 ### Timeout ed errore nelle attività del percorso {#timeout_and_error}
 
@@ -202,15 +202,123 @@ I percorsi utilizzano anche un timeout globale. Consulta la [sezione successiva]
 
 Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato.
 
-Questo timeout globale arresta il progresso dei singoli utenti nel percorso **30 giorni** dopo che sono entrati. Questo timeout è ridotto a **7 giorni** con il componente aggiuntivo Healthcare Shield. Ciò significa che la durata del percorso di un individuo non può superare i 30 giorni (o 7 giorni). Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
+Questo timeout globale arresta il progresso dei singoli utenti nel percorso **91 giorni** dopo che sono entrati. Questo timeout è ridotto a **7 giorni** con il componente aggiuntivo Healthcare Shield. Ciò significa che la durata del percorso di un individuo non può superare i 91 giorni (o 7 giorni). Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
 
 >[!NOTE]
 >
->I percorsi non reagiscono direttamente alle richieste di rinuncia, accesso o cancellazione della privacy. Tuttavia, il timeout globale assicura che gli individui non rimangano mai più di 30 giorni in qualsiasi percorso.
+>I percorsi non reagiscono direttamente alle richieste di rinuncia, accesso o cancellazione della privacy. Tuttavia, il timeout globale assicura che gli individui non rimangano più di 91 giorni in un percorso qualsiasi.
 
-A causa del timeout di 30 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 30 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 30 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 30 giorni fa.
+A causa del timeout di 91 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 91 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 91 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 91 giorni fa.
 
-Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 30 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
+Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 91 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
+
+
+#### Time-to-Live (TTL) e domande frequenti sulla conservazione dei dati {#timeout-faq}
+
+**Per Percorsi unitari**
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succederà al percorso pubblicato dopo il rollout dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>I profili che entrano nel nuovo percorso avranno automaticamente un TTL di 91 giorni.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un profilo che entra in un percorso pubblicato prima dell’avvio dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo avrà un TTL di 91 percorsi (7 giorni per HIPAA), in linea con l’ora di pubblicazione originaria.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un profilo che è già entrato in un percorso quando viene avviata l’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo mantiene un TTL di 91 giorni (7 giorni per HIPAA), come da orario di pubblicazione originale del percorso.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un profilo in una versione di percorso precedente che viene ripubblicata dopo l’avvio dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo manterrà un TTL di 91 giorni (7 giorni per HIPAA), allineato con l’orario di pubblicazione della versione originale del percorso.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un nuovo profilo che entra in una versione di percorso ripubblicata dopo il lancio dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo avrà un TTL di 91 giorni, corrispondente al TTL della versione di percorso appena ripubblicata.</p>
+    </td>
+  </tr>
+</table>
+
+**Per Percorsi di attivazione segmento**
+
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succederà ai nuovi percorsi una tantum pubblicati dopo l’estensione TTL?</p>
+    </td>
+    <td>
+      <p>I profili che entrano nel nuovo percorso avranno automaticamente un TTL di 91 giorni.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succederà ai nuovi percorsi ricorrenti senza rientro forzato pubblicati dopo l’estensione TTL?</p>
+    </td>
+    <td>
+      <p>I profili che entrano nel nuovo percorso avranno automaticamente un TTL di 91 giorni.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succederà ai nuovi percorsi ricorrenti con rientro forzato pubblicati dopo l’estensione TTL?</p>
+    </td>
+    <td>
+      <p>I profili che entrano nel nuovo percorso avranno un TTL uguale al periodo di ricorrenza. Ad esempio, se il percorso viene eseguito ogni giorno, il TTL sarà di 1 giorno.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un profilo che entra in un percorso pubblicato prima dell’avvio dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo avrà un TTL di 91 giorni (7 giorni per HIPAA), in linea con il tempo di pubblicazione originale. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un profilo in esecuzione in un percorso quando viene avviata l’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo mantiene un TTL di 91 giorni (7 giorni per HIPAA), come da orario di pubblicazione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un profilo in esecuzione in una versione di percorso precedente che viene ripubblicata dopo l’avvio dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo manterrà un TTL di 91 giorni (7 giorni per HIPPA), in linea con l’orario di pubblicazione della versione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Cosa succede a un nuovo profilo che entra in una versione di percorso ripubblicata dopo il lancio dell’estensione TTL?</p>
+    </td>
+    <td>
+      <p>Il profilo avrà un TTL di 91 giorni, corrispondente al TTL della versione di percorso appena ripubblicata. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+    </td>
+  </tr>
+</table>
 
 ### Criteri di unione {#merge-policies}
 
@@ -219,13 +327,9 @@ Il percorso utilizza i criteri di unione per recuperare i dati del profilo da Ad
 * In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
 * Nei percorsi attivati da eventi: viene utilizzato il criterio di unione predefinito
 
-Il percorso rispetterà il criterio di unione utilizzato in tutto il percorso.
+Il percorso rispetterà il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio, nelle funzioni &quot;inAudience&quot;), creando incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
->[!NOTE]
->
->Questa funzionalità è disponibile solo in Disponibilità limitata (LA) per clienti selezionati.
-
-Per ulteriori informazioni sui criteri di unione, consulta [pagina](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+Per ulteriori informazioni sui criteri di unione, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 ## Duplicare un percorso {#duplicate-a-journey}
 

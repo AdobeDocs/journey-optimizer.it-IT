@@ -1,0 +1,74 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: Reporting di una nuova interfaccia
+description: Introduzione alla nuova interfaccia di reporting
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+badge: label="Beta" type="Informative"
+source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 1%
+
+---
+
+# Gestire i rapporti {#channel-cja-manage}
+
+## Analizza nel Customer Journey Analytics {#analyze}
+
+![](assets/cja-analyze.png)
+
+Migliora la tua esperienza di analisi dei dati con **[!DNL Customer Journey Analytics]** licenza sfruttando **[!UICONTROL Analizzare in CJA]** disponibile in tutti i rapporti.
+
+Questa potente opzione ti reindirizzerà facilmente al tuo **[!DNL Customer Journey Analytics]** che ti consente di personalizzare estensivamente i rapporti. Puoi arricchire i tuoi widget con metriche di Customer Journey Analytics specializzate, portando le tue informazioni a un livello completamente nuovo.
+
+[Ulteriori informazioni sull’interfaccia di Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+
+## Definire il periodo del rapporto {#report-period}
+
+![](assets/cja-time-period.png)
+
+Quando accedi a un rapporto, puoi applicare un filtro per periodo di tempo, posizionato nell’angolo in alto a destra del rapporto.
+
+Per impostazione predefinita, il periodo di filtro per una campagna o un percorso è impostato sulle relative date di inizio e fine. Se non è presente una data di fine, per impostazione predefinita il filtro utilizzerà la data corrente.
+
+Per modificare il filtro, puoi selezionare una data e una durata di inizio personalizzate oppure scegliere tra opzioni predefinite, ad esempio l’ultima settimana o due mesi fa.
+
+Il rapporto viene aggiornato automaticamente una volta applicato o modificato il filtro.
+
+## Esportazione dei rapporti {#export-reports}
+
+Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli. I passaggi per esportare i rapporti sono descritti nelle schede seguenti.
+
+>[!BEGINTABS]
+
+>[!TAB Esportare il rapporto come file CSV]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
+
+   ![](assets/export_cja_csv.png)
+
+1. Il file viene scaricato automaticamente e si trova nei file locali.
+
+   Se hai generato il file a livello di report, contiene informazioni dettagliate per ciascun widget, inclusi il titolo e i dati.
+
+>[!TAB Esportare il report come file PDF]
+
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+
+   ![](assets/export_cja_pdf.png)
+
+1. Dopo aver richiesto il download, fai clic su **[!UICONTROL Scarica]**.
+
+   ![](assets/export_cja_pdf_2.png)
+
+1. Il file si aprirà automaticamente nel browser.
+
+Il report è ora disponibile per la visualizzazione, il download o la condivisione in un file PDF.
+
+>[!ENDTABS]
+
+
