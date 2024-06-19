@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: f24d638711c9fd755dad1553fcbfa82810eaaab6
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 23%
@@ -22,7 +22,7 @@ ht-degree: 23%
 >id="ajo_admin_subdomainname"
 >title="Delega dei sottodomini"
 >abstract="Journey Optimizer consente di delegare ad Adobe i sottodomini. Puoi delegare completamente un sottodominio ad Adobe, che è il metodo consigliato. Puoi anche creare un sottodominio utilizzando i CNAME per puntare a record specifici di Adobe, tuttavia questo approccio richiede di mantenere e gestire i record DNS in autonomia."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html?lang=it#subdomain-delegation-methods" text="Metodi di configurazione dei sottodomini"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Metodi di configurazione dei sottodomini"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"

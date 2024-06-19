@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 33%
+source-wordcount: '925'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 33%
 
 Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai clic su **[!UICONTROL Crea campagna]**. Puoi anche duplicare una campagna live esistente per crearne una nuova. [Ulteriori informazioni](modify-stop-campaign.md#duplicate)
 
-## Scegliere il tipo di campagna e il canale {#campaigntype}
+## Scegli il tipo di campagna {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai c
 >title="Categoria campagna"
 >abstract="Se stai creando una campagna pianificata, il tipo di **marketing** viene selezionato automaticamente. Per le campagne attivate da API, scegli se desideri inviare un messaggio di **marketing** (messaggio promozionale che richiede il consenso dell’utente) o un messaggio **transazionale** (messaggio non commerciale, che può anche essere inviato a profili non abbonati in contesti specifici)."
 
-1. In **[!UICONTROL Proprietà]** , specifica come eseguire la campagna. Sono disponibili due tipi di campagne:
+1. Seleziona il tipo di campagna da eseguire
 
-   * **[!UICONTROL Pianificato]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **marketing** messaggi. Vengono configurati ed eseguiti dall’interfaccia utente di.
+   * **[!UICONTROL Pianificato - Marketing]**: esegui la campagna immediatamente o in una data specificata. Le campagne pianificate hanno lo scopo di inviare **marketing** messaggi. Vengono configurati ed eseguiti dall’interfaccia utente di.
 
-   * **[!UICONTROL Attivato da API]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **marketing**, o **transazionale** messaggi, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
+   * **[!UICONTROL Attivato da API - Marketing/Transazionale]**: esegui la campagna utilizzando una chiamata API. Le campagne attivate da API hanno lo scopo di inviare **marketing**, o **transazionale** messaggi, ovvero messaggi inviati in seguito a un’azione eseguita da un individuo: reimpostazione della password, acquisto del carrello, ecc. [Scopri come attivare una campagna utilizzando le API](api-triggered-campaigns.md)
 
-1. Se stai creando una campagna pianificata, il tipo di **marketing** viene selezionato automaticamente. Per le campagne attivate da API, scegli se desideri inviare una **marketing** o **transazionale** messaggio.&quot;
-
-1. In **[!UICONTROL Azioni]** , scegli il canale e la superficie di canale da utilizzare per inviare il messaggio.
-
-   Una “superficie” è una configurazione definita da un [amministratore di sistema](../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni](../configuration/channel-surfaces.md).
-
-   Nell’elenco a discesa sono elencate solo le superfici di canale compatibili con il tipo di campagna di marketing.
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >Se stai creando una campagna di notifica push, puoi abilitare **[!UICONTROL Modalità Consegna rapida]**, componente aggiuntivo di Journey Optimizer che consente l’invio molto rapido di messaggi push in volumi elevati. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
+   ![](assets/create-campaign-modal.png)
 
 1. Clic **[!UICONTROL Crea]** per creare la campagna.
 
@@ -71,13 +59,41 @@ Per creare una nuova campagna, accedi a **[!UICONTROL Campagne]** , quindi fai c
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla campagna, fai clic sul pulsante **[!UICONTROL Gestisci accesso]** pulsante. [Ulteriori informazioni su OLE (Object Level Access Control)](../administration/object-based-access.md)
 
+## Definire il pubblico della campagna {#audience}
+
+Definisci la popolazione target della campagna, segui questi passaggi:
+
+>[!IMPORTANT]
+>
+>L’utilizzo di tipi di pubblico e attributi da [composizione del pubblico](../audience/get-started-audience-orchestration.md) e [pubblico di caricamento personalizzato (file CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
+>
+>Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API.
+
+1. In **Pubblico** , fare clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)
+
+1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato.
+
+   Gli utenti appartenenti a un segmento che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non saranno presi in considerazione dalla campagna. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## Creare il messaggio e configurare il tracciamento {#content}
 
-In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna.
+1. In **[!UICONTROL Azioni]** , scegli il canale e la superficie da utilizzare per inviare il messaggio.
 
-1. Fai clic su **[!UICONTROL Modifica contenuto]** , quindi crea e progetta il contenuto del messaggio.
+   Una “superficie” è una configurazione definita da un [amministratore di sistema](../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni](../configuration/channel-surfaces.md).
 
-   Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
+   Nell’elenco a discesa sono elencate solo le superfici di canale compatibili con il tipo di campagna di marketing.
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >Se stai creando una campagna di notifica push, puoi abilitare **[!UICONTROL Modalità Consegna rapida]**, componente aggiuntivo di Journey Optimizer che consente l’invio molto rapido di messaggi push in volumi elevati. [Ulteriori informazioni](../push/create-push.md#rapid-delivery)
+
+1. Fai clic su **[!UICONTROL Modifica contenuto]** per creare e progettare il messaggio. Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ In **[!UICONTROL Azioni]** sezione, crea il messaggio da inviare con la campagna
 1. In **[!UICONTROL Tracciamento delle azioni]** , specifica se desideri tenere traccia della reazione dei destinatari alla consegna: puoi tenere traccia dei clic e/o delle aperture.
 
    I risultati del tracciamento saranno accessibili dal rapporto della campagna una volta eseguita la campagna. [Ulteriori informazioni sui report delle campagne](../reports/campaign-global-report.md)
-
-## Definire il pubblico {#audience}
-
-Fai clic su **[!UICONTROL Seleziona pubblico]** per visualizzare l’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sul pubblico](../audience/about-audiences.md)
-
->[!IMPORTANT]
->
->L’utilizzo di tipi di pubblico e attributi da [composizione del pubblico](../audience/get-started-audience-orchestration.md) e [pubblico di caricamento personalizzato (file CSV)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) non è attualmente disponibile per l’utilizzo con Healthcare Shield o Privacy and Security Shield.
->
->Per le campagne attivate da API, il pubblico deve essere impostato tramite chiamata API.
-
-In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti dal segmento selezionato.
-
-Gli utenti appartenenti a un segmento che non ha l’identità (spazio dei nomi) selezionata tra le loro diverse identità non saranno presi in considerazione dalla campagna. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## Pianificare la campagna {#schedule}
 

@@ -8,74 +8,98 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
+source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 1%
+source-wordcount: '709'
+ht-degree: 13%
 
 ---
 
-# Creare un frammento da zero {#create-fragments}
+# Creare un frammento {#create-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
->title="Seleziona il tipo di elemento visivo"
->abstract="Crea un frammento visivo indipendente per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Aggiungi frammenti visivi alle e-mail"
+>title="Seleziona il tipo visivo"
+>abstract="Crea un frammento visivo autonomo per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=it" text="Aggiungi frammenti visivi alle e-mail"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Seleziona il tipo di espressione"
->abstract="Crea un frammento di espressione autonomo per rendere il contenuto riutilizzabile in più percorsi e campagne. Quando utilizzi l’editor di personalizzazione, puoi sfruttare tutti i frammenti di espressione creati nella sandbox corrente."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Sfruttare i frammenti di espressione"
+>abstract="Crea da zero un frammento di espressione autonomo per rendere i contenuti riutilizzabili in più percorsi e campagne. Quando utilizzi l’editor di personalizzazione, puoi sfruttare tutti i frammenti di espressione che sono stati creati nella sandbox corrente."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html?lang=it" text="Sfruttare i frammenti di espressione"
 
-I frammenti vengono creati da **[!UICONTROL Frammenti]** menu a sinistra. Inoltre, è possibile anche salvare una parte del contenuto esistente come frammento durante la progettazione. [Scopri come](#save-as-fragment)
+I frammenti possono essere creati da zero dalla **[!UICONTROL Frammenti]** menu a sinistra. Inoltre, è possibile anche salvare una parte del contenuto esistente come frammento durante la progettazione. [Scopri come](#save-as-fragment)
 
-Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, una campagna o un modello. Ora puoi utilizzare questo frammento per creare qualsiasi contenuto in [!DNL Journey Optimizer]. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md)
+Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, una campagna o un modello. Puoi utilizzare questo frammento quando crei qualsiasi contenuto all’interno di percorsi e campagne. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md)
 
-Per creare un frammento da zero, segui la procedura riportata di seguito.
+Per creare un frammento, segui la procedura riportata di seguito.
 
-1. [Accedere all’elenco dei frammenti](#access-manage-fragments) tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
+## Definire le proprietà del frammento {#properties}
 
-1. Seleziona **[!UICONTROL Crea frammento]**.
+1. Accedere all’elenco dei frammenti tramite **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
 
-1. Inserisci i dettagli del frammento, ovvero nome e descrizione (se necessario).
+1. Seleziona **[!UICONTROL Crea frammento]** e compila il nome e la descrizione del frammento (se necessario).
 
    ![](assets/fragment-details.png)
 
-1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare il frammento per una ricerca migliore. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
+1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare il frammento per una ricerca migliore. [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags)
 
-1. Seleziona il tipo di frammento: [Frammento visivo](#create-visual-fragment) o [Frammento di espressione](#create-expression-fragment).
+1. Seleziona il tipo di frammento: **Frammento visivo** o **Frammento di espressione**. [Ulteriori informazioni sui frammenti visivi e di espressione](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
-   >Attualmente, per i frammenti visivi solo il **E-mail** canale è supportato.
+   >Per il momento, sono disponibili frammenti visivi per **E-mail** solo canale.
 
 1. Se stai creando un frammento di espressione, seleziona il tipo di codice che desideri utilizzare: **[!UICONTROL HTML]**, **[!UICONTROL JSON]** o **[!UICONTROL Testo]**.
 
    ![](assets/fragment-expression-type.png)
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, fai clic su **[!UICONTROL Gestisci accesso]** nella sezione superiore dello schermo. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
-1. Fai clic su **[!UICONTROL Crea]**.
+1. Clic **[!UICONTROL Crea]** per progettare il contenuto del frammento.
 
-1. Il [E-mail Designer](../email/get-started-email-design.md) oppure viene aperto l’editor di personalizzazione, a seconda del tipo di frammento che stai creando.
+## Progettare il contenuto del frammento {#content}
 
-   * Per i frammenti visivi, modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna.
+Dopo aver configurato le proprietà del frammento, viene aperto E-mail Designer o l’editor di personalizzazione, a seconda del tipo di frammento che stai creando.
 
-     >[!NOTE]
-     >
-     >Puoi aggiungere campi di personalizzazione e contenuto dinamico, ma gli attributi contestuali non sono supportati nei frammenti.
+* Per i frammenti visivi, modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna. [Ulteriori informazioni](../email/get-started-email-design.md)
 
-     ![](assets/fragment-designer.png)
+  ![](assets/fragment-designer.png)
 
-   * Per i frammenti di espressione, sfrutta [!DNL Journey Optimizer] l’editor di personalizzazione con tutte le sue funzionalità di personalizzazione e authoring per creare i contenuti dei frammenti. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+* Per i frammenti di espressione, sfrutta [!DNL Journey Optimizer] l’editor di personalizzazione con tutte le sue funzionalità di personalizzazione e authoring per creare i contenuti dei frammenti. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
-     ![](assets/fragment-expression-editor.png)
+  ![](assets/fragment-expression-editor.png)
 
-1. Quando il frammento è pronto, fai clic su **[!UICONTROL Salva]**.
+Quando il contenuto è pronto, fai clic su **Salva** pulsante. Il frammento viene creato e aggiunto all’elenco di frammenti con il comando **Bozza** stato. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
 
-Il frammento viene aggiunto al [elenco frammenti](#access-manage-fragments). Ora può essere utilizzato per creare qualsiasi contenuto all’interno di [!DNL Journey Optimizer] E-mail Designer o editor di personalizzazione.
+>[!NOTE]
+>
+>La pubblicazione dei frammenti viene implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, tieni presente che la pubblicazione dei frammenti non è necessaria per utilizzare i frammenti nei percorsi e nelle campagne.
+
+## Anteprima e pubblicazione del frammento {#publish}
+
+>[!NOTE]
+>
+>Per pubblicare un frammento, è necessario disporre di **Pubblica frammento** autorizzazioni correlate. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md)
+
+Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile nei tuoi percorsi e campagne. Per farlo, segui questi passaggi:
+
+1. Torna alla schermata di creazione del frammento dopo averne progettato il contenuto oppure aprilo dall’elenco dei frammenti.
+
+1. Un’anteprima del frammento è disponibile nella sezione **Tag** , che consente di verificarne il rendering. Se è necessario apportare modifiche, fare clic su **Modifica** nella sezione superiore della schermata per aprire E-mail Designer o l’editor di personalizzazione a seconda del tipo di frammento.
+
+   ![](assets/fragment-preview.png)
+
+1. Fai clic su **Pubblica** nell’angolo in alto a destra per pubblicare il frammento.
+
+   Se il frammento viene utilizzato in un percorso o in una campagna live, si apre un messaggio per informarti. Fai clic su **Vedi altro** per accedere all’elenco dei percorsi e/o delle campagne in cui è fatto riferimento a esso. [Scopri come esplorare i riferimenti di un frammento](../content-management/manage-fragments.md#explore-references)
+
+   Clic **Conferma** per pubblicare il frammento e aggiornarlo nei percorsi/campagne live che lo utilizzano.
+
+   ![](assets/fragment-publish.png){width="70%" align="center"}
+
+Il frammento ora è **Live**, e diventa disponibile quando crei qualsiasi contenuto all’interno del [!DNL Journey Optimizer] E-mail Designer o editor di personalizzazione:
 
 * [Scopri come utilizzare i frammenti visivi](../email/use-visual-fragments.md)
 * [Scopri come utilizzare i frammenti di espressione](../personalization/use-expression-fragments.md)

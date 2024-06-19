@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: f47160f40abd9427cb9b9c793ee0ab402bf9f65b
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: '586'
+ht-degree: 8%
 
 ---
 
 # Salva contenuto come frammento {#save-as-fragment}
 
-Durante la modifica del contenuto in [!DNL Journey Optimizer], puoi salvare tutto o parte del contenuto come frammento per riutilizzarlo in futuro.
+Durante la modifica del contenuto in [!DNL Journey Optimizer], puoi salvare tutto o parte del contenuto come frammento per riutilizzarlo in futuro. Puoi salvare il contenuto come frammento: [da E-mail Designer](#save-as-visual-fragment), o [dall’editor di espressioni](#save-as-expression-fragment).
 
-## Salva contenuto come frammento visivo {#save-as-visual-fragment}
+## Salva come frammento visivo {#save-as-visual-fragment}
 
-Durante la progettazione di un [modello di contenuto](content-templates.md) o un [email](../email/get-started-email-design.md) in una campagna o in un percorso, puoi salvare una parte del contenuto come frammento visivo. Per farlo, segui la procedura indicata di seguito.
+Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti operazioni:
 
 1. In [E-mail Designer](../email/get-started-email-design.md), fai clic sui puntini di sospensione in alto a destra dello schermo.
 
@@ -31,40 +31,46 @@ Durante la progettazione di un [modello di contenuto](content-templates.md) o un
 
 1. Il **[!UICONTROL Salva come frammento]** schermo. Seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. Gli attributi contestuali non sono supportati nei frammenti.
 
+   ![](assets/fragment-save-as-screen.png)
+
    >[!CAUTION]
    >
    >Potete selezionare solo le sezioni adiacenti. Non puoi selezionare una struttura vuota o un altro frammento.
 
-   ![](assets/fragment-save-as-screen.png)
+1. Clic **[!UICONTROL Crea]** e compila il nome e la descrizione del frammento (se necessario).
 
-1. Clic **[!UICONTROL Crea]**. Inserisci i dettagli del frammento, ovvero nome e descrizione (se necessario).
-
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, fai clic su **[!UICONTROL Gestisci accesso]** nella sezione superiore dello schermo. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
 
 1. Seleziona o crea tag Adobe Experience Platform da **Tag** per categorizzare il modello e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
-1. Clic **[!UICONTROL Crea]** di nuovo. Il frammento viene salvato in aggiunto al [elenco frammenti](#access-manage-fragments), accessibile dalla [!DNL Journey Optimizer] menu dedicato.
+1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto al [elenco frammenti](#access-manage-fragments) con **Bozza** stato. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
 
-   Diventa un frammento autonomo che può essere [accesso eseguito](#access-manage-fragments), [modificato](#edit-fragments) e [archiviato](#archive-fragments) come qualsiasi altro elemento di tale elenco.
+   >[!NOTE]
+   >
+   >Eventuali modifiche apportate al nuovo frammento non vengono propagate all’e-mail o al modello di origine. Allo stesso modo, quando il contenuto originale viene modificato all’interno dell’e-mail o del modello, il nuovo frammento non viene modificato.
 
-Ora puoi utilizzare questo frammento durante la creazione di qualsiasi [email](../email/get-started-email-design.md) o [modello di contenuto](content-templates.md) entro [!DNL Journey Optimizer]. [Scopri come](../email/use-visual-fragments.md)
+1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->Eventuali modifiche apportate al nuovo frammento non vengono propagate all’e-mail o al modello di origine. Allo stesso modo, quando il contenuto originale viene modificato all’interno dell’e-mail o del modello, il nuovo frammento non viene modificato.
+>La pubblicazione dei frammenti viene implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, tieni presente che la pubblicazione dei frammenti non è necessaria per utilizzare i frammenti nei percorsi e nelle campagne.
 
-## Salva contenuto come frammento di espressione {#save-as-expression-fragment}
+## Salva come frammento di espressione {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Salva come frammento di espressione"
->abstract="Il [!DNL Journey Optimizer] l’editor di personalizzazione consente di salvare il contenuto come frammento di espressione. Queste espressioni sono quindi disponibili per creare contenuti personalizzati."
+>abstract="L’editor di personalizzazione di [!DNL Journey Optimizer] ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per generare contenuti personalizzati."
 
-Il [!DNL Journey Optimizer] l’editor di personalizzazione consente di salvare il contenuto come frammento di espressione. Queste espressioni sono quindi disponibili per creare contenuti personalizzati.
+L’editor di personalizzazione di [!DNL Journey Optimizer] ti consente di salvare il contenuto come frammenti di espressione. Queste espressioni sono quindi disponibili per generare contenuti personalizzati.
 
 Per salvare il contenuto come frammento di espressione, effettua le seguenti operazioni.
 
 1. In [editor di personalizzazione](../personalization/personalization-build-expressions.md) , genera un&#39;espressione, quindi fai clic su **[!UICONTROL Salva come frammento]**.
+
+   >[!NOTE]
+   >
+   >Le espressioni non possono superare i 200 KB.
 
 1. Nel riquadro di destra, immettere un nome e una descrizione per l&#39;espressione in modo che gli utenti possano trovarla più facilmente.
 
@@ -74,8 +80,10 @@ Per salvare il contenuto come frammento di espressione, effettua le seguenti ope
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Il frammento di espressione viene aggiunto al [elenco frammenti](#access-manage-fragments). Ora puoi utilizzarlo per creare contenuti personalizzati.
+1. Il frammento viene aggiunto al [elenco frammenti](#access-manage-fragments) con **Bozza** stato. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
+
+1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->Le espressioni non possono superare i 200 KB.
+>La pubblicazione dei frammenti viene implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, tieni presente che la pubblicazione dei frammenti non è necessaria per utilizzare i frammenti nei percorsi e nelle campagne.

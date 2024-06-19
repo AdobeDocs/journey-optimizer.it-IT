@@ -8,70 +8,97 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 16c079bbb4c6847720716bcbaf1937d1c401aeae
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '968'
+ht-degree: 17%
 
 ---
 
 # Gestire i frammenti {#manage-fragments}
 
->[!CONTEXTUALHELP]
->id="ajo_fragment_statuses"
->title="Nuovi stati dei frammenti"
->abstract="Da **Bozza** e **Live** Con la versione di giugno di Journey Optimizer sono stati introdotti gli stati; tutti i frammenti creati prima di questa versione hanno lo stato &quot;Bozza&quot;, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli &quot;live&quot; e propagare le modifiche alle campagne e ai percorsi associati. Devi anche creare una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede un’autorizzazione utente."
-
 Per gestire i frammenti, accedi all’elenco dei frammenti da **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]** menu a sinistra.
-
-![](assets/fragment-list.png)
 
 Tutti i frammenti creati nella sandbox corrente: [dal **[!UICONTROL Frammenti]** menu](#create-fragments), utilizzando [Salva come frammento](#save-as-fragment) opzione - vengono visualizzati.
 
+![](assets/fragment-list-filters.png)
+
 Puoi filtrare i frammenti in base ai seguenti elementi:
 
-* Tipo: **[!UICONTROL Visivo]** o **[!UICONTROL Espressione]**
-* Tag
+* Stato (bozza o in tempo reale)
+* Tipo (visivo o espressione)
 * Data di creazione o modifica
+* Stato (archiviato o meno)
+* Tag
 
-Puoi scegliere di visualizzare tutti i frammenti o solo gli elementi creati o modificati dall’utente corrente.
-
-È inoltre possibile visualizzare **[!UICONTROL Archiviato]** frammenti. [Ulteriori informazioni](#archive-fragments)
-
-![](assets/fragment-list-filters.png)
+Puoi anche scegliere di visualizzare tutti i frammenti o solo gli elementi creati o modificati dall’utente corrente.
 
 Dalla sezione **[!UICONTROL Altre azioni]** accanto a ciascun frammento, puoi:
 
 * Duplica un frammento.
-
 * Utilizza il **[!UICONTROL Esplora riferimenti]** per visualizzare i percorsi, le campagne o i modelli in cui viene utilizzato. [Ulteriori informazioni](#explore-references)
-
 * Archivia un frammento. [Ulteriori informazioni](#archive-fragments)
-
-* Modificare le proprietà di un frammento [tag](../start/search-filter-categorize.md#tags).
+* Modificare i tag di un frammento [Scopri come utilizzare i tag unificati](../start/search-filter-categorize.md#tags).
 
 ![](assets/fragment-list-more-actions.png)
+
+## Stati dei frammenti
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragment_statuses"
+>title="Nuovi stati dei frammenti"
+>abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato “Bozza”, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede un’autorizzazione utente."
+
+>[!AVAILABILITY]
+>
+> Si prega di notare che gli stati dei frammenti vengono gradualmente implementati nel corso di diversi giorni dopo la versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nel tuo ambiente, tieni presente che il frammento non deve essere **Live** da utilizzare nei percorsi e nelle campagne.
+
+I frammenti possono avere più stati:
+
+* **[!UICONTROL Bozza]**: frammento in fase di modifica che non è stato approvato.
+
+* **[!UICONTROL Live]**: il frammento è stato approvato ed è live. [Scopri come pubblicare un frammento](../content-management/create-fragments.md#publish)
+
+  Quando si modifica un frammento live, viene visualizzata un’icona specifica accanto al relativo stato. Fai clic su questa icona per aprire la versione bozza del frammento.
+
+* **[!UICONTROL Pubblicazione]**: il frammento è stato approvato e viene pubblicato.
+* **[!UICONTROL Archiviato]**: frammento archiviato. [Scopri come archiviare i frammenti](#archive-fragments)
+
+>[!CAUTION]
+>
+>Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato “Bozza”, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede un’autorizzazione utente.
 
 ## Modifica frammenti {#edit-fragments}
 
 Per modificare un frammento, effettua le seguenti operazioni.
 
-1. Fai clic sull’elemento desiderato da **[!UICONTROL Frammenti]** elenco.
-1. Dalle proprietà del frammento puoi [esplorare i riferimenti](#explore-references), [gestirne l’accesso](../administration/object-based-access.md), e aggiorna i dettagli del frammento, tra cui [tag](../start/search-filter-categorize.md#tags).
+1. Fai clic sul frammento desiderato da **[!UICONTROL Frammenti]** elenco.
 
-   ![](../email/assets/fragment-edit-content.png)
+1. Le proprietà del frammento vengono aperte con un’anteprima del relativo contenuto.
 
-1. Seleziona il pulsante corrispondente per modificare il contenuto, come faresti per creare un frammento da zero. [Ulteriori informazioni](#create-from-scratch)
+1. Se il frammento in fase di modifica presenta **Live** stato, fai clic su **Modifica** per creare una versione bozza del frammento. La versione corrente del frammento continuerà a essere attiva, fino a quando non pubblicherai la versione bozza.
 
->[!NOTE]
+1. Apporta al frammento le modifiche desiderate. Per modificarne il contenuto, fai clic su **Modifica** quindi modifica il contenuto come faresti per creare un frammento da zero. [Scopri come creare un frammento](#create-from-scratch)
+
+   >[!NOTE]
+   >
+   >Quando modifichi un frammento di espressione, puoi rimuovere qualsiasi campo di personalizzazione ma non aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere campi di personalizzazione, duplica il frammento per crearne uno nuovo.
+
+   Puoi anche controllare l’elenco dei percorsi, delle campagne e dei modelli di contenuto in cui il frammento è attualmente utilizzato selezionando la **Riferimenti a Explorer** opzione. [Ulteriori informazioni](#explore-references)
+
+   ![](assets/fragment-edit.png)
+
+1. Quando le modifiche sono pronte, fai clic su **Pubblica** per rendere attive le modifiche.
+
+Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi i percorsi live e le campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale. Scopri come interrompere l’ereditarietà in [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md#break-inheritance) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md#break-inheritance) sezioni.
+
+>[!AVAILABILITY]
 >
->Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutto il contenuto che lo utilizza, ad eccezione del contenuto utilizzato in **[!UICONTROL Live]** percorsi o campagne. Puoi anche interrompere l’ereditarietà dal frammento originale. Per ulteriori informazioni, consulta [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md#break-inheritance) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md#break-inheritance) sezioni.
+>Tieni presente che la propagazione dei frammenti cambia nei percorsi e nelle campagne live e verrà implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, le modifiche non verranno propagate al contenuto utilizzato nei percorsi o nelle campagne live.
 
 ## Esplora riferimenti {#explore-references}
 
-Puoi visualizzare l’elenco dei percorsi, delle campagne e dei modelli di contenuto che attualmente utilizzano un frammento.
-
-A tale scopo, seleziona **[!UICONTROL Esplora riferimenti]** dall&#39; **[!UICONTROL Altre azioni]** nell’elenco dei frammenti o dalla schermata delle proprietà del frammento.
+Puoi visualizzare l’elenco dei percorsi, delle campagne e dei modelli di contenuto che attualmente utilizzano un frammento. A tale scopo, seleziona **[!UICONTROL Esplora riferimenti]** dall&#39; **[!UICONTROL Altre azioni]** nell’elenco dei frammenti o dalla schermata delle proprietà del frammento.
 
 ![](assets/fragment-explore-references.png)
 
