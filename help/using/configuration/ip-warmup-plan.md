@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1668'
 ht-degree: 8%
 
 ---
@@ -112,7 +112,7 @@ Di seguito è riportato un esempio di file contenente un piano di riscaldamento 
 
 * Il piano è attuato in sei **fasi**, ciascuno contenente almeno una sequenza.
 
-* Puoi avere tutte le colonne che desideri per i domini a cui desideri recapitare. In questo esempio, il piano è diviso in sei colonne:
+* Puoi avere fino a 6 colonne (5 colonne per i gruppi di dominio e una per **Altro** colonna). In questo esempio, il piano è diviso in sei colonne:
 
    * Quattro dei quali corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Microsoft, Yahoo e Orange).
    * Uno corrisponde a un gruppo di dominio personalizzato (che devi aggiungere utilizzando [Gruppo di dominio personalizzato](#custom-domain-group-tab) ).
@@ -188,7 +188,7 @@ Puoi anche aggiungere più colonne al piano includendo gruppi di dominio persona
 
 Utilizza il **[!UICONTROL Gruppo di dominio personalizzato]** per definire un nuovo gruppo di dominio. Per ogni dominio, puoi aggiungere tutti i sottodomini coperti.<!--TBC-->
 
-Assicurati che ogni dominio sia univoco per il relativo gruppo di dominio e non si sovrapponga ad altri gruppi di dominio. Poiché i gruppi di dominio globali vengono definiti automaticamente, gli utenti devono tenerne conto durante la creazione di gruppi di dominio personalizzati.
+Per i gruppi di dominio utilizzati in tale piano, assicurati che ogni dominio sia univoco per il relativo gruppo di dominio e non si sovrapponga ad altri gruppi di dominio. Poiché i gruppi di dominio globali vengono definiti automaticamente, gli utenti devono tenerne conto durante la creazione di gruppi di dominio personalizzati.
 
 Ad esempio, se aggiungi il dominio personalizzato Luma, vuoi includere i seguenti sottodomini: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, ecc.
 
@@ -201,7 +201,7 @@ Supponiamo che tu voglia disporre di due gruppi di dominio personalizzati:
 * Uno solo per i domini Hotmail.
 * Uno per tutti gli altri domini del gruppo di dominio Microsoft (escludendo quindi tutti i domini Hotmail).
 
-Tutti gli altri domini saranno raccolti nel **[!UICONTROL Altro]** colonna.
+I domini esterni a Hotmail e dal gruppo di domini Microsoft verranno raccolti nel **[!UICONTROL Altro]** colonna.
 
 1. In **[!UICONTROL Gruppo di dominio personalizzato]** , crea il **Hotmail** gruppo di dominio.
 
@@ -220,10 +220,6 @@ Tutti gli altri domini saranno raccolti nel **[!UICONTROL Altro]** colonna.
 1. Crea tre colonne: una per **Hotmail**, uno per **Microsoft_X** e uno per **Altro**.
 
 1. Compila le colonne in base alle tue esigenze.
-
->[!NOTE]
->
->Una volta caricato il piano di riscaldamento IP in [!DNL Journey Optimizer], non è necessario escludere i gruppi di dominio Microsoft.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 

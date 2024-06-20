@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 12%
+source-wordcount: '2558'
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Ogni fase è composta da più esecuzioni, alle quali si assegna una singola camp
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Escludere i tipi di pubblico delle campagne"
->abstract="Seleziona le campagne per escludere i relativi tipi di pubblico dalla fase corrente. In questo modo, i profili contattati in precedenza da altre fasi o da altri piani di preparazione IP non saranno nuovamente oggetto di targeting."
+>abstract="Seleziona le campagne per escludere i relativi tipi di pubblico dalla fase corrente. Questo impedisce ai profili contattati in precedenza di essere nuovamente oggetto di targeting; saranno esclusi solo quelli che hanno ricevuto una comunicazione tramite il percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -60,7 +60,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
 
-1. Per ogni fase, seleziona la campagna da associare a questa fase del piano di riscaldamento IP.
+1. Seleziona la campagna da associare alla prima fase del piano di riscaldamento IP.
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Solo le campagne con **[!UICONTROL Attivazione del piano di riscaldamento IP]** opzione abilitata sono disponibili per la selezione. [Ulteriori informazioni](#create-ip-warmup-campaign)
    >
-   >* È necessario selezionare una campagna che utilizza la stessa superficie di quella selezionata per il piano di riscaldamento IP corrente.
+   >* È possibile selezionare solo le campagne che utilizzano la stessa superficie del piano di riscaldamento IP selezionato.
 
 1. Una volta selezionata una campagna per la fase corrente, vengono visualizzate le sezioni per escludere profili, tipi di pubblico della campagna e gruppi di dominio.
 
@@ -117,7 +117,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >Questa sezione non è modificabile.
 
-1. Se necessario, puoi sostituire la campagna utilizzando **[!UICONTROL Sostituisci]** pulsante. Puoi anche cancellare la campagna selezionata utilizzando **[!UICONTROL Cancella]** pulsante. Puoi quindi scegliere una nuova campagna immediatamente o in un secondo momento.
+1. Se necessario, puoi sostituire la campagna utilizzando **[!UICONTROL Sostituisci]** pulsante. È inoltre possibile **[!UICONTROL Cancella]** la campagna selezionata utilizzando **[!UICONTROL Cancella]** pulsante. Questa azione cancella non solo la campagna, ma anche altre proprietà a livello di fase come Esclusione di gruppi di dominio, Campagna, Esclusione di Percorsi e altre. Dopo aver cancellato, puoi scegliere una nuova campagna immediatamente o in un secondo momento.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -125,7 +125,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Questa azione è possibile solo prima di attivare la prima esecuzione della fase. Dopo l’attivazione di un’esecuzione, la campagna non può essere sostituita, a meno che tu non [dividere l’esecuzione](#split-phase) in una nuova fase.
 
-1. Se necessario, puoi aggiungere una fase. Verrà aggiunta dopo l&#39;ultima fase corrente.
+1. Se necessario, puoi aggiungere una fase. Verrà aggiunto dopo l’ultima fase.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
@@ -236,9 +236,9 @@ Quando attivi un’esecuzione, vengono creati automaticamente diversi tipi di pu
 
 * Se si attiva la prima esecuzione di una fase:
 
-   * Un [pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} viene creato per i tipi di pubblico della campagna esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+   * Un [pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it){target="_blank"} viene creato per i tipi di pubblico della campagna esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Audience Exclusion `.
 
-   * Viene creato un pubblico per i gruppi di dominio esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Viene creato un pubblico per i gruppi di dominio esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
    * Viene creato un altro pubblico per i tipi di pubblico di percorso esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
@@ -246,11 +246,11 @@ Quando attivi un’esecuzione, vengono creati automaticamente diversi tipi di pu
   >
   >I tipi di pubblico vengono puliti dopo che il piano di riscaldamento è contrassegnato come completato.
   >
-  >Il sistema non crea un nuovo pubblico nel caso in cui non vi siano modifiche nei tipi di pubblico della campagna o nei gruppi di dominio esclusi per le fasi successive.
+  >Il percorso non crea un nuovo pubblico se non vi è alcuna modifica nei tipi di pubblico della campagna esclusi, nei tipi di pubblico di gruppo esclusi o nei gruppi di dominio per le fasi successive.
 
 * Quando si attiva un’esecuzione:
 
-   * Viene creato un altro pubblico per l’ultimo filtro di coinvolgimento, con la seguente convenzione di denominazione: `<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+   * Viene creato un altro pubblico per l’ultimo filtro di coinvolgimento, con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
      >[!NOTE]
      >
@@ -298,9 +298,9 @@ Un’esecuzione può avere i seguenti stati:
 
 * **[!UICONTROL Bozza]** : ogni volta che viene creata un’esecuzione, quando [creazione di un nuovo piano](ip-warmup-plan.md) o [aggiunta di un&#39;esecuzione](#define-runs) dall&#39;interfaccia utente, accetta **[!UICONTROL Bozza]** stato.
 * **[!UICONTROL Live]**: ogni volta che attivi un’esecuzione, vengono richiesti **[!UICONTROL Live]** stato. Significa che il sistema ha accettato la richiesta di pianificare l’esecuzione, non che l’invio sia iniziato. A questo punto puoi osservare lo stato dell’esecuzione live facendo clic sul pulsante **[!UICONTROL Visualizza stato]** nella tabella. Questo consente di tenere traccia di quanti profili di destinazione sono effettivamente qualificati.
-* **[!UICONTROL Completato]**: l’esecuzione della campagna per questa esecuzione è completata. Per accedere a un rapporto di esecuzione dettagliato, fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** nella tabella. Questa opzione consente di tenere traccia dello stato di consegna dell’e-mail, inclusi i raggruppamenti specifici dei gruppi di dominio per un monitoraggio avanzato. [Ulteriori informazioni](#reports)
-* **[!UICONTROL Annullato]**: a **[!UICONTROL Live]** esecuzione annullata utilizzando **[!UICONTROL Interrompi]** oppure hai attivato il pulsante **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** e si è verificato un errore. [Ulteriori informazioni](#define-runs)
-* **[!UICONTROL Non riuscito]**: il sistema ha rilevato un errore o la campagna utilizzata per la fase corrente è stata interrotta. Se un’esecuzione non riesce, puoi pianificarne un’altra per il giorno successivo.
+* **[!UICONTROL Completato]**: l’esecuzione della campagna per questa esecuzione è completata. Per accedere a un rapporto di esecuzione dettagliato, fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** nella tabella. Questa opzione consente di tenere traccia dello stato di consegna dell’e-mail, inclusi i raggruppamenti specifici dei gruppi di dominio per un monitoraggio avanzato. La campagna associata verrà impostata come Interrotta.[Ulteriori informazioni](#reports)
+* **[!UICONTROL Annullato]**: a **[!UICONTROL Live]** esecuzione annullata utilizzando **[!UICONTROL Annulla]** pulsante.[Ulteriori informazioni](#define-runs)
+* **[!UICONTROL Non riuscito]**: il sistema ha rilevato un errore, la campagna utilizzata per la fase corrente è stata interrotta oppure è stato abilitato **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** e si è verificato un errore. Se un’esecuzione non riesce, puoi pianificarne un’altra per il giorno successivo.
 
 ### Utilizzare i rapporti {#reports}
 
@@ -363,7 +363,7 @@ Prendiamo un esempio:
 
 ### Contrassegna un piano come completato {#mark-as-completed}
 
-Se le prestazioni del piano non sono sufficienti o se si desidera eliminarlo per crearne un altro, è possibile contrassegnarlo come completato.
+Se gli IP sono stati riscaldati con il volume desiderato, o se il piano non funziona abbastanza bene o se desideri rilasciarlo per crearne un altro, puoi contrassegnarlo come completato.
 
 A tale scopo, fare clic sul pulsante **[!UICONTROL Altro]** in alto a destra nel piano di riscaldamento dell&#39;IP e selezionare **[!UICONTROL Contrassegna come completato]**.
 

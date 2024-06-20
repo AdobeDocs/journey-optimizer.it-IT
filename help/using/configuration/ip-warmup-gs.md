@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 95%
+source-wordcount: '272'
+ht-degree: 94%
 
 ---
 
@@ -31,10 +31,6 @@ Cosa troverai in questa documentazione:
 * [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->La funzione di preparazione IP è attualmente disponibile come versione beta solo per alcuni utenti. Per partecipare al programma beta, contatta l’Assistenza clienti Adobe.
 
 Con [!DNL Journey Optimizer], è possibile eseguire facilmente flussi di lavoro di preparazione IP direttamente dall’interfaccia utente in modo standardizzato ed efficiente, seguendo le best practice per una recapitabilità ottimale.
 
