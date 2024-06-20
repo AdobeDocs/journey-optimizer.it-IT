@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Il **quadro** è la zona centrale nel designer percorso. È in quest’area che 
 
 ![](assets/journey39.png)
 
-Il **barra strumenti**, posizionato nell’angolo in alto a destra dell’area di lavoro, ti consente di mostrare/nascondere la griglia, ingrandire/ridurre e scaricare uno screenshot dell’area di lavoro. Consulta questa [sezione](../building-journeys/journey-gs.md#timeout_and_error).
+Il **barra strumenti**, posizionato nell’angolo in alto a destra dell’area di lavoro, ti consente di mostrare/nascondere la griglia, ingrandire/ridurre e scaricare uno screenshot dell’area di lavoro. Consulta questa [sezione](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Dalle attività di azione, utilizza azioni personalizzate per inviare messaggi c
 
 Puoi definire un’azione di fallback in caso di errore o timeout per le seguenti attività di percorso: **[!UICONTROL Condizione]** e **[!UICONTROL Azione]**.
 
-Per aggiungere un’azione di fallback per un’attività, seleziona la **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** nelle proprietà dell’attività: dopo l’attività viene aggiunto un altro percorso. La durata del timeout è definita dagli utenti amministratore in [Proprietà percorso](../building-journeys/journey-gs.md#change-properties). Ad esempio, se l’invio di un’e-mail richiede troppo tempo o è in errore, puoi decidere di inviare una notifica push.
+Per aggiungere un’azione di fallback per un’attività, seleziona la **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** nelle proprietà dell’attività: dopo l’attività viene aggiunto un altro percorso. La durata del timeout è definita dagli utenti amministratore in [Proprietà percorso](../building-journeys/journey-properties.md). Ad esempio, se l’invio di un’e-mail richiede troppo tempo o è in errore, puoi decidere di inviare una notifica push.
 
 ![](assets/journey42.png)
 

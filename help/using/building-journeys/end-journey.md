@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: rientro, percorso, fine, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Un percorso può terminare per un individuo in due contesti specifici:
 * La persona arriva all’ultima attività di un percorso.
 * La persona arriva a un **Condizione** attività (o un **Wait** con una condizione) e non corrisponde a nessuna delle condizioni.
 
-La persona può quindi rientrare nel percorso se il rientro è consentito. Consulta [questa pagina](../building-journeys/journey-gs.md#change-properties)
+La persona può quindi rientrare nel percorso se il rientro è consentito. Consulta [questa pagina](../building-journeys/journey-properties.md#entrance)
 
 Per terminare un percorso live, è consigliabile chiuderlo. L&#39;arrivo di nuovi clienti nel percorso sarà quindi bloccato. I clienti che sono già entrati nel percorso possono provarlo fino alla fine. Consulta [questa sezione](../building-journeys/journey.md#close-journey)
 
@@ -58,9 +58,9 @@ Un percorso può essere chiuso per i motivi seguenti:
 
 La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno qualsiasi dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
 
-Dopo 91 giorni [timeout predefinito](journey-gs.md#global_timeout), un percorso Read audience passa alla **Completato** stato. Questo comportamento è impostato solo per 91 giorni (ad es. [Valore predefinito timeout percorso](journey-gs.md#global_timeout)) poiché tutte le informazioni sui profili che sono entrati nel percorso vengono rimosse 91 giorni dopo l’ingresso. Le persone ancora nel percorso sono automaticamente interessate. Uscono dal percorso dopo il timeout di 91 giorni.
+Dopo 91 giorni [timeout globale](journey-properties.md#timeout), un percorso Read audience passa alla **Completato** stato. Questo comportamento è impostato solo per 91 giorni (ad es. [Valore di timeout globale del percorso](journey-properties.md#global_timeout)) poiché tutte le informazioni sui profili che sono entrati nel percorso vengono rimosse 91 giorni dopo l’ingresso. Le persone ancora nel percorso sono automaticamente interessate. Uscono dal percorso dopo il timeout di 91 giorni.
 
-Consulta questa [sezione](../building-journeys/journey-gs.md#global_timeout).
+Consulta questa [sezione](../building-journeys/journey-properties.md#global_timeout).
 
 Impossibile riavviare o eliminare una versione di percorso chiusa. Puoi crearne una nuova versione o duplicarla. È possibile eliminare solo i percorsi finiti.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attività, percorso, lettura, pubblico, piattaforma
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1466'
 ht-degree: 6%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->I percorsi di pubblico con lettura unica si spostano sul **Completato** stato 91 giorni ([timeout predefinito](journey-gs.md#global_timeout)) dopo l&#39;esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 91 giorni dall’esecuzione dell’ultima occorrenza.
+>I percorsi di pubblico con lettura unica si spostano sul **Completato** stato 91 giorni ([Timeout globale del percorso](journey-properties.md#global_timeout)) dopo l&#39;esecuzione del percorso. Per i tipi di pubblico di tipo Read pianificati, devono essere trascorsi 91 giorni dall’esecuzione dell’ultima occorrenza.
 
 ## Test e pubblicazione del percorso {#testing-publishing}
 

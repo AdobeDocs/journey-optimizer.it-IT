@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 3%
@@ -69,7 +69,7 @@ Da assegnare **Proprietà** e **Azienda** diritti, segui i passaggi seguenti:
 1. Clic **[!UICONTROL Aggiungi tutto]**. Questo aggiungerà il seguente diritto al tuo profilo di prodotto:
    * **[!UICONTROL Approva]**
    * **[!UICONTROL Sviluppa]**
-   * **[!UICONTROL Gestire gli ambienti]**
+   * **[!UICONTROL Gestisci ambienti]**
    * **[!UICONTROL Gestire le estensioni]**
    * **[!UICONTROL Pubblica]**
 
@@ -98,7 +98,7 @@ Per assegnare questo **[!UICONTROL Profilo di prodotto]** per gli utenti, effett
 
 1. Seleziona la configurata in precedenza **[!UICONTROL Profilo di prodotto]**.
 
-1. Dalla sezione **[!UICONTROL Utenti]** , fare clic su **[!UICONTROL Aggiungi utente]**.
+1. Dalla sezione **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
    ![](assets/push_product_6.png)
 
@@ -332,7 +332,7 @@ L&#39;evento è stato creato e ora può essere utilizzato in un percorso.
 
 1. Clic **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
 
-1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Ulteriori informazioni [sezione](../building-journeys/journey-gs.md#change-properties).
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Ulteriori informazioni [sezione](../building-journeys/journey-properties.md).
 
 1. Per iniziare, trascina l’evento creato nei passaggi precedenti dalla sezione **[!UICONTROL Eventi]** a discesa.
 

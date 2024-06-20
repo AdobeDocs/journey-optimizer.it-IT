@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+source-git-commit: 15b0e69a823cc30589608995a5138340e263b227
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 99%
+source-wordcount: '1847'
+ht-degree: 98%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 99%
    + [Introduzione ai percorsi](using/building-journeys/journey.md)
    + Creare un percorso{#create-journey}
       + [Creare il primo percorso](using/building-journeys/journey-gs.md)
+      + [Impostare le proprietà del percorso](using/building-journeys/journey-properties.md)
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Test del percorso](using/building-journeys/testing-the-journey.md)
       + [Simulare il percorso](using/building-journeys/journey-simulation.md)

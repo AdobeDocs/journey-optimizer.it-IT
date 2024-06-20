@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 60%
@@ -183,15 +183,15 @@ Per ulteriori informazioni, consulta [frammento di contenuto](../content-managem
 
 **Percorsi**
 
-* Il timeout globale dei Percorsi è stato esteso a 91 giorni. [Ulteriori informazioni](../building-journeys/journey-gs.md#global_timeout)
+* Il timeout globale dei Percorsi è stato esteso a 91 giorni. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
-  Questo nuovo timeout verrà applicato a tutti i nuovi percorsi creati. Fai riferimento a questo [Sezione Domande frequenti](../building-journeys/journey-gs.md#timeout-faq) per ulteriori informazioni. Tieni presente che queste modifiche verranno implementate gradualmente nel corso del mese di giugno.
+  Questo nuovo timeout verrà applicato a tutti i nuovi percorsi creati. Fai riferimento a questo [Sezione Domande frequenti](../building-journeys/journey-properties.md#timeout-faq) per ulteriori informazioni. Tieni presente che queste modifiche verranno implementate gradualmente nel corso del mese di giugno.
 
 
 * Adobe Journey Optimizer ora supporta le richieste di accesso/cancellazione della privacy e le richieste di gestione del ciclo di vita dei dati. [Ulteriori informazioni](../privacy/requests.md)
 * È ora possibile ridimensionare le colonne nell’inventario del percorso.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* I **Criteri di unione** ora sono disponibili: i criteri di unione utilizzati da un percorso sono quindi visibili e coerenti in tutto il percorso [Ulteriori informazioni](../building-journeys/journey-gs.md#merge-policies)
+* I **Criteri di unione** ora sono disponibili: i criteri di unione utilizzati da un percorso sono quindi visibili e coerenti in tutto il percorso [Ulteriori informazioni](../building-journeys/journey-properties.md#merge-policies)
 
 
 

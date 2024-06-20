@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 14%
 
 ---
@@ -39,13 +39,13 @@ ht-degree: 14%
 
 ### Attività di attesa multiple {#multiple-wait-activities}
 
-Quando si utilizzano più **Wait** attività in un percorso, tieni presente che il [timeout percorso globale](journey-gs.md#global_timeout) è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso di 91 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#global_timeout).
+Quando si utilizzano più **Wait** attività in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) for days è di 91 percorsi, il che significa che i profili vengono sempre esclusi dal massimo percorso di 91 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](journey-properties.md#global_timeout).
 
 Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 91 percorsi. Ad esempio, se ne aggiungi due **Wait** attività impostate su 20 giorni ciascuna, il sistema rileva che il secondo **Wait** l’attività terminerà dopo il timeout di 91 giorni. Il secondo **Wait** L’attività verrà quindi ignorata e l’utente uscirà dal percorso prima di avviarlo. In questo esempio, il cliente rimarrà per un totale di 20 giorni nel percorso.
 
 ### Attendere e rientrare {#wait-re-entrance}
 
-Best practice per non utilizzare **Wait** attività per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-gs.md#entrance).
+Best practice per non utilizzare **Wait** attività per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Modalità di attesa e test {#wait-test-modd}
 

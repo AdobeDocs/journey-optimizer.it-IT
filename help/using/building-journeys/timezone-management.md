@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: fuso orario, proprietà, percorso, condizione, ora, data, personalizzato
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Gestione del fuso orario {#timezone_management}
 
-È possibile definire un fuso orario nel [proprietà](../building-journeys/journey-gs.md#change-properties) del tuo percorso.
+È possibile definire un fuso orario nel [proprietà](../building-journeys/journey-properties.md#timezone) del tuo percorso.
 
 Per accedere a Proprietà Percorso, fai clic sull’icona della matita in alto a destra dello schermo.
 

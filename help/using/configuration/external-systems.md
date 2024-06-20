@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ Le API dei percorsi supportano fino a 5000 eventi al secondo, ma alcuni sistemi 
 
 Ogni volta che una chiamata API viene eseguita dai percorsi, passa attraverso il motore API. Se viene raggiunto il limite impostato nell’API, la chiamata viene rifiutata se utilizzi l’API di limitazione di utilizzo, oppure viene messa in coda per un massimo di 6 ore ed elaborata il prima possibile nell’ordine in cui è stata ricevuta se utilizzi l’API di limitazione.
 
-Ad esempio, supponiamo che sia stata definita una regola di limitazione di utilizzo o di limitazione di 200 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un’azione personalizzata in 10 percorsi diversi. Se un percorso riceve 300 chiamate al secondo, utilizza i 200 slot disponibili ed elimina o mette in coda i 100 slot rimanenti. Poiché il limite massimo è stato superato, gli altri 9 percorsi non avranno più alcuno slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e arresti anomali.
+Ad esempio, supponiamo che tu abbia definito una regola di limitazione o limitazione di 200 chiamate al secondo per il sistema esterno. Il sistema viene chiamato da un’azione personalizzata in 10 percorsi diversi. Se un percorso riceve 300 chiamate al secondo, utilizza i 200 slot disponibili ed elimina o mette in coda i 100 slot rimanenti. Poiché il limite massimo è stato superato, gli altri 9 percorsi non avranno più alcuno slot. Questa granularità aiuta a proteggere il sistema esterno da sovraccarichi e arresti anomali.
 
 >[!IMPORTANT]
 >
@@ -72,7 +72,7 @@ Per le **azioni personalizzate**, è necessario valutare la capacità dell’API
 
 Se la regola di limitazione o limite è soddisfatta, viene applicata la regola di timeout.
 
-In ogni percorso, puoi definire una durata di timeout. Questo consente di impostare una durata massima quando si chiama un sistema esterno. La durata del timeout è configurata nelle proprietà di un percorso. Consulta [questa pagina](../building-journeys/journey-gs.md#timeout_and_error).
+In ogni percorso, puoi definire una durata di timeout. Questo consente di impostare una durata massima quando si chiama un sistema esterno. La durata del timeout è configurata nelle proprietà di un percorso. Consulta [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
 
 Questo timeout è globale per tutte le chiamate esterne (chiamate API esterne nelle azioni personalizzate e nelle origini dati personalizzate). Per impostazione predefinita, è impostato su 30 secondi.
 
@@ -102,4 +102,4 @@ Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi 
 
 **Dove posso configurare il timeout? Esiste un valore massimo?**
 
-In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Fai riferimento a [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-gs.md#timeout_and_error).
+In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Fai riferimento a [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).

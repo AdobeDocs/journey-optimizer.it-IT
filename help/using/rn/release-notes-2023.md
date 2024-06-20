@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
-workflow-type: ht
-source-wordcount: '4396'
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+workflow-type: tm+mt
+source-wordcount: '4394'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ Questa versione include i miglioramenti elencati di seguito.
 * La durata massima che puoi definire in qualsiasi tempo di attesa è ora di 29 giorni anziché di 30. Questo miglioramento è stato introdotto per evitare che le durate di attesa superino la durata del percorso di 30 giorni. Ciò si applica:
 
    * al campo **Quantità di tempo** nell’[attività di attesa](../building-journeys/wait-activity.md)
-   * al **Periodo di attesa per rientro** nelle [Proprietà del percorso](../building-journeys/journey-gs.md#entrance)
+   * al **Periodo di attesa per rientro** nelle [Proprietà del percorso](../building-journeys/journey-properties.md#entrance)
    * il campo **Attendi** nella definizione di timeout delle [attività evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -200,7 +200,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#uplicate-a-journey
+* Durante la duplicazione di un percorso, è ora possibile definire il nome della copia del percorso. [Ulteriori informazioni](../building-journeys/journey-gs.md#duplicate-a-journey)
 
 * Il supporto delle risposte alle azioni personalizzate è ora disponibile al pubblico. Questa funzionalità consente di sfruttare le risposte alle chiamate API nelle azioni personalizzate e gestire il percorso in base a tali risposte. Inoltre, è stato aggiunto un [nuovo guardrail di limitazione](../start/guardrails.md#custom-actions-g) per limitare automaticamente le chiamate di azioni personalizzate. [Ulteriori informazioni](../action/action-response.md)
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Percorsi**
 
-* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. [Ulteriori informazioni](../building-journeys/journey-gs.md#entrance)
+* Il campo **Periodo di attesa per il reingresso** è stato aggiunto alle proprietà del percorso. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. [Ulteriori informazioni](../building-journeys/journey-properties.md#entrance)
 
 * Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Per i percorsi **Leggi pubblico**, ora puoi aggiungere una data di fine. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. [Ulteriori informazioni](../building-journeys/journey-gs.md#dates)
 

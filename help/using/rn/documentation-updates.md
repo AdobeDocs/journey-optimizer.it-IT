@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5389'
 ht-degree: 99%
@@ -22,7 +22,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Giugno 2024 {#june-2024}
 
 * Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di giugno 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
-* È stata aggiunta una nota sull’utilizzo dei criteri di unione nei percorsi in [questa pagina](../building-journeys/journey-gs.md#merge-policies).
+* È stata aggiunta una nota sull’utilizzo dei criteri di unione nei percorsi in [questa pagina](../building-journeys/journey-properties.md#merge-policies).
 * La pagina su come configurare un’attività di **Attesa** in un percorso è stata riorganizzata e migliorata. [Ulteriori informazioni](../building-journeys/wait-activity.md)
 
 ## Maggio 2024 {#may-2024}
@@ -82,7 +82,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 * Tutte le nuove funzioni e i miglioramenti apportati nella versione di gennaio 2024 di [!DNL Journey Optimizer] sono elencati nel dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stato aggiunto un guardrail sulle dimensioni del percorso. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
-* La gestione del timeout del percorso è stata dettagliata [nella sezione seguente](../building-journeys/journey-gs.md#global_timeout).
+* La gestione del timeout del percorso è stata dettagliata [nella sezione seguente](../building-journeys/journey-properties.md#global_timeout).
 * La [pagina home](../../ajo-home.md) della documentazione di Journey Optimizer è stata riprogettata.
 * Sono state aggiunte informazioni su consigli relativi all’attività Aggiorna profili. [Ulteriori informazioni](../building-journeys/update-profiles.md)
 * Sono state aggiunte informazioni sul comportamento dei timeout sulle attività evento nei percorsi. Se non viene ricevuto alcun evento durante il periodo di timeout specificato, i singoli utenti continueranno il percorso se non viene definito alcun percorso di timeout. [Ulteriori informazioni](../building-journeys/general-events.md#events-specific-time)
