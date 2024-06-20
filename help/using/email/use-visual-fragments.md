@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -74,6 +74,22 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 1. Se necessario, puoi interrompere l’ereditarietà con il frammento originale. [Ulteriori informazioni](#break-inheritance)
 
 1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le tue modifiche.
+
+## Personalizza campi modificabili {#customize-fields}
+
+Se alcune parti del frammento selezionato sono state rese modificabili, è possibile ignorarne il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i frammenti](../content-management/customizable-fragments.md)
+
+Per personalizzare i campi modificabili in un frammento, effettua le seguenti operazioni:
+
+1. Aggiungi il frammento al contenuto e selezionalo per aprire il riquadro delle proprietà sul lato destro.
+
+1. Tutti i campi modificabili nel frammento vengono visualizzati nel **Impostazioni** , sotto il **Frammento** sezione.
+
+   I campi modificabili sono evidenziati in verde nel riquadro di anteprima quando sono selezionati nel riquadro di destra, semplificando l’identificazione della loro posizione nel contenuto.
+
+   Nell’esempio seguente, l’immagine **sorgente** e **testo alternativo** possono essere modificati, così come il pulsante &quot;Click here&quot; **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## Interrompi ereditarietà {#break-inheritance}
 

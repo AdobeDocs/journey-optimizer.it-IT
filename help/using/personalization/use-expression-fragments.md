@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 >[!NOTE]
 >
 >Se crei un frammento di espressione contenente più interruzioni di riga e lo utilizzi in [SMS](../sms/create-sms.md#sms-content) o [push](../push/design-push.md) contenuti, le interruzioni di riga vengono mantenute. In questo modo, assicurati di testare [SMS](../sms/send-sms.md) o [push](../push/send-push.md) messaggio prima di inviarlo.
+
+## Personalizza campi modificabili {#customize-fields}
+
+Se alcune parti di un frammento di espressione sono state rese modificabili utilizzando le variabili, è possibile sovrascrivere i relativi valori predefiniti utilizzando una sintassi specifica. [Scopri come rendere personalizzabili i frammenti](../content-management/customizable-fragments.md)
+
+Per personalizzare i campi, effettua le seguenti operazioni:
+
+1. Inserisci il frammento nel codice da **Frammenti** menu.
+
+1. Utilizza il `<fieldId>="<value>"` codice alla fine della sintassi per sostituire il valore predefinito della variabile.
+
+   Nell’esempio seguente, sostituiamo il valore di una variabile il cui ID è &quot;sports&quot; con il valore &quot;yoga&quot;. Questo visualizzerà lo &quot;yoga&quot; nel contenuto del frammento in tutti i casi in cui si fa riferimento alla variabile &quot;sport&quot;.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+Un esempio che mostra come aggiungere campi modificabili in un frammento di espressione e sostituirne i valori durante la creazione di un messaggio e-mail è disponibile in [questa sezione](../content-management/customizable-fragments.md#example).
 
 ## Interrompi ereditarietà {#break-inheritance}
 
