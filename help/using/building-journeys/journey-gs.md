@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2623'
+source-wordcount: '2642'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 12%
 >id="ajo_homepage_card2"
 >title="Creare i percorsi"
 >abstract="Utilizza **Adobe Journey Optimizer** per generare l’orchestrazione in tempo reale per diversi casi d’uso, sfruttando i dati contestuali provenienti da eventi od origini dati."
-
 
 
 ## Prerequisiti{#start-prerequisites}
@@ -326,6 +325,7 @@ Il percorso utilizza i criteri di unione per recuperare i dati del profilo da Ad
 
 * In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
 * Nei percorsi attivati da eventi: viene utilizzato il criterio di unione predefinito
+* Nei percorsi di eventi aziendali: viene utilizzato il criterio di unione del pubblico di destinazione nella seguente attività Read audience
 
 Il percorso rispetterà il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio, nelle funzioni &quot;inAudience&quot;), creando incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
