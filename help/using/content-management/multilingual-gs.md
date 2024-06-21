@@ -10,7 +10,7 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
+source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 25%
@@ -30,6 +30,7 @@ Con Journey Optimizer, puoi creare contenuti multilingue attraverso due metodi d
 * **Traduzione manuale**: traduci il contenuto direttamente in E-mail Designer o importa contenuto multilingue esistente. [Ulteriori informazioni](multilingual-manual.md)
 
 * **Traduzione automatica**: invia il contenuto al provider della lingua preferita per la traduzione automatica. [Ulteriori informazioni](multilingual-automated.md)
+
 
 </br>
 
