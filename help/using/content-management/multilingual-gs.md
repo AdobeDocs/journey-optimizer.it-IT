@@ -8,35 +8,26 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
-hide: true
-hidefromtoc: true
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 37%
+ht-degree: 25%
 
 ---
 
 # Introduzione al contenuto multilingue {#multilingual-gs}
 
->[!BEGINSHADEBOX]
+>[!AVAILABILITY]
+>
+>Il contenuto multilingue è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
-**Sommario**
-
-* Introduzione al contenuto multilingue
-* [Creare contenuto multilingue con traduzione manuale](multilingual-manual.md)
-* [Creare contenuto multilingue con traduzione automatica](multilingual-automated.md)
-* [Rapporto campagna multilingue](multilingual-report.md)
-
->[!ENDSHADEBOX]
-
-La funzione multilingue consente di creare facilmente contenuti in più lingue all’interno di una singola campagna. Grazie a questa funzione, è possibile cambiare lingua durante la modifica della campagna, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.
+La funzione multilingue consente di creare facilmente contenuti in più lingue all’interno di una singola campagna o percorso. Grazie a questa funzione, è possibile cambiare lingua durante la modifica della campagna, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.
 
 Con Journey Optimizer, puoi creare contenuti multilingue attraverso due metodi distinti:
 
-* **Traduzione manuale**: traduci il contenuto direttamente in E-mail designer o importa contenuto multilingue esistente. [Ulteriori informazioni](multilingual-manual.md)
+* **Traduzione manuale**: traduci il contenuto direttamente in E-mail Designer o importa contenuto multilingue esistente. [Ulteriori informazioni](multilingual-manual.md)
 
 * **Traduzione automatica**: invia il contenuto al provider della lingua preferita per la traduzione automatica. [Ulteriori informazioni](multilingual-automated.md)
 

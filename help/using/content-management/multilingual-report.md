@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 40%
+source-wordcount: '191'
+ht-degree: 32%
 
 ---
 
 # Rapporto campagna multilingue {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-* [Introduzione al contenuto multilingue](multilingual-gs.md)
-* [Creare contenuto multilingue con traduzione manuale](multilingual-manual.md)
-* [Creare contenuto multilingue con traduzione automatica](multilingual-automated.md)
-* Rapporto campagna multilingue
-
->[!ENDSHADEBOX]
 
 Rapporti globali, accessibili dalla **Sempre** , visualizza gli eventi che si sono verificati almeno due ore fa e copre gli eventi in un periodo di tempo selezionato. Il rapporto globale della campagna è accessibile direttamente dalla campagna con **[!UICONTROL Visualizza rapporto]** pulsante.
 
