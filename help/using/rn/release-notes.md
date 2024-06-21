@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: 522f1815ae6de33f9e0a7ea598d52c8e88d2ff0d
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 63%
+source-wordcount: '760'
+ht-degree: 64%
 
 ---
 
@@ -222,4 +222,4 @@ Per ulteriori informazioni, consulta [frammento di contenuto](../content-managem
 
 **Canale direct mail**
 
-* Il canale direct mailing è ora disponibile per le organizzazioni che hanno acquistato l’Adobe **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+* Il canale direct mailing è ora disponibile per tutti i clienti. [Ulteriori informazioni](../direct-mail/get-started-direct-mail.md)
