@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 3%
+ht-degree: 37%
 
 ---
 
@@ -45,7 +45,7 @@ In questo modo potrai tenere traccia del comportamento dei destinatari attravers
 * **[!UICONTROL Aperture e-mail]**: messaggi aperti.
 * **[!UICONTROL Fai clic sull’e-mail]**: fa clic sui collegamenti all’interno di un’e-mail.
 
-## Inserisci collegamenti {#insert-links}
+## Inserire i collegamenti {#insert-links}
 
 Durante la progettazione di un messaggio, puoi aggiungere collegamenti al contenuto.
 
@@ -53,9 +53,9 @@ Durante la progettazione di un messaggio, puoi aggiungere collegamenti al conten
 >
 >Quando [il tracciamento è abilitato](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
 
-Per inserire collegamenti nel contenuto dell’e-mail, effettua le seguenti operazioni:
+Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguente:
 
-1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** dalla barra degli strumenti contestuale.
+1. Seleziona un elemento e fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -95,15 +95,15 @@ Per inserire collegamenti nel contenuto dell’e-mail, effettua le seguenti oper
 
 È possibile apportare modifiche ai collegamenti utilizzando **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** riquadri a destra. Puoi sottolineare un collegamento, modificarne il colore e selezionarne la destinazione.
 
-1. In un **[!UICONTROL Testo]** componente in cui è inserito un collegamento, seleziona il collegamento.
+1. In un componente **[!UICONTROL Testo]** in cui è stato inserito un collegamento, seleziona il collegamento.
 
 1. Dalla sezione **[!UICONTROL Impostazioni]** , scegli come il pubblico verrà reindirizzato con il **[!UICONTROL Target]** elenco a discesa:
 
-   * **[!UICONTROL Nessuno]**: apre il collegamento nello stesso frame in cui è stato fatto clic (impostazione predefinita).
-   * **[!UICONTROL Vuoto]**: apre il collegamento in una nuova finestra o scheda.
-   * **[!UICONTROL Autonomo]**: apre il collegamento nello stesso fotogramma in cui è stato fatto clic.
-   * **[!UICONTROL Elemento padre]**: apre il collegamento nel frame principale.
-   * **[!UICONTROL In alto]**: apre il collegamento nel corpo completo della finestra.
+   * **[!UICONTROL Nessuno]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic (impostazione predefinita).
+   * **[!UICONTROL Vuoto]**: il collegamento viene aperto in una nuova finestra o scheda.
+   * **[!UICONTROL Stesso]**: il collegamento viene aperto nello stesso frame in cui è stato fatto clic.
+   * **[!UICONTROL Principale]**: il collegamento viene aperto nel frame principale.
+   * **[!UICONTROL Superiore]**: il collegamento viene aperto nel corpo completo della finestra.
 
    ![](assets/link_2.png)
 
@@ -111,54 +111,54 @@ Per inserire collegamenti nel contenuto dell’e-mail, effettua le seguenti oper
 
    ![](assets/link_1.png)
 
-1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dal **[!UICONTROL Stili]** scheda.
+1. Per cambiare il colore del collegamento, fai clic su **[!UICONTROL Colore collegamento]** dalla scheda **[!UICONTROL Stili]**.
 
    ![](assets/link_3.png)
 
 1. Salva le modifiche.
 
-## Collegamento a una pagina mirror {#mirror-page}
+## Collegare a una pagina mirror {#mirror-page}
 
-La pagina speculare è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
+La pagina mirror è una pagina HTML accessibile online tramite un browser web. Il contenuto è identico a quello dell’e-mail.
 
 Per aggiungere un collegamento a una pagina speculare nell’e-mail, [inserire un collegamento](#insert-links) e seleziona **[!UICONTROL Pagina mirror]** come tipo di collegamento.
 
 ![](assets/message-tracking-mirror-page.png)
 
-La pagina speculare viene creata automaticamente.
+La pagina mirror viene creata automaticamente.
 
 >[!IMPORTANT]
 >
->I collegamenti alle pagine mirror sono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori elevati può generare URL di pagine mirror lunghi, che possono impedire il funzionamento del collegamento in browser web che hanno una lunghezza massima per gli URL.
+>I collegamenti alle pagine mirror vengono generati automaticamente e non possono essere modificati. Contengono tutti i dati personalizzati crittografati necessari per eseguire il rendering dell’e-mail originale. Di conseguenza, l’utilizzo di attributi personalizzati con valori di grandi dimensioni può generare URL molto lunghi per le pagine mirror, che potrebbero non funzionare nei browser web in cui la lunghezza dell’URL è soggetta a un limite massimo.
 
-Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento alla pagina speculare, il contenuto dell’e-mail viene visualizzato nel loro browser web predefinito.
+Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina mirror, il contenuto dell’e-mail viene visualizzato nel browser web predefinito.
 
 >[!NOTE]
 >
 >In [bozza](../content-management/proofs.md) inviato ai profili di test, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
 
-Il periodo di conservazione per una pagina mirror è di 60 giorni. Dopo questo ritardo, la pagina speculare non sarà più disponibile.
+Il periodo di conservazione di una pagina mirror è di 60 giorni. Dopo questo ritardo, la pagina speculare non sarà più disponibile.
 
 ## Gestire il tracciamento {#manage-tracking}
 
-Il [E-mail Designer](content-from-scratch.md) consente di gestire gli URL tracciati, ad esempio modificare il tipo di tracciamento di ciascun collegamento.
+[E-mail Designer](content-from-scratch.md) consente di gestire gli URL tracciati, ad esempio modificando il tipo di tracciamento per ogni collegamento.
 
 1. Fai clic su **[!UICONTROL Collegamenti]** dal riquadro a sinistra per visualizzare l’elenco di tutti gli URL del contenuto che verranno tracciati.
 
-   Questo elenco ti consente di avere una vista centralizzata e di individuare ogni URL nel contenuto dell’e-mail.
+   Questo elenco consente di avere una visualizzazione centralizzata e di individuare ogni URL nel contenuto dell’e-mail.
 
-1. Per modificare un collegamento, fai clic sull’icona della matita corrispondente.
+1. Per modificare un collegamento, fai clic sull’icona a forma di matita corrispondente.
 
-1. È possibile modificare **[!UICONTROL Tipo di tracciamento]** se necessario:
+1. Se necessario, puoi modificare il **[!UICONTROL Tipo di tracciamento]**:
 
    ![](assets/message-tracking-edit-a-link.png)
 
    Per ogni URL tracciato, puoi impostare la modalità di tracciamento su uno dei seguenti valori:
 
    * **[!UICONTROL Tracciato]**: attiva il tracciamento su questo URL.
-   * **[!UICONTROL Rinuncia]**: considera questo URL come URL di rinuncia o di annullamento dell’abbonamento.
-   * **[!UICONTROL Pagina mirror]**: considera questo URL come un URL di pagina mirror.
-   * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Rinuncia]**: considera questo URL come un URL di rinuncia o di annullamento dell’iscrizione.
+   * **[!UICONTROL Pagina mirror]**: considera questo URL come un URL della pagina mirror.
+   * **[!UICONTROL Mai]**: non attiva mai il tracciamento di questo URL.
 
 Il reporting sulle aperture e sui clic è disponibile nel [Rapporto live](../reports/live-report.md) e nella [Rapporto globale](../reports/global-report.md).
 
