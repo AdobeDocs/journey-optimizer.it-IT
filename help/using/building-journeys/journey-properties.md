@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1726'
+source-wordcount: '1722'
 ht-degree: 8%
 
 ---
@@ -56,7 +56,7 @@ Il **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Consenti rientro"
->abstract="Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio per offrire un regalo una tantum quando una persona entra in un negozio."
+>abstract="Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione, ad esempio, se desideri offrire un regalo una tantum quando una persona entra in un negozio."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
 
 Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio per offrire un regalo una tantum quando una persona entra in un negozio.
@@ -107,7 +107,7 @@ Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire
 ### Timeout o errore nelle attività del percorso {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="Timeout del"
 >abstract="Definisci per quanto tempo il percorso tenterà di eseguire un’azione o di verificare una condizione prima di considerarla come timeout."
 
