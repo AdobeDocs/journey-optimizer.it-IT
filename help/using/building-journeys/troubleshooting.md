@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 63%
 
 ---
 
-# Risolvere i problemi di un percorso{#troubleshooting}
+# Risolvere i problemi di un percorso {#troubleshooting}
 
-In questa sezione viene descritto come risolvere i problemi dei percorsi prima di eseguire i test o di pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
+In questa sezione, scopri come risolvere i problemi dei percorsi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
-## Verifica la presenza di errori prima del test{#checking-for-errors-before-testing}
+## Verifica la presenza di errori prima del test {#checking-for-errors-before-testing}
 
 Prima di testare e pubblicare il percorso, controlla che tutte le attività siano state configurate correttamente. Non è possibile eseguire test o pubblicazioni se il sistema rileva ancora degli errori.
 
@@ -44,7 +44,7 @@ Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per pr
 
 Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
-## Verifica che gli eventi siano inviati correttamente{#checking-that-events-are-properly-sent}
+## Verifica che gli eventi siano inviati correttamente {#checking-that-events-are-properly-sent}
 
 Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test utilizzando strumenti come Postman.
 
@@ -52,7 +52,7 @@ Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviat
 
 Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento a [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
-## Controlla se le persone entrano nel percorso{#checking-if-people-enter-the-journey}
+## Controlla se le persone entrano nel percorso {#checking-if-people-enter-the-journey}
 
 Il reporting percorso misura le entrate delle persone in un percorso in tempo reale.
 
@@ -72,7 +72,7 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
   Content-type - application/json
   ```
 
-## Controllare il modo in cui le persone si spostano nel percorso{#checking-how-people-navigate-through-the-journey}
+## Controllare il modo in cui le persone si spostano nel percorso {#checking-how-people-navigate-through-the-journey}
 
 Il reporting di percorso misura il progresso delle persone all&#39;interno di un percorso. È facile identificare in che punto una persona si è fermata e per quale motivo.
 
@@ -81,11 +81,11 @@ Di seguito sono riportati alcuni elementi da verificare:
 * È dovuto a una condizione che esclude la persona? Ad esempio, la condizione è “gender = male” e la persona in oggetto è una donna. Questo controllo può essere eseguito da un utente aziendale, se la condizione non è troppo complessa.
 * È dovuto a una chiamata a un’origine dati che non risponde? Quando il percorso è in modalità di test, queste informazioni possono essere visualizzate nei registri in modalità di test. Quando il percorso è live, un amministratore può testare le chiamate dirette all’origine dati e verificare la risposta ricevuta. Un amministratore può anche duplicare il percorso e testarlo.
 
-## Verifica che i messaggi siano inviati correttamente{#checking-that-messages-are-sent-successfully}
+## Verifica che i messaggi siano inviati correttamente {#checking-that-messages-are-sent-successfully}
 
 Se gli individui si spostano nel modo giusto durante il percorso ma non ricevono i messaggi che dovrebbero ricevere, puoi verificare se:
 
 * [!DNL Journey Optimizer] ha tenuto correttamente conto della richiesta di invio del messaggio. Gli utenti aziendali possono accedere al messaggio che doveva essere stato inviato e verificare se l’ora dell’esecuzione più recente corrisponde all’orario di esecuzione del percorso. Può anche controllare le ultime chiamate/eventi API ricevuti.
 * [!DNL Journey Optimizer] ha inviato correttamente il messaggio. Controlla la segnalazione del percorso per assicurarti che non ci siano errori.
 
-Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test del percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno che è associata all’azione personalizzata non genera un errore ma non provoca l’invio di un messaggio, è necessario effettuare alcune indagini sul lato del sistema esterno.
+Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test di percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno associata all’azione personalizzata non genera un errore ma non causa l’invio di un messaggio, è necessario eseguire alcune indagini sul lato del sistema esterno.

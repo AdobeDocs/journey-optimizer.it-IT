@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5371'
+source-wordcount: '5383'
 ht-degree: 99%
 
 ---
@@ -24,6 +24,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 * Tutte le nuove funzioni e i miglioramenti apportati con [!DNL Journey Optimizer] La versione di giugno 2024 è stata descritta in dettaglio nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stata aggiunta una nota sull’utilizzo dei criteri di unione nei percorsi in [questa pagina](../building-journeys/journey-properties.md#merge-policies).
 * La pagina su come configurare un’attività di **Attesa** in un percorso è stata riorganizzata e migliorata. [Ulteriori informazioni](../building-journeys/wait-activity.md)
+* È stata creata una nuova pagina per specificare nel dettaglio le proprietà del percorso. [Ulteriori informazioni](../building-journeys/journey-properties.md)
 
 ## Maggio 2024 {#may-2024}
 
@@ -114,7 +115,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 ## Ottobre 2023 {#oct-2023}
 
 * Tutte le nuove funzioni e i miglioramenti apportati alla versione di ottobre 2023 di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
-* Sono stati aggiunti GIF per illustrare alcune funzionalità chiave, ad esempio: [Modelli di contenuto](../content-management/content-templates.md), [Frammenti](../content-management/fragments.md), [Attributi calcolati](../audience/computed-attributes.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [Tag](../start/search-filter-categorize.md#tags), [Modelli di ottimizzazione della gestione delle decisioni](../offers/ranking/personalized-optimization-model.md), [Campagne attivate da API](../campaigns/api-triggered-campaigns.md)e [Esperimento sui contenuti](../campaigns/content-experiment.md).
+* Sono stati aggiunti GIF per illustrare alcune funzionalità chiave, ad esempio: [Modelli di contenuto](../content-management/content-templates.md), [Frammenti](../content-management/fragments.md), [Attributi calcolati](../audience/computed-attributes.md), [Direct mail](../direct-mail/get-started-direct-mail.md), [Tag](../start/search-filter-categorize.md#tags), [Modelli di ottimizzazione della gestione delle decisioni](../offers/ranking/personalized-optimization-model.md), [Campagne attivate da API](../campaigns/api-triggered-campaigns.md)e [Esperimento sui contenuti](../content-management/content-experiment.md).
 * Il processo di creazione dello schema è stato aggiornato per riflettere gli ultimi aggiornamenti nell’interfaccia utente, con le modifiche in arrivo su Adobe Experience Platform. [Ulteriori informazioni](../audience/creating-test-profiles.md)
 * Sono stati aggiunti i guardrail di gestione delle decisioni nella pagina Guardrail e limitazioni. [Ulteriori informazioni](../start/guardrails.md#decision-management)
 * La sezione Parametri per intestazione è stata aggiornata per riflettere il modo in cui vengono gestite le notifiche “fuori sede” e le risposte alle richieste di verifica (vengono ricevute nell’**[!UICONTROL e-mail di errore]**). [Ulteriori informazioni](../email/email-settings.md#email-header)

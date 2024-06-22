@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 8%
+source-wordcount: '1756'
+ht-degree: 7%
 
 ---
 
@@ -28,10 +28,12 @@ ht-degree: 8%
 >title="Criteri di uscita dal percorso"
 >abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole di criteri di uscita per il percorso."
 
-Le proprietà del percorso sono centralizzate nella barra a destra del percorso. Questa sezione viene visualizzata per impostazione predefinita durante la creazione di un nuovo percorso. Per i percorsi esistenti, fai clic sull’icona della matita accanto al nome del percorso per accedere alle relative proprietà.
 
+## Accedere alle proprietà di un percorso {#access-properties}
 
-Utilizzare questa sezione per impostare il nome del percorso, aggiungere una descrizione e:
+Le proprietà di un percorso sono centralizzate nella barra a destra. Questa sezione viene visualizzata per impostazione predefinita durante la creazione di un nuovo percorso. Per i percorsi esistenti, fai clic sull’icona della matita accanto al nome del percorso per aprirlo.
+
+Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione e:
 
 * gestire [entrata e rientrata](#entrance),
 * scegli inizio e fine [date](#dates),
@@ -50,6 +52,10 @@ Il **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul p
 
 
 ## Ingresso e rientro {#entrance}
+
+La modalità di immissione profilo è definita a livello di percorso, nel riquadro di configurazione di destra. Le impostazioni sono descritte di seguito.
+
+La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell’entrata e del rientro del profilo, in [questa pagina](entry-management.md).
 
 ### Consenti rientro  {#allow-re-entrance}
 
@@ -71,7 +77,6 @@ Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibi
 
 Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 29 giorni.
 
-Ulteriori informazioni sulla gestione dell’entrata e del rientro del profilo, in [questa sezione](entry-management.md).
 
 ## Gestisci accesso {#manage-access}
 
