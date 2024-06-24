@@ -8,33 +8,31 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: percorso, espressione, editor, proprietà
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
 
 # Attributi proprietà percorso {#journey-properties}
 
-Nell’editor di espressioni avanzate, troverai **Proprietà percorso** sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso o gli errori specifici rilevati.
-
->[!NOTE]
->
->Gli attributi delle proprietà del percorso sono disponibili anche nell’editor di espressioni semplici. Consulta questa [sezione](../condition-activity.md#about_condition)
+In [editor di espressioni semplici](../condition-activity.md#about_condition), e nella [editor di espressioni avanzate](../expression/expressionadvanced.md), sotto **Evento** e **Origine dati** categorie, è possibile accedere al **Proprietà percorso** categoria. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso, o gli errori specifici rilevati.
 
 ![](../assets/journey-properties.png)
 
-Troverai informazioni, ad esempio, su:
+Contiene informazioni, ad esempio, su:
 
 * versione percorso: uid percorso, uid versione percorso, uid istanza, ecc.
 * errori: recupero dati, esecuzione azione, ecc.
 * passaggio corrente, ultimo passaggio corrente, ecc.
 * profili scartati
 
+  L’elenco dei campi è disponibile [in questa sezione](#journey-properties-fields).
+
 Puoi utilizzare questi campi per creare espressioni. Durante l’esecuzione del percorso, i valori vengono recuperati direttamente dal percorso.
 
-Di seguito sono riportati alcuni esempi di casi di utilizzo:
+Di seguito sono riportati alcuni esempi di casi d’uso:
 
 * **Registra profili eliminati**: puoi inviare a un sistema di terze parti tutti i profili esclusi da un messaggio da una regola di limitazione di utilizzo a scopo di registrazione. A questo scopo, imposta un percorso in caso di timeout ed errore e aggiungi una condizione per filtrare in base a un tipo di errore specifico, ad esempio: &quot;elimina le persone applicando una regola di limite&quot;. Puoi quindi inviare i profili eliminati a un sistema di terze parti tramite un’azione personalizzata.
 
@@ -53,7 +51,7 @@ Di seguito sono riportati alcuni esempi di casi di utilizzo:
 | | journeyVersion | Versione percorso | |
 | Istanza percorso | instanceUID | Identificatore istanza percorso | ID dell’istanza |
 | | externalKey | Chiave esterna | Identificatore individuale che attiva il percorso |
-| | organizationId | Identificatore organizzazione | Organizzazione del brand |
+| | organizationId | Identificatore dell’organizzazione | Organizzazione del brand |
 | | sandboxName | Nome sandbox | Nome della sandbox |
 | Identità | profileId | Identificatore dell’identità del profilo | Identificatore del profilo nel percorso |
 | | namespace | Spazio dei nomi identità profilo | Spazio dei nomi del profilo nel percorso (ad esempio: ECID) |

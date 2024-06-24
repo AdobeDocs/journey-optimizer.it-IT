@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività condizione
+title: Attività Condizione
 description: Scopri l’attività condizione
 feature: Journeys, Activities
 topic: Content Management
@@ -9,19 +9,19 @@ role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1466'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
-# Attività condizione{#condition-activity}
+# Attività Condizione{#condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
->title="Attività condizione"
->abstract="Questa attività ti consente di definire il modo in cui l’individuo scorrerà nel percorso. Verranno creati diversi percorsi in base a vari criteri. Puoi anche creare un percorso alternativo in caso di timeout o errore."
+>title="Attività Condizione"
+>abstract="Questa attività consente di definire il flusso del singolo utente nel percorso. Verranno creati diversi percorsi in base a vari criteri. Puoi anche creare un percorso alternativo in caso di timeout o errore."
 
 Sono disponibili i seguenti tipi di condizioni:
 
@@ -37,8 +37,8 @@ Sono disponibili i seguenti tipi di condizioni:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple"
->title="Informazioni sull’editor di espressioni semplici"
->abstract="La modalità editor di espressioni semplici consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati sul lato sinistro dello schermo. Trascina i campi nella zona principale. Per combinare i diversi elementi, interbloccateli l&#39;uno nell&#39;altro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello."
+>title="Editor di espressioni semplici"
+>abstract="La modalità editor di espressioni semplici consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. Trascina i campi nell’area principale. Per combinare i diversi elementi, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello."
 
 Quando utilizzi più condizioni in un percorso, puoi definire le etichette per ciascuna di esse in modo da identificarle più facilmente.
 
@@ -54,7 +54,7 @@ Ad esempio, prendiamo l’esempio di una condizione del primo percorso &quot;La 
 
 Puoi creare un altro percorso per i tipi di pubblico che non sono idonei alle condizioni definite selezionando **[!UICONTROL Mostra percorso per casi diversi da quelli sopra]**. Questa opzione non è disponibile in condizioni di suddivisione. Consulta [Suddivisione percentuale](#percentage_split).
 
-La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati sul lato sinistro dello schermo. Trascina i campi nella zona principale. Per combinare i diversi elementi, interbloccateli l&#39;uno nell&#39;altro per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
+La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. Trascina i campi nell’area principale. Per combinare i diversi elementi, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
 * AND: un&#39;intersezione di due criteri. Vengono presi in considerazione solo gli elementi che corrispondono a tutti i criteri.
 * OR: un’unione di due criteri. Vengono considerati gli elementi che corrispondono ad almeno uno dei due criteri.
@@ -68,7 +68,7 @@ Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://
 >
 >Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic sui messaggi passati) con l’editor semplice. A questo scopo, dovrai utilizzare l’editor avanzato. Consulta [questa pagina](expression/expressionadvanced.md).
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
@@ -88,7 +88,7 @@ Questo consente di eseguire azioni diverse in base all’ora del giorno e/o al g
 
 >[!NOTE]
 >
->Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Fai riferimento a [questa pagina](../building-journeys/timezone-management.md).
+>Il fuso orario non è specifico di una condizione ed è definito a livello di percorso nelle proprietà del percorso. Consulta [questa pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
 
@@ -102,7 +102,7 @@ Sono disponibili tre opzioni di filtro dell’ora:
 
 Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
-In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi. Fai riferimento a [questa pagina](../building-journeys/testing-the-journey.md)
+In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Utilizza questo tipo di condizione per impostare un numero massimo di profili pe
 
 <!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
-Il limite predefinito è 1000.
+Il limite predefinito è 1.000.
 
 Il contatore si applica solo alla versione del percorso selezionata. Il contatore viene azzerato quando il percorso viene duplicato o viene creata una nuova versione. Dopo un ripristino, i profili in ingresso riprendono il percorso nominale fino al raggiungimento del limite del contatore.
 
@@ -140,8 +140,8 @@ Il percorso nominale ha sempre la priorità sul percorso alternativo, anche se s
 
 Per i percorsi live, le soglie da considerare per garantire il raggiungimento del limite sono le seguenti:
 
-* Se il cappuccio è superiore a 10000, il numero di profili distinti da iniettare deve essere almeno 1,3 volte il cappuccio.
-* Per un cappuccio inferiore a 10000, il numero di profili distinti da iniettare deve essere 1000 più il cappuccio.
+* Per un tappo superiore a 10,000, il numero di profili distinti da iniettare deve essere almeno 1,3 volte il tappo.
+* Per un cappuccio inferiore a 10,000, il numero di profili distinti da iniettare deve essere 1000 più il cappuccio.
 
 Il limite del profilo non viene preso in considerazione nella modalità di test.
 

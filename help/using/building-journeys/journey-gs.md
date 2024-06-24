@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 22%
@@ -123,7 +123,7 @@ Progetta percorsi per offrire esperienze personalizzate e contestuali. [!DNL Jou
 
 ➡️ [Scopri questa funzione nel video](journey.md#video)
 
-Di seguito sono elencati i passaggi per l’invio di messaggi tramite percorsi.
+Di seguito sono elencati i passaggi per l’invio di messaggi tramite percorsi:
 
 1. Dalla sezione **Sfoglia** , fare clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1486'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Assicurati che i campi utilizzati nelle query abbiano valori associati nello sch
 
 >[!NOTE]
 >
->Per la risoluzione dei problemi, si consiglia di utilizzare journeyVersionID invece di journeyVersionName durante la query sui percorsi.
+>Per la risoluzione dei problemi, si consiglia di utilizzare journeyVersionID invece di journeyVersionName durante la query sui percorsi. Ulteriori informazioni sugli attributi delle proprietà del percorso [in questa sezione](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 ## Casi d’uso di base/query comuni {#common-queries}
 

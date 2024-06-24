@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1777'
 ht-degree: 7%
 
 ---
@@ -49,6 +49,8 @@ Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione
 >Per i percorsi live, questa schermata mostra solo la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 
 Il **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Vengono copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+
+Scopri di più sui campi tecnici relativi a un percorso per un determinato profilo e come utilizzarli [in questa pagina](expression/journey-properties.md).
 
 
 ## Ingresso e rientro {#entrance}
