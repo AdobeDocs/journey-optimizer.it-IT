@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '714'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -70,7 +70,7 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
    ![](assets/push_create_5.png)
 
-1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../campaigns/content-experiment.md)
+1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
 1. Le campagne sono progettate per essere eseguite in una data specifica o con una frequenza ricorrente. Scopri come configurare **[!UICONTROL Pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
 
@@ -96,12 +96,12 @@ Per creare una notifica push, effettua le seguenti operazioni:
 * [Configurare il canale push](push-gs.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
 
-## Modalità Consegna rapida {#rapid-delivery}
+## Modalità di consegna rapida {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
->title="Modalità Consegna rapida"
->abstract="La modalità di consegna rapida consente di eseguire l’invio di messaggi ad alta velocità sul canale push a un pubblico di dimensioni inferiori a 30 M."
+>title="Modalità di consegna rapida"
+>abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a un pubblico di dimensione inferiore a 30 milioni."
 
 La modalità Consegna rapida è una [!DNL Journey Optimizer] componente aggiuntivo che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
 

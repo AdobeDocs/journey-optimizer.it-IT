@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '940'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -69,7 +69,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio SMS dalla sezione **[!
 
    ![](assets/sms_create_5.png)
 
-1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../campaigns/content-experiment.md)
+1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
 1. In **[!UICONTROL Tracciamento delle azioni]** , specifica se desideri tenere traccia dei clic sui collegamenti nel messaggio SMS.
 
@@ -91,7 +91,7 @@ Ora puoi iniziare a progettare il contenuto del messaggio di testo dalla sezione
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definire il contenuto degli SMS"
->abstract="Personalizza e personalizza i messaggi di testo (SMS/MMS) utilizzando l’editor di personalizzazione per definire il contenuto e incorporare elementi dinamici."
+>abstract="Personalizza i messaggi di testo (SMS/MMS) utilizzando l’editor di personalizzazione per definire il contenuto e incorporare elementi dinamici."
 
 Per configurare il contenuto SMS, segui i passaggi indicati di seguito. Le impostazioni per MMS sono descritte in dettaglio in [questa sezione](#mms-content).
 

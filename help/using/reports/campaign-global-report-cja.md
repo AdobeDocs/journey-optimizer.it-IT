@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '4251'
 ht-degree: 2%
@@ -134,7 +135,7 @@ Il **[!UICONTROL Sperimentazione]** Gli indicatori di prestazioni chiave (KPI, K
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ Il **[!UICONTROL Sperimentazione]** Gli indicatori di prestazioni chiave (KPI, K
 ![](assets/cja-experimentation-variants.png)
 
 Il **[!UICONTROL Variante per clic in entrata]** il widget descrive le prestazioni di ogni variante.
-Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
+Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Ulteriori informazioni sulla variante per metriche di clic in entrata
 
@@ -155,7 +156,7 @@ Per informazioni approfondite su questi risultati e su come interpretarli, consu
 
 * **[!UICONTROL Incremento]**: misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ Per informazioni approfondite su questi risultati e su come interpretarli, consu
 
 ![](assets/cja-experimentation-conversion.png)
 
-Il **[!UICONTROL Intervallo di affidabilità]** Il grafico misura l’incertezza riguardo al miglioramento. Descrive la differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Ulteriori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
+Il **[!UICONTROL Intervallo di affidabilità]** Il grafico misura l’incertezza riguardo al miglioramento. Descrive la differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Ulteriori informazioni](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## E-mail {#email-global}
 
@@ -784,4 +785,3 @@ Il **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramica comple
 * **[!UICONTROL Visualizzazioni univoche]**: numero di volte in cui il messaggio è stato aperto; non vengono considerate più interazioni di un profilo.
 
 +++
-

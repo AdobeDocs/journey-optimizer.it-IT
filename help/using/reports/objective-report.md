@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 4%
@@ -50,7 +50,7 @@ Il **[!UICONTROL Statistiche della campagna]** widget fornisce dettagli sulle in
 
 Il **[!UICONTROL Obiettivi]** Questa scheda ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
 
-Il **[!UICONTROL Obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. Elenco di elementi incorporati **[!UICONTROL Obiettivi]** è disponibile, ma puoi aggiungerne uno nuovo aggiungendo nuove **[!UICONTROL Set di dati]**. Per la procedura dettagliata, fare riferimento al seguente [sezione](../campaigns/reporting-configuration.md).
+Il **[!UICONTROL Obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. Elenco di elementi incorporati **[!UICONTROL Obiettivi]** è disponibile, ma puoi aggiungerne uno nuovo aggiungendo nuove **[!UICONTROL Set di dati]**. Per la procedura dettagliata, fare riferimento al seguente [sezione](../content-management/reporting-configuration.md).
 
 Dopo aver selezionato gli obiettivi di destinazione, i due **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Finalità della campagna]** I widget forniranno un riepilogo dettagliato delle prestazioni di consegna.
 
@@ -72,7 +72,7 @@ La tabella presenta le metriche seguenti:
 
 * **[!UICONTROL Incremento rispetto alla linea di base]**: misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../content-management/experiment-calculations.md#understand-confidence)
 
 * **[!UICONTROL Clic in uscita univoci]**: numero totale di clic tra i canali in uscita.
 
@@ -80,7 +80,7 @@ La tabella presenta le metriche seguenti:
 
 * **[!UICONTROL Clic/profili in uscita univoci]**: valore totale della metrica di successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili.
 
-Il **[!UICONTROL Intervallo di affidabilità]** Il grafico misura l’incertezza riguardo al miglioramento. Descrive la differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Ulteriori informazioni](../campaigns/experiment-calculations.md#confidence-intervals).
+Il **[!UICONTROL Intervallo di affidabilità]** Il grafico misura l’incertezza riguardo al miglioramento. Descrive la differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Ulteriori informazioni](../content-management/experiment-calculations.md#confidence-intervals).
 +++
 
-Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../campaigns/get-started-experiment.md#interpret-results).
+Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../content-management/get-started-experiment.md#interpret-results).

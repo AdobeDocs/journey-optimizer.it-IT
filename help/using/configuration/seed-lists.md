@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 16%
@@ -48,7 +48,7 @@ Gli indirizzi di seed non sono profili reali né profili di test in quanto non i
 
 >[!NOTE]
 >
->Sono supportate le varianti. Gli indirizzi seed ricevono una singola copia di ogni variante dello stesso messaggio (come i diversi trattamenti di una [esperimento sui contenuti](../campaigns/get-started-experiment.md)).
+>Sono supportate le varianti. Gli indirizzi seed ricevono una singola copia di ogni variante dello stesso messaggio (come i diversi trattamenti di una [esperimento sui contenuti](../content-management/get-started-experiment.md)).
 
 ## Accedere agli elenchi di seed {#access-seed-lists}
 

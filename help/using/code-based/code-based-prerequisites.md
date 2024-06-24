@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 2%
@@ -67,7 +67,7 @@ Per abilitare gli esperimenti di contenuto per il canale basato su codice, è ne
 
 In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati dell’app, i dati dell’app non verranno visualizzati nei rapporti sull’esperimento del contenuto.
 
-Scopri come aggiungere set di dati per il reporting degli esperimenti sui contenuti in [questa sezione](../campaigns/reporting-configuration.md#add-datasets).
+Scopri come aggiungere set di dati per il reporting degli esperimenti sui contenuti in [questa sezione](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

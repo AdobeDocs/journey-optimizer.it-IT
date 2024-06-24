@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 07c453366280b21f5546322430a90752fd996099
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 2%
@@ -137,7 +137,7 @@ Per abilitare gli esperimenti di contenuto per il canale web, è necessario assi
 
 In altre parole, quando configuri la generazione di rapporti sull’esperimento, se aggiungi un set di dati non presente nello stream di dati web, i dati web non vengono visualizzati nei rapporti sull’esperimento del contenuto.
 
-Scopri come aggiungere set di dati per il reporting degli esperimenti sui contenuti in [questa sezione](../campaigns/reporting-configuration.md#add-datasets).
+Scopri come aggiungere set di dati per il reporting degli esperimenti sui contenuti in [questa sezione](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

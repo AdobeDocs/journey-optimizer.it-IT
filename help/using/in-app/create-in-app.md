@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 13%
@@ -93,7 +93,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
       | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
-      | Ciclo di vita dell&#39;applicazione | Avvii | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
       | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
@@ -143,7 +143,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
 1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
-1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../campaigns/content-experiment.md)
+1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
 1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
 
@@ -191,7 +191,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Ciclo di vita dell&#39;applicazione | Giorno dall’ultimo utilizzo | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo utilizzo. |
       | Ciclo di vita dell&#39;applicazione | Giorno dall&#39;aggiornamento | Attivazione quando viene raggiunto il numero di giorni specificato dall&#39;ultimo aggiornamento. |
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
-      | Ciclo di vita dell&#39;applicazione | Avvii | Attivazione quando viene raggiunto il numero specificato di avvii. |
+      | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
       | Places | POI corrente | Attivato dall’SDK Places quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato dall’SDK Places a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |

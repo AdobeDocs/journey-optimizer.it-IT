@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Disponibilità limitata"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -42,7 +42,7 @@ Definisci due trattamenti di consegna ciascuno contenente un criterio di decisio
 
 1. Crea una campagna e seleziona la **[!UICONTROL Esperienza basata su codice]** azione. [Ulteriori informazioni](../code-based/create-code-based.md)
 
-1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti. [Ulteriori informazioni](../campaigns/content-experiment.md)
+1. Dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti. [Ulteriori informazioni](../content-management/content-experiment.md)
 
 1. Seleziona la **[!UICONTROL Decisioni]** , fai clic su **[!UICONTROL Creare una decisione]** e compila i dettagli della decisione. [Ulteriori informazioni](create-decision.md)
 
@@ -50,7 +50,7 @@ Definisci due trattamenti di consegna ciascuno contenente un criterio di decisio
 
 1. Definisci le strategie di selezione per la decisione. Clic **[!UICONTROL Aggiungi strategia]**.
 
-1. Clic **[!UICONTROL Crea]**. La nuova decisione è aggiunta alla voce **[!UICONTROL Decisioni]**.
+1. Fai clic su **[!UICONTROL Crea]**. La nuova decisione è aggiunta alla voce **[!UICONTROL Decisioni]**.
 
    ![](assets/decision-code-based-decision-added.png)
 
