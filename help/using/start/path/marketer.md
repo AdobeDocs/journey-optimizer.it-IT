@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Per configurare il primo percorso, aggiungere offerte e risorse e inviare i mess
 
    * Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
 
-   * Utilizza il **azioni del canale incorporate** (E-mail, SMS, push, inApp) per inviare messaggi progettati in [!DNL Journey Optimizer] o creare **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
+   * Utilizza le **azioni canale integrate** (e-mail, SMS, push, in-app) per inviare messaggi progettati in [!DNL Journey Optimizer] oppure, se utilizzi un sistema di terze parti per l’invio dei messaggi, crea **azioni personalizzate**.
 
    * Con **journey designer**, genera casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
 
