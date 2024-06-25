@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 28%
+source-wordcount: '1278'
+ht-degree: 27%
 
 ---
 
@@ -67,6 +67,10 @@ Per le **origini dati esterne**, il numero massimo di chiamate al secondo è lim
 >Se un’origine dati utilizza un’autenticazione personalizzata con un endpoint diverso da quello utilizzato per l’origine dati, è necessario contattare Adobe per includere tale endpoint nell’elenco Consentiti.
 
 Per le **azioni personalizzate**, è necessario valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 200 chiamate al secondo, è necessario definire una configurazione di limitazione di utilizzo o di limitazione in modo che il sistema non si saturi. [Informazioni su come configurare le azioni](../action/action.md)
+
+>[!NOTE]
+>
+>Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
 
 ## Timeout e nuovi tentativi{#timeout}
 
