@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 10%
@@ -102,7 +102,7 @@ L’intestazione Annulla iscrizione elenco offre due funzioni (Mailto e URL di a
 
   In Journey Optimizer, l’indirizzo e-mail predefinito per l’annullamento dell’iscrizione è **Invia a (annulla iscrizione)** indirizzo visualizzato nella superficie di canale, in base al [sottodominio selezionato](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * Il **URL per annullamento iscrizione con un clic**, che per impostazione predefinita è l’intestazione per l’annullamento dell’iscrizione all’elenco generata con un solo clic, basata sul sottodominio impostato e configurato nelle Impostazioni della superficie di canale.
