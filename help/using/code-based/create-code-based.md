@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1024'
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 >id="ajo_code_based_experience"
 >title="Utilizzare l’editor di personalizzazione"
 >abstract="Inserisci e modifica il codice che desideri consegnare come parte di questa azione di esperienza basata su codice."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Introduzione all’editor di personalizzazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html?lang=it" text="Introduzione all’editor di personalizzazione"
 
 1. Dalla schermata dell’edizione della campagna, seleziona **[!UICONTROL Modifica codice]**.
 
@@ -77,19 +77,19 @@ Per iniziare a creare l’esperienza basata su codice tramite una campagna, segu
 
    >[!NOTE]
    >
-   >La funzione Experience Decisioning è attualmente disponibile come versione beta solo per alcuni utenti.
+   >La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 
 1. Clic **[!UICONTROL Salva e chiudi]** per confermare le modifiche.
 
 Ora, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie selezionata, le modifiche verranno applicate alla pagina web o all’app.
 
-## Testare la campagna basata su codice {#test-code-based-campaign}
+## Testare la campagna basata sul codice {#test-code-based-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_preview"
->title="Anteprima dell’esperienza basata su codice"
->abstract="Ottieni una simulazione dell’aspetto dell’esperienza basata su codice."
+>title="Visualizzare l’esperienza basata su codice in anteprima"
+>abstract="Ottieni una simulazione dell’aspetto che avrà l’esperienza basata su codice."
 
 Per visualizzare un’anteprima dell’esperienza basata su codice modificata, segui i passaggi indicati di seguito. Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Anteprima e verifica della pagina di contenuto](../content-management/preview-test.md).
 
