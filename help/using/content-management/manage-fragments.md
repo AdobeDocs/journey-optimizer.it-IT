@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 17%
+source-wordcount: '1032'
+ht-degree: 16%
 
 ---
 
@@ -69,6 +69,16 @@ I frammenti possono avere più stati:
 >Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato “Bozza”, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede un’autorizzazione utente.
 
 ## Modifica frammenti {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="Aggiornamento di frammenti nelle campagne"
+>abstract="Se pubblichi modifiche al frammento, questa campagna non verrà aggiornata. Richiede la pubblicazione di una nuova versione, in modo da poter supportare la funzionalità di aggiornamento dei frammenti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="Aggiornamento frammenti in percorsi"
+>abstract="Questo percorso non verrà aggiornato se pubblichi modifiche al frammento. Richiede la pubblicazione di una nuova versione, in modo da poter supportare la funzionalità di aggiornamento dei frammenti."
 
 Per modificare un frammento, effettua le seguenti operazioni.
 
