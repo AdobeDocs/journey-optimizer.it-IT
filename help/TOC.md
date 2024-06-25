@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -388,7 +388,7 @@ ht-degree: 98%
    + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
    + [Rapporto panoramica](using/reports/channel-report-cja.md)
    + [Rapporto pagina di destinazione](using/reports/lp-report-global-cja.md)
-   + [Report elenco iscrizioni](using/reports/subscription-report-global-cja.md)
+   + [Rapporto elenco iscrizioni](using/reports/subscription-report-global-cja.md)
 + Decisioning {#decisioning}
    + Gestione delle decisioni {#offer-decisioning}
       + Introduzione alla gestione delle decisioni {#get-started-decision}

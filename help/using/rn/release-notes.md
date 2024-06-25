@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 58%
+ht-degree: 83%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 58%
 
 ## Note sulla versione di giugno 2024 {#24-6-2024}
 
-**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità del rilascio**.
+**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**.
 
 **Data di rilascio**: 18-19 giugno 2024
 
@@ -77,13 +77,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Generazione di rapporti con il Customer Journey Analytics (Beta)</strong><br/></th>
+<th><strong>Reporting con Customer Journey Analytics (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e il Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni, consentendo agli utenti di prendere decisioni più informate.</p>
+<p>La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-gs-cja.md">documentazione dettagliata</a>.</p>
 </td>
@@ -170,7 +170,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 >[!AVAILABILITY]
 >
->Tieni presente che questi miglioramenti verranno implementati gradualmente nel corso di alcuni giorni dopo la versione iniziale. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti.
+>Questi miglioramenti verranno introdotti gradualmente nel corso di alcuni giorni dopo il rilascio iniziale. Alcuni utenti potranno accedervi subtio, mentre altri li troveranno nel proprio account con un leggero ritardo.
 
 * È ora possibile modificare i frammenti e propagare le modifiche in tutti i percorsi live e le campagne in cui vengono utilizzati.
 * Sono stati introdotti nuovi stati per i frammenti di contenuto: **Bozza**, **Live**, **Pubblicazione** e **Archiviato**.
@@ -178,25 +178,25 @@ Questa versione include i miglioramenti elencati di seguito.
 
   **ATTENZIONE**: dato che gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione presentano lo stato **Bozza** anche se vengono utilizzati in un percorso o in una campagna. Scopri come aggiornare i frammenti esistenti in questa sezione.
 
-Per ulteriori informazioni, consulta [frammento di contenuto](../content-management/fragments.md) documentazione.
+Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenuto](../content-management/fragments.md).
 
 **Percorsi**
 
-* Il timeout globale dei Percorsi è stato esteso a 91 giorni. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
+* Il timeout globale dei percorsi è stato esteso a 91 giorni. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
-  Questo nuovo timeout verrà applicato a tutti i nuovi percorsi creati. Fai riferimento a questo [Sezione Domande frequenti](../building-journeys/journey-properties.md#timeout-faq) per ulteriori informazioni. Tieni presente che queste modifiche verranno implementate gradualmente nel corso del mese di giugno.
+  Questo nuovo timeout verrà applicato a tutti i nuovi percorsi creati. Per ulteriori informazioni, consulta la [sezione Domande frequenti](../building-journeys/journey-properties.md#timeout-faq). Queste modifiche verranno implementate gradualmente nel corso del mese di giugno.
 
 
-* Adobe Journey Optimizer ora supporta le richieste di accesso/cancellazione della privacy e le richieste di gestione del ciclo di vita dei dati. [Ulteriori informazioni](../privacy/requests.md)
+* Adobe Journey Optimizer ora supporta le richieste di accesso/eliminazione della privacy e le richieste di gestione del ciclo di vita dei dati. [Ulteriori informazioni](../privacy/requests.md)
 * È ora possibile ridimensionare le colonne nell’inventario del percorso.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* I **Criteri di unione** ora sono disponibili: i criteri di unione utilizzati da un percorso sono quindi visibili e coerenti in tutto il percorso [Ulteriori informazioni](../building-journeys/journey-properties.md#merge-policies)
+* I **Criteri di unione** ora sono disponibili: i criteri di unione utilizzati da un percorso sono quindi visibili e coerenti in tutto il percorso. [Ulteriori informazioni](../building-journeys/journey-properties.md#merge-policies)
 
 
 
 **Campagne**
 
-* Durante la creazione di una campagna in Adobe Journey Optimizer, ora puoi scegliere il tipo di campagna (pianificata o attivata) in una nuova finestra modale. [Ulteriori informazioni](../campaigns/create-campaign.md)
+* Durante la creazione di una campagna in Adobe Journey Optimizer, ora è possibile scegliere il tipo di campagna (pianificata o attivata) in una nuova finestra modale. [Ulteriori informazioni](../campaigns/create-campaign.md)
 
 **Canale e-mail**
 
@@ -205,9 +205,9 @@ Per ulteriori informazioni, consulta [frammento di contenuto](../content-managem
 
 **Canale SMS**
 
-* Ora puoi aggiungere codici brevi univoci per ogni sandbox con una singola configurazione API, per rendere il processo più efficiente e semplificato. [Ulteriori informazioni](../sms/sms-configuration.md)
+* Ora è possibile aggiungere codici brevi univoci per ogni sandbox con una singola configurazione API, per rendere il processo più efficiente e lineare. [Ulteriori informazioni](../sms/sms-configuration.md)
 
-* Dopo la creazione, il **Token API** campo sul **Dettagli delle credenziali API** La pagina è ora nascosta.
+* Dopo la creazione, il campo **Token API** sulla pagina **Dettagli delle credenziali API** ora è mascherato.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -215,7 +215,7 @@ Per ulteriori informazioni, consulta [frammento di contenuto](../content-managem
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* Ora puoi utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata. [Ulteriori informazioni sulla vista Consegna Edge](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* Ora è possibile utilizzare il plug-in Edge Delivery per ottenere le informazioni necessarie per comprendere e risolvere i problemi relativi alle implementazioni in entrata. [Ulteriori informazioni sulla vista Edge Delivery](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 **Canale direct mail**

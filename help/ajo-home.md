@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -20,21 +20,21 @@ Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla doc
 
 >[!BEGINTABS]
 
->[!TAB La versione di giugno è live!]
+>[!TAB La versione di giugno è disponibile]
 
 Scopri le nuove funzioni e i miglioramenti introdotti nella versione di maggio di Adobe Journey Optimizer.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Generazione di rapporti con il Customer Journey Analytics (Beta)]
+>[!TAB Reporting con Customer Journey Analytics (Beta)]
 
 La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
->[!TAB Assistente AI]
+>[!TAB Assistente IA]
 
-L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti Adobi e comprenderli e ottenere informazioni operative per l’ambiente specifico.
+Assistente IA è una funzione dell’interfaccia utente che consente di comprendere i concetti Adobe e ottenere informazioni operative per il proprio ambiente specifico.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
