@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: e213261a1c2cb3421d59ba6c44c832a5f5929cd1
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '885'
 ht-degree: 12%
 
 ---
@@ -50,7 +50,6 @@ Per accedere a questa funzione, seleziona la **[!UICONTROL Simulazione]** scheda
 >id="ajo_decisioning_simulation_test_profile"
 >title="Aggiungere profili di test"
 >abstract="Puoi aggiungere un profilo di test selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. I profili di test devono essere già disponibili per poter essere usati per la simulazione."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=it" text="Creare profili di test"
 
 Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione.
 
@@ -86,7 +85,7 @@ Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione
 
 1. Puoi fare clic su **[!UICONTROL Dettagli profilo]** per visualizzare i dati di profilo selezionati.
 
-## Aggiungere ambiti decisionali {#add-decision-scopes}
+## Aggiungi ambiti decisionali {#add-decision-scopes}
 
 Ora seleziona le decisioni di offerta che desideri simulare sui profili di test.
 
