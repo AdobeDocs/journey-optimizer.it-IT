@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -39,9 +39,9 @@ ht-degree: 15%
 
 ### Attività di attesa multiple {#multiple-wait-activities}
 
-Quando si utilizzano più **Wait** attività in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) for days è di 90 percorsi, il che significa che i profili vengono sempre esclusi dal massimo percorso di 90 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](journey-properties.md#global_timeout).
+Quando si utilizzano più **Wait** attività in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) for days è di 91 percorsi, il che significa che i profili vengono sempre esclusi dal massimo percorso di 91 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](journey-properties.md#global_timeout).
 
-Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 90 percorsi.
+Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 91 percorsi.
 
 ### Attendere e rientrare {#wait-re-entrance}
 
