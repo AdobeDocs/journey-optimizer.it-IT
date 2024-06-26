@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 >title="Attività Attendi"
 >abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
-È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva.  La durata massima di attesa è **29 giorni**.
+È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva.  La durata massima di attesa è **90 giorni**.
 
 È possibile impostare due tipi di **Wait** attività:
 
@@ -55,7 +55,7 @@ In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** parametro con
 
 ### Attesa durata {#duration}
 
-Seleziona la **Durata** digita per impostare la durata relativa dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **29 giorni**.
+Seleziona la **Durata** digita per impostare la durata relativa dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **90 giorni**.
 
 ![Definire la durata dell’attesa](assets/journey55.png)
 
