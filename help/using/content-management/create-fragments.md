@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 13%
@@ -21,7 +21,7 @@ ht-degree: 13%
 >id="ajo_create_visual_fragment"
 >title="Seleziona il tipo visivo"
 >abstract="Crea un frammento visivo autonomo per rendere il contenuto riutilizzabile in un messaggio e-mail all’interno di un percorso, di una campagna o di un modello di contenuto."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html?lang=it" text="Aggiungi frammenti visivi alle e-mail"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Aggiungi frammenti visivi alle e-mail"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ Per creare un frammento, segui la procedura riportata di seguito.
 
 ## Progettare il contenuto del frammento {#content}
 
-Dopo aver configurato le proprietà del frammento, viene aperto E-mail Designer o l’editor di personalizzazione, a seconda del tipo di frammento che stai creando.
+Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-mail o di personalizzazione e il Designer, a seconda del tipo di frammento che si sta creando.
 
 * Per i frammenti visivi, modifica il contenuto in base alle esigenze, come faresti per qualsiasi e-mail all’interno di un percorso o di una campagna. [Ulteriori informazioni](../email/get-started-email-design.md)
 
@@ -81,7 +81,7 @@ Quando il contenuto è pronto, fai clic su **Salva** pulsante. Il frammento vien
 
 >[!NOTE]
 >
->Per pubblicare un frammento, è necessario disporre di **Pubblica frammento** autorizzazioni correlate. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md)
+>Per pubblicare un frammento, è necessario disporre di **Frammento Publish** autorizzazioni correlate. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md)
 
 Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile nei tuoi percorsi e campagne. Per farlo, segui questi passaggi:
 
@@ -91,7 +91,7 @@ Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima
 
    ![](assets/fragment-preview.png)
 
-1. Fai clic su **Pubblica** nell’angolo in alto a destra per pubblicare il frammento.
+1. Fai clic su **Publish** nell’angolo in alto a destra per pubblicare il frammento.
 
    Se il frammento viene utilizzato in un percorso o in una campagna live, si apre un messaggio per informarti. Fai clic su **Vedi altro** per accedere all’elenco dei percorsi e/o delle campagne in cui è fatto riferimento a esso. [Scopri come esplorare i riferimenti di un frammento](../content-management/manage-fragments.md#explore-references)
 
@@ -99,7 +99,7 @@ Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Il frammento ora è **Live**, e diventa disponibile quando crei qualsiasi contenuto all’interno del [!DNL Journey Optimizer] E-mail Designer o editor di personalizzazione:
+Il frammento ora è **Live**, e diventa disponibile quando crei qualsiasi contenuto all’interno del [!DNL Journey Optimizer] E-mail con Designer o editor di personalizzazione:
 
 * [Scopri come utilizzare i frammenti visivi](../email/use-visual-fragments.md)
 * [Scopri come utilizzare i frammenti di espressione](../personalization/use-expression-fragments.md)
