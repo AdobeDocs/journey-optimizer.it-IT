@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 8%
@@ -157,7 +157,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
       <p>Cosa succede a un profilo che entra in un percorso pubblicato prima dell’avvio dell’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo avrà un TTL di 91 percorsi (7 giorni per HIPAA), in linea con l’ora di pubblicazione originaria.</p>
+      <p>Il profilo avrà un TTL di 30 giorni (7 giorni per HIPAA), in linea con l’ora in cui il percorso è stato pubblicato originariamente.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
       <p>Cosa succede a un profilo che è già entrato in un percorso quando viene avviata l’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo mantiene un TTL di 91 giorni (7 giorni per HIPAA), come da orario di pubblicazione originale del percorso.</p>
+      <p>Il profilo mantiene un TTL di 30 giorni (7 giorni per HIPAA), come da orario di pubblicazione originale del percorso.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
       <p>Cosa succede a un profilo in una versione di percorso precedente che viene ripubblicata dopo l’avvio dell’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo manterrà un TTL di 91 giorni (7 giorni per HIPAA), allineato con l’orario di pubblicazione della versione originale del percorso.</p>
+      <p>Il profilo manterrà un TTL di 30 giorni (7 giorni per HIPAA), allineato con l’orario di pubblicazione della versione originale del percorso.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
       <p>Cosa succede a un profilo che entra in un percorso pubblicato prima dell’avvio dell’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo avrà un TTL di 91 giorni (7 giorni per HIPAA), in linea con il tempo di pubblicazione originale. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+      <p>Il profilo avrà un TTL di 30 giorni (7 giorni per HIPAA), in linea con il tempo di pubblicazione originale. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
       <p>Cosa succede a un profilo in esecuzione in un percorso quando viene avviata l’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo mantiene un TTL di 91 giorni (7 giorni per HIPAA), come da orario di pubblicazione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+      <p>Il profilo mantiene un TTL di 30 giorni (7 giorni per HIPAA), come da orario di pubblicazione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
       <p>Cosa succede a un profilo in esecuzione in una versione di percorso precedente che viene ripubblicata dopo l’avvio dell’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo manterrà un TTL di 91 giorni (7 giorni per HIPPA), in linea con l’orario di pubblicazione della versione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+      <p>Il profilo manterrà un TTL di 30 giorni (7 giorni per HIPPA), in linea con l’orario di pubblicazione della versione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
     </td>
   </tr>
   <tr style="border: 1;">
