@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fd8835b1f9bffd887758e4015171074c5dfc16c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1175'
 ht-degree: 6%
 
 ---
@@ -142,6 +142,6 @@ Questo ruolo include le seguenti autorizzazioni:
 
 | Funzionalità | Autorizzazioni |
 |-|-|
-| Libreria Journey Optimizer | <ul><li>**[!DNL Manage library items]**: leggi, crea, modifica ed elimina gli elementi della libreria di Journey Optimizer, inclusi i modelli di contenuto e i frammenti.</li><li>**[!DNL Manage simulate content]**: accesso al **[!UICONTROL Simula contenuto]** opzione per anteprima e bozza.</li></ul> |
+| Libreria Journey Optimizer | <ul><li>**[!DNL Manage library items]**: leggi, crea, modifica ed elimina gli elementi della libreria di Journey Optimizer, inclusi i modelli di contenuto e i frammenti.</li><li>**[!DNL Manage simulate content]**: accesso al **[!UICONTROL Simula contenuto]** opzione per anteprima e bozza.</li><li>**[!DNL Publish Fragment]**: pubblicazione di frammenti di contenuto.</li></ul> |
 | Gestione delle decisioni | <ul><li>**[!DNL Manage decisions]**: leggi, crea, modifica ed elimina entità decisioning.</li><li>**[!DNL Manage ranking strategies]**: leggi, crea, modifica ed elimina rapporti personalizzati e utilizza le funzioni di azione.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: leggi, crea, modifica ed elimina le definizioni dei segmenti.</li><li>**[!DNL Manage profiles]**: legge, crea, modifica ed elimina profili.</li><li>**[!DNL Read datasets]**: accesso in sola lettura ai set di dati.</li><li>**[!DNL Read schemas]**: accesso in sola lettura agli schemi.</li><li>**[!DNL Manage merge policies]**: leggi, crea, modifica ed elimina i criteri di unione.</li></ul> |
