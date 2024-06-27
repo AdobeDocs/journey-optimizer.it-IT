@@ -7,10 +7,11 @@ feature: Journeys, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Disponibilità limitata" type="Informative"
+exl-id: d1c4ae5f-2f5c-4e25-a8b4-4c5fe254bfb9
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -88,4 +89,3 @@ Il **[!UICONTROL Canale]** Questa tabella mostra il numero di profili, sottoscri
 * **[!UICONTROL Aggiunte all’elenco delle iscrizioni]**: numero totale di abbonamenti per il periodo in questione.
 
 * **[!UICONTROL L’elenco delle iscrizioni rimuove]**: numero totale di annullamenti di abbonamenti per il periodo in questione.
-

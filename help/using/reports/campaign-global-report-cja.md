@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="Disponibilità limitata" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4252'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Il **Rapporto campagna** La pagina verrà visualizzata con le seguenti schede, a
 * [Direct mail](#direct-mail)
 * [Web](#web)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Workspace di Customer Journey Analytics e su come filtrare e analizzare i dati, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Campaign {#campaign-global}
 
@@ -160,6 +160,7 @@ Per informazioni approfondite su questi risultati e su come interpretarli, consu
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
+
 * **[!UICONTROL Confidence Lower bound]**:
 -->
 +++

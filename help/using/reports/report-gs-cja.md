@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="Disponibilità limitata" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '373'
 ht-degree: 7%
 
 ---
@@ -51,6 +51,6 @@ La funzione di reporting di Journey Optimizer offre una migliore interoperabilit
 
 ## Video introduttivo{#video}
 
-Il video seguente mostra come assegnare il **Gestire la configurazione dell’app** autorizzazione per accedere al menu Superfici app.
+Il video seguente mostra come utilizzare le funzioni avanzate di generazione rapporti di Journey Optimizer con Customer Journey Analytics.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)
