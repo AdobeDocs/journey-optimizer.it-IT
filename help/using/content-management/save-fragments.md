@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '460'
+ht-degree: 11%
 
 ---
 
@@ -51,10 +51,6 @@ Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti
 
 1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)
 
->[!NOTE]
->
->La pubblicazione dei frammenti viene implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, tieni presente che la pubblicazione dei frammenti non è necessaria per utilizzare i frammenti nei percorsi e nelle campagne.
-
 ## Salva come frammento di espressione {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
@@ -83,7 +79,3 @@ Per salvare il contenuto come frammento di espressione, effettua le seguenti ope
 1. Il frammento viene aggiunto al [elenco frammenti](#access-manage-fragments) con **Bozza** stato. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
 
 1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->La pubblicazione dei frammenti viene implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, tieni presente che la pubblicazione dei frammenti non è necessaria per utilizzare i frammenti nei percorsi e nelle campagne.

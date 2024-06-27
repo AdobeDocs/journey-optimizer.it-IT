@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 152d637b631650e99c67df9be179ab1f5b5e682b
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 15%
+source-wordcount: '905'
+ht-degree: 18%
 
 ---
 
@@ -49,10 +49,6 @@ Dalla sezione **[!UICONTROL Altre azioni]** accanto a ciascun frammento, puoi:
 >title="Nuovi stati dei frammenti"
 >abstract="Da quando sono stati introdotti gli stati **Bozza** e **Live** con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato “Bozza”, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi pubblicarli per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l’autorizzazione utente Frammento di Publish."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Ulteriori informazioni sulle autorizzazioni per i frammenti di contenuto"
-
->[!AVAILABILITY]
->
-> Si prega di notare che gli stati dei frammenti vengono gradualmente implementati nel corso di diversi giorni dopo la versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nel tuo ambiente, tieni presente che il frammento non deve essere **Live** da utilizzare nei percorsi e nelle campagne.
 
 I frammenti possono avere più stati:
 
@@ -102,10 +98,6 @@ Per modificare un frammento, effettua le seguenti operazioni.
 1. Quando le modifiche sono pronte, fai clic su **Publish** per rendere attive le modifiche.
 
 Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi i percorsi live e le campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale. Scopri come interrompere l’ereditarietà in [Aggiungi frammenti visivi alle e-mail](../email/use-visual-fragments.md#break-inheritance) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md#break-inheritance) sezioni.
-
->[!AVAILABILITY]
->
->Tieni presente che la propagazione dei frammenti cambia nei percorsi e nelle campagne live e verrà implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, le modifiche non verranno propagate al contenuto utilizzato nei percorsi o nelle campagne live.
 
 ## Esplora riferimenti {#explore-references}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 13%
+source-wordcount: '646'
+ht-degree: 14%
 
 ---
 
@@ -72,10 +72,6 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
   ![](assets/fragment-expression-editor.png)
 
 Quando il contenuto è pronto, fai clic su **Salva** pulsante. Il frammento viene creato e aggiunto all’elenco di frammenti con il comando **Bozza** stato. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
-
->[!NOTE]
->
->La pubblicazione dei frammenti viene implementata gradualmente nel corso di diversi giorni a partire dalla versione di giugno di Journey Optimizer. Alcuni utenti avranno accesso immediato, altri potrebbero notare un ritardo prima che questo diventi disponibile nei loro ambienti. Se questo miglioramento non è ancora disponibile nell’ambiente, tieni presente che la pubblicazione dei frammenti non è necessaria per utilizzare i frammenti nei percorsi e nelle campagne.
 
 ## Anteprima e pubblicazione del frammento {#publish}
 
