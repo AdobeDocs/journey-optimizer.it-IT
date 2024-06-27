@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 14%
 
 ---
@@ -77,7 +77,7 @@ Quando il contenuto è pronto, fai clic su **Salva** pulsante. Il frammento vien
 
 >[!NOTE]
 >
->Per pubblicare un frammento, è necessario disporre di **Frammento Publish** autorizzazioni correlate. [Ulteriori informazioni sulle autorizzazioni](../administration/ootb-permissions.md)
+>Per pubblicare un frammento, è necessario disporre di [Frammento Publish](../administration/ootb-product-profiles.md#content-library-manager) autorizzazione utente.
 
 Se il frammento è pronto per essere pubblicato, puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile nei tuoi percorsi e campagne. Per farlo, segui questi passaggi:
 
