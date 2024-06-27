@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 > Per ripristinare la funzione di reporting tradizionale di Journey Optimizer, è sufficiente attivare **[!UICONTROL Utilizza nuova esperienza]** opzione.
 
-La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e il Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni, consentendo agli utenti di prendere decisioni più informate.
+La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.
 
 * Se desideri eseguire il targeting di un percorso o di consegne nel contesto di un percorso, da **[!UICONTROL Percorsi]** , accedere al percorso e fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** pulsante.
 
@@ -48,3 +48,9 @@ La funzione di reporting di Journey Optimizer offre una migliore interoperabilit
 * Per accedere al dashboard del Customer Journey Analytics in Journey Optimizer, abilita **[!UICONTROL Utilizza nuova esperienza]** attiva/disattiva il report.
 
   ![](assets/cja-option.png)
+
+## Video introduttivo{#video}
+
+Il video seguente mostra come assegnare il **Gestire la configurazione dell’app** autorizzazione per accedere al menu Superfici app.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)
