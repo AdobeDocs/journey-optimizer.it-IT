@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
@@ -59,23 +59,23 @@ La modalità di immissione profilo è definita a livello di percorso, nel riquad
 
 La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell’entrata e del rientro del profilo, in [questa pagina](entry-management.md).
 
-### Consenti rientro  {#allow-re-entrance}
+### Consentire il reingresso  {#allow-re-entrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Consenti rientro"
->abstract="Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione, ad esempio, se desideri offrire un regalo una tantum quando una persona entra in un negozio."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
+>title="Consentire il reingresso"
+>abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Puoi deselezionare l’opzione **Consenti reingresso** se desideri, ad esempio, offrire un omaggio una tantum quando una persona entra in un negozio."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
 
-Per impostazione predefinita, i nuovi percorsi consentono il rientro. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio per offrire un regalo una tantum quando una persona entra in un negozio.
+Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio per offrire un regalo una tantum quando una persona entra in un negozio.
 
-### Periodo di attesa per rientro  {#re-entrance-wait}
+### Periodo di attesa per reingresso  {#re-entrance-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
->title="Periodo di attesa per rientro"
->abstract=" Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente nel percorso in percorsi unitari. Questo impedisce agli utenti di rientrare nel percorso per una durata selezionata. Durata massima: 90 giorni."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
+>title="Periodo di attesa per reingresso"
+>abstract=" Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente in un percorso unitario. Questo impedisce il re-ingresso degli utenti nel percorso per una durata selezionata. Durata massima: 90 giorni."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
 
 Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
 
@@ -97,26 +97,26 @@ Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Start date (Data di inizio)"
->abstract="Scegliere la data di inizio per l&#39;immissione nel percorso. Se non viene specificata alcuna data di inizio, questa viene impostata automaticamente al momento della pubblicazione."
+>abstract="Scegli la data di inizio per l’ingresso nel percorso. Se non viene specificata alcuna data di inizio, questa viene impostata automaticamente in modo da coincidere con il momento della pubblicazione."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="End date (Data di fine)"
->abstract="Scegli la data di fine del percorso. Una volta raggiunta tale data, i profili in tale percorso la escono automaticamente e quelli nuovi non possono più accedervi."
+>abstract="Scegli la data di fine del percorso. Una volta raggiunta tale data, i profili in tale percorso escono automaticamente e nessun nuovo profilo potrà più accedervi."
 
 È possibile definire un **Data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
 
 Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (generalmente 91 giorni). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
 
-## Timeout del {#timeout}
+## Timeout {#timeout}
 
 ### Timeout o errore nelle attività del percorso {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_timeout"
->title="Timeout del"
->abstract="Definisci per quanto tempo il percorso tenterà di eseguire un’azione o di verificare una condizione prima di considerarla come timeout."
+>title="Timeout"
+>abstract="Definisci per quanto tempo il percorso tenterà di eseguire un’azione o di verificare una condizione prima che si verifichi una situazione di timeout."
 
 
 Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che richiede l’interrogazione di un sistema di terze parti supera la durata di timeout definita **[!UICONTROL Timeout o errore]** nelle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
