@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 9%
+source-wordcount: '1758'
+ht-degree: 10%
 
 ---
 
@@ -22,6 +22,36 @@ ht-degree: 9%
 >id="ajo_admin_channel_surfaces"
 >title="Superficie di canale"
 >abstract="Una superficie di canale è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="Azione di marketing"
+>abstract="DA CONFERMARE"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="ID app"
+>abstract="DA CONFERMARE"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="Posizione nella pagina"
+>abstract="DA CONFERMARE"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Regola di corrispondenza pagine"
+>abstract="DA CONFERMARE"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="URL predefinito"
+>abstract="DA CONFERMARE"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="URI di superficie"
+>abstract="DA CONFERMARE"
 
 Con [!DNL Journey Optimizer], puoi impostare le superfici di canale (ad esempio i predefiniti per messaggi) che definiscono tutti i parametri tecnici richiesti per i messaggi: tipo di e-mail, e-mail e nome del mittente, app mobili, configurazione di SMS e altro ancora.
 
@@ -128,7 +158,7 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
    * Convalida SPF
    * Convalida DKIM
    * Convalida record MX
-   * Controlla IPs inserisce nell&#39;elenco Bloccati
+   * Controlla l’inserire nell&#39;elenco Bloccati degli IP in corso...
    * Verifica host Helo
    * Verifica del pool IP
    * Record A/PTR, verifica del sottodominio t/m/res
@@ -167,7 +197,7 @@ Se si verifica uno di questi errori, contattare [Assistenza clienti Adobe](https
 * **Convalida del record MX non riuscita**: errore di convalida del record MX (Mail eXchange): i server di posta responsabili dell’accettazione delle e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
 
 * **Configurazioni recapito messaggi non riuscite**: un errore nelle configurazioni di recapito messaggi può verificarsi per uno dei seguenti motivi:
-   * Inserire nell&#39;elenco Bloccati gli IP allocati
+   * Inserire nell&#39;elenco Bloccati gli IP assegnati
    * Non valido `helo` nome
    * Messaggi e-mail inviati da IP diversi da quelli specificati nel pool IP della superficie corrispondente
    * Impossibile inviare e-mail alle caselle in entrata dei principali ISP
@@ -248,7 +278,7 @@ Se modificate una superficie già attiva:
 >
 >Impossibile modificare una superficie di canale mentre è in corso l&#39;aggiornamento. Puoi comunque fare clic sul nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
 
-#### Success (Operazione riuscita) {#success}
+#### Operazione riuscita {#success}
 
 Quando il processo di convalida ha esito positivo, la nuova versione della superficie viene utilizzata automaticamente in tutti i messaggi che la utilizzano. Tuttavia, potrebbe essere necessario attendere:
 * pochi minuti prima di essere utilizzato dai messaggi unitari,
