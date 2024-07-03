@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 0454008d81a5aebccbbf75b0ef723fa869589597
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 75%
+source-wordcount: '1062'
+ht-degree: 72%
 
 ---
 
@@ -175,7 +175,7 @@ Questa versione include i miglioramenti elencati di seguito.
 * Sono stati introdotti nuovi stati per i frammenti di contenuto: **Bozza**, **Live**, **Pubblicazione** e **Archiviato**.
 * Per utilizzare un frammento in un percorso o in una campagna, ora è necessario che sia in stato **Live**. È stato aggiunto un nuovo passaggio al processo di creazione del frammento, che consente di pubblicarlo e renderlo disponibile per l’utilizzo in percorsi e campagne. Tenere presente che la pubblicazione del frammento richiede una nuova autorizzazione.
 
-  **ATTENZIONE**: dato che gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione presentano lo stato **Bozza** anche se vengono utilizzati in un percorso o in una campagna. Scopri come aggiornare i frammenti esistenti in questa sezione.
+  **ATTENZIONE**: dato che gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione presentano lo stato **Bozza** anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi [pubblicarli](../content-management/create-fragments.md#publish) per renderle &quot;Live&quot; e propagare le modifiche alle campagne e ai percorsi associati. Devi anche creare una nuova versione di percorso/campagna e pubblicarla.
 
 Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenuto](../content-management/fragments.md).
 
