@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 531662b7d5e2455a017d68d6037c44b6950cc894
+source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1616'
 ht-degree: 12%
 
 ---
@@ -61,7 +61,7 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
    >
    >Quando selezioni il **[!UICONTROL Generato dal sistema]** tipo, sono disponibili solo gli schemi che hanno il campo tipo eventID. Quando selezioni il **[!UICONTROL Basato su regole]** Tipo, sono disponibili tutti gli schemi Experience Event.
 
-1. Per gli eventi basati su regole, fai clic su all’interno del **[!UICONTROL Condizione ID evento]** campo. Utilizzo di <!--simple or advanced--> editor di espressioni, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
+1. Per gli eventi basati su regole, fai clic su all’interno del **[!UICONTROL Condizione ID evento]** campo. Utilizzando l’editor di espressioni semplice o avanzato, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
 
 ![](assets/jo-event6.png)
 
