@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
+source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 12%
