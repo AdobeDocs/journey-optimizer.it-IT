@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurare il canale SMS
-description: Scopri come configurare l’ambiente per l’invio di messaggi di testo con Journey Optimizer
+description: Scopri come configurare l'ambiente per l'invio di messaggi di testo con Journey Optimizer
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 ---
 
-# Introduzione alle configurazione di SMS {#sms-configuration}
+# Introduzione alla configurazione di SMS {#sms-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
@@ -37,26 +37,26 @@ ht-degree: 37%
 >title="Selezionare la configurazione del fornitore di SMS"
 >abstract="Seleziona le credenziali API configurate per il fornitore di SMS."
 
-Prima di inviare SMS o MMS, devi configurare il tuo ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
+Prima di inviare SMS o MMS, è necessario configurare l&#39;ambiente Adobe Systems Journey Optimizer. Per effettuare ciò:
 
-1. Integra le impostazioni del provider con Journey Optimizer:
-   * [Con Sinch](sms-configuration-sinch.md)
+1. Integrare le impostazioni del provider con Journey Optimizer:
+   * [Con gli Sinch](sms-configuration-sinch.md)
    * [Con Infobip](sms-configuration-infobip.md)
    * [Con Twilio](sms-configuration-twilio.md)
-1. [Creare una superficie SMS](sms-configuration-surface.md)
+1. [Crea una superficie SMS](sms-configuration-surface.md)
 
-Questi passaggi devono essere eseguiti da un Adobe Journey Optimizer [Amministratore di sistema](../start/path/administrator.md).
+Questi passaggi devono essere eseguiti da un amministratore](../start/path/administrator.md) di sistema di Adobe Systems Journey Optimizer[.
 
 ## Prerequisiti{#sms-prerequisites}
 
-Adobe Journey Optimizer attualmente si integra con provider di terze parti che offrono servizi di messaggistica di testo indipendenti da Adobe Journey Optimizer. I provider supportati per messaggi di testo e MMS sono: **Sinch**, **Twilio** e **Infobip**.
+Adobe Systems Journey Optimizer attualmente si integra con fornitori di terze parti che offrono servizi SMS indipendenti da Adobe Systems Journey Optimizer. I provider supportati per SMS e MMS sono: **Sinch**, **Twilio** e **Infobip**.
 
-Prima di configurare il canale SMS, è necessario creare un account con uno di questi provider per ottenere il **Token API** e **ID servizio**, che è necessario configurare la connessione tra Adobe Journey Optimizer e il provider applicabile.
+Prima della configurazione del canale SMS, è necessario creare un account con uno di questi provider per ottenere il token **API e** l&#39;ID **** del servizio, necessari per configurare la connessione tra Adobe Systems Journey Optimizer e il provider applicabile.
 
-L’utilizzo dei servizi di messaggistica di testo e MMS è soggetto a termini e condizioni aggiuntivi da parte del provider applicabile. In qualità di soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per gli utenti di Adobe Journey Optimizer tramite un’integrazione. Adobe non controlla e non è responsabile per i prodotti di terze parti. Per eventuali problemi o richieste di assistenza relativi ai servizi di messaggistica di testo (SMS/MMS), contatta il provider.
+L&#39;utilizzo dei servizi SMS e MMS è soggetto a termini e condizioni aggiuntivi da parte del fornitore applicabile. Come soluzioni di terze parti, Sinch, Twilio e Infobip sono disponibili per Adobe Systems utenti di Journey Optimizer tramite un&#39;integrazione. Adobe Systems non controlla e non è responsabile per i prodotti di terze parti. Per qualsiasi problema o richiesta di assistenza relativa ai servizi SMS (SMS/MMS), contatta il tuo provider.
 
 >[!CAUTION]
 >
->Per accedere e modificare i sottodomini SMS, devi disporre del **[!UICONTROL Gestire i sottodomini SMS]** autorizzazione per la sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../administration/high-low-permissions.md#administration-permissions)
+>Per accesso e modificare i sottodomini SMS, devi disporre dell&#39;autorizzazione **[!UICONTROL Gestisci sottodomini]** SMS nella sandbox di produzione. Ulteriori informazioni sulle autorizzazioni sono disponibili in [questa pagina](../administration/high-low-permissions.md#administration-permissions)
 >
 

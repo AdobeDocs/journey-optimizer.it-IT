@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Impostare le superfici di canale
-description: Scopri come configurare e monitorare le superfici di canale
+description: Scopri come configurare e monitorare le superfici dei canali
 feature: Surface, Channel Configuration
 topic: Administration
 role: Admin
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Posizione nella pagina"
+>title="Posizione sulla pagina"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
@@ -45,7 +45,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_url"
->title="URL predefinito"
+>title="URL predefinita"
 >abstract="DA CONFERMARE"
 
 >[!CONTEXTUALHELP]
@@ -53,15 +53,15 @@ ht-degree: 10%
 >title="URI di superficie"
 >abstract="DA CONFERMARE"
 
-Con [!DNL Journey Optimizer], puoi impostare le superfici di canale (ad esempio i predefiniti per messaggi) che definiscono tutti i parametri tecnici richiesti per i messaggi: tipo di e-mail, e-mail e nome del mittente, app mobili, configurazione di SMS e altro ancora.
+Con [!DNL Journey Optimizer], puoi impostare le superfici dei canali (ad esempio i preset dei messaggi) che definiscono tutti i parametri tecnici richiesti per i tuoi messaggi: tipo di e-mail, e-mail e nome del mittente, app mobili, configurazione SMS e altro ancora.
 
 >[!CAUTION]
 >
-> * Per creare, modificare ed eliminare superfici di canale, è necessario disporre del [Gestire i predefiniti per messaggi](../administration/high-low-permissions.md#administration-permissions) autorizzazione.
+> * Per creare, modificare ed eliminare le superfici dei canali, devi disporre dei predefiniti](../administration/high-low-permissions.md#administration-permissions) Gestione [messaggi autorizzazione.
 >
-> * È necessario eseguire la [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md), [Configurazione SMS](../sms/sms-configuration.md) e [Configurazione direct mail](../direct-mail/direct-mail-configuration.md) passi prima di creare superfici di canale.
+> * Prima di creare le superfici di canale, devi eseguire i passaggi di [configurazione](../email/get-started-email-config.md) e-mail, [configurazione](../push/push-configuration.md) push, [configurazione](../sms/sms-configuration.md) SMS e [Direct](../direct-mail/direct-mail-configuration.md) mail.
 
-Una volta configurate le superfici di canale, potrai selezionarle durante la creazione di messaggi da un percorso o da una campagna.
+Una volta configurate le superfici dei canali, sarà possibile selezionarle durante la creazione di messaggi da un percorso o da una campagna.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -84,9 +84,9 @@ Una volta configurate le superfici di canale, potrai selezionarle durante la cre
 >title="Selezionare un’azione di marketing"
 >abstract="Scegli un’azione di marketing nella superficie per associare al messaggio un criterio di consenso."
 
-Per creare una superficie di canale, effettuate le seguenti operazioni:
+Per creare una superficie di canale, seguire seguenti operazioni:
 
-1. Accedere a **[!UICONTROL Canali]** > **[!UICONTROL Marchio]** > **[!UICONTROL Superfici di canale]** , quindi fai clic su **[!UICONTROL Crea superficie di canale]**.
+1. Accedi al **[!UICONTROL menu Canali]** > **[!UICONTROL Branding]** > **[!UICONTROL Superfici]** canale, quindi fai clic su **[!UICONTROL Crea superficie]** canale.
 
    ![](assets/preset-create.png)
 
@@ -96,223 +96,223 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare caratteri di sottolineatura `_`, punti`.` e trattini `-` .
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla superficie, puoi selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla superficie, puoi selezionare **[!UICONTROL Gestisci accesso]**. [Scopri ulteriori informazioni sul controllo di accesso a livello di oggetto (OLAC, Object Level Access Control).](../administration/object-based-access.md)
 
-1. Se hai selezionato **[!UICONTROL E-mail]** configurare le impostazioni come descritto in [questa sezione](../email/email-settings.md).
+1. Se hai selezionato il **[!UICONTROL canale e-mail]** , configura le impostazioni come descritto in [questa sezione](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
-1. Per **[!UICONTROL Notifica push]** canale, seleziona almeno una piattaforma -  **iOS** e/o **Android** - e le applicazioni mobili da utilizzare per ogni piattaforma.
+1. Per il canale di **[!UICONTROL notifica]** push, seleziona almeno una piattaforma -  **iOS** e/o **Android** - e le applicazioni mobili da utilizzare per ciascuna piattaforma.
 
    ![](assets/preset-push.png)
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di notifiche push, consulta [questa sezione](../push/push-gs.md).
+   >Per ulteriori informazioni su come configurare l&#39;ambiente per l&#39;invio di notifiche push, consulta [questa sezione](../push/push-gs.md).
 
-1. Per **[!UICONTROL SMS]** , definisci le impostazioni come descritto in [questa sezione](../sms/sms-configuration.md).
+1. Per il **[!UICONTROL canale SMS]** , definisci le impostazioni come descritto in [questa sezione](../sms/sms-configuration.md).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](../sms/sms-configuration.md).
+   >Per ulteriori informazioni su come configurare l&#39;ambiente per l&#39;invio di messaggi SMS, fare riferimento a [questa sezione](../sms/sms-configuration.md).
 
-1. Seleziona un **[!UICONTROL Azione di marketing]** per associare i criteri di consenso ai messaggi che utilizzano questa superficie. Tutti i criteri di consenso associati a tale azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
+1. Seleziona un&#39;azione **** di marketing per associare i criteri di consenso ai messaggi che usano questa superficie. Tutte le politiche di consenso associate a tale azione marketing vengono sfruttate al fine di rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
 
    >[!NOTE]
    >
-   >I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato **Healthcare Shield** e **Privacy e sicurezza** offerte aggiuntive.
+   >Le policy sul consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato le **offerte aggiuntive Healthcare Shield** e **Privacy and Security Shield** .
 
    ![](assets/surface-marketing-action.png)
 
    >[!NOTE]
    >
-   >Puoi selezionare una sola azione di marketing.
+   >È possibile selezionare solo un&#39;azione marketing.
 
-1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. Potete anche salvare la superficie di canale come sformo e riprenderne la configurazione in un secondo momento.
+1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. È inoltre possibile salvare la superficie del canale come bozza e riprenderne la configurazione in un secondo momento.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >Impossibile procedere con la creazione della superficie e-mail mentre il pool IP selezionato si trova in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
+   >Non è possibile procedere con la creazione della superficie e-mail mentre il pool IP selezionato è in [edizione](ip-pools.md#edit-ip-pool) (**[!UICONTROL Stato elaborazione]** ) e non è mai stato associato al sottodominio selezionato. [Ulteriori informazioni](#subdomains-and-ip-pools)
    >
-   >Salva la superficie come sformo e attendi che il pool IP abbia **[!UICONTROL Completato]** stato per riprendere la creazione della superficie.
+   >Salva la superficie come bozza e attendi che il pool IP abbia lo **[!UICONTROL stato Operazione riuscita]** per riprendere la creazione della superficie.
 
-1. Una volta creata la superficie di canale, questa viene visualizzata nell’elenco con **[!UICONTROL Elaborazione]** stato.
+1. Una volta creata la superficie del canale, viene visualizzata nell&#39;elenco con lo stato di **[!UICONTROL elaborazione]** .
 
    Durante questo passaggio, verranno eseguiti diversi controlli per verificare che sia stato configurato correttamente. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Quando crei una superficie e-mail per un sottodominio, il tempo di elaborazione varia come descritto di seguito:
+   > Quando si crea una superficie di posta elettronica per un sottodominio, il tempo di elaborazione varia come descritto di seguito:
    >
-   > * Per **nuovi sottodomini**, il processo di creazione della prima superficie di canale può richiedere **Da 10 minuti a 10 giorni**.
-   > * Per **sandbox non di produzione** o se il sottodominio selezionato è **già in uso** in un&#39;altra superficie di canale approvata, il processo richiede solo fino a **3 ore**.
+   > * Per **i** nuovi sottodomini, il processo di creazione della prima superficie del canale può richiedere **da 10 minuti a 10 giorni**.
+   > * Per **le** sandbox non di produzione o se il sottodominio selezionato è **già utilizzato** in un&#39;altra superficie di canale approvata, il processo richiede solo fino a **3 ore**.
 
 
-   Questi controlli includono la configurazione e i test tecnici eseguiti dal team di Adobi:
+   Questi controlli includono test tecnici e di configurazione eseguiti dal Adobe Systems team:
 
-   * Convalida SPF
-   * Convalida DKIM
-   * Convalida record MX
-   * Controlla l’inserire nell&#39;elenco Bloccati degli IP in corso...
-   * Verifica host Helo
+   * SPF convalida
+   * DKIM convalida
+   * Record MX convalida
+   * Controlla IP che negano l&#39;elenco
+   * Controllo host Helo
    * Verifica del pool IP
    * Record A/PTR, verifica del sottodominio t/m/res
-   * Registrazione FBL (questo controllo verrà eseguito solo la prima volta che viene creata una superficie e-mail per un determinato sottodominio)
+   * FBL registrazione (questo controllo verrà eseguito solo la prima volta che viene creata una superficie email per un determinato sottodominio)
 
    >[!NOTE]
    >
-   >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi dell’errore in [questa sezione](#monitor-channel-surfaces).
+   >Se i controlli non hanno esito positivo, scopri ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-channel-surfaces).
 
-1. Quando i controlli hanno esito positivo, la superficie di canale riceve **[!UICONTROL Attivo]** stato. È pronto per essere utilizzato per inviare messaggi.
+1. Quando i controlli hanno esito positivo, la superficie del canale ottiene lo stato Attivo ****. È pronto per essere utilizzato per recapitare i messaggi.
 
    ![](assets/preset-active.png)
 
-## Monitorare le superfici di canale {#monitor-channel-surfaces}
+## Monitorare le superfici dei canali {#monitor-channel-surfaces}
 
-Tutte le superfici di canale vengono visualizzate nel **[!UICONTROL Canali]** > **[!UICONTROL Superfici di canale]** menu. Sono disponibili filtri per aiutarti a sfogliare l’elenco (canale, utente, stato).
+Tutte le superfici dei canali vengono visualizzate nel **[!UICONTROL menu Canali]** > **[!UICONTROL Superfici]** canale. Sono disponibili filtri per facilitare la navigazione nell&#39;elenco (canale, utente, stato).
 
 ![](assets/preset-filters.png)
 
 Una volta create, le superfici di canale possono avere i seguenti stati:
 
-* **[!UICONTROL Bozza]**: la superficie di canale è stata salvata come bozza e non è ancora stata inviata. Aprila per riprendere la configurazione.
-* **[!UICONTROL Elaborazione]**: la superficie di canale è stata inviata e sta attraversando diversi passaggi di verifica.
-* **[!UICONTROL Attivo]**: la superficie di canale è stata verificata e può essere selezionata per creare messaggi.
-* **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti durante la verifica della superficie di canale.
-* **[!UICONTROL Disattivato]**: la superficie di canale è disattivata. Non può essere utilizzato per creare nuovi messaggi.
+* **[!UICONTROL Bozza]**: la superficie del canale è stata salvata come bozza e non è ancora stata inviata. Aprilo per riprendere la configurazione.
+* **[!UICONTROL Elaborazione]**: la superficie del canale è stata inviata ed è sottoposta a diverse fasi di verifica.
+* **[!UICONTROL Attivo]**: la superficie del canale è stata verificata e può essere selezionata per creare messaggi.
+* **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti durante la verifica della superficie del canale.
+* **[!UICONTROL Disattivato]**: la superficie del canale è disattivata. Non può essere utilizzato per creare nuovi messaggi.
 
-In caso di errore durante la creazione di una superficie di canale, di seguito vengono descritti i dettagli di ogni possibile motivo di errore.
+Nel caso in cui la creazione di una superficie di canale fallisca, i dettagli su ogni possibile motivo di guasto sono descritti di seguito.
 
-Se si verifica uno di questi errori, contattare [Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} per ottenere assistenza.
+Se si verifica uno di questi errori, contatta [Adobe Systems l&#39;Assistenza](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} clienti per ottenere assistenza.
 
-* **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare IP autorizzati in grado di inviare e-mail da un determinato sottodominio. In caso di errore di convalida SPF, gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider delle cassette postali.
+* **SPF convalida non riuscito**: SPF (Sender Policy Framework) è un protocollo di autenticazione della posta elettronica che consente di specificare gli IP autorizzati che possono inviare e-mail da un determinato sottodominio. SPF convalida errore significa che gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l&#39;invio di messaggi di posta elettronica ai provider di cassette postali.
 
-* **Convalida DKIM non riuscita**: DKIM (DomainKeys Identified Mail) consente al server destinatario di verificare che il messaggio ricevuto sia stato inviato dal mittente effettivo del dominio associato e che il contenuto del messaggio originale non sia stato modificato durante la ricezione. In caso di errore di convalida DKIM, i server di posta riceventi non sono in grado di verificare l&#39;autenticità del contenuto del messaggio e la sua associazione al dominio di invio.
+* **DKIM convalida non riuscito**: DKIM (DomainKeys Identified Mail) consente al server destinatario di verificare che il messaggio ricevuto sia stato inviato dal mittente autentico del dominio associato e che il contenuto del messaggio originale non sia stato alterato durante il suo percorso. DKIM convalida errore significa che i server di posta riceventi non sono in grado di verificare l&#39;autenticità del messaggio contenuto e la sua associazione con il dominio di invio.:
 
-* **Convalida del record MX non riuscita**: errore di convalida del record MX (Mail eXchange): i server di posta responsabili dell’accettazione delle e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
+* **Record MX convalida non riuscito**: record MX (Mail eXchange) convalida errore significa che i server di posta responsabili dell&#39;accettazione delle e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
 
-* **Configurazioni recapito messaggi non riuscite**: un errore nelle configurazioni di recapito messaggi può verificarsi per uno dei seguenti motivi:
-   * Inserire nell&#39;elenco Bloccati gli IP assegnati
-   * Non valido `helo` nome
-   * Messaggi e-mail inviati da IP diversi da quelli specificati nel pool IP della superficie corrispondente
-   * Impossibile inviare e-mail alle caselle in entrata dei principali ISP
+* **Configurazioni di deliverability non riuscite**: un errore nelle configurazioni di deliverability può verificarsi a causa di uno dei seguenti motivi:
+   * Blocklist degli IP assegnati
+   * Nome non valido `helo`
+   * Messaggi di posta elettronica inviati da IP diversi da quelli specificati nel pool di IP della superficie corrispondente
+   * Impossibile recapitare e-mail alle caselle di posta in arrivo dei principali ISP
 
-## Modificare una superficie di canale {#edit-channel-surface}
+## Modifica superficie di un canale {#edit-channel-surface}
 
-Per modificare una superficie di canale, effettuate le seguenti operazioni.
+Per modificare la superficie di un canale, seguire i passaggi riportati di seguito.
 
 >[!NOTE]
 >
->Impossibile modificare il **[!UICONTROL Impostazioni delle notifiche push]**. Se una superficie di canale è configurata solo per il canale di notifica push, non è modificabile.
+>Non è possibile modificare le impostazioni ]**del**[!UICONTROL  notifica push. Se una superficie di canale è configurata solo per il canale notifica push, non è modificabile.
 
-1. Nell&#39;elenco, fate clic sul nome di una superficie di canale per aprirla.
+1. Nell&#39;elenco, fai clic sul nome di una superficie canale per aprirlo.
 
    ![](assets/preset-name.png)
 
-1. Modificane le proprietà come desiderato.
+1. Modifica le sue proprietà come desiderato.
 
    >[!NOTE]
    >
-   >Se una superficie di canale ha **[!UICONTROL Attivo]** stato, il **[!UICONTROL Nome]**, **[!UICONTROL Seleziona canale]** e **[!UICONTROL Sottodominio]** I campi sono disattivati e non possono essere modificati.
+   >Se la superficie di un canale ha lo stato Attivo ****, i **[!UICONTROL campi Nome]**, **[!UICONTROL Seleziona canale]** e **[!UICONTROL Sottodominio]** sono grigi e non possono essere modificati.
 
-1. Clic **[!UICONTROL Invia]** per confermare le modifiche.
+1. Fare clic su **[!UICONTROL Invia]** per confermare le modifiche.
 
    >[!NOTE]
    >
-   >Potete anche salvare la superficie di canale come sformo e riprendere l&#39;aggiornamento in un secondo momento.
+   >È inoltre possibile salvare la superficie del canale come bozza e riprendere l&#39;aggiornamento in un secondo momento.
 
-Dopo l’invio delle modifiche, la superficie di canale viene sottoposta a un ciclo di convalida simile a quello in atto quando [creazione di una superficie di canale](#create-channel-surface). Il tempo di elaborazione dell’edizione può richiedere fino a **3 ore**.
+Una volta inviate le modifiche, la superficie del canale passerà attraverso un ciclo convalida simile a quello in atto durante [la creazione di una superficie](#create-channel-surface) di canale. Il tempo di elaborazione dell&#39;edizione può richiedere fino a **3 ore**.
 
 >[!NOTE]
 >
->Se si modifica solo il **[!UICONTROL Descrizione]**, **[!UICONTROL Tipo di e-mail]** e/o **[!UICONTROL Parametri per nuovi tentativi e-mail]** , l&#39;aggiornamento è istantaneo.
+>Se modifichi solo i **[!UICONTROL campi dei parametri]** Descrizione ]**,**[!UICONTROL  Tipo e-mail ]**e/o**[!UICONTROL  Riprova e-mail, l&#39;aggiornamento è istantaneo.
 
-### Dettagli aggiornamento {#update-details}
+### Dettagli degli aggiornamenti {#update-details}
 
-Per le superfici di canale con **[!UICONTROL Attivo]** stato, puoi controllare i dettagli dell’aggiornamento. Per eseguire questa operazione:
+Per le superfici dei canali con stato Attivo ****, è possibile controllare i dettagli dell&#39;aggiornamento. Per eseguire questa operazione:
 
-Fai clic su **[!UICONTROL Aggiornamento recente]** accanto al nome della superficie attiva.
+Fate clic sull&#39;icona Aggiornamento **[!UICONTROL recente]** visualizzata accanto al nome della superficie attiva.
 
 ![](assets/preset-recent-update-icon.png)
 
 <!--You can also access the update details from an active channel surface while update is in progress.-->
 
-Il giorno **[!UICONTROL Aggiornamento recente]** , è possibile visualizzare informazioni quali lo stato di aggiornamento e l&#39;elenco delle modifiche richieste.
+**[!UICONTROL Nella schermata Aggiornamento recente]** è possibile visualizzare informazioni quali lo stato dell&#39;aggiornamento e l&#39;elenco delle modifiche richieste.
 
 <!--![](assets/preset-recent-update-screen.png)-->
 
 ### Aggiorna stati {#update-statuses}
 
-Un aggiornamento della superficie di canale può avere i seguenti stati:
+Un aggiornamento della superficie del canale può avere i seguenti stati:
 
-* **[!UICONTROL Elaborazione]**: l’aggiornamento della superficie di canale è stato inviato e sta attraversando diversi passaggi di verifica.
-* **[!UICONTROL Completato]**: la superficie di canale aggiornata è stata verificata e può essere selezionata per creare messaggi.
-* **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti durante la verifica dell’aggiornamento della superficie di canale.
+* **[!UICONTROL Elaborazione]**: l&#39;aggiornamento della superficie del canale è stato inviato ed è in corso diversi passaggi di verifica.
+* **[!UICONTROL Riuscito]**: la superficie del canale aggiornata è stata verificata e può essere selezionata per creare messaggi.
+* **[!UICONTROL Non riuscito]**: uno o più controlli hanno avuto esito negativo durante la verifica dell&#39;aggiornamento della superficie del canale.
 
-Ciascuno stato è descritto di seguito.
+Ogni stato è descritto di seguito.
 
 #### Elaborazione {#surface-processing}
 
-Verranno eseguiti diversi controlli di consegna per verificare che la superficie sia stata aggiornata correttamente.
+Verranno eseguiti diversi controlli di recapito per verificare che la superficie sia stata aggiornata correttamente.
 
 >[!NOTE]
 >
->Se si modifica solo il **[!UICONTROL Descrizione]**, **[!UICONTROL Tipo di e-mail]** e/o **[!UICONTROL Parametri per nuovi tentativi e-mail]** , l&#39;aggiornamento è istantaneo.
+>Se modifichi solo i **[!UICONTROL campi dei parametri]** Descrizione ]**,**[!UICONTROL  Tipo e-mail ]**e/o**[!UICONTROL  Riprova e-mail, l&#39;aggiornamento è istantaneo.
 
-Il tempo di elaborazione può richiedere fino **3 ore**. Ulteriori informazioni sui controlli eseguiti durante il ciclo di convalida in [questa sezione](#create-channel-surface).
+Il tempo di elaborazione può richiedere fino a **3 ore**. Scopri maggiori informazioni sui controlli effettuati durante il ciclo di convalida in [questa sezione](#create-channel-surface).
 
 Se modificate una superficie già attiva:
 
-* Il suo status rimane **[!UICONTROL Attivo]** mentre il processo di convalida è in corso.
+* Il suo stato rimane **[!UICONTROL attivo]** mentre il processo di convalida è in corso.
 
-* Il **[!UICONTROL Aggiornamento recente]** viene visualizzata accanto al nome della superficie nell&#39;elenco delle superfici di canale.
+* L&#39;icona **[!UICONTROL Aggiornamento recente]** viene visualizzata accanto al nome della superficie nell&#39;elenco delle superfici dei canali.
 
 * Durante il processo di convalida, i messaggi configurati utilizzando questa superficie utilizzano ancora la versione precedente della superficie.
 
 >[!NOTE]
 >
->Impossibile modificare una superficie di canale mentre è in corso l&#39;aggiornamento. Puoi comunque fare clic sul nome, ma tutti i campi sono disattivati. Le modifiche verranno applicate solo dopo il completamento dell&#39;aggiornamento.
+>Non è possibile modificare la superficie di un canale mentre è in corso l&#39;aggiornamento. È comunque possibile fare clic sul nome, ma tutti i campi sono disattivati. Le modifiche non verranno applicate fino al completamento dell&#39;aggiornamento.
 
 #### Operazione riuscita {#success}
 
-Quando il processo di convalida ha esito positivo, la nuova versione della superficie viene utilizzata automaticamente in tutti i messaggi che la utilizzano. Tuttavia, potrebbe essere necessario attendere:
-* pochi minuti prima di essere utilizzato dai messaggi unitari,
-* fino al batch successivo affinché la superficie sia efficace nei messaggi batch.
+Al termine del processo di convalida, la nuova versione della superficie viene utilizzata automaticamente in tutti i messaggi che utilizzano questa superficie. Tuttavia, potrebbe essere necessario attendere:
+* pochi minuti prima che venga consumato dai messaggi unitari,
+* Fino al batch successivo affinché Surface sia efficace nei messaggi batch.
 
 #### Non riuscito {#failed}
 
 Se il processo di convalida non riesce, verrà comunque utilizzata la versione precedente della superficie.
 
-Ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-channel-surfaces).
+Scopri ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-channel-surfaces).
 
-Se l&#39;aggiornamento non riesce, la superficie diventa nuovamente modificabile. Fai clic sul nome e aggiorna le impostazioni da correggere.
+Se l&#39;aggiornamento non riesce, la superficie diventa nuovamente modificabile. È possibile fare clic sul suo nome e aggiornare le impostazioni che devono essere corrette.
 
 ## Disattivare una superficie di canale {#deactivate-a-surface}
 
-Per creare un **[!UICONTROL Attivo]** superficie di canale non disponibile per la creazione di nuovi messaggi, puoi disattivarla. Tuttavia, i messaggi dei percorsi che attualmente utilizzano questa superficie non saranno interessati e continueranno a funzionare.
+Per rendere indisponibile una **[!UICONTROL superficie di canale Attivo]** al fine di creare nuovi messaggi, è possibile disattivarla. Tuttavia, i messaggi dei viaggi che attualmente utilizzano questa superficie non saranno interessati e continueranno a funzionare.
 
 >[!NOTE]
 >
->Non è possibile disattivare una superficie di canale durante l&#39;elaborazione di un aggiornamento. È necessario attendere che l’aggiornamento abbia esito positivo o negativo. Ulteriori informazioni su [modifica delle superfici di canale](#edit-channel-surface) e il [aggiorna stati](#update-statuses).
+>Non è possibile disattivare una superficie di canale durante l&#39;elaborazione di un aggiornamento. È necessario attendere che l&#39;aggiornamento abbia esito positivo o negativo. Scopri ulteriori informazioni sulla [modifica delle superfici](#edit-channel-surface) dei canali e sugli stati di [aggiornamento](#update-statuses).
 
-1. Accedere all&#39;elenco delle superfici di canale.
+1. Accedere all&#39;elenco delle superfici dei canali.
 
-1. Per la superficie attiva desiderata, fate clic sul pulsante **[!UICONTROL Altre azioni]** pulsante.
+1. Per la superficie attiva scelta, fare clic su **[!UICONTROL Altre azioni]** pulsante.
 
-1. Seleziona **[!UICONTROL Disattiva]**.
+1. Seleziona **[!UICONTROL Disattiva.]**
 
    ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
->Le superfici di canale disattivate non possono essere eliminate per evitare problemi nei percorsi che le utilizzano per inviare messaggi.
+>Le superfici dei canali disattivate non possono essere eliminate per evitare qualsiasi problema nei viaggi che utilizzano queste superfici per inviare messaggi.
 
-Non è possibile modificare direttamente una superficie di canale disattivata. Tuttavia, puoi duplicarlo e modificarne la copia per creare una nuova versione da utilizzare per creare nuovi messaggi. Puoi anche attivarlo nuovamente e attendere che l’aggiornamento sia stato modificato correttamente.
+Non è possibile modificare direttamente la superficie di un canale disattivato. Tuttavia, è possibile duplicarlo e modificare la copia per creare una nuova versione che verrà utilizzata per creare nuovi messaggi. Puoi anche attivarlo di nuovo e attendere che l&#39;aggiornamento abbia esito positivo per modificarlo.
 
 ![](assets/preset-activate.png)
 
