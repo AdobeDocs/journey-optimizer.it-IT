@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 2edb6f9d9b359293afcf5409b8b18068f43a38ec
+source-git-commit: 65a1672c2440a3498ec1fc1c7db62080aa306cf4
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1608'
 ht-degree: 12%
 
 ---
@@ -161,9 +161,9 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associato a uno spazio dei nomi (vedere [questa sezione](../event/about-creating.md#select-the-namespace)), la chiave può essere utilizzata per eseguire query su Adobe Experience Platform. Consulta [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
 La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
-### Editor di espressioni avanzate {#adv-exp-editor}
+## Editor di espressioni avanzate {#adv-exp-editor}
 
-Quando definisci l’identificatore Profilo, puoi passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi).
+Quando definisci la condizione ID evento o l’identificatore Profilo, puoi passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi).
 
 ![](assets/journey20.png)
 
