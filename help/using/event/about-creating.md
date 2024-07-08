@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 60a7e79a5a40eada7645c1b6b94d8b165d2453b4
+source-git-commit: 852b79a7a2cdcaeac700e2bb8b0cf1aa0d421bc9
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1603'
 ht-degree: 12%
 
 ---
@@ -63,15 +63,15 @@ Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
 1. Per gli eventi basati su regole, fai clic su all’interno del **[!UICONTROL Condizione ID evento]** campo. Utilizzando l’editor di espressioni semplice o avanzato, definisci la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso.
 
-![](assets/jo-event6.png)
+   ![](assets/jo-event6.png)
 
-Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL Città]** campo e **[!UICONTROL Parigi]** ), la trasmetterà ai percorsi.
+   Nel nostro esempio, abbiamo scritto una condizione basata sulla città del profilo. Ciò significa che ogni volta che il sistema riceve un evento che corrisponde a questa condizione (**[!UICONTROL Città]** campo e **[!UICONTROL Parigi]** ), la trasmetterà ai percorsi.
 
->[!NOTE]
->
->Nell’editor delle espressioni semplici non tutti gli operatori sono disponibili, ma dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, puoi utilizzare &quot;contains&quot; o &quot;equal to&quot;.
->
->Se modifichi lo schema con nuovi valori di enumerazione dopo aver creato l’evento, segui questi passaggi per applicare le modifiche all’evento esistente: deseleziona il campo di enumerazione dai campi dell’evento, conferma la selezione, quindi seleziona nuovamente il campo di enumerazione. Viene ora visualizzato il nuovo valore di enumerazione.
+   >[!NOTE]
+   >
+   >Nell’editor delle espressioni semplici non tutti gli operatori sono disponibili, ma dipendono dal tipo di dati. Ad esempio, per un tipo di stringa di campo, puoi utilizzare &quot;contains&quot; o &quot;equal to&quot;.
+   >
+   >Se modifichi lo schema con nuovi valori di enumerazione dopo aver creato l’evento, segui questi passaggi per applicare le modifiche all’evento esistente: deseleziona il campo di enumerazione dai campi dell’evento, conferma la selezione, quindi seleziona nuovamente il campo di enumerazione. Viene ora visualizzato il nuovo valore di enumerazione.
 
 1. Aggiungi uno spazio dei nomi. Questo passaggio è facoltativo ma consigliato, poiché l’aggiunta di uno spazio dei nomi consente di sfruttare le informazioni memorizzate nel servizio Profilo cliente in tempo reale, definendo il tipo di chiave di cui dispone l’evento. Consulta [questa sezione](../event/about-creating.md#select-the-namespace).
 
@@ -163,16 +163,12 @@ La chiave viene utilizzata anche per verificare che una persona appartenga a un 
 
 ### Editor di espressioni avanzate {#adv-exp-editor}
 
-
 Quando definisci l’identificatore Profilo, puoi passare all’editor di espressioni avanzate per creare chiavi più complesse (ad esempio, una concatenazione di due campi degli eventi).
 
 ![](assets/journey20.png)
 
 Puoi accedere alle funzioni di espressione avanzata da **[!UICONTROL Modalità avanzata]** se si desidera eseguire ulteriori manipolazioni. Queste funzioni ti consentono di manipolare i valori utilizzati per eseguire query specifiche, ad esempio per modificare i formati e eseguire concatenazioni di campi, tenendo conto solo di una parte di un campo (ad esempio i primi 10 caratteri). Consulta questa [pagina](../building-journeys/expression/expressionadvanced.md).
 
->[!AVAILABILITY]
->
->L’editor di espressioni avanzate è disponibile solo per un set di organizzazioni (LA).
 
 ## Anteprima del payload {#preview-the-payload}
 
