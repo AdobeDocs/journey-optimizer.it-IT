@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 18fca9796e40d43f886ad8d53ef7d1b6b6642aa6
+source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 70%
@@ -30,7 +30,7 @@ ht-degree: 70%
 
 **Ultimo aggiornamento**: 8 luglio 2024
 
-**Editor di espressioni avanzate nella configurazione dell’evento di percorso** - È ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione dell’ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
+**Editor di espressioni avanzate nella configurazione dell’evento di percorso** - È ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
 
 
 ## Note sulla versione di giugno 2024 {#24-6-2024}
