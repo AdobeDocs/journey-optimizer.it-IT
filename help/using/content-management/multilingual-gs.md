@@ -10,9 +10,9 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
+source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '151'
 ht-degree: 25%
 
 ---
@@ -35,3 +35,9 @@ Con Journey Optimizer, puoi creare contenuti multilingue attraverso due metodi d
 </br>
 
 ![](assets/translation_schema.png)
+
+## Video introduttivo {#video}
+
+Scopri come creare contenuti in più lingue all’interno di una singola campagna o percorso.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3430921/)
