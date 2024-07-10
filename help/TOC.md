@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
       + [Simulare il percorso](using/building-journeys/journey-simulation.md)
       + [Pubblicare il percorso](using/building-journeys/publishing-the-journey.md)
    + Gestire i percorsi{#manage-journey}
-      + [Gestione dell’ingresso nel profilo](using/building-journeys/entry-management.md)
+      + [Gestione dell’ingresso del profilo](using/building-journeys/entry-management.md)
       + [Gestione del fuso orario](using/building-journeys/timezone-management.md)
       + [Terminare il percorso](using/building-journeys/end-journey.md)
       + [Copiare un percorso in un’altra sandbox](using/building-journeys/copy-to-sandbox.md)
@@ -73,9 +73,9 @@ ht-degree: 98%
       + [Salta](using/building-journeys/jump.md)
       + [Aggiorna profilo](using/building-journeys/update-profiles.md)
    + Creare espressioni {#building-advanced-conditions-journeys}
-      + [Utilizzare l’editor di espressioni avanzate](using/building-journeys/expression/expressionadvanced.md)
+      + [Utilizzare l’editor espressioni avanzato](using/building-journeys/expression/expressionadvanced.md)
       + Sintassi {#syntax}
-         + [Sintassi avanzata dell’editor di espressioni](using/building-journeys/expression/generalities.md)
+         + [Sintassi dell’editor espressioni avanzato](using/building-journeys/expression/generalities.md)
          + [Istruzione condizionale](using/building-journeys/expression/conditional-instruction.md)
          + [Tipi di dati](using/building-journeys/expression/data-types.md)
          + [Riferimenti campo](using/building-journeys/expression/field-references.md)
@@ -313,9 +313,9 @@ ht-degree: 98%
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
    + Modelli di contenuto {#content-templates}
       + [Introduzione ai modelli di contenuto](using/content-management/content-templates.md)
-      + [Accedere e gestire i modelli](using/content-management/access-content-templates.md)
+      + [Accesso e gestione dei modelli](using/content-management/access-content-templates.md)
       + [Creare modelli di contenuto](using/content-management/create-content-templates.md)
-      + [Test dei modelli di contenuto](using/content-management/test-content-templates.md)
+      + [Testare modelli di contenuto](using/content-management/test-content-templates.md)
       + [Utilizzare i modelli di contenuto](using/content-management/use-content-templates.md)
    + Frammenti di contenuto riutilizzabili {#fragments}
       + [Introduzione ai frammenti](using/content-management/fragments.md)

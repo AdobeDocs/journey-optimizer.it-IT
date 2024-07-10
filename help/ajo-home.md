@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Scopri le nuove funzioni e i miglioramenti introdotti nella versione di maggio d
 
 >[!TAB Reporting con Customer Journey Analytics (Beta)]
 
-La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati.
+La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati.
 
 [![ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
