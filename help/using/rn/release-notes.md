@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 70%
+ht-degree: 93%
 
 ---
 
@@ -80,13 +80,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Generazione di rapporti con il Customer Journey Analytics (disponibilità limitata)</strong><br/></th>
+<th><strong>Reporting con Customer Journey Analytics (Disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La funzione di reporting di Journey Optimizer offre una migliore interoperabilità con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.</p>
+<p>La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../reports/report-gs-cja.md">documentazione dettagliata</a>.</p>
 </td>
@@ -115,14 +115,14 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Messaggi multilingue in percorsi e campagne (disponibilità limitata)</strong><br/></th>
+<th><strong>Messaggi multilingue nei percorsi e nelle campagne (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile creare contenuti in più lingue in un’unica campagna o in un unico percorso. Con questa funzione, puoi passare da una lingua all’altra durante la modifica della campagna o del percorso, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.</p>
-<p>Il contenuto multilingue è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Ora è possibile creare contenuti multilingue all’interno di un’unica campagna o di un unico percorso in modo semplice. Con questa funzione, è possibile cambiare lingua durante la modifica della campagna o del percorso, semplificando l’intero processo di modifica e migliorando la capacità di gestire in modo efficiente i contenuti multilingue.</p>
+<p>Il contenuto multilingue è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -132,14 +132,14 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Sperimentazione in percorsi (disponibilità limitata)</strong><br/></th>
+<th><strong>Sperimentazione nei percorsi (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Già disponibile nelle campagne, Adobe Journey Optimizer ora supporta gli esperimenti nei percorsi. Gli esperimenti sono test randomizzati: nel contesto dei test online significa che esponi alcuni utenti selezionati in modo casuale a una determinata variante di un messaggio e un altro gruppo di utenti selezionato in modo casuale a un’altra variante o trattamento. Dopo l’esposizione, puoi quindi misurare le metriche del risultato che ti interessano, ad esempio apertura di e-mail, iscrizioni o acquisti.</p>
-<p>La sperimentazione nei percorsi è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>La sperimentazione nei percorsi è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -205,9 +205,9 @@ Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenu
 
 #### Canale e-mail
 
-* **Annullamento iscrizione mailing list** - A seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer supporta l’opzione &quot;post/1 clic&quot; List-Unsubscribe. Consulta le pagine seguenti: [Gestione della rinuncia e-mail](../email/email-opt-out.md#unsubscribe-header) e [Configurare le impostazioni e-mail](../email/email-settings.md#list-unsubscribe).
+* **Annullamento iscrizione a mailing list**: a seguito dei recenti annunci Gmail e Yahoo per mittenti in blocco, Journey Optimizer supporta l’opzione Annullamento iscrizione a mailing list “post/1 clic”. Consulta le pagine seguenti: [Gestione della rinuncia e-mail](../email/email-opt-out.md#unsubscribe-header) e [Configurare le impostazioni e-mail](../email/email-settings.md#list-unsubscribe).
 
-  **NOTA** - Per qualsiasi nuova superficie di canale, per impostazione predefinita viene attivata l’opzione di intestazione per annullare l’iscrizione all’elenco. Per le superfici esistenti, per default l&#39;opzione URL di annullamento sottoscrizione con un solo clic nelle impostazioni della superficie di canale non è selezionata. Se in precedenza utilizzavi un URL di rinuncia con un solo clic nel corpo dell’e-mail, questa impostazione è ancora valida. Se nelle impostazioni della superficie di canale è selezionato l’URL per l’annullamento dell’iscrizione con un clic, Adobe Journey Optimizer utilizza l’URL per l’annullamento dell’iscrizione con un clic generato di default nelle impostazioni della superficie di canale.
+  **NOTA**: per qualsiasi nuova superficie di canale, l’opzione di intestazione per annullare l’iscrizione alla mailing list viene attivata per impostazione predefinita. Per le superfici esistenti, l’opzione URL di annullamento iscrizione con un solo clic nelle impostazioni della superficie di canale non è selezionata per impostazione predefinita. Se in precedenza utilizzavi un URL di rinuncia con un solo clic nel corpo dell’e-mail, questa impostazione è ancora valida. Se nelle impostazioni della superficie di canale, l’opzione URL di annullamento dell’iscrizione con un solo clic è selezionata, Adobe Journey Optimizer preferisce utilizzare l’URL per l’annullamento dell’iscrizione con un clic generato predefinito.
 
 #### Canale SMS
 
@@ -226,4 +226,4 @@ Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenu
 
 #### Canale direct mail
 
-* Il canale direct mailing è ora disponibile per tutti i clienti. [Ulteriori informazioni](../direct-mail/get-started-direct-mail.md)
+* Il canale direct mail è ora disponibile per tutta la clientela. [Ulteriori informazioni](../direct-mail/get-started-direct-mail.md)
