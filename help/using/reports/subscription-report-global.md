@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto abbonamento
+title: Rapporto iscrizione
 description: Scopri come utilizzare i dati dei servizi di abbonamento con il rapporto globale sugli abbonamenti
 feature: Journeys, Subscriptions
 topic: Content Management
@@ -11,7 +11,7 @@ exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
 source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_global_report"
 >title="Rapporto globale delle iscrizioni"
->abstract="Il rapporto globale delle iscrizioni consente di misurare e visualizzare l’attività degli utenti iscritti in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto globale delle iscrizioni consente di misurare e visualizzare l’attività degli utenti iscritti in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I report globali, accessibili dalla scheda Tutto il tempo, visualizzano gli eventi che si sono verificati almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 

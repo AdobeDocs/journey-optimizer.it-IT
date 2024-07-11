@@ -20,7 +20,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_live_report"
 >title="Rapporto live dei percorsi"
->abstract="Il rapporto live dei percorsi consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di un percorso. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto live dei percorsi consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di un percorso. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
@@ -304,7 +304,7 @@ Il **[!UICONTROL Motivi di errore]** grafici e tabelle offrono visibilità sugli
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="E-mail - Motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori a causa di quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -481,7 +481,7 @@ Il **[!UICONTROL Motivi di errore]** la tabella e i grafici consentono di identi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="Notifica push: motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -566,7 +566,7 @@ Il **[!UICONTROL SMS - Motivi di errore]** I grafici e le tabelle ti consentono 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="SMS: motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 ![](assets/journey_live_sms_excluded.png)
 

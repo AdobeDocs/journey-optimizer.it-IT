@@ -45,11 +45,11 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 
 Dai rapporti sul canale, il menu E-mail fornisce i dettagli delle informazioni principali relative alle e-mail inviate nelle campagne e nei Percorsi. Le metriche sono descritte di seguito.
 
-### E-mail: statistiche di invio totali {#email-total-sending}
+### E-mail - Statistiche di invio totali {#email-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
->title="E-mail: statistiche di invio totali"
+>title="E-mail - Statistiche di invio totali"
 >abstract="I KPI delle Email: statistiche di invio totali riepilogano i dati essenziali sulle e-mail, come messaggi mirati o consegnati."
 
 ![](assets/channel_email_total_sending.png)

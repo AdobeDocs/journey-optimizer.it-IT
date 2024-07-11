@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i metodi con l'espressione avanzata editor
+title: Utilizzare l’editor espressioni avanzato
 description: Scopri come creare espressioni avanzate
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: editor espressione, dati, percorso
+keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
-# Utilizzare i metodi con l&#39;espressione avanzata editor {#about-the-advanced-expression-editor}
+# Utilizzare l’editor espressioni avanzato {#about-the-advanced-expression-editor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="Editor di espressioni avanzate"
 >abstract="Utilizza l’editor di espressioni avanzate per creare espressioni avanzate in varie schermate dell’interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati."
 
-Utilizza l&#39;espressione avanzata Journey editor per versione espressioni avanzate in varie schermate dell&#39;interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati.
+Utilizza l’editor di espressioni avanzate di Percorso per creare espressioni avanzate in varie schermate dell’interfaccia. Ad esempio, puoi creare espressioni durante la configurazione e l’utilizzo di percorsi e durante la definizione di una condizione di origine dati.
 
 È inoltre disponibile ogni volta che hai bisogno di definire parametri di azione che richiedono specifiche manipolazioni dei dati. Puoi sfruttare i dati provenienti dagli eventi o le informazioni aggiuntive recuperate dall’origine dati. In un percorso, l’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso.
 
@@ -33,9 +33,9 @@ L’editor di espressioni avanzate offre un set di funzioni e operatori incorpor
 
 >[!NOTE]
 >
->Le funzioni e le capacità disponibili nell&#39;espressione avanzata di Journey editor differiscono da quelle disponibili in personalizzazione editor[](../../personalization/functions/functions.md).
+>Le funzioni e le funzionalità disponibili nell’editor di espressioni avanzate di Percorso sono diverse da quelle disponibili in [editor di personalizzazione](../../personalization/functions/functions.md).
 
-## Accedere al editor con espressioni avanzate {#accessing-the-advanced-expression-editor}
+## Accedere all’editor di espressioni avanzate {#accessing-the-advanced-expression-editor}
 
 L’editor di espressioni avanzate può essere utilizzato per:
 
@@ -43,7 +43,7 @@ L’editor di espressioni avanzate può essere utilizzato per:
 * definire le [attività di attesa](../wait-activity.md#custom) personalizzate
 * definire la mappatura dei parametri di azione
 
-Quando possibile, è possibile passare da una modalità all&#39;altra utilizzando la **[!UICONTROL modalità]** Avanzate / **[!UICONTROL modalità]** semplice pulsante. La modalità semplice è descritta [qui](../condition-activity.md#about_condition).
+Quando possibile, è possibile passare tra le due modalità utilizzando **[!UICONTROL Modalità avanzata]** / **[!UICONTROL Modalità semplice]** pulsante. La modalità semplice è descritta [qui](../condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -53,12 +53,12 @@ Quando possibile, è possibile passare da una modalità all&#39;altra utilizzand
 
 Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
-* Quando si crea una condizione origine dati, è possibile accesso il editor avanzato facendo clic su Avanzate **[!UICONTROL modalità]**.
+* Quando crei una condizione di origine dati, puoi accedere all’editor avanzato facendo clic su **[!UICONTROL Modalità avanzata]**.
 
   ![](../assets/journeyuc2_33.png)
 
 * Quando crei un timer personalizzato, l’editor avanzato viene visualizzato direttamente.
-* Quando si mappa il parametro dell&#39;azione, fare clic su **[!UICONTROL Avanzate modalità]**.
+* Quando mappi il parametro dell’azione, fai clic su **[!UICONTROL Modalità avanzata]**.
 
 ## Scopri l’interfaccia {#discovering-the-interface}
 
@@ -68,11 +68,11 @@ Questa schermata ti consente di scrivere manualmente l’espressione.
 
 Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni disponibili:
 
-* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall&#39;evento in entrata. L&#39;elenco visualizzato dei campi evento è contestuale e varia a seconda degli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
-* **[!UICONTROL Audiences]**: se hai eliminato un **[!UICONTROL evento di qualificazione]** del pubblico, scegli il pubblico che desideri utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
-* **[!UICONTROL Origini]** dati: scegli dall&#39;elenco di campi disponibili nei gruppi di campi delle tue origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
-* **[!UICONTROL Proprietà del viaggio]**: questa sezione raggruppa i campi tecnici relativi al viaggio per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
-* **[!UICONTROL Funzioni]**: scegli da un elenco di funzioni integrate che consentono di eseguire filtraggi complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
+* **[!UICONTROL Eventi]**: scegli uno dei campi ricevuti dall’evento in entrata. L’elenco visualizzato dei campi dell’evento è contestuale e varia in base agli eventi aggiunti nel percorso. [Ulteriori informazioni](../../event/about-events.md)
+* **[!UICONTROL Tipi di pubblico]**: se hai rilasciato una **[!UICONTROL Qualificazione del pubblico]** , scegli il pubblico da utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Origini dati]**: scegli dall’elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
+* **[!UICONTROL Proprietà percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
+* **[!UICONTROL Funzioni]**: scegli dall’elenco di funzioni integrate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)
 
 ![](../assets/journey65.png)
 
@@ -86,7 +86,7 @@ Un meccanismo di convalida della sintassi verifica l’integrità del tuo codice
 
 **Necessità di parametri per la creazione di condizioni con l’editor di espressioni avanzate**
 
-Se si seleziona un campo da un&#39;origine dati esterna che richiede la chiamata di un parametro (vedere [questa pagina](../../datasource/external-data-sources.md)), viene visualizzato un nuovo scheda a destra che consente di specificare questo parametro. Il valore del parametro può derivare dagli eventi posizionati nel percorso o dall&#39;origine dati Experience Platform (e non da altre origini dati esterne). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
+Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro (consulta [questa pagina](../../datasource/external-data-sources.md)), a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Il valore del parametro può provenire dagli eventi posizionati nel percorso o dall&#39;origine dati dell&#39;Experience Platform (e non da altre origini dati esterne). Ad esempio, in un’origine dati correlata al meteo, un parametro utilizzato di frequente sarà “city”. Di conseguenza, devi selezionare il punto in cui vuoi ottenere questo parametro della città. Ai parametri è possibile applicare anche le funzioni, al fine di eseguire modifiche di formato o concatenazioni.
 
 ![](../assets/journeyuc2_19.png)
 

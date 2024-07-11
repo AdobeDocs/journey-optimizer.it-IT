@@ -20,7 +20,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_report"
 >title="Rapporto globale della campagna"
->abstract="Il rapporto globale delle campagne consente di misurare l’impatto di una campagna in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto globale delle campagne consente di misurare l’impatto di una campagna in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 Rapporti globali, accessibili dalla **Sempre** , visualizza gli eventi che si sono verificati almeno due ore fa e copre gli eventi in un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 
@@ -83,7 +83,7 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Metrica Successo"
+>title="Metrica di successo"
 >abstract="Valore totale della metrica Successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili."
 
 ![](assets/experimentation_report_3.png)
@@ -124,7 +124,7 @@ L&#39;ultimo widget fornisce dati relativi al **[!UICONTROL Metrica di successo]
 
 ## Scheda e-mail {#email-global}
 
-### E-mail: statistiche di invio {#sending-statistics-email}
+### E-mail - Statistiche di invio {#sending-statistics-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_email_sending_statistics"
@@ -606,7 +606,7 @@ Il **[!UICONTROL Motivi di errore]** tabelle e grafici consentono di identificar
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_excluded_reasons"
 >title="Notifica push: motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 ![](assets/campaign_push_excluded.png)
 
@@ -730,7 +730,7 @@ Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle ti consentono di ide
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_excluded_reasons"
 >title="SMS: motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 ![](assets/campaign_sms_excluded.png)
 

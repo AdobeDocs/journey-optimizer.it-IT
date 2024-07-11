@@ -20,7 +20,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_report"
 >title="Rapporto live della campagna"
->abstract="Il rapporto live delle campagne consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni di una campagna solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto live delle campagne consente di misurare e visualizzare in tempo reale l’impatto e le prestazioni di una campagna solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
@@ -203,7 +203,7 @@ Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle forniscono informazi
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_email_excluded_reasons"
 >title="E-mail - Motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori a causa di quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 ![](assets/campaign_email_live_excluded.png)
 
@@ -371,7 +371,7 @@ Il **[!UICONTROL Notifica push - Statistiche]** graph offre una rappresentazione
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_push_excluded_reasons"
 >title="Notifica push: motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere le notifiche push nelle ultime 24 ore.
 
@@ -481,7 +481,7 @@ Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle ti consentono di
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
 >title="SMS: motivi di esclusione"
->abstract="I grafici e la tabella Motivi di esclusione illustrano i vari fattori che hanno portato i profili utente che sono stati esclusi dal pubblico di destinazione a non ricevere il messaggio nelle ultime 24 ore."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
 ![](assets/campaign_live_sms_excluded.png)
 

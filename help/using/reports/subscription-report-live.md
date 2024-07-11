@@ -20,7 +20,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"
 >title="Rapporto live delle iscrizioni"
->abstract="Il rapporto live delle iscrizioni consente di misurare e visualizzare in tempo reale l’attività degli utenti iscritti solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto live delle iscrizioni consente di misurare e visualizzare in tempo reale l’attività degli utenti iscritti solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono le iscrizioni e gli annullamenti delle iscrizioni. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 

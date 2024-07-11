@@ -11,7 +11,7 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 20%
+ht-degree: 24%
 
 ---
 
@@ -101,13 +101,13 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Experience Manager Assets "
+>abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Experience Manager Assets. "
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 >[!NOTE]
 >
->Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini in totale (che coprono sia i canali e-mail che i canali web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, contatta il tuo contatto Adobe.
+>Per impostazione predefinita, [!DNL Journey Optimizer] consente di delegare fino a 10 sottodomini in totale (che coprono sia i canali e-mail che i canali web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
 1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** , quindi seleziona **[!UICONTROL configurazione web]** > **[!UICONTROL sottodomini web]**.
 

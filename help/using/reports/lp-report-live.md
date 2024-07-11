@@ -20,7 +20,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_live_report"
 >title="Rapporto live delle pagine di destinazione"
->abstract="Il rapporto globale delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto globale delle pagine di destinazione consente di misurare e visualizzare in tempo reale l’impatto delle pagine di destinazione solo nelle ultime 24 ore. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 

@@ -20,7 +20,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_global_report"
 >title="Rapporto globale dei percorsi"
->abstract="Il rapporto globale dei percorsi consente di misurare l’impatto di un percorso in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di un percorso. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto globale dei percorsi consente di misurare l’impatto di un percorso in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono il successo e gli errori di un percorso. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I report globali, accessibili dalla scheda Tutto il tempo, visualizzano gli eventi che si sono verificati almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 
@@ -171,11 +171,11 @@ Tieni presente che affinché questi widget vengano visualizzati nei rapporti Per
 
 Dal tuo percorso **[!UICONTROL Rapporto globale]**, il **[!UICONTROL E-mail]** Questa scheda contiene le informazioni principali relative alle e-mail inviate nel percorso.
 
-### E-mail: statistiche di invio {#email-sending-statistics}
+### E-mail - Statistiche di invio {#email-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
->title="E-mail: statistiche di invio"
+>title="E-mail - Statistiche di invio"
 >abstract="La tabella della sezione E-mail - Statistiche di invio riepiloga dati essenziali sulle e-mail, ad esempio Target o Consegnati."
 
 ![](assets/journey_email_statistics.png)
@@ -683,7 +683,7 @@ Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle ti consentono di ide
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="SMS: motivi di esclusione"
->abstract="I grafici e la tabella dei motivi di esclusione illustrano i vari fattori che hanno portato ai profili utente, esclusi dal pubblico mirato, a non ricevere il messaggio."
+>abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target."
 
 ![](assets/journey_sms_excluded.png)
 

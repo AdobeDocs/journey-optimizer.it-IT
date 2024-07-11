@@ -20,7 +20,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_landing_page_global_report"
 >title="Rapporto globale delle pagine di destinazione"
->abstract="Il rapporto globale delle pagine di destinazione consente di misurare l’impatto delle pagine di destinazione in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o spostando i widget."
+>abstract="Il rapporto globale delle pagine di destinazione consente di misurare l’impatto delle pagine di destinazione in un periodo di tempo selezionato. Il rapporto è suddiviso in diversi widget che descrivono in dettaglio il successo e gli errori della pagina di destinazione. Ogni dashboard di reporting può essere modificata ridimensionando o rimuovendo i widget."
 
 I report globali, accessibili dalla scheda Tutto il tempo, visualizzano gli eventi che si sono verificati almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 

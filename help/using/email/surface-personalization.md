@@ -13,7 +13,7 @@ exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
 source-wordcount: '834'
-ht-degree: 3%
+ht-degree: 17%
 
 ---
 
@@ -23,25 +23,25 @@ Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail
 
 >[!AVAILABILITY]
 >
->La personalizzazione della superficie e-mail è attualmente disponibile solo per un set di organizzazioni (Disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>La personalizzazione della superficie e-mail è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
-## Aggiungere sottodomini dinamici {#dynamic-subdomains}
+## Aggiungi i sottodomini dinamici {#dynamic-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
 >title="Personalizzazione non disponibile"
->abstract="Questa superficie è stata creata senza attributi di personalizzazione. Consulta la documentazione per i passaggi da seguire per risolvere eventuali esigenze di personalizzazione."
+>abstract="Questa superficie è stata creata senza alcun attributo di personalizzazione. Fai riferimento alla documentazione per i passaggi da risolvere se è necessaria la personalizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
->title="Abilitare i sottodomini dinamici"
->abstract="Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
+>title="Abilita i sottodomini dinamici"
+>abstract="Quando crei una superficie e-mail, puoi impostare sottodomini dinamici in base alle condizioni da te definite utilizzando l’editor di personalizzazione. Puoi aggiungere fino a 50 sottodomini dinamici."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Alcuni sottodomini potrebbero non essere disponibili"
->abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completati, puoi scegliere tra tutti i sottodomini disponibili."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
+>abstract="Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del ciclo di feedback in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completato, puoi scegliere tra tutti i sottodomini disponibili."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Introduzione alla delega dei sottodomini"
 
 Durante la creazione di una superficie e-mail, puoi impostare sottodomini dinamici in base a condizioni specifiche.
 
