@@ -7,9 +7,9 @@ topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 55666c0fc3e4efb3785de96b96e58ba44016f33d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 **Ultimo aggiornamento**: 8 luglio 2024
 
-**Editor di espressioni avanzate nella configurazione dell’evento di percorso** - È ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
+**Editor di espressioni avanzate nella configurazione dell’evento percorso**: è ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione per l’ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
 
 
 ## Note sulla versione di giugno 2024 {#24-6-2024}
@@ -181,7 +181,7 @@ Questa versione include i miglioramenti elencati di seguito.
 * Sono stati introdotti nuovi stati per i frammenti di contenuto: **Bozza**, **Live**, **Pubblicazione** e **Archiviato**.
 * Per utilizzare un frammento in un percorso o in una campagna, ora è necessario che sia in stato **Live**. È stato aggiunto un nuovo passaggio al processo di creazione del frammento, che consente di pubblicarlo e renderlo disponibile per l’utilizzo in percorsi e campagne. Tenere presente che la pubblicazione del frammento richiede una nuova autorizzazione.
 
-  **ATTENZIONE**: dato che gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione presentano lo stato **Bozza** anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, devi [pubblicarli](../content-management/create-fragments.md#publish) per renderle &quot;Live&quot; e propagare le modifiche alle campagne e ai percorsi associati. Devi anche creare una nuova versione di percorso/campagna e pubblicarla.
+  **ATTENZIONE**: dato che gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno di Journey Optimizer, tutti i frammenti creati prima di questa versione presentano lo stato **Bozza** anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario [pubblicarli](../content-management/create-fragments.md#publish) per renderli “live” e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di campagna/percorso e pubblicarla.
 
 Per ulteriori informazioni, consulta la documentazione sui [frammenti di contenuto](../content-management/fragments.md).
 

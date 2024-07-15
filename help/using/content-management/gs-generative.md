@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 >
 >L’assistente IA in Adobe Journey Optimizer è attualmente disponibile come versione beta solo per alcuni utenti.
 
-L’Assistente AI in Adobe Journey Optimizer, con tecnologia Azure OpenAI e la visione di Azure, offre suggerimenti proattivi per la variazione dei contenuti per testo e immagini. È disponibile per i canali e-mail, push e SMS. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt. La generazione di immagini è gestita con Adobe Firefly.
+L’Assistente IA in Adobe Journey Optimizer, basato su tecnologia Azure OpenAI e visione di Azure, offre suggerimenti proattivi per la variazione dei contenuti per testo e immagini. È disponibile per i canali e-mail, push e SMS. Questa nuova funzionalità fornisce una generazione di testo e immagini basata su prompt. La generazione di immagini è gestita con Adobe Firefly.
 
 Utilizza l’assistente IA di Journey Optimizer per ottimizzare l’impatto del messaggio sperimentando con diversi titoli principali e immagini. Genera più varianti e crea un esperimento per confrontarle. Sfruttando l’esperimento con contenuti di Journey Optimizer, puoi definire più trattamenti per i messaggi al fine di misurare quale funziona meglio per il tuo pubblico di destinazione. Puoi scegliere di variare il contenuto della consegna o l’oggetto. Il pubblico del messaggio viene allocato in modo casuale a ciascun trattamento per determinare quale funziona meglio nei termini della metrica specificata. Per ulteriori informazioni sull’esperimento contenuti, consulta [questa sezione](../content-management/content-experiment.md).
 
