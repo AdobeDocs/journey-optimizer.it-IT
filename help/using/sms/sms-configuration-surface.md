@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 080928d14a9d6ec116286386748b77a6a25e76f8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 8%
+source-wordcount: '420'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ Una volta configurato il canale SMS/MMS, è necessario creare una superficie di 
 
 Per creare una superficie di canale, effettuate le seguenti operazioni:
 
-1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Marchio]** > **[!UICONTROL Superfici di canale]**. Fai clic su **[!UICONTROL Crea superficie di canale]** pulsante.
+1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Marchio]** > **[!UICONTROL Superfici di canale]**. Fare clic sul pulsante **[!UICONTROL Crea superficie di canale]**.
 
    ![](assets/preset-create.png)
 
@@ -36,54 +36,48 @@ Per creare una superficie di canale, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, punto`.` e trattino `-` caratteri.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
-1. Definisci il **Impostazioni SMS**.
+1. Definisci le **impostazioni SMS**.
 
    ![](assets/sms-surface-settings.png)
 
-   Per iniziare, seleziona la **[!UICONTROL Tipo di SMS]** che verrà inviato con la superficie: **[!UICONTROL Transazionale]** o **[!UICONTROL Marketing]**.
+   Inizia selezionando il tipo di SMS **[!UICONTROL 1} che verrà inviato con la superficie:**[!UICONTROL  Transazionale ]**o**[!UICONTROL  Marketing ]**.]**
 
-   * Scegli **Marketing** messaggi di testo promozionali: questi messaggi richiedono il consenso dell’utente.
-   * Scegli **Transazionale** per messaggi non commerciali come ad esempio la conferma di un ordine, le notifiche di reimpostazione della password o le informazioni di consegna.
+   * Scegli **Marketing** per i messaggi promozionali: questi messaggi richiedono il consenso dell&#39;utente.
+   * Scegli **Transazionale** per messaggi non commerciali quali ad esempio conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna.
 
    Quando crei un SMS/MMS, devi scegliere una superficie di canale valida che corrisponda alla categoria selezionata per il messaggio.
 
    >[!CAUTION]
    >
-   >**Transazionale** è possibile inviare messaggi ai profili che hanno annullato l’abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
+   >**I messaggi transazionali** possono essere inviati ai profili che hanno annullato l&#39;abbonamento alle comunicazioni di marketing. Questi messaggi possono essere inviati solo in contesti specifici.
 
-1. Seleziona la **[!UICONTROL Configurazione SMS]** per associarlo alla superficie.
+1. Selezionare la **[!UICONTROL configurazione SMS]** da associare alla superficie.
 
-   Per ulteriori informazioni su come configurare l’ambiente per l’invio di messaggi SMS, consulta [questa sezione](#create-api).
+   Per ulteriori informazioni su come configurare l&#39;ambiente per l&#39;invio di messaggi SMS, consulta [questa sezione](#create-api).
 
-1. Inserisci il **[!UICONTROL Numero mittente]** &#x200B;si desidera utilizzare per le comunicazioni.
+1. Immettere il **[!UICONTROL numero mittente]** &#x200B;che si desidera utilizzare per le comunicazioni.
 
-1. Seleziona il **[!UICONTROL Campo di esecuzione SMS]** per selezionare **[!UICONTROL Attributo profilo]** associati ai numeri di telefono dei profili.
+1. Seleziona il **[!UICONTROL Campo di esecuzione SMS]** per selezionare l&#39;**[!UICONTROL attributo profilo]** associato ai numeri di telefono dei profili.
 
-1. Se desideri utilizzare la funzione di abbreviazione URL nei messaggi SMS, seleziona un elemento da **[!UICONTROL Sottodominio]** elenco.
+1. Se desideri utilizzare la funzione di abbreviazione URL nei messaggi SMS, seleziona un elemento dall&#39;elenco **[!UICONTROL Sottodominio]**.
 
    >[!NOTE]
    >
    >Per poter selezionare un sottodominio, accertati di aver configurato in precedenza almeno un sottodominio SMS/MMS. [Scopri come](sms-subdomains.md)
 
-1. Inserisci il **[!UICONTROL Numero di rinuncia]** si desidera utilizzare per questa superficie. Quando i profili rinunciano a questo numero, puoi comunque inviare loro messaggi da altri numeri con cui stai utilizzando l’invio di messaggi di testo [!DNL Journey Optimizer].
-
-   >[!NOTE]
-   >
-   >In entrata [!DNL Journey Optimizer], la rinuncia ai messaggi di testo non viene più gestita a livello di canale. Ora è specifico per un numero.
-
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. Potete anche salvare la superficie di canale come sformo e riprenderne la configurazione in un secondo momento.
 
    ![](assets/sms-submit-surface.png)
 
-1. Una volta creata la superficie di canale, questa viene visualizzata nell’elenco con **[!UICONTROL Elaborazione]** stato.
+1. Una volta creata, la superficie di canale viene visualizzata nell&#39;elenco con lo stato **[!UICONTROL Elaborazione]**.
 
    >[!NOTE]
    >
-   >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi dell’errore in [questa sezione](#monitor-channel-surfaces).
+   >Se i controlli non hanno esito positivo, ulteriori informazioni sui possibili motivi di errore in [questa sezione](#monitor-channel-surfaces).
 
-1. Quando i controlli hanno esito positivo, la superficie di canale riceve **[!UICONTROL Attivo]** stato. È pronto per essere utilizzato per inviare messaggi.
+1. Una volta completati i controlli, la superficie di canale ottiene lo stato **[!UICONTROL Attivo]**. È pronto per essere utilizzato per inviare messaggi.
 
    ![](assets/preset-active.png)
 
