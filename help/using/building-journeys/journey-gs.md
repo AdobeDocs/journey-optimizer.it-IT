@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: a7234350c0ca66d033bbbd77c1b14063147468cf
 workflow-type: tm+mt
 source-wordcount: '1244'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 22%
 
 Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 
-1. **Configurare un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. È possibile definire le informazioni previste e le modalità di elaborazione. Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
+1. **Configura un evento**: se desideri attivare i percorsi in modo unitario quando viene ricevuto un evento, devi configurare un evento. È possibile definire le informazioni previste e le modalità di elaborazione. Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../event/about-events.md).
 
    ![](assets/jo-event7bis.png)
 
-1. **Creare un pubblico**: il tuo percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. A questo scopo, devi creare dei tipi di pubblico. [Ulteriori informazioni](../audience/about-audiences.md).
+1. **Creazione di un pubblico**: il tuo percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. A questo scopo, devi creare dei tipi di pubblico. [Ulteriori informazioni](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
-1. **Configurare l’origine dati**: è possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
+1. **Configurare l&#39;origine dati**: è possibile definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni. Al momento del provisioning, viene configurata anche un’origine dati integrata in Adobe Experience Platform. Se sfrutti solo i dati degli eventi del tuo percorso, questo passaggio non è necessario Questo passaggio viene eseguito da un **utente tecnico**. [Ulteriori informazioni](../datasource/about-data-sources.md)
 
    ![](assets/jo-datasource.png)
 
-1. **Configurare un’azione**: se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md). Questo passaggio viene eseguito da un **utente tecnico**. Se utilizzi le funzionalità per messaggi integrate di Journey Optimizer, devi solo aggiungere un’azione di canale al percorso e progettare il contenuto.
+1. **Configura un&#39;azione**: se utilizzi un sistema di terze parti per l&#39;invio dei messaggi, puoi creare un&#39;azione personalizzata. Ulteriori informazioni in questa [sezione](../action/action.md). Questo passaggio viene eseguito da un **utente tecnico**. Se utilizzi le funzionalità per messaggi integrate di Journey Optimizer, devi solo aggiungere un’azione di canale al percorso e progettare il contenuto.
 
    ![](assets/custom2.png)
 
@@ -55,12 +55,12 @@ Per inviare messaggi con i percorsi, sono necessarie le seguenti configurazioni:
 
 Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede:
 
-**Panoramica**: in questa scheda viene visualizzato un dashboard con le metriche chiave correlate ai percorsi:
+**Panoramica**: in questa scheda viene visualizzato un dashboard con le metriche chiave relative ai tuoi percorsi:
 
 * **Profili elaborati**: numero totale di profili elaborati nelle ultime 24 ore
-* **Percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi live includono **Percorsi unitari** (basato su eventi) e **Percorsi batch** (pubblico di lettura).
-* **Percentuale di errori**: rapporto tra tutti i profili con errore e il numero totale di profili immessi nelle ultime 24 ore.
-* **Percentuale di eliminazione**: rapporto tra tutti i profili scartati e il numero totale di profili immessi nelle ultime 24 ore. Un profilo scartato rappresenta un utente non idoneo per l’accesso al percorso, ad esempio a causa di uno spazio dei nomi errato o di regole di rientro.
+* **percorsi live**: numero totale di percorsi live con traffico nelle ultime 24 ore. I percorsi attivi includono **percorsi unitari** (basati su eventi) e **percorsi batch** (pubblico di lettura).
+* **Frequenza errori**: rapporto tra tutti i profili con errore e il numero totale di profili immessi nelle ultime 24 ore.
+* **Percentuale di eliminazione**: rapporto tra tutti i profili eliminati e il numero totale di profili immessi nelle ultime 24 ore. Un profilo scartato rappresenta un utente non idoneo per l’accesso al percorso, ad esempio a causa di uno spazio dei nomi errato o di regole di rientro.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 ![](assets/journeys-dashboard.png)
 
-**Sfoglia**: in questa scheda viene visualizzato l’elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. È ad esempio possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
+**Sfoglia**: questa scheda visualizza l&#39;elenco dei percorsi esistenti. Puoi cercare percorsi, utilizzare filtri ed eseguire azioni di base su ciascun elemento. È ad esempio possibile duplicare o eliminare un elemento. Per ulteriori informazioni, consulta [questa sezione](../start/user-interface.md#filter-lists).
 
 ![](assets/journeys-browse.png)
 
@@ -80,32 +80,32 @@ Nell’elenco dei percorsi, puoi sfruttare diversi filtri per perfezionare l’e
 
 Di seguito sono elencate le varie operazioni di filtro che è possibile eseguire:
 
-Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dal **[!UICONTROL Filtri di stato e di versione]**.
+Filtra i percorsi in base al loro stato, tipo, versione e tag assegnati dai **[!UICONTROL filtri di stato e versione]**.
 
 Il tipo può essere: **[!UICONTROL Evento unitario]**, **[!UICONTROL Qualificazione del pubblico]**, **[!UICONTROL Read audience]** o **[!UICONTROL Evento di business]**.
 
 Lo stato può essere:
 
-* **Chiuso**: il percorso è stato chiuso utilizzando **Chiudi ai nuovi ingressi** pulsante. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
-* **Bozza**: il percorso è alla sua prima fase. Non è ancora stato pubblicato.
-* **Bozza (prova)**: la modalità di test è stata attivata utilizzando **Modalità di test** pulsante.
-* **Completato**: il percorso passa automaticamente a questo stato dopo 91 giorni [timeout globale](journey-properties.md#global_timeout). I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
-* **Live**: il percorso è stato pubblicato utilizzando **Pubblica** pulsante.
-* **Interrotto**: il percorso è stato spento utilizzando **Interrompi** pulsante. Tutti gli individui escono immediatamente dal percorso.
+* **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente.
+* **Bozza**: il percorso è nella prima fase. Non è ancora stato pubblicato.
+* **Bozza (Test)**: la modalità di test è stata attivata utilizzando il pulsante **Modalità di test**.
+* **Fine**: il percorso passa automaticamente a questo stato dopo il [timeout globale](journey-properties.md#global_timeout) di 91 giorni. I profili già presenti nel percorso completano normalmente il percorso. I nuovi profili non possono più entrare nel percorso.
+* **Live**: il percorso è stato pubblicato utilizzando il pulsante **Publish**.
+* **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso.
 
 >[!NOTE]
 >
 >Il ciclo di vita di authoring del Percorso include anche un set di stati intermedi che non sono disponibili per il filtro: &quot;Pubblicazione&quot; (tra &quot;Bozza&quot; e &quot;Live&quot;), &quot;Attivazione modalità di test&quot; o &quot;Disattivazione modalità di test&quot; (tra &quot;Bozza&quot; e &quot;Bozza (test)&quot;) e &quot;Interruzione&quot; (tra &quot;Live&quot; e &quot;Interrotto&quot;). Quando un percorso si trova in uno stato intermedio, è di sola lettura.
 
-Utilizza il **[!UICONTROL Creazione di filtri]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
+Utilizza **[!UICONTROL Creation filters]** per filtrare i percorsi in base alla data di creazione o all&#39;utente che li ha creati.
 
-Visualizza i percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifica del **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri dati]**.
+Visualizza percorsi che utilizzano un evento, un gruppo di campi o un&#39;azione specifica dei **[!UICONTROL Filtri di attività]** e **[!UICONTROL Filtri di dati]**.
 
-Utilizza il **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
+Utilizza **[!UICONTROL Filtri di pubblicazione]** per selezionare una data di pubblicazione o un utente. Ad esempio, puoi scegliere di visualizzare le versioni più recenti dei percorsi live pubblicati ieri.
 
-Per filtrare i percorsi in base a un intervallo di date specifico, seleziona **[!UICONTROL Personalizzato]** dal **[!UICONTROL Pubblicato]** elenco a discesa.
+Per filtrare i percorsi in base a un intervallo di date specifico, seleziona **[!UICONTROL Personalizzato]** dall&#39;elenco a discesa **[!UICONTROL Pubblicato]**.
 
-Inoltre, nei riquadri di configurazione Evento, Origine dati e Azione, il **[!UICONTROL Utilizzato in]** in questo campo viene visualizzato il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
+Inoltre, nei riquadri di configurazione dell&#39;evento, dell&#39;origine dati e dell&#39;azione, il campo **[!UICONTROL Usato in]** mostra il numero di percorsi che utilizzano quel particolare evento, gruppo di campi o azione. Per visualizzare l’elenco dei percorsi corrispondenti, puoi fare clic sul pulsante **[!UICONTROL Visualizza percorsi]**.
 
 ![](assets/journey3bis.png)
 
@@ -117,7 +117,7 @@ Progetta percorsi per offrire esperienze personalizzate e contestuali. [!DNL Jou
 
 * Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
 
-* Utilizza il **azioni del canale incorporate** (E-mail, SMS, push, inApp) per inviare messaggi progettati in [!DNL Journey Optimizer] o creare **azioni personalizzate** se utilizzi un sistema di terze parti per l’invio dei messaggi.
+* Utilizza le **azioni canale integrate** (e-mail, SMS, push, in-app) per inviare messaggi progettati in [!DNL Journey Optimizer] oppure, se utilizzi un sistema di terze parti per l’invio dei messaggi, crea **azioni personalizzate**.
 
 * Con **journey designer**, genera casi d’uso a più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
 
@@ -125,41 +125,41 @@ Progetta percorsi per offrire esperienze personalizzate e contestuali. [!DNL Jou
 
 Di seguito sono elencati i passaggi per l’invio di messaggi tramite percorsi:
 
-1. Dalla sezione **Sfoglia** , fare clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
+1. Dalla scheda **Sfoglia**, fare clic su **[!UICONTROL Crea Percorso]** per creare un nuovo percorso.
 
-1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Scopri come impostare le proprietà del percorso in questo [questa pagina](journey-properties.md).
+1. Modifica le proprietà del percorso nel riquadro di configurazione visualizzato sul lato destro. Scopri come impostare le proprietà del percorso in questa [pagina](journey-properties.md).
 
    ![](assets/jo-properties.png)
 
-1. Per iniziare, trascina e rilascia un evento o una **Read Audience** dalla palette all’area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, fare riferimento a [questa sezione](using-the-journey-designer.md).
+1. Per iniziare, trascina un evento o un&#39;attività **Read Audience** dalla palette nell&#39;area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, consulta [questa sezione](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
 1. Trascina e rilascia i passaggi successivi che il singolo utente seguirà. Ad esempio, puoi aggiungere una condizione seguita da un’azione di canale. Per ulteriori informazioni sulle attività, consulta [questa sezione](using-the-journey-designer.md).
 
-1. Verifica il percorso utilizzando i profili di test. Ulteriori informazioni [sezione](testing-the-journey.md)
+1. Verifica il percorso utilizzando i profili di test. Ulteriori informazioni in questa [sezione](testing-the-journey.md)
 
-1. Pubblica il percorso per attivarlo. Ulteriori informazioni [sezione](publishing-the-journey.md).
+1. Publish il percorso per attivarlo. Ulteriori informazioni in questa [sezione](publishing-the-journey.md).
 
    ![](assets/jo-journeyuc2_32bis.png)
 
-1. Monitora il tuo percorso utilizzando gli strumenti di reporting dedicati per misurare l’efficacia del percorso. Ulteriori informazioni [sezione](../reports/live-report.md).
+1. Monitora il tuo percorso utilizzando gli strumenti di reporting dedicati per misurare l’efficacia del percorso. Ulteriori informazioni in questa [sezione](../reports/live-report.md).
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
 
 ## Duplicare un percorso {#duplicate-a-journey}
 
-È possibile duplicare un percorso esistente da **Sfoglia** scheda. Tutti gli oggetti e le impostazioni vengono duplicati nella copia di percorso.
+Puoi duplicare un percorso esistente dalla scheda **Sfoglia**. Tutti gli oggetti e le impostazioni vengono duplicati nella copia di percorso.
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. Passare al percorso che si desidera copiare, fare clic sul pulsante **Altre azioni** (i tre punti accanto al nome del percorso).
+1. Passa al percorso da copiare, fai clic sull&#39;icona **Altre azioni** (i tre punti accanto al nome del percorso).
 1. Seleziona **Duplica**.
 
-   ![Duplicare un percorso](assets/duplicate-jo.png)
+   ![Duplica un percorso](assets/duplicate-jo.png)
 
-1. Inserisci il nome del percorso e conferma. È inoltre possibile modificare il nome nella schermata delle proprietà del percorso. Per impostazione predefinita, il nome viene impostato come segue: `[JOURNEY-NAME]_copy`
+1. Inserisci il nome del percorso e conferma. È inoltre possibile modificare il nome nella schermata delle proprietà del percorso. Per impostazione predefinita, il nome è impostato come segue: `[JOURNEY-NAME]_copy`
 
    ![](assets/duplicate-jo2.png)
 
