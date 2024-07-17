@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminare un posizionamento {#delete-placement}
 
-Occasionalmente può essere necessario rimuovere (DELETE) un posizionamento. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API che utilizza l’ID del posizionamento da eliminare.
+Occasionalmente può essere necessario rimuovere (DELETE) un posizionamento. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID del posizionamento che si desidera eliminare.
 
 **Formato API**
 

@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Per cercare offerte personalizzate specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include l’ID dell’offerta personalizzata nel percorso della richiesta.
+Per cercare offerte personalizzate specifiche, invia una richiesta GET all&#39;API [!DNL Offer Library] che include l&#39;ID offerta personalizzata nel percorso della richiesta.
 
 **Formato API**
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer123
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli dell’offerta personalizzata, comprese le informazioni sull’offerta personalizzata univoca `id`.
+In caso di esito positivo, la risposta restituisce i dettagli dell&#39;offerta personalizzata, incluse le informazioni sull&#39;offerta personalizzata univoca `id`.
 
 ```json
 {

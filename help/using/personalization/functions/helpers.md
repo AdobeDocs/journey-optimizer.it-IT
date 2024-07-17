@@ -9,7 +9,7 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 ## Valore di fallback predefinito{#default-value}
 
-Il `Default Fallback Value` helper viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi del profilo e gli eventi di Percorso.
+L&#39;helper `Default Fallback Value` viene utilizzato per restituire un valore di fallback predefinito se un attributo è vuoto o nullo. Questo meccanismo funziona per gli attributi del profilo e gli eventi di Percorso.
 
 **Sintassi**
 
@@ -25,11 +25,11 @@ Il `Default Fallback Value` helper viene utilizzato per restituire un valore di 
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-In questo esempio, il valore `there` viene visualizzato se `firstName` l&#39;attributo di questo profilo è vuoto o nullo.
+In questo esempio, il valore `there` viene visualizzato se l&#39;attributo `firstName` di questo profilo è vuoto o nullo.
 
 ## Condizioni{#if-function}
 
-Il `if` helper viene utilizzato per definire un blocco condizionale.
+L&#39;helper `if` viene utilizzato per definire un blocco condizionale.
 Se la valutazione dell’espressione restituisce true, il blocco viene renderizzato, altrimenti viene saltato.
 
 **Sintassi**
@@ -39,8 +39,8 @@ Se la valutazione dell’espressione restituisce true, il blocco viene renderizz
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Dopo il `if` helper, puoi immettere un `else` per specificare un blocco di codice da eseguire, se la stessa condizione è false.
-Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se la prima istruzione restituisce false.
+Dopo l&#39;helper `if`, è possibile immettere un&#39;istruzione `else` per specificare un blocco di codice da eseguire, se la stessa condizione è false.
+L&#39;istruzione `elseif` specificherà una nuova condizione da verificare se la prima istruzione restituisce false.
 
 
 **Formato**
@@ -58,7 +58,7 @@ Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se
 
 **Esempi**
 
-1. **Eseguire il rendering di diversi collegamenti store in base alle espressioni condizionali**
+1. **Eseguire il rendering di collegamenti archivio diversi in base alle espressioni condizionali**
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se
    {%/if%}
    ```
 
-1. **Determinare l’estensione dell’indirizzo e-mail**
+1. **Determinare l&#39;estensione dell&#39;indirizzo di posta elettronica**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -94,7 +94,7 @@ Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se
    {%/if%}
    ```
 
-1. **Contenuto condizionale basato sull’iscrizione al pubblico**
+1. **Contenuto condizionale basato sull&#39;appartenenza al pubblico**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ Il `elseif` L&#39;istruzione specificherà una nuova condizione da verificare se
 
 >[!NOTE]
 >
->Per ulteriori informazioni sui tipi di pubblico e sul servizio di segmentazione, consulta questa pagina [sezione](../../audience/about-audiences.md).
+>Per ulteriori informazioni sui tipi di pubblico e sul servizio di segmentazione, consulta questa [sezione](../../audience/about-audiences.md).
 
 
-## A meno che{#unless}
+## Unless{#unless}
 
-Il `unless` helper viene utilizzato per definire un blocco condizionale. In opposizione alla proposta `if`  helper, se la valutazione dell’espressione restituisce false, viene eseguito il rendering del blocco.
+L&#39;helper `unless` viene utilizzato per definire un blocco condizionale. In opposizione all&#39;helper `if`, se la valutazione dell&#39;espressione restituisce false, viene eseguito il rendering del blocco.
 
 **Sintassi**
 
@@ -131,11 +131,11 @@ Some edu specific content Content
 {%/unless%}
 ```
 
-## Ogni{#each}
+## Each{#each}
 
-Il `each` helper viene utilizzato per eseguire iterazioni su un array.
-La sintassi dell’helper è ```{{#each ArrayName}}``` Contenuto {{/each}}
-È possibile fare riferimento ai singoli elementi array utilizzando la parola chiave **questo** all&#39;interno del blocco. È possibile eseguire il rendering dell’indice dell’elemento dell’array utilizzando {{@index}}.
+L&#39;helper `each` viene utilizzato per eseguire l&#39;iterazione su un array.
+La sintassi dell&#39;helper è ```{{#each ArrayName}}``` YourContent {{/each}}
+È possibile fare riferimento ai singoli elementi array utilizzando la parola chiave **this** all&#39;interno del blocco. È possibile eseguire il rendering dell&#39;indice dell&#39;elemento dell&#39;array utilizzando {{@index}}.
 
 **Sintassi**
 
@@ -165,9 +165,9 @@ Esegui il rendering di un elenco di prodotti che questo utente ha nel carrello:
 {{/each}}
 ```
 
-## Con{#with}
+## With{#with}
 
-Il `with` helper viene utilizzato per modificare il token di valutazione della parte modello.
+L&#39;helper `with` viene utilizzato per modificare il token di valutazione della parte modello.
 
 **Sintassi**
 
@@ -177,7 +177,7 @@ Il `with` helper viene utilizzato per modificare il token di valutazione della p
 {{/with}}
 ```
 
-Il `with` helper è utile anche per definire una variabile di scelta rapida.
+L&#39;helper `with` è utile anche per definire una variabile di collegamento.
 
 **Esempio**
 
@@ -192,7 +192,7 @@ Da utilizzare con per l’aliasing di nomi di variabili lunghi a nomi più brevi
 
 ## Let{#let}
 
-Il `let` consente di memorizzare un’espressione come variabile da utilizzare successivamente in una query.
+La funzione `let` consente di archiviare un&#39;espressione come variabile da utilizzare successivamente in una query.
 
 **Sintassi**
 

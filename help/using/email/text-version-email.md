@@ -24,7 +24,7 @@ Per impostazione predefinita, E-mail Designer crea una versione **[!UICONTROL Te
 
 Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
 
-1. Dall’e-mail, seleziona la **[!UICONTROL Testo normale]** icona.
+1. Dall&#39;e-mail, seleziona l&#39;icona **[!UICONTROL Testo normale]**.
 
    ![](assets/text_version_3.png)
 
@@ -42,4 +42,4 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 >
 >* Le modifiche apportate nella vista **[!UICONTROL Testo normale]** non vengono applicate alla visualizzazione HTML.
 >
->* Se si riattiva il **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e sostituite con il contenuto di testo generato dalla versione di HTML.
+>* Se riattivi l&#39;opzione **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione di HTML.

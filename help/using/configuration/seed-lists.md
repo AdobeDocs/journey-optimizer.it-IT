@@ -12,13 +12,13 @@ exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
 workflow-type: tm+mt
 source-wordcount: '959'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
 # Utilizzare gli elenchi seed {#seed-lists}
 
-Elenchi seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi di seed specifici nelle consegne.
+Gli elenchi di seed in [!DNL Journey Optimizer] consentono di includere automaticamente indirizzi di seed specifici nelle consegne.
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Gli indirizzi di seed non sono profili reali né profili di test in quanto non i
 
 ## Accedere agli elenchi di seed {#access-seed-lists}
 
-Per accedere agli elenchi di seed già creati, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, e seleziona **[!UICONTROL Elenco seed]**.
+Per accedere agli elenchi di seed già creati, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** e seleziona **[!UICONTROL Elenco di seed]**.
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ Per accedere agli elenchi di seed già creati, vai a **[!UICONTROL Amministrazio
 
 >[!CAUTION]
 >
->Per poter visualizzare, modificare e gestire gli elenchi di seed, è necessario disporre del **[!UICONTROL Gestisci elenco seed]** autorizzazione.
+>Per visualizzare, modificare e gestire gli elenchi di seed, è necessario disporre dell&#39;autorizzazione **[!UICONTROL Gestione elenco di seed]**.
 
 ![](assets/seed-list-access.png)
 
@@ -69,11 +69,11 @@ Puoi cercare gli elenchi di seed per nome e/o filtro in base all’utente che ha
 
 ![](assets/seed-list-filtering.png)
 
-Utilizza il **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
+Utilizza il pulsante **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 
 >[!CAUTION]
 >
->Non è possibile eliminare un elenco di seed utilizzato in un [campagna](../campaigns/review-activate-campaign.md) o [percorso](../building-journeys/publishing-the-journey.md). È necessario disattivare la campagna/il percorso o modificarlo per utilizzare un&#39;altra superficie che non abbia selezionato l&#39;elenco di seed. [Ulteriori informazioni sull&#39;utilizzo di un elenco di seed](#use-seed-list)
+>Impossibile eliminare un elenco di seed utilizzato in una [campagna](../campaigns/review-activate-campaign.md) o [percorso](../building-journeys/publishing-the-journey.md) attiva. È necessario disattivare la campagna/il percorso o modificarlo per utilizzare un&#39;altra superficie che non abbia selezionato l&#39;elenco di seed. [Ulteriori informazioni sull&#39;utilizzo di un elenco di seed](#use-seed-list)
 
 È possibile fare clic sul nome di un elenco di seed per modificarlo. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,9 +92,9 @@ Utilizza il **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 
 Per creare un elenco di seed, attieniti alla procedura seguente.
 
-1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco seed]** menu.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco seed]**.
 
-1. Seleziona la **[!UICONTROL Crea elenco seed]** pulsante.
+1. Selezionare il pulsante **[!UICONTROL Crea elenco seed]**.
 
    ![](assets/seed-list-create-button.png)
 
@@ -122,7 +122,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile combinare entrambe le opzioni, ma il numero totale di indirizzi in un elenco di seed non può superare i 50.
 
-1. Clic **[!UICONTROL Crea]** per confermare. L’elenco dei valori iniziali appena creato viene visualizzato nel [Schermata Elenco seed](#access-seed-lists).
+1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [](#access-seed-lists).
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 
@@ -132,9 +132,9 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 >
 >I messaggi inviati agli indirizzi seed non sono inclusi nei rapporti di percorso o di campagna.
 
-1. Create una superficie e selezionate **[!UICONTROL E-mail]** canale. [Ulteriori informazioni](../email/email-settings.md)
+1. Crea una superficie e seleziona il canale **[!UICONTROL E-mail]**. [Ulteriori informazioni](../email/email-settings.md)
 
-1. Selezionare l&#39;elenco di seed desiderato nel [sezione corrispondente](../email/email-settings.md#seed-list).
+1. Seleziona l&#39;elenco di seed desiderato nella [sezione corrispondente](../email/email-settings.md#seed-list).
 
    >[!NOTE]
    >
@@ -144,13 +144,13 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 
 1. Sottomettere la superficie.
 
-1. Creare un [campagna](../campaigns/create-campaign.md) o un [percorso](../building-journeys/journey-gs.md).
+1. Crea una [campagna](../campaigns/create-campaign.md) o un [percorso](../building-journeys/journey-gs.md).
 
-1. Seleziona la **[!UICONTROL E-mail]** e seleziona la [superficie](channel-surfaces.md) incluso l’elenco di seed che è rilevante per te.
+1. Seleziona l&#39;azione **[!UICONTROL Invia e-mail]** e seleziona la [superficie](channel-surfaces.md), incluso l&#39;elenco seed che ritieni rilevante.
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Attiva [campagna](../campaigns/review-activate-campaign.md) o pubblicare [percorso](../building-journeys/publishing-the-journey.md).
+1. Attiva la [campagna](../campaigns/review-activate-campaign.md) o pubblica il [percorso](../building-journeys/publishing-the-journey.md).
 
 Ora, ogni volta che un messaggio e-mail viene inviato ai clienti tramite tale campagna o percorso, anche gli indirizzi e-mail nell’elenco di seed selezionato lo riceveranno nelle stesse condizioni, contemporaneamente e con lo stesso contenuto dei destinatari target.
 

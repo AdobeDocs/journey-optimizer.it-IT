@@ -14,17 +14,17 @@ ht-degree: 23%
 
 # Testare il rendering delle e-mail {#email-rendering}
 
-Puoi sfruttare **Litmus** account in [!DNL Journey Optimizer] per visualizzare immediatamente l&#39;anteprima **rendering di e-mail** nei client e-mail più diffusi. Puoi quindi verificare che il contenuto dell’e-mail si presenti e funzioni correttamente in ogni casella in entrata.
+Puoi sfruttare il tuo account **Litmus** in [!DNL Journey Optimizer] per visualizzare all&#39;istante l&#39;anteprima del **rendering di e-mail** nei client e-mail più diffusi. Puoi quindi verificare che il contenuto dell’e-mail si presenti e funzioni correttamente in ogni casella in entrata.
 
 Per verificare il rendering di e-mail, effettua le seguenti operazioni:
 
-1. Dalla schermata di modifica del contenuto del messaggio o in E-mail Designer, fai clic su **[!UICONTROL Simula contenuto]** pulsante.
+1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
 1. Seleziona il pulsante **[!UICONTROL Rendering dell’e-mail]**.
 
    ![](../email/assets/email-rendering-button.png)
 
-1. Clic **Connetti il tuo account Litmus** nella sezione superiore destra.
+1. Fai clic su **Connetti il tuo account Litmus** nella sezione superiore destra.
 
    ![](../email/assets/email-rendering-litmus.png)
 
@@ -40,4 +40,4 @@ Per verificare il rendering di e-mail, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Quando si collega **Litmus** account con [!DNL Journey Optimizer], accetti che i messaggi di prova vengano inviati a Litmus: una volta inviati, questi messaggi non vengono più gestiti da Adobe. Di conseguenza, i criteri di conservazione dei dati Litmus si applicano a queste e-mail, inclusi i dati di personalizzazione che possono essere inclusi in questi messaggi di test.
+>Quando connetti il tuo account **Litmus** con [!DNL Journey Optimizer], accetti che i messaggi di prova vengano inviati a Litmus: una volta inviati, questi messaggi non vengono più gestiti da Adobe. Di conseguenza, i criteri di conservazione dei dati Litmus si applicano a queste e-mail, inclusi i dati di personalizzazione che possono essere inclusi in questi messaggi di test.

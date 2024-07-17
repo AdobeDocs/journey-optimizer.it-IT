@@ -11,7 +11,7 @@ exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -45,9 +45,9 @@ Tipo: stringa
 
 Valori:
 * http
-* limite
+* limiti
 * timeout
-* error
+* errore
 
 ## fetchErrorCode {#fetcherrorcode-field}
 
@@ -77,7 +77,7 @@ Tipo: stringa
 
 ## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
-Il codice di errore fornito dal sistema [!DNL Journey Optimizer] sta eseguendo una query. Ad esempio, può essere un 404, 500, ecc.
+È in corso la query del codice di errore fornito dal sistema [!DNL Journey Optimizer]. Ad esempio, può essere un 404, 500, ecc.
 
 Tipo: stringa
 

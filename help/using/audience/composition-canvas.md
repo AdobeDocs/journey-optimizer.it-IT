@@ -29,24 +29,24 @@ I passaggi per comporre un pubblico nell’area di lavoro sono i seguenti:
 
 1. [Definisci i tipi di pubblico iniziali](#starting-audience)
 1. [Aggiungi una o più attività](#action-activities)
-1. [Salvare i risultati in un nuovo pubblico](#save)
+1. [Salva i risultati in un nuovo pubblico](#save)
 
 ## Selezionare il pubblico iniziale {#starting-audience}
 
 Il primo passaggio per creare una composizione consiste nel selezionare uno o più tipi di pubblico esistenti come base della composizione.
 
-1. Seleziona la **[!UICONTROL Pubblico]** quindi fornire un’etichetta per l’attività.
+1. Seleziona l&#39;attività **[!UICONTROL Pubblico]** e fornisci un&#39;etichetta per l&#39;attività.
 
 1. Scegli il pubblico di destinazione:
 
-   * Fai clic su **[!UICONTROL Aggiungi pubblico]** per selezionare uno o più tipi di pubblico esistenti,
-   * Fai clic su **[!UICONTROL Genera regola]** per creare una nuova definizione di pubblico utilizzando [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
+   * Fai clic sul pulsante **[!UICONTROL Aggiungi pubblico]** per selezionare uno o più tipi di pubblico esistenti.
+   * Fai clic sul pulsante **[!UICONTROL Genera regola]** per creare una nuova definizione di pubblico utilizzando il [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
    ![](assets/audiences-choose-audience.png)
 
 1. Se sono selezionati più tipi di pubblico, specifica come unire i profili di tali tipi di pubblico:
 
-* **[!UICONTROL Union]**: include tutti i profili dei tipi di pubblico selezionati,
+* **[!UICONTROL Unione]**: includi tutti i profili dei tipi di pubblico selezionati,
 * **[!UICONTROL Intersezione]**: include profili comuni a tutti i tipi di pubblico selezionati,
 * **[!UICONTROL Escludi sovrapposizione]**: includi i profili che appartengono a uno solo dei tipi di pubblico. I profili appartenenti a più di un pubblico non verranno inclusi.
 
@@ -66,13 +66,13 @@ A questo scopo, fai clic sul pulsante + sul percorso della composizione, quindi 
 
 Le attività disponibili sono:
 
-* [Pubblico](#audience): includere profili aggiuntivi appartenenti a uno o più tipi di pubblico esistenti,
-* [Escludi](#exclude): escludi profili appartenenti a un pubblico esistente o escludi profili basati su attributi specifici,
-* [Arricchire](#enrich): arricchisci il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform,
-* [Classifica](#rank): classifica i profili in base a un attributo specifico, specifica il numero di profili da mantenere e includerli nella composizione,
-* [Dividi](#split): divide la composizione in più percorsi in base a percentuali casuali o ad attributi.
+* [Pubblico](#audience): includi profili aggiuntivi appartenenti a uno o più tipi di pubblico esistenti,
+* [Escludi](#exclude): escludi i profili appartenenti a un pubblico esistente o escludi i profili basati su attributi specifici,
+* [Arricchisci](#enrich): arricchisci il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform,
+* [Classificazione](#rank): classifica i profili in base a un attributo specifico, specifica il numero di profili da mantenere e includerli nella composizione,
+* [Dividi](#split): dividi la composizione in più percorsi in base a percentuali casuali o ad attributi.
 
-Puoi aggiungerne altrettanti **[!UICONTROL Pubblico]** e **[!UICONTROL Escludi]** attività necessarie nella composizione. Tuttavia, non è possibile aggiungere alcuna attività dopo **[!UICONTROL Classifica]** e **[!UICONTROL Dividi]** attività.
+Puoi aggiungere tutte le **[!UICONTROL attività Pubblico]** e **[!UICONTROL Escludi]** necessarie nella composizione. Tuttavia, non è possibile aggiungere altre attività dopo le attività **[!UICONTROL Classifica]** e **[!UICONTROL Dividi]**.
 
 Puoi rimuovere un’attività dall’area di lavoro in qualsiasi momento facendo clic sul pulsante Elimina nel riquadro a destra.  Se l’attività che desideri eliminare è padre di altre attività nella composizione, viene visualizzato un messaggio che ti consente di specificare se desideri eliminare solo l’attività selezionata o tutte le relative attività figlio.
 
@@ -88,9 +88,9 @@ Puoi rimuovere un’attività dall’area di lavoro in qualsiasi momento facendo
 >title="Tipi di unione"
 >abstract="Specifica come devono essere uniti i profili dei tipi di pubblico selezionati."
 
-Il **[!UICONTROL Pubblico]** attività ti consente di includere nella composizione ulteriori profili appartenenti a un pubblico esistente.
+L&#39;attività **[!UICONTROL Pubblico]** ti consente di includere nella composizione ulteriori profili appartenenti a un pubblico esistente.
 
-La configurazione di questa attività è identica a quella iniziale [Attività del pubblico](#starting-audience).
+La configurazione di questa attività è identica a quella della [attività Pubblico](#starting-audience) iniziale.
 
 ### Attività di esclusione {#exclude}
 
@@ -104,15 +104,15 @@ La configurazione di questa attività è identica a quella iniziale [Attività d
 >title="Attività di esclusione"
 >abstract="L’attività di esclusione consente di escludere i profili dalla composizione selezionando un pubblico esistente o utilizzando una regola."
 
-Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla composizione. Sono disponibili due tipi di esclusione:
+L&#39;attività **[!UICONTROL Escludi]** ti consente di escludere i profili dalla composizione. Sono disponibili due tipi di esclusione:
 
 * **[!UICONTROL Escludi pubblico]**: escludi i profili appartenenti a un pubblico esistente.
 
-  Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi selezionare il pubblico da escludere.
+  Fai clic sul pulsante **[!UICONTROL Aggiungi pubblico]**, quindi seleziona il pubblico da escludere.
 
   ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL Escludi con attributo]**: escludi i profili basati su un attributo specifico.
+* **[!UICONTROL Escludi con attributo]**: escludi i profili in base a un attributo specifico.
 
   Seleziona l’attributo da cercare, quindi specifica il valore da escludere. In questo esempio, escludiamo dai profili di composizione il cui indirizzo principale è in Giappone.
 
@@ -144,22 +144,22 @@ Il **[!UICONTROL Escludi]** attività ti consente di escludere profili dalla com
 >title="Attributi di arricchimento"
 >abstract="Seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico. Una volta pubblicata la composizione, questi attributi sono associati al pubblico e possono essere utilizzati nelle campagne Journey Optimizer per personalizzare le consegne."
 
-Il **[!UICONTROL Arricchire]** attività ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
+L&#39;attività **[!UICONTROL Arricchisci]** ti consente di arricchire il pubblico con attributi aggiuntivi provenienti dai set di dati di Adobe Experience Platform. Ad esempio, puoi aggiungere informazioni relative al prodotto acquistato come nome, prezzo o ID produttore e sfruttarle per personalizzare le consegne inviate al pubblico.
 
-Tieni presente le seguenti limitazioni quando lavori con **[!UICONTROL Arricchire]** attività:
+Tieni presente le seguenti limitazioni quando utilizzi l&#39;attività **[!UICONTROL Arricchisci]**:
 
-* **Set di dati** per l’arricchimento deve essere di tipo record (anziché di tipo evento) e non può essere un set di dati di sistema né essere contrassegnato per il profilo. Devono essere inferiori a 1 GB.
-* **L’arricchimento supporta un join 1:1**. Ciò significa che se le chiavi di join hanno più di una corrispondenza nel set di dati di arricchimento, il sistema seleziona una delle corrispondenze e la utilizza per il join 1:1.
+* **I set di dati** per l&#39;arricchimento devono essere di tipo record (anziché di tipo evento) e non possono essere un set di dati di sistema né contrassegnati per il profilo. Devono essere inferiori a 1 GB.
+* **L&#39;arricchimento supporta un join 1:1**. Ciò significa che se le chiavi di join hanno più di una corrispondenza nel set di dati di arricchimento, il sistema seleziona una delle corrispondenze e la utilizza per il join 1:1.
 * **I tipi di pubblico possono essere attivati nelle destinazioni RTCDP**, ma gli eventuali attributi di arricchimento non possono.
 * Gli attributi di arricchimento non sono ancora integrati con il servizio di applicazione dei criteri. Pertanto, eventuali etichette di utilizzo dei dati applicate agli attributi di arricchimento non verranno applicate nelle campagne o nei percorsi Journey Optimizer.
 
 Per configurare l’attività, effettua le seguenti operazioni:
 
-1. Seleziona la **[!UICONTROL Set di dati di arricchimento]** contenente i dati che desideri associare al pubblico.
+1. Selezionare il **[!UICONTROL set di dati di arricchimento]** contenente i dati che si desidera associare al pubblico.
 
-1. In **[!UICONTROL Criteri di arricchimento]** , seleziona i campi da utilizzare come chiave di riconciliazione tra il set di dati di origine, ovvero il pubblico, e il set di dati di arricchimento. In questo esempio, utilizziamo l’ID del prodotto acquistato come chiave di riconciliazione.
+1. Nella sezione **[!UICONTROL Criteri di arricchimento]**, seleziona i campi da utilizzare come chiave di riconciliazione tra il set di dati di origine, ovvero il pubblico, e il set di dati di arricchimento. In questo esempio, utilizziamo l’ID del prodotto acquistato come chiave di riconciliazione.
 
-1. Fai clic su **[!UICONTROL Aggiungi attributi]** quindi seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico.
+1. Fai clic sul pulsante **[!UICONTROL Aggiungi attributi]**, quindi seleziona uno o più attributi dal set di dati di arricchimento da associare al pubblico.
 
    ![](assets/audiences-enrich-activity.png)
 
@@ -177,15 +177,15 @@ Una volta pubblicata la composizione, gli attributi selezionati vengono associat
 >title="Aggiungere un limite di profili"
 >abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione."
 
-Il **[!UICONTROL Classifica]** attività ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con il maggior numero di punti fedeltà.
+L&#39;attività **[!UICONTROL Classifica]** ti consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con il maggior numero di punti fedeltà.
 
 1. Seleziona l’attributo da cercare e specifica un ordine di classificazione (crescente o decrescente).
 
    >[!NOTE]
    >
-   >È possibile selezionare gli attributi con i seguenti tipi di dati: numero intero, numero, breve <!--(other?)-->
+   >È possibile selezionare gli attributi con i seguenti tipi di dati: numero intero, numeri, <!--(other?)--> breve
 
-1. Attiva/disattiva **[!UICONTROL Aggiungi limite profilo]** e specificare un numero massimo di profili da includere nella composizione.
+1. Attiva l&#39;opzione **[!UICONTROL Aggiungi limite profilo]** e specifica un numero massimo di profili da includere nella composizione.
 
    ![](assets/audiences-rank.png)
 
@@ -211,36 +211,36 @@ Il **[!UICONTROL Classifica]** attività ti consente di classificare i profili i
 >title="Altri profili"
 >abstract="Attiva questa opzione per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi."
 
-Il **[!UICONTROL Dividi]** L’attività ti consente di dividere la composizione in più percorsi.
+L&#39;attività **[!UICONTROL Dividi]** consente di dividere la composizione in più percorsi.
 
-Questa operazione aggiunge automaticamente un **[!UICONTROL Salva]** attività alla fine di ciascun percorso. Quando pubblichi la composizione, viene salvato un pubblico per ogni percorso in Adobe Experience Platform.
+Questa operazione aggiunge automaticamente un&#39;attività **[!UICONTROL Salva]** alla fine di ogni percorso. Quando pubblichi la composizione, viene salvato un pubblico per ogni percorso in Adobe Experience Platform.
 
 Sono disponibili due tipi di operazioni di suddivisione:
 
-* **[!UICONTROL Divisione percentuale]**: i profili vengono suddivisi in modo casuale in due o più percorsi. Ad esempio, puoi suddividere i profili in 2 percorsi distinti del 50% ciascuno. <!--and add an additional path for control group.-->
+* **[!UICONTROL Percentuale divisa]**: dividi in modo casuale i profili in due o più percorsi. Ad esempio, puoi suddividere i profili in 2 percorsi distinti del 50% ciascuno. <!--and add an additional path for control group.-->
 
   ![](assets/audiences-split-percentage.png)
 
-* **[!UICONTROL Suddivisione attributi]**: suddivide i profili in base a un attributo specifico. In questo esempio, i profili vengono suddivisi in base alle preferenze per il tipo di stanza.
+* **[!UICONTROL Suddivisione attributo]**: suddivisione dei profili in base a un attributo specifico. In questo esempio, i profili vengono suddivisi in base alle preferenze per il tipo di stanza.
 
   ![](assets/audiences-split.png)
 
   Per impostare un’attività di suddivisione basata su attributi, effettua le seguenti operazioni:
 
-   1. Fai clic sul pulsante accanto al **[!UICONTROL Attributo]** per selezionare l&#39;attributo da utilizzare come criterio di suddivisione.
+   1. Fai clic sul pulsante accanto al campo **[!UICONTROL Attributo]** per selezionare l&#39;attributo da utilizzare come criterio di suddivisione.
    1. Aggiungi tutti i percorsi necessari. Per ogni percorso, fornisci un’etichetta e specifica il valore da utilizzare per determinare quali profili includere in quel particolare percorso.
 
       >[!NOTE]
       >
       >È possibile specificare un solo valore per ciascun percorso.
 
-   1. Attiva **[!UICONTROL Altri profili]** per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
+   1. Attiva l&#39;opzione **[!UICONTROL Altri profili]** per creare un percorso aggiuntivo con i profili rimanenti che non corrispondono a nessuna delle condizioni specificate negli altri percorsi.
 
 ## Salvare i tipi di pubblico {#save}
 
 Configura i tipi di pubblico risultanti che verranno salvati in Adobe Experience Platform.
 
-A questo scopo, seleziona la **[!UICONTROL Salva pubblico]** attività alla fine di ciascun percorso, quindi specifica il nome del nuovo pubblico da creare.
+A questo scopo, seleziona l&#39;attività **[!UICONTROL Salva pubblico]** alla fine di ogni percorso, quindi specifica il nome del nuovo pubblico da creare.
 
 ![](assets/audiences-publish.png)
 

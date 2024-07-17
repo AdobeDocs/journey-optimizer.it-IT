@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: count
+title: conteggio
 description: Scopri il conteggio delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ---
 
-# count {#count}
+# conteggio {#count}
 
 Conta gli elementi dell’elenco senza tenere conto dei valori nulli.
 
@@ -28,7 +28,7 @@ Aggregazione
 
 `count(<listObject>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

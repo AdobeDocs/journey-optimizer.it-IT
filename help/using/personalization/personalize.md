@@ -12,7 +12,7 @@ exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 21%
+ht-degree: 35%
 
 ---
 
@@ -21,32 +21,32 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="Personalizzare le esperienze"
->abstract="Utilizzare **Adobe Journey Optimizer** adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui si dispone su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato e altro ancora."
+>abstract="Utilizza **Adobe Journey Optimizer** per adattare i messaggi a ogni destinatario sfruttando i dati e le informazioni di cui disponi. Ad esempio, il nome del destinatario, i suoi interessi, dove vive, cosa ha comprato e altro ancora."
 
-Scoprire [!DNL Adobe Journey Optimizer] funzionalità di personalizzazione per adattare i messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Può essere il nome, gli interessi, dove vivono, cosa hanno comprato e altro ancora.
+Scopri le funzionalità di personalizzazione di [!DNL Adobe Journey Optimizer] per adattare i tuoi messaggi a ogni destinatario specifico sfruttando i dati e le informazioni di cui disponi su di essi. Ad esempio, il nome del destinatario, i suoi interessi, dove vive, cosa ha comprato e altro ancora.
 
 ➡️ [Scopri come personalizzare un messaggio in questi video](#video-perso)
-➡️ [Scopri i casi d’uso che sfruttano la personalizzazione](personalization-use-case.md)
+➡️ [Scopri i casi d&#39;uso che sfruttano la personalizzazione](personalization-use-case.md)
 
 ## Creare espressioni di personalizzazione utilizzando una sintassi dedicata {#syntax}
 
-[!DNL Journey Optimizer] utilizza un **in linea** sintassi di personalizzazione semplice basata su Handlebars che consente di creare espressioni con contenuti racchiusi tra parentesi graffe **{{}}**. È possibile aggiungere più espressioni nello stesso contenuto o campo senza limitazioni. [Ulteriori informazioni sulla sintassi di personalizzazione](personalization-syntax.md).
+[!DNL Journey Optimizer] utilizza una sintassi di personalizzazione **inline** semplice basata su Handlebars che consente di creare espressioni con contenuti racchiusi tra parentesi graffe **{{}}**. È possibile aggiungere più espressioni nello stesso contenuto o campo senza limitazioni. [Ulteriori informazioni sulla sintassi di personalizzazione](personalization-syntax.md).
 
 **Esempi:**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Durante l’elaborazione del messaggio (e-mail e push), Journey Optimizer sostituisce l’espressione con i dati contenuti nel database di Experienci Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` diventa Hello John Doe.
+Durante l&#39;elaborazione del messaggio (e-mail e push), Journey Optimizer sostituisce l&#39;espressione con i dati contenuti nel database di Experienci Platform: `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` diventa &quot;Hello John Doe&quot;.
 
 ## Sfruttare i dati del profilo per personalizzare i messaggi {#data}
 
-La personalizzazione si basa sui dati del profilo gestiti dallo schema **Profilo individuale XDM** definito in Adobe Experience Platform. Ulteriori informazioni in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+La personalizzazione si basa sui dati del profilo gestiti dallo schema **Profilo individuale XDM** definito in Adobe Experience Platform. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
 >[!CAUTION]
->Il **Profilo individuale XDM** schema è l’unico schema che puoi utilizzare per personalizzare il contenuto in [!DNL Journey Optimizer].
+>Lo schema **Profilo individuale XDM** è l&#39;unico schema utilizzabile per personalizzare il contenuto in [!DNL Journey Optimizer].
 
-Inoltre, puoi anche sfruttare **attributi calcolati** per personalizzare il contenuto. Gli attributi calcolati si basano sui set di dati Experience Event abilitati per il profilo acquisiti in Adobe Experience Platform e fungono da punti di dati aggregati memorizzati nei profili dei clienti che riepilogano i singoli eventi comportamentali [Scopri come utilizzare gli attributi calcolati](../audience/computed-attributes.md)
+Inoltre, puoi anche sfruttare **attributi calcolati** per personalizzare il contenuto. Gli attributi calcolati si basano sui set di dati Experience Event abilitati per il profilo acquisiti in Adobe Experience Platform e fungono da punti dati aggregati memorizzati nei profili dei clienti che riepilogano i singoli eventi comportamentali [Scopri come utilizzare gli attributi calcolati](../audience/computed-attributes.md)
 
 ## Utilizzare l’editor di personalizzazione {#editor}
 

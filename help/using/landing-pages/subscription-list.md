@@ -16,7 +16,7 @@ ht-degree: 11%
 
 ---
 
-# Elenchi di iscrizioni {#create-subscription-list}
+# Elenchi di abbonamenti {#create-subscription-list}
 
 ## Che cos’è un elenco di abbonamenti? {#subscription-list-definition}
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 >abstract="Crea un elenco di iscrizioni per raccogliere i profili che hanno acconsentito a ricevere comunicazioni su uno specifico argomento o evento. "
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/subscription-list.html?lang=it#define-subscription-list" text="Creare un elenco di iscrizione"
 
-Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti a clienti che hanno acconsentito a ricevere comunicazioni su un argomento/evento/interesse specifico/ecc. su base continuativa. In entrata [!DNL Journey Optimizer], questi clienti opt-in vengono raccolti in un elenco di abbonamenti.
+Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti a clienti che hanno acconsentito a ricevere comunicazioni su un argomento/evento/interesse specifico/ecc. su base continuativa. In [!DNL Journey Optimizer], i clienti che hanno prestato il consenso sono raccolti in un elenco di abbonamenti.
 
 Un servizio di abbonamento può essere:
 
@@ -36,17 +36,17 @@ Un servizio di abbonamento può essere:
 * un interesse su un particolare prodotto/sport/servizio/ecc., ad esempio: &quot;Interessato ad acquistare una casa nei prossimi 12 mesi&quot;
 * una preferenza sulla modalità di notifica, ad esempio: &quot;Ricevi notifiche di nuove canzoni tramite e-mail&quot;
 
-I profili possono essere aggiunti a un elenco di iscrizioni tramite un [pagina di destinazione](create-lp.md). Un esempio è presentato in [questa sezione](lp-use-cases.md#subscription-to-a-service).
+I profili possono essere aggiunti a un elenco di iscrizioni tramite una [pagina di destinazione](create-lp.md). Un esempio è presentato in [questa sezione](lp-use-cases.md#subscription-to-a-service).
 
 ## Creare un elenco di iscrizione {#define-subscription-list}
 
 Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 
-1. Per accedere agli elenchi delle sottoscrizioni, seleziona **[!UICONTROL Cliente]** > **[!UICONTROL Elenco iscrizioni]**.
+1. Per accedere agli elenchi delle sottoscrizioni, selezionare **[!UICONTROL Cliente]** > **[!UICONTROL Elenco sottoscrizioni]**.
 
    ![](assets/lp_subscription-lists.png)
 
-1. Seleziona la **[!UICONTROL Crea elenco iscrizioni]** pulsante.
+1. Selezionare il pulsante **[!UICONTROL Crea elenco iscrizioni]**.
 
    ![](assets/lp_create-subscription-list.png)
 
@@ -56,13 +56,13 @@ Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 
    >[!CAUTION]
    >
-   >Attualmente non è possibile utilizzare la spaziatura o immettere un nome già esistente per un altro elenco di iscrizioni in **[!UICONTROL Titolo]** campo.
+   >Attualmente non è possibile utilizzare la spaziatura o immettere un nome già esistente per un altro elenco di iscrizioni nel campo **[!UICONTROL Titolo]**.
 
 1. Puoi definire una data di inizio e una data di fine.
 
    ![](assets/lp_subscription-list-dates.png)
 
-1. Seleziona o crea tag Adobe Experience Platform da **[!UICONTROL Tag]** per categorizzare la pagina di destinazione e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
+1. Seleziona o crea tag Adobe Experience Platform dal campo **[!UICONTROL Tag]** per categorizzare la pagina di destinazione ai fini di una ricerca migliorata. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -72,13 +72,13 @@ Nell&#39;elenco vengono visualizzati tutti gli elenchi di iscrizioni creati. Puo
 
 I possibili stati sono i seguenti:
 
-* **[!UICONTROL Non avviato]**: hai definito una data di inizio successiva al giorno corrente. I profili abbonati non riceveranno ancora comunicazioni relative a questo elenco di abbonamenti.
-* **[!UICONTROL Live]**: il giorno corrente è compreso tra la data di inizio e la data di fine dell’elenco di iscrizioni, oppure non sono state definite date di fine/inizio, il che significa che l’elenco di iscrizioni è sempre attivo.
-* **[!UICONTROL Scaduto]**: la data di fine viene superata, pertanto l’elenco di iscrizioni non è più valido. I profili abbonati non riceveranno più comunicazioni relative a questo elenco di abbonamenti.
+* **[!UICONTROL Non iniziato]**: è stata definita una data di inizio successiva al giorno corrente. I profili abbonati non riceveranno ancora comunicazioni relative a questo elenco di abbonamenti.
+* **[!UICONTROL Live]**: il giorno corrente è compreso tra la data di inizio e la data di fine dell&#39;elenco di iscrizioni, oppure non sono state definite date di fine/inizio, il che significa che l&#39;elenco di iscrizioni è sempre live.
+* **[!UICONTROL Scaduto]**: la data di fine è passata, pertanto l&#39;elenco iscrizioni non è più valido. I profili abbonati non riceveranno più comunicazioni relative a questo elenco di abbonamenti.
 
 Una volta creato l’elenco di iscrizioni, puoi utilizzarlo in una pagina di destinazione. I profili che danno il consenso tramite il modulo della pagina di destinazione verranno aggiunti all’elenco. [Ulteriori informazioni](design-lp.md)
 
-È inoltre possibile utilizzare gli elenchi di abbonamento come tipi di pubblico quando [creazione di percorsi](../building-journeys/journey-gs.md#jo-build) e aggiungendo la personalizzazione.
+Puoi anche utilizzare gli elenchi di abbonamenti come tipi di pubblico durante la [creazione di percorsi](../building-journeys/journey-gs.md#jo-build) e l&#39;aggiunta di personalizzazioni.
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 19%
 >abstract="Le modifiche verranno applicate solo alle viste selezionate. Le viste possono essere rilevate utilizzando la modalità **Sfoglia** e accedendo ad esse. Non trovi la vista che stai cercando?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Ulteriori informazioni"
 
-**Applicazioni a pagina singola** (SPA) ora può essere creato nell’editor visivo del designer web. Questo consente di selezionare quali **visualizzazioni** desideri applicare le modifiche apportate alla pagina web a.
+È ora possibile creare **applicazioni a pagina singola** (SPA) nell&#39;editor visivo di Web Designer. In questo modo puoi selezionare a quali **visualizzazioni** specifiche desideri applicare le modifiche alla pagina Web.
 
 [Scopri come creare applicazioni a pagina singola in questo video](#video)
 
@@ -33,21 +33,21 @@ Una visualizzazione può essere definita come un intero sito o un gruppo di elem
 
 ## Definire le viste nell’implementazione dell’SDK web {#define-views}
 
-È possibile sfruttare le viste XDM in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione web e sperimentazione sull’SPA tramite l’editor visivo web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+Le visualizzazioni XDM possono essere utilizzate nell&#39;Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione web sull&#39;SPA tramite l&#39;editor visivo web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 
-Per poter accedere e creare visualizzazioni in [!DNL Journey Optimizer] nell&#39;interfaccia utente, assicurati di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Scopri le visualizzazioni nel web designer {#discover-views}
 
 Una volta completata la configurazione dell’SPA nell’implementazione di Adobe Experience Platform Web SDK, è necessario navigare tra tutte le visualizzazioni del sito web a cui desideri applicare le modifiche. Segui i passaggi seguenti.
 
-1. [Creare una campagna web](create-web.md) e accedere al [web designer](edit-web-content.md).
+1. [Crea una campagna Web](create-web.md) e accedi al [Web Designer](edit-web-content.md).
 
    La vista in cui sei attualmente è visualizzata in alto a sinistra.
 
    ![](assets/web-designer-view-home.png)
 
-1. Scambia in **[!UICONTROL Sfoglia]** modalità. [Ulteriori informazioni](../web/edit-web-content.md#browse-mode)
+1. Passare alla modalità **[!UICONTROL Sfoglia]**. [Ulteriori informazioni](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 
 >[!CAUTION]
 >
->Se non sono state individuate visualizzazioni utilizzando **[!UICONTROL Sfoglia]** non sarà possibile selezionarli per applicare le modifiche. [Ulteriori informazioni](#discover-views)
+>Se non hai individuato le visualizzazioni utilizzando la modalità **[!UICONTROL Sfoglia]**, non potrai selezionarle per applicare le modifiche. [Ulteriori informazioni](#discover-views)
 
-1. Seleziona la **[!UICONTROL Modifiche]** per visualizzare il riquadro corrispondente a sinistra.
+1. Seleziona l&#39;icona **[!UICONTROL Modifiche]** per visualizzare il riquadro corrispondente a sinistra.
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. Seleziona una modifica e fai clic su **[!UICONTROL Altre azioni]** accanto. Seleziona **[!UICONTROL Applica a più visualizzazioni]**.
+1. Seleziona una modifica e fai clic sul pulsante **[!UICONTROL Altre azioni]** accanto a essa. Seleziona **[!UICONTROL Applica a più visualizzazioni]**.
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -75,9 +75,9 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 
    ![](assets/web-designer-modifications-apply-to.png)
 
-1. Fai clic su **[!UICONTROL Applica]**.
+1. Fare clic su **[!UICONTROL Applica]**.
 
-1. Scambia in **[!UICONTROL Sfoglia]** per verificare che le modifiche vengano applicate alle pagine desiderate.
+1. Passare alla modalità **[!UICONTROL Sfoglia]** per verificare che le modifiche siano applicate alle pagine desiderate.
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ Dopo aver aggiunto una modifica mentre ti trovi in una vista specifica, puoi app
 
 Questo video spiega come:
 
-* Scopri le visualizzazioni SPA tramite **[!UICONTROL Sfoglia]** modalità
+* Scopri le visualizzazioni SPA utilizzando la modalità **[!UICONTROL Sfoglia]**
 * Eseguire l’authoring sulla vista corrente
 * Applicare le modifiche al sito web per più viste o tutte le viste individuate
 * Eseguire azioni in blocco sulle modifiche

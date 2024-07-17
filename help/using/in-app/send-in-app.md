@@ -10,7 +10,7 @@ exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -22,13 +22,13 @@ Se desideri visualizzare un’anteprima della notifica in-app prima che venga pu
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. Clic **[!UICONTROL Anteprima sul dispositivo]**.
+1. Fare clic su **[!UICONTROL Anteprima sul dispositivo]**.
 
    ![](assets/in_app_create_6.png)
 
-1. Dalla sezione **[!UICONTROL Connetti al dispositivo]** finestra, fai clic su **[!UICONTROL Inizio]**.
+1. Dalla finestra **[!UICONTROL Connetti al dispositivo]**, fare clic su **[!UICONTROL Avvia]**.
 
-1. Inserisci il **[!UICONTROL URL di base]** dell’applicazione e fai clic su **[!UICONTROL Successivo]**.
+1. Immetti l&#39;**[!UICONTROL URL di base]** dell&#39;applicazione e fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/in_app_create_7.png)
 
@@ -40,9 +40,9 @@ Ora il messaggio in-app può essere attivato direttamente sul dispositivo, conse
 
 Una volta definito il messaggio in-app, puoi utilizzare i profili di test per visualizzarne l’anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
-A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** quindi aggiungi un profilo di test per controllare il messaggio utilizzando i dati del profilo di test.
+A questo scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi aggiungi un profilo di test per verificare il messaggio utilizzando i dati del profilo di test.
 
-Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
+Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
 ## Rivedere e attivare la notifica in-app{#in-app-review}
 
@@ -50,13 +50,13 @@ Una volta creato il messaggio in-app e definito e personalizzato il relativo con
 
 Per farlo, segui la procedura indicata di seguito:
 
-1. Utilizza il **[!UICONTROL Controlla per attivare]** per visualizzare un riepilogo del messaggio.
+1. Utilizza il pulsante **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo del messaggio.
 
    Il riepilogo ti consente di modificare la campagna, se necessario, e di verificare se un parametro è errato o mancante.
 
    ![](assets/in_app_create_5.png)
 
-1. Verifica che la campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
+1. Verifica che la tua campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
 
 La campagna è ora attivata. La notifica in-app configurata nella campagna viene inviata immediatamente o alla data specificata.
 

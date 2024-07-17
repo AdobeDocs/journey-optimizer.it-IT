@@ -18,20 +18,20 @@ ht-degree: 13%
 
 # Progettare il contenuto della pagina di destinazione {#design-lp}
 
-Per iniziare a creare contenuti per la destinazione [pagina principale](create-lp.md#configure-primary-page) o [pagina secondaria](create-lp.md#configure-subpages), passa il mouse sul contenuto della pagina e fai clic su **[!UICONTROL Apri Designer]**. Puoi anche fare clic sul pulsante corrispondente nella palette a destra.
+Per iniziare a creare contenuti per la [pagina principale](create-lp.md#configure-primary-page) o [pagina secondaria](create-lp.md#configure-subpages) di destinazione, passa il puntatore del mouse sul contenuto della pagina e fai clic su **[!UICONTROL Apri Designer]**. Puoi anche fare clic sul pulsante corrispondente nella palette a destra.
 
 ![](assets/lp_open-designer.png)
 
 Da qui è possibile:
 
-* **Progettare la pagina di destinazione da zero** tramite l’interfaccia di progettazione dei contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../content-management/assets.md). Scopri come progettare i contenuti <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
+* **Progetta la pagina di destinazione da zero** tramite l&#39;interfaccia di progettazione contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../content-management/assets.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
-* **Codice o incolla HTML non elaborato** direttamente in designer contenuto. Scopri come programmare i contenuti [in questa sezione](../email/code-content.md).
+* **Codice o incolla HTML raw** direttamente nella finestra di progettazione del contenuto. Scopri come programmare il tuo contenuto [in questa sezione](../email/code-content.md).
 
-* **Importa contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare i contenuti [in questa sezione](../email/existing-content.md).
+* **Importa contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
 
-* **Utilizzare un modello di pagina di destinazione salvato** creato in [!DNL Journey Optimizer]. [Ulteriori informazioni](lp-templates.md)
+* **Utilizza un modello di pagina di destinazione salvato** creato in [!DNL Journey Optimizer]. [Ulteriori informazioni](lp-templates.md)
 
 >[!NOTE]
 >
->Il designer del contenuto della pagina di destinazione è per lo più simile al designer e-mail. Ulteriori informazioni su [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>Il designer del contenuto della pagina di destinazione è per lo più simile al designer e-mail. Ulteriori informazioni su [progettazione del contenuto con [!DNL Journey Optimizer]](../email/get-started-email-design.md).

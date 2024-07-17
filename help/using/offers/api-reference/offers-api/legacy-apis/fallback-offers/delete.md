@@ -15,7 +15,7 @@ ht-degree: 9%
 
 # Eliminare un’offerta di fallback {#delete-fallback-offer}
 
-A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. È possibile eliminare solo le offerte di fallback create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API utilizzando il $id dell’offerta di fallback che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. È possibile eliminare solo le offerte di fallback create nel contenitore tenant. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando $id dell&#39;offerta di fallback che si desidera eliminare.
 
 **Formato API**
 

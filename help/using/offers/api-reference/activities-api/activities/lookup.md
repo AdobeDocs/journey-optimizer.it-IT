@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Cercare una decisione {#look-up-decision}
 
-Per cercare decisioni specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include le decisioni `id` nel percorso della richiesta.
+Per cercare decisioni specifiche, invia una richiesta di GET all&#39;API [!DNL Offer Library] che include le decisioni `id` nel percorso della richiesta.
 
 **Formato API**
 

@@ -11,7 +11,7 @@ exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
 source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 3%
+ht-degree: 28%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 3%
 >
 > Se vengono effettuate query personalizzate tramite API quando si utilizza Query Service, si prega di attendere un certo ritardo per i rapporti.
 
-Utilizza il **[!UICONTROL Rapporto globale]** per misurare l’impatto di percorsi e consegne in un periodo di tempo selezionato.
+Utilizza il **[!UICONTROL Global report]** per misurare l&#39;impatto dei tuoi percorsi e delle tue consegne in un periodo di tempo selezionato.
 
-* Se desideri eseguire il targeting di un percorso o di consegne nel contesto di un percorso, da **[!UICONTROL Percorsi]** , accedere al percorso e fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** pulsante. Puoi quindi trovare i rapporti globali relativi a Percorso, e-mail, SMS e push.
+* Se desideri eseguire il targeting di uno o più percorsi nel contesto di un percorso, dal menu **[!UICONTROL Percorsi]**, accedi al percorso e fai clic sul pulsante **[!UICONTROL Visualizza rapporto]**. Puoi quindi trovare i rapporti globali relativi a Percorso, e-mail, SMS e push.
 
   ![](assets/report_journey.png)
 
-* Se desideri eseguire il targeting di una campagna, da **[!UICONTROL Campagne]** , accedi alla tua campagna e fai clic sul pulsante **[!UICONTROL Rapporti]** pulsante.
+* Se desideri eseguire il targeting di una campagna, dal menu **[!UICONTROL Campagne]**, accedi alla campagna e fai clic sul pulsante **[!UICONTROL Rapporti]**.
 
   ![](assets/report_campaign.png)
 
-* Se si desidera passare dalla modalità **[!UICONTROL Rapporto live]** al **[!UICONTROL Rapporto globale]** per la consegna, fai clic su **[!UICONTROL Sempre]** dal selettore di tabulazione.
+* Se desideri passare dal **[!UICONTROL Rapporto live]** al **[!UICONTROL Rapporto globale]** per la consegna, fai clic su **[!UICONTROL Tutto il tempo]** nel cambio scheda.
 
   ![](assets/report_5.png)
 
@@ -45,19 +45,19 @@ Ogni dashboard di reporting può essere modificato modificando il periodo di tem
 
    ![](assets/report_modify_1.png)
 
-1. Per i rapporti di Percorso che coinvolgono più rapporti configurati **[!UICONTROL Azioni]**, scegli un **[!UICONTROL Azione]** dal menu a discesa.
+1. Per i report di Percorso che coinvolgono più **[!UICONTROL Azioni]** configurate, scegli un **[!UICONTROL Azione]** specifico dal menu a discesa.
 
-1. Se desideri eseguire il targeting solo di uno o più messaggi ricorrenti, selezionali dall’ **[!UICONTROL Tempo di esecuzione]** a discesa.
+1. Se si desidera eseguire il targeting solo di uno o più messaggi ricorrenti, selezionarlo dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
    ![](assets/report_modify_12.png)
 
-1. Scegliere se si desidera escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+1. Scegliere se si desidera escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, fare riferimento a [questa pagina](../building-journeys/testing-the-journey.md).
 
-   Tieni presente che **[!UICONTROL Escludere gli eventi di test]** L&#39;opzione è disponibile solo per i rapporti di Percorso.
+   L&#39;opzione **[!UICONTROL Escludi eventi di test]** è disponibile solo per i report di Percorso.
 
    ![](assets/report_modify_2.png)
 
-1. Clic **[!UICONTROL Modifica]** per iniziare a personalizzare la dashboard.
+1. Fai clic su **[!UICONTROL Modifica]** per iniziare a personalizzare il dashboard.
 
    ![](assets/report_modify_3.png)
 
@@ -65,19 +65,19 @@ Ogni dashboard di reporting può essere modificato modificando il periodo di tem
 
    ![](assets/report_modify_4.png)
 
-1. Clic **[!UICONTROL Rimuovi]** per rimuovere i widget non necessari.
+1. Fai clic su **[!UICONTROL Rimuovi]** per rimuovere i widget non necessari.
 
    ![](assets/report_modify_5.png)
 
-1. Quando si è soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fare clic su **[!UICONTROL Salva]**.
+1. Una volta che sei soddisfatto dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Salva]**.
 
 1. Per personalizzare la modalità di visualizzazione dei dati, puoi passare da diverse opzioni di visualizzazione, ad esempio grafici, tabelle e grafici ad anello.
 
    ![](assets/report_modify_10.png)
 
-Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un utilizzo successivo dei rapporti live. Se necessario, utilizza **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine dei widget e dei widget predefiniti.
+Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un utilizzo successivo dei rapporti live. Se necessario, utilizzare l&#39;opzione **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine dei widget e dei widget predefiniti.
 
-## Esportare i rapporti {#export-reports}
+## Esportazione dei rapporti {#export-reports}
 
 Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condividerli o stamparli. I passaggi per esportare i rapporti sono descritti nelle schede seguenti.
 
@@ -86,13 +86,13 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 
 >[!BEGINTABS]
 
->[!TAB Esportare il rapporto come file CSV]
+>[!TAB Esporta il report come file CSV]
 
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
+1. Dal tuo report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
 
    ![](assets/export_1.png)
 
-1. Puoi anche scegliere di esportare i dati da un widget specifico. Clic **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
+1. Puoi anche scegliere di esportare i dati da un widget specifico. Fai clic su **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
 
    ![](assets/export_3.png)
 
@@ -102,9 +102,9 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 
    Se hai generato il file a livello di widget, fornisce specificamente i dati per il widget selezionato.
 
->[!TAB Esportare il report come file PDF]
+>[!TAB Esporta il report come file PDF]
 
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File PDF]**.
 
    ![](assets/export_2.png)
 
@@ -121,7 +121,7 @@ Il report è ora disponibile per la visualizzazione o la condivisione in un file
 >[!ENDTABS]
 
 
-### Esportare rapporti (video) {#video-csv}
+### Esportare i rapporti (video) {#video-csv}
 
 Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget nel seguente video tutorial.
 
@@ -131,8 +131,8 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_ctr"
->title="CTR"
->abstract="Widget CTR"
+>title="Tasso di click-through"
+>abstract="Widget tasso di click-through"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_clicks"
@@ -142,38 +142,38 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_delivered"
 >title="Consegnate"
->abstract="Widget consegnato"
+>abstract="Widget consegnati"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_overview"
->title="Panoramica di Campaign"
->abstract="Widget panoramica campagna"
+>title="Panoramica della campagna"
+>abstract="Widget panoramica della campagna"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_funnel"
 >title="Risultati funnel della campagna"
->abstract="Widget risultati funnel campagna"
+>abstract="Widget risultati funnel della campagna"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_tracking_link"
->title="Etichette collegamento tracciato"
+>title="Etichette collegamenti tracciati"
 >abstract="Widget etichette collegamenti tracciati"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_displays"
 >title="Visualizzazioni"
->abstract="Visualizza widget"
+>abstract="Widget visualizzazioni"
 
 <!--campaign email-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivered_click"
->title="Tendenza consegne e clic"
->abstract="Widget tendenza consegne e clic"
+>title="Tendenza consegnati e clic"
+>abstract="Widget tendenza consegnati e clic"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_delivery_status"
->title="Stato della consegna"
+>title="Stato consegna"
 >abstract="Widget stato consegna"
 
 >[!CONTEXTUALHELP]
@@ -193,13 +193,13 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link"
->title="Etichette collegamento tracciato"
->abstract="Widget etichette collegamento tracciamento"
+>title="Etichette collegamenti tracciati"
+>abstract="Widget etichette collegamenti tracciamenti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_tracked_link_urls"
->title="URL di collegamento tracciati"
->abstract="Widget degli URL di collegamento tracciati"
+>title="URL collegamenti tracciati"
+>abstract="Widget URL collegamenti tracciati"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_subjects"
@@ -213,8 +213,8 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_exclude"
->title="Escludi motivi"
->abstract="Widget Escludi motivi"
+>title="Motivi di esclusione"
+>abstract="Widget motivi di esclusione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_email_error"
@@ -236,13 +236,13 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link"
->title="Etichette collegamento tracciato"
->abstract="Widget etichette collegamento tracciamento"
+>title="Etichette collegamenti tracciati"
+>abstract="Widget etichette collegamenti tracciamenti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_tracked_link_urls"
->title="URL di collegamento tracciati"
->abstract="Widget degli URL di collegamento tracciati"
+>title="URL collegamenti tracciati"
+>abstract="Widget URL collegamenti tracciati"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_bounce_reasons"
@@ -252,7 +252,7 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_exclude"
 >title="Motivi di esclusione"
->abstract="Widget motivi esclusi"
+>abstract="Widget motivi di esclusione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_push_email_error"
@@ -275,7 +275,7 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_displays"
 >title="Visualizzazioni"
->abstract="Visualizza widget"
+>abstract="Widget visualizzazioni"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracking_data"
@@ -284,36 +284,36 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link"
->title="Etichette collegamento tracciato"
+>title="Etichette collegamenti tracciati"
 >abstract="Widget etichette collegamenti tracciati"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_inapp_tracked_link_urls"
->title="URL di collegamento tracciati"
->abstract="Widget degli URL di collegamento tracciati"
+>title="URL collegamenti tracciati"
+>abstract="Widget URL collegamenti tracciati"
 
 <!--campaign sms-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivered_click"
->title="Tendenza consegne e clic"
->abstract="Widget tendenza consegne e clic"
+>title="Tendenza consegnati e clic"
+>abstract="Widget tendenza consegnati e clic"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_delivery_status"
->title="Stato della consegna"
+>title="Stato consegna"
 >abstract="Widget stato consegna"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link"
->title="Etichette collegamento tracciato"
->abstract="Widget etichette collegamento tracciamento"
+>title="Etichette collegamenti tracciati"
+>abstract="Widget etichette collegamenti tracciamenti"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_tracked_link_urls"
->title="URL di collegamento tracciati"
->abstract="Widget degli URL di collegamento tracciati"
+>title="URL collegamenti tracciati"
+>abstract="Widget URL collegamenti tracciati"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_inbound"
@@ -337,8 +337,8 @@ Scopri come scaricare un rapporto CSV per un rapporto e per un singolo widget ne
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_exclude"
->title="Escludi motivi"
->abstract="Widget Escludi motivi"
+>title="Motivi di esclusione"
+>abstract="Widget motivi di esclusione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_report_campaign_sms_error"

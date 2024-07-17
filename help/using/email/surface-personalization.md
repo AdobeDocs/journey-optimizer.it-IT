@@ -19,7 +19,7 @@ ht-degree: 17%
 
 # Personalizzare le impostazioni della superficie e-mail {#surface-personalization}
 
-Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, [!DNL Journey Optimizer] consente di definire valori personalizzati per sottodomini e intestazioni<!--and URL tracking parameters--> durante la creazione di superfici e-mail.
+Per una maggiore flessibilità e un maggiore controllo sulle impostazioni delle e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini e intestazioni<!--and URL tracking parameters--> durante la creazione di superfici e-mail.
 
 >[!AVAILABILITY]
 >
@@ -55,15 +55,15 @@ Per definire i sottodomini dinamici in una superficie di canale e-mail, segui i 
 
 1. Create una superficie di canale. [Scopri come](../configuration/channel-surfaces.md)
 
-1. Seleziona la **[!UICONTROL E-mail]** canale.
+1. Seleziona il canale **[!UICONTROL E-mail]**.
 
-1. In **Sottodominio** , abilita **[!UICONTROL Sottodominio dinamico]** opzione.
+1. Nella sezione **Sottodominio**, abilita l&#39;opzione **[!UICONTROL Sottodominio dinamico]**.
 
    ![](assets/surface-email-dynamic-subdomain.png)
 
-1. Seleziona l’icona Modifica accanto alla prima **[!UICONTROL Condizione]** campo.
+1. Selezionare l&#39;icona Modifica accanto al primo campo **[!UICONTROL Condizione]**.
 
-1. Il [editor di personalizzazione](../personalization/personalization-build-expressions.md) viene aperto. In questo esempio, imposta una condizione come `Country` è uguale a `US`.
+1. Verrà aperto l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md). In questo esempio, impostare una condizione come `Country` è uguale a `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -71,7 +71,7 @@ Per definire i sottodomini dinamici in una superficie di canale e-mail, segui i 
 
    >[!NOTE]
    >
-   >Alcuni sottodomini non sono attualmente disponibili per la selezione a causa di elementi in sospeso [ciclo di feedback](../reports/deliverability.md#feedback-loops) registrazione. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completati, puoi scegliere tra tutti i sottodomini disponibili. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
+   >Alcuni sottodomini non sono attualmente disponibili per la selezione a causa della registrazione del [ciclo di feedback](../reports/deliverability.md#feedback-loops) in sospeso. Questo processo può richiedere fino a 10 giorni lavorativi. Una volta completati, puoi scegliere tra tutti i sottodomini disponibili. <!--where FL registration happens? is it when delegating a subdomain and you're awaiting from subdomain validation? or is it on ISP side only?-->
 
    ![](assets/surface-email-select-subdomain.png)
 
@@ -89,25 +89,25 @@ Dopo aver aggiunto uno o più sottodomini dinamici a una superficie, gli element
 
 * Tutti gli URL (URL della risorsa, URL della pagina mirror e URL di tracciamento)
 
-* Il [URL per annullamento iscrizione](email-settings.md#list-unsubscribe)
+* L&#39;[URL per annullare l&#39;abbonamento](email-settings.md#list-unsubscribe)
 
-* Il **Da e-mail** e **E-mail di errore** suffissi
+* I suffissi **Da e-mail** e **E-mail di errore**
 
 >[!NOTE]
 >
->Se imposti sottodomini dinamici e poi disabiliti il **[!UICONTROL Sottodominio dinamico]** , tutti i valori dinamici vengono rimossi. Seleziona un sottodominio e invia la superficie per rendere effettive le modifiche.
+>Se imposti sottodomini dinamici e poi disabiliti l&#39;opzione **[!UICONTROL Sottodominio dinamico]**, tutti i valori dinamici vengono rimossi. Seleziona un sottodominio e invia la superficie per rendere effettive le modifiche.
 
 ## Personalizzare l’intestazione {#personalize-header}
 
 Puoi anche utilizzare la personalizzazione per tutti i parametri di intestazione definiti in una superficie.
 
-Ad esempio, se disponi di più marchi, puoi creare una singola superficie e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di assicurarti che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con il **Da** nomi ed e-mail. Allo stesso modo, quando i destinatari raggiungono **Rispondi** nel software client e-mail, si desidera **Rispondi** i nomi e le e-mail corrispondono al brand corretto per l’utente giusto.
+Ad esempio, se disponi di più marchi, puoi creare una singola superficie e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di verificare che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con i nomi e le e-mail **From** corretti. Allo stesso modo, quando i destinatari hanno premuto il pulsante **Rispondi** nel software client di posta elettronica, si desidera che i nomi e le e-mail di **Rispondi a** corrispondano al marchio corretto per l&#39;utente corretto.
 
 Per utilizzare variabili personalizzate per i parametri di intestazione di superficie, segui i passaggi seguenti.
 
 >[!NOTE]
 >
->Puoi personalizzare tutto **[!UICONTROL Parametri intestazione]** campi, ad eccezione di **[!UICONTROL Prefisso e-mail errore]** campo.
+>Puoi personalizzare tutti i campi **[!UICONTROL Parametri intestazione]**, ad eccezione del campo **[!UICONTROL Prefisso e-mail errore]**.
 
 
 1. Definisci i parametri di intestazione come faresti normalmente. [Scopri come](email-settings.md#email-header)
@@ -116,19 +116,19 @@ Per utilizzare variabili personalizzate per i parametri di intestazione di super
 
    ![](assets/surface-email-personalize-header.png)
 
-1. Il [editor di personalizzazione](../personalization/personalization-build-expressions.md) viene aperto. Definisci la condizione come desiderato e salva le modifiche.
+1. Verrà aperto l&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md). Definisci la condizione come desiderato e salva le modifiche.
 
    Ad esempio, imposta una condizione per cui ogni destinatario riceve un’e-mail dal proprio rappresentante del marchio.
 
    >[!NOTE]
    >
-   >Puoi selezionare solo **[!UICONTROL Attributi del profilo]** e **[!UICONTROL Funzioni di supporto]**.
+   >È possibile selezionare solo **[!UICONTROL Attributi profilo]** e **[!UICONTROL Funzioni helper]**.
 
 1. Ripeti i passaggi precedenti per ogni parametro a cui desideri aggiungere la personalizzazione.
 
 >[!NOTE]
 >
->Se hai aggiunto uno o più sottodomini dinamici alla tua superficie, il **Da e-mail** e **E-mail di errore** i suffissi verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains).
+>Se hai aggiunto uno o più sottodomini dinamici alla tua superficie, i suffissi **Da e-mail** e **E-mail di errore** verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains) risolto.
 
 <!--
 ## Use personalized URL tracking {#personalize-url-tracking}
@@ -146,15 +146,15 @@ Now when the email is sent out, this parameter will be automatically appended to
 
 Quando utilizzi una superficie con impostazioni personalizzate in una campagna o in una superficie, puoi visualizzarne i dettagli direttamente all’interno della campagna o della superficie. Segui i passaggi seguenti.
 
-1. Creare un messaggio e-mail [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journey-gs.md).
+1. Crea una [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journey-gs.md) per e-mail.
 
-1. Seleziona la **[!UICONTROL Modifica contenuto]** pulsante.
+1. Selezionare il pulsante **[!UICONTROL Modifica contenuto]**.
 
-1. Fai clic su **[!UICONTROL Visualizza dettagli superficie]** pulsante.
+1. Fare clic sul pulsante **[!UICONTROL Visualizza dettagli superficie]**.
 
    ![](assets/campaign-view-surface-details.png)
 
-1. Il **[!UICONTROL Impostazioni di consegna]** viene visualizzata la finestra. Puoi visualizzare tutte le impostazioni della superficie, inclusi i sottodomini dinamici e i parametri di intestazione personalizzati.
+1. Viene visualizzata la finestra **[!UICONTROL Impostazioni consegna]**. Puoi visualizzare tutte le impostazioni della superficie, inclusi i sottodomini dinamici e i parametri di intestazione personalizzati.
 
    >[!NOTE]
    >

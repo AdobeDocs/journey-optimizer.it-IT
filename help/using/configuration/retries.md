@@ -18,15 +18,15 @@ ht-degree: 9%
 
 # Nuovi tentativi {#retries}
 
-Quando un messaggio e-mail non riesce a causa di un errore temporaneo **Mancato recapito non permanente** per un determinato indirizzo, vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo e-mail viene aggiunto all’elenco di soppressione.
+Quando un messaggio e-mail non riesce a causa di un errore **Mancato recapito temporaneo** per un determinato indirizzo, vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo e-mail viene aggiunto all’elenco di soppressione.
 
 >[!NOTE]
 >
->Ulteriori informazioni sui tipi di errori in [Tipi di errori di consegna](../reports/suppression-list.md#delivery-failures) sezione.
+>Ulteriori informazioni sui tipi di errori nella sezione [Tipi di errori di consegna](../reports/suppression-list.md#delivery-failures).
 
 Nella configurazione predefinita, la soglia è impostata su 5 errori.
 
-* Per la stessa consegna, al quinto errore riscontrato all’interno del [periodo di tempo di un nuovo tentativo](#retry-duration), l&#39;indirizzo viene soppresso.
+* Per la stessa consegna, al quinto errore riscontrato entro il periodo di tempo di [nuovi tentativi](#retry-duration), l&#39;indirizzo è soppresso.
 
 * Se sono presenti consegne diverse e due errori si verificano almeno a 24 ore di distanza, il contatore degli errori viene incrementato a ogni errore e anche l’indirizzo viene eliminato al quinto tentativo. Gli errori sono cumulativi per ogni indirizzo.
 
@@ -52,7 +52,7 @@ Nel caso in cui il valore predefinito 5 non soddisfi le tue esigenze, puoi modif
 
 1. Vai a **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco di soppressione]**.
 
-1. Seleziona la **[!UICONTROL Modificare le regole di soppressione]** pulsante.
+1. Selezionare il pulsante **[!UICONTROL Modifica regole di soppressione]**.
 
    ![](assets/suppression-list-edit-retries.png)
 
@@ -64,15 +64,15 @@ Nel caso in cui il valore predefinito 5 non soddisfi le tue esigenze, puoi modif
 
    >[!CAUTION]
    >
-   >Inserire nell&#39;elenco Bloccati Un valore superiore a 10 può causare problemi di reputazione del recapito messaggi, nonché la limitazione o l’degli IP da parte degli ISP. [Ulteriori informazioni sulla consegna dei messaggi](../reports/deliverability.md)
+   >Inserire nell&#39;elenco Bloccati Un valore superiore a 10 può causare problemi di reputazione del recapito dei messaggi, nonché la limitazione o la degli IP da parte degli ISP. [Ulteriori informazioni sulla consegna](../reports/deliverability.md)
 
 ## Periodo di tempo per i tentativi {#retry-duration}
 
-Il **periodo di tempo di un nuovo tentativo** è l’intervallo di tempo in cui verrà ritentato qualsiasi messaggio e-mail della consegna che abbia riscontrato un errore temporaneo o un mancato recapito non permanente.
+Il periodo di tempo **per i tentativi** è l&#39;intervallo di tempo in cui verrà ritentato qualsiasi messaggio e-mail della consegna che ha rilevato un errore temporaneo o un messaggio non recapitato.
 
-Per impostazione predefinita, vengono eseguiti nuovi tentativi per **3,5 giorni** (o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
+Per impostazione predefinita, i nuovi tentativi verranno eseguiti per **3,5 giorni** (o **84 ore**) dal momento in cui il messaggio è stato aggiunto alla coda e-mail.
 
-Tuttavia, per evitare che i tentativi vengano più eseguiti quando non è più necessario, puoi modificare questa impostazione in base alle tue esigenze durante la creazione o la modifica di un [superficie di canale](channel-surfaces.md) (ossia predefinito per messaggi) applicabile al canale e-mail.
+Tuttavia, per evitare che i tentativi vengano eseguiti quando non è più necessario, è possibile modificare questa impostazione in base alle proprie esigenze durante la creazione o la modifica di una [superficie di canale](channel-surfaces.md) (ossia un predefinito per messaggi) che si applica al canale e-mail.
 
 Ad esempio, puoi impostare il periodo di esecuzione dei nuovi tentativi su 24 ore per un’e-mail transazionale relativa alla reimpostazione della password e contenente un collegamento valido solo per un giorno. Allo stesso modo, per una vendita di mezzanotte, puoi definire un periodo di esecuzione di un nuovo tentativo di 6 ore.
 

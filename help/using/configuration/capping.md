@@ -19,7 +19,7 @@ ht-degree: 26%
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
 
-Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile in [Documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
 ## Descrizione API di limitazione
 
@@ -60,7 +60,7 @@ Di seguito è riportata la struttura di base di una configurazione di endpoint:
 
 >[!IMPORTANT]
 >
->Il **maxHttpConnections** Il parametro è facoltativo. Consente di limitare il numero di connessioni aperte da Journey Optimizer al sistema esterno.
+>Il parametro **maxHttpConnections** è facoltativo. Consente di limitare il numero di connessioni aperte da Journey Optimizer al sistema esterno.
 >
 >Il valore massimo impostabile è 400. Se non viene specificato nulla, il sistema può aprire più di migliaia di connessioni a seconda della scalabilità dinamica del sistema.
 >
@@ -87,7 +87,7 @@ Di seguito è riportata la struttura di base di una configurazione di endpoint:
 
 ## Avvertenze ed errori
 
-Quando un **canDeploy** viene chiamato, il processo convalida la configurazione e restituisce lo stato di convalida identificato dal relativo ID univoco:
+Quando viene chiamato un metodo **canDeploy**, il processo convalida la configurazione e restituisce lo stato di convalida identificato dal relativo ID univoco:
 
 ```
 "ok" or "error"
@@ -95,24 +95,24 @@ Quando un **canDeploy** viene chiamato, il processo convalida la configurazione 
 
 I potenziali errori sono:
 
-* **ERR_ENDPOINTCONFIG_100**: configurazione limite: url mancante o non valido
-* **ERR_ENDPOINTCONFIG_101**: configurazione limite: url non valido
-* **ERR_ENDPOINTCONFIG_102**: configurazione di limitazione: url non valido: wildchar nell’url non consentito in host:port
+* **ERR_ENDPOINTCONFIG_100**: configurazione limite: URL mancante o non valido
+* **ERR_ENDPOINTCONFIG_101**: configurazione limite: URL non valido
+* **ERR_ENDPOINTCONFIG_102**: configurazione limite: URL non valido: wildchar nell&#39;URL non consentito in host:porta
 * **ERR_ENDPOINTCONFIG_103**: configurazione limite: metodi HTTP mancanti
 * **ERR_ENDPOINTCONFIG_104**: configurazione limite: nessuna classificazione di chiamata definita
 * **ERR_ENDPOINTCONFIG_107**: configurazione limite: numero massimo di chiamate non valido (maxCallsCount)
 * **ERR_ENDPOINTCONFIG_108**: configurazione limite: numero massimo di chiamate non valido (periodInMs)
 * **ERR_ENDPOINTCONFIG_111**: configurazione limite: impossibile creare la configurazione endpoint: payload non valido
-* **ERR_ENDPOINTCONFIG_112**: configurazione limite: impossibile creare la configurazione endpoint: previsto un payload JSON
-* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome di servizio non valido `<!--<given value>-->`: deve essere &quot;dataSource&quot; o &quot;action&quot;
+* **ERR_ENDPOINTCONFIG_112**: configurazione limite: impossibile creare la configurazione dell&#39;endpoint: previsto un payload JSON
+* **ERR_AUTHORING_ENDPOINTCONFIG_1**: nome di servizio `<!--<given value>-->` non valido: deve essere &#39;dataSource&#39; o &#39;action&#39;
 
 Il potenziale avviso è:
 
-**ERR_ENDPOINTCONFIG_106**: limite configurazione: numero massimo connessioni HTTP non definito: nessuna limitazione per impostazione predefinita
+**ERR_ENDPOINTCONFIG_106**: configurazione limite: numero massimo di connessioni HTTP non definite: nessuna limitazione per impostazione predefinita
 
 ## Casi d’uso
 
-In questa sezione trovi i cinque casi d’uso principali che puoi eseguire per gestire la configurazione dei limiti in [!DNL Journey Optimizer].
+In questa sezione troverai i cinque casi d&#39;uso principali che puoi eseguire per gestire la configurazione dei limiti in [!DNL Journey Optimizer].
 
 Per facilitare i test e la configurazione, [qui](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json) è disponibile una raccolta Postman.
 
@@ -120,19 +120,19 @@ Questa raccolta Postman è stata configurata per condividere la raccolta di vari
 
 Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway
-* `{BASE_PATH}` : punto di ingresso per l’API.
+* `{BASE_PATH}`: punto di ingresso per l&#39;API.
 * `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
 Nella sezione seguente, è disponibile un elenco ordinato delle chiamate API REST per eseguire il caso d’uso.
 
-Caso d’uso n. 1: **Creazione e distribuzione di una nuova configurazione dei limiti**
+Caso d&#39;uso n. 1: **Creazione e distribuzione di una nuova configurazione di limite**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Caso d’uso n. 2: **Aggiornare e distribuire una configurazione di limitazione di utilizzo non ancora distribuita**
+Caso d&#39;uso n. 2: **Aggiornare e distribuire una configurazione di limite non ancora distribuita**
 
 1. list
 1. get
@@ -140,19 +140,19 @@ Caso d’uso n. 2: **Aggiornare e distribuire una configurazione di limitazione 
 1. candeploy
 1. deploy
 
-Caso d’uso n. 3: **Annullare la distribuzione ed eliminare una configurazione di limitazione distribuita**
+Caso d&#39;uso n. 3: **Annullamento della distribuzione ed eliminazione di una configurazione di limitazione implementata**
 
 1. list
 1. undeploy
 1. delete
 
-Caso d’uso n. 4: **Elimina una configurazione di limite distribuita.**
+Caso d&#39;uso n. 4: **Eliminare una configurazione di limitazione distribuita.**
 
 È possibile annullare la distribuzione ed eliminare la configurazione in una sola chiamata API utilizzando il parametro forceDelete.
 1. list
 1. eliminare, con il parametro forceDelete
 
-Caso d’uso n. 5: **Aggiornare una configurazione di limite già distribuita**
+Caso d&#39;uso n. 5: **Aggiornamento di una configurazione di limite già distribuita**
 
 1. list
 1. get

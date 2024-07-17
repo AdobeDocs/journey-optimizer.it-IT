@@ -37,7 +37,7 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, i guardrail tec
 
 Durante la configurazione di un’origine dati o di un’azione, viene stabilita una connessione a un sistema per recuperare informazioni aggiuntive da utilizzare nei percorsi oppure per inviare messaggi o chiamate API.
 
-Le API dei percorsi supportano fino a 5000 eventi al secondo, ma alcuni sistemi o API esterni potrebbero non avere una velocità effettiva equivalente. Per evitare il sovraccarico di questi sistemi, è possibile utilizzare **Limitazione** e **Limitazione** API per limitare il numero di eventi inviati al secondo.
+Le API dei percorsi supportano fino a 5000 eventi al secondo, ma alcuni sistemi o API esterni potrebbero non avere una velocità effettiva equivalente. Per evitare di sovraccaricare questi sistemi, puoi utilizzare le API **Capping** e **Throttling** per limitare il numero di eventi inviati al secondo.
 
 Ogni volta che una chiamata API viene eseguita dai percorsi, passa attraverso il motore API. Se viene raggiunto il limite impostato nell’API, la chiamata viene rifiutata se utilizzi l’API di limitazione di utilizzo, oppure viene messa in coda per un massimo di 6 ore ed elaborata il prima possibile nell’ordine in cui è stata ricevuta se utilizzi l’API di limitazione.
 
@@ -45,18 +45,18 @@ Ad esempio, supponiamo che tu abbia definito una regola di limitazione o limitaz
 
 >[!IMPORTANT]
 >
->**Regole di limitazione** sono configurate a livello di sandbox, per un endpoint specifico (l’URL denominato) ma globali per tutti i percorsi di quella sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
+>**Le regole di limitazione** sono configurate a livello di sandbox, per un endpoint specifico (l&#39;URL denominato) ma globali per tutti i percorsi di tale sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
 >
 >Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Puoi avere una sola configurazione di limitazione per organizzazione. La limitazione è disponibile solo per le azioni personalizzate.
 >
->Il **maxCallsCount** deve essere maggiore di 1.
+>Il valore **maxCallsCount** deve essere maggiore di 1.
 
 Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguenti:
 
 * [API di limitazione di utilizzo](capping.md)
 * [API di limitazione](throttling.md)
 
-Una descrizione dettagliata delle API è disponibile in [Documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Una descrizione dettagliata delle API è disponibile nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### Origini dati e capacità di azioni personalizzate {#capacity}
 
@@ -96,14 +96,14 @@ Prendiamo un esempio per un timeout di 5 secondi.
 
 ## Domande frequenti{#faq}
 
-**Come posso configurare una regola di limitazione o limitazione? Esiste una regola predefinita?**
+**Come si configura una regola di limitazione o limitazione? Esiste una regola predefinita?**
 
 Per impostazione predefinita, non esiste alcuna regola di limitazione o limite. Le regole vengono definite a livello di sandbox per un endpoint specifico (l’URL denominato), utilizzando l’API di limitazione o limitazione. Fai riferimento a [questa sezione](../configuration/external-systems.md#capping).
 
-**Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo minimo di attesa tra un nuovo tentativo e l’altro?**
+**Quanti tentativi vengono eseguiti? Posso cambiare il numero di tentativi o definire un periodo di attesa minimo tra un nuovo tentativo e l&#39;altro?**
 
 Per una determinata chiamata, è possibile eseguire un massimo di tre tentativi dopo la prima chiamata, fino al raggiungimento della durata di timeout finale. Non è possibile modificare il numero di tentativi e l’intervallo tra un tentativo e l’altro. Fai riferimento a [questa sezione](../configuration/external-systems.md#timeout).
 
 **Dove posso configurare il timeout? Esiste un valore massimo?**
 
-In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Fai riferimento a [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
+In ogni percorso, puoi definire una durata di timeout. La durata del timeout è configurata nelle proprietà di un percorso. La durata del timeout deve essere compresa tra 1 e 30 secondi. Consulta [questa sezione](../configuration/external-systems.md#timeout) e [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).

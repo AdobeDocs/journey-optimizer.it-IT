@@ -16,7 +16,7 @@ ht-degree: 10%
 
 # toDateOnly{#toDateOnly}
 
-Converte un argomento in un valore di tipo dateOnly. Per ulteriori informazioni sui tipi di dati, consulta [sezione](../expression/data-types.md).
+Converte un argomento in un valore di tipo dateOnly. Per ulteriori informazioni sui tipi di dati, consulta questa [sezione](../expression/data-types.md).
 
 ## Categoria
 
@@ -26,14 +26,14 @@ Conversione
 
 `toDateOnly(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
-| Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: solo **full-date** parte è considerata (fare riferimento a [RFC 3339, paragrafo 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | string |
+| Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: viene considerata solo la parte **full-date** (consultare [RFC 3339, sezione 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | stringa |
 | data e ora | dateTime |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un’epoca in millisecondi | numero intero |
+| valore intero di un’epoca in millisecondi | intero |
 
 ## Firme e tipi restituiti
 

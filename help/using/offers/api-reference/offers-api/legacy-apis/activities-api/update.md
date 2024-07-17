@@ -9,20 +9,20 @@ exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 
 # Aggiornare una decisione {#update-decision}
 
-Per modificare o aggiornare una decisione nel contenitore, devi effettuare una richiesta PATCH al [!DNL Offer Library] API.
+È possibile modificare o aggiornare una decisione nel contenitore effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -63,13 +63,13 @@ curl -X PATCH \
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace` e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati della decisione, tra cui l’ID istanza univoco e la decisione `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati della decisione, inclusi l’ID istanza univoco e la decisione `@id`.
 
 ```json
 {

@@ -28,9 +28,9 @@ Questa documentazione fornisce informazioni dettagliate su come lavorare con la 
 
 >[!ENDSHADEBOX]
 
-La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui puoi combinare i tipi di pubblico di Adobe Experience Platform esistenti in un’area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico.
+La composizione del pubblico consente di creare **flussi di lavoro di composizione**, in cui è possibile combinare il pubblico di Adobe Experience Platform esistente in un&#39;area di lavoro visiva e sfruttare varie attività (suddivisione, esclusione...) per creare nuovi tipi di pubblico.
 
-Al termine, il **pubblico risultante** vengono salvati e inseriti in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati nelle campagne e nei percorsi Journey Optimizer per eseguire il targeting dei clienti. [Scopri come eseguire il targeting dei tipi di pubblico in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+Al termine, viene salvato il backup in Adobe Experience Platform di **tipi di pubblico risultanti** insieme ai tipi di pubblico esistenti, che possono essere utilizzati nelle campagne e nei percorsi Journey Optimizer per il targeting dei clienti. [Scopri come indirizzare i tipi di pubblico in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 

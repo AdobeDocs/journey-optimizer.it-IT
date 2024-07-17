@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: sort
+title: ordina
 description: Scopri l’ordinamento delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ---
 
-# sort {#sort}
+# ordina {#sort}
 
 Ordina un elenco di valori o oggetti nell&#39;ordine naturale.
 
@@ -26,12 +26,12 @@ Elenco
 
 `sort(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da ordinare. Per listObject, deve essere un riferimento di campo. |
-| keyAttributeName | string | Questo parametro è solo per listObject. Il nome dell’attributo negli oggetti dell’elenco specificato viene utilizzato come chiave per l’ordinamento. |
+| keyAttributeName | stringa | Questo parametro è solo per listObject. Il nome dell’attributo negli oggetti dell’elenco specificato viene utilizzato come chiave per l’ordinamento. |
 | ordinamentoOrdine | booleano | Crescente (true) o Decrescente (false) |
 
 ## Firma e tipo restituito

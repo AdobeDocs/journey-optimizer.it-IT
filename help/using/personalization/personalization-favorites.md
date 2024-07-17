@@ -22,7 +22,7 @@ L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rap
 
 ![](assets/favorite-option.png)
 
-Per accedere agli elementi preferiti, utilizzare **[!UICONTROL Preferiti]** nel riquadro sinistro.
+Per accedere agli elementi preferiti, usa il menu **[!UICONTROL Preferiti]** nel riquadro a sinistra.
 
 Da questo elenco puoi aggiungere rapidamente l’oggetto di personalizzazione all’espressione corrente.
 

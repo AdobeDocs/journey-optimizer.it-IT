@@ -19,7 +19,7 @@ Le decisioni sono contenitori per le offerte che sfrutteranno il motore delle de
 
 ➡️ [Scopri come creare le attività di offerta in questo video](#video)
 
-L’elenco delle decisioni è accessibile nella sezione **[!UICONTROL Offerte]** menu > **[!UICONTROL Decisioni]** scheda. Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
+L&#39;elenco delle decisioni è accessibile nel menu **[!UICONTROL Offerte]** > scheda **[!UICONTROL Decisioni]**. Sono disponibili filtri per aiutarti a recuperare le decisioni in base al loro stato o alle date di inizio e fine.
 
 ![](../assets/activities-list.png)
 
@@ -32,15 +32,15 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
 ## Creare la decisione {#create-activity}
 
-1. Accedi all’elenco delle decisioni, quindi fai clic su **[!UICONTROL Crea decisione]**.
+1. Accedi all&#39;elenco di decisioni, quindi fai clic su **[!UICONTROL Crea decisione]**.
 
 1. Specifica il nome della decisione.
 
-1. Se necessario, definisci una data e un’ora di inizio e fine, quindi fai clic su **[!UICONTROL Successivo]**.
+1. Definisci una data e un&#39;ora di inizio e fine, se necessario, quindi fai clic su **[!UICONTROL Successivo]**.
 
    ![](../assets/activities-name.png)
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla decisione, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla decisione, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../../administration/object-based-access.md)
 
 ## Definire gli ambiti decisionali {#add-decision-scopes}
 
@@ -48,7 +48,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
    ![](../assets/activities-placement.png)
 
-1. Clic **[!UICONTROL Aggiungi]** per selezionare i criteri di valutazione per questo posizionamento.
+1. Fai clic su **[!UICONTROL Aggiungi]** per selezionare i criteri di valutazione per questo posizionamento.
 
    ![](../assets/activities-evaluation-criteria.png)
 
@@ -58,39 +58,39 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
    >
    >È necessario almeno un criterio di valutazione.
 
-1. Seleziona la raccolta di offerte contenente le offerte da considerare, quindi fai clic su **[!UICONTROL Aggiungi]**.
+1. Seleziona la raccolta di offerte che contiene le offerte da considerare, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
    ![](../assets/activities-collection.png)
 
    >[!NOTE]
    >
-   >Puoi fare clic su **[!UICONTROL Apri raccolte offerte]** per visualizzare l’elenco delle raccolte in una nuova scheda, che consente di sfogliare le raccolte e le offerte che contengono.
+   >Puoi fare clic sul collegamento **[!UICONTROL Apri raccolte offerte]** per visualizzare l&#39;elenco delle raccolte in una nuova scheda, che ti consente di sfogliare le raccolte e le offerte che contengono.
 
    La raccolta selezionata viene aggiunta ai criteri.
 
    ![](../assets/activities-collection-added.png)
 
-1. Utilizza il **[!UICONTROL Idoneità]** per limitare la selezione delle offerte per questo posizionamento.
+1. Utilizza il campo **[!UICONTROL Idoneità]** per limitare la selezione delle offerte per questo posizionamento.
 
-   Questo vincolo può essere applicato utilizzando un **regola di decisione** o uno o più **Pubblico Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Questo vincolo può essere applicato utilizzando una **regola di decisione** o uno o più **tipi di pubblico di Adobe Experience Platform**. Entrambi sono descritti in [questa sezione](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Per limitare la selezione delle offerte ai membri di un pubblico di Experienci Platform, seleziona **[!UICONTROL Tipi di pubblico]**, quindi fai clic su **[!UICONTROL Aggiungere tipi di pubblico]**.
+   * Per limitare la selezione delle offerte ai membri di un pubblico Experience Platform, seleziona **[!UICONTROL Tipi di pubblico]**, quindi fai clic su **[!UICONTROL Aggiungi tipi di pubblico]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Aggiungi uno o più tipi di pubblico dal riquadro a sinistra e combinali utilizzando **[!UICONTROL E]** / **[!UICONTROL Oppure]** operatori logici.
+     Aggiungi uno o più tipi di pubblico dal riquadro di sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
      ![](../assets/activity_constraint_segment2.png)
 
      Scopri come utilizzare i tipi di pubblico in [questa sezione](../../audience/about-audiences.md).
 
-   * Se desideri aggiungere un vincolo di selezione con una regola di decisione, utilizza **[!UICONTROL Regola di decisione]** e selezionare la regola desiderata.
+   * Se desideri aggiungere un vincolo di selezione con una regola di decisione, utilizza l&#39;opzione **[!UICONTROL Regola di decisione]** e seleziona la regola desiderata.
 
      ![](../assets/activity_constraint_rule.png)
 
      Scopri come creare una regola di decisione in [questa sezione](../offer-library/creating-decision-rules.md).
 
-1. Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+1. Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
    >[!NOTE]
    >
@@ -102,11 +102,11 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
    ![](../assets/activity_ranking-method.png)
 
-   * Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, il **[!UICONTROL Priorità offerta]** utilizza il valore definito nelle offerte: l’offerta con il punteggio di priorità più alto verrà consegnata all’utente.
+   * Per impostazione predefinita, se più offerte sono idonee per questo posizionamento, il metodo **[!UICONTROL Priorità offerta]** utilizza il valore definito nelle offerte: l&#39;offerta con il punteggio di priorità più alto verrà consegnata all&#39;utente.
 
-   * Se desideri utilizzare un punteggio calcolato specifico per scegliere l’offerta idonea da consegnare, seleziona **[!UICONTROL Formula]** o **[!UICONTROL Modello IA]**. [Ulteriori informazioni](../offer-activities/configure-offer-selection.md).
+   * Se si desidera utilizzare un punteggio calcolato specifico per scegliere l&#39;offerta idonea da consegnare, selezionare **[!UICONTROL Formula]** o **[!UICONTROL Modello di IA]**. [Ulteriori informazioni](../offer-activities/configure-offer-selection.md).
 
-1. Clic **[!UICONTROL Aggiungi]** per definire più criteri per lo stesso posizionamento.
+1. Fai clic su **[!UICONTROL Aggiungi]** per definire altri criteri per lo stesso posizionamento.
 
    ![](../assets/activity_add-collection.png)
 
@@ -126,11 +126,11 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
    >[!CAUTION]
    >
-   >* Se [Modello IA](../ranking/ai-models.md) viene utilizzato in un gruppo di criteri di valutazione, tutti i criteri di valutazione in tale gruppo devono utilizzare il metodo di classificazione di IA e devono utilizzare lo stesso modello di IA specifico.
+   >* Se il [modello di IA](../ranking/ai-models.md) viene utilizzato in un gruppo di criteri di valutazione, tutti i criteri di valutazione in tale gruppo devono utilizzare il metodo di classificazione di IA e devono utilizzare lo stesso modello di IA specifico.
    >
    >* Solo un gruppo di criteri di valutazione può utilizzare il modello di IA. Qualsiasi altro gruppo all’interno di un ambito decisionale deve utilizzare altri metodi di classificazione (priorità o formula). [Ulteriori informazioni sui metodi di classificazione](../offer-activities/configure-offer-selection.md)
 
-1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza **[!UICONTROL Nuovo ambito]** pulsante. Ripeti i passaggi precedenti per ogni ambito decisionale.
+1. Per aggiungere un altro posizionamento per le offerte come parte di questa decisione, utilizza il pulsante **[!UICONTROL Nuovo ambito]**. Ripeti i passaggi precedenti per ogni ambito decisionale.
 
    ![](../assets/activity_new-scope.png)
 
@@ -148,11 +148,11 @@ All’interno di un unico ambito decisionale, più criteri e il loro raggruppame
 
 Ad esempio, sono disponibili due raccolte, una nel criterio di valutazione A e una nel criterio di valutazione B. La richiesta prevede il rinvio di due offerte. Supponiamo che vi siano due offerte ammissibili dal criterio di valutazione A e tre offerte ammissibili dal criterio di valutazione B.
 
-* Se i due criteri di valutazione sono **non combinato** e/o in ordine sequenziale (1 e 2), nella prima riga vengono restituite le prime due offerte idonee dei criteri di valutazione. Se non ci sono due offerte idonee per il primo criterio di valutazione, il motore decisionale passa al criterio di valutazione successivo in sequenza per trovare tutte le offerte ancora necessarie e alla fine restituisce un fallback, se necessario.
+* Se i due criteri di valutazione sono **non combinati** e/o in ordine sequenziale (1 e 2), le prime due offerte idonee dei criteri di valutazione verranno restituite nella prima riga. Se non ci sono due offerte idonee per il primo criterio di valutazione, il motore decisionale passa al criterio di valutazione successivo in sequenza per trovare tutte le offerte ancora necessarie e alla fine restituisce un fallback, se necessario.
 
   ![](../assets/activity_consecutive-rank-collections.png)
 
-* Se le due raccolte sono **valutato contemporaneamente** Poiché esistono due offerte ammissibili del criterio di valutazione A e tre offerte ammissibili del criterio di valutazione B, le cinque offerte saranno tutte classificate insieme in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
+* Se le due raccolte sono **valutate contemporaneamente**, poiché esistono due offerte idonee dal criterio di valutazione A e tre offerte idonee dal criterio di valutazione B, tutte le cinque offerte saranno classificate nello stack in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
 
   ![](../assets/activity_same-rank-collections.png)
 
@@ -177,8 +177,11 @@ Le offerte con criteri di priorità più elevata vengono valutate per prime e ag
 
 Le offerte dei criteri 1 e 2 vengono valutate insieme (offerta 1, offerta 2, offerta 3, offerta 4, offerta 5). Supponiamo che il risultato sia:
 
-Offerta 1 - 10 Offerta 2 - 20 Offerta 3 - 30 secondo i criteri 1, 45 secondo i criteri 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
-Offerta 4 - 40 Offerta 5 - 50
+Offerta 1 - 10
+Offerta 2 - 20
+Offerta 3-30 dai criteri 1, 45 dai criteri 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
+Offerta 4 - 40
+Offerta 5 - 50
 
 L’offerta classificata è ora la seguente: Offerta 5, Offerta 3, Offerta 4, Offerta 2, Offerta 1.
 
@@ -201,7 +204,7 @@ Quando aggiungi più ambiti decisionali a una decisione e non è consentita la d
 
 >[!NOTE]
 >
->Il **[!UICONTROL Consenti duplicati nei posizionamenti]** Il parametro viene impostato a livello di posizionamento. Se la duplicazione è impostata su false per qualsiasi posizionamento in una richiesta di decisioning, tutti i posizionamenti nella richiesta ereditano l’impostazione false. [Ulteriori informazioni sui parametri di duplicazione](../offer-library/creating-placements.md)
+>Il parametro **[!UICONTROL Consenti duplicati tra posizionamenti]** è impostato a livello di posizionamento. Se la duplicazione è impostata su false per qualsiasi posizionamento in una richiesta di decisioning, tutti i posizionamenti nella richiesta ereditano l’impostazione false. [Ulteriori informazioni sul parametro di duplicazione](../offer-library/creating-placements.md)
 
 Prendiamo un esempio in cui hai aggiunto due ambiti decisionali, come:
 
@@ -219,7 +222,7 @@ La selezione è la seguente:
 
 +++ **Esempio 2**
 
-In questo esempio, l’offerta 1 ha raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
+In questo esempio, l’offerta 1 ha raggiunto il limite massimo di frequenza. [Ulteriori informazioni sui limiti di frequenza](../offer-library/add-constraints.md#capping)
 
 La selezione è la seguente:
 
@@ -230,18 +233,18 @@ La selezione è la seguente:
 
 +++ **Esempio 3**
 
-In questo esempio, Offerta 1 e Offerta 3 hanno raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
+In questo esempio, Offerta 1 e Offerta 3 hanno raggiunto il limite massimo di frequenza. [Ulteriori informazioni sui limiti di frequenza](../offer-library/add-constraints.md#capping)
 
 La selezione è la seguente:
 
 1. Verranno restituite le due migliori offerte idonee rimanenti dall&#39;ambito 1 (offerta 2, offerta 4).
-1. Non vi sono altre offerte idonee per l&#39;ambito 2, pertanto [offerta di fallback](#add-fallback) viene restituito.
+1. Non ci sono offerte idonee rimanenti per l&#39;ambito 2, quindi viene restituita l&#39;[offerta di fallback](#add-fallback).
 
 +++
 
 **Se la duplicazione è attiva**
 
-Quando la duplicazione è consentita in tutti i posizionamenti, la stessa offerta può essere proposta più volte in diversi posizionamenti. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. [Ulteriori informazioni sui parametri di duplicazione](../offer-library/creating-placements.md)
+Quando la duplicazione è consentita in tutti i posizionamenti, la stessa offerta può essere proposta più volte in diversi posizionamenti. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. [Ulteriori informazioni sul parametro di duplicazione](../offer-library/creating-placements.md)
 
 Prendiamo lo stesso esempio di cui sopra in cui hai aggiunto due ambiti decisionali, come:
 
@@ -259,7 +262,7 @@ La selezione è la seguente:
 
 +++ **Esempio 2**
 
-In questo esempio, l’offerta 1 ha raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
+In questo esempio, l’offerta 1 ha raggiunto il limite massimo di frequenza. [Ulteriori informazioni sui limiti di frequenza](../offer-library/add-constraints.md#capping)
 
 La selezione è la seguente:
 
@@ -271,7 +274,7 @@ La selezione è la seguente:
 
 +++ **Esempio 3**
 
-In questo esempio, Offerta 1 e Offerta 3 hanno raggiunto il limite massimo di frequenza. [Ulteriori informazioni sulla quota limite](../offer-library/add-constraints.md#capping)
+In questo esempio, Offerta 1 e Offerta 3 hanno raggiunto il limite massimo di frequenza. [Ulteriori informazioni sui limiti di frequenza](../offer-library/add-constraints.md#capping)
 
 La selezione è la seguente:
 
@@ -285,13 +288,13 @@ La selezione è la seguente:
 
 Una volta definiti gli ambiti decisionali, definisci l’offerta di fallback che verrà presentata come ultima risorsa ai clienti che non corrispondono alle regole e ai vincoli di idoneità delle offerte.
 
-A questo scopo, selezionala dall’elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione, quindi fai clic su **[!UICONTROL Successivo]**.
+Per farlo, selezionalo dall&#39;elenco delle offerte di fallback disponibili per i posizionamenti definiti nella decisione, quindi fai clic su **[!UICONTROL Successivo]**.
 
 ![](../assets/add-fallback-offer.png)
 
 >[!NOTE]
 >
->Puoi fare clic su **[!UICONTROL Apri libreria di offerte]** per visualizzare l’elenco delle offerte in una nuova scheda.
+>Puoi fare clic sul collegamento **[!UICONTROL Apri libreria offerte]** per visualizzare l&#39;elenco delle offerte in una nuova scheda.
 
 ## Rivedi e salva la decisione {#review}
 
@@ -301,7 +304,7 @@ Se tutto è configurato correttamente, viene visualizzato un riepilogo delle pro
 
    ![](../assets/review-decision.png)
 
-1. Potete espandere o comprimere ogni posizionamento. Puoi visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ciascun posizionamento. Puoi anche visualizzare informazioni sui profili qualificati stimati. Clic **[!UICONTROL Aggiorna]** per aggiornare i dati.
+1. Potete espandere o comprimere ogni posizionamento. Puoi visualizzare in anteprima le offerte disponibili, i dettagli di idoneità e classificazione per ciascun posizionamento. Puoi anche visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
    ![](../assets/review-decision-details.png)
 
@@ -312,17 +315,17 @@ Se tutto è configurato correttamente, viene visualizzato un riepilogo delle pro
 
    Puoi anche salvare la decisione come bozza, per poi modificarla e attivarla in un secondo momento.
 
-La decisione viene visualizzata nell’elenco con **[!UICONTROL Live]** o **[!UICONTROL Bozza]** a seconda che sia stato attivato o meno nel passaggio precedente.
+La decisione viene visualizzata nell&#39;elenco con lo stato **[!UICONTROL Live]** o **[!UICONTROL Bozza]**, a seconda che sia stata attivata o meno nel passaggio precedente.
 
 È ora pronto per essere utilizzato per consegnare le offerte ai clienti.
 
 ## Elenco delle decisioni {#decision-list}
 
-Dall’elenco delle decisioni, puoi selezionare la decisione di visualizzarne le proprietà. Da qui è anche possibile modificarlo, modificarne lo stato (**Bozza**, **Live**, **Completa**, **Archiviato**), duplica la decisione o eliminala.
+Dall’elenco delle decisioni, puoi selezionare la decisione di visualizzarne le proprietà. Da qui puoi anche modificarlo, modificarne lo stato (**Bozza**, **Live**, **Completa**, **Archiviata**), duplicare la decisione o eliminarla.
 
 ![](../assets/decision_created.png)
 
-Seleziona la **[!UICONTROL Modifica]** per tornare alla modalità di modifica delle decisioni, dove puoi modificare i [dettagli](#create-activity), [ambiti decisionali](#add-decision-scopes) e [offerta di fallback](#add-fallback).
+Seleziona il pulsante **[!UICONTROL Modifica]** per tornare alla modalità di modifica delle decisioni, dove puoi modificare i [dettagli](#create-activity), [ambiti decisionali](#add-decision-scopes) e [offerta di fallback](#add-fallback) della decisione.
 
 >[!IMPORTANT]
 >
@@ -330,19 +333,19 @@ Seleziona la **[!UICONTROL Modifica]** per tornare alla modalità di modifica de
 
 Seleziona una decisione live e fai clic su **[!UICONTROL Disattiva]** per impostare nuovamente lo stato della decisione su **[!UICONTROL Bozza]**.
 
-Per impostare nuovamente lo stato su **[!UICONTROL Live]**, seleziona la **[!UICONTROL Attiva]** che viene ora visualizzato.
+Per impostare nuovamente lo stato su **[!UICONTROL Live]**, seleziona il pulsante **[!UICONTROL Attiva]** visualizzato.
 
 ![](../assets/decision_activate.png)
 
-Il **[!UICONTROL Altre azioni]** consente di eseguire le azioni descritte di seguito.
+Il pulsante **[!UICONTROL Altre azioni]** abilita le azioni descritte di seguito.
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Completa]**: imposta lo stato della decisione su **[!UICONTROL Completa]**, il che significa che la decisione non può più essere chiamata. Questa azione è disponibile solo per le decisioni attivate. La decisione è ancora disponibile dall’elenco, ma non è possibile impostarne nuovamente lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo, eliminarlo o archiviarlo.
+* **[!UICONTROL Complete]**: imposta lo stato della decisione su **[!UICONTROL Complete]**, ovvero la decisione non può più essere chiamata. Questa azione è disponibile solo per le decisioni attivate. La decisione è ancora disponibile nell&#39;elenco, ma non è possibile impostarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo, eliminarlo o archiviarlo.
 
-* **[!UICONTROL Duplica]**: crea una decisione con le stesse proprietà, gli stessi ambiti decisionali e le stesse offerte di fallback. Per impostazione predefinita, la nuova decisione presenta **[!UICONTROL Bozza]** stato.
+* **[!UICONTROL Duplicato]**: crea una decisione con le stesse proprietà, gli stessi ambiti decisionali e la stessa offerta di fallback. Per impostazione predefinita, la nuova decisione ha lo stato **[!UICONTROL Bozza]**.
 
-* **[!UICONTROL Elimina]**: rimuove la decisione dall’elenco.
+* **[!UICONTROL Elimina]**: rimuove la decisione dall&#39;elenco.
 
   >[!CAUTION]
   >
@@ -350,7 +353,7 @@ Il **[!UICONTROL Altre azioni]** consente di eseguire le azioni descritte di seg
   >
   >Se la decisione viene utilizzata in un altro oggetto, non può essere eliminata.
 
-* **[!UICONTROL Archivia]**: imposta lo stato della decisione su **[!UICONTROL Archiviato]**. La decisione è ancora disponibile dall’elenco, ma non è possibile impostarne nuovamente lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
+* **[!UICONTROL Archivio]**: imposta lo stato della decisione su **[!UICONTROL Archiviato]**. La decisione è ancora disponibile nell&#39;elenco, ma non è possibile impostarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
 
 Puoi anche eliminare o modificare lo stato di più decisioni contemporaneamente selezionando le caselle di controllo corrispondenti.
 
@@ -364,7 +367,7 @@ Dopo aver creato una decisione, puoi fare clic sul nome nell’elenco.
 
 ![](../assets/decision_click-name.png)
 
-Questo consente di accedere a informazioni dettagliate per tale decisione. Seleziona la **[!UICONTROL Registro modifiche]** scheda a [monitorare tutte le modifiche](../get-started/user-interface.md#changes-log) che sono stati oggetto della decisione.
+Questo consente di accedere a informazioni dettagliate per tale decisione. Selezionare la scheda **[!UICONTROL Registro modifiche]** per [monitorare tutte le modifiche](../get-started/user-interface.md#changes-log) apportate alla decisione.
 
 ![](../assets/decision_information.png)
 

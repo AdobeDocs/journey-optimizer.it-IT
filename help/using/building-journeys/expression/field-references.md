@@ -25,7 +25,7 @@ Se in un campo si utilizzano caratteri speciali, è necessario utilizzare virgol
 * il campo inizia con il carattere &quot;-&quot;
 * il campo contiene elementi diversi da: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
-Ad esempio, se il campo è _3 ore_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
+Ad esempio, se il campo è _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -56,7 +56,7 @@ Un valore predefinito può essere associato a un nome di campo. La sintassi è l
 
 >[!NOTE]
 >
->Il tipo del campo e il valore predefinito devono essere uguali. Ad esempio: `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` non è valido perché il valore predefinito è un numero intero, mentre il valore previsto deve essere una stringa.
+>Il tipo del campo e il valore predefinito devono essere uguali. `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}`, ad esempio, non è valido perché il valore predefinito è un numero intero, mentre il valore previsto deve essere una stringa.
 
 Esempi:
 
@@ -99,7 +99,7 @@ expression examples:
 
 ## Riferimento a un campo all’interno di raccolte
 
-Per fare riferimento agli elementi definiti nelle raccolte vengono utilizzate le funzioni specifiche `all`, `first` e `last`. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
+Si fa riferimento agli elementi definiti nelle raccolte utilizzando le funzioni specifiche `all`, `first` e `last`. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
 
 Esempio:
 
@@ -109,19 +109,19 @@ Esempio:
 
 ## Riferimento a un campo definito in una mappa
 
-### `entry` funzione
+### Funzione `entry`
 
-Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una determinata chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Per ulteriori informazioni, consulta [questa pagina](../../event/about-creating.md#select-the-namespace).
+Per recuperare un elemento in una mappa, utilizziamo la funzione di immissione con una determinata chiave. Ad esempio, viene utilizzato quando si definisce la chiave di un evento, in base allo spazio dei nomi selezionato. Per ulteriori informazioni, vedere [questa pagina](../../event/about-creating.md#select-the-namespace).
 
 ```json
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In questa espressione, si ottiene la voce per la chiave &quot;E-mail&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo il &quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, consulta [questa pagina](../expression/collection-management-functions.md).
+In questa espressione, si ottiene la voce per la chiave &quot;E-mail&quot; del campo &quot;IdentityMap&quot; di un evento. La voce &quot;E-mail&quot; è una raccolta, dalla quale prendiamo il &quot;id&quot; nel primo elemento utilizzando &quot;first()&quot;. Per ulteriori informazioni, vedere [questa pagina](../expression/collection-management-functions.md).
 
-### `firstEntryKey` funzione
+### Funzione `firstEntryKey`
 
-Per recuperare la prima chiave di ingresso di una mappa, utilizza `firstEntryKey` funzione.
+Per recuperare la prima chiave di ingresso di una mappa, utilizzare la funzione `firstEntryKey`.
 
 Questo esempio mostra come recuperare il primo indirizzo e-mail degli abbonati di un elenco specifico:
 
@@ -129,11 +129,11 @@ Questo esempio mostra come recuperare il primo indirizzo e-mail degli abbonati d
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-In questo esempio, l’elenco degli abbonamenti è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nella `subscribers` mappa, collegata alla mappa dell’elenco di iscrizioni.
+In questo esempio, l&#39;elenco iscrizioni è denominato `daily-email`. Gli indirizzi di posta elettronica sono definiti come chiavi nella mappa `subscribers`, collegata alla mappa dell&#39;elenco iscrizioni.
 
-### `keys` funzione
+### Funzione `keys`
 
-Per recuperare in tutte le chiavi di una mappa, utilizza `keys` funzione.
+Per recuperare in tutte le chiavi di una mappa, utilizzare la funzione `keys`.
 
 Questo esempio mostra come recuperare, per un profilo specifico, tutti gli indirizzi e-mail associati agli abbonati di un elenco specifico:
 
@@ -145,7 +145,7 @@ Questo esempio mostra come recuperare, per un profilo specifico, tutti gli indir
 
 Se selezioni un campo da un’origine dati esterna che richiede la chiamata di un parametro, a destra viene visualizzata una nuova scheda che consente di specificare questo parametro. Consulta [questa pagina](../expression/expressionadvanced.md).
 
-Per casi d’uso più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave _parametri_. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
+Per casi d&#39;uso più complessi, se desideri includere i parametri dell&#39;origine dati nell&#39;espressione principale, puoi definirne i valori utilizzando la parola chiave _params_. Un parametro può essere qualsiasi espressione valida anche da un&#39;altra origine dati che include anche un altro parametro.
 
 >[!NOTE]
 >
@@ -157,8 +157,8 @@ Utilizza la seguente sintassi:
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
 
-* **`<params-1-name>`**: nome esatto del primo parametro dell’origine dati.
-* **`<params-1-value>`**: il valore del primo parametro. Può essere qualsiasi espressione valida.
+* **`<params-1-name>`**: nome esatto del primo parametro dell&#39;origine dati.
+* **`<params-1-value>`**: valore del primo parametro. Può essere qualsiasi espressione valida.
 
 Esempio:
 

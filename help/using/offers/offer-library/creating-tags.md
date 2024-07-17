@@ -22,17 +22,17 @@ ht-degree: 23%
 
 L’associazione dei qualificatori di raccolta (noti in precedenza come &quot;tag&quot;) alle offerte semplifica l’organizzazione. Ad esempio, puoi etichettare le offerte del Black Friday con il qualificatore per la raccolta &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel qualificatore di raccolta.
 
-I qualificatori di raccolta possono essere utilizzati anche per raggruppare le offerte in raccolte di offerte. Consulta [Creare le raccolte](../offer-library/creating-collections.md).
+I qualificatori di raccolta possono essere utilizzati anche per raggruppare le offerte in raccolte di offerte. Consulta [Creare raccolte](../offer-library/creating-collections.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco dei qualificatori di raccolta creati è accessibile nella sezione **[!UICONTROL Componenti]** menu.
+L&#39;elenco dei qualificatori di raccolta creati è accessibile nel menu **[!UICONTROL Componenti]**.
 
 ![](../assets/tags_list.png)
 
 Per creare un qualificatore di raccolta, effettua le seguenti operazioni:
 
-1. Vai a **[!UICONTROL Qualificatori di raccolta]** , quindi fai clic su **[!UICONTROL Crea qualificatore raccolta]**.
+1. Vai alla scheda **[!UICONTROL Qualificatori raccolta]**, quindi fai clic su **[!UICONTROL Crea qualificatore raccolta]**.
 
 1. Specifica il nome del qualificatore della raccolta, quindi fai clic su **[!UICONTROL Salva]**.
 

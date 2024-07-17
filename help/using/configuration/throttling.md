@@ -19,7 +19,7 @@ ht-degree: 91%
 
 L’API di limitazione ti consente di creare, configurare e monitorare le configurazioni di limitazione al fine di limitare il numero di eventi inviati al secondo.
 
-Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile in [Documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
+Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/).
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ Questa raccolta Postman è stata configurata per condividere la raccolta di vari
 
 Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway
-* `{BASE_PATH}` : punto di ingresso per l’API.
+* `{BASE_PATH}`: punto di ingresso per l&#39;API.
 * `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it).
 
 Nella sezione seguente, è disponibile un elenco ordinato delle chiamate API REST per eseguire il caso d’uso.

@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 badge: label="Disponibilità limitata"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
+source-git-commit: 2349145fcf698769d16326a19a48a413a3c1dd95
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -15,29 +16,29 @@ ht-degree: 0%
 
 # Sfruttare i dati contestuali in Experience Decisioning {#context}
 
-Con Experience Decisioning puoi sfruttare qualsiasi informazione disponibile in Adobe Experience Platform per eseguire varie azioni, ad esempio la creazione di [regole di decisione](rules.md) o [formule di classificazione](ranking.md). Ad esempio, puoi progettare una regola di decisione che richiede che il tempo corrente sia di ≥80 gradi al momento della richiesta di decisione.
+Con Experience Decisioning puoi sfruttare qualsiasi informazione disponibile in Adobe Experience Platform per eseguire varie azioni, ad esempio la creazione di [regole di decisione](rules.md) o di [formule di classificazione](ranking.md). Ad esempio, puoi progettare una regola di decisione che richiede che il tempo corrente sia di ≥80 gradi al momento della richiesta di decisione.
 
 >[!NOTE]
 >
 >I dati contestuali sono definiti in Adobe Experience Platform e vengono inviati al momento di una richiesta di decisione. Non include dati storici.
 
-Per utilizzare i dati contestuali, devi innanzitutto definire i dati che desideri rendere disponibili in Experience Decisioning. Al termine, questi dati si integrano perfettamente in Experience Decisioning in **[!UICONTROL Dati contestuali]** disponibile durante la creazione di una regola di decisione. Puoi anche sfruttare i dati quando modifichi una formula di classificazione.
+Per utilizzare i dati contestuali, devi innanzitutto definire i dati che desideri rendere disponibili in Experience Decisioning. Al termine, questi dati si integrano perfettamente in Experience Decisioning nella scheda **[!UICONTROL Dati contestuali]** disponibile durante la creazione di una regola di decisione. Puoi anche sfruttare i dati quando modifichi una formula di classificazione.
 
 ![](assets/decision-rules-context.png)
 
 I passaggi per alimentare Experience Decisioning con i dati di Adobe Experience Platform sono i seguenti:
 
-1. Creare un **Schema Experience Event**  in Adobe Experience Platform e relativi **set di dati**. [Scopri come creare schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crea uno **schema evento esperienza** in Adobe Experience Platform e il relativo **set di dati** associato. [Scopri come creare schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Crea un nuovo flusso di dati Adobe Experience Platform:
 
-   1. Accedi a **[!UICONTROL Flussi di dati]** menu e seleziona **[!UICONTROL Nuovo flusso di dati]**.
+   1. Passa al menu **[!UICONTROL Datastreams]** e seleziona **[!UICONTROL New Datastream]**.
 
-   1. In **[!UICONTROL Schema Evento]** , seleziona lo schema Experience Event creato in precedenza e fai clic su **[!UICONTROL Salva]**.
+   1. Nell&#39;elenco a discesa **[!UICONTROL Schema evento]**, seleziona lo schema evento esperienza creato in precedenza e fai clic su **[!UICONTROL Salva]**.
 
       ![](assets/decision-rule-context-datastream.png)
 
-   1. Clic **[!UICONTROL Aggiungi servizio]** e selezionare &quot;Adobe Experience Platform&quot; come servizio. In **[!UICONTROL Set di dati evento]** , seleziona il set di dati evento creato in precedenza e abilita **[!UICONTROL Adobe Journey Optimizer]** opzione.
+   1. Fare clic su **[!UICONTROL Aggiungi servizio]** e selezionare &quot;Adobe Experience Platform&quot; come servizio. Nell&#39;elenco a discesa **[!UICONTROL Set di dati evento]** selezionare il set di dati evento creato in precedenza e abilitare l&#39;opzione **[!UICONTROL Adobe Journey Optimizer]**.
 
       ![](assets/decision-rules-context-datastream-service.png)
 

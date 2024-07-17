@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 3%
+source-wordcount: '786'
+ht-degree: 2%
 
 ---
 
@@ -17,31 +17,31 @@ ht-degree: 3%
 
 L’esperienza basata su codice supporta qualsiasi tipo di implementazione del cliente. In questa pagina puoi trovare esempi per ciascun metodo di implementazione:
 
-* [Lato client ](#client-side-implementation)
+* [Lato client](#client-side-implementation)
 * [Lato server](#server-side-implementation)
 * [Ibrido](#hybrid-implementation)
 
 >[!IMPORTANT]
 >
->Segui [questo collegamento](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} per trovare implementazioni di esempio per diversi casi di utilizzo di personalizzazione e sperimentazione. Eseguile ed eseguili per comprendere meglio quali sono i passaggi di implementazione necessari e come funziona il flusso di personalizzazione end-to-end.
+>Segui [questo collegamento](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} per trovare implementazioni di esempio per diversi casi d&#39;uso di personalizzazione e sperimentazione. Eseguile ed eseguili per comprendere meglio quali sono i passaggi di implementazione necessari e come funziona il flusso di personalizzazione end-to-end.
 
 ## Implementazione lato client {#client-side-implementation}
 
 Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK client AEP: AEP Web SDK o AEP Mobile SDK.
 
-* I passaggi [sotto](#client-side-how) descrivi in un esempio il processo di recupero del contenuto pubblicato sul server Edge dalle campagne di esperienza basate su codice **SDK per web** implementazione e visualizzazione del contenuto personalizzato.
+* I passaggi [riportati di seguito](#client-side-how) descrivono il processo di recupero del contenuto pubblicato sul server Edge dalle campagne di esperienza basate su codice in un esempio di implementazione **Web SDK** e visualizzazione del contenuto personalizzato.
 
-* I passaggi per implementare un canale basato su codice utilizzando **SDK per dispositivi mobili** sono descritti in [questa esercitazione](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* I passaggi per implementare un canale basato su codice utilizzando **Mobile SDK** sono descritti in [questa esercitazione](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
 
   >[!NOTE]
   >
-  >Implementazioni di esempio per i casi di utilizzo per dispositivi mobili sono disponibili per [app iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >Implementazioni di esempio per casi d&#39;uso per dispositivi mobili sono disponibili per [app iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} e [app Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
 
 ### Come funziona - SDK per web {#client-side-how}
 
-1. [SDK per web](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} è incluso nella pagina.
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} è incluso nella pagina.
 
-1. È necessario utilizzare il `sendEvent` e specifica l’URI della superficie per recuperare il contenuto di personalizzazione.
+1. È necessario utilizzare il comando `sendEvent` e specificare l&#39;URI di superficie per recuperare il contenuto di personalizzazione.
 
    ```javascript
    alloy("sendEvent", {
@@ -52,9 +52,9 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Gli elementi di esperienza basati su codice devono essere applicati manualmente dal codice di implementazione (utilizzando [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} DOM in base alla decisione.
+1. Gli elementi esperienza basati su codice devono essere applicati manualmente dal codice di implementazione (utilizzando il metodo [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"}) per aggiornare il DOM in base alla decisione.
 
-1. Per le campagne basate su codice, gli eventi di visualizzazione devono essere inviati manualmente per indicare quando è stato visualizzato il contenuto. Questa operazione viene eseguita tramite `sendEvent` comando.
+1. Per le campagne basate su codice, gli eventi di visualizzazione devono essere inviati manualmente per indicare quando è stato visualizzato il contenuto. Questa operazione viene eseguita tramite il comando `sendEvent`.
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
    }
    ```
 
-1. Per le campagne di esperienza basate su codice, gli eventi di interazione devono essere inviati manualmente per indicare quando un utente ha interagito con il contenuto. Questa operazione viene eseguita tramite `sendEvent` comando.
+1. Per le campagne di esperienza basate su codice, gli eventi di interazione devono essere inviati manualmente per indicare quando un utente ha interagito con il contenuto. Questa operazione viene eseguita tramite il comando `sendEvent`.
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -118,14 +118,14 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
 
 I cookie vengono utilizzati per rendere persistenti l’identità dell’utente e le informazioni sul cluster. Quando si utilizza un’implementazione lato client, Web SDK gestisce automaticamente l’archiviazione e l’invio di questi cookie durante il ciclo di vita della richiesta.
 
-| Cookie | Finalità | Archiviato da | Inviato da |
+| Cookie | Scopo | Archiviato da | Inviato da |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
 | kndctr_AdobeOrg_identity | Contiene i dettagli dell’identità utente | SDK per web | SDK per web |
 | kndctr_AdobeOrg_cluster | Indica quale cluster di Experience Edge deve essere utilizzato per soddisfare le richieste | SDK per web | SDK per web |
 
-**Posizionamento della richiesta**
+**Posizionamento richiesta**
 
-Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere proposte e inviare una notifica di visualizzazione. Quando si utilizza un’implementazione lato client, Web SDK effettua queste richieste quando `sendEvent` viene utilizzato il comando.
+Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere proposte e inviare una notifica di visualizzazione. Quando si utilizza un&#39;implementazione lato client, Web SDK effettua queste richieste quando si utilizza il comando `sendEvent`.
 
 | Richiesta | Creato da |
 | ---------------------------------------------- | ----------------------------------- |
@@ -138,14 +138,14 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 
 ## Implementazione lato server {#server-side-implementation}
 
-Se disponi di un’implementazione lato server, puoi utilizzare una delle API di AEP Edge Network.
+Se disponi di un’implementazione lato server, puoi utilizzare una delle API Edge Network di AEP.
 
-I passaggi seguenti descrivono il processo di recupero dei contenuti pubblicati sul server Edge dalle campagne di esperienza basate su codice in un esempio di implementazione API della rete Edge per una pagina web e di visualizzazione dei contenuti personalizzati.
+I passaggi seguenti descrivono il processo di recupero dei contenuti pubblicati sul server Edge dalle campagne di esperienza basate su codice in un Edge Network di implementazione API per una pagina web e di visualizzazione dei contenuti personalizzati.
 
 ### Come funziona
 
-1. La pagina web viene richiesta ed eventuali cookie memorizzati in precedenza dal browser con prefisso `kndctr_` sono inclusi.
-1. Quando la pagina viene richiesta dal server dell’app, viene inviato un evento al [endpoint di raccolta dati interattivo](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) per recuperare il contenuto di personalizzazione. Questa app di esempio utilizza alcuni metodi di supporto per semplificare la creazione e l’invio di richieste all’API (vedi [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Ma la richiesta è semplicemente un `POST` con un payload che contiene un evento e una query. I cookie (se disponibili) della fase precedente sono inclusi nella richiesta nel `meta>state>entries` array.
+1. La pagina Web è richiesta e sono inclusi tutti i cookie precedentemente memorizzati dal browser con prefisso `kndctr_`.
+1. Quando la pagina viene richiesta dal server app, viene inviato un evento all&#39;[endpoint di raccolta dati interattiva](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) per recuperare il contenuto di personalizzazione. Questa app di esempio utilizza alcuni metodi di supporto per semplificare la creazione e l&#39;invio di richieste all&#39;API (vedi [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Ma la richiesta è semplicemente un `POST` con un payload che contiene un evento e una query. I cookie (se disponibili) del passaggio precedente sono inclusi nella richiesta nell&#39;array `meta>state>entries`.
 
    ```javascript
    fetch(
@@ -282,14 +282,14 @@ I passaggi seguenti descrivono il processo di recupero dei contenuti pubblicati 
 
 I cookie vengono utilizzati per rendere persistenti l’identità dell’utente e le informazioni sul cluster. Quando si utilizza un’implementazione lato server, il server applicazioni deve gestire l’archiviazione e l’invio di questi cookie durante il ciclo di vita della richiesta.
 
-| Cookie | Finalità | Archiviato da | Inviato da |
+| Cookie | Scopo | Archiviato da | Inviato da |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
 | kndctr_AdobeOrg_identity | Contiene i dettagli dell’identità utente | server applicazioni | server applicazioni |
 | kndctr_AdobeOrg_cluster | Indica quale cluster di Experience Edge deve essere utilizzato per soddisfare le richieste | server applicazioni | server applicazioni |
 
-**Posizionamento della richiesta**
+**Posizionamento richiesta**
 
-Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere proposte e inviare una notifica di visualizzazione. Quando si utilizza un’implementazione lato client, Web SDK effettua queste richieste quando `sendEvent` viene utilizzato il comando.
+Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere proposte e inviare una notifica di visualizzazione. Quando si utilizza un&#39;implementazione lato client, Web SDK effettua queste richieste quando si utilizza il comando `sendEvent`.
 
 | Richiesta | Creato da |
 | ---------------------------------------------- | ------------------------------------------------------------ |
@@ -304,5 +304,5 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 
 Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di seguito.
 
-* Adobe di blog tecnico: [Personalizzazione ibrida in Adobe Experience Platform Web SDK](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentazione SDK: [Personalizzazione ibrida tramite Web SDK e API del server di rete Edge](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Blog di tecnologia Adobe: [Personalization ibrido nell&#39;SDK Web di Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* Documentazione SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}

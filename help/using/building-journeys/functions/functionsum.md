@@ -26,12 +26,12 @@ Aggregazione
 
 `sum(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 * listInteger
 * listDecimal
 * durata
-* numero intero
+* intero
 * decimale
 
 ## Firme e tipi restituiti

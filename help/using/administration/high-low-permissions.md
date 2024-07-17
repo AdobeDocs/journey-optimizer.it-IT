@@ -23,15 +23,15 @@ ht-degree: 0%
 Ogni ruolo è composto da autorizzazioni che consentono agli utenti di accedere alle diverse funzioni.
 Possono essere divisi in due tipi:
 
-* **Autorizzazioni di alto livello**: rappresenta le diverse autorizzazioni che possono essere assegnate a **[!UICONTROL Ruolo]**, ad esempio **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. Le autorizzazioni di alto livello comprendono le autorizzazioni di basso livello. Le autorizzazioni di alto livello sono descritte in dettaglio in [questa pagina](ootb-permissions.md).
+* **Autorizzazione di alto livello**: rappresenta le diverse autorizzazioni che possono essere assegnate a **[!UICONTROL Ruolo]**, ad esempio **[!DNL Publish journeys]** e **[!DNL Manage subdomains delegation]**. Le autorizzazioni di alto livello comprendono le autorizzazioni di basso livello. Le autorizzazioni di alto livello sono descritte in dettaglio in [questa pagina](ootb-permissions.md).
 
-* **Autorizzazioni di basso livello**: rappresenta le diverse autorizzazioni provenienti dall’autorizzazione di livello superiore.
+* **Autorizzazione di basso livello**: rappresenta le diverse autorizzazioni provenienti dall&#39;autorizzazione di alto livello.
 
-Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL Manage journeys]** autorizzazione. Da questa autorizzazione derivano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
+Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;autorizzazione **[!DNL Manage journeys]**. Da questa autorizzazione derivano le autorizzazioni di basso livello che consentiranno all&#39;amministratore di Percorso di scrivere, leggere ed eliminare percorsi.
 
 ## risorsa percorso {#journey-capability}
 
-* **[!DNL Manage journeys]** le autorizzazioni di alto livello consentono agli utenti di creare nuovi Percorsi e di modificare/eliminare quelli esistenti, nonché di accedere agli oggetti utilizzati nell’area di lavoro del percorso per creare il flusso di percorso.
+* L&#39;autorizzazione di alto livello **[!DNL Manage journeys]** consente agli utenti di creare nuovi Percorsi e modificare/eliminare quelli esistenti, nonché di accedere agli oggetti utilizzati nell&#39;area di lavoro del percorso per generare il flusso di percorso.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -51,7 +51,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Publish journeys]** le autorizzazioni di alto livello consentono agli utenti di pubblicare percorsi.
+* **[!DNL Publish journeys]** autorizzazione di alto livello consente agli utenti di pubblicare percorsi.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -60,7 +60,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View journeys]** le autorizzazioni di alto livello consentono agli utenti di sfogliare e visualizzare i percorsi.
+* L&#39;autorizzazione di alto livello **[!DNL View journeys]** consente agli utenti di visualizzare e sfogliare i percorsi.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -73,7 +73,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di configurare le configurazioni di eventi e dati.
+* L&#39;autorizzazione di alto livello **[!DNL Manage journeys events, data sources and actions]** consente agli utenti di configurare le configurazioni di eventi e dati.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -95,7 +95,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View journeys events, data sources and actions]** le autorizzazioni di alto livello consentono agli utenti di utilizzare eventi e dati nel flusso di percorso.
+* L&#39;autorizzazione di alto livello **[!DNL View journeys events, data sources and actions]** consente agli utenti di utilizzare eventi e dati nel flusso di percorso.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -111,7 +111,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View journeys report]** le autorizzazioni di alto livello consentono agli utenti di visualizzare un report di sola lettura sul percorso.
+* L&#39;autorizzazione di alto livello **[!DNL View journeys report]** consente agli utenti di visualizzare un report del percorso di sola lettura.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -129,7 +129,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 ## risorsa regole Journey Optimizer {#journey-rules-capability}
 
-* **[!DNL Manage frequency rules]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare, eliminare e attivare/disattivare le regole di frequenza.
+* L&#39;autorizzazione di alto livello **[!DNL Manage frequency rules]** consente agli utenti di leggere, creare, modificare, eliminare e attivare/disattivare le regole di frequenza.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -140,7 +140,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View frequency rules]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le regole di frequenza.
+* **[!DNL View frequency rules]** autorizzazione di alto livello consente agli utenti di visualizzare le regole di frequenza.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -151,7 +151,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 ## Risorsa della campagna {#campaign-capability}
 
-* **[!DNL Export suppression list]** le autorizzazioni di alto livello consentono agli utenti di scaricare l’elenco di soppressione come file CSV.
+* L&#39;autorizzazione di alto livello **[!DNL Export suppression list]** consente agli utenti di scaricare l&#39;elenco di soppressione come file CSV.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -164,7 +164,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage campaigns]** Le autorizzazioni di alto livello consentono agli utenti di creare nuove campagne e di modificarle/eliminarle
+* L&#39;autorizzazione di alto livello **[!DNL Manage campaigns]** consente agli utenti di creare nuove campagne e di modificarle o eliminarle
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -179,7 +179,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Publish campaigns]** le autorizzazioni di alto livello consentono agli utenti di pubblicare campagne.
+* L&#39;autorizzazione di alto livello **[!DNL Publish campaigns]** consente agli utenti di pubblicare campagne.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -191,7 +191,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View campaigns report]** le autorizzazioni di alto livello consentono agli utenti di leggere e modificare i rapporti sulle campagne.
+* L&#39;autorizzazione di alto livello **[!DNL View campaigns report]** consente agli utenti di leggere e modificare il report delle campagne.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -205,7 +205,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 ## Risorsa di gestione decisioni {#decisions-permissions}
 
-* **[!DNL Manage decisions]** autorizzazione di alto livello consente agli utenti di creare nuovi elementi e modificare/eliminare quelli esistenti **[!DNL Activity entities]**, nonché gestire gli oggetti utilizzati in tali attività per prendere le decisioni.
+* L&#39;autorizzazione di alto livello **[!DNL Manage decisions]** consente agli utenti di creare, modificare o eliminare **[!DNL Activity entities]** esistente e di gestire gli oggetti utilizzati in tali attività per prendere le decisioni.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -231,7 +231,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View decisions]** Le autorizzazioni di alto livello consentono agli utenti di utilizzare un’attività esistente e oggetti di business correlati per prendere le decisioni.
+* L&#39;autorizzazione di alto livello **[!DNL View decisions]** consente agli utenti di utilizzare un&#39;attività esistente e oggetti business correlati per prendere le decisioni.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -250,7 +250,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage offers]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare tutte le offerte, i componenti, le decisioni di lettura e le raccolte.
+* L&#39;autorizzazione di alto livello **[!DNL Manage offers]** consente agli utenti di creare, modificare ed eliminare tutte le offerte, i componenti, le decisioni di lettura e le raccolte.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -272,7 +272,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage ranking strategies]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare strategie di classificazione.
+* L&#39;autorizzazione di alto livello **[!DNL Manage ranking strategies]** consente agli utenti di leggere, creare, modificare ed eliminare strategie di classificazione.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -310,7 +310,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
   +++
 -->
 
-* **[!DNL Manage file routing]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare configurazioni di indirizzamento dei file.
+* L&#39;autorizzazione di alto livello **[!DNL Manage file routing]** consente agli utenti di creare, modificare ed eliminare configurazioni di indirizzamento dei file.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -321,7 +321,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage IP pools]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare la definizione di affinità.
+* L&#39;autorizzazione di alto livello **[!DNL Manage IP pools]** consente agli utenti di creare, modificare ed eliminare la definizione di affinità.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -331,7 +331,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage landing page settings]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare e modificare i sottodomini e le impostazioni predefinite della pagina di destinazione.
+* L&#39;autorizzazione di alto livello **[!DNL Manage landing page settings]** consente agli utenti di leggere, creare e modificare i sottodomini della pagina di destinazione e le impostazioni predefinite.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -346,7 +346,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage messages general settings]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
+* L&#39;autorizzazione di alto livello **[!DNL Manage messages general settings]** consente agli utenti di creare, modificare ed eliminare le impostazioni globali a livello di sandbox.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -360,7 +360,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage messages presets]** le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare superfici di canale tra canali diversi a livello di sandbox.
+* L&#39;autorizzazione di alto livello **[!DNL Manage messages presets]** consente agli utenti di leggere, creare, modificare ed eliminare superfici di canale tra canali a livello di sandbox.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -376,7 +376,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage PTR records]** le autorizzazioni di alto livello consentono agli utenti di leggere e modificare i record PTR configurati in base al sottodominio.
+* L&#39;autorizzazione di alto livello **[!DNL Manage PTR records]** consente agli utenti di leggere e modificare i record PTR configurati in base al sottodominio.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -387,7 +387,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage Seedlist]** Le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare Seedlist.
+* L&#39;autorizzazione di alto livello **[!DNL Manage Seedlist]** consente agli utenti di leggere, creare, modificare ed eliminare Seedlist.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -398,7 +398,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage SMS subdomains]** Le autorizzazioni di alto livello consentono agli utenti di leggere, creare, modificare ed eliminare i sottodomini SMS.
+* L&#39;autorizzazione di alto livello **[!DNL Manage SMS subdomains]** consente agli utenti di leggere, creare, modificare ed eliminare i sottodomini SMS.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -409,7 +409,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage subdomains delegations]** le autorizzazioni di alto livello consentono agli utenti di creare, modificare ed eliminare deleghe di sottodomini (incluso il pool IP).
+* L&#39;autorizzazione di alto livello **[!DNL Manage subdomains delegations]** consente agli utenti di creare, modificare ed eliminare deleghe di sottodomini (incluso il pool IP).
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -420,7 +420,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL Manage suppression]** le autorizzazioni di alto livello consentono agli utenti di definire il numero di mancati recapiti prima che un indirizzo e-mail venga aggiunto all’elenco di soppressione, nonché di aggiungere ed eliminare voci dall’elenco di soppressione.
+* L&#39;autorizzazione di alto livello **[!DNL Manage suppression]** consente agli utenti di definire il numero di mancati recapiti prima che un indirizzo e-mail venga aggiunto all&#39;elenco di soppressione, nonché di aggiungere ed eliminare voci dall&#39;elenco di soppressione.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -432,7 +432,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View file routing]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le configurazioni di indirizzamento dei file.
+* **[!DNL View file routing]** autorizzazione di alto livello consente agli utenti di visualizzare le configurazioni di indirizzamento dei file.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -441,7 +441,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View messages general settings]** le autorizzazioni di alto livello consentono agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l’indirizzo di esecuzione.
+* L&#39;autorizzazione di alto livello **[!DNL View messages general settings]** consente agli utenti di visualizzare le impostazioni generali dei messaggi, ad esempio l&#39;indirizzo di esecuzione.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -453,7 +453,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View messages presets]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i predefiniti per i messaggi.
+* L&#39;autorizzazione di alto livello **[!DNL View messages presets]** consente agli utenti di visualizzare i predefiniti per i messaggi.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 
@@ -467,7 +467,7 @@ Ad esempio, il **[!DNL Journey administrator]** al ruolo è assegnato il **[!DNL
 
 +++
 
-* **[!DNL View PTR records]** le autorizzazioni di alto livello consentono agli utenti di visualizzare i record PTR configurati in base al sottodominio.
+* L&#39;autorizzazione di alto livello **[!DNL View PTR records]** consente agli utenti di visualizzare i record PTR configurati in base al sottodominio.
 
 +++ Include le seguenti autorizzazioni di basso livello:
    * Specifico di Journey Optimizer:
@@ -490,7 +490,7 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 -->
 
 
-* **[!DNL View suppression list]** le autorizzazioni di alto livello consentono agli utenti di visualizzare il contenuto e le impostazioni dell’elenco di soppressione.
+* L&#39;autorizzazione di alto livello **[!DNL View suppression list]** consente agli utenti di visualizzare il contenuto e le impostazioni dell&#39;elenco di soppressione.
 
 +++ Include le seguenti autorizzazioni di basso livello:
 

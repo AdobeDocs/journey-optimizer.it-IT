@@ -21,21 +21,21 @@ ht-degree: 0%
 
 In caso di errore, puoi ricevere gli avvisi di sistema nel centro notifiche di Journey Optimizer (avvisi in-app) e/o ricevere un messaggio e-mail.
 
-Dalla sezione **Avvisi** , puoi visualizzare gli avvisi disponibili e abbonarti. Quando viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), i messaggi di avviso vengono inviati a tutti gli utenti dell’organizzazione che si sono iscritti a tali condizioni.
+Dal menu **Avvisi**, puoi visualizzare gli avvisi disponibili e abbonarti. Quando viene raggiunto un determinato set di condizioni nelle operazioni (ad esempio un potenziale problema quando il sistema supera una soglia), i messaggi di avviso vengono inviati a tutti gli utenti dell’organizzazione che si sono iscritti a tali condizioni.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Ulteriori informazioni sugli avvisi in Adobe Experience Platform in [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}.
+Ulteriori informazioni sugli avvisi in Adobe Experience Platform sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"}.
 
-Nel menu a sinistra, sotto **Amministrazione**, fai clic su **Avvisi**. Per Journey Optimizer sono disponibili due avvisi preconfigurati: [Azione personalizzata percorso non riuscita](#alert-custom-actions) avviso e [Attivatore Read Audience Non Riuscito](#alert-read-audiences) attenzione. Questi avvisi sono descritti di seguito.
+Nel menu a sinistra, nella sezione **Amministrazione**, fare clic su **Avvisi**. Sono disponibili due avvisi preconfigurati per Journey Optimizer: l&#39;avviso [Errore azione personalizzata Percorso](#alert-custom-actions) e l&#39;avviso [Attivatore lettura pubblico non riuscito](#alert-read-audiences). Questi avvisi sono descritti di seguito.
 
-È possibile iscriversi a ogni avviso singolarmente dall’interfaccia utente, selezionando la **Abbonati** opzione dalla **Avvisi** dashboard. Utilizza lo stesso metodo per annullare l’abbonamento.
+È possibile sottoscrivere ogni singolo avviso dall&#39;interfaccia utente selezionando l&#39;opzione **Sottoscrivi** dalla dashboard **Avvisi**. Utilizza lo stesso metodo per annullare l’abbonamento.
 
 ![](assets/alert-subscribe.png)
 
-Puoi anche abbonarti agli avvisi tramite [Notifiche di eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
+È inoltre possibile sottoscrivere avvisi tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Le regole di avviso sono organizzate in pacchetti di abbonamento diversi. Gli abbonamenti agli eventi corrispondenti agli avvisi specifici di Journey Optimizer sono descritti di seguito.
 
-Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente. Per impostazione predefinita, è abilitato solo l’avviso in-app. Per abilitare gli avvisi e-mail, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
+Se si verifica un comportamento imprevisto, viene inviata una notifica di avviso agli abbonati. In base alle preferenze utente, gli avvisi vengono inviati tramite e-mail e/o direttamente all’interno del centro notifiche di Journey Optimizer, nell’angolo in alto a destra dell’interfaccia utente. Per impostazione predefinita, è abilitato solo l’avviso in-app. Per abilitare gli avvisi e-mail, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.
 
 Quando viene risolto un avviso, gli abbonati ricevono una notifica &quot;Risolto&quot;.
 
@@ -55,29 +55,29 @@ Gli avvisi sulle azioni personalizzate vengono risolti quando, negli ultimi 5 mi
 
 * oppure, nessun profilo ha raggiunto l’azione personalizzata.
 
-Il nome dell’abbonamento all’evento di I/O corrispondente all’avviso di azione personalizzato è **Azione personalizzata percorso non riuscita**.
+Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso di azione personalizzata è **Errore Percorso azione personalizzata**.
 
 ## Attivatore Read Audience Non Riuscito {#alert-read-audiences}
 
-Questo avviso ti avvisa se **Read Audience** l’attività non ha elaborato alcun profilo 10 minuti dopo l’ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto.
+Questo avviso ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto.
 
 ![](assets/alerts1.png)
 
-Avvisi su **Read Audience** Le attività sono applicabili solo ai percorsi ricorrenti. **Read Audience** attività in percorsi live che hanno una pianificazione da eseguire **Una volta** o **Appena possibile** vengono ignorati.
+Gli avvisi sulle attività **Read Audience** si applicano solo ai percorsi ricorrenti. **Le attività Read Audience** nei percorsi live che hanno una pianificazione per l&#39;esecuzione di **Once** o **As soon as possible** vengono ignorate.
 
-Avvisi su **Read Audience** vengono risolti quando un profilo entra in **Read Audience** nodo.
+Gli avvisi in **Read Audience** vengono risolti quando un profilo entra nel nodo **Read Audience**.
 
-Il nome dell’abbonamento all’evento di I/O corrispondente al **Attivatore Read Audience Non Riuscito** l&#39;avviso è **Ritardi, errori ed errori del pubblico di lettura percorso**.
+Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso **Read Audience Trigger Unsuccess** è **Percorso di ritardo, errori e errori di lettura del pubblico**.
 
 ## Risoluzione dei problemi {#alert-troubleshooting}
 
-Per risolvere i problemi **Read Audience** avvisi, controlla il conteggio del pubblico nell’interfaccia di Experienci Platform.
+Per risolvere i problemi relativi agli avvisi di **Read Audience**, controlla il numero di tipi di pubblico nell&#39;interfaccia di Experience Platform.
 
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
 
-Per risolvere i problemi **Azione personalizzata** avvisi:
+Per risolvere i problemi relativi agli avvisi di **Azione personalizzata**:
 
 * Controlla l’azione personalizzata utilizzando la modalità di test in un altro percorso:
 
@@ -88,4 +88,5 @@ Per risolvere i problemi **Azione personalizzata** avvisi:
   ![](assets/alert-troubleshooting-3.png)
 
 * Controlla il tuo stepEvents di percorso per cercare ulteriori informazioni su &quot;failureReason&quot;.
-* Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Esegui un controllo manuale con Postman, ad esempio.
+* Controlla la configurazione dell’azione personalizzata e verifica che l’autenticazione sia ancora valida. Eseguire un controllo manuale con Postman,
+ad esempio.

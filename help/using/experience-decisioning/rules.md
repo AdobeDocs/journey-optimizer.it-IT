@@ -31,7 +31,7 @@ Ad esempio, consideriamo uno scenario in cui si hanno elementi decisionali con p
 >
 >Oltre alle regole di decisione a livello di articolo e di strategia di selezione, puoi anche definire il pubblico a cui rivolgerti a livello di campagna. [Ulteriori informazioni](../campaigns/create-campaign.md#audience)
 
-L’elenco delle regole di decisione è accessibile nella sezione **[!UICONTROL Impostazione strategia]** menu.
+L&#39;elenco delle regole di decisione è accessibile nel menu **[!UICONTROL Configurazione strategia]**.
 
 ![](assets/decision-rules-list.png)
 
@@ -39,7 +39,7 @@ L’elenco delle regole di decisione è accessibile nella sezione **[!UICONTROL 
 
 Per creare una regola di decisione, effettua le seguenti operazioni:
 
-1. Accedi a **[!UICONTROL Impostazione strategia]** / **[!UICONTROL Regole di decisione]** quindi fai clic su **[!UICONTROL Crea regola]** pulsante.
+1. Passa a **[!UICONTROL Configurazione strategia]** / **[!UICONTROL Regole di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Crea regola]**.
 
 1. Viene visualizzata la schermata di creazione delle regole di decisione. Denomina la regola e fornisci una descrizione.
 
@@ -51,7 +51,7 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
    >
    >Il Generatore di segmenti fornito per creare regole di decisione presenta alcune specificità rispetto a quello utilizzato con il servizio di segmentazione di Adobe Experience Platform.  Tuttavia, il processo globale descritto nella documentazione è ancora valido per creare regole di decisioni. [Scopri come creare le definizioni dei segmenti](../audience/creating-a-segment-definition.md)
 
-1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il **[!UICONTROL Proprietà del pubblico]** Questo riquadro mostra informazioni sui profili stimati appartenenti al pubblico. Clic **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
+1. Durante l&#39;aggiunta e la configurazione di nuovi campi nell&#39;area di lavoro, nel riquadro **[!UICONTROL Proprietà pubblico]** vengono visualizzate informazioni sui profili stimati appartenenti al pubblico. Fai clic su **[!UICONTROL Aggiorna stima]** per aggiornare i dati.
 
    >[!NOTE]
    >

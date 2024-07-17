@@ -20,23 +20,23 @@ ht-degree: 2%
 
 In questa pagina è disponibile l’elenco dei set di dati di Adobe Journey Optimizer e dei casi d’uso correlati:
 
-[Set di dati dell’evento di tracciamento e-mail](#email-tracking-experience-event-dataset)
-[Set di dati evento feedback messaggio](#message-feedback-event-dataset)
-[Set di dati evento di tracciamento push](#push-tracking-experience-event-dataset)
-[Evento passaggio percorso](#journey-step-event)
-[Set di dati dell’evento Decisioning](#ode-decisionevents)
+[Set Di Dati Evento Di Tracciamento E-Mail](#email-tracking-experience-event-dataset)
+[Set Di Dati Evento Feedback Messaggio](#message-feedback-event-dataset)
+[Set Di Dati Evento Esperienza Tracciamento Push](#push-tracking-experience-event-dataset)
+[Evento passaggio Percorso](#journey-step-event)
+[Set di dati evento decisioning](#ode-decisionevents)
 [Set di dati evento feedback Ccn](#bcc-feedback-event-dataset)
-[Set di dati di entità](#entity-dataset)
+[Set Di Dati Di Entità](#entity-dataset)
 
 Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
 
 ## Set di dati dell’evento di tracciamento e-mail{#email-tracking-experience-event-dataset}
 
-_Nome nell’interfaccia: Set di dati dell’evento di tracciamento e-mail AJO_
+_Nome nell&#39;interfaccia: Set di dati evento di tracciamento e-mail AJO_
 
 Set di dati di sistema per l’acquisizione di eventi di esperienza di tracciamento e-mail da Journey Optimizer.
 
-Lo schema correlato è Schema evento esperienza di tracciamento e-mail AJO.
+Lo schema correlato è lo schema AJO Email Tracking Experience Event.
 
 Questa query mostra il numero di diverse interazioni e-mail (aperture, clic) per un determinato messaggio:
 
@@ -72,11 +72,11 @@ limit 100;
 
 ## Set di dati evento feedback messaggio{#message-feedback-event-dataset}
 
-_Nome nell’interfaccia: Set di dati evento feedback messaggio AJO_
+_Nome nell&#39;interfaccia: Set di dati evento feedback messaggi di AJO_
 
 Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e push da Journey Optimizer.
 
-Lo schema correlato è Schema evento feedback messaggio AJO.
+Lo schema correlato è Schema evento feedback messaggio di AJO.
 
 Questa query mostra i conteggi di diversi stati di feedback e-mail (inviato, non recapitato, ecc.) per un determinato messaggio:
 
@@ -170,11 +170,11 @@ Una volta identificati, rimuovi tali indirizzi dall’elenco di soppressione di 
 
 ## Set di dati evento di tracciamento push {#push-tracking-experience-event-dataset}
 
-_Nome nell’interfaccia: Set di dati evento di tracciamento push AJO_
+_Nome nell&#39;interfaccia: Set di dati evento di tracciamento push di AJO_
 
 Set di dati per l’acquisizione degli eventi di esperienza di tracciamento mobile per il push da Journey Optimizer.
 
-Lo schema correlato è Schema evento di tracciamento push AJO.
+Lo schema correlato è Schema AJO Push Tracking Experience Event.
 
 Esempio di query:
 
@@ -188,7 +188,7 @@ select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (
 
 ## Evento passaggio percorso{#journey-step-event}
 
-_Nome interno: Eventi passaggio Percorso (set di dati di sistema)_
+_Nome interno: eventi passaggio Percorso (set di dati di sistema)_
 
 Set di dati per l’acquisizione degli eventi dei passaggi nel percorso.
 
@@ -229,7 +229,7 @@ group by
 
 ## Set di dati dell’evento Decisioning{#ode-decisionevents}
 
-_Nome nell’interfaccia: ODE DecisionEvents (set di dati di sistema)_
+_Nome nell&#39;interfaccia: ODE DecisionEvents (set di dati di sistema)_
 
 Set di dati per l’acquisizione delle proposte di offerte agli utenti.
 
@@ -291,7 +291,7 @@ select value.marketing.email.val FROM (
 
 ## Set di dati evento feedback Ccn{#bcc-feedback-event-dataset}
 
-_Nome nell’interfaccia: Set di dati evento feedback CCN AJO (set di dati di sistema)_
+_Nome nell&#39;interfaccia: Set di dati evento feedback Ccn AJO (set di dati di sistema)_
 
 Set di dati per memorizzare informazioni per messaggi Ccn.
 
@@ -334,11 +334,11 @@ WHERE
 
 ## Set di dati di entità{#entity-dataset}
 
-_Nome nell’interfaccia: ajo_entity_dataset (set di dati di sistema)_
+_Nome nell&#39;interfaccia: ajo_entity_dataset (set di dati di sistema)_
 
 Set di dati per memorizzare i metadati di entità per i messaggi inviati all’utente finale.
 
-Lo schema correlato è Schema entità AJO.
+Lo schema correlato è AJO Entity Schema.
 
 Questo set di dati consente di accedere a metadati definiti dall’addetto al marketing, che consentono di ottenere informazioni migliori sui rapporti quando i set di dati di Journey Optimizer vengono esportati per la visualizzazione di reporting in strumenti esterni. Questo viene ottenuto utilizzando l’attributo messageID che consente di unire vari set di dati, come il set di dati di feedback sui messaggi e di tracciamento degli eventi sull’esperienza, per ottenere i dettagli di una consegna di messaggi dall’invio al tracciamento a livello di profilo.
 

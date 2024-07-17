@@ -13,7 +13,7 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 59dee15d2952438a074db57a94b3d896b38cd4f3
 workflow-type: tm+mt
 source-wordcount: '615'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -21,31 +21,31 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->Il contenuto multilingue è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>Il contenuto multilingue è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Utilizzando il flusso manuale, puoi tradurre facilmente il contenuto direttamente nella tua campagna e nel percorso E-mail, Notifica push o SMS, offrendoti opzioni precise di controllo e personalizzazione per i messaggi multilingue. Inoltre, puoi importare facilmente contenuti multilingue preesistenti con l’opzione Importa HTML.
 
 Per creare contenuti multilingue mediante la traduzione manuale, segui la procedura riportata di seguito:
 
-1. [Creare le impostazioni locali](#create-locale).
+1. [Crea le tue impostazioni locali](#create-locale).
 
-1. [Creare le impostazioni della lingua](#create-language-settings).
+1. [Crea impostazioni lingua](#create-language-settings).
 
-1. [Creare un contenuto multilingue](#create-a-multilingual-campaign).
+1. [Crea un contenuto multilingue](#create-a-multilingual-campaign).
 
 ## Crea lingua {#create-locale}
 
-Durante la configurazione delle impostazioni della lingua, come descritto in [Creare le impostazioni della lingua](#language-settings) , se non è disponibile una lingua specifica per il contenuto multilingue, è possibile creare il numero di lingue desiderato utilizzando **[!UICONTROL Traduzione]** menu.
+Durante la configurazione delle impostazioni della lingua, come descritto nella sezione [Creare le impostazioni della lingua](#language-settings), se non è disponibile una lingua specifica per il contenuto multilingue, è possibile creare il numero di nuove lingue necessario utilizzando il menu **[!UICONTROL Traduzione]**.
 
-1. Dalla sezione **[!UICONTROL Gestione dei contenuti]** menu, accesso **[!UICONTROL Traduzione]**.
+1. Dal menu **[!UICONTROL Gestione contenuto]**, accedi a **[!UICONTROL Traduzione]**.
 
-1. Dalla sezione **[!UICONTROL Dizionario impostazioni internazionali]** , fare clic su **[!UICONTROL Aggiungi lingua]**.
+1. Dalla scheda **[!UICONTROL Dizionario impostazioni internazionali]**, fare clic su **[!UICONTROL Aggiungi impostazioni locali]**.
 
    ![](assets/locale_1.png)
 
-1. Selezionare il codice di impostazioni internazionali dall&#39; **[!UICONTROL Lingua]** e il relativo **[!UICONTROL Regione]**.
+1. Seleziona il codice della lingua dall&#39;elenco **[!UICONTROL Lingua]** e dall&#39;area **[!UICONTROL Regione]** associata.
 
-1. Clic **[!UICONTROL Salva]** per creare la lingua.
+1. Fai clic su **[!UICONTROL Salva]** per creare le impostazioni internazionali.
 
    ![](assets/locale_2.png)
 
@@ -53,37 +53,37 @@ Durante la configurazione delle impostazioni della lingua, come descritto in [Cr
 
 In questa sezione puoi impostare la lingua principale e le lingue associate per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo
 
-1. Dalla sezione **[!UICONTROL Amministrazione]** menu, accesso **[!UICONTROL Canale]**.
+1. Dal menu **[!UICONTROL Amministrazione]**, accedi a **[!UICONTROL Canale]**.
 
-1. In **[!UICONTROL Impostazioni lingua]** menu, fai clic su **[!UICONTROL Creare le impostazioni della lingua]**.
+1. Nel menu **[!UICONTROL Impostazioni lingua]**, fare clic su **[!UICONTROL Crea impostazioni lingua]**.
 
    ![](assets/multilingual-settings-1.png)
 
-1. Digita il nome della tua **[!UICONTROL Impostazioni lingua]**.
+1. Digitare il nome delle **[!UICONTROL impostazioni lingua]**.
 
-1. Seleziona la **[!UICONTROL Impostazioni internazionali]** associato a queste impostazioni. Puoi aggiungere un massimo di 50 impostazioni internazionali.
+1. Seleziona le **[!UICONTROL impostazioni internazionali]** associate a queste impostazioni. Puoi aggiungere un massimo di 50 impostazioni internazionali.
 
-   Se un **[!UICONTROL Lingua]** mancante, è possibile crearlo manualmente in anticipo dalla **[!UICONTROL Traduzione]** menu o tramite API. Fai riferimento a [Crea una nuova lingua](#create-locale).
+   Se manca una **[!UICONTROL Lingua]**, puoi crearla manualmente in anticipo dal menu **[!UICONTROL Traduzione]** o tramite API. Consulta [Crea una nuova lingua](#create-locale).
 
    ![](assets/multilingual-settings-2.png)
 
-1. Dalla sezione **[!UICONTROL Preferenza di invio]** selezionare l&#39;attributo che si desidera cercare per trovare informazioni sulle lingue del profilo.
+1. Dal menu **[!UICONTROL Preferenza di invio]**, selezionare l&#39;attributo che si desidera cercare per trovare informazioni sulle lingue del profilo.
 
    ![](assets/multilingual-settings-3.png)
 
-1. Clic **[!UICONTROL Modifica]** accanto al tuo **[!UICONTROL Lingua]** per personalizzarlo ulteriormente e aggiungere **[!UICONTROL Preferenze profilo]**.
+1. Fai clic su **[!UICONTROL Modifica]** accanto alla tua **[!UICONTROL Impostazioni locali]** per personalizzarla ulteriormente e aggiungere **[!UICONTROL Preferenze profilo]**.
 
    ![](assets/multilingual-settings-4.png)
 
-1. Seleziona altro **[!UICONTROL Impostazioni internazionali]** dal menu a discesa Preferenze profilo e fai clic su **[!UICONTROL Aggiungere profili]**.
+1. Seleziona altre **[!UICONTROL Impostazioni internazionali]** dal menu a discesa Preferenze profilo e fai clic su **[!UICONTROL Aggiungi profili]**.
 
-1. Accedi al menu avanzato del **[!UICONTROL Lingua]** per definire **[!UICONTROL Impostazioni locali principali]**, ovvero la lingua predefinita se l’attributo del profilo non è specificato.
+1. Accedi al menu avanzato di **[!UICONTROL Impostazioni locali]** per definire le **[!UICONTROL Impostazioni locali primarie]**, ovvero la lingua predefinita se l&#39;attributo del profilo non è specificato.
 
    È inoltre possibile eliminare le impostazioni locali da questo menu avanzato.
 
    ![](assets/multilingual-settings-5.png)
 
-1. Clic **[!UICONTROL Invia]** per creare **[!UICONTROL Impostazioni lingua]**.
+1. Fai clic su **[!UICONTROL Invia]** per creare le **[!UICONTROL impostazioni lingua]**.
 
 <!--
 1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
@@ -98,7 +98,7 @@ In questa sezione puoi impostare la lingua principale e le lingue associate per 
 
 Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il percorso e personalizzarne il contenuto per ciascuna delle lingue selezionate.
 
-1. Per iniziare, crea e configura le notifiche e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
+1. Inizia creando e configurando la tua notifica e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
 
    >[!AVAILABILITY]
    >
@@ -110,27 +110,27 @@ Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il per
 
    ![](assets/multilingual-campaign-2.png)
 
-1. Clic **[!UICONTROL Aggiungi lingue]** e seleziona il creato in precedenza **[!UICONTROL Impostazioni lingua]**. [Ulteriori informazioni](#create-language-settings)
+1. Fai clic su **[!UICONTROL Aggiungi lingue]** e seleziona le **[!UICONTROL Impostazioni lingua]** create in precedenza. [Ulteriori informazioni](#create-language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
-1. Accedi alle impostazioni avanzate di **[!UICONTROL Impostazioni internazionali]** menu e seleziona **[!UICONTROL Copia principale in tutte le lingue]**.
+1. Accedi alle impostazioni avanzate del menu **[!UICONTROL Impostazioni internazionali]** e seleziona **[!UICONTROL Copia primario in tutte le impostazioni internazionali]**.
 
    ![](assets/multilingual-campaign-4.png)
 
-1. Ora che il contenuto principale viene duplicato in tutto il file selezionato  **[!UICONTROL Impostazioni internazionali]**, accedere alle impostazioni locali e fare clic su **[!UICONTROL Modifica corpo dell’e-mail]** per tradurre il contenuto.
+1. Ora che il contenuto principale è duplicato in tutte le **[!UICONTROL Impostazioni locali]** selezionate, accedi a ciascuna impostazione locale e fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per tradurre il contenuto.
 
    ![](assets/multilingual-campaign-5.png)
 
-1. È possibile scegliere di disabilitare o abilitare le impostazioni internazionali con **[!UICONTROL Altre azioni]** nel menu della lingua selezionata.
+1. Puoi scegliere di disabilitare o abilitare le impostazioni internazionali con il menu **[!UICONTROL Ulteriori azioni]** della lingua selezionata.
 
    ![](assets/multilingual-campaign-6.png)
 
-1. Per disattivare la configurazione multilingue, fai clic su **[!UICONTROL Aggiungi lingue]** e selezionare la lingua da mantenere come lingua locale.
+1. Per disattivare la configurazione multilingue, fare clic su **[!UICONTROL Aggiungi lingue]** e selezionare la lingua da mantenere come lingua locale.
 
    ![](assets/multilingual-campaign-7.png)
 
-1. Clic **[!UICONTROL Controlla per attivare]** per visualizzare un riepilogo della campagna.
+1. Fai clic su **[!UICONTROL Rivedi per attivare]** per visualizzare un riepilogo della campagna.
 
    Il riepilogo ti consente di modificare la campagna, se necessario, e di verificare se un parametro è errato o mancante.
 

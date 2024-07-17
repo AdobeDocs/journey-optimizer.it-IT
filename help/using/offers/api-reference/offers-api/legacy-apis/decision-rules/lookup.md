@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Cercare una regola di decisione {#lookup-decision-rule}
 
-Per cercare una regola di decisione specifica, devi effettuare una richiesta GET al [!DNL Offer Library] API che include la regola di decisione `@id` o il nome della regola di decisione nel percorso della richiesta.
+Per cercare una regola di decisione specifica, effettuare una richiesta di GET all&#39;API [!DNL Offer Library] che includa la regola di decisione `@id` o il nome della regola di decisione nel percorso della richiesta.
 
 **Formato API**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le regole di decisione. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | Definisce lo schema associato alle regole di decisione. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Il parametro s `id` e `name` non possono essere utilizzati insieme. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Sales rule` |
+| `id` | Stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. Impossibile utilizzare insieme i parametri s `id` e `name`. | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non possono essere utilizzati insieme | `Sales rule` |
 
 **Richiesta**
 

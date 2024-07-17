@@ -19,7 +19,7 @@ L’offerta di fallback viene inviata ai clienti se non sono idonei per altre of
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle offerte di fallback è accessibile nella sezione **[!UICONTROL Offerte]** menu.
+L&#39;elenco delle offerte di fallback è accessibile nel menu **[!UICONTROL Offerte]**.
 
 ![](../assets/offers_list.png)
 
@@ -29,7 +29,7 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 >
 >A differenza delle offerte personalizzate, le offerte di fallback non hanno regole di idoneità e parametri di vincolo, in quanto vengono presentate ai clienti come ultime risorse senza condizioni.
 
-1. Clic **[!UICONTROL Crea offerta]**, quindi seleziona **[!UICONTROL Offerta di fallback]**.
+1. Fai clic su **[!UICONTROL Crea offerta]**, quindi seleziona **[!UICONTROL Offerta di fallback]**.
 
    ![](../assets/create_fallback.png)
 
@@ -37,19 +37,19 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
    ![](../assets/fallback_details.png)
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base all’offerta, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base all&#39;offerta, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../../administration/object-based-access.md)
 
 1. Crea una o più rappresentazioni per l’offerta di fallback. A questo scopo, trascina e rilascia i posizionamenti dal riquadro a sinistra, come durante la creazione di un’offerta personalizzata. Consulta [Creare offerte personalizzate](../offer-library/creating-personalized-offers.md).
 
    ![](../assets/fallback_content.png)
 
-1. Dopo aver aggiunto le rappresentazioni dell’offerta di fallback, viene visualizzato un riepilogo. Se tutto è configurato correttamente e l’offerta di fallback è pronta per essere presentata ai clienti, fai clic su **[!UICONTROL Fine]**, quindi seleziona **[!UICONTROL Salva e approva]**.
+1. Dopo aver aggiunto le rappresentazioni dell’offerta di fallback, viene visualizzato un riepilogo. Se tutto è configurato correttamente e l&#39;offerta di fallback è pronta per essere presentata ai clienti, fai clic su **[!UICONTROL Fine]**, quindi seleziona **[!UICONTROL Salva e approva]**.
 
    Puoi anche salvare l’offerta di fallback come bozza, per poi modificarla e approvarla in un secondo momento.
 
    ![](../assets/fallback_review.png)
 
-1. L’offerta di fallback viene visualizzata nell’elenco con **[!UICONTROL Live]** o **[!UICONTROL Bozza]** a seconda che sia stato approvato o meno nel passaggio precedente.
+1. L&#39;offerta di fallback viene visualizzata nell&#39;elenco con lo stato **[!UICONTROL Live]** o **[!UICONTROL Bozza]**, a seconda che sia stata approvata o meno nel passaggio precedente.
 
    Ora è pronto per essere consegnato ai clienti. Puoi selezionarlo per visualizzarne le proprietà e modificarlo. <!-- no suppression? -->
 

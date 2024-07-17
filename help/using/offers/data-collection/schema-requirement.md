@@ -9,31 +9,31 @@ level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 2%
+source-wordcount: '272'
+ht-degree: 1%
 
 ---
 
 # Configurare la raccolta dati {#schema-requirements}
 
-Per poter ottenere feedback su tipi di evento diversi dagli eventi di decisione, è necessario impostare il valore corretto per ciascun tipo di evento in un **evento esperienza** inviato a Adobe Experience Platform.
+Per ottenere un feedback su tipi di evento diversi dagli eventi di decisione, è necessario impostare il valore corretto per ciascun tipo di evento in un **evento esperienza** inviato in Adobe Experience Platform.
 
 >[!CAUTION]
 >
->Per ogni tipo di evento, assicurati che lo schema utilizzato nel set di dati abbia **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato. [Ulteriori informazioni](create-dataset.md)
+>Per ogni tipo di evento, accertati che allo schema utilizzato nel set di dati sia associato il gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]**. [Ulteriori informazioni](create-dataset.md)
 
 Di seguito sono riportati i requisiti dello schema da implementare nel codice JavaScript.
 
 >[!NOTE]
 >
->Non è necessario inviare gli eventi di decisione, in quanto la gestione delle decisioni genererà tali eventi automaticamente e li inserirà nel **[!UICONTROL ODE DecisionEvents]** set di dati<!--to check--> generato automaticamente.
+>Non è necessario inviare gli eventi di decisione perché verranno generati automaticamente e inseriti nel set di dati **[!UICONTROL ODE DecisionEvents]**<!--to check--> generato automaticamente.
 
 ## Tracciare le impression {#track-impressions}
 
 Assicurati che il tipo di evento e l’origine siano i seguenti:
 
 **Tipo di evento esperienza:** `decisioning.propositionDisplay`
-**Origine:** Web.sdk/Alloy.js`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
 +++**Payload di esempio:**
 
 ```
@@ -67,7 +67,7 @@ Assicurati che il tipo di evento e l’origine siano i seguenti:
 Assicurati che il tipo di evento e l’origine siano i seguenti:
 
 **Tipo di evento esperienza:** `decisioning.propositionInteract`
-**Origine:** Web.sdk/Alloy.js`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
+**Source:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) o acquisizione batch
 +++**Payload di esempio:**
 
 ```
@@ -98,13 +98,13 @@ Assicurati che il tipo di evento e l’origine siano i seguenti:
 
 ## Tracciare eventi personalizzati {#track-custom-events}
 
-Per gli eventi personalizzati, lo schema utilizzato nel set di dati deve avere anche **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato, ma non esiste alcun requisito specifico sul tipo di evento esperienza che deve essere utilizzato per assegnare tag a tali eventi.
+Per gli eventi personalizzati, allo schema utilizzato nel set di dati deve essere associato anche il gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]**, ma non esiste alcun requisito specifico per il tipo di evento esperienza che deve essere utilizzato per assegnare tag a tali eventi.
 
 >[!NOTE]
 >
->Per poter contabilizzare gli eventi personalizzati in [quota limite](../offer-library/add-constraints.md#capping), è necessario collegare l’evento esperienza agli endpoint Adobe Experience Platform inviandolo a uno dei due endpoint di raccolta dati Edge:
+>Affinché gli eventi personalizzati vengano contabilizzati in [quota limite](../offer-library/add-constraints.md#capping), è necessario collegare l&#39;evento esperienza agli endpoint Adobe Experience Platform inviandolo a uno dei due endpoint di raccolta dati Edge seguenti:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->Se utilizzi il [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la connessione viene effettuata automaticamente.
+>Se utilizzi [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} o [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, la connessione viene stabilita automaticamente.

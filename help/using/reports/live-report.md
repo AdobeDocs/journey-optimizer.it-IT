@@ -17,18 +17,18 @@ ht-degree: 1%
 
 # Introduzione ai rapporti live {#live-report}
 
-Utilizza il **[!UICONTROL Rapporto live]** per misurare e visualizzare in tempo reale l’impatto e le prestazioni dei percorsi e dei messaggi in una dashboard incorporata.
-I dati sono disponibili nel **[!UICONTROL Rapporto live]** non appena la consegna viene inviata o il percorso viene eseguito dal **[!UICONTROL Ultime 24 ore]** scheda.
+Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata.
+I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**.
 
-* Se si desidera eseguire il targeting di un percorso nel contesto di un percorso, dal **[!UICONTROL Percorsi]** , accedere al percorso e fare clic sul pulsante **[!UICONTROL Visualizza rapporto]** pulsante.
+* Se desideri eseguire il targeting di un percorso nel contesto di un percorso, dal menu **[!UICONTROL Percorsi]**, accedi al percorso e fai clic sul pulsante **[!UICONTROL Visualizza rapporto]**.
 
   ![](assets/report_journey.png)
 
-* Se desideri eseguire il targeting di una campagna, da **[!UICONTROL Campagne]** , accedi alla tua campagna e fai clic sul pulsante **[!UICONTROL Rapporti]** pulsante.
+* Se desideri eseguire il targeting di una campagna, dal menu **[!UICONTROL Campagne]**, accedi alla campagna e fai clic sul pulsante **[!UICONTROL Rapporti]**.
 
   ![](assets/report_campaign.png)
 
-* Se si desidera passare dalla modalità **[!UICONTROL Rapporto globale]** al **[!UICONTROL Rapporto live]** per la consegna, fai clic su **[!UICONTROL Ultime 24 ore]** dal selettore di tabulazione.
+* Se desideri passare dal **[!UICONTROL Global report]** al **[!UICONTROL Live report]** per la consegna, fai clic su **[!UICONTROL Ultime 24 ore]** nel cambio scheda.
 
   ![](assets/report_3.png)
 
@@ -38,11 +38,11 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo i widget. La modifica dei widget ha effetto solo sul dashboard dell&#39;utente corrente. Gli altri utenti visualizzeranno le proprie dashboard o quelle impostate per impostazione predefinita.
 
-1. Dalla sezione **[!UICONTROL Azioni]** a discesa, scegli se desideri creare rapporti su una particolare azione dei tuoi percorsi.
+1. Dal menu a discesa **[!UICONTROL Azioni]**, scegli se desideri creare rapporti su una particolare azione dei tuoi percorsi.
 
-1. Scegliere se si desidera escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+1. Scegliere se si desidera escludere gli eventi di test dai rapporti con la barra di attivazione. Per ulteriori informazioni sugli eventi di test, fare riferimento a [questa pagina](../building-journeys/testing-the-journey.md).
 
-   Tieni presente che **[!UICONTROL Escludere gli eventi di test]** L&#39;opzione è disponibile solo per i rapporti di Percorso.
+   L&#39;opzione **[!UICONTROL Escludi eventi di test]** è disponibile solo per i report di Percorso.
 
    ![](assets/report_modify_6.png)
 
@@ -54,17 +54,17 @@ Ogni dashboard di reporting può essere modificato ridimensionando o rimuovendo 
 
    ![](assets/report_modify_8.png)
 
-1. Clic **[!UICONTROL Rimuovi]** per rimuovere i widget non necessari.
+1. Fai clic su **[!UICONTROL Rimuovi]** per rimuovere i widget non necessari.
 
    ![](assets/report_modify_9.png)
 
-1. Quando si è soddisfatti dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fare clic su **[!UICONTROL Salva]**.
+1. Una volta che sei soddisfatto dell&#39;ordine di visualizzazione e delle dimensioni dei widget, fai clic su **[!UICONTROL Salva]**.
 
 1. Per personalizzare la modalità di visualizzazione dei dati, puoi passare da diverse opzioni di visualizzazione, ad esempio grafici, tabelle e grafici ad anello.
 
    ![](assets/report_modify_11.png)
 
-Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un utilizzo successivo dei rapporti live. Se necessario, utilizza **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine dei widget e dei widget predefiniti.
+Il dashboard è ora salvato. Le diverse modifiche verranno riapplicate per un utilizzo successivo dei rapporti live. Se necessario, utilizzare l&#39;opzione **[!UICONTROL Reimposta]** per ripristinare l&#39;ordine dei widget e dei widget predefiniti.
 
 ## Esportazione dei rapporti {#export-reports}
 
@@ -72,9 +72,9 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 
 >[!BEGINTABS]
 
->[!TAB Esportare il report come file PDF]
+>[!TAB Esporta il report come file PDF]
 
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL file PDF]**.
+1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File PDF]**.
 
    ![](assets/export_6.png)
 
@@ -86,13 +86,13 @@ Puoi esportare facilmente i diversi rapporti in formato PDF o CSV, per condivide
 
 Il report è ora disponibile per la visualizzazione o la condivisione in un file pdf.
 
->[!TAB Esportare il rapporto come file CSV]
+>[!TAB Esporta il report come file CSV]
 
-1. Dal report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
+1. Dal tuo report, fai clic su **[!UICONTROL Esporta]** e seleziona **[!UICONTROL File CSV]** per generare un file CSV a livello di report complessivo.
 
    ![](assets/export_4.png)
 
-1. Puoi anche scegliere di esportare i dati da un widget specifico. Clic **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
+1. Puoi anche scegliere di esportare i dati da un widget specifico. Fai clic su **[!UICONTROL Esporta dati widget in CSV]** accanto al widget selezionato.
 
    ![](assets/export_5.png)
 

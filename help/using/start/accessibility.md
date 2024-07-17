@@ -31,7 +31,7 @@ Le funzioni di accessibilità di Adobe Experience Platform sono descritte in det
 
 In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni seguenti:
 
-| Azione | Tasti di scelta rapida |
+| Azione | Scelta rapida |
 | --- | --- |
 | Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Tab |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
@@ -46,7 +46,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
     <tr>
       <th>Elemento di interfaccia</th>
       <th>Azione</th>
-      <th>Tasti di scelta rapida</th>
+      <th>Scelta rapida</th>
     </tr>
   </thead>
   <tr>

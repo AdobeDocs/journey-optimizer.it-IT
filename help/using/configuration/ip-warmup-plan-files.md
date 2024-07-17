@@ -24,6 +24,6 @@ DO NOT MAKE PUBLIC AND DO NOT DELETE
 This page is not supposed to be publicly accessible. Its only purpose is to make the referenced IP warmup plan files (template and sample) available from the UI. They should be downloaded from the UI by AJO customers but not from public documentation pages.
 -->
 
-* Dall’interfaccia utente puoi scaricare il file Excel vuoto [Modello di piano di riscaldamento IP](assets/IPWarmupPlan-Template.xlsx) da compilare.
+* Dall&#39;interfaccia utente è possibile scaricare il modello di [piano di riscaldamento IP di Excel](assets/IPWarmupPlan-Template.xlsx) vuoto da compilare.
 
-* È inoltre possibile scaricare un [esempio di piano di riscaldamento IP](assets/IPWarmupPlan-Sample.xlsx) già compilati con alcuni dati che puoi utilizzare come esempio.
+* Puoi anche scaricare un [piano di riscaldamento dell&#39;IP di esempio](assets/IPWarmupPlan-Sample.xlsx) già compilato con alcuni dati che puoi utilizzare come esempio.

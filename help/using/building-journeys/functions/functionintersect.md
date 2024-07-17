@@ -26,7 +26,7 @@ Elenco
 
 `intersect(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
@@ -55,7 +55,7 @@ intersect(
 )
 ```
 
-Restituisce [&quot;sport&quot;, &quot;notizie&quot;]
+Restituisce [&quot;sport&quot;, &quot;news&quot;]
 
 ```json
 intersect(

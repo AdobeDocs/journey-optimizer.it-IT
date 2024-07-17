@@ -20,17 +20,17 @@ ht-degree: 17%
 
 Lo scopo di questo caso d’uso è la creazione di un percorso per inviare un messaggio agli abbonati di un elenco.
 
-In questo esempio, la proprietà **[!UICONTROL Dettagli su consenso e preferenze]** gruppo di campi da [!DNL Adobe Experience Platform] viene utilizzato. Per trovare questo gruppo di campi, dal **[!UICONTROL Gestione dati]** menu, scegliere **[!UICONTROL Schemi]**. Il giorno **[!UICONTROL Gruppi di campi]** , immettere il nome del gruppo di campi nel campo di ricerca.
+In questo esempio viene utilizzato il gruppo di campi **[!UICONTROL Dettagli consenso e preferenze]** di [!DNL Adobe Experience Platform]. Per trovare questo gruppo di campi, scegliere **[!UICONTROL Schemi]** dal menu **[!UICONTROL Gestione dati]**. Nella scheda **[!UICONTROL Gruppi di campi]** immettere il nome del gruppo di campi nel campo di ricerca.
 
 ![Questo gruppo di campi include l&#39;elemento subscriptions](assets/consent-and-preference-details-field-group.png)
 
 Per configurare il percorso, eseguire la procedura seguente:
 
-1. Creare un percorso che inizia con **[!UICONTROL Letto]** attività. [Ulteriori informazioni](journey-gs.md).
-1. Aggiungi un **[!UICONTROL E-mail]** attività al percorso. [Ulteriori informazioni](journeys-message.md).
-1. In **[!UICONTROL Parametri e-mail]** sezione del **[!UICONTROL E-mail]** , sostituisci l&#39;indirizzo e-mail predefinito (`PersonalEmail.adress`) con l’indirizzo e-mail degli iscritti all’elenco:
+1. Crea un percorso che inizia con un&#39;attività **[!UICONTROL Leggi]**. [Ulteriori informazioni](journey-gs.md).
+1. Aggiungi al percorso un&#39;attività di azione **[!UICONTROL E-mail]**. [Ulteriori informazioni](journeys-message.md).
+1. Nella sezione **[!UICONTROL Parametri e-mail]** delle impostazioni dell&#39;attività **[!UICONTROL E-mail]**, sostituisci l&#39;indirizzo e-mail predefinito (`PersonalEmail.adress`) con l&#39;indirizzo e-mail degli iscritti all&#39;elenco:
 
-   1. Fai clic su **[!UICONTROL Abilita sostituzione parametro]** a destra della **[!UICONTROL Indirizzo]** , quindi fare clic sul pulsante **[!UICONTROL Modifica]** icona.
+   1. Fai clic sull&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo **[!UICONTROL Indirizzo]**, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.
 
       ![](assets/message-to-subscribers-uc-1.png)
 
@@ -49,13 +49,13 @@ Per configurare il percorso, eseguire la procedura seguente:
       | `entry` | Fai riferimento a un elemento mappa in base allo spazio dei nomi selezionato | Fai riferimento a un elenco di iscrizioni specifico |
       | `firstEntryKey` | Recuperare la prima chiave di ingresso di una mappa | Recupera il primo indirizzo e-mail degli abbonati |
 
-      In questo esempio, l’elenco degli abbonamenti è denominato `daily-email`. Gli indirizzi e-mail sono definiti come chiavi nella `subscribers` mappa, collegata alla mappa dell’elenco di iscrizioni.
+      In questo esempio, l&#39;elenco iscrizioni è denominato `daily-email`. Gli indirizzi di posta elettronica sono definiti come chiavi nella mappa `subscribers`, collegata alla mappa dell&#39;elenco iscrizioni.
 
       Ulteriori informazioni su [riferimenti ai campi](expression/field-references.md) nelle espressioni.
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. In **[!UICONTROL Aggiungi un’espressione]** , fare clic su **[!UICONTROL Ok]**.
+   1. Nella finestra di dialogo **[!UICONTROL Aggiungi espressione]** fare clic su **[!UICONTROL Ok]**.
 
 >[!CAUTION]
 >

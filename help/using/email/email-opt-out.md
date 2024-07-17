@@ -22,13 +22,13 @@ Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clie
 
 >[!NOTE]
 >
->Tutti i messaggi di marketing devono includere un collegamento di rinuncia. Questo non è necessario per i messaggi transazionali. La categoria del messaggio - **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]** - è definito in corrispondenza di [superficie di canale](../configuration/channel-surfaces.md#email-type) e durante la creazione del messaggio.
+>Tutti i messaggi di marketing devono includere un collegamento di rinuncia. Questo non è necessario per i messaggi transazionali. La categoria del messaggio - **[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]** - è definita al livello [superficie di canale](../configuration/channel-surfaces.md#email-type) e durante la creazione del messaggio.
 
 Per inserire un collegamento di annullamento all’abbonamento nel contenuto dell’e-mail, puoi:
 
-* Aggiungi un URL con un solo clic per annullare l’iscrizione nell’intestazione dell’e-mail. Abilitazione di **[!UICONTROL Intestazione annullamento iscrizione a mailing list]** a livello di superficie di canale, aggiunge un collegamento di rinuncia nell’intestazione e-mail. [Ulteriori informazioni sulla rinuncia nell’intestazione dell’e-mail](#unsubscribe-header)
+* Aggiungi un URL con un solo clic per annullare l’iscrizione nell’intestazione dell’e-mail. L&#39;abilitazione dell&#39;opzione **[!UICONTROL Intestazione annullamento iscrizione]** a livello di superficie di canale aggiunge un collegamento di rinuncia nell&#39;intestazione dell&#39;e-mail. [Ulteriori informazioni sulla rinuncia nell&#39;intestazione dell&#39;e-mail](#unsubscribe-header)
 
-* Abilita **collegamento di rinuncia con un clic** per l’e-mail.  [Scopri come aggiungere un collegamento di rinuncia con un solo clic](#one-click-opt-out)
+* Abilita **collegamento rinuncia con un solo clic** per l&#39;e-mail.  [Scopri come aggiungere un collegamento di rinuncia con un solo clic](#one-click-opt-out)
 
 * Inserisci un **collegamento a una pagina di destinazione**. [Scopri come aggiungere una pagina di destinazione di rinuncia](#opt-out-external-lp)
 
@@ -45,9 +45,9 @@ Per inserire un collegamento di annullamento all’abbonamento nel contenuto del
 >abstract="Abilita l’opzione Intestazione annulla iscrizione mailing list per aggiungere un URL di annullamento iscrizione all’intestazione dell’e-mail. Per impostare un URL per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#one-click-opt-out" text="Rinuncia con un clic"
 
-L’URL per l’annullamento dell’iscrizione a un elenco con un solo clic è un collegamento o un pulsante che consente di annullare l’iscrizione visualizzato accanto alle informazioni sul mittente dell’e-mail e che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. In Adobe Journey Optimizer, quando **Abilita annullamento sottoscrizione elenco** l’opzione è attivata, l’intestazione e-mail include sia un mailto che un URL per impostazione predefinita che i destinatari possono utilizzare per annullare l’iscrizione alla mailing list.
+L’URL per l’annullamento dell’iscrizione a un elenco con un solo clic è un collegamento o un pulsante che consente di annullare l’iscrizione visualizzato accanto alle informazioni sul mittente dell’e-mail e che consente ai destinatari di annullare immediatamente l’iscrizione alle mailing list con un solo clic. In Adobe Journey Optimizer, quando l&#39;opzione **Abilita annullamento sottoscrizione a mailing list** è attivata, l&#39;intestazione dell&#39;e-mail include sia un mailto che un URL per impostazione predefinita che i destinatari possono utilizzare per annullare l&#39;iscrizione alla mailing list.
 
-Il [Abilita annullamento sottoscrizione elenco](email-settings.md#list-unsubscribe) l’opzione deve essere attivata a livello della superficie di canale, in modo che le e-mail che utilizzano questa superficie includano l’URL per l’annullamento dell’iscrizione con un solo clic nell’intestazione dell’e-mail.
+L&#39;interruttore [Abilita annullamento sottoscrizione a elenco](email-settings.md#list-unsubscribe) deve essere attivato a livello della superficie di canale in modo che le e-mail che utilizzano questa superficie includano l&#39;URL di annullamento dell&#39;iscrizione con un solo clic nell&#39;intestazione dell&#39;e-mail.
 
 >[!NOTE]
 >
@@ -68,21 +68,21 @@ Con Adobe Journey Optimizer, puoi configurare le impostazioni della superficie e
 >
 -->
 
-A seconda del client e-mail e del [impostazioni annullamento iscrizione superficie e-mail](email-settings.md#list-unsubscribe), facendo clic sul collegamento per annullare l’iscrizione nell’intestazione dell’e-mail si possono verificare i seguenti effetti:
+A seconda del client e-mail e delle [impostazioni di annullamento dell&#39;abbonamento alla superficie e-mail](email-settings.md#list-unsubscribe), fare clic sul collegamento di annullamento dell&#39;abbonamento nell&#39;intestazione e-mail può avere i seguenti effetti:
 
-* Quando **Invia a (annulla iscrizione)** la funzione è abilitata, la richiesta di annullamento dell’abbonamento viene inviata all’indirizzo predefinito di annullamento dell’abbonamento in base al sottodominio da te creato.
-* Quando **URL per annullamento iscrizione con un solo clic** La funzione è abilitata da te oppure, se hai inserito un URL di annullamento dell’abbonamento nel contenuto del corpo dell’e-mail, il destinatario viene direttamente escluso, a livello di canale o a livello di ID (a seconda di come è configurato il consenso), quando il destinatario fa clic sull’URL di annullamento dell’abbonamento con un clic, basato sul sottodominio da te creato.
+* Quando la funzionalità **Invia a (annulla iscrizione)** è abilitata, la richiesta di annullamento dell&#39;iscrizione viene inviata all&#39;indirizzo predefinito dell&#39;annullamento dell&#39;iscrizione in base al sottodominio creato dall&#39;utente.
+* Quando la funzionalità **URL per l&#39;annullamento dell&#39;iscrizione con un solo clic** è abilitata dall&#39;utente o se è stato inserito un URL per l&#39;annullamento dell&#39;iscrizione nel contenuto del corpo dell&#39;e-mail, il destinatario viene direttamente escluso, a livello di canale o a livello di ID (a seconda di come è configurato il consenso), quando il destinatario fa clic sull&#39;URL per l&#39;annullamento dell&#39;iscrizione con un solo clic, che si basa sul sottodominio creato dall&#39;utente.
 
-In entrambi i casi, il profilo corrispondente per il destinatario viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Per ulteriori informazioni, consulta [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
+In entrambi i casi, il profilo corrispondente per il destinatario viene immediatamente escluso e questa scelta viene aggiornata in Experience Platform. Ulteriori informazioni sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
 
-Se hai attivato il **[!UICONTROL Abilita annullamento sottoscrizione elenco]** per quanto riguarda l’intestazione Annullamento iscrizione a mailing list, ti consigliamo di abilitare entrambi i metodi: **Invia a (annulla iscrizione)** e **URL per annullamento iscrizione con un clic**. Non tutti i client e-mail supportano il metodo HTTP. Con la funzione di annullamento dell’iscrizione all’elenco Invia a disponibile come funzionalità per la selezione di un’alternativa, la reputazione del mittente può essere protetta meglio e tutti i destinatari possono accedere per utilizzare la funzionalità di annullamento dell’iscrizione. [Ulteriori informazioni](email-settings.md#list-unsubscribe)
+Se hai attivato l&#39;opzione **[!UICONTROL Abilita annullamento sottoscrizione a elenco]** per quanto riguarda l&#39;intestazione Annullamento iscrizione a elenco, ti consigliamo di abilitare entrambi i metodi: **Invia a (annulla iscrizione)** e **URL annullamento iscrizione con un solo clic**. Non tutti i client e-mail supportano il metodo HTTP. Con la funzione di annullamento dell’iscrizione all’elenco Invia a disponibile come funzionalità per la selezione di un’alternativa, la reputazione del mittente può essere protetta meglio e tutti i destinatari possono accedere per utilizzare la funzionalità di annullamento dell’iscrizione. [Ulteriori informazioni](email-settings.md#list-unsubscribe)
 
 
 ### Rinuncia con un clic dal contenuto dell’e-mail {#one-click-opt-out}
 
 Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inserisci un collegamento di rinuncia con un solo clic nel contenuto del messaggio e-mail e immetti l’URL desiderato, come descritto di seguito:
 
-1. Accedi al contenuto delle e-mail e [inserire un collegamento](../email/message-tracking.md#insert-links).
+1. Accedi al contenuto dell&#39;e-mail e [inserisci un collegamento](../email/message-tracking.md#insert-links).
 1. Seleziona **[!UICONTROL Rinuncia con un clic]** come tipo di collegamento.
 
    ![](assets/message-tracking-opt-out.png)
@@ -91,7 +91,7 @@ Per impostare un URL personalizzato per l’annullamento dell’iscrizione, inse
 
    >[!NOTE]
    >
-   >Se hai attivato **[!UICONTROL Annullamento iscrizione mailing list]** opzione in corrispondenza di [livello di superficie di canale](email-settings.md#list-unsubscribe) e deseleziona l’opzione predefinita URL rinuncia con un solo clic, questo URL viene utilizzato quando gli utenti fanno clic sul collegamento di annullamento dell’iscrizione nell’intestazione dell’e-mail. [Ulteriori informazioni](#unsubscribe-header)
+   >Se hai attivato l&#39;opzione **[!UICONTROL Annulla sottoscrizione elenco]** a [livello di superficie di canale](email-settings.md#list-unsubscribe) e hai deselezionato l&#39;opzione predefinita URL rinuncia con un solo clic, questo URL viene utilizzato quando gli utenti fanno clic sul collegamento di annullamento dell&#39;iscrizione nell&#39;intestazione dell&#39;e-mail. [Ulteriori informazioni](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -126,7 +126,7 @@ Puoi anche utilizzare una pagina di destinazione esterna. In tal caso, configura
 
 +++ Scopri come implementare una chiamata API di rinuncia
 
-Per consentire ai destinatari di rinunciare selezionando la preferenza dalla pagina di destinazione, devi implementare una **Chiamata API per abbonamento** da a [Adobe Developer](https://developer.adobe.com){target="_blank"} per aggiornare le preferenze dei profili corrispondenti.
+Per consentire ai destinatari di rinunciare selezionando la preferenza dalla pagina di destinazione, devi implementare una **chiamata API per abbonamento** tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} per aggiornare le preferenze dei profili corrispondenti.
 
 La chiamata POST è la seguente:
 
@@ -163,7 +163,7 @@ Corpo della richiesta:
 }
 ```
 
-[!DNL Journey Optimizer] utilizza questi parametri per aggiornare la scelta del profilo corrispondente tramite [Adobe Developer](https://developer.adobe.com){target="_blank"} Chiamata API.
+[!DNL Journey Optimizer] utilizza questi parametri per aggiornare la scelta del profilo corrispondente tramite la chiamata API [Adobe Developer](https://developer.adobe.com){target="_blank"}.
 
 +++
 
@@ -172,13 +172,13 @@ Corpo della richiesta:
 
 Devi innanzitutto aggiungere a un messaggio un collegamento che consenta di annullare l’iscrizione. Per farlo, segui la procedura indicata di seguito:
 
-1. Creare un messaggio e [inserire un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale.
+1. Crea un messaggio e [inserisci un collegamento](../email/message-tracking.md#insert-links) utilizzando la barra degli strumenti contestuale.
 
    ![](assets/opt-out-insert-link.png)
 
-1. Seleziona la **[!UICONTROL Pagina di destinazione]** dal **[!UICONTROL Tipo]** e seleziona la pagina di destinazione di rinuncia nella sezione **[!UICONTROL Pagina di destinazione]** campo.
+1. Seleziona la **[!UICONTROL pagina di destinazione]** dall&#39;elenco a discesa **[!UICONTROL Tipo]** e la pagina di destinazione di rinuncia nel campo **[!UICONTROL Pagina di destinazione]**.
 
-   Se utilizzi una pagina di destinazione esterna, seleziona **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]** dal **[!UICONTROL Tipo]** elenco a discesa.
+   Se utilizzi una pagina di destinazione esterna, seleziona **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]** dall&#39;elenco a discesa **[!UICONTROL Tipo]**.
 
    ![](assets/opt-out-link-type.png)
 
@@ -199,7 +199,7 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
 
    ![](assets/opt-out-lp-example.png)
 
-1. Se il destinatario invia il modulo, in questo caso premendo il tasto **[!UICONTROL Annulla iscrizione]** nella pagina di destinazione: i dati del profilo vengono aggiornati tramite la chiamata API.
+1. Se il destinatario invia il modulo (in questo esempio, premendo il pulsante **[!UICONTROL Annulla iscrizione]** nella pagina di destinazione), i dati del profilo vengono aggiornati tramite la chiamata API.
 
 1. Il destinatario che ha scelto l’opt-out viene quindi reindirizzato a una schermata con un messaggio di conferma che indica che la rinuncia è avvenuta con successo.
 
@@ -207,7 +207,7 @@ Una volta configurato il collegamento che apre la pagina di destinazione in cui 
 
    L’utente non riceverà più comunicazioni dal tuo marchio, a meno che non acconsenta nuovamente.
 
-1. Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta [Documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
+1. Per verificare che la scelta del profilo corrispondente sia stata aggiornata, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. Ulteriori informazioni sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 

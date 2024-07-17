@@ -14,19 +14,19 @@ ht-degree: 4%
 ---
 
 
-# Consegnare offerte tramite [!DNL Batch Decisioning] API {#deliver-offers-batch}
+# Consegnare offerte tramite l&#39;API [!DNL Batch Decisioning] {#deliver-offers-batch}
 
-Il [!DNL Batch Decisioning] API consente alle organizzazioni di utilizzare la funzionalità di decisioning per tutti i profili in un determinato pubblico in una chiamata. Il contenuto dell’offerta per ogni profilo del pubblico viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
+L&#39;API [!DNL Batch Decisioning] consente alle organizzazioni di utilizzare la funzionalità di decisioning per tutti i profili in un determinato pubblico in una chiamata. Il contenuto dell’offerta per ogni profilo del pubblico viene inserito in un set di dati Adobe Experience Platform dove è disponibile per flussi di lavoro batch personalizzati.
 
-Con il [!DNL Batch Decisioning] API, puoi popolare un set di dati con le offerte migliori per tutti i profili in un pubblico Adobe Experience Platform, per ambiti decisionali. Ad esempio, un’organizzazione potrebbe voler eseguire [!DNL Batch Decisioning] in modo che possano inviare offerte a un fornitore di consegna dei messaggi. Tali offerte vengono quindi utilizzate come contenuto inviato per la consegna di messaggi in batch allo stesso pubblico di utenti.
+Con l&#39;API [!DNL Batch Decisioning], puoi popolare un set di dati con le offerte migliori per tutti i profili in un pubblico Adobe Experience Platform per ambiti decisionali. Ad esempio, un&#39;organizzazione potrebbe voler eseguire [!DNL Batch Decisioning] in modo da poter inviare offerte a un fornitore di recapito messaggi. Tali offerte vengono quindi utilizzate come contenuto inviato per la consegna di messaggi in batch allo stesso pubblico di utenti.
 
 A tal fine, l’organizzazione:
 
-* Esegui il [!DNL Batch Decisioning] API, che contiene due richieste:
+* Eseguire l&#39;API [!DNL Batch Decisioning], che contiene due richieste:
 
-   1. A **Richiesta Batch POST** per avviare un carico di lavoro per elaborare in batch le selezioni delle offerte.
+   1. **Richiesta Batch POST** per avviare un carico di lavoro per l&#39;elaborazione batch delle selezioni delle offerte.
 
-   2. A **Richiesta batch di GET** per ottenere lo stato del carico di lavoro batch.
+   2. **Richiesta di GET batch** per ottenere lo stato del carico di lavoro batch.
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 
@@ -34,10 +34,10 @@ A tal fine, l’organizzazione:
 
 >[!NOTE]
 >
->Le decisioni in batch possono essere eseguite anche utilizzando l’interfaccia di Journey Optimizer. Per ulteriori informazioni, consulta [questa sezione](../../batch-delivery.md), che fornisce informazioni sui prerequisiti e le limitazioni globali da tenere in considerazione quando si utilizzano le decisioni batch.
+>Le decisioni in batch possono essere eseguite anche utilizzando l’interfaccia di Journey Optimizer. Per ulteriori informazioni, consulta [questa sezione](../../batch-delivery.md), che fornisce informazioni sui prerequisiti e le limitazioni globali da tenere in considerazione durante l&#39;utilizzo delle decisioni batch.
 
-* **Numero di processi batch in esecuzione per set di dati**: è possibile eseguire fino a cinque processi batch alla volta, per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene selezionato per l&#39;elaborazione al termine dell&#39;esecuzione del processo precedente.
-* **Limitazione di frequenza**: un batch viene eseguito dallo snapshot del profilo che si verifica una volta al giorno. Il [!DNL Batch Decisioning] L’API limita la frequenza e carica sempre i profili dallo snapshot più recente.
+* **Numero di processi batch in esecuzione per set di dati**: è possibile eseguire fino a cinque processi batch alla volta per set di dati. Eventuali altre richieste batch con lo stesso set di dati di output vengono aggiunte alla coda. Un processo in coda viene selezionato per l&#39;elaborazione al termine dell&#39;esecuzione del processo precedente.
+* **Limitazione della frequenza**: viene eseguito un batch dello snapshot del profilo che si verifica una volta al giorno. L&#39;API [!DNL Batch Decisioning] limita la frequenza e carica sempre i profili dallo snapshot più recente.
 
 ## Introduzione {#getting-started}
 
@@ -49,7 +49,7 @@ Per preparare una o più decisioni, assicurati di aver creato un set di dati, un
 
 ### Requisiti API {#api-requirements}
 
-Tutti [!DNL Batch Decisioning] Le richieste di richiedono le seguenti intestazioni oltre a quelle indicate nella [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md):
+Tutte le [!DNL Batch Decisioning] richieste richiedono le intestazioni seguenti oltre a quelle indicate nella [Guida per gli sviluppatori API per la gestione delle decisioni](../getting-started.md):
 
 * `Content-Type`: `application/json`
 * `x-request-id`: stringa univoca che identifica la richiesta.
@@ -57,7 +57,7 @@ Tutti [!DNL Batch Decisioning] Le richieste di richiedono le seguenti intestazio
 
 ## Avviare un processo batch {#start-a-batch-process}
 
-Per avviare un carico di lavoro per l&#39;elaborazione in batch delle decisioni, effettuare una richiesta POST al `/workloads/decisions` endpoint.
+Per avviare un carico di lavoro per le decisioni di elaborazione in batch, effettuare una richiesta POST all&#39;endpoint `/workloads/decisions`.
 
 >[!NOTE]
 >
@@ -104,13 +104,13 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:segmentIds` | Il valore è un array che contiene l’identificatore univoco del pubblico. Può contenere un solo valore. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | Il set di dati di output in cui è possibile scrivere gli eventi di decisione. | `6196b4a1a63bd118dafe093c` |
-| `xdm:propositionRequests` | Un wrapper che contiene `placementId` e `activityId` |  |
+| `xdm:propositionRequests` | Un wrapper contenente `placementId` e `activityId` |  |
 | `xdm:activityId` | L’identificatore univoco della decisione. | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | L’identificatore di posizionamento univoco. | `xcore:offer-placement:1410c4117306488a` |
 | `xdm:itemCount` | Questo è un campo facoltativo che mostra il numero di elementi, ad esempio le opzioni richieste per l’ambito decisionale. Per impostazione predefinita, l’API restituisce un’opzione per ambito, ma è possibile richiedere esplicitamente più opzioni specificando questo campo. È possibile richiedere un minimo di 1 e un massimo di 30 opzioni per ambito. | `1` |
-| `xdm:includeContent` | Questo è un campo facoltativo ed è `false` per impostazione predefinita. Se `true`, il contenuto dell’offerta è incluso negli eventi decisionali del set di dati. | `false` |
+| `xdm:includeContent` | Questo è un campo facoltativo ed è `false` per impostazione predefinita. Se `true`, il contenuto dell&#39;offerta viene incluso negli eventi di decisione del set di dati. | `false` |
 
-Consulta la sezione [Documentazione di Gestione delle decisioni](../../get-started/starting-offer-decisioning.md) per una panoramica dei concetti e delle proprietà principali.
+Per una panoramica dei concetti e delle proprietà principali, consulta la [documentazione sulla gestione delle decisioni](../../get-started/starting-offer-decisioning.md).
 
 **Risposta**
 
@@ -132,7 +132,7 @@ Consulta la sezione [Documentazione di Gestione delle decisioni](../../get-start
 
 ## Recuperare informazioni su una decisione batch {#retrieve-information-on-a-batch-decision}
 
-Per recuperare informazioni su una decisione specifica, invia una richiesta GET al `/workloads/decisions` fornendo il corrispondente valore ID del carico di lavoro per la decisione.
+Per recuperare informazioni su una decisione specifica, effettua una richiesta di GET all&#39;endpoint `/workloads/decisions` fornendo il valore ID del carico di lavoro corrispondente per la decisione.
 
 **Formato API**
 
@@ -179,4 +179,4 @@ curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1
 
 ## Passaggi successivi {#next-steps}
 
-Seguendo questa guida API, hai controllato lo stato del carico di lavoro e hai consegnato le offerte utilizzando [!DNL [!DNL Batch Decisioning]] API. Per ulteriori informazioni, vedere [panoramica sulla gestione delle decisioni](../../get-started/starting-offer-decisioning.md).
+Seguendo questa guida API, hai controllato lo stato del carico di lavoro e hai consegnato le offerte utilizzando l’API [!DNL [!DNL Batch Decisioning]]. Per ulteriori informazioni, consulta la [panoramica sulla gestione delle decisioni](../../get-started/starting-offer-decisioning.md).

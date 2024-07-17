@@ -24,27 +24,27 @@ Le raccolte ti consentono di organizzare le offerte raggruppandole in categorie 
 
 ➡️ [Scopri questa funzione nel video](#video)
 
-L’elenco delle raccolte di offerte è accessibile nel **[!UICONTROL Offerte]** menu.
+L&#39;elenco delle raccolte di offerte è accessibile nel menu **[!UICONTROL Offerte]**.
 
 ![](../assets/collections_list.png)
 
 Puoi creare due tipi di raccolte:
 
-* **Raccolte dinamiche** sono raccolte di offerte basate su qualificatori di raccolta (noti in precedenza come &quot;tag&quot;). Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il qualificatore di raccolta selezionato, questa verrà aggiunta automaticamente alla raccolta.
+* **Le raccolte dinamiche** sono raccolte di offerte basate su qualificatori di raccolta (noti in precedenza come &quot;tag&quot;). Queste raccolte vengono aggiornate automaticamente. Ad esempio, se viene creata una nuova offerta con il qualificatore di raccolta selezionato, questa verrà aggiunta automaticamente alla raccolta.
 
-* **Raccolte statiche** sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente più offerte.
+* **Le raccolte statiche** sono raccolte create selezionando manualmente le singole offerte da includere nella raccolta. La raccolta può essere aggiornata solo aggiungendo manualmente più offerte.
 
 Per creare una raccolta, effettua le seguenti operazioni:
 
-1. Vai a **[!UICONTROL Raccolte]** , quindi fai clic su **[!UICONTROL Crea raccolta]**.
+1. Vai alla scheda **[!UICONTROL Raccolte]**, quindi fai clic su **[!UICONTROL Crea raccolta]**.
 
 1. Specifica il nome e il tipo di raccolta da creare.
 
    ![](../assets/collection_create.png)
 
-1. Per creare una raccolta dinamica, utilizza il riquadro a sinistra per selezionare il qualificatore di raccolta delle offerte da aggiungere alla raccolta, quindi fai clic su **[!UICONTROL Salva]**. Tutte le offerte con il qualificatore di raccolta selezionato verranno salvate nella raccolta.
+1. Per creare una raccolta dinamica, utilizzare il riquadro a sinistra per selezionare il qualificatore di raccolta delle offerte da aggiungere alla raccolta, quindi fare clic su **[!UICONTROL Salva]**. Tutte le offerte con il qualificatore di raccolta selezionato verranno salvate nella raccolta.
 
-   Per ulteriori informazioni sulla creazione dei qualificatori di raccolta, consulta [Creare qualificatori di raccolta](../offer-library/creating-tags.md).
+   Per ulteriori informazioni sulla creazione di qualificatori di raccolta, vedere [Creare qualificatori di raccolta](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
@@ -56,7 +56,7 @@ Per creare una raccolta, effettua le seguenti operazioni:
    >
    >Le raccolte statiche non vengono aggiornate automaticamente. Per aggiungere offerte a una raccolta statica, devi modificarla e aggiungerle manualmente.
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base a una raccolta statica, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLAC (Object Level Access Control)](../../administration/object-based-access.md)
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base a una raccolta statica, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../../administration/object-based-access.md)
 
    >[!NOTE]
    >

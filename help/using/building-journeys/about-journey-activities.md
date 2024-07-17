@@ -12,7 +12,7 @@ exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Combina le diverse attività relative a eventi, orchestrazioni e azioni per crea
 
 I percorsi personalizzati vengono attivati da eventi, ad esempio un acquisto online. Una volta che un profilo entra in un percorso, si sposta come un individuo, e non ci sono due individui che si muovono lungo la stessa velocità o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso viene attivato alla ricezione dell’evento. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
 
-Eventi configurati dall’utente tecnico (vedi [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di eventi:
+Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di eventi:
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
@@ -52,7 +52,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 
 Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta.
 
-Dalla palette, sul lato sinistro dello schermo, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, è possibile trovare **[!UICONTROL Azioni]** categoria. Sono disponibili le seguenti attività di azione:
+Dalla palette, sul lato sinistro della schermata, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la categoria **[!UICONTROL Azioni]**. Sono disponibili le seguenti attività di azione:
 
 * [Messaggi e-mail, SMS e push](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
@@ -68,7 +68,7 @@ Le azioni personalizzate eventualmente configurate vengono visualizzate anche qu
 
 ### Aggiungi un’etichetta
 
-La maggior parte delle attività ti consentono di definire una **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e semplifica la lettura dei rapporti. È inoltre possibile aggiungere un&#39;opzione **[!UICONTROL Descrizione]**.
+La maggior parte delle attività ti consentono di definire un **[!UICONTROL Etichetta]**. Questo aggiunge un suffisso al nome che verrà visualizzato sotto l’attività nell’area di lavoro. Questa funzione è utile se utilizzi la stessa attività più volte nel percorso e desideri identificarla più facilmente. Semplifica inoltre il debug in caso di errori e semplifica la lettura dei rapporti. È inoltre possibile aggiungere una **[!UICONTROL Descrizione]** facoltativa.
 
 ![](assets/journey-action-label.png)
 
@@ -82,7 +82,7 @@ La maggior parte delle attività visualizza una serie di parametri avanzati e/o 
 
 ![](assets/journey-advanced-parameters.png)
 
-Per una migliore leggibilità, è possibile nascondere questi parametri utilizzando **[!UICONTROL Nascondi campi di sola lettura]** pulsante.
+Per una migliore leggibilità, è possibile nascondere questi parametri utilizzando il pulsante **[!UICONTROL Nascondi campi di sola lettura]**.
 
 ![](assets/journey-hide-read-only-fields.png)
 
@@ -92,6 +92,6 @@ In alcuni contesti particolari, è possibile ignorare i valori di questi paramet
 
 ### Aggiungi un percorso alternativo
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si interrompe. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

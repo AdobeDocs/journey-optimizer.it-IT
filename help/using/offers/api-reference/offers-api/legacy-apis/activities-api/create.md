@@ -9,17 +9,17 @@ exl-id: 7cb906b9-8925-4482-9915-448a41e11d9d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
 # Creare una decisione {#create-decision}
 
-Per creare una decisione, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+Per creare una decisione, devi eseguire una richiesta POST all&#39;API [!DNL Offer Library] e fornire il tuo ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, comprese le sue univoche `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla decisione appena creata, incluso il relativo `id` univoco. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la decisione.
 
 ```json
 {

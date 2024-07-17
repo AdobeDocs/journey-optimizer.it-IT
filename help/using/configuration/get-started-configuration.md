@@ -41,7 +41,7 @@ Per creare i tuoi percorsi e inviare messaggi, devi seguire i passaggi di config
 
    * Abilitare l’**opzione e-mail Ccn** per conservare una copia dei messaggi inviati ai singoli utenti. [Ulteriori informazioni](archiving-support.md#enable-bcc)
 
-   * Configura **regole aziendali** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](frequency-rules.md)
+   * Configura **regole business** per evitare di sollecitare eccessivamente i destinatari. [Ulteriori informazioni](frequency-rules.md)
 
    * Determinare l’indirizzo e-mail e/o il numero di telefono da utilizzare in priorità per i destinatari quando sono disponibili diversi indirizzi/numeri in Adobe Experience Platform. [Ulteriori informazioni](primary-email-addresses.md)
 

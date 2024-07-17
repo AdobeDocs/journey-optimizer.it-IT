@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # Anteprima del contenuto {#preview}
 
-Una volta [profili di test](test-profiles.md) , è possibile visualizzare in anteprima il contenuto. Effettua le seguenti operazioni:
+Una volta selezionati i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto. Segui i passaggi seguenti:
 
-1. Dalla schermata di modifica del contenuto del messaggio o in E-mail Designer, fai clic su **[!UICONTROL Simula contenuto]** pulsante.
+1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
 1. Seleziona un profilo di test. Puoi controllare i valori disponibili nelle colonne. Utilizza le frecce destra/sinistra per sfogliare i dati.
 
@@ -24,9 +24,9 @@ Una volta [profili di test](test-profiles.md) , è possibile visualizzare in ant
 
    >[!NOTE]
    >
-   >Per aggiungere altri profili di test, seleziona **[!UICONTROL Gestire i profili di test]**. [Ulteriori informazioni](test-profiles.md)
+   >Per aggiungere altri profili di test, selezionare **[!UICONTROL Gestisci profili di test]**. [Ulteriori informazioni](test-profiles.md)
 
-1. Fai clic su **[!UICONTROL Seleziona dati]** sopra l&#39;elenco per aggiungere o rimuovere colonne.
+1. Fai clic sull&#39;icona **[!UICONTROL Seleziona dati]** sopra l&#39;elenco per aggiungere o rimuovere colonne.
 
    Puoi visualizzare i campi di personalizzazione specifici del messaggio corrente alla fine dell’elenco. In questo esempio, la città del profilo, il nome e il cognome. Seleziona questi campi e assicurati che questi valori siano popolati nei profili di test.
 

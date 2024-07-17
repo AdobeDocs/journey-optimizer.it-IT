@@ -38,19 +38,19 @@ Ogni persona nel pubblico di destinazione riceverà una versione di un’e-mail,
 * uno promuove direttamente un’offerta del 10% sulla nuova collezione e un’immagine.
 * l&#39;altra si limita a pubblicizzare un&#39;offerta speciale senza specificare il 10% di sconto senza alcuna immagine.
 
-L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seconda dell’esperimento ricevuto. Pertanto sceglieremo **[!UICONTROL Aperture e-mail]** come metrica di obiettivo principale in questo esperimento sui contenuti.
+L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seconda dell’esperimento ricevuto. Pertanto, sceglieremo **[!UICONTROL Aperture e-mail]** come metrica di obiettivo principale in questo esperimento sui contenuti.
 
 ![](assets/content_experiment.png)
 
 ## Creare i contenuti {#campaign-experiment}
 
-1. Per iniziare, crea e configura le notifiche e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
+1. Inizia creando e configurando la tua notifica e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
 
    >[!AVAILABILITY]
    >
    >La sperimentazione in Percorso è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
-1. Dalla sezione **[!UICONTROL Modifica contenuto]** finestra, iniziare a personalizzare il trattamento A.
+1. Dalla finestra **[!UICONTROL Modifica contenuto]**, inizia a personalizzare il trattamento A.
 
    Per questo trattamento, specificheremo l’offerta speciale direttamente nell’oggetto e aggiungeremo la personalizzazione.
 
@@ -70,27 +70,27 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 >title="Metrica di successo"
 >abstract="La metrica di successo viene utilizzata per monitorare e valutare il trattamento dalle prestazioni migliori in un esperimento. Assicurati di impostare il set di dati per determinate metriche prima di utilizzarlo."
 
-1. Quando il messaggio è personalizzato, dalla pagina di riepilogo della campagna fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti.
+1. Quando il messaggio è personalizzato, dalla pagina di riepilogo della campagna, fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti.
 
    ![](assets/content_experiment_3.png)
 
-1. Seleziona la **[!UICONTROL Metrica di successo]** desideri impostare per l’esperimento.
+1. Seleziona la **[!UICONTROL metrica di successo]** da impostare per l&#39;esperimento.
 
-   Per questo esempio, seleziona **[!UICONTROL E-mail aperta]** per verificare se i profili aprono le e-mail se il codice promozionale è nella riga dell’oggetto.
+   Per questo esempio, seleziona **[!UICONTROL E-mail aperta]** per verificare se i profili aprono le e-mail se il codice promozionale è nella riga dell&#39;oggetto.
 
    ![](assets/content_experiment_11.png)
 
-1. Quando si imposta un esperimento utilizzando il canale in-app o web e si sceglie **[!UICONTROL Clic in entrata]**, **[!UICONTROL Clic univoci in entrata]** , **[!UICONTROL Visualizzazioni pagina]** , o **[!UICONTROL Metriche delle visualizzazioni di pagina univoche]** , il **[!UICONTROL Azione clic]**  a discesa consente di monitorare e tenere traccia con precisione dei clic e delle visualizzazioni su pagine specifiche.
+1. Quando si configura un esperimento utilizzando il canale in-app o Web e si sceglie **[!UICONTROL Clic in entrata]**, **[!UICONTROL Clic in entrata univoci]**, **[!UICONTROL Visualizzazioni pagina]** o **[!UICONTROL Metriche visualizzazioni pagina univoche]** , il menu a discesa **[!UICONTROL Azione clic]** consente di monitorare e tenere traccia con precisione di clic e visualizzazioni su pagine specifiche.
 
    ![](assets/content_experiment_20.png)
 
-1. Clic **[!UICONTROL Aggiungi trattamento]** per creare il maggior numero di nuovi trattamenti necessario.
+1. Fare clic su **[!UICONTROL Aggiungi trattamento]** per creare il numero di nuovi trattamenti necessario.
 
    ![](assets/content_experiment_8.png)
 
-1. Modificare il **[!UICONTROL Titolo]** del trattamento per differenziarli meglio.
+1. Modifica il **[!UICONTROL Titolo]** del trattamento per differenziarli meglio.
 
-1. Scegli di aggiungere una **[!UICONTROL Blocco]** raggruppa per la consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
+1. Scegli di aggiungere un gruppo **[!UICONTROL Holdout]** alla consegna. Questo gruppo non riceverà alcun contenuto da questa campagna.
 
    Se passi alla barra di attivazione, riceverai automaticamente il 10% della tua popolazione; se necessario puoi regolare questa percentuale.
 
@@ -100,21 +100,21 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
    ![](assets/content_experiment_12.png)
 
-1. Puoi quindi scegliere di allocare una percentuale precisa a ciascuno **[!UICONTROL Trattamento]** o semplicemente accendere il **[!UICONTROL Distribuisci uniformemente]** barra di selezione.
+1. Puoi quindi scegliere di allocare una percentuale precisa a ogni **[!UICONTROL Trattamento]** o semplicemente attivare la barra di selezione **[!UICONTROL Distribuisci uniformemente]**.
 
    ![](assets/content_experiment_13.png)
 
-1. Clic **[!UICONTROL Crea]** quando la configurazione è impostata.
+1. Fai clic su **[!UICONTROL Crea]** quando la configurazione è impostata.
 
 ## Progettare i trattamenti {#treatment-experiment}
 
-1. Dalla sezione **[!UICONTROL Modifica contenuto]** finestra, selezionare il trattamento B per modificare il contenuto.
+1. Dalla finestra **[!UICONTROL Modifica contenuto]**, seleziona il trattamento B per modificare il contenuto.
 
-   In questo caso, scegliamo di non specificare l’offerta nel **[!UICONTROL Oggetto]**.
+   In questo caso, si sceglie di non specificare l&#39;offerta nella **[!UICONTROL riga oggetto]**.
 
    ![](assets/content_experiment_18.png)
 
-1. Clic **[!UICONTROL Modifica corpo dell’e-mail]** per personalizzare ulteriormente il trattamento B.
+1. Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]** per personalizzare ulteriormente il trattamento B.
 
    ![](assets/content_experiment_9.png)
 
@@ -122,10 +122,10 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
    ![](assets/content_experiment_7.png)
 
-1. Se necessario, accedi a **[!UICONTROL Impostazioni esperimento]** per modificare la configurazione dei trattamenti.
+1. Se necessario, accedi al menu **[!UICONTROL Impostazioni esperimento]** per modificare la configurazione dei trattamenti.
 
    ![](assets/content_experiment_19.png)
 
-1. Una volta definito il contenuto del messaggio, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering della consegna e controllare le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
+1. Una volta definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering della consegna e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
 Dopo aver configurato la sperimentazione, puoi seguire il successo della consegna con il tuo rapporto. [Ulteriori informazioni](../reports/campaign-global-report.md#experimentation-report)

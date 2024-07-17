@@ -23,9 +23,9 @@ ht-degree: 15%
 >title="Attività Attendi"
 >abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
-È possibile utilizzare una **[!UICONTROL Wait]** per definire una durata prima di eseguire l’attività successiva.  La durata massima di attesa è **90 giorni**.
+Puoi utilizzare un&#39;attività **[!UICONTROL Wait]** per definire una durata prima di eseguire l&#39;attività successiva.  La durata massima di attesa è di **90 giorni**.
 
-È possibile impostare due tipi di **Wait** attività:
+È possibile impostare due tipi di attività **Attendi**:
 
 * Un’attesa basata su una durata relativa. [Ulteriori informazioni](#duration)
 * Una data personalizzata, utilizzando le funzioni per calcolarla. [Ulteriori informazioni](#custom)
@@ -39,25 +39,25 @@ ht-degree: 15%
 
 ### Attività di attesa multiple {#multiple-wait-activities}
 
-Quando si utilizzano più **Wait** attività in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) for days è di 91 percorsi, il che significa che i profili vengono sempre esclusi dal massimo percorso di 91 giorni dopo il loro ingresso. Per ulteriori informazioni, consulta [questa pagina](journey-properties.md#global_timeout).
+Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) per i percorsi è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso 91 giorni dopo l&#39;immissione. Per ulteriori informazioni, consulta [questa pagina](journey-properties.md#global_timeout).
 
-Un individuo può immettere un **Wait** attività solo se dispone di tempo sufficiente nel percorso per completare la durata dell’attesa prima del timeout di 91 percorsi.
+Una persona può accedere a un&#39;attività **Wait** solo se nel percorso è rimasto abbastanza tempo per completare la durata dell&#39;attesa prima del timeout di 91 percorsi.
 
 ### Attendere e rientrare {#wait-re-entrance}
 
-Best practice per non utilizzare **Wait** attività per bloccare il rientro. Invece, utilizza **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-properties.md#entrance).
+È consigliabile non utilizzare le attività **Wait** per bloccare il rientro. Utilizza invece l&#39;opzione **Consenti rientro** a livello di proprietà del percorso. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Modalità di attesa e test {#wait-test-modd}
 
-In modalità di test, il **[!UICONTROL Tempo di attesa nel test]** parametro consente di definire il tempo che ogni **Wait** l’attività durerà. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
+In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di attesa nel test) consente di definire la durata di ogni attività **Wait**. Il tempo predefinito è di 10 secondi. In questo modo potrai ottenere rapidamente i risultati del test. Per ulteriori informazioni, consulta [questa pagina](../building-journeys/testing-the-journey.md).
 
 ## Configurazione {#wait-configuration}
 
 ### Attesa durata {#duration}
 
-Seleziona la **Durata** digita per impostare la durata relativa dell’attesa prima dell’esecuzione dell’attività successiva. La durata massima è **90 giorni**.
+Selezionare il tipo **Durata** per impostare la durata relativa dell&#39;attesa prima dell&#39;esecuzione dell&#39;attività successiva. La durata massima è di **90 giorni**.
 
-![Definire la durata dell’attesa](assets/journey55.png)
+![Definisci la durata dell&#39;attesa](assets/journey55.png)
 
 <!--
 ## Fixed date wait{#fixed_date}
@@ -70,20 +70,20 @@ Select the date for the execution of the next activity.
 
 ### Attesa personalizzata {#custom}
 
-Seleziona la **Personalizzato** digita per definire una data personalizzata, utilizzando un’espressione avanzata basata su un campo proveniente da un evento o da una risposta a un’azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
+Seleziona il tipo **Personalizzato** per definire una data personalizzata, utilizzando un&#39;espressione avanzata basata su un campo proveniente da un evento o una risposta a un&#39;azione personalizzata. Non è possibile definire direttamente una durata relativa, ad esempio 7 giorni, ma è possibile utilizzare le funzioni per calcolarla se necessario (ad esempio, 2 giorni dopo l’acquisto).
 
-![Definire un’attesa personalizzata con un’espressione](assets/journey57.png)
+![Definisci un&#39;attesa personalizzata con un&#39;espressione](assets/journey57.png)
 
-L’espressione nell’editor deve fornire `dateTimeOnly` formato. Consulta [questa pagina](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, fare riferimento a [questa pagina](expression/data-types.md).
+L&#39;espressione nell&#39;editor deve fornire un formato `dateTimeOnly`. Consulta [questa pagina](expression/expressionadvanced.md). Per ulteriori informazioni sul formato dateTimeOnly, vedere [questa pagina](expression/data-types.md).
 
-Si consiglia di utilizzare date personalizzate specifiche per i profili ed evitare di utilizzare la stessa data per tutti. Ad esempio, non definire `toDateTimeOnly('2024-01-01T01:11:00Z')` ma piuttosto `toDateTimeOnly(@event{Event.productDeliveryDate})` che è specifico per ciascun profilo. Tieni presente che l’utilizzo di date fisse può causare problemi nell’esecuzione del percorso.
+Si consiglia di utilizzare date personalizzate specifiche per i profili ed evitare di utilizzare la stessa data per tutti. Ad esempio, non definire `toDateTimeOnly('2024-01-01T01:11:00Z')`, ma `toDateTimeOnly(@event{Event.productDeliveryDate})` specifico per ciascun profilo. Tieni presente che l’utilizzo di date fisse può causare problemi nell’esecuzione del percorso.
 
 
 >[!NOTE]
 >
->Puoi sfruttare una `dateTimeOnly` espressione o utilizzare una funzione per convertire in una `dateTimeOnly`. Ad esempio: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, se il campo è del modulo 2023-08-12T09:46:06Z
+>È possibile sfruttare un&#39;espressione `dateTimeOnly` o utilizzare una funzione per convertire in `dateTimeOnly`. Ad esempio: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, il campo nell&#39;evento è del modulo 2023-08-12T09:46:06Z.
 >
->Il **fuso orario** nelle proprietà del percorso. Di conseguenza, dall’interfaccia utente di, non è possibile puntare direttamente a una marca temporale ISO-8601 completa per la combinazione di tempo e scostamento fuso orario, come 2023-08-12T09:46:06.982-05 [Ulteriori informazioni](../building-journeys/timezone-management.md).
+>Il **fuso orario** è previsto nelle proprietà del percorso. Di conseguenza, dall’interfaccia utente non è possibile puntare direttamente a una marca temporale ISO-8601 completa per la combinazione di tempo e scostamento fuso orario, ad esempio 2023-08-12T09:46:06.982-05. [Ulteriori informazioni](../building-journeys/timezone-management.md).
 
 
 Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. [Ulteriori informazioni](../reports/query-examples.md#common-queries).

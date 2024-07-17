@@ -9,17 +9,17 @@ exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
 # Creare un’offerta di fallback {#create-fallback-offer}
 
-Per creare un’offerta di fallback, devi effettuare una richiesta POST al [!DNL Offer Library] API.
+È possibile creare un&#39;offerta di fallback effettuando una richiesta POST all&#39;API [!DNL Offer Library].
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che costituiscono il campo *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -74,7 +74,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla nuova offerta di fallback creata, inclusa la sua offerta di fallback univoca `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare l’offerta di fallback o per creare una decisione in un’esercitazione successiva.
+In caso di esito positivo, la risposta restituisce informazioni sulla nuova offerta di fallback creata, inclusa la relativa offerta di fallback univoca `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare l&#39;offerta di fallback o per creare una decisione in un&#39;esercitazione successiva.
 
 
 ```json

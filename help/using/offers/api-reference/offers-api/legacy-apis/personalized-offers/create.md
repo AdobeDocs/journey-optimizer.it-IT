@@ -9,7 +9,7 @@ exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 10%
 
 Un’offerta personalizzata è un messaggio di marketing personalizzabile basato su regole e vincoli di idoneità.
 
-Per creare un’offerta personalizzata, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+Per creare un&#39;offerta personalizzata, devi eseguire una richiesta POST all&#39;API [!DNL Offer Library] e fornire il tuo ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -86,7 +86,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sull’offerta personalizzata appena creata, tra cui l’ID istanza e il posizionamento univoci `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare l’offerta personalizzata.
+In caso di esito positivo, la risposta restituisce informazioni sull’offerta personalizzata appena creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare l’offerta personalizzata.
 
 ```json
 {
@@ -104,4 +104,4 @@ In caso di esito positivo, la risposta restituisce informazioni sull’offerta p
 
 ## Limitazioni {#limitations}
 
-Le rappresentazioni di offerta e alcuni vincoli di offerta non sono attualmente supportati con il dispositivo mobile [!DNL Experience Edge] flussi di lavoro, ad esempio `Capping`. Il `Capping` Il valore del campo specifica quante volte un’offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione su regole di idoneità e vincoli per le offerte](../../../../offer-library/creating-personalized-offers.md).
+Le rappresentazioni delle offerte e alcuni vincoli di offerta non sono attualmente supportati con i flussi di lavoro mobili [!DNL Experience Edge], ad esempio `Capping`. Il valore del campo `Capping` specifica il numero di volte in cui un&#39;offerta può essere presentata a tutti gli utenti. Per ulteriori dettagli, consulta [Documentazione su regole e vincoli di idoneità per le offerte](../../../../offer-library/creating-personalized-offers.md).

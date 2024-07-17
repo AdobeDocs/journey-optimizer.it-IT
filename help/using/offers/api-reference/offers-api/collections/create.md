@@ -9,7 +9,7 @@ exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 10%
 
 Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Per creare una raccolta, devi effettuare una richiesta POST al [!DNL Offer Library] API.
+È possibile creare una raccolta effettuando una richiesta POST all&#39;API [!DNL Offer Library].
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che costituiscono il campo *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-collections' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, compresi i relativi `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la raccolta o in un tutorial successivo per creare una decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, incluso `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la raccolta o in un&#39;esercitazione successiva per creare una decisione.
 
 ```json
 {

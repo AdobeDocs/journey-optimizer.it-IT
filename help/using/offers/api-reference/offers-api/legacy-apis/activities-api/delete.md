@@ -9,13 +9,13 @@ exl-id: 36a87d98-fd61-416e-83a1-e267a7b4d455
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 # Eliminare una decisione {#delete-decision}
 
-Occasionalmente può essere necessario revocare (DELETE) una decisione. È possibile eliminare solo le decisioni create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API utilizzando il $id dell’offerta di fallback che desideri eliminare.
+Occasionalmente può essere necessario revocare (DELETE) una decisione. È possibile eliminare solo le decisioni create nel contenitore tenant. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando $id dell&#39;offerta di fallback che si desidera eliminare.
 
 **Formato API**
 

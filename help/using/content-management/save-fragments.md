@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Salva contenuto come frammento {#save-as-fragment}
 
-Durante la modifica del contenuto in [!DNL Journey Optimizer], puoi salvare tutto o parte del contenuto come frammento per riutilizzarlo in futuro. Puoi salvare il contenuto come frammento: [da E-mail Designer](#save-as-visual-fragment), o [dall’editor di espressioni](#save-as-expression-fragment).
+Quando modifichi il contenuto in [!DNL Journey Optimizer], puoi salvare tutto o parte del contenuto come frammento per riutilizzarlo in futuro. È possibile salvare il contenuto come frammento [da E-mail Designer](#save-as-visual-fragment) o [dall&#39;editor espressioni](#save-as-expression-fragment).
 
 ## Salva come frammento visivo {#save-as-visual-fragment}
 
@@ -29,7 +29,7 @@ Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti
 
    ![](assets/fragment-save-as.png)
 
-1. Il **[!UICONTROL Salva come frammento]** schermo. Seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. Gli attributi contestuali non sono supportati nei frammenti.
+1. Viene visualizzata la schermata **[!UICONTROL Salva come frammento]**. Seleziona gli elementi da includere nel frammento, inclusi i campi di personalizzazione e il contenuto dinamico. Gli attributi contestuali non sono supportati nei frammenti.
 
    ![](assets/fragment-save-as-screen.png)
 
@@ -37,13 +37,13 @@ Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti
    >
    >Potete selezionare solo le sezioni adiacenti. Non puoi selezionare una struttura vuota o un altro frammento.
 
-1. Clic **[!UICONTROL Crea]** e compila il nome e la descrizione del frammento (se necessario).
+1. Fai clic su **[!UICONTROL Crea]** e compila il nome e la descrizione del frammento (se necessario).
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, fai clic su **[!UICONTROL Gestisci accesso]** nella sezione superiore dello schermo. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md).
+1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al frammento, fare clic sul pulsante **[!UICONTROL Gestisci accesso]** nella sezione superiore della schermata. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
-1. Seleziona o crea tag Adobe Experience Platform da **Tag** per categorizzare il modello e migliorare la ricerca. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
+1. Seleziona o crea tag Adobe Experience Platform dal campo **Tag** per categorizzare il modello ai fini di una ricerca migliorata. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
-1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto al [elenco frammenti](#access-manage-fragments) con **Bozza** stato. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
+1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto all&#39;elenco di frammenti [](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ L’editor di personalizzazione di [!DNL Journey Optimizer] ti consente di salva
 
 Per salvare il contenuto come frammento di espressione, effettua le seguenti operazioni.
 
-1. In [editor di personalizzazione](../personalization/personalization-build-expressions.md) , genera un&#39;espressione, quindi fai clic su **[!UICONTROL Salva come frammento]**.
+1. Nell&#39;interfaccia dell&#39;[editor personalizzazione](../personalization/personalization-build-expressions.md), genera un&#39;espressione, quindi fai clic su **[!UICONTROL Salva come frammento]**.
 
    >[!NOTE]
    >
@@ -72,10 +72,10 @@ Per salvare il contenuto come frammento di espressione, effettua le seguenti ope
 
    ![](assets/expression-fragment-save-as.png)
 
-1. Clic **[!UICONTROL Salva frammento]**.
+1. Fare clic su **[!UICONTROL Salva frammento]**.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Il frammento viene aggiunto al [elenco frammenti](#access-manage-fragments) con **Bozza** stato. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
+1. Il frammento viene aggiunto all&#39;elenco di frammenti [](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
 
 1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)

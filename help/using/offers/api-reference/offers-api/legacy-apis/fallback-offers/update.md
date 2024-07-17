@@ -9,19 +9,19 @@ exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # Aggiornare un’offerta di fallback {#update-fallback-offer}
 
-Puoi modificare o aggiornare un’offerta di fallback nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
+È possibile modificare o aggiornare un&#39;offerta di fallback nel contenitore effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -64,13 +64,13 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace` e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati dell’offerta di fallback, inclusa la sua istanza univoca `id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati dell&#39;offerta di fallback, inclusa l&#39;istanza univoca `id`.
 
 ```json
 {

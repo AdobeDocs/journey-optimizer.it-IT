@@ -48,15 +48,15 @@ Questi requisiti vengono gestiti tramite componenti in hosting sia dall’Adobe 
 
 **Ulteriori informazioni**
 
-* Scopri come [delegare i sottodomini](delegate-subdomain.md) direttamente dall’interfaccia
-* Scopri come [aggiungere record TXT di Google](google-txt.md) ai sottodomini per garantire la corretta consegna delle e-mail agli indirizzi Gmail
-* Scopri come [accedere ai record PTR](ptr-records.md) generati per i sottodomini, che possono essere verificati inviando server di posta
+* Scopri come [delegare i sottodomini](delegate-subdomain.md) direttamente dall&#39;interfaccia
+* Scopri come [aggiungere record TXT di Google](google-txt.md) ai tuoi sottodomini per garantire la corretta consegna delle e-mail agli indirizzi Gmail
+* Scopri come [accedere ai record PTR](ptr-records.md) generati per i tuoi sottodomini, per verificarli inviando server di posta
 
 ## Metodi di configurazione dei sottodomini {#subdomain-delegation-methods}
 
 La configurazione del sottodominio ti consente di configurare una sottosezione del dominio (tecnicamente una &quot;zona DNS&quot;) per l’utilizzo con Adobe Campaign. I metodi di configurazione disponibili sono:
 
-* **Delega completa dei sottodomini all’Adobe** (consigliato): il sottodominio è completamente delegato ad Adobe. Adobe è in grado di controllare e gestire tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi. [Ulteriori informazioni sulla delega completa dei sottodomini](delegate-subdomain.md#full-subdomain-delegation)
+* **Delega completa del sottodominio all&#39;Adobe** (consigliato): il sottodominio è completamente delegato all&#39;Adobe. Adobe è in grado di controllare e gestire tutti gli aspetti del DNS necessari per la consegna, il rendering e il tracciamento dei messaggi. [Ulteriori informazioni sulla delega completa del sottodominio](delegate-subdomain.md#full-subdomain-delegation)
 
 * **Utilizzo di CNAME**: crea un sottodominio e utilizza i CNAME per puntare a record specifici di Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. [Ulteriori informazioni sulla delega del sottodominio CNAME](delegate-subdomain.md#cname-subdomain-delegation)
 
@@ -70,8 +70,8 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 | Metodo di configurazione | Come funziona | Livello di impegno |
 |---|---|---|
-| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Bassa |
-| **CNAME, metodo personalizzato** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alta |
+| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Campaign.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Basso |
+| **CNAME, metodo personalizzato** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS di Adobe Campaign.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alto |
 
 Per ulteriori informazioni sulla configurazione del dominio, consulta [questa documentazione](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=it).
 
@@ -79,18 +79,18 @@ Se hai domande sui metodi di configurazione dei sottodomini, contatta un Adobe o
 
 ## Accedere ai sottodomini delegati {#access-delegated-subdomains}
 
-Tutti i sottodomini delegati vengono visualizzati nel **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]** menu. Sono disponibili dei filtri per aiutarti a perfezionare l’elenco (data di delega, utente o stato).
+Tutti i sottodomini delegati vengono visualizzati nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Sottodomini]**. Sono disponibili dei filtri per aiutarti a perfezionare l’elenco (data di delega, utente o stato).
 
 ![](assets/subdomain-list.png)
 
-Il **[!UICONTROL Stato]** fornisce informazioni sul processo di delega del sottodominio:
+La colonna **[!UICONTROL Stato]** fornisce informazioni sul processo di delega del sottodominio:
 
 * **[!UICONTROL Bozza]**: la delega del sottodominio è stata salvata come bozza. Fai clic sul nome del sottodominio per riprendere il processo di delega,
-* **[!UICONTROL Elaborazione]**: il sottodominio sta attraversando diversi controlli di configurazione prima di poter essere utilizzato,
-* **[!UICONTROL Completato]**: il sottodominio ha superato correttamente i controlli e può essere utilizzato per inviare messaggi,
-* **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti dopo l’invio della delega del sottodominio.
+* **[!UICONTROL Elaborazione]**: il sottodominio è sottoposto a diversi controlli di configurazione prima di poter essere utilizzato,
+* **[!UICONTROL Operazione completata]**: il sottodominio ha superato i controlli e può essere utilizzato per recapitare i messaggi.
+* **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti dopo l&#39;invio della delega del sottodominio.
 
-Per accedere a informazioni dettagliate su un sottodominio con **[!UICONTROL Completato]** stato, aprilo dall’elenco.
+Per accedere alle informazioni dettagliate su un sottodominio con lo stato **[!UICONTROL Operazione riuscita]**, aprilo dall&#39;elenco.
 
 ![](assets/subdomain-delegated.png)
 

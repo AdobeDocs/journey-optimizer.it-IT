@@ -22,7 +22,7 @@ In qualità di utente Journey Optimizer, puoi organizzare i percorsi utilizzando
 
 ## Aggiungere tag a un percorso
 
-Il **Tag** nelle proprietà del percorso, consente di definire i tag per il percorso. Puoi selezionare un tag esistente o crearne uno nuovo. Inizia a digitare il nome del tag desiderato e selezionalo dall’elenco. Se non è disponibile, fai clic su **Crea** per crearne uno nuovo e aggiungerlo al percorso. Puoi definire tutti i tag necessari.
+Il campo **Tag**, nelle proprietà del percorso, consente di definire i tag per il percorso. Puoi selezionare un tag esistente o crearne uno nuovo. Inizia a digitare il nome del tag desiderato e selezionalo dall’elenco. Se non è disponibile, fai clic su **Crea** per crearne uno nuovo e aggiungerlo al percorso. Puoi definire tutti i tag necessari.
 
 ![](assets/tags1.png)
 
@@ -42,13 +42,13 @@ L’elenco Percorso presenta una colonna dedicata che consente di visualizzare f
 
 ![](assets/tags2.png)
 
-Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso (live, draft, ecc.). Fai clic su **Altre azioni** accanto al percorso e selezionare **Modifica tag**.
+Puoi aggiungere o rimuovere tag da qualsiasi tipo di percorso (live, draft, ecc.). Fai clic sull&#39;icona **Altre azioni** accanto al percorso e seleziona **Modifica tag**.
 
 ![](assets/tags3.png)
 
 ## Gestire i tag
 
-Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **Tag**, sotto **AMMINISTRAZIONE**. Fai riferimento a questo [documentazione](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it).
+Gli amministratori possono eliminare i tag e organizzarli per categorie utilizzando il menu **Tag**, sotto **AMMINISTRAZIONE**. Consulta questa [documentazione](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html?lang=it).
 
 >[!NOTE]
 >

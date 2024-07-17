@@ -34,11 +34,11 @@ In Journey Optimizer, puoi applicare la governance dei dati e i criteri di conse
 
 ## Configurazione URL
 
-Riquadro di configurazione del **Azione personalizzata** L’attività mostra i parametri di configurazione dell’URL e i parametri di autenticazione configurati per l’azione personalizzata. Non è possibile impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
+Nel riquadro di configurazione dell&#39;attività **Azione personalizzata** sono visualizzati i parametri di configurazione URL e i parametri di autenticazione configurati per l&#39;azione personalizzata. Non è possibile impostare la parte statica dell’URL nel percorso, ma nella configurazione globale dell’azione personalizzata. [Ulteriori informazioni](../action/about-custom-action-configuration.md).
 
 ### Percorso dinamico
 
-Se l’URL include un percorso dinamico, specifica il percorso in **[!UICONTROL Percorso]** campo.
+Se l&#39;URL include un percorso dinamico, specificare il percorso nel campo **[!UICONTROL Percorso]**.
 
 Per concatenare campi e stringhe di testo normale, utilizza le funzioni Stringa o il segno più (+) nell’editor di espressioni avanzate. Racchiudere le stringhe di testo normale tra virgolette singole (&#39;) o doppie (&quot;). [Ulteriori informazioni](expression/expressionadvanced.md).
 
@@ -51,13 +51,13 @@ Questa tabella mostra un esempio di configurazione:
 
 L’URL concatenato ha il seguente modulo:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
 ### Intestazioni e parametri di query {#headers}
 
-Il **[!UICONTROL Configurazione URL]** mostra i campi dell’intestazione dinamica e dei parametri della query, ma non i campi costanti. I campi dell’intestazione dinamica e dei parametri di query sono definiti come variabili nella schermata di configurazione dell’azione. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
+La sezione **[!UICONTROL Configurazione URL]** mostra i campi intestazione dinamica e parametro di query, ma non i campi costanti. I campi dell’intestazione dinamica e dei parametri di query sono definiti come variabili nella schermata di configurazione dell’azione. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 
 Per specificare il valore dei campi con intestazione dinamica e parametri di query, fai clic all’interno del campo o sull’icona a forma di matita e seleziona il campo desiderato.
 
@@ -65,7 +65,7 @@ Per specificare il valore dei campi con intestazione dinamica e parametri di que
 
 ## Parametri azione
 
-In **[!UICONTROL Parametri azione]** , vedrai i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. Fai riferimento a questo [pagina](expression/expressionadvanced.md).
+Nella sezione **[!UICONTROL Parametri azione]** verranno visualizzati i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. Fai riferimento a questa [pagina](expression/expressionadvanced.md).
 
 **Argomenti correlati**
 

@@ -26,11 +26,11 @@ Conversione
 
 `toInteger(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | converte il valore stringa come numero intero |
+| stringa | converte il valore stringa come numero intero |
 | dateTime | converte la data in millisecondi (millisecondi epoca) |
 | decimale | converte in numero intero rimuovendo la parte decimale (ad esempio: 1,5 diventa 1) |
 | booleano | converte il valore booleano come 1 se true, 0 se false |

@@ -12,7 +12,7 @@ exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 14%
+ht-degree: 21%
 
 ---
 
@@ -34,7 +34,7 @@ Per questo tipo di evento, puoi aggiungere solo un’etichetta e una descrizione
 
 ![](assets/general-events.png)
 
-Quando si rilascia un evento di business, questo aggiunge automaticamente un **Read Audience** attività. Per ulteriori informazioni sugli eventi di business, consulta [questa sezione](../event/about-events.md)
+Quando rilasci un evento di business, aggiunge automaticamente un&#39;attività **Read Audience**. Per ulteriori informazioni sugli eventi di business, consulta [questa sezione](../event/about-events.md)
 
 ## Ascolto degli eventi durante un periodo di tempo specifico {#events-specific-time}
 
@@ -46,11 +46,11 @@ Se non è definito alcun percorso di timeout, l’impostazione di timeout funger
 
 Per configurare un timeout per un evento, effettua le seguenti operazioni:
 
-1. Attiva il **[!UICONTROL Definire il timeout dell’evento]** dalle proprietà dell’evento.
+1. Attiva l&#39;opzione **[!UICONTROL Definisci il timeout evento]** dalle proprietà dell&#39;evento.
 
 1. Specifica il tempo di attesa dell&#39;evento da parte del percorso. La durata massima è di 29 giorni.
 
-1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita **[!UICONTROL Impostare un percorso di timeout]** opzione. Se questa opzione non è abilitata, il percorso continuerà per la singola persona una volta raggiunto il timeout. È consigliabile abilitare sempre **Impostare un percorso di timeout** opzione.
+1. Se desideri inviare i singoli utenti a un percorso di timeout quando non viene ricevuto alcun evento entro il timeout specificato, abilita l&#39;opzione **[!UICONTROL Imposta un percorso di timeout]**. Se questa opzione non è abilitata, il percorso continuerà per la singola persona una volta raggiunto il timeout. È consigliabile abilitare sempre l&#39;opzione **Imposta un percorso di timeout**.
 
    ![](assets/event-timeout.png)
 
@@ -59,9 +59,9 @@ In questo esempio, il percorso invia un’e-mail di benvenuto a un cliente dopo 
 * Se l’evento del ristorante viene ricevuto meno di 1 giorno dopo l’e-mail di benvenuto, viene inviata l’e-mail con lo sconto sui pasti.
 * Se non viene ricevuto alcun evento del ristorante nel giorno successivo, la persona scorre attraverso il percorso di timeout.
 
-Se desideri configurare un timeout per più eventi posizionati dopo un’ **[!UICONTROL Wait]** attività, è necessario configurare il timeout solo per uno di questi eventi.
+Se vuoi configurare un timeout per più eventi posizionati dopo un&#39;attività **[!UICONTROL Wait]**, devi configurare il timeout solo per uno di questi eventi.
 
-Il timeout definito si applica a tutti gli eventi posizionati dopo il **[!UICONTROL Wait]** attività:
+Il timeout definito si applica a tutti gli eventi posizionati dopo l&#39;attività **[!UICONTROL Wait]**:
 
 * Se un evento viene ricevuto entro la durata di timeout, il singolo passa nel percorso dell’evento ricevuto.
 * Se non viene ricevuto alcun evento entro la durata di timeout, il singolo fluisce nel ramo di timeout dell’evento in cui è stato definito il timeout.

@@ -34,7 +34,7 @@ Gli eventi di esperienza vengono recuperati da Adobe Experience Platform come ra
 
 Ad esempio, supponiamo che tu voglia indirizzare i clienti con un abbandono del carrello negli ultimi 7 giorni per inviare un messaggio quando il cliente si avvicina a un negozio, con un’offerta sugli articoli che voleva fossero in negozio.
 
-**Devi creare le seguenti condizioni:**
+**È necessario creare le seguenti condizioni:**
 
 Innanzitutto, rivolgiti ai clienti che hanno navigato nel negozio online ma non hanno finalizzato l’ordine negli ultimi 7 giorni.
 
@@ -42,7 +42,7 @@ Innanzitutto, rivolgiti ai clienti che hanno navigato nel negozio online ma non 
 
 `In (“addToCart”, #{field reference from experience event})`-->
 
-**Questa espressione cerca tutti gli eventi per questo utente specificati negli ultimi 7 giorni:**
+**L&#39;espressione cerca tutti gli eventi per l&#39;utente specificato negli ultimi 7 giorni:**
 
 Quindi seleziona tutti gli eventi addtocart che non si sono trasformati in un completePurchase.
 
@@ -72,7 +72,7 @@ La marca temporale specificata funge da valore data/ora, la seconda da numero di
 
 Questa espressione restituisce un valore booleano.
 
-**Ora creiamo un’espressione per verificare che il prodotto sia disponibile**
+**Ora creiamo un&#39;espressione per verificare che il prodotto sia disponibile**
 
 * In Inventory, questa espressione cerca il campo quantità di un prodotto e specifica che deve essere maggiore di 0.
 
@@ -82,7 +82,7 @@ Questa espressione restituisce un valore booleano.
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-* E specifica SKU, utilizzando la funzione `first` per recuperare l’interazione &quot;addToCart&quot; più recente:
+* E specificare SKU, utilizzando la funzione `first` per recuperare l&#39;interazione &quot;addToCart&quot; più recente:
 
   ```json
       #{ExperiencePlatformDataSource
@@ -114,7 +114,7 @@ Questa condizione recupera solo gli eventi del recinto geografico attivati in &q
 
 Spiegazione: Si tratta di un confronto stringhe rigoroso (distinzione maiuscole/minuscole), equivalente a una query in modalità semplice che utilizza `equal to` con `Is sensitive` selezionato.
 
-La stessa query con `Is sensitive` se non è selezionata, verrà generata la seguente espressione in modalità avanzata:
+La stessa query con `Is sensitive` deselezionato genererà la seguente espressione in modalità avanzata:
 
 ```json
         equalIgnoreCase(@event{GeofenceEntry
@@ -124,7 +124,7 @@ La stessa query con `Is sensitive` se non è selezionata, verrà generata la seg
                         .name}, "Arlington")
 ```
 
-**Nelle azioni**
+**In azioni**
 
 L’espressione seguente ti consente di definire l’ID del sistema di gestione delle relazioni con i clienti in un campo di personalizzazione delle azioni:
 
@@ -145,6 +145,6 @@ substr(
 )
 ```
 
-Spiegazione: Questo esempio utilizza `substr` e `lastIndexOf` funzioni per rimuovere le parentesi graffe che racchiudono l’ID del sistema di gestione delle relazioni con i clienti passato con un evento di avvio dell’app mobile.
+Spiegazione: In questo esempio vengono utilizzate le funzioni `substr` e `lastIndexOf` per rimuovere le parentesi graffe che racchiudono l&#39;ID CRM passato con un evento di avvio dell&#39;app mobile.
 
-Per ulteriori informazioni su come utilizzare l’editor di espressioni avanzate, consulta [questo video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=it).
+Per ulteriori informazioni su come utilizzare l&#39;editor di espressioni avanzate, guarda [questo video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=it).

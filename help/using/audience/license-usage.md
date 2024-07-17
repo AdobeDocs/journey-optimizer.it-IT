@@ -17,18 +17,18 @@ ht-degree: 7%
 
 # Dashboard utilizzo licenze {#license-usage}
 
-Il [!DNL Adobe Journey Optimizer] [interfaccia utente](../start/user-interface.md) fornisce una dashboard che visualizza informazioni importanti sull’utilizzo delle licenze dell’organizzazione, acquisite durante un’istantanea giornaliera.
+L&#39;[!DNL Adobe Journey Optimizer] [interfaccia utente](../start/user-interface.md) fornisce un dashboard che visualizza informazioni importanti sull&#39;utilizzo delle licenze dell&#39;organizzazione, acquisite durante uno snapshot giornaliero.
 
-Per accedere a questa dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo licenze]**. Verrà aperto il **[!UICONTROL Panoramica]** che visualizza il dashboard.
+Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo licenze]**. Verrà aperta la scheda **[!UICONTROL Panoramica]** in cui è visualizzato il dashboard.
 
 ![](assets/license-usage-dashboard.png)
 
 >[!NOTE]
 >
->Per poter visualizzare la dashboard, è necessario disporre del [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"} autorizzazione.
+>Per poter visualizzare il dashboard, devi disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica della dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
 * [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}

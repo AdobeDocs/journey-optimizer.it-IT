@@ -9,7 +9,7 @@ exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 10%
 
 Puoi modificare o aggiornare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) effettuando una richiesta PATCH all’API Libreria di offerte.
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che costituiscono il campo *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -64,7 +64,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati del qualificatore di raccolta, incluso il relativo univoco `id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati del qualificatore di raccolta, incluso il relativo `id` univoco.
 
 ```json
 {

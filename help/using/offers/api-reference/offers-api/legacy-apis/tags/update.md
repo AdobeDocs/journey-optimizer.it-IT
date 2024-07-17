@@ -9,19 +9,19 @@ exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
 # Aggiornare un qualificatore di raccolta {#update-collection-qualifier}
 
-Puoi modificare o aggiornare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
+È possibile modificare o aggiornare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) nel contenitore effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -34,7 +34,10 @@ La tabella seguente mostra i valori validi che compongono *Content-Type* e *Acce
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Parametro | Descrizione | Esempio | | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` | | `{CONTAINER_ID}` | Contenitore in cui si trovano i tag. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` | | `{INSTANCE_ID}` | ID istanza del tag che desideri aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| Parametro | Descrizione | Esempio |
+| `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | Contenitore in cui si trovano i tag. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | ID istanza del tag che desideri aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Richiesta**
 
@@ -64,7 +67,7 @@ curl -X PATCH \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati del qualificatore di raccolta, inclusi l’ID istanza univoco e il qualificatore di raccolta `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati del qualificatore di raccolta, inclusi l&#39;ID istanza univoco e il qualificatore di raccolta `@id`.
 
 ```json
 {

@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Eliminare un’offerta personalizzata {#delete-personalized-offer}
 
-Occasionalmente può essere necessario rimuovere (DELETE) un’offerta personalizzata. È possibile eliminare solo le offerte personalizzate create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API utilizzando il $id dell’offerta personalizzata che desideri eliminare.
+Occasionalmente può essere necessario rimuovere (DELETE) un’offerta personalizzata. È possibile eliminare solo le offerte personalizzate create nel contenitore tenant. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando $id dell&#39;offerta personalizzata che si desidera eliminare.
 
 **Formato API**
 

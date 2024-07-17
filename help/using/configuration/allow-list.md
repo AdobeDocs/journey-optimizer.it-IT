@@ -18,7 +18,7 @@ ht-degree: 16%
 
 # Elenco Consentiti {#allow-list}
 
-È possibile definire un elenco specifico di sicurezza per l’invio in [sandbox](../administration/sandboxes.md) livello.
+È possibile definire un elenco sicuro per l&#39;invio specifico al livello [sandbox](../administration/sandboxes.md).
 
 Questo elenco Consentiti consente di specificare singoli indirizzi e-mail o domini che saranno gli unici destinatari o domini autorizzati a ricevere le e-mail che stai inviando da una sandbox specifica.
 
@@ -28,25 +28,25 @@ Questo elenco Consentiti consente di specificare singoli indirizzi e-mail o domi
 
 Ad esempio, in un’istanza non di produzione in cui possono verificarsi errori, l’elenco Consentiti ti assicura di non correre il rischio di inviare messaggi indesiderati a indirizzi reali dei clienti e fornisce quindi un ambiente protetto a scopo di test.
 
-Inoltre, quando l’elenco Consentiti è attivo ma vuoto, non viene inviata alcuna e-mail. Pertanto, se riscontri problemi gravi, puoi utilizzare questa funzione per interrompere tutte le comunicazioni in uscita da [!DNL Journey Optimizer] fino a risolvere il problema. Ulteriori informazioni su [logica di elenco Consentiti](#logic).
+Inoltre, quando l’elenco Consentiti è attivo ma vuoto, non viene inviata alcuna e-mail. Pertanto, se si verifica un problema grave, è possibile utilizzare questa funzionalità per interrompere tutte le comunicazioni in uscita da [!DNL Journey Optimizer] fino alla risoluzione del problema. Ulteriori informazioni sulla [logica elenco Consentiti](#logic).
 
 Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Accedere all’elenco Consentiti {#access-allowed-list}
 
-Per accedere all’elenco dettagliato degli indirizzi e-mail e dei domini consentiti, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]**, e seleziona **[!UICONTROL Elenco Consentiti]**.
+Per accedere all&#39;elenco dettagliato degli indirizzi e dei domini e-mail consentiti, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** e seleziona **[!UICONTROL Elenco Consentiti]**.
 
 ![](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
->Le autorizzazioni per visualizzare, esportare e gestire l’elenco Consentiti sono limitate a [Amministratori di percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione [!DNL Journey Optimizer] diritti di accesso degli utenti in [questa sezione](../administration/permissions-overview.md).
+>Le autorizzazioni per visualizzare, esportare e gestire l&#39;elenco Consentiti sono limitate a [amministratori di Percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
 
-Per esportare l’elenco Consentiti come file CSV, seleziona la **[!UICONTROL Scarica CSV]** pulsante.
+Per esportare l&#39;elenco Consentiti come file CSV, selezionare il pulsante **[!UICONTROL Scarica CSV]**.
 
-Utilizza il **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
+Utilizza il pulsante **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
 
-Puoi eseguire ricerche negli indirizzi e-mail o nei domini e filtrare in base al **[!UICONTROL Tipo di indirizzo]**. Una volta selezionato, puoi cancellare il filtro visualizzato sopra l’elenco.
+Puoi eseguire ricerche negli indirizzi e-mail o nei domini e filtrare in base al **[!UICONTROL tipo di indirizzo]**. Una volta selezionato, puoi cancellare il filtro visualizzato sopra l’elenco.
 
 ![](assets/allowed-list-filtering-example.png)
 
@@ -54,13 +54,13 @@ Puoi eseguire ricerche negli indirizzi e-mail o nei domini e filtrare in base al
 
 Per attivare l’elenco Consentiti, segui la procedura riportata di seguito.
 
-1. Accedere a  **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]** menu.
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]**.
 
 1. Seleziona l’interruttore.
 
    ![](assets/allow-list-edit.png)
 
-1. Seleziona **[!UICONTROL Attiva elenco Consentiti]**. L’elenco Consentiti è ora attivo.
+1. Selezionare **[!UICONTROL Attiva elenco Consentiti]**. L’elenco Consentiti è ora attivo.
 
    ![](assets/allow-list-enable.png)
 
@@ -72,19 +72,19 @@ La logica di elenco Consentiti si applica quando la funzione è attiva. Ulterior
 
 >[!NOTE]
 >
->Quando è attivata, la funzione di elenco Consentiti viene rispettata durante l’esecuzione di percorsi, ma anche durante il test dei messaggi con [bozze](../content-management/proofs.md) e percorsi di test che utilizzano [modalità di test](../building-journeys/testing-the-journey.md).
+>Quando è attivata, la funzione di elenco Consentiti viene rispettata durante l&#39;esecuzione di percorsi, ma anche durante il test di messaggi con [bozze](../content-management/proofs.md) e il test di percorsi utilizzando la [modalità di test](../building-journeys/testing-the-journey.md).
 
 ## Disattivare l&#39;elenco Consentiti {#deactivate-allow-list}
 
 Per disattivare l’elenco Consentiti, segui la procedura indicata di seguito.
 
-1. Accedere a  **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]** menu.
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]**.
 
 1. Seleziona l’interruttore.
 
    ![](assets/allow-list-edit-active.png)
 
-1. Seleziona **[!UICONTROL Disattiva elenco Consentiti]**. L’elenco Consentiti non è più attivo.
+1. Selezionare **[!UICONTROL Disattiva elenco Consentiti]**. L’elenco Consentiti non è più attivo.
 
    ![](assets/allow-list-deactivate.png)
 
@@ -96,7 +96,7 @@ La logica di elenco Consentiti non si applica quando la funzione viene disattiva
 
 ## Aggiungere entità all’elenco Consentiti {#add-entities}
 
-Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una sandbox specifica, puoi: [compila manualmente l’elenco](#manually-populate-list), o utilizza un [Chiamata API](#api-call-allowed-list).
+Per aggiungere nuovi indirizzi e-mail o domini all&#39;elenco Consentiti per una sandbox specifica, puoi [compilare manualmente l&#39;elenco](#manually-populate-list) o utilizzare una [chiamata API](#api-call-allowed-list).
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 >title="Aggiungere indirizzi o domini all’elenco Consentiti"
 >abstract="Puoi aggiungere manualmente nuovi indirizzi e-mail o domini all’elenco Consentiti selezionandoli uno per uno."
 
-È possibile popolare manualmente il [!DNL Journey Optimizer] elenco Consentiti aggiungendo un indirizzo e-mail o un dominio tramite l’interfaccia utente.
+È possibile popolare manualmente l&#39;elenco Consentiti [!DNL Journey Optimizer] aggiungendo un indirizzo e-mail o un dominio tramite l&#39;interfaccia utente.
 
 >[!NOTE]
 >
@@ -122,7 +122,7 @@ Per aggiungere nuovi indirizzi e-mail o domini all’elenco Consentiti per una s
 
 Per farlo, segui la procedura indicata di seguito.
 
-1. Seleziona la **[!UICONTROL Aggiungi e-mail o dominio]** pulsante.
+1. Selezionare il pulsante **[!UICONTROL Aggiungi e-mail o dominio]**.
 
    ![](assets/allowed-list-add-email.png)
 
@@ -140,25 +140,25 @@ Per farlo, segui la procedura indicata di seguito.
 
    >[!NOTE]
    >
-   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel **[!UICONTROL Motivo]** campo. L&#39;elenco completo è disponibile su [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} di esempio.
+   >Tutti i caratteri ASCII compresi tra 32 e 126 sono consentiti nel campo **[!UICONTROL Reason]**. L&#39;elenco completo è disponibile su [questa pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} di esempio.
 
 1. Fai clic su **[!UICONTROL Invia]**.
 
 ### Aggiungere entità utilizzando una chiamata API {#api-call-allowed-list}
 
-Per popolare l’elenco Consentiti, puoi anche chiamare l’API di soppressione con `ALLOWED` valore per `listType` attributo. Ad esempio:
+Per popolare l’elenco Consentiti, puoi anche chiamare l’API di soppressione con il valore `ALLOWED` per l’attributo `listType`. Ad esempio:
 
 ![](assets/allow-list-api.png)
 
-È possibile eseguire la **Aggiungi**, **Elimina** e **Ottenere** operazioni.
+Puoi eseguire le operazioni **Aggiungi**, **Elimina** e **Ottieni**.
 
-Ulteriori informazioni sull’esecuzione di chiamate API in [API di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} documentazione di riferimento.
+Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Scarica l’elenco Consentiti {#download-allowed-list}
 
 Per esportare l’elenco Consentiti come file CSV, effettua le seguenti operazioni:
 
-1. Seleziona la **[!UICONTROL Scarica CSV]** pulsante.
+1. Selezionare il pulsante **[!UICONTROL Scarica CSV]**.
 
    ![](assets/allowed-list-download-csv.png)
 
@@ -189,27 +189,27 @@ Per esportare l’elenco Consentiti come file CSV, effettua le seguenti operazio
 >title="Gestire l’elenco Consentiti"
 >abstract="Quando l’elenco Consentiti viene attivato, solo i destinatari inclusi nell’elenco Consentiti riceveranno messaggi e-mail da questa sandbox. Quando è disattivato, tutti i destinatari riceveranno le e-mail."
 
-Quando l’elenco Consentiti è [attivo](#enable-allow-list), si applica la seguente logica:
+Quando l&#39;elenco Consentiti è [attivo](#enable-allow-list), si applica la logica seguente:
 
-* Se l’elenco Consentiti è **vuoto**, non verrà inviata alcuna e-mail.
+* Se l&#39;elenco Consentiti è **vuoto**, non verrà inviata alcuna e-mail.
 
-* Se un’entità è **sull’elenco Consentiti** e non nell’elenco di soppressione, l’e-mail viene inviata ai destinatari corrispondenti. Tuttavia, se l’entità si trova anche sul [elenco di soppressione](../reports/suppression-list.md), i destinatari corrispondenti non riceveranno l’e-mail, poiché il motivo è **[!UICONTROL Soppresso]**.
+* Se un&#39;entità è **nell&#39;elenco Consentiti** e non nell&#39;elenco di soppressione, l&#39;e-mail viene inviata ai destinatari corrispondenti. Tuttavia, se l&#39;entità è presente anche nell&#39;[elenco di soppressione](../reports/suppression-list.md), i destinatari corrispondenti non riceveranno l&#39;e-mail, per il motivo **[!UICONTROL Eliminato]**.
 
-* Se un’entità è **non sull’elenco Consentiti** (e non nell’elenco di soppressione), i destinatari corrispondenti non riceveranno l’e-mail, poiché il motivo è **[!UICONTROL Non consentito]**.
+* Se un&#39;entità è **non presente nell&#39;elenco Consentiti** (e non nell&#39;elenco di soppressione), i destinatari corrispondenti non riceveranno l&#39;e-mail. Motivo: **[!UICONTROL Non consentito]**.
 
 >[!NOTE]
 >
->I profili con **[!UICONTROL Non consentito]** Lo stato è escluso durante il processo di invio del messaggio. Pertanto, mentre il **Rapporti percorso** mostra questi profili come spostati nel percorso ([Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journeys-message.md)), il **Report e-mail** non li includerà nella **[!UICONTROL Inviato]** metriche poiché vengono escluse prima dell’invio e-mail.
+>I profili con stato **[!UICONTROL Non consentito]** sono esclusi durante il processo di invio dei messaggi. Pertanto, mentre nei **report Percorso** questi profili vengono visualizzati come spostati nel percorso ([Attività Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journeys-message.md)), i **report e-mail** non li includono nelle metriche **[!UICONTROL Inviati]** in quanto vengono filtrati prima dell&#39;invio di e-mail.
 >
->Ulteriori informazioni su [Rapporto live](../reports/live-report.md) e [Rapporto globale](../reports/global-report.md).
+>Ulteriori informazioni su [Report live](../reports/live-report.md) e [Report globale](../reports/global-report.md).
 
-Quando l’elenco Consentiti è [disattivato](#deactivate-allow-list), tutte le e-mail che invii dalla sandbox corrente vengono inviate a tutti i destinatari (purché non siano nell’elenco di soppressione), inclusi gli indirizzi reali dei clienti.
+Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte le e-mail che invii dalla sandbox corrente vengono inviate a tutti i destinatari (purché non siano inclusi nell&#39;elenco di soppressione), inclusi gli indirizzi dei clienti reali.
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A questo scopo, puoi utilizzare [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le chiamate API di seguito.
+Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le chiamate API seguenti.
 
-Per ottenere **numero di e-mail** che non sono stati inviati perché i destinatari non erano inclusi nell’elenco Consentiti, utilizza la seguente query:
+Per ottenere il **numero di e-mail** non inviate perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 
 ```sql
 SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
@@ -218,7 +218,7 @@ _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = '
 _experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
 ```
 
-Per ottenere **elenco di indirizzi e-mail** che non sono stati inviati perché i destinatari non erano inclusi nell’elenco Consentiti, utilizza la seguente query:
+Per ottenere l&#39;**elenco di indirizzi di posta elettronica** non inviati perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 
 ```sql
 SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE

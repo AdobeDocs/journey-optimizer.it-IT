@@ -9,13 +9,13 @@ exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # Eliminare una decisione {#delete-decision}
 
-Occasionalmente può essere necessario revocare (DELETE) una decisione. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API tramite `id` della decisione che desideri eliminare.
+Occasionalmente può essere necessario revocare (DELETE) una decisione. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando `id` della decisione che si desidera eliminare.
 
 **Formato API**
 

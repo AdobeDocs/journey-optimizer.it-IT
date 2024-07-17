@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’Assistente AI
+title: Utilizzare l’Assistente IA
 description: Scopri come sfruttare l’Assistente AI
 feature: Overview
 topic: Content Management
@@ -11,13 +11,13 @@ exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Utilizzare l’Assistente AI {#ai-assistant}
+# Utilizzare l’Assistente IA {#ai-assistant}
 
-L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti Adobi e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
+Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.
 
 Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L’Assistente AI viene visualizzato nella sezione destra dello schermo.
 
@@ -26,11 +26,11 @@ Per accedere all’Assistente AI, fai clic sull’icona nella barra superiore. L
 
 >[!CAUTION]
 >
->Prima di poter utilizzare l’Assistente all’intelligenza artificiale, devi accettare le linee guida per l’utente di Adobe Experience Cloud Generative AI. Ulteriori informazioni sull’accordo sono disponibili in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Prima di poter utilizzare l’Assistente all’intelligenza artificiale, devi accettare le linee guida per l’utente di Adobe Experience Cloud Generative AI. Ulteriori informazioni sul contratto in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
-* **Conoscenza del prodotto** (Disponibilità generale)
+* **Conoscenza del prodotto** (disponibilità generale)
 
   Le domande sulla conoscenza del prodotto riguardano concetti di Adobe relativi ad aspetti di Adobe Journey Optimizer. Alcuni esempi di domande sulla conoscenza del prodotto includono:
 
@@ -49,17 +49,17 @@ In Adobe Journey Optimizer, puoi accedere ai seguenti casi d’uso:
 
   >[!NOTE]
   >
-  >L’unico oggetto Adobe Journey Optimizer a cui hai accesso per porre domande sulle informazioni operative dell’Assistente all’intelligenza artificiale è **Percorsi**. Conterrà solo i dati relativi alla sandbox in cui ti trovi attualmente.
+  >L&#39;unico oggetto Adobe Journey Optimizer a cui è possibile accedere per porre domande sulle informazioni operative dell&#39;Assistente all&#39;intelligenza artificiale è **Percorsi**. Conterrà solo i dati relativi alla sandbox in cui ti trovi attualmente.
 
 
 Per porre una domanda, immetterla nel campo nella parte inferiore dello schermo e premere Invio.
 
 ![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
-Controlla la risposta e utilizza **Mostra origini** per ottenere collegamenti diretti alla documentazione del prodotto e ulteriori informazioni.
+Controlla la risposta e utilizza il pulsante **Mostra origini** per ottenere collegamenti diretti alla documentazione del prodotto e ulteriori informazioni.
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Utilizza il pollice verso l’alto o il pollice verso il basso per valutare la risposta.
 
-Per informazioni su come utilizzare l’Assistente IA, consulta gli obiettivi di esempio che puoi raggiungere con l’Assistente AI e scopri come funziona, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Per informazioni su come utilizzare l&#39;Assistente AI, vedi gli obiettivi di esempio che puoi raggiungere con l&#39;Assistente AI e come funziona l&#39;Assistente AI, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.

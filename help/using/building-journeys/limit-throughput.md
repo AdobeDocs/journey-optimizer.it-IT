@@ -25,7 +25,7 @@ Questa operazione può essere eseguita con:
 
 * **Origini dati**: per raccogliere informazioni da sistemi esterni e utilizzarle nel contesto del percorso, ad esempio per ottenere informazioni meteo sulla città del profilo e disporre di un flusso di percorso dedicato basato su tale città.
 
-* **Azioni personalizzate**: per inviare informazioni a sistemi esterni, ad esempio per inviare e-mail tramite una soluzione esterna utilizzando le funzionalità di orchestrazione di Journey Optimizer insieme alle informazioni di profilo, ai dati sul pubblico e al contesto di percorso.
+* **Azioni personalizzate**: per inviare informazioni a sistemi esterni, ad esempio per inviare e-mail tramite una soluzione esterna utilizzando le funzionalità di orchestrazione di Journey Optimizer insieme a informazioni di profilo, dati sul pubblico e contesto di percorso.
 
 >[!NOTE]
 >
@@ -33,15 +33,15 @@ Questa operazione può essere eseguita con:
 
 Se lavori con origini dati esterne o azioni personalizzate, potresti voler proteggere i tuoi sistemi esterni limitando la velocità effettiva del percorso: fino a 5000 istanze/secondo per percorsi unitari e fino a 20000 istanze/secondo per quelli attivati dal pubblico.
 
-Per le azioni personalizzate, sono disponibili funzionalità di limitazione a livello di prodotto. Fai riferimento a questo [pagina](../configuration/external-systems.md#capping).
+Per le azioni personalizzate, sono disponibili funzionalità di limitazione a livello di prodotto. Fai riferimento a questa [pagina](../configuration/external-systems.md#capping).
 
 Per le origini dati esterne, puoi definire un limite a livello di endpoint per evitare di sopraffare tali sistemi esterni tramite le API di limitazione di utilizzo di Journey Optimizer. Tuttavia, tutte le richieste rimanenti dopo il raggiungimento del limite verranno ignorate. In questa sezione troverai delle soluzioni alternative che puoi utilizzare per ottimizzare la velocità effettiva.
 
-Per ulteriori informazioni su come eseguire l’integrazione con i sistemi esterni, consulta questa [pagina](../configuration/external-systems.md).
+Per ulteriori informazioni su come eseguire l&#39;integrazione con i sistemi esterni, consulta questa [pagina](../configuration/external-systems.md).
 
 ## Implementazione
 
-Per **percorsi attivati dal pubblico**, puoi definire la velocità di lettura dell’attività Read Audience che influirà sulla velocità effettiva del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md)
+Per **percorsi attivati dal pubblico**, puoi definire la velocità di lettura dell&#39;attività Read Audience che influirà sulla velocità effettiva del percorso. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Potete modificare questo valore da 500 a 20.000 istanze al secondo. Se devi anda
 
 ![](assets/limit-throughput-2.png)
 
-Prendiamo un esempio di **percorsi attivati dal pubblico** utilizzo di una popolazione di **10.000 profili** e l&#39;invio di dati a un sistema esterno che supporta **100 richieste/secondo**.
+Prendiamo ad esempio **percorsi attivati dal pubblico** che lavorano con una popolazione di **10.000 profili** e inviano dati a un sistema esterno che supporta **100 richieste/secondo**.
 
 1. Puoi definire il pubblico di lettura per leggere i profili con una velocità effettiva di 500 profili/secondo, il che significa che occorreranno 20 secondi per leggere tutti i profili. Al secondo 1, ne leggerete 500, al secondo 2 500, ecc.
 

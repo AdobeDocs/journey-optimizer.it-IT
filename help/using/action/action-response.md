@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. Crea l’azione personalizzata. Consulta [questa pagina](../action/about-custom-action-configuration.md).
 
-1. Fai clic all’interno del **Risposta** campo.
+1. Fai clic nel campo **Risposta**.
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -127,15 +127,15 @@ Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fed
 
 1. Aggiungi l’evento e l’azione personalizzata Fedeltà creata in precedenza.
 
-1. Nell’azione personalizzata Fedeltà, mappa il parametro di query dell’ID cliente con l’ID profilo. Seleziona l’opzione **Aggiungi un percorso alternativo in caso di timeout o errore**.
+1. Nell’azione personalizzata Fedeltà, mappa il parametro di query dell’ID cliente con l’ID profilo. Seleziona l&#39;opzione **Aggiungi un percorso alternativo in caso di timeout o errore**.
 
    ![](assets/action-response10.png)
 
-1. Nel primo ramo, aggiungi una condizione e utilizza l’editor avanzato per sfruttare i campi di risposta dell’azione, nella sezione **Contesto** nodo.
+1. Nel primo ramo, aggiungi una condizione e utilizza l&#39;editor avanzato per sfruttare i campi di risposta dell&#39;azione, nel nodo **Context**.
 
    ![](assets/action-response6.png)
 
-1. Quindi aggiungi il push e personalizza il messaggio utilizzando i campi di risposta. Nel nostro esempio, personalizziamo il contenuto utilizzando il numero di punti fedeltà e lo stato del cliente. I campi di risposta dell’azione sono disponibili in **Attributi contestuali** > **Journey Orchestration** > **Azioni**.
+1. Quindi aggiungi il push e personalizza il messaggio utilizzando i campi di risposta. Nel nostro esempio, personalizziamo il contenuto utilizzando il numero di punti fedeltà e lo stato del cliente. I campi di risposta dell&#39;azione sono disponibili in **Attributi contestuali** > **Journey Orchestration** > **Azioni**.
 
    ![](assets/action-response8.png)
 
@@ -143,8 +143,8 @@ Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fed
    >
    >Ogni profilo che accede all’azione personalizzata attiva una chiamata. Anche se la risposta è sempre la stessa, il Percorso eseguirà comunque una chiamata per profilo.
 
-1. Nel ramo di timeout ed errore, aggiungi una condizione e sfrutta il **jo_status_code** campo. Nel nostro esempio, utilizziamo
-   **http_400** tipo di errore. Consulta [questa sezione](#error-status).
+1. Nel ramo timeout ed errore, aggiungi una condizione e sfrutta il campo **jo_status_code** integrato. Nel nostro esempio, utilizziamo
+   Tipo di errore **http_400**. Consulta [questa sezione](#error-status).
 
    ```
    @action{ActionLoyalty.jo_status_code} == "http_400"
@@ -158,26 +158,26 @@ Ad esempio, puoi aggiungere una condizione per verificare il numero di punti fed
 
 ## Registri della modalità di test {#test-mode-logs}
 
-Puoi accedere ai registri di stato relativi alle risposte alle azioni personalizzate tramite la modalità di test. Se hai definito azioni personalizzate con risposte nel tuo percorso, visualizzerai un **actionsHistory** sezione di tali registri in cui viene visualizzato il payload restituito dall’endpoint esterno (come risposta da tale azione personalizzata). Questo può essere molto utile in termini di debug.
+Puoi accedere ai registri di stato relativi alle risposte alle azioni personalizzate tramite la modalità di test. Se hai definito azioni personalizzate con risposte nel tuo percorso, visualizzerai una sezione **actionsHistory** in tali registri in cui viene visualizzato il payload restituito dall&#39;endpoint esterno (come risposta da tale azione personalizzata). Questo può essere molto utile in termini di debug.
 
 ![](assets/action-response12.png)
 
 ## Stato errore {#error-status}
 
-Il **jo_status_code** Questo campo è sempre disponibile anche quando non è definito alcun payload di risposta.
+Il campo **jo_status_code** è sempre disponibile anche quando non è definito alcun payload di risposta.
 
 Di seguito sono riportati i possibili valori per questo campo:
 
 * codice di stato http: http_`<HTTP API call returned code>`, ad esempio http_200 o http_400
 * errore di timeout: **timeout**
-* errore di limite: **con limite**
+* errore di limite: **limitato**
 * errore interno: **internalError**
 
 Una chiamata di azione viene considerata in errore quando il codice http restituito è maggiore di 2xx o se si verifica un errore. In questi casi, il percorso passa al ramo dedicato relativo al timeout o all’errore.
 
 >[!WARNING]
 >
->Solo le azioni personalizzate appena create includono **jo_status_code** preconfigurata. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
+>Solo le azioni personalizzate appena create includono il campo **jo_status_code** pronto all&#39;uso. Se desideri utilizzarla con un’azione personalizzata esistente, devi aggiornare l’azione. Ad esempio, puoi aggiornare la descrizione e salvare.
 
 ## Sintassi delle espressioni {#exp-syntax}
 
@@ -202,7 +202,7 @@ Di seguito sono riportati alcuni esempi:
  @action{ActionLoyalty.points, defaultValue: @event{myEvent.newPoints}}
 ```
 
-Quando modifichi le raccolte in una risposta di azione personalizzata, puoi affidarti a `currentActionField` per accedere all&#39;elemento corrente:
+Durante la manipolazione delle raccolte in una risposta di azione personalizzata, è possibile fare affidamento su `currentActionField` per accedere all&#39;elemento corrente:
 
 ```json
 count(

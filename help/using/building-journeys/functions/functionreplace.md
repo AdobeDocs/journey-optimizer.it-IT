@@ -28,13 +28,13 @@ Stringa
 
 `replace(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|--------------|
-| base | string |
-| target | stringa (RegExp) |
-| sostituzione | string |
+| base | stringa |
+| destinazione | stringa (RegExp) |
+| sostituzione | stringa |
 
 ## Firma e tipo restituito
 
@@ -56,7 +56,7 @@ Poiché il parametro di destinazione è un RegExp, a seconda della stringa che s
 * fornito da un attributo di profilo `#{ExperiencePlatform.myFieldGroup.profile.myOffers}`
 * Stringa da sostituire: `|OFFER_A`
 * Stringa sostituita da: `''`
-* Devi aggiungere `\\` prima del `|` carattere.
+* Aggiungere `\\` prima del carattere `|`.
 
 L’espressione è:
 

@@ -18,15 +18,15 @@ ht-degree: 36%
 
 # Aggiungere attributi di stile in linea {#inline-styling}
 
-Nell’interfaccia di E-mail Designer, quando selezioni un elemento e ne visualizzi le impostazioni nel pannello laterale, puoi personalizzare gli attributi in linea e il loro valore per quell’elemento specifico.
+Nell’interfaccia di E-mail Designer, quando selezioni un elemento e visualizzane le impostazioni nel pannello laterale, puoi personalizzare gli attributi in linea e il loro valore per quell’elemento specifico.
 
 1. Seleziona un elemento nel contenuto.
 
-1. Dalla sezione **[!UICONTROL Stili]** , cerca il **[!UICONTROL Stili in linea]** impostazioni in **[!UICONTROL Avanzate]** a discesa.
+1. Dalla scheda **[!UICONTROL Stili]**, cerca le impostazioni **[!UICONTROL Stili in linea]** nel menu a discesa **[!UICONTROL Avanzate]**.
 
    ![](assets/styles_1.png)
 
-1. Modificare i valori degli attributi esistenti o aggiungerne di nuovi utilizzando **+** pulsante. Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
+1. Modificare i valori degli attributi esistenti o aggiungerne di nuovi utilizzando il pulsante **+**. Puoi aggiungere qualsiasi attributo e valore conforme a CSS.
 
    ![](assets/styles_2.png)
 

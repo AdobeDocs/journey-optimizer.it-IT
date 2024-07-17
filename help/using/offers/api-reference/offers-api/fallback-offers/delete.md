@@ -16,7 +16,7 @@ ht-degree: 12%
 
 # Eliminare un’offerta di fallback {#delete-fallback-offer}
 
-A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API che utilizza l’ID dell’offerta di fallback che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) un’offerta di fallback. A tale scopo, è necessario eseguire una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID dell&#39;offerta di fallback che si desidera eliminare.
 
 **Formato API**
 

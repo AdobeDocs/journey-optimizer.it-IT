@@ -35,10 +35,10 @@ Le proprietà di un percorso sono centralizzate nella barra a destra. Questa sez
 
 Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione e:
 
-* gestire [entrata e rientrata](#entrance),
-* scegli inizio e fine [date](#dates),
-* gestire [accesso ai dati](#manage-access),
-* definire un [durata timeout](#timeout) nelle attività di percorso (solo per utenti amministratori),
+* gestisci [ingresso e rientro](#entrance),
+* scegli [date](#dates) di inizio e fine,
+* gestire l&#39;[accesso ai dati](#manage-access),
+* definire una [durata timeout](#timeout) nelle attività di percorso (solo per gli utenti amministratori),
 * seleziona il percorso e il profilo [fusi orari](#timezone)
 * assegna i tag unificati Adobe Experience Platform al tuo percorso, per classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
@@ -48,16 +48,16 @@ Da questa sezione puoi definire il nome del percorso, aggiungere una descrizione
 >
 >Per i percorsi live, questa schermata mostra solo la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 
-Il **Copia dettagli tecnici** consente di copiare le informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Vengono copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+**Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Sono state copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
 
-Scopri di più sui campi tecnici relativi a un percorso per un determinato profilo e come utilizzarli [in questa pagina](expression/journey-properties.md).
+Ulteriori informazioni sui campi tecnici relativi a un percorso per un determinato profilo e su come utilizzarli [in questa pagina](expression/journey-properties.md).
 
 
 ## Ingresso e rientro {#entrance}
 
 La modalità di immissione profilo è definita a livello di percorso, nel riquadro di configurazione di destra. Le impostazioni sono descritte di seguito.
 
-La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell’entrata e del rientro del profilo, in [questa pagina](entry-management.md).
+La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori informazioni sulla gestione dell&#39;entrata e del rientro del profilo, in [questa pagina](entry-management.md).
 
 ### Consentire il reingresso  {#allow-re-entrance}
 
@@ -65,9 +65,9 @@ La gestione dell’entrata del profilo dipende dal tipo di percorsi. Ulteriori i
 >id="ajo_journey_properties_entrance"
 >title="Consentire il reingresso"
 >abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Puoi deselezionare l’opzione **Consenti reingresso** se desideri, ad esempio, offrire un omaggio una tantum quando una persona entra in un negozio."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
-Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare **Consenti rientro** opzione per percorsi &quot;one shot&quot;, ad esempio per offrire un regalo una tantum quando una persona entra in un negozio.
+Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l&#39;opzione **Consenti rientro** per i percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio.
 
 ### Periodo di attesa per reingresso  {#re-entrance-wait}
 
@@ -75,14 +75,14 @@ Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È poss
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Periodo di attesa per reingresso"
 >abstract=" Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente in un percorso unitario. Questo impedisce il re-ingresso degli utenti nel percorso per una durata selezionata. Durata massima: 90 giorni."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso nel profilo"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
-Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
+Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il campo **Periodo di attesa rientro**. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
 
 
 ## Gestisci accesso {#manage-access}
 
-Per assegnare al percorso etichette di utilizzo dei dati personalizzate o di base, fai clic su **[!UICONTROL Gestisci accesso]** pulsante. [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md)
+Per assegnare etichette di utilizzo dei dati personalizzate o di base al percorso, fare clic sul pulsante **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
 
 ![](assets/journeys-manage-access.png)
 
@@ -90,7 +90,7 @@ Per assegnare al percorso etichette di utilizzo dei dati personalizzate o di bas
 
 Fuso orario definito a livello di percorso. Puoi immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del percorso. Se nel profilo Adobe Experience Platform è definito un fuso orario, questo può essere recuperato nel percorso.
 
-Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagina](../building-journeys/timezone-management.md).
+Per ulteriori informazioni sulla gestione del fuso orario, vedere [questa pagina](../building-journeys/timezone-management.md).
 
 ## Date di inizio e fine {#dates}
 
@@ -105,9 +105,9 @@ Per ulteriori informazioni sulla gestione del fuso orario, consulta [questa pagi
 >title="End date (Data di fine)"
 >abstract="Scegli la data di fine del percorso. Una volta raggiunta tale data, i profili in tale percorso escono automaticamente e nessun nuovo profilo potrà più accedervi."
 
-È possibile definire un **Data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
+Puoi definire una **data di inizio**. Se non ne hai specificato uno, verrà definito automaticamente al momento della pubblicazione.
 
-Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (generalmente 91 giorni). L’unica eccezione è rappresentata dai percorsi di pubblico ricorrenti in lettura con **Forza rientro in caso di ricorrenza** attivato, che termina alla data di inizio dell’occorrenza successiva.
+Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. Se non viene specificata una data di fine, i profili possono rimanere fino al [timeout percorso globale](#global_timeout) (in genere 91 giorni). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
 ## Timeout {#timeout}
 
@@ -119,11 +119,11 @@ Puoi anche aggiungere una **Data di fine**. Questo consente ai profili di uscire
 >abstract="Definisci per quanto tempo il percorso tenterà di eseguire un’azione o di verificare una condizione prima che si verifichi una situazione di timeout."
 
 
-Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l’elaborazione dell’attività che richiede l’interrogazione di un sistema di terze parti supera la durata di timeout definita **[!UICONTROL Timeout o errore]** nelle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
+Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività di interrogazione di un sistema di terze parti supera la durata di timeout definita nel campo **[!UICONTROL Timeout o errore]** delle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
 I valori autorizzati sono compresi tra 1 e 30 secondi.
 
-È consigliabile definire un valore molto breve **[!UICONTROL Timeout o errore]** valore se il percorso è sensibile all’ora (ad esempio: reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l’azione per più di alcuni secondi. Se il percorso è meno sensibile al tempo, è possibile utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
+È consigliabile definire un valore di **[!UICONTROL Timeout o errore]** molto breve se il percorso è sensibile all&#39;ora (ad esempio, per reagire alla posizione in tempo reale di una persona) perché non è possibile ritardare l&#39;azione per più di alcuni secondi. Se il percorso è meno sensibile al tempo, è possibile utilizzare un valore più lungo per dare più tempo al sistema chiamato per inviare una risposta valida.
 
 I percorsi utilizzano anche un timeout globale, come descritto di seguito.
 
@@ -131,7 +131,7 @@ I percorsi utilizzano anche un timeout globale, come descritto di seguito.
 
 Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, viene applicato un timeout di percorso globale. Non viene visualizzato nell’interfaccia e non può essere modificato.
 
-Questo timeout globale arresta il progresso dei singoli utenti nel percorso **91 giorni** dopo che sono entrati. Ciò significa che la durata del percorso di un individuo non può superare i 91 giorni. Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
+Questo timeout globale interrompe l&#39;avanzamento dei singoli utenti nel percorso **91 giorni** dopo l&#39;immissione. Ciò significa che la durata del percorso di un individuo non può superare i 91 giorni. Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
 
 A causa del timeout di 91 percorsi, quando il rientro del percorso non è consentito, non possiamo assicurarci che il blocco del rientro funzioni per più di 91 giorni. Infatti, poiché si eliminano tutte le informazioni sulle persone che sono entrate nel percorso 91 giorni dopo il loro ingresso, non è possibile conoscere la persona che è entrata in precedenza, più di 91 giorni fa.
 
@@ -186,7 +186,7 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
   </tr>
 </table>
 
-**Per Percorsi di attivazione segmento**
+**Per Percorsi Trigger Segmento**
 
 <table style="table-layout:auto">
   <tr style="border: 1;">
@@ -257,4 +257,4 @@ Il percorso utilizza i criteri di unione per recuperare i dati del profilo da Ad
 
 Il percorso rispetterà il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio, nelle funzioni &quot;inAudience&quot;), creando incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
-Per ulteriori informazioni sui criteri di unione, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.

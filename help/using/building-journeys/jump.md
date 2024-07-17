@@ -23,27 +23,27 @@ ht-degree: 10%
 >title="Attività Passa a"
 >abstract="L’azione Passa a consente di far passare singoli utenti da un percorso all’altro. Questa funzione semplifica la progettazione di percorsi molto complessi e consente di creare percorsi basati su modelli di percorso comuni e riutilizzabili."
 
-Il **[!UICONTROL Salta]** L’attività action ti consente di inviare singoli utenti da un percorso all’altro. Questa funzione consente di:
+L&#39;attività azione **[!UICONTROL Salta]** consente di inviare singoli utenti da un percorso all&#39;altro. Questa funzione consente di:
 
 * semplificare la progettazione di percorsi molto complessi suddividendoli in diversi percorsi più semplici;
 * creare percorsi basati su pattern di percorso comuni e riutilizzabili.
 
-Nel percorso di origine, aggiungi semplicemente un **[!UICONTROL Salta]** e selezionare un percorso target. Quando l’individuo entra nel **[!UICONTROL Salta]** passaggio, un evento interno viene inviato al primo evento del percorso target. Se il **[!UICONTROL Salta]** l&#39;azione è riuscita, la persona continua a progredire nel percorso. Il comportamento è simile ad altre azioni.
+Nel percorso di origine, aggiungi semplicemente un&#39;attività **[!UICONTROL Jump]** e seleziona un percorso di destinazione. Quando l&#39;utente accede al passaggio **[!UICONTROL Jump]**, viene inviato un evento interno al primo evento del percorso di destinazione. Se l&#39;azione **[!UICONTROL Salta]** ha esito positivo, l&#39;utente continua ad avanzare nel percorso. Il comportamento è simile ad altre azioni.
 
-Nel percorso di destinazione, il primo evento attivato internamente da **[!UICONTROL Salta]** L&#39;attività creerà il singolo flusso nel percorso.
+Nel percorso di destinazione, il primo evento attivato internamente dall&#39;attività **[!UICONTROL Jump]** genererà il singolo flusso nel percorso.
 
 ## Ciclo di vita
 
-Supponiamo che tu abbia aggiunto un **[!UICONTROL Salta]** attività in un percorso A a un percorso B. Il Percorso A è il **percorso di origine** e percorso B, **percorso target**.
+Supponiamo che tu abbia aggiunto un&#39;attività **[!UICONTROL Jump]** in un percorso A a un percorso B. Il Percorso A è il **percorso di origine** e il percorso B, il **percorso di destinazione**.
 Di seguito sono riportati i diversi passaggi del processo di esecuzione:
 
-**PERCORSO A** viene attivato da un evento esterno:
+**Il Percorso A** è attivato da un evento esterno:
 
 1. Il percorso A riceve un evento esterno correlato a un individuo.
-1. L’individuo raggiunge il **[!UICONTROL Salta]** passaggio.
-1. L’individuo viene spinto al Percorso B e passa ai passaggi successivi nel Percorso A, dopo **[!UICONTROL Salta]** passaggio.
+1. Il singolo utente raggiunge il passaggio **[!UICONTROL Salta]**.
+1. L&#39;utente viene inviato al Percorso B e passa ai passaggi successivi nel Percorso A, dopo il passaggio **[!UICONTROL Salta]**.
 
-Nel percorso B, il primo evento viene attivato internamente tramite **[!UICONTROL Salta]** attività dal percorso A:
+Nel percorso B, il primo evento viene attivato internamente, tramite l&#39;attività **[!UICONTROL Jump]** dal percorso A:
 
 1. Il percorso B ha ricevuto un evento interno dal Percorso A.
 1. L&#39;individuo inizia a fluire nel Percorso B.
@@ -56,45 +56,45 @@ Nel percorso B, il primo evento viene attivato internamente tramite **[!UICONTRO
 
 ### Authoring
 
-* Il **[!UICONTROL Salta]** L’attività è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
+* L&#39;attività **[!UICONTROL Jump]** è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
 * È possibile passare solo a un percorso che utilizza lo stesso spazio dei nomi del percorso di origine.
-* Non è possibile passare a un percorso che inizia con **Qualificazione del pubblico** evento o **Read Audience**.
-* Non è possibile avere **[!UICONTROL Salta]** attività e un **Qualificazione del pubblico** evento o **Read Audience** nello stesso percorso.
-* Puoi includere quanti più **[!UICONTROL Salta]** attività necessarie in un percorso. Dopo un **[!UICONTROL Salta]**, puoi aggiungere qualsiasi attività necessaria.
+* Non puoi passare a un percorso che inizia con un evento **Qualificazione del pubblico** o **Read Audience**.
+* Non puoi avere un&#39;attività **[!UICONTROL Jump]** e un evento **Qualificazione del pubblico** o **Read Audience** nello stesso percorso.
+* Puoi includere tutte le **[!UICONTROL attività Salta]** necessarie in un percorso. Dopo un **[!UICONTROL Salto]**, puoi aggiungere qualsiasi attività necessaria.
 * Puoi avere tutti i livelli di salto necessari. Il Percorso A, ad esempio, passa al percorso B, che passa al percorso C e così via.
-* Il percorso target può includere anche **[!UICONTROL Salta]** attività in base alle esigenze.
-* I pattern di loop non sono supportati. Non è possibile collegare due o più percorsi per creare un ciclo infinito. Il **[!UICONTROL Salta]** impedisci questa operazione nella schermata di configurazione dell’attività.
+* Il percorso di destinazione può inoltre includere tutte le **[!UICONTROL attività Salta]** necessarie.
+* I pattern di loop non sono supportati. Non è possibile collegare due o più percorsi per creare un ciclo infinito. La schermata di configurazione dell&#39;attività **[!UICONTROL Jump]** non consente di eseguire questa operazione.
 
-### Esecuzione
+### Execution
 
-* Quando **[!UICONTROL Salta]** viene eseguita l&#39;attività, viene attivata la versione più recente del percorso target.
-* Come sempre, un individuo può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso target, non entrerà in tale percorso. Non verrà segnalato alcun errore in **[!UICONTROL Salta]** perché si tratta di un comportamento normale.
+* Quando l&#39;attività **[!UICONTROL Jump]** viene eseguita, viene attivata la versione più recente del percorso di destinazione.
+* Come sempre, un individuo può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso target, non entrerà in tale percorso. Non verrà segnalato alcun errore nell&#39;attività **[!UICONTROL Jump]** perché si tratta di un comportamento normale.
 
 ## Configurazione dell’attività Salta
 
-1. Progettare **percorso di origine**.
+1. Progetta il tuo **percorso di origine**.
 
    ![](assets/jump1.png)
 
-1. In qualsiasi passaggio del percorso, aggiungi un **[!UICONTROL Salta]** attività, da **[!UICONTROL AZIONI]** categoria. Aggiungi un’etichetta e una descrizione.
+1. In qualsiasi passaggio del percorso, aggiungi un&#39;attività **[!UICONTROL Jump]** dalla categoria **[!UICONTROL ACTIONS]**. Aggiungi un’etichetta e una descrizione.
 
    ![](assets/jump2.png)
 
-1. Fai clic all’interno del **Percorso di destinazione** campo.
-L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. Percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un **Qualificazione del pubblico** evento non sono disponibili. Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
+1. Fai clic nel campo **percorso di destinazione**.
+L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. I percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un evento **Qualificazione del pubblico** non sono disponibili. Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
 
    ![](assets/jump3.png)
 
    >[!NOTE]
    >
-   >Puoi fare clic su **Apri percorso di destinazione** sul lato destro, per aprire il percorso target in una nuova scheda.
+   >Puoi fare clic sull&#39;icona **Apri percorso di destinazione**, a destra, per aprire il percorso di destinazione in una nuova scheda.
 
 1. Selezionare il percorso di destinazione in cui si desidera passare.
-Il **Primo evento** viene precompilato con il nome del primo evento del percorso target. Se il percorso target include più eventi, il **[!UICONTROL Salta]** è consentito solo sul primo evento.
+Il campo **Primo evento** è precompilato con il nome del primo evento del percorso di destinazione. Se il percorso di destinazione include più eventi, il **[!UICONTROL Salto]** è consentito solo sul primo evento.
 
    ![](assets/jump4.png)
 
-1. Il **Parametri azione** mostra tutti i campi dell’evento target. Come per altri tipi di azioni, mappa ogni campo con i campi dell’evento di origine o dell’origine dati. Queste informazioni verranno passate al percorso target in fase di runtime.
+1. La sezione **Parametri azione** visualizza tutti i campi dell&#39;evento di destinazione. Come per altri tipi di azioni, mappa ogni campo con i campi dell’evento di origine o dell’origine dati. Queste informazioni verranno passate al percorso target in fase di runtime.
 1. Aggiungi le attività successive per completare il percorso di origine.
 
    ![](assets/jump5.png)
@@ -104,9 +104,9 @@ Il **Primo evento** viene precompilato con il nome del primo evento del percorso
    >
    >L’identità dell’individuo viene mappata automaticamente. Queste informazioni non sono visibili nell’interfaccia.
 
-Il tuo **[!UICONTROL Salta]** attività è configurata. Non appena il percorso è attivo o in modalità di test, gli utenti che raggiungono **[!UICONTROL Salta]** il passaggio verrà inviato dal al percorso target.
+L&#39;attività **[!UICONTROL Jump]** è configurata. Non appena il percorso è attivo o in modalità di test, gli utenti che raggiungono il passaggio **[!UICONTROL Salta]** verranno inviati dal al percorso di destinazione.
 
-Quando un **[!UICONTROL Salta]** l’attività è configurata in un percorso, un **[!UICONTROL Salta]** l&#39;icona di ingresso viene aggiunta automaticamente all&#39;inizio del percorso target. Questo consente di identificare che il percorso può essere attivato esternamente ma anche internamente da un **[!UICONTROL Salta]** attività.
+Quando un&#39;attività **[!UICONTROL Jump]** è configurata in un percorso, viene aggiunta automaticamente un&#39;icona di voce **[!UICONTROL Jump]** all&#39;inizio del percorso di destinazione. Questo consente di identificare che il percorso può essere attivato esternamente ma anche internamente da un&#39;attività **[!UICONTROL Jump]**.
 
 ![](assets/jump7.png)
 

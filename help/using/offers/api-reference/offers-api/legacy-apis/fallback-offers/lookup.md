@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Cercare le offerte di fallback {#look-up-fallback-offers}
 
-Per cercare offerte di fallback specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include l’offerta di fallback `@id` o il nome dell’offerta di fallback nel percorso della richiesta.
+È possibile cercare offerte di fallback specifiche effettuando una richiesta di GET all&#39;API [!DNL Offer Library] che includa l&#39;offerta di fallback `@id` o il nome dell&#39;offerta di fallback nel percorso della richiesta.
 
 **Formato API**
 
@@ -28,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le offerte di fallback. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | Definisce lo schema associato alle offerte di fallback. | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
-| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `F1: Web fallback` |
+| `id` | Stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. Impossibile utilizzare insieme i parametri `id` e `name`. | `xcore:fallback-offer:122206064e0d98df` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non possono essere utilizzati insieme | `F1: Web fallback` |
 
 **Richiesta**
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse le informazioni sull’ID contenitore, l’ID istanza e l’offerta di fallback univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse informazioni sull&#39;ID contenitore, sull&#39;ID istanza e sull&#39;offerta di fallback univoca `@id`.
 
 ```json
 {

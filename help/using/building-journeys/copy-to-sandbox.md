@@ -42,11 +42,11 @@ ht-degree: 9%
 
 Gli strumenti sandbox consentono di copiare oggetti in più sandbox sfruttando le funzioni di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
 
-Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, fare riferimento a [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [documentazione dell&#39;Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
->Questa funzione richiede le seguenti autorizzazioni da **Amministrazione sandbox** funzionalità: gestisci le sandbox (o Visualizza sandbox) e gestisci i pacchetti. [Ulteriori informazioni](../administration/ootb-permissions.md)
+>Questa funzione richiede le seguenti autorizzazioni dalla funzionalità **Amministrazione sandbox**: Gestisci sandbox (o Visualizza sandbox) e Gestisci pacchetti. [Ulteriori informazioni](../administration/ootb-permissions.md)
 
 ## Introduzione agli strumenti sandbox{#sandbox-gs}
 
@@ -63,7 +63,7 @@ Il processo di copia viene eseguito tramite un’esportazione e un’importazion
 1. Aggiungi il percorso come pacchetto nella sandbox di origine.
 1. Esporta il pacchetto nella sandbox di destinazione.
 
-Inoltre, puoi sfruttare Journey Optimizer **API REST del servizio Copia oggetti** per gestire gli oggetti delle sandbox. [Scopri come utilizzare l’API REST del servizio Copia oggetti](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
+Inoltre, puoi sfruttare l&#39;API REST del servizio Copia oggetti di Journey Optimizer **1} per gestire gli oggetti delle sandbox.** [Scopri come utilizzare il servizio Copia oggetti REST API](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## Aggiungere il percorso come pacchetto{#export}
 
@@ -71,28 +71,28 @@ Per copiare un percorso in un’altra sandbox, devi innanzitutto aggiungere il p
 
 1. Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Viene visualizzato l’elenco dei percorsi.
 
-1. Cercare il percorso che si desidera copiare, fare clic sul pulsante **Altre azioni** (i tre punti accanto al nome del percorso) e fare clic su **Aggiungi al pacchetto**.
+1. Cerca il percorso da copiare, fai clic sull&#39;icona **Altre azioni** (i tre punti accanto al nome del percorso) e fai clic su **Aggiungi al pacchetto**.
 
    ![](assets/journey-sandbox1.png)
 
-   Il **Aggiungi al pacchetto** viene visualizzata la finestra.
+   Viene visualizzata la finestra **Aggiungi al pacchetto**.
 
    ![](assets/journey-sandbox2.png)
 
 1. Scegliere se si desidera aggiungere il percorso a un pacchetto esistente o crearne uno nuovo:
 
-   * **Pacchetto esistente**: seleziona il pacchetto dal menu a discesa.
-   * **Crea un nuovo pacchetto**: digita il nome del pacchetto. Puoi anche aggiungere una descrizione.
+   * **Pacchetto esistente**: selezionare il pacchetto dal menu a discesa.
+   * **Creare un nuovo pacchetto**: digitare il nome del pacchetto. Puoi anche aggiungere una descrizione.
 
-1. Nella sezione del menu AMMINISTRAZIONE, fare clic su **[!UICONTROL Sandbox]**, seleziona la **Pacchetti** e fai clic sul pacchetto da esportare.
+1. Nella sezione del menu AMMINISTRAZIONE fare clic su **[!UICONTROL Sandbox]**, selezionare la scheda **Pacchetti** e fare clic sul pacchetto che si desidera esportare.
 
    ![](assets/journey-sandbox3.png)
 
-1. Selezionare gli oggetti da esportare e fare clic su **Pubblica**
+1. Selezionare gli oggetti da esportare e fare clic su **Publish**
 
    ![](assets/journey-sandbox4.png)
 
-   Se la pubblicazione non è riuscita, puoi controllare i registri per identificare il motivo dell’errore. Apri il pacchetto e fai clic su **Vedi processi non riusciti**, seleziona il processo di importazione e fai clic su **Visualizza dettagli importazione**.
+   Se la pubblicazione non è riuscita, puoi controllare i registri per identificare il motivo dell’errore. Apri il pacchetto, fai clic su **Visualizza processi non riusciti**, seleziona il processo di importazione e fai clic su **Visualizza dettagli importazione**.
 
    ![](assets/journey-sandbox9.png)
 
@@ -100,11 +100,11 @@ Per copiare un percorso in un’altra sandbox, devi innanzitutto aggiungere il p
 
 Una volta pubblicato il pacchetto, devi esportarlo nella sandbox di destinazione.
 
-1. Nella sandbox di origine, fai clic su **[!UICONTROL Sandbox]** , selezionare il **Pacchetti** e fai clic sull’icona + accanto al pacchetto da esportare.
+1. Nella sandbox di origine, fai clic sul menu **[!UICONTROL Sandbox]**, seleziona la scheda **Pacchetti** e fai clic sull&#39;icona + accanto al pacchetto da esportare.
 
    ![](assets/journey-sandbox5.png)
 
-1. Seleziona la **Sandbox di Target** dal campo a discesa e fai clic su **Successivo**. Sono disponibili solo le sandbox all’interno dell’organizzazione.
+1. Seleziona la **sandbox di destinazione** dal campo a discesa e fai clic su **Avanti**. Sono disponibili solo le sandbox all’interno dell’organizzazione.
 
    ![](assets/journey-sandbox6.png)
 
@@ -112,12 +112,12 @@ Una volta pubblicato il pacchetto, devi esportarlo nella sandbox di destinazione
 
    ![](assets/journey-sandbox7.png)
 
-1. Fai clic su **Fine** nell’angolo in alto a destra, per iniziare a copiare il pacchetto nella sandbox di destinazione. Il processo di copia varia in base alla complessità del percorso e al numero di oggetti da copiare.
+1. Fai clic sul pulsante **Fine** nell&#39;angolo in alto a destra per iniziare a copiare il pacchetto nella sandbox di destinazione. Il processo di copia varia in base alla complessità del percorso e al numero di oggetti da copiare.
 
 1. Fare clic sul processo di importazione per esaminare il risultato della copia:
 
-   * Clic **Visualizza oggetti importati** per visualizzare ogni singolo oggetto copiato.
-   * Clic **Visualizza dettagli importazione** per controllare i risultati dell&#39;importazione per ciascun oggetto.
+   * Fare clic su **Visualizza oggetti importati** per visualizzare ogni singolo oggetto copiato.
+   * Fare clic su **Visualizza dettagli importazione** per verificare i risultati dell&#39;importazione per ogni oggetto.
 
    ![](assets/journey-sandbox8.png)
 

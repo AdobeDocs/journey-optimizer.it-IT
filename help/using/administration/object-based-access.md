@@ -12,7 +12,7 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -44,54 +44,54 @@ In Adobe Journey Optimizer, OLAC consente di proteggere i dati e concedere un ac
 
 >[!IMPORTANT]
 >
->Per poter creare le etichette, devi far parte di un ruolo con **[!UICONTROL Gestisci etichette di utilizzo]** autorizzazione.
+>Per poter creare etichette, devi far parte di un ruolo con l&#39;autorizzazione **[!UICONTROL Gestisci etichette di utilizzo]**.
 
-**[!UICONTROL Etichette]** consente di categorizzare set di dati e campi in base ai criteri di utilizzo applicabili a tali dati. **[!UICONTROL Etichette]** può essere applicata in qualsiasi momento, fornendo flessibilità nella scelta di come gestire i dati.
+**[!UICONTROL Etichette]** ti consentono di categorizzare set di dati e campi in base ai criteri di utilizzo applicabili a tali dati. **[!UICONTROL Le etichette]** possono essere applicate in qualsiasi momento, offrendo flessibilità nella scelta di gestire i dati.
 
-È possibile creare etichette in [!DNL Permissions] prodotto. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
+È possibile creare etichette nel prodotto [!DNL Permissions]. Per ulteriori informazioni, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 
-**[!UICONTROL Etichette]** può essere creato direttamente in Journey Optimizer:
+È inoltre possibile creare **[!UICONTROL etichette]** direttamente in Journey Optimizer:
 
-1. Da un oggetto Adobe Journey Optimizer, qui è stato creato un nuovo oggetto **[!UICONTROL Campagna]**, fare clic su **[!UICONTROL Gestisci accesso]** pulsante.
+1. Da un oggetto Adobe Journey Optimizer, qui una **[!UICONTROL Campaign]** appena creata, fai clic sul pulsante **[!UICONTROL Gestisci accesso]**.
 
    ![](assets/olac_1.png)
 
-1. Dalla sezione **[!UICONTROL Gestisci accesso]** finestra, fai clic su **[!UICONTROL Crea etichetta]**.
+1. Dalla finestra **[!UICONTROL Gestisci accesso]**, fai clic su **[!UICONTROL Crea etichetta]**.
 
    ![](assets/olac_2.png)
 
 1. Configurare l’etichetta, è necessario specificare:
    * **[!UICONTROL Nome]**
-   * **[!UICONTROL Nome intuitivo]**
+   * **[!UICONTROL Nome descrittivo]**
    * **[!UICONTROL Descrizione]**
 
    ![](assets/olac_3.png)
 
-1. Clic **[!UICONTROL Crea]** per salvare **[!UICONTROL Etichetta]**.
+1. Fai clic su **[!UICONTROL Crea]** per salvare la **[!UICONTROL Etichetta]**.
 
-Il nuovo **[!UICONTROL Etichetta]** è ora disponibile nell’elenco. Se necessario, puoi modificarlo in [!DNL Permissions] prodotto.
+La **[!UICONTROL etichetta]** appena creata è ora disponibile nell&#39;elenco. Se necessario, è possibile modificarlo nel prodotto [!DNL Permissions].
 
 ## Assegna etichette {#assign-labels}
 
 >[!IMPORTANT]
 >
->Per poter assegnare le etichette, devi far parte di un ruolo con un’autorizzazione Gestione, ad esempio [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Senza questa autorizzazione, il **[!UICONTROL Gestisci accesso]** il pulsante sarà disattivato.
+>Per poter assegnare le etichette, devi far parte di un ruolo con un&#39;autorizzazione Gestione, ad esempio [!DNL Manage journeys], [!DNL Manage Campaigns] o [!DNL Manage decisions]. Senza questa autorizzazione, il pulsante **[!UICONTROL Gestisci accesso]** non sarà disponibile.
 
 Per assegnare etichette di utilizzo dei dati personalizzate o di base agli oggetti Journey Optimizer:
 
-1. Da un oggetto Adobe Journey Optimizer, qui è stato creato un nuovo oggetto **[!UICONTROL Campagna]**, fare clic su **[!UICONTROL Gestisci accesso]** pulsante.
+1. Da un oggetto Adobe Journey Optimizer, qui una **[!UICONTROL Campaign]** appena creata, fai clic sul pulsante **[!UICONTROL Gestisci accesso]**.
 
    ![](assets/olac_1.png)
 
-1. Dalla sezione **[!UICONTROL Gestisci accesso]** per gestire l&#39;accesso a questo oggetto, seleziona le etichette di utilizzo dei dati personalizzate o di base.
+1. Dalla finestra **[!UICONTROL Gestisci accesso]**, seleziona le etichette di utilizzo dei dati personalizzate o di base per gestire l&#39;accesso a questo oggetto.
 
    Per ulteriori informazioni sulle etichette di utilizzo dei dati di base, consulta [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html).
 
    ![](assets/olac_4.png)
 
-1. Clic **[!UICONTROL Salva]** per applicare questa restrizione dell’etichetta.
+1. Fai clic su **[!UICONTROL Salva]** per applicare questa restrizione dell&#39;etichetta.
 
-Per avere accesso a questo oggetto, gli utenti dovranno disporre del **[!UICONTROL Etichetta]** incluso nel loro **[!UICONTROL Ruoli]**.
+Per poter accedere a questo oggetto, gli utenti dovranno includere l&#39;**[!UICONTROL Etichetta]** specifica nei loro **[!UICONTROL Ruoli]**.
 Ad esempio, un utente con l’etichetta C1 avrà accesso solo a oggetti con etichetta C1 o senza etichetta.
 
-Per ulteriori informazioni su come assegnare **[!UICONTROL Etichetta]** a un **[!UICONTROL Ruolo]**, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).
+Per ulteriori informazioni su come assegnare **[!UICONTROL Label]** a un **[!UICONTROL Role]**, fare riferimento a [questa pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

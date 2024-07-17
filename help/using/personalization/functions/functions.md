@@ -15,7 +15,7 @@ ht-degree: 22%
 
 # Introduzione alle funzioni helper{#functions}
 
-Utilizzare [!DNL Journey Optimizer] linguaggio di template per eseguire operazioni sui dati, ad esempio calcoli, formattazione o conversioni di dati, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
+Utilizza il linguaggio di modelli [!DNL Journey Optimizer] per eseguire operazioni sui dati, ad esempio calcoli, formattazione o conversioni di dati, condizioni e manipolarli nel contesto della personalizzazione. Scopri le linee guida sulla sintassi di personalizzazione in [questa pagina](../personalization-syntax.md).
 
 
 
@@ -27,15 +27,15 @@ Il linguaggio dei modelli viene utilizzato nelle funzioni di supporto disponibil
 
 >[!NOTE]
 >
->Le funzioni e le funzionalità disponibili nell’editor di personalizzazione sono diverse da quelle disponibili nella [Editor espressioni avanzate percorso](../../building-journeys/expression/expressionadvanced.md).
+>Le funzioni e le funzionalità disponibili nell&#39;editor di personalizzazione sono diverse da quelle disponibili nell&#39;editor di espressioni avanzate di [Percorso](../../building-journeys/expression/expressionadvanced.md).
 
-In [!DNL Journey Optimizer] nell’editor della personalizzazione, le funzioni di assistenza sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
+Nell&#39;editor di personalizzazione [!DNL Journey Optimizer], le funzioni di supporto sono raggruppate in tre categorie: [Funzioni](#functions-helper), [Helper](#helper-helper) e [Operatori](#operators-helper).
 
 Seleziona una categoria per accedere alle sottocategorie e alle funzioni.
 
-Accedere alle sottocategorie facendo clic sul pulsante `>` icona. Seleziona una funzione facendo clic sul pulsante `+` icona: la funzione viene aggiunta automaticamente alla schermata di personalizzazione.
+Accedere alle sottocategorie facendo clic sull&#39;icona `>`. Selezionare una funzione facendo clic sull&#39;icona `+`: la funzione viene aggiunta automaticamente alla schermata di personalizzazione.
 
-Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla ai preferiti. [Ulteriori informazioni](../personalize.md#fav)
+Fare clic sull&#39;icona `...` per visualizzare la descrizione della funzione e aggiungerla ai preferiti. [Ulteriori informazioni](../personalize.md#fav)
 
 ## Funzioni{#functions-helper}
 
@@ -85,7 +85,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="aggregation.md#min">Minimo</a></td><td>Questa funzione restituisce il più piccolo di tutti i valori selezionati all’interno dell’array.</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#notin">Non in entrata</a></td><td>Questa funzione determina se un elemento non è un membro di un array o di un elenco</td>
+        <td><a href="arrays-list.md#notin">Non in</a></td><td>Questa funzione determina se un elemento non è un membro di un array o di un elenco</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#subset">Sottoinsieme di</a></td><td>Questa funzione determina se un array specifico (array A) è un sottoinsieme di un altro array (array B), ovvero se tutti gli elementi nell’array A sono elementi dell’array B</td>
@@ -268,7 +268,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#length">Lunghezza</a></td><td>Questa funzione viene utilizzata per ottenere il numero di caratteri in una stringa o in un’espressione</td>
     </tr>
     <tr>
-        <td><a href="string.md#like">Mi piace</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
+        <td><a href="string.md#like">Simile a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa corrisponde a un pattern specificato</td>
     </tr>
     <tr>
         <td><a href="string.md#lower">Minuscolo</a></td><td>Questa funzione converte una stringa in lettere minuscole.</td>
@@ -301,7 +301,7 @@ Fai clic su `...` per visualizzare la descrizione della funzione e aggiungerla a
         <td><a href="string.md#rightTrim">Taglia a destra</a></td><td>Questa funzione rimuove gli spazi bianchi dalla fine di una stringa. </td>
     </tr>
     <tr>
-        <td><a href="string.md#split">Dividi</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
+        <td><a href="string.md#split">Divisione</a></td><td>Questa funzione viene utilizzata per dividere una stringa per un determinato carattere</td>
     </tr>
     <tr>
         <td><a href="string.md#startsWith">Inizia con</a></td><td>Questa funzione viene utilizzata per determinare se una stringa inizia con una sottostringa specificata</td>
@@ -388,7 +388,7 @@ Le funzioni aritmetiche vengono utilizzate per eseguire calcoli di base sui valo
         <td><a href="arithmetic-functions.md#multiply">Moltiplicazione</a></td><td>Questo operatore viene utilizzato per trovare il prodotto di due espressioni di argomento</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#remainder">Rimanente</a> </td><td>Questo operatore viene utilizzato per trovare il resto dopo aver diviso le due espressioni di argomento</td>
+        <td><a href="arithmetic-functions.md#remainder">Resto</a> </td><td>Questo operatore viene utilizzato per trovare il resto dopo aver diviso le due espressioni di argomento</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#substract">Sottrazione</a> </td><td>Questo operatore trova la differenza tra due espressioni</td>

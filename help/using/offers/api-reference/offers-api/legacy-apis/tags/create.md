@@ -9,17 +9,17 @@ exl-id: 84f0efa5-28af-4569-994c-12d87828a277
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Creare un qualificatore di raccolta {#create-tag}
 
-Puoi creare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) inviando una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+È possibile creare un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;) effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al contempo l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sul nuovo qualificatore di raccolta creato, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare il qualificatore della raccolta. Puoi utilizzare il qualificatore di raccolta univoco `@id` nei tutorial successivi per creare raccolte e offerte personalizzate.
+In caso di esito positivo, la risposta restituisce informazioni sul nuovo qualificatore di raccolta creato, inclusi l&#39;ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare il qualificatore della raccolta. È possibile utilizzare il qualificatore di raccolta univoco `@id` nelle esercitazioni successive per creare raccolte e offerte personalizzate.
 
 ```json
 {

@@ -9,7 +9,7 @@ exl-id: de6a8da2-55cf-4105-ba93-40c556732626
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 Utilizza le funzioni Mappa nella personalizzazione per semplificare l’interazione con le mappe.
 
-## Ottenere{#get}
+## Ottieni{#get}
 
-Il `get` La funzione viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
+La funzione `get` viene utilizzata per recuperare il valore di una mappa per una determinata chiave.
 
 **Sintassi**
 
@@ -37,7 +37,7 @@ L&#39;operazione seguente ottiene il valore della mappa di identità per la chia
 
 ## Chiavi{#keys}
 
-Il `keys` La funzione viene utilizzata per recuperare tutte le chiavi per una data mappa.
+La funzione `keys` viene utilizzata per recuperare tutte le chiavi per una determinata mappa.
 
 **Sintassi**
 
@@ -55,7 +55,7 @@ L&#39;operazione seguente ottiene tutte le chiavi per la mappa `identityMap`.
 
 ## Valori{#values}
 
-Il `values` Questa funzione viene utilizzata per recuperare tutti i valori di una data mappa.
+La funzione `values` viene utilizzata per recuperare tutti i valori di una determinata mappa.
 
 **Sintassi**
 

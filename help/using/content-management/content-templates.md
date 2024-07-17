@@ -11,14 +11,14 @@ exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
 
 # Introduzione ai modelli di contenuto {#content-templates}
 
-Per un processo di progettazione accelerato e migliorato, puoi creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Journey Optimizer] campagne e percorsi.
+Per accelerare e migliorare la progettazione, è possibile creare modelli autonomi per riutilizzare facilmente i contenuti personalizzati in [!DNL Journey Optimizer] campagne e percorsi.
 
 Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su modelli al di fuori di campagne o percorsi. Gli utenti marketing possono quindi riutilizzare e adattare questi modelli di contenuto autonomo all’interno dei propri percorsi o campagne.
 
@@ -26,7 +26,7 @@ Questa funzionalità consente agli utenti orientati ai contenuti di lavorare su 
 
 Ad esempio, un utente all’interno dell’azienda è solo responsabile dei contenuti e quindi non ha accesso a campagne o percorsi. Tuttavia, questo utente può creare un modello e-mail che gli esperti marketing della tua organizzazione potranno selezionare per l’utilizzo in tutte le e-mail come punto di partenza.
 
-Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta [Documentazione delle API di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ➡️ [Scopri come creare e utilizzare i modelli in questo video](#video-templates)
 
@@ -34,7 +34,7 @@ Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulterio
 >
 >Al momento i modelli di contenuto non sono disponibili per il canale web.
 >
->Per creare, modificare ed eliminare i modelli di contenuto, è necessario disporre del **[!DNL Manage library items]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+>Per creare, modificare ed eliminare modelli di contenuto, è necessario disporre dell&#39;autorizzazione **[!DNL Manage library items]** inclusa nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Video introduttivo {#video-templates}
 

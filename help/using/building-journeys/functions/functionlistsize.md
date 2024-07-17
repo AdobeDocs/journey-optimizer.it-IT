@@ -26,7 +26,7 @@ Elenco
 
 `listSize(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|

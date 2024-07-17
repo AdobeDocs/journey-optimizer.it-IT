@@ -9,7 +9,7 @@ exl-id: ea79add2-1ea7-4c5c-ba67-f99d10975c4f
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 9%
 
 Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Per creare una raccolta, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+È possibile creare una raccolta effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -61,7 +61,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la raccolta. Puoi utilizzare la tua raccolta univoca `@id` in un tutorial successivo per creare una decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla raccolta appena creata, incluso l&#39;ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la raccolta. È possibile utilizzare la raccolta univoca `@id` in un&#39;esercitazione successiva per creare una decisione.
 
 ```json
 {

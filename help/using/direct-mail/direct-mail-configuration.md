@@ -16,19 +16,19 @@ ht-degree: 22%
 
 # Configurazione direct mail {#direct-mail-configuration}
 
-[!DNL Journey Optimizer] ti consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare e-mail ai clienti.
+[!DNL Journey Optimizer] consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare messaggi ai clienti.
 
-Quando [creazione di un messaggio di direct mailing](../direct-mail/create-direct-mail.md), puoi definire i dati del pubblico target, comprese le informazioni di contatto scelte (ad esempio l’indirizzo postale). Un file contenente questi dati verrà quindi generato ed esportato automaticamente in un server, dove il provider di direct mailing sarà in grado di recuperarli e occuparsi dell’invio effettivo.
+Quando [crei un messaggio di direct mailing](../direct-mail/create-direct-mail.md), definisci i dati del pubblico di destinazione, incluse le informazioni di contatto scelte (ad esempio l&#39;indirizzo postale). Un file contenente questi dati verrà quindi generato ed esportato automaticamente in un server, dove il provider di direct mailing sarà in grado di recuperarli e occuparsi dell’invio effettivo.
 
 Prima di poter generare questo file, devi creare:
 
-1. A [configurazione di indirizzamento dei file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografarlo, se necessario.
+1. [configurazione di indirizzamento file](#file-routing-configuration) per specificare il server in cui verrà esportato il file e crittografare il file, se necessario.
 
    >[!CAUTION]
    >
-   >Per creare una configurazione di indirizzamento dei file, è necessario disporre del **[!DNL Manage file routing]** autorizzazione incorporata. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
+   >Per creare una configurazione di indirizzamento dei file, è necessario disporre dell&#39;autorizzazione incorporata **[!DNL Manage file routing]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
 
-1. A [superficie direct mail](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing.
+1. Una [superficie di direct mailing](#direct-mail-surface) che farà riferimento alla configurazione di indirizzamento dei file. Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una superficie di direct mailing.
 
 ## Configurare l’indirizzamento dei file {#file-routing-configuration}
 
@@ -60,9 +60,9 @@ Prima di poter generare questo file, devi creare:
 
 >[!NOTE]
 >
->Attualmente Amazon S3, SFTP e Azure sono supportati in [!DNL Journey Optimizer].
+>Al momento Amazon S3, SFTP e Azure sono supportati in [!DNL Journey Optimizer].
 
-Per recapitare un messaggio di direct mailing: [!DNL Journey Optimizer] genera ed esporta in un server il file contenente i dati del pubblico di destinazione.
+Per inviare un messaggio di direct mailing, [!DNL Journey Optimizer] genera ed esporta in un server il file contenente i dati del pubblico di destinazione.
 
 È necessario specificare i dettagli del server in modo che il provider di direct mailing possa accedere al file e utilizzarlo per la consegna della posta.
 
@@ -72,37 +72,37 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 >[!TAB Amazon S3]
 
-1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione di indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** , quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione indirizzamento file]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Imposta un nome per la configurazione.
 
-1. Seleziona **Amazon S3** come **[!UICONTROL Tipo di server]** da utilizzare per esportare i file di direct mailing.
+1. Selezionare **Amazon S3** come **[!UICONTROL tipo di server]** da utilizzare per esportare i file di direct mailing.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Inserisci i dettagli e le credenziali del server
 
-   * **Nome bucket AWS**:Per sapere dove trovare il nome del bucket di AWS, consulta [questa pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
+   * **Nome bucket AWS**:Per sapere dove trovare il nome del bucket AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   * **Chiave di accesso AWS**: per sapere dove trovare il tuo ID chiave di accesso ad AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
+   * **Chiave di accesso AWS**: per sapere dove trovare l&#39;ID della chiave di accesso AWS, fai riferimento a [questa pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-   * **Chiave segreta AWS**: per sapere dove trovare la chiave segreta di AWS, consulta [questa pagina](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **Chiave segreta AWS**: per sapere dove trovare la chiave segreta AWS, consulta [questa pagina](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
-   * **Area geografica AWS**: scegli il **[!UICONTROL Area geografica AWS]** dove si trova l&#39;infrastruttura server. Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
+   * **Area geografica AWS**: scegliere l&#39;**[!UICONTROL Area geografica AWS]** in cui si troverà l&#39;infrastruttura server. Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel **[!UICONTROL Chiave di crittografia PGP/GPG]** campo.
+1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie direct mail](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [superficie direct mailing](#direct-mail-surface).
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non sarà possibile selezionarla in una superficie finché non viene **[!UICONTROL Attivo]**.
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una superficie finché non sarà **[!UICONTROL Attiva]**.
 
 >[!TAB SFTP]
 
-1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione di indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** , quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione indirizzamento file]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
@@ -118,47 +118,47 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
    * **Indirizzo server**: &#x200B;URL del server SFTP.
 
-   * **Porta**: numero della porta di connessione FTP.
+   * **Porta**: numero porta di connessione FTP.
 
-   * **Password**:&#x200B; password utilizzata per connettersi al server SFTP.
+   * **Password**:&#x200B; password utilizzata per la connessione al server SFTP.
 
    ![](assets/file-routing-config-sftp-detail.png)
 
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel **[!UICONTROL Chiave di crittografia PGP/GPG]** campo.
+1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie direct mail](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [superficie direct mailing](#direct-mail-surface).
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non sarà possibile selezionarla in una superficie finché non viene **[!UICONTROL Attivo]**.
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una superficie finché non sarà **[!UICONTROL Attiva]**.
 
 >[!TAB Azure]
 
-1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione di indirizzamento dei file]** > **[!UICONTROL Indirizzamento file]** , quindi fai clic su **[!UICONTROL Crea configurazione di indirizzamento]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazione indirizzamento file]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento]**.
 
    ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Imposta un nome per la configurazione.
 
-1. Seleziona Azure **[!UICONTROL Tipo di server]** da utilizzare per esportare i file di direct mailing.
+1. Selezionare il tipo di server **[!UICONTROL Azure]** da utilizzare per esportare i file di direct mailing.
 
    ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
 
 1. Compila i dettagli e le credenziali per il server:
 
-   * **Stringa di connessione Azure**: per trovare il **Stringa di connessione Azure**, fare riferimento a [questa pagina](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+   * **Stringa di connessione Azure**: per trovare la **stringa di connessione Azure**, fare riferimento a [questa pagina](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
 
-     Il **Stringa di connessione Azure** deve seguire il formato seguente:
+     La **stringa di connessione Azure** deve seguire il formato seguente:
 
      `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
 
-   * **Nome contenitore**: per trovare il **Nome contenitore**, fare riferimento a [questa pagina](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+   * **Nome contenitore**: per trovare il **Nome contenitore**, consultare [questa pagina](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
 
-     Il **Nome contenitore** deve contenere solo il nome del contenitore senza barre. Per specificare un percorso all’interno del contenitore per il salvataggio del file, aggiorna il nome del file della campagna Direct Mail in modo da includere il percorso desiderato.
+     Il **nome contenitore** deve contenere solo il nome del contenitore senza barre. Per specificare un percorso all’interno del contenitore per il salvataggio del file, aggiorna il nome del file della campagna Direct Mail in modo da includere il percorso desiderato.
 
-1. Per crittografare il file, copia e incolla la chiave di crittografia nel **[!UICONTROL Chiave di crittografia PGP/GPG]** campo.
+1. Per crittografare il file, copia e incolla la chiave di crittografia nel campo **[!UICONTROL Chiave di crittografia PGP/GPG]**.
 
-1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file viene creata con **[!UICONTROL Attivo]** stato. È ora pronto per essere utilizzato in un [superficie direct mail](#direct-mail-surface).
+1. Seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [superficie direct mailing](#direct-mail-surface).
 
-   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non sarà possibile selezionarla in una superficie finché non viene **[!UICONTROL Attivo]**.
+   Puoi anche selezionare **[!UICONTROL Salva come bozza]** per creare la configurazione di indirizzamento dei file, ma non potrai selezionarla in una superficie finché non sarà **[!UICONTROL Attiva]**.
 
 >[!ENDTABS]
 
@@ -181,13 +181,13 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 >title="Definire la soglia di divisione dei file"
 >abstract="Devi impostare il numero massimo di record per ogni file contenente i dati del pubblico. Puoi selezionare un numero qualsiasi compreso tra 1 e 200.000 record. Una volta raggiunta la soglia specificata, verrà creato un altro file per i record rimanenti."
 
-Essere in grado di consegnare direct mailing con [!DNL Journey Optimizer], è necessario creare una superficie di canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
+Per poter inviare direct mailing con [!DNL Journey Optimizer], è necessario creare una superficie di canale per definire le impostazioni per la formattazione del file che verrà utilizzato dal provider di posta.
 
 Una superficie di direct mailing deve includere anche la configurazione di indirizzamento dei file che definisce il server in cui verrà esportato il file di direct mailing.
 
 1. Create una superficie di canale. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
-1. Seleziona la **[!UICONTROL Direct mail]** canale.
+1. Selezionare il canale **[!UICONTROL Direct mail]**.
 
    ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
@@ -199,11 +199,11 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
 1. Selezionare il formato del file: **[!UICONTROL CSV]** o **[!UICONTROL Testo delimitato]**.
 
-1. Se si seleziona **[!UICONTROL Testo delimitato]**, definisci il separatore di colonne desiderato: tabulazione, punto e virgola, barra verticale o e commerciale.
+1. Se si seleziona **[!UICONTROL Testo delimitato]**, definire il separatore di colonne desiderato: tabulazione, punto e virgola, barra verticale o e commerciale.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. Seleziona la **[!UICONTROL Configurazione di indirizzamento dei file]** tra quelli che hai creato. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
+1. Selezionare la **[!UICONTROL configurazione di indirizzamento file]** tra quelle create. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
 
    >[!CAUTION]
    >
@@ -215,7 +215,7 @@ Una superficie di direct mailing deve includere anche la configurazione di indir
 
 1. Invia la superficie della direct mailing.
 
-Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md) all’interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene esportato automaticamente nel server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna di direct mailing.
+Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md) all&#39;interno di una campagna. Una volta avviata la campagna, il file contenente i dati del pubblico di destinazione viene esportato automaticamente nel server definito. Il provider di direct mailing sarà quindi in grado di recuperare tale file e procedere con la consegna di direct mailing.
 
 >[!NOTE]
 >

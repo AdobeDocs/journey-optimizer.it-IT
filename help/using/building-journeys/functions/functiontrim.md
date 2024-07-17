@@ -30,7 +30,7 @@ Stringa
 
 | Parametro | Tipo |
 |-----------|------------------|
-| string | string |
+| stringa | stringa |
 
 ## Firma e tipo restituito
 

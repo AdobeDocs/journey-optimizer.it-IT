@@ -19,7 +19,7 @@ Scopri come utilizzare le funzioni stringa nell’editor di personalizzazione.
 
 ## Camel Case {#camelCase}
 
-Il `camelCase` La funzione maiuscola la prima lettera di ogni parola di una stringa.
+La funzione `camelCase` utilizza l&#39;iniziale maiuscola di ogni parola di una stringa.
 
 **Sintassi**
 
@@ -37,7 +37,7 @@ La funzione seguente metterà in maiuscolo la prima lettera di parola nell’ind
 
 ## Codice carattere in corrispondenza di {#char-code-at}
 
-Il `charCodeAt` La funzione restituisce il valore ASCII di un carattere, come la funzione charCodeAt in JavaScript. Come argomenti di input sono necessari una stringa e un numero intero (che definisce la posizione del carattere) e viene restituito il valore ASCII corrispondente.
+La funzione `charCodeAt` restituisce il valore ASCII di un carattere, come la funzione charCodeAt in JavaScript. Come argomenti di input sono necessari una stringa e un numero intero (che definisce la posizione del carattere) e viene restituito il valore ASCII corrispondente.
 
 **Sintassi**
 
@@ -55,7 +55,7 @@ La funzione seguente restituisce il valore ASCII o i.e 111.
 
 ## Concatena {#concate}
 
-Il `concat` funzione combina due stringhe in una.
+La funzione `concat` combina due stringhe in una.
 
 **Sintassi**
 
@@ -73,7 +73,7 @@ La funzione seguente combina il profilo città e paese in una singola stringa.
 
 ## Contains {#contains}
 
-Il `contains` La funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata.
+La funzione `contains` viene utilizzata per determinare se una stringa contiene una sottostringa specificata.
 
 **Sintassi**
 
@@ -103,7 +103,7 @@ Il `contains` La funzione viene utilizzata per determinare se una stringa contie
 
 ## Non contiene{#doesNotContain}
 
-Il `doesNotContain` La funzione viene utilizzata per determinare se una stringa non contiene una sottostringa specificata.
+La funzione `doesNotContain` viene utilizzata per determinare se una stringa non contiene una sottostringa specificata.
 
 **Sintassi**
 
@@ -128,7 +128,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se l’i
 
 ## Non termina con{#doesNotEndWith}
 
-Il `doesNotEndWith` La funzione viene utilizzata per determinare se una stringa non termina con una sottostringa specificata.
+La funzione `doesNotEndWith` viene utilizzata per determinare se una stringa non termina con una sottostringa specificata.
 
 **Sintassi**
 
@@ -152,7 +152,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Non inizia con{#doesNotStartWith}
 
-Il `doesNotStartWith` La funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata.
+La funzione `doesNotStartWith` viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata.
 
 **Sintassi**
 
@@ -176,7 +176,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Codifica 64{#encode64}
 
-Il `encode64` La funzione viene utilizzata per codificare una stringa per conservare le informazioni personali (PI) se da includere, ad esempio, in un URL.
+La funzione `encode64` viene utilizzata per codificare una stringa per conservare le informazioni personali (PI) se da includere, ad esempio, in un URL.
 
 **Sintassi**
 
@@ -186,7 +186,7 @@ Il `encode64` La funzione viene utilizzata per codificare una stringa per conser
 
 ## Termina con{#endsWith}
 
-Il `endsWith` viene utilizzata per determinare se una stringa termina con una sottostringa specificata.
+La funzione `endsWith` viene utilizzata per determinare se una stringa termina con una sottostringa specificata.
 
 **Sintassi**
 
@@ -211,7 +211,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se l’i
 
 ## Uguale a{#equals}
 
-Il `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
+La funzione `equals` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, con distinzione tra maiuscole e minuscole.
 
 **Sintassi**
 
@@ -234,7 +234,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Uguale a ignora distinzione tra maiuscole e minuscole{#equalsIgnoreCase}
 
-Il `equalsIgnoreCase` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, senza distinzione tra maiuscole e minuscole.
+La funzione `equalsIgnoreCase` viene utilizzata per determinare se una stringa è uguale alla stringa specificata, senza distinzione tra maiuscole e minuscole.
 
 **Sintassi**
 
@@ -257,7 +257,7 @@ La query seguente determina se il nome della persona è &quot;John&quot; senza d
 
 ## Estrai dominio e-mail {#extractEmailDomain}
 
-Il `extractEmailDomain` viene utilizzata per estrarre il dominio di un indirizzo e-mail.
+La funzione `extractEmailDomain` viene utilizzata per estrarre il dominio di un indirizzo e-mail.
 
 **Sintassi**
 
@@ -275,7 +275,7 @@ La query seguente estrae il dominio e-mail dell’indirizzo e-mail personale.
 
 ## Formato valuta {#format-currency}
 
-Il `formatCurrency` La funzione viene utilizzata per convertire qualsiasi numero nella corrispondente rappresentazione della valuta sensibile alla lingua a seconda delle impostazioni locali passate come stringa nel secondo argomento.
+La funzione `formatCurrency` viene utilizzata per convertire qualsiasi numero nella corrispondente rappresentazione della valuta sensibile alla lingua a seconda delle impostazioni locali passate come stringa nel secondo argomento.
 
 **Sintassi**
 
@@ -293,7 +293,7 @@ Questa query restituisce £ 56,00
 
 ## Ottieni host URL {#get-url-host}
 
-Il `getUrlHost` viene utilizzata per recuperare il nome host di un URL.
+La funzione `getUrlHost` viene utilizzata per recuperare il nome host di un URL.
 
 **Sintassi**
 
@@ -311,7 +311,7 @@ Restituisce &quot;www.myurl.com&quot;
 
 ## Ottieni percorso URL {#get-url-path}
 
-Il `getUrlPath` La funzione viene utilizzata per recuperare il percorso dopo il nome di dominio di un URL.
+La funzione `getUrlPath` viene utilizzata per recuperare il percorso dopo il nome di dominio di un URL.
 
 **Sintassi**
 
@@ -329,7 +329,7 @@ Restituisce &quot;/contact.html&quot;
 
 ## Ottieni protocollo URL {#get-url-protocol}
 
-Il `getUrlProtocol` viene utilizzata per recuperare il protocollo di un URL.
+La funzione `getUrlProtocol` viene utilizzata per recuperare il protocollo di un URL.
 
 **Sintassi**
 
@@ -347,7 +347,7 @@ Restituisce &quot;http&quot;
 
 ## Indice di {#index-of}
 
-Il `indexOf` viene utilizzata per restituire la posizione (nel primo argomento) della prima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.
+La funzione `indexOf` viene utilizzata per restituire la posizione (nel primo argomento) della prima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.
 
 **Sintassi**
 
@@ -370,7 +370,7 @@ Restituisce 6.
 
 ## È vuoto {#isEmpty}
 
-Il `isEmpty` viene utilizzata per determinare se una stringa è vuota.
+La funzione `isEmpty` viene utilizzata per determinare se una stringa è vuota.
 
 **Sintassi**
 
@@ -388,7 +388,7 @@ La funzione seguente restituisce &quot;true&quot; se il numero di telefono cellu
 
 ## Non è vuoto {#is-not-empty}
 
-Il `isNotEmpty` viene utilizzata per determinare se una stringa non è vuota.
+La funzione `isNotEmpty` viene utilizzata per determinare se una stringa non è vuota.
 
 **Sintassi**
 
@@ -406,7 +406,7 @@ La funzione seguente restituisce &quot;true&quot; se il numero di telefono cellu
 
 ## Ultimo indice di {#last-index-of}
 
-Il `lastIndexOf` La funzione viene utilizzata per restituire la posizione (nel primo argomento) dell&#39;ultima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.
+La funzione `lastIndexOf` viene utilizzata per restituire la posizione (nel primo argomento) dell&#39;ultima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.
 
 **Sintassi**
 
@@ -429,7 +429,7 @@ Restituisce 7.
 
 ## Taglia a sinistra {#leftTrim}
 
-Il `leftTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dall’inizio di una stringa.
+La funzione `leftTrim` viene utilizzata per rimuovere gli spazi dall&#39;inizio di una stringa.
 
 **Sintassi**
 
@@ -439,7 +439,7 @@ Il `leftTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dall�
 
 ## Lunghezza {#length}
 
-Il `length` La funzione viene utilizzata per ottenere il numero di caratteri in una stringa o in un’espressione.
+La funzione `length` viene utilizzata per ottenere il numero di caratteri in una stringa o in un&#39;espressione.
 
 **Sintassi**
 
@@ -455,9 +455,9 @@ La funzione seguente restituisce la lunghezza del nome della città del profilo.
 {%= length(profile.homeAddress.city) %}
 ```
 
-## Mi piace{#like}
+## Simile a{#like}
 
-Il `like` viene utilizzata per determinare se una stringa corrisponde a un pattern specificato.
+La funzione `like` viene utilizzata per determinare se una stringa corrisponde a un pattern specificato.
 
 **Sintassi**
 
@@ -468,7 +468,7 @@ Il `like` viene utilizzata per determinare se una stringa corrisponde a un patte
 | Argomento | Descrizione |
 | --------- | ----------- |
 | `{STRING_1}` | Stringa su cui eseguire il controllo. |
-| `{STRING_2}` | Espressione da confrontare con la prima stringa. Per creare un’espressione sono disponibili due caratteri speciali supportati: `%` e `_`. <ul><li>`%` viene utilizzato per rappresentare zero o più caratteri.</li><li>`_` viene utilizzato per rappresentare esattamente un carattere.</li></ul> |
+| `{STRING_2}` | Espressione da confrontare con la prima stringa. Per la creazione di un&#39;espressione sono supportati due caratteri speciali: `%` e `_`. <ul><li>`%` viene utilizzato per rappresentare zero o più caratteri.</li><li>`_` viene utilizzato per rappresentare esattamente un carattere.</li></ul> |
 
 **Esempio**
 
@@ -480,7 +480,7 @@ La query seguente recupera tutte le città in cui vivono i profili che contengon
 
 ## Minuscolo{#lower}
 
-Il `lowerCase` funzione converte una stringa in lettere minuscole.
+La funzione `lowerCase` converte una stringa in lettere minuscole.
 
 **Sintassi**
 
@@ -498,7 +498,7 @@ Questa funzione converte il nome del profilo in lettere minuscole.
 
 ## Corrisponde a{#matches}
 
-Il `matches` viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare. Fare riferimento a [questo documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) per ulteriori informazioni sui pattern corrispondenti nelle espressioni regolari, vedere.
+La funzione `matches` viene utilizzata per determinare se una stringa corrisponde a una specifica espressione regolare. Fare riferimento a [questo documento](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) per ulteriori informazioni sui pattern corrispondenti nelle espressioni regolari.
 
 **Sintassi**
 
@@ -516,7 +516,7 @@ La query seguente determina, senza distinzione tra maiuscole e minuscole, se il 
 
 ## Maschera {#mask}
 
-Il `Mask` La funzione viene utilizzata per sostituire una parte di stringa con caratteri &quot;X&quot;.
+La funzione `Mask` viene utilizzata per sostituire una parte di stringa con caratteri &quot;X&quot;.
 
 **Sintassi**
 
@@ -536,7 +536,7 @@ La query restituisce `1XXXXXX89`.
 
 ## MD5 {#md5}
 
-Il `md5` La funzione viene utilizzata per calcolare e restituire l’hash md5 di una stringa.
+La funzione `md5` viene utilizzata per calcolare e restituire l&#39;hash MD5 di una stringa.
 
 **Sintassi**
 
@@ -554,7 +554,7 @@ Restituisce &quot;5eb63bbbe01eeed093cb22bb8f5acdc3&quot;
 
 ## Non uguale a{#notEqualTo}
 
-Il `notEqualTo` viene utilizzata per determinare se una stringa non è uguale alla stringa specificata.
+La funzione `notEqualTo` viene utilizzata per determinare se una stringa non è uguale alla stringa specificata.
 
 **Sintassi**
 
@@ -577,7 +577,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Non è uguale con ignora distinzione tra maiuscole e minuscole {#not-equal-with-ignore-case}
 
-Il `notEqualWithIgnoreCase` viene utilizzata per confrontare due stringhe ignorando la distinzione tra maiuscole e minuscole.
+La funzione `notEqualWithIgnoreCase` viene utilizzata per confrontare due stringhe ignorando la distinzione tra maiuscole e minuscole.
 
 **Sintassi**
 
@@ -600,7 +600,7 @@ La query seguente determina se il nome della persona non è &quot;John&quot;, se
 
 ## Gruppo di espressioni regolari{#regexGroup}
 
-Il `Group` La funzione viene utilizzata per estrarre informazioni specifiche, in base all’espressione regolare fornita.
+La funzione `Group` viene utilizzata per estrarre informazioni specifiche, in base all&#39;espressione regolare fornita.
 
 **Sintassi**
 
@@ -624,7 +624,7 @@ La query seguente viene utilizzata per estrarre il nome di dominio da un indiriz
 
 ## Sostituisci {#replace}
 
-Il `replace` La funzione viene utilizzata per sostituire una determinata sottostringa in una stringa con un’altra sottostringa.
+La funzione `replace` viene utilizzata per sostituire una determinata sottostringa in una stringa con un&#39;altra sottostringa.
 
 **Sintassi**
 
@@ -648,7 +648,7 @@ Restituisce &quot;Ciao Mark, ecco la tua newsletter mensile!&quot;
 
 ## Sostituisci tutto{#replaceAll}
 
-Il `replaceAll` La funzione viene utilizzata per sostituire tutte le sottostringhe di un testo che corrisponde all’espressione &quot;regex&quot; con la stringa letterale &quot;replace&quot; specificata. Regex gestisce in modo particolare &quot;\&quot; e &quot;+&quot; e tutte le espressioni regex seguono la strategia di escape PQL. La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
+La funzione `replaceAll` viene utilizzata per sostituire tutte le sottostringhe di un testo che corrisponde all&#39;espressione &quot;regex&quot; con la stringa letterale &quot;replace&quot; specificata. Regex gestisce in modo particolare &quot;\&quot; e &quot;+&quot; e tutte le espressioni regex seguono la strategia di escape di PQL. La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sostituendo &quot;aa&quot; con &quot;b&quot; nella stringa &quot;aaa&quot; si otterrà &quot;ba&quot; invece di &quot;ab&quot;.
 
 **Sintassi**
 
@@ -660,12 +660,12 @@ Il `replaceAll` La funzione viene utilizzata per sostituire tutte le sottostring
 >
 > Se l&#39;espressione utilizzata come secondo argomento è un carattere regex speciale, utilizzare una doppia barra rovesciata (`//`).  I caratteri regex speciali sono: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
-> Ulteriori informazioni in [Documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+> Ulteriori informazioni sono disponibili nella [documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
 
 ## Taglia a destra {#rightTrim}
 
-Il `rightTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dalla fine di una stringa.
+La funzione `rightTrim` viene utilizzata per rimuovere gli spazi dalla fine di una stringa.
 
 **Sintassi**
 
@@ -673,9 +673,9 @@ Il `rightTrim` La funzione viene utilizzata per rimuovere gli spazi bianchi dall
 {%= rightTrim(string) %}
 ```
 
-## Dividi {#split}
+## Divisione {#split}
 
-Il `split` La funzione viene utilizzata per dividere una stringa per un determinato carattere.
+La funzione `split` viene utilizzata per dividere una stringa per un determinato carattere.
 
 **Sintassi**
 
@@ -685,7 +685,7 @@ Il `split` La funzione viene utilizzata per dividere una stringa per un determin
 
 ## Inizia con{#startsWith}
 
-Il `startsWith` viene utilizzata per determinare se una stringa inizia con una sottostringa specificata.
+La funzione `startsWith` viene utilizzata per determinare se una stringa inizia con una sottostringa specificata.
 
 **Sintassi**
 
@@ -709,7 +709,7 @@ La query seguente determina, con distinzione tra maiuscole e minuscole, se il no
 
 ## Stringa a data {#string-to-date}
 
-Il `stringToDate` funzione converte un valore stringa in un valore data-ora. Sono necessari due argomenti: la rappresentazione in forma di stringa di una data/ora e la rappresentazione in forma di stringa del formattatore.
+La funzione `stringToDate` converte un valore stringa in un valore data-ora. Sono necessari due argomenti: la rappresentazione in forma di stringa di una data/ora e la rappresentazione in forma di stringa del formattatore.
 
 **Sintassi**
 
@@ -725,7 +725,7 @@ Il `stringToDate` funzione converte un valore stringa in un valore data-ora. Son
 
 ## Stringa a numero intero {#string-to-integer}
 
-Il `string_to_integer` viene utilizzata per convertire un valore stringa in un valore intero.
+La funzione `string_to_integer` viene utilizzata per convertire un valore stringa in un valore intero.
 
 **Sintassi**
 
@@ -735,7 +735,7 @@ Il `string_to_integer` viene utilizzata per convertire un valore stringa in un v
 
 ## Stringa a numero {#string-to-number}
 
-Il `stringToNumber` viene utilizzata per convertire una stringa in numero. In caso di input non valido, restituisce la stessa stringa come output.
+La funzione `stringToNumber` viene utilizzata per convertire una stringa in numero. In caso di input non valido, restituisce la stessa stringa come output.
 
 **Sintassi**
 
@@ -745,7 +745,7 @@ Il `stringToNumber` viene utilizzata per convertire una stringa in numero. In ca
 
 ## Sottostringa {#sub-string}
 
-Il `Count string` La funzione viene utilizzata per restituire la sottostringa dell&#39;espressione stringa tra l&#39;indice iniziale e l&#39;indice finale.
+La funzione `Count string` viene utilizzata per restituire la sottostringa dell&#39;espressione stringa tra l&#39;indice iniziale e l&#39;indice finale.
 **Sintassi**
 
 ```sql
@@ -754,7 +754,7 @@ Il `Count string` La funzione viene utilizzata per restituire la sottostringa de
 
 ## Tutte iniziali maiuscole{#titleCase}
 
-Il **titleCase** La funzione viene utilizzata per rendere maiuscole le prime lettere di ciascuna parola di una stringa.
+La funzione **titleCase** viene utilizzata per rendere maiuscole le prime lettere di ciascuna parola di una stringa.
 
 **Sintassi**
 
@@ -772,7 +772,7 @@ Se la persona vive a Washington High Street, questa funzione restituirà Washing
 
 ## A valore booleano {#to-bool}
 
-Il `toBool` funzione viene utilizzata per convertire un valore di argomento in un valore booleano, a seconda del tipo.
+La funzione `toBool` viene utilizzata per convertire un valore di argomento in un valore booleano, a seconda del tipo.
 
 **Sintassi**
 
@@ -782,7 +782,7 @@ Il `toBool` funzione viene utilizzata per convertire un valore di argomento in u
 
 ## A data/ora {#to-date-time}
 
-Il `toDateTime` funzione viene utilizzata per convertire una stringa in data. In caso di input non valido, restituisce la data epoca come output.
+La funzione `toDateTime` viene utilizzata per convertire la stringa in data. In caso di input non valido, restituisce la data epoca come output.
 
 **Sintassi**
 
@@ -792,7 +792,7 @@ Il `toDateTime` funzione viene utilizzata per convertire una stringa in data. In
 
 ## Solo a ora/data {#to-date-time-only}
 
-Il `toDateTimeOnly` funzione viene utilizzata per convertire un valore di argomento in un valore di sola data e ora. In caso di input non valido, restituisce la data epoca come output. Questa funzione accetta tipi di campo stringa, data, long e int.
+La funzione `toDateTimeOnly` viene utilizzata per convertire un valore di argomento in un valore di sola data e ora. In caso di input non valido, restituisce la data epoca come output. Questa funzione accetta tipi di campo stringa, data, long e int.
 
 **Sintassi**
 
@@ -802,7 +802,7 @@ Il `toDateTimeOnly` funzione viene utilizzata per convertire un valore di argome
 
 ## Taglia {#trim}
 
-Il **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e dalla fine di una stringa.
+La funzione **trim** rimuove tutti gli spazi dall&#39;inizio e dalla fine di una stringa.
 
 **Sintassi**
 
@@ -812,7 +812,7 @@ Il **trim** rimuove tutti gli spazi bianchi dall&#39;inizio e dalla fine di una 
 
 ## Maiuscolo{#upper}
 
-Il **upperCase** funzione converte una stringa in lettere maiuscole.
+La funzione **upperCase** converte una stringa in lettere maiuscole.
 
 **Sintassi**
 
@@ -830,7 +830,7 @@ Questa funzione converte il cognome del profilo in lettere maiuscole.
 
 ## Decodifica URL {#url-decode}
 
-Il `urlDecode` viene utilizzata per decodificare una stringa con codifica url.
+La funzione `urlDecode` viene utilizzata per decodificare una stringa con codifica URL.
 
 **Sintassi**
 
@@ -840,7 +840,7 @@ Il `urlDecode` viene utilizzata per decodificare una stringa con codifica url.
 
 ## Codifica URL {#url-encode}
 
-Il `Count only null` La funzione viene utilizzata per codificare un URL in una stringa.
+La funzione `Count only null` viene utilizzata per la codifica URL di una stringa.
 
 **Sintassi**
 

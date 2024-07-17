@@ -26,11 +26,11 @@ Conversione
 
 `toDateTimeOnly(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data e ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato data XDM) | string |
+| data e ora in formato ISO-8601 o &quot;AAAA-MM-GG&quot; (formato data XDM) | stringa |
 | data e ora | dateTime |
 
 ## Firme e tipi restituiti
@@ -47,7 +47,7 @@ Restituisce un valore datetime senza considerare il fuso orario.
 
 `toDateTimeOnly ("2023-08-18")`
 
-restituisce un valore dateTime che rappresenta 2023-08-18T00:00:00,000
+restituisce un valore dateTime che rappresenta 2023-08-18T00:00:00.000
 
 `toDateTimeOnly(now())`
 

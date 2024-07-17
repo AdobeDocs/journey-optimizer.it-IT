@@ -26,23 +26,23 @@ ht-degree: 25%
 
 ## Informazioni sull’anteprima e il test dei contenuti {#about}
 
-Una volta definito il contenuto, puoi utilizzare i profili di test per [anteprima](preview.md) il contenuto prima dell’invio del messaggio. Si tratta di un passaggio fondamentale per garantirne l’accuratezza, ma anche l’assenza di errori nelle impostazioni di contenuto e personalizzazione.
+Una volta definito il contenuto, puoi utilizzare i profili di test per [visualizzarne l&#39;anteprima](preview.md) prima di inviare il messaggio. Si tratta di un passaggio fondamentale per garantirne l’accuratezza, ma anche l’assenza di errori nelle impostazioni di contenuto e personalizzazione.
 
-Inoltre, è possibile: [inviare consegne di prova](proofs.md) (bozze) dei messaggi e-mail a destinatari o abbonati specifici per la verifica e la convalida e [controllare il rendering](rendering.md) nei client desktop, mobili e basati su Web più diffusi.
+Inoltre, puoi anche [inviare le consegne dei test](proofs.md) (bozze) dei tuoi messaggi e-mail a destinatari o abbonati specifici per il test e la convalida e [controllarne il rendering](rendering.md) nei client desktop, mobili e basati su Web più diffusi.
 
-Tutte queste azioni possono essere eseguite utilizzando **[!UICONTROL Simula contenuto]** , accessibile dalla schermata di modifica del contenuto del messaggio o dall’e-mail e dai web designer per l’e-mail e i canali web.
+Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata Modifica contenuto del messaggio o dall&#39;e-mail e dai Web designer per l&#39;e-mail e i canali Web.
 
 ![](../email/assets/email-preview-button.png)
 
 >[!CAUTION]
 >
->Quando visualizzi l’anteprima di un messaggio o invii delle bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata su dati contestuali, come le informazioni sull’evento, può essere testata solo nel contesto di un percorso. Scopri come testare la personalizzazione in [questo caso d’uso](../personalization/personalization-use-case.md).
+>Quando visualizzi l’anteprima di un messaggio o invii delle bozze, vengono visualizzati solo i dati di personalizzazione del profilo. I Personalization basati su dati contestuali, come le informazioni sull’evento, possono essere testati solo nel contesto di un percorso. Scopri come verificare la personalizzazione in [questo caso d&#39;uso](../personalization/personalization-use-case.md).
 
-➡️ [Scopri come visualizzare in anteprima e verificare le e-mail in questo video](#video-preview)
+➡️ [Scopri come visualizzare in anteprima e verificare le tue e-mail in questo video](#video-preview)
 
 ## Prerequisiti {#prerequisites}
 
-Per simulare il contenuto, è necessario disporre del **[!DNL Manage Simulate Content]** autorizzazione inclusa nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
+Per simulare il contenuto, è necessario che l&#39;autorizzazione **[!DNL Manage Simulate Content]** sia inclusa nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager).
 
 Per poter visualizzare l’anteprima dei messaggi, è inoltre necessario disporre di profili di test. [Scopri come creare profili di test](../audience/creating-test-profiles.md)
 

@@ -23,19 +23,19 @@ Questa documentazione fornisce informazioni dettagliate su come lavorare con la 
 
 >[!ENDSHADEBOX]
 
-I tipi di pubblico risultanti dalla composizione del pubblico sono accessibili dalla sezione **[!UICONTROL Sfoglia]** scheda in **[!UICONTROL Tipi di pubblico]** menu.
+I tipi di pubblico risultanti dalla composizione del pubblico sono accessibili dalla scheda **[!UICONTROL Sfoglia]** nel menu **[!UICONTROL Tipi di pubblico]**.
 
-Questa scheda elenca tutti i tipi di pubblico memorizzati in Adobe Experience Platform. I tipi di pubblico creati utilizzando composizioni di pubblico sono identificabili dall’ **[!UICONTROL Composizione del pubblico]** origine.
+Questa scheda elenca tutti i tipi di pubblico memorizzati in Adobe Experience Platform. I tipi di pubblico creati utilizzando le composizioni di pubblico sono identificabili dall&#39;origine **[!UICONTROL Composizione pubblico]**.
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
 >
->Per ulteriori informazioni su altri tipi di pubblico disponibili in Adobe Experience Platform, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
+>Per ulteriori informazioni su altri tipi di pubblico disponibili in Adobe Experience Platform, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
-Il **[!UICONTROL Conteggio profili]** fornisce informazioni sul numero di profili inclusi in un pubblico. Fare clic sul pulsante &quot;i&quot; per ulteriori informazioni sulla data di calcolo di queste informazioni.
+La colonna **[!UICONTROL Conteggio profili]** fornisce informazioni sul numero di profili inclusi in un pubblico. Fare clic sul pulsante &quot;i&quot; per ulteriori informazioni sulla data di calcolo di queste informazioni.
 
-Per assegnare etichette di utilizzo dei dati personalizzate o di base a un pubblico, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni su OLE (Object Level Access Control)](../administration/object-based-access.md)
+Per assegnare etichette di utilizzo dei dati personalizzate o di base a un pubblico, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

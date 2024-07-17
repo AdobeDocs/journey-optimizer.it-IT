@@ -29,12 +29,12 @@ Conversione
 
 `toBool(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 * decimale
 * booleano
-* string
-* numero intero
+* stringa
+* intero
 
 ## Firme e tipi restituiti
 

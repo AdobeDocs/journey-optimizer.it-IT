@@ -25,7 +25,7 @@ ht-degree: 64%
 
 I contenuti dinamici consentono di adattare il contenuto dei messaggi in base a **regole condizionali** che possono essere composte da attributi di profilo, eventi contestuali o tipi di pubblico. Le regole condizionali vengono create utilizzando un generatore di regole visive nell’editor di personalizzazione, in cui puoi memorizzarle per un ulteriore riutilizzo in tutti i percorsi e le campagne.
 
-Le regole condizionali possono essere utilizzate in E-mail Designer e nell’editor di personalizzazione per **creare contenuti dinamici** che si adatterà ai profili target nei messaggi.
+Le regole condizionali possono essere utilizzate in E-mail Designer e nell&#39;editor di personalizzazione per **creare contenuto dinamico** che si adatterà ai profili target nei messaggi.
 
 ![](assets/conditions-overview.png)
 

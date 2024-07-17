@@ -18,29 +18,29 @@ ht-degree: 2%
 
 # Utilizzare JavaScript personalizzato in una pagina di destinazione {#lp-custom-js}
 
-Puoi definire il contenuto della pagina di destinazione utilizzando JavaScript personalizzato. Ad esempio, per applicare uno stile avanzato o aggiungere comportamenti personalizzati alle pagine di destinazione, puoi creare controlli personalizzati ed eseguirli in [!DNL Journey Optimizer].
+Puoi definire il contenuto della pagina di destinazione utilizzando un JavaScript personalizzato. Se ad esempio è necessario eseguire uno stile avanzato o si desidera aggiungere comportamenti personalizzati alle pagine di destinazione, è possibile creare controlli personalizzati ed eseguirli in [!DNL Journey Optimizer].
 
-## Inserire codice JavaScript in una pagina di destinazione
+## Inserire il codice JavaScript in una pagina di destinazione
 
 Per inserire un JavaScript personalizzato nel contenuto della pagina di destinazione, puoi effettuare le seguenti operazioni:
 
-* Importa il contenuto HTML esistente quando inizi a creare il contenuto e seleziona il file che include il codice JavaScript personalizzato. Scopri come importare i contenuti [in questa sezione](../email/existing-content.md).
+* Importa il contenuto HTML esistente quando inizi a creare il contenuto e seleziona il file che include il codice JavaScript personalizzato. Scopri come importare il contenuto [in questa sezione](../email/existing-content.md).
 
-* Progetta la pagina di destinazione da zero o da un modello salvato. Trascina la **[!UICONTROL HTML]** componente contenuto nell’area di lavoro e mostra il codice sorgente per aggiungere il codice JavaScript al componente. Scopri come utilizzare il componente HTML in [questa sezione](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Progetta la pagina di destinazione da zero o da un modello salvato. Trascina e rilascia il componente di contenuto **[!UICONTROL HTML]** nell&#39;area di lavoro e mostra il codice sorgente per aggiungere il JavaScript al componente. Scopri come utilizzare il componente HTML in [questa sezione](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* Inserisci o incolla il codice JavaScript direttamente nel designer del contenuto. Scopri come programmare i contenuti [in questa sezione](../email/code-content.md).
+* Immetti o incolla il codice JavaScript direttamente in Progettazione contenuti. Scopri come programmare il tuo contenuto [in questa sezione](../email/code-content.md).
 
 >[!NOTE]
 >
->Attualmente non è possibile visualizzare JavaScript in azione quando [anteprima della pagina di destinazione](create-lp.md#test-landing-page).
+>Attualmente non puoi visualizzare JavaScript in azione quando [visualizzi l&#39;anteprima della pagina di destinazione](create-lp.md#test-landing-page).
 
 Per visualizzare correttamente la pagina di destinazione, utilizza la sintassi seguente come descritto nelle sezioni seguenti.
 
 ## Inizializzazione del codice
 
-Per inizializzare il codice JavaScript, devi utilizzare `lpRuntimeReady` evento. Questo evento verrà attivato dopo la corretta inizializzazione della libreria. Il callback verrà eseguito con `lpRuntime` oggetto per esporre il metodo e gli hook della libreria.
+Per inizializzare il codice JavaScript, è necessario utilizzare l&#39;evento `lpRuntimeReady`. Questo evento verrà attivato dopo la corretta inizializzazione della libreria. Il callback verrà eseguito con l&#39;oggetto `lpRuntime` per esporre il metodo della libreria e gli hook.
 
 `LpRuntime` sta per &quot;Runtime pagina di destinazione&quot;. Questo oggetto è l’identificatore della libreria principale. Verranno esposti hook, metodi di invio dei moduli e altri metodi di utilità che possono essere utilizzati in JavaScript personalizzato.
 
@@ -87,7 +87,7 @@ I metodi elencati di seguito vengono utilizzati per eseguire l’invio di moduli
 
 >[!NOTE]
 >
->Poiché l’invio del modulo viene gestito da JavaScript personalizzato, l’invio predefinito deve essere disabilitato esplicitamente impostando una variabile globale `disableDefaultFormSubmission` a `true`.
+>Poiché l&#39;invio del modulo è gestito da JavaScript personalizzato, è necessario disabilitare esplicitamente l&#39;invio predefinito impostando una variabile globale `disableDefaultFormSubmission` su `true`.
 
 | Nome | Descrizione |
 |--- |--- |
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | Nome | Descrizione |
 |--- |--- |
-| getFormData | Questo metodo può essere utilizzato per ottenere `formData` sotto forma di oggetto JSON. Questo oggetto può essere passato a `submitForm` per l’invio di moduli. |
+| getFormData | Questo metodo può essere utilizzato per ottenere `formData` sotto forma di oggetto JSON. Questo oggetto può essere passato a `submitForm` per l&#39;invio del modulo. |
 
 **Esempio:**
 

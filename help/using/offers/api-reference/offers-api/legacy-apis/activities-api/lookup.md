@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Cercare una decisione {#look-up-decision}
 
-Per cercare decisioni specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include le decisioni `@id` o il nome della decisione nel percorso della richiesta.
+Per cercare decisioni specifiche, è possibile effettuare una richiesta di GET all&#39;API [!DNL Offer Library] che includa le decisioni `@id` o il nome della decisione nel percorso della richiesta.
 
 **Formato API**
 
@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIE
 | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le decisioni. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | Definisce lo schema associato alle decisioni. | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-activity:124527ab00b2ebbc` |
+| `id` | Stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. Impossibile utilizzare insieme i parametri `id` e `name`. | `xcore:offer-activity:124527ab00b2ebbc` |
 | `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. I parametri &quot;id&quot; e &quot;name&quot; non possono essere utilizzati insieme | `LBAR` |
 
 **Richiesta**
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse informazioni sull’ID contenitore, sull’ID istanza e sulla decisione univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse informazioni sull&#39;ID contenitore, sull&#39;ID istanza e sulla decisione univoca `@id`.
 
 ```json
 {

@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Campi del percorso {#sharing-journey-fields}
 
-Questo gruppo di campi viene utilizzato nel **percorso** schema (in relazione a **journeyStepEvent**). Contiene i campi elencati di seguito.
+Questo gruppo di campi è utilizzato nello schema **percorso** (in relazione a **journeyStepEvent**). Contiene i campi elencati di seguito.
 
 
 >[!NOTE]

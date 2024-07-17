@@ -26,7 +26,7 @@ Elenco
 
 `getListItem(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
@@ -38,7 +38,7 @@ Elenco
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | numero intero |
+| index | intero |
 
 ## Firme e tipo restituito
 

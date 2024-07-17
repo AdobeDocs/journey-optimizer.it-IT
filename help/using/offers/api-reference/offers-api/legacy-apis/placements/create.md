@@ -9,17 +9,17 @@ exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
 # Creare un posizionamento {#create-placement}
 
-Per creare un posizionamento, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+È possibile creare un posizionamento effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al contempo l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -58,7 +58,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli del posizionamento appena creato, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare il posizionamento. Puoi utilizzare il tuo posizionamento univoco `@id` nelle esercitazioni successive per creare decisioni, regole di decisione e offerte di fallback.
+In caso di esito positivo, la risposta restituisce i dettagli del nuovo posizionamento creato, inclusi l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare il posizionamento. È possibile utilizzare il posizionamento univoco `@id` nelle esercitazioni successive per creare decisioni, regole di decisione e offerte di fallback.
 
 ```json
 {

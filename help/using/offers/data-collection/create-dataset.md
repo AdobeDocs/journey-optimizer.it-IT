@@ -20,15 +20,15 @@ Per raccogliere eventi di esperienza, devi innanzitutto creare un set di dati in
 
 Inizia creando lo schema che verrà utilizzato nel set di dati:
 
-1. Dalla sezione **[!UICONTROL Gestione dati]** menu, seleziona **[!UICONTROL Schema]**.
+1. Dal menu **[!UICONTROL Gestione dati]**, selezionare **[!UICONTROL Schema]**.
 
-1. Clic **[!UICONTROL Crea schema]**, in alto a destra, seleziona **[!UICONTROL Evento esperienza]** e fai clic su **Successivo**.
+1. Fai clic su **[!UICONTROL Crea schema]**, in alto a destra, seleziona **[!UICONTROL Evento esperienza]** e fai clic su **Avanti**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
-   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM in [Documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+   >Ulteriori informazioni sugli schemi e sui gruppi di campi XDM nella [documentazione di panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
 1. Immetti un nome e una descrizione per lo schema e fai clic su **Fine**.
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -37,15 +37,15 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
    ![](../assets/ai-ranking-fields-groups.png)
 
-1. In **[!UICONTROL Ricerca]** , digita &quot;interazione della proposta&quot;.
+1. Nel campo **[!UICONTROL Ricerca]** digitare &quot;interazione della proposta&quot;.
 
-1. Seleziona la **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi e fare clic su **[!UICONTROL Aggiungi gruppi di campi]**.
+1. Seleziona il gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposte]** e fai clic su **[!UICONTROL Aggiungi gruppi di campi]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
    >[!CAUTION]
    >
-   >Lo schema che verrà utilizzato nel set di dati deve avere **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi ad esso associato. In caso contrario, non potrai utilizzarlo nel modello di intelligenza artificiale.
+   >Allo schema che verrà utilizzato nel set di dati deve essere associato il gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]**. In caso contrario, non potrai utilizzarlo nel modello di intelligenza artificiale.
 
 1. Salva lo schema.
 
@@ -55,18 +55,18 @@ Inizia creando lo schema che verrà utilizzato nel set di dati:
 
 Ora puoi creare un set di dati utilizzando questo schema. Per farlo, segui la procedura indicata di seguito:
 
-1. Dalla sezione **[!UICONTROL Gestione dati]** menu, seleziona **[!UICONTROL Set di dati]** e vai al **[!UICONTROL Sfoglia]** scheda.
+1. Dal menu **[!UICONTROL Gestione dati]**, seleziona **[!UICONTROL Set di dati]** e passa alla scheda **[!UICONTROL Sfoglia]**.
 
-1. Clic **[!UICONTROL Crea set di dati]** e seleziona **[!UICONTROL Crea set di dati dallo schema]**.
+1. Fai clic su **[!UICONTROL Crea set di dati]** e seleziona **[!UICONTROL Crea set di dati dallo schema]**.
 
    ![](../assets/ai-ranking-create-dataset-from-schema.png)
 
-1. Seleziona lo schema appena creato dall’elenco e fai clic su **[!UICONTROL Successivo]**.
+1. Seleziona lo schema appena creato dall&#39;elenco e fai clic su **[!UICONTROL Avanti]**.
 
-1. Fornisci un nome univoco per il set di dati nel **[!UICONTROL Nome]** e fai clic su **[!UICONTROL Fine]**.
+1. Fornisci un nome univoco per il set di dati nel campo **[!UICONTROL Name]** e fai clic su **[!UICONTROL Finish]**.
 
    ![](../assets/ai-ranking-dataset-name.png)
 
 >[!NOTE]
 >
->Ora è possibile selezionare questo set di dati per raccogliere i dati dell’evento quando [creazione di un modello di IA](../ranking/create-ranking-strategies.md).
+>È ora possibile selezionare questo set di dati per raccogliere i dati dell&#39;evento durante la [creazione di un modello di IA](../ranking/create-ranking-strategies.md).

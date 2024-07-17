@@ -24,9 +24,9 @@ ht-degree: 28%
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
-Il rapporto live della campagna è accessibile direttamente dalla campagna con **[!UICONTROL Vista live]** pulsante.
+Puoi accedere al report live della campagna direttamente dalla campagna con il pulsante **[!UICONTROL Live View]**.
 
-La campagna **[!UICONTROL Rapporto live]** La pagina verrà visualizzata con le seguenti schede:
+La pagina del **[!UICONTROL report live]** della campagna verrà visualizzata con le seguenti schede:
 
 * [Campaign](#campaign-live)
 * [E-mail](#email-live)
@@ -36,7 +36,7 @@ La campagna **[!UICONTROL Rapporto live]** La pagina verrà visualizzata con le 
 * [Web](#web-tab)
 * [Direct mail](#direct-mail-tab)
 
-La campagna **[!UICONTROL Rapporto live]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/live-report.md#modify-dashboard).
+Il **[!UICONTROL report live]** della campagna è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/live-report.md#modify-dashboard).
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](live-report.md#list-of-components-live).
 
@@ -46,15 +46,15 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ![](assets/campaign_live_statistics.png)
 
-Il **[!UICONTROL Statistiche della campagna]** I KPI fungono da dashboard completo e offrono una suddivisione dettagliata delle metriche chiave delle ultime 24 ore relative alla campagna. Ciò include informazioni essenziali come il numero di profili e le azioni consegnate, fornendo una comprensione approfondita delle prestazioni e del coinvolgimento della campagna.
+I KPI di **[!UICONTROL Statistiche campagna]** fungono da dashboard completo e offrono una suddivisione dettagliata delle metriche chiave delle ultime 24 ore relative alla campagna. Ciò include informazioni essenziali come il numero di profili e le azioni consegnate, fornendo una comprensione approfondita delle prestazioni e del coinvolgimento della campagna.
 
 +++ Ulteriori informazioni sulle metriche delle statistiche di Campaign
 
 * **[!UICONTROL Pubblico]**: numero di profili target.
 
-* **[!UICONTROL Azioni consegnate]**: numero totale di volte in cui è stata consegnata un’azione.
+* **[!UICONTROL Azioni consegnate]**: numero totale di volte univoche in cui è stata consegnata un&#39;azione.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 +++
 
@@ -66,7 +66,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 ## Scheda e-mail {#email-live}
 
-Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL E-mail]** La scheda contiene le informazioni principali relative all’e-mail inviata nella campagna.
+Dal **[!UICONTROL report live]** della campagna, la scheda **[!UICONTROL E-mail]** fornisce i dettagli delle informazioni principali relative all&#39;e-mail inviata nella campagna.
 
 ### E-mail: prestazioni di invio {#email-sending-performance}
 
@@ -77,17 +77,17 @@ Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL E-mail]** La sch
 
 ![](assets/campaign_email_live_sending.png)
 
-Il **[!UICONTROL E-mail - Prestazioni di invio]** offre una panoramica completa dei dati relativi alle e-mail inviate nelle ultime 24 ore. Fornisce informazioni approfondite su metriche essenziali, come i messaggi consegnati e non recapitati, consentendo un esame dettagliato del processo di invio delle e-mail.
+L&#39;**[!UICONTROL E-mail - Prestazioni invio]** offre una panoramica completa dei dati relativi alle e-mail inviate nelle ultime 24 ore. Fornisce informazioni approfondite su metriche essenziali, come i messaggi consegnati e non recapitati, consentendo un esame dettagliato del processo di invio delle e-mail.
 
 +++ Ulteriori informazioni sulle metriche delle prestazioni dell’invio di e-mail
 
-* **[!UICONTROL Consegnato]**: numero di e-mail inviate correttamente.
+* **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Nuovi tentativi]**: numero di e-mail nella coda per i nuovi tentativi.
+* **[!UICONTROL Nuovi tentativi]**: numero di e-mail in coda per i nuovi tentativi.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 +++
 
 ### E-mail - Statistiche
@@ -99,33 +99,33 @@ Il **[!UICONTROL E-mail - Prestazioni di invio]** offre una panoramica completa 
 
 ![](assets/campaign_email_live_statistics.png)
 
-Il **[!UICONTROL Metriche di invio per e-mail]** la tabella offre un riepilogo completo dei dati delle ultime 24 ore. Descrive le metriche essenziali, tra cui le dimensioni del pubblico target e il numero di e-mail consegnate correttamente. Questo fornisce informazioni utili sull’efficacia e la portata delle campagne e-mail.
+La tabella **[!UICONTROL Invio di metriche per e-mail]** offre un riepilogo completo dei dati delle ultime 24 ore. Descrive le metriche essenziali, tra cui le dimensioni del pubblico target e il numero di e-mail consegnate correttamente. Questo fornisce informazioni utili sull’efficacia e la portata delle campagne e-mail.
 
 +++ Ulteriori informazioni su E-mail - Metriche delle statistiche
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell’e-mail ricorrente. Per eseguire il targeting di una o più e-mail ricorrenti, selezionala dall’opzione **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione dell&#39;e-mail ricorrente. Per eseguire il targeting solo di una o più e-mail ricorrenti, selezionale dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
-* **[!UICONTROL Target]**: numero totale di messaggi elaborati durante il processo di invio.
+* **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante il processo di invio.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto.
 
-* **[!UICONTROL Annulla iscrizione]**: numero di clic sul collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Annulla iscrizione]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
-* **[!UICONTROL Nuovi tentativi]**: numero di e-mail nella coda per i nuovi tentativi.
+* **[!UICONTROL Nuovi tentativi]**: numero di e-mail in coda per i nuovi tentativi.
 +++
 
 ### E-mail: categorie e motivi di mancato recapito {#bounce-categories}
@@ -142,17 +142,17 @@ Il **[!UICONTROL Metriche di invio per e-mail]** la tabella offre un riepilogo c
 
 ![](assets/campaign_live_email_bounce_categories.png)
 
-Il **[!UICONTROL Motivi di mancato recapito]** e **[!UICONTROL Categorie di mancato recapito]** i widget compilano i dati disponibili delle ultime 24 ore relativi ai messaggi non recapitati, fornendo informazioni dettagliate sui motivi specifici e sulle categorie dietro le e-mail non recapitate.
+I widget **[!UICONTROL Motivi di mancato recapito]** e **[!UICONTROL Categorie di mancato recapito]** compilano i dati disponibili delle ultime 24 ore relativi ai messaggi non recapitati, fornendo informazioni dettagliate sui motivi specifici e sulle categorie dietro i mancati recapiti e-mail.
 
-Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppressione](../reports/suppression-list.md) pagina.
+Per ulteriori informazioni sui mancati recapiti, consulta la pagina [Elenco di soppressione](../reports/suppression-list.md).
 
 +++ Ulteriori informazioni su E-mail - Categorie di mancato recapito e metriche dei motivi
 
-* **[!UICONTROL Mancato recapito permanente]**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio Utente sconosciuto.
+* **[!UICONTROL Notifica di mancato recapito]**: numero totale di errori permanenti, ad esempio un indirizzo e-mail errato. Ciò comporta un messaggio di errore che indica esplicitamente che l’indirizzo non è valido, ad esempio Utente sconosciuto.
 
 * **[!UICONTROL Mancato recapito non permanente]**: numero totale di errori temporanei, ad esempio una casella in entrata completa.
 
-* **[!UICONTROL Ignorato]**: numero totale di messaggi temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
+* **[!UICONTROL Ignorato]**: il numero totale di messaggi temporanei, ad esempio Fuori sede, o un errore tecnico, ad esempio se il tipo di mittente è postmaster.
 
 +++
 
@@ -165,23 +165,23 @@ Per ulteriori informazioni sui mancati recapiti, consulta [Elenco di soppression
 
 ![](assets/campaign_email_live_performance.png)
 
-Il **[!UICONTROL E-mail - Prestazioni per data]** widget offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni sulle tendenze delle prestazioni nelle ultime 24 ore.
+Il widget **[!UICONTROL E-mail - Prestazioni per data]** offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni approfondite sulle tendenze delle prestazioni nelle ultime 24 ore.
 
 +++ Ulteriori informazioni su E-mail - Metriche prestazioni per data e motivi
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto.
 
-* **[!UICONTROL Annullamenti iscrizione]**: numero di clic sul collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Annullamenti iscrizione]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
@@ -196,7 +196,7 @@ Il **[!UICONTROL E-mail - Prestazioni per data]** widget offre una panoramica de
 
 ![](assets/campaign_email_live_error.png)
 
-Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle forniscono informazioni sugli errori specifici che si sono verificati durante il processo di invio nelle ultime 24 ore. Queste informazioni sono utili per comprendere la natura e la frequenza degli errori.
+I grafici e le tabelle **[!UICONTROL Motivi di errore]** forniscono informazioni approfondite sugli errori specifici che si sono verificati durante il processo di invio nelle ultime 24 ore. Queste informazioni sono utili per comprendere la natura e la frequenza degli errori.
 
 ### Motivi di esclusione {#email-exclude-reasons}
 
@@ -207,9 +207,9 @@ Il **[!UICONTROL Motivi di errore]** I grafici e le tabelle forniscono informazi
 
 ![](assets/campaign_email_live_excluded.png)
 
-Il **[!UICONTROL Motivi di esclusione]** grafici e tabelle offrono una prospettiva completa sui vari fattori che hanno portato all’esclusione dei profili utente dal pubblico di destinazione nelle ultime 24 ore.
+I grafici e la tabella **[!UICONTROL Motivi di esclusione]** offrono una prospettiva completa sui vari fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione nelle ultime 24 ore.
 
-Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclusion-list.md).
 
 ### E-mail - Dominio destinatario migliore {#email-best-recipient}
 
@@ -220,7 +220,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 
 ![](assets/campaign_email_live_recipient.png)
 
-Il **[!UICONTROL E-mail - Dominio destinatario migliore]** Il grafico e la tabella forniscono un’analisi approfondita dei domini utilizzati più di frequente dai profili per aprire le e-mail nelle ultime 24 ore. Questo fornisce informazioni utili sul comportamento del profilo, consentendoti di comprendere le piattaforme preferite.
+Il grafico e la tabella **[!UICONTROL E-mail - Dominio destinatario migliore]** forniscono un&#39;analisi approfondita dei domini utilizzati più di frequente dai profili per aprire le e-mail nelle ultime 24 ore. Questo fornisce informazioni utili sul comportamento del profilo, consentendoti di comprendere le piattaforme preferite.
 
 ### E-mail: offerte {#email-offers}
 
@@ -228,21 +228,21 @@ Il **[!UICONTROL E-mail - Dominio destinatario migliore]** Il grafico e la tabel
 >
 >I widget e le metriche delle offerte sono disponibili solo se è stata inserita una decisione in un messaggio e-mail. Per ulteriori informazioni sulla gestione delle decisioni, consulta questa [pagina](../offers/get-started/starting-offer-decisioning.md).
 
-Il **[!UICONTROL Statistica sulle offerte]** e **[!UICONTROL Statistiche sulle offerte nel tempo]** i widget misurano il successo e l’impatto dell’offerta sul pubblico di destinazione. Descrive le informazioni principali relative al messaggio con i KPI.
+I widget **[!UICONTROL Statistiche offerte]** e **[!UICONTROL Statistiche offerte nel tempo]** misurano il successo della tua offerta e il suo impatto sul pubblico di destinazione. Descrive le informazioni principali relative al messaggio con i KPI.
 
 +++ Ulteriori informazioni su E-mail - Metriche delle offerte
 
-* **[!UICONTROL Offerta inviata]**: numero totale di invii per l’offerta.
+* **[!UICONTROL Offerta inviata]**: numero totale di invii per l&#39;offerta.
 
-* **[!UICONTROL Impression offerta]**: numero di volte in cui l’offerta è stata aperta nelle e-mail.
+* **[!UICONTROL Offer impression]**: numero di volte in cui l&#39;offerta è stata aperta nelle e-mail.
 
-* **[!UICONTROL Clic sull’offerta]**: numero di volte in cui hai fatto clic su un’offerta nelle e-mail.
+* **[!UICONTROL Clic su offerta]**: numero di volte in cui è stato fatto clic su un&#39;offerta nelle e-mail.
 
 +++
 
 ## Scheda in-app {#inapp-live}
 
-Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL In-app]** Questa scheda contiene le informazioni principali relative ai messaggi in-app inviati nella campagna.
+Dal **[!UICONTROL report live]** della campagna, la scheda **[!UICONTROL In-app]** fornisce i dettagli delle informazioni principali relative ai messaggi in-app inviati nella campagna.
 
 ### Prestazione in-app {#inapp-performance}
 
@@ -251,7 +251,7 @@ Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL In-app]** Questa
 >title="Prestazione in-app"
 >abstract="I KPI della sezione Prestazioni in-app forniscono informazioni essenziali sul coinvolgimento dei visitatori con i messaggi in-app delle ultime 24 ore."
 
-Il **[!UICONTROL Prestazioni in-app]** I KPI forniscono informazioni essenziali sul coinvolgimento dei profili con i messaggi in-app nelle ultime 24 ore, fornendo metriche essenziali per valutare l’efficacia e l’impatto delle campagne in-app.
+I KPI **[!UICONTROL prestazioni in-app]** forniscono informazioni essenziali sul coinvolgimento dei profili con i messaggi in-app nelle ultime 24 ore, fornendo metriche essenziali per valutare l&#39;efficacia e l&#39;impatto delle campagne in-app.
 
 +++ Ulteriori informazioni sulle metriche delle prestazioni in-app
 
@@ -268,11 +268,11 @@ Il **[!UICONTROL Prestazioni in-app]** I KPI forniscono informazioni essenziali 
 >title="Riepilogo in-app"
 >abstract="Il grafico della sezione Riepilogo in-app illustra la progressione delle impression e delle interazioni in-app nelle ultime 24 ore."
 
-Il **[!UICONTROL Riepilogo in-app]** Il grafico illustra la progressione delle impression e delle interazioni in-app nelle ultime 24 ore, fornendo una panoramica completa delle prestazioni dei messaggi in-app.
+Il grafico **[!UICONTROL Riepilogo in-app]** illustra la progressione delle impression e delle interazioni in-app nelle ultime 24 ore, fornendo una panoramica completa delle prestazioni dei messaggi in-app.
 
 +++ Ulteriori informazioni sulle metriche di riepilogo in-app
 
-* **[!UICONTROL Impression]**: numero totale di messaggi in-app consegnati a tutti gli utenti.
+* **[!UICONTROL Impression]**: numero totale di messaggi in-app recapitati a tutti gli utenti.
 
 * **[!UICONTROL Interazioni]**: numero totale di engagement con il messaggio in-app. Ciò include tutte le azioni intraprese dagli utenti, come clic, revoche o qualsiasi altra interazione.
 
@@ -285,11 +285,11 @@ Il **[!UICONTROL Riepilogo in-app]** Il grafico illustra la progressione delle i
 >title="Interazioni per tipo"
 >abstract="I grafici e le tabelle della sezione Interazioni per tipo descrivono nel dettaglio il modo in cui gli utenti hanno interagito con il messaggio in-app, tracciando eventuali clic, annullamenti o interazioni delle ultime 24 ore."
 
-Il **[!UICONTROL Interazioni per tipo]** grafici e tabelle forniscono un resoconto dettagliato dell’interazione dei profili con il messaggio in-app nelle ultime 24 ore, tracciando azioni quali clic, licenziamenti o qualsiasi altra forma di coinvolgimento.
+I grafici e la tabella **[!UICONTROL Interazioni per tipo]** forniscono un resoconto dettagliato dell&#39;interazione dei profili con il messaggio in-app nelle ultime 24 ore, tracciando azioni quali clic, licenziamenti o altre forme di coinvolgimento.
 
 ## Scheda notifica push {#push-live}
 
-Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Notifica push]** La scheda fornisce informazioni dettagliate sulle informazioni principali relative alla notifica push inviata nella campagna.
+Dal **[!UICONTROL rapporto live]** della campagna, la scheda **[!UICONTROL Notifica push]** fornisce i dettagli delle informazioni principali relative alla notifica push inviata nella campagna.
 
 ### Notifica push: prestazione di invio {#push-sending-performance}
 
@@ -300,15 +300,15 @@ Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Notifica push]**
 
 ![](assets/campain_push_live_sending_performance.png)
 
-Il **[!UICONTROL Prestazione invio notifiche push]** graph offre una panoramica completa dei dati relativi alle notifiche push inviate nelle ultime 24 ore. Fornisce informazioni approfondite su metriche essenziali come consegnate e non consegnate, consentendo un esame dettagliato del processo di invio delle notifiche push.
+Il grafico delle prestazioni di invio delle **[!UICONTROL notifiche push]** offre una panoramica completa dei dati relativi alle notifiche push inviate nelle ultime 24 ore. Fornisce informazioni approfondite su metriche essenziali come consegnate e non consegnate, consentendo un esame dettagliato del processo di invio delle notifiche push.
 
 +++ Ulteriori informazioni sulla notifica push - Invio delle metriche delle prestazioni
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 +++
 
@@ -321,23 +321,23 @@ Il **[!UICONTROL Prestazione invio notifiche push]** graph offre una panoramica 
 
 ![](assets/campaign_push_live_statistics.png)
 
-Il **[!UICONTROL Notifica push - Statistiche]** La tabella fornisce un riepilogo conciso dei dati essenziali relativi alle notifiche push nelle ultime 24 ore, incluse metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
+La tabella **[!UICONTROL Notifica push - Statistiche]** fornisce un riepilogo conciso dei dati essenziali relativi alle notifiche push nelle ultime 24 ore, incluse le metriche chiave quali il numero di messaggi di destinazione e il numero di messaggi consegnati correttamente.
 
 +++ Ulteriori informazioni sulla notifica push: metriche delle statistiche
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting di una o più notifiche push ricorrenti, selezionala dal menu **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione della notifica push ricorrente. Per eseguire il targeting solo di una o più notifiche push ricorrenti, selezionala dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
-* **[!UICONTROL Target]**: numero totale di messaggi elaborati durante il processo di invio.
+* **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante il processo di invio.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente.
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto.
 
@@ -350,19 +350,19 @@ Il **[!UICONTROL Notifica push - Statistiche]** La tabella fornisce un riepilogo
 >title="Notifica push: riepilogo di invio"
 >abstract="Il grafico di riepilogo dell’invio delle notifiche push visualizza i dati disponibili per le notifiche push inviate nelle ultime 24 ore."
 
-Il **[!UICONTROL Notifica push - Statistiche]** graph offre una rappresentazione dinamica che mostra un’analisi dell’attività delle notifiche push nelle ultime 24 ore. Questa rappresentazione grafica fornisce un raggruppamento completo delle notifiche push inviate.
+Il grafico **[!UICONTROL Notifica push - Statistiche]** offre una rappresentazione dinamica, con un&#39;analisi dell&#39;attività delle notifiche push nelle ultime 24 ore. Questa rappresentazione grafica fornisce un raggruppamento completo delle notifiche push inviate.
 
 +++ Ulteriori informazioni sulla notifica push - Invio di metriche di riepilogo
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
-* **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
+* **[!UICONTROL Azioni]**: numero totale di azioni nella notifica push consegnate, ad esempio clic su un pulsante o chiusura.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati e dell’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori cumulativi ed elaborazione automatica dei resi in relazione al numero totale di messaggi inviati.
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
-* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l&#39;invio ai profili.
 
 +++
 
@@ -373,9 +373,9 @@ Il **[!UICONTROL Notifica push - Statistiche]** graph offre una rappresentazione
 >title="Notifica push: motivi di esclusione"
 >abstract="I grafici e la tabella della sezione Motivi di esclusione illustrano i vari fattori a causa dei quali il messaggio non è stato ricevuto dai profili utente che sono stati esclusi dal pubblico target nelle ultime 24 ore."
 
-Il **[!UICONTROL Motivi di esclusione]** i grafici e le tabelle mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere le notifiche push nelle ultime 24 ore.
+I grafici e la tabella **[!UICONTROL Motivi di esclusione]** mostrano i diversi motivi che hanno impedito ai profili utente, esclusi dai profili target, di ricevere le notifiche push nelle ultime 24 ore.
 
-Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclusion-list.md).
 
 ### Notifica push: motivi di errore {#push-error}
 
@@ -384,7 +384,7 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 >title="Notifica push: motivi di errore"
 >abstract="I grafici e la tabella Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di invio."
 
-Il **[!UICONTROL Motivi di errore]** la tabella e i grafici ti forniscono la possibilità di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push nelle ultime 24 ore, fornendo informazioni dettagliate su eventuali problemi incontrati durante il percorso.
+La tabella e i grafici **[!UICONTROL Motivi di errore]** consentono di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push nelle ultime 24 ore, fornendo informazioni dettagliate su eventuali problemi riscontrati durante il processo.
 
 ### Notifica push: raggruppamento per piattaforma {#push-breakdown-platform}
 
@@ -393,29 +393,29 @@ Il **[!UICONTROL Motivi di errore]** la tabella e i grafici ti forniscono la pos
 >title="Notifica push: raggruppamento per piattaforma"
 >abstract="La tabella e i grafici della sezione Raggruppamento per piattaforma forniscono un riepilogo del buon esito delle notifiche push nelle ultime 24 ore, in base al sistema operativo del destinatario."
 
-Il **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** grafico e tabella forniscono un’analisi dettagliata del successo delle notifiche push nelle ultime 24 ore, con informazioni basate sul sistema operativo del profilo. Questo raggruppamento migliora la comprensione delle prestazioni delle notifiche push tra le diverse piattaforme.
+Il grafico e la tabella **[!UICONTROL Notifica push - Raggruppamento per piattaforma]** forniscono un&#39;analisi dettagliata del successo delle notifiche push nelle ultime 24 ore, con informazioni basate sul sistema operativo del tuo profilo. Questo raggruppamento migliora la comprensione delle prestazioni delle notifiche push tra le diverse piattaforme.
 
 +++ Ulteriori informazioni sulla notifica push: suddivisione per metriche della piattaforma
 
-* **[!UICONTROL Target]**: numero totale di messaggi elaborati durante l’analisi.
+* **[!UICONTROL Destinati]**: numero totale di messaggi elaborati durante l&#39;analisi.
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui la notifica push è stata aperta.
 
-* **[!UICONTROL Azioni]**: numero totale di azioni sulla notifica push consegnata, ad esempio clic su pulsante o rimozione.
+* **[!UICONTROL Azioni]**: numero totale di azioni nella notifica push consegnate, ad esempio clic su un pulsante o chiusura.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati e dell’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori cumulativi ed elaborazione automatica dei resi in relazione al numero totale di messaggi inviati.
 
-* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che ne hanno impedito l&#39;invio ai profili.
 
-* **[!UICONTROL Escluso]**: numero di profili che sono stati esclusi da Adobe Journey Optimizer.
+* **[!UICONTROL Esclusi]**: numero di profili esclusi da Adobe Journey Optimizer.
 
 +++
 
 ## Scheda SMS {#sms-live}
 
-Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL SMS]** La scheda contiene le informazioni principali relative al messaggio SMS inviato nella campagna.
+Dal **[!UICONTROL report live]** della campagna, la scheda **[!UICONTROL SMS]** fornisce i dettagli delle informazioni principali relative al messaggio SMS inviato nella campagna.
 
 ### SMS: statistiche {#sms-statistics}
 
@@ -426,21 +426,21 @@ Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL SMS]** La scheda
 
 ![](assets/campaign_live_sms_statistics.png)
 
-Il **[!UICONTROL SMS - Statistiche]** La tabella fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi SMS inviati nelle ultime 24 ore, includendo metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente.
+La tabella **[!UICONTROL SMS - Statistiche]** fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi SMS nelle ultime 24 ore, includendo metriche chiave quali il numero di messaggi di destinazione e il numero di messaggi consegnati correttamente.
 
 +++ Ulteriori informazioni sugli SMS - Metriche delle statistiche
 
-* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del messaggio SMS ricorrente. Per eseguire il targeting solo di uno o più messaggi SMS ricorrenti, selezionalo dal **[!UICONTROL Tempo di esecuzione]** a discesa.
+* **[!UICONTROL Tempo di esecuzione]**: ora di inizio di ogni esecuzione del messaggio SMS ricorrente. Per eseguire il targeting solo di uno o più messaggi SMS ricorrenti, selezionali dal menu a discesa **[!UICONTROL Tempo di esecuzione]**.
 
-* **[!UICONTROL Target]**: numero di profili utente qualificati come profili target.
+* **[!UICONTROL Destinati]**: numero di profili utente qualificati come profili target.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto il messaggio.
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 * **[!UICONTROL Clic]**: numero totale di visite URL.
 
@@ -455,15 +455,15 @@ Il **[!UICONTROL SMS - Statistiche]** La tabella fornisce un riepilogo conciso d
 
 ![](assets/campaign_live_sms_performance_date.png)
 
-Il **[!UICONTROL Prestazioni SMS per data]** widget offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni sulle tendenze delle prestazioni nelle ultime 24 ore.
+Il widget Prestazioni **[!UICONTROL SMS per data]** offre una panoramica dettagliata delle informazioni chiave relative ai messaggi, presentate tramite un grafico, che fornisce informazioni approfondite sulle tendenze delle prestazioni nelle ultime 24 ore.
 
 +++ Ulteriori informazioni sugli SMS - Metriche delle prestazioni per data
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
-* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l’elaborazione automatica della restituzione.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 +++
 
@@ -474,7 +474,7 @@ Il **[!UICONTROL Prestazioni SMS per data]** widget offre una panoramica dettagl
 >title="SMS: motivi di errore"
 >abstract="I grafici e la tabella SMS - Motivi di errore consentono di individuare gli errori specifici che si sono verificati nelle ultime 24 ore durante il processo di consegna."
 
-Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle ti consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS nelle ultime 24 ore, semplificando un’analisi approfondita di eventuali problemi riscontrati.
+I grafici e la tabella **[!UICONTROL Motivi di esclusione]** consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS nelle ultime 24 ore, semplificando un&#39;analisi approfondita di eventuali problemi riscontrati.
 
 ### SMS: motivi di esclusione {#sms-excluded-reasons}
 
@@ -485,9 +485,9 @@ Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle ti consentono di
 
 ![](assets/campaign_live_sms_excluded.png)
 
-Il **[!UICONTROL Motivi di esclusione]** I grafici e le tabelle illustrano visivamente i diversi fattori che hanno portato all’esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi SMS nelle ultime 24 ore.
+I grafici e la tabella **[!UICONTROL Motivi di esclusione]** illustrano visivamente i diversi fattori che hanno portato all&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi SMS nelle ultime 24 ore.
 
-Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclusion-list.md).
 
 ### SMS: motivi di mancato recapito {#sms-bounces-reasons}
 
@@ -496,11 +496,11 @@ Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei
 >title="SMS: motivi di mancato recapito"
 >abstract="I grafici e la tabella della sezione Motivi di mancato recapito contengono i dati disponibili per e ultime 24 ore relativi ai messaggi non recapitati."
 
-Il **[!UICONTROL Motivi di mancato recapito]** I grafici e le tabelle forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati nelle ultime 24 ore.
+I grafici e la tabella **[!UICONTROL Motivi di mancato recapito]** forniscono una panoramica completa dei dati relativi ai messaggi SMS non recapitati, fornendo informazioni utili sulle ragioni specifiche alla base delle istanze di messaggi SMS non recapitati nelle ultime 24 ore.
 
 ## Scheda web {#web-tab}
 
-Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Web]** Questa scheda fornisce informazioni dettagliate sulle informazioni principali relative alle pagine Web.
+Dal **[!UICONTROL report live]** della campagna, la scheda **[!UICONTROL Web]** fornisce i dettagli delle informazioni principali relative alle pagine Web.
 
 ### Prestazione web {#web-performance}
 
@@ -511,13 +511,13 @@ Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Web]** Questa sc
 
 ![](assets/campaign_live_web_performance.png)
 
-Il **[!UICONTROL Prestazioni web]** I KPI offrono informazioni complete sul coinvolgimento dei visitatori con le pagine web nelle ultime 24 ore, comprendendo metriche chiave come impressioni e interazioni.
+I KPI **[!UICONTROL Prestazioni web]** offrono informazioni complete sul coinvolgimento dei visitatori con le pagine web nelle ultime 24 ore, comprendendo metriche chiave quali impressioni e interazioni.
 
 +++ Ulteriori informazioni sulle metriche delle prestazioni web
 
-* **[!UICONTROL Impression]**: numero totale di esperienze web consegnate a tutti gli utenti.
+* **[!UICONTROL Impression]**: numero totale di esperienze Web distribuite a tutti gli utenti.
 
-* **[!UICONTROL Interazioni]**: numero totale di engagement con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
+* **[!UICONTROL Interazioni]**: numero totale di impegni con la pagina Web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
 
 +++
 
@@ -530,13 +530,13 @@ Il **[!UICONTROL Prestazioni web]** I KPI offrono informazioni complete sul coin
 >title="Riepilogo web"
 >abstract="Il grafico Riepilogo web illustra la progressione delle esperienze web, incluse impression, impression univoche e interazioni, per le ultime 24 ore."
 
-Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle esperienze web (impression, impression e interazioni uniche) nelle ultime 24 ore.
+Il grafico **[!UICONTROL Riepilogo Web]** mostra l&#39;evoluzione delle esperienze Web (impression, impressioni e interazioni univoche) nelle ultime 24 ore.
 
 +++ Ulteriori informazioni sulle metriche di riepilogo web
 
-* **[!UICONTROL Impression]**: numero totale di esperienze web consegnate a tutti gli utenti.
+* **[!UICONTROL Impression]**: numero totale di esperienze Web distribuite a tutti gli utenti.
 
-* **[!UICONTROL Interazioni]**: numero totale di engagement con la pagina web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
+* **[!UICONTROL Interazioni]**: numero totale di impegni con la pagina Web. Ciò include qualsiasi azione eseguita dagli utenti, ad esempio clic o altre interazioni.
 
 +++
 
@@ -547,11 +547,11 @@ Il **[!UICONTROL Riepilogo web]** il grafico mostra l’evoluzione delle esperie
 >title="Interazioni per elemento"
 >abstract="La tabella Interazioni per elemento fornisce informazioni chiave sul coinvolgimento dei visitatori con diversi elementi delle pagine web nelle ultime 24 ore."
 
-Il **[!UICONTROL Interazioni per elemento]** la tabella presenta informazioni complete sul coinvolgimento dei visitatori con i vari elementi presenti sulle pagine web nelle ultime 24 ore, offrendo informazioni utili sulle interazioni e le preferenze degli utenti.
+La tabella **[!UICONTROL Interazioni per elemento]** presenta informazioni complete sul coinvolgimento dei visitatori con i vari elementi presenti nelle pagine Web nelle ultime 24 ore, offrendo informazioni utili sulle interazioni e le preferenze degli utenti.
 
 ## Scheda direct mail {#direct-mail-tab}
 
-Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Direct mail]** Questa scheda contiene le informazioni principali relative alla direct mailing.
+Dal **[!UICONTROL Live Report]** della campagna, la scheda **[!UICONTROL Direct mail]** fornisce i dettagli delle informazioni principali relative alla direct mailing.
 
 ### Direct mail - Statistiche di invio {#direct-mail-sending}
 
@@ -562,15 +562,15 @@ Dalla campagna **[!UICONTROL Rapporto live]**, il **[!UICONTROL Direct mail]** Q
 
 ![](assets/campaign_live_directmail_statistics.png)
 
-Il **[!UICONTROL Direct mailing - Statistiche di invio]** La tabella fornisce un riepilogo conciso dei dati essenziali relativi ai messaggi Direct Mail, includendo metriche chiave quali il numero di messaggi target e il numero di messaggi consegnati correttamente nelle ultime 24 ore.
+La tabella **[!UICONTROL Direct Mail - Statistiche di invio]** fornisce un riepilogo sintetico dei dati essenziali relativi ai messaggi Direct Mail, includendo metriche chiave quali il numero di messaggi di destinazione e il numero di messaggi consegnati correttamente nelle ultime 24 ore.
 
 +++ Ulteriori informazioni sulla direct mailing - Metriche delle statistiche di invio
 
-* **[!UICONTROL Target]**: numero di profili utente qualificati come profili target.
+* **[!UICONTROL Destinati]**: numero di profili utente qualificati come profili target.
 
 * **[!UICONTROL Inviato]**: numero totale di invii.
 
-* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l’invio ai profili.
+* **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
 
 * **[!UICONTROL Escluso]**: numero di profili utente, esclusi dai profili target, che non hanno ricevuto la direct mailing.
 
@@ -585,7 +585,7 @@ Il **[!UICONTROL Direct mailing - Statistiche di invio]** La tabella fornisce un
 
 ![](assets/campaign_live_error_reasons.png)
 
-Il **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consentono di identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un’analisi dettagliata di eventuali problemi riscontrati nelle ultime 24 ore.
+I grafici e la tabella **[!UICONTROL Direct mailing - Error reason]** forniscono i mezzi per identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un&#39;analisi dettagliata di tutti i problemi riscontrati nelle ultime 24 ore.
 
 ### Direct mail: motivi di esclusione {#direct-mail-excluded-reasons}
 
@@ -596,9 +596,9 @@ Il **[!UICONTROL Direct mailing - Motivi di errore]** grafici e tabelle consento
 
 ![](assets/campaign_live_directmail_excluded.png)
 
-Il **[!UICONTROL Direct mailing - Motivi di esclusione]** grafici e tabelle illustrano visivamente i vari fattori che hanno portato all’esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing nelle ultime 24 ore.
+I grafici e la tabella **[!UICONTROL Direct mailing - Excluded reason]** illustrano visivamente i vari fattori che hanno determinato l&#39;esclusione dei profili utente dal pubblico di destinazione, impedendo loro di ricevere i messaggi di direct mailing nelle ultime 24 ore.
 
-Fai riferimento a [questa pagina](exclusion-list.md) per l’elenco completo dei motivi di esclusione.
+Per un elenco completo dei motivi di esclusione, consulta [questa pagina](exclusion-list.md).
 
 ## Risorse aggiuntive
 

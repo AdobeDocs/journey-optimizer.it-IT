@@ -24,49 +24,49 @@ ht-degree: 10%
 
 I report globali, accessibili dalla scheda Tutto il tempo, visualizzano gli eventi che si sono verificati almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 
-Per accedere ai rapporti, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
+Per accedere ai tuoi report, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
 
 ![](assets/landing_page_report.png)
 
-Pagina di destinazione **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della consegna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](global-report.md).
+La pagina di destinazione **[!UICONTROL Global report]** è divisa in diversi widget che descrivono in dettaglio il successo e gli errori di consegna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](global-report.md).
 
 ![](assets/landing_page_global.png)
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto globale Pagina di destinazione.
 
-Il **[!UICONTROL Numero di visite]** e **[!UICONTROL Numero di visite nel tempo]** I widget consentono di visualizzare l’impatto della pagina di destinazione nel periodo di tempo selezionato tramite un grafico e KPI con le metriche seguenti:
+I widget **[!UICONTROL Numero di visite]** e **[!UICONTROL Numero di visite nel tempo]** ti consentono di visualizzare l&#39;impatto della pagina di destinazione nel periodo di tempo selezionato tramite un grafico e KPI con le metriche seguenti:
 
-* **[!UICONTROL Visite totali]**: numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, comprese le visite multiple di un destinatario.
+* **[!UICONTROL Visite totali]**: numero totale di visite alla pagina di destinazione provenienti da percorsi e origini esterne, incluse visite multiple di un destinatario.
 
-* **[!UICONTROL Visitatori univoci]**: numero di persone che hanno visitato la pagina di destinazione, non vengono prese in considerazione le visite multiple di un destinatario.
+* **[!UICONTROL Visitatori unici]**: non vengono prese in considerazione le persone che hanno visitato la tua pagina di destinazione e le visite multiple di un destinatario.
 
-Il **[!UICONTROL Prestazioni della pagina di destinazione]** Il widget descrive le informazioni principali relative al messaggio tramite KPI:
+Il widget **[!UICONTROL Prestazioni pagina di destinazione]** descrive le informazioni principali relative al messaggio tramite KPI:
 
-* **[!UICONTROL Tasso di conversione]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio che si sono abbonate a un modulo, in relazione al numero totale di visite.
+* **[!UICONTROL Tasso di conversione]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l&#39;abbonamento a un modulo, in relazione al numero totale di visite.
 
-* **[!UICONTROL Percentuale non recapitate]**: numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l’azione di iscrizione, in relazione al numero totale di visite.
+* **[!UICONTROL Percentuale non recapitate]**: numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l&#39;azione di iscrizione, in relazione al numero totale di visite.
 
-Il **[!UICONTROL Origini visita]** il widget rappresenta il modo in cui i visitatori accedono alla pagina di destinazione:
+Il widget **[!UICONTROL Origini visita]** rappresenta il modo in cui i visitatori accedono alla pagina di destinazione:
 
-* **[!UICONTROL Percorso/i]**: numero di visite alla pagina di destinazione provenienti da un percorso.
+* **[!UICONTROL Percorsi]**: numero di visite alla pagina di destinazione provenienti da un percorso.
 
-* **[!UICONTROL Altre origini]**: numero di visite alla pagina di destinazione provenienti da un’origine esterna anziché da un percorso.
+* **[!UICONTROL Altre origini]**: numero di visite alla pagina di destinazione provenienti da un&#39;origine esterna anziché da un percorso.
 
-Il **[!UICONTROL Collegamenti più cliccati]** identifica l’interazione dei visitatori con la consegna:
+I **[!UICONTROL collegamenti più cliccati]** identificano l&#39;interazione dei visitatori con la consegna:
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nella pagina di destinazione.
 
 * **[!UICONTROL Percentuale di clic]**: percentuale di clic nella pagina di destinazione.
 
-Il **[!UICONTROL Percorso/i]** widget rappresenta il numero di visite alla pagina di destinazione da un percorso:
+Il widget **[!UICONTROL Percorsi]** rappresenta il numero di visite alla pagina di destinazione da un percorso:
 
-* **[!UICONTROL Visite]**: numero di visite alla pagina di destinazione, comprese le visite multiple di un destinatario.
+* **[!UICONTROL Visite]**: numero di visite alla pagina di destinazione, incluse più visite di un destinatario.
 
-Il **[!UICONTROL Altre origini]** widget rappresenta il numero di visite alla pagina di destinazione da un’origine esterna anziché da un percorso.
+Il widget **[!UICONTROL Altre origini]** rappresenta il numero di visite alla pagina di destinazione da un&#39;origine esterna anziché da un percorso.
 
-Il **[!UICONTROL Visite per messaggi]** / **[!UICONTROL Conversioni per messaggi]** i grafici rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione per il periodo in questione, a seconda dei messaggi inviati.
+I grafici **[!UICONTROL Visite per messaggi]** / **[!UICONTROL Conversioni per messaggi]** rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione per il periodo in questione, a seconda dei messaggi inviati.
 
-Il **[!UICONTROL Visite per canali]** / **[!UICONTROL Conversioni per canali]** i grafici rappresentano il numero totale di visite e di persone che hanno interagito correttamente con la pagina di destinazione per il periodo in questione, a seconda dei canali.
+I grafici **[!UICONTROL Visite per canali]** / **[!UICONTROL Conversioni per canali]** rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione per il periodo in questione, a seconda dei canali.
 +++
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](global-report.md#list-of-components-global).

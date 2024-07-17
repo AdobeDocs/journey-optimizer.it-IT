@@ -26,7 +26,7 @@ Per poter essere utilizzato in Journey Optimizer, il messaggio transazionale di 
 
 ## Note importanti {#important-notes}
 
-* Per le azioni Adobe Campaign Standard viene automaticamente definita una regola di limite di 4000 chiamate ogni 5 minuti. Ciò corrisponde alla scala ufficiale di Adobe Campaign Standard Transactional Messaging. Ulteriori informazioni sugli SLA della messaggistica transazionale in [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html).
+* Per le azioni Adobe Campaign Standard viene automaticamente definita una regola di limite di 4000 chiamate ogni 5 minuti. Ciò corrisponde alla scala ufficiale di Adobe Campaign Standard Transactional Messaging. Ulteriori informazioni sugli SLA per la messaggistica transazionale in [Descrizione del prodotto Adobe Campaign Standard](https://helpx.adobe.com/it/legal/product-descriptions/campaign-standard.html).
 
 * L’integrazione di Adobe Campaign Standard è impostata tramite un’azione incorporata dedicata nell’elenco delle azioni. Questo deve essere configurato per ogni sandbox.
 
@@ -38,15 +38,15 @@ Per poter essere utilizzato in Journey Optimizer, il messaggio transazionale di 
 
 Di seguito sono riportati i passaggi per configurarlo:
 
-1. Seleziona **[!UICONTROL Configurazioni]** nella sezione del menu ADMINISTRATION. In  **[!UICONTROL Azioni]** , fare clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni.
+1. Selezionare **[!UICONTROL Configurazioni]** nella sezione del menu AMMINISTRAZIONE. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle azioni.
 
-1. Seleziona il predefinito **[!UICONTROL AdobeCampaign Standard]** azione. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
+1. Seleziona l&#39;azione incorporata **[!UICONTROL AdobeCampaignStandard]**. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
 
    ![](assets/actioncampaign.png)
 
-1. Copia l’URL dell’istanza di Adobe Campaign Standard e incollalo nella **[!UICONTROL URL]** campo.
+1. Copia l&#39;URL dell&#39;istanza di Adobe Campaign Standard e incollalo nel campo **[!UICONTROL URL]**.
 
-1. Fai clic su **[!UICONTROL Verifica l’URL dell’istanza]** per verificare la validità dell’istanza.
+1. Fai clic su **[!UICONTROL Verifica l&#39;URL dell&#39;istanza]** per verificare la validità dell&#39;istanza.
 
    >[!NOTE]
    >
@@ -58,10 +58,10 @@ Di seguito sono riportati i passaggi per configurarlo:
    >
    >L’ORGANIZZAZIONE associata a questa istanza di Adobe Campaign Standard è la stessa dell’ORGANIZZAZIONE di Journey Optimizer.
 
-Durante la progettazione del percorso, sono disponibili tre azioni nel **[!UICONTROL Azione]** categoria: **[!UICONTROL E-mail]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (vedere [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
+Durante la progettazione del percorso, sono disponibili tre azioni nella categoria **[!UICONTROL Azione]**: **[!UICONTROL E-mail]**, **[!UICONTROL Invio]**, **[!UICONTROL SMS]** (vedi [Utilizzo delle azioni di Adobe Campaign](../building-journeys/using-adobe-campaign-standard.md)).
 
 ![](assets/journey58.png)
 
-È possibile utilizzare una **Reazioni** per reagire ai dati di tracciamento relativi a un messaggio Campaign Standard inviato all’interno dello stesso percorso. Per le notifiche push, puoi reagire ai messaggi con clic, inviati o non riusciti. Per i messaggi SMS, puoi reagire ai messaggi inviati o non riusciti. Per le e-mail, puoi reagire ai messaggi su cui hai fatto clic, che hai inviato, che hai aperto o non sei riuscito. Consulta [Eventi di reazione](../building-journeys/reaction-events.md).
+Puoi utilizzare un evento **Reactions** per reagire al tracciamento dei dati relativi a un messaggio di Campaign Standard inviato nello stesso percorso. Per le notifiche push, puoi reagire ai messaggi con clic, inviati o non riusciti. Per i messaggi SMS, puoi reagire ai messaggi inviati o non riusciti. Per le e-mail, puoi reagire ai messaggi su cui hai fatto clic, che hai inviato, che hai aperto o non sei riuscito. Vedi [Eventi di reazione](../building-journeys/reaction-events.md).
 
 Se utilizzi un sistema di terze parti per l’invio dei messaggi, devi aggiungere e configurare un’azione personalizzata. Consulta [Informazioni sulla configurazione delle azioni personalizzata](../action/about-custom-action-configuration.md).

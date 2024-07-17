@@ -27,18 +27,18 @@ ht-degree: 17%
 
 Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
-* Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni [sezione](../action/action.md).
+* Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. Ulteriori informazioni in questa [sezione](../action/action.md).
 
 * Se utilizzi Campaign e Journey Optimizer, consulta le sezioni seguenti:
 
    * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e CAMPAIGN STANDARD](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
 
 Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:
 
-1. Iniziare il percorso con un [Evento](general-events.md) o un [Read Audience](read-audience.md) attività.
+1. Avvia il percorso con un&#39;attività [Event](general-events.md) o [Read Audience](read-audience.md).
 
-1. Dalla sezione **Azioni** nella palette, trascina e rilascia una **email**, un **In-app**, un **SMS** o un **Push** attività nell’area di lavoro.
+1. Dalla sezione **Actions** della palette, trascina un&#39;attività **email**, **In-app**, **SMS** o **Push** nell&#39;area di lavoro.
 
 1. Configura l’attività. Scopri i passaggi dettagliati per creare il contenuto del messaggio nelle pagine seguenti:
 
@@ -85,7 +85,7 @@ Per aggiungere un messaggio in un percorso, effettua le seguenti operazioni:
 
 Puoi aggiornare il contenuto di un messaggio (e-mail, in-app, push, SMS) in un percorso live.
 
-A questo scopo, apri il percorso live, seleziona l’attività del messaggio e fai clic su **Modifica contenuto**.
+A questo scopo, apri il percorso live, seleziona l&#39;attività del messaggio e fai clic su **Modifica contenuto**.
 
 ![](assets/add-a-message2.png)
 
@@ -129,15 +129,15 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa 
 
 Quali operazioni può eseguire l’ottimizzazione dell’ora di invio? In che modo gestisce i nuovi profili? Distribuisce l’invio nell’arco di un’ora 6/12/24?
 
-Send-Time Optimization cerca di prevedere il momento migliore per interagire con i clienti e ottimizzare le percentuali di apertura e clic sulle e-mail. Il punteggio è in un formato `3*7*24` attributi per ciascun profilo. Il `7*24` gli attributi descrivono la classificazione del momento migliore previsto per inviare e-mail al destinatario e 3 serve per ottimizzare il tasso di apertura delle e-mail, il tasso di clic e il tasso di apertura push.
+Send-Time Optimization cerca di prevedere il momento migliore per interagire con i clienti e ottimizzare le percentuali di apertura e clic sulle e-mail. Il punteggio è in un formato di `3*7*24` attributi per ciascun profilo. Gli attributi `7*24` descrivono la classificazione del momento migliore previsto per l’invio di e-mail al destinatario e 3 serve per ottimizzare il tasso di apertura delle e-mail, il tasso di clic e il tasso di apertura push.
 
 Dove posso trovare il tempo di invio previsto per ciascun profilo?
 
-Puoi vedere il punteggio complessivo in **Profili** di rete. Per ciascuno dei tre set di 168 punteggi, la classifica va da -83 a 84. Più alto è il rango, migliore è il momento scelto per interagire con il destinatario. Poiché è possibile definire l&#39;inizio e la durata di un percorso, la classificazione migliore (84) potrebbe non rientrare in tale intervallo di tempo. In questo caso, consigliamo di scegliere un’ora con il valore di classificazione più alto.
+Puoi visualizzare il punteggio complessivo nell&#39;interfaccia **Profili**. Per ciascuno dei tre set di 168 punteggi, la classifica va da -83 a 84. Più alto è il rango, migliore è il momento scelto per interagire con il destinatario. Poiché è possibile definire l&#39;inizio e la durata di un percorso, la classificazione migliore (84) potrebbe non rientrare in tale intervallo di tempo. In questo caso, consigliamo di scegliere un’ora con il valore di classificazione più alto.
 
 Quali rapporti sono disponibili?
 
-Accedi al percorso, fai clic su **Visualizza rapporto** in alto a destra e seleziona il pulsante **Percorso** a sinistra. [Ulteriori informazioni](../reports/journey-global-report.md)
+Accedi al tuo percorso, fai clic sul pulsante **Visualizza rapporto** in alto a destra e seleziona la scheda **Percorso** a sinistra. [Ulteriori informazioni](../reports/journey-global-report.md)
 
 In che modo i dati di ottimizzazione dell’ora di invio influiscono sulla ricchezza del profilo?
 
@@ -155,15 +155,15 @@ L’ottimizzazione dell’ora di invio aggiunge il punteggio/attributi a ciascun
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. Puoi anche restringere gli orari di invio utilizzati dal sistema immettendo un valore per l’opzione Invia entro."
 
-Abilitare l’ottimizzazione dell’ora di invio in un messaggio e-mail o push selezionando la **Ottimizzazione dell’ora di invio** passa dai parametri dell’attività.
+Abilita Ottimizzazione dell&#39;ora di invio in un messaggio e-mail o push selezionando lo switch **Ottimizzazione dell&#39;ora di invio** dai parametri dell&#39;attività.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. I messaggi push hanno per impostazione predefinita l’opzione opens, in quanto i clic non sono applicabili ai messaggi push.
 
-È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per **Invia entro il prossimo** opzione. Se scegli &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ciascun profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
+È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per l&#39;opzione **Invia entro il successivo**. Se si sceglie &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ogni profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
 
-**Cosa succede se il tempo ottimale è fuori dalla finestra?**
+**Cosa succede se il tempo ottimale si trova all&#39;esterno della finestra?**
 
 Prendiamo un esempio con la seguente configurazione:
 

@@ -16,11 +16,11 @@ ht-degree: 14%
 
 # Introduzione ai modelli AI {#ai-models}
 
-[!DNL Journey Optimizer] consente di utilizzare un sistema di modelli addestrato che classifica le offerte da visualizzare per un determinato profilo.
+[!DNL Journey Optimizer] consente di utilizzare un sistema di modelli addestrati che classifica le offerte da visualizzare per un determinato profilo.
 
-Questa funzione consente di creare diversi **Modelli IA** in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrato ti aiuterà a capire in che modo i diversi modelli di intelligenza artificiale influiscono sui tuoi obiettivi.
+Questa funzione ti consente di creare **modelli di IA** diversi in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrato ti aiuterà a capire in che modo i diversi modelli di intelligenza artificiale influiscono sui tuoi obiettivi.
 
-Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutta più punti di dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte o di un [formula di classificazione](create-ranking-formulas.md).
+Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutterà più punti dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di una formula di classificazione [](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
@@ -34,11 +34,11 @@ Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro pe
 >abstract="Seleziona il tipo di modello di IA da creare: **Ottimizzazione automatica** ottimizza le offerte in base alle prestazioni delle offerte passate, mentre **Ottimizzazione personalizzata** ottimizza e personalizza le offerte in base al pubblico e alle prestazioni delle offerte."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Creare un modello IA"
 
-In sono disponibili due tipi di modelli di IA [!DNL Journey Optimizer]:
+In [!DNL Journey Optimizer] sono disponibili due tipi di modelli di IA:
 
-* **Modelli di ottimizzazione automatica** mira a distribuire offerte che massimizzano il ritorno (KPI, Key Performance Indicator) impostato dai clienti aziendali. Questi KPI potrebbero essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic dell’offerta con la conversione dell’offerta come obiettivo. L’ottimizzazione automatica non è personalizzata e viene ottimizzata in base alle prestazioni &quot;globali&quot; delle offerte. [Ulteriori informazioni](auto-optimization-model.md)
+* I **modelli di ottimizzazione automatica** hanno lo scopo di distribuire le offerte che massimizzano il ritorno (KPI) impostato dai client aziendali. Questi KPI potrebbero essere sotto forma di tassi di conversione, ricavi, ecc. A questo punto, l’ottimizzazione automatica si concentra sull’ottimizzazione dei clic dell’offerta con la conversione dell’offerta come obiettivo. L’ottimizzazione automatica non è personalizzata e viene ottimizzata in base alle prestazioni &quot;globali&quot; delle offerte. [Ulteriori informazioni](auto-optimization-model.md)
 
-* **Modelli di ottimizzazione personalizzati** consente di definire gli obiettivi aziendali e utilizza i dati dei clienti per addestrare modelli orientati alle aziende a distribuire offerte personalizzate e massimizzare i KPI. [Ulteriori informazioni](personalized-optimization-model.md)
+* I **modelli di ottimizzazione personalizzati** ti consentono di definire gli obiettivi aziendali e di utilizzare i dati dei clienti per addestrare modelli orientati al business in modo da distribuire offerte personalizzate e massimizzare i KPI. [Ulteriori informazioni](personalized-optimization-model.md)
 
 ## Creazione di un modello di IA {#create-ai-model}
 

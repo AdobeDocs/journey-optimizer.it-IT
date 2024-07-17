@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Una decisione contiene la logica su cui si basa la selezione di un’offerta.
 
-Puoi visualizzare un elenco di tutte le decisioni all’interno di un contenitore eseguendo una singola richiesta GET al [!DNL Offer Library] API.
+È possibile visualizzare un elenco di tutte le decisioni all&#39;interno di un contenitore eseguendo una singola richiesta GET all&#39;API [!DNL Offer Library].
 
 **Formato API**
 
@@ -48,8 +48,8 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | Stringa di query facoltativa da cercare nei campi selezionati. La stringa di query deve essere in minuscolo e può essere racchiusa tra virgolette doppie per impedire che venga tokenizzata e per evitare caratteri speciali. I caratteri `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hanno un significato speciale e devono essere preceduti da una barra rovesciata quando vengono visualizzati nella stringa query. | `default` |
 | `qop` | Applica l’operatore AND o OR ai valori nel parametro della stringa di query q. | `AND` / `OR` |
-| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto come segue: field=field1[,campo=campo2,...] e (le espressioni di percorso sono sotto forma di percorsi separati da punti, ad esempio _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Ordinare i risultati per una proprietà specifica. Aggiunta di un `-` prima del titolo (`orderby=-title`) ordinerà gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
+| `field` | Elenco facoltativo di campi a cui limitare la ricerca. Questo parametro può essere ripetuto come segue: field=field1[,field=field2,...] e (le espressioni di percorso sono sotto forma di percorsi separati da punti come _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Ordinare i risultati per una proprietà specifica. L&#39;aggiunta di un `-` prima del titolo (`orderby=-title`) ordinerà gli elementi in base al titolo in ordine decrescente (Z-A). | `-repo:createdDate` |
 | `limit` | Limita il numero di decisioni restituite. | `limit=5` |
 
 **Risposta**

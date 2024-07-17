@@ -41,7 +41,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/tags/tag1234' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli del qualificatore di raccolta, incluse le informazioni sull’ID contenitore, l’ID istanza e il qualificatore di raccolta univoco `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del qualificatore di raccolta, incluse le informazioni sull&#39;ID contenitore, l&#39;ID istanza e il qualificatore di raccolta univoco `@id`.
 
 ```json
 {

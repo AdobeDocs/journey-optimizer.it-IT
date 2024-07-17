@@ -26,12 +26,12 @@ Elenco
 
 `limit(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da considerare. Per listObject, deve essere un riferimento di campo. |
-| numberOfItems | numero intero | Numero di elementi da restituire dall&#39;elenco specificato. |
+| numberOfItems | intero | Numero di elementi da restituire dall&#39;elenco specificato. |
 | firstOrLastItems | booleano | Questo parametro è facoltativo (true per impostazione predefinita). true restituisce i primi elementi. false restituisce gli ultimi elementi. |
 
 ## Firma e tipo restituito

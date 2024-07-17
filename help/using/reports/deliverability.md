@@ -23,9 +23,9 @@ Il recapito messaggi misura il successo delle consegne che raggiungono le casell
 >
 >Per i clienti che acquistano la licenza di Healthcare Shield, Adobe utilizza Transport Layer Security (TLS) 1.2 per proteggere lo scambio di dati tra i sistemi degli utenti (destinatari) e Journey Optimizer (mittente). Se il server di posta ricevente non supporta TLS 1.2, i clienti riscontreranno problemi di recapito, inclusa la recapito dell’e-mail al mittente di origine.
 
-**Recapito messaggi e-mail** si riferisce all’insieme di caratteristiche che determinano la capacità di un messaggio di raggiungere la sua destinazione, tramite un indirizzo e-mail personale, in un breve lasso di tempo e con la qualità prevista in termini di contenuto e formato. Queste caratteristiche si suddividono in quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Insieme, costituiscono la base di un programma di consegna e-mail di successo.
+**Il recapito messaggi e-mail** si riferisce all&#39;insieme di caratteristiche che determinano la capacità di un messaggio di raggiungere la sua destinazione, tramite un indirizzo e-mail personale, in un breve lasso di tempo e con la qualità prevista in termini di contenuto e formato. Queste caratteristiche si suddividono in quattro categorie principali: qualità dei dati, messaggi e contenuti, infrastruttura di invio e reputazione. Insieme, costituiscono la base di un programma di consegna e-mail di successo.
 
-Il **tasso di consegna** è il numero di messaggi che raggiungono le caselle in entrata dei destinatari rispetto al numero di messaggi consegnati. Dipende da numerosi fattori, in particolare:
+Il **tasso di recapito messaggi** è il numero di messaggi che raggiungono le caselle in entrata dei destinatari rispetto al numero di messaggi recapitati. Dipende da numerosi fattori, in particolare:
 
 * Reclami limitati di spam
 * Basse percentuali di mancati recapiti permanenti
@@ -33,9 +33,9 @@ Il **tasso di consegna** è il numero di messaggi che raggiungono le caselle in 
 * Contenuto del messaggio
 * Reputazione mittente
 
-Ottimizzare il recapito messaggi [!DNL Journey Optimizer] esperienze, consigliamo di utilizzare le best practice elencate in questa sezione. I problemi di recapito dei messaggi sono generalmente legati alla protezione contro la posta indesiderata implementata dai provider di servizi Internet (ISP) e dagli amministratori dei server di posta.
+Per ottimizzare il recapito messaggi delle esperienze [!DNL Journey Optimizer], si consiglia di utilizzare le best practice elencate in questa sezione. I problemi di recapito dei messaggi sono generalmente legati alla protezione contro la posta indesiderata implementata dai provider di servizi Internet (ISP) e dagli amministratori dei server di posta.
 
-Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori informazioni sui termini, i concetti e gli approcci chiave, consulta [Guida alle procedure consigliate per la consegna dei messaggi di Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html){target="_blank"}.
+Per informazioni più approfondite sulla consegna dei messaggi e per ulteriori informazioni sui termini, i concetti e gli approcci chiave per la consegna dei messaggi, consulta l&#39;[Adobe di Guida alle best practice per la consegna dei messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it){target="_blank"}.
 
 ## Riduci la percentuale di reclami {#reduce-complaint-rate}
 
@@ -55,9 +55,9 @@ Per proteggere il recapito messaggi, i destinatari i cui indirizzi sono inclusi 
 
 ## Utilizzare gli strumenti di monitoraggio {#monitoring-tools}
 
-Utilizza le funzioni offerte da [!DNL Journey Optimizer] per monitorare il recapito messaggi.
+Utilizza le funzionalità offerte da [!DNL Journey Optimizer] per monitorare il recapito messaggi.
 
-Il **[!UICONTROL Esecuzioni]** dell’elenco dei messaggi ti consente di controllare le prestazioni delle consegne tramite una serie di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
+La scheda **[!UICONTROL Esecuzioni]** dell&#39;elenco dei messaggi consente di controllare le prestazioni delle consegne tramite un set di indicatori in tempo reale. Questa scheda mostra, tra l’altro:
 * Il numero di messaggi eseguiti, inviati e consegnati correttamente.
 * Il numero di messaggi aperti e il numero di messaggi/collegamenti su cui è stato fatto clic.
 
@@ -67,9 +67,9 @@ In misura minore, il contenuto di determinati messaggi può essere rilevato come
 
 Per migliorare il tasso di recapito dei messaggi e assicurarti che le e-mail arrivino ai destinatari, segui i principi riportati di seguito durante la progettazione del contenuto del messaggio:
 
-* **Nome e indirizzo del mittente**: l’indirizzo deve identificare esplicitamente il mittente. Il dominio deve essere di proprietà del mittente e deve essere registrato presso di esso. Impossibile privatizzare il Registro di sistema del dominio.
+* **Nome e indirizzo mittente**: l&#39;indirizzo deve identificare esplicitamente il mittente. Il dominio deve essere di proprietà del mittente e deve essere registrato presso di esso. Impossibile privatizzare il Registro di sistema del dominio.
 
-* **Collegamento e pagina di destinazione per annullare l’abbonamento**: il collegamento per annullare l’abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
+* **Collegamento per annullare l&#39;abbonamento e pagina di destinazione**: il collegamento per annullare l&#39;abbonamento è essenziale. Deve essere visibile e valido e il modulo deve essere funzionale.
 
 [Ulteriori informazioni sulla progettazione di contenuti e-mail](../email/get-started-email-design.md)
 
@@ -81,7 +81,7 @@ Se recentemente sei passato a un altro provider di servizi e-mail, indirizzo IP 
 
 ## Implementazione DMARC {#dmarc}
 
-Per attenuare il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e per evitare problemi di recapito, [!DNL Journey Optimizer] consente di impostare un record DMARC per tutti i sottodomini a cui deleghi Adobe.
+Per ridurre il rischio che le e-mail legittime vengano contrassegnate come spam o rifiutate e per evitare problemi di recapito, [!DNL Journey Optimizer] consente di impostare un record DMARC per tutti i sottodomini a cui si delega l&#39;Adobe.
 
 DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un metodo di autenticazione e-mail che consente ai proprietari del dominio di proteggere il proprio dominio dall&#39;uso non autorizzato da parte di utenti malintenzionati.
 
@@ -91,7 +91,7 @@ DMARC (Domain-based Message Authentication, Reporting, and Conformance) è un me
 
 Un feedback loop (FBL) è un servizio offerto da alcuni ISP che consente al mittente dell’e-mail di ricevere automaticamente una notifica quando l’utente che riceve un’e-mail sceglie di contrassegnarla come spam (noto anche come &quot;reclamo&quot;).
 
-Dopo che un utente finale genera un reclamo che viene rimandato all&#39;Adobe dall&#39;ISP, l&#39;indirizzo e-mail viene aggiunto automaticamente al [elenco di soppressione](../reports/suppression-list.md) ed esclusi dalle consegne future. In effetti, l’invio di e-mail agli utenti che le hanno contrassegnate come spam influisce negativamente sulla reputazione del mittente e può causare problemi di recapito messaggi. [Ulteriori informazioni sui reclami di spam](../reports/suppression-list.md#spam-complaints)
+Dopo che un utente finale genera un reclamo che viene rimandato all&#39;Adobe dall&#39;ISP, l&#39;indirizzo e-mail viene aggiunto automaticamente all&#39;[elenco di soppressione](../reports/suppression-list.md) ed escluso dalle consegne future. In effetti, l’invio di e-mail agli utenti che le hanno contrassegnate come spam influisce negativamente sulla reputazione del mittente e può causare problemi di recapito messaggi. [Ulteriori informazioni sui reclami spam](../reports/suppression-list.md#spam-complaints)
 
 >[!IMPORTANT]
 >

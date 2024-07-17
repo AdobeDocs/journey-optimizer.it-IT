@@ -31,21 +31,21 @@ I messaggi in-app non sono influenzati dalla scelta dell’utente di dare il con
 
 Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazioni:
 
-1. Apri il percorso, quindi trascina e rilascia una **[!UICONTROL In-app]** attività da **[!UICONTROL Azioni]** nella palette.
+1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL In-app]** dalla sezione **[!UICONTROL Azioni]** della palette.
 
    Quando un profilo raggiunge la fine del percorso, tutti i messaggi in-app visualizzati scadranno automaticamente. Per questo motivo, dopo l’attività in-app viene aggiunta automaticamente un’attività Attendi per garantire la tempistica corretta.
 
    ![](assets/in_app_journey_1.png)
 
-1. Immetti un **[!UICONTROL Etichetta]** e **[!UICONTROL Descrizione]** per il messaggio.
+1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
 
-1. Scegli la [Superficie in-app](inapp-configuration.md) da utilizzare.
+1. Scegli la [superficie in-app](inapp-configuration.md) da utilizzare.
 
    ![](assets/in_app_journey_2.png)
 
-1. Ora puoi iniziare a progettare il contenuto con **[!UICONTROL Modifica contenuto]** pulsante. [Ulteriori informazioni](design-in-app.md)
+1. Ora puoi iniziare a progettare il contenuto con il pulsante **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](design-in-app.md)
 
-1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
+1. Fai clic su **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
 
    ![](assets/in_app_journey_4.png)
 
@@ -55,10 +55,10 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
-      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall’estensione AEP Edge. |
-      | Tracciamento di base | Azione di tracciamento | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) viene chiamato. |
-      | Tracciamento di base | Tracciare lo stato | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) viene chiamato. |
-      | Tracciamento di base | Raccogli PII | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) viene chiamato. |
+      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall&#39;estensione AEP Edge. |
+      | Tracciamento di base | Azione di tracciamento | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction). |
+      | Tracciamento di base | Tracciare lo stato | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate). |
+      | Tracciamento di base | Raccogli PII | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii). |
       | Ciclo di vita dell&#39;applicazione | Avvio applicazione | Attivazione a ogni esecuzione, comprese quelle a seguito di arresti anomali e installazioni. Questa metrica viene attivata anche in seguito alla ripresa dal background oltre il tempo di timeout della sessione del ciclo di vita. |
       | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
       | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
@@ -69,13 +69,13 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
 +++
 
-   1. Clic **[!UICONTROL Aggiungi condizione]** se desideri che il trigger consideri più eventi o criteri.
+   1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
-   1. Scegli la **[!UICONTROL Oppure]** condizione per aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
+   1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
 
       ![](assets/in_app_create_3.png)
 
-   1. Scegli la **[!UICONTROL E]** condizione se si desidera aggiungere **[!UICONTROL Caratteristiche]** e perfeziona meglio la regola.
+   1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
       +++Vedi Caratteristiche disponibili.
 
@@ -103,49 +103,49 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
       ![](assets/in_app_create_8.png)
 
-   1. Clic **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
+   1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 
       ![](assets/in_app_journey_3.png)
 
    1. Scegli la frequenza del trigger quando il messaggio in-app è attivo:
 
-      * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
-      * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
-      * **[!UICONTROL Mostra fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
+      * **[!UICONTROL Mostra ogni volta]**: mostra sempre il messaggio quando si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
+      * **[!UICONTROL Mostra una volta]**: mostra questo messaggio solo la prima volta che si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
+      * **[!UICONTROL Mostra fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attiva app mobile]** si verificano fino a quando l&#39;SDK non invia un evento di interazione con l&#39;azione &quot;cliccato&quot;.
 
 1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
 1. Una volta che il messaggio in-app è pronto, finalizza la configurazione e pubblica il percorso per attivarlo.
 
-Per ulteriori informazioni su come configurare un percorso, consulta [questa pagina](../building-journeys/journey-gs.md).
+Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
 
 >[!TAB Aggiungere un messaggio in-app a una campagna]
 
 Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazioni:
 
-1. Accedere a **[!UICONTROL Campagne]** , quindi fai clic su **[!UICONTROL Crea campagna]**.
+1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
-1. In **[!UICONTROL Proprietà]** , seleziona quando il tipo di esecuzione della campagna è Pianificato o Attivato da API. Ulteriori informazioni sui tipi di campagna in [questa pagina](../campaigns/create-campaign.md#campaigntype).
+1. Nella sezione **[!UICONTROL Proprietà]**, seleziona il tipo di esecuzione della campagna: Pianificato o Attivato da API. Ulteriori informazioni sui tipi di campagna in [questa pagina](../campaigns/create-campaign.md#campaigntype).
 
-1. In **[!UICONTROL Azioni]** , scegli il **[!UICONTROL Messaggio in-app]** e **[!UICONTROL Superficie app]** precedentemente configurato per il messaggio in-app. Quindi, fai clic su **[!UICONTROL Crea]**.
+1. Nella sezione **[!UICONTROL Azioni]**, scegli il **[!UICONTROL messaggio in-app]** e la **[!UICONTROL superficie app]** precedentemente configurati per il messaggio in-app. Quindi fare clic su **[!UICONTROL Crea]**.
 
    Ulteriori informazioni sulla configurazione in-app in [questa pagina](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. Dalla sezione **[!UICONTROL Proprietà]** , immetti il **[!UICONTROL Titolo]** e **[!UICONTROL Descrizione]** descrizione.
+1. Dalla sezione **[!UICONTROL Proprietà]**, immetti il **[!UICONTROL Titolo]** e la descrizione **[!UICONTROL Descrizione]**.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base al messaggio in-app, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni](../administration/object-based-access.md).
 
-1. Fai clic su **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall’elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni](../audience/about-audiences.md).
+1. Fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per definire il pubblico di destinazione dall&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni](../audience/about-audiences.md).
 
    ![](assets/in_app_create_2.png)
 
-1. In **[!UICONTROL Spazio dei nomi dell’identità]** , scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
+1. Nel campo **[!UICONTROL Spazio dei nomi identità]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti del pubblico selezionato. [Ulteriori informazioni](../event/about-creating.md#select-the-namespace).
 
-1. Clic **[!UICONTROL Crea esperimento]** per iniziare a configurare l’esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l’opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
+1. Fai clic su **[!UICONTROL Crea esperimento]** per iniziare a configurare l&#39;esperimento sui contenuti e creare trattamenti per misurarne le prestazioni e identificare l&#39;opzione migliore per il pubblico di destinazione. [Ulteriori informazioni](../content-management/content-experiment.md)
 
-1. Clic **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
+1. Fai clic su **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
@@ -153,10 +153,10 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
-      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall’estensione AEP Edge. |
-      | Tracciamento di base | Azione di tracciamento | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) viene chiamato. |
-      | Tracciamento di base | Tracciare lo stato | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) viene chiamato. |
-      | Tracciamento di base | Raccogli PII | Attivazione quando vengono attivate le funzionalità legacy offerte nell’API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) viene chiamato. |
+      | Inviare dati a Platform | Dati inviati a Platform | Attivazione quando l’app mobile genera un evento di esperienza Edge per inviare dati a Adobe Experience Platform. Di solito la chiamata API [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) dall&#39;estensione AEP Edge. |
+      | Tracciamento di base | Azione di tracciamento | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction). |
+      | Tracciamento di base | Tracciare lo stato | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate). |
+      | Tracciamento di base | Raccogli PII | Attivazione quando viene chiamata la funzionalità legacy offerta nell&#39;API del codice mobile [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii). |
       | Ciclo di vita dell&#39;applicazione | Avvio applicazione | Attivazione a ogni esecuzione, comprese quelle a seguito di arresti anomali e installazioni. Questa metrica viene attivata anche in seguito alla ripresa dal background oltre il tempo di timeout della sessione del ciclo di vita. |
       | Ciclo di vita dell&#39;applicazione | Installazione applicazione | Attivazione alla prima esecuzione dopo l&#39;installazione o reinstallazione. |
       | Ciclo di vita dell&#39;applicazione | Aggiornamento applicazione | Attivazione alla prima esecuzione dopo un aggiornamento o quando cambia il numero di versione. |
@@ -167,13 +167,13 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
 +++
 
-   1. Clic **[!UICONTROL Aggiungi condizione]** se desideri che il trigger consideri più eventi o criteri.
+   1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
-   1. Scegli la **[!UICONTROL Oppure]** condizione per aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
+   1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
 
       ![](assets/in_app_create_3.png)
 
-   1. Scegli la **[!UICONTROL E]** condizione se si desidera aggiungere **[!UICONTROL Caratteristiche]** e perfeziona meglio la regola.
+   1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
       +++Vedi Caratteristiche disponibili.
 
@@ -201,22 +201,22 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
       ![](assets/in_app_create_8.png)
 
-   1. Clic **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
+   1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 
 1. Scegli la frequenza del trigger quando il messaggio in-app è attivo. Sono disponibili le seguenti opzioni:
 
-   * **[!UICONTROL Ogni volta]**: mostra sempre il messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
-   * **[!UICONTROL Una volta]**: mostra questo messaggio solo la prima volta che gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** a discesa.
-   * **[!UICONTROL Fino al click-through]**: mostra questo messaggio quando gli eventi selezionati nel **[!UICONTROL Attivatore app mobile]** Questo si verifica finché un evento di interazione non viene inviato dall’SDK con l’azione &quot;clicked&quot;.
-   * **[!UICONTROL X numero di volte]**: mostra questo messaggio X volta.
+   * **[!UICONTROL Ogni volta]**: mostra sempre il messaggio quando si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
+   * **[!UICONTROL Una volta]**: mostra questo messaggio solo la prima volta che si verificano gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]**.
+   * **[!UICONTROL Fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attivatore app mobile]** si verificano fino a quando l&#39;SDK non invia un evento di interazione con l&#39;azione &quot;cliccato&quot;.
+   * **[!UICONTROL X volte]**: visualizza questo messaggio X volte.
 
-1. Se necessario, scegliere quale **[!UICONTROL Giorno della settimana]** o **[!UICONTROL Ora del giorno]** verrà visualizzato il messaggio in-app.
+1. Se necessario, scegli il **[!UICONTROL giorno della settimana]** o **[!UICONTROL ora del giorno]** in cui verrà visualizzato il messaggio in-app.
 
-1. Le campagne sono progettate per essere eseguite in una data specifica o con una frequenza ricorrente. Scopri come configurare **[!UICONTROL Pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
+1. Le campagne sono progettate per essere eseguite in una data specifica o con una frequenza ricorrente. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
-1. Ora puoi iniziare a progettare il contenuto con **[!UICONTROL Modifica contenuto]** pulsante. [Ulteriori informazioni](design-in-app.md)
+1. Ora puoi iniziare a progettare il contenuto con il pulsante **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 

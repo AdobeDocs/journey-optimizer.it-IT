@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: concat
+title: concatena
 description: Informazioni sulla concatenazione delle funzioni
 feature: Journeys
 role: Data Engineer, Architect
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 ---
 
-# concat {#concat}
+# concatena {#concat}
 
 Concatena due parametri di stringa o un elenco di stringhe.
 
@@ -26,12 +26,12 @@ Stringa
 
 `concat(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
 | Elenco | listString |
-| string | string |
+| stringa | stringa |
 
 ## Firma e tipo restituito
 

@@ -12,23 +12,23 @@ exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Informazioni sugli schemi ExperienceEvent per [!DNL Journey Optimizer] Eventi {#about-experienceevent-schemas}
+# Informazioni sugli schemi ExperienceEvent per [!DNL Journey Optimizer] eventi {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] Gli eventi sono eventi di esperienza XDM inviati a Adobe Experience Platform tramite Streaming Ingestion.
+[!DNL Journey Optimizer] eventi sono eventi esperienza XDM inviati a Adobe Experience Platform tramite Streaming Ingestion.
 
-In quanto tale, un prerequisito importante per la configurazione di eventi per [!DNL Journey Optimizer] è che hai familiarità con Experience Data Model (o XDM) di Adobe Experience Platform e con le modalità di composizione degli schemi Experience Event XDM, nonché con le procedure per lo streaming di dati in formato XDM su Adobe Experience Platform.
+Un prerequisito importante per la configurazione degli eventi per [!DNL Journey Optimizer] è la conoscenza di Experience Data Model (o XDM) di Adobe Experience Platform, delle modalità di composizione degli schemi Experience Event XDM e del flusso di dati in formato XDM verso Adobe Experience Platform.
 
-## Requisiti dello schema per [!DNL Journey Optimizer] Eventi  {#schema-requirements}
+## Requisiti dello schema per [!DNL Journey Optimizer] eventi  {#schema-requirements}
 
-Il primo passaggio nella configurazione di un evento per [!DNL Journey Optimizer] ha lo scopo di verificare di disporre di uno schema XDM definito per rappresentare l’evento e di un set di dati creato per registrare le istanze dell’evento su Adobe Experience Platform. Disporre di un set di dati per gli eventi non è strettamente necessario, ma l’invio di eventi a un set di dati specifico ti consentirà di mantenere la cronologia degli eventi degli utenti per riferimenti e analisi futuri, quindi è sempre una buona idea. Se non disponi già di uno schema e di un set di dati appropriati per l’evento, entrambe queste attività possono essere eseguite nell’interfaccia web di Adobe Experience Platform.
+Il primo passaggio nella configurazione di un evento per [!DNL Journey Optimizer] consiste nel verificare di disporre di uno schema XDM definito per rappresentare l&#39;evento e di un set di dati creato per registrare le istanze dell&#39;evento su Adobe Experience Platform. Disporre di un set di dati per gli eventi non è strettamente necessario, ma l’invio di eventi a un set di dati specifico ti consentirà di mantenere la cronologia degli eventi degli utenti per riferimenti e analisi futuri, quindi è sempre una buona idea. Se non disponi già di uno schema e di un set di dati appropriati per l’evento, entrambe queste attività possono essere eseguite nell’interfaccia web di Adobe Experience Platform.
 
 ![](assets/schema1.png)
 
-Qualsiasi schema XDM che verrà utilizzato per [!DNL Journey Optimizer] gli eventi devono soddisfare i seguenti requisiti:
+Qualsiasi schema XDM che verrà utilizzato per gli eventi [!DNL Journey Optimizer] deve soddisfare i seguenti requisiti:
 
 * Lo schema deve essere della classe ExperienceEvent XDM.
 
@@ -72,22 +72,22 @@ Schema di acquisto con la relazione definita nel campo ID prodotto.
 
 >[!NOTE]
 >
->Ulteriori informazioni sulle relazioni tra schemi in [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=it).
+>Ulteriori informazioni sulle relazioni tra schemi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=it).
 
 In Journey Optimizer, puoi quindi sfruttare tutti i campi delle tabelle collegate:
 
 * durante la configurazione di un evento aziendale o unitario, [Ulteriori informazioni](../event/experience-event-schema.md#unitary_event_configuration)
-* quando si utilizzano condizioni in un percorso, [Ulteriori informazioni](../event/experience-event-schema.md#journey_conditions_using_event_context)
+* quando si utilizzano le condizioni in un percorso, [Ulteriori informazioni](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * nella personalizzazione dei messaggi, [Ulteriori informazioni](../event/experience-event-schema.md#message_personalization)
-* nella personalizzazione delle azioni personalizzata, [Ulteriori informazioni](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* nella personalizzazione delle azioni personalizzate, [Ulteriori informazioni](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Matrici{#relationships_limitations}
+### Array{#relationships_limitations}
 
 Puoi definire una relazione di schema su un array di stringhe, ad esempio un elenco di ID prodotto.
 
 ![](assets/schema15.png)
 
-Puoi anche definire una relazione di schema con un attributo all’interno di un array di oggetti, ad esempio un elenco di informazioni di acquisto (ID prodotto, nome prodotto, prezzo, sconto). I valori di ricerca saranno disponibili in percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
+Puoi anche definire una relazione di schema con un attributo all’interno di un array di oggetti, ad esempio un elenco di informazioni di acquisto (ID prodotto, nome prodotto, prezzo, sconto). I valori di ricerca saranno disponibili nei percorsi (condizioni, azioni personalizzate, ecc.) e la personalizzazione dei messaggi.
 
 ![](assets/schema16.png)
 
@@ -115,7 +115,7 @@ Aggiungi una condizione in un percorso, modifica l’espressione e apri il nodo 
 
 ![](assets/schema12.png)
 
-Per informazioni su come definire le condizioni di percorso, fare riferimento a [pagina](../building-journeys/condition-activity.md).
+Per informazioni su come definire le condizioni del percorso, consulta questa [pagina](../building-journeys/condition-activity.md).
 
 ### Personalizzazione dei messaggi{#message_personalization}
 

@@ -26,14 +26,14 @@ Conversione
 
 `toDecimal(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | converte il valore stringa come decimale |
+| stringa | converte il valore stringa come decimale |
 | dateTime | converte la data in millisecondi (millisecondi epoca) |
 | booleano | converte il valore booleano come 1 se true, 0 se false |
-| numero intero | converte in un decimale (ad esempio.: 1 diventa 1,0) |
+| intero | converte in un decimale (ad esempio.: 1 diventa 1,0) |
 
 ## Firme e tipi restituiti
 

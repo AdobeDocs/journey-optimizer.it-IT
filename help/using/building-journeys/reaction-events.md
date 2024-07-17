@@ -23,7 +23,7 @@ ht-degree: 20%
 >title="Eventi di reazione"
 >abstract="Questa attività consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform."
 
-Tra le diverse attività degli eventi disponibili nella palette, troverai la **[!UICONTROL Reazioni]** evento. Questa attività consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform.
+Tra le diverse attività degli eventi disponibili nella palette, troverai l&#39;evento integrato **[!UICONTROL Reactions]**. Questa attività consente di reagire ai dati di tracciamento relativi a un messaggio inviato nello stesso percorso. Acquisiamo queste informazioni in tempo reale nel momento in cui vengono condivise con Adobe Experience Platform.
 
 Puoi reagire ai messaggi selezionati o aperti.
 
@@ -37,10 +37,10 @@ Consulta [Informazioni sulle attività di azione](../building-journeys/about-jou
 
 Di seguito sono riportati i diversi passaggi per configurare gli eventi di reazione:
 
-1. Aggiungi un **[!UICONTROL Etichetta]** alla reazione. Questo passaggio è facoltativo.
+1. Aggiungi un&#39;etichetta **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata, scegli a cosa desideri reagire.
-1. Puoi definire un timeout dell’evento (tra 40 secondi e 29 giorni) e un percorso di timeout. Questo crea un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, la modalità di test **[!UICONTROL Tempo di attesa]** il valore predefinito e minimo è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
+1. Puoi definire un timeout dell’evento (tra 40 secondi e 29 giorni) e un percorso di timeout. Questo crea un secondo percorso per i singoli utenti che non hanno reagito entro la durata definita. Durante il test di un percorso che utilizza un evento di reazione, il valore predefinito e minimo della modalità di test **[!UICONTROL Tempo di attesa]** è di 40 secondi. Consulta [questa sezione](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

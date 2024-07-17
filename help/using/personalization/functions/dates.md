@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3a4a58f8601c67e8e9a2b606a47c6b4bcc2dab05
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ Le funzioni di data e ora vengono utilizzate per eseguire operazioni di data e o
 
 ## Età{#age}
 
-Il `age` viene utilizzata per recuperare l’età da una data specificata.
+La funzione `age` viene utilizzata per recuperare l&#39;età da una data specificata.
 
 **Sintassi**
 
@@ -39,7 +39,7 @@ The following operation gets the value of the identity map for the key `example@
 
 ## Ora corrente in millisecondi{#current-time}
 
-Il `currentTimeInMillis` La funzione viene utilizzata per recuperare il tempo corrente in millisecondi epoca.
+La funzione `currentTimeInMillis` viene utilizzata per recuperare il tempo corrente in millisecondi epoca.
 
 **Sintassi**
 
@@ -59,7 +59,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 ## Differenza data{#date-diff}
 
-Il `dateDiff` La funzione viene utilizzata per recuperare la differenza tra due date in un numero di giorni.
+La funzione `dateDiff` viene utilizzata per recuperare la differenza tra due date in un numero di giorni.
 
 **Sintassi**
 
@@ -80,7 +80,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Giorno della settimana{#day-week}
 
-Il `dayOfWeek` viene utilizzata per recuperare il giorno della settimana.
+La funzione `dayOfWeek` viene utilizzata per recuperare il giorno della settimana.
 
 **Sintassi**
 
@@ -100,7 +100,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Giorno dell’anno{#day-year}
 
-Il `dayOfYear` viene utilizzata per recuperare il giorno dell’anno.
+La funzione `dayOfYear` viene utilizzata per recuperare il giorno dell&#39;anno.
 
 **Sintassi**
 
@@ -120,7 +120,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Formato data{#format-date}
 
-Il `formatDate` viene utilizzata per formattare un valore di data e ora. Il formato deve essere un pattern Java DateTimeFormat valido.
+La funzione `formatDate` viene utilizzata per formattare un valore di data e ora. Il formato deve essere un pattern Java DateTimeFormat valido.
 
 **Sintassi**
 
@@ -134,7 +134,7 @@ Dove la prima stringa è l’attributo data e il secondo valore è il modo in cu
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
-> È possibile utilizzare le funzioni di formattazione della data Java riepilogate in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> Puoi utilizzare le funzioni di formattazione della data Java riepilogate nella [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Esempio**
 
@@ -146,7 +146,7 @@ L&#39;operazione seguente restituisce la data nel formato seguente: MM/GG/AA.
 
 ## Formattare la data con il supporto delle impostazioni internazionali{#format-date-locale}
 
-Il `formatDate` La funzione viene utilizzata per formattare un valore di data e ora nella corrispondente rappresentazione sensibile alla lingua, ovvero in una lingua desiderata. Il formato deve essere un pattern Java DateTimeFormat valido.
+La funzione `formatDate` viene utilizzata per formattare un valore di data e ora nella corrispondente rappresentazione sensibile alla lingua, ovvero in una lingua desiderata. Il formato deve essere un pattern Java DateTimeFormat valido.
 
 **Sintassi**
 
@@ -160,9 +160,9 @@ Dove la prima stringa è l’attributo data, il secondo valore corrisponde al mo
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
-> È possibile utilizzare le funzioni di formattazione della data Java riepilogate in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> È possibile utilizzare le funzioni di formattazione della data Java come riepilogato in [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> È possibile utilizzare la formattazione e le lingue valide come riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+> Puoi utilizzare la formattazione e le impostazioni internazionali valide come riepilogato in [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
 
 
 **Esempio**
@@ -175,7 +175,7 @@ L&#39;operazione seguente restituisce la data nel formato seguente: MM/GG/AA e i
 
 ## Imposta giorni{#set-days}
 
-Il `setDays` viene utilizzata per impostare il giorno del mese per la data/ora specificata.
+La funzione `setDays` viene utilizzata per impostare il giorno del mese per la data/ora specificata.
 
 **Sintassi**
 
@@ -195,7 +195,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Imposta ore{#set-hours}
 
-Il `setHours` viene utilizzata per impostare l’ora della data/ora.
+La funzione `setHours` viene utilizzata per impostare l&#39;ora della data/ora.
 
 **Sintassi**
 
@@ -216,7 +216,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## A UTC{#to-utc}
 
-Il `toUTC` per convertire un datetime in UTC.
+La funzione `toUTC` viene utilizzata per convertire un datetime in UTC.
 
 
 **Sintassi**
@@ -238,7 +238,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## Settimana dell’anno UTC{#week-of-year}
 
-Il `weekOfYear` viene utilizzata per recuperare la settimana dell’anno.
+La funzione `weekOfYear` viene utilizzata per recuperare la settimana dell&#39;anno.
 
 **Sintassi**
 

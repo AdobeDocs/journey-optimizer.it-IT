@@ -26,18 +26,18 @@ Conversione
 
 `toDateTime(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
-| data e ora nel formato ISO-8601 | string |
-| id fuso orario | string |
+| data e ora nel formato ISO-8601 | stringa |
+| id fuso orario | stringa |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un’epoca in millisecondi | numero intero |
+| valore intero di un’epoca in millisecondi | intero |
 
 >[!NOTE]
 >
->L’ID del fuso orario deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+>L’ID del fuso orario deve essere una costante stringa. Non può essere un riferimento di campo né un&#39;espressione. Per ulteriori informazioni sui tipi di dati, consultare [questa pagina](../expression/data-types.md).
 
 ## Firme e tipi restituiti
 
@@ -47,7 +47,7 @@ Conversione
 
 `toDateTime(<integer>)`
 
-Restituisce un **dateTime**.
+Restituisce un valore **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -74,15 +74,15 @@ Return a datetime.
 
 `toDateTime ("2023-08-18T23:17:59.123Z")`
 
-Restituisce 2023-08-18T23:17:59,123Z
+Restituisce 2023-08-18T23:17:59.123Z
 
 `toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
 
-Restituisce 2023-08-18T23:17:59,123Z
+Restituisce 2023-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-Restituisce 2023-06-17T09:03:10,189Z
+Restituisce 2023-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 

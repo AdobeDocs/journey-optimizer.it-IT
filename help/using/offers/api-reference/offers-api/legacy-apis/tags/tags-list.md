@@ -9,7 +9,7 @@ exl-id: cc577989-198c-4e21-80e7-32ebb7a60606
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 I qualificatori di raccolta (noti in precedenza come &quot;tag&quot;) consentono di organizzare e ordinare meglio le offerte. Ad esempio, puoi etichettare le offerte del Black Friday con il qualificatore per la raccolta &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel qualificatore di raccolta.
 
-I qualificatori di raccolta possono essere utilizzati anche per raggruppare le offerte in raccolte. Per ulteriori informazioni, consulta l’esercitazione su [creazione di raccolte](../../../../offer-library/creating-collections.md).
+I qualificatori di raccolta possono essere utilizzati anche per raggruppare le offerte in raccolte. Per ulteriori informazioni, consulta l&#39;esercitazione su [creazione di raccolte](../../../../offer-library/creating-collections.md).
 
-Puoi visualizzare un elenco di tutti i qualificatori di raccolta eseguendo una singola richiesta di GET al [!DNL Offer Library] API.
+È possibile visualizzare un elenco di tutti i qualificatori di raccolta eseguendo una singola richiesta di GET all&#39;API [!DNL Offer Library].
 
 **Formato API**
 
@@ -56,7 +56,7 @@ I parametri di query più comuni per il paging includono:
 
 | Parametro | Descrizione | Esempio |
 | --------- | ----------- | ------- |
-| `property` | Un filtro proprietà facoltativo: <ul><li>Le proprietà sono raggruppate per operazione AND.</li><li>I parametri possono essere ripetuti come segue: property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] or property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Le espressioni di proprietà sono in formato `[!]field[op]value`, con `op` in `[==,!=,<=,>=,<,>,~]`, con supporto di espressioni regolari.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Un filtro proprietà facoltativo: <ul><li>Le proprietà sono raggruppate per operazione AND.</li><li>I parametri possono essere ripetuti come segue: proprietà={PROPERTY_EXPR}[&amp;proprietà={PROPERTY_EXPR2}...] o proprietà={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>Le espressioni di proprietà sono in formato `[!]field[op]value`, con `op` in `[==,!=,<=,>=,<,>,~]`, che supportano espressioni regolari.</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Ordinare i risultati per una proprietà specifica. Se si aggiunge un segno - prima del nome (orderby=-name), gli elementi verranno ordinati in base al nome in ordine decrescente (Z-A). Le espressioni di percorso sono sotto forma di percorsi separati da punti. Questo parametro può essere ripetuto come segue: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Limita il numero di entità restituite. | `limit=5` |
 

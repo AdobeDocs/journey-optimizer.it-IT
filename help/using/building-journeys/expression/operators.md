@@ -39,7 +39,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 ## Note importanti{#important-notes}
 
 * Quando si utilizza una moltiplicazione (`*`), entrambi i campi dell&#39;operazione devono avere lo stesso tipo, intero o decimale. Esempio:
-   * l’esempio seguente è corretto: `3.0 * 4.0`
+   * l&#39;esempio seguente è corretto: `3.0 * 4.0`
    * `3 * 4.0` genererà un errore
 
 ## Logico  {#logical}
@@ -50,7 +50,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-Entrambi &lt;expression1> e &lt;expression2> deve essere booleano. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
 
 Esempio:
 
@@ -64,7 +64,7 @@ Esempio:
 <expression1> or <expression2>
 ```
 
-Entrambi &lt;expression1> e &lt;expression2> deve essere booleano. Il risultato è booleano.
+Sia &lt;espressione1> che &lt;espressione2> devono essere booleani. Il risultato è booleano.
 
 Esempio:
 
@@ -78,7 +78,7 @@ Esempio:
 not <expression>
 ```
 
-&lt;expression> deve essere booleano. Il risultato è booleano.
+&lt;espressione> deve essere booleano. Il risultato è booleano.
 
 Esempio:
 
@@ -126,7 +126,7 @@ Esempio:
 <expression> has null
 ```
 
-&lt;expression> deve essere un elenco. Il risultato è booleano.
+&lt;espressione> deve essere un elenco. Il risultato è booleano.
 
 Utile per identificare che un elenco contiene almeno un valore null.
 
@@ -152,7 +152,7 @@ Restituisce false perché &quot;&quot; non è considerato nullo.
 
 >[!NOTE]
 >
->Per &lt;expression1> e &lt;expression2> non esiste alcun controllo del tipo di dati.
+>Per &lt;expression1> e &lt;expression2> non è disponibile alcun controllo del tipo di dati.
 
 Esempio:
 
@@ -172,7 +172,7 @@ Esempio:
 
 >[!NOTE]
 >
-Per &lt;expression1> e &lt;expression2> non esiste alcun controllo del tipo di dati.
+Per &lt;expression1> e &lt;expression2> non è disponibile alcun controllo del tipo di dati.
 
 Il risultato è booleano.
 
@@ -322,7 +322,7 @@ Entrambe le espressioni devono essere numeriche (numero intero o decimale).
 
 Il risultato è anche numerico.
 
-&lt;expression2> non deve essere uguale a 0 (restituisce 0).
+&lt;espressione2> non deve essere uguale a 0 (restituisce 0).
 
 Esempio:
 
@@ -368,7 +368,7 @@ Esempio:
 
 Restituisce 1.
 
-## Math {#math}
+## Matematica {#math}
 
 ### è numerico
 
@@ -434,13 +434,13 @@ Esempio:
 "the current time is " + (now())
 ```
 
-Restituisce &quot;l’ora corrente è 2023-09-23T09:30:06,693Z&quot;
+Restituisce &quot;l’ora corrente è 2023-09-23T09:30:06.693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Restituisce &quot;2023-09-23T09:30:06.693Z è l&#39;ora corrente&quot;
+Restituisce &quot;2023-09-23T09:30:06.693Z è l’ora corrente&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,22 +464,22 @@ Esempio:
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Restituisce un _dateTime_ 03/12/2023:30:30Z
+Restituisce un valore _dateTime_ 2023-12-03T15:30:30Z
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Restituisce un _dateTimeOnly_ 03/12/2023:30:30
+Restituisce un valore _dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Restituisce un _dateTime_ (con fuso orario UTC) un’ora dopo rispetto all’ora corrente
+Restituisce un valore _dateTime_ (con fuso orario UTC) un&#39;ora dopo rispetto all&#39;ora corrente
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Restituisce un _durata_ PT2H
+Restituisce un valore _duration_ PT2H

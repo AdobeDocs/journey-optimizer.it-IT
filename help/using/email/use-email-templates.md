@@ -23,31 +23,31 @@ ht-degree: 42%
 >title="Creare il contenuto da un modello"
 >abstract="Per iniziare a creare il contenuto dell’e-mail, seleziona un modello predefinito o un modello esistente personalizzato, creato da zero o salvato come modello da un’e-mail precedente."
 
-Dalla sezione **[!UICONTROL Creare l’e-mail]** schermata, utilizza **[!UICONTROL Seleziona modello struttura]** per iniziare a creare il contenuto da un modello.
+Dalla schermata **[!UICONTROL Crea e-mail]**, utilizza la sezione **[!UICONTROL Seleziona modello struttura]** per iniziare a creare il contenuto da un modello.
 
 ![](assets/email_designer-templates.png)
 
 Puoi scegliere tra:
 
-* **Modelli di esempio**. Il [!DNL Journey Optimizer] L’interfaccia offre 20 modelli e-mail preconfigurati tra cui puoi scegliere.
+* **Modelli di esempio**. L&#39;interfaccia [!DNL Journey Optimizer] offre 20 modelli di posta elettronica preconfigurati tra cui è possibile scegliere.
 
 * **Modelli salvati**. Puoi anche utilizzare un modello personalizzato che:
 
-   * Creato da zero utilizzando **[!UICONTROL Modelli di contenuto]** menu. [Ulteriori informazioni](../content-management/content-templates.md#create-template-from-scratch)
+   * Creato da zero utilizzando il menu **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#create-template-from-scratch)
 
-   * Salvato da un’e-mail in un percorso o in una campagna utilizzando **[!UICONTROL Salva come modello di contenuto]** opzione. [Ulteriori informazioni](../content-management/content-templates.md#save-as-template)
+   * Salvato da un&#39;e-mail in un percorso o in una campagna utilizzando l&#39;opzione **[!UICONTROL Salva come modello di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#save-as-template)
 
 Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui questi passaggi.
 
-1. [Accedere a E-mail Designer](get-started-email-design.md) dall’e-mail **[!UICONTROL Modifica contenuto]** schermo.
+1. [Accedi a E-mail Designer](get-started-email-design.md) dalla schermata **[!UICONTROL Modifica contenuto]**.
 
 1. Nella schermata **[!UICONTROL Crea l’e-mail]**, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
 
-1. Per utilizzare un modello personalizzato, vai al **[!UICONTROL Modelli salvati]** scheda.
+1. Per utilizzare un modello personalizzato, vai alla scheda **[!UICONTROL Modelli salvati]**.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. L’elenco di tutti [modelli di contenuto](../content-management/content-templates.md#create-content-templates) creato nella sandbox corrente. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
+1. Viene visualizzato l&#39;elenco di tutti i [modelli di contenuto](../content-management/content-templates.md#create-content-templates) creati nella sandbox corrente. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 

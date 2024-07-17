@@ -27,7 +27,7 @@ Questa documentazione fornisce informazioni dettagliate su come lavorare con la 
 
 Per creare un flusso di lavoro di composizione, effettuate le seguenti operazioni:
 
-1. Accedere a **[!UICONTROL Tipi di pubblico]** menu e seleziona **[!UICONTROL Crea pubblico]**.
+1. Accedi al menu **[!UICONTROL Tipi di pubblico]** e seleziona **[!UICONTROL Crea pubblico]**.
 
 1. Seleziona **[!UICONTROL Componi pubblico]**.
 
@@ -35,7 +35,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Genera regola]** creazione consente di creare una nuova definizione di segmento utilizzando [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
+   >Il metodo di creazione della **[!UICONTROL regola di compilazione]** ti consente di creare una nuova definizione di segmento utilizzando il [servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it).
 
 1. L’area di lavoro della composizione viene visualizzata con due attività predefinite:
 
@@ -43,7 +43,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    * **[!UICONTROL Salva]**: ultimo passaggio della composizione. Questa attività ti consente di salvare il risultato del flusso di lavoro in un nuovo pubblico.
 
-   Per ulteriori informazioni su come configurare le attività nell’area di lavoro del flusso di lavoro di composizione, consulta [Utilizzare l’area di lavoro per la composizione](composition-canvas.md).
+   Per ulteriori informazioni su come configurare le attività nell&#39;area di lavoro del flusso di lavoro composizione, fare riferimento a [Operazioni con l&#39;area di lavoro composizione](composition-canvas.md).
 
 1. Aprite le proprietà di composizione per specificare un titolo e una descrizione.
 
@@ -51,11 +51,11 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    ![](assets/audiences-properties.png)
 
-1. Configura la composizione aggiungendo tutte le attività necessarie tra **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]** attività. [Scopri come utilizzare l’area di lavoro della composizione](composition-canvas.md)
+1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. [Scopri come utilizzare l&#39;area di lavoro della composizione](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. Una volta che la composizione è pronta, fai clic su **[!UICONTROL Pubblica]** per pubblicare la composizione e salvare i tipi di pubblico risultanti in Adobe Experience Platform.
+1. Quando la composizione è pronta, fai clic sul pulsante **[!UICONTROL Publish]** per pubblicare la composizione e salvare i tipi di pubblico risultanti in Adobe Experience Platform.
 
    >[!IMPORTANT]
    >
@@ -65,7 +65,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    ![](assets/audiences-alerts.png)
 
-1. La composizione viene pubblicata. I tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e sono pronti per essere indirizzati in Journey Optimizer. [Scopri come eseguire il targeting dei tipi di pubblico in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
+1. La composizione viene pubblicata. I tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e sono pronti per essere indirizzati in Journey Optimizer. [Scopri come indirizzare i tipi di pubblico in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## Accedere alle composizioni {#access}
 
@@ -74,15 +74,15 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 >title="Pubblicare il pubblico"
 >abstract="Pubblica la composizione per salvare i segmenti di pubblico risultanti in Adobe Experience Platform."
 
-Tutte le composizioni create sono accessibili da **[!UICONTROL Composizioni]** scheda. Potete duplicare o eliminare una composizione esistente in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;elenco.
+Tutte le composizioni create sono accessibili dalla scheda **[!UICONTROL Composizioni]**. Potete duplicare o eliminare una composizione esistente in qualsiasi momento utilizzando il pulsante con i puntini di sospensione nell&#39;elenco.
 
 Le composizioni possono avere più stati:
 
 * **[!UICONTROL Bozza]**: la composizione è in corso e non è stata pubblicata.
-* **[!UICONTROL Pubblicato]**: la composizione è stata pubblicata, i tipi di pubblico risultanti sono stati salvati e sono disponibili per l’uso.
+* **[!UICONTROL Pubblicato]**: la composizione è stata pubblicata, i tipi di pubblico risultanti sono stati salvati e sono disponibili per l&#39;utilizzo.
 
 ![](assets/audiences-compositions.png)
 
 >[!NOTE]
 >
->La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili in Adobe Experience Platform [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
+>La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) di Adobe Experience Platform

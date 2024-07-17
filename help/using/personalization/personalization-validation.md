@@ -20,10 +20,10 @@ ht-degree: 2%
 
 ## Meccanismi di convalida {#validation-mechanisms}
 
-In **editor di personalizzazione** schermata, utilizza **Convalida** per controllare la sintassi di personalizzazione.
+Nella schermata dell&#39;**editor di personalizzazione**, utilizza il pulsante **Convalida** per verificare la sintassi di personalizzazione.
 
 >[!NOTE]
-> La convalida viene eseguita automaticamente quando fai clic su **Aggiungi** per chiudere la finestra dell&#39;editor.
+> La convalida viene eseguita automaticamente quando si fa clic sul pulsante **Aggiungi** per chiudere la finestra dell&#39;editor.
 >
 
 ![](assets/perso_validation1.png)
@@ -48,7 +48,7 @@ In questo caso **firstName1** non è definito come attributo nello schema del pr
 
 Quando si tenta di eseguire l’iterazione su una stringa invece che su un array:
 
-In questo caso **prodotto** non è un array:
+In questo caso **product** non è un array:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -115,7 +115,7 @@ Risorsa con ID activityID e tipo OfferActivity non trovata<br/></td>
    <td>Attributo offerta attributo offerta non valido.</td> 
    <td>Verifica se l’attributo dell’offerta a cui si fa riferimento nel pacchetto di offerta è valido. Di seguito sono riportati gli attributi validi: <br/>
 Immagine: deliveryURL, linkURL<br/>
-Testo: contenuto<br/>
+Testo: content<br/>
 HTML: content<br/></td> 
   </tr> 
  </tbody> 

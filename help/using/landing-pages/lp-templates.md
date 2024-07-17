@@ -20,7 +20,7 @@ ht-degree: 42%
 
 ## Salvare una pagina come modello {#save-as-template}
 
-Dopo aver progettato [contenuto della pagina di destinazione](lp-content.md), è possibile salvarlo per riutilizzarlo in futuro. Per farlo, segui la procedura indicata di seguito.
+Dopo aver progettato il contenuto della [pagina di destinazione](lp-content.md), puoi salvarlo per un riutilizzo futuro. Per farlo, segui la procedura indicata di seguito.
 
 1. Fai clic sui puntini di sospensione in alto a destra.
 
@@ -40,7 +40,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
 ## Utilizzare un modello salvato {#use-saved-template}
 
-1. Apri [progettazione contenuto pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati in precedenza.
+1. Apri la [finestra di progettazione del contenuto della pagina di destinazione](design-lp.md). Viene visualizzato l’elenco di tutti i modelli salvati in precedenza.
 
 1. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
@@ -52,7 +52,7 @@ La prossima volta che crei una pagina di destinazione, puoi utilizzare questo mo
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Clic **[!UICONTROL Usa questo modello]**.
+1. Fare clic su **[!UICONTROL Usa questo modello]**.
 
 1. Modifica il contenuto nel modo desiderato utilizzando il designer della pagina di destinazione.
 

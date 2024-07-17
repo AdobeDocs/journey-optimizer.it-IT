@@ -24,30 +24,30 @@ Inoltre, puoi duplicare le campagne live (eseguite una volta o con un’esecuzio
 
 ## Accedere alle campagne {#access}
 
-Le campagne sono accessibili dalla **[!UICONTROL Campagne]** menu.
+Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**.
 
-Per impostazione predefinita, l’elenco mostra tutte le campagne con **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]**, e **[!UICONTROL Live]** stati. Per visualizzare le campagne interrotte, completate e archiviate, è necessario cancellare il filtro.
+Per impostazione predefinita, l&#39;elenco mostra tutte le campagne con gli stati **[!UICONTROL Bozza]**, **[!UICONTROL Pianificato]** e **[!UICONTROL Live]**. Per visualizzare le campagne interrotte, completate e archiviate, è necessario cancellare il filtro.
 
 ![](assets/create-campaign-list.png)
 
-Inoltre, puoi filtrare l’elenco in base al tipo di campagna e al canale, o ai tag assegnati alle campagne durante la loro creazione. [Scopri come assegnare tag a una campagna](create-campaign.md#create)
+Inoltre, puoi filtrare l’elenco in base al tipo di campagna e al canale, o ai tag assegnati alle campagne durante la loro creazione. [Scopri come assegnare i tag a una campagna](create-campaign.md#create)
 
 ## Stati e avvisi delle campagne {#statuses}
 
 Le campagne possono avere più stati:
 
-* **[!UICONTROL Bozza]**: la campagna è in fase di modifica e non è stata attivata.
+* **[!UICONTROL Bozza]**: la campagna è in corso di modifica e non è stata attivata.
 * **[!UICONTROL Attivazione]**: attivazione della campagna in corso.
-* **[!UICONTROL Elaborazione]** *(solo campagne e-mail)*: l’esportazione del pubblico è stata completata, la campagna è in fase di pubblicazione.
+* **[!UICONTROL Elaborazione]** *(solo campagne e-mail)*: l&#39;esportazione del pubblico è stata completata, la campagna è in fase di pubblicazione.
 * **[!UICONTROL Live]**: la campagna è stata attivata.
 * **[!UICONTROL Pianificato]**: la campagna è configurata per essere attivata in una data di inizio specifica.
 * **[!UICONTROL Interrotto]**: la campagna è stata interrotta manualmente. Non è più possibile attivarla o riutilizzarla. [Scopri come interrompere una campagna](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completato]**: campagna completata. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna o alla data di fine della campagna, se questa ha un’esecuzione ricorrente.
-* **[!UICONTROL Archiviato]**: la campagna è stata archiviazione. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
+* **[!UICONTROL Completata]**: campagna completata. Questo stato viene assegnato automaticamente 3 giorni dopo l’attivazione di una campagna o alla data di fine della campagna, se questa ha un’esecuzione ricorrente.
+* **[!UICONTROL Archiviata]**: la campagna è stata archiviata. [Scopri come archiviare le campagne](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >
->L’icona &quot;Apri versione bozza&quot; accanto a una **[!UICONTROL Live]** o **[!UICONTROL Pianificato]** Lo stato indica che è stata creata una nuova versione della campagna, che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
+>L&#39;icona &quot;Open draft version&quot; (Apri versione bozza) accanto allo stato **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** indica che è stata creata una nuova versione della campagna e che non è ancora stata attivata. [Ulteriori informazioni](modify-stop-campaign.md#modify).
 
 Quando si verifica un errore all’interno di una delle campagne, accanto allo stato della campagna viene visualizzata un’icona di avviso. Fai clic su di esso per visualizzare le informazioni relative all’avviso. Questi avvisi possono verificarsi in varie situazioni, ad esempio quando il messaggio della campagna non è stato pubblicato o se la superficie scelta non è corretta.
 
@@ -57,17 +57,17 @@ Quando si verifica un errore all’interno di una delle campagne, accanto allo s
 
 Per modificare e creare una nuova versione di una campagna ricorrente, effettua le seguenti operazioni:
 
-1. Apri la campagna, quindi fai clic su **[!UICONTROL Modifica campagna]** pulsante.
+1. Apri la campagna, quindi fai clic sul pulsante **[!UICONTROL Modifica campagna]**.
 
 1. Viene creata una nuova versione della campagna. Puoi controllare la versione live facendo clic su **[!UICONTROL Apri versione live]**.
 
    ![](assets/create-campaign-draft.png)
 
-   Nell’elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un’icona specifica nella sezione **[!UICONTROL Stato]** colonna. Fai clic su questa icona per aprire la versione bozza della campagna.
+   Nell&#39;elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un&#39;icona specifica nella colonna **[!UICONTROL Stato]**. Fai clic su questa icona per aprire la versione bozza della campagna.
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Quando le modifiche sono pronte, puoi attivare la nuova versione della campagna (vedi [Rivedere e attivare una campagna](create-campaign.md#review-activate)).
+1. Quando le modifiche sono pronte, puoi attivare la nuova versione della campagna (vedi [Rivedi e attiva una campagna](create-campaign.md#review-activate)).
 
    >[!IMPORTANT]
    >
@@ -75,7 +75,7 @@ Per modificare e creare una nuova versione di una campagna ricorrente, effettua 
 
 ## Interrompere una campagna ricorrente {#stop}
 
-Per interrompere una campagna ricorrente, aprila e fai clic su **[!UICONTROL Interrompi campagna]** pulsante.
+Per interrompere una campagna ricorrente, aprirla e fare clic sul pulsante **[!UICONTROL Interrompi campagna]**.
 
 ![](assets/create-campaign-stop.png)
 
@@ -87,7 +87,7 @@ Per interrompere una campagna ricorrente, aprila e fai clic su **[!UICONTROL Int
 
 ## Duplicare una campagna {#duplicate}
 
-Puoi duplicare una campagna live per crearne una nuova. A questo scopo, apri la campagna, quindi fai clic su **[!UICONTROL Duplica]**.
+Puoi duplicare una campagna live per crearne una nuova. Per eseguire questa operazione, aprire la campagna, quindi fare clic su **[!UICONTROL Duplica]**.
 
 ![](assets/create-campaign-duplicate.png)
 

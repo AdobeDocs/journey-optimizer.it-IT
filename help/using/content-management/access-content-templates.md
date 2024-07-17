@@ -18,11 +18,11 @@ ht-degree: 7%
 
 ## Accedere ai modelli di contenuto {#access}
 
-Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Modelli di contenuto]** dal menu a sinistra.
+Per accedere all&#39;elenco dei modelli di contenuto, selezionare **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli di contenuto]** dal menu a sinistra.
 
 ![](assets/content-template-list.png)
 
-Tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna utilizzando **[!UICONTROL Salva come modello]** opzione, dal menu **[!UICONTROL Modelli di contenuto]** menu -. [Scopri come creare modelli](#create-content-templates)
+Vengono visualizzati tutti i modelli creati nella sandbox corrente, da un percorso o da una campagna tramite l&#39;opzione **[!UICONTROL Salva come modello]**, nel menu **[!UICONTROL Modelli di contenuto]**. [Scopri come creare i modelli](#create-content-templates)
 
 Puoi ordinare i modelli di contenuto in base a:
 * Tipo
@@ -40,7 +40,7 @@ Puoi anche scegliere di visualizzare solo gli elementi creati o modificati perso
 
   ![](assets/content-template-edit.png)
 
-* Per eliminare un modello, selezionare **[!UICONTROL Altre azioni]** accanto al modello desiderato e seleziona **[!UICONTROL Elimina]**.
+* Per eliminare un modello, seleziona il pulsante **[!UICONTROL Altre azioni]** accanto al modello desiderato, quindi seleziona **[!UICONTROL Elimina]**.
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ Puoi anche scegliere di visualizzare solo gli elementi creati o modificati perso
 
 ## Visualizza modelli come miniature {#template-thumbnails}
 
-Seleziona la **[!UICONTROL Vista griglia]** per visualizzare ogni modello come miniatura.
+Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizzare ogni modello come miniatura.
 
 >[!AVAILABILITY]
 >

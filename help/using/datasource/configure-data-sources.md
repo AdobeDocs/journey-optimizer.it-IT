@@ -24,11 +24,11 @@ ht-degree: 8%
 
 Per configurare un’origine dati, effettua le seguenti operazioni:
 
-1. Nella sezione del menu ADMINISTRATION, selezionare **[!UICONTROL Configurazioni]**. In  **[!UICONTROL Origini dati]** , fare clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle origini dati. Consulta [questa pagina](../start/user-interface.md) per ulteriori informazioni sull’interfaccia.
+1. Nella sezione del menu AMMINISTRAZIONE, selezionare **[!UICONTROL Configurazioni]**. Nella sezione **[!UICONTROL Origini dati]** fare clic su **[!UICONTROL Gestisci]**. Viene visualizzato l’elenco delle origini dati. Per ulteriori informazioni sull&#39;interfaccia, vedere [questa pagina](../start/user-interface.md).
 
    ![](assets/journey18.png)
 
-1. È quindi possibile aggiungere gruppi di campi all&#39;origine dati incorporata (vedere [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o creare una nuova origine dati esterna (vedere [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedere [questa pagina](../datasource/configure-data-sources.md#define-field-groups)).
+1. Quindi puoi aggiungere gruppi di campi all&#39;origine dati incorporata (vedi [questa pagina](../datasource/adobe-experience-platform-data-source.md)) o creare una nuova origine dati esterna (vedi [questa pagina](../datasource/external-data-sources.md)) e i gruppi di campi associati (vedi [questa pagina](../datasource/configure-data-sources.md#define-field-groups)).
 
    ![](assets/journey23.png)
 
@@ -48,7 +48,7 @@ Anche se viene aggiunto automaticamente un nome predefinito, è consigliabile as
 
 Quando un campo origine dati viene utilizzato in un percorso, vengono recuperati tutti i campi definiti per tale gruppo di campi. Pertanto, è consigliabile selezionare solo i campi necessari per i percorsi. Questo ridurrà la latenza delle richieste nei percorsi, aumentando così le prestazioni. In seguito è possibile aggiungere facilmente altri campi nei gruppi di campi.
 
-Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nel **[!UICONTROL Utilizzato in]** campo. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo gruppo di campi.
+Il numero di percorsi che utilizzano un gruppo di campi viene visualizzato nel campo **[!UICONTROL Usato in]**. È possibile fare clic sul pulsante **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo gruppo di campi.
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Puoi aggiungere ma non rimuovere un campo da un gruppo di campi utilizzato in un
 
 Per eliminare un campo da un gruppo di campi utilizzato in uno o più percorsi, eseguire la procedura seguente. Utilizziamo un esempio di gruppo di campi denominato &quot;Gruppo di campi A&quot;.
 
-1. Nell&#39;elenco dei gruppi di campi posizionare il cursore sul gruppo di campi A e fare clic sul pulsante **[!UICONTROL Duplica]** a destra. Ad esempio, assegna al gruppo di campi duplicato il nome &quot;Gruppo di campi B&quot;.
+1. Nell&#39;elenco dei gruppi di campi, posizionare il cursore su &quot;Gruppo di campi A&quot; e fare clic sull&#39;icona **[!UICONTROL Duplica]** situata a destra. Ad esempio, assegna al gruppo di campi duplicato il nome &quot;Gruppo di campi B&quot;.
 1. In &quot;Gruppo di campi B&quot;, rimuovere i campi non più desiderati.
-1. In &quot;Gruppo di campi A&quot;, verificare dove viene utilizzato questo gruppo di campi. Queste informazioni vengono visualizzate nel **[!UICONTROL Utilizzato in]** campo.
+1. In &quot;Gruppo di campi A&quot;, verificare dove viene utilizzato questo gruppo di campi. Queste informazioni sono visualizzate nel campo **[!UICONTROL Usato in]**.
 1. Aprire tutti i percorsi che utilizzano &quot;Gruppo di campi A&quot;.
 1. Crea nuove versioni di ciascuno di questi percorsi. Modificare tutte le attività utilizzando &quot;Gruppo di campi A&quot; e selezionare &quot;Gruppo di campi B&quot;.
 1. Interrompere le versioni precedenti dei percorsi che utilizzano &quot;Gruppo di campi A&quot;. In questo caso non dovrebbe esistere alcun percorso che utilizzi &quot;Gruppo di campi A&quot;.

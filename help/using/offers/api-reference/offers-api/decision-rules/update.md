@@ -9,19 +9,19 @@ exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
 # Aggiornare una regola di decisione {#update-decision-rule}
 
-Puoi modificare o aggiornare le regole di decisione effettuando una richiesta PATCH al [!DNL Offer Library] API.
+È possibile modificare o aggiornare le regole di decisione effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che costituiscono il campo *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |

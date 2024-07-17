@@ -60,15 +60,15 @@ ht-degree: 60%
 >abstract="Designer consente di definire facilmente il layout del modello definendone la struttura a colonne."
 
 
-Utilizza Adobe Journey Optimizer Designer per definire facilmente la struttura del contenuto. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, è possibile progettare la forma del contenuto in pochi secondi.
+Utilizza Adobe Journey Optimizer Designer per definire facilmente la struttura dei contenuti. Aggiungendo e spostando elementi strutturali con semplici azioni di trascinamento della selezione, è possibile progettare la forma del contenuto in pochi secondi.
 
 Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
-1. Dalla pagina Home di Designer, seleziona la **[!UICONTROL Progettare da zero]** opzione.
+1. Dalla home page di Designer, selezionare l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
    ![](assets/email_designer.png)
 
-1. Inizia a progettare il contenuto trascinando la selezione **[!UICONTROL Strutture]** nell’area di lavoro per definire il layout dell’e-mail.
+1. Inizia a progettare il contenuto trascinando **[!UICONTROL Strutture]** nell&#39;area di lavoro per definire il layout dell&#39;e-mail.
 
    >[!NOTE]
    >
@@ -86,13 +86,13 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
    >
    >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
 
-1. Espandi **[!UICONTROL Sommario]** e aggiungi tutti gli elementi necessari in uno o più componenti della struttura. [Ulteriori informazioni sui componenti contenuto](content-components.md)
+1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti gli elementi necessari in uno o più componenti della struttura. [Ulteriori informazioni sui componenti contenuto](content-components.md)
 
-1. Ogni componente può essere ulteriormente personalizzato utilizzando **[!UICONTROL Impostazioni]** o **[!UICONTROL Stile]** nel menu di destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
+1. Ogni componente può essere ulteriormente personalizzato utilizzando le schede **[!UICONTROL Impostazioni]** o **[!UICONTROL Stile]** nel menu di destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. Dalla sezione **[!UICONTROL Selettore risorse]**, puoi selezionare direttamente le risorse memorizzate in **[!UICONTROL Libreria risorse]**. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets.md)
+1. Dal **[!UICONTROL selettore risorse]**, puoi selezionare direttamente le risorse archiviate nella **[!UICONTROL libreria Assets]**. [Ulteriori informazioni sulla gestione delle risorse](../content-management/assets.md)
 
    Fai doppio clic sulla cartella che contiene le risorse. Trascinali e rilasciali in un componente struttura.
 
@@ -102,11 +102,11 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
    ![](assets/email_designer_personalization.png)
 
-1. Clic **[!UICONTROL Abilita contenuto condizione]** per aggiungere contenuto dinamico e adattarlo ai profili target in base a regole condizionali. [Introduzione ai contenuti dinamici](../personalization/get-started-dynamic-content.md)
+1. Fai clic su **[!UICONTROL Abilita contenuto condizione]** per aggiungere contenuto dinamico e adattare il contenuto ai profili target in base alle regole condizionali. [Introduzione ai contenuti dinamici](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Fai clic sulla scheda **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare tutti gli URL del contenuto che saranno tracciati. È possibile modificare i **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungi **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni su collegamenti e tracciamento](message-tracking.md)
+1. Fai clic sulla scheda **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare tutti gli URL del contenuto che saranno tracciati. Puoi modificare il **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni su collegamenti e monitoraggio](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
@@ -116,7 +116,7 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
    >
    >Dopo il passaggio all’editor di codice, per l’e-mail corrente non è possibile tornare al designer visivo.
 
-1. Quando il contenuto è pronto, fai clic su **[!UICONTROL Simula contenuto]** per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate su come selezionare i profili di test e visualizzare in anteprima i contenuti sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md) sezione.
+1. Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per verificare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
 

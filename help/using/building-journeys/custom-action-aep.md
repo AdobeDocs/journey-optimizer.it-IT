@@ -15,19 +15,19 @@ ht-degree: 0%
 
 ---
 
-# Caso d’uso: utilizzare azioni personalizzate per scrivere eventi di Percorso in Experienci Platform{#custom-action-aep}
+# Caso d’uso: utilizzare azioni personalizzate per scrivere eventi di Percorso in Experience Platform{#custom-action-aep}
 
 Questo caso d’uso spiega come scrivere eventi personalizzati in Adobe Experience Platform da Percorsi utilizzando Azioni personalizzate e chiamate autenticate.
 
 ## Configurare un progetto I/O
 
-1. Dalla console Adobe Developer, fai clic su **Progetto** e aprire il progetto I/O.
+1. Da Adobe Developer Console, fai clic su **Progetto** e apri il progetto di I/O.
 
-1. In **Credenziali** , fare clic su **OAuth Server-to-Server**.
+1. Nella sezione **Credenziali**, fai clic su **OAuth Server-to-Server**.
 
    ![](assets/custom-action-aep-1.png)
 
-1. Clic **Visualizza comando cURL**.
+1. Fare clic su **Visualizza comando cURL**.
 
    ![](assets/custom-action-aep-2.png)
 
@@ -39,21 +39,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Dopo aver creato il progetto nella console Adobe Developer, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Per ulteriori informazioni, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Dopo aver creato il progetto su Adobe Developer Console, assicurati di concedere agli sviluppatori e al controllo dell’accesso API le autorizzazioni appropriate. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
-## Configurare l’origine utilizzando l’ingresso API HTTP
+## Configurare Source utilizzando l’ingresso API HTTP
 
 1. Crea un endpoint in Adobe Experience Platform per scrivere i dati dai percorsi.
 
-1. In Adobe Experience Platform, fai clic su **Sorgenti**, in **Connessioni** nel menu a sinistra. Sotto **API HTTP**, fai clic su **Aggiungi dati**.
+1. In Adobe Experience Platform, fai clic su **Origini**, in **Connessioni** nel menu a sinistra. In **API HTTP**, fare clic su **Aggiungi dati**.
 
    ![](assets/custom-action-aep-3.png)
 
-1. Seleziona **Nuovo account** e abilitare l’autenticazione. Fai clic su **Connetti all&#39;origine**.
+1. Seleziona **Nuovo account** e abilita l&#39;autenticazione. Fai clic su **Connetti a Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Fai clic su **Successivo** e seleziona il Set di dati in cui desideri scrivere i dati. Clic **Successivo** e **Fine**.
+1. Fai clic su **Avanti** e seleziona il set di dati in cui desideri scrivere i dati. Fai clic su **Avanti** e **Fine**.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -96,7 +96,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ## Configurare l’azione personalizzata
 
-1. Apri Adobe Journey Optimizer e fai clic su **Configurazioni**, in **Amministrazione** nel menu a sinistra. Sotto **Azioni**, fai clic su **Gestisci** e fai clic su **Crea azione**.
+1. Apri Adobe Journey Optimizer e fai clic su **Configurazioni**, in **Amministrazione** nel menu a sinistra. In **Azioni**, fai clic su **Gestisci** e poi su **Crea azione**.
 
 1. Imposta l’URL e seleziona il metodo Post.
 
@@ -108,7 +108,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 ### Impostare l’autenticazione
 
-1. Seleziona la **Tipo** as **Personalizzato** con il seguente payload.
+1. Seleziona **Tipo** come **Personalizzato** con il seguente payload.
 
 1. Incollare client_secret, client_id, scope e grant_type dal payload del progetto IO utilizzato in precedenza.
 
@@ -136,13 +136,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Utilizza il **Fai clic per verificare l’autenticazione** per verificare la connessione.
+1. Utilizza **Fare clic per verificare l&#39;autenticazione** per verificare la connessione.
 
    ![](assets/custom-action-aep-8.png)
 
 ### Impostare il payload
 
-1. In **Richiesta** e **Risposta** , incolla il payload dalla connessione di origine utilizzata in precedenza.
+1. Nei campi **Richiesta** e **Risposta**, incolla il payload dalla connessione di origine utilizzata in precedenza.
 
    ```
    {

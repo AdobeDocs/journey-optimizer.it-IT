@@ -9,17 +9,17 @@ exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
 # Aggiornare una regola di decisione {#update-decision-rule}
 
-Per creare un’offerta di fallback, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+È possibile creare un&#39;offerta di fallback effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -60,7 +60,7 @@ curl -X PATCH \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati della regola di decisione, inclusi l’ID istanza univoco e la regola di decisione `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati della regola di decisione, inclusi l&#39;ID istanza univoco e la regola di decisione `@id`.
 
 
 ```json

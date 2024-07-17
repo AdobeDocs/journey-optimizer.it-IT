@@ -21,7 +21,7 @@ Le funzioni booleane vengono utilizzate per eseguire la logica booleana su eleme
 
 ### E{#and}
 
-Il `and` per creare una congiunzione logica.
+La funzione `and` viene utilizzata per creare una congiunzione logica.
 
 **Sintassi**
 
@@ -39,7 +39,7 @@ L&#39;operazione seguente restituirà tutte le persone con paese di origine come
 
 ### Oppure{#or}
 
-Il `or` viene utilizzata per creare una disgiunzione logica.
+La funzione `or` viene utilizzata per creare una disgiunzione logica.
 
 **Sintassi**
 
@@ -80,9 +80,9 @@ not (homeAddress.countryISO = "CA")
 
 Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori diversi, restituendo di conseguenza true o false.
 
-### È uguale a{#equals}
+### Uguale a{#equals}
 
-Il `=` (uguale a) controlla se un valore o un&#39;espressione è uguale a un altro valore o espressione.
+La funzione `=` (è uguale a) controlla se un valore o un&#39;espressione è uguale a un altro valore o espressione.
 
 **Sintassi**
 
@@ -100,7 +100,7 @@ L&#39;operazione seguente verifica se il paese di residenza è la Francia.
 
 ### Non uguale{#notequal}
 
-Il `!=` (diverso da) controlla se un valore o un’espressione è **non** uguale a un altro valore o espressione.
+La funzione `!=` (diverso da) controlla se un valore o un&#39;espressione è **diverso** uguale a un altro valore o espressione.
 
 **Sintassi**
 
@@ -118,7 +118,7 @@ L&#39;operazione seguente verifica se l&#39;indirizzo del paese di origine non �
 
 ### Maggiore di{#greaterthan}
 
-Il `>` (maggiore di) per verificare se il primo valore è maggiore del secondo valore.
+La funzione `>` (maggiore di) viene utilizzata per verificare se il primo valore è maggiore del secondo valore.
 
 **Sintassi**
 
@@ -136,7 +136,7 @@ L&#39;operazione seguente definisce le persone nate rigorosamente dopo il 1970.
 
 ### Maggiore o uguale a{#greaterthanorequal}
 
-Il `>=` (maggiore o uguale a) per verificare se il primo valore è maggiore o uguale al secondo valore.
+La funzione `>=` (maggiore o uguale a) viene utilizzata per verificare se il primo valore è maggiore o uguale al secondo valore.
 
 **Sintassi**
 
@@ -154,7 +154,7 @@ L&#39;operazione seguente definisce le persone nate nel 1970 o dopo di esso.
 
 ### Minore di{#lessthan}
 
-Il `<` La funzione di confronto (minore di) viene utilizzata per verificare se il primo valore è minore del secondo valore.
+La funzione di confronto `<` (minore di) viene utilizzata per verificare se il primo valore è minore del secondo valore.
 
 **Sintassi**
 
@@ -172,7 +172,7 @@ L&#39;operazione seguente definisce le persone nate prima del 2000.
 
 ### Minore o uguale a{#lessthanorequal}
 
-Il `<=` (minore o uguale a) per verificare se il primo valore è minore o uguale al secondo valore.
+La funzione di confronto `<=` (minore o uguale a) viene utilizzata per verificare se il primo valore è minore o uguale al secondo valore.
 
 **Sintassi**
 
@@ -188,4 +188,4 @@ L&#39;operazione seguente definisce le persone nate nel 2000 o prima.
 {%= profile.person.birthYear <= 2000 %}
 ```
 
-**Operazioni con i numeri**
+**Operazioni con numeri**

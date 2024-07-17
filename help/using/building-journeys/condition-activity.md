@@ -25,9 +25,9 @@ ht-degree: 17%
 
 Sono disponibili i seguenti tipi di condizioni:
 
-* [Condizione origine dati](#data_source_condition)
+* [Condizione Data Source](#data_source_condition)
 * [Condizione temporale](#time_condition)
-* [Suddivisione percentuale](#percentage_split)
+* [Divisione percentuale](#percentage_split)
 * [Condizione data](#date_condition)
 * [Limite del profilo](#profile_cap)
 
@@ -42,7 +42,7 @@ Sono disponibili i seguenti tipi di condizioni:
 
 Quando utilizzi più condizioni in un percorso, puoi definire le etichette per ciascuna di esse in modo da identificarle più facilmente.
 
-Clic **[!UICONTROL Aggiungi un percorso]** se desideri definire diverse condizioni. Per ogni condizione, nell’area di lavoro viene aggiunto un nuovo percorso dopo l’attività.
+Fare clic su **[!UICONTROL Aggiungi un percorso]** se si desidera definire più condizioni. Per ogni condizione, nell’area di lavoro viene aggiunto un nuovo percorso dopo l’attività.
 
 ![](assets/journey47.png)
 
@@ -52,7 +52,7 @@ Ad esempio, prendiamo l’esempio di una condizione del primo percorso &quot;La 
 
 ![](assets/journey48.png)
 
-Puoi creare un altro percorso per i tipi di pubblico che non sono idonei alle condizioni definite selezionando **[!UICONTROL Mostra percorso per casi diversi da quelli sopra]**. Questa opzione non è disponibile in condizioni di suddivisione. Consulta [Suddivisione percentuale](#percentage_split).
+Puoi creare un altro percorso per i tipi di pubblico non idonei alle condizioni definite selezionando **[!UICONTROL Mostra percorso per casi diversi da quelli sopra]**. Questa opzione non è disponibile in condizioni di suddivisione. Vedi [Divisione percentuale](#percentage_split).
 
 La modalità semplice consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. Trascina i campi nell’area principale. Per combinare i diversi elementi, puoi unirli per creare diversi gruppi e/o livelli di gruppo. Puoi quindi selezionare un operatore logico per combinare elementi sullo stesso livello:
 
@@ -61,18 +61,18 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![](assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Fai riferimento a [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
 >
 >Non è possibile eseguire query sulle serie temporali (ad esempio un elenco di acquisti, clic sui messaggi passati) con l’editor semplice. A questo scopo, dovrai utilizzare l’editor avanzato. Consulta [questa pagina](expression/expressionadvanced.md).
 
-Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L’unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
+Quando si verifica un errore in un’azione o in una condizione, il percorso di un singolo utente si arresta. L&#39;unico modo per far sì che continui è selezionare la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]**. Consulta [questa sezione](../building-journeys/using-the-journey-designer.md#paths).
 
 Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le categorie evento e origine dati. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni che il sistema recupera dai percorsi in tempo reale, ad esempio l’ID percorso o specifici errori rilevati. [Ulteriori informazioni](expression/journey-properties.md)
 
-## Condizione origine dati {#data_source_condition}
+## Condizione Data Source {#data_source_condition}
 
 Questo consente di definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Scopri come utilizzare l’editor di espressioni in [questa sezione](expression/expressionadvanced.md).
 
@@ -100,7 +100,7 @@ Sono disponibili tre opzioni di filtro dell’ora:
 
 ## Suddivisione percentuale {#percentage_split}
 
-Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Questa opzione consente di suddividere in modo casuale il pubblico per definire un’azione diversa per ciascun gruppo. Definisci il numero di divisioni e la partizione per ciascun percorso. Il calcolo della suddivisione è statistico in quanto il sistema non è in grado di prevedere quante persone scorreranno in questa attività del percorso. Di conseguenza, la suddivisione presenta un margine di errore molto basso. Questa funzione si basa su un meccanismo casuale Java (vedi questa [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 In modalità di test, quando si raggiunge una suddivisione, viene sempre scelto il ramo superiore. Se vuoi che il test scelga un percorso diverso, puoi riorganizzare la posizione dei rami divisi. Consulta [questa pagina](../building-journeys/testing-the-journey.md)
 
@@ -153,16 +153,16 @@ Questa sezione spiega come utilizzare un pubblico in una condizione di percorso.
 
 Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti operazioni:
 
-1. Apri un percorso, rilascia una **[!UICONTROL Condizione]** e scegli la **Condizione origine dati**.
+1. Apri un percorso, rilascia un&#39;attività **[!UICONTROL Condizione]** e scegli la **Condizione Source dati**.
 
    ![](assets/segment3.png)
 
-1. Clic **[!UICONTROL Aggiungi un percorso]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fai clic su **[!UICONTROL Espressione]** campo.
+1. Fai clic su **[!UICONTROL Aggiungi un percorso]** per ogni percorso aggiuntivo necessario. Per ogni percorso, fare clic sul campo **[!UICONTROL Espressione]**.
 
-1. Sul lato sinistro, apri **[!UICONTROL Tipi di pubblico]** nodo. Trascina e rilascia il pubblico da utilizzare per la condizione. Per impostazione predefinita, la condizione sul pubblico è true.
+1. Sul lato sinistro, apri il nodo **[!UICONTROL Tipi di pubblico]**. Trascina e rilascia il pubblico da utilizzare per la condizione. Per impostazione predefinita, la condizione sul pubblico è true.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Tieni presente che solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione del pubblico verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** e **Esistente** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

@@ -26,15 +26,15 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
 
 ➡️ [Scopri come creare tipi di pubblico in questo video](#video-segment)
 
-1. Dalla sezione **[!UICONTROL Tipi di pubblico]** , fare clic sul pulsante **[!UICONTROL Creare un pubblico]** e seleziona **[!UICONTROL Genera regola]**.
+1. Dal menu **[!UICONTROL Tipi di pubblico]**, fai clic sul pulsante **[!UICONTROL Crea pubblico]** e seleziona **[!UICONTROL Genera regola]**.
 
    ![](assets/create-segment.png)
 
-   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico in [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"}.
+   La schermata di definizione del segmento ti consente di configurare tutti i campi obbligatori per definire il pubblico. Scopri come configurare i tipi di pubblico nella [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
-1. In **[!UICONTROL Proprietà del pubblico]** , fornisci un nome e una descrizione (facoltativa) per il pubblico.
+1. Nel riquadro **[!UICONTROL Proprietà pubblico]**, fornisci un nome e una descrizione (facoltativa) per il pubblico.
 
    ![](assets/segment-properties.png)
 
@@ -42,17 +42,17 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
 
    >[!NOTE]
    >
-   >I campi disponibili nel riquadro a sinistra variano a seconda del modo in cui **Profilo individuale XDM** e **XDM ExperienceEvent** Gli schemi sono stati configurati per la tua organizzazione.  Per ulteriori informazioni, consulta [Documentazione di Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+   >I campi disponibili nel riquadro a sinistra variano a seconda della configurazione degli schemi **XDM Individual Profile** e **XDM ExperienceEvent** per la tua organizzazione.  Ulteriori informazioni sono disponibili nella [documentazione di Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
    ![](assets/drag-fields.png)
 
-   In questo esempio, dobbiamo affidarci a **Attributi** e **Eventi** campi per creare il pubblico:
+   In questo esempio, per creare il pubblico, è necessario basarsi sui campi **Attributi** e **Eventi**:
 
    * **Attributi**: profili che vivono ad Atlanta, San Francisco o Seattle nati dopo il 1980
 
      ![](assets/add-attributes.png)
 
-   * **Eventi**: profili che hanno aperto l’applicazione Luma negli ultimi 7 giorni e che hanno poi effettuato un acquisto entro 2 ore dall’apertura dell’applicazione.
+   * **Eventi**: profili che hanno aperto l’applicazione Luma negli ultimi 7 giorni e che hanno effettuato un acquisto entro 2 ore dall’apertura dell’applicazione.
 
      ![](assets/add-events.png)
 
@@ -60,7 +60,7 @@ In questo esempio, creeremo un pubblico per rivolgerci a tutti i clienti che viv
      >
      >L’Adobe consiglia di non utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole di business anziché inviare eventi. [Ulteriori informazioni](about-audiences.md#open-and-send-event-guardrails)
 
-1. Durante l’aggiunta e la configurazione di nuovi campi nell’area di lavoro, il **[!UICONTROL Proprietà pubblico]** viene aggiornato automaticamente con le informazioni sui profili stimati appartenenti al pubblico.
+1. Durante l&#39;aggiunta e la configurazione di nuovi campi nell&#39;area di lavoro, il riquadro **[!UICONTROL Proprietà pubblico]** viene aggiornato automaticamente con informazioni sui profili stimati appartenenti al pubblico.
 
    ![](assets/segment-estimate.png)
 

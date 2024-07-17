@@ -16,15 +16,15 @@ ht-degree: 5%
 ---
 
 
-# Gestione dell’ingresso nel profilo {#entry-management}
+# Gestione dell’ingresso del profilo {#entry-management}
 
 La gestione dell’entrata del profilo dipende dal tipo di percorso. In Adobe Journey Optimizer sono disponibili i seguenti tipi di percorsi:
 
-* **Evento unitario** percorsi: questi percorsi iniziano con un evento Unitario. Quando l’evento viene ricevuto, il profilo associato entra nel percorso. [Ulteriori informazioni](#entry-unitary)
+* **Evento unitario** percorsi: questi percorsi iniziano con un evento unitario. Quando l’evento viene ricevuto, il profilo associato entra nel percorso. [Ulteriori informazioni](#entry-unitary)
 
-* **Evento di business** percorsi: questi percorsi iniziano con un evento Business immediatamente seguito da un **Read audience** attività. Quando l’evento viene ricevuto, i profili appartenenti al pubblico di destinazione entrano nel percorso. Viene creata un’istanza di questo percorso per ogni profilo. [Ulteriori informazioni](#entry-business)
+* **Evento di business** percorsi: questi percorsi iniziano con un evento di business immediatamente seguito da un&#39;attività **Read audience**. Quando l’evento viene ricevuto, i profili appartenenti al pubblico di destinazione entrano nel percorso. Viene creata un’istanza di questo percorso per ogni profilo. [Ulteriori informazioni](#entry-business)
 
-* **Read audience** percorsi: questi percorsi iniziano con **Read audience** attività. Quando il percorso viene eseguito, i profili appartenenti al pubblico di destinazione entrano nel percorso. Viene creata un’istanza di questo percorso per ogni profilo. Questi percorsi possono essere ricorrenti o &quot;one-shot&quot;. [Ulteriori informazioni](#entry-read-audience)
+* **Read audience** percorsi: questi percorsi iniziano con un&#39;attività **Read audience**. Quando il percorso viene eseguito, i profili appartenenti al pubblico di destinazione entrano nel percorso. Viene creata un’istanza di questo percorso per ogni profilo. Questi percorsi possono essere ricorrenti o &quot;one-shot&quot;. [Ulteriori informazioni](#entry-read-audience)
 
 * **Qualificazione del pubblico** percorsi: questi percorsi iniziano con un evento di qualificazione del pubblico. Questi percorsi ascoltano le entrate e le uscite dei profili nei tipi di pubblico. In questo caso, il profilo associato entra nel percorso. [Ulteriori informazioni](#entry-unitary)
 
@@ -32,13 +32,13 @@ In tutti i tipi di percorso, un profilo non può essere presente più volte nell
 
 ## Percorsi unitari di qualificazione di eventi e pubblico{#entry-unitary}
 
-In entrata **Evento unitario** e **Qualificazione del pubblico** percorsi, puoi abilitare o disabilitare il rientro:
+In **Evento unitario** e **Qualificazione del pubblico** percorsi, puoi abilitare o disabilitare il rientro:
 
 * Se è abilitato il rientro, un profilo può entrare in un percorso diverse volte, ma non può farlo finché non è completamente uscito dall’istanza precedente del percorso.
 
 * Se il rientro è disattivato, un profilo non può entrare più volte nello stesso percorso, entro il periodo di timeout del percorso globale. Consulta questa [sezione](../building-journeys/journey-properties.md#global_timeout).
 
-Per impostazione predefinita, i percorsi consentono il rientro. Quando **Consenti rientro** è attivata, la **Periodo di attesa per rientro** viene visualizzato. Consente di definire il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso. In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 91 giorni ([timeout globale](journey-properties.md#global_timeout)).
+Per impostazione predefinita, i percorsi consentono il rientro. Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il campo **Periodo di attesa rientro**. Consente di definire il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso. In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 91 giorni ([timeout globale](journey-properties.md#global_timeout)).
 
 <!--
 When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. 
@@ -57,7 +57,7 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-In entrata **Percorsi lavorativi**, per consentire più esecuzioni di eventi business, attiva l’opzione corrispondente nella **[!UICONTROL Esecuzione]** della sezione delle proprietà del percorso.
+In **percorsi lavorativi**, per consentire più esecuzioni di eventi aziendali, attiva l&#39;opzione corrispondente nella sezione **[!UICONTROL Esecuzione]** delle proprietà del percorso.
 
 ![](assets/business-entry.png)
 
@@ -69,7 +69,7 @@ Per ulteriori informazioni, consulta questa [sezione](../event/about-creating-bu
 
 ## Leggi percorsi di pubblico {#entry-read-audience}
 
-**Read audience** I percorsi possono essere ricorrenti o &quot;one-shot&quot;:
+**Read audience** i percorsi possono essere ricorrenti o &quot;one-shot&quot;:
 
 * Per percorsi non ricorrenti/&quot;one-shot&quot;: il profilo entra una sola volta nel percorso.
 
@@ -77,13 +77,13 @@ Per ulteriori informazioni, consulta questa [sezione](../event/about-creating-bu
 
 Per i percorsi di pubblico Leggi ricorrenti sono disponibili due opzioni:
 
-* **Lettura incrementale** opzione: quando un percorso con un **Read audience** viene eseguito per la prima volta, tutti i profili nel pubblico entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
+* Opzione **Lettura incrementale**: quando viene eseguito per la prima volta un percorso con un pubblico ricorrente di tipo **Lettura**, tutti i profili del pubblico entrano nel percorso. Questa opzione consente di eseguire il targeting, dopo la prima occorrenza, solo delle persone che sono entrate nel pubblico dall’ultima esecuzione del percorso.
 
   >[!NOTE]
   >
-  >Se esegui il targeting di un [pubblico di caricamento personalizzato](../audience/about-audiences.md#segments-in-journey-optimizer) nel tuo percorso, i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
+  >Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#segments-in-journey-optimizer), i profili vengono recuperati solo alla prima ricorrenza se questa opzione è abilitata in un percorso ricorrente, in quanto questi tipi di pubblico sono fissi.
 
-* **Forza rientro in caso di ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all’esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza (ad esempio, se utilizzi le attività Attendi), non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
+* **Forza il rientro in caso di ricorrenza**: questa opzione ti consente di far uscire automaticamente tutti i profili ancora presenti nel percorso all&#39;esecuzione successiva. Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza (ad esempio, se utilizzi le attività Attendi), non attivare questa opzione per assicurarti che i profili possano terminare il percorso.
 
 ![](assets/read-audience-options.png)
 

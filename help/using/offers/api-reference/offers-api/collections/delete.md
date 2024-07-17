@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Eliminare una raccolta {#delete-collection}
 
-Talvolta può essere necessario rimuovere (DELETE) una raccolta. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API tramite `id` della raccolta che desideri eliminare.
+Talvolta può essere necessario rimuovere (DELETE) una raccolta. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando `id` della raccolta che si desidera eliminare.
 
 **Formato API**
 

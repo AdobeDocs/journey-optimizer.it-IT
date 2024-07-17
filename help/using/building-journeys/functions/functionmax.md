@@ -26,7 +26,7 @@ Aggregazione
 
 `max(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 * listDuration
 * listInteger
@@ -35,7 +35,7 @@ Aggregazione
 * listDateTimeOnly
 * listDateOnly
 * durata
-* numero intero
+* intero
 * decimale
 * dateTime
 * dateTimeOnly

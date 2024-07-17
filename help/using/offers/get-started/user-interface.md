@@ -15,21 +15,21 @@ ht-degree: 33%
 
 # Interfaccia utente della libreria di offerte {#user-interface}
 
-Il **[!UICONTROL Gestione delle decisioni]** nella barra a sinistra sono disponibili due menu che consentono di accedere alle funzionalità di gestione delle decisioni:
+La sezione **[!UICONTROL Gestione delle decisioni]** nella barra a sinistra fornisce due menu che consentono di accedere alle funzionalità di gestione delle decisioni:
 
-Utilizza il **[!UICONTROL Offerte]** menu per gestire e distribuire le offerte:
+Utilizza il menu **[!UICONTROL Offerte]** per gestire e distribuire le offerte:
 
 
 ![](../assets/offers_menu.png)
 
-* **[!UICONTROL Panoramica]**: nuovo a [!DNL decision management]? Segui i passaggi sullo schermo per iniziare a impostare posizionamenti, offerte e raccolte. Quando conosci già [!DNL decision management], ottieni una panoramica sulle offerte, raccolte e decisioni più recenti. [Ulteriori informazioni](#overview)
-* **[!UICONTROL Offerte]**: crea e accedi alle offerte personalizzate e di fallback. Scopri come creare [offerte](../offer-library/creating-personalized-offers.md) e [offerte di fallback](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Panoramica]**: novità di [!DNL decision management]? Segui i passaggi sullo schermo per iniziare a impostare posizionamenti, offerte e raccolte. Se hai già familiarità con [!DNL decision management], ottieni una panoramica delle offerte, raccolte e decisioni più recenti. [Ulteriori informazioni](#overview)
+* **[!UICONTROL Offerte]**: crea e accedi alle tue offerte personalizzate e di fallback. Scopri come creare [offerte](../offer-library/creating-personalized-offers.md) e [offerte di fallback](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL Raccolte]**: organizza le offerte in raccolte statiche e dinamiche. [Ulteriori informazioni](../offer-library/creating-collections.md)
 * **[!UICONTROL Decisioni]**: crea e gestisci le decisioni per distribuire le offerte. [Ulteriori informazioni](../offer-activities/create-offer-activities.md)
 * **[!UICONTROL Decisioning in batch]**: consegna le decisioni sulle offerte a tutti i profili in un determinato pubblico Adobe Experience Platform. [Ulteriori informazioni](../batch-delivery.md)
 * **[!UICONTROL Simulazione]**: convalida la logica decisionale simulando quali offerte verranno consegnate a un profilo di test per un determinato posizionamento. [Ulteriori informazioni](../offer-activities/simulation.md)
 
-Utilizza il **[!UICONTROL Componenti]** per creare e gestire i componenti necessari per creare offerte e decisioni:
+Utilizza il menu **[!UICONTROL Componenti]** per creare e gestire i componenti necessari per creare offerte e decisioni:
 
 ![](../assets/offer_activities.png)
 
@@ -40,21 +40,21 @@ Utilizza il **[!UICONTROL Componenti]** per creare e gestire i componenti necess
 
 >[!NOTE]
 >
->In caso di problemi durante l’accesso a Gestione decisioni o ad alcune sue funzioni, rivolgiti a un utente amministratore per verificare di disporre dei diritti necessari. Consulta [Concedere l’accesso alla gestione delle decisioni](starting-offer-decisioning.md#granting-acess-to-decision-management).
+>In caso di problemi durante l’accesso a Gestione decisioni o ad alcune sue funzioni, rivolgiti a un utente amministratore per verificare di disporre dei diritti necessari. Vedere [Concedere l&#39;accesso alla gestione delle decisioni](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 ## Panoramica {#overview}
 
-Quando non hai ancora utilizzato [!DNL decision management], il **[!UICONTROL Panoramica]** La scheda ti guida attraverso i passaggi principali necessari per iniziare a creare la tua prima decisione di offerta. Segui i passaggi sullo schermo per iniziare a creare posizionamenti, offerte e raccolte. Una volta completati questi primi passaggi, ti viene richiesto di creare le decisioni sulle offerte.
+Quando non hai ancora [!DNL decision management], la scheda **[!UICONTROL Panoramica]** ti guida attraverso i passaggi principali necessari per iniziare a creare la tua prima decisione di offerta. Segui i passaggi sullo schermo per iniziare a creare posizionamenti, offerte e raccolte. Una volta completati questi primi passaggi, ti viene richiesto di creare le decisioni sulle offerte.
 
 >[!NOTE]
 >
->I passaggi principali per creare le offerte e utilizzarle in una decisione sono descritti in [questa sezione](../offer-library/key-steps.md).
+>I passaggi principali per creare offerte e utilizzarle in una decisione sono descritti in [questa sezione](../offer-library/key-steps.md).
 
-Quando hai più familiarità con [!DNL decision management] e hai già creato almeno una decisione di offerta, la **[!UICONTROL Panoramica]** Questa scheda mostra le offerte, raccolte e decisioni più recenti.
+Se hai più familiarità con [!DNL decision management] e hai già creato almeno una decisione di offerta, nella scheda **[!UICONTROL Panoramica]** vengono visualizzate le offerte, raccolte e decisioni più recenti.
 
 Fai clic su un’offerta o una decisione per accedere direttamente ai dettagli dell’elemento selezionato.
 
-Fai clic su **[!UICONTROL Visualizza tutto]** per accedere agli elenchi di offerte, raccolte o decisioni.
+Fai clic sul pulsante **[!UICONTROL Visualizza tutto]** per accedere agli elenchi delle offerte, delle raccolte o delle decisioni.
 
 ![](../assets/overview_view-all.png)
 
@@ -84,8 +84,8 @@ Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informaz
 
 Dagli elenchi delle offerte e delle decisioni ora è possibile eseguire azioni in blocco su più elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
 
-Puoi anche duplicare un’offerta o decisioni esistenti per creare una copia con **[!UICONTROL Bozza]** stato. Questa operazione può essere eseguita dal riquadro delle informazioni oppure dalla vista dettagliata di un’offerta o di una decisione.
+Puoi anche duplicare un&#39;offerta o decisioni esistenti per creare una copia con lo stato **[!UICONTROL Bozza]**. Questa operazione può essere eseguita dal riquadro delle informazioni oppure dalla vista dettagliata di un’offerta o di una decisione.
 
 ## Registri di modifica di offerte e decisioni {#changes-logs}
 
-[!DNL Journey Optimizer] consente di visualizzare tutte le modifiche apportate a un’offerta o a una decisione. A questo scopo, accedi a **[!UICONTROL Audit]** dal menu a sinistra. [Scopri come controllare le azioni sulle risorse](../../privacy/audit-logs.md)
+[!DNL Journey Optimizer] consente di visualizzare tutte le modifiche apportate a un&#39;offerta o a una decisione. Per eseguire questa operazione, accedere al menu **[!UICONTROL Audits]** dal menu a sinistra. [Scopri come controllare le azioni sulle risorse](../../privacy/audit-logs.md)

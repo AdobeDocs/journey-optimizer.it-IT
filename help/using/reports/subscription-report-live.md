@@ -24,22 +24,22 @@ ht-degree: 20%
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
-Per accedere ai rapporti, fai clic su **[!UICONTROL Report]** dell&#39;elenco di iscrizioni selezionato.
+Per accedere ai tuoi report, fai clic sull&#39;icona **[!UICONTROL Report]** dell&#39;elenco di iscrizioni selezionato.
 
 ![](assets/subscription_report_7.png)
 
-La sottoscrizione **[!UICONTROL Rapporto live]** è diviso in diversi widget che descrivono nel dettaglio gli abbonamenti e i loro annullamenti. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](live-report.md).
+L&#39;abbonamento **[!UICONTROL Live Report]** è suddiviso in diversi widget che descrivono gli abbonamenti e i loro annullamenti. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](live-report.md).
 
 ![](assets/subscription_report_3.png)
 
-Il **[!UICONTROL Prestazioni abbonamento]** KPI e **[!UICONTROL Iscrizioni per percorso]**/**[!UICONTROL Annulla iscrizione per percorso]** le tabelle descrivono le informazioni principali relative al coinvolgimento dei visitatori con la pagina di destinazione. Le tabelle e i KPI contengono i dati disponibili relativi alla pagina di destinazione, ad esempio:
+Le tabelle dei KPI **[!UICONTROL Prestazioni abbonamento]** e **[!UICONTROL Abbonamenti per percorso]**/**[!UICONTROL Annullamenti abbonamenti per percorso]** contengono informazioni dettagliate sulle informazioni principali relative al coinvolgimento dei visitatori con la pagina di destinazione. Le tabelle e i KPI contengono i dati disponibili relativi alla pagina di destinazione, ad esempio:
 
 * **[!UICONTROL Abbonamenti]**: numero totale di abbonamenti nelle ultime 24 ore.
 
-* **[!UICONTROL Annulla iscrizione]**: numero totale di annullamenti di abbonamenti nelle ultime 24 ore.
+* **[!UICONTROL Annullamenti abbonamenti]**: numero totale di annullamenti di abbonamenti nelle ultime 24 ore.
 
-Il **[!UICONTROL Prestazioni abbonamento]** il grafico mostra l’evoluzione degli abbonamenti nelle ultime 24 ore.
+Il grafico **[!UICONTROL Prestazioni abbonamento]** mostra l&#39;evoluzione degli abbonamenti nelle ultime 24 ore.
 
 ![](assets/subscription_report_4.png)
 
-Il **Iscrizioni - Raggruppamento** e **Annullamenti iscrizione - Raggruppamento** i grafici rappresentano il numero totale di persone che hanno effettuato o annullato l’abbonamento nelle ultime 24 ore, a seconda dei messaggi, delle pagine di destinazione e dei canali.
+I grafici **Abbonamenti - Raggruppamento** e **Annullamenti abbonamenti - Raggruppamento** rappresentano il numero totale di persone che hanno effettuato o annullato l&#39;abbonamento nelle ultime 24 ore, a seconda dei messaggi, delle pagine di destinazione e dei canali.

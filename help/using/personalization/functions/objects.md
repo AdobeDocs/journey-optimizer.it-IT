@@ -9,15 +9,15 @@ exl-id: 6ce70e32-aac3-4a2c-bfeb-c370521853ca
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 7%
+ht-degree: 19%
 
 ---
 
 # Funzioni oggetto {#objects}
 
-## È nullo{#isNull}
+## È Null{#isNull}
 
-Il `isNull` determina se un riferimento a un oggetto non esiste.
+La funzione `isNull` determina se un riferimento a un oggetto non esiste.
 
 **Sintassi**
 
@@ -33,9 +33,9 @@ L&#39;operazione seguente verifica se l&#39;indirizzo dell&#39;abitazione della 
 {%= isNull(person.homeAddress) %}
 ```
 
-## Non è nullo{#isNotNull}
+## Non è Null{#isNotNull}
 
-Il `isNotNull` determina se esiste un riferimento a un oggetto.
+La funzione `isNotNull` determina se esiste un riferimento a un oggetto.
 
 **Sintassi**
 

@@ -11,7 +11,7 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -63,16 +63,16 @@ Elenco delle funzioni supportate.
 | Data | [updateTimeZone](../functions/functionupdatetimezone.md) |
 | Elenco | [distinct](../functions/functiondistinct.md) |
 | Elenco | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| Elenco | [filter](../functions/functionfilter.md) |
+| Elenco | [filtro](../functions/functionfilter.md) |
 | Elenco | [getListItem](../functions/functiongetlistitem.md) |
 | Elenco | [in](../functions/functionin.md) |
-| Elenco | [intersecare](../functions/functionintersect.md) |
-| Elenco | [limit](../functions/functionlimit.md) |
+| Elenco | [intersezione](../functions/functionintersect.md) |
+| Elenco | [limite](../functions/functionlimit.md) |
 | Elenco | [listSize](../functions/functionlistsize.md) |
 | Elenco | [serializeList](../functions/functionserializelist.md) |
 | Elenco | [sort](../functions/functionsort.md) |
-| Math | [random](../functions/functionrandom.md) |
-| Math | [round](../functions/functionround.md) |
+| Matematica | [random](../functions/functionrandom.md) |
+| Matematica | [round](../functions/functionround.md) |
 | Stringa | [concat](../functions/functionconcat.md) |
 | Stringa | [contain](../functions/functioncontain.md) |
 | Stringa | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |

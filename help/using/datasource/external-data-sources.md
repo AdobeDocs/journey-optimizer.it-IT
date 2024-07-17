@@ -46,7 +46,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 Di seguito sono riportati i passaggi principali per la creazione e la configurazione di una nuova origine dati esterna:
 
-1. Dall’elenco delle origini dati, fai clic su **[!UICONTROL Crea origine dati]** per creare una nuova origine dati esterna.
+1. Nell&#39;elenco delle origini dati fare clic su **[!UICONTROL Crea Source dati]** per creare una nuova origine dati esterna.
 
    ![](assets/journey25.png)
 
@@ -69,37 +69,37 @@ Di seguito sono riportati i passaggi principali per la creazione e la configuraz
 
    ![](assets/journey27.png)
 
-1. Configura l’autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzato]** o **[!UICONTROL Chiave API]**.
+1. Configura l&#39;autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzata]** o **[!UICONTROL Chiave API]**.
 
    Per la modalità di autenticazione di base, devi inserire un nome utente e una password.
 
    >[!NOTE]
    >
-   >Quando viene eseguita la chiamata di autenticazione, il `<username>:<password>` stringa, codificata in base64, viene aggiunta nell’intestazione Authentication.
+   >Quando viene eseguita la chiamata di autenticazione, la stringa `<username>:<password>`, codificata in base64, viene aggiunta nell&#39;intestazione Autenticazione.
 
-   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, consulta [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API:
+   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API:
 
-   * **[!UICONTROL Tipo]**: &quot;API key&quot;
+   * **[!UICONTROL Tipo]**: &quot;Chiave API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (nome del parametro della chiave API)
    * **[!UICONTROL Valore]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
-   * **[!UICONTROL Posizione]**: &quot;Query parameter&quot; (la chiave API si trova nell’URL)
+   * **[!UICONTROL Posizione]**: &quot;Parametro query&quot; (la chiave API si trova nell&#39;URL)
 
    ![](assets/journey28.png)
 
-1. Per aggiungere un nuovo gruppo di campi per ciascun set di parametri API, fai clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]**. Nel nome del gruppo di campi sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
+1. Aggiungere un nuovo gruppo di campi per ogni set di parametri API facendo clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]**. Nel nome del gruppo di campi sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
 
 Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi con le seguenti informazioni:
 
-* **[!UICONTROL Utilizzato in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. Puoi fare clic su **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo gruppo di campi.
-* **[!UICONTROL Metodo]**: seleziona il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
+* **[!UICONTROL Utilizzato in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. È possibile fare clic sull&#39;icona **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo gruppo di campi.
+* **[!UICONTROL Metodo]**: selezionare il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
 * **[!UICONTROL Valori dinamici]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md)
-* **[!UICONTROL Payload di risposta]**: fai clic all’interno del **[!UICONTROL Payload]** e incolla un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **[!UICONTROL Incolla un nuovo payload]** se desideri modificare il payload attualmente trasmesso.
+* **[!UICONTROL Payload di risposta]**: fare clic all&#39;interno del campo **[!UICONTROL Payload]** e incollare un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **[!UICONTROL Incolla un nuovo payload]** se desideri modificare il payload attualmente trasmesso.
 
 * **[!UICONTROL Payload inviato]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
-In caso di una chiamata di GET che richieda i parametri, inseriscili nella **[!UICONTROL Valori dinamici]** e vengono aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
+In caso di una chiamata di GET che richieda i parametri, inseriscili nel campo **[!UICONTROL Valori dinamici]** e verranno aggiunti automaticamente alla fine della chiamata. Nel caso di una chiamata POST, è necessario:
 
-* elencare i parametri da trasmettere al momento della chiamata nella **[!UICONTROL Valori dinamici]** nell’esempio seguente: &quot;identifier&quot;.
+* Elencare i parametri da passare al momento della chiamata nel campo **[!UICONTROL Valori dinamici]** (nell&#39;esempio seguente: &quot;identifier&quot;).
 * Specificare i parametri anche utilizzando la medesima sintassi nel corpo del payload inviato. A questo scopo, devi aggiungere: &quot;param&quot;: &quot;nome del tuo parametro&quot; (nell’esempio seguente: &quot;identifier&quot;). Attieniti alla sintassi seguente:
 
   ```
@@ -137,7 +137,7 @@ Con questa autenticazione, l’esecuzione dell’azione è un processo suddiviso
 
 >[!NOTE]
 >
->**Questa autenticazione è costituita da due parti.**
+>**Questa autenticazione è composta da due parti.**
 
 ### Definizione dell’endpoint da chiamare per generare il token di accesso{#custom-authentication-endpoint}
 

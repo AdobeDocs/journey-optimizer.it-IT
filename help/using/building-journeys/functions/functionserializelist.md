@@ -26,12 +26,12 @@ Elenco
 
 `serializeList(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Elenco da convertire in stringa. |
-| separatore | string | Separatore tra ciascun elemento elenco nella stringa di output. |
+| separatore | stringa | Separatore tra ciascun elemento elenco nella stringa di output. |
 | addQuotes | booleano | Questo parametro indica se ogni elemento nella stringa di output deve includere virgolette (true) o meno (false). |
 
 ## Firma e tipo restituito

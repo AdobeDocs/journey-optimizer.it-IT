@@ -26,7 +26,7 @@ Data
 
 `updateTimeZone(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 * id fuso orario: stringa
 * dateTime
@@ -41,11 +41,11 @@ Restituisce un valore datetime.
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Restituisce il 28/08/2023:15:30.123+02:00.
+Restituisce 2023-08-28T17:15:30.123+02:00.
 
 <!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 Returns "2019-08-28T17:15:30.123+02:00".-->
 
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-Se il valore del campo timestamp è `2021-11-16T16:55:12.939318+01:00`, quindi la funzione restituisce `2021-11-17T02:55:12.942115+11:00`.
+Se il valore del campo timestamp è `2021-11-16T16:55:12.939318+01:00`, la funzione restituisce `2021-11-17T02:55:12.942115+11:00`.

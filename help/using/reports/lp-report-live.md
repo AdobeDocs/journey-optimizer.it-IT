@@ -24,39 +24,39 @@ ht-degree: 14%
 
 I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. Al confronto, i rapporti globali si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato.
 
-Per accedere ai rapporti, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
+Per accedere ai tuoi report, seleziona **[!UICONTROL Report]** dal menu avanzato della pagina di destinazione selezionata.
 
 ![](assets/landing_page_report.png)
 
-Pagina di destinazione **[!UICONTROL Rapporto live]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della consegna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](live-report.md).
+La pagina di destinazione **[!UICONTROL Live Report]** è divisa in diversi widget che descrivono in dettaglio il successo e gli errori di consegna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](live-report.md).
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto live della pagina di destinazione.
 
-Il **[!UICONTROL Prestazioni della pagina di destinazione]** Il widget descrive le informazioni principali relative al messaggio nelle ultime 24 ore tramite KPI:
+Il widget **[!UICONTROL Prestazioni pagina di destinazione]** descrive le informazioni principali relative al messaggio nelle ultime 24 ore tramite KPI:
 
-* **[!UICONTROL Visite totali]**: numero totale di visite alla pagina di destinazione da un percorso o da altre origini, comprese le visite multiple di un destinatario.
+* **[!UICONTROL Visite totali]**: numero totale di visite alla pagina di destinazione da un percorso o da altre origini, incluse visite multiple di un destinatario.
 
-* **[!UICONTROL Conversioni]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio si sono abbonate a un modulo.
+* **[!UICONTROL Conversioni]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l&#39;abbonamento a un modulo.
 
-* **[!UICONTROL Mancati recapiti]**: numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l’azione di iscrizione.
+* **[!UICONTROL Rimbalzi]**: numero di persone che non hanno interagito con la pagina di destinazione e non hanno completato l&#39;azione di iscrizione.
 
-Il **[!UICONTROL Origini visita]** il widget rappresenta il modo in cui i visitatori accedono alla pagina di destinazione:
+Il widget **[!UICONTROL Origini visita]** rappresenta il modo in cui i visitatori accedono alla pagina di destinazione:
 
-* **[!UICONTROL Percorso/i]**: numero di visite alla pagina di destinazione provenienti da un percorso.
+* **[!UICONTROL Percorsi]**: numero di visite alla pagina di destinazione provenienti da un percorso.
 
-* **[!UICONTROL Altre origini]**: numero di visite alla pagina di destinazione provenienti da un’origine esterna anziché da un percorso.
+* **[!UICONTROL Altre origini]**: numero di visite alla pagina di destinazione provenienti da un&#39;origine esterna anziché da un percorso.
 
-Il **[!UICONTROL Collegamenti più cliccati]** identifica l’interazione dei visitatori con la pagina di destinazione:
+I **[!UICONTROL collegamenti più cliccati]** identificano l&#39;interazione dei visitatori con la pagina di destinazione:
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nella pagina di destinazione.
 
-Il **[!UICONTROL Percorso/i]** widget rappresenta il numero di visite alla pagina di destinazione da un percorso.
+Il widget **[!UICONTROL Percorsi]** rappresenta il numero di visite alla pagina di destinazione da un percorso.
 
-Il **[!UICONTROL Altre origini]** widget rappresenta il numero di visite alla pagina di destinazione da un’origine esterna anziché da un percorso.
+Il widget **[!UICONTROL Altre origini]** rappresenta il numero di visite alla pagina di destinazione da un&#39;origine esterna anziché da un percorso.
 
-Il **[!UICONTROL Visite per messaggi]** / **[!UICONTROL Conversioni per messaggi]** i grafici rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione nelle ultime 24 ore, a seconda dei messaggi inviati.
+I grafici **[!UICONTROL Visite per messaggi]** / **[!UICONTROL Conversioni per messaggi]** rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione nelle ultime 24 ore, a seconda dei messaggi inviati.
 
-Il **[!UICONTROL Visite per canali]** / **[!UICONTROL Conversioni per canali]** i grafici rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione nelle ultime 24 ore, a seconda dei canali.
+I grafici **[!UICONTROL Visite per canali]** / **[!UICONTROL Conversioni per canali]** rappresentano il numero totale di visite e persone che hanno interagito correttamente con la pagina di destinazione nelle ultime 24 ore, a seconda dei canali.
 +++
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](live-report.md#list-of-components-live).

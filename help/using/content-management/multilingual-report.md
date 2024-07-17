@@ -18,13 +18,13 @@ ht-degree: 32%
 
 # Rapporto campagna multilingue {#multilingual-campaign-report}
 
-Rapporti globali, accessibili dalla **Sempre** , visualizza gli eventi che si sono verificati almeno due ore fa e copre gli eventi in un periodo di tempo selezionato. Il rapporto globale della campagna è accessibile direttamente dalla campagna con **[!UICONTROL Visualizza rapporto]** pulsante.
+I report globali, accessibili dalla scheda **Tutto il tempo**, visualizzano gli eventi verificatisi almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Il report globale della campagna è accessibile direttamente dalla campagna con il pulsante **[!UICONTROL Visualizza report]**.
 
-Per ulteriori informazioni sui dati disponibili nel rapporto della campagna, consulta [questa pagina](../reports/campaign-global-report.md).
+Per ulteriori informazioni sui dati disponibili nel report della campagna, consulta [questa pagina](../reports/campaign-global-report.md).
 
 ![](assets/report_multilingual.png)
 
-Il **[!UICONTROL Statistiche sull’invio di e-mail per lingue]** Il widget descrive il successo della consegna in base alla **[!UICONTROL Impostazioni internazionali]**:
+Il widget **[!UICONTROL Statistiche di invio e-mail per lingue]** descrive il completamento della consegna in base alle **[!UICONTROL Impostazioni internazionali]**:
 
 * **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente rispetto al numero totale di messaggi inviati.
 
@@ -32,9 +32,9 @@ Il **[!UICONTROL Statistiche sull’invio di e-mail per lingue]** Il widget desc
 
 * **[!UICONTROL Errori]**: numero totale di errori che si sono verificati durante una consegna e che ne hanno impedito l’invio ai profili.
 
-Il **[!UICONTROL Statistiche di tracciamento e-mail per lingue]** Il widget contiene i dati disponibili per l’attività del destinatario per la consegna in base al **[!UICONTROL Impostazioni internazionali]**:
+Il widget **[!UICONTROL Statistiche di tracciamento e-mail per lingue]** contiene i dati disponibili per l&#39;attività del destinatario per la consegna in base alle **[!UICONTROL Impostazioni internazionali]**:
 
-* **[!UICONTROL Annulla iscrizione]**: numero di clic sul collegamento di annullamento dell’abbonamento.
+* **[!UICONTROL Annullamenti iscrizione]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 
 * **[!UICONTROL Aperture]**: numero di volte in cui il messaggio è stato aperto.
 

@@ -9,17 +9,17 @@ exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # Creare un’offerta di fallback {#create-fallback-offer}
 
-Per creare un’offerta di fallback, devi effettuare una richiesta POST al [!DNL Offer Library] , fornendo al tempo stesso l&#39;ID contenitore.
+È possibile creare un&#39;offerta di fallback effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al tempo stesso l&#39;ID contenitore.
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -71,7 +71,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla nuova offerta di fallback creata, tra cui l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare l’offerta di fallback. Puoi utilizzare l’offerta di fallback univoca `@id` in un tutorial successivo per creare una decisione.
+In caso di esito positivo, la risposta restituisce informazioni sulla nuova offerta di fallback creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare l’offerta di fallback. È possibile utilizzare l&#39;offerta di fallback univoca `@id` in un&#39;esercitazione successiva per creare una decisione.
 
 
 ```json

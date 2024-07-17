@@ -9,7 +9,7 @@ exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1962'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Il batch con esito positivo più recente nel set di dati viene visualizzato a de
 >
 >Scopri come accedere ai set di dati esportati per ogni oggetto della Libreria di offerte in [questa sezione](../export-catalog/access-dataset.md).
 
-Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio di oggetti decisionali - Offerte personalizzate]** set di dati.
+Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONTROL Archivio oggetti decisionali - Offerte personalizzate]**.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
@@ -38,9 +38,9 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 +++
 
-+++ _experience {#experience}
++++ _esperienza {#experience}
 
-**Campo:** _experience
+**Campo:** _esperienza
 **Tipo:** oggetto
 
 +++
@@ -55,22 +55,22 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++ _experience > decisioning > calendarConstraints
 
 **Campo:** calendarConstraints
-**Titolo:** Dettagli vincolo calendario
-**Descrizione:** I vincoli di calendario determinano se un’opzione di decisione è valida in base a un intervallo di date. Al di fuori di tale intervallo di date, l’opzione non può essere proposta.
+**Titolo:** Dettagli Vincolo Calendario
+**Descrizione:** I vincoli di calendario determinano se un&#39;opzione di decisione è valida dato un intervallo di date. Al di fuori di tale intervallo di date, l’opzione non può essere proposta.
 **Tipo:** oggetto
 
 * **Data e ora di fine**
 
   **Campo:** endDate
   **Titolo:** Data e ora di fine
-  **Descrizione:** Data di fine della validità delle opzioni di decisione. Le opzioni che hanno superato la data di fine non possono più essere proposte nel processo decisionale.
+  **Descrizione:** data di fine validità delle opzioni di decisione. Le opzioni che hanno superato la data di fine non possono più essere proposte nel processo decisionale.
   **Tipo:** stringa
 
-* **Data e ora di inizio**
+* **Data e ora inizio**
 
   **Campo:** startDate
   **Titolo:** Data e ora di inizio
-  **Descrizione:** Data di inizio della validità delle opzioni di decisione. Le opzioni che non hanno raggiunto la data di inizio non possono ancora essere proposte nel processo decisionale.
+  **Descrizione:** la data di inizio della validità delle opzioni di decisione. Le opzioni che non hanno raggiunto la data di inizio non possono ancora essere proposte nel processo decisionale.
   **Tipo:** stringa
 
 +++
@@ -78,17 +78,17 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++ _experience > decisioning > caratteristiche
 
 **Campo:** caratteristiche
-**Titolo:** Caratteristiche dell’opzione di decisione
-**Descrizione:** Proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. Diverse istanze possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di nome e valore utilizzate per distinguere un’opzione di decisione dalle altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
+**Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
+**Descrizione:** proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. Diverse istanze possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di nome e valore utilizzate per distinguere un’opzione di decisione dalle altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
 +++
 
 +++ _experience > decisioning > content
 
-**Campo:** sommario
+**Campo:** contenuto
 **Titolo:** Dettagli contenuto
-**Descrizione:** Elementi di contenuto per il rendering dell’elemento decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
+**Descrizione:** elementi di contenuto per eseguire il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
 +++
@@ -96,39 +96,39 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++_esperienza > decisioni > contenuti > componenti
 
 **Campo:** componenti
-**Descrizione:** I componenti del contenuto che rappresentano l’opzione di decisione, incluse tutte le varianti linguistiche. Componenti specifici disponibili sono &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o una loro combinazione. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
+**Descrizione:** i componenti del contenuto che rappresentano l&#39;opzione di decisione, incluse tutte le relative varianti di lingua. Componenti specifici disponibili sono &#39;dx:format&#39;, &#39;dc:subject&#39; e &#39;dc:language&#39; o una loro combinazione. Questi metadati vengono utilizzati per individuare o rappresentare il contenuto associato a un’offerta e integrarlo in base al contratto di posizionamento.
 **Tipo:** array
-**Obbligatorio:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
+**Richiesto:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
-* **_experience > decisioning > contenuti > componenti > Tipo di componente Contenuto**
+* **_experience > decisioning > contenuti > componenti > Tipo di componente contenuto**
 
   **Campo:** _type
   **Titolo:** Tipo di componente contenuto
-  **Descrizione:** Set enumerato di URI in cui ogni valore corrisponde a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente contenuto.
+  **Descrizione:** un insieme enumerato di URI in cui ogni valore è associato a un tipo assegnato al componente contenuto. Alcuni consumatori delle rappresentazioni di contenuto si aspettano che il valore @type sia un riferimento allo schema che descrive proprietà aggiuntive del componente contenuto.
   **Tipo:** stringa
 
-* **_esperienza > decisioni > contenuti > componenti > _dc**
+* **_experience > decisioning > contenuti > componenti > _dc**
 
   **Campo:** _dc
   **Tipo:** oggetto
-  **Obbligatorio:** &quot;format&quot;
+  **Obbligatorio:** &quot;formato&quot;
 
    * **Formato**
 
      **Campo:** formato
      **Titolo:** Formato
-     **Descrizione:** La manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l’elenco di [Tipi di file multimediali Internet](https://www.iana.org/assignments/media-types/) definizione dei formati dei supporti informatici).
+     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet](https://www.iana.org/assignments/media-types/) che definiscono i formati dei supporti per computer).
      **Tipo:** stringa
      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Lingua**
      **Campo:** lingua
      **Titolo:** Lingua
-     **Descrizione:** Lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
+     **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
      **Tipo:** array
      **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
-* **_experience > decisioning > sommario > componenti > _repo**
+* **_experience > decisioning > contenuti > componenti > _repo**
 
   **Campo:** _repo
   **Tipo:** oggetto
@@ -136,55 +136,55 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
    * **id**
 
      **Campo:** id
-     **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+     **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
      **Tipo:** stringa
      **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **nome**
 
      **Campo:** nome
-     **Descrizione:** Alcuni suggerimenti su dove individuare l’archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
+     **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna da \&quot;repo:id\&quot;.
      **Tipo:** stringa
 
    * **repositoryID**
 
      **Campo:** repositoryID
-     **Descrizione:** Identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio di contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+     **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
      **Tipo:** stringa
-     **Esempio:** C87932A55B06F7070A49412D@AdobeOrg
+     **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
      **Campo:** resolveURL
-     **Descrizione:** Un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio di contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
+     **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio dei contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
      **Tipo:** stringa
      **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
-* **_esperienza > decisioning > contenuti > componenti > contenuto**
+* **_experience > decisioning > contenuti > componenti > contenuto**
 
   **Campo:** contenuto
-  **Descrizione:** Un campo facoltativo che contiene direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente il contenuto semplice. Questo campo non viene utilizzato per risorse di contenuto composito, complesso e binario.
+  **Descrizione:** campo facoltativo che contiene direttamente il contenuto. Invece di fare riferimento al contenuto in un archivio di risorse, il componente può contenere direttamente il contenuto semplice. Questo campo non viene utilizzato per risorse di contenuto composito, complesso e binario.
   **Tipo:** stringa
 
 * **_experience > decisioning > contenuti > componenti > deliveryURL**
 
   **Campo:** deliveryURL
-  **Descrizione:** Un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere alla risorsa pubblicamente da un agente utente.
+  **Descrizione:** un localizzatore di risorse univoco facoltativo per ottenere la risorsa da una rete di distribuzione di contenuti o da un endpoint di servizio. Questo URL viene utilizzato per accedere alla risorsa pubblicamente da un agente utente.
   **Tipo:** stringa
-  **Esempio:** https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg
+  **Esempio:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisioning > contenuti > componenti > linkURL**
 
   **Campo:** linkURL
-  **Descrizione:** Un localizzatore di risorse univoco facoltativo per le interazioni dell’utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
+  **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_esperienza > decisioning > content > Placement (Decisioning > Contenuti > Posizionamento)
 
 **Campo:** posizionamento
-**Titolo:** Posizione
-**Descrizione:** Posizionamento per conformarsi a. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/placement.
+**Titolo:** posizionamento
+**Descrizione:** posizionamento da rispettare. Il valore è l’URI (@id) del posizionamento dell’offerta a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/placement.
 **Tipo:** stringa
 
 +++
@@ -192,8 +192,8 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++ _experience > decisioning > Stato del ciclo di vita
 
 **Campo:** lifecycleStatus
-**Titolo:** Stato del ciclo di vita
-**Descrizione:** Lo stato del ciclo di vita consente di eseguire flussi di lavoro con un oggetto. Lo stato può influenzare il punto in cui un oggetto è visibile o considerato rilevante. Le modifiche di stato sono guidate dai client o dai servizi che utilizzano gli oggetti.
+**Titolo:** Stato Del Ciclo Di Vita
+**Descrizione:** lo stato del ciclo di vita consente di eseguire flussi di lavoro con un oggetto. Lo stato può influenzare il punto in cui un oggetto è visibile o considerato rilevante. Le modifiche di stato sono guidate dai client o dai servizi che utilizzano gli oggetti.
 **Tipo:** stringa
 **Valori possibili:** &quot;Bozza&quot; (predefinito), &quot;Approvato&quot;, &quot;Live&quot;, &quot;Completato&quot;, &quot;Archiviato&quot;
 
@@ -202,8 +202,8 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++ _experience > decisioning > Nome opzione decisione
 
 **Campo:** nome
-**Titolo:** Nome opzione di decisione
-**Descrizione:** Nome dell&#39;opzione visualizzato in varie interfacce utente.
+**Titolo:** Nome Opzione Di Decisione
+**Descrizione:** Nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
 +++
@@ -212,7 +212,7 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** profileConstraints
 **Titolo:** Dettagli Vincolo Profilo
-**Descrizione:** I vincoli di profilo decidono se un’opzione è idonea per questa identità di profilo, in questo momento, in questo contesto. Se non è necessario che il vincolo di profilo consideri i valori di ciascuna opzione, ovvero non è una variante delle opzioni selezionate, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D&#39;altra parte, una regola di vincolo di profilo che accetta un&#39;opzione come parametro viene valutata per ogni opzione qualificata della selezione dell&#39;opzione.
+**Descrizione:** I vincoli di profilo decidono se un&#39;opzione è idonea per questa identità di profilo, al momento, in questo contesto. Se non è necessario che il vincolo di profilo consideri i valori di ciascuna opzione, ovvero non è una variante delle opzioni selezionate, il vincolo di profilo che restituisce &quot;false&quot; annulla l’intera selezione dell’opzione. D&#39;altra parte, una regola di vincolo di profilo che accetta un&#39;opzione come parametro viene valutata per ogni opzione qualificata della selezione dell&#39;opzione.
 **Tipo:** oggetto
 
 +++
@@ -221,16 +221,16 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** descrizione
 **Titolo:** Descrizione
-**Descrizione:** Descrizione del vincolo di profilo. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché questo vincolo di profilo è stato costruito e/o quale opzione sarà inclusa o esclusa da esso.
+**Descrizione:** descrizione vincolo profilo. Viene utilizzato per comunicare le intenzioni leggibili dell’uomo su come o perché questo vincolo di profilo è stato costruito e/o quale opzione sarà inclusa o esclusa da esso.
 **Tipo:** stringa
 
 +++
 
 +++_esperienza > Decisioning > profileConstraints > Regola di idoneità
 
-**Campo:** EliabilityRule
+**Campo:** idoneitàRegola
 **Titolo:** Regola di idoneità
-**Descrizione:** Riferimento a una regola di decisione che restituisce true o false per un determinato profilo e/o altri oggetti XDM contestuali. La regola viene utilizzata per decidere se l’opzione è idonea per un determinato profilo. Il valore è l’URI (@id) della regola di decisione a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/rule.
+**Descrizione:** riferimento a una regola di decisione che restituisce true o false per un profilo specificato e/o altri oggetti XDM contestuali specificati. La regola viene utilizzata per decidere se l’opzione è idonea per un determinato profilo. Il valore è l’URI (@id) della regola di decisione a cui si fa riferimento. Consulta schema https://ns.adobe.com/experience/decisioning/rule.
 **Tipo:** stringa
 
 +++
@@ -238,8 +238,8 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++_esperienza > Decisioning > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
-**Titolo:** Tipo di vincolo profilo
-**Descrizione:** Determina se sono attualmente impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
+**Titolo:** Tipo Di Vincolo Del Profilo
+**Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 * &quot;none&quot; (impostazione predefinita)
@@ -253,22 +253,22 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++_esperienza > Decisioning > profileConstraints > Identificatori segmento
 
 **Campo:** segmentIdentities
-**Titolo:** Identificatori segmento
-**Descrizione:** Identificatori dei tipi di pubblico
+**Titolo:** Identificatori Segmento
+**Descrizione:** identificatori dei tipi di pubblico
 **Tipo:** array
 
 * **Identificatore**
 
   **Campo:** _id
   **Titolo:** Identificatore
-  **Descrizione:** Identità del pubblico nel relativo spazio dei nomi.
+  **Descrizione:** identità dei tipi di pubblico nel relativo spazio dei nomi.
   **Tipo:** stringa
 
 * **Spazio dei nomi**
 
-  **Campo:** namespace
-  **Titolo:** Namespace
-  **Descrizione:** Lo spazio dei nomi associato al `xid` attributo.
+  **Campo:** spazio dei nomi
+  **Titolo:** Spazio Dei Nomi
+  **Descrizione:** lo spazio dei nomi associato all&#39;attributo `xid`.
   **Tipo:** oggetto
   **Obbligatorio:** &quot;code&quot;
 
@@ -276,13 +276,13 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
      **Campo:** codice
      **Titolo:** Codice
-     **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere usato per richiedere l’ID tecnico dello spazio dei nomi, che a sua volta è usato per l’elaborazione del grafico delle identità.
+     **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere utilizzato per richiedere l&#39;ID tecnico dello spazio dei nomi, utilizzato per l&#39;elaborazione del grafico delle identità.
      **Tipo:** stringa
 
-* **Identificatore dell’esperienza**
+* **Identificatore esperienza**
 
   **Campo:** xid
-  **Titolo:** Identificatore dell’esperienza
+  **Titolo:** Identificatore esperienza
   **Descrizione:** Se presente, questo valore rappresenta un identificatore per più spazi dei nomi che è univoco tra tutti gli identificatori relativi allo spazio dei nomi in tutti gli spazi dei nomi.
   **Tipo:** stringa
 
@@ -291,8 +291,8 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++ _experience > decisioning > ranking
 
 **Campo:** classificazione
-**Titolo:** Dettagli classificazione
-**Descrizione:** Classificazione (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
+**Titolo:** Dettagli Classificazione
+**Descrizione:** Grado (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
 +++
@@ -300,8 +300,8 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 +++_esperienza > Decisioning > Classificazione > Valutazione dell’ordine
 
 **Campo:** ordine
-**Titolo:** Valutazione ordine
-**Descrizione:** Valutazione di un ordine relativo di una o più opzioni di decisione. Le opzioni con valori ordinali più alti vengono selezionate rispetto alle opzioni con valori ordinali più bassi. I valori determinati con questo metodo possono essere ordinati, ma non è possibile misurare le distanze tra di essi né calcolare somme o prodotti. La mediana e la modalità sono le uniche misure della tendenza centrale che possono essere utilizzate per i dati ordinali.
+**Titolo:** Valutazione dell&#39;ordine
+**Descrizione:** valutazione di un ordine relativo di una o più opzioni di decisione. Le opzioni con valori ordinali più alti vengono selezionate rispetto alle opzioni con valori ordinali più bassi. I valori determinati con questo metodo possono essere ordinati, ma non è possibile misurare le distanze tra di essi né calcolare somme o prodotti. La mediana e la modalità sono le uniche misure della tendenza centrale che possono essere utilizzate per i dati ordinali.
 **Tipo:** oggetto
 
 * **Funzione punteggio**
@@ -315,15 +315,15 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
   **Campo:** orderEvaluationType
   **Titolo:** Tipo di valutazione ordine
-  **Descrizione:** Specifica il meccanismo di valutazione degli ordini utilizzato, la priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o un modello di IA che riceve un elenco per ordinarlo.
+  **Descrizione:** Specifica il meccanismo di valutazione dell&#39;ordine utilizzato, la priorità statica delle opzioni di decisione, una funzione di punteggio che calcola un valore numerico per ogni opzione o un modello di IA che riceve un elenco per ordinarlo.
   **Tipo:** stringa
   **Valori possibili:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Strategia di classificazione**
 
-  **Campo:** rankingStrategy
+  **Campo:** strategia di classificazione
   **Titolo:** Strategia di classificazione
-  **Descrizione:** Riferimento a una strategia che classifica un elenco di opzioni di decisione. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Descrizione:** un riferimento a una strategia che classifica un elenco di opzioni di decisione. Le opzioni di decisione verranno restituite in un elenco ordinato. Il valore di questa proprietà è l&#39;URI (@id) della funzione da richiamare contemporaneamente con l&#39;opzione on. Consulta schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
   **Tipo:** stringa
 
 +++
@@ -332,7 +332,7 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** priorità
 **Titolo:** Priorità
-**Descrizione:** La priorità di un’unica opzione decisionale rispetto a tutte le altre opzioni. Le opzioni per le quali non viene specificata alcuna funzione di ordinamento hanno priorità utilizzando questa proprietà. Le opzioni con valori di priorità più alti vengono selezionate prima di qualsiasi opzione con priorità inferiore. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale e utilizzata per la proposta di decisione.
+**Descrizione:** la priorità di una singola opzione di decisione rispetto a tutte le altre opzioni. Le opzioni per le quali non viene specificata alcuna funzione di ordinamento hanno priorità utilizzando questa proprietà. Le opzioni con valori di priorità più alti vengono selezionate prima di qualsiasi opzione con priorità inferiore. Se due o più opzioni qualificate condividono il valore di priorità più elevato, una viene scelta in modo casuale e utilizzata per la proposta di decisione.
 **Tipo:** numero intero
 **Valore minimo:** 0
 **Valore predefinito:** 0
@@ -343,7 +343,7 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** tag
 **Titolo:** Tag
-**Descrizione:** Il set di qualificatori di raccolta (precedentemente noti come &quot;tag&quot;) associati a questa entità. I qualificatori di raccolta vengono utilizzati nelle espressioni di filtro per vincolare l’inventario complessivo a un sottoinsieme (categoria).
+**Descrizione:** il set di qualificatori di raccolta (noti in precedenza come &quot;tag&quot;) associati a questa entità. I qualificatori di raccolta vengono utilizzati nelle espressioni di filtro per vincolare l’inventario complessivo a un sottoinsieme (categoria).
 **Tipo:** array
 
 +++
@@ -361,7 +361,7 @@ Elenco di tutti i campi che possono essere utilizzati nel **[!UICONTROL Archivio
 
 **Campo:** etag
 **Titolo:** Opzione di decisione ETag
-**Descrizione:** Revisione in cui si trovava l’oggetto opzione di decisione quando è stata acquisita l’istantanea.
+**Descrizione:** revisione in cui si trovava l&#39;oggetto opzione di decisione quando è stata acquisita l&#39;istantanea.
 **Tipo:** stringa
 
 +++

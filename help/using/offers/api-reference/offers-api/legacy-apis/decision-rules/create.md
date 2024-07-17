@@ -9,7 +9,7 @@ exl-id: 12c49f4c-a1b5-4841-ab98-663b4c771fb6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ Le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e app
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -72,7 +72,7 @@ curl -X POST \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla regola di decisione appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la regola di decisione. Puoi utilizzare una regola di decisione univoca `@id` in un tutorial successivo per creare offerte personalizzate.
+In caso di esito positivo, la risposta restituisce informazioni sulla regola di decisione appena creata, incluso l’ID istanza univoco e il posizionamento `@id`. Puoi utilizzare l’ID istanza nei passaggi successivi per aggiornare o eliminare la regola di decisione. È possibile utilizzare la regola di decisione univoca `@id` in un&#39;esercitazione successiva per creare offerte personalizzate.
 
 ```json
 {

@@ -18,8 +18,8 @@ ht-degree: 7%
 
 # Sintassi di personalizzazione {#personalization-syntax}
 
-Personalizzazione in [!DNL Journey Optimizer] si basa sulla sintassi del modello Handlebars.
-Per una descrizione completa della sintassi Handlebars, fare riferimento a [Documentazione di HandlebarsJS](https://handlebarsjs.com/).
+Personalization in [!DNL Journey Optimizer] si basa sulla sintassi del modello Handlebars.
+Per una descrizione completa della sintassi Handlebars, consulta la [documentazione HandlebarsJS](https://handlebarsjs.com/).
 
 Utilizza un modello e un oggetto di input per generare HTML o altri formati di testo. I modelli Handlebars hanno l’aspetto di un testo normale con espressioni Handlebars incorporate.
 
@@ -42,23 +42,23 @@ Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
 
 La sintassi fa distinzione tra maiuscole e minuscole.
 
-Le parole **true**, **false**, **nulle** e **non definito** sono consentiti solo nella prima parte di un&#39;espressione di percorso.
+Le parole **true**, **false**, **null** e **undefined** sono consentite solo nella prima parte di un&#39;espressione di percorso.
 
-In Handlebars, i valori restituiti da {{expression}} sono **con escape HTML**. Se l’espressione contiene `&`, quindi l’output con escape HTML restituito viene generato come `&amp;`. Se non desideri che Handlebars sfugga a un valore, utilizza il &quot;triplo-stash&quot;.
+In Handlebars, i valori restituiti da {{expression}} sono **con escape di HTML**. Se l&#39;espressione contiene `&`, l&#39;output con escape di HTML restituito verrà generato come `&amp;`. Se non desideri che Handlebars sfugga a un valore, utilizza il &quot;triplo-stash&quot;.
 
-Per quanto riguarda gli argomenti delle funzioni letterali, il parser del linguaggio dei modelli non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduta da una barra rovesciata (`\`). Esempio:
+Per quanto riguarda gli argomenti delle funzioni letterali, il parser del linguaggio del modello non supporta una singola barra rovesciata senza escape (`\`). Questo carattere deve essere preceduto da una barra rovesciata (`\`). Esempio:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Profilo
 
-Questo spazio dei nomi ti consente di fare riferimento a tutti gli attributi definiti nello schema del profilo descritto in [Documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+Questo spazio dei nomi consente di fare riferimento a tutti gli attributi definiti nello schema del profilo descritto nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
 
-Gli attributi devono essere definiti nello schema prima di essere referenziati in un [!DNL Journey Optimizer] blocco di personalizzazione.
+Gli attributi devono essere definiti nello schema prima di essere referenziati in un blocco di personalizzazione [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Scopri come sfruttare gli attributi di profilo nelle condizioni in [questa sezione](functions/helpers.md#if-function).
+>Scopri come sfruttare gli attributi del profilo nelle condizioni in [questa sezione](functions/helpers.md#if-function).
 
 **Riferimenti di esempio:**
 
@@ -78,7 +78,7 @@ Gli attributi devono essere definiti nello schema prima di essere referenziati i
 
 ## Tipi di pubblico{#perso-segments}
 
-Scopri come sfruttare gli attributi di profilo nelle condizioni in [questa sezione](functions/helpers.md#if-function).
+Scopri come sfruttare gli attributi del profilo nelle condizioni in [questa sezione](functions/helpers.md#if-function).
 
 >[!NOTE]
 >Per ulteriori informazioni sul servizio di segmentazione, consulta [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
@@ -94,12 +94,12 @@ Questo percorso ha la seguente struttura:
 
 dove:
 
-* `offers` identifica l’espressione di percorso appartenente allo spazio dei nomi dell’offerta
-* `Type`  determina il tipo di rappresentazione dell’offerta. I valori possibili sono: `image`, `html` e `text`
-* `Placement Id` e `Activity Id` sono identificatori di posizionamento e di attività
-* `Attributes` sono attributi specifici dell’offerta che dipendono dal tipo di offerta. Esempio: `deliveryUrl` per le immagini
+* `offers` identifica l&#39;espressione di percorso appartenente allo spazio dei nomi dell&#39;offerta
+* `Type` determina il tipo di rappresentazione dell&#39;offerta. I valori possibili sono: `image`, `html` e `text`
+* `Placement Id` e `Activity Id` sono identificatori di posizionamento e attività
+* `Attributes` sono attributi specifici dell&#39;offerta che dipendono dal tipo di offerta. Esempio: `deliveryUrl` per le immagini
 
-Per ulteriori informazioni sull’API Decisions e su Offers Representation, consulta [questa pagina](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+Per ulteriori informazioni sull&#39;API Decisions e su Offers Representation, consulta [questa pagina](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 Tutti i riferimenti vengono convalidati in base allo schema delle offerte con un meccanismo di convalida descritto in [questa pagina](personalization-validation.md)
 
@@ -128,12 +128,12 @@ Un helper Handlebars è un semplice identificatore che può essere seguito da pa
 Ogni parametro è un&#39;espressione Handlebars. È possibile accedere a questi helper da qualsiasi contesto in un modello.
 
 Questi helper di blocco sono identificati da un # che precede il nome dell&#39;helper e richiedono un / di chiusura corrispondente, con lo stesso nome.
-I blocchi sono espressioni che presentano un’apertura di blocco ({{# }}) and closing ({{/}}).
+I blocchi sono espressioni con apertura di un blocco ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]
 >
->Le funzioni helper sono descritte in [questa sezione](functions/helpers.md).
+>Le funzioni di supporto sono descritte in [questa sezione](functions/helpers.md).
 >
 
 ## Tipi letterali {#literal-types}
@@ -145,20 +145,20 @@ I blocchi sono espressioni che presentano un’apertura di blocco ({{# }}) and c
 | Stringa | Tipo di dati costituito da caratteri racchiusi tra virgolette doppie. <br>Esempi: `"prospect"`, `"jobs"`, `"articles"` |
 | Booleano | Tipo di dati true o false. |
 | Intero | Tipo di dati che rappresenta un numero intero. Può essere positivo, negativo o zero. <br>Esempi: `-201`, `0`, `412` |
-| Array | Tipo di dati composto da un gruppo di altri valori letterali. Utilizza parentesi quadre per raggruppare e virgole per delimitare tra valori diversi. <br> **Nota:** Non è possibile accedere direttamente alle proprietà degli elementi all&#39;interno di un array. <br> Esempi: `[1, 4, 7]`, `["US", "FR"]` |
+| Array | Tipo di dati composto da un gruppo di altri valori letterali. Utilizza parentesi quadre per raggruppare e virgole per delimitare tra valori diversi. <br> **Nota:** non è possibile accedere direttamente alle proprietà degli elementi all&#39;interno di un array. <br> Esempi: `[1, 4, 7]`, `["US", "FR"]` |
 
 >[!CAUTION]
 >
->L&#39;uso di **xEvent** variabile non disponibile nelle espressioni di personalizzazione. Qualsiasi riferimento a xEvent provocherà errori di convalida.
+>L&#39;utilizzo della variabile **xEvent** non è disponibile nelle espressioni di personalizzazione. Qualsiasi riferimento a xEvent provocherà errori di convalida.
 
-## Personalizzazione URL{#perso-urls}
+## URL PERSONALIZATION{#perso-urls}
 
 Gli URL personalizzati indirizzano i destinatari verso pagine specifiche di un sito web o verso un microsito personalizzato, a seconda degli attributi del profilo. In Adobe Journey Optimizer, puoi aggiungere la personalizzazione agli URL nel contenuto del messaggio. La personalizzazione URL può essere applicata a testo e immagini e utilizzare dati di profilo o dati contestuali.
 
 Journey Optimizer ti consente di personalizzare uno o più URL nel messaggio aggiungendo campi di personalizzazione. Per personalizzare un URL, effettua le seguenti operazioni:
 
 1. Crea un collegamento nel contenuto del messaggio. [Ulteriori informazioni](../email/message-tracking.md#insert-links)
-1. Dall’icona di personalizzazione, seleziona gli attributi. L’icona di personalizzazione è disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento per annullare l’iscrizione** e **Rinuncia**.
+1. Dall’icona di personalizzazione, seleziona gli attributi. L&#39;icona di personalizzazione è disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento annullamento abbonamento** e **Rinuncia**.
 
    ![](assets/perso-url.png)
 

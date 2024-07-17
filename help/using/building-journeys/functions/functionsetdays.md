@@ -10,7 +10,7 @@ exl-id: c2757e41-8206-44f7-9dbb-1fa79c0ba6e6
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -26,13 +26,13 @@ Data
 
 `setDays(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |--- |--- |
 | data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
-| giorni | numero intero |
+| giorni | intero |
 
 ## Firme e tipo restituito
 
@@ -48,6 +48,6 @@ Restituisce un valore datetime senza considerare il fuso orario.
 
 `setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
-Restituisce 2023-12-25T01:11:00Z
+Restituisce 2023-12-25T01:11:00Z.
 
 `setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`

@@ -18,10 +18,10 @@ ht-degree: 72%
 
 # Importa il contenuto delle e-mail {#existing-content}
 
-[!DNL Journey Optimizer] consente di importare contenuti HTML esistenti per progettare le e-mail. Tali contenuti possono essere:
+[!DNL Journey Optimizer] ti consente di importare contenuto HTML esistente per progettare le e-mail. Tali contenuti possono essere:
 
-* Un **file HTML** con un foglio di stile incorporato;
-* A **cartella .zip** inclusione di un file HTML, del foglio di stile (css) e delle immagini.
+* Un file **HTML** con un foglio di stile incorporato;
+* Una cartella **.zip** che include un file HTML, il foglio di stile (.css) e le immagini.
 
   >[!NOTE]
   >
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
-1. Dalla pagina Home di E-mail designer, seleziona **[!UICONTROL Importa HTML]**.
+1. Dalla home page di E-mail Designer, seleziona **[!UICONTROL Importa HTML]**.
 
    ![](assets/import-html_2.png)
 
@@ -53,6 +53,6 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
 ## Video introduttivo {#video}
 
-Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare il codice dei contenuti.
+Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare i contenuti tramite codice di programmazione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

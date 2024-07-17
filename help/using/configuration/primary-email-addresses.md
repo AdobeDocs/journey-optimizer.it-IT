@@ -30,9 +30,9 @@ ht-degree: 18%
 
 Quando esegui il targeting di un profilo, nel database potrebbero essere disponibili diversi indirizzi e-mail o numeri di telefono (indirizzo e-mail professionale, numero di telefono personale, ecc.).
 
-In tal caso: [!DNL Journey Optimizer] utilizza **[!UICONTROL Campi di esecuzione]** per determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio profilo in priorità.
+In tal caso, [!DNL Journey Optimizer] utilizza **[!UICONTROL Campi di esecuzione]** per determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio del profilo come priorità.
 
-Per controllare i campi attualmente utilizzati per impostazione predefinita, accedere alla **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi Esecuzioni]** menu.
+Per verificare i campi attualmente utilizzati per impostazione predefinita, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi di esecuzione]**.
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,9 +46,9 @@ Nella maggior parte dei casi, modificherai un campo di esecuzione a livello glob
 
 Per modificare globalmente i campi di esecuzione a livello di sandbox, segui i passaggi indicati di seguito.
 
-1. Accedere a  **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi Esecuzioni]** menu.
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Generale]** > **[!UICONTROL Campi di esecuzione]**.
 
-1. Clic **[!UICONTROL Modifica]** per modificare i valori predefiniti.
+1. Fai clic su **[!UICONTROL Modifica]** per modificare i valori predefiniti.
 
    ![](assets/primary-address.png)
 
@@ -60,7 +60,7 @@ Per modificare globalmente i campi di esecuzione a livello di sandbox, segui i p
 
    ![](assets/primary-address-select-field.png)
 
-1. Clic **[!UICONTROL Salva]** per confermare la scelta.
+1. Fai clic su **[!UICONTROL Salva]** per confermare la scelta.
 
 Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo principale.
 
@@ -70,15 +70,15 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 Solo per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato a livello globale e definire un valore diverso a livello di percorso, in particolare per il canale e-mail.
 
-Quando si aggiunge una **[!UICONTROL E-mail]** azione a un [percorso](../email/create-email.md#create-email-journey-campaign), l’indirizzo e-mail principale viene visualizzato nei parametri avanzati del percorso.
+Quando si aggiunge un&#39;azione **[!UICONTROL Email]** a un [percorso](../email/create-email.md#create-email-journey-campaign), l&#39;indirizzo e-mail principale viene visualizzato nei parametri avanzati del percorso.
 
-In alcuni contesti specifici, puoi sovrascrivere questo valore utilizzando **[!UICONTROL Abilita sostituzione parametro]** a destra del **[!UICONTROL indirizzo]** campo.
+In alcuni contesti specifici, è possibile sostituire questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo **[!UICONTROL address]**.
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l’indirizzo e-mail perché il valore definito come indirizzo principale in **[!UICONTROL Campi di esecuzione]** è quello che deve essere utilizzato.
+>La sostituzione dell’indirizzo e-mail deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificare l&#39;indirizzo e-mail perché il valore definito come indirizzo principale nei **[!UICONTROL campi di esecuzione]** è quello che deve essere utilizzato.
 
 L’override di questo valore può essere utile, ad esempio, per:
 

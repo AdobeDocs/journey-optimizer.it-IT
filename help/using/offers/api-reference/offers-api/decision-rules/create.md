@@ -9,7 +9,7 @@ exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -19,7 +19,7 @@ Le regole di decisione sono vincoli aggiunti a un’offerta personalizzata e app
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che costituiscono il campo *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -68,7 +68,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offer-rules' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sulla regola di decisione appena creata `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la regola di decisione o utilizzarla in un tutorial successivo per creare decisioni, regole di decisione e offerte di fallback.
+In caso di esito positivo, la risposta restituisce informazioni sulla regola di decisione `id` appena creata. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare la regola di decisione o in un&#39;esercitazione successiva per creare decisioni, regole di decisione e offerte di fallback.
 
 ```json
 {

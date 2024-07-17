@@ -26,7 +26,7 @@ Data
 
 `currentTimeInMillis()`
 
-## Parametri
+## Elemento “parameters”
 
 Questa funzione non utilizza parametri.
 

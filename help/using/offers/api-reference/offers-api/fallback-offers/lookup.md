@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Cercare le offerte di fallback {#look-up-fallback-offers}
 
-Per cercare offerte di fallback specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include l’ID dell’offerta di fallback nel percorso della richiesta.
+Per cercare offerte di fallback specifiche, devi effettuare una richiesta all&#39;API [!DNL Offer Library] di GET che includa l&#39;ID offerta di fallback nel percorso della richiesta.
 
 **Formato API**
 

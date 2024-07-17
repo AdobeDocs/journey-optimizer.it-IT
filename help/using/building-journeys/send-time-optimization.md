@@ -50,10 +50,10 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa 
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. Puoi anche restringere gli orari di invio utilizzati dal sistema immettendo un valore per l’opzione Invia entro."
 
-Abilitare l’ottimizzazione dell’ora di invio in un messaggio e-mail o push selezionando la **Ottimizzazione dell’ora di invio** passa dai parametri dell’attività.
+Abilita Ottimizzazione dell&#39;ora di invio in un messaggio e-mail o push selezionando lo switch **Ottimizzazione dell&#39;ora di invio** dai parametri dell&#39;attività.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. I messaggi push hanno per impostazione predefinita l’opzione opens, in quanto i clic non sono applicabili ai messaggi push.
 
-È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per **Invia entro il prossimo** opzione. Se scegli &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ciascun profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.
+È inoltre possibile scegliere di includere tra parentesi i tempi di invio utilizzati dal sistema immettendo un valore per l&#39;opzione **Invia entro il successivo**. Se si sceglie &quot;sei ore&quot; come valore, [!DNL Journey Optimizer] controllerà ogni profilo utente e sceglierà il tempo di invio ottimale entro sei ore dal tempo di esecuzione del percorso.

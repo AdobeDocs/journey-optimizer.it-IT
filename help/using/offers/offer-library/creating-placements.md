@@ -28,43 +28,43 @@ Nell’esempio seguente, sono presenti tre posizioni, corrispondenti a diversi t
 
 ![](../assets/offers_placement_schema.png)
 
-L’elenco dei posizionamenti è accessibile nella sezione **[!UICONTROL Componenti]** menu. I filtri sono disponibili per aiutarti a recuperare i posizionamenti in base a un canale o a un contenuto specifico.
+L&#39;elenco dei posizionamenti è accessibile nel menu **[!UICONTROL Componenti]**. I filtri sono disponibili per aiutarti a recuperare i posizionamenti in base a un canale o a un contenuto specifico.
 
 ![](../assets/placements_filter.png)
 
 Per creare un posizionamento, effettuate le seguenti operazioni:
 
-1. Clic **[!UICONTROL Crea posizionamento]**.
+1. Fai clic su **[!UICONTROL Crea posizionamento]**.
 
    ![](../assets/offers_placement_creation.png)
 
 1. Definite le proprietà del posizionamento:
 
    * **[!UICONTROL Nome]**: nome del posizionamento. Assicurati di definire un nome significativo per recuperarlo più facilmente.
-   * **[!UICONTROL Tipo di canale]**: canale per il quale verrà utilizzato il posizionamento.
+   * **[!UICONTROL Tipo di canale]**: il canale per il quale verrà utilizzato il posizionamento.
    * **[!UICONTROL Tipo di contenuto]**: tipo di contenuto che il posizionamento potrà visualizzare: Testo, HTML, Collegamento immagine o JSON.
    * **[!UICONTROL Descrizione]**: descrizione del posizionamento (facoltativo).
 
    ![](../assets/offers_placement_creation_properties.png)
 
 
-1. Il **[!UICONTROL Impostazioni richiesta]** e **[!UICONTROL Formato di risposta]** Le sezioni forniscono parametri aggiuntivi:
+1. Le sezioni **[!UICONTROL Impostazioni richiesta]** e **[!UICONTROL Formato risposta]** forniscono parametri aggiuntivi:
 
-   * **[!UICONTROL Consenti duplicati nei posizionamenti]**: controlla se la stessa offerta può essere proposta più volte tra posizionamenti diversi. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. Per impostazione predefinita, il parametro è impostato su false.
+   * **[!UICONTROL Consenti duplicati tra posizionamenti]**: controlla se la stessa offerta può essere proposta più volte tra posizionamenti diversi. Se questa opzione è abilitata, il sistema considererà la stessa offerta per più posizionamenti. Per impostazione predefinita, il parametro è impostato su false.
 
      Se questa opzione è impostata su false per qualsiasi posizionamento in una richiesta di decisione, tutti i posizionamenti nella richiesta ereditano l’impostazione &quot;false&quot;.
 
-   * **[!UICONTROL Richiedi offerta]**: per impostazione predefinita, viene restituita un’offerta dell’ambito di decisione per ogni profilo. Puoi regolare il numero di offerte restituite utilizzando questa opzione. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito di decisione selezionato.
+   * **[!UICONTROL Richiesta offerta]**: per impostazione predefinita, viene restituita un&#39;offerta dell&#39;ambito di decisione per ogni profilo. Puoi regolare il numero di offerte restituite utilizzando questa opzione. Ad esempio, se selezioni 2, verranno visualizzate le 2 offerte migliori per l’ambito di decisione selezionato.
 
-   * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell’offerta devono essere restituiti nella risposta API. Puoi includere solo tutti i metadati o campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su true.
+   * **[!UICONTROL Includi contenuto]** / **[!UICONTROL Includi metadati]**: specifica se il contenuto e i metadati dell&#39;offerta devono essere restituiti nella risposta API. Puoi includere solo tutti i metadati o campi specifici. Per impostazione predefinita, il valore Includi metadati è impostato su true.
 
-   Questi parametri possono anche essere impostati direttamente nella richiesta API se si lavora con [API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
+   Questi parametri possono anche essere impostati direttamente nella richiesta API se si utilizza l&#39;[API Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Tuttavia, configurarli nell’interfaccia utente può aiutarti a risparmiare tempo, in quanto non dovrai trasmetterli a ogni richiesta API. Tieni presente che se configuri i parametri sia nell’interfaccia utente che nella richiesta API, i valori della richiesta API avranno la precedenza su quelli dell’interfaccia.
 
    >[!NOTE]
    >
-   >Se utilizzi il [API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata.
+   >Se si utilizza l&#39;[API Edge Decisioning](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), non è possibile impostare questi parametri nella richiesta. È necessario definirli in questa schermata.
    >
-   >Se utilizzi il [API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), è possibile impostare questi parametri in questa schermata o nella richiesta API. In caso di mancata corrispondenza dei valori dei parametri tra la schermata e la richiesta APi, verranno utilizzati i valori della richiesta.
+   >Se si utilizza l&#39;[API Batch Decisioning](../api-reference/offer-delivery-api/batch-decisioning-api.md), è possibile impostare questi parametri in questa schermata o nella richiesta API. In caso di mancata corrispondenza dei valori dei parametri tra la schermata e la richiesta APi, verranno utilizzati i valori della richiesta.
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare.
 

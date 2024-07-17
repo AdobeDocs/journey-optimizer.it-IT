@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminare una regola di decisione {#delete-decision-rule}
 
-Occasionalmente può essere necessario rimuovere (DELETE) una regola di decisione. È possibile eliminare solo le regole di decisione create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] API che utilizza l’ID istanza della regola di decisione da eliminare.
+Occasionalmente può essere necessario rimuovere (DELETE) una regola di decisione. È possibile eliminare solo le regole di decisione create nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando l&#39;ID istanza della regola di decisione che si desidera eliminare.
 
 **Formato API**
 

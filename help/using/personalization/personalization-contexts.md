@@ -12,29 +12,29 @@ exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
 # Contesti di personalizzazione{#personalization-areas}
 
-Il contenuto e la visualizzazione dei messaggi consegnati da [!DNL Journey Optimizer] può essere personalizzato in diversi modi. In ogni campo con l’icona dell’editor, puoi aprire l’editor di personalizzazione (noto anche come editor di personalizzazione) e definire la personalizzazione.
+Il contenuto e la visualizzazione dei messaggi consegnati da [!DNL Journey Optimizer] possono essere personalizzati in diversi modi. In ogni campo con l’icona dell’editor, puoi aprire l’editor di personalizzazione (noto anche come editor di personalizzazione) e definire la personalizzazione.
 
 ![](assets/perso_icon.png)
 
 ## Personalizzare le e-mail {#personalize-emails}
 
-Quando crei un messaggio e-mail, puoi aggiungere la personalizzazione nel **[!UICONTROL Oggetto]** del messaggio.
+Quando crei un messaggio e-mail, puoi aggiungere la personalizzazione nel campo **[!UICONTROL Oggetto]** del messaggio.
 
 ![](assets/perso_subject.png)
 
 In E-mail designer, puoi personalizzare il contenuto:
 
-* In **messaggio**: fai clic all’interno di un blocco di testo, fai clic su **Aggiungi personalizzazione** dalla barra degli strumenti contestuale. Per ulteriori informazioni sull’interfaccia di E-mail Designer, consulta questa [sezione](../email/get-started-email-design.md).
+* Nel **messaggio**: fare clic all&#39;interno di un blocco di testo, fare clic sull&#39;icona **Aggiungi Personalization** nella barra degli strumenti contestuale. Per ulteriori informazioni sull&#39;interfaccia di E-mail Designer, consulta questa [sezione](../email/get-started-email-design.md).
 
   ![](assets/perso_insert.png)
 
-* Per un **link**: seleziona del testo o dell’immagine all’interno di un blocco di testo, fai clic sulla **Inserisci collegamento** dalla barra degli strumenti contestuale. Nella finestra di, puoi aggiungere un blocco di personalizzazione facendo clic sul pulsante **Aggiungi personalizzazione** icona.
+* Per un **collegamento**: seleziona del testo o dell&#39;immagine all&#39;interno di un blocco di testo, fai clic sull&#39;icona **Inserisci collegamento** nella barra degli strumenti contestuale. Nella finestra puoi aggiungere un blocco di personalizzazione facendo clic sull&#39;icona **Aggiungi personalizzazione**.
 
   ![](assets/perso_link.png)
 
@@ -44,7 +44,7 @@ In entrambi i casi, accedi all’editor di personalizzazione.
 
 ## Personalizzare le notifiche push {#personalize-push}
 
-Puoi anche personalizzare il tuo **Notifiche push** nei seguenti campi:
+Puoi anche personalizzare le **notifiche push** nei seguenti campi:
 
 * **Titolo**
 * **Corpo**

@@ -36,23 +36,23 @@ Puoi trovare il controllo del commutatore sandbox in alto a destra dello schermo
 
 >[!IMPORTANT]
 >
-> La gestione delle sandbox può essere eseguita solo da un **[!UICONTROL Prodotto]** o **[!UICONTROL Sistema]** amministratore.
+> La gestione delle sandbox può essere eseguita solo da un amministratore **[!UICONTROL Product]** o **[!UICONTROL System]**.
 
-Puoi scegliere di assegnare sandbox diverse a sandbox predefinite o personalizzate **[!UICONTROL Ruoli]**.
+Puoi scegliere di assegnare sandbox diverse a **[!UICONTROL Ruoli]** predefiniti o personalizzati.
 
 Per assegnare le sandbox:
 
-1. In entrata [!DNL Permissions], dalla **[!UICONTROL Ruoli]** , seleziona una **[!UICONTROL Ruolo]**.
+1. In [!DNL Permissions], dalla scheda **[!UICONTROL Ruoli]**, selezionare un **[!UICONTROL Ruolo]**.
 
    ![](assets/sandbox_1.png)
 
-1. Clic **[!UICONTROL Modifica]**.
+1. Fai clic su **[!UICONTROL Modifica]**.
 
-1. Dalla sezione **[!UICONTROL Sandbox]** dall&#39;elenco a discesa delle risorse, seleziona la sandbox che verrà assegnata al tuo ruolo.
+1. Dall&#39;elenco a discesa delle risorse **[!UICONTROL Sandbox]**, seleziona la sandbox che verrà assegnata al tuo ruolo.
 
    ![](assets/sandbox_3.png)
 
-1. Se necessario, fai clic sull’icona X accanto a rimuovere le sandbox per accedere al **[!UICONTROL Ruolo]**.
+1. Se necessario, fai clic sull&#39;icona X accanto a rimuovere l&#39;accesso sandbox al tuo **[!UICONTROL Ruolo]**.
 
    ![](assets/sandbox_4.png)
 
@@ -60,7 +60,7 @@ Per assegnare le sandbox:
 
 ## Accesso al contenuto {#content-access}
 
-Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa in **[!UICONTROL Storage]** scheda visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
+Per configurare l’accessibilità dei contenuti, è necessario assegnare una cartella di contenuti condivisa a ciascuna delle sandbox. Puoi creare e configurare la cartella condivisa nella scheda **[!UICONTROL Archiviazione]** visualizzata in [!DNL Admin Console] per gli amministratori. Se hai accesso ad [!DNL Admin Console] come amministratore di sistema, puoi creare cartelle condivise e aggiungere delegati con diversi livelli di accesso alle cartelle condivise.
 
 ![](assets/do-not-localize/content_access.png)
 

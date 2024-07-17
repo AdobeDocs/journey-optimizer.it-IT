@@ -26,10 +26,10 @@ Operazioni matematiche
 
 `round(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 * decimale
-* numero intero
+* intero
 
 ## Firme e tipo restituito
 

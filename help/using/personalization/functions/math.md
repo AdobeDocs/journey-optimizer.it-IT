@@ -19,7 +19,7 @@ Scopri come utilizzare le funzioni matematiche nell’editor di personalizzazion
 
 ## Assoluto {#absolute}
 
-Il `absolute` funzione viene utilizzata per convertire un numero in valore assoluto.
+La funzione `absolute` viene utilizzata per convertire un numero in valore assoluto.
 
 **Sintassi**
 
@@ -29,7 +29,7 @@ Il `absolute` funzione viene utilizzata per convertire un numero in valore assol
 
 ## formatNumber {#format-number}
 
-Il `formatNumber` La funzione viene utilizzata per formattare qualsiasi numero nella relativa rappresentazione sensibile alla lingua.
+La funzione `formatNumber` viene utilizzata per formattare qualsiasi numero nella relativa rappresentazione sensibile alla lingua.
 
 Accetta un numero e una stringa che rappresenta la lingua e restituisce una stringa formattata del numero nella lingua desiderata.
 
@@ -39,7 +39,7 @@ Accetta un numero e una stringa che rappresenta la lingua e restituisce una stri
 {%= formatNumber(number/double,string) %}: string
 ```
 
-È possibile utilizzare la formattazione e le lingue valide come riepilogato in [Documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+Puoi utilizzare la formattazione e le impostazioni internazionali valide come riepilogato in [documentazione di Oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) e [Impostazioni internazionali supportate](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **Esempio**
 
@@ -51,7 +51,7 @@ Questa query restituisce come numero di input una stringa formattata in arabo co
 
 ## Casuale {#random}
 
-Il `random` viene utilizzata per restituire un valore casuale compreso tra 0 e 1.
+La funzione `random` viene utilizzata per restituire un valore casuale compreso tra 0 e 1.
 
 **Sintassi**
 
@@ -61,7 +61,7 @@ Il `random` viene utilizzata per restituire un valore casuale compreso tra 0 e 1
 
 ## Arrotonda per difetto {#round-down}
 
-Il `roundDown` viene utilizzata per arrotondare un numero per difetto.
+La funzione `roundDown` viene utilizzata per arrotondare un numero per difetto.
 
 **Sintassi**
 
@@ -71,7 +71,7 @@ Il `roundDown` viene utilizzata per arrotondare un numero per difetto.
 
 ## Arrotonda per eccesso {#round-up}
 
-Il `Count only null` funzione viene utilizzato per arrotondare un numero.
+La funzione `Count only null` viene utilizzata per arrotondare un numero.
 
 **Sintassi**
 
@@ -81,7 +81,7 @@ Il `Count only null` funzione viene utilizzato per arrotondare un numero.
 
 ## Alla stringa esadecimale {#to-hex-string}
 
-Il `toHexString` funzione converte qualsiasi numero nella relativa stringa esadecimale.
+La funzione `toHexString` converte qualsiasi numero nella relativa stringa esadecimale.
 
 **Sintassi**
 
@@ -99,7 +99,7 @@ Questa query restituisce il valore esadecimale 158, ovvero 9e.
 
 ## Per Int {#to-int}
 
-Il `toInt` La funzione viene utilizzata per convertire uno qualsiasi di questi tipi (number, double, int, long, float, short, byte, boolean, string) in un numero intero.
+La funzione `toInt` viene utilizzata per convertire questi tipi (number, double, int, long, float, short, byte, boolean, string) in un numero intero.
 
 **Sintassi**
 
@@ -117,7 +117,7 @@ Questa query restituisce il valore intero 42,6, ovvero 42.
 
 ## A percentuale {#to-percentage}
 
-Il `toPercentage` viene utilizzata per convertire un numero in percentuale.
+La funzione `toPercentage` viene utilizzata per convertire un numero in percentuale.
 
 **Sintassi**
 
@@ -127,7 +127,7 @@ Il `toPercentage` viene utilizzata per convertire un numero in percentuale.
 
 ## A precisione {#to-precision}
 
-Il `toPrecision` viene utilizzata per convertire un numero con la precisione richiesta.
+La funzione `toPrecision` viene utilizzata per convertire un numero con la precisione richiesta.
 
 **Sintassi**
 
@@ -137,7 +137,7 @@ Il `toPrecision` viene utilizzata per convertire un numero con la precisione ric
 
 ## A stringa {#to-string}
 
-Il **toString** funzione converte qualsiasi numero nella sua rappresentazione di stringa.
+La funzione **toString** converte qualsiasi numero nella relativa rappresentazione di stringa.
 
 **Sintassi**
 

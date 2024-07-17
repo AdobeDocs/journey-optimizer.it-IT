@@ -24,14 +24,14 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 * Non esiste alcuna limitazione di invio. 
 * In caso di errore vengono eseguiti sistematicamente tre tentativi. Non è possibile regolare il numero di tentativi in base al messaggio di errore ricevuto. 
-* Il sistema integrato **Reazione** consente di reagire alle azioni predefinite (vedi questo [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
+* L&#39;evento predefinito **Reaction** ti consente di reagire alle azioni predefinite (vedi questa [pagina](../building-journeys/reaction-events.md)). Se desideri reagire a un messaggio inviato tramite un’azione personalizzata, devi configurare un evento dedicato. 
 * Non è possibile inserire due azioni in parallelo, è necessario aggiungerle una dopo l’altra.
 
 ## Limitazioni delle versioni di percorso {#journey-versions-limitations}
 
-* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un **Qualificazione del pubblico** evento.
-* Un percorso che inizia con **Qualificazione del pubblico** l&#39;attività nella versione 1 deve sempre iniziare con un **Qualificazione del pubblico** in altre versioni.
-* Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non può essere modificato nelle nuove versioni.
+* Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Impossibile avviare un percorso con un evento **Qualificazione del pubblico**.
+* Un percorso che inizia con un&#39;attività **Qualificazione del pubblico** nella versione v1 deve sempre iniziare con una **Qualificazione del pubblico** nelle altre versioni.
+* Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (primo nodo) non possono essere modificati nelle nuove versioni.
 * La regola di reingresso deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con un’attività di **Leggi pubblico** non può iniziare con un altro evento nelle versioni successive.
 

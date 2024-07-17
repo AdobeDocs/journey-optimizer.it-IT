@@ -26,12 +26,12 @@ Stringa
 
 `startWith(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-------------|--------|
-| string | string |
-| prefisso | string |
+| stringa | stringa |
+| prefisso | stringa |
 
 ## Firma e tipo restituito
 

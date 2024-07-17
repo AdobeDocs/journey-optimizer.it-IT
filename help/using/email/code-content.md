@@ -24,15 +24,15 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
 
 >[!CAUTION]
 >
-> Immagini da [Adobe Experience Manager Assets](../content-management/assets.md) non può essere utilizzato con riferimento quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
+> Impossibile fare riferimento alle immagini da [Adobe Experience Manager Assets](../content-management/assets.md) quando si utilizza questo metodo. Le immagini a cui si fa riferimento nel codice HTML devono essere memorizzate in una posizione pubblica.
 
-1. Dalla pagina Home di E-mail designer, seleziona **[!UICONTROL Crea il codice]**.
+1. Dalla home page di E-mail Designer, seleziona **[!UICONTROL Crea un codice personalizzato]**.
 
    ![](assets/code-your-own.png)
 
 1. Immetti o incolla il codice HTML non elaborato.
 
-1. Utilizza il riquadro a sinistra per sfruttare [!DNL Journey Optimizer] funzionalità di personalizzazione. [Ulteriori informazioni](../personalization/personalize.md)
+1. Utilizza il riquadro a sinistra per sfruttare le funzionalità di personalizzazione di [!DNL Journey Optimizer]. [Ulteriori informazioni](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -44,7 +44,7 @@ Utilizza la modalità **[!UICONTROL Crea il codice]** per importare o creare il 
    >
    >Questa azione apre il modello selezionato in E-mail Designer. Da lì puoi completare il design dell’e-mail o tornare all’editor di codice utilizzando l’opzione **[!UICONTROL Passa all’editor di codice]**.
 
-1. Fai clic su **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
+1. Fai clic sul pulsante **[!UICONTROL Anteprima]** per controllare la progettazione e la personalizzazione del messaggio utilizzando i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

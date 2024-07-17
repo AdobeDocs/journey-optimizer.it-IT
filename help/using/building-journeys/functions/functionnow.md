@@ -16,7 +16,7 @@ ht-degree: 14%
 
 # now {#now}
 
-Restituisce la data corrente in formato data e ora. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+Restituisce la data corrente in formato data e ora. Per ulteriori informazioni sui tipi di dati, consultare [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
@@ -26,11 +26,11 @@ Data
 
 `now(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione |
 |--- |--- |
-| string |  |
+| stringa |  |
 
 ## Firme e tipo restituito
 

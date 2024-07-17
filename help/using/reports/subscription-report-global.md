@@ -24,22 +24,22 @@ ht-degree: 19%
 
 I report globali, accessibili dalla scheda Tutto il tempo, visualizzano gli eventi che si sono verificati almeno due ore fa e coprono gli eventi relativi a un periodo di tempo selezionato. Al confronto, i rapporti live si concentrano sugli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento.
 
-Per accedere ai rapporti, fai clic su **[!UICONTROL Report]** dell&#39;elenco di iscrizioni selezionato.
+Per accedere ai tuoi report, fai clic sull&#39;icona **[!UICONTROL Report]** dell&#39;elenco di iscrizioni selezionato.
 
 ![](assets/subscription_report_7.png)
 
-La sottoscrizione **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio gli abbonamenti e i loro annullamenti. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](global-report.md).
+Il report globale **[!UICONTROL abbonamento]** è diviso in diversi widget che descrivono gli abbonamenti e i loro annullamenti. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](global-report.md).
 
 ![](assets/subscription_report_1.png)
 
-Il **[!UICONTROL Prestazioni abbonamento]** KPI e **[!UICONTROL Iscrizioni per percorso]**/**[!UICONTROL Annulla iscrizione per percorso]** le tabelle descrivono le informazioni principali relative al coinvolgimento dei visitatori con la pagina di destinazione. Le tabelle e i KPI contengono i dati disponibili relativi alla pagina di destinazione, ad esempio:
+Le tabelle dei KPI **[!UICONTROL Prestazioni abbonamento]** e **[!UICONTROL Abbonamenti per percorso]**/**[!UICONTROL Annullamenti abbonamenti per percorso]** contengono informazioni dettagliate sulle informazioni principali relative al coinvolgimento dei visitatori con la pagina di destinazione. Le tabelle e i KPI contengono i dati disponibili relativi alla pagina di destinazione, ad esempio:
 
 * **[!UICONTROL Abbonamenti]**: numero totale di abbonamenti per il periodo in questione.
 
-* **[!UICONTROL Annulla iscrizione]**: numero totale di annullamenti di abbonamenti per il periodo in questione.
+* **[!UICONTROL Annullamenti abbonamenti]**: numero totale di annullamenti di abbonamenti per il periodo in questione.
 
-Il **[!UICONTROL Prestazioni abbonamento]** Il grafico mostra l’evoluzione degli abbonamenti per il periodo in questione.
+Il grafico **[!UICONTROL Prestazioni abbonamento]** mostra l&#39;evoluzione degli abbonamenti per il periodo in questione.
 
 ![](assets/subscription_report_2.png)
 
-Il **Iscrizioni - Raggruppamento** e **Annullamenti iscrizione - Raggruppamento** rappresenta il numero totale di persone che hanno effettuato o annullato l’abbonamento nel periodo di tempo selezionato, a seconda dei messaggi, delle pagine di destinazione e dei canali.
+Le **Sottoscrizioni - Raggruppamento** e **Annullamenti abbonamenti - Raggruppamento** rappresentano il numero totale di persone che hanno effettuato o annullato l&#39;abbonamento nel periodo di tempo selezionato, a seconda dei messaggi, delle pagine di destinazione e dei canali.

@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ## Controlla i report web {#check-web-reports}
 
-Una volta che la campagna è attiva, puoi controllare **[!UICONTROL Web]** scheda dei rapporti della campagna per confrontare elementi quali il numero di impression, il tasso di clic e il numero di impegni con la pagina web. Ulteriori informazioni sul Web della campagna [rapporto live](../reports/campaign-live-report.md#web-tab) e [rapporto globale](../reports/campaign-global-report.md#web-tab).
+Una volta che la campagna è attiva, puoi controllare la scheda **[!UICONTROL Web]** dei rapporti della campagna per confrontare elementi quali il numero di impression, il numero di clic e il numero di engagement con la pagina web. Ulteriori informazioni sul [rapporto live](../reports/campaign-live-report.md#web-tab) e sul [rapporto globale](../reports/campaign-global-report.md#web-tab) della campagna Web.
 
 Per migliorare ulteriormente il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Questo consente di visualizzare il numero di clic su tale elemento nei rapporti web. [Scopri come](#use-click-tracing)
 
@@ -25,9 +25,9 @@ Per migliorare ulteriormente il monitoraggio dell’esperienza web, puoi anche t
 
 Il web designer consente di selezionare qualsiasi elemento del sito web e di tenere traccia dei clic su di esso.
 
-Queste informazioni possono essere utili per migliorare l’esperienza degli utenti del sito web. Ad esempio, se [rapporti web](../reports/campaign-global-report.md#web-tab) se molti utenti fanno clic su un elemento che non è effettivamente cliccabile, puoi aggiungere un collegamento a tale elemento.
+Queste informazioni possono essere utili per migliorare l’esperienza degli utenti del sito web. Ad esempio, se i [report Web](../reports/campaign-global-report.md#web-tab) mostrano che molti utenti fanno clic su un elemento che non è effettivamente cliccabile, è possibile aggiungere un collegamento a tale elemento.
 
-1. Seleziona un elemento nella pagina e scegli **[!UICONTROL Fai clic sull’elemento di tracciamento]** dal menu contestuale.
+1. Seleziona un elemento nella pagina e scegli **[!UICONTROL Seleziona l&#39;elemento di tracciamento]** dal menu contestuale.
 
    ![](assets/web-designer-click-track.png)
 
@@ -35,11 +35,11 @@ Queste informazioni possono essere utili per migliorare l’esperienza degli ute
    >
    >È possibile selezionare qualsiasi elemento, cliccabile o meno.
 
-1. L&#39;azione tracciata corrispondente viene visualizzata automaticamente nella **[!UICONTROL Traccia clic]** a sinistra.
+1. L&#39;azione tracciata corrispondente viene visualizzata automaticamente nel riquadro **[!UICONTROL Traccia clic]** a sinistra.
 
    ![](assets/web-designer-click-track-pane.png)
 
-1. Aggiungi un’etichetta significativa per gestire tutti gli elementi tracciati e trovarli facilmente nei rapporti. Il **[!UICONTROL Selettore CSS]** mostra informazioni per individuare l’elemento selezionato.
+1. Aggiungi un’etichetta significativa per gestire tutti gli elementi tracciati e trovarli facilmente nei rapporti. Il campo **[!UICONTROL Selettore CSS]** mostra le informazioni per individuare l&#39;elemento selezionato.
 
 1. Ripeti i passaggi precedenti per selezionare tutti gli altri elementi necessari per il tracciamento dei clic. Tutte le azioni corrispondenti sono elencate nel riquadro a sinistra.
 
@@ -47,4 +47,4 @@ Queste informazioni possono essere utili per migliorare l’esperienza degli ute
 
 1. Per rimuovere il tracciamento dei clic su un elemento, seleziona l’icona di eliminazione corrispondente.
 
-Una volta che la campagna è attiva, puoi controllare il numero di clic per ogni elemento nel web della campagna [rapporto live](../reports/campaign-live-report.md#web-tab) e [rapporto globale](../reports/campaign-global-report.md#web-tab).
+Una volta che la campagna è attiva, puoi controllare il numero di clic per ogni elemento nel web della campagna [rapporto live](../reports/campaign-live-report.md#web-tab) e nel [rapporto globale](../reports/campaign-global-report.md#web-tab).

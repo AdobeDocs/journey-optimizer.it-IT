@@ -27,14 +27,14 @@ Aggregazione
 
 `avg(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 Tipi supportati:
 
 * listInteger
 * listDecimal
 * decimale
-* numero intero
+* intero
 
 ## Firme e tipo restituito
 

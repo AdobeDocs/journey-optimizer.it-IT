@@ -20,15 +20,15 @@ ht-degree: 7%
 
 ## Archiviare i messaggi {#about-archiving}
 
-Normative come l&#39;HIPAA richiedono che [!DNL Journey Optimizer] deve fornire un modo per archiviare i messaggi inviati ai singoli utenti. In effetti, se i clienti presentano una richiesta, devono avere la possibilità di ottenere una copia del messaggio inviato a scopo di verifica.
+Normative come HIPAA richiedono che [!DNL Journey Optimizer] fornisca un modo per archiviare i messaggi inviati a singoli utenti. In effetti, se i clienti presentano una richiesta, devono avere la possibilità di ottenere una copia del messaggio inviato a scopo di verifica.
 
-* Per il canale e-mail, [!DNL Journey Optimizer] fornisce una funzionalità e-mail CCN integrata. [Ulteriori informazioni](#bcc-email)
+* Per il canale e-mail, [!DNL Journey Optimizer] fornisce una funzionalità e-mail Ccn incorporata. [Ulteriori informazioni](#bcc-email)
 
-* Inoltre, per tutti i canali, puoi utilizzare il campo &quot;Modello&quot; nel **Set di dati di entità**, che contiene i dettagli dei modelli di messaggio non personalizzati. Esporta il set di dati con questo campo per salvare metadati quali: chi ha inviato il messaggio, a chi e quando. Tieni presente che i dati personalizzati non vengono esportati, ma solo il modello (formato e struttura del messaggio). [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
+* Inoltre, per tutti i canali, è possibile utilizzare il campo &#39;Modello&#39; nel **Set di dati di entità**, che contiene i dettagli dei modelli di messaggio non personalizzati. Esporta il set di dati con questo campo per salvare metadati quali: chi ha inviato il messaggio, a chi e quando. Tieni presente che i dati personalizzati non vengono esportati, ma solo il modello (formato e struttura del messaggio). [Ulteriori informazioni](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] non dispone del supporto per i requisiti di archiviazione SMS. Per il supporto di archiviazione dedicato, collabora con il fornitore di SMS (Synch, Infobip o Twilio).
+>[!DNL Journey Optimizer] non è il proprietario del supporto per i requisiti di archiviazione SMS. Per il supporto di archiviazione dedicato, collabora con il fornitore di SMS (Synch, Infobip o Twilio).
 
 ## Come utilizzare Ccn per le e-mail {#bcc-email}
 
@@ -37,11 +37,11 @@ Normative come l&#39;HIPAA richiedono che [!DNL Journey Optimizer] deve fornire 
 >title="Definire un indirizzo e-mail Ccn"
 >abstract="Per conservare una copia delle e-mail inviate, puoi includere nell’invio un indirizzo e-mail in Ccn. Immetti l’indirizzo e-mail desiderato in modo che ogni e-mail venga inviata anche in copia per conoscenza nascosta a questo indirizzo Ccn. Il dominio dell’indirizzo Ccn non deve essere lo stesso di un sottodominio delegato ad Adobe. Questa funzione è facoltativa."
 
-Puoi inviare una copia per conoscenza nascosta (CCN) di un’e-mail inviata da [!DNL Journey Optimizer] a un indirizzo Ccn dedicato. Questa funzione opzionale consente di conservare le copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. L&#39;indirizzo Ccn non è visibile agli altri destinatari del messaggio.
+È possibile inviare una copia per conoscenza nascosta (CCN) di un&#39;e-mail inviata da [!DNL Journey Optimizer] a un indirizzo CCN dedicato. Questa funzione opzionale consente di conservare le copie delle comunicazioni e-mail inviate agli utenti per scopi di conformità e/o archiviazione. L&#39;indirizzo Ccn non è visibile agli altri destinatari del messaggio.
 
 ### Abilita e-mail Ccn {#enable-bcc}
 
-Per attivare **[!UICONTROL E-mail Ccn]** , immetti l’indirizzo e-mail desiderato nel campo dedicato del [superficie di canale](channel-surfaces.md) (ossia predefinito per messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Ad esempio, se hai delegato *marketing.luma.com* sottodominio da Adobe, qualsiasi indirizzo come *abc@marketing.luma.com* è vietato.
+Per abilitare l&#39;opzione **[!UICONTROL E-mail Ccn]**, immetti l&#39;indirizzo e-mail desiderato nel campo dedicato della [superficie di canale](channel-surfaces.md) (ossia il predefinito per messaggi). Puoi specificare qualsiasi indirizzo esterno nel formato corretto, ad eccezione di un indirizzo e-mail definito in un sottodominio delegato ad Adobe. Se ad Adobe hai delegato il sottodominio *marketing.luma.com*, qualsiasi indirizzo come *abc@marketing.luma.com* non sarà consentito.
 
 >[!CAUTION]
 >
@@ -65,7 +65,7 @@ L’impostazione dell’indirizzo e-mail Ccn viene immediatamente salvata ed ela
 
 ![](assets/preset-bcc-in-msg.png)
 
-Tuttavia, l’indirizzo Ccn viene selezionato per inviare comunicazioni seguendo la logica descritta [qui](../email/email-settings.md).
+Tuttavia, l&#39;indirizzo Ccn viene selezionato per l&#39;invio di comunicazioni in base alla logica descritta [qui](../email/email-settings.md).
 
 ### Recommendations e limitazioni {#bcc-recommendations-limitations}
 
@@ -75,11 +75,11 @@ Tuttavia, l’indirizzo Ccn viene selezionato per inviare comunicazioni seguendo
 
 * La casella in entrata utilizzata per il campo Ccn deve essere gestita correttamente per quanto riguarda lo spazio e la consegna. Se la casella in entrata restituisce mancati recapiti, alcuni messaggi e-mail potrebbero non essere ricevuti e pertanto non verranno archiviati.
 
-* I messaggi possono essere recapitati all’indirizzo e-mail Ccn prima dei destinatari target. I messaggi Ccn possono essere inviati anche se i messaggi originali [non recapitato](../reports/suppression-list.md#delivery-failures).
+* I messaggi possono essere recapitati all’indirizzo e-mail Ccn prima dei destinatari target. I messaggi Ccn possono essere inviati anche se i messaggi originali contengono [messaggi non recapitati](../reports/suppression-list.md#delivery-failures).
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Non aprire o scorrere le e-mail inviate all’indirizzo Ccn, in quanto vengono prese in considerazione nel totale delle aperture e dei clic dall’analisi di invio, il che potrebbe causare alcuni errori di calcolo in [rapporti](../reports/global-report.md).
+* Non aprire o scorrere le e-mail inviate all&#39;indirizzo Ccn in quanto è stato preso in considerazione nel totale delle aperture e dei clic dall&#39;analisi di invio, il che potrebbe causare alcuni errori di calcolo in [report](../reports/global-report.md).
 
 * Non contrassegnare i messaggi come spam nella casella in entrata Ccn, in quanto influirà su tutte le altre e-mail inviate a questo indirizzo.
 
@@ -89,19 +89,19 @@ Tuttavia, l’indirizzo Ccn viene selezionato per inviare comunicazioni seguendo
 
 ### Conformità al RGPD {#gdpr-compliance}
 
-Regolamenti come il RGPD stabiliscono che gli interessati devono essere in grado di modificare il loro consenso in qualsiasi momento. Poiché le e-mail in Ccn che stai inviando con Journey Optimizer includono informazioni personali (PII) protette, devi modificare i **[!UICONTROL Schema evento feedback CJM e-mail CCN]** essere in grado di gestire queste informazioni PII in conformità al RGPD e a normative simili.
+Regolamenti come il RGPD stabiliscono che gli interessati devono essere in grado di modificare il loro consenso in qualsiasi momento. Poiché le e-mail in Ccn che stai inviando con Journey Optimizer includono informazioni personali protette (PII), devi modificare lo **[!UICONTROL Schema evento feedback CJM e-mail in Ccn]** per poter gestire questi PII in conformità con il RGPD e normative simili.
 
 Per farlo, segui la procedura indicata di seguito.
 
-1. Vai a **[!UICONTROL Gestione dei dati]** > **[!UICONTROL Schemi]** > **[!UICONTROL Sfoglia]** e seleziona **[!UICONTROL Schema evento feedback CJM e-mail CCN]**.
+1. Vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Schemi]** > **[!UICONTROL Sfoglia]** e seleziona **[!UICONTROL Schema evento feedback e-mail CJM]**.
 
    ![](assets/preset-bcc-schema.png)
 
-1. Fai clic per espandere **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** allora **[!UICONTROL secondaryRecipientDetail]**.
+1. Fai clic per espandere **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** e **[!UICONTROL secondaryRecipientDetail]**.
 
-1. Seleziona **[!UICONTROL originalRecipientAddress]**.
+1. Selezionare **[!UICONTROL originalRecipientAddress]**.
 
-1. In **[!UICONTROL Proprietà campo]** a destra, scorri verso il basso fino al **[!UICONTROL Identità]** casella di controllo.
+1. Nella **[!UICONTROL Proprietà campo]** a destra, scorri verso il basso fino alla casella di controllo **[!UICONTROL Identità]**.
 
 1. Selezionala e seleziona anche **[!UICONTROL Identità primaria]**.
 
@@ -109,21 +109,21 @@ Per farlo, segui la procedura indicata di seguito.
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. Fai clic su **[!UICONTROL Applica]**.
+1. Fare clic su **[!UICONTROL Applica]**.
 
 >[!NOTE]
 >
->Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta [Documentazione di Experienci Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
+>Per ulteriori informazioni sulla gestione della privacy e sulle normative applicabili, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
 ### Dati di reporting Ccn {#bcc-reporting}
 
-La generazione di rapporti in quanto tale in Ccn non è disponibile nei rapporti percorso e messaggio. Tuttavia, le informazioni vengono memorizzate in un set di dati di sistema denominato **[!UICONTROL Set di dati evento feedback Ccn AJO]**. Puoi eseguire query su questo set di dati per trovare informazioni utili, ad esempio a scopo di debug.
+La generazione di rapporti in quanto tale in Ccn non è disponibile nei rapporti percorso e messaggio. Tuttavia, le informazioni vengono memorizzate in un set di dati di sistema denominato **[!UICONTROL Set di dati evento di feedback CCN di AJO]**. Puoi eseguire query su questo set di dati per trovare informazioni utili, ad esempio a scopo di debug.
 
-Puoi accedere a questo set di dati tramite l’interfaccia utente. Seleziona **[!UICONTROL Gestione dei dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]** e abilita **[!UICONTROL Mostra set di dati di sistema]** attiva dal filtro per visualizzare i set di dati generati dal sistema. Scopri come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
+Puoi accedere a questo set di dati tramite l’interfaccia utente. Seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]** e abilita l&#39;opzione **[!UICONTROL Mostra set di dati di sistema]** dal filtro per visualizzare i set di dati generati dal sistema. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Per eseguire query su questo set di dati, puoi utilizzare l’Editor query fornito da [Servizio query Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dei dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
+Per eseguire query su questo set di dati, è possibile utilizzare l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ A seconda delle informazioni che stai cercando, puoi eseguire le seguenti query.
 
    >[!NOTE]
    >
-   >Per ottenere `<journey version id>`, seleziona il parametro corrispondente [Versione percorso](../building-journeys/journey.md#journey-versions) dal **[!UICONTROL Gestione dei percorsi]** > **[!UICONTROL Percorsi]** menu. L’ID della versione del percorso viene visualizzato alla fine dell’URL visualizzato nel browser web.
+   >Per ottenere il parametro `<journey version id>`, selezionare la [versione percorso](../building-journeys/journey.md#journey-versions) corrispondente dal menu **[!UICONTROL Gestione Percorso]** > **[!UICONTROL Percorsi]**. L’ID della versione del percorso viene visualizzato alla fine dell’URL visualizzato nel browser web.
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -178,7 +178,7 @@ A seconda delle informazioni che stai cercando, puoi eseguire le seguenti query.
 
    >[!NOTE]
    >
-   >Per ottenere `<journey action id>` , eseguire la prima query descritta in precedenza utilizzando l&#39;id versione percorso. Il `<recipient email address>` Il parametro è l’indirizzo e-mail del destinatario effettivo o di destinazione.
+   >Per ottenere il parametro `<journey action id>`, eseguire la prima query descritta in precedenza utilizzando l&#39;ID versione percorso. Il parametro `<recipient email address>` è l&#39;indirizzo e-mail del destinatario effettivo o di destinazione.
 
 1. Esegui questa query per recuperare tutti gli eventi di feedback dei messaggi Ccn generati per un particolare messaggio destinato a un utente specifico negli ultimi 2 giorni:
 

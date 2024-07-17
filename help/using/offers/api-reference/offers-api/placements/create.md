@@ -9,17 +9,17 @@ exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 12%
+ht-degree: 14%
 
 ---
 
 # Creare un posizionamento {#create-placement}
 
-Per creare un posizionamento, devi effettuare una richiesta POST al [!DNL Offer Library] API.
+È possibile creare un posizionamento effettuando una richiesta POST all&#39;API [!DNL Offer Library].
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che costituiscono il campo *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -66,7 +66,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/placements' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli del posizionamento e del posizionamento appena creati `id`. Puoi utilizzare i passaggi it successivi per aggiornare o eliminare il posizionamento. Puoi utilizzare il tuo posizionamento univoco `id` nelle esercitazioni successive per creare decisioni, regole di decisione e offerte di fallback.
+In caso di esito positivo, la risposta restituisce i dettagli del nuovo posizionamento creato e del posizionamento `id`. Puoi utilizzare i passaggi it successivi per aggiornare o eliminare il posizionamento. È possibile utilizzare il posizionamento univoco `id` nelle esercitazioni successive per creare decisioni, regole di decisione e offerte di fallback.
 
 ```json
 {

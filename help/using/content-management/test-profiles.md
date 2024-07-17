@@ -23,11 +23,11 @@ Prima di visualizzare l’anteprima o testare il contenuto, devi selezionare i p
 
 Per selezionare i profili di test, effettua le seguenti operazioni:
 
-1. Dalla schermata di modifica del contenuto del messaggio o in E-mail Designer, fai clic su **[!UICONTROL Simula contenuto]** pulsante.
+1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
-1. Fai clic su **[!UICONTROL Gestire i profili di test]** quindi selezionare lo spazio dei nomi da utilizzare per identificare i profili di test facendo clic sul pulsante **[!UICONTROL Spazio dei nomi dell’identità]** icona di selezione. [Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform](../audience/get-started-identity.md).
+1. Fai clic sul pulsante **[!UICONTROL Gestisci profili di test]**, quindi seleziona lo spazio dei nomi da utilizzare per identificare i profili di test facendo clic sull&#39;icona di selezione **[!UICONTROL Spazio dei nomi identità]**. [Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform](../audience/get-started-identity.md).
 
-   Nell’esempio seguente utilizziamo **E-mail** spazio dei nomi.
+   Nell&#39;esempio seguente viene utilizzato lo spazio dei nomi **E-mail**.
 
    ![](../email/assets/previewselect-namespace.png)
 
@@ -35,7 +35,7 @@ Per selezionare i profili di test, effettua le seguenti operazioni:
 
    ![](../email/assets/preview-email-namespace.png)
 
-1. In **[!UICONTROL Valore identità]** , immetti il valore (qui l’indirizzo e-mail) per identificare il profilo di test e fai clic su **[!UICONTROL Aggiungi profilo]**.
+1. Nel campo **[!UICONTROL Valore identità]** immettere il valore (in questo caso l&#39;indirizzo di posta elettronica) per identificare il profilo di test e fare clic su **[!UICONTROL Aggiungi profilo]**.
 
    <!--![](assets/preview-identity-value.png)-->
 

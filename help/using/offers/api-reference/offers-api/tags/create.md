@@ -9,7 +9,7 @@ exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ Per creare un qualificatore di raccolta (precedentemente noto come &quot;tag&quo
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -53,7 +53,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/tags' \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce informazioni sul nuovo qualificatore di raccolta creato, incluso il relativo univoco `id`. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare il qualificatore di raccolta. Puoi utilizzare il qualificatore di raccolta univoco `id` nei tutorial successivi per creare raccolte e offerte personalizzate.
+In caso di esito positivo, la risposta restituisce informazioni sul nuovo qualificatore di raccolta creato, incluso il relativo `id` univoco. È possibile utilizzare `id` nei passaggi successivi per aggiornare o eliminare il qualificatore della raccolta. È possibile utilizzare il qualificatore di raccolta univoco `id` nelle esercitazioni successive per creare raccolte e offerte personalizzate.
 
 ```json
 {

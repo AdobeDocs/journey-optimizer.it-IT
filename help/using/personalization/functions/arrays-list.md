@@ -9,7 +9,7 @@ exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -19,7 +19,7 @@ Utilizzare queste funzioni per semplificare l&#39;interazione con array, elenchi
 
 ## Conteggio solo nulle {#count-only-null}
 
-Il `countOnlyNull` La funzione viene utilizzata per contare il numero di valori Null in un elenco.
+La funzione `countOnlyNull` viene utilizzata per contare il numero di valori Null in un elenco.
 
 **Sintassi**
 
@@ -37,7 +37,7 @@ Restituisce 3.
 
 ## Conteggio con valori Null {#count-with-null}
 
-Il `countWithNull` La funzione viene utilizzata per contare tutti gli elementi di un elenco, inclusi i valori Null.
+La funzione `countWithNull` viene utilizzata per contare tutti gli elementi di un elenco, inclusi i valori Null.
 
 **Sintassi**
 
@@ -53,9 +53,9 @@ Il `countWithNull` La funzione viene utilizzata per contare tutti gli elementi d
 
 Restituisce 6.
 
-## Distinct{#distinct}
+## Diverso{#distinct}
 
-Il `distinct` La funzione viene utilizzata per ottenere valori da un array o da un elenco con valori duplicati rimossi.
+La funzione `distinct` viene utilizzata per ottenere valori da un array o da un elenco con valori duplicati rimossi.
 
 **Sintassi**
 
@@ -71,9 +71,9 @@ L&#39;operazione seguente specifica gli utenti che hanno effettuato ordini in pi
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Conteggio valori univoci con valori Null {#distinct-count-with-null}
+## Conteggio valori univoci con Null {#distinct-count-with-null}
 
-Il `distinctCountWithNull` La funzione viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori Null.
+La funzione `distinctCountWithNull` viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori Null.
 
 **Sintassi**
 
@@ -91,7 +91,7 @@ Restituisce 3.
 
 ## Primo elemento{#head}
 
-Il `head` viene utilizzata per restituire il primo elemento di un array o di un elenco.
+La funzione `head` viene utilizzata per restituire il primo elemento di un array o di un elenco.
 
 **Sintassi**
 
@@ -101,15 +101,15 @@ Il `head` viene utilizzata per restituire il primo elemento di un array o di un 
 
 **Esempio**
 
-L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il prezzo più alto. Ulteriori informazioni su `topN` è disponibile nella sezione [primo `n` nell’array](#first-n) sezione.
+L&#39;operazione seguente restituisce il primo dei primi cinque ordini con il prezzo più alto. Ulteriori informazioni sulla funzione `topN` sono disponibili nella sezione [first `n` in array](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## Primo `n` nell’array {#first-n}
+## Primi `n` nell&#39;array {#first-n}
 
-Il `topN` viene utilizzata per restituire la prima `N` elementi di un array, se ordinati in ordine crescente in base alla data espressione numerica.
+La funzione `topN` viene utilizzata per restituire i primi `N` elementi in un array, se ordinati in ordine crescente in base alla data espressione numerica.
 
 **Sintassi**
 
@@ -133,7 +133,7 @@ L&#39;operazione seguente restituisce i primi cinque ordini con il prezzo più b
 
 ## In entrata{#in}
 
-Il `in` viene utilizzata per determinare se un elemento è membro di un array o di un elenco.
+La funzione `in` viene utilizzata per determinare se un elemento è membro di un array o di un elenco.
 
 **Sintassi**
 
@@ -151,7 +151,7 @@ L’operazione seguente definisce le persone il cui compleanno cade in marzo, gi
 
 ## Include{#includes}
 
-Il `includes` viene utilizzata per determinare se un array o un elenco contiene un dato elemento.
+La funzione `includes` viene utilizzata per determinare se un array o un elenco contiene un dato elemento.
 
 **Sintassi**
 
@@ -167,9 +167,9 @@ L&#39;operazione seguente definisce le persone il cui colore preferito include i
 {%= includes(person.favoriteColors,"red") %}
 ```
 
-## Intersects{#intersects}
+## Interseca{#intersects}
 
-Il `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
+La funzione `intersects` viene utilizzata per determinare se due array o elenchi hanno almeno un membro comune.
 
 **Sintassi**
 
@@ -205,9 +205,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## Ultimo `n` nell’array{#last-n}
+## Ultimi `n` nell&#39;array{#last-n}
 
-Il `bottomN` viene utilizzata per restituire l&#39;ultimo `N` elementi di un array, se ordinati in ordine crescente in base alla data espressione numerica.
+La funzione `bottomN` viene utilizzata per restituire gli ultimi `N` elementi in un array, se ordinati in ordine crescente in base alla data espressione numerica.
 
 **Sintassi**
 
@@ -231,11 +231,11 @@ L&#39;operazione seguente restituisce gli ultimi cinque ordini con il prezzo pi�
 
 ## Non in{#notin}
 
-Il `notIn` viene utilizzata per determinare se un elemento non è un membro di un array o di un elenco.
+La funzione `notIn` viene utilizzata per determinare se un elemento non è un membro di un array o di un elenco.
 
 >[!NOTE]
 >
->Il `notIn` funzione *anche* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta del `in` funzione.
+>La funzione `notIn` *also* assicura che nessuno dei due valori sia uguale a null. Pertanto, i risultati non sono una negazione esatta della funzione `in`.
 
 **Sintassi**
 
@@ -254,7 +254,7 @@ L’operazione seguente definisce le persone il cui compleanno non è in marzo, 
 
 ## Sottoinsieme di{#subset}
 
-Il `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, che tutti gli elementi nell&#39;array A sono elementi dell&#39;array B.
+La funzione `subsetOf` viene utilizzata per determinare se un array specifico (array A) è un sottoinsieme di un altro array (array B). In altre parole, che tutti gli elementi nell&#39;array A sono elementi dell&#39;array B.
 
 **Sintassi**
 
@@ -270,9 +270,9 @@ L&#39;operazione seguente definisce le persone che hanno visitato tutte le loro 
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
 ```
 
-## Soprainsieme di{#superset}
+## Superset di{#superset}
 
-Il `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l’array A contiene tutti gli elementi dell’array B.
+La funzione `supersetOf` viene utilizzata per determinare se un array specifico (array A) è un superset di un altro array (array B). In altre parole, l’array A contiene tutti gli elementi dell’array B.
 
 **Sintassi**
 

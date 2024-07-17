@@ -17,7 +17,7 @@ ht-degree: 3%
 
 Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Per cercare raccolte specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include la raccolta `@id` o il nome della raccolta nel percorso della richiesta.
+Per cercare raccolte specifiche, eseguire una richiesta di GET all&#39;API [!DNL Offer Library] che includa la raccolta `@id` o il nome della raccolta nel percorso della richiesta.
 
 **Formato API**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Il contenitore in cui si trovano le raccolte. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Definisce lo schema associato alle raccolte. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Stringa utilizzata per la corrispondenza con `@id` delle entità. La stringa corrisponde esattamente. Parametri `id` e `name` non possono essere utilizzati insieme. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. Parametri `id` e `name` non può essere utilizzato insieme | `Mobile demo` |
+| `id` | Stringa utilizzata per corrispondere alla proprietà `@id` delle entità. La stringa corrisponde esattamente. Impossibile utilizzare insieme i parametri `id` e `name`. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Stringa utilizzata per corrispondere alla proprietà xdm:name delle entità. La stringa viene trovata una corrispondenza esatta con maiuscole, ma è possibile utilizzare caratteri jolly. I parametri `id` e `name` non possono essere utilizzati insieme | `Mobile demo` |
 
 **Richiesta**
 
@@ -47,7 +47,7 @@ curl -X GET \
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse le informazioni sull’ID contenitore, l’ID istanza e la raccolta univoca `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli del posizionamento, incluse le informazioni sull&#39;ID contenitore, l&#39;ID istanza e la raccolta univoca `@id`.
 
 ```json
 {

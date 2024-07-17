@@ -18,15 +18,15 @@ ht-degree: 10%
 
 Un’identità è un dato univoco per un’entità, in genere un oggetto reale, come una persona singola, un dispositivo hardware o un browser web. Un’identità completa è costituita da due elementi:
 
-* Il **spazio dei nomi delle identità** serve come indicatore del contesto a cui si riferisce un’identità.
-* Il **valore identità** è una stringa che rappresenta un’entità.
+* Lo spazio dei nomi **identity** funge da indicatore del contesto a cui si riferisce un&#39;identità.
+* Il **valore identità** è una stringa che rappresenta un&#39;entità.
 
-Prendiamo il numero di telefono 555-555-1234. In questo esempio, la stringa &quot;555-555-1234&quot; è un **valore identità**, che potrebbe essere classificato in un &quot;Telefono&quot; **spazio dei nomi delle identità**.
+Prendiamo il numero di telefono 555-555-1234. In questo esempio, la stringa &quot;555-555-1234&quot; è un **valore identità**, che potrebbe essere categorizzato in un &quot;Telefono&quot; **spazio dei nomi identità**.
 
-Il **Identità** menu in [!DNL Adobe Journey Optimizer] consente di sfogliare in modo efficiente i vari identificatori che compongono i clienti nel database.
+Il menu **Identità** in [!DNL Adobe Journey Optimizer] ti consente di sfogliare in modo efficiente i vari identificatori che compongono i clienti nel database.
 
 ![](assets/identities-home.png)
 
-Fornisce un **Grafico delle identità**, che è una mappa delle relazioni tra identità diverse per un particolare cliente, fornendo una rappresentazione visiva di come il cliente interagisce con il brand su canali diversi. Tutti i grafici di identità del cliente sono gestiti e aggiornati collettivamente dal servizio Adobe Experience Platform Identity, in risposta all’attività del cliente.
+Fornisce un **Grafico identità**, che è una mappa delle relazioni tra identità diverse per un particolare cliente, fornendo una rappresentazione visiva di come il cliente interagisce con il brand attraverso canali diversi. Tutti i grafici di identità del cliente sono gestiti e aggiornati collettivamente dal servizio Adobe Experience Platform Identity, in risposta all’attività del cliente.
 
-Informazioni dettagliate su come lavorare con le identità sono disponibili nella sezione [Documentazione del servizio Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
+Informazioni dettagliate su come lavorare con le identità sono disponibili nella [documentazione di Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.

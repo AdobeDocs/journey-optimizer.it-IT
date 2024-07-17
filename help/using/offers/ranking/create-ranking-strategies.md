@@ -10,17 +10,17 @@ exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
 # Creare modelli IA {#ai-rankings}
 
-[!DNL Journey Optimizer] consente di creare **Modelli IA** per classificare le offerte in base agli obiettivi aziendali.
+[!DNL Journey Optimizer] consente di creare **modelli di IA** per classificare le offerte in base agli obiettivi aziendali.
 
 >[!CAUTION]
 >
->Per creare, modificare o eliminare modelli AI, è necessario disporre del **Gestire le strategie di classificazione** autorizzazione. [Ulteriori informazioni](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>Per creare, modificare o eliminare modelli AI, è necessario disporre dell&#39;autorizzazione **Gestisci strategie di classificazione**. [Ulteriori informazioni](../../administration/high-low-permissions.md#manage-ranking-strategies)
 
 ## Creare un modello IA {#create-ranking-strategy}
 
@@ -28,13 +28,13 @@ Per creare un modello di IA, segui i passaggi seguenti:
 
 1. Crea un set di dati in cui verranno raccolti gli eventi di conversione. [Scopri come](../data-collection/create-dataset.md)
 
-1. In **[!UICONTROL Componenti]** , accedere al menu **[!UICONTROL Classificazione]** , quindi seleziona **[!UICONTROL Modelli IA]**.
+1. Nel menu **[!UICONTROL Componenti]**, accedi alla scheda **[!UICONTROL Classifica]**, quindi seleziona **[!UICONTROL Modelli AI]**.
 
    ![](../assets/ai-ranking-list.png)
 
    Vengono elencati tutti i modelli di IA creati finora.
 
-1. Fai clic su **[!UICONTROL Crea modello di IA]** pulsante.
+1. Fare clic sul pulsante **[!UICONTROL Crea modello di IA]**.
 
 1. Specifica un nome univoco e una descrizione per il modello di IA, quindi seleziona il tipo di modello di IA da creare:
 
@@ -45,13 +45,13 @@ Per creare un modello di IA, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Il **[!UICONTROL Metrica di ottimizzazione]** Questa sezione fornisce informazioni sull’evento di conversione utilizzato dal modello AI per calcolare la classificazione delle offerte.
+   >La sezione **[!UICONTROL Metrica di ottimizzazione]** fornisce informazioni sull&#39;evento di conversione utilizzato dal modello di intelligenza artificiale per calcolare la classificazione delle offerte.
    >
-   >[!DNL Journey Optimizer] classifica le offerte in base al **tasso di conversione** (Tasso di conversione = Numero totale di eventi di conversione / Numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche:
+   >[!DNL Journey Optimizer] classifica le offerte in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche:
    >* **Eventi di impression** (offerte visualizzate)
-   >* **Eventi di conversione** (offerte che si traducono in clic via e-mail o web).
+   >* **Eventi di conversione** (offerte che generano clic via e-mail o web).
    >
-   >Questi eventi vengono acquisiti automaticamente tramite l’SDK web o l’SDK mobile fornito. Ulteriori informazioni in [Panoramica di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it).
+   >Questi eventi vengono acquisiti automaticamente tramite l’SDK web o l’SDK mobile fornito. Per ulteriori informazioni, consulta la [panoramica di Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
 1. Seleziona i set di dati in cui vengono raccolti gli eventi di conversione e di impression. Scopri come creare questo set di dati in [questa sezione](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -59,9 +59,9 @@ Per creare un modello di IA, segui i passaggi seguenti:
 
    >[!CAUTION]
    >
-   >Solo i set di dati creati da schemi associati al **[!UICONTROL Evento esperienza - Interazioni proposte]** nell’elenco a discesa viene visualizzato il gruppo di campi (precedentemente noto come mixin).
+   >Nell&#39;elenco a discesa vengono visualizzati solo i set di dati creati da schemi associati al gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]** (precedentemente noto come mixin).
 
-1. Se stai creando un **[!UICONTROL Ottimizzazione personalizzata]** Modello di IA, seleziona i segmenti da utilizzare per addestrare il modello di IA.
+1. Se stai creando un modello di IA **[!UICONTROL Ottimizzazione personalizzata]**, seleziona i segmenti da utilizzare per addestrare il modello di IA.
 
    ➡️ [Scopri questa funzione nel video](#video)
 
@@ -81,7 +81,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-Ora, ogni volta che si visualizza e/o si fa clic su un’offerta, si desidera che l’evento corrispondente venga acquisito automaticamente da **[!UICONTROL Evento esperienza - Interazioni proposte]** gruppo di campi che utilizza [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} o Mobile SDK.
+Ogni volta che si visualizza e/o si fa clic su un&#39;offerta, si desidera che l&#39;evento corrispondente venga acquisito automaticamente dal gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** tramite [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} o Mobile SDK.
 
 Per poter inviare in tipi di evento (offerta visualizzata o offerta selezionata), è necessario impostare il valore corretto per ciascun tipo di evento in un evento esperienza inviato in Adobe Experience Platform. [Scopri come](../data-collection/schema-requirement.md)
 

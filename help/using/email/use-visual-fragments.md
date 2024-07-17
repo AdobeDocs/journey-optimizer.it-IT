@@ -32,7 +32,7 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 
 1. Apri qualsiasi contenuto e-mail o modello utilizzando [E-mail Designer](get-started-email-design.md).
 
-1. Seleziona la **[!UICONTROL Frammenti]** dalla barra a sinistra.
+1. Seleziona l&#39;icona **[!UICONTROL Frammenti]** dalla barra a sinistra.
 
    ![](assets/fragments-in-designer.png)
 
@@ -53,7 +53,7 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 
    >[!CAUTION]
    >
-   >Puoi aggiungere qualsiasi **Bozza** o **Live** frammento nel contenuto. Tuttavia, non potrai attivare il percorso o la campagna se al suo interno viene utilizzato un frammento con lo stato Bozza. Durante la pubblicazione di un percorso o di una campagna, i frammenti bozza mostreranno un errore e dovrai approvarli per poterli pubblicare.
+   >Puoi aggiungere al contenuto qualsiasi frammento **Bozza** o **Live**. Tuttavia, non potrai attivare il percorso o la campagna se al suo interno viene utilizzato un frammento con lo stato Bozza. Durante la pubblicazione di un percorso o di una campagna, i frammenti bozza mostreranno un errore e dovrai approvarli per poterli pubblicare.
 
 1. Come qualsiasi altro componente, puoi spostare il frammento all’interno del contenuto.
 
@@ -61,31 +61,31 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 
    ![](assets/fragment-right-pane.png)
 
-1. Dalla sezione **[!UICONTROL Impostazioni]** , è possibile:
+1. Dalla scheda **[!UICONTROL Impostazioni]** puoi effettuare le seguenti operazioni:
 
    * Scegli i dispositivi su cui vuoi visualizzare il frammento.
    * Apri il frammento in una nuova scheda per modificarlo, se necessario. [Ulteriori informazioni](../content-management/fragments.md#edit-fragments)
    * Esplora i riferimenti. [Ulteriori informazioni](../content-management/fragments.md#explore-references)
 
-1. Puoi personalizzare ulteriormente il frammento utilizzando **[!UICONTROL Stili]** scheda.
+1. Puoi personalizzare ulteriormente il frammento utilizzando la scheda **[!UICONTROL Stili]**.
 
 1. Se necessario, puoi interrompere l’ereditarietà con il frammento originale. [Ulteriori informazioni](#break-inheritance)
 
-1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le tue modifiche.
+1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le modifiche.
 
 ## Personalizza campi modificabili {#customize-fields}
 
-Se alcune parti del frammento selezionato sono state rese modificabili, è possibile ignorarne il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i frammenti](../content-management/customizable-fragments.md)
+Se alcune parti del frammento selezionato sono state rese modificabili, è possibile ignorarne il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i tuoi frammenti](../content-management/customizable-fragments.md)
 
 Per personalizzare i campi modificabili in un frammento, effettua le seguenti operazioni:
 
 1. Aggiungi il frammento al contenuto e selezionalo per aprire il riquadro delle proprietà sul lato destro.
 
-1. Tutti i campi modificabili nel frammento vengono visualizzati nel **Impostazioni** , sotto il **Frammento** sezione.
+1. Tutti i campi modificabili nel frammento vengono visualizzati nella scheda **Impostazioni**, nella sezione **Frammento**.
 
    I campi modificabili sono evidenziati in verde nel riquadro di anteprima quando sono selezionati nel riquadro di destra, semplificando l’identificazione della loro posizione nel contenuto.
 
-   Nell’esempio seguente, l’immagine **sorgente** e **testo alternativo** possono essere modificati, così come il pulsante &quot;Click here&quot; **URL**.
+   Nell&#39;esempio seguente è possibile modificare l&#39;immagine **source** e **alt text**, nonché il pulsante &quot;Fai clic qui&quot; **URL**.
 
    ![](assets/fragment-editable.png)
 

@@ -7,13 +7,13 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: c84c09aac2d888c689591f2517269c88bee0cda6
+exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
+source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
 
 ---
-
 
 # Frammenti personalizzabili {#customizable-fragments}
 
@@ -33,13 +33,13 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 
 >[!NOTE]
 >
->I campi modificabili possono essere aggiunti a **immagine**, **text** e **pulsante** componenti. Per **HTML** componenti, i campi modificabili vengono aggiunti utilizzando l’editor di personalizzazione, in modo simile ai frammenti di espressione. [Scopri come aggiungere un campo modificabile nei componenti HTML e nei frammenti di espressione](#expression)
+>I campi modificabili possono essere aggiunti ai componenti **image**, **text** e **button**. Per i componenti **HTML**, i campi modificabili vengono aggiunti utilizzando l&#39;editor di personalizzazione, in modo simile ai frammenti di espressione. [Scopri come aggiungere un campo modificabile nei componenti e nei frammenti di espressione di HTML](#expression)
 
 1. Apri la schermata di modifica del contenuto del frammento.
 
 1. Seleziona il componente nel frammento in cui desideri configurare i campi modificabili.
 
-1. Il riquadro delle proprietà del componente viene visualizzato sul lato destro. Seleziona la **Campi modificabili** , quindi attiva/disattiva il **Abilita edizione** opzione.
+1. Il riquadro delle proprietà del componente viene visualizzato sul lato destro. Seleziona la scheda **Campi modificabili**, quindi attiva l&#39;opzione **Abilita edizione**.
 
 1. Tutti i campi che possono essere modificati per il componente selezionato sono elencati nel riquadro. I campi disponibili per la modifica dipendono dal tipo di componente selezionato.
 
@@ -47,7 +47,7 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 
    ![](assets/fragment-param-enable.png)
 
-1. Fai clic su **Panoramica** per controllare tutti i campi modificabili e i relativi valori predefiniti.
+1. Fare clic su **Panoramica** per controllare tutti i campi modificabili e i relativi valori predefiniti.
 
    In questo esempio, il campo URL del pulsante viene visualizzato con il valore predefinito definito nel componente. Questo valore sarà personalizzabile dagli utenti dopo che avranno aggiunto il frammento al loro contenuto.
 
@@ -59,9 +59,9 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 
 ## Aggiungere campi modificabili nei componenti HTML e nei frammenti di espressione {#expression}
 
-Per rendere modificabili parti di un componente HTML o di un frammento di espressione, è necessario utilizzare una sintassi specifica nell’editor di espressioni. Ciò comporta la dichiarazione di un **variabile** con un valore predefinito che gli utenti possono ignorare dopo aver aggiunto il frammento al loro contenuto.
+Per rendere modificabili parti di un componente HTML o di un frammento di espressione, è necessario utilizzare una sintassi specifica nell’editor di espressioni. Ciò comporta la dichiarazione di una **variabile** con un valore predefinito che gli utenti possono ignorare dopo aver aggiunto il frammento al loro contenuto.
 
-Ad esempio, supponi di voler creare un frammento da aggiungere alle e-mail e di consentire agli utenti di personalizzare un colore specifico utilizzato in posizioni diverse, ad esempio cornici o colori di sfondo dei pulsanti. Quando crei il frammento, devi dichiarare una variabile con una **ID univoco**, ad esempio &quot;colore&quot;, e chiamalo nelle posizioni desiderate nel contenuto del frammento in cui desideri applicare questo colore. Quando aggiungono il frammento al contenuto, gli utenti possono personalizzare il colore utilizzato ovunque venga fatto riferimento alla variabile.
+Ad esempio, supponi di voler creare un frammento da aggiungere alle e-mail e di consentire agli utenti di personalizzare un colore specifico utilizzato in posizioni diverse, ad esempio cornici o colori di sfondo dei pulsanti. Durante la creazione del frammento, devi dichiarare una variabile con un **ID univoco**, ad esempio &quot;color&quot;, e chiamarla nelle posizioni desiderate nel contenuto del frammento in cui desideri applicare questo colore. Quando aggiungono il frammento al contenuto, gli utenti possono personalizzare il colore utilizzato ovunque venga fatto riferimento alla variabile.
 
 Per i componenti HTML, solo elementi specifici possono diventare campi modificabili. Per ulteriori informazioni, espandi la sezione seguente.
 
@@ -81,15 +81,15 @@ Ad esempio, nel codice seguente, ogni elemento evidenziato in rosso può diventa
 
 Per dichiarare una variabile e utilizzarla nel frammento, effettua le seguenti operazioni:
 
-1. Apri il frammento di espressione, quindi modificane il contenuto nell’editor di personalizzazione. Per i componenti HTML, seleziona il componente nel frammento e fai clic su **Mostra il codice sorgente** pulsante.
+1. Apri il frammento di espressione, quindi modificane il contenuto nell’editor di personalizzazione. Per i componenti HTML, selezionare il componente nel frammento e fare clic sul pulsante **Mostra codice sorgente**.
 
    ![](assets/fragment-html-edit.png)
 
-1. Dichiara la variabile che desideri che gli utenti modifichino. Accedi a **Funzioni di supporto** nel riquadro di navigazione a sinistra e aggiungi **in linea** funzione helper. La sintassi per dichiarare e chiamare la variabile viene aggiunta automaticamente nel contenuto.
+1. Dichiara la variabile che desideri che gli utenti modifichino. Passa al menu **Funzioni helper** nel riquadro di navigazione a sinistra e aggiungi la funzione helper **inline**. La sintassi per dichiarare e chiamare la variabile viene aggiunta automaticamente nel contenuto.
 
    ![](assets/fragment-add-helper.png)
 
-1. Sostituisci `"name"` con un ID univoco per identificare il campo modificabile.
+1. Sostituire `"name"` con un ID univoco per identificare il campo modificabile.
 
    >[!NOTE]
    >
@@ -99,12 +99,12 @@ Per dichiarare una variabile e utilizzarla nel frammento, effettua le seguenti o
 
    | Azione | Parametro | Esempio |
    | ------- | ------- | ------- |
-   | Dichiarare un campo modificabile con un **valore predefinito**. Quando aggiungi il frammento al contenuto, questo valore predefinito viene utilizzato se non lo personalizzi. | Aggiungi il valore predefinito tra i tag in linea. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
-   | Definisci un **etichetta** per il campo modificabile. Questa etichetta verrà visualizzata nel Designer e-mail quando si modificano i campi del frammento. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
-   | Dichiara un campo modificabile contenente un **Origine immagine** che deve essere pubblicato. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
-   | Dichiara un campo modificabile contenente un **URL** questo deve essere tracciato.<br/>Tieni presente che i blocchi predefiniti predefiniti &quot;URL pagina mirror&quot; e &quot;Collegamento per annullare l’abbonamento&quot; non possono diventare campi modificabili. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
+   | Dichiara un campo modificabile con un **valore predefinito**. Quando aggiungi il frammento al contenuto, questo valore predefinito viene utilizzato se non lo personalizzi. | Aggiungi il valore predefinito tra i tag in linea. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | Definisci una **etichetta** per il campo modificabile. Questa etichetta verrà visualizzata nel Designer e-mail quando si modificano i campi del frammento. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+   | Dichiara un campo modificabile contenente una **Origine immagine** che deve essere pubblicata. | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
+   | Dichiara un campo modificabile contenente un **URL** che deve essere tracciato.<br/>Tieni presente che i blocchi predefiniti predefiniti &quot;URL pagina mirror&quot; e &quot;Collegamento per annullare l’abbonamento&quot; non possono diventare campi modificabili. | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
 
-1. Utilizza il `{{{name}}}` nel codice in ogni posizione in cui desideri visualizzare il valore del campo modificabile. Sostituisci `name` con l’ID univoco del campo definito in precedenza.
+1. Utilizza la sintassi `{{{name}}}` nel codice in ogni posizione in cui desideri visualizzare il valore del campo modificabile. Sostituisci `name` con l&#39;ID univoco del campo definito in precedenza.
 
    ![](assets/fragment-call-variable.png)
 
@@ -118,17 +118,17 @@ Quando aggiungono il frammento al contenuto dell’e-mail, gli utenti possono or
 
 ## Esempio di frammento di espressione modificabile {#example}
 
-Nell’esempio seguente, viene creato un frammento di espressione che presenta nuove raccolte sportive. Per impostazione predefinita, il frammento visualizza questo contenuto: *Vuoi saperne di più? Non perderti la nostra ultima collezione sportiva!*
+Nell’esempio seguente, viene creato un frammento di espressione che presenta nuove raccolte sportive. Per impostazione predefinita, nel frammento viene visualizzato il seguente contenuto: *Ulteriori informazioni? Non perderti la nostra ultima collezione di sport!*
 
-Vogliamo consentire agli utenti di sostituire &quot;sport&quot; in questi contenuti con lo sport di loro scelta. Ad esempio: *Vuoi saperne di più? Non perderti la nostra ultima collezione di yoga!*
+Vogliamo consentire agli utenti di sostituire &quot;sport&quot; in questi contenuti con lo sport di loro scelta. Esempio: *Ulteriori informazioni? Non perdere la nostra ultima raccolta di yoga!*
 
 Per eseguire questa operazione:
 
 1. Dichiara una variabile &quot;sport&quot; con l’ID &quot;sport&quot;.
 
-   Per impostazione predefinita, se gli utenti non modificano il valore della variabile dopo aver aggiunto il frammento nel loro contenuto, viene visualizzato il valore definito tra `{{#inline}}` e `{{/inline}}` tag, ovvero &quot;sport&quot;.
+   Per impostazione predefinita, se gli utenti non modificano il valore della variabile dopo l&#39;aggiunta del frammento nel contenuto, verrà visualizzato il valore definito tra i tag `{{#inline}}` e `{{/inline}}`, ovvero &quot;sport&quot;.
 
-1. Aggiungi il ``{{{sport}}}`` sintassi nel contenuto del frammento in cui desideri visualizzare il valore della variabile, ovvero &quot;sport&quot; per impostazione predefinita o il valore scelto dagli utenti.
+1. Aggiungi la sintassi ``{{{sport}}}`` nel contenuto del frammento in cui desideri visualizzare il valore della variabile, ovvero &quot;sport&quot; per impostazione predefinita, o il valore scelto dagli utenti.
 
    ![](assets/fragment-expression-custom.png)
 

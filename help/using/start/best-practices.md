@@ -29,7 +29,7 @@ Adobe Journey Optimizer sfrutta il servizio Identity per unire profili e persona
    * Il completamento di questa operazione può richiedere da 30 minuti a 4 ore.
    * Di solito, questo evento di accesso genera un grafo di identità che collega CRMID con ECID.
 
-1. Dopo l’unione iniziale, tutti i dati inviati con una delle due identità saranno associati al profilo unito e disponibili per la personalizzazione in Journey Optimizer in tempo reale. L’aggiornamento del profilo con i dati comportamentali più recenti può richiedere fino a 1 minuto. Fai riferimento a questo [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it).
+1. Dopo l’unione iniziale, tutti i dati inviati con una delle due identità saranno associati al profilo unito e disponibili per la personalizzazione in Journey Optimizer in tempo reale. L’aggiornamento del profilo con i dati comportamentali più recenti può richiedere fino a 1 minuto. Fai riferimento a questa [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it).
 
 Durante la creazione di casi d’uso, considera quanto segue:
 
@@ -52,18 +52,18 @@ Questa sezione ti guiderà su come effettuare la scalabilità con le seguenti du
 
 Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno dei guardrail e a utilizzare il sistema in modo efficiente.
 
-* Se ti avvicini al limite dei percorsi live, il primo passaggio che puoi fare è passare alla **Panoramica** scheda in **Percorsi** per vedere quanti percorsi erano attivi nelle ultime 24 ore (percorsi con profili attivi. Puoi controllare il numero di profili che entrano ed escono dal percorso in questa sezione per determinarlo.
+* Se ti avvicini al limite di percorsi attivi, il primo passaggio è passare alla scheda **Panoramica** in **Percorsi** per vedere quanti percorsi erano attivi nelle ultime 24 ore (percorsi con profili attivi). Puoi controllare il numero di profili che entrano ed escono dal percorso in questa sezione per determinarlo.
 
   ![](assets/journey-guardrails2.png)
 
-* Quindi, nella sezione Inventario Percorsi, puoi filtrare tutti i percorsi per Stato = &quot;Live&quot; e Tipo = &quot;Read audience&quot;. Quindi ordina per data di pubblicazione (dalla meno recente alla più recente). Fai clic sul percorso e passa alla pianificazione. Interrompi tutti i percorsi live che avevano una pianificazione da eseguire **Una volta** o **Appena possibile** che sono più vecchi di un giorno e hanno una sola azione.
+* Quindi, nella sezione Inventario Percorsi, puoi filtrare tutti i percorsi per Stato = &quot;Live&quot; e Tipo = &quot;Read audience&quot;. Quindi ordina per data di pubblicazione (dalla meno recente alla più recente). Fai clic sul percorso e passa alla pianificazione. Interrompi tutti i percorsi live che avevano una pianificazione per eseguire **Una volta** o **Il più presto possibile** che sono più vecchi di un giorno e hanno una sola azione.
 
   ![](assets/journey-guardrails1.png)
 
-* Se il **Read audience** Il percorso dispone di una sola azione, senza attese/decisioni, o di ottimizzazione del tempo di invio, è consigliabile spostarli in Journey Optimizer Campaigns. Le campagne sono più adatte al coinvolgimento in un singolo passaggio. Una delle differenze chiave tra Campaign e i Percorsi è se ritieni importante ascoltare attivamente il coinvolgimento degli utenti per determinare il passaggio successivo e interagire con un’altra azione.
+* Se il percorso **Read audience** dispone di una sola azione, nessuna attesa/decisione o ottimizzazione dell&#39;ora di invio, puoi spostarli in Journey Optimizer Campaigns. Le campagne sono più adatte al coinvolgimento in un singolo passaggio. Una delle differenze chiave tra Campaign e i Percorsi è se ritieni importante ascoltare attivamente il coinvolgimento degli utenti per determinare il passaggio successivo e interagire con un’altra azione.
 * Per ridurre il numero di attività all’interno di un percorso, controlla i passaggi della condizione. Ci saranno molte istanze in cui puoi spostare le condizioni nella definizione del segmento o nella composizione del pubblico.
 * Se le stesse condizioni vengono ripetute in più percorsi (controlli del consenso, eliminazioni), considera di spostarle come parte della definizione del segmento. Ad esempio, se disponi di una condizione per controllare &quot;l’indirizzo e-mail non è vuoto&quot; in più percorsi, includi tale condizione nella definizione del segmento.
 * Se il percorso presenta diverse condizioni che dividono il pubblico per visualizzare i numeri in ogni passaggio, è consigliabile utilizzare il Customer Journey Analytics o un’altra soluzione di reporting più adatta per l’analisi.
 * Se ti stai avvicinando al limite di nodi nell’area di lavoro, considera il consolidamento delle azioni con parametri dinamici o contenuti per fornire il contenuto giusto invece di nodi espliciti.
 
-* Se ha un **Read Audience** percorso con segmento batch (A) e se utilizzi all’interno del percorso nel segmento di streaming del pubblico (B) per escludere (ovvero esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l’esclusione come parte della logica di segmentazione stessa.
+* Se disponi di un percorso **Read Audience** con segmento batch (A) e se utilizzi all&#39;interno del percorso nel segmento di streaming Audience (B) per escludere (ovvero esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l&#39;esclusione come parte della logica di segmentazione stessa.

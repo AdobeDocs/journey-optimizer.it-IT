@@ -21,7 +21,7 @@ Tecnicamente, una costante contiene sempre un tipo di dati. Nell’espressione l
 
 Le sezioni seguenti forniscono informazioni sulle diverse espressioni dei tipi di dati e sulla loro rappresentazione.
 
-## string {#string}
+## stringa {#string}
 
 **Descrizione**
 
@@ -51,7 +51,7 @@ Formato di serializzazione: UTF-8
 'hello world'
 ```
 
-## numero intero {#integer}
+## intero {#integer}
 
 **Descrizione**
 

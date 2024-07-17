@@ -27,30 +27,30 @@ Un frammento è un componente riutilizzabile a cui è possibile fare riferimento
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [Scopri come gestire, creare e utilizzare i frammenti in questi video](#video-fragments)
+➡️ [Scopri come gestire, creare e utilizzare frammenti in questi video](#video-fragments)
 
 Per utilizzare al meglio i frammenti:
 
-* **Creare frammenti personalizzati**: crea frammenti visivi o di espressione, da zero o salvando il contenuto come frammento. [Scopri come creare un frammento](#create-fragments). Inoltre, puoi sfruttare Journey Optimizer **API REST per contenuti** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta [Documentazione delle API di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
-* **Riutilizzare i frammenti:** Utilizzale il numero di volte necessario nel contenuto. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare i frammenti di espressione](../personalization/use-expression-fragments.md)
+* **Crea frammenti personalizzati**: crea frammenti visivi o di espressione, da zero o salvando il contenuto come frammento. [Scopri come creare un frammento](#create-fragments). Inoltre, puoi sfruttare l&#39;API REST del contenuto **Journey Optimizer** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Riutilizza i frammenti:** Utilizzali il numero di volte necessario nel contenuto. Vedi [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare frammenti di espressione](../personalization/use-expression-fragments.md)
 
 ## Prima di iniziare {#fragment-prerequisites}
 
-Per creare, modificare, archiviare e pubblicare frammenti è necessario **[!DNL Manage library items]** e **[Frammento Publish]** autorizzazioni incluse nel **[!DNL Content Library Manager]** profilo di prodotto. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
+Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Frammento di Publish]** incluse nel profilo di prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 
 In questa versione si applicano le seguenti limitazioni:
 
-* **Frammenti visivi** sono disponibili solo per il canale e-mail.
-* **Frammenti di espressione** non sono disponibili per il canale in-app.
+* **I frammenti visivi** sono disponibili solo per il canale e-mail.
+* **I frammenti di espressione** non sono disponibili per il canale in-app.
 
 ## Frammenti di visualizzazione ed espressione {#visual-expression}
 
 Sono disponibili due tipi di frammenti:
 
-* **Frammenti visivi** sono blocchi visivi predefiniti che puoi riutilizzare in più consegne e-mail utilizzando [E-mail Designer](../email/get-started-email-design.md), o in [modelli di contenuto](../email/use-email-templates.md).
-* **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata in [editor di personalizzazione](../personalization/personalization-build-expressions.md).
+* I **frammenti visivi** sono blocchi visivi predefiniti che è possibile riutilizzare in più consegne di posta elettronica utilizzando [E-mail Designer](../email/get-started-email-design.md) o in [modelli di contenuto](../email/use-email-templates.md).
+* I **Frammenti di espressione** sono espressioni predefinite disponibili in una voce dedicata nell&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
-Tutti i frammenti creati sono accessibili da **[!UICONTROL Gestione dei contenuti]** > **[!UICONTROL Frammenti]**  menu a sinistra. [Scopri come gestire i frammenti](../content-management/manage-fragments.md)
+Tutti i frammenti creati sono accessibili dal menu a sinistra **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Frammenti]**. [Scopri come gestire i frammenti](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 

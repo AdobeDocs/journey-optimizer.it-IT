@@ -26,12 +26,12 @@ Stringa
 
 `split(<parameters>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Tipo |
 |-----------|------------------|
-| stringa di input | string |
-| stringa separatore | string |
+| stringa di input | stringa |
+| stringa separatore | stringa |
 
 ## Firme e tipo restituito
 

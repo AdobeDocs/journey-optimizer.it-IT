@@ -30,7 +30,7 @@ ht-degree: 10%
 
 ## Informazioni sui pool IP {#about-ip-pools}
 
-Con [!DNL Journey Optimizer], puoi creare pool IP per raggruppare gli indirizzi IP dei tuoi sottodomini.
+Con [!DNL Journey Optimizer] è possibile creare pool IP per raggruppare gli indirizzi IP dei sottodomini.
 
 La creazione di pool IP è vivamente consigliata per il recapito messaggi e-mail. In questo modo, puoi evitare che la reputazione di un sottodominio influisca sugli altri sottodomini.
 
@@ -44,7 +44,7 @@ Ad esempio, una best practice consiste nell’avere un pool IP per i messaggi di
 
 Per creare un pool IP, eseguire la procedura seguente:
 
-1. Accedere a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Pool IP]** , quindi fai clic su **[!UICONTROL Crea pool IP]**.
+1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Pool IP]**, quindi fai clic su **[!UICONTROL Crea pool IP]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -54,7 +54,7 @@ Per creare un pool IP, eseguire la procedura seguente:
    >
    >Il nome deve iniziare con una lettera (A-Z) e includere solo caratteri alfanumerici o caratteri speciali ( _, ., - ).
 
-1. Seleziona gli indirizzi IP da includere nel pool dall’elenco a discesa, quindi fai clic su **[!UICONTROL Invia]**.
+1. Selezionare gli indirizzi IP da includere nel pool dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Invia]**.
 
    ![](assets/ip-pool-config.png)
 
@@ -100,16 +100,16 @@ Per modificare un pool IP, effettua le seguenti operazioni.
 
 1. Salva le modifiche.
 
-L’aggiornamento viene eseguito immediatamente o in modo asincrono, a seconda del pool IP associato a un [superficie di canale](channel-surfaces.md) oppure no:
+L&#39;aggiornamento ha effetto immediato o in modo asincrono, a seconda che il pool IP sia associato o meno a una [superficie di canale](channel-surfaces.md):
 
-* Se il pool IP è **non** associato a qualsiasi superficie di canale, l’aggiornamento è istantaneo (**[!UICONTROL Completato]** stato).
-* Se il pool IP **è** associato a una superficie di canale, l’aggiornamento può richiedere fino a 3 ore (**[!UICONTROL Elaborazione]** stato).
+* Se il pool IP è **not** associato ad alcuna superficie di canale, l&#39;aggiornamento è istantaneo (**[!UICONTROL Operazione riuscita]** stato).
+* Se il pool IP **è** associato a una superficie di canale, l&#39;aggiornamento può richiedere fino a 3 ore (**[!UICONTROL Elaborazione]** stato).
 
 >[!NOTE]
 >
->Quando [creazione di una superficie di canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP in corso di modifica (**[!UICONTROL Elaborazione]** stato) e non è mai stata associata al sottodominio selezionato per quella superficie, non puoi procedere con la creazione della superficie. [Ulteriori informazioni](channel-surfaces.md#subdomains-and-ip-pools)
+>Quando [si crea una superficie di canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP in corso di modifica (**[!UICONTROL Elaborazione]**) e non è mai stato associato al sottodominio selezionato per tale superficie, non è possibile procedere con la creazione della superficie. [Ulteriori informazioni](channel-surfaces.md#subdomains-and-ip-pools)
 
-Per verificare lo stato di aggiornamento del pool IP, fare clic su **[!UICONTROL Altre azioni]** e seleziona **[!UICONTROL Aggiornamenti recenti]**.
+Per verificare lo stato di aggiornamento del pool IP, fare clic sul pulsante **[!UICONTROL Altre azioni]** e selezionare **[!UICONTROL Aggiornamenti recenti]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -119,5 +119,5 @@ Per verificare lo stato di aggiornamento del pool IP, fare clic su **[!UICONTROL
 >* pochi minuti prima di essere utilizzato dai messaggi unitari,
 >* fino al successivo batch per rendere effettivo il pool IP nei messaggi batch.
 
-È inoltre possibile utilizzare **[!UICONTROL Elimina]** per eliminare un pool IP. Non è possibile eliminare un pool IP associato a una superficie di canale.
+È inoltre possibile utilizzare il pulsante **[!UICONTROL Elimina]** per eliminare un pool IP. Non è possibile eliminare un pool IP associato a una superficie di canale.
 

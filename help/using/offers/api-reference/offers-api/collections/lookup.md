@@ -17,7 +17,7 @@ ht-degree: 6%
 
 Le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
-Per cercare raccolte specifiche, devi effettuare una richiesta GET al [!DNL Offer Library] API che include la raccolta `id` nel percorso della richiesta.
+Per cercare raccolte specifiche, eseguire una richiesta di GET all&#39;API [!DNL Offer Library] che include la raccolta `id` nel percorso della richiesta.
 
 **Formato API**
 

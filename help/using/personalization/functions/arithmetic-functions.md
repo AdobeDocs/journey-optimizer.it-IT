@@ -19,7 +19,7 @@ Le funzioni aritmetiche vengono utilizzate per eseguire calcoli di base sui valo
 
 ## Add{#add}
 
-Il `+` (addizione) viene utilizzata per trovare la somma di due espressioni di argomento.
+La funzione `+` (addizione) viene utilizzata per trovare la somma di due espressioni di argomento.
 
 **Sintassi**
 
@@ -37,7 +37,7 @@ L&#39;operazione seguente somma il prezzo di due prodotti diversi.
 
 ## Moltiplica{#multiply}
 
-Il `*` (moltiplicazione) viene utilizzata per trovare il prodotto di due espressioni di argomento.
+La funzione `*` (moltiplicazione) viene utilizzata per trovare il prodotto di due espressioni di argomento.
 
 **Sintassi**
 
@@ -55,7 +55,7 @@ L&#39;operazione seguente individua il prodotto dell&#39;inventario e il prezzo 
 
 ## Sottrai{#substract}
 
-Il `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressioni di argomento.
+La funzione `-` (sottrazione) viene utilizzata per trovare la differenza tra due espressioni di argomento.
 
 **Sintassi**
 
@@ -73,7 +73,7 @@ L&#39;operazione seguente rileva la differenza di prezzo tra due prodotti divers
 
 ## Dividi{#divide}
 
-Il `/` (divisione) viene utilizzata per trovare il quoziente di due espressioni di argomento.
+La funzione `/` (divisione) viene utilizzata per trovare il quoziente di due espressioni di argomento.
 
 **Sintassi**
 
@@ -91,7 +91,7 @@ L&#39;operazione seguente consente di trovare il quoziente tra il totale dei pro
 
 ## Rimanente{#remainder}
 
-Il `%` (modulo/resto) viene utilizzata per trovare il resto dopo aver diviso le due espressioni di argomento.
+La funzione `%` (modulo/resto) viene utilizzata per trovare il resto dopo aver diviso le due espressioni di argomento.
 
 **Sintassi**
 

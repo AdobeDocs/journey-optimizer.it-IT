@@ -29,10 +29,10 @@ La connessione tra le istanze Journey Optimizer e Campaign viene impostata da Ad
 
 Affinché questo funzioni, devi configurare un’azione dedicata. Consulta questa [sezione](../action/acc-action.md).
 
-Un caso d’uso end-to-end è presentato in questo [sezione](../building-journeys/ajo-ac.md).
+Un caso d&#39;uso end-to-end è presentato in questa [sezione](../building-journeys/ajo-ac.md).
 
 1. Progetta il percorso, a partire da un evento. Consulta questa [sezione](../building-journeys/journey.md).
-1. In **Azione** nella palette, seleziona un’azione Campaign e aggiungila al percorso.
-1. In **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Consulta questa [sezione](../building-journeys/using-custom-actions.md).
+1. Nella sezione **Azione** della palette, seleziona un&#39;azione Campaign e aggiungila al percorso.
+1. Nei **Parametri azione**, vengono visualizzati tutti i campi previsti nel payload del messaggio. Devi mappare ciascuno di questi campi con il campo che desideri utilizzare, dall’evento o dall’origine dati. È simile alle azioni personalizzate. Consulta questa [sezione](../building-journeys/using-custom-actions.md).
 
 ![](assets/accintegration2.png)

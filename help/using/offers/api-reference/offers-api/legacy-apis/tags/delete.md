@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Eliminare un qualificatore di raccolta {#delete-tag}
 
-A volte può essere necessario rimuovere (DELETE) un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;). È possibile eliminare solo i qualificatori di raccolta creati nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE al [!DNL Offer Library] tramite l&#39;API $id del qualificatore di raccolta che desideri eliminare.
+A volte può essere necessario rimuovere (DELETE) un qualificatore di raccolta (precedentemente noto come &quot;tag&quot;). È possibile eliminare solo i qualificatori di raccolta creati nel contenitore tenant. Questa operazione viene eseguita eseguendo una richiesta DELETE all&#39;API [!DNL Offer Library] utilizzando il $id del qualificatore di raccolta che si desidera eliminare.
 
 **Formato API**
 

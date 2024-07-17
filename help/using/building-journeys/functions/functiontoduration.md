@@ -16,7 +16,7 @@ ht-degree: 3%
 
 # toDuration {#toDuration}
 
-Converte un valore di argomento in una durata. Per ulteriori informazioni sui tipi di dati, consulta [questa pagina](../expression/data-types.md).
+Converte un valore di argomento in una durata. Per ulteriori informazioni sui tipi di dati, consultare [questa pagina](../expression/data-types.md).
 
 ## Categoria
 
@@ -26,12 +26,12 @@ Conversione
 
 `toDuration(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione |
 |--- |--- |
-| string | formati basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore |
-| numero intero | numero di millisecondi |
+| stringa | formati basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore |
+| intero | numero di millisecondi |
 
 Espressione stringa: i formati accettati sono basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore.
 

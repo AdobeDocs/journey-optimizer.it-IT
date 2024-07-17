@@ -15,7 +15,7 @@ ht-degree: 8%
 
 # Cercare un posizionamento {#look-up-placement}
 
-Per cercare posizionamenti specifici, devi effettuare una richiesta GET al [!DNL Offer Library] API che include il posizionamento `id`.
+È possibile cercare posizionamenti specifici effettuando una richiesta di GET all&#39;API [!DNL Offer Library] che include il posizionamento `id`.
 
 **Formato API**
 

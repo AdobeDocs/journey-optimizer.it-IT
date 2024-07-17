@@ -20,9 +20,9 @@ ht-degree: 4%
 
 # Rapporto globale della campagna {#objective-report}
 
-Il rapporto globale della campagna è accessibile direttamente dalla campagna con **[!UICONTROL Visualizza rapporto]** pulsante.
+Il report globale della campagna è accessibile direttamente dalla campagna con il pulsante **[!UICONTROL Visualizza report]**.
 
-La campagna **[!UICONTROL Rapporto globale]** è diviso in diversi widget che descrivono nel dettaglio il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
+Il **[!UICONTROL report globale]** della campagna è suddiviso in diversi widget che descrivono il successo e gli errori della campagna. Ogni widget può essere ridimensionato ed eliminato, se necessario. Per ulteriori informazioni, consulta questa [sezione](../reports/global-report.md#modify-dashboard).
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](global-report.md#list-of-components-global.md)
 
@@ -32,47 +32,47 @@ Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Opti
 
 ![](assets/campaign_report_global_1.png)
 
-Il **[!UICONTROL Statistiche della campagna]** widget fornisce dettagli sulle informazioni principali relative alla campagna:
+Il widget Statistiche ]**della**[!UICONTROL  campagna descrive le informazioni principali relative alla campagna:
 
 * **[!UICONTROL Profili immessi]**: numero di profili che hanno avviato il percorso.
 
-* **[!UICONTROL Azioni consegnate]**: numero totale di volte in cui è stata consegnata un’azione nel percorso.
+* **[!UICONTROL Azioni consegnate]**: numero totale di volte in cui un&#39;azione nel percorso è stata consegnata.
 
-* **[!UICONTROL Azioni non riuscite in %]**: numero totale di volte in cui un’azione non è riuscita nel percorso rispetto al numero totale di volte in cui è stata consegnata un’azione.
+* **[!UICONTROL Azioni non riuscite in %]**: numero totale di volte in cui un&#39;azione non è riuscita nel percorso rispetto al numero totale di volte in cui un&#39;azione è stata consegnata.
 
 ### Relazione sugli obiettivi {#objective-global}
 
 >[!AVAILABILITY]
 >
->Il **Relazione sugli obiettivi** Questa funzione è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>La funzionalità **Report obiettivi** è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 ![](assets/performance_report.gif)
 
-Il **[!UICONTROL Obiettivi]** Questa scheda ti consente di perfezionare meglio i rapporti delle consegne eseguendo il targeting di una metrica specifica.
+La scheda **[!UICONTROL Obiettivi]** ti consente di ottimizzare i rapporti delle consegne eseguendo il targeting di una metrica specifica.
 
-Il **[!UICONTROL Obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. Elenco di elementi incorporati **[!UICONTROL Obiettivi]** è disponibile, ma puoi aggiungerne uno nuovo aggiungendo nuove **[!UICONTROL Set di dati]**. Per la procedura dettagliata, fare riferimento al seguente [sezione](../content-management/reporting-configuration.md).
+Gli **[!UICONTROL obiettivi]** elencati sono collegati a **[!UICONTROL Set di dati]** che definiscono una connessione a un sistema per il recupero di informazioni aggiuntive. È disponibile un elenco di **[!UICONTROL Obiettivi]** incorporati, ma puoi aggiungerne di nuovi aggiungendo un **[!UICONTROL Set di dati]**. Per la procedura dettagliata, consulta questa [sezione](../content-management/reporting-configuration.md).
 
-Dopo aver selezionato gli obiettivi di destinazione, i due **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Finalità della campagna]** I widget forniranno un riepilogo dettagliato delle prestazioni di consegna.
+Dopo aver selezionato gli obiettivi per i quali desideri eseguire il targeting, i due widget **[!UICONTROL Panoramica delle prestazioni]** e **[!UICONTROL Obiettivo campagna]** forniranno un riepilogo dettagliato delle prestazioni della consegna.
 
-Con il **[!UICONTROL Finalità della campagna]** widget, puoi anche scegliere di confrontare l’obiettivo principale con un’altra metrica.
+Con il widget **[!UICONTROL Obiettivo campagna]**, puoi anche scegliere di confrontare l&#39;obiettivo principale con un&#39;altra metrica.
 
 ### Rapporto sulla sperimentazione {#experimentation-global-objectives}
 
 ![](assets/experimentation_report_3.png)
 
-Il **[!UICONTROL Sperimentazione]** fornisce informazioni chiave sulle prestazioni di ciascuna variante e identifica quella di maggior successo.
+La scheda **[!UICONTROL Sperimentazione]** fornisce informazioni chiave sulle prestazioni di ogni variante e identifica quella che ha avuto maggior successo.
 
-La definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tempo, sarà rappresentata da questa icona ![](assets/experimentation_report_1.png).
+La definizione dell&#39;esecutore migliore potrebbe richiedere un po&#39; di tempo, verrà rappresentata da questa icona ![](assets/experimentation_report_1.png).
 
 +++Ulteriori informazioni sulle diverse metriche e widget disponibili per il rapporto Sperimentazione.
 
-Il **[!UICONTROL Risultato esperimento]** il widget descrive le prestazioni di ogni variante. È possibile modificare la linea di base selezionando uno dei trattamenti tra **[!UICONTROL Linea di base]** il menu a discesa. Il miglior trattamento sarà rappresentato da un’icona a forma di stella.
+Il widget **[!UICONTROL Risultato esperimento]** descrive le prestazioni di ogni variante. Puoi modificare la linea di base selezionando uno dei trattamenti dal menu a discesa **[!UICONTROL Baseline]**. Il miglior trattamento sarà rappresentato da un’icona a forma di stella.
 
 La tabella presenta le metriche seguenti:
 
-* **[!UICONTROL Incremento rispetto alla linea di base]**: misura del miglioramento percentuale del tasso di conversione di un dato trattamento rispetto al basale.
+* **[!UICONTROL Incremento rispetto al basale]**: misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto al basale.
 
-* **[!UICONTROL Affidabilità]**: evidenza che un dato trattamento è uguale al trattamento di base. [Ulteriori informazioni](../content-management/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Affidabilità]**: prova che un determinato trattamento è uguale al trattamento basale. [Ulteriori informazioni](../content-management/experiment-calculations.md#understand-confidence)
 
 * **[!UICONTROL Clic in uscita univoci]**: numero totale di clic tra i canali in uscita.
 
@@ -80,7 +80,7 @@ La tabella presenta le metriche seguenti:
 
 * **[!UICONTROL Clic/profili in uscita univoci]**: valore totale della metrica di successo, precedentemente selezionata durante la creazione degli esperimenti, diviso per il numero di profili.
 
-Il **[!UICONTROL Intervallo di affidabilità]** Il grafico misura l’incertezza riguardo al miglioramento. Descrive la differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Ulteriori informazioni](../content-management/experiment-calculations.md#confidence-intervals).
+Il grafico **[!UICONTROL Intervallo di affidabilità]** misura l&#39;incertezza sul miglioramento. Descrive la differenza percentuale nelle prestazioni tra la linea di base e il trattamento dalle prestazioni migliori. [Ulteriori informazioni](../content-management/experiment-calculations.md#confidence-intervals).
 +++
 
 Per informazioni approfondite su questi risultati e su come interpretarli, consulta [questa pagina](../content-management/get-started-experiment.md#interpret-results).

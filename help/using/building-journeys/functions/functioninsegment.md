@@ -32,11 +32,11 @@ I tipi di pubblico possono avere tre stati:
 * realizzato: l’entità sta entrando nel pubblico.
 * uscita: l’entità sta uscendo dal pubblico.
 
-Solo i singoli utenti con **Realizzato** e **Esistente** gli stati di partecipazione del pubblico verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta [Documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** e **Esistente** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` significa che hai un segmentMembership con lo stato inserito/esistente.
 
-`ELSE inSegment('segmentName') == false` significa che disponi di segmentMembership dello stato di uscita.
+`ELSE inSegment('segmentName') == false` significa che hai un segmentMembership con stato di uscita.
 
 ## Categoria
 
@@ -46,7 +46,7 @@ Adobe Experience Platform
 
 `inSegment(<parameter>)`
 
-## Parametri
+## Elemento “parameters”
 
 | Parametro | Descrizione | Tipo |
 |--- |--- |--- |
@@ -64,4 +64,4 @@ Restituisce un valore booleano.
 
 Spiegazione:
 
-La funzione restituirà **[!UICONTROL true]** se l’individuo all’interno dell’istanza del percorso fa parte del pubblico Adobe Experience Platform denominato &quot;uomini sopra i 50 anni&quot;, **[!UICONTROL false]** altrimenti.
+La funzione restituirà **[!UICONTROL true]** se l&#39;individuo all&#39;interno dell&#39;istanza del percorso fa parte del pubblico Adobe Experience Platform denominato &quot;uomini sopra i 50 anni&quot;, **[!UICONTROL false]** in caso contrario.

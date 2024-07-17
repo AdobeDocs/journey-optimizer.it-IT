@@ -9,19 +9,19 @@ exl-id: 759c58e7-af1e-409c-8400-996b9a647ba7
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 # Aggiornare un posizionamento {#update-placement}
 
-Puoi modificare o aggiornare un posizionamento nel contenitore effettuando una richiesta PATCH al [!DNL Offer Library] API.
+È possibile modificare o aggiornare un posizionamento nel contenitore effettuando una richiesta PATCH all&#39;API [!DNL Offer Library].
 
-Per ulteriori informazioni sulla patch JSON, comprese le operazioni disponibili, consulta la sezione [Documentazione delle patch JSON](https://jsonpatch.com/).
+Per ulteriori informazioni sulla patch JSON, incluse le operazioni disponibili, consulta la [documentazione ufficiale sulla patch JSON](https://jsonpatch.com/).
 
 ## Intestazioni Accept e Content-Type {#accept-and-content-type-headers}
 
-La tabella seguente mostra i valori validi che compongono *Content-Type* e *Accetta* campi nell’intestazione della richiesta:
+La tabella seguente mostra i valori validi che comprendono i campi *Content-Type* e *Accept* nell&#39;intestazione della richiesta:
 
 | Nome intestazione | Valore |
 | ----------- | ----- |
@@ -67,13 +67,13 @@ curl -X PATCH \
 
 | Parametro | Descrizione |
 | --------- | ----------- |
-| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace`, e `remove`. |
+| `op` | Chiamata di operazione utilizzata per definire l&#39;azione necessaria per aggiornare la connessione. Le operazioni includono: `add`, `replace` e `remove`. |
 | `path` | Percorso del parametro da aggiornare. |
 | `value` | Il nuovo valore con cui desideri aggiornare il parametro. |
 
 **Risposta**
 
-In caso di esito positivo, la risposta restituisce i dettagli aggiornati del posizionamento, tra cui l’ID istanza univoco e il posizionamento `@id`.
+In caso di esito positivo, la risposta restituisce i dettagli aggiornati del posizionamento, inclusi l’ID istanza univoco e il posizionamento `@id`.
 
 ```json
 {
