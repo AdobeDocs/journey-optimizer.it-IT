@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+workflow-type: tm+mt
+source-wordcount: '1877'
+ht-degree: 99%
 
 ---
 
@@ -226,7 +226,7 @@ ht-degree: 100%
    + [Gestire la rinuncia ai messaggi di testo](using/sms/sms-opt-out.md)
    + [Configurare i sottodomini SMS](using/sms/sms-subdomains.md)
    + Configurare canale SMS/MMS{#configure-sms}
-      + [Introduzione alle configurazione di SMS](using/sms/sms-configuration.md)
+      + [Introduzione alla configurazione di SMS](using/sms/sms-configuration.md)
       + [Configurare il provider Sinch](using/sms/sms-configuration-sinch.md)
       + [Configurare il provider Infobip](using/sms/sms-configuration-infobip.md)
       + [Configurare il provider Twilio](using/sms/sms-configuration-twilio.md)
@@ -311,6 +311,7 @@ ht-degree: 100%
       + Casi d’uso della personalizzazione{#personalization-use-cases}
          + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
+         + [E-mail sulle prescrizioni del piano di integrità](using/personalization/perso-uc-plan-prescriptions.md)
    + Modelli di contenuto {#content-templates}
       + [Introduzione ai modelli di contenuto](using/content-management/content-templates.md)
       + [Accesso e gestione dei modelli](using/content-management/access-content-templates.md)
