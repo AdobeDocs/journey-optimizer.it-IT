@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 7dfedb1b66101204b4923ddeb7793c80887ebdc0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '590'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
 
    * **[!UICONTROL Doppio messaggio di consenso]**: inserisci la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso.
 
-   * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata.
+   * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero in entrata univoco o il tuo codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve.
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
