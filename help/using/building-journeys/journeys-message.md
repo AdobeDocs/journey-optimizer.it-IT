@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 17%
@@ -127,21 +127,30 @@ Queste informazioni vengono memorizzate con il profilo dell’utente e vi si fa 
 
 ### Domande frequenti {#faq-send-time}
 
-Quali operazioni può eseguire l’ottimizzazione dell’ora di invio? In che modo gestisce i nuovi profili? Distribuisce l’invio nell’arco di un’ora 6/12/24?
++++ Quali operazioni può eseguire l’ottimizzazione dell’ora di invio? In che modo gestisce i nuovi profili? Distribuisce l’invio nell’arco di un’ora 6/12/24?
 
 Send-Time Optimization cerca di prevedere il momento migliore per interagire con i clienti e ottimizzare le percentuali di apertura e clic sulle e-mail. Il punteggio è in un formato di `3*7*24` attributi per ciascun profilo. Gli attributi `7*24` descrivono la classificazione del momento migliore previsto per l’invio di e-mail al destinatario e 3 serve per ottimizzare il tasso di apertura delle e-mail, il tasso di clic e il tasso di apertura push.
 
-Dove posso trovare il tempo di invio previsto per ciascun profilo?
++++
+
++++Dove posso trovare il tempo di invio previsto per ciascun profilo?
 
 Puoi visualizzare il punteggio complessivo nell&#39;interfaccia **Profili**. Per ciascuno dei tre set di 168 punteggi, la classifica va da -83 a 84. Più alto è il rango, migliore è il momento scelto per interagire con il destinatario. Poiché è possibile definire l&#39;inizio e la durata di un percorso, la classificazione migliore (84) potrebbe non rientrare in tale intervallo di tempo. In questo caso, consigliamo di scegliere un’ora con il valore di classificazione più alto.
 
-Quali rapporti sono disponibili?
++++
+
+
++++Quali rapporti sono disponibili?
 
 Accedi al tuo percorso, fai clic sul pulsante **Visualizza rapporto** in alto a destra e seleziona la scheda **Percorso** a sinistra. [Ulteriori informazioni](../reports/journey-global-report.md)
 
-In che modo i dati di ottimizzazione dell’ora di invio influiscono sulla ricchezza del profilo?
++++
+
++++In che modo i dati di ottimizzazione dell’ora di invio influiscono sulla ricchezza dei profili?
 
 L’ottimizzazione dell’ora di invio aggiunge il punteggio/attributi a ciascun profilo, ma non ne viene creato uno nuovo.
+
++++
 
 ### Attivare l’ottimizzazione dell’ora di invio{#activate-send-time-optimization}
 
