@@ -11,7 +11,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 source-git-commit: dd7420257360a839d4dbeb05e78f002a09a9231b
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Flusso di lavoro di riscaldamento IP (GA)</strong><br/></th>
+<th><strong>Flusso di lavoro di preparazione IP (disponibile)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -55,7 +55,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi configurare altri provider SMS in Journey Optimizer, oltre ai provider predefiniti Sinch, Infobip e Twilio.</p>
+<p>Ora, in Journey Optimizer, puoi configurare altri provider SMS oltre a quelli predefiniti Sinch, Infobip e Twilio.</p>
 <!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -122,7 +122,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* (Disponibilità: 8 luglio) Ora puoi sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
+* (Disponibilità: 8 luglio) È ora possibile sfruttare l’editor di espressioni avanzato durante la configurazione di un evento, che consente di definire espressioni più complesse o utilizzare funzioni nella condizione per l’ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
 
 <!--* The `event-id` condition is now automatically filled during test mode. -->
 
@@ -136,7 +136,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Tipi di pubblico**
 
-* L’utilizzo dei tipi di pubblico da caricamento personalizzato (file CSV) è ora disponibile con Privacy and Security Shield.
+* L’utilizzo dei tipi di pubblico provenienti da caricamento personalizzato (file CSV) è ora disponibile con Privacy and Security Shield.
 <!--
 **Push channel**
 
