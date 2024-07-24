@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL
 
 ## Luglio 2024 {#july-2024}
 
-* È stato aggiunto un caso di utilizzo di personalizzazione su come personalizzare un’e-mail con informazioni relative a piani di integrità e prescrizioni. [Ulteriori informazioni](../personalization/perso-uc-plan-prescriptions.md)
+* È stato aggiunto un caso di utilizzo di personalizzazione su come personalizzare un’e-mail con informazioni relative a piani sanitari e prescrizioni. [Ulteriori informazioni](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Giugno 2024 {#june-2024}
 

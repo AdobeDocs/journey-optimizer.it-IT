@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1877'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -311,7 +311,7 @@ ht-degree: 99%
       + Casi d’uso della personalizzazione{#personalization-use-cases}
          + [Notifica dello stato dell’ordine](using/personalization/personalization-use-case.md)
          + [E-mail di abbandono carrello](using/personalization/personalization-use-case-helper-functions.md)
-         + [E-mail sulle prescrizioni del piano di integrità](using/personalization/perso-uc-plan-prescriptions.md)
+         + [E-mail sulle prescrizioni dei piani sanitari](using/personalization/perso-uc-plan-prescriptions.md)
    + Modelli di contenuto {#content-templates}
       + [Introduzione ai modelli di contenuto](using/content-management/content-templates.md)
       + [Accesso e gestione dei modelli](using/content-management/access-content-templates.md)

@@ -10,9 +10,9 @@ level: Beginner
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagne"
->abstract="Crea campagne per distribuire contenuti una tantum a un pubblico specifico su vari canali. Prima di creare la campagna, assicurati di disporre di una superficie di canale e di un pubblico Adobe Experience Platform pronti per l’uso."
+>abstract="Crea campagne per distribuire contenuti una tantum a un pubblico specifico su vari canali. Prima di creare una campagna, accertati di avere una superficie di canale e un pubblico di Adobe Experience Platform pronto per l’uso."
 
 Utilizza le campagne Journey Optimizer per distribuire contenuti una tantum a un pubblico specifico utilizzando vari canali. Quando si utilizzano i percorsi, le azioni vengono eseguite in sequenza. Con le campagne, le azioni vengono eseguite simultaneamente, immediatamente o in base a una pianificazione specifica.
 
