@@ -117,7 +117,7 @@ Dopo aver configurato e progettato la [pagina principale](#configure-primary-pag
 >id="ajo_lp_access_settings"
 >title="Definire l’URL della pagina di destinazione"
 >abstract="In questa sezione, definisci un URL univoco per la pagina di destinazione. Per la prima parte dell’URL, devi aver già impostato un sottodominio della pagina di destinazione come parte del predefinito selezionato."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="Configurare i sottodomini della pagina di destinazione"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains" text="Configurare i sottodomini della pagina di destinazione"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare i predefiniti per pagine di destinazione"
 
 La pagina principale è quella che viene visualizzata immediatamente dagli utenti dopo che hanno fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web.
