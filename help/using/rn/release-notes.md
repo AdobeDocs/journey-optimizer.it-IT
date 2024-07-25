@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
+source-git-commit: 4748090660b39c93522e5bd30a77542481f53bfa
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 91%
+source-wordcount: '1328'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 ## Note preliminari sulla versione di luglio 2024 {#27-4-2024}
 
-**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
+**Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati in questa pagina alla data di rilascio.
 
 **Data di rilascio**: 30-31 luglio 2024
 
