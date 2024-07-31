@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
+source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1458'
+ht-degree: 92%
 
 ---
 
@@ -290,3 +290,15 @@ Per cambiare lingua:
 >id="ajo_mobile_web_setup_push_android_studio"
 >title="Avviare l’applicazione da Android Studio"
 >abstract="DA CONFERMARE"
+
+<!-- priority scores-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Priorità"
+>abstract="Assegna un punteggio di priorità alla campagna, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne utilizzano la stessa superficie, Journey Optimizer selezionerà la campagna con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Priorità"
+>abstract="&quot;Assegna al percorso un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due percorsi utilizzano la stessa superficie, Journey Optimizer selezionerà il percorso con il punteggio di priorità più alto. Se i percorsi hanno lo stesso punteggio, verrà scelto il percorso modificato più di recente."
