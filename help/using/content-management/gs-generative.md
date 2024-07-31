@@ -11,10 +11,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Definire il contesto con l’Assistente IA"
->abstract="Per utilizzare il contenuto selezionato come input per la generazione di contenuto, attiva il pulsante **Usa contenuto originale**. Puoi anche caricare le risorse del brand per utilizzarle come origine. Se non utilizzi il contenuto selezionato, è obbligatorio caricare e selezionare le risorse di un brand."
+>title="Carica risorsa marchio"
+>abstract="Il menu Carica risorse marchio consente di aggiungere qualsiasi risorsa marchio contenente contenuto che possa fornire ulteriore contesto per l’Assistente IA o di selezionare una risorsa caricata in precedenza. Questa opzione garantisce che l’Assistente AI abbia accesso a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
 
 
 >[!CONTEXTUALHELP]
