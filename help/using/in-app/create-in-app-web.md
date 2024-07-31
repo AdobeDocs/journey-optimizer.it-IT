@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 5%
@@ -105,6 +105,7 @@ Per configurare il tuo canale Web in-app, segui i passaggi seguenti:
       |---|---|---|
       | Piattaforma | Tipo di evento XDM | Attivazione quando viene soddisfatto il tipo di evento specificato. |
       | Piattaforma | Valore XDM | Attivazione quando viene soddisfatto il valore XDM specificato. |
+
 +++
 
       ![](assets/in_app_web_surface_9.png)
