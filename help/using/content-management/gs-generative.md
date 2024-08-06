@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Carica risorsa marchio"
->abstract="Il menu Carica risorse marchio consente di aggiungere qualsiasi risorsa marchio contenente contenuto che possa fornire ulteriore contesto per l’Assistente IA o di selezionare una risorsa caricata in precedenza. Questa opzione garantisce che l’Assistente AI abbia accesso a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
+>title="Carica risorsa del brand"
+>abstract="Con il menu Carica risorsa del brand puoi aggiungere una risorsa del brand il cui contenuto possa fornire ulteriore contesto per Assistente IA, o selezionare una risorsa già caricata in precedenza. Grazie a questa opzione, Assistente IA può accedere a tutto il materiale necessario per migliorarne la funzionalità e la rilevanza."
 
 
 >[!CONTEXTUALHELP]

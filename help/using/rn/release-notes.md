@@ -7,9 +7,9 @@ topic: Content Management
 description: Note sulla versione di Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1244'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -70,14 +70,14 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Federated Audience Composition (disponibilità limitata)</strong><br/></th>
+<th><strong>Composizione di pubblico federato (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Federated Audience Composition è ora disponibile in Adobe Journey Optimizer. Consente alle aziende di comporre i dati per un migliore utilizzo in vari casi d’uso. Con questo nuovo approccio, in qualità di utente di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer, puoi federare i set di dati direttamente dal data warehouse esistente per creare e arricchire il pubblico e gli attributi di Adobe Experience Platform in un unico sistema.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">documentazione dettagliata</a>.</p>
+<p>Composizione di pubblico federato è ora disponibile in Adobe Journey Optimizer. Consente alle aziende di comporre dati per un migliore utilizzo in vari casi d’uso. Con questo nuovo approccio, in qualità di utente di Adobe Real-Time Customer Data Platform e/o di Adobe Journey Optimizer, puoi federare i set di dati direttamente dal data warehouse esistente per arricchire i tipi di pubblico e gli attributi di Adobe Experience Platform in un unico sistema.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/it/docs/federated-audience-composition/using/home"  target="_blank">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -89,7 +89,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* (Data di disponibilità: 8 luglio) **Editor espressioni avanzato nella configurazione dell&#39;evento di percorso** - È ora possibile sfruttare l&#39;editor espressioni avanzato durante la configurazione di un evento, consentendo di definire espressioni più complesse o utilizzare funzioni nella condizione ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
+* (Data di disponibilità: 8 luglio) **Editor di espressioni avanzate nella configurazione degli eventi percorso**: ora puoi sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, in modo da definire espressioni più complesse o utilizzare funzioni nella condizione ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
 
 <!--**Audiences**
 

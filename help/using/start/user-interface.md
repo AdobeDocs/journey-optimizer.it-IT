@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -296,7 +296,7 @@ Per cambiare lingua:
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Priorità"
->abstract="Assegna un punteggio di priorità alla campagna, compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne utilizzano la stessa superficie, Journey Optimizer selezionerà la campagna con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente."
+>abstract="Assegna alla campagna un punteggio di priorità compreso tra 0 e 100. Un numero più alto indica una priorità più alta. Quando due campagne utilizzano la stessa superficie, Journey Optimizer selezionerà la campagna con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata più di recente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
