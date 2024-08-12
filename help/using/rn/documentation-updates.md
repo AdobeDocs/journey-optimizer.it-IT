@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
-workflow-type: ht
-source-wordcount: '5407'
-ht-degree: 100%
+source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+workflow-type: tm+mt
+source-wordcount: '5447'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,13 @@ ht-degree: 100%
 
 Questa pagina elenca tutti gli ultimi aggiornamenti alla documentazione di [!DNL Journey Optimizer].
 
+## Agosto 2024 {#aug-2024}
+
+* I guardrail delle prestazioni per la gestione delle decisioni sono stati aggiornati per citare le velocità effettive di consegna delle API Decisioning con/senza segmentazione Edge. [Ulteriori informazioni](../start/guardrails.md#decision-management)
+
 ## Luglio 2024 {#july-2024}
 
+* Tutte le nuove funzioni e i miglioramenti apportati alla versione del 24 luglio di [!DNL Journey Optimizer] sono elencati in modo dettagliato nella documentazione. [Ulteriori informazioni](release-notes.md)
 * È stato aggiunto un caso di utilizzo di personalizzazione su come personalizzare un’e-mail con informazioni relative a piani sanitari e prescrizioni. [Ulteriori informazioni](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Giugno 2024 {#june-2024}
