@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, recapitabilità
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 94%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
 # Introduzione ai piani di preparazione IP {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* **[Introduzione alla preparazione dell’IP](ip-warmup-gs.md)**
-* [Creare campagne di preparazione IP](ip-warmup-campaign.md)
-* [Creare un piano di preparazione IP](ip-warmup-plan.md)
-* [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-Con [!DNL Journey Optimizer], è possibile eseguire facilmente flussi di lavoro di preparazione IP direttamente dall’interfaccia utente in modo standardizzato ed efficiente, seguendo le best practice per una recapitabilità ottimale.
-
-➡️ [Scopri come creare ed eseguire un piano di riscaldamento IP in questo video](#video)
-
->[!CAUTION]
->
->Questa funzione si applica solo al canale E-mail.
-
-Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) possono ritenere sospetti gli indirizzi IP che non vengono riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente da un nuovo indirizzo IP, gli ISP spesso le contrassegnano come spam.
+Con [!DNL Journey Optimizer] è possibile eseguire facilmente flussi di lavoro di riscaldamento IP direttamente dall&#39;interfaccia utente in modo standardizzato ed efficiente, seguendo le best practice per una consegna ottimale. Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) possono ritenere sospetti gli indirizzi IP che non vengono riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente da un nuovo indirizzo IP, gli ISP spesso le contrassegnano come spam.
 
 Per evitare che i messaggi di una tua nuova campagna vengano contrassegnati come spam, puoi aumentare progressivamente il volume inviato utilizzando la funzione Piano di preparazione IP. Questa nuova opzione disponibile nel menu **[!UICONTROL Amministrazione]** agevola questo compito in modo consolidato, senza dover creare complessi percorsi giornalieri.
 
->[!NOTE]
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+
+>[!AVAILABILITY]
 >
->Per ulteriori informazioni su come aumentare la reputazione e-mail con la preparazione degli indirizzi IP, consulta la [Guida alle best practice per la recapitabilità](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it).
+>Questa funzionalità può essere abilitata solo su sandbox di tipo produzione.
+>
+>Non è disponibile per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**.
+
+
 
 <!--
 Benefits
@@ -68,8 +52,15 @@ I passaggi chiave per implementare un piano di preparazione IP sono i seguenti:
 
 1. Seleziona una campagna per ogni fase del piano e attiva le esecuzioni corrispondenti. [Ulteriori informazioni](ip-warmup-execution.md)
 
-## Video introduttivo {#video}
+<!--Old UI
+## How-to video {#video}
 
-Scopri come creare ed eseguire un piano di preparazione IP.
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>Ulteriori informazioni sull&#39;aumento della reputazione e-mail con la preparazione degli indirizzi IP nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it).

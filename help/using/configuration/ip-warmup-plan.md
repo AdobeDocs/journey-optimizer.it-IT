@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 8%
+source-wordcount: '1665'
+ht-degree: 6%
 
 ---
 
 # Creare un piano di preparazione IP {#ip-warmup}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione ai piani di preparazione IP](ip-warmup-gs.md)
-* [Creare campagne di preparazione IP](ip-warmup-campaign.md)
-* **[Crea un piano di riscaldamento IP](ip-warmup-plan.md)**
-* [Eseguire il piano di preparazione IP](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
 
 Dopo aver creato una o più [campagne di riscaldamento IP](ip-warmup-campaign.md) con una superficie dedicata e l&#39;opzione corrispondente abilitata, puoi iniziare a creare il piano di riscaldamento IP.
 
@@ -112,11 +98,12 @@ Di seguito è riportato un esempio di file contenente un piano di riscaldamento 
 
 * Questa operazione pianificata viene eseguita in sei **fasi**, ognuna delle quali contiene almeno una esecuzione.
 
-* Puoi avere fino a 6 colonne (5 colonne per i gruppi di dominio e una per la colonna **Altri**). In questo esempio, il piano è diviso in sei colonne:
+* Puoi avere fino a 6 colonne (4 colonne per i gruppi di dominio, una per la colonna **Altri** e una per la colonna **Giorni di coinvolgimento**). In questo esempio, il piano è diviso in sei colonne:
 
-   * Quattro di questi corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Microsoft, Yahoo e Orange).
+   * Tre di questi corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Microsoft e Orange).
    * Uno corrisponde a un gruppo di dominio personalizzato (che è necessario aggiungere utilizzando la scheda [Gruppo di dominio personalizzato](#custom-domain-group-tab)).
-   * La sesta colonna, **Altri**, contiene tutti gli indirizzi rimanenti di altri domini non inclusi esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
+   * La quinta colonna, **Altri**, contiene tutti gli indirizzi rimanenti di altri domini non inclusi esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
+   * L&#39;ultima colonna, **Giorni di coinvolgimento**, consente di specificare il numero di giorni in cui il coinvolgimento deve essere tracciato o valutato.
 
 L’idea è quella di aumentare progressivamente il numero di indirizzi target in ogni esecuzione, riducendo al contempo il numero di esecuzioni per ogni fase.
 

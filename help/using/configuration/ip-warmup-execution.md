@@ -8,29 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '2558'
-ht-degree: 12%
+source-wordcount: '2530'
+ht-degree: 11%
 
 ---
 
 # Eseguire il piano di preparazione IP {#ip-warmup-running}
-
->[!BEGINSHADEBOX]
-
-Cosa troverai in questa documentazione:
-
-* [Introduzione ai piani di preparazione IP](ip-warmup-gs.md)
-* [Creare campagne di preparazione IP](ip-warmup-campaign.md)
-* [Creare un piano di preparazione IP](ip-warmup-plan.md)
-* **[Esegui il piano di riscaldamento IP](ip-warmup-execution.md)**
-
->[!ENDSHADEBOX]
 
 Dopo aver [creato un piano di riscaldamento IP](ip-warmup-plan.md) e aver caricato il file preparato con il tuo consulente di recapito messaggi, puoi definire le fasi ed eseguire il piano.
 
