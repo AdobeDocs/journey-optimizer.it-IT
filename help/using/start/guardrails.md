@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dcf1edb654639d41472d1e1ca263020df9fb63ec
-workflow-type: ht
-source-wordcount: '2065'
-ht-degree: 100%
+source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+workflow-type: tm+mt
+source-wordcount: '2078'
+ht-degree: 99%
 
 ---
 
@@ -165,7 +165,8 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | API | Decisioni al secondo |
 |---------|----------|
 | Richieste API Decisioning | 500 al secondo |
-| Richieste API Edge Decisioning | 1500 al secondo |
+| Richieste API di Edge Decisioning con segmentazione di Edge | 1500 al secondo |
+| Richieste API di Edge Decisioning senza segmentazione di Edge | 5000 al secondo |
 
 ### Limitazioni {#offers-limitations}
 
