@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 18d74badf3f5ea98f613d6b31303aa3108c979a5
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 9fdaff7a4364bb7ecfeec27446ed8f4b4ce34488
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 52%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 **Le note preliminari sulla versione riportate di seguito sono soggette a modifiche senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle [note sulla versione](release-notes.md), alla data di rilascio.
 
-## Note preliminari sulla versione di luglio 2024 {#e-2024}
+## Note preliminari sulla versione di agosto 2024 {#e-2024}
 
-**Data di rilascio**: 30-31 luglio 2024
+**Data di rilascio**: 20-21 agosto 2024
 
 ### Nuove funzionalità {#e-features}
 
@@ -32,31 +32,13 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Flusso di lavoro di preparazione IP</strong><br/></th>
+<th><strong>Azione personalizzata Marketo Engage</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Se invii un’e-mail con un nuovo indirizzo IP, ora puoi eseguire facilmente i flussi di lavoro di preparazione IP direttamente dall’interfaccia utente. Adobe Journey Optimizer offre un modo standardizzato ed efficiente di preparare gli indirizzi IP seguendo le best practice per una recapitabilità ottimale.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Canale SMS con qualsiasi provider (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora, in Journey Optimizer, puoi configurare altri provider SMS oltre a quelli predefiniti Sinch, Infobip e Twilio.</p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>Ora puoi integrare Adobe Journey Optimizer con Adobe Marketo Engage per creare i tuoi casi d’uso B2B. Una nuova azione personalizzata da un percorso consente di acquisire dati in Marketo.</p>
 </td>
 </tr>
 </tbody>
@@ -65,55 +47,24 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Composizione di pubblico federato (disponibilità limitata)</strong><br/></th>
+<th><strong>Configurazioni di canale migliorate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Composizione di pubblico federato è ora disponibile in Adobe Journey Optimizer. Consente alle aziende di comporre dati per un migliore utilizzo in vari casi d’uso. Con questo nuovo approccio, in qualità di utente di Adobe Real-Time Customer Data Platform e/o di Adobe Journey Optimizer, puoi federare i set di dati direttamente dal data warehouse esistente per arricchire i tipi di pubblico e gli attributi di Adobe Experience Platform in un unico sistema.</p>
-<!--p>For more information, refer to the <a href="https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home"  target="_blank">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Marketo Engage custom action</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now integrate Adobe Journey Optimizer with Adobe Marketo Engage to build your B2B use cases. From a journey, a new custom action allows you to ingest data into Marketo.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Improved channel configurations</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
+<p>Le funzionalità della superficie di canale corrente sono state migliorate per un approccio coerente su tutti i canali. Ora puoi definire, gestire e riutilizzare queste configurazioni per qualsiasi canale.</p>
 <p><ul>
-<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
-<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
-<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
-<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
+<li>Le superfici di canale ora sono rinominate in <strong>Configurazioni canale</strong></li>
+<li>Dall’inventario delle configurazioni di canale ora puoi creare configurazioni di canale riutilizzabili per tutti i canali, inclusi ora il web, la messaggistica in-app o l’esperienza basata su codice</li>
+<li>Il controllo dell'accesso a livello di oggetto (OLAC) è ora disponibile per ogni configurazione di canale, consentendo di decidere quali utenti possono creare o utilizzare configurazioni specifiche</li>
+<li>Per alcuni canali, puoi creare configurazioni di canale mirate per più piattaforme. Ad esempio, potrebbe trattarsi di una configurazione del canale di messaggistica in-app in grado di eseguire il targeting per una pagina web, un’app iOS e un’app Android.</li>
 </ul></p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/ip-warmup-gs.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
@@ -138,11 +89,12 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* (Disponibilità: 8 luglio) È ora possibile sfruttare l’editor di espressioni avanzato durante la configurazione di un evento, che consente di definire espressioni più complesse o utilizzare funzioni nella condizione per l’ID evento. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
+* Nell&#39;attività **Condition**, per impostazione predefinita, la condizione Ora è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/condition-activity.md#time_condition)
 
 **Tipi di pubblico**
 
 * L’utilizzo dei tipi di pubblico provenienti da caricamento personalizzato (file CSV) è ora disponibile con Privacy and Security Shield.
+
 <!--
 **Push channel**
 
